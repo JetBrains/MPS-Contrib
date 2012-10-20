@@ -11,7 +11,7 @@ import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.cellMenu.CompositeSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.BasicCellContext;
-import jetbrains.mps.nodeEditor.cellMenu.SubstituteInfoPart;
+import jetbrains.mps.nodeEditor.cellMenu.SubstituteInfoPartExt;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
@@ -54,7 +54,7 @@ public class PropertyDeclaration_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_lnae77_b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_lnae77_b0");
-    editorCell.setSubstituteInfo(new CompositeSubstituteInfo(editorContext, new BasicCellContext(node), new SubstituteInfoPart[]{new PropertyDeclaration_Editor.PropertyDeclaration_generic_cellMenu_a0b0()}));
+    editorCell.setSubstituteInfo(new CompositeSubstituteInfo(editorContext, new BasicCellContext(node), new SubstituteInfoPartExt[]{new PropertyDeclaration_Editor.PropertyDeclaration_generic_cellMenu_a0b0()}));
     editorCell.addEditorCell(this.createConceptProperty_lnae77_a1a(editorContext, node));
     editorCell.addEditorCell(this.createProperty_lnae77_b1a(editorContext, node));
     editorCell.addEditorCell(this.createConstant_lnae77_c1a(editorContext, node));
@@ -186,7 +186,7 @@ public class PropertyDeclaration_Editor extends DefaultNodeEditor {
     public PropertyDeclaration_generic_cellMenu_a0b0() {
     }
 
-    public void handleAction(SNode node, SModel model, IScope scope, IOperationContext operationContext) {
+    public void handleAction(SNode node, SModel model, IScope scope, IOperationContext operationContext, EditorContext editorContext) {
       SPropertyOperations.set(node, "shortDescription", "");
     }
 
