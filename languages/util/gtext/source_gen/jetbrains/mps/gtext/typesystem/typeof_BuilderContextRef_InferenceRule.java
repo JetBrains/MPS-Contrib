@@ -52,7 +52,7 @@ public class typeof_BuilderContextRef_InferenceRule extends AbstractInferenceRul
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
       SNode quotedNode_1 = null;
       {
-        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", null, GlobalScope.getInstance(), false);
+        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", null, null, GlobalScope.getInstance(), false);
         SNode quotedNode1_2 = quotedNode_1;
         quotedNode1_2.setReference("classifier", SReference.create("classifier", quotedNode1_2, SModelReference.fromString("r:1773d365-6692-4940-84a5-a678462b1f6f(jetbrains.mps.gtext.runtime)"), SNodeId.fromString("7733366827988671037")));
         result = quotedNode1_2;
@@ -65,7 +65,7 @@ public class typeof_BuilderContextRef_InferenceRule extends AbstractInferenceRul
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
       SNode quotedNode_1 = null;
       {
-        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", null, GlobalScope.getInstance(), false);
+        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", null, null, GlobalScope.getInstance(), false);
         SNode quotedNode1_2 = quotedNode_1;
         quotedNode1_2.setReference("classifier", SReference.create("classifier", quotedNode1_2, SModelReference.fromString("r:1773d365-6692-4940-84a5-a678462b1f6f(jetbrains.mps.gtext.runtime)"), SNodeId.fromString("7733366827988671037")));
         result = quotedNode1_2;

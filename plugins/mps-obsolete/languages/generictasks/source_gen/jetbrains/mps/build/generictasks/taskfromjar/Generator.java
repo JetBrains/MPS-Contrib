@@ -421,7 +421,7 @@ public class Generator {
         Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
         SNode quotedNode_1 = null;
         {
-          quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.StringEnum", null, GlobalScope.getInstance(), false);
+          quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.StringEnum", null, null, GlobalScope.getInstance(), false);
           SNode quotedNode1_2 = quotedNode_1;
           result = quotedNode1_2;
         }
@@ -438,7 +438,7 @@ public class Generator {
         Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
         SNode quotedNode_1 = null;
         {
-          quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.StringLiteral", null, GlobalScope.getInstance(), false);
+          quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.StringLiteral", null, null, GlobalScope.getInstance(), false);
           SNode quotedNode1_2 = quotedNode_1;
           quotedNode1_2.setProperty("value", (String) parameter_3);
           result = quotedNode1_2;
@@ -456,7 +456,7 @@ public class Generator {
         Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
         SNode quotedNode_1 = null;
         {
-          quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.build.generictasks.structure.NestedDeclaration", null, GlobalScope.getInstance(), false);
+          quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.build.generictasks.structure.NestedDeclaration", null, null, GlobalScope.getInstance(), false);
           SNode quotedNode1_2 = quotedNode_1;
           quotedNode1_2.setReferenceTarget("declaration", (SNode) parameter_3);
           result = quotedNode1_2;
@@ -474,7 +474,7 @@ public class Generator {
         Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
         SNode quotedNode_1 = null;
         {
-          quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.StringType", null, GlobalScope.getInstance(), false);
+          quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.StringType", null, null, GlobalScope.getInstance(), false);
           SNode quotedNode1_2 = quotedNode_1;
           result = quotedNode1_2;
         }
@@ -491,7 +491,7 @@ public class Generator {
         Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
         SNode quotedNode_1 = null;
         {
-          quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.CallReferenceType", null, GlobalScope.getInstance(), false);
+          quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.CallReferenceType", null, null, GlobalScope.getInstance(), false);
           SNode quotedNode1_2 = quotedNode_1;
           result = quotedNode1_2;
         }
@@ -508,7 +508,7 @@ public class Generator {
         Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
         SNode quotedNode_1 = null;
         {
-          quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.FileType", null, GlobalScope.getInstance(), false);
+          quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.FileType", null, null, GlobalScope.getInstance(), false);
           SNode quotedNode1_2 = quotedNode_1;
           result = quotedNode1_2;
         }
@@ -525,7 +525,7 @@ public class Generator {
         Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
         SNode quotedNode_1 = null;
         {
-          quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.BooleanType", null, GlobalScope.getInstance(), false);
+          quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.BooleanType", null, null, GlobalScope.getInstance(), false);
           SNode quotedNode1_2 = quotedNode_1;
           result = quotedNode1_2;
         }
@@ -542,7 +542,7 @@ public class Generator {
         Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
         SNode quotedNode_1 = null;
         {
-          quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.IntegerType", null, GlobalScope.getInstance(), false);
+          quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.IntegerType", null, null, GlobalScope.getInstance(), false);
           SNode quotedNode1_2 = quotedNode_1;
           result = quotedNode1_2;
         }
