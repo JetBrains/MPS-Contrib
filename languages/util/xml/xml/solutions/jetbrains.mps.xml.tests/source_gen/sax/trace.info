@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <root nodeId="2059681291147340382" modelId="r:453eba07-be06-4d79-be27-e839de91fcf2(sax)">
-    <nodeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="12" startPosition="63" endLine="13" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="EMPTY_ARRAY" />
+    <nodeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="12" startPosition="55" endLine="13" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="EMPTY_ARRAY" />
     <nodeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="14" startPosition="0" endLine="15" endPosition="125" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="rootElementhandler" />
     <nodeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="15" startPosition="125" endLine="16" endPosition="128" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="childElementhandler" />
     <nodeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="16" startPosition="128" endLine="17" endPosition="114" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myHandlersStack" />

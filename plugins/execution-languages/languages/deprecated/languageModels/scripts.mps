@@ -17,21 +17,21 @@
   <import index="tp2c" modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" implicit="yes" />
   <roots>
     <node type="tp33.MigrationScript" typeId="tp33.1177457067821" id="4283697670712794863">
-      <property name="migrationFromBuild" nameId="tp33.1206123256132" value="1193" />
-      <property name="name" nameId="tpck.1169194664001" value="FixReferencesToDeletedRunModels" />
       <property name="title" nameId="tp33.1177457669450" value="Fix References to Deleted Run Models" />
-      <property name="type" nameId="tp33.5299416737274925395" value="migration" />
+      <property name="name" nameId="tpck.1169194664001" value="FixReferencesToDeletedRunModels" />
+      <property name="migrationFromBuild" nameId="tp33.1206123256132" value="1193" />
       <property name="toBuild" nameId="tp33.5299416737274925397" value="MPS 2.0" />
+      <property name="type" nameId="tp33.5299416737274925395" value="migration" />
     </node>
     <node type="tpee.ClassConcept" typeId="tpee.1068390468198" id="2581841087371073721">
       <property name="name" nameId="tpck.1169194664001" value="ScriptsUtil" />
     </node>
     <node type="tp33.MigrationScript" typeId="tp33.1177457067821" id="2182799002613250861">
-      <property name="migrationFromBuild" nameId="tp33.1206123256132" value="1193" />
-      <property name="name" nameId="tpck.1169194664001" value="FixReferencesToMpsLaunch" />
       <property name="title" nameId="tp33.1177457669450" value="Fix References to MPSLaunch Annotation" />
+      <property name="name" nameId="tpck.1169194664001" value="FixReferencesToMpsLaunch" />
+      <property name="migrationFromBuild" nameId="tp33.1206123256132" value="1193" />
+      <property name="toBuild" nameId="tp33.5299416737274925397" value="MPS 2.5" />
       <property name="type" nameId="tp33.5299416737274925395" value="migration" />
-      <property name="toBuild" nameId="tp33.5299416737274925397" value="2.5" />
     </node>
   </roots>
   <root id="4283697670712794863">
