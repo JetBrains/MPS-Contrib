@@ -17,7 +17,7 @@ import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.style.Padding;
 import jetbrains.mps.nodeEditor.style.Measure;
 import jetbrains.mps.nodeEditor.cellMenu.CompositeSubstituteInfo;
-import jetbrains.mps.nodeEditor.cellMenu.SubstituteInfoPart;
+import jetbrains.mps.nodeEditor.cellMenu.SubstituteInfoPartExt;
 import jetbrains.mps.lang.editor.generator.internal.AbstractCellMenuPart_ReplaceNode_CustomNodeConcept;
 
 public class PlusOperation_Editor extends DefaultNodeEditor {
@@ -82,7 +82,7 @@ public class PlusOperation_Editor extends DefaultNodeEditor {
       style.set(StyleAttributes.PADDING_LEFT, new Padding(0.8, Measure.SPACES));
       style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.8, Measure.SPACES));
     }
-    editorCell.setSubstituteInfo(new CompositeSubstituteInfo(editorContext, provider.getCellContext(), new SubstituteInfoPart[]{new PlusOperation_Editor.ReplaceWith_BinaryOperation_cellMenu_a0b0_0()}));
+    editorCell.setSubstituteInfo(new CompositeSubstituteInfo(editorContext, provider.getCellContext(), new SubstituteInfoPartExt[]{new PlusOperation_Editor.ReplaceWith_BinaryOperation_cellMenu_a0b0_0()}));
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
