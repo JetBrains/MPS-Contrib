@@ -46,7 +46,7 @@ public class Scroller_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_rbdq4p_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "Scroller");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Scroller");
     editorCell.setCellId("Constant_rbdq4p_a0");
     Stylesheet_StyleSheet.getComponent(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -62,7 +62,7 @@ public class Scroller_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_rbdq4p_a1a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent((jetbrains.mps.nodeEditor.EditorContext) editorContext, node);
+    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
     return result;
   }
 
