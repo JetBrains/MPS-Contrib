@@ -46,7 +46,7 @@ public class Form_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_317s4_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "Form");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Form");
     editorCell.setCellId("Constant_317s4_a0");
     Stylesheet_StyleSheet.getComponent(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -62,7 +62,7 @@ public class Form_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_317s4_a1a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent((jetbrains.mps.nodeEditor.EditorContext) editorContext, node);
+    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
     return result;
   }
 

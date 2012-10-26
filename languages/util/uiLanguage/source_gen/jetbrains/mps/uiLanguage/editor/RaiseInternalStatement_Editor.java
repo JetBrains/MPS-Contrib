@@ -28,14 +28,14 @@ public class RaiseInternalStatement_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_vabn2r_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "raise");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "raise");
     editorCell.setCellId("Constant_vabn2r_a0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_vabn2r_c0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, ";");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ";");
     editorCell.setCellId("Constant_vabn2r_c0");
     editorCell.setDefaultText("");
     return editorCell;
