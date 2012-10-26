@@ -46,7 +46,7 @@ public class RunConfigurationMethods extends AbstractCellProvider {
   }
 
   private EditorCell createConstant_a3nk37_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_a3nk37_a0");
     editorCell.setDefaultText("");
     return editorCell;
@@ -100,7 +100,7 @@ public class RunConfigurationMethods extends AbstractCellProvider {
     }
 
     private EditorCell createConstant_a3nk37_a1a(EditorContext editorContext, SNode node) {
-      EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "<additional methods>");
+      EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<additional methods>");
       editorCell.setCellId("Constant_a3nk37_a1a");
       BaseLanguageStyle_StyleSheet.getComment(editorCell).apply(editorCell);
       editorCell.setDefaultText("");

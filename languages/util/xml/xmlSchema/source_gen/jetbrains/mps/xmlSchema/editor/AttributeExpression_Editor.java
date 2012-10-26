@@ -14,7 +14,7 @@ public class AttributeExpression_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createError_8th4ak_a(EditorContext editorContext, SNode node) {
-    EditorCell_Error editorCell = new EditorCell_Error((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "attributeExpression");
+    EditorCell_Error editorCell = new EditorCell_Error(editorContext, node, "attributeExpression");
     editorCell.setCellId("Error_8th4ak_a");
     return editorCell;
   }

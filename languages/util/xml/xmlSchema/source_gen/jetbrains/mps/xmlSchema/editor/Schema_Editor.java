@@ -85,14 +85,14 @@ public class Schema_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_rivvfp_b0a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "schema");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "schema");
     editorCell.setCellId("Constant_rivvfp_b0a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_rivvfp_b0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_rivvfp_b0");
     {
       Style style = editorCell.getStyle();
@@ -103,35 +103,35 @@ public class Schema_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_rivvfp_a2a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "root element:");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "root element:");
     editorCell.setCellId("Constant_rivvfp_a2a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_rivvfp_c2a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "(");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
     editorCell.setCellId("Constant_rivvfp_c2a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_rivvfp_d2a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "alwaysUseRoot:");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "alwaysUseRoot:");
     editorCell.setCellId("Constant_rivvfp_d2a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_rivvfp_f2a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, ")");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
     editorCell.setCellId("Constant_rivvfp_f2a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_rivvfp_d0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_rivvfp_d0");
     {
       Style style = editorCell.getStyle();
@@ -142,14 +142,14 @@ public class Schema_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_rivvfp_a4a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "default namespace:");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "default namespace:");
     editorCell.setCellId("Constant_rivvfp_a4a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_rivvfp_f0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_rivvfp_f0");
     {
       Style style = editorCell.getStyle();

@@ -104,7 +104,7 @@ public class PeriodSeparatorFormatToken_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_ih8plz_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "[");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "[");
     editorCell.setCellId("Constant_ih8plz_a0");
     BaseLanguageStyle_StyleSheet.getLeftBracket(editorCell).apply(editorCell);
     {
@@ -116,7 +116,7 @@ public class PeriodSeparatorFormatToken_Editor extends DefaultNodeEditor {
             cell.getSNode()
           ), (cell == null ?
             null :
-            cell.getEditorContext()
+            cell.getContext()
           ));
         }
       });
@@ -126,7 +126,7 @@ public class PeriodSeparatorFormatToken_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_ih8plz_a2a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, ",");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ",");
     editorCell.setCellId("Constant_ih8plz_a2a");
     {
       Style style = editorCell.getStyle();
@@ -137,7 +137,7 @@ public class PeriodSeparatorFormatToken_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_ih8plz_d0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "]");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "]");
     editorCell.setCellId("Constant_ih8plz_d0");
     BaseLanguageStyle_StyleSheet.getRightBracket(editorCell).apply(editorCell);
     {
@@ -149,7 +149,7 @@ public class PeriodSeparatorFormatToken_Editor extends DefaultNodeEditor {
             cell.getSNode()
           ), (cell == null ?
             null :
-            cell.getEditorContext()
+            cell.getContext()
           ));
         }
       });
@@ -159,21 +159,21 @@ public class PeriodSeparatorFormatToken_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_ih8plz_a0a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "text");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "text");
     editorCell.setCellId("Constant_ih8plz_a0a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_ih8plz_a1a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "text for last separator");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "text for last separator");
     editorCell.setCellId("Constant_ih8plz_a1a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_ih8plz_a2a_0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "applicable if present");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "applicable if present");
     editorCell.setCellId("Constant_ih8plz_a2a_0");
     editorCell.setDefaultText("");
     return editorCell;
@@ -301,11 +301,11 @@ public class PeriodSeparatorFormatToken_Editor extends DefaultNodeEditor {
     return SPropertyOperations.hasValue(node, "kind", "default", "default");
   }
 
-  private static boolean _StyleParameter_QueryFunction_ih8plz_a0a0(SNode node, jetbrains.mps.nodeEditor.EditorContext editorContext) {
+  private static boolean _StyleParameter_QueryFunction_ih8plz_a0a0(SNode node, EditorContext editorContext) {
     return !(SPropertyOperations.hasValue(node, "kind", "ifAfter", "default"));
   }
 
-  private static boolean _StyleParameter_QueryFunction_ih8plz_a0d0(SNode node, jetbrains.mps.nodeEditor.EditorContext editorContext) {
+  private static boolean _StyleParameter_QueryFunction_ih8plz_a0d0(SNode node, EditorContext editorContext) {
     return !(SPropertyOperations.hasValue(node, "kind", "ifBefore", "default"));
   }
 

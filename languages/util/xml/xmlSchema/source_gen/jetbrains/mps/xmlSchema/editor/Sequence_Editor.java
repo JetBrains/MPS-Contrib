@@ -67,7 +67,7 @@ public class Sequence_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_6lwes5_a0a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "sequence");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "sequence");
     editorCell.setCellId("Constant_6lwes5_a0a");
     {
       Style style = editorCell.getStyle();
@@ -78,7 +78,7 @@ public class Sequence_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_6lwes5_a1a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "  ");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "  ");
     editorCell.setCellId("Constant_6lwes5_a1a0");
     {
       Style style = editorCell.getStyle();
@@ -89,7 +89,7 @@ public class Sequence_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_6lwes5_a0a_0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "sequence");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "sequence");
     editorCell.setCellId("Constant_6lwes5_a0a_0");
     {
       Style style = editorCell.getStyle();
@@ -100,14 +100,14 @@ public class Sequence_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_6lwes5_b0a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "(");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
     editorCell.setCellId("Constant_6lwes5_b0a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_6lwes5_d0a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, ")");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
     editorCell.setCellId("Constant_6lwes5_d0a");
     editorCell.setDefaultText("");
     return editorCell;

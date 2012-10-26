@@ -33,7 +33,7 @@ public class GroupDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_d9mel4_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "group");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "group");
     editorCell.setCellId("Constant_d9mel4_a0");
     {
       Style style = editorCell.getStyle();
@@ -44,7 +44,7 @@ public class GroupDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_d9mel4_c0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, ": ");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ": ");
     editorCell.setCellId("Constant_d9mel4_c0");
     editorCell.setDefaultText("");
     return editorCell;

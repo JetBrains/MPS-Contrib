@@ -14,7 +14,7 @@ public class GroupExpression_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createError_dyo3zu_a(EditorContext editorContext, SNode node) {
-    EditorCell_Error editorCell = new EditorCell_Error((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "groupExpression");
+    EditorCell_Error editorCell = new EditorCell_Error(editorContext, node, "groupExpression");
     editorCell.setCellId("Error_dyo3zu_a");
     return editorCell;
   }

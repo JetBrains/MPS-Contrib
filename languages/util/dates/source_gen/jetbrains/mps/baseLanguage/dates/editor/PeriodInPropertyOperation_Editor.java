@@ -44,7 +44,7 @@ public class PeriodInPropertyOperation_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_u0w6r4_b0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "in");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "in");
     editorCell.setCellId("Constant_u0w6r4_b0");
     BaseLanguageStyle_StyleSheet.getOperator(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -52,7 +52,7 @@ public class PeriodInPropertyOperation_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_u0w6r4_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "absolute");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "absolute");
     editorCell.setCellId("Constant_u0w6r4_a0");
     editorCell.setDefaultText("");
     return editorCell;

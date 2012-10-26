@@ -40,7 +40,7 @@ public class TimeConstant_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_r2b8x9_e0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, ":");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ":");
     editorCell.setCellId("Constant_r2b8x9_e0");
     {
       Style style = editorCell.getStyle();
@@ -52,7 +52,7 @@ public class TimeConstant_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_r2b8x9_g0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, ":");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ":");
     editorCell.setCellId("Constant_r2b8x9_g0");
     {
       Style style = editorCell.getStyle();
@@ -64,7 +64,7 @@ public class TimeConstant_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_r2b8x9_i0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "in");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "in");
     editorCell.setCellId("Constant_r2b8x9_i0");
     Dates_StyleSheet.getDateCompactKeyWord(editorCell).apply(editorCell);
     editorCell.setDefaultText("");

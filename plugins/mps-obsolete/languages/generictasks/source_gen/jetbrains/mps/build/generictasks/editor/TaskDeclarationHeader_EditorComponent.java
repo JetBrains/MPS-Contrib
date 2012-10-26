@@ -125,7 +125,7 @@ public class TaskDeclarationHeader_EditorComponent extends AbstractCellProvider 
   }
 
   private EditorCell createConstant_ws04gp_a0a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "abstract");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "abstract");
     editorCell.setCellId("Constant_ws04gp_a0a");
     BuildLanguageStyle_StyleSheet.getKeyword(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -133,7 +133,7 @@ public class TaskDeclarationHeader_EditorComponent extends AbstractCellProvider 
   }
 
   private EditorCell createConstant_ws04gp_d0a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "extends");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "extends");
     editorCell.setCellId("Constant_ws04gp_d0a");
     BuildLanguageStyle_StyleSheet.getKeyword(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -141,7 +141,7 @@ public class TaskDeclarationHeader_EditorComponent extends AbstractCellProvider 
   }
 
   private EditorCell createConstant_ws04gp_a5a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "implements");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "implements");
     editorCell.setCellId("Constant_ws04gp_a5a0");
     BuildLanguageStyle_StyleSheet.getKeyword(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -149,7 +149,7 @@ public class TaskDeclarationHeader_EditorComponent extends AbstractCellProvider 
   }
 
   private EditorCell createConstant_ws04gp_b1a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "classname:");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "classname:");
     editorCell.setCellId("Constant_ws04gp_b1a");
     BuildLanguageStyle_StyleSheet.getKeyword(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -157,7 +157,7 @@ public class TaskDeclarationHeader_EditorComponent extends AbstractCellProvider 
   }
 
   private EditorCell createConstant_ws04gp_b2a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "have internal text:");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "have internal text:");
     editorCell.setCellId("Constant_ws04gp_b2a");
     BuildLanguageStyle_StyleSheet.getKeyword(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -174,12 +174,12 @@ public class TaskDeclarationHeader_EditorComponent extends AbstractCellProvider 
   }
 
   private EditorCell createIndentCell_ws04gp_a1a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent((jetbrains.mps.nodeEditor.EditorContext) editorContext, node);
+    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
     return result;
   }
 
   private EditorCell createIndentCell_ws04gp_a2a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent((jetbrains.mps.nodeEditor.EditorContext) editorContext, node);
+    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
     return result;
   }
 
@@ -337,7 +337,7 @@ public class TaskDeclarationHeader_EditorComponent extends AbstractCellProvider 
 
     @Override
     public EditorCell createSeparatorCell(EditorContext editorContext, SNode node) {
-      EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, this.getOwner(), ",");
+      EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, this.getOwner(), ",");
       editorCell.setSelectable(false);
       editorCell.getStyle().set(StyleAttributes.LAYOUT_CONSTRAINT, "");
       editorCell.getStyle().set(StyleAttributes.PUNCTUATION_LEFT, true);
@@ -345,7 +345,7 @@ public class TaskDeclarationHeader_EditorComponent extends AbstractCellProvider 
     }
 
     private EditorCell createConstant_ws04gp_a1f0a(EditorContext editorContext, SNode node) {
-      EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "<interfaces>");
+      EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<interfaces>");
       editorCell.setCellId("Constant_ws04gp_a1f0a");
       BuildLanguageStyle_StyleSheet.getPrompting(editorCell).apply(editorCell);
       editorCell.setDefaultText("");

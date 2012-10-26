@@ -110,7 +110,7 @@ public class RunConfigurationBody extends AbstractCellProvider {
   }
 
   private EditorCell createConstant_mrxxs6_b0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_mrxxs6_b0");
     {
       Style style = editorCell.getStyle();
@@ -121,14 +121,14 @@ public class RunConfigurationBody extends AbstractCellProvider {
   }
 
   private EditorCell createConstant_mrxxs6_a2a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "editor");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "editor");
     editorCell.setCellId("Constant_mrxxs6_a2a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_mrxxs6_d0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_mrxxs6_d0");
     {
       Style style = editorCell.getStyle();
@@ -139,7 +139,7 @@ public class RunConfigurationBody extends AbstractCellProvider {
   }
 
   private EditorCell createConstant_mrxxs6_f0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_mrxxs6_f0");
     {
       Style style = editorCell.getStyle();
@@ -150,7 +150,7 @@ public class RunConfigurationBody extends AbstractCellProvider {
   }
 
   private EditorCell createConstant_mrxxs6_h0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_mrxxs6_h0");
     {
       Style style = editorCell.getStyle();
@@ -161,21 +161,21 @@ public class RunConfigurationBody extends AbstractCellProvider {
   }
 
   private EditorCell createConstant_mrxxs6_a8a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "execution parameters (deprecated):");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "execution parameters (deprecated):");
     editorCell.setCellId("Constant_mrxxs6_a8a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_mrxxs6_j0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_mrxxs6_j0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_mrxxs6_l0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_mrxxs6_l0");
     {
       Style style = editorCell.getStyle();
@@ -202,7 +202,7 @@ public class RunConfigurationBody extends AbstractCellProvider {
   }
 
   private EditorCell createIndentCell_mrxxs6_a1i0(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent((jetbrains.mps.nodeEditor.EditorContext) editorContext, node);
+    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
     return result;
   }
 

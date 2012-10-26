@@ -159,7 +159,7 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_t7l4bw_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "datetime properties");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "datetime properties");
     editorCell.setCellId("Constant_t7l4bw_a0");
     BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -167,7 +167,7 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_t7l4bw_b0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "{");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "{");
     editorCell.setCellId("Constant_t7l4bw_b0");
     BaseLanguageStyle_StyleSheet.getMatching(editorCell).apply(editorCell);
     {
@@ -180,14 +180,14 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_t7l4bw_a2a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_t7l4bw_a2a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_t7l4bw_c2a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_t7l4bw_c2a");
     {
       Style style = editorCell.getStyle();
@@ -199,7 +199,7 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_t7l4bw_e2a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_t7l4bw_e2a");
     {
       Style style = editorCell.getStyle();
@@ -210,7 +210,7 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_t7l4bw_h2a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_t7l4bw_h2a");
     {
       Style style = editorCell.getStyle();
@@ -222,7 +222,7 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_t7l4bw_b0i2a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "month");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "month");
     editorCell.setCellId("Constant_t7l4bw_b0i2a");
     DatesInternal_StyleSheet.getTableCell(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -230,7 +230,7 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_t7l4bw_c0i2a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "day of month");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "day of month");
     editorCell.setCellId("Constant_t7l4bw_c0i2a");
     DatesInternal_StyleSheet.getTableCell(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -238,7 +238,7 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_t7l4bw_d0i2a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "day of week");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "day of week");
     editorCell.setCellId("Constant_t7l4bw_d0i2a");
     DatesInternal_StyleSheet.getTableCell(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -246,7 +246,7 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_t7l4bw_e0i2a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "hour");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "hour");
     editorCell.setCellId("Constant_t7l4bw_e0i2a");
     DatesInternal_StyleSheet.getTableCell(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -254,7 +254,7 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_t7l4bw_f0i2a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "minute");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "minute");
     editorCell.setCellId("Constant_t7l4bw_f0i2a");
     DatesInternal_StyleSheet.getTableCell(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -262,7 +262,7 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_t7l4bw_g0i2a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "second");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "second");
     editorCell.setCellId("Constant_t7l4bw_g0i2a");
     DatesInternal_StyleSheet.getTableCell(editorCell).apply(editorCell);
     {
@@ -274,21 +274,21 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_t7l4bw_j2a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_t7l4bw_j2a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_t7l4bw_l2a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_t7l4bw_l2a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_t7l4bw_d0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "}");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "}");
     editorCell.setCellId("Constant_t7l4bw_d0");
     BaseLanguageStyle_StyleSheet.getMatching(editorCell).apply(editorCell);
     {
@@ -370,37 +370,37 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_t7l4bw_a1c0(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent((jetbrains.mps.nodeEditor.EditorContext) editorContext, node);
+    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
     return result;
   }
 
   private EditorCell createIndentCell_t7l4bw_a3c0(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent((jetbrains.mps.nodeEditor.EditorContext) editorContext, node);
+    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
     return result;
   }
 
   private EditorCell createIndentCell_t7l4bw_a5c0(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent((jetbrains.mps.nodeEditor.EditorContext) editorContext, node);
+    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
     return result;
   }
 
   private EditorCell createIndentCell_t7l4bw_a6c0(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent((jetbrains.mps.nodeEditor.EditorContext) editorContext, node);
+    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
     return result;
   }
 
   private EditorCell createIndentCell_t7l4bw_a0i2a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent((jetbrains.mps.nodeEditor.EditorContext) editorContext, node);
+    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
     return result;
   }
 
   private EditorCell createIndentCell_t7l4bw_a1i2a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent((jetbrains.mps.nodeEditor.EditorContext) editorContext, node);
+    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
     return result;
   }
 
   private EditorCell createIndentCell_t7l4bw_a01c0(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent((jetbrains.mps.nodeEditor.EditorContext) editorContext, node);
+    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
     return result;
   }
 
@@ -444,7 +444,7 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
     }
 
     private EditorCell createConstant_t7l4bw_a1b2a(EditorContext editorContext, SNode node) {
-      EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "<no locales>");
+      EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<no locales>");
       editorCell.setCellId("Constant_t7l4bw_a1b2a");
       {
         Style style = editorCell.getStyle();
@@ -531,7 +531,7 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
     }
 
     private EditorCell createConstant_t7l4bw_a1f2a(EditorContext editorContext, SNode node) {
-      EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "<no datetime properties>");
+      EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<no datetime properties>");
       editorCell.setCellId("Constant_t7l4bw_a1f2a");
       {
         Style style = editorCell.getStyle();
@@ -582,7 +582,7 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
     }
 
     private EditorCell createConstant_t7l4bw_a1g2a(EditorContext editorContext, SNode node) {
-      EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "<no duration types>");
+      EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<no duration types>");
       editorCell.setCellId("Constant_t7l4bw_a1g2a");
       {
         Style style = editorCell.getStyle();
@@ -633,7 +633,7 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
     }
 
     private EditorCell createConstant_t7l4bw_a1b8c0(EditorContext editorContext, SNode node) {
-      EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "<schedule periods>");
+      EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<schedule periods>");
       editorCell.setCellId("Constant_t7l4bw_a1b8c0");
       {
         Style style = editorCell.getStyle();
@@ -684,7 +684,7 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
     }
 
     private EditorCell createConstant_t7l4bw_a1k2a(EditorContext editorContext, SNode node) {
-      EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "<no months>");
+      EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<no months>");
       editorCell.setCellId("Constant_t7l4bw_a1k2a");
       {
         Style style = editorCell.getStyle();

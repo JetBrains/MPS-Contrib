@@ -72,7 +72,7 @@ public class TaskDeclarationAttributes_EditorComponent extends AbstractCellProvi
   }
 
   private EditorCell createConstant_p33j5q_a0a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "attributes:");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "attributes:");
     editorCell.setCellId("Constant_p33j5q_a0a");
     BuildLanguageStyle_StyleSheet.getKeyword(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -92,7 +92,7 @@ public class TaskDeclarationAttributes_EditorComponent extends AbstractCellProvi
   }
 
   private EditorCell createIndentCell_p33j5q_a1a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent((jetbrains.mps.nodeEditor.EditorContext) editorContext, node);
+    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
     return result;
   }
 

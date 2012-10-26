@@ -58,7 +58,7 @@ public class ElementWithContent_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_cvtcu2_a0a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "element");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "element");
     editorCell.setCellId("Constant_cvtcu2_a0a");
     {
       Style style = editorCell.getStyle();
@@ -69,7 +69,7 @@ public class ElementWithContent_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_cvtcu2_a1a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "  ");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "  ");
     editorCell.setCellId("Constant_cvtcu2_a1a");
     {
       Style style = editorCell.getStyle();
@@ -113,7 +113,7 @@ public class ElementWithContent_Editor extends DefaultNodeEditor {
             cell.getSNode()
           ), (cell == null ?
             null :
-            cell.getEditorContext()
+            cell.getContext()
           ));
         }
       });
@@ -129,7 +129,7 @@ public class ElementWithContent_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static Color _StyleParameter_QueryFunction_cvtcu2_a1b0a(SNode node, jetbrains.mps.nodeEditor.EditorContext editorContext) {
+  private static Color _StyleParameter_QueryFunction_cvtcu2_a1b0a(SNode node, EditorContext editorContext) {
     return XmlColorConstants.XML_COLOR;
   }
 }

@@ -14,7 +14,7 @@ public class XMLElementOperation_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createError_k8d8w5_a(EditorContext editorContext, SNode node) {
-    EditorCell_Error editorCell = new EditorCell_Error((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "<abstract operation>");
+    EditorCell_Error editorCell = new EditorCell_Error(editorContext, node, "<abstract operation>");
     editorCell.setCellId("Error_k8d8w5_a");
     return editorCell;
   }

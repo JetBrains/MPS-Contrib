@@ -47,7 +47,7 @@ public class GenericAttributeDeclarationInEnum_EditorComponent extends AbstractC
   }
 
   private EditorCell createConstant_pdjfsm_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "in");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "in");
     editorCell.setCellId("Constant_pdjfsm_a0");
     editorCell.setDefaultText("");
     return editorCell;

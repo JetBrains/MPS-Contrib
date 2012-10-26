@@ -33,7 +33,7 @@ public class TargetReferencePropertyValueExpression_Editor extends DefaultNodeEd
   }
 
   private EditorCell createConstant_826xl5_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "target");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "target");
     editorCell.setCellId("Constant_826xl5_a0");
     editorCell.setDefaultText("");
     return editorCell;

@@ -47,7 +47,7 @@ public class DeclarationBlock_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_gu9gxo_b0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_gu9gxo_b0");
     {
       Style style = editorCell.getStyle();
@@ -58,7 +58,7 @@ public class DeclarationBlock_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_gu9gxo_a2a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "  ");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "  ");
     editorCell.setCellId("Constant_gu9gxo_a2a");
     {
       Style style = editorCell.getStyle();
@@ -69,7 +69,7 @@ public class DeclarationBlock_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_gu9gxo_d0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_gu9gxo_d0");
     {
       Style style = editorCell.getStyle();

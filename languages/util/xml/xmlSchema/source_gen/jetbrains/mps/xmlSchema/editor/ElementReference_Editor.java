@@ -80,7 +80,7 @@ public class ElementReference_Editor extends DefaultNodeEditor {
               cell.getSNode()
             ), (cell == null ?
               null :
-              cell.getEditorContext()
+              cell.getContext()
             ));
           }
         });
@@ -96,7 +96,7 @@ public class ElementReference_Editor extends DefaultNodeEditor {
       return editorCell;
     }
 
-    private static Color _StyleParameter_QueryFunction_uugm4e_a1a0a0(SNode node, jetbrains.mps.nodeEditor.EditorContext editorContext) {
+    private static Color _StyleParameter_QueryFunction_uugm4e_a1a0a0(SNode node, EditorContext editorContext) {
       return XmlColorConstants.XML_COLOR;
     }
   }
