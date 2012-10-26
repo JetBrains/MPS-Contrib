@@ -179,7 +179,7 @@ public class PeriodPropertyFormatToken_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_ed1xw0_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "{");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "{");
     editorCell.setCellId("Constant_ed1xw0_a0");
     BaseLanguageStyle_StyleSheet.getLeftParen(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -187,7 +187,7 @@ public class PeriodPropertyFormatToken_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_ed1xw0_a1b0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "/");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "/");
     editorCell.setCellId("Constant_ed1xw0_a1b0");
     {
       Style style = editorCell.getStyle();
@@ -199,7 +199,7 @@ public class PeriodPropertyFormatToken_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_ed1xw0_c0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "!");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "!");
     editorCell.setCellId("Constant_ed1xw0_c0");
     {
       Style style = editorCell.getStyle();
@@ -211,7 +211,7 @@ public class PeriodPropertyFormatToken_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_ed1xw0_a4a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, ":");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ":");
     editorCell.setCellId("Constant_ed1xw0_a4a");
     {
       Style style = editorCell.getStyle();
@@ -223,7 +223,7 @@ public class PeriodPropertyFormatToken_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_ed1xw0_a1f0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "/");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "/");
     editorCell.setCellId("Constant_ed1xw0_a1f0");
     {
       Style style = editorCell.getStyle();
@@ -235,7 +235,7 @@ public class PeriodPropertyFormatToken_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_ed1xw0_g0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "}");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "}");
     editorCell.setCellId("Constant_ed1xw0_g0");
     BaseLanguageStyle_StyleSheet.getRightParen(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -243,42 +243,42 @@ public class PeriodPropertyFormatToken_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_ed1xw0_a0a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "prefix");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "prefix");
     editorCell.setCellId("Constant_ed1xw0_a0a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_ed1xw0_c0a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "/");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "/");
     editorCell.setCellId("Constant_ed1xw0_c0a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_ed1xw0_a1a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "suffix");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "suffix");
     editorCell.setCellId("Constant_ed1xw0_a1a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_ed1xw0_c1a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "/");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "/");
     editorCell.setCellId("Constant_ed1xw0_c1a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_ed1xw0_a2a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "zero handling policy");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "zero handling policy");
     editorCell.setCellId("Constant_ed1xw0_a2a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_ed1xw0_a3a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "min number of digits");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "min number of digits");
     editorCell.setCellId("Constant_ed1xw0_a3a");
     editorCell.setDefaultText("");
     return editorCell;

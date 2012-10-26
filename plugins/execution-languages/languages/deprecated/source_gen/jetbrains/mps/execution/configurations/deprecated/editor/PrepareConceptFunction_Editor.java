@@ -39,7 +39,7 @@ public class PrepareConceptFunction_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_vvrgg9_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "return type:");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "return type:");
     editorCell.setCellId("Constant_vvrgg9_a0");
     editorCell.setDefaultText("");
     return editorCell;

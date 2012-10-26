@@ -34,7 +34,7 @@ public class DateTimeMinusPeriodOperation_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_dmuglp_b0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "-");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "-");
     editorCell.setCellId("Constant_dmuglp_b0");
     BaseLanguageStyle_StyleSheet.getOperator(editorCell).apply(editorCell);
     {
@@ -46,7 +46,7 @@ public class DateTimeMinusPeriodOperation_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_dmuglp_c0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "period");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "period");
     editorCell.setCellId("Constant_dmuglp_c0");
     Dates_StyleSheet.getDateSmall(editorCell).apply(editorCell);
     editorCell.setDefaultText("");

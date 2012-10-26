@@ -48,7 +48,7 @@ public class RunConfigurationHeader extends AbstractCellProvider {
   }
 
   private EditorCell createConstant_bqmo2k_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "run configuration");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "run configuration");
     editorCell.setCellId("Constant_bqmo2k_a0");
     {
       Style style = editorCell.getStyle();
@@ -59,7 +59,7 @@ public class RunConfigurationHeader extends AbstractCellProvider {
   }
 
   private EditorCell createConstant_bqmo2k_c0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "type");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "type");
     editorCell.setCellId("Constant_bqmo2k_c0");
     editorCell.setDefaultText("");
     return editorCell;

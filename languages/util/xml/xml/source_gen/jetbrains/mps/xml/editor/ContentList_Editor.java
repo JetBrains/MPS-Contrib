@@ -100,7 +100,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_bs144a_a0a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "(");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
     editorCell.setCellId("Constant_bs144a_a0a0");
     XmlStyle_StyleSheet.getXmlOpenBrace(editorCell).apply(editorCell);
     {
@@ -113,7 +113,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_bs144a_c0a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, ")");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
     editorCell.setCellId("Constant_bs144a_c0a0");
     XmlStyle_StyleSheet.getXmlCloseBrace(editorCell).apply(editorCell);
     {
@@ -125,7 +125,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_bs144a_a0a0_1(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "(");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
     editorCell.setCellId("Constant_bs144a_a0a0_1");
     XmlStyle_StyleSheet.getXmlCLOpenParen(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -133,7 +133,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_bs144a_c0a0_0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, ")");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
     editorCell.setCellId("Constant_bs144a_c0a0_0");
     XmlStyle_StyleSheet.getXmlCLCloseParen(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -185,7 +185,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_bs144a_a1a0a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent((jetbrains.mps.nodeEditor.EditorContext) editorContext, node);
+    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
     return result;
   }
 
@@ -241,7 +241,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
     }
 
     private EditorCell createConstant_bs144a_a1b0a0(EditorContext editorContext, SNode node) {
-      EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "");
+      EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
       editorCell.setCellId("Constant_bs144a_a1b0a0");
       {
         Style style = editorCell.getStyle();
@@ -292,7 +292,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
     }
 
     private EditorCell createConstant_bs144a_a0a0_0(EditorContext editorContext, SNode node) {
-      EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "");
+      EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
       editorCell.setCellId("Constant_bs144a_a0a0_0");
       {
         Style style = editorCell.getStyle();
@@ -343,7 +343,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
     }
 
     private EditorCell createConstant_bs144a_a1a0a(EditorContext editorContext, SNode node) {
-      EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "");
+      EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
       editorCell.setCellId("Constant_bs144a_a1a0a");
       {
         Style style = editorCell.getStyle();
@@ -394,7 +394,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
     }
 
     private EditorCell createConstant_bs144a_a0a0_2(EditorContext editorContext, SNode node) {
-      EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "");
+      EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
       editorCell.setCellId("Constant_bs144a_a0a0_2");
       {
         Style style = editorCell.getStyle();

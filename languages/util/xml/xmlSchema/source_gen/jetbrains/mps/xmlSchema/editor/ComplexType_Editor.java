@@ -53,7 +53,7 @@ public class ComplexType_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_1xbd1d_a0a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "complexType");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "complexType");
     editorCell.setCellId("Constant_1xbd1d_a0a");
     {
       Style style = editorCell.getStyle();
@@ -64,14 +64,14 @@ public class ComplexType_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_1xbd1d_c0a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, ": ");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ": ");
     editorCell.setCellId("Constant_1xbd1d_c0a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_1xbd1d_a1a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "  ");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "  ");
     editorCell.setCellId("Constant_1xbd1d_a1a");
     {
       Style style = editorCell.getStyle();

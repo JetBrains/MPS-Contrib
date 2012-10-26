@@ -28,7 +28,7 @@ public class DurationType_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_7vmrxr_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "duration type");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "duration type");
     editorCell.setCellId("Constant_7vmrxr_a0");
     BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
     editorCell.setDefaultText("");

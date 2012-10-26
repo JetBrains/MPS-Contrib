@@ -37,7 +37,7 @@ public class DateTimeZonePropertyFormatConfiguration_Editor extends DefaultNodeE
   }
 
   private EditorCell createConstant_1lsafo_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "format configuration for zone");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "format configuration for zone");
     editorCell.setCellId("Constant_1lsafo_a0");
     BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -45,7 +45,7 @@ public class DateTimeZonePropertyFormatConfiguration_Editor extends DefaultNodeE
   }
 
   private EditorCell createConstant_1lsafo_b0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "{");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "{");
     editorCell.setCellId("Constant_1lsafo_b0");
     BaseLanguageStyle_StyleSheet.getMatching(editorCell).apply(editorCell);
     {
@@ -58,7 +58,7 @@ public class DateTimeZonePropertyFormatConfiguration_Editor extends DefaultNodeE
   }
 
   private EditorCell createConstant_1lsafo_d0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "}");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "}");
     editorCell.setCellId("Constant_1lsafo_d0");
     BaseLanguageStyle_StyleSheet.getMatching(editorCell).apply(editorCell);
     {

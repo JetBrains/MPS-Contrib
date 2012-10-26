@@ -41,7 +41,7 @@ public class GContentBlock_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_c0p948_c0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "{");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "{");
     editorCell.setCellId("Constant_c0p948_c0");
     {
       Style style = editorCell.getStyle();
@@ -52,7 +52,7 @@ public class GContentBlock_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_c0p948_e0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "}");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "}");
     editorCell.setCellId("Constant_c0p948_e0");
     {
       Style style = editorCell.getStyle();

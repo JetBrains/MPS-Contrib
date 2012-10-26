@@ -68,7 +68,7 @@ public class UniversalRunConfigCreator_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_5cdmsx_a0a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "run config creator");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "run config creator");
     editorCell.setCellId("Constant_5cdmsx_a0a");
     {
       Style style = editorCell.getStyle();
@@ -79,21 +79,21 @@ public class UniversalRunConfigCreator_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_5cdmsx_a1a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "config type:");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "config type:");
     editorCell.setCellId("Constant_5cdmsx_a1a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_5cdmsx_a2a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "create from:");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "create from:");
     editorCell.setCellId("Constant_5cdmsx_a2a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_5cdmsx_d0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_5cdmsx_d0");
     {
       Style style = editorCell.getStyle();

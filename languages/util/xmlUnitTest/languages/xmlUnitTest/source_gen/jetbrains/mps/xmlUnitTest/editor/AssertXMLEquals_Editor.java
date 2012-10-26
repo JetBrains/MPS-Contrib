@@ -46,7 +46,7 @@ public class AssertXMLEquals_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_bzxsv2_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "assert XML");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "assert XML");
     editorCell.setCellId("Constant_bzxsv2_a0");
     {
       Style style = editorCell.getStyle();
@@ -57,7 +57,7 @@ public class AssertXMLEquals_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_bzxsv2_c0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "equals");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "equals");
     editorCell.setCellId("Constant_bzxsv2_c0");
     {
       Style style = editorCell.getStyle();
@@ -68,7 +68,7 @@ public class AssertXMLEquals_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_bzxsv2_f0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, ";");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ";");
     editorCell.setCellId("Constant_bzxsv2_f0");
     {
       Style style = editorCell.getStyle();

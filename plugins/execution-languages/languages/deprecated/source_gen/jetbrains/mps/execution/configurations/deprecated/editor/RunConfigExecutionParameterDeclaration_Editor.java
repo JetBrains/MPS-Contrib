@@ -58,7 +58,7 @@ public class RunConfigExecutionParameterDeclaration_Editor extends DefaultNodeEd
   }
 
   private EditorCell createConstant_ystr20_c0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "key:");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "key:");
     editorCell.setCellId("Constant_ystr20_c0");
     editorCell.setDefaultText("");
     return editorCell;

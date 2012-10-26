@@ -66,7 +66,7 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_kwu3ge_b0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "{");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "{");
     editorCell.setCellId("Constant_kwu3ge_b0");
     BaseLanguageStyle_StyleSheet.getMatching(editorCell).apply(editorCell);
     {
@@ -79,7 +79,7 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_kwu3ge_b2a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "Joda DateTimeFieldType");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Joda DateTimeFieldType");
     editorCell.setCellId("Constant_kwu3ge_b2a");
     DatesInternal_StyleSheet.getSimpleText(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -87,7 +87,7 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_kwu3ge_e2a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "Joda PeriodType");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Joda PeriodType");
     editorCell.setCellId("Constant_kwu3ge_e2a");
     DatesInternal_StyleSheet.getSimpleText(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -95,7 +95,7 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_kwu3ge_h2a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "Joda DurationType");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Joda DurationType");
     editorCell.setCellId("Constant_kwu3ge_h2a");
     DatesInternal_StyleSheet.getSimpleText(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -103,21 +103,21 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_kwu3ge_k2a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "Period formatting method");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Period formatting method");
     editorCell.setCellId("Constant_kwu3ge_k2a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_kwu3ge_n2a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "Single form");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Single form");
     editorCell.setCellId("Constant_kwu3ge_n2a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_kwu3ge_q2a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "Plural form");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Plural form");
     editorCell.setCellId("Constant_kwu3ge_q2a");
     DatesInternal_StyleSheet.getSimpleText(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -125,7 +125,7 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_kwu3ge_d0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "}");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "}");
     editorCell.setCellId("Constant_kwu3ge_d0");
     BaseLanguageStyle_StyleSheet.getMatching(editorCell).apply(editorCell);
     {
@@ -138,39 +138,39 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_kwu3ge_e0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_kwu3ge_e0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createIndentCell_kwu3ge_a2a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent((jetbrains.mps.nodeEditor.EditorContext) editorContext, node);
+    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
     return result;
   }
 
   private EditorCell createIndentCell_kwu3ge_d2a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent((jetbrains.mps.nodeEditor.EditorContext) editorContext, node);
+    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
     return result;
   }
 
   private EditorCell createIndentCell_kwu3ge_g2a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent((jetbrains.mps.nodeEditor.EditorContext) editorContext, node);
+    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
     return result;
   }
 
   private EditorCell createIndentCell_kwu3ge_j2a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent((jetbrains.mps.nodeEditor.EditorContext) editorContext, node);
+    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
     return result;
   }
 
   private EditorCell createIndentCell_kwu3ge_m2a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent((jetbrains.mps.nodeEditor.EditorContext) editorContext, node);
+    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
     return result;
   }
 
   private EditorCell createIndentCell_kwu3ge_p2a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent((jetbrains.mps.nodeEditor.EditorContext) editorContext, node);
+    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
     return result;
   }
 

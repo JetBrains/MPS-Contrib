@@ -106,21 +106,21 @@ public class EntitySet_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_bj9nw6_a0a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "entity set");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "entity set");
     editorCell.setCellId("Constant_bj9nw6_a0a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_bj9nw6_c0a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, ":");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ":");
     editorCell.setCellId("Constant_bj9nw6_c0a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_bj9nw6_b0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_bj9nw6_b0");
     {
       Style style = editorCell.getStyle();
@@ -131,7 +131,7 @@ public class EntitySet_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_bj9nw6_a0a_0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "name:");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "name:");
     editorCell.setCellId("Constant_bj9nw6_a0a_0");
     {
       Style style = editorCell.getStyle();
@@ -142,7 +142,7 @@ public class EntitySet_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_bj9nw6_a1a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "url:");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "url:");
     editorCell.setCellId("Constant_bj9nw6_a1a");
     {
       Style style = editorCell.getStyle();

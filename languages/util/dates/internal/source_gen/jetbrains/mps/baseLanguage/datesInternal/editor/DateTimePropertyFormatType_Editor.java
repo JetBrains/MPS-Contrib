@@ -40,7 +40,7 @@ public class DateTimePropertyFormatType_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_6yifed_b0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "[");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "[");
     editorCell.setCellId("Constant_6yifed_b0");
     BaseLanguageStyle_StyleSheet.getLeftBracket(editorCell).apply(editorCell);
     {
@@ -52,7 +52,7 @@ public class DateTimePropertyFormatType_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_6yifed_d0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "]");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "]");
     editorCell.setCellId("Constant_6yifed_d0");
     BaseLanguageStyle_StyleSheet.getRightBracket(editorCell).apply(editorCell);
     {
@@ -64,14 +64,14 @@ public class DateTimePropertyFormatType_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_6yifed_e0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, ":");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ":");
     editorCell.setCellId("Constant_6yifed_e0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_6yifed_g0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "(e.g.");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(e.g.");
     editorCell.setCellId("Constant_6yifed_g0");
     DatesInternal_StyleSheet.getSimpleText(editorCell).apply(editorCell);
     {
@@ -83,7 +83,7 @@ public class DateTimePropertyFormatType_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_6yifed_i0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, ")");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
     editorCell.setCellId("Constant_6yifed_i0");
     DatesInternal_StyleSheet.getSimpleText(editorCell).apply(editorCell);
     {

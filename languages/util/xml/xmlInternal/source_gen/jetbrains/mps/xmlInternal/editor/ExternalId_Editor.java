@@ -14,7 +14,7 @@ public class ExternalId_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createError_9jduwz_a(EditorContext editorContext, SNode node) {
-    EditorCell_Error editorCell = new EditorCell_Error((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "externalId");
+    EditorCell_Error editorCell = new EditorCell_Error(editorContext, node, "externalId");
     editorCell.setCellId("Error_9jduwz_a");
     return editorCell;
   }
