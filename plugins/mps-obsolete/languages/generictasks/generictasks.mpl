@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language namespace="jetbrains.mps.build.generictasks" uuid="fba399db-f591-45dc-a279-e2a2a986e262" doNotGenerateAdapters="false">
   <models>
-    <modelRoot path="${mps_home}/lib/ant/lib/ant-launcher.jar">
-      <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
-    </modelRoot>
     <modelRoot path="${language_descriptor}/languageAccessories" />
     <modelRoot path="${language_descriptor}/languageModels" />
   </models>
@@ -52,11 +49,6 @@
       </mapping-priorities>
     </generator>
   </generators>
-  <stubModelEntries>
-    <stubModelEntry path="${mps_home}/lib/ant/lib/ant-launcher.jar">
-      <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
-    </stubModelEntry>
-  </stubModelEntries>
   <sourcePath />
   <dependencies>
     <dependency reexport="false">847a3235-09f9-403c-b6a9-1c294a212e92(Ant)</dependency>
