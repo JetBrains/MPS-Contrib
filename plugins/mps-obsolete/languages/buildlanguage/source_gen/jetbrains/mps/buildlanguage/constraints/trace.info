@@ -151,7 +151,7 @@
     <nodeInfo nodeId="1218551806370" fileName="MultiLineString_Constraints.java" startLine="26" startPosition="37" endLine="27" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1218551806370" fileName="MultiLineString_Constraints.java" startLine="31" startPosition="56" endLine="32" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1218551856615" fileName="MultiLineString_Constraints.java" startLine="33" startPosition="9" endLine="34" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1218551862693" fileName="MultiLineString_Constraints.java" startLine="35" startPosition="111" endLine="36" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1218551862693" fileName="MultiLineString_Constraints.java" startLine="35" startPosition="111" endLine="36" endPosition="124" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1218551806370" fileName="MultiLineString_Constraints.java" startLine="44" startPosition="7" endLine="45" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1218551806370" fileName="MultiLineString_Constraints.java" startLine="16" startPosition="76" endLine="19" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="MultiLineString_Constraints#()V" />
     <nodeInfo nodeId="1218551839100" fileName="MultiLineString_Constraints.java" startLine="34" startPosition="29" endLine="37" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
@@ -163,7 +163,7 @@
     <nodeInfo nodeId="1218551806370" fileName="MultiLineString_Constraints.java" startLine="20" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getNotDefaultProperties#()Ljava/util/Map;" />
     <scopeInfo nodeId="1218551806370" fileName="MultiLineString_Constraints.java" startLine="17" startPosition="40" endLine="18" endPosition="67" />
     <scopeInfo nodeId="1218551806370" fileName="MultiLineString_Constraints.java" startLine="26" startPosition="37" endLine="27" endPosition="20" />
-    <scopeInfo nodeId="1218551839103" fileName="MultiLineString_Constraints.java" startLine="35" startPosition="111" endLine="36" endPosition="88" />
+    <scopeInfo nodeId="1218551839103" fileName="MultiLineString_Constraints.java" startLine="35" startPosition="111" endLine="36" endPosition="124" />
     <scopeInfo nodeId="1218551806370" fileName="MultiLineString_Constraints.java" startLine="16" startPosition="76" endLine="19" endPosition="3" />
     <scopeInfo nodeId="1218551839100" fileName="MultiLineString_Constraints.java" startLine="34" startPosition="29" endLine="37" endPosition="11">
       <varInfo nodeId="1218551839101" varName="lit" />

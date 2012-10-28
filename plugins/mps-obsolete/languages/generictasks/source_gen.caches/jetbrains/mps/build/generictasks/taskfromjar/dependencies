@@ -72,7 +72,6 @@
     <classNode dependClassName="jetbrains.mps.build.generictasks.taskfromjar.Importer" />
     <classNode dependClassName="jetbrains.mps.build.generictasks.taskfromjar.NamesMap" />
     <classNode dependClassName="jetbrains.mps.build.generictasks.taskfromjar.Scanner" />
-    <classNode dependClassName="jetbrains.mps.buildlanguage.behavior.PropertyValueExpression_Behavior" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ISelector" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IVisitor" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IWhereFilter" />
@@ -87,6 +86,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SModel" />
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
     <classNode dependClassName="jetbrains.mps.util.PathManager" />
     <classNode dependClassName="org.apache.tools.ant.types.Reference" />
     <classNode extendsClassName="jetbrains.mps.build.generictasks.taskfromjar.IBuilder" />

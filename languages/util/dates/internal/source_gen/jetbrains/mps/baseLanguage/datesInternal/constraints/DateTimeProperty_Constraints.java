@@ -20,7 +20,7 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.generator.JavaModelUtil_new;
 import org.joda.time.Period;
 import org.joda.time.DateTimeFieldType;
-import jetbrains.mps.baseLanguage.behavior.IClassifier_Behavior;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import org.joda.time.format.PeriodFormatterBuilder;
 
 public class DateTimeProperty_Constraints extends BaseConstraintsDescriptor {
@@ -96,7 +96,7 @@ public class DateTimeProperty_Constraints extends BaseConstraintsDescriptor {
 
           @Override
           public Scope createScope(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
-            return new MethodsScope(Members.visibleInstanceMethods(IClassifier_Behavior.call_getThisType_7405920559687254782(((SNode) JavaModelUtil_new.findClassifier(PeriodFormatterBuilder.class))), _context.getEnclosingNode()));
+            return new MethodsScope(Members.visibleInstanceMethods(BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), ((SNode) JavaModelUtil_new.findClassifier(PeriodFormatterBuilder.class)), "virtual_getThisType_7405920559687254782", new Object[]{}), _context.getEnclosingNode()));
           }
         };
       }

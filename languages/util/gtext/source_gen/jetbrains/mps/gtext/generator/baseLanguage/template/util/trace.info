@@ -68,8 +68,8 @@
     <nodeInfo nodeId="1196171795698" fileName="GTextOptimizer.java" startLine="79" startPosition="5" endLine="80" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1196176641125" fileName="GTextOptimizer.java" startLine="83" startPosition="71" endLine="84" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="7376433222636453521" fileName="GTextOptimizer.java" startLine="84" startPosition="25" endLine="85" endPosition="106" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
-    <nodeInfo nodeId="1196176607042" fileName="GTextOptimizer.java" startLine="86" startPosition="181" endLine="87" endPosition="190" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1196176607051" fileName="GTextOptimizer.java" startLine="87" startPosition="190" endLine="88" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196176607042" fileName="GTextOptimizer.java" startLine="86" startPosition="257" endLine="87" endPosition="266" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1196176607051" fileName="GTextOptimizer.java" startLine="87" startPosition="266" endLine="88" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1196176607056" fileName="GTextOptimizer.java" startLine="88" startPosition="63" endLine="89" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1196177259937" fileName="GTextOptimizer.java" startLine="90" startPosition="5" endLine="91" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="5409050563449594734" fileName="GTextOptimizer.java" startLine="13" startPosition="29" endLine="15" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="GTextOptimizer#()V" />
@@ -104,7 +104,7 @@
     <scopeInfo nodeId="1196171558453" fileName="GTextOptimizer.java" startLine="19" startPosition="132" endLine="22" endPosition="21">
       <varInfo nodeId="1196171951691" varName="child" />
     </scopeInfo>
-    <scopeInfo nodeId="1196176607041" fileName="GTextOptimizer.java" startLine="86" startPosition="181" endLine="89" endPosition="24">
+    <scopeInfo nodeId="1196176607041" fileName="GTextOptimizer.java" startLine="86" startPosition="257" endLine="89" endPosition="24">
       <varInfo nodeId="1196176607043" varName="childOfChild" />
     </scopeInfo>
     <scopeInfo nodeId="1196175167251" fileName="GTextOptimizer.java" startLine="28" startPosition="0" endLine="32" endPosition="0">
