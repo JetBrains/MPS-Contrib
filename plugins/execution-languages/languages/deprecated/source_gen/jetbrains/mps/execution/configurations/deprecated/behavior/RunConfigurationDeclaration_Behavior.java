@@ -8,15 +8,12 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.checkedName.PropertyReference;
 import java.util.List;
-import jetbrains.mps.baseLanguage.classifiers.behavior.IClassifier_Behavior;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
-import jetbrains.mps.baseLanguage.classifiers.behavior.IMember_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
-import jetbrains.mps.smodel.runtime.BehaviorDescriptor;
-import jetbrains.mps.smodel.language.ConceptRegistry;
 import jetbrains.mps.smodel.behaviour.BehaviorManager;
 import java.util.Set;
 import java.util.HashSet;
@@ -27,8 +24,6 @@ import jetbrains.mps.smodel.SModelReference;
 import jetbrains.mps.smodel.SNodeId;
 
 public class RunConfigurationDeclaration_Behavior {
-  private static Class[] PARAMETERS_314981645426570519 = {SNode.class};
-
   public static void init(SNode thisNode) {
   }
 
@@ -57,10 +52,10 @@ public class RunConfigurationDeclaration_Behavior {
   }
 
   public static List<SNode> virtual_getMembers_1213877528020(SNode thisNode, final SNode contextNode) {
-    List<SNode> members = IClassifier_Behavior.callSuperNew_getMembers_1213877528020(thisNode, "jetbrains.mps.baseLanguage.classifiers.structure.IClassifier", contextNode);
+    List<SNode> members = BehaviorReflection.invokeSuper((Class<List<SNode>>) ((Class) Object.class), thisNode, "jetbrains.mps.baseLanguage.classifiers.structure.IClassifier", "virtual_getMembers_1213877528020", new Object[]{contextNode});
     return ListSequence.fromList(members).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode node) {
-        return IMember_Behavior.call_canOperationBeChild_4593153787954614840(node, contextNode);
+        return BehaviorReflection.invokeVirtual(Boolean.TYPE, node, "virtual_canOperationBeChild_4593153787954614840", new Object[]{contextNode});
       }
     }).toListSequence();
   }
@@ -85,18 +80,14 @@ public class RunConfigurationDeclaration_Behavior {
     return neq_ym0401_a0c0j(SModelOperations.getModelName(SNodeOperations.getModel(thisNode)), SModelOperations.getModelName(SNodeOperations.getModel(type)));
   }
 
+  @Deprecated
   public static SNode call_getStateType_314981645426570519(SNode thisNode) {
-    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
-    return (SNode) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigurationDeclaration"), "virtual_getStateType_314981645426570519", PARAMETERS_314981645426570519, new Object[]{});
-  }
-
-  public static SNode callSuperNew_getStateType_314981645426570519(SNode thisNode, String callerConceptFqName) {
-    return (SNode) BehaviorManager.getInstance().invokeSuperNew(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigurationDeclaration"), callerConceptFqName, "virtual_getStateType_314981645426570519", PARAMETERS_314981645426570519, new Object[]{});
+    return BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), thisNode, "virtual_getStateType_314981645426570519", new Object[]{});
   }
 
   @Deprecated
   public static SNode callSuper_getStateType_314981645426570519(SNode thisNode, String callerConceptFqName) {
-    return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigurationDeclaration"), callerConceptFqName, "virtual_getStateType_314981645426570519", PARAMETERS_314981645426570519, new Object[]{});
+    return BehaviorManager.getInstance().invokeSuper((Class<SNode>) ((Class) Object.class), SNodeOperations.cast(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigurationDeclaration"), callerConceptFqName, "virtual_getStateType_314981645426570519", new Class[]{SNode.class}, new Object[]{});
   }
 
   private static boolean neq_ym0401_a0c0j(Object a, Object b) {

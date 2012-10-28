@@ -5,7 +5,7 @@ package jetbrains.mps.execution.configurations.deprecated.behavior;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import java.util.List;
-import jetbrains.mps.baseLanguage.behavior.ConceptFunction_Behavior;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 
@@ -18,10 +18,10 @@ public class ExecuteParameterQuery_Behavior {
   }
 
   public static List<SNode> virtual_getParameters_1213877374450(SNode thisNode) {
-    List<SNode> conceptFunctionParameterConcepts = ConceptFunction_Behavior.callSuperNew_getParameters_1213877374450(thisNode, "jetbrains.mps.baseLanguage.structure.ConceptFunction");
+    List<SNode> conceptFunctionParameterConcepts = BehaviorReflection.invokeSuper((Class<List<SNode>>) ((Class) Object.class), thisNode, "jetbrains.mps.baseLanguage.structure.ConceptFunction", "virtual_getParameters_1213877374450", new Object[]{});
     SNode root = SNodeOperations.getAncestor(thisNode, null, false, true);
     if (SNodeOperations.isInstanceOf(root, "jetbrains.mps.execution.configurations.deprecated.structure.IEnhancedRunConfiguration")) {
-      ListSequence.fromList(conceptFunctionParameterConcepts).addSequence(ListSequence.fromList(IEnhancedRunConfiguration_Behavior.call_getAdditionalParameters_314981645426570797(SNodeOperations.cast(root, "jetbrains.mps.execution.configurations.deprecated.structure.IEnhancedRunConfiguration"))));
+      ListSequence.fromList(conceptFunctionParameterConcepts).addSequence(ListSequence.fromList(BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), SNodeOperations.cast(root, "jetbrains.mps.execution.configurations.deprecated.structure.IEnhancedRunConfiguration"), "virtual_getAdditionalParameters_314981645426570797", new Object[]{})));
     }
     return conceptFunctionParameterConcepts;
   }

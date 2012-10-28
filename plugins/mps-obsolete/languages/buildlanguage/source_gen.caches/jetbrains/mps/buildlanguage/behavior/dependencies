@@ -27,8 +27,7 @@
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorManager" />
-    <classNode dependClassName="jetbrains.mps.smodel.language.ConceptRegistry" />
-    <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
   </dependency>
   <dependency className="jetbrains.mps.buildlanguage.behavior.AbstractImportProperties_BehaviorDescriptor" file="AbstractImportProperties_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
@@ -90,8 +89,7 @@
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorManager" />
-    <classNode dependClassName="jetbrains.mps.smodel.language.ConceptRegistry" />
-    <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
   </dependency>
   <dependency className="jetbrains.mps.buildlanguage.behavior.BinaryOperation_BehaviorDescriptor" file="BinaryOperation_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
@@ -143,12 +141,13 @@
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="jetbrains.mps.buildlanguage.behavior.Enum_Behavior" file="Enum_Behavior.java">
+    <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.lang.StringBuffer" />
-    <classNode dependClassName="jetbrains.mps.buildlanguage.behavior.PropertyValueExpression_Behavior" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
   </dependency>
   <dependency className="jetbrains.mps.buildlanguage.behavior.Enum_BehaviorDescriptor" file="Enum_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
@@ -164,12 +163,14 @@
   </dependency>
   <dependency className="jetbrains.mps.buildlanguage.behavior.FileName_Behavior" file="FileName_Behavior.java">
     <classNode dependClassName="java.io.File" />
+    <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.behavior.PropertyValueExpression_Behavior" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
   </dependency>
   <dependency className="jetbrains.mps.buildlanguage.behavior.FileName_BehaviorDescriptor" file="FileName_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
@@ -201,8 +202,7 @@
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorManager" />
-    <classNode dependClassName="jetbrains.mps.smodel.language.ConceptRegistry" />
-    <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
   </dependency>
   <dependency className="jetbrains.mps.buildlanguage.behavior.IDeclaration_BehaviorDescriptor" file="IDeclaration_BehaviorDescriptor.java">
     <classNode dependClassName="java.util.List" />
@@ -223,8 +223,7 @@
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorManager" />
-    <classNode dependClassName="jetbrains.mps.smodel.language.ConceptRegistry" />
-    <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
   </dependency>
   <dependency className="jetbrains.mps.buildlanguage.behavior.IPropertyHolder_BehaviorDescriptor" file="IPropertyHolder_BehaviorDescriptor.java">
     <classNode dependClassName="java.util.List" />
@@ -239,8 +238,7 @@
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorManager" />
-    <classNode dependClassName="jetbrains.mps.smodel.language.ConceptRegistry" />
-    <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
   </dependency>
   <dependency className="jetbrains.mps.buildlanguage.behavior.ISource_BehaviorDescriptor" file="ISource_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.String" />
@@ -255,8 +253,7 @@
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorManager" />
-    <classNode dependClassName="jetbrains.mps.smodel.language.ConceptRegistry" />
-    <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
   </dependency>
   <dependency className="jetbrains.mps.buildlanguage.behavior.ITargetReference_BehaviorDescriptor" file="ITargetReference_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.String" />
@@ -321,12 +318,13 @@
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="jetbrains.mps.buildlanguage.behavior.MultiLineString_Behavior" file="MultiLineString_Behavior.java">
+    <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="jetbrains.mps.buildlanguage.behavior.PropertyValueExpression_Behavior" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
   </dependency>
   <dependency className="jetbrains.mps.buildlanguage.behavior.MultiLineString_BehaviorDescriptor" file="MultiLineString_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
@@ -340,11 +338,12 @@
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="jetbrains.mps.buildlanguage.behavior.PlusOperation_Behavior" file="PlusOperation_Behavior.java">
+    <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="jetbrains.mps.buildlanguage.behavior.PropertyValueExpression_Behavior" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
   </dependency>
   <dependency className="jetbrains.mps.buildlanguage.behavior.PlusOperation_BehaviorDescriptor" file="PlusOperation_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
@@ -355,10 +354,11 @@
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="jetbrains.mps.buildlanguage.behavior.Project_Behavior" file="Project_Behavior.java">
+    <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.ArrayList" />
     <classNode dependClassName="java.util.List" />
-    <classNode dependClassName="jetbrains.mps.buildlanguage.behavior.AbstractImportProperties_Behavior" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IVisitor" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations" />
@@ -366,6 +366,7 @@
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
   </dependency>
   <dependency className="jetbrains.mps.buildlanguage.behavior.Project_BehaviorDescriptor" file="Project_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
@@ -388,16 +389,18 @@
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="jetbrains.mps.buildlanguage.behavior.PropertyReference_Behavior" file="PropertyReference_Behavior.java">
+    <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.ArrayList" />
     <classNode dependClassName="java.util.List" />
-    <classNode dependClassName="jetbrains.mps.buildlanguage.behavior.IPropertyHolder_Behavior" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.behavior.PropertyValueExpression_Behavior" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
   </dependency>
   <dependency className="jetbrains.mps.buildlanguage.behavior.PropertyReference_BehaviorDescriptor" file="PropertyReference_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
@@ -427,8 +430,7 @@
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorManager" />
-    <classNode dependClassName="jetbrains.mps.smodel.language.ConceptRegistry" />
-    <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
   </dependency>
   <dependency className="jetbrains.mps.buildlanguage.behavior.PropertyValueExpression_BehaviorDescriptor" file="PropertyValueExpression_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />

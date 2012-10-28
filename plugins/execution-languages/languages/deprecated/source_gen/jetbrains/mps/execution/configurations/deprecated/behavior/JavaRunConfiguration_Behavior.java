@@ -4,6 +4,7 @@ package jetbrains.mps.execution.configurations.deprecated.behavior;
 
 import jetbrains.mps.smodel.SNode;
 import java.util.List;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
@@ -20,7 +21,7 @@ public class JavaRunConfiguration_Behavior {
   }
 
   public static List<SNode> virtual_getAdditionalParameters_314981645426570797(SNode thisNode) {
-    List<SNode> parameters = IEnhancedRunConfiguration_Behavior.callSuperNew_getAdditionalParameters_314981645426570797(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.IEnhancedRunConfiguration");
+    List<SNode> parameters = BehaviorReflection.invokeSuper((Class<List<SNode>>) ((Class) Object.class), thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.IEnhancedRunConfiguration", "virtual_getAdditionalParameters_314981645426570797", new Object[]{});
 
     ListSequence.fromList(parameters).addElement(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.JavaConfigurationRunParameters_FunctionParameter"));
     return parameters;
