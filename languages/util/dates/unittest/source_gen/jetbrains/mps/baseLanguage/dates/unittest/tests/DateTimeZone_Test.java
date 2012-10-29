@@ -15,7 +15,7 @@ import java.util.Set;
 public class DateTimeZone_Test extends BaseTestCase {
   public void test_londonAndMoscowShortTime() throws Exception {
     Long current = System.currentTimeMillis();
-    Assert.assertEquals(DateTimeOperations.print(current, DateTimeFormat.shortTime(), new Locale("ru", "RU", ""), DateTimeZone.forID("Europe/London")), DateTimeOperations.print((DateTimeArithmetics.minus(current, Period.hours(3))), DateTimeFormat.shortTime(), new Locale("ru", "RU", ""), DateTimeZone.forID("Europe/Moscow")));
+    Assert.assertEquals(DateTimeOperations.print(current, DateTimeFormat.shortTime(), new Locale("ru", "RU", ""), DateTimeZone.forID("Europe/London")), DateTimeOperations.print((DateTimeArithmetics.minus(current, Period.hours(4))), DateTimeFormat.shortTime(), new Locale("ru", "RU", ""), DateTimeZone.forID("Europe/Moscow")));
   }
 
   public void test_londonAndMoscowFullTime() throws Exception {
