@@ -162,7 +162,6 @@
   </target>
   
   <target name="buildDependents">
-    <ant antfile="build/buildCoreEx.xml" inheritAll="false" useNativeBasedir="true" target="buildDependents" />
     <ant antfile="build/buildCore.xml" inheritAll="false" useNativeBasedir="true" />
     <ant antfile="build/buildCoreEx.xml" inheritAll="false" useNativeBasedir="true" />
   </target>
