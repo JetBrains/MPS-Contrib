@@ -12,12 +12,12 @@ public class ComponentController_BehaviorDescriptor extends BaseConcept_Behavior
   public ComponentController_BehaviorDescriptor() {
   }
 
-  public SNode virtual_getMainClassifier_1213877255428(SNode thisNode) {
-    return ComponentController_Behavior.virtual_getMainClassifier_1213877255428(thisNode);
-  }
-
   public String virtual_getFqName_1213877404258(SNode thisNode) {
     return INamedConcept_Behavior.virtual_getFqName_1213877404258(thisNode);
+  }
+
+  public SNode virtual_getMainClassifier_1213877255428(SNode thisNode) {
+    return ComponentController_Behavior.virtual_getMainClassifier_1213877255428(thisNode);
   }
 
   @Override
