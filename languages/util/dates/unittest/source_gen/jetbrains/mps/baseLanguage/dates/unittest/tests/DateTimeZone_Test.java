@@ -4,44 +4,44 @@ package jetbrains.mps.baseLanguage.dates.unittest.tests;
 
 import junit.framework.Assert;
 import jetbrains.mps.baseLanguage.dates.runtime.DateTimeOperations;
+import org.joda.time.DateTimeZone;
 import org.joda.time.format.DateTimeFormat;
 import java.util.Locale;
-import org.joda.time.DateTimeZone;
 import jetbrains.mps.baseLanguage.dates.runtime.DateTimeArithmetics;
 import org.joda.time.Period;
 import org.joda.time.DateTime;
 import java.util.Set;
 
 public class DateTimeZone_Test extends BaseTestCase {
-  public void test_londonAndMoscowShortTime() throws Exception {
+  public void test_londonAndHelsinkiShortTime() throws Exception {
     Long current = System.currentTimeMillis();
-    Assert.assertEquals(DateTimeOperations.print(current, DateTimeFormat.shortTime(), new Locale("ru", "RU", ""), DateTimeZone.forID("Europe/London")), DateTimeOperations.print((DateTimeArithmetics.minus(current, Period.hours(3))), DateTimeFormat.shortTime(), new Locale("ru", "RU", ""), DateTimeZone.forID("Europe/Moscow")));
+    Assert.assertEquals(DateTimeOperations.print(DateTimeOperations.convert(current, DateTimeZone.forID("Europe/London")), DateTimeFormat.shortTime(), new Locale("ru", "RU", "")), DateTimeOperations.print(DateTimeOperations.convert((DateTimeArithmetics.minus(current, Period.hours(2))), DateTimeZone.forID("Europe/Helsinki")), DateTimeFormat.shortTime(), new Locale("ru", "RU", "")));
   }
 
-  public void test_londonAndMoscowFullTime() throws Exception {
+  public void test_londonAndHelsinkiFullTime() throws Exception {
     Long current = System.currentTimeMillis();
-    Assert.assertFalse((DateTimeOperations.print(current, DateTimeFormat.fullTime(), new Locale("ru", "RU", ""), DateTimeZone.forID("Europe/London"))).equals(DateTimeOperations.print((DateTimeArithmetics.minus(current, Period.hours(3))), DateTimeFormat.fullTime(), new Locale("ru", "RU", ""), DateTimeZone.forID("Europe/Moscow"))));
+    Assert.assertFalse((DateTimeOperations.print(DateTimeOperations.convert(current, DateTimeZone.forID("Europe/London")), DateTimeFormat.fullTime(), new Locale("ru", "RU", ""))).equals(DateTimeOperations.print(DateTimeOperations.convert((DateTimeArithmetics.minus(current, Period.hours(3))), DateTimeZone.forID("Europe/Helsinki")), DateTimeFormat.fullTime(), new Locale("ru", "RU", ""))));
   }
 
   public void test_westernHemisphereTime() throws Exception {
     Long yesterday = DateTimeOperations.convert((new DateTime(2009, 7, 23, 13, 18, 20, 0, DateTimeZone.forID("UTC"))));
-    Assert.assertEquals(DateTimeOperations.print(yesterday, DateTimeFormat.shortTime(), null, DateTimeZone.forID("America/New_York")), DateTimeOperations.print((DateTimeArithmetics.minus(yesterday, Period.hours(11))), DateTimeFormat.shortTime(), null, DateTimeZone.forID("Asia/Bangkok")));
+    Assert.assertEquals(DateTimeOperations.print(DateTimeOperations.convert(yesterday, DateTimeZone.forID("US/Eastern")), DateTimeFormat.shortTime(), null), DateTimeOperations.print(DateTimeOperations.convert((DateTimeArithmetics.minus(yesterday, Period.hours(11))), DateTimeZone.forID("Asia/Bangkok")), DateTimeFormat.shortTime(), null));
   }
 
   public void test_westernHemisphereDate() throws Exception {
     Long yesterday = DateTimeOperations.convert((new DateTime(2009, 7, 23, 13, 18, 20, 0, DateTimeZone.forID("UTC"))));
-    Assert.assertFalse((DateTimeOperations.print(yesterday, DateTimeFormat.fullDate(), Locale.US, DateTimeZone.forID("America/New_York"))).equals(DateTimeOperations.print((DateTimeArithmetics.plus(yesterday, Period.hours(22))), DateTimeFormat.fullDate(), Locale.US, DateTimeZone.forID("Asia/Bangkok"))));
+    Assert.assertFalse((DateTimeOperations.print(DateTimeOperations.convert(yesterday, DateTimeZone.forID("US/Eastern")), DateTimeFormat.fullDate(), Locale.US)).equals(DateTimeOperations.print(DateTimeOperations.convert((DateTimeArithmetics.plus(yesterday, Period.hours(22))), DateTimeZone.forID("Asia/Bangkok")), DateTimeFormat.fullDate(), Locale.US)));
   }
 
   public void test_timeZoneFromVariable() throws Exception {
     String zone = "Europe/Berlin";
     Long thisMoment = System.currentTimeMillis();
-    Assert.assertEquals(DateTimeOperations.print(thisMoment, (MainFormatTable.INSTANCE).getFormatter("date/time"), null, DateTimeZone.forID(zone)), DateTimeOperations.print(thisMoment, (MainFormatTable.INSTANCE).getFormatter("date/time"), null, DateTimeZone.forID("Europe/Berlin")));
+    Assert.assertEquals(DateTimeOperations.print(DateTimeOperations.convert(thisMoment, DateTimeZone.forID(zone)), (MainFormatTable.INSTANCE).getFormatter("date/time"), null), DateTimeOperations.print(DateTimeOperations.convert(thisMoment, DateTimeZone.forID("Europe/Berlin")), (MainFormatTable.INSTANCE).getFormatter("date/time"), null));
   }
 
   public void test_timeZoneFromStringLiteral() throws Exception {
     Long thisMoment = System.currentTimeMillis();
-    Assert.assertEquals(DateTimeOperations.print(thisMoment, (MainFormatTable.INSTANCE).getFormatter("date/time"), null, DateTimeZone.forID("Europe/Moscow")), DateTimeOperations.print(thisMoment, (MainFormatTable.INSTANCE).getFormatter("date/time"), null, DateTimeZone.forID("Europe/Moscow")));
+    Assert.assertEquals(DateTimeOperations.print(DateTimeOperations.convert(thisMoment, DateTimeZone.forID("Europe/Moscow")), (MainFormatTable.INSTANCE).getFormatter("date/time"), null), DateTimeOperations.print(DateTimeOperations.convert(thisMoment, DateTimeZone.forID("Europe/Moscow")), (MainFormatTable.INSTANCE).getFormatter("date/time"), null));
   }
 
   public void test_timeZoneFromString() throws Exception {
