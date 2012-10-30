@@ -34,6 +34,6 @@ public class TaskInterfaceDeclaration_Constraints extends BaseConstraintsDescrip
   }
 
   public static boolean static_canBeARoot(SModel model, final IOperationContext operationContext) {
-    return BuiltInTaskDeclaration_Behavior.isInGeneratedModels_1445805690439864419(operationContext);
+    return BuiltInTaskDeclaration_Behavior.isInGeneratedModels_1445805690439864419(model);
   }
 }

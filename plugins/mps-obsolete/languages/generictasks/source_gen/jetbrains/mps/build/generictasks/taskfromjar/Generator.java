@@ -22,7 +22,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.internal.collections.runtime.ISelector;
 import jetbrains.mps.build.generictasks.behavior.AttributeDeclaration_Behavior;
-import jetbrains.mps.buildlanguage.behavior.PropertyValueExpression_Behavior;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import java.io.File;
 import org.apache.tools.ant.types.Reference;
 import jetbrains.mps.smodel.SModelUtil_new;
@@ -106,7 +106,7 @@ public class Generator {
     });
     ListSequence.fromList(SLinkOperations.getTargets(decl, "fakeDeclaration", true)).visitAll(new IVisitor<SNode>() {
       public void visit(SNode it) {
-        SPropertyOperations.set(it, "fake", "" + true);
+        SPropertyOperations.set(it, "fake", "" + (true));
       }
     });
 
@@ -230,13 +230,13 @@ public class Generator {
         }
       }
       if (!(AttributeDeclaration_Behavior.call_isDeprecated_353793545802643819(ad)) && att.isDeprecated()) {
-        SPropertyOperations.set(ad, "deprecated", "" + att.isDeprecated());
+        SPropertyOperations.set(ad, "deprecated", "" + (att.isDeprecated()));
       }
     }
 
     private void createAttribute(SNode decl, ClassInfo.MyAttribute att) {
       SNode attrDecl = Generator.GENERATOR.createAttributeDeclaration(att.getName(), Generator.Builder.getType(att.getType()));
-      SPropertyOperations.set(attrDecl, "deprecated", "" + att.isDeprecated());
+      SPropertyOperations.set(attrDecl, "deprecated", "" + (att.isDeprecated()));
       this.addEnum(attrDecl, att.getEnumValues());
       ListSequence.fromList(SLinkOperations.getTargets(decl, "attributesDecl", true)).addElement(attrDecl);
     }
@@ -253,7 +253,7 @@ public class Generator {
     private void updateEnum(SNode sEnum, String[] enumValues) {
       Set<String> set = SetSequence.fromSetWithValues(new HashSet(), ListSequence.fromList(SLinkOperations.getTargets(sEnum, "constants", true)).select(new ISelector<SNode, String>() {
         public String select(SNode it) {
-          return PropertyValueExpression_Behavior.call_toString_1213877472569(it);
+          return BehaviorReflection.invokeVirtual(String.class, it, "virtual_toString_1213877472569", new Object[]{});
         }
       }));
       for (String str : enumValues) {
@@ -308,7 +308,7 @@ public class Generator {
         fake = Generator.GENERATOR.createDeclaration(name, SPropertyOperations.getString(parentDeclaration, "classname"), SPropertyOperations.getBoolean(parentDeclaration, "abstract"), SPropertyOperations.getBoolean(parentDeclaration, "canHaveInternalText"), SPropertyOperations.getBoolean(parentDeclaration, "depracated"));
         SLinkOperations.setTarget(fake, "parentRef", parentRef, true);
       }
-      SPropertyOperations.set(fake, "fake", "" + true);
+      SPropertyOperations.set(fake, "fake", "" + (true));
       ListSequence.fromList(SLinkOperations.getTargets(nref, "role", true)).addElement(Generator.GENERATOR.createDeclarationReference(fake));
       ListSequence.fromList(SLinkOperations.getTargets(declaration, "fakeDeclaration", true)).addElement(fake);
     }
@@ -325,14 +325,14 @@ public class Generator {
         }
         if (SPropertyOperations.getBoolean(decl, "abstract") != ci.isAbstract()) {
           System.out.format("Declaration %s abstract proprety has been set to %b.\n", ci.getDeclarationClass().getName(), ci.isAbstract());
-          SPropertyOperations.set(decl, "abstract", "" + ci.isAbstract());
+          SPropertyOperations.set(decl, "abstract", "" + (ci.isAbstract()));
         }
         if (SPropertyOperations.getBoolean(decl, "canHaveInternalText") != ci.canHaveInternalText()) {
           System.out.format("Declaration %s can have internal name proprety has been set to %b.\n", ci.getDeclarationClass().getName(), ci.canHaveInternalText());
-          SPropertyOperations.set(decl, "canHaveInternalText", "" + ci.canHaveInternalText());
+          SPropertyOperations.set(decl, "canHaveInternalText", "" + (ci.canHaveInternalText()));
         }
         if (!(SPropertyOperations.getBoolean(decl, "depracated")) && ci.isDeprecated()) {
-          SPropertyOperations.set(decl, "depracated", "" + ci.isDeprecated());
+          SPropertyOperations.set(decl, "depracated", "" + (ci.isDeprecated()));
           System.out.format("Declaration %s has been set deprecated.\n", ci.getDeclarationClass().getName());
         }
       }
@@ -421,7 +421,7 @@ public class Generator {
         Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
         SNode quotedNode_1 = null;
         {
-          quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.StringEnum", null, GlobalScope.getInstance(), false);
+          quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.StringEnum", null, null, GlobalScope.getInstance(), false);
           SNode quotedNode1_2 = quotedNode_1;
           result = quotedNode1_2;
         }
@@ -438,7 +438,7 @@ public class Generator {
         Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
         SNode quotedNode_1 = null;
         {
-          quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.StringLiteral", null, GlobalScope.getInstance(), false);
+          quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.StringLiteral", null, null, GlobalScope.getInstance(), false);
           SNode quotedNode1_2 = quotedNode_1;
           quotedNode1_2.setProperty("value", (String) parameter_3);
           result = quotedNode1_2;
@@ -456,9 +456,9 @@ public class Generator {
         Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
         SNode quotedNode_1 = null;
         {
-          quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.build.generictasks.structure.NestedDeclaration", null, GlobalScope.getInstance(), false);
+          quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.build.generictasks.structure.NestedDeclaration", null, null, GlobalScope.getInstance(), false);
           SNode quotedNode1_2 = quotedNode_1;
-          quotedNode1_2.setReferent("declaration", (SNode) parameter_3);
+          quotedNode1_2.setReferenceTarget("declaration", (SNode) parameter_3);
           result = quotedNode1_2;
         }
         return result;
@@ -474,7 +474,7 @@ public class Generator {
         Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
         SNode quotedNode_1 = null;
         {
-          quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.StringType", null, GlobalScope.getInstance(), false);
+          quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.StringType", null, null, GlobalScope.getInstance(), false);
           SNode quotedNode1_2 = quotedNode_1;
           result = quotedNode1_2;
         }
@@ -491,7 +491,7 @@ public class Generator {
         Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
         SNode quotedNode_1 = null;
         {
-          quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.CallReferenceType", null, GlobalScope.getInstance(), false);
+          quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.CallReferenceType", null, null, GlobalScope.getInstance(), false);
           SNode quotedNode1_2 = quotedNode_1;
           result = quotedNode1_2;
         }
@@ -508,7 +508,7 @@ public class Generator {
         Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
         SNode quotedNode_1 = null;
         {
-          quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.FileType", null, GlobalScope.getInstance(), false);
+          quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.FileType", null, null, GlobalScope.getInstance(), false);
           SNode quotedNode1_2 = quotedNode_1;
           result = quotedNode1_2;
         }
@@ -525,7 +525,7 @@ public class Generator {
         Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
         SNode quotedNode_1 = null;
         {
-          quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.BooleanType", null, GlobalScope.getInstance(), false);
+          quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.BooleanType", null, null, GlobalScope.getInstance(), false);
           SNode quotedNode1_2 = quotedNode_1;
           result = quotedNode1_2;
         }
@@ -542,7 +542,7 @@ public class Generator {
         Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
         SNode quotedNode_1 = null;
         {
-          quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.IntegerType", null, GlobalScope.getInstance(), false);
+          quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.IntegerType", null, null, GlobalScope.getInstance(), false);
           SNode quotedNode1_2 = quotedNode_1;
           result = quotedNode1_2;
         }

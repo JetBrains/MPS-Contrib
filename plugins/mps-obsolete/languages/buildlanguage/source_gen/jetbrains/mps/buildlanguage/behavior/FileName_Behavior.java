@@ -5,6 +5,7 @@ package jetbrains.mps.buildlanguage.behavior;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import java.io.File;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
@@ -17,7 +18,7 @@ public class FileName_Behavior {
     if ((SLinkOperations.getTarget(thisNode, "value", true) == null)) {
       return "";
     }
-    return PropertyValueExpression_Behavior.call_toString_1213877472569(SLinkOperations.getTarget(thisNode, "value", true));
+    return BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(thisNode, "value", true), "virtual_toString_1213877472569", new Object[]{});
   }
 
   public static boolean call_exists_1213877511925(SNode thisNode) {
@@ -32,13 +33,13 @@ public class FileName_Behavior {
       if ((SLinkOperations.getTarget(project, "basedir", true) == null)) {
         return false;
       }
-      f = new File(PropertyValueExpression_Behavior.call_toString_1213877472569(SLinkOperations.getTarget(project, "basedir", true)), filename);
+      f = new File(BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(project, "basedir", true), "virtual_toString_1213877472569", new Object[]{}), filename);
       return f.exists();
     }
     return true;
   }
 
   public static String virtual_getActualValue_1213877472572(SNode thisNode) {
-    return PropertyValueExpression_Behavior.call_getActualValue_1213877472572(SLinkOperations.getTarget(thisNode, "value", true));
+    return BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(thisNode, "value", true), "virtual_getActualValue_1213877472572", new Object[]{});
   }
 }

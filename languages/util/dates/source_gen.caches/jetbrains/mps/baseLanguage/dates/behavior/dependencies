@@ -155,9 +155,6 @@
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.behavior.DateTimeOperation_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
-  <dependency className="jetbrains.mps.baseLanguage.dates.behavior.DateFormat_Behavior" file="DateFormat_Behavior.java">
-    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
-  </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.behavior.DateFormat_BehaviorDescriptor" file="DateFormat_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
@@ -232,9 +229,6 @@
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.Expression_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
-  </dependency>
-  <dependency className="jetbrains.mps.baseLanguage.dates.behavior.DateTimePropertyFormatToken_Behavior" file="DateTimePropertyFormatToken_Behavior.java">
-    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.behavior.DateTimePropertyFormatToken_BehaviorDescriptor" file="DateTimePropertyFormatToken_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
@@ -329,9 +323,6 @@
     <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.Type_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
-  <dependency className="jetbrains.mps.baseLanguage.dates.behavior.FixedLocaleFormatToken_Behavior" file="FixedLocaleFormatToken_Behavior.java">
-    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
-  </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.behavior.FixedLocaleFormatToken_BehaviorDescriptor" file="FixedLocaleFormatToken_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
@@ -346,6 +337,7 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.behavior.FormatDateTimeExpression_Behavior" file="FormatDateTimeExpression_Behavior.java">
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Deprecated" />
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.HashSet" />
@@ -357,8 +349,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorManager" />
-    <classNode dependClassName="jetbrains.mps.smodel.language.ConceptRegistry" />
-    <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.behavior.FormatDateTimeExpression_BehaviorDescriptor" file="FormatDateTimeExpression_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
@@ -392,6 +383,7 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.behavior.FormatPeriodExpression_Behavior" file="FormatPeriodExpression_Behavior.java">
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Deprecated" />
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.HashSet" />
@@ -403,8 +395,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorManager" />
-    <classNode dependClassName="jetbrains.mps.smodel.language.ConceptRegistry" />
-    <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.behavior.FormatPeriodExpression_BehaviorDescriptor" file="FormatPeriodExpression_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
@@ -424,6 +415,7 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.behavior.InTimezoneExpression_Behavior" file="InTimezoneExpression_Behavior.java">
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Deprecated" />
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.HashSet" />
@@ -435,8 +427,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorManager" />
-    <classNode dependClassName="jetbrains.mps.smodel.language.ConceptRegistry" />
-    <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.behavior.InTimezoneExpression_BehaviorDescriptor" file="InTimezoneExpression_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
@@ -506,13 +497,13 @@
   <dependency className="jetbrains.mps.baseLanguage.dates.behavior.NotNullOperation_Behavior" file="NotNullOperation_Behavior.java">
     <classNode dependClassName="java.lang.Boolean" />
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Deprecated" />
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorManager" />
-    <classNode dependClassName="jetbrains.mps.smodel.language.ConceptRegistry" />
-    <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.behavior.NotNullOperation_BehaviorDescriptor" file="NotNullOperation_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
@@ -531,13 +522,13 @@
   <dependency className="jetbrains.mps.baseLanguage.dates.behavior.NullOperation_Behavior" file="NullOperation_Behavior.java">
     <classNode dependClassName="java.lang.Boolean" />
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Deprecated" />
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorManager" />
-    <classNode dependClassName="jetbrains.mps.smodel.language.ConceptRegistry" />
-    <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.behavior.NullOperation_BehaviorDescriptor" file="NullOperation_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
@@ -549,6 +540,7 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.behavior.ParseDateTimeExpression_Behavior" file="ParseDateTimeExpression_Behavior.java">
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Deprecated" />
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.HashSet" />
@@ -560,8 +552,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorManager" />
-    <classNode dependClassName="jetbrains.mps.smodel.language.ConceptRegistry" />
-    <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.behavior.ParseDateTimeExpression_BehaviorDescriptor" file="ParseDateTimeExpression_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
@@ -663,9 +654,6 @@
     <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.PrimitiveType_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
-  <dependency className="jetbrains.mps.baseLanguage.dates.behavior.ReferenceFormatToken_Behavior" file="ReferenceFormatToken_Behavior.java">
-    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
-  </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.behavior.ReferenceFormatToken_BehaviorDescriptor" file="ReferenceFormatToken_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
@@ -692,6 +680,7 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.behavior.TimeConstant_Behavior" file="TimeConstant_Behavior.java">
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Deprecated" />
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.HashSet" />
@@ -703,8 +692,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorManager" />
-    <classNode dependClassName="jetbrains.mps.smodel.language.ConceptRegistry" />
-    <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.behavior.TimeConstant_BehaviorDescriptor" file="TimeConstant_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
@@ -774,9 +762,6 @@
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.ConceptFunctionParameter_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
-  </dependency>
-  <dependency className="jetbrains.mps.baseLanguage.dates.behavior.TokenConditionalPair_Behavior" file="TokenConditionalPair_Behavior.java">
-    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.behavior.TokenConditionalPair_BehaviorDescriptor" file="TokenConditionalPair_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />

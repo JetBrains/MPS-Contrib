@@ -4,7 +4,7 @@ package jetbrains.mps.xml.deprecated.editor;
 
 import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
-import jetbrains.mps.nodeEditor.EditorContext;
+import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.style.Style;
@@ -46,7 +46,7 @@ public class Document_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_7wjwco_a0a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "document");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "document");
     editorCell.setCellId("Constant_7wjwco_a0a");
     XMLDeprecatedStyles_StyleSheet.getElement(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -54,7 +54,7 @@ public class Document_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_7wjwco_c0a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ".");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, ".");
     editorCell.setCellId("Constant_7wjwco_c0a");
     XMLDeprecatedStyles_StyleSheet.getAttributeValue(editorCell).apply(editorCell);
     {
@@ -67,7 +67,7 @@ public class Document_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_7wjwco_b0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "");
     editorCell.setCellId("Constant_7wjwco_b0");
     {
       Style style = editorCell.getStyle();

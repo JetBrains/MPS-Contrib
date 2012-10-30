@@ -13,7 +13,7 @@ import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 import java.util.List;
 import java.util.ArrayList;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
-import jetbrains.mps.buildlanguage.behavior.PropertyValueExpression_Behavior;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 
 public class QueriesGenerated {
@@ -41,7 +41,7 @@ public class QueriesGenerated {
     for (SNode attr : SLinkOperations.getTargets(_context.getNode(), "atributes", true)) {
       SNode newAttr = SConceptOperations.createNewNode("jetbrains.mps.xml.deprecated.structure.Attribute", null);
       SPropertyOperations.set(newAttr, "name", SPropertyOperations.getString(SLinkOperations.getTarget(attr, "attributeDeclaration", false), "name"));
-      SPropertyOperations.set(newAttr, "value", PropertyValueExpression_Behavior.call_toString_1213877472569(SLinkOperations.getTarget(attr, "value", true)));
+      SPropertyOperations.set(newAttr, "value", BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(attr, "value", true), "virtual_toString_1213877472569", new Object[]{}));
       ListSequence.fromList(xmlattributes).addElement(newAttr);
     }
     return xmlattributes;

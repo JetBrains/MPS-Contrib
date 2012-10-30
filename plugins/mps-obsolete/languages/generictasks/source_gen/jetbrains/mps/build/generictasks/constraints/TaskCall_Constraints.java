@@ -22,7 +22,7 @@ import jetbrains.mps.smodel.runtime.base.BasePropertyConstraintsDescriptor;
 import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.smodel.runtime.ReferenceConstraintsDescriptor;
 import jetbrains.mps.smodel.runtime.base.BaseReferenceConstraintsDescriptor;
-import jetbrains.mps.build.generictasks.behavior.ITaskDeclaration_Behavior;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.build.generictasks.behavior.AttributeDeclaration_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
@@ -98,7 +98,7 @@ public class TaskCall_Constraints extends BaseConstraintsDescriptor {
 
       @Override
       public void onReferenceSet(final SNode referenceNode, final SNode oldReferentNode, final SNode newReferentNode, final IScope scope) {
-        for (SNode attrDecl : ITaskDeclaration_Behavior.call_getAttributesDeclarations_1190349257898147625(newReferentNode)) {
+        for (SNode attrDecl : BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), newReferentNode, "virtual_getAttributesDeclarations_1190349257898147625", new Object[]{})) {
           if (AttributeDeclaration_Behavior.call_isRequired_353793545802643811(attrDecl)) {
             SNode attr = SConceptOperations.createNewNode("jetbrains.mps.build.generictasks.structure.Attribute", null);
             SLinkOperations.setTarget(attr, "attributeDeclaration", attrDecl, false);
@@ -122,20 +122,20 @@ public class TaskCall_Constraints extends BaseConstraintsDescriptor {
             if (!(SNodeOperations.isInstanceOf(_context.getEnclosingNode(), "jetbrains.mps.build.generictasks.structure.TaskCall"))) {
               return new SequenceSearchScope(ListSequence.fromList(declarations).where(new IWhereFilter<SNode>() {
                 public boolean accept(SNode it) {
-                  return ITaskDeclaration_Behavior.call_canBeRootTask_1449762848926780427(it);
+                  return BehaviorReflection.invokeVirtual(Boolean.TYPE, it, "virtual_canBeRootTask_1449762848926780427", new Object[]{});
                 }
               })) {
                 @Override
                 public boolean isInScope(SNode node) {
-                  return SNodeOperations.isInstanceOf(node, "jetbrains.mps.build.generictasks.structure.ITaskDeclaration") && ITaskDeclaration_Behavior.call_canBeRootTask_1449762848926780427(SNodeOperations.cast(node, "jetbrains.mps.build.generictasks.structure.ITaskDeclaration"));
+                  return SNodeOperations.isInstanceOf(node, "jetbrains.mps.build.generictasks.structure.ITaskDeclaration") && BehaviorReflection.invokeVirtual(Boolean.TYPE, SNodeOperations.cast(node, "jetbrains.mps.build.generictasks.structure.ITaskDeclaration"), "virtual_canBeRootTask_1449762848926780427", new Object[]{});
                 }
               };
             }
-            final List<SNode> nesteds = ITaskDeclaration_Behavior.call_getNestedTasks_4241383766070831847(SLinkOperations.getTarget(SNodeOperations.cast(_context.getEnclosingNode(), "jetbrains.mps.build.generictasks.structure.TaskCall"), "declaration", false));
-            return new SequenceSearchScope(ITaskDeclaration_Behavior.call_getPossibleNesteds_1449762848926780436(SLinkOperations.getTarget(SNodeOperations.cast(_context.getEnclosingNode(), "jetbrains.mps.build.generictasks.structure.TaskCall"), "declaration", false), declarations)) {
+            final List<SNode> nesteds = BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), SLinkOperations.getTarget(SNodeOperations.cast(_context.getEnclosingNode(), "jetbrains.mps.build.generictasks.structure.TaskCall"), "declaration", false), "virtual_getNestedTasks_4241383766070831847", new Object[]{});
+            return new SequenceSearchScope(BehaviorReflection.invokeVirtual((Class<Iterable<SNode>>) ((Class) Object.class), SLinkOperations.getTarget(SNodeOperations.cast(_context.getEnclosingNode(), "jetbrains.mps.build.generictasks.structure.TaskCall"), "declaration", false), "virtual_getPossibleNesteds_1449762848926780436", new Object[]{declarations})) {
               @Override
               public boolean isInScope(SNode node) {
-                return SNodeOperations.isInstanceOf(node, "jetbrains.mps.build.generictasks.structure.ITaskDeclaration") && ITaskDeclaration_Behavior.call_isPossibleNested_1648602681640249389(SLinkOperations.getTarget(SNodeOperations.cast(_context.getEnclosingNode(), "jetbrains.mps.build.generictasks.structure.TaskCall"), "declaration", false), SNodeOperations.cast(node, "jetbrains.mps.build.generictasks.structure.ITaskDeclaration"), nesteds);
+                return SNodeOperations.isInstanceOf(node, "jetbrains.mps.build.generictasks.structure.ITaskDeclaration") && BehaviorReflection.invokeVirtual(Boolean.TYPE, SLinkOperations.getTarget(SNodeOperations.cast(_context.getEnclosingNode(), "jetbrains.mps.build.generictasks.structure.TaskCall"), "declaration", false), "virtual_isPossibleNested_1648602681640249389", new Object[]{SNodeOperations.cast(node, "jetbrains.mps.build.generictasks.structure.ITaskDeclaration"), nesteds});
               }
             };
           }

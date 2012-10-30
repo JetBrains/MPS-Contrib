@@ -32,7 +32,7 @@ public class typeof_NodesCreatorTarget_InferenceRule extends AbstractInferenceRu
 
   public IsApplicableStatus isApplicableAndPattern(SNode argument) {
     {
-      boolean b = SModelUtil_new.isAssignableConcept(argument.getConceptFqName(), this.getApplicableConceptFQName());
+      boolean b = SModelUtil_new.isAssignableConcept(argument.getConcept().getId(), this.getApplicableConceptFQName());
       return new IsApplicableStatus(b, null);
     }
   }
@@ -50,9 +50,9 @@ public class typeof_NodesCreatorTarget_InferenceRule extends AbstractInferenceRu
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
       SNode quotedNode_1 = null;
       {
-        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.lang.smodel.structure.SNodeListType", null, GlobalScope.getInstance(), false);
+        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.lang.smodel.structure.SNodeListType", null, null, GlobalScope.getInstance(), false);
         SNode quotedNode1_2 = quotedNode_1;
-        quotedNode1_2.setReferent("elementConcept", (SNode) parameter_3);
+        quotedNode1_2.setReferenceTarget("elementConcept", (SNode) parameter_3);
         result = quotedNode1_2;
       }
       return result;
@@ -63,9 +63,9 @@ public class typeof_NodesCreatorTarget_InferenceRule extends AbstractInferenceRu
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
       SNode quotedNode_1 = null;
       {
-        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.lang.smodel.structure.SNodeListType", null, GlobalScope.getInstance(), false);
+        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.lang.smodel.structure.SNodeListType", null, null, GlobalScope.getInstance(), false);
         SNode quotedNode1_2 = quotedNode_1;
-        quotedNode1_2.setReferent("elementConcept", (SNode) parameter_3);
+        quotedNode1_2.setReferenceTarget("elementConcept", (SNode) parameter_3);
         result = quotedNode1_2;
       }
       return result;

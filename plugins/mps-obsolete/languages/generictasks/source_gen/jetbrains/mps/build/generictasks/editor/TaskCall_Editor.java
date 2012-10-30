@@ -4,7 +4,7 @@ package jetbrains.mps.build.generictasks.editor;
 
 import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
-import jetbrains.mps.nodeEditor.EditorContext;
+import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.style.Style;
@@ -24,7 +24,7 @@ import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.build.generictasks.behavior.TaskCall_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.build.generictasks.behavior.ITaskDeclaration_Behavior;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.nodeEditor.InlineCellProvider;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
@@ -122,7 +122,7 @@ public class TaskCall_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_fr7f84_a0a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "//");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "//");
     editorCell.setCellId("Constant_fr7f84_a0a");
     BuildLanguageStyle_StyleSheet.getComment(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -130,14 +130,14 @@ public class TaskCall_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_fr7f84_d1a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "[");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "[");
     editorCell.setCellId("Constant_fr7f84_d1a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_fr7f84_f1a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "]");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "]");
     editorCell.setCellId("Constant_fr7f84_f1a");
     editorCell.setDefaultText("");
     return editorCell;
@@ -181,12 +181,12 @@ public class TaskCall_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_fr7f84_a2a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
+    EditorCell_Indent result = new EditorCell_Indent((jetbrains.mps.nodeEditor.EditorContext) editorContext, node);
     return result;
   }
 
   private EditorCell createIndentCell_fr7f84_a3a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
+    EditorCell_Indent result = new EditorCell_Indent((jetbrains.mps.nodeEditor.EditorContext) editorContext, node);
     return result;
   }
 
@@ -301,7 +301,7 @@ public class TaskCall_Editor extends DefaultNodeEditor {
   }
 
   private static boolean renderingCondition_fr7f84_a3a(SNode node, EditorContext editorContext, IScope scope) {
-    return ITaskDeclaration_Behavior.call_hasNested_4241383766070759083(SLinkOperations.getTarget(node, "declaration", false));
+    return BehaviorReflection.invokeVirtual(Boolean.TYPE, SLinkOperations.getTarget(node, "declaration", false), "virtual_hasNested_4241383766070759083", new Object[]{});
   }
 
   public static class _Inline_fr7f84_a0b0 extends InlineCellProvider {
@@ -410,7 +410,7 @@ public class TaskCall_Editor extends DefaultNodeEditor {
     }
 
     private EditorCell createConstant_fr7f84_a4b0(EditorContext editorContext, SNode node) {
-      EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<attributes>");
+      EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "<attributes>");
       editorCell.setCellId("Constant_fr7f84_a4b0");
       BuildLanguageStyle_StyleSheet.getPrompting(editorCell).apply(editorCell);
       editorCell.setDefaultText("");
@@ -458,7 +458,7 @@ public class TaskCall_Editor extends DefaultNodeEditor {
     }
 
     private EditorCell createConstant_fr7f84_a1d0(EditorContext editorContext, SNode node) {
-      EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<nested tasks>");
+      EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "<nested tasks>");
       editorCell.setCellId("Constant_fr7f84_a1d0");
       BuildLanguageStyle_StyleSheet.getPrompting(editorCell).apply(editorCell);
       editorCell.setDefaultText("");
@@ -506,7 +506,7 @@ public class TaskCall_Editor extends DefaultNodeEditor {
     }
 
     private EditorCell createConstant_fr7f84_a0a_0(EditorContext editorContext, SNode node) {
-      EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<attributes>");
+      EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "<attributes>");
       editorCell.setCellId("Constant_fr7f84_a0a_0");
       BuildLanguageStyle_StyleSheet.getPrompting(editorCell).apply(editorCell);
       editorCell.setDefaultText("");
