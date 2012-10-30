@@ -4,7 +4,7 @@ package jetbrains.mps.uiLanguage.editor;
 
 import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
-import jetbrains.mps.nodeEditor.EditorContext;
+import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.style.Style;
@@ -94,14 +94,14 @@ public class BeanDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_dfptdd_a0a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "bean");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "bean");
     editorCell.setCellId("Constant_dfptdd_a0a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_dfptdd_b0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "");
     editorCell.setCellId("Constant_dfptdd_b0");
     {
       Style style = editorCell.getStyle();
@@ -112,7 +112,7 @@ public class BeanDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_dfptdd_c0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "attributes:");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "attributes:");
     editorCell.setCellId("Constant_dfptdd_c0");
     {
       Style style = editorCell.getStyle();
@@ -123,7 +123,7 @@ public class BeanDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_dfptdd_e0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "");
     editorCell.setCellId("Constant_dfptdd_e0");
     {
       Style style = editorCell.getStyle();
@@ -134,7 +134,7 @@ public class BeanDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_dfptdd_f0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "constructors:");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "constructors:");
     editorCell.setCellId("Constant_dfptdd_f0");
     {
       Style style = editorCell.getStyle();
@@ -145,7 +145,7 @@ public class BeanDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_dfptdd_h0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "");
     editorCell.setCellId("Constant_dfptdd_h0");
     {
       Style style = editorCell.getStyle();
@@ -156,7 +156,7 @@ public class BeanDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_dfptdd_i0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "methods:");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "methods:");
     editorCell.setCellId("Constant_dfptdd_i0");
     {
       Style style = editorCell.getStyle();
@@ -191,17 +191,17 @@ public class BeanDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_dfptdd_a3a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
+    EditorCell_Indent result = new EditorCell_Indent((jetbrains.mps.nodeEditor.EditorContext) editorContext, node);
     return result;
   }
 
   private EditorCell createIndentCell_dfptdd_a6a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
+    EditorCell_Indent result = new EditorCell_Indent((jetbrains.mps.nodeEditor.EditorContext) editorContext, node);
     return result;
   }
 
   private EditorCell createIndentCell_dfptdd_a9a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
+    EditorCell_Indent result = new EditorCell_Indent((jetbrains.mps.nodeEditor.EditorContext) editorContext, node);
     return result;
   }
 

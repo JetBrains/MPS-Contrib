@@ -1668,7 +1668,9 @@
                 <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="1213877495602">
                   <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tp4h.1213877528124" resolveInfo="getMembers" />
                 </node>
-                <node role="operand" roleId="tpee.1197027771414" type="1i04.SuperNodeExpression" typeId="1i04.1225194628440" id="1213877495603" />
+                <node role="operand" roleId="tpee.1197027771414" type="1i04.SuperNodeExpression" typeId="1i04.1225194628440" id="1213877495603">
+                  <link role="superConcept" roleId="1i04.5299096511375896640" targetNodeId="tp4f.1205751982837" resolveInfo="IClassifier" />
+                </node>
               </node>
             </node>
           </node>

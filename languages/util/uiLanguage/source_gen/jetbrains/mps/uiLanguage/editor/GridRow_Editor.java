@@ -4,7 +4,7 @@ package jetbrains.mps.uiLanguage.editor;
 
 import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
-import jetbrains.mps.nodeEditor.EditorContext;
+import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.style.Style;
@@ -46,7 +46,7 @@ public class GridRow_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_3uv0ek_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Row");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "Row");
     editorCell.setCellId("Constant_3uv0ek_a0");
     Stylesheet_StyleSheet.getComponent(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -66,7 +66,7 @@ public class GridRow_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_3uv0ek_a1a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
+    EditorCell_Indent result = new EditorCell_Indent((jetbrains.mps.nodeEditor.EditorContext) editorContext, node);
     return result;
   }
 
