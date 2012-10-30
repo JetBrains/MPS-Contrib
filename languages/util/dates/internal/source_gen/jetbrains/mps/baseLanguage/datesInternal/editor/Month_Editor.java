@@ -4,7 +4,7 @@ package jetbrains.mps.baseLanguage.datesInternal.editor;
 
 import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
-import jetbrains.mps.nodeEditor.EditorContext;
+import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
@@ -39,7 +39,7 @@ public class Month_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_c03jmu_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "month");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "month");
     editorCell.setCellId("Constant_c03jmu_a0");
     BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -47,7 +47,7 @@ public class Month_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_c03jmu_c0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ",");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, ",");
     editorCell.setCellId("Constant_c03jmu_c0");
     {
       Style style = editorCell.getStyle();
@@ -58,7 +58,7 @@ public class Month_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_c03jmu_e0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "(");
     editorCell.setCellId("Constant_c03jmu_e0");
     BaseLanguageStyle_StyleSheet.getMatching(editorCell).apply(editorCell);
     {
@@ -71,7 +71,7 @@ public class Month_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_c03jmu_g0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ",");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, ",");
     editorCell.setCellId("Constant_c03jmu_g0");
     {
       Style style = editorCell.getStyle();
@@ -82,14 +82,14 @@ public class Month_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_c03jmu_i0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "days");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "days");
     editorCell.setCellId("Constant_c03jmu_i0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_c03jmu_j0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, ")");
     editorCell.setCellId("Constant_c03jmu_j0");
     BaseLanguageStyle_StyleSheet.getMatching(editorCell).apply(editorCell);
     {

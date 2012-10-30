@@ -4,7 +4,7 @@ package jetbrains.mps.execution.configurations.deprecated.editor;
 
 import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
-import jetbrains.mps.nodeEditor.EditorContext;
+import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.AbstractCellProvider;
@@ -13,8 +13,7 @@ import jetbrains.mps.lang.plugin.editor.ActionParameter_Hint;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Property;
 import jetbrains.mps.nodeEditor.cells.ModelAccessor;
-import jetbrains.mps.lang.core.behavior.BaseConcept_Behavior;
-import jetbrains.mps.lang.plugin.behavior.ActionParameter_Behavior;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.util.EqualUtil;
 import jetbrains.mps.nodeEditor.CellActionType;
 import jetbrains.mps.nodeEditor.cellActions.CellAction_Empty;
@@ -58,7 +57,7 @@ public class RunConfigExecutionParameterDeclaration_Editor extends DefaultNodeEd
   }
 
   private EditorCell createConstant_ystr20_c0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "key:");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "key:");
     editorCell.setCellId("Constant_ystr20_c0");
     editorCell.setDefaultText("");
     return editorCell;
@@ -67,14 +66,14 @@ public class RunConfigExecutionParameterDeclaration_Editor extends DefaultNodeEd
   private EditorCell createReadOnlyModelAccessor_ystr20_a0(final EditorContext editorContext, final SNode node) {
     EditorCell_Property editorCell = EditorCell_Property.create(editorContext, new ModelAccessor() {
       public String getText() {
-        return BaseConcept_Behavior.call_getPresentation_1213877396640(ActionParameter_Behavior.call_getType_1171743928471337193(node));
+        return BehaviorReflection.invokeVirtual(String.class, BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), node, "virtual_getType_1171743928471337193", new Object[]{}), "virtual_getPresentation_1213877396640", new Object[]{});
       }
 
       public void setText(String s) {
       }
 
       public boolean isValidText(String s) {
-        return EqualUtil.equals(s, this.getText());
+        return EqualUtil.equals(s, getText());
       }
     }, node);
     editorCell.setAction(CellActionType.DELETE, new CellAction_Empty());

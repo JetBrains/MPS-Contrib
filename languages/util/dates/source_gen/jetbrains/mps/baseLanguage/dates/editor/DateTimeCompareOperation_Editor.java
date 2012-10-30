@@ -4,7 +4,7 @@ package jetbrains.mps.baseLanguage.dates.editor;
 
 import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
-import jetbrains.mps.nodeEditor.EditorContext;
+import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.style.Style;
@@ -73,7 +73,7 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_ehy6fr_c0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "date");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "date");
     editorCell.setCellId("Constant_ehy6fr_c0");
     Dates_StyleSheet.getDateSmall(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -81,7 +81,7 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_ehy6fr_a4a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "by");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "by");
     editorCell.setCellId("Constant_ehy6fr_a4a");
     BaseLanguageStyle_StyleSheet.getOperator(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -89,7 +89,7 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_ehy6fr_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Compare datetime expressions by");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "Compare datetime expressions by");
     editorCell.setCellId("Constant_ehy6fr_a0");
     editorCell.setDefaultText("");
     return editorCell;
@@ -105,7 +105,7 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
       }
 
       public boolean isValidText(String s) {
-        return EqualUtil.equals(s, this.getText());
+        return EqualUtil.equals(s, getText());
       }
     }, node);
     editorCell.setAction(CellActionType.DELETE, new CellAction_Empty());

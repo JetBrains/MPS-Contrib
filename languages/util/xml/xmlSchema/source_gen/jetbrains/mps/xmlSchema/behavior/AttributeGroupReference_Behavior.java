@@ -6,6 +6,7 @@ import jetbrains.mps.smodel.SNode;
 import java.util.List;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 
 public class AttributeGroupReference_Behavior {
   public static void init(SNode thisNode) {
@@ -14,7 +15,7 @@ public class AttributeGroupReference_Behavior {
   public static void virtual_checkAttributes_1213877382373(SNode thisNode, List<SNode> attributeDeclarations) {
     List<SNode> attributeExpressions = SLinkOperations.getTargets(SLinkOperations.getTarget(thisNode, "attributeGroup", false), "attributeExpression", true);
     for (SNode attributeExpression : ListSequence.fromList(attributeExpressions)) {
-      TypeExpression_Behavior.call_checkAttributes_1213877382373(attributeExpression, attributeDeclarations);
+      BehaviorReflection.invokeVirtual(Void.class, attributeExpression, "virtual_checkAttributes_1213877382373", new Object[]{attributeDeclarations});
     }
   }
 }

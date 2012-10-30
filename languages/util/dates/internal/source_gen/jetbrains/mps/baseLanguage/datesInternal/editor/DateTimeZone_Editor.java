@@ -4,7 +4,7 @@ package jetbrains.mps.baseLanguage.datesInternal.editor;
 
 import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
-import jetbrains.mps.nodeEditor.EditorContext;
+import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
@@ -16,7 +16,7 @@ import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.nodeEditor.cellMenu.CompositeSubstituteInfo;
-import jetbrains.mps.nodeEditor.cellMenu.SubstituteInfoPart;
+import jetbrains.mps.nodeEditor.cellMenu.SubstituteInfoPartExt;
 import jetbrains.mps.lang.editor.generator.internal.AbstractCellMenuPart_PropertyValues;
 import java.util.List;
 import jetbrains.mps.smodel.IScope;
@@ -44,7 +44,7 @@ public class DateTimeZone_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_fpnw4i_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "datetime");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "datetime");
     editorCell.setCellId("Constant_fpnw4i_a0");
     BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -52,7 +52,7 @@ public class DateTimeZone_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_fpnw4i_b0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "zone");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "zone");
     editorCell.setCellId("Constant_fpnw4i_b0");
     BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -60,7 +60,7 @@ public class DateTimeZone_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_fpnw4i_d0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "for");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "for");
     editorCell.setCellId("Constant_fpnw4i_d0");
     DatesInternal_StyleSheet.getSimpleText(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -68,7 +68,7 @@ public class DateTimeZone_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_fpnw4i_f0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "/");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "/");
     editorCell.setCellId("Constant_fpnw4i_f0");
     DatesInternal_StyleSheet.getSimpleText(editorCell).apply(editorCell);
     {
@@ -106,7 +106,7 @@ public class DateTimeZone_Editor extends DefaultNodeEditor {
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_continentOfCountry");
-    editorCell.setSubstituteInfo(new CompositeSubstituteInfo(editorContext, provider.getCellContext(), new SubstituteInfoPart[]{new DateTimeZone_Editor.DateTimeZone_continentOfCountry_cellMenu_a0e0()}));
+    editorCell.setSubstituteInfo(new CompositeSubstituteInfo(editorContext, provider.getCellContext(), new SubstituteInfoPartExt[]{new DateTimeZone_Editor.DateTimeZone_continentOfCountry_cellMenu_a0e0()}));
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
@@ -129,7 +129,7 @@ public class DateTimeZone_Editor extends DefaultNodeEditor {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.PUNCTUATION_LEFT, false);
     }
-    editorCell.setSubstituteInfo(new CompositeSubstituteInfo(editorContext, provider.getCellContext(), new SubstituteInfoPart[]{new DateTimeZone_Editor.DateTimeZone_country_cellMenu_a0g0()}));
+    editorCell.setSubstituteInfo(new CompositeSubstituteInfo(editorContext, provider.getCellContext(), new SubstituteInfoPartExt[]{new DateTimeZone_Editor.DateTimeZone_country_cellMenu_a0g0()}));
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
@@ -144,7 +144,7 @@ public class DateTimeZone_Editor extends DefaultNodeEditor {
     public DateTimeZone_continentOfCountry_cellMenu_a0e0() {
     }
 
-    public List<String> getPropertyValues(SNode node, IScope scope, IOperationContext operationContext) {
+    public List<String> getPropertyValues(SNode node, IScope scope, IOperationContext operationContext, EditorContext editorContext) {
       List<String> result = ListSequence.fromList(new ArrayList<String>());
       for (Object obj : DateTimeZone.getAvailableIDs()) {
         String str = obj + "";
@@ -164,7 +164,7 @@ public class DateTimeZone_Editor extends DefaultNodeEditor {
     public DateTimeZone_country_cellMenu_a0g0() {
     }
 
-    public List<String> getPropertyValues(SNode node, IScope scope, IOperationContext operationContext) {
+    public List<String> getPropertyValues(SNode node, IScope scope, IOperationContext operationContext, EditorContext editorContext) {
       List<String> result = ListSequence.fromList(new ArrayList<String>());
       for (Object obj : DateTimeZone.getAvailableIDs()) {
         String str = obj + "";

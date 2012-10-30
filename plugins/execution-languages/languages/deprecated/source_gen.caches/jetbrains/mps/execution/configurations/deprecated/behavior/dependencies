@@ -7,11 +7,11 @@
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="jetbrains.mps.execution.configurations.deprecated.behavior.AbstractEnhancedConceptFunction_Behavior" file="AbstractEnhancedConceptFunction_Behavior.java">
+    <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.util.HashSet" />
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="java.util.Set" />
-    <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.ConceptFunction_Behavior" />
-    <classNode dependClassName="jetbrains.mps.execution.configurations.deprecated.behavior.IEnhancedRunConfiguration_Behavior" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
@@ -19,6 +19,7 @@
     <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
   </dependency>
   <dependency className="jetbrains.mps.execution.configurations.deprecated.behavior.AbstractEnhancedConceptFunction_BehaviorDescriptor" file="AbstractEnhancedConceptFunction_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
@@ -59,13 +60,13 @@
   </dependency>
   <dependency className="jetbrains.mps.execution.configurations.deprecated.behavior.BaseCreatorTarget_Behavior" file="BaseCreatorTarget_Behavior.java">
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Deprecated" />
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorManager" />
-    <classNode dependClassName="jetbrains.mps.smodel.language.ConceptRegistry" />
-    <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
   </dependency>
   <dependency className="jetbrains.mps.execution.configurations.deprecated.behavior.BaseCreatorTarget_BehaviorDescriptor" file="BaseCreatorTarget_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
@@ -238,13 +239,14 @@
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="jetbrains.mps.execution.configurations.deprecated.behavior.ExecuteParameterQuery_Behavior" file="ExecuteParameterQuery_Behavior.java">
+    <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.util.List" />
-    <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.ConceptFunction_Behavior" />
-    <classNode dependClassName="jetbrains.mps.execution.configurations.deprecated.behavior.IEnhancedRunConfiguration_Behavior" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
   </dependency>
   <dependency className="jetbrains.mps.execution.configurations.deprecated.behavior.ExecuteParameterQuery_BehaviorDescriptor" file="ExecuteParameterQuery_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
@@ -286,6 +288,7 @@
   </dependency>
   <dependency className="jetbrains.mps.execution.configurations.deprecated.behavior.IEnhancedRunConfiguration_Behavior" file="IEnhancedRunConfiguration_Behavior.java">
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Deprecated" />
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.List" />
@@ -294,8 +297,7 @@
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorManager" />
-    <classNode dependClassName="jetbrains.mps.smodel.language.ConceptRegistry" />
-    <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
   </dependency>
   <dependency className="jetbrains.mps.execution.configurations.deprecated.behavior.IEnhancedRunConfiguration_BehaviorDescriptor" file="IEnhancedRunConfiguration_BehaviorDescriptor.java">
     <classNode dependClassName="java.util.List" />
@@ -304,13 +306,13 @@
   <dependency className="jetbrains.mps.execution.configurations.deprecated.behavior.IExecuteConfigBlock_BehaviorDescriptor" file="IExecuteConfigBlock_BehaviorDescriptor.java" />
   <dependency className="jetbrains.mps.execution.configurations.deprecated.behavior.IJavaRunConfigurationParameter_Behavior" file="IJavaRunConfigurationParameter_Behavior.java">
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Deprecated" />
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorManager" />
-    <classNode dependClassName="jetbrains.mps.smodel.language.ConceptRegistry" />
-    <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
   </dependency>
   <dependency className="jetbrains.mps.execution.configurations.deprecated.behavior.IJavaRunConfigurationParameter_BehaviorDescriptor" file="IJavaRunConfigurationParameter_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.String" />
@@ -370,12 +372,14 @@
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="jetbrains.mps.execution.configurations.deprecated.behavior.JavaNodeRunConfiguration_Behavior" file="JavaNodeRunConfiguration_Behavior.java">
+    <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.util.List" />
-    <classNode dependClassName="jetbrains.mps.execution.configurations.deprecated.behavior.IEnhancedRunConfiguration_Behavior" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
   </dependency>
   <dependency className="jetbrains.mps.execution.configurations.deprecated.behavior.JavaNodeRunConfiguration_BehaviorDescriptor" file="JavaNodeRunConfiguration_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
@@ -387,11 +391,12 @@
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="jetbrains.mps.execution.configurations.deprecated.behavior.JavaRunConfiguration_Behavior" file="JavaRunConfiguration_Behavior.java">
+    <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.HashSet" />
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="java.util.Set" />
-    <classNode dependClassName="jetbrains.mps.execution.configurations.deprecated.behavior.IEnhancedRunConfiguration_Behavior" />
     <classNode dependClassName="jetbrains.mps.execution.configurations.deprecated.behavior.JavaConfigurationRunParameters_FunctionParameter_Behavior" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations" />
@@ -402,6 +407,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.smodel.SNodeId" />
     <classNode dependClassName="jetbrains.mps.smodel.SReference" />
+    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
   </dependency>
   <dependency className="jetbrains.mps.execution.configurations.deprecated.behavior.JavaRunConfiguration_BehaviorDescriptor" file="JavaRunConfiguration_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
@@ -643,10 +649,12 @@
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="jetbrains.mps.execution.configurations.deprecated.behavior.RunConfigType_Behavior" file="RunConfigType_Behavior.java">
+    <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.util.List" />
-    <classNode dependClassName="jetbrains.mps.baseLanguage.classifiers.behavior.IClassifier_Behavior" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
   </dependency>
   <dependency className="jetbrains.mps.execution.configurations.deprecated.behavior.RunConfigType_BehaviorDescriptor" file="RunConfigType_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
@@ -658,14 +666,14 @@
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="jetbrains.mps.execution.configurations.deprecated.behavior.RunConfigurationDeclaration_Behavior" file="RunConfigurationDeclaration_Behavior.java">
+    <classNode dependClassName="java.lang.Boolean" />
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Deprecated" />
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.HashSet" />
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="java.util.Set" />
-    <classNode dependClassName="jetbrains.mps.baseLanguage.classifiers.behavior.IClassifier_Behavior" />
-    <classNode dependClassName="jetbrains.mps.baseLanguage.classifiers.behavior.IMember_Behavior" />
     <classNode dependClassName="jetbrains.mps.checkedName.PropertyReference" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IWhereFilter" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
@@ -681,8 +689,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNodeId" />
     <classNode dependClassName="jetbrains.mps.smodel.SReference" />
     <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorManager" />
-    <classNode dependClassName="jetbrains.mps.smodel.language.ConceptRegistry" />
-    <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
     <classNode dependClassName="jetbrains.mps.util.NameUtil" />
   </dependency>
   <dependency className="jetbrains.mps.execution.configurations.deprecated.behavior.RunConfigurationDeclaration_BehaviorDescriptor" file="RunConfigurationDeclaration_BehaviorDescriptor.java">

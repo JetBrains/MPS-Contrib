@@ -10,15 +10,14 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.generator.template.PropertyMacroContext;
-import jetbrains.mps.execution.configurations.deprecated.behavior.IJavaRunConfigurationParameter_Behavior;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.execution.configurations.deprecated.behavior.JavaRunConfiguration_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.execution.configurations.deprecated.behavior.Node_FunctionParameter_Behavior;
 import jetbrains.mps.generator.template.ReferenceMacroContext;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.execution.configurations.deprecated.behavior.RunConfigurationDeclaration_Behavior;
-import jetbrains.mps.generator.template.IfMacroContext;
 import jetbrains.mps.smodel.SNode;
+import jetbrains.mps.generator.template.IfMacroContext;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import jetbrains.mps.typesystem.inference.TypeChecker;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
@@ -59,7 +58,7 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_1810772216404819116(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return IJavaRunConfigurationParameter_Behavior.call_getVariableForExecuteBlockName_1810772216404807669(_context.getNode());
+    return BehaviorReflection.invokeVirtual(String.class, _context.getNode(), "virtual_getVariableForExecuteBlockName_1810772216404807669", new Object[]{});
   }
 
   public static Object propertyMacro_GetPropertyValue_8126994885493673900(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -103,7 +102,7 @@ public class QueriesGenerated {
   }
 
   public static Object referenceMacro_GetReferent_9017024590936794725(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return SLinkOperations.getTarget(RunConfigurationDeclaration_Behavior.call_getStateType_314981645426570519(_context.getNode()), "classifier", false);
+    return SLinkOperations.getTarget(BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), _context.getNode(), "virtual_getStateType_314981645426570519", new Object[]{}), "classifier", false);
   }
 
   public static Object referenceMacro_GetReferent_6951161063040195056(final IOperationContext operationContext, final ReferenceMacroContext _context) {
@@ -183,7 +182,7 @@ public class QueriesGenerated {
   }
 
   public static SNode sourceNodeQuery_1810772216404834499(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return IJavaRunConfigurationParameter_Behavior.call_getParameterType_1810772216404820824(_context.getNode());
+    return BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), _context.getNode(), "virtual_getParameterType_1810772216404820824", new Object[]{});
   }
 
   public static SNode sourceNodeQuery_3251065477411867966(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
@@ -282,7 +281,7 @@ public class QueriesGenerated {
     return SLinkOperations.getTarget(_context.getNode(), "executeBlock", true);
   }
 
-  public static SNode sourceNodeQuery_2625030007890237299(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+  public static SNode sourceNodeQuery_2144206851851948684(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "propertyValue", true);
   }
 
@@ -400,7 +399,7 @@ public class QueriesGenerated {
       SNode quotedNode_1 = null;
       SNode quotedNode_2 = null;
       {
-        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ReturnStatement", null, GlobalScope.getInstance(), false);
+        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ReturnStatement", null, null, GlobalScope.getInstance(), false);
         SNode quotedNode1_3 = quotedNode_1;
         {
           quotedNode_2 = (SNode) parameter_5;

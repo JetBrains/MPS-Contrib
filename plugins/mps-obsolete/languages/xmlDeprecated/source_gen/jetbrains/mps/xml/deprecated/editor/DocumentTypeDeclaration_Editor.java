@@ -4,7 +4,7 @@ package jetbrains.mps.xml.deprecated.editor;
 
 import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
-import jetbrains.mps.nodeEditor.EditorContext;
+import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.style.Style;
@@ -44,14 +44,14 @@ public class DocumentTypeDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_eyi3ub_a0a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<!");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "<!");
     editorCell.setCellId("Constant_eyi3ub_a0a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_eyi3ub_b0a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "DOCTYPE");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "DOCTYPE");
     editorCell.setCellId("Constant_eyi3ub_b0a");
     XMLDeprecatedStyles_StyleSheet.getElement(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -59,7 +59,7 @@ public class DocumentTypeDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_eyi3ub_e0a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ">");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, ">");
     editorCell.setCellId("Constant_eyi3ub_e0a");
     editorCell.setDefaultText("");
     return editorCell;

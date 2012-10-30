@@ -4,7 +4,7 @@ package jetbrains.mps.xmlInternal.editor;
 
 import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
-import jetbrains.mps.nodeEditor.EditorContext;
+import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
@@ -29,7 +29,7 @@ public class Literal_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_e2nj2_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\"");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "\"");
     editorCell.setCellId("Constant_e2nj2_a0");
     XmlStyle_StyleSheet.getXmlOpenQuote(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -37,7 +37,7 @@ public class Literal_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_e2nj2_c0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\"");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "\"");
     editorCell.setCellId("Constant_e2nj2_c0");
     XmlStyle_StyleSheet.getXmlCloseQuote(editorCell).apply(editorCell);
     editorCell.setDefaultText("");

@@ -5,7 +5,7 @@ package jetbrains.mps.execution.configurations.deprecated.editor;
 import jetbrains.mps.nodeEditor.AbstractCellProvider;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
-import jetbrains.mps.nodeEditor.EditorContext;
+import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
@@ -22,7 +22,7 @@ import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.project.IModule;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.util.MacrosUtil;
+import jetbrains.mps.util.MacrosFactory;
 import jetbrains.mps.vfs.FileSystem;
 import javax.swing.JComponent;
 import jetbrains.mps.ide.editor.util.EditorUtil;
@@ -38,6 +38,12 @@ public class RunConfigurationPresentation extends AbstractCellProvider {
 
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_ltb2bm_a(editorContext, node);
+  }
+
+  @Deprecated
+  public EditorCell createEditorCell(jetbrains.mps.nodeEditor.EditorContext editorContext) {
+    // This method was added in MPS 3.0 for the compatibility with prev. generated code 
+    return createEditorCell((EditorContext) editorContext);
   }
 
   private EditorCell createAlternation_ltb2bm_b1a(EditorContext editorContext, SNode node) {
@@ -112,14 +118,14 @@ public class RunConfigurationPresentation extends AbstractCellProvider {
   }
 
   private EditorCell createConstant_ltb2bm_a0a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "caption:");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "caption:");
     editorCell.setCellId("Constant_ltb2bm_a0a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_ltb2bm_a1a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "icon:");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "icon:");
     editorCell.setCellId("Constant_ltb2bm_a1a");
     {
       Style style = editorCell.getStyle();
@@ -130,7 +136,7 @@ public class RunConfigurationPresentation extends AbstractCellProvider {
   }
 
   private EditorCell createConstant_ltb2bm_a1b0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<no icon>");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "<no icon>");
     editorCell.setCellId("Constant_ltb2bm_a1b0");
     {
       Style style = editorCell.getStyle();
@@ -141,7 +147,7 @@ public class RunConfigurationPresentation extends AbstractCellProvider {
   }
 
   private EditorCell createConstant_ltb2bm_a2a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "is debuggable:");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "is debuggable:");
     editorCell.setCellId("Constant_ltb2bm_a2a");
     editorCell.setDefaultText("");
     return editorCell;
@@ -223,7 +229,7 @@ public class RunConfigurationPresentation extends AbstractCellProvider {
     String path = null;
     IModule module = SNodeOperations.getModel(node).getModelDescriptor().getModule();
     if (module != null) {
-      path = MacrosUtil.expandPath(SPropertyOperations.getString(node, "iconPath"), module.getModuleFqName());
+      path = MacrosFactory.forModuleFile(module.getDescriptorFile()).expandPath(SPropertyOperations.getString(node, "iconPath"));
     }
     return path != null && FileSystem.getInstance().getFileByPath(path).exists();
   }

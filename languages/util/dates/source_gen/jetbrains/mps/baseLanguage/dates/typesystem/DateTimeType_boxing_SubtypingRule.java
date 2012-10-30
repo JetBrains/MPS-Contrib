@@ -54,7 +54,7 @@ public class DateTimeType_boxing_SubtypingRule extends SubtypingRule_Runtime imp
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
       SNode quotedNode_1 = null;
       {
-        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", null, GlobalScope.getInstance(), false);
+        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", null, null, GlobalScope.getInstance(), false);
         SNode quotedNode1_2 = quotedNode_1;
         result = quotedNode1_2;
       }
@@ -66,7 +66,7 @@ public class DateTimeType_boxing_SubtypingRule extends SubtypingRule_Runtime imp
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
       SNode quotedNode_1 = null;
       {
-        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", null, GlobalScope.getInstance(), false);
+        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", null, null, GlobalScope.getInstance(), false);
         SNode quotedNode1_2 = quotedNode_1;
         result = quotedNode1_2;
       }
@@ -82,12 +82,12 @@ public class DateTimeType_boxing_SubtypingRule extends SubtypingRule_Runtime imp
       {
         SNode nodeToMatch_DateTimeType_boxing_u5vsb4_a0a;
         nodeToMatch_DateTimeType_boxing_u5vsb4_a0a = nodeToMatch;
-        if (!("jetbrains.mps.baseLanguage.structure.ClassifierType".equals(nodeToMatch_DateTimeType_boxing_u5vsb4_a0a.getConceptFqName()))) {
+        if (!("jetbrains.mps.baseLanguage.structure.ClassifierType".equals(nodeToMatch_DateTimeType_boxing_u5vsb4_a0a.getConcept().getId()))) {
           return false;
         }
         {
           SNodePointer pointer = SNODE_POINTER_enqoju_a0a0a0a0b0c0a0a0a0a0a0c;
-          if (!(PatternUtil.matchReferentWithNode(pointer, nodeToMatch_DateTimeType_boxing_u5vsb4_a0a.getReferent("classifier")))) {
+          if (!(PatternUtil.matchReferentWithNode(pointer, nodeToMatch_DateTimeType_boxing_u5vsb4_a0a.getReferenceTarget("classifier")))) {
             return false;
           }
         }

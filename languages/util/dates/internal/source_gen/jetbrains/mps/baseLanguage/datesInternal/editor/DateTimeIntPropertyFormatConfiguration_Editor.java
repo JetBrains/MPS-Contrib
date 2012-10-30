@@ -4,7 +4,7 @@ package jetbrains.mps.baseLanguage.datesInternal.editor;
 
 import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
-import jetbrains.mps.nodeEditor.EditorContext;
+import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
@@ -46,7 +46,7 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
   }
 
   private EditorCell createConstant_e2al3f_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "format configuration");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "format configuration");
     editorCell.setCellId("Constant_e2al3f_a0");
     BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -54,7 +54,7 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
   }
 
   private EditorCell createConstant_e2al3f_b0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "for");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "for");
     editorCell.setCellId("Constant_e2al3f_b0");
     DatesInternal_StyleSheet.getSimpleText(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -62,7 +62,7 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
   }
 
   private EditorCell createConstant_e2al3f_d0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "{");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "{");
     editorCell.setCellId("Constant_e2al3f_d0");
     BaseLanguageStyle_StyleSheet.getMatching(editorCell).apply(editorCell);
     {
@@ -75,7 +75,7 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
   }
 
   private EditorCell createConstant_e2al3f_f0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "}");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "}");
     editorCell.setCellId("Constant_e2al3f_f0");
     BaseLanguageStyle_StyleSheet.getMatching(editorCell).apply(editorCell);
     {
@@ -88,7 +88,7 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
   }
 
   private EditorCell createConstant_e2al3f_g0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "");
     editorCell.setCellId("Constant_e2al3f_g0");
     editorCell.setDefaultText("");
     return editorCell;

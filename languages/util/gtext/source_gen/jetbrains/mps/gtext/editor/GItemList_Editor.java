@@ -4,7 +4,7 @@ package jetbrains.mps.gtext.editor;
 
 import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
-import jetbrains.mps.nodeEditor.EditorContext;
+import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
@@ -14,7 +14,7 @@ import jetbrains.mps.nodeEditor.MPSColors;
 import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
 import jetbrains.mps.smodel.IScope;
-import jetbrains.mps.gtext.behavior.GItem_Behavior;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
 import jetbrains.mps.nodeEditor.CellActionType;
@@ -58,7 +58,7 @@ public class GItemList_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_39hcsa_a0a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "*");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "*");
     editorCell.setCellId("Constant_39hcsa_a0a");
     {
       Style style = editorCell.getStyle();
@@ -69,7 +69,7 @@ public class GItemList_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_39hcsa_a0a_0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "*");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "*");
     editorCell.setCellId("Constant_39hcsa_a0a_0");
     {
       Style style = editorCell.getStyle();
@@ -103,7 +103,7 @@ public class GItemList_Editor extends DefaultNodeEditor {
   }
 
   private static boolean renderingCondition_39hcsa_a0(SNode node, EditorContext editorContext, IScope scope) {
-    return GItem_Behavior.call_isComplex_1213877298853(node);
+    return BehaviorReflection.invokeVirtual(Boolean.TYPE, node, "virtual_isComplex_1213877298853", new Object[]{});
   }
 
   private static class itemListHandler_39hcsa_b0a extends RefNodeListHandler {

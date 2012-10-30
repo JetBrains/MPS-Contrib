@@ -5,7 +5,7 @@ package jetbrains.mps.execution.configurations.deprecated.editor;
 import jetbrains.mps.nodeEditor.AbstractCellProvider;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
-import jetbrains.mps.nodeEditor.EditorContext;
+import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
@@ -31,6 +31,12 @@ public class RunConfigurationMethods extends AbstractCellProvider {
     return this.createCollection_a3nk37_a(editorContext, node);
   }
 
+  @Deprecated
+  public EditorCell createEditorCell(jetbrains.mps.nodeEditor.EditorContext editorContext) {
+    // This method was added in MPS 3.0 for the compatibility with prev. generated code 
+    return createEditorCell((EditorContext) editorContext);
+  }
+
   private EditorCell createCollection_a3nk37_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_a3nk37_a");
@@ -40,7 +46,7 @@ public class RunConfigurationMethods extends AbstractCellProvider {
   }
 
   private EditorCell createConstant_a3nk37_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "");
     editorCell.setCellId("Constant_a3nk37_a0");
     editorCell.setDefaultText("");
     return editorCell;
@@ -94,7 +100,7 @@ public class RunConfigurationMethods extends AbstractCellProvider {
     }
 
     private EditorCell createConstant_a3nk37_a1a(EditorContext editorContext, SNode node) {
-      EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<additional methods>");
+      EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "<additional methods>");
       editorCell.setCellId("Constant_a3nk37_a1a");
       BaseLanguageStyle_StyleSheet.getComment(editorCell).apply(editorCell);
       editorCell.setDefaultText("");

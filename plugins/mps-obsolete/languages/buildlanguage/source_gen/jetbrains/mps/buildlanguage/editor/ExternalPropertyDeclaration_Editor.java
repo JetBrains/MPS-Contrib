@@ -4,14 +4,14 @@ package jetbrains.mps.buildlanguage.editor;
 
 import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
-import jetbrains.mps.nodeEditor.EditorContext;
+import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.cellMenu.CompositeSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.BasicCellContext;
-import jetbrains.mps.nodeEditor.cellMenu.SubstituteInfoPart;
+import jetbrains.mps.nodeEditor.cellMenu.SubstituteInfoPartExt;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
@@ -59,7 +59,7 @@ public class ExternalPropertyDeclaration_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_i6hv21_b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_i6hv21_b0");
-    editorCell.setSubstituteInfo(new CompositeSubstituteInfo(editorContext, new BasicCellContext(node), new SubstituteInfoPart[]{new ExternalPropertyDeclaration_Editor.ExternalPropertyDeclaration_generic_cellMenu_a0b0()}));
+    editorCell.setSubstituteInfo(new CompositeSubstituteInfo(editorContext, new BasicCellContext(node), new SubstituteInfoPartExt[]{new ExternalPropertyDeclaration_Editor.ExternalPropertyDeclaration_generic_cellMenu_a0b0()}));
     if (renderingCondition_i6hv21_a0b0(node, editorContext, editorContext.getOperationContext().getScope())) {
       editorCell.addEditorCell(this.createConstant_i6hv21_a1a(editorContext, node));
     }
@@ -93,7 +93,7 @@ public class ExternalPropertyDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_i6hv21_a0a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "//");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "//");
     editorCell.setCellId("Constant_i6hv21_a0a");
     BuildLanguageStyle_StyleSheet.getComment(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -101,7 +101,7 @@ public class ExternalPropertyDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_i6hv21_a1a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "checked");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "checked");
     editorCell.setCellId("Constant_i6hv21_a1a");
     BuildLanguageStyle_StyleSheet.getKeyword(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -109,14 +109,14 @@ public class ExternalPropertyDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_i6hv21_d1a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ":");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, ":");
     editorCell.setCellId("Constant_i6hv21_d1a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_i6hv21_a0a_0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "check on start");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "check on start");
     editorCell.setCellId("Constant_i6hv21_a0a_0");
     BuildLanguageStyle_StyleSheet.getAttributeName(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -124,7 +124,7 @@ public class ExternalPropertyDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_i6hv21_b0a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "=");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "=");
     editorCell.setCellId("Constant_i6hv21_b0a");
     editorCell.setDefaultText("");
     return editorCell;
@@ -240,7 +240,7 @@ public class ExternalPropertyDeclaration_Editor extends DefaultNodeEditor {
     public ExternalPropertyDeclaration_generic_cellMenu_a0b0() {
     }
 
-    public void handleAction(SNode node, SModel model, IScope scope, IOperationContext operationContext) {
+    public void handleAction(SNode node, SModel model, IScope scope, IOperationContext operationContext, EditorContext editorContext) {
       SPropertyOperations.set(node, "shortDescription", "");
     }
 

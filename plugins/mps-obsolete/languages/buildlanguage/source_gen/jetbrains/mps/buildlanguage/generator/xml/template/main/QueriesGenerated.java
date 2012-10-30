@@ -7,9 +7,8 @@ import jetbrains.mps.generator.template.BaseMappingRuleContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.generator.template.PropertyMacroContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.buildlanguage.behavior.PropertyValueExpression_Behavior;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.buildlanguage.behavior.ITargetReference_Behavior;
 import jetbrains.mps.buildlanguage.behavior.Project_Behavior;
 import jetbrains.mps.build.property.behavior.PropertyNode_Behavior;
 import jetbrains.mps.generator.template.IfMacroContext;
@@ -55,7 +54,7 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_1197047737338(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return PropertyValueExpression_Behavior.call_toString_1213877472569(SLinkOperations.getTarget(_context.getNode(), "propertyValue", true));
+    return BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(_context.getNode(), "propertyValue", true), "virtual_toString_1213877472569", new Object[]{});
   }
 
   public static Object propertyMacro_GetPropertyValue_1197043097344(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -67,11 +66,11 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_1200145395655(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return PropertyValueExpression_Behavior.call_toString_1213877472569(SLinkOperations.getTarget(_context.getNode(), "basedir", true));
+    return BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(_context.getNode(), "basedir", true), "virtual_toString_1213877472569", new Object[]{});
   }
 
   public static Object propertyMacro_GetPropertyValue_1230222683911(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return "${ant.file." + ((String) _context.getVariable("var:projectName")) + "}/../" + ITargetReference_Behavior.call_getProjectFileName_1230222765831(_context.getNode());
+    return "${ant.file." + ((String) _context.getVariable("var:projectName")) + "}/../" + BehaviorReflection.invokeVirtual(String.class, _context.getNode(), "virtual_getProjectFileName_1230222765831", new Object[]{});
   }
 
   public static Object propertyMacro_GetPropertyValue_1199647316381(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -79,7 +78,7 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_1197725505264(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return PropertyValueExpression_Behavior.call_toString_1213877472569(_context.getNode());
+    return BehaviorReflection.invokeVirtual(String.class, _context.getNode(), "virtual_toString_1213877472569", new Object[]{});
   }
 
   public static Object propertyMacro_GetPropertyValue_1201017147787(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -102,7 +101,7 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_1240399737243(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return PropertyValueExpression_Behavior.call_toString_1213877472569(SLinkOperations.getTarget(_context.getNode(), "propertyFile", true));
+    return BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(_context.getNode(), "propertyFile", true), "virtual_toString_1213877472569", new Object[]{});
   }
 
   public static boolean ifMacro_Condition_1229186350652(final IOperationContext operationContext, final IfMacroContext _context) {
@@ -190,14 +189,14 @@ public class QueriesGenerated {
     }
     Iterable<SNode> projects = ListSequence.fromList(SNodeOperations.getDescendants(_context.getNode(), "jetbrains.mps.buildlanguage.structure.ITargetReference", false, new String[]{})).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
-        boolean b = !(SetSequence.fromSet(existing).contains(ITargetReference_Behavior.call_getProjectFileName_1230222765831(it)));
-        SetSequence.fromSet(existing).addElement(ITargetReference_Behavior.call_getProjectFileName_1230222765831(it));
+        boolean b = !(SetSequence.fromSet(existing).contains(BehaviorReflection.invokeVirtual(String.class, it, "virtual_getProjectFileName_1230222765831", new Object[]{})));
+        SetSequence.fromSet(existing).addElement(BehaviorReflection.invokeVirtual(String.class, it, "virtual_getProjectFileName_1230222765831", new Object[]{}));
         return b;
       }
     });
     return Sequence.fromIterable(projects).sort(new Comparator<SNode>() {
       public int compare(SNode a, SNode b) {
-        return ITargetReference_Behavior.call_getProjectFileName_1230222765831(a).compareToIgnoreCase(ITargetReference_Behavior.call_getProjectFileName_1230222765831(b));
+        return BehaviorReflection.invokeVirtual(String.class, a, "virtual_getProjectFileName_1230222765831", new Object[]{}).compareToIgnoreCase(BehaviorReflection.invokeVirtual(String.class, b, "virtual_getProjectFileName_1230222765831", new Object[]{}));
       }
     }, true);
   }

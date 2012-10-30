@@ -4,7 +4,7 @@ package jetbrains.mps.execution.configurations.deprecated.editor;
 
 import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
-import jetbrains.mps.nodeEditor.EditorContext;
+import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.style.Style;
@@ -26,7 +26,7 @@ import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.nodeEditor.BlockCells;
 import jetbrains.mps.project.IModule;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.util.MacrosUtil;
+import jetbrains.mps.util.MacrosFactory;
 import jetbrains.mps.vfs.FileSystem;
 import javax.swing.JComponent;
 import jetbrains.mps.ide.editor.util.EditorUtil;
@@ -157,7 +157,7 @@ public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_wgm1kr_a0a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "run configuration type");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "run configuration type");
     editorCell.setCellId("Constant_wgm1kr_a0a0");
     {
       Style style = editorCell.getStyle();
@@ -168,7 +168,7 @@ public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_wgm1kr_b0a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "{");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "{");
     editorCell.setCellId("Constant_wgm1kr_b0a");
     {
       Style style = editorCell.getStyle();
@@ -181,21 +181,21 @@ public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_wgm1kr_a0b1a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "caption:");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "caption:");
     editorCell.setCellId("Constant_wgm1kr_a0b1a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_wgm1kr_a1b1a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "description:");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "description:");
     editorCell.setCellId("Constant_wgm1kr_a1b1a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_wgm1kr_a2b1a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "icon:");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "icon:");
     editorCell.setCellId("Constant_wgm1kr_a2b1a");
     {
       Style style = editorCell.getStyle();
@@ -206,7 +206,7 @@ public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_wgm1kr_a1c1b0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<no icon>");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "<no icon>");
     editorCell.setCellId("Constant_wgm1kr_a1c1b0");
     {
       Style style = editorCell.getStyle();
@@ -217,7 +217,7 @@ public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_wgm1kr_c0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "}");
+    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "}");
     editorCell.setCellId("Constant_wgm1kr_c0");
     {
       Style style = editorCell.getStyle();
@@ -242,7 +242,7 @@ public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_wgm1kr_a1a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
+    EditorCell_Indent result = new EditorCell_Indent((jetbrains.mps.nodeEditor.EditorContext) editorContext, node);
     return result;
   }
 
@@ -334,7 +334,7 @@ public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
     String path = null;
     IModule module = SNodeOperations.getModel(node).getModelDescriptor().getModule();
     if (module != null) {
-      path = MacrosUtil.expandPath(SPropertyOperations.getString(node, "iconPath"), module.getModuleFqName());
+      path = MacrosFactory.forModuleFile(module.getDescriptorFile()).expandPath(SPropertyOperations.getString(node, "iconPath"));
     }
     return path != null && FileSystem.getInstance().getFileByPath(path).exists();
   }

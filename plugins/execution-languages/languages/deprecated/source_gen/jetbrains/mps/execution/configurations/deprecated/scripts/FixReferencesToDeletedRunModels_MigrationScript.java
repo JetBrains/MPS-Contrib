@@ -42,7 +42,7 @@ public class FixReferencesToDeletedRunModels_MigrationScript extends BaseMigrati
       }
 
       public void doUpdateInstanceNode(SNode node) {
-        ScriptsUtil.updateReferencesToModel(node, "jetbrains.mps.baseLanguage.util.plugin.run", SNodeOperations.getModel(SLinkOperations.getTarget(new FixReferencesToDeletedRunModels_MigrationScript.QuotationClass_s5mt6f_a0a0a2a0a4a0a0a1a0().createNode(), "classifier", false)).getSModelReference());
+        ScriptsUtil.updateReferencesToModel(node, "jetbrains.mps.baseLanguage.util.plugin.run", SNodeOperations.getModel(SLinkOperations.getTarget(new FixReferencesToDeletedRunModels_MigrationScript.QuotationClass_s5mt6f_a0a0a2a0a4a0a0a0a1a0().createNode(), "classifier", false)).getSModelReference());
       }
 
       public boolean isShowAsIntention() {
@@ -77,7 +77,7 @@ public class FixReferencesToDeletedRunModels_MigrationScript extends BaseMigrati
       }
 
       public void doUpdateInstanceNode(SNode node) {
-        ScriptsUtil.updateReferencesToModel(node, "jetbrains.mps.lang.plugin.run", SNodeOperations.getModel(SLinkOperations.getTarget(new FixReferencesToDeletedRunModels_MigrationScript.QuotationClass_s5mt6f_a0a0a2a0a4a0a0a2a0().createNode(), "classifier", false)).getSModelReference());
+        ScriptsUtil.updateReferencesToModel(node, "jetbrains.mps.lang.plugin.run", SNodeOperations.getModel(SLinkOperations.getTarget(new FixReferencesToDeletedRunModels_MigrationScript.QuotationClass_s5mt6f_a0a0a2a0a4a0a0a0a2a0().createNode(), "classifier", false)).getSModelReference());
       }
 
       public boolean isShowAsIntention() {
@@ -86,8 +86,8 @@ public class FixReferencesToDeletedRunModels_MigrationScript extends BaseMigrati
     });
   }
 
-  public static class QuotationClass_s5mt6f_a0a0a2a0a4a0a0a1a0 {
-    public QuotationClass_s5mt6f_a0a0a2a0a4a0a0a1a0() {
+  public static class QuotationClass_s5mt6f_a0a0a2a0a4a0a0a0a1a0 {
+    public QuotationClass_s5mt6f_a0a0a2a0a4a0a0a0a1a0() {
     }
 
     public SNode createNode() {
@@ -95,17 +95,17 @@ public class FixReferencesToDeletedRunModels_MigrationScript extends BaseMigrati
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
       SNode quotedNode_1 = null;
       {
-        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", null, GlobalScope.getInstance(), false);
+        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", null, null, GlobalScope.getInstance(), false);
         SNode quotedNode1_2 = quotedNode_1;
-        quotedNode1_2.addReference(SReference.create("classifier", quotedNode1_2, SModelReference.fromString("f:java_stub#920eaa0e-ecca-46bc-bee7-4e5c59213dd6#jetbrains.mps(Testbench/jetbrains.mps@java_stub)"), SNodeId.fromString("~MPSLaunch")));
+        quotedNode1_2.setReference("classifier", SReference.create("classifier", quotedNode1_2, SModelReference.fromString("f:java_stub#920eaa0e-ecca-46bc-bee7-4e5c59213dd6#jetbrains.mps(Testbench/jetbrains.mps@java_stub)"), SNodeId.fromString("~MPSLaunch")));
         result = quotedNode1_2;
       }
       return result;
     }
   }
 
-  public static class QuotationClass_s5mt6f_a0a0a2a0a4a0a0a2a0 {
-    public QuotationClass_s5mt6f_a0a0a2a0a4a0a0a2a0() {
+  public static class QuotationClass_s5mt6f_a0a0a2a0a4a0a0a0a2a0 {
+    public QuotationClass_s5mt6f_a0a0a2a0a4a0a0a0a2a0() {
     }
 
     public SNode createNode() {
@@ -113,9 +113,9 @@ public class FixReferencesToDeletedRunModels_MigrationScript extends BaseMigrati
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
       SNode quotedNode_1 = null;
       {
-        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", null, GlobalScope.getInstance(), false);
+        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", null, null, GlobalScope.getInstance(), false);
         SNode quotedNode1_2 = quotedNode_1;
-        quotedNode1_2.addReference(SReference.create("classifier", quotedNode1_2, SModelReference.fromString("r:82f15792-6966-47aa-8004-b293ab2bcfd2(jetbrains.mps.lang.plugin.run)"), SNodeId.fromString("242278890011773407")));
+        quotedNode1_2.setReference("classifier", SReference.create("classifier", quotedNode1_2, SModelReference.fromString("r:82f15792-6966-47aa-8004-b293ab2bcfd2(jetbrains.mps.lang.plugin.run)"), SNodeId.fromString("242278890011773407")));
         result = quotedNode1_2;
       }
       return result;

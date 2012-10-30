@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
   <dependency className="jetbrains.mps.xml.actions.ElementUtil" file="ElementUtil.java">
+    <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.util.ArrayList" />
     <classNode dependClassName="java.util.HashSet" />
     <classNode dependClassName="java.util.List" />
@@ -13,7 +15,7 @@
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
     <classNode dependClassName="jetbrains.mps.smodel.IScope" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
-    <classNode dependClassName="jetbrains.mps.xml.behavior.XmlRoot_Behavior" />
+    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
     <classNode dependClassName="jetbrains.mps.xmlSchema.behavior.ElementDeclaration_Behavior" />
   </dependency>
   <dependency className="jetbrains.mps.xml.actions.QueriesGenerated" file="QueriesGenerated.java">
@@ -40,12 +42,12 @@
     <classNode dependClassName="jetbrains.mps.smodel.action.NodeSubstituteActionsFactoryContext" />
     <classNode dependClassName="jetbrains.mps.smodel.action.RemoveSubstituteActionByConditionContext" />
     <classNode dependClassName="jetbrains.mps.smodel.action.SNodeFactoryOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
     <classNode dependClassName="jetbrains.mps.util.Computable" />
     <classNode dependClassName="jetbrains.mps.util.Condition" />
     <classNode dependClassName="jetbrains.mps.util.NameUtil" />
     <classNode dependClassName="jetbrains.mps.xml.actions.ElementUtil" />
     <classNode dependClassName="jetbrains.mps.xmlSchema.behavior.ElementDeclaration_Behavior" />
-    <classNode dependClassName="jetbrains.mps.xmlSchema.behavior.TypeExpression_Behavior" />
   </dependency>
 </dependenciesRoot>
 
