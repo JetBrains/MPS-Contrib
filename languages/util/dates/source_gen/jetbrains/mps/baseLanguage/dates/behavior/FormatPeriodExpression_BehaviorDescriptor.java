@@ -10,12 +10,12 @@ public class FormatPeriodExpression_BehaviorDescriptor extends Expression_Behavi
   public FormatPeriodExpression_BehaviorDescriptor() {
   }
 
-  public SNode virtual_deriveType_4555537781928374706(SNode thisNode, SNode expression, SNode link) {
-    return FormatPeriodExpression_Behavior.virtual_deriveType_4555537781928374706(thisNode, expression, link);
-  }
-
   public SNode virtual_deriveType_1213877435747(SNode thisNode, SNode expression) {
     return FormatPeriodExpression_Behavior.virtual_deriveType_1213877435747(thisNode, expression);
+  }
+
+  public SNode virtual_deriveType_4555537781928374706(SNode thisNode, SNode expression, SNode link) {
+    return FormatPeriodExpression_Behavior.virtual_deriveType_4555537781928374706(thisNode, expression, link);
   }
 
   @Override
