@@ -30,7 +30,6 @@ import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 
-
 /**
  * Use junit command instead of it.
  */

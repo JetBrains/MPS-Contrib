@@ -7,7 +7,6 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
 import java.util.ArrayList;
 
-
 /**
  * Contains utility methods for integer two-dimensional geometry.
  */

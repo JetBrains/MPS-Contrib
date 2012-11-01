@@ -19,17 +19,17 @@
     <nodeInfo nodeId="1251688034163226145" fileName="ClusterGraphLayoutPanel.java" startLine="54" startPosition="108" endLine="55" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1251688034163277174" fileName="ClusterGraphLayoutPanel.java" startLine="55" startPosition="80" endLine="56" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1532165762814312871" fileName="ClusterGraphLayoutPanel.java" startLine="61" startPosition="25" endLine="62" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1532165762814268475" fileName="ClusterGraphLayoutPanel.java" startLine="16" startPosition="72" endLine="19" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ClusterGraphLayoutPanel#()V" />
+    <nodeInfo nodeId="1532165762814268475" fileName="ClusterGraphLayoutPanel.java" startLine="17" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ClusterGraphLayoutPanel#()V" />
     <nodeInfo nodeId="1532165762814296258" fileName="ClusterGraphLayoutPanel.java" startLine="28" startPosition="65" endLine="31" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1532165762814312867" fileName="ClusterGraphLayoutPanel.java" startLine="61" startPosition="0" endLine="64" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="run#()V" />
     <nodeInfo nodeId="1251688034163277208" fileName="ClusterGraphLayoutPanel.java" startLine="45" startPosition="28" endLine="49" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1532165762814312867" fileName="ClusterGraphLayoutPanel.java" startLine="60" startPosition="47" endLine="64" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="run#()V" />
     <nodeInfo nodeId="1532165762814296252" fileName="ClusterGraphLayoutPanel.java" startLine="27" startPosition="16" endLine="32" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="3444434563276381040" fileName="ClusterGraphLayoutPanel.java" startLine="37" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="initLayout#()V" />
     <nodeInfo nodeId="1532165762814312861" fileName="ClusterGraphLayoutPanel.java" startLine="59" startPosition="42" endLine="64" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3444434563276381040" fileName="ClusterGraphLayoutPanel.java" startLine="36" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="initLayout#()V" />
-    <nodeInfo nodeId="1251688034163226130" fileName="ClusterGraphLayoutPanel.java" startLine="51" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="generateGraph#(II)Ljetbrains/mps/graphLayout/graph/ClusteredGraph;" />
-    <nodeInfo nodeId="1532165762814312857" fileName="ClusterGraphLayoutPanel.java" startLine="58" startPosition="0" endLine="66" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="main#([Ljava/lang/String;)V" />
-    <nodeInfo nodeId="1251688034163226094" fileName="ClusterGraphLayoutPanel.java" startLine="42" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="writeGraph#(Ljetbrains/mps/graphLayout/graph/Graph;)V" />
-    <nodeInfo nodeId="1532165762814296202" fileName="ClusterGraphLayoutPanel.java" startLine="20" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="readGraph#(Ljava/util/Scanner;)Ljetbrains/mps/graphLayout/graph/Graph;" />
+    <nodeInfo nodeId="1251688034163226130" fileName="ClusterGraphLayoutPanel.java" startLine="52" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="generateGraph#(II)Ljetbrains/mps/graphLayout/graph/ClusteredGraph;" />
+    <nodeInfo nodeId="1532165762814312857" fileName="ClusterGraphLayoutPanel.java" startLine="59" startPosition="0" endLine="66" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="main#([Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1251688034163226094" fileName="ClusterGraphLayoutPanel.java" startLine="43" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="writeGraph#(Ljetbrains/mps/graphLayout/graph/Graph;)V" />
+    <nodeInfo nodeId="1532165762814296202" fileName="ClusterGraphLayoutPanel.java" startLine="21" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="readGraph#(Ljava/util/Scanner;)Ljetbrains/mps/graphLayout/graph/Graph;" />
     <scopeInfo nodeId="1532165762814268478" fileName="ClusterGraphLayoutPanel.java" startLine="17" startPosition="36" endLine="18" endPosition="12" />
     <scopeInfo nodeId="1532165762814296266" fileName="ClusterGraphLayoutPanel.java" startLine="29" startPosition="76" endLine="30" endPosition="62" />
     <scopeInfo nodeId="1532165762814312870" fileName="ClusterGraphLayoutPanel.java" startLine="61" startPosition="25" endLine="62" endPosition="47" />
@@ -37,27 +37,27 @@
     <scopeInfo nodeId="1251688034163277209" fileName="ClusterGraphLayoutPanel.java" startLine="46" startPosition="42" endLine="48" endPosition="29">
       <varInfo nodeId="1251688034163277226" varName="tree" />
     </scopeInfo>
-    <scopeInfo nodeId="1532165762814268475" fileName="ClusterGraphLayoutPanel.java" startLine="16" startPosition="72" endLine="19" endPosition="3" />
+    <scopeInfo nodeId="1532165762814268475" fileName="ClusterGraphLayoutPanel.java" startLine="17" startPosition="0" endLine="20" endPosition="0" />
     <scopeInfo nodeId="1532165762814296257" fileName="ClusterGraphLayoutPanel.java" startLine="28" startPosition="65" endLine="31" endPosition="7" />
     <scopeInfo nodeId="1251688034163226137" fileName="ClusterGraphLayoutPanel.java" startLine="53" startPosition="70" endLine="56" endPosition="32">
       <varInfo nodeId="1251688034163226146" varName="generator" />
       <varInfo nodeId="1251688034163226540" varName="graphGenerator" />
     </scopeInfo>
-    <scopeInfo nodeId="1532165762814312867" fileName="ClusterGraphLayoutPanel.java" startLine="60" startPosition="47" endLine="64" endPosition="0" />
+    <scopeInfo nodeId="1532165762814312867" fileName="ClusterGraphLayoutPanel.java" startLine="61" startPosition="0" endLine="64" endPosition="0" />
     <scopeInfo nodeId="1532165762814296252" fileName="ClusterGraphLayoutPanel.java" startLine="27" startPosition="16" endLine="32" endPosition="5">
       <varInfo nodeId="1532165762814296253" varName="cluster" />
     </scopeInfo>
+    <scopeInfo nodeId="3444434563276381040" fileName="ClusterGraphLayoutPanel.java" startLine="37" startPosition="0" endLine="42" endPosition="0" />
     <scopeInfo nodeId="1251688034163226099" fileName="ClusterGraphLayoutPanel.java" startLine="44" startPosition="42" endLine="49" endPosition="5" />
     <scopeInfo nodeId="1532165762814312860" fileName="ClusterGraphLayoutPanel.java" startLine="59" startPosition="42" endLine="64" endPosition="7" />
-    <scopeInfo nodeId="3444434563276381040" fileName="ClusterGraphLayoutPanel.java" startLine="36" startPosition="0" endLine="42" endPosition="0" />
-    <scopeInfo nodeId="1251688034163226130" fileName="ClusterGraphLayoutPanel.java" startLine="51" startPosition="0" endLine="58" endPosition="0">
+    <scopeInfo nodeId="1251688034163226130" fileName="ClusterGraphLayoutPanel.java" startLine="52" startPosition="0" endLine="58" endPosition="0">
       <varInfo nodeId="1251688034163226135" varName="numEdges" />
       <varInfo nodeId="1251688034163226133" varName="numNodes" />
     </scopeInfo>
-    <scopeInfo nodeId="1532165762814312857" fileName="ClusterGraphLayoutPanel.java" startLine="58" startPosition="0" endLine="66" endPosition="0">
+    <scopeInfo nodeId="1532165762814312857" fileName="ClusterGraphLayoutPanel.java" startLine="59" startPosition="0" endLine="66" endPosition="0">
       <varInfo nodeId="1532165762814312876" varName="args" />
     </scopeInfo>
-    <scopeInfo nodeId="1251688034163226094" fileName="ClusterGraphLayoutPanel.java" startLine="42" startPosition="0" endLine="51" endPosition="0">
+    <scopeInfo nodeId="1251688034163226094" fileName="ClusterGraphLayoutPanel.java" startLine="43" startPosition="0" endLine="51" endPosition="0">
       <varInfo nodeId="1251688034163226097" varName="graph" />
     </scopeInfo>
     <scopeInfo nodeId="1532165762814296207" fileName="ClusterGraphLayoutPanel.java" startLine="22" startPosition="46" endLine="34" endPosition="17">
@@ -65,7 +65,7 @@
       <varInfo nodeId="1532165762814296230" varName="graph" />
       <varInfo nodeId="1532165762814296239" varName="tree" />
     </scopeInfo>
-    <scopeInfo nodeId="1532165762814296202" fileName="ClusterGraphLayoutPanel.java" startLine="20" startPosition="0" endLine="36" endPosition="0">
+    <scopeInfo nodeId="1532165762814296202" fileName="ClusterGraphLayoutPanel.java" startLine="21" startPosition="0" endLine="36" endPosition="0">
       <varInfo nodeId="1532165762814296205" varName="scanner" />
     </scopeInfo>
     <unitInfo nodeId="1532165762814312865" fileName="ClusterGraphLayoutPanel.java" startLine="60" startPosition="35" endLine="64" endPosition="5" unitName="visualization.ClusterGraphLayoutPanel$1" />
@@ -131,7 +131,9 @@
     <nodeInfo nodeId="1714301205550509676" fileName="GraphIO.java" startLine="148" startPosition="56" endLine="149" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ContinueStatement" />
     <nodeInfo nodeId="1714301205550509678" fileName="GraphIO.java" startLine="150" startPosition="7" endLine="151" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1714301205550473177" fileName="GraphIO.java" startLine="152" startPosition="5" endLine="153" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7727845083901344073" fileName="GraphIO.java" startLine="25" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="scanGraph#(Ljava/lang/String;)Ljetbrains/mps/graphLayout/graph/Graph;" />
     <nodeInfo nodeId="4998536563116676900" fileName="GraphIO.java" startLine="37" startPosition="39" endLine="40" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
+    <nodeInfo nodeId="1714301205550474143" fileName="GraphIO.java" startLine="52" startPosition="0" endLine="55" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="scanGraph#(Ljava/util/Scanner;Ljetbrains/mps/graphLayout/graph/Graph;)V" />
     <nodeInfo nodeId="6984255766319299385" fileName="GraphIO.java" startLine="63" startPosition="42" endLine="66" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
     <nodeInfo nodeId="6984255766319299507" fileName="GraphIO.java" startLine="73" startPosition="56" endLine="76" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="6984255766319299572" fileName="GraphIO.java" startLine="80" startPosition="34" endLine="83" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
@@ -139,28 +141,26 @@
     <nodeInfo nodeId="4519409331094617429" fileName="GraphIO.java" startLine="94" startPosition="63" endLine="97" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="8527875266531960623" fileName="GraphIO.java" startLine="103" startPosition="59" endLine="106" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="8527875266531960721" fileName="GraphIO.java" startLine="107" startPosition="64" endLine="110" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="4998536563116627668" fileName="GraphIO.java" startLine="113" startPosition="0" endLine="116" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="scanClusteredGraph#(Ljava/lang/String;Ljava/lang/String;)Ljetbrains/mps/graphLayout/graph/ClusteredGraph;" />
     <nodeInfo nodeId="4998536563116677068" fileName="GraphIO.java" startLine="124" startPosition="67" endLine="127" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="1714301205550509665" fileName="GraphIO.java" startLine="147" startPosition="63" endLine="150" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="7727845083901344073" fileName="GraphIO.java" startLine="24" startPosition="22" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="scanGraph#(Ljava/lang/String;)Ljetbrains/mps/graphLayout/graph/Graph;" />
-    <nodeInfo nodeId="1714301205550474143" fileName="GraphIO.java" startLine="51" startPosition="0" endLine="55" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="scanGraph#(Ljava/util/Scanner;Ljetbrains/mps/graphLayout/graph/Graph;)V" />
-    <nodeInfo nodeId="4998536563116627668" fileName="GraphIO.java" startLine="112" startPosition="0" endLine="116" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="scanClusteredGraph#(Ljava/lang/String;Ljava/lang/String;)Ljetbrains/mps/graphLayout/graph/ClusteredGraph;" />
+    <nodeInfo nodeId="1567683135099906915" fileName="GraphIO.java" startLine="29" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="scanGraph#(Ljava/util/Scanner;)Ljetbrains/mps/graphLayout/graph/Graph;" />
     <nodeInfo nodeId="4998536563116676920" fileName="GraphIO.java" startLine="41" startPosition="39" endLine="46" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
     <nodeInfo nodeId="4519409331094617411" fileName="GraphIO.java" startLine="93" startPosition="64" endLine="98" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="4998536563116677058" fileName="GraphIO.java" startLine="123" startPosition="18" endLine="128" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="1567683135099906915" fileName="GraphIO.java" startLine="28" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="scanGraph#(Ljava/util/Scanner;)Ljetbrains/mps/graphLayout/graph/Graph;" />
     <nodeInfo nodeId="6984255766319299487" fileName="GraphIO.java" startLine="71" startPosition="28" endLine="77" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="1714301205550473143" fileName="GraphIO.java" startLine="140" startPosition="65" endLine="146" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
     <nodeInfo nodeId="1714301205550509655" fileName="GraphIO.java" startLine="146" startPosition="5" endLine="152" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="8527875266531960591" fileName="GraphIO.java" startLine="101" startPosition="0" endLine="112" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="writeGraph#(Ljetbrains/mps/graphLayout/graph/Graph;Ljava/util/Map;Ljava/util/Map;Ljava/io/PrintWriter;)V" />
     <nodeInfo nodeId="6984255766319299435" fileName="GraphIO.java" startLine="67" startPosition="33" endLine="79" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="8527875266531960591" fileName="GraphIO.java" startLine="100" startPosition="0" endLine="112" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="writeGraph#(Ljetbrains/mps/graphLayout/graph/Graph;Ljava/util/Map;Ljava/util/Map;Ljava/io/PrintWriter;)V" />
-    <nodeInfo nodeId="4519409331094617336" fileName="GraphIO.java" startLine="87" startPosition="0" endLine="100" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="writeGraph#(Ljetbrains/mps/graphLayout/graph/Graph;Ljava/io/PrintWriter;)V" />
+    <nodeInfo nodeId="4519409331094617336" fileName="GraphIO.java" startLine="88" startPosition="0" endLine="100" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="writeGraph#(Ljetbrains/mps/graphLayout/graph/Graph;Ljava/io/PrintWriter;)V" />
     <nodeInfo nodeId="4998536563116676887" fileName="GraphIO.java" startLine="35" startPosition="79" endLine="49" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
+    <nodeInfo nodeId="4998536563116676868" fileName="GraphIO.java" startLine="35" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="scanGraph#(Ljava/util/Scanner;Ljetbrains/mps/graphLayout/graph/Graph;I)V" />
     <nodeInfo nodeId="4998536563116676051" fileName="GraphIO.java" startLine="117" startPosition="94" endLine="133" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
-    <nodeInfo nodeId="4998536563116676868" fileName="GraphIO.java" startLine="34" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="scanGraph#(Ljava/util/Scanner;Ljetbrains/mps/graphLayout/graph/Graph;I)V" />
-    <nodeInfo nodeId="4998536563116627662" fileName="GraphIO.java" startLine="116" startPosition="0" endLine="135" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="scanClusteredGraph#(Ljava/util/Scanner;Ljava/util/Scanner;)Ljetbrains/mps/graphLayout/graph/ClusteredGraph;" />
-    <nodeInfo nodeId="1714301205550473114" fileName="GraphIO.java" startLine="135" startPosition="0" endLine="155" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="scanHyperGraph#(Ljava/util/Scanner;)Ljetbrains/mps/graphLayout/graph/HyperGraph;" />
+    <nodeInfo nodeId="4998536563116627662" fileName="GraphIO.java" startLine="117" startPosition="0" endLine="135" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="scanClusteredGraph#(Ljava/util/Scanner;Ljava/util/Scanner;)Ljetbrains/mps/graphLayout/graph/ClusteredGraph;" />
+    <nodeInfo nodeId="1714301205550473114" fileName="GraphIO.java" startLine="136" startPosition="0" endLine="155" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="scanHyperGraph#(Ljava/util/Scanner;)Ljetbrains/mps/graphLayout/graph/HyperGraph;" />
     <nodeInfo nodeId="6984255766319296633" fileName="GraphIO.java" startLine="59" startPosition="37" endLine="84" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="6984255766319282480" fileName="GraphIO.java" startLine="55" startPosition="0" endLine="87" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="scanSimpleEmbeddedGraph#(Ljava/util/Scanner;)Ljetbrains/mps/graphLayout/planarGraph/EmbeddedGraph;" />
+    <nodeInfo nodeId="6984255766319282480" fileName="GraphIO.java" startLine="56" startPosition="0" endLine="87" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="scanSimpleEmbeddedGraph#(Ljava/util/Scanner;)Ljetbrains/mps/graphLayout/planarGraph/EmbeddedGraph;" />
     <scopeInfo nodeId="7727845083901369799" fileName="GraphIO.java" startLine="25" startPosition="53" endLine="26" endPosition="47" />
     <scopeInfo nodeId="4998536563116676901" fileName="GraphIO.java" startLine="38" startPosition="42" endLine="39" endPosition="27" />
     <scopeInfo nodeId="4998536563116676955" fileName="GraphIO.java" startLine="47" startPosition="0" endLine="48" endPosition="61">
@@ -182,6 +182,9 @@
     </scopeInfo>
     <scopeInfo nodeId="4998536563116676122" fileName="GraphIO.java" startLine="131" startPosition="27" endLine="132" endPosition="61" />
     <scopeInfo nodeId="1714301205550509667" fileName="GraphIO.java" startLine="148" startPosition="56" endLine="149" endPosition="17" />
+    <scopeInfo nodeId="7727845083901344073" fileName="GraphIO.java" startLine="25" startPosition="0" endLine="28" endPosition="0">
+      <varInfo nodeId="7727845083901344078" varName="graphString" />
+    </scopeInfo>
     <scopeInfo nodeId="1567683135099906918" fileName="GraphIO.java" startLine="29" startPosition="50" endLine="32" endPosition="17">
       <varInfo nodeId="4998536563116676981" varName="graph" />
     </scopeInfo>
@@ -191,6 +194,10 @@
     <scopeInfo nodeId="4998536563116676921" fileName="GraphIO.java" startLine="42" startPosition="42" endLine="45" endPosition="68">
       <varInfo nodeId="4998536563116676923" varName="source" />
       <varInfo nodeId="4998536563116676929" varName="target" />
+    </scopeInfo>
+    <scopeInfo nodeId="1714301205550474143" fileName="GraphIO.java" startLine="52" startPosition="0" endLine="55" endPosition="0">
+      <varInfo nodeId="1714301205550474149" varName="graph" />
+      <varInfo nodeId="1714301205550474147" varName="scanner" />
     </scopeInfo>
     <scopeInfo nodeId="6984255766319299385" fileName="GraphIO.java" startLine="63" startPosition="42" endLine="66" endPosition="7">
       <varInfo nodeId="6984255766319299388" varName="d" />
@@ -208,26 +215,22 @@
     <scopeInfo nodeId="8527875266531960721" fileName="GraphIO.java" startLine="107" startPosition="64" endLine="110" endPosition="5">
       <varInfo nodeId="8527875266531960722" varName="edge" />
     </scopeInfo>
-    <scopeInfo nodeId="4998536563116677061" fileName="GraphIO.java" startLine="124" startPosition="67" endLine="127" endPosition="9" />
-    <scopeInfo nodeId="7727845083901344073" fileName="GraphIO.java" startLine="24" startPosition="22" endLine="28" endPosition="0">
-      <varInfo nodeId="7727845083901344078" varName="graphString" />
-    </scopeInfo>
-    <scopeInfo nodeId="1714301205550474143" fileName="GraphIO.java" startLine="51" startPosition="0" endLine="55" endPosition="0">
-      <varInfo nodeId="1714301205550474149" varName="graph" />
-      <varInfo nodeId="1714301205550474147" varName="scanner" />
-    </scopeInfo>
-    <scopeInfo nodeId="6984255766319299490" fileName="GraphIO.java" startLine="72" startPosition="67" endLine="76" endPosition="11">
-      <varInfo nodeId="6984255766319299517" varName="adjNodes" />
-    </scopeInfo>
-    <scopeInfo nodeId="4998536563116627668" fileName="GraphIO.java" startLine="112" startPosition="0" endLine="116" endPosition="0">
+    <scopeInfo nodeId="4998536563116627668" fileName="GraphIO.java" startLine="113" startPosition="0" endLine="116" endPosition="0">
       <varInfo nodeId="4998536563116627673" varName="graphString" />
       <varInfo nodeId="4998536563116676136" varName="treeString" />
+    </scopeInfo>
+    <scopeInfo nodeId="4998536563116677061" fileName="GraphIO.java" startLine="124" startPosition="67" endLine="127" endPosition="9" />
+    <scopeInfo nodeId="6984255766319299490" fileName="GraphIO.java" startLine="72" startPosition="67" endLine="76" endPosition="11">
+      <varInfo nodeId="6984255766319299517" varName="adjNodes" />
     </scopeInfo>
     <scopeInfo nodeId="1714301205550473144" fileName="GraphIO.java" startLine="141" startPosition="44" endLine="145" endPosition="53">
       <varInfo nodeId="1714301205550473155" varName="child" />
       <varInfo nodeId="1714301205550473146" varName="parent" />
     </scopeInfo>
     <scopeInfo nodeId="1714301205550509658" fileName="GraphIO.java" startLine="147" startPosition="63" endLine="151" endPosition="45" />
+    <scopeInfo nodeId="1567683135099906915" fileName="GraphIO.java" startLine="29" startPosition="0" endLine="34" endPosition="0">
+      <varInfo nodeId="1567683135099906997" varName="scanner" />
+    </scopeInfo>
     <scopeInfo nodeId="4998536563116676920" fileName="GraphIO.java" startLine="41" startPosition="39" endLine="46" endPosition="7">
       <varInfo nodeId="4998536563116676945" varName="i" />
     </scopeInfo>
@@ -236,9 +239,6 @@
     </scopeInfo>
     <scopeInfo nodeId="4998536563116677058" fileName="GraphIO.java" startLine="123" startPosition="18" endLine="128" endPosition="7">
       <varInfo nodeId="4998536563116677059" varName="cluster" />
-    </scopeInfo>
-    <scopeInfo nodeId="1567683135099906915" fileName="GraphIO.java" startLine="28" startPosition="0" endLine="34" endPosition="0">
-      <varInfo nodeId="1567683135099906997" varName="scanner" />
     </scopeInfo>
     <scopeInfo nodeId="6984255766319299487" fileName="GraphIO.java" startLine="71" startPosition="28" endLine="77" endPosition="9">
       <varInfo nodeId="6984255766319299488" varName="edge" />
@@ -262,41 +262,41 @@
     <scopeInfo nodeId="4519409331094617339" fileName="GraphIO.java" startLine="88" startPosition="66" endLine="98" endPosition="5">
       <varInfo nodeId="4519409331094617352" varName="numEdges" />
     </scopeInfo>
-    <scopeInfo nodeId="6984255766319299435" fileName="GraphIO.java" startLine="67" startPosition="33" endLine="79" endPosition="7">
-      <varInfo nodeId="6984255766319299438" varName="j" />
-    </scopeInfo>
-    <scopeInfo nodeId="8527875266531960591" fileName="GraphIO.java" startLine="100" startPosition="0" endLine="112" endPosition="0">
+    <scopeInfo nodeId="8527875266531960591" fileName="GraphIO.java" startLine="101" startPosition="0" endLine="112" endPosition="0">
       <varInfo nodeId="8527875266531960607" varName="edgeLabelSizes" />
       <varInfo nodeId="8527875266531960595" varName="graph" />
       <varInfo nodeId="8527875266531960600" varName="nodeSizes" />
       <varInfo nodeId="8527875266531960597" varName="writer" />
+    </scopeInfo>
+    <scopeInfo nodeId="6984255766319299435" fileName="GraphIO.java" startLine="67" startPosition="33" endLine="79" endPosition="7">
+      <varInfo nodeId="6984255766319299438" varName="j" />
+    </scopeInfo>
+    <scopeInfo nodeId="4519409331094617336" fileName="GraphIO.java" startLine="88" startPosition="0" endLine="100" endPosition="0">
+      <varInfo nodeId="4519409331094617361" varName="graph" />
+      <varInfo nodeId="4519409331094617340" varName="writer" />
     </scopeInfo>
     <scopeInfo nodeId="4998536563116676052" fileName="GraphIO.java" startLine="118" startPosition="9" endLine="130" endPosition="19">
       <varInfo nodeId="4998536563116677051" varName="cur" />
       <varInfo nodeId="4998536563116676054" varName="graph" />
       <varInfo nodeId="4998536563116676178" varName="tree" />
     </scopeInfo>
-    <scopeInfo nodeId="4519409331094617336" fileName="GraphIO.java" startLine="87" startPosition="0" endLine="100" endPosition="0">
-      <varInfo nodeId="4519409331094617361" varName="graph" />
-      <varInfo nodeId="4519409331094617340" varName="writer" />
-    </scopeInfo>
     <scopeInfo nodeId="4998536563116676871" fileName="GraphIO.java" startLine="35" startPosition="79" endLine="49" endPosition="5" />
-    <scopeInfo nodeId="4998536563116627665" fileName="GraphIO.java" startLine="117" startPosition="94" endLine="133" endPosition="5" />
-    <scopeInfo nodeId="4998536563116676868" fileName="GraphIO.java" startLine="34" startPosition="0" endLine="51" endPosition="0">
+    <scopeInfo nodeId="4998536563116676868" fileName="GraphIO.java" startLine="35" startPosition="0" endLine="51" endPosition="0">
       <varInfo nodeId="4998536563116676876" varName="graph" />
       <varInfo nodeId="1714301205550474152" varName="nodeOffset" />
       <varInfo nodeId="4998536563116676872" varName="scanner" />
     </scopeInfo>
+    <scopeInfo nodeId="4998536563116627665" fileName="GraphIO.java" startLine="117" startPosition="94" endLine="133" endPosition="5" />
     <scopeInfo nodeId="1714301205550473117" fileName="GraphIO.java" startLine="136" startPosition="60" endLine="153" endPosition="17">
       <varInfo nodeId="1714301205550473122" varName="graph" />
       <varInfo nodeId="1714301205550509636" varName="notRoot" />
       <varInfo nodeId="1714301205550473138" varName="numTreeEdges" />
     </scopeInfo>
-    <scopeInfo nodeId="4998536563116627662" fileName="GraphIO.java" startLine="116" startPosition="0" endLine="135" endPosition="0">
+    <scopeInfo nodeId="4998536563116627662" fileName="GraphIO.java" startLine="117" startPosition="0" endLine="135" endPosition="0">
       <varInfo nodeId="4998536563116627666" varName="graphScanner" />
       <varInfo nodeId="4998536563116676139" varName="treeScanner" />
     </scopeInfo>
-    <scopeInfo nodeId="1714301205550473114" fileName="GraphIO.java" startLine="135" startPosition="0" endLine="155" endPosition="0">
+    <scopeInfo nodeId="1714301205550473114" fileName="GraphIO.java" startLine="136" startPosition="0" endLine="155" endPosition="0">
       <varInfo nodeId="1714301205550473119" varName="scanner" />
     </scopeInfo>
     <scopeInfo nodeId="6984255766319296634" fileName="GraphIO.java" startLine="60" startPosition="58" endLine="83" endPosition="7">
@@ -312,23 +312,23 @@
       <varInfo nodeId="6984255766319296601" varName="graph" />
       <varInfo nodeId="6984255766319296623" varName="numFaces" />
     </scopeInfo>
-    <scopeInfo nodeId="6984255766319282480" fileName="GraphIO.java" startLine="55" startPosition="0" endLine="87" endPosition="0">
+    <scopeInfo nodeId="6984255766319282480" fileName="GraphIO.java" startLine="56" startPosition="0" endLine="87" endPosition="0">
       <varInfo nodeId="6984255766319296596" varName="scanner" />
     </scopeInfo>
     <unitInfo nodeId="1567683135099906914" fileName="GraphIO.java" startLine="24" startPosition="0" endLine="156" endPosition="0" unitName="visualization.GraphIO" />
   </root>
   <root nodeId="1567683135099907102" modelId="r:964bbf7c-f239-4721-836a-ba42f2f69703(visualization)">
-    <nodeInfo nodeId="1567683135099907838" fileName="TestPanel.java" startLine="48" startPosition="39" endLine="49" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="FRAME_DIMENSION" />
-    <nodeInfo nodeId="1567683135099907845" fileName="TestPanel.java" startLine="49" startPosition="69" endLine="50" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SCALE_X" />
-    <nodeInfo nodeId="8780938838750213476" fileName="TestPanel.java" startLine="50" startPosition="34" endLine="51" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SCALE_Y" />
-    <nodeInfo nodeId="1567683135099907849" fileName="TestPanel.java" startLine="51" startPosition="34" endLine="52" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="NSIZE" />
-    <nodeInfo nodeId="1567683135099907321" fileName="TestPanel.java" startLine="53" startPosition="0" endLine="54" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myTextArea" />
-    <nodeInfo nodeId="1567683135099907324" fileName="TestPanel.java" startLine="54" startPosition="31" endLine="55" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myGraphLabel" />
-    <nodeInfo nodeId="1567683135099907327" fileName="TestPanel.java" startLine="55" startPosition="46" endLine="56" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myLayouter" />
-    <nodeInfo nodeId="1567683135099907330" fileName="TestPanel.java" startLine="56" startPosition="36" endLine="57" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myCurrentLayout" />
-    <nodeInfo nodeId="1567683135099907333" fileName="TestPanel.java" startLine="57" startPosition="43" endLine="58" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myNumEdgesField" />
-    <nodeInfo nodeId="1567683135099907336" fileName="TestPanel.java" startLine="58" startPosition="37" endLine="59" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myNumNodesField" />
-    <nodeInfo nodeId="1567683135099907339" fileName="TestPanel.java" startLine="59" startPosition="37" endLine="60" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myAllowMultiEdges" />
+    <nodeInfo nodeId="1567683135099907838" fileName="TestPanel.java" startLine="49" startPosition="0" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="FRAME_DIMENSION" />
+    <nodeInfo nodeId="1567683135099907845" fileName="TestPanel.java" startLine="50" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SCALE_X" />
+    <nodeInfo nodeId="8780938838750213476" fileName="TestPanel.java" startLine="51" startPosition="0" endLine="52" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SCALE_Y" />
+    <nodeInfo nodeId="1567683135099907849" fileName="TestPanel.java" startLine="52" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="NSIZE" />
+    <nodeInfo nodeId="1567683135099907321" fileName="TestPanel.java" startLine="54" startPosition="0" endLine="55" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myTextArea" />
+    <nodeInfo nodeId="1567683135099907324" fileName="TestPanel.java" startLine="55" startPosition="0" endLine="56" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myGraphLabel" />
+    <nodeInfo nodeId="1567683135099907327" fileName="TestPanel.java" startLine="56" startPosition="0" endLine="57" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myLayouter" />
+    <nodeInfo nodeId="1567683135099907330" fileName="TestPanel.java" startLine="57" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myCurrentLayout" />
+    <nodeInfo nodeId="1567683135099907333" fileName="TestPanel.java" startLine="58" startPosition="0" endLine="59" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myNumEdgesField" />
+    <nodeInfo nodeId="1567683135099907336" fileName="TestPanel.java" startLine="59" startPosition="0" endLine="60" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myNumNodesField" />
+    <nodeInfo nodeId="1567683135099907339" fileName="TestPanel.java" startLine="60" startPosition="0" endLine="61" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myAllowMultiEdges" />
     <nodeInfo nodeId="1567683135099907858" fileName="TestPanel.java" startLine="62" startPosition="22" endLine="63" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1567683135099907864" fileName="TestPanel.java" startLine="63" startPosition="40" endLine="64" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1567683135099907866" fileName="TestPanel.java" startLine="64" startPosition="27" endLine="65" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -440,34 +440,34 @@
     <nodeInfo nodeId="1567683135099907608" fileName="TestPanel.java" startLine="144" startPosition="40" endLine="147" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="1567683135099907642" fileName="TestPanel.java" startLine="150" startPosition="52" endLine="153" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="1567683135099907823" fileName="TestPanel.java" startLine="190" startPosition="18" endLine="193" endPosition="6" conceptFqName="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock" />
-    <nodeInfo nodeId="1567683135099907105" fileName="TestPanel.java" startLine="214" startPosition="45" endLine="217" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="MyGraphLabel#()V" />
+    <nodeInfo nodeId="1567683135099907950" fileName="TestPanel.java" startLine="208" startPosition="0" endLine="211" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="run#()V" />
+    <nodeInfo nodeId="1567683135099907105" fileName="TestPanel.java" startLine="215" startPosition="0" endLine="218" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="MyGraphLabel#()V" />
     <nodeInfo nodeId="1567683135099907172" fileName="TestPanel.java" startLine="230" startPosition="96" endLine="233" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1567683135099907950" fileName="TestPanel.java" startLine="207" startPosition="47" endLine="211" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="run#()V" />
+    <nodeInfo nodeId="1567683135099907540" fileName="TestPanel.java" startLine="128" startPosition="0" endLine="132" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="actionPerformed#(Ljava/awt/event/ActionEvent;)V" />
     <nodeInfo nodeId="1567683135099907471" fileName="TestPanel.java" startLine="107" startPosition="12" endLine="112" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1567683135099907540" fileName="TestPanel.java" startLine="127" startPosition="51" endLine="132" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="actionPerformed#(Ljava/awt/event/ActionEvent;)V" />
     <nodeInfo nodeId="1567683135099907638" fileName="TestPanel.java" startLine="149" startPosition="67" endLine="154" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="1567683135099907681" fileName="TestPanel.java" startLine="159" startPosition="19" endLine="164" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
     <nodeInfo nodeId="1567683135099907944" fileName="TestPanel.java" startLine="206" startPosition="42" endLine="211" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1567683135099907532" fileName="TestPanel.java" startLine="126" startPosition="52" endLine="132" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1567683135099907166" fileName="TestPanel.java" startLine="229" startPosition="27" endLine="235" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="8734440518943050301" fileName="TestPanel.java" startLine="106" startPosition="18" endLine="113" endPosition="12" conceptFqName="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock" />
-    <nodeInfo nodeId="1567683135099907940" fileName="TestPanel.java" startLine="205" startPosition="0" endLine="213" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="main#([Ljava/lang/String;)V" />
-    <nodeInfo nodeId="1567683135099907906" fileName="TestPanel.java" startLine="196" startPosition="0" endLine="205" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="create#()V" />
+    <nodeInfo nodeId="1567683135099907940" fileName="TestPanel.java" startLine="206" startPosition="0" endLine="213" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="main#([Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1567683135099907906" fileName="TestPanel.java" startLine="197" startPosition="0" endLine="205" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="create#()V" />
     <nodeInfo nodeId="1567683135099907156" fileName="TestPanel.java" startLine="227" startPosition="76" endLine="236" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="1567683135099907669" fileName="TestPanel.java" startLine="157" startPosition="0" endLine="167" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="layoutGraph#()V" />
     <nodeInfo nodeId="1567683135099907213" fileName="TestPanel.java" startLine="236" startPosition="9" endLine="246" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="1567683135099907669" fileName="TestPanel.java" startLine="156" startPosition="0" endLine="167" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="layoutGraph#()V" />
-    <nodeInfo nodeId="1567683135099907703" fileName="TestPanel.java" startLine="167" startPosition="0" endLine="179" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createTextPanel#()V" />
-    <nodeInfo nodeId="1567683135099907593" fileName="TestPanel.java" startLine="141" startPosition="0" endLine="156" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="writeGraph#(Ljetbrains/mps/graphLayout/graph/Graph;)V" />
+    <nodeInfo nodeId="1567683135099907703" fileName="TestPanel.java" startLine="168" startPosition="0" endLine="179" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createTextPanel#()V" />
+    <nodeInfo nodeId="1567683135099907593" fileName="TestPanel.java" startLine="142" startPosition="0" endLine="156" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="writeGraph#(Ljetbrains/mps/graphLayout/graph/Graph;)V" />
     <nodeInfo nodeId="1567683135099907452" fileName="TestPanel.java" startLine="102" startPosition="51" endLine="118" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
-    <nodeInfo nodeId="1567683135099907761" fileName="TestPanel.java" startLine="179" startPosition="0" endLine="196" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createGraphPanel#()V" />
-    <nodeInfo nodeId="1567683135099907517" fileName="TestPanel.java" startLine="123" startPosition="0" endLine="141" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createDoLayoutButton#()V" />
-    <nodeInfo nodeId="1567683135099907446" fileName="TestPanel.java" startLine="101" startPosition="51" endLine="120" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="actionPerformed#(Ljava/awt/event/ActionEvent;)V" />
+    <nodeInfo nodeId="1567683135099907761" fileName="TestPanel.java" startLine="180" startPosition="0" endLine="196" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createGraphPanel#()V" />
+    <nodeInfo nodeId="1567683135099907517" fileName="TestPanel.java" startLine="124" startPosition="0" endLine="141" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createDoLayoutButton#()V" />
+    <nodeInfo nodeId="1567683135099907446" fileName="TestPanel.java" startLine="102" startPosition="0" endLine="120" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="actionPerformed#(Ljava/awt/event/ActionEvent;)V" />
     <nodeInfo nodeId="1567683135099907438" fileName="TestPanel.java" startLine="100" startPosition="52" endLine="120" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099907854" fileName="TestPanel.java" startLine="61" startPosition="0" endLine="82" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="TestPanel#()V" />
+    <nodeInfo nodeId="1567683135099907854" fileName="TestPanel.java" startLine="62" startPosition="0" endLine="83" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="TestPanel#()V" />
     <nodeInfo nodeId="1567683135099907129" fileName="TestPanel.java" startLine="223" startPosition="12" endLine="247" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1567683135099907117" fileName="TestPanel.java" startLine="220" startPosition="51" endLine="247" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1567683135099907111" fileName="TestPanel.java" startLine="218" startPosition="0" endLine="249" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="paintComponent#(Ljava/awt/Graphics;)V" />
-    <nodeInfo nodeId="1567683135099907342" fileName="TestPanel.java" startLine="83" startPosition="0" endLine="123" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNewGraphButton#()V" />
+    <nodeInfo nodeId="1567683135099907111" fileName="TestPanel.java" startLine="219" startPosition="0" endLine="249" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="paintComponent#(Ljava/awt/Graphics;)V" />
+    <nodeInfo nodeId="1567683135099907342" fileName="TestPanel.java" startLine="84" startPosition="0" endLine="123" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNewGraphButton#()V" />
     <scopeInfo nodeId="1567683135099907475" fileName="TestPanel.java" startLine="108" startPosition="49" endLine="109" endPosition="75" />
     <scopeInfo nodeId="1567683135099907483" fileName="TestPanel.java" startLine="110" startPosition="20" endLine="111" endPosition="80" />
     <scopeInfo nodeId="1567683135099907500" fileName="TestPanel.java" startLine="116" startPosition="0" endLine="117" endPosition="111">
@@ -493,12 +493,12 @@
     <scopeInfo nodeId="1567683135099907642" fileName="TestPanel.java" startLine="150" startPosition="52" endLine="153" endPosition="7">
       <varInfo nodeId="1567683135099907643" varName="edge" />
     </scopeInfo>
-    <scopeInfo nodeId="1567683135099907105" fileName="TestPanel.java" startLine="214" startPosition="45" endLine="217" endPosition="5" />
-    <scopeInfo nodeId="1567683135099907950" fileName="TestPanel.java" startLine="207" startPosition="47" endLine="211" endPosition="0" />
-    <scopeInfo nodeId="1567683135099907171" fileName="TestPanel.java" startLine="230" startPosition="96" endLine="234" endPosition="24" />
-    <scopeInfo nodeId="1567683135099907540" fileName="TestPanel.java" startLine="127" startPosition="51" endLine="132" endPosition="0">
+    <scopeInfo nodeId="1567683135099907950" fileName="TestPanel.java" startLine="208" startPosition="0" endLine="211" endPosition="0" />
+    <scopeInfo nodeId="1567683135099907105" fileName="TestPanel.java" startLine="215" startPosition="0" endLine="218" endPosition="0" />
+    <scopeInfo nodeId="1567683135099907540" fileName="TestPanel.java" startLine="128" startPosition="0" endLine="132" endPosition="0">
       <varInfo nodeId="1567683135099907543" varName="p0" />
     </scopeInfo>
+    <scopeInfo nodeId="1567683135099907171" fileName="TestPanel.java" startLine="230" startPosition="96" endLine="234" endPosition="24" />
     <scopeInfo nodeId="1567683135099907638" fileName="TestPanel.java" startLine="149" startPosition="67" endLine="154" endPosition="5">
       <varInfo nodeId="1567683135099907639" varName="node" />
     </scopeInfo>
@@ -509,6 +509,9 @@
     <scopeInfo nodeId="1567683135099907166" fileName="TestPanel.java" startLine="229" startPosition="27" endLine="235" endPosition="11">
       <varInfo nodeId="1567683135099907167" varName="point" />
     </scopeInfo>
+    <scopeInfo nodeId="1567683135099907940" fileName="TestPanel.java" startLine="206" startPosition="0" endLine="213" endPosition="0">
+      <varInfo nodeId="1567683135099907956" varName="args" />
+    </scopeInfo>
     <scopeInfo nodeId="1567683135099907161" fileName="TestPanel.java" startLine="228" startPosition="89" endLine="235" endPosition="11">
       <varInfo nodeId="1567683135099907163" varName="cur" />
     </scopeInfo>
@@ -516,9 +519,7 @@
       <varInfo nodeId="4624841703139866032" varName="g" />
       <varInfo nodeId="1567683135099907674" varName="scanner" />
     </scopeInfo>
-    <scopeInfo nodeId="1567683135099907940" fileName="TestPanel.java" startLine="205" startPosition="0" endLine="213" endPosition="0">
-      <varInfo nodeId="1567683135099907956" varName="args" />
-    </scopeInfo>
+    <scopeInfo nodeId="1567683135099907906" fileName="TestPanel.java" startLine="197" startPosition="0" endLine="205" endPosition="0" />
     <scopeInfo nodeId="1567683135099907218" fileName="TestPanel.java" startLine="237" startPosition="89" endLine="245" endPosition="119">
       <varInfo nodeId="1567683135099907254" varName="oldColor" />
       <varInfo nodeId="1567683135099907220" varName="x" />
@@ -527,14 +528,14 @@
     <scopeInfo nodeId="1567683135099907706" fileName="TestPanel.java" startLine="168" startPosition="34" endLine="177" endPosition="28">
       <varInfo nodeId="1567683135099907721" varName="c" />
     </scopeInfo>
-    <scopeInfo nodeId="1567683135099907906" fileName="TestPanel.java" startLine="196" startPosition="0" endLine="205" endPosition="0" />
     <scopeInfo nodeId="1567683135099907156" fileName="TestPanel.java" startLine="227" startPosition="76" endLine="236" endPosition="9">
       <varInfo nodeId="1567683135099907157" varName="edge" />
     </scopeInfo>
+    <scopeInfo nodeId="1567683135099907669" fileName="TestPanel.java" startLine="157" startPosition="0" endLine="167" endPosition="0" />
     <scopeInfo nodeId="1567683135099907213" fileName="TestPanel.java" startLine="236" startPosition="9" endLine="246" endPosition="9">
       <varInfo nodeId="1567683135099907214" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="1567683135099907669" fileName="TestPanel.java" startLine="156" startPosition="0" endLine="167" endPosition="0" />
+    <scopeInfo nodeId="1567683135099907703" fileName="TestPanel.java" startLine="168" startPosition="0" endLine="179" endPosition="0" />
     <scopeInfo nodeId="1567683135099907453" fileName="TestPanel.java" startLine="103" startPosition="13" endLine="115" endPosition="24">
       <varInfo nodeId="1567683135099907469" varName="g" />
       <varInfo nodeId="1567683135099907462" varName="numEdges" />
@@ -544,7 +545,9 @@
       <varInfo nodeId="1567683135099907602" varName="nodes" />
       <varInfo nodeId="1567683135099907598" varName="numEdges" />
     </scopeInfo>
-    <scopeInfo nodeId="1567683135099907703" fileName="TestPanel.java" startLine="167" startPosition="0" endLine="179" endPosition="0" />
+    <scopeInfo nodeId="1567683135099907593" fileName="TestPanel.java" startLine="142" startPosition="0" endLine="156" endPosition="0">
+      <varInfo nodeId="1567683135099907667" varName="graph" />
+    </scopeInfo>
     <scopeInfo nodeId="1567683135099907764" fileName="TestPanel.java" startLine="180" startPosition="35" endLine="194" endPosition="47">
       <varInfo nodeId="1567683135099907777" varName="c" />
     </scopeInfo>
@@ -552,17 +555,14 @@
       <varInfo nodeId="1567683135099907522" varName="button" />
       <varInfo nodeId="1567683135099907528" varName="c" />
     </scopeInfo>
-    <scopeInfo nodeId="1567683135099907593" fileName="TestPanel.java" startLine="141" startPosition="0" endLine="156" endPosition="0">
-      <varInfo nodeId="1567683135099907667" varName="graph" />
-    </scopeInfo>
     <scopeInfo nodeId="1567683135099907451" fileName="TestPanel.java" startLine="102" startPosition="51" endLine="118" endPosition="9" />
-    <scopeInfo nodeId="1567683135099907761" fileName="TestPanel.java" startLine="179" startPosition="0" endLine="196" endPosition="0" />
-    <scopeInfo nodeId="1567683135099907517" fileName="TestPanel.java" startLine="123" startPosition="0" endLine="141" endPosition="0" />
-    <scopeInfo nodeId="1567683135099907857" fileName="TestPanel.java" startLine="62" startPosition="22" endLine="81" endPosition="27" />
-    <scopeInfo nodeId="1567683135099907446" fileName="TestPanel.java" startLine="101" startPosition="51" endLine="120" endPosition="0">
+    <scopeInfo nodeId="1567683135099907761" fileName="TestPanel.java" startLine="180" startPosition="0" endLine="196" endPosition="0" />
+    <scopeInfo nodeId="1567683135099907517" fileName="TestPanel.java" startLine="124" startPosition="0" endLine="141" endPosition="0" />
+    <scopeInfo nodeId="1567683135099907446" fileName="TestPanel.java" startLine="102" startPosition="0" endLine="120" endPosition="0">
       <varInfo nodeId="1567683135099907449" varName="p0" />
     </scopeInfo>
-    <scopeInfo nodeId="1567683135099907854" fileName="TestPanel.java" startLine="61" startPosition="0" endLine="82" endPosition="3" />
+    <scopeInfo nodeId="1567683135099907857" fileName="TestPanel.java" startLine="62" startPosition="22" endLine="81" endPosition="27" />
+    <scopeInfo nodeId="1567683135099907854" fileName="TestPanel.java" startLine="62" startPosition="0" endLine="83" endPosition="0" />
     <scopeInfo nodeId="1567683135099907130" fileName="TestPanel.java" startLine="223" startPosition="14" endLine="246" endPosition="9">
       <varInfo nodeId="1567683135099907148" varName="edgeLayout" />
       <varInfo nodeId="1567683135099907140" varName="nodeLayout" />
@@ -570,14 +570,14 @@
       <varInfo nodeId="1567683135099907136" varName="yOffset" />
     </scopeInfo>
     <scopeInfo nodeId="1567683135099907116" fileName="TestPanel.java" startLine="220" startPosition="51" endLine="247" endPosition="7" />
-    <scopeInfo nodeId="1567683135099907111" fileName="TestPanel.java" startLine="218" startPosition="0" endLine="249" endPosition="0">
+    <scopeInfo nodeId="1567683135099907111" fileName="TestPanel.java" startLine="219" startPosition="0" endLine="249" endPosition="0">
       <varInfo nodeId="1567683135099907114" varName="graphics" />
     </scopeInfo>
     <scopeInfo nodeId="1567683135099907345" fileName="TestPanel.java" startLine="84" startPosition="39" endLine="121" endPosition="21">
       <varInfo nodeId="1567683135099907433" varName="button" />
       <varInfo nodeId="1567683135099907377" varName="c" />
     </scopeInfo>
-    <scopeInfo nodeId="1567683135099907342" fileName="TestPanel.java" startLine="83" startPosition="0" endLine="123" endPosition="0" />
+    <scopeInfo nodeId="1567683135099907342" fileName="TestPanel.java" startLine="84" startPosition="0" endLine="123" endPosition="0" />
     <unitInfo nodeId="1567683135099907948" fileName="TestPanel.java" startLine="207" startPosition="35" endLine="211" endPosition="5" unitName="visualization.TestPanel$3" />
     <unitInfo nodeId="1567683135099907538" fileName="TestPanel.java" startLine="127" startPosition="33" endLine="132" endPosition="5" unitName="visualization.TestPanel$2" />
     <unitInfo nodeId="1567683135099907444" fileName="TestPanel.java" startLine="101" startPosition="33" endLine="120" endPosition="5" unitName="visualization.TestPanel$1" />
@@ -597,43 +597,43 @@
     <nodeInfo nodeId="1714301205550473284" fileName="HyperGraphLayoutPanel.java" startLine="40" startPosition="71" endLine="41" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1714301205550473313" fileName="HyperGraphLayoutPanel.java" startLine="41" startPosition="66" endLine="42" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1714301205550469106" fileName="HyperGraphLayoutPanel.java" startLine="48" startPosition="25" endLine="49" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1714301205550469088" fileName="HyperGraphLayoutPanel.java" startLine="14" startPosition="70" endLine="16" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="HyperGraphLayoutPanel#()V" />
+    <nodeInfo nodeId="1714301205550469088" fileName="HyperGraphLayoutPanel.java" startLine="15" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="HyperGraphLayoutPanel#()V" />
+    <nodeInfo nodeId="1714301205550469102" fileName="HyperGraphLayoutPanel.java" startLine="48" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="run#()V" />
+    <nodeInfo nodeId="1714301205550473099" fileName="HyperGraphLayoutPanel.java" startLine="18" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="readGraph#(Ljava/util/Scanner;)Ljetbrains/mps/graphLayout/graph/Graph;" />
     <nodeInfo nodeId="1714301205550473270" fileName="HyperGraphLayoutPanel.java" startLine="39" startPosition="55" endLine="43" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="1714301205550469102" fileName="HyperGraphLayoutPanel.java" startLine="47" startPosition="47" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="run#()V" />
-    <nodeInfo nodeId="1714301205550473099" fileName="HyperGraphLayoutPanel.java" startLine="17" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="readGraph#(Ljava/util/Scanner;)Ljetbrains/mps/graphLayout/graph/Graph;" />
+    <nodeInfo nodeId="1714301205550514920" fileName="HyperGraphLayoutPanel.java" startLine="33" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="initLayout#()V" />
     <nodeInfo nodeId="1714301205550469096" fileName="HyperGraphLayoutPanel.java" startLine="46" startPosition="42" endLine="51" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1714301205550514920" fileName="HyperGraphLayoutPanel.java" startLine="32" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="initLayout#()V" />
-    <nodeInfo nodeId="1714301205550473263" fileName="HyperGraphLayoutPanel.java" startLine="38" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="writeTree#(Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/graph/HyperGraph;)V" />
-    <nodeInfo nodeId="1714301205550469092" fileName="HyperGraphLayoutPanel.java" startLine="45" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="main#([Ljava/lang/String;)V" />
-    <nodeInfo nodeId="1714301205550473193" fileName="HyperGraphLayoutPanel.java" startLine="22" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="writeGraph#(Ljetbrains/mps/graphLayout/graph/Graph;)V" />
+    <nodeInfo nodeId="1714301205550473263" fileName="HyperGraphLayoutPanel.java" startLine="39" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="writeTree#(Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/graph/HyperGraph;)V" />
+    <nodeInfo nodeId="1714301205550469092" fileName="HyperGraphLayoutPanel.java" startLine="46" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="main#([Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1714301205550473193" fileName="HyperGraphLayoutPanel.java" startLine="23" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="writeGraph#(Ljetbrains/mps/graphLayout/graph/Graph;)V" />
     <scopeInfo nodeId="1714301205550469091" fileName="HyperGraphLayoutPanel.java" startLine="15" startPosition="34" endLine="15" endPosition="34" />
     <scopeInfo nodeId="1714301205550473104" fileName="HyperGraphLayoutPanel.java" startLine="19" startPosition="46" endLine="20" endPosition="43" />
     <scopeInfo nodeId="1714301205550469105" fileName="HyperGraphLayoutPanel.java" startLine="48" startPosition="25" endLine="49" endPosition="45" />
-    <scopeInfo nodeId="1714301205550469088" fileName="HyperGraphLayoutPanel.java" startLine="14" startPosition="70" endLine="16" endPosition="3" />
+    <scopeInfo nodeId="1714301205550469088" fileName="HyperGraphLayoutPanel.java" startLine="15" startPosition="0" endLine="17" endPosition="0" />
     <scopeInfo nodeId="1714301205550514923" fileName="HyperGraphLayoutPanel.java" startLine="34" startPosition="31" endLine="36" endPosition="77" />
     <scopeInfo nodeId="1714301205550473273" fileName="HyperGraphLayoutPanel.java" startLine="40" startPosition="71" endLine="42" endPosition="30" />
+    <scopeInfo nodeId="1714301205550469102" fileName="HyperGraphLayoutPanel.java" startLine="48" startPosition="0" endLine="51" endPosition="0" />
+    <scopeInfo nodeId="1714301205550473099" fileName="HyperGraphLayoutPanel.java" startLine="18" startPosition="0" endLine="22" endPosition="0">
+      <varInfo nodeId="1714301205550473102" varName="scanner" />
+    </scopeInfo>
     <scopeInfo nodeId="1714301205550473266" fileName="HyperGraphLayoutPanel.java" startLine="39" startPosition="55" endLine="43" endPosition="5" />
     <scopeInfo nodeId="1714301205550473270" fileName="HyperGraphLayoutPanel.java" startLine="39" startPosition="55" endLine="43" endPosition="5">
       <varInfo nodeId="1714301205550473271" varName="child" />
     </scopeInfo>
-    <scopeInfo nodeId="1714301205550469102" fileName="HyperGraphLayoutPanel.java" startLine="47" startPosition="47" endLine="51" endPosition="0" />
-    <scopeInfo nodeId="1714301205550473099" fileName="HyperGraphLayoutPanel.java" startLine="17" startPosition="0" endLine="22" endPosition="0">
-      <varInfo nodeId="1714301205550473102" varName="scanner" />
-    </scopeInfo>
+    <scopeInfo nodeId="1714301205550514920" fileName="HyperGraphLayoutPanel.java" startLine="33" startPosition="0" endLine="38" endPosition="0" />
     <scopeInfo nodeId="1714301205550469095" fileName="HyperGraphLayoutPanel.java" startLine="46" startPosition="42" endLine="51" endPosition="7" />
     <scopeInfo nodeId="1714301205550473198" fileName="HyperGraphLayoutPanel.java" startLine="24" startPosition="42" endLine="30" endPosition="28">
       <varInfo nodeId="1714301205550473239" varName="hyperGraph" />
       <varInfo nodeId="1714301205550473251" varName="root" />
     </scopeInfo>
-    <scopeInfo nodeId="1714301205550514920" fileName="HyperGraphLayoutPanel.java" startLine="32" startPosition="0" endLine="38" endPosition="0" />
-    <scopeInfo nodeId="1714301205550473263" fileName="HyperGraphLayoutPanel.java" startLine="38" startPosition="0" endLine="45" endPosition="0">
+    <scopeInfo nodeId="1714301205550473263" fileName="HyperGraphLayoutPanel.java" startLine="39" startPosition="0" endLine="45" endPosition="0">
       <varInfo nodeId="1714301205550473274" varName="graph" />
       <varInfo nodeId="1714301205550473268" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="1714301205550469092" fileName="HyperGraphLayoutPanel.java" startLine="45" startPosition="0" endLine="53" endPosition="0">
+    <scopeInfo nodeId="1714301205550469092" fileName="HyperGraphLayoutPanel.java" startLine="46" startPosition="0" endLine="53" endPosition="0">
       <varInfo nodeId="1714301205550469111" varName="args" />
     </scopeInfo>
-    <scopeInfo nodeId="1714301205550473193" fileName="HyperGraphLayoutPanel.java" startLine="22" startPosition="0" endLine="32" endPosition="0">
+    <scopeInfo nodeId="1714301205550473193" fileName="HyperGraphLayoutPanel.java" startLine="23" startPosition="0" endLine="32" endPosition="0">
       <varInfo nodeId="1714301205550473196" varName="graph" />
     </scopeInfo>
     <unitInfo nodeId="1714301205550469100" fileName="HyperGraphLayoutPanel.java" startLine="47" startPosition="35" endLine="51" endPosition="5" unitName="visualization.HyperGraphLayoutPanel$1" />
@@ -647,15 +647,15 @@
     <nodeInfo nodeId="3444434563276348591" fileName="ClusterLayoutPainter.java" startLine="27" startPosition="41" endLine="28" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ContinueStatement" />
     <nodeInfo nodeId="3444434563276348606" fileName="ClusterLayoutPainter.java" startLine="29" startPosition="7" endLine="30" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="3444434563276348668" fileName="ClusterLayoutPainter.java" startLine="30" startPosition="80" endLine="31" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3444434563276304221" fileName="ClusterLayoutPainter.java" startLine="14" startPosition="57" endLine="16" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ClusterLayoutPainter#()V" />
+    <nodeInfo nodeId="3444434563276304221" fileName="ClusterLayoutPainter.java" startLine="15" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ClusterLayoutPainter#()V" />
     <nodeInfo nodeId="3444434563276304240" fileName="ClusterLayoutPainter.java" startLine="19" startPosition="54" endLine="22" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="3444434563276348581" fileName="ClusterLayoutPainter.java" startLine="26" startPosition="85" endLine="29" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="3444434563276347902" fileName="ClusterLayoutPainter.java" startLine="25" startPosition="64" endLine="32" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="3444434563276304226" fileName="ClusterLayoutPainter.java" startLine="17" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="paint#(Ljetbrains/mps/graphLayout/graphLayout/IGraphLayout;Ljava/awt/Graphics;)V" />
+    <nodeInfo nodeId="3444434563276304226" fileName="ClusterLayoutPainter.java" startLine="18" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="paint#(Ljetbrains/mps/graphLayout/graphLayout/IGraphLayout;Ljava/awt/Graphics;)V" />
     <scopeInfo nodeId="3444434563276304224" fileName="ClusterLayoutPainter.java" startLine="15" startPosition="33" endLine="15" endPosition="33" />
     <scopeInfo nodeId="3444434563276304241" fileName="ClusterLayoutPainter.java" startLine="20" startPosition="52" endLine="21" endPosition="51" />
     <scopeInfo nodeId="3444434563276348583" fileName="ClusterLayoutPainter.java" startLine="27" startPosition="41" endLine="28" endPosition="17" />
-    <scopeInfo nodeId="3444434563276304221" fileName="ClusterLayoutPainter.java" startLine="14" startPosition="57" endLine="16" endPosition="3" />
+    <scopeInfo nodeId="3444434563276304221" fileName="ClusterLayoutPainter.java" startLine="15" startPosition="0" endLine="17" endPosition="0" />
     <scopeInfo nodeId="3444434563276347905" fileName="ClusterLayoutPainter.java" startLine="26" startPosition="85" endLine="31" endPosition="36">
       <varInfo nodeId="3444434563276348607" varName="borderLayout" />
     </scopeInfo>
@@ -666,25 +666,25 @@
       <varInfo nodeId="3444434563276348597" varName="clusteredGraphLayout" />
       <varInfo nodeId="3444434563276347915" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="3444434563276304226" fileName="ClusterLayoutPainter.java" startLine="17" startPosition="0" endLine="34" endPosition="0">
+    <scopeInfo nodeId="3444434563276304226" fileName="ClusterLayoutPainter.java" startLine="18" startPosition="0" endLine="34" endPosition="0">
       <varInfo nodeId="3444434563276304231" varName="g" />
       <varInfo nodeId="3444434563276304229" varName="layout" />
     </scopeInfo>
     <unitInfo nodeId="3444434563276304219" fileName="ClusterLayoutPainter.java" startLine="14" startPosition="0" endLine="35" endPosition="0" unitName="visualization.ClusterLayoutPainter" />
   </root>
   <root nodeId="8729833695221588600" modelId="r:964bbf7c-f239-4721-836a-ba42f2f69703(visualization)">
-    <nodeInfo nodeId="8729833695221589592" fileName="RectLayoutTestPanel.java" startLine="40" startPosition="49" endLine="41" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="FRAME_DIMENSION" />
-    <nodeInfo nodeId="8729833695221589599" fileName="RectLayoutTestPanel.java" startLine="41" startPosition="69" endLine="42" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="DEFAULT_NODE_SIZE" />
-    <nodeInfo nodeId="8729833695221589603" fileName="RectLayoutTestPanel.java" startLine="42" startPosition="50" endLine="43" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="DEFAULT_EDGE_X_SIZE" />
-    <nodeInfo nodeId="8729833695221589607" fileName="RectLayoutTestPanel.java" startLine="43" startPosition="52" endLine="44" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="DEFAULT_EDGE_Y_SIZE" />
-    <nodeInfo nodeId="8729833695221588840" fileName="RectLayoutTestPanel.java" startLine="45" startPosition="0" endLine="46" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myTextArea" />
-    <nodeInfo nodeId="8729833695221588843" fileName="RectLayoutTestPanel.java" startLine="46" startPosition="31" endLine="47" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myGraphLabel" />
-    <nodeInfo nodeId="8729833695221588846" fileName="RectLayoutTestPanel.java" startLine="47" startPosition="56" endLine="48" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myLayouter" />
-    <nodeInfo nodeId="8729833695221588849" fileName="RectLayoutTestPanel.java" startLine="48" startPosition="44" endLine="49" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myPainter" />
-    <nodeInfo nodeId="8729833695221588852" fileName="RectLayoutTestPanel.java" startLine="49" startPosition="34" endLine="50" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myCurrentLayout" />
-    <nodeInfo nodeId="8729833695221588855" fileName="RectLayoutTestPanel.java" startLine="50" startPosition="38" endLine="51" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myNumEdgesField" />
-    <nodeInfo nodeId="8729833695221588858" fileName="RectLayoutTestPanel.java" startLine="51" startPosition="37" endLine="52" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myNumNodesField" />
-    <nodeInfo nodeId="8729833695221588861" fileName="RectLayoutTestPanel.java" startLine="52" startPosition="37" endLine="53" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myLayoutChoice" />
+    <nodeInfo nodeId="8729833695221589592" fileName="RectLayoutTestPanel.java" startLine="41" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="FRAME_DIMENSION" />
+    <nodeInfo nodeId="8729833695221589599" fileName="RectLayoutTestPanel.java" startLine="42" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="DEFAULT_NODE_SIZE" />
+    <nodeInfo nodeId="8729833695221589603" fileName="RectLayoutTestPanel.java" startLine="43" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="DEFAULT_EDGE_X_SIZE" />
+    <nodeInfo nodeId="8729833695221589607" fileName="RectLayoutTestPanel.java" startLine="44" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="DEFAULT_EDGE_Y_SIZE" />
+    <nodeInfo nodeId="8729833695221588840" fileName="RectLayoutTestPanel.java" startLine="46" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myTextArea" />
+    <nodeInfo nodeId="8729833695221588843" fileName="RectLayoutTestPanel.java" startLine="47" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myGraphLabel" />
+    <nodeInfo nodeId="8729833695221588846" fileName="RectLayoutTestPanel.java" startLine="48" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myLayouter" />
+    <nodeInfo nodeId="8729833695221588849" fileName="RectLayoutTestPanel.java" startLine="49" startPosition="0" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myPainter" />
+    <nodeInfo nodeId="8729833695221588852" fileName="RectLayoutTestPanel.java" startLine="50" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myCurrentLayout" />
+    <nodeInfo nodeId="8729833695221588855" fileName="RectLayoutTestPanel.java" startLine="51" startPosition="0" endLine="52" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myNumEdgesField" />
+    <nodeInfo nodeId="8729833695221588858" fileName="RectLayoutTestPanel.java" startLine="52" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myNumNodesField" />
+    <nodeInfo nodeId="8729833695221588861" fileName="RectLayoutTestPanel.java" startLine="53" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myLayoutChoice" />
     <nodeInfo nodeId="8729833695221589713" fileName="RectLayoutTestPanel.java" startLine="55" startPosition="32" endLine="56" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="8729833695221589622" fileName="RectLayoutTestPanel.java" startLine="56" startPosition="35" endLine="57" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="8729833695221589624" fileName="RectLayoutTestPanel.java" startLine="57" startPosition="27" endLine="58" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -789,8 +789,8 @@
     <nodeInfo nodeId="8729833695221589684" fileName="RectLayoutTestPanel.java" startLine="230" startPosition="62" endLine="231" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="8729833695221589688" fileName="RectLayoutTestPanel.java" startLine="231" startPosition="17" endLine="232" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="8729833695221589707" fileName="RectLayoutTestPanel.java" startLine="237" startPosition="25" endLine="238" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8729833695221588616" fileName="RectLayoutTestPanel.java" startLine="243" startPosition="46" endLine="244" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myLayoutLevel" />
-    <nodeInfo nodeId="8729833695221588619" fileName="RectLayoutTestPanel.java" startLine="244" startPosition="30" endLine="245" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myLabelForAllEdges" />
+    <nodeInfo nodeId="8729833695221588616" fileName="RectLayoutTestPanel.java" startLine="244" startPosition="0" endLine="245" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myLayoutLevel" />
+    <nodeInfo nodeId="8729833695221588619" fileName="RectLayoutTestPanel.java" startLine="245" startPosition="0" endLine="246" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myLabelForAllEdges" />
     <nodeInfo nodeId="8729833695221588627" fileName="RectLayoutTestPanel.java" startLine="247" startPosition="29" endLine="248" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="8729833695221588632" fileName="RectLayoutTestPanel.java" startLine="248" startPosition="44" endLine="249" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="8729833695221588637" fileName="RectLayoutTestPanel.java" startLine="249" startPosition="54" endLine="250" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -827,22 +827,22 @@
     <nodeInfo nodeId="8729833695221589643" fileName="RectLayoutTestPanel.java" startLine="65" startPosition="46" endLine="68" endPosition="6" conceptFqName="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock" />
     <nodeInfo nodeId="8729833695221589152" fileName="RectLayoutTestPanel.java" startLine="134" startPosition="97" endLine="137" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="8729833695221589188" fileName="RectLayoutTestPanel.java" startLine="141" startPosition="30" endLine="144" endPosition="6" conceptFqName="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock" />
+    <nodeInfo nodeId="8729833695221589306" fileName="RectLayoutTestPanel.java" startLine="161" startPosition="0" endLine="164" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/graphLayout/graph/Edge;)Z" />
     <nodeInfo nodeId="8729833695221589317" fileName="RectLayoutTestPanel.java" startLine="164" startPosition="19" endLine="167" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="8729833695221589371" fileName="RectLayoutTestPanel.java" startLine="174" startPosition="65" endLine="177" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="8729833695221589397" fileName="RectLayoutTestPanel.java" startLine="180" startPosition="67" endLine="183" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="8729833695221589422" fileName="RectLayoutTestPanel.java" startLine="186" startPosition="52" endLine="189" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="8729833695221589436" fileName="RectLayoutTestPanel.java" startLine="189" startPosition="7" endLine="192" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="8729833695221589457" fileName="RectLayoutTestPanel.java" startLine="193" startPosition="83" endLine="196" endPosition="8" conceptFqName="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock" />
-    <nodeInfo nodeId="8729833695221588807" fileName="RectLayoutTestPanel.java" startLine="297" startPosition="45" endLine="300" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="MyGraphLabel#()V" />
+    <nodeInfo nodeId="8729833695221589703" fileName="RectLayoutTestPanel.java" startLine="237" startPosition="0" endLine="240" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="run#()V" />
+    <nodeInfo nodeId="8729833695221588669" fileName="RectLayoutTestPanel.java" startLine="255" startPosition="0" endLine="258" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="actionPerformed#(Ljava/awt/event/ActionEvent;)V" />
+    <nodeInfo nodeId="8729833695221588709" fileName="RectLayoutTestPanel.java" startLine="264" startPosition="0" endLine="267" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="actionPerformed#(Ljava/awt/event/ActionEvent;)V" />
+    <nodeInfo nodeId="8729833695221588749" fileName="RectLayoutTestPanel.java" startLine="273" startPosition="0" endLine="276" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="actionPerformed#(Ljava/awt/event/ActionEvent;)V" />
+    <nodeInfo nodeId="8729833695221588602" fileName="RectLayoutTestPanel.java" startLine="288" startPosition="0" endLine="291" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSelectedLayoutLavel#()I" />
+    <nodeInfo nodeId="8729833695221588608" fileName="RectLayoutTestPanel.java" startLine="292" startPosition="0" endLine="295" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isSetLabels#()Z" />
+    <nodeInfo nodeId="8729833695221588807" fileName="RectLayoutTestPanel.java" startLine="298" startPosition="0" endLine="301" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="MyGraphLabel#()V" />
+    <nodeInfo nodeId="8729833695221589068" fileName="RectLayoutTestPanel.java" startLine="117" startPosition="0" endLine="121" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="actionPerformed#(Ljava/awt/event/ActionEvent;)V" />
     <nodeInfo nodeId="8729833695221589239" fileName="RectLayoutTestPanel.java" startLine="151" startPosition="43" endLine="155" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="8729833695221589306" fileName="RectLayoutTestPanel.java" startLine="160" startPosition="96" endLine="164" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/graphLayout/graph/Edge;)Z" />
-    <nodeInfo nodeId="8729833695221589703" fileName="RectLayoutTestPanel.java" startLine="236" startPosition="47" endLine="240" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="run#()V" />
-    <nodeInfo nodeId="8729833695221588669" fileName="RectLayoutTestPanel.java" startLine="254" startPosition="53" endLine="258" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="actionPerformed#(Ljava/awt/event/ActionEvent;)V" />
-    <nodeInfo nodeId="8729833695221588709" fileName="RectLayoutTestPanel.java" startLine="263" startPosition="53" endLine="267" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="actionPerformed#(Ljava/awt/event/ActionEvent;)V" />
-    <nodeInfo nodeId="8729833695221588749" fileName="RectLayoutTestPanel.java" startLine="272" startPosition="53" endLine="276" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="actionPerformed#(Ljava/awt/event/ActionEvent;)V" />
-    <nodeInfo nodeId="8729833695221588602" fileName="RectLayoutTestPanel.java" startLine="287" startPosition="0" endLine="291" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSelectedLayoutLavel#()I" />
-    <nodeInfo nodeId="8729833695221588608" fileName="RectLayoutTestPanel.java" startLine="291" startPosition="0" endLine="295" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isSetLabels#()Z" />
-    <nodeInfo nodeId="8729833695221589068" fileName="RectLayoutTestPanel.java" startLine="116" startPosition="51" endLine="121" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="actionPerformed#(Ljava/awt/event/ActionEvent;)V" />
     <nodeInfo nodeId="8729833695221589297" fileName="RectLayoutTestPanel.java" startLine="159" startPosition="61" endLine="164" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="8729833695221589365" fileName="RectLayoutTestPanel.java" startLine="173" startPosition="24" endLine="178" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="8729833695221589391" fileName="RectLayoutTestPanel.java" startLine="179" startPosition="41" endLine="184" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
@@ -853,24 +853,24 @@
     <nodeInfo nodeId="8729833695221588819" fileName="RectLayoutTestPanel.java" startLine="303" startPosition="51" endLine="308" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="8729833695221589060" fileName="RectLayoutTestPanel.java" startLine="115" startPosition="52" endLine="121" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="8729833695221589389" fileName="RectLayoutTestPanel.java" startLine="178" startPosition="7" endLine="185" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="8729833695221589693" fileName="RectLayoutTestPanel.java" startLine="234" startPosition="0" endLine="242" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="main#([Ljava/lang/String;)V" />
-    <nodeInfo nodeId="8729833695221588864" fileName="RectLayoutTestPanel.java" startLine="72" startPosition="0" endLine="81" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createLayoutChoiceButtons#()V" />
+    <nodeInfo nodeId="8729833695221589693" fileName="RectLayoutTestPanel.java" startLine="235" startPosition="0" endLine="242" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="main#([Ljava/lang/String;)V" />
+    <nodeInfo nodeId="8729833695221588864" fileName="RectLayoutTestPanel.java" startLine="73" startPosition="0" endLine="81" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createLayoutChoiceButtons#()V" />
+    <nodeInfo nodeId="8729833695221589659" fileName="RectLayoutTestPanel.java" startLine="226" startPosition="0" endLine="234" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="create#()V" />
+    <nodeInfo nodeId="8729833695221588813" fileName="RectLayoutTestPanel.java" startLine="302" startPosition="0" endLine="310" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="paintComponent#(Ljava/awt/Graphics;)V" />
     <nodeInfo nodeId="8729833695221589000" fileName="RectLayoutTestPanel.java" startLine="98" startPosition="51" endLine="107" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
-    <nodeInfo nodeId="8729833695221589659" fileName="RectLayoutTestPanel.java" startLine="225" startPosition="0" endLine="234" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="create#()V" />
-    <nodeInfo nodeId="8729833695221588813" fileName="RectLayoutTestPanel.java" startLine="301" startPosition="0" endLine="310" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="paintComponent#(Ljava/awt/Graphics;)V" />
-    <nodeInfo nodeId="8729833695221589121" fileName="RectLayoutTestPanel.java" startLine="130" startPosition="0" endLine="140" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="writeGraph#(Ljetbrains/mps/graphLayout/graph/Graph;)V" />
-    <nodeInfo nodeId="8729833695221588994" fileName="RectLayoutTestPanel.java" startLine="97" startPosition="51" endLine="109" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="actionPerformed#(Ljava/awt/event/ActionEvent;)V" />
-    <nodeInfo nodeId="8729833695221589464" fileName="RectLayoutTestPanel.java" startLine="199" startPosition="0" endLine="211" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createTextPanel#()V" />
+    <nodeInfo nodeId="8729833695221589121" fileName="RectLayoutTestPanel.java" startLine="131" startPosition="0" endLine="140" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="writeGraph#(Ljetbrains/mps/graphLayout/graph/Graph;)V" />
+    <nodeInfo nodeId="8729833695221588994" fileName="RectLayoutTestPanel.java" startLine="98" startPosition="0" endLine="109" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="actionPerformed#(Ljava/awt/event/ActionEvent;)V" />
+    <nodeInfo nodeId="8729833695221589464" fileName="RectLayoutTestPanel.java" startLine="200" startPosition="0" endLine="211" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createTextPanel#()V" />
     <nodeInfo nodeId="8729833695221588986" fileName="RectLayoutTestPanel.java" startLine="96" startPosition="52" endLine="109" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="8729833695221589277" fileName="RectLayoutTestPanel.java" startLine="156" startPosition="45" endLine="169" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="8729833695221589522" fileName="RectLayoutTestPanel.java" startLine="211" startPosition="0" endLine="225" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createGraphPanel#()V" />
-    <nodeInfo nodeId="8729833695221589612" fileName="RectLayoutTestPanel.java" startLine="54" startPosition="0" endLine="71" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="RectLayoutTestPanel#()V" />
-    <nodeInfo nodeId="8729833695221589045" fileName="RectLayoutTestPanel.java" startLine="112" startPosition="0" endLine="130" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createDoLayoutButton#()V" />
+    <nodeInfo nodeId="8729833695221589522" fileName="RectLayoutTestPanel.java" startLine="212" startPosition="0" endLine="225" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createGraphPanel#()V" />
+    <nodeInfo nodeId="8729833695221589612" fileName="RectLayoutTestPanel.java" startLine="55" startPosition="0" endLine="72" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="RectLayoutTestPanel#()V" />
+    <nodeInfo nodeId="8729833695221589045" fileName="RectLayoutTestPanel.java" startLine="113" startPosition="0" endLine="130" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createDoLayoutButton#()V" />
     <nodeInfo nodeId="8729833695221589226" fileName="RectLayoutTestPanel.java" startLine="148" startPosition="23" endLine="172" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
     <nodeInfo nodeId="8729833695221589363" fileName="RectLayoutTestPanel.java" startLine="172" startPosition="5" endLine="197" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="8729833695221588901" fileName="RectLayoutTestPanel.java" startLine="81" startPosition="0" endLine="112" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNewGraphButton#()V" />
-    <nodeInfo nodeId="8729833695221588623" fileName="RectLayoutTestPanel.java" startLine="246" startPosition="0" endLine="286" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="MyLayoutChoice#()V" />
-    <nodeInfo nodeId="8729833695221589184" fileName="RectLayoutTestPanel.java" startLine="140" startPosition="0" endLine="199" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="layoutGraph#()V" />
+    <nodeInfo nodeId="8729833695221588901" fileName="RectLayoutTestPanel.java" startLine="82" startPosition="0" endLine="112" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNewGraphButton#()V" />
+    <nodeInfo nodeId="8729833695221588623" fileName="RectLayoutTestPanel.java" startLine="247" startPosition="0" endLine="287" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="MyLayoutChoice#()V" />
+    <nodeInfo nodeId="8729833695221589184" fileName="RectLayoutTestPanel.java" startLine="141" startPosition="0" endLine="199" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="layoutGraph#()V" />
     <scopeInfo nodeId="8729833695221589028" fileName="RectLayoutTestPanel.java" startLine="105" startPosition="0" endLine="106" endPosition="121">
       <varInfo nodeId="8729833695221589029" varName="e" />
     </scopeInfo>
@@ -902,6 +902,9 @@
     <scopeInfo nodeId="8729833695221589152" fileName="RectLayoutTestPanel.java" startLine="134" startPosition="97" endLine="137" endPosition="5">
       <varInfo nodeId="8729833695221589153" varName="edge" />
     </scopeInfo>
+    <scopeInfo nodeId="8729833695221589306" fileName="RectLayoutTestPanel.java" startLine="161" startPosition="0" endLine="164" endPosition="0">
+      <varInfo nodeId="8729833695221589306" varName="it" />
+    </scopeInfo>
     <scopeInfo nodeId="8729833695221589370" fileName="RectLayoutTestPanel.java" startLine="174" startPosition="65" endLine="177" endPosition="9" />
     <scopeInfo nodeId="8729833695221589396" fileName="RectLayoutTestPanel.java" startLine="180" startPosition="67" endLine="183" endPosition="11" />
     <scopeInfo nodeId="8729833695221589422" fileName="RectLayoutTestPanel.java" startLine="186" startPosition="52" endLine="189" endPosition="7">
@@ -910,32 +913,29 @@
     <scopeInfo nodeId="8729833695221589436" fileName="RectLayoutTestPanel.java" startLine="189" startPosition="7" endLine="192" endPosition="7">
       <varInfo nodeId="8729833695221589437" varName="edge" />
     </scopeInfo>
-    <scopeInfo nodeId="8729833695221588807" fileName="RectLayoutTestPanel.java" startLine="297" startPosition="45" endLine="300" endPosition="5" />
+    <scopeInfo nodeId="8729833695221589703" fileName="RectLayoutTestPanel.java" startLine="237" startPosition="0" endLine="240" endPosition="0" />
+    <scopeInfo nodeId="8729833695221588669" fileName="RectLayoutTestPanel.java" startLine="255" startPosition="0" endLine="258" endPosition="0">
+      <varInfo nodeId="8729833695221588672" varName="p0" />
+    </scopeInfo>
+    <scopeInfo nodeId="8729833695221588709" fileName="RectLayoutTestPanel.java" startLine="264" startPosition="0" endLine="267" endPosition="0">
+      <varInfo nodeId="8729833695221588712" varName="p0" />
+    </scopeInfo>
+    <scopeInfo nodeId="8729833695221588749" fileName="RectLayoutTestPanel.java" startLine="273" startPosition="0" endLine="276" endPosition="0">
+      <varInfo nodeId="8729833695221588752" varName="p0" />
+    </scopeInfo>
+    <scopeInfo nodeId="8729833695221588602" fileName="RectLayoutTestPanel.java" startLine="288" startPosition="0" endLine="291" endPosition="0" />
+    <scopeInfo nodeId="8729833695221588608" fileName="RectLayoutTestPanel.java" startLine="292" startPosition="0" endLine="295" endPosition="0" />
+    <scopeInfo nodeId="8729833695221588807" fileName="RectLayoutTestPanel.java" startLine="298" startPosition="0" endLine="301" endPosition="0" />
+    <scopeInfo nodeId="8729833695221589068" fileName="RectLayoutTestPanel.java" startLine="117" startPosition="0" endLine="121" endPosition="0">
+      <varInfo nodeId="8729833695221589071" varName="p0" />
+    </scopeInfo>
     <scopeInfo nodeId="8729833695221589239" fileName="RectLayoutTestPanel.java" startLine="151" startPosition="43" endLine="155" endPosition="7">
       <varInfo nodeId="8729833695221589263" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="8729833695221589306" fileName="RectLayoutTestPanel.java" startLine="160" startPosition="96" endLine="164" endPosition="0">
-      <varInfo nodeId="8729833695221589306" varName="it" />
-    </scopeInfo>
-    <scopeInfo nodeId="8729833695221589703" fileName="RectLayoutTestPanel.java" startLine="236" startPosition="47" endLine="240" endPosition="0" />
-    <scopeInfo nodeId="8729833695221588669" fileName="RectLayoutTestPanel.java" startLine="254" startPosition="53" endLine="258" endPosition="0">
-      <varInfo nodeId="8729833695221588672" varName="p0" />
-    </scopeInfo>
-    <scopeInfo nodeId="8729833695221588709" fileName="RectLayoutTestPanel.java" startLine="263" startPosition="53" endLine="267" endPosition="0">
-      <varInfo nodeId="8729833695221588712" varName="p0" />
-    </scopeInfo>
-    <scopeInfo nodeId="8729833695221588749" fileName="RectLayoutTestPanel.java" startLine="272" startPosition="53" endLine="276" endPosition="0">
-      <varInfo nodeId="8729833695221588752" varName="p0" />
-    </scopeInfo>
-    <scopeInfo nodeId="8729833695221588602" fileName="RectLayoutTestPanel.java" startLine="287" startPosition="0" endLine="291" endPosition="0" />
-    <scopeInfo nodeId="8729833695221588608" fileName="RectLayoutTestPanel.java" startLine="291" startPosition="0" endLine="295" endPosition="0" />
     <scopeInfo nodeId="8729833695221589001" fileName="RectLayoutTestPanel.java" startLine="99" startPosition="13" endLine="104" endPosition="24">
       <varInfo nodeId="8729833695221589017" varName="g" />
       <varInfo nodeId="8729833695221589010" varName="numEdges" />
       <varInfo nodeId="8729833695221589003" varName="numNodes" />
-    </scopeInfo>
-    <scopeInfo nodeId="8729833695221589068" fileName="RectLayoutTestPanel.java" startLine="116" startPosition="51" endLine="121" endPosition="0">
-      <varInfo nodeId="8729833695221589071" varName="p0" />
     </scopeInfo>
     <scopeInfo nodeId="8729833695221589365" fileName="RectLayoutTestPanel.java" startLine="173" startPosition="24" endLine="178" endPosition="7">
       <varInfo nodeId="8729833695221589366" varName="node" />
@@ -955,44 +955,44 @@
     <scopeInfo nodeId="8729833695221589124" fileName="RectLayoutTestPanel.java" startLine="131" startPosition="40" endLine="138" endPosition="40">
       <varInfo nodeId="8729833695221589126" varName="edges" />
     </scopeInfo>
-    <scopeInfo nodeId="8729833695221589693" fileName="RectLayoutTestPanel.java" startLine="234" startPosition="0" endLine="242" endPosition="0">
+    <scopeInfo nodeId="8729833695221589693" fileName="RectLayoutTestPanel.java" startLine="235" startPosition="0" endLine="242" endPosition="0">
       <varInfo nodeId="8729833695221589709" varName="args" />
     </scopeInfo>
-    <scopeInfo nodeId="8729833695221588864" fileName="RectLayoutTestPanel.java" startLine="72" startPosition="0" endLine="81" endPosition="0" />
+    <scopeInfo nodeId="8729833695221588864" fileName="RectLayoutTestPanel.java" startLine="73" startPosition="0" endLine="81" endPosition="0" />
+    <scopeInfo nodeId="8729833695221589659" fileName="RectLayoutTestPanel.java" startLine="226" startPosition="0" endLine="234" endPosition="0" />
+    <scopeInfo nodeId="8729833695221588813" fileName="RectLayoutTestPanel.java" startLine="302" startPosition="0" endLine="310" endPosition="0">
+      <varInfo nodeId="8729833695221588816" varName="graphics" />
+    </scopeInfo>
     <scopeInfo nodeId="8729833695221588999" fileName="RectLayoutTestPanel.java" startLine="98" startPosition="51" endLine="107" endPosition="9" />
+    <scopeInfo nodeId="8729833695221589121" fileName="RectLayoutTestPanel.java" startLine="131" startPosition="0" endLine="140" endPosition="0">
+      <varInfo nodeId="8729833695221589182" varName="graph" />
+    </scopeInfo>
     <scopeInfo nodeId="8729833695221589467" fileName="RectLayoutTestPanel.java" startLine="200" startPosition="34" endLine="209" endPosition="28">
       <varInfo nodeId="8729833695221589482" varName="c" />
     </scopeInfo>
-    <scopeInfo nodeId="8729833695221589659" fileName="RectLayoutTestPanel.java" startLine="225" startPosition="0" endLine="234" endPosition="0" />
-    <scopeInfo nodeId="8729833695221588813" fileName="RectLayoutTestPanel.java" startLine="301" startPosition="0" endLine="310" endPosition="0">
-      <varInfo nodeId="8729833695221588816" varName="graphics" />
-    </scopeInfo>
-    <scopeInfo nodeId="8729833695221589121" fileName="RectLayoutTestPanel.java" startLine="130" startPosition="0" endLine="140" endPosition="0">
-      <varInfo nodeId="8729833695221589182" varName="graph" />
+    <scopeInfo nodeId="8729833695221588994" fileName="RectLayoutTestPanel.java" startLine="98" startPosition="0" endLine="109" endPosition="0">
+      <varInfo nodeId="8729833695221588997" varName="p0" />
     </scopeInfo>
     <scopeInfo nodeId="8729833695221589278" fileName="RectLayoutTestPanel.java" startLine="157" startPosition="48" endLine="168" endPosition="143">
       <varInfo nodeId="8729833695221589298" varName="edge" />
       <varInfo nodeId="8729833695221589280" varName="source" />
       <varInfo nodeId="8729833695221589289" varName="target" />
     </scopeInfo>
+    <scopeInfo nodeId="8729833695221589464" fileName="RectLayoutTestPanel.java" startLine="200" startPosition="0" endLine="211" endPosition="0" />
     <scopeInfo nodeId="8729833695221589525" fileName="RectLayoutTestPanel.java" startLine="212" startPosition="35" endLine="223" endPosition="47">
       <varInfo nodeId="8729833695221589538" varName="c" />
     </scopeInfo>
-    <scopeInfo nodeId="8729833695221588994" fileName="RectLayoutTestPanel.java" startLine="97" startPosition="51" endLine="109" endPosition="0">
-      <varInfo nodeId="8729833695221588997" varName="p0" />
-    </scopeInfo>
-    <scopeInfo nodeId="8729833695221589464" fileName="RectLayoutTestPanel.java" startLine="199" startPosition="0" endLine="211" endPosition="0" />
     <scopeInfo nodeId="8729833695221589277" fileName="RectLayoutTestPanel.java" startLine="156" startPosition="45" endLine="169" endPosition="7">
       <varInfo nodeId="8729833695221589345" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="8729833695221589522" fileName="RectLayoutTestPanel.java" startLine="211" startPosition="0" endLine="225" endPosition="0" />
+    <scopeInfo nodeId="8729833695221589522" fileName="RectLayoutTestPanel.java" startLine="212" startPosition="0" endLine="225" endPosition="0" />
     <scopeInfo nodeId="8729833695221589615" fileName="RectLayoutTestPanel.java" startLine="55" startPosition="32" endLine="70" endPosition="36" />
     <scopeInfo nodeId="8729833695221589048" fileName="RectLayoutTestPanel.java" startLine="113" startPosition="39" endLine="128" endPosition="21">
       <varInfo nodeId="8729833695221589050" varName="button" />
       <varInfo nodeId="8729833695221589056" varName="c" />
     </scopeInfo>
-    <scopeInfo nodeId="8729833695221589612" fileName="RectLayoutTestPanel.java" startLine="54" startPosition="0" endLine="71" endPosition="3" />
-    <scopeInfo nodeId="8729833695221589045" fileName="RectLayoutTestPanel.java" startLine="112" startPosition="0" endLine="130" endPosition="0" />
+    <scopeInfo nodeId="8729833695221589612" fileName="RectLayoutTestPanel.java" startLine="55" startPosition="0" endLine="72" endPosition="0" />
+    <scopeInfo nodeId="8729833695221589045" fileName="RectLayoutTestPanel.java" startLine="113" startPosition="0" endLine="130" endPosition="0" />
     <scopeInfo nodeId="8729833695221589227" fileName="RectLayoutTestPanel.java" startLine="149" startPosition="9" endLine="169" endPosition="7">
       <varInfo nodeId="8729833695221589272" varName="edgeLabelSizes" />
       <varInfo nodeId="8729833695221589234" varName="numNodeSizes" />
@@ -1004,20 +1004,20 @@
       <varInfo nodeId="8729833695221588981" varName="button" />
       <varInfo nodeId="8729833695221588930" varName="c" />
     </scopeInfo>
-    <scopeInfo nodeId="8729833695221588901" fileName="RectLayoutTestPanel.java" startLine="81" startPosition="0" endLine="112" endPosition="0" />
+    <scopeInfo nodeId="8729833695221588901" fileName="RectLayoutTestPanel.java" startLine="82" startPosition="0" endLine="112" endPosition="0" />
     <scopeInfo nodeId="8729833695221588626" fileName="RectLayoutTestPanel.java" startLine="247" startPosition="29" endLine="285" endPosition="24">
       <varInfo nodeId="8729833695221588656" varName="button" />
       <varInfo nodeId="8729833695221588633" varName="c" />
       <varInfo nodeId="8729833695221588628" varName="group" />
     </scopeInfo>
-    <scopeInfo nodeId="8729833695221588623" fileName="RectLayoutTestPanel.java" startLine="246" startPosition="0" endLine="286" endPosition="5" />
+    <scopeInfo nodeId="8729833695221588623" fileName="RectLayoutTestPanel.java" startLine="247" startPosition="0" endLine="287" endPosition="0" />
     <scopeInfo nodeId="8729833695221589187" fileName="RectLayoutTestPanel.java" startLine="141" startPosition="30" endLine="197" endPosition="5">
       <varInfo nodeId="8729833695221589214" varName="edgeDimensions" />
       <varInfo nodeId="8729833695221589223" varName="graph" />
       <varInfo nodeId="8729833695221589205" varName="nodeDimensions" />
       <varInfo nodeId="8729833695221589197" varName="scanner" />
     </scopeInfo>
-    <scopeInfo nodeId="8729833695221589184" fileName="RectLayoutTestPanel.java" startLine="140" startPosition="0" endLine="199" endPosition="0" />
+    <scopeInfo nodeId="8729833695221589184" fileName="RectLayoutTestPanel.java" startLine="141" startPosition="0" endLine="199" endPosition="0" />
     <unitInfo nodeId="8729833695221589306" fileName="RectLayoutTestPanel.java" startLine="160" startPosition="74" endLine="164" endPosition="9" unitName="visualization.RectLayoutTestPanel$3" />
     <unitInfo nodeId="8729833695221589701" fileName="RectLayoutTestPanel.java" startLine="236" startPosition="35" endLine="240" endPosition="5" unitName="visualization.RectLayoutTestPanel$4" />
     <unitInfo nodeId="8729833695221588667" fileName="RectLayoutTestPanel.java" startLine="254" startPosition="35" endLine="258" endPosition="7" unitName="visualization.RectLayoutTestPanel$1" />
@@ -1044,18 +1044,18 @@
     <nodeInfo nodeId="3444434563276348631" fileName="LayoutPainter.java" startLine="40" startPosition="69" endLine="41" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="3444434563276348642" fileName="LayoutPainter.java" startLine="43" startPosition="25" endLine="44" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="3444434563276348658" fileName="LayoutPainter.java" startLine="45" startPosition="7" endLine="46" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="903391227141130076" fileName="LayoutPainter.java" startLine="14" startPosition="28" endLine="16" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="LayoutPainter#()V" />
+    <nodeInfo nodeId="903391227141130076" fileName="LayoutPainter.java" startLine="15" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="LayoutPainter#()V" />
     <nodeInfo nodeId="3444434563276348637" fileName="LayoutPainter.java" startLine="42" startPosition="57" endLine="45" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="8949260152464120374" fileName="LayoutPainter.java" startLine="32" startPosition="51" endLine="36" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="8949260152464120289" fileName="LayoutPainter.java" startLine="25" startPosition="5" endLine="30" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="8949260152464120025" fileName="LayoutPainter.java" startLine="19" startPosition="37" endLine="25" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="3444434563276348634" fileName="LayoutPainter.java" startLine="41" startPosition="22" endLine="47" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="8949260152464120354" fileName="LayoutPainter.java" startLine="30" startPosition="5" endLine="37" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="3444434563276348624" fileName="LayoutPainter.java" startLine="39" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="drawPolyline#(Ljava/lang/Iterable;Ljava/awt/Graphics;)V" />
-    <nodeInfo nodeId="903391227141130080" fileName="LayoutPainter.java" startLine="17" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="paint#(Ljetbrains/mps/graphLayout/graphLayout/IGraphLayout;Ljava/awt/Graphics;)V" />
+    <nodeInfo nodeId="3444434563276348624" fileName="LayoutPainter.java" startLine="40" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="drawPolyline#(Ljava/lang/Iterable;Ljava/awt/Graphics;)V" />
+    <nodeInfo nodeId="903391227141130080" fileName="LayoutPainter.java" startLine="18" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="paint#(Ljetbrains/mps/graphLayout/graphLayout/IGraphLayout;Ljava/awt/Graphics;)V" />
     <scopeInfo nodeId="903391227141130079" fileName="LayoutPainter.java" startLine="15" startPosition="26" endLine="15" endPosition="26" />
     <scopeInfo nodeId="3444434563276348641" fileName="LayoutPainter.java" startLine="43" startPosition="25" endLine="44" endPosition="53" />
-    <scopeInfo nodeId="903391227141130076" fileName="LayoutPainter.java" startLine="14" startPosition="28" endLine="16" endPosition="3" />
+    <scopeInfo nodeId="903391227141130076" fileName="LayoutPainter.java" startLine="15" startPosition="0" endLine="17" endPosition="0" />
     <scopeInfo nodeId="8949260152464120375" fileName="LayoutPainter.java" startLine="33" startPosition="25" endLine="35" endPosition="63" />
     <scopeInfo nodeId="8949260152464120291" fileName="LayoutPainter.java" startLine="26" startPosition="41" endLine="29" endPosition="61">
       <varInfo nodeId="8949260152464120303" varName="rect" />
@@ -1082,32 +1082,32 @@
     <scopeInfo nodeId="3444434563276348630" fileName="LayoutPainter.java" startLine="40" startPosition="69" endLine="47" endPosition="5">
       <varInfo nodeId="3444434563276348620" varName="prev" />
     </scopeInfo>
-    <scopeInfo nodeId="3444434563276348624" fileName="LayoutPainter.java" startLine="39" startPosition="0" endLine="49" endPosition="0">
+    <scopeInfo nodeId="3444434563276348624" fileName="LayoutPainter.java" startLine="40" startPosition="0" endLine="49" endPosition="0">
       <varInfo nodeId="3444434563276348623" varName="g" />
       <varInfo nodeId="3444434563276348622" varName="polyline" />
     </scopeInfo>
     <scopeInfo nodeId="903391227141130083" fileName="LayoutPainter.java" startLine="18" startPosition="54" endLine="37" endPosition="5">
       <varInfo nodeId="2913448412765308013" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141130080" fileName="LayoutPainter.java" startLine="17" startPosition="0" endLine="39" endPosition="0">
+    <scopeInfo nodeId="903391227141130080" fileName="LayoutPainter.java" startLine="18" startPosition="0" endLine="39" endPosition="0">
       <varInfo nodeId="903391227141130086" varName="g" />
       <varInfo nodeId="903391227141130084" varName="layout" />
     </scopeInfo>
     <unitInfo nodeId="903391227141130074" fileName="LayoutPainter.java" startLine="14" startPosition="0" endLine="50" endPosition="0" unitName="visualization.LayoutPainter" />
   </root>
   <root nodeId="903391227141135207" modelId="r:964bbf7c-f239-4721-836a-ba42f2f69703(visualization)">
-    <nodeInfo nodeId="903391227141135927" fileName="OrthogonalLayoutTestPanel.java" startLine="41" startPosition="55" endLine="42" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="FRAME_DIMENSION" />
-    <nodeInfo nodeId="1418350014056289153" fileName="OrthogonalLayoutTestPanel.java" startLine="42" startPosition="69" endLine="43" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="DEFAULT_NODE_SIZE" />
-    <nodeInfo nodeId="490728924230502971" fileName="OrthogonalLayoutTestPanel.java" startLine="43" startPosition="50" endLine="44" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="DEFAULT_LABEL_X_SIZE" />
-    <nodeInfo nodeId="490728924230502980" fileName="OrthogonalLayoutTestPanel.java" startLine="44" startPosition="54" endLine="45" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="DEFAULT_LABEL_Y_SIZE" />
-    <nodeInfo nodeId="903391227141135413" fileName="OrthogonalLayoutTestPanel.java" startLine="46" startPosition="0" endLine="47" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myTextArea" />
-    <nodeInfo nodeId="903391227141135416" fileName="OrthogonalLayoutTestPanel.java" startLine="47" startPosition="33" endLine="48" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myGraphLabel" />
-    <nodeInfo nodeId="903391227141136156" fileName="OrthogonalLayoutTestPanel.java" startLine="48" startPosition="62" endLine="49" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myLayouter" />
-    <nodeInfo nodeId="903391227141136131" fileName="OrthogonalLayoutTestPanel.java" startLine="49" startPosition="37" endLine="50" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myPainter" />
-    <nodeInfo nodeId="903391227141135422" fileName="OrthogonalLayoutTestPanel.java" startLine="50" startPosition="36" endLine="51" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myCurrentLayout" />
-    <nodeInfo nodeId="903391227141135425" fileName="OrthogonalLayoutTestPanel.java" startLine="51" startPosition="38" endLine="52" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myNumEdgesField" />
-    <nodeInfo nodeId="903391227141135428" fileName="OrthogonalLayoutTestPanel.java" startLine="52" startPosition="37" endLine="53" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myNumNodesField" />
-    <nodeInfo nodeId="6160477238666742422" fileName="OrthogonalLayoutTestPanel.java" startLine="53" startPosition="37" endLine="54" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myLayoutChoice" />
+    <nodeInfo nodeId="903391227141135927" fileName="OrthogonalLayoutTestPanel.java" startLine="42" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="FRAME_DIMENSION" />
+    <nodeInfo nodeId="1418350014056289153" fileName="OrthogonalLayoutTestPanel.java" startLine="43" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="DEFAULT_NODE_SIZE" />
+    <nodeInfo nodeId="490728924230502971" fileName="OrthogonalLayoutTestPanel.java" startLine="44" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="DEFAULT_LABEL_X_SIZE" />
+    <nodeInfo nodeId="490728924230502980" fileName="OrthogonalLayoutTestPanel.java" startLine="45" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="DEFAULT_LABEL_Y_SIZE" />
+    <nodeInfo nodeId="903391227141135413" fileName="OrthogonalLayoutTestPanel.java" startLine="47" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myTextArea" />
+    <nodeInfo nodeId="903391227141135416" fileName="OrthogonalLayoutTestPanel.java" startLine="48" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myGraphLabel" />
+    <nodeInfo nodeId="903391227141136156" fileName="OrthogonalLayoutTestPanel.java" startLine="49" startPosition="0" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myLayouter" />
+    <nodeInfo nodeId="903391227141136131" fileName="OrthogonalLayoutTestPanel.java" startLine="50" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myPainter" />
+    <nodeInfo nodeId="903391227141135422" fileName="OrthogonalLayoutTestPanel.java" startLine="51" startPosition="0" endLine="52" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myCurrentLayout" />
+    <nodeInfo nodeId="903391227141135425" fileName="OrthogonalLayoutTestPanel.java" startLine="52" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myNumEdgesField" />
+    <nodeInfo nodeId="903391227141135428" fileName="OrthogonalLayoutTestPanel.java" startLine="53" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myNumNodesField" />
+    <nodeInfo nodeId="6160477238666742422" fileName="OrthogonalLayoutTestPanel.java" startLine="54" startPosition="0" endLine="55" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myLayoutChoice" />
     <nodeInfo nodeId="903391227141135951" fileName="OrthogonalLayoutTestPanel.java" startLine="56" startPosition="38" endLine="57" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="903391227141135957" fileName="OrthogonalLayoutTestPanel.java" startLine="57" startPosition="40" endLine="58" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="903391227141135959" fileName="OrthogonalLayoutTestPanel.java" startLine="58" startPosition="27" endLine="59" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -1219,8 +1219,8 @@
     <nodeInfo nodeId="1532165762814297287" fileName="OrthogonalLayoutTestPanel.java" startLine="247" startPosition="42" endLine="248" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1532165762814297291" fileName="OrthogonalLayoutTestPanel.java" startLine="248" startPosition="17" endLine="249" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="903391227141136059" fileName="OrthogonalLayoutTestPanel.java" startLine="254" startPosition="25" endLine="255" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6160477238666743957" fileName="OrthogonalLayoutTestPanel.java" startLine="260" startPosition="46" endLine="261" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myLayoutLevel" />
-    <nodeInfo nodeId="8680836410351744506" fileName="OrthogonalLayoutTestPanel.java" startLine="261" startPosition="30" endLine="262" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myLabelForAllEdges" />
+    <nodeInfo nodeId="6160477238666743957" fileName="OrthogonalLayoutTestPanel.java" startLine="261" startPosition="0" endLine="262" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myLayoutLevel" />
+    <nodeInfo nodeId="8680836410351744506" fileName="OrthogonalLayoutTestPanel.java" startLine="262" startPosition="0" endLine="263" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myLabelForAllEdges" />
     <nodeInfo nodeId="6160477238666740870" fileName="OrthogonalLayoutTestPanel.java" startLine="264" startPosition="29" endLine="265" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="6160477238666741127" fileName="OrthogonalLayoutTestPanel.java" startLine="265" startPosition="44" endLine="266" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="6160477238666741132" fileName="OrthogonalLayoutTestPanel.java" startLine="266" startPosition="54" endLine="267" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -1253,25 +1253,25 @@
     <nodeInfo nodeId="903391227141136096" fileName="OrthogonalLayoutTestPanel.java" startLine="321" startPosition="36" endLine="322" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="903391227141136110" fileName="OrthogonalLayoutTestPanel.java" startLine="323" startPosition="14" endLine="324" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="903391227141136108" fileName="OrthogonalLayoutTestPanel.java" startLine="323" startPosition="12" endLine="325" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1251688034163226110" fileName="OrthogonalLayoutTestPanel.java" startLine="116" startPosition="0" endLine="119" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="generateGraph#(II)Ljetbrains/mps/graphLayout/graph/Graph;" />
     <nodeInfo nodeId="8680836410351737619" fileName="OrthogonalLayoutTestPanel.java" startLine="140" startPosition="97" endLine="143" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="1418350014056289141" fileName="OrthogonalLayoutTestPanel.java" startLine="156" startPosition="61" endLine="159" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="8680836410351750024" fileName="OrthogonalLayoutTestPanel.java" startLine="162" startPosition="63" endLine="165" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="3848593518650118059" fileName="OrthogonalLayoutTestPanel.java" startLine="168" startPosition="48" endLine="171" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="3848593518650118084" fileName="OrthogonalLayoutTestPanel.java" startLine="171" startPosition="7" endLine="174" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="4998536563116626847" fileName="OrthogonalLayoutTestPanel.java" startLine="175" startPosition="56" endLine="178" endPosition="8" conceptFqName="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock" />
+    <nodeInfo nodeId="1532165762814296111" fileName="OrthogonalLayoutTestPanel.java" startLine="191" startPosition="0" endLine="194" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="readGraph#(Ljava/util/Scanner;)Ljetbrains/mps/graphLayout/graph/Graph;" />
+    <nodeInfo nodeId="1532165762814296056" fileName="OrthogonalLayoutTestPanel.java" startLine="206" startPosition="0" endLine="209" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/graphLayout/graph/Edge;)Z" />
     <nodeInfo nodeId="1532165762814296066" fileName="OrthogonalLayoutTestPanel.java" startLine="209" startPosition="17" endLine="212" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="903391227141135210" fileName="OrthogonalLayoutTestPanel.java" startLine="314" startPosition="45" endLine="317" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="MyGraphLabel#()V" />
-    <nodeInfo nodeId="1251688034163226110" fileName="OrthogonalLayoutTestPanel.java" startLine="115" startPosition="0" endLine="119" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="generateGraph#(II)Ljetbrains/mps/graphLayout/graph/Graph;" />
-    <nodeInfo nodeId="1532165762814296111" fileName="OrthogonalLayoutTestPanel.java" startLine="190" startPosition="0" endLine="194" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="readGraph#(Ljava/util/Scanner;)Ljetbrains/mps/graphLayout/graph/Graph;" />
+    <nodeInfo nodeId="903391227141136055" fileName="OrthogonalLayoutTestPanel.java" startLine="254" startPosition="0" endLine="257" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="run#()V" />
+    <nodeInfo nodeId="6160477238666744017" fileName="OrthogonalLayoutTestPanel.java" startLine="272" startPosition="0" endLine="275" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="actionPerformed#(Ljava/awt/event/ActionEvent;)V" />
+    <nodeInfo nodeId="6160477238666744057" fileName="OrthogonalLayoutTestPanel.java" startLine="281" startPosition="0" endLine="284" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="actionPerformed#(Ljava/awt/event/ActionEvent;)V" />
+    <nodeInfo nodeId="6160477238666744076" fileName="OrthogonalLayoutTestPanel.java" startLine="290" startPosition="0" endLine="293" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="actionPerformed#(Ljava/awt/event/ActionEvent;)V" />
+    <nodeInfo nodeId="6160477238666742339" fileName="OrthogonalLayoutTestPanel.java" startLine="305" startPosition="0" endLine="308" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSelectedLayoutLavel#()I" />
+    <nodeInfo nodeId="8680836410351749781" fileName="OrthogonalLayoutTestPanel.java" startLine="309" startPosition="0" endLine="312" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isSetLabels#()Z" />
+    <nodeInfo nodeId="903391227141135210" fileName="OrthogonalLayoutTestPanel.java" startLine="315" startPosition="0" endLine="318" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="MyGraphLabel#()V" />
+    <nodeInfo nodeId="903391227141135625" fileName="OrthogonalLayoutTestPanel.java" startLine="124" startPosition="0" endLine="128" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="actionPerformed#(Ljava/awt/event/ActionEvent;)V" />
     <nodeInfo nodeId="1532165762814295995" fileName="OrthogonalLayoutTestPanel.java" startLine="196" startPosition="41" endLine="200" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="1532165762814296056" fileName="OrthogonalLayoutTestPanel.java" startLine="205" startPosition="94" endLine="209" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/graphLayout/graph/Edge;)Z" />
-    <nodeInfo nodeId="903391227141136055" fileName="OrthogonalLayoutTestPanel.java" startLine="253" startPosition="47" endLine="257" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="run#()V" />
-    <nodeInfo nodeId="6160477238666744017" fileName="OrthogonalLayoutTestPanel.java" startLine="271" startPosition="53" endLine="275" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="actionPerformed#(Ljava/awt/event/ActionEvent;)V" />
-    <nodeInfo nodeId="6160477238666744057" fileName="OrthogonalLayoutTestPanel.java" startLine="280" startPosition="53" endLine="284" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="actionPerformed#(Ljava/awt/event/ActionEvent;)V" />
-    <nodeInfo nodeId="6160477238666744076" fileName="OrthogonalLayoutTestPanel.java" startLine="289" startPosition="53" endLine="293" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="actionPerformed#(Ljava/awt/event/ActionEvent;)V" />
-    <nodeInfo nodeId="6160477238666742339" fileName="OrthogonalLayoutTestPanel.java" startLine="304" startPosition="0" endLine="308" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSelectedLayoutLavel#()I" />
-    <nodeInfo nodeId="8680836410351749781" fileName="OrthogonalLayoutTestPanel.java" startLine="308" startPosition="0" endLine="312" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isSetLabels#()Z" />
-    <nodeInfo nodeId="903391227141135625" fileName="OrthogonalLayoutTestPanel.java" startLine="123" startPosition="51" endLine="128" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="actionPerformed#(Ljava/awt/event/ActionEvent;)V" />
     <nodeInfo nodeId="903391227141135770" fileName="OrthogonalLayoutTestPanel.java" startLine="149" startPosition="19" endLine="154" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
     <nodeInfo nodeId="903391227141155926" fileName="OrthogonalLayoutTestPanel.java" startLine="155" startPosition="20" endLine="160" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="8680836410351750014" fileName="OrthogonalLayoutTestPanel.java" startLine="161" startPosition="41" endLine="166" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
@@ -1281,28 +1281,28 @@
     <nodeInfo nodeId="6160477238666744049" fileName="OrthogonalLayoutTestPanel.java" startLine="279" startPosition="48" endLine="284" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="6160477238666744068" fileName="OrthogonalLayoutTestPanel.java" startLine="288" startPosition="52" endLine="293" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="903391227141136088" fileName="OrthogonalLayoutTestPanel.java" startLine="320" startPosition="51" endLine="325" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1532165762814291701" fileName="OrthogonalLayoutTestPanel.java" startLine="67" startPosition="0" endLine="73" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="initLayout#()V" />
     <nodeInfo nodeId="903391227141135617" fileName="OrthogonalLayoutTestPanel.java" startLine="122" startPosition="52" endLine="128" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1532165762814291701" fileName="OrthogonalLayoutTestPanel.java" startLine="66" startPosition="0" endLine="73" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="initLayout#()V" />
+    <nodeInfo nodeId="903391227141135678" fileName="OrthogonalLayoutTestPanel.java" startLine="138" startPosition="0" endLine="145" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="writeGraph#(Ljetbrains/mps/graphLayout/graph/Graph;)V" />
     <nodeInfo nodeId="8680836410351750004" fileName="OrthogonalLayoutTestPanel.java" startLine="160" startPosition="7" endLine="167" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="903391227141135678" fileName="OrthogonalLayoutTestPanel.java" startLine="137" startPosition="0" endLine="145" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="writeGraph#(Ljetbrains/mps/graphLayout/graph/Graph;)V" />
-    <nodeInfo nodeId="1532165762814291772" fileName="OrthogonalLayoutTestPanel.java" startLine="182" startPosition="0" endLine="190" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="readGraph#(Ljava/util/Map;Ljava/util/Map;)Ljetbrains/mps/graphLayout/graph/Graph;" />
-    <nodeInfo nodeId="903391227141136045" fileName="OrthogonalLayoutTestPanel.java" startLine="251" startPosition="0" endLine="259" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="main#([Ljava/lang/String;)V" />
-    <nodeInfo nodeId="6160477238666723341" fileName="OrthogonalLayoutTestPanel.java" startLine="73" startPosition="0" endLine="82" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createLayoutChoiceButtons#()V" />
-    <nodeInfo nodeId="1532165762814297261" fileName="OrthogonalLayoutTestPanel.java" startLine="242" startPosition="0" endLine="251" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="create#()V" />
-    <nodeInfo nodeId="903391227141135216" fileName="OrthogonalLayoutTestPanel.java" startLine="318" startPosition="0" endLine="327" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="paintComponent#(Ljava/awt/Graphics;)V" />
-    <nodeInfo nodeId="903391227141135947" fileName="OrthogonalLayoutTestPanel.java" startLine="55" startPosition="0" endLine="65" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="OrthogonalLayoutTestPanel#()V" />
+    <nodeInfo nodeId="1532165762814291772" fileName="OrthogonalLayoutTestPanel.java" startLine="183" startPosition="0" endLine="190" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="readGraph#(Ljava/util/Map;Ljava/util/Map;)Ljetbrains/mps/graphLayout/graph/Graph;" />
+    <nodeInfo nodeId="903391227141136045" fileName="OrthogonalLayoutTestPanel.java" startLine="252" startPosition="0" endLine="259" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="main#([Ljava/lang/String;)V" />
+    <nodeInfo nodeId="6160477238666723341" fileName="OrthogonalLayoutTestPanel.java" startLine="74" startPosition="0" endLine="82" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createLayoutChoiceButtons#()V" />
+    <nodeInfo nodeId="1532165762814297261" fileName="OrthogonalLayoutTestPanel.java" startLine="243" startPosition="0" endLine="251" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="create#()V" />
+    <nodeInfo nodeId="903391227141135216" fileName="OrthogonalLayoutTestPanel.java" startLine="319" startPosition="0" endLine="327" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="paintComponent#(Ljava/awt/Graphics;)V" />
+    <nodeInfo nodeId="903391227141135947" fileName="OrthogonalLayoutTestPanel.java" startLine="56" startPosition="0" endLine="66" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="OrthogonalLayoutTestPanel#()V" />
     <nodeInfo nodeId="903391227141135544" fileName="OrthogonalLayoutTestPanel.java" startLine="99" startPosition="51" endLine="110" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
-    <nodeInfo nodeId="903391227141135792" fileName="OrthogonalLayoutTestPanel.java" startLine="216" startPosition="0" endLine="228" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createTextPanel#()V" />
+    <nodeInfo nodeId="903391227141135792" fileName="OrthogonalLayoutTestPanel.java" startLine="217" startPosition="0" endLine="228" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createTextPanel#()V" />
+    <nodeInfo nodeId="903391227141135538" fileName="OrthogonalLayoutTestPanel.java" startLine="99" startPosition="0" endLine="112" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="actionPerformed#(Ljava/awt/event/ActionEvent;)V" />
     <nodeInfo nodeId="1532165762814296030" fileName="OrthogonalLayoutTestPanel.java" startLine="201" startPosition="43" endLine="214" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="903391227141135538" fileName="OrthogonalLayoutTestPanel.java" startLine="98" startPosition="51" endLine="112" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="actionPerformed#(Ljava/awt/event/ActionEvent;)V" />
-    <nodeInfo nodeId="903391227141135850" fileName="OrthogonalLayoutTestPanel.java" startLine="228" startPosition="0" endLine="242" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createGraphPanel#()V" />
+    <nodeInfo nodeId="903391227141135850" fileName="OrthogonalLayoutTestPanel.java" startLine="229" startPosition="0" endLine="242" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createGraphPanel#()V" />
     <nodeInfo nodeId="903391227141135530" fileName="OrthogonalLayoutTestPanel.java" startLine="97" startPosition="52" endLine="112" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="903391227141135602" fileName="OrthogonalLayoutTestPanel.java" startLine="119" startPosition="0" endLine="137" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createDoLayoutButton#()V" />
-    <nodeInfo nodeId="1532165762814295978" fileName="OrthogonalLayoutTestPanel.java" startLine="194" startPosition="0" endLine="216" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="readSizes#(Ljava/util/Scanner;Ljetbrains/mps/graphLayout/graph/Graph;Ljava/util/Map;Ljava/util/Map;)V" />
+    <nodeInfo nodeId="903391227141135602" fileName="OrthogonalLayoutTestPanel.java" startLine="120" startPosition="0" endLine="137" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createDoLayoutButton#()V" />
+    <nodeInfo nodeId="1532165762814295978" fileName="OrthogonalLayoutTestPanel.java" startLine="195" startPosition="0" endLine="216" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="readSizes#(Ljava/util/Scanner;Ljetbrains/mps/graphLayout/graph/Graph;Ljava/util/Map;Ljava/util/Map;)V" />
     <nodeInfo nodeId="903391227141138859" fileName="OrthogonalLayoutTestPanel.java" startLine="154" startPosition="5" endLine="180" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="903391227141135434" fileName="OrthogonalLayoutTestPanel.java" startLine="82" startPosition="0" endLine="115" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNewGraphButton#()V" />
-    <nodeInfo nodeId="903391227141135754" fileName="OrthogonalLayoutTestPanel.java" startLine="145" startPosition="0" endLine="182" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="layoutGraph#()V" />
-    <nodeInfo nodeId="6160477238666740866" fileName="OrthogonalLayoutTestPanel.java" startLine="263" startPosition="0" endLine="303" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="MyLayoutChoice#()V" />
+    <nodeInfo nodeId="903391227141135434" fileName="OrthogonalLayoutTestPanel.java" startLine="83" startPosition="0" endLine="115" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNewGraphButton#()V" />
+    <nodeInfo nodeId="903391227141135754" fileName="OrthogonalLayoutTestPanel.java" startLine="146" startPosition="0" endLine="182" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="layoutGraph#()V" />
+    <nodeInfo nodeId="6160477238666740866" fileName="OrthogonalLayoutTestPanel.java" startLine="264" startPosition="0" endLine="304" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="MyLayoutChoice#()V" />
     <scopeInfo nodeId="903391227141135585" fileName="OrthogonalLayoutTestPanel.java" startLine="108" startPosition="0" endLine="109" endPosition="127">
       <varInfo nodeId="903391227141135586" varName="e" />
     </scopeInfo>
@@ -1334,6 +1334,10 @@
     <scopeInfo nodeId="1532165762814295996" fileName="OrthogonalLayoutTestPanel.java" startLine="197" startPosition="44" endLine="199" endPosition="136">
       <varInfo nodeId="1532165762814295965" varName="node" />
     </scopeInfo>
+    <scopeInfo nodeId="1251688034163226110" fileName="OrthogonalLayoutTestPanel.java" startLine="116" startPosition="0" endLine="119" endPosition="0">
+      <varInfo nodeId="1251688034163226115" varName="numEdges" />
+      <varInfo nodeId="1251688034163226113" varName="numNodes" />
+    </scopeInfo>
     <scopeInfo nodeId="8680836410351737619" fileName="OrthogonalLayoutTestPanel.java" startLine="140" startPosition="97" endLine="143" endPosition="5">
       <varInfo nodeId="8680836410351737620" varName="edge" />
     </scopeInfo>
@@ -1345,37 +1349,33 @@
     <scopeInfo nodeId="3848593518650118084" fileName="OrthogonalLayoutTestPanel.java" startLine="171" startPosition="7" endLine="174" endPosition="7">
       <varInfo nodeId="3848593518650118085" varName="edge" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141135210" fileName="OrthogonalLayoutTestPanel.java" startLine="314" startPosition="45" endLine="317" endPosition="5" />
+    <scopeInfo nodeId="1532165762814296111" fileName="OrthogonalLayoutTestPanel.java" startLine="191" startPosition="0" endLine="194" endPosition="0">
+      <varInfo nodeId="1532165762814296110" varName="scanner" />
+    </scopeInfo>
+    <scopeInfo nodeId="1532165762814296056" fileName="OrthogonalLayoutTestPanel.java" startLine="206" startPosition="0" endLine="209" endPosition="0">
+      <varInfo nodeId="1532165762814296056" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="903391227141136055" fileName="OrthogonalLayoutTestPanel.java" startLine="254" startPosition="0" endLine="257" endPosition="0" />
+    <scopeInfo nodeId="6160477238666744017" fileName="OrthogonalLayoutTestPanel.java" startLine="272" startPosition="0" endLine="275" endPosition="0">
+      <varInfo nodeId="6160477238666744020" varName="p0" />
+    </scopeInfo>
+    <scopeInfo nodeId="6160477238666744057" fileName="OrthogonalLayoutTestPanel.java" startLine="281" startPosition="0" endLine="284" endPosition="0">
+      <varInfo nodeId="6160477238666744060" varName="p0" />
+    </scopeInfo>
+    <scopeInfo nodeId="6160477238666744076" fileName="OrthogonalLayoutTestPanel.java" startLine="290" startPosition="0" endLine="293" endPosition="0">
+      <varInfo nodeId="6160477238666744079" varName="p0" />
+    </scopeInfo>
+    <scopeInfo nodeId="6160477238666742339" fileName="OrthogonalLayoutTestPanel.java" startLine="305" startPosition="0" endLine="308" endPosition="0" />
+    <scopeInfo nodeId="8680836410351749781" fileName="OrthogonalLayoutTestPanel.java" startLine="309" startPosition="0" endLine="312" endPosition="0" />
+    <scopeInfo nodeId="903391227141135210" fileName="OrthogonalLayoutTestPanel.java" startLine="315" startPosition="0" endLine="318" endPosition="0" />
     <scopeInfo nodeId="1532165762814291704" fileName="OrthogonalLayoutTestPanel.java" startLine="67" startPosition="31" endLine="71" endPosition="36">
       <varInfo nodeId="1714301205550514218" varName="layouter" />
     </scopeInfo>
-    <scopeInfo nodeId="1251688034163226110" fileName="OrthogonalLayoutTestPanel.java" startLine="115" startPosition="0" endLine="119" endPosition="0">
-      <varInfo nodeId="1251688034163226115" varName="numEdges" />
-      <varInfo nodeId="1251688034163226113" varName="numNodes" />
-    </scopeInfo>
-    <scopeInfo nodeId="1532165762814296111" fileName="OrthogonalLayoutTestPanel.java" startLine="190" startPosition="0" endLine="194" endPosition="0">
-      <varInfo nodeId="1532165762814296110" varName="scanner" />
+    <scopeInfo nodeId="903391227141135625" fileName="OrthogonalLayoutTestPanel.java" startLine="124" startPosition="0" endLine="128" endPosition="0">
+      <varInfo nodeId="903391227141135628" varName="p0" />
     </scopeInfo>
     <scopeInfo nodeId="1532165762814295995" fileName="OrthogonalLayoutTestPanel.java" startLine="196" startPosition="41" endLine="200" endPosition="5">
       <varInfo nodeId="1532165762814295967" varName="i" />
-    </scopeInfo>
-    <scopeInfo nodeId="1532165762814296056" fileName="OrthogonalLayoutTestPanel.java" startLine="205" startPosition="94" endLine="209" endPosition="0">
-      <varInfo nodeId="1532165762814296056" varName="it" />
-    </scopeInfo>
-    <scopeInfo nodeId="903391227141136055" fileName="OrthogonalLayoutTestPanel.java" startLine="253" startPosition="47" endLine="257" endPosition="0" />
-    <scopeInfo nodeId="6160477238666744017" fileName="OrthogonalLayoutTestPanel.java" startLine="271" startPosition="53" endLine="275" endPosition="0">
-      <varInfo nodeId="6160477238666744020" varName="p0" />
-    </scopeInfo>
-    <scopeInfo nodeId="6160477238666744057" fileName="OrthogonalLayoutTestPanel.java" startLine="280" startPosition="53" endLine="284" endPosition="0">
-      <varInfo nodeId="6160477238666744060" varName="p0" />
-    </scopeInfo>
-    <scopeInfo nodeId="6160477238666744076" fileName="OrthogonalLayoutTestPanel.java" startLine="289" startPosition="53" endLine="293" endPosition="0">
-      <varInfo nodeId="6160477238666744079" varName="p0" />
-    </scopeInfo>
-    <scopeInfo nodeId="6160477238666742339" fileName="OrthogonalLayoutTestPanel.java" startLine="304" startPosition="0" endLine="308" endPosition="0" />
-    <scopeInfo nodeId="8680836410351749781" fileName="OrthogonalLayoutTestPanel.java" startLine="308" startPosition="0" endLine="312" endPosition="0" />
-    <scopeInfo nodeId="903391227141135625" fileName="OrthogonalLayoutTestPanel.java" startLine="123" startPosition="51" endLine="128" endPosition="0">
-      <varInfo nodeId="903391227141135628" varName="p0" />
     </scopeInfo>
     <scopeInfo nodeId="903391227141135681" fileName="OrthogonalLayoutTestPanel.java" startLine="138" startPosition="42" endLine="143" endPosition="5">
       <varInfo nodeId="8680836410351737633" varName="edges" />
@@ -1393,65 +1393,65 @@
     </scopeInfo>
     <scopeInfo nodeId="903391227141136048" fileName="OrthogonalLayoutTestPanel.java" startLine="252" startPosition="42" endLine="257" endPosition="7" />
     <scopeInfo nodeId="903391227141135221" fileName="OrthogonalLayoutTestPanel.java" startLine="320" startPosition="51" endLine="325" endPosition="7" />
+    <scopeInfo nodeId="1532165762814291701" fileName="OrthogonalLayoutTestPanel.java" startLine="67" startPosition="0" endLine="73" endPosition="0" />
     <scopeInfo nodeId="6160477238666723344" fileName="OrthogonalLayoutTestPanel.java" startLine="74" startPosition="44" endLine="80" endPosition="29">
       <varInfo nodeId="6160477238666723530" varName="c" />
     </scopeInfo>
     <scopeInfo nodeId="1532165762814297264" fileName="OrthogonalLayoutTestPanel.java" startLine="243" startPosition="27" endLine="249" endPosition="27">
       <varInfo nodeId="1532165762814297266" varName="frame" />
     </scopeInfo>
-    <scopeInfo nodeId="1532165762814291701" fileName="OrthogonalLayoutTestPanel.java" startLine="66" startPosition="0" endLine="73" endPosition="0" />
     <scopeInfo nodeId="903391227141135545" fileName="OrthogonalLayoutTestPanel.java" startLine="100" startPosition="13" endLine="107" endPosition="46">
       <varInfo nodeId="903391227141135561" varName="g" />
       <varInfo nodeId="903391227141135554" varName="numEdges" />
       <varInfo nodeId="903391227141135547" varName="numNodes" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141135950" fileName="OrthogonalLayoutTestPanel.java" startLine="56" startPosition="38" endLine="64" endPosition="27" />
-    <scopeInfo nodeId="903391227141135678" fileName="OrthogonalLayoutTestPanel.java" startLine="137" startPosition="0" endLine="145" endPosition="0">
+    <scopeInfo nodeId="903391227141135678" fileName="OrthogonalLayoutTestPanel.java" startLine="138" startPosition="0" endLine="145" endPosition="0">
       <varInfo nodeId="903391227141135752" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="1532165762814291772" fileName="OrthogonalLayoutTestPanel.java" startLine="182" startPosition="0" endLine="190" endPosition="0">
+    <scopeInfo nodeId="1532165762814291772" fileName="OrthogonalLayoutTestPanel.java" startLine="183" startPosition="0" endLine="190" endPosition="0">
       <varInfo nodeId="1532165762814291926" varName="edgeSizes" />
       <varInfo nodeId="1532165762814291920" varName="nodeSizes" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141136045" fileName="OrthogonalLayoutTestPanel.java" startLine="251" startPosition="0" endLine="259" endPosition="0">
+    <scopeInfo nodeId="903391227141136045" fileName="OrthogonalLayoutTestPanel.java" startLine="252" startPosition="0" endLine="259" endPosition="0">
       <varInfo nodeId="903391227141136061" varName="args" />
     </scopeInfo>
-    <scopeInfo nodeId="6160477238666723341" fileName="OrthogonalLayoutTestPanel.java" startLine="73" startPosition="0" endLine="82" endPosition="0" />
+    <scopeInfo nodeId="903391227141135950" fileName="OrthogonalLayoutTestPanel.java" startLine="56" startPosition="38" endLine="64" endPosition="27" />
+    <scopeInfo nodeId="6160477238666723341" fileName="OrthogonalLayoutTestPanel.java" startLine="74" startPosition="0" endLine="82" endPosition="0" />
+    <scopeInfo nodeId="1532165762814297261" fileName="OrthogonalLayoutTestPanel.java" startLine="243" startPosition="0" endLine="251" endPosition="0" />
+    <scopeInfo nodeId="903391227141135216" fileName="OrthogonalLayoutTestPanel.java" startLine="319" startPosition="0" endLine="327" endPosition="0">
+      <varInfo nodeId="903391227141135219" varName="graphics" />
+    </scopeInfo>
     <scopeInfo nodeId="903391227141135795" fileName="OrthogonalLayoutTestPanel.java" startLine="217" startPosition="34" endLine="226" endPosition="28">
       <varInfo nodeId="903391227141135810" varName="c" />
     </scopeInfo>
-    <scopeInfo nodeId="1532165762814297261" fileName="OrthogonalLayoutTestPanel.java" startLine="242" startPosition="0" endLine="251" endPosition="0" />
-    <scopeInfo nodeId="903391227141135216" fileName="OrthogonalLayoutTestPanel.java" startLine="318" startPosition="0" endLine="327" endPosition="0">
-      <varInfo nodeId="903391227141135219" varName="graphics" />
-    </scopeInfo>
-    <scopeInfo nodeId="903391227141135947" fileName="OrthogonalLayoutTestPanel.java" startLine="55" startPosition="0" endLine="65" endPosition="3" />
+    <scopeInfo nodeId="903391227141135947" fileName="OrthogonalLayoutTestPanel.java" startLine="56" startPosition="0" endLine="66" endPosition="0" />
     <scopeInfo nodeId="903391227141135543" fileName="OrthogonalLayoutTestPanel.java" startLine="99" startPosition="51" endLine="110" endPosition="9" />
     <scopeInfo nodeId="1532165762814296031" fileName="OrthogonalLayoutTestPanel.java" startLine="202" startPosition="46" endLine="213" endPosition="136">
       <varInfo nodeId="1532165762814295971" varName="edge" />
       <varInfo nodeId="1532165762814295968" varName="source" />
       <varInfo nodeId="1532165762814295969" varName="target" />
     </scopeInfo>
+    <scopeInfo nodeId="903391227141135792" fileName="OrthogonalLayoutTestPanel.java" startLine="217" startPosition="0" endLine="228" endPosition="0" />
     <scopeInfo nodeId="903391227141135853" fileName="OrthogonalLayoutTestPanel.java" startLine="229" startPosition="35" endLine="240" endPosition="47">
       <varInfo nodeId="903391227141135866" varName="c" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141135792" fileName="OrthogonalLayoutTestPanel.java" startLine="216" startPosition="0" endLine="228" endPosition="0" />
+    <scopeInfo nodeId="903391227141135538" fileName="OrthogonalLayoutTestPanel.java" startLine="99" startPosition="0" endLine="112" endPosition="0">
+      <varInfo nodeId="903391227141135541" varName="p0" />
+    </scopeInfo>
     <scopeInfo nodeId="1532165762814296030" fileName="OrthogonalLayoutTestPanel.java" startLine="201" startPosition="43" endLine="214" endPosition="5">
       <varInfo nodeId="1532165762814295973" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141135538" fileName="OrthogonalLayoutTestPanel.java" startLine="98" startPosition="51" endLine="112" endPosition="0">
-      <varInfo nodeId="903391227141135541" varName="p0" />
-    </scopeInfo>
-    <scopeInfo nodeId="903391227141135850" fileName="OrthogonalLayoutTestPanel.java" startLine="228" startPosition="0" endLine="242" endPosition="0" />
+    <scopeInfo nodeId="903391227141135850" fileName="OrthogonalLayoutTestPanel.java" startLine="229" startPosition="0" endLine="242" endPosition="0" />
     <scopeInfo nodeId="903391227141135605" fileName="OrthogonalLayoutTestPanel.java" startLine="120" startPosition="39" endLine="135" endPosition="21">
       <varInfo nodeId="903391227141135607" varName="button" />
       <varInfo nodeId="903391227141135613" varName="c" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141135602" fileName="OrthogonalLayoutTestPanel.java" startLine="119" startPosition="0" endLine="137" endPosition="0" />
+    <scopeInfo nodeId="903391227141135602" fileName="OrthogonalLayoutTestPanel.java" startLine="120" startPosition="0" endLine="137" endPosition="0" />
     <scopeInfo nodeId="1532165762814295989" fileName="OrthogonalLayoutTestPanel.java" startLine="195" startPosition="190" endLine="214" endPosition="5">
       <varInfo nodeId="1532165762814295972" varName="edgeLabelSizes" />
       <varInfo nodeId="1532165762814295966" varName="numNodeSizes" />
     </scopeInfo>
-    <scopeInfo nodeId="1532165762814295978" fileName="OrthogonalLayoutTestPanel.java" startLine="194" startPosition="0" endLine="216" endPosition="0">
+    <scopeInfo nodeId="1532165762814295978" fileName="OrthogonalLayoutTestPanel.java" startLine="195" startPosition="0" endLine="216" endPosition="0">
       <varInfo nodeId="1532165762814295977" varName="edgeSizes" />
       <varInfo nodeId="1532165762814295975" varName="g" />
       <varInfo nodeId="1532165762814295976" varName="nodeSizes" />
@@ -1464,19 +1464,19 @@
       <varInfo nodeId="903391227141135525" varName="button" />
       <varInfo nodeId="903391227141135469" varName="c" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141135434" fileName="OrthogonalLayoutTestPanel.java" startLine="82" startPosition="0" endLine="115" endPosition="0" />
+    <scopeInfo nodeId="903391227141135434" fileName="OrthogonalLayoutTestPanel.java" startLine="83" startPosition="0" endLine="115" endPosition="0" />
     <scopeInfo nodeId="903391227141135757" fileName="OrthogonalLayoutTestPanel.java" startLine="146" startPosition="30" endLine="180" endPosition="5">
       <varInfo nodeId="1532165762814291738" varName="edgeDimensions" />
       <varInfo nodeId="1532165762814291747" varName="g" />
       <varInfo nodeId="1532165762814291729" varName="nodeDimensions" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141135754" fileName="OrthogonalLayoutTestPanel.java" startLine="145" startPosition="0" endLine="182" endPosition="0" />
+    <scopeInfo nodeId="903391227141135754" fileName="OrthogonalLayoutTestPanel.java" startLine="146" startPosition="0" endLine="182" endPosition="0" />
     <scopeInfo nodeId="6160477238666740869" fileName="OrthogonalLayoutTestPanel.java" startLine="264" startPosition="29" endLine="302" endPosition="24">
       <varInfo nodeId="6160477238666743969" varName="button" />
       <varInfo nodeId="6160477238666741128" varName="c" />
       <varInfo nodeId="6160477238666740871" varName="group" />
     </scopeInfo>
-    <scopeInfo nodeId="6160477238666740866" fileName="OrthogonalLayoutTestPanel.java" startLine="263" startPosition="0" endLine="303" endPosition="5" />
+    <scopeInfo nodeId="6160477238666740866" fileName="OrthogonalLayoutTestPanel.java" startLine="264" startPosition="0" endLine="304" endPosition="0" />
     <unitInfo nodeId="1532165762814296056" fileName="OrthogonalLayoutTestPanel.java" startLine="205" startPosition="72" endLine="209" endPosition="7" unitName="visualization.OrthogonalLayoutTestPanel$3" />
     <unitInfo nodeId="903391227141136053" fileName="OrthogonalLayoutTestPanel.java" startLine="253" startPosition="35" endLine="257" endPosition="5" unitName="visualization.OrthogonalLayoutTestPanel$4" />
     <unitInfo nodeId="6160477238666744015" fileName="OrthogonalLayoutTestPanel.java" startLine="271" startPosition="35" endLine="275" endPosition="7" unitName="visualization.OrthogonalLayoutTestPanel$1" />

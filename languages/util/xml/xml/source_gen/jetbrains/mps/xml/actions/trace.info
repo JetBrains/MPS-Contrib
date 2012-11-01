@@ -105,21 +105,21 @@
     <nodeInfo nodeId="1183728199220" fileName="ElementUtil.java" startLine="79" startPosition="103" endLine="80" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1177867669727" fileName="ElementUtil.java" startLine="59" startPosition="10" endLine="61" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1183728199202" fileName="ElementUtil.java" startLine="75" startPosition="10" endLine="77" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1177614168858" fileName="ElementUtil.java" startLine="21" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getParentElementDeclaration#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/IScope;)Ljetbrains/mps/smodel/SNode;" />
     <nodeInfo nodeId="1183932228627" fileName="ElementUtil.java" startLine="27" startPosition="29" endLine="30" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="1183932198542" fileName="ElementUtil.java" startLine="31" startPosition="18" endLine="34" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="1183932198595" fileName="ElementUtil.java" startLine="41" startPosition="131" endLine="44" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="1177867586267" fileName="ElementUtil.java" startLine="55" startPosition="69" endLine="58" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="1186415811743" fileName="ElementUtil.java" startLine="71" startPosition="12" endLine="74" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="1177614168858" fileName="ElementUtil.java" startLine="20" startPosition="26" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getParentElementDeclaration#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/IScope;)Ljetbrains/mps/smodel/SNode;" />
     <nodeInfo nodeId="1183932198548" fileName="ElementUtil.java" startLine="34" startPosition="7" endLine="38" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="1183728199182" fileName="ElementUtil.java" startLine="68" startPosition="39" endLine="74" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="1183932198562" fileName="ElementUtil.java" startLine="38" startPosition="7" endLine="45" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="1177866657536" fileName="ElementUtil.java" startLine="53" startPosition="106" endLine="61" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="1183728199180" fileName="ElementUtil.java" startLine="67" startPosition="81" endLine="77" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1177865741913" fileName="ElementUtil.java" startLine="50" startPosition="0" endLine="64" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="findSchema#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/IScope;)Ljetbrains/mps/smodel/SNode;" />
+    <nodeInfo nodeId="1177865741913" fileName="ElementUtil.java" startLine="51" startPosition="0" endLine="64" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="findSchema#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/IScope;)Ljetbrains/mps/smodel/SNode;" />
     <nodeInfo nodeId="1183932198539" fileName="ElementUtil.java" startLine="30" startPosition="5" endLine="47" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
-    <nodeInfo nodeId="1183727811067" fileName="ElementUtil.java" startLine="64" startPosition="0" endLine="82" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getElementDeclarations#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/IScope;)Ljava/util/List;" />
-    <nodeInfo nodeId="1183932134424" fileName="ElementUtil.java" startLine="24" startPosition="0" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getParentElementDeclaration#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/IScope;Z)Ljetbrains/mps/smodel/SNode;" />
+    <nodeInfo nodeId="1183727811067" fileName="ElementUtil.java" startLine="65" startPosition="0" endLine="82" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getElementDeclarations#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/IScope;)Ljava/util/List;" />
+    <nodeInfo nodeId="1183932134424" fileName="ElementUtil.java" startLine="25" startPosition="0" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getParentElementDeclaration#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/IScope;Z)Ljetbrains/mps/smodel/SNode;" />
     <scopeInfo nodeId="1177614168860" fileName="ElementUtil.java" startLine="21" startPosition="77" endLine="22" endPosition="58" />
     <scopeInfo nodeId="1183932228628" fileName="ElementUtil.java" startLine="28" startPosition="25" endLine="29" endPosition="52" />
     <scopeInfo nodeId="1183932198546" fileName="ElementUtil.java" startLine="32" startPosition="34" endLine="33" endPosition="14" />
@@ -132,7 +132,7 @@
     <scopeInfo nodeId="1186415811744" fileName="ElementUtil.java" startLine="71" startPosition="14" endLine="73" endPosition="107">
       <varInfo nodeId="1197652346888" varName="elementDeclarations" />
     </scopeInfo>
-    <scopeInfo nodeId="1177614168858" fileName="ElementUtil.java" startLine="20" startPosition="26" endLine="24" endPosition="0">
+    <scopeInfo nodeId="1177614168858" fileName="ElementUtil.java" startLine="21" startPosition="0" endLine="24" endPosition="0">
       <varInfo nodeId="1177614202129" varName="node" />
       <varInfo nodeId="1183915036504" varName="scope" />
     </scopeInfo>
@@ -147,7 +147,7 @@
       <varInfo nodeId="1177866621783" varName="element" />
       <varInfo nodeId="1177866565236" varName="schema" />
     </scopeInfo>
-    <scopeInfo nodeId="1177865741913" fileName="ElementUtil.java" startLine="50" startPosition="0" endLine="64" endPosition="0">
+    <scopeInfo nodeId="1177865741913" fileName="ElementUtil.java" startLine="51" startPosition="0" endLine="64" endPosition="0">
       <varInfo nodeId="1177865752637" varName="node" />
       <varInfo nodeId="1198899985902" varName="scope" />
     </scopeInfo>
@@ -157,7 +157,7 @@
       <varInfo nodeId="1183728199210" varName="elementDeclarations" />
       <varInfo nodeId="1183727920468" varName="schema" />
     </scopeInfo>
-    <scopeInfo nodeId="1183727811067" fileName="ElementUtil.java" startLine="64" startPosition="0" endLine="82" endPosition="0">
+    <scopeInfo nodeId="1183727811067" fileName="ElementUtil.java" startLine="65" startPosition="0" endLine="82" endPosition="0">
       <varInfo nodeId="1183727874003" varName="elementDeclaration" />
       <varInfo nodeId="1183727900341" varName="node" />
       <varInfo nodeId="1186416059030" varName="scope" />
@@ -166,7 +166,7 @@
       <varInfo nodeId="1183932198536" varName="currentNode" />
       <varInfo nodeId="1183932198532" varName="elementDeclaration" />
     </scopeInfo>
-    <scopeInfo nodeId="1183932134424" fileName="ElementUtil.java" startLine="24" startPosition="0" endLine="50" endPosition="0">
+    <scopeInfo nodeId="1183932134424" fileName="ElementUtil.java" startLine="25" startPosition="0" endLine="50" endPosition="0">
       <varInfo nodeId="1183932202656" varName="includeThis" />
       <varInfo nodeId="1183932185552" varName="node" />
       <varInfo nodeId="1183932185554" varName="scope" />

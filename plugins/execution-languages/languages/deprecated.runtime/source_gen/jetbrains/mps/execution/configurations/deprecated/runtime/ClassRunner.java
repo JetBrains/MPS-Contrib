@@ -15,7 +15,6 @@ import jetbrains.mps.smodel.ModelAccess;
 import java.io.File;
 import java.io.IOException;
 
-
 /**
  * Use commands language for starting processes in mps
  */
