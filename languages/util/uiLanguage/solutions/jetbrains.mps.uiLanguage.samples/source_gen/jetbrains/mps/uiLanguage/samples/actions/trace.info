@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <root nodeId="1202743870023" modelId="r:00000000-0000-4000-0000-011c89590559(jetbrains.mps.uiLanguage.samples.actions)">
-    <nodeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="19" startPosition="43" endLine="20" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myThis" />
-    <nodeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="20" startPosition="30" endLine="21" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_gc1z77_a0" />
-    <nodeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="21" startPosition="42" endLine="22" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myLabel_gc1z77_a0a" />
-    <nodeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="22" startPosition="36" endLine="23" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_gc1z77_b0a" />
-    <nodeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="23" startPosition="41" endLine="24" endPosition="92" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myBindings" />
+    <nodeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="20" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myThis" />
+    <nodeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="21" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_gc1z77_a0" />
+    <nodeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="22" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myLabel_gc1z77_a0a" />
+    <nodeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="23" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_gc1z77_b0a" />
+    <nodeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="24" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myBindings" />
     <nodeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="33" startPosition="26" endLine="34" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="34" startPosition="23" endLine="35" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="35" startPosition="35" endLine="36" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -35,41 +35,41 @@
     <nodeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="89" startPosition="54" endLine="90" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="92" startPosition="7" endLine="93" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="93" startPosition="37" endLine="94" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="28" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="initialize#()V" />
-    <nodeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="58" startPosition="0" endLine="61" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="bind#()V" />
+    <nodeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="29" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="initialize#()V" />
+    <nodeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="59" startPosition="0" endLine="61" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="bind#()V" />
+    <nodeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="45" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getEvents#()Ljetbrains/mps/uiLanguage/runtime/events/Events;" />
     <nodeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="63" startPosition="49" endLine="66" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="44" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getEvents#()Ljetbrains/mps/uiLanguage/runtime/events/Events;" />
-    <nodeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="88" startPosition="54" endLine="92" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="actionPerformed#(Ljava/awt/event/ActionEvent;)V" />
-    <nodeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="48" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addNotify#()V" />
-    <nodeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="53" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="removeNotify#()V" />
+    <nodeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="89" startPosition="0" endLine="92" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="actionPerformed#(Ljava/awt/event/ActionEvent;)V" />
+    <nodeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="49" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addNotify#()V" />
+    <nodeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="54" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="removeNotify#()V" />
     <nodeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="62" startPosition="25" endLine="67" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="87" startPosition="44" endLine="92" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="24" startPosition="92" endLine="31" endPosition="4" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myEvents" />
-    <nodeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="77" startPosition="0" endLine="84" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_gc1z77_a0a#()Ljava/lang/Object;" />
-    <nodeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="61" startPosition="0" endLine="69" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="unbind#()V" />
-    <nodeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="69" startPosition="0" endLine="77" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_gc1z77_a0#()Ljava/lang/Object;" />
-    <nodeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="32" startPosition="0" endLine="43" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ActionsSample#()V" />
-    <nodeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="84" startPosition="0" endLine="96" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_gc1z77_b0a#()Ljava/lang/Object;" />
+    <nodeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="78" startPosition="0" endLine="84" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_gc1z77_a0a#()Ljava/lang/Object;" />
+    <nodeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="25" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myEvents" />
+    <nodeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="62" startPosition="0" endLine="69" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="unbind#()V" />
+    <nodeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="70" startPosition="0" endLine="77" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_gc1z77_a0#()Ljava/lang/Object;" />
+    <nodeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="33" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ActionsSample#()V" />
+    <nodeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="85" startPosition="0" endLine="96" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_gc1z77_b0a#()Ljava/lang/Object;" />
     <scopeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="26" startPosition="5" endLine="26" endPosition="5" />
     <scopeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="29" startPosition="30" endLine="29" endPosition="30" />
     <scopeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="59" startPosition="23" endLine="59" endPosition="23" />
     <scopeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="45" startPosition="29" endLine="46" endPosition="25" />
     <scopeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="64" startPosition="30" endLine="65" endPosition="25" />
     <scopeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="89" startPosition="54" endLine="90" endPosition="52" />
+    <scopeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="29" startPosition="0" endLine="31" endPosition="0" />
     <scopeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="49" startPosition="27" endLine="51" endPosition="16" />
     <scopeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="54" startPosition="30" endLine="56" endPosition="25" />
-    <scopeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="28" startPosition="0" endLine="31" endPosition="0" />
-    <scopeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="58" startPosition="0" endLine="61" endPosition="0" />
+    <scopeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="59" startPosition="0" endLine="61" endPosition="0" />
+    <scopeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="45" startPosition="0" endLine="48" endPosition="0" />
     <scopeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="63" startPosition="49" endLine="66" endPosition="7" />
-    <scopeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="44" startPosition="0" endLine="48" endPosition="0" />
+    <scopeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="89" startPosition="0" endLine="92" endPosition="0">
+      <varInfo nodeId="1202743870023" varName="event" />
+    </scopeInfo>
+    <scopeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="49" startPosition="0" endLine="53" endPosition="0" />
+    <scopeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="54" startPosition="0" endLine="58" endPosition="0" />
     <scopeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="78" startPosition="47" endLine="82" endPosition="21">
       <varInfo nodeId="1202743870023" varName="component" />
     </scopeInfo>
-    <scopeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="88" startPosition="54" endLine="92" endPosition="0">
-      <varInfo nodeId="1202743870023" varName="event" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="48" startPosition="0" endLine="53" endPosition="0" />
-    <scopeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="53" startPosition="0" endLine="58" endPosition="0" />
     <scopeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="62" startPosition="25" endLine="67" endPosition="5" />
     <scopeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="62" startPosition="25" endLine="67" endPosition="5">
       <varInfo nodeId="1202743870023" varName="binding" />
@@ -77,17 +77,17 @@
     <scopeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="70" startPosition="49" endLine="75" endPosition="21">
       <varInfo nodeId="1202743870023" varName="component" />
     </scopeInfo>
-    <scopeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="77" startPosition="0" endLine="84" endPosition="0" />
-    <scopeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="61" startPosition="0" endLine="69" endPosition="0" />
-    <scopeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="69" startPosition="0" endLine="77" endPosition="0" />
+    <scopeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="78" startPosition="0" endLine="84" endPosition="0" />
+    <scopeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="62" startPosition="0" endLine="69" endPosition="0" />
+    <scopeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="70" startPosition="0" endLine="77" endPosition="0" />
     <scopeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="33" startPosition="26" endLine="42" endPosition="31">
       <varInfo nodeId="1202743870023" varName="component" />
     </scopeInfo>
     <scopeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="85" startPosition="48" endLine="94" endPosition="21">
       <varInfo nodeId="1202743870023" varName="component" />
     </scopeInfo>
-    <scopeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="32" startPosition="0" endLine="43" endPosition="3" />
-    <scopeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="84" startPosition="0" endLine="96" endPosition="0" />
+    <scopeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="33" startPosition="0" endLine="44" endPosition="0" />
+    <scopeInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="85" startPosition="0" endLine="96" endPosition="0" />
     <unitInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="88" startPosition="36" endLine="92" endPosition="5" unitName="jetbrains.mps.uiLanguage.samples.actions.ActionsSample$2" />
     <unitInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="25" startPosition="32" endLine="31" endPosition="3" unitName="jetbrains.mps.uiLanguage.samples.actions.ActionsSample$1" />
     <unitInfo nodeId="1202743870023" fileName="ActionsSample.java" startLine="19" startPosition="0" endLine="102" endPosition="0" unitName="jetbrains.mps.uiLanguage.samples.actions.ActionsSample" />
@@ -95,12 +95,12 @@
   <root nodeId="1202748791358" modelId="r:00000000-0000-4000-0000-011c89590559(jetbrains.mps.uiLanguage.samples.actions)">
     <nodeInfo nodeId="1212423784965" fileName="ActionsSample.java" startLine="97" startPosition="26" endLine="98" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1212159169077" fileName="ActionsSample.java" startLine="98" startPosition="27" endLine="99" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1212159164807" fileName="ActionsSample.java" startLine="96" startPosition="0" endLine="101" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="abc#()V" />
+    <nodeInfo nodeId="1212159164807" fileName="ActionsSample.java" startLine="97" startPosition="0" endLine="101" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="abc#()V" />
     <scopeInfo nodeId="1212159164809" fileName="ActionsSample.java" startLine="97" startPosition="26" endLine="99" endPosition="48">
       <varInfo nodeId="1212423784966" varName="abcdefI" />
       <varInfo nodeId="1212159169078" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="1212159164807" fileName="ActionsSample.java" startLine="96" startPosition="0" endLine="101" endPosition="0" />
+    <scopeInfo nodeId="1212159164807" fileName="ActionsSample.java" startLine="97" startPosition="0" endLine="101" endPosition="0" />
   </root>
 </debugInfo>
 
