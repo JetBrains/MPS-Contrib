@@ -36,7 +36,7 @@ public class AddInitializer_Intention extends BaseIntention {
   }
 
   public SNodeReference getIntentionNodeReference() {
-    return new SNodePointer("r:ac74b4a0-605d-406a-a979-f3a86aea4f43(jetbrains.mps.uiLanguage.intentions@1_0)", "1204896171511");
+    return new SNodePointer("r:00000000-0000-4000-0000-011c89590551(jetbrains.mps.uiLanguage.intentions)", "1204896171511");
   }
 
   public String getDescription(final SNode node, final EditorContext editorContext) {
