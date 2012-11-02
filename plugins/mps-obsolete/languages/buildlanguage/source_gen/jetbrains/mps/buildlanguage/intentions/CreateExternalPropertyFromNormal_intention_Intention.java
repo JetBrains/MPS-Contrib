@@ -38,7 +38,7 @@ public class CreateExternalPropertyFromNormal_intention_Intention extends BaseIn
   }
 
   public SNodeReference getIntentionNodeReference() {
-    return new SNodePointer("r:c1099965-735e-400d-8a56-859e7cf98ba9(jetbrains.mps.buildlanguage.intentions@1_0)", "1219148733937");
+    return new SNodePointer("r:00000000-0000-4000-0000-011c895904c5(jetbrains.mps.buildlanguage.intentions)", "1219148733937");
   }
 
   public String getDescription(final SNode node, final EditorContext editorContext) {

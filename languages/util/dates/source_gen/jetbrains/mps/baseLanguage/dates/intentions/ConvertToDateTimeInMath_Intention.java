@@ -39,7 +39,7 @@ public class ConvertToDateTimeInMath_Intention extends BaseIntention {
   }
 
   public SNodeReference getIntentionNodeReference() {
-    return new SNodePointer("r:ab19d661-169a-4c9a-b052-335ab65ea6e0(jetbrains.mps.baseLanguage.dates.intentions@3_0)", "1238250377507");
+    return new SNodePointer("r:00000000-0000-4000-0000-011c895903d2(jetbrains.mps.baseLanguage.dates.intentions)", "1238250377507");
   }
 
   public String getDescription(final SNode node, final EditorContext editorContext) {

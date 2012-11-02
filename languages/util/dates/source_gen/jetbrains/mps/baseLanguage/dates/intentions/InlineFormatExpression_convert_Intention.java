@@ -38,7 +38,7 @@ public class InlineFormatExpression_convert_Intention extends BaseIntention {
   }
 
   public SNodeReference getIntentionNodeReference() {
-    return new SNodePointer("r:ab19d661-169a-4c9a-b052-335ab65ea6e0(jetbrains.mps.baseLanguage.dates.intentions@3_0)", "2192048487562794533");
+    return new SNodePointer("r:00000000-0000-4000-0000-011c895903d2(jetbrains.mps.baseLanguage.dates.intentions)", "2192048487562794533");
   }
 
   public String getDescription(final SNode node, final EditorContext editorContext) {

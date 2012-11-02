@@ -36,7 +36,7 @@ public class MakeContentListHorizontal_Intention extends BaseIntention {
   }
 
   public SNodeReference getIntentionNodeReference() {
-    return new SNodePointer("r:f87e0a8d-79fd-4e0e-98c1-f414e1473413(jetbrains.mps.xml.intentions@1_0)", "1195647309487");
+    return new SNodePointer("r:00000000-0000-4000-0000-011c89590587(jetbrains.mps.xml.intentions)", "1195647309487");
   }
 
   public String getDescription(final SNode node, final EditorContext editorContext) {
