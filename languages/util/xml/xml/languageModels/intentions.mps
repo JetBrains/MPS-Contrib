@@ -12,6 +12,7 @@
   <import index="tpjs" modelUID="r:00000000-0000-4000-0000-011c89590584(jetbrains.mps.xml.behavior)" version="-1" />
   <import index="9a8" modelUID="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.nodeEditor(MPS.Editor/jetbrains.mps.nodeEditor@java_stub)" version="-1" />
   <import index="cu2c" modelUID="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel(MPS.Core/jetbrains.mps.smodel@java_stub)" version="-1" />
+  <import index="srng" modelUID="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.openapi.editor(MPS.Editor/jetbrains.mps.openapi.editor@java_stub)" version="-1" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
@@ -21,43 +22,43 @@
   <import index="tpdg" modelUID="r:00000000-0000-4000-0000-011c895902a8(jetbrains.mps.lang.actions.structure)" version="23" implicit="yes" />
   <roots>
     <node type="tp3j.IntentionDeclaration" typeId="tp3j.1192794744107" id="1195647309117">
-      <property name="name" nameId="tpck.1169194664001" value="ReplaceNodeWithItsContent" />
       <property name="isErrorIntention" nameId="tp3j.2522969319638091385" value="false" />
+      <property name="name" nameId="tpck.1169194664001" value="ReplaceNodeWithItsContent" />
       <link role="forConcept" roleId="tp3j.2522969319638198290" targetNodeId="tpjo.1161371727643" resolveInfo="Content" />
     </node>
     <node type="tp3j.IntentionDeclaration" typeId="tp3j.1192794744107" id="1195647309487">
-      <property name="name" nameId="tpck.1169194664001" value="MakeContentListHorizontal" />
       <property name="isErrorIntention" nameId="tp3j.2522969319638091385" value="false" />
+      <property name="name" nameId="tpck.1169194664001" value="MakeContentListHorizontal" />
       <link role="forConcept" roleId="tp3j.2522969319638198290" targetNodeId="tpjo.1163629230879" resolveInfo="ContentList" />
     </node>
     <node type="tp3j.IntentionDeclaration" typeId="tp3j.1192794744107" id="1195647309592">
-      <property name="name" nameId="tpck.1169194664001" value="MakeElementEmpty" />
       <property name="isErrorIntention" nameId="tp3j.2522969319638091385" value="false" />
+      <property name="name" nameId="tpck.1169194664001" value="MakeElementEmpty" />
       <link role="forConcept" roleId="tp3j.2522969319638198290" targetNodeId="tpjo.1167523027466" resolveInfo="Element" />
     </node>
     <node type="tp3j.IntentionDeclaration" typeId="tp3j.1192794744107" id="1195647321928">
-      <property name="name" nameId="tpck.1169194664001" value="MakeElementHorizontal" />
       <property name="isErrorIntention" nameId="tp3j.2522969319638091385" value="false" />
+      <property name="name" nameId="tpck.1169194664001" value="MakeElementHorizontal" />
       <link role="forConcept" roleId="tp3j.2522969319638198290" targetNodeId="tpjo.1167523027466" resolveInfo="Element" />
     </node>
     <node type="tp3j.IntentionDeclaration" typeId="tp3j.1192794744107" id="1195647322084">
-      <property name="name" nameId="tpck.1169194664001" value="MakeElementVertical" />
       <property name="isErrorIntention" nameId="tp3j.2522969319638091385" value="false" />
+      <property name="name" nameId="tpck.1169194664001" value="MakeElementVertical" />
       <link role="forConcept" roleId="tp3j.2522969319638198290" targetNodeId="tpjo.1167523027466" resolveInfo="Element" />
     </node>
     <node type="tp3j.IntentionDeclaration" typeId="tp3j.1192794744107" id="1195647386224">
-      <property name="name" nameId="tpck.1169194664001" value="MakeContentListVertical" />
       <property name="isErrorIntention" nameId="tp3j.2522969319638091385" value="false" />
+      <property name="name" nameId="tpck.1169194664001" value="MakeContentListVertical" />
       <link role="forConcept" roleId="tp3j.2522969319638198290" targetNodeId="tpjo.1163629230879" resolveInfo="ContentList" />
     </node>
     <node type="tp3j.IntentionDeclaration" typeId="tp3j.1192794744107" id="1195647386462">
-      <property name="name" nameId="tpck.1169194664001" value="MakeElementNotEmpty" />
       <property name="isErrorIntention" nameId="tp3j.2522969319638091385" value="false" />
+      <property name="name" nameId="tpck.1169194664001" value="MakeElementNotEmpty" />
       <link role="forConcept" roleId="tp3j.2522969319638198290" targetNodeId="tpjo.1167523027466" resolveInfo="Element" />
     </node>
     <node type="tp3j.IntentionDeclaration" typeId="tp3j.1192794744107" id="1195665988476">
-      <property name="name" nameId="tpck.1169194664001" value="SurroundWithContentList" />
       <property name="isErrorIntention" nameId="tp3j.2522969319638091385" value="false" />
+      <property name="name" nameId="tpck.1169194664001" value="SurroundWithContentList" />
       <link role="forConcept" roleId="tp3j.2522969319638198290" targetNodeId="tpjo.1161371727643" resolveInfo="Content" />
     </node>
   </roots>
@@ -574,7 +575,7 @@
               <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1217626565817">
                 <node role="operand" roleId="tpee.1197027771414" type="tpcw.ConceptFunctionParameter_editorContext" typeId="tpcw.1194033889146" id="1195668428749" />
                 <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1217626565818">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="9a8.~EditorContext%dgetNodeEditorComponent()%cjetbrains%dmps%dnodeEditor%dEditorComponent" resolveInfo="getNodeEditorComponent" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="srng.~EditorContext%dgetEditorComponent()%cjetbrains%dmps%dopenapi%deditor%dEditorComponent" resolveInfo="getEditorComponent" />
                 </node>
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="278262362923447272">
