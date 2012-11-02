@@ -37,7 +37,7 @@ public class ReplaceNodeWithItsContent_Intention extends BaseIntention {
   }
 
   public SNodeReference getIntentionNodeReference() {
-    return new SNodePointer("r:e3b39e93-02e7-442a-b666-c29d949ba179(jetbrains.mps.xml.intentions@1_0)", "1195647309117");
+    return new SNodePointer("r:f87e0a8d-79fd-4e0e-98c1-f414e1473413(jetbrains.mps.xml.intentions@1_0)", "1195647309117");
   }
 
   public String getDescription(final SNode node, final EditorContext editorContext) {
