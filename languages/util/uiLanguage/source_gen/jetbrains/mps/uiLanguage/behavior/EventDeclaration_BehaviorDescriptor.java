@@ -12,10 +12,6 @@ public class EventDeclaration_BehaviorDescriptor extends BaseConcept_BehaviorDes
   public EventDeclaration_BehaviorDescriptor() {
   }
 
-  public SNode virtual_createOperation_1213877353000(SNode thisNode) {
-    return IMember_Behavior.virtual_createOperation_1213877353000(thisNode);
-  }
-
   public boolean virtual_canBeReferent_8179323502814657526(SNode thisNode, SNode referentConcept) {
     return IMember_Behavior.virtual_canBeReferent_8179323502814657526(thisNode, referentConcept);
   }
@@ -24,8 +20,8 @@ public class EventDeclaration_BehaviorDescriptor extends BaseConcept_BehaviorDes
     return IMember_Behavior.virtual_canOperationBeChild_4593153787954614840(thisNode, parentNode);
   }
 
-  public SNode virtual_getVisiblity_1213877352965(SNode thisNode) {
-    return IMember_Behavior.virtual_getVisiblity_1213877352965(thisNode);
+  public SNode virtual_createOperation_1213877353000(SNode thisNode) {
+    return IMember_Behavior.virtual_createOperation_1213877353000(thisNode);
   }
 
   public String virtual_getFqName_1213877404258(SNode thisNode) {
@@ -34,6 +30,10 @@ public class EventDeclaration_BehaviorDescriptor extends BaseConcept_BehaviorDes
 
   public SNode virtual_getOperationConcept_1213877352972(SNode thisNode) {
     return IMember_Behavior.virtual_getOperationConcept_1213877352972(thisNode);
+  }
+
+  public SNode virtual_getVisiblity_1213877352965(SNode thisNode) {
+    return IMember_Behavior.virtual_getVisiblity_1213877352965(thisNode);
   }
 
   @Override

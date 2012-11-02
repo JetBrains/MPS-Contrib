@@ -12,8 +12,8 @@ import java.util.List;
 import java.util.ArrayList;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.util.NameUtil;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
-import jetbrains.mps.baseLanguage.classifiers.behavior.IClassifier_Behavior;
 import jetbrains.mps.baseLanguage.classifiers.behavior.IClassifierPart_Behavior;
 
 public class ComponentDeclaration_Behavior {
@@ -89,7 +89,7 @@ public class ComponentDeclaration_Behavior {
       return SLinkOperations.getTarget(thisNode, "extendedComponent", false);
     }
     if (SLinkOperations.getTarget(thisNode, "root", true) != null) {
-      return IComponentInstance_Behavior.call_getExtendedComponent_1213877498080(SLinkOperations.getTarget(thisNode, "root", true));
+      return BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), SLinkOperations.getTarget(thisNode, "root", true), "virtual_getExtendedComponent_1213877498080", new Object[]{});
     }
     return null;
   }
@@ -110,9 +110,9 @@ public class ComponentDeclaration_Behavior {
 
   public static List<SNode> virtual_getMembers_1213877528124(SNode thisNode) {
     List<SNode> result = new ArrayList<SNode>();
-    ListSequence.fromList(result).addSequence(ListSequence.fromList(IClassifier_Behavior.callSuperNew_getMembers_1213877528124(thisNode, "jetbrains.mps.baseLanguage.classifiers.structure.IClassifier")));
+    ListSequence.fromList(result).addSequence(ListSequence.fromList(BehaviorReflection.invokeSuper((Class<List<SNode>>) ((Class) Object.class), thisNode, "jetbrains.mps.baseLanguage.classifiers.structure.IClassifier", "virtual_getMembers_1213877528124", new Object[]{})));
     if (ComponentDeclaration_Behavior.call_getExtendedComponent_1213877495528(thisNode) != null) {
-      ListSequence.fromList(result).addSequence(ListSequence.fromList(IClassifier_Behavior.call_getMembers_1213877528124(ComponentDeclaration_Behavior.call_getExtendedComponent_1213877495528(thisNode))));
+      ListSequence.fromList(result).addSequence(ListSequence.fromList(BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), ComponentDeclaration_Behavior.call_getExtendedComponent_1213877495528(thisNode), "virtual_getMembers_1213877528124", new Object[]{})));
     }
     SNode controller = ComponentDeclaration_Behavior.call_getController_1213877495364(thisNode);
     if (controller != null) {
