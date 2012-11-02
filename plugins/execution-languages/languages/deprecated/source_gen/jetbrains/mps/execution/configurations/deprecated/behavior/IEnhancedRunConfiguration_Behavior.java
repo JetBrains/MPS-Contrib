@@ -6,14 +6,11 @@ import jetbrains.mps.smodel.SNode;
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
-import jetbrains.mps.smodel.runtime.BehaviorDescriptor;
-import jetbrains.mps.smodel.language.ConceptRegistry;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.smodel.behaviour.BehaviorManager;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class IEnhancedRunConfiguration_Behavior {
-  private static Class[] PARAMETERS_314981645426570797 = {SNode.class};
-
   public static void init(SNode thisNode) {
   }
 
@@ -21,17 +18,13 @@ public class IEnhancedRunConfiguration_Behavior {
     return ListSequence.fromList(new LinkedList<SNode>());
   }
 
+  @Deprecated
   public static List<SNode> call_getAdditionalParameters_314981645426570797(SNode thisNode) {
-    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
-    return (List<SNode>) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.IEnhancedRunConfiguration"), "virtual_getAdditionalParameters_314981645426570797", PARAMETERS_314981645426570797, new Object[]{});
-  }
-
-  public static List<SNode> callSuperNew_getAdditionalParameters_314981645426570797(SNode thisNode, String callerConceptFqName) {
-    return (List<SNode>) BehaviorManager.getInstance().invokeSuperNew(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.IEnhancedRunConfiguration"), callerConceptFqName, "virtual_getAdditionalParameters_314981645426570797", PARAMETERS_314981645426570797, new Object[]{});
+    return BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), thisNode, "virtual_getAdditionalParameters_314981645426570797", new Object[]{});
   }
 
   @Deprecated
   public static List<SNode> callSuper_getAdditionalParameters_314981645426570797(SNode thisNode, String callerConceptFqName) {
-    return (List<SNode>) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.IEnhancedRunConfiguration"), callerConceptFqName, "virtual_getAdditionalParameters_314981645426570797", PARAMETERS_314981645426570797, new Object[]{});
+    return BehaviorManager.getInstance().invokeSuper((Class<List<SNode>>) ((Class) Object.class), SNodeOperations.cast(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.IEnhancedRunConfiguration"), callerConceptFqName, "virtual_getAdditionalParameters_314981645426570797", new Class[]{SNode.class}, new Object[]{});
   }
 }

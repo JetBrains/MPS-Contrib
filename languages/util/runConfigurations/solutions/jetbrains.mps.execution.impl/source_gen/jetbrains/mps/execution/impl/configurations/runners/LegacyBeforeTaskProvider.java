@@ -15,7 +15,6 @@ import java.lang.reflect.InvocationTargetException;
 import com.intellij.openapi.project.Project;
 import com.intellij.execution.BeforeRunTask;
 
-
 /**
  * Fixes MPS-11832 for old mps run configurations.
  */

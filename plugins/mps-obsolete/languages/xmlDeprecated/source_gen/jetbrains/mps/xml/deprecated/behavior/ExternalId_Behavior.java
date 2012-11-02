@@ -4,28 +4,21 @@ package jetbrains.mps.xml.deprecated.behavior;
 
 import jetbrains.mps.smodel.SNode;
 import org.jdom.DocType;
-import jetbrains.mps.smodel.runtime.BehaviorDescriptor;
-import jetbrains.mps.smodel.language.ConceptRegistry;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.smodel.behaviour.BehaviorManager;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class ExternalId_Behavior {
-  private static Class[] PARAMETERS_1234406619968 = {SNode.class, DocType.class};
-
   public static void init(SNode thisNode) {
   }
 
+  @Deprecated
   public static void call_createID_1234406619968(SNode thisNode, DocType doctype) {
-    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
-    descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xml.deprecated.structure.ExternalId"), "virtual_createID_1234406619968", PARAMETERS_1234406619968, new Object[]{doctype});
-  }
-
-  public static void callSuperNew_createID_1234406619968(SNode thisNode, String callerConceptFqName, DocType doctype) {
-    BehaviorManager.getInstance().invokeSuperNew(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xml.deprecated.structure.ExternalId"), callerConceptFqName, "virtual_createID_1234406619968", PARAMETERS_1234406619968, new Object[]{doctype});
+    BehaviorReflection.invokeVirtual(Void.class, thisNode, "virtual_createID_1234406619968", new Object[]{doctype});
   }
 
   @Deprecated
   public static void callSuper_createID_1234406619968(SNode thisNode, String callerConceptFqName, DocType doctype) {
-    BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xml.deprecated.structure.ExternalId"), callerConceptFqName, "virtual_createID_1234406619968", PARAMETERS_1234406619968, new Object[]{doctype});
+    BehaviorManager.getInstance().invokeSuper(Void.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xml.deprecated.structure.ExternalId"), callerConceptFqName, "virtual_createID_1234406619968", new Class[]{SNode.class, DocType.class}, new Object[]{doctype});
   }
 }

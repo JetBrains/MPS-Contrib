@@ -14,12 +14,12 @@ public class MultiLineString_BehaviorDescriptor extends PropertyValueExpression_
     return MultiLineString_Behavior.virtual_getActualValue_1213877472572(thisNode);
   }
 
-  public String virtual_toString_1213877472569(SNode thisNode) {
-    return MultiLineString_Behavior.virtual_toString_1213877472569(thisNode);
-  }
-
   public String virtual_getFqName_1213877404258(SNode thisNode) {
     return INamedConcept_Behavior.virtual_getFqName_1213877404258(thisNode);
+  }
+
+  public String virtual_toString_1213877472569(SNode thisNode) {
+    return MultiLineString_Behavior.virtual_toString_1213877472569(thisNode);
   }
 
   @Override

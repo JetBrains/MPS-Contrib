@@ -7,7 +7,6 @@ import jetbrains.mps.execution.api.commands.DefaultProcessHandler;
 import com.intellij.execution.ui.ConsoleView;
 import jetbrains.mps.execution.api.configurations.ConsoleProcessListener;
 
-
 /**
  * use j.m.execution.api.commands.DefaultProcessHandler
  */

@@ -9,7 +9,7 @@ import jetbrains.mps.smodel.SNodePointer;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.baseLanguage.dates.behavior.MathDateTimeOperation_Behavior;
-import jetbrains.mps.lang.core.behavior.BaseConcept_Behavior;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.action.SNodeFactoryOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
@@ -44,8 +44,8 @@ public class ConvertToDateTimeInMath_Intention extends BaseIntention {
 
   public String getDescription(final SNode node, final EditorContext editorContext) {
     return "Convert " + '\'' + (MathDateTimeOperation_Behavior.call_needLeftConvert_1238250704510(node) ?
-      BaseConcept_Behavior.call_getPresentation_1213877396640(SLinkOperations.getTarget(node, "leftExpression", true)) :
-      BaseConcept_Behavior.call_getPresentation_1213877396640(SLinkOperations.getTarget(node, "rightExpression", true)) + '\'' + " to Datetime"
+      BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(node, "leftExpression", true), "virtual_getPresentation_1213877396640", new Object[]{}) :
+      BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(node, "rightExpression", true), "virtual_getPresentation_1213877396640", new Object[]{}) + '\'' + " to Datetime"
     );
   }
 

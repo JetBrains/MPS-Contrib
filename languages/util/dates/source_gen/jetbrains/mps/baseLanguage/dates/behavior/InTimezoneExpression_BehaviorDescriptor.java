@@ -10,12 +10,12 @@ public class InTimezoneExpression_BehaviorDescriptor extends Expression_Behavior
   public InTimezoneExpression_BehaviorDescriptor() {
   }
 
-  public SNode virtual_deriveType_4555537781928374706(SNode thisNode, SNode expression, SNode link) {
-    return InTimezoneExpression_Behavior.virtual_deriveType_4555537781928374706(thisNode, expression, link);
-  }
-
   public SNode virtual_deriveType_1213877435747(SNode thisNode, SNode expression) {
     return InTimezoneExpression_Behavior.virtual_deriveType_1213877435747(thisNode, expression);
+  }
+
+  public SNode virtual_deriveType_4555537781928374706(SNode thisNode, SNode expression, SNode link) {
+    return InTimezoneExpression_Behavior.virtual_deriveType_4555537781928374706(thisNode, expression, link);
   }
 
   @Override

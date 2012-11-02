@@ -5,6 +5,7 @@ package jetbrains.mps.buildlanguage.behavior;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 
 public class Enum_Behavior {
   public static void init(SNode thisNode) {
@@ -14,7 +15,7 @@ public class Enum_Behavior {
     StringBuffer sb = new StringBuffer();
     sb.append("{");
     for (int i = 0; i < ListSequence.fromList(SLinkOperations.getTargets(thisNode, "constants", true)).count(); i++) {
-      sb.append(PropertyValueExpression_Behavior.call_toString_1213877472569(ListSequence.fromList(SLinkOperations.getTargets(thisNode, "constants", true)).getElement(i)));
+      sb.append(BehaviorReflection.invokeVirtual(String.class, ListSequence.fromList(SLinkOperations.getTargets(thisNode, "constants", true)).getElement(i), "virtual_toString_1213877472569", new Object[]{}));
       if (i < ListSequence.fromList(SLinkOperations.getTargets(thisNode, "constants", true)).count() - 1) {
         sb.append(", ");
       }
@@ -25,7 +26,7 @@ public class Enum_Behavior {
 
   public static boolean call_inEnum_1213877413964(SNode thisNode, SNode nodeToCheck) {
     for (SNode constant : ListSequence.fromList(SLinkOperations.getTargets(thisNode, "constants", true))) {
-      if (PropertyValueExpression_Behavior.call_toString_1213877472569(constant).equals(PropertyValueExpression_Behavior.call_toString_1213877472569(nodeToCheck))) {
+      if (BehaviorReflection.invokeVirtual(String.class, constant, "virtual_toString_1213877472569", new Object[]{}).equals(BehaviorReflection.invokeVirtual(String.class, nodeToCheck, "virtual_toString_1213877472569", new Object[]{}))) {
         return true;
       }
     }

@@ -6,6 +6,7 @@ import jetbrains.mps.smodel.SNode;
 import java.util.List;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import java.util.Set;
 
 public class TypeExpressionList_Behavior {
@@ -15,14 +16,14 @@ public class TypeExpressionList_Behavior {
   public static void call_checkAttributes_1213877199074(SNode thisNode, List<SNode> attributeDeclarations) {
     List<SNode> typeExpressions = SLinkOperations.getTargets(thisNode, "typeExpression", true);
     for (SNode typeExpression : ListSequence.fromList(typeExpressions)) {
-      TypeExpression_Behavior.call_checkAttributes_1213877382373(typeExpression, attributeDeclarations);
+      BehaviorReflection.invokeVirtual(Void.class, typeExpression, "virtual_checkAttributes_1213877382373", new Object[]{attributeDeclarations});
     }
   }
 
   public static void call_checkElements_1213877199094(SNode thisNode, Set<SNode> elementDeclarations) {
     List<SNode> typeExpressions = SLinkOperations.getTargets(thisNode, "typeExpression", true);
     for (SNode typeExpression : ListSequence.fromList(typeExpressions)) {
-      TypeExpression_Behavior.call_checkElements_1213877382378(typeExpression, elementDeclarations);
+      BehaviorReflection.invokeVirtual(Void.class, typeExpression, "virtual_checkElements_1213877382378", new Object[]{elementDeclarations});
     }
   }
 
@@ -30,7 +31,7 @@ public class TypeExpressionList_Behavior {
     boolean empty = true;
     List<SNode> typeExpressions = SLinkOperations.getTargets(thisNode, "typeExpression", true);
     for (SNode typeExpression : ListSequence.fromList(typeExpressions)) {
-      if (TypeExpression_Behavior.call_hasElementReferences_1213877382383(typeExpression)) {
+      if (BehaviorReflection.invokeVirtual(Boolean.TYPE, typeExpression, "virtual_hasElementReferences_1213877382383", new Object[]{})) {
         empty = false;
         break;
       }
@@ -42,7 +43,7 @@ public class TypeExpressionList_Behavior {
     boolean mixed = false;
     List<SNode> typeExpressions = SLinkOperations.getTargets(thisNode, "typeExpression", true);
     for (SNode typeExpression : ListSequence.fromList(typeExpressions)) {
-      mixed = TypeExpression_Behavior.call_isMixed_1213877382388(typeExpression);
+      mixed = BehaviorReflection.invokeVirtual(Boolean.TYPE, typeExpression, "virtual_isMixed_1213877382388", new Object[]{});
       if (mixed) {
         break;
       }

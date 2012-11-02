@@ -11,6 +11,6 @@ public class GDocument_Behavior {
   }
 
   public static String virtual_getUnitName_5067982036267369911(SNode thisNode) {
-    return SNodeOperations.getModel(thisNode).getLongName() + "." + SPropertyOperations.getString(thisNode, "name") + "$" + SPropertyOperations.getString(thisNode, "extension");
+    return SNodeOperations.getModel(thisNode).getLongName() + "." + SPropertyOperations.getString(thisNode, "name").replace(".", "$") + "$" + SPropertyOperations.getString(thisNode, "extension").replace(".", "$");
   }
 }

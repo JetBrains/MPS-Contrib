@@ -14,12 +14,12 @@ public class StringLiteral_BehaviorDescriptor extends PropertyValueExpression_Be
     return StringLiteral_Behavior.virtual_getActualValue_1213877472572(thisNode);
   }
 
-  public String virtual_toString_1213877472569(SNode thisNode) {
-    return StringLiteral_Behavior.virtual_toString_1213877472569(thisNode);
-  }
-
   public String virtual_getFqName_1213877404258(SNode thisNode) {
     return INamedConcept_Behavior.virtual_getFqName_1213877404258(thisNode);
+  }
+
+  public String virtual_toString_1213877472569(SNode thisNode) {
+    return StringLiteral_Behavior.virtual_toString_1213877472569(thisNode);
   }
 
   @Override

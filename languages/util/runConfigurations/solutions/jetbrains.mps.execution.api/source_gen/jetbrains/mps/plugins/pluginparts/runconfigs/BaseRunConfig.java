@@ -9,7 +9,6 @@ import com.intellij.openapi.project.Project;
 import com.intellij.execution.configurations.ConfigurationFactory;
 import com.intellij.execution.executors.DefaultRunExecutor;
 
-
 /**
  * runtime of old run configurations; unsupported; to be removed 6 months ago; use new configurations
  */

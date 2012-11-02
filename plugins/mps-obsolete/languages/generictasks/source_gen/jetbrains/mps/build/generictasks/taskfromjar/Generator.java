@@ -22,7 +22,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.internal.collections.runtime.ISelector;
 import jetbrains.mps.build.generictasks.behavior.AttributeDeclaration_Behavior;
-import jetbrains.mps.buildlanguage.behavior.PropertyValueExpression_Behavior;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import java.io.File;
 import org.apache.tools.ant.types.Reference;
 import jetbrains.mps.smodel.SModelUtil_new;
@@ -253,7 +253,7 @@ public class Generator {
     private void updateEnum(SNode sEnum, String[] enumValues) {
       Set<String> set = SetSequence.fromSetWithValues(new HashSet(), ListSequence.fromList(SLinkOperations.getTargets(sEnum, "constants", true)).select(new ISelector<SNode, String>() {
         public String select(SNode it) {
-          return PropertyValueExpression_Behavior.call_toString_1213877472569(it);
+          return BehaviorReflection.invokeVirtual(String.class, it, "virtual_toString_1213877472569", new Object[]{});
         }
       }));
       for (String str : enumValues) {

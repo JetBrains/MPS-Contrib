@@ -19,7 +19,8 @@ import jetbrains.mps.smodel.runtime.ReferenceConstraintsContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.build.generictasks.behavior.TaskCall_Behavior;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.build.generictasks.behavior.ITaskDeclaration_Behavior;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
+import java.util.List;
 
 public class Attribute_Constraints extends BaseConstraintsDescriptor {
   private static SNodePointer breakingNode_oyfip5_a0a1a0a0a4a0b0a1a0 = new SNodePointer("r:71eee63a-b16f-40f8-920d-8fd0fe7dc8a1(jetbrains.mps.build.generictasks.constraints)", "353793545802644407");
@@ -65,7 +66,7 @@ public class Attribute_Constraints extends BaseConstraintsDescriptor {
                 if (!(SNodeOperations.isInstanceOf(node, "jetbrains.mps.build.generictasks.structure.AttributeDeclaration"))) {
                   return false;
                 }
-                return ListSequence.fromList(ITaskDeclaration_Behavior.call_getAttributesDeclarations_1190349257898147625(SLinkOperations.getTarget(taskCall, "declaration", false))).contains(SNodeOperations.cast(node, "jetbrains.mps.build.generictasks.structure.AttributeDeclaration"));
+                return ListSequence.fromList(BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), SLinkOperations.getTarget(taskCall, "declaration", false), "virtual_getAttributesDeclarations_1190349257898147625", new Object[]{})).contains(SNodeOperations.cast(node, "jetbrains.mps.build.generictasks.structure.AttributeDeclaration"));
               }
             };
           }

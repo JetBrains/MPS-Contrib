@@ -10,12 +10,12 @@ public class PredefinedDateFormat_BehaviorDescriptor extends BaseConcept_Behavio
   public PredefinedDateFormat_BehaviorDescriptor() {
   }
 
-  public String virtual_getPresentation_1213877396640(SNode thisNode) {
-    return PredefinedDateFormat_Behavior.virtual_getPresentation_1213877396640(thisNode);
-  }
-
   public String virtual_getFqName_1213877404258(SNode thisNode) {
     return INamedConcept_Behavior.virtual_getFqName_1213877404258(thisNode);
+  }
+
+  public String virtual_getPresentation_1213877396640(SNode thisNode) {
+    return PredefinedDateFormat_Behavior.virtual_getPresentation_1213877396640(thisNode);
   }
 
   @Override

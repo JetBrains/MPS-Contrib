@@ -18,16 +18,14 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.execution.configurations.deprecated.behavior.RunConfigurationTypeDeclaration_Behavior;
 import jetbrains.mps.execution.configurations.deprecated.generator.util.VariableNameUtil;
 import jetbrains.mps.util.NodeNameUtil;
-import jetbrains.mps.lang.core.behavior.INamedConcept_Behavior;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptPropertyOperations;
 import jetbrains.mps.lang.plugin.behavior.ActionDeclaration_Behavior;
 import jetbrains.mps.generator.template.ReferenceMacroContext;
 import jetbrains.mps.typesystem.inference.TypeChecker;
 import jetbrains.mps.lang.typesystem.runtime.HUtil;
-import jetbrains.mps.execution.configurations.deprecated.behavior.BaseCreatorTarget_Behavior;
 import jetbrains.mps.generator.template.IfMacroContext;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
-import jetbrains.mps.lang.plugin.behavior.ActionParameter_Behavior;
 import jetbrains.mps.generator.template.TemplateQueryContext;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 import jetbrains.mps.generator.template.MappingScriptContext;
@@ -167,7 +165,7 @@ public class QueriesGenerated {
     if ((statement == null)) {
       return _context.getTemplateValue();
     }
-    return NodeNameUtil.getNamespace(INamedConcept_Behavior.call_getFqName_1213877404258(SLinkOperations.getTarget(statement, "runConfig", false))) + "." + RunConfigurationDeclaration_Behavior.call_getGeneratedFactoryName_314981645426570449(SLinkOperations.getTarget(statement, "runConfig", false));
+    return NodeNameUtil.getNamespace(BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(statement, "runConfig", false), "virtual_getFqName_1213877404258", new Object[]{})) + "." + RunConfigurationDeclaration_Behavior.call_getGeneratedFactoryName_314981645426570449(SLinkOperations.getTarget(statement, "runConfig", false));
   }
 
   public static Object propertyMacro_GetPropertyValue_314981645427226342(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -187,7 +185,7 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_314981645427226903(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return NodeNameUtil.getNamespace(INamedConcept_Behavior.call_getFqName_1213877404258(SLinkOperations.getTarget(_context.getNode(), "runConfig", false))) + "." + RunConfigurationDeclaration_Behavior.call_getGeneratedFactoryName_314981645426570449(SLinkOperations.getTarget(_context.getNode(), "runConfig", false));
+    return NodeNameUtil.getNamespace(BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(_context.getNode(), "runConfig", false), "virtual_getFqName_1213877404258", new Object[]{})) + "." + RunConfigurationDeclaration_Behavior.call_getGeneratedFactoryName_314981645426570449(SLinkOperations.getTarget(_context.getNode(), "runConfig", false));
   }
 
   public static Object propertyMacro_GetPropertyValue_314981645427227163(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -296,7 +294,7 @@ public class QueriesGenerated {
   }
 
   public static Object referenceMacro_GetReferent_314981645427225636(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return SLinkOperations.getTarget(RunConfigurationDeclaration_Behavior.call_getStateType_314981645426570519(_context.getNode()), "classifier", false);
+    return SLinkOperations.getTarget(BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), _context.getNode(), "virtual_getStateType_314981645426570519", new Object[]{}), "classifier", false);
   }
 
   public static Object referenceMacro_GetReferent_314981645427226102(final IOperationContext operationContext, final ReferenceMacroContext _context) {
@@ -314,7 +312,7 @@ public class QueriesGenerated {
   }
 
   public static Object referenceMacro_GetReferent_314981645427226266(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return BaseCreatorTarget_Behavior.call_getParameter_314981645426570613(SLinkOperations.getTarget(_context.getNode(), "target", true));
+    return BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), SLinkOperations.getTarget(_context.getNode(), "target", true), "virtual_getParameter_314981645426570613", new Object[]{});
   }
 
   public static Object referenceMacro_GetReferent_314981645427226286(final IOperationContext operationContext, final ReferenceMacroContext _context) {
@@ -466,7 +464,7 @@ public class QueriesGenerated {
   }
 
   public static boolean ifMacro_Condition_314981645427226275(final IOperationContext operationContext, final IfMacroContext _context) {
-    return (BaseCreatorTarget_Behavior.call_getParameter_314981645426570613(SLinkOperations.getTarget(_context.getNode(), "target", true)) != null);
+    return (BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), SLinkOperations.getTarget(_context.getNode(), "target", true), "virtual_getParameter_314981645426570613", new Object[]{}) != null);
   }
 
   public static boolean ifMacro_Condition_314981645427226760(final IOperationContext operationContext, final IfMacroContext _context) {
@@ -538,7 +536,7 @@ public class QueriesGenerated {
   }
 
   public static SNode sourceNodeQuery_314981645427225442(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return ActionParameter_Behavior.call_getType_1171743928471337193(_context.getNode());
+    return BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), _context.getNode(), "virtual_getType_1171743928471337193", new Object[]{});
   }
 
   public static SNode sourceNodeQuery_314981645427225494(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {

@@ -10,7 +10,8 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.xml.behavior.Content_Behavior;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
+import java.util.List;
 
 public class ReplaceNodeWithItsContent_Intention extends BaseIntention {
   public ReplaceNodeWithItsContent_Intention() {
@@ -52,7 +53,7 @@ public class ReplaceNodeWithItsContent_Intention extends BaseIntention {
   }
 
   private boolean isApplicableToNode(final SNode node, final EditorContext editorContext) {
-    return SNodeOperations.isInstanceOf(SNodeOperations.getParent(node), "jetbrains.mps.xml.structure.ContentList") && ListSequence.fromList(Content_Behavior.call_getSubcontents_1213877224308(node)).isNotEmpty();
+    return SNodeOperations.isInstanceOf(SNodeOperations.getParent(node), "jetbrains.mps.xml.structure.ContentList") && ListSequence.fromList(BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), node, "virtual_getSubcontents_1213877224308", new Object[]{})).isNotEmpty();
   }
 
   public boolean isAvailableInChildNodes() {
@@ -61,7 +62,7 @@ public class ReplaceNodeWithItsContent_Intention extends BaseIntention {
 
   public void execute(final SNode node, final EditorContext editorContext) {
     SNode s = node;
-    for (SNode subContent : ListSequence.fromList(Content_Behavior.call_getSubcontents_1213877224308(node))) {
+    for (SNode subContent : ListSequence.fromList(BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), node, "virtual_getSubcontents_1213877224308", new Object[]{}))) {
       SNodeOperations.insertNextSiblingChild(s, subContent);
       s = subContent;
     }

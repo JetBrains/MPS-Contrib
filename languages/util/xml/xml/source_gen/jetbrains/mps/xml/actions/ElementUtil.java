@@ -7,7 +7,7 @@ import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.xml.behavior.XmlRoot_Behavior;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import java.util.List;
 import java.util.Set;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
@@ -54,7 +54,7 @@ public class ElementUtil {
     if ((element == null)) {
       SNode containingRoot = SNodeOperations.getContainingRoot(node);
       if (SNodeOperations.isInstanceOf(containingRoot, "jetbrains.mps.xml.structure.XmlRoot")) {
-        schema = XmlRoot_Behavior.call_getSchema_1213877420378(SNodeOperations.cast(containingRoot, "jetbrains.mps.xml.structure.XmlRoot"), scope);
+        schema = BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), SNodeOperations.cast(containingRoot, "jetbrains.mps.xml.structure.XmlRoot"), "virtual_getSchema_1213877420378", new Object[]{scope});
       }
     } else {
       schema = SNodeOperations.getAncestor(SLinkOperations.getTarget(element, "elementDeclaration", false), "jetbrains.mps.xmlSchema.structure.Schema", false, false);

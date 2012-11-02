@@ -11,7 +11,6 @@ import jetbrains.mps.smodel.MPSModuleRepository;
 import jetbrains.mps.project.ModuleId;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 
-
 /**
  * ITestable instances only specify whether they need mps start or not; wrappers provide classpath for them
  */

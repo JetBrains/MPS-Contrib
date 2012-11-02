@@ -16,19 +16,19 @@
     <nodeInfo nodeId="1207144147936" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="61" startPosition="76" endLine="62" endPosition="136" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1207144152381" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="62" startPosition="136" endLine="63" endPosition="127" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1207144188992" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="63" startPosition="127" endLine="64" endPosition="129" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="14" startPosition="72" endLine="16" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ConvertDateTimePlusToPlus_Intention#()V" />
+    <nodeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="15" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ConvertDateTimePlusToPlus_Intention#()V" />
+    <nodeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="18" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="22" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPresentation#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="26" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPersistentStateKey#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="30" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLanguageFqName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="34" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getType#()Ljetbrains/mps/intentions/IntentionType;" />
+    <nodeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="38" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getIntentionNodeReference#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+    <nodeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="42" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
     <nodeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="46" startPosition="84" endLine="49" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="17" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="21" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPresentation#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="25" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPersistentStateKey#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="29" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLanguageFqName#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="33" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getType#()Ljetbrains/mps/intentions/IntentionType;" />
-    <nodeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="37" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getIntentionNodeReference#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
-    <nodeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="41" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
-    <nodeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="52" startPosition="0" endLine="56" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableToNode#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
-    <nodeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="56" startPosition="0" endLine="60" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
-    <nodeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="60" startPosition="0" endLine="66" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
-    <nodeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="45" startPosition="0" endLine="52" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicable#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+    <nodeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="53" startPosition="0" endLine="56" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableToNode#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+    <nodeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="57" startPosition="0" endLine="60" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
+    <nodeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="61" startPosition="0" endLine="66" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+    <nodeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="46" startPosition="0" endLine="52" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicable#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
     <scopeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="15" startPosition="48" endLine="15" endPosition="48" />
     <scopeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="18" startPosition="30" endLine="19" endPosition="84" />
     <scopeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="22" startPosition="35" endLine="23" endPosition="39" />
@@ -40,31 +40,31 @@
     <scopeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="47" startPosition="53" endLine="48" endPosition="19" />
     <scopeInfo nodeId="1207144109318" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="53" startPosition="91" endLine="54" endPosition="16" />
     <scopeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="57" startPosition="44" endLine="58" endPosition="17" />
-    <scopeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="14" startPosition="72" endLine="16" endPosition="3" />
+    <scopeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="15" startPosition="0" endLine="17" endPosition="0" />
+    <scopeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="18" startPosition="0" endLine="21" endPosition="0" />
+    <scopeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="22" startPosition="0" endLine="25" endPosition="0" />
+    <scopeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="26" startPosition="0" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="30" startPosition="0" endLine="33" endPosition="0" />
+    <scopeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="34" startPosition="0" endLine="37" endPosition="0" />
+    <scopeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="38" startPosition="0" endLine="41" endPosition="0" />
+    <scopeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="42" startPosition="0" endLine="45" endPosition="0">
+      <varInfo nodeId="1207144041354" varName="editorContext" />
+      <varInfo nodeId="1207144041354" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="53" startPosition="0" endLine="56" endPosition="0">
+      <varInfo nodeId="1207144041354" varName="editorContext" />
+      <varInfo nodeId="1207144041354" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="57" startPosition="0" endLine="60" endPosition="0" />
     <scopeInfo nodeId="1207144041358" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="61" startPosition="76" endLine="64" endPosition="129">
       <varInfo nodeId="1207144147937" varName="plusPeriodOperation" />
     </scopeInfo>
-    <scopeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="17" startPosition="0" endLine="21" endPosition="0" />
-    <scopeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="21" startPosition="0" endLine="25" endPosition="0" />
-    <scopeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="25" startPosition="0" endLine="29" endPosition="0" />
-    <scopeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="29" startPosition="0" endLine="33" endPosition="0" />
-    <scopeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="33" startPosition="0" endLine="37" endPosition="0" />
-    <scopeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="37" startPosition="0" endLine="41" endPosition="0" />
-    <scopeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="41" startPosition="0" endLine="45" endPosition="0">
-      <varInfo nodeId="1207144041354" varName="editorContext" />
-      <varInfo nodeId="1207144041354" varName="node" />
-    </scopeInfo>
     <scopeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="46" startPosition="84" endLine="50" endPosition="16" />
-    <scopeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="52" startPosition="0" endLine="56" endPosition="0">
+    <scopeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="61" startPosition="0" endLine="66" endPosition="0">
       <varInfo nodeId="1207144041354" varName="editorContext" />
       <varInfo nodeId="1207144041354" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="56" startPosition="0" endLine="60" endPosition="0" />
-    <scopeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="60" startPosition="0" endLine="66" endPosition="0">
-      <varInfo nodeId="1207144041354" varName="editorContext" />
-      <varInfo nodeId="1207144041354" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="45" startPosition="0" endLine="52" endPosition="0">
+    <scopeInfo nodeId="1207144041354" fileName="ConvertDateTimePlusToPlus_Intention.java" startLine="46" startPosition="0" endLine="52" endPosition="0">
       <varInfo nodeId="1207144041354" varName="editorContext" />
       <varInfo nodeId="1207144041354" varName="node" />
     </scopeInfo>
@@ -85,19 +85,19 @@
     <nodeInfo nodeId="1207223139980" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="61" startPosition="76" endLine="62" endPosition="137" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1207223139986" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="62" startPosition="137" endLine="63" endPosition="127" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1207223139994" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="63" startPosition="127" endLine="64" endPosition="129" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="14" startPosition="74" endLine="16" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ConvertDateTimeMinusToMinus_Intention#()V" />
+    <nodeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="15" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ConvertDateTimeMinusToMinus_Intention#()V" />
+    <nodeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="18" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="22" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPresentation#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="26" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPersistentStateKey#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="30" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLanguageFqName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="34" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getType#()Ljetbrains/mps/intentions/IntentionType;" />
+    <nodeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="38" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getIntentionNodeReference#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+    <nodeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="42" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
     <nodeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="46" startPosition="84" endLine="49" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="17" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="21" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPresentation#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="25" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPersistentStateKey#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="29" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLanguageFqName#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="33" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getType#()Ljetbrains/mps/intentions/IntentionType;" />
-    <nodeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="37" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getIntentionNodeReference#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
-    <nodeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="41" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
-    <nodeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="52" startPosition="0" endLine="56" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableToNode#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
-    <nodeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="56" startPosition="0" endLine="60" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
-    <nodeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="60" startPosition="0" endLine="66" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
-    <nodeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="45" startPosition="0" endLine="52" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicable#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+    <nodeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="53" startPosition="0" endLine="56" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableToNode#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+    <nodeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="57" startPosition="0" endLine="60" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
+    <nodeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="61" startPosition="0" endLine="66" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+    <nodeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="46" startPosition="0" endLine="52" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicable#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
     <scopeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="15" startPosition="50" endLine="15" endPosition="50" />
     <scopeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="18" startPosition="30" endLine="19" endPosition="85" />
     <scopeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="22" startPosition="35" endLine="23" endPosition="41" />
@@ -109,31 +109,31 @@
     <scopeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="47" startPosition="53" endLine="48" endPosition="19" />
     <scopeInfo nodeId="1207223122757" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="53" startPosition="91" endLine="54" endPosition="16" />
     <scopeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="57" startPosition="44" endLine="58" endPosition="17" />
-    <scopeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="14" startPosition="74" endLine="16" endPosition="3" />
+    <scopeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="15" startPosition="0" endLine="17" endPosition="0" />
+    <scopeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="18" startPosition="0" endLine="21" endPosition="0" />
+    <scopeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="22" startPosition="0" endLine="25" endPosition="0" />
+    <scopeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="26" startPosition="0" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="30" startPosition="0" endLine="33" endPosition="0" />
+    <scopeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="34" startPosition="0" endLine="37" endPosition="0" />
+    <scopeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="38" startPosition="0" endLine="41" endPosition="0" />
+    <scopeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="42" startPosition="0" endLine="45" endPosition="0">
+      <varInfo nodeId="1207223065533" varName="editorContext" />
+      <varInfo nodeId="1207223065533" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="53" startPosition="0" endLine="56" endPosition="0">
+      <varInfo nodeId="1207223065533" varName="editorContext" />
+      <varInfo nodeId="1207223065533" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="57" startPosition="0" endLine="60" endPosition="0" />
     <scopeInfo nodeId="1207223065537" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="61" startPosition="76" endLine="64" endPosition="129">
       <varInfo nodeId="1207223139981" varName="plusPeriodOperation" />
     </scopeInfo>
-    <scopeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="17" startPosition="0" endLine="21" endPosition="0" />
-    <scopeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="21" startPosition="0" endLine="25" endPosition="0" />
-    <scopeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="25" startPosition="0" endLine="29" endPosition="0" />
-    <scopeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="29" startPosition="0" endLine="33" endPosition="0" />
-    <scopeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="33" startPosition="0" endLine="37" endPosition="0" />
-    <scopeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="37" startPosition="0" endLine="41" endPosition="0" />
-    <scopeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="41" startPosition="0" endLine="45" endPosition="0">
-      <varInfo nodeId="1207223065533" varName="editorContext" />
-      <varInfo nodeId="1207223065533" varName="node" />
-    </scopeInfo>
     <scopeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="46" startPosition="84" endLine="50" endPosition="16" />
-    <scopeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="52" startPosition="0" endLine="56" endPosition="0">
+    <scopeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="61" startPosition="0" endLine="66" endPosition="0">
       <varInfo nodeId="1207223065533" varName="editorContext" />
       <varInfo nodeId="1207223065533" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="56" startPosition="0" endLine="60" endPosition="0" />
-    <scopeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="60" startPosition="0" endLine="66" endPosition="0">
-      <varInfo nodeId="1207223065533" varName="editorContext" />
-      <varInfo nodeId="1207223065533" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="45" startPosition="0" endLine="52" endPosition="0">
+    <scopeInfo nodeId="1207223065533" fileName="ConvertDateTimeMinusToMinus_Intention.java" startLine="46" startPosition="0" endLine="52" endPosition="0">
       <varInfo nodeId="1207223065533" varName="editorContext" />
       <varInfo nodeId="1207223065533" varName="node" />
     </scopeInfo>
@@ -156,22 +156,22 @@
     <nodeInfo nodeId="1238251416306" fileName="ConvertToDateTimeInMath_Intention.java" startLine="71" startPosition="147" endLine="72" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1238251274491" fileName="ConvertToDateTimeInMath_Intention.java" startLine="73" startPosition="12" endLine="74" endPosition="148" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1238251427589" fileName="ConvertToDateTimeInMath_Intention.java" startLine="74" startPosition="148" endLine="75" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="17" startPosition="70" endLine="19" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ConvertToDateTimeInMath_Intention#()V" />
+    <nodeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="18" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ConvertToDateTimeInMath_Intention#()V" />
+    <nodeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="21" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="25" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPresentation#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="29" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPersistentStateKey#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="33" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLanguageFqName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="37" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getType#()Ljetbrains/mps/intentions/IntentionType;" />
+    <nodeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="41" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getIntentionNodeReference#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
     <nodeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="52" startPosition="84" endLine="55" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="59" startPosition="0" endLine="62" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableToNode#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+    <nodeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="63" startPosition="0" endLine="66" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
     <nodeInfo nodeId="1238251271676" fileName="ConvertToDateTimeInMath_Intention.java" startLine="73" startPosition="10" endLine="76" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="20" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="24" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPresentation#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="28" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPersistentStateKey#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="32" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLanguageFqName#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="36" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getType#()Ljetbrains/mps/intentions/IntentionType;" />
-    <nodeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="40" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getIntentionNodeReference#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
     <nodeInfo nodeId="1238251033263" fileName="ConvertToDateTimeInMath_Intention.java" startLine="45" startPosition="85" endLine="49" endPosition="6" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="58" startPosition="0" endLine="62" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableToNode#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
-    <nodeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="62" startPosition="0" endLine="66" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
-    <nodeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="44" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
-    <nodeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="51" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicable#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+    <nodeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="45" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
+    <nodeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="52" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicable#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
     <nodeInfo nodeId="1238251085618" fileName="ConvertToDateTimeInMath_Intention.java" startLine="69" startPosition="181" endLine="76" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="66" startPosition="0" endLine="78" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+    <nodeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="67" startPosition="0" endLine="78" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
     <scopeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="18" startPosition="46" endLine="18" endPosition="46" />
     <scopeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="21" startPosition="30" endLine="22" endPosition="78" />
     <scopeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="25" startPosition="35" endLine="26" endPosition="37" />
@@ -182,34 +182,34 @@
     <scopeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="53" startPosition="53" endLine="54" endPosition="19" />
     <scopeInfo nodeId="1238250898418" fileName="ConvertToDateTimeInMath_Intention.java" startLine="59" startPosition="91" endLine="60" endPosition="159" />
     <scopeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="63" startPosition="44" endLine="64" endPosition="16" />
-    <scopeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="17" startPosition="70" endLine="19" endPosition="3" />
+    <scopeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="18" startPosition="0" endLine="20" endPosition="0" />
     <scopeInfo nodeId="1238251085620" fileName="ConvertToDateTimeInMath_Intention.java" startLine="70" startPosition="82" endLine="72" endPosition="77" />
     <scopeInfo nodeId="1238251271677" fileName="ConvertToDateTimeInMath_Intention.java" startLine="73" startPosition="12" endLine="75" endPosition="78" />
-    <scopeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="20" startPosition="0" endLine="24" endPosition="0" />
-    <scopeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="24" startPosition="0" endLine="28" endPosition="0" />
-    <scopeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="28" startPosition="0" endLine="32" endPosition="0" />
-    <scopeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="32" startPosition="0" endLine="36" endPosition="0" />
-    <scopeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="36" startPosition="0" endLine="40" endPosition="0" />
-    <scopeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="40" startPosition="0" endLine="44" endPosition="0" />
+    <scopeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="21" startPosition="0" endLine="24" endPosition="0" />
+    <scopeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="25" startPosition="0" endLine="28" endPosition="0" />
+    <scopeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="29" startPosition="0" endLine="32" endPosition="0" />
+    <scopeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="33" startPosition="0" endLine="36" endPosition="0" />
+    <scopeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="37" startPosition="0" endLine="40" endPosition="0" />
+    <scopeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="41" startPosition="0" endLine="44" endPosition="0" />
+    <scopeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="59" startPosition="0" endLine="62" endPosition="0">
+      <varInfo nodeId="1238250377507" varName="editorContext" />
+      <varInfo nodeId="1238250377507" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="63" startPosition="0" endLine="66" endPosition="0" />
     <scopeInfo nodeId="1238250377509" fileName="ConvertToDateTimeInMath_Intention.java" startLine="45" startPosition="85" endLine="49" endPosition="6" />
     <scopeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="52" startPosition="84" endLine="56" endPosition="16" />
-    <scopeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="58" startPosition="0" endLine="62" endPosition="0">
+    <scopeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="45" startPosition="0" endLine="51" endPosition="0">
       <varInfo nodeId="1238250377507" varName="editorContext" />
       <varInfo nodeId="1238250377507" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="62" startPosition="0" endLine="66" endPosition="0" />
-    <scopeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="44" startPosition="0" endLine="51" endPosition="0">
-      <varInfo nodeId="1238250377507" varName="editorContext" />
-      <varInfo nodeId="1238250377507" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="51" startPosition="0" endLine="58" endPosition="0">
+    <scopeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="52" startPosition="0" endLine="58" endPosition="0">
       <varInfo nodeId="1238250377507" varName="editorContext" />
       <varInfo nodeId="1238250377507" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="1238250377511" fileName="ConvertToDateTimeInMath_Intention.java" startLine="67" startPosition="76" endLine="76" endPosition="5">
       <varInfo nodeId="1238251134098" varName="dotExpression" />
     </scopeInfo>
-    <scopeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="66" startPosition="0" endLine="78" endPosition="0">
+    <scopeInfo nodeId="1238250377507" fileName="ConvertToDateTimeInMath_Intention.java" startLine="67" startPosition="0" endLine="78" endPosition="0">
       <varInfo nodeId="1238250377507" varName="editorContext" />
       <varInfo nodeId="1238250377507" varName="node" />
     </scopeInfo>
@@ -258,21 +258,22 @@
     <nodeInfo nodeId="2644539331224126448" fileName="AddDateTimeProperty_Intention.java" startLine="133" startPosition="173" endLine="134" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="2644539331224126448" fileName="AddDateTimeProperty_Intention.java" startLine="134" startPosition="43" endLine="135" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="2644539331224126448" fileName="AddDateTimeProperty_Intention.java" startLine="136" startPosition="7" endLine="137" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="20" startPosition="66" endLine="22" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="AddDateTimeProperty_Intention#()V" />
-    <nodeInfo nodeId="2644539331224126503" fileName="AddDateTimeProperty_Intention.java" startLine="73" startPosition="58" endLine="75" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="QuotationClass_xprv33_a1a0a0a0a0a8#()V" />
-    <nodeInfo nodeId="2644539331224126484" fileName="AddDateTimeProperty_Intention.java" startLine="90" startPosition="60" endLine="92" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="QuotationClass_xprv33_a1a0a0a0a0a8_0#()V" />
-    <nodeInfo nodeId="2644539331224126475" fileName="AddDateTimeProperty_Intention.java" startLine="107" startPosition="60" endLine="109" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="QuotationClass_xprv33_a1a0a0a0a0a8_1#()V" />
-    <nodeInfo nodeId="2644539331224126448" fileName="AddDateTimeProperty_Intention.java" startLine="124" startPosition="60" endLine="126" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="QuotationClass_xprv33_a1a0a0a0a0a8_2#()V" />
+    <nodeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="21" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="AddDateTimeProperty_Intention#()V" />
+    <nodeInfo nodeId="2644539331224126503" fileName="AddDateTimeProperty_Intention.java" startLine="74" startPosition="0" endLine="76" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="QuotationClass_xprv33_a1a0a0a0a0a8#()V" />
+    <nodeInfo nodeId="2644539331224126484" fileName="AddDateTimeProperty_Intention.java" startLine="91" startPosition="0" endLine="93" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="QuotationClass_xprv33_a1a0a0a0a0a8_0#()V" />
+    <nodeInfo nodeId="2644539331224126475" fileName="AddDateTimeProperty_Intention.java" startLine="108" startPosition="0" endLine="110" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="QuotationClass_xprv33_a1a0a0a0a0a8_1#()V" />
+    <nodeInfo nodeId="2644539331224126448" fileName="AddDateTimeProperty_Intention.java" startLine="125" startPosition="0" endLine="127" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="QuotationClass_xprv33_a1a0a0a0a0a8_2#()V" />
+    <nodeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="24" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="28" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPresentation#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="32" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPersistentStateKey#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="36" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLanguageFqName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="40" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getType#()Ljetbrains/mps/intentions/IntentionType;" />
+    <nodeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="44" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getIntentionNodeReference#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+    <nodeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="48" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
     <nodeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="52" startPosition="84" endLine="55" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="23" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="27" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPresentation#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="31" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPersistentStateKey#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="35" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLanguageFqName#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="39" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getType#()Ljetbrains/mps/intentions/IntentionType;" />
-    <nodeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="43" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getIntentionNodeReference#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
-    <nodeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="47" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
-    <nodeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="58" startPosition="0" endLine="62" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableToNode#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
-    <nodeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="62" startPosition="0" endLine="66" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
+    <nodeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="59" startPosition="0" endLine="62" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableToNode#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+    <nodeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="63" startPosition="0" endLine="66" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
+    <nodeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="67" startPosition="0" endLine="72" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
     <nodeInfo nodeId="2644539331224126503" fileName="AddDateTimeProperty_Intention.java" startLine="80" startPosition="32" endLine="85" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="2644539331224126503" fileName="AddDateTimeProperty_Intention.java" startLine="80" startPosition="32" endLine="85" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="2644539331224126484" fileName="AddDateTimeProperty_Intention.java" startLine="97" startPosition="32" endLine="102" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
@@ -281,12 +282,11 @@
     <nodeInfo nodeId="2644539331224126475" fileName="AddDateTimeProperty_Intention.java" startLine="114" startPosition="32" endLine="119" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="2644539331224126448" fileName="AddDateTimeProperty_Intention.java" startLine="131" startPosition="32" endLine="136" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="2644539331224126448" fileName="AddDateTimeProperty_Intention.java" startLine="131" startPosition="32" endLine="136" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="66" startPosition="0" endLine="72" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
-    <nodeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="51" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicable#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
-    <nodeInfo nodeId="2644539331224126503" fileName="AddDateTimeProperty_Intention.java" startLine="76" startPosition="0" endLine="88" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNode#()Ljetbrains/mps/smodel/SNode;" />
-    <nodeInfo nodeId="2644539331224126484" fileName="AddDateTimeProperty_Intention.java" startLine="93" startPosition="0" endLine="105" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNode#()Ljetbrains/mps/smodel/SNode;" />
-    <nodeInfo nodeId="2644539331224126475" fileName="AddDateTimeProperty_Intention.java" startLine="110" startPosition="0" endLine="122" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNode#()Ljetbrains/mps/smodel/SNode;" />
-    <nodeInfo nodeId="2644539331224126448" fileName="AddDateTimeProperty_Intention.java" startLine="127" startPosition="0" endLine="139" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNode#()Ljetbrains/mps/smodel/SNode;" />
+    <nodeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="52" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicable#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+    <nodeInfo nodeId="2644539331224126503" fileName="AddDateTimeProperty_Intention.java" startLine="77" startPosition="0" endLine="88" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNode#()Ljetbrains/mps/smodel/SNode;" />
+    <nodeInfo nodeId="2644539331224126484" fileName="AddDateTimeProperty_Intention.java" startLine="94" startPosition="0" endLine="105" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNode#()Ljetbrains/mps/smodel/SNode;" />
+    <nodeInfo nodeId="2644539331224126475" fileName="AddDateTimeProperty_Intention.java" startLine="111" startPosition="0" endLine="122" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNode#()Ljetbrains/mps/smodel/SNode;" />
+    <nodeInfo nodeId="2644539331224126448" fileName="AddDateTimeProperty_Intention.java" startLine="128" startPosition="0" endLine="139" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNode#()Ljetbrains/mps/smodel/SNode;" />
     <scopeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="21" startPosition="42" endLine="21" endPosition="42" />
     <scopeInfo nodeId="2644539331224126503" fileName="AddDateTimeProperty_Intention.java" startLine="74" startPosition="49" endLine="74" endPosition="49" />
     <scopeInfo nodeId="2644539331224126484" fileName="AddDateTimeProperty_Intention.java" startLine="91" startPosition="51" endLine="91" endPosition="51" />
@@ -302,11 +302,26 @@
     <scopeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="53" startPosition="53" endLine="54" endPosition="19" />
     <scopeInfo nodeId="1239198371871" fileName="AddDateTimeProperty_Intention.java" startLine="59" startPosition="91" endLine="60" endPosition="1307" />
     <scopeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="63" startPosition="44" endLine="64" endPosition="16" />
-    <scopeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="20" startPosition="66" endLine="22" endPosition="3" />
-    <scopeInfo nodeId="2644539331224126503" fileName="AddDateTimeProperty_Intention.java" startLine="73" startPosition="58" endLine="75" endPosition="5" />
-    <scopeInfo nodeId="2644539331224126484" fileName="AddDateTimeProperty_Intention.java" startLine="90" startPosition="60" endLine="92" endPosition="5" />
-    <scopeInfo nodeId="2644539331224126475" fileName="AddDateTimeProperty_Intention.java" startLine="107" startPosition="60" endLine="109" endPosition="5" />
-    <scopeInfo nodeId="2644539331224126448" fileName="AddDateTimeProperty_Intention.java" startLine="124" startPosition="60" endLine="126" endPosition="5" />
+    <scopeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="21" startPosition="0" endLine="23" endPosition="0" />
+    <scopeInfo nodeId="2644539331224126503" fileName="AddDateTimeProperty_Intention.java" startLine="74" startPosition="0" endLine="76" endPosition="0" />
+    <scopeInfo nodeId="2644539331224126484" fileName="AddDateTimeProperty_Intention.java" startLine="91" startPosition="0" endLine="93" endPosition="0" />
+    <scopeInfo nodeId="2644539331224126475" fileName="AddDateTimeProperty_Intention.java" startLine="108" startPosition="0" endLine="110" endPosition="0" />
+    <scopeInfo nodeId="2644539331224126448" fileName="AddDateTimeProperty_Intention.java" startLine="125" startPosition="0" endLine="127" endPosition="0" />
+    <scopeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="24" startPosition="0" endLine="27" endPosition="0" />
+    <scopeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="28" startPosition="0" endLine="31" endPosition="0" />
+    <scopeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="32" startPosition="0" endLine="35" endPosition="0" />
+    <scopeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="36" startPosition="0" endLine="39" endPosition="0" />
+    <scopeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="40" startPosition="0" endLine="43" endPosition="0" />
+    <scopeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="44" startPosition="0" endLine="47" endPosition="0" />
+    <scopeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="48" startPosition="0" endLine="51" endPosition="0">
+      <varInfo nodeId="1239198312654" varName="editorContext" />
+      <varInfo nodeId="1239198312654" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="59" startPosition="0" endLine="62" endPosition="0">
+      <varInfo nodeId="1239198312654" varName="editorContext" />
+      <varInfo nodeId="1239198312654" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="63" startPosition="0" endLine="66" endPosition="0" />
     <scopeInfo nodeId="1239198312658" fileName="AddDateTimeProperty_Intention.java" startLine="67" startPosition="76" endLine="70" endPosition="57">
       <varInfo nodeId="1239198429084" varName="expression" />
     </scopeInfo>
@@ -322,31 +337,16 @@
     <scopeInfo nodeId="2644539331224126448" fileName="AddDateTimeProperty_Intention.java" startLine="132" startPosition="7" endLine="135" endPosition="31">
       <varInfo nodeId="2644539331224126448" varName="quotedNode1_2" />
     </scopeInfo>
-    <scopeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="23" startPosition="0" endLine="27" endPosition="0" />
-    <scopeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="27" startPosition="0" endLine="31" endPosition="0" />
-    <scopeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="31" startPosition="0" endLine="35" endPosition="0" />
-    <scopeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="35" startPosition="0" endLine="39" endPosition="0" />
-    <scopeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="39" startPosition="0" endLine="43" endPosition="0" />
-    <scopeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="43" startPosition="0" endLine="47" endPosition="0" />
-    <scopeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="47" startPosition="0" endLine="51" endPosition="0">
-      <varInfo nodeId="1239198312654" varName="editorContext" />
-      <varInfo nodeId="1239198312654" varName="node" />
-    </scopeInfo>
     <scopeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="52" startPosition="84" endLine="56" endPosition="16" />
-    <scopeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="58" startPosition="0" endLine="62" endPosition="0">
+    <scopeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="67" startPosition="0" endLine="72" endPosition="0">
       <varInfo nodeId="1239198312654" varName="editorContext" />
       <varInfo nodeId="1239198312654" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="62" startPosition="0" endLine="66" endPosition="0" />
     <scopeInfo nodeId="2644539331224126503" fileName="AddDateTimeProperty_Intention.java" startLine="80" startPosition="32" endLine="85" endPosition="7" />
     <scopeInfo nodeId="2644539331224126484" fileName="AddDateTimeProperty_Intention.java" startLine="97" startPosition="32" endLine="102" endPosition="7" />
     <scopeInfo nodeId="2644539331224126475" fileName="AddDateTimeProperty_Intention.java" startLine="114" startPosition="32" endLine="119" endPosition="7" />
     <scopeInfo nodeId="2644539331224126448" fileName="AddDateTimeProperty_Intention.java" startLine="131" startPosition="32" endLine="136" endPosition="7" />
-    <scopeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="66" startPosition="0" endLine="72" endPosition="0">
-      <varInfo nodeId="1239198312654" varName="editorContext" />
-      <varInfo nodeId="1239198312654" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="51" startPosition="0" endLine="58" endPosition="0">
+    <scopeInfo nodeId="1239198312654" fileName="AddDateTimeProperty_Intention.java" startLine="52" startPosition="0" endLine="58" endPosition="0">
       <varInfo nodeId="1239198312654" varName="editorContext" />
       <varInfo nodeId="1239198312654" varName="node" />
     </scopeInfo>
@@ -370,10 +370,10 @@
       <varInfo nodeId="2644539331224126448" varName="quotedNode_1" />
       <varInfo nodeId="2644539331224126448" varName="result" />
     </scopeInfo>
-    <scopeInfo nodeId="2644539331224126503" fileName="AddDateTimeProperty_Intention.java" startLine="76" startPosition="0" endLine="88" endPosition="0" />
-    <scopeInfo nodeId="2644539331224126484" fileName="AddDateTimeProperty_Intention.java" startLine="93" startPosition="0" endLine="105" endPosition="0" />
-    <scopeInfo nodeId="2644539331224126475" fileName="AddDateTimeProperty_Intention.java" startLine="110" startPosition="0" endLine="122" endPosition="0" />
-    <scopeInfo nodeId="2644539331224126448" fileName="AddDateTimeProperty_Intention.java" startLine="127" startPosition="0" endLine="139" endPosition="0" />
+    <scopeInfo nodeId="2644539331224126503" fileName="AddDateTimeProperty_Intention.java" startLine="77" startPosition="0" endLine="88" endPosition="0" />
+    <scopeInfo nodeId="2644539331224126484" fileName="AddDateTimeProperty_Intention.java" startLine="94" startPosition="0" endLine="105" endPosition="0" />
+    <scopeInfo nodeId="2644539331224126475" fileName="AddDateTimeProperty_Intention.java" startLine="111" startPosition="0" endLine="122" endPosition="0" />
+    <scopeInfo nodeId="2644539331224126448" fileName="AddDateTimeProperty_Intention.java" startLine="128" startPosition="0" endLine="139" endPosition="0" />
     <unitInfo nodeId="2644539331224126503" fileName="AddDateTimeProperty_Intention.java" startLine="73" startPosition="0" endLine="89" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.intentions.AddDateTimeProperty_Intention$QuotationClass_xprv33_a1a0a0a0a0a8" />
     <unitInfo nodeId="2644539331224126484" fileName="AddDateTimeProperty_Intention.java" startLine="90" startPosition="0" endLine="106" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.intentions.AddDateTimeProperty_Intention$QuotationClass_xprv33_a1a0a0a0a0a8_0" />
     <unitInfo nodeId="2644539331224126475" fileName="AddDateTimeProperty_Intention.java" startLine="107" startPosition="0" endLine="123" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.intentions.AddDateTimeProperty_Intention$QuotationClass_xprv33_a1a0a0a0a0a8_1" />
@@ -390,16 +390,16 @@
     <nodeInfo nodeId="1239204965539" fileName="RemoveDateTimeProperty_Intention.java" startLine="42" startPosition="85" endLine="43" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1239204920760" fileName="RemoveDateTimeProperty_Intention.java" startLine="46" startPosition="44" endLine="47" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1239205025962" fileName="RemoveDateTimeProperty_Intention.java" startLine="50" startPosition="76" endLine="51" endPosition="123" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1239204920760" fileName="RemoveDateTimeProperty_Intention.java" startLine="14" startPosition="69" endLine="16" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="RemoveDateTimeProperty_Intention#()V" />
-    <nodeInfo nodeId="1239204920760" fileName="RemoveDateTimeProperty_Intention.java" startLine="17" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1239204920760" fileName="RemoveDateTimeProperty_Intention.java" startLine="21" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPresentation#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1239204920760" fileName="RemoveDateTimeProperty_Intention.java" startLine="25" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPersistentStateKey#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1239204920760" fileName="RemoveDateTimeProperty_Intention.java" startLine="29" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLanguageFqName#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1239204920760" fileName="RemoveDateTimeProperty_Intention.java" startLine="33" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getType#()Ljetbrains/mps/intentions/IntentionType;" />
-    <nodeInfo nodeId="1239204920760" fileName="RemoveDateTimeProperty_Intention.java" startLine="37" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getIntentionNodeReference#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
-    <nodeInfo nodeId="1239204920760" fileName="RemoveDateTimeProperty_Intention.java" startLine="41" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
-    <nodeInfo nodeId="1239204920760" fileName="RemoveDateTimeProperty_Intention.java" startLine="45" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
-    <nodeInfo nodeId="1239204920760" fileName="RemoveDateTimeProperty_Intention.java" startLine="49" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+    <nodeInfo nodeId="1239204920760" fileName="RemoveDateTimeProperty_Intention.java" startLine="15" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="RemoveDateTimeProperty_Intention#()V" />
+    <nodeInfo nodeId="1239204920760" fileName="RemoveDateTimeProperty_Intention.java" startLine="18" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1239204920760" fileName="RemoveDateTimeProperty_Intention.java" startLine="22" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPresentation#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1239204920760" fileName="RemoveDateTimeProperty_Intention.java" startLine="26" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPersistentStateKey#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1239204920760" fileName="RemoveDateTimeProperty_Intention.java" startLine="30" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLanguageFqName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1239204920760" fileName="RemoveDateTimeProperty_Intention.java" startLine="34" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getType#()Ljetbrains/mps/intentions/IntentionType;" />
+    <nodeInfo nodeId="1239204920760" fileName="RemoveDateTimeProperty_Intention.java" startLine="38" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getIntentionNodeReference#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+    <nodeInfo nodeId="1239204920760" fileName="RemoveDateTimeProperty_Intention.java" startLine="42" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
+    <nodeInfo nodeId="1239204920760" fileName="RemoveDateTimeProperty_Intention.java" startLine="46" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
+    <nodeInfo nodeId="1239204920760" fileName="RemoveDateTimeProperty_Intention.java" startLine="50" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
     <scopeInfo nodeId="1239204920760" fileName="RemoveDateTimeProperty_Intention.java" startLine="15" startPosition="45" endLine="15" endPosition="45" />
     <scopeInfo nodeId="1239204920760" fileName="RemoveDateTimeProperty_Intention.java" startLine="18" startPosition="30" endLine="19" endPosition="86" />
     <scopeInfo nodeId="1239204920760" fileName="RemoveDateTimeProperty_Intention.java" startLine="22" startPosition="35" endLine="23" endPosition="36" />
@@ -410,19 +410,19 @@
     <scopeInfo nodeId="1239204920762" fileName="RemoveDateTimeProperty_Intention.java" startLine="42" startPosition="85" endLine="43" endPosition="38" />
     <scopeInfo nodeId="1239204920760" fileName="RemoveDateTimeProperty_Intention.java" startLine="46" startPosition="44" endLine="47" endPosition="17" />
     <scopeInfo nodeId="1239204920764" fileName="RemoveDateTimeProperty_Intention.java" startLine="50" startPosition="76" endLine="51" endPosition="123" />
-    <scopeInfo nodeId="1239204920760" fileName="RemoveDateTimeProperty_Intention.java" startLine="14" startPosition="69" endLine="16" endPosition="3" />
-    <scopeInfo nodeId="1239204920760" fileName="RemoveDateTimeProperty_Intention.java" startLine="17" startPosition="0" endLine="21" endPosition="0" />
-    <scopeInfo nodeId="1239204920760" fileName="RemoveDateTimeProperty_Intention.java" startLine="21" startPosition="0" endLine="25" endPosition="0" />
-    <scopeInfo nodeId="1239204920760" fileName="RemoveDateTimeProperty_Intention.java" startLine="25" startPosition="0" endLine="29" endPosition="0" />
-    <scopeInfo nodeId="1239204920760" fileName="RemoveDateTimeProperty_Intention.java" startLine="29" startPosition="0" endLine="33" endPosition="0" />
-    <scopeInfo nodeId="1239204920760" fileName="RemoveDateTimeProperty_Intention.java" startLine="33" startPosition="0" endLine="37" endPosition="0" />
-    <scopeInfo nodeId="1239204920760" fileName="RemoveDateTimeProperty_Intention.java" startLine="37" startPosition="0" endLine="41" endPosition="0" />
-    <scopeInfo nodeId="1239204920760" fileName="RemoveDateTimeProperty_Intention.java" startLine="41" startPosition="0" endLine="45" endPosition="0">
+    <scopeInfo nodeId="1239204920760" fileName="RemoveDateTimeProperty_Intention.java" startLine="15" startPosition="0" endLine="17" endPosition="0" />
+    <scopeInfo nodeId="1239204920760" fileName="RemoveDateTimeProperty_Intention.java" startLine="18" startPosition="0" endLine="21" endPosition="0" />
+    <scopeInfo nodeId="1239204920760" fileName="RemoveDateTimeProperty_Intention.java" startLine="22" startPosition="0" endLine="25" endPosition="0" />
+    <scopeInfo nodeId="1239204920760" fileName="RemoveDateTimeProperty_Intention.java" startLine="26" startPosition="0" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="1239204920760" fileName="RemoveDateTimeProperty_Intention.java" startLine="30" startPosition="0" endLine="33" endPosition="0" />
+    <scopeInfo nodeId="1239204920760" fileName="RemoveDateTimeProperty_Intention.java" startLine="34" startPosition="0" endLine="37" endPosition="0" />
+    <scopeInfo nodeId="1239204920760" fileName="RemoveDateTimeProperty_Intention.java" startLine="38" startPosition="0" endLine="41" endPosition="0" />
+    <scopeInfo nodeId="1239204920760" fileName="RemoveDateTimeProperty_Intention.java" startLine="42" startPosition="0" endLine="45" endPosition="0">
       <varInfo nodeId="1239204920760" varName="editorContext" />
       <varInfo nodeId="1239204920760" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="1239204920760" fileName="RemoveDateTimeProperty_Intention.java" startLine="45" startPosition="0" endLine="49" endPosition="0" />
-    <scopeInfo nodeId="1239204920760" fileName="RemoveDateTimeProperty_Intention.java" startLine="49" startPosition="0" endLine="53" endPosition="0">
+    <scopeInfo nodeId="1239204920760" fileName="RemoveDateTimeProperty_Intention.java" startLine="46" startPosition="0" endLine="49" endPosition="0" />
+    <scopeInfo nodeId="1239204920760" fileName="RemoveDateTimeProperty_Intention.java" startLine="50" startPosition="0" endLine="53" endPosition="0">
       <varInfo nodeId="1239204920760" varName="editorContext" />
       <varInfo nodeId="1239204920760" varName="node" />
     </scopeInfo>
@@ -450,23 +450,23 @@
     <nodeInfo nodeId="1239209680475" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="82" startPosition="171" endLine="83" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1239209680475" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="83" startPosition="43" endLine="84" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1239209680475" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="85" startPosition="7" endLine="86" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="20" startPosition="75" endLine="22" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="AddDateTimePropertyForPeriod_Intention#()V" />
-    <nodeInfo nodeId="1239209680475" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="73" startPosition="53" endLine="75" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="QuotationClass_wbe9gj_a1a0a0i#()V" />
+    <nodeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="21" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="AddDateTimePropertyForPeriod_Intention#()V" />
+    <nodeInfo nodeId="1239209680475" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="74" startPosition="0" endLine="76" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="QuotationClass_wbe9gj_a1a0a0i#()V" />
+    <nodeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="24" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="28" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPresentation#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="32" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPersistentStateKey#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="36" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLanguageFqName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="40" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getType#()Ljetbrains/mps/intentions/IntentionType;" />
+    <nodeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="44" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getIntentionNodeReference#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+    <nodeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="48" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
     <nodeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="52" startPosition="84" endLine="55" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="23" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="27" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPresentation#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="31" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPersistentStateKey#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="35" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLanguageFqName#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="39" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getType#()Ljetbrains/mps/intentions/IntentionType;" />
-    <nodeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="43" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getIntentionNodeReference#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
-    <nodeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="47" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
-    <nodeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="58" startPosition="0" endLine="62" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableToNode#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
-    <nodeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="62" startPosition="0" endLine="66" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
+    <nodeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="59" startPosition="0" endLine="62" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableToNode#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+    <nodeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="63" startPosition="0" endLine="66" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
+    <nodeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="67" startPosition="0" endLine="72" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
     <nodeInfo nodeId="1239209680475" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="80" startPosition="32" endLine="85" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1239209680475" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="80" startPosition="32" endLine="85" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="66" startPosition="0" endLine="72" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
-    <nodeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="51" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicable#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
-    <nodeInfo nodeId="1239209680475" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="76" startPosition="0" endLine="88" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNode#()Ljetbrains/mps/smodel/SNode;" />
+    <nodeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="52" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicable#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+    <nodeInfo nodeId="1239209680475" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="77" startPosition="0" endLine="88" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNode#()Ljetbrains/mps/smodel/SNode;" />
     <scopeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="21" startPosition="51" endLine="21" endPosition="51" />
     <scopeInfo nodeId="1239209680475" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="74" startPosition="44" endLine="74" endPosition="44" />
     <scopeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="24" startPosition="30" endLine="25" endPosition="61" />
@@ -479,36 +479,36 @@
     <scopeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="53" startPosition="53" endLine="54" endPosition="19" />
     <scopeInfo nodeId="1239209656996" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="59" startPosition="91" endLine="60" endPosition="208" />
     <scopeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="63" startPosition="44" endLine="64" endPosition="17" />
-    <scopeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="20" startPosition="75" endLine="22" endPosition="3" />
-    <scopeInfo nodeId="1239209680475" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="73" startPosition="53" endLine="75" endPosition="5" />
+    <scopeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="21" startPosition="0" endLine="23" endPosition="0" />
+    <scopeInfo nodeId="1239209680475" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="74" startPosition="0" endLine="76" endPosition="0" />
+    <scopeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="24" startPosition="0" endLine="27" endPosition="0" />
+    <scopeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="28" startPosition="0" endLine="31" endPosition="0" />
+    <scopeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="32" startPosition="0" endLine="35" endPosition="0" />
+    <scopeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="36" startPosition="0" endLine="39" endPosition="0" />
+    <scopeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="40" startPosition="0" endLine="43" endPosition="0" />
+    <scopeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="44" startPosition="0" endLine="47" endPosition="0" />
+    <scopeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="48" startPosition="0" endLine="51" endPosition="0">
+      <varInfo nodeId="1239209586310" varName="editorContext" />
+      <varInfo nodeId="1239209586310" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="59" startPosition="0" endLine="62" endPosition="0">
+      <varInfo nodeId="1239209586310" varName="editorContext" />
+      <varInfo nodeId="1239209586310" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="63" startPosition="0" endLine="66" endPosition="0" />
     <scopeInfo nodeId="1239209586314" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="67" startPosition="76" endLine="70" endPosition="57">
       <varInfo nodeId="1239209821421" varName="expression" />
     </scopeInfo>
     <scopeInfo nodeId="1239209680475" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="81" startPosition="7" endLine="84" endPosition="31">
       <varInfo nodeId="1239209680475" varName="quotedNode1_2" />
     </scopeInfo>
-    <scopeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="23" startPosition="0" endLine="27" endPosition="0" />
-    <scopeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="27" startPosition="0" endLine="31" endPosition="0" />
-    <scopeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="31" startPosition="0" endLine="35" endPosition="0" />
-    <scopeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="35" startPosition="0" endLine="39" endPosition="0" />
-    <scopeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="39" startPosition="0" endLine="43" endPosition="0" />
-    <scopeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="43" startPosition="0" endLine="47" endPosition="0" />
-    <scopeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="47" startPosition="0" endLine="51" endPosition="0">
-      <varInfo nodeId="1239209586310" varName="editorContext" />
-      <varInfo nodeId="1239209586310" varName="node" />
-    </scopeInfo>
     <scopeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="52" startPosition="84" endLine="56" endPosition="16" />
-    <scopeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="58" startPosition="0" endLine="62" endPosition="0">
+    <scopeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="67" startPosition="0" endLine="72" endPosition="0">
       <varInfo nodeId="1239209586310" varName="editorContext" />
       <varInfo nodeId="1239209586310" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="62" startPosition="0" endLine="66" endPosition="0" />
     <scopeInfo nodeId="1239209680475" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="80" startPosition="32" endLine="85" endPosition="7" />
-    <scopeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="66" startPosition="0" endLine="72" endPosition="0">
-      <varInfo nodeId="1239209586310" varName="editorContext" />
-      <varInfo nodeId="1239209586310" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="51" startPosition="0" endLine="58" endPosition="0">
+    <scopeInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="52" startPosition="0" endLine="58" endPosition="0">
       <varInfo nodeId="1239209586310" varName="editorContext" />
       <varInfo nodeId="1239209586310" varName="node" />
     </scopeInfo>
@@ -517,7 +517,7 @@
       <varInfo nodeId="1239209680475" varName="quotedNode_1" />
       <varInfo nodeId="1239209680475" varName="result" />
     </scopeInfo>
-    <scopeInfo nodeId="1239209680475" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="76" startPosition="0" endLine="88" endPosition="0" />
+    <scopeInfo nodeId="1239209680475" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="77" startPosition="0" endLine="88" endPosition="0" />
     <unitInfo nodeId="1239209680475" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="73" startPosition="0" endLine="89" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.intentions.AddDateTimePropertyForPeriod_Intention$QuotationClass_wbe9gj_a1a0a0i" />
     <unitInfo nodeId="1239209586310" fileName="AddDateTimePropertyForPeriod_Intention.java" startLine="20" startPosition="0" endLine="90" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.intentions.AddDateTimePropertyForPeriod_Intention" />
   </root>
@@ -531,16 +531,16 @@
     <nodeInfo nodeId="1239209899184" fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="42" startPosition="85" endLine="43" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1239209858304" fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="46" startPosition="44" endLine="47" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1239209917672" fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="50" startPosition="76" endLine="51" endPosition="122" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1239209858304" fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="14" startPosition="79" endLine="16" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="RemoveDateTimePropertyFromPeriod_Intention#()V" />
-    <nodeInfo nodeId="1239209858304" fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="17" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1239209858304" fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="21" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPresentation#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1239209858304" fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="25" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPersistentStateKey#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1239209858304" fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="29" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLanguageFqName#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1239209858304" fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="33" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getType#()Ljetbrains/mps/intentions/IntentionType;" />
-    <nodeInfo nodeId="1239209858304" fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="37" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getIntentionNodeReference#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
-    <nodeInfo nodeId="1239209858304" fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="41" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
-    <nodeInfo nodeId="1239209858304" fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="45" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
-    <nodeInfo nodeId="1239209858304" fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="49" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+    <nodeInfo nodeId="1239209858304" fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="15" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="RemoveDateTimePropertyFromPeriod_Intention#()V" />
+    <nodeInfo nodeId="1239209858304" fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="18" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1239209858304" fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="22" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPresentation#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1239209858304" fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="26" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPersistentStateKey#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1239209858304" fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="30" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLanguageFqName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1239209858304" fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="34" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getType#()Ljetbrains/mps/intentions/IntentionType;" />
+    <nodeInfo nodeId="1239209858304" fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="38" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getIntentionNodeReference#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+    <nodeInfo nodeId="1239209858304" fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="42" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
+    <nodeInfo nodeId="1239209858304" fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="46" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
+    <nodeInfo nodeId="1239209858304" fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="50" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
     <scopeInfo nodeId="1239209858304" fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="15" startPosition="55" endLine="15" endPosition="55" />
     <scopeInfo nodeId="1239209858304" fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="18" startPosition="30" endLine="19" endPosition="82" />
     <scopeInfo nodeId="1239209858304" fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="22" startPosition="35" endLine="23" endPosition="46" />
@@ -551,19 +551,19 @@
     <scopeInfo nodeId="1239209858306" fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="42" startPosition="85" endLine="43" endPosition="38" />
     <scopeInfo nodeId="1239209858304" fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="46" startPosition="44" endLine="47" endPosition="17" />
     <scopeInfo nodeId="1239209858308" fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="50" startPosition="76" endLine="51" endPosition="122" />
-    <scopeInfo nodeId="1239209858304" fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="14" startPosition="79" endLine="16" endPosition="3" />
-    <scopeInfo nodeId="1239209858304" fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="17" startPosition="0" endLine="21" endPosition="0" />
-    <scopeInfo nodeId="1239209858304" fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="21" startPosition="0" endLine="25" endPosition="0" />
-    <scopeInfo nodeId="1239209858304" fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="25" startPosition="0" endLine="29" endPosition="0" />
-    <scopeInfo nodeId="1239209858304" fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="29" startPosition="0" endLine="33" endPosition="0" />
-    <scopeInfo nodeId="1239209858304" fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="33" startPosition="0" endLine="37" endPosition="0" />
-    <scopeInfo nodeId="1239209858304" fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="37" startPosition="0" endLine="41" endPosition="0" />
-    <scopeInfo nodeId="1239209858304" fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="41" startPosition="0" endLine="45" endPosition="0">
+    <scopeInfo nodeId="1239209858304" fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="15" startPosition="0" endLine="17" endPosition="0" />
+    <scopeInfo nodeId="1239209858304" fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="18" startPosition="0" endLine="21" endPosition="0" />
+    <scopeInfo nodeId="1239209858304" fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="22" startPosition="0" endLine="25" endPosition="0" />
+    <scopeInfo nodeId="1239209858304" fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="26" startPosition="0" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="1239209858304" fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="30" startPosition="0" endLine="33" endPosition="0" />
+    <scopeInfo nodeId="1239209858304" fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="34" startPosition="0" endLine="37" endPosition="0" />
+    <scopeInfo nodeId="1239209858304" fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="38" startPosition="0" endLine="41" endPosition="0" />
+    <scopeInfo nodeId="1239209858304" fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="42" startPosition="0" endLine="45" endPosition="0">
       <varInfo nodeId="1239209858304" varName="editorContext" />
       <varInfo nodeId="1239209858304" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="1239209858304" fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="45" startPosition="0" endLine="49" endPosition="0" />
-    <scopeInfo nodeId="1239209858304" fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="49" startPosition="0" endLine="53" endPosition="0">
+    <scopeInfo nodeId="1239209858304" fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="46" startPosition="0" endLine="49" endPosition="0" />
+    <scopeInfo nodeId="1239209858304" fileName="RemoveDateTimePropertyFromPeriod_Intention.java" startLine="50" startPosition="0" endLine="53" endPosition="0">
       <varInfo nodeId="1239209858304" varName="editorContext" />
       <varInfo nodeId="1239209858304" varName="node" />
     </scopeInfo>
@@ -588,16 +588,16 @@
     <nodeInfo nodeId="2192048487562798412" fileName="InlineFormatExpression_convert_Intention.java" startLine="59" startPosition="102" endLine="60" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="2192048487564273815" fileName="InlineFormatExpression_convert_Intention.java" startLine="60" startPosition="88" endLine="61" endPosition="170" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="2192048487562798457" fileName="InlineFormatExpression_convert_Intention.java" startLine="61" startPosition="170" endLine="62" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2192048487562794533" fileName="InlineFormatExpression_convert_Intention.java" startLine="16" startPosition="77" endLine="18" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="InlineFormatExpression_convert_Intention#()V" />
-    <nodeInfo nodeId="2192048487562794533" fileName="InlineFormatExpression_convert_Intention.java" startLine="19" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
-    <nodeInfo nodeId="2192048487562794533" fileName="InlineFormatExpression_convert_Intention.java" startLine="23" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPresentation#()Ljava/lang/String;" />
-    <nodeInfo nodeId="2192048487562794533" fileName="InlineFormatExpression_convert_Intention.java" startLine="27" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPersistentStateKey#()Ljava/lang/String;" />
-    <nodeInfo nodeId="2192048487562794533" fileName="InlineFormatExpression_convert_Intention.java" startLine="31" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLanguageFqName#()Ljava/lang/String;" />
-    <nodeInfo nodeId="2192048487562794533" fileName="InlineFormatExpression_convert_Intention.java" startLine="35" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getType#()Ljetbrains/mps/intentions/IntentionType;" />
-    <nodeInfo nodeId="2192048487562794533" fileName="InlineFormatExpression_convert_Intention.java" startLine="39" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getIntentionNodeReference#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
-    <nodeInfo nodeId="2192048487562794533" fileName="InlineFormatExpression_convert_Intention.java" startLine="43" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
-    <nodeInfo nodeId="2192048487562794533" fileName="InlineFormatExpression_convert_Intention.java" startLine="47" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
-    <nodeInfo nodeId="2192048487562794533" fileName="InlineFormatExpression_convert_Intention.java" startLine="51" startPosition="0" endLine="64" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+    <nodeInfo nodeId="2192048487562794533" fileName="InlineFormatExpression_convert_Intention.java" startLine="17" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="InlineFormatExpression_convert_Intention#()V" />
+    <nodeInfo nodeId="2192048487562794533" fileName="InlineFormatExpression_convert_Intention.java" startLine="20" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
+    <nodeInfo nodeId="2192048487562794533" fileName="InlineFormatExpression_convert_Intention.java" startLine="24" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPresentation#()Ljava/lang/String;" />
+    <nodeInfo nodeId="2192048487562794533" fileName="InlineFormatExpression_convert_Intention.java" startLine="28" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPersistentStateKey#()Ljava/lang/String;" />
+    <nodeInfo nodeId="2192048487562794533" fileName="InlineFormatExpression_convert_Intention.java" startLine="32" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLanguageFqName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="2192048487562794533" fileName="InlineFormatExpression_convert_Intention.java" startLine="36" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getType#()Ljetbrains/mps/intentions/IntentionType;" />
+    <nodeInfo nodeId="2192048487562794533" fileName="InlineFormatExpression_convert_Intention.java" startLine="40" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getIntentionNodeReference#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+    <nodeInfo nodeId="2192048487562794533" fileName="InlineFormatExpression_convert_Intention.java" startLine="44" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
+    <nodeInfo nodeId="2192048487562794533" fileName="InlineFormatExpression_convert_Intention.java" startLine="48" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
+    <nodeInfo nodeId="2192048487562794533" fileName="InlineFormatExpression_convert_Intention.java" startLine="52" startPosition="0" endLine="64" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
     <scopeInfo nodeId="2192048487562794533" fileName="InlineFormatExpression_convert_Intention.java" startLine="17" startPosition="53" endLine="17" endPosition="53" />
     <scopeInfo nodeId="2192048487562794533" fileName="InlineFormatExpression_convert_Intention.java" startLine="20" startPosition="30" endLine="21" endPosition="79" />
     <scopeInfo nodeId="2192048487562794533" fileName="InlineFormatExpression_convert_Intention.java" startLine="24" startPosition="35" endLine="25" endPosition="44" />
@@ -607,23 +607,23 @@
     <scopeInfo nodeId="2192048487562794533" fileName="InlineFormatExpression_convert_Intention.java" startLine="40" startPosition="53" endLine="41" endPosition="138" />
     <scopeInfo nodeId="2192048487562794535" fileName="InlineFormatExpression_convert_Intention.java" startLine="44" startPosition="85" endLine="45" endPosition="63" />
     <scopeInfo nodeId="2192048487562794533" fileName="InlineFormatExpression_convert_Intention.java" startLine="48" startPosition="44" endLine="49" endPosition="16" />
-    <scopeInfo nodeId="2192048487562794533" fileName="InlineFormatExpression_convert_Intention.java" startLine="16" startPosition="77" endLine="18" endPosition="3" />
-    <scopeInfo nodeId="2192048487562794533" fileName="InlineFormatExpression_convert_Intention.java" startLine="19" startPosition="0" endLine="23" endPosition="0" />
-    <scopeInfo nodeId="2192048487562794533" fileName="InlineFormatExpression_convert_Intention.java" startLine="23" startPosition="0" endLine="27" endPosition="0" />
-    <scopeInfo nodeId="2192048487562794533" fileName="InlineFormatExpression_convert_Intention.java" startLine="27" startPosition="0" endLine="31" endPosition="0" />
-    <scopeInfo nodeId="2192048487562794533" fileName="InlineFormatExpression_convert_Intention.java" startLine="31" startPosition="0" endLine="35" endPosition="0" />
-    <scopeInfo nodeId="2192048487562794533" fileName="InlineFormatExpression_convert_Intention.java" startLine="35" startPosition="0" endLine="39" endPosition="0" />
-    <scopeInfo nodeId="2192048487562794533" fileName="InlineFormatExpression_convert_Intention.java" startLine="39" startPosition="0" endLine="43" endPosition="0" />
-    <scopeInfo nodeId="2192048487562794533" fileName="InlineFormatExpression_convert_Intention.java" startLine="43" startPosition="0" endLine="47" endPosition="0">
+    <scopeInfo nodeId="2192048487562794533" fileName="InlineFormatExpression_convert_Intention.java" startLine="17" startPosition="0" endLine="19" endPosition="0" />
+    <scopeInfo nodeId="2192048487562794533" fileName="InlineFormatExpression_convert_Intention.java" startLine="20" startPosition="0" endLine="23" endPosition="0" />
+    <scopeInfo nodeId="2192048487562794533" fileName="InlineFormatExpression_convert_Intention.java" startLine="24" startPosition="0" endLine="27" endPosition="0" />
+    <scopeInfo nodeId="2192048487562794533" fileName="InlineFormatExpression_convert_Intention.java" startLine="28" startPosition="0" endLine="31" endPosition="0" />
+    <scopeInfo nodeId="2192048487562794533" fileName="InlineFormatExpression_convert_Intention.java" startLine="32" startPosition="0" endLine="35" endPosition="0" />
+    <scopeInfo nodeId="2192048487562794533" fileName="InlineFormatExpression_convert_Intention.java" startLine="36" startPosition="0" endLine="39" endPosition="0" />
+    <scopeInfo nodeId="2192048487562794533" fileName="InlineFormatExpression_convert_Intention.java" startLine="40" startPosition="0" endLine="43" endPosition="0" />
+    <scopeInfo nodeId="2192048487562794533" fileName="InlineFormatExpression_convert_Intention.java" startLine="44" startPosition="0" endLine="47" endPosition="0">
       <varInfo nodeId="2192048487562794533" varName="editorContext" />
       <varInfo nodeId="2192048487562794533" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="2192048487562794533" fileName="InlineFormatExpression_convert_Intention.java" startLine="47" startPosition="0" endLine="51" endPosition="0" />
+    <scopeInfo nodeId="2192048487562794533" fileName="InlineFormatExpression_convert_Intention.java" startLine="48" startPosition="0" endLine="51" endPosition="0" />
     <scopeInfo nodeId="2192048487562794537" fileName="InlineFormatExpression_convert_Intention.java" startLine="52" startPosition="76" endLine="62" endPosition="50">
       <varInfo nodeId="2192048487562794556" varName="ife" />
       <varInfo nodeId="2192048487562795798" varName="ite" />
     </scopeInfo>
-    <scopeInfo nodeId="2192048487562794533" fileName="InlineFormatExpression_convert_Intention.java" startLine="51" startPosition="0" endLine="64" endPosition="0">
+    <scopeInfo nodeId="2192048487562794533" fileName="InlineFormatExpression_convert_Intention.java" startLine="52" startPosition="0" endLine="64" endPosition="0">
       <varInfo nodeId="2192048487562794533" varName="editorContext" />
       <varInfo nodeId="2192048487562794533" varName="node" />
     </scopeInfo>
@@ -639,16 +639,16 @@
     <nodeInfo nodeId="276836602888578386" fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="42" startPosition="85" endLine="43" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="276836602888578344" fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="46" startPosition="44" endLine="47" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="276836602888578366" fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="50" startPosition="76" endLine="51" endPosition="122" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="276836602888578344" fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="14" startPosition="80" endLine="16" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="remove_PeriodInPropertyExpression_Intention#()V" />
-    <nodeInfo nodeId="276836602888578344" fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="17" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
-    <nodeInfo nodeId="276836602888578344" fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="21" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPresentation#()Ljava/lang/String;" />
-    <nodeInfo nodeId="276836602888578344" fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="25" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPersistentStateKey#()Ljava/lang/String;" />
-    <nodeInfo nodeId="276836602888578344" fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="29" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLanguageFqName#()Ljava/lang/String;" />
-    <nodeInfo nodeId="276836602888578344" fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="33" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getType#()Ljetbrains/mps/intentions/IntentionType;" />
-    <nodeInfo nodeId="276836602888578344" fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="37" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getIntentionNodeReference#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
-    <nodeInfo nodeId="276836602888578344" fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="41" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
-    <nodeInfo nodeId="276836602888578344" fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="45" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
-    <nodeInfo nodeId="276836602888578344" fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="49" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+    <nodeInfo nodeId="276836602888578344" fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="15" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="remove_PeriodInPropertyExpression_Intention#()V" />
+    <nodeInfo nodeId="276836602888578344" fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="18" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
+    <nodeInfo nodeId="276836602888578344" fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="22" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPresentation#()Ljava/lang/String;" />
+    <nodeInfo nodeId="276836602888578344" fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="26" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPersistentStateKey#()Ljava/lang/String;" />
+    <nodeInfo nodeId="276836602888578344" fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="30" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLanguageFqName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="276836602888578344" fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="34" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getType#()Ljetbrains/mps/intentions/IntentionType;" />
+    <nodeInfo nodeId="276836602888578344" fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="38" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getIntentionNodeReference#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+    <nodeInfo nodeId="276836602888578344" fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="42" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
+    <nodeInfo nodeId="276836602888578344" fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="46" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
+    <nodeInfo nodeId="276836602888578344" fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="50" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
     <scopeInfo nodeId="276836602888578344" fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="15" startPosition="56" endLine="15" endPosition="56" />
     <scopeInfo nodeId="276836602888578344" fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="18" startPosition="30" endLine="19" endPosition="83" />
     <scopeInfo nodeId="276836602888578344" fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="22" startPosition="35" endLine="23" endPosition="47" />
@@ -659,19 +659,19 @@
     <scopeInfo nodeId="276836602888578346" fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="42" startPosition="85" endLine="43" endPosition="38" />
     <scopeInfo nodeId="276836602888578344" fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="46" startPosition="44" endLine="47" endPosition="17" />
     <scopeInfo nodeId="276836602888578348" fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="50" startPosition="76" endLine="51" endPosition="122" />
-    <scopeInfo nodeId="276836602888578344" fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="14" startPosition="80" endLine="16" endPosition="3" />
-    <scopeInfo nodeId="276836602888578344" fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="17" startPosition="0" endLine="21" endPosition="0" />
-    <scopeInfo nodeId="276836602888578344" fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="21" startPosition="0" endLine="25" endPosition="0" />
-    <scopeInfo nodeId="276836602888578344" fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="25" startPosition="0" endLine="29" endPosition="0" />
-    <scopeInfo nodeId="276836602888578344" fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="29" startPosition="0" endLine="33" endPosition="0" />
-    <scopeInfo nodeId="276836602888578344" fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="33" startPosition="0" endLine="37" endPosition="0" />
-    <scopeInfo nodeId="276836602888578344" fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="37" startPosition="0" endLine="41" endPosition="0" />
-    <scopeInfo nodeId="276836602888578344" fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="41" startPosition="0" endLine="45" endPosition="0">
+    <scopeInfo nodeId="276836602888578344" fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="15" startPosition="0" endLine="17" endPosition="0" />
+    <scopeInfo nodeId="276836602888578344" fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="18" startPosition="0" endLine="21" endPosition="0" />
+    <scopeInfo nodeId="276836602888578344" fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="22" startPosition="0" endLine="25" endPosition="0" />
+    <scopeInfo nodeId="276836602888578344" fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="26" startPosition="0" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="276836602888578344" fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="30" startPosition="0" endLine="33" endPosition="0" />
+    <scopeInfo nodeId="276836602888578344" fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="34" startPosition="0" endLine="37" endPosition="0" />
+    <scopeInfo nodeId="276836602888578344" fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="38" startPosition="0" endLine="41" endPosition="0" />
+    <scopeInfo nodeId="276836602888578344" fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="42" startPosition="0" endLine="45" endPosition="0">
       <varInfo nodeId="276836602888578344" varName="editorContext" />
       <varInfo nodeId="276836602888578344" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="276836602888578344" fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="45" startPosition="0" endLine="49" endPosition="0" />
-    <scopeInfo nodeId="276836602888578344" fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="49" startPosition="0" endLine="53" endPosition="0">
+    <scopeInfo nodeId="276836602888578344" fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="46" startPosition="0" endLine="49" endPosition="0" />
+    <scopeInfo nodeId="276836602888578344" fileName="remove_PeriodInPropertyExpression_Intention.java" startLine="50" startPosition="0" endLine="53" endPosition="0">
       <varInfo nodeId="276836602888578344" varName="editorContext" />
       <varInfo nodeId="276836602888578344" varName="node" />
     </scopeInfo>
@@ -692,19 +692,19 @@
     <nodeInfo nodeId="3986031709810364298" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="63" startPosition="76" endLine="64" endPosition="126" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="3986031709810364328" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="64" startPosition="126" endLine="65" endPosition="104" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="3986031709810364312" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="65" startPosition="104" endLine="66" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="16" startPosition="80" endLine="18" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="RoundDateTimeOperation_fixInstant_Intention#()V" />
+    <nodeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="17" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="RoundDateTimeOperation_fixInstant_Intention#()V" />
+    <nodeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="20" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
+    <nodeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="24" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPresentation#()Ljava/lang/String;" />
+    <nodeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="28" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPersistentStateKey#()Ljava/lang/String;" />
+    <nodeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="32" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLanguageFqName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="36" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getType#()Ljetbrains/mps/intentions/IntentionType;" />
+    <nodeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="40" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getIntentionNodeReference#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+    <nodeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="44" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
     <nodeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="48" startPosition="84" endLine="51" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="19" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
-    <nodeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="23" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPresentation#()Ljava/lang/String;" />
-    <nodeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="27" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPersistentStateKey#()Ljava/lang/String;" />
-    <nodeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="31" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLanguageFqName#()Ljava/lang/String;" />
-    <nodeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="35" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getType#()Ljetbrains/mps/intentions/IntentionType;" />
-    <nodeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="39" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getIntentionNodeReference#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
-    <nodeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="43" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
-    <nodeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="54" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableToNode#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
-    <nodeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="58" startPosition="0" endLine="62" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
-    <nodeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="62" startPosition="0" endLine="68" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
-    <nodeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="47" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicable#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+    <nodeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="55" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableToNode#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+    <nodeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="59" startPosition="0" endLine="62" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
+    <nodeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="63" startPosition="0" endLine="68" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+    <nodeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="48" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicable#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
     <scopeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="17" startPosition="56" endLine="17" endPosition="56" />
     <scopeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="20" startPosition="30" endLine="21" endPosition="79" />
     <scopeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="24" startPosition="35" endLine="25" endPosition="47" />
@@ -716,31 +716,31 @@
     <scopeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="49" startPosition="53" endLine="50" endPosition="19" />
     <scopeInfo nodeId="3986031709810363069" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="55" startPosition="91" endLine="56" endPosition="270" />
     <scopeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="59" startPosition="44" endLine="60" endPosition="16" />
-    <scopeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="16" startPosition="80" endLine="18" endPosition="3" />
+    <scopeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="17" startPosition="0" endLine="19" endPosition="0" />
+    <scopeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="20" startPosition="0" endLine="23" endPosition="0" />
+    <scopeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="24" startPosition="0" endLine="27" endPosition="0" />
+    <scopeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="28" startPosition="0" endLine="31" endPosition="0" />
+    <scopeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="32" startPosition="0" endLine="35" endPosition="0" />
+    <scopeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="36" startPosition="0" endLine="39" endPosition="0" />
+    <scopeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="40" startPosition="0" endLine="43" endPosition="0" />
+    <scopeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="44" startPosition="0" endLine="47" endPosition="0">
+      <varInfo nodeId="3986031709810363041" varName="editorContext" />
+      <varInfo nodeId="3986031709810363041" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="55" startPosition="0" endLine="58" endPosition="0">
+      <varInfo nodeId="3986031709810363041" varName="editorContext" />
+      <varInfo nodeId="3986031709810363041" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="59" startPosition="0" endLine="62" endPosition="0" />
     <scopeInfo nodeId="3986031709810363045" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="63" startPosition="76" endLine="66" endPosition="59">
       <varInfo nodeId="3986031709810364299" varName="ite" />
     </scopeInfo>
-    <scopeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="19" startPosition="0" endLine="23" endPosition="0" />
-    <scopeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="23" startPosition="0" endLine="27" endPosition="0" />
-    <scopeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="27" startPosition="0" endLine="31" endPosition="0" />
-    <scopeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="31" startPosition="0" endLine="35" endPosition="0" />
-    <scopeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="35" startPosition="0" endLine="39" endPosition="0" />
-    <scopeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="39" startPosition="0" endLine="43" endPosition="0" />
-    <scopeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="43" startPosition="0" endLine="47" endPosition="0">
-      <varInfo nodeId="3986031709810363041" varName="editorContext" />
-      <varInfo nodeId="3986031709810363041" varName="node" />
-    </scopeInfo>
     <scopeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="48" startPosition="84" endLine="52" endPosition="16" />
-    <scopeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="54" startPosition="0" endLine="58" endPosition="0">
+    <scopeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="63" startPosition="0" endLine="68" endPosition="0">
       <varInfo nodeId="3986031709810363041" varName="editorContext" />
       <varInfo nodeId="3986031709810363041" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="58" startPosition="0" endLine="62" endPosition="0" />
-    <scopeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="62" startPosition="0" endLine="68" endPosition="0">
-      <varInfo nodeId="3986031709810363041" varName="editorContext" />
-      <varInfo nodeId="3986031709810363041" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="47" startPosition="0" endLine="54" endPosition="0">
+    <scopeInfo nodeId="3986031709810363041" fileName="RoundDateTimeOperation_fixInstant_Intention.java" startLine="48" startPosition="0" endLine="54" endPosition="0">
       <varInfo nodeId="3986031709810363041" varName="editorContext" />
       <varInfo nodeId="3986031709810363041" varName="node" />
     </scopeInfo>
@@ -761,19 +761,19 @@
     <nodeInfo nodeId="3986031709810999987" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="63" startPosition="76" endLine="64" endPosition="126" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="3986031709810999994" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="64" startPosition="126" endLine="65" endPosition="104" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="3986031709811013557" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="65" startPosition="104" endLine="66" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="16" startPosition="88" endLine="18" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="DateTimeWithPropertyOperation_fixInstance_Intention#()V" />
+    <nodeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="17" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="DateTimeWithPropertyOperation_fixInstance_Intention#()V" />
+    <nodeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="20" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
+    <nodeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="24" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPresentation#()Ljava/lang/String;" />
+    <nodeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="28" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPersistentStateKey#()Ljava/lang/String;" />
+    <nodeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="32" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLanguageFqName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="36" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getType#()Ljetbrains/mps/intentions/IntentionType;" />
+    <nodeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="40" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getIntentionNodeReference#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+    <nodeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="44" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
     <nodeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="48" startPosition="84" endLine="51" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="19" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
-    <nodeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="23" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPresentation#()Ljava/lang/String;" />
-    <nodeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="27" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPersistentStateKey#()Ljava/lang/String;" />
-    <nodeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="31" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLanguageFqName#()Ljava/lang/String;" />
-    <nodeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="35" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getType#()Ljetbrains/mps/intentions/IntentionType;" />
-    <nodeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="39" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getIntentionNodeReference#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
-    <nodeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="43" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
-    <nodeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="54" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableToNode#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
-    <nodeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="58" startPosition="0" endLine="62" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
-    <nodeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="62" startPosition="0" endLine="68" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
-    <nodeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="47" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicable#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+    <nodeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="55" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableToNode#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+    <nodeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="59" startPosition="0" endLine="62" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
+    <nodeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="63" startPosition="0" endLine="68" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+    <nodeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="48" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicable#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
     <scopeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="17" startPosition="64" endLine="17" endPosition="64" />
     <scopeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="20" startPosition="30" endLine="21" endPosition="86" />
     <scopeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="24" startPosition="35" endLine="25" endPosition="55" />
@@ -785,31 +785,31 @@
     <scopeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="49" startPosition="53" endLine="50" endPosition="19" />
     <scopeInfo nodeId="3986031709810992496" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="55" startPosition="91" endLine="56" endPosition="270" />
     <scopeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="59" startPosition="44" endLine="60" endPosition="16" />
-    <scopeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="16" startPosition="88" endLine="18" endPosition="3" />
+    <scopeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="17" startPosition="0" endLine="19" endPosition="0" />
+    <scopeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="20" startPosition="0" endLine="23" endPosition="0" />
+    <scopeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="24" startPosition="0" endLine="27" endPosition="0" />
+    <scopeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="28" startPosition="0" endLine="31" endPosition="0" />
+    <scopeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="32" startPosition="0" endLine="35" endPosition="0" />
+    <scopeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="36" startPosition="0" endLine="39" endPosition="0" />
+    <scopeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="40" startPosition="0" endLine="43" endPosition="0" />
+    <scopeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="44" startPosition="0" endLine="47" endPosition="0">
+      <varInfo nodeId="3986031709810986603" varName="editorContext" />
+      <varInfo nodeId="3986031709810986603" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="55" startPosition="0" endLine="58" endPosition="0">
+      <varInfo nodeId="3986031709810986603" varName="editorContext" />
+      <varInfo nodeId="3986031709810986603" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="59" startPosition="0" endLine="62" endPosition="0" />
     <scopeInfo nodeId="3986031709810986607" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="63" startPosition="76" endLine="66" endPosition="59">
       <varInfo nodeId="3986031709810999988" varName="ite" />
     </scopeInfo>
-    <scopeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="19" startPosition="0" endLine="23" endPosition="0" />
-    <scopeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="23" startPosition="0" endLine="27" endPosition="0" />
-    <scopeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="27" startPosition="0" endLine="31" endPosition="0" />
-    <scopeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="31" startPosition="0" endLine="35" endPosition="0" />
-    <scopeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="35" startPosition="0" endLine="39" endPosition="0" />
-    <scopeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="39" startPosition="0" endLine="43" endPosition="0" />
-    <scopeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="43" startPosition="0" endLine="47" endPosition="0">
-      <varInfo nodeId="3986031709810986603" varName="editorContext" />
-      <varInfo nodeId="3986031709810986603" varName="node" />
-    </scopeInfo>
     <scopeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="48" startPosition="84" endLine="52" endPosition="16" />
-    <scopeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="54" startPosition="0" endLine="58" endPosition="0">
+    <scopeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="63" startPosition="0" endLine="68" endPosition="0">
       <varInfo nodeId="3986031709810986603" varName="editorContext" />
       <varInfo nodeId="3986031709810986603" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="58" startPosition="0" endLine="62" endPosition="0" />
-    <scopeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="62" startPosition="0" endLine="68" endPosition="0">
-      <varInfo nodeId="3986031709810986603" varName="editorContext" />
-      <varInfo nodeId="3986031709810986603" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="47" startPosition="0" endLine="54" endPosition="0">
+    <scopeInfo nodeId="3986031709810986603" fileName="DateTimeWithPropertyOperation_fixInstance_Intention.java" startLine="48" startPosition="0" endLine="54" endPosition="0">
       <varInfo nodeId="3986031709810986603" varName="editorContext" />
       <varInfo nodeId="3986031709810986603" varName="node" />
     </scopeInfo>
@@ -831,16 +831,16 @@
     <nodeInfo nodeId="3986031709811198217" fileName="ParseExpression_convert_Intention.java" startLine="55" startPosition="102" endLine="56" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="3986031709811198234" fileName="ParseExpression_convert_Intention.java" startLine="56" startPosition="102" endLine="57" endPosition="100" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="3986031709811198251" fileName="ParseExpression_convert_Intention.java" startLine="57" startPosition="100" endLine="58" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3986031709811159350" fileName="ParseExpression_convert_Intention.java" startLine="15" startPosition="70" endLine="17" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ParseExpression_convert_Intention#()V" />
-    <nodeInfo nodeId="3986031709811159350" fileName="ParseExpression_convert_Intention.java" startLine="18" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
-    <nodeInfo nodeId="3986031709811159350" fileName="ParseExpression_convert_Intention.java" startLine="22" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPresentation#()Ljava/lang/String;" />
-    <nodeInfo nodeId="3986031709811159350" fileName="ParseExpression_convert_Intention.java" startLine="26" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPersistentStateKey#()Ljava/lang/String;" />
-    <nodeInfo nodeId="3986031709811159350" fileName="ParseExpression_convert_Intention.java" startLine="30" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLanguageFqName#()Ljava/lang/String;" />
-    <nodeInfo nodeId="3986031709811159350" fileName="ParseExpression_convert_Intention.java" startLine="34" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getType#()Ljetbrains/mps/intentions/IntentionType;" />
-    <nodeInfo nodeId="3986031709811159350" fileName="ParseExpression_convert_Intention.java" startLine="38" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getIntentionNodeReference#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
-    <nodeInfo nodeId="3986031709811159350" fileName="ParseExpression_convert_Intention.java" startLine="42" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
-    <nodeInfo nodeId="3986031709811159350" fileName="ParseExpression_convert_Intention.java" startLine="46" startPosition="0" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
-    <nodeInfo nodeId="3986031709811159350" fileName="ParseExpression_convert_Intention.java" startLine="50" startPosition="0" endLine="60" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+    <nodeInfo nodeId="3986031709811159350" fileName="ParseExpression_convert_Intention.java" startLine="16" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ParseExpression_convert_Intention#()V" />
+    <nodeInfo nodeId="3986031709811159350" fileName="ParseExpression_convert_Intention.java" startLine="19" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
+    <nodeInfo nodeId="3986031709811159350" fileName="ParseExpression_convert_Intention.java" startLine="23" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPresentation#()Ljava/lang/String;" />
+    <nodeInfo nodeId="3986031709811159350" fileName="ParseExpression_convert_Intention.java" startLine="27" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPersistentStateKey#()Ljava/lang/String;" />
+    <nodeInfo nodeId="3986031709811159350" fileName="ParseExpression_convert_Intention.java" startLine="31" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLanguageFqName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="3986031709811159350" fileName="ParseExpression_convert_Intention.java" startLine="35" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getType#()Ljetbrains/mps/intentions/IntentionType;" />
+    <nodeInfo nodeId="3986031709811159350" fileName="ParseExpression_convert_Intention.java" startLine="39" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getIntentionNodeReference#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+    <nodeInfo nodeId="3986031709811159350" fileName="ParseExpression_convert_Intention.java" startLine="43" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
+    <nodeInfo nodeId="3986031709811159350" fileName="ParseExpression_convert_Intention.java" startLine="47" startPosition="0" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
+    <nodeInfo nodeId="3986031709811159350" fileName="ParseExpression_convert_Intention.java" startLine="51" startPosition="0" endLine="60" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
     <scopeInfo nodeId="3986031709811159350" fileName="ParseExpression_convert_Intention.java" startLine="16" startPosition="46" endLine="16" endPosition="46" />
     <scopeInfo nodeId="3986031709811159350" fileName="ParseExpression_convert_Intention.java" startLine="19" startPosition="30" endLine="20" endPosition="72" />
     <scopeInfo nodeId="3986031709811159350" fileName="ParseExpression_convert_Intention.java" startLine="23" startPosition="35" endLine="24" endPosition="37" />
@@ -850,22 +850,22 @@
     <scopeInfo nodeId="3986031709811159350" fileName="ParseExpression_convert_Intention.java" startLine="39" startPosition="53" endLine="40" endPosition="138" />
     <scopeInfo nodeId="3986031709811159352" fileName="ParseExpression_convert_Intention.java" startLine="43" startPosition="85" endLine="44" endPosition="62" />
     <scopeInfo nodeId="3986031709811159350" fileName="ParseExpression_convert_Intention.java" startLine="47" startPosition="44" endLine="48" endPosition="17" />
-    <scopeInfo nodeId="3986031709811159350" fileName="ParseExpression_convert_Intention.java" startLine="15" startPosition="70" endLine="17" endPosition="3" />
-    <scopeInfo nodeId="3986031709811159350" fileName="ParseExpression_convert_Intention.java" startLine="18" startPosition="0" endLine="22" endPosition="0" />
-    <scopeInfo nodeId="3986031709811159350" fileName="ParseExpression_convert_Intention.java" startLine="22" startPosition="0" endLine="26" endPosition="0" />
-    <scopeInfo nodeId="3986031709811159350" fileName="ParseExpression_convert_Intention.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
-    <scopeInfo nodeId="3986031709811159350" fileName="ParseExpression_convert_Intention.java" startLine="30" startPosition="0" endLine="34" endPosition="0" />
-    <scopeInfo nodeId="3986031709811159350" fileName="ParseExpression_convert_Intention.java" startLine="34" startPosition="0" endLine="38" endPosition="0" />
-    <scopeInfo nodeId="3986031709811159350" fileName="ParseExpression_convert_Intention.java" startLine="38" startPosition="0" endLine="42" endPosition="0" />
-    <scopeInfo nodeId="3986031709811159350" fileName="ParseExpression_convert_Intention.java" startLine="42" startPosition="0" endLine="46" endPosition="0">
+    <scopeInfo nodeId="3986031709811159350" fileName="ParseExpression_convert_Intention.java" startLine="16" startPosition="0" endLine="18" endPosition="0" />
+    <scopeInfo nodeId="3986031709811159350" fileName="ParseExpression_convert_Intention.java" startLine="19" startPosition="0" endLine="22" endPosition="0" />
+    <scopeInfo nodeId="3986031709811159350" fileName="ParseExpression_convert_Intention.java" startLine="23" startPosition="0" endLine="26" endPosition="0" />
+    <scopeInfo nodeId="3986031709811159350" fileName="ParseExpression_convert_Intention.java" startLine="27" startPosition="0" endLine="30" endPosition="0" />
+    <scopeInfo nodeId="3986031709811159350" fileName="ParseExpression_convert_Intention.java" startLine="31" startPosition="0" endLine="34" endPosition="0" />
+    <scopeInfo nodeId="3986031709811159350" fileName="ParseExpression_convert_Intention.java" startLine="35" startPosition="0" endLine="38" endPosition="0" />
+    <scopeInfo nodeId="3986031709811159350" fileName="ParseExpression_convert_Intention.java" startLine="39" startPosition="0" endLine="42" endPosition="0" />
+    <scopeInfo nodeId="3986031709811159350" fileName="ParseExpression_convert_Intention.java" startLine="43" startPosition="0" endLine="46" endPosition="0">
       <varInfo nodeId="3986031709811159350" varName="editorContext" />
       <varInfo nodeId="3986031709811159350" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="3986031709811159350" fileName="ParseExpression_convert_Intention.java" startLine="46" startPosition="0" endLine="50" endPosition="0" />
+    <scopeInfo nodeId="3986031709811159350" fileName="ParseExpression_convert_Intention.java" startLine="47" startPosition="0" endLine="50" endPosition="0" />
     <scopeInfo nodeId="3986031709811159354" fileName="ParseExpression_convert_Intention.java" startLine="51" startPosition="76" endLine="58" endPosition="50">
       <varInfo nodeId="3986031709811177029" varName="pde" />
     </scopeInfo>
-    <scopeInfo nodeId="3986031709811159350" fileName="ParseExpression_convert_Intention.java" startLine="50" startPosition="0" endLine="60" endPosition="0">
+    <scopeInfo nodeId="3986031709811159350" fileName="ParseExpression_convert_Intention.java" startLine="51" startPosition="0" endLine="60" endPosition="0">
       <varInfo nodeId="3986031709811159350" varName="editorContext" />
       <varInfo nodeId="3986031709811159350" varName="node" />
     </scopeInfo>
@@ -888,16 +888,16 @@
     <nodeInfo nodeId="3986031709811198347" fileName="FormatExpression_convert_Intention.java" startLine="56" startPosition="110" endLine="57" endPosition="100" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="3986031709811198309" fileName="FormatExpression_convert_Intention.java" startLine="57" startPosition="100" endLine="58" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="3986031709811198888" fileName="FormatExpression_convert_Intention.java" startLine="58" startPosition="58" endLine="59" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3986031709811198260" fileName="FormatExpression_convert_Intention.java" startLine="15" startPosition="71" endLine="17" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="FormatExpression_convert_Intention#()V" />
-    <nodeInfo nodeId="3986031709811198260" fileName="FormatExpression_convert_Intention.java" startLine="18" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
-    <nodeInfo nodeId="3986031709811198260" fileName="FormatExpression_convert_Intention.java" startLine="22" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPresentation#()Ljava/lang/String;" />
-    <nodeInfo nodeId="3986031709811198260" fileName="FormatExpression_convert_Intention.java" startLine="26" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPersistentStateKey#()Ljava/lang/String;" />
-    <nodeInfo nodeId="3986031709811198260" fileName="FormatExpression_convert_Intention.java" startLine="30" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLanguageFqName#()Ljava/lang/String;" />
-    <nodeInfo nodeId="3986031709811198260" fileName="FormatExpression_convert_Intention.java" startLine="34" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getType#()Ljetbrains/mps/intentions/IntentionType;" />
-    <nodeInfo nodeId="3986031709811198260" fileName="FormatExpression_convert_Intention.java" startLine="38" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getIntentionNodeReference#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
-    <nodeInfo nodeId="3986031709811198260" fileName="FormatExpression_convert_Intention.java" startLine="42" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
-    <nodeInfo nodeId="3986031709811198260" fileName="FormatExpression_convert_Intention.java" startLine="46" startPosition="0" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
-    <nodeInfo nodeId="3986031709811198260" fileName="FormatExpression_convert_Intention.java" startLine="50" startPosition="0" endLine="61" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+    <nodeInfo nodeId="3986031709811198260" fileName="FormatExpression_convert_Intention.java" startLine="16" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="FormatExpression_convert_Intention#()V" />
+    <nodeInfo nodeId="3986031709811198260" fileName="FormatExpression_convert_Intention.java" startLine="19" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
+    <nodeInfo nodeId="3986031709811198260" fileName="FormatExpression_convert_Intention.java" startLine="23" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPresentation#()Ljava/lang/String;" />
+    <nodeInfo nodeId="3986031709811198260" fileName="FormatExpression_convert_Intention.java" startLine="27" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPersistentStateKey#()Ljava/lang/String;" />
+    <nodeInfo nodeId="3986031709811198260" fileName="FormatExpression_convert_Intention.java" startLine="31" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLanguageFqName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="3986031709811198260" fileName="FormatExpression_convert_Intention.java" startLine="35" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getType#()Ljetbrains/mps/intentions/IntentionType;" />
+    <nodeInfo nodeId="3986031709811198260" fileName="FormatExpression_convert_Intention.java" startLine="39" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getIntentionNodeReference#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+    <nodeInfo nodeId="3986031709811198260" fileName="FormatExpression_convert_Intention.java" startLine="43" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
+    <nodeInfo nodeId="3986031709811198260" fileName="FormatExpression_convert_Intention.java" startLine="47" startPosition="0" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
+    <nodeInfo nodeId="3986031709811198260" fileName="FormatExpression_convert_Intention.java" startLine="51" startPosition="0" endLine="61" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
     <scopeInfo nodeId="3986031709811198260" fileName="FormatExpression_convert_Intention.java" startLine="16" startPosition="47" endLine="16" endPosition="47" />
     <scopeInfo nodeId="3986031709811198260" fileName="FormatExpression_convert_Intention.java" startLine="19" startPosition="30" endLine="20" endPosition="73" />
     <scopeInfo nodeId="3986031709811198260" fileName="FormatExpression_convert_Intention.java" startLine="23" startPosition="35" endLine="24" endPosition="38" />
@@ -907,23 +907,23 @@
     <scopeInfo nodeId="3986031709811198260" fileName="FormatExpression_convert_Intention.java" startLine="39" startPosition="53" endLine="40" endPosition="138" />
     <scopeInfo nodeId="3986031709811198262" fileName="FormatExpression_convert_Intention.java" startLine="43" startPosition="85" endLine="44" endPosition="63" />
     <scopeInfo nodeId="3986031709811198260" fileName="FormatExpression_convert_Intention.java" startLine="47" startPosition="44" endLine="48" endPosition="16" />
-    <scopeInfo nodeId="3986031709811198260" fileName="FormatExpression_convert_Intention.java" startLine="15" startPosition="71" endLine="17" endPosition="3" />
-    <scopeInfo nodeId="3986031709811198260" fileName="FormatExpression_convert_Intention.java" startLine="18" startPosition="0" endLine="22" endPosition="0" />
-    <scopeInfo nodeId="3986031709811198260" fileName="FormatExpression_convert_Intention.java" startLine="22" startPosition="0" endLine="26" endPosition="0" />
-    <scopeInfo nodeId="3986031709811198260" fileName="FormatExpression_convert_Intention.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
-    <scopeInfo nodeId="3986031709811198260" fileName="FormatExpression_convert_Intention.java" startLine="30" startPosition="0" endLine="34" endPosition="0" />
-    <scopeInfo nodeId="3986031709811198260" fileName="FormatExpression_convert_Intention.java" startLine="34" startPosition="0" endLine="38" endPosition="0" />
-    <scopeInfo nodeId="3986031709811198260" fileName="FormatExpression_convert_Intention.java" startLine="38" startPosition="0" endLine="42" endPosition="0" />
-    <scopeInfo nodeId="3986031709811198260" fileName="FormatExpression_convert_Intention.java" startLine="42" startPosition="0" endLine="46" endPosition="0">
+    <scopeInfo nodeId="3986031709811198260" fileName="FormatExpression_convert_Intention.java" startLine="16" startPosition="0" endLine="18" endPosition="0" />
+    <scopeInfo nodeId="3986031709811198260" fileName="FormatExpression_convert_Intention.java" startLine="19" startPosition="0" endLine="22" endPosition="0" />
+    <scopeInfo nodeId="3986031709811198260" fileName="FormatExpression_convert_Intention.java" startLine="23" startPosition="0" endLine="26" endPosition="0" />
+    <scopeInfo nodeId="3986031709811198260" fileName="FormatExpression_convert_Intention.java" startLine="27" startPosition="0" endLine="30" endPosition="0" />
+    <scopeInfo nodeId="3986031709811198260" fileName="FormatExpression_convert_Intention.java" startLine="31" startPosition="0" endLine="34" endPosition="0" />
+    <scopeInfo nodeId="3986031709811198260" fileName="FormatExpression_convert_Intention.java" startLine="35" startPosition="0" endLine="38" endPosition="0" />
+    <scopeInfo nodeId="3986031709811198260" fileName="FormatExpression_convert_Intention.java" startLine="39" startPosition="0" endLine="42" endPosition="0" />
+    <scopeInfo nodeId="3986031709811198260" fileName="FormatExpression_convert_Intention.java" startLine="43" startPosition="0" endLine="46" endPosition="0">
       <varInfo nodeId="3986031709811198260" varName="editorContext" />
       <varInfo nodeId="3986031709811198260" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="3986031709811198260" fileName="FormatExpression_convert_Intention.java" startLine="46" startPosition="0" endLine="50" endPosition="0" />
+    <scopeInfo nodeId="3986031709811198260" fileName="FormatExpression_convert_Intention.java" startLine="47" startPosition="0" endLine="50" endPosition="0" />
     <scopeInfo nodeId="3986031709811198264" fileName="FormatExpression_convert_Intention.java" startLine="51" startPosition="76" endLine="59" endPosition="50">
       <varInfo nodeId="3986031709811198266" varName="fdt" />
       <varInfo nodeId="3986031709811198321" varName="ite" />
     </scopeInfo>
-    <scopeInfo nodeId="3986031709811198260" fileName="FormatExpression_convert_Intention.java" startLine="50" startPosition="0" endLine="61" endPosition="0">
+    <scopeInfo nodeId="3986031709811198260" fileName="FormatExpression_convert_Intention.java" startLine="51" startPosition="0" endLine="61" endPosition="0">
       <varInfo nodeId="3986031709811198260" varName="editorContext" />
       <varInfo nodeId="3986031709811198260" varName="node" />
     </scopeInfo>

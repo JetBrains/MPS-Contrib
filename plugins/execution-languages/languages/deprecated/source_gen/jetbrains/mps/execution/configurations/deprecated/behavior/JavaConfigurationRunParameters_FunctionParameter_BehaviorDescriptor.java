@@ -9,12 +9,12 @@ public class JavaConfigurationRunParameters_FunctionParameter_BehaviorDescriptor
   public JavaConfigurationRunParameters_FunctionParameter_BehaviorDescriptor() {
   }
 
-  public String virtual_getVariableForExecuteBlockName_1810772216404807669(SNode thisNode) {
-    return JavaConfigurationRunParameters_FunctionParameter_Behavior.virtual_getVariableForExecuteBlockName_1810772216404807669(thisNode);
-  }
-
   public SNode virtual_getParameterType_1810772216404820824(SNode thisNode) {
     return JavaConfigurationRunParameters_FunctionParameter_Behavior.virtual_getParameterType_1810772216404820824(thisNode);
+  }
+
+  public String virtual_getVariableForExecuteBlockName_1810772216404807669(SNode thisNode) {
+    return JavaConfigurationRunParameters_FunctionParameter_Behavior.virtual_getVariableForExecuteBlockName_1810772216404807669(thisNode);
   }
 
   @Override

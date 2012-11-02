@@ -6,10 +6,9 @@ import jetbrains.mps.textGen.SNodeTextGen;
 import jetbrains.mps.logging.Logger;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.textGen.TraceInfoGenerationUtil;
-import jetbrains.mps.baseLanguage.behavior.Expression_Behavior;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.lang.traceable.behavior.TraceableConcept_Behavior;
 
 public class GExpressionItem_TextGen extends SNodeTextGen {
   private static Logger LOG = Logger.getLogger(GExpressionItem_TextGen.class);
@@ -18,12 +17,12 @@ public class GExpressionItem_TextGen extends SNodeTextGen {
     if (getBuffer().hasPositionsSupport()) {
       TraceInfoGenerationUtil.createPositionInfo(this, node);
     }
-    this.append(((String) Expression_Behavior.call_eval_1213877519769(SLinkOperations.getTarget(node, "expression", true), SNodeOperations.getModel(node).getModelDescriptor().getModule())));
+    this.append(((String) BehaviorReflection.invokeVirtual(Object.class, SLinkOperations.getTarget(node, "expression", true), "virtual_eval_1213877519769", new Object[]{SNodeOperations.getModel(node).getModelDescriptor().getModule()})));
     if (getBuffer().hasPositionsSupport()) {
       {
         String traceableProperty = "";
         try {
-          traceableProperty = TraceableConcept_Behavior.call_getTraceableProperty_5067982036267369901(SNodeOperations.cast(node, "jetbrains.mps.lang.traceable.structure.TraceableConcept"));
+          traceableProperty = BehaviorReflection.invokeVirtual(String.class, SNodeOperations.cast(node, "jetbrains.mps.lang.traceable.structure.TraceableConcept"), "virtual_getTraceableProperty_5067982036267369901", new Object[]{});
         } catch (Throwable t) {
           LOG.error("Can't calculate traceable prorerty for a node " + node + ".", t);
         }

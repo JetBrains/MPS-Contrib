@@ -8,7 +8,8 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.typesystem.inference.TypeCheckingContext;
 import jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.build.generictasks.behavior.ITaskDeclaration_Behavior;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
+import java.util.List;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.build.generictasks.behavior.AttributeDeclaration_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
@@ -22,7 +23,7 @@ public class checkAllRequiredAttributesPresent_NonTypesystemRule extends Abstrac
   }
 
   public void applyRule(final SNode genericTaskCall, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
-    for (SNode attrDecl : ListSequence.fromList(ITaskDeclaration_Behavior.call_getAttributesDeclarations_1190349257898147625(SLinkOperations.getTarget(genericTaskCall, "declaration", false)))) {
+    for (SNode attrDecl : ListSequence.fromList(BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), SLinkOperations.getTarget(genericTaskCall, "declaration", false), "virtual_getAttributesDeclarations_1190349257898147625", new Object[]{}))) {
       if (AttributeDeclaration_Behavior.call_isRequired_353793545802643811(attrDecl)) {
         boolean found = false;
         for (SNode attr : ListSequence.fromList(SLinkOperations.getTargets(genericTaskCall, "atributes", true))) {
