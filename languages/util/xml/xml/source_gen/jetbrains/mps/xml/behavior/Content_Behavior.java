@@ -20,7 +20,7 @@ public class Content_Behavior {
         return true;
       }
     }
-    return parent.isRoot() || SNodeOperations.isInstanceOf(parent, "jetbrains.mps.xmlInternal.structure.ContentStatement");
+    return jetbrains.mps.util.SNodeOperations.isRoot(parent) || SNodeOperations.isInstanceOf(parent, "jetbrains.mps.xmlInternal.structure.ContentStatement");
   }
 
   public static String call_isSeparate_string_1213877224300(SNode thisNode) {

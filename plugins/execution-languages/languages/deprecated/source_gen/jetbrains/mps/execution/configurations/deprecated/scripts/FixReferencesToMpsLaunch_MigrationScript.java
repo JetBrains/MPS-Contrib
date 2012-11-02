@@ -6,8 +6,8 @@ import jetbrains.mps.lang.script.runtime.BaseMigrationScript;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.lang.script.runtime.AbstractMigrationRefactoring;
 import jetbrains.mps.smodel.SNode;
+import jetbrains.mps.util.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.Sequence;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import java.util.Set;
@@ -36,12 +36,12 @@ public class FixReferencesToMpsLaunch_MigrationScript extends BaseMigrationScrip
 
       public boolean isApplicableInstanceNode(SNode node) {
         // only root nodes 
-        return node.isRoot() && Sequence.fromIterable(ScriptsUtil.getImports(SNodeOperations.getModel(node), "jetbrains.mps.baseLanguage.util.plugin.run")).isNotEmpty();
+        return SNodeOperations.isRoot(node) && Sequence.fromIterable(ScriptsUtil.getImports(jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations.getModel(node), "jetbrains.mps.baseLanguage.util.plugin.run")).isNotEmpty();
       }
 
       public void doUpdateInstanceNode(SNode node) {
         SNode mpsLaunch = SLinkOperations.getTarget(new FixReferencesToMpsLaunch_MigrationScript.QuotationClass_cadwxu_a0a0a0e0a0a0a0b0a().createNode(), "classifier", false);
-        ScriptsUtil.updateReferencesToClassifier(node, "jetbrains.mps.baseLanguage.util.plugin.run", SPropertyOperations.getString(mpsLaunch, "name"), SNodeOperations.getModel(mpsLaunch).getSModelReference(), mpsLaunch);
+        ScriptsUtil.updateReferencesToClassifier(node, "jetbrains.mps.baseLanguage.util.plugin.run", SPropertyOperations.getString(mpsLaunch, "name"), jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations.getModel(mpsLaunch).getSModelReference(), mpsLaunch);
       }
 
       public boolean isShowAsIntention() {

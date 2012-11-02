@@ -6,8 +6,8 @@ import jetbrains.mps.lang.script.runtime.BaseMigrationScript;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.lang.script.runtime.AbstractMigrationRefactoring;
 import jetbrains.mps.smodel.SNode;
+import jetbrains.mps.util.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.Sequence;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.SModel;
 import jetbrains.mps.internal.collections.runtime.ISequenceClosure;
@@ -38,11 +38,11 @@ public class FixReferencesToDeletedRunModels_MigrationScript extends BaseMigrati
 
       public boolean isApplicableInstanceNode(SNode node) {
         // only root nodes 
-        return node.isRoot() && Sequence.fromIterable(ScriptsUtil.getImports(SNodeOperations.getModel(node), "jetbrains.mps.baseLanguage.util.plugin.run")).isNotEmpty();
+        return SNodeOperations.isRoot(node) && Sequence.fromIterable(ScriptsUtil.getImports(jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations.getModel(node), "jetbrains.mps.baseLanguage.util.plugin.run")).isNotEmpty();
       }
 
       public void doUpdateInstanceNode(SNode node) {
-        ScriptsUtil.updateReferencesToModel(node, "jetbrains.mps.baseLanguage.util.plugin.run", SNodeOperations.getModel(SLinkOperations.getTarget(new FixReferencesToDeletedRunModels_MigrationScript.QuotationClass_s5mt6f_a0a0a2a0a4a0a0a0a1a0().createNode(), "classifier", false)).getSModelReference());
+        ScriptsUtil.updateReferencesToModel(node, "jetbrains.mps.baseLanguage.util.plugin.run", jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations.getModel(SLinkOperations.getTarget(new FixReferencesToDeletedRunModels_MigrationScript.QuotationClass_s5mt6f_a0a0a2a0a4a0a0a0a1a0().createNode(), "classifier", false)).getSModelReference());
       }
 
       public boolean isShowAsIntention() {
@@ -64,8 +64,8 @@ public class FixReferencesToDeletedRunModels_MigrationScript extends BaseMigrati
 
       public boolean isApplicableInstanceNode(SNode node) {
         // only root nodes 
-        final SModel model = SNodeOperations.getModel(node);
-        return node.isRoot() && Sequence.fromIterable(Sequence.fromClosure(new ISequenceClosure<SModel.ImportElement>() {
+        final SModel model = jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations.getModel(node);
+        return SNodeOperations.isRoot(node) && Sequence.fromIterable(Sequence.fromClosure(new ISequenceClosure<SModel.ImportElement>() {
           public Iterable<SModel.ImportElement> iterable() {
             return model.importedModels();
           }
@@ -77,7 +77,7 @@ public class FixReferencesToDeletedRunModels_MigrationScript extends BaseMigrati
       }
 
       public void doUpdateInstanceNode(SNode node) {
-        ScriptsUtil.updateReferencesToModel(node, "jetbrains.mps.lang.plugin.run", SNodeOperations.getModel(SLinkOperations.getTarget(new FixReferencesToDeletedRunModels_MigrationScript.QuotationClass_s5mt6f_a0a0a2a0a4a0a0a0a2a0().createNode(), "classifier", false)).getSModelReference());
+        ScriptsUtil.updateReferencesToModel(node, "jetbrains.mps.lang.plugin.run", jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations.getModel(SLinkOperations.getTarget(new FixReferencesToDeletedRunModels_MigrationScript.QuotationClass_s5mt6f_a0a0a2a0a4a0a0a0a2a0().createNode(), "classifier", false)).getSModelReference());
       }
 
       public boolean isShowAsIntention() {

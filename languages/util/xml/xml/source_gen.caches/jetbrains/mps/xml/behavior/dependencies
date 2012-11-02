@@ -87,6 +87,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorManager" />
     <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
+    <classNode dependClassName="jetbrains.mps.util.SNodeOperations" />
     <classNode dependClassName="jetbrains.mps.xml.behavior.ContentList_Behavior" />
   </dependency>
   <dependency className="jetbrains.mps.xml.behavior.Content_BehaviorDescriptor" file="Content_BehaviorDescriptor.java">
