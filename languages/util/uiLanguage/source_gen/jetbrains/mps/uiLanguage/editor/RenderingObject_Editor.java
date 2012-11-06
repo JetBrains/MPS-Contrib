@@ -14,7 +14,7 @@ public class RenderingObject_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_hxsmgw_a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "object");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "object");
     editorCell.setCellId("Constant_hxsmgw_a");
     editorCell.setDefaultText("");
     return editorCell;

@@ -28,14 +28,14 @@ public class InlineRenderer_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_xkhr9k_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "renderer(inline)");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "renderer(inline)");
     editorCell.setCellId("Constant_xkhr9k_a0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_xkhr9k_b0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, ":");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ":");
     editorCell.setCellId("Constant_xkhr9k_b0");
     editorCell.setDefaultText("");
     return editorCell;
