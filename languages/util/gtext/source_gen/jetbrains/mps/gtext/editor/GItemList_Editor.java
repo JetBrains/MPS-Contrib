@@ -58,7 +58,7 @@ public class GItemList_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_39hcsa_a0a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "*");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "*");
     editorCell.setCellId("Constant_39hcsa_a0a");
     {
       Style style = editorCell.getStyle();
@@ -69,7 +69,7 @@ public class GItemList_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_39hcsa_a0a_0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "*");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "*");
     editorCell.setCellId("Constant_39hcsa_a0a_0");
     {
       Style style = editorCell.getStyle();

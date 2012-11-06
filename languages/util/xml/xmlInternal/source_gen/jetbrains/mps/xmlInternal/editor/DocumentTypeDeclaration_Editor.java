@@ -58,7 +58,7 @@ public class DocumentTypeDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_eyi3ub_a0a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "<!");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<!");
     editorCell.setCellId("Constant_eyi3ub_a0a");
     BaseLanguageStyle_StyleSheet.getLeftParen(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -66,21 +66,21 @@ public class DocumentTypeDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_eyi3ub_b0a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "DOCTYPE");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "DOCTYPE");
     editorCell.setCellId("Constant_eyi3ub_b0a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_eyi3ub_c0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, ">");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ">");
     editorCell.setCellId("Constant_eyi3ub_c0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createIndentCell_eyi3ub_a1a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent((jetbrains.mps.nodeEditor.EditorContext) editorContext, node);
+    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
     return result;
   }
 

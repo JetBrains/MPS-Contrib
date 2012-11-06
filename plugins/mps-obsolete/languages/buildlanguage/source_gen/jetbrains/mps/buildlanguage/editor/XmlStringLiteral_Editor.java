@@ -27,7 +27,7 @@ public class XmlStringLiteral_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_3evswi_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "xml:");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "xml:");
     editorCell.setCellId("Constant_3evswi_a0");
     editorCell.setDefaultText("");
     return editorCell;

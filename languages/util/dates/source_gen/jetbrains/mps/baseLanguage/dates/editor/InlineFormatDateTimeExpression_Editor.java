@@ -87,7 +87,7 @@ public class InlineFormatDateTimeExpression_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_wdrux0_b0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "#");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "#");
     editorCell.setCellId("Constant_wdrux0_b0");
     BaseLanguageStyle_StyleSheet.getOperator(editorCell).apply(editorCell);
     {
@@ -101,7 +101,7 @@ public class InlineFormatDateTimeExpression_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_wdrux0_c0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "{");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "{");
     editorCell.setCellId("Constant_wdrux0_c0");
     BaseLanguageStyle_StyleSheet.getLeftParenAfterName(editorCell).apply(editorCell);
     InlineFormatDateTimeExpression_delete.setCellActions(editorCell, node, editorContext);
@@ -110,7 +110,7 @@ public class InlineFormatDateTimeExpression_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_wdrux0_e0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "}");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "}");
     editorCell.setCellId("Constant_wdrux0_e0");
     BaseLanguageStyle_StyleSheet.getRightParen(editorCell).apply(editorCell);
     {
@@ -123,7 +123,7 @@ public class InlineFormatDateTimeExpression_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_wdrux0_a5a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "(");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
     editorCell.setCellId("Constant_wdrux0_a5a");
     BaseLanguageStyle_StyleSheet.getLeftParen(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -131,7 +131,7 @@ public class InlineFormatDateTimeExpression_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_wdrux0_c5a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, ")");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
     editorCell.setCellId("Constant_wdrux0_c5a");
     BaseLanguageStyle_StyleSheet.getRightParen(editorCell).apply(editorCell);
     InlineFormatDateTimeExpression_deleteLocale.setCellActions(editorCell, node, editorContext);
@@ -140,7 +140,7 @@ public class InlineFormatDateTimeExpression_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_wdrux0_a0a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "locale");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "locale");
     editorCell.setCellId("Constant_wdrux0_a0a");
     editorCell.setDefaultText("");
     return editorCell;
@@ -321,7 +321,7 @@ public class InlineFormatDateTimeExpression_Editor extends DefaultNodeEditor {
     }
 
     private EditorCell createConstant_wdrux0_a3a(EditorContext editorContext, SNode node) {
-      EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "");
+      EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
       editorCell.setCellId("Constant_wdrux0_a3a");
       {
         Style style = editorCell.getStyle();

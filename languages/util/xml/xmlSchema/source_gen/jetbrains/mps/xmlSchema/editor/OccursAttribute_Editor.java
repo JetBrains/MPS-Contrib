@@ -33,7 +33,7 @@ public class OccursAttribute_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_cn93sb_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "[");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "[");
     editorCell.setCellId("Constant_cn93sb_a0");
     {
       Style style = editorCell.getStyle();
@@ -44,14 +44,14 @@ public class OccursAttribute_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_cn93sb_c0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, ":");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ":");
     editorCell.setCellId("Constant_cn93sb_c0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_cn93sb_e0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "]");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "]");
     editorCell.setCellId("Constant_cn93sb_e0");
     {
       Style style = editorCell.getStyle();

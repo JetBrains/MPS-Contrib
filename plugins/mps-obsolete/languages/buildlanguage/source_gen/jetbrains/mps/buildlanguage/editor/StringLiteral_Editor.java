@@ -33,7 +33,7 @@ public class StringLiteral_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_fgt3_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "\"");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\"");
     editorCell.setCellId("Constant_fgt3_a0");
     BuildLanguageStyle_StyleSheet.getStringLiteral(editorCell).apply(editorCell);
     {
@@ -45,7 +45,7 @@ public class StringLiteral_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_fgt3_c0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "\"");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\"");
     editorCell.setCellId("Constant_fgt3_c0");
     BuildLanguageStyle_StyleSheet.getStringLiteral(editorCell).apply(editorCell);
     {

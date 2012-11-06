@@ -14,7 +14,7 @@ public class GItem_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createError_4defuh_a(EditorContext editorContext, SNode node) {
-    EditorCell_Error editorCell = new EditorCell_Error((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "gItem");
+    EditorCell_Error editorCell = new EditorCell_Error(editorContext, node, "gItem");
     editorCell.setCellId("Error_4defuh_a");
     return editorCell;
   }

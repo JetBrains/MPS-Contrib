@@ -33,7 +33,7 @@ public class Extension_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_s04tli_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "extension");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "extension");
     editorCell.setCellId("Constant_s04tli_a0");
     {
       Style style = editorCell.getStyle();
@@ -44,7 +44,7 @@ public class Extension_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_s04tli_c0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "(");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
     editorCell.setCellId("Constant_s04tli_c0");
     {
       Style style = editorCell.getStyle();
@@ -55,7 +55,7 @@ public class Extension_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_s04tli_e0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, ")");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
     editorCell.setCellId("Constant_s04tli_e0");
     {
       Style style = editorCell.getStyle();

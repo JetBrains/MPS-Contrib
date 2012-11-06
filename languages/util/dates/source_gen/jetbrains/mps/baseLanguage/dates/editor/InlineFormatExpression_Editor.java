@@ -113,7 +113,7 @@ public class InlineFormatExpression_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_b4441e_a1a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "in");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "in");
     editorCell.setCellId("Constant_b4441e_a1a");
     DatesInternal_StyleSheet.getSimpleText(editorCell).apply(editorCell);
     {
@@ -125,7 +125,7 @@ public class InlineFormatExpression_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_b4441e_c0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "#");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "#");
     editorCell.setCellId("Constant_b4441e_c0");
     BaseLanguageStyle_StyleSheet.getOperator(editorCell).apply(editorCell);
     {
@@ -138,7 +138,7 @@ public class InlineFormatExpression_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_b4441e_d0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "{");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "{");
     editorCell.setCellId("Constant_b4441e_d0");
     BaseLanguageStyle_StyleSheet.getLeftBrace(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -146,7 +146,7 @@ public class InlineFormatExpression_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_b4441e_f0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "}");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "}");
     editorCell.setCellId("Constant_b4441e_f0");
     BaseLanguageStyle_StyleSheet.getRightBrace(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -154,7 +154,7 @@ public class InlineFormatExpression_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_b4441e_a6a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "with locale");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "with locale");
     editorCell.setCellId("Constant_b4441e_a6a");
     Dates_StyleSheet.getDateCompactKeyWord(editorCell).apply(editorCell);
     {
@@ -166,7 +166,7 @@ public class InlineFormatExpression_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_b4441e_b6a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "(");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
     editorCell.setCellId("Constant_b4441e_b6a");
     BaseLanguageStyle_StyleSheet.getLeftParen(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -174,7 +174,7 @@ public class InlineFormatExpression_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_b4441e_d6a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, ")");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
     editorCell.setCellId("Constant_b4441e_d6a");
     BaseLanguageStyle_StyleSheet.getRightParen(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -182,21 +182,21 @@ public class InlineFormatExpression_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_b4441e_a0a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "locale");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "locale");
     editorCell.setCellId("Constant_b4441e_a0a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_b4441e_a1a_0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "datetime");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "datetime");
     editorCell.setCellId("Constant_b4441e_a1a_0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_b4441e_b1a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "zone");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "zone");
     editorCell.setCellId("Constant_b4441e_b1a");
     editorCell.setDefaultText("");
     return editorCell;
@@ -415,7 +415,7 @@ public class InlineFormatExpression_Editor extends DefaultNodeEditor {
     }
 
     private EditorCell createConstant_b4441e_a4a(EditorContext editorContext, SNode node) {
-      EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "");
+      EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
       editorCell.setCellId("Constant_b4441e_a4a");
       {
         Style style = editorCell.getStyle();

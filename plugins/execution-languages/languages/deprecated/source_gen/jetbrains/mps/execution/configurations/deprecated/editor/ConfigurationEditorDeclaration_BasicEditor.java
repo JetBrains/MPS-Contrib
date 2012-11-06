@@ -57,7 +57,7 @@ public class ConfigurationEditorDeclaration_BasicEditor extends AbstractCellProv
   }
 
   private EditorCell createConstant_i31dfd_a0a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "component:");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "component:");
     editorCell.setCellId("Constant_i31dfd_a0a");
     editorCell.setDefaultText("");
     return editorCell;

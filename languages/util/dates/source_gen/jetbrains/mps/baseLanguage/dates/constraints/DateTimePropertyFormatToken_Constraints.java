@@ -49,7 +49,7 @@ public class DateTimePropertyFormatToken_Constraints extends BaseConstraintsDesc
       @Nullable
       @Override
       public ReferenceScopeProvider getScopeProvider() {
-        return new BaseScopeProvider();
+        return new BaseScopeProvider() {};
       }
     });
     references.put("dateTimePropertyFormatType", new BaseReferenceConstraintsDescriptor("dateTimePropertyFormatType", this) {

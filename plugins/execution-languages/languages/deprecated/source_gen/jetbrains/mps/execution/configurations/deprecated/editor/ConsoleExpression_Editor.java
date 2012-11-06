@@ -15,7 +15,7 @@ public class ConsoleExpression_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_dmt5ce_a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "console");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "console");
     editorCell.setCellId("Constant_dmt5ce_a");
     BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
     editorCell.setDefaultText("");

@@ -63,7 +63,7 @@ public class ConditionalFormatToken_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_7nfs0o_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "switch");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "switch");
     editorCell.setCellId("Constant_7nfs0o_a0");
     Dates_StyleSheet.getDateCompactKeyWord(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -71,7 +71,7 @@ public class ConditionalFormatToken_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_7nfs0o_b0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "{");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "{");
     editorCell.setCellId("Constant_7nfs0o_b0");
     BaseLanguageStyle_StyleSheet.getLeftBrace(editorCell).apply(editorCell);
     {
@@ -83,7 +83,7 @@ public class ConditionalFormatToken_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_7nfs0o_d0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "}");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "}");
     editorCell.setCellId("Constant_7nfs0o_d0");
     BaseLanguageStyle_StyleSheet.getRightBrace(editorCell).apply(editorCell);
     {
@@ -95,7 +95,7 @@ public class ConditionalFormatToken_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_7nfs0o_a0a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "name");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "name");
     editorCell.setCellId("Constant_7nfs0o_a0a");
     editorCell.setDefaultText("");
     return editorCell;
@@ -174,7 +174,7 @@ public class ConditionalFormatToken_Editor extends DefaultNodeEditor {
     }
 
     private EditorCell createConstant_7nfs0o_a2a(EditorContext editorContext, SNode node) {
-      EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "");
+      EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
       editorCell.setCellId("Constant_7nfs0o_a2a");
       editorCell.setDefaultText("");
       return editorCell;

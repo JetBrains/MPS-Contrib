@@ -73,7 +73,7 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_ehy6fr_c0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "date");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "date");
     editorCell.setCellId("Constant_ehy6fr_c0");
     Dates_StyleSheet.getDateSmall(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -81,7 +81,7 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_ehy6fr_a4a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "by");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "by");
     editorCell.setCellId("Constant_ehy6fr_a4a");
     BaseLanguageStyle_StyleSheet.getOperator(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -89,7 +89,7 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_ehy6fr_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "Compare datetime expressions by");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Compare datetime expressions by");
     editorCell.setCellId("Constant_ehy6fr_a0");
     editorCell.setDefaultText("");
     return editorCell;

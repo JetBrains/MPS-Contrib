@@ -298,7 +298,7 @@
     <nodeInfo nodeId="4815471077468703816" fileName="XMLElementType_Constraints.java" startLine="86" startPosition="136" endLine="87" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="3096351618093111307" fileName="XMLElementType_Constraints.java" startLine="91" startPosition="139" endLine="92" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.AssertStatement" />
     <nodeInfo nodeId="3096351618093111311" fileName="XMLElementType_Constraints.java" startLine="92" startPosition="50" endLine="93" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4815471077468703816" fileName="XMLElementType_Constraints.java" startLine="98" startPosition="56" endLine="99" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4815471077468703816" fileName="XMLElementType_Constraints.java" startLine="98" startPosition="56" endLine="99" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4815471077468703816" fileName="XMLElementType_Constraints.java" startLine="101" startPosition="7" endLine="102" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4815471077468703816" fileName="XMLElementType_Constraints.java" startLine="26" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="XMLElementType_Constraints#()V" />
     <nodeInfo nodeId="4815471077468703816" fileName="XMLElementType_Constraints.java" startLine="44" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="onReferenceSet#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/IScope;)V" />
@@ -329,7 +329,7 @@
     <scopeInfo nodeId="4815471077468703816" fileName="XMLElementType_Constraints.java" startLine="73" startPosition="61" endLine="74" endPosition="58" />
     <scopeInfo nodeId="4815471077468703816" fileName="XMLElementType_Constraints.java" startLine="81" startPosition="52" endLine="82" endPosition="20" />
     <scopeInfo nodeId="4815471077468703816" fileName="XMLElementType_Constraints.java" startLine="86" startPosition="136" endLine="87" endPosition="20" />
-    <scopeInfo nodeId="4815471077468703816" fileName="XMLElementType_Constraints.java" startLine="98" startPosition="56" endLine="99" endPosition="39" />
+    <scopeInfo nodeId="4815471077468703816" fileName="XMLElementType_Constraints.java" startLine="98" startPosition="56" endLine="99" endPosition="42" />
     <scopeInfo nodeId="3096351618093111306" fileName="XMLElementType_Constraints.java" startLine="91" startPosition="139" endLine="93" endPosition="77" />
     <scopeInfo nodeId="4815471077468703816" fileName="XMLElementType_Constraints.java" startLine="26" startPosition="0" endLine="29" endPosition="0" />
     <scopeInfo nodeId="4815471077468703816" fileName="XMLElementType_Constraints.java" startLine="44" startPosition="0" endLine="47" endPosition="0">
@@ -376,7 +376,7 @@
       <varInfo nodeId="4815471077468703816" varName="references" />
     </scopeInfo>
     <scopeInfo nodeId="4815471077468703816" fileName="XMLElementType_Constraints.java" startLine="30" startPosition="0" endLine="104" endPosition="0" />
-    <unitInfo nodeId="4815471077468703816" fileName="XMLElementType_Constraints.java" startLine="99" startPosition="19" endLine="23" endPosition="0" />
+    <unitInfo nodeId="4815471077468703816" fileName="XMLElementType_Constraints.java" startLine="99" startPosition="19" endLine="99" endPosition="41" unitName="jetbrains.mps.xmlQuery.constraints.XMLElementType_Constraints$3" />
     <unitInfo nodeId="4815471077468703816" fileName="XMLElementType_Constraints.java" startLine="56" startPosition="19" endLine="76" endPosition="9" unitName="jetbrains.mps.xmlQuery.constraints.XMLElementType_Constraints$2" />
     <unitInfo nodeId="4815471077468703816" fileName="XMLElementType_Constraints.java" startLine="79" startPosition="33" endLine="101" endPosition="5" unitName="jetbrains.mps.xmlQuery.constraints.XMLElementType_Constraints$2" />
     <unitInfo nodeId="4815471077468703816" fileName="XMLElementType_Constraints.java" startLine="33" startPosition="38" endLine="78" endPosition="5" unitName="jetbrains.mps.xmlQuery.constraints.XMLElementType_Constraints$1" />

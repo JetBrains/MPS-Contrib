@@ -96,7 +96,7 @@ public class XMLElementType_Constraints extends BaseConstraintsDescriptor {
       @Nullable
       @Override
       public ReferenceScopeProvider getScopeProvider() {
-        return new BaseScopeProvider();
+        return new BaseScopeProvider() {};
       }
     });
     return references;

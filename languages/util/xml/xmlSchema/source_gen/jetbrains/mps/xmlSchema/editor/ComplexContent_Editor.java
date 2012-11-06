@@ -30,7 +30,7 @@ public class ComplexContent_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_npeg1_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "complexContent");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "complexContent");
     editorCell.setCellId("Constant_npeg1_a0");
     {
       Style style = editorCell.getStyle();

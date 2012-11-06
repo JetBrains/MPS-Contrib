@@ -83,7 +83,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_o189cj_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "Date/Time formatter settings");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Date/Time formatter settings");
     editorCell.setCellId("Constant_o189cj_a0");
     BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -91,7 +91,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_o189cj_b0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "{");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "{");
     editorCell.setCellId("Constant_o189cj_b0");
     BaseLanguageStyle_StyleSheet.getMatching(editorCell).apply(editorCell);
     {
@@ -104,7 +104,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_o189cj_b2a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_o189cj_b2a");
     {
       Style style = editorCell.getStyle();
@@ -116,7 +116,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_o189cj_d2a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_o189cj_d2a");
     {
       Style style = editorCell.getStyle();
@@ -128,7 +128,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_o189cj_a0e2a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "datetime property cardinalities");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "datetime property cardinalities");
     editorCell.setCellId("Constant_o189cj_a0e2a");
     BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
     {
@@ -140,7 +140,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_o189cj_b0e2a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "{");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "{");
     editorCell.setCellId("Constant_o189cj_b0e2a");
     DatesInternal_StyleSheet.getSimpleText(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -148,7 +148,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_o189cj_c4c0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "}");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "}");
     editorCell.setCellId("Constant_o189cj_c4c0");
     DatesInternal_StyleSheet.getSimpleText(editorCell).apply(editorCell);
     {
@@ -160,7 +160,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_o189cj_f2a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_o189cj_f2a");
     {
       Style style = editorCell.getStyle();
@@ -172,7 +172,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_o189cj_d0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "}");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "}");
     editorCell.setCellId("Constant_o189cj_d0");
     BaseLanguageStyle_StyleSheet.getMatching(editorCell).apply(editorCell);
     {
@@ -277,7 +277,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
     }
 
     private EditorCell createConstant_o189cj_a0c0(EditorContext editorContext, SNode node) {
-      EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "<predefined date formats>");
+      EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<predefined date formats>");
       editorCell.setCellId("Constant_o189cj_a0c0");
       {
         Style style = editorCell.getStyle();
@@ -328,7 +328,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
     }
 
     private EditorCell createConstant_o189cj_a2c0(EditorContext editorContext, SNode node) {
-      EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "<predefined period formats>");
+      EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<predefined period formats>");
       editorCell.setCellId("Constant_o189cj_a2c0");
       {
         Style style = editorCell.getStyle();
@@ -379,7 +379,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
     }
 
     private EditorCell createConstant_o189cj_a1e2a(EditorContext editorContext, SNode node) {
-      EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "<no datetime property cardinalities>");
+      EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<no datetime property cardinalities>");
       editorCell.setCellId("Constant_o189cj_a1e2a");
       {
         Style style = editorCell.getStyle();
@@ -430,7 +430,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
     }
 
     private EditorCell createConstant_o189cj_a6c0(EditorContext editorContext, SNode node) {
-      EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "<no datetime property format configuration>");
+      EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<no datetime property format configuration>");
       editorCell.setCellId("Constant_o189cj_a6c0");
       {
         Style style = editorCell.getStyle();

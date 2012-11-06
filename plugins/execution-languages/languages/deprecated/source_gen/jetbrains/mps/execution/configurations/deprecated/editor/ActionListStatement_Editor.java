@@ -29,14 +29,14 @@ public class ActionListStatement_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_4ufqrs_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "actionList");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "actionList");
     editorCell.setCellId("Constant_4ufqrs_a0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_4ufqrs_c0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, ";");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ";");
     editorCell.setCellId("Constant_4ufqrs_c0");
     BaseLanguageStyle_StyleSheet.getSemicolon(editorCell).apply(editorCell);
     editorCell.setDefaultText("");

@@ -118,14 +118,14 @@ public class RunConfigurationPresentation extends AbstractCellProvider {
   }
 
   private EditorCell createConstant_ltb2bm_a0a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "caption:");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "caption:");
     editorCell.setCellId("Constant_ltb2bm_a0a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_ltb2bm_a1a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "icon:");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "icon:");
     editorCell.setCellId("Constant_ltb2bm_a1a");
     {
       Style style = editorCell.getStyle();
@@ -136,7 +136,7 @@ public class RunConfigurationPresentation extends AbstractCellProvider {
   }
 
   private EditorCell createConstant_ltb2bm_a1b0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "<no icon>");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<no icon>");
     editorCell.setCellId("Constant_ltb2bm_a1b0");
     {
       Style style = editorCell.getStyle();
@@ -147,7 +147,7 @@ public class RunConfigurationPresentation extends AbstractCellProvider {
   }
 
   private EditorCell createConstant_ltb2bm_a2a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "is debuggable:");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "is debuggable:");
     editorCell.setCellId("Constant_ltb2bm_a2a");
     editorCell.setDefaultText("");
     return editorCell;

@@ -17,7 +17,7 @@ public class GIndent_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_dzljng_a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "indent");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "indent");
     editorCell.setCellId("Constant_dzljng_a");
     {
       Style style = editorCell.getStyle();

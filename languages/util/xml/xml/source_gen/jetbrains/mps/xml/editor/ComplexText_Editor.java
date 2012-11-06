@@ -32,7 +32,7 @@ public class ComplexText_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_ohdes7_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "*");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "*");
     editorCell.setCellId("Constant_ohdes7_a0");
     XmlStyle_StyleSheet.getXmlComplexText_Start(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
@@ -40,7 +40,7 @@ public class ComplexText_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_ohdes7_c0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "*");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "*");
     editorCell.setCellId("Constant_ohdes7_c0");
     XmlStyle_StyleSheet.getXmlComplexText_End(editorCell).apply(editorCell);
     editorCell.setDefaultText("");

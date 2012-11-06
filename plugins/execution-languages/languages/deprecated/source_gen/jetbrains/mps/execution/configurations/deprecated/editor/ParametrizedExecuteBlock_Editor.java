@@ -150,43 +150,43 @@ public class ParametrizedExecuteBlock_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_elhbwn_a1b1a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "actions:");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "actions:");
     editorCell.setCellId("Constant_elhbwn_a1b1a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_elhbwn_a2b1a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "console:");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "console:");
     editorCell.setCellId("Constant_elhbwn_a2b1a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createConstant_elhbwn_a3b1a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant((jetbrains.mps.nodeEditor.EditorContext) editorContext, node, "process:");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "process:");
     editorCell.setCellId("Constant_elhbwn_a3b1a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createIndentCell_elhbwn_a1a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent((jetbrains.mps.nodeEditor.EditorContext) editorContext, node);
+    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
     return result;
   }
 
   private EditorCell createIndentCell_elhbwn_a1b1b0(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent((jetbrains.mps.nodeEditor.EditorContext) editorContext, node);
+    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
     return result;
   }
 
   private EditorCell createIndentCell_elhbwn_a1c1b0(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent((jetbrains.mps.nodeEditor.EditorContext) editorContext, node);
+    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
     return result;
   }
 
   private EditorCell createIndentCell_elhbwn_a1d1b0(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent((jetbrains.mps.nodeEditor.EditorContext) editorContext, node);
+    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
     return result;
   }
 
