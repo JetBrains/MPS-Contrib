@@ -4,5 +4,4 @@ package jetbrains.mps.xml.deprecated.generator.xml;
 
 
 public class QueriesGenerated {
-
 }
