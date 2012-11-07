@@ -9,8 +9,9 @@ import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
+import jetbrains.mps.lang.core.editor.AliasEditorComponent;
 import jetbrains.mps.buildlanguage.editor.BuildLanguageStyle_StyleSheet;
+import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Indent;
@@ -19,7 +20,6 @@ import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
-import jetbrains.mps.lang.editor.cellProviders.ConceptPropertyCellProvider;
 import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
@@ -72,7 +72,7 @@ public class TaskDeclarationHeader_EditorComponent extends AbstractCellProvider 
     if (renderingCondition_ws04gp_a0a0(node, editorContext, editorContext.getOperationContext().getScope())) {
       editorCell.addEditorCell(this.createConstant_ws04gp_a0a(editorContext, node));
     }
-    editorCell.addEditorCell(this.createConceptProperty_ws04gp_b0a(editorContext, node));
+    editorCell.addEditorCell(this.createComponent_ws04gp_b0a(editorContext, node));
     editorCell.addEditorCell(this.createProperty_ws04gp_c0a(editorContext, node));
     if (renderingCondition_ws04gp_a3a0(node, editorContext, editorContext.getOperationContext().getScope())) {
       editorCell.addEditorCell(this.createConstant_ws04gp_d0a(editorContext, node));
@@ -121,6 +121,13 @@ public class TaskDeclarationHeader_EditorComponent extends AbstractCellProvider 
     editorCell.addEditorCell(this.createIndentCell_ws04gp_a2a(editorContext, node));
     editorCell.addEditorCell(this.createConstant_ws04gp_b2a(editorContext, node));
     editorCell.addEditorCell(this.createProperty_ws04gp_c2a(editorContext, node));
+    return editorCell;
+  }
+
+  private EditorCell createComponent_ws04gp_b0a(EditorContext editorContext, SNode node) {
+    AbstractCellProvider provider = new AliasEditorComponent(node);
+    EditorCell editorCell = provider.createEditorCell(editorContext);
+    BuildLanguageStyle_StyleSheet.getKeyword(editorCell).apply(editorCell);
     return editorCell;
   }
 
@@ -245,25 +252,6 @@ public class TaskDeclarationHeader_EditorComponent extends AbstractCellProvider 
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_canHaveInternalText");
-    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
-    SNode attributeConcept = provider.getRoleAttribute();
-    Class attributeKind = provider.getRoleAttributeClass();
-    if (attributeConcept != null) {
-      IOperationContext opContext = editorContext.getOperationContext();
-      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
-      return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
-    } else
-    return editorCell;
-  }
-
-  private EditorCell createConceptProperty_ws04gp_b0a(EditorContext editorContext, SNode node) {
-    CellProviderWithRole provider = new ConceptPropertyCellProvider(node, editorContext);
-    provider.setRole("alias");
-    provider.setNoTargetText("<no alias>");
-    EditorCell editorCell;
-    editorCell = provider.createEditorCell(editorContext);
-    editorCell.setCellId("conceptProperty_alias");
-    BuildLanguageStyle_StyleSheet.getKeyword(editorCell).apply(editorCell);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

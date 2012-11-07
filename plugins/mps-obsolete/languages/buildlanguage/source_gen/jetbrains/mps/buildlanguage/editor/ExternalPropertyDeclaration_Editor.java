@@ -12,13 +12,14 @@ import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.cellMenu.CompositeSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.BasicCellContext;
 import jetbrains.mps.nodeEditor.cellMenu.SubstituteInfoPartExt;
+import jetbrains.mps.nodeEditor.AbstractCellProvider;
+import jetbrains.mps.lang.core.editor.AliasEditorComponent;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
-import jetbrains.mps.lang.editor.cellProviders.ConceptPropertyCellProvider;
 import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
@@ -63,7 +64,7 @@ public class ExternalPropertyDeclaration_Editor extends DefaultNodeEditor {
     if (renderingCondition_i6hv21_a0b0(node, editorContext, editorContext.getOperationContext().getScope())) {
       editorCell.addEditorCell(this.createConstant_i6hv21_a1a(editorContext, node));
     }
-    editorCell.addEditorCell(this.createConceptProperty_i6hv21_b1a(editorContext, node));
+    editorCell.addEditorCell(this.createComponent_i6hv21_b1a(editorContext, node));
     editorCell.addEditorCell(this.createProperty_i6hv21_c1a(editorContext, node));
     editorCell.addEditorCell(this.createConstant_i6hv21_d1a(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_i6hv21_e1a(editorContext, node));
@@ -89,6 +90,13 @@ public class ExternalPropertyDeclaration_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createConstant_i6hv21_a0a_0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_i6hv21_b0a(editorContext, node));
     editorCell.addEditorCell(this.createProperty_i6hv21_c0a(editorContext, node));
+    return editorCell;
+  }
+
+  private EditorCell createComponent_i6hv21_b1a(EditorContext editorContext, SNode node) {
+    AbstractCellProvider provider = new AliasEditorComponent(node);
+    EditorCell editorCell = provider.createEditorCell(editorContext);
+    BuildLanguageStyle_StyleSheet.getKeyword(editorCell).apply(editorCell);
     return editorCell;
   }
 
@@ -194,25 +202,6 @@ public class ExternalPropertyDeclaration_Editor extends DefaultNodeEditor {
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_checkOnStart");
     BuildLanguageStyle_StyleSheet.getBooleanLiteral(editorCell).apply(editorCell);
-    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
-    SNode attributeConcept = provider.getRoleAttribute();
-    Class attributeKind = provider.getRoleAttributeClass();
-    if (attributeConcept != null) {
-      IOperationContext opContext = editorContext.getOperationContext();
-      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
-      return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
-    } else
-    return editorCell;
-  }
-
-  private EditorCell createConceptProperty_i6hv21_b1a(EditorContext editorContext, SNode node) {
-    CellProviderWithRole provider = new ConceptPropertyCellProvider(node, editorContext);
-    provider.setRole("alias");
-    provider.setNoTargetText("<no alias>");
-    EditorCell editorCell;
-    editorCell = provider.createEditorCell(editorContext);
-    editorCell.setCellId("conceptProperty_alias");
-    BuildLanguageStyle_StyleSheet.getKeyword(editorCell).apply(editorCell);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
