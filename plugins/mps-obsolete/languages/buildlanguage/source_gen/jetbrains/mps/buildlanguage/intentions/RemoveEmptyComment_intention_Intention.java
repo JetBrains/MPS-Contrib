@@ -7,9 +7,9 @@ import jetbrains.mps.intentions.IntentionType;
 import org.jetbrains.mps.openapi.model.SNodeReference;
 import jetbrains.mps.smodel.SNodePointer;
 import jetbrains.mps.smodel.SNode;
-import jetbrains.mps.openapi.editor.EditorContext;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptPropertyOperations;
+import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class RemoveEmptyComment_intention_Intention extends BaseIntention {
   public RemoveEmptyComment_intention_Intention() {
@@ -40,8 +40,8 @@ public class RemoveEmptyComment_intention_Intention extends BaseIntention {
   }
 
   public String getDescription(final SNode node, final EditorContext editorContext) {
-    return "Remove Empty Comment from " + (((SConceptPropertyOperations.getString(node, "alias") != null) ?
-      SConceptPropertyOperations.getString(node, "alias") :
+    return "Remove Empty Comment from " + (((SPropertyOperations.getString(SNodeOperations.getConceptDeclaration(node), "conceptAlias") != null) ?
+      SPropertyOperations.getString(SNodeOperations.getConceptDeclaration(node), "conceptAlias") :
       "Node"
     )) + " " + ((SPropertyOperations.getString(node, "name") != null) ?
       SPropertyOperations.getString(node, "name") :

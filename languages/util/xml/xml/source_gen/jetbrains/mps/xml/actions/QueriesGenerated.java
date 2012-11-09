@@ -21,7 +21,6 @@ import jetbrains.mps.smodel.SModel;
 import jetbrains.mps.smodel.action.SNodeFactoryOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.action.DefaultSimpleSubstituteAction;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptPropertyOperations;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.smodel.action.RemoveSubstituteActionByConditionContext;
 import java.util.Iterator;
@@ -112,7 +111,7 @@ public class QueriesGenerated {
           }
 
           public String getDescriptionText(String pattern) {
-            return SConceptPropertyOperations.getString(SConceptOperations.findConceptDeclaration("jetbrains.mps.xml.structure.Text"), "shortDescription");
+            return SPropertyOperations.getString(SConceptOperations.findConceptDeclaration("jetbrains.mps.xml.structure.Text"), "shortDescription");
           }
 
           public String getMatchingText(String pattern) {

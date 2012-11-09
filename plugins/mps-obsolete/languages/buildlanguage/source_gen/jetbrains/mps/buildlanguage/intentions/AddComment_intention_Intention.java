@@ -7,9 +7,9 @@ import jetbrains.mps.intentions.IntentionType;
 import org.jetbrains.mps.openapi.model.SNodeReference;
 import jetbrains.mps.smodel.SNodePointer;
 import jetbrains.mps.smodel.SNode;
-import jetbrains.mps.openapi.editor.EditorContext;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptPropertyOperations;
+import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class AddComment_intention_Intention extends BaseIntention {
   public AddComment_intention_Intention() {
@@ -40,8 +40,8 @@ public class AddComment_intention_Intention extends BaseIntention {
   }
 
   public String getDescription(final SNode node, final EditorContext editorContext) {
-    return "Add Comment for " + (((SConceptPropertyOperations.getString(node, "alias") != null) ?
-      SConceptPropertyOperations.getString(node, "alias") :
+    return "Add Comment for " + (((SPropertyOperations.getString(SNodeOperations.getConceptDeclaration(node), "conceptAlias") != null) ?
+      SPropertyOperations.getString(SNodeOperations.getConceptDeclaration(node), "conceptAlias") :
       "Node"
     )) + " " + ((SPropertyOperations.getString(node, "name") != null) ?
       SPropertyOperations.getString(node, "name") :
