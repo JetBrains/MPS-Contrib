@@ -5,14 +5,15 @@ package jetbrains.mps.uiLanguage.intentions;
 import jetbrains.mps.intentions.BaseIntentionsDescriptor;
 import jetbrains.mps.project.structure.modules.ModuleReference;
 import jetbrains.mps.smodel.SModelReference;
+import jetbrains.mps.intentions.IntentionsManager;
 
 public class IntentionsDescriptor extends BaseIntentionsDescriptor {
   public IntentionsDescriptor() {
-    super(new ModuleReference("jetbrains.mps.uiLanguage", "5d6bee4c-f891-4a93-a0c9-e2268726ae47"), SModelReference.fromString("r:00000000-0000-4000-0000-011c89590551(jetbrains.mps.uiLanguage.intentions)"));
+    super(new ModuleReference("5d6bee4c-f891-4a93-a0c9-e2268726ae47(jetbrains.mps.uiLanguage)"), SModelReference.fromString("r:00000000-0000-4000-0000-011c89590551(jetbrains.mps.uiLanguage.intentions)"));
   }
 
   public void init() {
-    add(new AddInitializer_Intention(), "1204896171511");
-    add(new AddOnChangeHandler_Intention(), "1203674861152");
+    IntentionsManager.getInstance().registerIntentionFactory(new AddInitializer_Intention());
+    IntentionsManager.getInstance().registerIntentionFactory(new AddOnChangeHandler_Intention());
   }
 }
