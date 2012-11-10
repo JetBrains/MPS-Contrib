@@ -4,8 +4,7 @@ package jetbrains.mps.baseLanguage.unitTest.execution.tool;
 
 import jetbrains.mps.util.annotation.ToRemove;
 import jetbrains.mps.execution.configurations.deprecated.runtime.BaseRunner;
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
+import jetbrains.mps.logging.Logger;
 import java.util.List;
 import jetbrains.mps.baseLanguage.unitTest.execution.client.ITestNodeWrapper;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
@@ -37,7 +36,7 @@ import java.util.LinkedHashSet;
 @ToRemove(version = 2.1)
 public class UnitTestRunner extends BaseRunner {
   private static final int MAX_COMMAND_LINE = 16384;
-  protected static Log log = LogFactory.getLog(UnitTestRunner.class);
+  private static Logger LOG = Logger.getLogger(UnitTestRunner.class);
 
   private ProcessBuilder myProcessBuilder;
   private final List<ITestNodeWrapper> myTestable = ListSequence.fromList(new ArrayList<ITestNodeWrapper>());
@@ -71,9 +70,7 @@ public class UnitTestRunner extends BaseRunner {
         ListSequence.fromList(tests).visitAll(new IVisitor<ITestNodeWrapper>() {
           public void visit(ITestNodeWrapper it) {
             if (!(eq_y7hhub_a0a0a0a0a0a2a0a0a0a4a1(check_y7hhub_a0a0a0a0c0a4a1(it), runParams.value))) {
-              if (log.isErrorEnabled()) {
-                log.error("Can not execute " + it + ": run parameters does not match.");
-              }
+              LOG.error("Can not execute " + it + ": run parameters does not match.");
             }
           }
         });
@@ -168,9 +165,7 @@ public class UnitTestRunner extends BaseRunner {
     try {
       return myProcessBuilder.start();
     } catch (Throwable e) {
-      if (log.isErrorEnabled()) {
-        log.error("Can't run tests: " + e.getMessage(), e);
-      }
+      LOG.error("Can't run tests: " + e.getMessage(), e);
       throw new ProcessNotCreatedException(e.getMessage(), e, getCommandLine(myRunParameters.getWorkingDirectory()));
     }
   }
