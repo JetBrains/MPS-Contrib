@@ -18,7 +18,6 @@ import jetbrains.mps.baseLanguage.dates.behavior.ConditionalFormatToken_Behavior
 import jetbrains.mps.baseLanguage.dates.behavior.ScheduleLiteral_Behavior;
 import jetbrains.mps.generator.template.ReferenceMacroContext;
 import jetbrains.mps.baseLanguage.dates.behavior.DateTimeCompareOperation_Behavior;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptPropertyOperations;
 import jetbrains.mps.baseLanguage.dates.generator.baseLanguage.template.util.DatesQueriesUtil;
 import jetbrains.mps.baseLanguage.dates.behavior.WithPropertyCompareExpression_Behavior;
 import jetbrains.mps.generator.template.IfMacroContext;
@@ -305,7 +304,7 @@ public class QueriesGenerated {
   }
 
   public static Object referenceMacro_GetReferent_3627207017676753937(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return SConceptPropertyOperations.getString(_context.getNode(), "alias");
+    return SPropertyOperations.getString(SNodeOperations.getConceptDeclaration(_context.getNode()), "conceptAlias");
   }
 
   public static Object referenceMacro_GetReferent_5969170299421933548(final IOperationContext operationContext, final ReferenceMacroContext _context) {
