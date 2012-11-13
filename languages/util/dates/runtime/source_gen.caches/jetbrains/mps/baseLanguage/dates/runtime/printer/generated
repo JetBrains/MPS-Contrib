@@ -1,28 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependencies version="2" modelHash="-89jrsep15qz440onsfzs2te5tr48gzf">
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-40jj815fe1rn0p1bhi0382dg47350y2" />
-  <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" hash="-cjp3x7kpslsgnhml4bi405qvj66t1vk" />
-  <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="-3223m9cg8337am9br9ikluvywbkblf4" />
-  <common hash="1lvoduyxl7jmcc54a145x8itj2dw0ec">
-    <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
-  </common>
+  <common hash="1lvoduyxl7jmcc54a145x8itj2dw0ec" />
   <source id="734650238126517390" name="Printer" hash="-ekjd6xnpvcfz78ro2zg8f2v8lhfk44v">
-    <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
     <file name="Printer.java" />
   </source>
   <source id="734650238126517407" name="CompositePrinter" hash="-6l9zpe1x8jgz5ultr35b34ilji2e461">
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
-    <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
     <file name="CompositePrinter.java" />
   </source>
   <source id="734650238126519308" name="ConditionalPrinter" hash="5cnjj6fpvrfy2i9unk209f9y3gvtbxa">
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
-    <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
     <file name="ConditionalPrinter.java" />
   </source>
   <source id="734650238126520134" name="LiteralPrinter" hash="asvvaapmv9rm5c632vpit6hqhjlvf28">
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
-    <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
     <file name="LiteralPrinter.java" />
   </source>
 </dependencies>
