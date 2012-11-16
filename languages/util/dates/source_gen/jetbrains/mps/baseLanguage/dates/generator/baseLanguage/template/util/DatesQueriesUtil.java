@@ -8,7 +8,6 @@ import jetbrains.mps.generator.template.TemplateQueryContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptPropertyOperations;
 
 public class DatesQueriesUtil {
   public static final String FORMAL_TABLES_CONTAINER = "_FormatTables";
@@ -43,22 +42,22 @@ public class DatesQueriesUtil {
 
   public static String getCompareType(SNode operation) {
     String result = null;
-    if (SConceptPropertyOperations.getString(operation, "alias").equals("==")) {
+    if (SPropertyOperations.getString(SNodeOperations.getConceptDeclaration(operation), "conceptAlias").equals("==")) {
       result = "EQ";
     }
-    if (SConceptPropertyOperations.getString(operation, "alias").equals("!=")) {
+    if (SPropertyOperations.getString(SNodeOperations.getConceptDeclaration(operation), "conceptAlias").equals("!=")) {
       result = "NE";
     }
-    if (SConceptPropertyOperations.getString(operation, "alias").equals(">")) {
+    if (SPropertyOperations.getString(SNodeOperations.getConceptDeclaration(operation), "conceptAlias").equals(">")) {
       result = "GT";
     }
-    if (SConceptPropertyOperations.getString(operation, "alias").equals("<")) {
+    if (SPropertyOperations.getString(SNodeOperations.getConceptDeclaration(operation), "conceptAlias").equals("<")) {
       result = "LT";
     }
-    if (SConceptPropertyOperations.getString(operation, "alias").equals(">=")) {
+    if (SPropertyOperations.getString(SNodeOperations.getConceptDeclaration(operation), "conceptAlias").equals(">=")) {
       result = "GE";
     }
-    if (SConceptPropertyOperations.getString(operation, "alias").equals("<=")) {
+    if (SPropertyOperations.getString(SNodeOperations.getConceptDeclaration(operation), "conceptAlias").equals("<=")) {
       result = "LE";
     }
     return result;

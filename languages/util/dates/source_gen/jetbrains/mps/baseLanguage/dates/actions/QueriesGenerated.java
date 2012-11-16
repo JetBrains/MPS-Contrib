@@ -37,7 +37,6 @@ import jetbrains.mps.smodel.action.NodeSubstituteActionWrapper;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.smodel.action.AbstractSideTransformHintSubstituteAction;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptPropertyOperations;
 import jetbrains.mps.nodeEditor.CellSide;
 import jetbrains.mps.smodel.action.RemoveSubstituteActionByConditionContext;
 import java.util.Iterator;
@@ -371,7 +370,7 @@ public class QueriesGenerated {
         }
 
         public String getMatchingText(String pattern) {
-          return SConceptPropertyOperations.getString(SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression"), "alias");
+          return SPropertyOperations.getString(SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression"), "conceptAlias");
         }
 
         public String getVisibleMatchingText(String pattern) {
@@ -379,7 +378,7 @@ public class QueriesGenerated {
         }
 
         public String getDescriptionText(String pattern) {
-          return SConceptPropertyOperations.getString(SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression"), "shortDescription");
+          return SPropertyOperations.getString(SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression"), "shortDescription");
         }
       });
     }
@@ -472,7 +471,7 @@ public class QueriesGenerated {
         }
 
         public String getDescriptionText(String pattern) {
-          return SConceptPropertyOperations.getString(SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.InlineFormatDateTimeExpression"), "shortDescription");
+          return SPropertyOperations.getString(SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.InlineFormatDateTimeExpression"), "shortDescription");
         }
       });
     }
@@ -526,7 +525,7 @@ public class QueriesGenerated {
         }
 
         public String getDescriptionText(String pattern) {
-          return SConceptPropertyOperations.getString(SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.InlineFormatDateTimeExpression"), "shortDescription");
+          return SPropertyOperations.getString(SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.InlineFormatDateTimeExpression"), "shortDescription");
         }
       });
     }

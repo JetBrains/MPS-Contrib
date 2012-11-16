@@ -12,7 +12,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import org.jetbrains.mps.openapi.model.SNodeReference;
 import jetbrains.mps.smodel.SNodePointer;
 import java.util.Collections;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptPropertyOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.intentions.IntentionDescriptor;
 
 public class RemoveEmptyComment_intention_Intention implements IntentionFactory {
@@ -72,8 +72,8 @@ public class RemoveEmptyComment_intention_Intention implements IntentionFactory 
     }
 
     public String getDescription(final SNode node, final EditorContext editorContext) {
-      return "Remove Empty Comment from " + (((SConceptPropertyOperations.getString(node, "alias") != null) ?
-        SConceptPropertyOperations.getString(node, "alias") :
+      return "Remove Empty Comment from " + (((SPropertyOperations.getString(SNodeOperations.getConceptDeclaration(node), "conceptAlias") != null) ?
+        SPropertyOperations.getString(SNodeOperations.getConceptDeclaration(node), "conceptAlias") :
         "Node"
       )) + " " + ((SPropertyOperations.getString(node, "name") != null) ?
         SPropertyOperations.getString(node, "name") :

@@ -8,9 +8,13 @@
   <import index="tptq" modelUID="r:00000000-0000-4000-0000-011c895904e2(jetbrains.mps.build.property.structure)" version="1" implicit="yes" />
   <roots>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1200504738494">
-      <property name="name" nameId="tpck.1169194664001" value="PropertyNode" />
+      <property name="abstract" nameId="tpce.4628067390765956802" value="false" />
       <property name="rootable" nameId="tpce.1096454100552" value="true" />
+      <property name="final" nameId="tpce.4628067390765956807" value="false" />
+      <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="property file" />
       <property name="iconPath" nameId="tpce.1160488491229" value="${language_descriptor}/icons/properties.png" />
+      <property name="name" nameId="tpck.1169194664001" value="PropertyNode" />
+      <property name="conceptAlias" nameId="tpce.5092175715804935370" value="property node" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
   </roots>
@@ -26,14 +30,6 @@
       <property name="role" nameId="tpce.1071599776563" value="declaration" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="tpsk.1196851107341" resolveInfo="PropertyDeclaration" />
-    </node>
-    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="1200504738497">
-      <property name="value" nameId="tpce.1105725733873" value="property node" />
-      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
-    </node>
-    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="1200508847484">
-      <property name="value" nameId="tpce.1105725733873" value="property file" />
-      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473914776" resolveInfo="shortDescription" />
     </node>
     <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="1200508901738">
       <property name="value" nameId="tpce.1105725733873" value=".properties" />
