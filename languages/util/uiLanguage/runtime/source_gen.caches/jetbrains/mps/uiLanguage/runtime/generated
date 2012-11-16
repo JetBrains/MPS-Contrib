@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies version="2" modelHash="4gc443029cp5q0av8kqgfhln0keuu70">
+  <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt(JDK/java.awt@java_stub)" />
+  <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.swing(JDK/javax.swing@java_stub)" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-40jj815fe1rn0p1bhi0382dg47350y2" />
+  <common hash="a12ih9dl2ci21vg0f8ohx7eiw5ie6uw" />
+  <source id="5606982432899038941" name="HBoxPanel" hash="175jhn70d786n8ztupveo1mg9t1cata">
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.swing(JDK/javax.swing@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <file name="HBoxPanel.java" />
+  </source>
+  <source id="5606982432899038956" name="ValueWrapper" hash="-knoujin6sexwsn7lsp76ob7acvlzp4">
+    <file name="ValueWrapper.java" />
+  </source>
+  <source id="5606982432899038963" name="FlowPanel" hash="-8sb3rc0pt6dr4s2frlzma43qs179kot">
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt(JDK/java.awt@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <file name="FlowPanel.java" />
+  </source>
+  <source id="5606982432899038977" name="VBoxPanel" hash="-28rcyeolh3w5j1cipll9bpsq5oczzwd">
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.swing(JDK/javax.swing@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <file name="VBoxPanel.java" />
+  </source>
+  <source id="5606982432899038992" name="SimpleListModel" hash="-bzjza7ks6zgire7xmpphhvsbpaxorgv">
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <file name="SimpleListModel.java" />
+  </source>
+  <source id="3987693689859617965" name="JbRadioButton" hash="3ei5kkusib6y7b3q5fmvflniq27grdk">
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <file name="JbRadioButton.java" />
+  </source>
+  <source id="3987693689859618023" name="BaseBean" hash="40ucu1qjim2i4r1iifdv9cea8n5ejqp">
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <file name="BaseBean.java" />
+  </source>
+</dependencies>
+
