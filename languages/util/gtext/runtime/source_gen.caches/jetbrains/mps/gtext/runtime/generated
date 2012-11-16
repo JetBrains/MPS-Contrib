@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies version="2" modelHash="6h1mcq5l1d1v687lcmlvtabrpp5xm4a">
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-40jj815fe1rn0p1bhi0382dg47350y2" />
+  <common hash="69t7512zkych03l4jq3oquuwhvxcqc1" />
+  <source id="7733366827988670914" name="TBaseBuilderContextListener" hash="-b7bzlc9h23lubunewso4mshr2phv7md">
+    <file name="TBaseBuilderContextListener.java" />
+  </source>
+  <source id="7733366827988670922" name="TBuffer" hash="-82qk7iwatyyne7kers7vq4wbqe3qsfv">
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <file name="TBuffer.java" />
+  </source>
+  <source id="7733366827988671037" name="TBaseBuilderContext" hash="19489p8i6cp9sy1erip2vc6ikgn2feg">
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <file name="TBaseBuilderContext.java" />
+  </source>
+  <source id="7733366827988671516" name="BaseHtmlStringUtil" hash="bcwapuhfusdnds3yk4wn4apbg66zxwv">
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <file name="BaseHtmlStringUtil.java" />
+  </source>
+  <source id="7733366827988670913" name="TContent" hash="6die2bcjn5o1ayozxy4gpkvn6und2i9">
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <file name="TContent.java" />
+  </source>
+</dependencies>
+
