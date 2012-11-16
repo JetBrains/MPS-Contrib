@@ -2,6 +2,7 @@
   <library name="ASM">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/lib/asm.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/asm4-all.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

@@ -13,7 +13,6 @@
       <root url="jar://$PROJECT_DIR$/lib/forms_rt.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/cglib-2.2.2.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/commons-httpclient-3.1-patched.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/cli-10.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/jaxb-api.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/jaxb-impl.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/jgoodies-forms.jar!/" />
@@ -26,12 +25,14 @@
       <root url="jar://$PROJECT_DIR$/lib/sanselan-0.98-snapshot.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/swingx-core-1.6.2.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/xpp3-1.1.4-min.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/gson-2.0.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/netty-3.3.1.Final.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/protobuf-2.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/cli-parser-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gson-2.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/netty-3.5.9.Final.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/annotations" />
       <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/xml" />
       <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/util" />
       <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/javacvs-src" />
@@ -47,23 +48,41 @@
       <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/smRunner" />
       <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/platform-impl" />
       <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/boot" />
-      <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/execution-impl" />
       <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/lang-api" />
       <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/core-impl" />
       <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/xdebugger-impl" />
       <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/extensions" />
-      <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/tests_bootstrap" />
       <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/lvcs-api" />
-      <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/platform-main" />
       <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/vcs-api" />
-      <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/annotations" />
-      <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/testFramework" />
-      <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/execution-openapi" />
       <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/core-api" />
       <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/forms-compiler" />
       <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/platform-api" />
       <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/usageView" />
       <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/xdebugger-api" />
+      <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/cvs-plugin" />
+      <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/smartcvs-src" />
+      <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/git4idea" />
+      <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/svn4idea" />
+      <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/RegExpSupport" />
+      <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/relaxng" />
+      <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/indexing-api" />
+      <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/jps-model-serialization" />
+      <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/jps-model-impl" />
+      <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/git4idea-rt" />
+      <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/projectModel-impl" />
+      <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/javac2" />
+      <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/indexing-impl" />
+      <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/projectModel-api" />
+      <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/instrumentation-util" />
+      <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/spellchecker" />
+      <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/dvcs" />
+      <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/jps-model-api" />
+      <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/util-rt" />
+      <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/testFramework" />
+      <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/execution-impl" />
+      <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/execution-openapi" />
+      <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/tests_bootstrap" />
+      <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/platform-main" />
     </SOURCES>
   </library>
 </component>
