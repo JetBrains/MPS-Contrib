@@ -401,14 +401,6 @@ public class QueriesGenerated {
     return (SLinkOperations.getTarget(_context.getNode(), "zone", true) != null);
   }
 
-  public static boolean ifMacro_Condition_1238664043050(final IOperationContext operationContext, final IfMacroContext _context) {
-    return (SLinkOperations.getTarget(_context.getNode(), "locale", false) != null);
-  }
-
-  public static boolean ifMacro_Condition_1239017367003(final IOperationContext operationContext, final IfMacroContext _context) {
-    return (SLinkOperations.getTarget(_context.getNode(), "zone", true) != null);
-  }
-
   public static boolean ifMacro_Condition_1548440323223124032(final IOperationContext operationContext, final IfMacroContext _context) {
     return !(SPropertyOperations.getBoolean(_context.getNode(), "absolute"));
   }
@@ -446,7 +438,7 @@ public class QueriesGenerated {
   }
 
   public static boolean ifMacro_Condition_2872438607476486235(final IOperationContext operationContext, final IfMacroContext _context) {
-    return isNotEmpty_x583g4_a0a0jd(SPropertyOperations.getString(_context.getNode(), "prefix"));
+    return isNotEmpty_x583g4_a0a0hd(SPropertyOperations.getString(_context.getNode(), "prefix"));
   }
 
   public static boolean ifMacro_Condition_2872438607477349715(final IOperationContext operationContext, final IfMacroContext _context) {
@@ -468,11 +460,11 @@ public class QueriesGenerated {
   }
 
   public static boolean ifMacro_Condition_2872438607476484885(final IOperationContext operationContext, final IfMacroContext _context) {
-    return isNotEmpty_x583g4_a0a0md(SPropertyOperations.getString(_context.getNode(), "suffix"));
+    return isNotEmpty_x583g4_a0a0kd(SPropertyOperations.getString(_context.getNode(), "suffix"));
   }
 
   public static boolean ifMacro_Condition_5581663871703143195(final IOperationContext operationContext, final IfMacroContext _context) {
-    return !(SPropertyOperations.hasValue(_context.getNode(), "kind", "default", "default") && isNotEmpty_x583g4_a0a0a0nd(SPropertyOperations.getString(_context.getNode(), "lastText")));
+    return !(SPropertyOperations.hasValue(_context.getNode(), "kind", "default", "default") && isNotEmpty_x583g4_a0a0a0ld(SPropertyOperations.getString(_context.getNode(), "lastText")));
   }
 
   public static SNode sourceNodeQuery_1209036487954(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
@@ -580,14 +572,6 @@ public class QueriesGenerated {
 
   public static SNode sourceNodeQuery_1238663967239(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "datetime", true);
-  }
-
-  public static SNode sourceNodeQuery_1238664040032(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "locale", false), "javaLocale", true);
-  }
-
-  public static SNode sourceNodeQuery_1239017367014(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(_context.getNode(), "zone", true);
   }
 
   public static SNode sourceNodeQuery_6173552745501645604(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
@@ -826,7 +810,7 @@ public class QueriesGenerated {
   }
 
   public static SNode sourceNodeQuery_2872438607476702408(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    if (isNotEmpty_x583g4_a0a0vg(SPropertyOperations.getString(_context.getNode(), "prefixPlural"))) {
+    if (isNotEmpty_x583g4_a0a0rg(SPropertyOperations.getString(_context.getNode(), "prefixPlural"))) {
       SNode literal = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.structure.StringLiteral", null);
       SPropertyOperations.set(literal, "value", SPropertyOperations.getString(_context.getNode(), "prefixPlural"));
       return literal;
@@ -835,7 +819,7 @@ public class QueriesGenerated {
   }
 
   public static SNode sourceNodeQuery_2872438607476484913(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    if (isNotEmpty_x583g4_a0a0wg(SPropertyOperations.getString(_context.getNode(), "suffixPlural"))) {
+    if (isNotEmpty_x583g4_a0a0sg(SPropertyOperations.getString(_context.getNode(), "suffixPlural"))) {
       SNode literal = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.structure.StringLiteral", null);
       SPropertyOperations.set(literal, "value", SPropertyOperations.getString(_context.getNode(), "suffixPlural"));
       return literal;
@@ -900,23 +884,23 @@ public class QueriesGenerated {
     return SLinkOperations.getTargets(_context.getNode(), "token", true);
   }
 
-  public static boolean isNotEmpty_x583g4_a0a0jd(String str) {
+  public static boolean isNotEmpty_x583g4_a0a0hd(String str) {
     return str != null && str.length() > 0;
   }
 
-  public static boolean isNotEmpty_x583g4_a0a0md(String str) {
+  public static boolean isNotEmpty_x583g4_a0a0kd(String str) {
     return str != null && str.length() > 0;
   }
 
-  public static boolean isNotEmpty_x583g4_a0a0a0nd(String str) {
+  public static boolean isNotEmpty_x583g4_a0a0a0ld(String str) {
     return str != null && str.length() > 0;
   }
 
-  public static boolean isNotEmpty_x583g4_a0a0vg(String str) {
+  public static boolean isNotEmpty_x583g4_a0a0rg(String str) {
     return str != null && str.length() > 0;
   }
 
-  public static boolean isNotEmpty_x583g4_a0a0wg(String str) {
+  public static boolean isNotEmpty_x583g4_a0a0sg(String str) {
     return str != null && str.length() > 0;
   }
 }
