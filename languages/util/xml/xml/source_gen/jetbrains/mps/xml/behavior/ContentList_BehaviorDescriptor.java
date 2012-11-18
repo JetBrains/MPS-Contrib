@@ -4,6 +4,7 @@ package jetbrains.mps.xml.behavior;
 
 import java.util.List;
 import jetbrains.mps.smodel.SNode;
+import org.jetbrains.mps.openapi.language.SConcept;
 
 public class ContentList_BehaviorDescriptor extends Content_BehaviorDescriptor {
   public ContentList_BehaviorDescriptor() {
@@ -11,6 +12,10 @@ public class ContentList_BehaviorDescriptor extends Content_BehaviorDescriptor {
 
   public List<SNode> virtual_getSubcontents_1213877224308(SNode thisNode) {
     return ContentList_Behavior.virtual_getSubcontents_1213877224308(thisNode);
+  }
+
+  public boolean virtual_isComplex_1262430001741498088(SConcept thisConcept) {
+    return ContentList_Behavior.virtual_isComplex_1262430001741498088(thisConcept);
   }
 
   @Override

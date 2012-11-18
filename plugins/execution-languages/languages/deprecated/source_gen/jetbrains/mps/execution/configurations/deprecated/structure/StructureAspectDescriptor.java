@@ -42,11 +42,11 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 12:
         return new CompiledConceptDescriptor("jetbrains.mps.execution.configurations.deprecated.structure.ConsoleType", "jetbrains.mps.baseLanguage.structure.Type", false, new String[]{"jetbrains.mps.baseLanguage.structure.Type"}, new String[]{}, new String[]{});
       case 13:
-        return new CompiledConceptDescriptor("jetbrains.mps.execution.configurations.deprecated.structure.Console_FunctionParameter", "jetbrains.mps.baseLanguage.structure.ConceptFunctionParameter", false, new String[]{"jetbrains.mps.baseLanguage.structure.ConceptFunctionParameter"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.execution.configurations.deprecated.structure.Console_FunctionParameter", "jetbrains.mps.baseLanguage.structure.ConceptFunctionParameter", false, new String[]{"jetbrains.mps.baseLanguage.structure.ConceptFunctionParameter", "jetbrains.mps.lang.core.structure.IDontSubstituteByDefault"}, new String[]{}, new String[]{});
       case 14:
         return new CompiledConceptDescriptor("jetbrains.mps.execution.configurations.deprecated.structure.CreateRunConfigBlock", "jetbrains.mps.baseLanguage.structure.ConceptFunction", false, new String[]{"jetbrains.mps.baseLanguage.structure.ConceptFunction"}, new String[]{}, new String[]{});
       case 15:
-        return new CompiledConceptDescriptor("jetbrains.mps.execution.configurations.deprecated.structure.CreateRunConfigBlockParameter", "jetbrains.mps.baseLanguage.structure.ConceptFunctionParameter", false, new String[]{"jetbrains.mps.baseLanguage.structure.ConceptFunctionParameter"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.execution.configurations.deprecated.structure.CreateRunConfigBlockParameter", "jetbrains.mps.baseLanguage.structure.ConceptFunctionParameter", false, new String[]{"jetbrains.mps.baseLanguage.structure.ConceptFunctionParameter", "jetbrains.mps.lang.core.structure.IDontSubstituteByDefault"}, new String[]{}, new String[]{});
       case 16:
         return new CompiledConceptDescriptor("jetbrains.mps.execution.configurations.deprecated.structure.CreateRunConfigStatement", "jetbrains.mps.baseLanguage.structure.Statement", false, new String[]{"jetbrains.mps.baseLanguage.structure.Statement"}, new String[]{}, new String[]{"runConfig"});
       case 17:
@@ -56,7 +56,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 19:
         return new CompiledConceptDescriptor("jetbrains.mps.execution.configurations.deprecated.structure.DisposeEditorBlock", "jetbrains.mps.baseLanguage.structure.ConceptFunction", false, new String[]{"jetbrains.mps.baseLanguage.structure.ConceptFunction"}, new String[]{}, new String[]{});
       case 20:
-        return new CompiledConceptDescriptor("jetbrains.mps.execution.configurations.deprecated.structure.Environment_FunctionParameter", "jetbrains.mps.baseLanguage.structure.ConceptFunctionParameter", false, new String[]{"jetbrains.mps.baseLanguage.structure.ConceptFunctionParameter"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.execution.configurations.deprecated.structure.Environment_FunctionParameter", "jetbrains.mps.baseLanguage.structure.ConceptFunctionParameter", false, new String[]{"jetbrains.mps.baseLanguage.structure.ConceptFunctionParameter", "jetbrains.mps.lang.core.structure.IDontSubstituteByDefault"}, new String[]{}, new String[]{});
       case 21:
         return new CompiledConceptDescriptor("jetbrains.mps.execution.configurations.deprecated.structure.ExecuteConfigBlock", "jetbrains.mps.baseLanguage.structure.ConceptFunction", false, new String[]{"jetbrains.mps.baseLanguage.structure.ConceptFunction", "jetbrains.mps.execution.configurations.deprecated.structure.IExecuteConfigBlock"}, new String[]{}, new String[]{});
       case 22:
@@ -66,7 +66,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 24:
         return new CompiledConceptDescriptor("jetbrains.mps.execution.configurations.deprecated.structure.ExecutionConsoleStatement", "jetbrains.mps.baseLanguage.structure.Statement", false, new String[]{"jetbrains.mps.baseLanguage.structure.Statement", "jetbrains.mps.execution.configurations.deprecated.structure.ExecuteSpecific"}, new String[]{}, new String[]{});
       case 25:
-        return new CompiledConceptDescriptor("jetbrains.mps.execution.configurations.deprecated.structure.Executor_FunctionParameter", "jetbrains.mps.baseLanguage.structure.ConceptFunctionParameter", false, new String[]{"jetbrains.mps.baseLanguage.structure.ConceptFunctionParameter"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.execution.configurations.deprecated.structure.Executor_FunctionParameter", "jetbrains.mps.baseLanguage.structure.ConceptFunctionParameter", false, new String[]{"jetbrains.mps.baseLanguage.structure.ConceptFunctionParameter", "jetbrains.mps.lang.core.structure.IDontSubstituteByDefault"}, new String[]{}, new String[]{});
       case 26:
         return new CompiledConceptDescriptor("jetbrains.mps.execution.configurations.deprecated.structure.GetConfigurationIconBlock", "jetbrains.mps.baseLanguage.structure.ConceptFunction", false, new String[]{"jetbrains.mps.baseLanguage.structure.ConceptFunction"}, new String[]{}, new String[]{});
       case 27:
@@ -110,7 +110,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 46:
         return new CompiledConceptDescriptor("jetbrains.mps.execution.configurations.deprecated.structure.OnChangeNodeBlock", "jetbrains.mps.baseLanguage.structure.ConceptFunction", false, new String[]{"jetbrains.mps.baseLanguage.structure.ConceptFunction", "jetbrains.mps.execution.configurations.deprecated.structure.IOnChangeEditorBlock"}, new String[]{}, new String[]{});
       case 47:
-        return new CompiledConceptDescriptor("jetbrains.mps.execution.configurations.deprecated.structure.Parameter_FunctionParameter", "jetbrains.mps.baseLanguage.structure.ConceptFunctionParameter", false, new String[]{"jetbrains.mps.baseLanguage.structure.ConceptFunctionParameter"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.execution.configurations.deprecated.structure.Parameter_FunctionParameter", "jetbrains.mps.baseLanguage.structure.ConceptFunctionParameter", false, new String[]{"jetbrains.mps.baseLanguage.structure.ConceptFunctionParameter", "jetbrains.mps.lang.core.structure.IDontSubstituteByDefault"}, new String[]{}, new String[]{});
       case 48:
         return new CompiledConceptDescriptor("jetbrains.mps.execution.configurations.deprecated.structure.ParametrizedExecuteActions", "jetbrains.mps.baseLanguage.structure.ConceptFunction", false, new String[]{"jetbrains.mps.baseLanguage.structure.ConceptFunction"}, new String[]{}, new String[]{});
       case 49:

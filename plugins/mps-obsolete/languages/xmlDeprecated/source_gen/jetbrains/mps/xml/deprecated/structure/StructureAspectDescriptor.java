@@ -16,7 +16,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
   public ConceptDescriptor getDescriptor(String conceptFqName) {
     switch (Arrays.binarySearch(stringSwitchCases_1htk8d_a0a0a, conceptFqName)) {
       case 0:
-        return new CompiledConceptDescriptor("jetbrains.mps.xml.deprecated.structure.Attribute", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{"value"}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.xml.deprecated.structure.Attribute", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept", "jetbrains.mps.lang.core.structure.IDontSubstituteByDefault"}, new String[]{"value"}, new String[]{});
       case 1:
         return new CompiledConceptDescriptor("jetbrains.mps.xml.deprecated.structure.Document", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{"extension"}, new String[]{});
       case 2:
@@ -30,7 +30,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 6:
         return new CompiledConceptDescriptor("jetbrains.mps.xml.deprecated.structure.PublicId", "jetbrains.mps.xml.deprecated.structure.ExternalId", false, new String[]{"jetbrains.mps.xml.deprecated.structure.ExternalId"}, new String[]{"publicID", "systemID"}, new String[]{});
       case 7:
-        return new CompiledConceptDescriptor("jetbrains.mps.xml.deprecated.structure.Text", "jetbrains.mps.xml.deprecated.structure.ElementPart", false, new String[]{"jetbrains.mps.xml.deprecated.structure.ElementPart"}, new String[]{"text"}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.xml.deprecated.structure.Text", "jetbrains.mps.xml.deprecated.structure.ElementPart", false, new String[]{"jetbrains.mps.xml.deprecated.structure.ElementPart", "jetbrains.mps.lang.core.structure.IDontSubstituteByDefault"}, new String[]{"text"}, new String[]{});
       default:
         return StructureAspectInterpreted.getInstance().getDescriptor(conceptFqName);
     }

@@ -16,7 +16,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
   public ConceptDescriptor getDescriptor(String conceptFqName) {
     switch (Arrays.binarySearch(stringSwitchCases_1htk8d_a0a0a, conceptFqName)) {
       case 0:
-        return new CompiledConceptDescriptor("jetbrains.mps.xml.structure.Attribute", "jetbrains.mps.xml.structure.BaseAttribute", false, new String[]{"jetbrains.mps.xml.structure.BaseAttribute"}, new String[]{}, new String[]{"attributeDeclaration"});
+        return new CompiledConceptDescriptor("jetbrains.mps.xml.structure.Attribute", "jetbrains.mps.xml.structure.BaseAttribute", false, new String[]{"jetbrains.mps.xml.structure.BaseAttribute", "jetbrains.mps.lang.core.structure.IDontSubstituteByDefault"}, new String[]{}, new String[]{"attributeDeclaration"});
       case 1:
         return new CompiledConceptDescriptor("jetbrains.mps.xml.structure.BaseAttribute", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{});
       case 2:
@@ -32,11 +32,11 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 7:
         return new CompiledConceptDescriptor("jetbrains.mps.xml.structure.ContentList", "jetbrains.mps.xml.structure.Content", false, new String[]{"jetbrains.mps.xml.structure.Content"}, new String[]{"isHorizontal"}, new String[]{});
       case 8:
-        return new CompiledConceptDescriptor("jetbrains.mps.xml.structure.Element", "jetbrains.mps.xml.structure.BaseElement", false, new String[]{"jetbrains.mps.xml.structure.BaseElement"}, new String[]{"isEmpty"}, new String[]{"elementDeclaration"});
+        return new CompiledConceptDescriptor("jetbrains.mps.xml.structure.Element", "jetbrains.mps.xml.structure.BaseElement", false, new String[]{"jetbrains.mps.xml.structure.BaseElement", "jetbrains.mps.lang.core.structure.IDontSubstituteByDefault"}, new String[]{"isEmpty"}, new String[]{"elementDeclaration"});
       case 9:
         return new CompiledConceptDescriptor("jetbrains.mps.xml.structure.EntityReference", "jetbrains.mps.xml.structure.BaseText", false, new String[]{"jetbrains.mps.xml.structure.BaseText"}, new String[]{}, new String[]{"entityDeclaration"});
       case 10:
-        return new CompiledConceptDescriptor("jetbrains.mps.xml.structure.Text", "jetbrains.mps.xml.structure.BaseText", false, new String[]{"jetbrains.mps.xml.structure.BaseText"}, new String[]{"text"}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.xml.structure.Text", "jetbrains.mps.xml.structure.BaseText", false, new String[]{"jetbrains.mps.xml.structure.BaseText", "jetbrains.mps.lang.core.structure.IDontSubstituteByDefault"}, new String[]{"text"}, new String[]{});
       case 11:
         return new CompiledConceptDescriptor("jetbrains.mps.xml.structure.XmlRoot", null, true, new String[]{}, new String[]{}, new String[]{});
       default:

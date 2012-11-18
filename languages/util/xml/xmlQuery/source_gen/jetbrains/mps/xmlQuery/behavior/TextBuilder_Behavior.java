@@ -4,6 +4,7 @@ package jetbrains.mps.xmlQuery.behavior;
 
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import org.jetbrains.mps.openapi.language.SConcept;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.smodel.behaviour.BehaviorManager;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
@@ -30,6 +31,10 @@ public class TextBuilder_Behavior {
 
   public static SNode virtual_getAttachStatementChild_4797501453850305563(SNode thisNode, SNode parentBuilder, SNode parentRef, SNode childRef) {
     return new TextBuilder_Behavior.QuotationClass_8nuept_a0a0d().createNode(parentRef, childRef);
+  }
+
+  public static boolean virtual_leaf_1262430001741498370(SConcept thisConcept) {
+    return true;
   }
 
   @Deprecated

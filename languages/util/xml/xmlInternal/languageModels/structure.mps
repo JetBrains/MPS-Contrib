@@ -97,9 +97,6 @@
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="tpee.1068580123136" resolveInfo="StatementList" />
     </node>
-    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.BooleanConceptProperty" typeId="tpce.1105725574259" id="1168793018304">
-      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpjo.1168792704590" resolveInfo="isComplex" />
-    </node>
   </root>
   <root id="1165765736183">
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1165765736184">
@@ -212,9 +209,6 @@
       <property name="role" nameId="tpce.1071599776563" value="elementName" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="tpjo.1163340203555" resolveInfo="BaseText" />
-    </node>
-    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.BooleanConceptProperty" typeId="tpce.1105725574259" id="1179265695977">
-      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpjo.1168792704590" resolveInfo="isComplex" />
     </node>
   </root>
   <root id="1188772500757">

@@ -168,14 +168,8 @@
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="tpj8.1167697887602" resolveInfo="AttributeDeclaration" />
     </node>
-    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.BooleanConceptProperty" typeId="tpce.1105725574259" id="10026583184691874">
-      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="pmg0.7057666463730595168" resolveInfo="leaf" />
-    </node>
   </root>
   <root id="10026583185341422">
-    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.BooleanConceptProperty" typeId="tpce.1105725574259" id="10026583185341427">
-      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="pmg0.7057666463730595168" resolveInfo="leaf" />
-    </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="10026583185341423">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="value" />

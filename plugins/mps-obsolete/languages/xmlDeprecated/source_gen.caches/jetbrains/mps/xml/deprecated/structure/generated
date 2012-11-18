@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-cagvkddx8ryfkwh4rgt0b8ggdgyywjs">
-  <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="-x1ogwyd9mt21udwfewospcds8s5qdd" />
+<dependencies version="2" modelHash="-9mnb51zz82t73fwm8jojhd8ejrgxb5t">
+  <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="by8wrmxeu23gqhvlixfl23oms1hmpko" />
   <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" hash="drfxt8i63upja5k7zfj1z568c5k4586" />
-  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-40jj815fe1rn0p1bhi0382dg47350y2" />
-  <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" hash="4owbxbs8ql65a8recge1up294uklza3" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-1ihd91yw3a40igfainvusyvruq3rigo" />
+  <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" hash="7lf0iqjorq20auygoq2bcy92g63vr4w" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="6r1gsoq3dd0l5ofyes4ojz73yszw60" />
   <common hash="-8rcxtvvjv59tgei5zyo3bdr5vf1ajvj">
     <dep root="1107866742882" />
@@ -22,7 +22,7 @@
     <file name="Deprecated_Language.java" />
     <file name="StructureAspectDescriptor.java" />
   </common>
-  <source id="1107866742882" name="Attribute" hash="buj19v6jo25c8d8gkldo3q3qmaypkmv">
+  <source id="1107866742882" name="Attribute" hash="-8zmxh2o4k7c9r3ti23ymrmscq56gd6i">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="1107866767486" name="ElementPart" hash="-2vo9lo3yjyv7yrg14l9asgt2ato5x4y">
@@ -31,7 +31,7 @@
   <source id="1107866778860" name="Element" hash="-75fs8urij8g8vmsp42iyqm4qlmduuf6">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1107866821377" name="Text" hash="7l1h3phr5g2qor8fvqh0d7eywkehcim">
+  <source id="1107866821377" name="Text" hash="-5dxg12watc30g6pizx0yeoumit6np9u">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="1119976146404" name="Document" hash="-dkg1rqgkjysqocdjcz488hhbe28e1rc">

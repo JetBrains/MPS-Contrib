@@ -18,7 +18,10 @@ import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.smodel.IScope;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptPropertyOperations;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
+import jetbrains.mps.smodel.adapter.SConceptNodeAdapter;
+import jetbrains.mps.util.NameUtil;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
@@ -309,11 +312,11 @@ public class RunConfigurationBody extends AbstractCellProvider {
   }
 
   private static boolean renderingCondition_mrxxs6_a1c0(SNode node, EditorContext editorContext, IScope scope) {
-    return SConceptPropertyOperations.getBoolean(node, "requiresCustomEditor");
+    return BehaviorReflection.invokeVirtualStatic(Boolean.TYPE, new SConceptNodeAdapter(NameUtil.nodeFQName(SNodeOperations.getConceptDeclaration(node))), "virtual_requiresCustomEditor_1262430001741498265", new Object[]{});
   }
 
   private static boolean renderingCondition_mrxxs6_a2c0(SNode node, EditorContext editorContext, IScope scope) {
-    return !(SConceptPropertyOperations.getBoolean(node, "requiresCustomEditor"));
+    return !(BehaviorReflection.invokeVirtualStatic(Boolean.TYPE, new SConceptNodeAdapter(NameUtil.nodeFQName(SNodeOperations.getConceptDeclaration(node))), "virtual_requiresCustomEditor_1262430001741498265", new Object[]{}));
   }
 
   private static boolean renderingCondition_mrxxs6_a8a(SNode node, EditorContext editorContext, IScope scope) {

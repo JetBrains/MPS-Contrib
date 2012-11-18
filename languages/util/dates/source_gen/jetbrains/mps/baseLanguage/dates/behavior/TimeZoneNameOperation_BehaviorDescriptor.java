@@ -4,10 +4,12 @@ package jetbrains.mps.baseLanguage.dates.behavior;
 
 import jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor;
 import jetbrains.mps.baseLanguage.behavior.IOperation_BehaviorDescriptor;
+import jetbrains.mps.lang.core.behavior.IDontSubstituteByDefault_BehaviorDescriptor;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.baseLanguage.behavior.IOperation_Behavior;
+import org.jetbrains.mps.openapi.language.SConcept;
 
-public class TimeZoneNameOperation_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor implements IOperation_BehaviorDescriptor {
+public class TimeZoneNameOperation_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor implements IOperation_BehaviorDescriptor, IDontSubstituteByDefault_BehaviorDescriptor {
   public TimeZoneNameOperation_BehaviorDescriptor() {
   }
 
@@ -21,6 +23,10 @@ public class TimeZoneNameOperation_BehaviorDescriptor extends BaseConcept_Behavi
 
   public boolean virtual_isLValue_1213877410080(SNode thisNode) {
     return IOperation_Behavior.virtual_isLValue_1213877410080(thisNode);
+  }
+
+  public boolean virtual_lvalue_1262430001741498364(SConcept thisConcept) {
+    return IOperation_Behavior.virtual_lvalue_1262430001741498364(thisConcept);
   }
 
   public boolean virtual_operandCanBeNull_323410281720656291(SNode thisNode) {

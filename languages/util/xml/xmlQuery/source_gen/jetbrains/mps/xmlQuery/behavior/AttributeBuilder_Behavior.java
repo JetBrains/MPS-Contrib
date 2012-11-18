@@ -6,6 +6,7 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.xmlQuery.constraints.SchemaUtil;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import org.jetbrains.mps.openapi.language.SConcept;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.smodel.behaviour.BehaviorManager;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
@@ -32,6 +33,10 @@ public class AttributeBuilder_Behavior {
 
   public static SNode virtual_getAttachStatementChild_4797501453850305563(SNode thisNode, SNode parentBuilder, SNode parentRef, SNode childRef) {
     return new AttributeBuilder_Behavior.QuotationClass_emlk0p_a0a0d().createNode(parentRef, SPropertyOperations.getString(SLinkOperations.getTarget(thisNode, "attributeDeclaration", false), "attributeName"), childRef);
+  }
+
+  public static boolean virtual_leaf_1262430001741498370(SConcept thisConcept) {
+    return true;
   }
 
   @Deprecated

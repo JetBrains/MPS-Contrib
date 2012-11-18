@@ -26,7 +26,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 4:
         return new CompiledConceptDescriptor("jetbrains.mps.buildlanguage.structure.BinaryOperation", "jetbrains.mps.buildlanguage.structure.PropertyValueExpression", false, new String[]{"jetbrains.mps.buildlanguage.structure.PropertyValueExpression"}, new String[]{}, new String[]{});
       case 5:
-        return new CompiledConceptDescriptor("jetbrains.mps.buildlanguage.structure.BooleanLiteral", "jetbrains.mps.buildlanguage.structure.PropertyValueExpression", false, new String[]{"jetbrains.mps.buildlanguage.structure.PropertyValueExpression"}, new String[]{"value"}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.buildlanguage.structure.BooleanLiteral", "jetbrains.mps.buildlanguage.structure.PropertyValueExpression", false, new String[]{"jetbrains.mps.buildlanguage.structure.PropertyValueExpression", "jetbrains.mps.lang.core.structure.IDontSubstituteByDefault"}, new String[]{"value"}, new String[]{});
       case 6:
         return new CompiledConceptDescriptor("jetbrains.mps.buildlanguage.structure.BooleanType", "jetbrains.mps.buildlanguage.structure.PropertyType", false, new String[]{"jetbrains.mps.buildlanguage.structure.PropertyType"}, new String[]{}, new String[]{});
       case 7:
