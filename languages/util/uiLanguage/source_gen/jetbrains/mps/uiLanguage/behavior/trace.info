@@ -4,7 +4,7 @@
   <unitInfo fileName="AddListenerOperation_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.AddListenerOperation_BehaviorDescriptor" />
   <unitInfo fileName="AfterConstructionBlock_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.AfterConstructionBlock_BehaviorDescriptor" />
   <unitInfo fileName="AttributeDeclaration_BehaviorDescriptor.java" startLine="11" startPosition="0" endLine="44" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.AttributeDeclaration_BehaviorDescriptor" />
-  <unitInfo fileName="AttributeReferenceOperation_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="35" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.AttributeReferenceOperation_BehaviorDescriptor" />
+  <unitInfo fileName="AttributeReferenceOperation_BehaviorDescriptor.java" startLine="11" startPosition="0" endLine="40" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.AttributeReferenceOperation_BehaviorDescriptor" />
   <unitInfo fileName="AttributeValue_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.AttributeValue_BehaviorDescriptor" />
   <unitInfo fileName="BeanCreator_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.BeanCreator_BehaviorDescriptor" />
   <unitInfo fileName="BeanDeclaration_BehaviorDescriptor.java" startLine="14" startPosition="0" endLine="51" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.BeanDeclaration_BehaviorDescriptor" />
@@ -19,8 +19,8 @@
   <unitInfo fileName="ComponentInstance_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="27" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.ComponentInstance_BehaviorDescriptor" />
   <unitInfo fileName="ComponentReference_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.ComponentReference_BehaviorDescriptor" />
   <unitInfo fileName="ComponentType_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="22" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.ComponentType_BehaviorDescriptor" />
-  <unitInfo fileName="EventAccessOperation_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="35" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.EventAccessOperation_BehaviorDescriptor" />
-  <unitInfo fileName="EventDeclaration_BehaviorDescriptor.java" startLine="11" startPosition="0" endLine="44" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.EventDeclaration_BehaviorDescriptor" />
+  <unitInfo fileName="EventAccessOperation_BehaviorDescriptor.java" startLine="11" startPosition="0" endLine="40" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.EventAccessOperation_BehaviorDescriptor" />
+  <unitInfo fileName="EventDeclaration_BehaviorDescriptor.java" startLine="12" startPosition="0" endLine="45" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.EventDeclaration_BehaviorDescriptor" />
   <unitInfo fileName="EventHandlerReference_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.EventHandlerReference_BehaviorDescriptor" />
   <unitInfo fileName="FormPart_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.FormPart_BehaviorDescriptor" />
   <unitInfo fileName="Form_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.Form_BehaviorDescriptor" />
@@ -34,7 +34,7 @@
   <unitInfo fileName="ListElements_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.ListElements_BehaviorDescriptor" />
   <unitInfo fileName="PngIcon_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.PngIcon_BehaviorDescriptor" />
   <unitInfo fileName="RaiseInternalStatement_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.RaiseInternalStatement_BehaviorDescriptor" />
-  <unitInfo fileName="RaiseOperation_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="35" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.RaiseOperation_BehaviorDescriptor" />
+  <unitInfo fileName="RaiseOperation_BehaviorDescriptor.java" startLine="11" startPosition="0" endLine="40" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.RaiseOperation_BehaviorDescriptor" />
   <unitInfo fileName="RemoveListenerOperation_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.RemoveListenerOperation_BehaviorDescriptor" />
   <unitInfo fileName="RenderingObject_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.RenderingObject_BehaviorDescriptor" />
   <unitInfo fileName="Scroller_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.Scroller_BehaviorDescriptor" />
@@ -189,12 +189,18 @@
     <unitInfo nodeId="1213877287965" fileName="BindExpression_Behavior.java" startLine="10" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.BindExpression_Behavior" />
   </root>
   <root nodeId="1213877294820" modelId="r:00000000-0000-4000-0000-011c8959054c(jetbrains.mps.uiLanguage.behavior)">
-    <nodeInfo nodeId="1213877294820" fileName="AttributeReferenceOperation_Behavior.java" startLine="8" startPosition="0" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
-    <scopeInfo nodeId="1213877294822" fileName="AttributeReferenceOperation_Behavior.java" startLine="8" startPosition="43" endLine="8" endPosition="43" />
-    <scopeInfo nodeId="1213877294820" fileName="AttributeReferenceOperation_Behavior.java" startLine="8" startPosition="0" endLine="10" endPosition="0">
+    <nodeInfo nodeId="1262430001741718957" fileName="AttributeReferenceOperation_Behavior.java" startLine="12" startPosition="82" endLine="13" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1213877294820" fileName="AttributeReferenceOperation_Behavior.java" startLine="9" startPosition="0" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="1213877294820" fileName="AttributeReferenceOperation_Behavior.java" startLine="12" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_lvalue_1262430001741498364#(Lorg/jetbrains/mps/openapi/language/SConcept;)Z" />
+    <scopeInfo nodeId="1213877294822" fileName="AttributeReferenceOperation_Behavior.java" startLine="9" startPosition="43" endLine="9" endPosition="43" />
+    <scopeInfo nodeId="1262430001741718956" fileName="AttributeReferenceOperation_Behavior.java" startLine="12" startPosition="82" endLine="13" endPosition="16" />
+    <scopeInfo nodeId="1213877294820" fileName="AttributeReferenceOperation_Behavior.java" startLine="9" startPosition="0" endLine="11" endPosition="0">
       <varInfo nodeId="1213877294820" varName="thisNode" />
     </scopeInfo>
-    <unitInfo nodeId="1213877294820" fileName="AttributeReferenceOperation_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.AttributeReferenceOperation_Behavior" />
+    <scopeInfo nodeId="1213877294820" fileName="AttributeReferenceOperation_Behavior.java" startLine="12" startPosition="0" endLine="15" endPosition="0">
+      <varInfo nodeId="1213877294820" varName="thisConcept" />
+    </scopeInfo>
+    <unitInfo nodeId="1213877294820" fileName="AttributeReferenceOperation_Behavior.java" startLine="8" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.uiLanguage.behavior.AttributeReferenceOperation_Behavior" />
   </root>
   <root nodeId="1213877298461" modelId="r:00000000-0000-4000-0000-011c8959054c(jetbrains.mps.uiLanguage.behavior)">
     <nodeInfo nodeId="1213877298467" fileName="InlineRenderer_Behavior.java" startLine="13" startPosition="78" endLine="14" endPosition="226" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />

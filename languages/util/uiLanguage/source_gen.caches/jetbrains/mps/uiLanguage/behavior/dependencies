@@ -39,6 +39,7 @@
   </dependency>
   <dependency className="jetbrains.mps.uiLanguage.behavior.AttributeReferenceOperation_Behavior" file="AttributeReferenceOperation_Behavior.java">
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.language.SConcept" />
   </dependency>
   <dependency className="jetbrains.mps.uiLanguage.behavior.AttributeReferenceOperation_BehaviorDescriptor" file="AttributeReferenceOperation_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
@@ -47,6 +48,8 @@
     <classNode dependClassName="jetbrains.mps.baseLanguage.classifiers.behavior.IMemberOperation_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.uiLanguage.behavior.AttributeReferenceOperation_Behavior" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.language.SConcept" />
     <classNode extendsClassName="java.lang.Cloneable" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
@@ -291,6 +294,7 @@
     <classNode dependClassName="jetbrains.mps.baseLanguage.classifiers.behavior.IMemberOperation_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.language.SConcept" />
     <classNode extendsClassName="java.lang.Cloneable" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
@@ -300,6 +304,7 @@
     <classNode dependClassName="jetbrains.mps.baseLanguage.classifiers.behavior.IMember_Behavior" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.classifiers.behavior.IMember_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.IDontSubstituteByDefault_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode extendsClassName="java.lang.Cloneable" />
@@ -460,6 +465,7 @@
     <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.IOperation_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.language.SConcept" />
     <classNode extendsClassName="java.lang.Cloneable" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
