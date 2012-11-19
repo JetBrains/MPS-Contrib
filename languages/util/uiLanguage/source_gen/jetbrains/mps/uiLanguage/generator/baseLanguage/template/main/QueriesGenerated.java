@@ -27,8 +27,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.internal.collections.runtime.ITranslator2;
 import jetbrains.mps.internal.collections.runtime.Sequence;
-import java.util.Set;
-import java.util.HashSet;
 import jetbrains.mps.smodel.SModelUtil_new;
 import jetbrains.mps.project.GlobalScope;
 import jetbrains.mps.smodel.SReference;
@@ -262,7 +260,7 @@ public class QueriesGenerated {
     if ((SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "component", false), "mapTo", false) != null)) {
       return SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "component", false), "mapTo", false);
     }
-    return SLinkOperations.getTarget(new QueriesGenerated.QuotationClass_x583g4_a0a1a15().createNode(), "classifier", false);
+    return SLinkOperations.getTarget(_quotation_createNode_x583g4_a0b0zb(), "classifier", false);
   }
 
   public static Object referenceMacro_GetReferent_1562009418797398850(final IOperationContext operationContext, final ReferenceMacroContext _context) {
@@ -615,6 +613,13 @@ public class QueriesGenerated {
     return SLinkOperations.getTargets(ListSequence.fromList(SLinkOperations.getTargets(StubCellRendererInfo_Behavior.call_getInterface_1213877358391(InlineRenderer_Behavior.call_getRendererInfoNode_1213877298464(_context.getNode())), "method", true)).first(), "parameter", true);
   }
 
+  private static SNode _quotation_createNode_x583g4_a0b0zb() {
+    SNode quotedNode_1 = null;
+    quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", null, null, GlobalScope.getInstance(), false);
+    quotedNode_1.setReference("classifier", SReference.create("classifier", quotedNode_1, SModelReference.fromString("f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.swing(JDK/javax.swing@java_stub)"), SNodeId.fromString("~JComponent")));
+    return quotedNode_1;
+  }
+
   private static boolean neq_x583g4_a0a0b(Object a, Object b) {
     return !((a != null ?
       a.equals(b) :
@@ -641,23 +646,5 @@ public class QueriesGenerated {
       a.equals(b) :
       a == b
     );
-  }
-
-  public static class QuotationClass_x583g4_a0a1a15 {
-    public QuotationClass_x583g4_a0a1a15() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_1 = null;
-      {
-        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", null, null, GlobalScope.getInstance(), false);
-        SNode quotedNode1_2 = quotedNode_1;
-        quotedNode1_2.setReference("classifier", SReference.create("classifier", quotedNode1_2, SModelReference.fromString("f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.swing(JDK/javax.swing@java_stub)"), SNodeId.fromString("~JComponent")));
-        result = quotedNode1_2;
-      }
-      return result;
-    }
   }
 }
