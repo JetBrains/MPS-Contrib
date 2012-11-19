@@ -12,14 +12,12 @@ import jetbrains.mps.typesystem.inference.TypeChecker;
 import org.jetbrains.mps.openapi.model.SNodeReference;
 import jetbrains.mps.smodel.SNodePointer;
 import java.util.Collections;
+import jetbrains.mps.smodel.SModelUtil_new;
+import jetbrains.mps.project.GlobalScope;
 import jetbrains.mps.smodel.action.SNodeFactoryOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.intentions.IntentionDescriptor;
-import java.util.Set;
-import java.util.HashSet;
-import jetbrains.mps.smodel.SModelUtil_new;
-import jetbrains.mps.project.GlobalScope;
 
 public class AddDateTimePropertyForPeriod_Intention implements IntentionFactory {
   private Collection<IntentionExecutable> myCachedExecutable;
@@ -59,7 +57,7 @@ public class AddDateTimePropertyForPeriod_Intention implements IntentionFactory 
   }
 
   private boolean isApplicableToNode(final SNode node, final EditorContext editorContext) {
-    return TypeChecker.getInstance().getSubtypingManager().isSubtype(TypeChecker.getInstance().getTypeOf(node), new AddDateTimePropertyForPeriod_Intention.QuotationClass_wbe9gj_a1a0a0h().createNode(), false);
+    return TypeChecker.getInstance().getSubtypingManager().isSubtype(TypeChecker.getInstance().getTypeOf(node), _quotation_createNode_e2qrq4_b0a0a0(), false);
   }
 
   public SNodeReference getIntentionNodeReference() {
@@ -71,6 +69,12 @@ public class AddDateTimePropertyForPeriod_Intention implements IntentionFactory 
       myCachedExecutable = Collections.<IntentionExecutable>singletonList(new AddDateTimePropertyForPeriod_Intention.IntentionImplementation());
     }
     return myCachedExecutable;
+  }
+
+  private static SNode _quotation_createNode_e2qrq4_b0a0a0() {
+    SNode quotedNode_1 = null;
+    quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", null, null, GlobalScope.getInstance(), false);
+    return quotedNode_1;
   }
 
   public class IntentionImplementation implements IntentionExecutable {
@@ -89,23 +93,6 @@ public class AddDateTimePropertyForPeriod_Intention implements IntentionFactory 
 
     public IntentionDescriptor getDescriptor() {
       return AddDateTimePropertyForPeriod_Intention.this;
-    }
-  }
-
-  public static class QuotationClass_wbe9gj_a1a0a0h {
-    public QuotationClass_wbe9gj_a1a0a0h() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_1 = null;
-      {
-        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", null, null, GlobalScope.getInstance(), false);
-        SNode quotedNode1_2 = quotedNode_1;
-        result = quotedNode1_2;
-      }
-      return result;
     }
   }
 }
