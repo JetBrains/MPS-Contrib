@@ -134,6 +134,7 @@
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.language.SConcept" />
   </dependency>
   <dependency className="jetbrains.mps.build.generictasks.behavior.PathReference_BehaviorDescriptor" file="PathReference_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
@@ -142,6 +143,7 @@
     <classNode dependClassName="jetbrains.mps.build.generictasks.behavior.PathReference_Behavior" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.behavior.CallReference_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.language.SConcept" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="jetbrains.mps.build.generictasks.behavior.TaskCall_Behavior" file="TaskCall_Behavior.java">

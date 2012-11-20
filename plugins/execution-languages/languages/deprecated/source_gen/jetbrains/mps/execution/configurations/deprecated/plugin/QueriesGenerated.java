@@ -19,7 +19,6 @@ import jetbrains.mps.execution.configurations.deprecated.behavior.RunConfigurati
 import jetbrains.mps.execution.configurations.deprecated.generator.util.VariableNameUtil;
 import jetbrains.mps.util.NodeNameUtil;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptPropertyOperations;
 import jetbrains.mps.lang.plugin.behavior.ActionDeclaration_Behavior;
 import jetbrains.mps.generator.template.ReferenceMacroContext;
 import jetbrains.mps.typesystem.inference.TypeChecker;
@@ -175,7 +174,7 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_314981645427226726(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return SConceptPropertyOperations.getString(_context.getNode(), "alias");
+    return SPropertyOperations.getString(SNodeOperations.getConceptDeclaration(_context.getNode()), "conceptAlias");
   }
 
   public static Object propertyMacro_GetPropertyValue_314981645427226812(final IOperationContext operationContext, final PropertyMacroContext _context) {

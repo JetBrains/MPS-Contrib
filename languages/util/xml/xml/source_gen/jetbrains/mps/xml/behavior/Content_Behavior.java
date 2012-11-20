@@ -6,6 +6,7 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import java.util.List;
 import java.util.ArrayList;
+import org.jetbrains.mps.openapi.language.SConcept;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.smodel.behaviour.BehaviorManager;
 
@@ -29,6 +30,10 @@ public class Content_Behavior {
 
   public static List<SNode> virtual_getSubcontents_1213877224308(SNode thisNode) {
     return new ArrayList<SNode>();
+  }
+
+  public static boolean virtual_isComplex_1262430001741498088(SConcept thisConcept) {
+    return false;
   }
 
   @Deprecated

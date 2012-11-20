@@ -5,12 +5,17 @@ package jetbrains.mps.build.property.behavior;
 import jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor;
 import jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor;
 import jetbrains.mps.buildlanguage.behavior.IPropertyHolder_BehaviorDescriptor;
+import org.jetbrains.mps.openapi.language.SConcept;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.core.behavior.INamedConcept_Behavior;
 import java.util.List;
 
 public class PropertyNode_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor implements INamedConcept_BehaviorDescriptor, IPropertyHolder_BehaviorDescriptor {
   public PropertyNode_BehaviorDescriptor() {
+  }
+
+  public String virtual_getExtension_1262430001741497933(SConcept thisConcept) {
+    return PropertyNode_Behavior.virtual_getExtension_1262430001741497933(thisConcept);
   }
 
   public String virtual_getFqName_1213877404258(SNode thisNode) {

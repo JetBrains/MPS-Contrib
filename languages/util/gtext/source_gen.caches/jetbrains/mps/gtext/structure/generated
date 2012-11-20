@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-4iv38643b336rgds590u3shyjqnrivh">
-  <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="9ct9lck34q1x3n4q6gbk723j8ja9pb9" />
+<dependencies version="2" modelHash="-499dcyyyidvi2cd0xk5ihh5go5pi7o">
+  <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="72jgettirgdze5zodlg3xz1jp5r3et8" />
   <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" hash="drfxt8i63upja5k7zfj1z568c5k4586" />
-  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-2eqrjs8emy551teprj5no9utk82ifsq" />
-  <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" hash="-dweusve4s1cnqvm1h7144swvj24rs4o" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="bavz98vwxhwhpog89k63m5eu2e8cbl3" />
+  <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" hash="-baumsvy45qwk0i0m1tzx9fili68fouh" />
   <dep model="r:3b7ed80f-6cfd-45bc-b051-2f66c620dd27(jetbrains.mps.lang.traceable.structure)" hash="78ysfrpjuhuyadt3m03y6bbyt3b17tp" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="6r1gsoq3dd0l5ofyes4ojz73yszw60" />
   <common hash="b6kiunazsslzujkotzwwqkywnuyu5av">
@@ -34,55 +34,55 @@
     <file name="Gtext_Language.java" />
     <file name="StructureAspectDescriptor.java" />
   </common>
-  <source id="1164412789837" name="GText" hash="-3gx1zv06p4n1gaoeop1kzu4c0mzuc2t">
+  <source id="1164412789837" name="GText" hash="42anfsywa88m0bijpptic7yalv4g68v">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1164412935041" name="GItem" hash="1yih787m6gub5gfq0vecye6aeubwi27">
+  <source id="1164412935041" name="GItem" hash="8ompks12r8i8vqhtwytkgrnzhun6ndk">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1164412982980" name="GItemList" hash="-ep3qpgt7aa4dcjscbbjwk38r0cg5ygz">
+  <source id="1164412982980" name="GItemList" hash="28oa7wxy8ugigqul1j88mrwbj6xs41r">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1164413172275" name="GNewLine" hash="-7n82af059wvkwls7rr6ut1zpugw3idw">
+  <source id="1164413172275" name="GNewLine" hash="7z40hvgn4zzjdmhgjqmbvvxp2p5ws3t">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1164413214326" name="GIndent" hash="-eat1n63y2vnkvdgfsk6bivw3kbtujq3">
+  <source id="1164413214326" name="GIndent" hash="74ug0uqymqq0m796l7pozjcbefbrn4v">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1164416446950" name="GIndentBlock" hash="5qewby9swyhvrfi5g5mx6kzdz5tpd07">
+  <source id="1164416446950" name="GIndentBlock" hash="6dodqm562fmgg54cm5uice79zyof2qz">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1164488352732" name="GItemStatement" hash="7bktxoqbo4ufxkade4z5u4zmt59dr3">
+  <source id="1164488352732" name="GItemStatement" hash="30oeq23b17spqgureayxq60ym7peu8q">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1164497519485" name="GExpressionItem" hash="-eluw5qln0i7obxwbpllyuax3b5etwnk">
+  <source id="1164497519485" name="GExpressionItem" hash="a97lhpxq1aybypdolkmoczkspyuftl6">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1165582968644" name="GStatementItem" hash="-a88lmwdp7mrud0ptgnhk2tnn5grwjfg">
+  <source id="1165582968644" name="GStatementItem" hash="8jxemstwjwpcwojbp44la476bwt47wl">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1166926309597" name="GLine" hash="-4kvg276231r05j4e4zotvk45nr4eatq">
+  <source id="1166926309597" name="GLine" hash="bjztv200zkhhvdiowe6hshcohhejfi5">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1179109169620" name="GConditionalLine" hash="-8461g8l0ld0iyhauvjhbxmgmjzk1o37">
+  <source id="1179109169620" name="GConditionalLine" hash="9zmraw4zhlbaf6qepk2twonrreu4mp7">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1181754781153" name="BuilderContextRef" hash="8qvcg8z6dcc4ybdfpqxoypamnava8ts">
+  <source id="1181754781153" name="BuilderContextRef" hash="-aoh5zifgib7cbbbb17pa5v4tkyw54vk">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1184639540818" name="GDocument" hash="-mpbnc1wn771bqftqbvynfhsktzq8co">
+  <source id="1184639540818" name="GDocument" hash="-behp3ejeas79pgzzi1uifolyvxtfyse">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="1186170508337" name="GTextConcept" hash="1nmxtq8oayh482lualpjct3oad0io3f">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1188509198390" name="GSeparatorItemList" hash="520rwstlu2u0581o3a2mzhn5qtamf82">
+  <source id="1188509198390" name="GSeparatorItemList" hash="bjm37m93bqsbsubhvuxnor1j1qi7a4r">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1211920428461" name="GContentPlaceholder" hash="53x2up26h6j18cscrc7x05opdp9x4ar">
+  <source id="1211920428461" name="GContentPlaceholder" hash="albdm4ckfg7ulup85aelqlqn49fuzhk">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1211920502338" name="GContentBlock" hash="-7mvbduvy1p110ztn6i831zwtvtwkndf">
+  <source id="1211920502338" name="GContentBlock" hash="-5d2jxk726fafur0p8fc311in05jzi5e">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="1239125024709" name="GCompositeItem" hash="-49zy4j0fse2wy8ufbswph2rm7pte3s8">

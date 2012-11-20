@@ -14,6 +14,7 @@ import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
+import org.jetbrains.mps.openapi.language.SConcept;
 import jetbrains.mps.smodel.behaviour.BehaviorManager;
 import jetbrains.mps.smodel.SModelUtil_new;
 import jetbrains.mps.project.GlobalScope;
@@ -76,6 +77,10 @@ public class RunConfigurationDeclaration_Behavior {
       return false;
     }
     return neq_ym0401_a0c0j(SModelOperations.getModelName(SNodeOperations.getModel(thisNode)), SModelOperations.getModelName(SNodeOperations.getModel(type)));
+  }
+
+  public static boolean virtual_requiresCustomEditor_1262430001741498265(SConcept thisConcept) {
+    return true;
   }
 
   @Deprecated

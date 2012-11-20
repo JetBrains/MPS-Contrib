@@ -48,7 +48,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 15:
         return new CompiledConceptDescriptor("jetbrains.mps.baseLanguage.datesInternal.structure.PredefinedPeriodFormat", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.baseLanguage.datesInternal.structure.IPeriodFormat"}, new String[]{}, new String[]{});
       case 16:
-        return new CompiledConceptDescriptor("jetbrains.mps.baseLanguage.datesInternal.structure.SchedulePeriod", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{"second", "minute", "hour", "dayOfWeek", "dayOfMonth", "month"}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.baseLanguage.datesInternal.structure.SchedulePeriod", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept", "jetbrains.mps.lang.core.structure.IDontSubstituteByDefault"}, new String[]{"second", "minute", "hour", "dayOfWeek", "dayOfMonth", "month"}, new String[]{});
       default:
         return StructureAspectInterpreted.getInstance().getDescriptor(conceptFqName);
     }

@@ -16,11 +16,11 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
   public ConceptDescriptor getDescriptor(String conceptFqName) {
     switch (Arrays.binarySearch(stringSwitchCases_1htk8d_a0a0a, conceptFqName)) {
       case 0:
-        return new CompiledConceptDescriptor("jetbrains.mps.baseLanguage.dates.structure.AbsDateTimeMinusOperation", "jetbrains.mps.baseLanguage.dates.structure.DateTimeMinusOperation", false, new String[]{"jetbrains.mps.baseLanguage.dates.structure.DateTimeMinusOperation"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.baseLanguage.dates.structure.AbsDateTimeMinusOperation", "jetbrains.mps.baseLanguage.dates.structure.DateTimeMinusOperation", false, new String[]{"jetbrains.mps.baseLanguage.dates.structure.DateTimeMinusOperation", "jetbrains.mps.lang.core.structure.IDontSubstituteByDefault"}, new String[]{}, new String[]{});
       case 1:
         return new CompiledConceptDescriptor("jetbrains.mps.baseLanguage.dates.structure.AllTimeZonesConstant", "jetbrains.mps.baseLanguage.structure.Expression", false, new String[]{"jetbrains.mps.baseLanguage.structure.Expression"}, new String[]{}, new String[]{});
       case 2:
-        return new CompiledConceptDescriptor("jetbrains.mps.baseLanguage.dates.structure.CeilingDateTimeOperation", "jetbrains.mps.baseLanguage.dates.structure.RoundDateTimeOperation", false, new String[]{"jetbrains.mps.baseLanguage.dates.structure.RoundDateTimeOperation"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.baseLanguage.dates.structure.CeilingDateTimeOperation", "jetbrains.mps.baseLanguage.dates.structure.RoundDateTimeOperation", false, new String[]{"jetbrains.mps.baseLanguage.dates.structure.RoundDateTimeOperation", "jetbrains.mps.lang.core.structure.IDontSubstituteByDefault"}, new String[]{}, new String[]{});
       case 3:
         return new CompiledConceptDescriptor("jetbrains.mps.baseLanguage.dates.structure.ConditionalFormatToken", "jetbrains.mps.baseLanguage.dates.structure.FormatToken", false, new String[]{"jetbrains.mps.baseLanguage.dates.structure.FormatToken", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{}, new String[]{});
       case 4:
@@ -42,7 +42,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 12:
         return new CompiledConceptDescriptor("jetbrains.mps.baseLanguage.dates.structure.DateTimeCompareOperation", "jetbrains.mps.baseLanguage.structure.Expression", false, new String[]{"jetbrains.mps.baseLanguage.structure.Expression"}, new String[]{"compareType"}, new String[]{"datetimeProperty"});
       case 13:
-        return new CompiledConceptDescriptor("jetbrains.mps.baseLanguage.dates.structure.DateTimeMinusOperation", "jetbrains.mps.baseLanguage.structure.Expression", false, new String[]{"jetbrains.mps.baseLanguage.structure.Expression"}, new String[]{}, new String[]{"datetimeProperty"});
+        return new CompiledConceptDescriptor("jetbrains.mps.baseLanguage.dates.structure.DateTimeMinusOperation", "jetbrains.mps.baseLanguage.structure.Expression", false, new String[]{"jetbrains.mps.baseLanguage.structure.Expression", "jetbrains.mps.lang.core.structure.IDontSubstituteByDefault"}, new String[]{}, new String[]{"datetimeProperty"});
       case 14:
         return new CompiledConceptDescriptor("jetbrains.mps.baseLanguage.dates.structure.DateTimeMinusPeriodOperation", "jetbrains.mps.baseLanguage.structure.Expression", false, new String[]{"jetbrains.mps.baseLanguage.structure.Expression"}, new String[]{}, new String[]{});
       case 15:
@@ -58,7 +58,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 20:
         return new CompiledConceptDescriptor("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", "jetbrains.mps.baseLanguage.structure.Type", false, new String[]{"jetbrains.mps.baseLanguage.structure.Type"}, new String[]{}, new String[]{});
       case 21:
-        return new CompiledConceptDescriptor("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithPropertyOperation", "jetbrains.mps.baseLanguage.dates.structure.UnaryDateTimeOperation", false, new String[]{"jetbrains.mps.baseLanguage.dates.structure.UnaryDateTimeOperation"}, new String[]{}, new String[]{"dateTimeProperty"});
+        return new CompiledConceptDescriptor("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithPropertyOperation", "jetbrains.mps.baseLanguage.dates.structure.UnaryDateTimeOperation", false, new String[]{"jetbrains.mps.baseLanguage.dates.structure.UnaryDateTimeOperation", "jetbrains.mps.lang.core.structure.IDontSubstituteByDefault"}, new String[]{}, new String[]{"dateTimeProperty"});
       case 22:
         return new CompiledConceptDescriptor("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", "jetbrains.mps.baseLanguage.structure.Type", false, new String[]{"jetbrains.mps.baseLanguage.structure.Type"}, new String[]{}, new String[]{});
       case 23:
@@ -74,11 +74,11 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 28:
         return new CompiledConceptDescriptor("jetbrains.mps.baseLanguage.dates.structure.FixedLocaleFormatToken", "jetbrains.mps.baseLanguage.dates.structure.FormatToken", false, new String[]{"jetbrains.mps.baseLanguage.dates.structure.FormatToken"}, new String[]{}, new String[]{"locale", "dateFormat"});
       case 29:
-        return new CompiledConceptDescriptor("jetbrains.mps.baseLanguage.dates.structure.FloorDateTimeOperation", "jetbrains.mps.baseLanguage.dates.structure.RoundDateTimeOperation", false, new String[]{"jetbrains.mps.baseLanguage.dates.structure.RoundDateTimeOperation"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.baseLanguage.dates.structure.FloorDateTimeOperation", "jetbrains.mps.baseLanguage.dates.structure.RoundDateTimeOperation", false, new String[]{"jetbrains.mps.baseLanguage.dates.structure.RoundDateTimeOperation", "jetbrains.mps.lang.core.structure.IDontSubstituteByDefault"}, new String[]{}, new String[]{});
       case 30:
         return new CompiledConceptDescriptor("jetbrains.mps.baseLanguage.dates.structure.FormatDateTimeExpression", "jetbrains.mps.baseLanguage.structure.Expression", false, new String[]{"jetbrains.mps.baseLanguage.structure.Expression", "jetbrains.mps.baseLanguage.structure.TypeDerivable"}, new String[]{}, new String[]{"dateFormat", "locale"});
       case 31:
-        return new CompiledConceptDescriptor("jetbrains.mps.baseLanguage.dates.structure.FormatExpression", "jetbrains.mps.baseLanguage.structure.Expression", false, new String[]{"jetbrains.mps.baseLanguage.structure.Expression", "jetbrains.mps.baseLanguage.structure.TypeDerivable"}, new String[]{}, new String[]{"dateFormat", "locale"});
+        return new CompiledConceptDescriptor("jetbrains.mps.baseLanguage.dates.structure.FormatExpression", "jetbrains.mps.baseLanguage.structure.Expression", false, new String[]{"jetbrains.mps.baseLanguage.structure.Expression", "jetbrains.mps.baseLanguage.structure.TypeDerivable", "jetbrains.mps.lang.core.structure.IDontSubstituteByDefault"}, new String[]{}, new String[]{"dateFormat", "locale"});
       case 32:
         return new CompiledConceptDescriptor("jetbrains.mps.baseLanguage.dates.structure.FormatPeriodExpression", "jetbrains.mps.baseLanguage.structure.Expression", false, new String[]{"jetbrains.mps.baseLanguage.structure.Expression", "jetbrains.mps.baseLanguage.structure.TypeDerivable"}, new String[]{}, new String[]{"format", "locale"});
       case 33:
@@ -88,7 +88,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 35:
         return new CompiledConceptDescriptor("jetbrains.mps.baseLanguage.dates.structure.InlineFormatDateTimeExpression", "jetbrains.mps.baseLanguage.structure.Expression", false, new String[]{"jetbrains.mps.baseLanguage.structure.Expression"}, new String[]{}, new String[]{"locale"});
       case 36:
-        return new CompiledConceptDescriptor("jetbrains.mps.baseLanguage.dates.structure.InlineFormatExpression", "jetbrains.mps.baseLanguage.dates.structure.UnaryDateTimeOperation", false, new String[]{"jetbrains.mps.baseLanguage.dates.structure.UnaryDateTimeOperation"}, new String[]{"withLocale"}, new String[]{"locale"});
+        return new CompiledConceptDescriptor("jetbrains.mps.baseLanguage.dates.structure.InlineFormatExpression", "jetbrains.mps.baseLanguage.dates.structure.UnaryDateTimeOperation", false, new String[]{"jetbrains.mps.baseLanguage.dates.structure.UnaryDateTimeOperation", "jetbrains.mps.lang.core.structure.IDontSubstituteByDefault"}, new String[]{"withLocale"}, new String[]{"locale"});
       case 37:
         return new CompiledConceptDescriptor("jetbrains.mps.baseLanguage.dates.structure.LiteralFormatToken", "jetbrains.mps.baseLanguage.dates.structure.FormatToken", false, new String[]{"jetbrains.mps.baseLanguage.dates.structure.FormatToken"}, new String[]{"value"}, new String[]{});
       case 38:
@@ -108,7 +108,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 45:
         return new CompiledConceptDescriptor("jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression", "jetbrains.mps.baseLanguage.structure.Expression", false, new String[]{"jetbrains.mps.baseLanguage.structure.Expression", "jetbrains.mps.baseLanguage.structure.TypeDerivable"}, new String[]{}, new String[]{"dateFormat", "locale"});
       case 46:
-        return new CompiledConceptDescriptor("jetbrains.mps.baseLanguage.dates.structure.ParseExpression", "jetbrains.mps.baseLanguage.structure.Expression", false, new String[]{"jetbrains.mps.baseLanguage.structure.Expression"}, new String[]{}, new String[]{"dateFormat", "locale"});
+        return new CompiledConceptDescriptor("jetbrains.mps.baseLanguage.dates.structure.ParseExpression", "jetbrains.mps.baseLanguage.structure.Expression", false, new String[]{"jetbrains.mps.baseLanguage.structure.Expression", "jetbrains.mps.lang.core.structure.IDontSubstituteByDefault"}, new String[]{}, new String[]{"dateFormat", "locale"});
       case 47:
         return new CompiledConceptDescriptor("jetbrains.mps.baseLanguage.dates.structure.PeriodConstant", "jetbrains.mps.baseLanguage.structure.Expression", false, new String[]{"jetbrains.mps.baseLanguage.structure.Expression"}, new String[]{}, new String[]{"dateTimeProperty"});
       case 48:
@@ -120,7 +120,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 51:
         return new CompiledConceptDescriptor("jetbrains.mps.baseLanguage.dates.structure.PeriodInPropertyExpression", "jetbrains.mps.baseLanguage.structure.Expression", false, new String[]{"jetbrains.mps.baseLanguage.structure.Expression"}, new String[]{}, new String[]{"datetimeProperty"});
       case 52:
-        return new CompiledConceptDescriptor("jetbrains.mps.baseLanguage.dates.structure.PeriodInPropertyOperation", "jetbrains.mps.baseLanguage.structure.Expression", false, new String[]{"jetbrains.mps.baseLanguage.structure.Expression"}, new String[]{"absolute"}, new String[]{"datetimeProperty"});
+        return new CompiledConceptDescriptor("jetbrains.mps.baseLanguage.dates.structure.PeriodInPropertyOperation", "jetbrains.mps.baseLanguage.structure.Expression", false, new String[]{"jetbrains.mps.baseLanguage.structure.Expression", "jetbrains.mps.lang.core.structure.IDontSubstituteByDefault"}, new String[]{"absolute"}, new String[]{"datetimeProperty"});
       case 53:
         return new CompiledConceptDescriptor("jetbrains.mps.baseLanguage.dates.structure.PeriodLiteralFormatToken", "jetbrains.mps.baseLanguage.dates.structure.PeriodFormatToken", false, new String[]{"jetbrains.mps.baseLanguage.dates.structure.PeriodFormatToken"}, new String[]{"value"}, new String[]{});
       case 54:
@@ -134,7 +134,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 58:
         return new CompiledConceptDescriptor("jetbrains.mps.baseLanguage.dates.structure.ReferenceFormatToken", "jetbrains.mps.baseLanguage.dates.structure.FormatToken", false, new String[]{"jetbrains.mps.baseLanguage.dates.structure.FormatToken"}, new String[]{}, new String[]{"dateFormat"});
       case 59:
-        return new CompiledConceptDescriptor("jetbrains.mps.baseLanguage.dates.structure.RoundDateTimeOperation", "jetbrains.mps.baseLanguage.dates.structure.UnaryDateTimeOperation", false, new String[]{"jetbrains.mps.baseLanguage.dates.structure.UnaryDateTimeOperation"}, new String[]{}, new String[]{"precision"});
+        return new CompiledConceptDescriptor("jetbrains.mps.baseLanguage.dates.structure.RoundDateTimeOperation", "jetbrains.mps.baseLanguage.dates.structure.UnaryDateTimeOperation", false, new String[]{"jetbrains.mps.baseLanguage.dates.structure.UnaryDateTimeOperation", "jetbrains.mps.lang.core.structure.IDontSubstituteByDefault"}, new String[]{}, new String[]{"precision"});
       case 60:
         return new CompiledConceptDescriptor("jetbrains.mps.baseLanguage.dates.structure.ScheduleLiteral", "jetbrains.mps.baseLanguage.structure.Expression", false, new String[]{"jetbrains.mps.baseLanguage.structure.Expression"}, new String[]{"second", "minute", "hour", "dayOfWeek", "dayOfMonth"}, new String[]{"schedulePeriod", "month"});
       case 61:
@@ -144,13 +144,13 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 63:
         return new CompiledConceptDescriptor("jetbrains.mps.baseLanguage.dates.structure.TimeZoneFromString", "jetbrains.mps.baseLanguage.structure.Expression", false, new String[]{"jetbrains.mps.baseLanguage.structure.Expression"}, new String[]{}, new String[]{});
       case 64:
-        return new CompiledConceptDescriptor("jetbrains.mps.baseLanguage.dates.structure.TimeZoneIDExpression", "jetbrains.mps.baseLanguage.structure.Expression", false, new String[]{"jetbrains.mps.baseLanguage.structure.Expression"}, new String[]{"timezone_id"}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.baseLanguage.dates.structure.TimeZoneIDExpression", "jetbrains.mps.baseLanguage.structure.Expression", false, new String[]{"jetbrains.mps.baseLanguage.structure.Expression", "jetbrains.mps.lang.core.structure.IDontSubstituteByDefault"}, new String[]{"timezone_id"}, new String[]{});
       case 65:
         return new CompiledConceptDescriptor("jetbrains.mps.baseLanguage.dates.structure.TimeZoneIdOperation", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.baseLanguage.structure.IOperation"}, new String[]{}, new String[]{});
       case 66:
-        return new CompiledConceptDescriptor("jetbrains.mps.baseLanguage.dates.structure.TimeZoneNameOperation", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.baseLanguage.structure.IOperation"}, new String[]{"property"}, new String[]{"locale"});
+        return new CompiledConceptDescriptor("jetbrains.mps.baseLanguage.dates.structure.TimeZoneNameOperation", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.baseLanguage.structure.IOperation", "jetbrains.mps.lang.core.structure.IDontSubstituteByDefault"}, new String[]{"property"}, new String[]{"locale"});
       case 67:
-        return new CompiledConceptDescriptor("jetbrains.mps.baseLanguage.dates.structure.TimeZoneOffsetExpression", "jetbrains.mps.baseLanguage.structure.Expression", false, new String[]{"jetbrains.mps.baseLanguage.structure.Expression"}, new String[]{"offsetmillis"}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.baseLanguage.dates.structure.TimeZoneOffsetExpression", "jetbrains.mps.baseLanguage.structure.Expression", false, new String[]{"jetbrains.mps.baseLanguage.structure.Expression", "jetbrains.mps.lang.core.structure.IDontSubstituteByDefault"}, new String[]{"offsetmillis"}, new String[]{});
       case 68:
         return new CompiledConceptDescriptor("jetbrains.mps.baseLanguage.dates.structure.TokenCondition", "jetbrains.mps.baseLanguage.structure.ConceptFunction", false, new String[]{"jetbrains.mps.baseLanguage.structure.ConceptFunction"}, new String[]{}, new String[]{});
       case 69:

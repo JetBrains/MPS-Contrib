@@ -6,6 +6,7 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import org.jetbrains.mps.openapi.language.SConcept;
 
 public class PlusOperation_Behavior {
   public static void init(SNode thisNode) {
@@ -45,5 +46,9 @@ public class PlusOperation_Behavior {
       right = BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(thisNode, "right", true), "virtual_getActualValue_1213877472572", new Object[]{});
     }
     return left + right;
+  }
+
+  public static String virtual_getOperation_1262430001741497840(SConcept thisConcept) {
+    return "+";
   }
 }

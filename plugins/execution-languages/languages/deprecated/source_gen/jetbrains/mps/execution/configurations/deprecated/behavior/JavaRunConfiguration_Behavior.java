@@ -8,6 +8,7 @@ import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import org.jetbrains.mps.openapi.language.SConcept;
 import jetbrains.mps.smodel.SModelUtil_new;
 import jetbrains.mps.project.GlobalScope;
 import jetbrains.mps.smodel.SReference;
@@ -34,6 +35,10 @@ public class JavaRunConfiguration_Behavior {
       return _quotation_createNode_r2ediq_a0a0a2();
     }
     return _quotation_createNode_r2ediq_a1a2();
+  }
+
+  public static boolean virtual_requiresCustomEditor_1262430001741498265(SConcept thisConcept) {
+    return false;
   }
 
   private static SNode _quotation_createNode_r2ediq_a0a0a2() {

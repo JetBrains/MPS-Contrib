@@ -5,6 +5,7 @@ package jetbrains.mps.execution.configurations.deprecated.behavior;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import org.jetbrains.mps.openapi.language.SConcept;
 
 public class PrepareConceptFunction_Behavior {
   public static void init(SNode thisNode) {
@@ -13,5 +14,9 @@ public class PrepareConceptFunction_Behavior {
 
   public static SNode virtual_getExpectedReturnType_1213877374441(SNode thisNode) {
     return SLinkOperations.getTarget(thisNode, "retrunTypeParameter", true);
+  }
+
+  public static boolean virtual_showName_1262430001741498082(SConcept thisConcept) {
+    return true;
   }
 }
