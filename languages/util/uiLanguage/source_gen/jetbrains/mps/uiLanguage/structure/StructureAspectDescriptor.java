@@ -54,7 +54,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 18:
         return new CompiledConceptDescriptor("jetbrains.mps.uiLanguage.structure.EventAccessOperation", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.baseLanguage.classifiers.structure.IMemberOperation"}, new String[]{}, new String[]{"event"});
       case 19:
-        return new CompiledConceptDescriptor("jetbrains.mps.uiLanguage.structure.EventDeclaration", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.baseLanguage.classifiers.structure.IMember"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.uiLanguage.structure.EventDeclaration", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.baseLanguage.classifiers.structure.IMember", "jetbrains.mps.lang.core.structure.IDontSubstituteByDefault"}, new String[]{}, new String[]{});
       case 20:
         return new CompiledConceptDescriptor("jetbrains.mps.uiLanguage.structure.EventHandlerReference", "jetbrains.mps.baseLanguage.structure.Expression", false, new String[]{"jetbrains.mps.baseLanguage.structure.Expression"}, new String[]{}, new String[]{"handler"});
       case 21:
