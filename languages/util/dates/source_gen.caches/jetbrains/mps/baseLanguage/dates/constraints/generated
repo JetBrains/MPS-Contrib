@@ -17,7 +17,7 @@
   <dep model="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" hash="br0zbuysk1h237dalzeuxqn1fmdj2bn" />
   <dep model="r:00000000-0000-4000-0000-011c895902b7(jetbrains.mps.lang.typesystem.generator.baseLanguage.template.main@generator)" hash="-e4nsyx0meru4s06yhwff1rnttp9d5a8" />
   <dep model="r:00000000-0000-4000-0000-011c895902bc(jetbrains.mps.lang.sharedConcepts.structure)" hash="-70etqnpzu2kbei39q2pbbkqppl49jrv" />
-  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="bavz98vwxhwhpog89k63m5eu2e8cbl3" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-uvseejb8lftjizgrik03igcx568a80" />
   <dep model="r:00000000-0000-4000-0000-011c895902cc(jetbrains.mps.baseLanguage.generator.java.conceptFunctionDefaults@generator)" hash="-d2np83xwps1fr6o7so1xo04jtzngli8" />
   <dep model="r:00000000-0000-4000-0000-011c895902de(jetbrains.mps.baseLanguage.blTypes.primitiveDescriptors)" />
   <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" hash="-baumsvy45qwk0i0m1tzx9fili68fouh" />
@@ -31,7 +31,7 @@
   <dep model="r:22db907b-8239-4180-8797-e91cea0b9573(jetbrains.mps.smodel.search)" hash="46fq0a1j7t2e071wquh07rwkyn5h6a9" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="-3223m9cg8337am9br9ikluvywbkblf4" />
   <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" hash="7mrusajwojxq1f58u8g9jxk11tocqv6" />
-  <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="6r1gsoq3dd0l5ofyes4ojz73yszw60" />
+  <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="3vh6ws77llhw5tlhdfffr8964224td2" />
   <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" hash="-alf2ogeiijb2ox8l3f57xq8a4vsqut" />
   <common hash="-8k8ywglrxraato0relbbuzdpg72aryw" dependsOnNodes="true">
     <dep root="1173960152516" />
