@@ -25,6 +25,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.util.MacrosFactory;
 import jetbrains.mps.vfs.FileSystem;
 import javax.swing.JComponent;
+import javax.swing.JLabel;
 import jetbrains.mps.ide.editor.util.EditorUtil;
 
 public class RunConfigurationPresentation extends AbstractCellProvider {
@@ -228,13 +229,17 @@ public class RunConfigurationPresentation extends AbstractCellProvider {
   private static boolean renderingCondition_ltb2bm_a1b0(SNode node, EditorContext editorContext, IScope scope) {
     String path = null;
     IModule module = SNodeOperations.getModel(node).getModelDescriptor().getModule();
-    if (module != null) {
+    if (module != null && module.getDescriptorFile() != null) {
       path = MacrosFactory.forModuleFile(module.getDescriptorFile()).expandPath(SPropertyOperations.getString(node, "iconPath"));
     }
     return path != null && FileSystem.getInstance().getFileByPath(path).exists();
   }
 
   private static JComponent _QueryFunction_JComponent_ltb2bm_a2b0(final SNode node, final EditorContext editorContext) {
+    IModule module = node.getModel().getModelDescriptor().getModule();
+    if (module == null || module.getDescriptorFile() == null) {
+      return new JLabel("Icon");
+    }
     return EditorUtil.createSelectIconButton(node, "iconPath", editorContext);
   }
 }

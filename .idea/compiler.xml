@@ -333,8 +333,8 @@
       <directory url="file://$PROJECT_DIR$/plugins/mps-build/languages/build/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/plugins/mps-build/pluginSolutions/jetbrains.mps.build.mps.pluginSolution/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/plugins/mps-build/pluginSolutions/jetbrains.mps.build.pluginSolution/source_gen" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/plugins/execution-languages/languages/common/source_gen" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/plugins/execution-languages/languages/settings/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/plugins/execution-api/languages/common/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/plugins/execution-api/languages/settings/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/plugins/mpsdevkit/languages/solutions/jetbrains.mps.baseLanguage.pluginSolution/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/plugins/mpsdevkit/languages/solutions/jetbrains.mps.lang.dataFlow.pluginSolution/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/testbench/languages/source_gen" includeSubdirectories="true" />
