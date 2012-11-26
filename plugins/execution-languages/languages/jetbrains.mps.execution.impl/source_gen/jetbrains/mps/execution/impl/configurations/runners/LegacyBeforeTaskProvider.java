@@ -9,6 +9,7 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import com.intellij.execution.configurations.RunConfiguration;
 import com.intellij.openapi.actionSystem.DataContext;
+import com.intellij.execution.runners.ExecutionEnvironment;
 import java.lang.reflect.Method;
 import com.intellij.openapi.actionSystem.PlatformDataKeys;
 import java.lang.reflect.InvocationTargetException;
@@ -34,12 +35,16 @@ public class LegacyBeforeTaskProvider extends BeforeRunTaskProvider<LegacyBefore
   }
 
   @Override
-  public String getDescription(RunConfiguration runConfiguration, LegacyBeforeTaskProvider.MakeTask task) {
+  public String getName() {
+    return "Make";
+  }
+
+  public String getDescription(LegacyBeforeTaskProvider.MakeTask task) {
     return "Make";
   }
 
   @Override
-  public boolean hasConfigurationButton() {
+  public boolean isConfigurable() {
     return false;
   }
 
@@ -66,8 +71,12 @@ public class LegacyBeforeTaskProvider extends BeforeRunTaskProvider<LegacyBefore
     return false;
   }
 
+  public boolean canExecuteTask(RunConfiguration configuration, LegacyBeforeTaskProvider.MakeTask task) {
+    return true;
+  }
+
   @Override
-  public boolean executeTask(DataContext context, RunConfiguration configuration, LegacyBeforeTaskProvider.MakeTask task) {
+  public boolean executeTask(DataContext context, RunConfiguration configuration, ExecutionEnvironment env, LegacyBeforeTaskProvider.MakeTask task) {
     try {
       Method make = getMethod(configuration);
       if (make == null) {
@@ -98,9 +107,9 @@ public class LegacyBeforeTaskProvider extends BeforeRunTaskProvider<LegacyBefore
     return configuration.getClass().getMethod("make", Project.class);
   }
 
-  public static class MakeTask extends BeforeRunTask {
+  public static class MakeTask extends BeforeRunTask<LegacyBeforeTaskProvider.MakeTask> {
     public MakeTask() {
-      super();
+      super(KEY);
       setEnabled(true);
     }
   }
