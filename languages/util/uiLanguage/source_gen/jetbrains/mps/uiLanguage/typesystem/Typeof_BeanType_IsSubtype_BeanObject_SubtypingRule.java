@@ -18,7 +18,7 @@ public class Typeof_BeanType_IsSubtype_BeanObject_SubtypingRule extends Subtypin
   }
 
   public SNode getSubOrSuperType(SNode beanType, TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
-    return _quotation_createNode_29jsfg_a0a0();
+    return _quotation_createNode_29jsfg_a0a1();
   }
 
   public String getApplicableConceptFQName() {
@@ -36,7 +36,7 @@ public class Typeof_BeanType_IsSubtype_BeanObject_SubtypingRule extends Subtypin
     return false;
   }
 
-  private static SNode _quotation_createNode_29jsfg_a0a0() {
+  private static SNode _quotation_createNode_29jsfg_a0a1() {
     SNode quotedNode_1 = null;
     quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", null, null, GlobalScope.getInstance(), false);
     quotedNode_1.setReference("classifier", SReference.create("classifier", quotedNode_1, SModelReference.fromString("r:00067a2f-ff21-4151-9184-3308b3d1f130(jetbrains.mps.uiLanguage.runtime)"), SNodeId.fromString("3987693689859618023")));

@@ -40,7 +40,7 @@ public class typeof_RemoveListenerOperation_InferenceRule extends AbstractInfere
     {
       SNode _nodeToCheck_1029348928467 = SNodeOperations.getAncestor(operation, "jetbrains.mps.baseLanguage.structure.Statement", false, false);
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, "handler return type must be void", "r:00000000-0000-4000-0000-011c89590550(jetbrains.mps.uiLanguage.typesystem)", "1208689441044", 0, null);
-      typeCheckingContext.createEquation((SNode) SLinkOperations.getTarget(methodNode, "returnType", true), (SNode) _quotation_createNode_4xbi0r_a0e0a(), _info_12389875345);
+      typeCheckingContext.createEquation((SNode) SLinkOperations.getTarget(methodNode, "returnType", true), (SNode) _quotation_createNode_4xbi0r_a0e0b(), _info_12389875345);
     }
   }
 
@@ -59,7 +59,7 @@ public class typeof_RemoveListenerOperation_InferenceRule extends AbstractInfere
     return true;
   }
 
-  private static SNode _quotation_createNode_4xbi0r_a0e0a() {
+  private static SNode _quotation_createNode_4xbi0r_a0e0b() {
     SNode quotedNode_1 = null;
     quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.VoidType", null, null, GlobalScope.getInstance(), false);
     return quotedNode_1;
