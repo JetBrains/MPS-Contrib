@@ -6,23 +6,37 @@ import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
 import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.smodel.SNode;
+import jetbrains.mps.lang.editor.generator.internal.AbstractCellMenuPart_PropertyValues;
+import java.util.List;
+import jetbrains.mps.smodel.IScope;
+import jetbrains.mps.smodel.IOperationContext;
+import org.joda.time.DateTimeZone;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import java.util.ArrayList;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.nodeEditor.cellMenu.CompositeSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.SubstituteInfoPartExt;
-import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
-import jetbrains.mps.lang.editor.generator.internal.AbstractCellMenuPart_PropertyValues;
-import java.util.List;
-import jetbrains.mps.smodel.IScope;
-import org.joda.time.DateTimeZone;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
-import java.util.ArrayList;
 
 public class TimeZoneIDExpression_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_dukjzk_a(editorContext, node);
+  }
+
+  public static class TimeZoneIDExpression_timezone_id_cellMenu_a0a0 extends AbstractCellMenuPart_PropertyValues {
+    public TimeZoneIDExpression_timezone_id_cellMenu_a0a0() {
+    }
+
+    public List<String> getPropertyValues(SNode node, IScope scope, IOperationContext operationContext, EditorContext editorContext) {
+      DateTimeZone.getAvailableIDs();
+      List<String> result = ListSequence.fromList(new ArrayList<String>());
+      for (Object id : DateTimeZone.getAvailableIDs()) {
+        ListSequence.fromList(result).addElement(String.valueOf(id));
+      }
+      return result;
+    }
   }
 
   private EditorCell createCollection_dukjzk_a(EditorContext editorContext, SNode node) {
@@ -49,19 +63,5 @@ public class TimeZoneIDExpression_Editor extends DefaultNodeEditor {
       return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
     } else
     return editorCell;
-  }
-
-  public static class TimeZoneIDExpression_timezone_id_cellMenu_a0a0 extends AbstractCellMenuPart_PropertyValues {
-    public TimeZoneIDExpression_timezone_id_cellMenu_a0a0() {
-    }
-
-    public List<String> getPropertyValues(SNode node, IScope scope, IOperationContext operationContext, EditorContext editorContext) {
-      DateTimeZone.getAvailableIDs();
-      List<String> result = ListSequence.fromList(new ArrayList<String>());
-      for (Object id : DateTimeZone.getAvailableIDs()) {
-        ListSequence.fromList(result).addElement(String.valueOf(id));
-      }
-      return result;
-    }
   }
 }
