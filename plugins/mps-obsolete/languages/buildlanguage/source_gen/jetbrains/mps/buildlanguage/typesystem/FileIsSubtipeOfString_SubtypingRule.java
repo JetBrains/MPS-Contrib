@@ -15,7 +15,7 @@ public class FileIsSubtipeOfString_SubtypingRule extends SubtypingRule_Runtime i
   }
 
   public SNode getSubOrSuperType(SNode fileType, TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
-    return _quotation_createNode_3xtvj4_a0a0();
+    return _quotation_createNode_3xtvj4_a0a1();
   }
 
   public String getApplicableConceptFQName() {
@@ -33,7 +33,7 @@ public class FileIsSubtipeOfString_SubtypingRule extends SubtypingRule_Runtime i
     return false;
   }
 
-  private static SNode _quotation_createNode_3xtvj4_a0a0() {
+  private static SNode _quotation_createNode_3xtvj4_a0a1() {
     SNode quotedNode_1 = null;
     quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.StringType", null, null, GlobalScope.getInstance(), false);
     return quotedNode_1;

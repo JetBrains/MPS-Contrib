@@ -23,7 +23,7 @@ public class supertypeof_XMLElementType_SubtypingRule extends SubtypingRule_Runt
 
   public SNode getSubOrSuperType(SNode xmlType, TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
     if ((SLinkOperations.getTarget(xmlType, "schema", false) == null)) {
-      return _quotation_createNode_vusj77_a0a0a0();
+      return _quotation_createNode_vusj77_a0a0a1();
     } else {
       for (SNode te : ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(xmlType, "complexType", false), "typeExpressionList", true), "typeExpression", true))) {
         if (SNodeOperations.isInstanceOf(te, "jetbrains.mps.xmlSchema.structure.ComplexContent")) {
@@ -38,7 +38,7 @@ public class supertypeof_XMLElementType_SubtypingRule extends SubtypingRule_Runt
           }
         }
       }
-      return _quotation_createNode_vusj77_a1a0a0a();
+      return _quotation_createNode_vusj77_a1a0a0b();
     }
   }
 
@@ -57,14 +57,14 @@ public class supertypeof_XMLElementType_SubtypingRule extends SubtypingRule_Runt
     return true;
   }
 
-  private static SNode _quotation_createNode_vusj77_a0a0a0() {
+  private static SNode _quotation_createNode_vusj77_a0a0a1() {
     SNode quotedNode_1 = null;
     quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", null, null, GlobalScope.getInstance(), false);
     quotedNode_1.setReference("classifier", SReference.create("classifier", quotedNode_1, SModelReference.fromString("f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#org.jdom(MPS.Core/org.jdom@java_stub)"), SNodeId.fromString("~Element")));
     return quotedNode_1;
   }
 
-  private static SNode _quotation_createNode_vusj77_a1a0a0a() {
+  private static SNode _quotation_createNode_vusj77_a1a0a0b() {
     SNode quotedNode_1 = null;
     quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.xmlQuery.structure.XMLElementType", null, null, GlobalScope.getInstance(), false);
     return quotedNode_1;

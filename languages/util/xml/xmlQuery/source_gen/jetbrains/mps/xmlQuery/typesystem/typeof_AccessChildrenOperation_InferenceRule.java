@@ -31,7 +31,7 @@ public class typeof_AccessChildrenOperation_InferenceRule extends AbstractInfere
     {
       SNode _nodeToCheck_1029348928467 = operation;
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:d89ddc4c-de44-408f-97b1-095c4af64bfb(jetbrains.mps.xmlQuery.typesystem)", "7129398160684691426", 0, null);
-      typeCheckingContext.createEquation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:d89ddc4c-de44-408f-97b1-095c4af64bfb(jetbrains.mps.xmlQuery.typesystem)", "7129398160684691428", true), (SNode) _quotation_createNode_h6cywm_a0e0a(SchemaUtil.constructXMLElementType(complexType)), _info_12389875345);
+      typeCheckingContext.createEquation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:d89ddc4c-de44-408f-97b1-095c4af64bfb(jetbrains.mps.xmlQuery.typesystem)", "7129398160684691428", true), (SNode) _quotation_createNode_h6cywm_a0e0b(SchemaUtil.constructXMLElementType(complexType)), _info_12389875345);
     }
   }
 
@@ -50,7 +50,7 @@ public class typeof_AccessChildrenOperation_InferenceRule extends AbstractInfere
     return false;
   }
 
-  private static SNode _quotation_createNode_h6cywm_a0e0a(Object parameter_1) {
+  private static SNode _quotation_createNode_h6cywm_a0e0b(Object parameter_1) {
     SNode quotedNode_2 = null;
     SNode quotedNode_3 = null;
     quotedNode_2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.collections.structure.ListType", null, null, GlobalScope.getInstance(), false);
