@@ -38,7 +38,6 @@ import jetbrains.mps.internal.collections.runtime.ISelector;
 public class RectOrthogonalLayouter {
   private static final int DEFAULT_NODE_SIZE = 20;
   private static final int DEFAULT_EDGE_DISTANCE = 30;
-
   private int myNodeSize;
   private int myEdgeDistance;
   private int myLayoutLevel;

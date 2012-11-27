@@ -691,369 +691,369 @@
     <nodeInfo nodeId="920414672219874771" fileName="BKCoordinatePlacer.java" startLine="27" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="RIGHTMOST" />
     <nodeInfo nodeId="6220135881201379075" fileName="BKCoordinatePlacer.java" startLine="28" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="TOP_TO_BOTTOM" />
     <nodeInfo nodeId="6220135881201379081" fileName="BKCoordinatePlacer.java" startLine="29" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="BOTTOM_TO_TOP" />
-    <nodeInfo nodeId="6220135881201379269" fileName="BKCoordinatePlacer.java" startLine="31" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myGraph" />
-    <nodeInfo nodeId="6220135881201379273" fileName="BKCoordinatePlacer.java" startLine="32" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myOrder" />
-    <nodeInfo nodeId="7033456583153163544" fileName="BKCoordinatePlacer.java" startLine="33" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myPosInLayer" />
-    <nodeInfo nodeId="5180427534212025929" fileName="BKCoordinatePlacer.java" startLine="34" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myNumLayer" />
-    <nodeInfo nodeId="5180427534212025997" fileName="BKCoordinatePlacer.java" startLine="35" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myBlocks" />
-    <nodeInfo nodeId="4519409331094608535" fileName="BKCoordinatePlacer.java" startLine="36" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="badEdges" />
-    <nodeInfo nodeId="6220135881201379278" fileName="BKCoordinatePlacer.java" startLine="41" startPosition="81" endLine="42" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6220135881201379291" fileName="BKCoordinatePlacer.java" startLine="42" startPosition="25" endLine="43" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4519409331094704574" fileName="BKCoordinatePlacer.java" startLine="43" startPosition="25" endLine="44" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6220135881201378899" fileName="BKCoordinatePlacer.java" startLine="44" startPosition="16" endLine="45" endPosition="98" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6220135881201379356" fileName="BKCoordinatePlacer.java" startLine="45" startPosition="98" endLine="46" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6220135881201379370" fileName="BKCoordinatePlacer.java" startLine="46" startPosition="86" endLine="47" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6220135881201379379" fileName="BKCoordinatePlacer.java" startLine="47" startPosition="87" endLine="48" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6220135881201379388" fileName="BKCoordinatePlacer.java" startLine="48" startPosition="86" endLine="49" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8780938838750200750" fileName="BKCoordinatePlacer.java" startLine="49" startPosition="87" endLine="50" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8780938838750203779" fileName="BKCoordinatePlacer.java" startLine="50" startPosition="77" endLine="51" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8780938838750205266" fileName="BKCoordinatePlacer.java" startLine="51" startPosition="40" endLine="52" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8780938838750203733" fileName="BKCoordinatePlacer.java" startLine="53" startPosition="70" endLine="54" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8780938838750203728" fileName="BKCoordinatePlacer.java" startLine="55" startPosition="54" endLine="56" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8780938838750203785" fileName="BKCoordinatePlacer.java" startLine="57" startPosition="7" endLine="58" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8780938838750203768" fileName="BKCoordinatePlacer.java" startLine="58" startPosition="55" endLine="59" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8780938838750203800" fileName="BKCoordinatePlacer.java" startLine="60" startPosition="5" endLine="61" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8780938838750203851" fileName="BKCoordinatePlacer.java" startLine="63" startPosition="23" endLine="64" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8780938838750203862" fileName="BKCoordinatePlacer.java" startLine="65" startPosition="14" endLine="66" endPosition="110" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8780938838750204054" fileName="BKCoordinatePlacer.java" startLine="68" startPosition="5" endLine="69" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8780938838750204079" fileName="BKCoordinatePlacer.java" startLine="70" startPosition="52" endLine="71" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8780938838750204088" fileName="BKCoordinatePlacer.java" startLine="72" startPosition="72" endLine="73" endPosition="177" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8780938838750204120" fileName="BKCoordinatePlacer.java" startLine="76" startPosition="43" endLine="77" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8780938838750204127" fileName="BKCoordinatePlacer.java" startLine="79" startPosition="32" endLine="80" endPosition="150" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8780938838750205255" fileName="BKCoordinatePlacer.java" startLine="81" startPosition="5" endLine="82" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8780938838750205277" fileName="BKCoordinatePlacer.java" startLine="83" startPosition="52" endLine="84" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8780938838750205305" fileName="BKCoordinatePlacer.java" startLine="86" startPosition="52" endLine="87" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8780938838750200741" fileName="BKCoordinatePlacer.java" startLine="88" startPosition="5" endLine="89" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8780938838750204018" fileName="BKCoordinatePlacer.java" startLine="90" startPosition="52" endLine="91" endPosition="141" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7033456583153163521" fileName="BKCoordinatePlacer.java" startLine="92" startPosition="5" endLine="93" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6220135881201379321" fileName="BKCoordinatePlacer.java" startLine="96" startPosition="72" endLine="97" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6220135881201379334" fileName="BKCoordinatePlacer.java" startLine="98" startPosition="36" endLine="99" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6220135881201379343" fileName="BKCoordinatePlacer.java" startLine="100" startPosition="12" endLine="101" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6220135881201378967" fileName="BKCoordinatePlacer.java" startLine="102" startPosition="5" endLine="103" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6220135881201378972" fileName="BKCoordinatePlacer.java" startLine="103" startPosition="94" endLine="104" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6220135881201378996" fileName="BKCoordinatePlacer.java" startLine="104" startPosition="94" endLine="105" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6220135881201379005" fileName="BKCoordinatePlacer.java" startLine="105" startPosition="78" endLine="106" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6220135881201379182" fileName="BKCoordinatePlacer.java" startLine="108" startPosition="67" endLine="109" endPosition="155" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6220135881201379201" fileName="BKCoordinatePlacer.java" startLine="111" startPosition="12" endLine="112" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6220135881201379213" fileName="BKCoordinatePlacer.java" startLine="113" startPosition="71" endLine="114" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6220135881201379235" fileName="BKCoordinatePlacer.java" startLine="116" startPosition="67" endLine="117" endPosition="166" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6220135881201379030" fileName="BKCoordinatePlacer.java" startLine="119" startPosition="5" endLine="120" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="920414672219872754" fileName="BKCoordinatePlacer.java" startLine="123" startPosition="112" endLine="124" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="920414672219872759" fileName="BKCoordinatePlacer.java" startLine="124" startPosition="35" endLine="125" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="920414672219872861" fileName="BKCoordinatePlacer.java" startLine="126" startPosition="37" endLine="127" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6220135881201373319" fileName="BKCoordinatePlacer.java" startLine="127" startPosition="28" endLine="128" endPosition="90" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6220135881201373347" fileName="BKCoordinatePlacer.java" startLine="129" startPosition="38" endLine="130" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6220135881201373361" fileName="BKCoordinatePlacer.java" startLine="131" startPosition="59" endLine="132" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6220135881201373374" fileName="BKCoordinatePlacer.java" startLine="133" startPosition="9" endLine="134" endPosition="100" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1763712338172354723" fileName="BKCoordinatePlacer.java" startLine="135" startPosition="32" endLine="136" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6220135881201373392" fileName="BKCoordinatePlacer.java" startLine="137" startPosition="9" endLine="138" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="920414672219872826" fileName="BKCoordinatePlacer.java" startLine="140" startPosition="5" endLine="141" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4519409331094704499" fileName="BKCoordinatePlacer.java" startLine="144" startPosition="22" endLine="145" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5180427534212026042" fileName="BKCoordinatePlacer.java" startLine="145" startPosition="49" endLine="146" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4519409331094704511" fileName="BKCoordinatePlacer.java" startLine="147" startPosition="66" endLine="148" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4519409331094704520" fileName="BKCoordinatePlacer.java" startLine="149" startPosition="81" endLine="150" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5180427534212026054" fileName="BKCoordinatePlacer.java" startLine="150" startPosition="102" endLine="151" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4519409331094704546" fileName="BKCoordinatePlacer.java" startLine="153" startPosition="5" endLine="154" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4519409331094704554" fileName="BKCoordinatePlacer.java" startLine="155" startPosition="70" endLine="156" endPosition="115" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7033456583153163674" fileName="BKCoordinatePlacer.java" startLine="160" startPosition="64" endLine="161" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5180427534211885158" fileName="BKCoordinatePlacer.java" startLine="161" startPosition="66" endLine="162" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5180427534211885186" fileName="BKCoordinatePlacer.java" startLine="163" startPosition="73" endLine="164" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5180427534211891966" fileName="BKCoordinatePlacer.java" startLine="165" startPosition="31" endLine="166" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5180427534211891983" fileName="BKCoordinatePlacer.java" startLine="168" startPosition="69" endLine="169" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5180427534211891995" fileName="BKCoordinatePlacer.java" startLine="170" startPosition="48" endLine="171" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5180427534211892164" fileName="BKCoordinatePlacer.java" startLine="175" startPosition="5" endLine="176" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5180427534211892108" fileName="BKCoordinatePlacer.java" startLine="177" startPosition="78" endLine="178" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5180427534211892117" fileName="BKCoordinatePlacer.java" startLine="179" startPosition="31" endLine="180" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5180427534211892132" fileName="BKCoordinatePlacer.java" startLine="182" startPosition="69" endLine="183" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5180427534211892144" fileName="BKCoordinatePlacer.java" startLine="184" startPosition="48" endLine="185" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7033456583153167494" fileName="BKCoordinatePlacer.java" startLine="189" startPosition="5" endLine="190" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4519409331094793151" fileName="BKCoordinatePlacer.java" startLine="194" startPosition="65" endLine="195" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4519409331094793157" fileName="BKCoordinatePlacer.java" startLine="196" startPosition="5" endLine="197" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4519409331094793176" fileName="BKCoordinatePlacer.java" startLine="197" startPosition="72" endLine="198" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7033456583153167638" fileName="BKCoordinatePlacer.java" startLine="201" startPosition="46" endLine="202" endPosition="123" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6220135881201373261" fileName="BKCoordinatePlacer.java" startLine="206" startPosition="32" endLine="207" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6220135881201373271" fileName="BKCoordinatePlacer.java" startLine="208" startPosition="12" endLine="209" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6220135881201379112" fileName="BKCoordinatePlacer.java" startLine="214" startPosition="37" endLine="215" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6220135881201379122" fileName="BKCoordinatePlacer.java" startLine="216" startPosition="12" endLine="217" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="920414672219867884" fileName="BKCoordinatePlacer.java" startLine="221" startPosition="122" endLine="222" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="920414672219867899" fileName="BKCoordinatePlacer.java" startLine="223" startPosition="65" endLine="224" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="920414672219877432" fileName="BKCoordinatePlacer.java" startLine="225" startPosition="5" endLine="226" endPosition="211" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6220135881201373285" fileName="BKCoordinatePlacer.java" startLine="226" startPosition="211" endLine="227" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="920414672219877461" fileName="BKCoordinatePlacer.java" startLine="230" startPosition="47" endLine="231" endPosition="131" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6220135881201373289" fileName="BKCoordinatePlacer.java" startLine="233" startPosition="8" endLine="234" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="920414672219877827" fileName="BKCoordinatePlacer.java" startLine="237" startPosition="47" endLine="238" endPosition="131" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6220135881201373296" fileName="BKCoordinatePlacer.java" startLine="240" startPosition="8" endLine="241" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="920414672219868110" fileName="BKCoordinatePlacer.java" startLine="242" startPosition="5" endLine="243" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="920414672219868129" fileName="BKCoordinatePlacer.java" startLine="244" startPosition="37" endLine="245" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="920414672219877011" fileName="BKCoordinatePlacer.java" startLine="245" startPosition="46" endLine="246" endPosition="90" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="920414672219877091" fileName="BKCoordinatePlacer.java" startLine="247" startPosition="38" endLine="248" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6220135881201370427" fileName="BKCoordinatePlacer.java" startLine="251" startPosition="48" endLine="252" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="920414672219877875" fileName="BKCoordinatePlacer.java" startLine="254" startPosition="36" endLine="255" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="920414672219877882" fileName="BKCoordinatePlacer.java" startLine="255" startPosition="79" endLine="256" endPosition="156" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="920414672219877907" fileName="BKCoordinatePlacer.java" startLine="256" startPosition="156" endLine="257" endPosition="150" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="920414672219877933" fileName="BKCoordinatePlacer.java" startLine="258" startPosition="43" endLine="259" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8780938838750213723" fileName="BKCoordinatePlacer.java" startLine="260" startPosition="11" endLine="261" endPosition="173" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8780938838750213756" fileName="BKCoordinatePlacer.java" startLine="261" startPosition="173" endLine="262" endPosition="173" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8780938838750213788" fileName="BKCoordinatePlacer.java" startLine="263" startPosition="42" endLine="264" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6220135881201362142" fileName="BKCoordinatePlacer.java" startLine="267" startPosition="63" endLine="268" endPosition="112" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="920414672219868024" fileName="BKCoordinatePlacer.java" startLine="273" startPosition="5" endLine="274" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="920414672219868273" fileName="BKCoordinatePlacer.java" startLine="277" startPosition="134" endLine="278" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="920414672219877605" fileName="BKCoordinatePlacer.java" startLine="278" startPosition="42" endLine="279" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="920414672219877754" fileName="BKCoordinatePlacer.java" startLine="280" startPosition="37" endLine="281" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="920414672219877866" fileName="BKCoordinatePlacer.java" startLine="282" startPosition="12" endLine="283" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="920414672219868281" fileName="BKCoordinatePlacer.java" startLine="285" startPosition="67" endLine="286" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="920414672219868289" fileName="BKCoordinatePlacer.java" startLine="286" startPosition="87" endLine="287" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="920414672219868306" fileName="BKCoordinatePlacer.java" startLine="288" startPosition="5" endLine="289" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7033456583153163506" fileName="BKCoordinatePlacer.java" startLine="38" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="BKCoordinatePlacer#()V" />
-    <nodeInfo nodeId="8780938838750203860" fileName="BKCoordinatePlacer.java" startLine="65" startPosition="12" endLine="67" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="6220135881201379341" fileName="BKCoordinatePlacer.java" startLine="100" startPosition="10" endLine="102" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="6220135881201373269" fileName="BKCoordinatePlacer.java" startLine="208" startPosition="10" endLine="210" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="6220135881201379120" fileName="BKCoordinatePlacer.java" startLine="216" startPosition="10" endLine="218" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="920414672219877862" fileName="BKCoordinatePlacer.java" startLine="282" startPosition="10" endLine="284" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="8780938838750203718" fileName="BKCoordinatePlacer.java" startLine="54" startPosition="26" endLine="57" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="8780938838750204086" fileName="BKCoordinatePlacer.java" startLine="71" startPosition="82" endLine="74" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="8780938838750204118" fileName="BKCoordinatePlacer.java" startLine="76" startPosition="0" endLine="79" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Ljava/lang/Integer;)Ljava/lang/Integer;" />
-    <nodeInfo nodeId="8780938838750205250" fileName="BKCoordinatePlacer.java" startLine="82" startPosition="38" endLine="85" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="8780938838750205293" fileName="BKCoordinatePlacer.java" startLine="85" startPosition="5" endLine="88" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="5180427534212025958" fileName="BKCoordinatePlacer.java" startLine="89" startPosition="55" endLine="92" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="6220135881201379176" fileName="BKCoordinatePlacer.java" startLine="107" startPosition="31" endLine="110" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="6220135881201379196" fileName="BKCoordinatePlacer.java" startLine="112" startPosition="23" endLine="115" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="6220135881201379229" fileName="BKCoordinatePlacer.java" startLine="115" startPosition="7" endLine="118" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="6220135881201373359" fileName="BKCoordinatePlacer.java" startLine="130" startPosition="40" endLine="133" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="6220135881201373382" fileName="BKCoordinatePlacer.java" startLine="134" startPosition="100" endLine="137" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="4519409331094704552" fileName="BKCoordinatePlacer.java" startLine="154" startPosition="56" endLine="157" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="5180427534211891993" fileName="BKCoordinatePlacer.java" startLine="169" startPosition="82" endLine="172" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="5180427534211892142" fileName="BKCoordinatePlacer.java" startLine="183" startPosition="82" endLine="186" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="4519409331094793133" fileName="BKCoordinatePlacer.java" startLine="193" startPosition="43" endLine="196" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="7033456583153167631" fileName="BKCoordinatePlacer.java" startLine="201" startPosition="0" endLine="204" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getOppositePos#(Ljetbrains/mps/graphLayout/graph/Node;)I" />
-    <nodeInfo nodeId="920414672219867893" fileName="BKCoordinatePlacer.java" startLine="222" startPosition="55" endLine="225" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="920414672219877445" fileName="BKCoordinatePlacer.java" startLine="230" startPosition="0" endLine="233" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#(Ljetbrains/mps/graphLayout/graph/Edge;Ljetbrains/mps/graphLayout/graph/Edge;)Ljava/lang/Integer;" />
-    <nodeInfo nodeId="920414672219877825" fileName="BKCoordinatePlacer.java" startLine="237" startPosition="0" endLine="240" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#(Ljetbrains/mps/graphLayout/graph/Edge;Ljetbrains/mps/graphLayout/graph/Edge;)Ljava/lang/Integer;" />
-    <nodeInfo nodeId="6220135881201370425" fileName="BKCoordinatePlacer.java" startLine="251" startPosition="0" endLine="254" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="compare#(Ljetbrains/mps/graphLayout/graph/Edge;Ljetbrains/mps/graphLayout/graph/Edge;)I" />
-    <nodeInfo nodeId="920414672219877924" fileName="BKCoordinatePlacer.java" startLine="257" startPosition="150" endLine="260" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="8780938838750213777" fileName="BKCoordinatePlacer.java" startLine="262" startPosition="173" endLine="265" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="920414672219877950" fileName="BKCoordinatePlacer.java" startLine="266" startPosition="68" endLine="269" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="4519409331094704518" fileName="BKCoordinatePlacer.java" startLine="148" startPosition="54" endLine="152" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="920414672219868279" fileName="BKCoordinatePlacer.java" startLine="284" startPosition="5" endLine="288" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="8780938838750203838" fileName="BKCoordinatePlacer.java" startLine="62" startPosition="70" endLine="67" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="8780938838750204112" fileName="BKCoordinatePlacer.java" startLine="74" startPosition="7" endLine="79" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6220135881201379325" fileName="BKCoordinatePlacer.java" startLine="97" startPosition="23" endLine="102" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="6220135881201373253" fileName="BKCoordinatePlacer.java" startLine="205" startPosition="78" endLine="210" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="6220135881201379104" fileName="BKCoordinatePlacer.java" startLine="213" startPosition="88" endLine="218" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="920414672219877505" fileName="BKCoordinatePlacer.java" startLine="228" startPosition="37" endLine="233" endPosition="8" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="920414672219877823" fileName="BKCoordinatePlacer.java" startLine="235" startPosition="12" endLine="240" endPosition="8" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6220135881201370414" fileName="BKCoordinatePlacer.java" startLine="249" startPosition="68" endLine="254" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="920414672219877945" fileName="BKCoordinatePlacer.java" startLine="265" startPosition="11" endLine="270" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="920414672219877757" fileName="BKCoordinatePlacer.java" startLine="279" startPosition="18" endLine="284" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="5180427534211891977" fileName="BKCoordinatePlacer.java" startLine="167" startPosition="14" endLine="173" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="5180427534211892126" fileName="BKCoordinatePlacer.java" startLine="181" startPosition="14" endLine="187" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="8780938838750203818" fileName="BKCoordinatePlacer.java" startLine="61" startPosition="75" endLine="68" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="4519409331094704509" fileName="BKCoordinatePlacer.java" startLine="146" startPosition="47" endLine="153" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="5180427534211891973" fileName="BKCoordinatePlacer.java" startLine="167" startPosition="12" endLine="174" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="5180427534211892124" fileName="BKCoordinatePlacer.java" startLine="181" startPosition="12" endLine="188" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4519409331094793118" fileName="BKCoordinatePlacer.java" startLine="193" startPosition="0" endLine="200" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isInnerDummy#(Ljetbrains/mps/graphLayout/graph/Node;)Z" />
-    <nodeInfo nodeId="6220135881201373238" fileName="BKCoordinatePlacer.java" startLine="205" startPosition="0" endLine="212" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getListIterator#(Ljava/util/List;I)Ljava/util/Iterator;" />
-    <nodeInfo nodeId="6220135881201379087" fileName="BKCoordinatePlacer.java" startLine="213" startPosition="0" endLine="220" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getOrderIterator#(Ljetbrains/mps/graphLayout/layeredLayout/NodeLayeredOrder;I)Ljava/util/Iterator;" />
-    <nodeInfo nodeId="920414672219877819" fileName="BKCoordinatePlacer.java" startLine="235" startPosition="10" endLine="242" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="8780938838750200735" fileName="BKCoordinatePlacer.java" startLine="52" startPosition="40" endLine="60" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="6220135881201379194" fileName="BKCoordinatePlacer.java" startLine="111" startPosition="10" endLine="119" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="5180427534211891960" fileName="BKCoordinatePlacer.java" startLine="164" startPosition="66" endLine="174" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="5180427534211892115" fileName="BKCoordinatePlacer.java" startLine="178" startPosition="66" endLine="188" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="6220135881201373336" fileName="BKCoordinatePlacer.java" startLine="128" startPosition="90" endLine="139" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
-    <nodeInfo nodeId="8780938838750204073" fileName="BKCoordinatePlacer.java" startLine="69" startPosition="65" endLine="81" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="6220135881201379166" fileName="BKCoordinatePlacer.java" startLine="106" startPosition="65" endLine="119" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="5180427534211885164" fileName="BKCoordinatePlacer.java" startLine="162" startPosition="33" endLine="175" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="5180427534211892106" fileName="BKCoordinatePlacer.java" startLine="176" startPosition="44" endLine="189" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="920414672219868259" fileName="BKCoordinatePlacer.java" startLine="277" startPosition="0" endLine="291" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="tryToAddRoot#(Ljetbrains/mps/graphLayout/graph/Node;Ljava/util/Map;Ljetbrains/mps/graphLayout/graph/Edge;ILjetbrains/mps/graphLayout/graph/Edge/Direction;I)I" />
-    <nodeInfo nodeId="920414672219872836" fileName="BKCoordinatePlacer.java" startLine="125" startPosition="62" endLine="140" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
-    <nodeInfo nodeId="4519409331094704493" fileName="BKCoordinatePlacer.java" startLine="144" startPosition="0" endLine="159" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="init#()V" />
-    <nodeInfo nodeId="920414672219877508" fileName="BKCoordinatePlacer.java" startLine="227" startPosition="26" endLine="242" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="920414672219872744" fileName="BKCoordinatePlacer.java" startLine="123" startPosition="0" endLine="143" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createBlockGraph#(Ljava/util/Iterator;Ljava/util/Map;I)Ljetbrains/mps/graphLayout/graph/Graph;" />
-    <nodeInfo nodeId="920414672219877113" fileName="BKCoordinatePlacer.java" startLine="248" startPosition="40" endLine="271" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="6220135881201378959" fileName="BKCoordinatePlacer.java" startLine="96" startPosition="0" endLine="122" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="computeCoords#(II)Ljava/util/Map;" />
-    <nodeInfo nodeId="920414672219877080" fileName="BKCoordinatePlacer.java" startLine="246" startPosition="90" endLine="272" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
-    <nodeInfo nodeId="920414672219868095" fileName="BKCoordinatePlacer.java" startLine="243" startPosition="25" endLine="273" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
-    <nodeInfo nodeId="7033456583153163524" fileName="BKCoordinatePlacer.java" startLine="160" startPosition="0" endLine="192" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="findBadEdgesInLayer#(Ljava/util/List;)Ljava/util/Set;" />
-    <nodeInfo nodeId="7033456583153163511" fileName="BKCoordinatePlacer.java" startLine="41" startPosition="0" endLine="95" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="placeCoordinates#(Ljetbrains/mps/graphLayout/graph/Graph;Ljetbrains/mps/graphLayout/layeredLayout/NodeLayeredOrder;)Ljava/util/Map;" />
-    <nodeInfo nodeId="920414672219867872" fileName="BKCoordinatePlacer.java" startLine="221" startPosition="0" endLine="276" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="computeBlocks#(Ljava/util/Iterator;Ljetbrains/mps/graphLayout/graph/Edge/Direction;I)Ljava/util/Map;" />
-    <scopeInfo nodeId="7033456583153163509" fileName="BKCoordinatePlacer.java" startLine="38" startPosition="31" endLine="38" endPosition="31" />
-    <scopeInfo nodeId="8780938838750203721" fileName="BKCoordinatePlacer.java" startLine="55" startPosition="54" endLine="56" endPosition="83" />
-    <scopeInfo nodeId="8780938838750203839" fileName="BKCoordinatePlacer.java" startLine="63" startPosition="23" endLine="64" endPosition="52" />
-    <scopeInfo nodeId="8780938838750203861" fileName="BKCoordinatePlacer.java" startLine="65" startPosition="14" endLine="66" endPosition="110" />
-    <scopeInfo nodeId="8780938838750204087" fileName="BKCoordinatePlacer.java" startLine="72" startPosition="72" endLine="73" endPosition="177" />
-    <scopeInfo nodeId="8780938838750204119" fileName="BKCoordinatePlacer.java" startLine="76" startPosition="43" endLine="77" endPosition="20" />
-    <scopeInfo nodeId="8780938838750205253" fileName="BKCoordinatePlacer.java" startLine="83" startPosition="52" endLine="84" endPosition="82" />
-    <scopeInfo nodeId="8780938838750205296" fileName="BKCoordinatePlacer.java" startLine="86" startPosition="52" endLine="87" endPosition="105" />
-    <scopeInfo nodeId="5180427534212025961" fileName="BKCoordinatePlacer.java" startLine="90" startPosition="52" endLine="91" endPosition="141" />
-    <scopeInfo nodeId="6220135881201379326" fileName="BKCoordinatePlacer.java" startLine="98" startPosition="36" endLine="99" endPosition="32" />
-    <scopeInfo nodeId="6220135881201379342" fileName="BKCoordinatePlacer.java" startLine="100" startPosition="12" endLine="101" endPosition="33" />
-    <scopeInfo nodeId="6220135881201379181" fileName="BKCoordinatePlacer.java" startLine="108" startPosition="67" endLine="109" endPosition="155" />
-    <scopeInfo nodeId="6220135881201379199" fileName="BKCoordinatePlacer.java" startLine="113" startPosition="71" endLine="114" endPosition="78" />
-    <scopeInfo nodeId="6220135881201379234" fileName="BKCoordinatePlacer.java" startLine="116" startPosition="67" endLine="117" endPosition="166" />
-    <scopeInfo nodeId="6220135881201373360" fileName="BKCoordinatePlacer.java" startLine="131" startPosition="59" endLine="132" endPosition="75" />
-    <scopeInfo nodeId="6220135881201373386" fileName="BKCoordinatePlacer.java" startLine="135" startPosition="32" endLine="136" endPosition="54" />
-    <scopeInfo nodeId="4519409331094704553" fileName="BKCoordinatePlacer.java" startLine="155" startPosition="70" endLine="156" endPosition="115" />
-    <scopeInfo nodeId="5180427534211891961" fileName="BKCoordinatePlacer.java" startLine="165" startPosition="31" endLine="166" endPosition="51" />
-    <scopeInfo nodeId="5180427534211891994" fileName="BKCoordinatePlacer.java" startLine="170" startPosition="48" endLine="171" endPosition="59" />
-    <scopeInfo nodeId="5180427534211892116" fileName="BKCoordinatePlacer.java" startLine="179" startPosition="31" endLine="180" endPosition="51" />
-    <scopeInfo nodeId="5180427534211892143" fileName="BKCoordinatePlacer.java" startLine="184" startPosition="48" endLine="185" endPosition="59" />
-    <scopeInfo nodeId="4519409331094793135" fileName="BKCoordinatePlacer.java" startLine="194" startPosition="65" endLine="195" endPosition="19" />
-    <scopeInfo nodeId="7033456583153167634" fileName="BKCoordinatePlacer.java" startLine="201" startPosition="46" endLine="202" endPosition="123" />
-    <scopeInfo nodeId="6220135881201373255" fileName="BKCoordinatePlacer.java" startLine="206" startPosition="32" endLine="207" endPosition="56" />
-    <scopeInfo nodeId="6220135881201373270" fileName="BKCoordinatePlacer.java" startLine="208" startPosition="12" endLine="209" endPosition="71" />
-    <scopeInfo nodeId="6220135881201379106" fileName="BKCoordinatePlacer.java" startLine="214" startPosition="37" endLine="215" endPosition="44" />
-    <scopeInfo nodeId="6220135881201379121" fileName="BKCoordinatePlacer.java" startLine="216" startPosition="12" endLine="217" endPosition="44" />
-    <scopeInfo nodeId="920414672219867898" fileName="BKCoordinatePlacer.java" startLine="223" startPosition="65" endLine="224" endPosition="49" />
-    <scopeInfo nodeId="920414672219877446" fileName="BKCoordinatePlacer.java" startLine="230" startPosition="47" endLine="231" endPosition="131" />
-    <scopeInfo nodeId="920414672219877826" fileName="BKCoordinatePlacer.java" startLine="237" startPosition="47" endLine="238" endPosition="131" />
-    <scopeInfo nodeId="6220135881201370426" fileName="BKCoordinatePlacer.java" startLine="251" startPosition="48" endLine="252" endPosition="55" />
-    <scopeInfo nodeId="920414672219877925" fileName="BKCoordinatePlacer.java" startLine="258" startPosition="43" endLine="259" endPosition="74" />
-    <scopeInfo nodeId="8780938838750213778" fileName="BKCoordinatePlacer.java" startLine="263" startPosition="42" endLine="264" endPosition="74" />
-    <scopeInfo nodeId="920414672219877952" fileName="BKCoordinatePlacer.java" startLine="267" startPosition="63" endLine="268" endPosition="112" />
-    <scopeInfo nodeId="920414672219877759" fileName="BKCoordinatePlacer.java" startLine="280" startPosition="37" endLine="281" endPosition="82" />
-    <scopeInfo nodeId="920414672219877863" fileName="BKCoordinatePlacer.java" startLine="282" startPosition="12" endLine="283" endPosition="82" />
-    <scopeInfo nodeId="7033456583153163506" fileName="BKCoordinatePlacer.java" startLine="38" startPosition="0" endLine="40" endPosition="0" />
-    <scopeInfo nodeId="4519409331094704519" fileName="BKCoordinatePlacer.java" startLine="149" startPosition="81" endLine="151" endPosition="102" />
-    <scopeInfo nodeId="920414672219868280" fileName="BKCoordinatePlacer.java" startLine="285" startPosition="67" endLine="287" endPosition="74" />
-    <scopeInfo nodeId="8780938838750203718" fileName="BKCoordinatePlacer.java" startLine="54" startPosition="26" endLine="57" endPosition="7">
+    <nodeInfo nodeId="6220135881201379269" fileName="BKCoordinatePlacer.java" startLine="30" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myGraph" />
+    <nodeInfo nodeId="6220135881201379273" fileName="BKCoordinatePlacer.java" startLine="31" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myOrder" />
+    <nodeInfo nodeId="7033456583153163544" fileName="BKCoordinatePlacer.java" startLine="32" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myPosInLayer" />
+    <nodeInfo nodeId="5180427534212025929" fileName="BKCoordinatePlacer.java" startLine="33" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myNumLayer" />
+    <nodeInfo nodeId="5180427534212025997" fileName="BKCoordinatePlacer.java" startLine="34" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myBlocks" />
+    <nodeInfo nodeId="4519409331094608535" fileName="BKCoordinatePlacer.java" startLine="35" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="badEdges" />
+    <nodeInfo nodeId="6220135881201379278" fileName="BKCoordinatePlacer.java" startLine="40" startPosition="81" endLine="41" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6220135881201379291" fileName="BKCoordinatePlacer.java" startLine="41" startPosition="25" endLine="42" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4519409331094704574" fileName="BKCoordinatePlacer.java" startLine="42" startPosition="25" endLine="43" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6220135881201378899" fileName="BKCoordinatePlacer.java" startLine="43" startPosition="16" endLine="44" endPosition="98" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6220135881201379356" fileName="BKCoordinatePlacer.java" startLine="44" startPosition="98" endLine="45" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6220135881201379370" fileName="BKCoordinatePlacer.java" startLine="45" startPosition="86" endLine="46" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6220135881201379379" fileName="BKCoordinatePlacer.java" startLine="46" startPosition="87" endLine="47" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6220135881201379388" fileName="BKCoordinatePlacer.java" startLine="47" startPosition="86" endLine="48" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8780938838750200750" fileName="BKCoordinatePlacer.java" startLine="48" startPosition="87" endLine="49" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8780938838750203779" fileName="BKCoordinatePlacer.java" startLine="49" startPosition="77" endLine="50" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8780938838750205266" fileName="BKCoordinatePlacer.java" startLine="50" startPosition="40" endLine="51" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8780938838750203733" fileName="BKCoordinatePlacer.java" startLine="52" startPosition="70" endLine="53" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8780938838750203728" fileName="BKCoordinatePlacer.java" startLine="54" startPosition="54" endLine="55" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8780938838750203785" fileName="BKCoordinatePlacer.java" startLine="56" startPosition="7" endLine="57" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8780938838750203768" fileName="BKCoordinatePlacer.java" startLine="57" startPosition="55" endLine="58" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8780938838750203800" fileName="BKCoordinatePlacer.java" startLine="59" startPosition="5" endLine="60" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8780938838750203851" fileName="BKCoordinatePlacer.java" startLine="62" startPosition="23" endLine="63" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8780938838750203862" fileName="BKCoordinatePlacer.java" startLine="64" startPosition="14" endLine="65" endPosition="110" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8780938838750204054" fileName="BKCoordinatePlacer.java" startLine="67" startPosition="5" endLine="68" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8780938838750204079" fileName="BKCoordinatePlacer.java" startLine="69" startPosition="52" endLine="70" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8780938838750204088" fileName="BKCoordinatePlacer.java" startLine="71" startPosition="72" endLine="72" endPosition="177" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8780938838750204120" fileName="BKCoordinatePlacer.java" startLine="75" startPosition="43" endLine="76" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8780938838750204127" fileName="BKCoordinatePlacer.java" startLine="78" startPosition="32" endLine="79" endPosition="150" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8780938838750205255" fileName="BKCoordinatePlacer.java" startLine="80" startPosition="5" endLine="81" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8780938838750205277" fileName="BKCoordinatePlacer.java" startLine="82" startPosition="52" endLine="83" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8780938838750205305" fileName="BKCoordinatePlacer.java" startLine="85" startPosition="52" endLine="86" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8780938838750200741" fileName="BKCoordinatePlacer.java" startLine="87" startPosition="5" endLine="88" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8780938838750204018" fileName="BKCoordinatePlacer.java" startLine="89" startPosition="52" endLine="90" endPosition="141" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7033456583153163521" fileName="BKCoordinatePlacer.java" startLine="91" startPosition="5" endLine="92" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6220135881201379321" fileName="BKCoordinatePlacer.java" startLine="95" startPosition="72" endLine="96" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6220135881201379334" fileName="BKCoordinatePlacer.java" startLine="97" startPosition="36" endLine="98" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6220135881201379343" fileName="BKCoordinatePlacer.java" startLine="99" startPosition="12" endLine="100" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6220135881201378967" fileName="BKCoordinatePlacer.java" startLine="101" startPosition="5" endLine="102" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6220135881201378972" fileName="BKCoordinatePlacer.java" startLine="102" startPosition="94" endLine="103" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6220135881201378996" fileName="BKCoordinatePlacer.java" startLine="103" startPosition="94" endLine="104" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6220135881201379005" fileName="BKCoordinatePlacer.java" startLine="104" startPosition="78" endLine="105" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6220135881201379182" fileName="BKCoordinatePlacer.java" startLine="107" startPosition="67" endLine="108" endPosition="155" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6220135881201379201" fileName="BKCoordinatePlacer.java" startLine="110" startPosition="12" endLine="111" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6220135881201379213" fileName="BKCoordinatePlacer.java" startLine="112" startPosition="71" endLine="113" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6220135881201379235" fileName="BKCoordinatePlacer.java" startLine="115" startPosition="67" endLine="116" endPosition="166" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6220135881201379030" fileName="BKCoordinatePlacer.java" startLine="118" startPosition="5" endLine="119" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="920414672219872754" fileName="BKCoordinatePlacer.java" startLine="122" startPosition="112" endLine="123" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="920414672219872759" fileName="BKCoordinatePlacer.java" startLine="123" startPosition="35" endLine="124" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="920414672219872861" fileName="BKCoordinatePlacer.java" startLine="125" startPosition="37" endLine="126" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6220135881201373319" fileName="BKCoordinatePlacer.java" startLine="126" startPosition="28" endLine="127" endPosition="90" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6220135881201373347" fileName="BKCoordinatePlacer.java" startLine="128" startPosition="38" endLine="129" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6220135881201373361" fileName="BKCoordinatePlacer.java" startLine="130" startPosition="59" endLine="131" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6220135881201373374" fileName="BKCoordinatePlacer.java" startLine="132" startPosition="9" endLine="133" endPosition="100" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1763712338172354723" fileName="BKCoordinatePlacer.java" startLine="134" startPosition="32" endLine="135" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6220135881201373392" fileName="BKCoordinatePlacer.java" startLine="136" startPosition="9" endLine="137" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="920414672219872826" fileName="BKCoordinatePlacer.java" startLine="139" startPosition="5" endLine="140" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4519409331094704499" fileName="BKCoordinatePlacer.java" startLine="143" startPosition="22" endLine="144" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5180427534212026042" fileName="BKCoordinatePlacer.java" startLine="144" startPosition="49" endLine="145" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4519409331094704511" fileName="BKCoordinatePlacer.java" startLine="146" startPosition="66" endLine="147" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4519409331094704520" fileName="BKCoordinatePlacer.java" startLine="148" startPosition="81" endLine="149" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5180427534212026054" fileName="BKCoordinatePlacer.java" startLine="149" startPosition="102" endLine="150" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4519409331094704546" fileName="BKCoordinatePlacer.java" startLine="152" startPosition="5" endLine="153" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4519409331094704554" fileName="BKCoordinatePlacer.java" startLine="154" startPosition="70" endLine="155" endPosition="115" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7033456583153163674" fileName="BKCoordinatePlacer.java" startLine="159" startPosition="64" endLine="160" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5180427534211885158" fileName="BKCoordinatePlacer.java" startLine="160" startPosition="66" endLine="161" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5180427534211885186" fileName="BKCoordinatePlacer.java" startLine="162" startPosition="73" endLine="163" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5180427534211891966" fileName="BKCoordinatePlacer.java" startLine="164" startPosition="31" endLine="165" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5180427534211891983" fileName="BKCoordinatePlacer.java" startLine="167" startPosition="69" endLine="168" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5180427534211891995" fileName="BKCoordinatePlacer.java" startLine="169" startPosition="48" endLine="170" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5180427534211892164" fileName="BKCoordinatePlacer.java" startLine="174" startPosition="5" endLine="175" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5180427534211892108" fileName="BKCoordinatePlacer.java" startLine="176" startPosition="78" endLine="177" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5180427534211892117" fileName="BKCoordinatePlacer.java" startLine="178" startPosition="31" endLine="179" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5180427534211892132" fileName="BKCoordinatePlacer.java" startLine="181" startPosition="69" endLine="182" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5180427534211892144" fileName="BKCoordinatePlacer.java" startLine="183" startPosition="48" endLine="184" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7033456583153167494" fileName="BKCoordinatePlacer.java" startLine="188" startPosition="5" endLine="189" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4519409331094793151" fileName="BKCoordinatePlacer.java" startLine="193" startPosition="65" endLine="194" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4519409331094793157" fileName="BKCoordinatePlacer.java" startLine="195" startPosition="5" endLine="196" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4519409331094793176" fileName="BKCoordinatePlacer.java" startLine="196" startPosition="72" endLine="197" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7033456583153167638" fileName="BKCoordinatePlacer.java" startLine="200" startPosition="46" endLine="201" endPosition="123" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6220135881201373261" fileName="BKCoordinatePlacer.java" startLine="205" startPosition="32" endLine="206" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6220135881201373271" fileName="BKCoordinatePlacer.java" startLine="207" startPosition="12" endLine="208" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6220135881201379112" fileName="BKCoordinatePlacer.java" startLine="213" startPosition="37" endLine="214" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6220135881201379122" fileName="BKCoordinatePlacer.java" startLine="215" startPosition="12" endLine="216" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="920414672219867884" fileName="BKCoordinatePlacer.java" startLine="220" startPosition="122" endLine="221" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="920414672219867899" fileName="BKCoordinatePlacer.java" startLine="222" startPosition="65" endLine="223" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="920414672219877432" fileName="BKCoordinatePlacer.java" startLine="224" startPosition="5" endLine="225" endPosition="211" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6220135881201373285" fileName="BKCoordinatePlacer.java" startLine="225" startPosition="211" endLine="226" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="920414672219877461" fileName="BKCoordinatePlacer.java" startLine="229" startPosition="47" endLine="230" endPosition="131" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6220135881201373289" fileName="BKCoordinatePlacer.java" startLine="232" startPosition="8" endLine="233" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="920414672219877827" fileName="BKCoordinatePlacer.java" startLine="236" startPosition="47" endLine="237" endPosition="131" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6220135881201373296" fileName="BKCoordinatePlacer.java" startLine="239" startPosition="8" endLine="240" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="920414672219868110" fileName="BKCoordinatePlacer.java" startLine="241" startPosition="5" endLine="242" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="920414672219868129" fileName="BKCoordinatePlacer.java" startLine="243" startPosition="37" endLine="244" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="920414672219877011" fileName="BKCoordinatePlacer.java" startLine="244" startPosition="46" endLine="245" endPosition="90" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="920414672219877091" fileName="BKCoordinatePlacer.java" startLine="246" startPosition="38" endLine="247" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6220135881201370427" fileName="BKCoordinatePlacer.java" startLine="250" startPosition="48" endLine="251" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="920414672219877875" fileName="BKCoordinatePlacer.java" startLine="253" startPosition="36" endLine="254" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="920414672219877882" fileName="BKCoordinatePlacer.java" startLine="254" startPosition="79" endLine="255" endPosition="156" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="920414672219877907" fileName="BKCoordinatePlacer.java" startLine="255" startPosition="156" endLine="256" endPosition="150" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="920414672219877933" fileName="BKCoordinatePlacer.java" startLine="257" startPosition="43" endLine="258" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8780938838750213723" fileName="BKCoordinatePlacer.java" startLine="259" startPosition="11" endLine="260" endPosition="173" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8780938838750213756" fileName="BKCoordinatePlacer.java" startLine="260" startPosition="173" endLine="261" endPosition="173" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8780938838750213788" fileName="BKCoordinatePlacer.java" startLine="262" startPosition="42" endLine="263" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6220135881201362142" fileName="BKCoordinatePlacer.java" startLine="266" startPosition="63" endLine="267" endPosition="112" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="920414672219868024" fileName="BKCoordinatePlacer.java" startLine="272" startPosition="5" endLine="273" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="920414672219868273" fileName="BKCoordinatePlacer.java" startLine="276" startPosition="134" endLine="277" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="920414672219877605" fileName="BKCoordinatePlacer.java" startLine="277" startPosition="42" endLine="278" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="920414672219877754" fileName="BKCoordinatePlacer.java" startLine="279" startPosition="37" endLine="280" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="920414672219877866" fileName="BKCoordinatePlacer.java" startLine="281" startPosition="12" endLine="282" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="920414672219868281" fileName="BKCoordinatePlacer.java" startLine="284" startPosition="67" endLine="285" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="920414672219868289" fileName="BKCoordinatePlacer.java" startLine="285" startPosition="87" endLine="286" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="920414672219868306" fileName="BKCoordinatePlacer.java" startLine="287" startPosition="5" endLine="288" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7033456583153163506" fileName="BKCoordinatePlacer.java" startLine="37" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="BKCoordinatePlacer#()V" />
+    <nodeInfo nodeId="8780938838750203860" fileName="BKCoordinatePlacer.java" startLine="64" startPosition="12" endLine="66" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6220135881201379341" fileName="BKCoordinatePlacer.java" startLine="99" startPosition="10" endLine="101" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6220135881201373269" fileName="BKCoordinatePlacer.java" startLine="207" startPosition="10" endLine="209" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6220135881201379120" fileName="BKCoordinatePlacer.java" startLine="215" startPosition="10" endLine="217" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="920414672219877862" fileName="BKCoordinatePlacer.java" startLine="281" startPosition="10" endLine="283" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8780938838750203718" fileName="BKCoordinatePlacer.java" startLine="53" startPosition="26" endLine="56" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="8780938838750204086" fileName="BKCoordinatePlacer.java" startLine="70" startPosition="82" endLine="73" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
+    <nodeInfo nodeId="8780938838750204118" fileName="BKCoordinatePlacer.java" startLine="75" startPosition="0" endLine="78" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Ljava/lang/Integer;)Ljava/lang/Integer;" />
+    <nodeInfo nodeId="8780938838750205250" fileName="BKCoordinatePlacer.java" startLine="81" startPosition="38" endLine="84" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="8780938838750205293" fileName="BKCoordinatePlacer.java" startLine="84" startPosition="5" endLine="87" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="5180427534212025958" fileName="BKCoordinatePlacer.java" startLine="88" startPosition="55" endLine="91" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="6220135881201379176" fileName="BKCoordinatePlacer.java" startLine="106" startPosition="31" endLine="109" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="6220135881201379196" fileName="BKCoordinatePlacer.java" startLine="111" startPosition="23" endLine="114" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="6220135881201379229" fileName="BKCoordinatePlacer.java" startLine="114" startPosition="7" endLine="117" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="6220135881201373359" fileName="BKCoordinatePlacer.java" startLine="129" startPosition="40" endLine="132" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6220135881201373382" fileName="BKCoordinatePlacer.java" startLine="133" startPosition="100" endLine="136" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4519409331094704552" fileName="BKCoordinatePlacer.java" startLine="153" startPosition="56" endLine="156" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
+    <nodeInfo nodeId="5180427534211891993" fileName="BKCoordinatePlacer.java" startLine="168" startPosition="82" endLine="171" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5180427534211892142" fileName="BKCoordinatePlacer.java" startLine="182" startPosition="82" endLine="185" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4519409331094793133" fileName="BKCoordinatePlacer.java" startLine="192" startPosition="43" endLine="195" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="7033456583153167631" fileName="BKCoordinatePlacer.java" startLine="200" startPosition="0" endLine="203" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getOppositePos#(Ljetbrains/mps/graphLayout/graph/Node;)I" />
+    <nodeInfo nodeId="920414672219867893" fileName="BKCoordinatePlacer.java" startLine="221" startPosition="55" endLine="224" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="920414672219877445" fileName="BKCoordinatePlacer.java" startLine="229" startPosition="0" endLine="232" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#(Ljetbrains/mps/graphLayout/graph/Edge;Ljetbrains/mps/graphLayout/graph/Edge;)Ljava/lang/Integer;" />
+    <nodeInfo nodeId="920414672219877825" fileName="BKCoordinatePlacer.java" startLine="236" startPosition="0" endLine="239" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#(Ljetbrains/mps/graphLayout/graph/Edge;Ljetbrains/mps/graphLayout/graph/Edge;)Ljava/lang/Integer;" />
+    <nodeInfo nodeId="6220135881201370425" fileName="BKCoordinatePlacer.java" startLine="250" startPosition="0" endLine="253" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="compare#(Ljetbrains/mps/graphLayout/graph/Edge;Ljetbrains/mps/graphLayout/graph/Edge;)I" />
+    <nodeInfo nodeId="920414672219877924" fileName="BKCoordinatePlacer.java" startLine="256" startPosition="150" endLine="259" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8780938838750213777" fileName="BKCoordinatePlacer.java" startLine="261" startPosition="173" endLine="264" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="920414672219877950" fileName="BKCoordinatePlacer.java" startLine="265" startPosition="68" endLine="268" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4519409331094704518" fileName="BKCoordinatePlacer.java" startLine="147" startPosition="54" endLine="151" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
+    <nodeInfo nodeId="920414672219868279" fileName="BKCoordinatePlacer.java" startLine="283" startPosition="5" endLine="287" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8780938838750203838" fileName="BKCoordinatePlacer.java" startLine="61" startPosition="70" endLine="66" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8780938838750204112" fileName="BKCoordinatePlacer.java" startLine="73" startPosition="7" endLine="78" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6220135881201379325" fileName="BKCoordinatePlacer.java" startLine="96" startPosition="23" endLine="101" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6220135881201373253" fileName="BKCoordinatePlacer.java" startLine="204" startPosition="78" endLine="209" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6220135881201379104" fileName="BKCoordinatePlacer.java" startLine="212" startPosition="88" endLine="217" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="920414672219877505" fileName="BKCoordinatePlacer.java" startLine="227" startPosition="37" endLine="232" endPosition="8" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="920414672219877823" fileName="BKCoordinatePlacer.java" startLine="234" startPosition="12" endLine="239" endPosition="8" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6220135881201370414" fileName="BKCoordinatePlacer.java" startLine="248" startPosition="68" endLine="253" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="920414672219877945" fileName="BKCoordinatePlacer.java" startLine="264" startPosition="11" endLine="269" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="920414672219877757" fileName="BKCoordinatePlacer.java" startLine="278" startPosition="18" endLine="283" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5180427534211891977" fileName="BKCoordinatePlacer.java" startLine="166" startPosition="14" endLine="172" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="5180427534211892126" fileName="BKCoordinatePlacer.java" startLine="180" startPosition="14" endLine="186" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="8780938838750203818" fileName="BKCoordinatePlacer.java" startLine="60" startPosition="75" endLine="67" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
+    <nodeInfo nodeId="4519409331094704509" fileName="BKCoordinatePlacer.java" startLine="145" startPosition="47" endLine="152" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
+    <nodeInfo nodeId="5180427534211891973" fileName="BKCoordinatePlacer.java" startLine="166" startPosition="12" endLine="173" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5180427534211892124" fileName="BKCoordinatePlacer.java" startLine="180" startPosition="12" endLine="187" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4519409331094793118" fileName="BKCoordinatePlacer.java" startLine="192" startPosition="0" endLine="199" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isInnerDummy#(Ljetbrains/mps/graphLayout/graph/Node;)Z" />
+    <nodeInfo nodeId="6220135881201373238" fileName="BKCoordinatePlacer.java" startLine="204" startPosition="0" endLine="211" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getListIterator#(Ljava/util/List;I)Ljava/util/Iterator;" />
+    <nodeInfo nodeId="6220135881201379087" fileName="BKCoordinatePlacer.java" startLine="212" startPosition="0" endLine="219" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getOrderIterator#(Ljetbrains/mps/graphLayout/layeredLayout/NodeLayeredOrder;I)Ljava/util/Iterator;" />
+    <nodeInfo nodeId="920414672219877819" fileName="BKCoordinatePlacer.java" startLine="234" startPosition="10" endLine="241" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8780938838750200735" fileName="BKCoordinatePlacer.java" startLine="51" startPosition="40" endLine="59" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="6220135881201379194" fileName="BKCoordinatePlacer.java" startLine="110" startPosition="10" endLine="118" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5180427534211891960" fileName="BKCoordinatePlacer.java" startLine="163" startPosition="66" endLine="173" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5180427534211892115" fileName="BKCoordinatePlacer.java" startLine="177" startPosition="66" endLine="187" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6220135881201373336" fileName="BKCoordinatePlacer.java" startLine="127" startPosition="90" endLine="138" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
+    <nodeInfo nodeId="8780938838750204073" fileName="BKCoordinatePlacer.java" startLine="68" startPosition="65" endLine="80" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="6220135881201379166" fileName="BKCoordinatePlacer.java" startLine="105" startPosition="65" endLine="118" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5180427534211885164" fileName="BKCoordinatePlacer.java" startLine="161" startPosition="33" endLine="174" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
+    <nodeInfo nodeId="5180427534211892106" fileName="BKCoordinatePlacer.java" startLine="175" startPosition="44" endLine="188" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
+    <nodeInfo nodeId="920414672219868259" fileName="BKCoordinatePlacer.java" startLine="276" startPosition="0" endLine="290" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="tryToAddRoot#(Ljetbrains/mps/graphLayout/graph/Node;Ljava/util/Map;Ljetbrains/mps/graphLayout/graph/Edge;ILjetbrains/mps/graphLayout/graph/Edge/Direction;I)I" />
+    <nodeInfo nodeId="920414672219872836" fileName="BKCoordinatePlacer.java" startLine="124" startPosition="62" endLine="139" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
+    <nodeInfo nodeId="4519409331094704493" fileName="BKCoordinatePlacer.java" startLine="143" startPosition="0" endLine="158" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="init#()V" />
+    <nodeInfo nodeId="920414672219877508" fileName="BKCoordinatePlacer.java" startLine="226" startPosition="26" endLine="241" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="920414672219872744" fileName="BKCoordinatePlacer.java" startLine="122" startPosition="0" endLine="142" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createBlockGraph#(Ljava/util/Iterator;Ljava/util/Map;I)Ljetbrains/mps/graphLayout/graph/Graph;" />
+    <nodeInfo nodeId="920414672219877113" fileName="BKCoordinatePlacer.java" startLine="247" startPosition="40" endLine="270" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6220135881201378959" fileName="BKCoordinatePlacer.java" startLine="95" startPosition="0" endLine="121" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="computeCoords#(II)Ljava/util/Map;" />
+    <nodeInfo nodeId="920414672219877080" fileName="BKCoordinatePlacer.java" startLine="245" startPosition="90" endLine="271" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
+    <nodeInfo nodeId="920414672219868095" fileName="BKCoordinatePlacer.java" startLine="242" startPosition="25" endLine="272" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
+    <nodeInfo nodeId="7033456583153163524" fileName="BKCoordinatePlacer.java" startLine="159" startPosition="0" endLine="191" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="findBadEdgesInLayer#(Ljava/util/List;)Ljava/util/Set;" />
+    <nodeInfo nodeId="7033456583153163511" fileName="BKCoordinatePlacer.java" startLine="40" startPosition="0" endLine="94" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="placeCoordinates#(Ljetbrains/mps/graphLayout/graph/Graph;Ljetbrains/mps/graphLayout/layeredLayout/NodeLayeredOrder;)Ljava/util/Map;" />
+    <nodeInfo nodeId="920414672219867872" fileName="BKCoordinatePlacer.java" startLine="220" startPosition="0" endLine="275" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="computeBlocks#(Ljava/util/Iterator;Ljetbrains/mps/graphLayout/graph/Edge/Direction;I)Ljava/util/Map;" />
+    <scopeInfo nodeId="7033456583153163509" fileName="BKCoordinatePlacer.java" startLine="37" startPosition="31" endLine="37" endPosition="31" />
+    <scopeInfo nodeId="8780938838750203721" fileName="BKCoordinatePlacer.java" startLine="54" startPosition="54" endLine="55" endPosition="83" />
+    <scopeInfo nodeId="8780938838750203839" fileName="BKCoordinatePlacer.java" startLine="62" startPosition="23" endLine="63" endPosition="52" />
+    <scopeInfo nodeId="8780938838750203861" fileName="BKCoordinatePlacer.java" startLine="64" startPosition="14" endLine="65" endPosition="110" />
+    <scopeInfo nodeId="8780938838750204087" fileName="BKCoordinatePlacer.java" startLine="71" startPosition="72" endLine="72" endPosition="177" />
+    <scopeInfo nodeId="8780938838750204119" fileName="BKCoordinatePlacer.java" startLine="75" startPosition="43" endLine="76" endPosition="20" />
+    <scopeInfo nodeId="8780938838750205253" fileName="BKCoordinatePlacer.java" startLine="82" startPosition="52" endLine="83" endPosition="82" />
+    <scopeInfo nodeId="8780938838750205296" fileName="BKCoordinatePlacer.java" startLine="85" startPosition="52" endLine="86" endPosition="105" />
+    <scopeInfo nodeId="5180427534212025961" fileName="BKCoordinatePlacer.java" startLine="89" startPosition="52" endLine="90" endPosition="141" />
+    <scopeInfo nodeId="6220135881201379326" fileName="BKCoordinatePlacer.java" startLine="97" startPosition="36" endLine="98" endPosition="32" />
+    <scopeInfo nodeId="6220135881201379342" fileName="BKCoordinatePlacer.java" startLine="99" startPosition="12" endLine="100" endPosition="33" />
+    <scopeInfo nodeId="6220135881201379181" fileName="BKCoordinatePlacer.java" startLine="107" startPosition="67" endLine="108" endPosition="155" />
+    <scopeInfo nodeId="6220135881201379199" fileName="BKCoordinatePlacer.java" startLine="112" startPosition="71" endLine="113" endPosition="78" />
+    <scopeInfo nodeId="6220135881201379234" fileName="BKCoordinatePlacer.java" startLine="115" startPosition="67" endLine="116" endPosition="166" />
+    <scopeInfo nodeId="6220135881201373360" fileName="BKCoordinatePlacer.java" startLine="130" startPosition="59" endLine="131" endPosition="75" />
+    <scopeInfo nodeId="6220135881201373386" fileName="BKCoordinatePlacer.java" startLine="134" startPosition="32" endLine="135" endPosition="54" />
+    <scopeInfo nodeId="4519409331094704553" fileName="BKCoordinatePlacer.java" startLine="154" startPosition="70" endLine="155" endPosition="115" />
+    <scopeInfo nodeId="5180427534211891961" fileName="BKCoordinatePlacer.java" startLine="164" startPosition="31" endLine="165" endPosition="51" />
+    <scopeInfo nodeId="5180427534211891994" fileName="BKCoordinatePlacer.java" startLine="169" startPosition="48" endLine="170" endPosition="59" />
+    <scopeInfo nodeId="5180427534211892116" fileName="BKCoordinatePlacer.java" startLine="178" startPosition="31" endLine="179" endPosition="51" />
+    <scopeInfo nodeId="5180427534211892143" fileName="BKCoordinatePlacer.java" startLine="183" startPosition="48" endLine="184" endPosition="59" />
+    <scopeInfo nodeId="4519409331094793135" fileName="BKCoordinatePlacer.java" startLine="193" startPosition="65" endLine="194" endPosition="19" />
+    <scopeInfo nodeId="7033456583153167634" fileName="BKCoordinatePlacer.java" startLine="200" startPosition="46" endLine="201" endPosition="123" />
+    <scopeInfo nodeId="6220135881201373255" fileName="BKCoordinatePlacer.java" startLine="205" startPosition="32" endLine="206" endPosition="56" />
+    <scopeInfo nodeId="6220135881201373270" fileName="BKCoordinatePlacer.java" startLine="207" startPosition="12" endLine="208" endPosition="71" />
+    <scopeInfo nodeId="6220135881201379106" fileName="BKCoordinatePlacer.java" startLine="213" startPosition="37" endLine="214" endPosition="44" />
+    <scopeInfo nodeId="6220135881201379121" fileName="BKCoordinatePlacer.java" startLine="215" startPosition="12" endLine="216" endPosition="44" />
+    <scopeInfo nodeId="920414672219867898" fileName="BKCoordinatePlacer.java" startLine="222" startPosition="65" endLine="223" endPosition="49" />
+    <scopeInfo nodeId="920414672219877446" fileName="BKCoordinatePlacer.java" startLine="229" startPosition="47" endLine="230" endPosition="131" />
+    <scopeInfo nodeId="920414672219877826" fileName="BKCoordinatePlacer.java" startLine="236" startPosition="47" endLine="237" endPosition="131" />
+    <scopeInfo nodeId="6220135881201370426" fileName="BKCoordinatePlacer.java" startLine="250" startPosition="48" endLine="251" endPosition="55" />
+    <scopeInfo nodeId="920414672219877925" fileName="BKCoordinatePlacer.java" startLine="257" startPosition="43" endLine="258" endPosition="74" />
+    <scopeInfo nodeId="8780938838750213778" fileName="BKCoordinatePlacer.java" startLine="262" startPosition="42" endLine="263" endPosition="74" />
+    <scopeInfo nodeId="920414672219877952" fileName="BKCoordinatePlacer.java" startLine="266" startPosition="63" endLine="267" endPosition="112" />
+    <scopeInfo nodeId="920414672219877759" fileName="BKCoordinatePlacer.java" startLine="279" startPosition="37" endLine="280" endPosition="82" />
+    <scopeInfo nodeId="920414672219877863" fileName="BKCoordinatePlacer.java" startLine="281" startPosition="12" endLine="282" endPosition="82" />
+    <scopeInfo nodeId="7033456583153163506" fileName="BKCoordinatePlacer.java" startLine="37" startPosition="0" endLine="39" endPosition="0" />
+    <scopeInfo nodeId="4519409331094704519" fileName="BKCoordinatePlacer.java" startLine="148" startPosition="81" endLine="150" endPosition="102" />
+    <scopeInfo nodeId="920414672219868280" fileName="BKCoordinatePlacer.java" startLine="284" startPosition="67" endLine="286" endPosition="74" />
+    <scopeInfo nodeId="8780938838750203718" fileName="BKCoordinatePlacer.java" startLine="53" startPosition="26" endLine="56" endPosition="7">
       <varInfo nodeId="8780938838750203719" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="8780938838750204086" fileName="BKCoordinatePlacer.java" startLine="71" startPosition="82" endLine="74" endPosition="7">
+    <scopeInfo nodeId="8780938838750204086" fileName="BKCoordinatePlacer.java" startLine="70" startPosition="82" endLine="73" endPosition="7">
       <varInfo nodeId="8780938838750204102" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="8780938838750204118" fileName="BKCoordinatePlacer.java" startLine="76" startPosition="0" endLine="79" endPosition="0">
+    <scopeInfo nodeId="8780938838750204118" fileName="BKCoordinatePlacer.java" startLine="75" startPosition="0" endLine="78" endPosition="0">
       <varInfo nodeId="8780938838750204118" varName="it" />
     </scopeInfo>
-    <scopeInfo nodeId="8780938838750205250" fileName="BKCoordinatePlacer.java" startLine="82" startPosition="38" endLine="85" endPosition="5">
+    <scopeInfo nodeId="8780938838750205250" fileName="BKCoordinatePlacer.java" startLine="81" startPosition="38" endLine="84" endPosition="5">
       <varInfo nodeId="8780938838750205251" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="8780938838750205293" fileName="BKCoordinatePlacer.java" startLine="85" startPosition="5" endLine="88" endPosition="5">
+    <scopeInfo nodeId="8780938838750205293" fileName="BKCoordinatePlacer.java" startLine="84" startPosition="5" endLine="87" endPosition="5">
       <varInfo nodeId="8780938838750205294" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="5180427534212025958" fileName="BKCoordinatePlacer.java" startLine="89" startPosition="55" endLine="92" endPosition="5">
+    <scopeInfo nodeId="5180427534212025958" fileName="BKCoordinatePlacer.java" startLine="88" startPosition="55" endLine="91" endPosition="5">
       <varInfo nodeId="5180427534212025959" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="6220135881201379167" fileName="BKCoordinatePlacer.java" startLine="107" startPosition="31" endLine="110" endPosition="7" />
-    <scopeInfo nodeId="6220135881201379176" fileName="BKCoordinatePlacer.java" startLine="107" startPosition="31" endLine="110" endPosition="7">
+    <scopeInfo nodeId="6220135881201379167" fileName="BKCoordinatePlacer.java" startLine="106" startPosition="31" endLine="109" endPosition="7" />
+    <scopeInfo nodeId="6220135881201379176" fileName="BKCoordinatePlacer.java" startLine="106" startPosition="31" endLine="109" endPosition="7">
       <varInfo nodeId="6220135881201379177" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="6220135881201379196" fileName="BKCoordinatePlacer.java" startLine="112" startPosition="23" endLine="115" endPosition="7">
+    <scopeInfo nodeId="6220135881201379196" fileName="BKCoordinatePlacer.java" startLine="111" startPosition="23" endLine="114" endPosition="7">
       <varInfo nodeId="6220135881201379197" varName="block" />
     </scopeInfo>
-    <scopeInfo nodeId="6220135881201379229" fileName="BKCoordinatePlacer.java" startLine="115" startPosition="7" endLine="118" endPosition="7">
+    <scopeInfo nodeId="6220135881201379229" fileName="BKCoordinatePlacer.java" startLine="114" startPosition="7" endLine="117" endPosition="7">
       <varInfo nodeId="6220135881201379230" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="4519409331094704552" fileName="BKCoordinatePlacer.java" startLine="154" startPosition="56" endLine="157" endPosition="5">
+    <scopeInfo nodeId="4519409331094704552" fileName="BKCoordinatePlacer.java" startLine="153" startPosition="56" endLine="156" endPosition="5">
       <varInfo nodeId="4519409331094704490" varName="layer" />
     </scopeInfo>
-    <scopeInfo nodeId="7033456583153167631" fileName="BKCoordinatePlacer.java" startLine="201" startPosition="0" endLine="204" endPosition="0">
+    <scopeInfo nodeId="7033456583153167631" fileName="BKCoordinatePlacer.java" startLine="200" startPosition="0" endLine="203" endPosition="0">
       <varInfo nodeId="7033456583153167636" varName="dummyNode" />
     </scopeInfo>
-    <scopeInfo nodeId="920414672219867893" fileName="BKCoordinatePlacer.java" startLine="222" startPosition="55" endLine="225" endPosition="5">
+    <scopeInfo nodeId="920414672219867893" fileName="BKCoordinatePlacer.java" startLine="221" startPosition="55" endLine="224" endPosition="5">
       <varInfo nodeId="920414672219867894" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="920414672219877445" fileName="BKCoordinatePlacer.java" startLine="230" startPosition="0" endLine="233" endPosition="0">
+    <scopeInfo nodeId="920414672219877445" fileName="BKCoordinatePlacer.java" startLine="229" startPosition="0" endLine="232" endPosition="0">
       <varInfo nodeId="920414672219877445" varName="a" />
       <varInfo nodeId="920414672219877445" varName="b" />
     </scopeInfo>
-    <scopeInfo nodeId="920414672219877825" fileName="BKCoordinatePlacer.java" startLine="237" startPosition="0" endLine="240" endPosition="0">
+    <scopeInfo nodeId="920414672219877825" fileName="BKCoordinatePlacer.java" startLine="236" startPosition="0" endLine="239" endPosition="0">
       <varInfo nodeId="920414672219877825" varName="a" />
       <varInfo nodeId="920414672219877825" varName="b" />
     </scopeInfo>
-    <scopeInfo nodeId="6220135881201370425" fileName="BKCoordinatePlacer.java" startLine="251" startPosition="0" endLine="254" endPosition="0">
+    <scopeInfo nodeId="6220135881201370425" fileName="BKCoordinatePlacer.java" startLine="250" startPosition="0" endLine="253" endPosition="0">
       <varInfo nodeId="6220135881201370425" varName="a" />
       <varInfo nodeId="6220135881201370425" varName="b" />
     </scopeInfo>
-    <scopeInfo nodeId="920414672219877948" fileName="BKCoordinatePlacer.java" startLine="266" startPosition="68" endLine="269" endPosition="13" />
-    <scopeInfo nodeId="4519409331094704518" fileName="BKCoordinatePlacer.java" startLine="148" startPosition="54" endLine="152" endPosition="7">
+    <scopeInfo nodeId="920414672219877948" fileName="BKCoordinatePlacer.java" startLine="265" startPosition="68" endLine="268" endPosition="13" />
+    <scopeInfo nodeId="4519409331094704518" fileName="BKCoordinatePlacer.java" startLine="147" startPosition="54" endLine="151" endPosition="7">
       <varInfo nodeId="4519409331094704488" varName="pos" />
     </scopeInfo>
-    <scopeInfo nodeId="5180427534211891982" fileName="BKCoordinatePlacer.java" startLine="168" startPosition="69" endLine="172" endPosition="11">
+    <scopeInfo nodeId="5180427534211891982" fileName="BKCoordinatePlacer.java" startLine="167" startPosition="69" endLine="171" endPosition="11">
       <varInfo nodeId="5180427534211891984" varName="targetPos" />
     </scopeInfo>
-    <scopeInfo nodeId="5180427534211892131" fileName="BKCoordinatePlacer.java" startLine="182" startPosition="69" endLine="186" endPosition="11">
+    <scopeInfo nodeId="5180427534211892131" fileName="BKCoordinatePlacer.java" startLine="181" startPosition="69" endLine="185" endPosition="11">
       <varInfo nodeId="5180427534211892133" varName="targetPos" />
     </scopeInfo>
-    <scopeInfo nodeId="8780938838750203819" fileName="BKCoordinatePlacer.java" startLine="62" startPosition="70" endLine="67" endPosition="7" />
-    <scopeInfo nodeId="4519409331094704510" fileName="BKCoordinatePlacer.java" startLine="147" startPosition="66" endLine="152" endPosition="7">
+    <scopeInfo nodeId="8780938838750203819" fileName="BKCoordinatePlacer.java" startLine="61" startPosition="70" endLine="66" endPosition="7" />
+    <scopeInfo nodeId="4519409331094704510" fileName="BKCoordinatePlacer.java" startLine="146" startPosition="66" endLine="151" endPosition="7">
       <varInfo nodeId="4519409331094704489" varName="layerOrder" />
     </scopeInfo>
-    <scopeInfo nodeId="4519409331094793121" fileName="BKCoordinatePlacer.java" startLine="193" startPosition="43" endLine="198" endPosition="68">
+    <scopeInfo nodeId="4519409331094793121" fileName="BKCoordinatePlacer.java" startLine="192" startPosition="43" endLine="197" endPosition="68">
       <varInfo nodeId="4519409331094793158" varName="edge" />
     </scopeInfo>
-    <scopeInfo nodeId="6220135881201373241" fileName="BKCoordinatePlacer.java" startLine="205" startPosition="78" endLine="210" endPosition="5" />
-    <scopeInfo nodeId="6220135881201379090" fileName="BKCoordinatePlacer.java" startLine="213" startPosition="88" endLine="218" endPosition="5" />
-    <scopeInfo nodeId="920414672219877945" fileName="BKCoordinatePlacer.java" startLine="265" startPosition="11" endLine="270" endPosition="11">
+    <scopeInfo nodeId="6220135881201373241" fileName="BKCoordinatePlacer.java" startLine="204" startPosition="78" endLine="209" endPosition="5" />
+    <scopeInfo nodeId="6220135881201379090" fileName="BKCoordinatePlacer.java" startLine="212" startPosition="88" endLine="217" endPosition="5" />
+    <scopeInfo nodeId="920414672219877945" fileName="BKCoordinatePlacer.java" startLine="264" startPosition="11" endLine="269" endPosition="11">
       <varInfo nodeId="920414672219877946" varName="candidate" />
     </scopeInfo>
-    <scopeInfo nodeId="8780938838750200738" fileName="BKCoordinatePlacer.java" startLine="53" startPosition="70" endLine="59" endPosition="62">
+    <scopeInfo nodeId="8780938838750200738" fileName="BKCoordinatePlacer.java" startLine="52" startPosition="70" endLine="58" endPosition="62">
       <varInfo nodeId="8780938838750203734" varName="curMaxCoord" />
     </scopeInfo>
-    <scopeInfo nodeId="5180427534211891974" fileName="BKCoordinatePlacer.java" startLine="167" startPosition="14" endLine="173" endPosition="9" />
-    <scopeInfo nodeId="5180427534211891977" fileName="BKCoordinatePlacer.java" startLine="167" startPosition="14" endLine="173" endPosition="9">
+    <scopeInfo nodeId="5180427534211891974" fileName="BKCoordinatePlacer.java" startLine="166" startPosition="14" endLine="172" endPosition="9" />
+    <scopeInfo nodeId="5180427534211891977" fileName="BKCoordinatePlacer.java" startLine="166" startPosition="14" endLine="172" endPosition="9">
       <varInfo nodeId="5180427534211891978" varName="edge" />
     </scopeInfo>
-    <scopeInfo nodeId="5180427534211892125" fileName="BKCoordinatePlacer.java" startLine="181" startPosition="14" endLine="187" endPosition="9" />
-    <scopeInfo nodeId="5180427534211892126" fileName="BKCoordinatePlacer.java" startLine="181" startPosition="14" endLine="187" endPosition="9">
+    <scopeInfo nodeId="5180427534211892125" fileName="BKCoordinatePlacer.java" startLine="180" startPosition="14" endLine="186" endPosition="9" />
+    <scopeInfo nodeId="5180427534211892126" fileName="BKCoordinatePlacer.java" startLine="180" startPosition="14" endLine="186" endPosition="9">
       <varInfo nodeId="5180427534211892127" varName="edge" />
     </scopeInfo>
-    <scopeInfo nodeId="920414672219877510" fileName="BKCoordinatePlacer.java" startLine="228" startPosition="37" endLine="234" endPosition="29" />
-    <scopeInfo nodeId="920414672219877820" fileName="BKCoordinatePlacer.java" startLine="235" startPosition="12" endLine="241" endPosition="44" />
-    <scopeInfo nodeId="8780938838750203818" fileName="BKCoordinatePlacer.java" startLine="61" startPosition="75" endLine="68" endPosition="5">
+    <scopeInfo nodeId="920414672219877510" fileName="BKCoordinatePlacer.java" startLine="227" startPosition="37" endLine="233" endPosition="29" />
+    <scopeInfo nodeId="920414672219877820" fileName="BKCoordinatePlacer.java" startLine="234" startPosition="12" endLine="240" endPosition="44" />
+    <scopeInfo nodeId="8780938838750203818" fileName="BKCoordinatePlacer.java" startLine="60" startPosition="75" endLine="67" endPosition="5">
       <varInfo nodeId="8780938838750203821" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="6220135881201379195" fileName="BKCoordinatePlacer.java" startLine="111" startPosition="12" endLine="118" endPosition="7">
+    <scopeInfo nodeId="6220135881201379195" fileName="BKCoordinatePlacer.java" startLine="110" startPosition="12" endLine="117" endPosition="7">
       <varInfo nodeId="6220135881201379202" varName="maxCoord" />
     </scopeInfo>
-    <scopeInfo nodeId="4519409331094704509" fileName="BKCoordinatePlacer.java" startLine="146" startPosition="47" endLine="153" endPosition="5">
+    <scopeInfo nodeId="4519409331094704509" fileName="BKCoordinatePlacer.java" startLine="145" startPosition="47" endLine="152" endPosition="5">
       <varInfo nodeId="4519409331094704487" varName="layer" />
     </scopeInfo>
-    <scopeInfo nodeId="4519409331094793118" fileName="BKCoordinatePlacer.java" startLine="193" startPosition="0" endLine="200" endPosition="0">
+    <scopeInfo nodeId="4519409331094793118" fileName="BKCoordinatePlacer.java" startLine="192" startPosition="0" endLine="199" endPosition="0">
       <varInfo nodeId="4519409331094793124" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="6220135881201373238" fileName="BKCoordinatePlacer.java" startLine="205" startPosition="0" endLine="212" endPosition="0">
+    <scopeInfo nodeId="6220135881201373238" fileName="BKCoordinatePlacer.java" startLine="204" startPosition="0" endLine="211" endPosition="0">
       <varInfo nodeId="6220135881201373250" varName="direction" />
       <varInfo nodeId="6220135881201373246" varName="nodeList" />
     </scopeInfo>
-    <scopeInfo nodeId="6220135881201379087" fileName="BKCoordinatePlacer.java" startLine="213" startPosition="0" endLine="220" endPosition="0">
+    <scopeInfo nodeId="6220135881201379087" fileName="BKCoordinatePlacer.java" startLine="212" startPosition="0" endLine="219" endPosition="0">
       <varInfo nodeId="6220135881201379101" varName="direction" />
       <varInfo nodeId="6220135881201379098" varName="order" />
     </scopeInfo>
-    <scopeInfo nodeId="8780938838750200735" fileName="BKCoordinatePlacer.java" startLine="52" startPosition="40" endLine="60" endPosition="5">
+    <scopeInfo nodeId="8780938838750200735" fileName="BKCoordinatePlacer.java" startLine="51" startPosition="40" endLine="59" endPosition="5">
       <varInfo nodeId="8780938838750200736" varName="coords" />
     </scopeInfo>
-    <scopeInfo nodeId="6220135881201373338" fileName="BKCoordinatePlacer.java" startLine="129" startPosition="38" endLine="138" endPosition="33">
+    <scopeInfo nodeId="6220135881201373338" fileName="BKCoordinatePlacer.java" startLine="128" startPosition="38" endLine="137" endPosition="33">
       <varInfo nodeId="6220135881201373375" varName="currentBlock" />
       <varInfo nodeId="6220135881201373348" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="8780938838750204078" fileName="BKCoordinatePlacer.java" startLine="70" startPosition="52" endLine="80" endPosition="150">
+    <scopeInfo nodeId="8780938838750204078" fileName="BKCoordinatePlacer.java" startLine="69" startPosition="52" endLine="79" endPosition="150">
       <varInfo nodeId="8780938838750204080" varName="nodeXCoords" />
     </scopeInfo>
-    <scopeInfo nodeId="5180427534211885165" fileName="BKCoordinatePlacer.java" startLine="163" startPosition="73" endLine="174" endPosition="7">
+    <scopeInfo nodeId="5180427534211885165" fileName="BKCoordinatePlacer.java" startLine="162" startPosition="73" endLine="173" endPosition="7">
       <varInfo nodeId="5180427534211885187" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="5180427534211892107" fileName="BKCoordinatePlacer.java" startLine="177" startPosition="78" endLine="188" endPosition="7">
+    <scopeInfo nodeId="5180427534211892107" fileName="BKCoordinatePlacer.java" startLine="176" startPosition="78" endLine="187" endPosition="7">
       <varInfo nodeId="5180427534211892109" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="8780938838750204073" fileName="BKCoordinatePlacer.java" startLine="69" startPosition="65" endLine="81" endPosition="5">
+    <scopeInfo nodeId="8780938838750204073" fileName="BKCoordinatePlacer.java" startLine="68" startPosition="65" endLine="80" endPosition="5">
       <varInfo nodeId="8780938838750204074" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="920414672219868272" fileName="BKCoordinatePlacer.java" startLine="277" startPosition="134" endLine="289" endPosition="27">
+    <scopeInfo nodeId="920414672219868272" fileName="BKCoordinatePlacer.java" startLine="276" startPosition="134" endLine="288" endPosition="27">
       <varInfo nodeId="920414672219877606" varName="after" />
       <varInfo nodeId="920414672219868274" varName="medianNode" />
     </scopeInfo>
-    <scopeInfo nodeId="920414672219872838" fileName="BKCoordinatePlacer.java" startLine="126" startPosition="37" endLine="139" endPosition="7">
+    <scopeInfo nodeId="920414672219872838" fileName="BKCoordinatePlacer.java" startLine="125" startPosition="37" endLine="138" endPosition="7">
       <varInfo nodeId="6220135881201373320" varName="nodeIterator" />
       <varInfo nodeId="920414672219872862" varName="prevBlock" />
     </scopeInfo>
-    <scopeInfo nodeId="4519409331094704498" fileName="BKCoordinatePlacer.java" startLine="144" startPosition="22" endLine="157" endPosition="5" />
-    <scopeInfo nodeId="5180427534211885164" fileName="BKCoordinatePlacer.java" startLine="162" startPosition="33" endLine="175" endPosition="5">
+    <scopeInfo nodeId="4519409331094704498" fileName="BKCoordinatePlacer.java" startLine="143" startPosition="22" endLine="156" endPosition="5" />
+    <scopeInfo nodeId="5180427534211885164" fileName="BKCoordinatePlacer.java" startLine="161" startPosition="33" endLine="174" endPosition="5">
       <varInfo nodeId="5180427534211885167" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="5180427534211892106" fileName="BKCoordinatePlacer.java" startLine="176" startPosition="44" endLine="189" endPosition="5">
+    <scopeInfo nodeId="5180427534211892106" fileName="BKCoordinatePlacer.java" startLine="175" startPosition="44" endLine="188" endPosition="5">
       <varInfo nodeId="5180427534211892153" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="920414672219868259" fileName="BKCoordinatePlacer.java" startLine="277" startPosition="0" endLine="291" endPosition="0">
+    <scopeInfo nodeId="920414672219868259" fileName="BKCoordinatePlacer.java" startLine="276" startPosition="0" endLine="290" endPosition="0">
       <varInfo nodeId="920414672219868270" varName="curConnectedPos" />
       <varInfo nodeId="920414672219868308" varName="dir" />
       <varInfo nodeId="920414672219868268" varName="edge" />
@@ -1061,47 +1061,47 @@
       <varInfo nodeId="920414672219868262" varName="node" />
       <varInfo nodeId="920414672219868264" varName="roots" />
     </scopeInfo>
-    <scopeInfo nodeId="4519409331094704493" fileName="BKCoordinatePlacer.java" startLine="144" startPosition="0" endLine="159" endPosition="0" />
-    <scopeInfo nodeId="920414672219872753" fileName="BKCoordinatePlacer.java" startLine="123" startPosition="112" endLine="141" endPosition="22">
+    <scopeInfo nodeId="4519409331094704493" fileName="BKCoordinatePlacer.java" startLine="143" startPosition="0" endLine="158" endPosition="0" />
+    <scopeInfo nodeId="920414672219872753" fileName="BKCoordinatePlacer.java" startLine="122" startPosition="112" endLine="140" endPosition="22">
       <varInfo nodeId="920414672219872755" varName="blockGraph" />
     </scopeInfo>
-    <scopeInfo nodeId="920414672219872744" fileName="BKCoordinatePlacer.java" startLine="123" startPosition="0" endLine="143" endPosition="0">
+    <scopeInfo nodeId="920414672219872744" fileName="BKCoordinatePlacer.java" startLine="122" startPosition="0" endLine="142" endPosition="0">
       <varInfo nodeId="920414672219874775" varName="layerDirection" />
       <varInfo nodeId="6220135881201379072" varName="orderIterator" />
       <varInfo nodeId="920414672219872749" varName="roots" />
     </scopeInfo>
-    <scopeInfo nodeId="920414672219877114" fileName="BKCoordinatePlacer.java" startLine="249" startPosition="68" endLine="270" endPosition="11">
+    <scopeInfo nodeId="920414672219877114" fileName="BKCoordinatePlacer.java" startLine="248" startPosition="68" endLine="269" endPosition="11">
       <varInfo nodeId="920414672219877876" varName="candidates" />
       <varInfo nodeId="8780938838750213724" varName="hasDummy0" />
       <varInfo nodeId="8780938838750213757" varName="hasDummy1" />
       <varInfo nodeId="6220135881201370415" varName="sortedByPos" />
     </scopeInfo>
-    <scopeInfo nodeId="6220135881201378966" fileName="BKCoordinatePlacer.java" startLine="96" startPosition="72" endLine="120" endPosition="21">
+    <scopeInfo nodeId="6220135881201378966" fileName="BKCoordinatePlacer.java" startLine="95" startPosition="72" endLine="119" endPosition="21">
       <varInfo nodeId="6220135881201378973" varName="blockGraph" />
       <varInfo nodeId="6220135881201378956" varName="curCoords" />
       <varInfo nodeId="6220135881201379322" varName="dir" />
       <varInfo nodeId="6220135881201378955" varName="layers" />
       <varInfo nodeId="6220135881201378968" varName="roots" />
     </scopeInfo>
-    <scopeInfo nodeId="920414672219877082" fileName="BKCoordinatePlacer.java" startLine="247" startPosition="38" endLine="271" endPosition="9">
+    <scopeInfo nodeId="920414672219877082" fileName="BKCoordinatePlacer.java" startLine="246" startPosition="38" endLine="270" endPosition="9">
       <varInfo nodeId="920414672219877092" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="6220135881201378959" fileName="BKCoordinatePlacer.java" startLine="96" startPosition="0" endLine="122" endPosition="0">
+    <scopeInfo nodeId="6220135881201378959" fileName="BKCoordinatePlacer.java" startLine="95" startPosition="0" endLine="121" endPosition="0">
       <varInfo nodeId="6220135881201379040" varName="layerDir" />
       <varInfo nodeId="6220135881201379314" varName="orderDir" />
     </scopeInfo>
-    <scopeInfo nodeId="920414672219868099" fileName="BKCoordinatePlacer.java" startLine="244" startPosition="37" endLine="272" endPosition="7">
+    <scopeInfo nodeId="920414672219868099" fileName="BKCoordinatePlacer.java" startLine="243" startPosition="37" endLine="271" endPosition="7">
       <varInfo nodeId="920414672219868130" varName="curConnectedPos" />
       <varInfo nodeId="920414672219877012" varName="nodeIterator" />
     </scopeInfo>
-    <scopeInfo nodeId="7033456583153163651" fileName="BKCoordinatePlacer.java" startLine="160" startPosition="64" endLine="190" endPosition="20">
+    <scopeInfo nodeId="7033456583153163651" fileName="BKCoordinatePlacer.java" startLine="159" startPosition="64" endLine="189" endPosition="20">
       <varInfo nodeId="7033456583153163675" varName="badEdges" />
       <varInfo nodeId="5180427534211885159" varName="closestInnerEdgePos" />
     </scopeInfo>
-    <scopeInfo nodeId="7033456583153163524" fileName="BKCoordinatePlacer.java" startLine="160" startPosition="0" endLine="192" endPosition="0">
+    <scopeInfo nodeId="7033456583153163524" fileName="BKCoordinatePlacer.java" startLine="159" startPosition="0" endLine="191" endPosition="0">
       <varInfo nodeId="7033456583153163531" varName="layerOrder" />
     </scopeInfo>
-    <scopeInfo nodeId="7033456583153163520" fileName="BKCoordinatePlacer.java" startLine="41" startPosition="81" endLine="93" endPosition="17">
+    <scopeInfo nodeId="7033456583153163520" fileName="BKCoordinatePlacer.java" startLine="40" startPosition="81" endLine="92" endPosition="17">
       <varInfo nodeId="8780938838750200742" varName="coord" />
       <varInfo nodeId="8780938838750204055" varName="finalXCoord" />
       <varInfo nodeId="8780938838750200751" varName="maxCoord" />
@@ -1111,25 +1111,25 @@
       <varInfo nodeId="8780938838750203801" varName="shifts" />
       <varInfo nodeId="6220135881201378900" varName="xCoords" />
     </scopeInfo>
-    <scopeInfo nodeId="920414672219867877" fileName="BKCoordinatePlacer.java" startLine="221" startPosition="122" endLine="274" endPosition="17">
+    <scopeInfo nodeId="920414672219867877" fileName="BKCoordinatePlacer.java" startLine="220" startPosition="122" endLine="273" endPosition="17">
       <varInfo nodeId="920414672219877433" varName="edgeComparator" />
       <varInfo nodeId="6220135881201373286" varName="initPositionValue" />
       <varInfo nodeId="920414672219867885" varName="roots" />
     </scopeInfo>
-    <scopeInfo nodeId="7033456583153163511" fileName="BKCoordinatePlacer.java" startLine="41" startPosition="0" endLine="95" endPosition="0">
+    <scopeInfo nodeId="7033456583153163511" fileName="BKCoordinatePlacer.java" startLine="40" startPosition="0" endLine="94" endPosition="0">
       <varInfo nodeId="7033456583153163516" varName="graph" />
       <varInfo nodeId="7033456583153163518" varName="order" />
     </scopeInfo>
-    <scopeInfo nodeId="920414672219867872" fileName="BKCoordinatePlacer.java" startLine="221" startPosition="0" endLine="276" endPosition="0">
+    <scopeInfo nodeId="920414672219867872" fileName="BKCoordinatePlacer.java" startLine="220" startPosition="0" endLine="275" endPosition="0">
       <varInfo nodeId="920414672219868037" varName="dir" />
       <varInfo nodeId="920414672219877005" varName="layerDirection" />
       <varInfo nodeId="920414672219868030" varName="layerIterator" />
     </scopeInfo>
-    <unitInfo nodeId="8780938838750204118" fileName="BKCoordinatePlacer.java" startLine="75" startPosition="64" endLine="79" endPosition="7" unitName="jetbrains.mps.graphLayout.layeredLayout.BKCoordinatePlacer$1" />
-    <unitInfo nodeId="920414672219877445" fileName="BKCoordinatePlacer.java" startLine="229" startPosition="33" endLine="233" endPosition="7" unitName="jetbrains.mps.graphLayout.layeredLayout.BKCoordinatePlacer$2" />
-    <unitInfo nodeId="920414672219877825" fileName="BKCoordinatePlacer.java" startLine="236" startPosition="33" endLine="240" endPosition="7" unitName="jetbrains.mps.graphLayout.layeredLayout.BKCoordinatePlacer$3" />
-    <unitInfo nodeId="6220135881201370425" fileName="BKCoordinatePlacer.java" startLine="250" startPosition="86" endLine="254" endPosition="11" unitName="jetbrains.mps.graphLayout.layeredLayout.BKCoordinatePlacer$4" />
-    <unitInfo nodeId="7033456583153163504" fileName="BKCoordinatePlacer.java" startLine="25" startPosition="0" endLine="292" endPosition="0" unitName="jetbrains.mps.graphLayout.layeredLayout.BKCoordinatePlacer" />
+    <unitInfo nodeId="8780938838750204118" fileName="BKCoordinatePlacer.java" startLine="74" startPosition="64" endLine="78" endPosition="7" unitName="jetbrains.mps.graphLayout.layeredLayout.BKCoordinatePlacer$1" />
+    <unitInfo nodeId="920414672219877445" fileName="BKCoordinatePlacer.java" startLine="228" startPosition="33" endLine="232" endPosition="7" unitName="jetbrains.mps.graphLayout.layeredLayout.BKCoordinatePlacer$2" />
+    <unitInfo nodeId="920414672219877825" fileName="BKCoordinatePlacer.java" startLine="235" startPosition="33" endLine="239" endPosition="7" unitName="jetbrains.mps.graphLayout.layeredLayout.BKCoordinatePlacer$3" />
+    <unitInfo nodeId="6220135881201370425" fileName="BKCoordinatePlacer.java" startLine="249" startPosition="86" endLine="253" endPosition="11" unitName="jetbrains.mps.graphLayout.layeredLayout.BKCoordinatePlacer$4" />
+    <unitInfo nodeId="7033456583153163504" fileName="BKCoordinatePlacer.java" startLine="25" startPosition="0" endLine="291" endPosition="0" unitName="jetbrains.mps.graphLayout.layeredLayout.BKCoordinatePlacer" />
   </root>
   <root nodeId="8567569493821107820" modelId="r:56e7ed05-c300-4310-9801-1a49a3ba1a5a(jetbrains.mps.graphLayout.layeredLayout)">
     <nodeInfo nodeId="8567569493821107822" fileName="ILayerer.java" startLine="10" startPosition="0" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="computeLayers#(Ljetbrains/mps/graphLayout/graph/Graph;)Ljava/util/Map;" />

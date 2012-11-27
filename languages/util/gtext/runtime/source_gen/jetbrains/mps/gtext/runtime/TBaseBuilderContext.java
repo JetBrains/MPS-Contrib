@@ -13,7 +13,6 @@ import java.util.TreeMap;
 
 public class TBaseBuilderContext {
   protected static String ROOT = "__ROOT__";
-
   protected Map<String, TContent> myContents;
   protected Stack<TContent> myContentsStack;
   protected TBuffer myBuffer;

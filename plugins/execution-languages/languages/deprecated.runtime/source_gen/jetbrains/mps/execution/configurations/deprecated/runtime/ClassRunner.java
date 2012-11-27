@@ -22,7 +22,6 @@ import java.io.IOException;
 @ToRemove(version = 2.0)
 public class ClassRunner extends BaseRunner {
   protected static Log log = LogFactory.getLog(ClassRunner.class);
-
   private ProcessBuilder myProcessBuilder;
 
   @Deprecated

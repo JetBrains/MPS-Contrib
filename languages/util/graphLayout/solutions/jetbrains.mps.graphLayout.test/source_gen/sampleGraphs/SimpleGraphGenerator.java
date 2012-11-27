@@ -11,7 +11,6 @@ import jetbrains.mps.internal.collections.runtime.ISelector;
 
 public class SimpleGraphGenerator extends BasicGraphGenerator {
   private static int MAX_EDGE_GEN = 100;
-
   private int[] myComponents;
 
   public SimpleGraphGenerator(int numNodes, int minEdges, int maxEdges) {

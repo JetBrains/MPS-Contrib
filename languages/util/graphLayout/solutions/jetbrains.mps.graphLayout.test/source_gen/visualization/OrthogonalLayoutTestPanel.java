@@ -43,7 +43,6 @@ public class OrthogonalLayoutTestPanel extends JPanel {
   private static final int DEFAULT_NODE_SIZE = 30;
   private static final int DEFAULT_LABEL_X_SIZE = 100;
   private static final int DEFAULT_LABEL_Y_SIZE = 25;
-
   protected JTextArea myTextArea;
   private OrthogonalLayoutTestPanel.MyGraphLabel myGraphLabel;
   protected BasicLayouter myLayouter;

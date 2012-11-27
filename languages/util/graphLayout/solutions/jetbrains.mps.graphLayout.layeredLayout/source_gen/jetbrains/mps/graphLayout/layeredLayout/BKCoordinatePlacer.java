@@ -27,7 +27,6 @@ public class BKCoordinatePlacer implements ICoordinatePlacer {
   private static int RIGHTMOST = 1;
   private static int TOP_TO_BOTTOM = 0;
   private static int BOTTOM_TO_TOP = 1;
-
   private Graph myGraph;
   private NodeLayeredOrder myOrder;
   private Map<Node, Integer> myPosInLayer;

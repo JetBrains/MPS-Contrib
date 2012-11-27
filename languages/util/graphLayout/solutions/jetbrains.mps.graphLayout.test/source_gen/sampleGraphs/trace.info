@@ -637,59 +637,59 @@
   </root>
   <root nodeId="8527875266531960809" modelId="r:1674ee60-7c44-4176-8f8c-2c87c767d971(sampleGraphs)">
     <nodeInfo nodeId="8527875266531960891" fileName="AbstractGraphGenerator.java" startLine="9" startPosition="0" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="MAX_ITERATIONS" />
-    <nodeInfo nodeId="8527875266531960815" fileName="AbstractGraphGenerator.java" startLine="11" startPosition="0" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myNumNodes" />
-    <nodeInfo nodeId="8527875266531960823" fileName="AbstractGraphGenerator.java" startLine="12" startPosition="0" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myMinEdges" />
-    <nodeInfo nodeId="8527875266531960827" fileName="AbstractGraphGenerator.java" startLine="13" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myMaxEdges" />
-    <nodeInfo nodeId="8527875266531973926" fileName="AbstractGraphGenerator.java" startLine="14" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myNumEdges" />
-    <nodeInfo nodeId="8527875266531973901" fileName="AbstractGraphGenerator.java" startLine="15" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myRandom" />
-    <nodeInfo nodeId="8527875266531960862" fileName="AbstractGraphGenerator.java" startLine="17" startPosition="75" endLine="18" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8527875266531960844" fileName="AbstractGraphGenerator.java" startLine="18" startPosition="26" endLine="19" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8527875266531960855" fileName="AbstractGraphGenerator.java" startLine="19" startPosition="26" endLine="20" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8527875266531973904" fileName="AbstractGraphGenerator.java" startLine="20" startPosition="26" endLine="21" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8527875266531973931" fileName="AbstractGraphGenerator.java" startLine="24" startPosition="59" endLine="25" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8527875266531960932" fileName="AbstractGraphGenerator.java" startLine="26" startPosition="46" endLine="27" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8527875266531960947" fileName="AbstractGraphGenerator.java" startLine="28" startPosition="35" endLine="29" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8527875266531965944" fileName="AbstractGraphGenerator.java" startLine="31" startPosition="5" endLine="32" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
-    <nodeInfo nodeId="7383013054836007326" fileName="AbstractGraphGenerator.java" startLine="35" startPosition="45" endLine="36" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8527875266531960875" fileName="AbstractGraphGenerator.java" startLine="39" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="generateGraph#()Ljetbrains/mps/graphLayout/graph/Graph;" />
-    <nodeInfo nodeId="8527875266531966155" fileName="AbstractGraphGenerator.java" startLine="41" startPosition="28" endLine="42" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8527875266531966161" fileName="AbstractGraphGenerator.java" startLine="45" startPosition="28" endLine="46" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8527875266531974079" fileName="AbstractGraphGenerator.java" startLine="49" startPosition="29" endLine="50" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8527875266531960938" fileName="AbstractGraphGenerator.java" startLine="27" startPosition="36" endLine="30" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="7383013054836007321" fileName="AbstractGraphGenerator.java" startLine="35" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="checkGraph#(Ljetbrains/mps/graphLayout/graph/Graph;)Z" />
-    <nodeInfo nodeId="8527875266531966151" fileName="AbstractGraphGenerator.java" startLine="41" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getNumNodes#()I" />
-    <nodeInfo nodeId="8527875266531966157" fileName="AbstractGraphGenerator.java" startLine="45" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getNumEdges#()I" />
-    <nodeInfo nodeId="8527875266531974074" fileName="AbstractGraphGenerator.java" startLine="49" startPosition="0" endLine="52" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="random#()Ljava/util/Random;" />
-    <nodeInfo nodeId="8527875266531960811" fileName="AbstractGraphGenerator.java" startLine="17" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="AbstractGraphGenerator#(III)V" />
-    <nodeInfo nodeId="8527875266531960916" fileName="AbstractGraphGenerator.java" startLine="25" startPosition="74" endLine="31" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="8527875266531960911" fileName="AbstractGraphGenerator.java" startLine="24" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="generate#()Ljetbrains/mps/graphLayout/graph/Graph;" />
-    <scopeInfo nodeId="8527875266531960939" fileName="AbstractGraphGenerator.java" startLine="28" startPosition="35" endLine="29" endPosition="21" />
-    <scopeInfo nodeId="7383013054836007325" fileName="AbstractGraphGenerator.java" startLine="35" startPosition="45" endLine="36" endPosition="25" />
-    <scopeInfo nodeId="8527875266531960875" fileName="AbstractGraphGenerator.java" startLine="39" startPosition="0" endLine="40" endPosition="0" />
-    <scopeInfo nodeId="8527875266531966154" fileName="AbstractGraphGenerator.java" startLine="41" startPosition="28" endLine="42" endPosition="22" />
-    <scopeInfo nodeId="8527875266531966160" fileName="AbstractGraphGenerator.java" startLine="45" startPosition="28" endLine="46" endPosition="22" />
-    <scopeInfo nodeId="8527875266531974077" fileName="AbstractGraphGenerator.java" startLine="49" startPosition="29" endLine="50" endPosition="20" />
-    <scopeInfo nodeId="7383013054836007321" fileName="AbstractGraphGenerator.java" startLine="35" startPosition="0" endLine="38" endPosition="0">
+    <nodeInfo nodeId="8527875266531960815" fileName="AbstractGraphGenerator.java" startLine="10" startPosition="0" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myNumNodes" />
+    <nodeInfo nodeId="8527875266531960823" fileName="AbstractGraphGenerator.java" startLine="11" startPosition="0" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myMinEdges" />
+    <nodeInfo nodeId="8527875266531960827" fileName="AbstractGraphGenerator.java" startLine="12" startPosition="0" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myMaxEdges" />
+    <nodeInfo nodeId="8527875266531973926" fileName="AbstractGraphGenerator.java" startLine="13" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myNumEdges" />
+    <nodeInfo nodeId="8527875266531973901" fileName="AbstractGraphGenerator.java" startLine="14" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myRandom" />
+    <nodeInfo nodeId="8527875266531960862" fileName="AbstractGraphGenerator.java" startLine="16" startPosition="75" endLine="17" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8527875266531960844" fileName="AbstractGraphGenerator.java" startLine="17" startPosition="26" endLine="18" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8527875266531960855" fileName="AbstractGraphGenerator.java" startLine="18" startPosition="26" endLine="19" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8527875266531973904" fileName="AbstractGraphGenerator.java" startLine="19" startPosition="26" endLine="20" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8527875266531973931" fileName="AbstractGraphGenerator.java" startLine="23" startPosition="59" endLine="24" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8527875266531960932" fileName="AbstractGraphGenerator.java" startLine="25" startPosition="46" endLine="26" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8527875266531960947" fileName="AbstractGraphGenerator.java" startLine="27" startPosition="35" endLine="28" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8527875266531965944" fileName="AbstractGraphGenerator.java" startLine="30" startPosition="5" endLine="31" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
+    <nodeInfo nodeId="7383013054836007326" fileName="AbstractGraphGenerator.java" startLine="34" startPosition="45" endLine="35" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8527875266531960875" fileName="AbstractGraphGenerator.java" startLine="38" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="generateGraph#()Ljetbrains/mps/graphLayout/graph/Graph;" />
+    <nodeInfo nodeId="8527875266531966155" fileName="AbstractGraphGenerator.java" startLine="40" startPosition="28" endLine="41" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8527875266531966161" fileName="AbstractGraphGenerator.java" startLine="44" startPosition="28" endLine="45" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8527875266531974079" fileName="AbstractGraphGenerator.java" startLine="48" startPosition="29" endLine="49" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8527875266531960938" fileName="AbstractGraphGenerator.java" startLine="26" startPosition="36" endLine="29" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="7383013054836007321" fileName="AbstractGraphGenerator.java" startLine="34" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="checkGraph#(Ljetbrains/mps/graphLayout/graph/Graph;)Z" />
+    <nodeInfo nodeId="8527875266531966151" fileName="AbstractGraphGenerator.java" startLine="40" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getNumNodes#()I" />
+    <nodeInfo nodeId="8527875266531966157" fileName="AbstractGraphGenerator.java" startLine="44" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getNumEdges#()I" />
+    <nodeInfo nodeId="8527875266531974074" fileName="AbstractGraphGenerator.java" startLine="48" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="random#()Ljava/util/Random;" />
+    <nodeInfo nodeId="8527875266531960811" fileName="AbstractGraphGenerator.java" startLine="16" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="AbstractGraphGenerator#(III)V" />
+    <nodeInfo nodeId="8527875266531960916" fileName="AbstractGraphGenerator.java" startLine="24" startPosition="74" endLine="30" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
+    <nodeInfo nodeId="8527875266531960911" fileName="AbstractGraphGenerator.java" startLine="23" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="generate#()Ljetbrains/mps/graphLayout/graph/Graph;" />
+    <scopeInfo nodeId="8527875266531960939" fileName="AbstractGraphGenerator.java" startLine="27" startPosition="35" endLine="28" endPosition="21" />
+    <scopeInfo nodeId="7383013054836007325" fileName="AbstractGraphGenerator.java" startLine="34" startPosition="45" endLine="35" endPosition="25" />
+    <scopeInfo nodeId="8527875266531960875" fileName="AbstractGraphGenerator.java" startLine="38" startPosition="0" endLine="39" endPosition="0" />
+    <scopeInfo nodeId="8527875266531966154" fileName="AbstractGraphGenerator.java" startLine="40" startPosition="28" endLine="41" endPosition="22" />
+    <scopeInfo nodeId="8527875266531966160" fileName="AbstractGraphGenerator.java" startLine="44" startPosition="28" endLine="45" endPosition="22" />
+    <scopeInfo nodeId="8527875266531974077" fileName="AbstractGraphGenerator.java" startLine="48" startPosition="29" endLine="49" endPosition="20" />
+    <scopeInfo nodeId="7383013054836007321" fileName="AbstractGraphGenerator.java" startLine="34" startPosition="0" endLine="37" endPosition="0">
       <varInfo nodeId="7383013054836007320" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="8527875266531966151" fileName="AbstractGraphGenerator.java" startLine="41" startPosition="0" endLine="44" endPosition="0" />
-    <scopeInfo nodeId="8527875266531966157" fileName="AbstractGraphGenerator.java" startLine="45" startPosition="0" endLine="48" endPosition="0" />
-    <scopeInfo nodeId="8527875266531974074" fileName="AbstractGraphGenerator.java" startLine="49" startPosition="0" endLine="52" endPosition="0" />
-    <scopeInfo nodeId="8527875266531960814" fileName="AbstractGraphGenerator.java" startLine="17" startPosition="75" endLine="21" endPosition="28" />
-    <scopeInfo nodeId="8527875266531960918" fileName="AbstractGraphGenerator.java" startLine="26" startPosition="46" endLine="30" endPosition="7">
+    <scopeInfo nodeId="8527875266531966151" fileName="AbstractGraphGenerator.java" startLine="40" startPosition="0" endLine="43" endPosition="0" />
+    <scopeInfo nodeId="8527875266531966157" fileName="AbstractGraphGenerator.java" startLine="44" startPosition="0" endLine="47" endPosition="0" />
+    <scopeInfo nodeId="8527875266531974074" fileName="AbstractGraphGenerator.java" startLine="48" startPosition="0" endLine="51" endPosition="0" />
+    <scopeInfo nodeId="8527875266531960814" fileName="AbstractGraphGenerator.java" startLine="16" startPosition="75" endLine="20" endPosition="28" />
+    <scopeInfo nodeId="8527875266531960918" fileName="AbstractGraphGenerator.java" startLine="25" startPosition="46" endLine="29" endPosition="7">
       <varInfo nodeId="8527875266531960933" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="8527875266531960811" fileName="AbstractGraphGenerator.java" startLine="17" startPosition="0" endLine="23" endPosition="0">
+    <scopeInfo nodeId="8527875266531960811" fileName="AbstractGraphGenerator.java" startLine="16" startPosition="0" endLine="22" endPosition="0">
       <varInfo nodeId="8527875266531960841" varName="maxEdges" />
       <varInfo nodeId="8527875266531960838" varName="minEdges" />
       <varInfo nodeId="8527875266531960831" varName="numNodes" />
     </scopeInfo>
-    <scopeInfo nodeId="8527875266531960916" fileName="AbstractGraphGenerator.java" startLine="25" startPosition="74" endLine="31" endPosition="5">
+    <scopeInfo nodeId="8527875266531960916" fileName="AbstractGraphGenerator.java" startLine="24" startPosition="74" endLine="30" endPosition="5">
       <varInfo nodeId="8527875266531960917" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="8527875266531960914" fileName="AbstractGraphGenerator.java" startLine="24" startPosition="59" endLine="32" endPosition="67" />
-    <scopeInfo nodeId="8527875266531960911" fileName="AbstractGraphGenerator.java" startLine="24" startPosition="0" endLine="34" endPosition="0" />
-    <unitInfo nodeId="8527875266531960809" fileName="AbstractGraphGenerator.java" startLine="8" startPosition="0" endLine="53" endPosition="0" unitName="sampleGraphs.AbstractGraphGenerator" />
+    <scopeInfo nodeId="8527875266531960914" fileName="AbstractGraphGenerator.java" startLine="23" startPosition="59" endLine="31" endPosition="67" />
+    <scopeInfo nodeId="8527875266531960911" fileName="AbstractGraphGenerator.java" startLine="23" startPosition="0" endLine="33" endPosition="0" />
+    <unitInfo nodeId="8527875266531960809" fileName="AbstractGraphGenerator.java" startLine="8" startPosition="0" endLine="52" endPosition="0" unitName="sampleGraphs.AbstractGraphGenerator" />
   </root>
   <root nodeId="8527875266531960880" modelId="r:1674ee60-7c44-4176-8f8c-2c87c767d971(sampleGraphs)">
     <nodeInfo nodeId="8527875266531966121" fileName="BasicGraphGenerator.java" startLine="10" startPosition="72" endLine="11" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
@@ -739,87 +739,87 @@
   </root>
   <root nodeId="8527875266531973857" modelId="r:1674ee60-7c44-4176-8f8c-2c87c767d971(sampleGraphs)">
     <nodeInfo nodeId="8527875266531974042" fileName="SimpleGraphGenerator.java" startLine="13" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="MAX_EDGE_GEN" />
-    <nodeInfo nodeId="8527875266531973998" fileName="SimpleGraphGenerator.java" startLine="15" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponents" />
-    <nodeInfo nodeId="8527875266531973878" fileName="SimpleGraphGenerator.java" startLine="17" startPosition="73" endLine="18" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
-    <nodeInfo nodeId="8527875266531974268" fileName="SimpleGraphGenerator.java" startLine="23" startPosition="53" endLine="24" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8527875266531974278" fileName="SimpleGraphGenerator.java" startLine="24" startPosition="67" endLine="25" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8527875266531974352" fileName="SimpleGraphGenerator.java" startLine="26" startPosition="39" endLine="27" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8527875266531974468" fileName="SimpleGraphGenerator.java" startLine="32" startPosition="41" endLine="33" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8527875266531974481" fileName="SimpleGraphGenerator.java" startLine="36" startPosition="5" endLine="37" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8527875266531974402" fileName="SimpleGraphGenerator.java" startLine="42" startPosition="37" endLine="43" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8527875266531974412" fileName="SimpleGraphGenerator.java" startLine="46" startPosition="84" endLine="47" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8527875266531974437" fileName="SimpleGraphGenerator.java" startLine="48" startPosition="12" endLine="49" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8527875266531973988" fileName="SimpleGraphGenerator.java" startLine="54" startPosition="35" endLine="55" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8527875266531973974" fileName="SimpleGraphGenerator.java" startLine="56" startPosition="56" endLine="57" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8527875266531974005" fileName="SimpleGraphGenerator.java" startLine="58" startPosition="5" endLine="59" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8527875266531974032" fileName="SimpleGraphGenerator.java" startLine="60" startPosition="40" endLine="61" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8527875266531973948" fileName="SimpleGraphGenerator.java" startLine="62" startPosition="5" endLine="63" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8527875266531974435" fileName="SimpleGraphGenerator.java" startLine="48" startPosition="10" endLine="50" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="8527875266531973873" fileName="SimpleGraphGenerator.java" startLine="17" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="SimpleGraphGenerator#(III)V" />
-    <nodeInfo nodeId="8527875266531974335" fileName="SimpleGraphGenerator.java" startLine="25" startPosition="67" endLine="28" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="8527875266531974466" fileName="SimpleGraphGenerator.java" startLine="31" startPosition="67" endLine="34" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="8527875266531974400" fileName="SimpleGraphGenerator.java" startLine="42" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Ljetbrains/mps/graphLayout/graph/Edge;)Ljetbrains/mps/graphLayout/graph/Node;" />
-    <nodeInfo nodeId="8527875266531973951" fileName="SimpleGraphGenerator.java" startLine="55" startPosition="33" endLine="58" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="8527875266531974017" fileName="SimpleGraphGenerator.java" startLine="59" startPosition="37" endLine="62" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="8527875266531974456" fileName="SimpleGraphGenerator.java" startLine="30" startPosition="65" endLine="35" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="8527875266531974390" fileName="SimpleGraphGenerator.java" startLine="40" startPosition="62" endLine="45" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8527875266531974410" fileName="SimpleGraphGenerator.java" startLine="45" startPosition="24" endLine="50" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="8527875266531974111" fileName="SimpleGraphGenerator.java" startLine="22" startPosition="44" endLine="29" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="8527875266531974446" fileName="SimpleGraphGenerator.java" startLine="29" startPosition="5" endLine="36" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="8527875266531974377" fileName="SimpleGraphGenerator.java" startLine="40" startPosition="0" endLine="52" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="canConnect#(Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/graph/Node;)Z" />
-    <nodeInfo nodeId="8527875266531973943" fileName="SimpleGraphGenerator.java" startLine="53" startPosition="0" endLine="65" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="generateGraph#()Ljetbrains/mps/graphLayout/graph/Graph;" />
-    <nodeInfo nodeId="8527875266531973891" fileName="SimpleGraphGenerator.java" startLine="21" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="generateEdge#(Ljetbrains/mps/graphLayout/graph/Graph;)Ljetbrains/mps/graphLayout/graph/Edge;" />
-    <scopeInfo nodeId="8527875266531973877" fileName="SimpleGraphGenerator.java" startLine="17" startPosition="73" endLine="18" endPosition="40" />
-    <scopeInfo nodeId="8527875266531974336" fileName="SimpleGraphGenerator.java" startLine="26" startPosition="39" endLine="27" endPosition="45" />
-    <scopeInfo nodeId="8527875266531974467" fileName="SimpleGraphGenerator.java" startLine="32" startPosition="41" endLine="33" endPosition="47" />
-    <scopeInfo nodeId="8527875266531974401" fileName="SimpleGraphGenerator.java" startLine="42" startPosition="37" endLine="43" endPosition="40" />
-    <scopeInfo nodeId="8527875266531974411" fileName="SimpleGraphGenerator.java" startLine="46" startPosition="84" endLine="47" endPosition="18" />
-    <scopeInfo nodeId="8527875266531974436" fileName="SimpleGraphGenerator.java" startLine="48" startPosition="12" endLine="49" endPosition="19" />
-    <scopeInfo nodeId="8527875266531973952" fileName="SimpleGraphGenerator.java" startLine="56" startPosition="56" endLine="57" endPosition="18" />
-    <scopeInfo nodeId="8527875266531974018" fileName="SimpleGraphGenerator.java" startLine="60" startPosition="40" endLine="61" endPosition="26" />
-    <scopeInfo nodeId="8527875266531973873" fileName="SimpleGraphGenerator.java" startLine="17" startPosition="0" endLine="20" endPosition="0">
+    <nodeInfo nodeId="8527875266531973998" fileName="SimpleGraphGenerator.java" startLine="14" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponents" />
+    <nodeInfo nodeId="8527875266531973878" fileName="SimpleGraphGenerator.java" startLine="16" startPosition="73" endLine="17" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="8527875266531974268" fileName="SimpleGraphGenerator.java" startLine="22" startPosition="53" endLine="23" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8527875266531974278" fileName="SimpleGraphGenerator.java" startLine="23" startPosition="67" endLine="24" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8527875266531974352" fileName="SimpleGraphGenerator.java" startLine="25" startPosition="39" endLine="26" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8527875266531974468" fileName="SimpleGraphGenerator.java" startLine="31" startPosition="41" endLine="32" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8527875266531974481" fileName="SimpleGraphGenerator.java" startLine="35" startPosition="5" endLine="36" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8527875266531974402" fileName="SimpleGraphGenerator.java" startLine="41" startPosition="37" endLine="42" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8527875266531974412" fileName="SimpleGraphGenerator.java" startLine="45" startPosition="84" endLine="46" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8527875266531974437" fileName="SimpleGraphGenerator.java" startLine="47" startPosition="12" endLine="48" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8527875266531973988" fileName="SimpleGraphGenerator.java" startLine="53" startPosition="35" endLine="54" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8527875266531973974" fileName="SimpleGraphGenerator.java" startLine="55" startPosition="56" endLine="56" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8527875266531974005" fileName="SimpleGraphGenerator.java" startLine="57" startPosition="5" endLine="58" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8527875266531974032" fileName="SimpleGraphGenerator.java" startLine="59" startPosition="40" endLine="60" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8527875266531973948" fileName="SimpleGraphGenerator.java" startLine="61" startPosition="5" endLine="62" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8527875266531974435" fileName="SimpleGraphGenerator.java" startLine="47" startPosition="10" endLine="49" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8527875266531973873" fileName="SimpleGraphGenerator.java" startLine="16" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="SimpleGraphGenerator#(III)V" />
+    <nodeInfo nodeId="8527875266531974335" fileName="SimpleGraphGenerator.java" startLine="24" startPosition="67" endLine="27" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8527875266531974466" fileName="SimpleGraphGenerator.java" startLine="30" startPosition="67" endLine="33" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8527875266531974400" fileName="SimpleGraphGenerator.java" startLine="41" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Ljetbrains/mps/graphLayout/graph/Edge;)Ljetbrains/mps/graphLayout/graph/Node;" />
+    <nodeInfo nodeId="8527875266531973951" fileName="SimpleGraphGenerator.java" startLine="54" startPosition="33" endLine="57" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8527875266531974017" fileName="SimpleGraphGenerator.java" startLine="58" startPosition="37" endLine="61" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
+    <nodeInfo nodeId="8527875266531974456" fileName="SimpleGraphGenerator.java" startLine="29" startPosition="65" endLine="34" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="8527875266531974390" fileName="SimpleGraphGenerator.java" startLine="39" startPosition="62" endLine="44" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8527875266531974410" fileName="SimpleGraphGenerator.java" startLine="44" startPosition="24" endLine="49" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8527875266531974111" fileName="SimpleGraphGenerator.java" startLine="21" startPosition="44" endLine="28" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
+    <nodeInfo nodeId="8527875266531974446" fileName="SimpleGraphGenerator.java" startLine="28" startPosition="5" endLine="35" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="8527875266531974377" fileName="SimpleGraphGenerator.java" startLine="39" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="canConnect#(Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/graph/Node;)Z" />
+    <nodeInfo nodeId="8527875266531973943" fileName="SimpleGraphGenerator.java" startLine="52" startPosition="0" endLine="64" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="generateGraph#()Ljetbrains/mps/graphLayout/graph/Graph;" />
+    <nodeInfo nodeId="8527875266531973891" fileName="SimpleGraphGenerator.java" startLine="20" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="generateEdge#(Ljetbrains/mps/graphLayout/graph/Graph;)Ljetbrains/mps/graphLayout/graph/Edge;" />
+    <scopeInfo nodeId="8527875266531973877" fileName="SimpleGraphGenerator.java" startLine="16" startPosition="73" endLine="17" endPosition="40" />
+    <scopeInfo nodeId="8527875266531974336" fileName="SimpleGraphGenerator.java" startLine="25" startPosition="39" endLine="26" endPosition="45" />
+    <scopeInfo nodeId="8527875266531974467" fileName="SimpleGraphGenerator.java" startLine="31" startPosition="41" endLine="32" endPosition="47" />
+    <scopeInfo nodeId="8527875266531974401" fileName="SimpleGraphGenerator.java" startLine="41" startPosition="37" endLine="42" endPosition="40" />
+    <scopeInfo nodeId="8527875266531974411" fileName="SimpleGraphGenerator.java" startLine="45" startPosition="84" endLine="46" endPosition="18" />
+    <scopeInfo nodeId="8527875266531974436" fileName="SimpleGraphGenerator.java" startLine="47" startPosition="12" endLine="48" endPosition="19" />
+    <scopeInfo nodeId="8527875266531973952" fileName="SimpleGraphGenerator.java" startLine="55" startPosition="56" endLine="56" endPosition="18" />
+    <scopeInfo nodeId="8527875266531974018" fileName="SimpleGraphGenerator.java" startLine="59" startPosition="40" endLine="60" endPosition="26" />
+    <scopeInfo nodeId="8527875266531973873" fileName="SimpleGraphGenerator.java" startLine="16" startPosition="0" endLine="19" endPosition="0">
       <varInfo nodeId="8527875266531973887" varName="maxEdges" />
       <varInfo nodeId="8527875266531973883" varName="minEdges" />
       <varInfo nodeId="8527875266531973879" varName="numNodes" />
     </scopeInfo>
-    <scopeInfo nodeId="8527875266531974459" fileName="SimpleGraphGenerator.java" startLine="31" startPosition="67" endLine="34" endPosition="9" />
-    <scopeInfo nodeId="8527875266531974400" fileName="SimpleGraphGenerator.java" startLine="42" startPosition="0" endLine="45" endPosition="0">
+    <scopeInfo nodeId="8527875266531974459" fileName="SimpleGraphGenerator.java" startLine="30" startPosition="67" endLine="33" endPosition="9" />
+    <scopeInfo nodeId="8527875266531974400" fileName="SimpleGraphGenerator.java" startLine="41" startPosition="0" endLine="44" endPosition="0">
       <varInfo nodeId="8527875266531974400" varName="edge" />
     </scopeInfo>
-    <scopeInfo nodeId="8527875266531974017" fileName="SimpleGraphGenerator.java" startLine="59" startPosition="37" endLine="62" endPosition="5">
+    <scopeInfo nodeId="8527875266531974017" fileName="SimpleGraphGenerator.java" startLine="58" startPosition="37" endLine="61" endPosition="5">
       <varInfo nodeId="8527875266531974020" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="8527875266531974112" fileName="SimpleGraphGenerator.java" startLine="23" startPosition="53" endLine="28" endPosition="7">
+    <scopeInfo nodeId="8527875266531974112" fileName="SimpleGraphGenerator.java" startLine="22" startPosition="53" endLine="27" endPosition="7">
       <varInfo nodeId="8527875266531974269" varName="source" />
       <varInfo nodeId="8527875266531974279" varName="target" />
     </scopeInfo>
-    <scopeInfo nodeId="8527875266531974449" fileName="SimpleGraphGenerator.java" startLine="30" startPosition="65" endLine="35" endPosition="7" />
-    <scopeInfo nodeId="8527875266531974456" fileName="SimpleGraphGenerator.java" startLine="30" startPosition="65" endLine="35" endPosition="7">
+    <scopeInfo nodeId="8527875266531974449" fileName="SimpleGraphGenerator.java" startLine="29" startPosition="65" endLine="34" endPosition="7" />
+    <scopeInfo nodeId="8527875266531974456" fileName="SimpleGraphGenerator.java" startLine="29" startPosition="65" endLine="34" endPosition="7">
       <varInfo nodeId="8527875266531974457" varName="target" />
     </scopeInfo>
-    <scopeInfo nodeId="8527875266531974111" fileName="SimpleGraphGenerator.java" startLine="22" startPosition="44" endLine="29" endPosition="5">
+    <scopeInfo nodeId="8527875266531974111" fileName="SimpleGraphGenerator.java" startLine="21" startPosition="44" endLine="28" endPosition="5">
       <varInfo nodeId="8527875266531974114" varName="iter" />
     </scopeInfo>
-    <scopeInfo nodeId="8527875266531974446" fileName="SimpleGraphGenerator.java" startLine="29" startPosition="5" endLine="36" endPosition="5">
+    <scopeInfo nodeId="8527875266531974446" fileName="SimpleGraphGenerator.java" startLine="28" startPosition="5" endLine="35" endPosition="5">
       <varInfo nodeId="8527875266531974447" varName="source" />
     </scopeInfo>
-    <scopeInfo nodeId="8527875266531973946" fileName="SimpleGraphGenerator.java" startLine="54" startPosition="35" endLine="63" endPosition="33">
+    <scopeInfo nodeId="8527875266531973946" fileName="SimpleGraphGenerator.java" startLine="53" startPosition="35" endLine="62" endPosition="33">
       <varInfo nodeId="8527875266531973989" varName="numNodes" />
     </scopeInfo>
-    <scopeInfo nodeId="8527875266531974380" fileName="SimpleGraphGenerator.java" startLine="40" startPosition="62" endLine="50" endPosition="5">
+    <scopeInfo nodeId="8527875266531974380" fileName="SimpleGraphGenerator.java" startLine="39" startPosition="62" endLine="49" endPosition="5">
       <varInfo nodeId="8527875266531974391" varName="sourceComp" />
     </scopeInfo>
-    <scopeInfo nodeId="8527875266531974377" fileName="SimpleGraphGenerator.java" startLine="40" startPosition="0" endLine="52" endPosition="0">
+    <scopeInfo nodeId="8527875266531974377" fileName="SimpleGraphGenerator.java" startLine="39" startPosition="0" endLine="51" endPosition="0">
       <varInfo nodeId="8527875266531974383" varName="source" />
       <varInfo nodeId="8527875266531974385" varName="target" />
     </scopeInfo>
-    <scopeInfo nodeId="8527875266531973943" fileName="SimpleGraphGenerator.java" startLine="53" startPosition="0" endLine="65" endPosition="0" />
-    <scopeInfo nodeId="8527875266531973896" fileName="SimpleGraphGenerator.java" startLine="22" startPosition="44" endLine="37" endPosition="16" />
-    <scopeInfo nodeId="8527875266531973891" fileName="SimpleGraphGenerator.java" startLine="21" startPosition="0" endLine="39" endPosition="0">
+    <scopeInfo nodeId="8527875266531973943" fileName="SimpleGraphGenerator.java" startLine="52" startPosition="0" endLine="64" endPosition="0" />
+    <scopeInfo nodeId="8527875266531973896" fileName="SimpleGraphGenerator.java" startLine="21" startPosition="44" endLine="36" endPosition="16" />
+    <scopeInfo nodeId="8527875266531973891" fileName="SimpleGraphGenerator.java" startLine="20" startPosition="0" endLine="38" endPosition="0">
       <varInfo nodeId="8527875266531973894" varName="graph" />
     </scopeInfo>
-    <unitInfo nodeId="8527875266531974400" fileName="SimpleGraphGenerator.java" startLine="41" startPosition="80" endLine="45" endPosition="5" unitName="sampleGraphs.SimpleGraphGenerator$1" />
-    <unitInfo nodeId="8527875266531973857" fileName="SimpleGraphGenerator.java" startLine="12" startPosition="0" endLine="66" endPosition="0" unitName="sampleGraphs.SimpleGraphGenerator" />
+    <unitInfo nodeId="8527875266531974400" fileName="SimpleGraphGenerator.java" startLine="40" startPosition="80" endLine="44" endPosition="5" unitName="sampleGraphs.SimpleGraphGenerator$1" />
+    <unitInfo nodeId="8527875266531973857" fileName="SimpleGraphGenerator.java" startLine="12" startPosition="0" endLine="65" endPosition="0" unitName="sampleGraphs.SimpleGraphGenerator" />
   </root>
 </debugInfo>
 

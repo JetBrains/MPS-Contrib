@@ -5,7 +5,6 @@ package jetbrains.mps.build.generictasks.taskfromjar;
 
 public class ImportOptions {
   private static final ImportOptions INSTANCE = new ImportOptions();
-
   private boolean isNeedUpdateAttributes = true;
   private boolean isNeedUpdateDeclarations = true;
 

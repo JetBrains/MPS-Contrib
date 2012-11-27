@@ -37,7 +37,6 @@ import java.util.LinkedHashSet;
 public class UnitTestRunner extends BaseRunner {
   private static final int MAX_COMMAND_LINE = 16384;
   private static Logger LOG = Logger.getLogger(UnitTestRunner.class);
-
   private ProcessBuilder myProcessBuilder;
   private final List<ITestNodeWrapper> myTestable = ListSequence.fromList(new ArrayList<ITestNodeWrapper>());
 
