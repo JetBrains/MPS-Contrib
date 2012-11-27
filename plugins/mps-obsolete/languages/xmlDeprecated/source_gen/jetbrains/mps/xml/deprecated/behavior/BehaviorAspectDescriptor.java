@@ -7,13 +7,11 @@ import java.util.Arrays;
 import jetbrains.mps.smodel.runtime.interpreted.BehaviorAspectInterpreted;
 
 public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor {
-  private static String[] stringSwitchCases_846f5o_a0a0a = new String[]{"jetbrains.mps.xml.deprecated.structure.Attribute", "jetbrains.mps.xml.deprecated.structure.Document", "jetbrains.mps.xml.deprecated.structure.DocumentTypeDeclaration", "jetbrains.mps.xml.deprecated.structure.Element", "jetbrains.mps.xml.deprecated.structure.PublicId", "jetbrains.mps.xml.deprecated.structure.Text"};
-
   public BehaviorAspectDescriptor() {
   }
 
   public BehaviorDescriptor getDescriptor(String fqName) {
-    switch (Arrays.binarySearch(stringSwitchCases_846f5o_a0a0a, fqName)) {
+    switch (Arrays.binarySearch(stringSwitchCases_846f5o_a0a0b, fqName)) {
       case 0:
         return new Attribute_BehaviorDescriptor();
       case 3:
@@ -30,4 +28,6 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return BehaviorAspectInterpreted.getInstance().getDescriptor(fqName);
     }
   }
+
+  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"jetbrains.mps.xml.deprecated.structure.Attribute", "jetbrains.mps.xml.deprecated.structure.Document", "jetbrains.mps.xml.deprecated.structure.DocumentTypeDeclaration", "jetbrains.mps.xml.deprecated.structure.Element", "jetbrains.mps.xml.deprecated.structure.PublicId", "jetbrains.mps.xml.deprecated.structure.Text"};
 }

@@ -34,7 +34,7 @@ public class BuildLanguageGenerator {
   }
 
   public SNode createDeclarationReference(SNode decl) {
-    return _quotation_createNode_moyhg6_a0a2(decl);
+    return _quotation_createNode_moyhg6_a0a4(decl);
   }
 
   public SNode createAttributeDeclaration(String name, SNode type) {
@@ -48,7 +48,7 @@ public class BuildLanguageGenerator {
     return BuildLanguageGenerator.INSTANCE;
   }
 
-  private static SNode _quotation_createNode_moyhg6_a0a2(Object parameter_1) {
+  private static SNode _quotation_createNode_moyhg6_a0a4(Object parameter_1) {
     SNode quotedNode_2 = null;
     quotedNode_2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.build.generictasks.structure.TaskReference", null, null, GlobalScope.getInstance(), false);
     quotedNode_2.setReferenceTarget("declaration", (SNode) parameter_1);

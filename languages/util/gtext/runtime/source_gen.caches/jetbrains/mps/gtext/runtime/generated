@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="6h1mcq5l1d1v687lcmlvtabrpp5xm4a">
-  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-uvseejb8lftjizgrik03igcx568a80" />
+<dependencies version="2" modelHash="b0nf11j18348lrzvjgodgsh5cgikrin">
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="3i4sr9viv2mafxmv1gn7u5798g1tob7" />
   <common hash="69t7512zkych03l4jq3oquuwhvxcqc1" />
-  <source id="7733366827988670914" name="TBaseBuilderContextListener" hash="-b7bzlc9h23lubunewso4mshr2phv7md">
+  <source id="7733366827988670914" name="TBaseBuilderContextListener" hash="-azljm6fxk3cekq8l3oxar860wej4okd">
     <file name="TBaseBuilderContextListener.java" />
   </source>
-  <source id="7733366827988670922" name="TBuffer" hash="-82qk7iwatyyne7kers7vq4wbqe3qsfv">
+  <source id="7733366827988670922" name="TBuffer" hash="-595gkwv4mh5ct5c3n1cttlq14860r5t">
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <file name="TBuffer.java" />
   </source>
-  <source id="7733366827988671037" name="TBaseBuilderContext" hash="19489p8i6cp9sy1erip2vc6ikgn2feg">
+  <source id="7733366827988671037" name="TBaseBuilderContext" hash="-bprdvfjjn04zhas3z3qp53o3dxuk1jt">
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <file name="TBaseBuilderContext.java" />
   </source>
-  <source id="7733366827988671516" name="BaseHtmlStringUtil" hash="bcwapuhfusdnds3yk4wn4apbg66zxwv">
+  <source id="7733366827988671516" name="BaseHtmlStringUtil" hash="-e3dtgfwfgvtob9i8k2z5wzvn6uwxstr">
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <file name="BaseHtmlStringUtil.java" />
   </source>
-  <source id="7733366827988670913" name="TContent" hash="6die2bcjn5o1ayozxy4gpkvn6und2i9">
+  <source id="7733366827988670913" name="TContent" hash="-7651oqaph1g8uw7yhodhgsearhyusjq">
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <file name="TContent.java" />
   </source>

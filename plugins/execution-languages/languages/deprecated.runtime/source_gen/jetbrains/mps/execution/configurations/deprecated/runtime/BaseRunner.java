@@ -186,7 +186,7 @@ public abstract class BaseRunner {
     if (systemJavaHome.endsWith("jre") && new File(systemJdkHome + File.separator + "bin").exists()) {
       ListSequence.fromList(homes).addElement(systemJdkHome);
     }
-    if (isNotEmpty_9hpqdc_a0e0e(System.getenv("JAVA_HOME"))) {
+    if (isNotEmpty_9hpqdc_a0e0y(System.getenv("JAVA_HOME"))) {
       ListSequence.fromList(homes).addElement(System.getenv("JAVA_HOME"));
     }
     ListSequence.fromList(homes).addElement(systemJavaHome);
@@ -203,7 +203,7 @@ public abstract class BaseRunner {
     return ListSequence.fromList(homes).first();
   }
 
-  public static boolean isNotEmpty_9hpqdc_a0e0e(String str) {
+  public static boolean isNotEmpty_9hpqdc_a0e0y(String str) {
     return str != null && str.length() > 0;
   }
 }
