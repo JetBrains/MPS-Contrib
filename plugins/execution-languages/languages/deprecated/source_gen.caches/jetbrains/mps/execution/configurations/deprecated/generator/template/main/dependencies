@@ -5,6 +5,8 @@
     <classNode dependClassName="java.lang.Iterable" />
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.ClassConcept_Behavior" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.Classifier_Behavior" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.textGen.LastStatementUtil" />
     <classNode dependClassName="jetbrains.mps.execution.configurations.deprecated.behavior.JavaRunConfiguration_Behavior" />
     <classNode dependClassName="jetbrains.mps.execution.configurations.deprecated.behavior.Node_FunctionParameter_Behavior" />
@@ -18,6 +20,7 @@
     <classNode dependClassName="jetbrains.mps.generator.template.WeavingMappingRuleContext" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IWhereFilter" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.Sequence" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.AttributeOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.IAttributeDescriptor" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations" />
