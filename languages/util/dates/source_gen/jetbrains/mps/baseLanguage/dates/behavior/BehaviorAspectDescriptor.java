@@ -32,8 +32,6 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return new NowExpression_BehaviorDescriptor();
       case 63:
         return new TokenCondition_BehaviorDescriptor();
-      case 64:
-        return new TokenCondition_datetimeToFormat_BehaviorDescriptor();
       case 19:
         return new DateTimeType_BehaviorDescriptor();
       case 12:
@@ -150,6 +148,8 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return new TimeZoneNameOperation_BehaviorDescriptor();
       case 1:
         return new AllTimeZonesConstant_BehaviorDescriptor();
+      case 64:
+        return new TokenCondition_datetimeToFormat_BehaviorDescriptor();
       default:
         return BehaviorAspectInterpreted.getInstance().getDescriptor(fqName);
     }
