@@ -24,14 +24,19 @@
       <link role="baseNodeConcept" roleId="tp4k.3743831881070611760" targetNodeId="tphr.1202387718766" resolveInfo="ComponentDeclaration" />
     </node>
     <node type="tp4k.EditorTab" typeId="tp4k.3743831881070611759" id="5487985028841950437">
-      <property name="name" nameId="tpck.1169194664001" value="Controller" />
       <property name="commandOnCreate" nameId="tp4k.8204570419206313935" value="true" />
+      <property name="name" nameId="tpck.1169194664001" value="Controller" />
       <link role="baseNodeConcept" roleId="tp4k.3743831881070611760" targetNodeId="tphr.1202387718766" resolveInfo="ComponentDeclaration" />
     </node>
     <node type="tgbt.StandalonePluginDescriptor" typeId="tgbt.7520713872864775836" id="7162597690968001880" />
   </roots>
   <root id="5487985028841950396">
-    <node role="staticMethod" roleId="tpee.1070462273904" type="tpee.StaticMethodDeclaration" typeId="tpee.1081236700938" id="5487985028841950397">
+    <node role="member" roleId="tpee.5375687026011219971" type="tpee.ConstructorDeclaration" typeId="tpee.1068580123140" id="5487985028841950416">
+      <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="5487985028841950417" />
+      <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="5487985028841950418" />
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="5487985028841950419" />
+    </node>
+    <node role="member" roleId="tpee.5375687026011219971" type="tpee.StaticMethodDeclaration" typeId="tpee.1081236700938" id="5487985028841950397">
       <property name="name" nameId="tpck.1169194664001" value="getBaseNode" />
       <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="5487985028841950398">
         <property name="name" nameId="tpck.1169194664001" value="node" />
@@ -71,11 +76,6 @@
           <node role="expression" roleId="tpee.1068581517676" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="5487985028841950415" />
         </node>
       </node>
-    </node>
-    <node role="constructor" roleId="tpee.1068390468201" type="tpee.ConstructorDeclaration" typeId="tpee.1068580123140" id="5487985028841950416">
-      <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="5487985028841950417" />
-      <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="5487985028841950418" />
-      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="5487985028841950419" />
     </node>
   </root>
   <root id="5487985028841950420">
