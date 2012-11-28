@@ -32,7 +32,6 @@ public class OrthogonalPointFlowLayouter implements IPointLayouter {
   private static int SHOW_lOG = 0;
   private static int SHOW_TIME = 0;
   private static int MILLIS = 1000;
-
   private double curTime;
 
   public OrthogonalPointFlowLayouter() {

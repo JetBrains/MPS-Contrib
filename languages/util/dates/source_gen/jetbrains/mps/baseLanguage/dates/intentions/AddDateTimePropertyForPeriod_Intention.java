@@ -12,12 +12,12 @@ import jetbrains.mps.typesystem.inference.TypeChecker;
 import org.jetbrains.mps.openapi.model.SNodeReference;
 import jetbrains.mps.smodel.SNodePointer;
 import java.util.Collections;
-import jetbrains.mps.smodel.SModelUtil_new;
-import jetbrains.mps.project.GlobalScope;
 import jetbrains.mps.smodel.action.SNodeFactoryOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.intentions.IntentionDescriptor;
+import jetbrains.mps.smodel.SModelUtil_new;
+import jetbrains.mps.project.GlobalScope;
 
 public class AddDateTimePropertyForPeriod_Intention implements IntentionFactory {
   private Collection<IntentionExecutable> myCachedExecutable;
@@ -71,12 +71,6 @@ public class AddDateTimePropertyForPeriod_Intention implements IntentionFactory 
     return myCachedExecutable;
   }
 
-  private static SNode _quotation_createNode_e2qrq4_b0a0a0() {
-    SNode quotedNode_1 = null;
-    quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", null, null, GlobalScope.getInstance(), false);
-    return quotedNode_1;
-  }
-
   public class IntentionImplementation implements IntentionExecutable {
     public IntentionImplementation() {
     }
@@ -94,5 +88,11 @@ public class AddDateTimePropertyForPeriod_Intention implements IntentionFactory 
     public IntentionDescriptor getDescriptor() {
       return AddDateTimePropertyForPeriod_Intention.this;
     }
+  }
+
+  private static SNode _quotation_createNode_e2qrq4_b0a0a0() {
+    SNode quotedNode_1 = null;
+    quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", null, null, GlobalScope.getInstance(), false);
+    return quotedNode_1;
   }
 }

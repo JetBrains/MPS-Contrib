@@ -39,7 +39,6 @@ import java.util.Iterator;
 
 public abstract class AbstractOrthogonalFlowLayouter extends BasicLayouter {
   protected static int SHOW_INFO = 0;
-
   private boolean myAvoidLabelCrossings;
   private boolean myUseRepresentationOptimizations;
   protected Set<Edge> myRealEdges;

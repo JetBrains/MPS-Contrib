@@ -13,10 +13,12 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.generator.template.PropertyMacroContext;
 import jetbrains.mps.baseLanguage.datesInternal.behavior.DateTimeZone_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.baseLanguage.dates.behavior.ConditionalFormatToken_Behavior;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.baseLanguage.dates.behavior.ScheduleLiteral_Behavior;
 import jetbrains.mps.generator.template.ReferenceMacroContext;
+import jetbrains.mps.internal.collections.runtime.Sequence;
+import jetbrains.mps.baseLanguage.behavior.ClassConcept_Behavior;
 import jetbrains.mps.baseLanguage.dates.behavior.DateTimeCompareOperation_Behavior;
 import jetbrains.mps.baseLanguage.dates.generator.baseLanguage.template.util.DatesQueriesUtil;
 import jetbrains.mps.baseLanguage.dates.behavior.WithPropertyCompareExpression_Behavior;
@@ -115,16 +117,16 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(_context.getNode(), "value");
   }
 
+  public static Object propertyMacro_GetPropertyValue_1169834230470(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return ConditionalFormatToken_Behavior.call_getClassName_1075917115049868779(_context.getNode());
+  }
+
   public static Object propertyMacro_GetPropertyValue_1169643667099(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return SNodeOperations.getIndexInParent(_context.getNode());
   }
 
   public static Object propertyMacro_GetPropertyValue_2010713081064663770(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "conditionPair", true)).count();
-  }
-
-  public static Object propertyMacro_GetPropertyValue_1169834230470(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return ConditionalFormatToken_Behavior.call_getClassName_1075917115049868779(_context.getNode());
   }
 
   public static Object propertyMacro_GetPropertyValue_1224583026308(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -264,7 +266,7 @@ public class QueriesGenerated {
 
   public static Object referenceMacro_GetReferent_1169648061915(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     SNode cc = _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "ConditionalDateTimePrinterImpl");
-    return ListSequence.fromList(SLinkOperations.getTargets(cc, "constructor", true)).first();
+    return Sequence.fromIterable(ClassConcept_Behavior.call_constructors_5292274854859503373(cc)).first();
   }
 
   public static Object referenceMacro_GetReferent_1172157829950(final IOperationContext operationContext, final ReferenceMacroContext _context) {

@@ -1087,143 +1087,143 @@
     <nodeInfo nodeId="4519409331094618576" fileName="Dfs.java" startLine="15" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="BEFORE" />
     <nodeInfo nodeId="4519409331094618582" fileName="Dfs.java" startLine="16" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="DURING" />
     <nodeInfo nodeId="4519409331094618588" fileName="Dfs.java" startLine="17" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="AFTER" />
-    <nodeInfo nodeId="4660430665333277279" fileName="Dfs.java" startLine="19" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myGraph" />
-    <nodeInfo nodeId="3182425861591366742" fileName="Dfs.java" startLine="20" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myDirection" />
-    <nodeInfo nodeId="4660430665333277292" fileName="Dfs.java" startLine="21" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myDfsState" />
-    <nodeInfo nodeId="3182425861591366745" fileName="Dfs.java" startLine="22" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myEdgeFilter" />
-    <nodeInfo nodeId="1646208389854254837" fileName="Dfs.java" startLine="27" startPosition="34" endLine="28" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3182425861591371984" fileName="Dfs.java" startLine="33" startPosition="40" endLine="34" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1654665216152485570" fileName="Dfs.java" startLine="39" startPosition="134" endLine="40" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4519409331094803431" fileName="Dfs.java" startLine="42" startPosition="74" endLine="43" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4660430665333277376" fileName="Dfs.java" startLine="43" startPosition="29" endLine="44" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5180427534212043091" fileName="Dfs.java" startLine="44" startPosition="24" endLine="45" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3182425861591375288" fileName="Dfs.java" startLine="52" startPosition="40" endLine="53" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1654665216152485544" fileName="Dfs.java" startLine="58" startPosition="133" endLine="59" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3182425861591366782" fileName="Dfs.java" startLine="59" startPosition="20" endLine="60" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1654665216152485548" fileName="Dfs.java" startLine="60" startPosition="30" endLine="61" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1654665216152485555" fileName="Dfs.java" startLine="61" startPosition="45" endLine="62" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1654665216152485564" fileName="Dfs.java" startLine="63" startPosition="65" endLine="64" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4660430665333277383" fileName="Dfs.java" startLine="68" startPosition="44" endLine="69" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4660430665333277427" fileName="Dfs.java" startLine="69" startPosition="54" endLine="70" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4660430665333277443" fileName="Dfs.java" startLine="72" startPosition="25" endLine="73" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4660430665333277473" fileName="Dfs.java" startLine="73" startPosition="32" endLine="74" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4660430665333277484" fileName="Dfs.java" startLine="75" startPosition="78" endLine="76" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4660430665333277488" fileName="Dfs.java" startLine="79" startPosition="5" endLine="80" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4660430665333277394" fileName="Dfs.java" startLine="80" startPosition="28" endLine="81" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4660430665333277458" fileName="Dfs.java" startLine="99" startPosition="46" endLine="100" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6074874003310498464" fileName="Dfs.java" startLine="103" startPosition="27" endLine="104" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4660430665333277273" fileName="Dfs.java" startLine="24" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="Dfs#()V" />
-    <nodeInfo nodeId="4519409331094802661" fileName="Dfs.java" startLine="84" startPosition="0" endLine="86" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="preprocessRoot#(Ljetbrains/mps/graphLayout/graph/Node;)V" />
-    <nodeInfo nodeId="5180427534212043085" fileName="Dfs.java" startLine="87" startPosition="0" endLine="89" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="postprocessRoot#(Ljetbrains/mps/graphLayout/graph/Node;)V" />
-    <nodeInfo nodeId="4660430665333277405" fileName="Dfs.java" startLine="90" startPosition="0" endLine="92" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="preprocess#(Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/graph/Edge;)V" />
-    <nodeInfo nodeId="4660430665333277419" fileName="Dfs.java" startLine="93" startPosition="0" endLine="95" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="processEdge#(Ljetbrains/mps/graphLayout/graph/Edge;Ljetbrains/mps/graphLayout/graph/Node;)V" />
-    <nodeInfo nodeId="4660430665333277412" fileName="Dfs.java" startLine="96" startPosition="0" endLine="98" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="postprocess#(Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/graph/Edge;)V" />
-    <nodeInfo nodeId="1646208389854254821" fileName="Dfs.java" startLine="27" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doDfs#(Ljetbrains/mps/graphLayout/graph/Graph;)V" />
-    <nodeInfo nodeId="3182425861591371980" fileName="Dfs.java" startLine="33" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#(Ljetbrains/mps/graphLayout/graph/Edge;)Ljava/lang/Boolean;" />
-    <nodeInfo nodeId="3182425861591375284" fileName="Dfs.java" startLine="52" startPosition="0" endLine="55" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#(Ljetbrains/mps/graphLayout/graph/Edge;)Ljava/lang/Boolean;" />
-    <nodeInfo nodeId="1654665216152485559" fileName="Dfs.java" startLine="62" startPosition="28" endLine="65" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="4660430665333277448" fileName="Dfs.java" startLine="74" startPosition="45" endLine="77" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="4660430665333277452" fileName="Dfs.java" startLine="99" startPosition="0" endLine="102" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDfsState#()Ljava/util/Map;" />
-    <nodeInfo nodeId="6074874003310498455" fileName="Dfs.java" startLine="103" startPosition="0" endLine="106" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getGraph#()Ljetbrains/mps/graphLayout/graph/Graph;" />
-    <nodeInfo nodeId="3182425861591371974" fileName="Dfs.java" startLine="31" startPosition="60" endLine="36" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4660430665333277359" fileName="Dfs.java" startLine="41" startPosition="65" endLine="46" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="3182425861591375278" fileName="Dfs.java" startLine="50" startPosition="59" endLine="55" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3182425861591366755" fileName="Dfs.java" startLine="31" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doDfs#(Ljetbrains/mps/graphLayout/graph/Graph;Ljetbrains/mps/graphLayout/graph/Edge/Direction;)V" />
-    <nodeInfo nodeId="4660430665333277337" fileName="Dfs.java" startLine="40" startPosition="44" endLine="47" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="3182425861591375269" fileName="Dfs.java" startLine="50" startPosition="0" endLine="57" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="init#(Ljetbrains/mps/graphLayout/graph/Graph;Ljetbrains/mps/graphLayout/graph/Edge/Direction;)V" />
-    <nodeInfo nodeId="1646208389854262407" fileName="Dfs.java" startLine="71" startPosition="93" endLine="78" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1654665216152485538" fileName="Dfs.java" startLine="58" startPosition="0" endLine="67" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="init#(Ljetbrains/mps/graphLayout/graph/Graph;Ljetbrains/mps/graphLayout/graph/Edge/Direction;Ljetbrains/mps/baseLanguage/closures/runtime/_FunctionTypes/_return_P1_E0;)V" />
-    <nodeInfo nodeId="4660430665333277431" fileName="Dfs.java" startLine="70" startPosition="27" endLine="79" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="4660430665333277333" fileName="Dfs.java" startLine="39" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doDfs#(Ljetbrains/mps/graphLayout/graph/Graph;Ljetbrains/mps/graphLayout/graph/Edge/Direction;Ljetbrains/mps/baseLanguage/closures/runtime/_FunctionTypes/_return_P1_E0;)V" />
-    <nodeInfo nodeId="4660430665333277371" fileName="Dfs.java" startLine="68" startPosition="0" endLine="83" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="dfs#(Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/graph/Edge;)V" />
-    <scopeInfo nodeId="4660430665333277276" fileName="Dfs.java" startLine="24" startPosition="16" endLine="24" endPosition="16" />
-    <scopeInfo nodeId="4519409331094802664" fileName="Dfs.java" startLine="84" startPosition="44" endLine="84" endPosition="44" />
-    <scopeInfo nodeId="5180427534212043088" fileName="Dfs.java" startLine="87" startPosition="45" endLine="87" endPosition="45" />
-    <scopeInfo nodeId="4660430665333277408" fileName="Dfs.java" startLine="90" startPosition="51" endLine="90" endPosition="51" />
-    <scopeInfo nodeId="4660430665333277422" fileName="Dfs.java" startLine="93" startPosition="54" endLine="93" endPosition="54" />
-    <scopeInfo nodeId="4660430665333277415" fileName="Dfs.java" startLine="96" startPosition="52" endLine="96" endPosition="52" />
-    <scopeInfo nodeId="1646208389854254824" fileName="Dfs.java" startLine="27" startPosition="34" endLine="28" endPosition="39" />
-    <scopeInfo nodeId="3182425861591371981" fileName="Dfs.java" startLine="33" startPosition="40" endLine="34" endPosition="20" />
-    <scopeInfo nodeId="3182425861591375285" fileName="Dfs.java" startLine="52" startPosition="40" endLine="53" endPosition="20" />
-    <scopeInfo nodeId="1654665216152485563" fileName="Dfs.java" startLine="63" startPosition="65" endLine="64" endPosition="56" />
-    <scopeInfo nodeId="4660430665333277449" fileName="Dfs.java" startLine="75" startPosition="78" endLine="76" endPosition="28" />
-    <scopeInfo nodeId="4660430665333277457" fileName="Dfs.java" startLine="99" startPosition="46" endLine="100" endPosition="27" />
-    <scopeInfo nodeId="6074874003310498458" fileName="Dfs.java" startLine="103" startPosition="27" endLine="104" endPosition="19" />
-    <scopeInfo nodeId="4660430665333277273" fileName="Dfs.java" startLine="24" startPosition="0" endLine="26" endPosition="0" />
-    <scopeInfo nodeId="4519409331094802661" fileName="Dfs.java" startLine="84" startPosition="0" endLine="86" endPosition="0">
+    <nodeInfo nodeId="4660430665333277279" fileName="Dfs.java" startLine="18" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myGraph" />
+    <nodeInfo nodeId="3182425861591366742" fileName="Dfs.java" startLine="19" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myDirection" />
+    <nodeInfo nodeId="4660430665333277292" fileName="Dfs.java" startLine="20" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myDfsState" />
+    <nodeInfo nodeId="3182425861591366745" fileName="Dfs.java" startLine="21" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myEdgeFilter" />
+    <nodeInfo nodeId="1646208389854254837" fileName="Dfs.java" startLine="26" startPosition="34" endLine="27" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3182425861591371984" fileName="Dfs.java" startLine="32" startPosition="40" endLine="33" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1654665216152485570" fileName="Dfs.java" startLine="38" startPosition="134" endLine="39" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4519409331094803431" fileName="Dfs.java" startLine="41" startPosition="74" endLine="42" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4660430665333277376" fileName="Dfs.java" startLine="42" startPosition="29" endLine="43" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5180427534212043091" fileName="Dfs.java" startLine="43" startPosition="24" endLine="44" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3182425861591375288" fileName="Dfs.java" startLine="51" startPosition="40" endLine="52" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1654665216152485544" fileName="Dfs.java" startLine="57" startPosition="133" endLine="58" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3182425861591366782" fileName="Dfs.java" startLine="58" startPosition="20" endLine="59" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1654665216152485548" fileName="Dfs.java" startLine="59" startPosition="30" endLine="60" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1654665216152485555" fileName="Dfs.java" startLine="60" startPosition="45" endLine="61" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1654665216152485564" fileName="Dfs.java" startLine="62" startPosition="65" endLine="63" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4660430665333277383" fileName="Dfs.java" startLine="67" startPosition="44" endLine="68" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4660430665333277427" fileName="Dfs.java" startLine="68" startPosition="54" endLine="69" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4660430665333277443" fileName="Dfs.java" startLine="71" startPosition="25" endLine="72" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4660430665333277473" fileName="Dfs.java" startLine="72" startPosition="32" endLine="73" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4660430665333277484" fileName="Dfs.java" startLine="74" startPosition="78" endLine="75" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4660430665333277488" fileName="Dfs.java" startLine="78" startPosition="5" endLine="79" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4660430665333277394" fileName="Dfs.java" startLine="79" startPosition="28" endLine="80" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4660430665333277458" fileName="Dfs.java" startLine="98" startPosition="46" endLine="99" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6074874003310498464" fileName="Dfs.java" startLine="102" startPosition="27" endLine="103" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4660430665333277273" fileName="Dfs.java" startLine="23" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="Dfs#()V" />
+    <nodeInfo nodeId="4519409331094802661" fileName="Dfs.java" startLine="83" startPosition="0" endLine="85" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="preprocessRoot#(Ljetbrains/mps/graphLayout/graph/Node;)V" />
+    <nodeInfo nodeId="5180427534212043085" fileName="Dfs.java" startLine="86" startPosition="0" endLine="88" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="postprocessRoot#(Ljetbrains/mps/graphLayout/graph/Node;)V" />
+    <nodeInfo nodeId="4660430665333277405" fileName="Dfs.java" startLine="89" startPosition="0" endLine="91" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="preprocess#(Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/graph/Edge;)V" />
+    <nodeInfo nodeId="4660430665333277419" fileName="Dfs.java" startLine="92" startPosition="0" endLine="94" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="processEdge#(Ljetbrains/mps/graphLayout/graph/Edge;Ljetbrains/mps/graphLayout/graph/Node;)V" />
+    <nodeInfo nodeId="4660430665333277412" fileName="Dfs.java" startLine="95" startPosition="0" endLine="97" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="postprocess#(Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/graph/Edge;)V" />
+    <nodeInfo nodeId="1646208389854254821" fileName="Dfs.java" startLine="26" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doDfs#(Ljetbrains/mps/graphLayout/graph/Graph;)V" />
+    <nodeInfo nodeId="3182425861591371980" fileName="Dfs.java" startLine="32" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#(Ljetbrains/mps/graphLayout/graph/Edge;)Ljava/lang/Boolean;" />
+    <nodeInfo nodeId="3182425861591375284" fileName="Dfs.java" startLine="51" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#(Ljetbrains/mps/graphLayout/graph/Edge;)Ljava/lang/Boolean;" />
+    <nodeInfo nodeId="1654665216152485559" fileName="Dfs.java" startLine="61" startPosition="28" endLine="64" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="4660430665333277448" fileName="Dfs.java" startLine="73" startPosition="45" endLine="76" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4660430665333277452" fileName="Dfs.java" startLine="98" startPosition="0" endLine="101" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDfsState#()Ljava/util/Map;" />
+    <nodeInfo nodeId="6074874003310498455" fileName="Dfs.java" startLine="102" startPosition="0" endLine="105" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getGraph#()Ljetbrains/mps/graphLayout/graph/Graph;" />
+    <nodeInfo nodeId="3182425861591371974" fileName="Dfs.java" startLine="30" startPosition="60" endLine="35" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4660430665333277359" fileName="Dfs.java" startLine="40" startPosition="65" endLine="45" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3182425861591375278" fileName="Dfs.java" startLine="49" startPosition="59" endLine="54" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3182425861591366755" fileName="Dfs.java" startLine="30" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doDfs#(Ljetbrains/mps/graphLayout/graph/Graph;Ljetbrains/mps/graphLayout/graph/Edge/Direction;)V" />
+    <nodeInfo nodeId="4660430665333277337" fileName="Dfs.java" startLine="39" startPosition="44" endLine="46" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="3182425861591375269" fileName="Dfs.java" startLine="49" startPosition="0" endLine="56" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="init#(Ljetbrains/mps/graphLayout/graph/Graph;Ljetbrains/mps/graphLayout/graph/Edge/Direction;)V" />
+    <nodeInfo nodeId="1646208389854262407" fileName="Dfs.java" startLine="70" startPosition="93" endLine="77" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1654665216152485538" fileName="Dfs.java" startLine="57" startPosition="0" endLine="66" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="init#(Ljetbrains/mps/graphLayout/graph/Graph;Ljetbrains/mps/graphLayout/graph/Edge/Direction;Ljetbrains/mps/baseLanguage/closures/runtime/_FunctionTypes/_return_P1_E0;)V" />
+    <nodeInfo nodeId="4660430665333277431" fileName="Dfs.java" startLine="69" startPosition="27" endLine="78" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="4660430665333277333" fileName="Dfs.java" startLine="38" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doDfs#(Ljetbrains/mps/graphLayout/graph/Graph;Ljetbrains/mps/graphLayout/graph/Edge/Direction;Ljetbrains/mps/baseLanguage/closures/runtime/_FunctionTypes/_return_P1_E0;)V" />
+    <nodeInfo nodeId="4660430665333277371" fileName="Dfs.java" startLine="67" startPosition="0" endLine="82" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="dfs#(Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/graph/Edge;)V" />
+    <scopeInfo nodeId="4660430665333277276" fileName="Dfs.java" startLine="23" startPosition="16" endLine="23" endPosition="16" />
+    <scopeInfo nodeId="4519409331094802664" fileName="Dfs.java" startLine="83" startPosition="44" endLine="83" endPosition="44" />
+    <scopeInfo nodeId="5180427534212043088" fileName="Dfs.java" startLine="86" startPosition="45" endLine="86" endPosition="45" />
+    <scopeInfo nodeId="4660430665333277408" fileName="Dfs.java" startLine="89" startPosition="51" endLine="89" endPosition="51" />
+    <scopeInfo nodeId="4660430665333277422" fileName="Dfs.java" startLine="92" startPosition="54" endLine="92" endPosition="54" />
+    <scopeInfo nodeId="4660430665333277415" fileName="Dfs.java" startLine="95" startPosition="52" endLine="95" endPosition="52" />
+    <scopeInfo nodeId="1646208389854254824" fileName="Dfs.java" startLine="26" startPosition="34" endLine="27" endPosition="39" />
+    <scopeInfo nodeId="3182425861591371981" fileName="Dfs.java" startLine="32" startPosition="40" endLine="33" endPosition="20" />
+    <scopeInfo nodeId="3182425861591375285" fileName="Dfs.java" startLine="51" startPosition="40" endLine="52" endPosition="20" />
+    <scopeInfo nodeId="1654665216152485563" fileName="Dfs.java" startLine="62" startPosition="65" endLine="63" endPosition="56" />
+    <scopeInfo nodeId="4660430665333277449" fileName="Dfs.java" startLine="74" startPosition="78" endLine="75" endPosition="28" />
+    <scopeInfo nodeId="4660430665333277457" fileName="Dfs.java" startLine="98" startPosition="46" endLine="99" endPosition="27" />
+    <scopeInfo nodeId="6074874003310498458" fileName="Dfs.java" startLine="102" startPosition="27" endLine="103" endPosition="19" />
+    <scopeInfo nodeId="4660430665333277273" fileName="Dfs.java" startLine="23" startPosition="0" endLine="25" endPosition="0" />
+    <scopeInfo nodeId="4519409331094802661" fileName="Dfs.java" startLine="83" startPosition="0" endLine="85" endPosition="0">
       <varInfo nodeId="529057043639072441" varName="root" />
     </scopeInfo>
-    <scopeInfo nodeId="5180427534212043085" fileName="Dfs.java" startLine="87" startPosition="0" endLine="89" endPosition="0">
+    <scopeInfo nodeId="5180427534212043085" fileName="Dfs.java" startLine="86" startPosition="0" endLine="88" endPosition="0">
       <varInfo nodeId="529057043639072443" varName="root" />
     </scopeInfo>
-    <scopeInfo nodeId="4660430665333277405" fileName="Dfs.java" startLine="90" startPosition="0" endLine="92" endPosition="0">
+    <scopeInfo nodeId="4660430665333277405" fileName="Dfs.java" startLine="89" startPosition="0" endLine="91" endPosition="0">
       <varInfo nodeId="2899723422951325023" varName="from" />
       <varInfo nodeId="4660430665333277410" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="4660430665333277419" fileName="Dfs.java" startLine="93" startPosition="0" endLine="95" endPosition="0">
+    <scopeInfo nodeId="4660430665333277419" fileName="Dfs.java" startLine="92" startPosition="0" endLine="94" endPosition="0">
       <varInfo nodeId="4660430665333277424" varName="edge" />
       <varInfo nodeId="1646208389854266726" varName="source" />
     </scopeInfo>
-    <scopeInfo nodeId="4660430665333277412" fileName="Dfs.java" startLine="96" startPosition="0" endLine="98" endPosition="0">
+    <scopeInfo nodeId="4660430665333277412" fileName="Dfs.java" startLine="95" startPosition="0" endLine="97" endPosition="0">
       <varInfo nodeId="2899723422951325028" varName="from" />
       <varInfo nodeId="4660430665333277416" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="1646208389854254821" fileName="Dfs.java" startLine="27" startPosition="0" endLine="30" endPosition="0">
+    <scopeInfo nodeId="1646208389854254821" fileName="Dfs.java" startLine="26" startPosition="0" endLine="29" endPosition="0">
       <varInfo nodeId="1646208389854254835" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="3182425861591371980" fileName="Dfs.java" startLine="33" startPosition="0" endLine="36" endPosition="0">
+    <scopeInfo nodeId="3182425861591371980" fileName="Dfs.java" startLine="32" startPosition="0" endLine="35" endPosition="0">
       <varInfo nodeId="3182425861591371980" varName="edge" />
     </scopeInfo>
-    <scopeInfo nodeId="4660430665333277361" fileName="Dfs.java" startLine="42" startPosition="74" endLine="45" endPosition="30" />
-    <scopeInfo nodeId="3182425861591375284" fileName="Dfs.java" startLine="52" startPosition="0" endLine="55" endPosition="0">
+    <scopeInfo nodeId="4660430665333277361" fileName="Dfs.java" startLine="41" startPosition="74" endLine="44" endPosition="30" />
+    <scopeInfo nodeId="3182425861591375284" fileName="Dfs.java" startLine="51" startPosition="0" endLine="54" endPosition="0">
       <varInfo nodeId="3182425861591375284" varName="edge" />
     </scopeInfo>
-    <scopeInfo nodeId="1654665216152485559" fileName="Dfs.java" startLine="62" startPosition="28" endLine="65" endPosition="5">
+    <scopeInfo nodeId="1654665216152485559" fileName="Dfs.java" startLine="61" startPosition="28" endLine="64" endPosition="5">
       <varInfo nodeId="1654665216152485535" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="4660430665333277452" fileName="Dfs.java" startLine="99" startPosition="0" endLine="102" endPosition="0" />
-    <scopeInfo nodeId="6074874003310498455" fileName="Dfs.java" startLine="103" startPosition="0" endLine="106" endPosition="0" />
-    <scopeInfo nodeId="3182425861591366758" fileName="Dfs.java" startLine="31" startPosition="60" endLine="36" endPosition="7" />
-    <scopeInfo nodeId="4660430665333277340" fileName="Dfs.java" startLine="41" startPosition="65" endLine="46" endPosition="7" />
-    <scopeInfo nodeId="3182425861591375272" fileName="Dfs.java" startLine="50" startPosition="59" endLine="55" endPosition="7" />
-    <scopeInfo nodeId="1646208389854262409" fileName="Dfs.java" startLine="72" startPosition="25" endLine="77" endPosition="9">
+    <scopeInfo nodeId="4660430665333277452" fileName="Dfs.java" startLine="98" startPosition="0" endLine="101" endPosition="0" />
+    <scopeInfo nodeId="6074874003310498455" fileName="Dfs.java" startLine="102" startPosition="0" endLine="105" endPosition="0" />
+    <scopeInfo nodeId="3182425861591366758" fileName="Dfs.java" startLine="30" startPosition="60" endLine="35" endPosition="7" />
+    <scopeInfo nodeId="4660430665333277340" fileName="Dfs.java" startLine="40" startPosition="65" endLine="45" endPosition="7" />
+    <scopeInfo nodeId="3182425861591375272" fileName="Dfs.java" startLine="49" startPosition="59" endLine="54" endPosition="7" />
+    <scopeInfo nodeId="1646208389854262409" fileName="Dfs.java" startLine="71" startPosition="25" endLine="76" endPosition="9">
       <varInfo nodeId="4660430665333277474" varName="target" />
     </scopeInfo>
-    <scopeInfo nodeId="3182425861591366755" fileName="Dfs.java" startLine="31" startPosition="0" endLine="38" endPosition="0">
+    <scopeInfo nodeId="3182425861591366755" fileName="Dfs.java" startLine="30" startPosition="0" endLine="37" endPosition="0">
       <varInfo nodeId="3182425861591366761" varName="direction" />
       <varInfo nodeId="3182425861591366759" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="4660430665333277337" fileName="Dfs.java" startLine="40" startPosition="44" endLine="47" endPosition="5">
+    <scopeInfo nodeId="4660430665333277337" fileName="Dfs.java" startLine="39" startPosition="44" endLine="46" endPosition="5">
       <varInfo nodeId="4660430665333277338" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="3182425861591375269" fileName="Dfs.java" startLine="50" startPosition="0" endLine="57" endPosition="0">
+    <scopeInfo nodeId="3182425861591375269" fileName="Dfs.java" startLine="49" startPosition="0" endLine="56" endPosition="0">
       <varInfo nodeId="3182425861591375275" varName="direction" />
       <varInfo nodeId="3182425861591375273" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="1654665216152485543" fileName="Dfs.java" startLine="58" startPosition="133" endLine="65" endPosition="5" />
-    <scopeInfo nodeId="4660430665333277434" fileName="Dfs.java" startLine="71" startPosition="93" endLine="78" endPosition="7" />
-    <scopeInfo nodeId="4660430665333277336" fileName="Dfs.java" startLine="39" startPosition="134" endLine="47" endPosition="5" />
-    <scopeInfo nodeId="1654665216152485538" fileName="Dfs.java" startLine="58" startPosition="0" endLine="67" endPosition="0">
+    <scopeInfo nodeId="1654665216152485543" fileName="Dfs.java" startLine="57" startPosition="133" endLine="64" endPosition="5" />
+    <scopeInfo nodeId="4660430665333277434" fileName="Dfs.java" startLine="70" startPosition="93" endLine="77" endPosition="7" />
+    <scopeInfo nodeId="4660430665333277336" fileName="Dfs.java" startLine="38" startPosition="134" endLine="46" endPosition="5" />
+    <scopeInfo nodeId="1654665216152485538" fileName="Dfs.java" startLine="57" startPosition="0" endLine="66" endPosition="0">
       <varInfo nodeId="1654665216152485537" varName="direction" />
       <varInfo nodeId="3182425861591366772" varName="edgeFilter" />
       <varInfo nodeId="1654665216152485536" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="4660430665333277431" fileName="Dfs.java" startLine="70" startPosition="27" endLine="79" endPosition="5">
+    <scopeInfo nodeId="4660430665333277431" fileName="Dfs.java" startLine="69" startPosition="27" endLine="78" endPosition="5">
       <varInfo nodeId="4660430665333277432" varName="edge" />
     </scopeInfo>
-    <scopeInfo nodeId="4660430665333277333" fileName="Dfs.java" startLine="39" startPosition="0" endLine="49" endPosition="0">
+    <scopeInfo nodeId="4660430665333277333" fileName="Dfs.java" startLine="38" startPosition="0" endLine="48" endPosition="0">
       <varInfo nodeId="1646208389854254825" varName="direction" />
       <varInfo nodeId="3182425861591366764" varName="edgeFilter" />
       <varInfo nodeId="4660430665333277350" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="4660430665333277374" fileName="Dfs.java" startLine="68" startPosition="44" endLine="81" endPosition="53" />
-    <scopeInfo nodeId="4660430665333277371" fileName="Dfs.java" startLine="68" startPosition="0" endLine="83" endPosition="0">
+    <scopeInfo nodeId="4660430665333277374" fileName="Dfs.java" startLine="67" startPosition="44" endLine="80" endPosition="53" />
+    <scopeInfo nodeId="4660430665333277371" fileName="Dfs.java" startLine="67" startPosition="0" endLine="82" endPosition="0">
       <varInfo nodeId="2899723422951324817" varName="from" />
       <varInfo nodeId="4660430665333277379" varName="node" />
     </scopeInfo>
-    <unitInfo nodeId="3182425861591371980" fileName="Dfs.java" startLine="32" startPosition="32" endLine="36" endPosition="5" unitName="jetbrains.mps.graphLayout.algorithms.Dfs$1" />
-    <unitInfo nodeId="3182425861591375284" fileName="Dfs.java" startLine="51" startPosition="31" endLine="55" endPosition="5" unitName="jetbrains.mps.graphLayout.algorithms.Dfs$2" />
-    <unitInfo nodeId="4660430665333277271" fileName="Dfs.java" startLine="14" startPosition="0" endLine="107" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.Dfs" />
+    <unitInfo nodeId="3182425861591371980" fileName="Dfs.java" startLine="31" startPosition="32" endLine="35" endPosition="5" unitName="jetbrains.mps.graphLayout.algorithms.Dfs$1" />
+    <unitInfo nodeId="3182425861591375284" fileName="Dfs.java" startLine="50" startPosition="31" endLine="54" endPosition="5" unitName="jetbrains.mps.graphLayout.algorithms.Dfs$2" />
+    <unitInfo nodeId="4660430665333277271" fileName="Dfs.java" startLine="14" startPosition="0" endLine="106" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.Dfs" />
   </root>
   <root nodeId="5180427534212042655" modelId="r:5aba4e89-d910-492c-9b56-c5e3fe8c0f28(jetbrains.mps.graphLayout.algorithms)">
     <nodeInfo nodeId="5180427534212042679" fileName="TopologicalSorting.java" startLine="14" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myOrder" />

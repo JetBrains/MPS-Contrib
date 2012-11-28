@@ -11,7 +11,6 @@ import org.xml.sax.SAXParseException;
 
 public class TestParserHandler extends DefaultHandler {
   private static String[] EMPTY_ARRAY = new String[0];
-
   private TestParserHandler.RootElementElementHandler rootElementhandler = new TestParserHandler.RootElementElementHandler();
   private TestParserHandler.ChildElementElementHandler childElementhandler = new TestParserHandler.ChildElementElementHandler();
   private Stack<TestParserHandler.ElementHandler> myHandlersStack = new Stack<TestParserHandler.ElementHandler>();

@@ -18,7 +18,7 @@ public class typeof_Console_IsSubtype_JComponent_SubtypingRule extends Subtyping
   }
 
   public SNode getSubOrSuperType(SNode consoleType, TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
-    return _quotation_createNode_oa5pba_a0a0();
+    return _quotation_createNode_oa5pba_a0a1();
   }
 
   public String getApplicableConceptFQName() {
@@ -36,7 +36,7 @@ public class typeof_Console_IsSubtype_JComponent_SubtypingRule extends Subtyping
     return false;
   }
 
-  private static SNode _quotation_createNode_oa5pba_a0a0() {
+  private static SNode _quotation_createNode_oa5pba_a0a1() {
     SNode quotedNode_1 = null;
     quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", null, null, GlobalScope.getInstance(), false);
     quotedNode_1.setReference("classifier", SReference.create("classifier", quotedNode_1, SModelReference.fromString("f:java_stub#742f6602-5a2f-4313-aa6e-ae1cd4ffdc61#com.intellij.execution.impl(MPS.Platform/com.intellij.execution.impl@java_stub)"), SNodeId.fromString("~ConsoleViewImpl")));

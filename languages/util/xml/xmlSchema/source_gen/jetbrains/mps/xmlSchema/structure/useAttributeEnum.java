@@ -12,22 +12,12 @@ public enum useAttributeEnum {
   required("required", "required");
 
   private String myName;
-  private String myValue;
-
-  useAttributeEnum(String name, String value) {
-    this.myName = name;
-    this.myValue = value;
-  }
 
   public String getName() {
     return this.myName;
   }
 
   public String getValueAsString() {
-    return this.myValue;
-  }
-
-  public String getValue() {
     return this.myValue;
   }
 
@@ -57,5 +47,16 @@ public enum useAttributeEnum {
       return useAttributeEnum.required;
     }
     return useAttributeEnum.getDefault();
+  }
+
+  private String myValue;
+
+  useAttributeEnum(String name, String value) {
+    this.myName = name;
+    this.myValue = value;
+  }
+
+  public String getValue() {
+    return this.myValue;
   }
 }

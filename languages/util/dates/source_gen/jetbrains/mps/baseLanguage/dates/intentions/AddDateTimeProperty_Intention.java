@@ -14,10 +14,10 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import org.jetbrains.mps.openapi.model.SNodeReference;
 import jetbrains.mps.smodel.SNodePointer;
 import java.util.Collections;
-import jetbrains.mps.smodel.SModelUtil_new;
-import jetbrains.mps.project.GlobalScope;
 import jetbrains.mps.smodel.action.SNodeFactoryOperations;
 import jetbrains.mps.intentions.IntentionDescriptor;
+import jetbrains.mps.smodel.SModelUtil_new;
+import jetbrains.mps.project.GlobalScope;
 
 public class AddDateTimeProperty_Intention implements IntentionFactory {
   private Collection<IntentionExecutable> myCachedExecutable;
@@ -71,6 +71,25 @@ public class AddDateTimeProperty_Intention implements IntentionFactory {
     return myCachedExecutable;
   }
 
+  public class IntentionImplementation implements IntentionExecutable {
+    public IntentionImplementation() {
+    }
+
+    public String getDescription(final SNode node, final EditorContext editorContext) {
+      return "Add Datetime Property";
+    }
+
+    public void execute(final SNode node, final EditorContext editorContext) {
+      SNode expression = SNodeFactoryOperations.createNewNode("jetbrains.mps.baseLanguage.dates.structure.WithPropertyCompareExpression", null);
+      SLinkOperations.setTarget(expression, "operation", SNodeOperations.copyNode(node), true);
+      SNodeOperations.replaceWithAnother(node, expression);
+    }
+
+    public IntentionDescriptor getDescriptor() {
+      return AddDateTimeProperty_Intention.this;
+    }
+  }
+
   private static SNode _quotation_createNode_stau8o_b0a0a0a0a0a() {
     SNode quotedNode_1 = null;
     quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", null, null, GlobalScope.getInstance(), false);
@@ -93,24 +112,5 @@ public class AddDateTimeProperty_Intention implements IntentionFactory {
     SNode quotedNode_1 = null;
     quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", null, null, GlobalScope.getInstance(), false);
     return quotedNode_1;
-  }
-
-  public class IntentionImplementation implements IntentionExecutable {
-    public IntentionImplementation() {
-    }
-
-    public String getDescription(final SNode node, final EditorContext editorContext) {
-      return "Add Datetime Property";
-    }
-
-    public void execute(final SNode node, final EditorContext editorContext) {
-      SNode expression = SNodeFactoryOperations.createNewNode("jetbrains.mps.baseLanguage.dates.structure.WithPropertyCompareExpression", null);
-      SLinkOperations.setTarget(expression, "operation", SNodeOperations.copyNode(node), true);
-      SNodeOperations.replaceWithAnother(node, expression);
-    }
-
-    public IntentionDescriptor getDescriptor() {
-      return AddDateTimeProperty_Intention.this;
-    }
   }
 }

@@ -4,43 +4,43 @@
   <unitInfo fileName="StructureAspectDescriptor.java" startLine="10" startPosition="0" endLine="171" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.StructureAspectDescriptor" />
   <root nodeId="1172075151844" modelId="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)">
     <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="17" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myName" />
-    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="18" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myValue" />
-    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="20" startPosition="42" endLine="21" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="21" startPosition="23" endLine="22" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="25" startPosition="27" endLine="26" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="29" startPosition="36" endLine="30" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="33" startPosition="28" endLine="34" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="37" startPosition="50" endLine="38" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="38" startPosition="82" endLine="39" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="39" startPosition="63" endLine="40" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="40" startPosition="67" endLine="41" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="41" startPosition="64" endLine="42" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="42" startPosition="74" endLine="43" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="43" startPosition="61" endLine="44" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="44" startPosition="71" endLine="45" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="48" startPosition="42" endLine="49" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="53" startPosition="24" endLine="54" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="56" startPosition="62" endLine="57" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="59" startPosition="66" endLine="60" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="62" startPosition="63" endLine="63" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="65" startPosition="73" endLine="66" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="68" startPosition="60" endLine="69" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="71" startPosition="70" endLine="72" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="73" startPosition="5" endLine="74" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="25" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getName#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="29" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getValueAsString#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="33" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getValue#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="48" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getDefault#()Ljetbrains/mps/baseLanguage/dates/structure/CompareType;" />
-    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="52" startPosition="54" endLine="55" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="55" startPosition="5" endLine="58" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="58" startPosition="5" endLine="61" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="61" startPosition="5" endLine="64" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="64" startPosition="5" endLine="67" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="67" startPosition="5" endLine="70" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="70" startPosition="5" endLine="73" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="20" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="CompareType#(Ljava/lang/String;Ljava/lang/String;)V" />
-    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="37" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getConstants#()Ljava/util/List;" />
-    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="52" startPosition="0" endLine="76" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="parseValue#(Ljava/lang/String;)Ljetbrains/mps/baseLanguage/dates/structure/CompareType;" />
+    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="19" startPosition="27" endLine="20" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="23" startPosition="36" endLine="24" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="27" startPosition="50" endLine="28" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="28" startPosition="82" endLine="29" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="29" startPosition="63" endLine="30" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="30" startPosition="67" endLine="31" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="31" startPosition="64" endLine="32" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="32" startPosition="74" endLine="33" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="33" startPosition="61" endLine="34" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="34" startPosition="71" endLine="35" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="38" startPosition="42" endLine="39" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="43" startPosition="24" endLine="44" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="46" startPosition="62" endLine="47" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="49" startPosition="66" endLine="50" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="52" startPosition="63" endLine="53" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="55" startPosition="73" endLine="56" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="58" startPosition="60" endLine="59" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="61" startPosition="70" endLine="62" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="63" startPosition="5" endLine="64" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="67" startPosition="0" endLine="68" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myValue" />
+    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="69" startPosition="42" endLine="70" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="70" startPosition="23" endLine="71" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="74" startPosition="28" endLine="75" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="19" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="23" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getValueAsString#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="38" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getDefault#()Ljetbrains/mps/baseLanguage/dates/structure/CompareType;" />
+    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="42" startPosition="54" endLine="45" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="45" startPosition="5" endLine="48" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="48" startPosition="5" endLine="51" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="51" startPosition="5" endLine="54" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="54" startPosition="5" endLine="57" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="57" startPosition="5" endLine="60" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="60" startPosition="5" endLine="63" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="74" startPosition="0" endLine="77" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getValue#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="69" startPosition="0" endLine="73" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="CompareType#(Ljava/lang/String;Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="27" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getConstants#()Ljava/util/List;" />
+    <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="42" startPosition="0" endLine="66" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="parseValue#(Ljava/lang/String;)Ljetbrains/mps/baseLanguage/dates/structure/CompareType;" />
     <nodeInfo nodeId="1172075151844" fileName="CompareType_PropertySupport.java" startLine="11" startPosition="24" endLine="12" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1172075151844" fileName="CompareType_PropertySupport.java" startLine="13" startPosition="5" endLine="14" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1172075151844" fileName="CompareType_PropertySupport.java" startLine="15" startPosition="33" endLine="16" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -64,32 +64,32 @@
     <nodeInfo nodeId="1172075151844" fileName="CompareType_PropertySupport.java" startLine="38" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="fromInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
     <nodeInfo nodeId="1172075151844" fileName="CompareType_PropertySupport.java" startLine="10" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="canSetValue#(Ljava/lang/String;)Z" />
     <nodeInfo nodeId="1172075151844" fileName="CompareType_PropertySupport.java" startLine="24" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
-    <scopeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="25" startPosition="27" endLine="26" endPosition="23" />
-    <scopeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="29" startPosition="36" endLine="30" endPosition="24" />
-    <scopeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="33" startPosition="28" endLine="34" endPosition="24" />
-    <scopeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="48" startPosition="42" endLine="49" endPosition="30" />
-    <scopeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="53" startPosition="24" endLine="54" endPosition="38" />
-    <scopeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="56" startPosition="62" endLine="57" endPosition="32" />
-    <scopeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="59" startPosition="66" endLine="60" endPosition="36" />
-    <scopeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="62" startPosition="63" endLine="63" endPosition="33" />
-    <scopeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="65" startPosition="73" endLine="66" endPosition="43" />
-    <scopeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="68" startPosition="60" endLine="69" endPosition="30" />
-    <scopeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="71" startPosition="70" endLine="72" endPosition="40" />
-    <scopeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="20" startPosition="42" endLine="22" endPosition="25" />
-    <scopeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="25" startPosition="0" endLine="28" endPosition="0" />
-    <scopeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="29" startPosition="0" endLine="32" endPosition="0" />
-    <scopeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="33" startPosition="0" endLine="36" endPosition="0" />
-    <scopeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="48" startPosition="0" endLine="51" endPosition="0" />
-    <scopeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="20" startPosition="0" endLine="24" endPosition="0">
+    <scopeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="19" startPosition="27" endLine="20" endPosition="23" />
+    <scopeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="23" startPosition="36" endLine="24" endPosition="24" />
+    <scopeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="38" startPosition="42" endLine="39" endPosition="30" />
+    <scopeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="43" startPosition="24" endLine="44" endPosition="38" />
+    <scopeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="46" startPosition="62" endLine="47" endPosition="32" />
+    <scopeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="49" startPosition="66" endLine="50" endPosition="36" />
+    <scopeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="52" startPosition="63" endLine="53" endPosition="33" />
+    <scopeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="55" startPosition="73" endLine="56" endPosition="43" />
+    <scopeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="58" startPosition="60" endLine="59" endPosition="30" />
+    <scopeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="61" startPosition="70" endLine="62" endPosition="40" />
+    <scopeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="74" startPosition="28" endLine="75" endPosition="24" />
+    <scopeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="69" startPosition="42" endLine="71" endPosition="25" />
+    <scopeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="19" startPosition="0" endLine="22" endPosition="0" />
+    <scopeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="23" startPosition="0" endLine="26" endPosition="0" />
+    <scopeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="38" startPosition="0" endLine="41" endPosition="0" />
+    <scopeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="74" startPosition="0" endLine="77" endPosition="0" />
+    <scopeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="69" startPosition="0" endLine="73" endPosition="0">
       <varInfo nodeId="1172075151844" varName="name" />
       <varInfo nodeId="1172075151844" varName="value" />
     </scopeInfo>
-    <scopeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="37" startPosition="50" endLine="45" endPosition="16">
+    <scopeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="27" startPosition="50" endLine="35" endPosition="16">
       <varInfo nodeId="1172075151844" varName="list" />
     </scopeInfo>
-    <scopeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="37" startPosition="0" endLine="47" endPosition="0" />
-    <scopeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="52" startPosition="54" endLine="74" endPosition="36" />
-    <scopeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="52" startPosition="0" endLine="76" endPosition="0">
+    <scopeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="27" startPosition="0" endLine="37" endPosition="0" />
+    <scopeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="42" startPosition="54" endLine="64" endPosition="36" />
+    <scopeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="42" startPosition="0" endLine="66" endPosition="0">
       <varInfo nodeId="1172075151844" varName="value" />
     </scopeInfo>
     <scopeInfo nodeId="1172075151844" fileName="CompareType_PropertySupport.java" startLine="11" startPosition="24" endLine="12" endPosition="18" />
@@ -121,36 +121,36 @@
     <scopeInfo nodeId="1172075151844" fileName="CompareType_PropertySupport.java" startLine="24" startPosition="0" endLine="37" endPosition="0">
       <varInfo nodeId="1172075151844" varName="value" />
     </scopeInfo>
-    <unitInfo nodeId="1172075151844" fileName="CompareType.java" startLine="9" startPosition="0" endLine="77" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.CompareType" />
+    <unitInfo nodeId="1172075151844" fileName="CompareType.java" startLine="9" startPosition="0" endLine="78" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.CompareType" />
     <unitInfo nodeId="1172075151844" fileName="CompareType_PropertySupport.java" startLine="9" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.CompareType_PropertySupport" />
   </root>
   <root nodeId="1173975646059" modelId="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)">
     <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="13" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myName" />
-    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="14" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myValue" />
-    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="16" startPosition="51" endLine="17" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="17" startPosition="23" endLine="18" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="21" startPosition="27" endLine="22" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="25" startPosition="36" endLine="26" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="29" startPosition="28" endLine="30" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="33" startPosition="59" endLine="34" endPosition="100" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="34" startPosition="100" endLine="35" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="35" startPosition="72" endLine="36" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="36" startPosition="73" endLine="37" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="40" startPosition="51" endLine="41" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="45" startPosition="24" endLine="46" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="48" startPosition="71" endLine="49" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="51" startPosition="72" endLine="52" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="53" startPosition="5" endLine="54" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="21" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getName#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="25" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getValueAsString#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="29" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getValue#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="40" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getDefault#()Ljetbrains/mps/baseLanguage/dates/structure/DateFormatVisibility;" />
-    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="44" startPosition="63" endLine="47" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="47" startPosition="5" endLine="50" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="50" startPosition="5" endLine="53" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="16" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="DateFormatVisibility#(Ljava/lang/String;Ljava/lang/String;)V" />
-    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="33" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getConstants#()Ljava/util/List;" />
-    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="44" startPosition="0" endLine="56" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="parseValue#(Ljava/lang/String;)Ljetbrains/mps/baseLanguage/dates/structure/DateFormatVisibility;" />
+    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="15" startPosition="27" endLine="16" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="19" startPosition="36" endLine="20" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="23" startPosition="59" endLine="24" endPosition="100" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="24" startPosition="100" endLine="25" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="25" startPosition="72" endLine="26" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="26" startPosition="73" endLine="27" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="30" startPosition="51" endLine="31" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="35" startPosition="24" endLine="36" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="38" startPosition="71" endLine="39" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="41" startPosition="72" endLine="42" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="43" startPosition="5" endLine="44" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="47" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myValue" />
+    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="49" startPosition="51" endLine="50" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="50" startPosition="23" endLine="51" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="54" startPosition="28" endLine="55" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="15" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="19" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getValueAsString#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="30" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getDefault#()Ljetbrains/mps/baseLanguage/dates/structure/DateFormatVisibility;" />
+    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="34" startPosition="63" endLine="37" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="37" startPosition="5" endLine="40" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="40" startPosition="5" endLine="43" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="54" startPosition="0" endLine="57" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getValue#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="49" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="DateFormatVisibility#(Ljava/lang/String;Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="23" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getConstants#()Ljava/util/List;" />
+    <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="34" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="parseValue#(Ljava/lang/String;)Ljetbrains/mps/baseLanguage/dates/structure/DateFormatVisibility;" />
     <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility_PropertySupport.java" startLine="11" startPosition="24" endLine="12" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility_PropertySupport.java" startLine="13" startPosition="5" endLine="14" endPosition="117" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility_PropertySupport.java" startLine="15" startPosition="33" endLine="16" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -174,28 +174,28 @@
     <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility_PropertySupport.java" startLine="38" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="fromInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
     <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility_PropertySupport.java" startLine="10" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="canSetValue#(Ljava/lang/String;)Z" />
     <nodeInfo nodeId="1173975646059" fileName="DateFormatVisibility_PropertySupport.java" startLine="24" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
-    <scopeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="21" startPosition="27" endLine="22" endPosition="23" />
-    <scopeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="25" startPosition="36" endLine="26" endPosition="24" />
-    <scopeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="29" startPosition="28" endLine="30" endPosition="24" />
-    <scopeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="40" startPosition="51" endLine="41" endPosition="39" />
-    <scopeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="45" startPosition="24" endLine="46" endPosition="47" />
-    <scopeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="48" startPosition="71" endLine="49" endPosition="41" />
-    <scopeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="51" startPosition="72" endLine="52" endPosition="42" />
-    <scopeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="16" startPosition="51" endLine="18" endPosition="25" />
-    <scopeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="21" startPosition="0" endLine="24" endPosition="0" />
-    <scopeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="25" startPosition="0" endLine="28" endPosition="0" />
-    <scopeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="29" startPosition="0" endLine="32" endPosition="0" />
-    <scopeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="40" startPosition="0" endLine="43" endPosition="0" />
-    <scopeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="16" startPosition="0" endLine="20" endPosition="0">
+    <scopeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="15" startPosition="27" endLine="16" endPosition="23" />
+    <scopeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="19" startPosition="36" endLine="20" endPosition="24" />
+    <scopeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="30" startPosition="51" endLine="31" endPosition="39" />
+    <scopeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="35" startPosition="24" endLine="36" endPosition="47" />
+    <scopeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="38" startPosition="71" endLine="39" endPosition="41" />
+    <scopeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="41" startPosition="72" endLine="42" endPosition="42" />
+    <scopeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="54" startPosition="28" endLine="55" endPosition="24" />
+    <scopeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="49" startPosition="51" endLine="51" endPosition="25" />
+    <scopeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="15" startPosition="0" endLine="18" endPosition="0" />
+    <scopeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="19" startPosition="0" endLine="22" endPosition="0" />
+    <scopeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="30" startPosition="0" endLine="33" endPosition="0" />
+    <scopeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="54" startPosition="0" endLine="57" endPosition="0" />
+    <scopeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="23" startPosition="59" endLine="27" endPosition="16">
+      <varInfo nodeId="1173975646059" varName="list" />
+    </scopeInfo>
+    <scopeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="49" startPosition="0" endLine="53" endPosition="0">
       <varInfo nodeId="1173975646059" varName="name" />
       <varInfo nodeId="1173975646059" varName="value" />
     </scopeInfo>
-    <scopeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="33" startPosition="59" endLine="37" endPosition="16">
-      <varInfo nodeId="1173975646059" varName="list" />
-    </scopeInfo>
-    <scopeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="33" startPosition="0" endLine="39" endPosition="0" />
-    <scopeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="44" startPosition="63" endLine="54" endPosition="45" />
-    <scopeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="44" startPosition="0" endLine="56" endPosition="0">
+    <scopeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="23" startPosition="0" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="34" startPosition="63" endLine="44" endPosition="45" />
+    <scopeInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="34" startPosition="0" endLine="46" endPosition="0">
       <varInfo nodeId="1173975646059" varName="value" />
     </scopeInfo>
     <scopeInfo nodeId="1173975646059" fileName="DateFormatVisibility_PropertySupport.java" startLine="11" startPosition="24" endLine="12" endPosition="18" />
@@ -227,7 +227,7 @@
     <scopeInfo nodeId="1173975646059" fileName="DateFormatVisibility_PropertySupport.java" startLine="24" startPosition="0" endLine="37" endPosition="0">
       <varInfo nodeId="1173975646059" varName="value" />
     </scopeInfo>
-    <unitInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="9" startPosition="0" endLine="57" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.DateFormatVisibility" />
+    <unitInfo nodeId="1173975646059" fileName="DateFormatVisibility.java" startLine="9" startPosition="0" endLine="58" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.DateFormatVisibility" />
     <unitInfo nodeId="1173975646059" fileName="DateFormatVisibility_PropertySupport.java" startLine="9" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.DateFormatVisibility_PropertySupport" />
   </root>
   <root nodeId="1194004752522" modelId="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)">
@@ -268,46 +268,46 @@
   </root>
   <root nodeId="1194005227362" modelId="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)">
     <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="18" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myName" />
-    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="19" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myValue" />
-    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="21" startPosition="40" endLine="22" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="22" startPosition="23" endLine="23" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="26" startPosition="27" endLine="27" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="30" startPosition="36" endLine="31" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="34" startPosition="28" endLine="35" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="38" startPosition="48" endLine="39" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="39" startPosition="78" endLine="40" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="40" startPosition="61" endLine="41" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="41" startPosition="61" endLine="42" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="42" startPosition="62" endLine="43" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="43" startPosition="63" endLine="44" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="44" startPosition="64" endLine="45" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="45" startPosition="61" endLine="46" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="46" startPosition="63" endLine="47" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="50" startPosition="40" endLine="51" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="55" startPosition="24" endLine="56" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="58" startPosition="60" endLine="59" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="61" startPosition="60" endLine="62" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="64" startPosition="61" endLine="65" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="67" startPosition="62" endLine="68" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="70" startPosition="63" endLine="71" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="73" startPosition="60" endLine="74" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="76" startPosition="62" endLine="77" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="78" startPosition="5" endLine="79" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="26" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getName#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="30" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getValueAsString#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="34" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getValue#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="50" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getDefault#()Ljetbrains/mps/baseLanguage/dates/structure/DayOfWeek;" />
-    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="54" startPosition="52" endLine="57" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="57" startPosition="5" endLine="60" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="60" startPosition="5" endLine="63" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="63" startPosition="5" endLine="66" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="66" startPosition="5" endLine="69" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="69" startPosition="5" endLine="72" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="72" startPosition="5" endLine="75" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="75" startPosition="5" endLine="78" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="21" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="DayOfWeek#(Ljava/lang/String;Ljava/lang/String;)V" />
-    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="38" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getConstants#()Ljava/util/List;" />
-    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="54" startPosition="0" endLine="81" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="parseValue#(Ljava/lang/String;)Ljetbrains/mps/baseLanguage/dates/structure/DayOfWeek;" />
+    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="20" startPosition="27" endLine="21" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="24" startPosition="36" endLine="25" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="28" startPosition="48" endLine="29" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="29" startPosition="78" endLine="30" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="30" startPosition="61" endLine="31" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="31" startPosition="61" endLine="32" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="32" startPosition="62" endLine="33" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="33" startPosition="63" endLine="34" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="34" startPosition="64" endLine="35" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="35" startPosition="61" endLine="36" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="36" startPosition="63" endLine="37" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="40" startPosition="40" endLine="41" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="45" startPosition="24" endLine="46" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="48" startPosition="60" endLine="49" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="51" startPosition="60" endLine="52" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="54" startPosition="61" endLine="55" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="57" startPosition="62" endLine="58" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="60" startPosition="63" endLine="61" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="63" startPosition="60" endLine="64" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="66" startPosition="62" endLine="67" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="68" startPosition="5" endLine="69" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="72" startPosition="0" endLine="73" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myValue" />
+    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="74" startPosition="40" endLine="75" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="75" startPosition="23" endLine="76" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="79" startPosition="28" endLine="80" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="20" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="24" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getValueAsString#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="40" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getDefault#()Ljetbrains/mps/baseLanguage/dates/structure/DayOfWeek;" />
+    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="44" startPosition="52" endLine="47" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="47" startPosition="5" endLine="50" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="50" startPosition="5" endLine="53" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="53" startPosition="5" endLine="56" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="56" startPosition="5" endLine="59" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="59" startPosition="5" endLine="62" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="62" startPosition="5" endLine="65" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="65" startPosition="5" endLine="68" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="79" startPosition="0" endLine="82" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getValue#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="74" startPosition="0" endLine="78" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="DayOfWeek#(Ljava/lang/String;Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="28" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getConstants#()Ljava/util/List;" />
+    <nodeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="44" startPosition="0" endLine="71" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="parseValue#(Ljava/lang/String;)Ljetbrains/mps/baseLanguage/dates/structure/DayOfWeek;" />
     <nodeInfo nodeId="1194005227362" fileName="DayOfWeek_PropertySupport.java" startLine="11" startPosition="24" endLine="12" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1194005227362" fileName="DayOfWeek_PropertySupport.java" startLine="13" startPosition="5" endLine="14" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1194005227362" fileName="DayOfWeek_PropertySupport.java" startLine="15" startPosition="33" endLine="16" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -331,33 +331,33 @@
     <nodeInfo nodeId="1194005227362" fileName="DayOfWeek_PropertySupport.java" startLine="38" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="fromInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
     <nodeInfo nodeId="1194005227362" fileName="DayOfWeek_PropertySupport.java" startLine="10" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="canSetValue#(Ljava/lang/String;)Z" />
     <nodeInfo nodeId="1194005227362" fileName="DayOfWeek_PropertySupport.java" startLine="24" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
-    <scopeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="26" startPosition="27" endLine="27" endPosition="23" />
-    <scopeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="30" startPosition="36" endLine="31" endPosition="24" />
-    <scopeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="34" startPosition="28" endLine="35" endPosition="24" />
-    <scopeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="50" startPosition="40" endLine="51" endPosition="28" />
-    <scopeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="55" startPosition="24" endLine="56" endPosition="36" />
-    <scopeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="58" startPosition="60" endLine="59" endPosition="30" />
-    <scopeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="61" startPosition="60" endLine="62" endPosition="30" />
-    <scopeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="64" startPosition="61" endLine="65" endPosition="31" />
-    <scopeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="67" startPosition="62" endLine="68" endPosition="32" />
-    <scopeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="70" startPosition="63" endLine="71" endPosition="33" />
-    <scopeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="73" startPosition="60" endLine="74" endPosition="30" />
-    <scopeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="76" startPosition="62" endLine="77" endPosition="32" />
-    <scopeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="21" startPosition="40" endLine="23" endPosition="25" />
-    <scopeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="26" startPosition="0" endLine="29" endPosition="0" />
-    <scopeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="30" startPosition="0" endLine="33" endPosition="0" />
-    <scopeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="34" startPosition="0" endLine="37" endPosition="0" />
-    <scopeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="50" startPosition="0" endLine="53" endPosition="0" />
-    <scopeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="21" startPosition="0" endLine="25" endPosition="0">
+    <scopeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="20" startPosition="27" endLine="21" endPosition="23" />
+    <scopeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="24" startPosition="36" endLine="25" endPosition="24" />
+    <scopeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="40" startPosition="40" endLine="41" endPosition="28" />
+    <scopeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="45" startPosition="24" endLine="46" endPosition="36" />
+    <scopeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="48" startPosition="60" endLine="49" endPosition="30" />
+    <scopeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="51" startPosition="60" endLine="52" endPosition="30" />
+    <scopeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="54" startPosition="61" endLine="55" endPosition="31" />
+    <scopeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="57" startPosition="62" endLine="58" endPosition="32" />
+    <scopeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="60" startPosition="63" endLine="61" endPosition="33" />
+    <scopeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="63" startPosition="60" endLine="64" endPosition="30" />
+    <scopeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="66" startPosition="62" endLine="67" endPosition="32" />
+    <scopeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="79" startPosition="28" endLine="80" endPosition="24" />
+    <scopeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="74" startPosition="40" endLine="76" endPosition="25" />
+    <scopeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="20" startPosition="0" endLine="23" endPosition="0" />
+    <scopeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="24" startPosition="0" endLine="27" endPosition="0" />
+    <scopeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="40" startPosition="0" endLine="43" endPosition="0" />
+    <scopeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="79" startPosition="0" endLine="82" endPosition="0" />
+    <scopeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="74" startPosition="0" endLine="78" endPosition="0">
       <varInfo nodeId="1194005227362" varName="name" />
       <varInfo nodeId="1194005227362" varName="value" />
     </scopeInfo>
-    <scopeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="38" startPosition="48" endLine="47" endPosition="16">
+    <scopeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="28" startPosition="48" endLine="37" endPosition="16">
       <varInfo nodeId="1194005227362" varName="list" />
     </scopeInfo>
-    <scopeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="38" startPosition="0" endLine="49" endPosition="0" />
-    <scopeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="54" startPosition="52" endLine="79" endPosition="34" />
-    <scopeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="54" startPosition="0" endLine="81" endPosition="0">
+    <scopeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="28" startPosition="0" endLine="39" endPosition="0" />
+    <scopeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="44" startPosition="52" endLine="69" endPosition="34" />
+    <scopeInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="44" startPosition="0" endLine="71" endPosition="0">
       <varInfo nodeId="1194005227362" varName="value" />
     </scopeInfo>
     <scopeInfo nodeId="1194005227362" fileName="DayOfWeek_PropertySupport.java" startLine="11" startPosition="24" endLine="12" endPosition="18" />
@@ -389,7 +389,7 @@
     <scopeInfo nodeId="1194005227362" fileName="DayOfWeek_PropertySupport.java" startLine="24" startPosition="0" endLine="37" endPosition="0">
       <varInfo nodeId="1194005227362" varName="value" />
     </scopeInfo>
-    <unitInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="9" startPosition="0" endLine="82" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.DayOfWeek" />
+    <unitInfo nodeId="1194005227362" fileName="DayOfWeek.java" startLine="9" startPosition="0" endLine="83" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.DayOfWeek" />
     <unitInfo nodeId="1194005227362" fileName="DayOfWeek_PropertySupport.java" startLine="9" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.DayOfWeek_PropertySupport" />
   </root>
   <root nodeId="1194005562740" modelId="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)">
@@ -412,40 +412,40 @@
   </root>
   <root nodeId="1778677549314158595" modelId="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)">
     <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="16" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myName" />
-    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="17" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myValue" />
-    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="19" startPosition="53" endLine="20" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="20" startPosition="23" endLine="21" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="24" startPosition="27" endLine="25" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="28" startPosition="36" endLine="29" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="32" startPosition="28" endLine="33" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="36" startPosition="61" endLine="37" endPosition="104" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="37" startPosition="104" endLine="38" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="38" startPosition="74" endLine="39" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="39" startPosition="79" endLine="40" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="40" startPosition="73" endLine="41" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="41" startPosition="80" endLine="42" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="42" startPosition="79" endLine="43" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="46" startPosition="53" endLine="47" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="51" startPosition="24" endLine="52" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="54" startPosition="73" endLine="55" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="57" startPosition="78" endLine="58" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="60" startPosition="72" endLine="61" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="63" startPosition="79" endLine="64" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="66" startPosition="78" endLine="67" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="68" startPosition="5" endLine="69" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="24" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getName#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="28" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getValueAsString#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="32" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getValue#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="46" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getDefault#()Ljetbrains/mps/baseLanguage/dates/structure/PeriodZeroHandlingKind;" />
-    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="50" startPosition="65" endLine="53" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="53" startPosition="5" endLine="56" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="56" startPosition="5" endLine="59" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="59" startPosition="5" endLine="62" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="62" startPosition="5" endLine="65" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="65" startPosition="5" endLine="68" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="19" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="PeriodZeroHandlingKind#(Ljava/lang/String;Ljava/lang/String;)V" />
-    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="36" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getConstants#()Ljava/util/List;" />
-    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="50" startPosition="0" endLine="71" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="parseValue#(Ljava/lang/String;)Ljetbrains/mps/baseLanguage/dates/structure/PeriodZeroHandlingKind;" />
+    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="18" startPosition="27" endLine="19" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="22" startPosition="36" endLine="23" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="26" startPosition="61" endLine="27" endPosition="104" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="27" startPosition="104" endLine="28" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="28" startPosition="74" endLine="29" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="29" startPosition="79" endLine="30" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="30" startPosition="73" endLine="31" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="31" startPosition="80" endLine="32" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="32" startPosition="79" endLine="33" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="36" startPosition="53" endLine="37" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="41" startPosition="24" endLine="42" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="44" startPosition="73" endLine="45" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="47" startPosition="78" endLine="48" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="50" startPosition="72" endLine="51" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="53" startPosition="79" endLine="54" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="56" startPosition="78" endLine="57" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="58" startPosition="5" endLine="59" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="62" startPosition="0" endLine="63" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myValue" />
+    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="64" startPosition="53" endLine="65" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="65" startPosition="23" endLine="66" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="69" startPosition="28" endLine="70" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="18" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="22" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getValueAsString#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="36" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getDefault#()Ljetbrains/mps/baseLanguage/dates/structure/PeriodZeroHandlingKind;" />
+    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="40" startPosition="65" endLine="43" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="43" startPosition="5" endLine="46" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="46" startPosition="5" endLine="49" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="49" startPosition="5" endLine="52" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="52" startPosition="5" endLine="55" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="55" startPosition="5" endLine="58" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="69" startPosition="0" endLine="72" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getValue#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="64" startPosition="0" endLine="68" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="PeriodZeroHandlingKind#(Ljava/lang/String;Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="26" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getConstants#()Ljava/util/List;" />
+    <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="40" startPosition="0" endLine="61" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="parseValue#(Ljava/lang/String;)Ljetbrains/mps/baseLanguage/dates/structure/PeriodZeroHandlingKind;" />
     <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind_PropertySupport.java" startLine="11" startPosition="24" endLine="12" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind_PropertySupport.java" startLine="13" startPosition="5" endLine="14" endPosition="121" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind_PropertySupport.java" startLine="15" startPosition="33" endLine="16" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -469,31 +469,31 @@
     <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind_PropertySupport.java" startLine="38" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="fromInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
     <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind_PropertySupport.java" startLine="10" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="canSetValue#(Ljava/lang/String;)Z" />
     <nodeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind_PropertySupport.java" startLine="24" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
-    <scopeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="24" startPosition="27" endLine="25" endPosition="23" />
-    <scopeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="28" startPosition="36" endLine="29" endPosition="24" />
-    <scopeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="32" startPosition="28" endLine="33" endPosition="24" />
-    <scopeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="46" startPosition="53" endLine="47" endPosition="40" />
-    <scopeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="51" startPosition="24" endLine="52" endPosition="49" />
-    <scopeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="54" startPosition="73" endLine="55" endPosition="43" />
-    <scopeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="57" startPosition="78" endLine="58" endPosition="48" />
-    <scopeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="60" startPosition="72" endLine="61" endPosition="42" />
-    <scopeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="63" startPosition="79" endLine="64" endPosition="49" />
-    <scopeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="66" startPosition="78" endLine="67" endPosition="48" />
-    <scopeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="19" startPosition="53" endLine="21" endPosition="25" />
-    <scopeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="24" startPosition="0" endLine="27" endPosition="0" />
-    <scopeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="28" startPosition="0" endLine="31" endPosition="0" />
-    <scopeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="32" startPosition="0" endLine="35" endPosition="0" />
-    <scopeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="46" startPosition="0" endLine="49" endPosition="0" />
-    <scopeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="19" startPosition="0" endLine="23" endPosition="0">
+    <scopeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="18" startPosition="27" endLine="19" endPosition="23" />
+    <scopeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="22" startPosition="36" endLine="23" endPosition="24" />
+    <scopeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="36" startPosition="53" endLine="37" endPosition="40" />
+    <scopeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="41" startPosition="24" endLine="42" endPosition="49" />
+    <scopeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="44" startPosition="73" endLine="45" endPosition="43" />
+    <scopeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="47" startPosition="78" endLine="48" endPosition="48" />
+    <scopeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="50" startPosition="72" endLine="51" endPosition="42" />
+    <scopeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="53" startPosition="79" endLine="54" endPosition="49" />
+    <scopeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="56" startPosition="78" endLine="57" endPosition="48" />
+    <scopeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="69" startPosition="28" endLine="70" endPosition="24" />
+    <scopeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="64" startPosition="53" endLine="66" endPosition="25" />
+    <scopeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="18" startPosition="0" endLine="21" endPosition="0" />
+    <scopeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="22" startPosition="0" endLine="25" endPosition="0" />
+    <scopeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="36" startPosition="0" endLine="39" endPosition="0" />
+    <scopeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="69" startPosition="0" endLine="72" endPosition="0" />
+    <scopeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="64" startPosition="0" endLine="68" endPosition="0">
       <varInfo nodeId="1778677549314158595" varName="name" />
       <varInfo nodeId="1778677549314158595" varName="value" />
     </scopeInfo>
-    <scopeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="36" startPosition="61" endLine="43" endPosition="16">
+    <scopeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="26" startPosition="61" endLine="33" endPosition="16">
       <varInfo nodeId="1778677549314158595" varName="list" />
     </scopeInfo>
-    <scopeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="36" startPosition="0" endLine="45" endPosition="0" />
-    <scopeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="50" startPosition="65" endLine="69" endPosition="47" />
-    <scopeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="50" startPosition="0" endLine="71" endPosition="0">
+    <scopeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="26" startPosition="0" endLine="35" endPosition="0" />
+    <scopeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="40" startPosition="65" endLine="59" endPosition="47" />
+    <scopeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="40" startPosition="0" endLine="61" endPosition="0">
       <varInfo nodeId="1778677549314158595" varName="value" />
     </scopeInfo>
     <scopeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind_PropertySupport.java" startLine="11" startPosition="24" endLine="12" endPosition="18" />
@@ -525,39 +525,39 @@
     <scopeInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind_PropertySupport.java" startLine="24" startPosition="0" endLine="37" endPosition="0">
       <varInfo nodeId="1778677549314158595" varName="value" />
     </scopeInfo>
-    <unitInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="9" startPosition="0" endLine="72" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.PeriodZeroHandlingKind" />
+    <unitInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind.java" startLine="9" startPosition="0" endLine="73" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.PeriodZeroHandlingKind" />
     <unitInfo nodeId="1778677549314158595" fileName="PeriodZeroHandlingKind_PropertySupport.java" startLine="9" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.PeriodZeroHandlingKind_PropertySupport" />
   </root>
   <root nodeId="5581663871702358901" modelId="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)">
     <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="14" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myName" />
-    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="15" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myValue" />
-    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="17" startPosition="50" endLine="18" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="18" startPosition="23" endLine="19" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="22" startPosition="27" endLine="23" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="26" startPosition="36" endLine="27" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="30" startPosition="28" endLine="31" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="34" startPosition="58" endLine="35" endPosition="98" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="35" startPosition="98" endLine="36" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="36" startPosition="72" endLine="37" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="37" startPosition="73" endLine="38" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="38" startPosition="72" endLine="39" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="42" startPosition="50" endLine="43" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="47" startPosition="24" endLine="48" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="50" startPosition="71" endLine="51" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="53" startPosition="72" endLine="54" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="56" startPosition="71" endLine="57" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="58" startPosition="5" endLine="59" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="22" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getName#()Ljava/lang/String;" />
-    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="26" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getValueAsString#()Ljava/lang/String;" />
-    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="30" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getValue#()Ljava/lang/String;" />
-    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="42" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getDefault#()Ljetbrains/mps/baseLanguage/dates/structure/PeriodSeparatorKind;" />
-    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="46" startPosition="62" endLine="49" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="49" startPosition="5" endLine="52" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="52" startPosition="5" endLine="55" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="55" startPosition="5" endLine="58" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="17" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="PeriodSeparatorKind#(Ljava/lang/String;Ljava/lang/String;)V" />
-    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="34" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getConstants#()Ljava/util/List;" />
-    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="46" startPosition="0" endLine="61" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="parseValue#(Ljava/lang/String;)Ljetbrains/mps/baseLanguage/dates/structure/PeriodSeparatorKind;" />
+    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="16" startPosition="27" endLine="17" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="20" startPosition="36" endLine="21" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="24" startPosition="58" endLine="25" endPosition="98" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="25" startPosition="98" endLine="26" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="26" startPosition="72" endLine="27" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="27" startPosition="73" endLine="28" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="28" startPosition="72" endLine="29" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="32" startPosition="50" endLine="33" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="37" startPosition="24" endLine="38" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="40" startPosition="71" endLine="41" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="43" startPosition="72" endLine="44" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="46" startPosition="71" endLine="47" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="48" startPosition="5" endLine="49" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="52" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myValue" />
+    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="54" startPosition="50" endLine="55" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="55" startPosition="23" endLine="56" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="59" startPosition="28" endLine="60" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="16" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="20" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getValueAsString#()Ljava/lang/String;" />
+    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="32" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getDefault#()Ljetbrains/mps/baseLanguage/dates/structure/PeriodSeparatorKind;" />
+    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="36" startPosition="62" endLine="39" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="39" startPosition="5" endLine="42" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="42" startPosition="5" endLine="45" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="45" startPosition="5" endLine="48" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="59" startPosition="0" endLine="62" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getValue#()Ljava/lang/String;" />
+    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="54" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="PeriodSeparatorKind#(Ljava/lang/String;Ljava/lang/String;)V" />
+    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="24" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getConstants#()Ljava/util/List;" />
+    <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="36" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="parseValue#(Ljava/lang/String;)Ljetbrains/mps/baseLanguage/dates/structure/PeriodSeparatorKind;" />
     <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind_PropertySupport.java" startLine="11" startPosition="24" endLine="12" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind_PropertySupport.java" startLine="13" startPosition="5" endLine="14" endPosition="115" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind_PropertySupport.java" startLine="15" startPosition="33" endLine="16" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -581,29 +581,29 @@
     <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind_PropertySupport.java" startLine="38" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="fromInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
     <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind_PropertySupport.java" startLine="10" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="canSetValue#(Ljava/lang/String;)Z" />
     <nodeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind_PropertySupport.java" startLine="24" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
-    <scopeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="22" startPosition="27" endLine="23" endPosition="23" />
-    <scopeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="26" startPosition="36" endLine="27" endPosition="24" />
-    <scopeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="30" startPosition="28" endLine="31" endPosition="24" />
-    <scopeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="42" startPosition="50" endLine="43" endPosition="39" />
-    <scopeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="47" startPosition="24" endLine="48" endPosition="46" />
-    <scopeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="50" startPosition="71" endLine="51" endPosition="41" />
-    <scopeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="53" startPosition="72" endLine="54" endPosition="42" />
-    <scopeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="56" startPosition="71" endLine="57" endPosition="41" />
-    <scopeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="17" startPosition="50" endLine="19" endPosition="25" />
-    <scopeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="22" startPosition="0" endLine="25" endPosition="0" />
-    <scopeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="26" startPosition="0" endLine="29" endPosition="0" />
-    <scopeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="30" startPosition="0" endLine="33" endPosition="0" />
-    <scopeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="42" startPosition="0" endLine="45" endPosition="0" />
-    <scopeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="17" startPosition="0" endLine="21" endPosition="0">
+    <scopeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="16" startPosition="27" endLine="17" endPosition="23" />
+    <scopeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="20" startPosition="36" endLine="21" endPosition="24" />
+    <scopeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="32" startPosition="50" endLine="33" endPosition="39" />
+    <scopeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="37" startPosition="24" endLine="38" endPosition="46" />
+    <scopeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="40" startPosition="71" endLine="41" endPosition="41" />
+    <scopeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="43" startPosition="72" endLine="44" endPosition="42" />
+    <scopeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="46" startPosition="71" endLine="47" endPosition="41" />
+    <scopeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="59" startPosition="28" endLine="60" endPosition="24" />
+    <scopeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="54" startPosition="50" endLine="56" endPosition="25" />
+    <scopeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="16" startPosition="0" endLine="19" endPosition="0" />
+    <scopeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="20" startPosition="0" endLine="23" endPosition="0" />
+    <scopeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="32" startPosition="0" endLine="35" endPosition="0" />
+    <scopeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="59" startPosition="0" endLine="62" endPosition="0" />
+    <scopeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="54" startPosition="0" endLine="58" endPosition="0">
       <varInfo nodeId="5581663871702358901" varName="name" />
       <varInfo nodeId="5581663871702358901" varName="value" />
     </scopeInfo>
-    <scopeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="34" startPosition="58" endLine="39" endPosition="16">
+    <scopeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="24" startPosition="58" endLine="29" endPosition="16">
       <varInfo nodeId="5581663871702358901" varName="list" />
     </scopeInfo>
-    <scopeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="34" startPosition="0" endLine="41" endPosition="0" />
-    <scopeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="46" startPosition="62" endLine="59" endPosition="44" />
-    <scopeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="46" startPosition="0" endLine="61" endPosition="0">
+    <scopeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="24" startPosition="0" endLine="31" endPosition="0" />
+    <scopeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="36" startPosition="62" endLine="49" endPosition="44" />
+    <scopeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="36" startPosition="0" endLine="51" endPosition="0">
       <varInfo nodeId="5581663871702358901" varName="value" />
     </scopeInfo>
     <scopeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind_PropertySupport.java" startLine="11" startPosition="24" endLine="12" endPosition="18" />
@@ -635,7 +635,7 @@
     <scopeInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind_PropertySupport.java" startLine="24" startPosition="0" endLine="37" endPosition="0">
       <varInfo nodeId="5581663871702358901" varName="value" />
     </scopeInfo>
-    <unitInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="9" startPosition="0" endLine="62" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.PeriodSeparatorKind" />
+    <unitInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind.java" startLine="9" startPosition="0" endLine="63" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.PeriodSeparatorKind" />
     <unitInfo nodeId="5581663871702358901" fileName="PeriodSeparatorKind_PropertySupport.java" startLine="9" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.PeriodSeparatorKind_PropertySupport" />
   </root>
 </debugInfo>

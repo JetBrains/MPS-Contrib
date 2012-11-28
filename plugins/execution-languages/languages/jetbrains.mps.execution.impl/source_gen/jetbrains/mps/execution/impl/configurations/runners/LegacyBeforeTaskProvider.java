@@ -5,8 +5,6 @@ package jetbrains.mps.execution.impl.configurations.runners;
 import jetbrains.mps.util.annotation.ToRemove;
 import com.intellij.execution.BeforeRunTaskProvider;
 import com.intellij.openapi.util.Key;
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
 import com.intellij.execution.configurations.RunConfiguration;
 import com.intellij.openapi.actionSystem.DataContext;
 import com.intellij.execution.runners.ExecutionEnvironment;
@@ -15,6 +13,8 @@ import com.intellij.openapi.actionSystem.PlatformDataKeys;
 import java.lang.reflect.InvocationTargetException;
 import com.intellij.openapi.project.Project;
 import com.intellij.execution.BeforeRunTask;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 
 /**
  * Fixes MPS-11832 for old mps run configurations.
@@ -23,7 +23,6 @@ import com.intellij.execution.BeforeRunTask;
 @ToRemove(version = 2.0)
 public class LegacyBeforeTaskProvider extends BeforeRunTaskProvider<LegacyBeforeTaskProvider.MakeTask> {
   private static final Key<LegacyBeforeTaskProvider.MakeTask> KEY = Key.create("Legacy");
-  protected static Log log = LogFactory.getLog(LegacyBeforeTaskProvider.class);
 
   @Deprecated
   public LegacyBeforeTaskProvider() {
@@ -113,4 +112,6 @@ public class LegacyBeforeTaskProvider extends BeforeRunTaskProvider<LegacyBefore
       setEnabled(true);
     }
   }
+
+  protected static Log log = LogFactory.getLog(LegacyBeforeTaskProvider.class);
 }

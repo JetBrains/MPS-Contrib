@@ -29,13 +29,13 @@ public class typeof_RunConfigurationRunProfileState_InferenceRule extends Abstra
         {
           SNode _nodeToCheck_1029348928467 = runConfigurationDeclaration;
           EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:3d1d89d4-ed40-464f-804b-a59886f41d55(jetbrains.mps.execution.configurations.deprecated.typesystem)", "314981645426570172", 0, null);
-          typeCheckingContext.createLessThanInequality((SNode) stateType, (SNode) _quotation_createNode_xq134o_a0a0c0a0a(), false, false, _info_12389875345);
+          typeCheckingContext.createLessThanInequality((SNode) stateType, (SNode) _quotation_createNode_xq134o_a0a0c0a0b(), false, false, _info_12389875345);
         }
       } else {
         {
           SNode _nodeToCheck_1029348928467 = runConfigurationDeclaration;
           EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:3d1d89d4-ed40-464f-804b-a59886f41d55(jetbrains.mps.execution.configurations.deprecated.typesystem)", "314981645426570183", 0, null);
-          typeCheckingContext.createLessThanInequality((SNode) stateType, (SNode) _quotation_createNode_xq134o_a0a0a2a0a0(), false, false, _info_12389875345);
+          typeCheckingContext.createLessThanInequality((SNode) stateType, (SNode) _quotation_createNode_xq134o_a0a0a2a0a1(), false, false, _info_12389875345);
         }
       }
     }
@@ -56,14 +56,14 @@ public class typeof_RunConfigurationRunProfileState_InferenceRule extends Abstra
     return false;
   }
 
-  private static SNode _quotation_createNode_xq134o_a0a0c0a0a() {
+  private static SNode _quotation_createNode_xq134o_a0a0c0a0b() {
     SNode quotedNode_1 = null;
     quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", null, null, GlobalScope.getInstance(), false);
     quotedNode_1.setReference("classifier", SReference.create("classifier", quotedNode_1, SModelReference.fromString("r:00f87323-e6a8-42b3-9a91-892d878daf8f(jetbrains.mps.debug)"), SNodeId.fromString("251277163127780701")));
     return quotedNode_1;
   }
 
-  private static SNode _quotation_createNode_xq134o_a0a0a2a0a0() {
+  private static SNode _quotation_createNode_xq134o_a0a0a2a0a1() {
     SNode quotedNode_1 = null;
     quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", null, null, GlobalScope.getInstance(), false);
     quotedNode_1.setReference("classifier", SReference.create("classifier", quotedNode_1, SModelReference.fromString("f:java_stub#742f6602-5a2f-4313-aa6e-ae1cd4ffdc61#com.intellij.execution.configurations(MPS.Platform/com.intellij.execution.configurations@java_stub)"), SNodeId.fromString("~RunProfileState")));

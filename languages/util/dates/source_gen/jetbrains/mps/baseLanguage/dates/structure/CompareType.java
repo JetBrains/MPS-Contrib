@@ -15,22 +15,12 @@ public enum CompareType {
   LESS_OR_EQUALS("<=", "datetime less or equals");
 
   private String myName;
-  private String myValue;
-
-  CompareType(String name, String value) {
-    this.myName = name;
-    this.myValue = value;
-  }
 
   public String getName() {
     return this.myName;
   }
 
   public String getValueAsString() {
-    return this.myValue;
-  }
-
-  public String getValue() {
     return this.myValue;
   }
 
@@ -72,5 +62,16 @@ public enum CompareType {
       return CompareType.LESS_OR_EQUALS;
     }
     return CompareType.getDefault();
+  }
+
+  private String myValue;
+
+  CompareType(String name, String value) {
+    this.myName = name;
+    this.myValue = value;
+  }
+
+  public String getValue() {
+    return this.myValue;
   }
 }

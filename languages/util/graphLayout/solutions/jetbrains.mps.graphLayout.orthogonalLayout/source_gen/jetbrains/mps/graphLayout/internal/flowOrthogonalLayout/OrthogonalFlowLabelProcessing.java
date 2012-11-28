@@ -37,7 +37,6 @@ import java.util.Iterator;
 public class OrthogonalFlowLabelProcessing {
   private static int DEFAULT_UNIT_LENGTH = 20;
   private static int SHOW_INFO = 0;
-
   private int myUnitLength = OrthogonalFlowLabelProcessing.DEFAULT_UNIT_LENGTH;
 
   public OrthogonalFlowLabelProcessing() {
