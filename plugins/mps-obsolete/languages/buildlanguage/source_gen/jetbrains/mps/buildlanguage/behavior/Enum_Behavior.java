@@ -6,6 +6,7 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
+import org.jetbrains.mps.openapi.language.SConcept;
 
 public class Enum_Behavior {
   public static void init(SNode thisNode) {
@@ -31,5 +32,9 @@ public class Enum_Behavior {
       }
     }
     return false;
+  }
+
+  public static SNode virtual_getType_6575219246653626201(SConcept thisConcept) {
+    return null;
   }
 }

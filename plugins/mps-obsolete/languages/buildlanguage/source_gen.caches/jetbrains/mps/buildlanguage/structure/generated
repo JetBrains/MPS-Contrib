@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="1t8zky5nh47s7u8ut4990sklv9d9vvw">
+<dependencies version="2" modelHash="aizyfmyfjc2sj0z4x786hh6xtpfji2u">
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="72jgettirgdze5zodlg3xz1jp5r3et8" />
   <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" hash="drfxt8i63upja5k7zfj1z568c5k4586" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-uvseejb8lftjizgrik03igcx568a80" />
@@ -54,7 +54,7 @@
     <file name="Buildlanguage_Language.java" />
     <file name="StructureAspectDescriptor.java" />
   </common>
-  <source id="1196851066733" name="Project" hash="8f89a23hkiyk5dywf06k326ax3xausk">
+  <source id="1196851066733" name="Project" hash="1opgu3p46bntgapgettt7w1ub0gxfi6">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="1196851087779" name="AbstractCall" hash="41e5auq1roganxr03seu3i4bhleo2kf">
@@ -108,10 +108,10 @@
   <source id="1197398796434" name="Enum" hash="-3euxqx1y9oagcccjqqn2ah16wemd80r">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1197399151554" name="StringEnum" hash="5t6ygf7li3vscikn78t00vvt698al3h">
+  <source id="1197399151554" name="StringEnum" hash="ch59vjx8bpzwrk7sl3vc2ep2xiiwc7n">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1197464877317" name="IntegerEnum" hash="-6a484et2s0pzzyt0sknydn34cvnwzhg">
+  <source id="1197464877317" name="IntegerEnum" hash="-3zx7c92p65q072tr9saxcyzxc0gvf0x">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="1199031681512" name="FileName" hash="6gszkv1atjyl9zcthmqlkfogigmzp8d">

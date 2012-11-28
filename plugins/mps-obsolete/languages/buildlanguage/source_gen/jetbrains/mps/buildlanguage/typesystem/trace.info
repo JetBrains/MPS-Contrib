@@ -243,49 +243,49 @@
     <unitInfo nodeId="1196872869537" fileName="typeof_StringLiteral_InferenceRule.java" startLine="14" startPosition="0" endLine="47" endPosition="0" unitName="jetbrains.mps.buildlanguage.typesystem.typeof_StringLiteral_InferenceRule" />
   </root>
   <root nodeId="1197401210363" modelId="r:00000000-0000-4000-0000-011c895904c4(jetbrains.mps.buildlanguage.typesystem)">
-    <nodeInfo nodeId="1197401256457" fileName="typeof_Enum_InferenceRule.java" startLine="21" startPosition="7" endLine="22" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1197401256457" fileName="typeof_Enum_InferenceRule.java" startLine="22" startPosition="51" endLine="23" endPosition="200" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1197401256457" fileName="typeof_Enum_InferenceRule.java" startLine="23" startPosition="200" endLine="24" endPosition="353" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1197401210363" fileName="typeof_Enum_InferenceRule.java" startLine="29" startPosition="46" endLine="30" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1197401210363" fileName="typeof_Enum_InferenceRule.java" startLine="34" startPosition="5" endLine="35" endPosition="119" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1197401210363" fileName="typeof_Enum_InferenceRule.java" startLine="35" startPosition="119" endLine="36" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1197401210363" fileName="typeof_Enum_InferenceRule.java" startLine="40" startPosition="30" endLine="41" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1197401210363" fileName="typeof_Enum_InferenceRule.java" startLine="16" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="typeof_Enum_InferenceRule#()V" />
-    <nodeInfo nodeId="1197401210363" fileName="typeof_Enum_InferenceRule.java" startLine="29" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getApplicableConceptFQName#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1197401210363" fileName="typeof_Enum_InferenceRule.java" startLine="40" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="overrides#()Z" />
-    <nodeInfo nodeId="1197401210363" fileName="typeof_Enum_InferenceRule.java" startLine="33" startPosition="68" endLine="37" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="1197401256457" fileName="typeof_Enum_InferenceRule.java" startLine="20" startPosition="109" endLine="25" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="1197401210363" fileName="typeof_Enum_InferenceRule.java" startLine="33" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableAndPattern#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
-    <nodeInfo nodeId="1197401216335" fileName="typeof_Enum_InferenceRule.java" startLine="19" startPosition="124" endLine="26" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="1197401210363" fileName="typeof_Enum_InferenceRule.java" startLine="19" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="applyRule#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
-    <scopeInfo nodeId="1197401210363" fileName="typeof_Enum_InferenceRule.java" startLine="16" startPosition="38" endLine="16" endPosition="38" />
-    <scopeInfo nodeId="1197401210363" fileName="typeof_Enum_InferenceRule.java" startLine="29" startPosition="46" endLine="30" endPosition="56" />
-    <scopeInfo nodeId="1197401210363" fileName="typeof_Enum_InferenceRule.java" startLine="40" startPosition="30" endLine="41" endPosition="17" />
-    <scopeInfo nodeId="1197401210363" fileName="typeof_Enum_InferenceRule.java" startLine="16" startPosition="0" endLine="18" endPosition="0" />
-    <scopeInfo nodeId="1197401210363" fileName="typeof_Enum_InferenceRule.java" startLine="34" startPosition="5" endLine="36" endPosition="45">
+    <nodeInfo nodeId="1197401256457" fileName="typeof_Enum_InferenceRule.java" startLine="25" startPosition="7" endLine="26" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1197401256457" fileName="typeof_Enum_InferenceRule.java" startLine="26" startPosition="51" endLine="27" endPosition="200" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1197401256457" fileName="typeof_Enum_InferenceRule.java" startLine="27" startPosition="200" endLine="28" endPosition="494" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1197401210363" fileName="typeof_Enum_InferenceRule.java" startLine="33" startPosition="46" endLine="34" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1197401210363" fileName="typeof_Enum_InferenceRule.java" startLine="38" startPosition="5" endLine="39" endPosition="119" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1197401210363" fileName="typeof_Enum_InferenceRule.java" startLine="39" startPosition="119" endLine="40" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1197401210363" fileName="typeof_Enum_InferenceRule.java" startLine="44" startPosition="30" endLine="45" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1197401210363" fileName="typeof_Enum_InferenceRule.java" startLine="20" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="typeof_Enum_InferenceRule#()V" />
+    <nodeInfo nodeId="1197401210363" fileName="typeof_Enum_InferenceRule.java" startLine="33" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getApplicableConceptFQName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1197401210363" fileName="typeof_Enum_InferenceRule.java" startLine="44" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="overrides#()Z" />
+    <nodeInfo nodeId="1197401210363" fileName="typeof_Enum_InferenceRule.java" startLine="37" startPosition="68" endLine="41" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1197401256457" fileName="typeof_Enum_InferenceRule.java" startLine="24" startPosition="109" endLine="29" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1197401210363" fileName="typeof_Enum_InferenceRule.java" startLine="37" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableAndPattern#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+    <nodeInfo nodeId="1197401216335" fileName="typeof_Enum_InferenceRule.java" startLine="23" startPosition="124" endLine="30" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="1197401210363" fileName="typeof_Enum_InferenceRule.java" startLine="23" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="applyRule#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+    <scopeInfo nodeId="1197401210363" fileName="typeof_Enum_InferenceRule.java" startLine="20" startPosition="38" endLine="20" endPosition="38" />
+    <scopeInfo nodeId="1197401210363" fileName="typeof_Enum_InferenceRule.java" startLine="33" startPosition="46" endLine="34" endPosition="56" />
+    <scopeInfo nodeId="1197401210363" fileName="typeof_Enum_InferenceRule.java" startLine="44" startPosition="30" endLine="45" endPosition="17" />
+    <scopeInfo nodeId="1197401210363" fileName="typeof_Enum_InferenceRule.java" startLine="20" startPosition="0" endLine="22" endPosition="0" />
+    <scopeInfo nodeId="1197401210363" fileName="typeof_Enum_InferenceRule.java" startLine="38" startPosition="5" endLine="40" endPosition="45">
       <varInfo nodeId="1197401210363" varName="b" />
     </scopeInfo>
-    <scopeInfo nodeId="1197401256457" fileName="typeof_Enum_InferenceRule.java" startLine="21" startPosition="7" endLine="24" endPosition="353">
+    <scopeInfo nodeId="1197401256457" fileName="typeof_Enum_InferenceRule.java" startLine="25" startPosition="7" endLine="28" endPosition="494">
       <varInfo nodeId="1197401256457" varName="_info_12389875345" />
       <varInfo nodeId="1197401256457" varName="_nodeToCheck_1029348928467" />
     </scopeInfo>
-    <scopeInfo nodeId="1197401210363" fileName="typeof_Enum_InferenceRule.java" startLine="29" startPosition="0" endLine="32" endPosition="0" />
-    <scopeInfo nodeId="1197401210363" fileName="typeof_Enum_InferenceRule.java" startLine="40" startPosition="0" endLine="43" endPosition="0" />
-    <scopeInfo nodeId="1197401210363" fileName="typeof_Enum_InferenceRule.java" startLine="33" startPosition="68" endLine="37" endPosition="5" />
-    <scopeInfo nodeId="1197401216338" fileName="typeof_Enum_InferenceRule.java" startLine="20" startPosition="109" endLine="25" endPosition="7" />
-    <scopeInfo nodeId="1197401210363" fileName="typeof_Enum_InferenceRule.java" startLine="33" startPosition="0" endLine="39" endPosition="0">
+    <scopeInfo nodeId="1197401210363" fileName="typeof_Enum_InferenceRule.java" startLine="33" startPosition="0" endLine="36" endPosition="0" />
+    <scopeInfo nodeId="1197401210363" fileName="typeof_Enum_InferenceRule.java" startLine="44" startPosition="0" endLine="47" endPosition="0" />
+    <scopeInfo nodeId="1197401210363" fileName="typeof_Enum_InferenceRule.java" startLine="37" startPosition="68" endLine="41" endPosition="5" />
+    <scopeInfo nodeId="1197401216338" fileName="typeof_Enum_InferenceRule.java" startLine="24" startPosition="109" endLine="29" endPosition="7" />
+    <scopeInfo nodeId="1197401210363" fileName="typeof_Enum_InferenceRule.java" startLine="37" startPosition="0" endLine="43" endPosition="0">
       <varInfo nodeId="1197401210363" varName="argument" />
     </scopeInfo>
-    <scopeInfo nodeId="1197401210364" fileName="typeof_Enum_InferenceRule.java" startLine="19" startPosition="124" endLine="26" endPosition="5" />
-    <scopeInfo nodeId="1197401216335" fileName="typeof_Enum_InferenceRule.java" startLine="19" startPosition="124" endLine="26" endPosition="5">
+    <scopeInfo nodeId="1197401210364" fileName="typeof_Enum_InferenceRule.java" startLine="23" startPosition="124" endLine="30" endPosition="5" />
+    <scopeInfo nodeId="1197401216335" fileName="typeof_Enum_InferenceRule.java" startLine="23" startPosition="124" endLine="30" endPosition="5">
       <varInfo nodeId="1197401216336" varName="element" />
     </scopeInfo>
-    <scopeInfo nodeId="1197401210363" fileName="typeof_Enum_InferenceRule.java" startLine="19" startPosition="0" endLine="28" endPosition="0">
+    <scopeInfo nodeId="1197401210363" fileName="typeof_Enum_InferenceRule.java" startLine="23" startPosition="0" endLine="32" endPosition="0">
       <varInfo nodeId="1197401210363" varName="nodeToCheck" />
       <varInfo nodeId="1197401210363" varName="status" />
       <varInfo nodeId="1197401210363" varName="typeCheckingContext" />
     </scopeInfo>
-    <unitInfo nodeId="1197401210363" fileName="typeof_Enum_InferenceRule.java" startLine="15" startPosition="0" endLine="44" endPosition="0" unitName="jetbrains.mps.buildlanguage.typesystem.typeof_Enum_InferenceRule" />
+    <unitInfo nodeId="1197401210363" fileName="typeof_Enum_InferenceRule.java" startLine="19" startPosition="0" endLine="48" endPosition="0" unitName="jetbrains.mps.buildlanguage.typesystem.typeof_Enum_InferenceRule" />
   </root>
   <root nodeId="1199032009158" modelId="r:00000000-0000-4000-0000-011c895904c4(jetbrains.mps.buildlanguage.typesystem)">
     <nodeInfo nodeId="1199032106408" fileName="typeof_FileName_InferenceRule.java" startLine="19" startPosition="5" endLine="20" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />

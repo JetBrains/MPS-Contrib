@@ -10,8 +10,8 @@
   <import index="tpkv" modelUID="r:00000000-0000-4000-0000-011c895905a3(jetbrains.mps.xml.deprecated.structure)" version="0" implicit="yes" />
   <roots>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1196851066733">
-      <property name="rootable" nameId="tpce.1096454100552" value="true" />
       <property name="abstract" nameId="tpce.4628067390765956802" value="false" />
+      <property name="rootable" nameId="tpce.1096454100552" value="true" />
       <property name="final" nameId="tpce.4628067390765956807" value="false" />
       <property name="iconPath" nameId="tpce.1160488491229" value="${language_descriptor}/icons/build.png" />
       <property name="name" nameId="tpck.1169194664001" value="Project" />
@@ -481,18 +481,8 @@
       <link role="targetType" roleId="tpce.1105736621938" targetNodeId="1196870830058" resolveInfo="PropertyType" />
     </node>
   </root>
-  <root id="1197399151554">
-    <node role="conceptLink" roleId="tpce.1105736949336" type="tpce.AggregationConceptLink" typeId="tpce.1105736889287" id="1197399247025">
-      <link role="conceptLinkDeclaration" roleId="tpce.1105736734721" targetNodeId="1197399226462" resolveInfo="type" />
-      <node role="target" roleId="tpce.1105736901241" type="tpsk.StringType" typeId="1196870403099" id="1197399249589" />
-    </node>
-  </root>
-  <root id="1197464877317">
-    <node role="conceptLink" roleId="tpce.1105736949336" type="tpce.AggregationConceptLink" typeId="tpce.1105736889287" id="1197464914131">
-      <link role="conceptLinkDeclaration" roleId="tpce.1105736734721" targetNodeId="1197399226462" resolveInfo="type" />
-      <node role="target" roleId="tpce.1105736901241" type="tpsk.IntegerType" typeId="1196870417350" id="1197464916508" />
-    </node>
-  </root>
+  <root id="1197399151554" />
+  <root id="1197464877317" />
   <root id="1199031681512">
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1199031757132">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
