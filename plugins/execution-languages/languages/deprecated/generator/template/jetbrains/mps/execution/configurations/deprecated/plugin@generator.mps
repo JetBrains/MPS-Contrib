@@ -75,7 +75,6 @@
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" implicit="yes" />
   <import index="tgbt" modelUID="r:c70ee934-afb1-4c02-b6a9-1c4d1908a792(jetbrains.mps.lang.plugin.standalone.structure)" version="1" implicit="yes" />
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
-  <import index="hf1o" modelUID="f:java_stub#86441d7a-e194-42da-81a5-2161ec62a379#jetbrains.mps.plugins.pluginparts.runconfigs(MPS.Workbench/jetbrains.mps.plugins.pluginparts.runconfigs@java_stub)" version="-1" implicit="yes" />
   <roots>
     <node type="tpee.ClassConcept" typeId="tpee.1068390468198" id="314981645427223906">
       <property name="name" nameId="tpck.1169194664001" value="ConfigurationFactoryTemplate" />
@@ -6339,7 +6338,7 @@
                         <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="314981645427226864">
                           <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="314981645427226865">
                             <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="314981645427226866">
-                              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="hf1o.~BaseConfigCreator%dgetContext()%ccom%dintellij%dexecution%dactions%dConfigurationContext" resolveInfo="getContext" />
+                              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="jd8b.5628633142282726848" resolveInfo="getContext" />
                             </node>
                             <node role="operand" roleId="tpee.1197027771414" type="tpee.ThisExpression" typeId="tpee.1070475354124" id="314981645427226867">
                               <link role="classConcept" roleId="tpee.1182955020723" targetNodeId="314981645427226733" resolveInfo="ConfigurationCreator" />
