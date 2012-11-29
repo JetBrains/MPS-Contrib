@@ -23,6 +23,7 @@
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
   <import index="11eb" modelUID="r:550fbd90-c9f2-4576-a8a6-223eca16d68b(jetbrains.mps.execution.configurations.deprecated.structure)" version="4" implicit="yes" />
+  <import index="g3s4" modelUID="r:44be5a71-98f4-4137-88b1-8ccaf67186a8(jetbrains.mps.execution.configurations.deprecated.behavior)" version="2" implicit="yes" />
   <roots>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8456022385895583119">
       <property name="rootable" nameId="tpce.1096454100552" value="true" />
@@ -1072,6 +1073,10 @@
   <root id="314981645426569350">
     <node role="conceptPropertyDeclaration" roleId="tpce.1137467167200" type="tpce.BooleanConceptPropertyDeclaration" typeId="tpce.1105725240314" id="314981645426569351">
       <property name="name" nameId="tpck.1169194664001" value="requiresCustomEditor" />
+      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="4694041203278844309" />
+      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.MigratedToMethodAnnotation" typeId="tpce.8080932314785812236" id="4694041203278844308">
+        <link role="method" roleId="tpce.8080932314785812847" targetNodeId="g3s4.1262430001741498265" resolveInfo="requiresCustomEditor" />
+      </node>
     </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="314981645426569352">
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />

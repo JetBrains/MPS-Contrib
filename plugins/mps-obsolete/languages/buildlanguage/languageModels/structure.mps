@@ -8,10 +8,11 @@
   <import index="tpsk" modelUID="r:00000000-0000-4000-0000-011c895904c8(jetbrains.mps.buildlanguage.structure)" version="21" implicit="yes" />
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
   <import index="tpkv" modelUID="r:00000000-0000-4000-0000-011c895905a3(jetbrains.mps.xml.deprecated.structure)" version="0" implicit="yes" />
+  <import index="tpss" modelUID="r:00000000-0000-4000-0000-011c895904c0(jetbrains.mps.buildlanguage.behavior)" version="-1" implicit="yes" />
   <roots>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1196851066733">
-      <property name="abstract" nameId="tpce.4628067390765956802" value="false" />
       <property name="rootable" nameId="tpce.1096454100552" value="true" />
+      <property name="abstract" nameId="tpce.4628067390765956802" value="false" />
       <property name="final" nameId="tpce.4628067390765956807" value="false" />
       <property name="iconPath" nameId="tpce.1160488491229" value="${language_descriptor}/icons/build.png" />
       <property name="name" nameId="tpck.1169194664001" value="Project" />
@@ -466,6 +467,10 @@
     </node>
     <node role="conceptPropertyDeclaration" roleId="tpce.1137467167200" type="tpce.StringConceptPropertyDeclaration" typeId="tpce.1105725281956" id="1197107970006">
       <property name="name" nameId="tpck.1169194664001" value="operation" />
+      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="4694041203278843147" />
+      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.MigratedToMethodAnnotation" typeId="tpce.8080932314785812236" id="4694041203278843146">
+        <link role="method" roleId="tpce.8080932314785812847" targetNodeId="tpss.1262430001741497840" resolveInfo="getOperation" />
+      </node>
     </node>
   </root>
   <root id="1197108973325" />
@@ -511,6 +516,10 @@
   <root id="1200511852076">
     <node role="conceptPropertyDeclaration" roleId="tpce.1137467167200" type="tpce.StringConceptPropertyDeclaration" typeId="tpce.1105725281956" id="1200580505053">
       <property name="name" nameId="tpck.1169194664001" value="callName" />
+      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="4694041203278844287" />
+      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.MigratedToMethodAnnotation" typeId="tpce.8080932314785812236" id="4694041203278844286">
+        <link role="method" roleId="tpce.8080932314785812847" targetNodeId="tpss.1262430001741497852" resolveInfo="getCallName" />
+      </node>
     </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1200511904172">
       <property name="role" nameId="tpce.1071599776563" value="call" />
