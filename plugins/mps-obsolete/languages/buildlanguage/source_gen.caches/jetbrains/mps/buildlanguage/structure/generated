@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="aizyfmyfjc2sj0z4x786hh6xtpfji2u">
-  <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="72jgettirgdze5zodlg3xz1jp5r3et8" />
+<dependencies version="2" modelHash="3j0i0tmeyd54hxw139uuv692u2zgaby">
+  <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="7eedhcqhmzsq08m7y6wvw2wm8ydq2af" />
   <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" hash="drfxt8i63upja5k7zfj1z568c5k4586" />
-  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-uvseejb8lftjizgrik03igcx568a80" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-d17uag6x8ib5q0e996v0fs4c7b3t8ur" />
   <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" hash="-baumsvy45qwk0i0m1tzx9fili68fouh" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="3vh6ws77llhw5tlhdfffr8964224td2" />
-  <common hash="9oycx9sj3xmi5q5rq5gxkyrhpefer6d">
+  <common hash="-5dd2m4hdw3a2tcqzd6bi1ps7bb94yym">
     <dep root="1196851066733" />
     <dep root="1196851087779" />
     <dep root="1196851099544" />
@@ -54,7 +54,7 @@
     <file name="Buildlanguage_Language.java" />
     <file name="StructureAspectDescriptor.java" />
   </common>
-  <source id="1196851066733" name="Project" hash="1opgu3p46bntgapgettt7w1ub0gxfi6">
+  <source id="1196851066733" name="Project" hash="8f89a23hkiyk5dywf06k326ax3xausk">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="1196851087779" name="AbstractCall" hash="41e5auq1roganxr03seu3i4bhleo2kf">
@@ -99,7 +99,7 @@
   <source id="1196870830058" name="PropertyType" hash="-e7bork9rreiq3souc72kffm41i37txr">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1197107841918" name="BinaryOperation" hash="-80f1f43cf4iawgl4ds6bdym2unn5ofa">
+  <source id="1197107841918" name="BinaryOperation" hash="-8ziirnoeniuq8dsznaf8sf2mbl48ju0">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="1197108973325" name="PlusOperation" hash="-66xnz2oemu3ma4fqdnrz9df8imt8blp">
@@ -129,7 +129,7 @@
   <source id="1200510908478" name="CallReferenceType" hash="-76gr25hnv21xfzvroj10sbngupt0l1j">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1200511852076" name="CallReference" hash="asre07pbaaluecbw0tyliz7thbicolp">
+  <source id="1200511852076" name="CallReference" hash="1skbk7y6rkt915fw2hdqw7iutrdai0m">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="1201111033873" name="ISource" hash="cmon5vbxarlgncjjdi9b3834m46vvs3">
