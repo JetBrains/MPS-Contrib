@@ -4,7 +4,6 @@ package jetbrains.mps.baseLanguage.unitTest.execution.tool;
 
 import jetbrains.mps.util.annotation.ToRemove;
 import jetbrains.mps.execution.configurations.deprecated.runtime.BaseRunner;
-import jetbrains.mps.logging.Logger;
 import java.util.List;
 import jetbrains.mps.baseLanguage.unitTest.execution.client.ITestNodeWrapper;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
@@ -28,6 +27,7 @@ import jetbrains.mps.project.IModule;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
+import jetbrains.mps.logging.Logger;
 
 /**
  * Use junit command instead of it.
@@ -36,7 +36,6 @@ import java.util.LinkedHashSet;
 @ToRemove(version = 2.1)
 public class UnitTestRunner extends BaseRunner {
   private static final int MAX_COMMAND_LINE = 16384;
-  private static Logger LOG = Logger.getLogger(UnitTestRunner.class);
   private ProcessBuilder myProcessBuilder;
   private final List<ITestNodeWrapper> myTestable = ListSequence.fromList(new ArrayList<ITestNodeWrapper>());
 
@@ -63,12 +62,12 @@ public class UnitTestRunner extends BaseRunner {
         runParams.value = ListSequence.fromList(tests).first().getTestRunParameters();
         testsToRun.value = ListSequence.fromList(tests).where(new IWhereFilter<ITestNodeWrapper>() {
           public boolean accept(ITestNodeWrapper it) {
-            return eq_y7hhub_a0a0a0a0a0a0b0a0a0a0e0b(check_y7hhub_a0a0a0a0a1a0e0b(it), runParams.value);
+            return eq_y7hhub_a0a0a0a0a0a0b0a0a0a0e0f(check_y7hhub_a0a0a0a0a1a0e0f(it), runParams.value);
           }
         }).toListSequence();
         ListSequence.fromList(tests).visitAll(new IVisitor<ITestNodeWrapper>() {
           public void visit(ITestNodeWrapper it) {
-            if (!(eq_y7hhub_a0a0a0a0a0a2a0a0a0a4a1(check_y7hhub_a0a0a0a0c0a4a1(it), runParams.value))) {
+            if (!(eq_y7hhub_a0a0a0a0a0a2a0a0a0a4a5(check_y7hhub_a0a0a0a0c0a4a5(it), runParams.value))) {
               LOG.error("Can not execute " + it + ": run parameters does not match.");
             }
           }
@@ -98,7 +97,7 @@ public class UnitTestRunner extends BaseRunner {
         addJavaCommand(params);
 
         ListSequence.fromList(params).addSequence(ListSequence.fromList(parameters._1()));
-        if (vmParams.value != null && isNotEmpty_y7hhub_a0a5a0a0a0a8a2(vmParams.value)) {
+        if (vmParams.value != null && isNotEmpty_y7hhub_a0a5a0a0a0a8a6(vmParams.value)) {
           String[] paramList = splitParams(vmParams.value);
           ListSequence.fromList(params).addSequence(Sequence.fromIterable(Sequence.fromArray(paramList)));
         }
@@ -149,14 +148,14 @@ public class UnitTestRunner extends BaseRunner {
       }
     }
 
-    if (programParams.value != null && isNotEmpty_y7hhub_a0a51a2(programParams.value)) {
+    if (programParams.value != null && isNotEmpty_y7hhub_a0a51a6(programParams.value)) {
       String[] paramList = splitParams(programParams.value);
       ListSequence.fromList(params).addSequence(Sequence.fromIterable(Sequence.fromArray(paramList)));
     }
 
     myProcessBuilder = new ProcessBuilder(params);
 
-    if (workingDir.value != null && isNotEmpty_y7hhub_a0a91a2(workingDir.value)) {
+    if (workingDir.value != null && isNotEmpty_y7hhub_a0a91a6(workingDir.value)) {
       myProcessBuilder.directory(new File(workingDir.value));
     }
 
@@ -195,43 +194,45 @@ public class UnitTestRunner extends BaseRunner {
     return buff.toString();
   }
 
-  private static Tuples._3<String, List<String>, List<String>> check_y7hhub_a0a0a0a0a1a0e0b(ITestNodeWrapper checkedDotOperand) {
+  private static Logger LOG = Logger.getLogger(UnitTestRunner.class);
+
+  private static Tuples._3<String, List<String>, List<String>> check_y7hhub_a0a0a0a0a1a0e0f(ITestNodeWrapper checkedDotOperand) {
     if (null != checkedDotOperand) {
       return checkedDotOperand.getTestRunParameters();
     }
     return null;
   }
 
-  private static Tuples._3<String, List<String>, List<String>> check_y7hhub_a0a0a0a0c0a4a1(ITestNodeWrapper checkedDotOperand) {
+  private static Tuples._3<String, List<String>, List<String>> check_y7hhub_a0a0a0a0c0a4a5(ITestNodeWrapper checkedDotOperand) {
     if (null != checkedDotOperand) {
       return checkedDotOperand.getTestRunParameters();
     }
     return null;
   }
 
-  private static boolean eq_y7hhub_a0a0a0a0a0a0b0a0a0a0e0b(Object a, Object b) {
+  private static boolean eq_y7hhub_a0a0a0a0a0a0b0a0a0a0e0f(Object a, Object b) {
     return (a != null ?
       a.equals(b) :
       a == b
     );
   }
 
-  private static boolean eq_y7hhub_a0a0a0a0a0a2a0a0a0a4a1(Object a, Object b) {
+  private static boolean eq_y7hhub_a0a0a0a0a0a2a0a0a0a4a5(Object a, Object b) {
     return (a != null ?
       a.equals(b) :
       a == b
     );
   }
 
-  public static boolean isNotEmpty_y7hhub_a0a5a0a0a0a8a2(String str) {
+  public static boolean isNotEmpty_y7hhub_a0a5a0a0a0a8a6(String str) {
     return str != null && str.length() > 0;
   }
 
-  public static boolean isNotEmpty_y7hhub_a0a51a2(String str) {
+  public static boolean isNotEmpty_y7hhub_a0a51a6(String str) {
     return str != null && str.length() > 0;
   }
 
-  public static boolean isNotEmpty_y7hhub_a0a91a2(String str) {
+  public static boolean isNotEmpty_y7hhub_a0a91a6(String str) {
     return str != null && str.length() > 0;
   }
 }

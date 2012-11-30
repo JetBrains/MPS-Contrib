@@ -16,7 +16,7 @@ public class AstRoot {
   }
 
   public void addText(String text) {
-    this.text = ((isNotEmpty_7xujhu_a0a0a0a0b(this.text) ?
+    this.text = ((isNotEmpty_7xujhu_a0a0a0a0f(this.text) ?
       this.text :
       ""
     )) + text;
@@ -38,7 +38,7 @@ public class AstRoot {
     this.mainChild = mainChild;
   }
 
-  public static boolean isNotEmpty_7xujhu_a0a0a0a0b(String str) {
+  public static boolean isNotEmpty_7xujhu_a0a0a0a0f(String str) {
     return str != null && str.length() > 0;
   }
 }

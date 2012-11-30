@@ -415,8 +415,8 @@
       <varInfo nodeId="4136567681074274518" varName="forbidOuterEdgeCrossing" />
       <varInfo nodeId="7133435336869263735" varName="removedEdge" />
     </scopeInfo>
-    <unitInfo nodeId="4422427343208761573" fileName="ShortestPathEmbeddingFinder.java" startLine="43" startPosition="73" endLine="47" endPosition="5" unitName="jetbrains.mps.graphLayout.planarization.ShortestPathEmbeddingFinder$2" />
-    <unitInfo nodeId="4136567681074274573" fileName="ShortestPathEmbeddingFinder.java" startLine="74" startPosition="81" endLine="78" endPosition="7" unitName="jetbrains.mps.graphLayout.planarization.ShortestPathEmbeddingFinder$1" />
+    <unitInfo nodeId="4422427343208761573" fileName="ShortestPathEmbeddingFinder.java" startLine="43" startPosition="73" endLine="47" endPosition="5" unitName="jetbrains.mps.graphLayout.planarization.ShortestPathEmbeddingFinder$1" />
+    <unitInfo nodeId="4136567681074274573" fileName="ShortestPathEmbeddingFinder.java" startLine="74" startPosition="81" endLine="78" endPosition="7" unitName="jetbrains.mps.graphLayout.planarization.ShortestPathEmbeddingFinder$2" />
     <unitInfo nodeId="1327612371813257427" fileName="ShortestPathEmbeddingFinder.java" startLine="20" startPosition="0" endLine="116" endPosition="0" unitName="jetbrains.mps.graphLayout.planarization.ShortestPathEmbeddingFinder" />
   </root>
   <root nodeId="1532165762814136058" modelId="r:d0ff68b2-4710-4f71-b818-0fa9dd95286e(jetbrains.mps.graphLayout.planarization)">

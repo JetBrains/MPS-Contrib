@@ -82,10 +82,10 @@ public class Generator {
     Set<SNode> toRemoveNestedReference = SetSequence.fromSet(new HashSet());
     for (SNode nref : SLinkOperations.getTargets(decl, "nested", true)) {
       for (SNode ref : SLinkOperations.getTargets(decl, "nested", true)) {
-        if (eq_ixz87t_a0a0a0b0d(ref, nref)) {
+        if (eq_ixz87t_a0a0a0b0h(ref, nref)) {
           continue;
         }
-        if (eq_ixz87t_a0b0a0b0d(SPropertyOperations.getString(SLinkOperations.getTarget(ref, "declaration", false), "classname"), SPropertyOperations.getString(SLinkOperations.getTarget(nref, "declaration", false), "classname"))) {
+        if (eq_ixz87t_a0b0a0b0h(SPropertyOperations.getString(SLinkOperations.getTarget(ref, "declaration", false), "classname"), SPropertyOperations.getString(SLinkOperations.getTarget(nref, "declaration", false), "classname"))) {
           SetSequence.fromSet(toRemoveNestedReference).addElement(ref);
         }
       }
@@ -133,33 +133,12 @@ public class Generator {
       SNode node = ListSequence.fromList(SLinkOperations.getTargets(nref, "role", true)).where(new IWhereFilter<SNode>() {
         public boolean accept(SNode it) {
           SNode biDecl = SNodeOperations.cast(SLinkOperations.getTarget(it, "declaration", false), "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration");
-          return SPropertyOperations.getBoolean(biDecl, "fake") && eq_ixz87t_a0a1a0a0a0a0a0a9a3(SPropertyOperations.getString(biDecl, "name"), SPropertyOperations.getString(SLinkOperations.getTarget(nref, "declaration", false), "name"));
+          return SPropertyOperations.getBoolean(biDecl, "fake") && eq_ixz87t_a0a1a0a0a0a0a0a9a7(SPropertyOperations.getString(biDecl, "name"), SPropertyOperations.getString(SLinkOperations.getTarget(nref, "declaration", false), "name"));
         }
       }).first();
       ListSequence.fromList(SNodeOperations.getChildren(nref)).removeElement(node);
       ListSequence.fromList(SNodeOperations.getChildren(decl)).removeElement(SLinkOperations.getTarget(node, "declaration", false));
     }
-  }
-
-  private static boolean eq_ixz87t_a0a0a0b0d(Object a, Object b) {
-    return (a != null ?
-      a.equals(b) :
-      a == b
-    );
-  }
-
-  private static boolean eq_ixz87t_a0b0a0b0d(Object a, Object b) {
-    return (a != null ?
-      a.equals(b) :
-      a == b
-    );
-  }
-
-  private static boolean eq_ixz87t_a0a1a0a0a0a0a0a9a3(Object a, Object b) {
-    return (a != null ?
-      a.equals(b) :
-      a == b
-    );
   }
 
   public static   enum Modes {
@@ -198,7 +177,7 @@ public class Generator {
 
     public void addInterface(SNode declaration, SNode interfaceDeclaration) {
       for (SNode in : SLinkOperations.getTargets(declaration, "interfaces", true)) {
-        if (eq_ixz87t_a0a0a0c1(SPropertyOperations.getString(SLinkOperations.getTarget(in, "declaration", false), "name"), SPropertyOperations.getString(interfaceDeclaration, "name"))) {
+        if (eq_ixz87t_a0a0a0f9(SPropertyOperations.getString(SLinkOperations.getTarget(in, "declaration", false), "name"), SPropertyOperations.getString(interfaceDeclaration, "name"))) {
           return;
         }
       }
@@ -209,7 +188,7 @@ public class Generator {
     public void addAttribute(SNode declaration, final ClassInfo.MyAttribute attribute) {
       SNode node = ListSequence.fromList(SLinkOperations.getTargets(declaration, "attributesDecl", true)).where(new IWhereFilter<SNode>() {
         public boolean accept(SNode it) {
-          return eq_ixz87t_a0a0a0a0a0a0a0d1(SPropertyOperations.getString(it, "name"), attribute.getName());
+          return eq_ixz87t_a0a0a0a0a0a0a0g9(SPropertyOperations.getString(it, "name"), attribute.getName());
         }
       }).first();
       if ((node == null)) {
@@ -245,7 +224,7 @@ public class Generator {
       if (enumValues == null) {
         return;
       }
-      SNode senum = _quotation_createNode_ixz87t_a0b0g1();
+      SNode senum = _quotation_createNode_ixz87t_a0b0j9();
       this.updateEnum(senum, enumValues);
       SLinkOperations.setTarget(attrDecl, "enum", senum, true);
     }
@@ -260,14 +239,14 @@ public class Generator {
         if (SetSequence.fromSet(set).contains(str)) {
           continue;
         }
-        ListSequence.fromList(SLinkOperations.getTargets(sEnum, "constants", true)).addElement(_quotation_createNode_ixz87t_a0a1a1a7b(str));
+        ListSequence.fromList(SLinkOperations.getTargets(sEnum, "constants", true)).addElement(_quotation_createNode_ixz87t_a0a1a1a01j(str));
       }
     }
 
     public void addNested(SNode decl, final SNode nestedDecl, ClassInfo.Nested nested) {
       SNode node = ListSequence.fromList(SLinkOperations.getTargets(decl, "nested", true)).where(new IWhereFilter<SNode>() {
         public boolean accept(SNode it) {
-          return eq_ixz87t_a0a0a0a0a0a0a0i1(SLinkOperations.getTarget(it, "declaration", false), nestedDecl);
+          return eq_ixz87t_a0a0a0a0a0a0a0l9(SLinkOperations.getTarget(it, "declaration", false), nestedDecl);
         }
       }).first();
       if ((node != null)) {
@@ -277,8 +256,8 @@ public class Generator {
         return;
       }
 
-      SNode nref = _quotation_createNode_ixz87t_a0d0i1(nestedDecl);
-      if (eq_ixz87t_a0e0i1(SLinkOperations.getTarget(nref, "declaration", false), nestedDecl)) {
+      SNode nref = _quotation_createNode_ixz87t_a0d0l9(nestedDecl);
+      if (eq_ixz87t_a0e0l9(SLinkOperations.getTarget(nref, "declaration", false), nestedDecl)) {
         for (String name : nested.getNames()) {
           this.addNestedName(decl, nref, name);
         }
@@ -288,12 +267,12 @@ public class Generator {
 
     private void addNestedName(SNode declaration, SNode nref, String name) {
       for (SNode ref : SLinkOperations.getTargets(nref, "role", true)) {
-        if (eq_ixz87t_a0a0a0j1(SPropertyOperations.getString(SLinkOperations.getTarget(ref, "declaration", false), "name"), name)) {
+        if (eq_ixz87t_a0a0a0m9(SPropertyOperations.getString(SLinkOperations.getTarget(ref, "declaration", false), "name"), name)) {
           return;
         }
       }
 
-      if (eq_ixz87t_a0c0j1(SPropertyOperations.getString(SLinkOperations.getTarget(nref, "declaration", false), "name"), name)) {
+      if (eq_ixz87t_a0c0m9(SPropertyOperations.getString(SLinkOperations.getTarget(nref, "declaration", false), "name"), name)) {
         ListSequence.fromList(SLinkOperations.getTargets(nref, "role", true)).addElement(Generator.GENERATOR.createDeclarationReference(SNodeOperations.cast(SLinkOperations.getTarget(nref, "declaration", false), "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration")));
         return;
       }
@@ -316,11 +295,11 @@ public class Generator {
     public void updateDeclaration(SNode decl, ClassInfo ci) {
       if (ImportOptions.getInstance().isNeedUpdateDeclarations()) {
         String name = this.myNamesMap.getNameForClass(ci.getDeclarationClass());
-        if ((isEmpty_ixz87t_a0a0b0a0k1(SPropertyOperations.getString(decl, "name"))) || neq_ixz87t_a0a1a0a01b(SPropertyOperations.getString(decl, "name"), name)) {
+        if ((isEmpty_ixz87t_a0a0b0a0n9(SPropertyOperations.getString(decl, "name"))) || neq_ixz87t_a0a1a0a31j(SPropertyOperations.getString(decl, "name"), name)) {
           SPropertyOperations.set(decl, "name", name);
           System.out.format("Declaration %s name has been set to %s.\n", ci.getDeclarationClass().getName(), name);
         }
-        if (isEmpty_ixz87t_a0c0a0k1(SPropertyOperations.getString(decl, "classname"))) {
+        if (isEmpty_ixz87t_a0c0a0n9(SPropertyOperations.getString(decl, "classname"))) {
           SPropertyOperations.set(decl, "classname", ci.getDeclarationClass().getName());
         }
         if (SPropertyOperations.getBoolean(decl, "abstract") != ci.isAbstract()) {
@@ -340,126 +319,147 @@ public class Generator {
 
     private static SNode getType(Class<?> clazz) {
       if (clazz.equals(int.class)) {
-        return _quotation_createNode_ixz87t_a0a0a0b();
+        return _quotation_createNode_ixz87t_a0a0a41j();
       } else
       if (clazz.equals(boolean.class)) {
-        return _quotation_createNode_ixz87t_a0a0a0a1();
+        return _quotation_createNode_ixz87t_a0a0a0o9();
       } else
       if (clazz.equals(File.class)) {
-        return _quotation_createNode_ixz87t_a0a0a0a0b();
+        return _quotation_createNode_ixz87t_a0a0a0a41j();
       } else
       if (clazz.getName().equals(Reference.class.getName())) {
-        return _quotation_createNode_ixz87t_a0a0a0a0a1();
+        return _quotation_createNode_ixz87t_a0a0a0a0o9();
       } else {
-        return _quotation_createNode_ixz87t_a0a0a0a0a0b();
+        return _quotation_createNode_ixz87t_a0a0a0a0a41j();
       }
     }
 
-    private static SNode _quotation_createNode_ixz87t_a0b0g1() {
+    private static SNode _quotation_createNode_ixz87t_a0b0j9() {
       SNode quotedNode_1 = null;
       quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.StringEnum", null, null, GlobalScope.getInstance(), false);
       return quotedNode_1;
     }
 
-    private static SNode _quotation_createNode_ixz87t_a0a1a1a7b(Object parameter_1) {
+    private static SNode _quotation_createNode_ixz87t_a0a1a1a01j(Object parameter_1) {
       SNode quotedNode_2 = null;
       quotedNode_2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.StringLiteral", null, null, GlobalScope.getInstance(), false);
       quotedNode_2.setProperty("value", (String) parameter_1);
       return quotedNode_2;
     }
 
-    private static SNode _quotation_createNode_ixz87t_a0d0i1(Object parameter_1) {
+    private static SNode _quotation_createNode_ixz87t_a0d0l9(Object parameter_1) {
       SNode quotedNode_2 = null;
       quotedNode_2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.build.generictasks.structure.NestedDeclaration", null, null, GlobalScope.getInstance(), false);
       quotedNode_2.setReferenceTarget("declaration", (SNode) parameter_1);
       return quotedNode_2;
     }
 
-    private static SNode _quotation_createNode_ixz87t_a0a0a0a0a0b() {
+    private static SNode _quotation_createNode_ixz87t_a0a0a0a0a41j() {
       SNode quotedNode_1 = null;
       quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.StringType", null, null, GlobalScope.getInstance(), false);
       return quotedNode_1;
     }
 
-    private static SNode _quotation_createNode_ixz87t_a0a0a0a0a1() {
+    private static SNode _quotation_createNode_ixz87t_a0a0a0a0o9() {
       SNode quotedNode_1 = null;
       quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.CallReferenceType", null, null, GlobalScope.getInstance(), false);
       return quotedNode_1;
     }
 
-    private static SNode _quotation_createNode_ixz87t_a0a0a0a0b() {
+    private static SNode _quotation_createNode_ixz87t_a0a0a0a41j() {
       SNode quotedNode_1 = null;
       quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.FileType", null, null, GlobalScope.getInstance(), false);
       return quotedNode_1;
     }
 
-    private static SNode _quotation_createNode_ixz87t_a0a0a0a1() {
+    private static SNode _quotation_createNode_ixz87t_a0a0a0o9() {
       SNode quotedNode_1 = null;
       quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.BooleanType", null, null, GlobalScope.getInstance(), false);
       return quotedNode_1;
     }
 
-    private static SNode _quotation_createNode_ixz87t_a0a0a0b() {
+    private static SNode _quotation_createNode_ixz87t_a0a0a41j() {
       SNode quotedNode_1 = null;
       quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.IntegerType", null, null, GlobalScope.getInstance(), false);
       return quotedNode_1;
     }
 
-    private static boolean eq_ixz87t_a0a0a0c1(Object a, Object b) {
+    private static boolean eq_ixz87t_a0a0a0f9(Object a, Object b) {
       return (a != null ?
         a.equals(b) :
         a == b
       );
     }
 
-    private static boolean eq_ixz87t_a0a0a0a0a0a0a0d1(Object a, Object b) {
+    private static boolean eq_ixz87t_a0a0a0a0a0a0a0g9(Object a, Object b) {
       return (a != null ?
         a.equals(b) :
         a == b
       );
     }
 
-    private static boolean eq_ixz87t_a0a0a0a0a0a0a0i1(Object a, Object b) {
+    private static boolean eq_ixz87t_a0a0a0a0a0a0a0l9(Object a, Object b) {
       return (a != null ?
         a.equals(b) :
         a == b
       );
     }
 
-    private static boolean eq_ixz87t_a0e0i1(Object a, Object b) {
+    private static boolean eq_ixz87t_a0e0l9(Object a, Object b) {
       return (a != null ?
         a.equals(b) :
         a == b
       );
     }
 
-    private static boolean eq_ixz87t_a0a0a0j1(Object a, Object b) {
+    private static boolean eq_ixz87t_a0a0a0m9(Object a, Object b) {
       return (a != null ?
         a.equals(b) :
         a == b
       );
     }
 
-    private static boolean eq_ixz87t_a0c0j1(Object a, Object b) {
+    private static boolean eq_ixz87t_a0c0m9(Object a, Object b) {
       return (a != null ?
         a.equals(b) :
         a == b
       );
     }
 
-    public static boolean isEmpty_ixz87t_a0a0b0a0k1(String str) {
+    public static boolean isEmpty_ixz87t_a0a0b0a0n9(String str) {
       return str == null || str.length() == 0;
     }
 
-    private static boolean neq_ixz87t_a0a1a0a01b(Object a, Object b) {
+    private static boolean neq_ixz87t_a0a1a0a31j(Object a, Object b) {
       return !((a != null ?
         a.equals(b) :
         a == b
       ));
     }
 
-    public static boolean isEmpty_ixz87t_a0c0a0k1(String str) {
+    public static boolean isEmpty_ixz87t_a0c0a0n9(String str) {
       return str == null || str.length() == 0;
     }
+  }
+
+  private static boolean eq_ixz87t_a0a0a0b0h(Object a, Object b) {
+    return (a != null ?
+      a.equals(b) :
+      a == b
+    );
+  }
+
+  private static boolean eq_ixz87t_a0b0a0b0h(Object a, Object b) {
+    return (a != null ?
+      a.equals(b) :
+      a == b
+    );
+  }
+
+  private static boolean eq_ixz87t_a0a1a0a0a0a0a0a9a7(Object a, Object b) {
+    return (a != null ?
+      a.equals(b) :
+      a == b
+    );
   }
 }
