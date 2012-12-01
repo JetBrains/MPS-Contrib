@@ -6,6 +6,8 @@
     <JAVADOC>
       <root url="http://commons.apache.org/logging/commons-logging-1.1/apidocs/" />
     </JAVADOC>
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/src/commons-logging-1.1.1-src.zip!/commons-logging-1.1.1-src/src/java" />
+    </SOURCES>
   </library>
 </component>

@@ -4,6 +4,8 @@
       <root url="jar://$PROJECT_DIR$/lib/extensions.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/extensions" />
+    </SOURCES>
   </library>
 </component>
