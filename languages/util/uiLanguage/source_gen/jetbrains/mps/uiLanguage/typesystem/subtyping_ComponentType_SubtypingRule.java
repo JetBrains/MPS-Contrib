@@ -15,6 +15,7 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.SModelUtil_new;
 import jetbrains.mps.project.GlobalScope;
+import org.jetbrains.mps.openapi.model.SNodeAccessUtil;
 
 public class subtyping_ComponentType_SubtypingRule extends SubtypingRule_Runtime implements ISubtypingRule_Runtime {
   public subtyping_ComponentType_SubtypingRule() {
@@ -50,14 +51,14 @@ public class subtyping_ComponentType_SubtypingRule extends SubtypingRule_Runtime
   private static SNode _quotation_createNode_1j2wpd_a0a0a2a1(Object parameter_1) {
     SNode quotedNode_2 = null;
     quotedNode_2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.uiLanguage.structure.ComponentType", null, null, GlobalScope.getInstance(), false);
-    quotedNode_2.setReferenceTarget("component", (SNode) parameter_1);
+    SNodeAccessUtil.setReferenceTarget(quotedNode_2, "component", (SNode) parameter_1);
     return quotedNode_2;
   }
 
   private static SNode _quotation_createNode_1j2wpd_a0a0a3a1(Object parameter_1) {
     SNode quotedNode_2 = null;
     quotedNode_2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", null, null, GlobalScope.getInstance(), false);
-    quotedNode_2.setReferenceTarget("classifier", (SNode) parameter_1);
+    SNodeAccessUtil.setReferenceTarget(quotedNode_2, "classifier", (SNode) parameter_1);
     return quotedNode_2;
   }
 }
