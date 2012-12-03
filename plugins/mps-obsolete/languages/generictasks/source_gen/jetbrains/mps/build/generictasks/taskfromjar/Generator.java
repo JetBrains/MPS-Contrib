@@ -27,6 +27,7 @@ import java.io.File;
 import org.apache.tools.ant.types.Reference;
 import jetbrains.mps.smodel.SModelUtil_new;
 import jetbrains.mps.project.GlobalScope;
+import org.jetbrains.mps.openapi.model.SNodeAccessUtil;
 
 public class Generator {
   private static final Logger LOG = Logger.getLogger(Generator.class);
@@ -343,14 +344,14 @@ public class Generator {
     private static SNode _quotation_createNode_ixz87t_a0a1a1a01j(Object parameter_1) {
       SNode quotedNode_2 = null;
       quotedNode_2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.StringLiteral", null, null, GlobalScope.getInstance(), false);
-      quotedNode_2.setProperty("value", (String) parameter_1);
+      SNodeAccessUtil.setProperty(quotedNode_2, "value", (String) parameter_1);
       return quotedNode_2;
     }
 
     private static SNode _quotation_createNode_ixz87t_a0d0l9(Object parameter_1) {
       SNode quotedNode_2 = null;
       quotedNode_2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.build.generictasks.structure.NestedDeclaration", null, null, GlobalScope.getInstance(), false);
-      quotedNode_2.setReferenceTarget("declaration", (SNode) parameter_1);
+      SNodeAccessUtil.setReferenceTarget(quotedNode_2, "declaration", (SNode) parameter_1);
       return quotedNode_2;
     }
 

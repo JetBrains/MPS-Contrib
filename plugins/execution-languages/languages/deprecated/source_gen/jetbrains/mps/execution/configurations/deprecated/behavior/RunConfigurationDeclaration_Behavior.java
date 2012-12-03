@@ -21,6 +21,7 @@ import jetbrains.mps.project.GlobalScope;
 import jetbrains.mps.smodel.SReference;
 import jetbrains.mps.smodel.SModelReference;
 import jetbrains.mps.smodel.SNodeId;
+import org.jetbrains.mps.openapi.model.SNodeAccessUtil;
 
 public class RunConfigurationDeclaration_Behavior {
   public static void init(SNode thisNode) {
@@ -96,7 +97,7 @@ public class RunConfigurationDeclaration_Behavior {
   private static SNode _quotation_createNode_ym0401_a0a5(Object parameter_1) {
     SNode quotedNode_2 = null;
     quotedNode_2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.RunConfigType", null, null, GlobalScope.getInstance(), false);
-    quotedNode_2.setReferenceTarget("runConfig", (SNode) parameter_1);
+    SNodeAccessUtil.setReferenceTarget(quotedNode_2, "runConfig", (SNode) parameter_1);
     return quotedNode_2;
   }
 

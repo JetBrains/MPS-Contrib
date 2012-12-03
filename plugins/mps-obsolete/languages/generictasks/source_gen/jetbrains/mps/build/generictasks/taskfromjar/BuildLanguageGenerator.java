@@ -8,6 +8,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.SModelUtil_new;
 import jetbrains.mps.project.GlobalScope;
+import org.jetbrains.mps.openapi.model.SNodeAccessUtil;
 
 public class BuildLanguageGenerator {
   private static final BuildLanguageGenerator INSTANCE = new BuildLanguageGenerator();
@@ -51,7 +52,7 @@ public class BuildLanguageGenerator {
   private static SNode _quotation_createNode_moyhg6_a0a4(Object parameter_1) {
     SNode quotedNode_2 = null;
     quotedNode_2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.build.generictasks.structure.TaskReference", null, null, GlobalScope.getInstance(), false);
-    quotedNode_2.setReferenceTarget("declaration", (SNode) parameter_1);
+    SNodeAccessUtil.setReferenceTarget(quotedNode_2, "declaration", (SNode) parameter_1);
     return quotedNode_2;
   }
 }
