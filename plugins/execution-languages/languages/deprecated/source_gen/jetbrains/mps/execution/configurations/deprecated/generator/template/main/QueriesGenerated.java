@@ -258,11 +258,11 @@ public class QueriesGenerated {
     return Node_FunctionParameter_Behavior.getParameterType_5147346160405686358(_context.getNode());
   }
 
-  public static SNode sourceNodeQuery_4462513030604562848(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+  public static SNode sourceNodeQuery_4462513030604562802(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return Node_FunctionParameter_Behavior.getParameterType_5147346160405686358(_context.getNode());
   }
 
-  public static SNode sourceNodeQuery_4462513030604562802(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+  public static SNode sourceNodeQuery_4462513030604562848(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return Node_FunctionParameter_Behavior.getParameterType_5147346160405686358(_context.getNode());
   }
 

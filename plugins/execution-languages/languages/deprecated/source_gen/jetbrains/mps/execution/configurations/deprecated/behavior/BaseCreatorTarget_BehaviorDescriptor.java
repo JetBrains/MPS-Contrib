@@ -4,6 +4,7 @@ package jetbrains.mps.execution.configurations.deprecated.behavior;
 
 import jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor;
 import jetbrains.mps.smodel.SNode;
+import org.jetbrains.mps.openapi.language.SConcept;
 
 public abstract class BaseCreatorTarget_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor {
   public BaseCreatorTarget_BehaviorDescriptor() {
@@ -11,6 +12,10 @@ public abstract class BaseCreatorTarget_BehaviorDescriptor extends BaseConcept_B
 
   public SNode virtual_getParameter_314981645426570613(SNode thisNode) {
     return BaseCreatorTarget_Behavior.virtual_getParameter_314981645426570613(thisNode);
+  }
+
+  public SNode virtual_getType_6575219246653208151(SConcept thisConcept) {
+    return BaseCreatorTarget_Behavior.virtual_getType_6575219246653208151(thisConcept);
   }
 
   @Override

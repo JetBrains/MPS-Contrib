@@ -11,6 +11,7 @@
   <import index="tp6y" modelUID="r:00000000-0000-4000-0000-011c895903d6(jetbrains.mps.baseLanguage.dates.accessories)" version="-1" />
   <import index="tp6x" modelUID="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)" version="1" implicit="yes" />
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
+  <import index="tp76" modelUID="r:00000000-0000-4000-0000-011c895903ce(jetbrains.mps.baseLanguage.dates.behavior)" version="-1" implicit="yes" />
   <roots>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1169481390637">
       <property name="rootable" nameId="tpce.1096454100552" value="true" />
@@ -653,6 +654,12 @@
       <property name="conceptAlias" nameId="tpce.5092175715804935370" value="allTimeZoneIDs" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
     </node>
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2226821765371868198">
+      <property name="name" nameId="tpck.1169194664001" value="TokenCondition_datetimeToFormat" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="format.date" />
+      <property name="conceptAlias" nameId="tpce.5092175715804935370" value="datetimeToFormat" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
+    </node>
   </roots>
   <root id="1169481390637">
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1169488417691">
@@ -754,19 +761,9 @@
       <link role="conceptLinkDeclaration" roleId="tpce.1105736734721" targetNodeId="tpee.1137545148427" resolveInfo="conceptFunctionReturnType" />
       <node role="target" roleId="tpce.1105736901241" type="tpee.BooleanType" typeId="tpee.1070534644030" id="1172162332013" />
     </node>
-    <node role="conceptLink" roleId="tpce.1105736949336" type="tpce.AggregationConceptLink" typeId="tpce.1105736889287" id="1172162116793">
-      <link role="conceptLinkDeclaration" roleId="tpce.1105736734721" targetNodeId="tpee.1137546998352" resolveInfo="conceptFunctionParameter" />
-      <node role="target" roleId="tpce.1105736901241" type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1172162157215">
-        <property name="abstract" nameId="tpce.4628067390765956802" value="false" />
-        <property name="final" nameId="tpce.4628067390765956807" value="false" />
-        <property name="name" nameId="tpck.1169194664001" value="TokenCondition_datetimeToFormat" />
-        <property name="conceptAlias" nameId="tpce.5092175715804935370" value="datetimeToFormat" />
-        <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
-        <node role="conceptLink" roleId="tpce.1105736949336" type="tpce.AggregationConceptLink" typeId="tpce.1105736889287" id="1172162304446">
-          <link role="conceptLinkDeclaration" roleId="tpce.1105736734721" targetNodeId="tpee.1137545963098" resolveInfo="conceptFunctionParameterType" />
-          <node role="target" roleId="tpce.1105736901241" type="tp6x.DateTimeType" typeId="1171902375079" id="1172162315705" />
-        </node>
-      </node>
+    <node role="conceptLink" roleId="tpce.1105736949336" type="tpce.ReferenceConceptLink" typeId="tpce.1105736778597" id="2226821765371982136">
+      <link role="conceptLinkDeclaration" roleId="tpce.1105736734721" targetNodeId="tpee.1161119487665" resolveInfo="applicableConceptFunctionParameter" />
+      <link role="target" roleId="tpce.1105736807942" targetNodeId="2226821765371868198" resolveInfo="TokenCondition_datetimeToFormat" />
     </node>
   </root>
   <root id="1171902375079" />
@@ -1210,6 +1207,10 @@
   <root id="1892577441204578414">
     <node role="conceptPropertyDeclaration" roleId="tpce.1137467167200" type="tpce.StringConceptPropertyDeclaration" typeId="tpce.1105725281956" id="7678715681280028185">
       <property name="name" nameId="tpck.1169194664001" value="defaultKeyword" />
+      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="4694041203278846461" />
+      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.MigratedToMethodAnnotation" typeId="tpce.8080932314785812236" id="4694041203278846460">
+        <link role="method" roleId="tpce.8080932314785812847" targetNodeId="tp76.1262430001741498121" resolveInfo="getDefaultKeyword" />
+      </node>
     </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1892577441204578966">
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
@@ -1592,5 +1593,11 @@
     </node>
   </root>
   <root id="5293902215865424196" />
+  <root id="2226821765371868198">
+    <node role="conceptLink" roleId="tpce.1105736949336" type="tpce.AggregationConceptLink" typeId="tpce.1105736889287" id="2226821765371874715">
+      <link role="conceptLinkDeclaration" roleId="tpce.1105736734721" targetNodeId="tpee.1137545963098" resolveInfo="conceptFunctionParameterType" />
+      <node role="target" roleId="tpce.1105736901241" type="tp6x.DateTimeType" typeId="1171902375079" id="2226821765371874716" />
+    </node>
+  </root>
 </model>
 

@@ -10,7 +10,7 @@
   <unitInfo fileName="BooleanType_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.BooleanType_BehaviorDescriptor" />
   <unitInfo fileName="CallReferenceType_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.CallReferenceType_BehaviorDescriptor" />
   <unitInfo fileName="CallReference_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="29" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.CallReference_BehaviorDescriptor" />
-  <unitInfo fileName="Enum_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.Enum_BehaviorDescriptor" />
+  <unitInfo fileName="Enum_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="22" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.Enum_BehaviorDescriptor" />
   <unitInfo fileName="ExternalPropertyDeclaration_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.ExternalPropertyDeclaration_BehaviorDescriptor" />
   <unitInfo fileName="FileName_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="24" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.FileName_BehaviorDescriptor" />
   <unitInfo fileName="FileType_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.FileType_BehaviorDescriptor" />
@@ -25,7 +25,7 @@
   <unitInfo fileName="ImportPropertiesFromFile_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.ImportPropertiesFromFile_BehaviorDescriptor" />
   <unitInfo fileName="ImportPropertyNode_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="26" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.ImportPropertyNode_BehaviorDescriptor" />
   <unitInfo fileName="IntLiteral_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="24" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.IntLiteral_BehaviorDescriptor" />
-  <unitInfo fileName="IntegerEnum_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.IntegerEnum_BehaviorDescriptor" />
+  <unitInfo fileName="IntegerEnum_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.IntegerEnum_BehaviorDescriptor" />
   <unitInfo fileName="IntegerType_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.IntegerType_BehaviorDescriptor" />
   <unitInfo fileName="MultiLineString_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="30" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.MultiLineString_BehaviorDescriptor" />
   <unitInfo fileName="PlusOperation_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="33" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.PlusOperation_BehaviorDescriptor" />
@@ -34,7 +34,7 @@
   <unitInfo fileName="PropertyReference_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="30" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.PropertyReference_BehaviorDescriptor" />
   <unitInfo fileName="PropertyType_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.PropertyType_BehaviorDescriptor" />
   <unitInfo fileName="PropertyValueExpression_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="26" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.PropertyValueExpression_BehaviorDescriptor" />
-  <unitInfo fileName="StringEnum_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.StringEnum_BehaviorDescriptor" />
+  <unitInfo fileName="StringEnum_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.StringEnum_BehaviorDescriptor" />
   <unitInfo fileName="StringLiteral_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="30" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.StringLiteral_BehaviorDescriptor" />
   <unitInfo fileName="StringType_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.StringType_BehaviorDescriptor" />
   <unitInfo fileName="TargetDeclaration_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="27" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.TargetDeclaration_BehaviorDescriptor" />
@@ -510,47 +510,53 @@
     <unitInfo nodeId="1213877409665" fileName="IntLiteral_Behavior.java" startLine="8" startPosition="0" endLine="23" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.IntLiteral_Behavior" />
   </root>
   <root nodeId="1213877413897" modelId="r:00000000-0000-4000-0000-011c895904c0(jetbrains.mps.buildlanguage.behavior)">
-    <nodeInfo nodeId="1213877413901" fileName="Enum_Behavior.java" startLine="14" startPosition="68" endLine="15" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1213877413905" fileName="Enum_Behavior.java" startLine="15" startPosition="41" endLine="16" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1213877413912" fileName="Enum_Behavior.java" startLine="17" startPosition="118" endLine="18" endPosition="208" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1213877413926" fileName="Enum_Behavior.java" startLine="19" startPosition="107" endLine="20" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1213877413955" fileName="Enum_Behavior.java" startLine="22" startPosition="5" endLine="23" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1213877413960" fileName="Enum_Behavior.java" startLine="23" startPosition="19" endLine="24" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1213877413985" fileName="Enum_Behavior.java" startLine="29" startPosition="237" endLine="30" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1213877413987" fileName="Enum_Behavior.java" startLine="32" startPosition="5" endLine="33" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1213877413897" fileName="Enum_Behavior.java" startLine="11" startPosition="0" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
-    <nodeInfo nodeId="1213877413924" fileName="Enum_Behavior.java" startLine="18" startPosition="208" endLine="21" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1213877413975" fileName="Enum_Behavior.java" startLine="28" startPosition="107" endLine="31" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1213877413969" fileName="Enum_Behavior.java" startLine="27" startPosition="86" endLine="32" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="1213877413910" fileName="Enum_Behavior.java" startLine="16" startPosition="19" endLine="22" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="1213877413897" fileName="Enum_Behavior.java" startLine="27" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_inEnum_1213877413964#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;)Z" />
-    <nodeInfo nodeId="1213877413897" fileName="Enum_Behavior.java" startLine="14" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_toString_1213877413898#(Ljetbrains/mps/smodel/SNode;)Ljava/lang/String;" />
-    <scopeInfo nodeId="1213877413990" fileName="Enum_Behavior.java" startLine="11" startPosition="43" endLine="11" endPosition="43" />
-    <scopeInfo nodeId="1213877413925" fileName="Enum_Behavior.java" startLine="19" startPosition="107" endLine="20" endPosition="24" />
-    <scopeInfo nodeId="1213877413984" fileName="Enum_Behavior.java" startLine="29" startPosition="237" endLine="30" endPosition="20" />
-    <scopeInfo nodeId="1213877413897" fileName="Enum_Behavior.java" startLine="11" startPosition="0" endLine="13" endPosition="0">
+    <nodeInfo nodeId="1213877413901" fileName="Enum_Behavior.java" startLine="15" startPosition="68" endLine="16" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1213877413905" fileName="Enum_Behavior.java" startLine="16" startPosition="41" endLine="17" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1213877413912" fileName="Enum_Behavior.java" startLine="18" startPosition="118" endLine="19" endPosition="208" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1213877413926" fileName="Enum_Behavior.java" startLine="20" startPosition="107" endLine="21" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1213877413955" fileName="Enum_Behavior.java" startLine="23" startPosition="5" endLine="24" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1213877413960" fileName="Enum_Behavior.java" startLine="24" startPosition="19" endLine="25" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1213877413985" fileName="Enum_Behavior.java" startLine="30" startPosition="237" endLine="31" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1213877413987" fileName="Enum_Behavior.java" startLine="33" startPosition="5" endLine="34" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6575219246653629298" fileName="Enum_Behavior.java" startLine="37" startPosition="81" endLine="38" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1213877413897" fileName="Enum_Behavior.java" startLine="12" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="1213877413924" fileName="Enum_Behavior.java" startLine="19" startPosition="208" endLine="22" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1213877413975" fileName="Enum_Behavior.java" startLine="29" startPosition="107" endLine="32" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1213877413897" fileName="Enum_Behavior.java" startLine="37" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getType_6575219246653626201#(Lorg/jetbrains/mps/openapi/language/SConcept;)Ljetbrains/mps/smodel/SNode;" />
+    <nodeInfo nodeId="1213877413969" fileName="Enum_Behavior.java" startLine="28" startPosition="86" endLine="33" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="1213877413910" fileName="Enum_Behavior.java" startLine="17" startPosition="19" endLine="23" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
+    <nodeInfo nodeId="1213877413897" fileName="Enum_Behavior.java" startLine="28" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_inEnum_1213877413964#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;)Z" />
+    <nodeInfo nodeId="1213877413897" fileName="Enum_Behavior.java" startLine="15" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_toString_1213877413898#(Ljetbrains/mps/smodel/SNode;)Ljava/lang/String;" />
+    <scopeInfo nodeId="1213877413990" fileName="Enum_Behavior.java" startLine="12" startPosition="43" endLine="12" endPosition="43" />
+    <scopeInfo nodeId="1213877413925" fileName="Enum_Behavior.java" startLine="20" startPosition="107" endLine="21" endPosition="24" />
+    <scopeInfo nodeId="1213877413984" fileName="Enum_Behavior.java" startLine="30" startPosition="237" endLine="31" endPosition="20" />
+    <scopeInfo nodeId="6575219246653626204" fileName="Enum_Behavior.java" startLine="37" startPosition="81" endLine="38" endPosition="16" />
+    <scopeInfo nodeId="1213877413897" fileName="Enum_Behavior.java" startLine="12" startPosition="0" endLine="14" endPosition="0">
       <varInfo nodeId="1213877413897" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="1213877413974" fileName="Enum_Behavior.java" startLine="28" startPosition="107" endLine="31" endPosition="7" />
-    <scopeInfo nodeId="1213877413911" fileName="Enum_Behavior.java" startLine="17" startPosition="118" endLine="21" endPosition="7" />
-    <scopeInfo nodeId="1213877413969" fileName="Enum_Behavior.java" startLine="27" startPosition="86" endLine="32" endPosition="5">
+    <scopeInfo nodeId="1213877413974" fileName="Enum_Behavior.java" startLine="29" startPosition="107" endLine="32" endPosition="7" />
+    <scopeInfo nodeId="1213877413897" fileName="Enum_Behavior.java" startLine="37" startPosition="0" endLine="40" endPosition="0">
+      <varInfo nodeId="1213877413897" varName="thisConcept" />
+    </scopeInfo>
+    <scopeInfo nodeId="1213877413911" fileName="Enum_Behavior.java" startLine="18" startPosition="118" endLine="22" endPosition="7" />
+    <scopeInfo nodeId="1213877413969" fileName="Enum_Behavior.java" startLine="28" startPosition="86" endLine="33" endPosition="5">
       <varInfo nodeId="1213877413970" varName="constant" />
     </scopeInfo>
-    <scopeInfo nodeId="1213877413910" fileName="Enum_Behavior.java" startLine="16" startPosition="19" endLine="22" endPosition="5">
+    <scopeInfo nodeId="1213877413910" fileName="Enum_Behavior.java" startLine="17" startPosition="19" endLine="23" endPosition="5">
       <varInfo nodeId="1213877413940" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="1213877413968" fileName="Enum_Behavior.java" startLine="27" startPosition="86" endLine="33" endPosition="17" />
-    <scopeInfo nodeId="1213877413897" fileName="Enum_Behavior.java" startLine="27" startPosition="0" endLine="35" endPosition="0">
+    <scopeInfo nodeId="1213877413968" fileName="Enum_Behavior.java" startLine="28" startPosition="86" endLine="34" endPosition="17" />
+    <scopeInfo nodeId="1213877413897" fileName="Enum_Behavior.java" startLine="28" startPosition="0" endLine="36" endPosition="0">
       <varInfo nodeId="1213877413966" varName="nodeToCheck" />
       <varInfo nodeId="1213877413897" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="1213877413900" fileName="Enum_Behavior.java" startLine="14" startPosition="68" endLine="24" endPosition="25">
+    <scopeInfo nodeId="1213877413900" fileName="Enum_Behavior.java" startLine="15" startPosition="68" endLine="25" endPosition="25">
       <varInfo nodeId="1213877413902" varName="sb" />
     </scopeInfo>
-    <scopeInfo nodeId="1213877413897" fileName="Enum_Behavior.java" startLine="14" startPosition="0" endLine="26" endPosition="0">
+    <scopeInfo nodeId="1213877413897" fileName="Enum_Behavior.java" startLine="15" startPosition="0" endLine="27" endPosition="0">
       <varInfo nodeId="1213877413897" varName="thisNode" />
     </scopeInfo>
-    <unitInfo nodeId="1213877413897" fileName="Enum_Behavior.java" startLine="10" startPosition="0" endLine="36" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.Enum_Behavior" />
+    <unitInfo nodeId="1213877413897" fileName="Enum_Behavior.java" startLine="11" startPosition="0" endLine="41" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.Enum_Behavior" />
   </root>
   <root nodeId="1213877443937" modelId="r:00000000-0000-4000-0000-011c895904c0(jetbrains.mps.buildlanguage.behavior)">
     <nodeInfo nodeId="1213877443937" fileName="TargetReference_Behavior.java" startLine="8" startPosition="0" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
@@ -861,6 +867,34 @@
       <varInfo nodeId="5699548131010533026" varName="thisNode" />
     </scopeInfo>
     <unitInfo nodeId="5699548131010533026" fileName="IDeclaration_Behavior.java" startLine="12" startPosition="0" endLine="79" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.IDeclaration_Behavior" />
+  </root>
+  <root nodeId="6575219246653629371" modelId="r:00000000-0000-4000-0000-011c895904c0(jetbrains.mps.buildlanguage.behavior)">
+    <nodeInfo nodeId="6575219246653629594" fileName="IntegerEnum_Behavior.java" startLine="13" startPosition="81" endLine="14" endPosition="103" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6575219246653629371" fileName="IntegerEnum_Behavior.java" startLine="10" startPosition="0" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="6575219246653629371" fileName="IntegerEnum_Behavior.java" startLine="13" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getType_6575219246653626201#(Lorg/jetbrains/mps/openapi/language/SConcept;)Ljetbrains/mps/smodel/SNode;" />
+    <scopeInfo nodeId="6575219246653629373" fileName="IntegerEnum_Behavior.java" startLine="10" startPosition="43" endLine="10" endPosition="43" />
+    <scopeInfo nodeId="6575219246653629454" fileName="IntegerEnum_Behavior.java" startLine="13" startPosition="81" endLine="14" endPosition="103" />
+    <scopeInfo nodeId="6575219246653629371" fileName="IntegerEnum_Behavior.java" startLine="10" startPosition="0" endLine="12" endPosition="0">
+      <varInfo nodeId="6575219246653629371" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="6575219246653629371" fileName="IntegerEnum_Behavior.java" startLine="13" startPosition="0" endLine="16" endPosition="0">
+      <varInfo nodeId="6575219246653629371" varName="thisConcept" />
+    </scopeInfo>
+    <unitInfo nodeId="6575219246653629371" fileName="IntegerEnum_Behavior.java" startLine="9" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.IntegerEnum_Behavior" />
+  </root>
+  <root nodeId="6575219246653635466" modelId="r:00000000-0000-4000-0000-011c895904c0(jetbrains.mps.buildlanguage.behavior)">
+    <nodeInfo nodeId="6575219246653635520" fileName="StringEnum_Behavior.java" startLine="13" startPosition="81" endLine="14" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6575219246653635466" fileName="StringEnum_Behavior.java" startLine="10" startPosition="0" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="6575219246653635466" fileName="StringEnum_Behavior.java" startLine="13" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getType_6575219246653626201#(Lorg/jetbrains/mps/openapi/language/SConcept;)Ljetbrains/mps/smodel/SNode;" />
+    <scopeInfo nodeId="6575219246653635468" fileName="StringEnum_Behavior.java" startLine="10" startPosition="43" endLine="10" endPosition="43" />
+    <scopeInfo nodeId="6575219246653635475" fileName="StringEnum_Behavior.java" startLine="13" startPosition="81" endLine="14" endPosition="102" />
+    <scopeInfo nodeId="6575219246653635466" fileName="StringEnum_Behavior.java" startLine="10" startPosition="0" endLine="12" endPosition="0">
+      <varInfo nodeId="6575219246653635466" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="6575219246653635466" fileName="StringEnum_Behavior.java" startLine="13" startPosition="0" endLine="16" endPosition="0">
+      <varInfo nodeId="6575219246653635466" varName="thisConcept" />
+    </scopeInfo>
+    <unitInfo nodeId="6575219246653635466" fileName="StringEnum_Behavior.java" startLine="9" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.StringEnum_Behavior" />
   </root>
 </debugInfo>
 

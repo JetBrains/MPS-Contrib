@@ -94,56 +94,56 @@
     <unitInfo nodeId="353793545802854619" fileName="checkAttributeDeclarationDefaultValueIsInEnum_NonTypesystemRule.java" startLine="18" startPosition="0" endLine="54" endPosition="0" unitName="jetbrains.mps.build.generictasks.typesystem.checkAttributeDeclarationDefaultValueIsInEnum_NonTypesystemRule" />
   </root>
   <root nodeId="353793545802854672" modelId="r:eac20369-5993-49cc-a9ac-fbeb7a91d81f(jetbrains.mps.build.generictasks.typesystem)">
-    <nodeInfo nodeId="353793545802854687" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="21" startPosition="7" endLine="22" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="353793545802854687" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="22" startPosition="99" endLine="23" endPosition="210" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="353793545802854687" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="23" startPosition="210" endLine="24" endPosition="338" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="353793545802854699" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="27" startPosition="9" endLine="28" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="353793545802854699" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="28" startPosition="57" endLine="29" endPosition="212" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="353793545802854699" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="29" startPosition="212" endLine="30" endPosition="298" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="353793545802854672" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="36" startPosition="46" endLine="37" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="353793545802854672" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="41" startPosition="5" endLine="42" endPosition="119" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="353793545802854672" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="42" startPosition="119" endLine="43" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="353793545802854672" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="47" startPosition="30" endLine="48" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="353793545802854672" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="16" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="typeof_GenericAttributeDeclaration_InferenceRule#()V" />
-    <nodeInfo nodeId="353793545802854672" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="36" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getApplicableConceptFQName#()Ljava/lang/String;" />
-    <nodeInfo nodeId="353793545802854672" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="47" startPosition="0" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="overrides#()Z" />
-    <nodeInfo nodeId="353793545802854672" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="40" startPosition="68" endLine="44" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="353793545802854687" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="20" startPosition="151" endLine="25" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="353793545802854699" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="26" startPosition="75" endLine="31" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="353793545802854672" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="40" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableAndPattern#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
-    <nodeInfo nodeId="353793545802854697" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="25" startPosition="7" endLine="32" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="353793545802854674" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="19" startPosition="124" endLine="33" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="353793545802854672" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="19" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="applyRule#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
-    <scopeInfo nodeId="353793545802854672" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="16" startPosition="61" endLine="16" endPosition="61" />
-    <scopeInfo nodeId="353793545802854672" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="36" startPosition="46" endLine="37" endPosition="77" />
-    <scopeInfo nodeId="353793545802854672" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="47" startPosition="30" endLine="48" endPosition="17" />
-    <scopeInfo nodeId="353793545802854672" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="16" startPosition="0" endLine="18" endPosition="0" />
-    <scopeInfo nodeId="353793545802854672" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="41" startPosition="5" endLine="43" endPosition="45">
+    <nodeInfo nodeId="353793545802854687" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="24" startPosition="7" endLine="25" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="353793545802854687" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="25" startPosition="99" endLine="26" endPosition="210" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="353793545802854687" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="26" startPosition="210" endLine="27" endPosition="338" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="353793545802854699" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="30" startPosition="9" endLine="31" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="353793545802854699" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="31" startPosition="57" endLine="32" endPosition="212" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="353793545802854699" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="32" startPosition="212" endLine="33" endPosition="439" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="353793545802854672" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="39" startPosition="46" endLine="40" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="353793545802854672" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="44" startPosition="5" endLine="45" endPosition="119" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="353793545802854672" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="45" startPosition="119" endLine="46" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="353793545802854672" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="50" startPosition="30" endLine="51" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="353793545802854672" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="19" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="typeof_GenericAttributeDeclaration_InferenceRule#()V" />
+    <nodeInfo nodeId="353793545802854672" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="39" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getApplicableConceptFQName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="353793545802854672" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="50" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="overrides#()Z" />
+    <nodeInfo nodeId="353793545802854672" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="43" startPosition="68" endLine="47" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="353793545802854687" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="23" startPosition="151" endLine="28" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="353793545802854699" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="29" startPosition="75" endLine="34" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="353793545802854672" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="43" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableAndPattern#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+    <nodeInfo nodeId="353793545802854697" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="28" startPosition="7" endLine="35" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="353793545802854674" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="22" startPosition="124" endLine="36" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="353793545802854672" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="22" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="applyRule#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+    <scopeInfo nodeId="353793545802854672" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="19" startPosition="61" endLine="19" endPosition="61" />
+    <scopeInfo nodeId="353793545802854672" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="39" startPosition="46" endLine="40" endPosition="77" />
+    <scopeInfo nodeId="353793545802854672" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="50" startPosition="30" endLine="51" endPosition="17" />
+    <scopeInfo nodeId="353793545802854672" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="19" startPosition="0" endLine="21" endPosition="0" />
+    <scopeInfo nodeId="353793545802854672" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="44" startPosition="5" endLine="46" endPosition="45">
       <varInfo nodeId="353793545802854672" varName="b" />
     </scopeInfo>
-    <scopeInfo nodeId="353793545802854687" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="21" startPosition="7" endLine="24" endPosition="338">
+    <scopeInfo nodeId="353793545802854687" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="24" startPosition="7" endLine="27" endPosition="338">
       <varInfo nodeId="353793545802854687" varName="_info_12389875345" />
       <varInfo nodeId="353793545802854687" varName="_nodeToCheck_1029348928467" />
     </scopeInfo>
-    <scopeInfo nodeId="353793545802854699" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="27" startPosition="9" endLine="30" endPosition="298">
+    <scopeInfo nodeId="353793545802854699" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="30" startPosition="9" endLine="33" endPosition="439">
       <varInfo nodeId="353793545802854699" varName="_info_12389875345" />
       <varInfo nodeId="353793545802854699" varName="_nodeToCheck_1029348928467" />
     </scopeInfo>
-    <scopeInfo nodeId="353793545802854672" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="36" startPosition="0" endLine="39" endPosition="0" />
-    <scopeInfo nodeId="353793545802854672" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="47" startPosition="0" endLine="50" endPosition="0" />
-    <scopeInfo nodeId="353793545802854672" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="40" startPosition="68" endLine="44" endPosition="5" />
-    <scopeInfo nodeId="353793545802854698" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="26" startPosition="75" endLine="31" endPosition="9" />
-    <scopeInfo nodeId="353793545802854672" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="40" startPosition="0" endLine="46" endPosition="0">
+    <scopeInfo nodeId="353793545802854672" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="39" startPosition="0" endLine="42" endPosition="0" />
+    <scopeInfo nodeId="353793545802854672" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="50" startPosition="0" endLine="53" endPosition="0" />
+    <scopeInfo nodeId="353793545802854672" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="43" startPosition="68" endLine="47" endPosition="5" />
+    <scopeInfo nodeId="353793545802854698" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="29" startPosition="75" endLine="34" endPosition="9" />
+    <scopeInfo nodeId="353793545802854672" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="43" startPosition="0" endLine="49" endPosition="0">
       <varInfo nodeId="353793545802854672" varName="argument" />
     </scopeInfo>
-    <scopeInfo nodeId="353793545802854686" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="20" startPosition="151" endLine="32" endPosition="7" />
-    <scopeInfo nodeId="353793545802854673" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="19" startPosition="124" endLine="33" endPosition="5" />
-    <scopeInfo nodeId="353793545802854672" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="19" startPosition="0" endLine="35" endPosition="0">
+    <scopeInfo nodeId="353793545802854686" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="23" startPosition="151" endLine="35" endPosition="7" />
+    <scopeInfo nodeId="353793545802854673" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="22" startPosition="124" endLine="36" endPosition="5" />
+    <scopeInfo nodeId="353793545802854672" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="22" startPosition="0" endLine="38" endPosition="0">
       <varInfo nodeId="353793545802854672" varName="nodeToCheck" />
       <varInfo nodeId="353793545802854672" varName="status" />
       <varInfo nodeId="353793545802854672" varName="typeCheckingContext" />
     </scopeInfo>
-    <unitInfo nodeId="353793545802854672" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="15" startPosition="0" endLine="51" endPosition="0" unitName="jetbrains.mps.build.generictasks.typesystem.typeof_GenericAttributeDeclaration_InferenceRule" />
+    <unitInfo nodeId="353793545802854672" fileName="typeof_GenericAttributeDeclaration_InferenceRule.java" startLine="18" startPosition="0" endLine="54" endPosition="0" unitName="jetbrains.mps.build.generictasks.typesystem.typeof_GenericAttributeDeclaration_InferenceRule" />
   </root>
   <root nodeId="353793545802854718" modelId="r:eac20369-5993-49cc-a9ac-fbeb7a91d81f(jetbrains.mps.build.generictasks.typesystem)">
     <nodeInfo nodeId="353793545802854735" fileName="checkParentsOfInterfaceAreInterfaces_NonTypesystemRule.java" startLine="26" startPosition="9" endLine="27" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
