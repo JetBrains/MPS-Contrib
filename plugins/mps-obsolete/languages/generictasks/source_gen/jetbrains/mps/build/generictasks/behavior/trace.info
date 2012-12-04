@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="AttributeDeclaration_BehaviorDescriptor.java" startLine="12" startPosition="0" endLine="45" endPosition="0" unitName="jetbrains.mps.build.generictasks.behavior.AttributeDeclaration_BehaviorDescriptor" />
+  <unitInfo fileName="AttributeDeclaration_BehaviorDescriptor.java" startLine="14" startPosition="0" endLine="51" endPosition="0" unitName="jetbrains.mps.build.generictasks.behavior.AttributeDeclaration_BehaviorDescriptor" />
   <unitInfo fileName="Attribute_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.build.generictasks.behavior.Attribute_BehaviorDescriptor" />
   <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="38" endPosition="0" unitName="jetbrains.mps.build.generictasks.behavior.BehaviorAspectDescriptor" />
   <unitInfo fileName="BuiltInTaskDeclaration_BehaviorDescriptor.java" startLine="13" startPosition="0" endLine="94" endPosition="0" unitName="jetbrains.mps.build.generictasks.behavior.BuiltInTaskDeclaration_BehaviorDescriptor" />

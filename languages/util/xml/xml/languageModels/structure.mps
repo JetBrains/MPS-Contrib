@@ -91,6 +91,10 @@
     <node role="conceptLinkDeclaration" roleId="tpce.1137532086877" type="tpce.ReferenceConceptLinkDeclaration" typeId="tpce.1105741578420" id="1175095327345">
       <property name="name" nameId="tpck.1169194664001" value="correspondingElement" />
       <link role="targetType" roleId="tpce.1105736621938" targetNodeId="tpj8.1167838236835" resolveInfo="ElementDeclaration" />
+      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="3044950653914717085" />
+      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.MigratedToMethodAnnotation" typeId="tpce.8080932314785812236" id="3044950653914717084">
+        <link role="method" roleId="tpce.8080932314785812847" targetNodeId="tpjs.3044950653914717088" resolveInfo="getCorrespondingElement" />
+      </node>
     </node>
   </root>
   <root id="1161373262136">

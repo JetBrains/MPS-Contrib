@@ -4,6 +4,8 @@ package jetbrains.mps.execution.configurations.deprecated.behavior;
 
 import jetbrains.mps.lang.plugin.behavior.ActionDataParameterDeclaration_BehaviorDescriptor;
 import jetbrains.mps.smodel.SNode;
+import java.util.List;
+import org.jetbrains.mps.openapi.language.SConcept;
 
 public class RunConfigExecutionParameterDeclaration_BehaviorDescriptor extends ActionDataParameterDeclaration_BehaviorDescriptor {
   public RunConfigExecutionParameterDeclaration_BehaviorDescriptor() {
@@ -15,6 +17,10 @@ public class RunConfigExecutionParameterDeclaration_BehaviorDescriptor extends A
 
   public boolean virtual_canOperationBeChild_4593153787954614840(SNode thisNode, SNode parentNode) {
     return RunConfigExecutionParameterDeclaration_Behavior.virtual_canOperationBeChild_4593153787954614840(thisNode, parentNode);
+  }
+
+  public List<SNode> virtual_getOperationConcept_3044950653914717125(SConcept thisConcept) {
+    return RunConfigExecutionParameterDeclaration_Behavior.virtual_getOperationConcept_3044950653914717125(thisConcept);
   }
 
   @Override
