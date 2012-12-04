@@ -81,8 +81,8 @@
       </node>
     </node>
     <node role="dateFormat" roleId="tp6x.1169488417691" type="tp6x.DateFormat" typeId="tp6x.1169487448949" id="1172684313431">
-      <property name="dateFormatVisibility" nameId="tp6x.1173975856624" value="private" />
       <property name="name" nameId="tpck.1169194664001" value="fullDayOfWeek" />
+      <property name="dateFormatVisibility" nameId="tp6x.1173975856624" value="private" />
       <node role="token" roleId="tp6x.1169487470543" type="tp6x.DateTimePropertyFormatToken" typeId="tp6x.1173959836330" id="1173967535545">
         <link role="dateTimePropertyFormatConfiguration" roleId="tp6x.1173966637440" targetNodeId="tp6y.1173955366736" />
         <link role="dateTimePropertyFormatType" roleId="tp6x.1173959975857" targetNodeId="tp6y.1173955428462" />
@@ -164,16 +164,16 @@
       </node>
     </node>
     <node role="dateFormat" roleId="tp6x.1169488417691" type="tp6x.DateFormat" typeId="tp6x.1169487448949" id="1172332021204">
-      <property name="dateFormatVisibility" nameId="tp6x.1173975856624" value="private" />
       <property name="name" nameId="tpck.1169194664001" value="week" />
+      <property name="dateFormatVisibility" nameId="tp6x.1173975856624" value="private" />
       <node role="token" roleId="tp6x.1169487470543" type="tp6x.DateTimePropertyFormatToken" typeId="tp6x.1173959836330" id="1173967626122">
         <link role="dateTimePropertyFormatConfiguration" roleId="tp6x.1173966637440" targetNodeId="tp6y.1173955366736" />
         <link role="dateTimePropertyFormatType" roleId="tp6x.1173959975857" targetNodeId="tp6y.1173955388739" />
       </node>
     </node>
     <node role="dateFormat" roleId="tp6x.1169488417691" type="tp6x.DateFormat" typeId="tp6x.1169487448949" id="1172687345331">
-      <property name="dateFormatVisibility" nameId="tp6x.1173975856624" value="private" />
       <property name="name" nameId="tpck.1169194664001" value="empty" />
+      <property name="dateFormatVisibility" nameId="tp6x.1173975856624" value="private" />
       <node role="token" roleId="tp6x.1169487470543" type="tp6x.LiteralFormatToken" typeId="tp6x.1169495318439" id="1172687350864">
         <property name="value" nameId="tp6x.1169495350409" value="-" />
       </node>
@@ -230,15 +230,15 @@
       </node>
     </node>
     <node role="dateFormat" roleId="tp6x.1169488417691" type="tp6x.DateFormat" typeId="tp6x.1169487448949" id="1174322248463">
-      <property name="dateFormatVisibility" nameId="tp6x.1173975856624" value="private" />
       <property name="name" nameId="tpck.1169194664001" value="momentsAgo" />
+      <property name="dateFormatVisibility" nameId="tp6x.1173975856624" value="private" />
       <node role="token" roleId="tp6x.1169487470543" type="tp6x.LiteralFormatToken" typeId="tp6x.1169495318439" id="1174322263542">
         <property name="value" nameId="tp6x.1169495350409" value="moments ago" />
       </node>
     </node>
     <node role="dateFormat" roleId="tp6x.1169488417691" type="tp6x.DateFormat" typeId="tp6x.1169487448949" id="1174322064693">
-      <property name="dateFormatVisibility" nameId="tp6x.1173975856624" value="private" />
       <property name="name" nameId="tpck.1169194664001" value="minutesAgo" />
+      <property name="dateFormatVisibility" nameId="tp6x.1173975856624" value="private" />
       <node role="token" roleId="tp6x.1169487470543" type="tp6x.DateTimeOffsetFormatToken" typeId="tp6x.1174317913525" id="1174322127509">
         <node role="durationTypeReference" roleId="tp6x.1174321263884" type="tp6x.DurationTypeReference" typeId="tp6x.1174320869813" id="1174322131370">
           <link role="durationType" roleId="tp6x.1174320881454" targetNodeId="tp6y.1174321471793" />
@@ -246,8 +246,8 @@
       </node>
     </node>
     <node role="dateFormat" roleId="tp6x.1169488417691" type="tp6x.DateFormat" typeId="tp6x.1169487448949" id="1174322072850">
-      <property name="dateFormatVisibility" nameId="tp6x.1173975856624" value="private" />
       <property name="name" nameId="tpck.1169194664001" value="hoursAgo" />
+      <property name="dateFormatVisibility" nameId="tp6x.1173975856624" value="private" />
       <node role="token" roleId="tp6x.1169487470543" type="tp6x.DateTimeOffsetFormatToken" typeId="tp6x.1174317913525" id="1174322143840">
         <node role="durationTypeReference" roleId="tp6x.1174321263884" type="tp6x.DurationTypeReference" typeId="tp6x.1174320869813" id="1174322145826">
           <link role="durationType" roleId="tp6x.1174320881454" targetNodeId="tp6y.1174321480910" />
@@ -258,8 +258,8 @@
       </node>
     </node>
     <node role="dateFormat" roleId="tp6x.1169488417691" type="tp6x.DateFormat" typeId="tp6x.1169487448949" id="1174322078367">
-      <property name="dateFormatVisibility" nameId="tp6x.1173975856624" value="private" />
       <property name="name" nameId="tpck.1169194664001" value="daysAgo" />
+      <property name="dateFormatVisibility" nameId="tp6x.1173975856624" value="private" />
       <node role="token" roleId="tp6x.1169487470543" type="tp6x.DateTimeOffsetFormatToken" typeId="tp6x.1174317913525" id="1174322158703">
         <node role="durationTypeReference" roleId="tp6x.1174321263884" type="tp6x.DurationTypeReference" typeId="tp6x.1174320869813" id="1238411463845">
           <link role="durationType" roleId="tp6x.1174320881454" targetNodeId="tp6y.1174321481848" />
@@ -1066,8 +1066,8 @@
                 <property name="minute" nameId="tp6x.779372288056193785" value="19" />
                 <property name="second" nameId="tp6x.779372288056193784" value="13" />
                 <property name="year" nameId="tp6x.779372288056193788" value="2000" />
-                <property name="day" nameId="tp6x.779372288056193787" value="12" />
                 <property name="hour" nameId="tp6x.779372288056193786" value="20" />
+                <property name="day" nameId="tp6x.779372288056193787" value="12" />
                 <link role="month" roleId="tp6x.779372288056193789" targetNodeId="tp6y.1194006186107" resolveInfo="April" />
                 <node role="timezone" roleId="tp6x.779372288056193790" type="tp6x.TimeZoneIDExpression" typeId="tp6x.4555537781927648369" id="779372288057376371">
                   <property name="timezone_id" nameId="tp6x.4555537781927678418" value="GMT+0" />
@@ -2874,8 +2874,8 @@
                   <property name="minute" nameId="tp6x.779372288056193785" value="00" />
                   <property name="second" nameId="tp6x.779372288056193784" value="00" />
                   <property name="year" nameId="tp6x.779372288056193788" value="2009" />
-                  <property name="day" nameId="tp6x.779372288056193787" value="24" />
                   <property name="hour" nameId="tp6x.779372288056193786" value="13" />
+                  <property name="day" nameId="tp6x.779372288056193787" value="24" />
                   <link role="month" roleId="tp6x.779372288056193789" targetNodeId="tp6y.1194006227657" resolveInfo="October" />
                   <node role="timezone" roleId="tp6x.779372288056193790" type="tp6x.TimeZoneIDExpression" typeId="tp6x.4555537781927648369" id="8843034857724568274">
                     <property name="timezone_id" nameId="tp6x.4555537781927678418" value="Europe/Prague" />
@@ -2895,8 +2895,8 @@
                   <property name="minute" nameId="tp6x.779372288056193785" value="00" />
                   <property name="second" nameId="tp6x.779372288056193784" value="00" />
                   <property name="year" nameId="tp6x.779372288056193788" value="2009" />
-                  <property name="day" nameId="tp6x.779372288056193787" value="24" />
                   <property name="hour" nameId="tp6x.779372288056193786" value="13" />
+                  <property name="day" nameId="tp6x.779372288056193787" value="24" />
                   <link role="month" roleId="tp6x.779372288056193789" targetNodeId="tp6y.1194006227657" resolveInfo="October" />
                   <node role="timezone" roleId="tp6x.779372288056193790" type="tp6x.TimeZoneIDExpression" typeId="tp6x.4555537781927648369" id="8843034857724568286">
                     <property name="timezone_id" nameId="tp6x.4555537781927678418" value="Europe/Prague" />
@@ -2918,8 +2918,8 @@
                   <property name="minute" nameId="tp6x.779372288056193785" value="00" />
                   <property name="second" nameId="tp6x.779372288056193784" value="00" />
                   <property name="year" nameId="tp6x.779372288056193788" value="2009" />
-                  <property name="day" nameId="tp6x.779372288056193787" value="28" />
                   <property name="hour" nameId="tp6x.779372288056193786" value="13" />
+                  <property name="day" nameId="tp6x.779372288056193787" value="28" />
                   <link role="month" roleId="tp6x.779372288056193789" targetNodeId="tp6y.1194006159484" resolveInfo="March" />
                   <node role="timezone" roleId="tp6x.779372288056193790" type="tp6x.TimeZoneIDExpression" typeId="tp6x.4555537781927648369" id="8843034857724575145">
                     <property name="timezone_id" nameId="tp6x.4555537781927678418" value="Europe/Prague" />
@@ -2939,8 +2939,8 @@
                   <property name="minute" nameId="tp6x.779372288056193785" value="00" />
                   <property name="second" nameId="tp6x.779372288056193784" value="00" />
                   <property name="year" nameId="tp6x.779372288056193788" value="2009" />
-                  <property name="day" nameId="tp6x.779372288056193787" value="28" />
                   <property name="hour" nameId="tp6x.779372288056193786" value="13" />
+                  <property name="day" nameId="tp6x.779372288056193787" value="28" />
                   <link role="month" roleId="tp6x.779372288056193789" targetNodeId="tp6y.1194006159484" resolveInfo="March" />
                   <node role="timezone" roleId="tp6x.779372288056193790" type="tp6x.TimeZoneIDExpression" typeId="tp6x.4555537781927648369" id="8843034857724575151">
                     <property name="timezone_id" nameId="tp6x.4555537781927678418" value="Europe/Prague" />
@@ -3942,31 +3942,34 @@
               <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="2890840340813202496" />
             </node>
           </node>
-          <node role="statement" roleId="tpee.1068581517665" type="tpe3.AssertEquals" typeId="tpe3.1171978097730" id="2890840340813202500">
-            <node role="expected" roleId="tpe3.8427750732757990724" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="2890840340813202503">
+          <node role="statement" roleId="tpee.1068581517665" type="tpe3.AssertEquals" typeId="tpe3.1171978097730" id="2127765886925144013">
+            <node role="expected" roleId="tpe3.8427750732757990724" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="2127765886925144014">
               <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2890840340813144746" resolveInfo="ddd" />
             </node>
-            <node role="actual" roleId="tpe3.8427750732757990725" type="tp6x.InlineFormatDateTimeExpression" typeId="tp6x.5034322243093083314" id="2890840340813202533">
-              <node role="formatToken" roleId="tp6x.5034322243093093770" type="tp6x.DateTimePropertyFormatToken" typeId="tp6x.1173959836330" id="2890840340813207789">
-                <link role="dateTimePropertyFormatConfiguration" roleId="tp6x.1173966637440" targetNodeId="tp6y.1173955922497" />
+            <node role="actual" roleId="tpe3.8427750732757990725" type="tp6x.InlineFormatDateTimeExpression" typeId="tp6x.5034322243093083314" id="2127765886925144015">
+              <node role="formatToken" roleId="tp6x.5034322243093093770" type="tp6x.DateTimePropertyFormatToken" typeId="tp6x.1173959836330" id="2127765886925144016">
+                <link role="dateTimePropertyFormatType" roleId="tp6x.1173959975857" targetNodeId="tp6y.1173955922498" resolveInfo="00~23" />
+                <link role="dateTimePropertyFormatConfiguration" roleId="tp6x.1173966637440" targetNodeId="tp6y.1173955922497" resolveInfo="hour" />
               </node>
-              <node role="formatToken" roleId="tp6x.5034322243093093770" type="tp6x.LiteralFormatToken" typeId="tp6x.1169495318439" id="2890840340813207791">
+              <node role="formatToken" roleId="tp6x.5034322243093093770" type="tp6x.LiteralFormatToken" typeId="tp6x.1169495318439" id="2127765886925144017">
                 <property name="value" nameId="tp6x.1169495350409" value=":" />
               </node>
-              <node role="formatToken" roleId="tp6x.5034322243093093770" type="tp6x.DateTimePropertyFormatToken" typeId="tp6x.1173959836330" id="2890840340813207792">
-                <link role="dateTimePropertyFormatConfiguration" roleId="tp6x.1173966637440" targetNodeId="tp6y.1173956355145" />
+              <node role="formatToken" roleId="tp6x.5034322243093093770" type="tp6x.DateTimePropertyFormatToken" typeId="tp6x.1173959836330" id="2127765886925144018">
+                <link role="dateTimePropertyFormatConfiguration" roleId="tp6x.1173966637440" targetNodeId="tp6y.1173956355145" resolveInfo="minute" />
+                <link role="dateTimePropertyFormatType" roleId="tp6x.1173959975857" targetNodeId="tp6y.1173956355146" resolveInfo="00~59" />
               </node>
-              <node role="formatToken" roleId="tp6x.5034322243093093770" type="tp6x.LiteralFormatToken" typeId="tp6x.1169495318439" id="2890840340813202543">
+              <node role="formatToken" roleId="tp6x.5034322243093093770" type="tp6x.LiteralFormatToken" typeId="tp6x.1169495318439" id="2127765886925144019">
                 <property name="value" nameId="tp6x.1169495350409" value=":" />
               </node>
-              <node role="formatToken" roleId="tp6x.5034322243093093770" type="tp6x.DateTimePropertyFormatToken" typeId="tp6x.1173959836330" id="2890840340813207794">
-                <link role="dateTimePropertyFormatConfiguration" roleId="tp6x.1173966637440" targetNodeId="tp6y.1173956423307" />
+              <node role="formatToken" roleId="tp6x.5034322243093093770" type="tp6x.DateTimePropertyFormatToken" typeId="tp6x.1173959836330" id="2127765886925144020">
+                <link role="dateTimePropertyFormatConfiguration" roleId="tp6x.1173966637440" targetNodeId="tp6y.1173956423307" resolveInfo="second" />
+                <link role="dateTimePropertyFormatType" roleId="tp6x.1173959975857" targetNodeId="tp6y.1173956423308" resolveInfo="00~59" />
               </node>
-              <node role="datetime" roleId="tp6x.5034322243093093769" type="tp6x.InTimezoneExpression" typeId="tp6x.2639623922402691276" id="2890840340813202505">
-                <node role="timezone" roleId="tp6x.2639623922402691641" type="tp6x.TimeZoneIDExpression" typeId="tp6x.4555537781927648369" id="6915032103346197455">
+              <node role="datetime" roleId="tp6x.5034322243093093769" type="tp6x.InTimezoneExpression" typeId="tp6x.2639623922402691276" id="2127765886925144021">
+                <node role="timezone" roleId="tp6x.2639623922402691641" type="tp6x.TimeZoneIDExpression" typeId="tp6x.4555537781927648369" id="2127765886925144022">
                   <property name="timezone_id" nameId="tp6x.4555537781927678418" value="Europe/London" />
                 </node>
-                <node role="datetime" roleId="tp6x.2639623922402691278" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="2890840340813632258">
+                <node role="datetime" roleId="tp6x.2639623922402691278" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="2127765886925144023">
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2890840340813207803" resolveInfo="now1" />
                 </node>
               </node>
@@ -4106,8 +4109,8 @@
                     <property name="minute" nameId="tp6x.779372288056193785" value="18" />
                     <property name="second" nameId="tp6x.779372288056193784" value="20" />
                     <property name="year" nameId="tp6x.779372288056193788" value="2009" />
-                    <property name="day" nameId="tp6x.779372288056193787" value="23" />
                     <property name="hour" nameId="tp6x.779372288056193786" value="13" />
+                    <property name="day" nameId="tp6x.779372288056193787" value="23" />
                     <link role="month" roleId="tp6x.779372288056193789" targetNodeId="tp6y.1194006201142" resolveInfo="July" />
                     <node role="timezone" roleId="tp6x.779372288056193790" type="tp6x.TimeZoneIDExpression" typeId="tp6x.4555537781927648369" id="5074955036991669847">
                       <property name="timezone_id" nameId="tp6x.4555537781927678418" value="UTC" />
@@ -4168,8 +4171,8 @@
                     <property name="minute" nameId="tp6x.779372288056193785" value="18" />
                     <property name="second" nameId="tp6x.779372288056193784" value="20" />
                     <property name="year" nameId="tp6x.779372288056193788" value="2009" />
-                    <property name="day" nameId="tp6x.779372288056193787" value="23" />
                     <property name="hour" nameId="tp6x.779372288056193786" value="13" />
+                    <property name="day" nameId="tp6x.779372288056193787" value="23" />
                     <link role="month" roleId="tp6x.779372288056193789" targetNodeId="tp6y.1194006201142" resolveInfo="July" />
                     <node role="timezone" roleId="tp6x.779372288056193790" type="tp6x.TimeZoneIDExpression" typeId="tp6x.4555537781927648369" id="5074955036991669856">
                       <property name="timezone_id" nameId="tp6x.4555537781927678418" value="UTC" />
@@ -4452,8 +4455,8 @@
                     <property name="minute" nameId="tp6x.779372288056193785" value="00" />
                     <property name="second" nameId="tp6x.779372288056193784" value="00" />
                     <property name="year" nameId="tp6x.779372288056193788" value="2008" />
-                    <property name="day" nameId="tp6x.779372288056193787" value="1" />
                     <property name="hour" nameId="tp6x.779372288056193786" value="12" />
+                    <property name="day" nameId="tp6x.779372288056193787" value="1" />
                     <link role="month" roleId="tp6x.779372288056193789" targetNodeId="tp6y.1194006123738" resolveInfo="January" />
                     <node role="timezone" roleId="tp6x.779372288056193790" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="5293902215865158122">
                       <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="5293902215865158109" resolveInfo="london" />
@@ -4479,8 +4482,8 @@
                     <property name="minute" nameId="tp6x.779372288056193785" value="00" />
                     <property name="second" nameId="tp6x.779372288056193784" value="00" />
                     <property name="year" nameId="tp6x.779372288056193788" value="2008" />
-                    <property name="day" nameId="tp6x.779372288056193787" value="1" />
                     <property name="hour" nameId="tp6x.779372288056193786" value="12" />
+                    <property name="day" nameId="tp6x.779372288056193787" value="1" />
                     <link role="month" roleId="tp6x.779372288056193789" targetNodeId="tp6y.1194006123738" resolveInfo="January" />
                     <node role="timezone" roleId="tp6x.779372288056193790" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="8242505859285079282">
                       <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="5293902215865158109" resolveInfo="london" />
@@ -4506,8 +4509,8 @@
                     <property name="minute" nameId="tp6x.779372288056193785" value="00" />
                     <property name="second" nameId="tp6x.779372288056193784" value="00" />
                     <property name="year" nameId="tp6x.779372288056193788" value="2008" />
-                    <property name="day" nameId="tp6x.779372288056193787" value="1" />
                     <property name="hour" nameId="tp6x.779372288056193786" value="12" />
+                    <property name="day" nameId="tp6x.779372288056193787" value="1" />
                     <link role="month" roleId="tp6x.779372288056193789" targetNodeId="tp6y.1194006201142" resolveInfo="July" />
                     <node role="timezone" roleId="tp6x.779372288056193790" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="5293902215865158147">
                       <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="5293902215865158109" resolveInfo="london" />
@@ -4533,8 +4536,8 @@
                     <property name="minute" nameId="tp6x.779372288056193785" value="00" />
                     <property name="second" nameId="tp6x.779372288056193784" value="00" />
                     <property name="year" nameId="tp6x.779372288056193788" value="2008" />
-                    <property name="day" nameId="tp6x.779372288056193787" value="1" />
                     <property name="hour" nameId="tp6x.779372288056193786" value="12" />
+                    <property name="day" nameId="tp6x.779372288056193787" value="1" />
                     <link role="month" roleId="tp6x.779372288056193789" targetNodeId="tp6y.1194006201142" resolveInfo="July" />
                     <node role="timezone" roleId="tp6x.779372288056193790" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="8242505859285079272">
                       <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="5293902215865158109" resolveInfo="london" />
@@ -4600,8 +4603,8 @@
                     <property name="minute" nameId="tp6x.779372288056193785" value="00" />
                     <property name="second" nameId="tp6x.779372288056193784" value="00" />
                     <property name="year" nameId="tp6x.779372288056193788" value="2008" />
-                    <property name="day" nameId="tp6x.779372288056193787" value="1" />
                     <property name="hour" nameId="tp6x.779372288056193786" value="12" />
+                    <property name="day" nameId="tp6x.779372288056193787" value="1" />
                     <link role="month" roleId="tp6x.779372288056193789" targetNodeId="tp6y.1194006123738" resolveInfo="January" />
                     <node role="timezone" roleId="tp6x.779372288056193790" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="5293902215865166018">
                       <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="5293902215865165960" resolveInfo="prg" />
@@ -4627,8 +4630,8 @@
                     <property name="minute" nameId="tp6x.779372288056193785" value="00" />
                     <property name="second" nameId="tp6x.779372288056193784" value="00" />
                     <property name="year" nameId="tp6x.779372288056193788" value="2008" />
-                    <property name="day" nameId="tp6x.779372288056193787" value="1" />
                     <property name="hour" nameId="tp6x.779372288056193786" value="12" />
+                    <property name="day" nameId="tp6x.779372288056193787" value="1" />
                     <link role="month" roleId="tp6x.779372288056193789" targetNodeId="tp6y.1194006123738" resolveInfo="January" />
                     <node role="timezone" roleId="tp6x.779372288056193790" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="8242505859285079262">
                       <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="5293902215865165960" resolveInfo="prg" />
@@ -4654,8 +4657,8 @@
                     <property name="minute" nameId="tp6x.779372288056193785" value="00" />
                     <property name="second" nameId="tp6x.779372288056193784" value="00" />
                     <property name="year" nameId="tp6x.779372288056193788" value="2008" />
-                    <property name="day" nameId="tp6x.779372288056193787" value="1" />
                     <property name="hour" nameId="tp6x.779372288056193786" value="12" />
+                    <property name="day" nameId="tp6x.779372288056193787" value="1" />
                     <link role="month" roleId="tp6x.779372288056193789" targetNodeId="tp6y.1194006201142" resolveInfo="July" />
                     <node role="timezone" roleId="tp6x.779372288056193790" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="5293902215865166020">
                       <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="5293902215865165960" resolveInfo="prg" />
@@ -4681,8 +4684,8 @@
                     <property name="minute" nameId="tp6x.779372288056193785" value="00" />
                     <property name="second" nameId="tp6x.779372288056193784" value="00" />
                     <property name="year" nameId="tp6x.779372288056193788" value="2008" />
-                    <property name="day" nameId="tp6x.779372288056193787" value="1" />
                     <property name="hour" nameId="tp6x.779372288056193786" value="12" />
+                    <property name="day" nameId="tp6x.779372288056193787" value="1" />
                     <link role="month" roleId="tp6x.779372288056193789" targetNodeId="tp6y.1194006201142" resolveInfo="July" />
                     <node role="timezone" roleId="tp6x.779372288056193790" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="8242505859285079252">
                       <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="5293902215865165960" resolveInfo="prg" />
@@ -4718,8 +4721,8 @@
                     <property name="minute" nameId="tp6x.779372288056193785" value="00" />
                     <property name="second" nameId="tp6x.779372288056193784" value="00" />
                     <property name="year" nameId="tp6x.779372288056193788" value="2008" />
-                    <property name="day" nameId="tp6x.779372288056193787" value="1" />
                     <property name="hour" nameId="tp6x.779372288056193786" value="12" />
+                    <property name="day" nameId="tp6x.779372288056193787" value="1" />
                     <link role="month" roleId="tp6x.779372288056193789" targetNodeId="tp6y.1194006123738" resolveInfo="January" />
                     <node role="timezone" roleId="tp6x.779372288056193790" type="tp6x.TimeZoneIDExpression" typeId="tp6x.4555537781927648369" id="5293902215865197719">
                       <property name="timezone_id" nameId="tp6x.4555537781927678418" value="Europe/Prague" />
@@ -5317,8 +5320,8 @@
               <property name="minute" nameId="tp6x.779372288056193785" value="23" />
               <property name="second" nameId="tp6x.779372288056193784" value="00" />
               <property name="year" nameId="tp6x.779372288056193788" value="2000" />
-              <property name="day" nameId="tp6x.779372288056193787" value="1" />
               <property name="hour" nameId="tp6x.779372288056193786" value="04" />
+              <property name="day" nameId="tp6x.779372288056193787" value="1" />
               <link role="month" roleId="tp6x.779372288056193789" targetNodeId="tp6y.1194006123738" resolveInfo="January" />
               <node role="timezone" roleId="tp6x.779372288056193790" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="34521615669077563">
                 <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="34521615669077560" resolveInfo="mskid" />
@@ -5336,8 +5339,8 @@
                 <property name="minute" nameId="tp6x.779372288056193785" value="00" />
                 <property name="second" nameId="tp6x.779372288056193784" value="00" />
                 <property name="year" nameId="tp6x.779372288056193788" value="2000" />
-                <property name="day" nameId="tp6x.779372288056193787" value="1" />
                 <property name="hour" nameId="tp6x.779372288056193786" value="00" />
+                <property name="day" nameId="tp6x.779372288056193787" value="1" />
                 <link role="month" roleId="tp6x.779372288056193789" targetNodeId="tp6y.1194006123738" resolveInfo="January" />
                 <node role="timezone" roleId="tp6x.779372288056193790" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="34521615669077581">
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="34521615669077560" resolveInfo="mskid" />
@@ -5896,8 +5899,8 @@
   </root>
   <root id="779372288057376358">
     <node role="dateFormat" roleId="tp6x.1169488417691" type="tp6x.DateFormat" typeId="tp6x.1169487448949" id="779372288057376360">
-      <property name="dateFormatVisibility" nameId="tp6x.1173975856624" value="public" />
       <property name="name" nameId="tpck.1169194664001" value="hoursBeforeFixed" />
+      <property name="dateFormatVisibility" nameId="tp6x.1173975856624" value="public" />
       <node role="token" roleId="tp6x.1169487470543" type="tp6x.DateTimeOffsetFormatToken" typeId="tp6x.1174317913525" id="779372288057376361">
         <node role="durationTypeReference" roleId="tp6x.1174321263884" type="tp6x.DurationTypeReference" typeId="tp6x.1174320869813" id="779372288057376362">
           <link role="durationType" roleId="tp6x.1174320881454" targetNodeId="tp6y.1174321480910" />
@@ -5909,8 +5912,8 @@
           <property name="minute" nameId="tp6x.779372288056193785" value="00" />
           <property name="second" nameId="tp6x.779372288056193784" value="00" />
           <property name="year" nameId="tp6x.779372288056193788" value="2000" />
-          <property name="day" nameId="tp6x.779372288056193787" value="12" />
           <property name="hour" nameId="tp6x.779372288056193786" value="19" />
+          <property name="day" nameId="tp6x.779372288056193787" value="12" />
           <link role="month" roleId="tp6x.779372288056193789" targetNodeId="tp6y.1194006186107" resolveInfo="April" />
           <node role="timezone" roleId="tp6x.779372288056193790" type="tp6x.TimeZoneIDExpression" typeId="tp6x.4555537781927648369" id="779372288057376366">
             <property name="timezone_id" nameId="tp6x.4555537781927678418" value="GMT+0" />
@@ -5978,8 +5981,8 @@
       </node>
       <node role="token" roleId="tp6x.48671598477578849" type="tp6x.PeriodPropertyFormatToken" typeId="tp6x.7249953535157196261" id="1778677549314369273">
         <property name="suffixPlural" nameId="tp6x.5581663871703912305" value=" minutes" />
-        <property name="minDigits" nameId="tp6x.5581663871703912306" value="2" />
         <property name="zeroHandling" nameId="tp6x.1778677549314158601" value="always" />
+        <property name="minDigits" nameId="tp6x.5581663871703912306" value="2" />
         <property name="suffix" nameId="tp6x.5581663871703912304" value=" minute" />
         <link role="property" roleId="tp6x.7249953535157223265" targetNodeId="tp6y.1172074618358" resolveInfo="minute" />
       </node>
