@@ -307,8 +307,7 @@
     <nodeInfo nodeId="1213877526466" fileName="DateTimeCompareOperation_Behavior.java" startLine="49" startPosition="65" endLine="50" endPosition="111" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1213877526476" fileName="DateTimeCompareOperation_Behavior.java" startLine="53" startPosition="65" endLine="54" endPosition="114" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="3044950653914717070" fileName="DateTimeCompareOperation_Behavior.java" startLine="57" startPosition="106" endLine="58" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3044950653914717079" fileName="DateTimeCompareOperation_Behavior.java" startLine="58" startPosition="71" endLine="59" endPosition="175" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3044950653914717082" fileName="DateTimeCompareOperation_Behavior.java" startLine="59" startPosition="175" endLine="60" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3044950653914717082" fileName="DateTimeCompareOperation_Behavior.java" startLine="58" startPosition="71" endLine="59" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1213877526003" fileName="DateTimeCompareOperation_Behavior.java" startLine="18" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
     <nodeInfo nodeId="1213877526003" fileName="DateTimeCompareOperation_Behavior.java" startLine="21" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_hasMillisPrecision_1213877526386#(Ljetbrains/mps/smodel/SNode;)Z" />
     <nodeInfo nodeId="1213877526408" fileName="DateTimeCompareOperation_Behavior.java" startLine="26" startPosition="84" endLine="29" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
@@ -318,7 +317,7 @@
     <nodeInfo nodeId="1213877526003" fileName="DateTimeCompareOperation_Behavior.java" startLine="45" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_isGT_1213877526453#(Ljetbrains/mps/smodel/SNode;)Z" />
     <nodeInfo nodeId="1213877526003" fileName="DateTimeCompareOperation_Behavior.java" startLine="49" startPosition="0" endLine="52" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_isLE_1213877526463#(Ljetbrains/mps/smodel/SNode;)Z" />
     <nodeInfo nodeId="1213877526003" fileName="DateTimeCompareOperation_Behavior.java" startLine="53" startPosition="0" endLine="56" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_isGE_1213877526473#(Ljetbrains/mps/smodel/SNode;)Z" />
-    <nodeInfo nodeId="1213877526003" fileName="DateTimeCompareOperation_Behavior.java" startLine="57" startPosition="0" endLine="62" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getDefaultDatetimeProperty_3044950653914717067#(Lorg/jetbrains/mps/openapi/language/SConcept;)Ljava/util/List;" />
+    <nodeInfo nodeId="1213877526003" fileName="DateTimeCompareOperation_Behavior.java" startLine="57" startPosition="0" endLine="61" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getDefaultDatetimeProperty_3044950653914717067#(Lorg/jetbrains/mps/openapi/language/SConcept;)Ljava/util/List;" />
     <nodeInfo nodeId="1213877526003" fileName="DateTimeCompareOperation_Behavior.java" startLine="25" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getDatetimeProperty_1213877526399#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/smodel/SNode;" />
     <scopeInfo nodeId="1213877526484" fileName="DateTimeCompareOperation_Behavior.java" startLine="18" startPosition="43" endLine="18" endPosition="43" />
     <scopeInfo nodeId="1213877526388" fileName="DateTimeCompareOperation_Behavior.java" startLine="21" startPosition="79" endLine="22" endPosition="381" />
@@ -331,6 +330,9 @@
     <scopeInfo nodeId="1213877526475" fileName="DateTimeCompareOperation_Behavior.java" startLine="53" startPosition="65" endLine="54" endPosition="114" />
     <scopeInfo nodeId="1213877526003" fileName="DateTimeCompareOperation_Behavior.java" startLine="18" startPosition="0" endLine="20" endPosition="0">
       <varInfo nodeId="1213877526003" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="3044950653914717069" fileName="DateTimeCompareOperation_Behavior.java" startLine="57" startPosition="106" endLine="59" endPosition="18">
+      <varInfo nodeId="3044950653914717071" varName="result" />
     </scopeInfo>
     <scopeInfo nodeId="1213877526003" fileName="DateTimeCompareOperation_Behavior.java" startLine="21" startPosition="0" endLine="24" endPosition="0">
       <varInfo nodeId="1213877526003" varName="thisNode" />
@@ -353,19 +355,16 @@
     <scopeInfo nodeId="1213877526003" fileName="DateTimeCompareOperation_Behavior.java" startLine="53" startPosition="0" endLine="56" endPosition="0">
       <varInfo nodeId="1213877526003" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="3044950653914717069" fileName="DateTimeCompareOperation_Behavior.java" startLine="57" startPosition="106" endLine="60" endPosition="18">
-      <varInfo nodeId="3044950653914717071" varName="result" />
+    <scopeInfo nodeId="1213877526003" fileName="DateTimeCompareOperation_Behavior.java" startLine="57" startPosition="0" endLine="61" endPosition="0">
+      <varInfo nodeId="1213877526003" varName="thisConcept" />
     </scopeInfo>
     <scopeInfo nodeId="1213877526401" fileName="DateTimeCompareOperation_Behavior.java" startLine="25" startPosition="78" endLine="30" endPosition="20">
       <varInfo nodeId="1213877526403" varName="property" />
     </scopeInfo>
-    <scopeInfo nodeId="1213877526003" fileName="DateTimeCompareOperation_Behavior.java" startLine="57" startPosition="0" endLine="62" endPosition="0">
-      <varInfo nodeId="1213877526003" varName="thisConcept" />
-    </scopeInfo>
     <scopeInfo nodeId="1213877526003" fileName="DateTimeCompareOperation_Behavior.java" startLine="25" startPosition="0" endLine="32" endPosition="0">
       <varInfo nodeId="1213877526003" varName="thisNode" />
     </scopeInfo>
-    <unitInfo nodeId="1213877526003" fileName="DateTimeCompareOperation_Behavior.java" startLine="17" startPosition="0" endLine="63" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.DateTimeCompareOperation_Behavior" />
+    <unitInfo nodeId="1213877526003" fileName="DateTimeCompareOperation_Behavior.java" startLine="17" startPosition="0" endLine="62" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.DateTimeCompareOperation_Behavior" />
   </root>
   <root nodeId="1224665495957" modelId="r:00000000-0000-4000-0000-011c895903ce(jetbrains.mps.baseLanguage.dates.behavior)">
     <nodeInfo nodeId="1224665504012" fileName="DateFormatsTable_Behavior.java" startLine="13" startPosition="84" endLine="14" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />

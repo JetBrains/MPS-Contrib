@@ -56,7 +56,6 @@ public class DateTimeCompareOperation_Behavior {
 
   public static List<SNode> virtual_getDefaultDatetimeProperty_3044950653914717067(SConcept thisConcept) {
     List<SNode> result = ListSequence.fromList(new ArrayList<SNode>());
-    ListSequence.fromList(result).addElement(SNodeOperations.getNode("r:00000000-0000-4000-0000-011c895903d6(jetbrains.mps.baseLanguage.dates.accessories)", "1172074929011"));
     return result;
   }
 }
