@@ -28,6 +28,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNodeUtil" />
     <classNode dependClassName="jetbrains.mps.uiLanguage.behavior.ComponentDeclaration_Behavior" />
     <classNode dependClassName="jetbrains.mps.uiLanguage.pluginSolution.plugin.ComponentEditor_Helper" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNodeAccessUtil" />
     <classNode extendsClassName="jetbrains.mps.plugins.relations.RelationDescriptor" />
   </dependency>
   <dependency className="jetbrains.mps.uiLanguage.pluginSolution.plugin.PluginSolution_ProjectPlugin" file="PluginSolution_ProjectPlugin.java">
