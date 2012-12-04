@@ -772,6 +772,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
     <classNode dependClassName="jetbrains.mps.util.NameUtil" />
     <classNode dependClassName="org.jetbrains.mps.openapi.language.SConcept" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNodeAccessUtil" />
   </dependency>
   <dependency className="jetbrains.mps.execution.configurations.deprecated.behavior.RunConfigurationDeclaration_BehaviorDescriptor" file="RunConfigurationDeclaration_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
