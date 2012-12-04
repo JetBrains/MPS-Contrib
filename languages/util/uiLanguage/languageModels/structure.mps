@@ -163,8 +163,8 @@
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1145552809883" resolveInfo="AbstractCreator" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1207748052051">
-      <property name="rootable" nameId="tpce.1096454100552" value="true" />
       <property name="abstract" nameId="tpce.4628067390765956802" value="false" />
+      <property name="rootable" nameId="tpce.1096454100552" value="true" />
       <property name="final" nameId="tpce.4628067390765956807" value="false" />
       <property name="name" nameId="tpck.1169194664001" value="BeanDeclaration" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="Beans" />
@@ -206,8 +206,8 @@
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1208090496480">
-      <property name="rootable" nameId="tpce.1096454100552" value="true" />
       <property name="abstract" nameId="tpce.4628067390765956802" value="false" />
+      <property name="rootable" nameId="tpce.1096454100552" value="true" />
       <property name="final" nameId="tpce.4628067390765956807" value="false" />
       <property name="name" nameId="tpck.1169194664001" value="AddListenerOperation" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="Events.Operations" />
@@ -283,8 +283,8 @@
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6242401288845934074">
-      <property name="rootable" nameId="tpce.1096454100552" value="true" />
       <property name="abstract" nameId="tpce.4628067390765956802" value="false" />
+      <property name="rootable" nameId="tpce.1096454100552" value="true" />
       <property name="final" nameId="tpce.4628067390765956807" value="false" />
       <property name="name" nameId="tpck.1169194664001" value="PngIcon" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="Icon" />
@@ -420,10 +420,6 @@
     </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1205765561390">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tp4f.1205752032448" resolveInfo="IMember" />
-    </node>
-    <node role="conceptLink" roleId="tpce.1105736949336" type="tpce.ReferenceConceptLink" typeId="tpce.1105736778597" id="1205922204325">
-      <link role="conceptLinkDeclaration" roleId="tpce.1105736734721" targetNodeId="tp4f.1205921683134" resolveInfo="operationConcept" />
-      <link role="target" roleId="tpce.1105736807942" targetNodeId="1202478475127" resolveInfo="AttributeReferenceOperation" />
     </node>
   </root>
   <root id="1202464424004">
@@ -662,10 +658,6 @@
       <property name="role" nameId="tpce.1071599776563" value="initializer" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="tpee.1068580123136" resolveInfo="StatementList" />
-    </node>
-    <node role="conceptLink" roleId="tpce.1105736949336" type="tpce.ReferenceConceptLink" typeId="tpce.1105736778597" id="1208089742087">
-      <link role="conceptLinkDeclaration" roleId="tpce.1105736734721" targetNodeId="tp4f.1205921683134" resolveInfo="operationConcept" />
-      <link role="target" roleId="tpce.1105736807942" targetNodeId="1208089639160" resolveInfo="EventAccessOperation" />
     </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1262430001741702954">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1835621062190663819" resolveInfo="IDontSubstituteByDefault" />
