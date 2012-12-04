@@ -69,11 +69,11 @@ public class InlineFormat_Test extends BaseTestCase {
     Assert.assertEquals(ddd, DateTimeOperations.print(DateTimeOperations.convert(now1, DateTimeZone.forID("Europe/London")), (new InlineDateFormatter() {
       public DateTimeFormatter createFormatter() {
         DateTimeFormatterBuilder builder = new DateTimeFormatterBuilder();
-        builder.appendPattern("HH");
+        builder.appendPattern("");
         builder.appendLiteral(":");
-        builder.appendPattern("mm");
+        builder.appendPattern("");
         builder.appendLiteral(":");
-        builder.appendPattern("ss");
+        builder.appendPattern("");
         return builder.toFormatter();
       }
     }).createFormatter(), null));

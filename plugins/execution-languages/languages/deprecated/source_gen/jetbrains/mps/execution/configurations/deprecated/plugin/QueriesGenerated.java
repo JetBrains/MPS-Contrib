@@ -74,16 +74,12 @@ public class QueriesGenerated {
     return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(_context.getNode(), "operation", true), "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigParameterReferenceOperation");
   }
 
-  public static Object propertyMacro_GetPropertyValue_314981645427223920(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return RunConfigurationDeclaration_Behavior.call_getGeneratedFactoryName_314981645426570449(_context.getNode());
-  }
-
   public static Object propertyMacro_GetPropertyValue_314981645427223979(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), "caption");
   }
 
-  public static Object propertyMacro_GetPropertyValue_314981645427224209(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return RunConfigurationTypeDeclaration_Behavior.call_getGeneratedName_314981645426570387(_context.getNode());
+  public static Object propertyMacro_GetPropertyValue_314981645427223920(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return RunConfigurationDeclaration_Behavior.call_getGeneratedFactoryName_314981645426570449(_context.getNode());
   }
 
   public static Object propertyMacro_GetPropertyValue_314981645427224157(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -96,6 +92,10 @@ public class QueriesGenerated {
 
   public static Object propertyMacro_GetPropertyValue_314981645427224191(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), "name");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_314981645427224209(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return RunConfigurationTypeDeclaration_Behavior.call_getGeneratedName_314981645426570387(_context.getNode());
   }
 
   public static Object propertyMacro_GetPropertyValue_314981645427224282(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -112,10 +112,6 @@ public class QueriesGenerated {
 
   public static Object propertyMacro_GetPropertyValue_314981645427224369(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return SNodeOperations.getModel(SLinkOperations.getTarget(_context.getNode(), "configType", false)).getLongName() + "." + RunConfigurationTypeDeclaration_Behavior.call_getGeneratedName_314981645426570387(SLinkOperations.getTarget(_context.getNode(), "configType", false));
-  }
-
-  public static Object propertyMacro_GetPropertyValue_314981645427225228(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return RunConfigurationDeclaration_Behavior.call_getGeneratedName_314981645426570423(_context.getNode());
   }
 
   public static Object propertyMacro_GetPropertyValue_314981645427225279(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -154,8 +150,8 @@ public class QueriesGenerated {
     return VariableNameUtil.createComplicatedNameSuffix(_context.getTemplateValue());
   }
 
-  public static Object propertyMacro_GetPropertyValue_314981645427226342(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(_context.getNode(), "name");
+  public static Object propertyMacro_GetPropertyValue_314981645427225228(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return RunConfigurationDeclaration_Behavior.call_getGeneratedName_314981645426570423(_context.getNode());
   }
 
   public static Object propertyMacro_GetPropertyValue_314981645427226142(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -168,6 +164,10 @@ public class QueriesGenerated {
       return _context.getTemplateValue();
     }
     return NodeNameUtil.getNamespace(BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(statement, "runConfig", false), "virtual_getFqName_1213877404258", new Object[]{})) + "." + RunConfigurationDeclaration_Behavior.call_getGeneratedFactoryName_314981645426570449(SLinkOperations.getTarget(statement, "runConfig", false));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_314981645427226342(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "name");
   }
 
   public static Object propertyMacro_GetPropertyValue_314981645427226619(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -295,11 +295,6 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(_context.getNode(), "name");
   }
 
-  public static Object referenceMacro_GetReferent_314981645427226213(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    SNode typeNode = TypeChecker.getInstance().getTypeOf(SLinkOperations.getTarget(_context.getNode(), "target", true));
-    return SLinkOperations.getTarget(TypeChecker.getInstance().getRuntimeSupport().coerce_(typeNode, HUtil.createMatchingPatternByConceptFQName("jetbrains.mps.baseLanguage.structure.ClassifierType"), true), "classifier", false);
-  }
-
   public static Object referenceMacro_GetReferent_314981645427226102(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     return _context.getOutputNodeByInputNodeAndMappingLabel(SLinkOperations.getTarget(_context.getNode(), "rcType", false), "map_ConfigTypeClass");
   }
@@ -314,6 +309,11 @@ public class QueriesGenerated {
   }
 
   public static Object referenceMacro_GetReferent_314981645427226286(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    SNode typeNode = TypeChecker.getInstance().getTypeOf(SLinkOperations.getTarget(_context.getNode(), "target", true));
+    return SLinkOperations.getTarget(TypeChecker.getInstance().getRuntimeSupport().coerce_(typeNode, HUtil.createMatchingPatternByConceptFQName("jetbrains.mps.baseLanguage.structure.ClassifierType"), true), "classifier", false);
+  }
+
+  public static Object referenceMacro_GetReferent_314981645427226213(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     SNode typeNode = TypeChecker.getInstance().getTypeOf(SLinkOperations.getTarget(_context.getNode(), "target", true));
     return SLinkOperations.getTarget(TypeChecker.getInstance().getRuntimeSupport().coerce_(typeNode, HUtil.createMatchingPatternByConceptFQName("jetbrains.mps.baseLanguage.structure.ClassifierType"), true), "classifier", false);
   }
