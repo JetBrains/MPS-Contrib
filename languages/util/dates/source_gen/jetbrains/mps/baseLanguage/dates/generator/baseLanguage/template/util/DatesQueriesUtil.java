@@ -6,9 +6,8 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.util.NameUtil;
 import jetbrains.mps.generator.template.TemplateQueryContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.baseLanguage.behavior.Classifier_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptPropertyOperations;
 
 public class DatesQueriesUtil {
   public static final String FORMAL_TABLES_CONTAINER = "_FormatTables";
@@ -29,7 +28,7 @@ public class DatesQueriesUtil {
   public static SNode findFormattersFieldDeclaration(SNode node, TemplateQueryContext genctx) {
     SNode clazz = findEnclosingTableClass2(node, genctx);
     SNode result = null;
-    for (SNode sfd : SLinkOperations.getTargets(clazz, "staticField", true)) {
+    for (SNode sfd : Classifier_Behavior.call_staticFields_5292274854859223538(clazz)) {
       if (SPropertyOperations.hasValue(sfd, "name", "formatters")) {
         result = sfd;
         break;
@@ -43,22 +42,22 @@ public class DatesQueriesUtil {
 
   public static String getCompareType(SNode operation) {
     String result = null;
-    if (SConceptPropertyOperations.getString(operation, "alias").equals("==")) {
+    if (SPropertyOperations.getString(SNodeOperations.getConceptDeclaration(operation), "conceptAlias").equals("==")) {
       result = "EQ";
     }
-    if (SConceptPropertyOperations.getString(operation, "alias").equals("!=")) {
+    if (SPropertyOperations.getString(SNodeOperations.getConceptDeclaration(operation), "conceptAlias").equals("!=")) {
       result = "NE";
     }
-    if (SConceptPropertyOperations.getString(operation, "alias").equals(">")) {
+    if (SPropertyOperations.getString(SNodeOperations.getConceptDeclaration(operation), "conceptAlias").equals(">")) {
       result = "GT";
     }
-    if (SConceptPropertyOperations.getString(operation, "alias").equals("<")) {
+    if (SPropertyOperations.getString(SNodeOperations.getConceptDeclaration(operation), "conceptAlias").equals("<")) {
       result = "LT";
     }
-    if (SConceptPropertyOperations.getString(operation, "alias").equals(">=")) {
+    if (SPropertyOperations.getString(SNodeOperations.getConceptDeclaration(operation), "conceptAlias").equals(">=")) {
       result = "GE";
     }
-    if (SConceptPropertyOperations.getString(operation, "alias").equals("<=")) {
+    if (SPropertyOperations.getString(SNodeOperations.getConceptDeclaration(operation), "conceptAlias").equals("<=")) {
       result = "LE";
     }
     return result;

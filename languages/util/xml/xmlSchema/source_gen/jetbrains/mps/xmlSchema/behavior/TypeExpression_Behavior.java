@@ -5,17 +5,11 @@ package jetbrains.mps.xmlSchema.behavior;
 import jetbrains.mps.smodel.SNode;
 import java.util.List;
 import java.util.Set;
-import jetbrains.mps.smodel.runtime.BehaviorDescriptor;
-import jetbrains.mps.smodel.language.ConceptRegistry;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.smodel.behaviour.BehaviorManager;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class TypeExpression_Behavior {
-  private static Class[] PARAMETERS_1213877382373 = {SNode.class, List.class};
-  private static Class[] PARAMETERS_1213877382378 = {SNode.class, Set.class};
-  private static Class[] PARAMETERS_1213877382383 = {SNode.class};
-  private static Class[] PARAMETERS_1213877382388 = {SNode.class};
-
   public static void init(SNode thisNode) {
   }
 
@@ -33,39 +27,43 @@ public class TypeExpression_Behavior {
     return false;
   }
 
+  @Deprecated
   public static void call_checkAttributes_1213877382373(SNode thisNode, List<SNode> attributeDeclarations) {
-    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
-    descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.TypeExpression"), "virtual_checkAttributes_1213877382373", PARAMETERS_1213877382373, new Object[]{attributeDeclarations});
+    BehaviorReflection.invokeVirtual(Void.class, thisNode, "virtual_checkAttributes_1213877382373", new Object[]{attributeDeclarations});
   }
 
+  @Deprecated
   public static void call_checkElements_1213877382378(SNode thisNode, Set<SNode> elementDeclarations) {
-    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
-    descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.TypeExpression"), "virtual_checkElements_1213877382378", PARAMETERS_1213877382378, new Object[]{elementDeclarations});
+    BehaviorReflection.invokeVirtual(Void.class, thisNode, "virtual_checkElements_1213877382378", new Object[]{elementDeclarations});
   }
 
+  @Deprecated
   public static boolean call_hasElementReferences_1213877382383(SNode thisNode) {
-    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
-    return (Boolean) descriptor.invoke(Boolean.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.TypeExpression"), "virtual_hasElementReferences_1213877382383", PARAMETERS_1213877382383, new Object[]{});
+    return BehaviorReflection.invokeVirtual(Boolean.TYPE, thisNode, "virtual_hasElementReferences_1213877382383", new Object[]{});
   }
 
+  @Deprecated
   public static boolean call_isMixed_1213877382388(SNode thisNode) {
-    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
-    return (Boolean) descriptor.invoke(Boolean.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.TypeExpression"), "virtual_isMixed_1213877382388", PARAMETERS_1213877382388, new Object[]{});
+    return BehaviorReflection.invokeVirtual(Boolean.TYPE, thisNode, "virtual_isMixed_1213877382388", new Object[]{});
   }
 
+  @Deprecated
   public static void callSuper_checkAttributes_1213877382373(SNode thisNode, String callerConceptFqName, List<SNode> attributeDeclarations) {
-    BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.TypeExpression"), callerConceptFqName, "virtual_checkAttributes_1213877382373", PARAMETERS_1213877382373, new Object[]{attributeDeclarations});
+    BehaviorManager.getInstance().invokeSuper(Void.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.TypeExpression"), callerConceptFqName, "virtual_checkAttributes_1213877382373", new Class[]{SNode.class, List.class}, new Object[]{attributeDeclarations});
   }
 
+  @Deprecated
   public static void callSuper_checkElements_1213877382378(SNode thisNode, String callerConceptFqName, Set<SNode> elementDeclarations) {
-    BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.TypeExpression"), callerConceptFqName, "virtual_checkElements_1213877382378", PARAMETERS_1213877382378, new Object[]{elementDeclarations});
+    BehaviorManager.getInstance().invokeSuper(Void.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.TypeExpression"), callerConceptFqName, "virtual_checkElements_1213877382378", new Class[]{SNode.class, Set.class}, new Object[]{elementDeclarations});
   }
 
+  @Deprecated
   public static boolean callSuper_hasElementReferences_1213877382383(SNode thisNode, String callerConceptFqName) {
-    return (Boolean) BehaviorManager.getInstance().invokeSuper(Boolean.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.TypeExpression"), callerConceptFqName, "virtual_hasElementReferences_1213877382383", PARAMETERS_1213877382383, new Object[]{});
+    return BehaviorManager.getInstance().invokeSuper(Boolean.TYPE, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.TypeExpression"), callerConceptFqName, "virtual_hasElementReferences_1213877382383", new Class[]{SNode.class}, new Object[]{});
   }
 
+  @Deprecated
   public static boolean callSuper_isMixed_1213877382388(SNode thisNode, String callerConceptFqName) {
-    return (Boolean) BehaviorManager.getInstance().invokeSuper(Boolean.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.TypeExpression"), callerConceptFqName, "virtual_isMixed_1213877382388", PARAMETERS_1213877382388, new Object[]{});
+    return BehaviorManager.getInstance().invokeSuper(Boolean.TYPE, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.TypeExpression"), callerConceptFqName, "virtual_isMixed_1213877382388", new Class[]{SNode.class}, new Object[]{});
   }
 }

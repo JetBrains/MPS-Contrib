@@ -6,14 +6,12 @@ import jetbrains.mps.lang.script.runtime.BaseMigrationScript;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.lang.script.runtime.AbstractMigrationRefactoring;
 import jetbrains.mps.smodel.SNode;
+import jetbrains.mps.smodel.SModel;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.smodel.SModel;
 import jetbrains.mps.internal.collections.runtime.ISequenceClosure;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
-import java.util.Set;
-import java.util.HashSet;
 import jetbrains.mps.smodel.SModelUtil_new;
 import jetbrains.mps.project.GlobalScope;
 import jetbrains.mps.smodel.SReference;
@@ -38,11 +36,12 @@ public class FixReferencesToDeletedRunModels_MigrationScript extends BaseMigrati
 
       public boolean isApplicableInstanceNode(SNode node) {
         // only root nodes 
-        return node.isRoot() && Sequence.fromIterable(ScriptsUtil.getImports(SNodeOperations.getModel(node), "jetbrains.mps.baseLanguage.util.plugin.run")).isNotEmpty();
+        SModel model = node.getModel();
+        return model != null && model.isRoot(node) && Sequence.fromIterable(ScriptsUtil.getImports(SNodeOperations.getModel(node), "jetbrains.mps.baseLanguage.util.plugin.run")).isNotEmpty();
       }
 
       public void doUpdateInstanceNode(SNode node) {
-        ScriptsUtil.updateReferencesToModel(node, "jetbrains.mps.baseLanguage.util.plugin.run", SNodeOperations.getModel(SLinkOperations.getTarget(new FixReferencesToDeletedRunModels_MigrationScript.QuotationClass_s5mt6f_a0a0a2a0a4a0a0a1a0().createNode(), "classifier", false)).getSModelReference());
+        ScriptsUtil.updateReferencesToModel(node, "jetbrains.mps.baseLanguage.util.plugin.run", SNodeOperations.getModel(SLinkOperations.getTarget(_quotation_createNode_26ji2y_a0a0c0a0a0(), "classifier", false)).getSModelReference());
       }
 
       public boolean isShowAsIntention() {
@@ -65,7 +64,7 @@ public class FixReferencesToDeletedRunModels_MigrationScript extends BaseMigrati
       public boolean isApplicableInstanceNode(SNode node) {
         // only root nodes 
         final SModel model = SNodeOperations.getModel(node);
-        return node.isRoot() && Sequence.fromIterable(Sequence.fromClosure(new ISequenceClosure<SModel.ImportElement>() {
+        return model != null && model.isRoot(node) && Sequence.fromIterable(Sequence.fromClosure(new ISequenceClosure<SModel.ImportElement>() {
           public Iterable<SModel.ImportElement> iterable() {
             return model.importedModels();
           }
@@ -77,7 +76,7 @@ public class FixReferencesToDeletedRunModels_MigrationScript extends BaseMigrati
       }
 
       public void doUpdateInstanceNode(SNode node) {
-        ScriptsUtil.updateReferencesToModel(node, "jetbrains.mps.lang.plugin.run", SNodeOperations.getModel(SLinkOperations.getTarget(new FixReferencesToDeletedRunModels_MigrationScript.QuotationClass_s5mt6f_a0a0a2a0a4a0a0a2a0().createNode(), "classifier", false)).getSModelReference());
+        ScriptsUtil.updateReferencesToModel(node, "jetbrains.mps.lang.plugin.run", SNodeOperations.getModel(SLinkOperations.getTarget(_quotation_createNode_26ji2y_a0a0c0a0a1(), "classifier", false)).getSModelReference());
       }
 
       public boolean isShowAsIntention() {
@@ -86,39 +85,17 @@ public class FixReferencesToDeletedRunModels_MigrationScript extends BaseMigrati
     });
   }
 
-  public static class QuotationClass_s5mt6f_a0a0a2a0a4a0a0a1a0 {
-    public QuotationClass_s5mt6f_a0a0a2a0a4a0a0a1a0() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_1 = null;
-      {
-        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", null, GlobalScope.getInstance(), false);
-        SNode quotedNode1_2 = quotedNode_1;
-        quotedNode1_2.addReference(SReference.create("classifier", quotedNode1_2, SModelReference.fromString("f:java_stub#920eaa0e-ecca-46bc-bee7-4e5c59213dd6#jetbrains.mps(Testbench/jetbrains.mps@java_stub)"), SNodeId.fromString("~MPSLaunch")));
-        result = quotedNode1_2;
-      }
-      return result;
-    }
+  private static SNode _quotation_createNode_26ji2y_a0a0c0a0a0() {
+    SNode quotedNode_1 = null;
+    quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", null, null, GlobalScope.getInstance(), false);
+    quotedNode_1.setReference("classifier", SReference.create("classifier", quotedNode_1, SModelReference.fromString("f:java_stub#920eaa0e-ecca-46bc-bee7-4e5c59213dd6#jetbrains.mps(Testbench/jetbrains.mps@java_stub)"), SNodeId.fromString("~MPSLaunch")));
+    return quotedNode_1;
   }
 
-  public static class QuotationClass_s5mt6f_a0a0a2a0a4a0a0a2a0 {
-    public QuotationClass_s5mt6f_a0a0a2a0a4a0a0a2a0() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_1 = null;
-      {
-        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", null, GlobalScope.getInstance(), false);
-        SNode quotedNode1_2 = quotedNode_1;
-        quotedNode1_2.addReference(SReference.create("classifier", quotedNode1_2, SModelReference.fromString("r:82f15792-6966-47aa-8004-b293ab2bcfd2(jetbrains.mps.lang.plugin.run)"), SNodeId.fromString("242278890011773407")));
-        result = quotedNode1_2;
-      }
-      return result;
-    }
+  private static SNode _quotation_createNode_26ji2y_a0a0c0a0a1() {
+    SNode quotedNode_1 = null;
+    quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", null, null, GlobalScope.getInstance(), false);
+    quotedNode_1.setReference("classifier", SReference.create("classifier", quotedNode_1, SModelReference.fromString("r:82f15792-6966-47aa-8004-b293ab2bcfd2(jetbrains.mps.lang.plugin.run)"), SNodeId.fromString("242278890011773407")));
+    return quotedNode_1;
   }
 }

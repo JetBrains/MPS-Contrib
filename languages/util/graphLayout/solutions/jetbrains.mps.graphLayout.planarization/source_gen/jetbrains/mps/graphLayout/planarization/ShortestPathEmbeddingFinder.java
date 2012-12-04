@@ -19,7 +19,6 @@ import jetbrains.mps.graphLayout.graph.GraphModificationEvent;
 
 public class ShortestPathEmbeddingFinder implements IEmbeddingFinder {
   private static int SHOW_LOG = 0;
-
   private IEmbeddingFinder myInitialFinder;
   private boolean myForbidOuterEdgeCrossing;
 

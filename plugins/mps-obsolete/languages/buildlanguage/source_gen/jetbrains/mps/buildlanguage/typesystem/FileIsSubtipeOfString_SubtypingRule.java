@@ -8,8 +8,6 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.typesystem.inference.TypeCheckingContext;
 import jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus;
 import jetbrains.mps.smodel.SModelUtil_new;
-import java.util.Set;
-import java.util.HashSet;
 import jetbrains.mps.project.GlobalScope;
 
 public class FileIsSubtipeOfString_SubtypingRule extends SubtypingRule_Runtime implements ISubtypingRule_Runtime {
@@ -17,7 +15,7 @@ public class FileIsSubtipeOfString_SubtypingRule extends SubtypingRule_Runtime i
   }
 
   public SNode getSubOrSuperType(SNode fileType, TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
-    return new FileIsSubtipeOfString_SubtypingRule.QuotationClass_3xtvj4_a0a0a().createNode(typeCheckingContext);
+    return _quotation_createNode_3xtvj4_a0a1();
   }
 
   public String getApplicableConceptFQName() {
@@ -26,7 +24,7 @@ public class FileIsSubtipeOfString_SubtypingRule extends SubtypingRule_Runtime i
 
   public IsApplicableStatus isApplicableAndPattern(SNode argument) {
     {
-      boolean b = SModelUtil_new.isAssignableConcept(argument.getConceptFqName(), this.getApplicableConceptFQName());
+      boolean b = SModelUtil_new.isAssignableConcept(argument.getConcept().getId(), this.getApplicableConceptFQName());
       return new IsApplicableStatus(b, null);
     }
   }
@@ -35,32 +33,9 @@ public class FileIsSubtipeOfString_SubtypingRule extends SubtypingRule_Runtime i
     return false;
   }
 
-  public static class QuotationClass_3xtvj4_a0a0a {
-    public QuotationClass_3xtvj4_a0a0a() {
-    }
-
-    public SNode createNode(final TypeCheckingContext typeCheckingContext) {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_1 = null;
-      {
-        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.StringType", null, GlobalScope.getInstance(), false);
-        SNode quotedNode1_2 = quotedNode_1;
-        result = quotedNode1_2;
-      }
-      return result;
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_1 = null;
-      {
-        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.StringType", null, GlobalScope.getInstance(), false);
-        SNode quotedNode1_2 = quotedNode_1;
-        result = quotedNode1_2;
-      }
-      return result;
-    }
+  private static SNode _quotation_createNode_3xtvj4_a0a1() {
+    SNode quotedNode_1 = null;
+    quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.StringType", null, null, GlobalScope.getInstance(), false);
+    return quotedNode_1;
   }
 }

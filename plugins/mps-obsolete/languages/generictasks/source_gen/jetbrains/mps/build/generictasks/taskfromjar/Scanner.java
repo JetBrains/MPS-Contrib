@@ -32,7 +32,6 @@ public class Scanner {
   public static final String LIB_ANT_JAR = "/lib/ant.jar";
   public static final String LIB_ANT_JUNIT_JAR = "/lib/ant-junit.jar";
   private static final String PROPERTY_EXT = "org/apache/tools/ant/taskdefs/defaults.properties";
-
   private final Set<ClassInfo> myRoots = new HashSet<ClassInfo>();
   private final Set<String> mySrcJars = new LinkedHashSet<String>();
   private String myAntPath;

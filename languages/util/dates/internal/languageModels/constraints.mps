@@ -12,6 +12,8 @@
   <import index="d0m4" modelUID="f:java_stub#2ebbb458-8ebb-481e-a5d7-9e27903323d4#org.joda.time.format(org.joda.time.format@java_stub)" version="-1" />
   <import index="5h2r" modelUID="r:e985db5c-6ba2-43f6-94fe-1b4547c2cc5c(jetbrains.mps.baseLanguage.search)" version="-1" />
   <import index="y5px" modelUID="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.generator(MPS.Core/jetbrains.mps.generator@java_stub)" version="-1" />
+  <import index="fnmy" modelUID="r:89c0fb70-0977-4113-a076-5906f9d8630f(jetbrains.mps.baseLanguage.scopes)" version="-1" />
+  <import index="k7g3" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" version="-1" />
   <import index="tp1t" modelUID="r:00000000-0000-4000-0000-011c8959030d(jetbrains.mps.lang.constraints.structure)" version="9" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
   <import index="tpek" modelUID="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" version="-1" implicit="yes" />
@@ -100,27 +102,26 @@
       <link role="applicableLink" roleId="tp1t.1148687202698" targetNodeId="tp6p.1172492673219" />
       <node role="searchScopeFactory" roleId="tp1t.1148687345559" type="tp1t.ConstraintFunction_ReferentSearchScope_Scope" typeId="tp1t.5676632058862809931" id="3671207155728948212">
         <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="3671207155728948213">
-          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3671207155728948215">
-            <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3671207155728950700">
-              <node role="operand" roleId="tpee.1197027771414" type="tpee.ParenthesizedExpression" typeId="tpee.1079359253375" id="3671207155728950679">
-                <node role="expression" roleId="tpee.1079359253376" type="tpee.CastExpression" typeId="tpee.1070534934090" id="3671207155728950674">
-                  <node role="type" roleId="tpee.1070534934091" type="tp25.SNodeType" typeId="tp25.1138055754698" id="3671207155728950677">
-                    <link role="concept" roleId="tp25.1138405853777" targetNodeId="tpee.1107461130800" resolveInfo="Classifier" />
-                  </node>
-                  <node role="expression" roleId="tpee.1070534934092" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="3671207155728948216">
-                    <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="y5px.~JavaModelUtil_new" resolveInfo="JavaModelUtil_new" />
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="y5px.~JavaModelUtil_new%dfindClassifier(java%dlang%dClass)%cjetbrains%dmps%dsmodel%dSNode" resolveInfo="findClassifier" />
-                    <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.ClassifierClassExpression" typeId="tpee.1116615150612" id="3671207155728948217">
-                      <link role="classifier" roleId="tpee.1116615189566" targetNodeId="ojzd.~Period" resolveInfo="Period" />
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3021057898025631647">
+            <node role="expression" roleId="tpee.1068580123156" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="3021057898025631648">
+              <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="3021057898025631650">
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fnmy.3021057898026195447" resolveInfo="MethodsScope" />
+                <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="3021057898025625061">
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fnmy.3021057898025337114" resolveInfo="visibleStaticMethods" />
+                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="fnmy.3021057898025329995" resolveInfo="Members" />
+                  <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.CastExpression" typeId="tpee.1070534934090" id="3021057898025631124">
+                    <node role="type" roleId="tpee.1070534934091" type="tp25.SNodeType" typeId="tp25.1138055754698" id="3021057898025631125">
+                      <link role="concept" roleId="tp25.1138405853777" targetNodeId="tpee.1107461130800" resolveInfo="Classifier" />
+                    </node>
+                    <node role="expression" roleId="tpee.1070534934092" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="3021057898025631126">
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="y5px.~JavaModelUtil_new%dfindClassifier(java%dlang%dClass)%cjetbrains%dmps%dsmodel%dSNode" resolveInfo="findClassifier" />
+                      <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="y5px.~JavaModelUtil_new" resolveInfo="JavaModelUtil_new" />
+                      <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.ClassifierClassExpression" typeId="tpee.1116615150612" id="3021057898025631127">
+                        <link role="classifier" roleId="tpee.1116615189566" targetNodeId="ojzd.~Period" resolveInfo="Period" />
+                      </node>
                     </node>
                   </node>
-                </node>
-              </node>
-              <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="3671207155728950706">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tpek.8083692786967356611" resolveInfo="getVisibleMembers" />
-                <node role="actualArgument" roleId="tpee.1068499141038" type="tp1t.ConceptParameter_ReferentSearchScope_enclosingNode" typeId="tp1t.1148934636683" id="3671207155728950707" />
-                <node role="actualArgument" roleId="tpee.1068499141038" type="tp25.ConceptRefExpression" typeId="tp25.1172424058054" id="3671207155728950733">
-                  <link role="conceptDeclaration" roleId="tp25.1172424100906" targetNodeId="tpee.1081236700938" resolveInfo="StaticMethodDeclaration" />
+                  <node role="actualArgument" roleId="tpee.1068499141038" type="tp1t.ConceptParameter_ReferentSearchScope_enclosingNode" typeId="tp1t.1148934636683" id="3021057898025631160" />
                 </node>
               </node>
             </node>
@@ -132,27 +133,26 @@
       <link role="applicableLink" roleId="tp1t.1148687202698" targetNodeId="tp6p.1172155646667" />
       <node role="searchScopeFactory" roleId="tp1t.1148687345559" type="tp1t.ConstraintFunction_ReferentSearchScope_Scope" typeId="tp1t.5676632058862809931" id="3671207155728952055">
         <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="3671207155728952056">
-          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3671207155728952059">
-            <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3671207155728952060">
-              <node role="operand" roleId="tpee.1197027771414" type="tpee.ParenthesizedExpression" typeId="tpee.1079359253375" id="3671207155728952061">
-                <node role="expression" roleId="tpee.1079359253376" type="tpee.CastExpression" typeId="tpee.1070534934090" id="3671207155728952062">
-                  <node role="type" roleId="tpee.1070534934091" type="tp25.SNodeType" typeId="tp25.1138055754698" id="3671207155728952063">
-                    <link role="concept" roleId="tp25.1138405853777" targetNodeId="tpee.1107461130800" resolveInfo="Classifier" />
-                  </node>
-                  <node role="expression" roleId="tpee.1070534934092" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="1238266808239">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="y5px.~JavaModelUtil_new%dfindClassifier(java%dlang%dClass)%cjetbrains%dmps%dsmodel%dSNode" resolveInfo="findClassifier" />
-                    <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="y5px.~JavaModelUtil_new" resolveInfo="JavaModelUtil_new" />
-                    <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.ClassifierClassExpression" typeId="tpee.1116615150612" id="1238266808240">
-                      <link role="classifier" roleId="tpee.1116615189566" targetNodeId="ojzd.~DateTimeFieldType" resolveInfo="DateTimeFieldType" />
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3021057898025631684">
+            <node role="expression" roleId="tpee.1068580123156" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="3021057898025631685">
+              <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="3021057898025631686">
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fnmy.3021057898026195447" resolveInfo="MethodsScope" />
+                <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="3021057898025631687">
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fnmy.3021057898025337114" resolveInfo="visibleStaticMethods" />
+                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="fnmy.3021057898025329995" resolveInfo="Members" />
+                  <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.CastExpression" typeId="tpee.1070534934090" id="3021057898025631688">
+                    <node role="type" roleId="tpee.1070534934091" type="tp25.SNodeType" typeId="tp25.1138055754698" id="3021057898025631689">
+                      <link role="concept" roleId="tp25.1138405853777" targetNodeId="tpee.1107461130800" resolveInfo="Classifier" />
+                    </node>
+                    <node role="expression" roleId="tpee.1070534934092" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="3021057898025631690">
+                      <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="y5px.~JavaModelUtil_new" resolveInfo="JavaModelUtil_new" />
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="y5px.~JavaModelUtil_new%dfindClassifier(java%dlang%dClass)%cjetbrains%dmps%dsmodel%dSNode" resolveInfo="findClassifier" />
+                      <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.ClassifierClassExpression" typeId="tpee.1116615150612" id="3021057898025631695">
+                        <link role="classifier" roleId="tpee.1116615189566" targetNodeId="ojzd.~DateTimeFieldType" resolveInfo="DateTimeFieldType" />
+                      </node>
                     </node>
                   </node>
-                </node>
-              </node>
-              <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="3671207155728952066">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tpek.8083692786967356611" resolveInfo="getVisibleMembers" />
-                <node role="actualArgument" roleId="tpee.1068499141038" type="tp1t.ConceptParameter_ReferentSearchScope_enclosingNode" typeId="tp1t.1148934636683" id="3671207155728952067" />
-                <node role="actualArgument" roleId="tpee.1068499141038" type="tp25.ConceptRefExpression" typeId="tp25.1172424058054" id="3671207155728952068">
-                  <link role="conceptDeclaration" roleId="tp25.1172424100906" targetNodeId="tpee.1081236700938" resolveInfo="StaticMethodDeclaration" />
+                  <node role="actualArgument" roleId="tpee.1068499141038" type="tp1t.ConceptParameter_ReferentSearchScope_enclosingNode" typeId="tp1t.1148934636683" id="3021057898025631692" />
                 </node>
               </node>
             </node>
@@ -164,27 +164,33 @@
       <link role="applicableLink" roleId="tp1t.1148687202698" targetNodeId="tp6p.48671598476606809" />
       <node role="searchScopeFactory" roleId="tp1t.1148687345559" type="tp1t.ConstraintFunction_ReferentSearchScope_Scope" typeId="tp1t.5676632058862809931" id="3671207155728952155">
         <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="3671207155728952156">
-          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3671207155728952078">
-            <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3671207155728952145">
-              <node role="operand" roleId="tpee.1197027771414" type="tpee.ParenthesizedExpression" typeId="tpee.1079359253375" id="3671207155728952084">
-                <node role="expression" roleId="tpee.1079359253376" type="tpee.CastExpression" typeId="tpee.1070534934090" id="3671207155728952079">
-                  <node role="type" roleId="tpee.1070534934091" type="tp25.SNodeType" typeId="tp25.1138055754698" id="3671207155728952080">
-                    <link role="concept" roleId="tp25.1138405853777" targetNodeId="tpee.1107461130800" resolveInfo="Classifier" />
-                  </node>
-                  <node role="expression" roleId="tpee.1070534934092" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="3671207155728952081">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="y5px.~JavaModelUtil_new%dfindClassifier(java%dlang%dClass)%cjetbrains%dmps%dsmodel%dSNode" resolveInfo="findClassifier" />
-                    <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="y5px.~JavaModelUtil_new" resolveInfo="JavaModelUtil_new" />
-                    <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.ClassifierClassExpression" typeId="tpee.1116615150612" id="3671207155728952082">
-                      <link role="classifier" roleId="tpee.1116615189566" targetNodeId="d0m4.~PeriodFormatterBuilder" resolveInfo="PeriodFormatterBuilder" />
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3021057898025631708">
+            <node role="expression" roleId="tpee.1068580123156" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="3021057898025631709">
+              <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="3021057898025631710">
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fnmy.3021057898026195447" resolveInfo="MethodsScope" />
+                <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="3021057898025631719">
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fnmy.3021057898025337102" resolveInfo="visibleInstanceMethods" />
+                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="fnmy.3021057898025329995" resolveInfo="Members" />
+                  <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3021057898025631918">
+                    <node role="operand" roleId="tpee.1197027771414" type="tpee.ParenthesizedExpression" typeId="tpee.1079359253375" id="3021057898025631891">
+                      <node role="expression" roleId="tpee.1079359253376" type="tpee.CastExpression" typeId="tpee.1070534934090" id="3021057898025631892">
+                        <node role="type" roleId="tpee.1070534934091" type="tp25.SNodeType" typeId="tp25.1138055754698" id="3021057898025631893">
+                          <link role="concept" roleId="tp25.1138405853777" targetNodeId="tpee.1107461130800" resolveInfo="Classifier" />
+                        </node>
+                        <node role="expression" roleId="tpee.1070534934092" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="3021057898025631894">
+                          <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="y5px.~JavaModelUtil_new" resolveInfo="JavaModelUtil_new" />
+                          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="y5px.~JavaModelUtil_new%dfindClassifier(java%dlang%dClass)%cjetbrains%dmps%dsmodel%dSNode" resolveInfo="findClassifier" />
+                          <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.ClassifierClassExpression" typeId="tpee.1116615150612" id="3021057898025631895">
+                            <link role="classifier" roleId="tpee.1116615189566" targetNodeId="d0m4.~PeriodFormatterBuilder" resolveInfo="PeriodFormatterBuilder" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="3021057898025631926">
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tpek.7405920559687254782" resolveInfo="getThisType" />
                     </node>
                   </node>
-                </node>
-              </node>
-              <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="3671207155728952151">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tpek.8083692786967356611" resolveInfo="getVisibleMembers" />
-                <node role="actualArgument" roleId="tpee.1068499141038" type="tp1t.ConceptParameter_ReferentSearchScope_enclosingNode" typeId="tp1t.1148934636683" id="3671207155728952152" />
-                <node role="actualArgument" roleId="tpee.1068499141038" type="tp25.ConceptRefExpression" typeId="tp25.1172424058054" id="3671207155728952154">
-                  <link role="conceptDeclaration" roleId="tp25.1172424100906" targetNodeId="tpee.1068580123165" resolveInfo="InstanceMethodDeclaration" />
+                  <node role="actualArgument" roleId="tpee.1068499141038" type="tp1t.ConceptParameter_ReferentSearchScope_enclosingNode" typeId="tp1t.1148934636683" id="3021057898025631724" />
                 </node>
               </node>
             </node>

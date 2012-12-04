@@ -7,13 +7,11 @@ import java.util.Arrays;
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
 
 public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime.ConstraintsAspectDescriptor {
-  private static String[] stringSwitchCases_2qnle6_a0a0a = new String[]{"jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeIntPropertyFormatConfiguration", "jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeProperty", "jetbrains.mps.baseLanguage.datesInternal.structure.DateTimePropertyCardinality", "jetbrains.mps.baseLanguage.datesInternal.structure.DateTimePropertyConfiguration", "jetbrains.mps.baseLanguage.datesInternal.structure.DateTimePropertyFormatType", "jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeZonePropertyFormatConfiguration", "jetbrains.mps.baseLanguage.datesInternal.structure.DurationType", "jetbrains.mps.baseLanguage.datesInternal.structure.Month", "jetbrains.mps.baseLanguage.datesInternal.structure.PredefinedDateFormat", "jetbrains.mps.baseLanguage.datesInternal.structure.PredefinedPeriodFormat", "jetbrains.mps.baseLanguage.datesInternal.structure.SchedulePeriod"};
-
   public ConstraintsAspectDescriptor() {
   }
 
   public ConstraintsDescriptor getDescriptor(String fqName) {
-    switch (Arrays.binarySearch(stringSwitchCases_2qnle6_a0a0a, fqName)) {
+    switch (Arrays.binarySearch(stringSwitchCases_2qnle6_a0a0b, fqName)) {
       case 6:
         return new DurationType_Constraints();
       case 10:
@@ -41,4 +39,6 @@ public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime
         return new BaseConstraintsDescriptor(fqName);
     }
   }
+
+  private static String[] stringSwitchCases_2qnle6_a0a0b = new String[]{"jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeIntPropertyFormatConfiguration", "jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeProperty", "jetbrains.mps.baseLanguage.datesInternal.structure.DateTimePropertyCardinality", "jetbrains.mps.baseLanguage.datesInternal.structure.DateTimePropertyConfiguration", "jetbrains.mps.baseLanguage.datesInternal.structure.DateTimePropertyFormatType", "jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeZonePropertyFormatConfiguration", "jetbrains.mps.baseLanguage.datesInternal.structure.DurationType", "jetbrains.mps.baseLanguage.datesInternal.structure.Month", "jetbrains.mps.baseLanguage.datesInternal.structure.PredefinedDateFormat", "jetbrains.mps.baseLanguage.datesInternal.structure.PredefinedPeriodFormat", "jetbrains.mps.baseLanguage.datesInternal.structure.SchedulePeriod"};
 }

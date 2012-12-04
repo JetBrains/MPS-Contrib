@@ -6,13 +6,11 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import java.util.List;
 import java.util.ArrayList;
-import jetbrains.mps.smodel.runtime.BehaviorDescriptor;
-import jetbrains.mps.smodel.language.ConceptRegistry;
+import org.jetbrains.mps.openapi.language.SConcept;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.smodel.behaviour.BehaviorManager;
 
 public class Content_Behavior {
-  private static Class[] PARAMETERS_1213877224308 = {SNode.class};
-
   public static void init(SNode thisNode) {
   }
 
@@ -23,7 +21,7 @@ public class Content_Behavior {
         return true;
       }
     }
-    return parent.isRoot() || SNodeOperations.isInstanceOf(parent, "jetbrains.mps.xmlInternal.structure.ContentStatement");
+    return jetbrains.mps.util.SNodeOperations.isRoot(parent) || SNodeOperations.isInstanceOf(parent, "jetbrains.mps.xmlInternal.structure.ContentStatement");
   }
 
   public static String call_isSeparate_string_1213877224300(SNode thisNode) {
@@ -34,12 +32,17 @@ public class Content_Behavior {
     return new ArrayList<SNode>();
   }
 
-  public static List<SNode> call_getSubcontents_1213877224308(SNode thisNode) {
-    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
-    return (List<SNode>) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xml.structure.Content"), "virtual_getSubcontents_1213877224308", PARAMETERS_1213877224308, new Object[]{});
+  public static boolean virtual_isComplex_1262430001741498088(SConcept thisConcept) {
+    return false;
   }
 
+  @Deprecated
+  public static List<SNode> call_getSubcontents_1213877224308(SNode thisNode) {
+    return BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), thisNode, "virtual_getSubcontents_1213877224308", new Object[]{});
+  }
+
+  @Deprecated
   public static List<SNode> callSuper_getSubcontents_1213877224308(SNode thisNode, String callerConceptFqName) {
-    return (List<SNode>) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xml.structure.Content"), callerConceptFqName, "virtual_getSubcontents_1213877224308", PARAMETERS_1213877224308, new Object[]{});
+    return BehaviorManager.getInstance().invokeSuper((Class<List<SNode>>) ((Class) Object.class), SNodeOperations.cast(thisNode, "jetbrains.mps.xml.structure.Content"), callerConceptFqName, "virtual_getSubcontents_1213877224308", new Class[]{SNode.class}, new Object[]{});
   }
 }

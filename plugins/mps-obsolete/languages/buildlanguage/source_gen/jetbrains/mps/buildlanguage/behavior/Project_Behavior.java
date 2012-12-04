@@ -9,6 +9,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import java.util.List;
 import java.util.ArrayList;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.IVisitor;
 
@@ -26,7 +27,7 @@ public class Project_Behavior {
     List<SNode> decls = new ArrayList<SNode>();
     ListSequence.fromList(decls).addSequence(ListSequence.fromList(SLinkOperations.getTargets(thisNode, "property", true)));
     for (SNode pimport : ListSequence.fromList(SLinkOperations.getTargets(thisNode, "importProperties", true))) {
-      ListSequence.fromList(decls).addSequence(ListSequence.fromList(AbstractImportProperties_Behavior.call_getPropertyDeclarations_1240397763706(pimport)));
+      ListSequence.fromList(decls).addSequence(ListSequence.fromList(BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), pimport, "virtual_getPropertyDeclarations_1240397763706", new Object[]{})));
     }
     return decls;
   }

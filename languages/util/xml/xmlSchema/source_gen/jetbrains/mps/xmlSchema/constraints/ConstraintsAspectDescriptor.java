@@ -7,13 +7,11 @@ import java.util.Arrays;
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
 
 public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime.ConstraintsAspectDescriptor {
-  private static String[] stringSwitchCases_2qnle6_a0a0a = new String[]{"jetbrains.mps.xmlSchema.structure.AttributeDeclaration", "jetbrains.mps.xmlSchema.structure.AttributeGroup", "jetbrains.mps.xmlSchema.structure.BoundExpression", "jetbrains.mps.xmlSchema.structure.ComplexType", "jetbrains.mps.xmlSchema.structure.ComplexTypeReference", "jetbrains.mps.xmlSchema.structure.Declaration", "jetbrains.mps.xmlSchema.structure.ElementDeclaration", "jetbrains.mps.xmlSchema.structure.EntityDeclaration", "jetbrains.mps.xmlSchema.structure.EntitySet", "jetbrains.mps.xmlSchema.structure.GroupDeclaration", "jetbrains.mps.xmlSchema.structure.Schema"};
-
   public ConstraintsAspectDescriptor() {
   }
 
   public ConstraintsDescriptor getDescriptor(String fqName) {
-    switch (Arrays.binarySearch(stringSwitchCases_2qnle6_a0a0a, fqName)) {
+    switch (Arrays.binarySearch(stringSwitchCases_2qnle6_a0a0b, fqName)) {
       case 0:
         return new AttributeDeclaration_Constraints();
       case 7:
@@ -41,4 +39,6 @@ public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime
         return new BaseConstraintsDescriptor(fqName);
     }
   }
+
+  private static String[] stringSwitchCases_2qnle6_a0a0b = new String[]{"jetbrains.mps.xmlSchema.structure.AttributeDeclaration", "jetbrains.mps.xmlSchema.structure.AttributeGroup", "jetbrains.mps.xmlSchema.structure.BoundExpression", "jetbrains.mps.xmlSchema.structure.ComplexType", "jetbrains.mps.xmlSchema.structure.ComplexTypeReference", "jetbrains.mps.xmlSchema.structure.Declaration", "jetbrains.mps.xmlSchema.structure.ElementDeclaration", "jetbrains.mps.xmlSchema.structure.EntityDeclaration", "jetbrains.mps.xmlSchema.structure.EntitySet", "jetbrains.mps.xmlSchema.structure.GroupDeclaration", "jetbrains.mps.xmlSchema.structure.Schema"};
 }

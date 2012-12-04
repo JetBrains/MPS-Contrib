@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="jetbrains.mps.build.generictasks" uuid="fba399db-f591-45dc-a279-e2a2a986e262" doNotGenerateAdapters="false">
+<language namespace="jetbrains.mps.build.generictasks" uuid="fba399db-f591-45dc-a279-e2a2a986e262">
   <models>
-    <modelRoot path="${language_descriptor}/languageAccessories" />
-    <modelRoot path="${language_descriptor}/languageModels" />
+    <modelRoot path="${module}/languageAccessories" />
+    <modelRoot path="${module}/languageModels" />
     <modelRoot path="${mps_home}/lib/ant/lib/ant-launcher.jar">
       <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
     </modelRoot>
@@ -14,7 +14,7 @@
   <generators>
     <generator name="" generatorUID="jetbrains.mps.build.generictasks#683020775182432297" uuid="e715b632-ac19-4813-ab23-46a82a84cc08">
       <models>
-        <modelRoot path="${language_descriptor}/generator/template" />
+        <modelRoot path="${module}/generator/template" />
       </models>
       <external-templates>
         <generator generatorUID="40844709-b5b9-4c70-8f1d-a2e8ab542065(jetbrains.mps.buildlanguage#1197036391807)" />
@@ -53,9 +53,7 @@
     </generator>
   </generators>
   <stubModelEntries>
-    <stubModelEntry path="${mps_home}/lib/ant/lib/ant-launcher.jar">
-      <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
-    </stubModelEntry>
+    <stubModelEntry path="${mps_home}/lib/ant/lib/ant-launcher.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

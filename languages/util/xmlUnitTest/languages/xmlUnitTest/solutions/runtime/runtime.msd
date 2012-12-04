@@ -6,10 +6,11 @@
     </modelRoot>
   </models>
   <stubModelEntries>
-    <stubModelEntry path="${mps_home}/languages/util/xmlUnitTest/languages/xmlUnitTest/lib/xmlunit-1.3.jar">
-      <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
-    </stubModelEntry>
+    <stubModelEntry path="${mps_home}/languages/util/xmlUnitTest/languages/xmlUnitTest/lib/xmlunit-1.3.jar" />
   </stubModelEntries>
   <sourcePath />
+  <usedLanguages>
+    <usedLanguage>f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</usedLanguage>
+  </usedLanguages>
 </solution>
 

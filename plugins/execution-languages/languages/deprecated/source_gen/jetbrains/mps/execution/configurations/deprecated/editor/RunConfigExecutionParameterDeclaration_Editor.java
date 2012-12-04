@@ -4,8 +4,13 @@ package jetbrains.mps.execution.configurations.deprecated.editor;
 
 import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
-import jetbrains.mps.nodeEditor.EditorContext;
+import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.smodel.SNode;
+import jetbrains.mps.nodeEditor.InlineCellProvider;
+import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
+import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
+import jetbrains.mps.smodel.IOperationContext;
+import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.AbstractCellProvider;
 import jetbrains.mps.lang.plugin.editor.ActionParameter_NameCellComponent;
@@ -13,18 +18,12 @@ import jetbrains.mps.lang.plugin.editor.ActionParameter_Hint;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Property;
 import jetbrains.mps.nodeEditor.cells.ModelAccessor;
-import jetbrains.mps.lang.core.behavior.BaseConcept_Behavior;
-import jetbrains.mps.lang.plugin.behavior.ActionParameter_Behavior;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.util.EqualUtil;
 import jetbrains.mps.nodeEditor.CellActionType;
 import jetbrains.mps.nodeEditor.cellActions.CellAction_Empty;
-import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
 import jetbrains.mps.nodeEditor.FocusPolicy;
-import jetbrains.mps.smodel.IOperationContext;
-import jetbrains.mps.nodeEditor.EditorManager;
-import jetbrains.mps.nodeEditor.InlineCellProvider;
-import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 
 public class RunConfigExecutionParameterDeclaration_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
@@ -33,6 +32,39 @@ public class RunConfigExecutionParameterDeclaration_Editor extends DefaultNodeEd
 
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
     return this.createComponent_ystr20_a(editorContext, node);
+  }
+
+  public static class _Inline_ystr20_a3a extends InlineCellProvider {
+    public _Inline_ystr20_a3a() {
+      super();
+    }
+
+    public EditorCell createEditorCell(EditorContext editorContext) {
+      return this.createEditorCell(editorContext, this.getSNode());
+    }
+
+    public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
+      return this.createProperty_ystr20_a0d0(editorContext, node);
+    }
+
+    private EditorCell createProperty_ystr20_a0d0(EditorContext editorContext, SNode node) {
+      CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
+      provider.setRole("name");
+      provider.setNoTargetText("<no name>");
+      provider.setReadOnly(true);
+      EditorCell editorCell;
+      editorCell = provider.createEditorCell(editorContext);
+      editorCell.setCellId("property_name");
+      editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
+      SNode attributeConcept = provider.getRoleAttribute();
+      Class attributeKind = provider.getRoleAttributeClass();
+      if (attributeConcept != null) {
+        IOperationContext opContext = editorContext.getOperationContext();
+        EditorManager manager = EditorManager.getInstanceFromContext(opContext);
+        return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
+      } else
+      return editorCell;
+    }
   }
 
   private EditorCell createCollection_ystr20_a(EditorContext editorContext, SNode node) {
@@ -67,14 +99,14 @@ public class RunConfigExecutionParameterDeclaration_Editor extends DefaultNodeEd
   private EditorCell createReadOnlyModelAccessor_ystr20_a0(final EditorContext editorContext, final SNode node) {
     EditorCell_Property editorCell = EditorCell_Property.create(editorContext, new ModelAccessor() {
       public String getText() {
-        return BaseConcept_Behavior.call_getPresentation_1213877396640(ActionParameter_Behavior.call_getType_1171743928471337193(node));
+        return BehaviorReflection.invokeVirtual(String.class, BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), node, "virtual_getType_1171743928471337193", new Object[]{}), "virtual_getPresentation_1213877396640", new Object[]{});
       }
 
       public void setText(String s) {
       }
 
       public boolean isValidText(String s) {
-        return EqualUtil.equals(s, this.getText());
+        return EqualUtil.equals(s, getText());
       }
     }, node);
     editorCell.setAction(CellActionType.DELETE, new CellAction_Empty());
@@ -101,38 +133,5 @@ public class RunConfigExecutionParameterDeclaration_Editor extends DefaultNodeEd
       return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
     } else
     return editorCell;
-  }
-
-  public static class _Inline_ystr20_a3a extends InlineCellProvider {
-    public _Inline_ystr20_a3a() {
-      super();
-    }
-
-    public EditorCell createEditorCell(EditorContext editorContext) {
-      return this.createEditorCell(editorContext, this.getSNode());
-    }
-
-    public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-      return this.createProperty_ystr20_a0d0(editorContext, node);
-    }
-
-    private EditorCell createProperty_ystr20_a0d0(EditorContext editorContext, SNode node) {
-      CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
-      provider.setRole("name");
-      provider.setNoTargetText("<no name>");
-      provider.setReadOnly(true);
-      EditorCell editorCell;
-      editorCell = provider.createEditorCell(editorContext);
-      editorCell.setCellId("property_name");
-      editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
-      SNode attributeConcept = provider.getRoleAttribute();
-      Class attributeKind = provider.getRoleAttributeClass();
-      if (attributeConcept != null) {
-        IOperationContext opContext = editorContext.getOperationContext();
-        EditorManager manager = EditorManager.getInstanceFromContext(opContext);
-        return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
-      } else
-      return editorCell;
-    }
   }
 }

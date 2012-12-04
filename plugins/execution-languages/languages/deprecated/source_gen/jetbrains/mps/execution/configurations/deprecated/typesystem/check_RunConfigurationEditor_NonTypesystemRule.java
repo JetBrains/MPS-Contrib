@@ -7,7 +7,9 @@ import jetbrains.mps.lang.typesystem.runtime.NonTypesystemRule_Runtime;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.typesystem.inference.TypeCheckingContext;
 import jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptPropertyOperations;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
+import jetbrains.mps.smodel.adapter.SConceptNodeAdapter;
+import jetbrains.mps.util.NameUtil;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.errors.messageTargets.MessageTarget;
@@ -20,7 +22,7 @@ public class check_RunConfigurationEditor_NonTypesystemRule extends AbstractNonT
   }
 
   public void applyRule(final SNode runConfigurationDeclaration, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
-    if (SConceptPropertyOperations.getBoolean(SNodeOperations.getConceptDeclaration(runConfigurationDeclaration), "requiresCustomEditor") && (SLinkOperations.getTarget(runConfigurationDeclaration, "editor", true) == null)) {
+    if (BehaviorReflection.invokeVirtualStatic(Boolean.TYPE, new SConceptNodeAdapter(NameUtil.nodeFQName(SNodeOperations.getConceptDeclaration(runConfigurationDeclaration))), "virtual_requiresCustomEditor_1262430001741498265", new Object[]{}) && (SLinkOperations.getTarget(runConfigurationDeclaration, "editor", true) == null)) {
       {
         MessageTarget errorTarget = new NodeMessageTarget();
         IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(runConfigurationDeclaration, "Run configuration should declare editor", "r:3d1d89d4-ed40-464f-804b-a59886f41d55(jetbrains.mps.execution.configurations.deprecated.typesystem)", "314981645426570268", null, errorTarget);
@@ -34,7 +36,7 @@ public class check_RunConfigurationEditor_NonTypesystemRule extends AbstractNonT
 
   public IsApplicableStatus isApplicableAndPattern(SNode argument) {
     {
-      boolean b = SModelUtil_new.isAssignableConcept(argument.getConceptFqName(), this.getApplicableConceptFQName());
+      boolean b = SModelUtil_new.isAssignableConcept(argument.getConcept().getId(), this.getApplicableConceptFQName());
       return new IsApplicableStatus(b, null);
     }
   }

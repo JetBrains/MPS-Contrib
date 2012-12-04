@@ -13,6 +13,7 @@ import java.util.List;
 import jetbrains.mps.baseLanguage.util.plugin.refactorings.IExtractMethodRefactoringProcessor;
 import jetbrains.mps.lang.core.behavior.INamedConcept_Behavior;
 import jetbrains.mps.checkedName.PropertyReference;
+import org.jetbrains.mps.openapi.language.SConcept;
 
 public class RunConfigurationDeclaration_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor implements INamedConcept_BehaviorDescriptor, IClassifier_BehaviorDescriptor, ICheckedNamePolicy_BehaviorDescriptor {
   public RunConfigurationDeclaration_BehaviorDescriptor() {
@@ -64,6 +65,10 @@ public class RunConfigurationDeclaration_BehaviorDescriptor extends BaseConcept_
 
   public SNode virtual_getStateType_314981645426570519(SNode thisNode) {
     return RunConfigurationDeclaration_Behavior.virtual_getStateType_314981645426570519(thisNode);
+  }
+
+  public boolean virtual_requiresCustomEditor_1262430001741498265(SConcept thisConcept) {
+    return RunConfigurationDeclaration_Behavior.virtual_requiresCustomEditor_1262430001741498265(thisConcept);
   }
 
   @Override

@@ -21,7 +21,6 @@ import java.util.ArrayList;
 
 public class PQPlanarizationFinder implements IEmbeddingFinder {
   private static int SHOW_LOG = 0;
-
   private Graph myGraph;
   private Map<Node, Integer> myNumbering;
 
