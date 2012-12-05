@@ -531,23 +531,22 @@
     <unitInfo nodeId="1262430001741498124" fileName="ParseExpression_Behavior.java" startLine="8" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.ParseExpression_Behavior" />
   </root>
   <root nodeId="3044950653914724856" modelId="r:00000000-0000-4000-0000-011c895903ce(jetbrains.mps.baseLanguage.dates.behavior)">
-    <nodeInfo nodeId="3044950653914724835" fileName="TokenCondition_Behavior.java" startLine="17" startPosition="117" endLine="18" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3044950653914724845" fileName="TokenCondition_Behavior.java" startLine="18" startPosition="71" endLine="19" endPosition="306" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3044950653914724850" fileName="TokenCondition_Behavior.java" startLine="19" startPosition="306" endLine="20" endPosition="179" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3044950653914724854" fileName="TokenCondition_Behavior.java" startLine="20" startPosition="179" endLine="21" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3044950653914724856" fileName="TokenCondition_Behavior.java" startLine="14" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
-    <nodeInfo nodeId="3044950653914724856" fileName="TokenCondition_Behavior.java" startLine="17" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getApplicableConceptFunctionParameter_3044950653914717136#(Lorg/jetbrains/mps/openapi/language/SConcept;)Ljava/util/List;" />
-    <scopeInfo nodeId="3044950653914724858" fileName="TokenCondition_Behavior.java" startLine="14" startPosition="43" endLine="14" endPosition="43" />
-    <scopeInfo nodeId="3044950653914724856" fileName="TokenCondition_Behavior.java" startLine="14" startPosition="0" endLine="16" endPosition="0">
+    <nodeInfo nodeId="3044950653914724835" fileName="TokenCondition_Behavior.java" startLine="16" startPosition="117" endLine="17" endPosition="261" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3044950653914724850" fileName="TokenCondition_Behavior.java" startLine="17" startPosition="261" endLine="18" endPosition="179" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3044950653914724854" fileName="TokenCondition_Behavior.java" startLine="18" startPosition="179" endLine="19" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3044950653914724856" fileName="TokenCondition_Behavior.java" startLine="13" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="3044950653914724856" fileName="TokenCondition_Behavior.java" startLine="16" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getApplicableConceptFunctionParameter_3044950653914717136#(Lorg/jetbrains/mps/openapi/language/SConcept;)Ljava/util/List;" />
+    <scopeInfo nodeId="3044950653914724858" fileName="TokenCondition_Behavior.java" startLine="13" startPosition="43" endLine="13" endPosition="43" />
+    <scopeInfo nodeId="3044950653914724856" fileName="TokenCondition_Behavior.java" startLine="13" startPosition="0" endLine="15" endPosition="0">
       <varInfo nodeId="3044950653914724856" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="3044950653914724834" fileName="TokenCondition_Behavior.java" startLine="17" startPosition="117" endLine="21" endPosition="18">
+    <scopeInfo nodeId="3044950653914724834" fileName="TokenCondition_Behavior.java" startLine="16" startPosition="117" endLine="19" endPosition="18">
       <varInfo nodeId="3044950653914724836" varName="result" />
     </scopeInfo>
-    <scopeInfo nodeId="3044950653914724856" fileName="TokenCondition_Behavior.java" startLine="17" startPosition="0" endLine="23" endPosition="0">
+    <scopeInfo nodeId="3044950653914724856" fileName="TokenCondition_Behavior.java" startLine="16" startPosition="0" endLine="21" endPosition="0">
       <varInfo nodeId="3044950653914724856" varName="thisConcept" />
     </scopeInfo>
-    <unitInfo nodeId="3044950653914724856" fileName="TokenCondition_Behavior.java" startLine="13" startPosition="0" endLine="24" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.TokenCondition_Behavior" />
+    <unitInfo nodeId="3044950653914724856" fileName="TokenCondition_Behavior.java" startLine="12" startPosition="0" endLine="22" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.TokenCondition_Behavior" />
   </root>
   <root nodeId="34521615669576863" modelId="r:00000000-0000-4000-0000-011c895903ce(jetbrains.mps.baseLanguage.dates.behavior)">
     <nodeInfo nodeId="34521615669576880" fileName="FormatPeriodExpression_Behavior.java" startLine="19" startPosition="31" endLine="20" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
