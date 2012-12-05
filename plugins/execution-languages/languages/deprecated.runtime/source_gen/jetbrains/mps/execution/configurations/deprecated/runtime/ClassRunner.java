@@ -12,8 +12,9 @@ import java.util.ArrayList;
 import jetbrains.mps.smodel.ModelAccess;
 import java.io.File;
 import java.io.IOException;
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
+import org.apache.log4j.Priority;
+import org.apache.log4j.Logger;
+import org.apache.log4j.LogManager;
 
 /**
  * Use commands language for starting processes in mps
@@ -49,14 +50,14 @@ public class ClassRunner extends BaseRunner {
     try {
       return this.myProcessBuilder.start();
     } catch (IOException e) {
-      if (log.isErrorEnabled()) {
-        log.error("Can't run class " + className + ": " + e.getMessage(), e);
+      if (LOG.isEnabledFor(Priority.ERROR)) {
+        LOG.error("Can't run class " + className + ": " + e.getMessage(), e);
       }
       throw new ProcessNotCreatedException(e.getMessage(), e, this.getCommandLine());
     } catch (NullPointerException npe) {
       String message = "Can't run class " + className + ". One of the command line arguments is null:\n" + params;
-      if (log.isErrorEnabled()) {
-        log.error(message, npe);
+      if (LOG.isEnabledFor(Priority.ERROR)) {
+        LOG.error(message, npe);
       }
       throw new ProcessNotCreatedException(message, npe, this.getCommandLine());
     }
@@ -66,5 +67,5 @@ public class ClassRunner extends BaseRunner {
     return this.getCommandString(this.myProcessBuilder);
   }
 
-  protected static Log log = LogFactory.getLog(ClassRunner.class);
+  protected static Logger LOG = LogManager.getLogger(ClassRunner.class);
 }

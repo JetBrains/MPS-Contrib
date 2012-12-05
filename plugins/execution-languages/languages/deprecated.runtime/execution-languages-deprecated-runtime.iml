@@ -27,6 +27,7 @@
     <orderEntry type="module" module-name="execution-languages-library" />
     <orderEntry type="module" module-name="debugger-java-api" />
     <orderEntry type="module" module-name="execution-api" />
+    <orderEntry type="library" name="Log4j" level="project" />
   </component>
 </module>
 
