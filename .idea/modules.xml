@@ -7,7 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/languages/baseLanguage/tuples/runtime/Tuples-runtime.iml" filepath="$PROJECT_DIR$/languages/baseLanguage/tuples/runtime/Tuples-runtime.iml" group="languages" />
       <module fileurl="file://$PROJECT_DIR$/editor/actions-runtime/actions-runtime.iml" filepath="$PROJECT_DIR$/editor/actions-runtime/actions-runtime.iml" group="editor" />
       <module fileurl="file://$PROJECT_DIR$/core/analyzers/analyzers.iml" filepath="$PROJECT_DIR$/core/analyzers/analyzers.iml" group="core" />
-      <module fileurl="file://$PROJECT_DIR$/core/ant/ant.iml" filepath="$PROJECT_DIR$/core/ant/ant.iml" group="languages" />
+      <module fileurl="file://$PROJECT_DIR$/core/tool/ant/ant.iml" filepath="$PROJECT_DIR$/core/tool/ant/ant.iml" group="languages" />
       <module fileurl="file://$PROJECT_DIR$/languages/baseLanguage/baseLanguage/solutions/jetbrains.mps.baseLanguage.search/baseLanguage-search.iml" filepath="$PROJECT_DIR$/languages/baseLanguage/baseLanguage/solutions/jetbrains.mps.baseLanguage.search/baseLanguage-search.iml" group="languages" />
       <module fileurl="file://$PROJECT_DIR$/languages/baseLanguage/baseLanguage/solutions/jetbrains.mps.baseLanguage.util/baseLanguage-util.iml" filepath="$PROJECT_DIR$/languages/baseLanguage/baseLanguage/solutions/jetbrains.mps.baseLanguage.util/baseLanguage-util.iml" group="languages" />
       <module fileurl="file://$PROJECT_DIR$/plugins/mps-obsolete/languages/solutions/jetbrains.mps.buildlanguage.execution/build-deprecated.iml" filepath="$PROJECT_DIR$/plugins/mps-obsolete/languages/solutions/jetbrains.mps.buildlanguage.execution/build-deprecated.iml" />
