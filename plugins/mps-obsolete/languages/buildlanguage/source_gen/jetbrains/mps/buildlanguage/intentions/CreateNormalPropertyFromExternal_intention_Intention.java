@@ -55,6 +55,10 @@ public class CreateNormalPropertyFromExternal_intention_Intention implements Int
     return new SNodePointer("r:00000000-0000-4000-0000-011c895904c5(jetbrains.mps.buildlanguage.intentions)", "1219149486459");
   }
 
+  public boolean isSurroundWith() {
+    return false;
+  }
+
   public Collection<IntentionExecutable> instances(final SNode node, final EditorContext context) {
     if (myCachedExecutable == null) {
       myCachedExecutable = Collections.<IntentionExecutable>singletonList(new CreateNormalPropertyFromExternal_intention_Intention.IntentionImplementation());
