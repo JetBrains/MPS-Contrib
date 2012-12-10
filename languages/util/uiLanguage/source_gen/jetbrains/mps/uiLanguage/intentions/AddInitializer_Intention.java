@@ -60,6 +60,10 @@ public class AddInitializer_Intention implements IntentionFactory {
     return new SNodePointer("r:00000000-0000-4000-0000-011c89590551(jetbrains.mps.uiLanguage.intentions)", "1204896171511");
   }
 
+  public boolean isSurroundWith() {
+    return false;
+  }
+
   public Collection<IntentionExecutable> instances(final SNode node, final EditorContext context) {
     if (myCachedExecutable == null) {
       myCachedExecutable = Collections.<IntentionExecutable>singletonList(new AddInitializer_Intention.IntentionImplementation());
