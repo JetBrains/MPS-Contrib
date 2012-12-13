@@ -1,9 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="mpsjava-classes">
-    <output-path>$PROJECT_DIR$/plugins/mpsjava/lib</output-path>
-    <root id="archive" name="mpsjava-classes.jar">
-      <element id="module-output" name="mpsjava-platform" />
-      <element id="module-output" name="mpsjava-workbench" />
-    </root>
-  </artifact>
-</component>

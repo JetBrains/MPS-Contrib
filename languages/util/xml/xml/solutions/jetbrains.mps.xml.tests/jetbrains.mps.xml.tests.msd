@@ -2,9 +2,7 @@
 <solution name="jetbrains.mps.xml.tests" uuid="2f499867-d42a-4e31-a93d-33e16883e187" compileInMPS="true" generatorOutputPath="${module}/source_gen">
   <models>
     <modelRoot path="${module}/" />
-    <modelRoot path="${module}/classes_gen">
-      <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
-    </modelRoot>
+    <modelRoot path="${module}/classes_gen" type="java_classes" />
   </models>
   <sourcePath />
   <dependencies>

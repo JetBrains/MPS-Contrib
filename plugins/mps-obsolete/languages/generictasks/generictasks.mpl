@@ -3,9 +3,7 @@
   <models>
     <modelRoot path="${module}/languageAccessories" />
     <modelRoot path="${module}/languageModels" />
-    <modelRoot path="${mps_home}/lib/ant/lib/ant-launcher.jar">
-      <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
-    </modelRoot>
+    <modelRoot path="${mps_home}/lib/ant/lib/ant-launcher.jar" type="java_classes" />
   </models>
   <accessoryModels>
     <model modelUID="r:7a6a35c6-e369-4565-b91b-c7c8dfa2c8d7(jetbrains.mps.build.generictasks.generated)" />
