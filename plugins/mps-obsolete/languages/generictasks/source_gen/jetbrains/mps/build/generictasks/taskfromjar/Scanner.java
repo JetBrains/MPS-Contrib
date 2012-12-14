@@ -24,7 +24,7 @@ import java.net.URL;
 import java.net.URLClassLoader;
 import java.net.MalformedURLException;
 import java.io.InputStream;
-import org.objectweb.asm.ClassReader;
+import org.jetbrains.asm4.ClassReader;
 
 public class Scanner {
   private static final Logger LOG = Logger.getLogger(Scanner.class);

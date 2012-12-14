@@ -12,7 +12,7 @@
 /IdeaPlugin/build.properties
 /IdeaPlugin/mps-core/lib
 /IdeaPlugin/mps-core/languages
-/IdeaPlugin/mps-java/stubs
+/IdeaPlugin/mps-java/lib
 /IdeaPlugin/tests/blProject/.idea/workspace.xml
 /IdeaPlugin/tests/multiModulesProject/.idea/workspace.xml
 /build/tmp/*
