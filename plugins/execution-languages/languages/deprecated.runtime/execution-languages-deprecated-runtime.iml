@@ -18,7 +18,6 @@
     <orderEntry type="module" module-name="kernel" />
     <orderEntry type="module" module-name="mps-workbench" />
     <orderEntry type="module" module-name="generator-engine" />
-    <orderEntry type="library" name="Commons-logging" level="project" />
     <orderEntry type="library" name="JDOM" level="project" />
     <orderEntry type="library" name="Beansbinding" level="project" />
     <orderEntry type="module" module-name="uiLanguage-runtime" />
