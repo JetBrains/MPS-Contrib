@@ -10,9 +10,7 @@
     <generator generatorUID="jetbrains.mps.uiLanguage#1202393863737" uuid="d1415f93-6c9c-4200-81f9-9205ed57131a">
       <models>
         <modelRoot path="${module}/generator/baseLanguage/template" />
-        <modelRoot path="${module}/runtime/classes">
-          <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
-        </modelRoot>
+        <modelRoot path="${module}/runtime/classes" type="java_classes" />
       </models>
       <external-templates>
         <generator generatorUID="5f9babc9-8d5d-4825-8e61-17b241ee6272(jetbrains.mps.baseLanguage.collections#1151699677197)" />
