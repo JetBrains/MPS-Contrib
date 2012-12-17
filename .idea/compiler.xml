@@ -129,7 +129,6 @@
       <directory url="file://$PROJECT_DIR$/languages/languageDesign/typesystem/languages/test/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/languages/languageDesign/typesystem/solutions/pluginSolution/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/languages/languageDesign/typesystem/source_gen" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/languages/modelmetadata/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/languages/util/builders/sandbox/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/languages/util/builders/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/languages/util/buildlanguage/languages/gentest/source_gen" includeSubdirectories="true" />
@@ -269,6 +268,7 @@
       <directory url="file://$PROJECT_DIR$/plugins/mpsdevkit/languages/solutions/jetbrains.mps.lang.typesystem.devkit.pluginSolution/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/plugins/mpsjava/migration/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/plugins/mpsjava/testsol/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/plugins/vcs/languages/modelmetadata/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/samples/agreement/agreementLanguage/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/samples/agreement/framework/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/samples/agreement/sandbox/source_gen" includeSubdirectories="true" />
