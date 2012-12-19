@@ -5,12 +5,10 @@ package jetbrains.mps.xml.editor;
 import jetbrains.mps.nodeEditor.AbstractCellProvider;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
-import jetbrains.mps.nodeEditor.EditorContext;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
-import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
-import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
+import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
+import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
 import jetbrains.mps.nodeEditor.CellActionType;
 import jetbrains.mps.nodeEditor.cellActions.CellAction_DeleteNode;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandlerElementKeyMap;
@@ -18,6 +16,8 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultReferenceSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
+import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
+import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
 
 public class BaseElement_attributeList extends AbstractCellProvider {
   public BaseElement_attributeList(SNode node) {
@@ -32,19 +32,10 @@ public class BaseElement_attributeList extends AbstractCellProvider {
     return this.createCollection_usj5o3_a(editorContext, node);
   }
 
-  private EditorCell createCollection_usj5o3_a(EditorContext editorContext, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_usj5o3_a");
-    editorCell.addEditorCell(this.createRefNodeList_usj5o3_a0(editorContext, node));
-    return editorCell;
-  }
-
-  private EditorCell createRefNodeList_usj5o3_a0(EditorContext editorContext, SNode node) {
-    AbstractCellListHandler handler = new BaseElement_attributeList.attributeListHandler_usj5o3_a0(node, "attribute", editorContext);
-    EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Horizontal(), false);
-    editorCell.setCellId("refNodeList_attribute");
-    editorCell.setRole(handler.getElementRole());
-    return editorCell;
+  @Deprecated
+  public EditorCell createEditorCell(jetbrains.mps.nodeEditor.EditorContext editorContext) {
+    // This method was added in MPS 3.0 for the compatibility with prev. generated code 
+    return createEditorCell((EditorContext) editorContext);
   }
 
   private static class attributeListHandler_usj5o3_a0 extends RefNodeListHandler {
@@ -103,5 +94,20 @@ public class BaseElement_attributeList extends AbstractCellProvider {
       editorCell.setDefaultText("");
       return editorCell;
     }
+  }
+
+  private EditorCell createCollection_usj5o3_a(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
+    editorCell.setCellId("Collection_usj5o3_a");
+    editorCell.addEditorCell(this.createRefNodeList_usj5o3_a0(editorContext, node));
+    return editorCell;
+  }
+
+  private EditorCell createRefNodeList_usj5o3_a0(EditorContext editorContext, SNode node) {
+    AbstractCellListHandler handler = new BaseElement_attributeList.attributeListHandler_usj5o3_a0(node, "attribute", editorContext);
+    EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Horizontal(), false);
+    editorCell.setCellId("refNodeList_attribute");
+    editorCell.setRole(handler.getElementRole());
+    return editorCell;
   }
 }

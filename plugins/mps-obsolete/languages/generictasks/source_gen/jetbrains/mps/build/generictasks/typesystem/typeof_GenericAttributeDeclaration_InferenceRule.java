@@ -9,7 +9,10 @@ import jetbrains.mps.typesystem.inference.TypeCheckingContext;
 import jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.typesystem.inference.EquationInfo;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
+import jetbrains.mps.smodel.adapter.SConceptNodeAdapter;
+import jetbrains.mps.util.NameUtil;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.smodel.SModelUtil_new;
 
 public class typeof_GenericAttributeDeclaration_InferenceRule extends AbstractInferenceRule_Runtime implements InferenceRule_Runtime {
@@ -27,7 +30,7 @@ public class typeof_GenericAttributeDeclaration_InferenceRule extends AbstractIn
         {
           SNode _nodeToCheck_1029348928467 = nodeToCheck;
           EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:eac20369-5993-49cc-a9ac-fbeb7a91d81f(jetbrains.mps.build.generictasks.typesystem)", "353793545802854699", 0, null);
-          typeCheckingContext.createLessThanInequality((SNode) ListSequence.fromList(SLinkOperations.getConceptLinkTargets(SLinkOperations.getTarget(nodeToCheck, "enum", true), "type")).first(), (SNode) SLinkOperations.getTarget(nodeToCheck, "attributeType", true), false, true, _info_12389875345);
+          typeCheckingContext.createLessThanInequality((SNode) BehaviorReflection.invokeVirtualStatic((Class<SNode>) ((Class) Object.class), new SConceptNodeAdapter(NameUtil.nodeFQName(SNodeOperations.getConceptDeclaration(SLinkOperations.getTarget(nodeToCheck, "enum", true)))), "virtual_getType_6575219246653626201", new Object[]{}), (SNode) SLinkOperations.getTarget(nodeToCheck, "attributeType", true), false, true, _info_12389875345);
         }
       }
     }
@@ -39,7 +42,7 @@ public class typeof_GenericAttributeDeclaration_InferenceRule extends AbstractIn
 
   public IsApplicableStatus isApplicableAndPattern(SNode argument) {
     {
-      boolean b = SModelUtil_new.isAssignableConcept(argument.getConceptFqName(), this.getApplicableConceptFQName());
+      boolean b = SModelUtil_new.isAssignableConcept(argument.getConcept().getId(), this.getApplicableConceptFQName());
       return new IsApplicableStatus(b, null);
     }
   }

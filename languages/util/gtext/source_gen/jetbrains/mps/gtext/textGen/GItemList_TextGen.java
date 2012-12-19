@@ -8,8 +8,9 @@ import jetbrains.mps.textGen.TraceInfoGenerationUtil;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.textGen.TextGenManager;
-import jetbrains.mps.lang.traceable.behavior.TraceableConcept_Behavior;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.logging.Logger;
 
 public class GItemList_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
@@ -22,7 +23,17 @@ public class GItemList_TextGen extends SNodeTextGen {
       }
     }
     if (getBuffer().hasPositionsSupport()) {
-      TraceInfoGenerationUtil.fillPositionInfo(this, node, TraceableConcept_Behavior.call_getTraceableProperty_5067982036267369901(SNodeOperations.cast(node, "jetbrains.mps.lang.traceable.structure.TraceableConcept")));
+      {
+        String traceableProperty = "";
+        try {
+          traceableProperty = BehaviorReflection.invokeVirtual(String.class, SNodeOperations.cast(node, "jetbrains.mps.lang.traceable.structure.TraceableConcept"), "virtual_getTraceableProperty_5067982036267369901", new Object[]{});
+        } catch (Throwable t) {
+          LOG.error("Can't calculate traceable prorerty for a node " + node + ".", t);
+        }
+        TraceInfoGenerationUtil.fillPositionInfo(this, node, traceableProperty);
+      }
     }
   }
+
+  private static Logger LOG = Logger.getLogger(GItemList_TextGen.class);
 }

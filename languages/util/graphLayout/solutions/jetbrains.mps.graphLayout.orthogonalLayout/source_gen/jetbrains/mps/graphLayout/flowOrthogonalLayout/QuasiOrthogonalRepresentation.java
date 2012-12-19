@@ -24,7 +24,6 @@ import java.util.HashSet;
 public class QuasiOrthogonalRepresentation {
   private static int INF = 1000000;
   private static int SHOW_INFO = 0;
-
   private Set<Edge> myStraightEdges;
   private Set<Edge> myRealEdges;
   private Set<Node> myRealNodes;

@@ -4,6 +4,9 @@ package jetbrains.mps.execution.configurations.deprecated.behavior;
 
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import org.jetbrains.mps.openapi.language.SConcept;
+import jetbrains.mps.smodel.SModelUtil_new;
+import jetbrains.mps.project.GlobalScope;
 
 public class NodesCreatorTarget_Behavior {
   public static void init(SNode thisNode) {
@@ -11,5 +14,15 @@ public class NodesCreatorTarget_Behavior {
 
   public static SNode virtual_getParameter_314981645426570613(SNode thisNode) {
     return SNodeOperations.getNode("f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel(MPS.Core/jetbrains.mps.smodel@java_stub)", "~SNode");
+  }
+
+  public static SNode virtual_getType_6575219246653208151(SConcept thisConcept) {
+    return _quotation_createNode_h0ac3m_a0a1();
+  }
+
+  private static SNode _quotation_createNode_h0ac3m_a0a1() {
+    SNode quotedNode_1 = null;
+    quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.lang.smodel.structure.SNodeListType", null, null, GlobalScope.getInstance(), false);
+    return quotedNode_1;
   }
 }

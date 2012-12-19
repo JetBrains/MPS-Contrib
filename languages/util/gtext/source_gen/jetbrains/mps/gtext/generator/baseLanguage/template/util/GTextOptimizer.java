@@ -8,7 +8,7 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.List;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
-import jetbrains.mps.gtext.behavior.GCompositeItem_Behavior;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 
 public class GTextOptimizer {
   public GTextOptimizer() {
@@ -42,21 +42,21 @@ public class GTextOptimizer {
       if (SNodeOperations.isInstanceOf(optChild, "jetbrains.mps.gtext.structure.GConditionalLine")) {
         SNode nextChild = optChild;
         if (SPropertyOperations.getBoolean(SNodeOperations.cast(optChild, "jetbrains.mps.gtext.structure.GConditionalLine"), "isSeparate")) {
-          SNodeOperations.insertNextSiblingChild(nextChild, SModelOperations.createNewNode(SNodeOperations.getModel(item), "jetbrains.mps.gtext.structure.GIndent", null));
+          SNodeOperations.insertNextSiblingChild(nextChild, SModelOperations.createNewNode(SNodeOperations.getModel(item), null, "jetbrains.mps.gtext.structure.GIndent"));
           nextChild = SNodeOperations.cast(SNodeOperations.getNextSibling(nextChild), "jetbrains.mps.gtext.structure.GItem");
         }
         nextChild = inlineChildren(optChild, nextChild);
         if (SPropertyOperations.getBoolean(SNodeOperations.cast(optChild, "jetbrains.mps.gtext.structure.GConditionalLine"), "isSeparate")) {
-          SNodeOperations.insertNextSiblingChild(nextChild, SModelOperations.createNewNode(SNodeOperations.getModel(item), "jetbrains.mps.gtext.structure.GNewLine", null));
+          SNodeOperations.insertNextSiblingChild(nextChild, SModelOperations.createNewNode(SNodeOperations.getModel(item), null, "jetbrains.mps.gtext.structure.GNewLine"));
         }
         SNodeOperations.deleteNode(optChild);
       } else
       if (SNodeOperations.isInstanceOf(optChild, "jetbrains.mps.gtext.structure.GLine")) {
         SNode nextChild = optChild;
-        SNodeOperations.insertNextSiblingChild(nextChild, SModelOperations.createNewNode(SNodeOperations.getModel(item), "jetbrains.mps.gtext.structure.GIndent", null));
+        SNodeOperations.insertNextSiblingChild(nextChild, SModelOperations.createNewNode(SNodeOperations.getModel(item), null, "jetbrains.mps.gtext.structure.GIndent"));
         nextChild = SNodeOperations.cast(SNodeOperations.getNextSibling(nextChild), "jetbrains.mps.gtext.structure.GItem");
         nextChild = inlineChildren(optChild, nextChild);
-        SNodeOperations.insertNextSiblingChild(nextChild, SModelOperations.createNewNode(SNodeOperations.getModel(item), "jetbrains.mps.gtext.structure.GNewLine", null));
+        SNodeOperations.insertNextSiblingChild(nextChild, SModelOperations.createNewNode(SNodeOperations.getModel(item), null, "jetbrains.mps.gtext.structure.GNewLine"));
         SNodeOperations.deleteNode(optChild);
       }
     }
@@ -83,8 +83,8 @@ public class GTextOptimizer {
   public static SNode inlineChildren(SNode optChild, SNode nextChild) {
     SNode nc = nextChild;
     // cast to GItemList, because all item list containers have the same name for children items - "item" 
-    while (ListSequence.fromList(GCompositeItem_Behavior.call_getItems_1239125087745(SNodeOperations.cast(optChild, "jetbrains.mps.gtext.structure.GCompositeItem"))).isNotEmpty()) {
-      SNode childOfChild = ListSequence.fromList(GCompositeItem_Behavior.call_getItems_1239125087745(SNodeOperations.cast(optChild, "jetbrains.mps.gtext.structure.GCompositeItem"))).first();
+    while (ListSequence.fromList(BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), SNodeOperations.cast(optChild, "jetbrains.mps.gtext.structure.GCompositeItem"), "virtual_getItems_1239125087745", new Object[]{})).isNotEmpty()) {
+      SNode childOfChild = ListSequence.fromList(BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), SNodeOperations.cast(optChild, "jetbrains.mps.gtext.structure.GCompositeItem"), "virtual_getItems_1239125087745", new Object[]{})).first();
       SNodeOperations.insertNextSiblingChild(nc, childOfChild);
       nc = childOfChild;
     }

@@ -37,7 +37,6 @@ import java.util.Iterator;
 public class OrthogonalFlowLayouterConstraints {
   private static int DEFAULT_UNIT_LENGTH = 20;
   private static int SHOW_LOG = 0;
-
   private int myUnitLength = OrthogonalFlowLayouterConstraints.DEFAULT_UNIT_LENGTH;
 
   public OrthogonalFlowLayouterConstraints() {

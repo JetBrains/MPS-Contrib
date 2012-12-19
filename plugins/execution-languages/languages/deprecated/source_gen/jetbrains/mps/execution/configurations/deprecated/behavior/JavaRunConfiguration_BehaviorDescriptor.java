@@ -4,6 +4,7 @@ package jetbrains.mps.execution.configurations.deprecated.behavior;
 
 import java.util.List;
 import jetbrains.mps.smodel.SNode;
+import org.jetbrains.mps.openapi.language.SConcept;
 
 public class JavaRunConfiguration_BehaviorDescriptor extends RunConfigurationDeclaration_BehaviorDescriptor implements IEnhancedRunConfiguration_BehaviorDescriptor {
   public JavaRunConfiguration_BehaviorDescriptor() {
@@ -15,6 +16,10 @@ public class JavaRunConfiguration_BehaviorDescriptor extends RunConfigurationDec
 
   public SNode virtual_getStateType_314981645426570519(SNode thisNode) {
     return JavaRunConfiguration_Behavior.virtual_getStateType_314981645426570519(thisNode);
+  }
+
+  public boolean virtual_requiresCustomEditor_1262430001741498265(SConcept thisConcept) {
+    return JavaRunConfiguration_Behavior.virtual_requiresCustomEditor_1262430001741498265(thisConcept);
   }
 
   @Override

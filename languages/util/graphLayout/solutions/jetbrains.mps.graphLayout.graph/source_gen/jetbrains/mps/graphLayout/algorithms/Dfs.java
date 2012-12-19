@@ -15,7 +15,6 @@ public abstract class Dfs {
   public static int BEFORE = 0;
   public static int DURING = 1;
   public static int AFTER = 2;
-
   private Graph myGraph;
   private Edge.Direction myDirection;
   protected Map<Node, Integer> myDfsState;

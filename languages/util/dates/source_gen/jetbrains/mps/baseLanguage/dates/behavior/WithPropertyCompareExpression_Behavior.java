@@ -5,6 +5,13 @@ package jetbrains.mps.baseLanguage.dates.behavior;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
+import java.util.List;
+import jetbrains.mps.smodel.adapter.SConceptNodeAdapter;
+import jetbrains.mps.util.NameUtil;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import org.jetbrains.mps.openapi.language.SConcept;
+import java.util.ArrayList;
 
 public class WithPropertyCompareExpression_Behavior {
   public static void init(SNode thisNode) {
@@ -13,8 +20,12 @@ public class WithPropertyCompareExpression_Behavior {
   public static SNode call_getDatetimeProperty_1239206693907(SNode thisNode) {
     SNode property = SLinkOperations.getTarget(thisNode, "datetimeProperty", false);
     if ((property == null)) {
-      property = ListSequence.fromList(SLinkOperations.getConceptLinkTargets(thisNode, "defaultDatetimeProperty")).first();
+      property = ListSequence.fromList(BehaviorReflection.invokeVirtualStatic((Class<List<SNode>>) ((Class) Object.class), new SConceptNodeAdapter(NameUtil.nodeFQName(SNodeOperations.getConceptDeclaration(thisNode))), "virtual_getDefaultDatetimeProperty_3044950653914717024", new Object[]{})).first();
     }
     return property;
+  }
+
+  public static List<SNode> virtual_getDefaultDatetimeProperty_3044950653914717024(SConcept thisConcept) {
+    return ListSequence.fromList(new ArrayList<SNode>());
   }
 }

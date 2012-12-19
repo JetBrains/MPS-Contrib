@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="jetbrains.mps.build.generictasks" uuid="fba399db-f591-45dc-a279-e2a2a986e262" doNotGenerateAdapters="false">
+<language namespace="jetbrains.mps.build.generictasks" uuid="fba399db-f591-45dc-a279-e2a2a986e262">
   <models>
-    <modelRoot path="${language_descriptor}/languageAccessories" />
-    <modelRoot path="${language_descriptor}/languageModels" />
+    <modelRoot path="${module}/languageAccessories" />
+    <modelRoot path="${module}/languageModels" />
+    <modelRoot path="${mps_home}/lib/ant/lib/ant-launcher.jar" type="java_classes" />
   </models>
   <accessoryModels>
     <model modelUID="r:7a6a35c6-e369-4565-b91b-c7c8dfa2c8d7(jetbrains.mps.build.generictasks.generated)" />
@@ -11,7 +12,7 @@
   <generators>
     <generator name="" generatorUID="jetbrains.mps.build.generictasks#683020775182432297" uuid="e715b632-ac19-4813-ab23-46a82a84cc08">
       <models>
-        <modelRoot path="${language_descriptor}/generator/template" />
+        <modelRoot path="${module}/generator/template" />
       </models>
       <external-templates>
         <generator generatorUID="40844709-b5b9-4c70-8f1d-a2e8ab542065(jetbrains.mps.buildlanguage#1197036391807)" />
@@ -49,8 +50,12 @@
       </mapping-priorities>
     </generator>
   </generators>
+  <stubModelEntries>
+    <stubModelEntry path="${mps_home}/lib/ant/lib/ant-launcher.jar" />
+  </stubModelEntries>
   <sourcePath />
   <dependencies>
+    <dependency reexport="false">3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)</dependency>
     <dependency reexport="false">847a3235-09f9-403c-b6a9-1c294a212e92(Ant)</dependency>
     <dependency reexport="false">6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)</dependency>
     <dependency reexport="false">1ed103c3-3aa6-49b7-9c21-6765ee11f224(MPS.Editor)</dependency>

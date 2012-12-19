@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="zqlloaovnm0c7puqoylqz20lceiqdu">
-  <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" hash="1x3xr8k67w2buvi21pv9dhqvhucj5t8" />
-  <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="a1zgrouzvocts8mn9z8xik6lpn0y8ga" />
+<dependencies version="2" modelHash="-epejl8qts04p4wr9y9uyhclj5pf1no6">
   <dep model="r:e8ab0d3d-755b-484a-bfcc-496dbc9af2ce(jetbrains.mps.baseLanguage.datesInternal.typesystem)" hash="47p4hd9oaa6relgqfdkojznerz9wi52" />
   <common>
-    <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
-    <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
     <dep model="r:e8ab0d3d-755b-484a-bfcc-496dbc9af2ce(jetbrains.mps.baseLanguage.datesInternal.typesystem)" />
     <file name="Language.java" />
   </common>

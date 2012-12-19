@@ -24,7 +24,7 @@ import java.net.URL;
 import java.net.URLClassLoader;
 import java.net.MalformedURLException;
 import java.io.InputStream;
-import org.objectweb.asm.ClassReader;
+import org.jetbrains.asm4.ClassReader;
 
 public class Scanner {
   private static final Logger LOG = Logger.getLogger(Scanner.class);
@@ -32,7 +32,6 @@ public class Scanner {
   public static final String LIB_ANT_JAR = "/lib/ant.jar";
   public static final String LIB_ANT_JUNIT_JAR = "/lib/ant-junit.jar";
   private static final String PROPERTY_EXT = "org/apache/tools/ant/taskdefs/defaults.properties";
-
   private final Set<ClassInfo> myRoots = new HashSet<ClassInfo>();
   private final Set<String> mySrcJars = new LinkedHashSet<String>();
   private String myAntPath;

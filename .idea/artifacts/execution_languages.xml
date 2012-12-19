@@ -5,6 +5,7 @@
       <element id="module-output" name="execution-languages-deprecated-runtime" />
       <element id="module-output" name="execution-languages-library" />
       <element id="module-output" name="execution-languages-plugin" />
+      <element id="module-output" name="execution-impl" />
     </root>
   </artifact>
 </component>

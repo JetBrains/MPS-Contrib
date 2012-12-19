@@ -5,14 +5,11 @@ package jetbrains.mps.buildlanguage.behavior;
 import jetbrains.mps.smodel.SNode;
 import java.util.List;
 import java.util.ArrayList;
-import jetbrains.mps.smodel.runtime.BehaviorDescriptor;
-import jetbrains.mps.smodel.language.ConceptRegistry;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.smodel.behaviour.BehaviorManager;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class AbstractImportProperties_Behavior {
-  private static Class[] PARAMETERS_1240397763706 = {SNode.class};
-
   public static void init(SNode thisNode) {
   }
 
@@ -20,12 +17,13 @@ public class AbstractImportProperties_Behavior {
     return new ArrayList<SNode>();
   }
 
+  @Deprecated
   public static List<SNode> call_getPropertyDeclarations_1240397763706(SNode thisNode) {
-    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
-    return (List<SNode>) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.AbstractImportProperties"), "virtual_getPropertyDeclarations_1240397763706", PARAMETERS_1240397763706, new Object[]{});
+    return BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), thisNode, "virtual_getPropertyDeclarations_1240397763706", new Object[]{});
   }
 
+  @Deprecated
   public static List<SNode> callSuper_getPropertyDeclarations_1240397763706(SNode thisNode, String callerConceptFqName) {
-    return (List<SNode>) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.AbstractImportProperties"), callerConceptFqName, "virtual_getPropertyDeclarations_1240397763706", PARAMETERS_1240397763706, new Object[]{});
+    return BehaviorManager.getInstance().invokeSuper((Class<List<SNode>>) ((Class) Object.class), SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.AbstractImportProperties"), callerConceptFqName, "virtual_getPropertyDeclarations_1240397763706", new Class[]{SNode.class}, new Object[]{});
   }
 }
