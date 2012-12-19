@@ -12,11 +12,10 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.buildlanguage.behavior.IDeclaration_Behavior;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.smodel.IOperationContext;
-import jetbrains.mps.build.generictasks.pluginSolution.plugin.ImportAntStuffUtil;
-import jetbrains.mps.project.ModuleId;
+import jetbrains.mps.smodel.ModuleRepositoryFacade;
+import jetbrains.mps.smodel.Language;
 import jetbrains.mps.project.structure.modules.ModuleReference;
 import jetbrains.mps.project.IModule;
-import jetbrains.mps.smodel.Language;
 
 public class BuiltInTaskDeclaration_Behavior {
   public static void init(SNode thisNode) {
@@ -121,40 +120,26 @@ public class BuiltInTaskDeclaration_Behavior {
   }
 
   public static boolean isInGeneratedModels_1445805690439864419(IOperationContext operationContext) {
-    return eq_y5o5bz_a0a0j(check_y5o5bz_a0a0a(check_y5o5bz_a0a0a0(check_y5o5bz_a0a0a0a(operationContext))), check_y5o5bz_a0a0a_0(check_y5o5bz_a0a0a0_0(ImportAntStuffUtil.getLanguageReference())));
+    return eq_y5o5bz_a0a0j(check_y5o5bz_a0a0a_0(check_y5o5bz_a0a0a0(operationContext)), check_y5o5bz_a0a0a(ModuleRepositoryFacade.getInstance().getModule("jetbrains.mps.build.generictasks", Language.class)));
   }
 
-  private static ModuleId check_y5o5bz_a0a0a(ModuleReference checkedDotOperand) {
-    if (null != checkedDotOperand) {
-      return checkedDotOperand.getModuleId();
-    }
-    return null;
-  }
-
-  private static ModuleReference check_y5o5bz_a0a0a0(IModule checkedDotOperand) {
+  private static ModuleReference check_y5o5bz_a0a0a(Language checkedDotOperand) {
     if (null != checkedDotOperand) {
       return checkedDotOperand.getModuleReference();
     }
     return null;
   }
 
-  private static IModule check_y5o5bz_a0a0a0a(IOperationContext checkedDotOperand) {
+  private static ModuleReference check_y5o5bz_a0a0a_0(IModule checkedDotOperand) {
+    if (null != checkedDotOperand) {
+      return checkedDotOperand.getModuleReference();
+    }
+    return null;
+  }
+
+  private static IModule check_y5o5bz_a0a0a0(IOperationContext checkedDotOperand) {
     if (null != checkedDotOperand) {
       return checkedDotOperand.getModule();
-    }
-    return null;
-  }
-
-  private static ModuleId check_y5o5bz_a0a0a_0(ModuleReference checkedDotOperand) {
-    if (null != checkedDotOperand) {
-      return checkedDotOperand.getModuleId();
-    }
-    return null;
-  }
-
-  private static ModuleReference check_y5o5bz_a0a0a0_0(Language checkedDotOperand) {
-    if (null != checkedDotOperand) {
-      return checkedDotOperand.getModuleReference();
     }
     return null;
   }
