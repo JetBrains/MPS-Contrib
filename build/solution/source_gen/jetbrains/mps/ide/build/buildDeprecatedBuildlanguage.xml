@@ -146,6 +146,7 @@
       <zipfileset dir="${mps_home}/plugins/mps-obsolete/languages/xmlDeprecated/generator" includes="**/*.mps, **/*.metadata, **/*.history" prefix="module/generator" />
     </jar>
     <mkdir dir="${build.layout}/plugins/mps-build-deprecated/languages" />
+    <mkdir dir="${build.layout}/plugins/mps-build-deprecated/languages/build" />
     <mkdir dir="${build.tmp}/default/jetbrains.mps.build.generictasks.jar" />
     <mkdir dir="${build.tmp}/default/jetbrains.mps.build.generictasks.jar/META-INF" />
     <echoxml file="${build.tmp}/default/jetbrains.mps.build.generictasks.jar/META-INF/module.xml">
@@ -166,12 +167,12 @@
         <sources jar="jetbrains.mps.build.generictasks-src.jar" descriptor="generictasks.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.layout}/plugins/mps-build-deprecated/languages/jetbrains.mps.build.generictasks.jar">
+    <jar destfile="${build.layout}/plugins/mps-build-deprecated/languages/build/jetbrains.mps.build.generictasks.jar">
       <fileset dir="${build.tmp}/java/out/jetbrains.mps.build.generictasks" />
       <fileset dir="${mps_home}/plugins/mps-obsolete/languages/generictasks" includes="icons/**, resources/**" />
       <fileset dir="${build.tmp}/default/jetbrains.mps.build.generictasks.jar" />
     </jar>
-    <jar destfile="${build.layout}/plugins/mps-build-deprecated/languages/jetbrains.mps.build.generictasks-src.jar">
+    <jar destfile="${build.layout}/plugins/mps-build-deprecated/languages/build/jetbrains.mps.build.generictasks-src.jar">
       <fileset dir="${mps_home}/plugins/mps-obsolete/languages/generictasks/source_gen" includes="**/*.java" />
       <zipfileset file="${mps_home}/plugins/mps-obsolete/languages/generictasks/generictasks.mpl" prefix="module" />
       <zipfileset dir="${mps_home}/plugins/mps-obsolete/languages/generictasks/languageAccessories" includes="**/*.mps, **/*.metadata, **/*.history" prefix="module/languageAccessories" />
