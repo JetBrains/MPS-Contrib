@@ -49,7 +49,7 @@ public class DateTimeType_boxing_SubtypingRule extends SubtypingRule_Runtime imp
       {
         SNode nodeToMatch_DateTimeType_boxing_u5vsb4_a0a;
         nodeToMatch_DateTimeType_boxing_u5vsb4_a0a = nodeToMatch;
-        if (!("jetbrains.mps.baseLanguage.structure.ClassifierType".equals(nodeToMatch_DateTimeType_boxing_u5vsb4_a0a.getConcept().getId()))) {
+        if (!("jetbrains.mps.baseLanguage.structure.ClassifierType".equals(nodeToMatch_DateTimeType_boxing_u5vsb4_a0a.getConcept().getConceptId()))) {
           return false;
         }
         {
