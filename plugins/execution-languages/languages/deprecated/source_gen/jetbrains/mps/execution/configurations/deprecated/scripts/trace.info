@@ -74,7 +74,7 @@
     <nodeInfo nodeId="2182799002613251871" fileName="ScriptsUtil.java" startLine="57" startPosition="64" endLine="58" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="5445644833261389943" fileName="ScriptsUtil.java" startLine="59" startPosition="176" endLine="60" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="2182799002613251018" fileName="ScriptsUtil.java" startLine="60" startPosition="23" endLine="61" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2182799002613254571" fileName="ScriptsUtil.java" startLine="62" startPosition="47" endLine="63" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2182799002613254571" fileName="ScriptsUtil.java" startLine="62" startPosition="47" endLine="63" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="2182799002613250988" fileName="ScriptsUtil.java" startLine="68" startPosition="16" endLine="69" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="2581841087371073723" fileName="ScriptsUtil.java" startLine="19" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ScriptsUtil#()V" />
     <nodeInfo nodeId="2581841087371092282" fileName="ScriptsUtil.java" startLine="24" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="iterable#()Ljava/lang/Iterable;" />
@@ -98,7 +98,7 @@
     <scopeInfo nodeId="2581841087371092292" fileName="ScriptsUtil.java" startLine="28" startPosition="54" endLine="29" endPosition="69" />
     <scopeInfo nodeId="2581841087371093117" fileName="ScriptsUtil.java" startLine="37" startPosition="50" endLine="38" endPosition="81" />
     <scopeInfo nodeId="2581841087371093160" fileName="ScriptsUtil.java" startLine="46" startPosition="76" endLine="47" endPosition="58" />
-    <scopeInfo nodeId="2182799002613254540" fileName="ScriptsUtil.java" startLine="62" startPosition="47" endLine="63" endPosition="85" />
+    <scopeInfo nodeId="2182799002613254540" fileName="ScriptsUtil.java" startLine="62" startPosition="47" endLine="63" endPosition="84" />
     <scopeInfo nodeId="2182799002613251801" fileName="ScriptsUtil.java" startLine="68" startPosition="16" endLine="69" endPosition="78" />
     <scopeInfo nodeId="2581841087371073723" fileName="ScriptsUtil.java" startLine="19" startPosition="0" endLine="21" endPosition="0" />
     <scopeInfo nodeId="2581841087371092282" fileName="ScriptsUtil.java" startLine="24" startPosition="0" endLine="27" endPosition="0" />
