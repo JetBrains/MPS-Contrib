@@ -9,7 +9,7 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.textGen.TextGenManager;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
-import jetbrains.mps.smodel.adapter.SConceptNodeAdapter;
+import org.jetbrains.mps.openapi.language.SConceptRepository;
 import jetbrains.mps.util.NameUtil;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
@@ -35,7 +35,7 @@ public class Element_TextGen extends SNodeTextGen {
       return;
     }
     this.append(">");
-    if (ListSequence.fromList(SLinkOperations.getTargets(node, "content", true)).isNotEmpty() && BehaviorReflection.invokeVirtualStatic(Boolean.TYPE, new SConceptNodeAdapter(NameUtil.nodeFQName(SNodeOperations.getConceptDeclaration(ListSequence.fromList(SLinkOperations.getTargets(node, "content", true)).first()))), "virtual_indented_1262430001741498172", new Object[]{})) {
+    if (ListSequence.fromList(SLinkOperations.getTargets(node, "content", true)).isNotEmpty() && BehaviorReflection.invokeVirtualStatic(Boolean.TYPE, SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SNodeOperations.getConceptDeclaration(ListSequence.fromList(SLinkOperations.getTargets(node, "content", true)).first()))), "virtual_indented_1262430001741498172", new Object[]{})) {
       this.appendNewLine();
     }
     this.increaseDepth();
@@ -45,7 +45,7 @@ public class Element_TextGen extends SNodeTextGen {
       }
     }
     this.decreaseDepth();
-    if (ListSequence.fromList(SLinkOperations.getTargets(node, "content", true)).isNotEmpty() && BehaviorReflection.invokeVirtualStatic(Boolean.TYPE, new SConceptNodeAdapter(NameUtil.nodeFQName(SNodeOperations.getConceptDeclaration(ListSequence.fromList(SLinkOperations.getTargets(node, "content", true)).last()))), "virtual_indented_1262430001741498172", new Object[]{})) {
+    if (ListSequence.fromList(SLinkOperations.getTargets(node, "content", true)).isNotEmpty() && BehaviorReflection.invokeVirtualStatic(Boolean.TYPE, SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SNodeOperations.getConceptDeclaration(ListSequence.fromList(SLinkOperations.getTargets(node, "content", true)).last()))), "virtual_indented_1262430001741498172", new Object[]{})) {
       this.indentBuffer();
     }
     this.append("</");

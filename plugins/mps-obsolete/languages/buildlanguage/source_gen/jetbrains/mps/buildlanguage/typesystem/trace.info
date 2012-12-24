@@ -245,7 +245,7 @@
   <root nodeId="1197401210363" modelId="r:00000000-0000-4000-0000-011c895904c4(jetbrains.mps.buildlanguage.typesystem)">
     <nodeInfo nodeId="1197401256457" fileName="typeof_Enum_InferenceRule.java" startLine="25" startPosition="7" endLine="26" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1197401256457" fileName="typeof_Enum_InferenceRule.java" startLine="26" startPosition="51" endLine="27" endPosition="200" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1197401256457" fileName="typeof_Enum_InferenceRule.java" startLine="27" startPosition="200" endLine="28" endPosition="494" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1197401256457" fileName="typeof_Enum_InferenceRule.java" startLine="27" startPosition="200" endLine="28" endPosition="514" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1197401210363" fileName="typeof_Enum_InferenceRule.java" startLine="33" startPosition="46" endLine="34" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1197401210363" fileName="typeof_Enum_InferenceRule.java" startLine="38" startPosition="5" endLine="39" endPosition="119" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1197401210363" fileName="typeof_Enum_InferenceRule.java" startLine="39" startPosition="119" endLine="40" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -265,7 +265,7 @@
     <scopeInfo nodeId="1197401210363" fileName="typeof_Enum_InferenceRule.java" startLine="38" startPosition="5" endLine="40" endPosition="45">
       <varInfo nodeId="1197401210363" varName="b" />
     </scopeInfo>
-    <scopeInfo nodeId="1197401256457" fileName="typeof_Enum_InferenceRule.java" startLine="25" startPosition="7" endLine="28" endPosition="494">
+    <scopeInfo nodeId="1197401256457" fileName="typeof_Enum_InferenceRule.java" startLine="25" startPosition="7" endLine="28" endPosition="514">
       <varInfo nodeId="1197401256457" varName="_info_12389875345" />
       <varInfo nodeId="1197401256457" varName="_nodeToCheck_1029348928467" />
     </scopeInfo>

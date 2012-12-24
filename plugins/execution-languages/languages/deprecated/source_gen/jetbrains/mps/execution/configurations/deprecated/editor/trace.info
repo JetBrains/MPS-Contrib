@@ -4711,8 +4711,8 @@
     <nodeInfo nodeId="314981645426569808" fileName="RunConfigurationBody.java" startLine="379" startPosition="72" endLine="380" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="314981645426569808" fileName="RunConfigurationBody.java" startLine="380" startPosition="78" endLine="381" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="314981645426569808" fileName="RunConfigurationBody.java" startLine="382" startPosition="10" endLine="383" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="314981645426569765" fileName="RunConfigurationBody.java" startLine="386" startPosition="112" endLine="387" endPosition="223" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="314981645426569772" fileName="RunConfigurationBody.java" startLine="390" startPosition="112" endLine="391" endPosition="226" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="314981645426569765" fileName="RunConfigurationBody.java" startLine="386" startPosition="112" endLine="387" endPosition="243" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="314981645426569772" fileName="RunConfigurationBody.java" startLine="390" startPosition="112" endLine="391" endPosition="246" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="314981645426569798" fileName="RunConfigurationBody.java" startLine="394" startPosition="111" endLine="395" endPosition="108" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="314981645426569762" fileName="RunConfigurationBody.java" startLine="288" startPosition="26" endLine="290" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="314981645426569769" fileName="RunConfigurationBody.java" startLine="305" startPosition="26" endLine="307" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
@@ -4833,8 +4833,8 @@
     <scopeInfo nodeId="314981645426569804" fileName="RunConfigurationBody.java" startLine="246" startPosition="86" endLine="247" endPosition="47" />
     <scopeInfo nodeId="314981645426569755" fileName="RunConfigurationBody.java" startLine="265" startPosition="108" endLine="266" endPosition="49" />
     <scopeInfo nodeId="314981645426569793" fileName="RunConfigurationBody.java" startLine="273" startPosition="108" endLine="274" endPosition="59" />
-    <scopeInfo nodeId="314981645426569764" fileName="RunConfigurationBody.java" startLine="386" startPosition="112" endLine="387" endPosition="223" />
-    <scopeInfo nodeId="314981645426569771" fileName="RunConfigurationBody.java" startLine="390" startPosition="112" endLine="391" endPosition="226" />
+    <scopeInfo nodeId="314981645426569764" fileName="RunConfigurationBody.java" startLine="386" startPosition="112" endLine="387" endPosition="243" />
+    <scopeInfo nodeId="314981645426569771" fileName="RunConfigurationBody.java" startLine="390" startPosition="112" endLine="391" endPosition="246" />
     <scopeInfo nodeId="314981645426569797" fileName="RunConfigurationBody.java" startLine="394" startPosition="111" endLine="395" endPosition="108" />
     <scopeInfo nodeId="314981645426569753" fileName="RunConfigurationBody.java" startLine="48" startPosition="92" endLine="50" endPosition="59" />
     <scopeInfo nodeId="314981645426569755" fileName="RunConfigurationBody.java" startLine="58" startPosition="66" endLine="60" endPosition="93">

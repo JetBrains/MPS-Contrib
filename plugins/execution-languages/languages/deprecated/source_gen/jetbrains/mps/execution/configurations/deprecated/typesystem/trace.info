@@ -619,7 +619,7 @@
   <root nodeId="314981645426570063" modelId="r:3d1d89d4-ed40-464f-804b-a59886f41d55(jetbrains.mps.execution.configurations.deprecated.typesystem)">
     <nodeInfo nodeId="314981645426570067" fileName="typeof_BaseCreatorTarget_InferenceRule.java" startLine="23" startPosition="7" endLine="24" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="314981645426570067" fileName="typeof_BaseCreatorTarget_InferenceRule.java" startLine="24" startPosition="50" endLine="25" endPosition="227" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="314981645426570067" fileName="typeof_BaseCreatorTarget_InferenceRule.java" startLine="25" startPosition="227" endLine="26" endPosition="517" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="314981645426570067" fileName="typeof_BaseCreatorTarget_InferenceRule.java" startLine="25" startPosition="227" endLine="26" endPosition="537" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="314981645426570063" fileName="typeof_BaseCreatorTarget_InferenceRule.java" startLine="31" startPosition="46" endLine="32" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="314981645426570063" fileName="typeof_BaseCreatorTarget_InferenceRule.java" startLine="36" startPosition="5" endLine="37" endPosition="119" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="314981645426570063" fileName="typeof_BaseCreatorTarget_InferenceRule.java" startLine="37" startPosition="119" endLine="38" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -628,7 +628,7 @@
     <nodeInfo nodeId="314981645426570063" fileName="typeof_BaseCreatorTarget_InferenceRule.java" startLine="31" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getApplicableConceptFQName#()Ljava/lang/String;" />
     <nodeInfo nodeId="314981645426570063" fileName="typeof_BaseCreatorTarget_InferenceRule.java" startLine="42" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="overrides#()Z" />
     <nodeInfo nodeId="314981645426570063" fileName="typeof_BaseCreatorTarget_InferenceRule.java" startLine="35" startPosition="68" endLine="39" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="314981645426570067" fileName="typeof_BaseCreatorTarget_InferenceRule.java" startLine="22" startPosition="244" endLine="27" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="314981645426570067" fileName="typeof_BaseCreatorTarget_InferenceRule.java" startLine="22" startPosition="264" endLine="27" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="314981645426570063" fileName="typeof_BaseCreatorTarget_InferenceRule.java" startLine="35" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableAndPattern#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
     <nodeInfo nodeId="314981645426570065" fileName="typeof_BaseCreatorTarget_InferenceRule.java" startLine="21" startPosition="119" endLine="28" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="314981645426570063" fileName="typeof_BaseCreatorTarget_InferenceRule.java" startLine="21" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="applyRule#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
@@ -639,14 +639,14 @@
     <scopeInfo nodeId="314981645426570063" fileName="typeof_BaseCreatorTarget_InferenceRule.java" startLine="36" startPosition="5" endLine="38" endPosition="45">
       <varInfo nodeId="314981645426570063" varName="b" />
     </scopeInfo>
-    <scopeInfo nodeId="314981645426570067" fileName="typeof_BaseCreatorTarget_InferenceRule.java" startLine="23" startPosition="7" endLine="26" endPosition="517">
+    <scopeInfo nodeId="314981645426570067" fileName="typeof_BaseCreatorTarget_InferenceRule.java" startLine="23" startPosition="7" endLine="26" endPosition="537">
       <varInfo nodeId="314981645426570067" varName="_info_12389875345" />
       <varInfo nodeId="314981645426570067" varName="_nodeToCheck_1029348928467" />
     </scopeInfo>
     <scopeInfo nodeId="314981645426570063" fileName="typeof_BaseCreatorTarget_InferenceRule.java" startLine="31" startPosition="0" endLine="34" endPosition="0" />
     <scopeInfo nodeId="314981645426570063" fileName="typeof_BaseCreatorTarget_InferenceRule.java" startLine="42" startPosition="0" endLine="45" endPosition="0" />
     <scopeInfo nodeId="314981645426570063" fileName="typeof_BaseCreatorTarget_InferenceRule.java" startLine="35" startPosition="68" endLine="39" endPosition="5" />
-    <scopeInfo nodeId="314981645426570066" fileName="typeof_BaseCreatorTarget_InferenceRule.java" startLine="22" startPosition="244" endLine="27" endPosition="7" />
+    <scopeInfo nodeId="314981645426570066" fileName="typeof_BaseCreatorTarget_InferenceRule.java" startLine="22" startPosition="264" endLine="27" endPosition="7" />
     <scopeInfo nodeId="314981645426570063" fileName="typeof_BaseCreatorTarget_InferenceRule.java" startLine="35" startPosition="0" endLine="41" endPosition="0">
       <varInfo nodeId="314981645426570063" varName="argument" />
     </scopeInfo>
@@ -1048,7 +1048,7 @@
     <nodeInfo nodeId="314981645426570253" fileName="check_RunConfigurationEditor_NonTypesystemRule.java" startLine="21" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="check_RunConfigurationEditor_NonTypesystemRule#()V" />
     <nodeInfo nodeId="314981645426570253" fileName="check_RunConfigurationEditor_NonTypesystemRule.java" startLine="33" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getApplicableConceptFQName#()Ljava/lang/String;" />
     <nodeInfo nodeId="314981645426570253" fileName="check_RunConfigurationEditor_NonTypesystemRule.java" startLine="44" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="overrides#()Z" />
-    <nodeInfo nodeId="314981645426570268" fileName="check_RunConfigurationEditor_NonTypesystemRule.java" startLine="25" startPosition="329" endLine="29" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="314981645426570268" fileName="check_RunConfigurationEditor_NonTypesystemRule.java" startLine="25" startPosition="349" endLine="29" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="314981645426570253" fileName="check_RunConfigurationEditor_NonTypesystemRule.java" startLine="37" startPosition="68" endLine="41" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="314981645426570255" fileName="check_RunConfigurationEditor_NonTypesystemRule.java" startLine="24" startPosition="140" endLine="30" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="314981645426570253" fileName="check_RunConfigurationEditor_NonTypesystemRule.java" startLine="37" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableAndPattern#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
@@ -1066,7 +1066,7 @@
     </scopeInfo>
     <scopeInfo nodeId="314981645426570253" fileName="check_RunConfigurationEditor_NonTypesystemRule.java" startLine="33" startPosition="0" endLine="36" endPosition="0" />
     <scopeInfo nodeId="314981645426570253" fileName="check_RunConfigurationEditor_NonTypesystemRule.java" startLine="44" startPosition="0" endLine="47" endPosition="0" />
-    <scopeInfo nodeId="314981645426570267" fileName="check_RunConfigurationEditor_NonTypesystemRule.java" startLine="25" startPosition="329" endLine="29" endPosition="7" />
+    <scopeInfo nodeId="314981645426570267" fileName="check_RunConfigurationEditor_NonTypesystemRule.java" startLine="25" startPosition="349" endLine="29" endPosition="7" />
     <scopeInfo nodeId="314981645426570253" fileName="check_RunConfigurationEditor_NonTypesystemRule.java" startLine="37" startPosition="68" endLine="41" endPosition="5" />
     <scopeInfo nodeId="314981645426570254" fileName="check_RunConfigurationEditor_NonTypesystemRule.java" startLine="24" startPosition="140" endLine="30" endPosition="5" />
     <scopeInfo nodeId="314981645426570253" fileName="check_RunConfigurationEditor_NonTypesystemRule.java" startLine="37" startPosition="0" endLine="43" endPosition="0">

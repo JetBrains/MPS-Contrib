@@ -8696,7 +8696,7 @@
     <nodeInfo nodeId="7678715681280025602" fileName="ParseExpression_Editor.java" startLine="291" startPosition="93" endLine="292" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="7678715681280025602" fileName="ParseExpression_Editor.java" startLine="292" startPosition="50" endLine="293" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="7678715681280025602" fileName="ParseExpression_Editor.java" startLine="293" startPosition="34" endLine="294" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1262430001742033563" fileName="ParseExpression_Editor.java" startLine="299" startPosition="31" endLine="300" endPosition="224" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1262430001742033563" fileName="ParseExpression_Editor.java" startLine="299" startPosition="31" endLine="300" endPosition="244" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1262430001742033558" fileName="ParseExpression_Editor.java" startLine="306" startPosition="44" endLine="307" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1262430001742033558" fileName="ParseExpression_Editor.java" startLine="309" startPosition="13" endLine="310" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1262430001742033558" fileName="ParseExpression_Editor.java" startLine="310" startPosition="72" endLine="311" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -8922,7 +8922,7 @@
     <scopeInfo nodeId="2583319411283206820" fileName="ParseExpression_Editor.java" startLine="277" startPosition="92" endLine="278" endPosition="48" />
     <scopeInfo nodeId="2583319411283206827" fileName="ParseExpression_Editor.java" startLine="284" startPosition="90" endLine="285" endPosition="48" />
     <scopeInfo nodeId="7678715681280025602" fileName="ParseExpression_Editor.java" startLine="291" startPosition="93" endLine="292" endPosition="50" />
-    <scopeInfo nodeId="1262430001742033561" fileName="ParseExpression_Editor.java" startLine="299" startPosition="31" endLine="300" endPosition="224" />
+    <scopeInfo nodeId="1262430001742033561" fileName="ParseExpression_Editor.java" startLine="299" startPosition="31" endLine="300" endPosition="244" />
     <scopeInfo nodeId="1262430001742033558" fileName="ParseExpression_Editor.java" startLine="306" startPosition="44" endLine="307" endPosition="46" />
     <scopeInfo nodeId="2583319411283206809" fileName="ParseExpression_Editor.java" startLine="438" startPosition="111" endLine="439" endPosition="70" />
     <scopeInfo nodeId="7678715681280022254" fileName="ParseExpression_Editor.java" startLine="442" startPosition="111" endLine="443" endPosition="70" />

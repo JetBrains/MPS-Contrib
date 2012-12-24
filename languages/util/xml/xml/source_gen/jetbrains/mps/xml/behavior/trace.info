@@ -80,7 +80,7 @@
     <nodeInfo nodeId="1221256566635" fileName="ContentList_Behavior.java" startLine="31" startPosition="81" endLine="32" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1221256566646" fileName="ContentList_Behavior.java" startLine="33" startPosition="27" endLine="34" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1221256566653" fileName="ContentList_Behavior.java" startLine="36" startPosition="27" endLine="37" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1221256566673" fileName="ContentList_Behavior.java" startLine="38" startPosition="508" endLine="39" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1221256566673" fileName="ContentList_Behavior.java" startLine="38" startPosition="548" endLine="39" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1221256566675" fileName="ContentList_Behavior.java" startLine="41" startPosition="5" endLine="42" endPosition="125" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1221256566685" fileName="ContentList_Behavior.java" startLine="43" startPosition="36" endLine="44" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1221256566692" fileName="ContentList_Behavior.java" startLine="45" startPosition="5" endLine="46" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -100,7 +100,7 @@
     <scopeInfo nodeId="1221256566619" fileName="ContentList_Behavior.java" startLine="25" startPosition="29" endLine="26" endPosition="18" />
     <scopeInfo nodeId="1221256566626" fileName="ContentList_Behavior.java" startLine="28" startPosition="67" endLine="29" endPosition="18" />
     <scopeInfo nodeId="1221256566645" fileName="ContentList_Behavior.java" startLine="33" startPosition="27" endLine="34" endPosition="18" />
-    <scopeInfo nodeId="1221256566672" fileName="ContentList_Behavior.java" startLine="38" startPosition="508" endLine="39" endPosition="20" />
+    <scopeInfo nodeId="1221256566672" fileName="ContentList_Behavior.java" startLine="38" startPosition="548" endLine="39" endPosition="20" />
     <scopeInfo nodeId="1221256566684" fileName="ContentList_Behavior.java" startLine="43" startPosition="36" endLine="44" endPosition="85" />
     <scopeInfo nodeId="1262430001741647231" fileName="ContentList_Behavior.java" startLine="49" startPosition="85" endLine="50" endPosition="16" />
     <scopeInfo nodeId="1213877331918" fileName="ContentList_Behavior.java" startLine="17" startPosition="0" endLine="19" endPosition="0">
