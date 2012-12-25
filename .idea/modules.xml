@@ -19,7 +19,6 @@
       <module fileurl="file://$PROJECT_DIR$/plugins/debugger-java/runtime/debugger-java-runtime.iml" filepath="$PROJECT_DIR$/plugins/debugger-java/runtime/debugger-java-runtime.iml" group="plugins/debugger/debugger-java" />
       <module fileurl="file://$PROJECT_DIR$/editor/editor-api/editor-api.iml" filepath="$PROJECT_DIR$/editor/editor-api/editor-api.iml" group="editor" />
       <module fileurl="file://$PROJECT_DIR$/editor/editor-runtime/editor-runtime.iml" filepath="$PROJECT_DIR$/editor/editor-runtime/editor-runtime.iml" group="editor" />
-      <module fileurl="file://$PROJECT_DIR$/tools/excluded/excluded.iml" filepath="$PROJECT_DIR$/tools/excluded/excluded.iml" />
       <module fileurl="file://$PROJECT_DIR$/plugins/execution-api/execution-api.iml" filepath="$PROJECT_DIR$/plugins/execution-api/execution-api.iml" group="plugins/execution" />
       <module fileurl="file://$PROJECT_DIR$/plugins/execution-configurations/languages/ant/execution-configurations-ant.iml" filepath="$PROJECT_DIR$/plugins/execution-configurations/languages/ant/execution-configurations-ant.iml" group="plugins/execution" />
       <module fileurl="file://$PROJECT_DIR$/plugins/execution-configurations/languages/baseLanguage/jetbrains.mps.baseLanguage.execution.api/execution-configurations-baseLanguage.iml" filepath="$PROJECT_DIR$/plugins/execution-configurations/languages/baseLanguage/jetbrains.mps.baseLanguage.execution.api/execution-configurations-baseLanguage.iml" group="plugins/execution" />
@@ -59,6 +58,7 @@
       <module fileurl="file://$PROJECT_DIR$/plugins/samples/samples.iml" filepath="$PROJECT_DIR$/plugins/samples/samples.iml" group="plugins" />
       <module fileurl="file://$PROJECT_DIR$/startup.iml" filepath="$PROJECT_DIR$/startup.iml" />
       <module fileurl="file://$PROJECT_DIR$/testbench/testbench.iml" filepath="$PROJECT_DIR$/testbench/testbench.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tools/tools/tools.iml" filepath="$PROJECT_DIR$/tools/tools/tools.iml" />
       <module fileurl="file://$PROJECT_DIR$/core/typesystemEngine/typesystemEngine.iml" filepath="$PROJECT_DIR$/core/typesystemEngine/typesystemEngine.iml" group="core" />
       <module fileurl="file://$PROJECT_DIR$/editor/typesystemIntegration/typesystemIntegration.iml" filepath="$PROJECT_DIR$/editor/typesystemIntegration/typesystemIntegration.iml" group="editor" />
       <module fileurl="file://$PROJECT_DIR$/workbench/typesystemUi/typesystemUi.iml" filepath="$PROJECT_DIR$/workbench/typesystemUi/typesystemUi.iml" group="workbench" />
