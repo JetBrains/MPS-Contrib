@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <solution name="jetbrains.mps.baseLanguage.dates.runtime" uuid="2ebbb458-8ebb-481e-a5d7-9e27903323d4" pluginKind="PLUGIN_CORE" compileInMPS="true">
   <models>
-    <modelRoot path="${module}/" />
+    <modelRoot contentPath="${module}" type="default">
+      <sourceRoot location="." />
+    </modelRoot>
     <modelRoot path="${module}/lib/joda-time-2.1.jar" type="java_classes" />
   </models>
   <stubModelEntries>
