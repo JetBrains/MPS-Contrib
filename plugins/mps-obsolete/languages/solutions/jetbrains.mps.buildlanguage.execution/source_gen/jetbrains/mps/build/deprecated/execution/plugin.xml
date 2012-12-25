@@ -10,8 +10,8 @@
   
   <depends>jetbrains.mps.execution.languages</depends>
   <depends>jetbrains.mps.execution.configurations</depends>
-  <depends>jetbrains.mps.debugger-java</depends>
-  <depends>jetbrains.mps.debugger-api</depends>
+  <depends>jetbrains.mps.debugger.java</depends>
+  <depends>jetbrains.mps.debugger.api</depends>
   <application-components>
     <component>
       <implementation-class>jetbrains.mps.build.deprecated.execution.Execution_PluginInitializer</implementation-class>
