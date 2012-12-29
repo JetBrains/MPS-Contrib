@@ -25,9 +25,9 @@
   
   <target name="assemble" depends="classes">
     <mkdir dir="${build.layout}/plugins" />
-    <mkdir dir="${build.layout}/plugins/mps-build-deprecated" />
-    <mkdir dir="${build.layout}/plugins/mps-build-deprecated/META-INF" />
-    <echoxml file="${build.layout}/plugins/mps-build-deprecated/META-INF/plugin.xml">
+    <mkdir dir="${build.layout}/plugins/mps-obsolete" />
+    <mkdir dir="${build.layout}/plugins/mps-obsolete/META-INF" />
+    <echoxml file="${build.layout}/plugins/mps-obsolete/META-INF/plugin.xml">
       <idea-plugin version="2" xmlns:xi="http://www.w3.org/2001/XInclude">
         <id>jetbrains.mps.build.deprecated</id>
         <name>MPS Depreacted XML and Build Languages</name>
@@ -39,8 +39,8 @@
         </extensions>
       </idea-plugin>
     </echoxml>
-    <mkdir dir="${build.layout}/plugins/mps-build-deprecated/languages" />
-    <mkdir dir="${build.layout}/plugins/mps-build-deprecated/languages/build" />
+    <mkdir dir="${build.layout}/plugins/mps-obsolete/languages" />
+    <mkdir dir="${build.layout}/plugins/mps-obsolete/languages/build" />
     <mkdir dir="${build.tmp}/default/jetbrains.mps.buildlanguage.jar" />
     <mkdir dir="${build.tmp}/default/jetbrains.mps.buildlanguage.jar/META-INF" />
     <echoxml file="${build.tmp}/default/jetbrains.mps.buildlanguage.jar/META-INF/module.xml">
@@ -60,12 +60,12 @@
         <sources jar="jetbrains.mps.buildlanguage-src.jar" descriptor="buildlanguage.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.layout}/plugins/mps-build-deprecated/languages/build/jetbrains.mps.buildlanguage.jar">
+    <jar destfile="${build.layout}/plugins/mps-obsolete/languages/build/jetbrains.mps.buildlanguage.jar">
       <fileset dir="${build.tmp}/java/out/jetbrains.mps.buildlanguage" />
       <fileset dir="${mps_home}/plugins/mps-obsolete/languages/buildlanguage" includes="icons/**, resources/**" />
       <fileset dir="${build.tmp}/default/jetbrains.mps.buildlanguage.jar" />
     </jar>
-    <jar destfile="${build.layout}/plugins/mps-build-deprecated/languages/build/jetbrains.mps.buildlanguage-src.jar">
+    <jar destfile="${build.layout}/plugins/mps-obsolete/languages/build/jetbrains.mps.buildlanguage-src.jar">
       <fileset dir="${mps_home}/plugins/mps-obsolete/languages/buildlanguage/source_gen" includes="**/*.java" />
       <zipfileset file="${mps_home}/plugins/mps-obsolete/languages/buildlanguage/buildlanguage.mpl" prefix="module" />
       <zipfileset dir="${mps_home}/plugins/mps-obsolete/languages/buildlanguage/languageModels" includes="**/*.mps, **/*.metadata, **/*.history" prefix="module/languageModels" />
@@ -89,12 +89,12 @@
         <sources jar="jetbrains.mps.build.generictasks-src.jar" descriptor="generictasks.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.layout}/plugins/mps-build-deprecated/languages/build/jetbrains.mps.build.generictasks.jar">
+    <jar destfile="${build.layout}/plugins/mps-obsolete/languages/build/jetbrains.mps.build.generictasks.jar">
       <fileset dir="${build.tmp}/java/out/jetbrains.mps.build.generictasks" />
       <fileset dir="${mps_home}/plugins/mps-obsolete/languages/generictasks" includes="icons/**, resources/**" />
       <fileset dir="${build.tmp}/default/jetbrains.mps.build.generictasks.jar" />
     </jar>
-    <jar destfile="${build.layout}/plugins/mps-build-deprecated/languages/build/jetbrains.mps.build.generictasks-src.jar">
+    <jar destfile="${build.layout}/plugins/mps-obsolete/languages/build/jetbrains.mps.build.generictasks-src.jar">
       <fileset dir="${mps_home}/plugins/mps-obsolete/languages/generictasks/source_gen" includes="**/*.java" />
       <zipfileset file="${mps_home}/plugins/mps-obsolete/languages/generictasks/generictasks.mpl" prefix="module" />
       <zipfileset dir="${mps_home}/plugins/mps-obsolete/languages/generictasks/languageAccessories" includes="**/*.mps, **/*.metadata, **/*.history" prefix="module/languageAccessories" />
@@ -120,19 +120,19 @@
         <sources jar="jetbrains.mps.build.property-src.jar" descriptor="property.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.layout}/plugins/mps-build-deprecated/languages/build/jetbrains.mps.build.property.jar">
+    <jar destfile="${build.layout}/plugins/mps-obsolete/languages/build/jetbrains.mps.build.property.jar">
       <fileset dir="${build.tmp}/java/out/jetbrains.mps.build.property" />
       <fileset dir="${mps_home}/plugins/mps-obsolete/languages/property" includes="icons/**, resources/**" />
       <fileset dir="${build.tmp}/default/jetbrains.mps.build.property.jar" />
     </jar>
-    <jar destfile="${build.layout}/plugins/mps-build-deprecated/languages/build/jetbrains.mps.build.property-src.jar">
+    <jar destfile="${build.layout}/plugins/mps-obsolete/languages/build/jetbrains.mps.build.property-src.jar">
       <fileset dir="${mps_home}/plugins/mps-obsolete/languages/property/source_gen" includes="**/*.java" />
       <zipfileset file="${mps_home}/plugins/mps-obsolete/languages/property/property.mpl" prefix="module" />
       <zipfileset dir="${mps_home}/plugins/mps-obsolete/languages/property/languageModels" includes="**/*.mps, **/*.metadata, **/*.history" prefix="module/languageModels" />
       <zipfileset dir="${mps_home}/plugins/mps-obsolete/languages/property/generator/template" includes="**/*.mps, **/*.metadata, **/*.history" prefix="module/generator/template" />
     </jar>
-    <mkdir dir="${build.layout}/plugins/mps-build-deprecated/languages" />
-    <mkdir dir="${build.layout}/plugins/mps-build-deprecated/languages/xml" />
+    <mkdir dir="${build.layout}/plugins/mps-obsolete/languages" />
+    <mkdir dir="${build.layout}/plugins/mps-obsolete/languages/xml" />
     <mkdir dir="${build.tmp}/default/jetbrains.mps.xml.deprecated.jar" />
     <mkdir dir="${build.tmp}/default/jetbrains.mps.xml.deprecated.jar/META-INF" />
     <echoxml file="${build.tmp}/default/jetbrains.mps.xml.deprecated.jar/META-INF/module.xml">
@@ -151,12 +151,12 @@
         <sources jar="jetbrains.mps.xml.deprecated-src.jar" descriptor="languageDescriptor.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.layout}/plugins/mps-build-deprecated/languages/xml/jetbrains.mps.xml.deprecated.jar">
+    <jar destfile="${build.layout}/plugins/mps-obsolete/languages/xml/jetbrains.mps.xml.deprecated.jar">
       <fileset dir="${build.tmp}/java/out/jetbrains.mps.xml.deprecated" />
       <fileset dir="${mps_home}/plugins/mps-obsolete/languages/xmlDeprecated" includes="icons/**, resources/**" />
       <fileset dir="${build.tmp}/default/jetbrains.mps.xml.deprecated.jar" />
     </jar>
-    <jar destfile="${build.layout}/plugins/mps-build-deprecated/languages/xml/jetbrains.mps.xml.deprecated-src.jar">
+    <jar destfile="${build.layout}/plugins/mps-obsolete/languages/xml/jetbrains.mps.xml.deprecated-src.jar">
       <fileset dir="${mps_home}/plugins/mps-obsolete/languages/xmlDeprecated/source_gen" includes="**/*.java" />
       <zipfileset file="${mps_home}/plugins/mps-obsolete/languages/xmlDeprecated/languageDescriptor.mpl" prefix="module" />
       <zipfileset dir="${mps_home}/plugins/mps-obsolete/languages/xmlDeprecated/languageModels" includes="**/*.mps, **/*.metadata, **/*.history" prefix="module/languageModels" />
