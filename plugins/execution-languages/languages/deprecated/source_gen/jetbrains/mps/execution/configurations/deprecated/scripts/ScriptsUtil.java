@@ -60,7 +60,7 @@ public class ScriptsUtil {
           found = true;
           ref.setTargetSModelReference(newModelReference);
           if (ref instanceof StaticReference) {
-            ((StaticReference) ref).setTargetNodeId(newNodeToReference.getSNodeId());
+            ((StaticReference) ref).setTargetNodeId(newNodeToReference.getNodeId());
           }
         }
       }

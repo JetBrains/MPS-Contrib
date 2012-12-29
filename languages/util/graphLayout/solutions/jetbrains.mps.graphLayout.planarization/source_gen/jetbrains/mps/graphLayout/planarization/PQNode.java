@@ -10,7 +10,6 @@ import java.util.Iterator;
 
 public abstract class PQNode {
   public static final int INF = 1000000;
-
   protected List<PQNode> myChildren;
   private PQNode myParent;
   private PQNode.State myState;

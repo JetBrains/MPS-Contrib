@@ -4,29 +4,26 @@ package jetbrains.mps.xmlSchema.behavior;
 
 import jetbrains.mps.smodel.SNode;
 import java.util.List;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import java.util.ArrayList;
 import java.util.Set;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.smodel.runtime.BehaviorDescriptor;
-import jetbrains.mps.smodel.language.ConceptRegistry;
 import jetbrains.mps.smodel.behaviour.BehaviorManager;
 
 public class ElementDeclaration_Behavior {
-  private static Class[] PARAMETERS_1213877429806 = {SNode.class};
-
   public static void init(SNode thisNode) {
   }
 
   public static void virtual_checkAttributes_1213877382373(SNode thisNode, List<SNode> attributeDeclarations) {
-    TypeExpression_Behavior.call_checkAttributes_1213877382373(ElementDeclaration_Behavior.call_getComplexType_1213877429806(thisNode), attributeDeclarations);
+    BehaviorReflection.invokeVirtual(Void.class, BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), thisNode, "virtual_getComplexType_1213877429806", new Object[]{}), "virtual_checkAttributes_1213877382373", new Object[]{attributeDeclarations});
   }
 
   public static List<SNode> call_getAttributeDeclarations_1213877429821(SNode thisNode) {
     List<SNode> attributeDeclarations = new ArrayList<SNode>();
-    TypeExpression_Behavior.call_checkAttributes_1213877382373(thisNode, attributeDeclarations);
+    BehaviorReflection.invokeVirtual(Void.class, thisNode, "virtual_checkAttributes_1213877382373", new Object[]{attributeDeclarations});
     return attributeDeclarations;
   }
 
@@ -35,19 +32,19 @@ public class ElementDeclaration_Behavior {
   }
 
   public static void call_checkElements_ed_1213877429846(SNode thisNode, Set<SNode> elementDeclarations) {
-    SNode complexType = ElementDeclaration_Behavior.call_getComplexType_1213877429806(thisNode);
+    SNode complexType = BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), thisNode, "virtual_getComplexType_1213877429806", new Object[]{});
     if ((complexType != null)) {
-      TypeExpression_Behavior.call_checkElements_1213877382378(complexType, elementDeclarations);
+      BehaviorReflection.invokeVirtual(Void.class, complexType, "virtual_checkElements_1213877382378", new Object[]{elementDeclarations});
     }
   }
 
   public static boolean call_isEmpty_1213877429867(SNode thisNode) {
-    return ComplexType_Behavior.call_isEmpty_1213877526947(ElementDeclaration_Behavior.call_getComplexType_1213877429806(thisNode));
+    return ComplexType_Behavior.call_isEmpty_1213877526947(BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), thisNode, "virtual_getComplexType_1213877429806", new Object[]{}));
   }
 
   public static boolean virtual_isMixed_1213877382388(SNode thisNode) {
-    SNode complexType = ElementDeclaration_Behavior.call_getComplexType_1213877429806(thisNode);
-    return (complexType == null) || TypeExpression_Behavior.call_isMixed_1213877382388(complexType);
+    SNode complexType = BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), thisNode, "virtual_getComplexType_1213877429806", new Object[]{});
+    return (complexType == null) || BehaviorReflection.invokeVirtual(Boolean.TYPE, complexType, "virtual_isMixed_1213877382388", new Object[]{});
   }
 
   public static SNode call_getNamespaceDeclaration_1213877429893(SNode thisNode) {
@@ -68,12 +65,13 @@ public class ElementDeclaration_Behavior {
     return (namespaceDeclaration != null);
   }
 
+  @Deprecated
   public static SNode call_getComplexType_1213877429806(SNode thisNode) {
-    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
-    return (SNode) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.ElementDeclaration"), "virtual_getComplexType_1213877429806", PARAMETERS_1213877429806, new Object[]{});
+    return BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), thisNode, "virtual_getComplexType_1213877429806", new Object[]{});
   }
 
+  @Deprecated
   public static SNode callSuper_getComplexType_1213877429806(SNode thisNode, String callerConceptFqName) {
-    return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.ElementDeclaration"), callerConceptFqName, "virtual_getComplexType_1213877429806", PARAMETERS_1213877429806, new Object[]{});
+    return BehaviorManager.getInstance().invokeSuper((Class<SNode>) ((Class) Object.class), SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.ElementDeclaration"), callerConceptFqName, "virtual_getComplexType_1213877429806", new Class[]{SNode.class}, new Object[]{});
   }
 }

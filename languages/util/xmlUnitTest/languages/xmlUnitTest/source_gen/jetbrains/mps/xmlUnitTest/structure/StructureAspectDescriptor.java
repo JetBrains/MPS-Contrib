@@ -8,17 +8,15 @@ import jetbrains.mps.smodel.runtime.impl.CompiledConceptDescriptor;
 import jetbrains.mps.smodel.runtime.interpreted.StructureAspectInterpreted;
 
 public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.StructureAspectDescriptor {
-  private static String[] stringSwitchCases_1htk8d_a0a0a = new String[]{"jetbrains.mps.xmlUnitTest.structure.AssertXMLEquals", "jetbrains.mps.xmlUnitTest.structure.Attribute", "jetbrains.mps.xmlUnitTest.structure.Document", "jetbrains.mps.xmlUnitTest.structure.Element", "jetbrains.mps.xmlUnitTest.structure.ElementPart", "jetbrains.mps.xmlUnitTest.structure.Text", "jetbrains.mps.xmlUnitTest.structure.XMLLiteral", "jetbrains.mps.xmlUnitTest.structure.XMLStringLiteral"};
-
   public StructureAspectDescriptor() {
   }
 
   public ConceptDescriptor getDescriptor(String conceptFqName) {
-    switch (Arrays.binarySearch(stringSwitchCases_1htk8d_a0a0a, conceptFqName)) {
+    switch (Arrays.binarySearch(stringSwitchCases_1htk8d_a0a0b, conceptFqName)) {
       case 0:
         return new CompiledConceptDescriptor("jetbrains.mps.xmlUnitTest.structure.AssertXMLEquals", "jetbrains.mps.baseLanguage.structure.Statement", false, new String[]{"jetbrains.mps.baseLanguage.structure.Statement", "jetbrains.mps.baseLanguage.unitTest.structure.MessageHolder"}, new String[]{}, new String[]{});
       case 1:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlUnitTest.structure.Attribute", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{"value"}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.xmlUnitTest.structure.Attribute", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept", "jetbrains.mps.lang.core.structure.IDontSubstituteByDefault"}, new String[]{"value"}, new String[]{});
       case 2:
         return new CompiledConceptDescriptor("jetbrains.mps.xmlUnitTest.structure.Document", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{}, new String[]{});
       case 3:
@@ -26,7 +24,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 4:
         return new CompiledConceptDescriptor("jetbrains.mps.xmlUnitTest.structure.ElementPart", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{}, new String[]{});
       case 5:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlUnitTest.structure.Text", "jetbrains.mps.xmlUnitTest.structure.ElementPart", false, new String[]{"jetbrains.mps.xmlUnitTest.structure.ElementPart"}, new String[]{"text"}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.xmlUnitTest.structure.Text", "jetbrains.mps.xmlUnitTest.structure.ElementPart", false, new String[]{"jetbrains.mps.xmlUnitTest.structure.ElementPart", "jetbrains.mps.lang.core.structure.IDontSubstituteByDefault"}, new String[]{"text"}, new String[]{});
       case 6:
         return new CompiledConceptDescriptor("jetbrains.mps.xmlUnitTest.structure.XMLLiteral", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{});
       case 7:
@@ -35,4 +33,6 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
         return StructureAspectInterpreted.getInstance().getDescriptor(conceptFqName);
     }
   }
+
+  private static String[] stringSwitchCases_1htk8d_a0a0b = new String[]{"jetbrains.mps.xmlUnitTest.structure.AssertXMLEquals", "jetbrains.mps.xmlUnitTest.structure.Attribute", "jetbrains.mps.xmlUnitTest.structure.Document", "jetbrains.mps.xmlUnitTest.structure.Element", "jetbrains.mps.xmlUnitTest.structure.ElementPart", "jetbrains.mps.xmlUnitTest.structure.Text", "jetbrains.mps.xmlUnitTest.structure.XMLLiteral", "jetbrains.mps.xmlUnitTest.structure.XMLStringLiteral"};
 }

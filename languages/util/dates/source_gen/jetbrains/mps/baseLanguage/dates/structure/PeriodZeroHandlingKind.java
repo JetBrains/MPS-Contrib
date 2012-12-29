@@ -14,22 +14,12 @@ public enum PeriodZeroHandlingKind {
   RARELY_LAST("rarely last", "rarelyLast");
 
   private String myName;
-  private String myValue;
-
-  PeriodZeroHandlingKind(String name, String value) {
-    this.myName = name;
-    this.myValue = value;
-  }
 
   public String getName() {
     return this.myName;
   }
 
   public String getValueAsString() {
-    return this.myValue;
-  }
-
-  public String getValue() {
     return this.myValue;
   }
 
@@ -67,5 +57,16 @@ public enum PeriodZeroHandlingKind {
       return PeriodZeroHandlingKind.RARELY_LAST;
     }
     return PeriodZeroHandlingKind.getDefault();
+  }
+
+  private String myValue;
+
+  PeriodZeroHandlingKind(String name, String value) {
+    this.myName = name;
+    this.myValue = value;
+  }
+
+  public String getValue() {
+    return this.myValue;
   }
 }

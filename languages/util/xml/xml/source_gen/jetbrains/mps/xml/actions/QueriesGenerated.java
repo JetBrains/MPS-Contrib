@@ -21,8 +21,7 @@ import jetbrains.mps.smodel.SModel;
 import jetbrains.mps.smodel.action.SNodeFactoryOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.action.DefaultSimpleSubstituteAction;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptPropertyOperations;
-import jetbrains.mps.xmlSchema.behavior.TypeExpression_Behavior;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.smodel.action.RemoveSubstituteActionByConditionContext;
 import java.util.Iterator;
 import jetbrains.mps.util.Condition;
@@ -112,7 +111,7 @@ public class QueriesGenerated {
           }
 
           public String getDescriptionText(String pattern) {
-            return SConceptPropertyOperations.getString(SConceptOperations.findConceptDeclaration("jetbrains.mps.xml.structure.Text"), "shortDescription");
+            return SPropertyOperations.getString(SConceptOperations.findConceptDeclaration("jetbrains.mps.xml.structure.Text"), "shortDescription");
           }
 
           public String getMatchingText(String pattern) {
@@ -146,7 +145,7 @@ public class QueriesGenerated {
     {
       Computable calc = new Computable() {
         public Object compute() {
-          return (parentElement == null) || TypeExpression_Behavior.call_isMixed_1213877382388(parentElement);
+          return (parentElement == null) || BehaviorReflection.invokeVirtual(Boolean.TYPE, parentElement, "virtual_isMixed_1213877382388", new Object[]{});
         }
       };
       isMixed = (Boolean) calc.compute();
@@ -206,7 +205,7 @@ public class QueriesGenerated {
     {
       Computable calc = new Computable() {
         public Object compute() {
-          return (parentElement == null) || TypeExpression_Behavior.call_isMixed_1213877382388(parentElement);
+          return (parentElement == null) || BehaviorReflection.invokeVirtual(Boolean.TYPE, parentElement, "virtual_isMixed_1213877382388", new Object[]{});
         }
       };
       isMixed = (Boolean) calc.compute();

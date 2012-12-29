@@ -19,7 +19,7 @@ public class check_RunConfigurationIcon_NonTypesystemRule extends AbstractNonTyp
   }
 
   public void applyRule(final SNode runConfigurationDeclaration, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
-    if ((SLinkOperations.getTarget(runConfigurationDeclaration, "iconBlock", true) == null) && ((SLinkOperations.getTarget(runConfigurationDeclaration, "configType", false) != null) && isEmpty_n6iy87_a0a0a0a0(SPropertyOperations.getString(SLinkOperations.getTarget(runConfigurationDeclaration, "configType", false), "iconPath")))) {
+    if ((SLinkOperations.getTarget(runConfigurationDeclaration, "iconBlock", true) == null) && ((SLinkOperations.getTarget(runConfigurationDeclaration, "configType", false) != null) && isEmpty_n6iy87_a0a0a0a1(SPropertyOperations.getString(SLinkOperations.getTarget(runConfigurationDeclaration, "configType", false), "iconPath")))) {
       {
         MessageTarget errorTarget = new NodeMessageTarget();
         IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(runConfigurationDeclaration, "Run Configuration Should Declare An Icon", "r:3d1d89d4-ed40-464f-804b-a59886f41d55(jetbrains.mps.execution.configurations.deprecated.typesystem)", "314981645426570322", null, errorTarget);
@@ -33,7 +33,7 @@ public class check_RunConfigurationIcon_NonTypesystemRule extends AbstractNonTyp
 
   public IsApplicableStatus isApplicableAndPattern(SNode argument) {
     {
-      boolean b = SModelUtil_new.isAssignableConcept(argument.getConceptFqName(), this.getApplicableConceptFQName());
+      boolean b = SModelUtil_new.isAssignableConcept(argument.getConcept().getConceptId(), this.getApplicableConceptFQName());
       return new IsApplicableStatus(b, null);
     }
   }
@@ -42,7 +42,7 @@ public class check_RunConfigurationIcon_NonTypesystemRule extends AbstractNonTyp
     return false;
   }
 
-  public static boolean isEmpty_n6iy87_a0a0a0a0(String str) {
+  public static boolean isEmpty_n6iy87_a0a0a0a1(String str) {
     return str == null || str.length() == 0;
   }
 }

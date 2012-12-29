@@ -9,7 +9,7 @@ import jetbrains.mps.nodeEditor.style.AttributeCalculator;
 import java.awt.Color;
 import jetbrains.mps.nodeEditor.MPSFonts;
 import jetbrains.mps.smodel.SNode;
-import jetbrains.mps.nodeEditor.EditorContext;
+import jetbrains.mps.openapi.editor.EditorContext;
 
 public class XmlSchema_StyleSheet {
   public static Style getXmlElement(final EditorCell cell) {
@@ -21,7 +21,7 @@ public class XmlSchema_StyleSheet {
           cell.getSNode()
         ), (cell == null ?
           null :
-          cell.getEditorContext()
+          cell.getContext()
         ));
       }
     });

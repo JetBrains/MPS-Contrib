@@ -4,21 +4,28 @@ package jetbrains.mps.baseLanguage.dates.behavior;
 
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
+import java.util.List;
+import org.jetbrains.mps.openapi.language.SConceptRepository;
+import jetbrains.mps.util.NameUtil;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import org.jetbrains.mps.openapi.language.SConcept;
+import java.util.ArrayList;
 
 public class DateTimeCompareOperation_Behavior {
   public static void init(SNode thisNode) {
   }
 
   public static boolean call_hasMillisPrecision_1213877526386(SNode thisNode) {
-    return DateTimeCompareOperation_Behavior.call_getDatetimeProperty_1213877526399(thisNode) == ListSequence.fromList(SLinkOperations.getConceptLinkTargets(thisNode, "defaultDatetimeProperty")).first();
+    return DateTimeCompareOperation_Behavior.call_getDatetimeProperty_1213877526399(thisNode) == ListSequence.fromList(BehaviorReflection.invokeVirtualStatic((Class<List<SNode>>) ((Class) Object.class), SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SNodeOperations.getConceptDeclaration(thisNode))), "virtual_getDefaultDatetimeProperty_3044950653914717067", new Object[]{})).first();
   }
 
   public static SNode call_getDatetimeProperty_1213877526399(SNode thisNode) {
     SNode property = SLinkOperations.getTarget(thisNode, "datetimeProperty", false);
     if ((property == null)) {
-      property = ListSequence.fromList(SLinkOperations.getConceptLinkTargets(thisNode, "defaultDatetimeProperty")).first();
+      property = ListSequence.fromList(BehaviorReflection.invokeVirtualStatic((Class<List<SNode>>) ((Class) Object.class), SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SNodeOperations.getConceptDeclaration(thisNode))), "virtual_getDefaultDatetimeProperty_3044950653914717067", new Object[]{})).first();
     }
     return property;
   }
@@ -45,5 +52,10 @@ public class DateTimeCompareOperation_Behavior {
 
   public static boolean call_isGE_1213877526473(SNode thisNode) {
     return SPropertyOperations.hasValue(thisNode, "compareType", "datetime greater or equals", "datetime equals");
+  }
+
+  public static List<SNode> virtual_getDefaultDatetimeProperty_3044950653914717067(SConcept thisConcept) {
+    List<SNode> result = ListSequence.fromList(new ArrayList<SNode>());
+    return result;
   }
 }

@@ -8,7 +8,6 @@ import java.util.ArrayList;
 
 public class Graph implements IGraph {
   private static int showInfo = 0;
-
   private GraphModificationProcessor myProcessor;
   private List<Node> myNodes;
   private int myNextNum;

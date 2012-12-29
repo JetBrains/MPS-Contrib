@@ -7,8 +7,11 @@ import java.util.List;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptPropertyOperations;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
+import org.jetbrains.mps.openapi.language.SConceptRepository;
+import jetbrains.mps.util.NameUtil;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import org.jetbrains.mps.openapi.language.SConcept;
 
 public class ContentList_Behavior {
   public static void init(SNode thisNode) {
@@ -32,7 +35,7 @@ public class ContentList_Behavior {
     }
     if (contentSize == 1) {
       SNode first = ListSequence.fromList(contents).first();
-      if (!(SConceptPropertyOperations.getBoolean(first, "isComplex")) && (ListSequence.fromList(SLinkOperations.getConceptLinkTargets(first, "correspondingElement")).first() == null)) {
+      if (!(BehaviorReflection.invokeVirtualStatic(Boolean.TYPE, SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SNodeOperations.getConceptDeclaration(first))), "virtual_isComplex_1262430001741498088", new Object[]{})) && (ListSequence.fromList(BehaviorReflection.invokeVirtualStatic((Class<List<SNode>>) ((Class) Object.class), SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SNodeOperations.getConceptDeclaration(first))), "virtual_getCorrespondingElement_3044950653914717088", new Object[]{})).first() == null)) {
         return true;
       }
     }
@@ -41,5 +44,9 @@ public class ContentList_Behavior {
       return ContentList_Behavior.call_isHorizontal_1221256530294(parentContentList);
     }
     return false;
+  }
+
+  public static boolean virtual_isComplex_1262430001741498088(SConcept thisConcept) {
+    return true;
   }
 }

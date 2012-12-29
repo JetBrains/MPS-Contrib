@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="jetbrains.mps.xml.tests" uuid="2f499867-d42a-4e31-a93d-33e16883e187" compileInMPS="true" generatorOutputPath="${solution_descriptor}/source_gen">
+<solution name="jetbrains.mps.xml.tests" uuid="2f499867-d42a-4e31-a93d-33e16883e187" compileInMPS="true" generatorOutputPath="${module}/source_gen">
   <models>
-    <modelRoot path="${solution_descriptor}/" />
-    <modelRoot path="${solution_descriptor}/classes_gen">
-      <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
+    <modelRoot contentPath="${module}" type="default">
+      <sourceRoot location="." />
     </modelRoot>
+    <modelRoot path="${module}/classes_gen" type="java_classes" />
   </models>
   <sourcePath />
   <dependencies>
@@ -13,7 +13,7 @@
   <usedLanguages>
     <usedLanguage>f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</usedLanguage>
     <usedLanguage>f61473f9-130f-42f6-b98d-6c438812c2f6(jetbrains.mps.baseLanguage.unitTest)</usedLanguage>
-    <usedLanguage>a8fdde77-2e6c-41f6-ac79-8e9b6449c271(jetbrains.mps.xmlQuery)</usedLanguage>
+    <usedLanguage>dcb5a83a-19a8-44ff-a4cb-fc7d324ecc63(jetbrains.mps.core.xml.sax)</usedLanguage>
   </usedLanguages>
 </solution>
 

@@ -42,7 +42,6 @@ public class RectLayoutTestPanel extends JPanel {
   private static final int DEFAULT_NODE_SIZE = 30;
   private static final int DEFAULT_EDGE_X_SIZE = 70;
   private static final int DEFAULT_EDGE_Y_SIZE = 35;
-
   private JTextArea myTextArea;
   private RectLayoutTestPanel.MyGraphLabel myGraphLabel;
   private RectOrthogonalLayouter myLayouter;

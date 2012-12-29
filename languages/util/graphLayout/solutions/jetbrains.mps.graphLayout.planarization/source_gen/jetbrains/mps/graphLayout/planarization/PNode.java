@@ -10,7 +10,6 @@ import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-
 /**
  * Implements p-node from pq-tree for graph planarization. Usually there are
  * six patterns for reduction of p-node. In this case we perform a special

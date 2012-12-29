@@ -4,7 +4,9 @@ package jetbrains.mps.buildlanguage.behavior;
 
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import org.jetbrains.mps.openapi.language.SConcept;
 
 public class PlusOperation_Behavior {
   public static void init(SNode thisNode) {
@@ -15,13 +17,13 @@ public class PlusOperation_Behavior {
     if ((SLinkOperations.getTarget(thisNode, "left", true) == null)) {
       left = "";
     } else {
-      left = PropertyValueExpression_Behavior.call_toString_1213877472569(SLinkOperations.getTarget(thisNode, "left", true));
+      left = BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(thisNode, "left", true), "virtual_toString_1213877472569", new Object[]{});
     }
     String right;
     if ((SLinkOperations.getTarget(thisNode, "right", true) == null)) {
       right = "";
     } else {
-      right = PropertyValueExpression_Behavior.call_toString_1213877472569(SLinkOperations.getTarget(thisNode, "right", true));
+      right = BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(thisNode, "right", true), "virtual_toString_1213877472569", new Object[]{});
     }
     return left + right;
   }
@@ -35,14 +37,18 @@ public class PlusOperation_Behavior {
     if ((SLinkOperations.getTarget(thisNode, "left", true) == null)) {
       left = "";
     } else {
-      left = PropertyValueExpression_Behavior.call_getActualValue_1213877472572(SLinkOperations.getTarget(thisNode, "left", true));
+      left = BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(thisNode, "left", true), "virtual_getActualValue_1213877472572", new Object[]{});
     }
     String right;
     if ((SLinkOperations.getTarget(thisNode, "right", true) == null)) {
       right = "";
     } else {
-      right = PropertyValueExpression_Behavior.call_getActualValue_1213877472572(SLinkOperations.getTarget(thisNode, "right", true));
+      right = BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(thisNode, "right", true), "virtual_getActualValue_1213877472572", new Object[]{});
     }
     return left + right;
+  }
+
+  public static String virtual_getOperation_1262430001741497840(SConcept thisConcept) {
+    return "+";
   }
 }

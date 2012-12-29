@@ -4,6 +4,7 @@ package jetbrains.mps.xmlQuery.behavior;
 
 import jetbrains.mps.baseLanguage.builders.behavior.Builder_BehaviorDescriptor;
 import jetbrains.mps.smodel.SNode;
+import org.jetbrains.mps.openapi.language.SConcept;
 
 public class TextBuilder_BehaviorDescriptor extends Builder_BehaviorDescriptor {
   public TextBuilder_BehaviorDescriptor() {
@@ -19,6 +20,10 @@ public class TextBuilder_BehaviorDescriptor extends Builder_BehaviorDescriptor {
 
   public SNode virtual_getResultType_7057666463730718251(SNode thisNode) {
     return TextBuilder_Behavior.virtual_getResultType_7057666463730718251(thisNode);
+  }
+
+  public boolean virtual_leaf_1262430001741498370(SConcept thisConcept) {
+    return TextBuilder_Behavior.virtual_leaf_1262430001741498370(thisConcept);
   }
 
   @Override

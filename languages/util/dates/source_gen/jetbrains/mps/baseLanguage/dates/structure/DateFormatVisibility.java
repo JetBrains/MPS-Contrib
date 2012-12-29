@@ -11,22 +11,12 @@ public enum DateFormatVisibility {
   PRIVATE("private", "private");
 
   private String myName;
-  private String myValue;
-
-  DateFormatVisibility(String name, String value) {
-    this.myName = name;
-    this.myValue = value;
-  }
 
   public String getName() {
     return this.myName;
   }
 
   public String getValueAsString() {
-    return this.myValue;
-  }
-
-  public String getValue() {
     return this.myValue;
   }
 
@@ -52,5 +42,16 @@ public enum DateFormatVisibility {
       return DateFormatVisibility.PRIVATE;
     }
     return DateFormatVisibility.getDefault();
+  }
+
+  private String myValue;
+
+  DateFormatVisibility(String name, String value) {
+    this.myName = name;
+    this.myValue = value;
+  }
+
+  public String getValue() {
+    return this.myValue;
   }
 }

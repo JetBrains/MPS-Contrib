@@ -24,7 +24,6 @@
     <classNode extendsClassName="jetbrains.mps.graphLayout.layeredLayout.ICoordinatePlacer" />
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.layeredLayout.BKCoordinatePlacer" file="BKCoordinatePlacer.java">
-    <classNode dependClassName="java.lang.Comparable" />
     <classNode dependClassName="java.lang.Integer" />
     <classNode dependClassName="java.lang.Math" />
     <classNode dependClassName="java.util.ArrayList" />
@@ -154,7 +153,6 @@
     <classNode extendsClassName="jetbrains.mps.graphLayout.graphLayout.IPointLayouter" />
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.layeredLayout.MedianLayerSorter" file="MedianLayerSorter.java">
-    <classNode dependClassName="java.lang.Comparable" />
     <classNode dependClassName="java.lang.Double" />
     <classNode dependClassName="java.lang.Integer" />
     <classNode dependClassName="java.util.ArrayList" />

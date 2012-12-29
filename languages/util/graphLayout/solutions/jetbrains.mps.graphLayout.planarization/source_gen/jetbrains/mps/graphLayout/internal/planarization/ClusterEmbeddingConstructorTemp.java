@@ -34,7 +34,6 @@ import jetbrains.mps.graphLayout.planarization.ShortestPathEmbeddingFinder;
 public class ClusterEmbeddingConstructorTemp {
   private static int debugMode = 1;
   private static int showInfo = 1;
-
   private ClusteredGraph myGraph;
   private Node myCluster;
   private Set<Node> myClusterNodes;

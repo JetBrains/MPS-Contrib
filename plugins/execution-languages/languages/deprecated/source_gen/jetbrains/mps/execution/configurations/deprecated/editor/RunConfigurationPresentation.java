@@ -5,7 +5,7 @@ package jetbrains.mps.execution.configurations.deprecated.editor;
 import jetbrains.mps.nodeEditor.AbstractCellProvider;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
-import jetbrains.mps.nodeEditor.EditorContext;
+import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
@@ -22,9 +22,10 @@ import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.project.IModule;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.util.MacrosUtil;
+import jetbrains.mps.util.MacrosFactory;
 import jetbrains.mps.vfs.FileSystem;
 import javax.swing.JComponent;
+import javax.swing.JLabel;
 import jetbrains.mps.ide.editor.util.EditorUtil;
 
 public class RunConfigurationPresentation extends AbstractCellProvider {
@@ -38,6 +39,12 @@ public class RunConfigurationPresentation extends AbstractCellProvider {
 
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_ltb2bm_a(editorContext, node);
+  }
+
+  @Deprecated
+  public EditorCell createEditorCell(jetbrains.mps.nodeEditor.EditorContext editorContext) {
+    // This method was added in MPS 3.0 for the compatibility with prev. generated code 
+    return createEditorCell((EditorContext) editorContext);
   }
 
   private EditorCell createAlternation_ltb2bm_b1a(EditorContext editorContext, SNode node) {
@@ -222,13 +229,17 @@ public class RunConfigurationPresentation extends AbstractCellProvider {
   private static boolean renderingCondition_ltb2bm_a1b0(SNode node, EditorContext editorContext, IScope scope) {
     String path = null;
     IModule module = SNodeOperations.getModel(node).getModelDescriptor().getModule();
-    if (module != null) {
-      path = MacrosUtil.expandPath(SPropertyOperations.getString(node, "iconPath"), module.getModuleFqName());
+    if (module != null && module.getDescriptorFile() != null) {
+      path = MacrosFactory.forModuleFile(module.getDescriptorFile()).expandPath(SPropertyOperations.getString(node, "iconPath"));
     }
     return path != null && FileSystem.getInstance().getFileByPath(path).exists();
   }
 
   private static JComponent _QueryFunction_JComponent_ltb2bm_a2b0(final SNode node, final EditorContext editorContext) {
+    IModule module = node.getModel().getModelDescriptor().getModule();
+    if (module == null || module.getDescriptorFile() == null) {
+      return new JLabel("Icon");
+    }
     return EditorUtil.createSelectIconButton(node, "iconPath", editorContext);
   }
 }

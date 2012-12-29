@@ -13,7 +13,7 @@ import jetbrains.mps.nodeEditor.style.Measure;
 import jetbrains.mps.nodeEditor.MPSColors;
 import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
 import jetbrains.mps.smodel.SNode;
-import jetbrains.mps.nodeEditor.EditorContext;
+import jetbrains.mps.openapi.editor.EditorContext;
 
 public class XmlStyle_StyleSheet {
   public static Style getXmlElement(final EditorCell cell) {
@@ -25,7 +25,7 @@ public class XmlStyle_StyleSheet {
           cell.getSNode()
         ), (cell == null ?
           null :
-          cell.getEditorContext()
+          cell.getContext()
         ));
       }
     });
@@ -45,7 +45,7 @@ public class XmlStyle_StyleSheet {
           cell.getSNode()
         ), (cell == null ?
           null :
-          cell.getEditorContext()
+          cell.getContext()
         ));
       }
     });
@@ -61,7 +61,7 @@ public class XmlStyle_StyleSheet {
           cell.getSNode()
         ), (cell == null ?
           null :
-          cell.getEditorContext()
+          cell.getContext()
         ));
       }
     });
@@ -88,7 +88,7 @@ public class XmlStyle_StyleSheet {
           cell.getSNode()
         ), (cell == null ?
           null :
-          cell.getEditorContext()
+          cell.getContext()
         ));
       }
     });
@@ -104,7 +104,7 @@ public class XmlStyle_StyleSheet {
           cell.getSNode()
         ), (cell == null ?
           null :
-          cell.getEditorContext()
+          cell.getContext()
         ));
       }
     });

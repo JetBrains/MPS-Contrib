@@ -16,7 +16,7 @@
     <classNode dependClassName="org.xml.sax.SAXParseException" />
     <classNode dependClassName="sax.AstChild" />
     <classNode dependClassName="sax.AstRoot" />
-    <classNode extendsClassName="jetbrains.mps.xmlQuery.runtime.XMLSAXHandler" />
+    <classNode extendsClassName="org.xml.sax.helpers.DefaultHandler" />
     <classNode extendsClassName="sax.ElementHandler" />
   </dependency>
   <dependency className="sax.testParser_Test" file="testParser_Test.java">

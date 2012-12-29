@@ -10,7 +10,6 @@ import java.util.ArrayList;
 
 public class PQTree {
   private static int SHOW_LOG = 0;
-
   private PQNode myRoot;
   private Node myNodeToMerge;
 

@@ -4,6 +4,7 @@ package jetbrains.mps.build.generictasks.behavior;
 
 import jetbrains.mps.buildlanguage.behavior.CallReference_BehaviorDescriptor;
 import jetbrains.mps.smodel.SNode;
+import org.jetbrains.mps.openapi.language.SConcept;
 import java.util.List;
 
 public class PathReference_BehaviorDescriptor extends CallReference_BehaviorDescriptor {
@@ -12,6 +13,10 @@ public class PathReference_BehaviorDescriptor extends CallReference_BehaviorDesc
 
   public String virtual_getActualValue_1213877472572(SNode thisNode) {
     return PathReference_Behavior.virtual_getActualValue_1213877472572(thisNode);
+  }
+
+  public String virtual_getCallName_1262430001741497852(SConcept thisConcept) {
+    return PathReference_Behavior.virtual_getCallName_1262430001741497852(thisConcept);
   }
 
   public List<String> virtual_getPaths_1213877276955(SNode thisNode) {

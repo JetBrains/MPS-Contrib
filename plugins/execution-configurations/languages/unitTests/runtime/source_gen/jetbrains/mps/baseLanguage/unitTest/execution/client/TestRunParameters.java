@@ -11,7 +11,6 @@ import jetbrains.mps.smodel.MPSModuleRepository;
 import jetbrains.mps.project.ModuleId;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 
-
 /**
  * ITestable instances only specify whether they need mps start or not; wrappers provide classpath for them
  */
@@ -61,9 +60,9 @@ public class TestRunParameters {
       return false;
     }
     TestRunParameters parameters = (TestRunParameters) obj;
-    boolean result = eq_mls2ap_a0a2a6(myTestRunner, parameters.myTestRunner);
-    result = result && eq_mls2ap_a0a0d0g(myVmParameters, parameters.myVmParameters);
-    result = result && eq_mls2ap_a0a0e0g(myClassPath, parameters.myClassPath);
+    boolean result = eq_mls2ap_a0a2a01(myTestRunner, parameters.myTestRunner);
+    result = result && eq_mls2ap_a0a0d0k(myVmParameters, parameters.myVmParameters);
+    result = result && eq_mls2ap_a0a0e0k(myClassPath, parameters.myClassPath);
     return result;
   }
 
@@ -71,21 +70,21 @@ public class TestRunParameters {
     return myTestRunner.hashCode() + myClassPath.hashCode() + myVmParameters.hashCode();
   }
 
-  private static boolean eq_mls2ap_a0a2a6(Object a, Object b) {
+  private static boolean eq_mls2ap_a0a2a01(Object a, Object b) {
     return (a != null ?
       a.equals(b) :
       a == b
     );
   }
 
-  private static boolean eq_mls2ap_a0a0d0g(Object a, Object b) {
+  private static boolean eq_mls2ap_a0a0d0k(Object a, Object b) {
     return (a != null ?
       a.equals(b) :
       a == b
     );
   }
 
-  private static boolean eq_mls2ap_a0a0e0g(Object a, Object b) {
+  private static boolean eq_mls2ap_a0a0e0k(Object a, Object b) {
     return (a != null ?
       a.equals(b) :
       a == b

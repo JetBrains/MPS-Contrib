@@ -17,9 +17,7 @@
     <orderEntry type="module" module-name="Closures-runtime" />
     <orderEntry type="module" module-name="kernel" />
     <orderEntry type="module" module-name="mps-workbench" />
-    <orderEntry type="library" name="Commons-lang" level="project" />
     <orderEntry type="module" module-name="generator-engine" />
-    <orderEntry type="library" name="Commons-logging" level="project" />
     <orderEntry type="library" name="JDOM" level="project" />
     <orderEntry type="library" name="Beansbinding" level="project" />
     <orderEntry type="module" module-name="uiLanguage-runtime" />
@@ -28,6 +26,7 @@
     <orderEntry type="module" module-name="execution-languages-library" />
     <orderEntry type="module" module-name="debugger-java-api" />
     <orderEntry type="module" module-name="execution-api" />
+    <orderEntry type="library" name="Log4j" level="project" />
   </component>
 </module>
 

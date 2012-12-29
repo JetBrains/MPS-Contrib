@@ -7,13 +7,11 @@ import java.util.Arrays;
 import jetbrains.mps.smodel.runtime.interpreted.BehaviorAspectInterpreted;
 
 public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor {
-  private static String[] stringSwitchCases_846f5o_a0a0a = new String[]{"jetbrains.mps.xml.structure.Attribute", "jetbrains.mps.xml.structure.CDATA", "jetbrains.mps.xml.structure.ComplexText", "jetbrains.mps.xml.structure.ContentList", "jetbrains.mps.xml.structure.Element", "jetbrains.mps.xml.structure.EntityReference", "jetbrains.mps.xml.structure.Text"};
-
   public BehaviorAspectDescriptor() {
   }
 
   public BehaviorDescriptor getDescriptor(String fqName) {
-    switch (Arrays.binarySearch(stringSwitchCases_846f5o_a0a0a, fqName)) {
+    switch (Arrays.binarySearch(stringSwitchCases_846f5o_a0a0b, fqName)) {
       case 6:
         return new Text_BehaviorDescriptor();
       case 2:
@@ -32,4 +30,6 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return BehaviorAspectInterpreted.getInstance().getDescriptor(fqName);
     }
   }
+
+  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"jetbrains.mps.xml.structure.Attribute", "jetbrains.mps.xml.structure.CDATA", "jetbrains.mps.xml.structure.ComplexText", "jetbrains.mps.xml.structure.ContentList", "jetbrains.mps.xml.structure.Element", "jetbrains.mps.xml.structure.EntityReference", "jetbrains.mps.xml.structure.Text"};
 }

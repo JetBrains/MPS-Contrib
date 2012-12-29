@@ -4,23 +4,23 @@ package jetbrains.mps.baseLanguage.dates.editor;
 
 import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
-import jetbrains.mps.nodeEditor.EditorContext;
+import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.smodel.SNode;
+import jetbrains.mps.nodeEditor.InlineCellProvider;
+import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
+import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
+import jetbrains.mps.smodel.IOperationContext;
+import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
 import jetbrains.mps.nodeEditor.MPSColors;
-import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
-import jetbrains.mps.smodel.IOperationContext;
-import jetbrains.mps.nodeEditor.EditorManager;
-import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.nodeEditor.MPSFonts;
 import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.nodeEditor.InlineCellProvider;
 
 public class PeriodPropertyFormatToken_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
@@ -29,6 +29,40 @@ public class PeriodPropertyFormatToken_Editor extends DefaultNodeEditor {
 
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
     return this.createCollection_ed1xw0_a_0(editorContext, node);
+  }
+
+  public static class _Inline_ed1xw0_a3a extends InlineCellProvider {
+    public _Inline_ed1xw0_a3a() {
+      super();
+    }
+
+    public EditorCell createEditorCell(EditorContext editorContext) {
+      return this.createEditorCell(editorContext, this.getSNode());
+    }
+
+    public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
+      return this.createProperty_ed1xw0_a0d0(editorContext, node);
+    }
+
+    private EditorCell createProperty_ed1xw0_a0d0(EditorContext editorContext, SNode node) {
+      CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
+      provider.setRole("pluralForm");
+      provider.setNoTargetText("<no pluralForm>");
+      provider.setReadOnly(true);
+      EditorCell editorCell;
+      editorCell = provider.createEditorCell(editorContext);
+      editorCell.setCellId("property_pluralForm");
+      Dates_StyleSheet.getDateFormat(editorCell).apply(editorCell);
+      editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
+      SNode attributeConcept = provider.getRoleAttribute();
+      Class attributeKind = provider.getRoleAttributeClass();
+      if (attributeConcept != null) {
+        IOperationContext opContext = editorContext.getOperationContext();
+        EditorManager manager = EditorManager.getInstanceFromContext(opContext);
+        return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
+      } else
+      return editorCell;
+    }
   }
 
   private EditorCell createCollection_ed1xw0_a(EditorContext editorContext, SNode node) {
@@ -556,11 +590,11 @@ public class PeriodPropertyFormatToken_Editor extends DefaultNodeEditor {
   }
 
   private static boolean renderingCondition_ed1xw0_a1b0(SNode node, EditorContext editorContext, IScope scope) {
-    return isNotEmpty_ed1xw0_a0a0a(SPropertyOperations.getString(node, "prefixPlural"));
+    return isNotEmpty_ed1xw0_a0a0mb(SPropertyOperations.getString(node, "prefixPlural"));
   }
 
   private static boolean renderingCondition_ed1xw0_a1a(SNode node, EditorContext editorContext, IScope scope) {
-    return isNotEmpty_ed1xw0_a0a0b(SPropertyOperations.getString(node, "prefix"));
+    return isNotEmpty_ed1xw0_a0a0nb(SPropertyOperations.getString(node, "prefix"));
   }
 
   private static boolean renderingCondition_ed1xw0_a2a(SNode node, EditorContext editorContext, IScope scope) {
@@ -572,60 +606,26 @@ public class PeriodPropertyFormatToken_Editor extends DefaultNodeEditor {
   }
 
   private static boolean renderingCondition_ed1xw0_a1f0(SNode node, EditorContext editorContext, IScope scope) {
-    return isNotEmpty_ed1xw0_a0a0e(SPropertyOperations.getString(node, "suffixPlural"));
+    return isNotEmpty_ed1xw0_a0a0qb(SPropertyOperations.getString(node, "suffixPlural"));
   }
 
   private static boolean renderingCondition_ed1xw0_a5a(SNode node, EditorContext editorContext, IScope scope) {
-    return isNotEmpty_ed1xw0_a0a0f(SPropertyOperations.getString(node, "suffix"));
+    return isNotEmpty_ed1xw0_a0a0rb(SPropertyOperations.getString(node, "suffix"));
   }
 
-  public static boolean isNotEmpty_ed1xw0_a0a0a(String str) {
+  public static boolean isNotEmpty_ed1xw0_a0a0mb(String str) {
     return str != null && str.length() > 0;
   }
 
-  public static boolean isNotEmpty_ed1xw0_a0a0b(String str) {
+  public static boolean isNotEmpty_ed1xw0_a0a0nb(String str) {
     return str != null && str.length() > 0;
   }
 
-  public static boolean isNotEmpty_ed1xw0_a0a0e(String str) {
+  public static boolean isNotEmpty_ed1xw0_a0a0qb(String str) {
     return str != null && str.length() > 0;
   }
 
-  public static boolean isNotEmpty_ed1xw0_a0a0f(String str) {
+  public static boolean isNotEmpty_ed1xw0_a0a0rb(String str) {
     return str != null && str.length() > 0;
-  }
-
-  public static class _Inline_ed1xw0_a3a extends InlineCellProvider {
-    public _Inline_ed1xw0_a3a() {
-      super();
-    }
-
-    public EditorCell createEditorCell(EditorContext editorContext) {
-      return this.createEditorCell(editorContext, this.getSNode());
-    }
-
-    public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-      return this.createProperty_ed1xw0_a0d0(editorContext, node);
-    }
-
-    private EditorCell createProperty_ed1xw0_a0d0(EditorContext editorContext, SNode node) {
-      CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
-      provider.setRole("pluralForm");
-      provider.setNoTargetText("<no pluralForm>");
-      provider.setReadOnly(true);
-      EditorCell editorCell;
-      editorCell = provider.createEditorCell(editorContext);
-      editorCell.setCellId("property_pluralForm");
-      Dates_StyleSheet.getDateFormat(editorCell).apply(editorCell);
-      editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
-      SNode attributeConcept = provider.getRoleAttribute();
-      Class attributeKind = provider.getRoleAttributeClass();
-      if (attributeConcept != null) {
-        IOperationContext opContext = editorContext.getOperationContext();
-        EditorManager manager = EditorManager.getInstanceFromContext(opContext);
-        return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
-      } else
-      return editorCell;
-    }
   }
 }
