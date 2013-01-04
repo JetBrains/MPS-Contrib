@@ -1332,9 +1332,9 @@
     <unitInfo nodeId="5251619021093068639" fileName="DateTypeUtil.java" startLine="24" startPosition="0" endLine="311" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.DateTypeUtil" />
   </root>
   <root nodeId="5581663871704498938" modelId="r:00000000-0000-4000-0000-011c895903ce(jetbrains.mps.baseLanguage.dates.behavior)">
-    <nodeInfo nodeId="5581663871704500956" fileName="PeriodPropertyFormatToken_Behavior.java" startLine="9" startPosition="43" endLine="10" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871704500956" fileName="PeriodPropertyFormatToken_Behavior.java" startLine="9" startPosition="43" endLine="10" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5581663871704498938" fileName="PeriodPropertyFormatToken_Behavior.java" startLine="8" startPosition="49" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
-    <scopeInfo nodeId="5581663871704498940" fileName="PeriodPropertyFormatToken_Behavior.java" startLine="9" startPosition="43" endLine="10" endPosition="59" />
+    <scopeInfo nodeId="5581663871704498940" fileName="PeriodPropertyFormatToken_Behavior.java" startLine="9" startPosition="43" endLine="10" endPosition="61" />
     <scopeInfo nodeId="5581663871704498938" fileName="PeriodPropertyFormatToken_Behavior.java" startLine="8" startPosition="49" endLine="12" endPosition="0">
       <varInfo nodeId="5581663871704498938" varName="thisNode" />
     </scopeInfo>

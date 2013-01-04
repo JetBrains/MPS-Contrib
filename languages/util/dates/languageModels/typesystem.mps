@@ -196,6 +196,9 @@
       <property name="name" nameId="tpck.1169194664001" value="check_ScheduleLiteral" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="constant.schedule" />
     </node>
+    <node type="tpd4.SubtypingRule" typeId="tpd4.1175147670730" id="2761855734069195927">
+      <property name="name" nameId="tpck.1169194664001" value="DateTimeZoneType_unboxing" />
+    </node>
   </roots>
   <root id="1178371373855">
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="1178371373856">
@@ -2646,6 +2649,21 @@
     <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="1015544890586322299">
       <property name="name" nameId="tpck.1169194664001" value="literal" />
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tp6x.1194003500823" resolveInfo="ScheduleLiteral" />
+    </node>
+  </root>
+  <root id="2761855734069195927">
+    <node role="body" roleId="tpd4.1175147624276" type="tpee.StatementList" typeId="tpee.1068580123136" id="2761855734069195928">
+      <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="2761855734069195933">
+        <node role="expression" roleId="tpee.1068580123156" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="2761855734069195934">
+          <node role="quotedNode" roleId="tp3r.1196350785114" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="2761855734069195937">
+            <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ojzd.~DateTimeZone" resolveInfo="DateTimeZone" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="2761855734069195930">
+      <property name="name" nameId="tpck.1169194664001" value="dateTimeZoneType" />
+      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tp6x.1238513516532" resolveInfo="DateTimeZoneType" />
     </node>
   </root>
 </model>

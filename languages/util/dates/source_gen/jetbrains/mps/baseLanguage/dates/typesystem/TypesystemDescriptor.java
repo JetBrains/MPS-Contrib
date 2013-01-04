@@ -184,6 +184,10 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
       this.mySubtypingRules.add(subtypingRule);
     }
     {
+      SubtypingRule_Runtime subtypingRule = new DateTimeZoneType_unboxing_SubtypingRule();
+      this.mySubtypingRules.add(subtypingRule);
+    }
+    {
       SubtypingRule_Runtime subtypingRule = new DurationType_boxing_SubtypingRule();
       this.mySubtypingRules.add(subtypingRule);
     }
