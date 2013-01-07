@@ -21,7 +21,16 @@
     </fileset>
   </path>
   
+  <path id="path.mps.ant.path">
+    <pathelement location="${mps_home}/lib/mps-backend.jar" />
+    <pathelement location="${mps_home}/lib/jdom.jar" />
+    <pathelement location="${mps_home}/lib/log4j.jar" />
+    <pathelement location="${mps_home}/lib/mps-core.jar" />
+  </path>
+  
   <taskdef name="javac2" classname="com.intellij.ant.Javac2" classpathref="path.javac2.classpath" />
+  
+  <taskdef name="mps.generate" classname="jetbrains.mps.build.ant.generation.GenerateTask" classpathref="path.mps.ant.path" />
   
   <target name="assemble" depends="classes">
     <mkdir dir="${build.layout}/plugins" />
@@ -402,5 +411,19 @@
     <copy todir="${build.tmp}/java/out/jetbrains.mps.xml.deprecated">
       <fileset dir="${mps_home}/plugins/mps-obsolete/languages/xmlDeprecated/source_gen" includes="**/*.properties, **/*.xml, **/*.html, **/*.png, **/*.txt, **/*.ico, **/*.zip, **/*.info" />
     </copy>
+  </target>
+  
+  <target name="generate">
+    <echo message="generating" />
+    <mps.generate parallelMode="true" fork="true">
+      <chunk>
+        <module file="${mps_home}/plugins/mps-obsolete/languages/xmlDeprecated/languageDescriptor.mpl" />
+      </chunk>
+      <chunk bootstrap="true">
+        <module file="${mps_home}/plugins/mps-obsolete/languages/generictasks/generictasks.mpl" bootstrap="true" />
+        <module file="${mps_home}/plugins/mps-obsolete/languages/property/property.mpl" bootstrap="true" />
+        <module file="${mps_home}/plugins/mps-obsolete/languages/buildlanguage/buildlanguage.mpl" bootstrap="true" />
+      </chunk>
+    </mps.generate>
   </target>
 </project>
