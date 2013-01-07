@@ -53,7 +53,7 @@ public class DateTimeZoneType_unboxing_SubtypingRule extends SubtypingRule_Runti
       {
         quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", null, GlobalScope.getInstance(), false);
         SNode quotedNode1_2 = quotedNode_1;
-        quotedNode1_2.addReference(SReference.create("classifier", quotedNode1_2, SModelReference.fromString("f:java_stub#2ebbb458-8ebb-481e-a5d7-9e27903323d4#org.joda.time(jetbrains.mps.baseLanguage.dates.runtime/org.joda.time@java_stub)"), SNodeId.fromString("~DateTimeZone")));
+        quotedNode1_2.addReference(SReference.create("classifier", quotedNode1_2, SModelReference.fromString("f:java_stub#2ebbb458-8ebb-481e-a5d7-9e27903323d4#org.joda.time(org.joda.time@java_stub)"), SNodeId.fromString("~DateTimeZone")));
         result = quotedNode1_2;
       }
       return result;
@@ -66,7 +66,7 @@ public class DateTimeZoneType_unboxing_SubtypingRule extends SubtypingRule_Runti
       {
         quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", null, GlobalScope.getInstance(), false);
         SNode quotedNode1_2 = quotedNode_1;
-        quotedNode1_2.addReference(SReference.create("classifier", quotedNode1_2, SModelReference.fromString("f:java_stub#2ebbb458-8ebb-481e-a5d7-9e27903323d4#org.joda.time(jetbrains.mps.baseLanguage.dates.runtime/org.joda.time@java_stub)"), SNodeId.fromString("~DateTimeZone")));
+        quotedNode1_2.addReference(SReference.create("classifier", quotedNode1_2, SModelReference.fromString("f:java_stub#2ebbb458-8ebb-481e-a5d7-9e27903323d4#org.joda.time(org.joda.time@java_stub)"), SNodeId.fromString("~DateTimeZone")));
         result = quotedNode1_2;
       }
       return result;
