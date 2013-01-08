@@ -50,7 +50,6 @@ public class TestPanel extends JPanel {
   private static int SCALE_X = 40;
   private static int SCALE_Y = 40;
   private static int NSIZE = 20;
-
   private JTextArea myTextArea;
   private TestPanel.MyGraphLabel myGraphLabel;
   private IPointLayouter myLayouter;

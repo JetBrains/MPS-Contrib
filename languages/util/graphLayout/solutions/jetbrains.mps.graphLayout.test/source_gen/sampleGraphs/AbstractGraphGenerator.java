@@ -7,7 +7,6 @@ import jetbrains.mps.graphLayout.graph.Graph;
 
 public abstract class AbstractGraphGenerator {
   private static final int MAX_ITERATIONS = 100;
-
   private int myNumNodes;
   private int myMinEdges;
   private int myMaxEdges;

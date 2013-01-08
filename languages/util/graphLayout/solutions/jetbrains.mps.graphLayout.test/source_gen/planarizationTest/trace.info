@@ -18,18 +18,18 @@
     <nodeInfo nodeId="2503771434357704711" fileName="CheckEmbeddedGraph.java" startLine="21" startPosition="69" endLine="24" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="3619822174190276492" fileName="CheckEmbeddedGraph.java" startLine="31" startPosition="71" endLine="34" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="4422427343208780867" fileName="CheckEmbeddedGraph.java" startLine="35" startPosition="64" endLine="38" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="5668095147007631916" fileName="CheckEmbeddedGraph.java" startLine="46" startPosition="114" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Ljetbrains/mps/graphLayout/planarGraph/Dart;)Ljetbrains/mps/graphLayout/graph/Node;" />
+    <nodeInfo nodeId="5668095147007631916" fileName="CheckEmbeddedGraph.java" startLine="47" startPosition="0" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Ljetbrains/mps/graphLayout/planarGraph/Dart;)Ljetbrains/mps/graphLayout/graph/Node;" />
     <nodeInfo nodeId="4136567681074561346" fileName="CheckEmbeddedGraph.java" startLine="58" startPosition="82" endLine="62" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="2503771434357704705" fileName="CheckEmbeddedGraph.java" startLine="20" startPosition="73" endLine="25" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="4422427343208780857" fileName="CheckEmbeddedGraph.java" startLine="34" startPosition="7" endLine="39" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="5668095147007631902" fileName="CheckEmbeddedGraph.java" startLine="45" startPosition="69" endLine="50" endPosition="12" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5488345258545698117" fileName="CheckEmbeddedGraph.java" startLine="57" startPosition="61" endLine="64" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="1123934034178616903" fileName="CheckEmbeddedGraph.java" startLine="19" startPosition="33" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="checkAdjacentFaces#(Ljetbrains/mps/graphLayout/planarGraph/EmbeddedGraph;)Z" />
+    <nodeInfo nodeId="1123934034178616903" fileName="CheckEmbeddedGraph.java" startLine="20" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="checkAdjacentFaces#(Ljetbrains/mps/graphLayout/planarGraph/EmbeddedGraph;)Z" />
+    <nodeInfo nodeId="5488345258545698111" fileName="CheckEmbeddedGraph.java" startLine="57" startPosition="0" endLine="66" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="checkFull#(Ljetbrains/mps/graphLayout/planarGraph/EmbeddedGraph;)V" />
     <nodeInfo nodeId="3619822174190276486" fileName="CheckEmbeddedGraph.java" startLine="30" startPosition="38" endLine="40" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="5488345258545698111" fileName="CheckEmbeddedGraph.java" startLine="56" startPosition="0" endLine="66" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="checkFull#(Ljetbrains/mps/graphLayout/planarGraph/EmbeddedGraph;)V" />
     <nodeInfo nodeId="5668095147007631869" fileName="CheckEmbeddedGraph.java" startLine="42" startPosition="54" endLine="53" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="5668095147007631837" fileName="CheckEmbeddedGraph.java" startLine="40" startPosition="5" endLine="54" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="3619822174190276479" fileName="CheckEmbeddedGraph.java" startLine="28" startPosition="0" endLine="56" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="checkEmbeddedGraph#(Ljetbrains/mps/graphLayout/planarGraph/EmbeddedGraph;Z)V" />
+    <nodeInfo nodeId="3619822174190276479" fileName="CheckEmbeddedGraph.java" startLine="29" startPosition="0" endLine="56" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="checkEmbeddedGraph#(Ljetbrains/mps/graphLayout/planarGraph/EmbeddedGraph;Z)V" />
     <scopeInfo nodeId="2503771434357704712" fileName="CheckEmbeddedGraph.java" startLine="22" startPosition="85" endLine="23" endPosition="21" />
     <scopeInfo nodeId="3619822174190276496" fileName="CheckEmbeddedGraph.java" startLine="32" startPosition="111" endLine="33" endPosition="56" />
     <scopeInfo nodeId="4422427343208780869" fileName="CheckEmbeddedGraph.java" startLine="36" startPosition="50" endLine="37" endPosition="58" />
@@ -39,42 +39,42 @@
     </scopeInfo>
     <scopeInfo nodeId="2503771434357704710" fileName="CheckEmbeddedGraph.java" startLine="21" startPosition="69" endLine="24" endPosition="7" />
     <scopeInfo nodeId="4422427343208780860" fileName="CheckEmbeddedGraph.java" startLine="35" startPosition="64" endLine="38" endPosition="9" />
-    <scopeInfo nodeId="5668095147007631916" fileName="CheckEmbeddedGraph.java" startLine="46" startPosition="114" endLine="50" endPosition="0">
+    <scopeInfo nodeId="5668095147007631916" fileName="CheckEmbeddedGraph.java" startLine="47" startPosition="0" endLine="50" endPosition="0">
       <varInfo nodeId="5668095147007631916" varName="it" />
     </scopeInfo>
     <scopeInfo nodeId="2503771434357704705" fileName="CheckEmbeddedGraph.java" startLine="20" startPosition="73" endLine="25" endPosition="5">
-      <varInfo nodeId="2503771434357704705" varName="edge" />
+      <varInfo nodeId="2503771434357704706" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="4422427343208780857" fileName="CheckEmbeddedGraph.java" startLine="34" startPosition="7" endLine="39" endPosition="7">
-      <varInfo nodeId="4422427343208780857" varName="dart" />
+      <varInfo nodeId="4422427343208780858" varName="dart" />
     </scopeInfo>
     <scopeInfo nodeId="5488345258545698120" fileName="CheckEmbeddedGraph.java" startLine="58" startPosition="82" endLine="63" endPosition="70" />
     <scopeInfo nodeId="1123934034178616906" fileName="CheckEmbeddedGraph.java" startLine="20" startPosition="73" endLine="26" endPosition="16" />
     <scopeInfo nodeId="5488345258545698114" fileName="CheckEmbeddedGraph.java" startLine="57" startPosition="61" endLine="64" endPosition="5" />
     <scopeInfo nodeId="5488345258545698117" fileName="CheckEmbeddedGraph.java" startLine="57" startPosition="61" endLine="64" endPosition="5">
-      <varInfo nodeId="5488345258545698117" varName="edge" />
+      <varInfo nodeId="5488345258545698118" varName="edge" />
     </scopeInfo>
-    <scopeInfo nodeId="3619822174190276491" fileName="CheckEmbeddedGraph.java" startLine="31" startPosition="71" endLine="39" endPosition="7" />
-    <scopeInfo nodeId="1123934034178616903" fileName="CheckEmbeddedGraph.java" startLine="19" startPosition="33" endLine="28" endPosition="0">
+    <scopeInfo nodeId="1123934034178616903" fileName="CheckEmbeddedGraph.java" startLine="20" startPosition="0" endLine="28" endPosition="0">
       <varInfo nodeId="1123934034178616908" varName="embeddedGraph" />
     </scopeInfo>
+    <scopeInfo nodeId="3619822174190276491" fileName="CheckEmbeddedGraph.java" startLine="31" startPosition="71" endLine="39" endPosition="7" />
     <scopeInfo nodeId="5668095147007631870" fileName="CheckEmbeddedGraph.java" startLine="43" startPosition="26" endLine="52" endPosition="83">
       <varInfo nodeId="5668095147007631893" varName="sources" />
     </scopeInfo>
-    <scopeInfo nodeId="3619822174190276486" fileName="CheckEmbeddedGraph.java" startLine="30" startPosition="38" endLine="40" endPosition="5">
-      <varInfo nodeId="3619822174190276486" varName="face" />
-    </scopeInfo>
-    <scopeInfo nodeId="5488345258545698111" fileName="CheckEmbeddedGraph.java" startLine="56" startPosition="0" endLine="66" endPosition="0">
+    <scopeInfo nodeId="5488345258545698111" fileName="CheckEmbeddedGraph.java" startLine="57" startPosition="0" endLine="66" endPosition="0">
       <varInfo nodeId="5488345258545698115" varName="embeddedGraph" />
+    </scopeInfo>
+    <scopeInfo nodeId="3619822174190276486" fileName="CheckEmbeddedGraph.java" startLine="30" startPosition="38" endLine="40" endPosition="5">
+      <varInfo nodeId="3619822174190276487" varName="face" />
     </scopeInfo>
     <scopeInfo nodeId="5668095147007631840" fileName="CheckEmbeddedGraph.java" startLine="41" startPosition="82" endLine="53" endPosition="7">
       <varInfo nodeId="5668095147007631861" varName="darts" />
     </scopeInfo>
     <scopeInfo nodeId="5668095147007631837" fileName="CheckEmbeddedGraph.java" startLine="40" startPosition="5" endLine="54" endPosition="5">
-      <varInfo nodeId="5668095147007631837" varName="edge" />
+      <varInfo nodeId="5668095147007631838" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="3619822174190276482" fileName="CheckEmbeddedGraph.java" startLine="29" startPosition="94" endLine="54" endPosition="5" />
-    <scopeInfo nodeId="3619822174190276479" fileName="CheckEmbeddedGraph.java" startLine="28" startPosition="0" endLine="56" endPosition="0">
+    <scopeInfo nodeId="3619822174190276479" fileName="CheckEmbeddedGraph.java" startLine="29" startPosition="0" endLine="56" endPosition="0">
       <varInfo nodeId="3619822174190276503" varName="embeddedGraph" />
       <varInfo nodeId="9047589280051482506" varName="isRegularFaces" />
     </scopeInfo>
@@ -94,12 +94,12 @@
     <nodeInfo nodeId="1327612371813266069" fileName="BiconnectedInitialEmbeddingFinder_Test.java" startLine="35" startPosition="137" endLine="36" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1327612371813215610" fileName="BiconnectedInitialEmbeddingFinder_Test.java" startLine="39" startPosition="33" endLine="40" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1327612371813215629" fileName="BiconnectedInitialEmbeddingFinder_Test.java" startLine="40" startPosition="86" endLine="41" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1327612371813215642" fileName="BiconnectedInitialEmbeddingFinder_Test.java" startLine="13" startPosition="70" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_cycle#()V" />
-    <nodeInfo nodeId="1327612371813217404" fileName="BiconnectedInitialEmbeddingFinder_Test.java" startLine="18" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" />
-    <nodeInfo nodeId="1327612371813255017" fileName="BiconnectedInitialEmbeddingFinder_Test.java" startLine="23" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_K5#()V" />
-    <nodeInfo nodeId="1327612371813255021" fileName="BiconnectedInitialEmbeddingFinder_Test.java" startLine="28" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_K3_3#()V" />
-    <nodeInfo nodeId="1327612371813266061" fileName="BiconnectedInitialEmbeddingFinder_Test.java" startLine="33" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_BookGraph#()V" />
-    <nodeInfo nodeId="1327612371813215602" fileName="BiconnectedInitialEmbeddingFinder_Test.java" startLine="38" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljetbrains/mps/graphLayout/graph/Graph;)V" />
+    <nodeInfo nodeId="1327612371813215642" fileName="BiconnectedInitialEmbeddingFinder_Test.java" startLine="14" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_cycle#()V" />
+    <nodeInfo nodeId="1327612371813217404" fileName="BiconnectedInitialEmbeddingFinder_Test.java" startLine="19" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" />
+    <nodeInfo nodeId="1327612371813255017" fileName="BiconnectedInitialEmbeddingFinder_Test.java" startLine="24" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_K5#()V" />
+    <nodeInfo nodeId="1327612371813255021" fileName="BiconnectedInitialEmbeddingFinder_Test.java" startLine="29" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_K3_3#()V" />
+    <nodeInfo nodeId="1327612371813266061" fileName="BiconnectedInitialEmbeddingFinder_Test.java" startLine="34" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_BookGraph#()V" />
+    <nodeInfo nodeId="1327612371813215602" fileName="BiconnectedInitialEmbeddingFinder_Test.java" startLine="39" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljetbrains/mps/graphLayout/graph/Graph;)V" />
     <scopeInfo nodeId="1327612371813215645" fileName="BiconnectedInitialEmbeddingFinder_Test.java" startLine="14" startPosition="45" endLine="16" endPosition="16">
       <varInfo nodeId="1327612371813215649" varName="cycle" />
     </scopeInfo>
@@ -118,12 +118,12 @@
     <scopeInfo nodeId="1327612371813215605" fileName="BiconnectedInitialEmbeddingFinder_Test.java" startLine="39" startPosition="33" endLine="41" endPosition="63">
       <varInfo nodeId="1327612371813215611" varName="embeddedGraph" />
     </scopeInfo>
-    <scopeInfo nodeId="1327612371813215642" fileName="BiconnectedInitialEmbeddingFinder_Test.java" startLine="13" startPosition="70" endLine="18" endPosition="0" />
-    <scopeInfo nodeId="1327612371813217404" fileName="BiconnectedInitialEmbeddingFinder_Test.java" startLine="18" startPosition="0" endLine="23" endPosition="0" />
-    <scopeInfo nodeId="1327612371813255017" fileName="BiconnectedInitialEmbeddingFinder_Test.java" startLine="23" startPosition="0" endLine="28" endPosition="0" />
-    <scopeInfo nodeId="1327612371813255021" fileName="BiconnectedInitialEmbeddingFinder_Test.java" startLine="28" startPosition="0" endLine="33" endPosition="0" />
-    <scopeInfo nodeId="1327612371813266061" fileName="BiconnectedInitialEmbeddingFinder_Test.java" startLine="33" startPosition="0" endLine="38" endPosition="0" />
-    <scopeInfo nodeId="1327612371813215602" fileName="BiconnectedInitialEmbeddingFinder_Test.java" startLine="38" startPosition="0" endLine="43" endPosition="0">
+    <scopeInfo nodeId="1327612371813215642" fileName="BiconnectedInitialEmbeddingFinder_Test.java" startLine="14" startPosition="0" endLine="18" endPosition="0" />
+    <scopeInfo nodeId="1327612371813217404" fileName="BiconnectedInitialEmbeddingFinder_Test.java" startLine="19" startPosition="0" endLine="23" endPosition="0" />
+    <scopeInfo nodeId="1327612371813255017" fileName="BiconnectedInitialEmbeddingFinder_Test.java" startLine="24" startPosition="0" endLine="28" endPosition="0" />
+    <scopeInfo nodeId="1327612371813255021" fileName="BiconnectedInitialEmbeddingFinder_Test.java" startLine="29" startPosition="0" endLine="33" endPosition="0" />
+    <scopeInfo nodeId="1327612371813266061" fileName="BiconnectedInitialEmbeddingFinder_Test.java" startLine="34" startPosition="0" endLine="38" endPosition="0" />
+    <scopeInfo nodeId="1327612371813215602" fileName="BiconnectedInitialEmbeddingFinder_Test.java" startLine="39" startPosition="0" endLine="43" endPosition="0">
       <varInfo nodeId="1327612371813215606" varName="graph" />
     </scopeInfo>
     <unitInfo nodeId="1327612371813215595" fileName="BiconnectedInitialEmbeddingFinder_Test.java" startLine="13" startPosition="0" endLine="44" endPosition="0" unitName="planarizationTest.BiconnectedInitialEmbeddingFinder_Test" />
@@ -148,14 +148,14 @@
     <nodeInfo nodeId="5488345258545698157" fileName="ShortestPathEmbeddingFinder_Test.java" startLine="53" startPosition="35" endLine="54" endPosition="107" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="5488345258545698167" fileName="ShortestPathEmbeddingFinder_Test.java" startLine="54" startPosition="107" endLine="55" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5488345258545698170" fileName="ShortestPathEmbeddingFinder_Test.java" startLine="55" startPosition="63" endLine="56" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1327612371813258752" fileName="ShortestPathEmbeddingFinder_Test.java" startLine="15" startPosition="64" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_cycle#()V" />
-    <nodeInfo nodeId="1327612371813258764" fileName="ShortestPathEmbeddingFinder_Test.java" startLine="20" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" />
-    <nodeInfo nodeId="1327612371813258778" fileName="ShortestPathEmbeddingFinder_Test.java" startLine="25" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_K5#()V" />
-    <nodeInfo nodeId="1327612371813260419" fileName="ShortestPathEmbeddingFinder_Test.java" startLine="30" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_BookGraph#()V" />
-    <nodeInfo nodeId="1327612371813258792" fileName="ShortestPathEmbeddingFinder_Test.java" startLine="35" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_K3_3#()V" />
-    <nodeInfo nodeId="5488345258545698178" fileName="ShortestPathEmbeddingFinder_Test.java" startLine="40" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test2#()V" />
-    <nodeInfo nodeId="1327612371813258710" fileName="ShortestPathEmbeddingFinder_Test.java" startLine="46" startPosition="0" endLine="52" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljetbrains/mps/graphLayout/graph/Graph;)V" />
-    <nodeInfo nodeId="5488345258545698145" fileName="ShortestPathEmbeddingFinder_Test.java" startLine="52" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="testPQ#(Ljetbrains/mps/graphLayout/graph/Graph;)V" />
+    <nodeInfo nodeId="1327612371813258752" fileName="ShortestPathEmbeddingFinder_Test.java" startLine="16" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_cycle#()V" />
+    <nodeInfo nodeId="1327612371813258764" fileName="ShortestPathEmbeddingFinder_Test.java" startLine="21" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" />
+    <nodeInfo nodeId="1327612371813258778" fileName="ShortestPathEmbeddingFinder_Test.java" startLine="26" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_K5#()V" />
+    <nodeInfo nodeId="1327612371813260419" fileName="ShortestPathEmbeddingFinder_Test.java" startLine="31" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_BookGraph#()V" />
+    <nodeInfo nodeId="1327612371813258792" fileName="ShortestPathEmbeddingFinder_Test.java" startLine="36" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_K3_3#()V" />
+    <nodeInfo nodeId="5488345258545698178" fileName="ShortestPathEmbeddingFinder_Test.java" startLine="41" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test2#()V" />
+    <nodeInfo nodeId="1327612371813258710" fileName="ShortestPathEmbeddingFinder_Test.java" startLine="47" startPosition="0" endLine="52" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljetbrains/mps/graphLayout/graph/Graph;)V" />
+    <nodeInfo nodeId="5488345258545698145" fileName="ShortestPathEmbeddingFinder_Test.java" startLine="53" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="testPQ#(Ljetbrains/mps/graphLayout/graph/Graph;)V" />
     <scopeInfo nodeId="1327612371813258755" fileName="ShortestPathEmbeddingFinder_Test.java" startLine="16" startPosition="45" endLine="18" endPosition="16">
       <varInfo nodeId="1327612371813258757" varName="cycle" />
     </scopeInfo>
@@ -181,16 +181,16 @@
     <scopeInfo nodeId="5488345258545698148" fileName="ShortestPathEmbeddingFinder_Test.java" startLine="53" startPosition="35" endLine="56" endPosition="48">
       <varInfo nodeId="5488345258545698158" varName="embeddedGraph" />
     </scopeInfo>
-    <scopeInfo nodeId="1327612371813258752" fileName="ShortestPathEmbeddingFinder_Test.java" startLine="15" startPosition="64" endLine="20" endPosition="0" />
-    <scopeInfo nodeId="1327612371813258764" fileName="ShortestPathEmbeddingFinder_Test.java" startLine="20" startPosition="0" endLine="25" endPosition="0" />
-    <scopeInfo nodeId="1327612371813258778" fileName="ShortestPathEmbeddingFinder_Test.java" startLine="25" startPosition="0" endLine="30" endPosition="0" />
-    <scopeInfo nodeId="1327612371813260419" fileName="ShortestPathEmbeddingFinder_Test.java" startLine="30" startPosition="0" endLine="35" endPosition="0" />
-    <scopeInfo nodeId="1327612371813258792" fileName="ShortestPathEmbeddingFinder_Test.java" startLine="35" startPosition="0" endLine="40" endPosition="0" />
-    <scopeInfo nodeId="5488345258545698178" fileName="ShortestPathEmbeddingFinder_Test.java" startLine="40" startPosition="0" endLine="46" endPosition="0" />
-    <scopeInfo nodeId="1327612371813258710" fileName="ShortestPathEmbeddingFinder_Test.java" startLine="46" startPosition="0" endLine="52" endPosition="0">
+    <scopeInfo nodeId="1327612371813258752" fileName="ShortestPathEmbeddingFinder_Test.java" startLine="16" startPosition="0" endLine="20" endPosition="0" />
+    <scopeInfo nodeId="1327612371813258764" fileName="ShortestPathEmbeddingFinder_Test.java" startLine="21" startPosition="0" endLine="25" endPosition="0" />
+    <scopeInfo nodeId="1327612371813258778" fileName="ShortestPathEmbeddingFinder_Test.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
+    <scopeInfo nodeId="1327612371813260419" fileName="ShortestPathEmbeddingFinder_Test.java" startLine="31" startPosition="0" endLine="35" endPosition="0" />
+    <scopeInfo nodeId="1327612371813258792" fileName="ShortestPathEmbeddingFinder_Test.java" startLine="36" startPosition="0" endLine="40" endPosition="0" />
+    <scopeInfo nodeId="5488345258545698178" fileName="ShortestPathEmbeddingFinder_Test.java" startLine="41" startPosition="0" endLine="46" endPosition="0" />
+    <scopeInfo nodeId="1327612371813258710" fileName="ShortestPathEmbeddingFinder_Test.java" startLine="47" startPosition="0" endLine="52" endPosition="0">
       <varInfo nodeId="1327612371813258714" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="5488345258545698145" fileName="ShortestPathEmbeddingFinder_Test.java" startLine="52" startPosition="0" endLine="58" endPosition="0">
+    <scopeInfo nodeId="5488345258545698145" fileName="ShortestPathEmbeddingFinder_Test.java" startLine="53" startPosition="0" endLine="58" endPosition="0">
       <varInfo nodeId="5488345258545698149" varName="graph" />
     </scopeInfo>
     <unitInfo nodeId="1327612371813258703" fileName="ShortestPathEmbeddingFinder_Test.java" startLine="15" startPosition="0" endLine="59" endPosition="0" unitName="planarizationTest.ShortestPathEmbeddingFinder_Test" />
@@ -206,7 +206,7 @@
     <nodeInfo nodeId="1646208389854266582" fileName="CheckFace.java" startLine="15" startPosition="32" endLine="18" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="1646208389854266607" fileName="CheckFace.java" startLine="20" startPosition="87" endLine="23" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="1646208389854265529" fileName="CheckFace.java" startLine="13" startPosition="39" endLine="24" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="1646208389854262562" fileName="CheckFace.java" startLine="11" startPosition="24" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="check#(Ljetbrains/mps/graphLayout/planarGraph/Face;)Z" />
+    <nodeInfo nodeId="1646208389854262562" fileName="CheckFace.java" startLine="12" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="check#(Ljetbrains/mps/graphLayout/planarGraph/Face;)Z" />
     <scopeInfo nodeId="1646208389854266583" fileName="CheckFace.java" startLine="16" startPosition="68" endLine="17" endPosition="22" />
     <scopeInfo nodeId="1646208389854266608" fileName="CheckFace.java" startLine="21" startPosition="36" endLine="22" endPosition="21" />
     <scopeInfo nodeId="1646208389854265531" fileName="CheckFace.java" startLine="14" startPosition="80" endLine="23" endPosition="7">
@@ -220,7 +220,7 @@
     <scopeInfo nodeId="1646208389854262565" fileName="CheckFace.java" startLine="12" startPosition="42" endLine="25" endPosition="16">
       <varInfo nodeId="1646208389854266565" varName="darts" />
     </scopeInfo>
-    <scopeInfo nodeId="1646208389854262562" fileName="CheckFace.java" startLine="11" startPosition="24" endLine="27" endPosition="0">
+    <scopeInfo nodeId="1646208389854262562" fileName="CheckFace.java" startLine="12" startPosition="0" endLine="27" endPosition="0">
       <varInfo nodeId="1646208389854262567" varName="face" />
     </scopeInfo>
     <unitInfo nodeId="1646208389854262552" fileName="CheckFace.java" startLine="11" startPosition="0" endLine="28" endPosition="0" unitName="planarizationTest.CheckFace" />
@@ -241,13 +241,13 @@
     <nodeInfo nodeId="4179389957059017833" fileName="TreeEmbeddingFinder_Find_Test.java" startLine="44" startPosition="33" endLine="45" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="4179389957059017838" fileName="TreeEmbeddingFinder_Find_Test.java" startLine="45" startPosition="68" endLine="46" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="6105852918337338253" fileName="TreeEmbeddingFinder_Find_Test.java" startLine="46" startPosition="62" endLine="47" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4179389957059017892" fileName="TreeEmbeddingFinder_Find_Test.java" startLine="13" startPosition="61" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_triangle#()V" />
-    <nodeInfo nodeId="4179389957059018965" fileName="TreeEmbeddingFinder_Find_Test.java" startLine="18" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" />
-    <nodeInfo nodeId="4179389957059020616" fileName="TreeEmbeddingFinder_Find_Test.java" startLine="23" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test2#()V" />
-    <nodeInfo nodeId="1123934034178609164" fileName="TreeEmbeddingFinder_Find_Test.java" startLine="28" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_K5#()V" />
-    <nodeInfo nodeId="1123934034178617226" fileName="TreeEmbeddingFinder_Find_Test.java" startLine="33" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_K3_3#()V" />
-    <nodeInfo nodeId="1327612371813210182" fileName="TreeEmbeddingFinder_Find_Test.java" startLine="38" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_BookGraph#()V" />
-    <nodeInfo nodeId="4179389957059017829" fileName="TreeEmbeddingFinder_Find_Test.java" startLine="43" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljetbrains/mps/graphLayout/graph/Graph;)V" />
+    <nodeInfo nodeId="4179389957059017892" fileName="TreeEmbeddingFinder_Find_Test.java" startLine="14" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_triangle#()V" />
+    <nodeInfo nodeId="4179389957059018965" fileName="TreeEmbeddingFinder_Find_Test.java" startLine="19" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" />
+    <nodeInfo nodeId="4179389957059020616" fileName="TreeEmbeddingFinder_Find_Test.java" startLine="24" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test2#()V" />
+    <nodeInfo nodeId="1123934034178609164" fileName="TreeEmbeddingFinder_Find_Test.java" startLine="29" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_K5#()V" />
+    <nodeInfo nodeId="1123934034178617226" fileName="TreeEmbeddingFinder_Find_Test.java" startLine="34" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_K3_3#()V" />
+    <nodeInfo nodeId="1327612371813210182" fileName="TreeEmbeddingFinder_Find_Test.java" startLine="39" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_BookGraph#()V" />
+    <nodeInfo nodeId="4179389957059017829" fileName="TreeEmbeddingFinder_Find_Test.java" startLine="44" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljetbrains/mps/graphLayout/graph/Graph;)V" />
     <scopeInfo nodeId="4179389957059017895" fileName="TreeEmbeddingFinder_Find_Test.java" startLine="14" startPosition="48" endLine="16" endPosition="16">
       <varInfo nodeId="4179389957059017899" varName="graph" />
     </scopeInfo>
@@ -270,13 +270,13 @@
       <varInfo nodeId="4179389957059017839" varName="embeddedGraph" />
       <varInfo nodeId="4179389957059017834" varName="embeddingFinder" />
     </scopeInfo>
-    <scopeInfo nodeId="4179389957059017892" fileName="TreeEmbeddingFinder_Find_Test.java" startLine="13" startPosition="61" endLine="18" endPosition="0" />
-    <scopeInfo nodeId="4179389957059018965" fileName="TreeEmbeddingFinder_Find_Test.java" startLine="18" startPosition="0" endLine="23" endPosition="0" />
-    <scopeInfo nodeId="4179389957059020616" fileName="TreeEmbeddingFinder_Find_Test.java" startLine="23" startPosition="0" endLine="28" endPosition="0" />
-    <scopeInfo nodeId="1123934034178609164" fileName="TreeEmbeddingFinder_Find_Test.java" startLine="28" startPosition="0" endLine="33" endPosition="0" />
-    <scopeInfo nodeId="1123934034178617226" fileName="TreeEmbeddingFinder_Find_Test.java" startLine="33" startPosition="0" endLine="38" endPosition="0" />
-    <scopeInfo nodeId="1327612371813210182" fileName="TreeEmbeddingFinder_Find_Test.java" startLine="38" startPosition="0" endLine="43" endPosition="0" />
-    <scopeInfo nodeId="4179389957059017829" fileName="TreeEmbeddingFinder_Find_Test.java" startLine="43" startPosition="0" endLine="49" endPosition="0">
+    <scopeInfo nodeId="4179389957059017892" fileName="TreeEmbeddingFinder_Find_Test.java" startLine="14" startPosition="0" endLine="18" endPosition="0" />
+    <scopeInfo nodeId="4179389957059018965" fileName="TreeEmbeddingFinder_Find_Test.java" startLine="19" startPosition="0" endLine="23" endPosition="0" />
+    <scopeInfo nodeId="4179389957059020616" fileName="TreeEmbeddingFinder_Find_Test.java" startLine="24" startPosition="0" endLine="28" endPosition="0" />
+    <scopeInfo nodeId="1123934034178609164" fileName="TreeEmbeddingFinder_Find_Test.java" startLine="29" startPosition="0" endLine="33" endPosition="0" />
+    <scopeInfo nodeId="1123934034178617226" fileName="TreeEmbeddingFinder_Find_Test.java" startLine="34" startPosition="0" endLine="38" endPosition="0" />
+    <scopeInfo nodeId="1327612371813210182" fileName="TreeEmbeddingFinder_Find_Test.java" startLine="39" startPosition="0" endLine="43" endPosition="0" />
+    <scopeInfo nodeId="4179389957059017829" fileName="TreeEmbeddingFinder_Find_Test.java" startLine="44" startPosition="0" endLine="49" endPosition="0">
       <varInfo nodeId="4179389957059017867" varName="graph" />
     </scopeInfo>
     <unitInfo nodeId="4179389957059017814" fileName="TreeEmbeddingFinder_Find_Test.java" startLine="13" startPosition="0" endLine="50" endPosition="0" unitName="planarizationTest.TreeEmbeddingFinder_Find_Test" />
@@ -317,8 +317,8 @@
     <nodeInfo nodeId="4422427343208744213" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="75" startPosition="86" endLine="76" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4422427343208741484" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="41" startPosition="79" endLine="44" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="4422427343208741498" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="44" startPosition="7" endLine="47" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="4422427343208741833" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="23" startPosition="65" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" />
-    <nodeInfo nodeId="4422427343208756659" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="29" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test2#()V" />
+    <nodeInfo nodeId="4422427343208741833" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="24" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" />
+    <nodeInfo nodeId="4422427343208756659" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="30" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test2#()V" />
     <nodeInfo nodeId="4422427343208741737" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="59" startPosition="134" endLine="65" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
     <nodeInfo nodeId="4422427343208744147" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="71" startPosition="134" endLine="77" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
     <nodeInfo nodeId="4422427343208741646" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="55" startPosition="136" endLine="66" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
@@ -326,7 +326,7 @@
     <nodeInfo nodeId="4422427343208741588" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="53" startPosition="12" endLine="79" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="4422427343208741557" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="50" startPosition="94" endLine="79" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="4422427343208741441" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="37" startPosition="43" endLine="80" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="4422427343208741428" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="35" startPosition="0" endLine="82" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljetbrains/mps/graphLayout/graph/Graph;)V" />
+    <nodeInfo nodeId="4422427343208741428" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="36" startPosition="0" endLine="82" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljetbrains/mps/graphLayout/graph/Graph;)V" />
     <scopeInfo nodeId="4422427343208741489" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="42" startPosition="65" endLine="43" endPosition="66" />
     <scopeInfo nodeId="4422427343208741503" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="45" startPosition="65" endLine="46" endPosition="165" />
     <scopeInfo nodeId="4422427343208741558" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="51" startPosition="38" endLine="52" endPosition="42" />
@@ -339,10 +339,10 @@
       <varInfo nodeId="4422427343208756664" varName="graphString" />
     </scopeInfo>
     <scopeInfo nodeId="4422427343208741484" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="41" startPosition="79" endLine="44" endPosition="7">
-      <varInfo nodeId="4422427343208741484" varName="node" />
+      <varInfo nodeId="4422427343208741485" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="4422427343208741498" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="44" startPosition="7" endLine="47" endPosition="7">
-      <varInfo nodeId="4422427343208741498" varName="edge" />
+      <varInfo nodeId="4422427343208741499" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="4422427343208741738" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="60" startPosition="82" endLine="64" endPosition="86">
       <varInfo nodeId="4422427343208741770" varName="e1" />
@@ -352,8 +352,8 @@
       <varInfo nodeId="4422427343208744176" varName="d1" />
       <varInfo nodeId="4422427343208744190" varName="d2" />
     </scopeInfo>
-    <scopeInfo nodeId="4422427343208741833" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="23" startPosition="65" endLine="29" endPosition="0" />
-    <scopeInfo nodeId="4422427343208756659" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="29" startPosition="0" endLine="35" endPosition="0" />
+    <scopeInfo nodeId="4422427343208741833" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="24" startPosition="0" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="4422427343208756659" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="30" startPosition="0" endLine="35" endPosition="0" />
     <scopeInfo nodeId="4422427343208741737" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="59" startPosition="134" endLine="65" endPosition="11">
       <varInfo nodeId="4422427343208741745" varName="j" />
     </scopeInfo>
@@ -389,7 +389,7 @@
     <scopeInfo nodeId="4422427343208741434" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="36" startPosition="33" endLine="80" endPosition="5">
       <varInfo nodeId="4422427343208741438" varName="mainEmbeddedGraph" />
     </scopeInfo>
-    <scopeInfo nodeId="4422427343208741428" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="35" startPosition="0" endLine="82" endPosition="0">
+    <scopeInfo nodeId="4422427343208741428" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="36" startPosition="0" endLine="82" endPosition="0">
       <varInfo nodeId="4422427343208741432" varName="graph" />
     </scopeInfo>
     <unitInfo nodeId="4422427343208741421" fileName="AmbiguityPlanarizationFinder_Test.java" startLine="23" startPosition="0" endLine="83" endPosition="0" unitName="planarizationTest.AmbiguityPlanarizationFinder_Test" />
@@ -422,15 +422,15 @@
     <nodeInfo nodeId="4644851485137285714" fileName="PQPlanarizationFinder_Test.java" startLine="61" startPosition="33" endLine="62" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="4644851485137285723" fileName="PQPlanarizationFinder_Test.java" startLine="62" startPosition="63" endLine="63" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="4644851485137285738" fileName="PQPlanarizationFinder_Test.java" startLine="63" startPosition="53" endLine="64" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4644851485137285742" fileName="PQPlanarizationFinder_Test.java" startLine="12" startPosition="58" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" />
-    <nodeInfo nodeId="6191740939834533155" fileName="PQPlanarizationFinder_Test.java" startLine="18" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_testForBreakingST#()V" />
-    <nodeInfo nodeId="6191740939834535089" fileName="PQPlanarizationFinder_Test.java" startLine="24" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test2#()V" />
-    <nodeInfo nodeId="8327149575965772615" fileName="PQPlanarizationFinder_Test.java" startLine="30" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test3#()V" />
-    <nodeInfo nodeId="8327149575965775522" fileName="PQPlanarizationFinder_Test.java" startLine="36" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_JTSPaperGraph#()V" />
-    <nodeInfo nodeId="8327149575965775533" fileName="PQPlanarizationFinder_Test.java" startLine="42" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test4#()V" />
-    <nodeInfo nodeId="8327149575965780768" fileName="PQPlanarizationFinder_Test.java" startLine="48" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test5#()V" />
-    <nodeInfo nodeId="3495542515823048717" fileName="PQPlanarizationFinder_Test.java" startLine="54" startPosition="0" endLine="60" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test6#()V" />
-    <nodeInfo nodeId="4644851485137285705" fileName="PQPlanarizationFinder_Test.java" startLine="60" startPosition="0" endLine="66" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljetbrains/mps/graphLayout/graph/Graph;)V" />
+    <nodeInfo nodeId="4644851485137285742" fileName="PQPlanarizationFinder_Test.java" startLine="13" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" />
+    <nodeInfo nodeId="6191740939834533155" fileName="PQPlanarizationFinder_Test.java" startLine="19" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_testForBreakingST#()V" />
+    <nodeInfo nodeId="6191740939834535089" fileName="PQPlanarizationFinder_Test.java" startLine="25" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test2#()V" />
+    <nodeInfo nodeId="8327149575965772615" fileName="PQPlanarizationFinder_Test.java" startLine="31" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test3#()V" />
+    <nodeInfo nodeId="8327149575965775522" fileName="PQPlanarizationFinder_Test.java" startLine="37" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_JTSPaperGraph#()V" />
+    <nodeInfo nodeId="8327149575965775533" fileName="PQPlanarizationFinder_Test.java" startLine="43" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test4#()V" />
+    <nodeInfo nodeId="8327149575965780768" fileName="PQPlanarizationFinder_Test.java" startLine="49" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test5#()V" />
+    <nodeInfo nodeId="3495542515823048717" fileName="PQPlanarizationFinder_Test.java" startLine="55" startPosition="0" endLine="60" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test6#()V" />
+    <nodeInfo nodeId="4644851485137285705" fileName="PQPlanarizationFinder_Test.java" startLine="61" startPosition="0" endLine="66" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljetbrains/mps/graphLayout/graph/Graph;)V" />
     <scopeInfo nodeId="4644851485137285745" fileName="PQPlanarizationFinder_Test.java" startLine="13" startPosition="45" endLine="16" endPosition="16">
       <varInfo nodeId="4644851485137285755" varName="graph" />
       <varInfo nodeId="4644851485137285747" varName="graphString" />
@@ -467,15 +467,15 @@
       <varInfo nodeId="4644851485137285724" varName="embeddedGraph" />
       <varInfo nodeId="4644851485137285715" varName="finder" />
     </scopeInfo>
-    <scopeInfo nodeId="4644851485137285742" fileName="PQPlanarizationFinder_Test.java" startLine="12" startPosition="58" endLine="18" endPosition="0" />
-    <scopeInfo nodeId="6191740939834533155" fileName="PQPlanarizationFinder_Test.java" startLine="18" startPosition="0" endLine="24" endPosition="0" />
-    <scopeInfo nodeId="6191740939834535089" fileName="PQPlanarizationFinder_Test.java" startLine="24" startPosition="0" endLine="30" endPosition="0" />
-    <scopeInfo nodeId="8327149575965772615" fileName="PQPlanarizationFinder_Test.java" startLine="30" startPosition="0" endLine="36" endPosition="0" />
-    <scopeInfo nodeId="8327149575965775522" fileName="PQPlanarizationFinder_Test.java" startLine="36" startPosition="0" endLine="42" endPosition="0" />
-    <scopeInfo nodeId="8327149575965775533" fileName="PQPlanarizationFinder_Test.java" startLine="42" startPosition="0" endLine="48" endPosition="0" />
-    <scopeInfo nodeId="8327149575965780768" fileName="PQPlanarizationFinder_Test.java" startLine="48" startPosition="0" endLine="54" endPosition="0" />
-    <scopeInfo nodeId="3495542515823048717" fileName="PQPlanarizationFinder_Test.java" startLine="54" startPosition="0" endLine="60" endPosition="0" />
-    <scopeInfo nodeId="4644851485137285705" fileName="PQPlanarizationFinder_Test.java" startLine="60" startPosition="0" endLine="66" endPosition="0">
+    <scopeInfo nodeId="4644851485137285742" fileName="PQPlanarizationFinder_Test.java" startLine="13" startPosition="0" endLine="18" endPosition="0" />
+    <scopeInfo nodeId="6191740939834533155" fileName="PQPlanarizationFinder_Test.java" startLine="19" startPosition="0" endLine="24" endPosition="0" />
+    <scopeInfo nodeId="6191740939834535089" fileName="PQPlanarizationFinder_Test.java" startLine="25" startPosition="0" endLine="30" endPosition="0" />
+    <scopeInfo nodeId="8327149575965772615" fileName="PQPlanarizationFinder_Test.java" startLine="31" startPosition="0" endLine="36" endPosition="0" />
+    <scopeInfo nodeId="8327149575965775522" fileName="PQPlanarizationFinder_Test.java" startLine="37" startPosition="0" endLine="42" endPosition="0" />
+    <scopeInfo nodeId="8327149575965775533" fileName="PQPlanarizationFinder_Test.java" startLine="43" startPosition="0" endLine="48" endPosition="0" />
+    <scopeInfo nodeId="8327149575965780768" fileName="PQPlanarizationFinder_Test.java" startLine="49" startPosition="0" endLine="54" endPosition="0" />
+    <scopeInfo nodeId="3495542515823048717" fileName="PQPlanarizationFinder_Test.java" startLine="55" startPosition="0" endLine="60" endPosition="0" />
+    <scopeInfo nodeId="4644851485137285705" fileName="PQPlanarizationFinder_Test.java" startLine="61" startPosition="0" endLine="66" endPosition="0">
       <varInfo nodeId="4644851485137285709" varName="graph" />
     </scopeInfo>
     <unitInfo nodeId="4644851485137285698" fileName="PQPlanarizationFinder_Test.java" startLine="12" startPosition="0" endLine="67" endPosition="0" unitName="planarizationTest.PQPlanarizationFinder_Test" />
@@ -502,11 +502,11 @@
     <nodeInfo nodeId="1532165762814104435" fileName="ClusterEmbeddingConstructor_Test.java" startLine="45" startPosition="65" endLine="46" endPosition="106" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1532165762814104445" fileName="ClusterEmbeddingConstructor_Test.java" startLine="46" startPosition="106" endLine="47" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1532165762814104481" fileName="ClusterEmbeddingConstructor_Test.java" startLine="47" startPosition="65" endLine="48" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4998536563116627631" fileName="ClusterEmbeddingConstructor_Test.java" startLine="14" startPosition="64" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_connectedTriagles#()V" />
-    <nodeInfo nodeId="1532165762814104407" fileName="ClusterEmbeddingConstructor_Test.java" startLine="21" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_manyClusters#()V" />
-    <nodeInfo nodeId="5668095147007487924" fileName="ClusterEmbeddingConstructor_Test.java" startLine="28" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_noEdges#()V" />
-    <nodeInfo nodeId="1251688034163207815" fileName="ClusterEmbeddingConstructor_Test.java" startLine="35" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" />
-    <nodeInfo nodeId="1532165762814104411" fileName="ClusterEmbeddingConstructor_Test.java" startLine="42" startPosition="0" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljetbrains/mps/graphLayout/graph/ClusteredGraph;)V" />
+    <nodeInfo nodeId="4998536563116627631" fileName="ClusterEmbeddingConstructor_Test.java" startLine="15" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_connectedTriagles#()V" />
+    <nodeInfo nodeId="1532165762814104407" fileName="ClusterEmbeddingConstructor_Test.java" startLine="22" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_manyClusters#()V" />
+    <nodeInfo nodeId="5668095147007487924" fileName="ClusterEmbeddingConstructor_Test.java" startLine="29" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_noEdges#()V" />
+    <nodeInfo nodeId="1251688034163207815" fileName="ClusterEmbeddingConstructor_Test.java" startLine="36" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" />
+    <nodeInfo nodeId="1532165762814104411" fileName="ClusterEmbeddingConstructor_Test.java" startLine="43" startPosition="0" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljetbrains/mps/graphLayout/graph/ClusteredGraph;)V" />
     <scopeInfo nodeId="4998536563116627634" fileName="ClusterEmbeddingConstructor_Test.java" startLine="15" startPosition="57" endLine="19" endPosition="16">
       <varInfo nodeId="4998536563116627644" varName="graph" />
       <varInfo nodeId="4998536563116627636" varName="graphString" />
@@ -533,11 +533,11 @@
       <varInfo nodeId="1532165762814104430" varName="manager" />
       <varInfo nodeId="1532165762814104436" varName="processor" />
     </scopeInfo>
-    <scopeInfo nodeId="4998536563116627631" fileName="ClusterEmbeddingConstructor_Test.java" startLine="14" startPosition="64" endLine="21" endPosition="0" />
-    <scopeInfo nodeId="1532165762814104407" fileName="ClusterEmbeddingConstructor_Test.java" startLine="21" startPosition="0" endLine="28" endPosition="0" />
-    <scopeInfo nodeId="5668095147007487924" fileName="ClusterEmbeddingConstructor_Test.java" startLine="28" startPosition="0" endLine="35" endPosition="0" />
-    <scopeInfo nodeId="1251688034163207815" fileName="ClusterEmbeddingConstructor_Test.java" startLine="35" startPosition="0" endLine="42" endPosition="0" />
-    <scopeInfo nodeId="1532165762814104411" fileName="ClusterEmbeddingConstructor_Test.java" startLine="42" startPosition="0" endLine="50" endPosition="0">
+    <scopeInfo nodeId="4998536563116627631" fileName="ClusterEmbeddingConstructor_Test.java" startLine="15" startPosition="0" endLine="21" endPosition="0" />
+    <scopeInfo nodeId="1532165762814104407" fileName="ClusterEmbeddingConstructor_Test.java" startLine="22" startPosition="0" endLine="28" endPosition="0" />
+    <scopeInfo nodeId="5668095147007487924" fileName="ClusterEmbeddingConstructor_Test.java" startLine="29" startPosition="0" endLine="35" endPosition="0" />
+    <scopeInfo nodeId="1251688034163207815" fileName="ClusterEmbeddingConstructor_Test.java" startLine="36" startPosition="0" endLine="42" endPosition="0" />
+    <scopeInfo nodeId="1532165762814104411" fileName="ClusterEmbeddingConstructor_Test.java" startLine="43" startPosition="0" endLine="50" endPosition="0">
       <varInfo nodeId="1532165762814104415" varName="graph" />
     </scopeInfo>
     <unitInfo nodeId="4998536563116627620" fileName="ClusterEmbeddingConstructor_Test.java" startLine="14" startPosition="0" endLine="51" endPosition="0" unitName="planarizationTest.ClusterEmbeddingConstructor_Test" />
@@ -565,14 +565,14 @@
     <nodeInfo nodeId="5442489283395853087" fileName="PQPlanarityTest_Test.java" startLine="61" startPosition="5" endLine="62" endPosition="89" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="5442489283395853097" fileName="PQPlanarityTest_Test.java" startLine="62" startPosition="89" endLine="63" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5656502300472221612" fileName="PQPlanarityTest_Test.java" startLine="58" startPosition="87" endLine="61" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="516638300680467137" fileName="PQPlanarityTest_Test.java" startLine="18" startPosition="52" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" />
-    <nodeInfo nodeId="5639575219014565252" fileName="PQPlanarityTest_Test.java" startLine="23" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test2#()V" />
-    <nodeInfo nodeId="5639575219014582052" fileName="PQPlanarityTest_Test.java" startLine="28" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test3#()V" />
-    <nodeInfo nodeId="5656502300472220595" fileName="PQPlanarityTest_Test.java" startLine="33" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test4#()V" />
-    <nodeInfo nodeId="5656502300472221542" fileName="PQPlanarityTest_Test.java" startLine="38" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test5#()V" />
-    <nodeInfo nodeId="6541005299200788044" fileName="PQPlanarityTest_Test.java" startLine="43" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test7#()V" />
-    <nodeInfo nodeId="5639575219014565215" fileName="PQPlanarityTest_Test.java" startLine="48" startPosition="0" endLine="55" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljava/lang/String;)V" />
-    <nodeInfo nodeId="5656502300472221587" fileName="PQPlanarityTest_Test.java" startLine="55" startPosition="0" endLine="65" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="testWithGraph#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="516638300680467137" fileName="PQPlanarityTest_Test.java" startLine="19" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" />
+    <nodeInfo nodeId="5639575219014565252" fileName="PQPlanarityTest_Test.java" startLine="24" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test2#()V" />
+    <nodeInfo nodeId="5639575219014582052" fileName="PQPlanarityTest_Test.java" startLine="29" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test3#()V" />
+    <nodeInfo nodeId="5656502300472220595" fileName="PQPlanarityTest_Test.java" startLine="34" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test4#()V" />
+    <nodeInfo nodeId="5656502300472221542" fileName="PQPlanarityTest_Test.java" startLine="39" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test5#()V" />
+    <nodeInfo nodeId="6541005299200788044" fileName="PQPlanarityTest_Test.java" startLine="44" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test7#()V" />
+    <nodeInfo nodeId="5639575219014565215" fileName="PQPlanarityTest_Test.java" startLine="49" startPosition="0" endLine="55" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="5656502300472221587" fileName="PQPlanarityTest_Test.java" startLine="56" startPosition="0" endLine="65" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="testWithGraph#(Ljava/lang/String;)V" />
     <scopeInfo nodeId="5656502300472221617" fileName="PQPlanarityTest_Test.java" startLine="59" startPosition="63" endLine="60" endPosition="66" />
     <scopeInfo nodeId="516638300680467140" fileName="PQPlanarityTest_Test.java" startLine="19" startPosition="45" endLine="21" endPosition="27">
       <varInfo nodeId="516638300680467142" varName="graphString" />
@@ -593,20 +593,20 @@
       <varInfo nodeId="6541005299200788050" varName="graphString" />
     </scopeInfo>
     <scopeInfo nodeId="5656502300472221612" fileName="PQPlanarityTest_Test.java" startLine="58" startPosition="87" endLine="61" endPosition="5">
-      <varInfo nodeId="5656502300472221612" varName="node" />
+      <varInfo nodeId="5656502300472221613" varName="node" />
     </scopeInfo>
+    <scopeInfo nodeId="516638300680467137" fileName="PQPlanarityTest_Test.java" startLine="19" startPosition="0" endLine="23" endPosition="0" />
+    <scopeInfo nodeId="5639575219014565252" fileName="PQPlanarityTest_Test.java" startLine="24" startPosition="0" endLine="28" endPosition="0" />
+    <scopeInfo nodeId="5639575219014582052" fileName="PQPlanarityTest_Test.java" startLine="29" startPosition="0" endLine="33" endPosition="0" />
+    <scopeInfo nodeId="5656502300472220595" fileName="PQPlanarityTest_Test.java" startLine="34" startPosition="0" endLine="38" endPosition="0" />
+    <scopeInfo nodeId="5656502300472221542" fileName="PQPlanarityTest_Test.java" startLine="39" startPosition="0" endLine="43" endPosition="0" />
+    <scopeInfo nodeId="6541005299200788044" fileName="PQPlanarityTest_Test.java" startLine="44" startPosition="0" endLine="48" endPosition="0" />
     <scopeInfo nodeId="5639575219014565219" fileName="PQPlanarityTest_Test.java" startLine="49" startPosition="73" endLine="53" endPosition="86">
       <varInfo nodeId="5639575219014565211" varName="graph" />
       <varInfo nodeId="5639575219014565212" varName="s" />
       <varInfo nodeId="5639575219014565213" varName="t" />
     </scopeInfo>
-    <scopeInfo nodeId="516638300680467137" fileName="PQPlanarityTest_Test.java" startLine="18" startPosition="52" endLine="23" endPosition="0" />
-    <scopeInfo nodeId="5639575219014565252" fileName="PQPlanarityTest_Test.java" startLine="23" startPosition="0" endLine="28" endPosition="0" />
-    <scopeInfo nodeId="5639575219014582052" fileName="PQPlanarityTest_Test.java" startLine="28" startPosition="0" endLine="33" endPosition="0" />
-    <scopeInfo nodeId="5656502300472220595" fileName="PQPlanarityTest_Test.java" startLine="33" startPosition="0" endLine="38" endPosition="0" />
-    <scopeInfo nodeId="5656502300472221542" fileName="PQPlanarityTest_Test.java" startLine="38" startPosition="0" endLine="43" endPosition="0" />
-    <scopeInfo nodeId="6541005299200788044" fileName="PQPlanarityTest_Test.java" startLine="43" startPosition="0" endLine="48" endPosition="0" />
-    <scopeInfo nodeId="5639575219014565215" fileName="PQPlanarityTest_Test.java" startLine="48" startPosition="0" endLine="55" endPosition="0">
+    <scopeInfo nodeId="5639575219014565215" fileName="PQPlanarityTest_Test.java" startLine="49" startPosition="0" endLine="55" endPosition="0">
       <varInfo nodeId="5639575219014565214" varName="graphString" />
     </scopeInfo>
     <scopeInfo nodeId="5656502300472221590" fileName="PQPlanarityTest_Test.java" startLine="56" startPosition="49" endLine="63" endPosition="63">
@@ -614,7 +614,7 @@
       <varInfo nodeId="5656502300472221597" varName="graph" />
       <varInfo nodeId="5656502300472221604" varName="stNumbering" />
     </scopeInfo>
-    <scopeInfo nodeId="5656502300472221587" fileName="PQPlanarityTest_Test.java" startLine="55" startPosition="0" endLine="65" endPosition="0">
+    <scopeInfo nodeId="5656502300472221587" fileName="PQPlanarityTest_Test.java" startLine="56" startPosition="0" endLine="65" endPosition="0">
       <varInfo nodeId="5656502300472221591" varName="graphString" />
     </scopeInfo>
     <unitInfo nodeId="516638300680467095" fileName="PQPlanarityTest_Test.java" startLine="18" startPosition="0" endLine="66" endPosition="0" unitName="planarizationTest.PQPlanarityTest_Test" />
@@ -644,17 +644,17 @@
     <nodeInfo nodeId="4136567681074420464" fileName="ClusterEmbeddingMakeBiconnected_Test.java" startLine="53" startPosition="64" endLine="54" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5668095147007609090" fileName="ClusterEmbeddingMakeBiconnected_Test.java" startLine="46" startPosition="75" endLine="49" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="5668095147007609099" fileName="ClusterEmbeddingMakeBiconnected_Test.java" startLine="49" startPosition="5" endLine="52" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="5668095147007609177" fileName="ClusterEmbeddingMakeBiconnected_Test.java" startLine="18" startPosition="68" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_connectedTriagles#()V" />
-    <nodeInfo nodeId="5668095147007609149" fileName="ClusterEmbeddingMakeBiconnected_Test.java" startLine="25" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_noEdges#()V" />
-    <nodeInfo nodeId="5668095147007667683" fileName="ClusterEmbeddingMakeBiconnected_Test.java" startLine="32" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" />
-    <nodeInfo nodeId="5668095147007608832" fileName="ClusterEmbeddingMakeBiconnected_Test.java" startLine="39" startPosition="0" endLine="56" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljetbrains/mps/graphLayout/graph/ClusteredGraph;)V" />
+    <nodeInfo nodeId="5668095147007609177" fileName="ClusterEmbeddingMakeBiconnected_Test.java" startLine="19" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_connectedTriagles#()V" />
+    <nodeInfo nodeId="5668095147007609149" fileName="ClusterEmbeddingMakeBiconnected_Test.java" startLine="26" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_noEdges#()V" />
+    <nodeInfo nodeId="5668095147007667683" fileName="ClusterEmbeddingMakeBiconnected_Test.java" startLine="33" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" />
+    <nodeInfo nodeId="5668095147007608832" fileName="ClusterEmbeddingMakeBiconnected_Test.java" startLine="40" startPosition="0" endLine="56" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljetbrains/mps/graphLayout/graph/ClusteredGraph;)V" />
     <scopeInfo nodeId="5668095147007609093" fileName="ClusterEmbeddingMakeBiconnected_Test.java" startLine="47" startPosition="53" endLine="48" endPosition="29" />
     <scopeInfo nodeId="5668095147007609102" fileName="ClusterEmbeddingMakeBiconnected_Test.java" startLine="50" startPosition="53" endLine="51" endPosition="74" />
     <scopeInfo nodeId="5668095147007609090" fileName="ClusterEmbeddingMakeBiconnected_Test.java" startLine="46" startPosition="75" endLine="49" endPosition="5">
-      <varInfo nodeId="5668095147007609090" varName="edge" />
+      <varInfo nodeId="5668095147007609091" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5668095147007609099" fileName="ClusterEmbeddingMakeBiconnected_Test.java" startLine="49" startPosition="5" endLine="52" endPosition="5">
-      <varInfo nodeId="5668095147007609099" varName="edge" />
+      <varInfo nodeId="5668095147007609100" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="5668095147007609180" fileName="ClusterEmbeddingMakeBiconnected_Test.java" startLine="19" startPosition="57" endLine="23" endPosition="16">
       <varInfo nodeId="5668095147007609190" varName="graph" />
@@ -671,16 +671,16 @@
       <varInfo nodeId="5668095147007667691" varName="graphString" />
       <varInfo nodeId="5668095147007667695" varName="treeString" />
     </scopeInfo>
-    <scopeInfo nodeId="5668095147007609177" fileName="ClusterEmbeddingMakeBiconnected_Test.java" startLine="18" startPosition="68" endLine="25" endPosition="0" />
-    <scopeInfo nodeId="5668095147007609149" fileName="ClusterEmbeddingMakeBiconnected_Test.java" startLine="25" startPosition="0" endLine="32" endPosition="0" />
-    <scopeInfo nodeId="5668095147007667683" fileName="ClusterEmbeddingMakeBiconnected_Test.java" startLine="32" startPosition="0" endLine="39" endPosition="0" />
+    <scopeInfo nodeId="5668095147007609177" fileName="ClusterEmbeddingMakeBiconnected_Test.java" startLine="19" startPosition="0" endLine="25" endPosition="0" />
+    <scopeInfo nodeId="5668095147007609149" fileName="ClusterEmbeddingMakeBiconnected_Test.java" startLine="26" startPosition="0" endLine="32" endPosition="0" />
+    <scopeInfo nodeId="5668095147007667683" fileName="ClusterEmbeddingMakeBiconnected_Test.java" startLine="33" startPosition="0" endLine="39" endPosition="0" />
     <scopeInfo nodeId="5668095147007608835" fileName="ClusterEmbeddingMakeBiconnected_Test.java" startLine="40" startPosition="42" endLine="54" endPosition="48">
       <varInfo nodeId="5668095147007608837" varName="edges" />
       <varInfo nodeId="5668095147007608860" varName="embeddedGraph" />
       <varInfo nodeId="5668095147007608844" varName="manager" />
       <varInfo nodeId="5668095147007609085" varName="newEdges" />
     </scopeInfo>
-    <scopeInfo nodeId="5668095147007608832" fileName="ClusterEmbeddingMakeBiconnected_Test.java" startLine="39" startPosition="0" endLine="56" endPosition="0">
+    <scopeInfo nodeId="5668095147007608832" fileName="ClusterEmbeddingMakeBiconnected_Test.java" startLine="40" startPosition="0" endLine="56" endPosition="0">
       <varInfo nodeId="5668095147007608921" varName="graph" />
     </scopeInfo>
     <unitInfo nodeId="5668095147007608818" fileName="ClusterEmbeddingMakeBiconnected_Test.java" startLine="18" startPosition="0" endLine="57" endPosition="0" unitName="planarizationTest.ClusterEmbeddingMakeBiconnected_Test" />
@@ -715,7 +715,7 @@
     <nodeInfo nodeId="6191740939834534605" fileName="StressTestPlanarization.java" startLine="71" startPosition="9" endLine="72" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="6191740939834534610" fileName="StressTestPlanarization.java" startLine="72" startPosition="30" endLine="73" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="6191740939834534621" fileName="StressTestPlanarization.java" startLine="75" startPosition="5" endLine="76" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6191740939834534345" fileName="StressTestPlanarization.java" startLine="22" startPosition="38" endLine="24" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="StressTestPlanarization#()V" />
+    <nodeInfo nodeId="6191740939834534345" fileName="StressTestPlanarization.java" startLine="23" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="StressTestPlanarization#()V" />
     <nodeInfo nodeId="6191740939834534436" fileName="StressTestPlanarization.java" startLine="37" startPosition="65" endLine="40" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="6191740939834534457" fileName="StressTestPlanarization.java" startLine="42" startPosition="65" endLine="45" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="6172745735269725724" fileName="StressTestPlanarization.java" startLine="50" startPosition="7" endLine="53" endPosition="8" conceptFqName="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock" />
@@ -726,13 +726,13 @@
     <nodeInfo nodeId="6191740939834534451" fileName="StressTestPlanarization.java" startLine="41" startPosition="7" endLine="46" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="6191740939834534509" fileName="StressTestPlanarization.java" startLine="56" startPosition="18" endLine="74" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
     <nodeInfo nodeId="6191740939834534394" fileName="StressTestPlanarization.java" startLine="30" startPosition="44" endLine="75" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="6191740939834534349" fileName="StressTestPlanarization.java" startLine="25" startPosition="0" endLine="78" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="main#([Ljava/lang/String;)V" />
+    <nodeInfo nodeId="6191740939834534349" fileName="StressTestPlanarization.java" startLine="26" startPosition="0" endLine="78" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="main#([Ljava/lang/String;)V" />
     <scopeInfo nodeId="6191740939834534348" fileName="StressTestPlanarization.java" startLine="23" startPosition="36" endLine="23" endPosition="36" />
     <scopeInfo nodeId="6191740939834534437" fileName="StressTestPlanarization.java" startLine="38" startPosition="71" endLine="39" endPosition="78" />
     <scopeInfo nodeId="6191740939834534458" fileName="StressTestPlanarization.java" startLine="43" startPosition="83" endLine="44" endPosition="137" />
     <scopeInfo nodeId="6191740939834534562" fileName="StressTestPlanarization.java" startLine="66" startPosition="58" endLine="67" endPosition="76" />
     <scopeInfo nodeId="6191740939834534576" fileName="StressTestPlanarization.java" startLine="69" startPosition="76" endLine="70" endPosition="135" />
-    <scopeInfo nodeId="6191740939834534345" fileName="StressTestPlanarization.java" startLine="22" startPosition="38" endLine="24" endPosition="3" />
+    <scopeInfo nodeId="6191740939834534345" fileName="StressTestPlanarization.java" startLine="23" startPosition="0" endLine="25" endPosition="0" />
     <scopeInfo nodeId="6191740939834534480" fileName="StressTestPlanarization.java" startLine="47" startPosition="45" endLine="49" endPosition="17" />
     <scopeInfo nodeId="6191740939834534435" fileName="StressTestPlanarization.java" startLine="37" startPosition="65" endLine="40" endPosition="9" />
     <scopeInfo nodeId="6191740939834534456" fileName="StressTestPlanarization.java" startLine="42" startPosition="65" endLine="45" endPosition="9" />
@@ -740,16 +740,16 @@
       <varInfo nodeId="6191740939834534512" varName="embeddedGraph" />
     </scopeInfo>
     <scopeInfo nodeId="6191740939834534559" fileName="StressTestPlanarization.java" startLine="65" startPosition="69" endLine="68" endPosition="9">
-      <varInfo nodeId="6191740939834534559" varName="node" />
+      <varInfo nodeId="6191740939834534560" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="6191740939834534571" fileName="StressTestPlanarization.java" startLine="68" startPosition="9" endLine="71" endPosition="9">
-      <varInfo nodeId="6191740939834534571" varName="edge" />
+      <varInfo nodeId="6191740939834534572" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="6191740939834534430" fileName="StressTestPlanarization.java" startLine="36" startPosition="79" endLine="41" endPosition="7">
-      <varInfo nodeId="6191740939834534430" varName="node" />
+      <varInfo nodeId="6191740939834534431" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="6191740939834534451" fileName="StressTestPlanarization.java" startLine="41" startPosition="7" endLine="46" endPosition="7">
-      <varInfo nodeId="6191740939834534451" varName="edge" />
+      <varInfo nodeId="6191740939834534452" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="6191740939834534532" fileName="StressTestPlanarization.java" startLine="61" startPosition="0" endLine="73" endPosition="23">
       <varInfo nodeId="6191740939834534533" varName="e" />
@@ -774,7 +774,7 @@
       <varInfo nodeId="6191740939834534372" varName="numIter" />
       <varInfo nodeId="6191740939834534358" varName="numNodes" />
     </scopeInfo>
-    <scopeInfo nodeId="6191740939834534349" fileName="StressTestPlanarization.java" startLine="25" startPosition="0" endLine="78" endPosition="0">
+    <scopeInfo nodeId="6191740939834534349" fileName="StressTestPlanarization.java" startLine="26" startPosition="0" endLine="78" endPosition="0">
       <varInfo nodeId="6191740939834534626" varName="args" />
     </scopeInfo>
     <unitInfo nodeId="6191740939834534343" fileName="StressTestPlanarization.java" startLine="22" startPosition="0" endLine="79" endPosition="0" unitName="planarizationTest.StressTestPlanarization" />
@@ -860,16 +860,16 @@
     <nodeInfo nodeId="508819492464333782" fileName="STPlanarGraph_Test.java" startLine="94" startPosition="73" endLine="97" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="508819492464333478" fileName="STPlanarGraph_Test.java" startLine="110" startPosition="73" endLine="113" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="508819492464333760" fileName="STPlanarGraph_Test.java" startLine="87" startPosition="62" endLine="92" endPosition="6" conceptFqName="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock" />
-    <nodeInfo nodeId="508819492464311772" fileName="STPlanarGraph_Test.java" startLine="105" startPosition="0" endLine="119" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_BookGraph#()V" />
-    <nodeInfo nodeId="6984255766319275685" fileName="STPlanarGraph_Test.java" startLine="84" startPosition="0" endLine="105" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_K5#()V" />
-    <nodeInfo nodeId="6984255766319183454" fileName="STPlanarGraph_Test.java" startLine="27" startPosition="50" endLine="84" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" />
+    <nodeInfo nodeId="508819492464311772" fileName="STPlanarGraph_Test.java" startLine="106" startPosition="0" endLine="119" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_BookGraph#()V" />
+    <nodeInfo nodeId="6984255766319275685" fileName="STPlanarGraph_Test.java" startLine="85" startPosition="0" endLine="105" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_K5#()V" />
+    <nodeInfo nodeId="6984255766319183454" fileName="STPlanarGraph_Test.java" startLine="28" startPosition="0" endLine="84" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" />
     <scopeInfo nodeId="508819492464333789" fileName="STPlanarGraph_Test.java" startLine="95" startPosition="86" endLine="96" endPosition="69" />
     <scopeInfo nodeId="508819492464333485" fileName="STPlanarGraph_Test.java" startLine="111" startPosition="86" endLine="112" endPosition="69" />
     <scopeInfo nodeId="508819492464333782" fileName="STPlanarGraph_Test.java" startLine="94" startPosition="73" endLine="97" endPosition="5">
-      <varInfo nodeId="508819492464333782" varName="dart" />
+      <varInfo nodeId="508819492464333783" varName="dart" />
     </scopeInfo>
     <scopeInfo nodeId="508819492464333478" fileName="STPlanarGraph_Test.java" startLine="110" startPosition="73" endLine="113" endPosition="5">
-      <varInfo nodeId="508819492464333478" varName="dart" />
+      <varInfo nodeId="508819492464333479" varName="dart" />
     </scopeInfo>
     <scopeInfo nodeId="508819492464311775" fileName="STPlanarGraph_Test.java" startLine="106" startPosition="49" endLine="117" endPosition="63">
       <varInfo nodeId="508819492464332656" varName="dualGraph" />
@@ -881,7 +881,7 @@
       <varInfo nodeId="508819492464311842" varName="stPlanarGraph" />
       <varInfo nodeId="508819492464333501" varName="t" />
     </scopeInfo>
-    <scopeInfo nodeId="508819492464311772" fileName="STPlanarGraph_Test.java" startLine="105" startPosition="0" endLine="119" endPosition="0" />
+    <scopeInfo nodeId="508819492464311772" fileName="STPlanarGraph_Test.java" startLine="106" startPosition="0" endLine="119" endPosition="0" />
     <scopeInfo nodeId="6984255766319275688" fileName="STPlanarGraph_Test.java" startLine="85" startPosition="42" endLine="103" endPosition="43">
       <varInfo nodeId="6984255766319275788" varName="dualGraph" />
       <varInfo nodeId="508819492464333766" varName="embeddedGraph" />
@@ -892,7 +892,7 @@
       <varInfo nodeId="6984255766319275729" varName="stPlanarGraph" />
       <varInfo nodeId="508819492464333805" varName="t" />
     </scopeInfo>
-    <scopeInfo nodeId="6984255766319275685" fileName="STPlanarGraph_Test.java" startLine="84" startPosition="0" endLine="105" endPosition="0" />
+    <scopeInfo nodeId="6984255766319275685" fileName="STPlanarGraph_Test.java" startLine="85" startPosition="0" endLine="105" endPosition="0" />
     <scopeInfo nodeId="6984255766319183457" fileName="STPlanarGraph_Test.java" startLine="28" startPosition="45" endLine="82" endPosition="68">
       <varInfo nodeId="6984255766319236648" varName="edge01" />
       <varInfo nodeId="6984255766319236712" varName="edge12" />
@@ -910,7 +910,7 @@
       <varInfo nodeId="6984255766319236823" varName="node3" />
       <varInfo nodeId="6984255766319236977" varName="stPlanarGraph" />
     </scopeInfo>
-    <scopeInfo nodeId="6984255766319183454" fileName="STPlanarGraph_Test.java" startLine="27" startPosition="50" endLine="84" endPosition="0" />
+    <scopeInfo nodeId="6984255766319183454" fileName="STPlanarGraph_Test.java" startLine="28" startPosition="0" endLine="84" endPosition="0" />
     <unitInfo nodeId="6984255766319183447" fileName="STPlanarGraph_Test.java" startLine="27" startPosition="0" endLine="120" endPosition="0" unitName="planarizationTest.STPlanarGraph_Test" />
   </root>
   <root nodeId="8383102279435103573" modelId="r:b41673a3-99b1-47c6-bcca-8fab31533bd1(planarizationTest)">
@@ -923,9 +923,9 @@
     <nodeInfo nodeId="8383102279435120082" fileName="SubsequenceFinder_Test.java" startLine="25" startPosition="51" endLine="26" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="8383102279435120100" fileName="SubsequenceFinder_Test.java" startLine="26" startPosition="88" endLine="27" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="8383102279435120064" fileName="SubsequenceFinder_Test.java" startLine="27" startPosition="91" endLine="28" endPosition="89" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8383102279435103580" fileName="SubsequenceFinder_Test.java" startLine="12" startPosition="54" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" />
-    <nodeInfo nodeId="8383102279435113762" fileName="SubsequenceFinder_Test.java" startLine="18" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test2#()V" />
-    <nodeInfo nodeId="8383102279435120037" fileName="SubsequenceFinder_Test.java" startLine="24" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_testCyclic1#()V" />
+    <nodeInfo nodeId="8383102279435103580" fileName="SubsequenceFinder_Test.java" startLine="13" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" />
+    <nodeInfo nodeId="8383102279435113762" fileName="SubsequenceFinder_Test.java" startLine="19" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test2#()V" />
+    <nodeInfo nodeId="8383102279435120037" fileName="SubsequenceFinder_Test.java" startLine="25" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_testCyclic1#()V" />
     <scopeInfo nodeId="8383102279435103583" fileName="SubsequenceFinder_Test.java" startLine="13" startPosition="45" endLine="16" endPosition="83">
       <varInfo nodeId="8383102279435104319" varName="p" />
       <varInfo nodeId="8383102279435104348" varName="pos" />
@@ -941,9 +941,9 @@
       <varInfo nodeId="8383102279435120065" varName="pos" />
       <varInfo nodeId="8383102279435120083" varName="s" />
     </scopeInfo>
-    <scopeInfo nodeId="8383102279435103580" fileName="SubsequenceFinder_Test.java" startLine="12" startPosition="54" endLine="18" endPosition="0" />
-    <scopeInfo nodeId="8383102279435113762" fileName="SubsequenceFinder_Test.java" startLine="18" startPosition="0" endLine="24" endPosition="0" />
-    <scopeInfo nodeId="8383102279435120037" fileName="SubsequenceFinder_Test.java" startLine="24" startPosition="0" endLine="30" endPosition="0" />
+    <scopeInfo nodeId="8383102279435103580" fileName="SubsequenceFinder_Test.java" startLine="13" startPosition="0" endLine="18" endPosition="0" />
+    <scopeInfo nodeId="8383102279435113762" fileName="SubsequenceFinder_Test.java" startLine="19" startPosition="0" endLine="24" endPosition="0" />
+    <scopeInfo nodeId="8383102279435120037" fileName="SubsequenceFinder_Test.java" startLine="25" startPosition="0" endLine="30" endPosition="0" />
     <unitInfo nodeId="8383102279435103573" fileName="SubsequenceFinder_Test.java" startLine="12" startPosition="0" endLine="31" endPosition="0" unitName="planarizationTest.SubsequenceFinder_Test" />
   </root>
 </debugInfo>

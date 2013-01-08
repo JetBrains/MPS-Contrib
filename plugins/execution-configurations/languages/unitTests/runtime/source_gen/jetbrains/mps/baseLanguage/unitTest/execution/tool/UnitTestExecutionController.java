@@ -19,7 +19,6 @@ import java.io.File;
 import jetbrains.mps.baseLanguage.unitTest.execution.client.UnitTestProcessListener;
 import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
 
-
 /**
  * Use junit command to start tests
  */

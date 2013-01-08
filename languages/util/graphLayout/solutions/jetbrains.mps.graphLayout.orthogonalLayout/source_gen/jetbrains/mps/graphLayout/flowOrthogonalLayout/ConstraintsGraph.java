@@ -33,7 +33,6 @@ public class ConstraintsGraph {
   private static int SHOW_INFO = 0;
   private static int DEBUG = 0;
   private static int DEFAULT_UNIT_LENGTH = 20;
-
   private Graph myGraph;
   private EmbeddedGraph myEmbeddedGraph;
   private Map<Dart, Direction2D> myDirections;

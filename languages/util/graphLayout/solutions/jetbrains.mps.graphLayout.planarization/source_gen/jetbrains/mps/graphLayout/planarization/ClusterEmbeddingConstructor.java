@@ -35,7 +35,6 @@ public class ClusterEmbeddingConstructor {
   private static int debugMode = 0;
   private static int showInfo = 0;
   private static boolean useSlowFaceFinder = true;
-
   private ClusteredGraph myGraph;
   private Node myCluster;
   private Set<Node> myClusterNodes;

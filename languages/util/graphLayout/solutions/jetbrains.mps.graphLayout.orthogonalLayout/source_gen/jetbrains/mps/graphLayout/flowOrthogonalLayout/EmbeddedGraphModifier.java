@@ -28,7 +28,6 @@ import jetbrains.mps.internal.collections.runtime.ITranslator2;
 
 public class EmbeddedGraphModifier {
   private static int SHOW_LOG = 0;
-
   private Graph myGraph;
   private EmbeddedGraph myEmbeddedGraph;
   private Map<Dart, Direction2D> myDartDirections;

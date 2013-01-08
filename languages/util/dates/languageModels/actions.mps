@@ -31,6 +31,7 @@
   <import index="tpfo" modelUID="r:00000000-0000-4000-0000-011c89590518(jetbrains.mps.baseLanguage.regexp.structure)" version="0" implicit="yes" />
   <import index="tpfp" modelUID="r:00000000-0000-4000-0000-011c89590519(jetbrains.mps.baseLanguage.regexp.jetbrains.mps.regexp.accessory)" version="-1" implicit="yes" />
   <import index="tp76" modelUID="r:00000000-0000-4000-0000-011c895903ce(jetbrains.mps.baseLanguage.dates.behavior)" version="-1" implicit="yes" />
+  <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
   <roots>
     <node type="tpdg.NodeSubstituteActions" typeId="tpdg.1112056943463" id="4555537781927653005">
       <property name="name" nameId="tpck.1169194664001" value="subs_TimeZoneIDExpression" />
@@ -623,8 +624,8 @@
                   <node role="rValue" roleId="tpee.1068498886297" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2890840340813347017">
                     <node role="operand" roleId="tpee.1197027771414" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="2890840340813347018">
                       <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.FormatDateTimeExpression" typeId="tp6x.5034322243092296606" id="2890840340813347019">
-                        <link role="dateFormat" roleId="tp6x.5034322243092298627" targetNodeId="tp6y.1173884238614" resolveInfo="shortDate" />
                         <link role="locale" roleId="tp6x.5034322243092298628" targetNodeId="tp6y.1172681308861" resolveInfo="ENGLISH" />
+                        <link role="dateFormat" roleId="tp6x.5034322243092298627" targetNodeId="tp6y.1173884238614" />
                         <node role="datetime" roleId="tp6x.5034322243092298623" type="tp6x.InTimezoneExpression" typeId="tp6x.2639623922402691276" id="2890840340813347020">
                           <node role="timezone" roleId="tp6x.2639623922402691641" type="tp6x.UTCTimeZoneConstant" typeId="tp6x.1238514476665" id="2890840340813347025" />
                           <node role="datetime" roleId="tp6x.2639623922402691278" type="tp6x.NowExpression" typeId="tp6x.1169630122569" id="2890840340813347022" />
@@ -664,7 +665,7 @@
                     <node role="operand" roleId="tpee.1197027771414" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="194163770812721403">
                       <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.FormatDateTimeExpression" typeId="tp6x.5034322243092296606" id="194163770812721404">
                         <link role="locale" roleId="tp6x.5034322243092298628" targetNodeId="tp6y.1172681308861" resolveInfo="ENGLISH" />
-                        <link role="dateFormat" roleId="tp6x.5034322243092298627" targetNodeId="tp6y.1173884238614" resolveInfo="shortDate" />
+                        <link role="dateFormat" roleId="tp6x.5034322243092298627" targetNodeId="tp6y.1173884238614" />
                         <node role="datetime" roleId="tp6x.5034322243092298623" type="tp6x.InTimezoneExpression" typeId="tp6x.2639623922402691276" id="194163770812721405">
                           <node role="timezone" roleId="tp6x.2639623922402691641" type="tp6x.UTCTimeZoneConstant" typeId="tp6x.1238514476665" id="2890840340813347024" />
                           <node role="datetime" roleId="tp6x.2639623922402691278" type="tp6x.NowExpression" typeId="tp6x.1169630122569" id="194163770812721407" />
@@ -733,8 +734,8 @@
                   <node role="rValue" roleId="tpee.1068498886297" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8875872347490100089">
                     <node role="operand" roleId="tpee.1197027771414" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="8875872347490100090">
                       <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.FormatDateTimeExpression" typeId="tp6x.5034322243092296606" id="8875872347490100091">
-                        <link role="dateFormat" roleId="tp6x.5034322243092298627" targetNodeId="tp6y.1173884238614" resolveInfo="shortDate" />
                         <link role="locale" roleId="tp6x.5034322243092298628" targetNodeId="tp6y.1172681308861" resolveInfo="ENGLISH" />
+                        <link role="dateFormat" roleId="tp6x.5034322243092298627" targetNodeId="tp6y.1173884238614" />
                         <node role="datetime" roleId="tp6x.5034322243092298623" type="tp6x.InTimezoneExpression" typeId="tp6x.2639623922402691276" id="8875872347490100092">
                           <node role="timezone" roleId="tp6x.2639623922402691641" type="tp6x.UTCTimeZoneConstant" typeId="tp6x.1238514476665" id="8875872347490100093" />
                           <node role="datetime" roleId="tp6x.2639623922402691278" type="tp6x.NowExpression" typeId="tp6x.1169630122569" id="8875872347490100094" />
@@ -801,12 +802,12 @@
           <node role="matchingText" roleId="tpdg.1177498166690" type="tpdg.QueryFunction_SideTransform_String" typeId="tpdg.1177498071304" id="7499037524192046548">
             <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="7499037524192046549">
               <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="7499037524192048523">
-                <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7499037524192048537">
-                  <node role="operand" roleId="tpee.1197027771414" type="tp25.ConceptRefExpression" typeId="tp25.1172424058054" id="7499037524192048524">
-                    <link role="conceptDeclaration" roleId="tp25.1172424100906" targetNodeId="tp6x.4389880778953634893" resolveInfo="ParseDateTimeExpression" />
+                <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2886182022231392086">
+                  <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="2886182022231392087">
+                    <link role="property" roleId="tp25.1138056395725" targetNodeId="tpce.5092175715804935370" resolveInfo="conceptAlias" />
                   </node>
-                  <node role="operation" roleId="tpee.1197027833540" type="tp25.SConceptPropertyAccess" typeId="tp25.1145994841052" id="7499037524192048541">
-                    <link role="conceptProperty" roleId="tp25.1145994841055" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
+                  <node role="operand" roleId="tpee.1197027771414" type="tp25.ConceptRefExpression" typeId="tp25.1172424058054" id="2886182022231392088">
+                    <link role="conceptDeclaration" roleId="tp25.1172424100906" targetNodeId="tp6x.4389880778953634893" resolveInfo="ParseDateTimeExpression" />
                   </node>
                 </node>
               </node>
@@ -815,12 +816,12 @@
           <node role="descriptionText" roleId="tpdg.1177498182537" type="tpdg.QueryFunction_SideTransform_String" typeId="tpdg.1177498071304" id="7499037524192048542">
             <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="7499037524192048543">
               <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="7499037524192048544">
-                <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7499037524192048546">
-                  <node role="operand" roleId="tpee.1197027771414" type="tp25.ConceptRefExpression" typeId="tp25.1172424058054" id="7499037524192048545">
-                    <link role="conceptDeclaration" roleId="tp25.1172424100906" targetNodeId="tp6x.4389880778953634893" resolveInfo="ParseDateTimeExpression" />
+                <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2886182022231801882">
+                  <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="2886182022231801883">
+                    <link role="property" roleId="tp25.1138056395725" targetNodeId="tpck.1156234966388" resolveInfo="shortDescription" />
                   </node>
-                  <node role="operation" roleId="tpee.1197027833540" type="tp25.SConceptPropertyAccess" typeId="tp25.1145994841052" id="7499037524192048551">
-                    <link role="conceptProperty" roleId="tp25.1145994841055" targetNodeId="tpck.1137473914776" resolveInfo="shortDescription" />
+                  <node role="operand" roleId="tpee.1197027771414" type="tp25.ConceptRefExpression" typeId="tp25.1172424058054" id="2886182022231801884">
+                    <link role="conceptDeclaration" roleId="tp25.1172424100906" targetNodeId="tp6x.4389880778953634893" resolveInfo="ParseDateTimeExpression" />
                   </node>
                 </node>
               </node>
@@ -969,8 +970,8 @@
                   <node role="rValue" roleId="tpee.1068498886297" type="tpee.DotExpression" typeId="tpee.1197027756228" id="670620798052429801">
                     <node role="operand" roleId="tpee.1197027771414" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="670620798052429802">
                       <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.FormatDateTimeExpression" typeId="tp6x.5034322243092296606" id="670620798052429803">
-                        <link role="dateFormat" roleId="tp6x.5034322243092298627" targetNodeId="tp6y.1173884238614" resolveInfo="shortDate" />
                         <link role="locale" roleId="tp6x.5034322243092298628" targetNodeId="tp6y.1172681308861" resolveInfo="ENGLISH" />
+                        <link role="dateFormat" roleId="tp6x.5034322243092298627" targetNodeId="tp6y.1173884238614" />
                         <node role="datetime" roleId="tp6x.5034322243092298623" type="tp6x.InTimezoneExpression" typeId="tp6x.2639623922402691276" id="670620798052429804">
                           <node role="timezone" roleId="tp6x.2639623922402691641" type="tp6x.UTCTimeZoneConstant" typeId="tp6x.1238514476665" id="670620798052429805" />
                           <node role="datetime" roleId="tp6x.2639623922402691278" type="tp6x.NowExpression" typeId="tp6x.1169630122569" id="670620798052429806" />
@@ -1062,12 +1063,12 @@
           <node role="descriptionText" roleId="tpdg.1177498182537" type="tpdg.QueryFunction_SideTransform_String" typeId="tpdg.1177498071304" id="6240071430105322662">
             <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="6240071430105322663">
               <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="6240071430105322721">
-                <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6240071430105322723">
-                  <node role="operand" roleId="tpee.1197027771414" type="tp25.ConceptRefExpression" typeId="tp25.1172424058054" id="6240071430105322722">
-                    <link role="conceptDeclaration" roleId="tp25.1172424100906" targetNodeId="tp6x.5034322243093083314" resolveInfo="InlineFormatDateTimeExpression" />
+                <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2886182022231612839">
+                  <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="2886182022231612840">
+                    <link role="property" roleId="tp25.1138056395725" targetNodeId="tpck.1156234966388" resolveInfo="shortDescription" />
                   </node>
-                  <node role="operation" roleId="tpee.1197027833540" type="tp25.SConceptPropertyAccess" typeId="tp25.1145994841052" id="6240071430105505802">
-                    <link role="conceptProperty" roleId="tp25.1145994841055" targetNodeId="tpck.1137473914776" resolveInfo="shortDescription" />
+                  <node role="operand" roleId="tpee.1197027771414" type="tp25.ConceptRefExpression" typeId="tp25.1172424058054" id="2886182022231612841">
+                    <link role="conceptDeclaration" roleId="tp25.1172424100906" targetNodeId="tp6x.5034322243093083314" resolveInfo="InlineFormatDateTimeExpression" />
                   </node>
                 </node>
               </node>
@@ -1231,12 +1232,12 @@
           <node role="descriptionText" roleId="tpdg.1177498182537" type="tpdg.QueryFunction_SideTransform_String" typeId="tpdg.1177498071304" id="5488841840788088754">
             <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="5488841840788088755">
               <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5488841840788088756">
-                <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5488841840788088757">
-                  <node role="operand" roleId="tpee.1197027771414" type="tp25.ConceptRefExpression" typeId="tp25.1172424058054" id="5488841840788088758">
-                    <link role="conceptDeclaration" roleId="tp25.1172424100906" targetNodeId="tp6x.5034322243093083314" resolveInfo="InlineFormatDateTimeExpression" />
+                <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2886182022231810507">
+                  <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="2886182022231810508">
+                    <link role="property" roleId="tp25.1138056395725" targetNodeId="tpck.1156234966388" resolveInfo="shortDescription" />
                   </node>
-                  <node role="operation" roleId="tpee.1197027833540" type="tp25.SConceptPropertyAccess" typeId="tp25.1145994841052" id="5488841840788088759">
-                    <link role="conceptProperty" roleId="tp25.1145994841055" targetNodeId="tpck.1137473914776" resolveInfo="shortDescription" />
+                  <node role="operand" roleId="tpee.1197027771414" type="tp25.ConceptRefExpression" typeId="tp25.1172424058054" id="2886182022231810509">
+                    <link role="conceptDeclaration" roleId="tp25.1172424100906" targetNodeId="tp6x.5034322243093083314" resolveInfo="InlineFormatDateTimeExpression" />
                   </node>
                 </node>
               </node>
@@ -1391,17 +1392,6 @@
     <node role="actionsBuilder" roleId="tpdg.1138079416599" type="tpdg.SideTransformHintSubstituteActionsBuilder" typeId="tpdg.1138079221458" id="1169657550853">
       <property name="description" nameId="tpdg.1158952484319" value="Operations on datetime expression" />
       <link role="applicableConcept" roleId="tpdg.1138079221462" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
-      <node role="precondition" roleId="tpdg.1154622757656" type="tpdg.SideTransformHintSubstitutePreconditionFunction" typeId="tpdg.1154622616118" id="1169657599823">
-        <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="1171980595073">
-          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="1175770059855">
-            <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="796336488935366530">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tp76.5251619021093068753" resolveInfo="isInstanceOfDatetimeWithTZ" />
-              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="tp76.5251619021093068639" resolveInfo="DateTypeUtil" />
-              <node role="actualArgument" roleId="tpee.1068499141038" type="tpdg.ConceptFunctionParameter_sourceNode" typeId="tpdg.1177497140107" id="796336488935366531" />
-            </node>
-          </node>
-        </node>
-      </node>
       <node role="part" roleId="tpdg.1177442283389" type="tpdg.AddMenuPart" typeId="tpdg.1177323996388" id="707100484943854322">
         <link role="concept" roleId="tpdg.1177333551023" targetNodeId="tp6x.1172331114860" resolveInfo="DateTimeWithPropertyOperation" />
         <node role="part" roleId="tpdg.1177333559040" type="tpdg.SimpleSideTransformMenuPart" typeId="tpdg.1177498013932" id="707100484943854323">
@@ -1490,6 +1480,17 @@
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="707100484943909494" resolveInfo="result" />
                 </node>
               </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="precondition" roleId="tpdg.1154622757656" type="tpdg.SideTransformHintSubstitutePreconditionFunction" typeId="tpdg.1154622616118" id="1169657599823">
+        <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="1171980595073">
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="1175770059855">
+            <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="796336488935366530">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tp76.5251619021093068753" resolveInfo="isInstanceOfDatetimeWithTZ" />
+              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="tp76.5251619021093068639" resolveInfo="DateTypeUtil" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpdg.ConceptFunctionParameter_sourceNode" typeId="tpdg.1177497140107" id="796336488935366531" />
             </node>
           </node>
         </node>

@@ -10,7 +10,6 @@ import com.intellij.openapi.project.Project;
 import jetbrains.mps.debug.api.IDebugger;
 import jetbrains.mps.debug.api.Debuggers;
 
-
 /**
  * Use execution.configurations language
  */

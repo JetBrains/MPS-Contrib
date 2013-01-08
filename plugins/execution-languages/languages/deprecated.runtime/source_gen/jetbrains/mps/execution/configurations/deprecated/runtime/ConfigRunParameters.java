@@ -4,7 +4,6 @@ package jetbrains.mps.execution.configurations.deprecated.runtime;
 
 import java.io.File;
 
-
 /**
  * Use java command for starting java
  */

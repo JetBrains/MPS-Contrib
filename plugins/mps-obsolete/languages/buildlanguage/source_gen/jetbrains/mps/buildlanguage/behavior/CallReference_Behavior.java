@@ -5,6 +5,7 @@ package jetbrains.mps.buildlanguage.behavior;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import org.jetbrains.mps.openapi.language.SConcept;
 
 public class CallReference_Behavior {
   public static void init(SNode thisNode) {
@@ -19,5 +20,9 @@ public class CallReference_Behavior {
       return "";
     }
     return SPropertyOperations.getString(SLinkOperations.getTarget(thisNode, "call", false), "name");
+  }
+
+  public static String virtual_getCallName_1262430001741497852(SConcept thisConcept) {
+    return null;
   }
 }

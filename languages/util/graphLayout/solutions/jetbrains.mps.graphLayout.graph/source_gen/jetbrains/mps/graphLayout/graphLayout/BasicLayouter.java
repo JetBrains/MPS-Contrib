@@ -20,7 +20,6 @@ import jetbrains.mps.graphLayout.intGeom2D.Point;
 
 public abstract class BasicLayouter implements ILayouter {
   private static final int DEFAULT_UNIT_LENGTH = 20;
-
   private int myUnitLength = DEFAULT_UNIT_LENGTH;
 
   public BasicLayouter() {

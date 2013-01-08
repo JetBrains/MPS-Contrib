@@ -25,7 +25,6 @@ import jetbrains.mps.internal.collections.runtime.Sequence;
 
 public class NodeBoxesMaker {
   private static int SHOW_INFO = 0;
-
   private Graph myGraph;
   private EmbeddedGraph myEmbeddedGraph;
   private Map<Dart, Direction2D> myDirections;
