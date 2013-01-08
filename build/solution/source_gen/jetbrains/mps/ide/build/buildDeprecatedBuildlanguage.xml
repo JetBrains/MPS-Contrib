@@ -22,10 +22,10 @@
   </path>
   
   <path id="path.mps.ant.path">
-    <pathelement location="${mps_home}/lib/mps-backend.jar" />
-    <pathelement location="${mps_home}/lib/jdom.jar" />
-    <pathelement location="${mps_home}/lib/log4j.jar" />
-    <pathelement location="${mps_home}/lib/mps-core.jar" />
+    <pathelement location="${artifacts.buildCore}/mps-core/lib/mps-backend.jar" />
+    <pathelement location="${artifacts.buildCore}/mps-core/lib/jdom.jar" />
+    <pathelement location="${artifacts.buildCore}/mps-core/lib/log4j.jar" />
+    <pathelement location="${artifacts.buildCore}/mps-core/lib/mps-core.jar" />
   </path>
   
   <taskdef name="javac2" classname="com.intellij.ant.Javac2" classpathref="path.javac2.classpath" />
