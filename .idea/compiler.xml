@@ -290,6 +290,9 @@
       <directory url="file://$PROJECT_DIR$/samples/generator_demo/languages/demoLang2/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/samples/generator_demo/languages/demoLang3/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/samples/generator_demo/languages/demoLang4/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/samples/generator_demo/languages/demoLang5/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/samples/generator_demo/languages/demoLang6/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/samples/generator_demo/languages/demoLang7/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/samples/generator_demo/solutions/test_models/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/samples/lambda/languages/lambdaCalculus/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/samples/lambda/solutions/jetbrains.mps.samples.lambdaCalculus.runtime/source_gen" includeSubdirectories="true" />
