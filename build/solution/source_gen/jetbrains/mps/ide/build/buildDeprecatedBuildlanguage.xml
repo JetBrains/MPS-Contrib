@@ -413,9 +413,60 @@
     </copy>
   </target>
   
-  <target name="generate">
+  <target name="generate" depends="fetchDependencies">
     <echo message="generating" />
     <mps.generate parallelMode="true" fork="true">
+      <library file="${artifacts.buildCore}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
+      <library file="${artifacts.buildCore}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.checkedDots.jar" />
+      <library file="${artifacts.buildCore}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
+      <library file="${artifacts.buildCore}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.closures.jar" />
+      <library file="${artifacts.buildCore}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.collections.jar" />
+      <library file="${artifacts.buildCore}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.extensionMethods.jar" />
+      <library file="${artifacts.buildCore}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
+      <library file="${artifacts.buildCore}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.javadoc.jar" />
+      <library file="${artifacts.buildCore}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.jar" />
+      <library file="${artifacts.buildCore}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
+      <library file="${artifacts.buildCore}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.regexp.jar" />
+      <library file="${artifacts.buildCore}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.regexp.runtime.jar" />
+      <library file="${artifacts.buildCore}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
+      <library file="${artifacts.buildCore}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguage.tuples.jar" />
+      <library file="${artifacts.buildCore}/mps-core/languages/baseLanguage/jetbrains.mps.baseLanguageInternal.jar" />
+      <library file="${artifacts.buildCore}/mps-core/languages/languageDesign/jetbrains.mps.lang.actions.jar" />
+      <library file="${artifacts.buildCore}/mps-core/languages/languageDesign/jetbrains.mps.lang.behavior.jar" />
+      <library file="${artifacts.buildCore}/mps-core/languages/languageDesign/jetbrains.mps.lang.checkedName.jar" />
+      <library file="${artifacts.buildCore}/mps-core/languages/languageDesign/jetbrains.mps.lang.constraints.jar" />
+      <library file="${artifacts.buildCore}/mps-core/languages/languageDesign/jetbrains.mps.lang.core.jar" />
+      <library file="${artifacts.buildCore}/mps-core/languages/languageDesign/jetbrains.mps.lang.dataFlow.jar" />
+      <library file="${artifacts.buildCore}/mps-core/languages/languageDesign/jetbrains.mps.lang.editor.jar" />
+      <library file="${artifacts.buildCore}/mps-core/languages/languageDesign/jetbrains.mps.lang.findUsages.jar" />
+      <library file="${artifacts.buildCore}/mps-core/languages/languageDesign/jetbrains.mps.lang.generator.generationContext.jar" />
+      <library file="${artifacts.buildCore}/mps-core/languages/languageDesign/jetbrains.mps.lang.generator.generationParameters.jar" />
+      <library file="${artifacts.buildCore}/mps-core/languages/languageDesign/jetbrains.mps.lang.generator.jar" />
+      <library file="${artifacts.buildCore}/mps-core/languages/languageDesign/jetbrains.mps.lang.intentions.jar" />
+      <library file="${artifacts.buildCore}/mps-core/languages/languageDesign/jetbrains.mps.lang.pattern.jar" />
+      <library file="${artifacts.buildCore}/mps-core/languages/languageDesign/jetbrains.mps.lang.project.jar" />
+      <library file="${artifacts.buildCore}/mps-core/languages/languageDesign/jetbrains.mps.lang.quotation.jar" />
+      <library file="${artifacts.buildCore}/mps-core/languages/languageDesign/jetbrains.mps.lang.refactoring.jar" />
+      <library file="${artifacts.buildCore}/mps-core/languages/languageDesign/jetbrains.mps.lang.resources.jar" />
+      <library file="${artifacts.buildCore}/mps-core/languages/languageDesign/jetbrains.mps.lang.scopes.jar" />
+      <library file="${artifacts.buildCore}/mps-core/languages/languageDesign/jetbrains.mps.lang.scopes.runtime.jar" />
+      <library file="${artifacts.buildCore}/mps-core/languages/languageDesign/jetbrains.mps.lang.script.jar" />
+      <library file="${artifacts.buildCore}/mps-core/languages/languageDesign/jetbrains.mps.lang.sharedConcepts.jar" />
+      <library file="${artifacts.buildCore}/mps-core/languages/languageDesign/jetbrains.mps.lang.smodel.jar" />
+      <library file="${artifacts.buildCore}/mps-core/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
+      <library file="${artifacts.buildCore}/mps-core/languages/languageDesign/jetbrains.mps.lang.stubs.jar" />
+      <library file="${artifacts.buildCore}/mps-core/languages/languageDesign/jetbrains.mps.lang.textGen.jar" />
+      <library file="${artifacts.buildCore}/mps-core/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
+      <library file="${artifacts.buildCore}/mps-core/languages/languageDesign/jetbrains.mps.lang.typesystem.jar" />
+      <library file="${artifacts.buildCore}/mps-core/languages/xml/jetbrains.mps.gtext.jar" />
+      <library file="${artifacts.buildCore}/mps-core/languages/xml/jetbrains.mps.gtext.runtime.jar" />
+      <library file="${artifacts.buildCore}/mps-core/lib/mps-backend.jar" />
+      <library file="${artifacts.buildCore}/mps-core/lib/mps-closures.jar" />
+      <library file="${artifacts.buildCore}/mps-core/lib/mps-collections.jar" />
+      <library file="${artifacts.buildCore}/mps-core/lib/mps-core.jar" />
+      <library file="${artifacts.buildCore}/mps-core/lib/mps-editor.jar" />
+      <library file="${artifacts.buildCore}/mps-core/lib/mps-platform.jar" />
+      <library file="${artifacts.buildCore}/mps-core/lib/mps-tuples.jar" />
       <chunk>
         <module file="${mps_home}/plugins/mps-obsolete/languages/xmlDeprecated/languageDescriptor.mpl" />
       </chunk>
@@ -425,5 +476,9 @@
         <module file="${mps_home}/plugins/mps-obsolete/languages/buildlanguage/buildlanguage.mpl" bootstrap="true" />
       </chunk>
     </mps.generate>
+  </target>
+  
+  <target name="cleanSources">
+    <delete dir="${mps_home}/plugins/mps-obsolete/languages/xmlDeprecated/source_gen" />
   </target>
 </project>
