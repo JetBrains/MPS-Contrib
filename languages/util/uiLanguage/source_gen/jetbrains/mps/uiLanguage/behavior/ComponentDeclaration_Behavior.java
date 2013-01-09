@@ -103,7 +103,7 @@ public class ComponentDeclaration_Behavior {
   }
 
   public static SNode virtual_createType_1213877527970(SNode thisNode) {
-    SNode type = SConceptOperations.createNewNode("jetbrains.mps.uiLanguage.structure.ComponentType", null);
+    jetbrains.mps.smodel.SNode type = SConceptOperations.createNewNode("jetbrains.mps.uiLanguage.structure.ComponentType", null);
     SLinkOperations.setTarget(type, "component", thisNode, false);
     return type;
   }
