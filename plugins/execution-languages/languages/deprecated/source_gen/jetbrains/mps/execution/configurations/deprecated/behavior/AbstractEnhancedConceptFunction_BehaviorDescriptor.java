@@ -4,7 +4,7 @@ package jetbrains.mps.execution.configurations.deprecated.behavior;
 
 import jetbrains.mps.baseLanguage.behavior.ConceptFunction_BehaviorDescriptor;
 import java.util.List;
-import jetbrains.mps.smodel.SNode;
+import org.jetbrains.mps.openapi.model.SNode;
 
 public abstract class AbstractEnhancedConceptFunction_BehaviorDescriptor extends ConceptFunction_BehaviorDescriptor {
   public AbstractEnhancedConceptFunction_BehaviorDescriptor() {

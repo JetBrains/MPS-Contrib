@@ -4,7 +4,7 @@ package jetbrains.mps.xml.behavior;
 
 import jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor;
 import java.util.List;
-import jetbrains.mps.smodel.SNode;
+import org.jetbrains.mps.openapi.model.SNode;
 import org.jetbrains.mps.openapi.language.SConcept;
 
 public abstract class Content_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor {

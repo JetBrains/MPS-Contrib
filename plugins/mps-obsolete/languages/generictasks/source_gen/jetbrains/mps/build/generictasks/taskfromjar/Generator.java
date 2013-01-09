@@ -6,7 +6,7 @@ import jetbrains.mps.logging.Logger;
 import jetbrains.mps.util.PathManager;
 import jetbrains.mps.smodel.SModel;
 import java.util.List;
-import jetbrains.mps.smodel.SNode;
+import org.jetbrains.mps.openapi.model.SNode;
 import java.io.IOException;
 import java.util.Map;
 import java.util.LinkedHashMap;

@@ -5,7 +5,7 @@ package jetbrains.mps.baseLanguage.dates.behavior;
 import jetbrains.mps.baseLanguage.behavior.Expression_BehaviorDescriptor;
 import jetbrains.mps.baseLanguage.behavior.TypeDerivable_BehaviorDescriptor;
 import jetbrains.mps.lang.core.behavior.IDontSubstituteByDefault_BehaviorDescriptor;
-import jetbrains.mps.smodel.SNode;
+import org.jetbrains.mps.openapi.model.SNode;
 
 public class FormatExpression_BehaviorDescriptor extends Expression_BehaviorDescriptor implements TypeDerivable_BehaviorDescriptor, IDontSubstituteByDefault_BehaviorDescriptor {
   public FormatExpression_BehaviorDescriptor() {

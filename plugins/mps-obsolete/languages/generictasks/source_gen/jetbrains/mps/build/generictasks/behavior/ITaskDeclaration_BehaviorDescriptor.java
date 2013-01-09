@@ -4,7 +4,7 @@ package jetbrains.mps.build.generictasks.behavior;
 
 import jetbrains.mps.buildlanguage.behavior.IDeclaration_BehaviorDescriptor;
 import jetbrains.mps.baseLanguage.classifiers.behavior.IClassifier_BehaviorDescriptor;
-import jetbrains.mps.smodel.SNode;
+import org.jetbrains.mps.openapi.model.SNode;
 import java.util.List;
 
 public interface ITaskDeclaration_BehaviorDescriptor extends IDeclaration_BehaviorDescriptor, IClassifier_BehaviorDescriptor {
