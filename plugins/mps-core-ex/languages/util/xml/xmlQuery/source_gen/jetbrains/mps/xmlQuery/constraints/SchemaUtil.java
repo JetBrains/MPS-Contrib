@@ -83,7 +83,7 @@ public class SchemaUtil {
   }
 
   public static SNode constructXMLElementType(SNode complexType) {
-    SNode type = SConceptOperations.createNewNode("jetbrains.mps.xmlQuery.structure.XMLElementType", null);
+    jetbrains.mps.smodel.SNode type = SConceptOperations.createNewNode("jetbrains.mps.xmlQuery.structure.XMLElementType", null);
     if (complexType != null) {
       SLinkOperations.setTarget(type, "schema", SNodeOperations.getAncestor(complexType, "jetbrains.mps.xmlSchema.structure.Schema", false, false), false);
       SLinkOperations.setTarget(type, "complexType", complexType, false);

@@ -812,7 +812,7 @@ public class QueriesGenerated {
 
   public static SNode sourceNodeQuery_2872438607476702408(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     if (isNotEmpty_x583g4_a0a0rg(SPropertyOperations.getString(_context.getNode(), "prefixPlural"))) {
-      SNode literal = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.structure.StringLiteral", null);
+      jetbrains.mps.smodel.SNode literal = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.structure.StringLiteral", null);
       SPropertyOperations.set(literal, "value", SPropertyOperations.getString(_context.getNode(), "prefixPlural"));
       return literal;
     }
@@ -821,7 +821,7 @@ public class QueriesGenerated {
 
   public static SNode sourceNodeQuery_2872438607476484913(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     if (isNotEmpty_x583g4_a0a0sg(SPropertyOperations.getString(_context.getNode(), "suffixPlural"))) {
-      SNode literal = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.structure.StringLiteral", null);
+      jetbrains.mps.smodel.SNode literal = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.structure.StringLiteral", null);
       SPropertyOperations.set(literal, "value", SPropertyOperations.getString(_context.getNode(), "suffixPlural"));
       return literal;
     }

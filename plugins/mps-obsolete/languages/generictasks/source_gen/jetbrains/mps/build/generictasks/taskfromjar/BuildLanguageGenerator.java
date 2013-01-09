@@ -17,7 +17,7 @@ public class BuildLanguageGenerator {
   }
 
   public SNode createInterfaceDeclaration(String declName, String className, boolean isDeprecated) {
-    SNode decl = SConceptOperations.createNewNode("jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration", null);
+    jetbrains.mps.smodel.SNode decl = SConceptOperations.createNewNode("jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration", null);
     SPropertyOperations.set(decl, "name", declName);
     SPropertyOperations.set(decl, "classname", className);
     SPropertyOperations.set(decl, "depracated", "" + (isDeprecated));
@@ -25,7 +25,7 @@ public class BuildLanguageGenerator {
   }
 
   public SNode createDeclaration(String declName, String className, boolean isAbstract, boolean canHaveInternalText, boolean isDeprecated) {
-    SNode decl = SConceptOperations.createNewNode("jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration", null);
+    jetbrains.mps.smodel.SNode decl = SConceptOperations.createNewNode("jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration", null);
     SPropertyOperations.set(decl, "name", declName);
     SPropertyOperations.set(decl, "classname", className);
     SPropertyOperations.set(decl, "abstract", "" + (isAbstract));
@@ -39,7 +39,7 @@ public class BuildLanguageGenerator {
   }
 
   public SNode createAttributeDeclaration(String name, SNode type) {
-    SNode res = SConceptOperations.createNewNode("jetbrains.mps.build.generictasks.structure.AttributeDeclaration", null);
+    jetbrains.mps.smodel.SNode res = SConceptOperations.createNewNode("jetbrains.mps.build.generictasks.structure.AttributeDeclaration", null);
     SPropertyOperations.set(res, "name", name);
     SLinkOperations.setTarget(res, "attributeType", type, true);
     return res;

@@ -30,7 +30,7 @@ public class supertypeof_XMLElementType_SubtypingRule extends SubtypingRule_Runt
           if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SNodeOperations.cast(te, "jetbrains.mps.xmlSchema.structure.ComplexContent"), "contentItem", true), "jetbrains.mps.xmlSchema.structure.Extension")) {
             SNode ct = SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(SNodeOperations.cast(te, "jetbrains.mps.xmlSchema.structure.ComplexContent"), "contentItem", true), "complexTypeReference", true), "complexType", false);
 
-            SNode type = SConceptOperations.createNewNode("jetbrains.mps.xmlQuery.structure.XMLElementType", null);
+            jetbrains.mps.smodel.SNode type = SConceptOperations.createNewNode("jetbrains.mps.xmlQuery.structure.XMLElementType", null);
             SLinkOperations.setTarget(type, "schema", SNodeOperations.getAncestor(ct, "jetbrains.mps.xmlSchema.structure.Schema", false, false), false);
             SLinkOperations.setTarget(type, "complexType", ct, false);
 
