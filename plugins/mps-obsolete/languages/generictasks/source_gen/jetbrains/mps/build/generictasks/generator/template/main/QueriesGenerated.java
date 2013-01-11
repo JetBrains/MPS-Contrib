@@ -39,7 +39,7 @@ public class QueriesGenerated {
   public static Iterable sourceNodesQuery_353793545802704416(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     List<SNode> xmlattributes = new ArrayList<SNode>();
     for (SNode attr : SLinkOperations.getTargets(_context.getNode(), "atributes", true)) {
-      jetbrains.mps.smodel.SNode newAttr = SConceptOperations.createNewNode("jetbrains.mps.xml.deprecated.structure.Attribute", null);
+      SNode newAttr = SConceptOperations.createNewNode("jetbrains.mps.xml.deprecated.structure.Attribute", null);
       SPropertyOperations.set(newAttr, "name", SPropertyOperations.getString(SLinkOperations.getTarget(attr, "attributeDeclaration", false), "name"));
       SPropertyOperations.set(newAttr, "value", BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(attr, "value", true), "virtual_toString_1213877472569", new Object[]{}));
       ListSequence.fromList(xmlattributes).addElement(newAttr);

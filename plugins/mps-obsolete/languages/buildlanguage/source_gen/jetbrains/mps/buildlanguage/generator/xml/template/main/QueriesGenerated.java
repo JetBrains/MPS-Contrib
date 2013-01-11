@@ -128,7 +128,7 @@ public class QueriesGenerated {
     if ((int) ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "depends", true)).count() == 0) {
       return null;
     }
-    jetbrains.mps.smodel.SNode attribute = SConceptOperations.createNewNode("jetbrains.mps.xml.deprecated.structure.Attribute", null);
+    SNode attribute = SConceptOperations.createNewNode("jetbrains.mps.xml.deprecated.structure.Attribute", null);
     SPropertyOperations.set(attribute, "name", "depends");
     SPropertyOperations.set(attribute, "value", TargetDeclaration_Behavior.call_getDependanceString_1213877231974(_context.getNode()));
     return attribute;
