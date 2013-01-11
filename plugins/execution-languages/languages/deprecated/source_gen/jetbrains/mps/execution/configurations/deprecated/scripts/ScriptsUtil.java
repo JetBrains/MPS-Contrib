@@ -6,6 +6,7 @@ import jetbrains.mps.smodel.SModel;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.internal.collections.runtime.ISequenceClosure;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
+import jetbrains.mps.util.IterableUtil;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.smodel.SModelReference;
 import java.util.List;
@@ -41,7 +42,7 @@ public class ScriptsUtil {
 
     SNodeOperations.getModel(node).addModelImport(newModelReference, false);
     for (SNode chileNode : ListSequence.fromList(SNodeOperations.getDescendants(node, null, true, new String[]{}))) {
-      List<SReference> references = chileNode.getReferences();
+      List<SReference> references = IterableUtil.asList(chileNode.getReferences());
       for (SReference ref : ListSequence.fromList(references)) {
         if (ref.getTargetSModelReference().getLongName().equals(longName)) {
           ref.setTargetSModelReference(newModelReference);
@@ -53,7 +54,7 @@ public class ScriptsUtil {
   public static void updateReferencesToClassifier(SNode node, String modelLongName, String classifierName, SModelReference newModelReference, SNode newNodeToReference) {
     boolean found = false;
     for (SNode childNode : ListSequence.fromList(SNodeOperations.getDescendants(node, null, true, new String[]{}))) {
-      List<SReference> references = childNode.getReferences();
+      List<SReference> references = IterableUtil.asList(childNode.getReferences());
       for (SReference ref : ListSequence.fromList(references)) {
         String resolveInfo = ref.getResolveInfo();
         if (ref.getTargetSModelReference().getLongName().equals(modelLongName) && ((resolveInfo != null && resolveInfo.length() > 0) && resolveInfo.contains(classifierName))) {
