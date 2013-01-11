@@ -45,7 +45,6 @@
         <name>MPS Depreacted XML and Build Languages</name>
         <version>${buildCore.version}</version>
         <depends>jetbrains.mps.core</depends>
-        <depends>jetbrains.mps.core.ex</depends>
         
         <extensions defaultExtensionNs="com.intellij">
           <mps.LanguageLibrary dir="/languages" />
@@ -244,8 +243,8 @@
         <fileset file="${artifacts.buildCore}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
         <fileset file="${artifacts.buildCore}/languages/baseLanguage/jetbrains.mps.baseLanguage.regexp.runtime.jar" />
         <fileset file="${artifacts.buildCore}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
-        <fileset file="${artifacts.buildCoreEx}/mps-core-ex/languages/gtext/jetbrains.mps.gtext.jar" />
-        <fileset file="${artifacts.buildCoreEx}/mps-core-ex/languages/gtext/jetbrains.mps.gtext.runtime.jar" />
+        <fileset file="${artifacts.buildCoreEx}/mps-core/languages/gtext/jetbrains.mps.gtext.jar" />
+        <fileset file="${artifacts.buildCoreEx}/mps-core/languages/gtext/jetbrains.mps.gtext.runtime.jar" />
         <fileset file="${artifacts.buildCore}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
         <fileset file="${artifacts.buildCore}/languages/languageDesign/jetbrains.mps.lang.smodel.runtime.jar" />
         <fileset file="${artifacts.buildCore}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
@@ -289,8 +288,8 @@
         <fileset file="${artifacts.buildCore}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
         <fileset file="${artifacts.buildCore}/languages/baseLanguage/jetbrains.mps.baseLanguage.regexp.runtime.jar" />
         <fileset file="${artifacts.buildCore}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
-        <fileset file="${artifacts.buildCoreEx}/mps-core-ex/languages/gtext/jetbrains.mps.gtext.jar" />
-        <fileset file="${artifacts.buildCoreEx}/mps-core-ex/languages/gtext/jetbrains.mps.gtext.runtime.jar" />
+        <fileset file="${artifacts.buildCoreEx}/mps-core/languages/gtext/jetbrains.mps.gtext.jar" />
+        <fileset file="${artifacts.buildCoreEx}/mps-core/languages/gtext/jetbrains.mps.gtext.runtime.jar" />
         <fileset file="${artifacts.buildCore}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
         <fileset file="${artifacts.buildCore}/languages/languageDesign/jetbrains.mps.lang.smodel.runtime.jar" />
         <fileset file="${artifacts.buildCore}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
@@ -381,8 +380,8 @@
         <fileset file="${artifacts.buildCore}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
         <fileset file="${artifacts.buildCore}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
         <fileset file="${artifacts.buildCore}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
-        <fileset file="${artifacts.buildCoreEx}/mps-core-ex/languages/gtext/jetbrains.mps.gtext.jar" />
-        <fileset file="${artifacts.buildCoreEx}/mps-core-ex/languages/gtext/jetbrains.mps.gtext.runtime.jar" />
+        <fileset file="${artifacts.buildCoreEx}/mps-core/languages/gtext/jetbrains.mps.gtext.jar" />
+        <fileset file="${artifacts.buildCoreEx}/mps-core/languages/gtext/jetbrains.mps.gtext.runtime.jar" />
         <fileset file="${artifacts.buildCore}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
         <fileset file="${artifacts.buildCore}/languages/languageDesign/jetbrains.mps.lang.smodel.runtime.jar" />
         <fileset file="${artifacts.buildCore}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
@@ -437,8 +436,8 @@
   <target name="generate" depends="fetchDependencies, declare-mps-tasks">
     <echo message="generating" />
     <mps.generate parallelMode="true" fork="true">
-      <library file="${artifacts.buildCoreEx}/mps-core-ex/languages/gtext/jetbrains.mps.gtext.jar" />
-      <library file="${artifacts.buildCoreEx}/mps-core-ex/languages/gtext/jetbrains.mps.gtext.runtime.jar" />
+      <library file="${artifacts.buildCoreEx}/mps-core/languages/gtext/jetbrains.mps.gtext.jar" />
+      <library file="${artifacts.buildCoreEx}/mps-core/languages/gtext/jetbrains.mps.gtext.runtime.jar" />
       <library file="${artifacts.buildCore}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
       <library file="${artifacts.buildCore}/languages/baseLanguage/jetbrains.mps.baseLanguage.checkedDots.jar" />
       <library file="${artifacts.buildCore}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
