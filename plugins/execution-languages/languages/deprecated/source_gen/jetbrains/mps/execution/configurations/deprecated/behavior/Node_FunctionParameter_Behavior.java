@@ -28,7 +28,7 @@ public class Node_FunctionParameter_Behavior {
 
   public static SNode getParameterType_5147346160405686358(SNode runConfig) {
     if ((runConfig != null)) {
-      jetbrains.mps.smodel.SNode nodeType = SConceptOperations.createNewNode("jetbrains.mps.lang.smodel.structure.SNodeType", null);
+      SNode nodeType = SConceptOperations.createNewNode("jetbrains.mps.lang.smodel.structure.SNodeType", null);
       SLinkOperations.setTarget(nodeType, "concept", SLinkOperations.getTarget(runConfig, "conceptDeclaration", false), false);
       return nodeType;
     }

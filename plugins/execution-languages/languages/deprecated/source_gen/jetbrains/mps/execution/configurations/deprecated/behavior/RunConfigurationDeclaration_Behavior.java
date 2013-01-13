@@ -62,7 +62,7 @@ public class RunConfigurationDeclaration_Behavior {
 
   public static SNode virtual_getStateType_314981645426570519(SNode thisNode) {
     if ((SLinkOperations.getTarget(thisNode, "stateTypeParameter", false) != null)) {
-      jetbrains.mps.smodel.SNode classifierType = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.structure.ClassifierType", null);
+      SNode classifierType = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.structure.ClassifierType", null);
       SLinkOperations.setTarget(classifierType, "classifier", SLinkOperations.getTarget(thisNode, "stateTypeParameter", false), false);
       return classifierType;
     }

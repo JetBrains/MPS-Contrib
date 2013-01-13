@@ -16,7 +16,7 @@ public class TaskCall_Behavior {
   }
 
   public static String call_getAttributeValue_353793545802643859(SNode thisNode, String name) {
-    jetbrains.mps.smodel.SNode node = SConceptOperations.createNewNode("jetbrains.mps.build.generictasks.structure.AttributeDeclaration", null);
+    SNode node = SConceptOperations.createNewNode("jetbrains.mps.build.generictasks.structure.AttributeDeclaration", null);
     SPropertyOperations.set(node, "name", name);
     for (SNode attr : ListSequence.fromList(SLinkOperations.getTargets(thisNode, "atributes", true))) {
       if (Attribute_Behavior.call_isOfDeclaration_353793545802643786(attr, node)) {

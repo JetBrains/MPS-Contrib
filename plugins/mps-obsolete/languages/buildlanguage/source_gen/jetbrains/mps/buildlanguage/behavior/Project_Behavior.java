@@ -15,10 +15,10 @@ import jetbrains.mps.internal.collections.runtime.IVisitor;
 
 public class Project_Behavior {
   public static void init(SNode thisNode) {
-    jetbrains.mps.smodel.SNode target = SConceptOperations.createNewNode("jetbrains.mps.buildlanguage.structure.TargetDeclaration", null);
+    SNode target = SConceptOperations.createNewNode("jetbrains.mps.buildlanguage.structure.TargetDeclaration", null);
     ListSequence.fromList(SLinkOperations.getTargets(thisNode, "target", true)).addElement(target);
     SPropertyOperations.set(ListSequence.fromList(SLinkOperations.getTargets(thisNode, "target", true)).first(), "name", "default");
-    jetbrains.mps.smodel.SNode defaultRef = SConceptOperations.createNewNode("jetbrains.mps.buildlanguage.structure.TargetReference", null);
+    SNode defaultRef = SConceptOperations.createNewNode("jetbrains.mps.buildlanguage.structure.TargetReference", null);
     SLinkOperations.setTarget(defaultRef, "targetDeclaration", ListSequence.fromList(SLinkOperations.getTargets(thisNode, "target", true)).first(), false);
     SLinkOperations.setTarget(thisNode, "default", defaultRef, true);
   }
