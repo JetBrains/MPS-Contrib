@@ -80,7 +80,7 @@
     <nodeInfo nodeId="353793545803348400" fileName="Util.java" startLine="20" startPosition="10" endLine="23" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="353793545803348383" fileName="Util.java" startLine="17" startPosition="10" endLine="23" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="353793545803348368" fileName="Util.java" startLine="14" startPosition="69" endLine="23" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="353793545803348364" fileName="Util.java" startLine="14" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="checkNodeType#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;)Z" />
+    <nodeInfo nodeId="353793545803348364" fileName="Util.java" startLine="14" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="checkNodeType#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
     <scopeInfo nodeId="290783027692267513" fileName="Util.java" startLine="11" startPosition="17" endLine="11" endPosition="17" />
     <scopeInfo nodeId="353793545803348369" fileName="Util.java" startLine="15" startPosition="112" endLine="16" endPosition="205" />
     <scopeInfo nodeId="353793545803348384" fileName="Util.java" startLine="18" startPosition="107" endLine="19" endPosition="267" />

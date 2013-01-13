@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependencies version="2" modelHash="b0nf11j18348lrzvjgodgsh5cgikrin">
-  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-d9fewwdo4hvsg0t5ahhqrttciuy5v4h" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-89hxj0ypb1mymp88cm6uftvxxpq6hll" />
   <common hash="69t7512zkych03l4jq3oquuwhvxcqc1" />
   <source id="7733366827988670914" name="TBaseBuilderContextListener" hash="-azljm6fxk3cekq8l3oxar860wej4okd">
     <file name="TBaseBuilderContextListener.java" />
