@@ -5,19 +5,13 @@ package jetbrains.mps.baseLanguage.dates.behavior;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.smodel.runtime.BehaviorDescriptor;
-import jetbrains.mps.smodel.language.ConceptRegistry;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.smodel.behaviour.BehaviorManager;
-import java.util.Set;
-import java.util.HashSet;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.smodel.SModelUtil_new;
 import jetbrains.mps.project.GlobalScope;
 
 public class InTimezoneExpression_Behavior {
-  private static Class[] PARAMETERS_6626410111395872158 = {SNode.class, SNode.class};
-  private static Class[] PARAMETERS_2890840340813585276 = {SNode.class, SNode.class, SNode.class};
-
   public static void init(SNode thisNode) {
   }
 
@@ -25,10 +19,10 @@ public class InTimezoneExpression_Behavior {
     if ((expression != null)) {
       String role = thisNode.getRoleOf(expression);
       if (SPropertyOperations.getString(SLinkOperations.findLinkDeclaration("jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression", "timezone"), "role").equals(role)) {
-        return new InTimezoneExpression_Behavior.QuotationClass_g9idtp_a0a0b0a0b().createNode();
+        return _quotation_createNode_g9idtp_a0a1a0a0();
       }
       if (SPropertyOperations.getString(SLinkOperations.findLinkDeclaration("jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression", "datetime"), "role").equals(role)) {
-        return new InTimezoneExpression_Behavior.QuotationClass_g9idtp_a0a0c0a0b().createNode();
+        return _quotation_createNode_g9idtp_a0a2a0a0();
       }
     }
     return null;
@@ -36,97 +30,55 @@ public class InTimezoneExpression_Behavior {
 
   public static SNode virtual_deriveType_4555537781928374706(SNode thisNode, SNode expression, SNode link) {
     if (SLinkOperations.findLinkDeclaration("jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression", "timezone") == link) {
-      return new InTimezoneExpression_Behavior.QuotationClass_g9idtp_a0a0a0c().createNode();
+      return _quotation_createNode_g9idtp_a0a0a1();
     }
     if (SLinkOperations.findLinkDeclaration("jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression", "datetime") == link) {
-      return new InTimezoneExpression_Behavior.QuotationClass_g9idtp_a0a0b0c().createNode();
+      return _quotation_createNode_g9idtp_a0a1a1();
     }
     return null;
   }
 
+  @Deprecated
   public static SNode call_deriveType_6626410111395872158(SNode thisNode, SNode expression) {
-    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
-    return (SNode) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression"), "virtual_deriveType_1213877435747", PARAMETERS_6626410111395872158, new Object[]{expression});
+    return BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), thisNode, "virtual_deriveType_1213877435747", new Object[]{expression});
   }
 
+  @Deprecated
   public static SNode call_deriveType_2890840340813585276(SNode thisNode, SNode expression, SNode link) {
-    BehaviorDescriptor descriptor = ConceptRegistry.getInstance().getBehaviorDescriptorForInstanceNode(thisNode);
-    return (SNode) descriptor.invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression"), "virtual_deriveType_4555537781928374706", PARAMETERS_2890840340813585276, new Object[]{expression, link});
+    return BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), thisNode, "virtual_deriveType_4555537781928374706", new Object[]{expression, link});
   }
 
+  @Deprecated
   public static SNode callSuper_deriveType_6626410111395872158(SNode thisNode, String callerConceptFqName, SNode expression) {
-    return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression"), callerConceptFqName, "virtual_deriveType_1213877435747", PARAMETERS_6626410111395872158, new Object[]{expression});
+    return BehaviorManager.getInstance().invokeSuper((Class<SNode>) ((Class) Object.class), SNodeOperations.cast(thisNode, "jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression"), callerConceptFqName, "virtual_deriveType_1213877435747", new Class[]{SNode.class, SNode.class}, new Object[]{expression});
   }
 
+  @Deprecated
   public static SNode callSuper_deriveType_2890840340813585276(SNode thisNode, String callerConceptFqName, SNode expression, SNode link) {
-    return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression"), callerConceptFqName, "virtual_deriveType_4555537781928374706", PARAMETERS_2890840340813585276, new Object[]{expression, link});
+    return BehaviorManager.getInstance().invokeSuper((Class<SNode>) ((Class) Object.class), SNodeOperations.cast(thisNode, "jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression"), callerConceptFqName, "virtual_deriveType_4555537781928374706", new Class[]{SNode.class, SNode.class, SNode.class}, new Object[]{expression, link});
   }
 
-  public static class QuotationClass_g9idtp_a0a0b0a0b {
-    public QuotationClass_g9idtp_a0a0b0a0b() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_1 = null;
-      {
-        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType", null, GlobalScope.getInstance(), false);
-        SNode quotedNode1_2 = quotedNode_1;
-        result = quotedNode1_2;
-      }
-      return result;
-    }
+  private static SNode _quotation_createNode_g9idtp_a0a1a0a0() {
+    SNode quotedNode_1 = null;
+    quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType", null, null, GlobalScope.getInstance(), false);
+    return quotedNode_1;
   }
 
-  public static class QuotationClass_g9idtp_a0a0c0a0b {
-    public QuotationClass_g9idtp_a0a0c0a0b() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_1 = null;
-      {
-        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", null, GlobalScope.getInstance(), false);
-        SNode quotedNode1_2 = quotedNode_1;
-        result = quotedNode1_2;
-      }
-      return result;
-    }
+  private static SNode _quotation_createNode_g9idtp_a0a2a0a0() {
+    SNode quotedNode_1 = null;
+    quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", null, null, GlobalScope.getInstance(), false);
+    return quotedNode_1;
   }
 
-  public static class QuotationClass_g9idtp_a0a0a0c {
-    public QuotationClass_g9idtp_a0a0a0c() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_1 = null;
-      {
-        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType", null, GlobalScope.getInstance(), false);
-        SNode quotedNode1_2 = quotedNode_1;
-        result = quotedNode1_2;
-      }
-      return result;
-    }
+  private static SNode _quotation_createNode_g9idtp_a0a0a1() {
+    SNode quotedNode_1 = null;
+    quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType", null, null, GlobalScope.getInstance(), false);
+    return quotedNode_1;
   }
 
-  public static class QuotationClass_g9idtp_a0a0b0c {
-    public QuotationClass_g9idtp_a0a0b0c() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_1 = null;
-      {
-        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", null, GlobalScope.getInstance(), false);
-        SNode quotedNode1_2 = quotedNode_1;
-        result = quotedNode1_2;
-      }
-      return result;
-    }
+  private static SNode _quotation_createNode_g9idtp_a0a1a1() {
+    SNode quotedNode_1 = null;
+    quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", null, null, GlobalScope.getInstance(), false);
+    return quotedNode_1;
   }
 }

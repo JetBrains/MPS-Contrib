@@ -23,7 +23,7 @@ public class DateTimeUtil {
             return;
           case BREAK:
             break;
-          case TERMINATE_VOID:
+          case TERMINATE_VALUE:
             break;
           default:
             break;

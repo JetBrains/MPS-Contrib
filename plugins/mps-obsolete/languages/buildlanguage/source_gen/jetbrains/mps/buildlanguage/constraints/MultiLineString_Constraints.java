@@ -11,7 +11,7 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.buildlanguage.behavior.PropertyValueExpression_Behavior;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 
 public class MultiLineString_Constraints extends BaseConstraintsDescriptor {
   public MultiLineString_Constraints() {
@@ -33,7 +33,7 @@ public class MultiLineString_Constraints extends BaseConstraintsDescriptor {
         {
           String result = "";
           for (SNode lit : ListSequence.fromList(SLinkOperations.getTargets(node, "stringExpression", true))) {
-            result += PropertyValueExpression_Behavior.call_toString_1213877472569(lit);
+            result += BehaviorReflection.invokeVirtual(String.class, lit, "virtual_toString_1213877472569", new Object[]{});
           }
           return (result.length() > 0 ?
             result :

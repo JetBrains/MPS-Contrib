@@ -24,7 +24,6 @@ import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
 
 public class PQPlanarityTest {
   private static int SHOW_LOG = 0;
-
   private PQTree myTree;
   private Map<Node, List<Edge>> myEdgesOrder;
 

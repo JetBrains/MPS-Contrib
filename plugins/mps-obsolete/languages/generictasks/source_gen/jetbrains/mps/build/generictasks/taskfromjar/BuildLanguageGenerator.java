@@ -6,10 +6,9 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import java.util.Set;
-import java.util.HashSet;
 import jetbrains.mps.smodel.SModelUtil_new;
 import jetbrains.mps.project.GlobalScope;
+import org.jetbrains.mps.openapi.model.SNodeAccessUtil;
 
 public class BuildLanguageGenerator {
   private static final BuildLanguageGenerator INSTANCE = new BuildLanguageGenerator();
@@ -36,7 +35,7 @@ public class BuildLanguageGenerator {
   }
 
   public SNode createDeclarationReference(SNode decl) {
-    return new BuildLanguageGenerator.QuotationClass_moyhg6_a0a0c().createNode(decl);
+    return _quotation_createNode_moyhg6_a0a4(decl);
   }
 
   public SNode createAttributeDeclaration(String name, SNode type) {
@@ -50,21 +49,10 @@ public class BuildLanguageGenerator {
     return BuildLanguageGenerator.INSTANCE;
   }
 
-  public static class QuotationClass_moyhg6_a0a0c {
-    public QuotationClass_moyhg6_a0a0c() {
-    }
-
-    public SNode createNode(Object parameter_3) {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_1 = null;
-      {
-        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.build.generictasks.structure.TaskReference", null, GlobalScope.getInstance(), false);
-        SNode quotedNode1_2 = quotedNode_1;
-        quotedNode1_2.setReferent("declaration", (SNode) parameter_3);
-        result = quotedNode1_2;
-      }
-      return result;
-    }
+  private static SNode _quotation_createNode_moyhg6_a0a4(Object parameter_1) {
+    SNode quotedNode_2 = null;
+    quotedNode_2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.build.generictasks.structure.TaskReference", null, null, GlobalScope.getInstance(), false);
+    SNodeAccessUtil.setReferenceTarget(quotedNode_2, "declaration", (SNode) parameter_1);
+    return quotedNode_2;
   }
 }

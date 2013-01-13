@@ -11,7 +11,6 @@ import java.util.ArrayList;
 
 public class GroupedGraphModificationSynchronizer implements IGraphModificationListener {
   private static int showInfo = 0;
-
   private Map<Edge, Edge> myEdgeMap;
   private Map<Node, Node> myNodeMap;
   private Graph myGroupedGraph;

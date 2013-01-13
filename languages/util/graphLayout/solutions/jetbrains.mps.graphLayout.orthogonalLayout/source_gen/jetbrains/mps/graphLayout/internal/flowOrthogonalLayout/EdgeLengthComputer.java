@@ -19,7 +19,6 @@ import jetbrains.mps.graphLayout.algorithms.MinCostCirculation;
 public class EdgeLengthComputer {
   private static int SHOW_INFO = 0;
   private static int UNIT_LENGTH = 3;
-
   private int myUnitLength;
 
   public EdgeLengthComputer() {
