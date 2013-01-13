@@ -23,7 +23,7 @@ public class BeanDeclaration_Behavior {
   }
 
   public static SNode virtual_createType_1213877527970(SNode thisNode) {
-    jetbrains.mps.smodel.SNode type = SConceptOperations.createNewNode("jetbrains.mps.uiLanguage.structure.BeanType", null);
+    SNode type = SConceptOperations.createNewNode("jetbrains.mps.uiLanguage.structure.BeanType", null);
     SLinkOperations.setTarget(type, "bean", thisNode, false);
     return type;
   }
