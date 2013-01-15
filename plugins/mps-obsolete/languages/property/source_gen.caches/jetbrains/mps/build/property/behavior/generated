@@ -4,12 +4,12 @@
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="8v5mxg7faenizzqancdsnbkmkc74yqj" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-89hxj0ypb1mymp88cm6uftvxxpq6hll" />
   <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" hash="-1btmsuay4m0oifxjqd0wk9bex9z4aer" />
-  <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" hash="-17gwu2l2sad2ltprziuwzdksaakhflb" />
+  <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" hash="-6ms6uh6xw6ogel83ocxgvncpzgdfldf" />
   <dep model="r:00000000-0000-4000-0000-011c895904c0(jetbrains.mps.buildlanguage.behavior)" hash="1qh08yqychf9lp40o9gh5dichlswgjc" />
   <dep model="r:00000000-0000-4000-0000-011c895904c8(jetbrains.mps.buildlanguage.structure)" hash="3j0i0tmeyd54hxw139uuv692u2zgaby" />
   <dep model="r:00000000-0000-4000-0000-011c895904e2(jetbrains.mps.build.property.structure)" hash="ftybtbi9sgdf9rj9xxfvmawbd5xgqe" />
   <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" hash="-4gzq8kok50y8e26dglqtgltchbz0r19" />
-  <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" hash="-20z6x8s7opa7iow9y6oduz8btj5vbwj" />
+  <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" hash="-aurdhr4pnjsfnuy33i926r0e5rlfi6u" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="2nkg967gfmalhl29qke6mhw4pavbga4" />
   <common hash="-bvq6ibrszus9w5pxmj6qm8z7gmss9dg" dependsOnNodes="true">
     <dep root="1213877341756" />

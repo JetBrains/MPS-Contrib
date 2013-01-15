@@ -12,7 +12,7 @@ import jetbrains.mps.smodel.SModelUtil_new;
 import jetbrains.mps.project.GlobalScope;
 import jetbrains.mps.smodel.SReference;
 import jetbrains.mps.smodel.SModelReference;
-import org.jetbrains.mps.openapi.model.SNodeId;
+import jetbrains.mps.smodel.SNodeId;
 
 public class typeof_ActionsList_FunctionParameter_InferenceRule extends AbstractInferenceRule_Runtime implements InferenceRule_Runtime {
   public typeof_ActionsList_FunctionParameter_InferenceRule() {
@@ -46,7 +46,7 @@ public class typeof_ActionsList_FunctionParameter_InferenceRule extends Abstract
     SNode quotedNode_2 = null;
     quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.collections.structure.ListType", null, null, GlobalScope.getInstance(), false);
     quotedNode_2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", null, null, GlobalScope.getInstance(), false);
-    quotedNode_2.setReference("classifier", SReference.create("classifier", quotedNode_2, SModelReference.fromString("f:java_stub#742f6602-5a2f-4313-aa6e-ae1cd4ffdc61#com.intellij.openapi.actionSystem(MPS.Platform/com.intellij.openapi.actionSystem@java_stub)"), jetbrains.mps.smodel.SNodeId.fromString("~AnAction")));
+    quotedNode_2.setReference("classifier", SReference.create("classifier", quotedNode_2, SModelReference.fromString("f:java_stub#742f6602-5a2f-4313-aa6e-ae1cd4ffdc61#com.intellij.openapi.actionSystem(MPS.Platform/com.intellij.openapi.actionSystem@java_stub)"), SNodeId.fromString("~AnAction")));
     quotedNode_1.addChild("elementType", quotedNode_2);
     return quotedNode_1;
   }

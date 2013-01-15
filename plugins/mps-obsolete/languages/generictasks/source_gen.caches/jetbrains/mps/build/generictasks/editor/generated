@@ -15,13 +15,13 @@
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-89hxj0ypb1mymp88cm6uftvxxpq6hll" />
   <dep model="r:00000000-0000-4000-0000-011c895902cc(jetbrains.mps.baseLanguage.generator.java.conceptFunctionDefaults@generator)" hash="iak6qkoqvisy1gghydx23iwnxiu2qf" />
   <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" hash="-1btmsuay4m0oifxjqd0wk9bex9z4aer" />
-  <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" hash="-17gwu2l2sad2ltprziuwzdksaakhflb" />
+  <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" hash="-6ms6uh6xw6ogel83ocxgvncpzgdfldf" />
   <dep model="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" hash="ds41xwd3vhafeazos843c1dygtjbmpd" />
   <dep model="r:00000000-0000-4000-0000-011c895904c2(jetbrains.mps.buildlanguage.editor)" hash="-uu17hl9dvwju7d655x1uim7u83o4xc" />
   <dep model="r:00000000-0000-4000-0000-011c895904c8(jetbrains.mps.buildlanguage.structure)" hash="3j0i0tmeyd54hxw139uuv692u2zgaby" />
   <dep model="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" hash="6j40hpfcq2wfzpvy6vfxn7ok55osgxp" />
   <dep model="r:83b1eb02-118e-488e-ab83-e4cc714b9392(jetbrains.mps.build.generictasks.behavior)" hash="c85kw2e381nqacheptos8xmkn5r2obw" />
-  <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" hash="bs6euh09ti2t51455fhq1g1ps6uvlae" />
+  <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" hash="-aurdhr4pnjsfnuy33i926r0e5rlfi6u" />
   <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" hash="-42u6f9vbzpf201qzziwe8drcbr8ay4o" />
   <common hash="1cawfvqfslj1niqnrjjbkdj1oot2ftb" />
   <source id="353793545802643500" name="Attribute_Editor" hash="7qd2bhohhxoratdhbltsd9h6fb9pvrz">

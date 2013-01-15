@@ -12,7 +12,7 @@ import jetbrains.mps.smodel.SModelUtil_new;
 import jetbrains.mps.project.GlobalScope;
 import jetbrains.mps.smodel.SReference;
 import jetbrains.mps.smodel.SModelReference;
-import org.jetbrains.mps.openapi.model.SNodeId;
+import jetbrains.mps.smodel.SNodeId;
 
 public class typeof_ProjectExpression_InferenceRule extends AbstractInferenceRule_Runtime implements InferenceRule_Runtime {
   public typeof_ProjectExpression_InferenceRule() {
@@ -44,7 +44,7 @@ public class typeof_ProjectExpression_InferenceRule extends AbstractInferenceRul
   private static SNode _quotation_createNode_osiggc_a0a0b() {
     SNode quotedNode_1 = null;
     quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", null, null, GlobalScope.getInstance(), false);
-    quotedNode_1.setReference("classifier", SReference.create("classifier", quotedNode_1, SModelReference.fromString("f:java_stub#742f6602-5a2f-4313-aa6e-ae1cd4ffdc61#com.intellij.openapi.project(MPS.Platform/com.intellij.openapi.project@java_stub)"), jetbrains.mps.smodel.SNodeId.fromString("~Project")));
+    quotedNode_1.setReference("classifier", SReference.create("classifier", quotedNode_1, SModelReference.fromString("f:java_stub#742f6602-5a2f-4313-aa6e-ae1cd4ffdc61#com.intellij.openapi.project(MPS.Platform/com.intellij.openapi.project@java_stub)"), SNodeId.fromString("~Project")));
     return quotedNode_1;
   }
 }

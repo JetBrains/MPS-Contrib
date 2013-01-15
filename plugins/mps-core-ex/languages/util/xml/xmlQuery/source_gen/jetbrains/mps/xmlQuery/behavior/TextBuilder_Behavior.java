@@ -13,7 +13,7 @@ import jetbrains.mps.project.GlobalScope;
 import jetbrains.mps.lang.typesystem.runtime.HUtil;
 import jetbrains.mps.smodel.SReference;
 import jetbrains.mps.smodel.SModelReference;
-import org.jetbrains.mps.openapi.model.SNodeId;
+import jetbrains.mps.smodel.SNodeId;
 
 public class TextBuilder_Behavior {
   public static void init(SNode thisNode) {
@@ -85,7 +85,7 @@ public class TextBuilder_Behavior {
       quotedNode_4.addChild("operand", HUtil.copyIfNecessary(quotedNode_5));
     }
     quotedNode_6 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation", null, null, GlobalScope.getInstance(), false);
-    quotedNode_6.setReference("baseMethodDeclaration", SReference.create("baseMethodDeclaration", quotedNode_6, SModelReference.fromString("f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#org.jdom(MPS.Core/org.jdom@java_stub)"), jetbrains.mps.smodel.SNodeId.fromString("~Element.setText(java.lang.String):org.jdom.Element")));
+    quotedNode_6.setReference("baseMethodDeclaration", SReference.create("baseMethodDeclaration", quotedNode_6, SModelReference.fromString("f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#org.jdom(MPS.Core/org.jdom@java_stub)"), SNodeId.fromString("~Element.setText(java.lang.String):org.jdom.Element")));
     quotedNode_8 = (SNode) parameter_2;
     if (quotedNode_8 != null) {
       quotedNode_6.addChild("actualArgument", HUtil.copyIfNecessary(quotedNode_8));
