@@ -21,7 +21,7 @@ import jetbrains.mps.project.GlobalScope;
 import org.jetbrains.mps.openapi.model.SNodeAccessUtil;
 import jetbrains.mps.smodel.SReference;
 import jetbrains.mps.smodel.SModelReference;
-import jetbrains.mps.smodel.SNodeId;
+import org.jetbrains.mps.openapi.model.SNodeId;
 
 public class RunConfigurationDeclaration_Behavior {
   public static void init(SNode thisNode) {
@@ -104,14 +104,14 @@ public class RunConfigurationDeclaration_Behavior {
   private static SNode _quotation_createNode_ym0401_a0a1a7() {
     SNode quotedNode_1 = null;
     quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", null, null, GlobalScope.getInstance(), false);
-    quotedNode_1.setReference("classifier", SReference.create("classifier", quotedNode_1, SModelReference.fromString("r:00f87323-e6a8-42b3-9a91-892d878daf8f(jetbrains.mps.debug)"), SNodeId.fromString("251277163127780701")));
+    quotedNode_1.setReference("classifier", SReference.create("classifier", quotedNode_1, SModelReference.fromString("r:00f87323-e6a8-42b3-9a91-892d878daf8f(jetbrains.mps.debug)"), jetbrains.mps.smodel.SNodeId.fromString("251277163127780701")));
     return quotedNode_1;
   }
 
   private static SNode _quotation_createNode_ym0401_a2a7() {
     SNode quotedNode_1 = null;
     quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", null, null, GlobalScope.getInstance(), false);
-    quotedNode_1.setReference("classifier", SReference.create("classifier", quotedNode_1, SModelReference.fromString("f:java_stub#742f6602-5a2f-4313-aa6e-ae1cd4ffdc61#com.intellij.execution.configurations(MPS.Platform/com.intellij.execution.configurations@java_stub)"), SNodeId.fromString("~RunProfileState")));
+    quotedNode_1.setReference("classifier", SReference.create("classifier", quotedNode_1, SModelReference.fromString("f:java_stub#742f6602-5a2f-4313-aa6e-ae1cd4ffdc61#com.intellij.execution.configurations(MPS.Platform/com.intellij.execution.configurations@java_stub)"), jetbrains.mps.smodel.SNodeId.fromString("~RunProfileState")));
     return quotedNode_1;
   }
 

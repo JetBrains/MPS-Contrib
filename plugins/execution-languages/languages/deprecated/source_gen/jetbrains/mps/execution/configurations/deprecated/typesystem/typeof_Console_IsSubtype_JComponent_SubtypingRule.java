@@ -11,7 +11,7 @@ import jetbrains.mps.smodel.SModelUtil_new;
 import jetbrains.mps.project.GlobalScope;
 import jetbrains.mps.smodel.SReference;
 import jetbrains.mps.smodel.SModelReference;
-import jetbrains.mps.smodel.SNodeId;
+import org.jetbrains.mps.openapi.model.SNodeId;
 
 public class typeof_Console_IsSubtype_JComponent_SubtypingRule extends SubtypingRule_Runtime implements ISubtypingRule_Runtime {
   public typeof_Console_IsSubtype_JComponent_SubtypingRule() {
@@ -39,7 +39,7 @@ public class typeof_Console_IsSubtype_JComponent_SubtypingRule extends Subtyping
   private static SNode _quotation_createNode_oa5pba_a0a1() {
     SNode quotedNode_1 = null;
     quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", null, null, GlobalScope.getInstance(), false);
-    quotedNode_1.setReference("classifier", SReference.create("classifier", quotedNode_1, SModelReference.fromString("f:java_stub#742f6602-5a2f-4313-aa6e-ae1cd4ffdc61#com.intellij.execution.impl(MPS.Platform/com.intellij.execution.impl@java_stub)"), SNodeId.fromString("~ConsoleViewImpl")));
+    quotedNode_1.setReference("classifier", SReference.create("classifier", quotedNode_1, SModelReference.fromString("f:java_stub#742f6602-5a2f-4313-aa6e-ae1cd4ffdc61#com.intellij.execution.impl(MPS.Platform/com.intellij.execution.impl@java_stub)"), jetbrains.mps.smodel.SNodeId.fromString("~ConsoleViewImpl")));
     return quotedNode_1;
   }
 }
