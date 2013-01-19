@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <root nodeId="1196157277388" modelId="r:00000000-0000-4000-0000-011c89590577(jetbrains.mps.gtext.generator.baseLanguage.template.util)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590577(jetbrains.mps.gtext.generator.baseLanguage.template.util)/1196157277388">
     <nodeInfo nodeId="9105221701114936407" fileName="GTextUtil.java" startLine="17" startPosition="87" endLine="18" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ContinueStatement" />
     <nodeInfo nodeId="1196158740348" fileName="GTextUtil.java" startLine="19" startPosition="7" endLine="20" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1196172120775" fileName="GTextUtil.java" startLine="25" startPosition="81" endLine="26" endPosition="101" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -34,7 +34,7 @@
     </scopeInfo>
     <unitInfo nodeId="1196157277388" fileName="GTextUtil.java" startLine="11" startPosition="0" endLine="33" endPosition="0" unitName="jetbrains.mps.gtext.generator.baseLanguage.template.util.GTextUtil" />
   </root>
-  <root nodeId="1196171096468" modelId="r:00000000-0000-4000-0000-011c89590577(jetbrains.mps.gtext.generator.baseLanguage.template.util)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590577(jetbrains.mps.gtext.generator.baseLanguage.template.util)/1196171096468">
     <nodeInfo nodeId="1196171951690" fileName="GTextOptimizer.java" startLine="20" startPosition="132" endLine="21" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1196171838799" fileName="GTextOptimizer.java" startLine="21" startPosition="75" endLine="22" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1196171965555" fileName="GTextOptimizer.java" startLine="22" startPosition="56" endLine="23" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />

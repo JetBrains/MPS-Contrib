@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <root nodeId="1567683135099905768" modelId="r:aaa157bb-ca55-4102-b902-1e3083b4020b(internalTest)">
+  <root nodeRef="r:aaa157bb-ca55-4102-b902-1e3083b4020b(internalTest)/1567683135099905768">
     <nodeInfo nodeId="1567683135099905876" fileName="TestRandomGraph_Test.java" startLine="17" startPosition="56" endLine="18" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1567683135099905885" fileName="TestRandomGraph_Test.java" startLine="18" startPosition="34" endLine="19" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1567683135099905891" fileName="TestRandomGraph_Test.java" startLine="19" startPosition="22" endLine="20" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />

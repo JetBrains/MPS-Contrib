@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <root nodeId="1169555993608" modelId="r:00000000-0000-4000-0000-011c895903d8(jetbrains.mps.baseLanguage.dates.generator.baseLanguage.template.util)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c895903d8(jetbrains.mps.baseLanguage.dates.generator.baseLanguage.template.util)/1169555993608">
     <nodeInfo nodeId="1224671086657" fileName="DatesQueriesUtil.java" startLine="13" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="FORMAL_TABLES_CONTAINER" />
     <nodeInfo nodeId="1173785483869" fileName="DatesQueriesUtil.java" startLine="15" startPosition="47" endLine="16" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1169556267870" fileName="DatesQueriesUtil.java" startLine="19" startPosition="88" endLine="20" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <root nodeId="1234548035318" modelId="r:e40d20f2-e58e-407b-ac00-b1e03796df98(jetbrains.mps.gtext.textGen)">
+  <root nodeRef="r:e40d20f2-e58e-407b-ac00-b1e03796df98(jetbrains.mps.gtext.textGen)/1234548035318">
     <nodeInfo nodeId="1234548035318" fileName="GConditionalLine_TextGen.java" startLine="18" startPosition="44" endLine="19" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1234548072518" fileName="GConditionalLine_TextGen.java" startLine="21" startPosition="61" endLine="22" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1237463991927" fileName="GConditionalLine_TextGen.java" startLine="25" startPosition="73" endLine="26" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -46,7 +46,7 @@
     </scopeInfo>
     <unitInfo nodeId="1234548035318" fileName="GConditionalLine_TextGen.java" startLine="16" startPosition="0" endLine="47" endPosition="0" unitName="jetbrains.mps.gtext.textGen.GConditionalLine_TextGen" />
   </root>
-  <root nodeId="1234548158731" modelId="r:e40d20f2-e58e-407b-ac00-b1e03796df98(jetbrains.mps.gtext.textGen)">
+  <root nodeRef="r:e40d20f2-e58e-407b-ac00-b1e03796df98(jetbrains.mps.gtext.textGen)/1234548158731">
     <nodeInfo nodeId="1234548158731" fileName="GDocument_TextGen.java" startLine="18" startPosition="44" endLine="19" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1237463992939" fileName="GDocument_TextGen.java" startLine="22" startPosition="73" endLine="23" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1234548158731" fileName="GDocument_TextGen.java" startLine="27" startPosition="7" endLine="28" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -90,7 +90,7 @@
     </scopeInfo>
     <unitInfo nodeId="1234548158731" fileName="GDocument_TextGen.java" startLine="16" startPosition="0" endLine="45" endPosition="0" unitName="jetbrains.mps.gtext.textGen.GDocument_TextGen" />
   </root>
-  <root nodeId="1234795388634" modelId="r:e40d20f2-e58e-407b-ac00-b1e03796df98(jetbrains.mps.gtext.textGen)">
+  <root nodeRef="r:e40d20f2-e58e-407b-ac00-b1e03796df98(jetbrains.mps.gtext.textGen)/1234795388634">
     <nodeInfo nodeId="1234795388634" fileName="GExpressionItem_TextGen.java" startLine="15" startPosition="44" endLine="16" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1237463993104" fileName="GExpressionItem_TextGen.java" startLine="17" startPosition="5" endLine="18" endPosition="237" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1237463993104" fileName="GExpressionItem_TextGen.java" startLine="17" startPosition="5" endLine="18" endPosition="237" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -121,7 +121,7 @@
     </scopeInfo>
     <unitInfo nodeId="1234795388634" fileName="GExpressionItem_TextGen.java" startLine="13" startPosition="0" endLine="34" endPosition="0" unitName="jetbrains.mps.gtext.textGen.GExpressionItem_TextGen" />
   </root>
-  <root nodeId="1234795590692" modelId="r:e40d20f2-e58e-407b-ac00-b1e03796df98(jetbrains.mps.gtext.textGen)">
+  <root nodeRef="r:e40d20f2-e58e-407b-ac00-b1e03796df98(jetbrains.mps.gtext.textGen)/1234795590692">
     <nodeInfo nodeId="1234795590692" fileName="GIndent_TextGen.java" startLine="14" startPosition="44" endLine="15" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1234795617949" fileName="GIndent_TextGen.java" startLine="16" startPosition="5" endLine="17" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1234795590692" fileName="GIndent_TextGen.java" startLine="19" startPosition="7" endLine="20" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -150,7 +150,7 @@
     </scopeInfo>
     <unitInfo nodeId="1234795590692" fileName="GIndent_TextGen.java" startLine="12" startPosition="0" endLine="33" endPosition="0" unitName="jetbrains.mps.gtext.textGen.GIndent_TextGen" />
   </root>
-  <root nodeId="1234795623590" modelId="r:e40d20f2-e58e-407b-ac00-b1e03796df98(jetbrains.mps.gtext.textGen)">
+  <root nodeRef="r:e40d20f2-e58e-407b-ac00-b1e03796df98(jetbrains.mps.gtext.textGen)/1234795623590">
     <nodeInfo nodeId="1234795623590" fileName="GIndentBlock_TextGen.java" startLine="16" startPosition="44" endLine="17" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1236685424659" fileName="GIndentBlock_TextGen.java" startLine="18" startPosition="5" endLine="19" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1237463992960" fileName="GIndentBlock_TextGen.java" startLine="19" startPosition="25" endLine="20" endPosition="150" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
@@ -186,7 +186,7 @@
     </scopeInfo>
     <unitInfo nodeId="1234795623590" fileName="GIndentBlock_TextGen.java" startLine="14" startPosition="0" endLine="37" endPosition="0" unitName="jetbrains.mps.gtext.textGen.GIndentBlock_TextGen" />
   </root>
-  <root nodeId="1234795650950" modelId="r:e40d20f2-e58e-407b-ac00-b1e03796df98(jetbrains.mps.gtext.textGen)">
+  <root nodeRef="r:e40d20f2-e58e-407b-ac00-b1e03796df98(jetbrains.mps.gtext.textGen)/1234795650950">
     <nodeInfo nodeId="1234795650950" fileName="GItemList_TextGen.java" startLine="17" startPosition="44" endLine="18" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1237463993067" fileName="GItemList_TextGen.java" startLine="21" startPosition="73" endLine="22" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1234795650950" fileName="GItemList_TextGen.java" startLine="26" startPosition="7" endLine="27" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -224,7 +224,7 @@
     </scopeInfo>
     <unitInfo nodeId="1234795650950" fileName="GItemList_TextGen.java" startLine="15" startPosition="0" endLine="40" endPosition="0" unitName="jetbrains.mps.gtext.textGen.GItemList_TextGen" />
   </root>
-  <root nodeId="1234795672226" modelId="r:e40d20f2-e58e-407b-ac00-b1e03796df98(jetbrains.mps.gtext.textGen)">
+  <root nodeRef="r:e40d20f2-e58e-407b-ac00-b1e03796df98(jetbrains.mps.gtext.textGen)/1234795672226">
     <nodeInfo nodeId="1234795672226" fileName="GLine_TextGen.java" startLine="17" startPosition="44" endLine="18" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1234795680152" fileName="GLine_TextGen.java" startLine="19" startPosition="5" endLine="20" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1237463992085" fileName="GLine_TextGen.java" startLine="22" startPosition="73" endLine="23" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -264,7 +264,7 @@
     </scopeInfo>
     <unitInfo nodeId="1234795672226" fileName="GLine_TextGen.java" startLine="15" startPosition="0" endLine="42" endPosition="0" unitName="jetbrains.mps.gtext.textGen.GLine_TextGen" />
   </root>
-  <root nodeId="1234795724821" modelId="r:e40d20f2-e58e-407b-ac00-b1e03796df98(jetbrains.mps.gtext.textGen)">
+  <root nodeRef="r:e40d20f2-e58e-407b-ac00-b1e03796df98(jetbrains.mps.gtext.textGen)/1234795724821">
     <nodeInfo nodeId="1234795724821" fileName="GNewLine_TextGen.java" startLine="14" startPosition="44" endLine="15" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1237463992134" fileName="GNewLine_TextGen.java" startLine="16" startPosition="5" endLine="17" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1237463992134" fileName="GNewLine_TextGen.java" startLine="16" startPosition="5" endLine="17" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -295,7 +295,7 @@
     </scopeInfo>
     <unitInfo nodeId="1234795724821" fileName="GNewLine_TextGen.java" startLine="12" startPosition="0" endLine="33" endPosition="0" unitName="jetbrains.mps.gtext.textGen.GNewLine_TextGen" />
   </root>
-  <root nodeId="1234795740185" modelId="r:e40d20f2-e58e-407b-ac00-b1e03796df98(jetbrains.mps.gtext.textGen)">
+  <root nodeRef="r:e40d20f2-e58e-407b-ac00-b1e03796df98(jetbrains.mps.gtext.textGen)/1234795740185">
     <nodeInfo nodeId="1234795740185" fileName="GSeparatorItemList_TextGen.java" startLine="17" startPosition="44" endLine="18" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1237463992309" fileName="GSeparatorItemList_TextGen.java" startLine="21" startPosition="98" endLine="22" endPosition="155" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1237463992309" fileName="GSeparatorItemList_TextGen.java" startLine="21" startPosition="98" endLine="22" endPosition="155" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
@@ -338,7 +338,7 @@
     </scopeInfo>
     <unitInfo nodeId="1234795740185" fileName="GSeparatorItemList_TextGen.java" startLine="15" startPosition="0" endLine="41" endPosition="0" unitName="jetbrains.mps.gtext.textGen.GSeparatorItemList_TextGen" />
   </root>
-  <root nodeId="1234795820889" modelId="r:e40d20f2-e58e-407b-ac00-b1e03796df98(jetbrains.mps.gtext.textGen)">
+  <root nodeRef="r:e40d20f2-e58e-407b-ac00-b1e03796df98(jetbrains.mps.gtext.textGen)/1234795820889">
     <nodeInfo nodeId="1234795820889" fileName="GText_TextGen.java" startLine="15" startPosition="44" endLine="16" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1237463992333" fileName="GText_TextGen.java" startLine="17" startPosition="5" endLine="18" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1237463992333" fileName="GText_TextGen.java" startLine="17" startPosition="5" endLine="18" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />

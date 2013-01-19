@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <root nodeId="1167512717589" modelId="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)/1167512717589">
     <nodeInfo nodeId="1167842456241" fileName="ElementWithContent_Editor.java" startLine="87" startPosition="58" endLine="87" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1167512717589" fileName="ElementWithContent_Editor.java" startLine="24" startPosition="79" endLine="25" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1167840624744" fileName="ElementWithContent_Editor.java" startLine="28" startPosition="89" endLine="29" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -205,7 +205,7 @@
     <unitInfo nodeId="1167840625637" fileName="ElementWithContent_Editor.java" startLine="109" startPosition="48" endLine="119" endPosition="7" unitName="jetbrains.mps.xmlSchema.editor.ElementWithContent_Editor$1" />
     <unitInfo nodeId="1167512717589" fileName="ElementWithContent_Editor.java" startLine="23" startPosition="0" endLine="136" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.ElementWithContent_Editor" />
   </root>
-  <root nodeId="1167513266715" modelId="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)/1167513266715">
     <nodeInfo nodeId="1167538034787" fileName="Schema_Editor.java" startLine="211" startPosition="58" endLine="211" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1189989010368" fileName="Schema_Editor.java" startLine="228" startPosition="58" endLine="228" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1167513266715" fileName="Schema_Editor.java" startLine="29" startPosition="79" endLine="30" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -719,7 +719,7 @@
     <unitInfo nodeId="1167514049081" fileName="Schema_Editor.java" startLine="33" startPosition="0" endLine="68" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.Schema_Editor$declarationBlockListHandler_rivvfp_g0" />
     <unitInfo nodeId="1167513266715" fileName="Schema_Editor.java" startLine="28" startPosition="0" endLine="294" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.Schema_Editor" />
   </root>
-  <root nodeId="1167513860213" modelId="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)/1167513860213">
     <nodeInfo nodeId="1167513860213" fileName="Declaration_Editor.java" startLine="12" startPosition="79" endLine="13" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1167513862574" fileName="Declaration_Editor.java" startLine="16" startPosition="84" endLine="17" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1167513862574" fileName="Declaration_Editor.java" startLine="17" startPosition="91" endLine="18" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
@@ -742,7 +742,7 @@
     </scopeInfo>
     <unitInfo nodeId="1167513860213" fileName="Declaration_Editor.java" startLine="11" startPosition="0" endLine="22" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.Declaration_Editor" />
   </root>
-  <root nodeId="1167530081896" modelId="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)/1167530081896">
     <nodeInfo nodeId="1167845871799" fileName="Sequence_Editor.java" startLine="35" startPosition="5" endLine="35" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1167845872822" fileName="Sequence_Editor.java" startLine="121" startPosition="58" endLine="121" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1167845933925" fileName="Sequence_Editor.java" startLine="138" startPosition="58" endLine="138" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
@@ -1002,7 +1002,7 @@
     </scopeInfo>
     <unitInfo nodeId="1167530081896" fileName="Sequence_Editor.java" startLine="22" startPosition="0" endLine="154" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.Sequence_Editor" />
   </root>
-  <root nodeId="1167531091462" modelId="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)/1167531091462">
     <nodeInfo nodeId="1167531095073" fileName="ElementReference_Editor.java" startLine="92" startPosition="58" endLine="92" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1167531091462" fileName="ElementReference_Editor.java" startLine="23" startPosition="79" endLine="24" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1167531095074" fileName="ElementReference_Editor.java" startLine="28" startPosition="33" endLine="29" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
@@ -1134,7 +1134,7 @@
     <unitInfo nodeId="1167531095074" fileName="ElementReference_Editor.java" startLine="27" startPosition="0" endLine="78" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.ElementReference_Editor$_Inline_uugm4e_a0a" />
     <unitInfo nodeId="1167531091462" fileName="ElementReference_Editor.java" startLine="22" startPosition="0" endLine="104" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.ElementReference_Editor" />
   </root>
-  <root nodeId="1167590974633" modelId="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)/1167590974633">
     <nodeInfo nodeId="1167590974633" fileName="TypeExpression_Editor.java" startLine="12" startPosition="79" endLine="13" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1167590977432" fileName="TypeExpression_Editor.java" startLine="16" startPosition="84" endLine="17" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1167590977432" fileName="TypeExpression_Editor.java" startLine="17" startPosition="94" endLine="18" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
@@ -1157,7 +1157,7 @@
     </scopeInfo>
     <unitInfo nodeId="1167590974633" fileName="TypeExpression_Editor.java" startLine="11" startPosition="0" endLine="22" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.TypeExpression_Editor" />
   </root>
-  <root nodeId="1167593521995" modelId="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)/1167593521995">
     <nodeInfo nodeId="1167593521995" fileName="MixedAttribute_Editor.java" startLine="15" startPosition="79" endLine="16" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1167593524357" fileName="MixedAttribute_Editor.java" startLine="19" startPosition="87" endLine="20" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1167593524357" fileName="MixedAttribute_Editor.java" startLine="20" startPosition="91" endLine="21" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -1187,7 +1187,7 @@
     </scopeInfo>
     <unitInfo nodeId="1167593521995" fileName="MixedAttribute_Editor.java" startLine="14" startPosition="0" endLine="30" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.MixedAttribute_Editor" />
   </root>
-  <root nodeId="1167597339637" modelId="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)/1167597339637">
     <nodeInfo nodeId="1167849178600" fileName="GroupDeclaration_Editor.java" startLine="58" startPosition="58" endLine="58" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1167597339637" fileName="GroupDeclaration_Editor.java" startLine="21" startPosition="79" endLine="22" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1167849178596" fileName="GroupDeclaration_Editor.java" startLine="25" startPosition="89" endLine="26" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -1327,7 +1327,7 @@
     </scopeInfo>
     <unitInfo nodeId="1167597339637" fileName="GroupDeclaration_Editor.java" startLine="20" startPosition="0" endLine="92" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.GroupDeclaration_Editor" />
   </root>
-  <root nodeId="1167598096093" modelId="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)/1167598096093">
     <nodeInfo nodeId="1167598096093" fileName="GroupExpression_Editor.java" startLine="12" startPosition="79" endLine="13" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1167598097970" fileName="GroupExpression_Editor.java" startLine="16" startPosition="84" endLine="17" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1167598097970" fileName="GroupExpression_Editor.java" startLine="17" startPosition="95" endLine="18" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
@@ -1350,7 +1350,7 @@
     </scopeInfo>
     <unitInfo nodeId="1167598096093" fileName="GroupExpression_Editor.java" startLine="11" startPosition="0" endLine="22" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.GroupExpression_Editor" />
   </root>
-  <root nodeId="1167598440511" modelId="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)/1167598440511">
     <nodeInfo nodeId="1167613695342" fileName="Choice_Editor.java" startLine="73" startPosition="58" endLine="73" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1167796535885" fileName="Choice_Editor.java" startLine="90" startPosition="58" endLine="90" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1167598440511" fileName="Choice_Editor.java" startLine="20" startPosition="79" endLine="21" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -1512,7 +1512,7 @@
     </scopeInfo>
     <unitInfo nodeId="1167598440511" fileName="Choice_Editor.java" startLine="19" startPosition="0" endLine="102" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.Choice_Editor" />
   </root>
-  <root nodeId="1167611675668" modelId="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)/1167611675668">
     <nodeInfo nodeId="1167611679733" fileName="GroupReference_Editor.java" startLine="75" startPosition="58" endLine="75" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1167611675668" fileName="GroupReference_Editor.java" startLine="21" startPosition="79" endLine="22" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1167611679734" fileName="GroupReference_Editor.java" startLine="26" startPosition="33" endLine="27" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
@@ -1629,7 +1629,7 @@
     <unitInfo nodeId="1167611679734" fileName="GroupReference_Editor.java" startLine="25" startPosition="0" endLine="61" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.GroupReference_Editor$_Inline_b7gqtc_a0a" />
     <unitInfo nodeId="1167611675668" fileName="GroupReference_Editor.java" startLine="20" startPosition="0" endLine="87" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.GroupReference_Editor" />
   </root>
-  <root nodeId="1167613655178" modelId="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)/1167613655178">
     <nodeInfo nodeId="1167614680720" fileName="OccursAttribute_Editor.java" startLine="69" startPosition="58" endLine="69" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1167613655178" fileName="OccursAttribute_Editor.java" startLine="20" startPosition="79" endLine="21" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1167613658056" fileName="OccursAttribute_Editor.java" startLine="24" startPosition="89" endLine="25" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -1787,7 +1787,7 @@
     </scopeInfo>
     <unitInfo nodeId="1167613655178" fileName="OccursAttribute_Editor.java" startLine="19" startPosition="0" endLine="100" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.OccursAttribute_Editor" />
   </root>
-  <root nodeId="1167614643074" modelId="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)/1167614643074">
     <nodeInfo nodeId="1167614643074" fileName="MaxOccursExpression_Editor.java" startLine="12" startPosition="79" endLine="13" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1167614645514" fileName="MaxOccursExpression_Editor.java" startLine="16" startPosition="84" endLine="17" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1167614645514" fileName="MaxOccursExpression_Editor.java" startLine="17" startPosition="99" endLine="18" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
@@ -1810,7 +1810,7 @@
     </scopeInfo>
     <unitInfo nodeId="1167614643074" fileName="MaxOccursExpression_Editor.java" startLine="11" startPosition="0" endLine="22" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.MaxOccursExpression_Editor" />
   </root>
-  <root nodeId="1167614833105" modelId="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)/1167614833105">
     <nodeInfo nodeId="1167614833105" fileName="UnboundExpression_Editor.java" startLine="15" startPosition="79" endLine="16" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1167614837295" fileName="UnboundExpression_Editor.java" startLine="19" startPosition="87" endLine="20" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1167614837295" fileName="UnboundExpression_Editor.java" startLine="20" startPosition="95" endLine="21" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -1840,7 +1840,7 @@
     </scopeInfo>
     <unitInfo nodeId="1167614833105" fileName="UnboundExpression_Editor.java" startLine="14" startPosition="0" endLine="30" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.UnboundExpression_Editor" />
   </root>
-  <root nodeId="1167615804489" modelId="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)/1167615804489">
     <nodeInfo nodeId="1167841768157" fileName="ComplexType_Editor.java" startLine="89" startPosition="58" endLine="89" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1167841550625" fileName="ComplexType_Editor.java" startLine="106" startPosition="58" endLine="106" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1167615804489" fileName="ComplexType_Editor.java" startLine="21" startPosition="79" endLine="22" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -2077,7 +2077,7 @@
     </scopeInfo>
     <unitInfo nodeId="1167615804489" fileName="ComplexType_Editor.java" startLine="20" startPosition="0" endLine="141" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.ComplexType_Editor" />
   </root>
-  <root nodeId="1167618379609" modelId="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)/1167618379609">
     <nodeInfo nodeId="1167790745573" fileName="Extension_Editor.java" startLine="73" startPosition="58" endLine="73" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1167797668227" fileName="Extension_Editor.java" startLine="90" startPosition="58" endLine="90" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1167618379609" fileName="Extension_Editor.java" startLine="20" startPosition="79" endLine="21" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -2239,7 +2239,7 @@
     </scopeInfo>
     <unitInfo nodeId="1167618379609" fileName="Extension_Editor.java" startLine="19" startPosition="0" endLine="102" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.Extension_Editor" />
   </root>
-  <root nodeId="1167620631684" modelId="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)/1167620631684">
     <nodeInfo nodeId="1167620631684" fileName="DeclarationBlock_Editor.java" startLine="23" startPosition="79" endLine="24" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1167620882683" fileName="DeclarationBlock_Editor.java" startLine="28" startPosition="100" endLine="29" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
     <nodeInfo nodeId="1167620882683" fileName="DeclarationBlock_Editor.java" startLine="32" startPosition="66" endLine="33" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -2505,7 +2505,7 @@
     <unitInfo nodeId="1167621127144" fileName="DeclarationBlock_Editor.java" startLine="63" startPosition="0" endLine="98" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.DeclarationBlock_Editor$declarationListHandler_gu9gxo_b2a" />
     <unitInfo nodeId="1167620631684" fileName="DeclarationBlock_Editor.java" startLine="22" startPosition="0" endLine="170" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.DeclarationBlock_Editor" />
   </root>
-  <root nodeId="1167620806223" modelId="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)/1167620806223">
     <nodeInfo nodeId="1167620806223" fileName="TextLine_Editor.java" startLine="19" startPosition="79" endLine="20" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1167620808615" fileName="TextLine_Editor.java" startLine="23" startPosition="87" endLine="24" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1167620808615" fileName="TextLine_Editor.java" startLine="24" startPosition="82" endLine="25" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -2555,7 +2555,7 @@
     </scopeInfo>
     <unitInfo nodeId="1167620806223" fileName="TextLine_Editor.java" startLine="18" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.TextLine_Editor" />
   </root>
-  <root nodeId="1167697905197" modelId="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)/1167697905197">
     <nodeInfo nodeId="1168468339525" fileName="AttributeDeclaration_Editor.java" startLine="70" startPosition="58" endLine="70" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="5496586556363185430" fileName="AttributeDeclaration_Editor.java" startLine="87" startPosition="58" endLine="87" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1167697905197" fileName="AttributeDeclaration_Editor.java" startLine="24" startPosition="79" endLine="25" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -2762,7 +2762,7 @@
     <unitInfo nodeId="1167698123899" fileName="AttributeDeclaration_Editor.java" startLine="109" startPosition="48" endLine="119" endPosition="7" unitName="jetbrains.mps.xmlSchema.editor.AttributeDeclaration_Editor$1" />
     <unitInfo nodeId="1167697905197" fileName="AttributeDeclaration_Editor.java" startLine="23" startPosition="0" endLine="136" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.AttributeDeclaration_Editor" />
   </root>
-  <root nodeId="1167710798803" modelId="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)/1167710798803">
     <nodeInfo nodeId="1167710798803" fileName="AttributeGroup_Editor.java" startLine="30" startPosition="79" endLine="31" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1167711109079" fileName="AttributeGroup_Editor.java" startLine="35" startPosition="111" endLine="36" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
     <nodeInfo nodeId="1167711109079" fileName="AttributeGroup_Editor.java" startLine="39" startPosition="66" endLine="40" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -2979,7 +2979,7 @@
     <unitInfo nodeId="1167711109079" fileName="AttributeGroup_Editor.java" startLine="34" startPosition="0" endLine="90" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.AttributeGroup_Editor$attributeExpressionListHandler_iaz9pw_d0" />
     <unitInfo nodeId="1167710798803" fileName="AttributeGroup_Editor.java" startLine="29" startPosition="0" endLine="150" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.AttributeGroup_Editor" />
   </root>
-  <root nodeId="1167711074856" modelId="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)/1167711074856">
     <nodeInfo nodeId="1167711074856" fileName="AttributeExpression_Editor.java" startLine="12" startPosition="79" endLine="13" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1167711077123" fileName="AttributeExpression_Editor.java" startLine="16" startPosition="84" endLine="17" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1167711077123" fileName="AttributeExpression_Editor.java" startLine="17" startPosition="99" endLine="18" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
@@ -3002,7 +3002,7 @@
     </scopeInfo>
     <unitInfo nodeId="1167711074856" fileName="AttributeExpression_Editor.java" startLine="11" startPosition="0" endLine="22" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.AttributeExpression_Editor" />
   </root>
-  <root nodeId="1167711447917" modelId="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)/1167711447917">
     <nodeInfo nodeId="1167711450747" fileName="AttributeGroupReference_Editor.java" startLine="77" startPosition="58" endLine="77" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1167711447917" fileName="AttributeGroupReference_Editor.java" startLine="22" startPosition="79" endLine="23" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1167711450748" fileName="AttributeGroupReference_Editor.java" startLine="27" startPosition="33" endLine="28" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
@@ -3120,7 +3120,7 @@
     <unitInfo nodeId="1167711450748" fileName="AttributeGroupReference_Editor.java" startLine="26" startPosition="0" endLine="63" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.AttributeGroupReference_Editor$_Inline_2syzia_a0a" />
     <unitInfo nodeId="1167711447917" fileName="AttributeGroupReference_Editor.java" startLine="21" startPosition="0" endLine="89" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.AttributeGroupReference_Editor" />
   </root>
-  <root nodeId="1167790596228" modelId="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)/1167790596228">
     <nodeInfo nodeId="1167790598964" fileName="ComplexTypeReference_Editor.java" startLine="75" startPosition="58" endLine="75" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1167790596228" fileName="ComplexTypeReference_Editor.java" startLine="21" startPosition="79" endLine="22" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1167790598965" fileName="ComplexTypeReference_Editor.java" startLine="26" startPosition="32" endLine="27" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
@@ -3237,7 +3237,7 @@
     <unitInfo nodeId="1167790598965" fileName="ComplexTypeReference_Editor.java" startLine="25" startPosition="0" endLine="61" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.ComplexTypeReference_Editor$_Inline_tvlol_a0a" />
     <unitInfo nodeId="1167790596228" fileName="ComplexTypeReference_Editor.java" startLine="20" startPosition="0" endLine="87" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.ComplexTypeReference_Editor" />
   </root>
-  <root nodeId="1167794459025" modelId="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)/1167794459025">
     <nodeInfo nodeId="1167794787588" fileName="ComplexContent_Editor.java" startLine="48" startPosition="58" endLine="48" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1167794459025" fileName="ComplexContent_Editor.java" startLine="20" startPosition="79" endLine="21" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1167794462731" fileName="ComplexContent_Editor.java" startLine="24" startPosition="88" endLine="25" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -3318,7 +3318,7 @@
     </scopeInfo>
     <unitInfo nodeId="1167794459025" fileName="ComplexContent_Editor.java" startLine="19" startPosition="0" endLine="60" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.ComplexContent_Editor" />
   </root>
-  <root nodeId="1167794590583" modelId="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)/1167794590583">
     <nodeInfo nodeId="1167794590583" fileName="ContentItem_Editor.java" startLine="12" startPosition="79" endLine="13" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1167794592694" fileName="ContentItem_Editor.java" startLine="16" startPosition="84" endLine="17" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1167794592694" fileName="ContentItem_Editor.java" startLine="17" startPosition="91" endLine="18" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
@@ -3341,7 +3341,7 @@
     </scopeInfo>
     <unitInfo nodeId="1167794590583" fileName="ContentItem_Editor.java" startLine="11" startPosition="0" endLine="22" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.ContentItem_Editor" />
   </root>
-  <root nodeId="1167795643449" modelId="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)/1167795643449">
     <nodeInfo nodeId="1167845612916" fileName="TypeExpressionList_Editor.java" startLine="151" startPosition="5" endLine="151" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1167795643449" fileName="TypeExpressionList_Editor.java" startLine="27" startPosition="79" endLine="28" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1167845614863" fileName="TypeExpressionList_Editor.java" startLine="32" startPosition="106" endLine="33" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
@@ -3594,7 +3594,7 @@
     <unitInfo nodeId="1167845614863" fileName="TypeExpressionList_Editor.java" startLine="31" startPosition="0" endLine="91" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.TypeExpressionList_Editor$typeExpressionListHandler_kgtkmm_a0" />
     <unitInfo nodeId="1167795643449" fileName="TypeExpressionList_Editor.java" startLine="26" startPosition="0" endLine="175" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.TypeExpressionList_Editor" />
   </root>
-  <root nodeId="1167798225363" modelId="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)/1167798225363">
     <nodeInfo nodeId="1167798225363" fileName="SimpleContent_Editor.java" startLine="15" startPosition="79" endLine="16" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1167851383238" fileName="SimpleContent_Editor.java" startLine="19" startPosition="87" endLine="20" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1167851383238" fileName="SimpleContent_Editor.java" startLine="20" startPosition="99" endLine="21" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -3624,7 +3624,7 @@
     </scopeInfo>
     <unitInfo nodeId="1167798225363" fileName="SimpleContent_Editor.java" startLine="14" startPosition="0" endLine="30" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.SimpleContent_Editor" />
   </root>
-  <root nodeId="1167838396851" modelId="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)/1167838396851">
     <nodeInfo nodeId="1167848806418" fileName="ElementWithType_Editor.java" startLine="70" startPosition="58" endLine="70" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1167839577719" fileName="ElementWithType_Editor.java" startLine="87" startPosition="58" endLine="87" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1167838396851" fileName="ElementWithType_Editor.java" startLine="24" startPosition="79" endLine="25" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -3831,7 +3831,7 @@
     <unitInfo nodeId="1167838910667" fileName="ElementWithType_Editor.java" startLine="109" startPosition="48" endLine="119" endPosition="7" unitName="jetbrains.mps.xmlSchema.editor.ElementWithType_Editor$1" />
     <unitInfo nodeId="1167838396851" fileName="ElementWithType_Editor.java" startLine="23" startPosition="0" endLine="136" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.ElementWithType_Editor" />
   </root>
-  <root nodeId="1168467654230" modelId="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)/1168467654230">
     <nodeInfo nodeId="1168467654230" fileName="UseAttribute_Editor.java" startLine="17" startPosition="79" endLine="18" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1168467657264" fileName="UseAttribute_Editor.java" startLine="21" startPosition="89" endLine="22" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1168467657264" fileName="UseAttribute_Editor.java" startLine="22" startPosition="99" endLine="23" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
@@ -3924,7 +3924,7 @@
     </scopeInfo>
     <unitInfo nodeId="1168467654230" fileName="UseAttribute_Editor.java" startLine="16" startPosition="0" endLine="62" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.UseAttribute_Editor" />
   </root>
-  <root nodeId="1172950062752" modelId="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)/1172950062752">
     <nodeInfo nodeId="1172950062752" fileName="EntityDeclaration_Editor.java" startLine="17" startPosition="79" endLine="18" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1172950066020" fileName="EntityDeclaration_Editor.java" startLine="21" startPosition="89" endLine="22" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1172950066020" fileName="EntityDeclaration_Editor.java" startLine="22" startPosition="99" endLine="23" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
@@ -4034,7 +4034,7 @@
     </scopeInfo>
     <unitInfo nodeId="1172950062752" fileName="EntityDeclaration_Editor.java" startLine="16" startPosition="0" endLine="70" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.EntityDeclaration_Editor" />
   </root>
-  <root nodeId="1172950296325" modelId="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)/1172950296325">
     <nodeInfo nodeId="1172963331693" fileName="EntitySet_Editor.java" startLine="84" startPosition="5" endLine="84" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1172950296325" fileName="EntitySet_Editor.java" startLine="32" startPosition="79" endLine="33" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1172950296325" fileName="EntitySet_Editor.java" startLine="36" startPosition="82" endLine="37" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -4516,7 +4516,7 @@
     <unitInfo nodeId="1172952127148" fileName="EntitySet_Editor.java" startLine="40" startPosition="0" endLine="75" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.EntitySet_Editor$entityBlockListHandler_bj9nw6_c0" />
     <unitInfo nodeId="1172950296325" fileName="EntitySet_Editor.java" startLine="31" startPosition="0" endLine="285" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.EntitySet_Editor" />
   </root>
-  <root nodeId="1172952069720" modelId="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)/1172952069720">
     <nodeInfo nodeId="8298759866585064475" fileName="EntityBlock_Editor.java" startLine="111" startPosition="58" endLine="111" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1172952069720" fileName="EntityBlock_Editor.java" startLine="27" startPosition="79" endLine="28" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1172959415342" fileName="EntityBlock_Editor.java" startLine="32" startPosition="102" endLine="33" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
@@ -4694,7 +4694,7 @@
     <unitInfo nodeId="1172959415342" fileName="EntityBlock_Editor.java" startLine="31" startPosition="0" endLine="77" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.EntityBlock_Editor$entityLineListHandler_ddir2p_b0" />
     <unitInfo nodeId="1172952069720" fileName="EntityBlock_Editor.java" startLine="26" startPosition="0" endLine="123" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.EntityBlock_Editor" />
   </root>
-  <root nodeId="1172959522212" modelId="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)/1172959522212">
     <nodeInfo nodeId="1172959556779" fileName="EntityLine_Editor.java" startLine="33" startPosition="58" endLine="33" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="8298759866585064472" fileName="EntityLine_Editor.java" startLine="50" startPosition="58" endLine="50" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1172959522212" fileName="EntityLine_Editor.java" startLine="16" startPosition="79" endLine="17" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -4787,14 +4787,14 @@
     </scopeInfo>
     <unitInfo nodeId="1172959522212" fileName="EntityLine_Editor.java" startLine="15" startPosition="0" endLine="62" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.EntityLine_Editor" />
   </root>
-  <root nodeId="1178296794013" modelId="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)/1178296794013">
     <nodeInfo nodeId="1178296808264" fileName="XmlColorConstants.java" startLine="8" startPosition="0" endLine="9" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="XML_COLOR" />
     <nodeInfo nodeId="8949395081772940791" fileName="XmlColorConstants.java" startLine="10" startPosition="0" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="XmlColorConstants#()V" />
     <scopeInfo nodeId="8949395081772940793" fileName="XmlColorConstants.java" startLine="10" startPosition="30" endLine="10" endPosition="30" />
     <scopeInfo nodeId="8949395081772940791" fileName="XmlColorConstants.java" startLine="10" startPosition="0" endLine="12" endPosition="0" />
     <unitInfo nodeId="1178296794013" fileName="XmlColorConstants.java" startLine="7" startPosition="0" endLine="13" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.XmlColorConstants" />
   </root>
-  <root nodeId="1189887895767" modelId="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)/1189887895767">
     <nodeInfo nodeId="1189887895767" fileName="NamespaceDeclaration_Editor.java" startLine="17" startPosition="79" endLine="18" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1189887898316" fileName="NamespaceDeclaration_Editor.java" startLine="21" startPosition="89" endLine="22" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1189887898316" fileName="NamespaceDeclaration_Editor.java" startLine="22" startPosition="99" endLine="23" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
@@ -4957,7 +4957,7 @@
     </scopeInfo>
     <unitInfo nodeId="1189887895767" fileName="NamespaceDeclaration_Editor.java" startLine="16" startPosition="0" endLine="97" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.NamespaceDeclaration_Editor" />
   </root>
-  <root nodeId="1189991321651" modelId="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)/1189991321651">
     <nodeInfo nodeId="1189991321651" fileName="XmlSchema_StyleSheet.java" startLine="15" startPosition="60" endLine="16" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1189991321651" fileName="XmlSchema_StyleSheet.java" startLine="27" startPosition="7" endLine="28" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1189991321651" fileName="XmlSchema_StyleSheet.java" startLine="28" startPosition="57" endLine="29" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -4985,7 +4985,7 @@
     <unitInfo nodeId="1189991321651" fileName="XmlSchema_StyleSheet.java" startLine="17" startPosition="46" endLine="27" endPosition="5" unitName="jetbrains.mps.xmlSchema.editor.XmlSchema_StyleSheet$1" />
     <unitInfo nodeId="1189991321651" fileName="XmlSchema_StyleSheet.java" startLine="14" startPosition="0" endLine="36" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.XmlSchema_StyleSheet" />
   </root>
-  <root nodeId="5496586556363185402" modelId="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)/5496586556363185402">
     <nodeInfo nodeId="5496586556363185402" fileName="SchemaType_Editor.java" startLine="17" startPosition="79" endLine="18" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="5496586556363185410" fileName="SchemaType_Editor.java" startLine="21" startPosition="89" endLine="22" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="5496586556363185410" fileName="SchemaType_Editor.java" startLine="22" startPosition="96" endLine="23" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
@@ -5031,7 +5031,7 @@
     </scopeInfo>
     <unitInfo nodeId="5496586556363185402" fileName="SchemaType_Editor.java" startLine="16" startPosition="0" endLine="38" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.SchemaType_Editor" />
   </root>
-  <root nodeId="5496586556363449136" modelId="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)/5496586556363449136">
     <nodeInfo nodeId="5496586556363449136" fileName="BooleanSchemaType_Editor.java" startLine="22" startPosition="79" endLine="23" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="5496586556363449138" fileName="BooleanSchemaType_Editor.java" startLine="26" startPosition="89" endLine="27" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="5496586556363449138" fileName="BooleanSchemaType_Editor.java" startLine="27" startPosition="96" endLine="28" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
@@ -5130,7 +5130,7 @@
     </scopeInfo>
     <unitInfo nodeId="5496586556363449136" fileName="BooleanSchemaType_Editor.java" startLine="21" startPosition="0" endLine="70" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.BooleanSchemaType_Editor" />
   </root>
-  <root nodeId="5496586556363462739" modelId="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)/5496586556363462739">
     <nodeInfo nodeId="5496586556363462739" fileName="StringSchemaType_Editor.java" startLine="23" startPosition="79" endLine="24" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="5496586556363462741" fileName="StringSchemaType_Editor.java" startLine="27" startPosition="89" endLine="28" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="5496586556363462741" fileName="StringSchemaType_Editor.java" startLine="28" startPosition="96" endLine="29" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
@@ -5287,7 +5287,7 @@
     </scopeInfo>
     <unitInfo nodeId="5496586556363462739" fileName="StringSchemaType_Editor.java" startLine="22" startPosition="0" endLine="105" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.StringSchemaType_Editor" />
   </root>
-  <root nodeId="5496586556363464000" modelId="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)/5496586556363464000">
     <nodeInfo nodeId="5496586556363464000" fileName="IntegerSchemaType_Editor.java" startLine="22" startPosition="79" endLine="23" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="5496586556363464002" fileName="IntegerSchemaType_Editor.java" startLine="26" startPosition="89" endLine="27" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="5496586556363464002" fileName="IntegerSchemaType_Editor.java" startLine="27" startPosition="96" endLine="28" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
@@ -5386,7 +5386,7 @@
     </scopeInfo>
     <unitInfo nodeId="5496586556363464000" fileName="IntegerSchemaType_Editor.java" startLine="21" startPosition="0" endLine="70" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.IntegerSchemaType_Editor" />
   </root>
-  <root nodeId="6992757512063666793" modelId="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)/6992757512063666793">
     <nodeInfo nodeId="6992757512063666793" fileName="BoundExpression_Editor.java" startLine="16" startPosition="79" endLine="17" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="6992757512063666795" fileName="BoundExpression_Editor.java" startLine="20" startPosition="89" endLine="21" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="6992757512063666795" fileName="BoundExpression_Editor.java" startLine="21" startPosition="96" endLine="22" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
@@ -5445,7 +5445,7 @@
     </scopeInfo>
     <unitInfo nodeId="6992757512063666793" fileName="BoundExpression_Editor.java" startLine="15" startPosition="0" endLine="45" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.BoundExpression_Editor" />
   </root>
-  <root nodeId="8298759866585064463" modelId="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)/8298759866585064463">
     <nodeInfo nodeId="8298759866585064463" fileName="SchemaComment_Editor.java" startLine="20" startPosition="79" endLine="21" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="8298759866585064468" fileName="SchemaComment_Editor.java" startLine="25" startPosition="96" endLine="26" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
     <nodeInfo nodeId="8298759866585064468" fileName="SchemaComment_Editor.java" startLine="29" startPosition="66" endLine="30" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />

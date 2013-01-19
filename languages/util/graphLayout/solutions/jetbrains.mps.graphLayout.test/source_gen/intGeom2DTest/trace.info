@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <root nodeId="7490214903453704353" modelId="r:78f2e0c5-46c5-4e92-98dc-5ef72e1144a0(intGeom2DTest)">
+  <root nodeRef="r:78f2e0c5-46c5-4e92-98dc-5ef72e1144a0(intGeom2DTest)/7490214903453704353">
     <nodeInfo nodeId="7490214903453704370" fileName="IsIntersects_Test.java" startLine="11" startPosition="49" endLine="12" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="7490214903453704380" fileName="IsIntersects_Test.java" startLine="12" startPosition="31" endLine="13" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="7490214903453704387" fileName="IsIntersects_Test.java" startLine="13" startPosition="31" endLine="14" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
