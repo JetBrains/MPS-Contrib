@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <unitInfo fileName="QueriesGenerated.java" startLine="16" startPosition="0" endLine="59" endPosition="0" unitName="jetbrains.mps.uiLanguage.generator.baseLanguage.template.form.QueriesGenerated" />
-  <root nodeId="1202820745239" modelId="r:00000000-0000-4000-0000-011c89590555(jetbrains.mps.uiLanguage.generator.baseLanguage.template.form@generator)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590555(jetbrains.mps.uiLanguage.generator.baseLanguage.template.form@generator)/1202820745239">
     <nodeInfo nodeId="1202822697324" fileName="QueriesGenerated.java" startLine="55" startPosition="159" endLine="56" endPosition="116" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <scopeInfo nodeId="1202822661804" fileName="QueriesGenerated.java" startLine="55" startPosition="159" endLine="56" endPosition="116" />
   </root>
-  <root nodeId="1202820804619" modelId="r:00000000-0000-4000-0000-011c89590555(jetbrains.mps.uiLanguage.generator.baseLanguage.template.form@generator)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590555(jetbrains.mps.uiLanguage.generator.baseLanguage.template.form@generator)/1202820804619">
     <nodeInfo nodeId="1202820804632" fileName="QueriesGenerated.java" startLine="17" startPosition="148" endLine="18" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1202822134018" fileName="QueriesGenerated.java" startLine="21" startPosition="148" endLine="22" endPosition="130" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1202822134025" fileName="QueriesGenerated.java" startLine="22" startPosition="130" endLine="23" endPosition="111" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -26,7 +26,7 @@
       <varInfo nodeId="1202822134019" varName="parent" />
     </scopeInfo>
   </root>
-  <root nodeId="1202822195718" modelId="r:00000000-0000-4000-0000-011c89590555(jetbrains.mps.uiLanguage.generator.baseLanguage.template.form@generator)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590555(jetbrains.mps.uiLanguage.generator.baseLanguage.template.form@generator)/1202822195718">
     <nodeInfo nodeId="1202822227347" fileName="QueriesGenerated.java" startLine="30" startPosition="148" endLine="31" endPosition="130" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1202822227354" fileName="QueriesGenerated.java" startLine="31" startPosition="130" endLine="32" endPosition="111" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <scopeInfo nodeId="1202822227346" fileName="QueriesGenerated.java" startLine="30" startPosition="148" endLine="32" endPosition="111">

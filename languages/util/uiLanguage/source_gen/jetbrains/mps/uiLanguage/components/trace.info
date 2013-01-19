@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <root nodeId="1202393472906" modelId="r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)/1202393472906">
     <nodeInfo nodeId="1202393472906" fileName="BaseComponent.java" startLine="15" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myThis" />
     <nodeInfo nodeId="1202393472906" fileName="BaseComponent.java" startLine="16" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myLayout" />
     <nodeInfo nodeId="1202393472906" fileName="BaseComponent.java" startLine="17" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myBorder" />
@@ -77,7 +77,7 @@
     <unitInfo nodeId="1202393472906" fileName="BaseComponent.java" startLine="19" startPosition="32" endLine="25" endPosition="3" unitName="jetbrains.mps.uiLanguage.components.BaseComponent$1" />
     <unitInfo nodeId="1202393472906" fileName="BaseComponent.java" startLine="14" startPosition="0" endLine="78" endPosition="0" unitName="jetbrains.mps.uiLanguage.components.BaseComponent" />
   </root>
-  <root nodeId="1202393511419" modelId="r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)/1202393511419">
     <nodeInfo nodeId="1202393511419" fileName="Frame.java" startLine="14" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myThis" />
     <nodeInfo nodeId="1202393511419" fileName="Frame.java" startLine="15" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myTitle" />
     <nodeInfo nodeId="1202393511419" fileName="Frame.java" startLine="16" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myVisible" />
@@ -184,7 +184,7 @@
     <unitInfo nodeId="1202393511419" fileName="Frame.java" startLine="20" startPosition="32" endLine="26" endPosition="3" unitName="jetbrains.mps.uiLanguage.components.Frame$1" />
     <unitInfo nodeId="1202393511419" fileName="Frame.java" startLine="13" startPosition="0" endLine="99" endPosition="0" unitName="jetbrains.mps.uiLanguage.components.Frame" />
   </root>
-  <root nodeId="1202393560969" modelId="r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)/1202393560969">
     <nodeInfo nodeId="1202393560969" fileName="Button.java" startLine="13" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myThis" />
     <nodeInfo nodeId="1202393560969" fileName="Button.java" startLine="14" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myText" />
     <nodeInfo nodeId="1202393560969" fileName="Button.java" startLine="15" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myBindings" />
@@ -246,7 +246,7 @@
     <unitInfo nodeId="1202393560969" fileName="Button.java" startLine="16" startPosition="32" endLine="22" endPosition="3" unitName="jetbrains.mps.uiLanguage.components.Button$1" />
     <unitInfo nodeId="1202393560969" fileName="Button.java" startLine="12" startPosition="0" endLine="65" endPosition="0" unitName="jetbrains.mps.uiLanguage.components.Button" />
   </root>
-  <root nodeId="1202464198724" modelId="r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)/1202464198724">
     <nodeInfo nodeId="1202464198724" fileName="TextField.java" startLine="14" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myThis" />
     <nodeInfo nodeId="1202464198724" fileName="TextField.java" startLine="15" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myText" />
     <nodeInfo nodeId="1202464198724" fileName="TextField.java" startLine="16" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myColumns" />
@@ -353,7 +353,7 @@
     <unitInfo nodeId="1202464198724" fileName="TextField.java" startLine="20" startPosition="32" endLine="26" endPosition="3" unitName="jetbrains.mps.uiLanguage.components.TextField$1" />
     <unitInfo nodeId="1202464198724" fileName="TextField.java" startLine="13" startPosition="0" endLine="99" endPosition="0" unitName="jetbrains.mps.uiLanguage.components.TextField" />
   </root>
-  <root nodeId="1202465811094" modelId="r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)/1202465811094">
     <nodeInfo nodeId="1202465811094" fileName="Label.java" startLine="16" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myThis" />
     <nodeInfo nodeId="1202465811094" fileName="Label.java" startLine="17" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myText" />
     <nodeInfo nodeId="1202465811094" fileName="Label.java" startLine="18" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myForeground" />
@@ -475,7 +475,7 @@
     <unitInfo nodeId="1202465811094" fileName="Label.java" startLine="23" startPosition="32" endLine="29" endPosition="3" unitName="jetbrains.mps.uiLanguage.components.Label$1" />
     <unitInfo nodeId="1202465811094" fileName="Label.java" startLine="15" startPosition="0" endLine="112" endPosition="0" unitName="jetbrains.mps.uiLanguage.components.Label" />
   </root>
-  <root nodeId="1202738287160" modelId="r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)/1202738287160">
     <nodeInfo nodeId="1202738287160" fileName="VBox.java" startLine="13" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myThis" />
     <nodeInfo nodeId="1202738287160" fileName="VBox.java" startLine="14" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myBindings" />
     <nodeInfo nodeId="1202738287160" fileName="VBox.java" startLine="23" startPosition="17" endLine="24" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -522,7 +522,7 @@
     <unitInfo nodeId="1202738287160" fileName="VBox.java" startLine="15" startPosition="32" endLine="21" endPosition="3" unitName="jetbrains.mps.uiLanguage.components.VBox$1" />
     <unitInfo nodeId="1202738287160" fileName="VBox.java" startLine="12" startPosition="0" endLine="54" endPosition="0" unitName="jetbrains.mps.uiLanguage.components.VBox" />
   </root>
-  <root nodeId="1202738350852" modelId="r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)/1202738350852">
     <nodeInfo nodeId="1202738350852" fileName="HBox.java" startLine="13" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myThis" />
     <nodeInfo nodeId="1202738350852" fileName="HBox.java" startLine="14" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myBindings" />
     <nodeInfo nodeId="1202738350852" fileName="HBox.java" startLine="23" startPosition="17" endLine="24" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -569,7 +569,7 @@
     <unitInfo nodeId="1202738350852" fileName="HBox.java" startLine="15" startPosition="32" endLine="21" endPosition="3" unitName="jetbrains.mps.uiLanguage.components.HBox$1" />
     <unitInfo nodeId="1202738350852" fileName="HBox.java" startLine="12" startPosition="0" endLine="54" endPosition="0" unitName="jetbrains.mps.uiLanguage.components.HBox" />
   </root>
-  <root nodeId="1202815836444" modelId="r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)/1202815836444">
     <nodeInfo nodeId="1202815836444" fileName="CheckBox.java" startLine="13" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myThis" />
     <nodeInfo nodeId="1202815836444" fileName="CheckBox.java" startLine="14" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="mySelected" />
     <nodeInfo nodeId="1202815836444" fileName="CheckBox.java" startLine="15" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myBindings" />
@@ -631,7 +631,7 @@
     <unitInfo nodeId="1202815836444" fileName="CheckBox.java" startLine="16" startPosition="32" endLine="22" endPosition="3" unitName="jetbrains.mps.uiLanguage.components.CheckBox$1" />
     <unitInfo nodeId="1202815836444" fileName="CheckBox.java" startLine="12" startPosition="0" endLine="65" endPosition="0" unitName="jetbrains.mps.uiLanguage.components.CheckBox" />
   </root>
-  <root nodeId="1202816402995" modelId="r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)/1202816402995">
     <nodeInfo nodeId="1202816402995" fileName="Panel.java" startLine="13" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myThis" />
     <nodeInfo nodeId="1202816402995" fileName="Panel.java" startLine="14" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myVisible" />
     <nodeInfo nodeId="1202816402995" fileName="Panel.java" startLine="15" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myBindings" />
@@ -693,7 +693,7 @@
     <unitInfo nodeId="1202816402995" fileName="Panel.java" startLine="16" startPosition="32" endLine="22" endPosition="3" unitName="jetbrains.mps.uiLanguage.components.Panel$1" />
     <unitInfo nodeId="1202816402995" fileName="Panel.java" startLine="12" startPosition="0" endLine="65" endPosition="0" unitName="jetbrains.mps.uiLanguage.components.Panel" />
   </root>
-  <root nodeId="1202816455619" modelId="r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)/1202816455619">
     <nodeInfo nodeId="1202816455619" fileName="FlowPanel.java" startLine="13" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myThis" />
     <nodeInfo nodeId="1202816455619" fileName="FlowPanel.java" startLine="14" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myBindings" />
     <nodeInfo nodeId="1202816455619" fileName="FlowPanel.java" startLine="23" startPosition="22" endLine="24" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -740,7 +740,7 @@
     <unitInfo nodeId="1202816455619" fileName="FlowPanel.java" startLine="15" startPosition="32" endLine="21" endPosition="3" unitName="jetbrains.mps.uiLanguage.components.FlowPanel$1" />
     <unitInfo nodeId="1202816455619" fileName="FlowPanel.java" startLine="12" startPosition="0" endLine="54" endPosition="0" unitName="jetbrains.mps.uiLanguage.components.FlowPanel" />
   </root>
-  <root nodeId="1202828480666" modelId="r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)/1202828480666">
     <nodeInfo nodeId="1202828480666" fileName="Dialog.java" startLine="13" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myThis" />
     <nodeInfo nodeId="1202828480666" fileName="Dialog.java" startLine="14" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myTitle" />
     <nodeInfo nodeId="1202828480666" fileName="Dialog.java" startLine="15" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myBindings" />
@@ -802,7 +802,7 @@
     <unitInfo nodeId="1202828480666" fileName="Dialog.java" startLine="16" startPosition="32" endLine="22" endPosition="3" unitName="jetbrains.mps.uiLanguage.components.Dialog$1" />
     <unitInfo nodeId="1202828480666" fileName="Dialog.java" startLine="12" startPosition="0" endLine="65" endPosition="0" unitName="jetbrains.mps.uiLanguage.components.Dialog" />
   </root>
-  <root nodeId="1203082515478" modelId="r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)/1203082515478">
     <nodeInfo nodeId="1203082515478" fileName="List.java" startLine="12" startPosition="0" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myThis" />
     <nodeInfo nodeId="1203082515478" fileName="List.java" startLine="13" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="mySelectedElement" />
     <nodeInfo nodeId="1203082515478" fileName="List.java" startLine="14" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="mySelectedElements" />
@@ -879,7 +879,7 @@
     <unitInfo nodeId="1203082515478" fileName="List.java" startLine="16" startPosition="32" endLine="22" endPosition="3" unitName="jetbrains.mps.uiLanguage.components.List$1" />
     <unitInfo nodeId="1203082515478" fileName="List.java" startLine="11" startPosition="0" endLine="75" endPosition="0" unitName="jetbrains.mps.uiLanguage.components.List" />
   </root>
-  <root nodeId="1204287075288" modelId="r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)/1204287075288">
     <nodeInfo nodeId="1204287075288" fileName="RadioButton.java" startLine="14" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myThis" />
     <nodeInfo nodeId="1204287075288" fileName="RadioButton.java" startLine="15" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="mySelected" />
     <nodeInfo nodeId="1204287075288" fileName="RadioButton.java" startLine="16" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myGroup" />
@@ -956,7 +956,7 @@
     <unitInfo nodeId="1204287075288" fileName="RadioButton.java" startLine="18" startPosition="32" endLine="24" endPosition="3" unitName="jetbrains.mps.uiLanguage.components.RadioButton$1" />
     <unitInfo nodeId="1204287075288" fileName="RadioButton.java" startLine="13" startPosition="0" endLine="77" endPosition="0" unitName="jetbrains.mps.uiLanguage.components.RadioButton" />
   </root>
-  <root nodeId="8606751926055253470" modelId="r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)/8606751926055253470">
     <nodeInfo nodeId="8606751926055253470" fileName="Separator.java" startLine="13" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myThis" />
     <nodeInfo nodeId="8606751926055253470" fileName="Separator.java" startLine="14" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myOrientation" />
     <nodeInfo nodeId="8606751926055253470" fileName="Separator.java" startLine="15" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myBindings" />

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <root nodeId="1202810604795" modelId="r:00000000-0000-4000-0000-011c8959055b(jetbrains.mps.uiLanguage.samples.componentMethods)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c8959055b(jetbrains.mps.uiLanguage.samples.componentMethods)/1202810604795">
     <nodeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="15" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myThis" />
     <nodeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="16" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_1v8jfh_d0" />
     <nodeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="17" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myBindings" />
@@ -61,7 +61,7 @@
     <unitInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="18" startPosition="32" endLine="24" endPosition="3" unitName="jetbrains.mps.uiLanguage.samples.componentMethods.SimpleFrame$1" />
     <unitInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="14" startPosition="0" endLine="78" endPosition="0" unitName="jetbrains.mps.uiLanguage.samples.componentMethods.SimpleFrame" />
   </root>
-  <root nodeId="1202810679159" modelId="r:00000000-0000-4000-0000-011c8959055b(jetbrains.mps.uiLanguage.samples.componentMethods)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c8959055b(jetbrains.mps.uiLanguage.samples.componentMethods)/1202810679159">
     <nodeInfo nodeId="1203080744101" fileName="SimpleFrame.java" startLine="34" startPosition="5" endLine="35" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1202810691901" fileName="SimpleFrame.java" startLine="73" startPosition="35" endLine="74" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1202814456506" fileName="SimpleFrame.java" startLine="74" startPosition="37" endLine="75" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
