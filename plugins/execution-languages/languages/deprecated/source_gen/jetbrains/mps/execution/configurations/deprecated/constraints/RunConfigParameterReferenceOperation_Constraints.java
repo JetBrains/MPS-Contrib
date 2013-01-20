@@ -8,7 +8,7 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.smodel.runtime.CheckingNodeContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.smodel.SNodePointer;
+import org.jetbrains.mps.openapi.model.SNodeReference;
 
 public class RunConfigParameterReferenceOperation_Constraints extends BaseConstraintsDescriptor {
   public RunConfigParameterReferenceOperation_Constraints() {
@@ -35,5 +35,5 @@ public class RunConfigParameterReferenceOperation_Constraints extends BaseConstr
     return (SNodeOperations.getAncestor(parentNode, "jetbrains.mps.execution.configurations.deprecated.structure.IExecuteConfigBlock", false, false) != null);
   }
 
-  private static SNodePointer canBeChildBreakingPoint = new SNodePointer("r:4ab4c6eb-58ca-426d-b62d-119c0aacbe5e(jetbrains.mps.execution.configurations.deprecated.constraints)", "314981645426570947");
+  private static SNodeReference canBeChildBreakingPoint = new jetbrains.mps.smodel.SNodePointer("r:4ab4c6eb-58ca-426d-b62d-119c0aacbe5e(jetbrains.mps.execution.configurations.deprecated.constraints)", "314981645426570947");
 }

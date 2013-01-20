@@ -18,7 +18,7 @@ import jetbrains.mps.smodel.runtime.base.BaseReferenceScopeProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.smodel.runtime.ReferencePresentationContext;
 import jetbrains.mps.smodel.runtime.ReferenceConstraintsContext;
-import jetbrains.mps.smodel.SNodePointer;
+import org.jetbrains.mps.openapi.model.SNodeReference;
 
 public class PeriodPropertyFormatToken_Constraints extends BaseConstraintsDescriptor {
   public PeriodPropertyFormatToken_Constraints() {
@@ -79,7 +79,7 @@ public class PeriodPropertyFormatToken_Constraints extends BaseConstraintsDescri
           }
 
           @Override
-          public SNodePointer getSearchScopeValidatorNode() {
+          public SNodeReference getSearchScopeValidatorNode() {
             return breakingNode_bw6cj5_a0a3a0a0a1a0b0a1a2;
           }
         };
@@ -88,7 +88,7 @@ public class PeriodPropertyFormatToken_Constraints extends BaseConstraintsDescri
     return references;
   }
 
-  private static SNodePointer breakingNode_bw6cj5_a0a3a0a0a1a0b0a1a2 = new SNodePointer("r:00000000-0000-4000-0000-011c895903cf(jetbrains.mps.baseLanguage.dates.constraints)", "5581663871699705089");
+  private static SNodeReference breakingNode_bw6cj5_a0a3a0a0a1a0b0a1a2 = new jetbrains.mps.smodel.SNodePointer("r:00000000-0000-4000-0000-011c895903cf(jetbrains.mps.baseLanguage.dates.constraints)", "5581663871699705089");
 
   public static boolean isNotEmpty_bw6cj5_a0a0a0b0a0a0b0a1a0b0c(String str) {
     return str != null && str.length() > 0;

@@ -16,7 +16,7 @@ import jetbrains.mps.smodel.runtime.base.BaseScopeProvider;
 import jetbrains.mps.smodel.runtime.base.BaseReferenceScopeProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.smodel.runtime.ReferenceConstraintsContext;
-import jetbrains.mps.smodel.SNodePointer;
+import org.jetbrains.mps.openapi.model.SNodeReference;
 
 public class DateTimePropertyFormatToken_Constraints extends BaseConstraintsDescriptor {
   public DateTimePropertyFormatToken_Constraints() {
@@ -66,7 +66,7 @@ public class DateTimePropertyFormatToken_Constraints extends BaseConstraintsDesc
           }
 
           @Override
-          public SNodePointer getSearchScopeValidatorNode() {
+          public SNodeReference getSearchScopeValidatorNode() {
             return breakingNode_unq1r8_a0a1a0a0a1a0b0a2a1;
           }
         };
@@ -75,5 +75,5 @@ public class DateTimePropertyFormatToken_Constraints extends BaseConstraintsDesc
     return references;
   }
 
-  private static SNodePointer breakingNode_unq1r8_a0a1a0a0a1a0b0a2a1 = new SNodePointer("r:00000000-0000-4000-0000-011c895903cf(jetbrains.mps.baseLanguage.dates.constraints)", "1213104846964");
+  private static SNodeReference breakingNode_unq1r8_a0a1a0a0a1a0b0a2a1 = new jetbrains.mps.smodel.SNodePointer("r:00000000-0000-4000-0000-011c895903cf(jetbrains.mps.baseLanguage.dates.constraints)", "1213104846964");
 }

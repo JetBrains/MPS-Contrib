@@ -12,7 +12,7 @@ import jetbrains.mps.smodel.runtime.ReferenceScopeProvider;
 import jetbrains.mps.smodel.runtime.base.BaseReferenceScopeProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.smodel.runtime.ReferenceConstraintsContext;
-import jetbrains.mps.smodel.SNodePointer;
+import org.jetbrains.mps.openapi.model.SNodeReference;
 
 public class ReferenceFormatToken_Constraints extends BaseConstraintsDescriptor {
   public ReferenceFormatToken_Constraints() {
@@ -38,7 +38,7 @@ public class ReferenceFormatToken_Constraints extends BaseConstraintsDescriptor 
           }
 
           @Override
-          public SNodePointer getSearchScopeValidatorNode() {
+          public SNodeReference getSearchScopeValidatorNode() {
             return breakingNode_rk4hrr_a0a1a0a0a1a0b0a1a1;
           }
         };
@@ -47,5 +47,5 @@ public class ReferenceFormatToken_Constraints extends BaseConstraintsDescriptor 
     return references;
   }
 
-  private static SNodePointer breakingNode_rk4hrr_a0a1a0a0a1a0b0a1a1 = new SNodePointer("r:00000000-0000-4000-0000-011c895903cf(jetbrains.mps.baseLanguage.dates.constraints)", "1213104858516");
+  private static SNodeReference breakingNode_rk4hrr_a0a1a0a0a1a0b0a1a1 = new jetbrains.mps.smodel.SNodePointer("r:00000000-0000-4000-0000-011c895903cf(jetbrains.mps.baseLanguage.dates.constraints)", "1213104858516");
 }

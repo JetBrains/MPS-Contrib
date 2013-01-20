@@ -17,7 +17,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.smodel.SNodePointer;
+import org.jetbrains.mps.openapi.model.SNodeReference;
 
 public class CallReference_Constraints extends BaseConstraintsDescriptor {
   public CallReference_Constraints() {
@@ -47,7 +47,7 @@ public class CallReference_Constraints extends BaseConstraintsDescriptor {
           }
 
           @Override
-          public SNodePointer getSearchScopeValidatorNode() {
+          public SNodeReference getSearchScopeValidatorNode() {
             return breakingNode_vtj1k2_a0a1a0a0a1a0b0a1a1;
           }
         };
@@ -56,7 +56,7 @@ public class CallReference_Constraints extends BaseConstraintsDescriptor {
     return references;
   }
 
-  private static SNodePointer breakingNode_vtj1k2_a0a1a0a0a1a0b0a1a1 = new SNodePointer("r:00000000-0000-4000-0000-011c895904c1(jetbrains.mps.buildlanguage.constraints)", "4710899751214243185");
+  private static SNodeReference breakingNode_vtj1k2_a0a1a0a0a1a0b0a1a1 = new jetbrains.mps.smodel.SNodePointer("r:00000000-0000-4000-0000-011c895904c1(jetbrains.mps.buildlanguage.constraints)", "4710899751214243185");
 
   public static boolean isNotEmpty_vtj1k2_a0a0a0a0a0a0a0a0a0b0a1a0b0b(String str) {
     return str != null && str.length() > 0;

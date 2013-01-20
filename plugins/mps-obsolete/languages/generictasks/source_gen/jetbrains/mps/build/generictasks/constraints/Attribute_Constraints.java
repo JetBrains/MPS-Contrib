@@ -20,7 +20,7 @@ import jetbrains.mps.build.generictasks.behavior.TaskCall_Behavior;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import java.util.List;
-import jetbrains.mps.smodel.SNodePointer;
+import org.jetbrains.mps.openapi.model.SNodeReference;
 
 public class Attribute_Constraints extends BaseConstraintsDescriptor {
   public Attribute_Constraints() {
@@ -70,7 +70,7 @@ public class Attribute_Constraints extends BaseConstraintsDescriptor {
           }
 
           @Override
-          public SNodePointer getSearchScopeValidatorNode() {
+          public SNodeReference getSearchScopeValidatorNode() {
             return breakingNode_oyfip5_a0a1a0a0a4a0b0a1a1;
           }
         };
@@ -79,5 +79,5 @@ public class Attribute_Constraints extends BaseConstraintsDescriptor {
     return references;
   }
 
-  private static SNodePointer breakingNode_oyfip5_a0a1a0a0a4a0b0a1a1 = new SNodePointer("r:71eee63a-b16f-40f8-920d-8fd0fe7dc8a1(jetbrains.mps.build.generictasks.constraints)", "353793545802644407");
+  private static SNodeReference breakingNode_oyfip5_a0a1a0a0a4a0b0a1a1 = new jetbrains.mps.smodel.SNodePointer("r:71eee63a-b16f-40f8-920d-8fd0fe7dc8a1(jetbrains.mps.build.generictasks.constraints)", "353793545802644407");
 }

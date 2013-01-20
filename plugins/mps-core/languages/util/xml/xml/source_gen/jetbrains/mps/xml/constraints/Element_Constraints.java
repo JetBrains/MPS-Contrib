@@ -25,7 +25,7 @@ import jetbrains.mps.xml.actions.ElementUtil;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.smodel.search.SModelSearchUtil;
 import jetbrains.mps.smodel.search.SimpleSearchScope;
-import jetbrains.mps.smodel.SNodePointer;
+import org.jetbrains.mps.openapi.model.SNodeReference;
 
 public class Element_Constraints extends BaseConstraintsDescriptor {
   public Element_Constraints() {
@@ -77,7 +77,7 @@ public class Element_Constraints extends BaseConstraintsDescriptor {
           }
 
           @Override
-          public SNodePointer getSearchScopeValidatorNode() {
+          public SNodeReference getSearchScopeValidatorNode() {
             return breakingNode_o20hw9_a0a1a0a0a1a0b0a1a2;
           }
         };
@@ -86,5 +86,5 @@ public class Element_Constraints extends BaseConstraintsDescriptor {
     return references;
   }
 
-  private static SNodePointer breakingNode_o20hw9_a0a1a0a0a1a0b0a1a2 = new SNodePointer("r:00000000-0000-4000-0000-011c89590585(jetbrains.mps.xml.constraints)", "1213104840332");
+  private static SNodeReference breakingNode_o20hw9_a0a1a0a0a1a0b0a1a2 = new jetbrains.mps.smodel.SNodePointer("r:00000000-0000-4000-0000-011c89590585(jetbrains.mps.xml.constraints)", "1213104840332");
 }

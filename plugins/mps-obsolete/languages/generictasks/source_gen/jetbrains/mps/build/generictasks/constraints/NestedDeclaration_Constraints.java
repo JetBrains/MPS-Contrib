@@ -8,7 +8,7 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.smodel.runtime.CheckingNodeContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.smodel.SNodePointer;
+import org.jetbrains.mps.openapi.model.SNodeReference;
 
 public class NestedDeclaration_Constraints extends BaseConstraintsDescriptor {
   public NestedDeclaration_Constraints() {
@@ -35,5 +35,5 @@ public class NestedDeclaration_Constraints extends BaseConstraintsDescriptor {
     return !(SPropertyOperations.getString(link, "role").equals("parentRef"));
   }
 
-  private static SNodePointer canBeChildBreakingPoint = new SNodePointer("r:71eee63a-b16f-40f8-920d-8fd0fe7dc8a1(jetbrains.mps.build.generictasks.constraints)", "4710899751214150062");
+  private static SNodeReference canBeChildBreakingPoint = new jetbrains.mps.smodel.SNodePointer("r:71eee63a-b16f-40f8-920d-8fd0fe7dc8a1(jetbrains.mps.build.generictasks.constraints)", "4710899751214150062");
 }

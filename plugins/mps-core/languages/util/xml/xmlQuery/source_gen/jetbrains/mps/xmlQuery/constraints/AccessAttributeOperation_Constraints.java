@@ -15,7 +15,7 @@ import jetbrains.mps.smodel.runtime.ReferenceConstraintsContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.typesystem.inference.TypeChecker;
-import jetbrains.mps.smodel.SNodePointer;
+import org.jetbrains.mps.openapi.model.SNodeReference;
 
 public class AccessAttributeOperation_Constraints extends BaseConstraintsDescriptor {
   public AccessAttributeOperation_Constraints() {
@@ -41,7 +41,7 @@ public class AccessAttributeOperation_Constraints extends BaseConstraintsDescrip
           }
 
           @Override
-          public SNodePointer getSearchScopeValidatorNode() {
+          public SNodeReference getSearchScopeValidatorNode() {
             return breakingNode_q13237_a0a1a0a0a1a0b0a1a1;
           }
         };
@@ -50,5 +50,5 @@ public class AccessAttributeOperation_Constraints extends BaseConstraintsDescrip
     return references;
   }
 
-  private static SNodePointer breakingNode_q13237_a0a1a0a0a1a0b0a1a1 = new SNodePointer("r:e79b58b4-ea58-4c9d-b43b-c3a260addf6a(jetbrains.mps.xmlQuery.constraints)", "4991903842868445314");
+  private static SNodeReference breakingNode_q13237_a0a1a0a0a1a0b0a1a1 = new jetbrains.mps.smodel.SNodePointer("r:e79b58b4-ea58-4c9d-b43b-c3a260addf6a(jetbrains.mps.xmlQuery.constraints)", "4991903842868445314");
 }

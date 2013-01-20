@@ -20,7 +20,7 @@ import jetbrains.mps.smodel.search.SimpleSearchScope;
 import jetbrains.mps.xml.actions.ElementUtil;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.search.EmptySearchScope;
-import jetbrains.mps.smodel.SNodePointer;
+import org.jetbrains.mps.openapi.model.SNodeReference;
 
 public class ElementBuilder_Constraints extends BaseConstraintsDescriptor {
   public ElementBuilder_Constraints() {
@@ -53,7 +53,7 @@ public class ElementBuilder_Constraints extends BaseConstraintsDescriptor {
           }
 
           @Override
-          public SNodePointer getSearchScopeValidatorNode() {
+          public SNodeReference getSearchScopeValidatorNode() {
             return breakingNode_4i0ku3_a0a1a0a0a1a0b0a1a1;
           }
         };
@@ -62,5 +62,5 @@ public class ElementBuilder_Constraints extends BaseConstraintsDescriptor {
     return references;
   }
 
-  private static SNodePointer breakingNode_4i0ku3_a0a1a0a0a1a0b0a1a1 = new SNodePointer("r:e79b58b4-ea58-4c9d-b43b-c3a260addf6a(jetbrains.mps.xmlQuery.constraints)", "1384720974900260388");
+  private static SNodeReference breakingNode_4i0ku3_a0a1a0a0a1a0b0a1a1 = new jetbrains.mps.smodel.SNodePointer("r:e79b58b4-ea58-4c9d-b43b-c3a260addf6a(jetbrains.mps.xmlQuery.constraints)", "1384720974900260388");
 }
