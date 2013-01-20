@@ -22,6 +22,7 @@ import org.joda.time.Period;
 import org.joda.time.DateTimeFieldType;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import org.joda.time.format.PeriodFormatterBuilder;
+import jetbrains.mps.smodel.SNodePointer;
 
 public class DateTimeProperty_Constraints extends BaseConstraintsDescriptor {
   public DateTimeProperty_Constraints() {
@@ -100,7 +101,7 @@ public class DateTimeProperty_Constraints extends BaseConstraintsDescriptor {
     return references;
   }
 
-  private static SNodeReference breakingNode_hi7gxv_a0a0a0a0a1a0b0a1a1 = new jetbrains.mps.smodel.SNodePointer("r:00000000-0000-4000-0000-011c895903db(jetbrains.mps.baseLanguage.datesInternal.constraints)", "3671207155728948212");
-  private static SNodeReference breakingNode_hi7gxv_a0a0a0a0a1a0b0a2a1 = new jetbrains.mps.smodel.SNodePointer("r:00000000-0000-4000-0000-011c895903db(jetbrains.mps.baseLanguage.datesInternal.constraints)", "3671207155728952055");
-  private static SNodeReference breakingNode_hi7gxv_a0a0a0a0a1a0b0a3a1 = new jetbrains.mps.smodel.SNodePointer("r:00000000-0000-4000-0000-011c895903db(jetbrains.mps.baseLanguage.datesInternal.constraints)", "3671207155728952155");
+  private static SNodePointer breakingNode_hi7gxv_a0a0a0a0a1a0b0a1a1 = new SNodePointer("r:00000000-0000-4000-0000-011c895903db(jetbrains.mps.baseLanguage.datesInternal.constraints)", "3671207155728948212");
+  private static SNodePointer breakingNode_hi7gxv_a0a0a0a0a1a0b0a2a1 = new SNodePointer("r:00000000-0000-4000-0000-011c895903db(jetbrains.mps.baseLanguage.datesInternal.constraints)", "3671207155728952055");
+  private static SNodePointer breakingNode_hi7gxv_a0a0a0a0a1a0b0a3a1 = new SNodePointer("r:00000000-0000-4000-0000-011c895903db(jetbrains.mps.baseLanguage.datesInternal.constraints)", "3671207155728952155");
 }

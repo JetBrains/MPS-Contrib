@@ -21,6 +21,7 @@ import jetbrains.mps.smodel.runtime.ReferenceConstraintsContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import java.util.ArrayList;
 import org.jetbrains.mps.openapi.model.SNodeReference;
+import jetbrains.mps.smodel.SNodePointer;
 
 public class RunConfigPropertyInstance_Constraints extends BaseConstraintsDescriptor {
   public RunConfigPropertyInstance_Constraints() {
@@ -84,5 +85,5 @@ public class RunConfigPropertyInstance_Constraints extends BaseConstraintsDescri
     return references;
   }
 
-  private static SNodeReference breakingNode_dpzxjb_a0a1a0a0a1a0b0a1a2 = new jetbrains.mps.smodel.SNodePointer("r:4ab4c6eb-58ca-426d-b62d-119c0aacbe5e(jetbrains.mps.execution.configurations.deprecated.constraints)", "314981645426570883");
+  private static SNodePointer breakingNode_dpzxjb_a0a1a0a0a1a0b0a1a2 = new SNodePointer("r:4ab4c6eb-58ca-426d-b62d-119c0aacbe5e(jetbrains.mps.execution.configurations.deprecated.constraints)", "314981645426570883");
 }

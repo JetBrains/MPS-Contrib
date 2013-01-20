@@ -19,6 +19,7 @@ import jetbrains.mps.smodel.search.SModelSearchUtil;
 import jetbrains.mps.smodel.search.SimpleSearchScope;
 import jetbrains.mps.xmlSchema.behavior.ElementDeclaration_Behavior;
 import org.jetbrains.mps.openapi.model.SNodeReference;
+import jetbrains.mps.smodel.SNodePointer;
 
 public class Attribute_Constraints extends BaseConstraintsDescriptor {
   public Attribute_Constraints() {
@@ -60,5 +61,5 @@ public class Attribute_Constraints extends BaseConstraintsDescriptor {
     return references;
   }
 
-  private static SNodeReference breakingNode_oyfip5_a0a1a0a0a1a0b0a1a1 = new jetbrains.mps.smodel.SNodePointer("r:00000000-0000-4000-0000-011c89590585(jetbrains.mps.xml.constraints)", "1213104860621");
+  private static SNodePointer breakingNode_oyfip5_a0a1a0a0a1a0b0a1a1 = new SNodePointer("r:00000000-0000-4000-0000-011c89590585(jetbrains.mps.xml.constraints)", "1213104860621");
 }

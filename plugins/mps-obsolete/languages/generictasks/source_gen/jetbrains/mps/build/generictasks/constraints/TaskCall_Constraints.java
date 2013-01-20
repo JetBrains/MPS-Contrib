@@ -28,6 +28,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
+import jetbrains.mps.smodel.SNodePointer;
 
 public class TaskCall_Constraints extends BaseConstraintsDescriptor {
   public TaskCall_Constraints() {
@@ -147,6 +148,6 @@ public class TaskCall_Constraints extends BaseConstraintsDescriptor {
     return references;
   }
 
-  private static SNodeReference breakingNode_sufet9_a0a1a0a0a2 = new jetbrains.mps.smodel.SNodePointer("r:71eee63a-b16f-40f8-920d-8fd0fe7dc8a1(jetbrains.mps.build.generictasks.constraints)", "353793545802644535");
-  private static SNodeReference breakingNode_sufet9_a0a1a0a0a4a0b0a1a4 = new jetbrains.mps.smodel.SNodePointer("r:71eee63a-b16f-40f8-920d-8fd0fe7dc8a1(jetbrains.mps.build.generictasks.constraints)", "353793545802644482");
+  private static SNodePointer breakingNode_sufet9_a0a1a0a0a2 = new SNodePointer("r:71eee63a-b16f-40f8-920d-8fd0fe7dc8a1(jetbrains.mps.build.generictasks.constraints)", "353793545802644535");
+  private static SNodePointer breakingNode_sufet9_a0a1a0a0a4a0b0a1a4 = new SNodePointer("r:71eee63a-b16f-40f8-920d-8fd0fe7dc8a1(jetbrains.mps.build.generictasks.constraints)", "353793545802644482");
 }

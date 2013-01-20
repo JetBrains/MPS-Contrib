@@ -8,7 +8,7 @@ import jetbrains.mps.smodel.SModel;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.smodel.runtime.CheckingNodeContext;
 import jetbrains.mps.build.generictasks.behavior.BuiltInTaskDeclaration_Behavior;
-import org.jetbrains.mps.openapi.model.SNodeReference;
+import jetbrains.mps.smodel.SNodePointer;
 
 public class BuiltInTaskDeclaration_Constraints extends BaseConstraintsDescriptor {
   public BuiltInTaskDeclaration_Constraints() {
@@ -35,5 +35,5 @@ public class BuiltInTaskDeclaration_Constraints extends BaseConstraintsDescripto
     return BuiltInTaskDeclaration_Behavior.isInGeneratedModels_1445805690439864419(model);
   }
 
-  private static SNodeReference canBeRootBreakingPoint = new jetbrains.mps.smodel.SNodePointer("r:71eee63a-b16f-40f8-920d-8fd0fe7dc8a1(jetbrains.mps.build.generictasks.constraints)", "8233904257588554706");
+  private static SNodePointer canBeRootBreakingPoint = new SNodePointer("r:71eee63a-b16f-40f8-920d-8fd0fe7dc8a1(jetbrains.mps.build.generictasks.constraints)", "8233904257588554706");
 }

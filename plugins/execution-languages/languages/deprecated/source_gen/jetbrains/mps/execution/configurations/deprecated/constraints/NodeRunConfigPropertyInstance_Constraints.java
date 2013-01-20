@@ -14,7 +14,7 @@ import jetbrains.mps.smodel.runtime.base.BasePropertyConstraintsDescriptor;
 import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import org.jetbrains.mps.openapi.model.SNodeReference;
+import jetbrains.mps.smodel.SNodePointer;
 
 public class NodeRunConfigPropertyInstance_Constraints extends BaseConstraintsDescriptor {
   public NodeRunConfigPropertyInstance_Constraints() {
@@ -62,5 +62,5 @@ public class NodeRunConfigPropertyInstance_Constraints extends BaseConstraintsDe
     return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SNodeOperations.cast(parentNode, "jetbrains.mps.execution.configurations.deprecated.structure.CreateRunConfigStatement"), "runConfig", false), "jetbrains.mps.execution.configurations.deprecated.structure.JavaNodeRunConfiguration");
   }
 
-  private static SNodeReference canBeChildBreakingPoint = new jetbrains.mps.smodel.SNodePointer("r:4ab4c6eb-58ca-426d-b62d-119c0aacbe5e(jetbrains.mps.execution.configurations.deprecated.constraints)", "3361586479360712802");
+  private static SNodePointer canBeChildBreakingPoint = new SNodePointer("r:4ab4c6eb-58ca-426d-b62d-119c0aacbe5e(jetbrains.mps.execution.configurations.deprecated.constraints)", "3361586479360712802");
 }

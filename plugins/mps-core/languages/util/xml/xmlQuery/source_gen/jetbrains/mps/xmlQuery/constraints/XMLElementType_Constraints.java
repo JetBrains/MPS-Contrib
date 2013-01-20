@@ -19,6 +19,7 @@ import jetbrains.mps.smodel.search.SubnodesSearchScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import org.jetbrains.mps.openapi.model.SNodeReference;
 import jetbrains.mps.smodel.runtime.base.BaseScopeProvider;
+import jetbrains.mps.smodel.SNodePointer;
 
 public class XMLElementType_Constraints extends BaseConstraintsDescriptor {
   public XMLElementType_Constraints() {
@@ -100,5 +101,5 @@ public class XMLElementType_Constraints extends BaseConstraintsDescriptor {
     return references;
   }
 
-  private static SNodeReference breakingNode_yvyt3v_a0a3a0a0a4a0b0a1a1 = new jetbrains.mps.smodel.SNodePointer("r:e79b58b4-ea58-4c9d-b43b-c3a260addf6a(jetbrains.mps.xmlQuery.constraints)", "4815471077468703818");
+  private static SNodePointer breakingNode_yvyt3v_a0a3a0a0a4a0b0a1a1 = new SNodePointer("r:e79b58b4-ea58-4c9d-b43b-c3a260addf6a(jetbrains.mps.xmlQuery.constraints)", "4815471077468703818");
 }

@@ -13,6 +13,7 @@ import jetbrains.mps.smodel.runtime.base.BaseReferenceScopeProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.smodel.runtime.ReferenceConstraintsContext;
 import org.jetbrains.mps.openapi.model.SNodeReference;
+import jetbrains.mps.smodel.SNodePointer;
 
 public class FormatDateTimeExpression_Constraints extends BaseConstraintsDescriptor {
   public FormatDateTimeExpression_Constraints() {
@@ -47,5 +48,5 @@ public class FormatDateTimeExpression_Constraints extends BaseConstraintsDescrip
     return references;
   }
 
-  private static SNodeReference breakingNode_k9gugg_a0a1a0a0a1a0b0a1a1 = new jetbrains.mps.smodel.SNodePointer("r:00000000-0000-4000-0000-011c895903cf(jetbrains.mps.baseLanguage.dates.constraints)", "5034322243092299901");
+  private static SNodePointer breakingNode_k9gugg_a0a1a0a0a1a0b0a1a1 = new SNodePointer("r:00000000-0000-4000-0000-011c895903cf(jetbrains.mps.baseLanguage.dates.constraints)", "5034322243092299901");
 }
