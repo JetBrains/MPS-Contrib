@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependencies version="2" modelHash="-5fofw4vt0hfc85ajk1qcg2pbpptxrwo">
-  <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" hash="shh5ad9lxd1u6xwhcyoqvvtzusv8er" />
+  <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" hash="-78r8c0aeic011hp124yoivct14z1zp1" />
   <common hash="-2i3b5es1dmzq1i3bgdoa56kv20bpzid">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
     <file name="QueriesGenerated.java" />
