@@ -9,70 +9,70 @@ import jetbrains.mps.nodeEditor.MPSColors;
 import jetbrains.mps.nodeEditor.MPSFonts;
 
 public class BuildLanguageStyle_StyleSheet {
-  public static Style getStringLiteral(final EditorCell cell) {
-    Style style = new Style(cell);
+  public static Style getStringLiteral(final EditorCell editorCell) {
+    Style style = new Style(editorCell);
     style.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_GREEN);
     return style;
   }
 
-  public static Style getBooleanLiteral(final EditorCell cell) {
-    Style style = new Style(cell);
+  public static Style getBooleanLiteral(final EditorCell editorCell) {
+    Style style = new Style(editorCell);
     style.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_MAGENTA);
     style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
     return style;
   }
 
-  public static Style getIntegerLiteral(final EditorCell cell) {
-    Style style = new Style(cell);
+  public static Style getIntegerLiteral(final EditorCell editorCell) {
+    Style style = new Style(editorCell);
     return style;
   }
 
-  public static Style getKeyword(final EditorCell cell) {
-    Style style = new Style(cell);
+  public static Style getKeyword(final EditorCell editorCell) {
+    Style style = new Style(editorCell);
     style.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_BLUE);
     style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
     return style;
   }
 
-  public static Style getTarget(final EditorCell cell) {
-    Style style = new Style(cell);
+  public static Style getTarget(final EditorCell editorCell) {
+    Style style = new Style(editorCell);
     style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
     style.set(StyleAttributes.TEXT_COLOR, MPSColors.darkGray);
     return style;
   }
 
-  public static Style getTask(final EditorCell cell) {
-    Style style = new Style(cell);
+  public static Style getTask(final EditorCell editorCell) {
+    Style style = new Style(editorCell);
     style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
     style.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_BLUE);
     return style;
   }
 
-  public static Style getProperty(final EditorCell cell) {
-    Style style = new Style(cell);
+  public static Style getProperty(final EditorCell editorCell) {
+    Style style = new Style(editorCell);
     return style;
   }
 
-  public static Style getAttributeName(final EditorCell cell) {
-    Style style = new Style(cell);
+  public static Style getAttributeName(final EditorCell editorCell) {
+    Style style = new Style(editorCell);
     style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
     return style;
   }
 
-  public static Style getDepractaedAttributeName(final EditorCell cell) {
-    Style style = new Style(cell);
+  public static Style getDepractaedAttributeName(final EditorCell editorCell) {
+    Style style = new Style(editorCell);
     style.set(StyleAttributes.STRIKE_OUT, true);
     return style;
   }
 
-  public static Style getPrompting(final EditorCell cell) {
-    Style style = new Style(cell);
+  public static Style getPrompting(final EditorCell editorCell) {
+    Style style = new Style(editorCell);
     style.set(StyleAttributes.TEXT_COLOR, MPSColors.lightGray);
     return style;
   }
 
-  public static Style getComment(final EditorCell cell) {
-    Style style = new Style(cell);
+  public static Style getComment(final EditorCell editorCell) {
+    Style style = new Style(editorCell);
     style.set(StyleAttributes.TEXT_COLOR, MPSColors.gray);
     return style;
   }

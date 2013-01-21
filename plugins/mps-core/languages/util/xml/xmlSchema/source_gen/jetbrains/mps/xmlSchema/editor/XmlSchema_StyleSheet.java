@@ -5,26 +5,21 @@ package jetbrains.mps.xmlSchema.editor;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
-import jetbrains.mps.nodeEditor.style.AttributeCalculator;
-import java.awt.Color;
 import jetbrains.mps.nodeEditor.MPSFonts;
+import java.awt.Color;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.openapi.editor.EditorContext;
 
 public class XmlSchema_StyleSheet {
-  public static Style getXmlElement(final EditorCell cell) {
-    Style style = new Style(cell);
-    style.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator<Color>() {
-      public Color calculate(EditorCell cell) {
-        return XmlSchema_StyleSheet._StyleParameter_QueryFunction_35vscc_a0a((cell == null ?
-          null :
-          cell.getSNode()
-        ), (cell == null ?
-          null :
-          cell.getContext()
-        ));
-      }
-    });
+  public static Style getXmlElement(final EditorCell editorCell) {
+    Style style = new Style(editorCell);
+    style.set(StyleAttributes.TEXT_COLOR, XmlSchema_StyleSheet._StyleParameter_QueryFunction_35vscc_a0a((editorCell == null ?
+      null :
+      editorCell.getSNode()
+    ), (editorCell == null ?
+      null :
+      editorCell.getContext()
+    )));
     style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
     return style;
   }

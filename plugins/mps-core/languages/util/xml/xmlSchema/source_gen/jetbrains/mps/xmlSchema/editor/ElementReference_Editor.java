@@ -12,10 +12,9 @@ import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.MPSFonts;
-import jetbrains.mps.nodeEditor.style.AttributeCalculator;
-import java.awt.Color;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
+import java.awt.Color;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
 
@@ -48,17 +47,13 @@ public class ElementReference_Editor extends DefaultNodeEditor {
       {
         Style style = editorCell.getStyle();
         style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
-        style.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator<Color>() {
-          public Color calculate(EditorCell cell) {
-            return ElementReference_Editor._Inline_uugm4e_a0a._StyleParameter_QueryFunction_uugm4e_a1a0a0((cell == null ?
-              null :
-              cell.getSNode()
-            ), (cell == null ?
-              null :
-              cell.getContext()
-            ));
-          }
-        });
+        style.set(StyleAttributes.TEXT_COLOR, ElementReference_Editor._Inline_uugm4e_a0a._StyleParameter_QueryFunction_uugm4e_a1a0a0((editorCell == null ?
+          null :
+          editorCell.getSNode()
+        ), (editorCell == null ?
+          null :
+          editorCell.getContext()
+        )));
       }
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();

@@ -12,14 +12,14 @@ import jetbrains.mps.nodeEditor.MPSColors;
 import jetbrains.mps.nodeEditor.MPSFonts;
 
 public class Dates_StyleSheet {
-  public static Style getDateCompactKeyWord(final EditorCell cell) {
-    Style style = new Style(cell);
-    style.putAll(BaseLanguageStyle_StyleSheet.getCompactKeyWord(null));
+  public static Style getDateCompactKeyWord(final EditorCell editorCell) {
+    Style style = new Style(editorCell);
+    style.putAll(BaseLanguageStyle_StyleSheet.getCompactKeyWord(editorCell));
     return style;
   }
 
-  public static Style getDateSmall(final EditorCell cell) {
-    Style style = new Style(cell);
+  public static Style getDateSmall(final EditorCell editorCell) {
+    Style style = new Style(editorCell);
     style.set(StyleAttributes.SELECTABLE, false);
     style.set(StyleAttributes.FONT_SIZE, 9);
     style.set(StyleAttributes.PADDING_RIGHT, new Padding(1.0, Measure.SPACES));
@@ -27,17 +27,17 @@ public class Dates_StyleSheet {
     return style;
   }
 
-  public static Style getDateFormat(final EditorCell cell) {
-    Style style = new Style(cell);
+  public static Style getDateFormat(final EditorCell editorCell) {
+    Style style = new Style(editorCell);
     style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
     style.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_MAGENTA);
     style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
     return style;
   }
 
-  public static Style getDateProperty(final EditorCell cell) {
-    Style style = new Style(cell);
-    style.putAll(BaseLanguageStyle_StyleSheet.getField(null));
+  public static Style getDateProperty(final EditorCell editorCell) {
+    Style style = new Style(editorCell);
+    style.putAll(BaseLanguageStyle_StyleSheet.getField(editorCell));
     return style;
   }
 }

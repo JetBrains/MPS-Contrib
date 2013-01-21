@@ -8,14 +8,14 @@ import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.MPSFonts;
 
 public class DatesInternal_StyleSheet {
-  public static Style getSimpleText(final EditorCell cell) {
-    Style style = new Style(cell);
+  public static Style getSimpleText(final EditorCell editorCell) {
+    Style style = new Style(editorCell);
     style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
     return style;
   }
 
-  public static Style getTableCell(final EditorCell cell) {
-    Style style = new Style(cell);
+  public static Style getTableCell(final EditorCell editorCell) {
+    Style style = new Style(editorCell);
     style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
     return style;
   }

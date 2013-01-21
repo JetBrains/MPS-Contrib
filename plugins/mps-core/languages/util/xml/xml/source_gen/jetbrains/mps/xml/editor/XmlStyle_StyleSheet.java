@@ -5,122 +5,101 @@ package jetbrains.mps.xml.editor;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
-import jetbrains.mps.nodeEditor.style.AttributeCalculator;
-import java.awt.Color;
 import jetbrains.mps.nodeEditor.MPSFonts;
 import jetbrains.mps.nodeEditor.style.Padding;
 import jetbrains.mps.nodeEditor.style.Measure;
 import jetbrains.mps.nodeEditor.MPSColors;
 import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
+import java.awt.Color;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.openapi.editor.EditorContext;
 
 public class XmlStyle_StyleSheet {
-  public static Style getXmlElement(final EditorCell cell) {
-    Style style = new Style(cell);
-    style.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator<Color>() {
-      public Color calculate(EditorCell cell) {
-        return XmlStyle_StyleSheet._StyleParameter_QueryFunction_yh53wd_a0a((cell == null ?
-          null :
-          cell.getSNode()
-        ), (cell == null ?
-          null :
-          cell.getContext()
-        ));
-      }
-    });
+  public static Style getXmlElement(final EditorCell editorCell) {
+    Style style = new Style(editorCell);
+    style.set(StyleAttributes.TEXT_COLOR, XmlStyle_StyleSheet._StyleParameter_QueryFunction_yh53wd_a0a((editorCell == null ?
+      null :
+      editorCell.getSNode()
+    ), (editorCell == null ?
+      null :
+      editorCell.getContext()
+    )));
     style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
     style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
     return style;
   }
 
-  public static Style getXmlAttribute(final EditorCell cell) {
-    Style style = new Style(cell);
+  public static Style getXmlAttribute(final EditorCell editorCell) {
+    Style style = new Style(editorCell);
     style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
     style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
-    style.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator<Color>() {
-      public Color calculate(EditorCell cell) {
-        return XmlStyle_StyleSheet._StyleParameter_QueryFunction_yh53wd_a2b((cell == null ?
-          null :
-          cell.getSNode()
-        ), (cell == null ?
-          null :
-          cell.getContext()
-        ));
-      }
-    });
+    style.set(StyleAttributes.TEXT_COLOR, XmlStyle_StyleSheet._StyleParameter_QueryFunction_yh53wd_a2b((editorCell == null ?
+      null :
+      editorCell.getSNode()
+    ), (editorCell == null ?
+      null :
+      editorCell.getContext()
+    )));
     return style;
   }
 
-  public static Style getXmlEntity(final EditorCell cell) {
-    Style style = new Style(cell);
-    style.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator<Color>() {
-      public Color calculate(EditorCell cell) {
-        return XmlStyle_StyleSheet._StyleParameter_QueryFunction_yh53wd_a0c((cell == null ?
-          null :
-          cell.getSNode()
-        ), (cell == null ?
-          null :
-          cell.getContext()
-        ));
-      }
-    });
+  public static Style getXmlEntity(final EditorCell editorCell) {
+    Style style = new Style(editorCell);
+    style.set(StyleAttributes.TEXT_COLOR, XmlStyle_StyleSheet._StyleParameter_QueryFunction_yh53wd_a0c((editorCell == null ?
+      null :
+      editorCell.getSNode()
+    ), (editorCell == null ?
+      null :
+      editorCell.getContext()
+    )));
     style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
     return style;
   }
 
-  public static Style getXmlText(final EditorCell cell) {
-    Style style = new Style(cell);
+  public static Style getXmlText(final EditorCell editorCell) {
+    Style style = new Style(editorCell);
     style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
     style.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_GREEN);
     style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
     return style;
   }
 
-  public static Style getXmlComplexText_Start(final EditorCell cell) {
-    Style style = new Style(cell);
+  public static Style getXmlComplexText_Start(final EditorCell editorCell) {
+    Style style = new Style(editorCell);
     style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
     style.set(StyleAttributes.LAST_POSITION_ALLOWED, false);
-    style.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator<Color>() {
-      public Color calculate(EditorCell cell) {
-        return XmlStyle_StyleSheet._StyleParameter_QueryFunction_yh53wd_a2e((cell == null ?
-          null :
-          cell.getSNode()
-        ), (cell == null ?
-          null :
-          cell.getContext()
-        ));
-      }
-    });
+    style.set(StyleAttributes.TEXT_COLOR, XmlStyle_StyleSheet._StyleParameter_QueryFunction_yh53wd_a2e((editorCell == null ?
+      null :
+      editorCell.getSNode()
+    ), (editorCell == null ?
+      null :
+      editorCell.getContext()
+    )));
     return style;
   }
 
-  public static Style getXmlComplexText_End(final EditorCell cell) {
-    Style style = new Style(cell);
-    style.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator<Color>() {
-      public Color calculate(EditorCell cell) {
-        return XmlStyle_StyleSheet._StyleParameter_QueryFunction_yh53wd_a0f((cell == null ?
-          null :
-          cell.getSNode()
-        ), (cell == null ?
-          null :
-          cell.getContext()
-        ));
-      }
-    });
+  public static Style getXmlComplexText_End(final EditorCell editorCell) {
+    Style style = new Style(editorCell);
+    style.set(StyleAttributes.TEXT_COLOR, XmlStyle_StyleSheet._StyleParameter_QueryFunction_yh53wd_a0f((editorCell == null ?
+      null :
+      editorCell.getSNode()
+    ), (editorCell == null ?
+      null :
+      editorCell.getContext()
+    )));
     return style;
   }
 
-  public static Style getXmlEmptyCell(final EditorCell cell) {
-    Style style = new Style(cell);
-    style.putAll(BaseLanguageStyle_StyleSheet.getEmptyCell(null));
+  public static Style getXmlEmptyCell(final EditorCell editorCell) {
+    Style style = new Style(editorCell);
+    style.putAll(BaseLanguageStyle_StyleSheet.getEmptyCell(editorCell));
     style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
     style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
     return style;
   }
 
-  public static Style getXmlOperator(final EditorCell cell) {
-    Style style = new Style(cell);
+  public static Style getXmlOperator(final EditorCell editorCell) {
+    Style style = new Style(editorCell);
     style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
     style.set(StyleAttributes.PUNCTUATION_LEFT, true);
     style.set(StyleAttributes.PUNCTUATION_RIGHT, true);
@@ -128,55 +107,55 @@ public class XmlStyle_StyleSheet {
     return style;
   }
 
-  public static Style getXmlOpenQuote(final EditorCell cell) {
-    Style style = new Style(cell);
-    style.putAll(BaseLanguageStyle_StyleSheet.getLeftParen(null));
+  public static Style getXmlOpenQuote(final EditorCell editorCell) {
+    Style style = new Style(editorCell);
+    style.putAll(BaseLanguageStyle_StyleSheet.getLeftParen(editorCell));
     return style;
   }
 
-  public static Style getXmlCloseQuote(final EditorCell cell) {
-    Style style = new Style(cell);
-    style.putAll(BaseLanguageStyle_StyleSheet.getRightParen(null));
+  public static Style getXmlCloseQuote(final EditorCell editorCell) {
+    Style style = new Style(editorCell);
+    style.putAll(BaseLanguageStyle_StyleSheet.getRightParen(editorCell));
     return style;
   }
 
-  public static Style getXmlOpenParen(final EditorCell cell) {
-    Style style = new Style(cell);
-    style.putAll(BaseLanguageStyle_StyleSheet.getLeftParen(null));
+  public static Style getXmlOpenParen(final EditorCell editorCell) {
+    Style style = new Style(editorCell);
+    style.putAll(BaseLanguageStyle_StyleSheet.getLeftParen(editorCell));
     style.set(StyleAttributes.PUNCTUATION_RIGHT, true);
     return style;
   }
 
-  public static Style getXmlCloseParen(final EditorCell cell) {
-    Style style = new Style(cell);
-    style.putAll(BaseLanguageStyle_StyleSheet.getRightParen(null));
+  public static Style getXmlCloseParen(final EditorCell editorCell) {
+    Style style = new Style(editorCell);
+    style.putAll(BaseLanguageStyle_StyleSheet.getRightParen(editorCell));
     style.set(StyleAttributes.PUNCTUATION_LEFT, true);
     return style;
   }
 
-  public static Style getXmlCLOpenParen(final EditorCell cell) {
-    Style style = new Style(cell);
-    style.putAll(XmlStyle_StyleSheet.getXmlOpenParen(null));
+  public static Style getXmlCLOpenParen(final EditorCell editorCell) {
+    Style style = new Style(editorCell);
+    style.putAll(XmlStyle_StyleSheet.getXmlOpenParen(editorCell));
     style.set(StyleAttributes.TEXT_COLOR, MPSColors.lightGray);
     return style;
   }
 
-  public static Style getXmlCLCloseParen(final EditorCell cell) {
-    Style style = new Style(cell);
-    style.putAll(XmlStyle_StyleSheet.getXmlCloseParen(null));
+  public static Style getXmlCLCloseParen(final EditorCell editorCell) {
+    Style style = new Style(editorCell);
+    style.putAll(XmlStyle_StyleSheet.getXmlCloseParen(editorCell));
     style.set(StyleAttributes.TEXT_COLOR, MPSColors.lightGray);
     return style;
   }
 
-  public static Style getXmlOpenBrace(final EditorCell cell) {
-    Style style = new Style(cell);
-    style.putAll(BaseLanguageStyle_StyleSheet.getLeftBrace(null));
+  public static Style getXmlOpenBrace(final EditorCell editorCell) {
+    Style style = new Style(editorCell);
+    style.putAll(BaseLanguageStyle_StyleSheet.getLeftBrace(editorCell));
     return style;
   }
 
-  public static Style getXmlCloseBrace(final EditorCell cell) {
-    Style style = new Style(cell);
-    style.putAll(BaseLanguageStyle_StyleSheet.getRightBrace(null));
+  public static Style getXmlCloseBrace(final EditorCell editorCell) {
+    Style style = new Style(editorCell);
+    style.putAll(BaseLanguageStyle_StyleSheet.getRightBrace(editorCell));
     return style;
   }
 

@@ -11,7 +11,6 @@ import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
-import jetbrains.mps.nodeEditor.style.AttributeCalculator;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.nodeEditor.MPSFonts;
@@ -109,17 +108,13 @@ public class PeriodSeparatorFormatToken_Editor extends DefaultNodeEditor {
     BaseLanguageStyle_StyleSheet.getLeftBracket(editorCell).apply(editorCell);
     {
       Style style = editorCell.getStyle();
-      style.set(StyleAttributes.PUNCTUATION_LEFT, new AttributeCalculator<Boolean>() {
-        public Boolean calculate(EditorCell cell) {
-          return PeriodSeparatorFormatToken_Editor._StyleParameter_QueryFunction_ih8plz_a0a0((cell == null ?
-            null :
-            cell.getSNode()
-          ), (cell == null ?
-            null :
-            cell.getContext()
-          ));
-        }
-      });
+      style.set(StyleAttributes.PUNCTUATION_LEFT, PeriodSeparatorFormatToken_Editor._StyleParameter_QueryFunction_ih8plz_a0a0((editorCell == null ?
+        null :
+        editorCell.getSNode()
+      ), (editorCell == null ?
+        null :
+        editorCell.getContext()
+      )));
     }
     editorCell.setDefaultText("");
     return editorCell;
@@ -142,17 +137,13 @@ public class PeriodSeparatorFormatToken_Editor extends DefaultNodeEditor {
     BaseLanguageStyle_StyleSheet.getRightBracket(editorCell).apply(editorCell);
     {
       Style style = editorCell.getStyle();
-      style.set(StyleAttributes.PUNCTUATION_RIGHT, new AttributeCalculator<Boolean>() {
-        public Boolean calculate(EditorCell cell) {
-          return PeriodSeparatorFormatToken_Editor._StyleParameter_QueryFunction_ih8plz_a0d0((cell == null ?
-            null :
-            cell.getSNode()
-          ), (cell == null ?
-            null :
-            cell.getContext()
-          ));
-        }
-      });
+      style.set(StyleAttributes.PUNCTUATION_RIGHT, PeriodSeparatorFormatToken_Editor._StyleParameter_QueryFunction_ih8plz_a0d0((editorCell == null ?
+        null :
+        editorCell.getSNode()
+      ), (editorCell == null ?
+        null :
+        editorCell.getContext()
+      )));
     }
     editorCell.setDefaultText("");
     return editorCell;

@@ -4858,25 +4858,25 @@
     <unitInfo nodeId="1238668494582" fileName="DateTimeZone_Editor.java" startLine="28" startPosition="0" endLine="184" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.editor.DateTimeZone_Editor" />
   </root>
   <root nodeId="1238677627618" modelId="r:00000000-0000-4000-0000-011c895903dc(jetbrains.mps.baseLanguage.datesInternal.editor)">
-    <nodeInfo nodeId="1238677627618" fileName="DatesInternal_StyleSheet.java" startLine="11" startPosition="60" endLine="12" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1238677627618" fileName="DatesInternal_StyleSheet.java" startLine="12" startPosition="34" endLine="13" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1238677627618" fileName="DatesInternal_StyleSheet.java" startLine="11" startPosition="66" endLine="12" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1238677627618" fileName="DatesInternal_StyleSheet.java" startLine="12" startPosition="40" endLine="13" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1238677627618" fileName="DatesInternal_StyleSheet.java" startLine="13" startPosition="58" endLine="14" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1238677627618" fileName="DatesInternal_StyleSheet.java" startLine="17" startPosition="59" endLine="18" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1238677627618" fileName="DatesInternal_StyleSheet.java" startLine="18" startPosition="34" endLine="19" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1238677627618" fileName="DatesInternal_StyleSheet.java" startLine="17" startPosition="65" endLine="18" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1238677627618" fileName="DatesInternal_StyleSheet.java" startLine="18" startPosition="40" endLine="19" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1238677627618" fileName="DatesInternal_StyleSheet.java" startLine="19" startPosition="58" endLine="20" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1238677627618" fileName="DatesInternal_StyleSheet.java" startLine="11" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getSimpleText#(Ljetbrains/mps/nodeEditor/cells/EditorCell;)Ljetbrains/mps/nodeEditor/style/Style;" />
     <nodeInfo nodeId="1238677627618" fileName="DatesInternal_StyleSheet.java" startLine="17" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getTableCell#(Ljetbrains/mps/nodeEditor/cells/EditorCell;)Ljetbrains/mps/nodeEditor/style/Style;" />
-    <scopeInfo nodeId="1238677627618" fileName="DatesInternal_StyleSheet.java" startLine="11" startPosition="60" endLine="14" endPosition="17">
+    <scopeInfo nodeId="1238677627618" fileName="DatesInternal_StyleSheet.java" startLine="11" startPosition="66" endLine="14" endPosition="17">
       <varInfo nodeId="1238677627618" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="1238677627618" fileName="DatesInternal_StyleSheet.java" startLine="17" startPosition="59" endLine="20" endPosition="17">
+    <scopeInfo nodeId="1238677627618" fileName="DatesInternal_StyleSheet.java" startLine="17" startPosition="65" endLine="20" endPosition="17">
       <varInfo nodeId="1238677627618" varName="style" />
     </scopeInfo>
     <scopeInfo nodeId="1238677627618" fileName="DatesInternal_StyleSheet.java" startLine="11" startPosition="0" endLine="16" endPosition="0">
-      <varInfo nodeId="1238677627618" varName="cell" />
+      <varInfo nodeId="1238677627618" varName="editorCell" />
     </scopeInfo>
     <scopeInfo nodeId="1238677627618" fileName="DatesInternal_StyleSheet.java" startLine="17" startPosition="0" endLine="22" endPosition="0">
-      <varInfo nodeId="1238677627618" varName="cell" />
+      <varInfo nodeId="1238677627618" varName="editorCell" />
     </scopeInfo>
     <unitInfo nodeId="1238677627618" fileName="DatesInternal_StyleSheet.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.editor.DatesInternal_StyleSheet" />
   </root>
