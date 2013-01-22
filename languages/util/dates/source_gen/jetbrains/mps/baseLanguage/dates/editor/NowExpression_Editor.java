@@ -8,6 +8,8 @@ import jetbrains.mps.openapi.editor.EditorContext;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.nodeEditor.AbstractCellProvider;
 import jetbrains.mps.lang.core.editor.AliasEditorComponent;
+import jetbrains.mps.openapi.editor.style.Style;
+import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 
 public class NowExpression_Editor extends DefaultNodeEditor {
@@ -22,7 +24,9 @@ public class NowExpression_Editor extends DefaultNodeEditor {
   private EditorCell createComponent_61n5vj_a(EditorContext editorContext, SNode node) {
     AbstractCellProvider provider = new AliasEditorComponent(node);
     EditorCell editorCell = provider.createEditorCell(editorContext);
-    Dates_StyleSheet.getDateCompactKeyWord(editorCell).apply(editorCell);
+    Style style = new StyleImpl();
+    Dates_StyleSheet.applyDateCompactKeyWord(style, editorCell);
+    editorCell.getStyle().putAll(style);
     return editorCell;
   }
 

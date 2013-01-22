@@ -8,6 +8,8 @@ import jetbrains.mps.openapi.editor.EditorContext;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
+import jetbrains.mps.openapi.editor.style.Style;
+import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.nodeEditor.FocusPolicy;
@@ -40,7 +42,9 @@ public class Attribute_Editor extends DefaultNodeEditor {
   private EditorCell createConstant_mc4j88_c0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\"");
     editorCell.setCellId("Constant_mc4j88_c0");
-    XMLDeprecatedStyles_StyleSheet.getAttributeValue(editorCell).apply(editorCell);
+    Style style = new StyleImpl();
+    XMLDeprecatedStyles_StyleSheet.applyAttributeValue(style, editorCell);
+    editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -48,7 +52,9 @@ public class Attribute_Editor extends DefaultNodeEditor {
   private EditorCell createConstant_mc4j88_e0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\"");
     editorCell.setCellId("Constant_mc4j88_e0");
-    XMLDeprecatedStyles_StyleSheet.getAttributeValue(editorCell).apply(editorCell);
+    Style style = new StyleImpl();
+    XMLDeprecatedStyles_StyleSheet.applyAttributeValue(style, editorCell);
+    editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -60,7 +66,9 @@ public class Attribute_Editor extends DefaultNodeEditor {
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_name");
-    XMLDeprecatedStyles_StyleSheet.getAttributeName(editorCell).apply(editorCell);
+    Style style = new StyleImpl();
+    XMLDeprecatedStyles_StyleSheet.applyAttributeName(style, editorCell);
+    editorCell.getStyle().putAll(style);
     if (true) {
       editorCell.setFocusPolicy(FocusPolicy.ATTRACTS_FOCUS);
     }
@@ -82,7 +90,9 @@ public class Attribute_Editor extends DefaultNodeEditor {
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_value");
-    XMLDeprecatedStyles_StyleSheet.getAttributeValue(editorCell).apply(editorCell);
+    Style style = new StyleImpl();
+    XMLDeprecatedStyles_StyleSheet.applyAttributeValue(style, editorCell);
+    editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

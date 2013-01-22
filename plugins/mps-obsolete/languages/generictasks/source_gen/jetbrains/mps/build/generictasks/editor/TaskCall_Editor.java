@@ -19,9 +19,10 @@ import jetbrains.mps.nodeEditor.cellActions.CellAction_DeleteNode;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultReferenceSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
+import jetbrains.mps.openapi.editor.style.Style;
+import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.buildlanguage.editor.BuildLanguageStyle_StyleSheet;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
-import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Vertical;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Indent;
@@ -150,7 +151,9 @@ public class TaskCall_Editor extends DefaultNodeEditor {
     private EditorCell createConstant_fr7f84_a4b0(EditorContext editorContext, SNode node) {
       EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<attributes>");
       editorCell.setCellId("Constant_fr7f84_a4b0");
-      BuildLanguageStyle_StyleSheet.getPrompting(editorCell).apply(editorCell);
+      Style style = new StyleImpl();
+      BuildLanguageStyle_StyleSheet.applyPrompting(style, editorCell);
+      editorCell.getStyle().putAll(style);
       editorCell.setDefaultText("");
       return editorCell;
     }
@@ -198,7 +201,9 @@ public class TaskCall_Editor extends DefaultNodeEditor {
     private EditorCell createConstant_fr7f84_a1d0(EditorContext editorContext, SNode node) {
       EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<nested tasks>");
       editorCell.setCellId("Constant_fr7f84_a1d0");
-      BuildLanguageStyle_StyleSheet.getPrompting(editorCell).apply(editorCell);
+      Style style = new StyleImpl();
+      BuildLanguageStyle_StyleSheet.applyPrompting(style, editorCell);
+      editorCell.getStyle().putAll(style);
       editorCell.setDefaultText("");
       return editorCell;
     }
@@ -246,7 +251,9 @@ public class TaskCall_Editor extends DefaultNodeEditor {
     private EditorCell createConstant_fr7f84_a0a_0(EditorContext editorContext, SNode node) {
       EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<attributes>");
       editorCell.setCellId("Constant_fr7f84_a0a_0");
-      BuildLanguageStyle_StyleSheet.getPrompting(editorCell).apply(editorCell);
+      Style style = new StyleImpl();
+      BuildLanguageStyle_StyleSheet.applyPrompting(style, editorCell);
+      editorCell.getStyle().putAll(style);
       editorCell.setDefaultText("");
       return editorCell;
     }
@@ -271,10 +278,9 @@ public class TaskCall_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_fr7f84_a0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_fr7f84_a0");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.SELECTABLE, false);
+    editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_fr7f84_a0a(editorContext, node));
     editorCell.addEditorCell(this.createProperty_fr7f84_b0a(editorContext, node));
     return editorCell;
@@ -283,10 +289,9 @@ public class TaskCall_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_fr7f84_b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_fr7f84_b0");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.SELECTABLE, false);
+    editorCell.getStyle().putAll(style);
     if (renderingCondition_fr7f84_a0b0(node, editorContext, editorContext.getOperationContext().getScope())) {
       editorCell.addEditorCell(this.createRefCell_fr7f84_a1a(editorContext, node));
     }
@@ -303,10 +308,9 @@ public class TaskCall_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_fr7f84_c0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_fr7f84_c0");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.SELECTABLE, false);
+    editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createIndentCell_fr7f84_a2a(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_fr7f84_b2a(editorContext, node));
     return editorCell;
@@ -315,10 +319,9 @@ public class TaskCall_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_fr7f84_d0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_fr7f84_d0");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.SELECTABLE, false);
+    editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createIndentCell_fr7f84_a3a(editorContext, node));
     editorCell.addEditorCell(this.createRefNodeList_fr7f84_b3a(editorContext, node));
     return editorCell;
@@ -334,7 +337,9 @@ public class TaskCall_Editor extends DefaultNodeEditor {
   private EditorCell createConstant_fr7f84_a0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "//");
     editorCell.setCellId("Constant_fr7f84_a0a");
-    BuildLanguageStyle_StyleSheet.getComment(editorCell).apply(editorCell);
+    Style style = new StyleImpl();
+    BuildLanguageStyle_StyleSheet.applyComment(style, editorCell);
+    editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -357,10 +362,9 @@ public class TaskCall_Editor extends DefaultNodeEditor {
     AbstractCellListHandler handler = new TaskCall_Editor.atributesListHandler_fr7f84_e1a(node, "atributes", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Vertical(), false);
     editorCell.setCellId("refNodeList_atributes");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.SELECTABLE, false);
+    editorCell.getStyle().putAll(style);
     editorCell.setGridLayout(true);
     editorCell.setRole(handler.getElementRole());
     return editorCell;
@@ -370,10 +374,9 @@ public class TaskCall_Editor extends DefaultNodeEditor {
     AbstractCellListHandler handler = new TaskCall_Editor.nestedListHandler_fr7f84_b3a(node, "nested", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Vertical(), false);
     editorCell.setCellId("refNodeList_nested");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.SELECTABLE, false);
+    editorCell.getStyle().putAll(style);
     editorCell.setRole(handler.getElementRole());
     return editorCell;
   }
@@ -382,10 +385,9 @@ public class TaskCall_Editor extends DefaultNodeEditor {
     AbstractCellListHandler handler = new TaskCall_Editor.atributesListHandler_fr7f84_a0(node, "atributes", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Vertical(), false);
     editorCell.setCellId("refNodeList_atributes_1");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.SELECTABLE, false);
+    editorCell.getStyle().putAll(style);
     editorCell.setRole(handler.getElementRole());
     return editorCell;
   }
@@ -407,7 +409,9 @@ public class TaskCall_Editor extends DefaultNodeEditor {
     EditorCell editorCell;
     provider.setAuxiliaryCellProvider(new TaskCall_Editor._Inline_fr7f84_a0b0());
     editorCell = provider.createEditorCell(editorContext);
-    BuildLanguageStyle_StyleSheet.getTask(editorCell).apply(editorCell);
+    Style style = new StyleImpl();
+    BuildLanguageStyle_StyleSheet.applyTask(style, editorCell);
+    editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -426,7 +430,9 @@ public class TaskCall_Editor extends DefaultNodeEditor {
     EditorCell editorCell;
     provider.setAuxiliaryCellProvider(new TaskCall_Editor._Inline_fr7f84_a1b0());
     editorCell = provider.createEditorCell(editorContext);
-    BuildLanguageStyle_StyleSheet.getDepractaedAttributeName(editorCell).apply(editorCell);
+    Style style = new StyleImpl();
+    BuildLanguageStyle_StyleSheet.applyDepractaedAttributeName(style, editorCell);
+    editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -463,7 +469,9 @@ public class TaskCall_Editor extends DefaultNodeEditor {
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_shortDescription");
-    BuildLanguageStyle_StyleSheet.getComment(editorCell).apply(editorCell);
+    Style style = new StyleImpl();
+    BuildLanguageStyle_StyleSheet.applyComment(style, editorCell);
+    editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

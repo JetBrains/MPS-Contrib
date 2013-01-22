@@ -8,6 +8,8 @@ import jetbrains.mps.openapi.editor.EditorContext;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
+import jetbrains.mps.openapi.editor.style.Style;
+import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
@@ -35,7 +37,9 @@ public class PublicId_Editor extends DefaultNodeEditor {
   private EditorCell createConstant_d4ew5w_a0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "PUBLIC");
     editorCell.setCellId("Constant_d4ew5w_a0");
-    XMLDeprecatedStyles_StyleSheet.getElement(editorCell).apply(editorCell);
+    Style style = new StyleImpl();
+    XMLDeprecatedStyles_StyleSheet.applyElement(style, editorCell);
+    editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -43,7 +47,9 @@ public class PublicId_Editor extends DefaultNodeEditor {
   private EditorCell createConstant_d4ew5w_b0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\"");
     editorCell.setCellId("Constant_d4ew5w_b0");
-    XMLDeprecatedStyles_StyleSheet.getAttributeValue(editorCell).apply(editorCell);
+    Style style = new StyleImpl();
+    XMLDeprecatedStyles_StyleSheet.applyAttributeValue(style, editorCell);
+    editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -51,7 +57,9 @@ public class PublicId_Editor extends DefaultNodeEditor {
   private EditorCell createConstant_d4ew5w_d0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\"");
     editorCell.setCellId("Constant_d4ew5w_d0");
-    XMLDeprecatedStyles_StyleSheet.getAttributeValue(editorCell).apply(editorCell);
+    Style style = new StyleImpl();
+    XMLDeprecatedStyles_StyleSheet.applyAttributeValue(style, editorCell);
+    editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -66,7 +74,9 @@ public class PublicId_Editor extends DefaultNodeEditor {
   private EditorCell createConstant_d4ew5w_f0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\"");
     editorCell.setCellId("Constant_d4ew5w_f0");
-    XMLDeprecatedStyles_StyleSheet.getAttributeValue(editorCell).apply(editorCell);
+    Style style = new StyleImpl();
+    XMLDeprecatedStyles_StyleSheet.applyAttributeValue(style, editorCell);
+    editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -74,7 +84,9 @@ public class PublicId_Editor extends DefaultNodeEditor {
   private EditorCell createConstant_d4ew5w_h0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\"");
     editorCell.setCellId("Constant_d4ew5w_h0");
-    XMLDeprecatedStyles_StyleSheet.getAttributeValue(editorCell).apply(editorCell);
+    Style style = new StyleImpl();
+    XMLDeprecatedStyles_StyleSheet.applyAttributeValue(style, editorCell);
+    editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -86,7 +98,9 @@ public class PublicId_Editor extends DefaultNodeEditor {
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_publicID");
-    XMLDeprecatedStyles_StyleSheet.getAttributeValue(editorCell).apply(editorCell);
+    Style style = new StyleImpl();
+    XMLDeprecatedStyles_StyleSheet.applyAttributeValue(style, editorCell);
+    editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -105,7 +119,9 @@ public class PublicId_Editor extends DefaultNodeEditor {
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_systemID");
-    XMLDeprecatedStyles_StyleSheet.getAttributeValue(editorCell).apply(editorCell);
+    Style style = new StyleImpl();
+    XMLDeprecatedStyles_StyleSheet.applyAttributeValue(style, editorCell);
+    editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

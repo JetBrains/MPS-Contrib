@@ -7,7 +7,8 @@ import jetbrains.mps.nodeEditor.cells.EditorCell;
 import jetbrains.mps.openapi.editor.EditorContext;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
-import jetbrains.mps.nodeEditor.style.Style;
+import jetbrains.mps.openapi.editor.style.Style;
+import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.AbstractCellProvider;
 import jetbrains.mps.lang.core.editor.AliasEditorComponent;
@@ -34,10 +35,9 @@ public class ParametrizedExecuteBlock_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_elhbwn_b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_elhbwn_b0");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.SELECTABLE, false);
+    editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createIndentCell_elhbwn_a1a(editorContext, node));
     editorCell.addEditorCell(this.createCollection_elhbwn_b1a(editorContext, node));
     return editorCell;
@@ -46,10 +46,9 @@ public class ParametrizedExecuteBlock_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_elhbwn_b1a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_elhbwn_b1a");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.SELECTABLE, false);
+    editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createRefNode_elhbwn_a1b0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_elhbwn_b1b0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_elhbwn_c1b0(editorContext, node));
@@ -68,10 +67,9 @@ public class ParametrizedExecuteBlock_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_elhbwn_b1b1a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_elhbwn_b1b1a");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.SELECTABLE, false);
+    editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createIndentCell_elhbwn_a1b1b0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_elhbwn_b1b1b0(editorContext, node));
     return editorCell;
@@ -80,10 +78,9 @@ public class ParametrizedExecuteBlock_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_elhbwn_b1b1b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_elhbwn_b1b1b0");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.SELECTABLE, false);
+    editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createRefNode_elhbwn_a1b1b1a(editorContext, node));
     return editorCell;
   }
@@ -99,10 +96,9 @@ public class ParametrizedExecuteBlock_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_elhbwn_b2b1a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_elhbwn_b2b1a");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.SELECTABLE, false);
+    editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createIndentCell_elhbwn_a1c1b0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_elhbwn_b1c1b0(editorContext, node));
     return editorCell;
@@ -111,10 +107,9 @@ public class ParametrizedExecuteBlock_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_elhbwn_b1c1b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_elhbwn_b1c1b0");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.SELECTABLE, false);
+    editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createRefNode_elhbwn_a1b2b1a(editorContext, node));
     return editorCell;
   }
@@ -130,10 +125,9 @@ public class ParametrizedExecuteBlock_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_elhbwn_b3b1a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_elhbwn_b3b1a");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.SELECTABLE, false);
+    editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createIndentCell_elhbwn_a1d1b0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_elhbwn_b1d1b0(editorContext, node));
     return editorCell;
@@ -142,10 +136,9 @@ public class ParametrizedExecuteBlock_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_elhbwn_b1d1b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_elhbwn_b1d1b0");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.SELECTABLE, false);
+    editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createRefNode_elhbwn_a1b3b1a(editorContext, node));
     return editorCell;
   }

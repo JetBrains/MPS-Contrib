@@ -7,7 +7,8 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
 import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
-import jetbrains.mps.nodeEditor.style.Style;
+import jetbrains.mps.openapi.editor.style.Style;
+import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
@@ -55,10 +56,9 @@ public class GenericAttributeDeclaration_EditorComponent extends AbstractCellPro
   private EditorCell createCollection_es1meb_a0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_es1meb_a0");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.SELECTABLE, false);
+    editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_es1meb_a0a(editorContext, node));
     editorCell.addEditorCell(this.createConstant_es1meb_b0a(editorContext, node));
     editorCell.addEditorCell(this.createProperty_es1meb_c0a(editorContext, node));
@@ -68,10 +68,9 @@ public class GenericAttributeDeclaration_EditorComponent extends AbstractCellPro
   private EditorCell createCollection_es1meb_b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_es1meb_b0");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.SELECTABLE, false);
+    editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_es1meb_a1a(editorContext, node));
     editorCell.addEditorCell(this.createConstant_es1meb_b1a(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_es1meb_c1a(editorContext, node));
@@ -81,10 +80,9 @@ public class GenericAttributeDeclaration_EditorComponent extends AbstractCellPro
   private EditorCell createCollection_es1meb_c0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_es1meb_c0");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.SELECTABLE, false);
+    editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_es1meb_a2a(editorContext, node));
     editorCell.addEditorCell(this.createConstant_es1meb_b2a(editorContext, node));
     editorCell.addEditorCell(this.createProperty_es1meb_c2a(editorContext, node));
@@ -157,7 +155,9 @@ public class GenericAttributeDeclaration_EditorComponent extends AbstractCellPro
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_required");
-    BuildLanguageStyle_StyleSheet.getBooleanLiteral(editorCell).apply(editorCell);
+    Style style = new StyleImpl();
+    BuildLanguageStyle_StyleSheet.applyBooleanLiteral(style, editorCell);
+    editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -176,7 +176,9 @@ public class GenericAttributeDeclaration_EditorComponent extends AbstractCellPro
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_deprecated");
-    BuildLanguageStyle_StyleSheet.getBooleanLiteral(editorCell).apply(editorCell);
+    Style style = new StyleImpl();
+    BuildLanguageStyle_StyleSheet.applyBooleanLiteral(style, editorCell);
+    editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
