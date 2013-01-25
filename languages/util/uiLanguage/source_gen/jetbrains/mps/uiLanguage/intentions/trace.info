@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <unitInfo fileName="IntentionsDescriptor.java" startLine="10" startPosition="0" endLine="20" endPosition="0" unitName="jetbrains.mps.uiLanguage.intentions.IntentionsDescriptor" />
-  <root nodeId="1203674861152" modelId="r:00000000-0000-4000-0000-011c89590551(jetbrains.mps.uiLanguage.intentions)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590551(jetbrains.mps.uiLanguage.intentions)/1203674861152">
     <nodeInfo nodeId="1203674861152" fileName="AddOnChangeHandler_Intention.java" startLine="19" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myCachedExecutable" />
     <nodeInfo nodeId="1203674861152" fileName="AddOnChangeHandler_Intention.java" startLine="24" startPosition="30" endLine="25" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1203674861152" fileName="AddOnChangeHandler_Intention.java" startLine="28" startPosition="35" endLine="29" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -93,7 +93,7 @@
     <unitInfo nodeId="1203674861152" fileName="AddOnChangeHandler_Intention.java" startLine="74" startPosition="0" endLine="92" endPosition="0" unitName="jetbrains.mps.uiLanguage.intentions.AddOnChangeHandler_Intention$IntentionImplementation" />
     <unitInfo nodeId="1203674861152" fileName="AddOnChangeHandler_Intention.java" startLine="18" startPosition="0" endLine="93" endPosition="0" unitName="jetbrains.mps.uiLanguage.intentions.AddOnChangeHandler_Intention" />
   </root>
-  <root nodeId="1204896171511" modelId="r:00000000-0000-4000-0000-011c89590551(jetbrains.mps.uiLanguage.intentions)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590551(jetbrains.mps.uiLanguage.intentions)/1204896171511">
     <nodeInfo nodeId="1204896171511" fileName="AddInitializer_Intention.java" startLine="19" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myCachedExecutable" />
     <nodeInfo nodeId="1204896171511" fileName="AddInitializer_Intention.java" startLine="24" startPosition="30" endLine="25" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1204896171511" fileName="AddInitializer_Intention.java" startLine="28" startPosition="35" endLine="29" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />

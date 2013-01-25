@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <root nodeId="6936542821591824460" modelId="r:1d745698-959f-411a-bdd4-ff06bf4a08cf(jetbrains.mps.uiLanguage.samples.dogfood)">
+  <root nodeRef="r:1d745698-959f-411a-bdd4-ff06bf4a08cf(jetbrains.mps.uiLanguage.samples.dogfood)/6936542821591824460">
     <nodeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="14" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myThis" />
     <nodeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="15" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_qku_b0" />
     <nodeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="16" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myBindings" />
@@ -58,7 +58,7 @@
     <unitInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="17" startPosition="32" endLine="23" endPosition="3" unitName="jetbrains.mps.uiLanguage.samples.dogfood.Dog$1" />
     <unitInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="13" startPosition="0" endLine="64" endPosition="0" unitName="jetbrains.mps.uiLanguage.samples.dogfood.Dog" />
   </root>
-  <root nodeId="6936542821591824462" modelId="r:1d745698-959f-411a-bdd4-ff06bf4a08cf(jetbrains.mps.uiLanguage.samples.dogfood)">
+  <root nodeRef="r:1d745698-959f-411a-bdd4-ff06bf4a08cf(jetbrains.mps.uiLanguage.samples.dogfood)/6936542821591824462">
     <nodeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="15" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myThis" />
     <nodeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="16" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myLabel_nj27_b0" />
     <nodeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="17" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myBindings" />
