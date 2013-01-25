@@ -18,6 +18,7 @@ import jetbrains.mps.xml.actions.ElementUtil;
 import jetbrains.mps.smodel.search.SModelSearchUtil;
 import jetbrains.mps.smodel.search.SimpleSearchScope;
 import jetbrains.mps.xmlSchema.behavior.ElementDeclaration_Behavior;
+import org.jetbrains.mps.openapi.model.SNodeReference;
 import jetbrains.mps.smodel.SNodePointer;
 
 public class Attribute_Constraints extends BaseConstraintsDescriptor {
@@ -51,7 +52,7 @@ public class Attribute_Constraints extends BaseConstraintsDescriptor {
           }
 
           @Override
-          public SNodePointer getSearchScopeValidatorNode() {
+          public SNodeReference getSearchScopeValidatorNode() {
             return breakingNode_oyfip5_a0a1a0a0a1a0b0a1a1;
           }
         };

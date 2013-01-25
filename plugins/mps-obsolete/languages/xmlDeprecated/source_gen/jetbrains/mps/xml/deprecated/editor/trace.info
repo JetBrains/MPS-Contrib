@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <root nodeId="1107867122721" modelId="r:00000000-0000-4000-0000-011c895905a1(jetbrains.mps.xml.deprecated.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c895905a1(jetbrains.mps.xml.deprecated.editor)/1107867122721">
     <nodeInfo nodeId="1107867122721" fileName="Text_Editor.java" startLine="17" startPosition="79" endLine="18" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1107868239951" fileName="Text_Editor.java" startLine="21" startPosition="87" endLine="22" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1107868239951" fileName="Text_Editor.java" startLine="22" startPosition="82" endLine="23" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -43,7 +43,7 @@
     </scopeInfo>
     <unitInfo nodeId="1107867122721" fileName="Text_Editor.java" startLine="16" startPosition="0" endLine="42" endPosition="0" unitName="jetbrains.mps.xml.deprecated.editor.Text_Editor" />
   </root>
-  <root nodeId="1107867201136" modelId="r:00000000-0000-4000-0000-011c895905a1(jetbrains.mps.xml.deprecated.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c895905a1(jetbrains.mps.xml.deprecated.editor)/1107867201136">
     <nodeInfo nodeId="1107867201136" fileName="Attribute_Editor.java" startLine="20" startPosition="79" endLine="21" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1107867208213" fileName="Attribute_Editor.java" startLine="24" startPosition="89" endLine="25" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1107867208213" fileName="Attribute_Editor.java" startLine="25" startPosition="99" endLine="26" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -192,7 +192,7 @@
     </scopeInfo>
     <unitInfo nodeId="1107867201136" fileName="Attribute_Editor.java" startLine="19" startPosition="0" endLine="107" endPosition="0" unitName="jetbrains.mps.xml.deprecated.editor.Attribute_Editor" />
   </root>
-  <root nodeId="1107867277995" modelId="r:00000000-0000-4000-0000-011c895905a1(jetbrains.mps.xml.deprecated.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c895905a1(jetbrains.mps.xml.deprecated.editor)/1107867277995">
     <nodeInfo nodeId="1107867277995" fileName="Element_Editor.java" startLine="36" startPosition="79" endLine="37" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1107867277995" fileName="Element_Editor.java" startLine="40" startPosition="82" endLine="41" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1107867877446" fileName="Element_Editor.java" startLine="45" startPosition="102" endLine="46" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
@@ -781,7 +781,7 @@
     <unitInfo nodeId="1107867522565" fileName="Element_Editor.java" startLine="94" startPosition="0" endLine="143" endPosition="0" unitName="jetbrains.mps.xml.deprecated.editor.Element_Editor$contentListHandler_76r4mg_b1a" />
     <unitInfo nodeId="1107867277995" fileName="Element_Editor.java" startLine="35" startPosition="0" endLine="383" endPosition="0" unitName="jetbrains.mps.xml.deprecated.editor.Element_Editor" />
   </root>
-  <root nodeId="1119976717346" modelId="r:00000000-0000-4000-0000-011c895905a1(jetbrains.mps.xml.deprecated.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c895905a1(jetbrains.mps.xml.deprecated.editor)/1119976717346">
     <nodeInfo nodeId="1119976717346" fileName="Document_Editor.java" startLine="21" startPosition="79" endLine="22" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1119976778254" fileName="Document_Editor.java" startLine="25" startPosition="89" endLine="26" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1119976778254" fileName="Document_Editor.java" startLine="26" startPosition="97" endLine="27" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -1014,7 +1014,7 @@
     </scopeInfo>
     <unitInfo nodeId="1119976717346" fileName="Document_Editor.java" startLine="20" startPosition="0" endLine="157" endPosition="0" unitName="jetbrains.mps.xml.deprecated.editor.Document_Editor" />
   </root>
-  <root nodeId="1119977863427" modelId="r:00000000-0000-4000-0000-011c895905a1(jetbrains.mps.xml.deprecated.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c895905a1(jetbrains.mps.xml.deprecated.editor)/1119977863427">
     <nodeInfo nodeId="1119977863427" fileName="ElementPart_Editor.java" startLine="12" startPosition="79" endLine="13" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1119977874007" fileName="ElementPart_Editor.java" startLine="16" startPosition="84" endLine="17" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1119977874007" fileName="ElementPart_Editor.java" startLine="17" startPosition="96" endLine="18" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -1035,7 +1035,7 @@
     </scopeInfo>
     <unitInfo nodeId="1119977863427" fileName="ElementPart_Editor.java" startLine="11" startPosition="0" endLine="22" endPosition="0" unitName="jetbrains.mps.xml.deprecated.editor.ElementPart_Editor" />
   </root>
-  <root nodeId="1234365428858" modelId="r:00000000-0000-4000-0000-011c895905a1(jetbrains.mps.xml.deprecated.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c895905a1(jetbrains.mps.xml.deprecated.editor)/1234365428858">
     <nodeInfo nodeId="1234365428858" fileName="DocumentTypeDeclaration_Editor.java" startLine="21" startPosition="79" endLine="22" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1234365439400" fileName="DocumentTypeDeclaration_Editor.java" startLine="25" startPosition="89" endLine="26" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1234365439400" fileName="DocumentTypeDeclaration_Editor.java" startLine="26" startPosition="97" endLine="27" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -1190,7 +1190,7 @@
     </scopeInfo>
     <unitInfo nodeId="1234365428858" fileName="DocumentTypeDeclaration_Editor.java" startLine="20" startPosition="0" endLine="108" endPosition="0" unitName="jetbrains.mps.xml.deprecated.editor.DocumentTypeDeclaration_Editor" />
   </root>
-  <root nodeId="1234366488861" modelId="r:00000000-0000-4000-0000-011c895905a1(jetbrains.mps.xml.deprecated.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c895905a1(jetbrains.mps.xml.deprecated.editor)/1234366488861">
     <nodeInfo nodeId="1234366488861" fileName="PublicId_Editor.java" startLine="19" startPosition="79" endLine="20" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1234366493721" fileName="PublicId_Editor.java" startLine="23" startPosition="89" endLine="24" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1234366493721" fileName="PublicId_Editor.java" startLine="24" startPosition="99" endLine="25" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -1393,7 +1393,7 @@
     </scopeInfo>
     <unitInfo nodeId="1234366488861" fileName="PublicId_Editor.java" startLine="18" startPosition="0" endLine="136" endPosition="0" unitName="jetbrains.mps.xml.deprecated.editor.PublicId_Editor" />
   </root>
-  <root nodeId="1234429007878" modelId="r:00000000-0000-4000-0000-011c895905a1(jetbrains.mps.xml.deprecated.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c895905a1(jetbrains.mps.xml.deprecated.editor)/1234429007878">
     <nodeInfo nodeId="1234429007878" fileName="XMLDeprecatedStyles_StyleSheet.java" startLine="14" startPosition="63" endLine="15" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1234429007878" fileName="XMLDeprecatedStyles_StyleSheet.java" startLine="15" startPosition="44" endLine="16" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1234429007878" fileName="XMLDeprecatedStyles_StyleSheet.java" startLine="16" startPosition="57" endLine="17" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />

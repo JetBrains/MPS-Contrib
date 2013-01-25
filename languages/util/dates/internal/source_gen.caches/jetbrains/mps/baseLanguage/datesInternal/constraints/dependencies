@@ -81,6 +81,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.runtime.base.BaseScopeProvider" />
     <classNode dependClassName="org.jetbrains.annotations.Nullable" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNodeReference" />
     <classNode dependClassName="org.joda.time.DateTimeFieldType" />
     <classNode dependClassName="org.joda.time.Period" />
     <classNode dependClassName="org.joda.time.format.PeriodFormatterBuilder" />

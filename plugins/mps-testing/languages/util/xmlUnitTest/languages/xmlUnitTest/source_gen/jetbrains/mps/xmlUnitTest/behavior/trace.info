@@ -9,7 +9,7 @@
   <unitInfo fileName="Text_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.behavior.Text_BehaviorDescriptor" />
   <unitInfo fileName="XMLLiteral_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.behavior.XMLLiteral_BehaviorDescriptor" />
   <unitInfo fileName="XMLStringLiteral_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.behavior.XMLStringLiteral_BehaviorDescriptor" />
-  <root nodeId="2511103526757027822" modelId="r:636c9596-b7dd-4f5f-8b0b-20006d279b8b(jetbrains.mps.xmlUnitTest.behavior)">
+  <root nodeRef="r:636c9596-b7dd-4f5f-8b0b-20006d279b8b(jetbrains.mps.xmlUnitTest.behavior)/2511103526757027822">
     <nodeInfo nodeId="2511103526757027822" fileName="Text_Behavior.java" startLine="8" startPosition="0" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
     <scopeInfo nodeId="2511103526757027824" fileName="Text_Behavior.java" startLine="8" startPosition="43" endLine="8" endPosition="43" />
     <scopeInfo nodeId="2511103526757027822" fileName="Text_Behavior.java" startLine="8" startPosition="0" endLine="10" endPosition="0">

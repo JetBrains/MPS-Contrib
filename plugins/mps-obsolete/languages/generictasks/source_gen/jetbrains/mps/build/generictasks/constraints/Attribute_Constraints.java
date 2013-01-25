@@ -20,6 +20,7 @@ import jetbrains.mps.build.generictasks.behavior.TaskCall_Behavior;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import java.util.List;
+import org.jetbrains.mps.openapi.model.SNodeReference;
 import jetbrains.mps.smodel.SNodePointer;
 
 public class Attribute_Constraints extends BaseConstraintsDescriptor {
@@ -70,7 +71,7 @@ public class Attribute_Constraints extends BaseConstraintsDescriptor {
           }
 
           @Override
-          public SNodePointer getSearchScopeValidatorNode() {
+          public SNodeReference getSearchScopeValidatorNode() {
             return breakingNode_oyfip5_a0a1a0a0a4a0b0a1a1;
           }
         };

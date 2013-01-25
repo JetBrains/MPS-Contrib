@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <root nodeId="1164413046327" modelId="r:00000000-0000-4000-0000-011c89590572(jetbrains.mps.gtext.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590572(jetbrains.mps.gtext.editor)/1164413046327">
     <nodeInfo nodeId="1164413046327" fileName="GText_Editor.java" startLine="20" startPosition="79" endLine="21" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1166929205411" fileName="GText_Editor.java" startLine="24" startPosition="87" endLine="25" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1166929205411" fileName="GText_Editor.java" startLine="25" startPosition="82" endLine="26" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -44,7 +44,7 @@
     </scopeInfo>
     <unitInfo nodeId="1164413046327" fileName="GText_Editor.java" startLine="19" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.gtext.editor.GText_Editor" />
   </root>
-  <root nodeId="1164413081741" modelId="r:00000000-0000-4000-0000-011c89590572(jetbrains.mps.gtext.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590572(jetbrains.mps.gtext.editor)/1164413081741">
     <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="27" startPosition="79" endLine="28" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1184872998715" fileName="GItemList_Editor.java" startLine="32" startPosition="97" endLine="33" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
     <nodeInfo nodeId="1184872998715" fileName="GItemList_Editor.java" startLine="36" startPosition="66" endLine="37" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -298,7 +298,7 @@
     <unitInfo nodeId="1184873058677" fileName="GItemList_Editor.java" startLine="67" startPosition="0" endLine="102" endPosition="0" unitName="jetbrains.mps.gtext.editor.GItemList_Editor$itemListHandler_39hcsa_b0a_0" />
     <unitInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="26" startPosition="0" endLine="179" endPosition="0" unitName="jetbrains.mps.gtext.editor.GItemList_Editor" />
   </root>
-  <root nodeId="1164413184980" modelId="r:00000000-0000-4000-0000-011c89590572(jetbrains.mps.gtext.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590572(jetbrains.mps.gtext.editor)/1164413184980">
     <nodeInfo nodeId="1164413184980" fileName="GNewLine_Editor.java" startLine="16" startPosition="79" endLine="17" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1164413187810" fileName="GNewLine_Editor.java" startLine="20" startPosition="87" endLine="21" endPosition="93" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1164413187810" fileName="GNewLine_Editor.java" startLine="21" startPosition="93" endLine="22" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -324,7 +324,7 @@
     </scopeInfo>
     <unitInfo nodeId="1164413184980" fileName="GNewLine_Editor.java" startLine="15" startPosition="0" endLine="30" endPosition="0" unitName="jetbrains.mps.gtext.editor.GNewLine_Editor" />
   </root>
-  <root nodeId="1164413227171" modelId="r:00000000-0000-4000-0000-011c89590572(jetbrains.mps.gtext.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590572(jetbrains.mps.gtext.editor)/1164413227171">
     <nodeInfo nodeId="1164413227171" fileName="GIndent_Editor.java" startLine="16" startPosition="79" endLine="17" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1164413231454" fileName="GIndent_Editor.java" startLine="20" startPosition="87" endLine="21" endPosition="92" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1164413231454" fileName="GIndent_Editor.java" startLine="21" startPosition="92" endLine="22" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -350,7 +350,7 @@
     </scopeInfo>
     <unitInfo nodeId="1164413227171" fileName="GIndent_Editor.java" startLine="15" startPosition="0" endLine="30" endPosition="0" unitName="jetbrains.mps.gtext.editor.GIndent_Editor" />
   </root>
-  <root nodeId="1164416540577" modelId="r:00000000-0000-4000-0000-011c89590572(jetbrains.mps.gtext.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590572(jetbrains.mps.gtext.editor)/1164416540577">
     <nodeInfo nodeId="1164416540577" fileName="GIndentBlock_Editor.java" startLine="21" startPosition="79" endLine="22" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1164417897122" fileName="GIndentBlock_Editor.java" startLine="25" startPosition="89" endLine="26" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1164417897122" fileName="GIndentBlock_Editor.java" startLine="26" startPosition="96" endLine="27" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -427,7 +427,7 @@
     </scopeInfo>
     <unitInfo nodeId="1164416540577" fileName="GIndentBlock_Editor.java" startLine="20" startPosition="0" endLine="65" endPosition="0" unitName="jetbrains.mps.gtext.editor.GIndentBlock_Editor" />
   </root>
-  <root nodeId="1164488399406" modelId="r:00000000-0000-4000-0000-011c89590572(jetbrains.mps.gtext.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590572(jetbrains.mps.gtext.editor)/1164488399406">
     <nodeInfo nodeId="1164488399406" fileName="GItemStatement_Editor.java" startLine="24" startPosition="79" endLine="25" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1164488498215" fileName="GItemStatement_Editor.java" startLine="29" startPosition="96" endLine="30" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
     <nodeInfo nodeId="1164488498215" fileName="GItemStatement_Editor.java" startLine="33" startPosition="66" endLine="34" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -546,7 +546,7 @@
     <unitInfo nodeId="1164488498215" fileName="GItemStatement_Editor.java" startLine="28" startPosition="0" endLine="63" endPosition="0" unitName="jetbrains.mps.gtext.editor.GItemStatement_Editor$itemListHandler_u1g6d7_b0" />
     <unitInfo nodeId="1164488399406" fileName="GItemStatement_Editor.java" startLine="23" startPosition="0" endLine="94" endPosition="0" unitName="jetbrains.mps.gtext.editor.GItemStatement_Editor" />
   </root>
-  <root nodeId="1164497827738" modelId="r:00000000-0000-4000-0000-011c89590572(jetbrains.mps.gtext.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590572(jetbrains.mps.gtext.editor)/1164497827738">
     <nodeInfo nodeId="1164497827738" fileName="GExpressionItem_Editor.java" startLine="21" startPosition="79" endLine="22" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1164497830382" fileName="GExpressionItem_Editor.java" startLine="25" startPosition="89" endLine="26" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1164497830382" fileName="GExpressionItem_Editor.java" startLine="26" startPosition="96" endLine="27" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -617,7 +617,7 @@
     </scopeInfo>
     <unitInfo nodeId="1164497827738" fileName="GExpressionItem_Editor.java" startLine="20" startPosition="0" endLine="60" endPosition="0" unitName="jetbrains.mps.gtext.editor.GExpressionItem_Editor" />
   </root>
-  <root nodeId="1165582993959" modelId="r:00000000-0000-4000-0000-011c89590572(jetbrains.mps.gtext.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590572(jetbrains.mps.gtext.editor)/1165582993959">
     <nodeInfo nodeId="1165582993959" fileName="GStatementItem_Editor.java" startLine="21" startPosition="79" endLine="22" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1165582997602" fileName="GStatementItem_Editor.java" startLine="25" startPosition="89" endLine="26" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1165582997602" fileName="GStatementItem_Editor.java" startLine="26" startPosition="96" endLine="27" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -694,7 +694,7 @@
     </scopeInfo>
     <unitInfo nodeId="1165582993959" fileName="GStatementItem_Editor.java" startLine="20" startPosition="0" endLine="65" endPosition="0" unitName="jetbrains.mps.gtext.editor.GStatementItem_Editor" />
   </root>
-  <root nodeId="1166907506783" modelId="r:00000000-0000-4000-0000-011c89590572(jetbrains.mps.gtext.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590572(jetbrains.mps.gtext.editor)/1166907506783">
     <nodeInfo nodeId="1166907506783" fileName="GItem_Editor.java" startLine="12" startPosition="79" endLine="13" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1166907509191" fileName="GItem_Editor.java" startLine="16" startPosition="84" endLine="17" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1166907509191" fileName="GItem_Editor.java" startLine="17" startPosition="85" endLine="18" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -715,7 +715,7 @@
     </scopeInfo>
     <unitInfo nodeId="1166907506783" fileName="GItem_Editor.java" startLine="11" startPosition="0" endLine="22" endPosition="0" unitName="jetbrains.mps.gtext.editor.GItem_Editor" />
   </root>
-  <root nodeId="1166926490313" modelId="r:00000000-0000-4000-0000-011c89590572(jetbrains.mps.gtext.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590572(jetbrains.mps.gtext.editor)/1166926490313">
     <nodeInfo nodeId="1166926490313" fileName="GLine_Editor.java" startLine="25" startPosition="79" endLine="26" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1167316177532" fileName="GLine_Editor.java" startLine="30" startPosition="96" endLine="31" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
     <nodeInfo nodeId="1167316177532" fileName="GLine_Editor.java" startLine="34" startPosition="66" endLine="35" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -853,7 +853,7 @@
     <unitInfo nodeId="1167316177532" fileName="GLine_Editor.java" startLine="29" startPosition="0" endLine="79" endPosition="0" unitName="jetbrains.mps.gtext.editor.GLine_Editor$itemListHandler_bzk4hk_b0" />
     <unitInfo nodeId="1166926490313" fileName="GLine_Editor.java" startLine="24" startPosition="0" endLine="106" endPosition="0" unitName="jetbrains.mps.gtext.editor.GLine_Editor" />
   </root>
-  <root nodeId="1179109274248" modelId="r:00000000-0000-4000-0000-011c89590572(jetbrains.mps.gtext.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590572(jetbrains.mps.gtext.editor)/1179109274248">
     <nodeInfo nodeId="1179109274248" fileName="GConditionalLine_Editor.java" startLine="25" startPosition="79" endLine="26" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1179111558104" fileName="GConditionalLine_Editor.java" startLine="30" startPosition="96" endLine="31" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
     <nodeInfo nodeId="1179111558104" fileName="GConditionalLine_Editor.java" startLine="34" startPosition="66" endLine="35" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -1010,7 +1010,7 @@
     <unitInfo nodeId="1179111558104" fileName="GConditionalLine_Editor.java" startLine="29" startPosition="0" endLine="64" endPosition="0" unitName="jetbrains.mps.gtext.editor.GConditionalLine_Editor$itemListHandler_mvxs3g_d0" />
     <unitInfo nodeId="1179109274248" fileName="GConditionalLine_Editor.java" startLine="24" startPosition="0" endLine="115" endPosition="0" unitName="jetbrains.mps.gtext.editor.GConditionalLine_Editor" />
   </root>
-  <root nodeId="1181754781780" modelId="r:00000000-0000-4000-0000-011c89590572(jetbrains.mps.gtext.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590572(jetbrains.mps.gtext.editor)/1181754781780">
     <nodeInfo nodeId="1181754781780" fileName="BuilderContextRef_Editor.java" startLine="16" startPosition="79" endLine="17" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="2886182022232400452" fileName="BuilderContextRef_Editor.java" startLine="20" startPosition="88" endLine="21" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="2886182022232400452" fileName="BuilderContextRef_Editor.java" startLine="21" startPosition="67" endLine="22" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -1036,7 +1036,7 @@
     </scopeInfo>
     <unitInfo nodeId="1181754781780" fileName="BuilderContextRef_Editor.java" startLine="15" startPosition="0" endLine="29" endPosition="0" unitName="jetbrains.mps.gtext.editor.BuilderContextRef_Editor" />
   </root>
-  <root nodeId="1184639569381" modelId="r:00000000-0000-4000-0000-011c89590572(jetbrains.mps.gtext.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590572(jetbrains.mps.gtext.editor)/1184639569381">
     <nodeInfo nodeId="1184639569381" fileName="GDocument_Editor.java" startLine="28" startPosition="79" endLine="29" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1184639753073" fileName="GDocument_Editor.java" startLine="33" startPosition="96" endLine="34" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
     <nodeInfo nodeId="1184639753073" fileName="GDocument_Editor.java" startLine="37" startPosition="66" endLine="38" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -1260,7 +1260,7 @@
     <unitInfo nodeId="1184639753073" fileName="GDocument_Editor.java" startLine="32" startPosition="0" endLine="67" endPosition="0" unitName="jetbrains.mps.gtext.editor.GDocument_Editor$itemListHandler_rt0po5_f0" />
     <unitInfo nodeId="1184639569381" fileName="GDocument_Editor.java" startLine="27" startPosition="0" endLine="161" endPosition="0" unitName="jetbrains.mps.gtext.editor.GDocument_Editor" />
   </root>
-  <root nodeId="1188509459657" modelId="r:00000000-0000-4000-0000-011c89590572(jetbrains.mps.gtext.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590572(jetbrains.mps.gtext.editor)/1188509459657">
     <nodeInfo nodeId="1188509459657" fileName="GSeparatorItemList_Editor.java" startLine="26" startPosition="79" endLine="27" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1188510110700" fileName="GSeparatorItemList_Editor.java" startLine="31" startPosition="96" endLine="32" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
     <nodeInfo nodeId="1188510110700" fileName="GSeparatorItemList_Editor.java" startLine="35" startPosition="66" endLine="36" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -1402,7 +1402,7 @@
     <unitInfo nodeId="1188510110700" fileName="GSeparatorItemList_Editor.java" startLine="30" startPosition="0" endLine="65" endPosition="0" unitName="jetbrains.mps.gtext.editor.GSeparatorItemList_Editor$itemListHandler_d3654u_c0" />
     <unitInfo nodeId="1188509459657" fileName="GSeparatorItemList_Editor.java" startLine="25" startPosition="0" endLine="107" endPosition="0" unitName="jetbrains.mps.gtext.editor.GSeparatorItemList_Editor" />
   </root>
-  <root nodeId="1211921359764" modelId="r:00000000-0000-4000-0000-011c89590572(jetbrains.mps.gtext.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590572(jetbrains.mps.gtext.editor)/1211921359764">
     <nodeInfo nodeId="1211921359764" fileName="GContentPlaceholder_Editor.java" startLine="18" startPosition="79" endLine="19" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1211921690148" fileName="GContentPlaceholder_Editor.java" startLine="22" startPosition="89" endLine="23" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1211921690148" fileName="GContentPlaceholder_Editor.java" startLine="23" startPosition="96" endLine="24" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -1470,7 +1470,7 @@
     </scopeInfo>
     <unitInfo nodeId="1211921359764" fileName="GContentPlaceholder_Editor.java" startLine="17" startPosition="0" endLine="54" endPosition="0" unitName="jetbrains.mps.gtext.editor.GContentPlaceholder_Editor" />
   </root>
-  <root nodeId="1211921713014" modelId="r:00000000-0000-4000-0000-011c89590572(jetbrains.mps.gtext.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590572(jetbrains.mps.gtext.editor)/1211921713014">
     <nodeInfo nodeId="1211921713014" fileName="GContentBlock_Editor.java" startLine="30" startPosition="79" endLine="31" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1211921764517" fileName="GContentBlock_Editor.java" startLine="35" startPosition="96" endLine="36" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
     <nodeInfo nodeId="1211921764517" fileName="GContentBlock_Editor.java" startLine="39" startPosition="66" endLine="40" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <root nodeId="1200505270682" modelId="r:00000000-0000-4000-0000-011c895904df(jetbrains.mps.build.property.editor)">
+  <root nodeRef="r:00000000-0000-4000-0000-011c895904df(jetbrains.mps.build.property.editor)/1200505270682">
     <nodeInfo nodeId="1200505270682" fileName="PropertyNode_Editor.java" startLine="31" startPosition="79" endLine="32" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1200505324007" fileName="PropertyNode_Editor.java" startLine="36" startPosition="103" endLine="37" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
     <nodeInfo nodeId="1200505324007" fileName="PropertyNode_Editor.java" startLine="40" startPosition="66" endLine="41" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />

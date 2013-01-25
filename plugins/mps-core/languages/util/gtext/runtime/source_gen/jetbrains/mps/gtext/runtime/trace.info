@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <root nodeId="7733366827988670913" modelId="r:1773d365-6692-4940-84a5-a678462b1f6f(jetbrains.mps.gtext.runtime)">
+  <root nodeRef="r:1773d365-6692-4940-84a5-a678462b1f6f(jetbrains.mps.gtext.runtime)/7733366827988670913">
     <nodeInfo nodeId="7733366827988682191" fileName="TContent.java" startLine="7" startPosition="0" endLine="8" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="name" />
     <nodeInfo nodeId="7733366827988682194" fileName="TContent.java" startLine="8" startPosition="0" endLine="9" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="buf" />
     <nodeInfo nodeId="7733366827988682197" fileName="TContent.java" startLine="9" startPosition="0" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="position" />
@@ -32,14 +32,14 @@
     </scopeInfo>
     <unitInfo nodeId="7733366827988670913" fileName="TContent.java" startLine="6" startPosition="0" endLine="32" endPosition="0" unitName="jetbrains.mps.gtext.runtime.TContent" />
   </root>
-  <root nodeId="7733366827988670914" modelId="r:1773d365-6692-4940-84a5-a678462b1f6f(jetbrains.mps.gtext.runtime)">
+  <root nodeRef="r:1773d365-6692-4940-84a5-a678462b1f6f(jetbrains.mps.gtext.runtime)/7733366827988670914">
     <nodeInfo nodeId="7733366827988670916" fileName="TBaseBuilderContextListener.java" startLine="7" startPosition="0" endLine="8" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getTextCalled#(Ljetbrains/mps/gtext/runtime/TBaseBuilderContext;)V" />
     <scopeInfo nodeId="7733366827988670916" fileName="TBaseBuilderContextListener.java" startLine="7" startPosition="0" endLine="8" endPosition="0">
       <varInfo nodeId="7733366827988670919" varName="builderContext" />
     </scopeInfo>
     <unitInfo nodeId="7733366827988670914" fileName="TBaseBuilderContextListener.java" startLine="6" startPosition="0" endLine="9" endPosition="0" unitName="jetbrains.mps.gtext.runtime.TBaseBuilderContextListener" />
   </root>
-  <root nodeId="7733366827988670922" modelId="r:1773d365-6692-4940-84a5-a678462b1f6f(jetbrains.mps.gtext.runtime)">
+  <root nodeRef="r:1773d365-6692-4940-84a5-a678462b1f6f(jetbrains.mps.gtext.runtime)/7733366827988670922">
     <nodeInfo nodeId="7733366827988670924" fileName="TBuffer.java" startLine="7" startPosition="0" endLine="8" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myStringBuilder" />
     <nodeInfo nodeId="7733366827988670929" fileName="TBuffer.java" startLine="8" startPosition="0" endLine="9" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myIndent" />
     <nodeInfo nodeId="7733366827988670939" fileName="TBuffer.java" startLine="13" startPosition="48" endLine="14" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -98,7 +98,7 @@
     </scopeInfo>
     <unitInfo nodeId="7733366827988670922" fileName="TBuffer.java" startLine="6" startPosition="0" endLine="56" endPosition="0" unitName="jetbrains.mps.gtext.runtime.TBuffer" />
   </root>
-  <root nodeId="7733366827988671037" modelId="r:1773d365-6692-4940-84a5-a678462b1f6f(jetbrains.mps.gtext.runtime)">
+  <root nodeRef="r:1773d365-6692-4940-84a5-a678462b1f6f(jetbrains.mps.gtext.runtime)/7733366827988671037">
     <nodeInfo nodeId="7733366827988671045" fileName="TBaseBuilderContext.java" startLine="15" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="ROOT" />
     <nodeInfo nodeId="7733366827988671049" fileName="TBaseBuilderContext.java" startLine="16" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myContents" />
     <nodeInfo nodeId="7733366827988671054" fileName="TBaseBuilderContext.java" startLine="17" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myContentsStack" />
@@ -288,7 +288,7 @@
     <unitInfo nodeId="7733366827988671192" fileName="TBaseBuilderContext.java" startLine="52" startPosition="41" endLine="56" endPosition="5" unitName="jetbrains.mps.gtext.runtime.TBaseBuilderContext$2" />
     <unitInfo nodeId="7733366827988671037" fileName="TBaseBuilderContext.java" startLine="14" startPosition="0" endLine="162" endPosition="0" unitName="jetbrains.mps.gtext.runtime.TBaseBuilderContext" />
   </root>
-  <root nodeId="7733366827988671516" modelId="r:1773d365-6692-4940-84a5-a678462b1f6f(jetbrains.mps.gtext.runtime)">
+  <root nodeRef="r:1773d365-6692-4940-84a5-a678462b1f6f(jetbrains.mps.gtext.runtime)/7733366827988671516">
     <nodeInfo nodeId="7733366827988681715" fileName="BaseHtmlStringUtil.java" startLine="8" startPosition="0" endLine="9" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="EMPTY_STRING" />
     <nodeInfo nodeId="7733366827988681719" fileName="BaseHtmlStringUtil.java" startLine="9" startPosition="0" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="BAD_SYMBOL_CHAR" />
     <nodeInfo nodeId="7733366827988681723" fileName="BaseHtmlStringUtil.java" startLine="10" startPosition="0" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="_charsToEntities" />

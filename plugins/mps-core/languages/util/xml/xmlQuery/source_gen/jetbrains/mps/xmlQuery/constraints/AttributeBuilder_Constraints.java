@@ -20,6 +20,7 @@ import jetbrains.mps.baseLanguage.builders.behavior.Builder_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.xmlQuery.behavior.ElementBuilder_Behavior;
 import java.util.ArrayList;
+import org.jetbrains.mps.openapi.model.SNodeReference;
 import jetbrains.mps.smodel.SNodePointer;
 
 public class AttributeBuilder_Constraints extends BaseConstraintsDescriptor {
@@ -77,7 +78,7 @@ public class AttributeBuilder_Constraints extends BaseConstraintsDescriptor {
           }
 
           @Override
-          public SNodePointer getSearchScopeValidatorNode() {
+          public SNodeReference getSearchScopeValidatorNode() {
             return breakingNode_jxchbf_a0a3a0a0a1a0b0a1a3;
           }
         };

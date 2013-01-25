@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <root nodeId="1966465523159400126" modelId="r:5498b4d6-623f-4d7c-a07f-396c96e14007(jetbrains.mps.graphLayout.intGeom2D)">
+  <root nodeRef="r:5498b4d6-623f-4d7c-a07f-396c96e14007(jetbrains.mps.graphLayout.intGeom2D)/1966465523159400126">
     <nodeInfo nodeId="1966465523159400143" fileName="OrthogonalUtil.java" startLine="25" startPosition="66" endLine="26" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1966465523159400159" fileName="OrthogonalUtil.java" startLine="26" startPosition="73" endLine="27" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1966465523159400165" fileName="OrthogonalUtil.java" startLine="27" startPosition="57" endLine="28" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -177,7 +177,7 @@
     </scopeInfo>
     <unitInfo nodeId="1966465523159400126" fileName="OrthogonalUtil.java" startLine="10" startPosition="0" endLine="157" endPosition="0" unitName="jetbrains.mps.graphLayout.intGeom2D.OrthogonalUtil" />
   </root>
-  <root nodeId="2135502080755099705" modelId="r:5498b4d6-623f-4d7c-a07f-396c96e14007(jetbrains.mps.graphLayout.intGeom2D)">
+  <root nodeRef="r:5498b4d6-623f-4d7c-a07f-396c96e14007(jetbrains.mps.graphLayout.intGeom2D)/2135502080755099705">
     <nodeInfo nodeId="2135502080755099706" fileName="Direction2D.java" startLine="12" startPosition="0" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myDx" />
     <nodeInfo nodeId="2135502080755099709" fileName="Direction2D.java" startLine="13" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myDy" />
     <nodeInfo nodeId="2135502080755099890" fileName="Direction2D.java" startLine="15" startPosition="31" endLine="16" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -274,7 +274,7 @@
     </scopeInfo>
     <unitInfo nodeId="2135502080755099705" fileName="Direction2D.java" startLine="6" startPosition="0" endLine="86" endPosition="0" unitName="jetbrains.mps.graphLayout.intGeom2D.Direction2D" />
   </root>
-  <root nodeId="2135502080755099904" modelId="r:5498b4d6-623f-4d7c-a07f-396c96e14007(jetbrains.mps.graphLayout.intGeom2D)">
+  <root nodeRef="r:5498b4d6-623f-4d7c-a07f-396c96e14007(jetbrains.mps.graphLayout.intGeom2D)/2135502080755099904">
     <nodeInfo nodeId="2135502080755099985" fileName="Util1D.java" startLine="14" startPosition="22" endLine="15" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="2135502080755100002" fileName="Util1D.java" startLine="16" startPosition="12" endLine="17" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="2135502080755100018" fileName="Util1D.java" startLine="21" startPosition="74" endLine="22" endPosition="76" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -326,7 +326,7 @@
     </scopeInfo>
     <unitInfo nodeId="2135502080755099904" fileName="Util1D.java" startLine="6" startPosition="0" endLine="40" endPosition="0" unitName="jetbrains.mps.graphLayout.intGeom2D.Util1D" />
   </root>
-  <root nodeId="2301768597858221425" modelId="r:5498b4d6-623f-4d7c-a07f-396c96e14007(jetbrains.mps.graphLayout.intGeom2D)">
+  <root nodeRef="r:5498b4d6-623f-4d7c-a07f-396c96e14007(jetbrains.mps.graphLayout.intGeom2D)/2301768597858221425">
     <nodeInfo nodeId="2301768597858221431" fileName="Point.java" startLine="7" startPosition="0" endLine="8" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="x" />
     <nodeInfo nodeId="2301768597858221436" fileName="Point.java" startLine="8" startPosition="0" endLine="9" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="y" />
     <nodeInfo nodeId="2301768597858221441" fileName="Point.java" startLine="10" startPosition="18" endLine="11" endPosition="10" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -387,7 +387,7 @@
     </scopeInfo>
     <unitInfo nodeId="2301768597858221425" fileName="Point.java" startLine="6" startPosition="0" endLine="52" endPosition="0" unitName="jetbrains.mps.graphLayout.intGeom2D.Point" />
   </root>
-  <root nodeId="2301768597858221518" modelId="r:5498b4d6-623f-4d7c-a07f-396c96e14007(jetbrains.mps.graphLayout.intGeom2D)">
+  <root nodeRef="r:5498b4d6-623f-4d7c-a07f-396c96e14007(jetbrains.mps.graphLayout.intGeom2D)/2301768597858221518">
     <nodeInfo nodeId="2301768597858221524" fileName="Rectangle.java" startLine="7" startPosition="0" endLine="8" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="x" />
     <nodeInfo nodeId="2301768597858221529" fileName="Rectangle.java" startLine="8" startPosition="0" endLine="9" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="y" />
     <nodeInfo nodeId="2301768597858221533" fileName="Rectangle.java" startLine="9" startPosition="0" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="width" />
@@ -504,7 +504,7 @@
     </scopeInfo>
     <unitInfo nodeId="2301768597858221518" fileName="Rectangle.java" startLine="6" startPosition="0" endLine="90" endPosition="0" unitName="jetbrains.mps.graphLayout.intGeom2D.Rectangle" />
   </root>
-  <root nodeId="2301768597858221544" modelId="r:5498b4d6-623f-4d7c-a07f-396c96e14007(jetbrains.mps.graphLayout.intGeom2D)">
+  <root nodeRef="r:5498b4d6-623f-4d7c-a07f-396c96e14007(jetbrains.mps.graphLayout.intGeom2D)/2301768597858221544">
     <nodeInfo nodeId="2301768597858221550" fileName="Dimension.java" startLine="7" startPosition="0" endLine="8" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="width" />
     <nodeInfo nodeId="2301768597858221555" fileName="Dimension.java" startLine="8" startPosition="0" endLine="9" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="height" />
     <nodeInfo nodeId="5639108013728043169" fileName="Dimension.java" startLine="10" startPosition="43" endLine="11" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -528,7 +528,7 @@
     <scopeInfo nodeId="592792776163377932" fileName="Dimension.java" startLine="20" startPosition="0" endLine="24" endPosition="0" />
     <unitInfo nodeId="2301768597858221544" fileName="Dimension.java" startLine="6" startPosition="0" endLine="25" endPosition="0" unitName="jetbrains.mps.graphLayout.intGeom2D.Dimension" />
   </root>
-  <root nodeId="2301768597858223105" modelId="r:5498b4d6-623f-4d7c-a07f-396c96e14007(jetbrains.mps.graphLayout.intGeom2D)">
+  <root nodeRef="r:5498b4d6-623f-4d7c-a07f-396c96e14007(jetbrains.mps.graphLayout.intGeom2D)/2301768597858223105">
     <nodeInfo nodeId="7490214903453704274" fileName="GeomUtil.java" startLine="17" startPosition="76" endLine="18" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="7490214903453704280" fileName="GeomUtil.java" startLine="18" startPosition="31" endLine="19" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="7490214903453704291" fileName="GeomUtil.java" startLine="19" startPosition="37" endLine="20" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
