@@ -44,7 +44,7 @@ public class typeof_BuilderContextRef_InferenceRule extends AbstractInferenceRul
   private static SNode _quotation_createNode_m3afeb_a0a0b() {
     SNode quotedNode_1 = null;
     quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", null, null, GlobalScope.getInstance(), false);
-    quotedNode_1.setReference("classifier", SReference.create("classifier", quotedNode_1, SModelReference.fromString("r:1773d365-6692-4940-84a5-a678462b1f6f(jetbrains.mps.gtext.runtime)"), SNodeId.fromString("7733366827988671037")));
+    quotedNode_1.setReference("classifier", jetbrains.mps.smodel.SReference.create("classifier", quotedNode_1, SModelReference.fromString("r:1773d365-6692-4940-84a5-a678462b1f6f(jetbrains.mps.gtext.runtime)"), SNodeId.fromString("7733366827988671037")));
     return quotedNode_1;
   }
 }
