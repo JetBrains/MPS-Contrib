@@ -31,7 +31,7 @@ public class GridRow_Behavior {
   private static SNode _quotation_createNode_cglpzy_a0a0a3a0() {
     SNode quotedNode_1 = null;
     quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.uiLanguage.structure.ComponentInstance", null, null, GlobalScope.getInstance(), false);
-    quotedNode_1.setReference("componentDeclaration", SReference.create("componentDeclaration", quotedNode_1, SModelReference.fromString("r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)"), SNodeId.fromString("1202816402995")));
+    quotedNode_1.setReference("componentDeclaration", jetbrains.mps.smodel.SReference.create("componentDeclaration", quotedNode_1, SModelReference.fromString("r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)"), SNodeId.fromString("1202816402995")));
     return quotedNode_1;
   }
 }
