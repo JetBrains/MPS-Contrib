@@ -43,7 +43,7 @@ public class ScriptsUtil {
     for (SNode chileNode : ListSequence.fromList(SNodeOperations.getDescendants(node, null, true, new String[]{}))) {
       for (SReference ref : Sequence.fromIterable(chileNode.getReferences())) {
         if (ref.getTargetSModelReference().getLongName().equals(longName)) {
-          ref.setTargetSModelReference(newModelReference);
+          ((jetbrains.mps.smodel.SReference) ref).setTargetSModelReference(newModelReference);
         }
       }
     }
@@ -53,10 +53,10 @@ public class ScriptsUtil {
     boolean found = false;
     for (SNode childNode : ListSequence.fromList(SNodeOperations.getDescendants(node, null, true, new String[]{}))) {
       for (SReference ref : Sequence.fromIterable(childNode.getReferences())) {
-        String resolveInfo = ref.getResolveInfo();
+        String resolveInfo = ((jetbrains.mps.smodel.SReference) ref).getResolveInfo();
         if (ref.getTargetSModelReference().getLongName().equals(modelLongName) && ((resolveInfo != null && resolveInfo.length() > 0) && resolveInfo.contains(classifierName))) {
           found = true;
-          ref.setTargetSModelReference(newModelReference);
+          ((jetbrains.mps.smodel.SReference) ref).setTargetSModelReference(newModelReference);
           if (ref instanceof StaticReference) {
             ((StaticReference) ref).setTargetNodeId(newNodeToReference.getNodeId());
           }

@@ -67,11 +67,11 @@
     <nodeInfo nodeId="2581841087371093118" fileName="ScriptsUtil.java" startLine="37" startPosition="50" endLine="38" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="2581841087371093130" fileName="ScriptsUtil.java" startLine="40" startPosition="7" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
     <nodeInfo nodeId="2581841087371093131" fileName="ScriptsUtil.java" startLine="41" startPosition="0" endLine="42" endPosition="76" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2581841087371093161" fileName="ScriptsUtil.java" startLine="45" startPosition="76" endLine="46" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2581841087371093161" fileName="ScriptsUtil.java" startLine="45" startPosition="76" endLine="46" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="2182799002613251794" fileName="ScriptsUtil.java" startLine="52" startPosition="169" endLine="53" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2182799002613251871" fileName="ScriptsUtil.java" startLine="55" startPosition="79" endLine="56" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2182799002613251871" fileName="ScriptsUtil.java" startLine="55" startPosition="79" endLine="56" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="5445644833261389943" fileName="ScriptsUtil.java" startLine="57" startPosition="176" endLine="58" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2182799002613251018" fileName="ScriptsUtil.java" startLine="58" startPosition="23" endLine="59" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2182799002613251018" fileName="ScriptsUtil.java" startLine="58" startPosition="23" endLine="59" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="2182799002613254571" fileName="ScriptsUtil.java" startLine="60" startPosition="47" endLine="61" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="2182799002613250988" fileName="ScriptsUtil.java" startLine="66" startPosition="16" endLine="67" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="2581841087371073723" fileName="ScriptsUtil.java" startLine="19" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ScriptsUtil#()V" />
@@ -79,12 +79,12 @@
     <nodeInfo nodeId="2581841087371092291" fileName="ScriptsUtil.java" startLine="28" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/smodel/SModel/ImportElement;)Z" />
     <nodeInfo nodeId="2581841087371093116" fileName="ScriptsUtil.java" startLine="37" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="visit#(Ljetbrains/mps/smodel/SModel/ImportElement;)V" />
     <nodeInfo nodeId="2581841087371093159" fileName="ScriptsUtil.java" startLine="44" startPosition="79" endLine="47" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="2182799002613254539" fileName="ScriptsUtil.java" startLine="59" startPosition="58" endLine="62" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="2182799002613254539" fileName="ScriptsUtil.java" startLine="59" startPosition="94" endLine="62" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="2182799002613251800" fileName="ScriptsUtil.java" startLine="65" startPosition="5" endLine="68" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="2581841087371093112" fileName="ScriptsUtil.java" startLine="35" startPosition="146" endLine="40" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="2581841087371093155" fileName="ScriptsUtil.java" startLine="43" startPosition="117" endLine="48" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="2581841087371093140" fileName="ScriptsUtil.java" startLine="42" startPosition="76" endLine="49" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="2182799002613251016" fileName="ScriptsUtil.java" startLine="56" startPosition="50" endLine="63" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="2182799002613251016" fileName="ScriptsUtil.java" startLine="56" startPosition="86" endLine="63" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="2581841087371092278" fileName="ScriptsUtil.java" startLine="22" startPosition="102" endLine="31" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="2182799002613251012" fileName="ScriptsUtil.java" startLine="54" startPosition="117" endLine="64" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="2581841087371073727" fileName="ScriptsUtil.java" startLine="22" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getImports#(Ljetbrains/mps/smodel/SModel;Ljava/lang/String;)Ljava/lang/Iterable;" />
@@ -95,7 +95,7 @@
     <scopeInfo nodeId="2581841087371092283" fileName="ScriptsUtil.java" startLine="24" startPosition="56" endLine="25" endPosition="38" />
     <scopeInfo nodeId="2581841087371092292" fileName="ScriptsUtil.java" startLine="28" startPosition="54" endLine="29" endPosition="69" />
     <scopeInfo nodeId="2581841087371093117" fileName="ScriptsUtil.java" startLine="37" startPosition="50" endLine="38" endPosition="81" />
-    <scopeInfo nodeId="2581841087371093160" fileName="ScriptsUtil.java" startLine="45" startPosition="76" endLine="46" endPosition="58" />
+    <scopeInfo nodeId="2581841087371093160" fileName="ScriptsUtil.java" startLine="45" startPosition="76" endLine="46" endPosition="94" />
     <scopeInfo nodeId="2182799002613254540" fileName="ScriptsUtil.java" startLine="60" startPosition="47" endLine="61" endPosition="84" />
     <scopeInfo nodeId="2182799002613251801" fileName="ScriptsUtil.java" startLine="66" startPosition="16" endLine="67" endPosition="78" />
     <scopeInfo nodeId="2581841087371073723" fileName="ScriptsUtil.java" startLine="19" startPosition="0" endLine="21" endPosition="0" />
