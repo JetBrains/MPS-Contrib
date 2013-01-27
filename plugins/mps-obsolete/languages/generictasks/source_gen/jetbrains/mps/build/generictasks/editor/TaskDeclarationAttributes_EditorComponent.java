@@ -14,8 +14,9 @@ import jetbrains.mps.nodeEditor.cellActions.CellAction_DeleteNode;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultReferenceSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
-import jetbrains.mps.nodeEditor.style.Style;
-import jetbrains.mps.nodeEditor.style.StyleAttributes;
+import jetbrains.mps.openapi.editor.style.Style;
+import jetbrains.mps.editor.runtime.style.StyleImpl;
+import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.buildlanguage.editor.BuildLanguageStyle_StyleSheet;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Vertical;
@@ -87,10 +88,9 @@ public class TaskDeclarationAttributes_EditorComponent extends AbstractCellProvi
   private EditorCell createCollection_p33j5q_a0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_p33j5q_a0");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.SELECTABLE, false);
+    editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_p33j5q_a0a(editorContext, node));
     return editorCell;
   }
@@ -98,10 +98,9 @@ public class TaskDeclarationAttributes_EditorComponent extends AbstractCellProvi
   private EditorCell createCollection_p33j5q_b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_p33j5q_b0");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.SELECTABLE, false);
+    editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createIndentCell_p33j5q_a1a(editorContext, node));
     editorCell.addEditorCell(this.createRefNodeList_p33j5q_b1a(editorContext, node));
     return editorCell;
@@ -110,7 +109,9 @@ public class TaskDeclarationAttributes_EditorComponent extends AbstractCellProvi
   private EditorCell createConstant_p33j5q_a0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "attributes:");
     editorCell.setCellId("Constant_p33j5q_a0a");
-    BuildLanguageStyle_StyleSheet.getKeyword(editorCell).apply(editorCell);
+    Style style = new StyleImpl();
+    BuildLanguageStyle_StyleSheet.applyKeyword(style, editorCell);
+    editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -119,10 +120,9 @@ public class TaskDeclarationAttributes_EditorComponent extends AbstractCellProvi
     AbstractCellListHandler handler = new TaskDeclarationAttributes_EditorComponent.attributesDeclListHandler_p33j5q_b1a(node, "attributesDecl", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Vertical(), false);
     editorCell.setCellId("refNodeList_attributesDecl");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.SELECTABLE, false);
+    editorCell.getStyle().putAll(style);
     editorCell.setRole(handler.getElementRole());
     return editorCell;
   }

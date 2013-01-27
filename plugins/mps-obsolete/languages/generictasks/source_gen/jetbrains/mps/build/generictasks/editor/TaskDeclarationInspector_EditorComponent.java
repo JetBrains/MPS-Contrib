@@ -15,10 +15,11 @@ import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandlerElementKeyMap;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultReferenceSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
-import jetbrains.mps.nodeEditor.style.StyleAttributes;
+import jetbrains.mps.openapi.editor.style.Style;
+import jetbrains.mps.editor.runtime.style.StyleImpl;
+import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import jetbrains.mps.buildlanguage.editor.BuildLanguageStyle_StyleSheet;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
-import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
@@ -89,15 +90,19 @@ public class TaskDeclarationInspector_EditorComponent extends AbstractCellProvid
     public EditorCell createSeparatorCell(EditorContext editorContext, SNode node) {
       EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, this.getOwner(), ",");
       editorCell.setSelectable(false);
-      editorCell.getStyle().set(StyleAttributes.LAYOUT_CONSTRAINT, "");
-      editorCell.getStyle().set(StyleAttributes.PUNCTUATION_LEFT, true);
+      Style style = new StyleImpl();
+      style.set(StyleAttributes.LAYOUT_CONSTRAINT, "");
+      style.set(StyleAttributes.PUNCTUATION_LEFT, true);
+      editorCell.getStyle().putAll(style);
       return editorCell;
     }
 
     private EditorCell createConstant_69kouh_a2d0(EditorContext editorContext, SNode node) {
       EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<interfaces>");
       editorCell.setCellId("Constant_69kouh_a2d0");
-      BuildLanguageStyle_StyleSheet.getPrompting(editorCell).apply(editorCell);
+      Style style = new StyleImpl();
+      BuildLanguageStyle_StyleSheet.applyPrompting(style, editorCell);
+      editorCell.getStyle().putAll(style);
       editorCell.setDefaultText("");
       return editorCell;
     }
@@ -118,10 +123,9 @@ public class TaskDeclarationInspector_EditorComponent extends AbstractCellProvid
   private EditorCell createCollection_69kouh_a0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_69kouh_a0");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.SELECTABLE, false);
+    editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_69kouh_a0a(editorContext, node));
     editorCell.addEditorCell(this.createProperty_69kouh_b0a(editorContext, node));
     return editorCell;
@@ -130,10 +134,9 @@ public class TaskDeclarationInspector_EditorComponent extends AbstractCellProvid
   private EditorCell createCollection_69kouh_b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_69kouh_b0");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.SELECTABLE, false);
+    editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_69kouh_a1a(editorContext, node));
     editorCell.addEditorCell(this.createConstant_69kouh_b1a(editorContext, node));
     editorCell.addEditorCell(this.createProperty_69kouh_c1a(editorContext, node));
@@ -143,10 +146,9 @@ public class TaskDeclarationInspector_EditorComponent extends AbstractCellProvid
   private EditorCell createCollection_69kouh_c0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_69kouh_c0");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.SELECTABLE, false);
+    editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_69kouh_a2a(editorContext, node));
     editorCell.addEditorCell(this.createConstant_69kouh_b2a(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_69kouh_c2a(editorContext, node));
@@ -156,10 +158,9 @@ public class TaskDeclarationInspector_EditorComponent extends AbstractCellProvid
   private EditorCell createCollection_69kouh_d0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_69kouh_d0");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.SELECTABLE, false);
+    editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_69kouh_a3a(editorContext, node));
     editorCell.addEditorCell(this.createConstant_69kouh_b3a(editorContext, node));
     editorCell.addEditorCell(this.createRefNodeList_69kouh_c3a(editorContext, node));
@@ -169,10 +170,9 @@ public class TaskDeclarationInspector_EditorComponent extends AbstractCellProvid
   private EditorCell createCollection_69kouh_e0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_69kouh_e0");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.SELECTABLE, false);
+    editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_69kouh_a4a(editorContext, node));
     editorCell.addEditorCell(this.createConstant_69kouh_b4a(editorContext, node));
     editorCell.addEditorCell(this.createProperty_69kouh_c4a(editorContext, node));
@@ -182,10 +182,9 @@ public class TaskDeclarationInspector_EditorComponent extends AbstractCellProvid
   private EditorCell createCollection_69kouh_f0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_69kouh_f0");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.SELECTABLE, false);
+    editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_69kouh_a5a(editorContext, node));
     editorCell.addEditorCell(this.createConstant_69kouh_b5a(editorContext, node));
     editorCell.addEditorCell(this.createProperty_69kouh_c5a(editorContext, node));
@@ -283,7 +282,9 @@ public class TaskDeclarationInspector_EditorComponent extends AbstractCellProvid
     provider.setNoTargetText("<no parentRef>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    BuildLanguageStyle_StyleSheet.getTask(editorCell).apply(editorCell);
+    Style style = new StyleImpl();
+    BuildLanguageStyle_StyleSheet.applyTask(style, editorCell);
+    editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -320,7 +321,9 @@ public class TaskDeclarationInspector_EditorComponent extends AbstractCellProvid
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_abstract");
-    BuildLanguageStyle_StyleSheet.getBooleanLiteral(editorCell).apply(editorCell);
+    Style style = new StyleImpl();
+    BuildLanguageStyle_StyleSheet.applyBooleanLiteral(style, editorCell);
+    editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -339,7 +342,9 @@ public class TaskDeclarationInspector_EditorComponent extends AbstractCellProvid
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_canHaveInternalText");
-    BuildLanguageStyle_StyleSheet.getBooleanLiteral(editorCell).apply(editorCell);
+    Style style = new StyleImpl();
+    BuildLanguageStyle_StyleSheet.applyBooleanLiteral(style, editorCell);
+    editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -358,7 +363,9 @@ public class TaskDeclarationInspector_EditorComponent extends AbstractCellProvid
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_depracated");
-    BuildLanguageStyle_StyleSheet.getBooleanLiteral(editorCell).apply(editorCell);
+    Style style = new StyleImpl();
+    BuildLanguageStyle_StyleSheet.applyBooleanLiteral(style, editorCell);
+    editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

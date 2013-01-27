@@ -7,8 +7,9 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
 import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
-import jetbrains.mps.nodeEditor.style.Style;
-import jetbrains.mps.nodeEditor.style.StyleAttributes;
+import jetbrains.mps.openapi.editor.style.Style;
+import jetbrains.mps.editor.runtime.style.StyleImpl;
+import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.MPSColors;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Image;
@@ -72,10 +73,9 @@ public class RunConfigurationPresentation extends AbstractCellProvider {
   private EditorCell createCollection_ltb2bm_a0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_ltb2bm_a0");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.SELECTABLE, false);
+    editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_ltb2bm_a0a(editorContext, node));
     editorCell.addEditorCell(this.createProperty_ltb2bm_b0a(editorContext, node));
     return editorCell;
@@ -84,10 +84,9 @@ public class RunConfigurationPresentation extends AbstractCellProvider {
   private EditorCell createCollection_ltb2bm_b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_ltb2bm_b0");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.SELECTABLE, false);
+    editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_ltb2bm_a1a(editorContext, node));
     editorCell.addEditorCell(this.createAlternation_ltb2bm_b1a(editorContext, node));
     editorCell.addEditorCell(this.createJComponent_ltb2bm_c1a(editorContext, node));
@@ -97,10 +96,9 @@ public class RunConfigurationPresentation extends AbstractCellProvider {
   private EditorCell createCollection_ltb2bm_a1b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_ltb2bm_a1b0");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.SELECTABLE, false);
+    editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createImage_ltb2bm_a0b1a(editorContext, node));
     editorCell.addEditorCell(this.createProperty_ltb2bm_b0b1a(editorContext, node));
     return editorCell;
@@ -109,10 +107,9 @@ public class RunConfigurationPresentation extends AbstractCellProvider {
   private EditorCell createCollection_ltb2bm_c0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_ltb2bm_c0");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.SELECTABLE, false);
+    editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_ltb2bm_a2a(editorContext, node));
     editorCell.addEditorCell(this.createProperty_ltb2bm_b2a(editorContext, node));
     return editorCell;
@@ -128,10 +125,9 @@ public class RunConfigurationPresentation extends AbstractCellProvider {
   private EditorCell createConstant_ltb2bm_a1a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "icon:");
     editorCell.setCellId("Constant_ltb2bm_a1a");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.SELECTABLE, false);
+    editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -139,10 +135,9 @@ public class RunConfigurationPresentation extends AbstractCellProvider {
   private EditorCell createConstant_ltb2bm_a1b0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<no icon>");
     editorCell.setCellId("Constant_ltb2bm_a1b0");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.TEXT_COLOR, MPSColors.lightGray);
-    }
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.TEXT_COLOR, MPSColors.lightGray);
+    editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
   }

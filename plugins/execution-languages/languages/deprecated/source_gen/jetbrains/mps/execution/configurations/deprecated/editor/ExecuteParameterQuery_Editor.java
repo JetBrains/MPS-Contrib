@@ -7,8 +7,9 @@ import jetbrains.mps.nodeEditor.cells.EditorCell;
 import jetbrains.mps.openapi.editor.EditorContext;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
-import jetbrains.mps.nodeEditor.style.Style;
-import jetbrains.mps.nodeEditor.style.StyleAttributes;
+import jetbrains.mps.openapi.editor.style.Style;
+import jetbrains.mps.editor.runtime.style.StyleImpl;
+import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.AbstractCellProvider;
 import jetbrains.mps.baseLanguage.editor.ConceptFunction_Component;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
@@ -34,10 +35,9 @@ public class ExecuteParameterQuery_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_qazu5o_a0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_qazu5o_a0");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.SELECTABLE, false);
+    editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_qazu5o_a0a(editorContext, node));
     editorCell.addEditorCell(this.createConstant_qazu5o_b0a(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_qazu5o_c0a(editorContext, node));
@@ -55,10 +55,9 @@ public class ExecuteParameterQuery_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_qazu5o_b1a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_qazu5o_b1a");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.SELECTABLE, false);
+    editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createIndentCell_qazu5o_a1b0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_qazu5o_b1b0(editorContext, node));
     return editorCell;
@@ -67,10 +66,9 @@ public class ExecuteParameterQuery_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_qazu5o_b1b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_qazu5o_b1b0");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.SELECTABLE, false);
+    editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createComponent_qazu5o_a1b1a(editorContext, node));
     return editorCell;
   }
