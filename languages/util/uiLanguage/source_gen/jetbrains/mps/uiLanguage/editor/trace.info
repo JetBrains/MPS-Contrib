@@ -5414,7 +5414,7 @@
     <nodeInfo nodeId="1207754440327" fileName="BeanCreator_Editor.java" startLine="94" startPosition="34" endLine="95" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1207754440327" fileName="BeanCreator_Editor.java" startLine="95" startPosition="95" endLine="96" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1207754440327" fileName="BeanCreator_Editor.java" startLine="98" startPosition="131" endLine="99" endPosition="139" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1207754440327" fileName="BeanCreator_Editor.java" startLine="105" startPosition="84" endLine="106" endPosition="100" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1207754440327" fileName="BeanCreator_Editor.java" startLine="105" startPosition="104" endLine="106" endPosition="100" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1207754440327" fileName="BeanCreator_Editor.java" startLine="106" startPosition="100" endLine="107" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1207754440327" fileName="BeanCreator_Editor.java" startLine="107" startPosition="38" endLine="108" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1207754440327" fileName="BeanCreator_Editor.java" startLine="108" startPosition="36" endLine="109" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -5475,7 +5475,7 @@
     <nodeInfo nodeId="1207754440327" fileName="BeanCreator_Editor.java" startLine="140" startPosition="0" endLine="147" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createRefNodeList_pb1ym0_c0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
     <nodeInfo nodeId="1207754417864" fileName="BeanCreator_Editor.java" startLine="116" startPosition="0" endLine="125" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_pb1ym0_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
     <nodeInfo nodeId="1207754440327" fileName="BeanCreator_Editor.java" startLine="91" startPosition="132" endLine="101" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1207754440327" fileName="BeanCreator_Editor.java" startLine="104" startPosition="0" endLine="114" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createSeparatorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="1207754440327" fileName="BeanCreator_Editor.java" startLine="104" startPosition="0" endLine="114" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createSeparatorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
     <nodeInfo nodeId="1207754440327" fileName="BeanCreator_Editor.java" startLine="91" startPosition="0" endLine="103" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="installElementCellActions#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/nodeEditor/cells/EditorCell;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
     <nodeInfo nodeId="1207754420256" fileName="BeanCreator_Editor.java" startLine="148" startPosition="0" endLine="165" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createRefCell_pb1ym0_a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
     <nodeInfo nodeId="1207754423947" fileName="BeanCreator_Editor.java" startLine="48" startPosition="0" endLine="66" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createProperty_pb1ym0_a0a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
@@ -5552,7 +5552,7 @@
       <varInfo nodeId="1207754435872" varName="editorContext" />
       <varInfo nodeId="1207754435872" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="1207754440327" fileName="BeanCreator_Editor.java" startLine="105" startPosition="84" endLine="112" endPosition="24">
+    <scopeInfo nodeId="1207754440327" fileName="BeanCreator_Editor.java" startLine="105" startPosition="104" endLine="112" endPosition="24">
       <varInfo nodeId="1207754440327" varName="editorCell" />
       <varInfo nodeId="1207754440327" varName="style" />
     </scopeInfo>
@@ -5571,7 +5571,8 @@
     <scopeInfo nodeId="1207754440327" fileName="BeanCreator_Editor.java" startLine="91" startPosition="132" endLine="101" endPosition="7" />
     <scopeInfo nodeId="1207754440327" fileName="BeanCreator_Editor.java" startLine="104" startPosition="0" endLine="114" endPosition="0">
       <varInfo nodeId="1207754440327" varName="editorContext" />
-      <varInfo nodeId="1207754440327" varName="node" />
+      <varInfo nodeId="1207754440327" varName="nextNode" />
+      <varInfo nodeId="1207754440327" varName="prevNode" />
     </scopeInfo>
     <scopeInfo nodeId="1207754440327" fileName="BeanCreator_Editor.java" startLine="91" startPosition="0" endLine="103" endPosition="0">
       <varInfo nodeId="1207754440327" varName="editorContext" />
