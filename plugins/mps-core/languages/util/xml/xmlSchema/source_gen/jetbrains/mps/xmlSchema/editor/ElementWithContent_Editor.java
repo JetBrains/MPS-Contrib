@@ -103,10 +103,10 @@ public class ElementWithContent_Editor extends DefaultNodeEditor {
     style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
     style.set(StyleAttributes.TEXT_COLOR, ElementWithContent_Editor._StyleParameter_QueryFunction_cvtcu2_a1b0a((editorCell == null ?
       null :
-      editorCell.getSNode()
+      editorCell.getContext()
     ), (editorCell == null ?
       null :
-      editorCell.getContext()
+      editorCell.getSNode()
     )));
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
@@ -120,7 +120,7 @@ public class ElementWithContent_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static Color _StyleParameter_QueryFunction_cvtcu2_a1b0a(SNode node, EditorContext editorContext) {
+  private static Color _StyleParameter_QueryFunction_cvtcu2_a1b0a(EditorContext editorContext, SNode node) {
     return XmlColorConstants.XML_COLOR;
   }
 }

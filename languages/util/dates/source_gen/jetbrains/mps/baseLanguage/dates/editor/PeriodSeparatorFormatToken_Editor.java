@@ -106,10 +106,10 @@ public class PeriodSeparatorFormatToken_Editor extends DefaultNodeEditor {
     BaseLanguageStyle_StyleSheet.applyLeftBracket(style, editorCell);
     style.set(StyleAttributes.PUNCTUATION_LEFT, PeriodSeparatorFormatToken_Editor._StyleParameter_QueryFunction_ih8plz_a0a0((editorCell == null ?
       null :
-      editorCell.getSNode()
+      editorCell.getContext()
     ), (editorCell == null ?
       null :
-      editorCell.getContext()
+      editorCell.getSNode()
     )));
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
@@ -133,10 +133,10 @@ public class PeriodSeparatorFormatToken_Editor extends DefaultNodeEditor {
     BaseLanguageStyle_StyleSheet.applyRightBracket(style, editorCell);
     style.set(StyleAttributes.PUNCTUATION_RIGHT, PeriodSeparatorFormatToken_Editor._StyleParameter_QueryFunction_ih8plz_a0d0((editorCell == null ?
       null :
-      editorCell.getSNode()
+      editorCell.getContext()
     ), (editorCell == null ?
       null :
-      editorCell.getContext()
+      editorCell.getSNode()
     )));
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
@@ -284,11 +284,11 @@ public class PeriodSeparatorFormatToken_Editor extends DefaultNodeEditor {
     return SPropertyOperations.hasValue(node, "kind", "default", "default");
   }
 
-  private static boolean _StyleParameter_QueryFunction_ih8plz_a0a0(SNode node, EditorContext editorContext) {
+  private static boolean _StyleParameter_QueryFunction_ih8plz_a0a0(EditorContext editorContext, SNode node) {
     return !(SPropertyOperations.hasValue(node, "kind", "ifAfter", "default"));
   }
 
-  private static boolean _StyleParameter_QueryFunction_ih8plz_a0d0(SNode node, EditorContext editorContext) {
+  private static boolean _StyleParameter_QueryFunction_ih8plz_a0d0(EditorContext editorContext, SNode node) {
     return !(SPropertyOperations.hasValue(node, "kind", "ifBefore", "default"));
   }
 

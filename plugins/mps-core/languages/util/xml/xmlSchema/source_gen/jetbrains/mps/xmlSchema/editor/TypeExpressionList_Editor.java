@@ -70,7 +70,7 @@ public class TypeExpressionList_Editor extends DefaultNodeEditor {
     }
 
     @Override
-    public EditorCell createSeparatorCell(EditorContext editorContext, SNode node) {
+    public EditorCell createSeparatorCell(EditorContext editorContext, SNode prevNode, SNode nextNode) {
       EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, this.getOwner(), ",");
       editorCell.setSelectable(false);
       Style style = new StyleImpl();

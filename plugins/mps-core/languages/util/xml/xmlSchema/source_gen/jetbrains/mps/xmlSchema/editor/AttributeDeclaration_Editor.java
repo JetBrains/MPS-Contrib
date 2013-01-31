@@ -106,10 +106,10 @@ public class AttributeDeclaration_Editor extends DefaultNodeEditor {
     style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD_ITALIC);
     style.set(StyleAttributes.TEXT_COLOR, AttributeDeclaration_Editor._StyleParameter_QueryFunction_vddsqv_a1b0((editorCell == null ?
       null :
-      editorCell.getSNode()
+      editorCell.getContext()
     ), (editorCell == null ?
       null :
-      editorCell.getContext()
+      editorCell.getSNode()
     )));
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
@@ -123,7 +123,7 @@ public class AttributeDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static Color _StyleParameter_QueryFunction_vddsqv_a1b0(SNode node, EditorContext editorContext) {
+  private static Color _StyleParameter_QueryFunction_vddsqv_a1b0(EditorContext editorContext, SNode node) {
     return XmlColorConstants.XML_COLOR;
   }
 }

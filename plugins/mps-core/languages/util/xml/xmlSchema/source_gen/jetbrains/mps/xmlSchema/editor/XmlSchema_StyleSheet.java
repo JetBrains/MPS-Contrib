@@ -8,8 +8,8 @@ import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.MPSFonts;
 import java.awt.Color;
-import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.openapi.editor.EditorContext;
+import org.jetbrains.mps.openapi.model.SNode;
 
 public class XmlSchema_StyleSheet {
   @Deprecated
@@ -17,10 +17,10 @@ public class XmlSchema_StyleSheet {
     Style style = new StyleImpl(editorCell);
     style.set(StyleAttributes.TEXT_COLOR, XmlSchema_StyleSheet._StyleParameter_QueryFunction_35vscc_a0a((editorCell == null ?
       null :
-      editorCell.getSNode()
+      editorCell.getContext()
     ), (editorCell == null ?
       null :
-      editorCell.getContext()
+      editorCell.getSNode()
     )));
     style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
     return style;
@@ -29,15 +29,15 @@ public class XmlSchema_StyleSheet {
   public static void applyXmlElement(Style style, jetbrains.mps.openapi.editor.cells.EditorCell editorCell) {
     style.set(StyleAttributes.TEXT_COLOR, XmlSchema_StyleSheet._StyleParameter_QueryFunction_35vscc_a0a((editorCell == null ?
       null :
-      editorCell.getSNode()
+      editorCell.getContext()
     ), (editorCell == null ?
       null :
-      editorCell.getContext()
+      editorCell.getSNode()
     )));
     style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
   }
 
-  private static Color _StyleParameter_QueryFunction_35vscc_a0a(SNode node, EditorContext editorContext) {
+  private static Color _StyleParameter_QueryFunction_35vscc_a0a(EditorContext editorContext, SNode node) {
     return XmlColorConstants.XML_COLOR;
   }
 }

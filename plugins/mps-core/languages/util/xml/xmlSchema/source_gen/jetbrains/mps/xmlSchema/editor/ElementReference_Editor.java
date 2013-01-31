@@ -49,10 +49,10 @@ public class ElementReference_Editor extends DefaultNodeEditor {
       style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
       style.set(StyleAttributes.TEXT_COLOR, ElementReference_Editor._Inline_uugm4e_a0a._StyleParameter_QueryFunction_uugm4e_a1a0a0((editorCell == null ?
         null :
-        editorCell.getSNode()
+        editorCell.getContext()
       ), (editorCell == null ?
         null :
-        editorCell.getContext()
+        editorCell.getSNode()
       )));
       editorCell.getStyle().putAll(style);
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
@@ -66,7 +66,7 @@ public class ElementReference_Editor extends DefaultNodeEditor {
       return editorCell;
     }
 
-    private static Color _StyleParameter_QueryFunction_uugm4e_a1a0a0(SNode node, EditorContext editorContext) {
+    private static Color _StyleParameter_QueryFunction_uugm4e_a1a0a0(EditorContext editorContext, SNode node) {
       return XmlColorConstants.XML_COLOR;
     }
   }

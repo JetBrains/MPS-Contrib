@@ -14,6 +14,7 @@
 /IdeaPlugin/mps-core/languages
 /IdeaPlugin/mps-java/lib
 /IdeaPlugin/tests/blProject/.idea/workspace.xml
+/IdeaPlugin/tests/psiProject/.idea/workspace.xml
 /IdeaPlugin/tests/multiModulesProject/.idea/workspace.xml
 /build/tmp/*
 /build/artifacts/*
