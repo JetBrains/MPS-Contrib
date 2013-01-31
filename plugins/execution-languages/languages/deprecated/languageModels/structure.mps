@@ -928,6 +928,7 @@
     <node role="conceptLinkDeclaration" roleId="tpce.1137532086877" type="tpce.AggregationConceptLinkDeclaration" typeId="tpce.1105741535888" id="314981645426569316">
       <property name="name" nameId="tpck.1169194664001" value="type" />
       <link role="targetType" roleId="tpce.1105736621938" targetNodeId="tpee.1068431790189" resolveInfo="Type" />
+      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="7750832940155881634" />
     </node>
   </root>
   <root id="314981645426569317" />
@@ -944,10 +945,6 @@
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
       <property name="role" nameId="tpce.1071599776563" value="concept" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="tpce.1169125787135" resolveInfo="AbstractConceptDeclaration" />
-    </node>
-    <node role="conceptLink" roleId="tpce.1105736949336" type="tpce.AggregationConceptLink" typeId="tpce.1105736889287" id="314981645426569332">
-      <link role="conceptLinkDeclaration" roleId="tpce.1105736734721" targetNodeId="314981645426569316" resolveInfo="type" />
-      <node role="target" roleId="tpce.1105736901241" type="tp25.SNodeListType" typeId="tp25.1145383075378" id="314981645426569333" />
     </node>
   </root>
   <root id="314981645426569335">

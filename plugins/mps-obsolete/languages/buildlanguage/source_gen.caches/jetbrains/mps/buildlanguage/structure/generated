@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="3j0i0tmeyd54hxw139uuv692u2zgaby">
+<dependencies version="2" modelHash="-ec5maet0rho4o8juqtytv0bjz4qjo4f">
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="8v5mxg7faenizzqancdsnbkmkc74yqj" />
   <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" hash="98k61qfedk3mo1qjg3v1au7xkjqpubq" />
-  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="3l4d6vah7bipcwb415vkx7fy07t8dxg" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-22hsdy8hx47u1rwu32z4quczy3521b0" />
   <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" hash="-1btmsuay4m0oifxjqd0wk9bex9z4aer" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="2nkg967gfmalhl29qke6mhw4pavbga4" />
   <common hash="-5dd2m4hdw3a2tcqzd6bi1ps7bb94yym">
@@ -54,7 +54,7 @@
     <file name="Buildlanguage_Language.java" />
     <file name="StructureAspectDescriptor.java" />
   </common>
-  <source id="1196851066733" name="Project" hash="8f89a23hkiyk5dywf06k326ax3xausk">
+  <source id="1196851066733" name="Project" hash="1opgu3p46bntgapgettt7w1ub0gxfi6">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="1196851087779" name="AbstractCall" hash="41e5auq1roganxr03seu3i4bhleo2kf">
@@ -105,7 +105,7 @@
   <source id="1197108973325" name="PlusOperation" hash="-66xnz2oemu3ma4fqdnrz9df8imt8blp">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1197398796434" name="Enum" hash="-3euxqx1y9oagcccjqqn2ah16wemd80r">
+  <source id="1197398796434" name="Enum" hash="-8gwmm3p0fwi31cx9gy08z6jqtgxauvz">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="1197399151554" name="StringEnum" hash="ch59vjx8bpzwrk7sl3vc2ep2xiiwc7n">
