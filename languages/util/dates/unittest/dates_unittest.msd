@@ -2,7 +2,7 @@
 <solution name="dates_unittest" uuid="d5e1eadc-0b90-46d3-ad09-aafe577e509d" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
-      <sourceRoot location="." />
+      <sourceRoot location="models" />
     </modelRoot>
   </models>
   <sourcePath />
