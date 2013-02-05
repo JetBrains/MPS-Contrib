@@ -2,7 +2,7 @@
 <solution name="jetbrains.mps.graphLayout.planarization" uuid="7fd530a6-5071-4af8-8b0f-7cfb35109601" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
-      <sourceRoot location="." />
+      <sourceRoot location="jetbrains" />
     </modelRoot>
   </models>
   <sourcePath />

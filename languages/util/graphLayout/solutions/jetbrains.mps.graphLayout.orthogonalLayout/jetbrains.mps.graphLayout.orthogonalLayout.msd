@@ -2,7 +2,7 @@
 <solution name="jetbrains.mps.graphLayout.orthogonalLayout" uuid="f08465e1-63a6-49b8-beae-ae52a38f3a7a" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
-      <sourceRoot location="." />
+      <sourceRoot location="jetbrains" />
     </modelRoot>
   </models>
   <sourcePath />

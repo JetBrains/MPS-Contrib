@@ -2,7 +2,7 @@
 <solution name="jetbrains.mps.graphLayout.geom" uuid="dd0b904b-7c6b-48aa-8557-baf05cd83f66" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
-      <sourceRoot location="." />
+      <sourceRoot location="jetbrains" />
     </modelRoot>
   </models>
   <sourcePath />
