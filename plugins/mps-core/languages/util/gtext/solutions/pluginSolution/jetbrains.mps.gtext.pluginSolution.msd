@@ -3,7 +3,6 @@
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
-      <sourceRoot location="." />
     </modelRoot>
   </models>
   <sourcePath />
