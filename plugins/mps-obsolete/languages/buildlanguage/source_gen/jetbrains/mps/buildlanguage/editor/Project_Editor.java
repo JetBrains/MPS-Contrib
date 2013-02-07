@@ -27,7 +27,7 @@ import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
-import jetbrains.mps.nodeEditor.FocusPolicy;
+import jetbrains.mps.editor.runtime.style.FocusPolicy;
 
 public class Project_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
@@ -595,7 +595,7 @@ public class Project_Editor extends DefaultNodeEditor {
     BuildLanguageStyle_StyleSheet.applyTarget(style, editorCell);
     editorCell.getStyle().putAll(style);
     if (true) {
-      editorCell.setFocusPolicy(FocusPolicy.FIRST_EDITABLE_CELL);
+      editorCell.getStyle().set(StyleAttributes.FOCUS_POLICY, FocusPolicy.FIRST_EDITABLE_CELL);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

@@ -4600,7 +4600,7 @@
     <nodeInfo nodeId="5496586556363462746" fileName="StringSchemaType_Editor.java" startLine="84" startPosition="50" endLine="85" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="5496586556363462746" fileName="StringSchemaType_Editor.java" startLine="85" startPosition="34" endLine="86" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5496586556363462746" fileName="StringSchemaType_Editor.java" startLine="86" startPosition="64" endLine="87" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5496586556363462746" fileName="StringSchemaType_Editor.java" startLine="88" startPosition="15" endLine="89" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5496586556363462746" fileName="StringSchemaType_Editor.java" startLine="88" startPosition="15" endLine="89" endPosition="90" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5496586556363462746" fileName="StringSchemaType_Editor.java" startLine="90" startPosition="5" endLine="91" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5496586556363462746" fileName="StringSchemaType_Editor.java" startLine="91" startPosition="73" endLine="92" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="5496586556363462746" fileName="StringSchemaType_Editor.java" startLine="92" startPosition="57" endLine="93" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -4623,7 +4623,7 @@
     <scopeInfo nodeId="5496586556363462741" fileName="StringSchemaType_Editor.java" startLine="32" startPosition="81" endLine="33" endPosition="81" />
     <scopeInfo nodeId="5496586556363462741" fileName="StringSchemaType_Editor.java" startLine="33" startPosition="81" endLine="34" endPosition="81" />
     <scopeInfo nodeId="5496586556363462741" fileName="StringSchemaType_Editor.java" startLine="34" startPosition="81" endLine="35" endPosition="81" />
-    <scopeInfo nodeId="5496586556363462746" fileName="StringSchemaType_Editor.java" startLine="88" startPosition="15" endLine="89" endPosition="60" />
+    <scopeInfo nodeId="5496586556363462746" fileName="StringSchemaType_Editor.java" startLine="88" startPosition="15" endLine="89" endPosition="90" />
     <scopeInfo nodeId="5496586556363462739" fileName="StringSchemaType_Editor.java" startLine="24" startPosition="0" endLine="27" endPosition="0">
       <varInfo nodeId="5496586556363462739" varName="editorContext" />
       <varInfo nodeId="5496586556363462739" varName="node" />
