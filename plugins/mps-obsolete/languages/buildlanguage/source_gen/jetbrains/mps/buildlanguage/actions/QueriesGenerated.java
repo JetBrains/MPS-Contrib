@@ -20,6 +20,8 @@ import jetbrains.mps.smodel.action.SNodeFactoryOperations;
 import jetbrains.mps.smodel.action.ChildSubstituteActionsHelper;
 import jetbrains.mps.smodel.action.SideTransformActionsBuilderContext;
 import jetbrains.mps.smodel.action.AbstractSideTransformHintSubstituteAction;
+import org.jetbrains.annotations.Nullable;
+import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import java.util.regex.Pattern;
@@ -151,7 +153,7 @@ public class QueriesGenerated {
     {
       SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.buildlanguage.structure.PlusOperation");
       ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(concept, _context.getSourceNode()) {
-        public SNode doSubstitute(String pattern) {
+        public SNode doSubstitute(@Nullable final EditorContext editorContext, String pattern) {
           SNode newNode = SNodeFactoryOperations.createNewNode("jetbrains.mps.buildlanguage.structure.PlusOperation", null);
           SNodeOperations.replaceWithAnother(_context.getSourceNode(), newNode);
           SLinkOperations.setTarget(newNode, "left", _context.getSourceNode(), true);
@@ -179,7 +181,7 @@ public class QueriesGenerated {
     {
       SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.buildlanguage.structure.PlusOperation");
       ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(concept, _context.getSourceNode()) {
-        public SNode doSubstitute(String pattern) {
+        public SNode doSubstitute(@Nullable final EditorContext editorContext, String pattern) {
           SNode newNode = SNodeFactoryOperations.createNewNode("jetbrains.mps.buildlanguage.structure.PlusOperation", null);
           SNodeOperations.replaceWithAnother(_context.getSourceNode(), newNode);
           SLinkOperations.setTarget(newNode, "right", _context.getSourceNode(), true);
@@ -207,7 +209,7 @@ public class QueriesGenerated {
     {
       SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.buildlanguage.structure.ICommented");
       ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(concept, _context.getSourceNode()) {
-        public SNode doSubstitute(String pattern) {
+        public SNode doSubstitute(@Nullable final EditorContext editorContext, String pattern) {
           SPropertyOperations.set(_context.getSourceNode(), "shortDescription", "");
           return _context.getSourceNode();
         }
