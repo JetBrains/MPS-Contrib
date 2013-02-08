@@ -453,6 +453,13 @@
       <directory url="file://$PROJECT_DIR$/samples/plainText/solutions/sample/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/samples/plainText/solutions/sample/test_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/samples/plainText/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/samples/robot_Kaja/languages/KajaAndOr/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/samples/robot_Kaja/languages/KajaSceneConstruction/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/samples/robot_Kaja/languages/Kajak/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/samples/robot_Kaja/solutions/JavaKajak/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/samples/robot_Kaja/solutions/JavaKajak/test_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/samples/robot_Kaja/solutions/Kajak.sandbox/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/samples/robot_Kaja/solutions/Kajak.sandbox/test_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/samples/sampleFacet/solutions/pluginSolution/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/samples/sampleFacet/solutions/pluginSolution/test_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/samples/sampleFacet/source_gen" includeSubdirectories="true" />
