@@ -1959,7 +1959,7 @@
     </node>
     <node role="method" roleId="1i04.1225194240805" type="1i04.ConceptMethodDeclaration" typeId="1i04.1225194472830" id="6575219246653626201">
       <property name="isStatic" nameId="1i04.5864038008284099149" value="true" />
-      <property name="name" nameId="tpck.1169194664001" value="getType" />
+      <property name="name" nameId="tpck.1169194664001" value="getExpectedAttributeType" />
       <property name="isVirtual" nameId="1i04.1225194472832" value="true" />
       <node role="returnType" roleId="tpee.1068580123133" type="tp25.SNodeType" typeId="tp25.1138055754698" id="6575219246653627851">
         <link role="concept" roleId="tp25.1138405853777" targetNodeId="tpsk.1196870830058" resolveInfo="PropertyType" />
@@ -2603,9 +2603,9 @@
     <node role="method" roleId="1i04.1225194240805" type="1i04.ConceptMethodDeclaration" typeId="1i04.1225194472830" id="6575219246653629448">
       <property name="isStatic" nameId="1i04.5864038008284099149" value="true" />
       <property name="isAbstract" nameId="1i04.1225194472834" value="false" />
-      <property name="name" nameId="tpck.1169194664001" value="getType" />
+      <property name="name" nameId="tpck.1169194664001" value="getExpectedAttributeType" />
       <property name="isVirtual" nameId="1i04.1225194472832" value="false" />
-      <link role="overriddenMethod" roleId="1i04.1225194472831" targetNodeId="6575219246653626201" resolveInfo="getType" />
+      <link role="overriddenMethod" roleId="1i04.1225194472831" targetNodeId="6575219246653626201" resolveInfo="getExpectedAttributeType" />
       <node role="returnType" roleId="tpee.1068580123133" type="tp25.SNodeType" typeId="tp25.1138055754698" id="6575219246653629449">
         <link role="concept" roleId="tp25.1138405853777" targetNodeId="tpsk.1196870830058" resolveInfo="PropertyType" />
       </node>
@@ -2630,9 +2630,9 @@
     <node role="method" roleId="1i04.1225194240805" type="1i04.ConceptMethodDeclaration" typeId="1i04.1225194472830" id="6575219246653635469">
       <property name="isStatic" nameId="1i04.5864038008284099149" value="true" />
       <property name="isAbstract" nameId="1i04.1225194472834" value="false" />
-      <property name="name" nameId="tpck.1169194664001" value="getType" />
+      <property name="name" nameId="tpck.1169194664001" value="getExpectedAttributeType" />
       <property name="isVirtual" nameId="1i04.1225194472832" value="false" />
-      <link role="overriddenMethod" roleId="1i04.1225194472831" targetNodeId="6575219246653626201" resolveInfo="getType" />
+      <link role="overriddenMethod" roleId="1i04.1225194472831" targetNodeId="6575219246653626201" resolveInfo="getExpectedAttributeType" />
       <node role="returnType" roleId="tpee.1068580123133" type="tp25.SNodeType" typeId="tp25.1138055754698" id="6575219246653635470">
         <link role="concept" roleId="tp25.1138405853777" targetNodeId="tpsk.1196870830058" resolveInfo="PropertyType" />
       </node>
