@@ -434,13 +434,12 @@
     <nodeInfo nodeId="4631964019510578254" fileName="BaseRunner.java" startLine="139" startPosition="12" endLine="140" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4631964019510577721" fileName="BaseRunner.java" startLine="144" startPosition="32" endLine="145" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4631964019510577728" fileName="BaseRunner.java" startLine="148" startPosition="32" endLine="149" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1240470842553275528" fileName="BaseRunner.java" startLine="152" startPosition="99" endLine="153" endPosition="76" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1240470842553275533" fileName="BaseRunner.java" startLine="153" startPosition="76" endLine="154" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1240470842553275545" fileName="BaseRunner.java" startLine="157" startPosition="27" endLine="158" endPosition="101" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1240470842553275554" fileName="BaseRunner.java" startLine="161" startPosition="5" endLine="162" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="1240470842553275555" fileName="BaseRunner.java" startLine="162" startPosition="0" endLine="163" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1240470842553275562" fileName="BaseRunner.java" startLine="163" startPosition="49" endLine="164" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1240470842553275567" fileName="BaseRunner.java" startLine="164" startPosition="48" endLine="165" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4391086355981917071" fileName="BaseRunner.java" startLine="152" startPosition="93" endLine="153" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4391086355982034536" fileName="BaseRunner.java" startLine="154" startPosition="27" endLine="155" endPosition="147" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4391086355981269244" fileName="BaseRunner.java" startLine="156" startPosition="12" endLine="157" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4391086355981973669" fileName="BaseRunner.java" startLine="158" startPosition="26" endLine="159" endPosition="108" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4391086355982185124" fileName="BaseRunner.java" startLine="161" startPosition="5" endLine="162" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1240470842553275567" fileName="BaseRunner.java" startLine="162" startPosition="99" endLine="163" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4631964019510578088" fileName="BaseRunner.java" startLine="169" startPosition="56" endLine="170" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="4631964019510578098" fileName="BaseRunner.java" startLine="170" startPosition="51" endLine="171" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="4631964019510578121" fileName="BaseRunner.java" startLine="172" startPosition="38" endLine="173" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -476,15 +475,15 @@
     <nodeInfo nodeId="4631964019510578030" fileName="BaseRunner.java" startLine="125" startPosition="0" endLine="128" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getCommandLine#()Lcom/intellij/execution/configurations/GeneralCommandLine;" />
     <nodeInfo nodeId="4631964019510577719" fileName="BaseRunner.java" startLine="144" startPosition="0" endLine="147" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="fs#()Ljava/lang/String;" />
     <nodeInfo nodeId="4631964019510577726" fileName="BaseRunner.java" startLine="148" startPosition="0" endLine="151" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="ps#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1240470842553275543" fileName="BaseRunner.java" startLine="157" startPosition="0" endLine="160" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="run#()V" />
+    <nodeInfo nodeId="4391086355981958356" fileName="BaseRunner.java" startLine="157" startPosition="69" endLine="160" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="4631964019510578162" fileName="BaseRunner.java" startLine="185" startPosition="98" endLine="188" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="4631964019510578183" fileName="BaseRunner.java" startLine="188" startPosition="5" endLine="191" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="4631964019510578214" fileName="BaseRunner.java" startLine="198" startPosition="58" endLine="201" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="4631964019510578194" fileName="BaseRunner.java" startLine="206" startPosition="0" endLine="209" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="isNotEmpty_9hpqdc_a0e0y#(Ljava/lang/String;)Z" />
+    <nodeInfo nodeId="4631964019510578194" fileName="BaseRunner.java" startLine="206" startPosition="0" endLine="209" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="isNotEmpty_9hpqdc_a0e0z#(Ljava/lang/String;)Z" />
     <nodeInfo nodeId="4631964019510577694" fileName="BaseRunner.java" startLine="38" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="BaseRunner#(Ljetbrains/mps/execution/configurations/deprecated/runtime/ConfigRunParameters;)V" />
     <nodeInfo nodeId="4631964019510577888" fileName="BaseRunner.java" startLine="82" startPosition="62" endLine="87" endPosition="10" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4631964019510578236" fileName="BaseRunner.java" startLine="136" startPosition="63" endLine="141" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1240470842553275542" fileName="BaseRunner.java" startLine="155" startPosition="27" endLine="160" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4391086355981239226" fileName="BaseRunner.java" startLine="156" startPosition="10" endLine="161" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="4631964019510578104" fileName="BaseRunner.java" startLine="174" startPosition="10" endLine="179" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="4631964019510578211" fileName="BaseRunner.java" startLine="197" startPosition="40" endLine="202" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="4631964019510578039" fileName="BaseRunner.java" startLine="129" startPosition="0" endLine="135" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getCommandLine#(Ljava/lang/String;)Lcom/intellij/execution/configurations/GeneralCommandLine;" />
@@ -492,15 +491,15 @@
     <nodeInfo nodeId="4631964019510577930" fileName="BaseRunner.java" startLine="95" startPosition="0" endLine="102" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addClassPath#(Ljava/util/List;Ljava/lang/String;)V" />
     <nodeInfo nodeId="4631964019510577990" fileName="BaseRunner.java" startLine="113" startPosition="0" endLine="120" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getClasspath#(Ljetbrains/mps/project/IModule;Z)Ljava/lang/String;" />
     <nodeInfo nodeId="4631964019510578230" fileName="BaseRunner.java" startLine="136" startPosition="0" endLine="143" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="updateJavaHome#(Ljetbrains/mps/execution/configurations/deprecated/runtime/ConfigRunParameters;)V" />
-    <nodeInfo nodeId="1240470842553275540" fileName="BaseRunner.java" startLine="154" startPosition="46" endLine="161" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="4631964019510577878" fileName="BaseRunner.java" startLine="80" startPosition="92" endLine="88" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4391086355981231073" fileName="BaseRunner.java" startLine="153" startPosition="71" endLine="161" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="4631964019510578103" fileName="BaseRunner.java" startLine="171" startPosition="50" endLine="179" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="4631964019510577956" fileName="BaseRunner.java" startLine="103" startPosition="0" endLine="112" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getClasspath#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
     <nodeInfo nodeId="4631964019510578203" fileName="BaseRunner.java" startLine="196" startPosition="0" endLine="205" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getJdkHome#()Ljava/lang/String;" />
     <nodeInfo nodeId="4631964019510577868" fileName="BaseRunner.java" startLine="80" startPosition="0" endLine="90" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addParametersString#(Ljava/util/List;Ljava/lang/String;)V" />
+    <nodeInfo nodeId="4631964019510578066" fileName="BaseRunner.java" startLine="152" startPosition="0" endLine="165" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getModuleClasspath#(Ljetbrains/mps/project/IModule;Z)Ljava/util/Set;" />
     <nodeInfo nodeId="4631964019510578084" fileName="BaseRunner.java" startLine="168" startPosition="0" endLine="181" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getJavaCommand#(Ljava/lang/String;)Ljava/lang/String;" />
     <nodeInfo nodeId="4631964019510578132" fileName="BaseRunner.java" startLine="182" startPosition="0" endLine="195" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getJavaHomes#()Ljava/util/List;" />
-    <nodeInfo nodeId="4631964019510578066" fileName="BaseRunner.java" startLine="152" startPosition="0" endLine="167" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getModuleClasspath#(Ljetbrains/mps/project/IModule;Z)Ljava/util/Set;" />
     <scopeInfo nodeId="4631964019510577743" fileName="BaseRunner.java" startLine="46" startPosition="34" endLine="47" endPosition="32" />
     <scopeInfo nodeId="4631964019510577769" fileName="BaseRunner.java" startLine="52" startPosition="56" endLine="53" endPosition="41" />
     <scopeInfo nodeId="4631964019510577778" fileName="BaseRunner.java" startLine="56" startPosition="59" endLine="57" endPosition="61" />
@@ -520,7 +519,8 @@
     <scopeInfo nodeId="4631964019510578253" fileName="BaseRunner.java" startLine="139" startPosition="12" endLine="140" endPosition="41" />
     <scopeInfo nodeId="4631964019510577720" fileName="BaseRunner.java" startLine="144" startPosition="32" endLine="145" endPosition="48" />
     <scopeInfo nodeId="4631964019510577727" fileName="BaseRunner.java" startLine="148" startPosition="32" endLine="149" endPosition="48" />
-    <scopeInfo nodeId="1240470842553275544" fileName="BaseRunner.java" startLine="157" startPosition="27" endLine="158" endPosition="101" />
+    <scopeInfo nodeId="4391086355981231075" fileName="BaseRunner.java" startLine="154" startPosition="27" endLine="155" endPosition="147" />
+    <scopeInfo nodeId="4391086355981958358" fileName="BaseRunner.java" startLine="158" startPosition="26" endLine="159" endPosition="108" />
     <scopeInfo nodeId="4631964019510578120" fileName="BaseRunner.java" startLine="172" startPosition="38" endLine="173" endPosition="29" />
     <scopeInfo nodeId="4631964019510578105" fileName="BaseRunner.java" startLine="175" startPosition="39" endLine="176" endPosition="33" />
     <scopeInfo nodeId="4631964019510578111" fileName="BaseRunner.java" startLine="177" startPosition="12" endLine="178" endPosition="29" />
@@ -569,13 +569,15 @@
     <scopeInfo nodeId="4631964019510578030" fileName="BaseRunner.java" startLine="125" startPosition="0" endLine="128" endPosition="0" />
     <scopeInfo nodeId="4631964019510577719" fileName="BaseRunner.java" startLine="144" startPosition="0" endLine="147" endPosition="0" />
     <scopeInfo nodeId="4631964019510577726" fileName="BaseRunner.java" startLine="148" startPosition="0" endLine="151" endPosition="0" />
-    <scopeInfo nodeId="1240470842553275543" fileName="BaseRunner.java" startLine="157" startPosition="0" endLine="160" endPosition="0" />
     <scopeInfo nodeId="4631964019510578213" fileName="BaseRunner.java" startLine="198" startPosition="58" endLine="201" endPosition="7" />
     <scopeInfo nodeId="4631964019510578194" fileName="BaseRunner.java" startLine="206" startPosition="0" endLine="209" endPosition="0">
       <varInfo nodeId="4631964019510578194" varName="str" />
     </scopeInfo>
     <scopeInfo nodeId="4631964019510578041" fileName="BaseRunner.java" startLine="129" startPosition="66" endLine="133" endPosition="23">
       <varInfo nodeId="4631964019510578043" varName="commandLine" />
+    </scopeInfo>
+    <scopeInfo nodeId="4391086355981239227" fileName="BaseRunner.java" startLine="156" startPosition="12" endLine="160" endPosition="7">
+      <varInfo nodeId="4391086355981269245" varName="facet" />
     </scopeInfo>
     <scopeInfo nodeId="4631964019510577694" fileName="BaseRunner.java" startLine="38" startPosition="0" endLine="43" endPosition="0">
       <varInfo nodeId="4631964019510577709" varName="parameters" />
@@ -588,7 +590,6 @@
       <varInfo nodeId="4631964019510577997" varName="res" />
     </scopeInfo>
     <scopeInfo nodeId="4631964019510578235" fileName="BaseRunner.java" startLine="136" startPosition="63" endLine="141" endPosition="5" />
-    <scopeInfo nodeId="1240470842553275541" fileName="BaseRunner.java" startLine="155" startPosition="27" endLine="160" endPosition="9" />
     <scopeInfo nodeId="4631964019510578211" fileName="BaseRunner.java" startLine="197" startPosition="40" endLine="202" endPosition="5">
       <varInfo nodeId="4631964019510578212" varName="javaHome" />
     </scopeInfo>
@@ -632,25 +633,23 @@
       <varInfo nodeId="4631964019510578099" varName="osName" />
       <varInfo nodeId="4631964019510578089" varName="result" />
     </scopeInfo>
+    <scopeInfo nodeId="4631964019510578073" fileName="BaseRunner.java" startLine="152" startPosition="93" endLine="163" endPosition="21">
+      <varInfo nodeId="4391086355981917074" varName="classpath" />
+    </scopeInfo>
     <scopeInfo nodeId="4631964019510578135" fileName="BaseRunner.java" startLine="182" startPosition="45" endLine="193" endPosition="17">
       <varInfo nodeId="4631964019510578142" varName="homes" />
       <varInfo nodeId="4631964019510578137" varName="systemJavaHome" />
       <varInfo nodeId="4631964019510578149" varName="systemJdkHome" />
     </scopeInfo>
-    <scopeInfo nodeId="4631964019510578073" fileName="BaseRunner.java" startLine="152" startPosition="99" endLine="165" endPosition="73">
-      <varInfo nodeId="1240470842553275556" varName="visited" />
-      <varInfo nodeId="1240470842553275529" varName="visitor" />
+    <scopeInfo nodeId="4631964019510578066" fileName="BaseRunner.java" startLine="152" startPosition="0" endLine="165" endPosition="0">
+      <varInfo nodeId="4631964019510578069" varName="module" />
+      <varInfo nodeId="4631964019510578071" varName="withDependencies" />
     </scopeInfo>
     <scopeInfo nodeId="4631964019510578084" fileName="BaseRunner.java" startLine="168" startPosition="0" endLine="181" endPosition="0">
       <varInfo nodeId="4631964019510578129" varName="javaHome" />
     </scopeInfo>
     <scopeInfo nodeId="4631964019510578132" fileName="BaseRunner.java" startLine="182" startPosition="0" endLine="195" endPosition="0" />
-    <scopeInfo nodeId="4631964019510578066" fileName="BaseRunner.java" startLine="152" startPosition="0" endLine="167" endPosition="0">
-      <varInfo nodeId="4631964019510578069" varName="module" />
-      <varInfo nodeId="4631964019510578071" varName="withDependencies" />
-    </scopeInfo>
     <unitInfo nodeId="4631964019510577897" fileName="BaseRunner.java" startLine="83" startPosition="111" endLine="87" endPosition="7" unitName="jetbrains.mps.execution.configurations.deprecated.runtime.BaseRunner$1" />
-    <unitInfo nodeId="1240470842553275543" fileName="BaseRunner.java" startLine="156" startPosition="47" endLine="160" endPosition="7" unitName="jetbrains.mps.execution.configurations.deprecated.runtime.BaseRunner$2" />
     <unitInfo nodeId="4631964019510577684" fileName="BaseRunner.java" startLine="28" startPosition="0" endLine="210" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.runtime.BaseRunner" />
   </root>
   <root nodeRef="r:68c7815b-65d3-4b04-9110-50fab74211e0(jetbrains.mps.execution.configurations.deprecated.runtime)/4631964019510578259">

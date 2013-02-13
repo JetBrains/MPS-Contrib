@@ -14,13 +14,13 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.project.IModule;
 import com.intellij.execution.configurations.GeneralCommandLine;
 import java.util.Set;
-import jetbrains.mps.reloading.ClasspathStringCollector;
-import jetbrains.mps.smodel.ModelAccess;
-import jetbrains.mps.project.AbstractModule;
-import jetbrains.mps.util.CollectionUtil;
-import jetbrains.mps.reloading.CommonPaths;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.HashSet;
+import jetbrains.mps.project.facets.JavaModuleOperations;
+import java.util.Collections;
+import jetbrains.mps.project.facets.JavaModuleFacet;
+import jetbrains.mps.internal.collections.runtime.CollectionSequence;
+import jetbrains.mps.reloading.CommonPaths;
 import org.jetbrains.annotations.NotNull;
 import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
 import java.io.File;
@@ -149,21 +149,21 @@ public abstract class BaseRunner {
     return System.getProperty("path.separator");
   }
 
-  protected static Set<String> getModuleClasspath(final IModule module, boolean withDependencies) {
-    final ClasspathStringCollector visitor = new ClasspathStringCollector();
-    module.getClassPathItem().accept(visitor);
+  protected static Set<String> getModuleClasspath(IModule module, boolean withDependencies) {
+    Set<String> classpath = SetSequence.fromSet(new HashSet<String>());
     if (withDependencies) {
-      ModelAccess.instance().runReadAction(new Runnable() {
-        public void run() {
-          AbstractModule.getDependenciesClasspath(CollectionUtil.set(module), false).accept(visitor);
-        }
-      });
+      SetSequence.fromSet(classpath).addSequence(SetSequence.fromSet(JavaModuleOperations.collectExecuteClasspath(Collections.singleton(module))));
+    } else {
+      JavaModuleFacet facet = module.getFacet(JavaModuleFacet.class);
+      if (facet != null) {
+        SetSequence.fromSet(classpath).addSequence(CollectionSequence.fromCollection(facet.getClassPath()));
+      }
     }
-
-    Set<String> visited = visitor.getClasspath();
-    visited.removeAll(CommonPaths.getJDKPath());
-    return SetSequence.fromSetWithValues(new HashSet<String>(), visited);
+    SetSequence.fromSet(classpath).removeSequence(ListSequence.fromList(CommonPaths.getJDKPath()));
+    return classpath;
   }
+
+
 
   @NotNull
   public static String getJavaCommand(String javaHome) {
@@ -186,7 +186,7 @@ public abstract class BaseRunner {
     if (systemJavaHome.endsWith("jre") && new File(systemJdkHome + File.separator + "bin").exists()) {
       ListSequence.fromList(homes).addElement(systemJdkHome);
     }
-    if (isNotEmpty_9hpqdc_a0e0y(System.getenv("JAVA_HOME"))) {
+    if (isNotEmpty_9hpqdc_a0e0z(System.getenv("JAVA_HOME"))) {
       ListSequence.fromList(homes).addElement(System.getenv("JAVA_HOME"));
     }
     ListSequence.fromList(homes).addElement(systemJavaHome);
@@ -203,7 +203,7 @@ public abstract class BaseRunner {
     return ListSequence.fromList(homes).first();
   }
 
-  public static boolean isNotEmpty_9hpqdc_a0e0y(String str) {
+  public static boolean isNotEmpty_9hpqdc_a0e0z(String str) {
     return str != null && str.length() > 0;
   }
 }
