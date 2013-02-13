@@ -12,7 +12,6 @@
       <root url="jar://$PROJECT_DIR$/plugins/cvsIntegration/lib/smartcvs-src.jar!/" />
       <root url="jar://$PROJECT_DIR$/plugins/git4idea/lib/ini4j-0.5.2-patched.jar!/" />
       <root url="jar://$PROJECT_DIR$/plugins/git4idea/lib/jsch-0.1.44.jar!/" />
-      <root url="jar://$PROJECT_DIR$/plugins/git4idea/lib/org.eclipse.jgit-1.1.0.201109151100-r.jar!/" />
       <root url="jar://$PROJECT_DIR$/plugins/svn4idea/lib/antlr.jar!/" />
       <root url="jar://$PROJECT_DIR$/plugins/svn4idea/lib/httpclient-4.1.1.jar!/" />
       <root url="jar://$PROJECT_DIR$/plugins/svn4idea/lib/httpcore-4.1.jar!/" />
@@ -23,6 +22,7 @@
       <root url="jar://$PROJECT_DIR$/plugins/svn4idea/lib/svnkit-javahl.jar!/" />
       <root url="jar://$PROJECT_DIR$/plugins/svn4idea/lib/svnkit.jar!/" />
       <root url="jar://$PROJECT_DIR$/plugins/svn4idea/lib/trilead.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/git4idea/lib/org.eclipse.jgit-2.1.0.201209190230-r.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

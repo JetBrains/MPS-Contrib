@@ -5,8 +5,8 @@ package jetbrains.mps.baseLanguage.dates.editor;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.openapi.editor.EditorContext;
-import jetbrains.mps.nodeEditor.CellActionType;
-import jetbrains.mps.nodeEditor.EditorCellAction;
+import jetbrains.mps.openapi.editor.cells.CellActionType;
+import jetbrains.mps.editor.runtime.cells.AbstractCellAction;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class InlineFormatDateTimeExpression_deleteLocale {
@@ -14,7 +14,7 @@ public class InlineFormatDateTimeExpression_deleteLocale {
     editorCell.setAction(CellActionType.DELETE, new InlineFormatDateTimeExpression_deleteLocale.InlineFormatDateTimeExpression_deleteLocale_DELETE(node));
   }
 
-  public static class InlineFormatDateTimeExpression_deleteLocale_DELETE extends EditorCellAction {
+  public static class InlineFormatDateTimeExpression_deleteLocale_DELETE extends AbstractCellAction {
     /*package*/ SNode myNode;
 
     public InlineFormatDateTimeExpression_deleteLocale_DELETE(SNode node) {

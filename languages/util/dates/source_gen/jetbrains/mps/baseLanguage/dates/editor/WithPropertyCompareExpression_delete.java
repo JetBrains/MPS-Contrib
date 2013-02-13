@@ -5,8 +5,8 @@ package jetbrains.mps.baseLanguage.dates.editor;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.openapi.editor.EditorContext;
-import jetbrains.mps.nodeEditor.CellActionType;
-import jetbrains.mps.nodeEditor.EditorCellAction;
+import jetbrains.mps.openapi.editor.cells.CellActionType;
+import jetbrains.mps.editor.runtime.cells.AbstractCellAction;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
@@ -15,7 +15,7 @@ public class WithPropertyCompareExpression_delete {
     editorCell.setAction(CellActionType.DELETE, new WithPropertyCompareExpression_delete.WithPropertyCompareExpression_delete_DELETE(node));
   }
 
-  public static class WithPropertyCompareExpression_delete_DELETE extends EditorCellAction {
+  public static class WithPropertyCompareExpression_delete_DELETE extends AbstractCellAction {
     /*package*/ SNode myNode;
 
     public WithPropertyCompareExpression_delete_DELETE(SNode node) {

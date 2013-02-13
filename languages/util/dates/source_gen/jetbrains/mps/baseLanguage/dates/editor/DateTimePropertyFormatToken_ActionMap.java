@@ -5,8 +5,8 @@ package jetbrains.mps.baseLanguage.dates.editor;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.openapi.editor.EditorContext;
-import jetbrains.mps.nodeEditor.CellActionType;
-import jetbrains.mps.nodeEditor.EditorCellAction;
+import jetbrains.mps.openapi.editor.cells.CellActionType;
+import jetbrains.mps.editor.runtime.cells.AbstractCellAction;
 import jetbrains.mps.baseLanguage.dates.constraints.DateTimePropertFormatTokenUtil;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
@@ -15,7 +15,7 @@ public class DateTimePropertyFormatToken_ActionMap {
     editorCell.setAction(CellActionType.RIGHT_TRANSFORM, new DateTimePropertyFormatToken_ActionMap.DateTimePropertyFormatToken_ActionMap_RIGHT_TRANSFORM(node));
   }
 
-  public static class DateTimePropertyFormatToken_ActionMap_RIGHT_TRANSFORM extends EditorCellAction {
+  public static class DateTimePropertyFormatToken_ActionMap_RIGHT_TRANSFORM extends AbstractCellAction {
     /*package*/ SNode myNode;
 
     public DateTimePropertyFormatToken_ActionMap_RIGHT_TRANSFORM(SNode node) {

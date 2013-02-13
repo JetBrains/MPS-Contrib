@@ -474,8 +474,6 @@
       <directory url="file://$PROJECT_DIR$/samples/sampleJavaExtensions/solutions/MoneyRuntime/test_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/samples/sampleJavaExtensions/solutions/ParallelForUtils/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/samples/sampleJavaExtensions/solutions/ParallelForUtils/test_gen" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/samples/sampleJavaExtensions/solutions/SampleJavaExtensions.build/source_gen" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/samples/sampleJavaExtensions/solutions/SampleJavaExtensions.build/test_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/samples/sampleJavaExtensions/solutions/SampleJavaExtensions.sandbox/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/samples/sampleJavaExtensions/solutions/SampleJavaExtensions.sandbox/test_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/samples/sampleLanguage/solutions/sandbox/source_gen" includeSubdirectories="true" />
