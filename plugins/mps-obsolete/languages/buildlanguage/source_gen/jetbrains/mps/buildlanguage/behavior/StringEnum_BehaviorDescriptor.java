@@ -9,8 +9,8 @@ public class StringEnum_BehaviorDescriptor extends Enum_BehaviorDescriptor {
   public StringEnum_BehaviorDescriptor() {
   }
 
-  public SNode virtual_getType_6575219246653626201(SConcept thisConcept) {
-    return StringEnum_Behavior.virtual_getType_6575219246653626201(thisConcept);
+  public SNode virtual_getExpectedAttributeType_6575219246653626201(SConcept thisConcept) {
+    return StringEnum_Behavior.virtual_getExpectedAttributeType_6575219246653626201(thisConcept);
   }
 
   @Override
