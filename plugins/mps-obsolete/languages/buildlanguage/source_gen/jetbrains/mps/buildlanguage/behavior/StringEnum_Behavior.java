@@ -10,7 +10,7 @@ public class StringEnum_Behavior {
   public static void init(SNode thisNode) {
   }
 
-  public static SNode virtual_getType_6575219246653626201(SConcept thisConcept) {
+  public static SNode virtual_getExpectedAttributeType_6575219246653626201(SConcept thisConcept) {
     return SConceptOperations.createNewNode("jetbrains.mps.buildlanguage.structure.StringType", null);
   }
 }
