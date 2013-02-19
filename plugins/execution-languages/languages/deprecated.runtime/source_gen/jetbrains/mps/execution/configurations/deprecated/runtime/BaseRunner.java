@@ -19,7 +19,6 @@ import java.util.HashSet;
 import jetbrains.mps.project.facets.JavaModuleOperations;
 import java.util.Collections;
 import jetbrains.mps.project.facets.JavaModuleFacet;
-import jetbrains.mps.internal.collections.runtime.CollectionSequence;
 import jetbrains.mps.reloading.CommonPaths;
 import org.jetbrains.annotations.NotNull;
 import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
@@ -156,7 +155,7 @@ public abstract class BaseRunner {
     } else {
       JavaModuleFacet facet = module.getFacet(JavaModuleFacet.class);
       if (facet != null) {
-        SetSequence.fromSet(classpath).addSequence(CollectionSequence.fromCollection(facet.getClassPath()));
+        SetSequence.fromSet(classpath).addSequence(SetSequence.fromSet(facet.getClassPath()));
       }
     }
     SetSequence.fromSet(classpath).removeSequence(ListSequence.fromList(CommonPaths.getJDKPath()));

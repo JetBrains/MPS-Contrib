@@ -6,7 +6,7 @@ import jetbrains.mps.util.annotation.ToRemove;
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
-import jetbrains.mps.internal.collections.runtime.CollectionSequence;
+import jetbrains.mps.internal.collections.runtime.SetSequence;
 import jetbrains.mps.smodel.MPSModuleRepository;
 import jetbrains.mps.project.ModuleId;
 import jetbrains.mps.project.facets.JavaModuleFacet;
@@ -26,7 +26,7 @@ public class TestRunParameters {
     myTestRunner = "jetbrains.mps.baseLanguage.unitTest.execution.server.TestRunner";
     myVmParameters = ListSequence.fromList(new ArrayList<String>());
     myClassPath = ListSequence.fromList(new ArrayList<String>());
-    ListSequence.fromList(myClassPath).addSequence(CollectionSequence.fromCollection(MPSModuleRepository.getInstance().getModuleById(ModuleId.fromString("f618e99a-2641-465c-bb54-31fe76f9e285")).getFacet(JavaModuleFacet.class).getClassPath()));
+    ListSequence.fromList(myClassPath).addSequence(SetSequence.fromSet(MPSModuleRepository.getInstance().getModuleById(ModuleId.fromString("f618e99a-2641-465c-bb54-31fe76f9e285")).getFacet(JavaModuleFacet.class).getClassPath()));
   }
 
   public void setTestRunner(String name) {
