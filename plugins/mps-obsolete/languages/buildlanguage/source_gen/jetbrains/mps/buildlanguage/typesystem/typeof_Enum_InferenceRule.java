@@ -25,7 +25,7 @@ public class typeof_Enum_InferenceRule extends AbstractInferenceRule_Runtime imp
       {
         SNode _nodeToCheck_1029348928467 = element;
         EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c895904c4(jetbrains.mps.buildlanguage.typesystem)", "1197401256457", 0, null);
-        typeCheckingContext.createLessThanInequality((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c895904c4(jetbrains.mps.buildlanguage.typesystem)", "1197401239298", true), (SNode) BehaviorReflection.invokeVirtualStatic((Class<SNode>) ((Class) Object.class), SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SNodeOperations.getConceptDeclaration(nodeToCheck))), "virtual_getType_6575219246653626201", new Object[]{}), false, true, _info_12389875345);
+        typeCheckingContext.createLessThanInequality((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c895904c4(jetbrains.mps.buildlanguage.typesystem)", "1197401239298", true), (SNode) BehaviorReflection.invokeVirtualStatic((Class<SNode>) ((Class) Object.class), SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SNodeOperations.getConceptDeclaration(nodeToCheck))), "virtual_getExpectedAttributeType_6575219246653626201", new Object[]{}), false, true, _info_12389875345);
       }
     }
   }

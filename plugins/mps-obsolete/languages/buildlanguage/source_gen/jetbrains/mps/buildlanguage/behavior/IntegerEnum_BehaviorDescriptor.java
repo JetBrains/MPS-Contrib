@@ -9,8 +9,8 @@ public class IntegerEnum_BehaviorDescriptor extends Enum_BehaviorDescriptor {
   public IntegerEnum_BehaviorDescriptor() {
   }
 
-  public SNode virtual_getType_6575219246653626201(SConcept thisConcept) {
-    return IntegerEnum_Behavior.virtual_getType_6575219246653626201(thisConcept);
+  public SNode virtual_getExpectedAttributeType_6575219246653626201(SConcept thisConcept) {
+    return IntegerEnum_Behavior.virtual_getExpectedAttributeType_6575219246653626201(thisConcept);
   }
 
   @Override

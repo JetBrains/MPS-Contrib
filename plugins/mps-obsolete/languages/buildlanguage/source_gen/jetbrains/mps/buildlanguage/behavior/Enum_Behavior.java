@@ -34,7 +34,7 @@ public class Enum_Behavior {
     return false;
   }
 
-  public static SNode virtual_getType_6575219246653626201(SConcept thisConcept) {
+  public static SNode virtual_getExpectedAttributeType_6575219246653626201(SConcept thisConcept) {
     return null;
   }
 }
