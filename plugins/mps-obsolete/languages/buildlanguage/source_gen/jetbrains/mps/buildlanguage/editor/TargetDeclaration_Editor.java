@@ -6,6 +6,10 @@ import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
 import jetbrains.mps.openapi.editor.EditorContext;
 import org.jetbrains.mps.openapi.model.SNode;
+import jetbrains.mps.smodel.IScope;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
 import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
@@ -29,10 +33,6 @@ import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.editor.runtime.style.FocusPolicy;
-import jetbrains.mps.smodel.IScope;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class TargetDeclaration_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
@@ -41,6 +41,30 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
 
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
     return this.createCollection_xfdsch_a_0(editorContext, node);
+  }
+
+  private static boolean renderingCondition_xfdsch_a0a(SNode node, EditorContext editorContext, IScope scope) {
+    return SPropertyOperations.getString(node, "shortDescription") != null;
+  }
+
+  private static boolean renderingCondition_xfdsch_a2b0(SNode node, EditorContext editorContext, IScope scope) {
+    return isNotEmpty_xfdsch_a0a0d(SPropertyOperations.getString(node, "if"));
+  }
+
+  private static boolean renderingCondition_xfdsch_a3b0(SNode node, EditorContext editorContext, IScope scope) {
+    return isNotEmpty_xfdsch_a0a0e(SPropertyOperations.getString(node, "unless"));
+  }
+
+  private static boolean renderingCondition_xfdsch_a4b0(SNode node, EditorContext editorContext, IScope scope) {
+    return ListSequence.fromList(SLinkOperations.getTargets(node, "depends", true)).count() != 0 || editorContext.isInspector();
+  }
+
+  private static boolean renderingCondition_xfdsch_a1a(SNode node, EditorContext editorContext, IScope scope) {
+    return editorContext.isInspector();
+  }
+
+  private static boolean renderingCondition_xfdsch_a2a(SNode node, EditorContext editorContext, IScope scope) {
+    return editorContext.isInspector();
   }
 
   private static class propertyListListHandler_xfdsch_b2a extends RefNodeListHandler {
@@ -538,35 +562,11 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static boolean renderingCondition_xfdsch_a0a(SNode node, EditorContext editorContext, IScope scope) {
-    return SPropertyOperations.getString(node, "shortDescription") != null;
-  }
-
-  private static boolean renderingCondition_xfdsch_a2b0(SNode node, EditorContext editorContext, IScope scope) {
-    return isNotEmpty_xfdsch_a0a0nb(SPropertyOperations.getString(node, "if"));
-  }
-
-  private static boolean renderingCondition_xfdsch_a3b0(SNode node, EditorContext editorContext, IScope scope) {
-    return isNotEmpty_xfdsch_a0a0ob(SPropertyOperations.getString(node, "unless"));
-  }
-
-  private static boolean renderingCondition_xfdsch_a4b0(SNode node, EditorContext editorContext, IScope scope) {
-    return ListSequence.fromList(SLinkOperations.getTargets(node, "depends", true)).count() != 0 || editorContext.isInspector();
-  }
-
-  private static boolean renderingCondition_xfdsch_a1a(SNode node, EditorContext editorContext, IScope scope) {
-    return editorContext.isInspector();
-  }
-
-  private static boolean renderingCondition_xfdsch_a2a(SNode node, EditorContext editorContext, IScope scope) {
-    return editorContext.isInspector();
-  }
-
-  public static boolean isNotEmpty_xfdsch_a0a0nb(String str) {
+  public static boolean isNotEmpty_xfdsch_a0a0d(String str) {
     return str != null && str.length() > 0;
   }
 
-  public static boolean isNotEmpty_xfdsch_a0a0ob(String str) {
+  public static boolean isNotEmpty_xfdsch_a0a0e(String str) {
     return str != null && str.length() > 0;
   }
 }

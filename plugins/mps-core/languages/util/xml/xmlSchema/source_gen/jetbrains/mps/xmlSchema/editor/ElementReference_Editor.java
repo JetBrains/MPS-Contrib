@@ -7,6 +7,7 @@ import jetbrains.mps.nodeEditor.cells.EditorCell;
 import jetbrains.mps.openapi.editor.EditorContext;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.nodeEditor.InlineCellProvider;
+import java.awt.Color;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.openapi.editor.style.Style;
@@ -15,7 +16,6 @@ import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.MPSFonts;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
-import java.awt.Color;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
 
@@ -35,6 +35,10 @@ public class ElementReference_Editor extends DefaultNodeEditor {
 
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
       return this.createProperty_uugm4e_a0a0(editorContext, node);
+    }
+
+    private static Color _StyleParameter_QueryFunction_uugm4e_a1a0a0(EditorContext editorContext, SNode node) {
+      return XmlColorConstants.XML_COLOR;
     }
 
     private EditorCell createProperty_uugm4e_a0a0(EditorContext editorContext, SNode node) {
@@ -64,10 +68,6 @@ public class ElementReference_Editor extends DefaultNodeEditor {
         return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
       } else
       return editorCell;
-    }
-
-    private static Color _StyleParameter_QueryFunction_uugm4e_a1a0a0(EditorContext editorContext, SNode node) {
-      return XmlColorConstants.XML_COLOR;
     }
   }
 

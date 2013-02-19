@@ -11,6 +11,8 @@ import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
+import jetbrains.mps.smodel.IScope;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Property;
 import jetbrains.mps.nodeEditor.cells.EditorCell_RefPresentation;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
@@ -20,8 +22,6 @@ import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
 import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
 import jetbrains.mps.xml.editor.XmlStyle_StyleSheet;
-import jetbrains.mps.smodel.IScope;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class XMLElementType_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
@@ -61,6 +61,10 @@ public class XMLElementType_Editor extends DefaultNodeEditor {
     }
   }
 
+  private static boolean renderingCondition_ohiupi_a3a(SNode node, EditorContext editorContext, IScope scope) {
+    return (SLinkOperations.getTarget(node, "schema", false) != null);
+  }
+
   public static class _Inline_ohiupi_a4a extends InlineCellProvider {
     public _Inline_ohiupi_a4a() {
       super();
@@ -79,6 +83,10 @@ public class XMLElementType_Editor extends DefaultNodeEditor {
       editorCell.setCellId("ReferencePresentation_ohiupi_a0e0");
       return editorCell;
     }
+  }
+
+  private static boolean renderingCondition_ohiupi_a4a(SNode node, EditorContext editorContext, IScope scope) {
+    return (SLinkOperations.getTarget(node, "schema", false) != null);
   }
 
   private EditorCell createCollection_ohiupi_a(EditorContext editorContext, SNode node) {
@@ -174,13 +182,5 @@ public class XMLElementType_Editor extends DefaultNodeEditor {
       return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
     } else
     return editorCell;
-  }
-
-  private static boolean renderingCondition_ohiupi_a3a(SNode node, EditorContext editorContext, IScope scope) {
-    return (SLinkOperations.getTarget(node, "schema", false) != null);
-  }
-
-  private static boolean renderingCondition_ohiupi_a4a(SNode node, EditorContext editorContext, IScope scope) {
-    return (SLinkOperations.getTarget(node, "schema", false) != null);
   }
 }

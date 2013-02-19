@@ -16,12 +16,12 @@ import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import jetbrains.mps.editor.runtime.style.Padding;
 import jetbrains.mps.editor.runtime.style.Measure;
+import jetbrains.mps.smodel.IScope;
+import jetbrains.mps.baseLanguage.dates.constraints.DateTimePropertFormatTokenUtil;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
 import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
-import jetbrains.mps.smodel.IScope;
-import jetbrains.mps.baseLanguage.dates.constraints.DateTimePropertFormatTokenUtil;
 
 public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
@@ -103,6 +103,10 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
       } else
       return editorCell;
     }
+  }
+
+  private static boolean renderingCondition_q7na0t_a2a(SNode node, EditorContext editorContext, IScope scope) {
+    return !(DateTimePropertFormatTokenUtil.isFormatTypeDefault(node));
   }
 
   public static class _Inline_q7na0t_a1a_0 extends InlineCellProvider {
@@ -367,9 +371,5 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
       return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
     } else
     return editorCell;
-  }
-
-  private static boolean renderingCondition_q7na0t_a2a(SNode node, EditorContext editorContext, IScope scope) {
-    return !(DateTimePropertFormatTokenUtil.isFormatTypeDefault(node));
   }
 }

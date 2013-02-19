@@ -6,6 +6,8 @@ import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
 import jetbrains.mps.openapi.editor.EditorContext;
 import org.jetbrains.mps.openapi.model.SNode;
+import jetbrains.mps.smodel.IScope;
+import jetbrains.mps.nodeEditor.BlockCells;
 import jetbrains.mps.nodeEditor.InlineCellProvider;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
@@ -20,8 +22,6 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.MPSFonts;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Indent;
 import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
-import jetbrains.mps.smodel.IScope;
-import jetbrains.mps.nodeEditor.BlockCells;
 
 public class JavaRunConfiguration_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
@@ -30,6 +30,14 @@ public class JavaRunConfiguration_Editor extends DefaultNodeEditor {
 
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
     return this.createCollection_gt2apr_a_0(editorContext, node);
+  }
+
+  private static boolean renderingCondition_gt2apr_a1a0(SNode node, EditorContext editorContext, IScope scope) {
+    return BlockCells.useBraces();
+  }
+
+  private static boolean renderingCondition_gt2apr_a2a(SNode node, EditorContext editorContext, IScope scope) {
+    return BlockCells.useBraces();
   }
 
   public static class _Inline_gt2apr_a0a extends InlineCellProvider {
@@ -196,13 +204,5 @@ public class JavaRunConfiguration_Editor extends DefaultNodeEditor {
       return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
     } else
     return editorCell;
-  }
-
-  private static boolean renderingCondition_gt2apr_a1a0(SNode node, EditorContext editorContext, IScope scope) {
-    return BlockCells.useBraces();
-  }
-
-  private static boolean renderingCondition_gt2apr_a2a(SNode node, EditorContext editorContext, IScope scope) {
-    return BlockCells.useBraces();
   }
 }

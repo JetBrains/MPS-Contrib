@@ -6,11 +6,16 @@ import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
 import jetbrains.mps.openapi.editor.EditorContext;
 import org.jetbrains.mps.openapi.model.SNode;
+import jetbrains.mps.smodel.IScope;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.nodeEditor.InlineCellProvider;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
+import jetbrains.mps.build.generictasks.behavior.TaskCall_Behavior;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
 import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
@@ -28,11 +33,6 @@ import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Vertical;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Indent;
 import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
-import jetbrains.mps.smodel.IScope;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.build.generictasks.behavior.TaskCall_Behavior;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 
 public class TaskCall_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
@@ -41,6 +41,10 @@ public class TaskCall_Editor extends DefaultNodeEditor {
 
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
     return this.createCollection_fr7f84_a_0(editorContext, node);
+  }
+
+  private static boolean renderingCondition_fr7f84_a0a(SNode node, EditorContext editorContext, IScope scope) {
+    return SPropertyOperations.getString(node, "shortDescription") != null;
   }
 
   public static class _Inline_fr7f84_a0b0 extends InlineCellProvider {
@@ -76,6 +80,10 @@ public class TaskCall_Editor extends DefaultNodeEditor {
     }
   }
 
+  private static boolean renderingCondition_fr7f84_a0b0(SNode node, EditorContext editorContext, IScope scope) {
+    return !(TaskCall_Behavior.call_isDeprecated_353793545802644052(node));
+  }
+
   public static class _Inline_fr7f84_a1b0 extends InlineCellProvider {
     public _Inline_fr7f84_a1b0() {
       super();
@@ -107,6 +115,18 @@ public class TaskCall_Editor extends DefaultNodeEditor {
       } else
       return editorCell;
     }
+  }
+
+  private static boolean renderingCondition_fr7f84_a1b0(SNode node, EditorContext editorContext, IScope scope) {
+    return TaskCall_Behavior.call_isDeprecated_353793545802644052(node);
+  }
+
+  private static boolean renderingCondition_fr7f84_a2a(SNode node, EditorContext editorContext, IScope scope) {
+    return SPropertyOperations.getBoolean(SLinkOperations.getTarget(node, "declaration", false), "canHaveInternalText");
+  }
+
+  private static boolean renderingCondition_fr7f84_a3a(SNode node, EditorContext editorContext, IScope scope) {
+    return BehaviorReflection.invokeVirtual(Boolean.TYPE, SLinkOperations.getTarget(node, "declaration", false), "virtual_hasNested_4241383766070759083", new Object[]{});
   }
 
   private static class atributesListHandler_fr7f84_e1a extends RefNodeListHandler {
@@ -500,25 +520,5 @@ public class TaskCall_Editor extends DefaultNodeEditor {
       return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
     } else
     return editorCell;
-  }
-
-  private static boolean renderingCondition_fr7f84_a0a(SNode node, EditorContext editorContext, IScope scope) {
-    return SPropertyOperations.getString(node, "shortDescription") != null;
-  }
-
-  private static boolean renderingCondition_fr7f84_a0b0(SNode node, EditorContext editorContext, IScope scope) {
-    return !(TaskCall_Behavior.call_isDeprecated_353793545802644052(node));
-  }
-
-  private static boolean renderingCondition_fr7f84_a1b0(SNode node, EditorContext editorContext, IScope scope) {
-    return TaskCall_Behavior.call_isDeprecated_353793545802644052(node);
-  }
-
-  private static boolean renderingCondition_fr7f84_a2a(SNode node, EditorContext editorContext, IScope scope) {
-    return SPropertyOperations.getBoolean(SLinkOperations.getTarget(node, "declaration", false), "canHaveInternalText");
-  }
-
-  private static boolean renderingCondition_fr7f84_a3a(SNode node, EditorContext editorContext, IScope scope) {
-    return BehaviorReflection.invokeVirtual(Boolean.TYPE, SLinkOperations.getTarget(node, "declaration", false), "virtual_hasNested_4241383766070759083", new Object[]{});
   }
 }

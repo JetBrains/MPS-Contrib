@@ -6,6 +6,8 @@ import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
 import jetbrains.mps.openapi.editor.EditorContext;
 import org.jetbrains.mps.openapi.model.SNode;
+import jetbrains.mps.smodel.IScope;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.nodeEditor.InlineCellProvider;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
@@ -20,8 +22,6 @@ import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
 import jetbrains.mps.nodeEditor.MPSColors;
 import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
 import jetbrains.mps.nodeEditor.MPSFonts;
-import jetbrains.mps.smodel.IScope;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class PeriodPropertyFormatToken_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
@@ -30,6 +30,18 @@ public class PeriodPropertyFormatToken_Editor extends DefaultNodeEditor {
 
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
     return this.createCollection_ed1xw0_a_0(editorContext, node);
+  }
+
+  private static boolean renderingCondition_ed1xw0_a1a(SNode node, EditorContext editorContext, IScope scope) {
+    return isNotEmpty_ed1xw0_a0a0c(SPropertyOperations.getString(node, "prefix"));
+  }
+
+  private static boolean renderingCondition_ed1xw0_a1b0(SNode node, EditorContext editorContext, IScope scope) {
+    return isNotEmpty_ed1xw0_a0a0d(SPropertyOperations.getString(node, "prefixPlural"));
+  }
+
+  private static boolean renderingCondition_ed1xw0_a2a(SNode node, EditorContext editorContext, IScope scope) {
+    return !(SPropertyOperations.hasValue(node, "zeroHandling", "never", "never"));
   }
 
   public static class _Inline_ed1xw0_a3a extends InlineCellProvider {
@@ -66,6 +78,18 @@ public class PeriodPropertyFormatToken_Editor extends DefaultNodeEditor {
       } else
       return editorCell;
     }
+  }
+
+  private static boolean renderingCondition_ed1xw0_a4a(SNode node, EditorContext editorContext, IScope scope) {
+    return SPropertyOperations.getInteger(node, "minDigits") > 1;
+  }
+
+  private static boolean renderingCondition_ed1xw0_a5a(SNode node, EditorContext editorContext, IScope scope) {
+    return isNotEmpty_ed1xw0_a0a0h(SPropertyOperations.getString(node, "suffix"));
+  }
+
+  private static boolean renderingCondition_ed1xw0_a1f0(SNode node, EditorContext editorContext, IScope scope) {
+    return isNotEmpty_ed1xw0_a0a0i(SPropertyOperations.getString(node, "suffixPlural"));
   }
 
   private EditorCell createCollection_ed1xw0_a(EditorContext editorContext, SNode node) {
@@ -573,43 +597,19 @@ public class PeriodPropertyFormatToken_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static boolean renderingCondition_ed1xw0_a1b0(SNode node, EditorContext editorContext, IScope scope) {
-    return isNotEmpty_ed1xw0_a0a0mb(SPropertyOperations.getString(node, "prefixPlural"));
-  }
-
-  private static boolean renderingCondition_ed1xw0_a1a(SNode node, EditorContext editorContext, IScope scope) {
-    return isNotEmpty_ed1xw0_a0a0nb(SPropertyOperations.getString(node, "prefix"));
-  }
-
-  private static boolean renderingCondition_ed1xw0_a2a(SNode node, EditorContext editorContext, IScope scope) {
-    return !(SPropertyOperations.hasValue(node, "zeroHandling", "never", "never"));
-  }
-
-  private static boolean renderingCondition_ed1xw0_a4a(SNode node, EditorContext editorContext, IScope scope) {
-    return SPropertyOperations.getInteger(node, "minDigits") > 1;
-  }
-
-  private static boolean renderingCondition_ed1xw0_a1f0(SNode node, EditorContext editorContext, IScope scope) {
-    return isNotEmpty_ed1xw0_a0a0qb(SPropertyOperations.getString(node, "suffixPlural"));
-  }
-
-  private static boolean renderingCondition_ed1xw0_a5a(SNode node, EditorContext editorContext, IScope scope) {
-    return isNotEmpty_ed1xw0_a0a0rb(SPropertyOperations.getString(node, "suffix"));
-  }
-
-  public static boolean isNotEmpty_ed1xw0_a0a0mb(String str) {
+  public static boolean isNotEmpty_ed1xw0_a0a0c(String str) {
     return str != null && str.length() > 0;
   }
 
-  public static boolean isNotEmpty_ed1xw0_a0a0nb(String str) {
+  public static boolean isNotEmpty_ed1xw0_a0a0d(String str) {
     return str != null && str.length() > 0;
   }
 
-  public static boolean isNotEmpty_ed1xw0_a0a0qb(String str) {
+  public static boolean isNotEmpty_ed1xw0_a0a0h(String str) {
     return str != null && str.length() > 0;
   }
 
-  public static boolean isNotEmpty_ed1xw0_a0a0rb(String str) {
+  public static boolean isNotEmpty_ed1xw0_a0a0i(String str) {
     return str != null && str.length() > 0;
   }
 }

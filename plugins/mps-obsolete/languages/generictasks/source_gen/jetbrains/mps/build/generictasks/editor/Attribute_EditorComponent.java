@@ -14,13 +14,13 @@ import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.buildlanguage.editor.BuildLanguageStyle_StyleSheet;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
+import jetbrains.mps.smodel.IScope;
+import jetbrains.mps.build.generictasks.behavior.AttributeDeclaration_Behavior;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
-import jetbrains.mps.smodel.IScope;
-import jetbrains.mps.build.generictasks.behavior.AttributeDeclaration_Behavior;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class Attribute_EditorComponent extends AbstractCellProvider {
   public Attribute_EditorComponent(SNode node) {
@@ -77,6 +77,10 @@ public class Attribute_EditorComponent extends AbstractCellProvider {
     }
   }
 
+  private static boolean renderingCondition_y32exi_a0a(SNode node, EditorContext editorContext, IScope scope) {
+    return !(AttributeDeclaration_Behavior.call_isDeprecated_353793545802643819(SLinkOperations.getTarget(node, "attributeDeclaration", false)));
+  }
+
   public static class _Inline_y32exi_a1a extends InlineCellProvider {
     public _Inline_y32exi_a1a() {
       super();
@@ -108,6 +112,10 @@ public class Attribute_EditorComponent extends AbstractCellProvider {
       } else
       return editorCell;
     }
+  }
+
+  private static boolean renderingCondition_y32exi_a1a(SNode node, EditorContext editorContext, IScope scope) {
+    return AttributeDeclaration_Behavior.call_isDeprecated_353793545802643819(SLinkOperations.getTarget(node, "attributeDeclaration", false));
   }
 
   private EditorCell createCollection_y32exi_a(EditorContext editorContext, SNode node) {
@@ -188,13 +196,5 @@ public class Attribute_EditorComponent extends AbstractCellProvider {
       return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
     } else
     return editorCell;
-  }
-
-  private static boolean renderingCondition_y32exi_a0a(SNode node, EditorContext editorContext, IScope scope) {
-    return !(AttributeDeclaration_Behavior.call_isDeprecated_353793545802643819(SLinkOperations.getTarget(node, "attributeDeclaration", false)));
-  }
-
-  private static boolean renderingCondition_y32exi_a1a(SNode node, EditorContext editorContext, IScope scope) {
-    return AttributeDeclaration_Behavior.call_isDeprecated_353793545802643819(SLinkOperations.getTarget(node, "attributeDeclaration", false));
   }
 }

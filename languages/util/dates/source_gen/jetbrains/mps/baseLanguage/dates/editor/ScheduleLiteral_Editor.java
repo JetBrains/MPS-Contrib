@@ -11,16 +11,16 @@ import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
+import jetbrains.mps.smodel.IScope;
+import jetbrains.mps.baseLanguage.dates.behavior.ScheduleLiteral_Behavior;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
-import jetbrains.mps.smodel.IScope;
-import jetbrains.mps.baseLanguage.dates.behavior.ScheduleLiteral_Behavior;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class ScheduleLiteral_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
@@ -60,6 +60,14 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     }
   }
 
+  private static boolean renderingCondition_53656_a1a(SNode node, EditorContext editorContext, IScope scope) {
+    return ScheduleLiteral_Behavior.call_hasDay_1213877270117(node);
+  }
+
+  private static boolean renderingCondition_53656_a1b0(SNode node, EditorContext editorContext, IScope scope) {
+    return SPropertyOperations.getBoolean(SLinkOperations.getTarget(node, "schedulePeriod", false), "month");
+  }
+
   public static class _Inline_53656_a0b1a extends InlineCellProvider {
     public _Inline_53656_a0b1a() {
       super();
@@ -91,6 +99,30 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
       } else
       return editorCell;
     }
+  }
+
+  private static boolean renderingCondition_53656_a2b0(SNode node, EditorContext editorContext, IScope scope) {
+    return SPropertyOperations.getBoolean(SLinkOperations.getTarget(node, "schedulePeriod", false), "dayOfMonth");
+  }
+
+  private static boolean renderingCondition_53656_a3b0(SNode node, EditorContext editorContext, IScope scope) {
+    return SPropertyOperations.getBoolean(SLinkOperations.getTarget(node, "schedulePeriod", false), "dayOfWeek");
+  }
+
+  private static boolean renderingCondition_53656_a2a(SNode node, EditorContext editorContext, IScope scope) {
+    return ScheduleLiteral_Behavior.call_hasTime_1213877270139(node);
+  }
+
+  private static boolean renderingCondition_53656_a1c0(SNode node, EditorContext editorContext, IScope scope) {
+    return SPropertyOperations.getBoolean(SLinkOperations.getTarget(node, "schedulePeriod", false), "second");
+  }
+
+  private static boolean renderingCondition_53656_a0b2a(SNode node, EditorContext editorContext, IScope scope) {
+    return SPropertyOperations.getBoolean(SLinkOperations.getTarget(node, "schedulePeriod", false), "minute");
+  }
+
+  private static boolean renderingCondition_53656_a0a1c0(SNode node, EditorContext editorContext, IScope scope) {
+    return SPropertyOperations.getBoolean(SLinkOperations.getTarget(node, "schedulePeriod", false), "hour");
   }
 
   private EditorCell createCollection_53656_a(EditorContext editorContext, SNode node) {
@@ -362,37 +394,5 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
       return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
     } else
     return editorCell;
-  }
-
-  private static boolean renderingCondition_53656_a1a(SNode node, EditorContext editorContext, IScope scope) {
-    return ScheduleLiteral_Behavior.call_hasDay_1213877270117(node);
-  }
-
-  private static boolean renderingCondition_53656_a1b0(SNode node, EditorContext editorContext, IScope scope) {
-    return SPropertyOperations.getBoolean(SLinkOperations.getTarget(node, "schedulePeriod", false), "month");
-  }
-
-  private static boolean renderingCondition_53656_a2b0(SNode node, EditorContext editorContext, IScope scope) {
-    return SPropertyOperations.getBoolean(SLinkOperations.getTarget(node, "schedulePeriod", false), "dayOfMonth");
-  }
-
-  private static boolean renderingCondition_53656_a3b0(SNode node, EditorContext editorContext, IScope scope) {
-    return SPropertyOperations.getBoolean(SLinkOperations.getTarget(node, "schedulePeriod", false), "dayOfWeek");
-  }
-
-  private static boolean renderingCondition_53656_a2a(SNode node, EditorContext editorContext, IScope scope) {
-    return ScheduleLiteral_Behavior.call_hasTime_1213877270139(node);
-  }
-
-  private static boolean renderingCondition_53656_a1c0(SNode node, EditorContext editorContext, IScope scope) {
-    return SPropertyOperations.getBoolean(SLinkOperations.getTarget(node, "schedulePeriod", false), "second");
-  }
-
-  private static boolean renderingCondition_53656_a0b2a(SNode node, EditorContext editorContext, IScope scope) {
-    return SPropertyOperations.getBoolean(SLinkOperations.getTarget(node, "schedulePeriod", false), "minute");
-  }
-
-  private static boolean renderingCondition_53656_a0a1c0(SNode node, EditorContext editorContext, IScope scope) {
-    return SPropertyOperations.getBoolean(SLinkOperations.getTarget(node, "schedulePeriod", false), "hour");
   }
 }

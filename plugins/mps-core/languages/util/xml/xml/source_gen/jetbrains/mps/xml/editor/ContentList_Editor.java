@@ -6,6 +6,9 @@ import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
 import jetbrains.mps.openapi.editor.EditorContext;
 import org.jetbrains.mps.openapi.model.SNode;
+import jetbrains.mps.smodel.IScope;
+import jetbrains.mps.xml.behavior.ContentList_Behavior;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
 import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
@@ -25,13 +28,22 @@ import jetbrains.mps.nodeEditor.MPSColors;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Vertical;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Indent;
-import jetbrains.mps.smodel.IScope;
-import jetbrains.mps.xml.behavior.ContentList_Behavior;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class ContentList_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createAlternation_bs144a_a(editorContext, node);
+  }
+
+  private static boolean renderingCondition_bs144a_a0(SNode node, EditorContext editorContext, IScope scope) {
+    return ContentList_Behavior.call_isHorizontal_1221256530294(node);
+  }
+
+  private static boolean renderingCondition_bs144a_a0a(SNode node, EditorContext editorContext, IScope scope) {
+    return SNodeOperations.isInstanceOf(SNodeOperations.getParent(node), "jetbrains.mps.xml.structure.BaseElement");
+  }
+
+  private static boolean renderingCondition_bs144a_a0a_0(SNode node, EditorContext editorContext, IScope scope) {
+    return SNodeOperations.isInstanceOf(SNodeOperations.getParent(node), "jetbrains.mps.xml.structure.ContentList");
   }
 
   private static class contentListHandler_bs144a_b1a0a extends RefNodeListHandler {
@@ -251,7 +263,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
 
   private EditorCell createAlternation_bs144a_a0(EditorContext editorContext, SNode node) {
     boolean alternationCondition = true;
-    alternationCondition = ContentList_Editor.renderingCondition_bs144a_a0a(node, editorContext, editorContext.getOperationContext().getScope());
+    alternationCondition = ContentList_Editor.renderingCondition_bs144a_a0a_0(node, editorContext, editorContext.getOperationContext().getScope());
     EditorCell editorCell = null;
     if (alternationCondition) {
       editorCell = this.createCollection_bs144a_a0a(editorContext, node);
@@ -263,7 +275,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
 
   private EditorCell createAlternation_bs144a_a0_0(EditorContext editorContext, SNode node) {
     boolean alternationCondition = true;
-    alternationCondition = ContentList_Editor.renderingCondition_bs144a_a0a_0(node, editorContext, editorContext.getOperationContext().getScope());
+    alternationCondition = ContentList_Editor.renderingCondition_bs144a_a0a(node, editorContext, editorContext.getOperationContext().getScope());
     EditorCell editorCell = null;
     if (alternationCondition) {
       editorCell = this.createRefNodeList_bs144a_a0a_0(editorContext, node);
@@ -389,17 +401,5 @@ public class ContentList_Editor extends DefaultNodeEditor {
   private EditorCell createIndentCell_bs144a_a1a0a(EditorContext editorContext, SNode node) {
     EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
     return result;
-  }
-
-  private static boolean renderingCondition_bs144a_a0(SNode node, EditorContext editorContext, IScope scope) {
-    return ContentList_Behavior.call_isHorizontal_1221256530294(node);
-  }
-
-  private static boolean renderingCondition_bs144a_a0a(SNode node, EditorContext editorContext, IScope scope) {
-    return SNodeOperations.isInstanceOf(SNodeOperations.getParent(node), "jetbrains.mps.xml.structure.ContentList");
-  }
-
-  private static boolean renderingCondition_bs144a_a0a_0(SNode node, EditorContext editorContext, IScope scope) {
-    return SNodeOperations.isInstanceOf(SNodeOperations.getParent(node), "jetbrains.mps.xml.structure.BaseElement");
   }
 }

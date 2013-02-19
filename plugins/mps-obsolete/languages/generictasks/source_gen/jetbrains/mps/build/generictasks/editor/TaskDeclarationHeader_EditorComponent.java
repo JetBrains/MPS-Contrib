@@ -6,6 +6,10 @@ import jetbrains.mps.nodeEditor.AbstractCellProvider;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
 import jetbrains.mps.openapi.editor.EditorContext;
+import jetbrains.mps.smodel.IScope;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
 import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
@@ -28,10 +32,6 @@ import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
-import jetbrains.mps.smodel.IScope;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
 
 public class TaskDeclarationHeader_EditorComponent extends AbstractCellProvider {
   public TaskDeclarationHeader_EditorComponent(SNode node) {
@@ -50,6 +50,26 @@ public class TaskDeclarationHeader_EditorComponent extends AbstractCellProvider 
   public EditorCell createEditorCell(jetbrains.mps.nodeEditor.EditorContext editorContext) {
     // This method was added in MPS 3.0 for the compatibility with prev. generated code 
     return createEditorCell((EditorContext) editorContext);
+  }
+
+  private static boolean renderingCondition_ws04gp_a0a0(SNode node, EditorContext editorContext, IScope scope) {
+    return SPropertyOperations.getBoolean(node, "abstract");
+  }
+
+  private static boolean renderingCondition_ws04gp_a3a0(SNode node, EditorContext editorContext, IScope scope) {
+    return (SLinkOperations.getTarget(node, "parentRef", true) != null);
+  }
+
+  private static boolean renderingCondition_ws04gp_a4a0(SNode node, EditorContext editorContext, IScope scope) {
+    return (SLinkOperations.getTarget(node, "parentRef", true) != null);
+  }
+
+  private static boolean renderingCondition_ws04gp_a5a0(SNode node, EditorContext editorContext, IScope scope) {
+    return ListSequence.fromList(SLinkOperations.getTargets(node, "interfaces", true)).count() > 0;
+  }
+
+  private static boolean renderingCondition_ws04gp_a2a(SNode node, EditorContext editorContext, IScope scope) {
+    return SPropertyOperations.getBoolean(node, "canHaveInternalText");
   }
 
   private static class interfacesListHandler_ws04gp_b5a0 extends RefNodeListHandler {
@@ -338,25 +358,5 @@ public class TaskDeclarationHeader_EditorComponent extends AbstractCellProvider 
       return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
     } else
     return editorCell;
-  }
-
-  private static boolean renderingCondition_ws04gp_a0a0(SNode node, EditorContext editorContext, IScope scope) {
-    return SPropertyOperations.getBoolean(node, "abstract");
-  }
-
-  private static boolean renderingCondition_ws04gp_a3a0(SNode node, EditorContext editorContext, IScope scope) {
-    return (SLinkOperations.getTarget(node, "parentRef", true) != null);
-  }
-
-  private static boolean renderingCondition_ws04gp_a4a0(SNode node, EditorContext editorContext, IScope scope) {
-    return (SLinkOperations.getTarget(node, "parentRef", true) != null);
-  }
-
-  private static boolean renderingCondition_ws04gp_a5a0(SNode node, EditorContext editorContext, IScope scope) {
-    return ListSequence.fromList(SLinkOperations.getTargets(node, "interfaces", true)).count() > 0;
-  }
-
-  private static boolean renderingCondition_ws04gp_a2a(SNode node, EditorContext editorContext, IScope scope) {
-    return SPropertyOperations.getBoolean(node, "canHaveInternalText");
   }
 }

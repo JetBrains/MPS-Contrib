@@ -6,6 +6,8 @@ import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
 import jetbrains.mps.openapi.editor.EditorContext;
 import org.jetbrains.mps.openapi.model.SNode;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.editor.runtime.style.StyleImpl;
@@ -20,8 +22,6 @@ import jetbrains.mps.editor.runtime.style.Measure;
 import jetbrains.mps.nodeEditor.MPSColors;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
-import jetbrains.mps.smodel.IScope;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class PeriodSeparatorFormatToken_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
@@ -30,6 +30,22 @@ public class PeriodSeparatorFormatToken_Editor extends DefaultNodeEditor {
 
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
     return this.createCollection_ih8plz_a_0(editorContext, node);
+  }
+
+  private static boolean _StyleParameter_QueryFunction_ih8plz_a0a0(EditorContext editorContext, SNode node) {
+    return !(SPropertyOperations.hasValue(node, "kind", "ifAfter", "default"));
+  }
+
+  private static boolean renderingCondition_ih8plz_a2a(SNode node, EditorContext editorContext, IScope scope) {
+    return isNotEmpty_ih8plz_a0a0a3(SPropertyOperations.getString(node, "lastText")) && SPropertyOperations.hasValue(node, "kind", "default", "default");
+  }
+
+  private static boolean _StyleParameter_QueryFunction_ih8plz_a0d0(EditorContext editorContext, SNode node) {
+    return !(SPropertyOperations.hasValue(node, "kind", "ifBefore", "default"));
+  }
+
+  private static boolean renderingCondition_ih8plz_a1a(SNode node, EditorContext editorContext, IScope scope) {
+    return SPropertyOperations.hasValue(node, "kind", "default", "default");
   }
 
   private EditorCell createCollection_ih8plz_a(EditorContext editorContext, SNode node) {
@@ -276,23 +292,7 @@ public class PeriodSeparatorFormatToken_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static boolean renderingCondition_ih8plz_a2a(SNode node, EditorContext editorContext, IScope scope) {
-    return isNotEmpty_ih8plz_a0a0a91(SPropertyOperations.getString(node, "lastText")) && SPropertyOperations.hasValue(node, "kind", "default", "default");
-  }
-
-  private static boolean renderingCondition_ih8plz_a1a(SNode node, EditorContext editorContext, IScope scope) {
-    return SPropertyOperations.hasValue(node, "kind", "default", "default");
-  }
-
-  private static boolean _StyleParameter_QueryFunction_ih8plz_a0a0(EditorContext editorContext, SNode node) {
-    return !(SPropertyOperations.hasValue(node, "kind", "ifAfter", "default"));
-  }
-
-  private static boolean _StyleParameter_QueryFunction_ih8plz_a0d0(EditorContext editorContext, SNode node) {
-    return !(SPropertyOperations.hasValue(node, "kind", "ifBefore", "default"));
-  }
-
-  public static boolean isNotEmpty_ih8plz_a0a0a91(String str) {
+  public static boolean isNotEmpty_ih8plz_a0a0a3(String str) {
     return str != null && str.length() > 0;
   }
 }

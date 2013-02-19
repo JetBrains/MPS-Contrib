@@ -6,6 +6,15 @@ import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
 import jetbrains.mps.openapi.editor.EditorContext;
 import org.jetbrains.mps.openapi.model.SNode;
+import jetbrains.mps.smodel.IScope;
+import jetbrains.mps.nodeEditor.BlockCells;
+import jetbrains.mps.project.IModule;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.util.MacrosFactory;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.vfs.FileSystem;
+import javax.swing.JComponent;
+import jetbrains.mps.ide.editor.util.EditorUtil;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.editor.runtime.style.StyleImpl;
@@ -15,7 +24,6 @@ import jetbrains.mps.nodeEditor.MPSFonts;
 import jetbrains.mps.nodeEditor.MPSColors;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Image;
 import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Indent;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Component;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
@@ -23,18 +31,31 @@ import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
-import jetbrains.mps.smodel.IScope;
-import jetbrains.mps.nodeEditor.BlockCells;
-import jetbrains.mps.project.IModule;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.util.MacrosFactory;
-import jetbrains.mps.vfs.FileSystem;
-import javax.swing.JComponent;
-import jetbrains.mps.ide.editor.util.EditorUtil;
 
 public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_wgm1kr_a(editorContext, node);
+  }
+
+  private static boolean renderingCondition_wgm1kr_a1a0(SNode node, EditorContext editorContext, IScope scope) {
+    return BlockCells.useBraces();
+  }
+
+  private static boolean renderingCondition_wgm1kr_a1c1b0(SNode node, EditorContext editorContext, IScope scope) {
+    String path = null;
+    IModule module = SNodeOperations.getModel(node).getModelDescriptor().getModule();
+    if (module != null) {
+      path = MacrosFactory.forModuleFile(module.getDescriptorFile()).expandPath(SPropertyOperations.getString(node, "iconPath"));
+    }
+    return path != null && FileSystem.getInstance().getFileByPath(path).exists();
+  }
+
+  private static JComponent _QueryFunction_JComponent_wgm1kr_a2c1b0(final SNode node, final EditorContext editorContext) {
+    return EditorUtil.createSelectIconButton(node, "iconPath", editorContext);
+  }
+
+  private static boolean renderingCondition_wgm1kr_a2a(SNode node, EditorContext editorContext, IScope scope) {
+    return BlockCells.useBraces();
   }
 
   private EditorCell createAlternation_wgm1kr_b2b1a(EditorContext editorContext, SNode node) {
@@ -315,26 +336,5 @@ public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
       return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
     } else
     return editorCell;
-  }
-
-  private static boolean renderingCondition_wgm1kr_a1a0(SNode node, EditorContext editorContext, IScope scope) {
-    return BlockCells.useBraces();
-  }
-
-  private static boolean renderingCondition_wgm1kr_a1c1b0(SNode node, EditorContext editorContext, IScope scope) {
-    String path = null;
-    IModule module = SNodeOperations.getModel(node).getModelDescriptor().getModule();
-    if (module != null) {
-      path = MacrosFactory.forModuleFile(module.getDescriptorFile()).expandPath(SPropertyOperations.getString(node, "iconPath"));
-    }
-    return path != null && FileSystem.getInstance().getFileByPath(path).exists();
-  }
-
-  private static boolean renderingCondition_wgm1kr_a2a(SNode node, EditorContext editorContext, IScope scope) {
-    return BlockCells.useBraces();
-  }
-
-  private static JComponent _QueryFunction_JComponent_wgm1kr_a2c1b0(final SNode node, final EditorContext editorContext) {
-    return EditorUtil.createSelectIconButton(node, "iconPath", editorContext);
   }
 }

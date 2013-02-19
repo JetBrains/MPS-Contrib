@@ -6,6 +6,9 @@ import jetbrains.mps.nodeEditor.AbstractCellProvider;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
 import jetbrains.mps.openapi.editor.EditorContext;
+import jetbrains.mps.smodel.IScope;
+import jetbrains.mps.build.generictasks.behavior.AttributeDeclaration_Behavior;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.editor.runtime.style.StyleImpl;
@@ -17,9 +20,6 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.buildlanguage.editor.BuildLanguageStyle_StyleSheet;
-import jetbrains.mps.smodel.IScope;
-import jetbrains.mps.build.generictasks.behavior.AttributeDeclaration_Behavior;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class GenericAttributeDeclaration_EditorComponent extends AbstractCellProvider {
   public GenericAttributeDeclaration_EditorComponent(SNode node) {
@@ -38,6 +38,14 @@ public class GenericAttributeDeclaration_EditorComponent extends AbstractCellPro
   public EditorCell createEditorCell(jetbrains.mps.nodeEditor.EditorContext editorContext) {
     // This method was added in MPS 3.0 for the compatibility with prev. generated code 
     return createEditorCell((EditorContext) editorContext);
+  }
+
+  private static boolean renderingCondition_es1meb_a1a(SNode node, EditorContext editorContext, IScope scope) {
+    return (!(AttributeDeclaration_Behavior.call_isRequired_353793545802643811(node)) && (SLinkOperations.getTarget(node, "default", true) != null)) || editorContext.isInspector();
+  }
+
+  private static boolean renderingCondition_es1meb_a2a(SNode node, EditorContext editorContext, IScope scope) {
+    return AttributeDeclaration_Behavior.call_isDeprecated_353793545802643819(node) || editorContext.isInspector();
   }
 
   private EditorCell createCollection_es1meb_a(EditorContext editorContext, SNode node) {
@@ -188,13 +196,5 @@ public class GenericAttributeDeclaration_EditorComponent extends AbstractCellPro
       return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
     } else
     return editorCell;
-  }
-
-  private static boolean renderingCondition_es1meb_a1a(SNode node, EditorContext editorContext, IScope scope) {
-    return (!(AttributeDeclaration_Behavior.call_isRequired_353793545802643811(node)) && (SLinkOperations.getTarget(node, "default", true) != null)) || editorContext.isInspector();
-  }
-
-  private static boolean renderingCondition_es1meb_a2a(SNode node, EditorContext editorContext, IScope scope) {
-    return AttributeDeclaration_Behavior.call_isDeprecated_353793545802643819(node) || editorContext.isInspector();
   }
 }

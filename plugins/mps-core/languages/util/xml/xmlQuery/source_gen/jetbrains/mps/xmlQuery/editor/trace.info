@@ -403,124 +403,124 @@
     <nodeInfo nodeId="634907465121486841" fileName="XMLElementType_Editor.java" startLine="56" startPosition="74" endLine="57" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="634907465121486841" fileName="XMLElementType_Editor.java" startLine="57" startPosition="80" endLine="58" endPosition="107" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="634907465121486841" fileName="XMLElementType_Editor.java" startLine="59" startPosition="12" endLine="60" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4815471077468675537" fileName="XMLElementType_Editor.java" startLine="65" startPosition="33" endLine="66" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
-    <nodeInfo nodeId="4815471077468675537" fileName="XMLElementType_Editor.java" startLine="69" startPosition="69" endLine="70" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4815471077468675537" fileName="XMLElementType_Editor.java" startLine="73" startPosition="81" endLine="74" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4815471077468675538" fileName="XMLElementType_Editor.java" startLine="77" startPosition="105" endLine="78" endPosition="140" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4815471077468675538" fileName="XMLElementType_Editor.java" startLine="78" startPosition="140" endLine="79" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4815471077468675538" fileName="XMLElementType_Editor.java" startLine="79" startPosition="64" endLine="80" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="84" startPosition="89" endLine="85" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="85" startPosition="96" endLine="86" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="86" startPosition="48" endLine="87" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="86" startPosition="48" endLine="87" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="87" startPosition="81" endLine="88" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="87" startPosition="81" endLine="88" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="88" startPosition="81" endLine="89" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="88" startPosition="81" endLine="89" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="90" startPosition="109" endLine="91" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="93" startPosition="109" endLine="94" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="95" startPosition="5" endLine="96" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="95" startPosition="5" endLine="96" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="96" startPosition="81" endLine="97" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4815471077468675534" fileName="XMLElementType_Editor.java" startLine="100" startPosition="88" endLine="101" endPosition="89" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4815471077468675534" fileName="XMLElementType_Editor.java" startLine="101" startPosition="89" endLine="102" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4815471077468675534" fileName="XMLElementType_Editor.java" startLine="102" startPosition="47" endLine="103" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4815471077468675534" fileName="XMLElementType_Editor.java" startLine="103" startPosition="34" endLine="104" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4815471077468675534" fileName="XMLElementType_Editor.java" startLine="104" startPosition="65" endLine="105" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4815471077468675534" fileName="XMLElementType_Editor.java" startLine="105" startPosition="40" endLine="106" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4815471077468675534" fileName="XMLElementType_Editor.java" startLine="106" startPosition="34" endLine="107" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4815471077468675535" fileName="XMLElementType_Editor.java" startLine="110" startPosition="88" endLine="111" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4815471077468675535" fileName="XMLElementType_Editor.java" startLine="111" startPosition="87" endLine="112" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4815471077468675535" fileName="XMLElementType_Editor.java" startLine="112" startPosition="47" endLine="113" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4815471077468675535" fileName="XMLElementType_Editor.java" startLine="113" startPosition="34" endLine="114" endPosition="76" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4815471077468675535" fileName="XMLElementType_Editor.java" startLine="114" startPosition="76" endLine="115" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4815471077468675535" fileName="XMLElementType_Editor.java" startLine="115" startPosition="40" endLine="116" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4815471077468675535" fileName="XMLElementType_Editor.java" startLine="116" startPosition="34" endLine="117" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="634907465121486843" fileName="XMLElementType_Editor.java" startLine="120" startPosition="88" endLine="121" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="634907465121486843" fileName="XMLElementType_Editor.java" startLine="121" startPosition="87" endLine="122" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="634907465121486843" fileName="XMLElementType_Editor.java" startLine="122" startPosition="47" endLine="123" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="634907465121486843" fileName="XMLElementType_Editor.java" startLine="123" startPosition="34" endLine="124" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="634907465121486843" fileName="XMLElementType_Editor.java" startLine="124" startPosition="61" endLine="125" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="634907465121486843" fileName="XMLElementType_Editor.java" startLine="125" startPosition="40" endLine="126" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="634907465121486843" fileName="XMLElementType_Editor.java" startLine="126" startPosition="34" endLine="127" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4815471077468675543" fileName="XMLElementType_Editor.java" startLine="130" startPosition="88" endLine="131" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4815471077468675543" fileName="XMLElementType_Editor.java" startLine="131" startPosition="87" endLine="132" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4815471077468675543" fileName="XMLElementType_Editor.java" startLine="132" startPosition="47" endLine="133" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4815471077468675543" fileName="XMLElementType_Editor.java" startLine="133" startPosition="34" endLine="134" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4815471077468675543" fileName="XMLElementType_Editor.java" startLine="134" startPosition="68" endLine="135" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4815471077468675543" fileName="XMLElementType_Editor.java" startLine="135" startPosition="40" endLine="136" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4815471077468675543" fileName="XMLElementType_Editor.java" startLine="136" startPosition="34" endLine="137" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="634907465121486839" fileName="XMLElementType_Editor.java" startLine="140" startPosition="87" endLine="141" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="634907465121486839" fileName="XMLElementType_Editor.java" startLine="141" startPosition="81" endLine="142" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="634907465121486839" fileName="XMLElementType_Editor.java" startLine="142" startPosition="31" endLine="143" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="634907465121486839" fileName="XMLElementType_Editor.java" startLine="143" startPosition="33" endLine="144" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="634907465121486839" fileName="XMLElementType_Editor.java" startLine="144" startPosition="26" endLine="145" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="634907465121486839" fileName="XMLElementType_Editor.java" startLine="145" startPosition="86" endLine="146" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="634907465121486839" fileName="XMLElementType_Editor.java" startLine="146" startPosition="58" endLine="147" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="634907465121486839" fileName="XMLElementType_Editor.java" startLine="147" startPosition="73" endLine="148" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="634907465121486839" fileName="XMLElementType_Editor.java" startLine="148" startPosition="57" endLine="149" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="634907465121486839" fileName="XMLElementType_Editor.java" startLine="150" startPosition="35" endLine="151" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="634907465121486839" fileName="XMLElementType_Editor.java" startLine="151" startPosition="72" endLine="152" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="634907465121486839" fileName="XMLElementType_Editor.java" startLine="152" startPosition="78" endLine="153" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="634907465121486839" fileName="XMLElementType_Editor.java" startLine="154" startPosition="10" endLine="155" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4815471077468675536" fileName="XMLElementType_Editor.java" startLine="158" startPosition="87" endLine="159" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4815471077468675536" fileName="XMLElementType_Editor.java" startLine="159" startPosition="81" endLine="160" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4815471077468675536" fileName="XMLElementType_Editor.java" startLine="160" startPosition="36" endLine="161" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4815471077468675536" fileName="XMLElementType_Editor.java" startLine="161" startPosition="36" endLine="162" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4815471077468675536" fileName="XMLElementType_Editor.java" startLine="162" startPosition="26" endLine="163" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4815471077468675536" fileName="XMLElementType_Editor.java" startLine="163" startPosition="86" endLine="164" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4815471077468675536" fileName="XMLElementType_Editor.java" startLine="164" startPosition="58" endLine="165" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4815471077468675536" fileName="XMLElementType_Editor.java" startLine="165" startPosition="34" endLine="166" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4815471077468675536" fileName="XMLElementType_Editor.java" startLine="166" startPosition="59" endLine="167" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4815471077468675536" fileName="XMLElementType_Editor.java" startLine="167" startPosition="40" endLine="168" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4815471077468675536" fileName="XMLElementType_Editor.java" startLine="168" startPosition="73" endLine="169" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4815471077468675536" fileName="XMLElementType_Editor.java" startLine="169" startPosition="57" endLine="170" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4815471077468675536" fileName="XMLElementType_Editor.java" startLine="171" startPosition="35" endLine="172" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4815471077468675536" fileName="XMLElementType_Editor.java" startLine="172" startPosition="72" endLine="173" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4815471077468675536" fileName="XMLElementType_Editor.java" startLine="173" startPosition="78" endLine="174" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4815471077468675536" fileName="XMLElementType_Editor.java" startLine="175" startPosition="10" endLine="176" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="634907465121528354" fileName="XMLElementType_Editor.java" startLine="179" startPosition="111" endLine="180" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="634907465121550963" fileName="XMLElementType_Editor.java" startLine="183" startPosition="111" endLine="184" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="634907465121528354" fileName="XMLElementType_Editor.java" startLine="64" startPosition="111" endLine="65" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4815471077468675537" fileName="XMLElementType_Editor.java" startLine="69" startPosition="33" endLine="70" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="4815471077468675537" fileName="XMLElementType_Editor.java" startLine="73" startPosition="69" endLine="74" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4815471077468675537" fileName="XMLElementType_Editor.java" startLine="77" startPosition="81" endLine="78" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4815471077468675538" fileName="XMLElementType_Editor.java" startLine="81" startPosition="105" endLine="82" endPosition="140" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4815471077468675538" fileName="XMLElementType_Editor.java" startLine="82" startPosition="140" endLine="83" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4815471077468675538" fileName="XMLElementType_Editor.java" startLine="83" startPosition="64" endLine="84" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="634907465121550963" fileName="XMLElementType_Editor.java" startLine="88" startPosition="111" endLine="89" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="92" startPosition="89" endLine="93" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="93" startPosition="96" endLine="94" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="94" startPosition="48" endLine="95" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="94" startPosition="48" endLine="95" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="95" startPosition="81" endLine="96" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="95" startPosition="81" endLine="96" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="96" startPosition="81" endLine="97" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="96" startPosition="81" endLine="97" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="98" startPosition="109" endLine="99" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="101" startPosition="109" endLine="102" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="103" startPosition="5" endLine="104" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="103" startPosition="5" endLine="104" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="104" startPosition="81" endLine="105" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4815471077468675534" fileName="XMLElementType_Editor.java" startLine="108" startPosition="88" endLine="109" endPosition="89" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4815471077468675534" fileName="XMLElementType_Editor.java" startLine="109" startPosition="89" endLine="110" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4815471077468675534" fileName="XMLElementType_Editor.java" startLine="110" startPosition="47" endLine="111" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4815471077468675534" fileName="XMLElementType_Editor.java" startLine="111" startPosition="34" endLine="112" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4815471077468675534" fileName="XMLElementType_Editor.java" startLine="112" startPosition="65" endLine="113" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4815471077468675534" fileName="XMLElementType_Editor.java" startLine="113" startPosition="40" endLine="114" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4815471077468675534" fileName="XMLElementType_Editor.java" startLine="114" startPosition="34" endLine="115" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4815471077468675535" fileName="XMLElementType_Editor.java" startLine="118" startPosition="88" endLine="119" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4815471077468675535" fileName="XMLElementType_Editor.java" startLine="119" startPosition="87" endLine="120" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4815471077468675535" fileName="XMLElementType_Editor.java" startLine="120" startPosition="47" endLine="121" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4815471077468675535" fileName="XMLElementType_Editor.java" startLine="121" startPosition="34" endLine="122" endPosition="76" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4815471077468675535" fileName="XMLElementType_Editor.java" startLine="122" startPosition="76" endLine="123" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4815471077468675535" fileName="XMLElementType_Editor.java" startLine="123" startPosition="40" endLine="124" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4815471077468675535" fileName="XMLElementType_Editor.java" startLine="124" startPosition="34" endLine="125" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="634907465121486843" fileName="XMLElementType_Editor.java" startLine="128" startPosition="88" endLine="129" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="634907465121486843" fileName="XMLElementType_Editor.java" startLine="129" startPosition="87" endLine="130" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="634907465121486843" fileName="XMLElementType_Editor.java" startLine="130" startPosition="47" endLine="131" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="634907465121486843" fileName="XMLElementType_Editor.java" startLine="131" startPosition="34" endLine="132" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="634907465121486843" fileName="XMLElementType_Editor.java" startLine="132" startPosition="61" endLine="133" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="634907465121486843" fileName="XMLElementType_Editor.java" startLine="133" startPosition="40" endLine="134" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="634907465121486843" fileName="XMLElementType_Editor.java" startLine="134" startPosition="34" endLine="135" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4815471077468675543" fileName="XMLElementType_Editor.java" startLine="138" startPosition="88" endLine="139" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4815471077468675543" fileName="XMLElementType_Editor.java" startLine="139" startPosition="87" endLine="140" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4815471077468675543" fileName="XMLElementType_Editor.java" startLine="140" startPosition="47" endLine="141" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4815471077468675543" fileName="XMLElementType_Editor.java" startLine="141" startPosition="34" endLine="142" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4815471077468675543" fileName="XMLElementType_Editor.java" startLine="142" startPosition="68" endLine="143" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4815471077468675543" fileName="XMLElementType_Editor.java" startLine="143" startPosition="40" endLine="144" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4815471077468675543" fileName="XMLElementType_Editor.java" startLine="144" startPosition="34" endLine="145" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="634907465121486839" fileName="XMLElementType_Editor.java" startLine="148" startPosition="87" endLine="149" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="634907465121486839" fileName="XMLElementType_Editor.java" startLine="149" startPosition="81" endLine="150" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="634907465121486839" fileName="XMLElementType_Editor.java" startLine="150" startPosition="31" endLine="151" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="634907465121486839" fileName="XMLElementType_Editor.java" startLine="151" startPosition="33" endLine="152" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="634907465121486839" fileName="XMLElementType_Editor.java" startLine="152" startPosition="26" endLine="153" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="634907465121486839" fileName="XMLElementType_Editor.java" startLine="153" startPosition="86" endLine="154" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="634907465121486839" fileName="XMLElementType_Editor.java" startLine="154" startPosition="58" endLine="155" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="634907465121486839" fileName="XMLElementType_Editor.java" startLine="155" startPosition="73" endLine="156" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="634907465121486839" fileName="XMLElementType_Editor.java" startLine="156" startPosition="57" endLine="157" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="634907465121486839" fileName="XMLElementType_Editor.java" startLine="158" startPosition="35" endLine="159" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="634907465121486839" fileName="XMLElementType_Editor.java" startLine="159" startPosition="72" endLine="160" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="634907465121486839" fileName="XMLElementType_Editor.java" startLine="160" startPosition="78" endLine="161" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="634907465121486839" fileName="XMLElementType_Editor.java" startLine="162" startPosition="10" endLine="163" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4815471077468675536" fileName="XMLElementType_Editor.java" startLine="166" startPosition="87" endLine="167" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4815471077468675536" fileName="XMLElementType_Editor.java" startLine="167" startPosition="81" endLine="168" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4815471077468675536" fileName="XMLElementType_Editor.java" startLine="168" startPosition="36" endLine="169" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4815471077468675536" fileName="XMLElementType_Editor.java" startLine="169" startPosition="36" endLine="170" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4815471077468675536" fileName="XMLElementType_Editor.java" startLine="170" startPosition="26" endLine="171" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4815471077468675536" fileName="XMLElementType_Editor.java" startLine="171" startPosition="86" endLine="172" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4815471077468675536" fileName="XMLElementType_Editor.java" startLine="172" startPosition="58" endLine="173" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4815471077468675536" fileName="XMLElementType_Editor.java" startLine="173" startPosition="34" endLine="174" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4815471077468675536" fileName="XMLElementType_Editor.java" startLine="174" startPosition="59" endLine="175" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4815471077468675536" fileName="XMLElementType_Editor.java" startLine="175" startPosition="40" endLine="176" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4815471077468675536" fileName="XMLElementType_Editor.java" startLine="176" startPosition="73" endLine="177" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4815471077468675536" fileName="XMLElementType_Editor.java" startLine="177" startPosition="57" endLine="178" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4815471077468675536" fileName="XMLElementType_Editor.java" startLine="179" startPosition="35" endLine="180" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4815471077468675536" fileName="XMLElementType_Editor.java" startLine="180" startPosition="72" endLine="181" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4815471077468675536" fileName="XMLElementType_Editor.java" startLine="181" startPosition="78" endLine="182" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4815471077468675536" fileName="XMLElementType_Editor.java" startLine="183" startPosition="10" endLine="184" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4815471077468675531" fileName="XMLElementType_Editor.java" startLine="27" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
     <nodeInfo nodeId="634907465121486840" fileName="XMLElementType_Editor.java" startLine="32" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="_Inline_ohiupi_a2a#()V" />
     <nodeInfo nodeId="634907465121486840" fileName="XMLElementType_Editor.java" startLine="36" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
     <nodeInfo nodeId="634907465121486840" fileName="XMLElementType_Editor.java" startLine="40" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
-    <nodeInfo nodeId="4815471077468675537" fileName="XMLElementType_Editor.java" startLine="65" startPosition="0" endLine="68" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="_Inline_ohiupi_a4a#()V" />
-    <nodeInfo nodeId="4815471077468675537" fileName="XMLElementType_Editor.java" startLine="69" startPosition="0" endLine="72" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
-    <nodeInfo nodeId="4815471077468675537" fileName="XMLElementType_Editor.java" startLine="73" startPosition="0" endLine="76" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
-    <nodeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="89" startPosition="80" endLine="92" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="89" startPosition="80" endLine="92" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="92" startPosition="5" endLine="95" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="92" startPosition="5" endLine="95" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="634907465121528352" fileName="XMLElementType_Editor.java" startLine="179" startPosition="0" endLine="182" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="renderingCondition_ohiupi_a3a#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;Ljetbrains/mps/smodel/IScope;)Z" />
-    <nodeInfo nodeId="634907465121550961" fileName="XMLElementType_Editor.java" startLine="183" startPosition="0" endLine="186" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="renderingCondition_ohiupi_a4a#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;Ljetbrains/mps/smodel/IScope;)Z" />
-    <nodeInfo nodeId="4815471077468675538" fileName="XMLElementType_Editor.java" startLine="77" startPosition="0" endLine="82" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createReferencePresentation_ohiupi_a0e0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="634907465121528352" fileName="XMLElementType_Editor.java" startLine="64" startPosition="0" endLine="67" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="renderingCondition_ohiupi_a3a#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;Ljetbrains/mps/smodel/IScope;)Z" />
+    <nodeInfo nodeId="4815471077468675537" fileName="XMLElementType_Editor.java" startLine="69" startPosition="0" endLine="72" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="_Inline_ohiupi_a4a#()V" />
+    <nodeInfo nodeId="4815471077468675537" fileName="XMLElementType_Editor.java" startLine="73" startPosition="0" endLine="76" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="4815471077468675537" fileName="XMLElementType_Editor.java" startLine="77" startPosition="0" endLine="80" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="634907465121550961" fileName="XMLElementType_Editor.java" startLine="88" startPosition="0" endLine="91" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="renderingCondition_ohiupi_a4a#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;Ljetbrains/mps/smodel/IScope;)Z" />
+    <nodeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="97" startPosition="80" endLine="100" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="97" startPosition="80" endLine="100" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="100" startPosition="5" endLine="103" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="100" startPosition="5" endLine="103" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4815471077468675538" fileName="XMLElementType_Editor.java" startLine="81" startPosition="0" endLine="86" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createReferencePresentation_ohiupi_a0e0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
     <nodeInfo nodeId="634907465121486841" fileName="XMLElementType_Editor.java" startLine="54" startPosition="61" endLine="60" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="634907465121486839" fileName="XMLElementType_Editor.java" startLine="149" startPosition="59" endLine="155" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="4815471077468675536" fileName="XMLElementType_Editor.java" startLine="170" startPosition="59" endLine="176" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="4815471077468675534" fileName="XMLElementType_Editor.java" startLine="100" startPosition="0" endLine="109" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_ohiupi_a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
-    <nodeInfo nodeId="4815471077468675535" fileName="XMLElementType_Editor.java" startLine="110" startPosition="0" endLine="119" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_ohiupi_b0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
-    <nodeInfo nodeId="634907465121486843" fileName="XMLElementType_Editor.java" startLine="120" startPosition="0" endLine="129" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_ohiupi_d0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
-    <nodeInfo nodeId="4815471077468675543" fileName="XMLElementType_Editor.java" startLine="130" startPosition="0" endLine="139" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_ohiupi_f0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
-    <nodeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="84" startPosition="0" endLine="99" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_ohiupi_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
-    <nodeInfo nodeId="634907465121486839" fileName="XMLElementType_Editor.java" startLine="140" startPosition="0" endLine="157" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createRefCell_ohiupi_c0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="634907465121486839" fileName="XMLElementType_Editor.java" startLine="157" startPosition="59" endLine="163" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4815471077468675536" fileName="XMLElementType_Editor.java" startLine="178" startPosition="59" endLine="184" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4815471077468675534" fileName="XMLElementType_Editor.java" startLine="108" startPosition="0" endLine="117" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_ohiupi_a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="4815471077468675535" fileName="XMLElementType_Editor.java" startLine="118" startPosition="0" endLine="127" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_ohiupi_b0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="634907465121486843" fileName="XMLElementType_Editor.java" startLine="128" startPosition="0" endLine="137" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_ohiupi_d0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="4815471077468675543" fileName="XMLElementType_Editor.java" startLine="138" startPosition="0" endLine="147" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_ohiupi_f0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="92" startPosition="0" endLine="107" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_ohiupi_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="634907465121486839" fileName="XMLElementType_Editor.java" startLine="148" startPosition="0" endLine="165" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createRefCell_ohiupi_c0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
     <nodeInfo nodeId="634907465121486841" fileName="XMLElementType_Editor.java" startLine="44" startPosition="0" endLine="62" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createProperty_ohiupi_a0c0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
-    <nodeInfo nodeId="4815471077468675536" fileName="XMLElementType_Editor.java" startLine="158" startPosition="0" endLine="178" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createRefCell_ohiupi_e0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="4815471077468675536" fileName="XMLElementType_Editor.java" startLine="166" startPosition="0" endLine="186" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createRefCell_ohiupi_e0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
     <scopeInfo nodeId="4815471077468675531" fileName="XMLElementType_Editor.java" startLine="27" startPosition="79" endLine="28" endPosition="63" />
     <scopeInfo nodeId="634907465121486840" fileName="XMLElementType_Editor.java" startLine="32" startPosition="33" endLine="33" endPosition="14" />
     <scopeInfo nodeId="634907465121486840" fileName="XMLElementType_Editor.java" startLine="36" startPosition="69" endLine="37" endPosition="67" />
     <scopeInfo nodeId="634907465121486840" fileName="XMLElementType_Editor.java" startLine="40" startPosition="81" endLine="41" endPosition="66" />
-    <scopeInfo nodeId="4815471077468675537" fileName="XMLElementType_Editor.java" startLine="65" startPosition="33" endLine="66" endPosition="14" />
-    <scopeInfo nodeId="4815471077468675537" fileName="XMLElementType_Editor.java" startLine="69" startPosition="69" endLine="70" endPosition="67" />
-    <scopeInfo nodeId="4815471077468675537" fileName="XMLElementType_Editor.java" startLine="73" startPosition="81" endLine="74" endPosition="79" />
-    <scopeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="86" startPosition="48" endLine="87" endPosition="81" />
-    <scopeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="87" startPosition="81" endLine="88" endPosition="81" />
-    <scopeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="88" startPosition="81" endLine="89" endPosition="80" />
-    <scopeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="90" startPosition="109" endLine="91" endPosition="83" />
-    <scopeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="93" startPosition="109" endLine="94" endPosition="82" />
-    <scopeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="95" startPosition="5" endLine="96" endPosition="81" />
-    <scopeInfo nodeId="634907465121528353" fileName="XMLElementType_Editor.java" startLine="179" startPosition="111" endLine="180" endPosition="70" />
-    <scopeInfo nodeId="634907465121550962" fileName="XMLElementType_Editor.java" startLine="183" startPosition="111" endLine="184" endPosition="70" />
+    <scopeInfo nodeId="634907465121528353" fileName="XMLElementType_Editor.java" startLine="64" startPosition="111" endLine="65" endPosition="70" />
+    <scopeInfo nodeId="4815471077468675537" fileName="XMLElementType_Editor.java" startLine="69" startPosition="33" endLine="70" endPosition="14" />
+    <scopeInfo nodeId="4815471077468675537" fileName="XMLElementType_Editor.java" startLine="73" startPosition="69" endLine="74" endPosition="67" />
+    <scopeInfo nodeId="4815471077468675537" fileName="XMLElementType_Editor.java" startLine="77" startPosition="81" endLine="78" endPosition="79" />
+    <scopeInfo nodeId="634907465121550962" fileName="XMLElementType_Editor.java" startLine="88" startPosition="111" endLine="89" endPosition="70" />
+    <scopeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="94" startPosition="48" endLine="95" endPosition="81" />
+    <scopeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="95" startPosition="81" endLine="96" endPosition="81" />
+    <scopeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="96" startPosition="81" endLine="97" endPosition="80" />
+    <scopeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="98" startPosition="109" endLine="99" endPosition="83" />
+    <scopeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="101" startPosition="109" endLine="102" endPosition="82" />
+    <scopeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="103" startPosition="5" endLine="104" endPosition="81" />
     <scopeInfo nodeId="4815471077468675531" fileName="XMLElementType_Editor.java" startLine="27" startPosition="0" endLine="30" endPosition="0">
       <varInfo nodeId="4815471077468675531" varName="editorContext" />
       <varInfo nodeId="4815471077468675531" varName="node" />
@@ -537,81 +537,81 @@
       <varInfo nodeId="634907465121486841" varName="manager" />
       <varInfo nodeId="634907465121486841" varName="opContext" />
     </scopeInfo>
-    <scopeInfo nodeId="4815471077468675537" fileName="XMLElementType_Editor.java" startLine="65" startPosition="0" endLine="68" endPosition="0" />
-    <scopeInfo nodeId="4815471077468675537" fileName="XMLElementType_Editor.java" startLine="69" startPosition="0" endLine="72" endPosition="0">
-      <varInfo nodeId="4815471077468675537" varName="editorContext" />
-    </scopeInfo>
-    <scopeInfo nodeId="4815471077468675537" fileName="XMLElementType_Editor.java" startLine="73" startPosition="0" endLine="76" endPosition="0">
-      <varInfo nodeId="4815471077468675537" varName="editorContext" />
-      <varInfo nodeId="4815471077468675537" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="4815471077468675538" fileName="XMLElementType_Editor.java" startLine="77" startPosition="105" endLine="80" endPosition="24">
-      <varInfo nodeId="4815471077468675538" varName="editorCell" />
-    </scopeInfo>
-    <scopeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="89" startPosition="80" endLine="92" endPosition="5" />
-    <scopeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="92" startPosition="5" endLine="95" endPosition="5" />
-    <scopeInfo nodeId="634907465121486839" fileName="XMLElementType_Editor.java" startLine="150" startPosition="35" endLine="153" endPosition="105">
-      <varInfo nodeId="634907465121486839" varName="manager" />
-      <varInfo nodeId="634907465121486839" varName="opContext" />
-    </scopeInfo>
-    <scopeInfo nodeId="4815471077468675536" fileName="XMLElementType_Editor.java" startLine="171" startPosition="35" endLine="174" endPosition="105">
-      <varInfo nodeId="4815471077468675536" varName="manager" />
-      <varInfo nodeId="4815471077468675536" varName="opContext" />
-    </scopeInfo>
-    <scopeInfo nodeId="634907465121528352" fileName="XMLElementType_Editor.java" startLine="179" startPosition="0" endLine="182" endPosition="0">
+    <scopeInfo nodeId="634907465121528352" fileName="XMLElementType_Editor.java" startLine="64" startPosition="0" endLine="67" endPosition="0">
       <varInfo nodeId="634907465121528352" varName="editorContext" />
       <varInfo nodeId="634907465121528352" varName="node" />
       <varInfo nodeId="634907465121528352" varName="scope" />
     </scopeInfo>
-    <scopeInfo nodeId="634907465121550961" fileName="XMLElementType_Editor.java" startLine="183" startPosition="0" endLine="186" endPosition="0">
+    <scopeInfo nodeId="4815471077468675537" fileName="XMLElementType_Editor.java" startLine="69" startPosition="0" endLine="72" endPosition="0" />
+    <scopeInfo nodeId="4815471077468675537" fileName="XMLElementType_Editor.java" startLine="73" startPosition="0" endLine="76" endPosition="0">
+      <varInfo nodeId="4815471077468675537" varName="editorContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="4815471077468675537" fileName="XMLElementType_Editor.java" startLine="77" startPosition="0" endLine="80" endPosition="0">
+      <varInfo nodeId="4815471077468675537" varName="editorContext" />
+      <varInfo nodeId="4815471077468675537" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4815471077468675538" fileName="XMLElementType_Editor.java" startLine="81" startPosition="105" endLine="84" endPosition="24">
+      <varInfo nodeId="4815471077468675538" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="634907465121550961" fileName="XMLElementType_Editor.java" startLine="88" startPosition="0" endLine="91" endPosition="0">
       <varInfo nodeId="634907465121550961" varName="editorContext" />
       <varInfo nodeId="634907465121550961" varName="node" />
       <varInfo nodeId="634907465121550961" varName="scope" />
     </scopeInfo>
-    <scopeInfo nodeId="4815471077468675538" fileName="XMLElementType_Editor.java" startLine="77" startPosition="0" endLine="82" endPosition="0">
+    <scopeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="97" startPosition="80" endLine="100" endPosition="5" />
+    <scopeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="100" startPosition="5" endLine="103" endPosition="5" />
+    <scopeInfo nodeId="634907465121486839" fileName="XMLElementType_Editor.java" startLine="158" startPosition="35" endLine="161" endPosition="105">
+      <varInfo nodeId="634907465121486839" varName="manager" />
+      <varInfo nodeId="634907465121486839" varName="opContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="4815471077468675536" fileName="XMLElementType_Editor.java" startLine="179" startPosition="35" endLine="182" endPosition="105">
+      <varInfo nodeId="4815471077468675536" varName="manager" />
+      <varInfo nodeId="4815471077468675536" varName="opContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="4815471077468675538" fileName="XMLElementType_Editor.java" startLine="81" startPosition="0" endLine="86" endPosition="0">
       <varInfo nodeId="4815471077468675538" varName="editorContext" />
       <varInfo nodeId="4815471077468675538" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="4815471077468675534" fileName="XMLElementType_Editor.java" startLine="100" startPosition="88" endLine="107" endPosition="22">
+    <scopeInfo nodeId="4815471077468675534" fileName="XMLElementType_Editor.java" startLine="108" startPosition="88" endLine="115" endPosition="22">
       <varInfo nodeId="4815471077468675534" varName="editorCell" />
       <varInfo nodeId="4815471077468675534" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="4815471077468675535" fileName="XMLElementType_Editor.java" startLine="110" startPosition="88" endLine="117" endPosition="22">
+    <scopeInfo nodeId="4815471077468675535" fileName="XMLElementType_Editor.java" startLine="118" startPosition="88" endLine="125" endPosition="22">
       <varInfo nodeId="4815471077468675535" varName="editorCell" />
       <varInfo nodeId="4815471077468675535" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="634907465121486843" fileName="XMLElementType_Editor.java" startLine="120" startPosition="88" endLine="127" endPosition="22">
+    <scopeInfo nodeId="634907465121486843" fileName="XMLElementType_Editor.java" startLine="128" startPosition="88" endLine="135" endPosition="22">
       <varInfo nodeId="634907465121486843" varName="editorCell" />
       <varInfo nodeId="634907465121486843" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="4815471077468675543" fileName="XMLElementType_Editor.java" startLine="130" startPosition="88" endLine="137" endPosition="22">
+    <scopeInfo nodeId="4815471077468675543" fileName="XMLElementType_Editor.java" startLine="138" startPosition="88" endLine="145" endPosition="22">
       <varInfo nodeId="4815471077468675543" varName="editorCell" />
       <varInfo nodeId="4815471077468675543" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="4815471077468675534" fileName="XMLElementType_Editor.java" startLine="100" startPosition="0" endLine="109" endPosition="0">
+    <scopeInfo nodeId="4815471077468675534" fileName="XMLElementType_Editor.java" startLine="108" startPosition="0" endLine="117" endPosition="0">
       <varInfo nodeId="4815471077468675534" varName="editorContext" />
       <varInfo nodeId="4815471077468675534" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="4815471077468675535" fileName="XMLElementType_Editor.java" startLine="110" startPosition="0" endLine="119" endPosition="0">
+    <scopeInfo nodeId="4815471077468675535" fileName="XMLElementType_Editor.java" startLine="118" startPosition="0" endLine="127" endPosition="0">
       <varInfo nodeId="4815471077468675535" varName="editorContext" />
       <varInfo nodeId="4815471077468675535" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="634907465121486843" fileName="XMLElementType_Editor.java" startLine="120" startPosition="0" endLine="129" endPosition="0">
+    <scopeInfo nodeId="634907465121486843" fileName="XMLElementType_Editor.java" startLine="128" startPosition="0" endLine="137" endPosition="0">
       <varInfo nodeId="634907465121486843" varName="editorContext" />
       <varInfo nodeId="634907465121486843" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="4815471077468675543" fileName="XMLElementType_Editor.java" startLine="130" startPosition="0" endLine="139" endPosition="0">
+    <scopeInfo nodeId="4815471077468675543" fileName="XMLElementType_Editor.java" startLine="138" startPosition="0" endLine="147" endPosition="0">
       <varInfo nodeId="4815471077468675543" varName="editorContext" />
       <varInfo nodeId="4815471077468675543" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="84" startPosition="89" endLine="97" endPosition="22">
+    <scopeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="92" startPosition="89" endLine="105" endPosition="22">
       <varInfo nodeId="4815471077468675532" varName="editorCell" />
     </scopeInfo>
-    <scopeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="84" startPosition="0" endLine="99" endPosition="0">
+    <scopeInfo nodeId="4815471077468675532" fileName="XMLElementType_Editor.java" startLine="92" startPosition="0" endLine="107" endPosition="0">
       <varInfo nodeId="4815471077468675532" varName="editorContext" />
       <varInfo nodeId="4815471077468675532" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="634907465121486839" fileName="XMLElementType_Editor.java" startLine="140" startPosition="87" endLine="155" endPosition="22">
+    <scopeInfo nodeId="634907465121486839" fileName="XMLElementType_Editor.java" startLine="148" startPosition="87" endLine="163" endPosition="22">
       <varInfo nodeId="634907465121486839" varName="attributeConcept" />
       <varInfo nodeId="634907465121486839" varName="attributeKind" />
       <varInfo nodeId="634907465121486839" varName="editorCell" />
@@ -623,7 +623,7 @@
       <varInfo nodeId="634907465121486841" varName="editorCell" />
       <varInfo nodeId="634907465121486841" varName="provider" />
     </scopeInfo>
-    <scopeInfo nodeId="634907465121486839" fileName="XMLElementType_Editor.java" startLine="140" startPosition="0" endLine="157" endPosition="0">
+    <scopeInfo nodeId="634907465121486839" fileName="XMLElementType_Editor.java" startLine="148" startPosition="0" endLine="165" endPosition="0">
       <varInfo nodeId="634907465121486839" varName="editorContext" />
       <varInfo nodeId="634907465121486839" varName="node" />
     </scopeInfo>
@@ -631,18 +631,18 @@
       <varInfo nodeId="634907465121486841" varName="editorContext" />
       <varInfo nodeId="634907465121486841" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="4815471077468675536" fileName="XMLElementType_Editor.java" startLine="158" startPosition="87" endLine="176" endPosition="22">
+    <scopeInfo nodeId="4815471077468675536" fileName="XMLElementType_Editor.java" startLine="166" startPosition="87" endLine="184" endPosition="22">
       <varInfo nodeId="4815471077468675536" varName="attributeConcept" />
       <varInfo nodeId="4815471077468675536" varName="attributeKind" />
       <varInfo nodeId="4815471077468675536" varName="editorCell" />
       <varInfo nodeId="4815471077468675536" varName="provider" />
       <varInfo nodeId="4815471077468675536" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="4815471077468675536" fileName="XMLElementType_Editor.java" startLine="158" startPosition="0" endLine="178" endPosition="0">
+    <scopeInfo nodeId="4815471077468675536" fileName="XMLElementType_Editor.java" startLine="166" startPosition="0" endLine="186" endPosition="0">
       <varInfo nodeId="4815471077468675536" varName="editorContext" />
       <varInfo nodeId="4815471077468675536" varName="node" />
     </scopeInfo>
-    <unitInfo nodeId="4815471077468675537" fileName="XMLElementType_Editor.java" startLine="64" startPosition="0" endLine="83" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.XMLElementType_Editor$_Inline_ohiupi_a4a" />
+    <unitInfo nodeId="4815471077468675537" fileName="XMLElementType_Editor.java" startLine="68" startPosition="0" endLine="87" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.XMLElementType_Editor$_Inline_ohiupi_a4a" />
     <unitInfo nodeId="634907465121486840" fileName="XMLElementType_Editor.java" startLine="31" startPosition="0" endLine="63" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.XMLElementType_Editor$_Inline_ohiupi_a2a" />
     <unitInfo nodeId="4815471077468675531" fileName="XMLElementType_Editor.java" startLine="26" startPosition="0" endLine="187" endPosition="0" unitName="jetbrains.mps.xmlQuery.editor.XMLElementType_Editor" />
   </root>
