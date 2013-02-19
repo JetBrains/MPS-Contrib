@@ -31,8 +31,8 @@ public class DateTimeZone_Editor extends DefaultNodeEditor {
     return this.createCollection_fpnw4i_a(editorContext, node);
   }
 
-  public static class DateTimeZone_continentOfCountry_cellMenu_a0e0 extends AbstractCellMenuPart_PropertyValues {
-    public DateTimeZone_continentOfCountry_cellMenu_a0e0() {
+  public static class DateTimeZone_continentOfCountry_cellMenu_fpnw4i_a0e0 extends AbstractCellMenuPart_PropertyValues {
+    public DateTimeZone_continentOfCountry_cellMenu_fpnw4i_a0e0() {
     }
 
     public List<String> getPropertyValues(SNode node, IScope scope, IOperationContext operationContext, EditorContext editorContext) {
@@ -51,8 +51,8 @@ public class DateTimeZone_Editor extends DefaultNodeEditor {
     }
   }
 
-  public static class DateTimeZone_country_cellMenu_a0g0 extends AbstractCellMenuPart_PropertyValues {
-    public DateTimeZone_country_cellMenu_a0g0() {
+  public static class DateTimeZone_country_cellMenu_fpnw4i_a0g0 extends AbstractCellMenuPart_PropertyValues {
+    public DateTimeZone_country_cellMenu_fpnw4i_a0g0() {
     }
 
     public List<String> getPropertyValues(SNode node, IScope scope, IOperationContext operationContext, EditorContext editorContext) {
@@ -155,7 +155,7 @@ public class DateTimeZone_Editor extends DefaultNodeEditor {
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_continentOfCountry");
-    editorCell.setSubstituteInfo(new CompositeSubstituteInfo(editorContext, provider.getCellContext(), new SubstituteInfoPartExt[]{new DateTimeZone_Editor.DateTimeZone_continentOfCountry_cellMenu_a0e0()}));
+    editorCell.setSubstituteInfo(new CompositeSubstituteInfo(editorContext, provider.getCellContext(), new SubstituteInfoPartExt[]{new DateTimeZone_Editor.DateTimeZone_continentOfCountry_cellMenu_fpnw4i_a0e0()}));
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
@@ -177,7 +177,7 @@ public class DateTimeZone_Editor extends DefaultNodeEditor {
     Style style = new StyleImpl();
     style.set(StyleAttributes.PUNCTUATION_LEFT, false);
     editorCell.getStyle().putAll(style);
-    editorCell.setSubstituteInfo(new CompositeSubstituteInfo(editorContext, provider.getCellContext(), new SubstituteInfoPartExt[]{new DateTimeZone_Editor.DateTimeZone_country_cellMenu_a0g0()}));
+    editorCell.setSubstituteInfo(new CompositeSubstituteInfo(editorContext, provider.getCellContext(), new SubstituteInfoPartExt[]{new DateTimeZone_Editor.DateTimeZone_country_cellMenu_fpnw4i_a0g0()}));
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {

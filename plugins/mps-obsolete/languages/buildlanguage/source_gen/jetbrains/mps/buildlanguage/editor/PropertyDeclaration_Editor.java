@@ -31,8 +31,8 @@ public class PropertyDeclaration_Editor extends DefaultNodeEditor {
     return this.createCollection_lnae77_a(editorContext, node);
   }
 
-  public static class PropertyDeclaration_generic_cellMenu_a0b0 extends AbstractCellMenuPart_Generic_Item {
-    public PropertyDeclaration_generic_cellMenu_a0b0() {
+  public static class PropertyDeclaration_generic_cellMenu_lnae77_a0b0 extends AbstractCellMenuPart_Generic_Item {
+    public PropertyDeclaration_generic_cellMenu_lnae77_a0b0() {
     }
 
     public void handleAction(SNode node, SModel model, IScope scope, IOperationContext operationContext, EditorContext editorContext) {
@@ -68,7 +68,7 @@ public class PropertyDeclaration_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_lnae77_b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_lnae77_b0");
-    editorCell.setSubstituteInfo(new CompositeSubstituteInfo(editorContext, new BasicCellContext(node), new SubstituteInfoPartExt[]{new PropertyDeclaration_Editor.PropertyDeclaration_generic_cellMenu_a0b0()}));
+    editorCell.setSubstituteInfo(new CompositeSubstituteInfo(editorContext, new BasicCellContext(node), new SubstituteInfoPartExt[]{new PropertyDeclaration_Editor.PropertyDeclaration_generic_cellMenu_lnae77_a0b0()}));
     editorCell.addEditorCell(this.createComponent_lnae77_a1a(editorContext, node));
     editorCell.addEditorCell(this.createProperty_lnae77_b1a(editorContext, node));
     editorCell.addEditorCell(this.createConstant_lnae77_c1a(editorContext, node));

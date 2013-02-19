@@ -27,8 +27,8 @@ public class TimeZoneIDExpression_Editor extends DefaultNodeEditor {
     return this.createCollection_dukjzk_a(editorContext, node);
   }
 
-  public static class TimeZoneIDExpression_timezone_id_cellMenu_a0a0 extends AbstractCellMenuPart_PropertyValues {
-    public TimeZoneIDExpression_timezone_id_cellMenu_a0a0() {
+  public static class TimeZoneIDExpression_timezone_id_cellMenu_dukjzk_a0a0 extends AbstractCellMenuPart_PropertyValues {
+    public TimeZoneIDExpression_timezone_id_cellMenu_dukjzk_a0a0() {
     }
 
     public List<String> getPropertyValues(SNode node, IScope scope, IOperationContext operationContext, EditorContext editorContext) {
@@ -58,7 +58,7 @@ public class TimeZoneIDExpression_Editor extends DefaultNodeEditor {
     Style style = new StyleImpl();
     Dates_StyleSheet.applyDateProperty(style, editorCell);
     editorCell.getStyle().putAll(style);
-    editorCell.setSubstituteInfo(new CompositeSubstituteInfo(editorContext, provider.getCellContext(), new SubstituteInfoPartExt[]{new TimeZoneIDExpression_Editor.TimeZoneIDExpression_timezone_id_cellMenu_a0a0()}));
+    editorCell.setSubstituteInfo(new CompositeSubstituteInfo(editorContext, provider.getCellContext(), new SubstituteInfoPartExt[]{new TimeZoneIDExpression_Editor.TimeZoneIDExpression_timezone_id_cellMenu_dukjzk_a0a0()}));
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {

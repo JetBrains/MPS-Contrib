@@ -37,8 +37,8 @@ public class TimeZoneNameOperation_Editor extends DefaultNodeEditor {
     return this.createCollection_vkak8k_a_0(editorContext, node);
   }
 
-  public static class TimeZoneNameOperation_property_cellMenu_a0a0 extends AbstractCellMenuPart_PropertyValues {
-    public TimeZoneNameOperation_property_cellMenu_a0a0() {
+  public static class TimeZoneNameOperation_property_cellMenu_vkak8k_a0a0 extends AbstractCellMenuPart_PropertyValues {
+    public TimeZoneNameOperation_property_cellMenu_vkak8k_a0a0() {
     }
 
     public List<String> getPropertyValues(SNode node, IScope scope, IOperationContext operationContext, EditorContext editorContext) {
@@ -312,7 +312,7 @@ public class TimeZoneNameOperation_Editor extends DefaultNodeEditor {
     Style style = new StyleImpl();
     BaseLanguageStyle_StyleSheet.applyField(style, editorCell);
     editorCell.getStyle().putAll(style);
-    editorCell.setSubstituteInfo(new CompositeSubstituteInfo(editorContext, provider.getCellContext(), new SubstituteInfoPartExt[]{new TimeZoneNameOperation_Editor.TimeZoneNameOperation_property_cellMenu_a0a0()}));
+    editorCell.setSubstituteInfo(new CompositeSubstituteInfo(editorContext, provider.getCellContext(), new SubstituteInfoPartExt[]{new TimeZoneNameOperation_Editor.TimeZoneNameOperation_property_cellMenu_vkak8k_a0a0()}));
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {

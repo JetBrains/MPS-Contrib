@@ -35,8 +35,8 @@ public class PlusOperation_Editor extends DefaultNodeEditor {
     return this.createCollection_306krj_a(editorContext, node);
   }
 
-  public static class ReplaceWith_BinaryOperation_cellMenu_a0b0_0 extends AbstractCellMenuPart_ReplaceNode_CustomNodeConcept {
-    public ReplaceWith_BinaryOperation_cellMenu_a0b0_0() {
+  public static class ReplaceWith_BinaryOperation_cellMenu_306krj_a0b0 extends AbstractCellMenuPart_ReplaceNode_CustomNodeConcept {
+    public ReplaceWith_BinaryOperation_cellMenu_306krj_a0b0() {
     }
 
     public String getReplacementConceptName() {
@@ -67,7 +67,7 @@ public class PlusOperation_Editor extends DefaultNodeEditor {
       }
     }, node);
     editorCell.setAction(CellActionType.DELETE, EmptyCellAction.getInstance());
-    editorCell.setSubstituteInfo(new CompositeSubstituteInfo(editorContext, new BasicCellContext(node), new SubstituteInfoPartExt[]{new PlusOperation_Editor.ReplaceWith_BinaryOperation_cellMenu_a0b0_0()}));
+    editorCell.setSubstituteInfo(new CompositeSubstituteInfo(editorContext, new BasicCellContext(node), new SubstituteInfoPartExt[]{new PlusOperation_Editor.ReplaceWith_BinaryOperation_cellMenu_306krj_a0b0()}));
     editorCell.setCellId("ReadOnlyModelAccessor_306krj_b0");
     Style style = new StyleImpl();
     style.set(StyleAttributes.PADDING_LEFT, new Padding(0.8, Measure.SPACES));

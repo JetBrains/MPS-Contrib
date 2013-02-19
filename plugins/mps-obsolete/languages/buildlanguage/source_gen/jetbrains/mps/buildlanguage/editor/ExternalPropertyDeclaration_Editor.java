@@ -36,8 +36,8 @@ public class ExternalPropertyDeclaration_Editor extends DefaultNodeEditor {
     return this.createCollection_i6hv21_a_0(editorContext, node);
   }
 
-  public static class ExternalPropertyDeclaration_generic_cellMenu_a0b0 extends AbstractCellMenuPart_Generic_Item {
-    public ExternalPropertyDeclaration_generic_cellMenu_a0b0() {
+  public static class ExternalPropertyDeclaration_generic_cellMenu_i6hv21_a0b0 extends AbstractCellMenuPart_Generic_Item {
+    public ExternalPropertyDeclaration_generic_cellMenu_i6hv21_a0b0() {
     }
 
     public void handleAction(SNode node, SModel model, IScope scope, IOperationContext operationContext, EditorContext editorContext) {
@@ -73,7 +73,7 @@ public class ExternalPropertyDeclaration_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_i6hv21_b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_i6hv21_b0");
-    editorCell.setSubstituteInfo(new CompositeSubstituteInfo(editorContext, new BasicCellContext(node), new SubstituteInfoPartExt[]{new ExternalPropertyDeclaration_Editor.ExternalPropertyDeclaration_generic_cellMenu_a0b0()}));
+    editorCell.setSubstituteInfo(new CompositeSubstituteInfo(editorContext, new BasicCellContext(node), new SubstituteInfoPartExt[]{new ExternalPropertyDeclaration_Editor.ExternalPropertyDeclaration_generic_cellMenu_i6hv21_a0b0()}));
     if (renderingCondition_i6hv21_a0b0(node, editorContext, editorContext.getOperationContext().getScope())) {
       editorCell.addEditorCell(this.createConstant_i6hv21_a1a(editorContext, node));
     }
