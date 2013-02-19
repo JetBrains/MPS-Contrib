@@ -6,6 +6,9 @@ import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
 import jetbrains.mps.openapi.editor.EditorContext;
 import org.jetbrains.mps.openapi.model.SNode;
+import jetbrains.mps.smodel.IScope;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import javax.swing.JComponent;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.openapi.editor.style.Style;
@@ -17,13 +20,22 @@ import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
-import jetbrains.mps.smodel.IScope;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import javax.swing.JComponent;
 
 public class PngIcon_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_4kucyt_a(editorContext, node);
+  }
+
+  private static boolean renderingCondition_4kucyt_a3a(SNode node, EditorContext editorContext, IScope scope) {
+    return isNotEmpty_4kucyt_a0a0b(SPropertyOperations.getString(node, "iconData"));
+  }
+
+  private static JComponent _QueryFunction_JComponent_4kucyt_a0d0(final SNode node, final EditorContext editorContext) {
+    return EditorIconUtil.createIconPreview(SPropertyOperations.getString(node, "iconData"));
+  }
+
+  private static JComponent _QueryFunction_JComponent_4kucyt_a4a(final SNode node, final EditorContext editorContext) {
+    return EditorIconUtil.createSelectIconButton(node, editorContext);
   }
 
   private EditorCell createAlternation_4kucyt_d0(EditorContext editorContext, SNode node) {
@@ -109,19 +121,7 @@ public class PngIcon_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static boolean renderingCondition_4kucyt_a3a(SNode node, EditorContext editorContext, IScope scope) {
-    return isNotEmpty_4kucyt_a0a0j(SPropertyOperations.getString(node, "iconData"));
-  }
-
-  private static JComponent _QueryFunction_JComponent_4kucyt_a0d0(final SNode node, final EditorContext editorContext) {
-    return EditorIconUtil.createIconPreview(SPropertyOperations.getString(node, "iconData"));
-  }
-
-  private static JComponent _QueryFunction_JComponent_4kucyt_a4a(final SNode node, final EditorContext editorContext) {
-    return EditorIconUtil.createSelectIconButton(node, editorContext);
-  }
-
-  public static boolean isNotEmpty_4kucyt_a0a0j(String str) {
+  public static boolean isNotEmpty_4kucyt_a0a0b(String str) {
     return str != null && str.length() > 0;
   }
 }
