@@ -518,11 +518,11 @@
     <nodeInfo nodeId="1213877413960" fileName="Enum_Behavior.java" startLine="24" startPosition="19" endLine="25" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1213877413985" fileName="Enum_Behavior.java" startLine="30" startPosition="237" endLine="31" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1213877413987" fileName="Enum_Behavior.java" startLine="33" startPosition="5" endLine="34" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6575219246653629298" fileName="Enum_Behavior.java" startLine="37" startPosition="81" endLine="38" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6575219246653629298" fileName="Enum_Behavior.java" startLine="37" startPosition="98" endLine="38" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1213877413897" fileName="Enum_Behavior.java" startLine="12" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
     <nodeInfo nodeId="1213877413924" fileName="Enum_Behavior.java" startLine="19" startPosition="208" endLine="22" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="1213877413975" fileName="Enum_Behavior.java" startLine="29" startPosition="107" endLine="32" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1213877413897" fileName="Enum_Behavior.java" startLine="37" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getType_6575219246653626201#(Lorg/jetbrains/mps/openapi/language/SConcept;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="1213877413897" fileName="Enum_Behavior.java" startLine="37" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getExpectedAttributeType_6575219246653626201#(Lorg/jetbrains/mps/openapi/language/SConcept;)Lorg/jetbrains/mps/openapi/model/SNode;" />
     <nodeInfo nodeId="1213877413969" fileName="Enum_Behavior.java" startLine="28" startPosition="86" endLine="33" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="1213877413910" fileName="Enum_Behavior.java" startLine="17" startPosition="19" endLine="23" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
     <nodeInfo nodeId="1213877413897" fileName="Enum_Behavior.java" startLine="28" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_inEnum_1213877413964#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
@@ -530,7 +530,7 @@
     <scopeInfo nodeId="1213877413990" fileName="Enum_Behavior.java" startLine="12" startPosition="43" endLine="12" endPosition="43" />
     <scopeInfo nodeId="1213877413925" fileName="Enum_Behavior.java" startLine="20" startPosition="107" endLine="21" endPosition="24" />
     <scopeInfo nodeId="1213877413984" fileName="Enum_Behavior.java" startLine="30" startPosition="237" endLine="31" endPosition="20" />
-    <scopeInfo nodeId="6575219246653626204" fileName="Enum_Behavior.java" startLine="37" startPosition="81" endLine="38" endPosition="16" />
+    <scopeInfo nodeId="6575219246653626204" fileName="Enum_Behavior.java" startLine="37" startPosition="98" endLine="38" endPosition="16" />
     <scopeInfo nodeId="1213877413897" fileName="Enum_Behavior.java" startLine="12" startPosition="0" endLine="14" endPosition="0">
       <varInfo nodeId="1213877413897" varName="thisNode" />
     </scopeInfo>
@@ -869,11 +869,11 @@
     <unitInfo nodeId="5699548131010533026" fileName="IDeclaration_Behavior.java" startLine="12" startPosition="0" endLine="79" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.IDeclaration_Behavior" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895904c0(jetbrains.mps.buildlanguage.behavior)/6575219246653629371">
-    <nodeInfo nodeId="6575219246653629594" fileName="IntegerEnum_Behavior.java" startLine="13" startPosition="81" endLine="14" endPosition="103" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6575219246653629594" fileName="IntegerEnum_Behavior.java" startLine="13" startPosition="98" endLine="14" endPosition="103" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="6575219246653629371" fileName="IntegerEnum_Behavior.java" startLine="10" startPosition="0" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="6575219246653629371" fileName="IntegerEnum_Behavior.java" startLine="13" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getType_6575219246653626201#(Lorg/jetbrains/mps/openapi/language/SConcept;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="6575219246653629371" fileName="IntegerEnum_Behavior.java" startLine="13" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getExpectedAttributeType_6575219246653626201#(Lorg/jetbrains/mps/openapi/language/SConcept;)Lorg/jetbrains/mps/openapi/model/SNode;" />
     <scopeInfo nodeId="6575219246653629373" fileName="IntegerEnum_Behavior.java" startLine="10" startPosition="43" endLine="10" endPosition="43" />
-    <scopeInfo nodeId="6575219246653629454" fileName="IntegerEnum_Behavior.java" startLine="13" startPosition="81" endLine="14" endPosition="103" />
+    <scopeInfo nodeId="6575219246653629454" fileName="IntegerEnum_Behavior.java" startLine="13" startPosition="98" endLine="14" endPosition="103" />
     <scopeInfo nodeId="6575219246653629371" fileName="IntegerEnum_Behavior.java" startLine="10" startPosition="0" endLine="12" endPosition="0">
       <varInfo nodeId="6575219246653629371" varName="thisNode" />
     </scopeInfo>
@@ -883,11 +883,11 @@
     <unitInfo nodeId="6575219246653629371" fileName="IntegerEnum_Behavior.java" startLine="9" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.IntegerEnum_Behavior" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895904c0(jetbrains.mps.buildlanguage.behavior)/6575219246653635466">
-    <nodeInfo nodeId="6575219246653635520" fileName="StringEnum_Behavior.java" startLine="13" startPosition="81" endLine="14" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6575219246653635520" fileName="StringEnum_Behavior.java" startLine="13" startPosition="98" endLine="14" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="6575219246653635466" fileName="StringEnum_Behavior.java" startLine="10" startPosition="0" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="6575219246653635466" fileName="StringEnum_Behavior.java" startLine="13" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getType_6575219246653626201#(Lorg/jetbrains/mps/openapi/language/SConcept;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="6575219246653635466" fileName="StringEnum_Behavior.java" startLine="13" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getExpectedAttributeType_6575219246653626201#(Lorg/jetbrains/mps/openapi/language/SConcept;)Lorg/jetbrains/mps/openapi/model/SNode;" />
     <scopeInfo nodeId="6575219246653635468" fileName="StringEnum_Behavior.java" startLine="10" startPosition="43" endLine="10" endPosition="43" />
-    <scopeInfo nodeId="6575219246653635475" fileName="StringEnum_Behavior.java" startLine="13" startPosition="81" endLine="14" endPosition="102" />
+    <scopeInfo nodeId="6575219246653635475" fileName="StringEnum_Behavior.java" startLine="13" startPosition="98" endLine="14" endPosition="102" />
     <scopeInfo nodeId="6575219246653635466" fileName="StringEnum_Behavior.java" startLine="10" startPosition="0" endLine="12" endPosition="0">
       <varInfo nodeId="6575219246653635466" varName="thisNode" />
     </scopeInfo>

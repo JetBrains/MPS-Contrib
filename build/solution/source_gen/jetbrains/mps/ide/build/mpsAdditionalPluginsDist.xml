@@ -19,6 +19,8 @@
   </target>
   
   <target name="buildDependents">
+    <ant antfile="build/mpsDates.xml" inheritAll="false" useNativeBasedir="true" target="buildDependents" />
+    <ant antfile="build/mpsDeprecatedBuildlanguage.xml" inheritAll="false" useNativeBasedir="true" target="buildDependents" />
     <ant antfile="build/mpsDates.xml" inheritAll="false" useNativeBasedir="true" />
     <ant antfile="build/mpsDeprecatedBuildlanguage.xml" inheritAll="false" useNativeBasedir="true" />
   </target>
