@@ -19,20 +19,30 @@
   </target>
   
   <target name="buildDependents">
-    <ant antfile="build/mpsDates.xml" inheritAll="false" useNativeBasedir="true" target="buildDependents" />
-    <ant antfile="build/mpsDeprecatedBuildlanguage.xml" inheritAll="false" useNativeBasedir="true" target="buildDependents" />
+    <ant antfile="build/mpsBootstrapCore.xml" inheritAll="false" useNativeBasedir="true" />
+    <ant antfile="build/mpsCore.xml" inheritAll="false" useNativeBasedir="true" />
     <ant antfile="build/mpsDates.xml" inheritAll="false" useNativeBasedir="true" />
     <ant antfile="build/mpsDeprecatedBuildlanguage.xml" inheritAll="false" useNativeBasedir="true" />
   </target>
   
   <target name="prepareDependents">
-    <ant antfile="build/mpsDates.xml" inheritAll="false" useNativeBasedir="true" target="prepare" />
-    <ant antfile="build/mpsDeprecatedBuildlanguage.xml" inheritAll="false" useNativeBasedir="true" target="prepare" />
-    <ant antfile="build/mpsDates.xml" inheritAll="false" useNativeBasedir="true" />
-    <ant antfile="build/mpsDeprecatedBuildlanguage.xml" inheritAll="false" useNativeBasedir="true" />
+    <ant antfile="build/mpsBootstrapCore.xml" inheritAll="false" useNativeBasedir="true">
+      <target name="prepare" />
+      <target name="assemble" />
+    </ant>
+    <ant antfile="build/mpsCore.xml" inheritAll="false" useNativeBasedir="true">
+      <target name="prepare" />
+      <target name="assemble" />
+    </ant>
+    <ant antfile="build/mpsDates.xml" inheritAll="false" useNativeBasedir="true">
+      <target name="prepare" />
+      <target name="assemble" />
+    </ant>
+    <ant antfile="build/mpsDeprecatedBuildlanguage.xml" inheritAll="false" useNativeBasedir="true">
+      <target name="prepare" />
+      <target name="assemble" />
+    </ant>
   </target>
-  
-  <target name="prepare" depends="prepareDependents" />
   
   <target name="fetchDependencies" />
   
