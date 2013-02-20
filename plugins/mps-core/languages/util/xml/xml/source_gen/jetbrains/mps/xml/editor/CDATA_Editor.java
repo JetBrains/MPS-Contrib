@@ -34,13 +34,6 @@ public class CDATA_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_puxexb_c0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "]]>");
-    editorCell.setCellId("Constant_puxexb_c0");
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
   private EditorCell createRefNode_puxexb_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("contentList");
@@ -55,6 +48,13 @@ public class CDATA_Editor extends DefaultNodeEditor {
       EditorManager manager = EditorManager.getInstanceFromContext(opContext);
       return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
     } else
+    return editorCell;
+  }
+
+  private EditorCell createConstant_puxexb_c0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "]]>");
+    editorCell.setCellId("Constant_puxexb_c0");
+    editorCell.setDefaultText("");
     return editorCell;
   }
 }

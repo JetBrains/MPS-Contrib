@@ -7,11 +7,11 @@ import jetbrains.mps.nodeEditor.cells.EditorCell;
 import jetbrains.mps.openapi.editor.EditorContext;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
+import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.MPSColors;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
@@ -31,6 +31,13 @@ public class XMLStringLiteral_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
+  private EditorCell createConstant_p2tmaa_a0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "`");
+    editorCell.setCellId("Constant_p2tmaa_a0");
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
   private EditorCell createCollection_p2tmaa_b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_p2tmaa_b0");
@@ -40,20 +47,6 @@ public class XMLStringLiteral_Editor extends DefaultNodeEditor {
     style.set(StyleAttributes.BRACKETS_COLOR, MPSColors.LIGHT_BLUE);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createRefNode_p2tmaa_a1a(editorContext, node));
-    return editorCell;
-  }
-
-  private EditorCell createConstant_p2tmaa_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "`");
-    editorCell.setCellId("Constant_p2tmaa_a0");
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
-  private EditorCell createConstant_p2tmaa_c0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "`");
-    editorCell.setCellId("Constant_p2tmaa_c0");
-    editorCell.setDefaultText("");
     return editorCell;
   }
 
@@ -71,6 +64,13 @@ public class XMLStringLiteral_Editor extends DefaultNodeEditor {
       EditorManager manager = EditorManager.getInstanceFromContext(opContext);
       return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
     } else
+    return editorCell;
+  }
+
+  private EditorCell createConstant_p2tmaa_c0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "`");
+    editorCell.setCellId("Constant_p2tmaa_c0");
+    editorCell.setDefaultText("");
     return editorCell;
   }
 }
