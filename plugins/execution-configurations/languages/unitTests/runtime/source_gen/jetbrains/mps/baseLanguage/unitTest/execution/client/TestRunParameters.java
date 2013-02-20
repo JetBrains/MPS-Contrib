@@ -6,10 +6,10 @@ import jetbrains.mps.util.annotation.ToRemove;
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
-import jetbrains.mps.reloading.ClasspathStringCollector;
+import jetbrains.mps.internal.collections.runtime.SetSequence;
 import jetbrains.mps.smodel.MPSModuleRepository;
 import jetbrains.mps.project.ModuleId;
-import jetbrains.mps.internal.collections.runtime.SetSequence;
+import jetbrains.mps.project.facets.JavaModuleFacet;
 
 /**
  * ITestable instances only specify whether they need mps start or not; wrappers provide classpath for them
@@ -25,10 +25,8 @@ public class TestRunParameters {
   public TestRunParameters() {
     myTestRunner = "jetbrains.mps.baseLanguage.unitTest.execution.server.TestRunner";
     myVmParameters = ListSequence.fromList(new ArrayList<String>());
-    ClasspathStringCollector collector = new ClasspathStringCollector();
-    MPSModuleRepository.getInstance().getModuleById(ModuleId.fromString("f618e99a-2641-465c-bb54-31fe76f9e285")).getClassPathItem().accept(collector);
     myClassPath = ListSequence.fromList(new ArrayList<String>());
-    ListSequence.fromList(myClassPath).addSequence(SetSequence.fromSet(collector.getClasspath()));
+    ListSequence.fromList(myClassPath).addSequence(SetSequence.fromSet(MPSModuleRepository.getInstance().getModuleById(ModuleId.fromString("f618e99a-2641-465c-bb54-31fe76f9e285")).getFacet(JavaModuleFacet.class).getClassPath()));
   }
 
   public void setTestRunner(String name) {
