@@ -8,11 +8,11 @@
   <import index="tps1" modelUID="r:00000000-0000-4000-0000-011c895904dd(jetbrains.mps.build.property.behavior)" version="-1" implicit="yes" />
   <roots>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1200504738494">
-      <property name="abstract" nameId="tpce.4628067390765956802" value="false" />
       <property name="rootable" nameId="tpce.1096454100552" value="true" />
+      <property name="abstract" nameId="tpce.4628067390765956802" value="false" />
       <property name="final" nameId="tpce.4628067390765956807" value="false" />
-      <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="property file" />
       <property name="iconPath" nameId="tpce.1160488491229" value="${language_descriptor}/icons/properties.png" />
+      <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="property file" />
       <property name="name" nameId="tpck.1169194664001" value="PropertyNode" />
       <property name="conceptAlias" nameId="tpce.5092175715804935370" value="property node" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
@@ -37,6 +37,9 @@
       <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.MigratedToMethodAnnotation" typeId="tpce.8080932314785812236" id="4694041203278847767">
         <link role="method" roleId="tpce.8080932314785812847" targetNodeId="tps1.1262430001741497933" resolveInfo="getExtension" />
       </node>
+    </node>
+    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="9063453653393261762">
+      <property name="comment" nameId="tpce.1225118933224" value="Use jetbrains.mps.core.properties." />
     </node>
   </root>
 </model>
