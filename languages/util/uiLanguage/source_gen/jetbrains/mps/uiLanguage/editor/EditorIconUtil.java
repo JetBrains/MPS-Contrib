@@ -30,6 +30,7 @@ public class EditorIconUtil {
   public static JButton createSelectIconButton(final SNode node, final EditorContext context) {
     final JButton button = new JButton();
     button.setAction(new AbstractAction("...") {
+      @Override
       public void actionPerformed(ActionEvent e) {
         Component root = SwingUtilities.getRoot(button);
         JFrame frame = (root instanceof JFrame ?
@@ -49,6 +50,7 @@ public class EditorIconUtil {
         }
 
         ModelAccess.instance().runCommandInEDT(new Runnable() {
+          @Override
           public void run() {
             SPropertyOperations.set(node, "iconData", EncodingUtil.encodeBase64(content));
           }

@@ -12,10 +12,12 @@ public class ListenerId {
     myMethod = method;
   }
 
+  @Override
   public int hashCode() {
     return myInstance.hashCode() * 239 + myMethod.hashCode();
   }
 
+  @Override
   public boolean equals(Object o) {
     if (!((o instanceof ListenerId))) {
       return false;
