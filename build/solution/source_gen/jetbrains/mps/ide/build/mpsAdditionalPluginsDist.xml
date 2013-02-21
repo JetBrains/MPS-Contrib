@@ -13,7 +13,7 @@
     <mkdir dir="${build.layout}" />
     <zip destfile="${build.layout}/${plugin.version}-additional-plugin.zip">
       <zipfileset dir="${artifacts.mpsDates}/mps-dates" prefix="mps-dates" />
-      <zipfileset dir="${artifacts.mpsDeprecatedBuildlanguage}/mps-obsolete" prefix="mps-obsolete" />
+      <zipfileset dir="${artifacts.mpsDeprecatedBuildlanguage}/mps-build-deprecated" prefix="mps-build-deprecated" />
     </zip>
     <echo file="${build.layout}/build.properties">mpsAdditionalPluginsDist.plugin.version=${plugin.version}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}</echo>
   </target>
