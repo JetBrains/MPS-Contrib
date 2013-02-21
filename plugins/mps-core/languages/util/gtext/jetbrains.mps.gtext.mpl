@@ -49,6 +49,7 @@
   <dependencies>
     <dependency reexport="false">6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)</dependency>
     <dependency reexport="true">34f23130-e35c-4795-a45a-85d828b16016(jetbrains.mps.gtext.runtime)</dependency>
+    <dependency reexport="false">2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)</dependency>
   </dependencies>
   <usedDevKits>
     <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>
