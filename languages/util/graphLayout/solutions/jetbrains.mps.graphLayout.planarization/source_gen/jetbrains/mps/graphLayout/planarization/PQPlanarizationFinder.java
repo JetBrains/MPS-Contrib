@@ -27,6 +27,7 @@ public class PQPlanarizationFinder implements IEmbeddingFinder {
   public PQPlanarizationFinder() {
   }
 
+  @Override
   public EmbeddedGraph find(Graph graph) {
     Map<Node, Integer> components = ConnectivityComponents.getComponents(graph);
     for (Node node : ListSequence.fromList(graph.getNodes())) {

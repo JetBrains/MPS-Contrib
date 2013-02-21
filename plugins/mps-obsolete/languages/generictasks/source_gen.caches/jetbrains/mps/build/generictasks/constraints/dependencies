@@ -87,6 +87,7 @@
   </dependency>
   <dependency className="jetbrains.mps.build.generictasks.constraints.SequenceSearchScope" file="SequenceSearchScope.java">
     <classNode dependClassName="java.lang.Iterable" />
+    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IWhereFilter" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.Sequence" />

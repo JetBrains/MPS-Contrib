@@ -278,6 +278,7 @@ public class ClassInfo<T> {
       return true;
     }
 
+    @Override
     public int hashCode() {
       return ((this.myName != null ?
         this.myName.hashCode() :

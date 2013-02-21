@@ -50,6 +50,7 @@ public abstract class AbstractOrthogonalFlowLayouter extends BasicLayouter {
     myUseRepresentationOptimizations = true;
   }
 
+  @Override
   public GraphLayout doLayoutConnectedGraph(LayoutInfo layoutInfo) {
     LayoutInfo copyInfo;
     LayoutInfoCopier copier = new LayoutInfoCopier(layoutInfo);

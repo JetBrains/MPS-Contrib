@@ -30,6 +30,7 @@ public class TreeEmbeddingFinder implements IEmbeddingFinder {
   public TreeEmbeddingFinder() {
   }
 
+  @Override
   public EmbeddedGraph find(Graph graph) {
     mySplittedEdges = MapSequence.fromMap(new HashMap<Edge, List<Edge>>());
     EmbeddedGraph embeddedGraph = new EmbeddedGraph(graph);

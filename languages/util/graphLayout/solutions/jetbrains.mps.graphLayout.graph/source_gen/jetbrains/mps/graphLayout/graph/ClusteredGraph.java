@@ -23,6 +23,7 @@ public class ClusteredGraph extends Graph implements IClusteredGraph {
     myLeafClusters = MapSequence.fromMap(new HashMap<Node, Node>());
   }
 
+  @Override
   public Set<Node> getNodesInCluster(INode cluster) {
     Set<Node> nodes = SetSequence.fromSet(new LinkedHashSet<Node>());
     getNodesInCluster(((Node) cluster), nodes);
@@ -60,10 +61,12 @@ public class ClusteredGraph extends Graph implements IClusteredGraph {
     myRoot = root;
   }
 
+  @Override
   public Node getRoot() {
     return myRoot;
   }
 
+  @Override
   public Graph getUnderlyingGraph() {
     return this;
   }
@@ -73,6 +76,7 @@ public class ClusteredGraph extends Graph implements IClusteredGraph {
     return new ClusteredGraph();
   }
 
+  @Override
   public Tree getInclusionTree() {
     return myInclusionTree;
   }

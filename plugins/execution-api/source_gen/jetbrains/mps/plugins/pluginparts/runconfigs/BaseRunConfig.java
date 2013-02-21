@@ -20,10 +20,12 @@ public abstract class BaseRunConfig extends BaseMpsRunConfiguration implements L
     super(project, factory, name);
   }
 
+  @Override
   public boolean isGeneratedName() {
     return true;
   }
 
+  @Override
   public String suggestedName() {
     return getName();
   }

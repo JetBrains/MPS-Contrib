@@ -13,6 +13,7 @@ public class ClusterNodesAdditionListener implements IGraphModificationListener 
     graph.addListener(this);
   }
 
+  @Override
   public void process(GraphModificationEvent event) {
     if (event.getType() == GraphModificationEvent.Type.NODE_CREATED) {
       Graph tree = myGraph.getInclusionTree();

@@ -27,6 +27,7 @@ public class OrthogonalFromVisibility implements IPointLayouter {
   public OrthogonalFromVisibility() {
   }
 
+  @Override
   public GraphPointLayout doLayout(Graph graph) {
     /*
       EmbeddedGraph embeddedGraph = new ShortestPathEmbeddingFinder(new BiconnectedInitialEmbeddingFinder()).find(graph);

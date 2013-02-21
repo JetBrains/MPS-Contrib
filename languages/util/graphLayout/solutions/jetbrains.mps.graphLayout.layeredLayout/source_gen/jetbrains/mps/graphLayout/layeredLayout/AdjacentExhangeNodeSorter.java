@@ -13,6 +13,7 @@ public class AdjacentExhangeNodeSorter implements IOneLayerSorter {
   public AdjacentExhangeNodeSorter() {
   }
 
+  @Override
   public void sortLayer(int layerToSort, NodeLayeredOrder order, Edge.Direction direction) {
     List<Node> layerOrder = order.getOrder(layerToSort);
     Map<Node, Integer> posInLayer = order.getPosInLayer();

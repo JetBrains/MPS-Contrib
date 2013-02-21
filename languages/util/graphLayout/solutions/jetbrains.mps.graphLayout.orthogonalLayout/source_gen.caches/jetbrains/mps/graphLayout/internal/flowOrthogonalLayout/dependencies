@@ -74,6 +74,7 @@
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.internal.flowOrthogonalLayout.FlowLayoutWithNodeProcessing" file="FlowLayoutWithNodeProcessing.java">
     <classNode dependClassName="java.lang.Integer" />
+    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.System" />
     <classNode dependClassName="java.util.ArrayList" />
     <classNode dependClassName="java.util.HashMap" />
@@ -177,6 +178,7 @@
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.internal.flowOrthogonalLayout.OrthogonalPointFlowLayouter" file="OrthogonalPointFlowLayouter.java">
     <classNode dependClassName="java.lang.Integer" />
+    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.System" />
     <classNode dependClassName="java.util.ArrayList" />
     <classNode dependClassName="java.util.HashMap" />

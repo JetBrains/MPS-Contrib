@@ -98,6 +98,7 @@ public class TestPanel extends JPanel {
     c.gridy = 4;
     JButton button = new JButton("generate graph!");
     button.addActionListener(new ActionListener() {
+      @Override
       public void actionPerformed(ActionEvent p0) {
         try {
           int numNodes = Integer.parseInt(myNumNodesField.getText());
@@ -124,6 +125,7 @@ public class TestPanel extends JPanel {
     JButton button = new JButton("do layout!");
     GridBagConstraints c = new GridBagConstraints();
     button.addActionListener(new ActionListener() {
+      @Override
       public void actionPerformed(ActionEvent p0) {
         layoutGraph();
         myGraphLabel.repaint();
@@ -204,6 +206,7 @@ public class TestPanel extends JPanel {
 
   public static void main(String[] args) {
     SwingUtilities.invokeLater(new Runnable() {
+      @Override
       public void run() {
         create();
       }

@@ -7,6 +7,7 @@ public class DefaultFilter<T> implements Filter<T> {
   public DefaultFilter() {
   }
 
+  @Override
   public boolean accept(T t) {
     return true;
   }

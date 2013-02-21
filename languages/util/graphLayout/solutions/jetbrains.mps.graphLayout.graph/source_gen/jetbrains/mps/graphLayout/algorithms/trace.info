@@ -177,11 +177,11 @@
     <nodeInfo nodeId="1953828525454980454" fileName="Dijkstra.java" startLine="90" startPosition="57" endLine="91" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1953828525454980461" fileName="Dijkstra.java" startLine="92" startPosition="5" endLine="93" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1953828525455084553" fileName="Dijkstra.java" startLine="96" startPosition="43" endLine="97" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7727845083901379984" fileName="Dijkstra.java" startLine="104" startPosition="49" endLine="105" endPosition="114" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7727845083901380007" fileName="Dijkstra.java" startLine="106" startPosition="29" endLine="107" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7727845083901380012" fileName="Dijkstra.java" startLine="108" startPosition="14" endLine="109" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7727845083901379984" fileName="Dijkstra.java" startLine="105" startPosition="49" endLine="106" endPosition="114" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7727845083901380007" fileName="Dijkstra.java" startLine="107" startPosition="29" endLine="108" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7727845083901380012" fileName="Dijkstra.java" startLine="109" startPosition="14" endLine="110" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1953828525454980115" fileName="Dijkstra.java" startLine="101" startPosition="0" endLine="103" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="NodeComparator#()V" />
-    <nodeInfo nodeId="7727845083901380010" fileName="Dijkstra.java" startLine="108" startPosition="12" endLine="110" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="7727845083901380010" fileName="Dijkstra.java" startLine="109" startPosition="12" endLine="111" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1953828525454982274" fileName="Dijkstra.java" startLine="35" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#(Ljetbrains/mps/graphLayout/graph/Edge;)Ljava/lang/Boolean;" />
     <nodeInfo nodeId="1953828525454980327" fileName="Dijkstra.java" startLine="44" startPosition="33" endLine="47" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="1953828525454980075" fileName="Dijkstra.java" startLine="50" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/graphLayout/graph/Edge;)Z" />
@@ -193,10 +193,10 @@
     <nodeInfo nodeId="1953828525454955933" fileName="Dijkstra.java" startLine="27" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="Dijkstra#(Ljetbrains/mps/graphLayout/graph/Graph;Ljetbrains/mps/graphLayout/graph/Node;Ljava/util/Map;)V" />
     <nodeInfo nodeId="1953828525454982272" fileName="Dijkstra.java" startLine="33" startPosition="29" endLine="38" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1953828525454980438" fileName="Dijkstra.java" startLine="87" startPosition="22" endLine="92" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
-    <nodeInfo nodeId="7727845083901379998" fileName="Dijkstra.java" startLine="105" startPosition="114" endLine="110" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="7727845083901379998" fileName="Dijkstra.java" startLine="106" startPosition="114" endLine="111" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="1953828525454980318" fileName="Dijkstra.java" startLine="58" startPosition="48" endLine="64" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="1953828525454982268" fileName="Dijkstra.java" startLine="33" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doAlgorithm#()V" />
-    <nodeInfo nodeId="1953828525454980124" fileName="Dijkstra.java" startLine="104" startPosition="0" endLine="112" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="compare#(Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/graph/Node;)I" />
+    <nodeInfo nodeId="1953828525454980124" fileName="Dijkstra.java" startLine="104" startPosition="0" endLine="113" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="compare#(Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/graph/Node;)I" />
     <nodeInfo nodeId="1953828525454955986" fileName="Dijkstra.java" startLine="69" startPosition="0" endLine="81" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="init#()V" />
     <nodeInfo nodeId="1953828525454980415" fileName="Dijkstra.java" startLine="82" startPosition="0" endLine="95" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getShortestPath#(Ljetbrains/mps/graphLayout/graph/Node;)Ljava/util/List;" />
     <nodeInfo nodeId="1953828525454979979" fileName="Dijkstra.java" startLine="48" startPosition="26" endLine="65" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
@@ -210,8 +210,8 @@
     <scopeInfo nodeId="1953828525454980227" fileName="Dijkstra.java" startLine="77" startPosition="65" endLine="78" endPosition="22" />
     <scopeInfo nodeId="1953828525454980426" fileName="Dijkstra.java" startLine="84" startPosition="80" endLine="85" endPosition="18" />
     <scopeInfo nodeId="1953828525455084552" fileName="Dijkstra.java" startLine="96" startPosition="43" endLine="97" endPosition="18" />
-    <scopeInfo nodeId="7727845083901379999" fileName="Dijkstra.java" startLine="106" startPosition="29" endLine="107" endPosition="27" />
-    <scopeInfo nodeId="7727845083901380011" fileName="Dijkstra.java" startLine="108" startPosition="14" endLine="109" endPosition="52" />
+    <scopeInfo nodeId="7727845083901379999" fileName="Dijkstra.java" startLine="107" startPosition="29" endLine="108" endPosition="27" />
+    <scopeInfo nodeId="7727845083901380011" fileName="Dijkstra.java" startLine="109" startPosition="14" endLine="110" endPosition="52" />
     <scopeInfo nodeId="7111916660161177378" fileName="Dijkstra.java" startLine="54" startPosition="59" endLine="56" endPosition="71" />
     <scopeInfo nodeId="1953828525454980115" fileName="Dijkstra.java" startLine="101" startPosition="0" endLine="103" endPosition="0" />
     <scopeInfo nodeId="1953828525454955936" fileName="Dijkstra.java" startLine="27" startPosition="73" endLine="30" endPosition="24" />
@@ -238,11 +238,11 @@
       <varInfo nodeId="1953828525454955939" varName="weights" />
     </scopeInfo>
     <scopeInfo nodeId="1953828525454982271" fileName="Dijkstra.java" startLine="33" startPosition="29" endLine="38" endPosition="29" />
-    <scopeInfo nodeId="1953828525454980131" fileName="Dijkstra.java" startLine="104" startPosition="49" endLine="110" endPosition="7">
+    <scopeInfo nodeId="1953828525454980131" fileName="Dijkstra.java" startLine="105" startPosition="49" endLine="111" endPosition="7">
       <varInfo nodeId="7727845083901379985" varName="distCompare" />
     </scopeInfo>
     <scopeInfo nodeId="1953828525454982268" fileName="Dijkstra.java" startLine="33" startPosition="0" endLine="40" endPosition="0" />
-    <scopeInfo nodeId="1953828525454980124" fileName="Dijkstra.java" startLine="104" startPosition="0" endLine="112" endPosition="0">
+    <scopeInfo nodeId="1953828525454980124" fileName="Dijkstra.java" startLine="104" startPosition="0" endLine="113" endPosition="0">
       <varInfo nodeId="1953828525454980127" varName="first" />
       <varInfo nodeId="1953828525454980129" varName="second" />
     </scopeInfo>
@@ -271,8 +271,8 @@
     </scopeInfo>
     <unitInfo nodeId="1953828525454982274" fileName="Dijkstra.java" startLine="34" startPosition="20" endLine="38" endPosition="5" unitName="jetbrains.mps.graphLayout.algorithms.Dijkstra$1" />
     <unitInfo nodeId="1953828525454980075" fileName="Dijkstra.java" startLine="49" startPosition="82" endLine="53" endPosition="7" unitName="jetbrains.mps.graphLayout.algorithms.Dijkstra$2" />
-    <unitInfo nodeId="1953828525454980113" fileName="Dijkstra.java" startLine="100" startPosition="0" endLine="113" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.Dijkstra$NodeComparator" />
-    <unitInfo nodeId="1953828525454955931" fileName="Dijkstra.java" startLine="19" startPosition="0" endLine="114" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.Dijkstra" />
+    <unitInfo nodeId="1953828525454980113" fileName="Dijkstra.java" startLine="100" startPosition="0" endLine="114" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.Dijkstra$NodeComparator" />
+    <unitInfo nodeId="1953828525454955931" fileName="Dijkstra.java" startLine="19" startPosition="0" endLine="115" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.Dijkstra" />
   </root>
   <root nodeRef="r:5aba4e89-d910-492c-9b56-c5e3fe8c0f28(jetbrains.mps.graphLayout.algorithms)/1953828525455084197">
     <nodeInfo nodeId="1953828525455084198" fileName="MinCostMaxFlowWithPotentials.java" startLine="19" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="SHOW_TIME" />

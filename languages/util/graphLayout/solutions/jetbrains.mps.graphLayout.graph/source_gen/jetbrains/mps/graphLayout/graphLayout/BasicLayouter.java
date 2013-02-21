@@ -25,6 +25,7 @@ public abstract class BasicLayouter implements ILayouter {
   public BasicLayouter() {
   }
 
+  @Override
   public GraphLayout doLayout(ILayoutInfo layoutInfo) {
     LayoutInfoCopier patchCopier = new LayoutInfoCopier(layoutInfo);
     LayoutInfo patchInfo = patchCopier.copy();
@@ -49,6 +50,7 @@ public abstract class BasicLayouter implements ILayouter {
       ListSequence.fromList(copiers).addElement(copier);
       final int curComponent = num;
       copier.copySubgraph(new Filter<INode>() {
+        @Override
         public boolean accept(INode node) {
           Node myNode = ((Node) node);
           return (Integer) MapSequence.fromMap(components).get(myNode) == curComponent;

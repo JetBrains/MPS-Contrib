@@ -16,10 +16,12 @@ public class LiteralPrinter implements Printer {
     );
   }
 
+  @Override
   public int estimatePrintedLength() {
     return myLiteral.length();
   }
 
+  @Override
   public void printTo(Appendable out, DateTime dateTime, Locale locale) throws IOException {
     out.append(myLiteral);
   }

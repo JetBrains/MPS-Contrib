@@ -35,14 +35,17 @@ public class GraphLayout implements IGraphLayout {
     return this.myNodeLayout;
   }
 
+  @Override
   public Set<? extends INode> getLayoutedNodes() {
     return MapSequence.fromMap(myNodeLayout).keySet();
   }
 
+  @Override
   public Set<? extends IEdge> getLayoutedEdges() {
     return MapSequence.fromMap(myEdgeLayout).keySet();
   }
 
+  @Override
   public Set<? extends IEdge> getLayoutedLabels() {
     return MapSequence.fromMap(myLabelLayout).keySet();
   }
@@ -63,6 +66,7 @@ public class GraphLayout implements IGraphLayout {
     MapSequence.fromMap(myNodeLayout).put(node, rect);
   }
 
+  @Override
   public Rectangle getNodeLayout(INode node) {
     return MapSequence.fromMap(myNodeLayout).get(node);
   }
@@ -71,6 +75,7 @@ public class GraphLayout implements IGraphLayout {
     MapSequence.fromMap(myEdgeLayout).put(edge, points);
   }
 
+  @Override
   public List<Point> getEdgeLayout(IEdge edge) {
     return MapSequence.fromMap(myEdgeLayout).get(edge);
   }
@@ -79,6 +84,7 @@ public class GraphLayout implements IGraphLayout {
     MapSequence.fromMap(myLabelLayout).put(edge, rectangle);
   }
 
+  @Override
   public Rectangle getLabelLayout(IEdge edge) {
     return MapSequence.fromMap(myLabelLayout).get(edge);
   }
@@ -87,6 +93,7 @@ public class GraphLayout implements IGraphLayout {
     return myLabelLayout;
   }
 
+  @Override
   public IGraph getGraph() {
     return this.myGraph;
   }
@@ -129,6 +136,7 @@ public class GraphLayout implements IGraphLayout {
     }
   }
 
+  @Override
   public Rectangle getContainingRectangle() {
     int minX = Integer.MAX_VALUE;
     int minY = Integer.MAX_VALUE;

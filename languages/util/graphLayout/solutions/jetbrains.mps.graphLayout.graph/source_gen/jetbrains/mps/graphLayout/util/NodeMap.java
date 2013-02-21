@@ -20,14 +20,17 @@ public class NodeMap<V> implements Map<Node, V> {
     myGraph = graph;
   }
 
+  @Override
   public Set<Map.Entry<Node, V>> entrySet() {
     throw new RuntimeException("method is not implemented");
   }
 
+  @Override
   public Collection<V> values() {
     return myMap;
   }
 
+  @Override
   public Set<Node> keySet() {
     /*
       Set<Node> res = SetSequence.fromSet(new HashSet<Node>());
@@ -39,18 +42,22 @@ public class NodeMap<V> implements Map<Node, V> {
     throw new RuntimeException("method is not implemented");
   }
 
+  @Override
   public void clear() {
     throw new RuntimeException("method is not implemented");
   }
 
+  @Override
   public void putAll(Map<? extends Node, ? extends V> map) {
     throw new RuntimeException("method is not implemented");
   }
 
+  @Override
   public V remove(Object object) {
     throw new RuntimeException("method is not implemented");
   }
 
+  @Override
   public V put(Node node, V value) {
     int index = node.getIndex();
     fillToPosition(index);
@@ -58,6 +65,7 @@ public class NodeMap<V> implements Map<Node, V> {
     return value;
   }
 
+  @Override
   public V get(Object object) {
     Node node = ((Node) object);
     int index = node.getIndex();
@@ -65,18 +73,22 @@ public class NodeMap<V> implements Map<Node, V> {
     return myMap.get(index);
   }
 
+  @Override
   public boolean containsValue(Object object) {
     throw new RuntimeException("method is not implemented");
   }
 
+  @Override
   public boolean containsKey(Object object) {
     throw new RuntimeException("method is not implemented");
   }
 
+  @Override
   public boolean isEmpty() {
     throw new RuntimeException("method is not implemented");
   }
 
+  @Override
   public int size() {
     return myMap.size();
   }

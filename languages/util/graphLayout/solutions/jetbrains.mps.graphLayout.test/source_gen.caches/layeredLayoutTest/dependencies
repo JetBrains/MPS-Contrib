@@ -62,6 +62,7 @@
     <classNode extendsClassName="junit.framework.TestCase" />
   </dependency>
   <dependency className="layeredLayoutTest.EdgeReverterProxy" file="EdgeReverterProxy.java">
+    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.util.Set" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
@@ -72,6 +73,7 @@
   <dependency className="layeredLayoutTest.LayererProxy" file="LayererProxy.java">
     <classNode dependClassName="java.lang.IllegalArgumentException" />
     <classNode dependClassName="java.lang.Integer" />
+    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.util.Map" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
@@ -81,6 +83,7 @@
   </dependency>
   <dependency className="layeredLayoutTest.MedianLayerByLayerSorterProxy" file="MedianLayerByLayerSorterProxy.java">
     <classNode dependClassName="java.lang.Integer" />
+    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.util.Map" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
@@ -94,6 +97,7 @@
   </dependency>
   <dependency className="layeredLayoutTest.RefineAdjacentNodeSorterProxy" file="RefineAdjacentNodeSorterProxy.java">
     <classNode dependClassName="java.lang.Integer" />
+    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.util.Map" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />

@@ -7,6 +7,7 @@
     <classNode dependClassName="sampleGraphs.RandomUtil" />
   </dependency>
   <dependency className="sampleGraphs.BasicGraphGenerator" file="BasicGraphGenerator.java">
+    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />

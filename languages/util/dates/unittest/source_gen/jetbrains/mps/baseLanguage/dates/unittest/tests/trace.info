@@ -717,17 +717,17 @@
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903e0(jetbrains.mps.baseLanguage.dates.unittest.tests)/1173787596138">
     <nodeInfo nodeId="9074471975326013017" fileName="BaseTestCase.java" startLine="9" startPosition="0" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="LOGGING_INITIALIZED" />
-    <nodeInfo nodeId="5450502488469480747" fileName="BaseTestCase.java" startLine="15" startPosition="33" endLine="16" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="9074471975326013032" fileName="BaseTestCase.java" startLine="16" startPosition="36" endLine="17" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5450502488469480747" fileName="BaseTestCase.java" startLine="16" startPosition="33" endLine="17" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9074471975326013032" fileName="BaseTestCase.java" startLine="17" startPosition="36" endLine="18" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4352197520301895370" fileName="BaseTestCase.java" startLine="11" startPosition="0" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="BaseTestCase#()V" />
-    <nodeInfo nodeId="9074471975326013024" fileName="BaseTestCase.java" startLine="14" startPosition="23" endLine="18" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="5450502488469342474" fileName="BaseTestCase.java" startLine="14" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setUp#()V" />
+    <nodeInfo nodeId="9074471975326013024" fileName="BaseTestCase.java" startLine="15" startPosition="23" endLine="19" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5450502488469342474" fileName="BaseTestCase.java" startLine="14" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setUp#()V" />
     <scopeInfo nodeId="4352197520301895373" fileName="BaseTestCase.java" startLine="11" startPosition="25" endLine="11" endPosition="25" />
     <scopeInfo nodeId="4352197520301895370" fileName="BaseTestCase.java" startLine="11" startPosition="0" endLine="13" endPosition="0" />
-    <scopeInfo nodeId="9074471975326013025" fileName="BaseTestCase.java" startLine="15" startPosition="33" endLine="17" endPosition="33" />
-    <scopeInfo nodeId="5450502488469342477" fileName="BaseTestCase.java" startLine="14" startPosition="23" endLine="18" endPosition="5" />
-    <scopeInfo nodeId="5450502488469342474" fileName="BaseTestCase.java" startLine="14" startPosition="0" endLine="20" endPosition="0" />
-    <unitInfo nodeId="1173787596138" fileName="BaseTestCase.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.BaseTestCase" />
+    <scopeInfo nodeId="9074471975326013025" fileName="BaseTestCase.java" startLine="16" startPosition="33" endLine="18" endPosition="33" />
+    <scopeInfo nodeId="5450502488469342477" fileName="BaseTestCase.java" startLine="15" startPosition="23" endLine="19" endPosition="5" />
+    <scopeInfo nodeId="5450502488469342474" fileName="BaseTestCase.java" startLine="14" startPosition="0" endLine="21" endPosition="0" />
+    <unitInfo nodeId="1173787596138" fileName="BaseTestCase.java" startLine="8" startPosition="0" endLine="22" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.BaseTestCase" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903e0(jetbrains.mps.baseLanguage.dates.unittest.tests)/1173879639365">
     <nodeInfo nodeId="1173879671315" fileName="IsNull_Test.java" startLine="15" startPosition="46" endLine="16" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />

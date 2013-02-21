@@ -15,6 +15,7 @@
     <classNode extendsClassName="junit.framework.TestCase" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.unittest.tests.BaseTestCase" file="BaseTestCase.java">
+    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="org.apache.log4j.BasicConfigurator" />
     <classNode extendsClassName="junit.framework.TestCase" />
   </dependency>

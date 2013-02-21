@@ -11,6 +11,7 @@ public abstract class BaseTestCase extends TestCase {
   public BaseTestCase() {
   }
 
+  @Override
   public void setUp() {
     if (!(LOGGING_INITIALIZED)) {
       BasicConfigurator.configure();

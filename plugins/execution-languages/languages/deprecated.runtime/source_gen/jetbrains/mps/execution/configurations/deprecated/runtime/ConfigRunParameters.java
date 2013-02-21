@@ -94,6 +94,7 @@ public class ConfigRunParameters implements Cloneable {
     return null;
   }
 
+  @Override
   public Object clone() throws CloneNotSupportedException {
     return super.clone();
   }

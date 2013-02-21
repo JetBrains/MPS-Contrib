@@ -26,6 +26,7 @@ public class BiconnectedInitialEmbeddingFinder implements IEmbeddingFinder {
   public BiconnectedInitialEmbeddingFinder() {
   }
 
+  @Override
   public EmbeddedGraph find(Graph graph) {
     EmbeddedGraph embeddedGraph = new EmbeddedGraph(graph);
     this.findCycle(embeddedGraph);

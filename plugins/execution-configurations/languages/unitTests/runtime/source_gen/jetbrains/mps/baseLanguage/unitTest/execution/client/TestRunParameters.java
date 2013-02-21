@@ -53,6 +53,7 @@ public class TestRunParameters {
     return myClassPath;
   }
 
+  @Override
   public boolean equals(Object obj) {
     if (!(obj instanceof TestRunParameters)) {
       return false;
@@ -64,6 +65,7 @@ public class TestRunParameters {
     return result;
   }
 
+  @Override
   public int hashCode() {
     return myTestRunner.hashCode() + myClassPath.hashCode() + myVmParameters.hashCode();
   }

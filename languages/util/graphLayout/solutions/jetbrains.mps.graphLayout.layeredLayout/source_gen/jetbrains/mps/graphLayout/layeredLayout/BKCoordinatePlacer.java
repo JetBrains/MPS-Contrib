@@ -37,6 +37,7 @@ public class BKCoordinatePlacer implements ICoordinatePlacer {
   public BKCoordinatePlacer() {
   }
 
+  @Override
   public Map<Node, Point> placeCoordinates(Graph graph, NodeLayeredOrder order) {
     this.myGraph = graph;
     this.myOrder = order;

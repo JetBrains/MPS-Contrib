@@ -32,6 +32,7 @@ public class PNode extends PQNode {
     myGraphEdge = graphEdge;
   }
 
+  @Override
   public PQNode processAsPertinentRoot(List<PQNode> children, Node nextGraphNode) {
     ListSequence.fromList(this.getChildren()).removeWhere(new IWhereFilter<PQNode>() {
       public boolean accept(PQNode it) {
@@ -170,6 +171,7 @@ public class PNode extends PQNode {
     }
   }
 
+  @Override
   public PQNode makeReduction(boolean isRealPertinentRoot) {
     int numFull = 0;
     int numPartial = 0;
@@ -228,6 +230,7 @@ public class PNode extends PQNode {
     myGraphNode = node;
   }
 
+  @Override
   public Node getGraphNode() {
     return myGraphNode;
   }
@@ -236,14 +239,17 @@ public class PNode extends PQNode {
     return myGraphEdge;
   }
 
+  @Override
   public String getType() {
     return "P";
   }
 
+  @Override
   public int getAValue() {
     return myAValue;
   }
 
+  @Override
   public void computeAValue() {
     super.computeAValue();
     if (getState() != PQNode.State.PARTIAL) {
@@ -302,6 +308,7 @@ public class PNode extends PQNode {
     }
   }
 
+  @Override
   public void makeADeletion() {
     if (getState() == PQNode.State.FULL || getState() == PQNode.State.EMPTY) {
       return;
@@ -340,10 +347,12 @@ public class PNode extends PQNode {
     }
   }
 
+  @Override
   public int getHValue() {
     return myHValue;
   }
 
+  @Override
   public void computeHValue() {
     super.computeHValue();
     if (getState() != PQNode.State.PARTIAL) {
@@ -374,6 +383,7 @@ public class PNode extends PQNode {
     }
   }
 
+  @Override
   public void makeHDeletion() {
     if (getState() == PQNode.State.FULL || getState() == PQNode.State.EMPTY) {
       return;

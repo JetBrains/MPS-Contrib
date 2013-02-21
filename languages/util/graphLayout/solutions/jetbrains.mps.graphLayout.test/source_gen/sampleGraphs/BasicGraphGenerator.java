@@ -11,6 +11,7 @@ public class BasicGraphGenerator extends AbstractGraphGenerator {
     super(numNodes, minEdges, maxEdges);
   }
 
+  @Override
   protected Graph generateGraph() {
     Graph graph = new Graph();
     for (int i = 0; i < getNumNodes(); i++) {

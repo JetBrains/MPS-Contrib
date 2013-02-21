@@ -24,6 +24,7 @@ public class CreationStageManager implements IGraphModificationListener {
     graph.addListener(this);
   }
 
+  @Override
   public void process(GraphModificationEvent event) {
     switch (event.getType()) {
       case EDGE_ADDED:

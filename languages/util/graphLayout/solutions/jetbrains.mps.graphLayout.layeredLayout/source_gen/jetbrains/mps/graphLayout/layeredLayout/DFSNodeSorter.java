@@ -16,6 +16,7 @@ public class DFSNodeSorter extends Dfs implements INodeSorter {
   public DFSNodeSorter() {
   }
 
+  @Override
   public NodeLayeredOrder sortNodes(Graph graph, Map<Node, Integer> nodeLayers) {
     myNodeLayers = nodeLayers;
     myLayeredOrder = new NodeLayeredOrder(graph);

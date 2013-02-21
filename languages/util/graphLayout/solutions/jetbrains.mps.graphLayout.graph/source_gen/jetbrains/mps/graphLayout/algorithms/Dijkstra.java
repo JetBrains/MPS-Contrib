@@ -101,6 +101,7 @@ public class Dijkstra {
     public NodeComparator() {
     }
 
+    @Override
     public int compare(Node first, Node second) {
       int distCompare = MapSequence.fromMap(myDist).get(first).compareTo(MapSequence.fromMap(myDist).get(second));
       if (distCompare != 0) {

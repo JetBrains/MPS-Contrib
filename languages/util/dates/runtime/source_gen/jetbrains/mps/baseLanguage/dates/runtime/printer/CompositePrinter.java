@@ -15,6 +15,7 @@ public class CompositePrinter implements Printer {
   public CompositePrinter() {
   }
 
+  @Override
   public int estimatePrintedLength() {
     if (myEstimatedPrintLength < 0) {
       myEstimatedPrintLength = 0;
@@ -30,6 +31,7 @@ public class CompositePrinter implements Printer {
     myPrinters.add(printer);
   }
 
+  @Override
   public void printTo(Appendable out, DateTime dateTime, Locale locale) throws IOException {
     for (Printer printer : myPrinters) {
       printer.printTo(out, dateTime, locale);

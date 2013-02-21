@@ -24,6 +24,7 @@ public class ClusteredGraphEmbeddingFinder implements IEmbeddingFinder {
   public ClusteredGraphEmbeddingFinder() {
   }
 
+  @Override
   public EmbeddedGraph find(Graph graph) {
     if (graph instanceof ClusteredGraph) {
       ClusteredGraph clusteredGraph = ((ClusteredGraph) graph);

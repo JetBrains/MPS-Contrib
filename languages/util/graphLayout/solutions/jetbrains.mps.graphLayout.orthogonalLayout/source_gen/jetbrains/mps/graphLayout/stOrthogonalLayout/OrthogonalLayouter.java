@@ -28,6 +28,7 @@ public class OrthogonalLayouter implements IPointLayouter {
   public OrthogonalLayouter() {
   }
 
+  @Override
   public GraphPointLayout doLayout(Graph graph) {
     Map<Node, Integer> components = ConnectivityComponents.getComponents(graph);
     int maxComponent = 0;

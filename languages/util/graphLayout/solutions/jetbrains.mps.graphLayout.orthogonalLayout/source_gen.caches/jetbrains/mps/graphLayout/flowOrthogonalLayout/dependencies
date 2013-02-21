@@ -3,6 +3,7 @@
   <dependency className="jetbrains.mps.graphLayout.flowOrthogonalLayout.AbstractOrthogonalFlowLayouter" file="AbstractOrthogonalFlowLayouter.java">
     <classNode dependClassName="java.lang.Integer" />
     <classNode dependClassName="java.lang.Math" />
+    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.util.ArrayList" />
     <classNode dependClassName="java.util.HashMap" />
     <classNode dependClassName="java.util.HashSet" />
@@ -156,6 +157,7 @@
   <dependency className="jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalFlowLayouter" file="OrthogonalFlowLayouter.java">
     <classNode dependClassName="java.lang.Integer" />
     <classNode dependClassName="java.lang.Math" />
+    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.RuntimeException" />
     <classNode dependClassName="java.lang.System" />
     <classNode dependClassName="java.util.ArrayList" />

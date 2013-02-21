@@ -159,6 +159,7 @@ public class Generator {
       this.myNamesMap = namesMap;
     }
 
+    @Override
     public SNode createDeclaration(ClassInfo ci) {
       String classname = ci.getDeclarationClass().getName();
       String name = this.myNamesMap.getNameForClass(ci.getDeclarationClass());
@@ -172,10 +173,12 @@ public class Generator {
       return decl;
     }
 
+    @Override
     public void addParent(SNode declaration, SNode parent) {
       SLinkOperations.setTarget(declaration, "parentRef", Generator.GENERATOR.createDeclarationReference(parent), true);
     }
 
+    @Override
     public void addInterface(SNode declaration, SNode interfaceDeclaration) {
       for (SNode in : SLinkOperations.getTargets(declaration, "interfaces", true)) {
         if (eq_ixz87t_a0a0a0f9(SPropertyOperations.getString(SLinkOperations.getTarget(in, "declaration", false), "name"), SPropertyOperations.getString(interfaceDeclaration, "name"))) {
@@ -186,6 +189,7 @@ public class Generator {
       ListSequence.fromList(SLinkOperations.getTargets(declaration, "interfaces", true)).addElement(ref);
     }
 
+    @Override
     public void addAttribute(SNode declaration, final ClassInfo.MyAttribute attribute) {
       SNode node = ListSequence.fromList(SLinkOperations.getTargets(declaration, "attributesDecl", true)).where(new IWhereFilter<SNode>() {
         public boolean accept(SNode it) {
@@ -244,6 +248,7 @@ public class Generator {
       }
     }
 
+    @Override
     public void addNested(SNode decl, final SNode nestedDecl, ClassInfo.Nested nested) {
       SNode node = ListSequence.fromList(SLinkOperations.getTargets(decl, "nested", true)).where(new IWhereFilter<SNode>() {
         public boolean accept(SNode it) {
@@ -293,6 +298,7 @@ public class Generator {
       ListSequence.fromList(SLinkOperations.getTargets(declaration, "fakeDeclaration", true)).addElement(fake);
     }
 
+    @Override
     public void updateDeclaration(SNode decl, ClassInfo ci) {
       if (ImportOptions.getInstance().isNeedUpdateDeclarations()) {
         String name = this.myNamesMap.getNameForClass(ci.getDeclarationClass());

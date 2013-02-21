@@ -37,6 +37,7 @@ public class LegacyBeforeTaskProvider extends BeforeRunTaskProvider<LegacyBefore
     return "Make";
   }
 
+  @Override
   public String getDescription(LegacyBeforeTaskProvider.MakeTask task) {
     return "Make";
   }
@@ -69,6 +70,7 @@ public class LegacyBeforeTaskProvider extends BeforeRunTaskProvider<LegacyBefore
     return false;
   }
 
+  @Override
   public boolean canExecuteTask(RunConfiguration configuration, LegacyBeforeTaskProvider.MakeTask task) {
     return true;
   }

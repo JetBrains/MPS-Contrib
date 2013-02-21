@@ -3,6 +3,7 @@
   <dependency className="jetbrains.mps.baseLanguage.dates.runtime.printer.CompositePrinter" file="CompositePrinter.java">
     <classNode dependClassName="java.io.IOException" />
     <classNode dependClassName="java.lang.Appendable" />
+    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.util.LinkedList" />
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="java.util.Locale" />
@@ -13,6 +14,7 @@
     <classNode dependClassName="java.io.IOException" />
     <classNode dependClassName="java.lang.Appendable" />
     <classNode dependClassName="java.lang.Math" />
+    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="java.util.Locale" />
     <classNode dependClassName="org.joda.time.DateTime" />
@@ -21,6 +23,7 @@
   <dependency className="jetbrains.mps.baseLanguage.dates.runtime.printer.LiteralPrinter" file="LiteralPrinter.java">
     <classNode dependClassName="java.io.IOException" />
     <classNode dependClassName="java.lang.Appendable" />
+    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.Locale" />
     <classNode dependClassName="org.joda.time.DateTime" />

@@ -31,6 +31,7 @@ public class LayeredLayouter implements IPointLayouter {
     this.myReverter = reverter;
   }
 
+  @Override
   public GraphPointLayout doLayout(Graph graph) {
     Set<Edge> reverted = myReverter.revertEdges(graph);
     Map<Node, Integer> layers = myLayerer.computeLayers(graph);

@@ -18,6 +18,7 @@ public class SequenceSearchScope extends AbstractSearchScope {
   }
 
   @NotNull
+  @Override
   public List<SNode> getNodes(final Condition<SNode> condition) {
     return Sequence.fromIterable(myNodes).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {

@@ -15,6 +15,7 @@ public class LayererProxy implements ILayerer {
     myLayerer = layerer;
   }
 
+  @Override
   public Map<Node, Integer> computeLayers(Graph graph) throws IllegalArgumentException {
     Map<Node, Integer> layers = myLayerer.computeLayers(graph);
     Assert.assertFalse(CheckLayers.hasBadEdges(graph, layers));

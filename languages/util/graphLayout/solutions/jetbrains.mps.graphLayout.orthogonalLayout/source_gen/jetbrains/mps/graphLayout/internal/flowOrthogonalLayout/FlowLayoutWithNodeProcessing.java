@@ -49,6 +49,7 @@ public class FlowLayoutWithNodeProcessing implements IPointLayouter {
 
   }
 
+  @Override
   public GraphPointLayout doLayout(Graph graph) {
     Graph copy = new Graph();
     Map<Node, Node> nodeMap = MapSequence.fromMap(new HashMap<Node, Node>());

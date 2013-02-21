@@ -23,6 +23,7 @@
     <classNode extendsClassName="jetbrains.mps.graphLayout.graph.GraphCopier" />
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.graph.ClusterNodesAdditionListener" file="ClusterNodesAdditionListener.java">
+    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.ClusteredGraph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.GraphModificationEvent" />
@@ -50,6 +51,7 @@
   <dependency className="jetbrains.mps.graphLayout.graph.CreationStageManager" file="CreationStageManager.java">
     <classNode dependClassName="java.lang.Integer" />
     <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.util.HashMap" />
     <classNode dependClassName="java.util.Map" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
@@ -72,6 +74,7 @@
     <classNode extendsClassName="jetbrains.mps.graphLayout.graph.IEdge" />
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.graph.EdgesHistoryManager" file="EdgesHistoryManager.java">
+    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.RuntimeException" />
     <classNode dependClassName="java.util.HashMap" />
     <classNode dependClassName="java.util.List" />
@@ -142,6 +145,7 @@
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.SetSequence" />
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.graph.GroupedGraphModificationSynchronizer" file="GroupedGraphModificationSynchronizer.java">
+    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.System" />
     <classNode dependClassName="java.util.ArrayList" />
     <classNode dependClassName="java.util.HashMap" />

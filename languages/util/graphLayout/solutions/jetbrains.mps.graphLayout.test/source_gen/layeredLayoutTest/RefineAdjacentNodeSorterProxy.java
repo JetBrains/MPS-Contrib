@@ -19,6 +19,7 @@ public class RefineAdjacentNodeSorterProxy implements INodeSorter {
     mySorter = new LayerByLayerNodeSorter(new AdjacentExhangeNodeSorter(), medianSorter);
   }
 
+  @Override
   public NodeLayeredOrder sortNodes(Graph graph, Map<Node, Integer> layers) {
     NodeLayeredOrder order = mySorter.sortNodes(graph, layers);
     Assert.assertFalse(CheckDummyEdgesCrossing.hasCrosses(order));

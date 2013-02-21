@@ -36,6 +36,7 @@ public class OrthogonalFlowLayouter extends AbstractOrthogonalFlowLayouter {
   public OrthogonalFlowLayouter() {
   }
 
+  @Override
   public GraphLayout getLayoutFromEmbeddedGraph(EmbeddedGraph embeddedGraph, LayoutInfo layoutInfo) {
     if (SHOW_INFO > 0) {
       System.out.println("initial graph: " + embeddedGraph);
@@ -364,6 +365,7 @@ public class OrthogonalFlowLayouter extends AbstractOrthogonalFlowLayouter {
     return new Rectangle(center.x - MapSequence.fromMap(sizes).get(Direction2D.LEFT), center.y - MapSequence.fromMap(sizes).get(Direction2D.DOWN), nodeSize.width, nodeSize.height);
   }
 
+  @Override
   public Edge getLabeledEdge(List<Edge> edges) {
     return ListSequence.fromList(edges).first();
   }

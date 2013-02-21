@@ -1,168 +1,168 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <root nodeRef="r:c20b0f8c-abbe-4eb9-8b1f-6472cf6ea30c(jetbrains.mps.graphLayout.stOrthogonalLayout)/1327612371813201698">
-    <nodeInfo nodeId="1327612371813205071" fileName="OrthogonalFromVisibility.java" startLine="31" startPosition="6" endLine="32" endPosition="121" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="508819492464331041" fileName="OrthogonalFromVisibility.java" startLine="33" startPosition="6" endLine="34" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1327612371813205131" fileName="OrthogonalFromVisibility.java" startLine="34" startPosition="72" endLine="35" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1327612371813205158" fileName="OrthogonalFromVisibility.java" startLine="36" startPosition="86" endLine="37" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1327612371813205175" fileName="OrthogonalFromVisibility.java" startLine="38" startPosition="5" endLine="39" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1327612371813208146" fileName="OrthogonalFromVisibility.java" startLine="39" startPosition="61" endLine="40" endPosition="107" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1418350014056252241" fileName="OrthogonalFromVisibility.java" startLine="40" startPosition="107" endLine="41" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1327612371813208182" fileName="OrthogonalFromVisibility.java" startLine="41" startPosition="43" endLine="42" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4624841703139859098" fileName="OrthogonalFromVisibility.java" startLine="42" startPosition="73" endLine="43" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4624841703139859056" fileName="OrthogonalFromVisibility.java" startLine="46" startPosition="65" endLine="47" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4624841703139858934" fileName="OrthogonalFromVisibility.java" startLine="47" startPosition="43" endLine="48" endPosition="108" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4624841703139858941" fileName="OrthogonalFromVisibility.java" startLine="48" startPosition="108" endLine="49" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4624841703139858953" fileName="OrthogonalFromVisibility.java" startLine="50" startPosition="63" endLine="51" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="903391227141019548" fileName="OrthogonalFromVisibility.java" startLine="51" startPosition="65" endLine="52" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="903391227141019577" fileName="OrthogonalFromVisibility.java" startLine="53" startPosition="64" endLine="54" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="903391227141019626" fileName="OrthogonalFromVisibility.java" startLine="57" startPosition="43" endLine="58" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="903391227141019658" fileName="OrthogonalFromVisibility.java" startLine="60" startPosition="32" endLine="61" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="903391227141019635" fileName="OrthogonalFromVisibility.java" startLine="61" startPosition="58" endLine="62" endPosition="98" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4624841703139858959" fileName="OrthogonalFromVisibility.java" startLine="63" startPosition="8" endLine="64" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4624841703139858984" fileName="OrthogonalFromVisibility.java" startLine="67" startPosition="63" endLine="68" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4624841703139858990" fileName="OrthogonalFromVisibility.java" startLine="68" startPosition="65" endLine="69" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4624841703139858997" fileName="OrthogonalFromVisibility.java" startLine="69" startPosition="73" endLine="70" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4624841703139859007" fileName="OrthogonalFromVisibility.java" startLine="70" startPosition="86" endLine="71" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4624841703139859019" fileName="OrthogonalFromVisibility.java" startLine="71" startPosition="74" endLine="72" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4624841703139859035" fileName="OrthogonalFromVisibility.java" startLine="72" startPosition="88" endLine="73" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4624841703139859045" fileName="OrthogonalFromVisibility.java" startLine="73" startPosition="86" endLine="74" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4624841703139859051" fileName="OrthogonalFromVisibility.java" startLine="75" startPosition="5" endLine="76" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1327612371813205071" fileName="OrthogonalFromVisibility.java" startLine="32" startPosition="6" endLine="33" endPosition="121" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="508819492464331041" fileName="OrthogonalFromVisibility.java" startLine="34" startPosition="6" endLine="35" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1327612371813205131" fileName="OrthogonalFromVisibility.java" startLine="35" startPosition="72" endLine="36" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1327612371813205158" fileName="OrthogonalFromVisibility.java" startLine="37" startPosition="86" endLine="38" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1327612371813205175" fileName="OrthogonalFromVisibility.java" startLine="39" startPosition="5" endLine="40" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1327612371813208146" fileName="OrthogonalFromVisibility.java" startLine="40" startPosition="61" endLine="41" endPosition="107" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1418350014056252241" fileName="OrthogonalFromVisibility.java" startLine="41" startPosition="107" endLine="42" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1327612371813208182" fileName="OrthogonalFromVisibility.java" startLine="42" startPosition="43" endLine="43" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4624841703139859098" fileName="OrthogonalFromVisibility.java" startLine="43" startPosition="73" endLine="44" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4624841703139859056" fileName="OrthogonalFromVisibility.java" startLine="47" startPosition="65" endLine="48" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4624841703139858934" fileName="OrthogonalFromVisibility.java" startLine="48" startPosition="43" endLine="49" endPosition="108" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4624841703139858941" fileName="OrthogonalFromVisibility.java" startLine="49" startPosition="108" endLine="50" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4624841703139858953" fileName="OrthogonalFromVisibility.java" startLine="51" startPosition="63" endLine="52" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="903391227141019548" fileName="OrthogonalFromVisibility.java" startLine="52" startPosition="65" endLine="53" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="903391227141019577" fileName="OrthogonalFromVisibility.java" startLine="54" startPosition="64" endLine="55" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="903391227141019626" fileName="OrthogonalFromVisibility.java" startLine="58" startPosition="43" endLine="59" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="903391227141019658" fileName="OrthogonalFromVisibility.java" startLine="61" startPosition="32" endLine="62" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="903391227141019635" fileName="OrthogonalFromVisibility.java" startLine="62" startPosition="58" endLine="63" endPosition="98" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4624841703139858959" fileName="OrthogonalFromVisibility.java" startLine="64" startPosition="8" endLine="65" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4624841703139858984" fileName="OrthogonalFromVisibility.java" startLine="68" startPosition="63" endLine="69" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4624841703139858990" fileName="OrthogonalFromVisibility.java" startLine="69" startPosition="65" endLine="70" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4624841703139858997" fileName="OrthogonalFromVisibility.java" startLine="70" startPosition="73" endLine="71" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4624841703139859007" fileName="OrthogonalFromVisibility.java" startLine="71" startPosition="86" endLine="72" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4624841703139859019" fileName="OrthogonalFromVisibility.java" startLine="72" startPosition="74" endLine="73" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4624841703139859035" fileName="OrthogonalFromVisibility.java" startLine="73" startPosition="88" endLine="74" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4624841703139859045" fileName="OrthogonalFromVisibility.java" startLine="74" startPosition="86" endLine="75" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4624841703139859051" fileName="OrthogonalFromVisibility.java" startLine="76" startPosition="5" endLine="77" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1327612371813201700" fileName="OrthogonalFromVisibility.java" startLine="27" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="OrthogonalFromVisibility#()V" />
-    <nodeInfo nodeId="6074874003310511087" fileName="OrthogonalFromVisibility.java" startLine="30" startPosition="49" endLine="33" endPosition="6" conceptFqName="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock" />
-    <nodeInfo nodeId="1327612371813205143" fileName="OrthogonalFromVisibility.java" startLine="35" startPosition="73" endLine="38" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="903391227141019561" fileName="OrthogonalFromVisibility.java" startLine="52" startPosition="77" endLine="55" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="903391227141019621" fileName="OrthogonalFromVisibility.java" startLine="57" startPosition="0" endLine="60" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Ljava/lang/Integer;)Ljava/lang/Integer;" />
-    <nodeInfo nodeId="903391227141019559" fileName="OrthogonalFromVisibility.java" startLine="62" startPosition="98" endLine="65" endPosition="8" conceptFqName="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock" />
-    <nodeInfo nodeId="903391227141019596" fileName="OrthogonalFromVisibility.java" startLine="55" startPosition="7" endLine="60" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4624841703139858978" fileName="OrthogonalFromVisibility.java" startLine="66" startPosition="5" endLine="75" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="1327612371813201704" fileName="OrthogonalFromVisibility.java" startLine="30" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doLayout#(Ljetbrains/mps/graphLayout/graph/Graph;)Ljetbrains/mps/graphLayout/graphLayout/GraphPointLayout;" />
-    <nodeInfo nodeId="4624841703139858947" fileName="OrthogonalFromVisibility.java" startLine="49" startPosition="58" endLine="66" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="4624841703139858921" fileName="OrthogonalFromVisibility.java" startLine="46" startPosition="0" endLine="78" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doLayout#(Ljetbrains/mps/graphLayout/planarGraph/STPlanarGraph;)Ljetbrains/mps/graphLayout/graphLayout/GraphPointLayout;" />
+    <nodeInfo nodeId="6074874003310511087" fileName="OrthogonalFromVisibility.java" startLine="31" startPosition="49" endLine="34" endPosition="6" conceptFqName="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock" />
+    <nodeInfo nodeId="1327612371813205143" fileName="OrthogonalFromVisibility.java" startLine="36" startPosition="73" endLine="39" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="903391227141019561" fileName="OrthogonalFromVisibility.java" startLine="53" startPosition="77" endLine="56" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="903391227141019621" fileName="OrthogonalFromVisibility.java" startLine="58" startPosition="0" endLine="61" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Ljava/lang/Integer;)Ljava/lang/Integer;" />
+    <nodeInfo nodeId="903391227141019559" fileName="OrthogonalFromVisibility.java" startLine="63" startPosition="98" endLine="66" endPosition="8" conceptFqName="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock" />
+    <nodeInfo nodeId="903391227141019596" fileName="OrthogonalFromVisibility.java" startLine="56" startPosition="7" endLine="61" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4624841703139858978" fileName="OrthogonalFromVisibility.java" startLine="67" startPosition="5" endLine="76" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="1327612371813201704" fileName="OrthogonalFromVisibility.java" startLine="30" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doLayout#(Ljetbrains/mps/graphLayout/graph/Graph;)Ljetbrains/mps/graphLayout/graphLayout/GraphPointLayout;" />
+    <nodeInfo nodeId="4624841703139858947" fileName="OrthogonalFromVisibility.java" startLine="50" startPosition="58" endLine="67" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="4624841703139858921" fileName="OrthogonalFromVisibility.java" startLine="47" startPosition="0" endLine="79" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doLayout#(Ljetbrains/mps/graphLayout/planarGraph/STPlanarGraph;)Ljetbrains/mps/graphLayout/graphLayout/GraphPointLayout;" />
     <scopeInfo nodeId="1327612371813201703" fileName="OrthogonalFromVisibility.java" startLine="27" startPosition="37" endLine="27" endPosition="37" />
-    <scopeInfo nodeId="1327612371813205146" fileName="OrthogonalFromVisibility.java" startLine="36" startPosition="86" endLine="37" endPosition="69" />
-    <scopeInfo nodeId="903391227141019564" fileName="OrthogonalFromVisibility.java" startLine="53" startPosition="64" endLine="54" endPosition="94" />
-    <scopeInfo nodeId="903391227141019622" fileName="OrthogonalFromVisibility.java" startLine="57" startPosition="43" endLine="58" endPosition="20" />
+    <scopeInfo nodeId="1327612371813205146" fileName="OrthogonalFromVisibility.java" startLine="37" startPosition="86" endLine="38" endPosition="69" />
+    <scopeInfo nodeId="903391227141019564" fileName="OrthogonalFromVisibility.java" startLine="54" startPosition="64" endLine="55" endPosition="94" />
+    <scopeInfo nodeId="903391227141019622" fileName="OrthogonalFromVisibility.java" startLine="58" startPosition="43" endLine="59" endPosition="20" />
     <scopeInfo nodeId="1327612371813201700" fileName="OrthogonalFromVisibility.java" startLine="27" startPosition="0" endLine="29" endPosition="0" />
-    <scopeInfo nodeId="1327612371813205143" fileName="OrthogonalFromVisibility.java" startLine="35" startPosition="73" endLine="38" endPosition="5">
+    <scopeInfo nodeId="1327612371813205143" fileName="OrthogonalFromVisibility.java" startLine="36" startPosition="73" endLine="39" endPosition="5">
       <varInfo nodeId="1327612371813205144" varName="dart" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141019561" fileName="OrthogonalFromVisibility.java" startLine="52" startPosition="77" endLine="55" endPosition="7">
+    <scopeInfo nodeId="903391227141019561" fileName="OrthogonalFromVisibility.java" startLine="53" startPosition="77" endLine="56" endPosition="7">
       <varInfo nodeId="903391227141019562" varName="edge" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141019621" fileName="OrthogonalFromVisibility.java" startLine="57" startPosition="0" endLine="60" endPosition="0">
+    <scopeInfo nodeId="903391227141019621" fileName="OrthogonalFromVisibility.java" startLine="58" startPosition="0" endLine="61" endPosition="0">
       <varInfo nodeId="903391227141019621" varName="it" />
     </scopeInfo>
-    <scopeInfo nodeId="4624841703139858983" fileName="OrthogonalFromVisibility.java" startLine="67" startPosition="63" endLine="74" endPosition="40">
+    <scopeInfo nodeId="4624841703139858983" fileName="OrthogonalFromVisibility.java" startLine="68" startPosition="63" endLine="75" endPosition="40">
       <varInfo nodeId="4624841703139858991" varName="points" />
       <varInfo nodeId="4624841703139858985" varName="rect" />
     </scopeInfo>
-    <scopeInfo nodeId="4624841703139858978" fileName="OrthogonalFromVisibility.java" startLine="66" startPosition="5" endLine="75" endPosition="5">
+    <scopeInfo nodeId="4624841703139858978" fileName="OrthogonalFromVisibility.java" startLine="67" startPosition="5" endLine="76" endPosition="5">
       <varInfo nodeId="4624841703139858979" varName="edge" />
     </scopeInfo>
-    <scopeInfo nodeId="1327612371813201707" fileName="OrthogonalFromVisibility.java" startLine="30" startPosition="49" endLine="43" endPosition="35">
+    <scopeInfo nodeId="1327612371813201707" fileName="OrthogonalFromVisibility.java" startLine="31" startPosition="49" endLine="44" endPosition="35">
       <varInfo nodeId="508819492464331042" varName="embeddedGraph" />
       <varInfo nodeId="1327612371813205132" varName="outerNodes" />
       <varInfo nodeId="1327612371813205176" varName="s" />
       <varInfo nodeId="1327612371813208183" varName="stPlanarGraph" />
       <varInfo nodeId="1327612371813208147" varName="t" />
     </scopeInfo>
-    <scopeInfo nodeId="1327612371813201704" fileName="OrthogonalFromVisibility.java" startLine="30" startPosition="0" endLine="45" endPosition="0">
-      <varInfo nodeId="1327612371813205053" varName="graph" />
-    </scopeInfo>
-    <scopeInfo nodeId="4624841703139858952" fileName="OrthogonalFromVisibility.java" startLine="50" startPosition="63" endLine="65" endPosition="8">
+    <scopeInfo nodeId="4624841703139858952" fileName="OrthogonalFromVisibility.java" startLine="51" startPosition="63" endLine="66" endPosition="8">
       <varInfo nodeId="903391227141019549" varName="edgesX" />
       <varInfo nodeId="903391227141019659" varName="mid" />
       <varInfo nodeId="4624841703139858954" varName="rect" />
     </scopeInfo>
-    <scopeInfo nodeId="4624841703139858947" fileName="OrthogonalFromVisibility.java" startLine="49" startPosition="58" endLine="66" endPosition="5">
+    <scopeInfo nodeId="1327612371813201704" fileName="OrthogonalFromVisibility.java" startLine="30" startPosition="0" endLine="46" endPosition="0">
+      <varInfo nodeId="1327612371813205053" varName="graph" />
+    </scopeInfo>
+    <scopeInfo nodeId="4624841703139858947" fileName="OrthogonalFromVisibility.java" startLine="50" startPosition="58" endLine="67" endPosition="5">
       <varInfo nodeId="4624841703139858948" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="4624841703139858924" fileName="OrthogonalFromVisibility.java" startLine="46" startPosition="65" endLine="76" endPosition="18">
+    <scopeInfo nodeId="4624841703139858924" fileName="OrthogonalFromVisibility.java" startLine="47" startPosition="65" endLine="77" endPosition="18">
       <varInfo nodeId="4624841703139859057" varName="graph" />
       <varInfo nodeId="4624841703139858942" varName="layout" />
       <varInfo nodeId="4624841703139858935" varName="visibility" />
     </scopeInfo>
-    <scopeInfo nodeId="4624841703139858921" fileName="OrthogonalFromVisibility.java" startLine="46" startPosition="0" endLine="78" endPosition="0">
+    <scopeInfo nodeId="4624841703139858921" fileName="OrthogonalFromVisibility.java" startLine="47" startPosition="0" endLine="79" endPosition="0">
       <varInfo nodeId="4624841703139858925" varName="stPlanarGraph" />
     </scopeInfo>
-    <unitInfo nodeId="903391227141019621" fileName="OrthogonalFromVisibility.java" startLine="56" startPosition="54" endLine="60" endPosition="7" unitName="jetbrains.mps.graphLayout.stOrthogonalLayout.OrthogonalFromVisibility$1" />
-    <unitInfo nodeId="1327612371813201698" fileName="OrthogonalFromVisibility.java" startLine="26" startPosition="0" endLine="79" endPosition="0" unitName="jetbrains.mps.graphLayout.stOrthogonalLayout.OrthogonalFromVisibility" />
+    <unitInfo nodeId="903391227141019621" fileName="OrthogonalFromVisibility.java" startLine="57" startPosition="54" endLine="61" endPosition="7" unitName="jetbrains.mps.graphLayout.stOrthogonalLayout.OrthogonalFromVisibility$1" />
+    <unitInfo nodeId="1327612371813201698" fileName="OrthogonalFromVisibility.java" startLine="26" startPosition="0" endLine="80" endPosition="0" unitName="jetbrains.mps.graphLayout.stOrthogonalLayout.OrthogonalFromVisibility" />
   </root>
   <root nodeRef="r:c20b0f8c-abbe-4eb9-8b1f-6472cf6ea30c(jetbrains.mps.graphLayout.stOrthogonalLayout)/5213231752900665239">
-    <nodeInfo nodeId="5213231752900665251" fileName="OrthogonalLayouter.java" startLine="31" startPosition="49" endLine="32" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5213231752900665487" fileName="OrthogonalLayouter.java" startLine="32" startPosition="80" endLine="33" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5213231752900665503" fileName="OrthogonalLayouter.java" startLine="34" startPosition="63" endLine="35" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5213231752900665442" fileName="OrthogonalLayouter.java" startLine="36" startPosition="5" endLine="37" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5213231752900665463" fileName="OrthogonalLayouter.java" startLine="37" startPosition="56" endLine="38" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5213231752900665532" fileName="OrthogonalLayouter.java" startLine="39" startPosition="45" endLine="40" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5213231752900665552" fileName="OrthogonalLayouter.java" startLine="42" startPosition="63" endLine="43" endPosition="110" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5213231752900665569" fileName="OrthogonalLayouter.java" startLine="43" startPosition="110" endLine="44" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1763712338172397393" fileName="OrthogonalLayouter.java" startLine="46" startPosition="63" endLine="47" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1763712338172397422" fileName="OrthogonalLayouter.java" startLine="47" startPosition="72" endLine="48" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1763712338172397433" fileName="OrthogonalLayouter.java" startLine="48" startPosition="41" endLine="49" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5213231752900665646" fileName="OrthogonalLayouter.java" startLine="52" startPosition="63" endLine="53" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4624841703139842802" fileName="OrthogonalLayouter.java" startLine="55" startPosition="6" endLine="56" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4624841703139842367" fileName="OrthogonalLayouter.java" startLine="59" startPosition="53" endLine="60" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="903391227141007421" fileName="OrthogonalLayouter.java" startLine="60" startPosition="49" endLine="61" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4624841703139842382" fileName="OrthogonalLayouter.java" startLine="61" startPosition="45" endLine="62" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4624841703139867937" fileName="OrthogonalLayouter.java" startLine="62" startPosition="68" endLine="63" endPosition="119" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6074874003310509175" fileName="OrthogonalLayouter.java" startLine="63" startPosition="119" endLine="64" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6074874003310509190" fileName="OrthogonalLayouter.java" startLine="65" startPosition="86" endLine="66" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="903391227141007431" fileName="OrthogonalLayouter.java" startLine="69" startPosition="38" endLine="70" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6074874003310509197" fileName="OrthogonalLayouter.java" startLine="72" startPosition="24" endLine="73" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6074874003310509204" fileName="OrthogonalLayouter.java" startLine="73" startPosition="61" endLine="74" endPosition="107" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4624841703139867607" fileName="OrthogonalLayouter.java" startLine="74" startPosition="107" endLine="75" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4624841703139859105" fileName="OrthogonalLayouter.java" startLine="75" startPosition="43" endLine="76" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4624841703139842783" fileName="OrthogonalLayouter.java" startLine="76" startPosition="73" endLine="77" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5213231752900665251" fileName="OrthogonalLayouter.java" startLine="32" startPosition="49" endLine="33" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5213231752900665487" fileName="OrthogonalLayouter.java" startLine="33" startPosition="80" endLine="34" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5213231752900665503" fileName="OrthogonalLayouter.java" startLine="35" startPosition="63" endLine="36" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5213231752900665442" fileName="OrthogonalLayouter.java" startLine="37" startPosition="5" endLine="38" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5213231752900665463" fileName="OrthogonalLayouter.java" startLine="38" startPosition="56" endLine="39" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5213231752900665532" fileName="OrthogonalLayouter.java" startLine="40" startPosition="45" endLine="41" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5213231752900665552" fileName="OrthogonalLayouter.java" startLine="43" startPosition="63" endLine="44" endPosition="110" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5213231752900665569" fileName="OrthogonalLayouter.java" startLine="44" startPosition="110" endLine="45" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1763712338172397393" fileName="OrthogonalLayouter.java" startLine="47" startPosition="63" endLine="48" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1763712338172397422" fileName="OrthogonalLayouter.java" startLine="48" startPosition="72" endLine="49" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1763712338172397433" fileName="OrthogonalLayouter.java" startLine="49" startPosition="41" endLine="50" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5213231752900665646" fileName="OrthogonalLayouter.java" startLine="53" startPosition="63" endLine="54" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4624841703139842802" fileName="OrthogonalLayouter.java" startLine="56" startPosition="6" endLine="57" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4624841703139842367" fileName="OrthogonalLayouter.java" startLine="60" startPosition="53" endLine="61" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="903391227141007421" fileName="OrthogonalLayouter.java" startLine="61" startPosition="49" endLine="62" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4624841703139842382" fileName="OrthogonalLayouter.java" startLine="62" startPosition="45" endLine="63" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4624841703139867937" fileName="OrthogonalLayouter.java" startLine="63" startPosition="68" endLine="64" endPosition="119" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6074874003310509175" fileName="OrthogonalLayouter.java" startLine="64" startPosition="119" endLine="65" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6074874003310509190" fileName="OrthogonalLayouter.java" startLine="66" startPosition="86" endLine="67" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="903391227141007431" fileName="OrthogonalLayouter.java" startLine="70" startPosition="38" endLine="71" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6074874003310509197" fileName="OrthogonalLayouter.java" startLine="73" startPosition="24" endLine="74" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6074874003310509204" fileName="OrthogonalLayouter.java" startLine="74" startPosition="61" endLine="75" endPosition="107" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4624841703139867607" fileName="OrthogonalLayouter.java" startLine="75" startPosition="107" endLine="76" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4624841703139859105" fileName="OrthogonalLayouter.java" startLine="76" startPosition="43" endLine="77" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4624841703139842783" fileName="OrthogonalLayouter.java" startLine="77" startPosition="73" endLine="78" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="5213231752900665241" fileName="OrthogonalLayouter.java" startLine="28" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="OrthogonalLayouter#()V" />
-    <nodeInfo nodeId="5213231752900665493" fileName="OrthogonalLayouter.java" startLine="33" startPosition="25" endLine="36" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="5213231752900665517" fileName="OrthogonalLayouter.java" startLine="38" startPosition="74" endLine="41" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="5213231752900665629" fileName="OrthogonalLayouter.java" startLine="51" startPosition="6" endLine="54" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="6074874003310509182" fileName="OrthogonalLayouter.java" startLine="64" startPosition="73" endLine="67" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="6074874003310509229" fileName="OrthogonalLayouter.java" startLine="69" startPosition="0" endLine="72" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/graphLayout/graph/Node;)Z" />
-    <nodeInfo nodeId="5213231752900665431" fileName="OrthogonalLayouter.java" startLine="41" startPosition="5" endLine="45" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="5213231752900665586" fileName="OrthogonalLayouter.java" startLine="45" startPosition="5" endLine="50" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="4624841703139842800" fileName="OrthogonalLayouter.java" startLine="50" startPosition="5" endLine="55" endPosition="6" conceptFqName="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock" />
-    <nodeInfo nodeId="6074874003310509218" fileName="OrthogonalLayouter.java" startLine="67" startPosition="5" endLine="72" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5213231752900665640" fileName="OrthogonalLayouter.java" startLine="59" startPosition="0" endLine="79" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="findSTLayout#(Ljetbrains/mps/graphLayout/graph/Graph;)Ljetbrains/mps/graphLayout/graphLayout/GraphPointLayout;" />
-    <nodeInfo nodeId="5213231752900665245" fileName="OrthogonalLayouter.java" startLine="31" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doLayout#(Ljetbrains/mps/graphLayout/graph/Graph;)Ljetbrains/mps/graphLayout/graphLayout/GraphPointLayout;" />
+    <nodeInfo nodeId="5213231752900665493" fileName="OrthogonalLayouter.java" startLine="34" startPosition="25" endLine="37" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="5213231752900665517" fileName="OrthogonalLayouter.java" startLine="39" startPosition="74" endLine="42" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
+    <nodeInfo nodeId="5213231752900665629" fileName="OrthogonalLayouter.java" startLine="52" startPosition="6" endLine="55" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="6074874003310509182" fileName="OrthogonalLayouter.java" startLine="65" startPosition="73" endLine="68" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="6074874003310509229" fileName="OrthogonalLayouter.java" startLine="70" startPosition="0" endLine="73" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/graphLayout/graph/Node;)Z" />
+    <nodeInfo nodeId="5213231752900665431" fileName="OrthogonalLayouter.java" startLine="42" startPosition="5" endLine="46" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="5213231752900665586" fileName="OrthogonalLayouter.java" startLine="46" startPosition="5" endLine="51" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="4624841703139842800" fileName="OrthogonalLayouter.java" startLine="51" startPosition="5" endLine="56" endPosition="6" conceptFqName="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock" />
+    <nodeInfo nodeId="6074874003310509218" fileName="OrthogonalLayouter.java" startLine="68" startPosition="5" endLine="73" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5213231752900665640" fileName="OrthogonalLayouter.java" startLine="60" startPosition="0" endLine="80" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="findSTLayout#(Ljetbrains/mps/graphLayout/graph/Graph;)Ljetbrains/mps/graphLayout/graphLayout/GraphPointLayout;" />
+    <nodeInfo nodeId="5213231752900665245" fileName="OrthogonalLayouter.java" startLine="31" startPosition="0" endLine="59" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doLayout#(Ljetbrains/mps/graphLayout/graph/Graph;)Ljetbrains/mps/graphLayout/graphLayout/GraphPointLayout;" />
     <scopeInfo nodeId="5213231752900665244" fileName="OrthogonalLayouter.java" startLine="28" startPosition="31" endLine="28" endPosition="31" />
-    <scopeInfo nodeId="5213231752900665496" fileName="OrthogonalLayouter.java" startLine="34" startPosition="63" endLine="35" endPosition="87" />
-    <scopeInfo nodeId="5213231752900665518" fileName="OrthogonalLayouter.java" startLine="39" startPosition="45" endLine="40" endPosition="63" />
-    <scopeInfo nodeId="5213231752900665632" fileName="OrthogonalLayouter.java" startLine="52" startPosition="63" endLine="53" endPosition="28" />
-    <scopeInfo nodeId="6074874003310509189" fileName="OrthogonalLayouter.java" startLine="65" startPosition="86" endLine="66" endPosition="69" />
-    <scopeInfo nodeId="6074874003310509230" fileName="OrthogonalLayouter.java" startLine="69" startPosition="38" endLine="70" endPosition="40" />
+    <scopeInfo nodeId="5213231752900665496" fileName="OrthogonalLayouter.java" startLine="35" startPosition="63" endLine="36" endPosition="87" />
+    <scopeInfo nodeId="5213231752900665518" fileName="OrthogonalLayouter.java" startLine="40" startPosition="45" endLine="41" endPosition="63" />
+    <scopeInfo nodeId="5213231752900665632" fileName="OrthogonalLayouter.java" startLine="53" startPosition="63" endLine="54" endPosition="28" />
+    <scopeInfo nodeId="6074874003310509189" fileName="OrthogonalLayouter.java" startLine="66" startPosition="86" endLine="67" endPosition="69" />
+    <scopeInfo nodeId="6074874003310509230" fileName="OrthogonalLayouter.java" startLine="70" startPosition="38" endLine="71" endPosition="40" />
     <scopeInfo nodeId="5213231752900665241" fileName="OrthogonalLayouter.java" startLine="28" startPosition="0" endLine="30" endPosition="0" />
-    <scopeInfo nodeId="5213231752900665434" fileName="OrthogonalLayouter.java" startLine="42" startPosition="63" endLine="44" endPosition="69">
+    <scopeInfo nodeId="5213231752900665434" fileName="OrthogonalLayouter.java" startLine="43" startPosition="63" endLine="45" endPosition="69">
       <varInfo nodeId="5213231752900665553" varName="subgraph" />
     </scopeInfo>
-    <scopeInfo nodeId="5213231752900665493" fileName="OrthogonalLayouter.java" startLine="33" startPosition="25" endLine="36" endPosition="5">
+    <scopeInfo nodeId="5213231752900665493" fileName="OrthogonalLayouter.java" startLine="34" startPosition="25" endLine="37" endPosition="5">
       <varInfo nodeId="5213231752900665494" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="5213231752900665517" fileName="OrthogonalLayouter.java" startLine="38" startPosition="74" endLine="41" endPosition="5">
+    <scopeInfo nodeId="5213231752900665517" fileName="OrthogonalLayouter.java" startLine="39" startPosition="74" endLine="42" endPosition="5">
       <varInfo nodeId="5213231752900665520" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="5213231752900665589" fileName="OrthogonalLayouter.java" startLine="46" startPosition="63" endLine="49" endPosition="84">
+    <scopeInfo nodeId="5213231752900665589" fileName="OrthogonalLayouter.java" startLine="47" startPosition="63" endLine="50" endPosition="84">
       <varInfo nodeId="1763712338172397394" varName="source" />
       <varInfo nodeId="1763712338172397423" varName="subgraph" />
     </scopeInfo>
-    <scopeInfo nodeId="5213231752900665629" fileName="OrthogonalLayouter.java" startLine="51" startPosition="6" endLine="54" endPosition="7">
+    <scopeInfo nodeId="5213231752900665629" fileName="OrthogonalLayouter.java" startLine="52" startPosition="6" endLine="55" endPosition="7">
       <varInfo nodeId="5213231752900665630" varName="subgraph" />
     </scopeInfo>
-    <scopeInfo nodeId="6074874003310509182" fileName="OrthogonalLayouter.java" startLine="64" startPosition="73" endLine="67" endPosition="5">
+    <scopeInfo nodeId="6074874003310509182" fileName="OrthogonalLayouter.java" startLine="65" startPosition="73" endLine="68" endPosition="5">
       <varInfo nodeId="6074874003310509183" varName="dart" />
     </scopeInfo>
-    <scopeInfo nodeId="6074874003310509229" fileName="OrthogonalLayouter.java" startLine="69" startPosition="0" endLine="72" endPosition="0">
+    <scopeInfo nodeId="6074874003310509229" fileName="OrthogonalLayouter.java" startLine="70" startPosition="0" endLine="73" endPosition="0">
       <varInfo nodeId="6074874003310509229" varName="it" />
     </scopeInfo>
-    <scopeInfo nodeId="5213231752900665431" fileName="OrthogonalLayouter.java" startLine="41" startPosition="5" endLine="45" endPosition="5">
+    <scopeInfo nodeId="5213231752900665431" fileName="OrthogonalLayouter.java" startLine="42" startPosition="5" endLine="46" endPosition="5">
       <varInfo nodeId="5213231752900665432" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="5213231752900665586" fileName="OrthogonalLayouter.java" startLine="45" startPosition="5" endLine="50" endPosition="5">
+    <scopeInfo nodeId="5213231752900665586" fileName="OrthogonalLayouter.java" startLine="46" startPosition="5" endLine="51" endPosition="5">
       <varInfo nodeId="5213231752900665587" varName="edge" />
     </scopeInfo>
-    <scopeInfo nodeId="5213231752900665643" fileName="OrthogonalLayouter.java" startLine="59" startPosition="53" endLine="77" endPosition="66">
+    <scopeInfo nodeId="5213231752900665643" fileName="OrthogonalLayouter.java" startLine="60" startPosition="53" endLine="78" endPosition="66">
       <varInfo nodeId="4624841703139867938" varName="embeddedGraph" />
       <varInfo nodeId="4624841703139842383" varName="embeddingFinder" />
       <varInfo nodeId="903391227141007422" varName="maxIndex" />
@@ -171,20 +171,20 @@
       <varInfo nodeId="4624841703139859106" varName="stPlanarGraph" />
       <varInfo nodeId="6074874003310509205" varName="t" />
     </scopeInfo>
-    <scopeInfo nodeId="5213231752900665640" fileName="OrthogonalLayouter.java" startLine="59" startPosition="0" endLine="79" endPosition="0">
+    <scopeInfo nodeId="5213231752900665640" fileName="OrthogonalLayouter.java" startLine="60" startPosition="0" endLine="80" endPosition="0">
       <varInfo nodeId="5213231752900665644" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="5213231752900665248" fileName="OrthogonalLayouter.java" startLine="31" startPosition="49" endLine="56" endPosition="72">
+    <scopeInfo nodeId="5213231752900665248" fileName="OrthogonalLayouter.java" startLine="32" startPosition="49" endLine="57" endPosition="72">
       <varInfo nodeId="5213231752900665252" varName="components" />
       <varInfo nodeId="5213231752900665488" varName="maxComponent" />
       <varInfo nodeId="5213231752900665443" varName="newNodes" />
       <varInfo nodeId="5213231752900665464" varName="subgraphs" />
     </scopeInfo>
-    <scopeInfo nodeId="5213231752900665245" fileName="OrthogonalLayouter.java" startLine="31" startPosition="0" endLine="58" endPosition="0">
+    <scopeInfo nodeId="5213231752900665245" fileName="OrthogonalLayouter.java" startLine="31" startPosition="0" endLine="59" endPosition="0">
       <varInfo nodeId="5213231752900665249" varName="graph" />
     </scopeInfo>
-    <unitInfo nodeId="6074874003310509229" fileName="OrthogonalLayouter.java" startLine="68" startPosition="61" endLine="72" endPosition="5" unitName="jetbrains.mps.graphLayout.stOrthogonalLayout.OrthogonalLayouter$1" />
-    <unitInfo nodeId="5213231752900665239" fileName="OrthogonalLayouter.java" startLine="27" startPosition="0" endLine="80" endPosition="0" unitName="jetbrains.mps.graphLayout.stOrthogonalLayout.OrthogonalLayouter" />
+    <unitInfo nodeId="6074874003310509229" fileName="OrthogonalLayouter.java" startLine="69" startPosition="61" endLine="73" endPosition="5" unitName="jetbrains.mps.graphLayout.stOrthogonalLayout.OrthogonalLayouter$1" />
+    <unitInfo nodeId="5213231752900665239" fileName="OrthogonalLayouter.java" startLine="27" startPosition="0" endLine="81" endPosition="0" unitName="jetbrains.mps.graphLayout.stOrthogonalLayout.OrthogonalLayouter" />
   </root>
   <root nodeRef="r:c20b0f8c-abbe-4eb9-8b1f-6472cf6ea30c(jetbrains.mps.graphLayout.stOrthogonalLayout)/6494745554568982379">
     <nodeInfo nodeId="6494745554568987856" fileName="LayoutOptimizer.java" startLine="22" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myLayout" />

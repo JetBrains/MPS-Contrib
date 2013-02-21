@@ -23,6 +23,7 @@ public class ClusterGraphGenerator extends AbstractGraphGenerator {
     myNumClusters = numClusters;
   }
 
+  @Override
   protected ClusteredGraph generateGraph() {
     Graph graph = myGraphGenerator.generate();
     ClusteredGraph clusteredGraph = new ClusteredGraph();

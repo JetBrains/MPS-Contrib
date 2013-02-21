@@ -38,6 +38,7 @@
   <dependency className="jetbrains.mps.graphLayout.stOrthogonalLayout.OrthogonalFromVisibility" file="OrthogonalFromVisibility.java">
     <classNode dependClassName="java.lang.Integer" />
     <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.util.ArrayList" />
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="java.util.Map" />
@@ -63,6 +64,7 @@
   <dependency className="jetbrains.mps.graphLayout.stOrthogonalLayout.OrthogonalLayouter" file="OrthogonalLayouter.java">
     <classNode dependClassName="java.lang.Integer" />
     <classNode dependClassName="java.lang.Math" />
+    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.util.ArrayList" />
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="java.util.Map" />

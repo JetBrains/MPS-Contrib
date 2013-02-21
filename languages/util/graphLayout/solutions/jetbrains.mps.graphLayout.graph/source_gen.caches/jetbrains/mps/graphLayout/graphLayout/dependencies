@@ -3,6 +3,7 @@
   <dependency className="jetbrains.mps.graphLayout.graphLayout.BasicLayouter" file="BasicLayouter.java">
     <classNode dependClassName="java.lang.Integer" />
     <classNode dependClassName="java.lang.Math" />
+    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.util.ArrayList" />
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="java.util.Map" />
@@ -83,6 +84,7 @@
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.graphLayout.HyperGraphLayouter" file="HyperGraphLayouter.java">
+    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.RuntimeException" />
     <classNode dependClassName="java.util.HashMap" />
     <classNode dependClassName="java.util.List" />
@@ -135,6 +137,7 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.GraphPointLayout" />
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.graphLayout.LayoutInfo" file="LayoutInfo.java">
+    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.util.LinkedHashMap" />
     <classNode dependClassName="java.util.Map" />
     <classNode dependClassName="java.util.Set" />

@@ -18,10 +18,12 @@ public class Graph implements IGraph {
     myNextNum = 0;
   }
 
+  @Override
   public List<Node> getNodes() {
     return myNodes;
   }
 
+  @Override
   public List<Edge> getEdges() {
     List<Edge> allEdges = ListSequence.fromList(new ArrayList<Edge>());
     for (Node node : ListSequence.fromList(getNodes())) {
@@ -37,6 +39,7 @@ public class Graph implements IGraph {
     return node;
   }
 
+  @Override
   public Node createNode() {
     return createNode(false);
   }
@@ -45,6 +48,7 @@ public class Graph implements IGraph {
     return createNode(true);
   }
 
+  @Override
   public Edge connect(INode source, INode target) {
     Node sourceNode = (Node) source;
     Node targetNode = (Node) target;

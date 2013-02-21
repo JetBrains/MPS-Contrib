@@ -30,14 +30,17 @@ public class Node implements INode {
     return edge;
   }
 
+  @Override
   public List<Edge> getOutEdges() {
     return myOutEdges;
   }
 
+  @Override
   public List<Edge> getInEdges() {
     return myInEdges;
   }
 
+  @Override
   public List<Edge> getEdges() {
     return getEdges(Edge.Direction.BOTH);
   }

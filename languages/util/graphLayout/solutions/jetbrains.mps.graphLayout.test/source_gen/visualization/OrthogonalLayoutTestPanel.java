@@ -95,6 +95,7 @@ public class OrthogonalLayoutTestPanel extends JPanel {
     c.gridy = 4;
     JButton button = new JButton("generate graph!");
     button.addActionListener(new ActionListener() {
+      @Override
       public void actionPerformed(ActionEvent p0) {
         try {
           int numNodes = Integer.parseInt(myNumNodesField.getText());
@@ -120,6 +121,7 @@ public class OrthogonalLayoutTestPanel extends JPanel {
     JButton button = new JButton("do layout!");
     GridBagConstraints c = new GridBagConstraints();
     button.addActionListener(new ActionListener() {
+      @Override
       public void actionPerformed(ActionEvent p0) {
         layoutGraph();
         myGraphLabel.repaint();
@@ -250,6 +252,7 @@ public class OrthogonalLayoutTestPanel extends JPanel {
 
   public static void main(String[] args) {
     SwingUtilities.invokeLater(new Runnable() {
+      @Override
       public void run() {
         new OrthogonalLayoutTestPanel().create();
       }
@@ -268,6 +271,7 @@ public class OrthogonalLayoutTestPanel extends JPanel {
       c.gridy = 0;
       JRadioButton button = new JRadioButton("visibility layout");
       button.addActionListener(new ActionListener() {
+        @Override
         public void actionPerformed(ActionEvent p0) {
           myLayoutLevel = 0;
         }
@@ -277,6 +281,7 @@ public class OrthogonalLayoutTestPanel extends JPanel {
       c.gridy = 1;
       button = new JRadioButton("graph layout");
       button.addActionListener(new ActionListener() {
+        @Override
         public void actionPerformed(ActionEvent p0) {
           myLayoutLevel = 1;
         }
@@ -286,6 +291,7 @@ public class OrthogonalLayoutTestPanel extends JPanel {
       c.gridy = 2;
       button = new JRadioButton("optimized layout");
       button.addActionListener(new ActionListener() {
+        @Override
         public void actionPerformed(ActionEvent p0) {
           myLayoutLevel = 2;
         }

@@ -31,6 +31,7 @@ public class ShortestPathEmbeddingFinder implements IEmbeddingFinder {
     myForbidOuterEdgeCrossing = forbidOuterFaceCrossing;
   }
 
+  @Override
   public EmbeddedGraph find(Graph graph) {
     if (graph.getNumNodes() < 2) {
       return new EmbeddedGraph(graph);

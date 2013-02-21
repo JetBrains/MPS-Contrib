@@ -21,6 +21,7 @@ public abstract class JavaRunProfileState extends BaseRunProfileState {
   }
 
   @NotNull
+  @Override
   public AbstractDebugSessionCreator createDebugSessionCreator(Project project) {
     return ((IDebugger) Debuggers.getInstance().getDebuggerByName("Java")).createDebugSessionCreator(project);
   }

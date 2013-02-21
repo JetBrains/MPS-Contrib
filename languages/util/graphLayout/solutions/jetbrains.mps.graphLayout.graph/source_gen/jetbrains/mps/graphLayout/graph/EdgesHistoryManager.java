@@ -17,6 +17,7 @@ public class EdgesHistoryManager implements IGraphModificationListener {
     graph.addListener(this);
   }
 
+  @Override
   public void process(GraphModificationEvent event) {
     List<Edge> history;
     switch (event.getType()) {

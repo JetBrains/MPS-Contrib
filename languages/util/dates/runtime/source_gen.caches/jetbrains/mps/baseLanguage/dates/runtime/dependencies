@@ -6,6 +6,7 @@
     <classNode dependClassName="java.io.Writer" />
     <classNode dependClassName="java.lang.Long" />
     <classNode dependClassName="java.lang.Math" />
+    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.StringBuffer" />
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="java.util.Locale" />
@@ -40,6 +41,7 @@
     <classNode dependClassName="java.lang.Long" />
     <classNode dependClassName="java.lang.Math" />
     <classNode dependClassName="java.lang.NullPointerException" />
+    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.lang.UnsupportedOperationException" />
     <classNode dependClassName="java.util.Calendar" />
@@ -69,6 +71,7 @@
     <classNode dependClassName="java.io.Writer" />
     <classNode dependClassName="java.lang.Integer" />
     <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.lang.StringBuffer" />
     <classNode dependClassName="java.util.Locale" />
@@ -90,6 +93,7 @@
   <dependency className="jetbrains.mps.baseLanguage.dates.runtime.OffsetDateTimePrinter" file="OffsetDateTimePrinter.java">
     <classNode dependClassName="java.io.IOException" />
     <classNode dependClassName="java.io.Writer" />
+    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.lang.StringBuffer" />
     <classNode dependClassName="java.util.Locale" />

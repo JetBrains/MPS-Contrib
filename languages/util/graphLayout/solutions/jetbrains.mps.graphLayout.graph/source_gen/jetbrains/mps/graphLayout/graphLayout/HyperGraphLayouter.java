@@ -37,6 +37,7 @@ public class HyperGraphLayouter extends BasicLayouter {
     myEdgeMap = MapSequence.fromMap(new HashMap<Edge, Edge>());
   }
 
+  @Override
   public GraphLayout doLayout(ILayoutInfo layoutInfo) {
     IGraph graph = layoutInfo.getGraph();
     if (!(graph instanceof HyperGraph)) {
@@ -58,6 +59,7 @@ public class HyperGraphLayouter extends BasicLayouter {
     return this.restoreLayout(layout);
   }
 
+  @Override
   public GraphLayout doLayoutConnectedGraph(LayoutInfo layoutInfo) {
     return null;
   }

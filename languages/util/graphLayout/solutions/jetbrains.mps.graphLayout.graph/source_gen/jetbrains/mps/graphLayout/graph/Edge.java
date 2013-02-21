@@ -15,6 +15,7 @@ public class Edge implements IEdge {
     myTarget = target;
   }
 
+  @Override
   public Node getSource() {
     return this.mySource;
   }
@@ -35,10 +36,12 @@ public class Edge implements IEdge {
     }
   }
 
+  @Override
   public Node getTarget() {
     return this.myTarget;
   }
 
+  @Override
   public Node getOpposite(INode node) {
     if (node == mySource) {
       return myTarget;

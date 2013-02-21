@@ -37,6 +37,7 @@ public class OrthogonalPointFlowLayouter implements IPointLayouter {
   public OrthogonalPointFlowLayouter() {
   }
 
+  @Override
   public GraphPointLayout doLayout(Graph graph) {
     double time = System.currentTimeMillis();
     curTime = time;

@@ -17,6 +17,7 @@ public class DFSEdgeReverter extends Dfs implements IEdgeReverter {
   public DFSEdgeReverter() {
   }
 
+  @Override
   public Set<Edge> revertEdges(Graph graph) {
     myToRevert = SetSequence.fromSet(new HashSet<Edge>());
     doDfs(graph);

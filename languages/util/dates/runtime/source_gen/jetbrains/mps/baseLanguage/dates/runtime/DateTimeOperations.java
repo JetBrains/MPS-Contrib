@@ -19,6 +19,7 @@ import org.joda.time.PeriodType;
 public class DateTimeOperations {
   @Deprecated
   private static InheritableThreadLocal<DateTimeZone> currentZone = new InheritableThreadLocal<DateTimeZone>() {
+    @Override
     protected DateTimeZone initialValue() {
       return DateTimeZone.getDefault();
     }

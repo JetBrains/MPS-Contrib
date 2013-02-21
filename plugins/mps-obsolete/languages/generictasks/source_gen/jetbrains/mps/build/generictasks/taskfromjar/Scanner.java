@@ -98,6 +98,7 @@ public class Scanner {
 
   public Importer.IClassInfoProvider createClassInfoProvider() {
     return new Importer.IClassInfoProvider() {
+      @Override
       public ClassInfo createClassInfo(Class clazz) {
         return Scanner.getClassInfo(clazz);
       }

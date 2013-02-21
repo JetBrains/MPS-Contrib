@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-geo1qxgsnd5xr6lhkhe1o7e5oclxz3">
+<dependencies version="2" modelHash="25u8wj75xmy3ksvmfvp53f5y1cigr5f">
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
-  <dep model="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" hash="9s7tn7r6i6ppg130pq11m1usnjxibg4" />
-  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="3l4d6vah7bipcwb415vkx7fy07t8dxg" />
+  <dep model="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" hash="ej63zkm2v2w019cwuvq6wdn395rncoo" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="621em7vpw5ex0v0ghcf6e9cwqktpv6v" />
   <dep model="r:00000000-0000-4000-0000-011c895902de(jetbrains.mps.baseLanguage.blTypes.primitiveDescriptors)" />
-  <dep model="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" hash="ds41xwd3vhafeazos843c1dygtjbmpd" />
+  <dep model="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" hash="-eww39j0kgzfj3zmydz7zhzgeulrfsht" />
   <dep model="r:00000000-0000-4000-0000-011c8959032f(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.main@generator)" hash="akhdydbhjjog28feg67o2k0h0fepfz2" />
   <dep model="r:5498b4d6-623f-4d7c-a07f-396c96e14007(jetbrains.mps.graphLayout.intGeom2D)" hash="-35pr1do4p2p2wvmhi897ooctfd4os96" />
-  <dep model="r:8254b240-abed-4f97-a7cd-2eef733ec7fb(jetbrains.mps.graphLayout.util)" hash="-81q1int6dyzrf9shiu98jhk5mdzi778" />
+  <dep model="r:8254b240-abed-4f97-a7cd-2eef733ec7fb(jetbrains.mps.graphLayout.util)" hash="2uh4c2nz63bpvai18cc238m849ajx32" />
   <dep model="r:d1558b8f-fc9e-4ca7-bb90-70ac789f336e(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.post@generator)" hash="-dtcjnjk6lww15wxj6oyv44k28fu5g1d" />
-  <dep model="r:d228b8c9-d2b1-4686-9904-e3c49a346bc6(jetbrains.mps.graphLayout.graph)" hash="5ec8ncwquoxv0e4rz9pn8r7sn0w8f5v" />
-  <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" hash="-42u6f9vbzpf201qzziwe8drcbr8ay4o" />
+  <dep model="r:d228b8c9-d2b1-4686-9904-e3c49a346bc6(jetbrains.mps.graphLayout.graph)" hash="-1delddh4a3scprrlb67tmel3ziztski" />
+  <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" hash="8lb0ssmvoceitlofqs9sah312lyoau7" />
   <common hash="-4egywle1krpinknm8jttwwqt02otdmu" />
   <source id="1327612371813188313" name="GraphPointLayout" hash="-e5hbcic327wvjytvgtrujcat7m2zfyr">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
@@ -24,7 +24,7 @@
   <source id="1327612371813208563" name="IPointLayouter" hash="-94wa6tcidpnin0ita7196v4qiqzo6nk">
     <file name="IPointLayouter.java" />
   </source>
-  <source id="903391227141129818" name="GraphLayout" hash="3szdozozbnwmu8itmqmdoafybi8qb2t">
+  <source id="903391227141129818" name="GraphLayout" hash="-c7ycrebnm1z03ocqmoohihq7g0hj74p">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -34,7 +34,7 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="GraphLayout.java" />
   </source>
-  <source id="194249616896430087" name="LayoutInfo" hash="-36gc2uaz80r6sucsi488oy674024ifu">
+  <source id="194249616896430087" name="LayoutInfo" hash="6l8ycpfm1h5xzzrtoug1ok4t9vx6lei">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c8959032f(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.main@generator)" />
@@ -46,7 +46,7 @@
   <source id="3848593518650132728" name="ILayouter" hash="dz0pjo3e902imy26914bmzqnukyjcxc">
     <file name="ILayouter.java" />
   </source>
-  <source id="8729833695221619973" name="BasicLayouter" hash="-3c5fq0r2buwuy7z0rwy3jpxjvfafjmc">
+  <source id="8729833695221619973" name="BasicLayouter" hash="e04nbbyt1znmzbuye4y8ypbw7w65s4y">
     <dep root="194249616896430087" />
     <dep root="3167072330486561415" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
@@ -90,7 +90,7 @@
   <source id="3444434563276271010" name="GraphLayoutFactory" hash="-2nuywidl3ac1npx4bgvdktiioo2iu64">
     <file name="GraphLayoutFactory.java" />
   </source>
-  <source id="1714301205550511226" name="HyperGraphLayouter" hash="-9yxqj8cd4asje9j4fi1ekcunzruzcmp">
+  <source id="1714301205550511226" name="HyperGraphLayouter" hash="-206vo1fads89dgzrhz6i0yi9mqyl8ek">
     <dep root="1532165762814218465" />
     <dep root="8729833695221619973" />
     <dep root="903391227141129818" />

@@ -40,6 +40,7 @@ public class TBaseBuilderContext {
       throw new IllegalStateException("Can't get text, because there is open content block [" + getContentsStack().peek().getName() + "]");
     }
     notify(new TBaseBuilderContext.ListenerVisitor() {
+      @Override
       public void visit(TBaseBuilderContextListener l) {
         l.getTextCalled(TBaseBuilderContext.this);
       }
@@ -50,6 +51,7 @@ public class TBaseBuilderContext {
     List<TContent> sortedContents = new ArrayList<TContent>(getContents().values());
     sortedContents.remove(getContentsStack().peek());
     Collections.sort(sortedContents, new Comparator<TContent>() {
+      @Override
       public int compare(TContent o1, TContent o2) {
         return o2.getPosition() - o1.getPosition();
       }

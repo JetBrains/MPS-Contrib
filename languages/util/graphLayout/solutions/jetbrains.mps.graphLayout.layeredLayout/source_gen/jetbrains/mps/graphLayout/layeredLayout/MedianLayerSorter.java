@@ -18,6 +18,7 @@ public class MedianLayerSorter implements IOneLayerSorter {
   public MedianLayerSorter() {
   }
 
+  @Override
   public void sortLayer(int layerToSort, NodeLayeredOrder nodeLayeredOrder, Edge.Direction dir) {
     Graph graph = nodeLayeredOrder.getGraph();
     List<Node> fixedLayer;

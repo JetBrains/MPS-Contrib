@@ -89,6 +89,7 @@ public class QNode extends PQNode {
     }
   }
 
+  @Override
   public PQNode makeReduction(boolean isRealPertinentRoot) {
     if (getState() != PQNode.State.PARTIAL) {
       return this;
@@ -104,10 +105,12 @@ public class QNode extends PQNode {
     return null;
   }
 
+  @Override
   public PQNode processAsPertinentRoot(List<PQNode> children, Node nextGraphNode) {
     return null;
   }
 
+  @Override
   public String getType() {
     return "Q";
   }
@@ -117,14 +120,17 @@ public class QNode extends PQNode {
     getEdgesOrder().reverse();
   }
 
+  @Override
   public EdgesOrder getEdgesOrder() {
     return myEdgesOrder;
   }
 
+  @Override
   public int getAValue() {
     return myAValue;
   }
 
+  @Override
   public void computeAValue() {
     super.computeAValue();
     if (getState() != PQNode.State.PARTIAL) {
@@ -198,6 +204,7 @@ public class QNode extends PQNode {
     }
   }
 
+  @Override
   public void makeADeletion() {
     if (getState() != PQNode.State.PARTIAL) {
       return;
@@ -233,10 +240,12 @@ public class QNode extends PQNode {
     }
   }
 
+  @Override
   public int getHValue() {
     return myHValue;
   }
 
+  @Override
   public void computeHValue() {
     super.computeHValue();
     if (getState() != PQNode.State.PARTIAL) {
@@ -265,6 +274,7 @@ public class QNode extends PQNode {
     }
   }
 
+  @Override
   public void makeHDeletion() {
     if (getState() != PQNode.State.PARTIAL) {
       return;

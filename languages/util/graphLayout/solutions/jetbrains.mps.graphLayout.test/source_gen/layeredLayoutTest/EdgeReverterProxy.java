@@ -15,6 +15,7 @@ public class EdgeReverterProxy implements IEdgeReverter {
     myReverter = reverter;
   }
 
+  @Override
   public Set<Edge> revertEdges(Graph g) {
     Set<Edge> reverted = myReverter.revertEdges(g);
     Assert.assertFalse(new CheckCycles().hasCycle(g));

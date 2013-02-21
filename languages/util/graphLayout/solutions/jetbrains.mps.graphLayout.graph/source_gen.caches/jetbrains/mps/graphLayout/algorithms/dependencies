@@ -89,6 +89,7 @@
   <dependency className="jetbrains.mps.graphLayout.algorithms.Dijkstra" file="Dijkstra.java">
     <classNode dependClassName="java.lang.Boolean" />
     <classNode dependClassName="java.lang.Integer" />
+    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.RuntimeException" />
     <classNode dependClassName="java.util.HashMap" />
     <classNode dependClassName="java.util.List" />

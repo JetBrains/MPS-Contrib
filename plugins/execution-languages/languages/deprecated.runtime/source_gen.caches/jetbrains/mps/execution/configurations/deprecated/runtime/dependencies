@@ -55,6 +55,7 @@
     <classNode dependClassName="java.lang.CloneNotSupportedException" />
     <classNode dependClassName="java.lang.Deprecated" />
     <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.execution.configurations.deprecated.runtime.BaseRunner" />
     <classNode extendsClassName="java.lang.Cloneable" />
@@ -88,6 +89,7 @@
   <dependency className="jetbrains.mps.execution.configurations.deprecated.runtime.JavaRunProfileState" file="JavaRunProfileState.java">
     <classNode dependClassName="com.intellij.openapi.project.Project" />
     <classNode dependClassName="java.lang.Deprecated" />
+    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="jetbrains.mps.debug.api.AbstractDebugSessionCreator" />
     <classNode dependClassName="jetbrains.mps.debug.api.Debuggers" />
     <classNode dependClassName="jetbrains.mps.debug.api.IDebugger" />
