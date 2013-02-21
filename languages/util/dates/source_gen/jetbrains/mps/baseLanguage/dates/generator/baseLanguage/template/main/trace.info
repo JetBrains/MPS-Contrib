@@ -220,14 +220,14 @@
   <root nodeRef="r:00000000-0000-4000-0000-011c895903d7(jetbrains.mps.baseLanguage.dates.generator.baseLanguage.template.main@generator)/1173885253101">
     <nodeInfo nodeId="4220022565493817646" fileName="QueriesGenerated.java" startLine="155" startPosition="154" endLine="156" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4220022565493817656" fileName="QueriesGenerated.java" startLine="159" startPosition="154" endLine="160" endPosition="143" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4220022565493817664" fileName="QueriesGenerated.java" startLine="160" startPosition="143" endLine="161" endPosition="110" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4220022565493817664" fileName="QueriesGenerated.java" startLine="160" startPosition="143" endLine="161" endPosition="149" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4220022565493817680" fileName="QueriesGenerated.java" startLine="164" startPosition="154" endLine="165" endPosition="143" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4220022565493817688" fileName="QueriesGenerated.java" startLine="165" startPosition="143" endLine="166" endPosition="110" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4220022565493817688" fileName="QueriesGenerated.java" startLine="165" startPosition="143" endLine="166" endPosition="149" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <scopeInfo nodeId="4220022565493817645" fileName="QueriesGenerated.java" startLine="155" startPosition="154" endLine="156" endPosition="69" />
-    <scopeInfo nodeId="4220022565493817655" fileName="QueriesGenerated.java" startLine="159" startPosition="154" endLine="161" endPosition="110">
+    <scopeInfo nodeId="4220022565493817655" fileName="QueriesGenerated.java" startLine="159" startPosition="154" endLine="161" endPosition="149">
       <varInfo nodeId="4220022565493817657" varName="table" />
     </scopeInfo>
-    <scopeInfo nodeId="4220022565493817679" fileName="QueriesGenerated.java" startLine="164" startPosition="154" endLine="166" endPosition="110">
+    <scopeInfo nodeId="4220022565493817679" fileName="QueriesGenerated.java" startLine="164" startPosition="154" endLine="166" endPosition="149">
       <varInfo nodeId="4220022565493817681" varName="table" />
     </scopeInfo>
   </root>
@@ -483,9 +483,9 @@
   <root nodeRef="r:00000000-0000-4000-0000-011c895903d7(jetbrains.mps.baseLanguage.dates.generator.baseLanguage.template.main@generator)/5074955036991702210">
     <nodeInfo nodeId="4220022565493817799" fileName="QueriesGenerated.java" startLine="227" startPosition="154" endLine="228" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4220022565493817808" fileName="QueriesGenerated.java" startLine="231" startPosition="154" endLine="232" endPosition="145" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4220022565493817816" fileName="QueriesGenerated.java" startLine="232" startPosition="145" endLine="233" endPosition="110" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4220022565493817816" fileName="QueriesGenerated.java" startLine="232" startPosition="145" endLine="233" endPosition="149" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <scopeInfo nodeId="4220022565493817798" fileName="QueriesGenerated.java" startLine="227" startPosition="154" endLine="228" endPosition="69" />
-    <scopeInfo nodeId="4220022565493817807" fileName="QueriesGenerated.java" startLine="231" startPosition="154" endLine="233" endPosition="110">
+    <scopeInfo nodeId="4220022565493817807" fileName="QueriesGenerated.java" startLine="231" startPosition="154" endLine="233" endPosition="149">
       <varInfo nodeId="4220022565493817809" varName="table" />
     </scopeInfo>
   </root>

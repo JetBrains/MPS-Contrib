@@ -99,11 +99,11 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_314981645427224282(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return SNodeOperations.getModel(SLinkOperations.getTarget(_context.getNode(), "configType", false)).getLongName() + "." + RunConfigurationTypeDeclaration_Behavior.call_getGeneratedName_314981645426570387(SLinkOperations.getTarget(_context.getNode(), "configType", false));
+    return jetbrains.mps.util.SNodeOperations.getModelLongName(SNodeOperations.getModel(SLinkOperations.getTarget(_context.getNode(), "configType", false))) + "." + RunConfigurationTypeDeclaration_Behavior.call_getGeneratedName_314981645426570387(SLinkOperations.getTarget(_context.getNode(), "configType", false));
   }
 
   public static Object propertyMacro_GetPropertyValue_314981645427224314(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return SNodeOperations.getModel(SLinkOperations.getTarget(_context.getNode(), "configType", false)).getLongName() + "." + RunConfigurationTypeDeclaration_Behavior.call_getGeneratedName_314981645426570387(SLinkOperations.getTarget(_context.getNode(), "configType", false));
+    return jetbrains.mps.util.SNodeOperations.getModelLongName(SNodeOperations.getModel(SLinkOperations.getTarget(_context.getNode(), "configType", false))) + "." + RunConfigurationTypeDeclaration_Behavior.call_getGeneratedName_314981645426570387(SLinkOperations.getTarget(_context.getNode(), "configType", false));
   }
 
   public static Object propertyMacro_GetPropertyValue_314981645427224341(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -111,7 +111,7 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_314981645427224369(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return SNodeOperations.getModel(SLinkOperations.getTarget(_context.getNode(), "configType", false)).getLongName() + "." + RunConfigurationTypeDeclaration_Behavior.call_getGeneratedName_314981645426570387(SLinkOperations.getTarget(_context.getNode(), "configType", false));
+    return jetbrains.mps.util.SNodeOperations.getModelLongName(SNodeOperations.getModel(SLinkOperations.getTarget(_context.getNode(), "configType", false))) + "." + RunConfigurationTypeDeclaration_Behavior.call_getGeneratedName_314981645426570387(SLinkOperations.getTarget(_context.getNode(), "configType", false));
   }
 
   public static Object propertyMacro_GetPropertyValue_314981645427225279(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -155,7 +155,7 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_314981645427226142(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return SNodeOperations.getModel(SLinkOperations.getTarget(_context.getNode(), "rcType", false)).getLongName() + "." + RunConfigurationTypeDeclaration_Behavior.call_getGeneratedName_314981645426570387(SLinkOperations.getTarget(_context.getNode(), "rcType", false));
+    return jetbrains.mps.util.SNodeOperations.getModelLongName(SNodeOperations.getModel(SLinkOperations.getTarget(_context.getNode(), "rcType", false))) + "." + RunConfigurationTypeDeclaration_Behavior.call_getGeneratedName_314981645426570387(SLinkOperations.getTarget(_context.getNode(), "rcType", false));
   }
 
   public static Object propertyMacro_GetPropertyValue_314981645427226175(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -179,7 +179,7 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_314981645427226812(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return SNodeOperations.getModel(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "runConfig", false), "configType", false)).getLongName() + "." + RunConfigurationTypeDeclaration_Behavior.call_getGeneratedName_314981645426570387(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "runConfig", false), "configType", false));
+    return jetbrains.mps.util.SNodeOperations.getModelLongName(SNodeOperations.getModel(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "runConfig", false), "configType", false))) + "." + RunConfigurationTypeDeclaration_Behavior.call_getGeneratedName_314981645426570387(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "runConfig", false), "configType", false));
   }
 
   public static Object propertyMacro_GetPropertyValue_314981645427226903(final IOperationContext operationContext, final PropertyMacroContext _context) {

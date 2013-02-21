@@ -165,11 +165,11 @@ public class Generator {
       String name = this.myNamesMap.getNameForClass(ci.getDeclarationClass());
       if (ci.isInterface()) {
         SNode decl = Generator.GENERATOR.createInterfaceDeclaration(name, classname, ci.isDeprecated());
-        myModel.addRoot(decl);
+        myModel.addRootNode(decl);
         return decl;
       }
       SNode decl = Generator.GENERATOR.createDeclaration(name, classname, ci.isAbstract(), ci.canHaveInternalText(), ci.isDeprecated());
-      myModel.addRoot(decl);
+      myModel.addRootNode(decl);
       return decl;
     }
 

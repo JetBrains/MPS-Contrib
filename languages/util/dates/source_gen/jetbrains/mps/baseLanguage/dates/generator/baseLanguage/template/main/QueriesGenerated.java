@@ -158,12 +158,12 @@ public class QueriesGenerated {
 
   public static Object propertyMacro_GetPropertyValue_4220022565493817654(final IOperationContext operationContext, final PropertyMacroContext _context) {
     SNode table = SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.baseLanguage.dates.structure.DateFormatsTable", false, false);
-    return SNodeOperations.getModel(table).getLongName() + "." + SPropertyOperations.getString(table, "name");
+    return jetbrains.mps.util.SNodeOperations.getModelLongName(SNodeOperations.getModel(table)) + "." + SPropertyOperations.getString(table, "name");
   }
 
   public static Object propertyMacro_GetPropertyValue_4220022565493817678(final IOperationContext operationContext, final PropertyMacroContext _context) {
     SNode table = SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.baseLanguage.dates.structure.DateFormatsTable", false, false);
-    return SNodeOperations.getModel(table).getLongName() + "." + SPropertyOperations.getString(table, "name");
+    return jetbrains.mps.util.SNodeOperations.getModelLongName(SNodeOperations.getModel(table)) + "." + SPropertyOperations.getString(table, "name");
   }
 
   public static Object propertyMacro_GetPropertyValue_1173967740888(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -230,7 +230,7 @@ public class QueriesGenerated {
 
   public static Object propertyMacro_GetPropertyValue_4220022565493817806(final IOperationContext operationContext, final PropertyMacroContext _context) {
     SNode table = SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.baseLanguage.dates.structure.PeriodFormatsTable", false, false);
-    return SNodeOperations.getModel(table).getLongName() + "." + SPropertyOperations.getString(table, "name");
+    return jetbrains.mps.util.SNodeOperations.getModelLongName(SNodeOperations.getModel(table)) + "." + SPropertyOperations.getString(table, "name");
   }
 
   public static Object propertyMacro_GetPropertyValue_2872438607476486224(final IOperationContext operationContext, final PropertyMacroContext _context) {

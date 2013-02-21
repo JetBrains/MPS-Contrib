@@ -5,7 +5,7 @@ package jetbrains.mps.execution.configurations.deprecated.behavior;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.util.NameUtil;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.util.SNodeOperations;
 import jetbrains.mps.checkedName.PropertyReference;
 import java.util.List;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
@@ -32,7 +32,7 @@ public class RunConfigurationDeclaration_Behavior {
   }
 
   public static String call_getGeneratedClassFQName_314981645426570434(SNode thisNode) {
-    return SNodeOperations.getModel(thisNode).getLongName() + "." + RunConfigurationDeclaration_Behavior.call_getGeneratedName_314981645426570423(thisNode);
+    return SNodeOperations.getModelLongName(jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations.getModel(thisNode)) + "." + RunConfigurationDeclaration_Behavior.call_getGeneratedName_314981645426570423(thisNode);
   }
 
   public static String call_getGeneratedFactoryName_314981645426570449(SNode thisNode) {
@@ -40,7 +40,7 @@ public class RunConfigurationDeclaration_Behavior {
   }
 
   public static String call_getGeneratedFactoryClassFQName_314981645426570460(SNode thisNode) {
-    return SNodeOperations.getModel(thisNode).getLongName() + "." + RunConfigurationDeclaration_Behavior.call_getGeneratedFactoryName_314981645426570449(thisNode);
+    return SNodeOperations.getModelLongName(jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations.getModel(thisNode)) + "." + RunConfigurationDeclaration_Behavior.call_getGeneratedFactoryName_314981645426570449(thisNode);
   }
 
   public static PropertyReference virtual_getPropertyToCheck_4844813484172611473(SNode thisNode) {
@@ -77,7 +77,7 @@ public class RunConfigurationDeclaration_Behavior {
     if (type == null) {
       return false;
     }
-    return neq_ym0401_a0c0j(SModelOperations.getModelName(SNodeOperations.getModel(thisNode)), SModelOperations.getModelName(SNodeOperations.getModel(type)));
+    return neq_ym0401_a0c0j(SModelOperations.getModelName(jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations.getModel(thisNode)), SModelOperations.getModelName(jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations.getModel(type)));
   }
 
   public static boolean virtual_requiresCustomEditor_1262430001741498265(SConcept thisConcept) {
@@ -91,7 +91,7 @@ public class RunConfigurationDeclaration_Behavior {
 
   @Deprecated
   public static SNode callSuper_getStateType_314981645426570519(SNode thisNode, String callerConceptFqName) {
-    return BehaviorManager.getInstance().invokeSuper((Class<SNode>) ((Class) Object.class), SNodeOperations.cast(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigurationDeclaration"), callerConceptFqName, "virtual_getStateType_314981645426570519", new Class[]{SNode.class}, new Object[]{});
+    return BehaviorManager.getInstance().invokeSuper((Class<SNode>) ((Class) Object.class), jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations.cast(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigurationDeclaration"), callerConceptFqName, "virtual_getStateType_314981645426570519", new Class[]{SNode.class}, new Object[]{});
   }
 
   private static SNode _quotation_createNode_ym0401_a0a5(Object parameter_1) {
