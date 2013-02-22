@@ -66,7 +66,7 @@ public class FixReferencesToDeletedRunModels_MigrationScript extends BaseMigrati
         final SModel model = SNodeOperations.getModel(node);
         return model != null && model.isRoot(node) && Sequence.fromIterable(Sequence.fromClosure(new ISequenceClosure<SModel.ImportElement>() {
           public Iterable<SModel.ImportElement> iterable() {
-            return model.importedModels();
+            return ((ABCDE) model).importedModels();
           }
         })).where(new IWhereFilter<SModel.ImportElement>() {
           public boolean accept(SModel.ImportElement it) {

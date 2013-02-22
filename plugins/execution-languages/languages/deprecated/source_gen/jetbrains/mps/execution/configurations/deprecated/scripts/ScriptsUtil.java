@@ -22,7 +22,7 @@ public class ScriptsUtil {
   public static Iterable<SModel.ImportElement> getImports(final SModel model, final String longName) {
     return Sequence.fromIterable(Sequence.fromClosure(new ISequenceClosure<SModel.ImportElement>() {
       public Iterable<SModel.ImportElement> iterable() {
-        return model.importedModels();
+        return ((ABCDE) model).importedModels();
       }
     })).where(new IWhereFilter<SModel.ImportElement>() {
       public boolean accept(SModel.ImportElement it) {
@@ -35,11 +35,11 @@ public class ScriptsUtil {
     List<SModel.ImportElement> imports = Sequence.fromIterable(ScriptsUtil.getImports(SNodeOperations.getModel(node), longName)).toListSequence();
     ListSequence.fromList(imports).visitAll(new IVisitor<SModel.ImportElement>() {
       public void visit(SModel.ImportElement it) {
-        SNodeOperations.getModel(node).deleteModelImport(it.getModelReference());
+        ((ABCDE) SNodeOperations.getModel(node)).deleteModelImport(it.getModelReference());
       }
     });
 
-    SNodeOperations.getModel(node).addModelImport(newModelReference, false);
+    ((ABCDE) SNodeOperations.getModel(node)).addModelImport(newModelReference, false);
     for (SNode chileNode : ListSequence.fromList(SNodeOperations.getDescendants(node, null, true, new String[]{}))) {
       for (SReference ref : Sequence.fromIterable(chileNode.getReferences())) {
         if (ref.getTargetSModelReference().getLongName().equals(longName)) {
@@ -64,7 +64,7 @@ public class ScriptsUtil {
       }
     }
     if (found) {
-      SNodeOperations.getModel(node).addModelImport(newModelReference, false);
+      ((ABCDE) SNodeOperations.getModel(node)).addModelImport(newModelReference, false);
     }
   }
 }
