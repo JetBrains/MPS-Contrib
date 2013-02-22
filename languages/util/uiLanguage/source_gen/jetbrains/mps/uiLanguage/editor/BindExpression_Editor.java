@@ -42,17 +42,6 @@ public class BindExpression_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_g6a9ln_c0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "}");
-    editorCell.setCellId("Constant_g6a9ln_c0");
-    Style style = new StyleImpl();
-    BaseLanguageStyle_StyleSheet.applyRightBrace(style, editorCell);
-    style.set(StyleAttributes.FIRST_POSITION_ALLOWED, false);
-    editorCell.getStyle().putAll(style);
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
   private EditorCell createRefNode_g6a9ln_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("expression");
@@ -67,6 +56,17 @@ public class BindExpression_Editor extends DefaultNodeEditor {
       EditorManager manager = EditorManager.getInstanceFromContext(opContext);
       return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
     } else
+    return editorCell;
+  }
+
+  private EditorCell createConstant_g6a9ln_c0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "}");
+    editorCell.setCellId("Constant_g6a9ln_c0");
+    Style style = new StyleImpl();
+    BaseLanguageStyle_StyleSheet.applyRightBrace(style, editorCell);
+    style.set(StyleAttributes.FIRST_POSITION_ALLOWED, false);
+    editorCell.getStyle().putAll(style);
+    editorCell.setDefaultText("");
     return editorCell;
   }
 }

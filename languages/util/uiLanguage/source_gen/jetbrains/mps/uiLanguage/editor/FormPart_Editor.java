@@ -11,12 +11,12 @@ import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Indent;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
-import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
+import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
-import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
+import jetbrains.mps.nodeEditor.cells.EditorCell_Indent;
+import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 
 public class FormPart_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
@@ -46,6 +46,31 @@ public class FormPart_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
+  private EditorCell createConstant_adq38q_a0a(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "label:");
+    editorCell.setCellId("Constant_adq38q_a0a");
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  private EditorCell createProperty_adq38q_b0a(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
+    provider.setRole("label");
+    provider.setNoTargetText("<no label>");
+    EditorCell editorCell;
+    editorCell = provider.createEditorCell(editorContext);
+    editorCell.setCellId("property_label");
+    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
+    SNode attributeConcept = provider.getRoleAttribute();
+    Class attributeKind = provider.getRoleAttributeClass();
+    if (attributeConcept != null) {
+      IOperationContext opContext = editorContext.getOperationContext();
+      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
+      return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
+    } else
+    return editorCell;
+  }
+
   private EditorCell createCollection_adq38q_b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_adq38q_b0");
@@ -53,6 +78,13 @@ public class FormPart_Editor extends DefaultNodeEditor {
     style.set(StyleAttributes.SELECTABLE, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_adq38q_a1a(editorContext, node));
+    return editorCell;
+  }
+
+  private EditorCell createConstant_adq38q_a1a(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "content:");
+    editorCell.setCellId("Constant_adq38q_a1a");
+    editorCell.setDefaultText("");
     return editorCell;
   }
 
@@ -67,20 +99,6 @@ public class FormPart_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_adq38q_a0a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "label:");
-    editorCell.setCellId("Constant_adq38q_a0a");
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
-  private EditorCell createConstant_adq38q_a1a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "content:");
-    editorCell.setCellId("Constant_adq38q_a1a");
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
   private EditorCell createIndentCell_adq38q_a2a(EditorContext editorContext, SNode node) {
     EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
     return result;
@@ -92,24 +110,6 @@ public class FormPart_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no content>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
-    SNode attributeConcept = provider.getRoleAttribute();
-    Class attributeKind = provider.getRoleAttributeClass();
-    if (attributeConcept != null) {
-      IOperationContext opContext = editorContext.getOperationContext();
-      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
-      return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
-    } else
-    return editorCell;
-  }
-
-  private EditorCell createProperty_adq38q_b0a(EditorContext editorContext, SNode node) {
-    CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
-    provider.setRole("label");
-    provider.setNoTargetText("<no label>");
-    EditorCell editorCell;
-    editorCell = provider.createEditorCell(editorContext);
-    editorCell.setCellId("property_label");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
