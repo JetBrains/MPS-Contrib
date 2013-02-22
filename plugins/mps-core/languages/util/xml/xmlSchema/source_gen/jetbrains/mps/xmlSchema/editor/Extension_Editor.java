@@ -43,26 +43,6 @@ public class Extension_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_s04tli_c0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
-    editorCell.setCellId("Constant_s04tli_c0");
-    Style style = new StyleImpl();
-    style.set(StyleAttributes.MATCHING_LABEL, "extension");
-    editorCell.getStyle().putAll(style);
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
-  private EditorCell createConstant_s04tli_e0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
-    editorCell.setCellId("Constant_s04tli_e0");
-    Style style = new StyleImpl();
-    style.set(StyleAttributes.MATCHING_LABEL, "extension");
-    editorCell.getStyle().putAll(style);
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
   private EditorCell createRefNode_s04tli_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("complexTypeReference");
@@ -80,6 +60,16 @@ public class Extension_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
+  private EditorCell createConstant_s04tli_c0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
+    editorCell.setCellId("Constant_s04tli_c0");
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.MATCHING_LABEL, "extension");
+    editorCell.getStyle().putAll(style);
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
   private EditorCell createRefNode_s04tli_d0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("typeExpressionList");
@@ -94,6 +84,16 @@ public class Extension_Editor extends DefaultNodeEditor {
       EditorManager manager = EditorManager.getInstanceFromContext(opContext);
       return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
     } else
+    return editorCell;
+  }
+
+  private EditorCell createConstant_s04tli_e0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
+    editorCell.setCellId("Constant_s04tli_e0");
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.MATCHING_LABEL, "extension");
+    editorCell.getStyle().putAll(style);
+    editorCell.setDefaultText("");
     return editorCell;
   }
 }

@@ -8,29 +8,49 @@ import jetbrains.mps.openapi.editor.EditorContext;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
+import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
+import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Vertical;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
-import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
 import jetbrains.mps.openapi.editor.cells.CellActionType;
 import jetbrains.mps.nodeEditor.cellActions.CellAction_DeleteNode;
-import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandlerElementKeyMap;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultReferenceSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
-import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Vertical;
+import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandlerElementKeyMap;
 
 public class TypeExpressionList_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createAlternation_kgtkmm_a(editorContext, node);
   }
 
+  private EditorCell createAlternation_kgtkmm_a(EditorContext editorContext, SNode node) {
+    boolean alternationCondition = true;
+    alternationCondition = TypeExpressionList_Editor.renderingCondition_kgtkmm_a0(node, editorContext, editorContext.getOperationContext().getScope());
+    EditorCell editorCell = null;
+    if (alternationCondition) {
+      editorCell = this.createRefNodeList_kgtkmm_a0(editorContext, node);
+    } else {
+      editorCell = this.createRefNodeList_kgtkmm_a0_0(editorContext, node);
+    }
+    return editorCell;
+  }
+
   private static boolean renderingCondition_kgtkmm_a0(SNode node, EditorContext editorContext, IScope scope) {
     return SPropertyOperations.getBoolean(node, "isVertical");
+  }
+
+  private EditorCell createRefNodeList_kgtkmm_a0(EditorContext editorContext, SNode node) {
+    AbstractCellListHandler handler = new TypeExpressionList_Editor.typeExpressionListHandler_kgtkmm_a0(node, "typeExpression", editorContext);
+    EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Vertical(), false);
+    editorCell.setCellId("refNodeList_typeExpression");
+    editorCell.setRole(handler.getElementRole());
+    return editorCell;
   }
 
   private static class typeExpressionListHandler_kgtkmm_a0 extends RefNodeListHandler {
@@ -65,23 +85,11 @@ public class TypeExpressionList_Editor extends DefaultNodeEditor {
         elementCell.putUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET, AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET);
         if (elementNode != null) {
           elementCell.setAction(CellActionType.DELETE, new CellAction_DeleteNode(elementNode));
-          elementCell.addKeyMap(new RefNodeListHandlerElementKeyMap(this, ","));
         }
         if (elementCell.getSubstituteInfo() == null || elementCell.getSubstituteInfo() instanceof DefaultReferenceSubstituteInfo) {
           elementCell.setSubstituteInfo(new DefaultChildSubstituteInfo(listOwner, elementNode, super.getLinkDeclaration(), editorContext));
         }
       }
-    }
-
-    @Override
-    public EditorCell createSeparatorCell(EditorContext editorContext, SNode prevNode, SNode nextNode) {
-      EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, this.getOwner(), ",");
-      editorCell.setSelectable(false);
-      Style style = new StyleImpl();
-      style.set(StyleAttributes.LAYOUT_CONSTRAINT, "");
-      style.set(StyleAttributes.PUNCTUATION_LEFT, true);
-      editorCell.getStyle().putAll(style);
-      return editorCell;
     }
 
     private EditorCell createConstant_kgtkmm_a0a(EditorContext editorContext, SNode node) {
@@ -93,6 +101,14 @@ public class TypeExpressionList_Editor extends DefaultNodeEditor {
       editorCell.setDefaultText("");
       return editorCell;
     }
+  }
+
+  private EditorCell createRefNodeList_kgtkmm_a0_0(EditorContext editorContext, SNode node) {
+    AbstractCellListHandler handler = new TypeExpressionList_Editor.typeExpressionListHandler_kgtkmm_a0_0(node, "typeExpression", editorContext);
+    EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Horizontal(), false);
+    editorCell.setCellId("refNodeList_typeExpression_1");
+    editorCell.setRole(handler.getElementRole());
+    return editorCell;
   }
 
   private static class typeExpressionListHandler_kgtkmm_a0_0 extends RefNodeListHandler {
@@ -127,11 +143,23 @@ public class TypeExpressionList_Editor extends DefaultNodeEditor {
         elementCell.putUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET, AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET);
         if (elementNode != null) {
           elementCell.setAction(CellActionType.DELETE, new CellAction_DeleteNode(elementNode));
+          elementCell.addKeyMap(new RefNodeListHandlerElementKeyMap(this, ","));
         }
         if (elementCell.getSubstituteInfo() == null || elementCell.getSubstituteInfo() instanceof DefaultReferenceSubstituteInfo) {
           elementCell.setSubstituteInfo(new DefaultChildSubstituteInfo(listOwner, elementNode, super.getLinkDeclaration(), editorContext));
         }
       }
+    }
+
+    @Override
+    public EditorCell createSeparatorCell(EditorContext editorContext, SNode prevNode, SNode nextNode) {
+      EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, this.getOwner(), ",");
+      editorCell.setSelectable(false);
+      Style style = new StyleImpl();
+      style.set(StyleAttributes.LAYOUT_CONSTRAINT, "");
+      style.set(StyleAttributes.PUNCTUATION_LEFT, true);
+      editorCell.getStyle().putAll(style);
+      return editorCell;
     }
 
     private EditorCell createConstant_kgtkmm_a0a_0(EditorContext editorContext, SNode node) {
@@ -143,33 +171,5 @@ public class TypeExpressionList_Editor extends DefaultNodeEditor {
       editorCell.setDefaultText("");
       return editorCell;
     }
-  }
-
-  private EditorCell createAlternation_kgtkmm_a(EditorContext editorContext, SNode node) {
-    boolean alternationCondition = true;
-    alternationCondition = TypeExpressionList_Editor.renderingCondition_kgtkmm_a0(node, editorContext, editorContext.getOperationContext().getScope());
-    EditorCell editorCell = null;
-    if (alternationCondition) {
-      editorCell = this.createRefNodeList_kgtkmm_a0_0(editorContext, node);
-    } else {
-      editorCell = this.createRefNodeList_kgtkmm_a0(editorContext, node);
-    }
-    return editorCell;
-  }
-
-  private EditorCell createRefNodeList_kgtkmm_a0(EditorContext editorContext, SNode node) {
-    AbstractCellListHandler handler = new TypeExpressionList_Editor.typeExpressionListHandler_kgtkmm_a0(node, "typeExpression", editorContext);
-    EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Horizontal(), false);
-    editorCell.setCellId("refNodeList_typeExpression");
-    editorCell.setRole(handler.getElementRole());
-    return editorCell;
-  }
-
-  private EditorCell createRefNodeList_kgtkmm_a0_0(EditorContext editorContext, SNode node) {
-    AbstractCellListHandler handler = new TypeExpressionList_Editor.typeExpressionListHandler_kgtkmm_a0_0(node, "typeExpression", editorContext);
-    EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Vertical(), false);
-    editorCell.setCellId("refNodeList_typeExpression_1");
-    editorCell.setRole(handler.getElementRole());
-    return editorCell;
   }
 }
