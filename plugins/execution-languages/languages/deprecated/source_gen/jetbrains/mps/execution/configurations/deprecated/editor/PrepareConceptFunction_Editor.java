@@ -6,9 +6,9 @@ import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
 import jetbrains.mps.openapi.editor.EditorContext;
 import org.jetbrains.mps.openapi.model.SNode;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.AbstractCellProvider;
 import jetbrains.mps.baseLanguage.editor.ConceptFunction_Component;
+import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
@@ -24,17 +24,17 @@ public class PrepareConceptFunction_Editor extends DefaultNodeEditor {
     return this.createCollection_vvrgg9_a(editorContext, node);
   }
 
+  private EditorCell createComponent_vvrgg9_a(EditorContext editorContext, SNode node) {
+    AbstractCellProvider provider = new ConceptFunction_Component(node);
+    EditorCell editorCell = provider.createEditorCell(editorContext);
+    return editorCell;
+  }
+
   private EditorCell createCollection_vvrgg9_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_vvrgg9_a");
     editorCell.addEditorCell(this.createConstant_vvrgg9_a0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_vvrgg9_b0(editorContext, node));
-    return editorCell;
-  }
-
-  private EditorCell createComponent_vvrgg9_a(EditorContext editorContext, SNode node) {
-    AbstractCellProvider provider = new ConceptFunction_Component(node);
-    EditorCell editorCell = provider.createEditorCell(editorContext);
     return editorCell;
   }
 

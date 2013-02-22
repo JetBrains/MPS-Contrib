@@ -43,26 +43,6 @@ public class Choice_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_q7klwl_c0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
-    editorCell.setCellId("Constant_q7klwl_c0");
-    Style style = new StyleImpl();
-    style.set(StyleAttributes.MATCHING_LABEL, "choice");
-    editorCell.getStyle().putAll(style);
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
-  private EditorCell createConstant_q7klwl_e0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
-    editorCell.setCellId("Constant_q7klwl_e0");
-    Style style = new StyleImpl();
-    style.set(StyleAttributes.MATCHING_LABEL, "choice");
-    editorCell.getStyle().putAll(style);
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
   private EditorCell createRefNode_q7klwl_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("occursAttribute");
@@ -80,6 +60,16 @@ public class Choice_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
+  private EditorCell createConstant_q7klwl_c0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
+    editorCell.setCellId("Constant_q7klwl_c0");
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.MATCHING_LABEL, "choice");
+    editorCell.getStyle().putAll(style);
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
   private EditorCell createRefNode_q7klwl_d0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("typeExpressionList");
@@ -94,6 +84,16 @@ public class Choice_Editor extends DefaultNodeEditor {
       EditorManager manager = EditorManager.getInstanceFromContext(opContext);
       return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
     } else
+    return editorCell;
+  }
+
+  private EditorCell createConstant_q7klwl_e0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
+    editorCell.setCellId("Constant_q7klwl_e0");
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.MATCHING_LABEL, "choice");
+    editorCell.getStyle().putAll(style);
+    editorCell.setDefaultText("");
     return editorCell;
   }
 }
