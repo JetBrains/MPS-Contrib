@@ -44,6 +44,8 @@
     </ant>
   </target>
   
+  <target name="prepare" />
+  
   <target name="fetchDependencies" />
   
   <target name="build" depends="assemble" />
