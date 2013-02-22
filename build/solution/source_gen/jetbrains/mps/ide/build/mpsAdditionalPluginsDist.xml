@@ -13,14 +13,35 @@
     <mkdir dir="${build.layout}" />
     <zip destfile="${build.layout}/${plugin.version}-additional-plugin.zip">
       <zipfileset dir="${artifacts.mpsDates}/mps-dates" prefix="mps-dates" />
-      <zipfileset dir="${artifacts.mpsDeprecatedBuildlanguage}/mps-obsolete" prefix="mps-obsolete" />
+      <zipfileset dir="${artifacts.mpsDeprecatedBuildlanguage}/mps-build-deprecated" prefix="mps-build-deprecated" />
     </zip>
     <echo file="${build.layout}/build.properties">mpsAdditionalPluginsDist.plugin.version=${plugin.version}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}</echo>
   </target>
   
   <target name="buildDependents">
+    <ant antfile="build/mpsBootstrapCore.xml" inheritAll="false" useNativeBasedir="true" />
+    <ant antfile="build/mpsCore.xml" inheritAll="false" useNativeBasedir="true" />
     <ant antfile="build/mpsDates.xml" inheritAll="false" useNativeBasedir="true" />
     <ant antfile="build/mpsDeprecatedBuildlanguage.xml" inheritAll="false" useNativeBasedir="true" />
+  </target>
+  
+  <target name="prepareDependents">
+    <ant antfile="build/mpsBootstrapCore.xml" inheritAll="false" useNativeBasedir="true">
+      <target name="prepare" />
+      <target name="assemble" />
+    </ant>
+    <ant antfile="build/mpsCore.xml" inheritAll="false" useNativeBasedir="true">
+      <target name="prepare" />
+      <target name="assemble" />
+    </ant>
+    <ant antfile="build/mpsDates.xml" inheritAll="false" useNativeBasedir="true">
+      <target name="prepare" />
+      <target name="assemble" />
+    </ant>
+    <ant antfile="build/mpsDeprecatedBuildlanguage.xml" inheritAll="false" useNativeBasedir="true">
+      <target name="prepare" />
+      <target name="assemble" />
+    </ant>
   </target>
   
   <target name="fetchDependencies" />
