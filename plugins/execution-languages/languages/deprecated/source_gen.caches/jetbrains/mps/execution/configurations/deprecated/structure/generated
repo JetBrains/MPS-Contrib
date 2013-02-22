@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-95v5knc32vf85tue3cr8rvl60rr5auv">
-  <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="8v5mxg7faenizzqancdsnbkmkc74yqj" />
+<dependencies version="2" modelHash="-36b38aa2t2jz8yrq5ycbqjxxlwsrcmb">
+  <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="1o2v1am7ahnmfqj93sr7lgsgpfhyz9n" />
   <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" hash="98k61qfedk3mo1qjg3v1au7xkjqpubq" />
-  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-22hsdy8hx47u1rwu32z4quczy3521b0" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-3b9uwh1r9i2smq77zmq9p3qrq6vqn8i" />
   <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" hash="-1btmsuay4m0oifxjqd0wk9bex9z4aer" />
-  <dep model="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" hash="-bsx9nqeu3phtzjl7qheg3fy1r62vv3m" />
-  <dep model="r:00000000-0000-4000-0000-011c89590368(jetbrains.mps.lang.plugin.structure)" hash="2qpv3yb8qddczhrrnsl9p37rc6hrwld" />
+  <dep model="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" hash="daias02aat31n7gtwshkp9oxpkbyf2n" />
+  <dep model="r:00000000-0000-4000-0000-011c89590368(jetbrains.mps.lang.plugin.structure)" hash="8y4u21hoods22akhyfbfsyjqoxsa249" />
   <dep model="r:00000000-0000-4000-0000-011c89590373(jetbrains.mps.baseLanguage.classifiers.structure)" hash="-acs1znq6d4zmq0jt0ai12tqya72tq9" />
   <dep model="r:31be9f37-1a76-49a2-a444-bd006ff675c1(jetbrains.mps.lang.checkedName.structure)" hash="60b6ox1q136tykeqjkfgdkqt4lyz2i8" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="2nkg967gfmalhl29qke6mhw4pavbga4" />
@@ -149,7 +149,7 @@
   <source id="314981645426569163" name="ExecuteParameterQuery" hash="-a7kismq2ivvz8l5i1pous2uzxoar144">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="314981645426569166" name="ProcessStatement" hash="31yhs6zmdkclmgsn3b3nkjzqmlzfhu0">
+  <source id="314981645426569166" name="ProcessStatement" hash="-ajvfy7xc6ed2lsi8dw38gbp0rh18dd3">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="314981645426569171" name="ParametrizedExecuteActions" hash="-28c03crmzixwe1eed1h0vrltwowia2s">
@@ -167,7 +167,7 @@
   <source id="314981645426569184" name="Environment_FunctionParameter" hash="-c97x8u0dqyrigfkzn5s4aknnn0qulre">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="314981645426569189" name="ActionsStatement" hash="8ypa1ifoxzxx4rs89ovqjbdiid1mp8y">
+  <source id="314981645426569189" name="ActionsStatement" hash="-9sj9qjttg0jghshiigpp1bjc6xfl8p9">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="314981645426569193" name="ProjectExpression" hash="3m038dyysjhkxe2oajfagvqibvvajpm">
@@ -191,7 +191,7 @@
   <source id="314981645426569220" name="ActionsList_FunctionParameter" hash="-elps4nqdtvri9ga42yisxgidba3phd3">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="314981645426569222" name="ExecutionConsoleStatement" hash="-8993xj8jrssy0c2vp9397rjou9g60ns">
+  <source id="314981645426569222" name="ExecutionConsoleStatement" hash="-co99yrp0b8a2iouuv7y11uv5w5etan1">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="314981645426569227" name="ResetEditorBlock" hash="-b7t57c7pxiuf5w8mu7f7an2rgxcijse">
@@ -200,7 +200,7 @@
   <source id="314981645426569230" name="DebugSessionCreator" hash="-5aq809un5h6fb7uyw94ou93gz1edmq5">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="314981645426569236" name="ActionListStatement" hash="bbi1w5jq0ovi4vo19b590bwo2xwqu5c">
+  <source id="314981645426569236" name="ActionListStatement" hash="-ardqdaslpdhsxh5v1pkxieseio60nna">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="314981645426569240" name="DisposeConsoleBlock" hash="7veh5nw3rcbve09e7gyzovzjqbvw8qm">
@@ -236,7 +236,7 @@
   <source id="314981645426569272" name="CheckConfigurationBlock" hash="8t3ja1ztu22qjbo2bnirneaqnoowzqi">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="314981645426569276" name="ReportErrorStatement" hash="aanozd0oxwu42xw5qkze7o5ooep7nuq">
+  <source id="314981645426569276" name="ReportErrorStatement" hash="-f69rrhb5dg1m17u7ei7vj1bu7lddtp">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="314981645426569279" name="GetConfigurationIconBlock" hash="-56lhetuz5nzn8kkvnuujl2mt9anovxp">
@@ -245,7 +245,7 @@
   <source id="314981645426569284" name="MakeConfigBlock" hash="-1n65t6jpg5xb4dzn5u762ge6nvdut0p">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="314981645426569290" name="CreateRunConfigStatement" hash="-8pryz59sbi8c3pgd71cv06e7e2ia06n">
+  <source id="314981645426569290" name="CreateRunConfigStatement" hash="-9y5kk8zovm50mje3hz0vtovhx74lnry">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="314981645426569296" name="IRunConfigPropertyInstance" hash="-d927wvdrqm4uib1rtd6r2rfo78k04d2">
@@ -281,7 +281,7 @@
   <source id="314981645426569335" name="UniversalRunConfigCreator" hash="-1ee07o1w8jg11x0wyplltpuofqy8wok">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="314981645426569341" name="RunConfigMainNodeStatement" hash="dfndk0oxb2s9dj07g67javvbzvvk90d">
+  <source id="314981645426569341" name="RunConfigMainNodeStatement" hash="-477e4e7tq5lj3m5c55jne4tz2w3zfdh">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="314981645426569344" name="RunConfigParameterReferenceOperation" hash="3lr8tos6acf1tehylgox1mouqeaygcw">

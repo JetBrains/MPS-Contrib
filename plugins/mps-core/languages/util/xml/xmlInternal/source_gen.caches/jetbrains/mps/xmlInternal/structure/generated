@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-6b2fw3cau1ynkku7elxu0l3jr0ull0j">
-  <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="8v5mxg7faenizzqancdsnbkmkc74yqj" />
+<dependencies version="2" modelHash="5o8gf4eqm9de8pyidrvz900o3h7e3ui">
+  <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="1o2v1am7ahnmfqj93sr7lgsgpfhyz9n" />
   <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" hash="98k61qfedk3mo1qjg3v1au7xkjqpubq" />
-  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="3l4d6vah7bipcwb415vkx7fy07t8dxg" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-3b9uwh1r9i2smq77zmq9p3qrq6vqn8i" />
   <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" hash="-1btmsuay4m0oifxjqd0wk9bex9z4aer" />
   <dep model="r:00000000-0000-4000-0000-011c89590588(jetbrains.mps.xml.structure)" hash="8uwuyb48iqmgayc62r4xpx3qnvyy6g4" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="2nkg967gfmalhl29qke6mhw4pavbga4" />
@@ -33,7 +33,7 @@
   <source id="1165761580958" name="StatementElement" hash="2gq8rju4s0az0yf472rnjzxp55d5th">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1165765736183" name="ContentStatement" hash="64k5xq7s45qc2ohl203bonxekks4zre">
+  <source id="1165765736183" name="ContentStatement" hash="do3s147cicmeo71vk76wtojqr4f4fu">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="1166472279594" name="XmlFile" hash="94m9h7aya6ce1o8lth3aulg90u6d8xr">
@@ -45,7 +45,7 @@
   <source id="1174840272325" name="Comment" hash="-6zfdce6wl9pb5t34ctwe5mpup0vibnd">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1174856278879" name="DocumentStatement" hash="9gx2xu8vm628z6c7s3f9o0l229n45ns">
+  <source id="1174856278879" name="DocumentStatement" hash="-4tlmza2hf4vxhzp7xjg0jkl34y77xut">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="1174858745369" name="Prolog" hash="-3ezcla1kbruzli8rj9sbt8vcrfbto0n">
