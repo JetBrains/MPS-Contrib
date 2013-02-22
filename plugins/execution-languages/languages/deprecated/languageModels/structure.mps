@@ -516,6 +516,7 @@
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068580123157" resolveInfo="Statement" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="314981645426569344">
+      <property name="incomingRefs" nameId="tpce.3656905254337409260" value="forbidden" />
       <property name="name" nameId="tpck.1169194664001" value="RunConfigParameterReferenceOperation" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="RunConfigs" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />

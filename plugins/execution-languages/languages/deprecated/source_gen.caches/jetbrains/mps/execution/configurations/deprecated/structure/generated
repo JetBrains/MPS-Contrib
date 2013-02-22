@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="6g98ze4zvj66ym7fi191hmo93r1k241">
+<dependencies version="2" modelHash="-wz20ogp0jvjfj851ipzxdbp7vz6vyy">
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="1o2v1am7ahnmfqj93sr7lgsgpfhyz9n" />
   <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" hash="98k61qfedk3mo1qjg3v1au7xkjqpubq" />
-  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="6ghs59slvbjoyiuw6bo1xdq7fqnsp8z" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="8n3bsezxlrqznew9vfvottea202m737" />
   <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" hash="-73ct2r3ual3mq3ssad45emk5norsbqn" />
-  <dep model="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" hash="-as9vo0z1hw2p0ofzlx9h51db8s7kimh" />
-  <dep model="r:00000000-0000-4000-0000-011c89590368(jetbrains.mps.lang.plugin.structure)" hash="-c6ynxo1jzyj0n8q54is9aimveixjk2u" />
-  <dep model="r:00000000-0000-4000-0000-011c89590373(jetbrains.mps.baseLanguage.classifiers.structure)" hash="4t5ik1rudyz9l2glcaxvqr8l1zd5m4m" />
+  <dep model="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" hash="c40c0axkaqpq1q2olgkatyttlk6fy2g" />
+  <dep model="r:00000000-0000-4000-0000-011c89590368(jetbrains.mps.lang.plugin.structure)" hash="dys9i09kyhbzktysph3at9uwubsqwfx" />
+  <dep model="r:00000000-0000-4000-0000-011c89590373(jetbrains.mps.baseLanguage.classifiers.structure)" hash="cmodf4n66as2lfgukbp742ijlmoljlz" />
   <dep model="r:31be9f37-1a76-49a2-a444-bd006ff675c1(jetbrains.mps.lang.checkedName.structure)" hash="-245f2ehq7rczm93ykkf5ajsmswcert" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="2nkg967gfmalhl29qke6mhw4pavbga4" />
   <common hash="-qpn8zex4flkl4x2k68ih914h9hgsfi">
@@ -284,7 +284,7 @@
   <source id="314981645426569341" name="RunConfigMainNodeStatement" hash="-477e4e7tq5lj3m5c55jne4tz2w3zfdh">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="314981645426569344" name="RunConfigParameterReferenceOperation" hash="3lr8tos6acf1tehylgox1mouqeaygcw">
+  <source id="314981645426569344" name="RunConfigParameterReferenceOperation" hash="4gc5r8g5fxa2v0zv8zf34ozv1x3grni">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="314981645426569347" name="RunConfigType" hash="a85sh2t4ng0o3f50avm3obfamop994o">

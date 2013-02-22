@@ -294,6 +294,7 @@
       <property name="abstract" nameId="tpce.4628067390765956802" value="false" />
       <property name="final" nameId="tpce.4628067390765956807" value="false" />
       <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Convert to instant" />
+      <property name="incomingRefs" nameId="tpce.3656905254337409260" value="forbidden" />
       <property name="name" nameId="tpck.1169194664001" value="ConvertToDateTimeOperation" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="operation.convert" />
       <property name="conceptAlias" nameId="tpce.5092175715804935370" value="instant" />
@@ -302,6 +303,7 @@
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1209035760903">
       <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
       <property name="final" nameId="tpce.4628067390765956807" value="false" />
+      <property name="incomingRefs" nameId="tpce.3656905254337409260" value="forbidden" />
       <property name="name" nameId="tpck.1169194664001" value="DateTimeOperation" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="operation" />
       <property name="conceptAlias" nameId="tpce.5092175715804935370" value="&lt;datetime operation&gt;" />
@@ -311,6 +313,7 @@
       <property name="abstract" nameId="tpce.4628067390765956802" value="false" />
       <property name="final" nameId="tpce.4628067390765956807" value="false" />
       <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Check if datetime is not null" />
+      <property name="incomingRefs" nameId="tpce.3656905254337409260" value="forbidden" />
       <property name="name" nameId="tpck.1169194664001" value="NotNullOperation" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="operation.compare" />
       <property name="conceptAlias" nameId="tpce.5092175715804935370" value="isNotNull" />
@@ -320,6 +323,7 @@
       <property name="abstract" nameId="tpce.4628067390765956802" value="false" />
       <property name="final" nameId="tpce.4628067390765956807" value="false" />
       <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Check if datetime is null" />
+      <property name="incomingRefs" nameId="tpce.3656905254337409260" value="forbidden" />
       <property name="name" nameId="tpck.1169194664001" value="NullOperation" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="operation.compare" />
       <property name="conceptAlias" nameId="tpce.5092175715804935370" value="isNull" />
@@ -329,6 +333,7 @@
       <property name="abstract" nameId="tpce.4628067390765956802" value="false" />
       <property name="final" nameId="tpce.4628067390765956807" value="false" />
       <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Convert to java.util.Calendar" />
+      <property name="incomingRefs" nameId="tpce.3656905254337409260" value="forbidden" />
       <property name="name" nameId="tpck.1169194664001" value="ConvertToJavaCalendarOperation" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="deprecated" />
       <property name="conceptAlias" nameId="tpce.5092175715804935370" value="javaCalendar" />
@@ -338,6 +343,7 @@
       <property name="abstract" nameId="tpce.4628067390765956802" value="false" />
       <property name="final" nameId="tpce.4628067390765956807" value="false" />
       <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Convert to java.util.Date" />
+      <property name="incomingRefs" nameId="tpce.3656905254337409260" value="forbidden" />
       <property name="name" nameId="tpck.1169194664001" value="ConvertToJavaDateOperation" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="operation.convert" />
       <property name="conceptAlias" nameId="tpce.5092175715804935370" value="javaDate" />
@@ -347,6 +353,7 @@
       <property name="abstract" nameId="tpce.4628067390765956802" value="false" />
       <property name="final" nameId="tpce.4628067390765956807" value="false" />
       <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Convert to org.joda.time.DateTime" />
+      <property name="incomingRefs" nameId="tpce.3656905254337409260" value="forbidden" />
       <property name="name" nameId="tpck.1169194664001" value="ConvertToJodaDateTimeOperation" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="deprecated" />
       <property name="conceptAlias" nameId="tpce.5092175715804935370" value="jodaDateTime" />
@@ -356,6 +363,7 @@
       <property name="abstract" nameId="tpce.4628067390765956802" value="false" />
       <property name="final" nameId="tpce.4628067390765956807" value="false" />
       <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Get integer value of datetime property" />
+      <property name="incomingRefs" nameId="tpce.3656905254337409260" value="forbidden" />
       <property name="name" nameId="tpck.1169194664001" value="DateTimePropetyReferenceOperation" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="operation.property" />
       <property name="conceptAlias" nameId="tpce.5092175715804935370" value="&lt;{dateTimeProperty}&gt;" />
@@ -563,6 +571,7 @@
       <property name="abstract" nameId="tpce.4628067390765956802" value="false" />
       <property name="final" nameId="tpce.4628067390765956807" value="false" />
       <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="convert to Duration" />
+      <property name="incomingRefs" nameId="tpce.3656905254337409260" value="forbidden" />
       <property name="name" nameId="tpck.1169194664001" value="ConvertToDurationOperation" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="operation.convert" />
       <property name="conceptAlias" nameId="tpce.5092175715804935370" value="toDuration" />
@@ -668,6 +677,7 @@
       <property name="abstract" nameId="tpce.4628067390765956802" value="false" />
       <property name="final" nameId="tpce.4628067390765956807" value="false" />
       <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="timezone string id" />
+      <property name="incomingRefs" nameId="tpce.3656905254337409260" value="forbidden" />
       <property name="name" nameId="tpck.1169194664001" value="TimeZoneIdOperation" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="operation.property" />
       <property name="conceptAlias" nameId="tpce.5092175715804935370" value="id" />
@@ -676,6 +686,7 @@
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5293902215864689835">
       <property name="abstract" nameId="tpce.4628067390765956802" value="false" />
       <property name="final" nameId="tpce.4628067390765956807" value="false" />
+      <property name="incomingRefs" nameId="tpce.3656905254337409260" value="forbidden" />
       <property name="name" nameId="tpck.1169194664001" value="TimeZoneNameOperation" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="operation.property" />
       <property name="conceptAlias" nameId="tpce.5092175715804935370" value="name" />
