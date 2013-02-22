@@ -23,10 +23,10 @@
     <classNode dependClassName="jetbrains.mps.project.facets.JavaModuleFacet" />
     <classNode dependClassName="jetbrains.mps.project.facets.JavaModuleOperations" />
     <classNode dependClassName="jetbrains.mps.reloading.CommonPaths" />
-    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
     <classNode dependClassName="jetbrains.mps.util.annotation.ToRemove" />
     <classNode dependClassName="org.jetbrains.annotations.NotNull" />
     <classNode dependClassName="org.jetbrains.annotations.Nullable" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SModel" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
   </dependency>
   <dependency className="jetbrains.mps.execution.configurations.deprecated.runtime.ClassRunner" file="ClassRunner.java">

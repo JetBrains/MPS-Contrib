@@ -12,7 +12,7 @@
   <dep model="r:00000000-0000-4000-0000-011c89590584(jetbrains.mps.xml.behavior)" hash="-7emr00hcjm9kirjwqn1x3p4hty6xoqb" />
   <dep model="r:00000000-0000-4000-0000-011c89590588(jetbrains.mps.xml.structure)" hash="8uwuyb48iqmgayc62r4xpx3qnvyy6g4" />
   <dep model="r:00000000-0000-4000-0000-011c89590591(jetbrains.mps.xmlInternal.structure)" hash="-6b2fw3cau1ynkku7elxu0l3jr0ull0j" />
-  <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" hash="ax7rzxgstrf3hgbotzc7npz39df1o24" />
+  <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" hash="ekq8c6eff3zp2kdgc6m8mfm2jwsjltn" />
   <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" hash="8lb0ssmvoceitlofqs9sah312lyoau7" />
   <common hash="-deaj2d5l7k0e7kwtu3g5quoizp18i9v">
     <dep root="1165632618759" />

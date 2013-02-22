@@ -31,10 +31,10 @@
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="jetbrains.mps.build.generictasks.behavior.BuiltInTaskDeclaration_Behavior" />
     <classNode dependClassName="jetbrains.mps.smodel.IOperationContext" />
-    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
     <classNode dependClassName="jetbrains.mps.smodel.SNodePointer" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.CheckingNodeContext" />
     <classNode dependClassName="org.jetbrains.annotations.Nullable" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SModel" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor" />
   </dependency>
   <dependency className="jetbrains.mps.build.generictasks.constraints.ConstraintsAspectDescriptor" file="ConstraintsAspectDescriptor.java">
@@ -136,10 +136,10 @@
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="jetbrains.mps.build.generictasks.behavior.BuiltInTaskDeclaration_Behavior" />
     <classNode dependClassName="jetbrains.mps.smodel.IOperationContext" />
-    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
     <classNode dependClassName="jetbrains.mps.smodel.SNodePointer" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.CheckingNodeContext" />
     <classNode dependClassName="org.jetbrains.annotations.Nullable" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SModel" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor" />
   </dependency>
   <dependency className="jetbrains.mps.build.generictasks.constraints.TaskReference_Constraints" file="TaskReference_Constraints.java">

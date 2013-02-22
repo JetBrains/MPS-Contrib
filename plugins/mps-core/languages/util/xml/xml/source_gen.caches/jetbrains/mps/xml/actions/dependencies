@@ -34,7 +34,6 @@
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
     <classNode dependClassName="jetbrains.mps.smodel.IOperationContext" />
-    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
     <classNode dependClassName="jetbrains.mps.smodel.action.DefaultChildNodeSubstituteAction" />
     <classNode dependClassName="jetbrains.mps.smodel.action.DefaultSimpleSubstituteAction" />
     <classNode dependClassName="jetbrains.mps.smodel.action.INodeSubstituteAction" />
@@ -48,6 +47,7 @@
     <classNode dependClassName="jetbrains.mps.util.NameUtil" />
     <classNode dependClassName="jetbrains.mps.xml.actions.ElementUtil" />
     <classNode dependClassName="jetbrains.mps.xmlSchema.behavior.ElementDeclaration_Behavior" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SModel" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
   </dependency>
 </dependenciesRoot>
