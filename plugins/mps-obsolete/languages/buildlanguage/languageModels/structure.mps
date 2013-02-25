@@ -11,8 +11,8 @@
   <import index="tpss" modelUID="r:00000000-0000-4000-0000-011c895904c0(jetbrains.mps.buildlanguage.behavior)" version="-1" implicit="yes" />
   <roots>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1196851066733">
-      <property name="abstract" nameId="tpce.4628067390765956802" value="false" />
       <property name="rootable" nameId="tpce.1096454100552" value="true" />
+      <property name="abstract" nameId="tpce.4628067390765956802" value="false" />
       <property name="final" nameId="tpce.4628067390765956807" value="false" />
       <property name="iconPath" nameId="tpce.1160488491229" value="${language_descriptor}/icons/build.png" />
       <property name="name" nameId="tpck.1169194664001" value="Project" />
@@ -335,6 +335,9 @@
     </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1240834046915">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="1240833739976" resolveInfo="IAntScript" />
+    </node>
+    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="9063453653393261203">
+      <property name="comment" nameId="tpce.1225118933224" value="Use jetbrains.mps.core.xml language to write ant-scripts." />
     </node>
   </root>
   <root id="1196851087779">
