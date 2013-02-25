@@ -7,10 +7,10 @@ import jetbrains.mps.nodeEditor.cells.EditorCell;
 import jetbrains.mps.openapi.editor.EditorContext;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
+import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Indent;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
@@ -30,6 +30,13 @@ public class PublicExternalId_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
+  private EditorCell createConstant_u6a232_a0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "PUBLIC");
+    editorCell.setCellId("Constant_u6a232_a0");
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
   private EditorCell createCollection_u6a232_b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_u6a232_b0");
@@ -41,6 +48,11 @@ public class PublicExternalId_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
+  private EditorCell createIndentCell_u6a232_a1a(EditorContext editorContext, SNode node) {
+    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
+    return result;
+  }
+
   private EditorCell createCollection_u6a232_b1a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_u6a232_b1a");
@@ -50,18 +62,6 @@ public class PublicExternalId_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createRefNode_u6a232_a1b0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_u6a232_b1b0(editorContext, node));
     return editorCell;
-  }
-
-  private EditorCell createConstant_u6a232_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "PUBLIC");
-    editorCell.setCellId("Constant_u6a232_a0");
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
-  private EditorCell createIndentCell_u6a232_a1a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
   }
 
   private EditorCell createRefNode_u6a232_a1b0(EditorContext editorContext, SNode node) {

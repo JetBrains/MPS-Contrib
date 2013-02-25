@@ -10,7 +10,7 @@
     <nodeInfo nodeId="1196158770195" fileName="GTextUtil.java" startLine="24" startPosition="37" endLine="27" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="1196164343655" fileName="GTextUtil.java" startLine="27" startPosition="5" endLine="30" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="1196158679103" fileName="GTextUtil.java" startLine="15" startPosition="45" endLine="21" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="1196158527655" fileName="GTextUtil.java" startLine="15" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="optimize#(Ljetbrains/mps/smodel/SModel;)V" />
+    <nodeInfo nodeId="1196158527655" fileName="GTextUtil.java" startLine="15" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="optimize#(Lorg/jetbrains/mps/openapi/model/SModel;)V" />
     <nodeInfo nodeId="1196158635132" fileName="GTextUtil.java" startLine="24" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="visit#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
     <scopeInfo nodeId="5409050563449594752" fileName="GTextUtil.java" startLine="12" startPosition="22" endLine="12" endPosition="22" />
     <scopeInfo nodeId="9105221701114936394" fileName="GTextUtil.java" startLine="17" startPosition="87" endLine="18" endPosition="17" />

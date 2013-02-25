@@ -4,7 +4,7 @@ package jetbrains.mps.build.generictasks.taskfromjar;
 
 import jetbrains.mps.logging.Logger;
 import jetbrains.mps.util.PathManager;
-import jetbrains.mps.smodel.SModel;
+import org.jetbrains.mps.openapi.model.SModel;
 import java.util.List;
 import org.jetbrains.mps.openapi.model.SNode;
 import java.io.IOException;
