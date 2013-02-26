@@ -286,7 +286,7 @@ public class QueriesGenerated {
     return SLinkOperations.getTarget(_context.getNode(), "propertyValue", true);
   }
 
-  public static SNode sourceNodeQuery_2625030007890239220(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+  public static SNode sourceNodeQuery_8232981609242714270(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "propertyValue", true);
   }
 
