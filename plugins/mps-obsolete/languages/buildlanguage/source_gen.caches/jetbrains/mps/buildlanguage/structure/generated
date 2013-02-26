@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-1pgfa6zfmw5ucew2w5ien77i4rvdfnp">
-  <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="1o2v1am7ahnmfqj93sr7lgsgpfhyz9n" />
+<dependencies version="2" modelHash="-28a4fzb22y8kztehrqcfqxl5xfrgq9n">
+  <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="-92tu7rxl21zsoz29xy7caobqrksdhqe" />
   <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" hash="-act6qny6z7zw85vmijovp95lnr9t9zd" />
-  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-dl99tg7vzgtdip5jimat4o5w493671z" />
-  <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" hash="bj5uw6sh8mum5zzmnz7mfl9x74aq18d" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-9bdhyw4fyjj9lptx5av16k73e6s932q" />
+  <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" hash="-c1prn3teyxjh37lzg3o3idls8kjv8gf" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="2nkg967gfmalhl29qke6mhw4pavbga4" />
-  <common hash="-8y7n0wiy6k8rb89uhropsfzx690akbr">
+  <common hash="-bvjyeowi6zijvsvkx74tna58dwoggah">
     <dep root="1196851066733" />
     <dep root="1196851087779" />
     <dep root="1196851099544" />
@@ -54,7 +54,7 @@
     <file name="Buildlanguage_Language.java" />
     <file name="StructureAspectDescriptor.java" />
   </common>
-  <source id="1196851066733" name="Project" hash="1d4jlcsex1dz4hemvfn0s8ir3w7s00c">
+  <source id="1196851066733" name="Project" hash="a152f2f8dqm1tkc5uczuk7x1paekwgq">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="1196851087779" name="AbstractCall" hash="41e5auq1roganxr03seu3i4bhleo2kf">
@@ -87,16 +87,16 @@
   <source id="1196866637548" name="IntLiteral" hash="dikd002h5gy9e3ip1k6ckd6ot3has9i">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1196870363565" name="BooleanType" hash="3eo21n9xx41c7rnccx6ejtps5ffhr6u">
+  <source id="1196870363565" name="BooleanType" hash="bji6zfkdg51zmph4xlq91kggb61i9o8">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1196870403099" name="StringType" hash="-mmpmb2iesabnusbm07tm860oj5dbmh">
+  <source id="1196870403099" name="StringType" hash="cnv8b9sd4uh5yp9i0xz7mjhxmeqikgk">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1196870417350" name="IntegerType" hash="77efs0dvxqb2oh400up1ku3l5ztb80b">
+  <source id="1196870417350" name="IntegerType" hash="bf1tc5gvjq5jbm8d5sd4232exmynlx9">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1196870830058" name="PropertyType" hash="509v2lg1lawrltmh8o7etax7xs4t6ao">
+  <source id="1196870830058" name="PropertyType" hash="ch956ah7ezc589bi0kxes5bfi2xt41u">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="1197107841918" name="BinaryOperation" hash="-8ziirnoeniuq8dsznaf8sf2mbl48ju0">
@@ -117,7 +117,7 @@
   <source id="1199031681512" name="FileName" hash="6gszkv1atjyl9zcthmqlkfogigmzp8d">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1199032398223" name="FileType" hash="30kwbii8j59dvcavsbppnor8scupakj">
+  <source id="1199032398223" name="FileType" hash="-6pb5y9tsw7ux8vgp6hf08imx83uy61y">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="1199644616584" name="IProjectComponent" hash="9kq7rq5qwq2w15dl2fhvauf2wm64dsv">
@@ -126,7 +126,7 @@
   <source id="1200418817047" name="ImportPropertyNode" hash="-c9grfgi51a608lcvcs1vigt1bpc62ts">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1200510908478" name="CallReferenceType" hash="-aukrmjjtlwiwuy4atjpfe08a3axwb0x">
+  <source id="1200510908478" name="CallReferenceType" hash="-71u5327858rohc6drow58jxqemksm0c">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="1200511852076" name="CallReference" hash="1skbk7y6rkt915fw2hdqw7iutrdai0m">
