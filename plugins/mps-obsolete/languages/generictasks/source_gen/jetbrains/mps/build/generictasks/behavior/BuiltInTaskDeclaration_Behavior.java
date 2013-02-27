@@ -17,7 +17,6 @@ import jetbrains.mps.smodel.ModuleRepositoryFacade;
 import jetbrains.mps.smodel.Language;
 import jetbrains.mps.project.structure.modules.ModuleReference;
 import jetbrains.mps.project.IModule;
-import org.jetbrains.mps.openapi.model.SModel;
 
 public class BuiltInTaskDeclaration_Behavior {
   public static void init(SNode thisNode) {
