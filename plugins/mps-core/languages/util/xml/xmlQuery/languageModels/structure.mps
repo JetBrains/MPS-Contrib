@@ -16,31 +16,31 @@
       <property name="abstract" nameId="tpce.4628067390765956802" value="false" />
       <property name="final" nameId="tpce.4628067390765956807" value="false" />
       <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="access child operation" />
-      <property name="incomingRefs" nameId="tpce.3656905254337409260" value="forbidden" />
       <property name="name" nameId="tpck.1169194664001" value="AccessChildrenOperation" />
+      <property name="staticScope" nameId="tpce.5404671619616246344" value="none" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="operations" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="4991903842868303816" resolveInfo="XMLElementOperation" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4815471077468621637">
       <property name="abstract" nameId="tpce.4628067390765956802" value="false" />
       <property name="final" nameId="tpce.4628067390765956807" value="false" />
-      <property name="incomingRefs" nameId="tpce.3656905254337409260" value="forbidden" />
       <property name="name" nameId="tpck.1169194664001" value="XMLElementType" />
+      <property name="staticScope" nameId="tpce.5404671619616246344" value="none" />
       <property name="conceptAlias" nameId="tpce.5092175715804935370" value="xml&lt;&gt;" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790189" resolveInfo="Type" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4991903842868303816">
       <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
       <property name="final" nameId="tpce.4628067390765956807" value="false" />
-      <property name="incomingRefs" nameId="tpce.3656905254337409260" value="forbidden" />
       <property name="name" nameId="tpck.1169194664001" value="XMLElementOperation" />
+      <property name="staticScope" nameId="tpce.5404671619616246344" value="none" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="operations" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4991903842868445303">
       <property name="iconPath" nameId="tpce.1160488491229" value="${module}/icons/field.png" />
-      <property name="incomingRefs" nameId="tpce.3656905254337409260" value="forbidden" />
       <property name="name" nameId="tpck.1169194664001" value="AccessAttributeOperation" />
+      <property name="staticScope" nameId="tpce.5404671619616246344" value="none" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="operations" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="4991903842868303816" resolveInfo="XMLElementOperation" />
     </node>
@@ -48,8 +48,8 @@
       <property name="abstract" nameId="tpce.4628067390765956802" value="false" />
       <property name="final" nameId="tpce.4628067390765956807" value="false" />
       <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="arbitrary child" />
-      <property name="incomingRefs" nameId="tpce.3656905254337409260" value="forbidden" />
       <property name="name" nameId="tpck.1169194664001" value="AccessArbitraryChildrenOperation" />
+      <property name="staticScope" nameId="tpce.5404671619616246344" value="none" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="operations" />
       <property name="conceptAlias" nameId="tpce.5092175715804935370" value="child" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="4991903842868303816" resolveInfo="XMLElementOperation" />
@@ -58,8 +58,8 @@
       <property name="abstract" nameId="tpce.4628067390765956802" value="false" />
       <property name="final" nameId="tpce.4628067390765956807" value="false" />
       <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="arbitrary attribute" />
-      <property name="incomingRefs" nameId="tpce.3656905254337409260" value="forbidden" />
       <property name="name" nameId="tpck.1169194664001" value="AccessArbitraryAttributeOperation" />
+      <property name="staticScope" nameId="tpce.5404671619616246344" value="none" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="operations" />
       <property name="conceptAlias" nameId="tpce.5092175715804935370" value="attribute" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="4991903842868303816" resolveInfo="XMLElementOperation" />
@@ -68,8 +68,8 @@
       <property name="abstract" nameId="tpce.4628067390765956802" value="false" />
       <property name="final" nameId="tpce.4628067390765956807" value="false" />
       <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="access elements'text" />
-      <property name="incomingRefs" nameId="tpce.3656905254337409260" value="forbidden" />
       <property name="name" nameId="tpck.1169194664001" value="AccessTextOperation" />
+      <property name="staticScope" nameId="tpce.5404671619616246344" value="none" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="operations" />
       <property name="conceptAlias" nameId="tpce.5092175715804935370" value="text" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="4991903842868303816" resolveInfo="XMLElementOperation" />
@@ -79,7 +79,7 @@
       <property name="final" nameId="tpce.4628067390765956807" value="false" />
       <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="create new XML element" />
       <property name="name" nameId="tpck.1169194664001" value="XMLElementCreator" />
-      <property name="incomingRefs" nameId="tpce.3656905254337409260" value="forbidden" />
+      <property name="staticScope" nameId="tpce.5404671619616246344" value="none" />
       <property name="conceptAlias" nameId="tpce.5092175715804935370" value="xml&lt;&gt;" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1145552809883" resolveInfo="AbstractCreator" />
     </node>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-5dew5p6ckf1u3i9li8xtsuhj69oq5od">
-  <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="1o2v1am7ahnmfqj93sr7lgsgpfhyz9n" />
+<dependencies version="2" modelHash="40p5dc284gg5qvblia1286vdz9ahyri">
+  <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="-92tu7rxl21zsoz29xy7caobqrksdhqe" />
   <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" hash="-act6qny6z7zw85vmijovp95lnr9t9zd" />
-  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="6xoyysetm6oarfu3mu090t233rt6p2q" />
-  <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" hash="9ywk7amtncgljhhml38fzfdhxlv0r5a" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-9bdhyw4fyjj9lptx5av16k73e6s932q" />
+  <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" hash="-c1prn3teyxjh37lzg3o3idls8kjv8gf" />
   <dep model="r:3b7ed80f-6cfd-45bc-b051-2f66c620dd27(jetbrains.mps.lang.traceable.structure)" hash="78ysfrpjuhuyadt3m03y6bbyt3b17tp" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="2nkg967gfmalhl29qke6mhw4pavbga4" />
   <common hash="b6kiunazsslzujkotzwwqkywnuyu5av">
@@ -52,7 +52,7 @@
   <source id="1164416446950" name="GIndentBlock" hash="6dodqm562fmgg54cm5uice79zyof2qz">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1164488352732" name="GItemStatement" hash="-utsfhe0lzz2nnb29ras2ihykspogr5">
+  <source id="1164488352732" name="GItemStatement" hash="64cfjgiyr0hzqtsnuetz0wnhfei0po4">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="1164497519485" name="GExpressionItem" hash="a97lhpxq1aybypdolkmoczkspyuftl6">
@@ -67,7 +67,7 @@
   <source id="1179109169620" name="GConditionalLine" hash="9zmraw4zhlbaf6qepk2twonrreu4mp7">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1181754781153" name="BuilderContextRef" hash="-8scgeqn6dvij4ntz8lw4o94cr1l89vj">
+  <source id="1181754781153" name="BuilderContextRef" hash="4uf9cfpz0mwnyackpykdc0ij9tduo2n">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="1184639540818" name="GDocument" hash="-behp3ejeas79pgzzi1uifolyvxtfyse">
