@@ -72,6 +72,7 @@
     <classNode dependClassName="jetbrains.mps.nodeEditor.cells.EditorCell" />
     <classNode dependClassName="jetbrains.mps.openapi.editor.cells.EditorCell" />
     <classNode dependClassName="jetbrains.mps.openapi.editor.style.Style" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.style.StyleRegistry" />
   </dependency>
   <dependency className="jetbrains.mps.buildlanguage.editor.CallReferenceType_Editor" file="CallReferenceType_Editor.java">
     <classNode dependClassName="jetbrains.mps.lang.core.editor.AliasEditorComponent" />
