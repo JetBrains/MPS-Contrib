@@ -17,6 +17,7 @@ import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.MPSFonts;
+import jetbrains.mps.openapi.editor.style.StyleRegistry;
 import java.awt.Color;
 
 public class ElementReference_Editor extends DefaultNodeEditor {
@@ -72,13 +73,13 @@ public class ElementReference_Editor extends DefaultNodeEditor {
       editorCell.setCellId("property_elementName");
       Style style = new StyleImpl();
       style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
-      style.set(StyleAttributes.TEXT_COLOR, ElementReference_Editor._Inline_uugm4e_a0a._StyleParameter_QueryFunction_uugm4e_a1a0a0((editorCell == null ?
+      style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(ElementReference_Editor._Inline_uugm4e_a0a._StyleParameter_QueryFunction_uugm4e_a1a0a0((editorCell == null ?
         null :
         editorCell.getContext()
       ), (editorCell == null ?
         null :
         editorCell.getSNode()
-      )));
+      ))));
       editorCell.getStyle().putAll(style);
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();
