@@ -5,6 +5,7 @@ package jetbrains.mps.execution.configurations.deprecated.scripts;
 import jetbrains.mps.smodel.SModel;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.internal.collections.runtime.ISequenceClosure;
+import jetbrains.mps.smodel.SModelInternal;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.smodel.SModelReference;
@@ -22,7 +23,7 @@ public class ScriptsUtil {
   public static Iterable<SModel.ImportElement> getImports(final org.jetbrains.mps.openapi.model.SModel model, final String longName) {
     return Sequence.fromIterable(Sequence.fromClosure(new ISequenceClosure<SModel.ImportElement>() {
       public Iterable<SModel.ImportElement> iterable() {
-        return ((SModel) model).importedModels();
+        return ((SModelInternal) model).importedModels();
       }
     })).where(new IWhereFilter<SModel.ImportElement>() {
       public boolean accept(SModel.ImportElement it) {
@@ -35,11 +36,11 @@ public class ScriptsUtil {
     List<SModel.ImportElement> imports = Sequence.fromIterable(ScriptsUtil.getImports(SNodeOperations.getModel(node), longName)).toListSequence();
     ListSequence.fromList(imports).visitAll(new IVisitor<SModel.ImportElement>() {
       public void visit(SModel.ImportElement it) {
-        ((SModel) SNodeOperations.getModel(node)).deleteModelImport(it.getModelReference());
+        ((SModelInternal) SNodeOperations.getModel(node)).deleteModelImport(it.getModelReference());
       }
     });
 
-    ((SModel) SNodeOperations.getModel(node)).addModelImport(newModelReference, false);
+    ((SModelInternal) SNodeOperations.getModel(node)).addModelImport(newModelReference, false);
     for (SNode chileNode : ListSequence.fromList(SNodeOperations.getDescendants(node, null, true, new String[]{}))) {
       for (SReference ref : Sequence.fromIterable(chileNode.getReferences())) {
         if (ref.getTargetSModelReference().getLongName().equals(longName)) {
@@ -64,7 +65,7 @@ public class ScriptsUtil {
       }
     }
     if (found) {
-      ((SModel) SNodeOperations.getModel(node)).addModelImport(newModelReference, false);
+      ((SModelInternal) SNodeOperations.getModel(node)).addModelImport(newModelReference, false);
     }
   }
 }

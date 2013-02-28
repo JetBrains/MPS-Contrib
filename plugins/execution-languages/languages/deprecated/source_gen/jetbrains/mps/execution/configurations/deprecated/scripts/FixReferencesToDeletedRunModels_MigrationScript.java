@@ -11,6 +11,7 @@ import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.ISequenceClosure;
+import jetbrains.mps.smodel.SModelInternal;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.smodel.SModelUtil_new;
 import jetbrains.mps.project.GlobalScope;
@@ -66,7 +67,7 @@ public class FixReferencesToDeletedRunModels_MigrationScript extends BaseMigrati
         final SModel model = SNodeOperations.getModel(node);
         return model != null && model.isRoot(node) && Sequence.fromIterable(Sequence.fromClosure(new ISequenceClosure<jetbrains.mps.smodel.SModel.ImportElement>() {
           public Iterable<jetbrains.mps.smodel.SModel.ImportElement> iterable() {
-            return ((jetbrains.mps.smodel.SModel) model).importedModels();
+            return ((SModelInternal) model).importedModels();
           }
         })).where(new IWhereFilter<jetbrains.mps.smodel.SModel.ImportElement>() {
           public boolean accept(jetbrains.mps.smodel.SModel.ImportElement it) {
