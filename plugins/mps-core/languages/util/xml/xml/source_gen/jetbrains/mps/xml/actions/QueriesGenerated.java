@@ -8,7 +8,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import java.util.List;
-import jetbrains.mps.smodel.action.INodeSubstituteAction;
+import jetbrains.mps.openapi.editor.cells.SubstituteAction;
 import jetbrains.mps.smodel.action.NodeSubstituteActionsFactoryContext;
 import java.util.ArrayList;
 import org.jetbrains.mps.openapi.model.SNode;
@@ -45,8 +45,8 @@ public class QueriesGenerated {
     }
   }
 
-  public static List<INodeSubstituteAction> nodeSubstituteActionsBuilder_ActionsFactory_BaseAttribute_1167699332639(final IOperationContext operationContext, final NodeSubstituteActionsFactoryContext _context) {
-    List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
+  public static List<SubstituteAction> nodeSubstituteActionsBuilder_ActionsFactory_BaseAttribute_1167699332639(final IOperationContext operationContext, final NodeSubstituteActionsFactoryContext _context) {
+    List<SubstituteAction> result = ListSequence.fromList(new ArrayList<SubstituteAction>());
     {
       SNode outputConcept = SConceptOperations.findConceptDeclaration("jetbrains.mps.xml.structure.Attribute");
       SNode childConcept = (SNode) _context.getChildConcept();
@@ -87,8 +87,8 @@ public class QueriesGenerated {
     return result;
   }
 
-  public static List<INodeSubstituteAction> nodeSubstituteActionsBuilder_ActionsFactory_Content_1201903366642(final IOperationContext operationContext, final NodeSubstituteActionsFactoryContext _context) {
-    List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
+  public static List<SubstituteAction> nodeSubstituteActionsBuilder_ActionsFactory_Content_1201903366642(final IOperationContext operationContext, final NodeSubstituteActionsFactoryContext _context) {
+    List<SubstituteAction> result = ListSequence.fromList(new ArrayList<SubstituteAction>());
     {
       SNode outputConcept = SConceptOperations.findConceptDeclaration("jetbrains.mps.xml.structure.Text");
       SNode childConcept = (SNode) _context.getChildConcept();
@@ -130,8 +130,8 @@ public class QueriesGenerated {
     return result;
   }
 
-  public static List<INodeSubstituteAction> nodeSubstituteActionsBuilder_ActionsFactory_Content_1167757687265(final IOperationContext operationContext, final NodeSubstituteActionsFactoryContext _context) {
-    List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
+  public static List<SubstituteAction> nodeSubstituteActionsBuilder_ActionsFactory_Content_1167757687265(final IOperationContext operationContext, final NodeSubstituteActionsFactoryContext _context) {
+    List<SubstituteAction> result = ListSequence.fromList(new ArrayList<SubstituteAction>());
     final SNode parentElement;
     final boolean isMixed;
     {
@@ -210,9 +210,9 @@ public class QueriesGenerated {
       };
       isMixed = (Boolean) calc.compute();
     }
-    Iterator<INodeSubstituteAction> actions = _context.getActions();
+    Iterator<SubstituteAction> actions = _context.getSubstituteActions();
     while (actions.hasNext()) {
-      INodeSubstituteAction current = actions.next();
+      SubstituteAction current = actions.next();
       final SNode concept = current.getOutputConcept();
       SNode applicableConcept = SConceptOperations.findConceptDeclaration("jetbrains.mps.xml.structure.Content");
       Condition cond = new Condition() {
