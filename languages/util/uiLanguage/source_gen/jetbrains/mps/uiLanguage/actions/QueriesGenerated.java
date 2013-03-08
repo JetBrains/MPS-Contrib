@@ -31,14 +31,14 @@ public class QueriesGenerated {
     Iterator<SubstituteAction> actions = _context.getSubstituteActions();
     while (actions.hasNext()) {
       SubstituteAction current = actions.next();
-      final SNode concept = current.getOutputConcept();
+      SNode outputConcept = (SNode) current.getOutputConcept();
       SNode applicableConcept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.structure.Expression");
-      Condition cond = new Condition() {
-        public boolean met(Object object) {
+      Condition<SNode> cond = new Condition<SNode>() {
+        public boolean met(SNode concept) {
           return !(SConceptOperations.isExactly(concept, "jetbrains.mps.uiLanguage.structure.EventHandlerReference"));
         }
       };
-      if (SConceptOperations.isSuperConceptOf(applicableConcept, NameUtil.nodeFQName(concept)) && cond.met(concept)) {
+      if (SConceptOperations.isSuperConceptOf(applicableConcept, NameUtil.nodeFQName(outputConcept)) && cond.met(outputConcept)) {
         actions.remove();
       }
     }
