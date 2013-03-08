@@ -1,0 +1,16 @@
+<!DOCTYPE idea-plugin PUBLIC 'Plugin/DTD' 'http://plugins.intellij.net/plugin.dtd'>
+<idea-plugin xmlns:xi="http://www.w3.org/2001/XInclude">
+  <id>jetbrains.mps.build.deprecated</id>
+  <name>MPS Depreacted XML and Build Languages</name>
+  <description>Legacy (deprecated) build languages for MPS</description>
+  <version>3.0</version>
+  <vendor url="http://www.jetbrains.com/mps/" logo="/MPS_16.png">JetBrains</vendor>
+  <idea-version since-build="123.1" />
+  
+  <depends>jetbrains.mps.core</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <mps.LanguageLibrary dir="/" />
+    <errorHandler implementation="jetbrains.mps.ide.blame.CharismaReporter" />
+  </extensions>
+</idea-plugin>
