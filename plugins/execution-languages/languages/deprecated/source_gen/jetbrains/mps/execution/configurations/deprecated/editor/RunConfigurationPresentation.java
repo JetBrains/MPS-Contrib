@@ -131,7 +131,7 @@ public class RunConfigurationPresentation extends AbstractCellProvider {
 
   private static boolean renderingCondition_ltb2bm_a1b0(SNode node, EditorContext editorContext, IScope scope) {
     String path = null;
-    IModule module = SNodeOperations.getModel(node).getModelDescriptor().getModule();
+    IModule module = SNodeOperations.getModel(node).getModule();
     if (module != null && module.getDescriptorFile() != null) {
       path = MacrosFactory.forModuleFile(module.getDescriptorFile()).expandPath(SPropertyOperations.getString(node, "iconPath"));
     }
@@ -196,7 +196,7 @@ public class RunConfigurationPresentation extends AbstractCellProvider {
   }
 
   private static JComponent _QueryFunction_JComponent_ltb2bm_a2b0(final SNode node, final EditorContext editorContext) {
-    IModule module = node.getModel().getModelDescriptor().getModule();
+    IModule module = node.getModel().getModule();
     if (module == null || module.getDescriptorFile() == null) {
       return new JLabel("Icon");
     }

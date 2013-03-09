@@ -105,7 +105,7 @@ public abstract class BaseRunner {
     if (model == null) {
       return null;
     }
-    IModule module = model.getModelDescriptor().getModule();
+    IModule module = model.getModule();
     return this.getClasspath(module, true);
   }
 

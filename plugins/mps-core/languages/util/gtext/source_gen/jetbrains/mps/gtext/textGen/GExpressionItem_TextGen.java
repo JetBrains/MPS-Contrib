@@ -15,7 +15,7 @@ public class GExpressionItem_TextGen extends SNodeTextGen {
     if (getBuffer().hasPositionsSupport()) {
       TraceInfoGenerationUtil.createPositionInfo(this, node);
     }
-    this.append(((String) BehaviorReflection.invokeVirtual(Object.class, SLinkOperations.getTarget(node, "expression", true), "virtual_eval_1213877519769", new Object[]{SNodeOperations.getModel(node).getModelDescriptor().getModule()})));
+    this.append(((String) BehaviorReflection.invokeVirtual(Object.class, SLinkOperations.getTarget(node, "expression", true), "virtual_eval_1213877519769", new Object[]{SNodeOperations.getModel(node).getModule()})));
     if (getBuffer().hasPositionsSupport()) {
       {
         String traceableProperty = "";
