@@ -39,11 +39,10 @@ import jetbrains.mps.smodel.action.NodeSubstituteActionWrapper;
 import jetbrains.mps.smodel.action.SideTransformPreconditionContext;
 import jetbrains.mps.smodel.action.AbstractSideTransformHintSubstituteAction;
 import jetbrains.mps.baseLanguage.dates.behavior.DateTypeUtil;
+import org.jetbrains.mps.openapi.persistence.PersistenceFacade;
 import jetbrains.mps.smodel.SModelUtil_new;
 import jetbrains.mps.project.GlobalScope;
 import jetbrains.mps.smodel.SReference;
-import jetbrains.mps.smodel.SModelReference;
-import jetbrains.mps.smodel.SNodeId;
 import java.util.regex.Pattern;
 
 public class QueriesGenerated {
@@ -703,19 +702,21 @@ public class QueriesGenerated {
   }
 
   private static SNode _quotation_createNode_59mrho_b0a0b0a0() {
+    PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;
     quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType", null, null, GlobalScope.getInstance(), false);
     return quotedNode_1;
   }
 
   private static SNode _quotation_createNode_64jt83_a0a0a0a0a() {
+    PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;
     SNode quotedNode_2 = null;
     SNode quotedNode_3 = null;
     SNode quotedNode_4 = null;
     quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.FormatDateTimeExpression", null, null, GlobalScope.getInstance(), false);
-    quotedNode_1.setReference("locale", SReference.create("locale", quotedNode_1, SModelReference.fromString("r:00000000-0000-4000-0000-011c895903d6(jetbrains.mps.baseLanguage.dates.accessories)"), SNodeId.fromString("1172681308861")));
-    quotedNode_1.setReference("dateFormat", SReference.create("dateFormat", quotedNode_1, SModelReference.fromString("r:00000000-0000-4000-0000-011c895903d6(jetbrains.mps.baseLanguage.dates.accessories)"), SNodeId.fromString("1173884238614")));
+    quotedNode_1.setReference("locale", SReference.create("locale", quotedNode_1, facade.createModelReference("r:00000000-0000-4000-0000-011c895903d6(jetbrains.mps.baseLanguage.dates.accessories)"), facade.createNodeId("1172681308861")));
+    quotedNode_1.setReference("dateFormat", SReference.create("dateFormat", quotedNode_1, facade.createModelReference("r:00000000-0000-4000-0000-011c895903d6(jetbrains.mps.baseLanguage.dates.accessories)"), facade.createNodeId("1173884238614")));
     quotedNode_2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression", null, null, GlobalScope.getInstance(), false);
     quotedNode_3 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.UTCTimeZoneConstant", null, null, GlobalScope.getInstance(), false);
     quotedNode_2.addChild("timezone", quotedNode_3);
@@ -726,13 +727,14 @@ public class QueriesGenerated {
   }
 
   private static SNode _quotation_createNode_64jt83_a0a0a0a0b() {
+    PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;
     SNode quotedNode_2 = null;
     SNode quotedNode_3 = null;
     SNode quotedNode_4 = null;
     quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.FormatDateTimeExpression", null, null, GlobalScope.getInstance(), false);
-    quotedNode_1.setReference("locale", SReference.create("locale", quotedNode_1, SModelReference.fromString("r:00000000-0000-4000-0000-011c895903d6(jetbrains.mps.baseLanguage.dates.accessories)"), SNodeId.fromString("1172681308861")));
-    quotedNode_1.setReference("dateFormat", SReference.create("dateFormat", quotedNode_1, SModelReference.fromString("r:00000000-0000-4000-0000-011c895903d6(jetbrains.mps.baseLanguage.dates.accessories)"), SNodeId.fromString("1173884238614")));
+    quotedNode_1.setReference("locale", SReference.create("locale", quotedNode_1, facade.createModelReference("r:00000000-0000-4000-0000-011c895903d6(jetbrains.mps.baseLanguage.dates.accessories)"), facade.createNodeId("1172681308861")));
+    quotedNode_1.setReference("dateFormat", SReference.create("dateFormat", quotedNode_1, facade.createModelReference("r:00000000-0000-4000-0000-011c895903d6(jetbrains.mps.baseLanguage.dates.accessories)"), facade.createNodeId("1173884238614")));
     quotedNode_2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression", null, null, GlobalScope.getInstance(), false);
     quotedNode_3 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.UTCTimeZoneConstant", null, null, GlobalScope.getInstance(), false);
     quotedNode_2.addChild("timezone", quotedNode_3);
@@ -743,13 +745,14 @@ public class QueriesGenerated {
   }
 
   private static SNode _quotation_createNode_64jt83_a0a0a0a0c() {
+    PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;
     SNode quotedNode_2 = null;
     SNode quotedNode_3 = null;
     SNode quotedNode_4 = null;
     quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.FormatDateTimeExpression", null, null, GlobalScope.getInstance(), false);
-    quotedNode_1.setReference("locale", SReference.create("locale", quotedNode_1, SModelReference.fromString("r:00000000-0000-4000-0000-011c895903d6(jetbrains.mps.baseLanguage.dates.accessories)"), SNodeId.fromString("1172681308861")));
-    quotedNode_1.setReference("dateFormat", SReference.create("dateFormat", quotedNode_1, SModelReference.fromString("r:00000000-0000-4000-0000-011c895903d6(jetbrains.mps.baseLanguage.dates.accessories)"), SNodeId.fromString("1173884238614")));
+    quotedNode_1.setReference("locale", SReference.create("locale", quotedNode_1, facade.createModelReference("r:00000000-0000-4000-0000-011c895903d6(jetbrains.mps.baseLanguage.dates.accessories)"), facade.createNodeId("1172681308861")));
+    quotedNode_1.setReference("dateFormat", SReference.create("dateFormat", quotedNode_1, facade.createModelReference("r:00000000-0000-4000-0000-011c895903d6(jetbrains.mps.baseLanguage.dates.accessories)"), facade.createNodeId("1173884238614")));
     quotedNode_2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression", null, null, GlobalScope.getInstance(), false);
     quotedNode_3 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.UTCTimeZoneConstant", null, null, GlobalScope.getInstance(), false);
     quotedNode_2.addChild("timezone", quotedNode_3);
@@ -760,6 +763,7 @@ public class QueriesGenerated {
   }
 
   private static SNode _quotation_createNode_3ivoac_a0a0a0a2() {
+    PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;
     SNode quotedNode_2 = null;
     SNode quotedNode_3 = null;
@@ -772,13 +776,14 @@ public class QueriesGenerated {
   }
 
   private static SNode _quotation_createNode_3ivoac_a0a0a0a0d() {
+    PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;
     SNode quotedNode_2 = null;
     SNode quotedNode_3 = null;
     SNode quotedNode_4 = null;
     quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.FormatDateTimeExpression", null, null, GlobalScope.getInstance(), false);
-    quotedNode_1.setReference("locale", SReference.create("locale", quotedNode_1, SModelReference.fromString("r:00000000-0000-4000-0000-011c895903d6(jetbrains.mps.baseLanguage.dates.accessories)"), SNodeId.fromString("1172681308861")));
-    quotedNode_1.setReference("dateFormat", SReference.create("dateFormat", quotedNode_1, SModelReference.fromString("r:00000000-0000-4000-0000-011c895903d6(jetbrains.mps.baseLanguage.dates.accessories)"), SNodeId.fromString("1173884238614")));
+    quotedNode_1.setReference("locale", SReference.create("locale", quotedNode_1, facade.createModelReference("r:00000000-0000-4000-0000-011c895903d6(jetbrains.mps.baseLanguage.dates.accessories)"), facade.createNodeId("1172681308861")));
+    quotedNode_1.setReference("dateFormat", SReference.create("dateFormat", quotedNode_1, facade.createModelReference("r:00000000-0000-4000-0000-011c895903d6(jetbrains.mps.baseLanguage.dates.accessories)"), facade.createNodeId("1173884238614")));
     quotedNode_2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression", null, null, GlobalScope.getInstance(), false);
     quotedNode_3 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.UTCTimeZoneConstant", null, null, GlobalScope.getInstance(), false);
     quotedNode_2.addChild("timezone", quotedNode_3);
