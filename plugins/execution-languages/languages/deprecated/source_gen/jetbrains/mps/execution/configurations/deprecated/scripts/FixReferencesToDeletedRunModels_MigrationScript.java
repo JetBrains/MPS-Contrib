@@ -13,6 +13,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.ISequenceClosure;
 import jetbrains.mps.smodel.SModelInternal;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
+import jetbrains.mps.smodel.SModelStereotype;
 import jetbrains.mps.smodel.SModelUtil_new;
 import jetbrains.mps.project.GlobalScope;
 import jetbrains.mps.smodel.SReference;
@@ -71,7 +72,7 @@ public class FixReferencesToDeletedRunModels_MigrationScript extends BaseMigrati
           }
         })).where(new IWhereFilter<jetbrains.mps.smodel.SModel.ImportElement>() {
           public boolean accept(jetbrains.mps.smodel.SModel.ImportElement it) {
-            return it.getModelReference().getLongName().equals("jetbrains.mps.lang.plugin.run");
+            return SModelStereotype.withoutStereotype(it.getModelReference().getModelName()).equals("jetbrains.mps.lang.plugin.run");
           }
         }).isNotEmpty();
       }

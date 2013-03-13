@@ -7,6 +7,7 @@ import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.internal.collections.runtime.ISequenceClosure;
 import jetbrains.mps.smodel.SModelInternal;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
+import jetbrains.mps.smodel.SModelStereotype;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.smodel.SModelReference;
 import java.util.List;
@@ -27,7 +28,7 @@ public class ScriptsUtil {
       }
     })).where(new IWhereFilter<SModel.ImportElement>() {
       public boolean accept(SModel.ImportElement it) {
-        return it.getModelReference().getLongName().equals(longName);
+        return SModelStereotype.withoutStereotype(it.getModelReference().getModelName()).equals(longName);
       }
     });
   }
@@ -43,7 +44,7 @@ public class ScriptsUtil {
     ((SModelInternal) SNodeOperations.getModel(node)).addModelImport(newModelReference, false);
     for (SNode chileNode : ListSequence.fromList(SNodeOperations.getDescendants(node, null, true, new String[]{}))) {
       for (SReference ref : Sequence.fromIterable(chileNode.getReferences())) {
-        if (ref.getTargetSModelReference().getLongName().equals(longName)) {
+        if (SModelStereotype.withoutStereotype(ref.getTargetSModelReference().getModelName()).equals(longName)) {
           ((jetbrains.mps.smodel.SReference) ref).setTargetSModelReference(newModelReference);
         }
       }
@@ -55,7 +56,7 @@ public class ScriptsUtil {
     for (SNode childNode : ListSequence.fromList(SNodeOperations.getDescendants(node, null, true, new String[]{}))) {
       for (SReference ref : Sequence.fromIterable(childNode.getReferences())) {
         String resolveInfo = ((jetbrains.mps.smodel.SReference) ref).getResolveInfo();
-        if (ref.getTargetSModelReference().getLongName().equals(modelLongName) && ((resolveInfo != null && resolveInfo.length() > 0) && resolveInfo.contains(classifierName))) {
+        if (SModelStereotype.withoutStereotype(ref.getTargetSModelReference().getModelName()).equals(modelLongName) && ((resolveInfo != null && resolveInfo.length() > 0) && resolveInfo.contains(classifierName))) {
           found = true;
           ((jetbrains.mps.smodel.SReference) ref).setTargetSModelReference(newModelReference);
           if (ref instanceof StaticReference) {
