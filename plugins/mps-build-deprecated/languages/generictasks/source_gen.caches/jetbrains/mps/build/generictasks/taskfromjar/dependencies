@@ -10,6 +10,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNodeAccessUtil" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.persistence.PersistenceFacade" />
   </dependency>
   <dependency className="jetbrains.mps.build.generictasks.taskfromjar.ClassInfo" file="ClassInfo.java">
     <classNode dependClassName="java.lang.Class" />
@@ -91,6 +92,7 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SModel" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNodeAccessUtil" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.persistence.PersistenceFacade" />
     <classNode extendsClassName="jetbrains.mps.build.generictasks.taskfromjar.IBuilder" />
   </dependency>
   <dependency className="jetbrains.mps.build.generictasks.taskfromjar.ImportOptions" file="ImportOptions.java" />
