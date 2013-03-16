@@ -22,6 +22,7 @@ import jetbrains.mps.nodeEditor.BlockCells;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Indent;
 import jetbrains.mps.project.IModule;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.project.AbstractModule;
 import jetbrains.mps.util.MacrosFactory;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.vfs.FileSystem;
@@ -256,8 +257,8 @@ public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
   private static boolean renderingCondition_wgm1kr_a1c1b0(SNode node, EditorContext editorContext, IScope scope) {
     String path = null;
     IModule module = SNodeOperations.getModel(node).getModule();
-    if (module != null) {
-      path = MacrosFactory.forModuleFile(module.getDescriptorFile()).expandPath(SPropertyOperations.getString(node, "iconPath"));
+    if (module instanceof AbstractModule) {
+      path = MacrosFactory.forModule((AbstractModule) module).expandPath(SPropertyOperations.getString(node, "iconPath"));
     }
     return path != null && FileSystem.getInstance().getFileByPath(path).exists();
   }
