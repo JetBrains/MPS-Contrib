@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <unitInfo fileName="StructureAspectDescriptor.java" startLine="10" startPosition="0" endLine="103" endPosition="0" unitName="jetbrains.mps.uiLanguage.structure.StructureAspectDescriptor" />
-  <unitInfo fileName="UiLanguage_Language.java" startLine="10" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.uiLanguage.structure.UiLanguage_Language" />
 </debugInfo>
 
