@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <unitInfo fileName="StructureAspectDescriptor.java" startLine="10" startPosition="0" endLine="45" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.StructureAspectDescriptor" />
-  <unitInfo fileName="XmlQuery_Language.java" startLine="9" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.XmlQuery_Language" />
+  <unitInfo fileName="XmlQuery_Language.java" startLine="10" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.xmlQuery.structure.XmlQuery_Language" />
 </debugInfo>
 
