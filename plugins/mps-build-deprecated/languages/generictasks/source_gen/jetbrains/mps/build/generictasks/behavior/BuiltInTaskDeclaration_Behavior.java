@@ -15,7 +15,7 @@ import jetbrains.mps.internal.collections.runtime.Sequence;
 import org.jetbrains.mps.openapi.model.SModel;
 import jetbrains.mps.smodel.ModuleRepositoryFacade;
 import jetbrains.mps.smodel.Language;
-import jetbrains.mps.project.structure.modules.ModuleReference;
+import org.jetbrains.mps.openapi.module.SModuleReference;
 import jetbrains.mps.project.IModule;
 
 public class BuiltInTaskDeclaration_Behavior {
@@ -124,14 +124,14 @@ public class BuiltInTaskDeclaration_Behavior {
     return eq_y5o5bz_a0a0j(check_y5o5bz_a0a0a_0(check_y5o5bz_a0a0a0(model)), check_y5o5bz_a0a0a(ModuleRepositoryFacade.getInstance().getModule("jetbrains.mps.build.generictasks", Language.class)));
   }
 
-  private static ModuleReference check_y5o5bz_a0a0a(Language checkedDotOperand) {
+  private static SModuleReference check_y5o5bz_a0a0a(Language checkedDotOperand) {
     if (null != checkedDotOperand) {
       return checkedDotOperand.getModuleReference();
     }
     return null;
   }
 
-  private static ModuleReference check_y5o5bz_a0a0a_0(IModule checkedDotOperand) {
+  private static SModuleReference check_y5o5bz_a0a0a_0(IModule checkedDotOperand) {
     if (null != checkedDotOperand) {
       return checkedDotOperand.getModuleReference();
     }
