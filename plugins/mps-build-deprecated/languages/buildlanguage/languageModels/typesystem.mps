@@ -233,7 +233,7 @@
             <node role="rightExpression" roleId="tpd4.1174660783414" type="tpd4.NormalTypeClause" typeId="tpd4.1185788614172" id="1197401264335">
               <node role="normalType" roleId="tpd4.1185788644032" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6575219246653638378">
                 <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="6575219246653638815">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tpss.6575219246653626201" resolveInfo="getType" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tpss.6575219246653626201" resolveInfo="getExpectedAttributeType" />
                 </node>
                 <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1205835513108">
                   <node role="operand" roleId="tpee.1197027771414" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="1197401264336">

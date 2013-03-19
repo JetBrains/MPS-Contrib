@@ -300,7 +300,7 @@
                       </node>
                     </node>
                     <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="6575219246653644280">
-                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tpss.6575219246653626201" resolveInfo="getType" />
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tpss.6575219246653626201" resolveInfo="getExpectedAttributeType" />
                     </node>
                   </node>
                 </node>
