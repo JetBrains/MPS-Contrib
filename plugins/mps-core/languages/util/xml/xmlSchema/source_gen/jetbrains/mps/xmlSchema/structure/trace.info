@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <unitInfo fileName="StructureAspectDescriptor.java" startLine="10" startPosition="0" endLine="107" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.StructureAspectDescriptor" />
-  <unitInfo fileName="XmlSchema_Language.java" startLine="10" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.xmlSchema.structure.XmlSchema_Language" />
   <root nodeRef="r:00000000-0000-4000-0000-011c89590598(jetbrains.mps.xmlSchema.structure)/1168467929746">
     <nodeInfo nodeId="1168467929746" fileName="useAttributeEnum.java" startLine="14" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myName" />
     <nodeInfo nodeId="1168467929746" fileName="useAttributeEnum.java" startLine="16" startPosition="27" endLine="17" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
