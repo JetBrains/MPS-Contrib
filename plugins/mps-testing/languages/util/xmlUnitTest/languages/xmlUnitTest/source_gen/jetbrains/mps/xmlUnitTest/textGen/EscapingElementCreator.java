@@ -10,7 +10,8 @@ import org.jdom.output.Format;
 import org.jdom.output.XMLOutputter;
 import java.io.Writer;
 import java.io.StringWriter;
-import jetbrains.mps.logging.Logger;
+import org.apache.log4j.Logger;
+import org.apache.log4j.LogManager;
 import org.jdom.Document;
 
 public abstract class EscapingElementCreator extends ElementCreator {
