@@ -21,6 +21,7 @@ public class InlineRenderer_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_xkhr9k_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_xkhr9k_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_xkhr9k_a0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_xkhr9k_b0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_xkhr9k_c0(editorContext, node));

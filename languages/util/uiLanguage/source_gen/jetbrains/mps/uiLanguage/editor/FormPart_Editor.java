@@ -26,6 +26,7 @@ public class FormPart_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_adq38q_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_adq38q_a");
+    editorCell.setBig(true);
     Style style = new StyleImpl();
     style.set(StyleAttributes.DRAW_BRACKETS, true);
     editorCell.getStyle().putAll(style);
@@ -101,7 +102,6 @@ public class FormPart_Editor extends DefaultNodeEditor {
 
   private EditorCell createIndentCell_adq38q_a2a(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
-    editorCell.setCellId("Indent_adq38q_a2a");
     return editorCell;
   }
 

@@ -30,6 +30,7 @@ public class PngIcon_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_4kucyt_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_4kucyt_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_4kucyt_a0(editorContext, node));
     editorCell.addEditorCell(this.createProperty_4kucyt_b0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_4kucyt_c0(editorContext, node));

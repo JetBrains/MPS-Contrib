@@ -33,6 +33,7 @@ public class BeanDeclaration_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_dfptdd_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_dfptdd_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createCollection_dfptdd_a0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_dfptdd_b0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_dfptdd_c0(editorContext, node));
@@ -115,7 +116,6 @@ public class BeanDeclaration_Editor extends DefaultNodeEditor {
 
   private EditorCell createIndentCell_dfptdd_a3a(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
-    editorCell.setCellId("Indent_dfptdd_a3a");
     return editorCell;
   }
 
@@ -196,7 +196,6 @@ public class BeanDeclaration_Editor extends DefaultNodeEditor {
 
   private EditorCell createIndentCell_dfptdd_a6a(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
-    editorCell.setCellId("Indent_dfptdd_a6a");
     return editorCell;
   }
 
@@ -277,7 +276,6 @@ public class BeanDeclaration_Editor extends DefaultNodeEditor {
 
   private EditorCell createIndentCell_dfptdd_a9a(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
-    editorCell.setCellId("Indent_dfptdd_a9a");
     return editorCell;
   }
 

@@ -26,6 +26,7 @@ public class BeforeConstructionBlock_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_hct42f_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_hct42f_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createCollection_hct42f_a0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_hct42f_b0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_hct42f_c0(editorContext, node));
@@ -73,7 +74,6 @@ public class BeforeConstructionBlock_Editor extends DefaultNodeEditor {
 
   private EditorCell createIndentCell_hct42f_a1a(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
-    editorCell.setCellId("Indent_hct42f_a1a");
     return editorCell;
   }
 

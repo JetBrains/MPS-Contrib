@@ -23,6 +23,7 @@ public class LayoutConstraint_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_fyhbsy_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_fyhbsy_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_fyhbsy_a0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_fyhbsy_b0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_fyhbsy_c0(editorContext, node));

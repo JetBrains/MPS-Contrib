@@ -26,6 +26,7 @@ public class BeanType_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_8iyext_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_8iyext_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_8iyext_a0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_8iyext_b0(editorContext, node));
     editorCell.addEditorCell(this.createRefCell_8iyext_c0(editorContext, node));

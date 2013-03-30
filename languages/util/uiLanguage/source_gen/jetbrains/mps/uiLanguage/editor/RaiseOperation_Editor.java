@@ -21,6 +21,7 @@ public class RaiseOperation_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_54oalk_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_54oalk_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_54oalk_a0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_54oalk_b0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_54oalk_c0(editorContext, node));

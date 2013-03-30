@@ -29,6 +29,7 @@ public class GridRow_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_3uv0ek_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_3uv0ek_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_3uv0ek_a0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_3uv0ek_b0(editorContext, node));
     return editorCell;
@@ -57,7 +58,6 @@ public class GridRow_Editor extends DefaultNodeEditor {
 
   private EditorCell createIndentCell_3uv0ek_a1a(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
-    editorCell.setCellId("Indent_3uv0ek_a1a");
     return editorCell;
   }
 
