@@ -49,8 +49,9 @@ public class PublicExternalId_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_u6a232_a1a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    editorCell.setCellId("Indent_u6a232_a1a");
+    return editorCell;
   }
 
   private EditorCell createCollection_u6a232_b1a(EditorContext editorContext, SNode node) {

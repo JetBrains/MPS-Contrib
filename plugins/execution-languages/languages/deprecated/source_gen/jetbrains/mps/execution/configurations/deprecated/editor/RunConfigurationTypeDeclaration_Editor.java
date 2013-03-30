@@ -133,8 +133,9 @@ public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_wgm1kr_a1a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    editorCell.setCellId("Indent_wgm1kr_a1a");
+    return editorCell;
   }
 
   private EditorCell createCollection_wgm1kr_b1a(EditorContext editorContext, SNode node) {

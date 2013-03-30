@@ -352,8 +352,9 @@ public class TaskCall_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_fr7f84_a2a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    editorCell.setCellId("Indent_fr7f84_a2a");
+    return editorCell;
   }
 
   private EditorCell createRefNode_fr7f84_b2a(EditorContext editorContext, SNode node) {
@@ -389,8 +390,9 @@ public class TaskCall_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_fr7f84_a3a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    editorCell.setCellId("Indent_fr7f84_a3a");
+    return editorCell;
   }
 
   private EditorCell createRefNodeList_fr7f84_b3a(EditorContext editorContext, SNode node) {

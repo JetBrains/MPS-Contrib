@@ -175,8 +175,9 @@ public class SimpleElement_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_944ac1_a1a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    editorCell.setCellId("Indent_944ac1_a1a");
+    return editorCell;
   }
 
   private EditorCell createRefNode_944ac1_b1a(EditorContext editorContext, SNode node) {

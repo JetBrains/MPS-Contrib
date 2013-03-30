@@ -104,8 +104,9 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_t7l4bw_a1c0(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    editorCell.setCellId("Indent_t7l4bw_a1c0");
+    return editorCell;
   }
 
   private EditorCell createRefNodeList_t7l4bw_b1c0(EditorContext editorContext, SNode node) {
@@ -194,8 +195,9 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_t7l4bw_a3c0(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    editorCell.setCellId("Indent_t7l4bw_a3c0");
+    return editorCell;
   }
 
   private EditorCell createRefNodeList_t7l4bw_b3c0(EditorContext editorContext, SNode node) {
@@ -269,8 +271,9 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_t7l4bw_a5c0(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    editorCell.setCellId("Indent_t7l4bw_a5c0");
+    return editorCell;
   }
 
   private EditorCell createRefNodeList_t7l4bw_b5c0(EditorContext editorContext, SNode node) {
@@ -347,8 +350,9 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_t7l4bw_a6c0(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    editorCell.setCellId("Indent_t7l4bw_a6c0");
+    return editorCell;
   }
 
   private EditorCell createRefNodeList_t7l4bw_b6c0(EditorContext editorContext, SNode node) {
@@ -450,8 +454,9 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_t7l4bw_a0i2a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    editorCell.setCellId("Indent_t7l4bw_a0i2a");
+    return editorCell;
   }
 
   private EditorCell createConstant_t7l4bw_b0i2a(EditorContext editorContext, SNode node) {
@@ -524,8 +529,9 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_t7l4bw_a1i2a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    editorCell.setCellId("Indent_t7l4bw_a1i2a");
+    return editorCell;
   }
 
   private EditorCell createRefNodeList_t7l4bw_b1i2a(EditorContext editorContext, SNode node) {
@@ -603,8 +609,9 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_t7l4bw_a01c0(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    editorCell.setCellId("Indent_t7l4bw_a01c0");
+    return editorCell;
   }
 
   private EditorCell createRefNodeList_t7l4bw_b01c0(EditorContext editorContext, SNode node) {

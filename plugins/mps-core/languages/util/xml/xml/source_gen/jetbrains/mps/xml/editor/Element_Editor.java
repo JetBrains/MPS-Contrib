@@ -262,8 +262,9 @@ public class Element_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_76r4mg_a1a0a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    editorCell.setCellId("Indent_76r4mg_a1a0a");
+    return editorCell;
   }
 
   private EditorCell createRefNode_76r4mg_b1a0a(EditorContext editorContext, SNode node) {

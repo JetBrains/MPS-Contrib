@@ -75,8 +75,9 @@ public class ContentStatement_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_h66esr_a1a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    editorCell.setCellId("Indent_h66esr_a1a");
+    return editorCell;
   }
 
   private EditorCell createRefNode_h66esr_b1a(EditorContext editorContext, SNode node) {

@@ -59,8 +59,9 @@ public class BuiltInTaskDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_5jjl7x_a1a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    editorCell.setCellId("Indent_5jjl7x_a1a");
+    return editorCell;
   }
 
   private EditorCell createComponent_5jjl7x_b1a(EditorContext editorContext, SNode node) {
@@ -81,8 +82,9 @@ public class BuiltInTaskDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_5jjl7x_a2a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    editorCell.setCellId("Indent_5jjl7x_a2a");
+    return editorCell;
   }
 
   private EditorCell createCollection_5jjl7x_b2a(EditorContext editorContext, SNode node) {
@@ -125,8 +127,9 @@ public class BuiltInTaskDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_5jjl7x_a1b2a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    editorCell.setCellId("Indent_5jjl7x_a1b2a");
+    return editorCell;
   }
 
   private EditorCell createRefNodeList_5jjl7x_b1b2a(EditorContext editorContext, SNode node) {
@@ -223,8 +226,9 @@ public class BuiltInTaskDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_5jjl7x_a2a_0(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    editorCell.setCellId("Indent_5jjl7x_a2a_0");
+    return editorCell;
   }
 
   private EditorCell createRefNodeList_5jjl7x_b2a(EditorContext editorContext, SNode node) {

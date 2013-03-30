@@ -102,8 +102,9 @@ public class ExecuteParameterQuery_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_qazu5o_a1b0(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    editorCell.setCellId("Indent_qazu5o_a1b0");
+    return editorCell;
   }
 
   private EditorCell createCollection_qazu5o_b1b0(EditorContext editorContext, SNode node) {

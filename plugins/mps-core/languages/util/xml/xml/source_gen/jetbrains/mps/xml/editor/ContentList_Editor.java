@@ -270,8 +270,9 @@ public class ContentList_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_bs144a_a1a0a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    editorCell.setCellId("Indent_bs144a_a1a0a");
+    return editorCell;
   }
 
   private EditorCell createRefNodeList_bs144a_b1a0a(EditorContext editorContext, SNode node) {
