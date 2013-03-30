@@ -176,8 +176,9 @@ public class ComponentInstance_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_9hod0t_a1a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    editorCell.setCellId("Indent_9hod0t_a1a");
+    return editorCell;
   }
 
   private EditorCell createRefNodeList_9hod0t_b1a(EditorContext editorContext, SNode node) {

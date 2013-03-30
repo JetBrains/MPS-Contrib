@@ -100,8 +100,9 @@ public class FormPart_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_adq38q_a2a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    editorCell.setCellId("Indent_adq38q_a2a");
+    return editorCell;
   }
 
   private EditorCell createRefNode_adq38q_b2a(EditorContext editorContext, SNode node) {

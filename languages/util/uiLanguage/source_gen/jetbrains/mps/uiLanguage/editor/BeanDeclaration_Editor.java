@@ -114,8 +114,9 @@ public class BeanDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_dfptdd_a3a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    editorCell.setCellId("Indent_dfptdd_a3a");
+    return editorCell;
   }
 
   private EditorCell createRefNodeList_dfptdd_b3a(EditorContext editorContext, SNode node) {
@@ -194,8 +195,9 @@ public class BeanDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_dfptdd_a6a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    editorCell.setCellId("Indent_dfptdd_a6a");
+    return editorCell;
   }
 
   private EditorCell createRefNodeList_dfptdd_b6a(EditorContext editorContext, SNode node) {
@@ -274,8 +276,9 @@ public class BeanDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_dfptdd_a9a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    editorCell.setCellId("Indent_dfptdd_a9a");
+    return editorCell;
   }
 
   private EditorCell createRefNodeList_dfptdd_b9a(EditorContext editorContext, SNode node) {

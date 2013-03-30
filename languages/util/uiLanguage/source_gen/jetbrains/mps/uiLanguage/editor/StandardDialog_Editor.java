@@ -61,8 +61,9 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_trqmo3_a1a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    editorCell.setCellId("Indent_trqmo3_a1a");
+    return editorCell;
   }
 
   private EditorCell createCollection_trqmo3_b1a(EditorContext editorContext, SNode node) {
@@ -98,8 +99,9 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_trqmo3_a1b1a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    editorCell.setCellId("Indent_trqmo3_a1b1a");
+    return editorCell;
   }
 
   private EditorCell createRefNode_trqmo3_b1b1a(EditorContext editorContext, SNode node) {
@@ -131,8 +133,9 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_trqmo3_a2a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    editorCell.setCellId("Indent_trqmo3_a2a");
+    return editorCell;
   }
 
   private EditorCell createCollection_trqmo3_b2a(EditorContext editorContext, SNode node) {
@@ -168,8 +171,9 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_trqmo3_a1b2a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    editorCell.setCellId("Indent_trqmo3_a1b2a");
+    return editorCell;
   }
 
   private EditorCell createRefNodeList_trqmo3_b1b2a(EditorContext editorContext, SNode node) {

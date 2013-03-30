@@ -56,8 +56,9 @@ public class GridRow_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_3uv0ek_a1a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    editorCell.setCellId("Indent_3uv0ek_a1a");
+    return editorCell;
   }
 
   private EditorCell createRefNodeList_3uv0ek_b1a(EditorContext editorContext, SNode node) {
