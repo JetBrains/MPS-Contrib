@@ -16,6 +16,7 @@ public class Content_Editor extends DefaultNodeEditor {
   private EditorCell createError_keq2ah_a(EditorContext editorContext, SNode node) {
     EditorCell_Error editorCell = new EditorCell_Error(editorContext, node, "content");
     editorCell.setCellId("Error_keq2ah_a");
+    editorCell.setBig(true);
     return editorCell;
   }
 }

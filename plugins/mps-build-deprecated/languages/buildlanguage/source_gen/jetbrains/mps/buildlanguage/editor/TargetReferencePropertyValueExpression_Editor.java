@@ -31,6 +31,7 @@ public class TargetReferencePropertyValueExpression_Editor extends DefaultNodeEd
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_fullName");
+    editorCell.setBig(true);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -45,6 +46,7 @@ public class TargetReferencePropertyValueExpression_Editor extends DefaultNodeEd
   private EditorCell createCollection_826xl5_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_826xl5_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_826xl5_a0(editorContext, node));
     editorCell.addEditorCell(this.createRefCell_826xl5_b0(editorContext, node));
     return editorCell;

@@ -36,6 +36,7 @@ public class AttributeGroup_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_iaz9pw_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_iaz9pw_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_iaz9pw_a0(editorContext, node));
     editorCell.addEditorCell(this.createProperty_iaz9pw_b0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_iaz9pw_c0(editorContext, node));

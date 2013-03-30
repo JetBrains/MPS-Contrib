@@ -27,6 +27,7 @@ public class ComplexText_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_ohdes7_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_ohdes7_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_ohdes7_a0(editorContext, node));
     editorCell.addEditorCell(this.createRefNodeList_ohdes7_b0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_ohdes7_c0(editorContext, node));

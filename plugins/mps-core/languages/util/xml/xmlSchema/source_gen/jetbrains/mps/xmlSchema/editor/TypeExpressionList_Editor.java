@@ -38,6 +38,7 @@ public class TypeExpressionList_Editor extends DefaultNodeEditor {
     } else {
       editorCell = this.createRefNodeList_kgtkmm_a0_0(editorContext, node);
     }
+    editorCell.setBig(true);
     return editorCell;
   }
 

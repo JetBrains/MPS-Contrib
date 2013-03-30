@@ -25,6 +25,7 @@ public class DocumentTypeDeclaration_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_eyi3ub_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_eyi3ub_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createCollection_eyi3ub_a0(editorContext, node));
     return editorCell;
   }

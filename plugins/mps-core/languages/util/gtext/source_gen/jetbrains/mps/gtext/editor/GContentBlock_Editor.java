@@ -34,6 +34,7 @@ public class GContentBlock_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_c0p948_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_c0p948_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createComponent_c0p948_a0(editorContext, node));
     editorCell.addEditorCell(this.createProperty_c0p948_b0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_c0p948_c0(editorContext, node));

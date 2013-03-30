@@ -21,6 +21,7 @@ public class RunConfigMainNodeStatement_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_xsmi4i_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_xsmi4i_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_xsmi4i_a0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_xsmi4i_b0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_xsmi4i_c0(editorContext, node));

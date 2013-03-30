@@ -36,6 +36,7 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
   private EditorCell createCollection_e2al3f_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_e2al3f_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_e2al3f_a0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_e2al3f_b0(editorContext, node));
     editorCell.addEditorCell(this.createRefCell_e2al3f_c0(editorContext, node));

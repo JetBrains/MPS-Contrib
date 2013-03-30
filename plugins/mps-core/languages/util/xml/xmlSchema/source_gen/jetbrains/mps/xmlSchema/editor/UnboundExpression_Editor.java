@@ -21,6 +21,7 @@ public class UnboundExpression_Editor extends DefaultNodeEditor {
   private EditorCell createConstant_kjl4ev_a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "unbounded");
     editorCell.setCellId("Constant_kjl4ev_a");
+    editorCell.setBig(true);
     Style style = new StyleImpl();
     style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.DARK_MAGENTA));
     editorCell.getStyle().putAll(style);

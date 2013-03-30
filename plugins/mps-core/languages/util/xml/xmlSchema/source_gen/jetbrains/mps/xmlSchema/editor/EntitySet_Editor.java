@@ -41,6 +41,7 @@ public class EntitySet_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_bj9nw6_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_bj9nw6_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createCollection_bj9nw6_a0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_bj9nw6_b0(editorContext, node));
     editorCell.addEditorCell(this.createRefNodeList_bj9nw6_c0(editorContext, node));
@@ -193,6 +194,7 @@ public class EntitySet_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_bj9nw6_a_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_bj9nw6_a_0");
+    editorCell.setBig(true);
     editorCell.setGridLayout(true);
     editorCell.addEditorCell(this.createCollection_bj9nw6_a0_0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_bj9nw6_b0(editorContext, node));

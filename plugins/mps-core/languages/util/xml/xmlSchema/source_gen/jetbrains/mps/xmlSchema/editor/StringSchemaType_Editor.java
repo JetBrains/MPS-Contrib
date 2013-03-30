@@ -29,6 +29,7 @@ public class StringSchemaType_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_tsc9g0_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_tsc9g0_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createComponent_tsc9g0_a0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_tsc9g0_b0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_tsc9g0_c0(editorContext, node));

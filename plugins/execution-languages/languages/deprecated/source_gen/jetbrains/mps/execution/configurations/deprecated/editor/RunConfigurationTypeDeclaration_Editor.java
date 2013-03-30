@@ -42,6 +42,7 @@ public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_wgm1kr_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_wgm1kr_a");
+    editorCell.setBig(true);
     Style style = new StyleImpl();
     style.set(StyleAttributes.SELECTABLE, false);
     editorCell.getStyle().putAll(style);
@@ -134,7 +135,6 @@ public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
 
   private EditorCell createIndentCell_wgm1kr_a1a(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
-    editorCell.setCellId("Indent_wgm1kr_a1a");
     return editorCell;
   }
 

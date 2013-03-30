@@ -16,6 +16,7 @@ public class TypeExpression_Editor extends DefaultNodeEditor {
   private EditorCell createError_6uinal_a(EditorContext editorContext, SNode node) {
     EditorCell_Error editorCell = new EditorCell_Error(editorContext, node, "typeExpression");
     editorCell.setCellId("Error_6uinal_a");
+    editorCell.setBig(true);
     return editorCell;
   }
 }

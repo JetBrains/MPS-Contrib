@@ -28,6 +28,7 @@ public class BooleanSchemaType_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_b4adlg_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_b4adlg_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createComponent_b4adlg_a0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_b4adlg_b0(editorContext, node));
     editorCell.addEditorCell(this.createProperty_b4adlg_c0(editorContext, node));

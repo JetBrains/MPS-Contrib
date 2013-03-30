@@ -27,6 +27,7 @@ public class ReferenceFormatToken_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_xpwz8a_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_xpwz8a_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_xpwz8a_a0(editorContext, node));
     editorCell.addEditorCell(this.createRefCell_xpwz8a_b0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_xpwz8a_c0(editorContext, node));

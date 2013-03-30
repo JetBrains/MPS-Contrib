@@ -24,6 +24,7 @@ public class SchemaComment_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_v7znpj_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_v7znpj_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createRefNodeList_v7znpj_a0(editorContext, node));
     return editorCell;
   }

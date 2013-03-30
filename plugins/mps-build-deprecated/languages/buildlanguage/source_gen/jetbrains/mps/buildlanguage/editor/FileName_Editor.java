@@ -26,6 +26,7 @@ public class FileName_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_sfcjm_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_sfcjm_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_sfcjm_a0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_sfcjm_b0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_sfcjm_c0(editorContext, node));

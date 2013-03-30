@@ -19,6 +19,7 @@ public class ModuleCreatorTarget_Editor extends DefaultNodeEditor {
   private EditorCell createConstant_gnu31p_a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "module");
     editorCell.setCellId("Constant_gnu31p_a");
+    editorCell.setBig(true);
     Style style = new StyleImpl();
     BaseLanguageStyle_StyleSheet.applyKeyWord(style, editorCell);
     editorCell.getStyle().putAll(style);

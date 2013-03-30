@@ -27,6 +27,7 @@ public class WithPropertyCompareExpression_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_gd466t_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_gd466t_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createComponent_gd466t_a0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_gd466t_b0(editorContext, node));
     editorCell.addEditorCell(this.createRefCell_gd466t_c0(editorContext, node));

@@ -19,6 +19,7 @@ public class ModelCreatorTarget_Editor extends DefaultNodeEditor {
   private EditorCell createConstant_wtrhf0_a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "model");
     editorCell.setCellId("Constant_wtrhf0_a");
+    editorCell.setBig(true);
     Style style = new StyleImpl();
     BaseLanguageStyle_StyleSheet.applyKeyWord(style, editorCell);
     editorCell.getStyle().putAll(style);

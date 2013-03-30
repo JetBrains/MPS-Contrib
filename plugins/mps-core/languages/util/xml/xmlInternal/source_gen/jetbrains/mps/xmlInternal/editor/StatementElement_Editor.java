@@ -26,6 +26,7 @@ public class StatementElement_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_8rs9tb_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_8rs9tb_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createCollection_8rs9tb_a0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_8rs9tb_b0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_8rs9tb_c0(editorContext, node));
@@ -88,7 +89,6 @@ public class StatementElement_Editor extends DefaultNodeEditor {
 
   private EditorCell createIndentCell_8rs9tb_a1a(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
-    editorCell.setCellId("Indent_8rs9tb_a1a");
     return editorCell;
   }
 

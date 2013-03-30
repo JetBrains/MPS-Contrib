@@ -25,6 +25,7 @@ public class IntLiteral_Editor extends DefaultNodeEditor {
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_value");
+    editorCell.setBig(true);
     Style style = new StyleImpl();
     BuildLanguageStyle_StyleSheet.applyIntegerLiteral(style, editorCell);
     editorCell.getStyle().putAll(style);

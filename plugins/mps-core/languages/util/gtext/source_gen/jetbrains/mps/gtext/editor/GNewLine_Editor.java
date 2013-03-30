@@ -21,6 +21,7 @@ public class GNewLine_Editor extends DefaultNodeEditor {
   private EditorCell createConstant_m1b3gv_a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "newLine");
     editorCell.setCellId("Constant_m1b3gv_a");
+    editorCell.setBig(true);
     Style style = new StyleImpl();
     style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.blue));
     editorCell.getStyle().putAll(style);

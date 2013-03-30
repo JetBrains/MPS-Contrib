@@ -25,6 +25,7 @@ public class TimeZoneFromString_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_qwah5o_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_qwah5o_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_qwah5o_a0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_qwah5o_b0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_qwah5o_c0(editorContext, node));

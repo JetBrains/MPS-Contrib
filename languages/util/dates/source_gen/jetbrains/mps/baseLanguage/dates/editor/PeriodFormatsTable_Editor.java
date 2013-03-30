@@ -33,6 +33,7 @@ public class PeriodFormatsTable_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_y97r7g_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_y97r7g_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_y97r7g_a0(editorContext, node));
     editorCell.addEditorCell(this.createProperty_y97r7g_b0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_y97r7g_c0(editorContext, node));

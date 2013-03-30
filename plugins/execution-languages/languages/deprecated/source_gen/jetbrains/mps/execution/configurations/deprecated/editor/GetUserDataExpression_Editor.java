@@ -28,6 +28,7 @@ public class GetUserDataExpression_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_c8zmgk_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_c8zmgk_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createComponent_c8zmgk_a0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_c8zmgk_b0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_c8zmgk_c0(editorContext, node));

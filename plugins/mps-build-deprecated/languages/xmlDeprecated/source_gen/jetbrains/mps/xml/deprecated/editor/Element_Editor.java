@@ -44,6 +44,7 @@ public class Element_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_76r4mg_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_76r4mg_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createCollection_76r4mg_a0(editorContext, node));
     if (renderingCondition_76r4mg_a1a(node, editorContext, editorContext.getOperationContext().getScope())) {
       editorCell.addEditorCell(this.createCollection_76r4mg_b0(editorContext, node));
@@ -212,7 +213,6 @@ public class Element_Editor extends DefaultNodeEditor {
 
   private EditorCell createIndentCell_76r4mg_a1a(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
-    editorCell.setCellId("Indent_76r4mg_a1a");
     return editorCell;
   }
 
@@ -335,6 +335,7 @@ public class Element_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_76r4mg_a_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_76r4mg_a_0");
+    editorCell.setBig(true);
     Style style = new StyleImpl();
     style.set(StyleAttributes.SELECTABLE, false);
     editorCell.getStyle().putAll(style);

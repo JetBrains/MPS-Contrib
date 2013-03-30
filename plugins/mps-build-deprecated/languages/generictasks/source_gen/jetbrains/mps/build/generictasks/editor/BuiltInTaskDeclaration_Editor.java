@@ -35,6 +35,7 @@ public class BuiltInTaskDeclaration_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_5jjl7x_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_5jjl7x_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createComponent_5jjl7x_a0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_5jjl7x_b0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_5jjl7x_c0(editorContext, node));
@@ -60,7 +61,6 @@ public class BuiltInTaskDeclaration_Editor extends DefaultNodeEditor {
 
   private EditorCell createIndentCell_5jjl7x_a1a(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
-    editorCell.setCellId("Indent_5jjl7x_a1a");
     return editorCell;
   }
 
@@ -83,7 +83,6 @@ public class BuiltInTaskDeclaration_Editor extends DefaultNodeEditor {
 
   private EditorCell createIndentCell_5jjl7x_a2a(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
-    editorCell.setCellId("Indent_5jjl7x_a2a");
     return editorCell;
   }
 
@@ -128,7 +127,6 @@ public class BuiltInTaskDeclaration_Editor extends DefaultNodeEditor {
 
   private EditorCell createIndentCell_5jjl7x_a1b2a(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
-    editorCell.setCellId("Indent_5jjl7x_a1b2a");
     return editorCell;
   }
 
@@ -182,6 +180,7 @@ public class BuiltInTaskDeclaration_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_5jjl7x_a_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_5jjl7x_a_0");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createComponent_5jjl7x_a0_0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_5jjl7x_b0_0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_5jjl7x_c0_0(editorContext, node));
@@ -227,7 +226,6 @@ public class BuiltInTaskDeclaration_Editor extends DefaultNodeEditor {
 
   private EditorCell createIndentCell_5jjl7x_a2a_0(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
-    editorCell.setCellId("Indent_5jjl7x_a2a_0");
     return editorCell;
   }
 

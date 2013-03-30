@@ -26,6 +26,7 @@ public class Extension_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_s04tli_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_s04tli_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_s04tli_a0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_s04tli_b0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_s04tli_c0(editorContext, node));

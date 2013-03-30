@@ -27,12 +27,14 @@ public class PrepareConceptFunction_Editor extends DefaultNodeEditor {
   private EditorCell createComponent_vvrgg9_a(EditorContext editorContext, SNode node) {
     AbstractCellProvider provider = new ConceptFunction_Component(node);
     EditorCell editorCell = provider.createEditorCell(editorContext);
+    editorCell.setBig(true);
     return editorCell;
   }
 
   private EditorCell createCollection_vvrgg9_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_vvrgg9_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_vvrgg9_a0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_vvrgg9_b0(editorContext, node));
     return editorCell;

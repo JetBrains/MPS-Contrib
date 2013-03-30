@@ -26,6 +26,7 @@ public class EntityReference_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_jj82vm_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_jj82vm_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_jj82vm_a0(editorContext, node));
     editorCell.addEditorCell(this.createRefCell_jj82vm_b0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_jj82vm_c0(editorContext, node));

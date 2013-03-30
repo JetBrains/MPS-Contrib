@@ -28,6 +28,7 @@ public class Document_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_7wjwco_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_7wjwco_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createCollection_7wjwco_a0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_7wjwco_b0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_7wjwco_c0(editorContext, node));

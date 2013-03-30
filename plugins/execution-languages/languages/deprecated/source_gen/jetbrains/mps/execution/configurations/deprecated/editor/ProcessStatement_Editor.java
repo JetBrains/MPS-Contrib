@@ -24,6 +24,7 @@ public class ProcessStatement_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_ogig6_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_ogig6_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_ogig6_a0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_ogig6_b0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_ogig6_c0(editorContext, node));

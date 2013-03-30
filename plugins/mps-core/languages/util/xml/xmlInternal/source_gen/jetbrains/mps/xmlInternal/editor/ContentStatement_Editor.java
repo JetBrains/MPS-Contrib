@@ -26,6 +26,7 @@ public class ContentStatement_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_h66esr_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_h66esr_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createCollection_h66esr_a0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_h66esr_b0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_h66esr_c0(editorContext, node));
@@ -76,7 +77,6 @@ public class ContentStatement_Editor extends DefaultNodeEditor {
 
   private EditorCell createIndentCell_h66esr_a1a(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
-    editorCell.setCellId("Indent_h66esr_a1a");
     return editorCell;
   }
 

@@ -32,6 +32,7 @@ public class GDocument_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_rt0po5_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_rt0po5_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createProperty_rt0po5_a0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_rt0po5_b0(editorContext, node));
     editorCell.addEditorCell(this.createProperty_rt0po5_c0(editorContext, node));

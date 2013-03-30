@@ -28,6 +28,7 @@ public class IntegerSchemaType_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_acqo15_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_acqo15_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createComponent_acqo15_a0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_acqo15_b0(editorContext, node));
     editorCell.addEditorCell(this.createProperty_acqo15_c0(editorContext, node));

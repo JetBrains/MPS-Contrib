@@ -22,6 +22,7 @@ public class PathReference_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_ijlt4j_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_ijlt4j_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createRefCell_ijlt4j_a0(editorContext, node));
     return editorCell;
   }

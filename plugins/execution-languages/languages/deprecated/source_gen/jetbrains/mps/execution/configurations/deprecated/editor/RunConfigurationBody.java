@@ -290,7 +290,6 @@ public class RunConfigurationBody extends AbstractCellProvider {
 
   private EditorCell createIndentCell_mrxxs6_a1i0(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
-    editorCell.setCellId("Indent_mrxxs6_a1i0");
     return editorCell;
   }
 

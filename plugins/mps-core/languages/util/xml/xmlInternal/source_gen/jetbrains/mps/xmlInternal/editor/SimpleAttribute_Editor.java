@@ -28,6 +28,7 @@ public class SimpleAttribute_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_r7gjsx_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_r7gjsx_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createProperty_r7gjsx_a0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_r7gjsx_b0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_r7gjsx_c0(editorContext, node));

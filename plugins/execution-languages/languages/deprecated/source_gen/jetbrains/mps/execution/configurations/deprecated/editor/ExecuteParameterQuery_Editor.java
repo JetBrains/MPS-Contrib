@@ -27,6 +27,7 @@ public class ExecuteParameterQuery_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_qazu5o_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_qazu5o_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createCollection_qazu5o_a0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_qazu5o_b0(editorContext, node));
     return editorCell;
@@ -103,7 +104,6 @@ public class ExecuteParameterQuery_Editor extends DefaultNodeEditor {
 
   private EditorCell createIndentCell_qazu5o_a1b0(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
-    editorCell.setCellId("Indent_qazu5o_a1b0");
     return editorCell;
   }
 

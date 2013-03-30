@@ -20,12 +20,14 @@ public class Attribute_Editor extends DefaultNodeEditor {
   private EditorCell createComponent_mc4j88_a(EditorContext editorContext, SNode node) {
     AbstractCellProvider provider = new Attribute_EditorComponent(node);
     EditorCell editorCell = provider.createEditorCell(editorContext);
+    editorCell.setBig(true);
     return editorCell;
   }
 
   private EditorCell createComponent_mc4j88_a_0(EditorContext editorContext, SNode node) {
     AbstractCellProvider provider = new Attribute_EditorComponent(node);
     EditorCell editorCell = provider.createEditorCell(editorContext);
+    editorCell.setBig(true);
     return editorCell;
   }
 }

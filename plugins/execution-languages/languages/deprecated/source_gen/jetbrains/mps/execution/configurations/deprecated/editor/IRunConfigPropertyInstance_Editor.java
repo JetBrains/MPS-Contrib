@@ -22,6 +22,7 @@ public class IRunConfigPropertyInstance_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_etnx7z_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_etnx7z_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createProperty_etnx7z_a0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_etnx7z_b0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_etnx7z_c0(editorContext, node));

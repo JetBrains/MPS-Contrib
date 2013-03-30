@@ -37,6 +37,7 @@ public class Element_Editor extends DefaultNodeEditor {
     } else {
       editorCell = this.createAlternation_76r4mg_a0(editorContext, node);
     }
+    editorCell.setBig(true);
     return editorCell;
   }
 
@@ -263,7 +264,6 @@ public class Element_Editor extends DefaultNodeEditor {
 
   private EditorCell createIndentCell_76r4mg_a1a0a(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
-    editorCell.setCellId("Indent_76r4mg_a1a0a");
     return editorCell;
   }
 

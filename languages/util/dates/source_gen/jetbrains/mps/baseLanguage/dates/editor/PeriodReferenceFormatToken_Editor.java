@@ -27,6 +27,7 @@ public class PeriodReferenceFormatToken_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_kfljbu_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_kfljbu_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_kfljbu_a0(editorContext, node));
     editorCell.addEditorCell(this.createRefCell_kfljbu_b0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_kfljbu_c0(editorContext, node));

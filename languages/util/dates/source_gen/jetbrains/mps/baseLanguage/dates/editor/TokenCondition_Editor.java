@@ -31,6 +31,7 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_sz01hx_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_sz01hx_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_sz01hx_a0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_sz01hx_b0(editorContext, node));
     return editorCell;
@@ -70,6 +71,7 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_sz01hx_a_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_sz01hx_a_0");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_sz01hx_a0_0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_sz01hx_b0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_sz01hx_c0(editorContext, node));

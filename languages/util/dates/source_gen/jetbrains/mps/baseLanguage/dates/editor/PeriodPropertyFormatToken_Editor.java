@@ -36,6 +36,7 @@ public class PeriodPropertyFormatToken_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_ed1xw0_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_ed1xw0_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_ed1xw0_a0(editorContext, node));
     if (renderingCondition_ed1xw0_a1a(node, editorContext, editorContext.getOperationContext().getScope())) {
       editorCell.addEditorCell(this.createCollection_ed1xw0_b0(editorContext, node));
@@ -364,6 +365,7 @@ public class PeriodPropertyFormatToken_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_ed1xw0_a_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_ed1xw0_a_0");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createCollection_ed1xw0_a0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_ed1xw0_b0_0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_ed1xw0_c0(editorContext, node));

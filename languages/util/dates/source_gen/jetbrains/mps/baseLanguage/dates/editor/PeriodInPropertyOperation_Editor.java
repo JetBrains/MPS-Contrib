@@ -31,6 +31,7 @@ public class PeriodInPropertyOperation_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_u0w6r4_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_u0w6r4_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createRefNode_u0w6r4_a0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_u0w6r4_b0(editorContext, node));
     editorCell.addEditorCell(this.createRefCell_u0w6r4_c0(editorContext, node));
@@ -121,6 +122,7 @@ public class PeriodInPropertyOperation_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_u0w6r4_a_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_u0w6r4_a_0");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_u0w6r4_a0(editorContext, node));
     editorCell.addEditorCell(this.createProperty_u0w6r4_b0(editorContext, node));
     return editorCell;

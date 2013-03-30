@@ -16,6 +16,7 @@ public class BaseAttribute_Editor extends DefaultNodeEditor {
   private EditorCell createError_e9mfv4_a(EditorContext editorContext, SNode node) {
     EditorCell_Error editorCell = new EditorCell_Error(editorContext, node, "baseAttribute");
     editorCell.setCellId("Error_e9mfv4_a");
+    editorCell.setBig(true);
     return editorCell;
   }
 }

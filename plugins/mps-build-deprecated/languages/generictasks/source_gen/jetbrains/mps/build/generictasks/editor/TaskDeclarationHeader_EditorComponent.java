@@ -280,7 +280,6 @@ public class TaskDeclarationHeader_EditorComponent extends AbstractCellProvider 
 
   private EditorCell createIndentCell_ws04gp_a1a(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
-    editorCell.setCellId("Indent_ws04gp_a1a");
     return editorCell;
   }
 
@@ -330,7 +329,6 @@ public class TaskDeclarationHeader_EditorComponent extends AbstractCellProvider 
 
   private EditorCell createIndentCell_ws04gp_a2a(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
-    editorCell.setCellId("Indent_ws04gp_a2a");
     return editorCell;
   }
 

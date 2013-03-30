@@ -27,6 +27,7 @@ public class RoundDateTimeOperation_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_z8nl1z_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_z8nl1z_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createRefNode_z8nl1z_a0(editorContext, node));
     editorCell.addEditorCell(this.createComponent_z8nl1z_b0(editorContext, node));
     editorCell.addEditorCell(this.createRefCell_z8nl1z_c0(editorContext, node));

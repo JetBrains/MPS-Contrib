@@ -40,6 +40,7 @@ public class TimeZoneNameOperation_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_vkak8k_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_vkak8k_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createProperty_vkak8k_a0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_vkak8k_b0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_vkak8k_c0(editorContext, node));
@@ -235,6 +236,7 @@ public class TimeZoneNameOperation_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_vkak8k_a_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_vkak8k_a_0");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createCollection_vkak8k_a0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_vkak8k_b0(editorContext, node));
     return editorCell;

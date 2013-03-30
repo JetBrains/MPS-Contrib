@@ -25,6 +25,7 @@ public class NamespaceAttribute_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_t8bc39_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_t8bc39_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_t8bc39_a0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_t8bc39_b0(editorContext, node));
     editorCell.addEditorCell(this.createProperty_t8bc39_c0(editorContext, node));

@@ -25,6 +25,7 @@ public class UnaryDateTimeOperation_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_x1gsdj_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_x1gsdj_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createRefNode_x1gsdj_a0(editorContext, node));
     editorCell.addEditorCell(this.createComponent_x1gsdj_b0(editorContext, node));
     return editorCell;

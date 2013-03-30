@@ -39,6 +39,7 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_vqr4da_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_vqr4da_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createRefNode_vqr4da_a0(editorContext, node));
     if (renderingCondition_vqr4da_a1a(node, editorContext, editorContext.getOperationContext().getScope())) {
       editorCell.addEditorCell(this.createCollection_vqr4da_b0(editorContext, node));
@@ -268,6 +269,7 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_vqr4da_a_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_vqr4da_a_0");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createCollection_vqr4da_a0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_vqr4da_b0_0(editorContext, node));
     return editorCell;

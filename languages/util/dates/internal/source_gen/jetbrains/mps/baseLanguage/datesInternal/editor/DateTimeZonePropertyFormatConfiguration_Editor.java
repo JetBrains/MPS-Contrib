@@ -30,6 +30,7 @@ public class DateTimeZonePropertyFormatConfiguration_Editor extends DefaultNodeE
   private EditorCell createCollection_1lsafo_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_1lsafo_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_1lsafo_a0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_1lsafo_b0(editorContext, node));
     editorCell.addEditorCell(this.createRefNodeList_1lsafo_c0(editorContext, node));

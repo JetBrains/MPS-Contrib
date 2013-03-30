@@ -22,6 +22,7 @@ public class CallReference_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_v5h80f_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_v5h80f_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createRefCell_v5h80f_a0(editorContext, node));
     return editorCell;
   }

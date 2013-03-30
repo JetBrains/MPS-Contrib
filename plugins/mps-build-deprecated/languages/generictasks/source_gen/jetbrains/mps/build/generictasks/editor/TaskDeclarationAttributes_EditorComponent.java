@@ -82,7 +82,6 @@ public class TaskDeclarationAttributes_EditorComponent extends AbstractCellProvi
 
   private EditorCell createIndentCell_p33j5q_a1a(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
-    editorCell.setCellId("Indent_p33j5q_a1a");
     return editorCell;
   }
 

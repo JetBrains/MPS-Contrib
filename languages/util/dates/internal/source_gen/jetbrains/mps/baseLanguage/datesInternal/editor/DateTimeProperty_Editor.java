@@ -29,6 +29,7 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_kwu3ge_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_kwu3ge_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createProperty_kwu3ge_a0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_kwu3ge_b0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_kwu3ge_c0(editorContext, node));
@@ -100,7 +101,6 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
 
   private EditorCell createIndentCell_kwu3ge_a2a(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
-    editorCell.setCellId("Indent_kwu3ge_a2a");
     return editorCell;
   }
 
@@ -173,7 +173,6 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
 
   private EditorCell createIndentCell_kwu3ge_d2a(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
-    editorCell.setCellId("Indent_kwu3ge_d2a");
     return editorCell;
   }
 
@@ -246,7 +245,6 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
 
   private EditorCell createIndentCell_kwu3ge_g2a(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
-    editorCell.setCellId("Indent_kwu3ge_g2a");
     return editorCell;
   }
 
@@ -319,7 +317,6 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
 
   private EditorCell createIndentCell_kwu3ge_j2a(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
-    editorCell.setCellId("Indent_kwu3ge_j2a");
     return editorCell;
   }
 
@@ -389,7 +386,6 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
 
   private EditorCell createIndentCell_kwu3ge_m2a(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
-    editorCell.setCellId("Indent_kwu3ge_m2a");
     return editorCell;
   }
 
@@ -424,7 +420,6 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
 
   private EditorCell createIndentCell_kwu3ge_p2a(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
-    editorCell.setCellId("Indent_kwu3ge_p2a");
     return editorCell;
   }
 

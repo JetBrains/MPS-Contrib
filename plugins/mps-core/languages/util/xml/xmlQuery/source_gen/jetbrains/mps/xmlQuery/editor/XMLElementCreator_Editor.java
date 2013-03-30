@@ -20,6 +20,7 @@ public class XMLElementCreator_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_f64ib6_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_f64ib6_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createRefNode_f64ib6_a0(editorContext, node));
     return editorCell;
   }

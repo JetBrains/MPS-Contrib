@@ -28,6 +28,7 @@ public class Attribute_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_mc4j88_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_mc4j88_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createProperty_mc4j88_a0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_mc4j88_b0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_mc4j88_c0(editorContext, node));

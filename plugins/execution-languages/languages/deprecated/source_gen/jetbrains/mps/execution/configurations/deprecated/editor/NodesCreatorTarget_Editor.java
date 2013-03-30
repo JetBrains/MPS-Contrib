@@ -26,6 +26,7 @@ public class NodesCreatorTarget_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_rvtiuo_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_rvtiuo_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_rvtiuo_a0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_rvtiuo_b0(editorContext, node));
     editorCell.addEditorCell(this.createRefCell_rvtiuo_c0(editorContext, node));

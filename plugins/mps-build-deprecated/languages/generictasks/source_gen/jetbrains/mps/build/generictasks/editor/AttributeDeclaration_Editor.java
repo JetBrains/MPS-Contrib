@@ -31,6 +31,7 @@ public class AttributeDeclaration_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_vddsqv_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_vddsqv_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createProperty_vddsqv_a0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_vddsqv_b0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_vddsqv_c0(editorContext, node));
@@ -115,6 +116,7 @@ public class AttributeDeclaration_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_vddsqv_a_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_vddsqv_a_0");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createCollection_vddsqv_a0(editorContext, node));
     editorCell.addEditorCell(this.createComponent_vddsqv_b0(editorContext, node));
     editorCell.addEditorCell(this.createComponent_vddsqv_c0(editorContext, node));

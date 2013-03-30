@@ -21,6 +21,7 @@ public class CDATA_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_puxexb_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_puxexb_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_puxexb_a0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_puxexb_b0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_puxexb_c0(editorContext, node));
