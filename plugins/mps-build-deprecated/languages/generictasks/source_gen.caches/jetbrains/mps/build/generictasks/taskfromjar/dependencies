@@ -83,11 +83,12 @@
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
-    <classNode dependClassName="jetbrains.mps.logging.Logger" />
     <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
     <classNode dependClassName="jetbrains.mps.util.PathManager" />
+    <classNode dependClassName="org.apache.log4j.LogManager" />
+    <classNode dependClassName="org.apache.log4j.Logger" />
     <classNode dependClassName="org.apache.tools.ant.types.Reference" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SModel" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
@@ -145,7 +146,8 @@
     <classNode dependClassName="jetbrains.mps.build.generictasks.taskfromjar.ClassInfo" />
     <classNode dependClassName="jetbrains.mps.build.generictasks.taskfromjar.Importer" />
     <classNode dependClassName="jetbrains.mps.build.generictasks.taskfromjar.NamesMap" />
-    <classNode dependClassName="jetbrains.mps.logging.Logger" />
+    <classNode dependClassName="org.apache.log4j.LogManager" />
+    <classNode dependClassName="org.apache.log4j.Logger" />
     <classNode dependClassName="org.apache.tools.ant.Task" />
     <classNode dependClassName="org.apache.tools.ant.taskdefs.ConditionTask" />
     <classNode dependClassName="org.apache.tools.ant.taskdefs.EchoXML" />

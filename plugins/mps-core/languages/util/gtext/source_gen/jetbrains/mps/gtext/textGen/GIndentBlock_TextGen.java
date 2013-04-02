@@ -9,7 +9,9 @@ import jetbrains.mps.textGen.TextGenManager;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.logging.Logger;
+import org.apache.log4j.Priority;
+import org.apache.log4j.Logger;
+import org.apache.log4j.LogManager;
 
 public class GIndentBlock_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
@@ -25,12 +27,14 @@ public class GIndentBlock_TextGen extends SNodeTextGen {
         try {
           traceableProperty = BehaviorReflection.invokeVirtual(String.class, SNodeOperations.cast(node, "jetbrains.mps.lang.traceable.structure.TraceableConcept"), "virtual_getTraceableProperty_5067982036267369901", new Object[]{});
         } catch (Throwable t) {
-          LOG.error("Can't calculate traceable prorerty for a node " + node + ".", t);
+          if (LOG.isEnabledFor(Priority.ERROR)) {
+            LOG.error("Can't calculate traceable prorerty for a node " + node + ".", t);
+          }
         }
         TraceInfoGenerationUtil.fillPositionInfo(this, node, traceableProperty);
       }
     }
   }
 
-  private static Logger LOG = Logger.getLogger(GIndentBlock_TextGen.class);
+  protected static Logger LOG = LogManager.getLogger(GIndentBlock_TextGen.class);
 }

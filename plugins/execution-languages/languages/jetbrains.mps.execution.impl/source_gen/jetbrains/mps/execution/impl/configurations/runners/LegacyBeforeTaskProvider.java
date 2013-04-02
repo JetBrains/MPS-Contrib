@@ -10,10 +10,12 @@ import com.intellij.openapi.actionSystem.DataContext;
 import com.intellij.execution.runners.ExecutionEnvironment;
 import java.lang.reflect.Method;
 import com.intellij.openapi.actionSystem.PlatformDataKeys;
+import org.apache.log4j.Priority;
 import java.lang.reflect.InvocationTargetException;
 import com.intellij.openapi.project.Project;
 import com.intellij.execution.BeforeRunTask;
-import jetbrains.mps.logging.Logger;
+import org.apache.log4j.Logger;
+import org.apache.log4j.LogManager;
 
 /**
  * Fixes MPS-11832 for old mps run configurations.
@@ -84,13 +86,21 @@ public class LegacyBeforeTaskProvider extends BeforeRunTaskProvider<LegacyBefore
       }
       return (Boolean) make.invoke(configuration, PlatformDataKeys.PROJECT.getData(context));
     } catch (NoSuchMethodException e) {
-      LOG.error("", e);
+      if (LOG.isEnabledFor(Priority.ERROR)) {
+        LOG.error("", e);
+      }
     } catch (InvocationTargetException e) {
-      LOG.error("", e);
+      if (LOG.isEnabledFor(Priority.ERROR)) {
+        LOG.error("", e);
+      }
     } catch (IllegalAccessException e) {
-      LOG.error("", e);
+      if (LOG.isEnabledFor(Priority.ERROR)) {
+        LOG.error("", e);
+      }
     } catch (ClassCastException e) {
-      LOG.error("", e);
+      if (LOG.isEnabledFor(Priority.ERROR)) {
+        LOG.error("", e);
+      }
     }
     return false;
   }
@@ -106,5 +116,5 @@ public class LegacyBeforeTaskProvider extends BeforeRunTaskProvider<LegacyBefore
     }
   }
 
-  private static Logger LOG = Logger.getLogger(LegacyBeforeTaskProvider.class);
+  protected static Logger LOG = LogManager.getLogger(LegacyBeforeTaskProvider.class);
 }

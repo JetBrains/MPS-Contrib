@@ -7,12 +7,14 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.typesystem.inference.TypeChecker;
 import jetbrains.mps.typesystem.inference.SubtypingManager;
+import org.apache.log4j.Priority;
 import java.util.List;
 import jetbrains.mps.smodel.IScope;
 import org.jetbrains.mps.openapi.model.SModel;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.lang.typesystem.runtime.HUtil;
-import jetbrains.mps.logging.Logger;
+import org.apache.log4j.Logger;
+import org.apache.log4j.LogManager;
 import org.jetbrains.mps.openapi.persistence.PersistenceFacade;
 import jetbrains.mps.smodel.SModelUtil_new;
 import jetbrains.mps.project.GlobalScope;
@@ -92,13 +94,17 @@ public class DateTypeUtil {
 
   public static boolean isInstanceOf(SNode node, SNode type) {
     if (node == null || type == null) {
-      LOG.error("Null parameter to isInstanceOf()");
+      if (LOG.isEnabledFor(Priority.ERROR)) {
+        LOG.error("Null parameter to isInstanceOf()");
+      }
       return false;
     }
     try {
       return TypeChecker.getInstance().getSubtypingManager().isSubtype(TypeChecker.getInstance().getTypeOf(node), type, false);
     } catch (Throwable thr) {
-      LOG.error("Error executing isStrongSubtype(): ", thr);
+      if (LOG.isEnabledFor(Priority.ERROR)) {
+        LOG.error("Error executing isStrongSubtype(): ", thr);
+      }
     }
     return false;
   }
@@ -110,7 +116,9 @@ public class DateTypeUtil {
     try {
       return TypeChecker.getInstance().getSubtypingManager().isSubtype(type, stype, false);
     } catch (Throwable thr) {
-      LOG.error("Error executing isStrongSubtype(): ", thr);
+      if (LOG.isEnabledFor(Priority.ERROR)) {
+        LOG.error("Error executing isStrongSubtype(): ", thr);
+      }
     }
     return false;
   }
@@ -148,7 +156,7 @@ public class DateTypeUtil {
     return null;
   }
 
-  private static Logger LOG = Logger.getLogger(DateTypeUtil.class);
+  protected static Logger LOG = LogManager.getLogger(DateTypeUtil.class);
 
   private static SNode _quotation_createNode_hzl4bp_a0() {
     PersistenceFacade facade = PersistenceFacade.getInstance();

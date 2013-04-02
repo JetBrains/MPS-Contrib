@@ -16,6 +16,7 @@ import jetbrains.mps.baseLanguage.tuples.runtime.Tuples;
 import jetbrains.mps.smodel.ModelAccess;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.internal.collections.runtime.IVisitor;
+import org.apache.log4j.Priority;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.internal.collections.runtime.ILeftCombinator;
 import java.io.File;
@@ -29,7 +30,8 @@ import java.util.HashSet;
 import jetbrains.mps.util.SNodeOperations;
 import jetbrains.mps.smodel.SNodePointer;
 import java.util.LinkedHashSet;
-import jetbrains.mps.logging.Logger;
+import org.apache.log4j.Logger;
+import org.apache.log4j.LogManager;
 
 /**
  * Use junit command instead of it.
@@ -70,7 +72,9 @@ public class UnitTestRunner extends BaseRunner {
         ListSequence.fromList(tests).visitAll(new IVisitor<ITestNodeWrapper>() {
           public void visit(ITestNodeWrapper it) {
             if (!(eq_y7hhub_a0a0a0a0a0a2a0a0a0a4a5(check_y7hhub_a0a0a0a0c0a4a5(it), runParams.value))) {
-              LOG.error("Can not execute " + it + ": run parameters does not match.");
+              if (LOG.isEnabledFor(Priority.ERROR)) {
+                LOG.error("Can not execute " + it + ": run parameters does not match.");
+              }
             }
           }
         });
@@ -165,7 +169,9 @@ public class UnitTestRunner extends BaseRunner {
     try {
       return myProcessBuilder.start();
     } catch (Throwable e) {
-      LOG.error("Can't run tests: " + e.getMessage(), e);
+      if (LOG.isEnabledFor(Priority.ERROR)) {
+        LOG.error("Can't run tests: " + e.getMessage(), e);
+      }
       throw new ProcessNotCreatedException(e.getMessage(), e, getCommandLine(myRunParameters.getWorkingDirectory()));
     }
   }
@@ -196,7 +202,7 @@ public class UnitTestRunner extends BaseRunner {
     return buff.toString();
   }
 
-  private static Logger LOG = Logger.getLogger(UnitTestRunner.class);
+  protected static Logger LOG = LogManager.getLogger(UnitTestRunner.class);
 
   private static Tuples._3<String, List<String>, List<String>> check_y7hhub_a0a0a0a0a1a0e0f(ITestNodeWrapper checkedDotOperand) {
     if (null != checkedDotOperand) {

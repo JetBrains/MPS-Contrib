@@ -8,11 +8,13 @@ import java.util.ArrayList;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import org.apache.log4j.Priority;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.internal.collections.runtime.ISelector;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
-import jetbrains.mps.logging.Logger;
+import org.apache.log4j.Logger;
+import org.apache.log4j.LogManager;
 import org.jetbrains.mps.openapi.persistence.PersistenceFacade;
 import jetbrains.mps.smodel.SModelUtil_new;
 import jetbrains.mps.project.GlobalScope;
@@ -46,7 +48,9 @@ public class SchemaUtil {
     } else if (SNodeOperations.isInstanceOf(typeExpression, "jetbrains.mps.xmlSchema.structure.ElementWithContent")) {
       return getAvailableAttributes(SLinkOperations.getTarget(SNodeOperations.cast(typeExpression, "jetbrains.mps.xmlSchema.structure.ElementWithContent"), "complexType", true));
     } else {
-      LOG.error("Unknown XML type expression: " + SPropertyOperations.getString(((SNode) SNodeOperations.getConceptDeclaration(typeExpression)), "name"));
+      if (LOG.isEnabledFor(Priority.ERROR)) {
+        LOG.error("Unknown XML type expression: " + SPropertyOperations.getString(((SNode) SNodeOperations.getConceptDeclaration(typeExpression)), "name"));
+      }
 
       return new ArrayList<SNode>();
     }
@@ -113,7 +117,7 @@ public class SchemaUtil {
     return _quotation_createNode_crwl9t_a2a7();
   }
 
-  private static Logger LOG = Logger.getLogger(SchemaUtil.class);
+  protected static Logger LOG = LogManager.getLogger(SchemaUtil.class);
 
   private static SNode _quotation_createNode_crwl9t_a0a1a7() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
