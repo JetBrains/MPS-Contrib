@@ -25,10 +25,10 @@
     <classNode dependClassName="java.io.Writer" />
     <classNode dependClassName="java.lang.Exception" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
-    <classNode dependClassName="jetbrains.mps.logging.Logger" />
     <classNode dependClassName="jetbrains.mps.textGen.SNodeTextGen" />
     <classNode dependClassName="jetbrains.mps.xmlUnitTest.textGen.ElementCreator" />
     <classNode dependClassName="jetbrains.mps.xmlUnitTest.textGen.EscapingWriter" />
+    <classNode dependClassName="org.apache.log4j.LogManager" />
     <classNode dependClassName="org.jdom.Document" />
     <classNode dependClassName="org.jdom.Element" />
     <classNode dependClassName="org.jdom.output.Format" />

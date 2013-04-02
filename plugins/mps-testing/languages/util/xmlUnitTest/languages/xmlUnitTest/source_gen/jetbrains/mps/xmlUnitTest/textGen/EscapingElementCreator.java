@@ -10,7 +10,6 @@ import org.jdom.output.Format;
 import org.jdom.output.XMLOutputter;
 import java.io.Writer;
 import java.io.StringWriter;
-import org.apache.log4j.Logger;
 import org.apache.log4j.LogManager;
 import org.jdom.Document;
 
@@ -24,7 +23,7 @@ public abstract class EscapingElementCreator extends ElementCreator {
       xmlOutputter.output(result, wrt);
       textGen.append(wrt.toString());
     } catch (Exception e) {
-      Logger.getLogger(Document.class).error(e);
+      LogManager.getLogger(Document.class).error(e);
     }
   }
 }
