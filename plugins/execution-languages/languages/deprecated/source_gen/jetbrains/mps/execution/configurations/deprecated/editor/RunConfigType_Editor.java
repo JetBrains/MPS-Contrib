@@ -29,6 +29,7 @@ public class RunConfigType_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_dibbxu_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_dibbxu_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_dibbxu_a0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_dibbxu_b0(editorContext, node));
     editorCell.addEditorCell(this.createRefCell_dibbxu_c0(editorContext, node));

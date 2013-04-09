@@ -30,6 +30,7 @@ public class GSeparatorItemList_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_d3654u_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_d3654u_a");
+    editorCell.setBig(true);
     editorCell.setUsesBraces(true);
     editorCell.addEditorCell(this.createComponent_d3654u_a0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_d3654u_b0(editorContext, node));

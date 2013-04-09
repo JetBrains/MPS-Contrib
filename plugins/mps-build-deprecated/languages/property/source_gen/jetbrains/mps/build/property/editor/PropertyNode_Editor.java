@@ -35,6 +35,7 @@ public class PropertyNode_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_i7uzyy_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_i7uzyy_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createCollection_i7uzyy_a0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_i7uzyy_b0(editorContext, node));
     editorCell.addEditorCell(this.createRefNodeList_i7uzyy_c0(editorContext, node));

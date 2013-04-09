@@ -21,6 +21,7 @@ public class JavaNodeConfigurationEditorDeclaration_Editor extends DefaultNodeEd
   private EditorCell createCollection_79d4iw_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_79d4iw_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createComponent_79d4iw_a0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_79d4iw_b0(editorContext, node));
     return editorCell;

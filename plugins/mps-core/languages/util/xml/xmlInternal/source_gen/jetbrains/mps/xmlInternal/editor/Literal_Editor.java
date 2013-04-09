@@ -24,6 +24,7 @@ public class Literal_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_e2nj2_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_e2nj2_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_e2nj2_a0(editorContext, node));
     editorCell.addEditorCell(this.createProperty_e2nj2_b0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_e2nj2_c0(editorContext, node));

@@ -27,6 +27,7 @@ public class GroupDeclaration_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_d9mel4_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_d9mel4_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_d9mel4_a0(editorContext, node));
     editorCell.addEditorCell(this.createProperty_d9mel4_b0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_d9mel4_c0(editorContext, node));

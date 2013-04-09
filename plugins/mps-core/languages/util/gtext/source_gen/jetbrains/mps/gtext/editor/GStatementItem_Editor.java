@@ -26,6 +26,7 @@ public class GStatementItem_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_543h20_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_543h20_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_543h20_a0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_543h20_b0(editorContext, node));
     return editorCell;

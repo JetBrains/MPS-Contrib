@@ -36,6 +36,7 @@ public class FormatDateTimeExpression_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_3ctnox_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_3ctnox_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createRefNode_3ctnox_a0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_3ctnox_b0(editorContext, node));
     editorCell.addEditorCell(this.createRefCell_3ctnox_c0(editorContext, node));
@@ -224,6 +225,7 @@ public class FormatDateTimeExpression_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_3ctnox_a_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_3ctnox_a_0");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createCollection_3ctnox_a0(editorContext, node));
     return editorCell;
   }

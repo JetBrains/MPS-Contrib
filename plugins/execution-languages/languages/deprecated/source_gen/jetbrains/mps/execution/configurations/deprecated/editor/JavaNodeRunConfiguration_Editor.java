@@ -32,6 +32,7 @@ public class JavaNodeRunConfiguration_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_oxce8e_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_oxce8e_a");
+    editorCell.setBig(true);
     Style style = new StyleImpl();
     style.set(StyleAttributes.SELECTABLE, false);
     editorCell.getStyle().putAll(style);
@@ -90,8 +91,8 @@ public class JavaNodeRunConfiguration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_oxce8e_a1a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    return editorCell;
   }
 
   private EditorCell createCollection_oxce8e_b1a(EditorContext editorContext, SNode node) {
@@ -242,8 +243,8 @@ public class JavaNodeRunConfiguration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_oxce8e_a1d1b0(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    return editorCell;
   }
 
   private EditorCell createRefNode_oxce8e_b1d1b0(EditorContext editorContext, SNode node) {

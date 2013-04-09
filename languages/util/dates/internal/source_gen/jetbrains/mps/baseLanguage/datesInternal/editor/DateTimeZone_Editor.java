@@ -34,6 +34,7 @@ public class DateTimeZone_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_fpnw4i_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_fpnw4i_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_fpnw4i_a0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_fpnw4i_b0(editorContext, node));
     editorCell.addEditorCell(this.createProperty_fpnw4i_c0(editorContext, node));

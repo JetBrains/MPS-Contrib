@@ -41,6 +41,7 @@ public class Comment_Editor extends DefaultNodeEditor {
     } else {
       editorCell = this.createCollection_gt4ssm_a0_0(editorContext, node);
     }
+    editorCell.setBig(true);
     return editorCell;
   }
 

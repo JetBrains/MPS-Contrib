@@ -38,6 +38,7 @@ public class Element_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_76r4mg_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_76r4mg_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createCollection_76r4mg_a0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_76r4mg_b0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_76r4mg_c0(editorContext, node));
@@ -172,8 +173,8 @@ public class Element_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_76r4mg_a1a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    return editorCell;
   }
 
   private EditorCell createRefNodeList_76r4mg_b1a(EditorContext editorContext, SNode node) {

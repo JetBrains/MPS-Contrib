@@ -34,6 +34,7 @@ public class NestedDeclaration_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_hxwqt0_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_hxwqt0_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createRefCell_hxwqt0_a0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_hxwqt0_b0(editorContext, node));
     editorCell.addEditorCell(this.createRefNodeList_hxwqt0_c0(editorContext, node));

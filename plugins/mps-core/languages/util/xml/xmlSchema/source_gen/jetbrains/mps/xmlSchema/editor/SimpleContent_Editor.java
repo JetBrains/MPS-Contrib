@@ -21,6 +21,7 @@ public class SimpleContent_Editor extends DefaultNodeEditor {
   private EditorCell createConstant_mc3802_a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "simpleContent");
     editorCell.setCellId("Constant_mc3802_a");
+    editorCell.setBig(true);
     Style style = new StyleImpl();
     style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.DARK_MAGENTA));
     editorCell.getStyle().putAll(style);

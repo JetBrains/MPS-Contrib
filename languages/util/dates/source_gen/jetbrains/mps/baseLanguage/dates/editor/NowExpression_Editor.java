@@ -24,6 +24,7 @@ public class NowExpression_Editor extends DefaultNodeEditor {
   private EditorCell createComponent_61n5vj_a(EditorContext editorContext, SNode node) {
     AbstractCellProvider provider = new AliasEditorComponent(node);
     EditorCell editorCell = provider.createEditorCell(editorContext);
+    editorCell.setBig(true);
     Style style = new StyleImpl();
     Dates_StyleSheet.applyDateCompactKeyWord(style, editorCell);
     editorCell.getStyle().putAll(style);
@@ -33,6 +34,7 @@ public class NowExpression_Editor extends DefaultNodeEditor {
   private EditorCell createConstant_61n5vj_a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Instance of DateTime corresponding to current moment");
     editorCell.setCellId("Constant_61n5vj_a");
+    editorCell.setBig(true);
     editorCell.setDefaultText("");
     return editorCell;
   }

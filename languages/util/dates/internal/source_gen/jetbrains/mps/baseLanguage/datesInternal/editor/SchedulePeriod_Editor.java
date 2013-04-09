@@ -24,6 +24,7 @@ public class SchedulePeriod_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_fh3pre_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_fh3pre_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createProperty_fh3pre_a0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_fh3pre_b0(editorContext, node));
     editorCell.addEditorCell(this.createProperty_fh3pre_c0(editorContext, node));

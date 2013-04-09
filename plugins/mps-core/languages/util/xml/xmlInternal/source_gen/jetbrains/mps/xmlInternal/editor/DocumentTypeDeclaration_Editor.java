@@ -27,6 +27,7 @@ public class DocumentTypeDeclaration_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_eyi3ub_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_eyi3ub_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createCollection_eyi3ub_a0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_eyi3ub_b0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_eyi3ub_c0(editorContext, node));
@@ -92,8 +93,8 @@ public class DocumentTypeDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_eyi3ub_a1a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    return editorCell;
   }
 
   private EditorCell createRefNode_eyi3ub_b1a(EditorContext editorContext, SNode node) {

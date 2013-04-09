@@ -48,6 +48,7 @@ public class InlineFormatExpression_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_b4441e_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_b4441e_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createRefNode_b4441e_a0(editorContext, node));
     if (renderingCondition_b4441e_a1a(node, editorContext, editorContext.getOperationContext().getScope())) {
       editorCell.addEditorCell(this.createCollection_b4441e_b0(editorContext, node));
@@ -315,6 +316,7 @@ public class InlineFormatExpression_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_b4441e_a_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_b4441e_a_0");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createCollection_b4441e_a0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_b4441e_b0_0(editorContext, node));
     return editorCell;

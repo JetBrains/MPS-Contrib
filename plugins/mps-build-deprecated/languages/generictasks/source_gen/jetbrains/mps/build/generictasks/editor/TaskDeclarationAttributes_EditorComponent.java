@@ -81,8 +81,8 @@ public class TaskDeclarationAttributes_EditorComponent extends AbstractCellProvi
   }
 
   private EditorCell createIndentCell_p33j5q_a1a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    return editorCell;
   }
 
   private EditorCell createRefNodeList_p33j5q_b1a(EditorContext editorContext, SNode node) {

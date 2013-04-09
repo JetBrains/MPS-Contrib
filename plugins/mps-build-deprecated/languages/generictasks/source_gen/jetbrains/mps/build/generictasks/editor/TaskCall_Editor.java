@@ -46,6 +46,7 @@ public class TaskCall_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_fr7f84_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_fr7f84_a");
+    editorCell.setBig(true);
     if (renderingCondition_fr7f84_a0a(node, editorContext, editorContext.getOperationContext().getScope())) {
       editorCell.addEditorCell(this.createCollection_fr7f84_a0(editorContext, node));
     }
@@ -352,8 +353,8 @@ public class TaskCall_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_fr7f84_a2a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    return editorCell;
   }
 
   private EditorCell createRefNode_fr7f84_b2a(EditorContext editorContext, SNode node) {
@@ -389,8 +390,8 @@ public class TaskCall_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_fr7f84_a3a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    return editorCell;
   }
 
   private EditorCell createRefNodeList_fr7f84_b3a(EditorContext editorContext, SNode node) {
@@ -457,6 +458,7 @@ public class TaskCall_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_fr7f84_a_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_fr7f84_a_0");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createRefNodeList_fr7f84_a0(editorContext, node));
     return editorCell;
   }

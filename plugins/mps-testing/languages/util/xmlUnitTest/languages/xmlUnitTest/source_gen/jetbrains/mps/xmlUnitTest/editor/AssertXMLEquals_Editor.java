@@ -28,6 +28,7 @@ public class AssertXMLEquals_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_bzxsv2_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_bzxsv2_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_bzxsv2_a0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_bzxsv2_b0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_bzxsv2_c0(editorContext, node));

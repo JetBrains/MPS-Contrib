@@ -279,8 +279,8 @@ public class TaskDeclarationHeader_EditorComponent extends AbstractCellProvider 
   }
 
   private EditorCell createIndentCell_ws04gp_a1a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    return editorCell;
   }
 
   private EditorCell createConstant_ws04gp_b1a(EditorContext editorContext, SNode node) {
@@ -328,8 +328,8 @@ public class TaskDeclarationHeader_EditorComponent extends AbstractCellProvider 
   }
 
   private EditorCell createIndentCell_ws04gp_a2a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    return editorCell;
   }
 
   private EditorCell createConstant_ws04gp_b2a(EditorContext editorContext, SNode node) {

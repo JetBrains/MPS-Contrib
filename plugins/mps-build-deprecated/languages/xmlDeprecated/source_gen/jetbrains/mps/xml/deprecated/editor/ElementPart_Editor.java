@@ -16,6 +16,7 @@ public class ElementPart_Editor extends DefaultNodeEditor {
   private EditorCell createError_n0qhke_a(EditorContext editorContext, SNode node) {
     EditorCell_Error editorCell = new EditorCell_Error(editorContext, node, "<choose content>");
     editorCell.setCellId("Error_n0qhke_a");
+    editorCell.setBig(true);
     return editorCell;
   }
 }

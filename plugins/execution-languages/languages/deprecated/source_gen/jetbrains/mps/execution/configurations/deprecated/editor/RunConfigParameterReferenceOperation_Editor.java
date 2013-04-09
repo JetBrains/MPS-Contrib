@@ -25,6 +25,7 @@ public class RunConfigParameterReferenceOperation_Editor extends DefaultNodeEdit
   private EditorCell createCollection_utb8p6_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_utb8p6_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createRefCell_utb8p6_a0(editorContext, node));
     return editorCell;
   }

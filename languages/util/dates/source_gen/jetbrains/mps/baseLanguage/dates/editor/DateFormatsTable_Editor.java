@@ -33,6 +33,7 @@ public class DateFormatsTable_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_u2hf5i_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_u2hf5i_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_u2hf5i_a0(editorContext, node));
     editorCell.addEditorCell(this.createProperty_u2hf5i_b0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_u2hf5i_c0(editorContext, node));

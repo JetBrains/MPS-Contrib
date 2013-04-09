@@ -35,6 +35,7 @@ public class Sequence_Editor extends DefaultNodeEditor {
     } else {
       editorCell = this.createCollection_6lwes5_a0_0(editorContext, node);
     }
+    editorCell.setBig(true);
     return editorCell;
   }
 

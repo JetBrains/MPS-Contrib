@@ -19,6 +19,7 @@ public class ConsoleExpression_Editor extends DefaultNodeEditor {
   private EditorCell createConstant_dmt5ce_a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "console");
     editorCell.setCellId("Constant_dmt5ce_a");
+    editorCell.setBig(true);
     Style style = new StyleImpl();
     BaseLanguageStyle_StyleSheet.applyKeyWord(style, editorCell);
     editorCell.getStyle().putAll(style);

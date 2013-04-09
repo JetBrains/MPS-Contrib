@@ -25,6 +25,7 @@ public class ElementBuilder_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_wmom6u_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_wmom6u_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createRefCell_wmom6u_a0(editorContext, node));
     return editorCell;
   }

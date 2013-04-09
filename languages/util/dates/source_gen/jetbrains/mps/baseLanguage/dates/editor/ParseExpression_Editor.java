@@ -46,6 +46,7 @@ public class ParseExpression_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_xn2ov4_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_xn2ov4_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createRefNode_xn2ov4_a0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_xn2ov4_b0(editorContext, node));
     if (renderingCondition_xn2ov4_a2a(node, editorContext, editorContext.getOperationContext().getScope())) {
@@ -297,6 +298,7 @@ public class ParseExpression_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_xn2ov4_a_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_xn2ov4_a_0");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createCollection_xn2ov4_a0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_xn2ov4_b0_0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_xn2ov4_c0_0(editorContext, node));

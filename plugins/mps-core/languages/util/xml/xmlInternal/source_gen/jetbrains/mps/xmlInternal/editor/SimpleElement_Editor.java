@@ -43,6 +43,7 @@ public class SimpleElement_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_944ac1_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_944ac1_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createCollection_944ac1_a0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_944ac1_b0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_944ac1_c0(editorContext, node));
@@ -175,8 +176,8 @@ public class SimpleElement_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_944ac1_a1a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    return editorCell;
   }
 
   private EditorCell createRefNode_944ac1_b1a(EditorContext editorContext, SNode node) {

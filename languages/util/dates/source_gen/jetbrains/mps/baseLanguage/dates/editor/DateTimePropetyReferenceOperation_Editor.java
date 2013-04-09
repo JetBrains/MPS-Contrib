@@ -24,6 +24,7 @@ public class DateTimePropetyReferenceOperation_Editor extends DefaultNodeEditor 
   private EditorCell createCollection_pju3cy_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_pju3cy_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createRefCell_pju3cy_a0(editorContext, node));
     return editorCell;
   }

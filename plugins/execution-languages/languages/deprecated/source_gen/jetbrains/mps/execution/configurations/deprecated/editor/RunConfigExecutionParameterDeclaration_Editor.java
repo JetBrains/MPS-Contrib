@@ -38,6 +38,7 @@ public class RunConfigExecutionParameterDeclaration_Editor extends DefaultNodeEd
   private EditorCell createCollection_ystr20_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_ystr20_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createReadOnlyModelAccessor_ystr20_a0(editorContext, node));
     editorCell.addEditorCell(this.createComponent_ystr20_b0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_ystr20_c0(editorContext, node));
@@ -133,6 +134,7 @@ public class RunConfigExecutionParameterDeclaration_Editor extends DefaultNodeEd
   private EditorCell createComponent_ystr20_a(EditorContext editorContext, SNode node) {
     AbstractCellProvider provider = new ActionParameter_Hint(node);
     EditorCell editorCell = provider.createEditorCell(editorContext);
+    editorCell.setBig(true);
     return editorCell;
   }
 }

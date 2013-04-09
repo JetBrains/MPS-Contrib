@@ -24,6 +24,7 @@ public class PredefinedDateFormat_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_rn1au8_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_rn1au8_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_rn1au8_a0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_rn1au8_b0(editorContext, node));
     return editorCell;

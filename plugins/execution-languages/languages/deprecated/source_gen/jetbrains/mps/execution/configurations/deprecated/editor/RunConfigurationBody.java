@@ -289,8 +289,8 @@ public class RunConfigurationBody extends AbstractCellProvider {
   }
 
   private EditorCell createIndentCell_mrxxs6_a1i0(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    return editorCell;
   }
 
   private EditorCell createRefNodeList_mrxxs6_b1i0(EditorContext editorContext, SNode node) {

@@ -21,6 +21,7 @@ public class NamespaceDeclaration_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_4r64p2_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_4r64p2_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_4r64p2_a0(editorContext, node));
     editorCell.addEditorCell(this.createProperty_4r64p2_b0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_4r64p2_c0(editorContext, node));

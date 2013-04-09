@@ -32,6 +32,7 @@ public class EntityBlock_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_ddir2p_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_ddir2p_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createRefNode_ddir2p_a0(editorContext, node));
     editorCell.addEditorCell(this.createRefNodeList_ddir2p_b0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_ddir2p_c0(editorContext, node));

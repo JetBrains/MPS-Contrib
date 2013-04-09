@@ -16,6 +16,7 @@ public class BaseText_Editor extends DefaultNodeEditor {
   private EditorCell createError_u1kbyv_a(EditorContext editorContext, SNode node) {
     EditorCell_Error editorCell = new EditorCell_Error(editorContext, node, "baseText");
     editorCell.setCellId("Error_u1kbyv_a");
+    editorCell.setBig(true);
     return editorCell;
   }
 }

@@ -28,6 +28,7 @@ public class ActionsStatement_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_nerc8d_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_nerc8d_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_nerc8d_a0(editorContext, node));
     editorCell.addEditorCell(this.createRefNodeList_nerc8d_b0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_nerc8d_c0(editorContext, node));

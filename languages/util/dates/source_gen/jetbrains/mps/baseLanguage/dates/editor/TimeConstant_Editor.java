@@ -27,6 +27,7 @@ public class TimeConstant_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_r2b8x9_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_r2b8x9_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createProperty_r2b8x9_a0(editorContext, node));
     editorCell.addEditorCell(this.createRefCell_r2b8x9_b0(editorContext, node));
     editorCell.addEditorCell(this.createProperty_r2b8x9_c0(editorContext, node));

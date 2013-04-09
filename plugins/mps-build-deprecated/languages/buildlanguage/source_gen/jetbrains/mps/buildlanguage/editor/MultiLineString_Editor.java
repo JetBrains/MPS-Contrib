@@ -24,6 +24,7 @@ public class MultiLineString_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_v49u5j_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_v49u5j_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createRefNodeList_v49u5j_a0(editorContext, node));
     return editorCell;
   }

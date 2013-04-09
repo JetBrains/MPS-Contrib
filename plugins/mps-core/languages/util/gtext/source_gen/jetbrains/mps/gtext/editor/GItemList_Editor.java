@@ -38,6 +38,7 @@ public class GItemList_Editor extends DefaultNodeEditor {
     } else {
       editorCell = this.createCollection_39hcsa_a0_0(editorContext, node);
     }
+    editorCell.setBig(true);
     return editorCell;
   }
 

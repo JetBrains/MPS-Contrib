@@ -34,6 +34,7 @@ public class Schema_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_rivvfp_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_rivvfp_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createCollection_rivvfp_a0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_rivvfp_b0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_rivvfp_c0(editorContext, node));

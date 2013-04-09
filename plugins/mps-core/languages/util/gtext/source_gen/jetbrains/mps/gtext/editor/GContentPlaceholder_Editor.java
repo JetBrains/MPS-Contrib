@@ -22,6 +22,7 @@ public class GContentPlaceholder_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_145u51_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_145u51_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createComponent_145u51_a0(editorContext, node));
     editorCell.addEditorCell(this.createProperty_145u51_b0(editorContext, node));
     return editorCell;

@@ -35,6 +35,7 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_q7na0t_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_q7na0t_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_q7na0t_a0(editorContext, node));
     editorCell.addEditorCell(this.createRefCell_q7na0t_b0(editorContext, node));
     if (renderingCondition_q7na0t_a2a(node, editorContext, editorContext.getOperationContext().getScope())) {
@@ -181,6 +182,7 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_q7na0t_a_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_q7na0t_a_0");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_q7na0t_a0_0(editorContext, node));
     editorCell.addEditorCell(this.createRefCell_q7na0t_b0_0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_q7na0t_c0(editorContext, node));

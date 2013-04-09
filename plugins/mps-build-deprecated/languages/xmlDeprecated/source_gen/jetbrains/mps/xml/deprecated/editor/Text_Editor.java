@@ -25,6 +25,7 @@ public class Text_Editor extends DefaultNodeEditor {
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_text");
+    editorCell.setBig(true);
     Style style = new StyleImpl();
     XMLDeprecatedStyles_StyleSheet.applyText(style, editorCell);
     editorCell.getStyle().putAll(style);

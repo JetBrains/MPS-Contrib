@@ -30,6 +30,7 @@ public class AbsDateTimeMinusOperation_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_ayji0k_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_ayji0k_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_ayji0k_a0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_ayji0k_b0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_ayji0k_c0(editorContext, node));

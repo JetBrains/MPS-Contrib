@@ -32,6 +32,7 @@ public class PeriodFormat_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_oe9oai_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_oe9oai_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createProperty_oe9oai_a0(editorContext, node));
     editorCell.addEditorCell(this.createProperty_oe9oai_b0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_oe9oai_c0(editorContext, node));

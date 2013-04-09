@@ -27,6 +27,7 @@ public class MathDateTimeOperation_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_egbayc_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_egbayc_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createComponent_egbayc_a0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_egbayc_b0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_egbayc_c0(editorContext, node));

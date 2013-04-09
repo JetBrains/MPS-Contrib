@@ -16,6 +16,7 @@ public class ConfigurationEditorDeclaration_Editor extends DefaultNodeEditor {
   private EditorCell createComponent_mr6qai_a(EditorContext editorContext, SNode node) {
     AbstractCellProvider provider = new ConfigurationEditorDeclaration_BasicEditor(node);
     EditorCell editorCell = provider.createEditorCell(editorContext);
+    editorCell.setBig(true);
     return editorCell;
   }
 }

@@ -39,6 +39,7 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_l50atq_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_l50atq_a");
+    editorCell.setBig(true);
     Style style = new StyleImpl();
     style.set(StyleAttributes.SELECTABLE, false);
     editorCell.getStyle().putAll(style);
@@ -97,8 +98,8 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_l50atq_a1a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    return editorCell;
   }
 
   private EditorCell createCollection_l50atq_b1a(EditorContext editorContext, SNode node) {
@@ -165,8 +166,8 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_l50atq_a1d1b0(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    return editorCell;
   }
 
   private EditorCell createRefNode_l50atq_b1d1b0(EditorContext editorContext, SNode node) {
@@ -195,8 +196,8 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_l50atq_a2d1b0(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    return editorCell;
   }
 
   private EditorCell createRefNode_l50atq_b2d1b0(EditorContext editorContext, SNode node) {
@@ -241,6 +242,7 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_l50atq_a_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_l50atq_a_0");
+    editorCell.setBig(true);
     Style style = new StyleImpl();
     style.set(StyleAttributes.SELECTABLE, false);
     editorCell.getStyle().putAll(style);

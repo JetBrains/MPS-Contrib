@@ -33,6 +33,7 @@ public class FormatPeriodExpression_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_6favmm_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_6favmm_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createRefNode_6favmm_a0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_6favmm_b0(editorContext, node));
     editorCell.addEditorCell(this.createRefCell_6favmm_c0(editorContext, node));
@@ -212,6 +213,7 @@ public class FormatPeriodExpression_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_6favmm_a_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_6favmm_a_0");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createCollection_6favmm_a0(editorContext, node));
     return editorCell;
   }

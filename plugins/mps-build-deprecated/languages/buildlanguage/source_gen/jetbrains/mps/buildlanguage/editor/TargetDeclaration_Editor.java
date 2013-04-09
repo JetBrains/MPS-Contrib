@@ -46,6 +46,7 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_xfdsch_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_xfdsch_a");
+    editorCell.setBig(true);
     if (renderingCondition_xfdsch_a0a(node, editorContext, editorContext.getOperationContext().getScope())) {
       editorCell.addEditorCell(this.createCollection_xfdsch_a0(editorContext, node));
     }
@@ -290,8 +291,8 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_xfdsch_a2a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    return editorCell;
   }
 
   private EditorCell createRefNodeList_xfdsch_b2a(EditorContext editorContext, SNode node) {
@@ -367,8 +368,8 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_xfdsch_a3a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    return editorCell;
   }
 
   private EditorCell createRefNodeList_xfdsch_b3a(EditorContext editorContext, SNode node) {
@@ -446,6 +447,7 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_xfdsch_a_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_xfdsch_a_0");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createComponent_xfdsch_a0(editorContext, node));
     if (renderingCondition_xfdsch_a1a(node, editorContext, editorContext.getOperationContext().getScope())) {
       editorCell.addEditorCell(this.createCollection_xfdsch_b0_0(editorContext, node));

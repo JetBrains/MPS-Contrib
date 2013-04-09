@@ -44,6 +44,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
     } else {
       editorCell = this.createAlternation_bs144a_a0_0(editorContext, node);
     }
+    editorCell.setBig(true);
     return editorCell;
   }
 
@@ -270,8 +271,8 @@ public class ContentList_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_bs144a_a1a0a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    return editorCell;
   }
 
   private EditorCell createRefNodeList_bs144a_b1a0a(EditorContext editorContext, SNode node) {

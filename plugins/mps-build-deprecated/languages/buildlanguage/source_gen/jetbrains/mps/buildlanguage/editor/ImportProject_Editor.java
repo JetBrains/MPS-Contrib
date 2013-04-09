@@ -26,6 +26,7 @@ public class ImportProject_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_fpr8ek_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_fpr8ek_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createComponent_fpr8ek_a0(editorContext, node));
     editorCell.addEditorCell(this.createRefCell_fpr8ek_b0(editorContext, node));
     return editorCell;

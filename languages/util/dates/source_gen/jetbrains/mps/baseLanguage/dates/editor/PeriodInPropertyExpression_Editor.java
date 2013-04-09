@@ -27,6 +27,7 @@ public class PeriodInPropertyExpression_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_krji64_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_krji64_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createRefNode_krji64_a0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_krji64_b0(editorContext, node));
     editorCell.addEditorCell(this.createRefCell_krji64_c0(editorContext, node));

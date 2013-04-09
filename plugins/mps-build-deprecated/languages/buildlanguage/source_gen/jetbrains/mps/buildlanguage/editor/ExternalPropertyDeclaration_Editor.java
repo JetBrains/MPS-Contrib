@@ -39,6 +39,7 @@ public class ExternalPropertyDeclaration_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_i6hv21_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_i6hv21_a");
+    editorCell.setBig(true);
     if (renderingCondition_i6hv21_a0a(node, editorContext, editorContext.getOperationContext().getScope())) {
       editorCell.addEditorCell(this.createCollection_i6hv21_a0(editorContext, node));
     }
@@ -191,6 +192,7 @@ public class ExternalPropertyDeclaration_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_i6hv21_a_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_i6hv21_a_0");
+    editorCell.setBig(true);
     Style style = new StyleImpl();
     style.set(StyleAttributes.SELECTABLE, false);
     editorCell.getStyle().putAll(style);
