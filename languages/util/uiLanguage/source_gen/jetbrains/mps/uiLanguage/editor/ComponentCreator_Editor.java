@@ -27,6 +27,7 @@ public class ComponentCreator_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_o92roe_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_o92roe_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_o92roe_a0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_o92roe_b0(editorContext, node));
     editorCell.addEditorCell(this.createRefCell_o92roe_c0(editorContext, node));

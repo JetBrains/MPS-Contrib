@@ -21,6 +21,7 @@ public class RaiseInternalStatement_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_vabn2r_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_vabn2r_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_vabn2r_a0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_vabn2r_b0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_vabn2r_c0(editorContext, node));

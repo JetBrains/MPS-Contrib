@@ -26,6 +26,7 @@ public class EventDeclaration_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_a2klxi_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_a2klxi_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_a2klxi_a0(editorContext, node));
     editorCell.addEditorCell(this.createProperty_a2klxi_b0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_a2klxi_c0(editorContext, node));
@@ -101,6 +102,7 @@ public class EventDeclaration_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_a2klxi_a_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_a2klxi_a_0");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createRefNode_a2klxi_a0(editorContext, node));
     return editorCell;
   }

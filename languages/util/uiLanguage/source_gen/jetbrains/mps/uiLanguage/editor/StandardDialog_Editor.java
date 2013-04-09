@@ -33,6 +33,7 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_trqmo3_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_trqmo3_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_trqmo3_a0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_trqmo3_b0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_trqmo3_c0(editorContext, node));
@@ -61,8 +62,8 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_trqmo3_a1a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    return editorCell;
   }
 
   private EditorCell createCollection_trqmo3_b1a(EditorContext editorContext, SNode node) {
@@ -98,8 +99,8 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_trqmo3_a1b1a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    return editorCell;
   }
 
   private EditorCell createRefNode_trqmo3_b1b1a(EditorContext editorContext, SNode node) {
@@ -131,8 +132,8 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_trqmo3_a2a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    return editorCell;
   }
 
   private EditorCell createCollection_trqmo3_b2a(EditorContext editorContext, SNode node) {
@@ -168,8 +169,8 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_trqmo3_a1b2a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    return editorCell;
   }
 
   private EditorCell createRefNodeList_trqmo3_b1b2a(EditorContext editorContext, SNode node) {

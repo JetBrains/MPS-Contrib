@@ -27,6 +27,7 @@ public class InlineEventHandler_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_1sfp4h_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_1sfp4h_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createCollection_1sfp4h_a0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_1sfp4h_b0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_1sfp4h_c0(editorContext, node));

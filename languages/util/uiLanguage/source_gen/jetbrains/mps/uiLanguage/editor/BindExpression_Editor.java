@@ -25,6 +25,7 @@ public class BindExpression_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_g6a9ln_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_g6a9ln_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_g6a9ln_a0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_g6a9ln_b0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_g6a9ln_c0(editorContext, node));

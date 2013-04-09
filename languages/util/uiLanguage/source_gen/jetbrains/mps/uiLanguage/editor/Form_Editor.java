@@ -29,6 +29,7 @@ public class Form_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_317s4_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_317s4_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_317s4_a0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_317s4_b0(editorContext, node));
     return editorCell;
@@ -56,8 +57,8 @@ public class Form_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_317s4_a1a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    return editorCell;
   }
 
   private EditorCell createRefNodeList_317s4_b1a(EditorContext editorContext, SNode node) {

@@ -34,6 +34,7 @@ public class Grid_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_koct37_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_koct37_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_koct37_a0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_koct37_b0(editorContext, node));
     return editorCell;
@@ -61,8 +62,8 @@ public class Grid_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell_koct37_a1a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
+    EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
+    return editorCell;
   }
 
   private EditorCell createRefNodeList_koct37_b1a(EditorContext editorContext, SNode node) {
@@ -112,6 +113,7 @@ public class Grid_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_koct37_a_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_koct37_a_0");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createRefNodeList_koct37_a0(editorContext, node));
     return editorCell;
   }

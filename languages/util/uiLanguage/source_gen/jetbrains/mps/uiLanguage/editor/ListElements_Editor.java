@@ -23,6 +23,7 @@ public class ListElements_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_o8ftej_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_o8ftej_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_o8ftej_a0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_o8ftej_b0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_o8ftej_c0(editorContext, node));

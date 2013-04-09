@@ -22,6 +22,7 @@ public class StubCellRendererInfo_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_8ufu2t_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_8ufu2t_a");
+    editorCell.setBig(true);
     editorCell.addEditorCell(this.createRefCell_8ufu2t_a0(editorContext, node));
     return editorCell;
   }
