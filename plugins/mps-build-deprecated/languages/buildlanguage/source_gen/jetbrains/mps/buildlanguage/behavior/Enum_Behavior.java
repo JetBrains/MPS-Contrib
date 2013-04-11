@@ -6,7 +6,7 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
-import org.jetbrains.mps.openapi.language.SConcept;
+import org.jetbrains.mps.openapi.language.SAbstractConcept;
 
 public class Enum_Behavior {
   public static void init(SNode thisNode) {
@@ -34,7 +34,7 @@ public class Enum_Behavior {
     return false;
   }
 
-  public static SNode virtual_getExpectedAttributeType_6575219246653626201(SConcept thisConcept) {
+  public static SNode virtual_getExpectedAttributeType_6575219246653626201(SAbstractConcept thisConcept) {
     return null;
   }
 }

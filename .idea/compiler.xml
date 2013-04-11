@@ -5,8 +5,6 @@
     <excludeFromCompile>
       <directory url="file://$PROJECT_DIR$/core/analyzers/solutions/sandbox/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/core/analyzers/solutions/sandbox/test_gen" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/core/dependencies/source_gen" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/core/dependencies/test_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/core/kernel/solutions/jetbrains.mps.kernel.tests/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/core/kernel/solutions/jetbrains.mps.kernel.tests/test_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/languages/baseLanguage/baseLanguage/sandbox/source_gen" includeSubdirectories="true" />
@@ -280,7 +278,6 @@
       <directory url="file://$PROJECT_DIR$/plugins/mps-build/languages/bash/sandbox/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/plugins/mps-build/languages/bash/sandbox/test_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/plugins/mps-build/languages/bash/source_gen" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/plugins/mps-build/languages/build.mps.tests/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/plugins/mps-build/languages/build.mps/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/plugins/mps-build/languages/build.startup/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/plugins/mps-build/languages/build.workflow/source_gen" includeSubdirectories="true" />
