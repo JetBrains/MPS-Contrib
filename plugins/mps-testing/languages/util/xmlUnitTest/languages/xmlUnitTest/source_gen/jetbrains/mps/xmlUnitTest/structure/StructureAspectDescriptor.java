@@ -14,21 +14,21 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
   public ConceptDescriptor getDescriptor(String conceptFqName) {
     switch (Arrays.binarySearch(stringSwitchCases_1htk8d_a0a0b, conceptFqName)) {
       case 0:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlUnitTest.structure.AssertXMLEquals", "jetbrains.mps.baseLanguage.structure.Statement", false, new String[]{"jetbrains.mps.baseLanguage.structure.Statement", "jetbrains.mps.baseLanguage.unitTest.structure.MessageHolder"}, new String[]{}, new String[]{}, new String[]{"expected", "actual"});
+        return new CompiledConceptDescriptor("jetbrains.mps.xmlUnitTest.structure.AssertXMLEquals", "jetbrains.mps.baseLanguage.structure.Statement", false, new String[]{"jetbrains.mps.baseLanguage.structure.Statement", "jetbrains.mps.baseLanguage.unitTest.structure.MessageHolder"}, new String[]{}, new String[]{}, new String[]{"expected", "actual"}, new boolean[]{false, false});
       case 1:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlUnitTest.structure.Attribute", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept", "jetbrains.mps.lang.core.structure.IDontSubstituteByDefault"}, new String[]{"value"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.xmlUnitTest.structure.Attribute", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept", "jetbrains.mps.lang.core.structure.IDontSubstituteByDefault"}, new String[]{"value"}, new String[]{}, new String[]{}, new boolean[]{});
       case 2:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlUnitTest.structure.Document", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{}, new String[]{}, new String[]{"rootElement"});
+        return new CompiledConceptDescriptor("jetbrains.mps.xmlUnitTest.structure.Document", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{}, new String[]{}, new String[]{"rootElement"}, new boolean[]{false});
       case 3:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlUnitTest.structure.Element", "jetbrains.mps.xmlUnitTest.structure.ElementPart", false, new String[]{"jetbrains.mps.xmlUnitTest.structure.ElementPart"}, new String[]{}, new String[]{}, new String[]{"attribute", "content"});
+        return new CompiledConceptDescriptor("jetbrains.mps.xmlUnitTest.structure.Element", "jetbrains.mps.xmlUnitTest.structure.ElementPart", false, new String[]{"jetbrains.mps.xmlUnitTest.structure.ElementPart"}, new String[]{}, new String[]{}, new String[]{"attribute", "content"}, new boolean[]{true, true});
       case 4:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlUnitTest.structure.ElementPart", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.xmlUnitTest.structure.ElementPart", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{}, new String[]{}, new String[]{}, new boolean[]{});
       case 5:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlUnitTest.structure.Text", "jetbrains.mps.xmlUnitTest.structure.ElementPart", false, new String[]{"jetbrains.mps.xmlUnitTest.structure.ElementPart", "jetbrains.mps.lang.core.structure.IDontSubstituteByDefault"}, new String[]{"text"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.xmlUnitTest.structure.Text", "jetbrains.mps.xmlUnitTest.structure.ElementPart", false, new String[]{"jetbrains.mps.xmlUnitTest.structure.ElementPart", "jetbrains.mps.lang.core.structure.IDontSubstituteByDefault"}, new String[]{"text"}, new String[]{}, new String[]{}, new boolean[]{});
       case 6:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlUnitTest.structure.XMLLiteral", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{}, new String[]{"element"});
+        return new CompiledConceptDescriptor("jetbrains.mps.xmlUnitTest.structure.XMLLiteral", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{}, new String[]{"element"}, new boolean[]{false});
       case 7:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlUnitTest.structure.XMLStringLiteral", "jetbrains.mps.baseLanguage.structure.Expression", false, new String[]{"jetbrains.mps.baseLanguage.structure.Expression"}, new String[]{}, new String[]{}, new String[]{"xml"});
+        return new CompiledConceptDescriptor("jetbrains.mps.xmlUnitTest.structure.XMLStringLiteral", "jetbrains.mps.baseLanguage.structure.Expression", false, new String[]{"jetbrains.mps.baseLanguage.structure.Expression"}, new String[]{}, new String[]{}, new String[]{"xml"}, new boolean[]{false});
       default:
         return StructureAspectInterpreted.getInstance().getDescriptor(conceptFqName);
     }
