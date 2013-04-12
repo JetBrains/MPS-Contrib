@@ -356,6 +356,49 @@
     <classNode extendsClassName="jetbrains.mps.nodeEditor.DefaultNodeEditor" />
     <classNode extendsClassName="jetbrains.mps.nodeEditor.InlineCellProvider" />
   </dependency>
+  <dependency className="jetbrains.mps.uiLanguage.editor.EditorAspectDescriptorImpl" file="EditorAspectDescriptorImpl.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Arrays" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.node.EditorAspect" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.ConceptDescriptor" />
+    <classNode dependClassName="jetbrains.mps.uiLanguage.editor.ActionHandler_Editor" />
+    <classNode dependClassName="jetbrains.mps.uiLanguage.editor.AfterConstructionBlock_Editor" />
+    <classNode dependClassName="jetbrains.mps.uiLanguage.editor.AttributeDeclaration_Editor" />
+    <classNode dependClassName="jetbrains.mps.uiLanguage.editor.AttributeReferenceOperation_Editor" />
+    <classNode dependClassName="jetbrains.mps.uiLanguage.editor.AttributeValue_Editor" />
+    <classNode dependClassName="jetbrains.mps.uiLanguage.editor.BeanCreator_Editor" />
+    <classNode dependClassName="jetbrains.mps.uiLanguage.editor.BeanDeclaration_Editor" />
+    <classNode dependClassName="jetbrains.mps.uiLanguage.editor.BeanType_Editor" />
+    <classNode dependClassName="jetbrains.mps.uiLanguage.editor.BeforeConstructionBlock_Editor" />
+    <classNode dependClassName="jetbrains.mps.uiLanguage.editor.BindExpression_Editor" />
+    <classNode dependClassName="jetbrains.mps.uiLanguage.editor.CellRendererAttribute_Editor" />
+    <classNode dependClassName="jetbrains.mps.uiLanguage.editor.ComponentController_Editor" />
+    <classNode dependClassName="jetbrains.mps.uiLanguage.editor.ComponentCreator_Editor" />
+    <classNode dependClassName="jetbrains.mps.uiLanguage.editor.ComponentDeclaration_Editor" />
+    <classNode dependClassName="jetbrains.mps.uiLanguage.editor.ComponentInstance_Editor" />
+    <classNode dependClassName="jetbrains.mps.uiLanguage.editor.ComponentReference_Editor" />
+    <classNode dependClassName="jetbrains.mps.uiLanguage.editor.ComponentType_Editor" />
+    <classNode dependClassName="jetbrains.mps.uiLanguage.editor.EventAccessOperation_Editor" />
+    <classNode dependClassName="jetbrains.mps.uiLanguage.editor.EventDeclaration_Editor" />
+    <classNode dependClassName="jetbrains.mps.uiLanguage.editor.EventHandlerReference_Editor" />
+    <classNode dependClassName="jetbrains.mps.uiLanguage.editor.FormPart_Editor" />
+    <classNode dependClassName="jetbrains.mps.uiLanguage.editor.Form_Editor" />
+    <classNode dependClassName="jetbrains.mps.uiLanguage.editor.GridRow_Editor" />
+    <classNode dependClassName="jetbrains.mps.uiLanguage.editor.Grid_Editor" />
+    <classNode dependClassName="jetbrains.mps.uiLanguage.editor.InlineEventHandler_Editor" />
+    <classNode dependClassName="jetbrains.mps.uiLanguage.editor.InlineRenderer_Editor" />
+    <classNode dependClassName="jetbrains.mps.uiLanguage.editor.LayoutConstraint_Editor" />
+    <classNode dependClassName="jetbrains.mps.uiLanguage.editor.ListElements_Editor" />
+    <classNode dependClassName="jetbrains.mps.uiLanguage.editor.PngIcon_Editor" />
+    <classNode dependClassName="jetbrains.mps.uiLanguage.editor.RaiseInternalStatement_Editor" />
+    <classNode dependClassName="jetbrains.mps.uiLanguage.editor.RaiseOperation_Editor" />
+    <classNode dependClassName="jetbrains.mps.uiLanguage.editor.RenderingObject_Editor" />
+    <classNode dependClassName="jetbrains.mps.uiLanguage.editor.Scroller_Editor" />
+    <classNode dependClassName="jetbrains.mps.uiLanguage.editor.StandardDialogButton_Editor" />
+    <classNode dependClassName="jetbrains.mps.uiLanguage.editor.StandardDialog_Editor" />
+    <classNode dependClassName="jetbrains.mps.uiLanguage.editor.StubCellRendererInfo_Editor" />
+    <classNode extendsClassName="jetbrains.mps.openapi.editor.node.EditorAspectDescriptor" />
+  </dependency>
   <dependency className="jetbrains.mps.uiLanguage.editor.EditorIconUtil" file="EditorIconUtil.java">
     <classNode dependClassName="java.awt.Component" />
     <classNode dependClassName="java.awt.event.ActionEvent" />
