@@ -14,33 +14,33 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
   public ConceptDescriptor getDescriptor(String conceptFqName) {
     switch (Arrays.binarySearch(stringSwitchCases_1htk8d_a0a0b, conceptFqName)) {
       case 0:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlInternal.structure.Comment", "jetbrains.mps.xml.structure.Content", false, new String[]{"jetbrains.mps.xml.structure.Content"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.xmlInternal.structure.Comment", "jetbrains.mps.xml.structure.Content", false, new String[]{"jetbrains.mps.xml.structure.Content"}, new String[]{}, new String[]{}, new String[]{"text"});
       case 1:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlInternal.structure.ContentStatement", "jetbrains.mps.baseLanguage.structure.Statement", false, new String[]{"jetbrains.mps.baseLanguage.structure.Statement"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.xmlInternal.structure.ContentStatement", "jetbrains.mps.baseLanguage.structure.Statement", false, new String[]{"jetbrains.mps.baseLanguage.structure.Statement"}, new String[]{}, new String[]{}, new String[]{"content"});
       case 2:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlInternal.structure.Document", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.xmlInternal.structure.Document", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{}, new String[]{"prolog", "rootElement"});
       case 3:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlInternal.structure.DocumentStatement", "jetbrains.mps.baseLanguage.structure.Statement", false, new String[]{"jetbrains.mps.baseLanguage.structure.Statement"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.xmlInternal.structure.DocumentStatement", "jetbrains.mps.baseLanguage.structure.Statement", false, new String[]{"jetbrains.mps.baseLanguage.structure.Statement"}, new String[]{}, new String[]{}, new String[]{"document"});
       case 4:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlInternal.structure.DocumentTypeDeclaration", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{"docTypeName"}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.xmlInternal.structure.DocumentTypeDeclaration", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{"docTypeName"}, new String[]{}, new String[]{"externalId"});
       case 5:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlInternal.structure.ExternalId", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.xmlInternal.structure.ExternalId", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{}, new String[]{});
       case 6:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlInternal.structure.Literal", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{"value"}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.xmlInternal.structure.Literal", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{"value"}, new String[]{}, new String[]{});
       case 7:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlInternal.structure.NamespaceAttribute", "jetbrains.mps.xml.structure.BaseAttribute", false, new String[]{"jetbrains.mps.xml.structure.BaseAttribute"}, new String[]{"prefix", "uri"}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.xmlInternal.structure.NamespaceAttribute", "jetbrains.mps.xml.structure.BaseAttribute", false, new String[]{"jetbrains.mps.xml.structure.BaseAttribute"}, new String[]{"prefix", "uri"}, new String[]{}, new String[]{});
       case 8:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlInternal.structure.Prolog", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.xmlInternal.structure.Prolog", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{}, new String[]{"documentTypeDeclaration"});
       case 9:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlInternal.structure.PublicExternalId", "jetbrains.mps.xmlInternal.structure.ExternalId", false, new String[]{"jetbrains.mps.xmlInternal.structure.ExternalId"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.xmlInternal.structure.PublicExternalId", "jetbrains.mps.xmlInternal.structure.ExternalId", false, new String[]{"jetbrains.mps.xmlInternal.structure.ExternalId"}, new String[]{}, new String[]{}, new String[]{"pubidLiteral", "systemLiteral"});
       case 10:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlInternal.structure.SimpleAttribute", "jetbrains.mps.xml.structure.BaseAttribute", false, new String[]{"jetbrains.mps.xml.structure.BaseAttribute"}, new String[]{"attributeName"}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.xmlInternal.structure.SimpleAttribute", "jetbrains.mps.xml.structure.BaseAttribute", false, new String[]{"jetbrains.mps.xml.structure.BaseAttribute"}, new String[]{"attributeName"}, new String[]{}, new String[]{"value"});
       case 11:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlInternal.structure.SimpleElement", "jetbrains.mps.xml.structure.BaseElement", false, new String[]{"jetbrains.mps.xml.structure.BaseElement"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.xmlInternal.structure.SimpleElement", "jetbrains.mps.xml.structure.BaseElement", false, new String[]{"jetbrains.mps.xml.structure.BaseElement"}, new String[]{}, new String[]{}, new String[]{"elementName"});
       case 12:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlInternal.structure.StatementElement", "jetbrains.mps.xml.structure.Content", false, new String[]{"jetbrains.mps.xml.structure.Content"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.xmlInternal.structure.StatementElement", "jetbrains.mps.xml.structure.Content", false, new String[]{"jetbrains.mps.xml.structure.Content"}, new String[]{}, new String[]{}, new String[]{"statementList"});
       case 13:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlInternal.structure.XmlFile", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept", "jetbrains.mps.xml.structure.XmlRoot"}, new String[]{"fileName", "extension"}, new String[]{"schema"});
+        return new CompiledConceptDescriptor("jetbrains.mps.xmlInternal.structure.XmlFile", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept", "jetbrains.mps.xml.structure.XmlRoot"}, new String[]{"fileName", "extension"}, new String[]{"schema"}, new String[]{"document"});
       default:
         return StructureAspectInterpreted.getInstance().getDescriptor(conceptFqName);
     }

@@ -14,23 +14,23 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
   public ConceptDescriptor getDescriptor(String conceptFqName) {
     switch (Arrays.binarySearch(stringSwitchCases_1htk8d_a0a0b, conceptFqName)) {
       case 0:
-        return new CompiledConceptDescriptor("jetbrains.mps.build.generictasks.structure.Attribute", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{"attributeDeclaration"});
+        return new CompiledConceptDescriptor("jetbrains.mps.build.generictasks.structure.Attribute", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{"attributeDeclaration"}, new String[]{"value"});
       case 1:
-        return new CompiledConceptDescriptor("jetbrains.mps.build.generictasks.structure.AttributeDeclaration", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept", "jetbrains.mps.baseLanguage.classifiers.structure.IMember"}, new String[]{"deprecated", "required"}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.build.generictasks.structure.AttributeDeclaration", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept", "jetbrains.mps.baseLanguage.classifiers.structure.IMember"}, new String[]{"deprecated", "required"}, new String[]{}, new String[]{"default", "attributeType", "enum"});
       case 2:
-        return new CompiledConceptDescriptor("jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.build.generictasks.structure.ITaskDeclaration", "jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{"fake"}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.build.generictasks.structure.ITaskDeclaration", "jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{"fake"}, new String[]{}, new String[]{"nested", "fakeDeclaration"});
       case 3:
-        return new CompiledConceptDescriptor("jetbrains.mps.build.generictasks.structure.ITaskDeclaration", null, true, new String[]{"jetbrains.mps.buildlanguage.structure.IDeclaration", "jetbrains.mps.baseLanguage.classifiers.structure.IClassifier"}, new String[]{"classname", "canHaveInternalText", "abstract", "depracated"}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.build.generictasks.structure.ITaskDeclaration", null, true, new String[]{"jetbrains.mps.buildlanguage.structure.IDeclaration", "jetbrains.mps.baseLanguage.classifiers.structure.IClassifier"}, new String[]{"classname", "canHaveInternalText", "abstract", "depracated"}, new String[]{}, new String[]{"attributesDecl", "parentRef", "interfaces"});
       case 4:
-        return new CompiledConceptDescriptor("jetbrains.mps.build.generictasks.structure.NestedDeclaration", "jetbrains.mps.build.generictasks.structure.TaskReference", false, new String[]{"jetbrains.mps.build.generictasks.structure.TaskReference"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.build.generictasks.structure.NestedDeclaration", "jetbrains.mps.build.generictasks.structure.TaskReference", false, new String[]{"jetbrains.mps.build.generictasks.structure.TaskReference"}, new String[]{}, new String[]{}, new String[]{"role"});
       case 5:
-        return new CompiledConceptDescriptor("jetbrains.mps.build.generictasks.structure.PathReference", "jetbrains.mps.buildlanguage.structure.CallReference", false, new String[]{"jetbrains.mps.buildlanguage.structure.CallReference"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.build.generictasks.structure.PathReference", "jetbrains.mps.buildlanguage.structure.CallReference", false, new String[]{"jetbrains.mps.buildlanguage.structure.CallReference"}, new String[]{}, new String[]{}, new String[]{});
       case 6:
-        return new CompiledConceptDescriptor("jetbrains.mps.build.generictasks.structure.TaskCall", "jetbrains.mps.buildlanguage.structure.AbstractCall", false, new String[]{"jetbrains.mps.buildlanguage.structure.AbstractCall", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{"id"}, new String[]{"declaration"});
+        return new CompiledConceptDescriptor("jetbrains.mps.build.generictasks.structure.TaskCall", "jetbrains.mps.buildlanguage.structure.AbstractCall", false, new String[]{"jetbrains.mps.buildlanguage.structure.AbstractCall", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{"id"}, new String[]{"declaration"}, new String[]{"atributes"});
       case 7:
-        return new CompiledConceptDescriptor("jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration", "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration", false, new String[]{"jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration", "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration", false, new String[]{"jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration"}, new String[]{}, new String[]{}, new String[]{"parents"});
       case 8:
-        return new CompiledConceptDescriptor("jetbrains.mps.build.generictasks.structure.TaskReference", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{"declaration"});
+        return new CompiledConceptDescriptor("jetbrains.mps.build.generictasks.structure.TaskReference", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{"declaration"}, new String[]{});
       default:
         return StructureAspectInterpreted.getInstance().getDescriptor(conceptFqName);
     }

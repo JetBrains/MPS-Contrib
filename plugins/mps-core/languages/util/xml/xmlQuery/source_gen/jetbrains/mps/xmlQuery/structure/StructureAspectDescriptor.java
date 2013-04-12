@@ -14,27 +14,27 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
   public ConceptDescriptor getDescriptor(String conceptFqName) {
     switch (Arrays.binarySearch(stringSwitchCases_1htk8d_a0a0b, conceptFqName)) {
       case 0:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlQuery.structure.AccessArbitraryAttributeOperation", "jetbrains.mps.xmlQuery.structure.XMLElementOperation", false, new String[]{"jetbrains.mps.xmlQuery.structure.XMLElementOperation"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.xmlQuery.structure.AccessArbitraryAttributeOperation", "jetbrains.mps.xmlQuery.structure.XMLElementOperation", false, new String[]{"jetbrains.mps.xmlQuery.structure.XMLElementOperation"}, new String[]{}, new String[]{}, new String[]{"attributeNameExpression"});
       case 1:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlQuery.structure.AccessArbitraryChildrenOperation", "jetbrains.mps.xmlQuery.structure.XMLElementOperation", false, new String[]{"jetbrains.mps.xmlQuery.structure.XMLElementOperation"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.xmlQuery.structure.AccessArbitraryChildrenOperation", "jetbrains.mps.xmlQuery.structure.XMLElementOperation", false, new String[]{"jetbrains.mps.xmlQuery.structure.XMLElementOperation"}, new String[]{}, new String[]{}, new String[]{"childNameExpression"});
       case 2:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlQuery.structure.AccessAttributeOperation", "jetbrains.mps.xmlQuery.structure.XMLElementOperation", false, new String[]{"jetbrains.mps.xmlQuery.structure.XMLElementOperation"}, new String[]{}, new String[]{"attributeDeclaration"});
+        return new CompiledConceptDescriptor("jetbrains.mps.xmlQuery.structure.AccessAttributeOperation", "jetbrains.mps.xmlQuery.structure.XMLElementOperation", false, new String[]{"jetbrains.mps.xmlQuery.structure.XMLElementOperation"}, new String[]{}, new String[]{"attributeDeclaration"}, new String[]{});
       case 3:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlQuery.structure.AccessChildrenOperation", "jetbrains.mps.xmlQuery.structure.XMLElementOperation", false, new String[]{"jetbrains.mps.xmlQuery.structure.XMLElementOperation"}, new String[]{}, new String[]{"elementDeclaration"});
+        return new CompiledConceptDescriptor("jetbrains.mps.xmlQuery.structure.AccessChildrenOperation", "jetbrains.mps.xmlQuery.structure.XMLElementOperation", false, new String[]{"jetbrains.mps.xmlQuery.structure.XMLElementOperation"}, new String[]{}, new String[]{"elementDeclaration"}, new String[]{});
       case 4:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlQuery.structure.AccessTextOperation", "jetbrains.mps.xmlQuery.structure.XMLElementOperation", false, new String[]{"jetbrains.mps.xmlQuery.structure.XMLElementOperation"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.xmlQuery.structure.AccessTextOperation", "jetbrains.mps.xmlQuery.structure.XMLElementOperation", false, new String[]{"jetbrains.mps.xmlQuery.structure.XMLElementOperation"}, new String[]{}, new String[]{}, new String[]{});
       case 5:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlQuery.structure.AttributeBuilder", "jetbrains.mps.baseLanguage.builders.structure.Builder", false, new String[]{"jetbrains.mps.baseLanguage.builders.structure.Builder"}, new String[]{}, new String[]{"attributeDeclaration"});
+        return new CompiledConceptDescriptor("jetbrains.mps.xmlQuery.structure.AttributeBuilder", "jetbrains.mps.baseLanguage.builders.structure.Builder", false, new String[]{"jetbrains.mps.baseLanguage.builders.structure.Builder"}, new String[]{}, new String[]{"attributeDeclaration"}, new String[]{"value"});
       case 6:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlQuery.structure.ElementBuilder", "jetbrains.mps.baseLanguage.builders.structure.Builder", false, new String[]{"jetbrains.mps.baseLanguage.builders.structure.Builder"}, new String[]{}, new String[]{"elementDeclaration"});
+        return new CompiledConceptDescriptor("jetbrains.mps.xmlQuery.structure.ElementBuilder", "jetbrains.mps.baseLanguage.builders.structure.Builder", false, new String[]{"jetbrains.mps.baseLanguage.builders.structure.Builder"}, new String[]{}, new String[]{"elementDeclaration"}, new String[]{});
       case 7:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlQuery.structure.TextBuilder", "jetbrains.mps.baseLanguage.builders.structure.Builder", false, new String[]{"jetbrains.mps.baseLanguage.builders.structure.Builder"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.xmlQuery.structure.TextBuilder", "jetbrains.mps.baseLanguage.builders.structure.Builder", false, new String[]{"jetbrains.mps.baseLanguage.builders.structure.Builder"}, new String[]{}, new String[]{}, new String[]{"value"});
       case 8:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlQuery.structure.XMLElementCreator", "jetbrains.mps.baseLanguage.structure.AbstractCreator", false, new String[]{"jetbrains.mps.baseLanguage.structure.AbstractCreator"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.xmlQuery.structure.XMLElementCreator", "jetbrains.mps.baseLanguage.structure.AbstractCreator", false, new String[]{"jetbrains.mps.baseLanguage.structure.AbstractCreator"}, new String[]{}, new String[]{}, new String[]{"type"});
       case 9:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlQuery.structure.XMLElementOperation", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.baseLanguage.structure.IOperation"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.xmlQuery.structure.XMLElementOperation", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.baseLanguage.structure.IOperation"}, new String[]{}, new String[]{}, new String[]{});
       case 10:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlQuery.structure.XMLElementType", "jetbrains.mps.baseLanguage.structure.Type", false, new String[]{"jetbrains.mps.baseLanguage.structure.Type"}, new String[]{}, new String[]{"schema", "complexType"});
+        return new CompiledConceptDescriptor("jetbrains.mps.xmlQuery.structure.XMLElementType", "jetbrains.mps.baseLanguage.structure.Type", false, new String[]{"jetbrains.mps.baseLanguage.structure.Type"}, new String[]{}, new String[]{"schema", "complexType"}, new String[]{});
       default:
         return StructureAspectInterpreted.getInstance().getDescriptor(conceptFqName);
     }
