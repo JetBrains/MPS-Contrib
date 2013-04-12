@@ -94,6 +94,27 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.nodeEditor.DefaultNodeEditor" />
   </dependency>
+  <dependency className="jetbrains.mps.xmlInternal.editor.EditorAspectDescriptorImpl" file="EditorAspectDescriptorImpl.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Arrays" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.node.EditorAspect" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.ConceptDescriptor" />
+    <classNode dependClassName="jetbrains.mps.xmlInternal.editor.Comment_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlInternal.editor.ContentStatement_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlInternal.editor.DocumentStatement_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlInternal.editor.DocumentTypeDeclaration_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlInternal.editor.Document_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlInternal.editor.ExternalId_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlInternal.editor.Literal_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlInternal.editor.NamespaceAttribute_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlInternal.editor.Prolog_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlInternal.editor.PublicExternalId_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlInternal.editor.SimpleAttribute_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlInternal.editor.SimpleElement_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlInternal.editor.StatementElement_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlInternal.editor.XmlFile_Editor" />
+    <classNode extendsClassName="jetbrains.mps.openapi.editor.node.EditorAspectDescriptor" />
+  </dependency>
   <dependency className="jetbrains.mps.xmlInternal.editor.ExternalId_Editor" file="ExternalId_Editor.java">
     <classNode dependClassName="jetbrains.mps.nodeEditor.cells.EditorCell_Error" />
     <classNode dependClassName="jetbrains.mps.openapi.editor.EditorContext" />

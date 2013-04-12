@@ -219,6 +219,53 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.nodeEditor.DefaultNodeEditor" />
   </dependency>
+  <dependency className="jetbrains.mps.xmlSchema.editor.EditorAspectDescriptorImpl" file="EditorAspectDescriptorImpl.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Arrays" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.node.EditorAspect" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.ConceptDescriptor" />
+    <classNode dependClassName="jetbrains.mps.xmlSchema.editor.AttributeDeclaration_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlSchema.editor.AttributeExpression_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlSchema.editor.AttributeGroupReference_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlSchema.editor.AttributeGroup_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlSchema.editor.BooleanSchemaType_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlSchema.editor.BoundExpression_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlSchema.editor.Choice_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlSchema.editor.ComplexContent_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlSchema.editor.ComplexTypeReference_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlSchema.editor.ComplexType_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlSchema.editor.ContentItem_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlSchema.editor.DeclarationBlock_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlSchema.editor.Declaration_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlSchema.editor.ElementReference_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlSchema.editor.ElementWithContent_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlSchema.editor.ElementWithType_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlSchema.editor.EntityBlock_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlSchema.editor.EntityDeclaration_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlSchema.editor.EntityLine_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlSchema.editor.EntitySet_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlSchema.editor.Extension_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlSchema.editor.GroupDeclaration_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlSchema.editor.GroupExpression_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlSchema.editor.GroupReference_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlSchema.editor.IntegerSchemaType_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlSchema.editor.MaxOccursExpression_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlSchema.editor.MixedAttribute_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlSchema.editor.NamespaceDeclaration_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlSchema.editor.OccursAttribute_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlSchema.editor.SchemaComment_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlSchema.editor.SchemaType_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlSchema.editor.Schema_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlSchema.editor.Sequence_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlSchema.editor.SimpleContent_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlSchema.editor.StringSchemaType_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlSchema.editor.TextLine_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlSchema.editor.TypeExpressionList_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlSchema.editor.TypeExpression_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlSchema.editor.UnboundExpression_Editor" />
+    <classNode dependClassName="jetbrains.mps.xmlSchema.editor.UseAttribute_Editor" />
+    <classNode extendsClassName="jetbrains.mps.openapi.editor.node.EditorAspectDescriptor" />
+  </dependency>
   <dependency className="jetbrains.mps.xmlSchema.editor.ElementReference_Editor" file="ElementReference_Editor.java">
     <classNode dependClassName="java.awt.Color" />
     <classNode dependClassName="java.lang.Class" />
