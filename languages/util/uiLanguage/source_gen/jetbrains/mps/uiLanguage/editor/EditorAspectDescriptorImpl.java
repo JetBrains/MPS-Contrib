@@ -8,84 +8,416 @@ import jetbrains.mps.smodel.runtime.ConceptDescriptor;
 import java.util.Arrays;
 
 public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
+  private ActionHandler_Editor myActionHandlerEditorAspect;
+  private AfterConstructionBlock_Editor myAfterConstructionBlockEditorAspect;
+  private AttributeDeclaration_Editor myAttributeDeclarationEditorAspect;
+  private AttributeReferenceOperation_Editor myAttributeReferenceOperationEditorAspect;
+  private AttributeValue_Editor myAttributeValueEditorAspect;
+  private BeanCreator_Editor myBeanCreatorEditorAspect;
+  private BeanDeclaration_Editor myBeanDeclarationEditorAspect;
+  private BeanType_Editor myBeanTypeEditorAspect;
+  private BeforeConstructionBlock_Editor myBeforeConstructionBlockEditorAspect;
+  private BindExpression_Editor myBindExpressionEditorAspect;
+  private CellRendererAttribute_Editor myCellRendererAttributeEditorAspect;
+  private ComponentController_Editor myComponentControllerEditorAspect;
+  private ComponentCreator_Editor myComponentCreatorEditorAspect;
+  private ComponentDeclaration_Editor myComponentDeclarationEditorAspect;
+  private ComponentInstance_Editor myComponentInstanceEditorAspect;
+  private ComponentReference_Editor myComponentReferenceEditorAspect;
+  private ComponentType_Editor myComponentTypeEditorAspect;
+  private EventAccessOperation_Editor myEventAccessOperationEditorAspect;
+  private EventDeclaration_Editor myEventDeclarationEditorAspect;
+  private EventHandlerReference_Editor myEventHandlerReferenceEditorAspect;
+  private Form_Editor myFormEditorAspect;
+  private FormPart_Editor myFormPartEditorAspect;
+  private Grid_Editor myGridEditorAspect;
+  private GridRow_Editor myGridRowEditorAspect;
+  private InlineEventHandler_Editor myInlineEventHandlerEditorAspect;
+  private InlineRenderer_Editor myInlineRendererEditorAspect;
+  private LayoutConstraint_Editor myLayoutConstraintEditorAspect;
+  private ListElements_Editor myListElementsEditorAspect;
+  private PngIcon_Editor myPngIconEditorAspect;
+  private RaiseInternalStatement_Editor myRaiseInternalStatementEditorAspect;
+  private RaiseOperation_Editor myRaiseOperationEditorAspect;
+  private RenderingObject_Editor myRenderingObjectEditorAspect;
+  private Scroller_Editor myScrollerEditorAspect;
+  private StandardDialog_Editor myStandardDialogEditorAspect;
+  private StandardDialogButton_Editor myStandardDialogButtonEditorAspect;
+  private StubCellRendererInfo_Editor myStubCellRendererInfoEditorAspect;
+
   public EditorAspect getAspect(ConceptDescriptor descriptor) {
-    switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0a, descriptor.getConceptFqName())) {
+    switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0kb, descriptor.getConceptFqName())) {
       case 0:
-        return new ActionHandler_Editor();
+        return getActionHandlerEditorAspect();
       case 1:
-        return new AfterConstructionBlock_Editor();
+        return getAfterConstructionBlockEditorAspect();
       case 2:
-        return new AttributeDeclaration_Editor();
+        return getAttributeDeclarationEditorAspect();
       case 3:
-        return new AttributeReferenceOperation_Editor();
+        return getAttributeReferenceOperationEditorAspect();
       case 4:
-        return new AttributeValue_Editor();
+        return getAttributeValueEditorAspect();
       case 5:
-        return new BeanCreator_Editor();
+        return getBeanCreatorEditorAspect();
       case 6:
-        return new BeanDeclaration_Editor();
+        return getBeanDeclarationEditorAspect();
       case 7:
-        return new BeanType_Editor();
+        return getBeanTypeEditorAspect();
       case 8:
-        return new BeforeConstructionBlock_Editor();
+        return getBeforeConstructionBlockEditorAspect();
       case 9:
-        return new BindExpression_Editor();
+        return getBindExpressionEditorAspect();
       case 10:
-        return new CellRendererAttribute_Editor();
+        return getCellRendererAttributeEditorAspect();
       case 11:
-        return new ComponentController_Editor();
+        return getComponentControllerEditorAspect();
       case 12:
-        return new ComponentCreator_Editor();
+        return getComponentCreatorEditorAspect();
       case 13:
-        return new ComponentDeclaration_Editor();
+        return getComponentDeclarationEditorAspect();
       case 14:
-        return new ComponentInstance_Editor();
+        return getComponentInstanceEditorAspect();
       case 15:
-        return new ComponentReference_Editor();
+        return getComponentReferenceEditorAspect();
       case 16:
-        return new ComponentType_Editor();
+        return getComponentTypeEditorAspect();
       case 17:
-        return new EventAccessOperation_Editor();
+        return getEventAccessOperationEditorAspect();
       case 18:
-        return new EventDeclaration_Editor();
+        return getEventDeclarationEditorAspect();
       case 19:
-        return new EventHandlerReference_Editor();
+        return getEventHandlerReferenceEditorAspect();
       case 20:
-        return new Form_Editor();
+        return getFormEditorAspect();
       case 21:
-        return new FormPart_Editor();
+        return getFormPartEditorAspect();
       case 22:
-        return new Grid_Editor();
+        return getGridEditorAspect();
       case 23:
-        return new GridRow_Editor();
+        return getGridRowEditorAspect();
       case 24:
-        return new InlineEventHandler_Editor();
+        return getInlineEventHandlerEditorAspect();
       case 25:
-        return new InlineRenderer_Editor();
+        return getInlineRendererEditorAspect();
       case 26:
-        return new LayoutConstraint_Editor();
+        return getLayoutConstraintEditorAspect();
       case 27:
-        return new ListElements_Editor();
+        return getListElementsEditorAspect();
       case 28:
-        return new PngIcon_Editor();
+        return getPngIconEditorAspect();
       case 29:
-        return new RaiseInternalStatement_Editor();
+        return getRaiseInternalStatementEditorAspect();
       case 30:
-        return new RaiseOperation_Editor();
+        return getRaiseOperationEditorAspect();
       case 31:
-        return new RenderingObject_Editor();
+        return getRenderingObjectEditorAspect();
       case 32:
-        return new Scroller_Editor();
+        return getScrollerEditorAspect();
       case 33:
-        return new StandardDialog_Editor();
+        return getStandardDialogEditorAspect();
       case 34:
-        return new StandardDialogButton_Editor();
+        return getStandardDialogButtonEditorAspect();
       case 35:
-        return new StubCellRendererInfo_Editor();
+        return getStubCellRendererInfoEditorAspect();
       default:
     }
     return null;
   }
 
-  private static String[] stringSwitchCases_xbvbvu_a0a0a = new String[]{"jetbrains.mps.uiLanguage.structure.ActionHandler", "jetbrains.mps.uiLanguage.structure.AfterConstructionBlock", "jetbrains.mps.uiLanguage.structure.AttributeDeclaration", "jetbrains.mps.uiLanguage.structure.AttributeReferenceOperation", "jetbrains.mps.uiLanguage.structure.AttributeValue", "jetbrains.mps.uiLanguage.structure.BeanCreator", "jetbrains.mps.uiLanguage.structure.BeanDeclaration", "jetbrains.mps.uiLanguage.structure.BeanType", "jetbrains.mps.uiLanguage.structure.BeforeConstructionBlock", "jetbrains.mps.uiLanguage.structure.BindExpression", "jetbrains.mps.uiLanguage.structure.CellRendererAttribute", "jetbrains.mps.uiLanguage.structure.ComponentController", "jetbrains.mps.uiLanguage.structure.ComponentCreator", "jetbrains.mps.uiLanguage.structure.ComponentDeclaration", "jetbrains.mps.uiLanguage.structure.ComponentInstance", "jetbrains.mps.uiLanguage.structure.ComponentReference", "jetbrains.mps.uiLanguage.structure.ComponentType", "jetbrains.mps.uiLanguage.structure.EventAccessOperation", "jetbrains.mps.uiLanguage.structure.EventDeclaration", "jetbrains.mps.uiLanguage.structure.EventHandlerReference", "jetbrains.mps.uiLanguage.structure.Form", "jetbrains.mps.uiLanguage.structure.FormPart", "jetbrains.mps.uiLanguage.structure.Grid", "jetbrains.mps.uiLanguage.structure.GridRow", "jetbrains.mps.uiLanguage.structure.InlineEventHandler", "jetbrains.mps.uiLanguage.structure.InlineRenderer", "jetbrains.mps.uiLanguage.structure.LayoutConstraint", "jetbrains.mps.uiLanguage.structure.ListElements", "jetbrains.mps.uiLanguage.structure.PngIcon", "jetbrains.mps.uiLanguage.structure.RaiseInternalStatement", "jetbrains.mps.uiLanguage.structure.RaiseOperation", "jetbrains.mps.uiLanguage.structure.RenderingObject", "jetbrains.mps.uiLanguage.structure.Scroller", "jetbrains.mps.uiLanguage.structure.StandardDialog", "jetbrains.mps.uiLanguage.structure.StandardDialogButton", "jetbrains.mps.uiLanguage.structure.StubCellRendererInfo"};
+  public void initialize() {
+    // Register editor extensions here 
+  }
+
+  public void deinitialize() {
+    myActionHandlerEditorAspect = null;
+    myAfterConstructionBlockEditorAspect = null;
+    myAttributeDeclarationEditorAspect = null;
+    myAttributeReferenceOperationEditorAspect = null;
+    myAttributeValueEditorAspect = null;
+    myBeanCreatorEditorAspect = null;
+    myBeanDeclarationEditorAspect = null;
+    myBeanTypeEditorAspect = null;
+    myBeforeConstructionBlockEditorAspect = null;
+    myBindExpressionEditorAspect = null;
+    myCellRendererAttributeEditorAspect = null;
+    myComponentControllerEditorAspect = null;
+    myComponentCreatorEditorAspect = null;
+    myComponentDeclarationEditorAspect = null;
+    myComponentInstanceEditorAspect = null;
+    myComponentReferenceEditorAspect = null;
+    myComponentTypeEditorAspect = null;
+    myEventAccessOperationEditorAspect = null;
+    myEventDeclarationEditorAspect = null;
+    myEventHandlerReferenceEditorAspect = null;
+    myFormEditorAspect = null;
+    myFormPartEditorAspect = null;
+    myGridEditorAspect = null;
+    myGridRowEditorAspect = null;
+    myInlineEventHandlerEditorAspect = null;
+    myInlineRendererEditorAspect = null;
+    myLayoutConstraintEditorAspect = null;
+    myListElementsEditorAspect = null;
+    myPngIconEditorAspect = null;
+    myRaiseInternalStatementEditorAspect = null;
+    myRaiseOperationEditorAspect = null;
+    myRenderingObjectEditorAspect = null;
+    myScrollerEditorAspect = null;
+    myStandardDialogEditorAspect = null;
+    myStandardDialogButtonEditorAspect = null;
+    myStubCellRendererInfoEditorAspect = null;
+  }
+
+  private ActionHandler_Editor getActionHandlerEditorAspect() {
+    if (myActionHandlerEditorAspect == null) {
+      myActionHandlerEditorAspect = new ActionHandler_Editor();
+    }
+    return myActionHandlerEditorAspect;
+  }
+
+  private AfterConstructionBlock_Editor getAfterConstructionBlockEditorAspect() {
+    if (myAfterConstructionBlockEditorAspect == null) {
+      myAfterConstructionBlockEditorAspect = new AfterConstructionBlock_Editor();
+    }
+    return myAfterConstructionBlockEditorAspect;
+  }
+
+  private AttributeDeclaration_Editor getAttributeDeclarationEditorAspect() {
+    if (myAttributeDeclarationEditorAspect == null) {
+      myAttributeDeclarationEditorAspect = new AttributeDeclaration_Editor();
+    }
+    return myAttributeDeclarationEditorAspect;
+  }
+
+  private AttributeReferenceOperation_Editor getAttributeReferenceOperationEditorAspect() {
+    if (myAttributeReferenceOperationEditorAspect == null) {
+      myAttributeReferenceOperationEditorAspect = new AttributeReferenceOperation_Editor();
+    }
+    return myAttributeReferenceOperationEditorAspect;
+  }
+
+  private AttributeValue_Editor getAttributeValueEditorAspect() {
+    if (myAttributeValueEditorAspect == null) {
+      myAttributeValueEditorAspect = new AttributeValue_Editor();
+    }
+    return myAttributeValueEditorAspect;
+  }
+
+  private BeanCreator_Editor getBeanCreatorEditorAspect() {
+    if (myBeanCreatorEditorAspect == null) {
+      myBeanCreatorEditorAspect = new BeanCreator_Editor();
+    }
+    return myBeanCreatorEditorAspect;
+  }
+
+  private BeanDeclaration_Editor getBeanDeclarationEditorAspect() {
+    if (myBeanDeclarationEditorAspect == null) {
+      myBeanDeclarationEditorAspect = new BeanDeclaration_Editor();
+    }
+    return myBeanDeclarationEditorAspect;
+  }
+
+  private BeanType_Editor getBeanTypeEditorAspect() {
+    if (myBeanTypeEditorAspect == null) {
+      myBeanTypeEditorAspect = new BeanType_Editor();
+    }
+    return myBeanTypeEditorAspect;
+  }
+
+  private BeforeConstructionBlock_Editor getBeforeConstructionBlockEditorAspect() {
+    if (myBeforeConstructionBlockEditorAspect == null) {
+      myBeforeConstructionBlockEditorAspect = new BeforeConstructionBlock_Editor();
+    }
+    return myBeforeConstructionBlockEditorAspect;
+  }
+
+  private BindExpression_Editor getBindExpressionEditorAspect() {
+    if (myBindExpressionEditorAspect == null) {
+      myBindExpressionEditorAspect = new BindExpression_Editor();
+    }
+    return myBindExpressionEditorAspect;
+  }
+
+  private CellRendererAttribute_Editor getCellRendererAttributeEditorAspect() {
+    if (myCellRendererAttributeEditorAspect == null) {
+      myCellRendererAttributeEditorAspect = new CellRendererAttribute_Editor();
+    }
+    return myCellRendererAttributeEditorAspect;
+  }
+
+  private ComponentController_Editor getComponentControllerEditorAspect() {
+    if (myComponentControllerEditorAspect == null) {
+      myComponentControllerEditorAspect = new ComponentController_Editor();
+    }
+    return myComponentControllerEditorAspect;
+  }
+
+  private ComponentCreator_Editor getComponentCreatorEditorAspect() {
+    if (myComponentCreatorEditorAspect == null) {
+      myComponentCreatorEditorAspect = new ComponentCreator_Editor();
+    }
+    return myComponentCreatorEditorAspect;
+  }
+
+  private ComponentDeclaration_Editor getComponentDeclarationEditorAspect() {
+    if (myComponentDeclarationEditorAspect == null) {
+      myComponentDeclarationEditorAspect = new ComponentDeclaration_Editor();
+    }
+    return myComponentDeclarationEditorAspect;
+  }
+
+  private ComponentInstance_Editor getComponentInstanceEditorAspect() {
+    if (myComponentInstanceEditorAspect == null) {
+      myComponentInstanceEditorAspect = new ComponentInstance_Editor();
+    }
+    return myComponentInstanceEditorAspect;
+  }
+
+  private ComponentReference_Editor getComponentReferenceEditorAspect() {
+    if (myComponentReferenceEditorAspect == null) {
+      myComponentReferenceEditorAspect = new ComponentReference_Editor();
+    }
+    return myComponentReferenceEditorAspect;
+  }
+
+  private ComponentType_Editor getComponentTypeEditorAspect() {
+    if (myComponentTypeEditorAspect == null) {
+      myComponentTypeEditorAspect = new ComponentType_Editor();
+    }
+    return myComponentTypeEditorAspect;
+  }
+
+  private EventAccessOperation_Editor getEventAccessOperationEditorAspect() {
+    if (myEventAccessOperationEditorAspect == null) {
+      myEventAccessOperationEditorAspect = new EventAccessOperation_Editor();
+    }
+    return myEventAccessOperationEditorAspect;
+  }
+
+  private EventDeclaration_Editor getEventDeclarationEditorAspect() {
+    if (myEventDeclarationEditorAspect == null) {
+      myEventDeclarationEditorAspect = new EventDeclaration_Editor();
+    }
+    return myEventDeclarationEditorAspect;
+  }
+
+  private EventHandlerReference_Editor getEventHandlerReferenceEditorAspect() {
+    if (myEventHandlerReferenceEditorAspect == null) {
+      myEventHandlerReferenceEditorAspect = new EventHandlerReference_Editor();
+    }
+    return myEventHandlerReferenceEditorAspect;
+  }
+
+  private Form_Editor getFormEditorAspect() {
+    if (myFormEditorAspect == null) {
+      myFormEditorAspect = new Form_Editor();
+    }
+    return myFormEditorAspect;
+  }
+
+  private FormPart_Editor getFormPartEditorAspect() {
+    if (myFormPartEditorAspect == null) {
+      myFormPartEditorAspect = new FormPart_Editor();
+    }
+    return myFormPartEditorAspect;
+  }
+
+  private Grid_Editor getGridEditorAspect() {
+    if (myGridEditorAspect == null) {
+      myGridEditorAspect = new Grid_Editor();
+    }
+    return myGridEditorAspect;
+  }
+
+  private GridRow_Editor getGridRowEditorAspect() {
+    if (myGridRowEditorAspect == null) {
+      myGridRowEditorAspect = new GridRow_Editor();
+    }
+    return myGridRowEditorAspect;
+  }
+
+  private InlineEventHandler_Editor getInlineEventHandlerEditorAspect() {
+    if (myInlineEventHandlerEditorAspect == null) {
+      myInlineEventHandlerEditorAspect = new InlineEventHandler_Editor();
+    }
+    return myInlineEventHandlerEditorAspect;
+  }
+
+  private InlineRenderer_Editor getInlineRendererEditorAspect() {
+    if (myInlineRendererEditorAspect == null) {
+      myInlineRendererEditorAspect = new InlineRenderer_Editor();
+    }
+    return myInlineRendererEditorAspect;
+  }
+
+  private LayoutConstraint_Editor getLayoutConstraintEditorAspect() {
+    if (myLayoutConstraintEditorAspect == null) {
+      myLayoutConstraintEditorAspect = new LayoutConstraint_Editor();
+    }
+    return myLayoutConstraintEditorAspect;
+  }
+
+  private ListElements_Editor getListElementsEditorAspect() {
+    if (myListElementsEditorAspect == null) {
+      myListElementsEditorAspect = new ListElements_Editor();
+    }
+    return myListElementsEditorAspect;
+  }
+
+  private PngIcon_Editor getPngIconEditorAspect() {
+    if (myPngIconEditorAspect == null) {
+      myPngIconEditorAspect = new PngIcon_Editor();
+    }
+    return myPngIconEditorAspect;
+  }
+
+  private RaiseInternalStatement_Editor getRaiseInternalStatementEditorAspect() {
+    if (myRaiseInternalStatementEditorAspect == null) {
+      myRaiseInternalStatementEditorAspect = new RaiseInternalStatement_Editor();
+    }
+    return myRaiseInternalStatementEditorAspect;
+  }
+
+  private RaiseOperation_Editor getRaiseOperationEditorAspect() {
+    if (myRaiseOperationEditorAspect == null) {
+      myRaiseOperationEditorAspect = new RaiseOperation_Editor();
+    }
+    return myRaiseOperationEditorAspect;
+  }
+
+  private RenderingObject_Editor getRenderingObjectEditorAspect() {
+    if (myRenderingObjectEditorAspect == null) {
+      myRenderingObjectEditorAspect = new RenderingObject_Editor();
+    }
+    return myRenderingObjectEditorAspect;
+  }
+
+  private Scroller_Editor getScrollerEditorAspect() {
+    if (myScrollerEditorAspect == null) {
+      myScrollerEditorAspect = new Scroller_Editor();
+    }
+    return myScrollerEditorAspect;
+  }
+
+  private StandardDialog_Editor getStandardDialogEditorAspect() {
+    if (myStandardDialogEditorAspect == null) {
+      myStandardDialogEditorAspect = new StandardDialog_Editor();
+    }
+    return myStandardDialogEditorAspect;
+  }
+
+  private StandardDialogButton_Editor getStandardDialogButtonEditorAspect() {
+    if (myStandardDialogButtonEditorAspect == null) {
+      myStandardDialogButtonEditorAspect = new StandardDialogButton_Editor();
+    }
+    return myStandardDialogButtonEditorAspect;
+  }
+
+  private StubCellRendererInfo_Editor getStubCellRendererInfoEditorAspect() {
+    if (myStubCellRendererInfoEditorAspect == null) {
+      myStubCellRendererInfoEditorAspect = new StubCellRendererInfo_Editor();
+    }
+    return myStubCellRendererInfoEditorAspect;
+  }
+
+  private static String[] stringSwitchCases_xbvbvu_a0a0kb = new String[]{"jetbrains.mps.uiLanguage.structure.ActionHandler", "jetbrains.mps.uiLanguage.structure.AfterConstructionBlock", "jetbrains.mps.uiLanguage.structure.AttributeDeclaration", "jetbrains.mps.uiLanguage.structure.AttributeReferenceOperation", "jetbrains.mps.uiLanguage.structure.AttributeValue", "jetbrains.mps.uiLanguage.structure.BeanCreator", "jetbrains.mps.uiLanguage.structure.BeanDeclaration", "jetbrains.mps.uiLanguage.structure.BeanType", "jetbrains.mps.uiLanguage.structure.BeforeConstructionBlock", "jetbrains.mps.uiLanguage.structure.BindExpression", "jetbrains.mps.uiLanguage.structure.CellRendererAttribute", "jetbrains.mps.uiLanguage.structure.ComponentController", "jetbrains.mps.uiLanguage.structure.ComponentCreator", "jetbrains.mps.uiLanguage.structure.ComponentDeclaration", "jetbrains.mps.uiLanguage.structure.ComponentInstance", "jetbrains.mps.uiLanguage.structure.ComponentReference", "jetbrains.mps.uiLanguage.structure.ComponentType", "jetbrains.mps.uiLanguage.structure.EventAccessOperation", "jetbrains.mps.uiLanguage.structure.EventDeclaration", "jetbrains.mps.uiLanguage.structure.EventHandlerReference", "jetbrains.mps.uiLanguage.structure.Form", "jetbrains.mps.uiLanguage.structure.FormPart", "jetbrains.mps.uiLanguage.structure.Grid", "jetbrains.mps.uiLanguage.structure.GridRow", "jetbrains.mps.uiLanguage.structure.InlineEventHandler", "jetbrains.mps.uiLanguage.structure.InlineRenderer", "jetbrains.mps.uiLanguage.structure.LayoutConstraint", "jetbrains.mps.uiLanguage.structure.ListElements", "jetbrains.mps.uiLanguage.structure.PngIcon", "jetbrains.mps.uiLanguage.structure.RaiseInternalStatement", "jetbrains.mps.uiLanguage.structure.RaiseOperation", "jetbrains.mps.uiLanguage.structure.RenderingObject", "jetbrains.mps.uiLanguage.structure.Scroller", "jetbrains.mps.uiLanguage.structure.StandardDialog", "jetbrains.mps.uiLanguage.structure.StandardDialogButton", "jetbrains.mps.uiLanguage.structure.StubCellRendererInfo"};
 }
