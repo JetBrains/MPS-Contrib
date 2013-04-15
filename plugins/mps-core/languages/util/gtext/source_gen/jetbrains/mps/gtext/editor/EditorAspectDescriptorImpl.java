@@ -8,44 +8,196 @@ import jetbrains.mps.smodel.runtime.ConceptDescriptor;
 import java.util.Arrays;
 
 public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
+  private BuilderContextRef_Editor myBuilderContextRefEditorAspect;
+  private GConditionalLine_Editor myGConditionalLineEditorAspect;
+  private GContentBlock_Editor myGContentBlockEditorAspect;
+  private GContentPlaceholder_Editor myGContentPlaceholderEditorAspect;
+  private GDocument_Editor myGDocumentEditorAspect;
+  private GExpressionItem_Editor myGExpressionItemEditorAspect;
+  private GIndent_Editor myGIndentEditorAspect;
+  private GIndentBlock_Editor myGIndentBlockEditorAspect;
+  private GItem_Editor myGItemEditorAspect;
+  private GItemList_Editor myGItemListEditorAspect;
+  private GItemStatement_Editor myGItemStatementEditorAspect;
+  private GLine_Editor myGLineEditorAspect;
+  private GNewLine_Editor myGNewLineEditorAspect;
+  private GSeparatorItemList_Editor myGSeparatorItemListEditorAspect;
+  private GStatementItem_Editor myGStatementItemEditorAspect;
+  private GText_Editor myGTextEditorAspect;
+
   public EditorAspect getAspect(ConceptDescriptor descriptor) {
-    switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0a, descriptor.getConceptFqName())) {
+    switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0q, descriptor.getConceptFqName())) {
       case 0:
-        return new BuilderContextRef_Editor();
+        return getBuilderContextRefEditorAspect();
       case 1:
-        return new GConditionalLine_Editor();
+        return getGConditionalLineEditorAspect();
       case 2:
-        return new GContentBlock_Editor();
+        return getGContentBlockEditorAspect();
       case 3:
-        return new GContentPlaceholder_Editor();
+        return getGContentPlaceholderEditorAspect();
       case 4:
-        return new GDocument_Editor();
+        return getGDocumentEditorAspect();
       case 5:
-        return new GExpressionItem_Editor();
+        return getGExpressionItemEditorAspect();
       case 6:
-        return new GIndent_Editor();
+        return getGIndentEditorAspect();
       case 7:
-        return new GIndentBlock_Editor();
+        return getGIndentBlockEditorAspect();
       case 8:
-        return new GItem_Editor();
+        return getGItemEditorAspect();
       case 9:
-        return new GItemList_Editor();
+        return getGItemListEditorAspect();
       case 10:
-        return new GItemStatement_Editor();
+        return getGItemStatementEditorAspect();
       case 11:
-        return new GLine_Editor();
+        return getGLineEditorAspect();
       case 12:
-        return new GNewLine_Editor();
+        return getGNewLineEditorAspect();
       case 13:
-        return new GSeparatorItemList_Editor();
+        return getGSeparatorItemListEditorAspect();
       case 14:
-        return new GStatementItem_Editor();
+        return getGStatementItemEditorAspect();
       case 15:
-        return new GText_Editor();
+        return getGTextEditorAspect();
       default:
     }
     return null;
   }
 
-  private static String[] stringSwitchCases_xbvbvu_a0a0a = new String[]{"jetbrains.mps.gtext.structure.BuilderContextRef", "jetbrains.mps.gtext.structure.GConditionalLine", "jetbrains.mps.gtext.structure.GContentBlock", "jetbrains.mps.gtext.structure.GContentPlaceholder", "jetbrains.mps.gtext.structure.GDocument", "jetbrains.mps.gtext.structure.GExpressionItem", "jetbrains.mps.gtext.structure.GIndent", "jetbrains.mps.gtext.structure.GIndentBlock", "jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GItemList", "jetbrains.mps.gtext.structure.GItemStatement", "jetbrains.mps.gtext.structure.GLine", "jetbrains.mps.gtext.structure.GNewLine", "jetbrains.mps.gtext.structure.GSeparatorItemList", "jetbrains.mps.gtext.structure.GStatementItem", "jetbrains.mps.gtext.structure.GText"};
+  public void initialize() {
+    // Register editor extensions here 
+  }
+
+  public void deinitialize() {
+    myBuilderContextRefEditorAspect = null;
+    myGConditionalLineEditorAspect = null;
+    myGContentBlockEditorAspect = null;
+    myGContentPlaceholderEditorAspect = null;
+    myGDocumentEditorAspect = null;
+    myGExpressionItemEditorAspect = null;
+    myGIndentEditorAspect = null;
+    myGIndentBlockEditorAspect = null;
+    myGItemEditorAspect = null;
+    myGItemListEditorAspect = null;
+    myGItemStatementEditorAspect = null;
+    myGLineEditorAspect = null;
+    myGNewLineEditorAspect = null;
+    myGSeparatorItemListEditorAspect = null;
+    myGStatementItemEditorAspect = null;
+    myGTextEditorAspect = null;
+  }
+
+  private BuilderContextRef_Editor getBuilderContextRefEditorAspect() {
+    if (myBuilderContextRefEditorAspect == null) {
+      myBuilderContextRefEditorAspect = new BuilderContextRef_Editor();
+    }
+    return myBuilderContextRefEditorAspect;
+  }
+
+  private GConditionalLine_Editor getGConditionalLineEditorAspect() {
+    if (myGConditionalLineEditorAspect == null) {
+      myGConditionalLineEditorAspect = new GConditionalLine_Editor();
+    }
+    return myGConditionalLineEditorAspect;
+  }
+
+  private GContentBlock_Editor getGContentBlockEditorAspect() {
+    if (myGContentBlockEditorAspect == null) {
+      myGContentBlockEditorAspect = new GContentBlock_Editor();
+    }
+    return myGContentBlockEditorAspect;
+  }
+
+  private GContentPlaceholder_Editor getGContentPlaceholderEditorAspect() {
+    if (myGContentPlaceholderEditorAspect == null) {
+      myGContentPlaceholderEditorAspect = new GContentPlaceholder_Editor();
+    }
+    return myGContentPlaceholderEditorAspect;
+  }
+
+  private GDocument_Editor getGDocumentEditorAspect() {
+    if (myGDocumentEditorAspect == null) {
+      myGDocumentEditorAspect = new GDocument_Editor();
+    }
+    return myGDocumentEditorAspect;
+  }
+
+  private GExpressionItem_Editor getGExpressionItemEditorAspect() {
+    if (myGExpressionItemEditorAspect == null) {
+      myGExpressionItemEditorAspect = new GExpressionItem_Editor();
+    }
+    return myGExpressionItemEditorAspect;
+  }
+
+  private GIndent_Editor getGIndentEditorAspect() {
+    if (myGIndentEditorAspect == null) {
+      myGIndentEditorAspect = new GIndent_Editor();
+    }
+    return myGIndentEditorAspect;
+  }
+
+  private GIndentBlock_Editor getGIndentBlockEditorAspect() {
+    if (myGIndentBlockEditorAspect == null) {
+      myGIndentBlockEditorAspect = new GIndentBlock_Editor();
+    }
+    return myGIndentBlockEditorAspect;
+  }
+
+  private GItem_Editor getGItemEditorAspect() {
+    if (myGItemEditorAspect == null) {
+      myGItemEditorAspect = new GItem_Editor();
+    }
+    return myGItemEditorAspect;
+  }
+
+  private GItemList_Editor getGItemListEditorAspect() {
+    if (myGItemListEditorAspect == null) {
+      myGItemListEditorAspect = new GItemList_Editor();
+    }
+    return myGItemListEditorAspect;
+  }
+
+  private GItemStatement_Editor getGItemStatementEditorAspect() {
+    if (myGItemStatementEditorAspect == null) {
+      myGItemStatementEditorAspect = new GItemStatement_Editor();
+    }
+    return myGItemStatementEditorAspect;
+  }
+
+  private GLine_Editor getGLineEditorAspect() {
+    if (myGLineEditorAspect == null) {
+      myGLineEditorAspect = new GLine_Editor();
+    }
+    return myGLineEditorAspect;
+  }
+
+  private GNewLine_Editor getGNewLineEditorAspect() {
+    if (myGNewLineEditorAspect == null) {
+      myGNewLineEditorAspect = new GNewLine_Editor();
+    }
+    return myGNewLineEditorAspect;
+  }
+
+  private GSeparatorItemList_Editor getGSeparatorItemListEditorAspect() {
+    if (myGSeparatorItemListEditorAspect == null) {
+      myGSeparatorItemListEditorAspect = new GSeparatorItemList_Editor();
+    }
+    return myGSeparatorItemListEditorAspect;
+  }
+
+  private GStatementItem_Editor getGStatementItemEditorAspect() {
+    if (myGStatementItemEditorAspect == null) {
+      myGStatementItemEditorAspect = new GStatementItem_Editor();
+    }
+    return myGStatementItemEditorAspect;
+  }
+
+  private GText_Editor getGTextEditorAspect() {
+    if (myGTextEditorAspect == null) {
+      myGTextEditorAspect = new GText_Editor();
+    }
+    return myGTextEditorAspect;
+  }
+
+  private static String[] stringSwitchCases_xbvbvu_a0a0q = new String[]{"jetbrains.mps.gtext.structure.BuilderContextRef", "jetbrains.mps.gtext.structure.GConditionalLine", "jetbrains.mps.gtext.structure.GContentBlock", "jetbrains.mps.gtext.structure.GContentPlaceholder", "jetbrains.mps.gtext.structure.GDocument", "jetbrains.mps.gtext.structure.GExpressionItem", "jetbrains.mps.gtext.structure.GIndent", "jetbrains.mps.gtext.structure.GIndentBlock", "jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GItemList", "jetbrains.mps.gtext.structure.GItemStatement", "jetbrains.mps.gtext.structure.GLine", "jetbrains.mps.gtext.structure.GNewLine", "jetbrains.mps.gtext.structure.GSeparatorItemList", "jetbrains.mps.gtext.structure.GStatementItem", "jetbrains.mps.gtext.structure.GText"};
 }

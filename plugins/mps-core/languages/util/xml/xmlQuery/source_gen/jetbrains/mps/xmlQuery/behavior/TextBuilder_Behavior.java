@@ -4,7 +4,7 @@ package jetbrains.mps.xmlQuery.behavior;
 
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import org.jetbrains.mps.openapi.language.SConcept;
+import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.smodel.behaviour.BehaviorManager;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
@@ -30,7 +30,7 @@ public class TextBuilder_Behavior {
     return _quotation_createNode_8nuept_a0a2(parentRef, childRef);
   }
 
-  public static boolean virtual_leaf_1262430001741498370(SConcept thisConcept) {
+  public static boolean virtual_leaf_1262430001741498370(SAbstractConcept thisConcept) {
     return true;
   }
 

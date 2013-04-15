@@ -8,40 +8,174 @@ import jetbrains.mps.smodel.runtime.ConceptDescriptor;
 import java.util.Arrays;
 
 public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
+  private DateTimeIntPropertyFormatConfiguration_Editor myDateTimeIntPropertyFormatConfigurationEditorAspect;
+  private DateTimeProperty_Editor myDateTimePropertyEditorAspect;
+  private DateTimePropertyCardinality_Editor myDateTimePropertyCardinalityEditorAspect;
+  private DateTimePropertyFormatType_Editor myDateTimePropertyFormatTypeEditorAspect;
+  private DateTimePropertySettings_Editor myDateTimePropertySettingsEditorAspect;
+  private DateTimeZone_Editor myDateTimeZoneEditorAspect;
+  private DateTimeZonePropertyFormatConfiguration_Editor myDateTimeZonePropertyFormatConfigurationEditorAspect;
+  private DurationType_Editor myDurationTypeEditorAspect;
+  private FormatTokenSettings_Editor myFormatTokenSettingsEditorAspect;
+  private Locale_Editor myLocaleEditorAspect;
+  private Month_Editor myMonthEditorAspect;
+  private PredefinedDateFormat_Editor myPredefinedDateFormatEditorAspect;
+  private PredefinedPeriodFormat_Editor myPredefinedPeriodFormatEditorAspect;
+  private SchedulePeriod_Editor mySchedulePeriodEditorAspect;
+
   public EditorAspect getAspect(ConceptDescriptor descriptor) {
-    switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0a, descriptor.getConceptFqName())) {
+    switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0o, descriptor.getConceptFqName())) {
       case 0:
-        return new DateTimeIntPropertyFormatConfiguration_Editor();
+        return getDateTimeIntPropertyFormatConfigurationEditorAspect();
       case 1:
-        return new DateTimeProperty_Editor();
+        return getDateTimePropertyEditorAspect();
       case 2:
-        return new DateTimePropertyCardinality_Editor();
+        return getDateTimePropertyCardinalityEditorAspect();
       case 3:
-        return new DateTimePropertyFormatType_Editor();
+        return getDateTimePropertyFormatTypeEditorAspect();
       case 4:
-        return new DateTimePropertySettings_Editor();
+        return getDateTimePropertySettingsEditorAspect();
       case 5:
-        return new DateTimeZone_Editor();
+        return getDateTimeZoneEditorAspect();
       case 6:
-        return new DateTimeZonePropertyFormatConfiguration_Editor();
+        return getDateTimeZonePropertyFormatConfigurationEditorAspect();
       case 7:
-        return new DurationType_Editor();
+        return getDurationTypeEditorAspect();
       case 8:
-        return new FormatTokenSettings_Editor();
+        return getFormatTokenSettingsEditorAspect();
       case 9:
-        return new Locale_Editor();
+        return getLocaleEditorAspect();
       case 10:
-        return new Month_Editor();
+        return getMonthEditorAspect();
       case 11:
-        return new PredefinedDateFormat_Editor();
+        return getPredefinedDateFormatEditorAspect();
       case 12:
-        return new PredefinedPeriodFormat_Editor();
+        return getPredefinedPeriodFormatEditorAspect();
       case 13:
-        return new SchedulePeriod_Editor();
+        return getSchedulePeriodEditorAspect();
       default:
     }
     return null;
   }
 
-  private static String[] stringSwitchCases_xbvbvu_a0a0a = new String[]{"jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeIntPropertyFormatConfiguration", "jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeProperty", "jetbrains.mps.baseLanguage.datesInternal.structure.DateTimePropertyCardinality", "jetbrains.mps.baseLanguage.datesInternal.structure.DateTimePropertyFormatType", "jetbrains.mps.baseLanguage.datesInternal.structure.DateTimePropertySettings", "jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeZone", "jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeZonePropertyFormatConfiguration", "jetbrains.mps.baseLanguage.datesInternal.structure.DurationType", "jetbrains.mps.baseLanguage.datesInternal.structure.FormatTokenSettings", "jetbrains.mps.baseLanguage.datesInternal.structure.Locale", "jetbrains.mps.baseLanguage.datesInternal.structure.Month", "jetbrains.mps.baseLanguage.datesInternal.structure.PredefinedDateFormat", "jetbrains.mps.baseLanguage.datesInternal.structure.PredefinedPeriodFormat", "jetbrains.mps.baseLanguage.datesInternal.structure.SchedulePeriod"};
+  public void initialize() {
+    // Register editor extensions here 
+  }
+
+  public void deinitialize() {
+    myDateTimeIntPropertyFormatConfigurationEditorAspect = null;
+    myDateTimePropertyEditorAspect = null;
+    myDateTimePropertyCardinalityEditorAspect = null;
+    myDateTimePropertyFormatTypeEditorAspect = null;
+    myDateTimePropertySettingsEditorAspect = null;
+    myDateTimeZoneEditorAspect = null;
+    myDateTimeZonePropertyFormatConfigurationEditorAspect = null;
+    myDurationTypeEditorAspect = null;
+    myFormatTokenSettingsEditorAspect = null;
+    myLocaleEditorAspect = null;
+    myMonthEditorAspect = null;
+    myPredefinedDateFormatEditorAspect = null;
+    myPredefinedPeriodFormatEditorAspect = null;
+    mySchedulePeriodEditorAspect = null;
+  }
+
+  private DateTimeIntPropertyFormatConfiguration_Editor getDateTimeIntPropertyFormatConfigurationEditorAspect() {
+    if (myDateTimeIntPropertyFormatConfigurationEditorAspect == null) {
+      myDateTimeIntPropertyFormatConfigurationEditorAspect = new DateTimeIntPropertyFormatConfiguration_Editor();
+    }
+    return myDateTimeIntPropertyFormatConfigurationEditorAspect;
+  }
+
+  private DateTimeProperty_Editor getDateTimePropertyEditorAspect() {
+    if (myDateTimePropertyEditorAspect == null) {
+      myDateTimePropertyEditorAspect = new DateTimeProperty_Editor();
+    }
+    return myDateTimePropertyEditorAspect;
+  }
+
+  private DateTimePropertyCardinality_Editor getDateTimePropertyCardinalityEditorAspect() {
+    if (myDateTimePropertyCardinalityEditorAspect == null) {
+      myDateTimePropertyCardinalityEditorAspect = new DateTimePropertyCardinality_Editor();
+    }
+    return myDateTimePropertyCardinalityEditorAspect;
+  }
+
+  private DateTimePropertyFormatType_Editor getDateTimePropertyFormatTypeEditorAspect() {
+    if (myDateTimePropertyFormatTypeEditorAspect == null) {
+      myDateTimePropertyFormatTypeEditorAspect = new DateTimePropertyFormatType_Editor();
+    }
+    return myDateTimePropertyFormatTypeEditorAspect;
+  }
+
+  private DateTimePropertySettings_Editor getDateTimePropertySettingsEditorAspect() {
+    if (myDateTimePropertySettingsEditorAspect == null) {
+      myDateTimePropertySettingsEditorAspect = new DateTimePropertySettings_Editor();
+    }
+    return myDateTimePropertySettingsEditorAspect;
+  }
+
+  private DateTimeZone_Editor getDateTimeZoneEditorAspect() {
+    if (myDateTimeZoneEditorAspect == null) {
+      myDateTimeZoneEditorAspect = new DateTimeZone_Editor();
+    }
+    return myDateTimeZoneEditorAspect;
+  }
+
+  private DateTimeZonePropertyFormatConfiguration_Editor getDateTimeZonePropertyFormatConfigurationEditorAspect() {
+    if (myDateTimeZonePropertyFormatConfigurationEditorAspect == null) {
+      myDateTimeZonePropertyFormatConfigurationEditorAspect = new DateTimeZonePropertyFormatConfiguration_Editor();
+    }
+    return myDateTimeZonePropertyFormatConfigurationEditorAspect;
+  }
+
+  private DurationType_Editor getDurationTypeEditorAspect() {
+    if (myDurationTypeEditorAspect == null) {
+      myDurationTypeEditorAspect = new DurationType_Editor();
+    }
+    return myDurationTypeEditorAspect;
+  }
+
+  private FormatTokenSettings_Editor getFormatTokenSettingsEditorAspect() {
+    if (myFormatTokenSettingsEditorAspect == null) {
+      myFormatTokenSettingsEditorAspect = new FormatTokenSettings_Editor();
+    }
+    return myFormatTokenSettingsEditorAspect;
+  }
+
+  private Locale_Editor getLocaleEditorAspect() {
+    if (myLocaleEditorAspect == null) {
+      myLocaleEditorAspect = new Locale_Editor();
+    }
+    return myLocaleEditorAspect;
+  }
+
+  private Month_Editor getMonthEditorAspect() {
+    if (myMonthEditorAspect == null) {
+      myMonthEditorAspect = new Month_Editor();
+    }
+    return myMonthEditorAspect;
+  }
+
+  private PredefinedDateFormat_Editor getPredefinedDateFormatEditorAspect() {
+    if (myPredefinedDateFormatEditorAspect == null) {
+      myPredefinedDateFormatEditorAspect = new PredefinedDateFormat_Editor();
+    }
+    return myPredefinedDateFormatEditorAspect;
+  }
+
+  private PredefinedPeriodFormat_Editor getPredefinedPeriodFormatEditorAspect() {
+    if (myPredefinedPeriodFormatEditorAspect == null) {
+      myPredefinedPeriodFormatEditorAspect = new PredefinedPeriodFormat_Editor();
+    }
+    return myPredefinedPeriodFormatEditorAspect;
+  }
+
+  private SchedulePeriod_Editor getSchedulePeriodEditorAspect() {
+    if (mySchedulePeriodEditorAspect == null) {
+      mySchedulePeriodEditorAspect = new SchedulePeriod_Editor();
+    }
+    return mySchedulePeriodEditorAspect;
+  }
+
+  private static String[] stringSwitchCases_xbvbvu_a0a0o = new String[]{"jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeIntPropertyFormatConfiguration", "jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeProperty", "jetbrains.mps.baseLanguage.datesInternal.structure.DateTimePropertyCardinality", "jetbrains.mps.baseLanguage.datesInternal.structure.DateTimePropertyFormatType", "jetbrains.mps.baseLanguage.datesInternal.structure.DateTimePropertySettings", "jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeZone", "jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeZonePropertyFormatConfiguration", "jetbrains.mps.baseLanguage.datesInternal.structure.DurationType", "jetbrains.mps.baseLanguage.datesInternal.structure.FormatTokenSettings", "jetbrains.mps.baseLanguage.datesInternal.structure.Locale", "jetbrains.mps.baseLanguage.datesInternal.structure.Month", "jetbrains.mps.baseLanguage.datesInternal.structure.PredefinedDateFormat", "jetbrains.mps.baseLanguage.datesInternal.structure.PredefinedPeriodFormat", "jetbrains.mps.baseLanguage.datesInternal.structure.SchedulePeriod"};
 }

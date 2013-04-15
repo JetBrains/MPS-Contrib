@@ -8,28 +8,108 @@ import jetbrains.mps.smodel.runtime.ConceptDescriptor;
 import java.util.Arrays;
 
 public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
+  private Attribute_Editor myAttributeEditorAspect;
+  private AttributeDeclaration_Editor myAttributeDeclarationEditorAspect;
+  private BuiltInTaskDeclaration_Editor myBuiltInTaskDeclarationEditorAspect;
+  private NestedDeclaration_Editor myNestedDeclarationEditorAspect;
+  private PathReference_Editor myPathReferenceEditorAspect;
+  private TaskCall_Editor myTaskCallEditorAspect;
+  private TaskInterfaceDeclaration_Editor myTaskInterfaceDeclarationEditorAspect;
+  private TaskReference_Editor myTaskReferenceEditorAspect;
+
   public EditorAspect getAspect(ConceptDescriptor descriptor) {
-    switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0a, descriptor.getConceptFqName())) {
+    switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0i, descriptor.getConceptFqName())) {
       case 0:
-        return new Attribute_Editor();
+        return getAttributeEditorAspect();
       case 1:
-        return new AttributeDeclaration_Editor();
+        return getAttributeDeclarationEditorAspect();
       case 2:
-        return new BuiltInTaskDeclaration_Editor();
+        return getBuiltInTaskDeclarationEditorAspect();
       case 3:
-        return new NestedDeclaration_Editor();
+        return getNestedDeclarationEditorAspect();
       case 4:
-        return new PathReference_Editor();
+        return getPathReferenceEditorAspect();
       case 5:
-        return new TaskCall_Editor();
+        return getTaskCallEditorAspect();
       case 6:
-        return new TaskInterfaceDeclaration_Editor();
+        return getTaskInterfaceDeclarationEditorAspect();
       case 7:
-        return new TaskReference_Editor();
+        return getTaskReferenceEditorAspect();
       default:
     }
     return null;
   }
 
-  private static String[] stringSwitchCases_xbvbvu_a0a0a = new String[]{"jetbrains.mps.build.generictasks.structure.Attribute", "jetbrains.mps.build.generictasks.structure.AttributeDeclaration", "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration", "jetbrains.mps.build.generictasks.structure.NestedDeclaration", "jetbrains.mps.build.generictasks.structure.PathReference", "jetbrains.mps.build.generictasks.structure.TaskCall", "jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration", "jetbrains.mps.build.generictasks.structure.TaskReference"};
+  public void initialize() {
+    // Register editor extensions here 
+  }
+
+  public void deinitialize() {
+    myAttributeEditorAspect = null;
+    myAttributeDeclarationEditorAspect = null;
+    myBuiltInTaskDeclarationEditorAspect = null;
+    myNestedDeclarationEditorAspect = null;
+    myPathReferenceEditorAspect = null;
+    myTaskCallEditorAspect = null;
+    myTaskInterfaceDeclarationEditorAspect = null;
+    myTaskReferenceEditorAspect = null;
+  }
+
+  private Attribute_Editor getAttributeEditorAspect() {
+    if (myAttributeEditorAspect == null) {
+      myAttributeEditorAspect = new Attribute_Editor();
+    }
+    return myAttributeEditorAspect;
+  }
+
+  private AttributeDeclaration_Editor getAttributeDeclarationEditorAspect() {
+    if (myAttributeDeclarationEditorAspect == null) {
+      myAttributeDeclarationEditorAspect = new AttributeDeclaration_Editor();
+    }
+    return myAttributeDeclarationEditorAspect;
+  }
+
+  private BuiltInTaskDeclaration_Editor getBuiltInTaskDeclarationEditorAspect() {
+    if (myBuiltInTaskDeclarationEditorAspect == null) {
+      myBuiltInTaskDeclarationEditorAspect = new BuiltInTaskDeclaration_Editor();
+    }
+    return myBuiltInTaskDeclarationEditorAspect;
+  }
+
+  private NestedDeclaration_Editor getNestedDeclarationEditorAspect() {
+    if (myNestedDeclarationEditorAspect == null) {
+      myNestedDeclarationEditorAspect = new NestedDeclaration_Editor();
+    }
+    return myNestedDeclarationEditorAspect;
+  }
+
+  private PathReference_Editor getPathReferenceEditorAspect() {
+    if (myPathReferenceEditorAspect == null) {
+      myPathReferenceEditorAspect = new PathReference_Editor();
+    }
+    return myPathReferenceEditorAspect;
+  }
+
+  private TaskCall_Editor getTaskCallEditorAspect() {
+    if (myTaskCallEditorAspect == null) {
+      myTaskCallEditorAspect = new TaskCall_Editor();
+    }
+    return myTaskCallEditorAspect;
+  }
+
+  private TaskInterfaceDeclaration_Editor getTaskInterfaceDeclarationEditorAspect() {
+    if (myTaskInterfaceDeclarationEditorAspect == null) {
+      myTaskInterfaceDeclarationEditorAspect = new TaskInterfaceDeclaration_Editor();
+    }
+    return myTaskInterfaceDeclarationEditorAspect;
+  }
+
+  private TaskReference_Editor getTaskReferenceEditorAspect() {
+    if (myTaskReferenceEditorAspect == null) {
+      myTaskReferenceEditorAspect = new TaskReference_Editor();
+    }
+    return myTaskReferenceEditorAspect;
+  }
+
+  private static String[] stringSwitchCases_xbvbvu_a0a0i = new String[]{"jetbrains.mps.build.generictasks.structure.Attribute", "jetbrains.mps.build.generictasks.structure.AttributeDeclaration", "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration", "jetbrains.mps.build.generictasks.structure.NestedDeclaration", "jetbrains.mps.build.generictasks.structure.PathReference", "jetbrains.mps.build.generictasks.structure.TaskCall", "jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration", "jetbrains.mps.build.generictasks.structure.TaskReference"};
 }

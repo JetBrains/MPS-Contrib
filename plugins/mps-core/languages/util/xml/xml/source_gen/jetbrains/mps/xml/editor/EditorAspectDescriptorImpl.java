@@ -8,32 +8,130 @@ import jetbrains.mps.smodel.runtime.ConceptDescriptor;
 import java.util.Arrays;
 
 public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
+  private Attribute_Editor myAttributeEditorAspect;
+  private BaseAttribute_Editor myBaseAttributeEditorAspect;
+  private BaseText_Editor myBaseTextEditorAspect;
+  private CDATA_Editor myCDATAEditorAspect;
+  private ComplexText_Editor myComplexTextEditorAspect;
+  private Content_Editor myContentEditorAspect;
+  private ContentList_Editor myContentListEditorAspect;
+  private Element_Editor myElementEditorAspect;
+  private EntityReference_Editor myEntityReferenceEditorAspect;
+  private Text_Editor myTextEditorAspect;
+
   public EditorAspect getAspect(ConceptDescriptor descriptor) {
-    switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0a, descriptor.getConceptFqName())) {
+    switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0k, descriptor.getConceptFqName())) {
       case 0:
-        return new Attribute_Editor();
+        return getAttributeEditorAspect();
       case 1:
-        return new BaseAttribute_Editor();
+        return getBaseAttributeEditorAspect();
       case 2:
-        return new BaseText_Editor();
+        return getBaseTextEditorAspect();
       case 3:
-        return new CDATA_Editor();
+        return getCDATAEditorAspect();
       case 4:
-        return new ComplexText_Editor();
+        return getComplexTextEditorAspect();
       case 5:
-        return new Content_Editor();
+        return getContentEditorAspect();
       case 6:
-        return new ContentList_Editor();
+        return getContentListEditorAspect();
       case 7:
-        return new Element_Editor();
+        return getElementEditorAspect();
       case 8:
-        return new EntityReference_Editor();
+        return getEntityReferenceEditorAspect();
       case 9:
-        return new Text_Editor();
+        return getTextEditorAspect();
       default:
     }
     return null;
   }
 
-  private static String[] stringSwitchCases_xbvbvu_a0a0a = new String[]{"jetbrains.mps.xml.structure.Attribute", "jetbrains.mps.xml.structure.BaseAttribute", "jetbrains.mps.xml.structure.BaseText", "jetbrains.mps.xml.structure.CDATA", "jetbrains.mps.xml.structure.ComplexText", "jetbrains.mps.xml.structure.Content", "jetbrains.mps.xml.structure.ContentList", "jetbrains.mps.xml.structure.Element", "jetbrains.mps.xml.structure.EntityReference", "jetbrains.mps.xml.structure.Text"};
+  public void initialize() {
+    // Register editor extensions here 
+  }
+
+  public void deinitialize() {
+    myAttributeEditorAspect = null;
+    myBaseAttributeEditorAspect = null;
+    myBaseTextEditorAspect = null;
+    myCDATAEditorAspect = null;
+    myComplexTextEditorAspect = null;
+    myContentEditorAspect = null;
+    myContentListEditorAspect = null;
+    myElementEditorAspect = null;
+    myEntityReferenceEditorAspect = null;
+    myTextEditorAspect = null;
+  }
+
+  private Attribute_Editor getAttributeEditorAspect() {
+    if (myAttributeEditorAspect == null) {
+      myAttributeEditorAspect = new Attribute_Editor();
+    }
+    return myAttributeEditorAspect;
+  }
+
+  private BaseAttribute_Editor getBaseAttributeEditorAspect() {
+    if (myBaseAttributeEditorAspect == null) {
+      myBaseAttributeEditorAspect = new BaseAttribute_Editor();
+    }
+    return myBaseAttributeEditorAspect;
+  }
+
+  private BaseText_Editor getBaseTextEditorAspect() {
+    if (myBaseTextEditorAspect == null) {
+      myBaseTextEditorAspect = new BaseText_Editor();
+    }
+    return myBaseTextEditorAspect;
+  }
+
+  private CDATA_Editor getCDATAEditorAspect() {
+    if (myCDATAEditorAspect == null) {
+      myCDATAEditorAspect = new CDATA_Editor();
+    }
+    return myCDATAEditorAspect;
+  }
+
+  private ComplexText_Editor getComplexTextEditorAspect() {
+    if (myComplexTextEditorAspect == null) {
+      myComplexTextEditorAspect = new ComplexText_Editor();
+    }
+    return myComplexTextEditorAspect;
+  }
+
+  private Content_Editor getContentEditorAspect() {
+    if (myContentEditorAspect == null) {
+      myContentEditorAspect = new Content_Editor();
+    }
+    return myContentEditorAspect;
+  }
+
+  private ContentList_Editor getContentListEditorAspect() {
+    if (myContentListEditorAspect == null) {
+      myContentListEditorAspect = new ContentList_Editor();
+    }
+    return myContentListEditorAspect;
+  }
+
+  private Element_Editor getElementEditorAspect() {
+    if (myElementEditorAspect == null) {
+      myElementEditorAspect = new Element_Editor();
+    }
+    return myElementEditorAspect;
+  }
+
+  private EntityReference_Editor getEntityReferenceEditorAspect() {
+    if (myEntityReferenceEditorAspect == null) {
+      myEntityReferenceEditorAspect = new EntityReference_Editor();
+    }
+    return myEntityReferenceEditorAspect;
+  }
+
+  private Text_Editor getTextEditorAspect() {
+    if (myTextEditorAspect == null) {
+      myTextEditorAspect = new Text_Editor();
+    }
+    return myTextEditorAspect;
+  }
+
+  private static String[] stringSwitchCases_xbvbvu_a0a0k = new String[]{"jetbrains.mps.xml.structure.Attribute", "jetbrains.mps.xml.structure.BaseAttribute", "jetbrains.mps.xml.structure.BaseText", "jetbrains.mps.xml.structure.CDATA", "jetbrains.mps.xml.structure.ComplexText", "jetbrains.mps.xml.structure.Content", "jetbrains.mps.xml.structure.ContentList", "jetbrains.mps.xml.structure.Element", "jetbrains.mps.xml.structure.EntityReference", "jetbrains.mps.xml.structure.Text"};
 }

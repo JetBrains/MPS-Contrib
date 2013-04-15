@@ -8,28 +8,108 @@ import jetbrains.mps.smodel.runtime.ConceptDescriptor;
 import java.util.Arrays;
 
 public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
+  private AssertXMLEquals_Editor myAssertXMLEqualsEditorAspect;
+  private Attribute_Editor myAttributeEditorAspect;
+  private Document_Editor myDocumentEditorAspect;
+  private Element_Editor myElementEditorAspect;
+  private ElementPart_Editor myElementPartEditorAspect;
+  private Text_Editor myTextEditorAspect;
+  private XMLLiteral_Editor myXMLLiteralEditorAspect;
+  private XMLStringLiteral_Editor myXMLStringLiteralEditorAspect;
+
   public EditorAspect getAspect(ConceptDescriptor descriptor) {
-    switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0a, descriptor.getConceptFqName())) {
+    switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0i, descriptor.getConceptFqName())) {
       case 0:
-        return new AssertXMLEquals_Editor();
+        return getAssertXMLEqualsEditorAspect();
       case 1:
-        return new Attribute_Editor();
+        return getAttributeEditorAspect();
       case 2:
-        return new Document_Editor();
+        return getDocumentEditorAspect();
       case 3:
-        return new Element_Editor();
+        return getElementEditorAspect();
       case 4:
-        return new ElementPart_Editor();
+        return getElementPartEditorAspect();
       case 5:
-        return new Text_Editor();
+        return getTextEditorAspect();
       case 6:
-        return new XMLLiteral_Editor();
+        return getXMLLiteralEditorAspect();
       case 7:
-        return new XMLStringLiteral_Editor();
+        return getXMLStringLiteralEditorAspect();
       default:
     }
     return null;
   }
 
-  private static String[] stringSwitchCases_xbvbvu_a0a0a = new String[]{"jetbrains.mps.xmlUnitTest.structure.AssertXMLEquals", "jetbrains.mps.xmlUnitTest.structure.Attribute", "jetbrains.mps.xmlUnitTest.structure.Document", "jetbrains.mps.xmlUnitTest.structure.Element", "jetbrains.mps.xmlUnitTest.structure.ElementPart", "jetbrains.mps.xmlUnitTest.structure.Text", "jetbrains.mps.xmlUnitTest.structure.XMLLiteral", "jetbrains.mps.xmlUnitTest.structure.XMLStringLiteral"};
+  public void initialize() {
+    // Register editor extensions here 
+  }
+
+  public void deinitialize() {
+    myAssertXMLEqualsEditorAspect = null;
+    myAttributeEditorAspect = null;
+    myDocumentEditorAspect = null;
+    myElementEditorAspect = null;
+    myElementPartEditorAspect = null;
+    myTextEditorAspect = null;
+    myXMLLiteralEditorAspect = null;
+    myXMLStringLiteralEditorAspect = null;
+  }
+
+  private AssertXMLEquals_Editor getAssertXMLEqualsEditorAspect() {
+    if (myAssertXMLEqualsEditorAspect == null) {
+      myAssertXMLEqualsEditorAspect = new AssertXMLEquals_Editor();
+    }
+    return myAssertXMLEqualsEditorAspect;
+  }
+
+  private Attribute_Editor getAttributeEditorAspect() {
+    if (myAttributeEditorAspect == null) {
+      myAttributeEditorAspect = new Attribute_Editor();
+    }
+    return myAttributeEditorAspect;
+  }
+
+  private Document_Editor getDocumentEditorAspect() {
+    if (myDocumentEditorAspect == null) {
+      myDocumentEditorAspect = new Document_Editor();
+    }
+    return myDocumentEditorAspect;
+  }
+
+  private Element_Editor getElementEditorAspect() {
+    if (myElementEditorAspect == null) {
+      myElementEditorAspect = new Element_Editor();
+    }
+    return myElementEditorAspect;
+  }
+
+  private ElementPart_Editor getElementPartEditorAspect() {
+    if (myElementPartEditorAspect == null) {
+      myElementPartEditorAspect = new ElementPart_Editor();
+    }
+    return myElementPartEditorAspect;
+  }
+
+  private Text_Editor getTextEditorAspect() {
+    if (myTextEditorAspect == null) {
+      myTextEditorAspect = new Text_Editor();
+    }
+    return myTextEditorAspect;
+  }
+
+  private XMLLiteral_Editor getXMLLiteralEditorAspect() {
+    if (myXMLLiteralEditorAspect == null) {
+      myXMLLiteralEditorAspect = new XMLLiteral_Editor();
+    }
+    return myXMLLiteralEditorAspect;
+  }
+
+  private XMLStringLiteral_Editor getXMLStringLiteralEditorAspect() {
+    if (myXMLStringLiteralEditorAspect == null) {
+      myXMLStringLiteralEditorAspect = new XMLStringLiteral_Editor();
+    }
+    return myXMLStringLiteralEditorAspect;
+  }
+
+  private static String[] stringSwitchCases_xbvbvu_a0a0i = new String[]{"jetbrains.mps.xmlUnitTest.structure.AssertXMLEquals", "jetbrains.mps.xmlUnitTest.structure.Attribute", "jetbrains.mps.xmlUnitTest.structure.Document", "jetbrains.mps.xmlUnitTest.structure.Element", "jetbrains.mps.xmlUnitTest.structure.ElementPart", "jetbrains.mps.xmlUnitTest.structure.Text", "jetbrains.mps.xmlUnitTest.structure.XMLLiteral", "jetbrains.mps.xmlUnitTest.structure.XMLStringLiteral"};
 }

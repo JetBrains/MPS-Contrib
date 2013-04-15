@@ -8,26 +8,97 @@ import jetbrains.mps.smodel.runtime.ConceptDescriptor;
 import java.util.Arrays;
 
 public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
+  private Attribute_Editor myAttributeEditorAspect;
+  private Document_Editor myDocumentEditorAspect;
+  private DocumentTypeDeclaration_Editor myDocumentTypeDeclarationEditorAspect;
+  private Element_Editor myElementEditorAspect;
+  private ElementPart_Editor myElementPartEditorAspect;
+  private PublicId_Editor myPublicIdEditorAspect;
+  private Text_Editor myTextEditorAspect;
+
   public EditorAspect getAspect(ConceptDescriptor descriptor) {
-    switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0a, descriptor.getConceptFqName())) {
+    switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0h, descriptor.getConceptFqName())) {
       case 0:
-        return new Attribute_Editor();
+        return getAttributeEditorAspect();
       case 1:
-        return new Document_Editor();
+        return getDocumentEditorAspect();
       case 2:
-        return new DocumentTypeDeclaration_Editor();
+        return getDocumentTypeDeclarationEditorAspect();
       case 3:
-        return new Element_Editor();
+        return getElementEditorAspect();
       case 4:
-        return new ElementPart_Editor();
+        return getElementPartEditorAspect();
       case 5:
-        return new PublicId_Editor();
+        return getPublicIdEditorAspect();
       case 6:
-        return new Text_Editor();
+        return getTextEditorAspect();
       default:
     }
     return null;
   }
 
-  private static String[] stringSwitchCases_xbvbvu_a0a0a = new String[]{"jetbrains.mps.xml.deprecated.structure.Attribute", "jetbrains.mps.xml.deprecated.structure.Document", "jetbrains.mps.xml.deprecated.structure.DocumentTypeDeclaration", "jetbrains.mps.xml.deprecated.structure.Element", "jetbrains.mps.xml.deprecated.structure.ElementPart", "jetbrains.mps.xml.deprecated.structure.PublicId", "jetbrains.mps.xml.deprecated.structure.Text"};
+  public void initialize() {
+    // Register editor extensions here 
+  }
+
+  public void deinitialize() {
+    myAttributeEditorAspect = null;
+    myDocumentEditorAspect = null;
+    myDocumentTypeDeclarationEditorAspect = null;
+    myElementEditorAspect = null;
+    myElementPartEditorAspect = null;
+    myPublicIdEditorAspect = null;
+    myTextEditorAspect = null;
+  }
+
+  private Attribute_Editor getAttributeEditorAspect() {
+    if (myAttributeEditorAspect == null) {
+      myAttributeEditorAspect = new Attribute_Editor();
+    }
+    return myAttributeEditorAspect;
+  }
+
+  private Document_Editor getDocumentEditorAspect() {
+    if (myDocumentEditorAspect == null) {
+      myDocumentEditorAspect = new Document_Editor();
+    }
+    return myDocumentEditorAspect;
+  }
+
+  private DocumentTypeDeclaration_Editor getDocumentTypeDeclarationEditorAspect() {
+    if (myDocumentTypeDeclarationEditorAspect == null) {
+      myDocumentTypeDeclarationEditorAspect = new DocumentTypeDeclaration_Editor();
+    }
+    return myDocumentTypeDeclarationEditorAspect;
+  }
+
+  private Element_Editor getElementEditorAspect() {
+    if (myElementEditorAspect == null) {
+      myElementEditorAspect = new Element_Editor();
+    }
+    return myElementEditorAspect;
+  }
+
+  private ElementPart_Editor getElementPartEditorAspect() {
+    if (myElementPartEditorAspect == null) {
+      myElementPartEditorAspect = new ElementPart_Editor();
+    }
+    return myElementPartEditorAspect;
+  }
+
+  private PublicId_Editor getPublicIdEditorAspect() {
+    if (myPublicIdEditorAspect == null) {
+      myPublicIdEditorAspect = new PublicId_Editor();
+    }
+    return myPublicIdEditorAspect;
+  }
+
+  private Text_Editor getTextEditorAspect() {
+    if (myTextEditorAspect == null) {
+      myTextEditorAspect = new Text_Editor();
+    }
+    return myTextEditorAspect;
+  }
+
+  private static String[] stringSwitchCases_xbvbvu_a0a0h = new String[]{"jetbrains.mps.xml.deprecated.structure.Attribute", "jetbrains.mps.xml.deprecated.structure.Document", "jetbrains.mps.xml.deprecated.structure.DocumentTypeDeclaration", "jetbrains.mps.xml.deprecated.structure.Element", "jetbrains.mps.xml.deprecated.structure.ElementPart", "jetbrains.mps.xml.deprecated.structure.PublicId", "jetbrains.mps.xml.deprecated.structure.Text"};
 }

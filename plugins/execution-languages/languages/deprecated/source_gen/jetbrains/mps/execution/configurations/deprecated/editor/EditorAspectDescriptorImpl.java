@@ -8,76 +8,372 @@ import jetbrains.mps.smodel.runtime.ConceptDescriptor;
 import java.util.Arrays;
 
 public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
+  private ActionListStatement_Editor myActionListStatementEditorAspect;
+  private ActionsStatement_Editor myActionsStatementEditorAspect;
+  private ComponentReference_Editor myComponentReferenceEditorAspect;
+  private ConfigurationEditorDeclaration_Editor myConfigurationEditorDeclarationEditorAspect;
+  private ConsoleExpression_Editor myConsoleExpressionEditorAspect;
+  private ConsoleType_Editor myConsoleTypeEditorAspect;
+  private CreateRunConfigStatement_Editor myCreateRunConfigStatementEditorAspect;
+  private DisposeConsoleBlock_Editor myDisposeConsoleBlockEditorAspect;
+  private ExecuteParameterQuery_Editor myExecuteParameterQueryEditorAspect;
+  private ExecutionConsoleStatement_Editor myExecutionConsoleStatementEditorAspect;
+  private GetUserDataExpression_Editor myGetUserDataExpressionEditorAspect;
+  private IRunConfigPropertyInstance_Editor myIRunConfigPropertyInstanceEditorAspect;
+  private JavaNodeConfigurationEditorDeclaration_Editor myJavaNodeConfigurationEditorDeclarationEditorAspect;
+  private JavaNodeRunConfiguration_Editor myJavaNodeRunConfigurationEditorAspect;
+  private JavaRunConfiguration_Editor myJavaRunConfigurationEditorAspect;
+  private ModelCreatorTarget_Editor myModelCreatorTargetEditorAspect;
+  private ModuleCreatorTarget_Editor myModuleCreatorTargetEditorAspect;
+  private NodeCreatorTarget_Editor myNodeCreatorTargetEditorAspect;
+  private NodesCreatorTarget_Editor myNodesCreatorTargetEditorAspect;
+  private ParametrizedExecuteBlock_Editor myParametrizedExecuteBlockEditorAspect;
+  private PrepareConceptFunction_Editor myPrepareConceptFunctionEditorAspect;
+  private ProcessStatement_Editor myProcessStatementEditorAspect;
+  private ProjectCreatorTarget_Editor myProjectCreatorTargetEditorAspect;
+  private ProjectExpression_Editor myProjectExpressionEditorAspect;
+  private ReportErrorStatement_Editor myReportErrorStatementEditorAspect;
+  private RunConfigExecutionParameterDeclaration_Editor myRunConfigExecutionParameterDeclarationEditorAspect;
+  private RunConfigMainNodeStatement_Editor myRunConfigMainNodeStatementEditorAspect;
+  private RunConfigParameterReferenceOperation_Editor myRunConfigParameterReferenceOperationEditorAspect;
+  private RunConfigType_Editor myRunConfigTypeEditorAspect;
+  private RunConfigurationDeclaration_Editor myRunConfigurationDeclarationEditorAspect;
+  private RunConfigurationTypeDeclaration_Editor myRunConfigurationTypeDeclarationEditorAspect;
+  private UniversalRunConfigCreator_Editor myUniversalRunConfigCreatorEditorAspect;
+
   public EditorAspect getAspect(ConceptDescriptor descriptor) {
-    switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0a, descriptor.getConceptFqName())) {
+    switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0gb, descriptor.getConceptFqName())) {
       case 0:
-        return new ActionListStatement_Editor();
+        return getActionListStatementEditorAspect();
       case 1:
-        return new ActionsStatement_Editor();
+        return getActionsStatementEditorAspect();
       case 2:
-        return new ComponentReference_Editor();
+        return getComponentReferenceEditorAspect();
       case 3:
-        return new ConfigurationEditorDeclaration_Editor();
+        return getConfigurationEditorDeclarationEditorAspect();
       case 4:
-        return new ConsoleExpression_Editor();
+        return getConsoleExpressionEditorAspect();
       case 5:
-        return new ConsoleType_Editor();
+        return getConsoleTypeEditorAspect();
       case 6:
-        return new CreateRunConfigStatement_Editor();
+        return getCreateRunConfigStatementEditorAspect();
       case 7:
-        return new DisposeConsoleBlock_Editor();
+        return getDisposeConsoleBlockEditorAspect();
       case 8:
-        return new ExecuteParameterQuery_Editor();
+        return getExecuteParameterQueryEditorAspect();
       case 9:
-        return new ExecutionConsoleStatement_Editor();
+        return getExecutionConsoleStatementEditorAspect();
       case 10:
-        return new GetUserDataExpression_Editor();
+        return getGetUserDataExpressionEditorAspect();
       case 11:
-        return new IRunConfigPropertyInstance_Editor();
+        return getIRunConfigPropertyInstanceEditorAspect();
       case 12:
-        return new JavaNodeConfigurationEditorDeclaration_Editor();
+        return getJavaNodeConfigurationEditorDeclarationEditorAspect();
       case 13:
-        return new JavaNodeRunConfiguration_Editor();
+        return getJavaNodeRunConfigurationEditorAspect();
       case 14:
-        return new JavaRunConfiguration_Editor();
+        return getJavaRunConfigurationEditorAspect();
       case 15:
-        return new ModelCreatorTarget_Editor();
+        return getModelCreatorTargetEditorAspect();
       case 16:
-        return new ModuleCreatorTarget_Editor();
+        return getModuleCreatorTargetEditorAspect();
       case 17:
-        return new NodeCreatorTarget_Editor();
+        return getNodeCreatorTargetEditorAspect();
       case 18:
-        return new NodesCreatorTarget_Editor();
+        return getNodesCreatorTargetEditorAspect();
       case 19:
-        return new ParametrizedExecuteBlock_Editor();
+        return getParametrizedExecuteBlockEditorAspect();
       case 20:
-        return new PrepareConceptFunction_Editor();
+        return getPrepareConceptFunctionEditorAspect();
       case 21:
-        return new ProcessStatement_Editor();
+        return getProcessStatementEditorAspect();
       case 22:
-        return new ProjectCreatorTarget_Editor();
+        return getProjectCreatorTargetEditorAspect();
       case 23:
-        return new ProjectExpression_Editor();
+        return getProjectExpressionEditorAspect();
       case 24:
-        return new ReportErrorStatement_Editor();
+        return getReportErrorStatementEditorAspect();
       case 25:
-        return new RunConfigExecutionParameterDeclaration_Editor();
+        return getRunConfigExecutionParameterDeclarationEditorAspect();
       case 26:
-        return new RunConfigMainNodeStatement_Editor();
+        return getRunConfigMainNodeStatementEditorAspect();
       case 27:
-        return new RunConfigParameterReferenceOperation_Editor();
+        return getRunConfigParameterReferenceOperationEditorAspect();
       case 28:
-        return new RunConfigType_Editor();
+        return getRunConfigTypeEditorAspect();
       case 29:
-        return new RunConfigurationDeclaration_Editor();
+        return getRunConfigurationDeclarationEditorAspect();
       case 30:
-        return new RunConfigurationTypeDeclaration_Editor();
+        return getRunConfigurationTypeDeclarationEditorAspect();
       case 31:
-        return new UniversalRunConfigCreator_Editor();
+        return getUniversalRunConfigCreatorEditorAspect();
       default:
     }
     return null;
   }
 
-  private static String[] stringSwitchCases_xbvbvu_a0a0a = new String[]{"jetbrains.mps.execution.configurations.deprecated.structure.ActionListStatement", "jetbrains.mps.execution.configurations.deprecated.structure.ActionsStatement", "jetbrains.mps.execution.configurations.deprecated.structure.ComponentReference", "jetbrains.mps.execution.configurations.deprecated.structure.ConfigurationEditorDeclaration", "jetbrains.mps.execution.configurations.deprecated.structure.ConsoleExpression", "jetbrains.mps.execution.configurations.deprecated.structure.ConsoleType", "jetbrains.mps.execution.configurations.deprecated.structure.CreateRunConfigStatement", "jetbrains.mps.execution.configurations.deprecated.structure.DisposeConsoleBlock", "jetbrains.mps.execution.configurations.deprecated.structure.ExecuteParameterQuery", "jetbrains.mps.execution.configurations.deprecated.structure.ExecutionConsoleStatement", "jetbrains.mps.execution.configurations.deprecated.structure.GetUserDataExpression", "jetbrains.mps.execution.configurations.deprecated.structure.IRunConfigPropertyInstance", "jetbrains.mps.execution.configurations.deprecated.structure.JavaNodeConfigurationEditorDeclaration", "jetbrains.mps.execution.configurations.deprecated.structure.JavaNodeRunConfiguration", "jetbrains.mps.execution.configurations.deprecated.structure.JavaRunConfiguration", "jetbrains.mps.execution.configurations.deprecated.structure.ModelCreatorTarget", "jetbrains.mps.execution.configurations.deprecated.structure.ModuleCreatorTarget", "jetbrains.mps.execution.configurations.deprecated.structure.NodeCreatorTarget", "jetbrains.mps.execution.configurations.deprecated.structure.NodesCreatorTarget", "jetbrains.mps.execution.configurations.deprecated.structure.ParametrizedExecuteBlock", "jetbrains.mps.execution.configurations.deprecated.structure.PrepareConceptFunction", "jetbrains.mps.execution.configurations.deprecated.structure.ProcessStatement", "jetbrains.mps.execution.configurations.deprecated.structure.ProjectCreatorTarget", "jetbrains.mps.execution.configurations.deprecated.structure.ProjectExpression", "jetbrains.mps.execution.configurations.deprecated.structure.ReportErrorStatement", "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigExecutionParameterDeclaration", "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigMainNodeStatement", "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigParameterReferenceOperation", "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigType", "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigurationDeclaration", "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigurationTypeDeclaration", "jetbrains.mps.execution.configurations.deprecated.structure.UniversalRunConfigCreator"};
+  public void initialize() {
+    // Register editor extensions here 
+  }
+
+  public void deinitialize() {
+    myActionListStatementEditorAspect = null;
+    myActionsStatementEditorAspect = null;
+    myComponentReferenceEditorAspect = null;
+    myConfigurationEditorDeclarationEditorAspect = null;
+    myConsoleExpressionEditorAspect = null;
+    myConsoleTypeEditorAspect = null;
+    myCreateRunConfigStatementEditorAspect = null;
+    myDisposeConsoleBlockEditorAspect = null;
+    myExecuteParameterQueryEditorAspect = null;
+    myExecutionConsoleStatementEditorAspect = null;
+    myGetUserDataExpressionEditorAspect = null;
+    myIRunConfigPropertyInstanceEditorAspect = null;
+    myJavaNodeConfigurationEditorDeclarationEditorAspect = null;
+    myJavaNodeRunConfigurationEditorAspect = null;
+    myJavaRunConfigurationEditorAspect = null;
+    myModelCreatorTargetEditorAspect = null;
+    myModuleCreatorTargetEditorAspect = null;
+    myNodeCreatorTargetEditorAspect = null;
+    myNodesCreatorTargetEditorAspect = null;
+    myParametrizedExecuteBlockEditorAspect = null;
+    myPrepareConceptFunctionEditorAspect = null;
+    myProcessStatementEditorAspect = null;
+    myProjectCreatorTargetEditorAspect = null;
+    myProjectExpressionEditorAspect = null;
+    myReportErrorStatementEditorAspect = null;
+    myRunConfigExecutionParameterDeclarationEditorAspect = null;
+    myRunConfigMainNodeStatementEditorAspect = null;
+    myRunConfigParameterReferenceOperationEditorAspect = null;
+    myRunConfigTypeEditorAspect = null;
+    myRunConfigurationDeclarationEditorAspect = null;
+    myRunConfigurationTypeDeclarationEditorAspect = null;
+    myUniversalRunConfigCreatorEditorAspect = null;
+  }
+
+  private ActionListStatement_Editor getActionListStatementEditorAspect() {
+    if (myActionListStatementEditorAspect == null) {
+      myActionListStatementEditorAspect = new ActionListStatement_Editor();
+    }
+    return myActionListStatementEditorAspect;
+  }
+
+  private ActionsStatement_Editor getActionsStatementEditorAspect() {
+    if (myActionsStatementEditorAspect == null) {
+      myActionsStatementEditorAspect = new ActionsStatement_Editor();
+    }
+    return myActionsStatementEditorAspect;
+  }
+
+  private ComponentReference_Editor getComponentReferenceEditorAspect() {
+    if (myComponentReferenceEditorAspect == null) {
+      myComponentReferenceEditorAspect = new ComponentReference_Editor();
+    }
+    return myComponentReferenceEditorAspect;
+  }
+
+  private ConfigurationEditorDeclaration_Editor getConfigurationEditorDeclarationEditorAspect() {
+    if (myConfigurationEditorDeclarationEditorAspect == null) {
+      myConfigurationEditorDeclarationEditorAspect = new ConfigurationEditorDeclaration_Editor();
+    }
+    return myConfigurationEditorDeclarationEditorAspect;
+  }
+
+  private ConsoleExpression_Editor getConsoleExpressionEditorAspect() {
+    if (myConsoleExpressionEditorAspect == null) {
+      myConsoleExpressionEditorAspect = new ConsoleExpression_Editor();
+    }
+    return myConsoleExpressionEditorAspect;
+  }
+
+  private ConsoleType_Editor getConsoleTypeEditorAspect() {
+    if (myConsoleTypeEditorAspect == null) {
+      myConsoleTypeEditorAspect = new ConsoleType_Editor();
+    }
+    return myConsoleTypeEditorAspect;
+  }
+
+  private CreateRunConfigStatement_Editor getCreateRunConfigStatementEditorAspect() {
+    if (myCreateRunConfigStatementEditorAspect == null) {
+      myCreateRunConfigStatementEditorAspect = new CreateRunConfigStatement_Editor();
+    }
+    return myCreateRunConfigStatementEditorAspect;
+  }
+
+  private DisposeConsoleBlock_Editor getDisposeConsoleBlockEditorAspect() {
+    if (myDisposeConsoleBlockEditorAspect == null) {
+      myDisposeConsoleBlockEditorAspect = new DisposeConsoleBlock_Editor();
+    }
+    return myDisposeConsoleBlockEditorAspect;
+  }
+
+  private ExecuteParameterQuery_Editor getExecuteParameterQueryEditorAspect() {
+    if (myExecuteParameterQueryEditorAspect == null) {
+      myExecuteParameterQueryEditorAspect = new ExecuteParameterQuery_Editor();
+    }
+    return myExecuteParameterQueryEditorAspect;
+  }
+
+  private ExecutionConsoleStatement_Editor getExecutionConsoleStatementEditorAspect() {
+    if (myExecutionConsoleStatementEditorAspect == null) {
+      myExecutionConsoleStatementEditorAspect = new ExecutionConsoleStatement_Editor();
+    }
+    return myExecutionConsoleStatementEditorAspect;
+  }
+
+  private GetUserDataExpression_Editor getGetUserDataExpressionEditorAspect() {
+    if (myGetUserDataExpressionEditorAspect == null) {
+      myGetUserDataExpressionEditorAspect = new GetUserDataExpression_Editor();
+    }
+    return myGetUserDataExpressionEditorAspect;
+  }
+
+  private IRunConfigPropertyInstance_Editor getIRunConfigPropertyInstanceEditorAspect() {
+    if (myIRunConfigPropertyInstanceEditorAspect == null) {
+      myIRunConfigPropertyInstanceEditorAspect = new IRunConfigPropertyInstance_Editor();
+    }
+    return myIRunConfigPropertyInstanceEditorAspect;
+  }
+
+  private JavaNodeConfigurationEditorDeclaration_Editor getJavaNodeConfigurationEditorDeclarationEditorAspect() {
+    if (myJavaNodeConfigurationEditorDeclarationEditorAspect == null) {
+      myJavaNodeConfigurationEditorDeclarationEditorAspect = new JavaNodeConfigurationEditorDeclaration_Editor();
+    }
+    return myJavaNodeConfigurationEditorDeclarationEditorAspect;
+  }
+
+  private JavaNodeRunConfiguration_Editor getJavaNodeRunConfigurationEditorAspect() {
+    if (myJavaNodeRunConfigurationEditorAspect == null) {
+      myJavaNodeRunConfigurationEditorAspect = new JavaNodeRunConfiguration_Editor();
+    }
+    return myJavaNodeRunConfigurationEditorAspect;
+  }
+
+  private JavaRunConfiguration_Editor getJavaRunConfigurationEditorAspect() {
+    if (myJavaRunConfigurationEditorAspect == null) {
+      myJavaRunConfigurationEditorAspect = new JavaRunConfiguration_Editor();
+    }
+    return myJavaRunConfigurationEditorAspect;
+  }
+
+  private ModelCreatorTarget_Editor getModelCreatorTargetEditorAspect() {
+    if (myModelCreatorTargetEditorAspect == null) {
+      myModelCreatorTargetEditorAspect = new ModelCreatorTarget_Editor();
+    }
+    return myModelCreatorTargetEditorAspect;
+  }
+
+  private ModuleCreatorTarget_Editor getModuleCreatorTargetEditorAspect() {
+    if (myModuleCreatorTargetEditorAspect == null) {
+      myModuleCreatorTargetEditorAspect = new ModuleCreatorTarget_Editor();
+    }
+    return myModuleCreatorTargetEditorAspect;
+  }
+
+  private NodeCreatorTarget_Editor getNodeCreatorTargetEditorAspect() {
+    if (myNodeCreatorTargetEditorAspect == null) {
+      myNodeCreatorTargetEditorAspect = new NodeCreatorTarget_Editor();
+    }
+    return myNodeCreatorTargetEditorAspect;
+  }
+
+  private NodesCreatorTarget_Editor getNodesCreatorTargetEditorAspect() {
+    if (myNodesCreatorTargetEditorAspect == null) {
+      myNodesCreatorTargetEditorAspect = new NodesCreatorTarget_Editor();
+    }
+    return myNodesCreatorTargetEditorAspect;
+  }
+
+  private ParametrizedExecuteBlock_Editor getParametrizedExecuteBlockEditorAspect() {
+    if (myParametrizedExecuteBlockEditorAspect == null) {
+      myParametrizedExecuteBlockEditorAspect = new ParametrizedExecuteBlock_Editor();
+    }
+    return myParametrizedExecuteBlockEditorAspect;
+  }
+
+  private PrepareConceptFunction_Editor getPrepareConceptFunctionEditorAspect() {
+    if (myPrepareConceptFunctionEditorAspect == null) {
+      myPrepareConceptFunctionEditorAspect = new PrepareConceptFunction_Editor();
+    }
+    return myPrepareConceptFunctionEditorAspect;
+  }
+
+  private ProcessStatement_Editor getProcessStatementEditorAspect() {
+    if (myProcessStatementEditorAspect == null) {
+      myProcessStatementEditorAspect = new ProcessStatement_Editor();
+    }
+    return myProcessStatementEditorAspect;
+  }
+
+  private ProjectCreatorTarget_Editor getProjectCreatorTargetEditorAspect() {
+    if (myProjectCreatorTargetEditorAspect == null) {
+      myProjectCreatorTargetEditorAspect = new ProjectCreatorTarget_Editor();
+    }
+    return myProjectCreatorTargetEditorAspect;
+  }
+
+  private ProjectExpression_Editor getProjectExpressionEditorAspect() {
+    if (myProjectExpressionEditorAspect == null) {
+      myProjectExpressionEditorAspect = new ProjectExpression_Editor();
+    }
+    return myProjectExpressionEditorAspect;
+  }
+
+  private ReportErrorStatement_Editor getReportErrorStatementEditorAspect() {
+    if (myReportErrorStatementEditorAspect == null) {
+      myReportErrorStatementEditorAspect = new ReportErrorStatement_Editor();
+    }
+    return myReportErrorStatementEditorAspect;
+  }
+
+  private RunConfigExecutionParameterDeclaration_Editor getRunConfigExecutionParameterDeclarationEditorAspect() {
+    if (myRunConfigExecutionParameterDeclarationEditorAspect == null) {
+      myRunConfigExecutionParameterDeclarationEditorAspect = new RunConfigExecutionParameterDeclaration_Editor();
+    }
+    return myRunConfigExecutionParameterDeclarationEditorAspect;
+  }
+
+  private RunConfigMainNodeStatement_Editor getRunConfigMainNodeStatementEditorAspect() {
+    if (myRunConfigMainNodeStatementEditorAspect == null) {
+      myRunConfigMainNodeStatementEditorAspect = new RunConfigMainNodeStatement_Editor();
+    }
+    return myRunConfigMainNodeStatementEditorAspect;
+  }
+
+  private RunConfigParameterReferenceOperation_Editor getRunConfigParameterReferenceOperationEditorAspect() {
+    if (myRunConfigParameterReferenceOperationEditorAspect == null) {
+      myRunConfigParameterReferenceOperationEditorAspect = new RunConfigParameterReferenceOperation_Editor();
+    }
+    return myRunConfigParameterReferenceOperationEditorAspect;
+  }
+
+  private RunConfigType_Editor getRunConfigTypeEditorAspect() {
+    if (myRunConfigTypeEditorAspect == null) {
+      myRunConfigTypeEditorAspect = new RunConfigType_Editor();
+    }
+    return myRunConfigTypeEditorAspect;
+  }
+
+  private RunConfigurationDeclaration_Editor getRunConfigurationDeclarationEditorAspect() {
+    if (myRunConfigurationDeclarationEditorAspect == null) {
+      myRunConfigurationDeclarationEditorAspect = new RunConfigurationDeclaration_Editor();
+    }
+    return myRunConfigurationDeclarationEditorAspect;
+  }
+
+  private RunConfigurationTypeDeclaration_Editor getRunConfigurationTypeDeclarationEditorAspect() {
+    if (myRunConfigurationTypeDeclarationEditorAspect == null) {
+      myRunConfigurationTypeDeclarationEditorAspect = new RunConfigurationTypeDeclaration_Editor();
+    }
+    return myRunConfigurationTypeDeclarationEditorAspect;
+  }
+
+  private UniversalRunConfigCreator_Editor getUniversalRunConfigCreatorEditorAspect() {
+    if (myUniversalRunConfigCreatorEditorAspect == null) {
+      myUniversalRunConfigCreatorEditorAspect = new UniversalRunConfigCreator_Editor();
+    }
+    return myUniversalRunConfigCreatorEditorAspect;
+  }
+
+  private static String[] stringSwitchCases_xbvbvu_a0a0gb = new String[]{"jetbrains.mps.execution.configurations.deprecated.structure.ActionListStatement", "jetbrains.mps.execution.configurations.deprecated.structure.ActionsStatement", "jetbrains.mps.execution.configurations.deprecated.structure.ComponentReference", "jetbrains.mps.execution.configurations.deprecated.structure.ConfigurationEditorDeclaration", "jetbrains.mps.execution.configurations.deprecated.structure.ConsoleExpression", "jetbrains.mps.execution.configurations.deprecated.structure.ConsoleType", "jetbrains.mps.execution.configurations.deprecated.structure.CreateRunConfigStatement", "jetbrains.mps.execution.configurations.deprecated.structure.DisposeConsoleBlock", "jetbrains.mps.execution.configurations.deprecated.structure.ExecuteParameterQuery", "jetbrains.mps.execution.configurations.deprecated.structure.ExecutionConsoleStatement", "jetbrains.mps.execution.configurations.deprecated.structure.GetUserDataExpression", "jetbrains.mps.execution.configurations.deprecated.structure.IRunConfigPropertyInstance", "jetbrains.mps.execution.configurations.deprecated.structure.JavaNodeConfigurationEditorDeclaration", "jetbrains.mps.execution.configurations.deprecated.structure.JavaNodeRunConfiguration", "jetbrains.mps.execution.configurations.deprecated.structure.JavaRunConfiguration", "jetbrains.mps.execution.configurations.deprecated.structure.ModelCreatorTarget", "jetbrains.mps.execution.configurations.deprecated.structure.ModuleCreatorTarget", "jetbrains.mps.execution.configurations.deprecated.structure.NodeCreatorTarget", "jetbrains.mps.execution.configurations.deprecated.structure.NodesCreatorTarget", "jetbrains.mps.execution.configurations.deprecated.structure.ParametrizedExecuteBlock", "jetbrains.mps.execution.configurations.deprecated.structure.PrepareConceptFunction", "jetbrains.mps.execution.configurations.deprecated.structure.ProcessStatement", "jetbrains.mps.execution.configurations.deprecated.structure.ProjectCreatorTarget", "jetbrains.mps.execution.configurations.deprecated.structure.ProjectExpression", "jetbrains.mps.execution.configurations.deprecated.structure.ReportErrorStatement", "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigExecutionParameterDeclaration", "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigMainNodeStatement", "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigParameterReferenceOperation", "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigType", "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigurationDeclaration", "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigurationTypeDeclaration", "jetbrains.mps.execution.configurations.deprecated.structure.UniversalRunConfigCreator"};
 }

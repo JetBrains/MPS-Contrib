@@ -8,124 +8,636 @@ import jetbrains.mps.smodel.runtime.ConceptDescriptor;
 import java.util.Arrays;
 
 public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
+  private AbsDateTimeMinusOperation_Editor myAbsDateTimeMinusOperationEditorAspect;
+  private AllTimeZonesConstant_Editor myAllTimeZonesConstantEditorAspect;
+  private ConditionalFormatToken_Editor myConditionalFormatTokenEditorAspect;
+  private ConstantTimeZoneRef_Editor myConstantTimeZoneRefEditorAspect;
+  private ConvertToDateTimeOperation_Editor myConvertToDateTimeOperationEditorAspect;
+  private ConvertToDurationOperation_Editor myConvertToDurationOperationEditorAspect;
+  private DateFormat_Editor myDateFormatEditorAspect;
+  private DateFormatsTable_Editor myDateFormatsTableEditorAspect;
+  private DateTimeCompareOperation_Editor myDateTimeCompareOperationEditorAspect;
+  private DateTimeMinusOperation_Editor myDateTimeMinusOperationEditorAspect;
+  private DateTimeMinusPeriodOperation_Editor myDateTimeMinusPeriodOperationEditorAspect;
+  private DateTimeOffsetFormatToken_Editor myDateTimeOffsetFormatTokenEditorAspect;
+  private DateTimeOperation_Editor myDateTimeOperationEditorAspect;
+  private DateTimePlusPeriodOperation_Editor myDateTimePlusPeriodOperationEditorAspect;
+  private DateTimePropertyFormatToken_Editor myDateTimePropertyFormatTokenEditorAspect;
+  private DateTimePropetyReferenceOperation_Editor myDateTimePropetyReferenceOperationEditorAspect;
+  private DateTimeWithPropertyOperation_Editor myDateTimeWithPropertyOperationEditorAspect;
+  private DateTimeZoneCreator_Editor myDateTimeZoneCreatorEditorAspect;
+  private DurationTypeReference_Editor myDurationTypeReferenceEditorAspect;
+  private FixedLocaleFormatToken_Editor myFixedLocaleFormatTokenEditorAspect;
+  private FormatDateTimeExpression_Editor myFormatDateTimeExpressionEditorAspect;
+  private FormatExpression_Editor myFormatExpressionEditorAspect;
+  private FormatPeriodExpression_Editor myFormatPeriodExpressionEditorAspect;
+  private FormatToken_Editor myFormatTokenEditorAspect;
+  private InTimezoneExpression_Editor myInTimezoneExpressionEditorAspect;
+  private InlineFormatDateTimeExpression_Editor myInlineFormatDateTimeExpressionEditorAspect;
+  private InlineFormatExpression_Editor myInlineFormatExpressionEditorAspect;
+  private LiteralFormatToken_Editor myLiteralFormatTokenEditorAspect;
+  private MathDateTimeOperation_Editor myMathDateTimeOperationEditorAspect;
+  private NeverExpression_Editor myNeverExpressionEditorAspect;
+  private NowExpression_Editor myNowExpressionEditorAspect;
+  private ParseDateTimeExpression_Editor myParseDateTimeExpressionEditorAspect;
+  private ParseExpression_Editor myParseExpressionEditorAspect;
+  private PeriodConstant_Editor myPeriodConstantEditorAspect;
+  private PeriodFormat_Editor myPeriodFormatEditorAspect;
+  private PeriodFormatsTable_Editor myPeriodFormatsTableEditorAspect;
+  private PeriodInPropertyExpression_Editor myPeriodInPropertyExpressionEditorAspect;
+  private PeriodInPropertyOperation_Editor myPeriodInPropertyOperationEditorAspect;
+  private PeriodLiteralFormatToken_Editor myPeriodLiteralFormatTokenEditorAspect;
+  private PeriodPropertyFormatToken_Editor myPeriodPropertyFormatTokenEditorAspect;
+  private PeriodReferenceFormatToken_Editor myPeriodReferenceFormatTokenEditorAspect;
+  private PeriodSeparatorFormatToken_Editor myPeriodSeparatorFormatTokenEditorAspect;
+  private ReferenceFormatToken_Editor myReferenceFormatTokenEditorAspect;
+  private RoundDateTimeOperation_Editor myRoundDateTimeOperationEditorAspect;
+  private ScheduleLiteral_Editor myScheduleLiteralEditorAspect;
+  private TimeConstant_Editor myTimeConstantEditorAspect;
+  private TimeZoneConstant_Editor myTimeZoneConstantEditorAspect;
+  private TimeZoneFromString_Editor myTimeZoneFromStringEditorAspect;
+  private TimeZoneIDExpression_Editor myTimeZoneIDExpressionEditorAspect;
+  private TimeZoneIdOperation_Editor myTimeZoneIdOperationEditorAspect;
+  private TimeZoneNameOperation_Editor myTimeZoneNameOperationEditorAspect;
+  private TimeZoneOffsetExpression_Editor myTimeZoneOffsetExpressionEditorAspect;
+  private TokenCondition_Editor myTokenConditionEditorAspect;
+  private TokenConditionalPair_Editor myTokenConditionalPairEditorAspect;
+  private UnaryDateTimeOperation_Editor myUnaryDateTimeOperationEditorAspect;
+  private WithPropertyCompareExpression_Editor myWithPropertyCompareExpressionEditorAspect;
+
   public EditorAspect getAspect(ConceptDescriptor descriptor) {
-    switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0a, descriptor.getConceptFqName())) {
+    switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0ec, descriptor.getConceptFqName())) {
       case 0:
-        return new AbsDateTimeMinusOperation_Editor();
+        return getAbsDateTimeMinusOperationEditorAspect();
       case 1:
-        return new AllTimeZonesConstant_Editor();
+        return getAllTimeZonesConstantEditorAspect();
       case 2:
-        return new ConditionalFormatToken_Editor();
+        return getConditionalFormatTokenEditorAspect();
       case 3:
-        return new ConstantTimeZoneRef_Editor();
+        return getConstantTimeZoneRefEditorAspect();
       case 4:
-        return new ConvertToDateTimeOperation_Editor();
+        return getConvertToDateTimeOperationEditorAspect();
       case 5:
-        return new ConvertToDurationOperation_Editor();
+        return getConvertToDurationOperationEditorAspect();
       case 6:
-        return new DateFormat_Editor();
+        return getDateFormatEditorAspect();
       case 7:
-        return new DateFormatsTable_Editor();
+        return getDateFormatsTableEditorAspect();
       case 8:
-        return new DateTimeCompareOperation_Editor();
+        return getDateTimeCompareOperationEditorAspect();
       case 9:
-        return new DateTimeMinusOperation_Editor();
+        return getDateTimeMinusOperationEditorAspect();
       case 10:
-        return new DateTimeMinusPeriodOperation_Editor();
+        return getDateTimeMinusPeriodOperationEditorAspect();
       case 11:
-        return new DateTimeOffsetFormatToken_Editor();
+        return getDateTimeOffsetFormatTokenEditorAspect();
       case 12:
-        return new DateTimeOperation_Editor();
+        return getDateTimeOperationEditorAspect();
       case 13:
-        return new DateTimePlusPeriodOperation_Editor();
+        return getDateTimePlusPeriodOperationEditorAspect();
       case 14:
-        return new DateTimePropertyFormatToken_Editor();
+        return getDateTimePropertyFormatTokenEditorAspect();
       case 15:
-        return new DateTimePropetyReferenceOperation_Editor();
+        return getDateTimePropetyReferenceOperationEditorAspect();
       case 16:
-        return new DateTimeWithPropertyOperation_Editor();
+        return getDateTimeWithPropertyOperationEditorAspect();
       case 17:
-        return new DateTimeZoneCreator_Editor();
+        return getDateTimeZoneCreatorEditorAspect();
       case 18:
-        return new DurationTypeReference_Editor();
+        return getDurationTypeReferenceEditorAspect();
       case 19:
-        return new FixedLocaleFormatToken_Editor();
+        return getFixedLocaleFormatTokenEditorAspect();
       case 20:
-        return new FormatDateTimeExpression_Editor();
+        return getFormatDateTimeExpressionEditorAspect();
       case 21:
-        return new FormatExpression_Editor();
+        return getFormatExpressionEditorAspect();
       case 22:
-        return new FormatPeriodExpression_Editor();
+        return getFormatPeriodExpressionEditorAspect();
       case 23:
-        return new FormatToken_Editor();
+        return getFormatTokenEditorAspect();
       case 24:
-        return new InTimezoneExpression_Editor();
+        return getInTimezoneExpressionEditorAspect();
       case 25:
-        return new InlineFormatDateTimeExpression_Editor();
+        return getInlineFormatDateTimeExpressionEditorAspect();
       case 26:
-        return new InlineFormatExpression_Editor();
+        return getInlineFormatExpressionEditorAspect();
       case 27:
-        return new LiteralFormatToken_Editor();
+        return getLiteralFormatTokenEditorAspect();
       case 28:
-        return new MathDateTimeOperation_Editor();
+        return getMathDateTimeOperationEditorAspect();
       case 29:
-        return new NeverExpression_Editor();
+        return getNeverExpressionEditorAspect();
       case 30:
-        return new NowExpression_Editor();
+        return getNowExpressionEditorAspect();
       case 31:
-        return new ParseDateTimeExpression_Editor();
+        return getParseDateTimeExpressionEditorAspect();
       case 32:
-        return new ParseExpression_Editor();
+        return getParseExpressionEditorAspect();
       case 33:
-        return new PeriodConstant_Editor();
+        return getPeriodConstantEditorAspect();
       case 34:
-        return new PeriodFormat_Editor();
+        return getPeriodFormatEditorAspect();
       case 35:
-        return new PeriodFormatsTable_Editor();
+        return getPeriodFormatsTableEditorAspect();
       case 36:
-        return new PeriodInPropertyExpression_Editor();
+        return getPeriodInPropertyExpressionEditorAspect();
       case 37:
-        return new PeriodInPropertyOperation_Editor();
+        return getPeriodInPropertyOperationEditorAspect();
       case 38:
-        return new PeriodLiteralFormatToken_Editor();
+        return getPeriodLiteralFormatTokenEditorAspect();
       case 39:
-        return new PeriodPropertyFormatToken_Editor();
+        return getPeriodPropertyFormatTokenEditorAspect();
       case 40:
-        return new PeriodReferenceFormatToken_Editor();
+        return getPeriodReferenceFormatTokenEditorAspect();
       case 41:
-        return new PeriodSeparatorFormatToken_Editor();
+        return getPeriodSeparatorFormatTokenEditorAspect();
       case 42:
-        return new ReferenceFormatToken_Editor();
+        return getReferenceFormatTokenEditorAspect();
       case 43:
-        return new RoundDateTimeOperation_Editor();
+        return getRoundDateTimeOperationEditorAspect();
       case 44:
-        return new ScheduleLiteral_Editor();
+        return getScheduleLiteralEditorAspect();
       case 45:
-        return new TimeConstant_Editor();
+        return getTimeConstantEditorAspect();
       case 46:
-        return new TimeZoneConstant_Editor();
+        return getTimeZoneConstantEditorAspect();
       case 47:
-        return new TimeZoneFromString_Editor();
+        return getTimeZoneFromStringEditorAspect();
       case 48:
-        return new TimeZoneIDExpression_Editor();
+        return getTimeZoneIDExpressionEditorAspect();
       case 49:
-        return new TimeZoneIdOperation_Editor();
+        return getTimeZoneIdOperationEditorAspect();
       case 50:
-        return new TimeZoneNameOperation_Editor();
+        return getTimeZoneNameOperationEditorAspect();
       case 51:
-        return new TimeZoneOffsetExpression_Editor();
+        return getTimeZoneOffsetExpressionEditorAspect();
       case 52:
-        return new TokenCondition_Editor();
+        return getTokenConditionEditorAspect();
       case 53:
-        return new TokenConditionalPair_Editor();
+        return getTokenConditionalPairEditorAspect();
       case 54:
-        return new UnaryDateTimeOperation_Editor();
+        return getUnaryDateTimeOperationEditorAspect();
       case 55:
-        return new WithPropertyCompareExpression_Editor();
+        return getWithPropertyCompareExpressionEditorAspect();
       default:
     }
     return null;
   }
 
-  private static String[] stringSwitchCases_xbvbvu_a0a0a = new String[]{"jetbrains.mps.baseLanguage.dates.structure.AbsDateTimeMinusOperation", "jetbrains.mps.baseLanguage.dates.structure.AllTimeZonesConstant", "jetbrains.mps.baseLanguage.dates.structure.ConditionalFormatToken", "jetbrains.mps.baseLanguage.dates.structure.ConstantTimeZoneRef", "jetbrains.mps.baseLanguage.dates.structure.ConvertToDateTimeOperation", "jetbrains.mps.baseLanguage.dates.structure.ConvertToDurationOperation", "jetbrains.mps.baseLanguage.dates.structure.DateFormat", "jetbrains.mps.baseLanguage.dates.structure.DateFormatsTable", "jetbrains.mps.baseLanguage.dates.structure.DateTimeCompareOperation", "jetbrains.mps.baseLanguage.dates.structure.DateTimeMinusOperation", "jetbrains.mps.baseLanguage.dates.structure.DateTimeMinusPeriodOperation", "jetbrains.mps.baseLanguage.dates.structure.DateTimeOffsetFormatToken", "jetbrains.mps.baseLanguage.dates.structure.DateTimeOperation", "jetbrains.mps.baseLanguage.dates.structure.DateTimePlusPeriodOperation", "jetbrains.mps.baseLanguage.dates.structure.DateTimePropertyFormatToken", "jetbrains.mps.baseLanguage.dates.structure.DateTimePropetyReferenceOperation", "jetbrains.mps.baseLanguage.dates.structure.DateTimeWithPropertyOperation", "jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneCreator", "jetbrains.mps.baseLanguage.dates.structure.DurationTypeReference", "jetbrains.mps.baseLanguage.dates.structure.FixedLocaleFormatToken", "jetbrains.mps.baseLanguage.dates.structure.FormatDateTimeExpression", "jetbrains.mps.baseLanguage.dates.structure.FormatExpression", "jetbrains.mps.baseLanguage.dates.structure.FormatPeriodExpression", "jetbrains.mps.baseLanguage.dates.structure.FormatToken", "jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression", "jetbrains.mps.baseLanguage.dates.structure.InlineFormatDateTimeExpression", "jetbrains.mps.baseLanguage.dates.structure.InlineFormatExpression", "jetbrains.mps.baseLanguage.dates.structure.LiteralFormatToken", "jetbrains.mps.baseLanguage.dates.structure.MathDateTimeOperation", "jetbrains.mps.baseLanguage.dates.structure.NeverExpression", "jetbrains.mps.baseLanguage.dates.structure.NowExpression", "jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression", "jetbrains.mps.baseLanguage.dates.structure.ParseExpression", "jetbrains.mps.baseLanguage.dates.structure.PeriodConstant", "jetbrains.mps.baseLanguage.dates.structure.PeriodFormat", "jetbrains.mps.baseLanguage.dates.structure.PeriodFormatsTable", "jetbrains.mps.baseLanguage.dates.structure.PeriodInPropertyExpression", "jetbrains.mps.baseLanguage.dates.structure.PeriodInPropertyOperation", "jetbrains.mps.baseLanguage.dates.structure.PeriodLiteralFormatToken", "jetbrains.mps.baseLanguage.dates.structure.PeriodPropertyFormatToken", "jetbrains.mps.baseLanguage.dates.structure.PeriodReferenceFormatToken", "jetbrains.mps.baseLanguage.dates.structure.PeriodSeparatorFormatToken", "jetbrains.mps.baseLanguage.dates.structure.ReferenceFormatToken", "jetbrains.mps.baseLanguage.dates.structure.RoundDateTimeOperation", "jetbrains.mps.baseLanguage.dates.structure.ScheduleLiteral", "jetbrains.mps.baseLanguage.dates.structure.TimeConstant", "jetbrains.mps.baseLanguage.dates.structure.TimeZoneConstant", "jetbrains.mps.baseLanguage.dates.structure.TimeZoneFromString", "jetbrains.mps.baseLanguage.dates.structure.TimeZoneIDExpression", "jetbrains.mps.baseLanguage.dates.structure.TimeZoneIdOperation", "jetbrains.mps.baseLanguage.dates.structure.TimeZoneNameOperation", "jetbrains.mps.baseLanguage.dates.structure.TimeZoneOffsetExpression", "jetbrains.mps.baseLanguage.dates.structure.TokenCondition", "jetbrains.mps.baseLanguage.dates.structure.TokenConditionalPair", "jetbrains.mps.baseLanguage.dates.structure.UnaryDateTimeOperation", "jetbrains.mps.baseLanguage.dates.structure.WithPropertyCompareExpression"};
+  public void initialize() {
+    // Register editor extensions here 
+  }
+
+  public void deinitialize() {
+    myAbsDateTimeMinusOperationEditorAspect = null;
+    myAllTimeZonesConstantEditorAspect = null;
+    myConditionalFormatTokenEditorAspect = null;
+    myConstantTimeZoneRefEditorAspect = null;
+    myConvertToDateTimeOperationEditorAspect = null;
+    myConvertToDurationOperationEditorAspect = null;
+    myDateFormatEditorAspect = null;
+    myDateFormatsTableEditorAspect = null;
+    myDateTimeCompareOperationEditorAspect = null;
+    myDateTimeMinusOperationEditorAspect = null;
+    myDateTimeMinusPeriodOperationEditorAspect = null;
+    myDateTimeOffsetFormatTokenEditorAspect = null;
+    myDateTimeOperationEditorAspect = null;
+    myDateTimePlusPeriodOperationEditorAspect = null;
+    myDateTimePropertyFormatTokenEditorAspect = null;
+    myDateTimePropetyReferenceOperationEditorAspect = null;
+    myDateTimeWithPropertyOperationEditorAspect = null;
+    myDateTimeZoneCreatorEditorAspect = null;
+    myDurationTypeReferenceEditorAspect = null;
+    myFixedLocaleFormatTokenEditorAspect = null;
+    myFormatDateTimeExpressionEditorAspect = null;
+    myFormatExpressionEditorAspect = null;
+    myFormatPeriodExpressionEditorAspect = null;
+    myFormatTokenEditorAspect = null;
+    myInTimezoneExpressionEditorAspect = null;
+    myInlineFormatDateTimeExpressionEditorAspect = null;
+    myInlineFormatExpressionEditorAspect = null;
+    myLiteralFormatTokenEditorAspect = null;
+    myMathDateTimeOperationEditorAspect = null;
+    myNeverExpressionEditorAspect = null;
+    myNowExpressionEditorAspect = null;
+    myParseDateTimeExpressionEditorAspect = null;
+    myParseExpressionEditorAspect = null;
+    myPeriodConstantEditorAspect = null;
+    myPeriodFormatEditorAspect = null;
+    myPeriodFormatsTableEditorAspect = null;
+    myPeriodInPropertyExpressionEditorAspect = null;
+    myPeriodInPropertyOperationEditorAspect = null;
+    myPeriodLiteralFormatTokenEditorAspect = null;
+    myPeriodPropertyFormatTokenEditorAspect = null;
+    myPeriodReferenceFormatTokenEditorAspect = null;
+    myPeriodSeparatorFormatTokenEditorAspect = null;
+    myReferenceFormatTokenEditorAspect = null;
+    myRoundDateTimeOperationEditorAspect = null;
+    myScheduleLiteralEditorAspect = null;
+    myTimeConstantEditorAspect = null;
+    myTimeZoneConstantEditorAspect = null;
+    myTimeZoneFromStringEditorAspect = null;
+    myTimeZoneIDExpressionEditorAspect = null;
+    myTimeZoneIdOperationEditorAspect = null;
+    myTimeZoneNameOperationEditorAspect = null;
+    myTimeZoneOffsetExpressionEditorAspect = null;
+    myTokenConditionEditorAspect = null;
+    myTokenConditionalPairEditorAspect = null;
+    myUnaryDateTimeOperationEditorAspect = null;
+    myWithPropertyCompareExpressionEditorAspect = null;
+  }
+
+  private AbsDateTimeMinusOperation_Editor getAbsDateTimeMinusOperationEditorAspect() {
+    if (myAbsDateTimeMinusOperationEditorAspect == null) {
+      myAbsDateTimeMinusOperationEditorAspect = new AbsDateTimeMinusOperation_Editor();
+    }
+    return myAbsDateTimeMinusOperationEditorAspect;
+  }
+
+  private AllTimeZonesConstant_Editor getAllTimeZonesConstantEditorAspect() {
+    if (myAllTimeZonesConstantEditorAspect == null) {
+      myAllTimeZonesConstantEditorAspect = new AllTimeZonesConstant_Editor();
+    }
+    return myAllTimeZonesConstantEditorAspect;
+  }
+
+  private ConditionalFormatToken_Editor getConditionalFormatTokenEditorAspect() {
+    if (myConditionalFormatTokenEditorAspect == null) {
+      myConditionalFormatTokenEditorAspect = new ConditionalFormatToken_Editor();
+    }
+    return myConditionalFormatTokenEditorAspect;
+  }
+
+  private ConstantTimeZoneRef_Editor getConstantTimeZoneRefEditorAspect() {
+    if (myConstantTimeZoneRefEditorAspect == null) {
+      myConstantTimeZoneRefEditorAspect = new ConstantTimeZoneRef_Editor();
+    }
+    return myConstantTimeZoneRefEditorAspect;
+  }
+
+  private ConvertToDateTimeOperation_Editor getConvertToDateTimeOperationEditorAspect() {
+    if (myConvertToDateTimeOperationEditorAspect == null) {
+      myConvertToDateTimeOperationEditorAspect = new ConvertToDateTimeOperation_Editor();
+    }
+    return myConvertToDateTimeOperationEditorAspect;
+  }
+
+  private ConvertToDurationOperation_Editor getConvertToDurationOperationEditorAspect() {
+    if (myConvertToDurationOperationEditorAspect == null) {
+      myConvertToDurationOperationEditorAspect = new ConvertToDurationOperation_Editor();
+    }
+    return myConvertToDurationOperationEditorAspect;
+  }
+
+  private DateFormat_Editor getDateFormatEditorAspect() {
+    if (myDateFormatEditorAspect == null) {
+      myDateFormatEditorAspect = new DateFormat_Editor();
+    }
+    return myDateFormatEditorAspect;
+  }
+
+  private DateFormatsTable_Editor getDateFormatsTableEditorAspect() {
+    if (myDateFormatsTableEditorAspect == null) {
+      myDateFormatsTableEditorAspect = new DateFormatsTable_Editor();
+    }
+    return myDateFormatsTableEditorAspect;
+  }
+
+  private DateTimeCompareOperation_Editor getDateTimeCompareOperationEditorAspect() {
+    if (myDateTimeCompareOperationEditorAspect == null) {
+      myDateTimeCompareOperationEditorAspect = new DateTimeCompareOperation_Editor();
+    }
+    return myDateTimeCompareOperationEditorAspect;
+  }
+
+  private DateTimeMinusOperation_Editor getDateTimeMinusOperationEditorAspect() {
+    if (myDateTimeMinusOperationEditorAspect == null) {
+      myDateTimeMinusOperationEditorAspect = new DateTimeMinusOperation_Editor();
+    }
+    return myDateTimeMinusOperationEditorAspect;
+  }
+
+  private DateTimeMinusPeriodOperation_Editor getDateTimeMinusPeriodOperationEditorAspect() {
+    if (myDateTimeMinusPeriodOperationEditorAspect == null) {
+      myDateTimeMinusPeriodOperationEditorAspect = new DateTimeMinusPeriodOperation_Editor();
+    }
+    return myDateTimeMinusPeriodOperationEditorAspect;
+  }
+
+  private DateTimeOffsetFormatToken_Editor getDateTimeOffsetFormatTokenEditorAspect() {
+    if (myDateTimeOffsetFormatTokenEditorAspect == null) {
+      myDateTimeOffsetFormatTokenEditorAspect = new DateTimeOffsetFormatToken_Editor();
+    }
+    return myDateTimeOffsetFormatTokenEditorAspect;
+  }
+
+  private DateTimeOperation_Editor getDateTimeOperationEditorAspect() {
+    if (myDateTimeOperationEditorAspect == null) {
+      myDateTimeOperationEditorAspect = new DateTimeOperation_Editor();
+    }
+    return myDateTimeOperationEditorAspect;
+  }
+
+  private DateTimePlusPeriodOperation_Editor getDateTimePlusPeriodOperationEditorAspect() {
+    if (myDateTimePlusPeriodOperationEditorAspect == null) {
+      myDateTimePlusPeriodOperationEditorAspect = new DateTimePlusPeriodOperation_Editor();
+    }
+    return myDateTimePlusPeriodOperationEditorAspect;
+  }
+
+  private DateTimePropertyFormatToken_Editor getDateTimePropertyFormatTokenEditorAspect() {
+    if (myDateTimePropertyFormatTokenEditorAspect == null) {
+      myDateTimePropertyFormatTokenEditorAspect = new DateTimePropertyFormatToken_Editor();
+    }
+    return myDateTimePropertyFormatTokenEditorAspect;
+  }
+
+  private DateTimePropetyReferenceOperation_Editor getDateTimePropetyReferenceOperationEditorAspect() {
+    if (myDateTimePropetyReferenceOperationEditorAspect == null) {
+      myDateTimePropetyReferenceOperationEditorAspect = new DateTimePropetyReferenceOperation_Editor();
+    }
+    return myDateTimePropetyReferenceOperationEditorAspect;
+  }
+
+  private DateTimeWithPropertyOperation_Editor getDateTimeWithPropertyOperationEditorAspect() {
+    if (myDateTimeWithPropertyOperationEditorAspect == null) {
+      myDateTimeWithPropertyOperationEditorAspect = new DateTimeWithPropertyOperation_Editor();
+    }
+    return myDateTimeWithPropertyOperationEditorAspect;
+  }
+
+  private DateTimeZoneCreator_Editor getDateTimeZoneCreatorEditorAspect() {
+    if (myDateTimeZoneCreatorEditorAspect == null) {
+      myDateTimeZoneCreatorEditorAspect = new DateTimeZoneCreator_Editor();
+    }
+    return myDateTimeZoneCreatorEditorAspect;
+  }
+
+  private DurationTypeReference_Editor getDurationTypeReferenceEditorAspect() {
+    if (myDurationTypeReferenceEditorAspect == null) {
+      myDurationTypeReferenceEditorAspect = new DurationTypeReference_Editor();
+    }
+    return myDurationTypeReferenceEditorAspect;
+  }
+
+  private FixedLocaleFormatToken_Editor getFixedLocaleFormatTokenEditorAspect() {
+    if (myFixedLocaleFormatTokenEditorAspect == null) {
+      myFixedLocaleFormatTokenEditorAspect = new FixedLocaleFormatToken_Editor();
+    }
+    return myFixedLocaleFormatTokenEditorAspect;
+  }
+
+  private FormatDateTimeExpression_Editor getFormatDateTimeExpressionEditorAspect() {
+    if (myFormatDateTimeExpressionEditorAspect == null) {
+      myFormatDateTimeExpressionEditorAspect = new FormatDateTimeExpression_Editor();
+    }
+    return myFormatDateTimeExpressionEditorAspect;
+  }
+
+  private FormatExpression_Editor getFormatExpressionEditorAspect() {
+    if (myFormatExpressionEditorAspect == null) {
+      myFormatExpressionEditorAspect = new FormatExpression_Editor();
+    }
+    return myFormatExpressionEditorAspect;
+  }
+
+  private FormatPeriodExpression_Editor getFormatPeriodExpressionEditorAspect() {
+    if (myFormatPeriodExpressionEditorAspect == null) {
+      myFormatPeriodExpressionEditorAspect = new FormatPeriodExpression_Editor();
+    }
+    return myFormatPeriodExpressionEditorAspect;
+  }
+
+  private FormatToken_Editor getFormatTokenEditorAspect() {
+    if (myFormatTokenEditorAspect == null) {
+      myFormatTokenEditorAspect = new FormatToken_Editor();
+    }
+    return myFormatTokenEditorAspect;
+  }
+
+  private InTimezoneExpression_Editor getInTimezoneExpressionEditorAspect() {
+    if (myInTimezoneExpressionEditorAspect == null) {
+      myInTimezoneExpressionEditorAspect = new InTimezoneExpression_Editor();
+    }
+    return myInTimezoneExpressionEditorAspect;
+  }
+
+  private InlineFormatDateTimeExpression_Editor getInlineFormatDateTimeExpressionEditorAspect() {
+    if (myInlineFormatDateTimeExpressionEditorAspect == null) {
+      myInlineFormatDateTimeExpressionEditorAspect = new InlineFormatDateTimeExpression_Editor();
+    }
+    return myInlineFormatDateTimeExpressionEditorAspect;
+  }
+
+  private InlineFormatExpression_Editor getInlineFormatExpressionEditorAspect() {
+    if (myInlineFormatExpressionEditorAspect == null) {
+      myInlineFormatExpressionEditorAspect = new InlineFormatExpression_Editor();
+    }
+    return myInlineFormatExpressionEditorAspect;
+  }
+
+  private LiteralFormatToken_Editor getLiteralFormatTokenEditorAspect() {
+    if (myLiteralFormatTokenEditorAspect == null) {
+      myLiteralFormatTokenEditorAspect = new LiteralFormatToken_Editor();
+    }
+    return myLiteralFormatTokenEditorAspect;
+  }
+
+  private MathDateTimeOperation_Editor getMathDateTimeOperationEditorAspect() {
+    if (myMathDateTimeOperationEditorAspect == null) {
+      myMathDateTimeOperationEditorAspect = new MathDateTimeOperation_Editor();
+    }
+    return myMathDateTimeOperationEditorAspect;
+  }
+
+  private NeverExpression_Editor getNeverExpressionEditorAspect() {
+    if (myNeverExpressionEditorAspect == null) {
+      myNeverExpressionEditorAspect = new NeverExpression_Editor();
+    }
+    return myNeverExpressionEditorAspect;
+  }
+
+  private NowExpression_Editor getNowExpressionEditorAspect() {
+    if (myNowExpressionEditorAspect == null) {
+      myNowExpressionEditorAspect = new NowExpression_Editor();
+    }
+    return myNowExpressionEditorAspect;
+  }
+
+  private ParseDateTimeExpression_Editor getParseDateTimeExpressionEditorAspect() {
+    if (myParseDateTimeExpressionEditorAspect == null) {
+      myParseDateTimeExpressionEditorAspect = new ParseDateTimeExpression_Editor();
+    }
+    return myParseDateTimeExpressionEditorAspect;
+  }
+
+  private ParseExpression_Editor getParseExpressionEditorAspect() {
+    if (myParseExpressionEditorAspect == null) {
+      myParseExpressionEditorAspect = new ParseExpression_Editor();
+    }
+    return myParseExpressionEditorAspect;
+  }
+
+  private PeriodConstant_Editor getPeriodConstantEditorAspect() {
+    if (myPeriodConstantEditorAspect == null) {
+      myPeriodConstantEditorAspect = new PeriodConstant_Editor();
+    }
+    return myPeriodConstantEditorAspect;
+  }
+
+  private PeriodFormat_Editor getPeriodFormatEditorAspect() {
+    if (myPeriodFormatEditorAspect == null) {
+      myPeriodFormatEditorAspect = new PeriodFormat_Editor();
+    }
+    return myPeriodFormatEditorAspect;
+  }
+
+  private PeriodFormatsTable_Editor getPeriodFormatsTableEditorAspect() {
+    if (myPeriodFormatsTableEditorAspect == null) {
+      myPeriodFormatsTableEditorAspect = new PeriodFormatsTable_Editor();
+    }
+    return myPeriodFormatsTableEditorAspect;
+  }
+
+  private PeriodInPropertyExpression_Editor getPeriodInPropertyExpressionEditorAspect() {
+    if (myPeriodInPropertyExpressionEditorAspect == null) {
+      myPeriodInPropertyExpressionEditorAspect = new PeriodInPropertyExpression_Editor();
+    }
+    return myPeriodInPropertyExpressionEditorAspect;
+  }
+
+  private PeriodInPropertyOperation_Editor getPeriodInPropertyOperationEditorAspect() {
+    if (myPeriodInPropertyOperationEditorAspect == null) {
+      myPeriodInPropertyOperationEditorAspect = new PeriodInPropertyOperation_Editor();
+    }
+    return myPeriodInPropertyOperationEditorAspect;
+  }
+
+  private PeriodLiteralFormatToken_Editor getPeriodLiteralFormatTokenEditorAspect() {
+    if (myPeriodLiteralFormatTokenEditorAspect == null) {
+      myPeriodLiteralFormatTokenEditorAspect = new PeriodLiteralFormatToken_Editor();
+    }
+    return myPeriodLiteralFormatTokenEditorAspect;
+  }
+
+  private PeriodPropertyFormatToken_Editor getPeriodPropertyFormatTokenEditorAspect() {
+    if (myPeriodPropertyFormatTokenEditorAspect == null) {
+      myPeriodPropertyFormatTokenEditorAspect = new PeriodPropertyFormatToken_Editor();
+    }
+    return myPeriodPropertyFormatTokenEditorAspect;
+  }
+
+  private PeriodReferenceFormatToken_Editor getPeriodReferenceFormatTokenEditorAspect() {
+    if (myPeriodReferenceFormatTokenEditorAspect == null) {
+      myPeriodReferenceFormatTokenEditorAspect = new PeriodReferenceFormatToken_Editor();
+    }
+    return myPeriodReferenceFormatTokenEditorAspect;
+  }
+
+  private PeriodSeparatorFormatToken_Editor getPeriodSeparatorFormatTokenEditorAspect() {
+    if (myPeriodSeparatorFormatTokenEditorAspect == null) {
+      myPeriodSeparatorFormatTokenEditorAspect = new PeriodSeparatorFormatToken_Editor();
+    }
+    return myPeriodSeparatorFormatTokenEditorAspect;
+  }
+
+  private ReferenceFormatToken_Editor getReferenceFormatTokenEditorAspect() {
+    if (myReferenceFormatTokenEditorAspect == null) {
+      myReferenceFormatTokenEditorAspect = new ReferenceFormatToken_Editor();
+    }
+    return myReferenceFormatTokenEditorAspect;
+  }
+
+  private RoundDateTimeOperation_Editor getRoundDateTimeOperationEditorAspect() {
+    if (myRoundDateTimeOperationEditorAspect == null) {
+      myRoundDateTimeOperationEditorAspect = new RoundDateTimeOperation_Editor();
+    }
+    return myRoundDateTimeOperationEditorAspect;
+  }
+
+  private ScheduleLiteral_Editor getScheduleLiteralEditorAspect() {
+    if (myScheduleLiteralEditorAspect == null) {
+      myScheduleLiteralEditorAspect = new ScheduleLiteral_Editor();
+    }
+    return myScheduleLiteralEditorAspect;
+  }
+
+  private TimeConstant_Editor getTimeConstantEditorAspect() {
+    if (myTimeConstantEditorAspect == null) {
+      myTimeConstantEditorAspect = new TimeConstant_Editor();
+    }
+    return myTimeConstantEditorAspect;
+  }
+
+  private TimeZoneConstant_Editor getTimeZoneConstantEditorAspect() {
+    if (myTimeZoneConstantEditorAspect == null) {
+      myTimeZoneConstantEditorAspect = new TimeZoneConstant_Editor();
+    }
+    return myTimeZoneConstantEditorAspect;
+  }
+
+  private TimeZoneFromString_Editor getTimeZoneFromStringEditorAspect() {
+    if (myTimeZoneFromStringEditorAspect == null) {
+      myTimeZoneFromStringEditorAspect = new TimeZoneFromString_Editor();
+    }
+    return myTimeZoneFromStringEditorAspect;
+  }
+
+  private TimeZoneIDExpression_Editor getTimeZoneIDExpressionEditorAspect() {
+    if (myTimeZoneIDExpressionEditorAspect == null) {
+      myTimeZoneIDExpressionEditorAspect = new TimeZoneIDExpression_Editor();
+    }
+    return myTimeZoneIDExpressionEditorAspect;
+  }
+
+  private TimeZoneIdOperation_Editor getTimeZoneIdOperationEditorAspect() {
+    if (myTimeZoneIdOperationEditorAspect == null) {
+      myTimeZoneIdOperationEditorAspect = new TimeZoneIdOperation_Editor();
+    }
+    return myTimeZoneIdOperationEditorAspect;
+  }
+
+  private TimeZoneNameOperation_Editor getTimeZoneNameOperationEditorAspect() {
+    if (myTimeZoneNameOperationEditorAspect == null) {
+      myTimeZoneNameOperationEditorAspect = new TimeZoneNameOperation_Editor();
+    }
+    return myTimeZoneNameOperationEditorAspect;
+  }
+
+  private TimeZoneOffsetExpression_Editor getTimeZoneOffsetExpressionEditorAspect() {
+    if (myTimeZoneOffsetExpressionEditorAspect == null) {
+      myTimeZoneOffsetExpressionEditorAspect = new TimeZoneOffsetExpression_Editor();
+    }
+    return myTimeZoneOffsetExpressionEditorAspect;
+  }
+
+  private TokenCondition_Editor getTokenConditionEditorAspect() {
+    if (myTokenConditionEditorAspect == null) {
+      myTokenConditionEditorAspect = new TokenCondition_Editor();
+    }
+    return myTokenConditionEditorAspect;
+  }
+
+  private TokenConditionalPair_Editor getTokenConditionalPairEditorAspect() {
+    if (myTokenConditionalPairEditorAspect == null) {
+      myTokenConditionalPairEditorAspect = new TokenConditionalPair_Editor();
+    }
+    return myTokenConditionalPairEditorAspect;
+  }
+
+  private UnaryDateTimeOperation_Editor getUnaryDateTimeOperationEditorAspect() {
+    if (myUnaryDateTimeOperationEditorAspect == null) {
+      myUnaryDateTimeOperationEditorAspect = new UnaryDateTimeOperation_Editor();
+    }
+    return myUnaryDateTimeOperationEditorAspect;
+  }
+
+  private WithPropertyCompareExpression_Editor getWithPropertyCompareExpressionEditorAspect() {
+    if (myWithPropertyCompareExpressionEditorAspect == null) {
+      myWithPropertyCompareExpressionEditorAspect = new WithPropertyCompareExpression_Editor();
+    }
+    return myWithPropertyCompareExpressionEditorAspect;
+  }
+
+  private static String[] stringSwitchCases_xbvbvu_a0a0ec = new String[]{"jetbrains.mps.baseLanguage.dates.structure.AbsDateTimeMinusOperation", "jetbrains.mps.baseLanguage.dates.structure.AllTimeZonesConstant", "jetbrains.mps.baseLanguage.dates.structure.ConditionalFormatToken", "jetbrains.mps.baseLanguage.dates.structure.ConstantTimeZoneRef", "jetbrains.mps.baseLanguage.dates.structure.ConvertToDateTimeOperation", "jetbrains.mps.baseLanguage.dates.structure.ConvertToDurationOperation", "jetbrains.mps.baseLanguage.dates.structure.DateFormat", "jetbrains.mps.baseLanguage.dates.structure.DateFormatsTable", "jetbrains.mps.baseLanguage.dates.structure.DateTimeCompareOperation", "jetbrains.mps.baseLanguage.dates.structure.DateTimeMinusOperation", "jetbrains.mps.baseLanguage.dates.structure.DateTimeMinusPeriodOperation", "jetbrains.mps.baseLanguage.dates.structure.DateTimeOffsetFormatToken", "jetbrains.mps.baseLanguage.dates.structure.DateTimeOperation", "jetbrains.mps.baseLanguage.dates.structure.DateTimePlusPeriodOperation", "jetbrains.mps.baseLanguage.dates.structure.DateTimePropertyFormatToken", "jetbrains.mps.baseLanguage.dates.structure.DateTimePropetyReferenceOperation", "jetbrains.mps.baseLanguage.dates.structure.DateTimeWithPropertyOperation", "jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneCreator", "jetbrains.mps.baseLanguage.dates.structure.DurationTypeReference", "jetbrains.mps.baseLanguage.dates.structure.FixedLocaleFormatToken", "jetbrains.mps.baseLanguage.dates.structure.FormatDateTimeExpression", "jetbrains.mps.baseLanguage.dates.structure.FormatExpression", "jetbrains.mps.baseLanguage.dates.structure.FormatPeriodExpression", "jetbrains.mps.baseLanguage.dates.structure.FormatToken", "jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression", "jetbrains.mps.baseLanguage.dates.structure.InlineFormatDateTimeExpression", "jetbrains.mps.baseLanguage.dates.structure.InlineFormatExpression", "jetbrains.mps.baseLanguage.dates.structure.LiteralFormatToken", "jetbrains.mps.baseLanguage.dates.structure.MathDateTimeOperation", "jetbrains.mps.baseLanguage.dates.structure.NeverExpression", "jetbrains.mps.baseLanguage.dates.structure.NowExpression", "jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression", "jetbrains.mps.baseLanguage.dates.structure.ParseExpression", "jetbrains.mps.baseLanguage.dates.structure.PeriodConstant", "jetbrains.mps.baseLanguage.dates.structure.PeriodFormat", "jetbrains.mps.baseLanguage.dates.structure.PeriodFormatsTable", "jetbrains.mps.baseLanguage.dates.structure.PeriodInPropertyExpression", "jetbrains.mps.baseLanguage.dates.structure.PeriodInPropertyOperation", "jetbrains.mps.baseLanguage.dates.structure.PeriodLiteralFormatToken", "jetbrains.mps.baseLanguage.dates.structure.PeriodPropertyFormatToken", "jetbrains.mps.baseLanguage.dates.structure.PeriodReferenceFormatToken", "jetbrains.mps.baseLanguage.dates.structure.PeriodSeparatorFormatToken", "jetbrains.mps.baseLanguage.dates.structure.ReferenceFormatToken", "jetbrains.mps.baseLanguage.dates.structure.RoundDateTimeOperation", "jetbrains.mps.baseLanguage.dates.structure.ScheduleLiteral", "jetbrains.mps.baseLanguage.dates.structure.TimeConstant", "jetbrains.mps.baseLanguage.dates.structure.TimeZoneConstant", "jetbrains.mps.baseLanguage.dates.structure.TimeZoneFromString", "jetbrains.mps.baseLanguage.dates.structure.TimeZoneIDExpression", "jetbrains.mps.baseLanguage.dates.structure.TimeZoneIdOperation", "jetbrains.mps.baseLanguage.dates.structure.TimeZoneNameOperation", "jetbrains.mps.baseLanguage.dates.structure.TimeZoneOffsetExpression", "jetbrains.mps.baseLanguage.dates.structure.TokenCondition", "jetbrains.mps.baseLanguage.dates.structure.TokenConditionalPair", "jetbrains.mps.baseLanguage.dates.structure.UnaryDateTimeOperation", "jetbrains.mps.baseLanguage.dates.structure.WithPropertyCompareExpression"};
 }

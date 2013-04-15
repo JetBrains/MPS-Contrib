@@ -8,92 +8,460 @@ import jetbrains.mps.smodel.runtime.ConceptDescriptor;
 import java.util.Arrays;
 
 public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
+  private AttributeDeclaration_Editor myAttributeDeclarationEditorAspect;
+  private AttributeExpression_Editor myAttributeExpressionEditorAspect;
+  private AttributeGroup_Editor myAttributeGroupEditorAspect;
+  private AttributeGroupReference_Editor myAttributeGroupReferenceEditorAspect;
+  private BooleanSchemaType_Editor myBooleanSchemaTypeEditorAspect;
+  private BoundExpression_Editor myBoundExpressionEditorAspect;
+  private Choice_Editor myChoiceEditorAspect;
+  private ComplexContent_Editor myComplexContentEditorAspect;
+  private ComplexType_Editor myComplexTypeEditorAspect;
+  private ComplexTypeReference_Editor myComplexTypeReferenceEditorAspect;
+  private ContentItem_Editor myContentItemEditorAspect;
+  private Declaration_Editor myDeclarationEditorAspect;
+  private DeclarationBlock_Editor myDeclarationBlockEditorAspect;
+  private ElementReference_Editor myElementReferenceEditorAspect;
+  private ElementWithContent_Editor myElementWithContentEditorAspect;
+  private ElementWithType_Editor myElementWithTypeEditorAspect;
+  private EntityBlock_Editor myEntityBlockEditorAspect;
+  private EntityDeclaration_Editor myEntityDeclarationEditorAspect;
+  private EntityLine_Editor myEntityLineEditorAspect;
+  private EntitySet_Editor myEntitySetEditorAspect;
+  private Extension_Editor myExtensionEditorAspect;
+  private GroupDeclaration_Editor myGroupDeclarationEditorAspect;
+  private GroupExpression_Editor myGroupExpressionEditorAspect;
+  private GroupReference_Editor myGroupReferenceEditorAspect;
+  private IntegerSchemaType_Editor myIntegerSchemaTypeEditorAspect;
+  private MaxOccursExpression_Editor myMaxOccursExpressionEditorAspect;
+  private MixedAttribute_Editor myMixedAttributeEditorAspect;
+  private NamespaceDeclaration_Editor myNamespaceDeclarationEditorAspect;
+  private OccursAttribute_Editor myOccursAttributeEditorAspect;
+  private Schema_Editor mySchemaEditorAspect;
+  private SchemaComment_Editor mySchemaCommentEditorAspect;
+  private SchemaType_Editor mySchemaTypeEditorAspect;
+  private Sequence_Editor mySequenceEditorAspect;
+  private SimpleContent_Editor mySimpleContentEditorAspect;
+  private StringSchemaType_Editor myStringSchemaTypeEditorAspect;
+  private TextLine_Editor myTextLineEditorAspect;
+  private TypeExpression_Editor myTypeExpressionEditorAspect;
+  private TypeExpressionList_Editor myTypeExpressionListEditorAspect;
+  private UnboundExpression_Editor myUnboundExpressionEditorAspect;
+  private UseAttribute_Editor myUseAttributeEditorAspect;
+
   public EditorAspect getAspect(ConceptDescriptor descriptor) {
-    switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0a, descriptor.getConceptFqName())) {
+    switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0ob, descriptor.getConceptFqName())) {
       case 0:
-        return new AttributeDeclaration_Editor();
+        return getAttributeDeclarationEditorAspect();
       case 1:
-        return new AttributeExpression_Editor();
+        return getAttributeExpressionEditorAspect();
       case 2:
-        return new AttributeGroup_Editor();
+        return getAttributeGroupEditorAspect();
       case 3:
-        return new AttributeGroupReference_Editor();
+        return getAttributeGroupReferenceEditorAspect();
       case 4:
-        return new BooleanSchemaType_Editor();
+        return getBooleanSchemaTypeEditorAspect();
       case 5:
-        return new BoundExpression_Editor();
+        return getBoundExpressionEditorAspect();
       case 6:
-        return new Choice_Editor();
+        return getChoiceEditorAspect();
       case 7:
-        return new ComplexContent_Editor();
+        return getComplexContentEditorAspect();
       case 8:
-        return new ComplexType_Editor();
+        return getComplexTypeEditorAspect();
       case 9:
-        return new ComplexTypeReference_Editor();
+        return getComplexTypeReferenceEditorAspect();
       case 10:
-        return new ContentItem_Editor();
+        return getContentItemEditorAspect();
       case 11:
-        return new Declaration_Editor();
+        return getDeclarationEditorAspect();
       case 12:
-        return new DeclarationBlock_Editor();
+        return getDeclarationBlockEditorAspect();
       case 13:
-        return new ElementReference_Editor();
+        return getElementReferenceEditorAspect();
       case 14:
-        return new ElementWithContent_Editor();
+        return getElementWithContentEditorAspect();
       case 15:
-        return new ElementWithType_Editor();
+        return getElementWithTypeEditorAspect();
       case 16:
-        return new EntityBlock_Editor();
+        return getEntityBlockEditorAspect();
       case 17:
-        return new EntityDeclaration_Editor();
+        return getEntityDeclarationEditorAspect();
       case 18:
-        return new EntityLine_Editor();
+        return getEntityLineEditorAspect();
       case 19:
-        return new EntitySet_Editor();
+        return getEntitySetEditorAspect();
       case 20:
-        return new Extension_Editor();
+        return getExtensionEditorAspect();
       case 21:
-        return new GroupDeclaration_Editor();
+        return getGroupDeclarationEditorAspect();
       case 22:
-        return new GroupExpression_Editor();
+        return getGroupExpressionEditorAspect();
       case 23:
-        return new GroupReference_Editor();
+        return getGroupReferenceEditorAspect();
       case 24:
-        return new IntegerSchemaType_Editor();
+        return getIntegerSchemaTypeEditorAspect();
       case 25:
-        return new MaxOccursExpression_Editor();
+        return getMaxOccursExpressionEditorAspect();
       case 26:
-        return new MixedAttribute_Editor();
+        return getMixedAttributeEditorAspect();
       case 27:
-        return new NamespaceDeclaration_Editor();
+        return getNamespaceDeclarationEditorAspect();
       case 28:
-        return new OccursAttribute_Editor();
+        return getOccursAttributeEditorAspect();
       case 29:
-        return new Schema_Editor();
+        return getSchemaEditorAspect();
       case 30:
-        return new SchemaComment_Editor();
+        return getSchemaCommentEditorAspect();
       case 31:
-        return new SchemaType_Editor();
+        return getSchemaTypeEditorAspect();
       case 32:
-        return new Sequence_Editor();
+        return getSequenceEditorAspect();
       case 33:
-        return new SimpleContent_Editor();
+        return getSimpleContentEditorAspect();
       case 34:
-        return new StringSchemaType_Editor();
+        return getStringSchemaTypeEditorAspect();
       case 35:
-        return new TextLine_Editor();
+        return getTextLineEditorAspect();
       case 36:
-        return new TypeExpression_Editor();
+        return getTypeExpressionEditorAspect();
       case 37:
-        return new TypeExpressionList_Editor();
+        return getTypeExpressionListEditorAspect();
       case 38:
-        return new UnboundExpression_Editor();
+        return getUnboundExpressionEditorAspect();
       case 39:
-        return new UseAttribute_Editor();
+        return getUseAttributeEditorAspect();
       default:
     }
     return null;
   }
 
-  private static String[] stringSwitchCases_xbvbvu_a0a0a = new String[]{"jetbrains.mps.xmlSchema.structure.AttributeDeclaration", "jetbrains.mps.xmlSchema.structure.AttributeExpression", "jetbrains.mps.xmlSchema.structure.AttributeGroup", "jetbrains.mps.xmlSchema.structure.AttributeGroupReference", "jetbrains.mps.xmlSchema.structure.BooleanSchemaType", "jetbrains.mps.xmlSchema.structure.BoundExpression", "jetbrains.mps.xmlSchema.structure.Choice", "jetbrains.mps.xmlSchema.structure.ComplexContent", "jetbrains.mps.xmlSchema.structure.ComplexType", "jetbrains.mps.xmlSchema.structure.ComplexTypeReference", "jetbrains.mps.xmlSchema.structure.ContentItem", "jetbrains.mps.xmlSchema.structure.Declaration", "jetbrains.mps.xmlSchema.structure.DeclarationBlock", "jetbrains.mps.xmlSchema.structure.ElementReference", "jetbrains.mps.xmlSchema.structure.ElementWithContent", "jetbrains.mps.xmlSchema.structure.ElementWithType", "jetbrains.mps.xmlSchema.structure.EntityBlock", "jetbrains.mps.xmlSchema.structure.EntityDeclaration", "jetbrains.mps.xmlSchema.structure.EntityLine", "jetbrains.mps.xmlSchema.structure.EntitySet", "jetbrains.mps.xmlSchema.structure.Extension", "jetbrains.mps.xmlSchema.structure.GroupDeclaration", "jetbrains.mps.xmlSchema.structure.GroupExpression", "jetbrains.mps.xmlSchema.structure.GroupReference", "jetbrains.mps.xmlSchema.structure.IntegerSchemaType", "jetbrains.mps.xmlSchema.structure.MaxOccursExpression", "jetbrains.mps.xmlSchema.structure.MixedAttribute", "jetbrains.mps.xmlSchema.structure.NamespaceDeclaration", "jetbrains.mps.xmlSchema.structure.OccursAttribute", "jetbrains.mps.xmlSchema.structure.Schema", "jetbrains.mps.xmlSchema.structure.SchemaComment", "jetbrains.mps.xmlSchema.structure.SchemaType", "jetbrains.mps.xmlSchema.structure.Sequence", "jetbrains.mps.xmlSchema.structure.SimpleContent", "jetbrains.mps.xmlSchema.structure.StringSchemaType", "jetbrains.mps.xmlSchema.structure.TextLine", "jetbrains.mps.xmlSchema.structure.TypeExpression", "jetbrains.mps.xmlSchema.structure.TypeExpressionList", "jetbrains.mps.xmlSchema.structure.UnboundExpression", "jetbrains.mps.xmlSchema.structure.UseAttribute"};
+  public void initialize() {
+    // Register editor extensions here 
+  }
+
+  public void deinitialize() {
+    myAttributeDeclarationEditorAspect = null;
+    myAttributeExpressionEditorAspect = null;
+    myAttributeGroupEditorAspect = null;
+    myAttributeGroupReferenceEditorAspect = null;
+    myBooleanSchemaTypeEditorAspect = null;
+    myBoundExpressionEditorAspect = null;
+    myChoiceEditorAspect = null;
+    myComplexContentEditorAspect = null;
+    myComplexTypeEditorAspect = null;
+    myComplexTypeReferenceEditorAspect = null;
+    myContentItemEditorAspect = null;
+    myDeclarationEditorAspect = null;
+    myDeclarationBlockEditorAspect = null;
+    myElementReferenceEditorAspect = null;
+    myElementWithContentEditorAspect = null;
+    myElementWithTypeEditorAspect = null;
+    myEntityBlockEditorAspect = null;
+    myEntityDeclarationEditorAspect = null;
+    myEntityLineEditorAspect = null;
+    myEntitySetEditorAspect = null;
+    myExtensionEditorAspect = null;
+    myGroupDeclarationEditorAspect = null;
+    myGroupExpressionEditorAspect = null;
+    myGroupReferenceEditorAspect = null;
+    myIntegerSchemaTypeEditorAspect = null;
+    myMaxOccursExpressionEditorAspect = null;
+    myMixedAttributeEditorAspect = null;
+    myNamespaceDeclarationEditorAspect = null;
+    myOccursAttributeEditorAspect = null;
+    mySchemaEditorAspect = null;
+    mySchemaCommentEditorAspect = null;
+    mySchemaTypeEditorAspect = null;
+    mySequenceEditorAspect = null;
+    mySimpleContentEditorAspect = null;
+    myStringSchemaTypeEditorAspect = null;
+    myTextLineEditorAspect = null;
+    myTypeExpressionEditorAspect = null;
+    myTypeExpressionListEditorAspect = null;
+    myUnboundExpressionEditorAspect = null;
+    myUseAttributeEditorAspect = null;
+  }
+
+  private AttributeDeclaration_Editor getAttributeDeclarationEditorAspect() {
+    if (myAttributeDeclarationEditorAspect == null) {
+      myAttributeDeclarationEditorAspect = new AttributeDeclaration_Editor();
+    }
+    return myAttributeDeclarationEditorAspect;
+  }
+
+  private AttributeExpression_Editor getAttributeExpressionEditorAspect() {
+    if (myAttributeExpressionEditorAspect == null) {
+      myAttributeExpressionEditorAspect = new AttributeExpression_Editor();
+    }
+    return myAttributeExpressionEditorAspect;
+  }
+
+  private AttributeGroup_Editor getAttributeGroupEditorAspect() {
+    if (myAttributeGroupEditorAspect == null) {
+      myAttributeGroupEditorAspect = new AttributeGroup_Editor();
+    }
+    return myAttributeGroupEditorAspect;
+  }
+
+  private AttributeGroupReference_Editor getAttributeGroupReferenceEditorAspect() {
+    if (myAttributeGroupReferenceEditorAspect == null) {
+      myAttributeGroupReferenceEditorAspect = new AttributeGroupReference_Editor();
+    }
+    return myAttributeGroupReferenceEditorAspect;
+  }
+
+  private BooleanSchemaType_Editor getBooleanSchemaTypeEditorAspect() {
+    if (myBooleanSchemaTypeEditorAspect == null) {
+      myBooleanSchemaTypeEditorAspect = new BooleanSchemaType_Editor();
+    }
+    return myBooleanSchemaTypeEditorAspect;
+  }
+
+  private BoundExpression_Editor getBoundExpressionEditorAspect() {
+    if (myBoundExpressionEditorAspect == null) {
+      myBoundExpressionEditorAspect = new BoundExpression_Editor();
+    }
+    return myBoundExpressionEditorAspect;
+  }
+
+  private Choice_Editor getChoiceEditorAspect() {
+    if (myChoiceEditorAspect == null) {
+      myChoiceEditorAspect = new Choice_Editor();
+    }
+    return myChoiceEditorAspect;
+  }
+
+  private ComplexContent_Editor getComplexContentEditorAspect() {
+    if (myComplexContentEditorAspect == null) {
+      myComplexContentEditorAspect = new ComplexContent_Editor();
+    }
+    return myComplexContentEditorAspect;
+  }
+
+  private ComplexType_Editor getComplexTypeEditorAspect() {
+    if (myComplexTypeEditorAspect == null) {
+      myComplexTypeEditorAspect = new ComplexType_Editor();
+    }
+    return myComplexTypeEditorAspect;
+  }
+
+  private ComplexTypeReference_Editor getComplexTypeReferenceEditorAspect() {
+    if (myComplexTypeReferenceEditorAspect == null) {
+      myComplexTypeReferenceEditorAspect = new ComplexTypeReference_Editor();
+    }
+    return myComplexTypeReferenceEditorAspect;
+  }
+
+  private ContentItem_Editor getContentItemEditorAspect() {
+    if (myContentItemEditorAspect == null) {
+      myContentItemEditorAspect = new ContentItem_Editor();
+    }
+    return myContentItemEditorAspect;
+  }
+
+  private Declaration_Editor getDeclarationEditorAspect() {
+    if (myDeclarationEditorAspect == null) {
+      myDeclarationEditorAspect = new Declaration_Editor();
+    }
+    return myDeclarationEditorAspect;
+  }
+
+  private DeclarationBlock_Editor getDeclarationBlockEditorAspect() {
+    if (myDeclarationBlockEditorAspect == null) {
+      myDeclarationBlockEditorAspect = new DeclarationBlock_Editor();
+    }
+    return myDeclarationBlockEditorAspect;
+  }
+
+  private ElementReference_Editor getElementReferenceEditorAspect() {
+    if (myElementReferenceEditorAspect == null) {
+      myElementReferenceEditorAspect = new ElementReference_Editor();
+    }
+    return myElementReferenceEditorAspect;
+  }
+
+  private ElementWithContent_Editor getElementWithContentEditorAspect() {
+    if (myElementWithContentEditorAspect == null) {
+      myElementWithContentEditorAspect = new ElementWithContent_Editor();
+    }
+    return myElementWithContentEditorAspect;
+  }
+
+  private ElementWithType_Editor getElementWithTypeEditorAspect() {
+    if (myElementWithTypeEditorAspect == null) {
+      myElementWithTypeEditorAspect = new ElementWithType_Editor();
+    }
+    return myElementWithTypeEditorAspect;
+  }
+
+  private EntityBlock_Editor getEntityBlockEditorAspect() {
+    if (myEntityBlockEditorAspect == null) {
+      myEntityBlockEditorAspect = new EntityBlock_Editor();
+    }
+    return myEntityBlockEditorAspect;
+  }
+
+  private EntityDeclaration_Editor getEntityDeclarationEditorAspect() {
+    if (myEntityDeclarationEditorAspect == null) {
+      myEntityDeclarationEditorAspect = new EntityDeclaration_Editor();
+    }
+    return myEntityDeclarationEditorAspect;
+  }
+
+  private EntityLine_Editor getEntityLineEditorAspect() {
+    if (myEntityLineEditorAspect == null) {
+      myEntityLineEditorAspect = new EntityLine_Editor();
+    }
+    return myEntityLineEditorAspect;
+  }
+
+  private EntitySet_Editor getEntitySetEditorAspect() {
+    if (myEntitySetEditorAspect == null) {
+      myEntitySetEditorAspect = new EntitySet_Editor();
+    }
+    return myEntitySetEditorAspect;
+  }
+
+  private Extension_Editor getExtensionEditorAspect() {
+    if (myExtensionEditorAspect == null) {
+      myExtensionEditorAspect = new Extension_Editor();
+    }
+    return myExtensionEditorAspect;
+  }
+
+  private GroupDeclaration_Editor getGroupDeclarationEditorAspect() {
+    if (myGroupDeclarationEditorAspect == null) {
+      myGroupDeclarationEditorAspect = new GroupDeclaration_Editor();
+    }
+    return myGroupDeclarationEditorAspect;
+  }
+
+  private GroupExpression_Editor getGroupExpressionEditorAspect() {
+    if (myGroupExpressionEditorAspect == null) {
+      myGroupExpressionEditorAspect = new GroupExpression_Editor();
+    }
+    return myGroupExpressionEditorAspect;
+  }
+
+  private GroupReference_Editor getGroupReferenceEditorAspect() {
+    if (myGroupReferenceEditorAspect == null) {
+      myGroupReferenceEditorAspect = new GroupReference_Editor();
+    }
+    return myGroupReferenceEditorAspect;
+  }
+
+  private IntegerSchemaType_Editor getIntegerSchemaTypeEditorAspect() {
+    if (myIntegerSchemaTypeEditorAspect == null) {
+      myIntegerSchemaTypeEditorAspect = new IntegerSchemaType_Editor();
+    }
+    return myIntegerSchemaTypeEditorAspect;
+  }
+
+  private MaxOccursExpression_Editor getMaxOccursExpressionEditorAspect() {
+    if (myMaxOccursExpressionEditorAspect == null) {
+      myMaxOccursExpressionEditorAspect = new MaxOccursExpression_Editor();
+    }
+    return myMaxOccursExpressionEditorAspect;
+  }
+
+  private MixedAttribute_Editor getMixedAttributeEditorAspect() {
+    if (myMixedAttributeEditorAspect == null) {
+      myMixedAttributeEditorAspect = new MixedAttribute_Editor();
+    }
+    return myMixedAttributeEditorAspect;
+  }
+
+  private NamespaceDeclaration_Editor getNamespaceDeclarationEditorAspect() {
+    if (myNamespaceDeclarationEditorAspect == null) {
+      myNamespaceDeclarationEditorAspect = new NamespaceDeclaration_Editor();
+    }
+    return myNamespaceDeclarationEditorAspect;
+  }
+
+  private OccursAttribute_Editor getOccursAttributeEditorAspect() {
+    if (myOccursAttributeEditorAspect == null) {
+      myOccursAttributeEditorAspect = new OccursAttribute_Editor();
+    }
+    return myOccursAttributeEditorAspect;
+  }
+
+  private Schema_Editor getSchemaEditorAspect() {
+    if (mySchemaEditorAspect == null) {
+      mySchemaEditorAspect = new Schema_Editor();
+    }
+    return mySchemaEditorAspect;
+  }
+
+  private SchemaComment_Editor getSchemaCommentEditorAspect() {
+    if (mySchemaCommentEditorAspect == null) {
+      mySchemaCommentEditorAspect = new SchemaComment_Editor();
+    }
+    return mySchemaCommentEditorAspect;
+  }
+
+  private SchemaType_Editor getSchemaTypeEditorAspect() {
+    if (mySchemaTypeEditorAspect == null) {
+      mySchemaTypeEditorAspect = new SchemaType_Editor();
+    }
+    return mySchemaTypeEditorAspect;
+  }
+
+  private Sequence_Editor getSequenceEditorAspect() {
+    if (mySequenceEditorAspect == null) {
+      mySequenceEditorAspect = new Sequence_Editor();
+    }
+    return mySequenceEditorAspect;
+  }
+
+  private SimpleContent_Editor getSimpleContentEditorAspect() {
+    if (mySimpleContentEditorAspect == null) {
+      mySimpleContentEditorAspect = new SimpleContent_Editor();
+    }
+    return mySimpleContentEditorAspect;
+  }
+
+  private StringSchemaType_Editor getStringSchemaTypeEditorAspect() {
+    if (myStringSchemaTypeEditorAspect == null) {
+      myStringSchemaTypeEditorAspect = new StringSchemaType_Editor();
+    }
+    return myStringSchemaTypeEditorAspect;
+  }
+
+  private TextLine_Editor getTextLineEditorAspect() {
+    if (myTextLineEditorAspect == null) {
+      myTextLineEditorAspect = new TextLine_Editor();
+    }
+    return myTextLineEditorAspect;
+  }
+
+  private TypeExpression_Editor getTypeExpressionEditorAspect() {
+    if (myTypeExpressionEditorAspect == null) {
+      myTypeExpressionEditorAspect = new TypeExpression_Editor();
+    }
+    return myTypeExpressionEditorAspect;
+  }
+
+  private TypeExpressionList_Editor getTypeExpressionListEditorAspect() {
+    if (myTypeExpressionListEditorAspect == null) {
+      myTypeExpressionListEditorAspect = new TypeExpressionList_Editor();
+    }
+    return myTypeExpressionListEditorAspect;
+  }
+
+  private UnboundExpression_Editor getUnboundExpressionEditorAspect() {
+    if (myUnboundExpressionEditorAspect == null) {
+      myUnboundExpressionEditorAspect = new UnboundExpression_Editor();
+    }
+    return myUnboundExpressionEditorAspect;
+  }
+
+  private UseAttribute_Editor getUseAttributeEditorAspect() {
+    if (myUseAttributeEditorAspect == null) {
+      myUseAttributeEditorAspect = new UseAttribute_Editor();
+    }
+    return myUseAttributeEditorAspect;
+  }
+
+  private static String[] stringSwitchCases_xbvbvu_a0a0ob = new String[]{"jetbrains.mps.xmlSchema.structure.AttributeDeclaration", "jetbrains.mps.xmlSchema.structure.AttributeExpression", "jetbrains.mps.xmlSchema.structure.AttributeGroup", "jetbrains.mps.xmlSchema.structure.AttributeGroupReference", "jetbrains.mps.xmlSchema.structure.BooleanSchemaType", "jetbrains.mps.xmlSchema.structure.BoundExpression", "jetbrains.mps.xmlSchema.structure.Choice", "jetbrains.mps.xmlSchema.structure.ComplexContent", "jetbrains.mps.xmlSchema.structure.ComplexType", "jetbrains.mps.xmlSchema.structure.ComplexTypeReference", "jetbrains.mps.xmlSchema.structure.ContentItem", "jetbrains.mps.xmlSchema.structure.Declaration", "jetbrains.mps.xmlSchema.structure.DeclarationBlock", "jetbrains.mps.xmlSchema.structure.ElementReference", "jetbrains.mps.xmlSchema.structure.ElementWithContent", "jetbrains.mps.xmlSchema.structure.ElementWithType", "jetbrains.mps.xmlSchema.structure.EntityBlock", "jetbrains.mps.xmlSchema.structure.EntityDeclaration", "jetbrains.mps.xmlSchema.structure.EntityLine", "jetbrains.mps.xmlSchema.structure.EntitySet", "jetbrains.mps.xmlSchema.structure.Extension", "jetbrains.mps.xmlSchema.structure.GroupDeclaration", "jetbrains.mps.xmlSchema.structure.GroupExpression", "jetbrains.mps.xmlSchema.structure.GroupReference", "jetbrains.mps.xmlSchema.structure.IntegerSchemaType", "jetbrains.mps.xmlSchema.structure.MaxOccursExpression", "jetbrains.mps.xmlSchema.structure.MixedAttribute", "jetbrains.mps.xmlSchema.structure.NamespaceDeclaration", "jetbrains.mps.xmlSchema.structure.OccursAttribute", "jetbrains.mps.xmlSchema.structure.Schema", "jetbrains.mps.xmlSchema.structure.SchemaComment", "jetbrains.mps.xmlSchema.structure.SchemaType", "jetbrains.mps.xmlSchema.structure.Sequence", "jetbrains.mps.xmlSchema.structure.SimpleContent", "jetbrains.mps.xmlSchema.structure.StringSchemaType", "jetbrains.mps.xmlSchema.structure.TextLine", "jetbrains.mps.xmlSchema.structure.TypeExpression", "jetbrains.mps.xmlSchema.structure.TypeExpressionList", "jetbrains.mps.xmlSchema.structure.UnboundExpression", "jetbrains.mps.xmlSchema.structure.UseAttribute"};
 }
