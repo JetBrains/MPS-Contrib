@@ -359,7 +359,7 @@
   <dependency className="jetbrains.mps.uiLanguage.editor.EditorAspectDescriptorImpl" file="EditorAspectDescriptorImpl.java">
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.Arrays" />
-    <classNode dependClassName="jetbrains.mps.openapi.editor.node.EditorAspect" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.descriptor.EditorAspect" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.ConceptDescriptor" />
     <classNode dependClassName="jetbrains.mps.uiLanguage.editor.ActionHandler_Editor" />
     <classNode dependClassName="jetbrains.mps.uiLanguage.editor.AfterConstructionBlock_Editor" />
@@ -397,7 +397,7 @@
     <classNode dependClassName="jetbrains.mps.uiLanguage.editor.StandardDialogButton_Editor" />
     <classNode dependClassName="jetbrains.mps.uiLanguage.editor.StandardDialog_Editor" />
     <classNode dependClassName="jetbrains.mps.uiLanguage.editor.StubCellRendererInfo_Editor" />
-    <classNode extendsClassName="jetbrains.mps.openapi.editor.node.EditorAspectDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.openapi.editor.descriptor.EditorAspectDescriptor" />
   </dependency>
   <dependency className="jetbrains.mps.uiLanguage.editor.EditorIconUtil" file="EditorIconUtil.java">
     <classNode dependClassName="java.awt.Component" />
