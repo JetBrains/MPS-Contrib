@@ -222,7 +222,7 @@
   <dependency className="jetbrains.mps.xmlSchema.editor.EditorAspectDescriptorImpl" file="EditorAspectDescriptorImpl.java">
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.Arrays" />
-    <classNode dependClassName="jetbrains.mps.openapi.editor.node.EditorAspect" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.descriptor.EditorAspect" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.ConceptDescriptor" />
     <classNode dependClassName="jetbrains.mps.xmlSchema.editor.AttributeDeclaration_Editor" />
     <classNode dependClassName="jetbrains.mps.xmlSchema.editor.AttributeExpression_Editor" />
@@ -264,7 +264,7 @@
     <classNode dependClassName="jetbrains.mps.xmlSchema.editor.TypeExpression_Editor" />
     <classNode dependClassName="jetbrains.mps.xmlSchema.editor.UnboundExpression_Editor" />
     <classNode dependClassName="jetbrains.mps.xmlSchema.editor.UseAttribute_Editor" />
-    <classNode extendsClassName="jetbrains.mps.openapi.editor.node.EditorAspectDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.openapi.editor.descriptor.EditorAspectDescriptor" />
   </dependency>
   <dependency className="jetbrains.mps.xmlSchema.editor.ElementReference_Editor" file="ElementReference_Editor.java">
     <classNode dependClassName="java.awt.Color" />

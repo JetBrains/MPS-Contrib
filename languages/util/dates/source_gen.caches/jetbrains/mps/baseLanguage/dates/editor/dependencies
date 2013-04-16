@@ -586,9 +586,9 @@
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.TokenConditionalPair_Editor" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.UnaryDateTimeOperation_Editor" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.WithPropertyCompareExpression_Editor" />
-    <classNode dependClassName="jetbrains.mps.openapi.editor.node.EditorAspect" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.descriptor.EditorAspect" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.ConceptDescriptor" />
-    <classNode extendsClassName="jetbrains.mps.openapi.editor.node.EditorAspectDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.openapi.editor.descriptor.EditorAspectDescriptor" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.FixedLocaleFormatToken_Editor" file="FixedLocaleFormatToken_Editor.java">
     <classNode dependClassName="java.lang.Class" />

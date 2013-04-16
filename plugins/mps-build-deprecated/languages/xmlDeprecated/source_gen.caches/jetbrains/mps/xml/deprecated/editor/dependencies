@@ -57,7 +57,7 @@
   <dependency className="jetbrains.mps.xml.deprecated.editor.EditorAspectDescriptorImpl" file="EditorAspectDescriptorImpl.java">
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.Arrays" />
-    <classNode dependClassName="jetbrains.mps.openapi.editor.node.EditorAspect" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.descriptor.EditorAspect" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.ConceptDescriptor" />
     <classNode dependClassName="jetbrains.mps.xml.deprecated.editor.Attribute_Editor" />
     <classNode dependClassName="jetbrains.mps.xml.deprecated.editor.DocumentTypeDeclaration_Editor" />
@@ -66,7 +66,7 @@
     <classNode dependClassName="jetbrains.mps.xml.deprecated.editor.Element_Editor" />
     <classNode dependClassName="jetbrains.mps.xml.deprecated.editor.PublicId_Editor" />
     <classNode dependClassName="jetbrains.mps.xml.deprecated.editor.Text_Editor" />
-    <classNode extendsClassName="jetbrains.mps.openapi.editor.node.EditorAspectDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.openapi.editor.descriptor.EditorAspectDescriptor" />
   </dependency>
   <dependency className="jetbrains.mps.xml.deprecated.editor.ElementPart_Editor" file="ElementPart_Editor.java">
     <classNode dependClassName="jetbrains.mps.nodeEditor.cells.EditorCell_Error" />

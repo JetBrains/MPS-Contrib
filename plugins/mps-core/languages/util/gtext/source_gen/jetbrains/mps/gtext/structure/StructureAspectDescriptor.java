@@ -14,41 +14,41 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
   public ConceptDescriptor getDescriptor(String conceptFqName) {
     switch (Arrays.binarySearch(stringSwitchCases_1htk8d_a0a0b, conceptFqName)) {
       case 0:
-        return new CompiledConceptDescriptor("jetbrains.mps.gtext.structure.BuilderContextRef", "jetbrains.mps.baseLanguage.structure.Expression", false, new String[]{"jetbrains.mps.baseLanguage.structure.Expression", "jetbrains.mps.gtext.structure.GTextConcept"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.gtext.structure.BuilderContextRef", "jetbrains.mps.baseLanguage.structure.Expression", false, new String[]{"jetbrains.mps.baseLanguage.structure.Expression", "jetbrains.mps.gtext.structure.GTextConcept"}, new String[]{}, new String[]{}, new String[]{}, new boolean[]{}, false, false, "baseBuilderContext", "", "");
       case 1:
-        return new CompiledConceptDescriptor("jetbrains.mps.gtext.structure.GCompositeItem", null, true, new String[]{}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.gtext.structure.GCompositeItem", null, true, new String[]{}, new String[]{}, new String[]{}, new String[]{}, new boolean[]{}, false, false, "", "", "");
       case 2:
-        return new CompiledConceptDescriptor("jetbrains.mps.gtext.structure.GConditionalLine", "jetbrains.mps.gtext.structure.GItem", false, new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GCompositeItem"}, new String[]{"isSeparate"}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.gtext.structure.GConditionalLine", "jetbrains.mps.gtext.structure.GItem", false, new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GCompositeItem"}, new String[]{"isSeparate"}, new String[]{}, new String[]{"item"}, new boolean[]{true}, false, false, ">?conditional line", "", "");
       case 3:
-        return new CompiledConceptDescriptor("jetbrains.mps.gtext.structure.GContentBlock", "jetbrains.mps.gtext.structure.GItem", false, new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.lang.core.structure.INamedConcept", "jetbrains.mps.gtext.structure.GCompositeItem"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.gtext.structure.GContentBlock", "jetbrains.mps.gtext.structure.GItem", false, new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.lang.core.structure.INamedConcept", "jetbrains.mps.gtext.structure.GCompositeItem"}, new String[]{}, new String[]{}, new String[]{"item"}, new boolean[]{true}, false, false, "content block", "", "");
       case 4:
-        return new CompiledConceptDescriptor("jetbrains.mps.gtext.structure.GContentPlaceholder", "jetbrains.mps.gtext.structure.GItem", false, new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.gtext.structure.GContentPlaceholder", "jetbrains.mps.gtext.structure.GItem", false, new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{}, new String[]{}, new String[]{}, new boolean[]{}, false, false, "content placeholder", "", "");
       case 5:
-        return new CompiledConceptDescriptor("jetbrains.mps.gtext.structure.GDocument", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept", "jetbrains.mps.lang.traceable.structure.UnitConcept"}, new String[]{"documentName", "extension"}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.gtext.structure.GDocument", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept", "jetbrains.mps.lang.traceable.structure.UnitConcept"}, new String[]{"documentName", "extension"}, new String[]{}, new String[]{"item"}, new boolean[]{true}, false, false, "", "", "");
       case 6:
-        return new CompiledConceptDescriptor("jetbrains.mps.gtext.structure.GExpressionItem", "jetbrains.mps.gtext.structure.GItem", false, new String[]{"jetbrains.mps.gtext.structure.GItem"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.gtext.structure.GExpressionItem", "jetbrains.mps.gtext.structure.GItem", false, new String[]{"jetbrains.mps.gtext.structure.GItem"}, new String[]{}, new String[]{}, new String[]{"expression"}, new boolean[]{false}, false, false, "expression", "", "");
       case 7:
-        return new CompiledConceptDescriptor("jetbrains.mps.gtext.structure.GIndent", "jetbrains.mps.gtext.structure.GItem", false, new String[]{"jetbrains.mps.gtext.structure.GItem"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.gtext.structure.GIndent", "jetbrains.mps.gtext.structure.GItem", false, new String[]{"jetbrains.mps.gtext.structure.GItem"}, new String[]{}, new String[]{}, new String[]{}, new boolean[]{}, false, false, "indent", "", "");
       case 8:
-        return new CompiledConceptDescriptor("jetbrains.mps.gtext.structure.GIndentBlock", "jetbrains.mps.gtext.structure.GItem", false, new String[]{"jetbrains.mps.gtext.structure.GItem"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.gtext.structure.GIndentBlock", "jetbrains.mps.gtext.structure.GItem", false, new String[]{"jetbrains.mps.gtext.structure.GItem"}, new String[]{}, new String[]{}, new String[]{"itemList"}, new boolean[]{false}, false, false, "indentBlock", "", "");
       case 9:
-        return new CompiledConceptDescriptor("jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.gtext.structure.GTextConcept", "jetbrains.mps.lang.traceable.structure.TraceableConcept"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.gtext.structure.GTextConcept", "jetbrains.mps.lang.traceable.structure.TraceableConcept"}, new String[]{}, new String[]{}, new String[]{}, new boolean[]{}, true, false, "", "", "");
       case 10:
-        return new CompiledConceptDescriptor("jetbrains.mps.gtext.structure.GItemList", "jetbrains.mps.gtext.structure.GItem", false, new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GCompositeItem"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.gtext.structure.GItemList", "jetbrains.mps.gtext.structure.GItem", false, new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GCompositeItem"}, new String[]{}, new String[]{}, new String[]{"item"}, new boolean[]{true}, false, false, "*itemList", "", "");
       case 11:
-        return new CompiledConceptDescriptor("jetbrains.mps.gtext.structure.GItemStatement", "jetbrains.mps.baseLanguage.structure.Statement", false, new String[]{"jetbrains.mps.baseLanguage.structure.Statement"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.gtext.structure.GItemStatement", "jetbrains.mps.baseLanguage.structure.Statement", false, new String[]{"jetbrains.mps.baseLanguage.structure.Statement"}, new String[]{}, new String[]{}, new String[]{"item"}, new boolean[]{true}, false, false, "gitem statement", "", "");
       case 12:
-        return new CompiledConceptDescriptor("jetbrains.mps.gtext.structure.GLine", "jetbrains.mps.gtext.structure.GItem", false, new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GCompositeItem"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.gtext.structure.GLine", "jetbrains.mps.gtext.structure.GItem", false, new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GCompositeItem"}, new String[]{}, new String[]{}, new String[]{"item"}, new boolean[]{true}, false, false, ">line", "", "");
       case 13:
-        return new CompiledConceptDescriptor("jetbrains.mps.gtext.structure.GNewLine", "jetbrains.mps.gtext.structure.GItem", false, new String[]{"jetbrains.mps.gtext.structure.GItem"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.gtext.structure.GNewLine", "jetbrains.mps.gtext.structure.GItem", false, new String[]{"jetbrains.mps.gtext.structure.GItem"}, new String[]{}, new String[]{}, new String[]{}, new boolean[]{}, false, false, "newLine", "", "");
       case 14:
-        return new CompiledConceptDescriptor("jetbrains.mps.gtext.structure.GSeparatorItemList", "jetbrains.mps.gtext.structure.GItem", false, new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GCompositeItem"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.gtext.structure.GSeparatorItemList", "jetbrains.mps.gtext.structure.GItem", false, new String[]{"jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GCompositeItem"}, new String[]{}, new String[]{}, new String[]{"separator", "item"}, new boolean[]{false, true}, false, false, "separator list", "", "");
       case 15:
-        return new CompiledConceptDescriptor("jetbrains.mps.gtext.structure.GStatementItem", "jetbrains.mps.gtext.structure.GItem", false, new String[]{"jetbrains.mps.gtext.structure.GItem"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.gtext.structure.GStatementItem", "jetbrains.mps.gtext.structure.GItem", false, new String[]{"jetbrains.mps.gtext.structure.GItem"}, new String[]{}, new String[]{}, new String[]{"statementList"}, new boolean[]{false}, false, false, "statement", "", "");
       case 16:
-        return new CompiledConceptDescriptor("jetbrains.mps.gtext.structure.GText", "jetbrains.mps.gtext.structure.GItem", false, new String[]{"jetbrains.mps.gtext.structure.GItem"}, new String[]{"text"}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.gtext.structure.GText", "jetbrains.mps.gtext.structure.GItem", false, new String[]{"jetbrains.mps.gtext.structure.GItem"}, new String[]{"text"}, new String[]{}, new String[]{}, new boolean[]{}, false, false, "/text", "", "");
       case 17:
-        return new CompiledConceptDescriptor("jetbrains.mps.gtext.structure.GTextConcept", null, true, new String[]{}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("jetbrains.mps.gtext.structure.GTextConcept", null, true, new String[]{}, new String[]{}, new String[]{}, new String[]{}, new boolean[]{}, false, false, "", "", "");
       default:
         return StructureAspectInterpreted.getInstance().getDescriptor(conceptFqName);
     }

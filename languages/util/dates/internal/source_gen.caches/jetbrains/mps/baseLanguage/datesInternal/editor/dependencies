@@ -208,9 +208,9 @@
     <classNode dependClassName="jetbrains.mps.baseLanguage.datesInternal.editor.PredefinedDateFormat_Editor" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.datesInternal.editor.PredefinedPeriodFormat_Editor" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.datesInternal.editor.SchedulePeriod_Editor" />
-    <classNode dependClassName="jetbrains.mps.openapi.editor.node.EditorAspect" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.descriptor.EditorAspect" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.ConceptDescriptor" />
-    <classNode extendsClassName="jetbrains.mps.openapi.editor.node.EditorAspectDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.openapi.editor.descriptor.EditorAspectDescriptor" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.datesInternal.editor.FormatTokenSettings_Editor" file="FormatTokenSettings_Editor.java">
     <classNode dependClassName="java.lang.String" />

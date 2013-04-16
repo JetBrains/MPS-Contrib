@@ -91,9 +91,9 @@
     <classNode dependClassName="jetbrains.mps.build.generictasks.editor.TaskCall_Editor" />
     <classNode dependClassName="jetbrains.mps.build.generictasks.editor.TaskInterfaceDeclaration_Editor" />
     <classNode dependClassName="jetbrains.mps.build.generictasks.editor.TaskReference_Editor" />
-    <classNode dependClassName="jetbrains.mps.openapi.editor.node.EditorAspect" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.descriptor.EditorAspect" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.ConceptDescriptor" />
-    <classNode extendsClassName="jetbrains.mps.openapi.editor.node.EditorAspectDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.openapi.editor.descriptor.EditorAspectDescriptor" />
   </dependency>
   <dependency className="jetbrains.mps.build.generictasks.editor.GenericAttributeDeclarationInEnum_EditorComponent" file="GenericAttributeDeclarationInEnum_EditorComponent.java">
     <classNode dependClassName="java.lang.Class" />

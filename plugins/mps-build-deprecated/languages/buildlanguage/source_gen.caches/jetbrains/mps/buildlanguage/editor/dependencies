@@ -120,9 +120,9 @@
     <classNode dependClassName="jetbrains.mps.buildlanguage.editor.TargetReferencePropertyValueExpression_Editor" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.editor.TargetReference_Editor" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.editor.XmlStringLiteral_Editor" />
-    <classNode dependClassName="jetbrains.mps.openapi.editor.node.EditorAspect" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.descriptor.EditorAspect" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.ConceptDescriptor" />
-    <classNode extendsClassName="jetbrains.mps.openapi.editor.node.EditorAspectDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.openapi.editor.descriptor.EditorAspectDescriptor" />
   </dependency>
   <dependency className="jetbrains.mps.buildlanguage.editor.Enum_Editor" file="Enum_Editor.java">
     <classNode dependClassName="java.lang.Override" />

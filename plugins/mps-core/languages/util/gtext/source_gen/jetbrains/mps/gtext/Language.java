@@ -13,7 +13,7 @@ import java.util.Collection;
 import jetbrains.mps.generator.runtime.TemplateModule;
 import jetbrains.mps.generator.runtime.TemplateUtil;
 import jetbrains.mps.smodel.runtime.LanguageAspectDescriptor;
-import jetbrains.mps.openapi.editor.node.EditorAspectDescriptor;
+import jetbrains.mps.openapi.editor.descriptor.EditorAspectDescriptor;
 
 public class Language extends LanguageRuntime {
   public static SModuleReference MODULE_REFERENCE = ModuleReference.fromString("a83c3bd0-2f7e-4ba1-8373-12d49e99f57e(jetbrains.mps.gtext)");
