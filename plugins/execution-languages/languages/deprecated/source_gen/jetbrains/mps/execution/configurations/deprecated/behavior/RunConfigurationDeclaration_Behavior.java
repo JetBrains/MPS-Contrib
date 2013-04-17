@@ -14,7 +14,7 @@ import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
-import org.jetbrains.mps.openapi.language.SConcept;
+import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.behaviour.BehaviorManager;
 import org.jetbrains.mps.openapi.persistence.PersistenceFacade;
 import jetbrains.mps.smodel.SModelUtil_new;
@@ -79,7 +79,7 @@ public class RunConfigurationDeclaration_Behavior {
     return neq_ym0401_a0c0j(SModelOperations.getModelName(jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations.getModel(thisNode)), SModelOperations.getModelName(jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations.getModel(type)));
   }
 
-  public static boolean virtual_requiresCustomEditor_1262430001741498265(SConcept thisConcept) {
+  public static boolean virtual_requiresCustomEditor_1262430001741498265(SAbstractConcept thisConcept) {
     return true;
   }
 

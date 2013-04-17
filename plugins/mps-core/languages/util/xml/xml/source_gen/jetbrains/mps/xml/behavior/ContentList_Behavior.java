@@ -11,7 +11,7 @@ import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import org.jetbrains.mps.openapi.language.SConceptRepository;
 import jetbrains.mps.util.NameUtil;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import org.jetbrains.mps.openapi.language.SConcept;
+import org.jetbrains.mps.openapi.language.SAbstractConcept;
 
 public class ContentList_Behavior {
   public static void init(SNode thisNode) {
@@ -46,7 +46,7 @@ public class ContentList_Behavior {
     return false;
   }
 
-  public static boolean virtual_isComplex_1262430001741498088(SConcept thisConcept) {
+  public static boolean virtual_isComplex_1262430001741498088(SAbstractConcept thisConcept) {
     return true;
   }
 }

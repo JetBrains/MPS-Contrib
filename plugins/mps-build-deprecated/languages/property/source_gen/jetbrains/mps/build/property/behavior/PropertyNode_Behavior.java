@@ -10,7 +10,7 @@ import jetbrains.mps.util.NameUtil;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import java.util.List;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import org.jetbrains.mps.openapi.language.SConcept;
+import org.jetbrains.mps.openapi.language.SAbstractConcept;
 
 public class PropertyNode_Behavior {
   public static void init(SNode thisNode) {
@@ -24,7 +24,7 @@ public class PropertyNode_Behavior {
     return SLinkOperations.getTargets(thisNode, "declaration", true);
   }
 
-  public static String virtual_getExtension_1262430001741497933(SConcept thisConcept) {
+  public static String virtual_getExtension_1262430001741497933(SAbstractConcept thisConcept) {
     return ".properties";
   }
 }
