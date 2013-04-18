@@ -14,6 +14,8 @@
   <dependency className="jetbrains.mps.gtext.editor.EditorAspectDescriptorImpl" file="EditorAspectDescriptorImpl.java">
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.Arrays" />
+    <classNode dependClassName="java.util.Collection" />
+    <classNode dependClassName="java.util.Collections" />
     <classNode dependClassName="jetbrains.mps.gtext.editor.BuilderContextRef_Editor" />
     <classNode dependClassName="jetbrains.mps.gtext.editor.GConditionalLine_Editor" />
     <classNode dependClassName="jetbrains.mps.gtext.editor.GContentBlock_Editor" />

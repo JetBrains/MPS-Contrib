@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="gensources" pattern="file[gensources]:*/" />
+</component>
