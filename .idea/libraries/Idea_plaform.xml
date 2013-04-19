@@ -23,7 +23,7 @@
       <root url="jar://$PROJECT_DIR$/lib/xpp3-1.1.4-min.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/cli-parser-1.1.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/gson-2.2.1.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/netty-3.5.10.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/netty-3.6.2.Final.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
@@ -80,7 +80,6 @@
       <root url="jar://$PROJECT_DIR$/lib/src/jna-src.zip!/src" />
       <root url="jar://$PROJECT_DIR$/lib/src/microba-src.zip!/src/main/java" />
       <root url="jar://$PROJECT_DIR$/lib/src/nanoxml.zip!/" />
-      <root url="jar://$PROJECT_DIR$/lib/src/netty-3.5.10.Final-sources.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/src/sanselan-0.98-snapshot-src.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/src/xpp3-1.1.4-min-src.jar!/" />
     </SOURCES>

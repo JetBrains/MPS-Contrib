@@ -539,14 +539,14 @@
     <nodeInfo nodeId="353793545802854960" fileName="PathReference_Behavior.java" startLine="41" startPosition="199" endLine="42" endPosition="152" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="353793545802854985" fileName="PathReference_Behavior.java" startLine="46" startPosition="5" endLine="47" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="353793545802854994" fileName="PathReference_Behavior.java" startLine="50" startPosition="77" endLine="51" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1262430001741647784" fileName="PathReference_Behavior.java" startLine="54" startPosition="86" endLine="55" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1262430001741647784" fileName="PathReference_Behavior.java" startLine="54" startPosition="94" endLine="55" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="353793545802854877" fileName="PathReference_Behavior.java" startLine="16" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
     <nodeInfo nodeId="353793545802854880" fileName="PathReference_Behavior.java" startLine="19" startPosition="71" endLine="22" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="353793545802854877" fileName="PathReference_Behavior.java" startLine="26" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getPaths_1213877276955#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/util/List;" />
     <nodeInfo nodeId="353793545802854931" fileName="PathReference_Behavior.java" startLine="34" startPosition="95" endLine="37" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="353793545802854958" fileName="PathReference_Behavior.java" startLine="40" startPosition="111" endLine="43" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="353793545802854877" fileName="PathReference_Behavior.java" startLine="50" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getActualValue_1213877472572#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
-    <nodeInfo nodeId="353793545802854877" fileName="PathReference_Behavior.java" startLine="54" startPosition="0" endLine="57" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getCallName_1262430001741497852#(Lorg/jetbrains/mps/openapi/language/SConcept;)Ljava/lang/String;" />
+    <nodeInfo nodeId="353793545802854877" fileName="PathReference_Behavior.java" startLine="54" startPosition="0" endLine="57" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getCallName_1262430001741497852#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)Ljava/lang/String;" />
     <nodeInfo nodeId="353793545802854877" fileName="PathReference_Behavior.java" startLine="19" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_toString_1213877472569#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
     <nodeInfo nodeId="353793545802854947" fileName="PathReference_Behavior.java" startLine="38" startPosition="100" endLine="44" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="353793545802854941" fileName="PathReference_Behavior.java" startLine="37" startPosition="7" endLine="45" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
@@ -558,7 +558,7 @@
     <scopeInfo nodeId="353793545802854932" fileName="PathReference_Behavior.java" startLine="35" startPosition="25" endLine="36" endPosition="53" />
     <scopeInfo nodeId="353793545802854959" fileName="PathReference_Behavior.java" startLine="41" startPosition="199" endLine="42" endPosition="152" />
     <scopeInfo nodeId="353793545802854993" fileName="PathReference_Behavior.java" startLine="50" startPosition="77" endLine="51" endPosition="82" />
-    <scopeInfo nodeId="1262430001741647782" fileName="PathReference_Behavior.java" startLine="54" startPosition="86" endLine="55" endPosition="18" />
+    <scopeInfo nodeId="1262430001741647782" fileName="PathReference_Behavior.java" startLine="54" startPosition="94" endLine="55" endPosition="18" />
     <scopeInfo nodeId="353793545802854877" fileName="PathReference_Behavior.java" startLine="16" startPosition="0" endLine="18" endPosition="0">
       <varInfo nodeId="353793545802854877" varName="thisNode" />
     </scopeInfo>

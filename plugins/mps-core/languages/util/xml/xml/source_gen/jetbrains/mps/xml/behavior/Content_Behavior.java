@@ -6,7 +6,7 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import java.util.List;
 import java.util.ArrayList;
-import org.jetbrains.mps.openapi.language.SConcept;
+import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.smodel.behaviour.BehaviorManager;
@@ -33,11 +33,11 @@ public class Content_Behavior {
     return new ArrayList<SNode>();
   }
 
-  public static boolean virtual_isComplex_1262430001741498088(SConcept thisConcept) {
+  public static boolean virtual_isComplex_1262430001741498088(SAbstractConcept thisConcept) {
     return false;
   }
 
-  public static List<SNode> virtual_getCorrespondingElement_3044950653914717088(SConcept thisConcept) {
+  public static List<SNode> virtual_getCorrespondingElement_3044950653914717088(SAbstractConcept thisConcept) {
     return ListSequence.fromList(new ArrayList<SNode>());
   }
 
