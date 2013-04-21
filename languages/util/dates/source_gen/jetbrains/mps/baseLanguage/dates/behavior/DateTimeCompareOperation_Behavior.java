@@ -11,7 +11,7 @@ import jetbrains.mps.util.NameUtil;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import org.jetbrains.mps.openapi.language.SConcept;
+import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import java.util.ArrayList;
 
 public class DateTimeCompareOperation_Behavior {
@@ -54,7 +54,7 @@ public class DateTimeCompareOperation_Behavior {
     return SPropertyOperations.hasValue(thisNode, "compareType", "datetime greater or equals", "datetime equals");
   }
 
-  public static List<SNode> virtual_getDefaultDatetimeProperty_3044950653914717067(SConcept thisConcept) {
+  public static List<SNode> virtual_getDefaultDatetimeProperty_3044950653914717067(SAbstractConcept thisConcept) {
     List<SNode> result = ListSequence.fromList(new ArrayList<SNode>());
     return result;
   }

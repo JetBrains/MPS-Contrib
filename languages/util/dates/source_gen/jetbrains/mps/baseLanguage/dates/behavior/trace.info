@@ -314,7 +314,7 @@
     <nodeInfo nodeId="1213877526456" fileName="DateTimeCompareOperation_Behavior.java" startLine="45" startPosition="65" endLine="46" endPosition="104" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1213877526466" fileName="DateTimeCompareOperation_Behavior.java" startLine="49" startPosition="65" endLine="50" endPosition="111" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1213877526476" fileName="DateTimeCompareOperation_Behavior.java" startLine="53" startPosition="65" endLine="54" endPosition="114" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3044950653914717070" fileName="DateTimeCompareOperation_Behavior.java" startLine="57" startPosition="106" endLine="58" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3044950653914717070" fileName="DateTimeCompareOperation_Behavior.java" startLine="57" startPosition="114" endLine="58" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="3044950653914717082" fileName="DateTimeCompareOperation_Behavior.java" startLine="58" startPosition="71" endLine="59" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1213877526003" fileName="DateTimeCompareOperation_Behavior.java" startLine="18" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
     <nodeInfo nodeId="1213877526003" fileName="DateTimeCompareOperation_Behavior.java" startLine="21" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_hasMillisPrecision_1213877526386#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
@@ -325,7 +325,7 @@
     <nodeInfo nodeId="1213877526003" fileName="DateTimeCompareOperation_Behavior.java" startLine="45" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_isGT_1213877526453#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
     <nodeInfo nodeId="1213877526003" fileName="DateTimeCompareOperation_Behavior.java" startLine="49" startPosition="0" endLine="52" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_isLE_1213877526463#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
     <nodeInfo nodeId="1213877526003" fileName="DateTimeCompareOperation_Behavior.java" startLine="53" startPosition="0" endLine="56" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_isGE_1213877526473#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-    <nodeInfo nodeId="1213877526003" fileName="DateTimeCompareOperation_Behavior.java" startLine="57" startPosition="0" endLine="61" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getDefaultDatetimeProperty_3044950653914717067#(Lorg/jetbrains/mps/openapi/language/SConcept;)Ljava/util/List;" />
+    <nodeInfo nodeId="1213877526003" fileName="DateTimeCompareOperation_Behavior.java" startLine="57" startPosition="0" endLine="61" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getDefaultDatetimeProperty_3044950653914717067#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)Ljava/util/List;" />
     <nodeInfo nodeId="1213877526003" fileName="DateTimeCompareOperation_Behavior.java" startLine="25" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getDatetimeProperty_1213877526399#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
     <scopeInfo nodeId="1213877526484" fileName="DateTimeCompareOperation_Behavior.java" startLine="18" startPosition="43" endLine="18" endPosition="43" />
     <scopeInfo nodeId="1213877526388" fileName="DateTimeCompareOperation_Behavior.java" startLine="21" startPosition="79" endLine="22" endPosition="401" />
@@ -339,7 +339,7 @@
     <scopeInfo nodeId="1213877526003" fileName="DateTimeCompareOperation_Behavior.java" startLine="18" startPosition="0" endLine="20" endPosition="0">
       <varInfo nodeId="1213877526003" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="3044950653914717069" fileName="DateTimeCompareOperation_Behavior.java" startLine="57" startPosition="106" endLine="59" endPosition="18">
+    <scopeInfo nodeId="3044950653914717069" fileName="DateTimeCompareOperation_Behavior.java" startLine="57" startPosition="114" endLine="59" endPosition="18">
       <varInfo nodeId="3044950653914717071" varName="result" />
     </scopeInfo>
     <scopeInfo nodeId="1213877526003" fileName="DateTimeCompareOperation_Behavior.java" startLine="21" startPosition="0" endLine="24" endPosition="0">
@@ -512,14 +512,14 @@
     <nodeInfo nodeId="1239206693910" fileName="WithPropertyCompareExpression_Behavior.java" startLine="20" startPosition="78" endLine="21" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1239206693918" fileName="WithPropertyCompareExpression_Behavior.java" startLine="22" startPosition="29" endLine="23" endPosition="321" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1239206693929" fileName="WithPropertyCompareExpression_Behavior.java" startLine="24" startPosition="5" endLine="25" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3044950653914717027" fileName="WithPropertyCompareExpression_Behavior.java" startLine="28" startPosition="106" endLine="29" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3044950653914717027" fileName="WithPropertyCompareExpression_Behavior.java" startLine="28" startPosition="114" endLine="29" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1239206692654" fileName="WithPropertyCompareExpression_Behavior.java" startLine="17" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
     <nodeInfo nodeId="1239206693916" fileName="WithPropertyCompareExpression_Behavior.java" startLine="21" startPosition="84" endLine="24" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1239206692654" fileName="WithPropertyCompareExpression_Behavior.java" startLine="28" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getDefaultDatetimeProperty_3044950653914717024#(Lorg/jetbrains/mps/openapi/language/SConcept;)Ljava/util/List;" />
+    <nodeInfo nodeId="1239206692654" fileName="WithPropertyCompareExpression_Behavior.java" startLine="28" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getDefaultDatetimeProperty_3044950653914717024#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)Ljava/util/List;" />
     <nodeInfo nodeId="1239206692654" fileName="WithPropertyCompareExpression_Behavior.java" startLine="20" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getDatetimeProperty_1239206693907#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
     <scopeInfo nodeId="1239206692656" fileName="WithPropertyCompareExpression_Behavior.java" startLine="17" startPosition="43" endLine="17" endPosition="43" />
     <scopeInfo nodeId="1239206693917" fileName="WithPropertyCompareExpression_Behavior.java" startLine="22" startPosition="29" endLine="23" endPosition="321" />
-    <scopeInfo nodeId="3044950653914717026" fileName="WithPropertyCompareExpression_Behavior.java" startLine="28" startPosition="106" endLine="29" endPosition="57" />
+    <scopeInfo nodeId="3044950653914717026" fileName="WithPropertyCompareExpression_Behavior.java" startLine="28" startPosition="114" endLine="29" endPosition="57" />
     <scopeInfo nodeId="1239206692654" fileName="WithPropertyCompareExpression_Behavior.java" startLine="17" startPosition="0" endLine="19" endPosition="0">
       <varInfo nodeId="1239206692654" varName="thisNode" />
     </scopeInfo>
@@ -535,11 +535,11 @@
     <unitInfo nodeId="1239206692654" fileName="WithPropertyCompareExpression_Behavior.java" startLine="16" startPosition="0" endLine="32" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.WithPropertyCompareExpression_Behavior" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903ce(jetbrains.mps.baseLanguage.dates.behavior)/1262430001741498124">
-    <nodeInfo nodeId="1262430001741498120" fileName="ParseExpression_Behavior.java" startLine="12" startPosition="92" endLine="13" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1262430001741498120" fileName="ParseExpression_Behavior.java" startLine="12" startPosition="100" endLine="13" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1262430001741498124" fileName="ParseExpression_Behavior.java" startLine="9" startPosition="0" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="1262430001741498124" fileName="ParseExpression_Behavior.java" startLine="12" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getDefaultKeyword_1262430001741498121#(Lorg/jetbrains/mps/openapi/language/SConcept;)Ljava/lang/String;" />
+    <nodeInfo nodeId="1262430001741498124" fileName="ParseExpression_Behavior.java" startLine="12" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getDefaultKeyword_1262430001741498121#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)Ljava/lang/String;" />
     <scopeInfo nodeId="1262430001741498126" fileName="ParseExpression_Behavior.java" startLine="9" startPosition="43" endLine="9" endPosition="43" />
-    <scopeInfo nodeId="1262430001741498123" fileName="ParseExpression_Behavior.java" startLine="12" startPosition="92" endLine="13" endPosition="18" />
+    <scopeInfo nodeId="1262430001741498123" fileName="ParseExpression_Behavior.java" startLine="12" startPosition="100" endLine="13" endPosition="18" />
     <scopeInfo nodeId="1262430001741498124" fileName="ParseExpression_Behavior.java" startLine="9" startPosition="0" endLine="11" endPosition="0">
       <varInfo nodeId="1262430001741498124" varName="thisNode" />
     </scopeInfo>
@@ -549,16 +549,16 @@
     <unitInfo nodeId="1262430001741498124" fileName="ParseExpression_Behavior.java" startLine="8" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.ParseExpression_Behavior" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903ce(jetbrains.mps.baseLanguage.dates.behavior)/3044950653914724856">
-    <nodeInfo nodeId="3044950653914724835" fileName="TokenCondition_Behavior.java" startLine="16" startPosition="117" endLine="17" endPosition="261" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3044950653914724835" fileName="TokenCondition_Behavior.java" startLine="16" startPosition="125" endLine="17" endPosition="261" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="3044950653914724850" fileName="TokenCondition_Behavior.java" startLine="17" startPosition="261" endLine="18" endPosition="179" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="3044950653914724854" fileName="TokenCondition_Behavior.java" startLine="18" startPosition="179" endLine="19" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="3044950653914724856" fileName="TokenCondition_Behavior.java" startLine="13" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="3044950653914724856" fileName="TokenCondition_Behavior.java" startLine="16" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getApplicableConceptFunctionParameter_3044950653914717136#(Lorg/jetbrains/mps/openapi/language/SConcept;)Ljava/util/List;" />
+    <nodeInfo nodeId="3044950653914724856" fileName="TokenCondition_Behavior.java" startLine="16" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getApplicableConceptFunctionParameter_3044950653914717136#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)Ljava/util/List;" />
     <scopeInfo nodeId="3044950653914724858" fileName="TokenCondition_Behavior.java" startLine="13" startPosition="43" endLine="13" endPosition="43" />
     <scopeInfo nodeId="3044950653914724856" fileName="TokenCondition_Behavior.java" startLine="13" startPosition="0" endLine="15" endPosition="0">
       <varInfo nodeId="3044950653914724856" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="3044950653914724834" fileName="TokenCondition_Behavior.java" startLine="16" startPosition="117" endLine="19" endPosition="18">
+    <scopeInfo nodeId="3044950653914724834" fileName="TokenCondition_Behavior.java" startLine="16" startPosition="125" endLine="19" endPosition="18">
       <varInfo nodeId="3044950653914724836" varName="result" />
     </scopeInfo>
     <scopeInfo nodeId="3044950653914724856" fileName="TokenCondition_Behavior.java" startLine="16" startPosition="0" endLine="21" endPosition="0">

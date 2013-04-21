@@ -5,7 +5,7 @@ package jetbrains.mps.buildlanguage.behavior;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import org.jetbrains.mps.openapi.language.SConcept;
+import org.jetbrains.mps.openapi.language.SAbstractConcept;
 
 public class CallReference_Behavior {
   public static void init(SNode thisNode) {
@@ -22,7 +22,7 @@ public class CallReference_Behavior {
     return SPropertyOperations.getString(SLinkOperations.getTarget(thisNode, "call", false), "name");
   }
 
-  public static String virtual_getCallName_1262430001741497852(SConcept thisConcept) {
+  public static String virtual_getCallName_1262430001741497852(SAbstractConcept thisConcept) {
     return null;
   }
 }
