@@ -191,6 +191,29 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.nodeEditor.DefaultNodeEditor" />
   </dependency>
+  <dependency className="jetbrains.mps.baseLanguage.datesInternal.editor.EditorAspectDescriptorImpl" file="EditorAspectDescriptorImpl.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Arrays" />
+    <classNode dependClassName="java.util.Collection" />
+    <classNode dependClassName="java.util.Collections" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.datesInternal.editor.DateTimeIntPropertyFormatConfiguration_Editor" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.datesInternal.editor.DateTimePropertyCardinality_Editor" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.datesInternal.editor.DateTimePropertyFormatType_Editor" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.datesInternal.editor.DateTimePropertySettings_Editor" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.datesInternal.editor.DateTimeProperty_Editor" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.datesInternal.editor.DateTimeZonePropertyFormatConfiguration_Editor" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.datesInternal.editor.DateTimeZone_Editor" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.datesInternal.editor.DurationType_Editor" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.datesInternal.editor.FormatTokenSettings_Editor" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.datesInternal.editor.Locale_Editor" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.datesInternal.editor.Month_Editor" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.datesInternal.editor.PredefinedDateFormat_Editor" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.datesInternal.editor.PredefinedPeriodFormat_Editor" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.datesInternal.editor.SchedulePeriod_Editor" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.descriptor.EditorAspect" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.ConceptDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.openapi.editor.descriptor.EditorAspectDescriptor" />
+  </dependency>
   <dependency className="jetbrains.mps.baseLanguage.datesInternal.editor.FormatTokenSettings_Editor" file="FormatTokenSettings_Editor.java">
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.datesInternal.editor.DatesInternal_StyleSheet" />
