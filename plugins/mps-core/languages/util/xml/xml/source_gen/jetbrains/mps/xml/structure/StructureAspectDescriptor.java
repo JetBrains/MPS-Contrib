@@ -4,7 +4,7 @@ package jetbrains.mps.xml.structure;
 
 import jetbrains.mps.smodel.runtime.ConceptDescriptor;
 import java.util.Arrays;
-import jetbrains.mps.smodel.runtime.impl.CompiledConceptDescriptor;
+import jetbrains.mps.smodel.runtime.impl.ConceptDescriptorBuilder;
 import jetbrains.mps.smodel.runtime.interpreted.StructureAspectInterpreted;
 
 public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.StructureAspectDescriptor {
@@ -14,29 +14,29 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
   public ConceptDescriptor getDescriptor(String conceptFqName) {
     switch (Arrays.binarySearch(stringSwitchCases_1htk8d_a0a0b, conceptFqName)) {
       case 0:
-        return new CompiledConceptDescriptor("jetbrains.mps.xml.structure.Attribute", "jetbrains.mps.xml.structure.BaseAttribute", false, new String[]{"jetbrains.mps.xml.structure.BaseAttribute", "jetbrains.mps.lang.core.structure.IDontSubstituteByDefault"}, new String[]{}, new String[]{"attributeDeclaration"}, new String[]{"value"}, new boolean[]{false}, false, false, "", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xml.structure.Attribute").super_("jetbrains.mps.xml.structure.BaseAttribute").parents("jetbrains.mps.xml.structure.BaseAttribute", "jetbrains.mps.lang.core.structure.IDontSubstituteByDefault").references("attributeDeclaration").children(new String[]{"value"}, new boolean[]{false}).create();
       case 1:
-        return new CompiledConceptDescriptor("jetbrains.mps.xml.structure.BaseAttribute", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{}, new String[]{}, new boolean[]{}, true, false, "", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xml.structure.BaseAttribute").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").abstract_().create();
       case 2:
-        return new CompiledConceptDescriptor("jetbrains.mps.xml.structure.BaseElement", "jetbrains.mps.xml.structure.Content", false, new String[]{"jetbrains.mps.xml.structure.Content"}, new String[]{}, new String[]{}, new String[]{"contentList", "attribute"}, new boolean[]{false, true}, true, false, "", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xml.structure.BaseElement").super_("jetbrains.mps.xml.structure.Content").parents("jetbrains.mps.xml.structure.Content").children(new String[]{"contentList", "attribute"}, new boolean[]{false, true}).abstract_().create();
       case 3:
-        return new CompiledConceptDescriptor("jetbrains.mps.xml.structure.BaseText", "jetbrains.mps.xml.structure.Content", false, new String[]{"jetbrains.mps.xml.structure.Content"}, new String[]{}, new String[]{}, new String[]{}, new boolean[]{}, true, false, "", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xml.structure.BaseText").super_("jetbrains.mps.xml.structure.Content").parents("jetbrains.mps.xml.structure.Content").abstract_().create();
       case 4:
-        return new CompiledConceptDescriptor("jetbrains.mps.xml.structure.CDATA", "jetbrains.mps.xml.structure.Content", false, new String[]{"jetbrains.mps.xml.structure.Content"}, new String[]{}, new String[]{}, new String[]{"contentList"}, new boolean[]{false}, false, false, "CDATA", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xml.structure.CDATA").super_("jetbrains.mps.xml.structure.Content").parents("jetbrains.mps.xml.structure.Content").children(new String[]{"contentList"}, new boolean[]{false}).alias("CDATA", "").create();
       case 5:
-        return new CompiledConceptDescriptor("jetbrains.mps.xml.structure.ComplexText", "jetbrains.mps.xml.structure.BaseText", false, new String[]{"jetbrains.mps.xml.structure.BaseText"}, new String[]{}, new String[]{}, new String[]{"text"}, new boolean[]{true}, false, false, "*complexText", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xml.structure.ComplexText").super_("jetbrains.mps.xml.structure.BaseText").parents("jetbrains.mps.xml.structure.BaseText").children(new String[]{"text"}, new boolean[]{true}).alias("*complexText", "").create();
       case 6:
-        return new CompiledConceptDescriptor("jetbrains.mps.xml.structure.Content", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{}, new String[]{}, new boolean[]{}, true, false, "", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xml.structure.Content").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").abstract_().create();
       case 7:
-        return new CompiledConceptDescriptor("jetbrains.mps.xml.structure.ContentList", "jetbrains.mps.xml.structure.Content", false, new String[]{"jetbrains.mps.xml.structure.Content"}, new String[]{"isHorizontal"}, new String[]{}, new String[]{"content"}, new boolean[]{true}, false, false, "(contentList)", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xml.structure.ContentList").super_("jetbrains.mps.xml.structure.Content").parents("jetbrains.mps.xml.structure.Content").properties("isHorizontal").children(new String[]{"content"}, new boolean[]{true}).alias("(contentList)", "").create();
       case 8:
-        return new CompiledConceptDescriptor("jetbrains.mps.xml.structure.Element", "jetbrains.mps.xml.structure.BaseElement", false, new String[]{"jetbrains.mps.xml.structure.BaseElement", "jetbrains.mps.lang.core.structure.IDontSubstituteByDefault"}, new String[]{"isEmpty"}, new String[]{"elementDeclaration"}, new String[]{}, new boolean[]{}, false, false, "", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xml.structure.Element").super_("jetbrains.mps.xml.structure.BaseElement").parents("jetbrains.mps.xml.structure.BaseElement", "jetbrains.mps.lang.core.structure.IDontSubstituteByDefault").properties("isEmpty").references("elementDeclaration").create();
       case 9:
-        return new CompiledConceptDescriptor("jetbrains.mps.xml.structure.EntityReference", "jetbrains.mps.xml.structure.BaseText", false, new String[]{"jetbrains.mps.xml.structure.BaseText"}, new String[]{}, new String[]{"entityDeclaration"}, new String[]{}, new boolean[]{}, false, false, "&entity;", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xml.structure.EntityReference").super_("jetbrains.mps.xml.structure.BaseText").parents("jetbrains.mps.xml.structure.BaseText").references("entityDeclaration").alias("&entity;", "").create();
       case 10:
-        return new CompiledConceptDescriptor("jetbrains.mps.xml.structure.Text", "jetbrains.mps.xml.structure.BaseText", false, new String[]{"jetbrains.mps.xml.structure.BaseText", "jetbrains.mps.lang.core.structure.IDontSubstituteByDefault"}, new String[]{"text"}, new String[]{}, new String[]{}, new boolean[]{}, false, false, "/text", "plain text", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xml.structure.Text").super_("jetbrains.mps.xml.structure.BaseText").parents("jetbrains.mps.xml.structure.BaseText", "jetbrains.mps.lang.core.structure.IDontSubstituteByDefault").properties("text").alias("/text", "plain text").create();
       case 11:
-        return new CompiledConceptDescriptor("jetbrains.mps.xml.structure.XmlRoot", null, true, new String[]{}, new String[]{}, new String[]{}, new String[]{}, new boolean[]{}, false, false, "", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xml.structure.XmlRoot").interface_().create();
       default:
         return StructureAspectInterpreted.getInstance().getDescriptor(conceptFqName);
     }

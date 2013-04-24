@@ -4,7 +4,7 @@ package jetbrains.mps.xml.deprecated.structure;
 
 import jetbrains.mps.smodel.runtime.ConceptDescriptor;
 import java.util.Arrays;
-import jetbrains.mps.smodel.runtime.impl.CompiledConceptDescriptor;
+import jetbrains.mps.smodel.runtime.impl.ConceptDescriptorBuilder;
 import jetbrains.mps.smodel.runtime.interpreted.StructureAspectInterpreted;
 
 public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.StructureAspectDescriptor {
@@ -14,21 +14,21 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
   public ConceptDescriptor getDescriptor(String conceptFqName) {
     switch (Arrays.binarySearch(stringSwitchCases_1htk8d_a0a0b, conceptFqName)) {
       case 0:
-        return new CompiledConceptDescriptor("jetbrains.mps.xml.deprecated.structure.Attribute", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept", "jetbrains.mps.lang.core.structure.IDontSubstituteByDefault"}, new String[]{"value"}, new String[]{}, new String[]{}, new boolean[]{}, false, false, "", "attribute", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xml.deprecated.structure.Attribute").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept", "jetbrains.mps.lang.core.structure.IDontSubstituteByDefault").properties("value").alias("", "attribute").create();
       case 1:
-        return new CompiledConceptDescriptor("jetbrains.mps.xml.deprecated.structure.Document", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{"extension"}, new String[]{}, new String[]{"doctype", "rootElement"}, new boolean[]{false, false}, false, false, "", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xml.deprecated.structure.Document").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept").properties("extension").children(new String[]{"doctype", "rootElement"}, new boolean[]{false, false}).create();
       case 2:
-        return new CompiledConceptDescriptor("jetbrains.mps.xml.deprecated.structure.DocumentTypeDeclaration", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{}, new String[]{}, new String[]{"externalID"}, new boolean[]{false}, false, false, "", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xml.deprecated.structure.DocumentTypeDeclaration").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept").children(new String[]{"externalID"}, new boolean[]{false}).create();
       case 3:
-        return new CompiledConceptDescriptor("jetbrains.mps.xml.deprecated.structure.Element", "jetbrains.mps.xml.deprecated.structure.ElementPart", false, new String[]{"jetbrains.mps.xml.deprecated.structure.ElementPart"}, new String[]{"collapse"}, new String[]{}, new String[]{"attribute", "content"}, new boolean[]{true, true}, false, false, "<", "element", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xml.deprecated.structure.Element").super_("jetbrains.mps.xml.deprecated.structure.ElementPart").parents("jetbrains.mps.xml.deprecated.structure.ElementPart").properties("collapse").children(new String[]{"attribute", "content"}, new boolean[]{true, true}).alias("<", "element").create();
       case 4:
-        return new CompiledConceptDescriptor("jetbrains.mps.xml.deprecated.structure.ElementPart", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{}, new String[]{}, new String[]{}, new boolean[]{}, true, false, "", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xml.deprecated.structure.ElementPart").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept").abstract_().create();
       case 5:
-        return new CompiledConceptDescriptor("jetbrains.mps.xml.deprecated.structure.ExternalId", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{}, new String[]{}, new boolean[]{}, true, false, "", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xml.deprecated.structure.ExternalId").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").abstract_().create();
       case 6:
-        return new CompiledConceptDescriptor("jetbrains.mps.xml.deprecated.structure.PublicId", "jetbrains.mps.xml.deprecated.structure.ExternalId", false, new String[]{"jetbrains.mps.xml.deprecated.structure.ExternalId"}, new String[]{"publicID", "systemID"}, new String[]{}, new String[]{}, new boolean[]{}, false, false, "public id", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xml.deprecated.structure.PublicId").super_("jetbrains.mps.xml.deprecated.structure.ExternalId").parents("jetbrains.mps.xml.deprecated.structure.ExternalId").properties("publicID", "systemID").alias("public id", "").create();
       case 7:
-        return new CompiledConceptDescriptor("jetbrains.mps.xml.deprecated.structure.Text", "jetbrains.mps.xml.deprecated.structure.ElementPart", false, new String[]{"jetbrains.mps.xml.deprecated.structure.ElementPart", "jetbrains.mps.lang.core.structure.IDontSubstituteByDefault"}, new String[]{"text"}, new String[]{}, new String[]{}, new boolean[]{}, false, false, "", "text", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xml.deprecated.structure.Text").super_("jetbrains.mps.xml.deprecated.structure.ElementPart").parents("jetbrains.mps.xml.deprecated.structure.ElementPart", "jetbrains.mps.lang.core.structure.IDontSubstituteByDefault").properties("text").alias("", "text").create();
       default:
         return StructureAspectInterpreted.getInstance().getDescriptor(conceptFqName);
     }

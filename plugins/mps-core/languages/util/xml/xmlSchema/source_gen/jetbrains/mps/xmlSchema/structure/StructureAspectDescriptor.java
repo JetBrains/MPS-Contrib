@@ -4,7 +4,7 @@ package jetbrains.mps.xmlSchema.structure;
 
 import jetbrains.mps.smodel.runtime.ConceptDescriptor;
 import java.util.Arrays;
-import jetbrains.mps.smodel.runtime.impl.CompiledConceptDescriptor;
+import jetbrains.mps.smodel.runtime.impl.ConceptDescriptorBuilder;
 import jetbrains.mps.smodel.runtime.interpreted.StructureAspectInterpreted;
 
 public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.StructureAspectDescriptor {
@@ -14,89 +14,89 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
   public ConceptDescriptor getDescriptor(String conceptFqName) {
     switch (Arrays.binarySearch(stringSwitchCases_1htk8d_a0a0b, conceptFqName)) {
       case 0:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlSchema.structure.AttributeDeclaration", "jetbrains.mps.xmlSchema.structure.AttributeExpression", false, new String[]{"jetbrains.mps.xmlSchema.structure.AttributeExpression", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{"attributeName"}, new String[]{}, new String[]{"useAttribute", "type"}, new boolean[]{false, false}, false, false, "attribute", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlSchema.structure.AttributeDeclaration").super_("jetbrains.mps.xmlSchema.structure.AttributeExpression").parents("jetbrains.mps.xmlSchema.structure.AttributeExpression", "jetbrains.mps.lang.core.structure.INamedConcept").properties("attributeName").children(new String[]{"useAttribute", "type"}, new boolean[]{false, false}).alias("attribute", "").create();
       case 1:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlSchema.structure.AttributeExpression", "jetbrains.mps.xmlSchema.structure.TypeExpression", false, new String[]{"jetbrains.mps.xmlSchema.structure.TypeExpression"}, new String[]{}, new String[]{}, new String[]{}, new boolean[]{}, true, false, "", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlSchema.structure.AttributeExpression").super_("jetbrains.mps.xmlSchema.structure.TypeExpression").parents("jetbrains.mps.xmlSchema.structure.TypeExpression").abstract_().create();
       case 2:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlSchema.structure.AttributeGroup", "jetbrains.mps.xmlSchema.structure.Declaration", false, new String[]{"jetbrains.mps.xmlSchema.structure.Declaration"}, new String[]{"attributeGroupName"}, new String[]{}, new String[]{"attributeExpression"}, new boolean[]{true}, false, false, "attributeGroup", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlSchema.structure.AttributeGroup").super_("jetbrains.mps.xmlSchema.structure.Declaration").parents("jetbrains.mps.xmlSchema.structure.Declaration").properties("attributeGroupName").children(new String[]{"attributeExpression"}, new boolean[]{true}).alias("attributeGroup", "").create();
       case 3:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlSchema.structure.AttributeGroupReference", "jetbrains.mps.xmlSchema.structure.AttributeExpression", false, new String[]{"jetbrains.mps.xmlSchema.structure.AttributeExpression"}, new String[]{}, new String[]{"attributeGroup"}, new String[]{}, new boolean[]{}, false, false, "", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlSchema.structure.AttributeGroupReference").super_("jetbrains.mps.xmlSchema.structure.AttributeExpression").parents("jetbrains.mps.xmlSchema.structure.AttributeExpression").references("attributeGroup").create();
       case 4:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlSchema.structure.BooleanSchemaType", "jetbrains.mps.xmlSchema.structure.SchemaType", false, new String[]{"jetbrains.mps.xmlSchema.structure.SchemaType"}, new String[]{"defaultValue"}, new String[]{}, new String[]{}, new boolean[]{}, false, false, "boolean", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlSchema.structure.BooleanSchemaType").super_("jetbrains.mps.xmlSchema.structure.SchemaType").parents("jetbrains.mps.xmlSchema.structure.SchemaType").properties("defaultValue").alias("boolean", "").create();
       case 5:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlSchema.structure.BoundExpression", "jetbrains.mps.xmlSchema.structure.MaxOccursExpression", false, new String[]{"jetbrains.mps.xmlSchema.structure.MaxOccursExpression"}, new String[]{"maxOccurs"}, new String[]{}, new String[]{}, new boolean[]{}, false, false, "bound", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlSchema.structure.BoundExpression").super_("jetbrains.mps.xmlSchema.structure.MaxOccursExpression").parents("jetbrains.mps.xmlSchema.structure.MaxOccursExpression").properties("maxOccurs").alias("bound", "").create();
       case 6:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlSchema.structure.Choice", "jetbrains.mps.xmlSchema.structure.GroupExpression", false, new String[]{"jetbrains.mps.xmlSchema.structure.GroupExpression"}, new String[]{}, new String[]{}, new String[]{"typeExpressionList", "occursAttribute"}, new boolean[]{false, false}, false, false, "choice", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlSchema.structure.Choice").super_("jetbrains.mps.xmlSchema.structure.GroupExpression").parents("jetbrains.mps.xmlSchema.structure.GroupExpression").children(new String[]{"typeExpressionList", "occursAttribute"}, new boolean[]{false, false}).alias("choice", "").create();
       case 7:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlSchema.structure.ComplexContent", "jetbrains.mps.xmlSchema.structure.TypeExpression", false, new String[]{"jetbrains.mps.xmlSchema.structure.TypeExpression"}, new String[]{}, new String[]{}, new String[]{"contentItem"}, new boolean[]{false}, false, false, "complexContent", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlSchema.structure.ComplexContent").super_("jetbrains.mps.xmlSchema.structure.TypeExpression").parents("jetbrains.mps.xmlSchema.structure.TypeExpression").children(new String[]{"contentItem"}, new boolean[]{false}).alias("complexContent", "").create();
       case 8:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlSchema.structure.ComplexType", "jetbrains.mps.xmlSchema.structure.Declaration", false, new String[]{"jetbrains.mps.xmlSchema.structure.Declaration"}, new String[]{"typeName"}, new String[]{}, new String[]{"typeExpressionList", "mixedAttribute"}, new boolean[]{false, false}, false, false, "complexType", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlSchema.structure.ComplexType").super_("jetbrains.mps.xmlSchema.structure.Declaration").parents("jetbrains.mps.xmlSchema.structure.Declaration").properties("typeName").children(new String[]{"typeExpressionList", "mixedAttribute"}, new boolean[]{false, false}).alias("complexType", "").create();
       case 9:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlSchema.structure.ComplexTypeReference", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{"complexType"}, new String[]{}, new boolean[]{}, false, false, "", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlSchema.structure.ComplexTypeReference").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").references("complexType").create();
       case 10:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlSchema.structure.ContentItem", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{}, new String[]{"complexTypeReference"}, new boolean[]{false}, true, false, "", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlSchema.structure.ContentItem").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").children(new String[]{"complexTypeReference"}, new boolean[]{false}).abstract_().create();
       case 11:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlSchema.structure.Declaration", "jetbrains.mps.xmlSchema.structure.TypeExpression", false, new String[]{"jetbrains.mps.xmlSchema.structure.TypeExpression", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{}, new String[]{}, new String[]{}, new boolean[]{}, true, false, "", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlSchema.structure.Declaration").super_("jetbrains.mps.xmlSchema.structure.TypeExpression").parents("jetbrains.mps.xmlSchema.structure.TypeExpression", "jetbrains.mps.lang.core.structure.INamedConcept").abstract_().create();
       case 12:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlSchema.structure.DeclarationBlock", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{}, new String[]{"textLine", "declaration"}, new boolean[]{true, true}, false, false, "", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlSchema.structure.DeclarationBlock").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").children(new String[]{"textLine", "declaration"}, new boolean[]{true, true}).create();
       case 13:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlSchema.structure.ElementDeclaration", "jetbrains.mps.xmlSchema.structure.Declaration", false, new String[]{"jetbrains.mps.xmlSchema.structure.Declaration"}, new String[]{"elementName"}, new String[]{}, new String[]{}, new boolean[]{}, true, false, "", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlSchema.structure.ElementDeclaration").super_("jetbrains.mps.xmlSchema.structure.Declaration").parents("jetbrains.mps.xmlSchema.structure.Declaration").properties("elementName").abstract_().create();
       case 14:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlSchema.structure.ElementReference", "jetbrains.mps.xmlSchema.structure.TypeExpression", false, new String[]{"jetbrains.mps.xmlSchema.structure.TypeExpression"}, new String[]{}, new String[]{"elementDeclaration"}, new String[]{}, new boolean[]{}, false, false, "", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlSchema.structure.ElementReference").super_("jetbrains.mps.xmlSchema.structure.TypeExpression").parents("jetbrains.mps.xmlSchema.structure.TypeExpression").references("elementDeclaration").create();
       case 15:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlSchema.structure.ElementWithContent", "jetbrains.mps.xmlSchema.structure.ElementDeclaration", false, new String[]{"jetbrains.mps.xmlSchema.structure.ElementDeclaration"}, new String[]{}, new String[]{}, new String[]{"complexType"}, new boolean[]{false}, false, false, "elementWithContent", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlSchema.structure.ElementWithContent").super_("jetbrains.mps.xmlSchema.structure.ElementDeclaration").parents("jetbrains.mps.xmlSchema.structure.ElementDeclaration").children(new String[]{"complexType"}, new boolean[]{false}).alias("elementWithContent", "").create();
       case 16:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlSchema.structure.ElementWithType", "jetbrains.mps.xmlSchema.structure.ElementDeclaration", false, new String[]{"jetbrains.mps.xmlSchema.structure.ElementDeclaration"}, new String[]{}, new String[]{}, new String[]{"complexTypeReference", "occursAttribute"}, new boolean[]{false, false}, false, false, "elementWithType", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlSchema.structure.ElementWithType").super_("jetbrains.mps.xmlSchema.structure.ElementDeclaration").parents("jetbrains.mps.xmlSchema.structure.ElementDeclaration").children(new String[]{"complexTypeReference", "occursAttribute"}, new boolean[]{false, false}).alias("elementWithType", "").create();
       case 17:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlSchema.structure.EntityBlock", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.xmlSchema.structure.SchemaCommentable"}, new String[]{}, new String[]{}, new String[]{"entityLine"}, new boolean[]{true}, false, false, "", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlSchema.structure.EntityBlock").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.xmlSchema.structure.SchemaCommentable").children(new String[]{"entityLine"}, new boolean[]{true}).create();
       case 18:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlSchema.structure.EntityDeclaration", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{"entityName"}, new String[]{}, new String[]{}, new boolean[]{}, false, false, "", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlSchema.structure.EntityDeclaration").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").properties("entityName").create();
       case 19:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlSchema.structure.EntityLine", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.xmlSchema.structure.SchemaCommentable"}, new String[]{}, new String[]{}, new String[]{"entityDeclaration"}, new boolean[]{false}, false, false, "", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlSchema.structure.EntityLine").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.xmlSchema.structure.SchemaCommentable").children(new String[]{"entityDeclaration"}, new boolean[]{false}).create();
       case 20:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlSchema.structure.EntitySet", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{"entitySetName", "url"}, new String[]{}, new String[]{"entityBlock"}, new boolean[]{true}, false, false, "", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlSchema.structure.EntitySet").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept").properties("entitySetName", "url").children(new String[]{"entityBlock"}, new boolean[]{true}).create();
       case 21:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlSchema.structure.Extension", "jetbrains.mps.xmlSchema.structure.ContentItem", false, new String[]{"jetbrains.mps.xmlSchema.structure.ContentItem"}, new String[]{}, new String[]{}, new String[]{"typeExpressionList"}, new boolean[]{false}, false, false, "extension", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlSchema.structure.Extension").super_("jetbrains.mps.xmlSchema.structure.ContentItem").parents("jetbrains.mps.xmlSchema.structure.ContentItem").children(new String[]{"typeExpressionList"}, new boolean[]{false}).alias("extension", "").create();
       case 22:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlSchema.structure.GroupDeclaration", "jetbrains.mps.xmlSchema.structure.Declaration", false, new String[]{"jetbrains.mps.xmlSchema.structure.Declaration"}, new String[]{"groupName"}, new String[]{}, new String[]{"groupExpression"}, new boolean[]{false}, false, false, "group", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlSchema.structure.GroupDeclaration").super_("jetbrains.mps.xmlSchema.structure.Declaration").parents("jetbrains.mps.xmlSchema.structure.Declaration").properties("groupName").children(new String[]{"groupExpression"}, new boolean[]{false}).alias("group", "").create();
       case 23:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlSchema.structure.GroupExpression", "jetbrains.mps.xmlSchema.structure.TypeExpression", false, new String[]{"jetbrains.mps.xmlSchema.structure.TypeExpression"}, new String[]{}, new String[]{}, new String[]{}, new boolean[]{}, true, false, "", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlSchema.structure.GroupExpression").super_("jetbrains.mps.xmlSchema.structure.TypeExpression").parents("jetbrains.mps.xmlSchema.structure.TypeExpression").abstract_().create();
       case 24:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlSchema.structure.GroupReference", "jetbrains.mps.xmlSchema.structure.TypeExpression", false, new String[]{"jetbrains.mps.xmlSchema.structure.TypeExpression"}, new String[]{}, new String[]{"groupDeclaration"}, new String[]{}, new boolean[]{}, false, false, "", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlSchema.structure.GroupReference").super_("jetbrains.mps.xmlSchema.structure.TypeExpression").parents("jetbrains.mps.xmlSchema.structure.TypeExpression").references("groupDeclaration").create();
       case 25:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlSchema.structure.IntegerSchemaType", "jetbrains.mps.xmlSchema.structure.SchemaType", false, new String[]{"jetbrains.mps.xmlSchema.structure.SchemaType"}, new String[]{"defaultValue"}, new String[]{}, new String[]{}, new boolean[]{}, false, false, "integer", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlSchema.structure.IntegerSchemaType").super_("jetbrains.mps.xmlSchema.structure.SchemaType").parents("jetbrains.mps.xmlSchema.structure.SchemaType").properties("defaultValue").alias("integer", "").create();
       case 26:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlSchema.structure.MaxOccursExpression", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{}, new String[]{}, new boolean[]{}, true, false, "", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlSchema.structure.MaxOccursExpression").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").abstract_().create();
       case 27:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlSchema.structure.MixedAttribute", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{}, new String[]{}, new boolean[]{}, false, false, "mixed", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlSchema.structure.MixedAttribute").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").alias("mixed", "").create();
       case 28:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlSchema.structure.NamespaceDeclaration", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{"prefix", "uri"}, new String[]{}, new String[]{}, new boolean[]{}, false, false, "", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlSchema.structure.NamespaceDeclaration").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").properties("prefix", "uri").create();
       case 29:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlSchema.structure.OccursAttribute", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{"minOccurs"}, new String[]{}, new String[]{"maxOccurs"}, new boolean[]{false}, false, false, "", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlSchema.structure.OccursAttribute").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").properties("minOccurs").children(new String[]{"maxOccurs"}, new boolean[]{false}).create();
       case 30:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlSchema.structure.Schema", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{"schemaName", "schemaUrl", "alwaysUseRoot"}, new String[]{}, new String[]{"declarationBlock", "rootElementReference", "defaultNamespaceDeclaration"}, new boolean[]{true, false, false}, false, false, "", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlSchema.structure.Schema").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept").properties("schemaName", "schemaUrl", "alwaysUseRoot").children(new String[]{"declarationBlock", "rootElementReference", "defaultNamespaceDeclaration"}, new boolean[]{true, false, false}).create();
       case 31:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlSchema.structure.SchemaComment", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{}, new String[]{"text"}, new boolean[]{true}, false, false, "", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlSchema.structure.SchemaComment").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").children(new String[]{"text"}, new boolean[]{true}).create();
       case 32:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlSchema.structure.SchemaCommentable", null, true, new String[]{}, new String[]{}, new String[]{}, new String[]{"sComment"}, new boolean[]{false}, false, false, "", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlSchema.structure.SchemaCommentable").interface_().children(new String[]{"sComment"}, new boolean[]{false}).create();
       case 33:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlSchema.structure.SchemaType", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{}, new String[]{}, new boolean[]{}, true, false, "", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlSchema.structure.SchemaType").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").abstract_().create();
       case 34:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlSchema.structure.Sequence", "jetbrains.mps.xmlSchema.structure.GroupExpression", false, new String[]{"jetbrains.mps.xmlSchema.structure.GroupExpression"}, new String[]{}, new String[]{}, new String[]{"typeExpressionList"}, new boolean[]{false}, false, false, "sequence", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlSchema.structure.Sequence").super_("jetbrains.mps.xmlSchema.structure.GroupExpression").parents("jetbrains.mps.xmlSchema.structure.GroupExpression").children(new String[]{"typeExpressionList"}, new boolean[]{false}).alias("sequence", "").create();
       case 35:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlSchema.structure.SimpleContent", "jetbrains.mps.xmlSchema.structure.TypeExpression", false, new String[]{"jetbrains.mps.xmlSchema.structure.TypeExpression"}, new String[]{}, new String[]{}, new String[]{}, new boolean[]{}, false, false, "simpleContent", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlSchema.structure.SimpleContent").super_("jetbrains.mps.xmlSchema.structure.TypeExpression").parents("jetbrains.mps.xmlSchema.structure.TypeExpression").alias("simpleContent", "").create();
       case 36:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlSchema.structure.StringSchemaType", "jetbrains.mps.xmlSchema.structure.SchemaType", false, new String[]{"jetbrains.mps.xmlSchema.structure.SchemaType"}, new String[]{"defaultValue"}, new String[]{}, new String[]{}, new boolean[]{}, false, false, "string", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlSchema.structure.StringSchemaType").super_("jetbrains.mps.xmlSchema.structure.SchemaType").parents("jetbrains.mps.xmlSchema.structure.SchemaType").properties("defaultValue").alias("string", "").create();
       case 37:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlSchema.structure.TextLine", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{"line"}, new String[]{}, new String[]{}, new boolean[]{}, false, false, "", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlSchema.structure.TextLine").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").properties("line").create();
       case 38:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlSchema.structure.TypeExpression", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{}, new String[]{}, new String[]{}, new boolean[]{}, true, false, "", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlSchema.structure.TypeExpression").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").abstract_().create();
       case 39:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlSchema.structure.TypeExpressionList", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{"isVertical"}, new String[]{}, new String[]{"typeExpression"}, new boolean[]{true}, false, false, "", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlSchema.structure.TypeExpressionList").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").properties("isVertical").children(new String[]{"typeExpression"}, new boolean[]{true}).create();
       case 40:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlSchema.structure.UnboundExpression", "jetbrains.mps.xmlSchema.structure.MaxOccursExpression", false, new String[]{"jetbrains.mps.xmlSchema.structure.MaxOccursExpression"}, new String[]{}, new String[]{}, new String[]{}, new boolean[]{}, false, false, "unbound", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlSchema.structure.UnboundExpression").super_("jetbrains.mps.xmlSchema.structure.MaxOccursExpression").parents("jetbrains.mps.xmlSchema.structure.MaxOccursExpression").alias("unbound", "").create();
       case 41:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlSchema.structure.UseAttribute", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept"}, new String[]{"use"}, new String[]{}, new String[]{}, new boolean[]{}, false, false, "use", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlSchema.structure.UseAttribute").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").properties("use").alias("use", "").create();
       default:
         return StructureAspectInterpreted.getInstance().getDescriptor(conceptFqName);
     }

@@ -4,7 +4,7 @@ package jetbrains.mps.xmlQuery.structure;
 
 import jetbrains.mps.smodel.runtime.ConceptDescriptor;
 import java.util.Arrays;
-import jetbrains.mps.smodel.runtime.impl.CompiledConceptDescriptor;
+import jetbrains.mps.smodel.runtime.impl.ConceptDescriptorBuilder;
 import jetbrains.mps.smodel.runtime.interpreted.StructureAspectInterpreted;
 
 public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.StructureAspectDescriptor {
@@ -14,27 +14,27 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
   public ConceptDescriptor getDescriptor(String conceptFqName) {
     switch (Arrays.binarySearch(stringSwitchCases_1htk8d_a0a0b, conceptFqName)) {
       case 0:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlQuery.structure.AccessArbitraryAttributeOperation", "jetbrains.mps.xmlQuery.structure.XMLElementOperation", false, new String[]{"jetbrains.mps.xmlQuery.structure.XMLElementOperation"}, new String[]{}, new String[]{}, new String[]{"attributeNameExpression"}, new boolean[]{false}, false, false, "attribute", "arbitrary attribute", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlQuery.structure.AccessArbitraryAttributeOperation").super_("jetbrains.mps.xmlQuery.structure.XMLElementOperation").parents("jetbrains.mps.xmlQuery.structure.XMLElementOperation").children(new String[]{"attributeNameExpression"}, new boolean[]{false}).alias("attribute", "arbitrary attribute").create();
       case 1:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlQuery.structure.AccessArbitraryChildrenOperation", "jetbrains.mps.xmlQuery.structure.XMLElementOperation", false, new String[]{"jetbrains.mps.xmlQuery.structure.XMLElementOperation"}, new String[]{}, new String[]{}, new String[]{"childNameExpression"}, new boolean[]{false}, false, false, "child", "arbitrary child", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlQuery.structure.AccessArbitraryChildrenOperation").super_("jetbrains.mps.xmlQuery.structure.XMLElementOperation").parents("jetbrains.mps.xmlQuery.structure.XMLElementOperation").children(new String[]{"childNameExpression"}, new boolean[]{false}).alias("child", "arbitrary child").create();
       case 2:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlQuery.structure.AccessAttributeOperation", "jetbrains.mps.xmlQuery.structure.XMLElementOperation", false, new String[]{"jetbrains.mps.xmlQuery.structure.XMLElementOperation"}, new String[]{}, new String[]{"attributeDeclaration"}, new String[]{}, new boolean[]{}, false, false, "", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlQuery.structure.AccessAttributeOperation").super_("jetbrains.mps.xmlQuery.structure.XMLElementOperation").parents("jetbrains.mps.xmlQuery.structure.XMLElementOperation").references("attributeDeclaration").create();
       case 3:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlQuery.structure.AccessChildrenOperation", "jetbrains.mps.xmlQuery.structure.XMLElementOperation", false, new String[]{"jetbrains.mps.xmlQuery.structure.XMLElementOperation"}, new String[]{}, new String[]{"elementDeclaration"}, new String[]{}, new boolean[]{}, false, false, "", "access child operation", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlQuery.structure.AccessChildrenOperation").super_("jetbrains.mps.xmlQuery.structure.XMLElementOperation").parents("jetbrains.mps.xmlQuery.structure.XMLElementOperation").references("elementDeclaration").alias("", "access child operation").create();
       case 4:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlQuery.structure.AccessTextOperation", "jetbrains.mps.xmlQuery.structure.XMLElementOperation", false, new String[]{"jetbrains.mps.xmlQuery.structure.XMLElementOperation"}, new String[]{}, new String[]{}, new String[]{}, new boolean[]{}, false, false, "text", "access elements'text", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlQuery.structure.AccessTextOperation").super_("jetbrains.mps.xmlQuery.structure.XMLElementOperation").parents("jetbrains.mps.xmlQuery.structure.XMLElementOperation").alias("text", "access elements'text").create();
       case 5:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlQuery.structure.AttributeBuilder", "jetbrains.mps.baseLanguage.builders.structure.Builder", false, new String[]{"jetbrains.mps.baseLanguage.builders.structure.Builder"}, new String[]{}, new String[]{"attributeDeclaration"}, new String[]{"value"}, new boolean[]{false}, false, false, "", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlQuery.structure.AttributeBuilder").super_("jetbrains.mps.baseLanguage.builders.structure.Builder").parents("jetbrains.mps.baseLanguage.builders.structure.Builder").references("attributeDeclaration").children(new String[]{"value"}, new boolean[]{false}).create();
       case 6:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlQuery.structure.ElementBuilder", "jetbrains.mps.baseLanguage.builders.structure.Builder", false, new String[]{"jetbrains.mps.baseLanguage.builders.structure.Builder"}, new String[]{}, new String[]{"elementDeclaration"}, new String[]{}, new boolean[]{}, false, false, "", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlQuery.structure.ElementBuilder").super_("jetbrains.mps.baseLanguage.builders.structure.Builder").parents("jetbrains.mps.baseLanguage.builders.structure.Builder").references("elementDeclaration").create();
       case 7:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlQuery.structure.TextBuilder", "jetbrains.mps.baseLanguage.builders.structure.Builder", false, new String[]{"jetbrains.mps.baseLanguage.builders.structure.Builder"}, new String[]{}, new String[]{}, new String[]{"value"}, new boolean[]{false}, false, false, "text :", "XML element text", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlQuery.structure.TextBuilder").super_("jetbrains.mps.baseLanguage.builders.structure.Builder").parents("jetbrains.mps.baseLanguage.builders.structure.Builder").children(new String[]{"value"}, new boolean[]{false}).alias("text :", "XML element text").create();
       case 8:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlQuery.structure.XMLElementCreator", "jetbrains.mps.baseLanguage.structure.AbstractCreator", false, new String[]{"jetbrains.mps.baseLanguage.structure.AbstractCreator"}, new String[]{}, new String[]{}, new String[]{"type"}, new boolean[]{false}, false, false, "xml<>", "create new XML element", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlQuery.structure.XMLElementCreator").super_("jetbrains.mps.baseLanguage.structure.AbstractCreator").parents("jetbrains.mps.baseLanguage.structure.AbstractCreator").children(new String[]{"type"}, new boolean[]{false}).alias("xml<>", "create new XML element").create();
       case 9:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlQuery.structure.XMLElementOperation", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.baseLanguage.structure.IOperation"}, new String[]{}, new String[]{}, new String[]{}, new boolean[]{}, true, false, "", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlQuery.structure.XMLElementOperation").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.baseLanguage.structure.IOperation").abstract_().create();
       case 10:
-        return new CompiledConceptDescriptor("jetbrains.mps.xmlQuery.structure.XMLElementType", "jetbrains.mps.baseLanguage.structure.Type", false, new String[]{"jetbrains.mps.baseLanguage.structure.Type"}, new String[]{}, new String[]{"schema", "complexType"}, new String[]{}, new boolean[]{}, false, false, "xml<>", "", "");
+        return new ConceptDescriptorBuilder("jetbrains.mps.xmlQuery.structure.XMLElementType").super_("jetbrains.mps.baseLanguage.structure.Type").parents("jetbrains.mps.baseLanguage.structure.Type").references("schema", "complexType").alias("xml<>", "").create();
       default:
         return StructureAspectInterpreted.getInstance().getDescriptor(conceptFqName);
     }
