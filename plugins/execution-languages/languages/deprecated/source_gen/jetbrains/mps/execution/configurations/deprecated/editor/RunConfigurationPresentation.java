@@ -16,7 +16,7 @@ import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.smodel.IScope;
-import jetbrains.mps.project.IModule;
+import org.jetbrains.mps.openapi.module.SModule;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.project.AbstractModule;
 import jetbrains.mps.util.MacrosFactory;
@@ -132,7 +132,7 @@ public class RunConfigurationPresentation extends AbstractCellProvider {
 
   private static boolean renderingCondition_ltb2bm_a1b0(SNode node, EditorContext editorContext, IScope scope) {
     String path = null;
-    IModule module = SNodeOperations.getModel(node).getModule();
+    SModule module = SNodeOperations.getModel(node).getModule();
     if (module instanceof AbstractModule) {
       path = MacrosFactory.forModule((AbstractModule) module).expandPath(SPropertyOperations.getString(node, "iconPath"));
     }
@@ -197,8 +197,8 @@ public class RunConfigurationPresentation extends AbstractCellProvider {
   }
 
   private static JComponent _QueryFunction_JComponent_ltb2bm_a2b0(final SNode node, final EditorContext editorContext) {
-    IModule module = node.getModel().getModule();
-    if (module == null || module.getDescriptorFile() == null) {
+    SModule module = node.getModel().getModule();
+    if (module == null || ((AbstractModule)module).getDescriptorFile() == null) {
       return new JLabel("Icon");
     }
     return EditorUtil.createSelectIconButton(node, "iconPath", editorContext);

@@ -34,3 +34,4 @@ lib/*
 plugins/cvsIntegration/lib/*
 plugins/git4idea/lib/*.jar
 plugins/svn4idea/lib/*
+.mps/workspace.xml

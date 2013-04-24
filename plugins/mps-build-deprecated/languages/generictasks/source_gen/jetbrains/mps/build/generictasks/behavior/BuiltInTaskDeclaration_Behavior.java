@@ -16,7 +16,7 @@ import org.jetbrains.mps.openapi.model.SModel;
 import jetbrains.mps.smodel.ModuleRepositoryFacade;
 import jetbrains.mps.smodel.Language;
 import org.jetbrains.mps.openapi.module.SModuleReference;
-import jetbrains.mps.project.IModule;
+import org.jetbrains.mps.openapi.module.SModule;
 
 public class BuiltInTaskDeclaration_Behavior {
   public static void init(SNode thisNode) {
@@ -131,14 +131,14 @@ public class BuiltInTaskDeclaration_Behavior {
     return null;
   }
 
-  private static SModuleReference check_y5o5bz_a0a0a_0(IModule checkedDotOperand) {
+  private static SModuleReference check_y5o5bz_a0a0a_0(SModule checkedDotOperand) {
     if (null != checkedDotOperand) {
       return checkedDotOperand.getModuleReference();
     }
     return null;
   }
 
-  private static IModule check_y5o5bz_a0a0a0(SModel checkedDotOperand) {
+  private static SModule check_y5o5bz_a0a0a0(SModel checkedDotOperand) {
     if (null != checkedDotOperand) {
       return checkedDotOperand.getModule();
     }

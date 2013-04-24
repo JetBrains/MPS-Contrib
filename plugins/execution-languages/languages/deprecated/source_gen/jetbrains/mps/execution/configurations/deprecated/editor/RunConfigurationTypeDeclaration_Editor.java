@@ -20,7 +20,7 @@ import jetbrains.mps.nodeEditor.MPSFonts;
 import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.nodeEditor.BlockCells;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Indent;
-import jetbrains.mps.project.IModule;
+import org.jetbrains.mps.openapi.module.SModule;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.project.AbstractModule;
 import jetbrains.mps.util.MacrosFactory;
@@ -257,7 +257,7 @@ public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
 
   private static boolean renderingCondition_wgm1kr_a1c1b0(SNode node, EditorContext editorContext, IScope scope) {
     String path = null;
-    IModule module = SNodeOperations.getModel(node).getModule();
+    SModule module = SNodeOperations.getModel(node).getModule();
     if (module instanceof AbstractModule) {
       path = MacrosFactory.forModule((AbstractModule) module).expandPath(SPropertyOperations.getString(node, "iconPath"));
     }

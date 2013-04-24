@@ -4,13 +4,13 @@ package jetbrains.mps.gtext.behavior;
 
 import jetbrains.mps.baseLanguage.behavior.Expression_BehaviorDescriptor;
 import org.jetbrains.mps.openapi.model.SNode;
-import jetbrains.mps.project.IModule;
+import org.jetbrains.mps.openapi.module.SModule;
 
 public class BuilderContextRef_BehaviorDescriptor extends Expression_BehaviorDescriptor implements GTextConcept_BehaviorDescriptor {
   public BuilderContextRef_BehaviorDescriptor() {
   }
 
-  public Object virtual_eval_1213877519769(SNode thisNode, IModule module) {
+  public Object virtual_eval_1213877519769(SNode thisNode, SModule module) {
     return BuilderContextRef_Behavior.virtual_eval_1213877519769(thisNode, module);
   }
 

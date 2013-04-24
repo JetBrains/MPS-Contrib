@@ -11,7 +11,7 @@ import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import org.jetbrains.mps.openapi.model.SNode;
 import org.jetbrains.mps.openapi.model.SModel;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.project.IModule;
+import org.jetbrains.mps.openapi.module.SModule;
 import com.intellij.execution.configurations.GeneralCommandLine;
 import java.util.Set;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
@@ -105,11 +105,11 @@ public abstract class BaseRunner {
     if (model == null) {
       return null;
     }
-    IModule module = model.getModule();
+    SModule module = model.getModule();
     return this.getClasspath(module, true);
   }
 
-  protected String getClasspath(IModule module, boolean withDependencies) {
+  protected String getClasspath(SModule module, boolean withDependencies) {
     StringBuilder res = new StringBuilder();
     for (String cp : getModuleClasspath(module, withDependencies)) {
       res.append(cp).append(BaseRunner.ps());
@@ -148,7 +148,7 @@ public abstract class BaseRunner {
     return System.getProperty("path.separator");
   }
 
-  protected static Set<String> getModuleClasspath(IModule module, boolean withDependencies) {
+  protected static Set<String> getModuleClasspath(SModule module, boolean withDependencies) {
     Set<String> classpath = SetSequence.fromSet(new HashSet<String>());
     if (withDependencies) {
       SetSequence.fromSet(classpath).addSequence(SetSequence.fromSet(JavaModuleOperations.collectExecuteClasspath(Collections.singleton(module))));

@@ -24,7 +24,7 @@ import jetbrains.mps.util.FileUtil;
 import java.io.PrintWriter;
 import java.io.FileNotFoundException;
 import java.util.Set;
-import jetbrains.mps.project.IModule;
+import org.jetbrains.mps.openapi.module.SModule;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.HashSet;
 import jetbrains.mps.util.SNodeOperations;
@@ -184,13 +184,13 @@ public class UnitTestRunner extends BaseRunner {
   }
 
   public String getClasspathString(List<ITestNodeWrapper> list, List<String> additionalClassPath) {
-    Set<IModule> uniqueModules = SetSequence.fromSet(new HashSet<IModule>());
+    Set<SModule> uniqueModules = SetSequence.fromSet(new HashSet<SModule>());
     for (ITestNodeWrapper testable : list) {
-      IModule module = SNodeOperations.getModelFromNodeReference(((SNodePointer) testable.getNodePointer())).getModule();
+      SModule module = SNodeOperations.getModelFromNodeReference(((SNodePointer) testable.getNodePointer())).getModule();
       SetSequence.fromSet(uniqueModules).addElement(module);
     }
     Set<String> classpath = SetSequence.fromSet(new LinkedHashSet<String>());
-    for (IModule module : uniqueModules) {
+    for (SModule module : uniqueModules) {
       SetSequence.fromSet(classpath).addSequence(SetSequence.fromSet(BaseRunner.getModuleClasspath(module, true)));
     }
     ListSequence.fromList(additionalClassPath).addSequence(SetSequence.fromSet(classpath));
