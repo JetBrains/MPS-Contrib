@@ -24,8 +24,8 @@
   </dependency>
   <dependency className="jetbrains.mps.gtext.behavior.BuilderContextRef_Behavior" file="BuilderContextRef_Behavior.java">
     <classNode dependClassName="java.lang.Object" />
-    <classNode dependClassName="jetbrains.mps.project.IModule" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.module.SModule" />
   </dependency>
   <dependency className="jetbrains.mps.gtext.behavior.BuilderContextRef_BehaviorDescriptor" file="BuilderContextRef_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Object" />
@@ -34,8 +34,8 @@
     <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.Expression_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.gtext.behavior.BuilderContextRef_Behavior" />
     <classNode dependClassName="jetbrains.mps.gtext.behavior.GTextConcept_BehaviorDescriptor" />
-    <classNode dependClassName="jetbrains.mps.project.IModule" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.module.SModule" />
     <classNode extendsClassName="java.lang.Cloneable" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
