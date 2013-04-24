@@ -28,7 +28,6 @@ import jetbrains.mps.openapi.editor.style.StyleRegistry;
 import jetbrains.mps.nodeEditor.MPSColors;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Component;
 import javax.swing.JComponent;
-import jetbrains.mps.project.IModule;
 import javax.swing.JLabel;
 import jetbrains.mps.ide.editor.util.EditorUtil;
 
@@ -199,7 +198,7 @@ public class RunConfigurationPresentation extends AbstractCellProvider {
 
   private static JComponent _QueryFunction_JComponent_ltb2bm_a2b0(final SNode node, final EditorContext editorContext) {
     SModule module = node.getModel().getModule();
-    if (module == null || ((IModule) module).getDescriptorFile() == null) {
+    if (module == null || ((AbstractModule) module).getDescriptorFile() == null) {
       return new JLabel("Icon");
     }
     return EditorUtil.createSelectIconButton(node, "iconPath", editorContext);
