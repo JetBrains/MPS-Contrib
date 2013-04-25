@@ -11,6 +11,31 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.nodeEditor.DefaultNodeEditor" />
   </dependency>
+  <dependency className="jetbrains.mps.gtext.editor.EditorAspectDescriptorImpl" file="EditorAspectDescriptorImpl.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Arrays" />
+    <classNode dependClassName="java.util.Collection" />
+    <classNode dependClassName="java.util.Collections" />
+    <classNode dependClassName="jetbrains.mps.gtext.editor.BuilderContextRef_Editor" />
+    <classNode dependClassName="jetbrains.mps.gtext.editor.GConditionalLine_Editor" />
+    <classNode dependClassName="jetbrains.mps.gtext.editor.GContentBlock_Editor" />
+    <classNode dependClassName="jetbrains.mps.gtext.editor.GContentPlaceholder_Editor" />
+    <classNode dependClassName="jetbrains.mps.gtext.editor.GDocument_Editor" />
+    <classNode dependClassName="jetbrains.mps.gtext.editor.GExpressionItem_Editor" />
+    <classNode dependClassName="jetbrains.mps.gtext.editor.GIndentBlock_Editor" />
+    <classNode dependClassName="jetbrains.mps.gtext.editor.GIndent_Editor" />
+    <classNode dependClassName="jetbrains.mps.gtext.editor.GItemList_Editor" />
+    <classNode dependClassName="jetbrains.mps.gtext.editor.GItemStatement_Editor" />
+    <classNode dependClassName="jetbrains.mps.gtext.editor.GItem_Editor" />
+    <classNode dependClassName="jetbrains.mps.gtext.editor.GLine_Editor" />
+    <classNode dependClassName="jetbrains.mps.gtext.editor.GNewLine_Editor" />
+    <classNode dependClassName="jetbrains.mps.gtext.editor.GSeparatorItemList_Editor" />
+    <classNode dependClassName="jetbrains.mps.gtext.editor.GStatementItem_Editor" />
+    <classNode dependClassName="jetbrains.mps.gtext.editor.GText_Editor" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.descriptor.EditorAspect" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.ConceptDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.openapi.editor.descriptor.EditorAspectDescriptor" />
+  </dependency>
   <dependency className="jetbrains.mps.gtext.editor.GConditionalLine_Editor" file="GConditionalLine_Editor.java">
     <classNode dependClassName="java.lang.Class" />
     <classNode dependClassName="java.lang.String" />
