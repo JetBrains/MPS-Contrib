@@ -5,6 +5,7 @@ package jetbrains.mps.buildlanguage.structure;
 import jetbrains.mps.smodel.runtime.ConceptDescriptor;
 import java.util.Arrays;
 import jetbrains.mps.smodel.runtime.impl.ConceptDescriptorBuilder;
+import jetbrains.mps.smodel.runtime.StaticScope;
 import jetbrains.mps.smodel.runtime.interpreted.StructureAspectInterpreted;
 
 public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.StructureAspectDescriptor {
@@ -26,11 +27,11 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 5:
         return new ConceptDescriptorBuilder("jetbrains.mps.buildlanguage.structure.BooleanLiteral").super_("jetbrains.mps.buildlanguage.structure.PropertyValueExpression").parents("jetbrains.mps.buildlanguage.structure.PropertyValueExpression", "jetbrains.mps.lang.core.structure.IDontSubstituteByDefault").properties("value").alias("boolean literal", "boolean literal in build language").create();
       case 6:
-        return new ConceptDescriptorBuilder("jetbrains.mps.buildlanguage.structure.BooleanType").super_("jetbrains.mps.buildlanguage.structure.PropertyType").parents("jetbrains.mps.buildlanguage.structure.PropertyType").alias("boolean", "").create();
+        return new ConceptDescriptorBuilder("jetbrains.mps.buildlanguage.structure.BooleanType").super_("jetbrains.mps.buildlanguage.structure.PropertyType").parents("jetbrains.mps.buildlanguage.structure.PropertyType").alias("boolean", "").staticScope(StaticScope.NONE).create();
       case 7:
         return new ConceptDescriptorBuilder("jetbrains.mps.buildlanguage.structure.CallReference").super_("jetbrains.mps.buildlanguage.structure.PropertyValueExpression").parents("jetbrains.mps.buildlanguage.structure.PropertyValueExpression").references("call").create();
       case 8:
-        return new ConceptDescriptorBuilder("jetbrains.mps.buildlanguage.structure.CallReferenceType").super_("jetbrains.mps.buildlanguage.structure.PropertyType").parents("jetbrains.mps.buildlanguage.structure.PropertyType").alias("reference", "reference to a call").create();
+        return new ConceptDescriptorBuilder("jetbrains.mps.buildlanguage.structure.CallReferenceType").super_("jetbrains.mps.buildlanguage.structure.PropertyType").parents("jetbrains.mps.buildlanguage.structure.PropertyType").alias("reference", "reference to a call").staticScope(StaticScope.NONE).create();
       case 9:
         return new ConceptDescriptorBuilder("jetbrains.mps.buildlanguage.structure.Enum").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").children(new String[]{"constants"}, new boolean[]{true}).abstract_().create();
       case 10:
@@ -38,7 +39,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 11:
         return new ConceptDescriptorBuilder("jetbrains.mps.buildlanguage.structure.FileName").super_("jetbrains.mps.buildlanguage.structure.PropertyValueExpression").parents("jetbrains.mps.buildlanguage.structure.PropertyValueExpression").children(new String[]{"value"}, new boolean[]{false}).alias("file (", "file in build language").create();
       case 12:
-        return new ConceptDescriptorBuilder("jetbrains.mps.buildlanguage.structure.FileType").super_("jetbrains.mps.buildlanguage.structure.PropertyType").parents("jetbrains.mps.buildlanguage.structure.PropertyType").alias("file", "").create();
+        return new ConceptDescriptorBuilder("jetbrains.mps.buildlanguage.structure.FileType").super_("jetbrains.mps.buildlanguage.structure.PropertyType").parents("jetbrains.mps.buildlanguage.structure.PropertyType").alias("file", "").staticScope(StaticScope.NONE).create();
       case 13:
         return new ConceptDescriptorBuilder("jetbrains.mps.buildlanguage.structure.IAntScript").interface_().create();
       case 14:
@@ -64,7 +65,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 24:
         return new ConceptDescriptorBuilder("jetbrains.mps.buildlanguage.structure.IntegerEnum").super_("jetbrains.mps.buildlanguage.structure.Enum").parents("jetbrains.mps.buildlanguage.structure.Enum").alias("{ int }", "enum of integer").create();
       case 25:
-        return new ConceptDescriptorBuilder("jetbrains.mps.buildlanguage.structure.IntegerType").super_("jetbrains.mps.buildlanguage.structure.PropertyType").parents("jetbrains.mps.buildlanguage.structure.PropertyType").alias("integer", "").create();
+        return new ConceptDescriptorBuilder("jetbrains.mps.buildlanguage.structure.IntegerType").super_("jetbrains.mps.buildlanguage.structure.PropertyType").parents("jetbrains.mps.buildlanguage.structure.PropertyType").alias("integer", "").staticScope(StaticScope.NONE).create();
       case 26:
         return new ConceptDescriptorBuilder("jetbrains.mps.buildlanguage.structure.MultiLineString").super_("jetbrains.mps.buildlanguage.structure.PropertyValueExpression").parents("jetbrains.mps.buildlanguage.structure.PropertyValueExpression", "jetbrains.mps.lang.core.structure.INamedConcept").children(new String[]{"stringExpression"}, new boolean[]{true}).alias("multi-line expression", "multi-line expression in buildlanguage").create();
       case 27:
@@ -76,7 +77,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 30:
         return new ConceptDescriptorBuilder("jetbrains.mps.buildlanguage.structure.PropertyReference").super_("jetbrains.mps.buildlanguage.structure.PropertyValueExpression").parents("jetbrains.mps.buildlanguage.structure.PropertyValueExpression", "jetbrains.mps.lang.core.structure.INamedConcept").references("propertyDeclaration").create();
       case 31:
-        return new ConceptDescriptorBuilder("jetbrains.mps.buildlanguage.structure.PropertyType").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").abstract_().create();
+        return new ConceptDescriptorBuilder("jetbrains.mps.buildlanguage.structure.PropertyType").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").abstract_().staticScope(StaticScope.NONE).create();
       case 32:
         return new ConceptDescriptorBuilder("jetbrains.mps.buildlanguage.structure.PropertyValueExpression").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.buildlanguage.structure.ISource").abstract_().create();
       case 33:
@@ -84,7 +85,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 34:
         return new ConceptDescriptorBuilder("jetbrains.mps.buildlanguage.structure.StringLiteral").super_("jetbrains.mps.buildlanguage.structure.PropertyValueExpression").parents("jetbrains.mps.buildlanguage.structure.PropertyValueExpression", "jetbrains.mps.lang.core.structure.INamedConcept").properties("value").alias("\"\"", "string literal in build language").create();
       case 35:
-        return new ConceptDescriptorBuilder("jetbrains.mps.buildlanguage.structure.StringType").super_("jetbrains.mps.buildlanguage.structure.PropertyType").parents("jetbrains.mps.buildlanguage.structure.PropertyType").alias("string", "").create();
+        return new ConceptDescriptorBuilder("jetbrains.mps.buildlanguage.structure.StringType").super_("jetbrains.mps.buildlanguage.structure.PropertyType").parents("jetbrains.mps.buildlanguage.structure.PropertyType").alias("string", "").staticScope(StaticScope.NONE).create();
       case 36:
         return new ConceptDescriptorBuilder("jetbrains.mps.buildlanguage.structure.TargetDeclaration").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.buildlanguage.structure.IProjectComponent", "jetbrains.mps.buildlanguage.structure.IPropertyHolder", "jetbrains.mps.buildlanguage.structure.ICommented").properties("if", "unless").children(new String[]{"taskCall", "depends", "propertyList"}, new boolean[]{true, true, true}).alias("target", "").create();
       case 37:

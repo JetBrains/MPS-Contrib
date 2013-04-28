@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="StructureAspectDescriptor.java" startLine="10" startPosition="0" endLine="171" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.StructureAspectDescriptor" />
+  <unitInfo fileName="StructureAspectDescriptor.java" startLine="11" startPosition="0" endLine="172" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.structure.StructureAspectDescriptor" />
   <root nodeRef="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)/1172075151844">
     <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="17" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myName" />
     <nodeInfo nodeId="1172075151844" fileName="CompareType.java" startLine="19" startPosition="27" endLine="20" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
