@@ -56,6 +56,12 @@ public class ElementBuilder_Editor extends DefaultNodeEditor {
       super(role);
     }
 
+    public _Inline_wmom6u_a0a() {
+      super();
+    }
+
+
+
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
     }

@@ -73,7 +73,7 @@ public class FormatPeriodExpression_Editor extends DefaultNodeEditor {
     provider.setRole("format");
     provider.setNoTargetText("<no format>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new FormatPeriodExpression_Editor._Inline_6favmm_a2a());
+    provider.setAuxiliaryCellProvider(new FormatPeriodExpression_Editor._Inline_6favmm_a2a("format"));
     editorCell = provider.createEditorCell(editorContext);
     FormatPeriodExpression_delete.setCellActions(editorCell, node, editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
@@ -88,9 +88,15 @@ public class FormatPeriodExpression_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_6favmm_a2a extends InlineCellProvider {
+    public _Inline_6favmm_a2a(String role) {
+      super(role);
+    }
+
     public _Inline_6favmm_a2a() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
@@ -152,7 +158,7 @@ public class FormatPeriodExpression_Editor extends DefaultNodeEditor {
     provider.setRole("locale");
     provider.setNoTargetText("<no locale>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new FormatPeriodExpression_Editor._Inline_6favmm_a1d0());
+    provider.setAuxiliaryCellProvider(new FormatPeriodExpression_Editor._Inline_6favmm_a1d0("locale"));
     editorCell = provider.createEditorCell(editorContext);
     FormatPeriodExpression_deleteLocale.setCellActions(editorCell, node, editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
@@ -167,9 +173,15 @@ public class FormatPeriodExpression_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_6favmm_a1d0 extends InlineCellProvider {
+    public _Inline_6favmm_a1d0(String role) {
+      super(role);
+    }
+
     public _Inline_6favmm_a1d0() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
@@ -241,7 +253,7 @@ public class FormatPeriodExpression_Editor extends DefaultNodeEditor {
     provider.setRole("locale");
     provider.setNoTargetText("<no locale>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new FormatPeriodExpression_Editor._Inline_6favmm_a1a0());
+    provider.setAuxiliaryCellProvider(new FormatPeriodExpression_Editor._Inline_6favmm_a1a0("locale"));
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -255,9 +267,15 @@ public class FormatPeriodExpression_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_6favmm_a1a0 extends InlineCellProvider {
+    public _Inline_6favmm_a1a0(String role) {
+      super(role);
+    }
+
     public _Inline_6favmm_a1a0() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());

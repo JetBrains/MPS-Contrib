@@ -78,7 +78,7 @@ public class PeriodConstant_Editor extends DefaultNodeEditor {
     provider.setRole("dateTimeProperty");
     provider.setNoTargetText("<no dateTimeProperty>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new PeriodConstant_Editor._Inline_x7xgz7_a0b0());
+    provider.setAuxiliaryCellProvider(new PeriodConstant_Editor._Inline_x7xgz7_a0b0("dateTimeProperty"));
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -92,9 +92,15 @@ public class PeriodConstant_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_x7xgz7_a0b0 extends InlineCellProvider {
+    public _Inline_x7xgz7_a0b0(String role) {
+      super(role);
+    }
+
     public _Inline_x7xgz7_a0b0() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
@@ -132,7 +138,7 @@ public class PeriodConstant_Editor extends DefaultNodeEditor {
     provider.setRole("dateTimeProperty");
     provider.setNoTargetText("<no dateTimeProperty>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new PeriodConstant_Editor._Inline_x7xgz7_a0b0_0());
+    provider.setAuxiliaryCellProvider(new PeriodConstant_Editor._Inline_x7xgz7_a0b0_0("dateTimeProperty"));
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -146,9 +152,15 @@ public class PeriodConstant_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_x7xgz7_a0b0_0 extends InlineCellProvider {
+    public _Inline_x7xgz7_a0b0_0(String role) {
+      super(role);
+    }
+
     public _Inline_x7xgz7_a0b0_0() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());

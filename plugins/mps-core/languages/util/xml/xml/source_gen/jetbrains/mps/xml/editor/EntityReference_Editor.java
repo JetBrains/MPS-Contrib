@@ -48,7 +48,7 @@ public class EntityReference_Editor extends DefaultNodeEditor {
     provider.setRole("entityDeclaration");
     provider.setNoTargetText("<no entityDeclaration>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new EntityReference_Editor._Inline_jj82vm_a1a());
+    provider.setAuxiliaryCellProvider(new EntityReference_Editor._Inline_jj82vm_a1a("entityDeclaration"));
     editorCell = provider.createEditorCell(editorContext);
     Style style = new StyleImpl();
     style.set(StyleAttributes.LAYOUT_CONSTRAINT, "punctuation");
@@ -65,9 +65,15 @@ public class EntityReference_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_jj82vm_a1a extends InlineCellProvider {
+    public _Inline_jj82vm_a1a(String role) {
+      super(role);
+    }
+
     public _Inline_jj82vm_a1a() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());

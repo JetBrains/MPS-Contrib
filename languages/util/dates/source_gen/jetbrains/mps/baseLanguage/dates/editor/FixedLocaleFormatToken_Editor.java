@@ -54,7 +54,7 @@ public class FixedLocaleFormatToken_Editor extends DefaultNodeEditor {
     provider.setRole("locale");
     provider.setNoTargetText("<no locale>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new FixedLocaleFormatToken_Editor._Inline_gkiggc_a1a());
+    provider.setAuxiliaryCellProvider(new FixedLocaleFormatToken_Editor._Inline_gkiggc_a1a("locale"));
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -68,9 +68,15 @@ public class FixedLocaleFormatToken_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_gkiggc_a1a extends InlineCellProvider {
+    public _Inline_gkiggc_a1a(String role) {
+      super(role);
+    }
+
     public _Inline_gkiggc_a1a() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
@@ -129,7 +135,7 @@ public class FixedLocaleFormatToken_Editor extends DefaultNodeEditor {
     provider.setRole("dateFormat");
     provider.setNoTargetText("<no dateFormat>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new FixedLocaleFormatToken_Editor._Inline_gkiggc_a4a());
+    provider.setAuxiliaryCellProvider(new FixedLocaleFormatToken_Editor._Inline_gkiggc_a4a("dateFormat"));
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -143,9 +149,15 @@ public class FixedLocaleFormatToken_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_gkiggc_a4a extends InlineCellProvider {
+    public _Inline_gkiggc_a4a(String role) {
+      super(role);
+    }
+
     public _Inline_gkiggc_a4a() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());

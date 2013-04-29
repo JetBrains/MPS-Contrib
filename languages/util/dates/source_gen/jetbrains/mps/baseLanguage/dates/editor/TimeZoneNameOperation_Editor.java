@@ -177,7 +177,7 @@ public class TimeZoneNameOperation_Editor extends DefaultNodeEditor {
     provider.setRole("locale");
     provider.setNoTargetText("<no locale>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new TimeZoneNameOperation_Editor._Inline_vkak8k_a2f0());
+    provider.setAuxiliaryCellProvider(new TimeZoneNameOperation_Editor._Inline_vkak8k_a2f0("locale"));
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -191,9 +191,15 @@ public class TimeZoneNameOperation_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_vkak8k_a2f0 extends InlineCellProvider {
+    public _Inline_vkak8k_a2f0(String role) {
+      super(role);
+    }
+
     public _Inline_vkak8k_a2f0() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
@@ -265,7 +271,7 @@ public class TimeZoneNameOperation_Editor extends DefaultNodeEditor {
     provider.setRole("locale");
     provider.setNoTargetText("<no locale>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new TimeZoneNameOperation_Editor._Inline_vkak8k_a1a0());
+    provider.setAuxiliaryCellProvider(new TimeZoneNameOperation_Editor._Inline_vkak8k_a1a0("locale"));
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -279,9 +285,15 @@ public class TimeZoneNameOperation_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_vkak8k_a1a0 extends InlineCellProvider {
+    public _Inline_vkak8k_a1a0(String role) {
+      super(role);
+    }
+
     public _Inline_vkak8k_a1a0() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());

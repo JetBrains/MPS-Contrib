@@ -155,7 +155,7 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
     provider.setRole("datetimeProperty");
     provider.setNoTargetText("<no datetimeProperty>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new DateTimeCompareOperation_Editor._Inline_ehy6fr_a1e0());
+    provider.setAuxiliaryCellProvider(new DateTimeCompareOperation_Editor._Inline_ehy6fr_a1e0("datetimeProperty"));
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -169,9 +169,15 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_ehy6fr_a1e0 extends InlineCellProvider {
+    public _Inline_ehy6fr_a1e0(String role) {
+      super(role);
+    }
+
     public _Inline_ehy6fr_a1e0() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());

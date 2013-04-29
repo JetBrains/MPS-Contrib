@@ -126,7 +126,7 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
     provider.setRole("dateFormat");
     provider.setNoTargetText("<no dateFormat>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new FormatExpression_Editor._Inline_vqr4da_a3a());
+    provider.setAuxiliaryCellProvider(new FormatExpression_Editor._Inline_vqr4da_a3a("dateFormat"));
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -140,9 +140,15 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_vqr4da_a3a extends InlineCellProvider {
+    public _Inline_vqr4da_a3a(String role) {
+      super(role);
+    }
+
     public _Inline_vqr4da_a3a() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
@@ -209,7 +215,7 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
     provider.setRole("locale");
     provider.setNoTargetText("<no locale>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new FormatExpression_Editor._Inline_vqr4da_a1e0());
+    provider.setAuxiliaryCellProvider(new FormatExpression_Editor._Inline_vqr4da_a1e0("locale"));
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -223,9 +229,15 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_vqr4da_a1e0 extends InlineCellProvider {
+    public _Inline_vqr4da_a1e0(String role) {
+      super(role);
+    }
+
     public _Inline_vqr4da_a1e0() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
@@ -295,7 +307,7 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
     provider.setRole("locale");
     provider.setNoTargetText("<no locale>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new FormatExpression_Editor._Inline_vqr4da_a1a0());
+    provider.setAuxiliaryCellProvider(new FormatExpression_Editor._Inline_vqr4da_a1a0("locale"));
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -309,9 +321,15 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_vqr4da_a1a0 extends InlineCellProvider {
+    public _Inline_vqr4da_a1a0(String role) {
+      super(role);
+    }
+
     public _Inline_vqr4da_a1a0() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());

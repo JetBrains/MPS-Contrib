@@ -53,6 +53,12 @@ public class AccessChildrenOperation_Editor extends DefaultNodeEditor {
       super(role);
     }
 
+    public _Inline_td7a8k_a0a() {
+      super();
+    }
+
+
+
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
     }

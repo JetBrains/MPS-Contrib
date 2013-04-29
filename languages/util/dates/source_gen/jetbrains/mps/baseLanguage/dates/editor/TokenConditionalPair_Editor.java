@@ -77,7 +77,7 @@ public class TokenConditionalPair_Editor extends DefaultNodeEditor {
     provider.setRole("format");
     provider.setNoTargetText("<no format>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new TokenConditionalPair_Editor._Inline_ar9cj6_a2a());
+    provider.setAuxiliaryCellProvider(new TokenConditionalPair_Editor._Inline_ar9cj6_a2a("format"));
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -91,9 +91,15 @@ public class TokenConditionalPair_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_ar9cj6_a2a extends InlineCellProvider {
+    public _Inline_ar9cj6_a2a(String role) {
+      super(role);
+    }
+
     public _Inline_ar9cj6_a2a() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());

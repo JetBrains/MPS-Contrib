@@ -37,7 +37,7 @@ public class PropertyReference_Editor extends DefaultNodeEditor {
     provider.setRole("propertyDeclaration");
     provider.setNoTargetText("<no propertyDeclaration>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new PropertyReference_Editor._Inline_5yutfv_a0a());
+    provider.setAuxiliaryCellProvider(new PropertyReference_Editor._Inline_5yutfv_a0a("propertyDeclaration"));
     editorCell = provider.createEditorCell(editorContext);
     Style style = new StyleImpl();
     BuildLanguageStyle_StyleSheet.applyProperty(style, editorCell);
@@ -54,9 +54,15 @@ public class PropertyReference_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_5yutfv_a0a extends InlineCellProvider {
+    public _Inline_5yutfv_a0a(String role) {
+      super(role);
+    }
+
     public _Inline_5yutfv_a0a() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());

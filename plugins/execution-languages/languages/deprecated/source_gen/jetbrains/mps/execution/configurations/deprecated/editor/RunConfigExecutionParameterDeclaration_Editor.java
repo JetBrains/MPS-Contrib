@@ -82,7 +82,7 @@ public class RunConfigExecutionParameterDeclaration_Editor extends DefaultNodeEd
     provider.setRole("key");
     provider.setNoTargetText("<no key>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new RunConfigExecutionParameterDeclaration_Editor._Inline_ystr20_a3a());
+    provider.setAuxiliaryCellProvider(new RunConfigExecutionParameterDeclaration_Editor._Inline_ystr20_a3a("key"));
     editorCell = provider.createEditorCell(editorContext);
     if (true) {
       editorCell.getStyle().set(StyleAttributes.FOCUS_POLICY, FocusPolicy.FIRST_EDITABLE_CELL);
@@ -99,9 +99,15 @@ public class RunConfigExecutionParameterDeclaration_Editor extends DefaultNodeEd
   }
 
   public static class _Inline_ystr20_a3a extends InlineCellProvider {
+    public _Inline_ystr20_a3a(String role) {
+      super(role);
+    }
+
     public _Inline_ystr20_a3a() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());

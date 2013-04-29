@@ -50,7 +50,7 @@ public class Element_elementDeclaration extends AbstractCellProvider {
     provider.setRole("elementDeclaration");
     provider.setNoTargetText("<no elementDeclaration>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new Element_elementDeclaration._Inline_vbcaz4_a0a());
+    provider.setAuxiliaryCellProvider(new Element_elementDeclaration._Inline_vbcaz4_a0a("elementDeclaration"));
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -64,9 +64,15 @@ public class Element_elementDeclaration extends AbstractCellProvider {
   }
 
   public static class _Inline_vbcaz4_a0a extends InlineCellProvider {
+    public _Inline_vbcaz4_a0a(String role) {
+      super(role);
+    }
+
     public _Inline_vbcaz4_a0a() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());

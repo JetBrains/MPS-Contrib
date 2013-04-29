@@ -34,7 +34,7 @@ public class DurationTypeReference_Editor extends DefaultNodeEditor {
     provider.setRole("durationType");
     provider.setNoTargetText("<no durationType>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new DurationTypeReference_Editor._Inline_tvcoif_a0a());
+    provider.setAuxiliaryCellProvider(new DurationTypeReference_Editor._Inline_tvcoif_a0a("durationType"));
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -48,9 +48,15 @@ public class DurationTypeReference_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_tvcoif_a0a extends InlineCellProvider {
+    public _Inline_tvcoif_a0a(String role) {
+      super(role);
+    }
+
     public _Inline_tvcoif_a0a() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());

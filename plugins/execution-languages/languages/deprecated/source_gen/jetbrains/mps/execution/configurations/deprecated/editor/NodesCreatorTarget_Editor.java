@@ -59,7 +59,7 @@ public class NodesCreatorTarget_Editor extends DefaultNodeEditor {
     provider.setRole("concept");
     provider.setNoTargetText("<no concept>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new NodesCreatorTarget_Editor._Inline_rvtiuo_a2a());
+    provider.setAuxiliaryCellProvider(new NodesCreatorTarget_Editor._Inline_rvtiuo_a2a("concept"));
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -73,9 +73,15 @@ public class NodesCreatorTarget_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_rvtiuo_a2a extends InlineCellProvider {
+    public _Inline_rvtiuo_a2a(String role) {
+      super(role);
+    }
+
     public _Inline_rvtiuo_a2a() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());

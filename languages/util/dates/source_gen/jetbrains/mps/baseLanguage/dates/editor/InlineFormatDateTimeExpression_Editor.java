@@ -200,7 +200,7 @@ public class InlineFormatDateTimeExpression_Editor extends DefaultNodeEditor {
     provider.setRole("locale");
     provider.setNoTargetText("<no locale>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new InlineFormatDateTimeExpression_Editor._Inline_wdrux0_a1f0());
+    provider.setAuxiliaryCellProvider(new InlineFormatDateTimeExpression_Editor._Inline_wdrux0_a1f0("locale"));
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -214,9 +214,15 @@ public class InlineFormatDateTimeExpression_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_wdrux0_a1f0 extends InlineCellProvider {
+    public _Inline_wdrux0_a1f0(String role) {
+      super(role);
+    }
+
     public _Inline_wdrux0_a1f0() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
@@ -291,7 +297,7 @@ public class InlineFormatDateTimeExpression_Editor extends DefaultNodeEditor {
     provider.setRole("locale");
     provider.setNoTargetText("<no locale>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new InlineFormatDateTimeExpression_Editor._Inline_wdrux0_a1a0());
+    provider.setAuxiliaryCellProvider(new InlineFormatDateTimeExpression_Editor._Inline_wdrux0_a1a0("locale"));
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -305,9 +311,15 @@ public class InlineFormatDateTimeExpression_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_wdrux0_a1a0 extends InlineCellProvider {
+    public _Inline_wdrux0_a1a0(String role) {
+      super(role);
+    }
+
     public _Inline_wdrux0_a1a0() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());

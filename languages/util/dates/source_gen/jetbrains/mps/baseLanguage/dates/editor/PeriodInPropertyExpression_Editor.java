@@ -66,7 +66,7 @@ public class PeriodInPropertyExpression_Editor extends DefaultNodeEditor {
     provider.setRole("datetimeProperty");
     provider.setNoTargetText("<no datetimeProperty>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new PeriodInPropertyExpression_Editor._Inline_krji64_a2a());
+    provider.setAuxiliaryCellProvider(new PeriodInPropertyExpression_Editor._Inline_krji64_a2a("datetimeProperty"));
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -80,9 +80,15 @@ public class PeriodInPropertyExpression_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_krji64_a2a extends InlineCellProvider {
+    public _Inline_krji64_a2a(String role) {
+      super(role);
+    }
+
     public _Inline_krji64_a2a() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());

@@ -80,7 +80,7 @@ public class FormatDateTimeExpression_Editor extends DefaultNodeEditor {
     provider.setRole("dateFormat");
     provider.setNoTargetText("<no dateFormat>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new FormatDateTimeExpression_Editor._Inline_3ctnox_a2a());
+    provider.setAuxiliaryCellProvider(new FormatDateTimeExpression_Editor._Inline_3ctnox_a2a("dateFormat"));
     editorCell = provider.createEditorCell(editorContext);
     Style style = new StyleImpl();
     style.set(StyleAttributes.RT_ANCHOR_TAG, "default_RTransform");
@@ -98,9 +98,15 @@ public class FormatDateTimeExpression_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_3ctnox_a2a extends InlineCellProvider {
+    public _Inline_3ctnox_a2a(String role) {
+      super(role);
+    }
+
     public _Inline_3ctnox_a2a() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
@@ -165,7 +171,7 @@ public class FormatDateTimeExpression_Editor extends DefaultNodeEditor {
     provider.setRole("locale");
     provider.setNoTargetText("<no locale>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new FormatDateTimeExpression_Editor._Inline_3ctnox_a1d0());
+    provider.setAuxiliaryCellProvider(new FormatDateTimeExpression_Editor._Inline_3ctnox_a1d0("locale"));
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -179,9 +185,15 @@ public class FormatDateTimeExpression_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_3ctnox_a1d0 extends InlineCellProvider {
+    public _Inline_3ctnox_a1d0(String role) {
+      super(role);
+    }
+
     public _Inline_3ctnox_a1d0() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
@@ -253,7 +265,7 @@ public class FormatDateTimeExpression_Editor extends DefaultNodeEditor {
     provider.setRole("locale");
     provider.setNoTargetText("<no locale>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new FormatDateTimeExpression_Editor._Inline_3ctnox_a1a0());
+    provider.setAuxiliaryCellProvider(new FormatDateTimeExpression_Editor._Inline_3ctnox_a1a0("locale"));
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -267,9 +279,15 @@ public class FormatDateTimeExpression_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_3ctnox_a1a0 extends InlineCellProvider {
+    public _Inline_3ctnox_a1a0(String role) {
+      super(role);
+    }
+
     public _Inline_3ctnox_a1a0() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());

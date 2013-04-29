@@ -91,7 +91,7 @@ public class RunConfigurationHeader extends AbstractCellProvider {
     provider.setRole("configType");
     provider.setNoTargetText("<no configType>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new RunConfigurationHeader._Inline_bqmo2k_a3a());
+    provider.setAuxiliaryCellProvider(new RunConfigurationHeader._Inline_bqmo2k_a3a("configType"));
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -105,9 +105,15 @@ public class RunConfigurationHeader extends AbstractCellProvider {
   }
 
   public static class _Inline_bqmo2k_a3a extends InlineCellProvider {
+    public _Inline_bqmo2k_a3a(String role) {
+      super(role);
+    }
+
     public _Inline_bqmo2k_a3a() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());

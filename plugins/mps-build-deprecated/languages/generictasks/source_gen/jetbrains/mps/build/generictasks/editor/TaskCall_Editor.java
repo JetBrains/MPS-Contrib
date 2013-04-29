@@ -131,7 +131,7 @@ public class TaskCall_Editor extends DefaultNodeEditor {
     provider.setRole("declaration");
     provider.setNoTargetText("<no declaration>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new TaskCall_Editor._Inline_fr7f84_a0b0());
+    provider.setAuxiliaryCellProvider(new TaskCall_Editor._Inline_fr7f84_a0b0("declaration"));
     editorCell = provider.createEditorCell(editorContext);
     Style style = new StyleImpl();
     BuildLanguageStyle_StyleSheet.applyTask(style, editorCell);
@@ -148,9 +148,15 @@ public class TaskCall_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_fr7f84_a0b0 extends InlineCellProvider {
+    public _Inline_fr7f84_a0b0(String role) {
+      super(role);
+    }
+
     public _Inline_fr7f84_a0b0() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
@@ -189,7 +195,7 @@ public class TaskCall_Editor extends DefaultNodeEditor {
     provider.setRole("declaration");
     provider.setNoTargetText("<no declaration>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new TaskCall_Editor._Inline_fr7f84_a1b0());
+    provider.setAuxiliaryCellProvider(new TaskCall_Editor._Inline_fr7f84_a1b0("declaration"));
     editorCell = provider.createEditorCell(editorContext);
     Style style = new StyleImpl();
     BuildLanguageStyle_StyleSheet.applyDepractaedAttributeName(style, editorCell);
@@ -206,9 +212,15 @@ public class TaskCall_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_fr7f84_a1b0 extends InlineCellProvider {
+    public _Inline_fr7f84_a1b0(String role) {
+      super(role);
+    }
+
     public _Inline_fr7f84_a1b0() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());

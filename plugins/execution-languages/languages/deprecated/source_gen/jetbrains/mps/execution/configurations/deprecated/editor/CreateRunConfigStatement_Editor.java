@@ -58,7 +58,7 @@ public class CreateRunConfigStatement_Editor extends DefaultNodeEditor {
     provider.setRole("runConfig");
     provider.setNoTargetText("<no runConfig>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new CreateRunConfigStatement_Editor._Inline_u5c1mf_a1a());
+    provider.setAuxiliaryCellProvider(new CreateRunConfigStatement_Editor._Inline_u5c1mf_a1a("runConfig"));
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -72,9 +72,15 @@ public class CreateRunConfigStatement_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_u5c1mf_a1a extends InlineCellProvider {
+    public _Inline_u5c1mf_a1a(String role) {
+      super(role);
+    }
+
     public _Inline_u5c1mf_a1a() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());

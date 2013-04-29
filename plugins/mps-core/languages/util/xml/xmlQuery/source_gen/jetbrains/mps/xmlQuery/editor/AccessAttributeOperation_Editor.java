@@ -53,6 +53,12 @@ public class AccessAttributeOperation_Editor extends DefaultNodeEditor {
       super(role);
     }
 
+    public _Inline_y4ce_a0a() {
+      super();
+    }
+
+
+
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
     }

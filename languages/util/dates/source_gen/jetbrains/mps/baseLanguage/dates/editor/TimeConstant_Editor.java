@@ -64,7 +64,7 @@ public class TimeConstant_Editor extends DefaultNodeEditor {
     provider.setRole("month");
     provider.setNoTargetText("<no month>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new TimeConstant_Editor._Inline_r2b8x9_a1a());
+    provider.setAuxiliaryCellProvider(new TimeConstant_Editor._Inline_r2b8x9_a1a("month"));
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -78,9 +78,15 @@ public class TimeConstant_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_r2b8x9_a1a extends InlineCellProvider {
+    public _Inline_r2b8x9_a1a(String role) {
+      super(role);
+    }
+
     public _Inline_r2b8x9_a1a() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());

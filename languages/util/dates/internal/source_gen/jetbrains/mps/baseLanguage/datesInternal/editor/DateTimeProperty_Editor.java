@@ -119,7 +119,7 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     provider.setRole("jodaDateTimeFieldType");
     provider.setNoTargetText("<no jodaDateTimeFieldType>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new DateTimeProperty_Editor._Inline_kwu3ge_a2c0());
+    provider.setAuxiliaryCellProvider(new DateTimeProperty_Editor._Inline_kwu3ge_a2c0("jodaDateTimeFieldType"));
     editorCell = provider.createEditorCell(editorContext);
     Style style = new StyleImpl();
     style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
@@ -136,9 +136,15 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_kwu3ge_a2c0 extends InlineCellProvider {
+    public _Inline_kwu3ge_a2c0(String role) {
+      super(role);
+    }
+
     public _Inline_kwu3ge_a2c0() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
@@ -191,7 +197,7 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     provider.setRole("jodaPeriodType");
     provider.setNoTargetText("<no jodaPeriodType>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new DateTimeProperty_Editor._Inline_kwu3ge_a5c0());
+    provider.setAuxiliaryCellProvider(new DateTimeProperty_Editor._Inline_kwu3ge_a5c0("jodaPeriodType"));
     editorCell = provider.createEditorCell(editorContext);
     Style style = new StyleImpl();
     style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
@@ -208,9 +214,15 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_kwu3ge_a5c0 extends InlineCellProvider {
+    public _Inline_kwu3ge_a5c0(String role) {
+      super(role);
+    }
+
     public _Inline_kwu3ge_a5c0() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
@@ -263,7 +275,7 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     provider.setRole("jodaDurationType");
     provider.setNoTargetText("<no jodaDurationType>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new DateTimeProperty_Editor._Inline_kwu3ge_a8c0());
+    provider.setAuxiliaryCellProvider(new DateTimeProperty_Editor._Inline_kwu3ge_a8c0("jodaDurationType"));
     editorCell = provider.createEditorCell(editorContext);
     Style style = new StyleImpl();
     style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
@@ -280,9 +292,15 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_kwu3ge_a8c0 extends InlineCellProvider {
+    public _Inline_kwu3ge_a8c0(String role) {
+      super(role);
+    }
+
     public _Inline_kwu3ge_a8c0() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
@@ -332,7 +350,7 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     provider.setRole("periodFormatMethod");
     provider.setNoTargetText("<no periodFormatMethod>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new DateTimeProperty_Editor._Inline_kwu3ge_a11c0());
+    provider.setAuxiliaryCellProvider(new DateTimeProperty_Editor._Inline_kwu3ge_a11c0("periodFormatMethod"));
     editorCell = provider.createEditorCell(editorContext);
     Style style = new StyleImpl();
     style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
@@ -349,9 +367,15 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_kwu3ge_a11c0 extends InlineCellProvider {
+    public _Inline_kwu3ge_a11c0(String role) {
+      super(role);
+    }
+
     public _Inline_kwu3ge_a11c0() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());

@@ -64,7 +64,7 @@ public class TargetReferencePropertyValueExpression_Editor extends DefaultNodeEd
     provider.setRole("declaration");
     provider.setNoTargetText("<no declaration>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new TargetReferencePropertyValueExpression_Editor._Inline_826xl5_a1a());
+    provider.setAuxiliaryCellProvider(new TargetReferencePropertyValueExpression_Editor._Inline_826xl5_a1a("declaration"));
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -78,9 +78,15 @@ public class TargetReferencePropertyValueExpression_Editor extends DefaultNodeEd
   }
 
   public static class _Inline_826xl5_a1a extends InlineCellProvider {
+    public _Inline_826xl5_a1a(String role) {
+      super(role);
+    }
+
     public _Inline_826xl5_a1a() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());

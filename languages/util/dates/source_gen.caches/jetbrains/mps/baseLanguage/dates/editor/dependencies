@@ -2,6 +2,7 @@
 <dependenciesRoot>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.AbsDateTimeMinusOperation_Editor" file="AbsDateTimeMinusOperation_Editor.java">
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.AbsDateTimeMinusOperation_leftOperand_actionMap" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.AbsDateTimeMinusOperation_rightOperand_actionMap" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.Dates_StyleSheet" />
@@ -86,6 +87,7 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.ConstantTimeZoneRef_Editor" file="ConstantTimeZoneRef_Editor.java">
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.datesInternal.editor.DatesInternal_StyleSheet" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleAttributes" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleImpl" />
@@ -237,6 +239,7 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.DateTimeMinusOperation_Editor" file="DateTimeMinusOperation_Editor.java">
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.DateTimeMinusOperation_leftOperand_actionMap" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.DateTimeMinusOperation_rightOperand_actionMap" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.Dates_StyleSheet" />
@@ -418,6 +421,7 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.DateTimePropertyFormatToken_Editor" file="DateTimePropertyFormatToken_Editor.java">
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.constraints.DateTimePropertFormatTokenUtil" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.DateTimePropertyFormatToken_ActionMap" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.Dates_StyleSheet" />
@@ -443,6 +447,7 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.DateTimePropetyReferenceOperation_Editor" file="DateTimePropetyReferenceOperation_Editor.java">
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.Dates_StyleSheet" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleImpl" />
     <classNode dependClassName="jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider" />
@@ -460,6 +465,7 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.DateTimeWithPropertyOperation_Editor" file="DateTimeWithPropertyOperation_Editor.java">
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.Dates_StyleSheet" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleImpl" />
@@ -512,6 +518,7 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.DurationTypeReference_Editor" file="DurationTypeReference_Editor.java">
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.Dates_StyleSheet" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleImpl" />
     <classNode dependClassName="jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider" />
@@ -529,6 +536,7 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.FixedLocaleFormatToken_Editor" file="FixedLocaleFormatToken_Editor.java">
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.Dates_StyleSheet" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.Measure" />
@@ -551,6 +559,7 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.FormatDateTimeExpression_Editor" file="FormatDateTimeExpression_Editor.java">
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.Dates_StyleSheet" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.FormatDateTimeExpression_delete" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.FormatDateTimeExpression_deleteLocale" />
@@ -597,6 +606,7 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.FormatExpression_Editor" file="FormatExpression_Editor.java">
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.Dates_StyleSheet" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.datesInternal.editor.DatesInternal_StyleSheet" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet" />
@@ -625,6 +635,7 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.FormatPeriodExpression_Editor" file="FormatPeriodExpression_Editor.java">
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.FormatPeriodExpression_delete" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.FormatPeriodExpression_deleteLocale" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleAttributes" />
@@ -857,6 +868,7 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.ParseDateTimeExpression_Editor" file="ParseDateTimeExpression_Editor.java">
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.Dates_StyleSheet" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleAttributes" />
@@ -929,6 +941,7 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.PeriodConstant_Editor" file="PeriodConstant_Editor.java">
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.Dates_StyleSheet" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.PeriodConstant_ActionMap" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleImpl" />
@@ -1004,6 +1017,7 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.PeriodInPropertyExpression_Editor" file="PeriodInPropertyExpression_Editor.java">
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.Dates_StyleSheet" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleImpl" />
@@ -1024,6 +1038,7 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.PeriodInPropertyOperation_Editor" file="PeriodInPropertyOperation_Editor.java">
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.Dates_StyleSheet" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleImpl" />
@@ -1090,6 +1105,7 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.PeriodReferenceFormatToken_Editor" file="PeriodReferenceFormatToken_Editor.java">
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.Dates_StyleSheet" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleAttributes" />
@@ -1136,6 +1152,7 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.ReferenceFormatToken_Editor" file="ReferenceFormatToken_Editor.java">
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.Dates_StyleSheet" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleAttributes" />
@@ -1156,6 +1173,7 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.RoundDateTimeOperation_Editor" file="RoundDateTimeOperation_Editor.java">
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.Dates_StyleSheet" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.UnaryDateTimeOperation_ActionMap" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleImpl" />
@@ -1177,6 +1195,7 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.ScheduleLiteral_Editor" file="ScheduleLiteral_Editor.java">
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.behavior.ScheduleLiteral_Behavior" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleAttributes" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleImpl" />
@@ -1199,6 +1218,7 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.TimeConstant_Editor" file="TimeConstant_Editor.java">
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.Dates_StyleSheet" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleAttributes" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleImpl" />
@@ -1350,6 +1370,7 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.TokenConditionalPair_Editor" file="TokenConditionalPair_Editor.java">
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.Dates_StyleSheet" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleAttributes" />
@@ -1399,6 +1420,7 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.WithPropertyCompareExpression_Editor" file="WithPropertyCompareExpression_Editor.java">
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.Dates_StyleSheet" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.WithPropertyCompareExpression_delete" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.WithProperty_component" />

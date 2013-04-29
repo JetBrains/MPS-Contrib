@@ -60,7 +60,7 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
     provider.setRole("dateTimePropertyFormatConfiguration");
     provider.setNoTargetText("<no dateTimePropertyFormatConfiguration>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new DateTimePropertyFormatToken_Editor._Inline_q7na0t_a1a());
+    provider.setAuxiliaryCellProvider(new DateTimePropertyFormatToken_Editor._Inline_q7na0t_a1a("dateTimePropertyFormatConfiguration"));
     editorCell = provider.createEditorCell(editorContext);
     DateTimePropertyFormatToken_ActionMap.setCellActions(editorCell, node, editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
@@ -75,9 +75,15 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_q7na0t_a1a extends InlineCellProvider {
+    public _Inline_q7na0t_a1a(String role) {
+      super(role);
+    }
+
     public _Inline_q7na0t_a1a() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
@@ -115,7 +121,7 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
     provider.setRole("dateTimePropertyFormatType");
     provider.setNoTargetText("<no dateTimePropertyFormatType>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new DateTimePropertyFormatToken_Editor._Inline_q7na0t_a2a());
+    provider.setAuxiliaryCellProvider(new DateTimePropertyFormatToken_Editor._Inline_q7na0t_a2a("dateTimePropertyFormatType"));
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -129,9 +135,15 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_q7na0t_a2a extends InlineCellProvider {
+    public _Inline_q7na0t_a2a(String role) {
+      super(role);
+    }
+
     public _Inline_q7na0t_a2a() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
@@ -204,7 +216,7 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
     provider.setRole("dateTimePropertyFormatConfiguration");
     provider.setNoTargetText("<no dateTimePropertyFormatConfiguration>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new DateTimePropertyFormatToken_Editor._Inline_q7na0t_a1a_0());
+    provider.setAuxiliaryCellProvider(new DateTimePropertyFormatToken_Editor._Inline_q7na0t_a1a_0("dateTimePropertyFormatConfiguration"));
     editorCell = provider.createEditorCell(editorContext);
     Style style = new StyleImpl();
     style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
@@ -221,9 +233,15 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_q7na0t_a1a_0 extends InlineCellProvider {
+    public _Inline_q7na0t_a1a_0(String role) {
+      super(role);
+    }
+
     public _Inline_q7na0t_a1a_0() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
@@ -265,7 +283,7 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
     provider.setRole("dateTimePropertyFormatType");
     provider.setNoTargetText("<no dateTimePropertyFormatType>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new DateTimePropertyFormatToken_Editor._Inline_q7na0t_a3a());
+    provider.setAuxiliaryCellProvider(new DateTimePropertyFormatToken_Editor._Inline_q7na0t_a3a("dateTimePropertyFormatType"));
     editorCell = provider.createEditorCell(editorContext);
     Style style = new StyleImpl();
     style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
@@ -282,9 +300,15 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_q7na0t_a3a extends InlineCellProvider {
+    public _Inline_q7na0t_a3a(String role) {
+      super(role);
+    }
+
     public _Inline_q7na0t_a3a() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
@@ -326,7 +350,7 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
     provider.setRole("dateTimePropertyFormatType");
     provider.setNoTargetText("<no dateTimePropertyFormatType>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new DateTimePropertyFormatToken_Editor._Inline_q7na0t_a5a());
+    provider.setAuxiliaryCellProvider(new DateTimePropertyFormatToken_Editor._Inline_q7na0t_a5a("dateTimePropertyFormatType"));
     editorCell = provider.createEditorCell(editorContext);
     Style style = new StyleImpl();
     style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
@@ -343,9 +367,15 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_q7na0t_a5a extends InlineCellProvider {
+    public _Inline_q7na0t_a5a(String role) {
+      super(role);
+    }
+
     public _Inline_q7na0t_a5a() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());

@@ -72,7 +72,7 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
     provider.setRole("dateTimeProperty");
     provider.setNoTargetText("<no dateTimeProperty>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new DateTimeIntPropertyFormatConfiguration_Editor._Inline_e2al3f_a2a());
+    provider.setAuxiliaryCellProvider(new DateTimeIntPropertyFormatConfiguration_Editor._Inline_e2al3f_a2a("dateTimeProperty"));
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -86,9 +86,15 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
   }
 
   public static class _Inline_e2al3f_a2a extends InlineCellProvider {
+    public _Inline_e2al3f_a2a(String role) {
+      super(role);
+    }
+
     public _Inline_e2al3f_a2a() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
