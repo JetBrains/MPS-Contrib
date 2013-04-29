@@ -34,7 +34,7 @@ public class ComponentReference_Editor extends DefaultNodeEditor {
     provider.setRole("component");
     provider.setNoTargetText("<no component>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new ComponentReference_Editor._Inline_taca2n_a0a());
+    provider.setAuxiliaryCellProvider(new ComponentReference_Editor._Inline_taca2n_a0a("component"));
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -48,9 +48,15 @@ public class ComponentReference_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_taca2n_a0a extends InlineCellProvider {
+    public _Inline_taca2n_a0a(String role) {
+      super(role);
+    }
+
     public _Inline_taca2n_a0a() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());

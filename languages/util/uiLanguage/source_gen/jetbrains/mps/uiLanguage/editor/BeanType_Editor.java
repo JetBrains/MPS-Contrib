@@ -59,7 +59,7 @@ public class BeanType_Editor extends DefaultNodeEditor {
     provider.setRole("bean");
     provider.setNoTargetText("<no bean>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new BeanType_Editor._Inline_8iyext_a2a());
+    provider.setAuxiliaryCellProvider(new BeanType_Editor._Inline_8iyext_a2a("bean"));
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -73,9 +73,15 @@ public class BeanType_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_8iyext_a2a extends InlineCellProvider {
+    public _Inline_8iyext_a2a(String role) {
+      super(role);
+    }
+
     public _Inline_8iyext_a2a() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());

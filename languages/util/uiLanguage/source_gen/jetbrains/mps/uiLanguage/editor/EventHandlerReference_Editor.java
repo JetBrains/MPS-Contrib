@@ -32,7 +32,7 @@ public class EventHandlerReference_Editor extends DefaultNodeEditor {
     provider.setRole("handler");
     provider.setNoTargetText("<no handler>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new EventHandlerReference_Editor._Inline_dqbp6w_a0a());
+    provider.setAuxiliaryCellProvider(new EventHandlerReference_Editor._Inline_dqbp6w_a0a("handler"));
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -46,9 +46,15 @@ public class EventHandlerReference_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_dqbp6w_a0a extends InlineCellProvider {
+    public _Inline_dqbp6w_a0a(String role) {
+      super(role);
+    }
+
     public _Inline_dqbp6w_a0a() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());

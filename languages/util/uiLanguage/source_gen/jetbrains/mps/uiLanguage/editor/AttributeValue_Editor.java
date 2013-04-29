@@ -38,7 +38,7 @@ public class AttributeValue_Editor extends DefaultNodeEditor {
     provider.setRole("attribute");
     provider.setNoTargetText("<no attribute>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new AttributeValue_Editor._Inline_qq2e6z_a0a());
+    provider.setAuxiliaryCellProvider(new AttributeValue_Editor._Inline_qq2e6z_a0a("attribute"));
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -52,9 +52,15 @@ public class AttributeValue_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_qq2e6z_a0a extends InlineCellProvider {
+    public _Inline_qq2e6z_a0a(String role) {
+      super(role);
+    }
+
     public _Inline_qq2e6z_a0a() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
