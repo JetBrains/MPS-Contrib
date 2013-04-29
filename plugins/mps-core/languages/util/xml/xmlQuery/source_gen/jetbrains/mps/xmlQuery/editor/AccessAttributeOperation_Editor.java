@@ -35,7 +35,7 @@ public class AccessAttributeOperation_Editor extends DefaultNodeEditor {
     provider.setRole("attributeDeclaration");
     provider.setNoTargetText("<no attributeDeclaration>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new AccessAttributeOperation_Editor._Inline_y4ce_a0a());
+    provider.setAuxiliaryCellProvider(new AccessAttributeOperation_Editor._Inline_y4ce_a0a("attributeDeclaration"));
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -49,8 +49,8 @@ public class AccessAttributeOperation_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_y4ce_a0a extends InlineCellProvider {
-    public _Inline_y4ce_a0a() {
-      super();
+    public _Inline_y4ce_a0a(String role) {
+      super(role);
     }
 
     public EditorCell createEditorCell(EditorContext editorContext) {

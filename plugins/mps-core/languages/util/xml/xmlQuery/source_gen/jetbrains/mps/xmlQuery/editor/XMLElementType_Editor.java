@@ -70,7 +70,7 @@ public class XMLElementType_Editor extends DefaultNodeEditor {
     provider.setRole("schema");
     provider.setNoTargetText("");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new XMLElementType_Editor._Inline_ohiupi_a2a());
+    provider.setAuxiliaryCellProvider(new XMLElementType_Editor._Inline_ohiupi_a2a("schema"));
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -84,8 +84,8 @@ public class XMLElementType_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_ohiupi_a2a extends InlineCellProvider {
-    public _Inline_ohiupi_a2a() {
-      super();
+    public _Inline_ohiupi_a2a(String role) {
+      super(role);
     }
 
     public EditorCell createEditorCell(EditorContext editorContext) {
@@ -135,7 +135,7 @@ public class XMLElementType_Editor extends DefaultNodeEditor {
     provider.setRole("complexType");
     provider.setNoTargetText("...");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new XMLElementType_Editor._Inline_ohiupi_a4a());
+    provider.setAuxiliaryCellProvider(new XMLElementType_Editor._Inline_ohiupi_a4a("complexType"));
     editorCell = provider.createEditorCell(editorContext);
     Style style = new StyleImpl();
     XmlStyle_StyleSheet.applyXmlElement(style, editorCell);
@@ -152,8 +152,8 @@ public class XMLElementType_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_ohiupi_a4a extends InlineCellProvider {
-    public _Inline_ohiupi_a4a() {
-      super();
+    public _Inline_ohiupi_a4a(String role) {
+      super(role);
     }
 
     public EditorCell createEditorCell(EditorContext editorContext) {
@@ -165,7 +165,7 @@ public class XMLElementType_Editor extends DefaultNodeEditor {
     }
 
     private EditorCell createReferencePresentation_ohiupi_a0e0(EditorContext editorContext, SNode node) {
-      EditorCell_Property editorCell = EditorCell_RefPresentation.create(editorContext, node, this.getRefNode(), this.getLinkDeclaration());
+      EditorCell_Property editorCell = EditorCell_RefPresentation.create(editorContext, node, this.getRefNode(), this.getRole());
       editorCell.setCellId("ReferencePresentation_ohiupi_a0e0");
       return editorCell;
     }

@@ -35,7 +35,7 @@ public class ElementBuilder_Editor extends DefaultNodeEditor {
     provider.setRole("elementDeclaration");
     provider.setNoTargetText("<no elementDeclaration>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new ElementBuilder_Editor._Inline_wmom6u_a0a());
+    provider.setAuxiliaryCellProvider(new ElementBuilder_Editor._Inline_wmom6u_a0a("elementDeclaration"));
     editorCell = provider.createEditorCell(editorContext);
     Style style = new StyleImpl();
     XmlStyle_StyleSheet.applyXmlElement(style, editorCell);
@@ -52,8 +52,8 @@ public class ElementBuilder_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_wmom6u_a0a extends InlineCellProvider {
-    public _Inline_wmom6u_a0a() {
-      super();
+    public _Inline_wmom6u_a0a(String role) {
+      super(role);
     }
 
     public EditorCell createEditorCell(EditorContext editorContext) {

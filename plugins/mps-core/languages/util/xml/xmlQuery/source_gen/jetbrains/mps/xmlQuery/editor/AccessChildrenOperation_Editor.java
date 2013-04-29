@@ -35,7 +35,7 @@ public class AccessChildrenOperation_Editor extends DefaultNodeEditor {
     provider.setRole("elementDeclaration");
     provider.setNoTargetText("<no elementDeclaration>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new AccessChildrenOperation_Editor._Inline_td7a8k_a0a());
+    provider.setAuxiliaryCellProvider(new AccessChildrenOperation_Editor._Inline_td7a8k_a0a("elementDeclaration"));
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -49,8 +49,8 @@ public class AccessChildrenOperation_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_td7a8k_a0a extends InlineCellProvider {
-    public _Inline_td7a8k_a0a() {
-      super();
+    public _Inline_td7a8k_a0a(String role) {
+      super(role);
     }
 
     public EditorCell createEditorCell(EditorContext editorContext) {
