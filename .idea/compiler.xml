@@ -145,6 +145,10 @@
       <directory url="file://$PROJECT_DIR$/languages/languageDesign/jetbrains.mps.lang.actions.test/test_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/languages/languageDesign/jetbrains.mps.lang.actions.testLanguage/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/languages/languageDesign/make/languages/facet/generator/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/languages/languageDesign/jetbrains.mps.lang.editor.multiple.extension.testLanguage/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/languages/languageDesign/jetbrains.mps.lang.editor.multiple.testLanguage/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/languages/languageDesign/jetbrains.mps.lang.editor.multiple.tests/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/languages/languageDesign/jetbrains.mps.lang.editor.multiple.tests/test_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/languages/languageDesign/make/languages/facet/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/languages/languageDesign/make/languages/outlook/generator/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/languages/languageDesign/make/languages/outlook/source_gen" includeSubdirectories="true" />
@@ -544,7 +548,6 @@
       <directory url="file://$PROJECT_DIR$/samples/fixedLengthReader/myReaderConfiguration/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/samples/fixedLengthReader/myReaderConfiguration/test_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/samples/fixedLengthReader/readerConfigLanguage/generator/source_gen" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/samples/fixedLengthReader/readerConfigLanguage/generator/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/samples/fixedLengthReader/readerConfigLanguage/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/samples/fixedLengthReader/readerFramework/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/samples/fixedLengthReader/readerFramework/test_gen" includeSubdirectories="true" />
@@ -642,6 +645,8 @@
       <directory url="file://$PROJECT_DIR$/testbench/modules/testRead/test_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/testbench/modules/testRefactoring/languages/testRefactoring/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/testbench/modules/testRefactoring/languages/testRefactoringTargetLang/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/languages/languageDesign/jetbrains.mps.lang.editor.multiple.extension.testLanguage/generator/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/languages/languageDesign/jetbrains.mps.lang.editor.multiple.testLanguage/generator/source_gen" includeSubdirectories="true" />
     </excludeFromCompile>
     <resourceExtensions>
       <entry name=".+\.(properties|xml|html|dtd|tld)" />

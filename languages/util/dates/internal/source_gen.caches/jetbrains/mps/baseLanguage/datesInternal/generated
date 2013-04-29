@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependencies version="2" modelHash="axaww5zx5krx35vcor456s6yve72w7c">
+  <dep model="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" hash="asi5g7ihvfx877d2egp5etfqcdootez" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-3oix0gm2cosksx5q7bcotftdn7n21nk" />
+  <dep model="r:00000000-0000-4000-0000-011c895903dc(jetbrains.mps.baseLanguage.datesInternal.editor)" hash="-2uzy45qohun3owjzxkxith35o19nggc" />
   <dep model="r:e8ab0d3d-755b-484a-bfcc-496dbc9af2ce(jetbrains.mps.baseLanguage.datesInternal.typesystem)" hash="-epno15081er6rp71jepd3r10wk1m83c" />
   <common>
+    <dep model="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895903dc(jetbrains.mps.baseLanguage.datesInternal.editor)" />
     <dep model="r:e8ab0d3d-755b-484a-bfcc-496dbc9af2ce(jetbrains.mps.baseLanguage.datesInternal.typesystem)" />
     <file name="Language.java" />
   </common>
