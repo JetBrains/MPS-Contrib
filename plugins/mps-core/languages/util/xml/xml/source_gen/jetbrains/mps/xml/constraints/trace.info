@@ -126,6 +126,8 @@
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c89590585(jetbrains.mps.xml.constraints)/1213107437962">
     <nodeInfo nodeId="1213107437962" fileName="BaseText_Constraints.java" startLine="8" startPosition="33" endLine="9" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="1213107437962" fileName="BaseText_Constraints.java" startLine="8" startPosition="33" endLine="9" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="1213107437962" fileName="BaseText_Constraints.java" startLine="12" startPosition="51" endLine="13" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1213107437962" fileName="BaseText_Constraints.java" startLine="12" startPosition="51" endLine="13" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1213107437962" fileName="BaseText_Constraints.java" startLine="8" startPosition="0" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="BaseText_Constraints#()V" />
     <nodeInfo nodeId="1213107437962" fileName="BaseText_Constraints.java" startLine="12" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDefaultConcreteConceptFqName#()Ljava/lang/String;" />
@@ -137,6 +139,8 @@
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c89590585(jetbrains.mps.xml.constraints)/1213107438020">
     <nodeInfo nodeId="1213107438020" fileName="Content_Constraints.java" startLine="8" startPosition="32" endLine="9" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="1213107438020" fileName="Content_Constraints.java" startLine="8" startPosition="32" endLine="9" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="1213107438020" fileName="Content_Constraints.java" startLine="12" startPosition="51" endLine="13" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1213107438020" fileName="Content_Constraints.java" startLine="12" startPosition="51" endLine="13" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1213107438020" fileName="Content_Constraints.java" startLine="8" startPosition="0" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="Content_Constraints#()V" />
     <nodeInfo nodeId="1213107438020" fileName="Content_Constraints.java" startLine="12" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDefaultConcreteConceptFqName#()Ljava/lang/String;" />
