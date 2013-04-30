@@ -35,7 +35,7 @@ public class ElementBuilder_Editor extends DefaultNodeEditor {
     provider.setRole("elementDeclaration");
     provider.setNoTargetText("<no elementDeclaration>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new ElementBuilder_Editor._Inline_wmom6u_a0a("elementDeclaration"));
+    provider.setAuxiliaryCellProvider(new ElementBuilder_Editor._Inline_wmom6u_a0a());
     editorCell = provider.createEditorCell(editorContext);
     Style style = new StyleImpl();
     XmlStyle_StyleSheet.applyXmlElement(style, editorCell);

@@ -5,6 +5,7 @@ package jetbrains.mps.gtext.structure;
 import jetbrains.mps.smodel.runtime.ConceptDescriptor;
 import java.util.Arrays;
 import jetbrains.mps.smodel.runtime.impl.ConceptDescriptorBuilder;
+import jetbrains.mps.smodel.runtime.StaticScope;
 import jetbrains.mps.smodel.runtime.interpreted.StructureAspectInterpreted;
 
 public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.StructureAspectDescriptor {
@@ -14,7 +15,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
   public ConceptDescriptor getDescriptor(String conceptFqName) {
     switch (Arrays.binarySearch(stringSwitchCases_1htk8d_a0a0b, conceptFqName)) {
       case 0:
-        return new ConceptDescriptorBuilder("jetbrains.mps.gtext.structure.BuilderContextRef").super_("jetbrains.mps.baseLanguage.structure.Expression").parents("jetbrains.mps.baseLanguage.structure.Expression", "jetbrains.mps.gtext.structure.GTextConcept").alias("baseBuilderContext", "").create();
+        return new ConceptDescriptorBuilder("jetbrains.mps.gtext.structure.BuilderContextRef").super_("jetbrains.mps.baseLanguage.structure.Expression").parents("jetbrains.mps.baseLanguage.structure.Expression", "jetbrains.mps.gtext.structure.GTextConcept").alias("baseBuilderContext", "").staticScope(StaticScope.NONE).create();
       case 1:
         return new ConceptDescriptorBuilder("jetbrains.mps.gtext.structure.GCompositeItem").interface_().create();
       case 2:
@@ -36,7 +37,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 10:
         return new ConceptDescriptorBuilder("jetbrains.mps.gtext.structure.GItemList").super_("jetbrains.mps.gtext.structure.GItem").parents("jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GCompositeItem").children(new String[]{"item"}, new boolean[]{true}).alias("*itemList", "").create();
       case 11:
-        return new ConceptDescriptorBuilder("jetbrains.mps.gtext.structure.GItemStatement").super_("jetbrains.mps.baseLanguage.structure.Statement").parents("jetbrains.mps.baseLanguage.structure.Statement").children(new String[]{"item"}, new boolean[]{true}).alias("gitem statement", "").create();
+        return new ConceptDescriptorBuilder("jetbrains.mps.gtext.structure.GItemStatement").super_("jetbrains.mps.baseLanguage.structure.Statement").parents("jetbrains.mps.baseLanguage.structure.Statement").children(new String[]{"item"}, new boolean[]{true}).alias("gitem statement", "").staticScope(StaticScope.NONE).create();
       case 12:
         return new ConceptDescriptorBuilder("jetbrains.mps.gtext.structure.GLine").super_("jetbrains.mps.gtext.structure.GItem").parents("jetbrains.mps.gtext.structure.GItem", "jetbrains.mps.gtext.structure.GCompositeItem").children(new String[]{"item"}, new boolean[]{true}).alias(">line", "").create();
       case 13:
