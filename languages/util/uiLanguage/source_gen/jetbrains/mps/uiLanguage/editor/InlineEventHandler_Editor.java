@@ -57,7 +57,7 @@ public class InlineEventHandler_Editor extends DefaultNodeEditor {
     provider.setRole("event");
     provider.setNoTargetText("<no event>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new InlineEventHandler_Editor._Inline_1sfp4h_a1a0("event"));
+    provider.setAuxiliaryCellProvider(new InlineEventHandler_Editor._Inline_1sfp4h_a1a0());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

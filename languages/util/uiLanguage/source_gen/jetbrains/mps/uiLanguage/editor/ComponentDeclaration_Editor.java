@@ -200,7 +200,7 @@ public class ComponentDeclaration_Editor extends DefaultNodeEditor {
     provider.setRole("extendedComponent");
     provider.setNoTargetText("<extend>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new ComponentDeclaration_Editor._Inline_kze313_a1a1d0("extendedComponent"));
+    provider.setAuxiliaryCellProvider(new ComponentDeclaration_Editor._Inline_kze313_a1a1d0());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -275,7 +275,7 @@ public class ComponentDeclaration_Editor extends DefaultNodeEditor {
     provider.setRole("mapTo");
     provider.setNoTargetText("<map to>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new ComponentDeclaration_Editor._Inline_kze313_a1b1d0("mapTo"));
+    provider.setAuxiliaryCellProvider(new ComponentDeclaration_Editor._Inline_kze313_a1b1d0());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

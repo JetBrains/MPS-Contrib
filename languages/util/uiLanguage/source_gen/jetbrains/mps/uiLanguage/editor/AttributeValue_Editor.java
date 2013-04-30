@@ -38,7 +38,7 @@ public class AttributeValue_Editor extends DefaultNodeEditor {
     provider.setRole("attribute");
     provider.setNoTargetText("<no attribute>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new AttributeValue_Editor._Inline_qq2e6z_a0a("attribute"));
+    provider.setAuxiliaryCellProvider(new AttributeValue_Editor._Inline_qq2e6z_a0a());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

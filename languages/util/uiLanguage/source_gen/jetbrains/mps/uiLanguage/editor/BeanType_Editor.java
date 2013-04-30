@@ -59,7 +59,7 @@ public class BeanType_Editor extends DefaultNodeEditor {
     provider.setRole("bean");
     provider.setNoTargetText("<no bean>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new BeanType_Editor._Inline_8iyext_a2a("bean"));
+    provider.setAuxiliaryCellProvider(new BeanType_Editor._Inline_8iyext_a2a());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

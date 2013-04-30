@@ -32,7 +32,7 @@ public class EventAccessOperation_Editor extends DefaultNodeEditor {
     provider.setRole("event");
     provider.setNoTargetText("<no event>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new EventAccessOperation_Editor._Inline_hsakg1_a0a("event"));
+    provider.setAuxiliaryCellProvider(new EventAccessOperation_Editor._Inline_hsakg1_a0a());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

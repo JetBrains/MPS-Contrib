@@ -34,7 +34,7 @@ public class ComponentReference_Editor extends DefaultNodeEditor {
     provider.setRole("component");
     provider.setNoTargetText("<no component>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new ComponentReference_Editor._Inline_taca2n_a0a("component"));
+    provider.setAuxiliaryCellProvider(new ComponentReference_Editor._Inline_taca2n_a0a());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

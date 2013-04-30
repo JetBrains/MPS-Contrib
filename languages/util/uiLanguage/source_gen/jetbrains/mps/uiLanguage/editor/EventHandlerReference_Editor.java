@@ -32,7 +32,7 @@ public class EventHandlerReference_Editor extends DefaultNodeEditor {
     provider.setRole("handler");
     provider.setNoTargetText("<no handler>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new EventHandlerReference_Editor._Inline_dqbp6w_a0a("handler"));
+    provider.setAuxiliaryCellProvider(new EventHandlerReference_Editor._Inline_dqbp6w_a0a());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

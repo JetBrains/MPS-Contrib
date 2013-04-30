@@ -61,7 +61,7 @@ public class ComponentCreator_Editor extends DefaultNodeEditor {
     provider.setRole("componentDeclaration");
     provider.setNoTargetText("<no componentDeclaration>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new ComponentCreator_Editor._Inline_o92roe_a2a("componentDeclaration"));
+    provider.setAuxiliaryCellProvider(new ComponentCreator_Editor._Inline_o92roe_a2a());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

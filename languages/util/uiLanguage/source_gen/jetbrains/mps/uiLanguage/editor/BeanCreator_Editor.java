@@ -48,7 +48,7 @@ public class BeanCreator_Editor extends DefaultNodeEditor {
     provider.setRole("constructor");
     provider.setNoTargetText("<no constructor>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new BeanCreator_Editor._Inline_pb1ym0_a0a("constructor"));
+    provider.setAuxiliaryCellProvider(new BeanCreator_Editor._Inline_pb1ym0_a0a());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

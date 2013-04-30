@@ -32,7 +32,7 @@ public class StubCellRendererInfo_Editor extends DefaultNodeEditor {
     provider.setRole("cellRendererSetter");
     provider.setNoTargetText("<no cellRendererSetter>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new StubCellRendererInfo_Editor._Inline_8ufu2t_a0a("cellRendererSetter"));
+    provider.setAuxiliaryCellProvider(new StubCellRendererInfo_Editor._Inline_8ufu2t_a0a());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
