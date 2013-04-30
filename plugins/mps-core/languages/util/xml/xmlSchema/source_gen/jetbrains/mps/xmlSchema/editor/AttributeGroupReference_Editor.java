@@ -38,7 +38,7 @@ public class AttributeGroupReference_Editor extends DefaultNodeEditor {
     provider.setRole("attributeGroup");
     provider.setNoTargetText("<no attributeGroup>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new AttributeGroupReference_Editor._Inline_2syzia_a0a("attributeGroup"));
+    provider.setAuxiliaryCellProvider(new AttributeGroupReference_Editor._Inline_2syzia_a0a());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

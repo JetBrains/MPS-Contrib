@@ -60,7 +60,7 @@ public class Attribute_EditorComponent extends AbstractCellProvider {
     provider.setRole("attributeDeclaration");
     provider.setNoTargetText("<no attributeDeclaration>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new Attribute_EditorComponent._Inline_y32exi_a0a("attributeDeclaration"));
+    provider.setAuxiliaryCellProvider(new Attribute_EditorComponent._Inline_y32exi_a0a());
     editorCell = provider.createEditorCell(editorContext);
     Style style = new StyleImpl();
     BuildLanguageStyle_StyleSheet.applyAttributeName(style, editorCell);
@@ -127,7 +127,7 @@ public class Attribute_EditorComponent extends AbstractCellProvider {
     provider.setRole("attributeDeclaration");
     provider.setNoTargetText("<no attributeDeclaration>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new Attribute_EditorComponent._Inline_y32exi_a1a("attributeDeclaration"));
+    provider.setAuxiliaryCellProvider(new Attribute_EditorComponent._Inline_y32exi_a1a());
     editorCell = provider.createEditorCell(editorContext);
     Style style = new StyleImpl();
     BuildLanguageStyle_StyleSheet.applyDepractaedAttributeName(style, editorCell);

@@ -172,7 +172,7 @@ public class PeriodPropertyFormatToken_Editor extends DefaultNodeEditor {
     provider.setRole("property");
     provider.setNoTargetText("<no property>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new PeriodPropertyFormatToken_Editor._Inline_ed1xw0_a3a("property"));
+    provider.setAuxiliaryCellProvider(new PeriodPropertyFormatToken_Editor._Inline_ed1xw0_a3a());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

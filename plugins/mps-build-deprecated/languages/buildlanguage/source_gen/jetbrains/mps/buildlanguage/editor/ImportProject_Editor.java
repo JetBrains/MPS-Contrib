@@ -46,7 +46,7 @@ public class ImportProject_Editor extends DefaultNodeEditor {
     provider.setRole("project");
     provider.setNoTargetText("<no project>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new ImportProject_Editor._Inline_fpr8ek_a1a("project"));
+    provider.setAuxiliaryCellProvider(new ImportProject_Editor._Inline_fpr8ek_a1a());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

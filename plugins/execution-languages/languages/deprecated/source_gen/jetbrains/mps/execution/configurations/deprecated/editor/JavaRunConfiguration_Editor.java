@@ -162,7 +162,7 @@ public class JavaRunConfiguration_Editor extends DefaultNodeEditor {
     provider.setRole("stateTypeParameter");
     provider.setNoTargetText("<no stateTypeParameter>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new JavaRunConfiguration_Editor._Inline_gt2apr_a0a("stateTypeParameter"));
+    provider.setAuxiliaryCellProvider(new JavaRunConfiguration_Editor._Inline_gt2apr_a0a());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

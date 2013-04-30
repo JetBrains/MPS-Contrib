@@ -66,7 +66,7 @@ public class RoundDateTimeOperation_Editor extends DefaultNodeEditor {
     provider.setRole("precision");
     provider.setNoTargetText("<no precision>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new RoundDateTimeOperation_Editor._Inline_z8nl1z_a2a("precision"));
+    provider.setAuxiliaryCellProvider(new RoundDateTimeOperation_Editor._Inline_z8nl1z_a2a());
     editorCell = provider.createEditorCell(editorContext);
     UnaryDateTimeOperation_ActionMap.setCellActions(editorCell, node, editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());

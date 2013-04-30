@@ -130,7 +130,7 @@ public class AbsDateTimeMinusOperation_Editor extends DefaultNodeEditor {
     provider.setRole("datetimeProperty");
     provider.setNoTargetText("<no datetimeProperty>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new AbsDateTimeMinusOperation_Editor._Inline_ayji0k_a6a("datetimeProperty"));
+    provider.setAuxiliaryCellProvider(new AbsDateTimeMinusOperation_Editor._Inline_ayji0k_a6a());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

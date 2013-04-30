@@ -50,7 +50,7 @@ public class Element_elementDeclaration extends AbstractCellProvider {
     provider.setRole("elementDeclaration");
     provider.setNoTargetText("<no elementDeclaration>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new Element_elementDeclaration._Inline_vbcaz4_a0a("elementDeclaration"));
+    provider.setAuxiliaryCellProvider(new Element_elementDeclaration._Inline_vbcaz4_a0a());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

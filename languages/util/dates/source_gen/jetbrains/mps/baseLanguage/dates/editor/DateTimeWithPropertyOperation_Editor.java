@@ -80,7 +80,7 @@ public class DateTimeWithPropertyOperation_Editor extends DefaultNodeEditor {
     provider.setRole("dateTimeProperty");
     provider.setNoTargetText("<no dateTimeProperty>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new DateTimeWithPropertyOperation_Editor._Inline_ky1sct_a3a("dateTimeProperty"));
+    provider.setAuxiliaryCellProvider(new DateTimeWithPropertyOperation_Editor._Inline_ky1sct_a3a());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

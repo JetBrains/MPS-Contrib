@@ -37,7 +37,7 @@ public class TargetReference_Editor extends DefaultNodeEditor {
     provider.setRole("targetDeclaration");
     provider.setNoTargetText("<no targetDeclaration>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new TargetReference_Editor._Inline_a1n9ex_a0a("targetDeclaration"));
+    provider.setAuxiliaryCellProvider(new TargetReference_Editor._Inline_a1n9ex_a0a());
     editorCell = provider.createEditorCell(editorContext);
     Style style = new StyleImpl();
     BuildLanguageStyle_StyleSheet.applyTarget(style, editorCell);

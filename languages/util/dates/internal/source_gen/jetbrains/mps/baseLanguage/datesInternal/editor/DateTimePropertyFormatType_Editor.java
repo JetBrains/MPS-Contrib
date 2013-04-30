@@ -79,7 +79,7 @@ public class DateTimePropertyFormatType_Editor extends DefaultNodeEditor {
     provider.setRole("dateTimePropertyCardinality");
     provider.setNoTargetText("<no dateTimePropertyCardinality>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new DateTimePropertyFormatType_Editor._Inline_6yifed_a2a("dateTimePropertyCardinality"));
+    provider.setAuxiliaryCellProvider(new DateTimePropertyFormatType_Editor._Inline_6yifed_a2a());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

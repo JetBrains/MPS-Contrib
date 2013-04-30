@@ -37,7 +37,7 @@ public class ComplexTypeReference_Editor extends DefaultNodeEditor {
     provider.setRole("complexType");
     provider.setNoTargetText("<no complexType>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new ComplexTypeReference_Editor._Inline_tvlol_a0a("complexType"));
+    provider.setAuxiliaryCellProvider(new ComplexTypeReference_Editor._Inline_tvlol_a0a());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

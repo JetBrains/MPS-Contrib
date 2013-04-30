@@ -254,7 +254,7 @@ public class InlineFormatExpression_Editor extends DefaultNodeEditor {
     provider.setRole("locale");
     provider.setNoTargetText("<no locale>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new InlineFormatExpression_Editor._Inline_b4441e_a2g0("locale"));
+    provider.setAuxiliaryCellProvider(new InlineFormatExpression_Editor._Inline_b4441e_a2g0());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -348,7 +348,7 @@ public class InlineFormatExpression_Editor extends DefaultNodeEditor {
     provider.setRole("locale");
     provider.setNoTargetText("<no locale>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new InlineFormatExpression_Editor._Inline_b4441e_a1a0("locale"));
+    provider.setAuxiliaryCellProvider(new InlineFormatExpression_Editor._Inline_b4441e_a1a0());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

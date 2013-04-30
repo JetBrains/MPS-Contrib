@@ -46,7 +46,7 @@ public class NestedDeclaration_Editor extends DefaultNodeEditor {
     provider.setRole("declaration");
     provider.setNoTargetText("<no declaration>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new NestedDeclaration_Editor._Inline_hxwqt0_a0a("declaration"));
+    provider.setAuxiliaryCellProvider(new NestedDeclaration_Editor._Inline_hxwqt0_a0a());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

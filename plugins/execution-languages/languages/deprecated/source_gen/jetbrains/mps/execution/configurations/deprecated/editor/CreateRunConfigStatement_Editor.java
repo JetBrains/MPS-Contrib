@@ -58,7 +58,7 @@ public class CreateRunConfigStatement_Editor extends DefaultNodeEditor {
     provider.setRole("runConfig");
     provider.setNoTargetText("<no runConfig>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new CreateRunConfigStatement_Editor._Inline_u5c1mf_a1a("runConfig"));
+    provider.setAuxiliaryCellProvider(new CreateRunConfigStatement_Editor._Inline_u5c1mf_a1a());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

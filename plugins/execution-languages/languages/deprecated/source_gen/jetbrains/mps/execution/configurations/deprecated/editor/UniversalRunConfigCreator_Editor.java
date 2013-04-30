@@ -99,7 +99,7 @@ public class UniversalRunConfigCreator_Editor extends DefaultNodeEditor {
     provider.setRole("rcType");
     provider.setNoTargetText("<no rcType>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new UniversalRunConfigCreator_Editor._Inline_5cdmsx_a1b0("rcType"));
+    provider.setAuxiliaryCellProvider(new UniversalRunConfigCreator_Editor._Inline_5cdmsx_a1b0());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

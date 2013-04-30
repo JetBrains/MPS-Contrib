@@ -32,7 +32,7 @@ public class PathReference_Editor extends DefaultNodeEditor {
     provider.setRole("call");
     provider.setNoTargetText("<no call>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new PathReference_Editor._Inline_ijlt4j_a0a("call"));
+    provider.setAuxiliaryCellProvider(new PathReference_Editor._Inline_ijlt4j_a0a());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

@@ -100,7 +100,7 @@ public class ParseExpression_Editor extends DefaultNodeEditor {
     provider.setRole("dateFormat");
     provider.setNoTargetText("<no dateFormat>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new ParseExpression_Editor._Inline_xn2ov4_a1b0("dateFormat"));
+    provider.setAuxiliaryCellProvider(new ParseExpression_Editor._Inline_xn2ov4_a1b0());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -190,7 +190,7 @@ public class ParseExpression_Editor extends DefaultNodeEditor {
     provider.setRole("locale");
     provider.setNoTargetText("<no locale>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new ParseExpression_Editor._Inline_xn2ov4_a1c0("locale"));
+    provider.setAuxiliaryCellProvider(new ParseExpression_Editor._Inline_xn2ov4_a1c0());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -337,7 +337,7 @@ public class ParseExpression_Editor extends DefaultNodeEditor {
     provider.setRole("locale");
     provider.setNoTargetText("<no locale>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new ParseExpression_Editor._Inline_xn2ov4_a1a0("locale"));
+    provider.setAuxiliaryCellProvider(new ParseExpression_Editor._Inline_xn2ov4_a1a0());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

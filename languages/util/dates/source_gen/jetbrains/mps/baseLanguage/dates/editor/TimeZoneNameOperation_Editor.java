@@ -177,7 +177,7 @@ public class TimeZoneNameOperation_Editor extends DefaultNodeEditor {
     provider.setRole("locale");
     provider.setNoTargetText("<no locale>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new TimeZoneNameOperation_Editor._Inline_vkak8k_a2f0("locale"));
+    provider.setAuxiliaryCellProvider(new TimeZoneNameOperation_Editor._Inline_vkak8k_a2f0());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -271,7 +271,7 @@ public class TimeZoneNameOperation_Editor extends DefaultNodeEditor {
     provider.setRole("locale");
     provider.setNoTargetText("<no locale>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new TimeZoneNameOperation_Editor._Inline_vkak8k_a1a0("locale"));
+    provider.setAuxiliaryCellProvider(new TimeZoneNameOperation_Editor._Inline_vkak8k_a1a0());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

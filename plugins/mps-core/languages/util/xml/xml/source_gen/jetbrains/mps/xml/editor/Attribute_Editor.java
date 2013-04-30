@@ -43,7 +43,7 @@ public class Attribute_Editor extends DefaultNodeEditor {
     provider.setRole("attributeDeclaration");
     provider.setNoTargetText("<no attributeDeclaration>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new Attribute_Editor._Inline_mc4j88_a0a("attributeDeclaration"));
+    provider.setAuxiliaryCellProvider(new Attribute_Editor._Inline_mc4j88_a0a());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

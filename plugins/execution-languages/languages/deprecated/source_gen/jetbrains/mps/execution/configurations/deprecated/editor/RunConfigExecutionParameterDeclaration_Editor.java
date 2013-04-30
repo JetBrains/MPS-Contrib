@@ -82,7 +82,7 @@ public class RunConfigExecutionParameterDeclaration_Editor extends DefaultNodeEd
     provider.setRole("key");
     provider.setNoTargetText("<no key>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new RunConfigExecutionParameterDeclaration_Editor._Inline_ystr20_a3a("key"));
+    provider.setAuxiliaryCellProvider(new RunConfigExecutionParameterDeclaration_Editor._Inline_ystr20_a3a());
     editorCell = provider.createEditorCell(editorContext);
     if (true) {
       editorCell.getStyle().set(StyleAttributes.FOCUS_POLICY, FocusPolicy.FIRST_EDITABLE_CELL);

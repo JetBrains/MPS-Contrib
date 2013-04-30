@@ -119,7 +119,7 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     provider.setRole("jodaDateTimeFieldType");
     provider.setNoTargetText("<no jodaDateTimeFieldType>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new DateTimeProperty_Editor._Inline_kwu3ge_a2c0("jodaDateTimeFieldType"));
+    provider.setAuxiliaryCellProvider(new DateTimeProperty_Editor._Inline_kwu3ge_a2c0());
     editorCell = provider.createEditorCell(editorContext);
     Style style = new StyleImpl();
     style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
@@ -197,7 +197,7 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     provider.setRole("jodaPeriodType");
     provider.setNoTargetText("<no jodaPeriodType>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new DateTimeProperty_Editor._Inline_kwu3ge_a5c0("jodaPeriodType"));
+    provider.setAuxiliaryCellProvider(new DateTimeProperty_Editor._Inline_kwu3ge_a5c0());
     editorCell = provider.createEditorCell(editorContext);
     Style style = new StyleImpl();
     style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
@@ -275,7 +275,7 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     provider.setRole("jodaDurationType");
     provider.setNoTargetText("<no jodaDurationType>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new DateTimeProperty_Editor._Inline_kwu3ge_a8c0("jodaDurationType"));
+    provider.setAuxiliaryCellProvider(new DateTimeProperty_Editor._Inline_kwu3ge_a8c0());
     editorCell = provider.createEditorCell(editorContext);
     Style style = new StyleImpl();
     style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
@@ -350,7 +350,7 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     provider.setRole("periodFormatMethod");
     provider.setNoTargetText("<no periodFormatMethod>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new DateTimeProperty_Editor._Inline_kwu3ge_a11c0("periodFormatMethod"));
+    provider.setAuxiliaryCellProvider(new DateTimeProperty_Editor._Inline_kwu3ge_a11c0());
     editorCell = provider.createEditorCell(editorContext);
     Style style = new StyleImpl();
     style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);

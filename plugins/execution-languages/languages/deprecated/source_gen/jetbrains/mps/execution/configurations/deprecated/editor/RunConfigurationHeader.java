@@ -91,7 +91,7 @@ public class RunConfigurationHeader extends AbstractCellProvider {
     provider.setRole("configType");
     provider.setNoTargetText("<no configType>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new RunConfigurationHeader._Inline_bqmo2k_a3a("configType"));
+    provider.setAuxiliaryCellProvider(new RunConfigurationHeader._Inline_bqmo2k_a3a());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

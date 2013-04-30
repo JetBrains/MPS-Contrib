@@ -54,7 +54,7 @@ public class FixedLocaleFormatToken_Editor extends DefaultNodeEditor {
     provider.setRole("locale");
     provider.setNoTargetText("<no locale>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new FixedLocaleFormatToken_Editor._Inline_gkiggc_a1a("locale"));
+    provider.setAuxiliaryCellProvider(new FixedLocaleFormatToken_Editor._Inline_gkiggc_a1a());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -135,7 +135,7 @@ public class FixedLocaleFormatToken_Editor extends DefaultNodeEditor {
     provider.setRole("dateFormat");
     provider.setNoTargetText("<no dateFormat>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new FixedLocaleFormatToken_Editor._Inline_gkiggc_a4a("dateFormat"));
+    provider.setAuxiliaryCellProvider(new FixedLocaleFormatToken_Editor._Inline_gkiggc_a4a());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

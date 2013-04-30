@@ -49,7 +49,7 @@ public class ReferenceFormatToken_Editor extends DefaultNodeEditor {
     provider.setRole("dateFormat");
     provider.setNoTargetText("<no dateFormat>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new ReferenceFormatToken_Editor._Inline_xpwz8a_a1a("dateFormat"));
+    provider.setAuxiliaryCellProvider(new ReferenceFormatToken_Editor._Inline_xpwz8a_a1a());
     editorCell = provider.createEditorCell(editorContext);
     Style style = new StyleImpl();
     style.set(StyleAttributes.LAYOUT_CONSTRAINT, "punctuation");

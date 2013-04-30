@@ -128,7 +128,7 @@ public class XmlFile_Editor extends DefaultNodeEditor {
     provider.setRole("schema");
     provider.setNoTargetText("<no schema>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new XmlFile_Editor._Inline_zencf0_a5a0("schema"));
+    provider.setAuxiliaryCellProvider(new XmlFile_Editor._Inline_zencf0_a5a0());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

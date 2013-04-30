@@ -126,7 +126,7 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
     provider.setRole("dateFormat");
     provider.setNoTargetText("<no dateFormat>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new FormatExpression_Editor._Inline_vqr4da_a3a("dateFormat"));
+    provider.setAuxiliaryCellProvider(new FormatExpression_Editor._Inline_vqr4da_a3a());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -215,7 +215,7 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
     provider.setRole("locale");
     provider.setNoTargetText("<no locale>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new FormatExpression_Editor._Inline_vqr4da_a1e0("locale"));
+    provider.setAuxiliaryCellProvider(new FormatExpression_Editor._Inline_vqr4da_a1e0());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -307,7 +307,7 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
     provider.setRole("locale");
     provider.setNoTargetText("<no locale>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new FormatExpression_Editor._Inline_vqr4da_a1a0("locale"));
+    provider.setAuxiliaryCellProvider(new FormatExpression_Editor._Inline_vqr4da_a1a0());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

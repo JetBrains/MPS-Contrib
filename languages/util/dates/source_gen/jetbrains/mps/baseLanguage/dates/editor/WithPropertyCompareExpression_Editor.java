@@ -56,7 +56,7 @@ public class WithPropertyCompareExpression_Editor extends DefaultNodeEditor {
     provider.setRole("datetimeProperty");
     provider.setNoTargetText("<no datetimeProperty>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new WithPropertyCompareExpression_Editor._Inline_gd466t_a2a("datetimeProperty"));
+    provider.setAuxiliaryCellProvider(new WithPropertyCompareExpression_Editor._Inline_gd466t_a2a());
     editorCell = provider.createEditorCell(editorContext);
     WithPropertyCompareExpression_delete.setCellActions(editorCell, node, editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());

@@ -78,7 +78,7 @@ public class PeriodConstant_Editor extends DefaultNodeEditor {
     provider.setRole("dateTimeProperty");
     provider.setNoTargetText("<no dateTimeProperty>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new PeriodConstant_Editor._Inline_x7xgz7_a0b0("dateTimeProperty"));
+    provider.setAuxiliaryCellProvider(new PeriodConstant_Editor._Inline_x7xgz7_a0b0());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -138,7 +138,7 @@ public class PeriodConstant_Editor extends DefaultNodeEditor {
     provider.setRole("dateTimeProperty");
     provider.setNoTargetText("<no dateTimeProperty>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new PeriodConstant_Editor._Inline_x7xgz7_a0b0_0("dateTimeProperty"));
+    provider.setAuxiliaryCellProvider(new PeriodConstant_Editor._Inline_x7xgz7_a0b0_0());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

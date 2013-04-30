@@ -92,7 +92,7 @@ public class ParseDateTimeExpression_Editor extends DefaultNodeEditor {
     provider.setRole("dateFormat");
     provider.setNoTargetText("<no dateFormat>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new ParseDateTimeExpression_Editor._Inline_6am7xv_a1b0("dateFormat"));
+    provider.setAuxiliaryCellProvider(new ParseDateTimeExpression_Editor._Inline_6am7xv_a1b0());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -210,7 +210,7 @@ public class ParseDateTimeExpression_Editor extends DefaultNodeEditor {
     provider.setRole("locale");
     provider.setNoTargetText("<no locale>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new ParseDateTimeExpression_Editor._Inline_6am7xv_a1c0("locale"));
+    provider.setAuxiliaryCellProvider(new ParseDateTimeExpression_Editor._Inline_6am7xv_a1c0());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -369,7 +369,7 @@ public class ParseDateTimeExpression_Editor extends DefaultNodeEditor {
     provider.setRole("locale");
     provider.setNoTargetText("<no locale>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new ParseDateTimeExpression_Editor._Inline_6am7xv_a1a0("locale"));
+    provider.setAuxiliaryCellProvider(new ParseDateTimeExpression_Editor._Inline_6am7xv_a1a0());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

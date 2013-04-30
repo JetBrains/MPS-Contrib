@@ -37,7 +37,7 @@ public class PropertyReference_Editor extends DefaultNodeEditor {
     provider.setRole("propertyDeclaration");
     provider.setNoTargetText("<no propertyDeclaration>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new PropertyReference_Editor._Inline_5yutfv_a0a("propertyDeclaration"));
+    provider.setAuxiliaryCellProvider(new PropertyReference_Editor._Inline_5yutfv_a0a());
     editorCell = provider.createEditorCell(editorContext);
     Style style = new StyleImpl();
     BuildLanguageStyle_StyleSheet.applyProperty(style, editorCell);

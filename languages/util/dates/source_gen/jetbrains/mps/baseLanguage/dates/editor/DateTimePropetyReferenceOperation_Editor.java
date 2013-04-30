@@ -34,7 +34,7 @@ public class DateTimePropetyReferenceOperation_Editor extends DefaultNodeEditor 
     provider.setRole("dateTimeProperty");
     provider.setNoTargetText("<no dateTimeProperty>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new DateTimePropetyReferenceOperation_Editor._Inline_pju3cy_a0a("dateTimeProperty"));
+    provider.setAuxiliaryCellProvider(new DateTimePropetyReferenceOperation_Editor._Inline_pju3cy_a0a());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

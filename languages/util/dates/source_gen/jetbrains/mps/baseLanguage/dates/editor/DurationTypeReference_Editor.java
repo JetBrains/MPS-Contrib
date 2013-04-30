@@ -34,7 +34,7 @@ public class DurationTypeReference_Editor extends DefaultNodeEditor {
     provider.setRole("durationType");
     provider.setNoTargetText("<no durationType>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new DurationTypeReference_Editor._Inline_tvcoif_a0a("durationType"));
+    provider.setAuxiliaryCellProvider(new DurationTypeReference_Editor._Inline_tvcoif_a0a());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

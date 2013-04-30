@@ -46,7 +46,7 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     provider.setRole("schedulePeriod");
     provider.setNoTargetText("<no schedulePeriod>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new ScheduleLiteral_Editor._Inline_53656_a0a("schedulePeriod"));
+    provider.setAuxiliaryCellProvider(new ScheduleLiteral_Editor._Inline_53656_a0a());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -151,7 +151,7 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     provider.setRole("month");
     provider.setNoTargetText("<no month>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new ScheduleLiteral_Editor._Inline_53656_a0b1a("month"));
+    provider.setAuxiliaryCellProvider(new ScheduleLiteral_Editor._Inline_53656_a0b1a());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

@@ -279,7 +279,7 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
     provider.setRole("stateTypeParameter");
     provider.setNoTargetText("RunProfileState");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new RunConfigurationDeclaration_Editor._Inline_l50atq_a1a0("stateTypeParameter"));
+    provider.setAuxiliaryCellProvider(new RunConfigurationDeclaration_Editor._Inline_l50atq_a1a0());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

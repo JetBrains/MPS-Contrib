@@ -49,7 +49,7 @@ public class PeriodReferenceFormatToken_Editor extends DefaultNodeEditor {
     provider.setRole("format");
     provider.setNoTargetText("<no format>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new PeriodReferenceFormatToken_Editor._Inline_kfljbu_a1a("format"));
+    provider.setAuxiliaryCellProvider(new PeriodReferenceFormatToken_Editor._Inline_kfljbu_a1a());
     editorCell = provider.createEditorCell(editorContext);
     Style style = new StyleImpl();
     style.set(StyleAttributes.LAYOUT_CONSTRAINT, "punctuation");

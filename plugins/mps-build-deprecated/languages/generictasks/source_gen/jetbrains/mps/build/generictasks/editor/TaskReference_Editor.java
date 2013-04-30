@@ -35,7 +35,7 @@ public class TaskReference_Editor extends DefaultNodeEditor {
     provider.setRole("declaration");
     provider.setNoTargetText("<no declaration>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new TaskReference_Editor._Inline_bbna77_a0a("declaration"));
+    provider.setAuxiliaryCellProvider(new TaskReference_Editor._Inline_bbna77_a0a());
     editorCell = provider.createEditorCell(editorContext);
     Style style = new StyleImpl();
     BuildLanguageStyle_StyleSheet.applyTask(style, editorCell);

@@ -77,7 +77,7 @@ public class TokenConditionalPair_Editor extends DefaultNodeEditor {
     provider.setRole("format");
     provider.setNoTargetText("<no format>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new TokenConditionalPair_Editor._Inline_ar9cj6_a2a("format"));
+    provider.setAuxiliaryCellProvider(new TokenConditionalPair_Editor._Inline_ar9cj6_a2a());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

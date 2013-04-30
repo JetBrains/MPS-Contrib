@@ -131,7 +131,7 @@ public class TaskCall_Editor extends DefaultNodeEditor {
     provider.setRole("declaration");
     provider.setNoTargetText("<no declaration>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new TaskCall_Editor._Inline_fr7f84_a0b0("declaration"));
+    provider.setAuxiliaryCellProvider(new TaskCall_Editor._Inline_fr7f84_a0b0());
     editorCell = provider.createEditorCell(editorContext);
     Style style = new StyleImpl();
     BuildLanguageStyle_StyleSheet.applyTask(style, editorCell);
@@ -195,7 +195,7 @@ public class TaskCall_Editor extends DefaultNodeEditor {
     provider.setRole("declaration");
     provider.setNoTargetText("<no declaration>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new TaskCall_Editor._Inline_fr7f84_a1b0("declaration"));
+    provider.setAuxiliaryCellProvider(new TaskCall_Editor._Inline_fr7f84_a1b0());
     editorCell = provider.createEditorCell(editorContext);
     Style style = new StyleImpl();
     BuildLanguageStyle_StyleSheet.applyDepractaedAttributeName(style, editorCell);

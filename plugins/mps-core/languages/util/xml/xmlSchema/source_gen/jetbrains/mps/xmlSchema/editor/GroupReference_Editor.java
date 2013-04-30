@@ -37,7 +37,7 @@ public class GroupReference_Editor extends DefaultNodeEditor {
     provider.setRole("groupDeclaration");
     provider.setNoTargetText("<no groupDeclaration>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new GroupReference_Editor._Inline_b7gqtc_a0a("groupDeclaration"));
+    provider.setAuxiliaryCellProvider(new GroupReference_Editor._Inline_b7gqtc_a0a());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

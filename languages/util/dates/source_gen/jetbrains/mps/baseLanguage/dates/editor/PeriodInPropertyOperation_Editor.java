@@ -70,7 +70,7 @@ public class PeriodInPropertyOperation_Editor extends DefaultNodeEditor {
     provider.setRole("datetimeProperty");
     provider.setNoTargetText("<no datetimeProperty>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new PeriodInPropertyOperation_Editor._Inline_u0w6r4_a2a("datetimeProperty"));
+    provider.setAuxiliaryCellProvider(new PeriodInPropertyOperation_Editor._Inline_u0w6r4_a2a());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

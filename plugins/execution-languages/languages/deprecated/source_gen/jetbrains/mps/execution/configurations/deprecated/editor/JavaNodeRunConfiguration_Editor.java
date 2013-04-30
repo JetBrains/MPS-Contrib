@@ -185,7 +185,7 @@ public class JavaNodeRunConfiguration_Editor extends DefaultNodeEditor {
     provider.setRole("conceptDeclaration");
     provider.setNoTargetText("<no conceptDeclaration>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new JavaNodeRunConfiguration_Editor._Inline_oxce8e_a1a3b1a("conceptDeclaration"));
+    provider.setAuxiliaryCellProvider(new JavaNodeRunConfiguration_Editor._Inline_oxce8e_a1a3b1a());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

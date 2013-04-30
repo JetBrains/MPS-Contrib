@@ -155,7 +155,7 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
     provider.setRole("datetimeProperty");
     provider.setNoTargetText("<no datetimeProperty>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new DateTimeCompareOperation_Editor._Inline_ehy6fr_a1e0("datetimeProperty"));
+    provider.setAuxiliaryCellProvider(new DateTimeCompareOperation_Editor._Inline_ehy6fr_a1e0());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

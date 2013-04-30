@@ -35,7 +35,7 @@ public class RunConfigParameterReferenceOperation_Editor extends DefaultNodeEdit
     provider.setRole("runConfigParameter");
     provider.setNoTargetText("<no runConfigParameter>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new RunConfigParameterReferenceOperation_Editor._Inline_utb8p6_a0a("runConfigParameter"));
+    provider.setAuxiliaryCellProvider(new RunConfigParameterReferenceOperation_Editor._Inline_utb8p6_a0a());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

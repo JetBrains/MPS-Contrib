@@ -38,7 +38,7 @@ public class ElementReference_Editor extends DefaultNodeEditor {
     provider.setRole("elementDeclaration");
     provider.setNoTargetText("<no elementDeclaration>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new ElementReference_Editor._Inline_uugm4e_a0a("elementDeclaration"));
+    provider.setAuxiliaryCellProvider(new ElementReference_Editor._Inline_uugm4e_a0a());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

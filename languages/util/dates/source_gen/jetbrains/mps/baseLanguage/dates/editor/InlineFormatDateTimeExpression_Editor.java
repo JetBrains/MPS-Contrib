@@ -200,7 +200,7 @@ public class InlineFormatDateTimeExpression_Editor extends DefaultNodeEditor {
     provider.setRole("locale");
     provider.setNoTargetText("<no locale>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new InlineFormatDateTimeExpression_Editor._Inline_wdrux0_a1f0("locale"));
+    provider.setAuxiliaryCellProvider(new InlineFormatDateTimeExpression_Editor._Inline_wdrux0_a1f0());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -297,7 +297,7 @@ public class InlineFormatDateTimeExpression_Editor extends DefaultNodeEditor {
     provider.setRole("locale");
     provider.setNoTargetText("<no locale>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new InlineFormatDateTimeExpression_Editor._Inline_wdrux0_a1a0("locale"));
+    provider.setAuxiliaryCellProvider(new InlineFormatDateTimeExpression_Editor._Inline_wdrux0_a1a0());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
