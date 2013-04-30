@@ -60,10 +60,6 @@ public class ImportPropertyNode_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_un6x7s_a1a extends InlineCellProvider {
-    public _Inline_un6x7s_a1a(String role) {
-      super(role);
-    }
-
     public _Inline_un6x7s_a1a() {
       super();
     }

@@ -176,10 +176,6 @@ public class JavaRunConfiguration_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_gt2apr_a0a extends InlineCellProvider {
-    public _Inline_gt2apr_a0a(String role) {
-      super(role);
-    }
-
     public _Inline_gt2apr_a0a() {
       super();
     }

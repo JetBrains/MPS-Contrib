@@ -49,10 +49,6 @@ public class RunConfigParameterReferenceOperation_Editor extends DefaultNodeEdit
   }
 
   public static class _Inline_utb8p6_a0a extends InlineCellProvider {
-    public _Inline_utb8p6_a0a(String role) {
-      super(role);
-    }
-
     public _Inline_utb8p6_a0a() {
       super();
     }

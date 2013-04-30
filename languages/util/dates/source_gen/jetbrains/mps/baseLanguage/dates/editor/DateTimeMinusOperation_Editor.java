@@ -148,10 +148,6 @@ public class DateTimeMinusOperation_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_ezq9vh_a7a extends InlineCellProvider {
-    public _Inline_ezq9vh_a7a(String role) {
-      super(role);
-    }
-
     public _Inline_ezq9vh_a7a() {
       super();
     }

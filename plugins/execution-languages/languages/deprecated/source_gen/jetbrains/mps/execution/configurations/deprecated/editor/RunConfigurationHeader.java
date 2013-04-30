@@ -105,10 +105,6 @@ public class RunConfigurationHeader extends AbstractCellProvider {
   }
 
   public static class _Inline_bqmo2k_a3a extends InlineCellProvider {
-    public _Inline_bqmo2k_a3a(String role) {
-      super(role);
-    }
-
     public _Inline_bqmo2k_a3a() {
       super();
     }

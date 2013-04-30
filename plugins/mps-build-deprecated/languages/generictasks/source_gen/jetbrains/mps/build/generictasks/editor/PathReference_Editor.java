@@ -46,10 +46,6 @@ public class PathReference_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_ijlt4j_a0a extends InlineCellProvider {
-    public _Inline_ijlt4j_a0a(String role) {
-      super(role);
-    }
-
     public _Inline_ijlt4j_a0a() {
       super();
     }

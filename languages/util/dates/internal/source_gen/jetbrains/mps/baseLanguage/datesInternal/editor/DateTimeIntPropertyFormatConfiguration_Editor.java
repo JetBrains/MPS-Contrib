@@ -86,10 +86,6 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
   }
 
   public static class _Inline_e2al3f_a2a extends InlineCellProvider {
-    public _Inline_e2al3f_a2a(String role) {
-      super(role);
-    }
-
     public _Inline_e2al3f_a2a() {
       super();
     }

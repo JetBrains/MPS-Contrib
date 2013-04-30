@@ -113,10 +113,6 @@ public class UniversalRunConfigCreator_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_5cdmsx_a1b0 extends InlineCellProvider {
-    public _Inline_5cdmsx_a1b0(String role) {
-      super(role);
-    }
-
     public _Inline_5cdmsx_a1b0() {
       super();
     }

@@ -191,10 +191,6 @@ public class TimeZoneNameOperation_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_vkak8k_a2f0 extends InlineCellProvider {
-    public _Inline_vkak8k_a2f0(String role) {
-      super(role);
-    }
-
     public _Inline_vkak8k_a2f0() {
       super();
     }
@@ -285,10 +281,6 @@ public class TimeZoneNameOperation_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_vkak8k_a1a0 extends InlineCellProvider {
-    public _Inline_vkak8k_a1a0(String role) {
-      super(role);
-    }
-
     public _Inline_vkak8k_a1a0() {
       super();
     }

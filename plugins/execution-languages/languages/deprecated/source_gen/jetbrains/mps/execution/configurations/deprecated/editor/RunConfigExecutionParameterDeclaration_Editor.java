@@ -99,10 +99,6 @@ public class RunConfigExecutionParameterDeclaration_Editor extends DefaultNodeEd
   }
 
   public static class _Inline_ystr20_a3a extends InlineCellProvider {
-    public _Inline_ystr20_a3a(String role) {
-      super(role);
-    }
-
     public _Inline_ystr20_a3a() {
       super();
     }

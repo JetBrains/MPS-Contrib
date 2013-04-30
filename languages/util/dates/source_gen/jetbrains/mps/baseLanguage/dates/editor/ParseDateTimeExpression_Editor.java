@@ -106,10 +106,6 @@ public class ParseDateTimeExpression_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_6am7xv_a1b0 extends InlineCellProvider {
-    public _Inline_6am7xv_a1b0(String role) {
-      super(role);
-    }
-
     public _Inline_6am7xv_a1b0() {
       super();
     }
@@ -224,10 +220,6 @@ public class ParseDateTimeExpression_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_6am7xv_a1c0 extends InlineCellProvider {
-    public _Inline_6am7xv_a1c0(String role) {
-      super(role);
-    }
-
     public _Inline_6am7xv_a1c0() {
       super();
     }
@@ -383,10 +375,6 @@ public class ParseDateTimeExpression_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_6am7xv_a1a0 extends InlineCellProvider {
-    public _Inline_6am7xv_a1a0(String role) {
-      super(role);
-    }
-
     public _Inline_6am7xv_a1a0() {
       super();
     }

@@ -53,10 +53,6 @@ public class ConstantTimeZoneRef_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_26n9sb_a0a extends InlineCellProvider {
-    public _Inline_26n9sb_a0a(String role) {
-      super(role);
-    }
-
     public _Inline_26n9sb_a0a() {
       super();
     }

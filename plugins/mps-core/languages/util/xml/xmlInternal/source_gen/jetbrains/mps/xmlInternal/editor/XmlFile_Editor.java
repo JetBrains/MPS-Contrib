@@ -142,10 +142,6 @@ public class XmlFile_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_zencf0_a5a0 extends InlineCellProvider {
-    public _Inline_zencf0_a5a0(String role) {
-      super(role);
-    }
-
     public _Inline_zencf0_a5a0() {
       super();
     }

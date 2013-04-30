@@ -60,10 +60,6 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_53656_a0a extends InlineCellProvider {
-    public _Inline_53656_a0a(String role) {
-      super(role);
-    }
-
     public _Inline_53656_a0a() {
       super();
     }
@@ -165,10 +161,6 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_53656_a0b1a extends InlineCellProvider {
-    public _Inline_53656_a0b1a(String role) {
-      super(role);
-    }
-
     public _Inline_53656_a0b1a() {
       super();
     }

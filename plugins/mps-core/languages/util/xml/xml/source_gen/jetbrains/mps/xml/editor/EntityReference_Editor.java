@@ -65,10 +65,6 @@ public class EntityReference_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_jj82vm_a1a extends InlineCellProvider {
-    public _Inline_jj82vm_a1a(String role) {
-      super(role);
-    }
-
     public _Inline_jj82vm_a1a() {
       super();
     }

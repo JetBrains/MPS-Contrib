@@ -92,10 +92,6 @@ public class PeriodConstant_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_x7xgz7_a0b0 extends InlineCellProvider {
-    public _Inline_x7xgz7_a0b0(String role) {
-      super(role);
-    }
-
     public _Inline_x7xgz7_a0b0() {
       super();
     }
@@ -152,10 +148,6 @@ public class PeriodConstant_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_x7xgz7_a0b0_0 extends InlineCellProvider {
-    public _Inline_x7xgz7_a0b0_0(String role) {
-      super(role);
-    }
-
     public _Inline_x7xgz7_a0b0_0() {
       super();
     }

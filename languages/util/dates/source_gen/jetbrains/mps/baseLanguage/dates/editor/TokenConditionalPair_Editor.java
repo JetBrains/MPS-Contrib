@@ -91,10 +91,6 @@ public class TokenConditionalPair_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_ar9cj6_a2a extends InlineCellProvider {
-    public _Inline_ar9cj6_a2a(String role) {
-      super(role);
-    }
-
     public _Inline_ar9cj6_a2a() {
       super();
     }

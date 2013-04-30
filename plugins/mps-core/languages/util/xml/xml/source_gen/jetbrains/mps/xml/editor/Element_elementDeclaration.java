@@ -64,10 +64,6 @@ public class Element_elementDeclaration extends AbstractCellProvider {
   }
 
   public static class _Inline_vbcaz4_a0a extends InlineCellProvider {
-    public _Inline_vbcaz4_a0a(String role) {
-      super(role);
-    }
-
     public _Inline_vbcaz4_a0a() {
       super();
     }

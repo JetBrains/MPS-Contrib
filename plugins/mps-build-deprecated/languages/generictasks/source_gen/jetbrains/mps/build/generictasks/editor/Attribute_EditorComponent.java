@@ -77,10 +77,6 @@ public class Attribute_EditorComponent extends AbstractCellProvider {
   }
 
   public static class _Inline_y32exi_a0a extends InlineCellProvider {
-    public _Inline_y32exi_a0a(String role) {
-      super(role);
-    }
-
     public _Inline_y32exi_a0a() {
       super();
     }
@@ -144,10 +140,6 @@ public class Attribute_EditorComponent extends AbstractCellProvider {
   }
 
   public static class _Inline_y32exi_a1a extends InlineCellProvider {
-    public _Inline_y32exi_a1a(String role) {
-      super(role);
-    }
-
     public _Inline_y32exi_a1a() {
       super();
     }

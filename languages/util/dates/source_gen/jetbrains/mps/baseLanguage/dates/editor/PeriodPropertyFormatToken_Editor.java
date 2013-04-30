@@ -186,10 +186,6 @@ public class PeriodPropertyFormatToken_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_ed1xw0_a3a extends InlineCellProvider {
-    public _Inline_ed1xw0_a3a(String role) {
-      super(role);
-    }
-
     public _Inline_ed1xw0_a3a() {
       super();
     }

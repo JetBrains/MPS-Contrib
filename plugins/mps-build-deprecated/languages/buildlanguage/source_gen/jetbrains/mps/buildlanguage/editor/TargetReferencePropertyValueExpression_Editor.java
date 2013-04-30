@@ -78,10 +78,6 @@ public class TargetReferencePropertyValueExpression_Editor extends DefaultNodeEd
   }
 
   public static class _Inline_826xl5_a1a extends InlineCellProvider {
-    public _Inline_826xl5_a1a(String role) {
-      super(role);
-    }
-
     public _Inline_826xl5_a1a() {
       super();
     }

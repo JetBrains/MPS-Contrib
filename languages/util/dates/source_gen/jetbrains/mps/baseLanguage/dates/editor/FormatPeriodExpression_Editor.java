@@ -88,10 +88,6 @@ public class FormatPeriodExpression_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_6favmm_a2a extends InlineCellProvider {
-    public _Inline_6favmm_a2a(String role) {
-      super(role);
-    }
-
     public _Inline_6favmm_a2a() {
       super();
     }
@@ -173,10 +169,6 @@ public class FormatPeriodExpression_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_6favmm_a1d0 extends InlineCellProvider {
-    public _Inline_6favmm_a1d0(String role) {
-      super(role);
-    }
-
     public _Inline_6favmm_a1d0() {
       super();
     }
@@ -267,10 +259,6 @@ public class FormatPeriodExpression_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_6favmm_a1a0 extends InlineCellProvider {
-    public _Inline_6favmm_a1a0(String role) {
-      super(role);
-    }
-
     public _Inline_6favmm_a1a0() {
       super();
     }

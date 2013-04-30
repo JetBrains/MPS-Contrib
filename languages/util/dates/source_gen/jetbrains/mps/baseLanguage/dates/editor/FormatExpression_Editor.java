@@ -140,10 +140,6 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_vqr4da_a3a extends InlineCellProvider {
-    public _Inline_vqr4da_a3a(String role) {
-      super(role);
-    }
-
     public _Inline_vqr4da_a3a() {
       super();
     }
@@ -229,10 +225,6 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_vqr4da_a1e0 extends InlineCellProvider {
-    public _Inline_vqr4da_a1e0(String role) {
-      super(role);
-    }
-
     public _Inline_vqr4da_a1e0() {
       super();
     }
@@ -321,10 +313,6 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_vqr4da_a1a0 extends InlineCellProvider {
-    public _Inline_vqr4da_a1a0(String role) {
-      super(role);
-    }
-
     public _Inline_vqr4da_a1a0() {
       super();
     }

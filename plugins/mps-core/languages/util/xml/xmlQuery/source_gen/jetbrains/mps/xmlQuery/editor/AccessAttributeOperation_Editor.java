@@ -49,10 +49,6 @@ public class AccessAttributeOperation_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_y4ce_a0a extends InlineCellProvider {
-    public _Inline_y4ce_a0a(String role) {
-      super(role);
-    }
-
     public _Inline_y4ce_a0a() {
       super();
     }

@@ -84,10 +84,6 @@ public class PeriodInPropertyOperation_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_u0w6r4_a2a extends InlineCellProvider {
-    public _Inline_u0w6r4_a2a(String role) {
-      super(role);
-    }
-
     public _Inline_u0w6r4_a2a() {
       super();
     }

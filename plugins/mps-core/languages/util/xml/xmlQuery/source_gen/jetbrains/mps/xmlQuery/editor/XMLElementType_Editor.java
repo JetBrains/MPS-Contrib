@@ -84,10 +84,6 @@ public class XMLElementType_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_ohiupi_a2a extends InlineCellProvider {
-    public _Inline_ohiupi_a2a(String role) {
-      super(role);
-    }
-
     public _Inline_ohiupi_a2a() {
       super();
     }
@@ -158,10 +154,6 @@ public class XMLElementType_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_ohiupi_a4a extends InlineCellProvider {
-    public _Inline_ohiupi_a4a(String role) {
-      super(role);
-    }
-
     public _Inline_ohiupi_a4a() {
       super();
     }

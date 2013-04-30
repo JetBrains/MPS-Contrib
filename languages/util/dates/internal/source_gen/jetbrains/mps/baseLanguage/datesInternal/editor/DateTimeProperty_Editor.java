@@ -136,10 +136,6 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_kwu3ge_a2c0 extends InlineCellProvider {
-    public _Inline_kwu3ge_a2c0(String role) {
-      super(role);
-    }
-
     public _Inline_kwu3ge_a2c0() {
       super();
     }
@@ -214,10 +210,6 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_kwu3ge_a5c0 extends InlineCellProvider {
-    public _Inline_kwu3ge_a5c0(String role) {
-      super(role);
-    }
-
     public _Inline_kwu3ge_a5c0() {
       super();
     }
@@ -292,10 +284,6 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_kwu3ge_a8c0 extends InlineCellProvider {
-    public _Inline_kwu3ge_a8c0(String role) {
-      super(role);
-    }
-
     public _Inline_kwu3ge_a8c0() {
       super();
     }
@@ -367,10 +355,6 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_kwu3ge_a11c0 extends InlineCellProvider {
-    public _Inline_kwu3ge_a11c0(String role) {
-      super(role);
-    }
-
     public _Inline_kwu3ge_a11c0() {
       super();
     }

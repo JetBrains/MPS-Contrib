@@ -144,10 +144,6 @@ public class AbsDateTimeMinusOperation_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_ayji0k_a6a extends InlineCellProvider {
-    public _Inline_ayji0k_a6a(String role) {
-      super(role);
-    }
-
     public _Inline_ayji0k_a6a() {
       super();
     }

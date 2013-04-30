@@ -268,10 +268,6 @@ public class InlineFormatExpression_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_b4441e_a2g0 extends InlineCellProvider {
-    public _Inline_b4441e_a2g0(String role) {
-      super(role);
-    }
-
     public _Inline_b4441e_a2g0() {
       super();
     }
@@ -362,10 +358,6 @@ public class InlineFormatExpression_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_b4441e_a1a0 extends InlineCellProvider {
-    public _Inline_b4441e_a1a0(String role) {
-      super(role);
-    }
-
     public _Inline_b4441e_a1a0() {
       super();
     }

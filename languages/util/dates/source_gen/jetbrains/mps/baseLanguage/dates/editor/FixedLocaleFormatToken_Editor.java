@@ -68,10 +68,6 @@ public class FixedLocaleFormatToken_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_gkiggc_a1a extends InlineCellProvider {
-    public _Inline_gkiggc_a1a(String role) {
-      super(role);
-    }
-
     public _Inline_gkiggc_a1a() {
       super();
     }
@@ -149,10 +145,6 @@ public class FixedLocaleFormatToken_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_gkiggc_a4a extends InlineCellProvider {
-    public _Inline_gkiggc_a4a(String role) {
-      super(role);
-    }
-
     public _Inline_gkiggc_a4a() {
       super();
     }

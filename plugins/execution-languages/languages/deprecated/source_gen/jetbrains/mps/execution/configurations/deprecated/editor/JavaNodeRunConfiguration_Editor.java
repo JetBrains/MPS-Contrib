@@ -199,10 +199,6 @@ public class JavaNodeRunConfiguration_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_oxce8e_a1a3b1a extends InlineCellProvider {
-    public _Inline_oxce8e_a1a3b1a(String role) {
-      super(role);
-    }
-
     public _Inline_oxce8e_a1a3b1a() {
       super();
     }
