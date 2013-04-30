@@ -48,10 +48,6 @@ public class ComponentReference_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_taca2n_a0a extends InlineCellProvider {
-    public _Inline_taca2n_a0a(String role) {
-      super(role);
-    }
-
     public _Inline_taca2n_a0a() {
       super();
     }

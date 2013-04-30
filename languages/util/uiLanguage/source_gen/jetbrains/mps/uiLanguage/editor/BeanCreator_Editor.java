@@ -62,10 +62,6 @@ public class BeanCreator_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_pb1ym0_a0a extends InlineCellProvider {
-    public _Inline_pb1ym0_a0a(String role) {
-      super(role);
-    }
-
     public _Inline_pb1ym0_a0a() {
       super();
     }

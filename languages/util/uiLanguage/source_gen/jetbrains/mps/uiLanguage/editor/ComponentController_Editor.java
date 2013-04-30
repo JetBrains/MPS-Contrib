@@ -99,10 +99,6 @@ public class ComponentController_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_ac817d_a2a0 extends InlineCellProvider {
-    public _Inline_ac817d_a2a0(String role) {
-      super(role);
-    }
-
     public _Inline_ac817d_a2a0() {
       super();
     }

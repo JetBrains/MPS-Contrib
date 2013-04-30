@@ -46,10 +46,6 @@ public class StubCellRendererInfo_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_8ufu2t_a0a extends InlineCellProvider {
-    public _Inline_8ufu2t_a0a(String role) {
-      super(role);
-    }
-
     public _Inline_8ufu2t_a0a() {
       super();
     }

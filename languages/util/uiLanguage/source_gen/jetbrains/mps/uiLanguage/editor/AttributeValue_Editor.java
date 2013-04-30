@@ -52,10 +52,6 @@ public class AttributeValue_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_qq2e6z_a0a extends InlineCellProvider {
-    public _Inline_qq2e6z_a0a(String role) {
-      super(role);
-    }
-
     public _Inline_qq2e6z_a0a() {
       super();
     }

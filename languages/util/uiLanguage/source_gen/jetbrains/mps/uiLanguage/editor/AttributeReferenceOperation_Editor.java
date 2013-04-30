@@ -52,10 +52,6 @@ public class AttributeReferenceOperation_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_vipxp6_a0a extends InlineCellProvider {
-    public _Inline_vipxp6_a0a(String role) {
-      super(role);
-    }
-
     public _Inline_vipxp6_a0a() {
       super();
     }

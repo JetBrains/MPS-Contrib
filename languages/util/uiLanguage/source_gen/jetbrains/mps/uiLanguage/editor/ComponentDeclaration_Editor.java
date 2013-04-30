@@ -214,10 +214,6 @@ public class ComponentDeclaration_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_kze313_a1a1d0 extends InlineCellProvider {
-    public _Inline_kze313_a1a1d0(String role) {
-      super(role);
-    }
-
     public _Inline_kze313_a1a1d0() {
       super();
     }
@@ -289,10 +285,6 @@ public class ComponentDeclaration_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline_kze313_a1b1d0 extends InlineCellProvider {
-    public _Inline_kze313_a1b1d0(String role) {
-      super(role);
-    }
-
     public _Inline_kze313_a1b1d0() {
       super();
     }
