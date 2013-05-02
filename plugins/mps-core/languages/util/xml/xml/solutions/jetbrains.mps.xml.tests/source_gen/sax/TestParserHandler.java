@@ -65,7 +65,7 @@ public class TestParserHandler extends DefaultHandler {
       // root 
       current = rootElementhandler;
     } else {
-      current = current.createChild(qName);
+      current = current.createChild(myValues.peek(), qName, attributes);
     }
 
     // check required 
@@ -94,14 +94,14 @@ public class TestParserHandler extends DefaultHandler {
     private ElementHandler() {
     }
 
-    protected Object createObject(Attributes attrs) {
+    protected Object createObject(Attributes attrs) throws SAXException {
       return null;
     }
 
     protected void handleAttribute(Object resultObject, String name, String value) throws SAXException {
     }
 
-    protected TestParserHandler.ElementHandler createChild(String tagName) throws SAXException {
+    protected TestParserHandler.ElementHandler createChild(Object resultObject, String tagName, Attributes attrs) throws SAXException {
       throw new SAXParseException("unknown tag: " + tagName, null);
     }
 
@@ -146,11 +146,11 @@ public class TestParserHandler extends DefaultHandler {
     }
 
     @Override
-    protected TestParserHandler.ElementHandler createChild(String tagName) throws SAXException {
+    protected TestParserHandler.ElementHandler createChild(Object resultObject, String tagName, Attributes attrs) throws SAXException {
       if ("child".equals(tagName)) {
         return childElementhandler;
       }
-      return super.createChild(tagName);
+      return super.createChild(resultObject, tagName, attrs);
     }
 
     @Override
@@ -178,14 +178,14 @@ public class TestParserHandler extends DefaultHandler {
     }
 
     @Override
-    protected TestParserHandler.ElementHandler createChild(String tagName) throws SAXException {
+    protected TestParserHandler.ElementHandler createChild(Object resultObject, String tagName, Attributes attrs) throws SAXException {
       if ("mine".equals(tagName)) {
         return childElementhandler;
       }
       if ("theirs".equals(tagName)) {
         return childElementhandler;
       }
-      return super.createChild(tagName);
+      return super.createChild(resultObject, tagName, attrs);
     }
 
     @Override
