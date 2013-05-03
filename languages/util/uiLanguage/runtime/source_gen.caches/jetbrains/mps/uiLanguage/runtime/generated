@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-6058dz2q538hhyebzbqr6551wfyuf6v">
+<dependencies version="2" modelHash="bwazb18ttgojlez7a6p4icx3v486i5t">
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt(JDK/java.awt@java_stub)" />
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.swing(JDK/javax.swing@java_stub)" />
-  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-3oix0gm2cosksx5q7bcotftdn7n21nk" />
-  <common hash="a12ih9dl2ci21vg0f8ohx7eiw5ie6uw" />
-  <source id="5606982432899038941" name="HBoxPanel" hash="-6xz95zpay1romzuq6mjmry8j1u4vxv9">
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-7mxihkcc0vv2q7mmukrgbm8b18oc3tu" />
+  <common hash="dywbv5th6ai161orrwwbintycp89et9" />
+  <source id="5606982432899038941" name="HBoxPanel" hash="-dfoe5l2dcfpg8csr195z6tcep452cs1">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.swing(JDK/javax.swing@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <file name="HBoxPanel.java" />
   </source>
-  <source id="5606982432899038956" name="ValueWrapper" hash="-74ahyvkjfiuqk9qatipwsdqz03hib6u">
+  <source id="5606982432899038956" name="ValueWrapper" hash="2zh21gtsh2blcy74zgfnezl13j4vxw3">
     <file name="ValueWrapper.java" />
   </source>
-  <source id="5606982432899038963" name="FlowPanel" hash="-4q58dm2yik3n1txlhor7hheer46dtvl">
+  <source id="5606982432899038963" name="FlowPanel" hash="6k2n4by5j9ybzrssuuw3map2qctjzyc">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt(JDK/java.awt@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <file name="FlowPanel.java" />
   </source>
-  <source id="5606982432899038977" name="VBoxPanel" hash="-2mogfaclkyx4bdjzjyqk42novh8c7ra">
+  <source id="5606982432899038977" name="VBoxPanel" hash="w4dasu6qn3c05byry6ho13j3tpfo4j">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.swing(JDK/javax.swing@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <file name="VBoxPanel.java" />
   </source>
-  <source id="5606982432899038992" name="SimpleListModel" hash="4nscrnnibpve963z46xz7w2e45mahf0">
+  <source id="5606982432899038992" name="SimpleListModel" hash="6zot6qrp4xx264uq0guqqzj3ph25yh8">
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <file name="SimpleListModel.java" />
   </source>
-  <source id="3987693689859617965" name="JbRadioButton" hash="-3th1c30h8rion0t28igxypyccyt0h3f">
+  <source id="3987693689859617965" name="JbRadioButton" hash="-ch4rphbk3323kyowa0tbmu832yq0fsi">
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <file name="JbRadioButton.java" />
   </source>
-  <source id="3987693689859618023" name="BaseBean" hash="-71rorl49ge07iwqmngx96k50evossy5">
+  <source id="3987693689859618023" name="BaseBean" hash="18slm07rics2zqvfgbs0pv9l1ucr740">
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <file name="BaseBean.java" />
   </source>
