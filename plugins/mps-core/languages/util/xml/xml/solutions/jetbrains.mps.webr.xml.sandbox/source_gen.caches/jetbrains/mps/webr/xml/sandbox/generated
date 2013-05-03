@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="47g9hj54j13pyjjkqd7uxmozwszytsj">
-  <dep model="r:00000000-0000-4000-0000-011c89590576(jetbrains.mps.gtext.generator.baseLanguage.template.main@generator)" hash="6hkhr0r9odhfjwrsix7dek59q02pg9t" />
-  <dep model="r:00000000-0000-4000-0000-011c89590588(jetbrains.mps.xml.structure)" hash="8uwuyb48iqmgayc62r4xpx3qnvyy6g4" />
-  <dep model="r:00000000-0000-4000-0000-011c89590589(jetbrains.mps.xml.generator.baseLanguage.template.main@generator)" hash="-5qxvr6clp2v0fpa05z1o5g2lnv7onz8" />
-  <dep model="r:00000000-0000-4000-0000-011c89590592(jetbrains.mps.xmlInternal.generator.baseLanguage.template.main@generator)" hash="-w9k5at8p4bm2xncg98gvxb3d6gqv2x" />
-  <dep model="r:7cd2ab50-795e-40e4-9913-a76e3028b5d1(jetbrains.mps.xmlSchema.generator.template.main@generator)" hash="-5fofw4vt0hfc85ajk1qcg2pbpptxrwo" />
-  <common hash="-exrmec7i3wlv5dyu3nn651mu700wzer" />
-  <source id="1221255856670" name="sandbox schema" hash="2vw5gm9jxzjiyytjtnau9p37ikwd7m">
+<dependencies version="2" modelHash="5noj7glo3ki2sepmapzwbirtiu2712x">
+  <dep model="r:00000000-0000-4000-0000-011c89590576(jetbrains.mps.gtext.generator.baseLanguage.template.main@generator)" hash="cjctbpehhwghrwvdyyme5l6autovdty" />
+  <dep model="r:00000000-0000-4000-0000-011c89590588(jetbrains.mps.xml.structure)" hash="-5toytxzwbiq48b4xhtqmdjsjdmodpid" />
+  <dep model="r:00000000-0000-4000-0000-011c89590589(jetbrains.mps.xml.generator.baseLanguage.template.main@generator)" hash="edlny668blxm0qjsos1rnf8bbs6uv9y" />
+  <dep model="r:00000000-0000-4000-0000-011c89590592(jetbrains.mps.xmlInternal.generator.baseLanguage.template.main@generator)" hash="-a1bjtxl0taw7a482lozba9ppyp3ktp8" />
+  <dep model="r:7cd2ab50-795e-40e4-9913-a76e3028b5d1(jetbrains.mps.xmlSchema.generator.template.main@generator)" hash="-776nuhdqg9f814hc5azblkyx1g96xxq" />
+  <common hash="-ygpz3809u1xig7af43jzvkfzrf6d8" />
+  <source id="1221255856670" name="sandbox schema" hash="1ot2f8841fg8kaa8qv7m2pxlpdiz55u">
     <dep model="r:7cd2ab50-795e-40e4-9913-a76e3028b5d1(jetbrains.mps.xmlSchema.generator.template.main@generator)" />
   </source>
-  <source id="1238684155881" name="b.xml" hash="-1w1j7zd5em1qwt7zp3qc3v9jzi510fq">
+  <source id="1238684155881" name="b.xml" hash="-1lqnjh99tfwy26xbpu56hgkea07l0a8">
     <dep root="1221255856670" />
     <dep model="r:00000000-0000-4000-0000-011c89590576(jetbrains.mps.gtext.generator.baseLanguage.template.main@generator)" />
     <dep model="r:00000000-0000-4000-0000-011c89590589(jetbrains.mps.xml.generator.baseLanguage.template.main@generator)" />
     <dep model="r:00000000-0000-4000-0000-011c89590592(jetbrains.mps.xmlInternal.generator.baseLanguage.template.main@generator)" />
     <file name="b.xml" />
   </source>
-  <source id="4815471077468831973" name="xhtml 1.0 strict schema" hash="-caqrf9n17bq1ydjw7n57imu2tynfsu3">
+  <source id="4815471077468831973" name="xhtml 1.0 strict schema" hash="7mts1f0ssosnhpoqe6da9dxybbi38fj">
     <dep model="r:7cd2ab50-795e-40e4-9913-a76e3028b5d1(jetbrains.mps.xmlSchema.generator.template.main@generator)" />
   </source>
-  <source id="1211753978542106105" name="ff.f" hash="783q7bv2h6eqha0pmnnzy6mwky75pc2">
+  <source id="1211753978542106105" name="ff.f" hash="4tvxh667k9az051embgd2mfgs14qc4t">
     <dep root="4815471077468831973" />
     <dep model="r:00000000-0000-4000-0000-011c89590576(jetbrains.mps.gtext.generator.baseLanguage.template.main@generator)" />
     <dep model="r:00000000-0000-4000-0000-011c89590588(jetbrains.mps.xml.structure)" />

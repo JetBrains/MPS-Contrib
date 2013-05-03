@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-1delddh4a3scprrlb67tmel3ziztski">
+<dependencies version="2" modelHash="bh3vzml3pkn2vdqdw8exjqonf2mktj3">
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
-  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-3oix0gm2cosksx5q7bcotftdn7n21nk" />
-  <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" hash="-5hwzidtifhzxzto4ufe7o07xsgqc589" />
-  <dep model="r:5498b4d6-623f-4d7c-a07f-396c96e14007(jetbrains.mps.graphLayout.intGeom2D)" hash="-35pr1do4p2p2wvmhi897ooctfd4os96" />
-  <dep model="r:8254b240-abed-4f97-a7cd-2eef733ec7fb(jetbrains.mps.graphLayout.util)" hash="2uh4c2nz63bpvai18cc238m849ajx32" />
-  <dep model="r:d1558b8f-fc9e-4ca7-bb90-70ac789f336e(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.post@generator)" hash="6pme6f8cr98yhjna02lpbqkg2n36ah5" />
-  <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" hash="7q8xdnha8al10c7e3cb1njh3bglwdb4" />
-  <common hash="-bt1t56mz8hx333y7c3lt535nz46jc8l" />
-  <source id="4671312709908983848" name="Node" hash="395b96hjjkerql2rz3z4ssb7zroeops">
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-7mxihkcc0vv2q7mmukrgbm8b18oc3tu" />
+  <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" hash="59ea0wchjl1p3fmqjarzl02fje6rngu" />
+  <dep model="r:5498b4d6-623f-4d7c-a07f-396c96e14007(jetbrains.mps.graphLayout.intGeom2D)" hash="-6ip9ml4wg4bwjanbons3wqibg8valrl" />
+  <dep model="r:8254b240-abed-4f97-a7cd-2eef733ec7fb(jetbrains.mps.graphLayout.util)" hash="bd93zbcmoaj6svlb9lp4248cv4r7vfm" />
+  <dep model="r:d1558b8f-fc9e-4ca7-bb90-70ac789f336e(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.post@generator)" hash="-2ndxdy2yylqxt61razyif42s9aj25s9" />
+  <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" hash="30wpo2za1rc0zf5vwwy3fdx7rb6qejl" />
+  <common hash="-bnz9un64r32u5rpah4xbw3mljhgk2ag" />
+  <source id="4671312709908983848" name="Node" hash="87iznkb2ja4fr81cuj79zjd4wezd9xf">
     <dep root="2913448412765224981" />
     <dep root="8567569493821103292" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
@@ -18,14 +18,14 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="Node.java" />
   </source>
-  <source id="8567569493821103292" name="Edge" hash="9kykxoi2yrru1xc08j4mhdve1w12exm">
+  <source id="8567569493821103292" name="Edge" hash="-4g9cr0qu7id1wmjre9zakgoqserazpk">
     <dep root="2913448412765224981" />
     <dep root="2913448412765224983" />
     <dep root="4671312709908983848" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <file name="Edge.java" />
   </source>
-  <source id="8567569493821103298" name="Graph" hash="-bloi7el8wn0qax82r0j2ji1rtcifmf9">
+  <source id="8567569493821103298" name="Graph" hash="2f899haaka7i60qpju96kpd8eiezy6k">
     <dep root="2913448412765224981" />
     <dep root="2913448412765224985" />
     <dep root="4671312709908983848" />
@@ -37,21 +37,21 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="Graph.java" />
   </source>
-  <source id="2913448412765224981" name="INode" hash="9c5dz9z3x9m9wa3fwjcp5pqmn07l2mr">
+  <source id="2913448412765224981" name="INode" hash="-c21pj92lc94p2ieq1f92a2obaab9ebd">
     <dep root="2913448412765224983" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <file name="INode.java" />
   </source>
-  <source id="2913448412765224983" name="IEdge" hash="-a4s1cerpkjzbp8aqs64yt2akp5eky8g">
+  <source id="2913448412765224983" name="IEdge" hash="-awm2xb6f9e17543l0xr6te39tcm6av6">
     <file name="IEdge.java" />
   </source>
-  <source id="2913448412765224985" name="IGraph" hash="ehewaz7ib6j58lsdgcca2zqoppgde6r">
+  <source id="2913448412765224985" name="IGraph" hash="cswdw11075bk9yz5nfqji2chwz6l93r">
     <dep root="2913448412765224981" />
     <dep root="2913448412765224983" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <file name="IGraph.java" />
   </source>
-  <source id="6003893670991928460" name="ClusteredGraph" hash="-6jgjl10n6ctdc8u0dhjdqdr1x6rghfw">
+  <source id="6003893670991928460" name="ClusteredGraph" hash="cuvt9fxlsxh17bfnqjnkslawh1vtkar">
     <dep root="2913448412765224981" />
     <dep root="2913448412765224983" />
     <dep root="2913448412765224985" />
@@ -67,19 +67,19 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="ClusteredGraph.java" />
   </source>
-  <source id="6003893670991928487" name="IClusteredGraph" hash="3r5nxnu6m9wa3z988sk0ze9xohhv2yz">
+  <source id="6003893670991928487" name="IClusteredGraph" hash="3ycwov6d4xaptgvrstybppwi18pe6sj">
     <dep root="2913448412765224981" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <file name="IClusteredGraph.java" />
   </source>
-  <source id="3815873320642548339" name="IGraphModificationListener" hash="6tdrjh9zse5si7eor5wrdr6l8c8qyah">
+  <source id="3815873320642548339" name="IGraphModificationListener" hash="-4qj2510x88kopkcgtye764oybbpa2ws">
     <file name="IGraphModificationListener.java" />
   </source>
-  <source id="3815873320642571243" name="GraphModificationEvent" hash="78ypu2frqy78iay2eh8ynos66ayfgr2">
+  <source id="3815873320642571243" name="GraphModificationEvent" hash="-anq31w2zhegunzqp452l004rdg0n5yb">
     <dep root="8567569493821103292" />
     <file name="GraphModificationEvent.java" />
   </source>
-  <source id="3815873320642579364" name="GraphModificationProcessor" hash="-2gpdrfnkcs5a5skfmcbrivncjue2bhb">
+  <source id="3815873320642579364" name="GraphModificationProcessor" hash="-dyhotxg65m864lvnyligaa5j7uvqvji">
     <dep root="3815873320642548339" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
@@ -88,7 +88,7 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="GraphModificationProcessor.java" />
   </source>
-  <source id="6105852918337367522" name="EdgesHistoryManager" hash="-2rhjqoo8cy49l31v1r9n4dwpwkucnhx">
+  <source id="6105852918337367522" name="EdgesHistoryManager" hash="-dbp94saw8e4xh7tuggoelx4j7wgawdp">
     <dep root="2913448412765224983" />
     <dep root="3815873320642548339" />
     <dep root="4671312709908983848" />
@@ -99,7 +99,7 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="EdgesHistoryManager.java" />
   </source>
-  <source id="7281999657759592943" name="GroupedGraphModificationSynchronizer" hash="8bzxr6cldyw3qkk4nyn91s23tq1w6p2">
+  <source id="7281999657759592943" name="GroupedGraphModificationSynchronizer" hash="-1t6je13g8hd5gvqztohfnhfjl2uln8j">
     <dep root="3815873320642548339" />
     <dep root="4671312709908983848" />
     <dep root="8567569493821103292" />
@@ -110,11 +110,11 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="GroupedGraphModificationSynchronizer.java" />
   </source>
-  <source id="1532165762814106476" name="ClusterNodesAdditionListener" hash="-6yyebhlxxglmzxbyxpn2a7d9syo9j0p">
+  <source id="1532165762814106476" name="ClusterNodesAdditionListener" hash="bx7uuts7jkmeuxhbm88l975f5f2f3qk">
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <file name="ClusterNodesAdditionListener.java" />
   </source>
-  <source id="3167072330486561046" name="ClusterGraphCopier" hash="-brc5klc2p2c4ny7t2geb5jf54sf8jr">
+  <source id="3167072330486561046" name="ClusterGraphCopier" hash="85a6qwk971olkqzyx4q3zo2sicpzdks">
     <dep root="2913448412765224981" />
     <dep root="2913448412765224983" />
     <dep root="2913448412765224985" />
@@ -135,7 +135,7 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="ClusterGraphCopier.java" />
   </source>
-  <source id="3167072330486561071" name="GraphCopier" hash="-1tdyyfxkcjw8ea1oqd47j3ifxbocb8h">
+  <source id="3167072330486561071" name="GraphCopier" hash="sgk1bwmsab8pibzte9j8gu13s52rt8">
     <dep root="2913448412765224981" />
     <dep root="2913448412765224983" />
     <dep root="2913448412765224985" />
@@ -149,7 +149,7 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="GraphCopier.java" />
   </source>
-  <source id="3167072330486561802" name="Tree" hash="-c7oscnpgwtkacui2lxr5hjcdxrot185">
+  <source id="3167072330486561802" name="Tree" hash="dz792fox9b3yw177xjq1emfi0cz6twj">
     <dep root="2913448412765224981" />
     <dep root="2913448412765224983" />
     <dep root="4671312709908983848" />
@@ -161,10 +161,10 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="Tree.java" />
   </source>
-  <source id="3167072330486561292" name="GraphCopierFactory" hash="-xb6q8t13nvz2gnuwu9foimstpbhsif">
+  <source id="3167072330486561292" name="GraphCopierFactory" hash="-cdb92pw84td7ct7fn56p44ps0qcexks">
     <file name="GraphCopierFactory.java" />
   </source>
-  <source id="1714301205550406759" name="HyperGraph" hash="-57p2t3wsi5dr3gp7ds4p9x54uom810f">
+  <source id="1714301205550406759" name="HyperGraph" hash="-ckfqkdb3s8vh28hma46qwvrpkf83gvw">
     <dep root="2913448412765224981" />
     <dep root="2913448412765224985" />
     <dep root="4671312709908983848" />
@@ -175,7 +175,7 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="HyperGraph.java" />
   </source>
-  <source id="1795464432008814207" name="CreationStageManager" hash="loa5ww6el11e43pd5ioq9fyfacsain">
+  <source id="1795464432008814207" name="CreationStageManager" hash="-9qol9553yt5an17tdnzg2jthftk9ce0">
     <dep root="2913448412765224981" />
     <dep root="2913448412765224983" />
     <dep root="2913448412765224985" />

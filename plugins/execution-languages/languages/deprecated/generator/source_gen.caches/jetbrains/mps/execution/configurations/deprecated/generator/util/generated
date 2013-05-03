@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="6auxowoeqozioujvx4m1opk68t48vna">
-  <common hash="12uigzkpya7506pj0ewal2z026hxg1s" />
-  <source id="5755638771828887259" name="VariableNameUtil" hash="3yeqkrgfljzdviissfxwtq9r0n6hwt2">
+<dependencies version="2" modelHash="-ddjxo6ugk11bmbh5ukoxxoxjnjv1q1y">
+  <common hash="-7s7wv1gwmrc6zlke0380cvhqbj2rh63" />
+  <source id="5755638771828887259" name="VariableNameUtil" hash="-4vt5gs69z09aeug6vsqy8roanekux8g">
     <file name="VariableNameUtil.java" />
   </source>
 </dependencies>
