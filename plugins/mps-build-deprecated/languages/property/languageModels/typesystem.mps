@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model modelUID="r:00000000-0000-4000-0000-011c895904e0(jetbrains.mps.build.property.typesystem)">
-  <persistence version="7" />
-  <roots />
+  <persistence version="8" />
 </model>
 
