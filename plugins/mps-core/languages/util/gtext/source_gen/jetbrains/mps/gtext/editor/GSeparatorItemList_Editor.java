@@ -50,6 +50,7 @@ public class GSeparatorItemList_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no separator>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
+    editorCell.setRole("separator");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

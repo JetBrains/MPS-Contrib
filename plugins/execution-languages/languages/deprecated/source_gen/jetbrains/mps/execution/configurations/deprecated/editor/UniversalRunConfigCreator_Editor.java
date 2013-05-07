@@ -135,6 +135,8 @@ public class UniversalRunConfigCreator_Editor extends DefaultNodeEditor {
       EditorCell editorCell;
       editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("property_name_1");
+      editorCell.setReferenceCell(true);
+      editorCell.setRole("rcType");
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();
       Class attributeKind = provider.getRoleAttributeClass();
@@ -171,6 +173,7 @@ public class UniversalRunConfigCreator_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no target>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
+    editorCell.setRole("target");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -198,6 +201,7 @@ public class UniversalRunConfigCreator_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no createBlock>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
+    editorCell.setRole("createBlock");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

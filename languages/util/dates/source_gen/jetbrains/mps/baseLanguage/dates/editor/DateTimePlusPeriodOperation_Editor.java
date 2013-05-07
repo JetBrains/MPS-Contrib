@@ -41,6 +41,7 @@ public class DateTimePlusPeriodOperation_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no leftValue>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
+    editorCell.setRole("leftValue");
     DateTimePlusPeriodOperation_leftOperand_actionMap.setCellActions(editorCell, node, editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -80,6 +81,7 @@ public class DateTimePlusPeriodOperation_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no rightValue>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
+    editorCell.setRole("rightValue");
     DateTimePlusPeriodOperation_rightOperand_actionMap.setCellActions(editorCell, node, editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

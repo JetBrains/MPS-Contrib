@@ -59,6 +59,7 @@ public class DateTimeZoneCreator_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no string>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
+    editorCell.setRole("string");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

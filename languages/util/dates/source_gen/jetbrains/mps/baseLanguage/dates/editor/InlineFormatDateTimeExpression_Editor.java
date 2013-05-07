@@ -62,6 +62,7 @@ public class InlineFormatDateTimeExpression_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no datetime>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
+    editorCell.setRole("datetime");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -236,6 +237,8 @@ public class InlineFormatDateTimeExpression_Editor extends DefaultNodeEditor {
       EditorCell editorCell;
       editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("property_name");
+      editorCell.setReferenceCell(true);
+      editorCell.setRole("locale");
       Style style = new StyleImpl();
       style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
       editorCell.getStyle().putAll(style);
@@ -329,6 +332,8 @@ public class InlineFormatDateTimeExpression_Editor extends DefaultNodeEditor {
       EditorCell editorCell;
       editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("property_name_1");
+      editorCell.setReferenceCell(true);
+      editorCell.setRole("locale");
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();
       Class attributeKind = provider.getRoleAttributeClass();

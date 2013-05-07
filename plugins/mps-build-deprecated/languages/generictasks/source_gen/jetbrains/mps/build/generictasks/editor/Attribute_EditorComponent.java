@@ -99,6 +99,8 @@ public class Attribute_EditorComponent extends AbstractCellProvider {
       EditorCell editorCell;
       editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("property_name");
+      editorCell.setReferenceCell(true);
+      editorCell.setRole("attributeDeclaration");
       Style style = new StyleImpl();
       BuildLanguageStyle_StyleSheet.applyAttributeName(style, editorCell);
       editorCell.getStyle().putAll(style);
@@ -162,6 +164,8 @@ public class Attribute_EditorComponent extends AbstractCellProvider {
       EditorCell editorCell;
       editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("property_name_1");
+      editorCell.setReferenceCell(true);
+      editorCell.setRole("attributeDeclaration");
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();
       Class attributeKind = provider.getRoleAttributeClass();
@@ -191,6 +195,7 @@ public class Attribute_EditorComponent extends AbstractCellProvider {
     provider.setNoTargetText("<no value>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
+    editorCell.setRole("value");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

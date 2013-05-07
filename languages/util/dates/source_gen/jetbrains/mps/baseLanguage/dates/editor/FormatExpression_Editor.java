@@ -58,6 +58,7 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no dateExpression>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
+    editorCell.setRole("dateExpression");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -98,6 +99,7 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no zone>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
+    editorCell.setRole("zone");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -162,6 +164,8 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
       EditorCell editorCell;
       editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("property_name");
+      editorCell.setReferenceCell(true);
+      editorCell.setRole("dateFormat");
       Style style = new StyleImpl();
       Dates_StyleSheet.applyDateFormat(style, editorCell);
       editorCell.getStyle().putAll(style);
@@ -247,6 +251,8 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
       EditorCell editorCell;
       editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("property_name_1");
+      editorCell.setReferenceCell(true);
+      editorCell.setRole("locale");
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();
       Class attributeKind = provider.getRoleAttributeClass();
@@ -335,6 +341,8 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
       EditorCell editorCell;
       editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("property_name_2");
+      editorCell.setReferenceCell(true);
+      editorCell.setRole("locale");
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();
       Class attributeKind = provider.getRoleAttributeClass();
@@ -372,6 +380,7 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no zone>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
+    editorCell.setRole("zone");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

@@ -41,6 +41,7 @@ public class DateTimeMinusPeriodOperation_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no leftValue>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
+    editorCell.setRole("leftValue");
     Style style = new StyleImpl();
     style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
     editorCell.getStyle().putAll(style);
@@ -83,6 +84,7 @@ public class DateTimeMinusPeriodOperation_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no rightValue>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
+    editorCell.setRole("rightValue");
     Style style = new StyleImpl();
     style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
     editorCell.getStyle().putAll(style);

@@ -52,6 +52,7 @@ public class FormatDateTimeExpression_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no datetime>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
+    editorCell.setRole("datetime");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -120,6 +121,8 @@ public class FormatDateTimeExpression_Editor extends DefaultNodeEditor {
       EditorCell editorCell;
       editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("property_name");
+      editorCell.setReferenceCell(true);
+      editorCell.setRole("dateFormat");
       Style style = new StyleImpl();
       Dates_StyleSheet.applyDateFormat(style, editorCell);
       editorCell.getStyle().putAll(style);
@@ -203,6 +206,8 @@ public class FormatDateTimeExpression_Editor extends DefaultNodeEditor {
       EditorCell editorCell;
       editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("property_name_1");
+      editorCell.setReferenceCell(true);
+      editorCell.setRole("locale");
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();
       Class attributeKind = provider.getRoleAttributeClass();
@@ -293,6 +298,8 @@ public class FormatDateTimeExpression_Editor extends DefaultNodeEditor {
       EditorCell editorCell;
       editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("property_name_2");
+      editorCell.setReferenceCell(true);
+      editorCell.setRole("locale");
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();
       Class attributeKind = provider.getRoleAttributeClass();

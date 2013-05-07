@@ -136,6 +136,7 @@ public class GenericAttributeDeclaration_EditorComponent extends AbstractCellPro
     provider.setNoTargetText("<no default>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
+    editorCell.setRole("default");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

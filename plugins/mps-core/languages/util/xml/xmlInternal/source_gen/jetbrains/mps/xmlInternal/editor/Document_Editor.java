@@ -32,6 +32,7 @@ public class Document_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no prolog>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
+    editorCell.setRole("prolog");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -49,6 +50,7 @@ public class Document_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no rootElement>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
+    editorCell.setRole("rootElement");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

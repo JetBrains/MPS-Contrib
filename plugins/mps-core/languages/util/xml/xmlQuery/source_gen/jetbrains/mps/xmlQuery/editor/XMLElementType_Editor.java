@@ -106,6 +106,8 @@ public class XMLElementType_Editor extends DefaultNodeEditor {
       EditorCell editorCell;
       editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("property_schemaName");
+      editorCell.setReferenceCell(true);
+      editorCell.setRole("schema");
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();
       Class attributeKind = provider.getRoleAttributeClass();
@@ -171,6 +173,8 @@ public class XMLElementType_Editor extends DefaultNodeEditor {
     private EditorCell createReferencePresentation_ohiupi_a0e0(EditorContext editorContext, SNode node) {
       EditorCell_Property editorCell = EditorCell_RefPresentation.create(editorContext, node, this.getRefNode(), "complexType");
       editorCell.setCellId("ReferencePresentation_ohiupi_a0e0");
+      editorCell.setReferenceCell(true);
+      editorCell.setRole("complexType");
       return editorCell;
     }
   }

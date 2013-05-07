@@ -108,6 +108,8 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
       EditorCell editorCell;
       editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("property_name");
+      editorCell.setReferenceCell(true);
+      editorCell.setRole("dateTimeProperty");
       Style style = new StyleImpl();
       BaseLanguageStyle_StyleSheet.applyStaticField(style, editorCell);
       editorCell.getStyle().putAll(style);

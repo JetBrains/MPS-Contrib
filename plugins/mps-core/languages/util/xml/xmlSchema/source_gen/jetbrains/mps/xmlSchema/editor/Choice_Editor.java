@@ -51,6 +51,7 @@ public class Choice_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no occursAttribute>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
+    editorCell.setRole("occursAttribute");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -78,6 +79,7 @@ public class Choice_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no typeExpressionList>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
+    editorCell.setRole("typeExpressionList");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

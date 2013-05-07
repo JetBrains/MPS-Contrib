@@ -69,6 +69,7 @@ public class ConfigurationEditorDeclaration_BasicEditor extends AbstractCellProv
     provider.setNoTargetText("<no editor>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
+    editorCell.setRole("editor");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -86,6 +87,7 @@ public class ConfigurationEditorDeclaration_BasicEditor extends AbstractCellProv
     provider.setNoTargetText("<no applyBlock>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
+    editorCell.setRole("applyBlock");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -103,6 +105,7 @@ public class ConfigurationEditorDeclaration_BasicEditor extends AbstractCellProv
     provider.setNoTargetText("<no resetBlock>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
+    editorCell.setRole("resetBlock");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -120,6 +123,7 @@ public class ConfigurationEditorDeclaration_BasicEditor extends AbstractCellProv
     provider.setNoTargetText("<no disposeBlock>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
+    editorCell.setRole("disposeBlock");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

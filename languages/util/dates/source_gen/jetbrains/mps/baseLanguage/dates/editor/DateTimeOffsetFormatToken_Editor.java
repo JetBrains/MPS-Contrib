@@ -171,6 +171,7 @@ public class DateTimeOffsetFormatToken_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no referenceTime>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
+    editorCell.setRole("referenceTime");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

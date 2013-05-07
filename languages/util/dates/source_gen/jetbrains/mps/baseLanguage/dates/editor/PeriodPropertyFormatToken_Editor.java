@@ -208,6 +208,8 @@ public class PeriodPropertyFormatToken_Editor extends DefaultNodeEditor {
       EditorCell editorCell;
       editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("property_pluralForm");
+      editorCell.setReferenceCell(true);
+      editorCell.setRole("property");
       Style style = new StyleImpl();
       Dates_StyleSheet.applyDateFormat(style, editorCell);
       editorCell.getStyle().putAll(style);

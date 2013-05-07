@@ -87,6 +87,8 @@ public class EntityReference_Editor extends DefaultNodeEditor {
       EditorCell editorCell;
       editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("property_entityName");
+      editorCell.setReferenceCell(true);
+      editorCell.setRole("entityDeclaration");
       Style style = new StyleImpl();
       XmlStyle_StyleSheet.applyXmlEntity(style, editorCell);
       editorCell.getStyle().putAll(style);
