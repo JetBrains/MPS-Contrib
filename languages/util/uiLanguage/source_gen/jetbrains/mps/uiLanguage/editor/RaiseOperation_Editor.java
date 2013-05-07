@@ -49,6 +49,7 @@ public class RaiseOperation_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no argument>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
+    editorCell.setRole("argument");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
