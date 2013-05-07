@@ -218,6 +218,8 @@ public class ComponentDeclaration_Editor extends DefaultNodeEditor {
       super();
     }
 
+
+
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
     }
@@ -286,6 +288,8 @@ public class ComponentDeclaration_Editor extends DefaultNodeEditor {
     public _Inline_kze313_a1b1d0() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
