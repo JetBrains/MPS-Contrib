@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-1rto9t87l7y3wrxxohx7tnzap2nnkbe">
+<dependencies version="2" modelHash="-dzg552hxqxafognv70945p0p1l6gk6j">
   <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel.runtime.impl(MPS.Core/jetbrains.mps.smodel.runtime.impl@java_stub)" />
-  <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="dw2rv2zt056d2ld6s1bp70f91ccyjpl" />
+  <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="-ckvx7xj7vym184bemtsv4ea2vras21z" />
   <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" hash="-cktl500jgk8r21itxeo7kjmocob2zs5" />
-  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-7mxihkcc0vv2q7mmukrgbm8b18oc3tu" />
-  <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" hash="-dil8onhn8hatvbhqvlz0fq2nsudfixn" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="5gwsobz6ajuvxb1x3a7osxwpluja71i" />
+  <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" hash="-cs6cqtb0suk7gurzknzm5z2gav4b0jx" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="ckk7u2kjk5lwqta6jwv64dr9ksfac7c" />
   <common hash="5uoxcx5rhwmhzrzodjq2bh24gntcugz">
     <dep root="1169491698842" />
@@ -32,55 +32,55 @@
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="StructureAspectDescriptor.java" />
   </common>
-  <source id="1169491698842" name="FormatTokenSettings" hash="642vdmrkak8t9kmzo8v1cgjs8kp9v1s">
+  <source id="1169491698842" name="FormatTokenSettings" hash="4svuoqn1ighwn4sbxuphpcr8d0p126t">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1172074318583" name="DateTimeProperty" hash="8dfq1a67e6heocfrsbmzy9jayaroujc">
+  <source id="1172074318583" name="DateTimeProperty" hash="-w32hh0f0s8zbwdzsdt8crwyahw2cvt">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1172074383898" name="DateTimePropertySettings" hash="-65e4zz1pn98uoj5exddrghirl8otr9j">
+  <source id="1172074383898" name="DateTimePropertySettings" hash="1dxemppkrmvh2gfvq8ixtey0s38f03u">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1172680728258" name="Locale" hash="-aae6o0uw83ynm07kwf0pmbypdvpbani">
+  <source id="1172680728258" name="Locale" hash="-boc7etx3dbzwncbd22u55imodhqsm8c">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1173883503931" name="PredefinedDateFormat" hash="-2ypr1v0gcpxdy2ykl6e1bfrvs2ryjiq">
+  <source id="1173883503931" name="PredefinedDateFormat" hash="52yxftie0rjbyf55u7olnbpqlsmcvop">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1173884671039" name="IDateFormat" hash="3q7fuq7e1nosi1666hzx9u952gkoneq">
+  <source id="1173884671039" name="IDateFormat" hash="11oktlytnqhmnet54dt4vw2axh5zv0u">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1173953509960" name="DateTimeIntPropertyFormatConfiguration" hash="3ea5k01wjrptjo7zbehl1aqe3blo8dn">
+  <source id="1173953509960" name="DateTimeIntPropertyFormatConfiguration" hash="9t260uywele2xjyb30j6iean6khj5to">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1173953623139" name="DateTimePropertyFormatType" hash="-6qmo1pbxgjz470pi3r5kci8woycltee">
+  <source id="1173953623139" name="DateTimePropertyFormatType" hash="-dltdefukvvn5m7tcpdf6yo52ek3w93l">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1173953789261" name="DateTimePropertyCardinality" hash="-yps2i5ik0cidbwa0c6labrzuejn1lf">
+  <source id="1173953789261" name="DateTimePropertyCardinality" hash="-q6va4bu0560gu3mww9abbr2g5az9hm">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1174042847309" name="DateTimePropertyConfiguration" hash="bi32dduq7j7wcfoiwf8mh7xcvotlkv1">
+  <source id="1174042847309" name="DateTimePropertyConfiguration" hash="bww84ttkhlv2go2t0p0baun13qtfu77">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1174043262324" name="DateTimeZonePropertyFormatConfiguration" hash="ck00ieqqp0hih9dx03dm04gkescd3rh">
+  <source id="1174043262324" name="DateTimeZonePropertyFormatConfiguration" hash="-3lhb7r9e4vfx26zz0ban89ecb5f94jq">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1174320693350" name="DurationType" hash="2u5tom9n6ybnileb0jpb4zc1jwk4pes">
+  <source id="1174320693350" name="DurationType" hash="b3hi1emz2aiuh24vdpgnka04ht9h0rl">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1194005944850" name="Month" hash="-d2awmaz17xyycw8rzp8ss3le5lldks0">
+  <source id="1194005944850" name="Month" hash="88j6k3adkc3p5vmbntake6s5oqs9rhr">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1194006427224" name="SchedulePeriod" hash="21v58lrdh7jx46v9nof5s6xuphafwkn">
+  <source id="1194006427224" name="SchedulePeriod" hash="2vexo7i87lbdf1w6va4apbvpubicdg2">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1238668259228" name="DateTimeZone" hash="-dy4pxddkiq3db2kegtywoxk02yl0ueb">
+  <source id="1238668259228" name="DateTimeZone" hash="d6efm2zjhdswnpe0d28l49ha6cccqf3">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="34521615669325562" name="IPeriodFormat" hash="-akm510of0ju78rojt6h9xh78wdd4dhw">
+  <source id="34521615669325562" name="IPeriodFormat" hash="apl6eduujlv28gulwvt40aum1huoqwn">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="34521615669325565" name="PredefinedPeriodFormat" hash="8e1m1zo6jcvk866k7gjmchpy58ncdyj">
+  <source id="34521615669325565" name="PredefinedPeriodFormat" hash="-6nfcorprk0iuzib9ma9euz1h41mzqfk">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
 </dependencies>
