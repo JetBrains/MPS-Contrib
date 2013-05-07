@@ -148,7 +148,7 @@
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1239126762480" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="1239125024709" resolveInfo="GCompositeItem" />
     </node>
-    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="5199490784231981069" nodeInfo="ng" />
+    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="5199490784231981069" nodeInfo="ig" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1181754781153" nodeInfo="ig">
     <property name="abstract" nameId="tpce.4628067390765956802" value="false" />
