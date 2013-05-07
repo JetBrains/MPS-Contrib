@@ -88,6 +88,8 @@ public class XMLElementType_Editor extends DefaultNodeEditor {
       super();
     }
 
+
+
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
     }
@@ -156,6 +158,8 @@ public class XMLElementType_Editor extends DefaultNodeEditor {
       super();
     }
 
+
+
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
     }
@@ -165,7 +169,7 @@ public class XMLElementType_Editor extends DefaultNodeEditor {
     }
 
     private EditorCell createReferencePresentation_ohiupi_a0e0(EditorContext editorContext, SNode node) {
-      EditorCell_Property editorCell = EditorCell_RefPresentation.create(editorContext, node, this.getRefNode(), this.getLinkDeclaration());
+      EditorCell_Property editorCell = EditorCell_RefPresentation.create(editorContext, node, this.getRefNode(), "complexType");
       editorCell.setCellId("ReferencePresentation_ohiupi_a0e0");
       return editorCell;
     }

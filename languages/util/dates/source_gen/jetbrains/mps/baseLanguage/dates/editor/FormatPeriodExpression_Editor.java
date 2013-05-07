@@ -92,6 +92,8 @@ public class FormatPeriodExpression_Editor extends DefaultNodeEditor {
       super();
     }
 
+
+
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
     }
@@ -170,6 +172,8 @@ public class FormatPeriodExpression_Editor extends DefaultNodeEditor {
     public _Inline_6favmm_a1d0() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
@@ -258,6 +262,8 @@ public class FormatPeriodExpression_Editor extends DefaultNodeEditor {
     public _Inline_6favmm_a1a0() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());

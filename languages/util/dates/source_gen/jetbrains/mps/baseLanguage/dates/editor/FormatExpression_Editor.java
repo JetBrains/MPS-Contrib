@@ -144,6 +144,8 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
       super();
     }
 
+
+
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
     }
@@ -226,6 +228,8 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
     public _Inline_vqr4da_a1e0() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
@@ -312,6 +316,8 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
     public _Inline_vqr4da_a1a0() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());

@@ -81,6 +81,8 @@ public class Attribute_EditorComponent extends AbstractCellProvider {
       super();
     }
 
+
+
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
     }
@@ -141,6 +143,8 @@ public class Attribute_EditorComponent extends AbstractCellProvider {
     public _Inline_y32exi_a1a() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());

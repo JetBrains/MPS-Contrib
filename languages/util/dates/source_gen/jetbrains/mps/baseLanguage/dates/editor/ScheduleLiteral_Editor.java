@@ -64,6 +64,8 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
       super();
     }
 
+
+
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
     }
@@ -162,6 +164,8 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     public _Inline_53656_a0b1a() {
       super();
     }
+
+
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());

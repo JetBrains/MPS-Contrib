@@ -109,6 +109,8 @@ public class RunConfigurationHeader extends AbstractCellProvider {
       super();
     }
 
+
+
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
     }
