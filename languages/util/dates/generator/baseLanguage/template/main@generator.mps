@@ -121,7 +121,7 @@
                 <node role="expression" roleId="tpee.1068580123156" type="tpee.NotEqualsExpression" typeId="tpee.1073239437375" id="1548440323223275426" nodeInfo="nn">
                   <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="1548440323223275429" nodeInfo="nn" />
                   <node role="leftExpression" roleId="tpee.1081773367580" type="tpd4.CoerceStrongExpression" typeId="tpd4.1178871491133" id="1548440323223124139" nodeInfo="nn">
-                    <node role="pattern" roleId="tpd4.1178870894644" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="1548440323223124153" nodeInfo="ng">
+                    <node role="pattern" roleId="tpd4.1178870894644" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="1548440323223124153" nodeInfo="ig">
                       <property name="name" nameId="tpck.1169194664001" value="durationType" />
                       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tp6x.3931616304474644667" resolveInfo="DurationType" />
                     </node>
@@ -159,7 +159,7 @@
                 <node role="expression" roleId="tpee.1068580123156" type="tpee.NotEqualsExpression" typeId="tpee.1073239437375" id="3627207017677900835" nodeInfo="nn">
                   <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="3627207017677900838" nodeInfo="nn" />
                   <node role="leftExpression" roleId="tpee.1081773367580" type="tpd4.CoerceStrongExpression" typeId="tpd4.1178871491133" id="3627207017677899550" nodeInfo="nn">
-                    <node role="pattern" roleId="tpd4.1178870894644" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="3627207017677900773" nodeInfo="ng">
+                    <node role="pattern" roleId="tpd4.1178870894644" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="3627207017677900773" nodeInfo="ig">
                       <property name="name" nameId="tpck.1169194664001" value="durationType" />
                       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tp6x.3931616304474644667" resolveInfo="DurationType" />
                     </node>

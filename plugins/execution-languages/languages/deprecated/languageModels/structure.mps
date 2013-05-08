@@ -56,7 +56,7 @@
       <property name="role" nameId="tpce.1071599776563" value="isApplicableBlock" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="4462513030604064303" resolveInfo="IsApplicableBlock" />
     </node>
-    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="8294204555084781727" nodeInfo="ng" />
+    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="8294204555084781727" nodeInfo="ig" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8456022385895584871" nodeInfo="ig">
     <property name="abstract" nameId="tpce.4628067390765956802" value="false" />
@@ -75,7 +75,7 @@
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="655818460756092288" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="314981645426569268" resolveInfo="IEnhancedRunConfiguration" />
     </node>
-    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="8294204555084781728" nodeInfo="ng" />
+    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="8294204555084781728" nodeInfo="ig" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4964800443628314809" nodeInfo="ig">
     <property name="abstract" nameId="tpce.4628067390765956802" value="false" />
@@ -794,7 +794,7 @@
     <node role="conceptLinkDeclaration" roleId="tpce.1137532086877" type="tpce.AggregationConceptLinkDeclaration" typeId="tpce.1105741535888" id="314981645426569316" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="type" />
       <link role="targetType" roleId="tpce.1105736621938" targetNodeId="tpee.1068431790189" resolveInfo="Type" />
-      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="7750832940155881634" nodeInfo="ng" />
+      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="7750832940155881634" nodeInfo="ig" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="314981645426569317" nodeInfo="ig">
@@ -865,7 +865,7 @@
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="314981645426569339" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
     </node>
-    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="314981645426569340" nodeInfo="ng">
+    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="314981645426569340" nodeInfo="ig">
       <property name="comment" nameId="tpce.1225118933224" value="use RunConfigurationProducer from j.m.execution.configurations" />
     </node>
   </root>
@@ -921,7 +921,7 @@
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="conceptPropertyDeclaration" roleId="tpce.1137467167200" type="tpce.BooleanConceptPropertyDeclaration" typeId="tpce.1105725240314" id="314981645426569351" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="requiresCustomEditor" />
-      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="4694041203278844309" nodeInfo="ng" />
+      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="4694041203278844309" nodeInfo="ig" />
       <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.MigratedToMethodAnnotation" typeId="tpce.8080932314785812236" id="4694041203278844308" nodeInfo="ng">
         <link role="method" roleId="tpce.8080932314785812847" targetNodeId="g3s4.1262430001741498265" resolveInfo="requiresCustomEditor" />
       </node>
@@ -1014,7 +1014,7 @@
       <property name="name" nameId="tpck.1169194664001" value="isDebuggable" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657063" resolveInfo="boolean" />
     </node>
-    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="314981645426569371" nodeInfo="ng">
+    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="314981645426569371" nodeInfo="ig">
       <property name="comment" nameId="tpce.1225118933224" value="use RunConfiguration from j.m.execution.configurations" />
     </node>
   </root>
@@ -1046,7 +1046,7 @@
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="314981645426569378" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="4j10.4844813484172611384" resolveInfo="ICheckedNamePolicy" />
     </node>
-    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="314981645426569379" nodeInfo="ng">
+    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="314981645426569379" nodeInfo="ig">
       <property name="comment" nameId="tpce.1225118933224" value="use RunConfigurationKind from j.m.execution.configurations language" />
     </node>
   </root>
@@ -1054,7 +1054,7 @@
     <property name="name" nameId="tpck.1169194664001" value="RunConfigExecutionParameterDeclaration" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="DEPRECATED" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tp4k.1217252042208" resolveInfo="ActionDataParameterDeclaration" />
-    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="314981645427003919" nodeInfo="ng">
+    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="314981645427003919" nodeInfo="ig">
       <property name="comment" nameId="tpce.1225118933224" value="this works only by accident; never ever use" />
     </node>
   </root>
