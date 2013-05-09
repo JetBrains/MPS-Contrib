@@ -4,60 +4,65 @@ package jetbrains.mps.buildlanguage.editor;
 
 import jetbrains.mps.openapi.editor.descriptor.EditorAspectDescriptor;
 import java.util.Collection;
-import jetbrains.mps.openapi.editor.descriptor.EditorAspect;
+import jetbrains.mps.openapi.editor.descriptor.ConceptEditor;
 import jetbrains.mps.smodel.runtime.ConceptDescriptor;
 import java.util.Arrays;
 import java.util.Collections;
+import jetbrains.mps.openapi.editor.descriptor.ConceptEditorComponent;
 
 public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
-  public Collection<EditorAspect> getEditorAspects(ConceptDescriptor descriptor) {
+  public Collection<ConceptEditor> getEditors(ConceptDescriptor descriptor) {
     switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0a, descriptor.getConceptFqName())) {
       case 0:
-        return Collections.<EditorAspect>singletonList(new BinaryOperation_Editor());
+        return Collections.<ConceptEditor>singletonList(new BinaryOperation_Editor());
       case 1:
-        return Collections.<EditorAspect>singletonList(new BooleanLiteral_Editor());
+        return Collections.<ConceptEditor>singletonList(new BooleanLiteral_Editor());
       case 2:
-        return Collections.<EditorAspect>singletonList(new CallReference_Editor());
+        return Collections.<ConceptEditor>singletonList(new CallReference_Editor());
       case 3:
-        return Collections.<EditorAspect>singletonList(new CallReferenceType_Editor());
+        return Collections.<ConceptEditor>singletonList(new CallReferenceType_Editor());
       case 4:
-        return Collections.<EditorAspect>singletonList(new Enum_Editor());
+        return Collections.<ConceptEditor>singletonList(new Enum_Editor());
       case 5:
-        return Collections.<EditorAspect>singletonList(new ExternalPropertyDeclaration_Editor());
+        return Collections.<ConceptEditor>singletonList(new ExternalPropertyDeclaration_Editor());
       case 6:
-        return Collections.<EditorAspect>singletonList(new FileName_Editor());
+        return Collections.<ConceptEditor>singletonList(new FileName_Editor());
       case 7:
-        return Collections.<EditorAspect>singletonList(new ImportProject_Editor());
+        return Collections.<ConceptEditor>singletonList(new ImportProject_Editor());
       case 8:
-        return Collections.<EditorAspect>singletonList(new ImportPropertiesFromFile_Editor());
+        return Collections.<ConceptEditor>singletonList(new ImportPropertiesFromFile_Editor());
       case 9:
-        return Collections.<EditorAspect>singletonList(new ImportPropertyNode_Editor());
+        return Collections.<ConceptEditor>singletonList(new ImportPropertyNode_Editor());
       case 10:
-        return Collections.<EditorAspect>singletonList(new IntLiteral_Editor());
+        return Collections.<ConceptEditor>singletonList(new IntLiteral_Editor());
       case 11:
-        return Collections.<EditorAspect>singletonList(new MultiLineString_Editor());
+        return Collections.<ConceptEditor>singletonList(new MultiLineString_Editor());
       case 12:
-        return Collections.<EditorAspect>singletonList(new PlusOperation_Editor());
+        return Collections.<ConceptEditor>singletonList(new PlusOperation_Editor());
       case 13:
-        return Collections.<EditorAspect>singletonList(new Project_Editor());
+        return Collections.<ConceptEditor>singletonList(new Project_Editor());
       case 14:
-        return Collections.<EditorAspect>singletonList(new PropertyDeclaration_Editor());
+        return Collections.<ConceptEditor>singletonList(new PropertyDeclaration_Editor());
       case 15:
-        return Collections.<EditorAspect>singletonList(new PropertyReference_Editor());
+        return Collections.<ConceptEditor>singletonList(new PropertyReference_Editor());
       case 16:
-        return Collections.<EditorAspect>singletonList(new PropertyType_Editor());
+        return Collections.<ConceptEditor>singletonList(new PropertyType_Editor());
       case 17:
-        return Collections.<EditorAspect>singletonList(new StringLiteral_Editor());
+        return Collections.<ConceptEditor>singletonList(new StringLiteral_Editor());
       case 18:
-        return Collections.<EditorAspect>singletonList(new TargetDeclaration_Editor());
+        return Collections.<ConceptEditor>singletonList(new TargetDeclaration_Editor());
       case 19:
-        return Collections.<EditorAspect>singletonList(new TargetReference_Editor());
+        return Collections.<ConceptEditor>singletonList(new TargetReference_Editor());
       case 20:
-        return Collections.<EditorAspect>singletonList(new TargetReferencePropertyValueExpression_Editor());
+        return Collections.<ConceptEditor>singletonList(new TargetReferencePropertyValueExpression_Editor());
       case 21:
-        return Collections.<EditorAspect>singletonList(new XmlStringLiteral_Editor());
+        return Collections.<ConceptEditor>singletonList(new XmlStringLiteral_Editor());
       default:
     }
+    return Collections.emptyList();
+  }
+
+  public Collection<ConceptEditorComponent> getEditorComponents(ConceptDescriptor descriptor) {
     return Collections.emptyList();
   }
 
