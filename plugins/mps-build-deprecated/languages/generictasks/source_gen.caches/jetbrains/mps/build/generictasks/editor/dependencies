@@ -32,6 +32,9 @@
   <dependency className="jetbrains.mps.build.generictasks.editor.Attribute_EditorComponent" file="Attribute_EditorComponent.java">
     <classNode dependClassName="java.lang.Class" />
     <classNode dependClassName="java.lang.Deprecated" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Collection" />
+    <classNode dependClassName="java.util.Collections" />
     <classNode dependClassName="jetbrains.mps.build.generictasks.behavior.AttributeDeclaration_Behavior" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.editor.BuildLanguageStyle_StyleSheet" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleImpl" />
@@ -53,6 +56,7 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.nodeEditor.AbstractCellProvider" />
     <classNode extendsClassName="jetbrains.mps.nodeEditor.InlineCellProvider" />
+    <classNode extendsClassName="jetbrains.mps.openapi.editor.descriptor.ConceptEditorComponent" />
   </dependency>
   <dependency className="jetbrains.mps.build.generictasks.editor.BuiltInTaskDeclaration_Editor" file="BuiltInTaskDeclaration_Editor.java">
     <classNode dependClassName="java.lang.String" />
@@ -87,10 +91,16 @@
     <classNode dependClassName="java.util.Collections" />
     <classNode dependClassName="jetbrains.mps.build.generictasks.editor.AttributeDeclaration_Editor" />
     <classNode dependClassName="jetbrains.mps.build.generictasks.editor.Attribute_Editor" />
+    <classNode dependClassName="jetbrains.mps.build.generictasks.editor.Attribute_EditorComponent" />
     <classNode dependClassName="jetbrains.mps.build.generictasks.editor.BuiltInTaskDeclaration_Editor" />
+    <classNode dependClassName="jetbrains.mps.build.generictasks.editor.GenericAttributeDeclarationInEnum_EditorComponent" />
+    <classNode dependClassName="jetbrains.mps.build.generictasks.editor.GenericAttributeDeclaration_EditorComponent" />
     <classNode dependClassName="jetbrains.mps.build.generictasks.editor.NestedDeclaration_Editor" />
     <classNode dependClassName="jetbrains.mps.build.generictasks.editor.PathReference_Editor" />
     <classNode dependClassName="jetbrains.mps.build.generictasks.editor.TaskCall_Editor" />
+    <classNode dependClassName="jetbrains.mps.build.generictasks.editor.TaskDeclarationAttributes_EditorComponent" />
+    <classNode dependClassName="jetbrains.mps.build.generictasks.editor.TaskDeclarationHeader_EditorComponent" />
+    <classNode dependClassName="jetbrains.mps.build.generictasks.editor.TaskDeclarationInspector_EditorComponent" />
     <classNode dependClassName="jetbrains.mps.build.generictasks.editor.TaskInterfaceDeclaration_Editor" />
     <classNode dependClassName="jetbrains.mps.build.generictasks.editor.TaskReference_Editor" />
     <classNode dependClassName="jetbrains.mps.openapi.editor.descriptor.ConceptEditor" />
@@ -101,6 +111,9 @@
   <dependency className="jetbrains.mps.build.generictasks.editor.GenericAttributeDeclarationInEnum_EditorComponent" file="GenericAttributeDeclarationInEnum_EditorComponent.java">
     <classNode dependClassName="java.lang.Class" />
     <classNode dependClassName="java.lang.Deprecated" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Collection" />
+    <classNode dependClassName="java.util.Collections" />
     <classNode dependClassName="jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.nodeEditor.EditorContext" />
@@ -115,10 +128,14 @@
     <classNode dependClassName="jetbrains.mps.smodel.IScope" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.nodeEditor.AbstractCellProvider" />
+    <classNode extendsClassName="jetbrains.mps.openapi.editor.descriptor.ConceptEditorComponent" />
   </dependency>
   <dependency className="jetbrains.mps.build.generictasks.editor.GenericAttributeDeclaration_EditorComponent" file="GenericAttributeDeclaration_EditorComponent.java">
     <classNode dependClassName="java.lang.Class" />
     <classNode dependClassName="java.lang.Deprecated" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Collection" />
+    <classNode dependClassName="java.util.Collections" />
     <classNode dependClassName="jetbrains.mps.build.generictasks.behavior.AttributeDeclaration_Behavior" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.editor.BuildLanguageStyle_StyleSheet" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleAttributes" />
@@ -139,6 +156,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.IScope" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.nodeEditor.AbstractCellProvider" />
+    <classNode extendsClassName="jetbrains.mps.openapi.editor.descriptor.ConceptEditorComponent" />
   </dependency>
   <dependency className="jetbrains.mps.build.generictasks.editor.NestedDeclaration_Editor" file="NestedDeclaration_Editor.java">
     <classNode dependClassName="java.lang.Class" />
@@ -221,6 +239,8 @@
   <dependency className="jetbrains.mps.build.generictasks.editor.TaskDeclarationAttributes_EditorComponent" file="TaskDeclarationAttributes_EditorComponent.java">
     <classNode dependClassName="java.lang.Deprecated" />
     <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Collection" />
+    <classNode dependClassName="java.util.Collections" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.editor.BuildLanguageStyle_StyleSheet" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleAttributes" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleImpl" />
@@ -242,12 +262,15 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler" />
     <classNode extendsClassName="jetbrains.mps.nodeEditor.AbstractCellProvider" />
+    <classNode extendsClassName="jetbrains.mps.openapi.editor.descriptor.ConceptEditorComponent" />
   </dependency>
   <dependency className="jetbrains.mps.build.generictasks.editor.TaskDeclarationHeader_EditorComponent" file="TaskDeclarationHeader_EditorComponent.java">
     <classNode dependClassName="java.lang.Class" />
     <classNode dependClassName="java.lang.Deprecated" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Collection" />
+    <classNode dependClassName="java.util.Collections" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.editor.BuildLanguageStyle_StyleSheet" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleAttributes" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleImpl" />
@@ -280,12 +303,15 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler" />
     <classNode extendsClassName="jetbrains.mps.nodeEditor.AbstractCellProvider" />
+    <classNode extendsClassName="jetbrains.mps.openapi.editor.descriptor.ConceptEditorComponent" />
   </dependency>
   <dependency className="jetbrains.mps.build.generictasks.editor.TaskDeclarationInspector_EditorComponent" file="TaskDeclarationInspector_EditorComponent.java">
     <classNode dependClassName="java.lang.Class" />
     <classNode dependClassName="java.lang.Deprecated" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Collection" />
+    <classNode dependClassName="java.util.Collections" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.editor.BuildLanguageStyle_StyleSheet" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleAttributes" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleImpl" />
@@ -312,6 +338,7 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler" />
     <classNode extendsClassName="jetbrains.mps.nodeEditor.AbstractCellProvider" />
+    <classNode extendsClassName="jetbrains.mps.openapi.editor.descriptor.ConceptEditorComponent" />
   </dependency>
   <dependency className="jetbrains.mps.build.generictasks.editor.TaskInterfaceDeclaration_Editor" file="TaskInterfaceDeclaration_Editor.java">
     <classNode dependClassName="java.lang.Class" />

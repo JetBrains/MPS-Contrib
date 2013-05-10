@@ -33,6 +33,8 @@
     <classNode dependClassName="java.lang.Deprecated" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Collection" />
+    <classNode dependClassName="java.util.Collections" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleAttributes" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleImpl" />
     <classNode dependClassName="jetbrains.mps.lang.editor.cellProviders.RefNodeListHandlerElementKeyMap" />
@@ -54,6 +56,7 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler" />
     <classNode extendsClassName="jetbrains.mps.nodeEditor.AbstractCellProvider" />
+    <classNode extendsClassName="jetbrains.mps.openapi.editor.descriptor.ConceptEditorComponent" />
   </dependency>
   <dependency className="jetbrains.mps.xml.editor.BaseText_Editor" file="BaseText_Editor.java">
     <classNode dependClassName="jetbrains.mps.nodeEditor.cells.EditorCell_Error" />
@@ -143,12 +146,14 @@
     <classNode dependClassName="jetbrains.mps.smodel.runtime.ConceptDescriptor" />
     <classNode dependClassName="jetbrains.mps.xml.editor.Attribute_Editor" />
     <classNode dependClassName="jetbrains.mps.xml.editor.BaseAttribute_Editor" />
+    <classNode dependClassName="jetbrains.mps.xml.editor.BaseElement_attributeList" />
     <classNode dependClassName="jetbrains.mps.xml.editor.BaseText_Editor" />
     <classNode dependClassName="jetbrains.mps.xml.editor.CDATA_Editor" />
     <classNode dependClassName="jetbrains.mps.xml.editor.ComplexText_Editor" />
     <classNode dependClassName="jetbrains.mps.xml.editor.ContentList_Editor" />
     <classNode dependClassName="jetbrains.mps.xml.editor.Content_Editor" />
     <classNode dependClassName="jetbrains.mps.xml.editor.Element_Editor" />
+    <classNode dependClassName="jetbrains.mps.xml.editor.Element_elementDeclaration" />
     <classNode dependClassName="jetbrains.mps.xml.editor.EntityReference_Editor" />
     <classNode dependClassName="jetbrains.mps.xml.editor.Text_Editor" />
     <classNode extendsClassName="jetbrains.mps.openapi.editor.descriptor.EditorAspectDescriptor" />
@@ -183,6 +188,8 @@
     <classNode dependClassName="java.lang.Class" />
     <classNode dependClassName="java.lang.Deprecated" />
     <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Collection" />
+    <classNode dependClassName="java.util.Collections" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.cells.EmptyCellAction" />
     <classNode dependClassName="jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider" />
     <classNode dependClassName="jetbrains.mps.nodeEditor.EditorContext" />
@@ -201,6 +208,7 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.nodeEditor.AbstractCellProvider" />
     <classNode extendsClassName="jetbrains.mps.nodeEditor.InlineCellProvider" />
+    <classNode extendsClassName="jetbrains.mps.openapi.editor.descriptor.ConceptEditorComponent" />
   </dependency>
   <dependency className="jetbrains.mps.xml.editor.EntityReference_Editor" file="EntityReference_Editor.java">
     <classNode dependClassName="java.lang.Class" />

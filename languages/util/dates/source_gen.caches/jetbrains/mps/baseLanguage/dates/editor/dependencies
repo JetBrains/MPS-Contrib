@@ -588,6 +588,7 @@
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.TokenConditionalPair_Editor" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.UnaryDateTimeOperation_Editor" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.WithPropertyCompareExpression_Editor" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.WithProperty_component" />
     <classNode dependClassName="jetbrains.mps.openapi.editor.descriptor.ConceptEditor" />
     <classNode dependClassName="jetbrains.mps.openapi.editor.descriptor.ConceptEditorComponent" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.ConceptDescriptor" />
@@ -1498,6 +1499,9 @@
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.WithProperty_component" file="WithProperty_component.java">
     <classNode dependClassName="java.lang.Class" />
     <classNode dependClassName="java.lang.Deprecated" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Collection" />
+    <classNode dependClassName="java.util.Collections" />
     <classNode dependClassName="jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider" />
     <classNode dependClassName="jetbrains.mps.nodeEditor.EditorContext" />
     <classNode dependClassName="jetbrains.mps.nodeEditor.EditorManager" />
@@ -1509,6 +1513,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.IOperationContext" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.nodeEditor.AbstractCellProvider" />
+    <classNode extendsClassName="jetbrains.mps.openapi.editor.descriptor.ConceptEditorComponent" />
   </dependency>
 </dependenciesRoot>
 
