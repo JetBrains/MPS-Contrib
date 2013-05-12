@@ -639,8 +639,8 @@
     <nodeInfo nodeId="1462969652806436831" fileName="Generator.java" startLine="59" startPosition="114" endLine="60" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1462969652806436845" fileName="Generator.java" startLine="61" startPosition="47" endLine="62" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1462969652806436851" fileName="Generator.java" startLine="63" startPosition="7" endLine="64" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1462969652806436772" fileName="Generator.java" startLine="65" startPosition="29" endLine="66" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1462969652806436781" fileName="Generator.java" startLine="67" startPosition="40" endLine="68" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1462969652806436772" fileName="Generator.java" startLine="65" startPosition="29" endLine="66" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1462969652806436781" fileName="Generator.java" startLine="67" startPosition="40" endLine="68" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1462969652806436865" fileName="Generator.java" startLine="72" startPosition="71" endLine="73" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1462969652806436879" fileName="Generator.java" startLine="74" startPosition="33" endLine="75" endPosition="128" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1462969652806436892" fileName="Generator.java" startLine="76" startPosition="32" endLine="77" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -905,14 +905,14 @@
     <scopeInfo nodeId="1462969652806436733" fileName="Generator.java" startLine="44" startPosition="16" endLine="45" endPosition="56" />
     <scopeInfo nodeId="1462969652806436747" fileName="Generator.java" startLine="46" startPosition="17" endLine="47" endPosition="62" />
     <scopeInfo nodeId="1462969652806436844" fileName="Generator.java" startLine="61" startPosition="47" endLine="62" endPosition="48" />
-    <scopeInfo nodeId="1462969652806436770" fileName="Generator.java" startLine="65" startPosition="0" endLine="66" endPosition="29">
+    <scopeInfo nodeId="1462969652806436770" fileName="Generator.java" startLine="65" startPosition="0" endLine="66" endPosition="35">
       <varInfo nodeId="1462969652806436777" varName="e" />
     </scopeInfo>
-    <scopeInfo nodeId="1462969652806436771" fileName="Generator.java" startLine="65" startPosition="29" endLine="66" endPosition="29" />
-    <scopeInfo nodeId="1462969652806436779" fileName="Generator.java" startLine="67" startPosition="0" endLine="68" endPosition="29">
+    <scopeInfo nodeId="1462969652806436771" fileName="Generator.java" startLine="65" startPosition="29" endLine="66" endPosition="35" />
+    <scopeInfo nodeId="1462969652806436779" fileName="Generator.java" startLine="67" startPosition="0" endLine="68" endPosition="35">
       <varInfo nodeId="1462969652806436786" varName="e" />
     </scopeInfo>
-    <scopeInfo nodeId="1462969652806436780" fileName="Generator.java" startLine="67" startPosition="40" endLine="68" endPosition="29" />
+    <scopeInfo nodeId="1462969652806436780" fileName="Generator.java" startLine="67" startPosition="40" endLine="68" endPosition="35" />
     <scopeInfo nodeId="1462969652806436939" fileName="Generator.java" startLine="88" startPosition="45" endLine="89" endPosition="19" />
     <scopeInfo nodeId="1462969652806436954" fileName="Generator.java" startLine="91" startPosition="231" endLine="92" endPosition="71" />
     <scopeInfo nodeId="8826918594705200593" fileName="Generator.java" startLine="100" startPosition="48" endLine="101" endPosition="207" />
@@ -1567,7 +1567,7 @@
     <nodeInfo nodeId="1462969652806438046" fileName="Scanner.java" startLine="77" startPosition="39" endLine="78" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1462969652806438052" fileName="Scanner.java" startLine="80" startPosition="8" endLine="81" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1462969652806438077" fileName="Scanner.java" startLine="83" startPosition="13" endLine="84" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1462969652806438069" fileName="Scanner.java" startLine="85" startPosition="34" endLine="86" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1462969652806438069" fileName="Scanner.java" startLine="85" startPosition="34" endLine="86" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1462969652806438091" fileName="Scanner.java" startLine="92" startPosition="33" endLine="93" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1462969652806438100" fileName="Scanner.java" startLine="96" startPosition="36" endLine="97" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1462969652806438434" fileName="Scanner.java" startLine="103" startPosition="53" endLine="104" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -1585,8 +1585,8 @@
     <nodeInfo nodeId="1462969652806438210" fileName="Scanner.java" startLine="131" startPosition="36" endLine="132" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1462969652806438220" fileName="Scanner.java" startLine="132" startPosition="44" endLine="133" endPosition="12" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1462969652806438223" fileName="Scanner.java" startLine="134" startPosition="7" endLine="135" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1462969652806438168" fileName="Scanner.java" startLine="136" startPosition="39" endLine="137" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1462969652806438173" fileName="Scanner.java" startLine="137" startPosition="27" endLine="138" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1462969652806438168" fileName="Scanner.java" startLine="136" startPosition="39" endLine="137" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1462969652806438173" fileName="Scanner.java" startLine="137" startPosition="33" endLine="138" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1462969652806438243" fileName="Scanner.java" startLine="142" startPosition="138" endLine="143" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1462969652806438256" fileName="Scanner.java" startLine="144" startPosition="39" endLine="145" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1462969652806438258" fileName="Scanner.java" startLine="146" startPosition="5" endLine="147" endPosition="90" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -1601,8 +1601,8 @@
     <nodeInfo nodeId="1462969652806438368" fileName="Scanner.java" startLine="160" startPosition="40" endLine="161" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ContinueStatement" />
     <nodeInfo nodeId="1462969652806438369" fileName="Scanner.java" startLine="162" startPosition="9" endLine="163" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1462969652806438378" fileName="Scanner.java" startLine="163" startPosition="70" endLine="164" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1462969652806438297" fileName="Scanner.java" startLine="165" startPosition="43" endLine="166" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1462969652806438314" fileName="Scanner.java" startLine="169" startPosition="32" endLine="170" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1462969652806438297" fileName="Scanner.java" startLine="165" startPosition="43" endLine="166" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1462969652806438314" fileName="Scanner.java" startLine="169" startPosition="32" endLine="170" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1462969652806438383" fileName="Scanner.java" startLine="172" startPosition="40" endLine="173" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1462969652806438391" fileName="Scanner.java" startLine="176" startPosition="51" endLine="177" endPosition="101" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1462969652806438410" fileName="Scanner.java" startLine="180" startPosition="53" endLine="181" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -1670,10 +1670,10 @@
     <scopeInfo nodeId="1462969652806438309" fileName="Scanner.java" startLine="168" startPosition="41" endLine="168" endPosition="41" />
     <scopeInfo nodeId="1462969652806438045" fileName="Scanner.java" startLine="77" startPosition="39" endLine="78" endPosition="13" />
     <scopeInfo nodeId="1462969652806438076" fileName="Scanner.java" startLine="83" startPosition="13" endLine="84" endPosition="71" />
-    <scopeInfo nodeId="1462969652806438067" fileName="Scanner.java" startLine="85" startPosition="0" endLine="86" endPosition="32">
+    <scopeInfo nodeId="1462969652806438067" fileName="Scanner.java" startLine="85" startPosition="0" endLine="86" endPosition="38">
       <varInfo nodeId="1462969652806438074" varName="e1" />
     </scopeInfo>
-    <scopeInfo nodeId="1462969652806438068" fileName="Scanner.java" startLine="85" startPosition="34" endLine="86" endPosition="32" />
+    <scopeInfo nodeId="1462969652806438068" fileName="Scanner.java" startLine="85" startPosition="34" endLine="86" endPosition="38" />
     <scopeInfo nodeId="1462969652806438090" fileName="Scanner.java" startLine="92" startPosition="33" endLine="93" endPosition="27" />
     <scopeInfo nodeId="1462969652806438099" fileName="Scanner.java" startLine="96" startPosition="36" endLine="97" endPosition="53" />
     <scopeInfo nodeId="1462969652806438433" fileName="Scanner.java" startLine="103" startPosition="53" endLine="104" endPosition="43" />
@@ -1682,14 +1682,14 @@
     <scopeInfo nodeId="1462969652806438255" fileName="Scanner.java" startLine="144" startPosition="39" endLine="145" endPosition="35" />
     <scopeInfo nodeId="1462969652806438292" fileName="Scanner.java" startLine="151" startPosition="52" endLine="152" endPosition="17" />
     <scopeInfo nodeId="1462969652806438367" fileName="Scanner.java" startLine="160" startPosition="40" endLine="161" endPosition="19" />
-    <scopeInfo nodeId="1462969652806438295" fileName="Scanner.java" startLine="165" startPosition="0" endLine="166" endPosition="30">
+    <scopeInfo nodeId="1462969652806438295" fileName="Scanner.java" startLine="165" startPosition="0" endLine="166" endPosition="36">
       <varInfo nodeId="1462969652806438302" varName="e1" />
     </scopeInfo>
-    <scopeInfo nodeId="1462969652806438296" fileName="Scanner.java" startLine="165" startPosition="43" endLine="166" endPosition="30" />
-    <scopeInfo nodeId="1462969652806438312" fileName="Scanner.java" startLine="169" startPosition="0" endLine="170" endPosition="30">
+    <scopeInfo nodeId="1462969652806438296" fileName="Scanner.java" startLine="165" startPosition="43" endLine="166" endPosition="36" />
+    <scopeInfo nodeId="1462969652806438312" fileName="Scanner.java" startLine="169" startPosition="0" endLine="170" endPosition="36">
       <varInfo nodeId="1462969652806438319" varName="e1" />
     </scopeInfo>
-    <scopeInfo nodeId="1462969652806438313" fileName="Scanner.java" startLine="169" startPosition="32" endLine="170" endPosition="30" />
+    <scopeInfo nodeId="1462969652806438313" fileName="Scanner.java" startLine="169" startPosition="32" endLine="170" endPosition="36" />
     <scopeInfo nodeId="1462969652806438390" fileName="Scanner.java" startLine="176" startPosition="51" endLine="177" endPosition="101" />
     <scopeInfo nodeId="1462969652806438409" fileName="Scanner.java" startLine="180" startPosition="53" endLine="181" endPosition="53" />
     <scopeInfo nodeId="1462969652806438460" fileName="Scanner.java" startLine="187" startPosition="30" endLine="188" endPosition="25" />

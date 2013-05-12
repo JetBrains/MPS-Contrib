@@ -23,7 +23,7 @@ public abstract class EscapingElementCreator extends ElementCreator {
       xmlOutputter.output(result, wrt);
       textGen.append(wrt.toString());
     } catch (Exception e) {
-      LogManager.getLogger(Document.class).error(e);
+      LogManager.getLogger(Document.class).error(null, e);
     }
   }
 }

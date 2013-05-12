@@ -83,7 +83,7 @@ public class Scanner {
         try {
           this.myNamesMap.parsePropertyFile(jarFile.getInputStream(e));
         } catch (IOException e1) {
-          Scanner.LOG.error(e1);
+          Scanner.LOG.error(null, e1);
         }
       }
     } while (entries.hasMoreElements());
@@ -134,7 +134,7 @@ public class Scanner {
       }
       return new URLClassLoader(urls);
     } catch (MalformedURLException e) {
-      Scanner.LOG.error(e);
+      Scanner.LOG.error(null, e);
       return null;
     }
   }
@@ -163,11 +163,11 @@ public class Scanner {
         ClassInfo<T> classInfo = new ClassInfo<T>(clazz, classReader);
         taskClasses.add(classInfo);
       } catch (ClassNotFoundException e1) {
-        Scanner.LOG.error(e1);
+        Scanner.LOG.error(null, e1);
       } catch (ClassCastException e1) {
       } catch (NoClassDefFoundError e1) {
       } catch (IOException e1) {
-        Scanner.LOG.error(e1);
+        Scanner.LOG.error(null, e1);
       }
     } while (entries.hasMoreElements());
     return taskClasses;

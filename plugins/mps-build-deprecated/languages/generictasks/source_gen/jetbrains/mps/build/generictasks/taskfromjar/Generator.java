@@ -63,9 +63,9 @@ public class Generator {
       }
       importer.importAll(builder);
     } catch (IOException e) {
-      Generator.LOG.error(e);
+      Generator.LOG.error(null, e);
     } catch (ClassNotFoundException e) {
-      Generator.LOG.error(e);
+      Generator.LOG.error(null, e);
     }
   }
 
