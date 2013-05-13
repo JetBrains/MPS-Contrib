@@ -3,6 +3,9 @@
   <models>
     <modelRoot path="${mps_home}/plugins/mps-testing/languages/util/xmlUnitTest/languages/xmlUnitTest/lib/xmlunit-1.3.jar" type="java_classes" />
   </models>
+  <facets>
+    <facet pluginId="jetbrains.mps.testing" type="ideaPlugin" />
+  </facets>
   <stubModelEntries>
     <stubModelEntry path="${mps_home}/plugins/mps-testing/languages/util/xmlUnitTest/languages/xmlUnitTest/lib/xmlunit-1.3.jar" />
   </stubModelEntries>
