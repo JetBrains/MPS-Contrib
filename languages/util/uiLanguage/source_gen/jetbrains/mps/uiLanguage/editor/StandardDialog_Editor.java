@@ -109,7 +109,9 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no rootComponent>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setRole("rootComponent");
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("rootComponent");
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
