@@ -49,7 +49,9 @@ public class GIndentBlock_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no itemList>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setRole("itemList");
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("itemList");
+    }
     Style style = new StyleImpl();
     style.set(StyleAttributes.INDENT_LAYOUT_INDENT, true);
     style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);

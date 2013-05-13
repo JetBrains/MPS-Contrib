@@ -77,7 +77,9 @@ public class Locale_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no javaLocale>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setRole("javaLocale");
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("javaLocale");
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

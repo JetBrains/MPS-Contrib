@@ -69,7 +69,9 @@ public class ConfigurationEditorDeclaration_BasicEditor extends AbstractCellProv
     provider.setNoTargetText("<no editor>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setRole("editor");
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("editor");
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -87,7 +89,9 @@ public class ConfigurationEditorDeclaration_BasicEditor extends AbstractCellProv
     provider.setNoTargetText("<no applyBlock>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setRole("applyBlock");
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("applyBlock");
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -105,7 +109,9 @@ public class ConfigurationEditorDeclaration_BasicEditor extends AbstractCellProv
     provider.setNoTargetText("<no resetBlock>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setRole("resetBlock");
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("resetBlock");
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -123,7 +129,9 @@ public class ConfigurationEditorDeclaration_BasicEditor extends AbstractCellProv
     provider.setNoTargetText("<no disposeBlock>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setRole("disposeBlock");
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("disposeBlock");
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

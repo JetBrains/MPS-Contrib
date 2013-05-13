@@ -95,7 +95,9 @@ public class Document_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no root element>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setRole("rootElement");
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("rootElement");
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

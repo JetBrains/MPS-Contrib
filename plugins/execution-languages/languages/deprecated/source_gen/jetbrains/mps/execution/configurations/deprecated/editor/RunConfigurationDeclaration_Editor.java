@@ -176,7 +176,9 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no prepareBlock>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setRole("prepareBlock");
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("prepareBlock");
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -207,7 +209,9 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no debugSessionCreator>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setRole("debugSessionCreator");
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("debugSessionCreator");
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -317,8 +321,10 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
       EditorCell editorCell;
       editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("property_name");
-      editorCell.setReferenceCell(true);
-      editorCell.setRole("stateTypeParameter");
+      if (editorCell.getRole() == null) {
+        editorCell.setReferenceCell(true);
+        editorCell.setRole("stateTypeParameter");
+      }
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();
       Class attributeKind = provider.getRoleAttributeClass();

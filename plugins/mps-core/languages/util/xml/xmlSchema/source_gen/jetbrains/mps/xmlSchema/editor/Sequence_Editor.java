@@ -88,7 +88,9 @@ public class Sequence_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no typeExpressionList>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setRole("typeExpressionList");
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("typeExpressionList");
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -133,7 +135,9 @@ public class Sequence_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no typeExpressionList>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setRole("typeExpressionList");
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("typeExpressionList");
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

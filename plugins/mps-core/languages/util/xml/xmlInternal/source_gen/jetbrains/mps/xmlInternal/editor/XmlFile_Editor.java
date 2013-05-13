@@ -164,8 +164,10 @@ public class XmlFile_Editor extends DefaultNodeEditor {
       EditorCell editorCell;
       editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("property_schemaName");
-      editorCell.setReferenceCell(true);
-      editorCell.setRole("schema");
+      if (editorCell.getRole() == null) {
+        editorCell.setReferenceCell(true);
+        editorCell.setRole("schema");
+      }
       Style style = new StyleImpl();
       style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
       editorCell.getStyle().putAll(style);
@@ -207,7 +209,9 @@ public class XmlFile_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no document>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setRole("document");
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("document");
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

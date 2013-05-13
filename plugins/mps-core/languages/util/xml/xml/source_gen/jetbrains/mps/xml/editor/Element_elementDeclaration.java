@@ -93,8 +93,10 @@ public class Element_elementDeclaration extends AbstractCellProvider {
       }, node);
       editorCell.setAction(CellActionType.DELETE, EmptyCellAction.getInstance());
       editorCell.setCellId("ReadOnlyModelAccessor_vbcaz4_a0a0");
-      editorCell.setReferenceCell(true);
-      editorCell.setRole("elementDeclaration");
+      if (editorCell.getRole() == null) {
+        editorCell.setReferenceCell(true);
+        editorCell.setRole("elementDeclaration");
+      }
       return editorCell;
     }
   }

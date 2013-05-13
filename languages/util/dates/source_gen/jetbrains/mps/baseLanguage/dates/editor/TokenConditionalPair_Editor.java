@@ -48,7 +48,9 @@ public class TokenConditionalPair_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no condition>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setRole("condition");
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("condition");
+    }
     Style style = new StyleImpl();
     style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, false);
     editorCell.getStyle().putAll(style);
@@ -114,8 +116,10 @@ public class TokenConditionalPair_Editor extends DefaultNodeEditor {
       EditorCell editorCell;
       editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("property_name");
-      editorCell.setReferenceCell(true);
-      editorCell.setRole("format");
+      if (editorCell.getRole() == null) {
+        editorCell.setReferenceCell(true);
+        editorCell.setRole("format");
+      }
       Style style = new StyleImpl();
       Dates_StyleSheet.applyDateFormat(style, editorCell);
       editorCell.getStyle().putAll(style);

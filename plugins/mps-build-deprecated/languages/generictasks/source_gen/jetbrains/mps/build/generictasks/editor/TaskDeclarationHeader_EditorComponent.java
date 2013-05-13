@@ -150,7 +150,9 @@ public class TaskDeclarationHeader_EditorComponent extends AbstractCellProvider 
     provider.setNoTargetText("<no parentRef>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setRole("parentRef");
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("parentRef");
+    }
     Style style = new StyleImpl();
     BuildLanguageStyle_StyleSheet.applyTask(style, editorCell);
     editorCell.getStyle().putAll(style);

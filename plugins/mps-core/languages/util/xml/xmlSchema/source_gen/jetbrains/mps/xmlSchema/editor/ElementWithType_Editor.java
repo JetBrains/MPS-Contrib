@@ -87,7 +87,9 @@ public class ElementWithType_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no occursAttribute>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setRole("occursAttribute");
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("occursAttribute");
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -112,7 +114,9 @@ public class ElementWithType_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no complexTypeReference>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setRole("complexTypeReference");
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("complexTypeReference");
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

@@ -48,7 +48,9 @@ public class ComplexContent_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no contentItem>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setRole("contentItem");
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("contentItem");
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

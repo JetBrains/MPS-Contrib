@@ -74,8 +74,10 @@ public class ElementReference_Editor extends DefaultNodeEditor {
       EditorCell editorCell;
       editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("property_elementName");
-      editorCell.setReferenceCell(true);
-      editorCell.setRole("elementDeclaration");
+      if (editorCell.getRole() == null) {
+        editorCell.setReferenceCell(true);
+        editorCell.setRole("elementDeclaration");
+      }
       Style style = new StyleImpl();
       style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
       style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(ElementReference_Editor._Inline_uugm4e_a0a._StyleParameter_QueryFunction_uugm4e_a1a0a0((editorCell == null ?

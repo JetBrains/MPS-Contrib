@@ -28,7 +28,7 @@
         </node>
       </node>
     </node>
-    <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="5211164146776489227" nodeInfo="ng">
+    <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="5211164146776489227" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="literal" />
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="mass.5211164146776489223" resolveInfo="XMLStringLiteral" />
     </node>

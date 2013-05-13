@@ -79,8 +79,10 @@ public class Attribute_Editor extends DefaultNodeEditor {
       EditorCell editorCell;
       editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("property_attributeName");
-      editorCell.setReferenceCell(true);
-      editorCell.setRole("attributeDeclaration");
+      if (editorCell.getRole() == null) {
+        editorCell.setReferenceCell(true);
+        editorCell.setRole("attributeDeclaration");
+      }
       Style style = new StyleImpl();
       XmlStyle_StyleSheet.applyXmlAttribute(style, editorCell);
       editorCell.getStyle().putAll(style);
@@ -122,7 +124,9 @@ public class Attribute_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no value>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setRole("value");
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("value");
+    }
     Style style = new StyleImpl();
     style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
     editorCell.getStyle().putAll(style);

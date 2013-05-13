@@ -221,8 +221,10 @@ public class JavaNodeRunConfiguration_Editor extends DefaultNodeEditor {
       EditorCell editorCell;
       editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("property_name");
-      editorCell.setReferenceCell(true);
-      editorCell.setRole("conceptDeclaration");
+      if (editorCell.getRole() == null) {
+        editorCell.setReferenceCell(true);
+        editorCell.setRole("conceptDeclaration");
+      }
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();
       Class attributeKind = provider.getRoleAttributeClass();
@@ -257,7 +259,9 @@ public class JavaNodeRunConfiguration_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no isApplicableBlock>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setRole("isApplicableBlock");
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("isApplicableBlock");
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

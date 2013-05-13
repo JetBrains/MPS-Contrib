@@ -71,8 +71,10 @@ public class AccessAttributeOperation_Editor extends DefaultNodeEditor {
       EditorCell editorCell;
       editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("property_attributeName");
-      editorCell.setReferenceCell(true);
-      editorCell.setRole("attributeDeclaration");
+      if (editorCell.getRole() == null) {
+        editorCell.setReferenceCell(true);
+        editorCell.setRole("attributeDeclaration");
+      }
       Style style = new StyleImpl();
       XmlStyle_StyleSheet.applyXmlAttribute(style, editorCell);
       editorCell.getStyle().putAll(style);

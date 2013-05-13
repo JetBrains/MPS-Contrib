@@ -138,7 +138,9 @@ public class Schema_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no rootElementReference>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setRole("rootElementReference");
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("rootElementReference");
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -223,7 +225,9 @@ public class Schema_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no defaultNamespaceDeclaration>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setRole("defaultNamespaceDeclaration");
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("defaultNamespaceDeclaration");
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

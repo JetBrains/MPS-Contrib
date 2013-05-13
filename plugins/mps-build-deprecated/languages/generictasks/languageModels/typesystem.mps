@@ -50,7 +50,7 @@
         </node>
       </node>
     </node>
-    <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="353793545802854618" nodeInfo="ng">
+    <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="353793545802854618" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="nodeToCheck" />
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="ddum.353793545802643466" resolveInfo="Attribute" />
     </node>
@@ -194,7 +194,7 @@
         </node>
       </node>
     </node>
-    <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="353793545802854671" nodeInfo="ng">
+    <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="353793545802854671" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="genericAttributeDeclaration" />
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="ddum.353793545802643469" resolveInfo="AttributeDeclaration" />
     </node>
@@ -303,7 +303,7 @@
         </node>
       </node>
     </node>
-    <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="353793545802854717" nodeInfo="ng">
+    <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="353793545802854717" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="nodeToCheck" />
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="ddum.353793545802643469" resolveInfo="AttributeDeclaration" />
     </node>
@@ -372,7 +372,7 @@
         </node>
       </node>
     </node>
-    <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="353793545802854744" nodeInfo="ng">
+    <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="353793545802854744" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="genericInterfaceDeclaration" />
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="ddum.353793545802643483" resolveInfo="TaskInterfaceDeclaration" />
     </node>
@@ -494,7 +494,7 @@
         </node>
       </node>
     </node>
-    <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="353793545802854794" nodeInfo="ng">
+    <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="353793545802854794" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="genericAttribute" />
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="ddum.353793545802643466" resolveInfo="Attribute" />
     </node>
@@ -648,7 +648,7 @@
         </node>
       </node>
     </node>
-    <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="353793545802854858" nodeInfo="ng">
+    <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="353793545802854858" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="genericTaskCall" />
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="ddum.353793545802643477" resolveInfo="TaskCall" />
     </node>

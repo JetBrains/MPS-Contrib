@@ -158,8 +158,10 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
       EditorCell editorCell;
       editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("property_name_1");
-      editorCell.setReferenceCell(true);
-      editorCell.setRole("jodaDateTimeFieldType");
+      if (editorCell.getRole() == null) {
+        editorCell.setReferenceCell(true);
+        editorCell.setRole("jodaDateTimeFieldType");
+      }
       Style style = new StyleImpl();
       BaseLanguageStyle_StyleSheet.applyField(style, editorCell);
       editorCell.getStyle().putAll(style);
@@ -234,8 +236,10 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
       EditorCell editorCell;
       editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("property_name_2");
-      editorCell.setReferenceCell(true);
-      editorCell.setRole("jodaPeriodType");
+      if (editorCell.getRole() == null) {
+        editorCell.setReferenceCell(true);
+        editorCell.setRole("jodaPeriodType");
+      }
       Style style = new StyleImpl();
       BaseLanguageStyle_StyleSheet.applyField(style, editorCell);
       editorCell.getStyle().putAll(style);
@@ -310,8 +314,10 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
       EditorCell editorCell;
       editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("property_name_3");
-      editorCell.setReferenceCell(true);
-      editorCell.setRole("jodaDurationType");
+      if (editorCell.getRole() == null) {
+        editorCell.setReferenceCell(true);
+        editorCell.setRole("jodaDurationType");
+      }
       Style style = new StyleImpl();
       BaseLanguageStyle_StyleSheet.applyField(style, editorCell);
       editorCell.getStyle().putAll(style);
@@ -383,8 +389,10 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
       EditorCell editorCell;
       editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("property_name_4");
-      editorCell.setReferenceCell(true);
-      editorCell.setRole("periodFormatMethod");
+      if (editorCell.getRole() == null) {
+        editorCell.setReferenceCell(true);
+        editorCell.setRole("periodFormatMethod");
+      }
       Style style = new StyleImpl();
       BaseLanguageStyle_StyleSheet.applyField(style, editorCell);
       editorCell.getStyle().putAll(style);

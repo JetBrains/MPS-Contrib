@@ -44,7 +44,9 @@ public class DateTimeWithPropertyOperation_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no datetime>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setRole("datetime");
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("datetime");
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -117,8 +119,10 @@ public class DateTimeWithPropertyOperation_Editor extends DefaultNodeEditor {
       EditorCell editorCell;
       editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("property_name");
-      editorCell.setReferenceCell(true);
-      editorCell.setRole("dateTimeProperty");
+      if (editorCell.getRole() == null) {
+        editorCell.setReferenceCell(true);
+        editorCell.setRole("dateTimeProperty");
+      }
       Style style = new StyleImpl();
       Dates_StyleSheet.applyDateProperty(style, editorCell);
       editorCell.getStyle().putAll(style);
@@ -150,7 +154,9 @@ public class DateTimeWithPropertyOperation_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no expression>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setRole("expression");
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("expression");
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

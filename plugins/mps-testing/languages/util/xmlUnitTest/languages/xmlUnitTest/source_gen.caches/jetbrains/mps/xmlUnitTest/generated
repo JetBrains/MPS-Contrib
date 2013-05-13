@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependencies version="2" modelHash="3h0722bnsptbqudtf5j13b1ifgf1yc8">
-  <dep model="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" hash="d6c8wh8o7q4pvm9wplrig5vf54lm38l" />
-  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="5gwsobz6ajuvxb1x3a7osxwpluja71i" />
+  <dep model="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" hash="9h95vmers092sti9k2unoz0wm58k39u" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-mjxs0m2jun2n8oda8eyh1sj6wp5zko" />
   <dep model="r:311f1e76-a821-4ee3-aba9-725a59fdc38b(jetbrains.mps.xmlUnitTest.editor)" hash="-6lkacuwj8y2a66rtpmv5zpejtfqrqqb" />
-  <dep model="r:d43ac4df-d36f-42ee-9923-a53d21b79525(jetbrains.mps.xmlUnitTest.typesystem)" hash="-b4tiyaycbfuixqni1u75b3l960l123e" />
+  <dep model="r:d43ac4df-d36f-42ee-9923-a53d21b79525(jetbrains.mps.xmlUnitTest.typesystem)" hash="-8fh00ryqhwh34xfk2k7xfdziqa1ane4" />
   <common>
     <dep model="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />

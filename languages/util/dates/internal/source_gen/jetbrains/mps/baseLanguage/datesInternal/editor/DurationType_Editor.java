@@ -46,7 +46,9 @@ public class DurationType_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no jodaDurationFieldType>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setRole("jodaDurationFieldType");
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("jodaDurationFieldType");
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

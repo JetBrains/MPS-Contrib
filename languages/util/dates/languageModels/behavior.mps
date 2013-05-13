@@ -2813,7 +2813,7 @@
             <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.EqualsExpression" typeId="tpee.1068580123152" id="5251619021093068904" nodeInfo="nn">
               <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="5251619021093068905" nodeInfo="nn" />
               <node role="leftExpression" roleId="tpee.1081773367580" type="tpd4.CoerceStrongExpression" typeId="tpd4.1178871491133" id="5251619021093068906" nodeInfo="nn">
-                <node role="pattern" roleId="tpd4.1178870894644" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="5251619021093068907" nodeInfo="ng">
+                <node role="pattern" roleId="tpd4.1178870894644" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="5251619021093068907" nodeInfo="ig">
                   <property name="name" nameId="tpck.1169194664001" value="periodType" />
                   <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tp6x.1172487727591" resolveInfo="PeriodType" />
                 </node>

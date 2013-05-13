@@ -45,7 +45,9 @@ public class EntityBlock_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no sComment>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setRole("sComment");
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("sComment");
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

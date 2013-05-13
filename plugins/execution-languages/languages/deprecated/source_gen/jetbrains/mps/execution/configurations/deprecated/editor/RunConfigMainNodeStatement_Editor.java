@@ -41,7 +41,9 @@ public class RunConfigMainNodeStatement_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no contextItem>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setRole("contextItem");
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("contextItem");
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

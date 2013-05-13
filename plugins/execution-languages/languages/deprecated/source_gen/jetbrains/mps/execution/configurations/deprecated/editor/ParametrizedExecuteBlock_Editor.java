@@ -74,7 +74,9 @@ public class ParametrizedExecuteBlock_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("parameter query");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setRole("executeParameterQuery");
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("executeParameterQuery");
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -133,7 +135,9 @@ public class ParametrizedExecuteBlock_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("default actions");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setRole("executeActions");
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("executeActions");
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -192,7 +196,9 @@ public class ParametrizedExecuteBlock_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("default console");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setRole("executeConsole");
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("executeConsole");
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -251,7 +257,9 @@ public class ParametrizedExecuteBlock_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no executeProcess>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setRole("executeProcess");
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("executeProcess");
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

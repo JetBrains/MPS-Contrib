@@ -155,7 +155,9 @@ public class RunConfigurationBody extends AbstractCellProvider {
     provider.setNoTargetText("<no editor>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setRole("editor");
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("editor");
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -177,7 +179,9 @@ public class RunConfigurationBody extends AbstractCellProvider {
     provider.setNoTargetText("<default editor>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setRole("editor");
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("editor");
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -209,7 +213,9 @@ public class RunConfigurationBody extends AbstractCellProvider {
     provider.setNoTargetText("<config icon = creation icon>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setRole("iconBlock");
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("iconBlock");
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -237,7 +243,9 @@ public class RunConfigurationBody extends AbstractCellProvider {
     provider.setNoTargetText("<no check block>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setRole("checkBlock");
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("checkBlock");
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -354,7 +362,9 @@ public class RunConfigurationBody extends AbstractCellProvider {
     provider.setNoTargetText("execute block");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setRole("executeBlock");
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("executeBlock");
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -382,7 +392,9 @@ public class RunConfigurationBody extends AbstractCellProvider {
     provider.setNoTargetText("<no makeBlock>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setRole("makeBlock");
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("makeBlock");
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

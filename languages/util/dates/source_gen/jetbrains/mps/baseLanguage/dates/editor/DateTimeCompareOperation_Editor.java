@@ -60,7 +60,9 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no op1>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setRole("op1");
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("op1");
+    }
     DateTimeCompareOperation_leftOperand_actionMap.setCellActions(editorCell, node, editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -111,7 +113,9 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no op2>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setRole("op2");
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("op2");
+    }
     Style style = new StyleImpl();
     style.set(StyleAttributes.RT_ANCHOR_TAG, "default_RTransform");
     editorCell.getStyle().putAll(style);
@@ -193,8 +197,10 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
       EditorCell editorCell;
       editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("property_name");
-      editorCell.setReferenceCell(true);
-      editorCell.setRole("datetimeProperty");
+      if (editorCell.getRole() == null) {
+        editorCell.setReferenceCell(true);
+        editorCell.setRole("datetimeProperty");
+      }
       Style style = new StyleImpl();
       Dates_StyleSheet.applyDateProperty(style, editorCell);
       editorCell.getStyle().putAll(style);

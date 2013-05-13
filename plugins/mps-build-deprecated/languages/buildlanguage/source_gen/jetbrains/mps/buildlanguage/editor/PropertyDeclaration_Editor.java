@@ -158,7 +158,9 @@ public class PropertyDeclaration_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no type>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setRole("type");
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("type");
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -183,7 +185,9 @@ public class PropertyDeclaration_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no propertyValue>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setRole("propertyValue");
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("propertyValue");
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

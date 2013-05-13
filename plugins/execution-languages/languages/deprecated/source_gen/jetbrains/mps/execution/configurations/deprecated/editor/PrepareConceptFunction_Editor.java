@@ -53,7 +53,9 @@ public class PrepareConceptFunction_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no retrunTypeParameter>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setRole("retrunTypeParameter");
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("retrunTypeParameter");
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
