@@ -202,6 +202,76 @@
       <fileset dir="${build.tmp}/java/out/jetbrains.mps.build.property#1224602648191" />
       <fileset dir="${build.tmp}/default/jetbrains.mps.build.property#1224602648191.jar" />
     </jar>
+    <mkdir dir="${build.tmp}/default/jetbrains.mps.bash.jar" />
+    <mkdir dir="${build.tmp}/default/jetbrains.mps.bash.jar/META-INF" />
+    <echoxml file="${build.tmp}/default/jetbrains.mps.bash.jar/META-INF/module.xml">
+      <module namespace="jetbrains.mps.bash" type="language" uuid="4a1e4a24-105b-44ed-959c-6586fc957db3">
+        <dependencies>
+          <module ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" />
+          <module ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" />
+          <module ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224(MPS.Editor)" />
+          <module ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" />
+          <module ref="4c6a28d1-2c60-478d-b36e-db9b3cbb21fb(closures.runtime)" />
+          <module ref="9b80526e-f0bf-4992-bdf5-cee39c1833f3(collections.runtime)" />
+          <module ref="a3e4657f-a76c-45bb-bbda-c764596ecc65(jetbrains.mps.baseLanguage.logging.runtime)" />
+          <module ref="23949432-aaff-4c03-b7da-26e4e956ccea(jetbrains.mps.baseLanguage.regexp.runtime)" />
+          <module ref="d44dab97-aaac-44cb-9745-8a14db674c03(jetbrains.mps.baseLanguage.tuples.runtime)" />
+          <module ref="2af156ab-65c1-4a62-bd0d-ea734f71eab6(jetbrains.mps.dataFlow.runtime)" />
+          <module ref="6d7b94f7-2db7-4e65-9dbd-cf745a12036a(jetbrains.mps.lang.smodel.runtime)" />
+          <module ref="8fe4c62a-2020-4ff4-8eda-f322a55bdc9f(jetbrains.mps.refactoring.runtime)" />
+        </dependencies>
+        <sources jar="jetbrains.mps.bash-src.jar" descriptor="jetbrains.mps.bash.mpl" />
+      </module>
+    </echoxml>
+    <jar destfile="${build.layout}/mps-build-deprecated/languages/build/jetbrains.mps.bash.jar">
+      <fileset dir="${build.tmp}/java/out/jetbrains.mps.bash" />
+      <fileset dir="${mps_home}/plugins/mps-build-deprecated/languages/bash" includes="icons/**, resources/**" />
+      <fileset dir="${build.tmp}/default/jetbrains.mps.bash.jar" />
+    </jar>
+    <jar destfile="${build.layout}/mps-build-deprecated/languages/build/jetbrains.mps.bash-generator.jar">
+      <fileset dir="${build.tmp}/java/out/jetbrains.mps.bash#6382090206697067824" />
+    </jar>
+    <copyModels todir="${build.tmp}/customProcessors/copyModels/plugins-mps-build-deprecated-languages-bash-generator-template">
+      <fileset dir="${mps_home}/plugins/mps-build-deprecated/languages/bash/generator/template" includes="**/*.mps, **/*.metadata, **/*.history" />
+    </copyModels>
+    <copyModels todir="${build.tmp}/customProcessors/copyModels/plugins-mps-build-deprecated-languages-bash-languageAccessories">
+      <fileset dir="${mps_home}/plugins/mps-build-deprecated/languages/bash/languageAccessories" includes="**/*.mps, **/*.metadata, **/*.history" />
+    </copyModels>
+    <copyModels todir="${build.tmp}/customProcessors/copyModels/plugins-mps-build-deprecated-languages-bash-languageModels">
+      <fileset dir="${mps_home}/plugins/mps-build-deprecated/languages/bash/languageModels" includes="**/*.mps, **/*.metadata, **/*.history" />
+    </copyModels>
+    <jar destfile="${build.layout}/mps-build-deprecated/languages/build/jetbrains.mps.bash-src.jar">
+      <fileset dir="${mps_home}/plugins/mps-build-deprecated/languages/bash/generator/source_gen" includes="**/*.java" />
+      <fileset dir="${mps_home}/plugins/mps-build-deprecated/languages/bash/source_gen" includes="**/*.java" />
+      <zipfileset file="${mps_home}/plugins/mps-build-deprecated/languages/bash/jetbrains.mps.bash.mpl" prefix="module" />
+      <zipfileset dir="${build.tmp}/customProcessors/copyModels/plugins-mps-build-deprecated-languages-bash-generator-template" prefix="module/generator/template" />
+      <zipfileset dir="${build.tmp}/customProcessors/copyModels/plugins-mps-build-deprecated-languages-bash-languageAccessories" prefix="module/languageAccessories" />
+      <zipfileset dir="${build.tmp}/customProcessors/copyModels/plugins-mps-build-deprecated-languages-bash-languageModels" prefix="module/languageModels" />
+    </jar>
+    <mkdir dir="${build.tmp}/default/jetbrains.mps.bash#6382090206697067824.jar" />
+    <mkdir dir="${build.tmp}/default/jetbrains.mps.bash#6382090206697067824.jar/META-INF" />
+    <echoxml file="${build.tmp}/default/jetbrains.mps.bash#6382090206697067824.jar/META-INF/module.xml">
+      <module namespace="jetbrains.mps.bash#6382090206697067824" type="language" uuid="a9772ef0-5f51-48a7-8cb0-e217639912db">
+        <dependencies>
+          <module ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" />
+          <module ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" />
+          <module ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224(MPS.Editor)" />
+          <module ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" />
+          <module ref="4c6a28d1-2c60-478d-b36e-db9b3cbb21fb(closures.runtime)" />
+          <module ref="9b80526e-f0bf-4992-bdf5-cee39c1833f3(collections.runtime)" />
+          <module ref="a3e4657f-a76c-45bb-bbda-c764596ecc65(jetbrains.mps.baseLanguage.logging.runtime)" />
+          <module ref="d44dab97-aaac-44cb-9745-8a14db674c03(jetbrains.mps.baseLanguage.tuples.runtime)" />
+          <module ref="2af156ab-65c1-4a62-bd0d-ea734f71eab6(jetbrains.mps.dataFlow.runtime)" />
+          <module ref="34f23130-e35c-4795-a45a-85d828b16016(jetbrains.mps.gtext.runtime)" />
+          <module ref="6d7b94f7-2db7-4e65-9dbd-cf745a12036a(jetbrains.mps.lang.smodel.runtime)" />
+          <module ref="8fe4c62a-2020-4ff4-8eda-f322a55bdc9f(jetbrains.mps.refactoring.runtime)" />
+        </dependencies>
+      </module>
+    </echoxml>
+    <jar destfile="${build.layout}/mps-build-deprecated/languages/build/jetbrains.mps.bash#6382090206697067824.jar">
+      <fileset dir="${build.tmp}/java/out/jetbrains.mps.bash#6382090206697067824" />
+      <fileset dir="${build.tmp}/default/jetbrains.mps.bash#6382090206697067824.jar" />
+    </jar>
     <mkdir dir="${build.layout}/mps-build-deprecated/languages" />
     <mkdir dir="${build.layout}/mps-build-deprecated/languages/xml" />
     <mkdir dir="${build.tmp}/default/jetbrains.mps.xml.deprecated.jar" />
@@ -330,7 +400,7 @@
     <delete dir="${build.layout}" />
   </target>
   
-  <target name="compileJava" depends="java.compile.java.modules.cycle.1, java.compile.jetbrains.mps.buildlanguage, java.compile.jetbrains.mps.buildlanguage#1197036391807, java.compile.jetbrains.mps.build.generictasks, java.compile.jetbrains.mps.build.generictasks#683020775182432297, java.compile.jetbrains.mps.build.property, java.compile.jetbrains.mps.build.property#1224602648191, java.compile.jetbrains.mps.xml.deprecated, java.compile.jetbrains.mps.xml.deprecated#1129923280838" />
+  <target name="compileJava" depends="java.compile.java.modules.cycle.1, java.compile.jetbrains.mps.buildlanguage, java.compile.jetbrains.mps.buildlanguage#1197036391807, java.compile.jetbrains.mps.build.generictasks, java.compile.jetbrains.mps.build.generictasks#683020775182432297, java.compile.jetbrains.mps.build.property, java.compile.jetbrains.mps.build.property#1224602648191, java.compile.jetbrains.mps.bash, java.compile.jetbrains.mps.bash#6382090206697067824, java.compile.jetbrains.mps.xml.deprecated, java.compile.jetbrains.mps.xml.deprecated#1129923280838" />
   
   <target name="processResources" />
   
@@ -404,6 +474,8 @@
       <library file="${artifacts.mpsCore}/mps-core/languages/gtext/jetbrains.mps.gtext.jar" />
       <library file="${artifacts.mpsCore}/mps-core/languages/gtext/jetbrains.mps.gtext.runtime.jar" />
       <chunk>
+        <module file="${mps_home}/plugins/mps-build-deprecated/languages/bash/jetbrains.mps.bash.mpl" />
+        <module file="" />
         <module file="${mps_home}/plugins/mps-build-deprecated/languages/xmlDeprecated/jetbrains.mps.xml.deprecated.mpl" />
         <module file="" />
       </chunk>
@@ -758,6 +830,92 @@
     </copy>
   </target>
   
+  <target name="java.compile.jetbrains.mps.bash" depends="fetchDependencies">
+    <mkdir dir="${build.tmp}/java/out/jetbrains.mps.bash" />
+    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.bash" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true">
+      <compilerarg value="-Xlint:none" />
+      <src>
+        <path location="${mps_home}/plugins/mps-build-deprecated/languages/bash/source_gen" />
+      </src>
+      <classpath>
+        <fileset file="${artifacts.mpsBootstrapCore}/lib/mps-openapi.jar" />
+        <fileset file="${artifacts.mpsBootstrapCore}/lib/mps-closures.jar" />
+        <fileset file="${artifacts.mpsBootstrapCore}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mpsBootstrapCore}/lib/mps-tuples.jar" />
+        <fileset file="${artifacts.mpsBootstrapCore}/lib/mps-core.jar" />
+        <fileset file="${artifacts.mpsBootstrapCore}/lib/mps-editor-api.jar" />
+        <fileset file="${artifacts.mpsBootstrapCore}/lib/mps-editor-runtime.jar" />
+        <fileset file="${artifacts.mpsBootstrapCore}/lib/mps-editor.jar" />
+        <fileset file="${artifacts.mpsBootstrapCore}/lib/mps-platform.jar" />
+        <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
+        <fileset file="${artifacts.IDEA}/lib/log4j.jar" />
+        <fileset file="${artifacts.IDEA}/lib/jdom.jar" />
+        <fileset file="${artifacts.IDEA}/lib/ecj-4.2.1.jar" />
+        <fileset file="${artifacts.IDEA}/lib/trove4j.jar" />
+        <fileset file="${artifacts.IDEA}/lib/xstream-1.4.3.jar" />
+        <fileset file="${artifacts.IDEA}/lib/asm4-all.jar" />
+        <fileset file="${artifacts.mpsBootstrapCore}/lib/diffutils-1.2.1.jar" />
+        <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
+        <fileset file="${artifacts.mpsBootstrapCore}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
+        <fileset file="${artifacts.mpsBootstrapCore}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
+        <fileset file="${artifacts.mpsBootstrapCore}/languages/baseLanguage/jetbrains.mps.baseLanguage.regexp.runtime.jar" />
+        <fileset file="${artifacts.mpsBootstrapCore}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
+        <fileset file="${artifacts.mpsCore}/mps-core/languages/gtext/jetbrains.mps.gtext.jar" />
+        <fileset file="${artifacts.mpsCore}/mps-core/languages/gtext/jetbrains.mps.gtext.runtime.jar" />
+        <fileset file="${artifacts.mpsBootstrapCore}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
+        <fileset file="${artifacts.mpsBootstrapCore}/languages/languageDesign/jetbrains.mps.lang.smodel.runtime.jar" />
+        <fileset file="${artifacts.mpsBootstrapCore}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
+        <path refid="path.jdk.classpath" />
+      </classpath>
+    </javac2>
+    <copy todir="${build.tmp}/java/out/jetbrains.mps.bash">
+      <fileset dir="${mps_home}/plugins/mps-build-deprecated/languages/bash/source_gen" includes="**/*.properties, **/*.xml, **/*.html, **/*.png, **/*.txt, **/*.ico, **/*.zip, **/*.info" />
+    </copy>
+  </target>
+  
+  <target name="java.compile.jetbrains.mps.bash#6382090206697067824" depends="java.compile.jetbrains.mps.bash, fetchDependencies">
+    <mkdir dir="${build.tmp}/java/out/jetbrains.mps.bash#6382090206697067824" />
+    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.bash#6382090206697067824" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true">
+      <compilerarg value="-Xlint:none" />
+      <src>
+        <path location="${mps_home}/plugins/mps-build-deprecated/languages/bash/generator/source_gen" />
+      </src>
+      <classpath>
+        <fileset file="${artifacts.mpsBootstrapCore}/lib/mps-openapi.jar" />
+        <fileset file="${artifacts.mpsBootstrapCore}/lib/mps-closures.jar" />
+        <fileset file="${artifacts.mpsBootstrapCore}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mpsBootstrapCore}/lib/mps-tuples.jar" />
+        <fileset file="${artifacts.mpsBootstrapCore}/lib/mps-core.jar" />
+        <fileset file="${artifacts.mpsBootstrapCore}/lib/mps-editor-api.jar" />
+        <fileset file="${artifacts.mpsBootstrapCore}/lib/mps-editor-runtime.jar" />
+        <fileset file="${artifacts.mpsBootstrapCore}/lib/mps-editor.jar" />
+        <fileset file="${artifacts.mpsBootstrapCore}/lib/mps-platform.jar" />
+        <pathelement path="${build.tmp}/java/out/jetbrains.mps.bash" />
+        <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
+        <fileset file="${artifacts.IDEA}/lib/log4j.jar" />
+        <fileset file="${artifacts.IDEA}/lib/jdom.jar" />
+        <fileset file="${artifacts.IDEA}/lib/ecj-4.2.1.jar" />
+        <fileset file="${artifacts.IDEA}/lib/trove4j.jar" />
+        <fileset file="${artifacts.IDEA}/lib/xstream-1.4.3.jar" />
+        <fileset file="${artifacts.IDEA}/lib/asm4-all.jar" />
+        <fileset file="${artifacts.mpsBootstrapCore}/lib/diffutils-1.2.1.jar" />
+        <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
+        <fileset file="${artifacts.mpsBootstrapCore}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
+        <fileset file="${artifacts.mpsBootstrapCore}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
+        <fileset file="${artifacts.mpsBootstrapCore}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
+        <fileset file="${artifacts.mpsCore}/mps-core/languages/gtext/jetbrains.mps.gtext.jar" />
+        <fileset file="${artifacts.mpsCore}/mps-core/languages/gtext/jetbrains.mps.gtext.runtime.jar" />
+        <fileset file="${artifacts.mpsBootstrapCore}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
+        <fileset file="${artifacts.mpsBootstrapCore}/languages/languageDesign/jetbrains.mps.lang.smodel.runtime.jar" />
+        <fileset file="${artifacts.mpsBootstrapCore}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
+        <path refid="path.jdk.classpath" />
+      </classpath>
+    </javac2>
+    <copy todir="${build.tmp}/java/out/jetbrains.mps.bash#6382090206697067824">
+      <fileset dir="${mps_home}/plugins/mps-build-deprecated/languages/bash/generator/source_gen" includes="**/*.properties, **/*.xml, **/*.html, **/*.png, **/*.txt, **/*.ico, **/*.zip, **/*.info" />
+    </copy>
+  </target>
+  
   <target name="java.compile.jetbrains.mps.xml.deprecated" depends="fetchDependencies">
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.xml.deprecated" />
     <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.xml.deprecated" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true">
@@ -832,6 +990,8 @@
   </target>
   
   <target name="cleanSources">
+    <delete dir="${mps_home}/plugins/mps-build-deprecated/languages/bash/source_gen" />
+    <delete dir="${mps_home}/plugins/mps-build-deprecated/languages/bash/generator/source_gen" />
     <delete dir="${mps_home}/plugins/mps-build-deprecated/languages/xmlDeprecated/source_gen" />
     <delete dir="${mps_home}/plugins/mps-build-deprecated/languages/xmlDeprecated/generator/source_gen" />
     <delete dir="${mps_home}/plugins/mps-build-deprecated/languages/generictasks/generator/source_gen" />
