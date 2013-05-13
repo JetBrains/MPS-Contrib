@@ -357,7 +357,6 @@
       <modulePath path="$PROJECT_DIR$/plugins/mpsjava/testsolution/jetbrains.mps.ide.java.testMaterial.msd" folder="plugins.mpsjava" />
       <modulePath path="$PROJECT_DIR$/plugins/mpsjava/workbench/jetbrains.mps.ide.java.msd" folder="plugins.mpsjava" />
       <modulePath path="$PROJECT_DIR$/plugins/mpsmake/solution/jetbrains.mps.ide.make.msd" folder="plugins" />
-      <modulePath path="$PROJECT_DIR$/plugins/samples/jetbrains.mps.samples.msd" folder="samples" />
       <modulePath path="$PROJECT_DIR$/plugins/vcs-core/core/jetbrains.mps.ide.vcs.core.msd" folder="plugins.vcs" />
       <modulePath path="$PROJECT_DIR$/plugins/vcs/common/jetbrains.mps.ide.vcs.platform.msd" folder="plugins.vcs" />
       <modulePath path="$PROJECT_DIR$/plugins/vcs/jetbrains.mps.ide.vcs.msd" folder="plugins.vcs" />
