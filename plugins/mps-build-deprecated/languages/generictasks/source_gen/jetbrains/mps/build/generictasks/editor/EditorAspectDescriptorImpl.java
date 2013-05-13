@@ -37,7 +37,7 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
   public Collection<ConceptEditorComponent> getEditorComponents(ConceptDescriptor descriptor, String editorComponentId) {
     switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0b, descriptor.getConceptFqName())) {
       case 0:
-        if ("Attribute_EditorComponent".equals(editorComponentId)) {
+        if ("jetbrains.mps.build.generictasks.editor.Attribute_EditorComponent".equals(editorComponentId)) {
           return Collections.<ConceptEditorComponent>singletonList(new Attribute_EditorComponent(null));
         }
         break;
@@ -67,7 +67,7 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
   }
 
   private static String[] stringSwitchCases_xbvbvu_a0a0a = new String[]{"jetbrains.mps.build.generictasks.structure.Attribute", "jetbrains.mps.build.generictasks.structure.AttributeDeclaration", "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration", "jetbrains.mps.build.generictasks.structure.NestedDeclaration", "jetbrains.mps.build.generictasks.structure.PathReference", "jetbrains.mps.build.generictasks.structure.TaskCall", "jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration", "jetbrains.mps.build.generictasks.structure.TaskReference"};
-  private static String[] stringSwitchCases_xbvbvu_a0a0b0a1 = new String[]{"GenericAttributeDeclarationInEnum_EditorComponent", "GenericAttributeDeclaration_EditorComponent"};
-  private static String[] stringSwitchCases_xbvbvu_a0a0c0a1 = new String[]{"TaskDeclarationAttributes_EditorComponent", "TaskDeclarationHeader_EditorComponent", "TaskDeclarationInspector_EditorComponent"};
+  private static String[] stringSwitchCases_xbvbvu_a0a0b0a1 = new String[]{"jetbrains.mps.build.generictasks.editor.GenericAttributeDeclarationInEnum_EditorComponent", "jetbrains.mps.build.generictasks.editor.GenericAttributeDeclaration_EditorComponent"};
+  private static String[] stringSwitchCases_xbvbvu_a0a0c0a1 = new String[]{"jetbrains.mps.build.generictasks.editor.TaskDeclarationAttributes_EditorComponent", "jetbrains.mps.build.generictasks.editor.TaskDeclarationHeader_EditorComponent", "jetbrains.mps.build.generictasks.editor.TaskDeclarationInspector_EditorComponent"};
   private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"jetbrains.mps.build.generictasks.structure.Attribute", "jetbrains.mps.build.generictasks.structure.AttributeDeclaration", "jetbrains.mps.build.generictasks.structure.ITaskDeclaration"};
 }
