@@ -260,13 +260,13 @@
       <modulePath path="$PROJECT_DIR$/plugins/ideaIntegration/jetbrains.mps.ideaIntegration.msd" folder="plugins" />
       <modulePath path="$PROJECT_DIR$/plugins/migration25/solution/jetbrains.mps.ide.migration25.msd" folder="plugins" />
       <modulePath path="$PROJECT_DIR$/plugins/modelchecker/solution/jetbrains.mps.ide.modelchecker.msd" folder="plugins" />
+      <modulePath path="$PROJECT_DIR$/plugins/mps-build-deprecated/languages/bash/jetbrains.mps.bash.mpl" folder="languages.build" />
+      <modulePath path="$PROJECT_DIR$/plugins/mps-build-deprecated/languages/bash/sandbox/jetbrains.mps.bash.sandbox.msd" folder="languages.build" />
       <modulePath path="$PROJECT_DIR$/plugins/mps-build-deprecated/languages/buildlanguage/jetbrains.mps.buildlanguage.mpl" folder="languages.build" />
       <modulePath path="$PROJECT_DIR$/plugins/mps-build-deprecated/languages/generictasks/jetbrains.mps.build.generictasks.mpl" folder="languages.build" />
       <modulePath path="$PROJECT_DIR$/plugins/mps-build-deprecated/languages/property/jetbrains.mps.build.property.mpl" folder="languages.build" />
       <modulePath path="$PROJECT_DIR$/plugins/mps-build-deprecated/languages/xmlDeprecated/jetbrains.mps.xml.deprecated.mpl" folder="languages.xml" />
       <modulePath path="$PROJECT_DIR$/plugins/mps-build-deprecated/languages/xmlDeprecated/solutions/jetbrains.mps.xml.sandbox/jetbrains.mps.xml.sandbox.msd" folder="languages.xml" />
-      <modulePath path="$PROJECT_DIR$/plugins/mps-build/languages/bash/jetbrains.mps.bash.mpl" folder="build" />
-      <modulePath path="$PROJECT_DIR$/plugins/mps-build/languages/bash/sandbox/jetbrains.mps.bash.sandbox.msd" folder="build" />
       <modulePath path="$PROJECT_DIR$/plugins/mps-build/languages/build.mps/jetbrains.mps.build.mps.mpl" folder="build" />
       <modulePath path="$PROJECT_DIR$/plugins/mps-build/languages/build.startup/jetbrains.mps.build.startup.mpl" folder="build" />
       <modulePath path="$PROJECT_DIR$/plugins/mps-build/languages/build.workflow/jetbrains.mps.build.workflow.mpl" folder="build" />
