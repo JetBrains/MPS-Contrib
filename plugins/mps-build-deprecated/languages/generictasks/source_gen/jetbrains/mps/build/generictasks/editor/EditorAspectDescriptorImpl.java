@@ -38,26 +38,26 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
     switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0b, descriptor.getConceptFqName())) {
       case 0:
         if ("jetbrains.mps.build.generictasks.editor.Attribute_EditorComponent".equals(editorComponentId)) {
-          return Collections.<ConceptEditorComponent>singletonList(new Attribute_EditorComponent(null));
+          return Collections.<ConceptEditorComponent>singletonList(new Attribute_EditorComponent());
         }
         break;
       case 1:
         switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0b0a1, editorComponentId)) {
           case 0:
-            return Collections.<ConceptEditorComponent>singletonList(new GenericAttributeDeclarationInEnum_EditorComponent(null));
+            return Collections.<ConceptEditorComponent>singletonList(new GenericAttributeDeclarationInEnum_EditorComponent());
           case 1:
-            return Collections.<ConceptEditorComponent>singletonList(new GenericAttributeDeclaration_EditorComponent(null));
+            return Collections.<ConceptEditorComponent>singletonList(new GenericAttributeDeclaration_EditorComponent());
           default:
         }
         break;
       case 2:
         switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0c0a1, editorComponentId)) {
           case 0:
-            return Collections.<ConceptEditorComponent>singletonList(new TaskDeclarationAttributes_EditorComponent(null));
+            return Collections.<ConceptEditorComponent>singletonList(new TaskDeclarationAttributes_EditorComponent());
           case 1:
-            return Collections.<ConceptEditorComponent>singletonList(new TaskDeclarationHeader_EditorComponent(null));
+            return Collections.<ConceptEditorComponent>singletonList(new TaskDeclarationHeader_EditorComponent());
           case 2:
-            return Collections.<ConceptEditorComponent>singletonList(new TaskDeclarationInspector_EditorComponent(null));
+            return Collections.<ConceptEditorComponent>singletonList(new TaskDeclarationInspector_EditorComponent());
           default:
         }
         break;

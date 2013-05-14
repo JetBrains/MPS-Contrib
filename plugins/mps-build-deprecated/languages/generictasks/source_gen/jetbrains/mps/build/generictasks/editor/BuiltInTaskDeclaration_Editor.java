@@ -7,7 +7,6 @@ import jetbrains.mps.openapi.editor.cells.EditorCell;
 import jetbrains.mps.openapi.editor.EditorContext;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
-import jetbrains.mps.nodeEditor.AbstractCellProvider;
 import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
@@ -43,8 +42,7 @@ public class BuiltInTaskDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createComponent_5jjl7x_a0(EditorContext editorContext, SNode node) {
-    AbstractCellProvider provider = new TaskDeclarationHeader_EditorComponent(node);
-    EditorCell editorCell = provider.createEditorCell(editorContext);
+    EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.build.generictasks.editor.TaskDeclarationHeader_EditorComponent");
     return editorCell;
   }
 
@@ -65,8 +63,7 @@ public class BuiltInTaskDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createComponent_5jjl7x_b1a(EditorContext editorContext, SNode node) {
-    AbstractCellProvider provider = new TaskDeclarationAttributes_EditorComponent(node);
-    EditorCell editorCell = provider.createEditorCell(editorContext);
+    EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.build.generictasks.editor.TaskDeclarationAttributes_EditorComponent");
     return editorCell;
   }
 
@@ -188,8 +185,7 @@ public class BuiltInTaskDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createComponent_5jjl7x_a0_0(EditorContext editorContext, SNode node) {
-    AbstractCellProvider provider = new TaskDeclarationInspector_EditorComponent(node);
-    EditorCell editorCell = provider.createEditorCell(editorContext);
+    EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.build.generictasks.editor.TaskDeclarationInspector_EditorComponent");
     return editorCell;
   }
 

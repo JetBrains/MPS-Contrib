@@ -86,19 +86,19 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
     switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0b, descriptor.getConceptFqName())) {
       case 0:
         if ("jetbrains.mps.execution.configurations.deprecated.editor.ConfigurationEditorDeclaration_BasicEditor".equals(editorComponentId)) {
-          return Collections.<ConceptEditorComponent>singletonList(new ConfigurationEditorDeclaration_BasicEditor(null));
+          return Collections.<ConceptEditorComponent>singletonList(new ConfigurationEditorDeclaration_BasicEditor());
         }
         break;
       case 1:
         switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0b0a1, editorComponentId)) {
           case 0:
-            return Collections.<ConceptEditorComponent>singletonList(new RunConfigurationBody(null));
+            return Collections.<ConceptEditorComponent>singletonList(new RunConfigurationBody());
           case 1:
-            return Collections.<ConceptEditorComponent>singletonList(new RunConfigurationHeader(null));
+            return Collections.<ConceptEditorComponent>singletonList(new RunConfigurationHeader());
           case 2:
-            return Collections.<ConceptEditorComponent>singletonList(new RunConfigurationMethods(null));
+            return Collections.<ConceptEditorComponent>singletonList(new RunConfigurationMethods());
           case 3:
-            return Collections.<ConceptEditorComponent>singletonList(new RunConfigurationPresentation(null));
+            return Collections.<ConceptEditorComponent>singletonList(new RunConfigurationPresentation());
           default:
         }
         break;

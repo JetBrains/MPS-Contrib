@@ -16,7 +16,6 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
-import jetbrains.mps.nodeEditor.AbstractCellProvider;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
 
 public class AttributeDeclaration_Editor extends DefaultNodeEditor {
@@ -88,8 +87,7 @@ public class AttributeDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createComponent_vddsqv_d0(EditorContext editorContext, SNode node) {
-    AbstractCellProvider provider = new GenericAttributeDeclarationInEnum_EditorComponent(node);
-    EditorCell editorCell = provider.createEditorCell(editorContext);
+    EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.build.generictasks.editor.GenericAttributeDeclarationInEnum_EditorComponent");
     return editorCell;
   }
 
@@ -101,8 +99,7 @@ public class AttributeDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createComponent_vddsqv_f0(EditorContext editorContext, SNode node) {
-    AbstractCellProvider provider = new GenericAttributeDeclaration_EditorComponent(node);
-    EditorCell editorCell = provider.createEditorCell(editorContext);
+    EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.build.generictasks.editor.GenericAttributeDeclaration_EditorComponent");
     return editorCell;
   }
 
@@ -169,14 +166,12 @@ public class AttributeDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createComponent_vddsqv_b0(EditorContext editorContext, SNode node) {
-    AbstractCellProvider provider = new GenericAttributeDeclaration_EditorComponent(node);
-    EditorCell editorCell = provider.createEditorCell(editorContext);
+    EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.build.generictasks.editor.GenericAttributeDeclaration_EditorComponent");
     return editorCell;
   }
 
   private EditorCell createComponent_vddsqv_c0(EditorContext editorContext, SNode node) {
-    AbstractCellProvider provider = new GenericAttributeDeclarationInEnum_EditorComponent(node);
-    EditorCell editorCell = provider.createEditorCell(editorContext);
+    EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.build.generictasks.editor.GenericAttributeDeclarationInEnum_EditorComponent");
     return editorCell;
   }
 

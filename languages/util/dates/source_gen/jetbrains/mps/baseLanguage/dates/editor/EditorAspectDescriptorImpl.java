@@ -134,7 +134,7 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
     switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0b, descriptor.getConceptFqName())) {
       case 0:
         if ("jetbrains.mps.baseLanguage.dates.editor.WithProperty_component".equals(editorComponentId)) {
-          return Collections.<ConceptEditorComponent>singletonList(new WithProperty_component(null));
+          return Collections.<ConceptEditorComponent>singletonList(new WithProperty_component());
         }
         break;
       default:

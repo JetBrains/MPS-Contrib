@@ -4504,123 +4504,121 @@
     <unitInfo nodeId="1238677627618" fileName="DatesInternal_StyleSheet.java" startLine="11" startPosition="0" endLine="34" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.editor.DatesInternal_StyleSheet" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903dc(jetbrains.mps.baseLanguage.datesInternal.editor)/34521615669325569">
-    <nodeInfo nodeId="34521615669325569" fileName="PredefinedPeriodFormat_Editor.java" startLine="23" startPosition="79" endLine="24" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="34521615669325569" fileName="PredefinedPeriodFormat_Editor.java" startLine="27" startPosition="89" endLine="28" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="34521615669325569" fileName="PredefinedPeriodFormat_Editor.java" startLine="28" startPosition="96" endLine="29" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="34521615669325569" fileName="PredefinedPeriodFormat_Editor.java" startLine="29" startPosition="48" endLine="30" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="34521615669325569" fileName="PredefinedPeriodFormat_Editor.java" startLine="30" startPosition="28" endLine="31" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="34521615669325569" fileName="PredefinedPeriodFormat_Editor.java" startLine="30" startPosition="28" endLine="31" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="34521615669325569" fileName="PredefinedPeriodFormat_Editor.java" startLine="31" startPosition="82" endLine="32" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="34521615669325569" fileName="PredefinedPeriodFormat_Editor.java" startLine="31" startPosition="82" endLine="32" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="34521615669325569" fileName="PredefinedPeriodFormat_Editor.java" startLine="32" startPosition="81" endLine="33" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="34521615669325569" fileName="PredefinedPeriodFormat_Editor.java" startLine="32" startPosition="81" endLine="33" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="34521615669325569" fileName="PredefinedPeriodFormat_Editor.java" startLine="33" startPosition="81" endLine="34" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="34521615669325569" fileName="PredefinedPeriodFormat_Editor.java" startLine="33" startPosition="81" endLine="34" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="34521615669325569" fileName="PredefinedPeriodFormat_Editor.java" startLine="34" startPosition="80" endLine="35" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2886182022232399966" fileName="PredefinedPeriodFormat_Editor.java" startLine="38" startPosition="89" endLine="39" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2886182022232399966" fileName="PredefinedPeriodFormat_Editor.java" startLine="39" startPosition="67" endLine="40" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2886182022232399966" fileName="PredefinedPeriodFormat_Editor.java" startLine="40" startPosition="69" endLine="41" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2886182022232399966" fileName="PredefinedPeriodFormat_Editor.java" startLine="41" startPosition="34" endLine="42" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2886182022232399966" fileName="PredefinedPeriodFormat_Editor.java" startLine="42" startPosition="65" endLine="43" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2886182022232399966" fileName="PredefinedPeriodFormat_Editor.java" startLine="43" startPosition="40" endLine="44" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="34521615669492245" fileName="PredefinedPeriodFormat_Editor.java" startLine="47" startPosition="88" endLine="48" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="34521615669492245" fileName="PredefinedPeriodFormat_Editor.java" startLine="48" startPosition="82" endLine="49" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="34521615669492245" fileName="PredefinedPeriodFormat_Editor.java" startLine="49" startPosition="29" endLine="50" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="34521615669492245" fileName="PredefinedPeriodFormat_Editor.java" startLine="50" startPosition="42" endLine="51" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="34521615669492245" fileName="PredefinedPeriodFormat_Editor.java" startLine="51" startPosition="26" endLine="52" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="34521615669492245" fileName="PredefinedPeriodFormat_Editor.java" startLine="52" startPosition="58" endLine="53" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="34521615669492245" fileName="PredefinedPeriodFormat_Editor.java" startLine="53" startPosition="42" endLine="54" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="34521615669492245" fileName="PredefinedPeriodFormat_Editor.java" startLine="54" startPosition="73" endLine="55" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="34521615669492245" fileName="PredefinedPeriodFormat_Editor.java" startLine="55" startPosition="57" endLine="56" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="34521615669492245" fileName="PredefinedPeriodFormat_Editor.java" startLine="57" startPosition="35" endLine="58" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="34521615669492245" fileName="PredefinedPeriodFormat_Editor.java" startLine="58" startPosition="72" endLine="59" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="34521615669492245" fileName="PredefinedPeriodFormat_Editor.java" startLine="59" startPosition="78" endLine="60" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="34521615669492245" fileName="PredefinedPeriodFormat_Editor.java" startLine="61" startPosition="10" endLine="62" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="34521615669492248" fileName="PredefinedPeriodFormat_Editor.java" startLine="65" startPosition="88" endLine="66" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="34521615669492248" fileName="PredefinedPeriodFormat_Editor.java" startLine="66" startPosition="87" endLine="67" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="34521615669492248" fileName="PredefinedPeriodFormat_Editor.java" startLine="67" startPosition="47" endLine="68" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="34521615669492248" fileName="PredefinedPeriodFormat_Editor.java" startLine="68" startPosition="34" endLine="69" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="34521615669325577" fileName="PredefinedPeriodFormat_Editor.java" startLine="72" startPosition="87" endLine="73" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="34521615669325577" fileName="PredefinedPeriodFormat_Editor.java" startLine="73" startPosition="81" endLine="74" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="34521615669325577" fileName="PredefinedPeriodFormat_Editor.java" startLine="74" startPosition="34" endLine="75" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="34521615669325577" fileName="PredefinedPeriodFormat_Editor.java" startLine="75" startPosition="47" endLine="76" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="34521615669325577" fileName="PredefinedPeriodFormat_Editor.java" startLine="76" startPosition="26" endLine="77" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="34521615669325577" fileName="PredefinedPeriodFormat_Editor.java" startLine="77" startPosition="58" endLine="78" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="34521615669325577" fileName="PredefinedPeriodFormat_Editor.java" startLine="78" startPosition="73" endLine="79" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="34521615669325577" fileName="PredefinedPeriodFormat_Editor.java" startLine="79" startPosition="57" endLine="80" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="34521615669325577" fileName="PredefinedPeriodFormat_Editor.java" startLine="81" startPosition="35" endLine="82" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="34521615669325577" fileName="PredefinedPeriodFormat_Editor.java" startLine="82" startPosition="72" endLine="83" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="34521615669325577" fileName="PredefinedPeriodFormat_Editor.java" startLine="83" startPosition="78" endLine="84" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="34521615669325577" fileName="PredefinedPeriodFormat_Editor.java" startLine="85" startPosition="10" endLine="86" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="34521615669325569" fileName="PredefinedPeriodFormat_Editor.java" startLine="23" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="34521615669492245" fileName="PredefinedPeriodFormat_Editor.java" startLine="56" startPosition="59" endLine="62" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="34521615669492248" fileName="PredefinedPeriodFormat_Editor.java" startLine="65" startPosition="0" endLine="71" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_etikhz_c0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="34521615669325577" fileName="PredefinedPeriodFormat_Editor.java" startLine="80" startPosition="59" endLine="86" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="2886182022232399966" fileName="PredefinedPeriodFormat_Editor.java" startLine="38" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_etikhz_a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="34521615669325569" fileName="PredefinedPeriodFormat_Editor.java" startLine="27" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_etikhz_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="34521615669325577" fileName="PredefinedPeriodFormat_Editor.java" startLine="72" startPosition="0" endLine="88" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createRefNode_etikhz_d0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="34521615669492245" fileName="PredefinedPeriodFormat_Editor.java" startLine="47" startPosition="0" endLine="64" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createProperty_etikhz_b0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <scopeInfo nodeId="34521615669325569" fileName="PredefinedPeriodFormat_Editor.java" startLine="23" startPosition="79" endLine="24" endPosition="63" />
-    <scopeInfo nodeId="34521615669325569" fileName="PredefinedPeriodFormat_Editor.java" startLine="30" startPosition="28" endLine="31" endPosition="82" />
-    <scopeInfo nodeId="34521615669325569" fileName="PredefinedPeriodFormat_Editor.java" startLine="31" startPosition="82" endLine="32" endPosition="81" />
-    <scopeInfo nodeId="34521615669325569" fileName="PredefinedPeriodFormat_Editor.java" startLine="32" startPosition="81" endLine="33" endPosition="81" />
-    <scopeInfo nodeId="34521615669325569" fileName="PredefinedPeriodFormat_Editor.java" startLine="33" startPosition="81" endLine="34" endPosition="80" />
-    <scopeInfo nodeId="34521615669325569" fileName="PredefinedPeriodFormat_Editor.java" startLine="23" startPosition="0" endLine="26" endPosition="0">
+    <nodeInfo nodeId="34521615669325569" fileName="PredefinedPeriodFormat_Editor.java" startLine="21" startPosition="79" endLine="22" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="34521615669325569" fileName="PredefinedPeriodFormat_Editor.java" startLine="25" startPosition="89" endLine="26" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="34521615669325569" fileName="PredefinedPeriodFormat_Editor.java" startLine="26" startPosition="96" endLine="27" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="34521615669325569" fileName="PredefinedPeriodFormat_Editor.java" startLine="27" startPosition="48" endLine="28" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="34521615669325569" fileName="PredefinedPeriodFormat_Editor.java" startLine="28" startPosition="28" endLine="29" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="34521615669325569" fileName="PredefinedPeriodFormat_Editor.java" startLine="28" startPosition="28" endLine="29" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="34521615669325569" fileName="PredefinedPeriodFormat_Editor.java" startLine="29" startPosition="82" endLine="30" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="34521615669325569" fileName="PredefinedPeriodFormat_Editor.java" startLine="29" startPosition="82" endLine="30" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="34521615669325569" fileName="PredefinedPeriodFormat_Editor.java" startLine="30" startPosition="81" endLine="31" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="34521615669325569" fileName="PredefinedPeriodFormat_Editor.java" startLine="30" startPosition="81" endLine="31" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="34521615669325569" fileName="PredefinedPeriodFormat_Editor.java" startLine="31" startPosition="81" endLine="32" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="34521615669325569" fileName="PredefinedPeriodFormat_Editor.java" startLine="31" startPosition="81" endLine="32" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="34521615669325569" fileName="PredefinedPeriodFormat_Editor.java" startLine="32" startPosition="80" endLine="33" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2886182022232399966" fileName="PredefinedPeriodFormat_Editor.java" startLine="36" startPosition="89" endLine="37" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2886182022232399966" fileName="PredefinedPeriodFormat_Editor.java" startLine="37" startPosition="146" endLine="38" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2886182022232399966" fileName="PredefinedPeriodFormat_Editor.java" startLine="38" startPosition="34" endLine="39" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2886182022232399966" fileName="PredefinedPeriodFormat_Editor.java" startLine="39" startPosition="65" endLine="40" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2886182022232399966" fileName="PredefinedPeriodFormat_Editor.java" startLine="40" startPosition="40" endLine="41" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="34521615669492245" fileName="PredefinedPeriodFormat_Editor.java" startLine="44" startPosition="88" endLine="45" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="34521615669492245" fileName="PredefinedPeriodFormat_Editor.java" startLine="45" startPosition="82" endLine="46" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="34521615669492245" fileName="PredefinedPeriodFormat_Editor.java" startLine="46" startPosition="29" endLine="47" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="34521615669492245" fileName="PredefinedPeriodFormat_Editor.java" startLine="47" startPosition="42" endLine="48" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="34521615669492245" fileName="PredefinedPeriodFormat_Editor.java" startLine="48" startPosition="26" endLine="49" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="34521615669492245" fileName="PredefinedPeriodFormat_Editor.java" startLine="49" startPosition="58" endLine="50" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="34521615669492245" fileName="PredefinedPeriodFormat_Editor.java" startLine="50" startPosition="42" endLine="51" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="34521615669492245" fileName="PredefinedPeriodFormat_Editor.java" startLine="51" startPosition="73" endLine="52" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="34521615669492245" fileName="PredefinedPeriodFormat_Editor.java" startLine="52" startPosition="57" endLine="53" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="34521615669492245" fileName="PredefinedPeriodFormat_Editor.java" startLine="54" startPosition="35" endLine="55" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="34521615669492245" fileName="PredefinedPeriodFormat_Editor.java" startLine="55" startPosition="72" endLine="56" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="34521615669492245" fileName="PredefinedPeriodFormat_Editor.java" startLine="56" startPosition="78" endLine="57" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="34521615669492245" fileName="PredefinedPeriodFormat_Editor.java" startLine="58" startPosition="10" endLine="59" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="34521615669492248" fileName="PredefinedPeriodFormat_Editor.java" startLine="62" startPosition="88" endLine="63" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="34521615669492248" fileName="PredefinedPeriodFormat_Editor.java" startLine="63" startPosition="87" endLine="64" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="34521615669492248" fileName="PredefinedPeriodFormat_Editor.java" startLine="64" startPosition="47" endLine="65" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="34521615669492248" fileName="PredefinedPeriodFormat_Editor.java" startLine="65" startPosition="34" endLine="66" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="34521615669325577" fileName="PredefinedPeriodFormat_Editor.java" startLine="69" startPosition="87" endLine="70" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="34521615669325577" fileName="PredefinedPeriodFormat_Editor.java" startLine="70" startPosition="81" endLine="71" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="34521615669325577" fileName="PredefinedPeriodFormat_Editor.java" startLine="71" startPosition="34" endLine="72" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="34521615669325577" fileName="PredefinedPeriodFormat_Editor.java" startLine="72" startPosition="47" endLine="73" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="34521615669325577" fileName="PredefinedPeriodFormat_Editor.java" startLine="73" startPosition="26" endLine="74" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="34521615669325577" fileName="PredefinedPeriodFormat_Editor.java" startLine="74" startPosition="58" endLine="75" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="34521615669325577" fileName="PredefinedPeriodFormat_Editor.java" startLine="75" startPosition="73" endLine="76" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="34521615669325577" fileName="PredefinedPeriodFormat_Editor.java" startLine="76" startPosition="57" endLine="77" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="34521615669325577" fileName="PredefinedPeriodFormat_Editor.java" startLine="78" startPosition="35" endLine="79" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="34521615669325577" fileName="PredefinedPeriodFormat_Editor.java" startLine="79" startPosition="72" endLine="80" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="34521615669325577" fileName="PredefinedPeriodFormat_Editor.java" startLine="80" startPosition="78" endLine="81" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="34521615669325577" fileName="PredefinedPeriodFormat_Editor.java" startLine="82" startPosition="10" endLine="83" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="34521615669325569" fileName="PredefinedPeriodFormat_Editor.java" startLine="21" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="34521615669492245" fileName="PredefinedPeriodFormat_Editor.java" startLine="53" startPosition="59" endLine="59" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="34521615669492248" fileName="PredefinedPeriodFormat_Editor.java" startLine="62" startPosition="0" endLine="68" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_etikhz_c0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="34521615669325577" fileName="PredefinedPeriodFormat_Editor.java" startLine="77" startPosition="59" endLine="83" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="2886182022232399966" fileName="PredefinedPeriodFormat_Editor.java" startLine="36" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_etikhz_a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="34521615669325569" fileName="PredefinedPeriodFormat_Editor.java" startLine="25" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_etikhz_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="34521615669325577" fileName="PredefinedPeriodFormat_Editor.java" startLine="69" startPosition="0" endLine="85" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createRefNode_etikhz_d0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="34521615669492245" fileName="PredefinedPeriodFormat_Editor.java" startLine="44" startPosition="0" endLine="61" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createProperty_etikhz_b0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <scopeInfo nodeId="34521615669325569" fileName="PredefinedPeriodFormat_Editor.java" startLine="21" startPosition="79" endLine="22" endPosition="63" />
+    <scopeInfo nodeId="34521615669325569" fileName="PredefinedPeriodFormat_Editor.java" startLine="28" startPosition="28" endLine="29" endPosition="82" />
+    <scopeInfo nodeId="34521615669325569" fileName="PredefinedPeriodFormat_Editor.java" startLine="29" startPosition="82" endLine="30" endPosition="81" />
+    <scopeInfo nodeId="34521615669325569" fileName="PredefinedPeriodFormat_Editor.java" startLine="30" startPosition="81" endLine="31" endPosition="81" />
+    <scopeInfo nodeId="34521615669325569" fileName="PredefinedPeriodFormat_Editor.java" startLine="31" startPosition="81" endLine="32" endPosition="80" />
+    <scopeInfo nodeId="34521615669325569" fileName="PredefinedPeriodFormat_Editor.java" startLine="21" startPosition="0" endLine="24" endPosition="0">
       <varInfo nodeId="34521615669325569" varName="editorContext" />
       <varInfo nodeId="34521615669325569" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="34521615669492245" fileName="PredefinedPeriodFormat_Editor.java" startLine="57" startPosition="35" endLine="60" endPosition="105">
+    <scopeInfo nodeId="34521615669492245" fileName="PredefinedPeriodFormat_Editor.java" startLine="54" startPosition="35" endLine="57" endPosition="105">
       <varInfo nodeId="34521615669492245" varName="manager" />
       <varInfo nodeId="34521615669492245" varName="opContext" />
     </scopeInfo>
-    <scopeInfo nodeId="34521615669325577" fileName="PredefinedPeriodFormat_Editor.java" startLine="81" startPosition="35" endLine="84" endPosition="105">
+    <scopeInfo nodeId="34521615669325577" fileName="PredefinedPeriodFormat_Editor.java" startLine="78" startPosition="35" endLine="81" endPosition="105">
       <varInfo nodeId="34521615669325577" varName="manager" />
       <varInfo nodeId="34521615669325577" varName="opContext" />
     </scopeInfo>
-    <scopeInfo nodeId="34521615669492248" fileName="PredefinedPeriodFormat_Editor.java" startLine="65" startPosition="88" endLine="69" endPosition="22">
+    <scopeInfo nodeId="34521615669492248" fileName="PredefinedPeriodFormat_Editor.java" startLine="62" startPosition="88" endLine="66" endPosition="22">
       <varInfo nodeId="34521615669492248" varName="editorCell" />
     </scopeInfo>
-    <scopeInfo nodeId="2886182022232399966" fileName="PredefinedPeriodFormat_Editor.java" startLine="38" startPosition="89" endLine="44" endPosition="22">
+    <scopeInfo nodeId="2886182022232399966" fileName="PredefinedPeriodFormat_Editor.java" startLine="36" startPosition="89" endLine="41" endPosition="22">
       <varInfo nodeId="2886182022232399966" varName="editorCell" />
-      <varInfo nodeId="2886182022232399966" varName="provider" />
       <varInfo nodeId="2886182022232399966" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="34521615669492248" fileName="PredefinedPeriodFormat_Editor.java" startLine="65" startPosition="0" endLine="71" endPosition="0">
+    <scopeInfo nodeId="34521615669492248" fileName="PredefinedPeriodFormat_Editor.java" startLine="62" startPosition="0" endLine="68" endPosition="0">
       <varInfo nodeId="34521615669492248" varName="editorContext" />
       <varInfo nodeId="34521615669492248" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="34521615669325569" fileName="PredefinedPeriodFormat_Editor.java" startLine="27" startPosition="89" endLine="35" endPosition="22">
-      <varInfo nodeId="34521615669325569" varName="editorCell" />
-    </scopeInfo>
-    <scopeInfo nodeId="2886182022232399966" fileName="PredefinedPeriodFormat_Editor.java" startLine="38" startPosition="0" endLine="46" endPosition="0">
+    <scopeInfo nodeId="2886182022232399966" fileName="PredefinedPeriodFormat_Editor.java" startLine="36" startPosition="0" endLine="43" endPosition="0">
       <varInfo nodeId="2886182022232399966" varName="editorContext" />
       <varInfo nodeId="2886182022232399966" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="34521615669325569" fileName="PredefinedPeriodFormat_Editor.java" startLine="27" startPosition="0" endLine="37" endPosition="0">
+    <scopeInfo nodeId="34521615669325569" fileName="PredefinedPeriodFormat_Editor.java" startLine="25" startPosition="89" endLine="33" endPosition="22">
+      <varInfo nodeId="34521615669325569" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="34521615669325569" fileName="PredefinedPeriodFormat_Editor.java" startLine="25" startPosition="0" endLine="35" endPosition="0">
       <varInfo nodeId="34521615669325569" varName="editorContext" />
       <varInfo nodeId="34521615669325569" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="34521615669325577" fileName="PredefinedPeriodFormat_Editor.java" startLine="72" startPosition="87" endLine="86" endPosition="22">
+    <scopeInfo nodeId="34521615669325577" fileName="PredefinedPeriodFormat_Editor.java" startLine="69" startPosition="87" endLine="83" endPosition="22">
       <varInfo nodeId="34521615669325577" varName="attributeConcept" />
       <varInfo nodeId="34521615669325577" varName="attributeKind" />
       <varInfo nodeId="34521615669325577" varName="editorCell" />
       <varInfo nodeId="34521615669325577" varName="provider" />
     </scopeInfo>
-    <scopeInfo nodeId="34521615669492245" fileName="PredefinedPeriodFormat_Editor.java" startLine="47" startPosition="88" endLine="62" endPosition="22">
+    <scopeInfo nodeId="34521615669492245" fileName="PredefinedPeriodFormat_Editor.java" startLine="44" startPosition="88" endLine="59" endPosition="22">
       <varInfo nodeId="34521615669492245" varName="attributeConcept" />
       <varInfo nodeId="34521615669492245" varName="attributeKind" />
       <varInfo nodeId="34521615669492245" varName="editorCell" />
       <varInfo nodeId="34521615669492245" varName="provider" />
     </scopeInfo>
-    <scopeInfo nodeId="34521615669325577" fileName="PredefinedPeriodFormat_Editor.java" startLine="72" startPosition="0" endLine="88" endPosition="0">
+    <scopeInfo nodeId="34521615669325577" fileName="PredefinedPeriodFormat_Editor.java" startLine="69" startPosition="0" endLine="85" endPosition="0">
       <varInfo nodeId="34521615669325577" varName="editorContext" />
       <varInfo nodeId="34521615669325577" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="34521615669492245" fileName="PredefinedPeriodFormat_Editor.java" startLine="47" startPosition="0" endLine="64" endPosition="0">
+    <scopeInfo nodeId="34521615669492245" fileName="PredefinedPeriodFormat_Editor.java" startLine="44" startPosition="0" endLine="61" endPosition="0">
       <varInfo nodeId="34521615669492245" varName="editorContext" />
       <varInfo nodeId="34521615669492245" varName="node" />
     </scopeInfo>
-    <unitInfo nodeId="34521615669325569" fileName="PredefinedPeriodFormat_Editor.java" startLine="22" startPosition="0" endLine="89" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.editor.PredefinedPeriodFormat_Editor" />
+    <unitInfo nodeId="34521615669325569" fileName="PredefinedPeriodFormat_Editor.java" startLine="20" startPosition="0" endLine="86" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.editor.PredefinedPeriodFormat_Editor" />
   </root>
 </debugInfo>
 

@@ -10,7 +10,6 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
-import jetbrains.mps.nodeEditor.AbstractCellProvider;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.MPSFonts;
 import jetbrains.mps.smodel.IScope;
@@ -58,8 +57,7 @@ public class JavaNodeRunConfiguration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createComponent_oxce8e_a0a(EditorContext editorContext, SNode node) {
-    AbstractCellProvider provider = new RunConfigurationHeader(node);
-    EditorCell editorCell = provider.createEditorCell(editorContext);
+    EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.execution.configurations.deprecated.editor.RunConfigurationHeader");
     return editorCell;
   }
 
@@ -109,8 +107,7 @@ public class JavaNodeRunConfiguration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createComponent_oxce8e_a1b0(EditorContext editorContext, SNode node) {
-    AbstractCellProvider provider = new RunConfigurationPresentation(node);
-    EditorCell editorCell = provider.createEditorCell(editorContext);
+    EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.execution.configurations.deprecated.editor.RunConfigurationPresentation");
     return editorCell;
   }
 
@@ -272,14 +269,12 @@ public class JavaNodeRunConfiguration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createComponent_oxce8e_f1b0(EditorContext editorContext, SNode node) {
-    AbstractCellProvider provider = new RunConfigurationBody(node);
-    EditorCell editorCell = provider.createEditorCell(editorContext);
+    EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.execution.configurations.deprecated.editor.RunConfigurationBody");
     return editorCell;
   }
 
   private EditorCell createComponent_oxce8e_g1b0(EditorContext editorContext, SNode node) {
-    AbstractCellProvider provider = new RunConfigurationMethods(node);
-    EditorCell editorCell = provider.createEditorCell(editorContext);
+    EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.execution.configurations.deprecated.editor.RunConfigurationMethods");
     return editorCell;
   }
 

@@ -42,12 +42,12 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
     switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0b, descriptor.getConceptFqName())) {
       case 0:
         if ("jetbrains.mps.xml.editor.BaseElement_attributeList".equals(editorComponentId)) {
-          return Collections.<ConceptEditorComponent>singletonList(new BaseElement_attributeList(null));
+          return Collections.<ConceptEditorComponent>singletonList(new BaseElement_attributeList());
         }
         break;
       case 1:
         if ("jetbrains.mps.xml.editor.Element_elementDeclaration".equals(editorComponentId)) {
-          return Collections.<ConceptEditorComponent>singletonList(new Element_elementDeclaration(null));
+          return Collections.<ConceptEditorComponent>singletonList(new Element_elementDeclaration());
         }
         break;
       default:
