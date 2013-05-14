@@ -7,14 +7,7 @@
     <buildFile url="file://$PROJECT_DIR$/build/ideaPlatform.xml">
       <executeOn event="beforeCompilation" target="resolve" />
     </buildFile>
-    <buildFile url="file://$PROJECT_DIR$/build/test.xml">
-      <properties>
-        <property name="mps.zip.path" value="build/artifacts/mpsDistribution" />
-        <property name="build.number" value="MPS-117.SNAPSHOT" />
-        <property name="mps_home" value="$PROJECT_DIR$" />
-        <property name="version" value="3.0" />
-      </properties>
-    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/build/test.xml" />
     <buildFile url="file://$PROJECT_DIR$/testbench/modules/testAntTask/scripts/testAntTask/unpackAndTest/unpackAndTest.xml">
       <properties>
         <property name="mps.zip.path" value="build/artifacts/mpsDistribution" />
