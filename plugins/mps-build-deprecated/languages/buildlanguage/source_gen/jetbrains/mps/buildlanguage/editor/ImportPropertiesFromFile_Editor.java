@@ -44,6 +44,9 @@ public class ImportPropertiesFromFile_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no propertyFile>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("propertyFile");
+    }
     if (true) {
       editorCell.getStyle().set(StyleAttributes.FOCUS_POLICY, FocusPolicy.FIRST_EDITABLE_CELL);
     }

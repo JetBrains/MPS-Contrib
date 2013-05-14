@@ -55,6 +55,9 @@ public class GenericAttributeDeclarationInEnum_EditorComponent implements Concep
     provider.setNoTargetText("<no enum>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("enum");
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

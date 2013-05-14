@@ -103,6 +103,9 @@ public class DocumentTypeDeclaration_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no externalId>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("externalId");
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

@@ -73,6 +73,8 @@ public class Attribute_EditorComponent implements ConceptEditorComponent {
       super();
     }
 
+
+
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
     }
@@ -89,6 +91,10 @@ public class Attribute_EditorComponent implements ConceptEditorComponent {
       EditorCell editorCell;
       editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("property_name");
+      if (editorCell.getRole() == null) {
+        editorCell.setReferenceCell(true);
+        editorCell.setRole("attributeDeclaration");
+      }
       Style style = new StyleImpl();
       BuildLanguageStyle_StyleSheet.applyAttributeName(style, editorCell);
       editorCell.getStyle().putAll(style);
@@ -134,6 +140,8 @@ public class Attribute_EditorComponent implements ConceptEditorComponent {
       super();
     }
 
+
+
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
     }
@@ -150,6 +158,10 @@ public class Attribute_EditorComponent implements ConceptEditorComponent {
       EditorCell editorCell;
       editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("property_name_1");
+      if (editorCell.getRole() == null) {
+        editorCell.setReferenceCell(true);
+        editorCell.setRole("attributeDeclaration");
+      }
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();
       Class attributeKind = provider.getRoleAttributeClass();
@@ -179,6 +191,9 @@ public class Attribute_EditorComponent implements ConceptEditorComponent {
     provider.setNoTargetText("<no value>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("value");
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

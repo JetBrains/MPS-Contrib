@@ -165,6 +165,9 @@ public class TaskDeclarationInspector_EditorComponent implements ConceptEditorCo
     provider.setNoTargetText("<no parentRef>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("parentRef");
+    }
     Style style = new StyleImpl();
     BuildLanguageStyle_StyleSheet.applyTask(style, editorCell);
     editorCell.getStyle().putAll(style);

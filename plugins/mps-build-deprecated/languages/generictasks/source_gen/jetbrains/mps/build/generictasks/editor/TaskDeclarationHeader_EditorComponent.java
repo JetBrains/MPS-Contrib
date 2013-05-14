@@ -140,6 +140,9 @@ public class TaskDeclarationHeader_EditorComponent implements ConceptEditorCompo
     provider.setNoTargetText("<no parentRef>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("parentRef");
+    }
     Style style = new StyleImpl();
     BuildLanguageStyle_StyleSheet.applyTask(style, editorCell);
     editorCell.getStyle().putAll(style);

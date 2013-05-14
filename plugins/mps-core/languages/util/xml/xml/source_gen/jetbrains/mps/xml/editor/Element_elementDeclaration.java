@@ -60,6 +60,8 @@ public class Element_elementDeclaration implements ConceptEditorComponent {
       super();
     }
 
+
+
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
     }
@@ -83,6 +85,10 @@ public class Element_elementDeclaration implements ConceptEditorComponent {
       }, node);
       editorCell.setAction(CellActionType.DELETE, EmptyCellAction.getInstance());
       editorCell.setCellId("ReadOnlyModelAccessor_vbcaz4_a0a0");
+      if (editorCell.getRole() == null) {
+        editorCell.setReferenceCell(true);
+        editorCell.setRole("elementDeclaration");
+      }
       return editorCell;
     }
   }

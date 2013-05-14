@@ -37,6 +37,9 @@ public class JavaNodeConfigurationEditorDeclaration_Editor extends DefaultNodeEd
     provider.setNoTargetText("<no onChangeNodeBlock>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("onChangeNodeBlock");
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
