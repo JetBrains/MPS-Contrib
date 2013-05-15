@@ -121,6 +121,7 @@
     <classNode dependClassName="jetbrains.mps.buildlanguage.editor.TargetReferencePropertyValueExpression_Editor" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.editor.TargetReference_Editor" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.editor.XmlStringLiteral_Editor" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.EditorContextHint" />
     <classNode dependClassName="jetbrains.mps.openapi.editor.descriptor.ConceptEditor" />
     <classNode dependClassName="jetbrains.mps.openapi.editor.descriptor.ConceptEditorComponent" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.ConceptDescriptor" />

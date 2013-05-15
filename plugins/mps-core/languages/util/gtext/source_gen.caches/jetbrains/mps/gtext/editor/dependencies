@@ -30,6 +30,7 @@
     <classNode dependClassName="jetbrains.mps.gtext.editor.GSeparatorItemList_Editor" />
     <classNode dependClassName="jetbrains.mps.gtext.editor.GStatementItem_Editor" />
     <classNode dependClassName="jetbrains.mps.gtext.editor.GText_Editor" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.EditorContextHint" />
     <classNode dependClassName="jetbrains.mps.openapi.editor.descriptor.ConceptEditor" />
     <classNode dependClassName="jetbrains.mps.openapi.editor.descriptor.ConceptEditorComponent" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.ConceptDescriptor" />

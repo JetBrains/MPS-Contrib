@@ -90,6 +90,7 @@
     <classNode dependClassName="jetbrains.mps.build.generictasks.editor.TaskDeclarationInspector_EditorComponent" />
     <classNode dependClassName="jetbrains.mps.build.generictasks.editor.TaskInterfaceDeclaration_Editor" />
     <classNode dependClassName="jetbrains.mps.build.generictasks.editor.TaskReference_Editor" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.EditorContextHint" />
     <classNode dependClassName="jetbrains.mps.openapi.editor.descriptor.ConceptEditor" />
     <classNode dependClassName="jetbrains.mps.openapi.editor.descriptor.ConceptEditorComponent" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.ConceptDescriptor" />

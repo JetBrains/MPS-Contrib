@@ -210,6 +210,7 @@
     <classNode dependClassName="jetbrains.mps.baseLanguage.datesInternal.editor.PredefinedDateFormat_Editor" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.datesInternal.editor.PredefinedPeriodFormat_Editor" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.datesInternal.editor.SchedulePeriod_Editor" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.EditorContextHint" />
     <classNode dependClassName="jetbrains.mps.openapi.editor.descriptor.ConceptEditor" />
     <classNode dependClassName="jetbrains.mps.openapi.editor.descriptor.ConceptEditorComponent" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.ConceptDescriptor" />
