@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-aoo0emze67nfdv4ii0r7pya0gfk9fow">
+<dependencies version="2" modelHash="762zrnmhji8thvffqt4p3bv3nk1qrj2">
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
-  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-3oix0gm2cosksx5q7bcotftdn7n21nk" />
-  <dep model="r:00000000-0000-4000-0000-011c895902d8(jetbrains.mps.baseLanguage.unitTest.generator.baseLanguage.template.main@generator)" hash="-ctxvs1rpiiexlq8dltxstwmrdnqkuz7" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-7mxihkcc0vv2q7mmukrgbm8b18oc3tu" />
+  <dep model="r:00000000-0000-4000-0000-011c895902d8(jetbrains.mps.baseLanguage.unitTest.generator.baseLanguage.template.main@generator)" hash="dgtel9s427vm37iaz9u6ikq38xnt1eq" />
   <dep model="r:00000000-0000-4000-0000-011c895902de(jetbrains.mps.baseLanguage.blTypes.primitiveDescriptors)" />
-  <dep model="r:00000000-0000-4000-0000-011c8959032f(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.main@generator)" hash="e4aodjamafijmcm1ggq1itbjxjw4yyr" />
-  <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" hash="-5hwzidtifhzxzto4ufe7o07xsgqc589" />
-  <dep model="r:0556f5bf-4f71-4957-94d0-632c34bda241(jetbrains.mps.graphLayout.flowOrthogonalLayout)" hash="3ghatpsqlkydfa73s2w5u8eweg63u77" />
-  <dep model="r:1674ee60-7c44-4176-8f8c-2c87c767d971(sampleGraphs)" hash="-dl6abfl1gwdxzn5yergdvy4ary5imlq" />
-  <dep model="r:5498b4d6-623f-4d7c-a07f-396c96e14007(jetbrains.mps.graphLayout.intGeom2D)" hash="-35pr1do4p2p2wvmhi897ooctfd4os96" />
-  <dep model="r:6d741586-5996-4cd2-b3d3-7b04b7dd2971(jetbrains.mps.graphLayout.planarGraph)" hash="43wew640xudgqwaqek6um37wejwd3m8" />
-  <dep model="r:743960b6-b9c3-47d2-875e-55a0759ae6de(jetbrains.mps.graphLayout.internal.flowOrthogonalLayout)" hash="-6zspx75jg7f77hdahg6zwcu5lvk2ygz" />
-  <dep model="r:839ad18f-aa0d-4b1a-8b4c-ca87cf3bcac6(jetbrains.mps.graphLayout.graphLayout)" hash="25u8wj75xmy3ksvmfvp53f5y1cigr5f" />
-  <dep model="r:964bbf7c-f239-4721-836a-ba42f2f69703(visualization)" hash="8z2ewqdg7tjfitl7nnc0co8gvehmych" />
-  <dep model="r:c20b0f8c-abbe-4eb9-8b1f-6472cf6ea30c(jetbrains.mps.graphLayout.stOrthogonalLayout)" hash="3ti4rxi896vytd5t4xyt37ch4pa3byn" />
-  <dep model="r:d0ff68b2-4710-4f71-b818-0fa9dd95286e(jetbrains.mps.graphLayout.planarization)" hash="-82l5es9npbd45r3zq7x8ivq6xa6b8w0" />
-  <dep model="r:d1558b8f-fc9e-4ca7-bb90-70ac789f336e(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.post@generator)" hash="6pme6f8cr98yhjna02lpbqkg2n36ah5" />
-  <dep model="r:d228b8c9-d2b1-4686-9904-e3c49a346bc6(jetbrains.mps.graphLayout.graph)" hash="-1delddh4a3scprrlb67tmel3ziztski" />
-  <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" hash="7q8xdnha8al10c7e3cb1njh3bglwdb4" />
-  <common hash="-6lwd5i35nxnrmyxipmu8658eozgen8v" />
-  <source id="6984255766319282469" name="VisibilityRepresentation_Test" hash="-7fscm7g7v8q7hzsfhpoaf916pcubl4w">
+  <dep model="r:00000000-0000-4000-0000-011c8959032f(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.main@generator)" hash="-8xjteqk842ql8pbze16i68m1ajw21lk" />
+  <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" hash="59ea0wchjl1p3fmqjarzl02fje6rngu" />
+  <dep model="r:0556f5bf-4f71-4957-94d0-632c34bda241(jetbrains.mps.graphLayout.flowOrthogonalLayout)" hash="-89ysaaj97gzgqxqwda4vmsp5psqaoo5" />
+  <dep model="r:1674ee60-7c44-4176-8f8c-2c87c767d971(sampleGraphs)" hash="2y1uf3g1ftglla4ie66p1heaza7esjc" />
+  <dep model="r:5498b4d6-623f-4d7c-a07f-396c96e14007(jetbrains.mps.graphLayout.intGeom2D)" hash="-6ip9ml4wg4bwjanbons3wqibg8valrl" />
+  <dep model="r:6d741586-5996-4cd2-b3d3-7b04b7dd2971(jetbrains.mps.graphLayout.planarGraph)" hash="dhl1c1fmqngqi4g6jwzkclx8cx471pm" />
+  <dep model="r:743960b6-b9c3-47d2-875e-55a0759ae6de(jetbrains.mps.graphLayout.internal.flowOrthogonalLayout)" hash="-7us6pdw96ureyq62djkt5umk4ymzctj" />
+  <dep model="r:839ad18f-aa0d-4b1a-8b4c-ca87cf3bcac6(jetbrains.mps.graphLayout.graphLayout)" hash="-c44ps630bm6axfxnb7nd7qpmq1cg29n" />
+  <dep model="r:964bbf7c-f239-4721-836a-ba42f2f69703(visualization)" hash="2ybtk4gf27c3oec0w4broc6agkvaxhn" />
+  <dep model="r:c20b0f8c-abbe-4eb9-8b1f-6472cf6ea30c(jetbrains.mps.graphLayout.stOrthogonalLayout)" hash="1r1n1pvswd9h0k6kyzo78w03nc2mzpy" />
+  <dep model="r:d0ff68b2-4710-4f71-b818-0fa9dd95286e(jetbrains.mps.graphLayout.planarization)" hash="-c4p8kngrhxvcmbszj45ln0j21f5sr8e" />
+  <dep model="r:d1558b8f-fc9e-4ca7-bb90-70ac789f336e(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.post@generator)" hash="-2ndxdy2yylqxt61razyif42s9aj25s9" />
+  <dep model="r:d228b8c9-d2b1-4686-9904-e3c49a346bc6(jetbrains.mps.graphLayout.graph)" hash="bh3vzml3pkn2vdqdw8exjqonf2mktj3" />
+  <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" hash="30wpo2za1rc0zf5vwwy3fdx7rb6qejl" />
+  <common hash="9edoz9tpro4qkfbm7xrrbp5ylxjf5pm" />
+  <source id="6984255766319282469" name="VisibilityRepresentation_Test" hash="bzbunrzugm7ag3k2bane59gg5ssduel">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
@@ -35,12 +35,12 @@
     <dep model="r:d228b8c9-d2b1-4686-9904-e3c49a346bc6(jetbrains.mps.graphLayout.graph)" />
     <file name="VisibilityRepresentation_Test.java" />
   </source>
-  <source id="508819492464323617" name="OrthogonalFromVisibility_Test" hash="a8gjvadne614whxhzlxb6x9ibfvxa3v">
+  <source id="508819492464323617" name="OrthogonalFromVisibility_Test" hash="-88ptflw0oy3as5pqxinbtj086opaux2">
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902d8(jetbrains.mps.baseLanguage.unitTest.generator.baseLanguage.template.main@generator)" />
     <file name="OrthogonalFromVisibility_Test.java" />
   </source>
-  <source id="903391227141028133" name="ConstraintsSupporter_Test" hash="-cj2dh09ynwtc2mg8ha56ffclgrfzjhg">
+  <source id="903391227141028133" name="ConstraintsSupporter_Test" hash="e3759qpku481rfp1r44fsktsi9w3e1m">
     <dep root="903391227141028692" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
@@ -57,7 +57,7 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="ConstraintsSupporter_Test.java" />
   </source>
-  <source id="903391227141028692" name="ConstraintsChecker" hash="bt7bz0k84yf6wlelavl5c6m5qxodidy">
+  <source id="903391227141028692" name="ConstraintsChecker" hash="-bvc5e2kbgwh1gju4epsqweepqqmh621">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -68,7 +68,7 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="ConstraintsChecker.java" />
   </source>
-  <source id="7371029937982882760" name="RectOrthogonalLayouterStressTest" hash="3152f2dxieosplj0fln5jr32z53euw2">
+  <source id="7371029937982882760" name="RectOrthogonalLayouterStressTest" hash="7ejewrkoo413lbua12a6gn81pptyl56">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
@@ -81,7 +81,7 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="RectOrthogonalLayouterStressTest.java" />
   </source>
-  <source id="228830736476055337" name="OrthogonalRepresentationChecker" hash="-54shgbpuaq77yodh83i4hdcsdn7jv64">
+  <source id="228830736476055337" name="OrthogonalRepresentationChecker" hash="9dsj5sjjbao8bwzc34du9hcye65x1w7">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
@@ -95,14 +95,14 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="OrthogonalRepresentationChecker.java" />
   </source>
-  <source id="8734440518942960375" name="OrthogonalPointFlowLayouter_Test" hash="b8r203f2hv2oqoqewji248kfyzi0oef">
+  <source id="8734440518942960375" name="OrthogonalPointFlowLayouter_Test" hash="2xnlgqwez1a7alz7vrjq6qoibcmsaih">
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902d8(jetbrains.mps.baseLanguage.unitTest.generator.baseLanguage.template.main@generator)" />
     <dep model="r:839ad18f-aa0d-4b1a-8b4c-ca87cf3bcac6(jetbrains.mps.graphLayout.graphLayout)" />
     <dep model="r:d228b8c9-d2b1-4686-9904-e3c49a346bc6(jetbrains.mps.graphLayout.graph)" />
     <file name="OrthogonalPointFlowLayouter_Test.java" />
   </source>
-  <source id="8734440518943050540" name="OrthogonalPointFlowLayouterStressTest" hash="56qrq11yhrm5nielvkdshh02bcbwgnz">
+  <source id="8734440518943050540" name="OrthogonalPointFlowLayouterStressTest" hash="aqew0vi4meug5jc4o6tqej442xytfei">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
@@ -114,7 +114,7 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="OrthogonalPointFlowLayouterStressTest.java" />
   </source>
-  <source id="4422427343208739409" name="AmbiguityLayout_Test" hash="qn219s5x4l9y0pcmrll1y3qa5qrpi5">
+  <source id="4422427343208739409" name="AmbiguityLayout_Test" hash="-1wtqnphxv7puhiye3uqw9mt2dg95ybx">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -126,7 +126,7 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="AmbiguityLayout_Test.java" />
   </source>
-  <source id="4422427343208776753" name="RectOrthogonalLayouter_Test" hash="-ew1w3x22znxofnoxf53kv1nztj7wy5z">
+  <source id="4422427343208776753" name="RectOrthogonalLayouter_Test" hash="-ckjdt1eqp0fytkyqr3m7d0skuozug9x">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -138,7 +138,7 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="RectOrthogonalLayouter_Test.java" />
   </source>
-  <source id="5488345258545703420" name="OrthogonalLayoutChecker" hash="alglshwcnndpko3ct782uw1qaacqc82">
+  <source id="5488345258545703420" name="OrthogonalLayoutChecker" hash="-8upi95l0dbd0fkmzv69f3wharflqz9u">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -150,7 +150,7 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="OrthogonalLayoutChecker.java" />
   </source>
-  <source id="7428187320254612431" name="EmbeddedGraphModifier_Test" hash="50chdy1sgpzictw66qyg7zsn3xw04u7">
+  <source id="7428187320254612431" name="EmbeddedGraphModifier_Test" hash="-cd4hlf4pe8obrypw7gmepkssl26ohie">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -165,7 +165,7 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="EmbeddedGraphModifier_Test.java" />
   </source>
-  <source id="102129025687875550" name="RectOrthogonalFlowLayouter_Test" hash="c4zkju0sk4w4rgjdh39peums49wb3ue">
+  <source id="102129025687875550" name="RectOrthogonalFlowLayouter_Test" hash="d1pscd06bn6lx4wuieugcl32ydqe4do">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -177,7 +177,7 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="RectOrthogonalFlowLayouter_Test.java" />
   </source>
-  <source id="100801320082832729" name="QuasiOrthogonalRepresentation_Test" hash="9nlp150ydby33nc5g3ru84kee937xb1">
+  <source id="100801320082832729" name="QuasiOrthogonalRepresentation_Test" hash="2sx1h2kz6jb74x6indu5080z3t7i9eb">
     <dep root="228830736476055337" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
@@ -189,7 +189,7 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="QuasiOrthogonalRepresentation_Test.java" />
   </source>
-  <source id="7953585273260012257" name="QuasiOrthogonalRepresentationStressTest" hash="-6mlx1eyqjrf5376xbj0magafjnfs8e1">
+  <source id="7953585273260012257" name="QuasiOrthogonalRepresentationStressTest" hash="-155g4qlt1hg2v9dtd0qgglda9a4tqbb">
     <dep root="228830736476055337" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
@@ -200,7 +200,7 @@
     <dep model="r:d228b8c9-d2b1-4686-9904-e3c49a346bc6(jetbrains.mps.graphLayout.graph)" />
     <file name="QuasiOrthogonalRepresentationStressTest.java" />
   </source>
-  <source id="7861048744530895409" name="ConstraintsGraph_Test" hash="djr30tmeq2uhwh40s38qqcftoqxxh62">
+  <source id="7861048744530895409" name="ConstraintsGraph_Test" hash="epkkpttplahqyfxvhga87vjbrfcdlt3">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -214,7 +214,7 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="ConstraintsGraph_Test.java" />
   </source>
-  <source id="5728232039832716812" name="ConstraintsGraphStressTest" hash="3jxsemd91yv0xtsc9hcyf2i56ux9aj0">
+  <source id="5728232039832716812" name="ConstraintsGraphStressTest" hash="-dtt066iq7ayprjwo4y8rdba1z8k7bcr">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
@@ -226,7 +226,7 @@
     <dep model="r:d228b8c9-d2b1-4686-9904-e3c49a346bc6(jetbrains.mps.graphLayout.graph)" />
     <file name="ConstraintsGraphStressTest.java" />
   </source>
-  <source id="1465095823296810322" name="OrthogonalFlowLayouterConstraints_Test" hash="bocp562ifmhnwpnxgobf7cu8mazhw27">
+  <source id="1465095823296810322" name="OrthogonalFlowLayouterConstraints_Test" hash="-54sesmw9vdpjzlp1ut709v1er9f7kyr">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -241,7 +241,7 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="OrthogonalFlowLayouterConstraints_Test.java" />
   </source>
-  <source id="3263240354041096163" name="OrthogonalFlowLayouterConstraintsStressTest" hash="64sxo2zqn9cwnxbwm444t8uaefmlubl">
+  <source id="3263240354041096163" name="OrthogonalFlowLayouterConstraintsStressTest" hash="5pye5u05jkup7hgm5edoo8aztjf7tmn">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
@@ -255,7 +255,7 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="OrthogonalFlowLayouterConstraintsStressTest.java" />
   </source>
-  <source id="2344624500434352550" name="OrthogonalFlowLabelProcessing_Test" hash="46mjl5d7fhjpzmkf3110ec222fuj8w3">
+  <source id="2344624500434352550" name="OrthogonalFlowLabelProcessing_Test" hash="-8w97mk9yb13kwlyf85v09bq4qbf53yr">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -269,7 +269,7 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="OrthogonalFlowLabelProcessing_Test.java" />
   </source>
-  <source id="8527875266531958631" name="OrthogonalFlowLayouterStressTest" hash="dfty31wk3mljlvy4701p0a1m1c9cgxw">
+  <source id="8527875266531958631" name="OrthogonalFlowLayouterStressTest" hash="j9fw3snmq8c6l33riidyyc4whuqn4h">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
@@ -280,14 +280,14 @@
     <dep model="r:d228b8c9-d2b1-4686-9904-e3c49a346bc6(jetbrains.mps.graphLayout.graph)" />
     <file name="OrthogonalFlowLayouterStressTest.java" />
   </source>
-  <source id="194249616896421866" name="MultiTest" hash="-aqbndcrblb63naifn7frod2ag317dyr">
+  <source id="194249616896421866" name="MultiTest" hash="-777gr2kvibq5xjk8g99aaouzhavnv4u">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="MultiTest.java" />
   </source>
-  <source id="1795464432008746829" name="OrthogonalFlowLayouterNoLabels_Test" hash="-7yk2a95uclsanh5arm8sj4sz1ekgw9s">
+  <source id="1795464432008746829" name="OrthogonalFlowLayouterNoLabels_Test" hash="bepgv7qgwb50b46gfut432sd5lsqzxd">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -298,7 +298,7 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="OrthogonalFlowLayouterNoLabels_Test.java" />
   </source>
-  <source id="1705599667576642198" name="HyperGraphLayouter_Test" hash="-6v4lduomdbf0f0s60hj7dexbixrcel5">
+  <source id="1705599667576642198" name="HyperGraphLayouter_Test" hash="-94a0gixuudc4sw2xy1afc30gift64nz">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />

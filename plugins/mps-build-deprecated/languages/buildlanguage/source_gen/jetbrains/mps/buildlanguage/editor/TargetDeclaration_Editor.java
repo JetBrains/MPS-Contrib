@@ -17,8 +17,6 @@ import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
-import jetbrains.mps.nodeEditor.AbstractCellProvider;
-import jetbrains.mps.lang.core.editor.AliasEditorComponent;
 import jetbrains.mps.editor.runtime.style.FocusPolicy;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
@@ -125,8 +123,7 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createComponent_xfdsch_a1a(EditorContext editorContext, SNode node) {
-    AbstractCellProvider provider = new AliasEditorComponent(node);
-    EditorCell editorCell = provider.createEditorCell(editorContext);
+    EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.lang.core.editor.AliasEditorComponent");
     Style style = new StyleImpl();
     BuildLanguageStyle_StyleSheet.applyKeyword(style, editorCell);
     style.set(StyleAttributes.EDITABLE, false);
@@ -264,8 +261,7 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createComponent_xfdsch_b4b0(EditorContext editorContext, SNode node) {
-    AbstractCellProvider provider = new TargetDeclaration_EditorComponent(node);
-    EditorCell editorCell = provider.createEditorCell(editorContext);
+    EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.buildlanguage.editor.TargetDeclaration_EditorComponent");
     return editorCell;
   }
 
@@ -459,8 +455,7 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createComponent_xfdsch_a0(EditorContext editorContext, SNode node) {
-    AbstractCellProvider provider = new TargetDeclaration_EditorComponent(node);
-    EditorCell editorCell = provider.createEditorCell(editorContext);
+    EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.buildlanguage.editor.TargetDeclaration_EditorComponent");
     return editorCell;
   }
 

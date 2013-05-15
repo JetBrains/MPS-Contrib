@@ -16,8 +16,6 @@ import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Indent;
-import jetbrains.mps.nodeEditor.AbstractCellProvider;
-import jetbrains.mps.baseLanguage.editor.ConceptFunction_Component;
 
 public class ExecuteParameterQuery_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
@@ -65,6 +63,9 @@ public class ExecuteParameterQuery_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no parameterType>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("parameterType");
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -118,8 +119,7 @@ public class ExecuteParameterQuery_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createComponent_qazu5o_a1b1a(EditorContext editorContext, SNode node) {
-    AbstractCellProvider provider = new ConceptFunction_Component(node);
-    EditorCell editorCell = provider.createEditorCell(editorContext);
+    EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.baseLanguage.editor.ConceptFunction_Component");
     return editorCell;
   }
 }

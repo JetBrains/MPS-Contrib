@@ -90,6 +90,8 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
       super();
     }
 
+
+
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
     }
@@ -106,6 +108,10 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
       EditorCell editorCell;
       editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("property_name");
+      if (editorCell.getRole() == null) {
+        editorCell.setReferenceCell(true);
+        editorCell.setRole("dateTimeProperty");
+      }
       Style style = new StyleImpl();
       BaseLanguageStyle_StyleSheet.applyStaticField(style, editorCell);
       editorCell.getStyle().putAll(style);

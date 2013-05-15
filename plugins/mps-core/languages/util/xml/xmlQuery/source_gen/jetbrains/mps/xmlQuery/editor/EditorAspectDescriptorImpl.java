@@ -4,38 +4,43 @@ package jetbrains.mps.xmlQuery.editor;
 
 import jetbrains.mps.openapi.editor.descriptor.EditorAspectDescriptor;
 import java.util.Collection;
-import jetbrains.mps.openapi.editor.descriptor.EditorAspect;
+import jetbrains.mps.openapi.editor.descriptor.ConceptEditor;
 import jetbrains.mps.smodel.runtime.ConceptDescriptor;
 import java.util.Arrays;
 import java.util.Collections;
+import jetbrains.mps.openapi.editor.descriptor.ConceptEditorComponent;
 
 public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
-  public Collection<EditorAspect> getEditorAspects(ConceptDescriptor descriptor) {
+  public Collection<ConceptEditor> getEditors(ConceptDescriptor descriptor) {
     switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0a, descriptor.getConceptFqName())) {
       case 0:
-        return Collections.<EditorAspect>singletonList(new AccessArbitraryAttributeOperation_Editor());
+        return Collections.<ConceptEditor>singletonList(new AccessArbitraryAttributeOperation_Editor());
       case 1:
-        return Collections.<EditorAspect>singletonList(new AccessArbitraryChildrenOperation_Editor());
+        return Collections.<ConceptEditor>singletonList(new AccessArbitraryChildrenOperation_Editor());
       case 2:
-        return Collections.<EditorAspect>singletonList(new AccessAttributeOperation_Editor());
+        return Collections.<ConceptEditor>singletonList(new AccessAttributeOperation_Editor());
       case 3:
-        return Collections.<EditorAspect>singletonList(new AccessChildrenOperation_Editor());
+        return Collections.<ConceptEditor>singletonList(new AccessChildrenOperation_Editor());
       case 4:
-        return Collections.<EditorAspect>singletonList(new AccessTextOperation_Editor());
+        return Collections.<ConceptEditor>singletonList(new AccessTextOperation_Editor());
       case 5:
-        return Collections.<EditorAspect>singletonList(new AttributeBuilder_Editor());
+        return Collections.<ConceptEditor>singletonList(new AttributeBuilder_Editor());
       case 6:
-        return Collections.<EditorAspect>singletonList(new ElementBuilder_Editor());
+        return Collections.<ConceptEditor>singletonList(new ElementBuilder_Editor());
       case 7:
-        return Collections.<EditorAspect>singletonList(new TextBuilder_Editor());
+        return Collections.<ConceptEditor>singletonList(new TextBuilder_Editor());
       case 8:
-        return Collections.<EditorAspect>singletonList(new XMLElementCreator_Editor());
+        return Collections.<ConceptEditor>singletonList(new XMLElementCreator_Editor());
       case 9:
-        return Collections.<EditorAspect>singletonList(new XMLElementOperation_Editor());
+        return Collections.<ConceptEditor>singletonList(new XMLElementOperation_Editor());
       case 10:
-        return Collections.<EditorAspect>singletonList(new XMLElementType_Editor());
+        return Collections.<ConceptEditor>singletonList(new XMLElementType_Editor());
       default:
     }
+    return Collections.emptyList();
+  }
+
+  public Collection<ConceptEditorComponent> getEditorComponents(ConceptDescriptor descriptor, String editorComponentId) {
     return Collections.emptyList();
   }
 

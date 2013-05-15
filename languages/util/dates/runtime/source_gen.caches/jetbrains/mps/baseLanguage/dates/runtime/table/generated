@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="2e0tvxw4ghd4gzh3llpgo4vz29xlkdf">
-  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-3oix0gm2cosksx5q7bcotftdn7n21nk" />
-  <common hash="-ceqxapomjzcdqkm8wghswrcc2hacwkn" />
-  <source id="734650238126519390" name="BasePeriodFormatTable" hash="30kvfnkx0gzxef01uek9wqsxm0zb4zz">
+<dependencies version="2" modelHash="1f6mwlg3mvx12xmfb1ox2b3jsiiadlj">
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-7mxihkcc0vv2q7mmukrgbm8b18oc3tu" />
+  <common hash="-6cw8dq57no8yocdt64usedqfl66tngz" />
+  <source id="734650238126519390" name="BasePeriodFormatTable" hash="1235w9hcksdv8vy9k42lwg523iz7rxq">
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <file name="BasePeriodFormatTable.java" />
   </source>
-  <source id="734650238126519701" name="BaseFormatTable" hash="-2s15akv9ezjmtj398ghgecsmk0glpi9">
+  <source id="734650238126519701" name="BaseFormatTable" hash="28okedsrk74brtr3pkg80c1m1xhbp8y">
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <file name="BaseFormatTable.java" />
   </source>

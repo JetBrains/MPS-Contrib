@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="43wew640xudgqwaqek6um37wejwd3m8">
+<dependencies version="2" modelHash="dhl1c1fmqngqi4g6jwzkclx8cx471pm">
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
-  <dep model="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" hash="-2pfgs5l9xgdeg3nuvw9wsk21zkjyohc" />
-  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-3oix0gm2cosksx5q7bcotftdn7n21nk" />
-  <dep model="r:00000000-0000-4000-0000-011c895902d8(jetbrains.mps.baseLanguage.unitTest.generator.baseLanguage.template.main@generator)" hash="-ctxvs1rpiiexlq8dltxstwmrdnqkuz7" />
+  <dep model="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" hash="-5qkh0mpu388oets3m8g893qmi77hv6t" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-7mxihkcc0vv2q7mmukrgbm8b18oc3tu" />
+  <dep model="r:00000000-0000-4000-0000-011c895902d8(jetbrains.mps.baseLanguage.unitTest.generator.baseLanguage.template.main@generator)" hash="dgtel9s427vm37iaz9u6ikq38xnt1eq" />
   <dep model="r:00000000-0000-4000-0000-011c895902de(jetbrains.mps.baseLanguage.blTypes.primitiveDescriptors)" />
-  <dep model="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" hash="-z22oiu2i3virhyguef3oewaixjm9hi" />
-  <dep model="r:00000000-0000-4000-0000-011c8959032f(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.main@generator)" hash="e4aodjamafijmcm1ggq1itbjxjw4yyr" />
-  <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" hash="-5hwzidtifhzxzto4ufe7o07xsgqc589" />
-  <dep model="r:d1558b8f-fc9e-4ca7-bb90-70ac789f336e(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.post@generator)" hash="6pme6f8cr98yhjna02lpbqkg2n36ah5" />
-  <dep model="r:d228b8c9-d2b1-4686-9904-e3c49a346bc6(jetbrains.mps.graphLayout.graph)" hash="-1delddh4a3scprrlb67tmel3ziztski" />
-  <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" hash="7q8xdnha8al10c7e3cb1njh3bglwdb4" />
-  <common hash="9ayzr54dt8l3ffs0q8ktv059eljbw3j" />
-  <source id="2899723422951321463" name="Face" hash="22ug9hcprkm2vajr4yzobbs7mczpyes">
+  <dep model="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" hash="escnzqn0hifing8eemstueasix9gmse" />
+  <dep model="r:00000000-0000-4000-0000-011c8959032f(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.main@generator)" hash="-8xjteqk842ql8pbze16i68m1ajw21lk" />
+  <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" hash="59ea0wchjl1p3fmqjarzl02fje6rngu" />
+  <dep model="r:d1558b8f-fc9e-4ca7-bb90-70ac789f336e(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.post@generator)" hash="-2ndxdy2yylqxt61razyif42s9aj25s9" />
+  <dep model="r:d228b8c9-d2b1-4686-9904-e3c49a346bc6(jetbrains.mps.graphLayout.graph)" hash="bh3vzml3pkn2vdqdw8exjqonf2mktj3" />
+  <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" hash="30wpo2za1rc0zf5vwwy3fdx7rb6qejl" />
+  <common hash="-8lpt33ta7iyfbnt0x5fuy1z7qg7h7ub" />
+  <source id="2899723422951321463" name="Face" hash="-ejo4zc31mygyf65rllsf21n6nw570ck">
     <dep root="1646208389854266624" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
@@ -24,7 +24,7 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="Face.java" />
   </source>
-  <source id="2899723422951321538" name="EmbeddedGraph" hash="-d35vg76qleqo7k4x2ctzlyzk0mo0i7y">
+  <source id="2899723422951321538" name="EmbeddedGraph" hash="fni9jn7oqed8u05q5o7baizsxqyy63">
     <dep root="1646208389854266624" />
     <dep root="2899723422951321463" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
@@ -40,11 +40,11 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="EmbeddedGraph.java" />
   </source>
-  <source id="1646208389854266624" name="Dart" hash="-1wmkpn2ghkiyfwl0wwnbdbmiahvwkcg">
+  <source id="1646208389854266624" name="Dart" hash="e2b51uflcu3788bs4zywhtd4xcz7b9s">
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <file name="Dart.java" />
   </source>
-  <source id="4179389957059015219" name="DualGraph" hash="1hcubgh5492oxgbmk9uo7v8w6mdalg3">
+  <source id="4179389957059015219" name="DualGraph" hash="-3m2ns73blahamacc6xrfj0vvvibatad">
     <dep root="2899723422951321463" />
     <dep root="2899723422951321538" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
@@ -55,7 +55,7 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="DualGraph.java" />
   </source>
-  <source id="1123934034178617860" name="CheckEmbeddedGraph" hash="3fw24rnot61gn5d0o9zc3hfru8wj1oi">
+  <source id="1123934034178617860" name="CheckEmbeddedGraph" hash="-nxjgf9v209i7n7ch5mtne62dtnwjg0">
     <dep root="1646208389854266624" />
     <dep root="2899723422951321463" />
     <dep root="2899723422951321538" />
@@ -69,7 +69,7 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="CheckEmbeddedGraph.java" />
   </source>
-  <source id="1123934034178617891" name="CheckFace" hash="-bx8rxia8mem6fx7y9llzm7xxycor4t8">
+  <source id="1123934034178617891" name="CheckFace" hash="3u79erib1tzay3hgesvq5wmii9lceck">
     <dep root="1646208389854266624" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
@@ -77,7 +77,7 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="CheckFace.java" />
   </source>
-  <source id="6984255766319182655" name="STPlanarGraph" hash="cmop1nhnkqmddghd1hd6rhtfxea3yqk">
+  <source id="6984255766319182655" name="STPlanarGraph" hash="-7fpoox6df8mmykpg6of92we1cz1bbs9">
     <dep root="1646208389854266624" />
     <dep root="2899723422951321463" />
     <dep root="2899723422951321538" />

@@ -4,30 +4,35 @@ package jetbrains.mps.xml.deprecated.editor;
 
 import jetbrains.mps.openapi.editor.descriptor.EditorAspectDescriptor;
 import java.util.Collection;
-import jetbrains.mps.openapi.editor.descriptor.EditorAspect;
+import jetbrains.mps.openapi.editor.descriptor.ConceptEditor;
 import jetbrains.mps.smodel.runtime.ConceptDescriptor;
 import java.util.Arrays;
 import java.util.Collections;
+import jetbrains.mps.openapi.editor.descriptor.ConceptEditorComponent;
 
 public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
-  public Collection<EditorAspect> getEditorAspects(ConceptDescriptor descriptor) {
+  public Collection<ConceptEditor> getEditors(ConceptDescriptor descriptor) {
     switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0a, descriptor.getConceptFqName())) {
       case 0:
-        return Collections.<EditorAspect>singletonList(new Attribute_Editor());
+        return Collections.<ConceptEditor>singletonList(new Attribute_Editor());
       case 1:
-        return Collections.<EditorAspect>singletonList(new Document_Editor());
+        return Collections.<ConceptEditor>singletonList(new Document_Editor());
       case 2:
-        return Collections.<EditorAspect>singletonList(new DocumentTypeDeclaration_Editor());
+        return Collections.<ConceptEditor>singletonList(new DocumentTypeDeclaration_Editor());
       case 3:
-        return Collections.<EditorAspect>singletonList(new Element_Editor());
+        return Collections.<ConceptEditor>singletonList(new Element_Editor());
       case 4:
-        return Collections.<EditorAspect>singletonList(new ElementPart_Editor());
+        return Collections.<ConceptEditor>singletonList(new ElementPart_Editor());
       case 5:
-        return Collections.<EditorAspect>singletonList(new PublicId_Editor());
+        return Collections.<ConceptEditor>singletonList(new PublicId_Editor());
       case 6:
-        return Collections.<EditorAspect>singletonList(new Text_Editor());
+        return Collections.<ConceptEditor>singletonList(new Text_Editor());
       default:
     }
+    return Collections.emptyList();
+  }
+
+  public Collection<ConceptEditorComponent> getEditorComponents(ConceptDescriptor descriptor, String editorComponentId) {
     return Collections.emptyList();
   }
 

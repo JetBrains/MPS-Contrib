@@ -4,34 +4,70 @@ package jetbrains.mps.build.generictasks.editor;
 
 import jetbrains.mps.openapi.editor.descriptor.EditorAspectDescriptor;
 import java.util.Collection;
-import jetbrains.mps.openapi.editor.descriptor.EditorAspect;
+import jetbrains.mps.openapi.editor.descriptor.ConceptEditor;
 import jetbrains.mps.smodel.runtime.ConceptDescriptor;
 import java.util.Arrays;
 import java.util.Collections;
+import jetbrains.mps.openapi.editor.descriptor.ConceptEditorComponent;
 
 public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
-  public Collection<EditorAspect> getEditorAspects(ConceptDescriptor descriptor) {
+  public Collection<ConceptEditor> getEditors(ConceptDescriptor descriptor) {
     switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0a, descriptor.getConceptFqName())) {
       case 0:
-        return Collections.<EditorAspect>singletonList(new Attribute_Editor());
+        return Collections.<ConceptEditor>singletonList(new Attribute_Editor());
       case 1:
-        return Collections.<EditorAspect>singletonList(new AttributeDeclaration_Editor());
+        return Collections.<ConceptEditor>singletonList(new AttributeDeclaration_Editor());
       case 2:
-        return Collections.<EditorAspect>singletonList(new BuiltInTaskDeclaration_Editor());
+        return Collections.<ConceptEditor>singletonList(new BuiltInTaskDeclaration_Editor());
       case 3:
-        return Collections.<EditorAspect>singletonList(new NestedDeclaration_Editor());
+        return Collections.<ConceptEditor>singletonList(new NestedDeclaration_Editor());
       case 4:
-        return Collections.<EditorAspect>singletonList(new PathReference_Editor());
+        return Collections.<ConceptEditor>singletonList(new PathReference_Editor());
       case 5:
-        return Collections.<EditorAspect>singletonList(new TaskCall_Editor());
+        return Collections.<ConceptEditor>singletonList(new TaskCall_Editor());
       case 6:
-        return Collections.<EditorAspect>singletonList(new TaskInterfaceDeclaration_Editor());
+        return Collections.<ConceptEditor>singletonList(new TaskInterfaceDeclaration_Editor());
       case 7:
-        return Collections.<EditorAspect>singletonList(new TaskReference_Editor());
+        return Collections.<ConceptEditor>singletonList(new TaskReference_Editor());
+      default:
+    }
+    return Collections.emptyList();
+  }
+
+  public Collection<ConceptEditorComponent> getEditorComponents(ConceptDescriptor descriptor, String editorComponentId) {
+    switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0b, descriptor.getConceptFqName())) {
+      case 0:
+        if ("jetbrains.mps.build.generictasks.editor.Attribute_EditorComponent".equals(editorComponentId)) {
+          return Collections.<ConceptEditorComponent>singletonList(new Attribute_EditorComponent());
+        }
+        break;
+      case 1:
+        switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0b0a1, editorComponentId)) {
+          case 0:
+            return Collections.<ConceptEditorComponent>singletonList(new GenericAttributeDeclarationInEnum_EditorComponent());
+          case 1:
+            return Collections.<ConceptEditorComponent>singletonList(new GenericAttributeDeclaration_EditorComponent());
+          default:
+        }
+        break;
+      case 2:
+        switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0c0a1, editorComponentId)) {
+          case 0:
+            return Collections.<ConceptEditorComponent>singletonList(new TaskDeclarationAttributes_EditorComponent());
+          case 1:
+            return Collections.<ConceptEditorComponent>singletonList(new TaskDeclarationHeader_EditorComponent());
+          case 2:
+            return Collections.<ConceptEditorComponent>singletonList(new TaskDeclarationInspector_EditorComponent());
+          default:
+        }
+        break;
       default:
     }
     return Collections.emptyList();
   }
 
   private static String[] stringSwitchCases_xbvbvu_a0a0a = new String[]{"jetbrains.mps.build.generictasks.structure.Attribute", "jetbrains.mps.build.generictasks.structure.AttributeDeclaration", "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration", "jetbrains.mps.build.generictasks.structure.NestedDeclaration", "jetbrains.mps.build.generictasks.structure.PathReference", "jetbrains.mps.build.generictasks.structure.TaskCall", "jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration", "jetbrains.mps.build.generictasks.structure.TaskReference"};
+  private static String[] stringSwitchCases_xbvbvu_a0a0b0a1 = new String[]{"jetbrains.mps.build.generictasks.editor.GenericAttributeDeclarationInEnum_EditorComponent", "jetbrains.mps.build.generictasks.editor.GenericAttributeDeclaration_EditorComponent"};
+  private static String[] stringSwitchCases_xbvbvu_a0a0c0a1 = new String[]{"jetbrains.mps.build.generictasks.editor.TaskDeclarationAttributes_EditorComponent", "jetbrains.mps.build.generictasks.editor.TaskDeclarationHeader_EditorComponent", "jetbrains.mps.build.generictasks.editor.TaskDeclarationInspector_EditorComponent"};
+  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"jetbrains.mps.build.generictasks.structure.Attribute", "jetbrains.mps.build.generictasks.structure.AttributeDeclaration", "jetbrains.mps.build.generictasks.structure.ITaskDeclaration"};
 }

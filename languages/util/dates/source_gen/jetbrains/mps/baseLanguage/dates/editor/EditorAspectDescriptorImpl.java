@@ -4,130 +4,144 @@ package jetbrains.mps.baseLanguage.dates.editor;
 
 import jetbrains.mps.openapi.editor.descriptor.EditorAspectDescriptor;
 import java.util.Collection;
-import jetbrains.mps.openapi.editor.descriptor.EditorAspect;
+import jetbrains.mps.openapi.editor.descriptor.ConceptEditor;
 import jetbrains.mps.smodel.runtime.ConceptDescriptor;
 import java.util.Arrays;
 import java.util.Collections;
+import jetbrains.mps.openapi.editor.descriptor.ConceptEditorComponent;
 
 public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
-  public Collection<EditorAspect> getEditorAspects(ConceptDescriptor descriptor) {
+  public Collection<ConceptEditor> getEditors(ConceptDescriptor descriptor) {
     switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0a, descriptor.getConceptFqName())) {
       case 0:
-        return Collections.<EditorAspect>singletonList(new AbsDateTimeMinusOperation_Editor());
+        return Collections.<ConceptEditor>singletonList(new AbsDateTimeMinusOperation_Editor());
       case 1:
-        return Collections.<EditorAspect>singletonList(new AllTimeZonesConstant_Editor());
+        return Collections.<ConceptEditor>singletonList(new AllTimeZonesConstant_Editor());
       case 2:
-        return Collections.<EditorAspect>singletonList(new ConditionalFormatToken_Editor());
+        return Collections.<ConceptEditor>singletonList(new ConditionalFormatToken_Editor());
       case 3:
-        return Collections.<EditorAspect>singletonList(new ConstantTimeZoneRef_Editor());
+        return Collections.<ConceptEditor>singletonList(new ConstantTimeZoneRef_Editor());
       case 4:
-        return Collections.<EditorAspect>singletonList(new ConvertToDateTimeOperation_Editor());
+        return Collections.<ConceptEditor>singletonList(new ConvertToDateTimeOperation_Editor());
       case 5:
-        return Collections.<EditorAspect>singletonList(new ConvertToDurationOperation_Editor());
+        return Collections.<ConceptEditor>singletonList(new ConvertToDurationOperation_Editor());
       case 6:
-        return Collections.<EditorAspect>singletonList(new DateFormat_Editor());
+        return Collections.<ConceptEditor>singletonList(new DateFormat_Editor());
       case 7:
-        return Collections.<EditorAspect>singletonList(new DateFormatsTable_Editor());
+        return Collections.<ConceptEditor>singletonList(new DateFormatsTable_Editor());
       case 8:
-        return Collections.<EditorAspect>singletonList(new DateTimeCompareOperation_Editor());
+        return Collections.<ConceptEditor>singletonList(new DateTimeCompareOperation_Editor());
       case 9:
-        return Collections.<EditorAspect>singletonList(new DateTimeMinusOperation_Editor());
+        return Collections.<ConceptEditor>singletonList(new DateTimeMinusOperation_Editor());
       case 10:
-        return Collections.<EditorAspect>singletonList(new DateTimeMinusPeriodOperation_Editor());
+        return Collections.<ConceptEditor>singletonList(new DateTimeMinusPeriodOperation_Editor());
       case 11:
-        return Collections.<EditorAspect>singletonList(new DateTimeOffsetFormatToken_Editor());
+        return Collections.<ConceptEditor>singletonList(new DateTimeOffsetFormatToken_Editor());
       case 12:
-        return Collections.<EditorAspect>singletonList(new DateTimeOperation_Editor());
+        return Collections.<ConceptEditor>singletonList(new DateTimeOperation_Editor());
       case 13:
-        return Collections.<EditorAspect>singletonList(new DateTimePlusPeriodOperation_Editor());
+        return Collections.<ConceptEditor>singletonList(new DateTimePlusPeriodOperation_Editor());
       case 14:
-        return Collections.<EditorAspect>singletonList(new DateTimePropertyFormatToken_Editor());
+        return Collections.<ConceptEditor>singletonList(new DateTimePropertyFormatToken_Editor());
       case 15:
-        return Collections.<EditorAspect>singletonList(new DateTimePropetyReferenceOperation_Editor());
+        return Collections.<ConceptEditor>singletonList(new DateTimePropetyReferenceOperation_Editor());
       case 16:
-        return Collections.<EditorAspect>singletonList(new DateTimeWithPropertyOperation_Editor());
+        return Collections.<ConceptEditor>singletonList(new DateTimeWithPropertyOperation_Editor());
       case 17:
-        return Collections.<EditorAspect>singletonList(new DateTimeZoneCreator_Editor());
+        return Collections.<ConceptEditor>singletonList(new DateTimeZoneCreator_Editor());
       case 18:
-        return Collections.<EditorAspect>singletonList(new DurationTypeReference_Editor());
+        return Collections.<ConceptEditor>singletonList(new DurationTypeReference_Editor());
       case 19:
-        return Collections.<EditorAspect>singletonList(new FixedLocaleFormatToken_Editor());
+        return Collections.<ConceptEditor>singletonList(new FixedLocaleFormatToken_Editor());
       case 20:
-        return Collections.<EditorAspect>singletonList(new FormatDateTimeExpression_Editor());
+        return Collections.<ConceptEditor>singletonList(new FormatDateTimeExpression_Editor());
       case 21:
-        return Collections.<EditorAspect>singletonList(new FormatExpression_Editor());
+        return Collections.<ConceptEditor>singletonList(new FormatExpression_Editor());
       case 22:
-        return Collections.<EditorAspect>singletonList(new FormatPeriodExpression_Editor());
+        return Collections.<ConceptEditor>singletonList(new FormatPeriodExpression_Editor());
       case 23:
-        return Collections.<EditorAspect>singletonList(new FormatToken_Editor());
+        return Collections.<ConceptEditor>singletonList(new FormatToken_Editor());
       case 24:
-        return Collections.<EditorAspect>singletonList(new InTimezoneExpression_Editor());
+        return Collections.<ConceptEditor>singletonList(new InTimezoneExpression_Editor());
       case 25:
-        return Collections.<EditorAspect>singletonList(new InlineFormatDateTimeExpression_Editor());
+        return Collections.<ConceptEditor>singletonList(new InlineFormatDateTimeExpression_Editor());
       case 26:
-        return Collections.<EditorAspect>singletonList(new InlineFormatExpression_Editor());
+        return Collections.<ConceptEditor>singletonList(new InlineFormatExpression_Editor());
       case 27:
-        return Collections.<EditorAspect>singletonList(new LiteralFormatToken_Editor());
+        return Collections.<ConceptEditor>singletonList(new LiteralFormatToken_Editor());
       case 28:
-        return Collections.<EditorAspect>singletonList(new MathDateTimeOperation_Editor());
+        return Collections.<ConceptEditor>singletonList(new MathDateTimeOperation_Editor());
       case 29:
-        return Collections.<EditorAspect>singletonList(new NeverExpression_Editor());
+        return Collections.<ConceptEditor>singletonList(new NeverExpression_Editor());
       case 30:
-        return Collections.<EditorAspect>singletonList(new NowExpression_Editor());
+        return Collections.<ConceptEditor>singletonList(new NowExpression_Editor());
       case 31:
-        return Collections.<EditorAspect>singletonList(new ParseDateTimeExpression_Editor());
+        return Collections.<ConceptEditor>singletonList(new ParseDateTimeExpression_Editor());
       case 32:
-        return Collections.<EditorAspect>singletonList(new ParseExpression_Editor());
+        return Collections.<ConceptEditor>singletonList(new ParseExpression_Editor());
       case 33:
-        return Collections.<EditorAspect>singletonList(new PeriodConstant_Editor());
+        return Collections.<ConceptEditor>singletonList(new PeriodConstant_Editor());
       case 34:
-        return Collections.<EditorAspect>singletonList(new PeriodFormat_Editor());
+        return Collections.<ConceptEditor>singletonList(new PeriodFormat_Editor());
       case 35:
-        return Collections.<EditorAspect>singletonList(new PeriodFormatsTable_Editor());
+        return Collections.<ConceptEditor>singletonList(new PeriodFormatsTable_Editor());
       case 36:
-        return Collections.<EditorAspect>singletonList(new PeriodInPropertyExpression_Editor());
+        return Collections.<ConceptEditor>singletonList(new PeriodInPropertyExpression_Editor());
       case 37:
-        return Collections.<EditorAspect>singletonList(new PeriodInPropertyOperation_Editor());
+        return Collections.<ConceptEditor>singletonList(new PeriodInPropertyOperation_Editor());
       case 38:
-        return Collections.<EditorAspect>singletonList(new PeriodLiteralFormatToken_Editor());
+        return Collections.<ConceptEditor>singletonList(new PeriodLiteralFormatToken_Editor());
       case 39:
-        return Collections.<EditorAspect>singletonList(new PeriodPropertyFormatToken_Editor());
+        return Collections.<ConceptEditor>singletonList(new PeriodPropertyFormatToken_Editor());
       case 40:
-        return Collections.<EditorAspect>singletonList(new PeriodReferenceFormatToken_Editor());
+        return Collections.<ConceptEditor>singletonList(new PeriodReferenceFormatToken_Editor());
       case 41:
-        return Collections.<EditorAspect>singletonList(new PeriodSeparatorFormatToken_Editor());
+        return Collections.<ConceptEditor>singletonList(new PeriodSeparatorFormatToken_Editor());
       case 42:
-        return Collections.<EditorAspect>singletonList(new ReferenceFormatToken_Editor());
+        return Collections.<ConceptEditor>singletonList(new ReferenceFormatToken_Editor());
       case 43:
-        return Collections.<EditorAspect>singletonList(new RoundDateTimeOperation_Editor());
+        return Collections.<ConceptEditor>singletonList(new RoundDateTimeOperation_Editor());
       case 44:
-        return Collections.<EditorAspect>singletonList(new ScheduleLiteral_Editor());
+        return Collections.<ConceptEditor>singletonList(new ScheduleLiteral_Editor());
       case 45:
-        return Collections.<EditorAspect>singletonList(new TimeConstant_Editor());
+        return Collections.<ConceptEditor>singletonList(new TimeConstant_Editor());
       case 46:
-        return Collections.<EditorAspect>singletonList(new TimeZoneConstant_Editor());
+        return Collections.<ConceptEditor>singletonList(new TimeZoneConstant_Editor());
       case 47:
-        return Collections.<EditorAspect>singletonList(new TimeZoneFromString_Editor());
+        return Collections.<ConceptEditor>singletonList(new TimeZoneFromString_Editor());
       case 48:
-        return Collections.<EditorAspect>singletonList(new TimeZoneIDExpression_Editor());
+        return Collections.<ConceptEditor>singletonList(new TimeZoneIDExpression_Editor());
       case 49:
-        return Collections.<EditorAspect>singletonList(new TimeZoneIdOperation_Editor());
+        return Collections.<ConceptEditor>singletonList(new TimeZoneIdOperation_Editor());
       case 50:
-        return Collections.<EditorAspect>singletonList(new TimeZoneNameOperation_Editor());
+        return Collections.<ConceptEditor>singletonList(new TimeZoneNameOperation_Editor());
       case 51:
-        return Collections.<EditorAspect>singletonList(new TimeZoneOffsetExpression_Editor());
+        return Collections.<ConceptEditor>singletonList(new TimeZoneOffsetExpression_Editor());
       case 52:
-        return Collections.<EditorAspect>singletonList(new TokenCondition_Editor());
+        return Collections.<ConceptEditor>singletonList(new TokenCondition_Editor());
       case 53:
-        return Collections.<EditorAspect>singletonList(new TokenConditionalPair_Editor());
+        return Collections.<ConceptEditor>singletonList(new TokenConditionalPair_Editor());
       case 54:
-        return Collections.<EditorAspect>singletonList(new UnaryDateTimeOperation_Editor());
+        return Collections.<ConceptEditor>singletonList(new UnaryDateTimeOperation_Editor());
       case 55:
-        return Collections.<EditorAspect>singletonList(new WithPropertyCompareExpression_Editor());
+        return Collections.<ConceptEditor>singletonList(new WithPropertyCompareExpression_Editor());
+      default:
+    }
+    return Collections.emptyList();
+  }
+
+  public Collection<ConceptEditorComponent> getEditorComponents(ConceptDescriptor descriptor, String editorComponentId) {
+    switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0b, descriptor.getConceptFqName())) {
+      case 0:
+        if ("jetbrains.mps.baseLanguage.dates.editor.WithProperty_component".equals(editorComponentId)) {
+          return Collections.<ConceptEditorComponent>singletonList(new WithProperty_component());
+        }
+        break;
       default:
     }
     return Collections.emptyList();
   }
 
   private static String[] stringSwitchCases_xbvbvu_a0a0a = new String[]{"jetbrains.mps.baseLanguage.dates.structure.AbsDateTimeMinusOperation", "jetbrains.mps.baseLanguage.dates.structure.AllTimeZonesConstant", "jetbrains.mps.baseLanguage.dates.structure.ConditionalFormatToken", "jetbrains.mps.baseLanguage.dates.structure.ConstantTimeZoneRef", "jetbrains.mps.baseLanguage.dates.structure.ConvertToDateTimeOperation", "jetbrains.mps.baseLanguage.dates.structure.ConvertToDurationOperation", "jetbrains.mps.baseLanguage.dates.structure.DateFormat", "jetbrains.mps.baseLanguage.dates.structure.DateFormatsTable", "jetbrains.mps.baseLanguage.dates.structure.DateTimeCompareOperation", "jetbrains.mps.baseLanguage.dates.structure.DateTimeMinusOperation", "jetbrains.mps.baseLanguage.dates.structure.DateTimeMinusPeriodOperation", "jetbrains.mps.baseLanguage.dates.structure.DateTimeOffsetFormatToken", "jetbrains.mps.baseLanguage.dates.structure.DateTimeOperation", "jetbrains.mps.baseLanguage.dates.structure.DateTimePlusPeriodOperation", "jetbrains.mps.baseLanguage.dates.structure.DateTimePropertyFormatToken", "jetbrains.mps.baseLanguage.dates.structure.DateTimePropetyReferenceOperation", "jetbrains.mps.baseLanguage.dates.structure.DateTimeWithPropertyOperation", "jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneCreator", "jetbrains.mps.baseLanguage.dates.structure.DurationTypeReference", "jetbrains.mps.baseLanguage.dates.structure.FixedLocaleFormatToken", "jetbrains.mps.baseLanguage.dates.structure.FormatDateTimeExpression", "jetbrains.mps.baseLanguage.dates.structure.FormatExpression", "jetbrains.mps.baseLanguage.dates.structure.FormatPeriodExpression", "jetbrains.mps.baseLanguage.dates.structure.FormatToken", "jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression", "jetbrains.mps.baseLanguage.dates.structure.InlineFormatDateTimeExpression", "jetbrains.mps.baseLanguage.dates.structure.InlineFormatExpression", "jetbrains.mps.baseLanguage.dates.structure.LiteralFormatToken", "jetbrains.mps.baseLanguage.dates.structure.MathDateTimeOperation", "jetbrains.mps.baseLanguage.dates.structure.NeverExpression", "jetbrains.mps.baseLanguage.dates.structure.NowExpression", "jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression", "jetbrains.mps.baseLanguage.dates.structure.ParseExpression", "jetbrains.mps.baseLanguage.dates.structure.PeriodConstant", "jetbrains.mps.baseLanguage.dates.structure.PeriodFormat", "jetbrains.mps.baseLanguage.dates.structure.PeriodFormatsTable", "jetbrains.mps.baseLanguage.dates.structure.PeriodInPropertyExpression", "jetbrains.mps.baseLanguage.dates.structure.PeriodInPropertyOperation", "jetbrains.mps.baseLanguage.dates.structure.PeriodLiteralFormatToken", "jetbrains.mps.baseLanguage.dates.structure.PeriodPropertyFormatToken", "jetbrains.mps.baseLanguage.dates.structure.PeriodReferenceFormatToken", "jetbrains.mps.baseLanguage.dates.structure.PeriodSeparatorFormatToken", "jetbrains.mps.baseLanguage.dates.structure.ReferenceFormatToken", "jetbrains.mps.baseLanguage.dates.structure.RoundDateTimeOperation", "jetbrains.mps.baseLanguage.dates.structure.ScheduleLiteral", "jetbrains.mps.baseLanguage.dates.structure.TimeConstant", "jetbrains.mps.baseLanguage.dates.structure.TimeZoneConstant", "jetbrains.mps.baseLanguage.dates.structure.TimeZoneFromString", "jetbrains.mps.baseLanguage.dates.structure.TimeZoneIDExpression", "jetbrains.mps.baseLanguage.dates.structure.TimeZoneIdOperation", "jetbrains.mps.baseLanguage.dates.structure.TimeZoneNameOperation", "jetbrains.mps.baseLanguage.dates.structure.TimeZoneOffsetExpression", "jetbrains.mps.baseLanguage.dates.structure.TokenCondition", "jetbrains.mps.baseLanguage.dates.structure.TokenConditionalPair", "jetbrains.mps.baseLanguage.dates.structure.UnaryDateTimeOperation", "jetbrains.mps.baseLanguage.dates.structure.WithPropertyCompareExpression"};
+  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"jetbrains.mps.baseLanguage.dates.structure.WithPropertyCompareExpression"};
 }

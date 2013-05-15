@@ -118,14 +118,14 @@
     <nodeInfo nodeId="5211164146776904231" fileName="EscapingElementCreator.java" startLine="22" startPosition="58" endLine="23" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5211164146776904241" fileName="EscapingElementCreator.java" startLine="23" startPosition="39" endLine="24" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="5211164146776904241" fileName="EscapingElementCreator.java" startLine="23" startPosition="39" endLine="24" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5211164146776838045" fileName="EscapingElementCreator.java" startLine="25" startPosition="27" endLine="26" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5211164146776838045" fileName="EscapingElementCreator.java" startLine="25" startPosition="27" endLine="26" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5211164146776838038" fileName="EscapingElementCreator.java" startLine="18" startPosition="108" endLine="27" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
     <nodeInfo nodeId="5211164146776771028" fileName="EscapingElementCreator.java" startLine="17" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="outputLiteral#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/textGen/SNodeTextGen;)V" />
     <scopeInfo nodeId="5211164146776904241" fileName="EscapingElementCreator.java" startLine="23" startPosition="39" endLine="24" endPosition="37" />
-    <scopeInfo nodeId="5211164146776838041" fileName="EscapingElementCreator.java" startLine="25" startPosition="0" endLine="26" endPosition="52">
+    <scopeInfo nodeId="5211164146776838041" fileName="EscapingElementCreator.java" startLine="25" startPosition="0" endLine="26" endPosition="58">
       <varInfo nodeId="5211164146776838042" varName="e" />
     </scopeInfo>
-    <scopeInfo nodeId="5211164146776838044" fileName="EscapingElementCreator.java" startLine="25" startPosition="27" endLine="26" endPosition="52" />
+    <scopeInfo nodeId="5211164146776838044" fileName="EscapingElementCreator.java" startLine="25" startPosition="27" endLine="26" endPosition="58" />
     <scopeInfo nodeId="5211164146776838039" fileName="EscapingElementCreator.java" startLine="19" startPosition="9" endLine="24" endPosition="37">
       <varInfo nodeId="5211164146776896545" varName="fmt" />
       <varInfo nodeId="5211164146776904224" varName="wrt" />

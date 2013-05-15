@@ -4,96 +4,101 @@ package jetbrains.mps.xmlSchema.editor;
 
 import jetbrains.mps.openapi.editor.descriptor.EditorAspectDescriptor;
 import java.util.Collection;
-import jetbrains.mps.openapi.editor.descriptor.EditorAspect;
+import jetbrains.mps.openapi.editor.descriptor.ConceptEditor;
 import jetbrains.mps.smodel.runtime.ConceptDescriptor;
 import java.util.Arrays;
 import java.util.Collections;
+import jetbrains.mps.openapi.editor.descriptor.ConceptEditorComponent;
 
 public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
-  public Collection<EditorAspect> getEditorAspects(ConceptDescriptor descriptor) {
+  public Collection<ConceptEditor> getEditors(ConceptDescriptor descriptor) {
     switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0a, descriptor.getConceptFqName())) {
       case 0:
-        return Collections.<EditorAspect>singletonList(new AttributeDeclaration_Editor());
+        return Collections.<ConceptEditor>singletonList(new AttributeDeclaration_Editor());
       case 1:
-        return Collections.<EditorAspect>singletonList(new AttributeExpression_Editor());
+        return Collections.<ConceptEditor>singletonList(new AttributeExpression_Editor());
       case 2:
-        return Collections.<EditorAspect>singletonList(new AttributeGroup_Editor());
+        return Collections.<ConceptEditor>singletonList(new AttributeGroup_Editor());
       case 3:
-        return Collections.<EditorAspect>singletonList(new AttributeGroupReference_Editor());
+        return Collections.<ConceptEditor>singletonList(new AttributeGroupReference_Editor());
       case 4:
-        return Collections.<EditorAspect>singletonList(new BooleanSchemaType_Editor());
+        return Collections.<ConceptEditor>singletonList(new BooleanSchemaType_Editor());
       case 5:
-        return Collections.<EditorAspect>singletonList(new BoundExpression_Editor());
+        return Collections.<ConceptEditor>singletonList(new BoundExpression_Editor());
       case 6:
-        return Collections.<EditorAspect>singletonList(new Choice_Editor());
+        return Collections.<ConceptEditor>singletonList(new Choice_Editor());
       case 7:
-        return Collections.<EditorAspect>singletonList(new ComplexContent_Editor());
+        return Collections.<ConceptEditor>singletonList(new ComplexContent_Editor());
       case 8:
-        return Collections.<EditorAspect>singletonList(new ComplexType_Editor());
+        return Collections.<ConceptEditor>singletonList(new ComplexType_Editor());
       case 9:
-        return Collections.<EditorAspect>singletonList(new ComplexTypeReference_Editor());
+        return Collections.<ConceptEditor>singletonList(new ComplexTypeReference_Editor());
       case 10:
-        return Collections.<EditorAspect>singletonList(new ContentItem_Editor());
+        return Collections.<ConceptEditor>singletonList(new ContentItem_Editor());
       case 11:
-        return Collections.<EditorAspect>singletonList(new Declaration_Editor());
+        return Collections.<ConceptEditor>singletonList(new Declaration_Editor());
       case 12:
-        return Collections.<EditorAspect>singletonList(new DeclarationBlock_Editor());
+        return Collections.<ConceptEditor>singletonList(new DeclarationBlock_Editor());
       case 13:
-        return Collections.<EditorAspect>singletonList(new ElementReference_Editor());
+        return Collections.<ConceptEditor>singletonList(new ElementReference_Editor());
       case 14:
-        return Collections.<EditorAspect>singletonList(new ElementWithContent_Editor());
+        return Collections.<ConceptEditor>singletonList(new ElementWithContent_Editor());
       case 15:
-        return Collections.<EditorAspect>singletonList(new ElementWithType_Editor());
+        return Collections.<ConceptEditor>singletonList(new ElementWithType_Editor());
       case 16:
-        return Collections.<EditorAspect>singletonList(new EntityBlock_Editor());
+        return Collections.<ConceptEditor>singletonList(new EntityBlock_Editor());
       case 17:
-        return Collections.<EditorAspect>singletonList(new EntityDeclaration_Editor());
+        return Collections.<ConceptEditor>singletonList(new EntityDeclaration_Editor());
       case 18:
-        return Collections.<EditorAspect>singletonList(new EntityLine_Editor());
+        return Collections.<ConceptEditor>singletonList(new EntityLine_Editor());
       case 19:
-        return Collections.<EditorAspect>singletonList(new EntitySet_Editor());
+        return Collections.<ConceptEditor>singletonList(new EntitySet_Editor());
       case 20:
-        return Collections.<EditorAspect>singletonList(new Extension_Editor());
+        return Collections.<ConceptEditor>singletonList(new Extension_Editor());
       case 21:
-        return Collections.<EditorAspect>singletonList(new GroupDeclaration_Editor());
+        return Collections.<ConceptEditor>singletonList(new GroupDeclaration_Editor());
       case 22:
-        return Collections.<EditorAspect>singletonList(new GroupExpression_Editor());
+        return Collections.<ConceptEditor>singletonList(new GroupExpression_Editor());
       case 23:
-        return Collections.<EditorAspect>singletonList(new GroupReference_Editor());
+        return Collections.<ConceptEditor>singletonList(new GroupReference_Editor());
       case 24:
-        return Collections.<EditorAspect>singletonList(new IntegerSchemaType_Editor());
+        return Collections.<ConceptEditor>singletonList(new IntegerSchemaType_Editor());
       case 25:
-        return Collections.<EditorAspect>singletonList(new MaxOccursExpression_Editor());
+        return Collections.<ConceptEditor>singletonList(new MaxOccursExpression_Editor());
       case 26:
-        return Collections.<EditorAspect>singletonList(new MixedAttribute_Editor());
+        return Collections.<ConceptEditor>singletonList(new MixedAttribute_Editor());
       case 27:
-        return Collections.<EditorAspect>singletonList(new NamespaceDeclaration_Editor());
+        return Collections.<ConceptEditor>singletonList(new NamespaceDeclaration_Editor());
       case 28:
-        return Collections.<EditorAspect>singletonList(new OccursAttribute_Editor());
+        return Collections.<ConceptEditor>singletonList(new OccursAttribute_Editor());
       case 29:
-        return Collections.<EditorAspect>singletonList(new Schema_Editor());
+        return Collections.<ConceptEditor>singletonList(new Schema_Editor());
       case 30:
-        return Collections.<EditorAspect>singletonList(new SchemaComment_Editor());
+        return Collections.<ConceptEditor>singletonList(new SchemaComment_Editor());
       case 31:
-        return Collections.<EditorAspect>singletonList(new SchemaType_Editor());
+        return Collections.<ConceptEditor>singletonList(new SchemaType_Editor());
       case 32:
-        return Collections.<EditorAspect>singletonList(new Sequence_Editor());
+        return Collections.<ConceptEditor>singletonList(new Sequence_Editor());
       case 33:
-        return Collections.<EditorAspect>singletonList(new SimpleContent_Editor());
+        return Collections.<ConceptEditor>singletonList(new SimpleContent_Editor());
       case 34:
-        return Collections.<EditorAspect>singletonList(new StringSchemaType_Editor());
+        return Collections.<ConceptEditor>singletonList(new StringSchemaType_Editor());
       case 35:
-        return Collections.<EditorAspect>singletonList(new TextLine_Editor());
+        return Collections.<ConceptEditor>singletonList(new TextLine_Editor());
       case 36:
-        return Collections.<EditorAspect>singletonList(new TypeExpression_Editor());
+        return Collections.<ConceptEditor>singletonList(new TypeExpression_Editor());
       case 37:
-        return Collections.<EditorAspect>singletonList(new TypeExpressionList_Editor());
+        return Collections.<ConceptEditor>singletonList(new TypeExpressionList_Editor());
       case 38:
-        return Collections.<EditorAspect>singletonList(new UnboundExpression_Editor());
+        return Collections.<ConceptEditor>singletonList(new UnboundExpression_Editor());
       case 39:
-        return Collections.<EditorAspect>singletonList(new UseAttribute_Editor());
+        return Collections.<ConceptEditor>singletonList(new UseAttribute_Editor());
       default:
     }
+    return Collections.emptyList();
+  }
+
+  public Collection<ConceptEditorComponent> getEditorComponents(ConceptDescriptor descriptor, String editorComponentId) {
     return Collections.emptyList();
   }
 

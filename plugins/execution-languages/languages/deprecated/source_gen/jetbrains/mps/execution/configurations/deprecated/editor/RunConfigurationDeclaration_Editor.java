@@ -10,7 +10,6 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
-import jetbrains.mps.nodeEditor.AbstractCellProvider;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.MPSFonts;
 import jetbrains.mps.smodel.IScope;
@@ -65,8 +64,7 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createComponent_l50atq_a0a(EditorContext editorContext, SNode node) {
-    AbstractCellProvider provider = new RunConfigurationHeader(node);
-    EditorCell editorCell = provider.createEditorCell(editorContext);
+    EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.execution.configurations.deprecated.editor.RunConfigurationHeader");
     return editorCell;
   }
 
@@ -116,8 +114,7 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createComponent_l50atq_a1b0(EditorContext editorContext, SNode node) {
-    AbstractCellProvider provider = new RunConfigurationPresentation(node);
-    EditorCell editorCell = provider.createEditorCell(editorContext);
+    EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.execution.configurations.deprecated.editor.RunConfigurationPresentation");
     return editorCell;
   }
 
@@ -129,8 +126,7 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createComponent_l50atq_c1b0(EditorContext editorContext, SNode node) {
-    AbstractCellProvider provider = new RunConfigurationBody(node);
-    EditorCell editorCell = provider.createEditorCell(editorContext);
+    EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.execution.configurations.deprecated.editor.RunConfigurationBody");
     return editorCell;
   }
 
@@ -176,6 +172,9 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no prepareBlock>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("prepareBlock");
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -206,6 +205,9 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no debugSessionCreator>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("debugSessionCreator");
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -218,8 +220,7 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createComponent_l50atq_e1b0(EditorContext editorContext, SNode node) {
-    AbstractCellProvider provider = new RunConfigurationMethods(node);
-    EditorCell editorCell = provider.createEditorCell(editorContext);
+    EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.execution.configurations.deprecated.editor.RunConfigurationMethods");
     return editorCell;
   }
 
@@ -297,6 +298,8 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
       super();
     }
 
+
+
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
     }
@@ -313,6 +316,10 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
       EditorCell editorCell;
       editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("property_name");
+      if (editorCell.getRole() == null) {
+        editorCell.setReferenceCell(true);
+        editorCell.setRole("stateTypeParameter");
+      }
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();
       Class attributeKind = provider.getRoleAttributeClass();

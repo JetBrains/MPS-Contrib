@@ -12,7 +12,6 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.editor.runtime.style.StyleImpl;
-import jetbrains.mps.nodeEditor.AbstractCellProvider;
 import jetbrains.mps.xml.behavior.ContentList_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
@@ -66,14 +65,12 @@ public class Element_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createComponent_76r4mg_b0a(EditorContext editorContext, SNode node) {
-    AbstractCellProvider provider = new Element_elementDeclaration(node);
-    EditorCell editorCell = provider.createEditorCell(editorContext);
+    EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.xml.editor.Element_elementDeclaration");
     return editorCell;
   }
 
   private EditorCell createComponent_76r4mg_c0a(EditorContext editorContext, SNode node) {
-    AbstractCellProvider provider = new BaseElement_attributeList(node);
-    EditorCell editorCell = provider.createEditorCell(editorContext);
+    EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.xml.editor.BaseElement_attributeList");
     return editorCell;
   }
 
@@ -128,14 +125,12 @@ public class Element_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createComponent_76r4mg_b0a0(EditorContext editorContext, SNode node) {
-    AbstractCellProvider provider = new Element_elementDeclaration(node);
-    EditorCell editorCell = provider.createEditorCell(editorContext);
+    EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.xml.editor.Element_elementDeclaration");
     return editorCell;
   }
 
   private EditorCell createComponent_76r4mg_c0a0(EditorContext editorContext, SNode node) {
-    AbstractCellProvider provider = new BaseElement_attributeList(node);
-    EditorCell editorCell = provider.createEditorCell(editorContext);
+    EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.xml.editor.BaseElement_attributeList");
     return editorCell;
   }
 
@@ -156,6 +151,9 @@ public class Element_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no contentList>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("contentList");
+    }
     if (true) {
       editorCell.getStyle().set(StyleAttributes.FOCUS_POLICY, FocusPolicy.ATTRACTS_FOCUS);
     }
@@ -182,8 +180,7 @@ public class Element_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createComponent_76r4mg_g0a0(EditorContext editorContext, SNode node) {
-    AbstractCellProvider provider = new Element_elementDeclaration(node);
-    EditorCell editorCell = provider.createEditorCell(editorContext);
+    EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.xml.editor.Element_elementDeclaration");
     return editorCell;
   }
 
@@ -230,14 +227,12 @@ public class Element_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createComponent_76r4mg_b0a0a(EditorContext editorContext, SNode node) {
-    AbstractCellProvider provider = new Element_elementDeclaration(node);
-    EditorCell editorCell = provider.createEditorCell(editorContext);
+    EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.xml.editor.Element_elementDeclaration");
     return editorCell;
   }
 
   private EditorCell createComponent_76r4mg_c0a0a(EditorContext editorContext, SNode node) {
-    AbstractCellProvider provider = new BaseElement_attributeList(node);
-    EditorCell editorCell = provider.createEditorCell(editorContext);
+    EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.xml.editor.BaseElement_attributeList");
     return editorCell;
   }
 
@@ -273,6 +268,9 @@ public class Element_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no contentList>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("contentList");
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -307,8 +305,7 @@ public class Element_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createComponent_76r4mg_b2a0a(EditorContext editorContext, SNode node) {
-    AbstractCellProvider provider = new Element_elementDeclaration(node);
-    EditorCell editorCell = provider.createEditorCell(editorContext);
+    EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.xml.editor.Element_elementDeclaration");
     return editorCell;
   }
 

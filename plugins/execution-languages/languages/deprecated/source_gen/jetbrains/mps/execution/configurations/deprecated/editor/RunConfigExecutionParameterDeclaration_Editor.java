@@ -13,8 +13,6 @@ import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.util.EqualUtil;
 import jetbrains.mps.openapi.editor.cells.CellActionType;
 import jetbrains.mps.editor.runtime.cells.EmptyCellAction;
-import jetbrains.mps.nodeEditor.AbstractCellProvider;
-import jetbrains.mps.lang.plugin.editor.ActionParameter_NameCellComponent;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
@@ -24,7 +22,6 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.nodeEditor.InlineCellProvider;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
-import jetbrains.mps.lang.plugin.editor.ActionParameter_Hint;
 
 public class RunConfigExecutionParameterDeclaration_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
@@ -65,8 +62,7 @@ public class RunConfigExecutionParameterDeclaration_Editor extends DefaultNodeEd
   }
 
   private EditorCell createComponent_ystr20_b0(EditorContext editorContext, SNode node) {
-    AbstractCellProvider provider = new ActionParameter_NameCellComponent(node);
-    EditorCell editorCell = provider.createEditorCell(editorContext);
+    EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.lang.plugin.editor.ActionParameter_NameCellComponent");
     return editorCell;
   }
 
@@ -103,6 +99,8 @@ public class RunConfigExecutionParameterDeclaration_Editor extends DefaultNodeEd
       super();
     }
 
+
+
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
     }
@@ -119,6 +117,10 @@ public class RunConfigExecutionParameterDeclaration_Editor extends DefaultNodeEd
       EditorCell editorCell;
       editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("property_name");
+      if (editorCell.getRole() == null) {
+        editorCell.setReferenceCell(true);
+        editorCell.setRole("key");
+      }
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();
       Class attributeKind = provider.getRoleAttributeClass();
@@ -132,8 +134,7 @@ public class RunConfigExecutionParameterDeclaration_Editor extends DefaultNodeEd
   }
 
   private EditorCell createComponent_ystr20_a(EditorContext editorContext, SNode node) {
-    AbstractCellProvider provider = new ActionParameter_Hint(node);
-    EditorCell editorCell = provider.createEditorCell(editorContext);
+    EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.lang.plugin.editor.ActionParameter_Hint");
     editorCell.setBig(true);
     return editorCell;
   }

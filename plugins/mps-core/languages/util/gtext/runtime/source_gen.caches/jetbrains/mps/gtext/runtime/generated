@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="em1fnhampplqavjksmpb7mfjmkrc2qq">
-  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-3oix0gm2cosksx5q7bcotftdn7n21nk" />
-  <common hash="69t7512zkych03l4jq3oquuwhvxcqc1" />
-  <source id="7733366827988670914" name="TBaseBuilderContextListener" hash="-azljm6fxk3cekq8l3oxar860wej4okd">
+<dependencies version="2" modelHash="64z9ub8xxfw34mwlhdn1z3wfaqarmg9">
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-7mxihkcc0vv2q7mmukrgbm8b18oc3tu" />
+  <common hash="-44y9wx5abv2qm18m9p66d1nz4vvlpxs" />
+  <source id="7733366827988670914" name="TBaseBuilderContextListener" hash="-cbgihtvxc4m0md9eaicnnysx54i9slh">
     <file name="TBaseBuilderContextListener.java" />
   </source>
-  <source id="7733366827988670922" name="TBuffer" hash="-595gkwv4mh5ct5c3n1cttlq14860r5t">
+  <source id="7733366827988670922" name="TBuffer" hash="-19s147k1t4enqhydt94nh9curtja3au">
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <file name="TBuffer.java" />
   </source>
-  <source id="7733366827988671037" name="TBaseBuilderContext" hash="53huttdmfgjakl4g69wolryjwxt0h2w">
+  <source id="7733366827988671037" name="TBaseBuilderContext" hash="-3g5tkoek53xwxbmk8lsqv0p9huib0m4">
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <file name="TBaseBuilderContext.java" />
   </source>
-  <source id="7733366827988671516" name="BaseHtmlStringUtil" hash="-e3dtgfwfgvtob9i8k2z5wzvn6uwxstr">
+  <source id="7733366827988671516" name="BaseHtmlStringUtil" hash="-84cfdez4p63n175890enxxnsjrucopp">
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <file name="BaseHtmlStringUtil.java" />
   </source>
-  <source id="7733366827988670913" name="TContent" hash="-7651oqaph1g8uw7yhodhgsearhyusjq">
+  <source id="7733366827988670913" name="TContent" hash="14u66idpil3za83k2xbvqkx1vmx2iwx">
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <file name="TContent.java" />
   </source>

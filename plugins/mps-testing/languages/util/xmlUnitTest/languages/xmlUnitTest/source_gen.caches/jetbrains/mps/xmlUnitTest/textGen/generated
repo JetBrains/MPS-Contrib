@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-44xqau7l9xuy2tbib624dzm3kbnqjal">
+<dependencies version="2" modelHash="18z8c6s2d0fe0l38v4qnkda6cuk746g">
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
   <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#org.jdom.output(MPS.Core/org.jdom.output@java_stub)" />
-  <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="-b2l5iyygy2vjqkbekn4rvaubf6n8cmr" />
-  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-3oix0gm2cosksx5q7bcotftdn7n21nk" />
-  <dep model="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" hash="b7efqpp988394i1ffiwgj2bp6kuza4w" />
-  <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" hash="5dkchx6vs8ggugooqdxkrkmeks99uon" />
-  <dep model="r:1e88207e-a8e3-4e7e-8d9b-916f60cbdc61(jetbrains.mps.lang.textGen.generator.template.main@generator)" hash="1oieg0nih8h7eiy1sqqjnea5i6m0ge1" />
-  <dep model="r:77603f21-ab6b-487f-82f9-e98e1903f0fc(jetbrains.mps.xmlUnitTest.structure)" hash="fmf4609ls8kbvi9sa451t1m4zjzmps" />
-  <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" hash="-17sdjr2i746psmzww7vs0ajbedkaxfi" />
-  <common hash="-ewz5afeq3snrmhtbsb79v5y1dpshclw" />
-  <source id="5211164146776719939" name="XMLStringLiteral_TextGen" hash="dcd3vxee4yqdltp05f9yj6y30sbnky">
+  <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="-8a8g8c3samqxd7s54bm1fyxossfyafx" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-mjxs0m2jun2n8oda8eyh1sj6wp5zko" />
+  <dep model="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" hash="7tunkx61nsrmo3sgu4c3e00v2h21rh" />
+  <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" hash="-9iow8oinjz3flhnokp65cdgbcfbisw5" />
+  <dep model="r:1e88207e-a8e3-4e7e-8d9b-916f60cbdc61(jetbrains.mps.lang.textGen.generator.template.main@generator)" hash="at9pl5r19jew6os4j6sg2p02hjergeb" />
+  <dep model="r:77603f21-ab6b-487f-82f9-e98e1903f0fc(jetbrains.mps.xmlUnitTest.structure)" hash="843cjbkzmbrd1li98xnwy3qnw5pipqk" />
+  <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" hash="-75hld4xn0j0x620a2ffc7r1mui5k2kp" />
+  <common hash="elr2b4a0r5dnf7zesy5h9wd00ubhg3c" />
+  <source id="5211164146776719939" name="XMLStringLiteral_TextGen" hash="8sevl9clrygu4exmgyhozkqbr8jfvfb">
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" />
@@ -19,18 +19,18 @@
     <dep model="r:77603f21-ab6b-487f-82f9-e98e1903f0fc(jetbrains.mps.xmlUnitTest.structure)" />
     <file name="XMLStringLiteral_TextGen.java" />
   </source>
-  <source id="5211164146776738338" name="XMLLiteral_TextGen" hash="4ugfadvstlzivtxwfn5tydh59snw52t">
+  <source id="5211164146776738338" name="XMLLiteral_TextGen" hash="j7yduxskffrxoqbc8k5qjvwjdh243o">
     <dep root="5211164146776771028" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <dep model="r:1e88207e-a8e3-4e7e-8d9b-916f60cbdc61(jetbrains.mps.lang.textGen.generator.template.main@generator)" />
     <dep model="r:77603f21-ab6b-487f-82f9-e98e1903f0fc(jetbrains.mps.xmlUnitTest.structure)" />
     <file name="XMLLiteral_TextGen.java" />
   </source>
-  <source id="5211164146776769242" name="EscapingWriter" hash="dgna38cgazmqiwu1e7dv6kogpo8dy4u">
+  <source id="5211164146776769242" name="EscapingWriter" hash="-c9gc8hfgby3ndymcmmj2z3er1bmfwqc">
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <file name="EscapingWriter.java" />
   </source>
-  <source id="5211164146776771028" name="EscapingElementCreator" hash="5brf0gm51q3dsx0hpv9y0ob5ay5oguh">
+  <source id="5211164146776771028" name="EscapingElementCreator" hash="-cjjfz3yrslm7p1pys30bl865982hnjq">
     <dep root="5211164146776769242" />
     <dep root="5266766379151917320" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
@@ -42,14 +42,14 @@
     <dep model="r:77603f21-ab6b-487f-82f9-e98e1903f0fc(jetbrains.mps.xmlUnitTest.structure)" />
     <file name="EscapingElementCreator.java" />
   </source>
-  <source id="5266766379151917310" name="Document_TextGen" hash="-ae5ba0ad7n5oo4mz6isga2fmz64gl98">
+  <source id="5266766379151917310" name="Document_TextGen" hash="-7v5lc8qpzhtgpeixp74pabmga4i3pbw">
     <dep root="5266766379151917320" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <dep model="r:1e88207e-a8e3-4e7e-8d9b-916f60cbdc61(jetbrains.mps.lang.textGen.generator.template.main@generator)" />
     <dep model="r:77603f21-ab6b-487f-82f9-e98e1903f0fc(jetbrains.mps.xmlUnitTest.structure)" />
     <file name="Document_TextGen.java" />
   </source>
-  <source id="5266766379151917320" name="ElementCreator" hash="-7m23xghk953a3capd33co6gkq2e5twu">
+  <source id="5266766379151917320" name="ElementCreator" hash="-ec1hp1kb8ou8ioamepck13ds2djjcxl">
     <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#org.jdom.output(MPS.Core/org.jdom.output@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />

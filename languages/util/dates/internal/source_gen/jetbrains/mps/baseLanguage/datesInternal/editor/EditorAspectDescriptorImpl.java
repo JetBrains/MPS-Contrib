@@ -4,44 +4,49 @@ package jetbrains.mps.baseLanguage.datesInternal.editor;
 
 import jetbrains.mps.openapi.editor.descriptor.EditorAspectDescriptor;
 import java.util.Collection;
-import jetbrains.mps.openapi.editor.descriptor.EditorAspect;
+import jetbrains.mps.openapi.editor.descriptor.ConceptEditor;
 import jetbrains.mps.smodel.runtime.ConceptDescriptor;
 import java.util.Arrays;
 import java.util.Collections;
+import jetbrains.mps.openapi.editor.descriptor.ConceptEditorComponent;
 
 public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
-  public Collection<EditorAspect> getEditorAspects(ConceptDescriptor descriptor) {
+  public Collection<ConceptEditor> getEditors(ConceptDescriptor descriptor) {
     switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0a, descriptor.getConceptFqName())) {
       case 0:
-        return Collections.<EditorAspect>singletonList(new DateTimeIntPropertyFormatConfiguration_Editor());
+        return Collections.<ConceptEditor>singletonList(new DateTimeIntPropertyFormatConfiguration_Editor());
       case 1:
-        return Collections.<EditorAspect>singletonList(new DateTimeProperty_Editor());
+        return Collections.<ConceptEditor>singletonList(new DateTimeProperty_Editor());
       case 2:
-        return Collections.<EditorAspect>singletonList(new DateTimePropertyCardinality_Editor());
+        return Collections.<ConceptEditor>singletonList(new DateTimePropertyCardinality_Editor());
       case 3:
-        return Collections.<EditorAspect>singletonList(new DateTimePropertyFormatType_Editor());
+        return Collections.<ConceptEditor>singletonList(new DateTimePropertyFormatType_Editor());
       case 4:
-        return Collections.<EditorAspect>singletonList(new DateTimePropertySettings_Editor());
+        return Collections.<ConceptEditor>singletonList(new DateTimePropertySettings_Editor());
       case 5:
-        return Collections.<EditorAspect>singletonList(new DateTimeZone_Editor());
+        return Collections.<ConceptEditor>singletonList(new DateTimeZone_Editor());
       case 6:
-        return Collections.<EditorAspect>singletonList(new DateTimeZonePropertyFormatConfiguration_Editor());
+        return Collections.<ConceptEditor>singletonList(new DateTimeZonePropertyFormatConfiguration_Editor());
       case 7:
-        return Collections.<EditorAspect>singletonList(new DurationType_Editor());
+        return Collections.<ConceptEditor>singletonList(new DurationType_Editor());
       case 8:
-        return Collections.<EditorAspect>singletonList(new FormatTokenSettings_Editor());
+        return Collections.<ConceptEditor>singletonList(new FormatTokenSettings_Editor());
       case 9:
-        return Collections.<EditorAspect>singletonList(new Locale_Editor());
+        return Collections.<ConceptEditor>singletonList(new Locale_Editor());
       case 10:
-        return Collections.<EditorAspect>singletonList(new Month_Editor());
+        return Collections.<ConceptEditor>singletonList(new Month_Editor());
       case 11:
-        return Collections.<EditorAspect>singletonList(new PredefinedDateFormat_Editor());
+        return Collections.<ConceptEditor>singletonList(new PredefinedDateFormat_Editor());
       case 12:
-        return Collections.<EditorAspect>singletonList(new PredefinedPeriodFormat_Editor());
+        return Collections.<ConceptEditor>singletonList(new PredefinedPeriodFormat_Editor());
       case 13:
-        return Collections.<EditorAspect>singletonList(new SchedulePeriod_Editor());
+        return Collections.<ConceptEditor>singletonList(new SchedulePeriod_Editor());
       default:
     }
+    return Collections.emptyList();
+  }
+
+  public Collection<ConceptEditorComponent> getEditorComponents(ConceptDescriptor descriptor, String editorComponentId) {
     return Collections.emptyList();
   }
 
