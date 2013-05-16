@@ -579,9 +579,9 @@
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.UnaryDateTimeOperation_Editor" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.WithPropertyCompareExpression_Editor" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.WithProperty_component" />
-    <classNode dependClassName="jetbrains.mps.openapi.editor.EditorContextHint" />
     <classNode dependClassName="jetbrains.mps.openapi.editor.descriptor.ConceptEditor" />
     <classNode dependClassName="jetbrains.mps.openapi.editor.descriptor.ConceptEditorComponent" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.descriptor.ConceptEditorHint" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.ConceptDescriptor" />
     <classNode extendsClassName="jetbrains.mps.openapi.editor.descriptor.EditorAspectDescriptor" />
   </dependency>
