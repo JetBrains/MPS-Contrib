@@ -110,8 +110,6 @@ public class ParseDateTimeExpression_Editor extends DefaultNodeEditor {
       super();
     }
 
-
-
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
     }
@@ -230,8 +228,6 @@ public class ParseDateTimeExpression_Editor extends DefaultNodeEditor {
     public _Inline_6am7xv_a1c0() {
       super();
     }
-
-
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
@@ -392,8 +388,6 @@ public class ParseDateTimeExpression_Editor extends DefaultNodeEditor {
     public _Inline_6am7xv_a1a0() {
       super();
     }
-
-
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());

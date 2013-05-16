@@ -221,8 +221,6 @@ public class InlineFormatDateTimeExpression_Editor extends DefaultNodeEditor {
       super();
     }
 
-
-
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
     }
@@ -317,8 +315,6 @@ public class InlineFormatDateTimeExpression_Editor extends DefaultNodeEditor {
     public _Inline_wdrux0_a1a0() {
       super();
     }
-
-
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());

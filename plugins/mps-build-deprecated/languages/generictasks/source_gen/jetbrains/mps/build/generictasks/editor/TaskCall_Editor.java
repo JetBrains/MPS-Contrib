@@ -152,8 +152,6 @@ public class TaskCall_Editor extends DefaultNodeEditor {
       super();
     }
 
-
-
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
     }
@@ -215,8 +213,6 @@ public class TaskCall_Editor extends DefaultNodeEditor {
     public _Inline_fr7f84_a1b0() {
       super();
     }
-
-
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
