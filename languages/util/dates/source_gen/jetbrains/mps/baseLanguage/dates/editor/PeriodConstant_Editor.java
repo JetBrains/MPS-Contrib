@@ -99,8 +99,6 @@ public class PeriodConstant_Editor extends DefaultNodeEditor {
       super();
     }
 
-
-
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
     }
@@ -158,8 +156,6 @@ public class PeriodConstant_Editor extends DefaultNodeEditor {
     public _Inline_x7xgz7_a0b0_0() {
       super();
     }
-
-
 
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
