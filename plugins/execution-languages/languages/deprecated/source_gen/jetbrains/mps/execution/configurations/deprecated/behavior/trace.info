@@ -465,15 +465,15 @@
     <nodeInfo nodeId="314981645426570556" fileName="RunConfigurationDeclaration_Behavior.java" startLine="112" startPosition="60" endLine="113" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="314981645426570556" fileName="RunConfigurationDeclaration_Behavior.java" startLine="113" startPosition="63" endLine="114" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="314981645426570556" fileName="RunConfigurationDeclaration_Behavior.java" startLine="114" startPosition="30" endLine="115" endPosition="165" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="314981645426570556" fileName="RunConfigurationDeclaration_Behavior.java" startLine="115" startPosition="165" endLine="116" endPosition="313" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="314981645426570556" fileName="RunConfigurationDeclaration_Behavior.java" startLine="116" startPosition="313" endLine="117" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="314981645426570556" fileName="RunConfigurationDeclaration_Behavior.java" startLine="115" startPosition="165" endLine="116" endPosition="309" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="314981645426570556" fileName="RunConfigurationDeclaration_Behavior.java" startLine="116" startPosition="309" endLine="117" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="314981645426570422" fileName="RunConfigurationDeclaration_Behavior.java" startLine="26" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
     <nodeInfo nodeId="314981645426570485" fileName="RunConfigurationDeclaration_Behavior.java" startLine="98" startPosition="30" endLine="100" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="314981645426570485" fileName="RunConfigurationDeclaration_Behavior.java" startLine="98" startPosition="30" endLine="100" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="314981645426570550" fileName="RunConfigurationDeclaration_Behavior.java" startLine="106" startPosition="30" endLine="108" endPosition="226" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="314981645426570550" fileName="RunConfigurationDeclaration_Behavior.java" startLine="106" startPosition="30" endLine="108" endPosition="226" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="314981645426570556" fileName="RunConfigurationDeclaration_Behavior.java" startLine="114" startPosition="30" endLine="116" endPosition="313" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="314981645426570556" fileName="RunConfigurationDeclaration_Behavior.java" startLine="114" startPosition="30" endLine="116" endPosition="313" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="314981645426570556" fileName="RunConfigurationDeclaration_Behavior.java" startLine="114" startPosition="30" endLine="116" endPosition="309" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="314981645426570556" fileName="RunConfigurationDeclaration_Behavior.java" startLine="114" startPosition="30" endLine="116" endPosition="309" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="314981645426570422" fileName="RunConfigurationDeclaration_Behavior.java" startLine="29" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getGeneratedName_314981645426570423#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
     <nodeInfo nodeId="314981645426570422" fileName="RunConfigurationDeclaration_Behavior.java" startLine="33" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getGeneratedClassFQName_314981645426570434#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
     <nodeInfo nodeId="314981645426570422" fileName="RunConfigurationDeclaration_Behavior.java" startLine="37" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getGeneratedFactoryName_314981645426570449#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
@@ -514,7 +514,7 @@
     </scopeInfo>
     <scopeInfo nodeId="314981645426570485" fileName="RunConfigurationDeclaration_Behavior.java" startLine="98" startPosition="30" endLine="100" endPosition="87" />
     <scopeInfo nodeId="314981645426570550" fileName="RunConfigurationDeclaration_Behavior.java" startLine="106" startPosition="30" endLine="108" endPosition="226" />
-    <scopeInfo nodeId="314981645426570556" fileName="RunConfigurationDeclaration_Behavior.java" startLine="114" startPosition="30" endLine="116" endPosition="313" />
+    <scopeInfo nodeId="314981645426570556" fileName="RunConfigurationDeclaration_Behavior.java" startLine="114" startPosition="30" endLine="116" endPosition="309" />
     <scopeInfo nodeId="314981645426570422" fileName="RunConfigurationDeclaration_Behavior.java" startLine="29" startPosition="0" endLine="32" endPosition="0">
       <varInfo nodeId="314981645426570422" varName="thisNode" />
     </scopeInfo>
@@ -748,11 +748,11 @@
     <nodeInfo nodeId="314981645426570691" fileName="ParametrizedExecuteProcess_Behavior.java" startLine="30" startPosition="60" endLine="31" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="314981645426570691" fileName="ParametrizedExecuteProcess_Behavior.java" startLine="31" startPosition="63" endLine="32" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="314981645426570691" fileName="ParametrizedExecuteProcess_Behavior.java" startLine="32" startPosition="30" endLine="33" endPosition="165" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="314981645426570691" fileName="ParametrizedExecuteProcess_Behavior.java" startLine="33" startPosition="165" endLine="34" endPosition="298" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="314981645426570691" fileName="ParametrizedExecuteProcess_Behavior.java" startLine="34" startPosition="298" endLine="35" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="314981645426570691" fileName="ParametrizedExecuteProcess_Behavior.java" startLine="33" startPosition="165" endLine="34" endPosition="294" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="314981645426570691" fileName="ParametrizedExecuteProcess_Behavior.java" startLine="34" startPosition="294" endLine="35" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="314981645426570687" fileName="ParametrizedExecuteProcess_Behavior.java" startLine="17" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="314981645426570691" fileName="ParametrizedExecuteProcess_Behavior.java" startLine="32" startPosition="30" endLine="34" endPosition="298" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="314981645426570691" fileName="ParametrizedExecuteProcess_Behavior.java" startLine="32" startPosition="30" endLine="34" endPosition="298" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="314981645426570691" fileName="ParametrizedExecuteProcess_Behavior.java" startLine="32" startPosition="30" endLine="34" endPosition="294" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="314981645426570691" fileName="ParametrizedExecuteProcess_Behavior.java" startLine="32" startPosition="30" endLine="34" endPosition="294" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="314981645426570687" fileName="ParametrizedExecuteProcess_Behavior.java" startLine="20" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getExpectedReturnType_1213877374441#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
     <nodeInfo nodeId="314981645426570687" fileName="ParametrizedExecuteProcess_Behavior.java" startLine="24" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getApplicableConceptFunctionParameter_3044950653914717136#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)Ljava/util/List;" />
     <nodeInfo nodeId="314981645426570691" fileName="ParametrizedExecuteProcess_Behavior.java" startLine="30" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_9hdhrc_a0a0#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -761,7 +761,7 @@
     <scopeInfo nodeId="314981645426570687" fileName="ParametrizedExecuteProcess_Behavior.java" startLine="17" startPosition="0" endLine="19" endPosition="0">
       <varInfo nodeId="314981645426570687" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="314981645426570691" fileName="ParametrizedExecuteProcess_Behavior.java" startLine="32" startPosition="30" endLine="34" endPosition="298" />
+    <scopeInfo nodeId="314981645426570691" fileName="ParametrizedExecuteProcess_Behavior.java" startLine="32" startPosition="30" endLine="34" endPosition="294" />
     <scopeInfo nodeId="314981645426570687" fileName="ParametrizedExecuteProcess_Behavior.java" startLine="20" startPosition="0" endLine="23" endPosition="0">
       <varInfo nodeId="314981645426570687" varName="thisNode" />
     </scopeInfo>
@@ -1027,13 +1027,13 @@
     <nodeInfo nodeId="9017024590936850773" fileName="JavaRunConfiguration_Behavior.java" startLine="51" startPosition="60" endLine="52" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="9017024590936850773" fileName="JavaRunConfiguration_Behavior.java" startLine="52" startPosition="63" endLine="53" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="9017024590936850773" fileName="JavaRunConfiguration_Behavior.java" startLine="53" startPosition="30" endLine="54" endPosition="165" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="9017024590936850773" fileName="JavaRunConfiguration_Behavior.java" startLine="54" startPosition="165" endLine="55" endPosition="313" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="9017024590936850773" fileName="JavaRunConfiguration_Behavior.java" startLine="55" startPosition="313" endLine="56" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="9017024590936850773" fileName="JavaRunConfiguration_Behavior.java" startLine="54" startPosition="165" endLine="55" endPosition="309" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9017024590936850773" fileName="JavaRunConfiguration_Behavior.java" startLine="55" startPosition="309" endLine="56" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4964800443628310125" fileName="JavaRunConfiguration_Behavior.java" startLine="18" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
     <nodeInfo nodeId="9017024590936608827" fileName="JavaRunConfiguration_Behavior.java" startLine="45" startPosition="30" endLine="47" endPosition="265" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="9017024590936608827" fileName="JavaRunConfiguration_Behavior.java" startLine="45" startPosition="30" endLine="47" endPosition="265" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="9017024590936850773" fileName="JavaRunConfiguration_Behavior.java" startLine="53" startPosition="30" endLine="55" endPosition="313" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="9017024590936850773" fileName="JavaRunConfiguration_Behavior.java" startLine="53" startPosition="30" endLine="55" endPosition="313" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="9017024590936850773" fileName="JavaRunConfiguration_Behavior.java" startLine="53" startPosition="30" endLine="55" endPosition="309" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="9017024590936850773" fileName="JavaRunConfiguration_Behavior.java" startLine="53" startPosition="30" endLine="55" endPosition="309" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="4964800443628310125" fileName="JavaRunConfiguration_Behavior.java" startLine="28" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getParameterFieldName_8126994885493113070#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
     <nodeInfo nodeId="9017024590936608816" fileName="JavaRunConfiguration_Behavior.java" startLine="32" startPosition="79" endLine="35" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="4964800443628310125" fileName="JavaRunConfiguration_Behavior.java" startLine="39" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_requiresCustomEditor_1262430001741498265#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)Z" />
@@ -1049,7 +1049,7 @@
       <varInfo nodeId="4964800443628310125" varName="thisNode" />
     </scopeInfo>
     <scopeInfo nodeId="9017024590936608827" fileName="JavaRunConfiguration_Behavior.java" startLine="45" startPosition="30" endLine="47" endPosition="265" />
-    <scopeInfo nodeId="9017024590936850773" fileName="JavaRunConfiguration_Behavior.java" startLine="53" startPosition="30" endLine="55" endPosition="313" />
+    <scopeInfo nodeId="9017024590936850773" fileName="JavaRunConfiguration_Behavior.java" startLine="53" startPosition="30" endLine="55" endPosition="309" />
     <scopeInfo nodeId="4964800443628310125" fileName="JavaRunConfiguration_Behavior.java" startLine="28" startPosition="0" endLine="31" endPosition="0">
       <varInfo nodeId="4964800443628310125" varName="thisNode" />
     </scopeInfo>
