@@ -13,7 +13,7 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="$PROJECT_DIR$/../workbench/ideSolution/jetbrains.mps.ide.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/migration/solution/jetbrains.mps.ide.migration.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/mpsmigration/solution/jetbrains.mps.ide.mpsmigration.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/modelchecker/solution/jetbrains.mps.ide.modelchecker.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/mpsdevkit/solution/mpsdevkit.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/mpsjava/solution/jetbrains.mps.ide.java.msd" folder="" />
@@ -24,7 +24,7 @@
   </component>
   <component name="ProjectRootManager" version="2" />
   <component name="ProjectVersion">
-    <option name="version" value="2.5" />
+    <option name="version" value="3.0" />
   </component>
 </project>
 
