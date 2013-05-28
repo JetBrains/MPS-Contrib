@@ -38,7 +38,7 @@
     <nodeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="103" startPosition="73" endLine="104" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="110" startPosition="135" endLine="111" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
     <nodeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="115" startPosition="39" endLine="116" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="117" startPosition="7" endLine="118" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
+    <nodeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="117" startPosition="7" endLine="118" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
     <nodeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="121" startPosition="45" endLine="122" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="130" startPosition="0" endLine="131" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="requiredAttributes" />
     <nodeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="136" startPosition="45" endLine="137" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -169,7 +169,7 @@
     <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="52" startPosition="12" endLine="56" endPosition="7">
       <varInfo nodeId="2059681291147340382" varName="ch" />
     </scopeInfo>
-    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="114" startPosition="86" endLine="118" endPosition="64" />
+    <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="114" startPosition="86" endLine="118" endPosition="81" />
     <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="135" startPosition="0" endLine="139" endPosition="0" />
     <scopeInfo nodeId="2059681291147340382" fileName="TestParserHandler.java" startLine="154" startPosition="0" endLine="158" endPosition="0">
       <varInfo nodeId="2059681291147340382" varName="resultObject" />
