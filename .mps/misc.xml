@@ -186,10 +186,6 @@
       <modulePath path="$PROJECT_DIR$/languages/util/conf/languages/conf/jetbrains.mps.platform.conf.mpl" folder="languages" />
       <modulePath path="$PROJECT_DIR$/languages/util/conf/solutions/jetbrains.mps.platform.conf.sandbox/jetbrains.mps.platform.conf.sandbox.msd" folder="languages" />
       <modulePath path="$PROJECT_DIR$/languages/util/contracts/languages/contracts/jetbrains.mps.baseLanguage.contracts.mpl" folder="baseLanguage" />
-      <modulePath path="$PROJECT_DIR$/languages/util/dates/internal/jetbrains.mps.baseLanguage.datesInternal.mpl" folder="baseLanguage.dates" />
-      <modulePath path="$PROJECT_DIR$/languages/util/dates/jetbrains.mps.baseLanguage.dates.mpl" folder="baseLanguage.dates" />
-      <modulePath path="$PROJECT_DIR$/languages/util/dates/runtime/jetbrains.mps.baseLanguage.dates.runtime.msd" folder="baseLanguage.dates" />
-      <modulePath path="$PROJECT_DIR$/languages/util/dates/unittest/dates_unittest.msd" folder="baseLanguage.dates" />
       <modulePath path="$PROJECT_DIR$/languages/util/execution/util/jetbrains.mps.execution.util.mpl" folder="languages.execution.common" />
       <modulePath path="$PROJECT_DIR$/languages/util/extensionMethod/jetbrains.mps.baseLanguage.extensionMethods.mpl" folder="baseLanguage.extensionMethods" />
       <modulePath path="$PROJECT_DIR$/languages/util/extensionMethod/solutions/jetbrains.mps.baseLanguage.extensionMethods.sandbox/jetbrains.mps.baseLanguage.extensionMethods.sandbox.msd" folder="baseLanguage.extensionMethods" />
@@ -293,6 +289,10 @@
       <modulePath path="$PROJECT_DIR$/plugins/mps-core/languages/util/xml/xmlQuery/jetbrains.mps.xmlQuery.mpl" folder="languages.xml" />
       <modulePath path="$PROJECT_DIR$/plugins/mps-core/languages/util/xml/xmlQuery/runtime/jetbrains.mps.xmlQuery.runtime.msd" folder="languages.xml" />
       <modulePath path="$PROJECT_DIR$/plugins/mps-core/languages/util/xml/xmlSchema/jetbrains.mps.xmlSchema.mpl" folder="languages.xml" />
+      <modulePath path="$PROJECT_DIR$/plugins/mps-dates/languages/dates/internal/jetbrains.mps.baseLanguage.datesInternal.mpl" folder="baseLanguage.dates" />
+      <modulePath path="$PROJECT_DIR$/plugins/mps-dates/languages/dates/runtime/jetbrains.mps.baseLanguage.dates.runtime.msd" folder="baseLanguage.dates" />
+      <modulePath path="$PROJECT_DIR$/plugins/mps-dates/languages/dates/unittest/dates_unittest.msd" folder="baseLanguage.dates" />
+      <modulePath path="$PROJECT_DIR$/plugins/mps-dates/languages/dates/jetbrains.mps.baseLanguage.dates.mpl" folder="baseLanguage.dates" />
       <modulePath path="$PROJECT_DIR$/plugins/mps-experimental/languages/math/jetbrains.mps.baseLanguage.math.mpl" folder="baseLanguage.math" />
       <modulePath path="$PROJECT_DIR$/plugins/mps-experimental/languages/math/runtimeSolution/jetbrains.mps.baseLanguage.math.runtime.msd" folder="baseLanguage.math" />
       <modulePath path="$PROJECT_DIR$/plugins/mps-experimental/languages/math/solutions/jetbrains.mps.baseLanguage.math.sandbox/jetbrains.mps.baseLanguage.math.sandbox.msd" folder="baseLanguage.math" />
