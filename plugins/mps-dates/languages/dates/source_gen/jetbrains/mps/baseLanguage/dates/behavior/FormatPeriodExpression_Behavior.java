@@ -18,7 +18,7 @@ public class FormatPeriodExpression_Behavior {
 
   public static SNode virtual_deriveType_1213877435747(SNode thisNode, SNode expression) {
     if ((expression != null)) {
-      String role = thisNode.getRoleOf(expression);
+      String role = expression.getRoleInParent();
       if (SPropertyOperations.getString(SLinkOperations.findLinkDeclaration("jetbrains.mps.baseLanguage.dates.structure.FormatPeriodExpression", "period"), "role").equals(role)) {
         return _quotation_createNode_tjsbw0_a0a1a0a0();
       }

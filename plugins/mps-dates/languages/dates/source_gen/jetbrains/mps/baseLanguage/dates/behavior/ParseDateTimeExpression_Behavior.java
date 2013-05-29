@@ -18,7 +18,7 @@ public class ParseDateTimeExpression_Behavior {
 
   public static SNode virtual_deriveType_1213877435747(SNode thisNode, SNode expression) {
     if ((expression != null)) {
-      String role = thisNode.getRoleOf(expression);
+      String role = expression.getRoleInParent();
       if (SPropertyOperations.getString(SLinkOperations.findLinkDeclaration("jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression", "zone"), "role").equals(role)) {
         return _quotation_createNode_b1835x_a0a1a0a0();
       }
