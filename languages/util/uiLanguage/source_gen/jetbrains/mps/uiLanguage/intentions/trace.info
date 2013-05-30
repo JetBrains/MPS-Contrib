@@ -6,7 +6,7 @@
     <nodeInfo nodeId="1203674861152" fileName="AddOnChangeHandler_Intention.java" startLine="24" startPosition="30" endLine="25" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1203674861152" fileName="AddOnChangeHandler_Intention.java" startLine="28" startPosition="35" endLine="29" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1203674861152" fileName="AddOnChangeHandler_Intention.java" startLine="32" startPosition="41" endLine="33" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1203674861152" fileName="AddOnChangeHandler_Intention.java" startLine="36" startPosition="37" endLine="37" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1203674861152" fileName="AddOnChangeHandler_Intention.java" startLine="36" startPosition="37" endLine="37" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1203674861152" fileName="AddOnChangeHandler_Intention.java" startLine="40" startPosition="34" endLine="41" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1203674861152" fileName="AddOnChangeHandler_Intention.java" startLine="44" startPosition="44" endLine="45" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1203674861152" fileName="AddOnChangeHandler_Intention.java" startLine="49" startPosition="53" endLine="50" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -44,7 +44,7 @@
     <scopeInfo nodeId="1203674861152" fileName="AddOnChangeHandler_Intention.java" startLine="24" startPosition="30" endLine="25" endPosition="69" />
     <scopeInfo nodeId="1203674861152" fileName="AddOnChangeHandler_Intention.java" startLine="28" startPosition="35" endLine="29" endPosition="32" />
     <scopeInfo nodeId="1203674861152" fileName="AddOnChangeHandler_Intention.java" startLine="32" startPosition="41" endLine="33" endPosition="78" />
-    <scopeInfo nodeId="1203674861152" fileName="AddOnChangeHandler_Intention.java" startLine="36" startPosition="37" endLine="37" endPosition="43" />
+    <scopeInfo nodeId="1203674861152" fileName="AddOnChangeHandler_Intention.java" startLine="36" startPosition="37" endLine="37" endPosition="38" />
     <scopeInfo nodeId="1203674861152" fileName="AddOnChangeHandler_Intention.java" startLine="40" startPosition="34" endLine="41" endPosition="32" />
     <scopeInfo nodeId="1203674861152" fileName="AddOnChangeHandler_Intention.java" startLine="44" startPosition="44" endLine="45" endPosition="17" />
     <scopeInfo nodeId="1203674861152" fileName="AddOnChangeHandler_Intention.java" startLine="49" startPosition="53" endLine="50" endPosition="19" />
@@ -98,7 +98,7 @@
     <nodeInfo nodeId="1204896171511" fileName="AddInitializer_Intention.java" startLine="24" startPosition="30" endLine="25" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1204896171511" fileName="AddInitializer_Intention.java" startLine="28" startPosition="35" endLine="29" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1204896171511" fileName="AddInitializer_Intention.java" startLine="32" startPosition="41" endLine="33" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1204896171511" fileName="AddInitializer_Intention.java" startLine="36" startPosition="37" endLine="37" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1204896171511" fileName="AddInitializer_Intention.java" startLine="36" startPosition="37" endLine="37" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1204896171511" fileName="AddInitializer_Intention.java" startLine="40" startPosition="34" endLine="41" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1204896171511" fileName="AddInitializer_Intention.java" startLine="44" startPosition="44" endLine="45" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1204896171511" fileName="AddInitializer_Intention.java" startLine="49" startPosition="53" endLine="50" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -136,7 +136,7 @@
     <scopeInfo nodeId="1204896171511" fileName="AddInitializer_Intention.java" startLine="24" startPosition="30" endLine="25" endPosition="69" />
     <scopeInfo nodeId="1204896171511" fileName="AddInitializer_Intention.java" startLine="28" startPosition="35" endLine="29" endPosition="28" />
     <scopeInfo nodeId="1204896171511" fileName="AddInitializer_Intention.java" startLine="32" startPosition="41" endLine="33" endPosition="74" />
-    <scopeInfo nodeId="1204896171511" fileName="AddInitializer_Intention.java" startLine="36" startPosition="37" endLine="37" endPosition="43" />
+    <scopeInfo nodeId="1204896171511" fileName="AddInitializer_Intention.java" startLine="36" startPosition="37" endLine="37" endPosition="38" />
     <scopeInfo nodeId="1204896171511" fileName="AddInitializer_Intention.java" startLine="40" startPosition="34" endLine="41" endPosition="32" />
     <scopeInfo nodeId="1204896171511" fileName="AddInitializer_Intention.java" startLine="44" startPosition="44" endLine="45" endPosition="17" />
     <scopeInfo nodeId="1204896171511" fileName="AddInitializer_Intention.java" startLine="49" startPosition="53" endLine="50" endPosition="19" />

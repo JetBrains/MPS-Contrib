@@ -34,7 +34,7 @@ public class AddInitializer_Intention implements IntentionFactory {
   }
 
   public String getLanguageFqName() {
-    return "jetbrains.mps.lang.intentions";
+    return "jetbrains.mps.uiLanguage";
   }
 
   public IntentionType getType() {
