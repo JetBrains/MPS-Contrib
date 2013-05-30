@@ -6,7 +6,7 @@
     <nodeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="23" startPosition="30" endLine="24" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="27" startPosition="35" endLine="28" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="31" startPosition="41" endLine="32" endPosition="89" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="35" startPosition="37" endLine="36" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="35" startPosition="37" endLine="36" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="39" startPosition="34" endLine="40" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="43" startPosition="44" endLine="44" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="47" startPosition="84" endLine="48" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -38,7 +38,7 @@
     <scopeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="23" startPosition="30" endLine="24" endPosition="66" />
     <scopeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="27" startPosition="35" endLine="28" endPosition="44" />
     <scopeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="31" startPosition="41" endLine="32" endPosition="89" />
-    <scopeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="35" startPosition="37" endLine="36" endPosition="43" />
+    <scopeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="35" startPosition="37" endLine="36" endPosition="37" />
     <scopeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="39" startPosition="34" endLine="40" endPosition="32" />
     <scopeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="43" startPosition="44" endLine="44" endPosition="16" />
     <scopeInfo nodeId="1195647346726" fileName="MakeTypeExpressionListVertical_Intention.java" startLine="47" startPosition="84" endLine="48" endPosition="16" />

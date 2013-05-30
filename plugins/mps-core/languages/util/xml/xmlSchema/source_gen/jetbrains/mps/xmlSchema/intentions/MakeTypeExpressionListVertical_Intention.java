@@ -33,7 +33,7 @@ public class MakeTypeExpressionListVertical_Intention implements IntentionFactor
   }
 
   public String getLanguageFqName() {
-    return "jetbrains.mps.lang.intentions";
+    return "jetbrains.mps.xmlSchema";
   }
 
   public IntentionType getType() {

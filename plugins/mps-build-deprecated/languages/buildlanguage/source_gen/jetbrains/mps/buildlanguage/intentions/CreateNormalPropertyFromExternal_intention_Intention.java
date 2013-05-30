@@ -36,7 +36,7 @@ public class CreateNormalPropertyFromExternal_intention_Intention implements Int
   }
 
   public String getLanguageFqName() {
-    return "jetbrains.mps.lang.intentions";
+    return "jetbrains.mps.buildlanguage";
   }
 
   public IntentionType getType() {

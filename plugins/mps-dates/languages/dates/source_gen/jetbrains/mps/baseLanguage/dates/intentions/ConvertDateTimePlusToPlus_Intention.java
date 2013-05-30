@@ -34,7 +34,7 @@ public class ConvertDateTimePlusToPlus_Intention implements IntentionFactory {
   }
 
   public String getLanguageFqName() {
-    return "jetbrains.mps.lang.intentions";
+    return "jetbrains.mps.baseLanguage.dates";
   }
 
   public IntentionType getType() {

@@ -36,7 +36,7 @@ public class RoundDateTimeOperation_fixInstant_Intention implements IntentionFac
   }
 
   public String getLanguageFqName() {
-    return "jetbrains.mps.lang.intentions";
+    return "jetbrains.mps.baseLanguage.dates";
   }
 
   public IntentionType getType() {

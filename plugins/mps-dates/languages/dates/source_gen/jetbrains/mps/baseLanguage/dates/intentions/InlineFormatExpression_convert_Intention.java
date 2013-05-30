@@ -36,7 +36,7 @@ public class InlineFormatExpression_convert_Intention implements IntentionFactor
   }
 
   public String getLanguageFqName() {
-    return "jetbrains.mps.lang.intentions";
+    return "jetbrains.mps.baseLanguage.dates";
   }
 
   public IntentionType getType() {

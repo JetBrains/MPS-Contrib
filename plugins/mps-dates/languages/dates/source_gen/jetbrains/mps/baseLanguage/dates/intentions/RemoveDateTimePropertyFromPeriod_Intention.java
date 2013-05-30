@@ -34,7 +34,7 @@ public class RemoveDateTimePropertyFromPeriod_Intention implements IntentionFact
   }
 
   public String getLanguageFqName() {
-    return "jetbrains.mps.lang.intentions";
+    return "jetbrains.mps.baseLanguage.dates";
   }
 
   public IntentionType getType() {

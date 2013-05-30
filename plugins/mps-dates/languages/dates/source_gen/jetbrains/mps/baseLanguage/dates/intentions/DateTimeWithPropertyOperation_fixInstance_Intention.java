@@ -36,7 +36,7 @@ public class DateTimeWithPropertyOperation_fixInstance_Intention implements Inte
   }
 
   public String getLanguageFqName() {
-    return "jetbrains.mps.lang.intentions";
+    return "jetbrains.mps.baseLanguage.dates";
   }
 
   public IntentionType getType() {

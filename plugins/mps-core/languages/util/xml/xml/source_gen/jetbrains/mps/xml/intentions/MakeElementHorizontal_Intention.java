@@ -35,7 +35,7 @@ public class MakeElementHorizontal_Intention implements IntentionFactory {
   }
 
   public String getLanguageFqName() {
-    return "jetbrains.mps.lang.intentions";
+    return "jetbrains.mps.xml";
   }
 
   public IntentionType getType() {
