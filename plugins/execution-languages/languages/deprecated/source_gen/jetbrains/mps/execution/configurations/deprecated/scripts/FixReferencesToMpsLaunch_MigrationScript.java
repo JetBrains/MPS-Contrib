@@ -35,7 +35,7 @@ public class FixReferencesToMpsLaunch_MigrationScript extends BaseMigrationScrip
       public boolean isApplicableInstanceNode(SNode node) {
         // only root nodes 
         SModel model = node.getModel();
-        return model != null && model.isRoot(node) && Sequence.fromIterable(ScriptsUtil.getImports(SNodeOperations.getModel(node), "jetbrains.mps.baseLanguage.util.plugin.run")).isNotEmpty();
+        return model != null && node.getParent() == null && Sequence.fromIterable(ScriptsUtil.getImports(SNodeOperations.getModel(node), "jetbrains.mps.baseLanguage.util.plugin.run")).isNotEmpty();
       }
 
       public void doUpdateInstanceNode(SNode node) {

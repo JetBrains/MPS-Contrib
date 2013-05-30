@@ -241,11 +241,6 @@
       <directory url="file://$PROJECT_DIR$/languages/util/builders/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/languages/util/buildlanguage/languages/gentest/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/languages/util/buildlanguage/languages/reduced/source_gen" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/languages/util/conf/languages/conf/source_gen" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/languages/util/conf/solutions/jetbrains.mps.platform.conf.sandbox/source_gen" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/languages/util/conf/solutions/jetbrains.mps.platform.conf.sandbox/test_gen" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/languages/util/contracts/languages/contracts/generator/source_gen" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/languages/util/contracts/languages/contracts/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/languages/util/execution/util/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/languages/util/extensionMethod/generator/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/languages/util/extensionMethod/solutions/jetbrains.mps.baseLanguage.extensionMethods.sandbox/source_gen" includeSubdirectories="true" />
@@ -464,18 +459,6 @@
       <directory url="file://$PROJECT_DIR$/plugins/mps-experimental/languages/ui/solutions/jetbrains.mps.ui.unittest/test_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/plugins/mps-experimental/languages/ui/solutions/ui.sandbox/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/plugins/mps-experimental/languages/ui/solutions/ui.sandbox/test_gen" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/plugins/mps-experimental/languages/ypath/generator/source_gen" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/plugins/mps-experimental/languages/ypath/solutions/jetbrains.mps.ypath.runtime/source_gen" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/plugins/mps-experimental/languages/ypath/solutions/jetbrains.mps.ypath.runtime/test_gen" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/plugins/mps-experimental/languages/ypath/solutions/main/source_gen" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/plugins/mps-experimental/languages/ypath/solutions/main/test_gen" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/plugins/mps-experimental/languages/ypath/solutions/pluginSolution/source_gen" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/plugins/mps-experimental/languages/ypath/solutions/pluginSolution/test_gen" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/plugins/mps-experimental/languages/ypath/solutions/sandbox/source_gen" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/plugins/mps-experimental/languages/ypath/solutions/sandbox/test_gen" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/plugins/mps-experimental/languages/ypath/solutions/test/source_gen" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/plugins/mps-experimental/languages/ypath/solutions/test/test_gen" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/plugins/mps-experimental/languages/ypath/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/plugins/mps-obsolete/languages/custommps/generator/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/plugins/mps-obsolete/languages/custommps/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/plugins/mps-obsolete/languages/dependency/generator/source_gen" includeSubdirectories="true" />

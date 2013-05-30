@@ -183,7 +183,6 @@
       <modulePath path="$PROJECT_DIR$/languages/util/builders/sandbox/jetbrains.mps.baseLanguage.builders.sandbox.msd" folder="baseLanguage.builders" />
       <modulePath path="$PROJECT_DIR$/languages/util/buildlanguage/languages/gentest/jetbrains.mps.build.gentest.mpl" folder="languages.build" />
       <modulePath path="$PROJECT_DIR$/languages/util/buildlanguage/languages/reduced/jetbrains.mps.build.reduced.mpl" folder="languages.build" />
-      <modulePath path="$PROJECT_DIR$/languages/util/contracts/languages/contracts/jetbrains.mps.baseLanguage.contracts.mpl" folder="baseLanguage" />
       <modulePath path="$PROJECT_DIR$/languages/util/execution/util/jetbrains.mps.execution.util.mpl" folder="languages.execution.common" />
       <modulePath path="$PROJECT_DIR$/languages/util/extensionMethod/jetbrains.mps.baseLanguage.extensionMethods.mpl" folder="baseLanguage.extensionMethods" />
       <modulePath path="$PROJECT_DIR$/languages/util/extensionMethod/solutions/jetbrains.mps.baseLanguage.extensionMethods.sandbox/jetbrains.mps.baseLanguage.extensionMethods.sandbox.msd" folder="baseLanguage.extensionMethods" />
@@ -316,12 +315,6 @@
       <modulePath path="$PROJECT_DIR$/plugins/mps-experimental/languages/ui/languages/ui/solutions/pluginSolution/jetbrains.mps.ui.pluginSolution.msd" folder="languages.ui" />
       <modulePath path="$PROJECT_DIR$/plugins/mps-experimental/languages/ui/solutions/jetbrains.mps.ui.unittest/jetbrains.mps.ui.unittest.msd" folder="languages.ui" />
       <modulePath path="$PROJECT_DIR$/plugins/mps-experimental/languages/ui/solutions/ui.sandbox/jetbrains.mps.ui.sandbox.msd" folder="languages.ui" />
-      <modulePath path="$PROJECT_DIR$/plugins/mps-experimental/languages/ypath/jetbrains.mps.ypath.mpl" folder="languages.ypath" />
-      <modulePath path="$PROJECT_DIR$/plugins/mps-experimental/languages/ypath/solutions/jetbrains.mps.ypath.runtime/jetbrains.mps.ypath.runtime.msd" folder="languages.ypath" />
-      <modulePath path="$PROJECT_DIR$/plugins/mps-experimental/languages/ypath/solutions/main/ypath.main.msd" folder="languages.ypath" />
-      <modulePath path="$PROJECT_DIR$/plugins/mps-experimental/languages/ypath/solutions/pluginSolution/jetbrains.mps.ypath.pluginSolution.msd" folder="languages.ypath" />
-      <modulePath path="$PROJECT_DIR$/plugins/mps-experimental/languages/ypath/solutions/sandbox/ypath.sandbox.msd" folder="languages.ypath" />
-      <modulePath path="$PROJECT_DIR$/plugins/mps-experimental/languages/ypath/solutions/test/ypath.test.msd" folder="languages.ypath" />
       <modulePath path="$PROJECT_DIR$/plugins/mps-obsolete/languages/custommps/jetbrains.mps.build.custommps.mpl" folder="languages.build" />
       <modulePath path="$PROJECT_DIR$/plugins/mps-obsolete/languages/dependency/jetbrains.mps.build.dependency.mpl" folder="languages.build" />
       <modulePath path="$PROJECT_DIR$/plugins/mps-obsolete/languages/packaging/jetbrains.mps.build.packaging.mpl" folder="languages.build" />
