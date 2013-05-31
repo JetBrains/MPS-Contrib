@@ -183,8 +183,6 @@
       <modulePath path="$PROJECT_DIR$/languages/util/builders/sandbox/jetbrains.mps.baseLanguage.builders.sandbox.msd" folder="baseLanguage.builders" />
       <modulePath path="$PROJECT_DIR$/languages/util/buildlanguage/languages/gentest/jetbrains.mps.build.gentest.mpl" folder="languages.build" />
       <modulePath path="$PROJECT_DIR$/languages/util/buildlanguage/languages/reduced/jetbrains.mps.build.reduced.mpl" folder="languages.build" />
-      <modulePath path="$PROJECT_DIR$/languages/util/conf/languages/conf/jetbrains.mps.platform.conf.mpl" folder="languages" />
-      <modulePath path="$PROJECT_DIR$/languages/util/conf/solutions/jetbrains.mps.platform.conf.sandbox/jetbrains.mps.platform.conf.sandbox.msd" folder="languages" />
       <modulePath path="$PROJECT_DIR$/languages/util/contracts/languages/contracts/jetbrains.mps.baseLanguage.contracts.mpl" folder="baseLanguage" />
       <modulePath path="$PROJECT_DIR$/languages/util/execution/util/jetbrains.mps.execution.util.mpl" folder="languages.execution.common" />
       <modulePath path="$PROJECT_DIR$/languages/util/extensionMethod/jetbrains.mps.baseLanguage.extensionMethods.mpl" folder="baseLanguage.extensionMethods" />
