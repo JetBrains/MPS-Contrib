@@ -67,7 +67,6 @@
       <modulePath path="$PROJECT_DIR$/languages/baseLanguage/collections/languages/trove/jetbrains.mps.baseLanguage.collections.trove.mpl" folder="baseLanguage.collections" />
       <modulePath path="$PROJECT_DIR$/languages/baseLanguage/collections/languages/trove/runtime/collections_trove.runtime.msd" folder="baseLanguage.collections" />
       <modulePath path="$PROJECT_DIR$/languages/baseLanguage/collections/runtime/collections.runtime.msd" folder="baseLanguage.collections" />
-      <modulePath path="$PROJECT_DIR$/languages/baseLanguage/collections/runtime/gwt/collections.runtime.gwt.msd" folder="baseLanguage.collections" />
       <modulePath path="$PROJECT_DIR$/languages/baseLanguage/collections/solutions/collections/samples/jetbrains.mps.baseLanguage.collections.samples.msd" folder="baseLanguage.collections" />
       <modulePath path="$PROJECT_DIR$/languages/baseLanguage/collections/solutions/collections/unittest/collections_unittest.msd" folder="baseLanguage.collections" />
       <modulePath path="$PROJECT_DIR$/languages/baseLanguage/collections/solutions/collections_trove.test/collections_trove.test.msd" folder="baseLanguage.collections" />
@@ -192,9 +191,6 @@
       <modulePath path="$PROJECT_DIR$/languages/util/graphLayout/solutions/jetbrains.mps.graphLayout.orthogonalLayout/jetbrains.mps.graphLayout.orthogonalLayout.msd" folder="graphLayout" />
       <modulePath path="$PROJECT_DIR$/languages/util/graphLayout/solutions/jetbrains.mps.graphLayout.planarization/jetbrains.mps.graphLayout.planarization.msd" folder="graphLayout" />
       <modulePath path="$PROJECT_DIR$/languages/util/graphLayout/solutions/jetbrains.mps.graphLayout.test/jetbrains.mps.graphLayout.test.msd" folder="graphLayout" />
-      <modulePath path="$PROJECT_DIR$/languages/util/gwtsupport/languages/client/jetbrains.mps.gwt.client.mpl" folder="languages.gwt" />
-      <modulePath path="$PROJECT_DIR$/languages/util/gwtsupport/solutions/gwtsupport.buildtest/gwtsupport.buildtest.msd" folder="languages.gwt" />
-      <modulePath path="$PROJECT_DIR$/languages/util/gwtsupport/solutions/gwtsupport.sandbox/gwtsupport.sandbox.msd" folder="languages.gwt" />
       <modulePath path="$PROJECT_DIR$/languages/util/ideUiLanguage/jetbrains.mps.ide.uiLanguage.mpl" folder="languages.uiLanguage" />
       <modulePath path="$PROJECT_DIR$/languages/util/regexp/jetbrains.mps.baseLanguage.regexp.mpl" folder="baseLanguage.regexp" />
       <modulePath path="$PROJECT_DIR$/languages/util/regexp/solutions/jetbrains.mps.baseLanguage.regexp.runtime/jetbrains.mps.baseLanguage.regexp.runtime.msd" folder="baseLanguage.regexp" />
@@ -281,31 +277,6 @@
       <modulePath path="$PROJECT_DIR$/plugins/mps-dates/languages/dates/jetbrains.mps.baseLanguage.dates.mpl" folder="baseLanguage.dates" />
       <modulePath path="$PROJECT_DIR$/plugins/mps-dates/languages/dates/runtime/jetbrains.mps.baseLanguage.dates.runtime.msd" folder="baseLanguage.dates" />
       <modulePath path="$PROJECT_DIR$/plugins/mps-dates/languages/dates/unittest/dates_unittest.msd" folder="baseLanguage.dates" />
-      <modulePath path="$PROJECT_DIR$/plugins/mps-experimental/languages/math/jetbrains.mps.baseLanguage.math.mpl" folder="baseLanguage.math" />
-      <modulePath path="$PROJECT_DIR$/plugins/mps-experimental/languages/math/runtimeSolution/jetbrains.mps.baseLanguage.math.runtime.msd" folder="baseLanguage.math" />
-      <modulePath path="$PROJECT_DIR$/plugins/mps-experimental/languages/math/solutions/jetbrains.mps.baseLanguage.math.sandbox/jetbrains.mps.baseLanguage.math.sandbox.msd" folder="baseLanguage.math" />
-      <modulePath path="$PROJECT_DIR$/plugins/mps-experimental/languages/math/solutions/jetbrains.mps.baseLanguage.math.tests/jetbrains.mps.baseLanguage.math.tests.msd" folder="baseLanguage.math" />
-      <modulePath path="$PROJECT_DIR$/plugins/mps-experimental/languages/math/solutions/pluginSolution/jetbrains.mps.baseLanguage.math.pluginSolution.msd" folder="baseLanguage.math" />
-      <modulePath path="$PROJECT_DIR$/plugins/mps-experimental/languages/money/jetbrains.mps.baseLanguage.money.mpl" folder="baseLanguage.money" />
-      <modulePath path="$PROJECT_DIR$/plugins/mps-experimental/languages/money/runtimeSolution/jetbrains.mps.baseLanguage.money.runtime.msd" folder="baseLanguage.money" />
-      <modulePath path="$PROJECT_DIR$/plugins/mps-experimental/languages/ui/languages/gwt/jetbrains.mps.ui.gwt.mpl" folder="languages.ui" />
-      <modulePath path="$PROJECT_DIR$/plugins/mps-experimental/languages/ui/languages/gwt/solutions/pluginSolution/jetbrains.mps.ui.gwt.pluginSolution.msd" folder="languages.ui" />
-      <modulePath path="$PROJECT_DIR$/plugins/mps-experimental/languages/ui/languages/gwt/solutions/runtime/jetbrains.mps.ui.gwt.runtime.msd" folder="languages.ui" />
-      <modulePath path="$PROJECT_DIR$/plugins/mps-experimental/languages/ui/languages/internal/jetbrains.mps.ui.internal.mpl" folder="languages.ui" />
-      <modulePath path="$PROJECT_DIR$/plugins/mps-experimental/languages/ui/languages/meta/jetbrains.mps.ui.modeling.mpl" folder="languages.ui" />
-      <modulePath path="$PROJECT_DIR$/plugins/mps-experimental/languages/ui/languages/meta/solutions/pluginSolution/jetbrains.mps.ui.modeling.pluginSolution.msd" folder="languages.ui" />
-      <modulePath path="$PROJECT_DIR$/plugins/mps-experimental/languages/ui/languages/swing/jetbrains.mps.ui.swing.mpl" folder="languages.ui" />
-      <modulePath path="$PROJECT_DIR$/plugins/mps-experimental/languages/ui/languages/swing/runtime/jetbrains.mps.ui.swing.runtime.msd" folder="languages.ui" />
-      <modulePath path="$PROJECT_DIR$/plugins/mps-experimental/languages/ui/languages/swing/solutions/pluginSolution/jetbrains.mps.ui.swing.pluginSolution.msd" folder="languages.ui" />
-      <modulePath path="$PROJECT_DIR$/plugins/mps-experimental/languages/ui/languages/swt/jetbrains.mps.ui.swt.mpl" folder="languages.ui" />
-      <modulePath path="$PROJECT_DIR$/plugins/mps-experimental/languages/ui/languages/swt/runtime/jetbrains.mps.ui.swt.runtime.msd" folder="languages.ui" />
-      <modulePath path="$PROJECT_DIR$/plugins/mps-experimental/languages/ui/languages/swt/solutions/pluginSolution/jetbrains.mps.ui.swt.pluginSolution.msd" folder="languages.ui" />
-      <modulePath path="$PROJECT_DIR$/plugins/mps-experimental/languages/ui/languages/testdata/jetbrains.mps.ui.internal.testdata.mpl" folder="languages.ui" />
-      <modulePath path="$PROJECT_DIR$/plugins/mps-experimental/languages/ui/languages/testdata/solutions/pluginSolution/jetbrains.mps.ui.internal.testdata.pluginSolution.msd" folder="languages.ui" />
-      <modulePath path="$PROJECT_DIR$/plugins/mps-experimental/languages/ui/languages/ui/jetbrains.mps.ui.mpl" folder="languages.ui" />
-      <modulePath path="$PROJECT_DIR$/plugins/mps-experimental/languages/ui/languages/ui/solutions/pluginSolution/jetbrains.mps.ui.pluginSolution.msd" folder="languages.ui" />
-      <modulePath path="$PROJECT_DIR$/plugins/mps-experimental/languages/ui/solutions/jetbrains.mps.ui.unittest/jetbrains.mps.ui.unittest.msd" folder="languages.ui" />
-      <modulePath path="$PROJECT_DIR$/plugins/mps-experimental/languages/ui/solutions/ui.sandbox/jetbrains.mps.ui.sandbox.msd" folder="languages.ui" />
       <modulePath path="$PROJECT_DIR$/plugins/mps-testing/languages/baseLanguage/unitTest/jetbrains.mps.baseLanguage.unitTest.mpl" folder="baseLanguage.unitTest" />
       <modulePath path="$PROJECT_DIR$/plugins/mps-testing/languages/baseLanguage/unitTest/solutions/sandbox/jetbrains.mps.baseLanguage.unitTest.sandbox.msd" folder="baseLanguage.unitTest" />
       <modulePath path="$PROJECT_DIR$/plugins/mps-testing/languages/languageDesign/editorTest/jetbrains.mps.lang.editor.editorTest.mpl" folder="core.editor" />
@@ -367,6 +338,13 @@
       <modulePath path="$PROJECT_DIR$/samples/lambda/languages/lambdaCalculus/jetbrains.mps.samples.lambdaCalculus.mpl" folder="samples" />
       <modulePath path="$PROJECT_DIR$/samples/lambda/solutions/jetbrains.mps.samples.lambdaCalculus.runtime/jetbrains.mps.samples.lambdaCalculus.runtime.msd" folder="samples" />
       <modulePath path="$PROJECT_DIR$/samples/lambda/solutions/jetbrains.mps.samples.lambdaCalculus.sandbox/jetbrains.mps.samples.lambdaCalculus.sandbox.msd" folder="samples" />
+      <modulePath path="$PROJECT_DIR$/samples/math/jetbrains.mps.baseLanguage.math.mpl" folder="samples.math" />
+      <modulePath path="$PROJECT_DIR$/samples/math/runtimeSolution/jetbrains.mps.baseLanguage.math.runtime.msd" folder="samples.math" />
+      <modulePath path="$PROJECT_DIR$/samples/math/solutions/jetbrains.mps.baseLanguage.math.sandbox/jetbrains.mps.baseLanguage.math.sandbox.msd" folder="samples.math" />
+      <modulePath path="$PROJECT_DIR$/samples/math/solutions/jetbrains.mps.baseLanguage.math.tests/jetbrains.mps.baseLanguage.math.tests.msd" folder="samples.math" />
+      <modulePath path="$PROJECT_DIR$/samples/math/solutions/pluginSolution/jetbrains.mps.baseLanguage.math.pluginSolution.msd" folder="samples.math" />
+      <modulePath path="$PROJECT_DIR$/samples/money/jetbrains.mps.baseLanguage.money.mpl" folder="samples.money" />
+      <modulePath path="$PROJECT_DIR$/samples/money/runtimeSolution/jetbrains.mps.baseLanguage.money.runtime.msd" folder="samples.money" />
       <modulePath path="$PROJECT_DIR$/samples/plainText/jetbrains.mps.samples.plainText.mpl" folder="samples" />
       <modulePath path="$PROJECT_DIR$/samples/robot_Kaja/languages/KajaAndOr/KajaAndOr.mpl" folder="samples.robotKaja" />
       <modulePath path="$PROJECT_DIR$/samples/robot_Kaja/languages/KajaSceneConstruction/KajaSceneConstruction.mpl" folder="samples.robotKaja" />
