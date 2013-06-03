@@ -23,8 +23,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 3:
         return new ConceptDescriptorBuilder("jetbrains.mps.execution.configurations.deprecated.structure.ActionsList_FunctionParameter").super_("jetbrains.mps.baseLanguage.structure.ConceptFunctionParameter").parents("jetbrains.mps.baseLanguage.structure.ConceptFunctionParameter").alias("actionsList", "").staticScope(StaticScope.NONE).create();
       case 4:
-        return new ConceptDescriptorBuilder("jetbrains.mps.execution.configurations.deprecated.structure.ActionsStatement").super_("jetbrains.mps.baseLanguage.structure.Statement").parents("jetbrains.mps.baseLanguage.structure.Statement", "jetbrains.mps.execution.configurations.deprecated.structure.ExecuteSpecific").children(new String[]{"action"}, new boolean[]{true}).alias(
-            "actions", "").staticScope(StaticScope.NONE).create();
+        return new ConceptDescriptorBuilder("jetbrains.mps.execution.configurations.deprecated.structure.ActionsStatement").super_("jetbrains.mps.baseLanguage.structure.Statement").parents("jetbrains.mps.baseLanguage.structure.Statement", "jetbrains.mps.execution.configurations.deprecated.structure.ExecuteSpecific").children(new String[]{"action"}, new boolean[]{true}).alias("actions", "").staticScope(StaticScope.NONE).create();
       case 5:
         return new ConceptDescriptorBuilder("jetbrains.mps.execution.configurations.deprecated.structure.ApplyEditorBlock").super_("jetbrains.mps.execution.configurations.deprecated.structure.AbstractEnhancedConceptFunction").parents("jetbrains.mps.execution.configurations.deprecated.structure.AbstractEnhancedConceptFunction").alias("apply", "").staticScope(StaticScope.NONE).create();
       case 6:
