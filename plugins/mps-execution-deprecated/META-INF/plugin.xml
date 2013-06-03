@@ -10,6 +10,8 @@
   <depends>jetbrains.mps.execution.api</depends>
   <depends>jetbrains.mps.execution.languages</depends>
   <depends>jetbrains.mps.execution.configurations</depends>
+  <depends>jetbrains.mps.debugger.api</depends>
+  <depends>jetbrains.mps.debugger.java</depends>
 
   <extensions defaultExtensionNs="com.intellij">
     <mps.LanguageLibrary dir="/"/>
