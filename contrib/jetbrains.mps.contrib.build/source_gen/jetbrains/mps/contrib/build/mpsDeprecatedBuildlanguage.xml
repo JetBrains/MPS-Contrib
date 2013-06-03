@@ -341,8 +341,8 @@
     <echo message="generating" />
     <generate parallelMode="true" fork="true">
       <plugin path="${artifacts.mps}/plugins/mps-core/META-INF/plugin.xml/../.." />
-      <library file="${artifacts.mpsXml}/mps-xml/languages/gtext/jetbrains.mps.gtext.jar" />
-      <library file="${artifacts.mpsXml}/mps-xml/languages/gtext/jetbrains.mps.gtext.runtime.jar" />
+      <library file="${artifacts.mpsXml}/mps-xml-obsolete/languages/gtext/jetbrains.mps.gtext.jar" />
+      <library file="${artifacts.mpsXml}/mps-xml-obsolete/languages/gtext/jetbrains.mps.gtext.runtime.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.checkedDots.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
@@ -462,8 +462,8 @@
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.regexp.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
-        <fileset file="${artifacts.mpsXml}/mps-xml/languages/gtext/jetbrains.mps.gtext.jar" />
-        <fileset file="${artifacts.mpsXml}/mps-xml/languages/gtext/jetbrains.mps.gtext.runtime.jar" />
+        <fileset file="${artifacts.mpsXml}/mps-xml-obsolete/languages/gtext/jetbrains.mps.gtext.jar" />
+        <fileset file="${artifacts.mpsXml}/mps-xml-obsolete/languages/gtext/jetbrains.mps.gtext.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
         <fileset file="${artifacts.IDEA}/lib/ant/lib/ant.jar" />
@@ -505,8 +505,8 @@
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.regexp.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
-        <fileset file="${artifacts.mpsXml}/mps-xml/languages/gtext/jetbrains.mps.gtext.jar" />
-        <fileset file="${artifacts.mpsXml}/mps-xml/languages/gtext/jetbrains.mps.gtext.runtime.jar" />
+        <fileset file="${artifacts.mpsXml}/mps-xml-obsolete/languages/gtext/jetbrains.mps.gtext.jar" />
+        <fileset file="${artifacts.mpsXml}/mps-xml-obsolete/languages/gtext/jetbrains.mps.gtext.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
         <pathelement path="${build.tmp}/java.modules.cycle.1" />
@@ -553,8 +553,8 @@
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
-        <fileset file="${artifacts.mpsXml}/mps-xml/languages/gtext/jetbrains.mps.gtext.jar" />
-        <fileset file="${artifacts.mpsXml}/mps-xml/languages/gtext/jetbrains.mps.gtext.runtime.jar" />
+        <fileset file="${artifacts.mpsXml}/mps-xml-obsolete/languages/gtext/jetbrains.mps.gtext.jar" />
+        <fileset file="${artifacts.mpsXml}/mps-xml-obsolete/languages/gtext/jetbrains.mps.gtext.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
         <path refid="path.jdk.classpath" />
@@ -684,8 +684,8 @@
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
-        <fileset file="${artifacts.mpsXml}/mps-xml/languages/gtext/jetbrains.mps.gtext.jar" />
-        <fileset file="${artifacts.mpsXml}/mps-xml/languages/gtext/jetbrains.mps.gtext.runtime.jar" />
+        <fileset file="${artifacts.mpsXml}/mps-xml-obsolete/languages/gtext/jetbrains.mps.gtext.jar" />
+        <fileset file="${artifacts.mpsXml}/mps-xml-obsolete/languages/gtext/jetbrains.mps.gtext.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
         <pathelement path="${build.tmp}/java.modules.cycle.1" />
@@ -732,8 +732,8 @@
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
-        <fileset file="${artifacts.mpsXml}/mps-xml/languages/gtext/jetbrains.mps.gtext.jar" />
-        <fileset file="${artifacts.mpsXml}/mps-xml/languages/gtext/jetbrains.mps.gtext.runtime.jar" />
+        <fileset file="${artifacts.mpsXml}/mps-xml-obsolete/languages/gtext/jetbrains.mps.gtext.jar" />
+        <fileset file="${artifacts.mpsXml}/mps-xml-obsolete/languages/gtext/jetbrains.mps.gtext.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
         <path refid="path.jdk.classpath" />

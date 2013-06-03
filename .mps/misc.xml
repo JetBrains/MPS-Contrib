@@ -259,16 +259,6 @@
       <modulePath path="$PROJECT_DIR$/plugins/mps-core/languages/core.xml/sandbox/jetbrains.mps.core.xml.sandbox.msd" folder="core.languages.xml" />
       <modulePath path="$PROJECT_DIR$/plugins/mps-core/languages/languageDesign/table/jetbrains.mps.lang.editor.table.mpl" folder="core.aspects.editor" />
       <modulePath path="$PROJECT_DIR$/plugins/mps-core/languages/languageDesign/table/runtime/jetbrains.mps.lang.editor.table.runtime.msd" folder="core.aspects.editor" />
-      <modulePath path="$PROJECT_DIR$/plugins/mps-core/languages/util/gtext/jetbrains.mps.gtext.mpl" folder="contrib.gtext" />
-      <modulePath path="$PROJECT_DIR$/plugins/mps-core/languages/util/gtext/runtime/jetbrains.mps.gtext.runtime.msd" folder="contrib.gtext" />
-      <modulePath path="$PROJECT_DIR$/plugins/mps-core/languages/util/gtext/solutions/pluginSolution/jetbrains.mps.gtext.pluginSolution.msd" folder="contrib.gtext" />
-      <modulePath path="$PROJECT_DIR$/plugins/mps-core/languages/util/xml/xml/jetbrains.mps.xml.mpl" folder="contrib.xml" />
-      <modulePath path="$PROJECT_DIR$/plugins/mps-core/languages/util/xml/xml/solutions/jetbrains.mps.webr.xml.sandbox/jetbrains.mps.webr.xml.sandbox.msd" folder="contrib.xml" />
-      <modulePath path="$PROJECT_DIR$/plugins/mps-core/languages/util/xml/xml/solutions/jetbrains.mps.xml.tests/jetbrains.mps.xml.tests.msd" folder="contrib.xml" />
-      <modulePath path="$PROJECT_DIR$/plugins/mps-core/languages/util/xml/xmlInternal/jetbrains.mps.xmlInternal.mpl" folder="contrib.xml" />
-      <modulePath path="$PROJECT_DIR$/plugins/mps-core/languages/util/xml/xmlQuery/jetbrains.mps.xmlQuery.mpl" folder="contrib.xml" />
-      <modulePath path="$PROJECT_DIR$/plugins/mps-core/languages/util/xml/xmlQuery/runtime/jetbrains.mps.xmlQuery.runtime.msd" folder="contrib.xml" />
-      <modulePath path="$PROJECT_DIR$/plugins/mps-core/languages/util/xml/xmlSchema/jetbrains.mps.xmlSchema.mpl" folder="contrib.xml" />
       <modulePath path="$PROJECT_DIR$/plugins/mps-dates/languages/dates/internal/jetbrains.mps.baseLanguage.datesInternal.mpl" folder="contrib.dates" />
       <modulePath path="$PROJECT_DIR$/plugins/mps-dates/languages/dates/jetbrains.mps.baseLanguage.dates.mpl" folder="contrib.dates" />
       <modulePath path="$PROJECT_DIR$/plugins/mps-dates/languages/dates/runtime/jetbrains.mps.baseLanguage.dates.runtime.msd" folder="contrib.dates" />
@@ -285,9 +275,19 @@
       <modulePath path="$PROJECT_DIR$/plugins/mps-testing/languages/languageDesign/test/solutions/jetbrains.mps.lang.test.runtime/jetbrains.mps.lang.test.runtime.msd" folder="core.languages.test" />
       <modulePath path="$PROJECT_DIR$/plugins/mps-testing/languages/languageDesign/test/solutions/pluginSolution/jetbrains.mps.lang.test.pluginSolution.msd" folder="core.languages.test" />
       <modulePath path="$PROJECT_DIR$/plugins/mps-testing/languages/languageDesign/test/solutions/sandbox/jetbrains.mps.lang.test.sandbox.msd" folder="core.languages.test" />
-      <modulePath path="$PROJECT_DIR$/plugins/mps-testing/languages/util/xmlUnitTest/languages/xmlUnitTest/jetbrains.mps.xmlUnitTest.mpl" folder="contrib.xml" />
-      <modulePath path="$PROJECT_DIR$/plugins/mps-testing/languages/util/xmlUnitTest/languages/xmlUnitTest/solutions/runtime/jetbrains.mps.xmlUnitTest.runtime.msd" folder="contrib.xml" />
-      <modulePath path="$PROJECT_DIR$/plugins/mps-testing/languages/util/xmlUnitTest/solutions/jetbrains.mps.xmlUnitTest.sandbox/jetbrains.mps.xmlUnitTest.sandbox.msd" folder="contrib.xml" />
+      <modulePath path="$PROJECT_DIR$/plugins/mps-xml-obsolete/languages/util/gtext/jetbrains.mps.gtext.mpl" folder="contrib.gtext" />
+      <modulePath path="$PROJECT_DIR$/plugins/mps-xml-obsolete/languages/util/gtext/runtime/jetbrains.mps.gtext.runtime.msd" folder="contrib.gtext" />
+      <modulePath path="$PROJECT_DIR$/plugins/mps-xml-obsolete/languages/util/gtext/solutions/pluginSolution/jetbrains.mps.gtext.pluginSolution.msd" folder="contrib.gtext" />
+      <modulePath path="$PROJECT_DIR$/plugins/mps-xml-obsolete/languages/util/xml/xml/jetbrains.mps.xml.mpl" folder="contrib.xml" />
+      <modulePath path="$PROJECT_DIR$/plugins/mps-xml-obsolete/languages/util/xml/xml/solutions/jetbrains.mps.webr.xml.sandbox/jetbrains.mps.webr.xml.sandbox.msd" folder="contrib.xml" />
+      <modulePath path="$PROJECT_DIR$/plugins/mps-xml-obsolete/languages/util/xml/xml/solutions/jetbrains.mps.xml.tests/jetbrains.mps.xml.tests.msd" folder="contrib.xml" />
+      <modulePath path="$PROJECT_DIR$/plugins/mps-xml-obsolete/languages/util/xml/xmlInternal/jetbrains.mps.xmlInternal.mpl" folder="contrib.xml" />
+      <modulePath path="$PROJECT_DIR$/plugins/mps-xml-obsolete/languages/util/xml/xmlQuery/jetbrains.mps.xmlQuery.mpl" folder="contrib.xml" />
+      <modulePath path="$PROJECT_DIR$/plugins/mps-xml-obsolete/languages/util/xml/xmlQuery/runtime/jetbrains.mps.xmlQuery.runtime.msd" folder="contrib.xml" />
+      <modulePath path="$PROJECT_DIR$/plugins/mps-xml-obsolete/languages/util/xml/xmlSchema/jetbrains.mps.xmlSchema.mpl" folder="contrib.xml" />
+      <modulePath path="$PROJECT_DIR$/plugins/mps-xml-obsolete/languages/util/xmlUnitTest/languages/xmlUnitTest/jetbrains.mps.xmlUnitTest.mpl" folder="contrib.xml" />
+      <modulePath path="$PROJECT_DIR$/plugins/mps-xml-obsolete/languages/util/xmlUnitTest/languages/xmlUnitTest/solutions/runtime/jetbrains.mps.xmlUnitTest.runtime.msd" folder="contrib.xml" />
+      <modulePath path="$PROJECT_DIR$/plugins/mps-xml-obsolete/languages/util/xmlUnitTest/solutions/jetbrains.mps.xmlUnitTest.sandbox/jetbrains.mps.xmlUnitTest.sandbox.msd" folder="contrib.xml" />
       <modulePath path="$PROJECT_DIR$/plugins/mpsdevkit/jetbrains.mps.ide.mpsdevkit.msd" folder="platform" />
       <modulePath path="$PROJECT_DIR$/plugins/mpsdevkit/languages/quickQueryLanguage/jetbrains.mps.quickQueryLanguage.mpl" folder="platform.quickQueryLanguage" />
       <modulePath path="$PROJECT_DIR$/plugins/mpsdevkit/languages/quickQueryLanguage/solutions/jetbrains.mps.quickQuery.runtime/jetbrains.mps.quickQuery.runtime.msd" folder="platform.quickQueryLanguage" />

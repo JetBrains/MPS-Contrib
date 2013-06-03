@@ -21,7 +21,7 @@
     <zip destfile="${build.layout}/${mps.build.number}-contrib.zip">
       <zipfileset dir="${artifacts.mpsDates}/mps-dates" prefix="mps-dates" />
       <zipfileset dir="${artifacts.mpsDeprecatedBuildlanguage}/mps-build-deprecated" prefix="mps-build-deprecated" />
-      <zipfileset dir="${artifacts.mpsXml}/mps-xml" prefix="mps-xml" />
+      <zipfileset dir="${artifacts.mpsXml}/mps-xml-obsolete" prefix="mps-xml-obsolete" />
       <zipfileset dir="${artifacts.mpsDeprecatedExecution}/mps-execution-deprecated" prefix="mps-execution-deprecated" />
       <zipfileset dir="${artifacts.mpsContribBuild}/mps-contrib-build" prefix="mps-contrib-build" />
     </zip>
