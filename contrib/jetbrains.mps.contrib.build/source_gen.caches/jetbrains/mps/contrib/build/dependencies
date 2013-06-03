@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
   <dependency className="jetbrains.mps.contrib.build.mpsContrib" file="mpsContrib.xml" />
+  <dependency className="jetbrains.mps.contrib.build.mpsContribBuild" file="mpsContribBuild.xml" />
   <dependency className="jetbrains.mps.contrib.build.mpsDates" file="mpsDates.xml" />
   <dependency className="jetbrains.mps.contrib.build.mpsDeprecatedBuildlanguage" file="mpsDeprecatedBuildlanguage.xml" />
   <dependency className="jetbrains.mps.contrib.build.mpsDeprecatedExecution" file="mpsDeprecatedExecution.xml" />
