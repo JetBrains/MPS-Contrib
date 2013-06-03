@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies version="2" modelHash="6bi3k6n91gcty29vkfcgsyiwlq08dgz">
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-mjxs0m2jun2n8oda8eyh1sj6wp5zko" />
+  <dep model="r:0cf7389f-e174-4742-a3d2-15c79317838a(jetbrains.mps.debug.api.run)" hash="-1dy0iz8z9o9mfthardp4medyicvoccu" />
+  <common hash="-dqe48wsdgf8fpkdmu5xenhru8jjf2ka" />
+  <source id="8321286824330490408" name="BaseRunProfileState" hash="-bcl327h8l1ne168ixez6i6t4dm9kqb7">
+    <dep root="8321286824331322657" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:0cf7389f-e174-4742-a3d2-15c79317838a(jetbrains.mps.debug.api.run)" />
+    <file name="BaseRunProfileState.java" />
+  </source>
+  <source id="8321286824331322657" name="DebuggerKeys" hash="-b7xo5djzgms1frlwe8pn6rr0xylmmjt">
+    <file name="DebuggerKeys.java" />
+  </source>
+</dependencies>
+

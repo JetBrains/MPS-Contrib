@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <root nodeRef="r:09ae1f9b-32e9-4f71-85df-1271dde1eb7a(jetbrains.mps.lang.plugin.run)/8321286824330329604">
+    <nodeInfo nodeId="8321286824330329618" fileName="DefaultOsProcessHandler.java" startLine="17" startPosition="87" endLine="18" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="8321286824330329614" fileName="DefaultOsProcessHandler.java" startLine="16" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="DefaultOsProcessHandler#(Lcom/intellij/execution/ui/ConsoleView;Ljava/lang/Process;Ljava/lang/String;)V" />
+    <scopeInfo nodeId="8321286824330329617" fileName="DefaultOsProcessHandler.java" startLine="17" startPosition="87" endLine="18" endPosition="64" />
+    <scopeInfo nodeId="8321286824330329614" fileName="DefaultOsProcessHandler.java" startLine="16" startPosition="0" endLine="20" endPosition="0">
+      <varInfo nodeId="8321286824330329624" varName="console" />
+      <varInfo nodeId="8321286824330329628" varName="params" />
+      <varInfo nodeId="8321286824330329626" varName="process" />
+    </scopeInfo>
+    <unitInfo nodeId="8321286824330329604" fileName="DefaultOsProcessHandler.java" startLine="10" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.lang.plugin.run.DefaultOsProcessHandler" />
+  </root>
+  <root nodeRef="r:09ae1f9b-32e9-4f71-85df-1271dde1eb7a(jetbrains.mps.lang.plugin.run)/8321286824330329630">
+    <nodeInfo nodeId="8321286824330329644" fileName="DefaultProcessHandler.java" startLine="19" startPosition="85" endLine="20" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="8321286824330329648" fileName="DefaultProcessHandler.java" startLine="20" startPosition="53" endLine="21" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8321286824330329655" fileName="DefaultProcessHandler.java" startLine="21" startPosition="65" endLine="22" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8321286824330329640" fileName="DefaultProcessHandler.java" startLine="18" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="DefaultProcessHandler#(Lcom/intellij/execution/ui/ConsoleView;Ljava/lang/Process;Ljava/lang/String;)V" />
+    <scopeInfo nodeId="8321286824330329643" fileName="DefaultProcessHandler.java" startLine="19" startPosition="85" endLine="22" endPosition="43" />
+    <scopeInfo nodeId="8321286824330329640" fileName="DefaultProcessHandler.java" startLine="18" startPosition="0" endLine="24" endPosition="0">
+      <varInfo nodeId="8321286824330329658" varName="console" />
+      <varInfo nodeId="8321286824330329662" varName="params" />
+      <varInfo nodeId="8321286824330329660" varName="process" />
+    </scopeInfo>
+    <unitInfo nodeId="8321286824330329630" fileName="DefaultProcessHandler.java" startLine="12" startPosition="0" endLine="25" endPosition="0" unitName="jetbrains.mps.lang.plugin.run.DefaultProcessHandler" />
+  </root>
+</debugInfo>
+

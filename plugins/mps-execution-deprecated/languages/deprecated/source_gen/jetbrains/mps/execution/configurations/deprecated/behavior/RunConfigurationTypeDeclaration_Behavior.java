@@ -17,7 +17,7 @@ public class RunConfigurationTypeDeclaration_Behavior {
   }
 
   public static String call_getGeneratedClassFQName_314981645426570398(SNode thisNode) {
-    return SNodeOperations.getModelLongName(jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations.getModel(thisNode)) + "" + RunConfigurationTypeDeclaration_Behavior.call_getGeneratedName_314981645426570387(thisNode);
+    return SNodeOperations.getModelLongName(jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations.getModel(thisNode)) + "." + RunConfigurationTypeDeclaration_Behavior.call_getGeneratedName_314981645426570387(thisNode);
   }
 
   public static PropertyReference virtual_getPropertyToCheck_4844813484172611473(SNode thisNode) {

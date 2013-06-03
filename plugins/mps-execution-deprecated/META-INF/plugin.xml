@@ -15,6 +15,6 @@
     <mps.LanguageLibrary dir="/"/>
     <errorHandler implementation="jetbrains.mps.ide.blame.CharismaReporter"/>
     <stepsBeforeRunProvider
-            implementation="jetbrains.mps.execution.impl.configurations.runners.LegacyBeforeTaskProvider"/>
+            implementation="jetbrains.mps.execution.configurations.deprecated.runtime.LegacyBeforeTaskProvider"/>
   </extensions>
 </idea-plugin>
