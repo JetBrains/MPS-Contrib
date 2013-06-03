@@ -6,7 +6,7 @@
     </modelRoot>
   </models>
   <facets>
-    <facet pluginId="jetbrains.mps.execution.deprecated" type="ideaPlugin"/>
+    <facet pluginId="jetbrains.mps.execution.deprecated" type="ideaPlugin" />
   </facets>
   <sourcePath />
   <dependencies>
