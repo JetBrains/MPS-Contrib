@@ -220,7 +220,6 @@
       <modulePath path="$PROJECT_DIR$/plugins/execution-configurations/languages/ant/jetbrains.mps.ant.execution.msd" folder="platform.execution" />
       <modulePath path="$PROJECT_DIR$/plugins/execution-configurations/languages/baseLanguage/jetbrains.mps.baseLanguage.execution.api/jetbrains.mps.baseLanguage.execution.util.msd" folder="platform.execution" />
       <modulePath path="$PROJECT_DIR$/plugins/execution-configurations/languages/baseLanguage/jetbrains.mps.baseLanguage.execution.startup/jetbrains.mps.baseLanguage.execution.startup.msd" folder="platform.execution" />
-      <modulePath path="$PROJECT_DIR$/plugins/execution-configurations/languages/migration/jetbrains.mps.execution.migration.mpl" folder="platform.execution" />
       <modulePath path="$PROJECT_DIR$/plugins/execution-configurations/languages/plugin/jetbrains.mps.execution.configurations.implementation.plugin.msd" folder="platform.execution" />
       <modulePath path="$PROJECT_DIR$/plugins/execution-configurations/languages/unitTests/runtime/jetbrains.mps.baseLanguage.unitTest.execution.msd" folder="platform.execution" />
       <modulePath path="$PROJECT_DIR$/plugins/execution-configurations/languages/unitTests/startup/jetbrains.mps.baseLanguage.unitTest.execution.startup.msd" folder="platform.execution" />
