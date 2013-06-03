@@ -1,0 +1,20 @@
+<!DOCTYPE idea-plugin PUBLIC 'Plugin/DTD' 'http://plugins.intellij.net/plugin.dtd'>
+<idea-plugin xmlns:xi="http://www.w3.org/2001/XInclude">
+  <id>jetbrains.mps.execution.deprecated</id>
+  <name>Deprecated Execution Languages</name>
+  <description>Deprected languages and libraries for implementing execution configurations for MPS</description>
+  <version>3.0</version>
+  <vendor url="http://www.jetbrains.com/mps/" logo="/MPS_16.png">JetBrains</vendor>
+  <idea-version since-build="123.1" />
+
+  <depends>jetbrains.mps.execution.api</depends>
+  <depends>jetbrains.mps.execution.languages</depends>
+  <depends>jetbrains.mps.execution.configurations</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <mps.LanguageLibrary dir="/"/>
+    <errorHandler implementation="jetbrains.mps.ide.blame.CharismaReporter"/>
+    <stepsBeforeRunProvider
+            implementation="jetbrains.mps.execution.impl.configurations.runners.LegacyBeforeTaskProvider"/>
+  </extensions>
+</idea-plugin>

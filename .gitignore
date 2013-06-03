@@ -30,6 +30,7 @@ plugins/debugger-java/lib/*.jar
 plugins/mpsjava/lib/*.jar
 plugins/execution-languages/lib/*.jar
 plugins/execution-configurations/lib/*.jar
+plugins/mps-execution-deprecated/lib/*.jar
 lib/*
 plugins/cvsIntegration/lib/*
 plugins/git4idea/lib/*.jar

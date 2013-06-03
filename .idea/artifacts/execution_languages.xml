@@ -2,7 +2,6 @@
   <artifact type="jar" build-on-make="true" name="execution-languages">
     <output-path>$PROJECT_DIR$/plugins/execution-languages/lib</output-path>
     <root id="archive" name="execution_languages.jar">
-      <element id="module-output" name="execution-languages-deprecated-runtime" />
       <element id="module-output" name="execution-languages-library" />
       <element id="module-output" name="execution-languages-plugin" />
       <element id="module-output" name="execution-impl" />

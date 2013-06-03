@@ -6,6 +6,7 @@
   <property name="artifacts.mpsDates" location="${build.dir}/artifacts/mpsDates" />
   <property name="artifacts.mpsDeprecatedBuildlanguage" location="${build.dir}/artifacts/mpsDeprecatedBuildlanguage" />
   <property name="artifacts.mpsXml" location="${build.dir}/artifacts/mpsXml" />
+  <property name="artifacts.mpsDeprecatedExecution" location="${build.dir}/artifacts/mpsDeprecatedExecution" />
   <property file="${artifacts.mpsDates}/build.properties" prefix="import.mpsDates" />
   <property name="mps.build.number" value="${import.mpsDates.mps.build.number}" />
   <property name="mps.date" value="${import.mpsDates.mps.date}" />
@@ -20,6 +21,7 @@
       <zipfileset dir="${artifacts.mpsDates}/mps-dates" prefix="mps-dates" />
       <zipfileset dir="${artifacts.mpsDeprecatedBuildlanguage}/mps-build-deprecated" prefix="mps-build-deprecated" />
       <zipfileset dir="${artifacts.mpsXml}/mps-xml" prefix="mps-xml" />
+      <zipfileset dir="${artifacts.mpsDeprecatedExecution}/mps-execution-deprecated" prefix="mps-execution-deprecated" />
     </zip>
     <echo file="${build.layout}/build.properties">mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}</echo>
   </target>
@@ -28,6 +30,7 @@
     <ant antfile="build/mpsDates.xml" inheritAll="false" useNativeBasedir="true" />
     <ant antfile="build/mpsXml.xml" inheritAll="false" useNativeBasedir="true" />
     <ant antfile="build/mpsDeprecatedBuildlanguage.xml" inheritAll="false" useNativeBasedir="true" />
+    <ant antfile="build/mpsDeprecatedExecution.xml" inheritAll="false" useNativeBasedir="true" />
   </target>
   
   <target name="fetchDependencies" />

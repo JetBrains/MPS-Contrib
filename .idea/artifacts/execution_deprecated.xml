@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="execution-deprecated">
+    <output-path>$PROJECT_DIR$/plugins/mps-execution-deprecated/lib</output-path>
+    <root id="archive" name="execution-deprecated.jar">
+      <element id="module-output" name="execution-languages-deprecated-runtime" />
+    </root>
+  </artifact>
+</component>
