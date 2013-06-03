@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependencies version="2" modelHash="8wo2k63wlltai9ae5jadqcdlq4xlan8">
-  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-7mxihkcc0vv2q7mmukrgbm8b18oc3tu" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-mjxs0m2jun2n8oda8eyh1sj6wp5zko" />
   <common hash="-dhzwlbqrqxc5i6fh55xem1edcfr7uzm" />
   <source id="3987693689859618102" name="ListenerId" hash="-stwm0wi03oh4bqbr0d8x07bpnw6m4p">
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />

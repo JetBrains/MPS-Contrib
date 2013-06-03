@@ -19,7 +19,7 @@
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="-8a8g8c3samqxd7s54bm1fyxossfyafx" />
   <dep model="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" hash="-19qr3t5j6zj1j6ub3v4uu8kimofng1x" />
   <dep model="r:00000000-0000-4000-0000-011c8959029f(jetbrains.mps.lang.editor.generator.baseLanguage.template.main@generator)" hash="24o7cgxg4i3cxtww7pdlj6wvcbqeqmm" />
-  <dep model="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" hash="-1m3cjs9co15fbvb7pyotjhvjytv1fth" />
+  <dep model="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" hash="-bknznj43nlu26v1cerd1qn6t642qk9g" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-mjxs0m2jun2n8oda8eyh1sj6wp5zko" />
   <dep model="r:00000000-0000-4000-0000-011c895902cc(jetbrains.mps.baseLanguage.generator.java.conceptFunctionDefaults@generator)" hash="4298mu054fx6whzlp2w6f6j2etcqkrl" />
   <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" hash="-brl2bgkky74xjyauouufkoy6p3yk0z4" />
@@ -28,7 +28,7 @@
   <dep model="r:00000000-0000-4000-0000-011c89590373(jetbrains.mps.baseLanguage.classifiers.structure)" hash="12t7g6ju9opxmgm6ztarqel0nchdvqp" />
   <dep model="r:00000000-0000-4000-0000-011c89590553(jetbrains.mps.uiLanguage.structure)" hash="-av42ehqpavjzcd97m308eojeoya153u" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="10mp51mbeql449vc6yd910xwfralj9l" />
-  <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" hash="-75hld4xn0j0x620a2ffc7r1mui5k2kp" />
+  <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" hash="6wbb4crf3b4dbgairjnjeebsacld5eq" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="ckk7u2kjk5lwqta6jwv64dr9ksfac7c" />
   <common hash="dol07uzly9w4ilffcpd3paeddg5hriy">
     <dep root="1202387802426" />
