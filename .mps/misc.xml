@@ -16,6 +16,7 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="$PROJECT_DIR$/build/solution/jetbrains.mps.ide.build.msd" folder="platform.build" />
+      <modulePath path="$PROJECT_DIR$/contrib/jetbrains.mps.contrib.build/jetbrains.mps.contrib.build.msd" folder="contrib" />
       <modulePath path="$PROJECT_DIR$/core/analyzers/solutions/jetbrains.mps.analyzers.runtime/jetbrains.mps.analyzers.runtime.msd" folder="core.aspects.dataflow" />
       <modulePath path="$PROJECT_DIR$/core/analyzers/solutions/sandbox/jetbrains.mps.lang.dataFlow.analyzers.sandbox.msd" folder="core.aspects.dataflow" />
       <modulePath path="$PROJECT_DIR$/core/devkits/jetbrains.mps.devkit.bootstrap-languages.devkit" folder="core.devkits" />
