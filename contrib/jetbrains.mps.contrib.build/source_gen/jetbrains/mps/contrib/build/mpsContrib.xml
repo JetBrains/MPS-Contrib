@@ -3,18 +3,20 @@
   <property name="build.dir" location="build" />
   <property name="build.tmp" location="${build.dir}/tmp/mpsContrib" />
   <property name="build.layout" location="${build.dir}/artifacts/mpsContrib" />
+  <property name="mps_dist_home" location="" />
+  <property name="artifacts.mps" location="${mps_dist_home}" />
   <property name="artifacts.mpsDates" location="${build.dir}/artifacts/mpsDates" />
   <property name="artifacts.mpsDeprecatedBuildlanguage" location="${build.dir}/artifacts/mpsDeprecatedBuildlanguage" />
   <property name="artifacts.mpsXml" location="${build.dir}/artifacts/mpsXml" />
   <property name="artifacts.mpsDeprecatedExecution" location="${build.dir}/artifacts/mpsDeprecatedExecution" />
   <property name="artifacts.mpsContribBuild" location="${build.dir}/artifacts/mpsContribBuild" />
-  <property file="${artifacts.mpsDates}/build.properties" prefix="import.mpsDates" />
-  <property name="mps.build.number" value="${import.mpsDates.mps.build.number}" />
-  <property name="mps.date" value="${import.mpsDates.mps.date}" />
-  <property name="mps.build.vcs.number" value="${import.mpsDates.mps.build.vcs.number}" />
-  <property name="mps.teamcity.buildConfName" value="${import.mpsDates.mps.teamcity.buildConfName}" />
-  <property name="mps.idea.platform.build.number" value="${import.mpsDates.mps.idea.platform.build.number}" />
-  <property name="mpsBootstrapCore.version" value="${import.mpsDates.mpsBootstrapCore.version}" />
+  <property file="${artifacts.mps}/build.properties" prefix="import.mps" />
+  <property name="mps.build.number" value="${import.mps.mps.build.number}" />
+  <property name="mps.date" value="${import.mps.mps.date}" />
+  <property name="mps.build.vcs.number" value="${import.mps.mps.build.vcs.number}" />
+  <property name="mps.teamcity.buildConfName" value="${import.mps.mps.teamcity.buildConfName}" />
+  <property name="mps.idea.platform.build.number" value="${import.mps.mps.idea.platform.build.number}" />
+  <property name="mpsBootstrapCore.version" value="${import.mps.mpsBootstrapCore.version}" />
   
   <target name="assemble" depends="fetchDependencies">
     <mkdir dir="${build.layout}" />

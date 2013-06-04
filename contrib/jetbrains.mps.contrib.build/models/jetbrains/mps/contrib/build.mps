@@ -766,6 +766,12 @@
   <root type="3ior.BuildProject" typeId="3ior.5617550519002745363" id="4579351749503152215" nodeInfo="ng">
     <property name="internalBaseDirectory" nameId="3ior.5204048710541015587" value="../" />
     <property name="name" nameId="tpck.1169194664001" value="mpsContrib" />
+    <node role="dependencies" roleId="3ior.5617550519002745381" type="3ior.BuildProjectDependency" typeId="3ior.4993211115183325728" id="8068967866759841397" nodeInfo="ng">
+      <link role="script" roleId="3ior.5617550519002745380" targetNodeId="ffeo.4301118715654192646" resolveInfo="mps" />
+      <node role="artifacts" roleId="3ior.4129895186893471026" type="3ior.BuildSourceMacroRelativePath" typeId="3ior.7389400916848153117" id="8068967866759841408" nodeInfo="ng">
+        <link role="macro" roleId="3ior.7389400916848153130" targetNodeId="8068967866759841406" resolveInfo="mps_dist_home" />
+      </node>
+    </node>
     <node role="scriptsDir" roleId="3ior.4796668409958418110" type="3ior.BuildSourceProjectRelativePath" typeId="3ior.5481553824944787378" id="4579351749503153356" nodeInfo="ng" />
     <node role="layout" roleId="3ior.5617550519002745372" type="3ior.BuildLayout" typeId="3ior.5617550519002745364" id="4579351749503153357" nodeInfo="ng">
       <node role="children" roleId="3ior.7389400916848037006" type="3ior.BuildLayout_Zip" typeId="3ior.7389400916848050071" id="4579351749503263938" nodeInfo="ng">
@@ -808,6 +814,9 @@
     </node>
     <node role="dependencies" roleId="3ior.5617550519002745381" type="3ior.BuildProjectDependency" typeId="3ior.4993211115183325728" id="310331596773402467" nodeInfo="ng">
       <link role="script" roleId="3ior.5617550519002745380" targetNodeId="310331596773287654" resolveInfo="mpsContribBuild" />
+    </node>
+    <node role="macros" roleId="3ior.5617550519002745378" type="3ior.BuildFolderMacro" typeId="3ior.7389400916848136194" id="8068967866759841406" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="mps_dist_home" />
     </node>
   </root>
   <root type="3ior.BuildProject" typeId="3ior.5617550519002745363" id="4579351749506262387" nodeInfo="ng">
