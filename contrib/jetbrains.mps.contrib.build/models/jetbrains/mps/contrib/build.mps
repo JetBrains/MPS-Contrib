@@ -1647,12 +1647,9 @@
             <node role="compositePart" roleId="3ior.7321017245477039051" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="4301118715654684550" nodeInfo="nn">
               <property name="head" nameId="3ior.8618885170173601779" value="mps-execution-deprecated" />
               <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="4301118715654684551" nodeInfo="nn">
-                <property name="head" nameId="3ior.8618885170173601779" value="languages" />
+                <property name="head" nameId="3ior.8618885170173601779" value="deprecated.runtime" />
                 <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="4301118715654684552" nodeInfo="nn">
-                  <property name="head" nameId="3ior.8618885170173601779" value="deprecated.runtime" />
-                  <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="4301118715654684553" nodeInfo="nn">
-                    <property name="head" nameId="3ior.8618885170173601779" value="source_gen" />
-                  </node>
+                  <property name="head" nameId="3ior.8618885170173601779" value="source_gen" />
                 </node>
               </node>
             </node>
@@ -1666,12 +1663,9 @@
             <node role="compositePart" roleId="3ior.7321017245477039051" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="8321286824328945659" nodeInfo="nn">
               <property name="head" nameId="3ior.8618885170173601779" value="mps-execution-deprecated" />
               <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="8321286824328945661" nodeInfo="nn">
-                <property name="head" nameId="3ior.8618885170173601779" value="languages" />
+                <property name="head" nameId="3ior.8618885170173601779" value="unitTests" />
                 <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="8321286824328945663" nodeInfo="nn">
-                  <property name="head" nameId="3ior.8618885170173601779" value="unitTests" />
-                  <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="8321286824328945665" nodeInfo="nn">
-                    <property name="head" nameId="3ior.8618885170173601779" value="source_gen" />
-                  </node>
+                  <property name="head" nameId="3ior.8618885170173601779" value="source_gen" />
                 </node>
               </node>
             </node>
@@ -1702,12 +1696,9 @@
         <node role="compositePart" roleId="3ior.7321017245477039051" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="4301118715654684588" nodeInfo="nn">
           <property name="head" nameId="3ior.8618885170173601779" value="mps-execution-deprecated" />
           <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="4301118715654684589" nodeInfo="nn">
-            <property name="head" nameId="3ior.8618885170173601779" value="languages" />
+            <property name="head" nameId="3ior.8618885170173601779" value="deprecated.runtime" />
             <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="4301118715654684590" nodeInfo="nn">
-              <property name="head" nameId="3ior.8618885170173601779" value="deprecated.runtime" />
-              <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="4301118715654684591" nodeInfo="nn">
-                <property name="head" nameId="3ior.8618885170173601779" value="jetbrains.mps.execution.configurations.deprecated.runtime.msd" />
-              </node>
+              <property name="head" nameId="3ior.8618885170173601779" value="jetbrains.mps.execution.configurations.deprecated.runtime.msd" />
             </node>
           </node>
         </node>
@@ -1786,12 +1777,9 @@
         <node role="compositePart" roleId="3ior.7321017245477039051" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="8321286824328943691" nodeInfo="nn">
           <property name="head" nameId="3ior.8618885170173601779" value="mps-execution-deprecated" />
           <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="8321286824328943693" nodeInfo="nn">
-            <property name="head" nameId="3ior.8618885170173601779" value="languages" />
+            <property name="head" nameId="3ior.8618885170173601779" value="unitTests" />
             <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="8321286824328943695" nodeInfo="nn">
-              <property name="head" nameId="3ior.8618885170173601779" value="unitTests" />
-              <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="8321286824328943697" nodeInfo="nn">
-                <property name="head" nameId="3ior.8618885170173601779" value="jetbrains.mps.baseLanguage.unitTest.execution.deprecated.msd" />
-              </node>
+              <property name="head" nameId="3ior.8618885170173601779" value="jetbrains.mps.baseLanguage.unitTest.execution.deprecated.msd" />
             </node>
           </node>
         </node>

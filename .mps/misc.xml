@@ -263,9 +263,9 @@
       <modulePath path="$PROJECT_DIR$/plugins/mps-dates/languages/dates/jetbrains.mps.baseLanguage.dates.mpl" folder="contrib.dates" />
       <modulePath path="$PROJECT_DIR$/plugins/mps-dates/languages/dates/runtime/jetbrains.mps.baseLanguage.dates.runtime.msd" folder="contrib.dates" />
       <modulePath path="$PROJECT_DIR$/plugins/mps-dates/languages/dates/unittest/dates_unittest.msd" folder="contrib.dates" />
-      <modulePath path="$PROJECT_DIR$/plugins/mps-execution-deprecated/languages/deprecated.runtime/jetbrains.mps.execution.configurations.deprecated.runtime.msd" folder="contrib.execution" />
+      <modulePath path="$PROJECT_DIR$/plugins/mps-execution-deprecated/deprecated.runtime/jetbrains.mps.execution.configurations.deprecated.runtime.msd" folder="contrib.execution" />
       <modulePath path="$PROJECT_DIR$/plugins/mps-execution-deprecated/languages/deprecated/jetbrains.mps.execution.configurations.deprecated.mpl" folder="contrib.execution" />
-      <modulePath path="$PROJECT_DIR$/plugins/mps-execution-deprecated/languages/unitTests/jetbrains.mps.baseLanguage.unitTest.execution.deprecated.msd" folder="contrib.execution" />
+      <modulePath path="$PROJECT_DIR$/plugins/mps-execution-deprecated/unitTests/jetbrains.mps.baseLanguage.unitTest.execution.deprecated.msd" folder="contrib.execution" />
       <modulePath path="$PROJECT_DIR$/plugins/mps-testing/languages/baseLanguage/unitTest/jetbrains.mps.baseLanguage.unitTest.mpl" folder="core.baseLanguage.unitTest" />
       <modulePath path="$PROJECT_DIR$/plugins/mps-testing/languages/baseLanguage/unitTest/solutions/sandbox/jetbrains.mps.baseLanguage.unitTest.sandbox.msd" folder="core.baseLanguage.unitTest" />
       <modulePath path="$PROJECT_DIR$/plugins/mps-testing/languages/languageDesign/editorTest/jetbrains.mps.lang.editor.editorTest.mpl" folder="core.aspects.editor" />
