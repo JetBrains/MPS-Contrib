@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-3u84oux1dsvir43gr3z5qlxmpooc3kl">
+<dependencies version="2" modelHash="c6trjbh0nb6r9q7yn62kt5poasu7uqy">
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="-8a8g8c3samqxd7s54bm1fyxossfyafx" />
   <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" hash="-brl2bgkky74xjyauouufkoy6p3yk0z4" />
   <dep model="r:0353b795-df17-4050-9687-ee47eeb7094f(jetbrains.mps.build.mps.structure)" hash="a0elket284g6cxf4dspjvx1yee82kvb" />
@@ -10,7 +10,7 @@
   <dep model="r:ed179f4d-7cf2-479d-8348-50c1fc63b96a(jetbrains.mps.build.workflow.structure)" hash="-d5d9w8abuqtq2rr8fp0jyiyuwa1qbm7" />
   <dep model="r:fdebfc98-bbd7-4c50-8a8d-eda16da9406e(jetbrains.mps.build.generator.template.main@generator)" hash="-etwe2acg0jyz54xrki23yi17kci40wb" />
   <common hash="-1ltk0kcws7tzye1fqveghghkglgvqlc" />
-  <source id="4061567211001166715" name="mpsDates" hash="-85wsumzdlamg1cdpkrhqv4j5jp5dxmq">
+  <source id="4061567211001166715" name="mpsDates" hash="-90f28oyd621gusdk48ncw6ko0wbp1py">
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" />
     <dep model="r:0353b795-df17-4050-9687-ee47eeb7094f(jetbrains.mps.build.mps.structure)" />
@@ -22,7 +22,7 @@
     <dep model="r:fdebfc98-bbd7-4c50-8a8d-eda16da9406e(jetbrains.mps.build.generator.template.main@generator)" />
     <file name="mpsDates.xml" />
   </source>
-  <source id="4416206207494300367" name="mpsDeprecatedBuildlanguage" hash="1wjuw4dfnlo5kzhh3y1ejm3gdh0j6g3">
+  <source id="4416206207494300367" name="mpsDeprecatedBuildlanguage" hash="5ny5pkpg4ewufw28vdxzqh5fatye5vu">
     <dep root="4579351749506262387" />
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" />
@@ -47,7 +47,7 @@
     <dep model="r:fdebfc98-bbd7-4c50-8a8d-eda16da9406e(jetbrains.mps.build.generator.template.main@generator)" />
     <file name="mpsContrib.xml" />
   </source>
-  <source id="4579351749506262387" name="mpsXml" hash="-6q0fkc5ctfv3qfkmq24a642x1jsyphf">
+  <source id="4579351749506262387" name="mpsXml" hash="-deqzqyo30mfro3qp51kjvtiry4saazz">
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" />
     <dep model="r:0353b795-df17-4050-9687-ee47eeb7094f(jetbrains.mps.build.mps.structure)" />
@@ -59,7 +59,7 @@
     <dep model="r:fdebfc98-bbd7-4c50-8a8d-eda16da9406e(jetbrains.mps.build.generator.template.main@generator)" />
     <file name="mpsXml.xml" />
   </source>
-  <source id="8321286824325034320" name="mpsDeprecatedExecution" hash="1gxvwa6494r8936486l06p9redf339v">
+  <source id="8321286824325034320" name="mpsDeprecatedExecution" hash="-4249flp7d2khnc2jev9l05bmbh21xnh">
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" />
     <dep model="r:0353b795-df17-4050-9687-ee47eeb7094f(jetbrains.mps.build.mps.structure)" />
@@ -71,7 +71,7 @@
     <dep model="r:fdebfc98-bbd7-4c50-8a8d-eda16da9406e(jetbrains.mps.build.generator.template.main@generator)" />
     <file name="mpsDeprecatedExecution.xml" />
   </source>
-  <source id="310331596773287654" name="mpsContribBuild" hash="7rairn217knhg5mh06lykb3ttenqupm">
+  <source id="310331596773287654" name="mpsContribBuild" hash="7hhvsrzl6n57c0aacm52ny3up50231i">
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" />
     <dep model="r:54537613-52b5-40a8-b223-e87f0960b04f(jetbrains.mps.build.mps.generator.template.main@generator)" />

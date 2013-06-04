@@ -4,9 +4,10 @@
   <property name="build.tmp" location="${build.dir}/tmp/mpsDeprecatedBuildlanguage" />
   <property name="build.layout" location="${build.dir}/artifacts/mpsDeprecatedBuildlanguage" />
   <property name="contrib_home" location="${basedir}/../plugins" />
-  <property name="mps_home" location="" />
-  <property name="idea_home" location="${mps_home}" />
-  <property name="artifacts.mps" location="${mps_home}" />
+  <property name="mps_dist_home" location="" />
+  <property name="mps_home" location="${mps_dist_home}" />
+  <property name="idea_home" location="${mps_dist_home}" />
+  <property name="artifacts.mps" location="${mps_dist_home}" />
   <property name="artifacts.mpsXml" location="${build.dir}/artifacts/mpsXml" />
   <property name="artifacts.IDEA" location="${idea_home}" />
   <property file="${artifacts.mps}/build.properties" prefix="import.mps" />
@@ -264,6 +265,10 @@
       <fileset dir="${build.tmp}/java/out/jetbrains.mps.xml.deprecated#1129923280838" />
       <fileset dir="${build.tmp}/default/jetbrains.mps.xml.deprecated#1129923280838.jar" />
     </jar>
+    <mkdir dir="${build.layout}/mps-build-deprecated/lib" />
+    <copy todir="${build.layout}/mps-build-deprecated/lib">
+      <fileset file="${mps_home}/lib/ant/lib/ant-launcher.jar" />
+    </copy>
     <mkdir dir="${build.layout}/mps-build-deprecated/languages" />
     <mkdir dir="${build.layout}/mps-build-deprecated/languages/build" />
     <mkdir dir="${build.tmp}/default/jetbrains.mps.build.generictasks.jar" />
@@ -282,7 +287,7 @@
           <module ref="2af156ab-65c1-4a62-bd0d-ea734f71eab6(jetbrains.mps.dataFlow.runtime)" />
           <module ref="8fe4c62a-2020-4ff4-8eda-f322a55bdc9f(jetbrains.mps.refactoring.runtime)" />
         </dependencies>
-        <library jar="/lib/ant/lib/ant-launcher.jar" />
+        <library jar="../../lib/ant-launcher.jar" />
         <sources jar="jetbrains.mps.build.generictasks-src.jar" descriptor="jetbrains.mps.build.generictasks.mpl" />
       </module>
     </echoxml>

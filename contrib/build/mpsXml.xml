@@ -3,10 +3,11 @@
   <property name="build.dir" location="build" />
   <property name="build.tmp" location="${build.dir}/tmp/mpsXml" />
   <property name="build.layout" location="${build.dir}/artifacts/mpsXml" />
-  <property name="mps_home" location="" />
-  <property name="idea_home" location="${mps_home}" />
+  <property name="mps_dist_home" location="" />
+  <property name="mps_home" location="${mps_dist_home}" />
+  <property name="idea_home" location="${mps_dist_home}" />
   <property name="contrib_home" location="${basedir}/../plugins" />
-  <property name="artifacts.mps" location="${mps_home}" />
+  <property name="artifacts.mps" location="${mps_dist_home}" />
   <property name="artifacts.IDEA" location="${idea_home}" />
   <property file="${artifacts.mps}/build.properties" prefix="import.mps" />
   <property name="mps.build.number" value="${import.mps.mps.build.number}" />
@@ -436,7 +437,7 @@
     </jar>
     <mkdir dir="${build.layout}/mps-xml-obsolete/lib" />
     <copy todir="${build.layout}/mps-xml-obsolete/lib">
-      <fileset file="${mps_home}/plugins/mps-xml-obsolete/languages/util/xmlUnitTest/languages/xmlUnitTest/lib/xmlunit-1.3.jar" />
+      <fileset file="${contrib_home}/mps-xml-obsolete/languages/util/xmlUnitTest/languages/xmlUnitTest/solutions/runtime/lib/xmlunit-1.3.jar" />
     </copy>
     <mkdir dir="${build.layout}/mps-xml-obsolete/languages" />
     <mkdir dir="${build.layout}/mps-xml-obsolete/languages/xml" />
