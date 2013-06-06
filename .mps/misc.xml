@@ -180,7 +180,7 @@
       <modulePath path="$PROJECT_DIR$/languages/util/builders/jetbrains.mps.baseLanguage.builders.mpl" folder="core.baseLanguage.builders" />
       <modulePath path="$PROJECT_DIR$/languages/util/builders/sandbox/jetbrains.mps.baseLanguage.builders.sandbox.msd" folder="core.baseLanguage.builders" />
       <modulePath path="$PROJECT_DIR$/languages/util/buildlanguage/languages/gentest/jetbrains.mps.build.gentest.mpl" folder="contrib.build" />
-      <modulePath path="$PROJECT_DIR$/languages/util/buildlanguage/languages/reduced/jetbrains.mps.build.reduced.mpl" folder="contrib.build" />
+      <modulePath path="$PROJECT_DIR$/languages/util/buildlanguage/languages/reduced/jetbrains.mps.build.reduced.mpl" folder="platform.build.reduced" />
       <modulePath path="$PROJECT_DIR$/languages/util/execution/util/jetbrains.mps.execution.util.mpl" folder="platform.execution" />
       <modulePath path="$PROJECT_DIR$/languages/util/extensionMethod/jetbrains.mps.baseLanguage.extensionMethods.mpl" folder="core.baseLanguage.extensionMethods" />
       <modulePath path="$PROJECT_DIR$/languages/util/extensionMethod/solutions/jetbrains.mps.baseLanguage.extensionMethods.sandbox/jetbrains.mps.baseLanguage.extensionMethods.sandbox.msd" folder="core.baseLanguage.extensionMethods" />
@@ -378,7 +378,6 @@
       <modulePath path="$PROJECT_DIR$/testbench/languages/solutions/pluginSolution/jetbrains.mps.testbench.suite.pluginSolution.msd" folder="tests" />
       <modulePath path="$PROJECT_DIR$/testbench/modules/miscTests/solutions/jetbrains.mps.refactoring.tests.msd" folder="tests" />
       <modulePath path="$PROJECT_DIR$/testbench/modules/testActions/jetbrains.mps.testActions.msd" folder="tests" />
-      <modulePath path="$PROJECT_DIR$/testbench/modules/testAntTask/solutions/testAntTask/testAntTask.msd" folder="tests" />
       <modulePath path="$PROJECT_DIR$/testbench/modules/testDefaultEditor/languages/testDefaultEditor/testDefaultEditor.mpl" folder="tests" />
       <modulePath path="$PROJECT_DIR$/testbench/modules/testMake/solutions/jetbrains.mps.makeTest/jetbrains.mps.makeTest.msd" folder="core.make" />
       <modulePath path="$PROJECT_DIR$/testbench/modules/testMake/solutions/jetbrains.mps.testModels/jetbrains.mps.testModels.msd" folder="tests" />

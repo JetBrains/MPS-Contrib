@@ -562,8 +562,6 @@
       <directory url="file://$PROJECT_DIR$/testbench/languages/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/testbench/modules/testActions/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/testbench/modules/testActions/test_gen" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/testbench/modules/testAntTask/scripts" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/testbench/modules/testAntTask/solutions/testAntTask/test_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/testbench/modules/testDefaultEditor/languages/testDefaultEditor/generator/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/testbench/modules/testDefaultEditor/languages/testDefaultEditor/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/testbench/modules/testMake/solutions/jetbrains.mps.makeTest/source_gen" includeSubdirectories="true" />
