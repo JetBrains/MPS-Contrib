@@ -177,7 +177,6 @@
       <modulePath path="$PROJECT_DIR$/languages/util/graphLayout/solutions/jetbrains.mps.graphLayout.orthogonalLayout/jetbrains.mps.graphLayout.orthogonalLayout.msd" folder="contrib.graphLayout" />
       <modulePath path="$PROJECT_DIR$/languages/util/graphLayout/solutions/jetbrains.mps.graphLayout.planarization/jetbrains.mps.graphLayout.planarization.msd" folder="contrib.graphLayout" />
       <modulePath path="$PROJECT_DIR$/languages/util/graphLayout/solutions/jetbrains.mps.graphLayout.test/jetbrains.mps.graphLayout.test.msd" folder="contrib.graphLayout" />
-      <modulePath path="$PROJECT_DIR$/languages/util/ideUiLanguage/jetbrains.mps.ide.uiLanguage.mpl" folder="platform.uiLanguage" />
       <modulePath path="$PROJECT_DIR$/languages/util/regexp/jetbrains.mps.baseLanguage.regexp.mpl" folder="core.baseLanguage.regexp" />
       <modulePath path="$PROJECT_DIR$/languages/util/regexp/solutions/jetbrains.mps.baseLanguage.regexp.runtime/jetbrains.mps.baseLanguage.regexp.runtime.msd" folder="core.baseLanguage.regexp" />
       <modulePath path="$PROJECT_DIR$/languages/util/regexp/solutions/jetbrains.mps.regexp.examples/jetbrains.mps.baseLanguage.regexp.examples.msd" folder="core.baseLanguage.regexp" />

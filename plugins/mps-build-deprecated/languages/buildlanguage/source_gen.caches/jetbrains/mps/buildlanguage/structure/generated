@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-8qi01wuhuzcyao1ut1865wjqkaf40du">
+<dependencies version="2" modelHash="dml0mhziq5cr1af33s0er0o3yxkv22g">
   <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel.runtime.impl(MPS.Core/jetbrains.mps.smodel.runtime.impl@java_stub)" />
-  <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="-8a8g8c3samqxd7s54bm1fyxossfyafx" />
+  <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="2tkar8wwxyebdmgxtp5o764ljq3vhpt" />
   <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" hash="-cktl500jgk8r21itxeo7kjmocob2zs5" />
-  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-mjxs0m2jun2n8oda8eyh1sj6wp5zko" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-a5paiteqlzxfcmwi6m4jtivpvepljjm" />
   <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" hash="-brl2bgkky74xjyauouufkoy6p3yk0z4" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="ckk7u2kjk5lwqta6jwv64dr9ksfac7c" />
   <common hash="-9lohlulkbr67kz7l5293v214j6h063x">
@@ -100,7 +100,7 @@
   <source id="1196870830058" name="PropertyType" hash="c2v995e3n98qe8m8ea7704io9xbiz04">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1197107841918" name="BinaryOperation" hash="1sqhpf1pqmeey0gtsm6blvk3me1m69v">
+  <source id="1197107841918" name="BinaryOperation" hash="-bntep02ya8ejrgy3mixhiwyn8qdgpj3">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="1197108973325" name="PlusOperation" hash="eljkvyaclll11x0qk3trc701ew2tr8d">
@@ -130,7 +130,7 @@
   <source id="1200510908478" name="CallReferenceType" hash="3tc44qoqxi4zgb3ffzgwsqkms2f295g">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1200511852076" name="CallReference" hash="7texl7lxcpeuumy96x2gdto5kjytcsw">
+  <source id="1200511852076" name="CallReference" hash="eb6bjum0ke61tbl7baaykugdkfo2eqj">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="1201111033873" name="ISource" hash="-bwettkst7ary46i4wy49nl9yshy53dl">

@@ -920,7 +920,7 @@
     <node role="conceptPropertyDeclaration" roleId="tpce.1137467167200" type="tpce.BooleanConceptPropertyDeclaration" typeId="tpce.1105725240314" id="314981645426569351" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="requiresCustomEditor" />
       <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="4694041203278844309" nodeInfo="ig" />
-      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.MigratedToMethodAnnotation" typeId="tpce.8080932314785812236" id="4694041203278844308" nodeInfo="ng">
+      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.MigratedToMethodAnnotation" typeId="tpce.8080932314785812236" id="4694041203278844308" nodeInfo="ig">
         <link role="method" roleId="tpce.8080932314785812847" targetNodeId="g3s4.1262430001741498265" resolveInfo="requiresCustomEditor" />
       </node>
     </node>

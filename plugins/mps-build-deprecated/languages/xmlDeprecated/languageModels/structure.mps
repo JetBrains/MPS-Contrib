@@ -32,7 +32,7 @@
       <property name="name" nameId="tpck.1169194664001" value="indented" />
       <property name="inheritable" nameId="tpce.1218571350029" value="true" />
       <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="4694041203278843069" nodeInfo="ig" />
-      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.MigratedToMethodAnnotation" typeId="tpce.8080932314785812236" id="4694041203278843068" nodeInfo="ng">
+      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.MigratedToMethodAnnotation" typeId="tpce.8080932314785812236" id="4694041203278843068" nodeInfo="ig">
         <link role="method" roleId="tpce.8080932314785812847" targetNodeId="z9z4.1262430001741498172" resolveInfo="indented" />
       </node>
     </node>
