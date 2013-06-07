@@ -367,6 +367,7 @@
       <modulePath path="$PROJECT_DIR$/testbench/modules/testDefaultEditor/languages/testDefaultEditor/testDefaultEditor.mpl" folder="tests" />
       <modulePath path="$PROJECT_DIR$/testbench/modules/testMake/solutions/jetbrains.mps.makeTest/jetbrains.mps.makeTest.msd" folder="core.make" />
       <modulePath path="$PROJECT_DIR$/testbench/modules/testMake/solutions/jetbrains.mps.testModels/jetbrains.mps.testModels.msd" folder="tests" />
+      <modulePath path="$PROJECT_DIR$/testbench/modules/testMoveElements/languages/testMoveElements/testMoveElements.mpl" folder="tests" />
       <modulePath path="$PROJECT_DIR$/testbench/modules/testRead/jetbrains.mps.testRead.msd" folder="tests" />
       <modulePath path="$PROJECT_DIR$/testbench/modules/testRefactoring/languages/testRefactoring/testRefactoring.mpl" folder="tests" />
       <modulePath path="$PROJECT_DIR$/testbench/modules/testRefactoring/languages/testRefactoringTargetLang/testRefactoringTargetLang.mpl" folder="tests" />

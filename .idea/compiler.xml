@@ -566,6 +566,8 @@
       <directory url="file://$PROJECT_DIR$/testbench/modules/testMake/solutions/jetbrains.mps.makeTest/test_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/testbench/modules/testMake/solutions/jetbrains.mps.testModels/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/testbench/modules/testMake/solutions/jetbrains.mps.testModels/test_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/testbench/modules/testMoveElements/languages/testMoveElements/generator/source_gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/testbench/modules/testMoveElements/languages/testMoveElements/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/testbench/modules/testRead/source_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/testbench/modules/testRead/test_gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/testbench/modules/testRefactoring/languages/testRefactoring/source_gen" includeSubdirectories="true" />
