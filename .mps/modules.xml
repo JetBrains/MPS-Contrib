@@ -371,6 +371,7 @@
       <modulePath path="$PROJECT_DIR$/testbench/modules/testRefactoring/languages/testRefactoring/testRefactoring.mpl" folder="tests" />
       <modulePath path="$PROJECT_DIR$/testbench/modules/testRefactoring/languages/testRefactoringTargetLang/testRefactoringTargetLang.mpl" folder="tests" />
       <modulePath path="$PROJECT_DIR$/testbench/modules/testRefactoring/solutions/testRefactoring.sandbox/testRefactoring.sandbox.msd" folder="tests" />
+      <modulePath path="$PROJECT_DIR$/testbench/modules/testMoveElements/languages/testMoveElements/testMoveElements.mpl" folder="tests" />
       <modulePath path="$PROJECT_DIR$/testbench/solution/jetbrains.mps.testbench.msd" folder="tests" />
       <modulePath path="$PROJECT_DIR$/testbench/solutions/jetbrains.mps.testbench.make.msd" folder="tests" />
       <modulePath path="$PROJECT_DIR$/workbench/mps-debugger/jetbrains.mps.debugger.core.msd" folder="platform.debugger" />
