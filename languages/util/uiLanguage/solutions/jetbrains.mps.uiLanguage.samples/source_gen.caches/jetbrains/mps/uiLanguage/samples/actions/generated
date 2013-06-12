@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-9e0kl3fhkkgu9g0owqccqad8rwn7w5p">
+<dependencies version="2" modelHash="-7vazpv0fgk058bwdchtqkhi9qdthaa8">
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.swing(JDK/javax.swing@java_stub)" />
   <dep model="f:java_stub#86441d7a-e194-42da-81a5-2161ec62a379#org.jdesktop.beansbinding(MPS.Workbench/org.jdesktop.beansbinding@java_stub)" />
-  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-7mxihkcc0vv2q7mmukrgbm8b18oc3tu" />
-  <dep model="r:00000000-0000-4000-0000-011c89590374(jetbrains.mps.baseLanguage.classifiers.generator.baseLanguage.template.main@generator)" hash="9deyh7wj333ln3opy2orcr0x7l0h6ov" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-bj3r7xrkx1tokdu56absbnx3f3f389" />
+  <dep model="r:00000000-0000-4000-0000-011c89590374(jetbrains.mps.baseLanguage.classifiers.generator.baseLanguage.template.main@generator)" hash="iad34v0paaaaokkadywwcqcja7n96u" />
   <dep model="r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)" hash="bgpddhj794nah31lxr3qjrl6ozici38" />
-  <dep model="r:00000000-0000-4000-0000-011c89590557(jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator)" hash="-8asjky8asxh5of7p4h6asaa6re2r9dd" />
-  <dep model="r:00067a2f-ff21-4151-9184-3308b3d1f130(jetbrains.mps.uiLanguage.runtime)" hash="bwazb18ttgojlez7a6p4icx3v486i5t" />
+  <dep model="r:00000000-0000-4000-0000-011c89590557(jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator)" hash="-9ktbxwn30ev13vlh9sjfohzjl5cu64c" />
+  <dep model="r:00067a2f-ff21-4151-9184-3308b3d1f130(jetbrains.mps.uiLanguage.runtime)" hash="-3psquc4jkam7ya22aq3w2fzcf13xj1j" />
   <common hash="-77dj6qbl6mmx0vmt0745iwm3jf9uno8" />
   <source id="1202743870023" name="ActionsSample" hash="-57gdvchyz2pumjlx8ejp532ayfp4xpu">
     <dep root="1202748791358" />
@@ -19,7 +19,7 @@
     <dep model="r:00067a2f-ff21-4151-9184-3308b3d1f130(jetbrains.mps.uiLanguage.runtime)" />
     <file name="ActionsSample.java" />
   </source>
-  <source id="1202748791358" name="ActionsSample_Controller" hash="-4dnuw09oj23v635nvl0uvb21ltovtvg">
+  <source id="1202748791358" name="ActionsSample_Controller" hash="-1dm2s1qrte0i3dvrx4uislwt2tzkwpi">
     <dep model="r:00000000-0000-4000-0000-011c89590557(jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator)" />
   </source>
 </dependencies>

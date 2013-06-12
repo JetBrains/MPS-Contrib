@@ -56,7 +56,7 @@
     <node role="componentMethod" roleId="tphr.1202742069115" type="tp4f.DefaultClassifierMethodDeclaration" typeId="tp4f.1205769003971" id="1209814737572" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="pressHandler" />
       <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="1209814737573" nodeInfo="in" />
-      <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="1209814737574" nodeInfo="nn">
+      <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="1209814737574" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="1209814737575" nodeInfo="nn">
           <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="1209814737576" nodeInfo="nn">
             <node role="rValue" roleId="tpee.1068498886297" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="1209814737577" nodeInfo="nn">
@@ -93,7 +93,7 @@
       </node>
     </node>
     <node role="afterConstruction" roleId="tphr.1203080266186" type="tphr.AfterConstructionBlock" typeId="tphr.1203080174635" id="1209814737589" nodeInfo="ng">
-      <node role="body" roleId="tphr.1203080185261" type="tpee.StatementList" typeId="tpee.1068580123136" id="1209814737590" nodeInfo="nn">
+      <node role="body" roleId="tphr.1203080185261" type="tpee.StatementList" typeId="tpee.1068580123136" id="1209814737590" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="1209814737591" nodeInfo="nn">
           <node role="expression" roleId="tpee.1068580123156" type="tphr.AddListenerOperation" typeId="tphr.1208090496480" id="1209814737592" nodeInfo="nn">
             <node role="rightExpression" roleId="tpee.1081773367579" type="tphr.EventHandlerReference" typeId="tphr.1208685679469" id="1209814737593" nodeInfo="nn">
@@ -135,7 +135,7 @@
           <link role="classifier" roleId="tpee.1107535924139" targetNodeId="8q6x.~ActionEvent" resolveInfo="ActionEvent" />
         </node>
       </node>
-      <node role="initializer" roleId="tphr.1209653195395" type="tpee.StatementList" typeId="tpee.1068580123136" id="1209814737607" nodeInfo="nn">
+      <node role="initializer" roleId="tphr.1209653195395" type="tpee.StatementList" typeId="tpee.1068580123136" id="1209814737607" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="1209814737608" nodeInfo="nn">
           <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1209814737609" nodeInfo="nn">
             <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1209814737610" nodeInfo="nn">
@@ -150,7 +150,7 @@
                       <property name="name" nameId="tpck.1169194664001" value="actionPerformed" />
                       <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="1209814737616" nodeInfo="in" />
                       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="1209814737617" nodeInfo="nn" />
-                      <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="1209814737618" nodeInfo="nn">
+                      <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="1209814737618" nodeInfo="sn">
                         <node role="statement" roleId="tpee.1068581517665" type="tphr.RaiseInternalStatement" typeId="tphr.1209655552864" id="1209814737619" nodeInfo="nn">
                           <node role="argument" roleId="tphr.1209655590318" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="1209814737620" nodeInfo="nn">
                             <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1209814737621" resolveInfo="e" />
