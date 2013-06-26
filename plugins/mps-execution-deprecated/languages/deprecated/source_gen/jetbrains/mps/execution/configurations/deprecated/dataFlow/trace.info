@@ -50,12 +50,12 @@
   </root>
   <root nodeRef="r:8656e939-bf57-4238-aa56-83db35841a3e(jetbrains.mps.execution.configurations.deprecated.dataFlow)/314981645426571170">
     <nodeInfo nodeId="314981645426571173" fileName="RunConfigPropertyInstance_DataFlow.java" startLine="15" startPosition="102" endLine="16" endPosition="110" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="314981645426571177" fileName="RunConfigPropertyInstance_DataFlow.java" startLine="16" startPosition="110" endLine="17" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="314981645426571177" fileName="RunConfigPropertyInstance_DataFlow.java" startLine="16" startPosition="110" endLine="17" endPosition="223" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="314981645426571170" fileName="RunConfigPropertyInstance_DataFlow.java" startLine="12" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="RunConfigPropertyInstance_DataFlow#()V" />
     <nodeInfo nodeId="314981645426571170" fileName="RunConfigPropertyInstance_DataFlow.java" startLine="15" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="build#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/lang/dataFlow/DataFlowBuilderContext;)V" />
     <scopeInfo nodeId="314981645426571170" fileName="RunConfigPropertyInstance_DataFlow.java" startLine="12" startPosition="47" endLine="12" endPosition="47" />
     <scopeInfo nodeId="314981645426571170" fileName="RunConfigPropertyInstance_DataFlow.java" startLine="12" startPosition="0" endLine="14" endPosition="0" />
-    <scopeInfo nodeId="314981645426571172" fileName="RunConfigPropertyInstance_DataFlow.java" startLine="15" startPosition="102" endLine="17" endPosition="102" />
+    <scopeInfo nodeId="314981645426571172" fileName="RunConfigPropertyInstance_DataFlow.java" startLine="15" startPosition="102" endLine="17" endPosition="223" />
     <scopeInfo nodeId="314981645426571170" fileName="RunConfigPropertyInstance_DataFlow.java" startLine="15" startPosition="0" endLine="19" endPosition="0">
       <varInfo nodeId="314981645426571170" varName="_context" />
       <varInfo nodeId="314981645426571170" varName="operationContext" />

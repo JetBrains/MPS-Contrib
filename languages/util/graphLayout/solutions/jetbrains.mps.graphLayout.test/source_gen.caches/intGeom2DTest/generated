@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-23stp42aot9215z2xkvf59pui3ovvht">
-  <dep model="r:00000000-0000-4000-0000-011c895902d8(jetbrains.mps.baseLanguage.unitTest.generator.baseLanguage.template.main@generator)" hash="dgtel9s427vm37iaz9u6ikq38xnt1eq" />
+<dependencies version="2" modelHash="81vf0knqmn5g0akh87tr8n4tfjp9rdq">
+  <dep model="r:00000000-0000-4000-0000-011c895902d8(jetbrains.mps.baseLanguage.unitTest.generator.baseLanguage.template.main@generator)" hash="3ufygskomwsbyhgecoht1jp34ipmj9l" />
   <common hash="-3udz7cfuxmurmyabmzlsw5gjtfb5s0u" />
-  <source id="7490214903453704353" name="IsIntersects_Test" hash="97f84ban1hsuo4w5cjdpy3h8fufsy0l">
+  <source id="7490214903453704353" name="IsIntersects_Test" hash="5dexdixlwboibgwhb4dqk2zw2w2dmn3">
     <dep model="r:00000000-0000-4000-0000-011c895902d8(jetbrains.mps.baseLanguage.unitTest.generator.baseLanguage.template.main@generator)" />
     <file name="IsIntersects_Test.java" />
   </source>

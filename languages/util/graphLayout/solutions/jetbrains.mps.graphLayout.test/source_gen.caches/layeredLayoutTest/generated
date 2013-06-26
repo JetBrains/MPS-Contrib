@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="ckh1ubsv960r547ezkelv1fjgj2xrao">
+<dependencies version="2" modelHash="4sc9oh1wbbuyj4nmiljwq1i33tyt2ux">
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
-  <dep model="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" hash="-5qkh0mpu388oets3m8g893qmi77hv6t" />
-  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-7mxihkcc0vv2q7mmukrgbm8b18oc3tu" />
-  <dep model="r:00000000-0000-4000-0000-011c895902d8(jetbrains.mps.baseLanguage.unitTest.generator.baseLanguage.template.main@generator)" hash="dgtel9s427vm37iaz9u6ikq38xnt1eq" />
+  <dep model="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" hash="aumxb375hryoj342z68nrzgvgr4jzbz" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-bj3r7xrkx1tokdu56absbnx3f3f389" />
+  <dep model="r:00000000-0000-4000-0000-011c895902d8(jetbrains.mps.baseLanguage.unitTest.generator.baseLanguage.template.main@generator)" hash="3ufygskomwsbyhgecoht1jp34ipmj9l" />
   <dep model="r:00000000-0000-4000-0000-011c895902de(jetbrains.mps.baseLanguage.blTypes.primitiveDescriptors)" />
-  <dep model="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" hash="escnzqn0hifing8eemstueasix9gmse" />
-  <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" hash="59ea0wchjl1p3fmqjarzl02fje6rngu" />
-  <dep model="r:1674ee60-7c44-4176-8f8c-2c87c767d971(sampleGraphs)" hash="2y1uf3g1ftglla4ie66p1heaza7esjc" />
-  <dep model="r:56e7ed05-c300-4310-9801-1a49a3ba1a5a(jetbrains.mps.graphLayout.layeredLayout)" hash="gj0a7y4exrojyocwgyc6pdvthj4ums" />
-  <dep model="r:5aba4e89-d910-492c-9b56-c5e3fe8c0f28(jetbrains.mps.graphLayout.algorithms)" hash="-5ejuhkbs26mygrvzr68pxas4nb71i8q" />
-  <dep model="r:8254b240-abed-4f97-a7cd-2eef733ec7fb(jetbrains.mps.graphLayout.util)" hash="bd93zbcmoaj6svlb9lp4248cv4r7vfm" />
-  <dep model="r:d1558b8f-fc9e-4ca7-bb90-70ac789f336e(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.post@generator)" hash="-2ndxdy2yylqxt61razyif42s9aj25s9" />
-  <dep model="r:d228b8c9-d2b1-4686-9904-e3c49a346bc6(jetbrains.mps.graphLayout.graph)" hash="bh3vzml3pkn2vdqdw8exjqonf2mktj3" />
-  <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" hash="30wpo2za1rc0zf5vwwy3fdx7rb6qejl" />
+  <dep model="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" hash="-142wbmg1uqs2tdphevb8ixrdwx6p65o" />
+  <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" hash="-ehclih2ljjvh3gcfl67v2ip8o73gip1" />
+  <dep model="r:1674ee60-7c44-4176-8f8c-2c87c767d971(sampleGraphs)" hash="-8ulu62uvcj7hx8deoup90wyr2k1wawt" />
+  <dep model="r:56e7ed05-c300-4310-9801-1a49a3ba1a5a(jetbrains.mps.graphLayout.layeredLayout)" hash="-3y1rrdhgz2og2fgmfylietjppy3x17q" />
+  <dep model="r:5aba4e89-d910-492c-9b56-c5e3fe8c0f28(jetbrains.mps.graphLayout.algorithms)" hash="60kqz1zjmwk2k613l26i253atwtbg6p" />
+  <dep model="r:8254b240-abed-4f97-a7cd-2eef733ec7fb(jetbrains.mps.graphLayout.util)" hash="d0hwb0k63fml05uhk49mor1cwy7zhfn" />
+  <dep model="r:d1558b8f-fc9e-4ca7-bb90-70ac789f336e(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.post@generator)" hash="-2te9zcwr0xtinv0zm3xquqs5me3u63x" />
+  <dep model="r:d228b8c9-d2b1-4686-9904-e3c49a346bc6(jetbrains.mps.graphLayout.graph)" hash="3sjjcs4v409zu4bb053kst6oaxv7wie" />
+  <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" hash="5wivjm735wrx1nbiz5js62dqixuwvq4" />
   <common hash="-eocp5hfsl5f4n3axoxkrhr43yrex639" />
-  <source id="1567683135099906065" name="DFSEdgeReverter_Test" hash="-b2j12pqi9bmxiluou0askwbqhq2gfe9">
+  <source id="1567683135099906065" name="DFSEdgeReverter_Test" hash="-9clfcpmy0ozkuagv0g3bip4v8bou2d5">
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902d8(jetbrains.mps.baseLanguage.unitTest.generator.baseLanguage.template.main@generator)" />
     <file name="DFSEdgeReverter_Test.java" />
   </source>
-  <source id="1567683135099906087" name="TopologicalLayerer_Test" hash="2jluakn2ilt7txo59ajhpi3qlaht9du">
+  <source id="1567683135099906087" name="TopologicalLayerer_Test" hash="-9fpk09fgixvvxjdo5ns5py1eje8irdw">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -30,7 +30,7 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="TopologicalLayerer_Test.java" />
   </source>
-  <source id="1567683135099906440" name="DFSNodeSorter_Test" hash="e7l4v1tkvfxn3rwultb5hq6ihfqoer9">
+  <source id="1567683135099906440" name="DFSNodeSorter_Test" hash="-btquppov8j329vs74jrf0rwzeb9ahxm">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" />
@@ -46,7 +46,7 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="DFSNodeSorter_Test.java" />
   </source>
-  <source id="1567683135099906733" name="CheckCycles" hash="-99k0k6141kqgt85tvjrumb0ml6ls78q">
+  <source id="1567683135099906733" name="CheckCycles" hash="cxl18ddjf9lz50tn8kcm4pzn2b79kvp">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -55,7 +55,7 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="CheckCycles.java" />
   </source>
-  <source id="1567683135099906778" name="CheckLayers" hash="1i8sj11fc2i45epqr16x291pv9rnm6e">
+  <source id="1567683135099906778" name="CheckLayers" hash="-5l7s9ub0h7126i9cvehqgf2wk83aity">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -64,7 +64,7 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="CheckLayers.java" />
   </source>
-  <source id="6088058844796081230" name="CheckDummyEdgesCrossing" hash="6mw4xaf38dqvk22oeenhrz7nyq1msuq">
+  <source id="6088058844796081230" name="CheckDummyEdgesCrossing" hash="6nckf8g5odhouh29hayd3s7orifb9jp">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" />
@@ -76,13 +76,13 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="CheckDummyEdgesCrossing.java" />
   </source>
-  <source id="4519409331094619347" name="EdgeReverterProxy" hash="6ps7paxtrzv1gplwt86dd7xi48y0bll">
+  <source id="4519409331094619347" name="EdgeReverterProxy" hash="-8710evgljkdp2qqu4djboe7cltumowy">
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902d8(jetbrains.mps.baseLanguage.unitTest.generator.baseLanguage.template.main@generator)" />
     <dep model="r:d228b8c9-d2b1-4686-9904-e3c49a346bc6(jetbrains.mps.graphLayout.graph)" />
     <file name="EdgeReverterProxy.java" />
   </source>
-  <source id="4519409331094620043" name="LayererProxy" hash="ejzl37dkdqf4jqxx1v5kiumhckequlz">
+  <source id="4519409331094620043" name="LayererProxy" hash="1vd8lmg4oco84npwk3k96faooby4tcc">
     <dep root="1567683135099906778" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -90,7 +90,7 @@
     <dep model="r:d228b8c9-d2b1-4686-9904-e3c49a346bc6(jetbrains.mps.graphLayout.graph)" />
     <file name="LayererProxy.java" />
   </source>
-  <source id="4519409331094621475" name="MedianLayerByLayerSorterProxy" hash="ex5o51ik7wdq50mr6ncibhozf2hjvzw">
+  <source id="4519409331094621475" name="MedianLayerByLayerSorterProxy" hash="1fne32ouo7x237f3w8u76r0kw8xt8h1">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902d8(jetbrains.mps.baseLanguage.unitTest.generator.baseLanguage.template.main@generator)" />
@@ -98,14 +98,14 @@
     <dep model="r:d228b8c9-d2b1-4686-9904-e3c49a346bc6(jetbrains.mps.graphLayout.graph)" />
     <file name="MedianLayerByLayerSorterProxy.java" />
   </source>
-  <source id="4519409331094801569" name="BlockGraphProcessor_Test" hash="3mpdgzrv3rd0brd4ttqgxni9bhruvp">
+  <source id="4519409331094801569" name="BlockGraphProcessor_Test" hash="-628n0x10hv89ydxxik5gimm7kfuf7op">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902d8(jetbrains.mps.baseLanguage.unitTest.generator.baseLanguage.template.main@generator)" />
     <dep model="r:d228b8c9-d2b1-4686-9904-e3c49a346bc6(jetbrains.mps.graphLayout.graph)" />
     <file name="BlockGraphProcessor_Test.java" />
   </source>
-  <source id="8780938838750221986" name="RefineAdjacentNodeSorterProxy" hash="-4vj52yssv71me49s84dj0zwfz94exj5">
+  <source id="8780938838750221986" name="RefineAdjacentNodeSorterProxy" hash="9ecqgh4ow4fjtac9dyjqf1y2wat2az8">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902d8(jetbrains.mps.baseLanguage.unitTest.generator.baseLanguage.template.main@generator)" />

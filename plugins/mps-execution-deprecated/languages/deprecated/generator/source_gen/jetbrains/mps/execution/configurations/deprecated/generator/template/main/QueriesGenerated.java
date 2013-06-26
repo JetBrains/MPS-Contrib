@@ -115,7 +115,7 @@ public class QueriesGenerated {
     return _context.getOutputNodeByInputNodeAndMappingLabel(SNodeOperations.cast(SLinkOperations.getTarget(_context.getNode(), "runConfig", false), "jetbrains.mps.execution.configurations.deprecated.structure.JavaRunConfiguration"), "map_JavaRunConfigurationToRunConfiguration");
   }
 
-  public static Object referenceMacro_GetReferent_5827490094965878944(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+  public static Object referenceMacro_GetReferent_2034046503361624228(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "conceptDeclaration", false);
   }
 
@@ -171,7 +171,7 @@ public class QueriesGenerated {
     return (SLinkOperations.getTarget(_context.getNode(), "isApplicableBlock", true) != null);
   }
 
-  public static boolean ifMacro_Condition_5827490094965878951(final IOperationContext operationContext, final IfMacroContext _context) {
+  public static boolean ifMacro_Condition_2034046503361624235(final IOperationContext operationContext, final IfMacroContext _context) {
     return (SLinkOperations.getTarget(_context.getNode(), "conceptDeclaration", false) != null);
   }
 

@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/languages/baseLanguage/baseLanguage/solutions/jetbrains.mps.baseLanguage.util/baseLanguage-util.iml" filepath="$PROJECT_DIR$/languages/baseLanguage/baseLanguage/solutions/jetbrains.mps.baseLanguage.util/baseLanguage-util.iml" group="languages" />
       <module fileurl="file://$PROJECT_DIR$/plugins/mpsjava/basePlatform/basePlatform.iml" filepath="$PROJECT_DIR$/plugins/mpsjava/basePlatform/basePlatform.iml" group="plugins" />
       <module fileurl="file://$PROJECT_DIR$/languages/baseLanguage/collections/runtime/collections-runtime.iml" filepath="$PROJECT_DIR$/languages/baseLanguage/collections/runtime/collections-runtime.iml" group="languages" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/console/console.iml" filepath="$PROJECT_DIR$/plugins/console/console.iml" />
       <module fileurl="file://$PROJECT_DIR$/plugins/debugger-api/api/debugger-api-api.iml" filepath="$PROJECT_DIR$/plugins/debugger-api/api/debugger-api-api.iml" group="plugins/debugger/debugger-api" />
       <module fileurl="file://$PROJECT_DIR$/plugins/debugger-api/runtime/debugger-api-runtime.iml" filepath="$PROJECT_DIR$/plugins/debugger-api/runtime/debugger-api-runtime.iml" group="plugins/debugger/debugger-api" />
       <module fileurl="file://$PROJECT_DIR$/plugins/debugger-java/api/debugger-java-api.iml" filepath="$PROJECT_DIR$/plugins/debugger-java/api/debugger-java-api.iml" group="plugins/debugger/debugger-java" />
@@ -21,6 +22,7 @@
       <module fileurl="file://$PROJECT_DIR$/editor/editor-api/editor-api.iml" filepath="$PROJECT_DIR$/editor/editor-api/editor-api.iml" group="editor" />
       <module fileurl="file://$PROJECT_DIR$/editor/editor-runtime/editor-runtime.iml" filepath="$PROJECT_DIR$/editor/editor-runtime/editor-runtime.iml" group="editor" />
       <module fileurl="file://$PROJECT_DIR$/editor/editorlang-runtime/editorlang-runtime.iml" filepath="$PROJECT_DIR$/editor/editorlang-runtime/editorlang-runtime.iml" group="editor" />
+      <module fileurl="file://$PROJECT_DIR$/core/tool/environment/environment.iml" filepath="$PROJECT_DIR$/core/tool/environment/environment.iml" />
       <module fileurl="file://$PROJECT_DIR$/plugins/execution-api/execution-api.iml" filepath="$PROJECT_DIR$/plugins/execution-api/execution-api.iml" group="plugins/execution" />
       <module fileurl="file://$PROJECT_DIR$/plugins/execution-configurations/languages/ant/execution-configurations-ant.iml" filepath="$PROJECT_DIR$/plugins/execution-configurations/languages/ant/execution-configurations-ant.iml" group="plugins/execution" />
       <module fileurl="file://$PROJECT_DIR$/plugins/execution-configurations/languages/baseLanguage/jetbrains.mps.baseLanguage.execution.api/execution-configurations-baseLanguage.iml" filepath="$PROJECT_DIR$/plugins/execution-configurations/languages/baseLanguage/jetbrains.mps.baseLanguage.execution.api/execution-configurations-baseLanguage.iml" group="plugins/execution" />

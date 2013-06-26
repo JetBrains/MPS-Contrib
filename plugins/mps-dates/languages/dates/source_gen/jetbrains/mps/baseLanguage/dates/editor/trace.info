@@ -12990,44 +12990,44 @@
     <unitInfo nodeId="5600029375248625372" fileName="WithPropertyCompareExpression_delete.java" startLine="13" startPosition="0" endLine="38" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.editor.WithPropertyCompareExpression_delete" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903d0(jetbrains.mps.baseLanguage.dates.editor)/6240071430105681206">
-    <nodeInfo nodeId="6240071430105681206" fileName="InlineFormatDateTimeExpression_delete.java" startLine="14" startPosition="95" endLine="15" endPosition="142" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6240071430105681206" fileName="InlineFormatDateTimeExpression_delete.java" startLine="19" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myNode" />
-    <nodeInfo nodeId="6240071430105681206" fileName="InlineFormatDateTimeExpression_delete.java" startLine="21" startPosition="69" endLine="22" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6240071430105681206" fileName="InlineFormatDateTimeExpression_delete.java" startLine="25" startPosition="40" endLine="26" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6240071430105681206" fileName="InlineFormatDateTimeExpression_delete.java" startLine="29" startPosition="54" endLine="30" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2192048487563549503" fileName="InlineFormatDateTimeExpression_delete.java" startLine="33" startPosition="75" endLine="34" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2192048487563549509" fileName="InlineFormatDateTimeExpression_delete.java" startLine="34" startPosition="71" endLine="35" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2192048487563549514" fileName="InlineFormatDateTimeExpression_delete.java" startLine="35" startPosition="55" endLine="36" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6240071430105681206" fileName="InlineFormatDateTimeExpression_delete.java" startLine="14" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="setCellActions#(Ljetbrains/mps/openapi/editor/cells/EditorCell;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
-    <nodeInfo nodeId="6240071430105681206" fileName="InlineFormatDateTimeExpression_delete.java" startLine="21" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="InlineFormatDateTimeExpression_delete_DELETE#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="6240071430105681206" fileName="InlineFormatDateTimeExpression_delete.java" startLine="25" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescriptionText#()Ljava/lang/String;" />
-    <nodeInfo nodeId="6240071430105681206" fileName="InlineFormatDateTimeExpression_delete.java" startLine="29" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/openapi/editor/EditorContext;)V" />
-    <nodeInfo nodeId="6240071430105681206" fileName="InlineFormatDateTimeExpression_delete.java" startLine="33" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute_internal#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <scopeInfo nodeId="6240071430105681206" fileName="InlineFormatDateTimeExpression_delete.java" startLine="14" startPosition="95" endLine="15" endPosition="142" />
-    <scopeInfo nodeId="6240071430105681206" fileName="InlineFormatDateTimeExpression_delete.java" startLine="21" startPosition="69" endLine="22" endPosition="25" />
-    <scopeInfo nodeId="6240071430105681206" fileName="InlineFormatDateTimeExpression_delete.java" startLine="25" startPosition="40" endLine="26" endPosition="33" />
-    <scopeInfo nodeId="6240071430105681206" fileName="InlineFormatDateTimeExpression_delete.java" startLine="29" startPosition="54" endLine="30" endPosition="56" />
-    <scopeInfo nodeId="6240071430105681206" fileName="InlineFormatDateTimeExpression_delete.java" startLine="14" startPosition="0" endLine="17" endPosition="0">
+    <nodeInfo nodeId="6240071430105681206" fileName="InlineFormatDateTimeExpression_delete.java" startLine="15" startPosition="95" endLine="16" endPosition="142" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6240071430105681206" fileName="InlineFormatDateTimeExpression_delete.java" startLine="20" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myNode" />
+    <nodeInfo nodeId="6240071430105681206" fileName="InlineFormatDateTimeExpression_delete.java" startLine="22" startPosition="69" endLine="23" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6240071430105681206" fileName="InlineFormatDateTimeExpression_delete.java" startLine="26" startPosition="40" endLine="27" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6240071430105681206" fileName="InlineFormatDateTimeExpression_delete.java" startLine="30" startPosition="54" endLine="31" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2192048487563549503" fileName="InlineFormatDateTimeExpression_delete.java" startLine="34" startPosition="75" endLine="35" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2192048487563549509" fileName="InlineFormatDateTimeExpression_delete.java" startLine="35" startPosition="71" endLine="36" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2192048487563549514" fileName="InlineFormatDateTimeExpression_delete.java" startLine="36" startPosition="55" endLine="37" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6240071430105681206" fileName="InlineFormatDateTimeExpression_delete.java" startLine="15" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="setCellActions#(Ljetbrains/mps/openapi/editor/cells/EditorCell;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+    <nodeInfo nodeId="6240071430105681206" fileName="InlineFormatDateTimeExpression_delete.java" startLine="22" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="InlineFormatDateTimeExpression_delete_DELETE#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="6240071430105681206" fileName="InlineFormatDateTimeExpression_delete.java" startLine="26" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescriptionText#()Ljava/lang/String;" />
+    <nodeInfo nodeId="6240071430105681206" fileName="InlineFormatDateTimeExpression_delete.java" startLine="30" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+    <nodeInfo nodeId="6240071430105681206" fileName="InlineFormatDateTimeExpression_delete.java" startLine="34" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute_internal#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <scopeInfo nodeId="6240071430105681206" fileName="InlineFormatDateTimeExpression_delete.java" startLine="15" startPosition="95" endLine="16" endPosition="142" />
+    <scopeInfo nodeId="6240071430105681206" fileName="InlineFormatDateTimeExpression_delete.java" startLine="22" startPosition="69" endLine="23" endPosition="25" />
+    <scopeInfo nodeId="6240071430105681206" fileName="InlineFormatDateTimeExpression_delete.java" startLine="26" startPosition="40" endLine="27" endPosition="33" />
+    <scopeInfo nodeId="6240071430105681206" fileName="InlineFormatDateTimeExpression_delete.java" startLine="30" startPosition="54" endLine="31" endPosition="56" />
+    <scopeInfo nodeId="6240071430105681206" fileName="InlineFormatDateTimeExpression_delete.java" startLine="15" startPosition="0" endLine="18" endPosition="0">
       <varInfo nodeId="6240071430105681206" varName="context" />
       <varInfo nodeId="6240071430105681206" varName="editorCell" />
       <varInfo nodeId="6240071430105681206" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="6240071430105681206" fileName="InlineFormatDateTimeExpression_delete.java" startLine="21" startPosition="0" endLine="24" endPosition="0">
+    <scopeInfo nodeId="6240071430105681206" fileName="InlineFormatDateTimeExpression_delete.java" startLine="22" startPosition="0" endLine="25" endPosition="0">
       <varInfo nodeId="6240071430105681206" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="6240071430105681206" fileName="InlineFormatDateTimeExpression_delete.java" startLine="25" startPosition="0" endLine="28" endPosition="0" />
-    <scopeInfo nodeId="6240071430105681206" fileName="InlineFormatDateTimeExpression_delete.java" startLine="29" startPosition="0" endLine="32" endPosition="0">
+    <scopeInfo nodeId="6240071430105681206" fileName="InlineFormatDateTimeExpression_delete.java" startLine="26" startPosition="0" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="6240071430105681206" fileName="InlineFormatDateTimeExpression_delete.java" startLine="30" startPosition="0" endLine="33" endPosition="0">
       <varInfo nodeId="6240071430105681206" varName="editorContext" />
     </scopeInfo>
-    <scopeInfo nodeId="6240071430105682168" fileName="InlineFormatDateTimeExpression_delete.java" startLine="33" startPosition="75" endLine="36" endPosition="35">
+    <scopeInfo nodeId="6240071430105682168" fileName="InlineFormatDateTimeExpression_delete.java" startLine="34" startPosition="75" endLine="37" endPosition="54">
       <varInfo nodeId="2192048487563549504" varName="result" />
     </scopeInfo>
-    <scopeInfo nodeId="6240071430105681206" fileName="InlineFormatDateTimeExpression_delete.java" startLine="33" startPosition="0" endLine="38" endPosition="0">
+    <scopeInfo nodeId="6240071430105681206" fileName="InlineFormatDateTimeExpression_delete.java" startLine="34" startPosition="0" endLine="39" endPosition="0">
       <varInfo nodeId="6240071430105681206" varName="editorContext" />
       <varInfo nodeId="6240071430105681206" varName="node" />
     </scopeInfo>
-    <unitInfo nodeId="6240071430105681206" fileName="InlineFormatDateTimeExpression_delete.java" startLine="18" startPosition="0" endLine="39" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.editor.InlineFormatDateTimeExpression_delete$InlineFormatDateTimeExpression_delete_DELETE" />
-    <unitInfo nodeId="6240071430105681206" fileName="InlineFormatDateTimeExpression_delete.java" startLine="13" startPosition="0" endLine="40" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.editor.InlineFormatDateTimeExpression_delete" />
+    <unitInfo nodeId="6240071430105681206" fileName="InlineFormatDateTimeExpression_delete.java" startLine="19" startPosition="0" endLine="40" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.editor.InlineFormatDateTimeExpression_delete$InlineFormatDateTimeExpression_delete_DELETE" />
+    <unitInfo nodeId="6240071430105681206" fileName="InlineFormatDateTimeExpression_delete.java" startLine="14" startPosition="0" endLine="41" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.editor.InlineFormatDateTimeExpression_delete" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903d0(jetbrains.mps.baseLanguage.dates.editor)/6240071430105858338">
     <nodeInfo nodeId="6240071430105858338" fileName="InlineFormatDateTimeExpression_deleteLocale.java" startLine="13" startPosition="95" endLine="14" endPosition="154" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -13066,44 +13066,44 @@
     <unitInfo nodeId="6240071430105858338" fileName="InlineFormatDateTimeExpression_deleteLocale.java" startLine="12" startPosition="0" endLine="37" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.editor.InlineFormatDateTimeExpression_deleteLocale" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903d0(jetbrains.mps.baseLanguage.dates.editor)/6240071430106213339">
-    <nodeInfo nodeId="6240071430106213339" fileName="FormatDateTimeExpression_delete.java" startLine="14" startPosition="95" endLine="15" endPosition="130" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6240071430106213339" fileName="FormatDateTimeExpression_delete.java" startLine="19" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myNode" />
-    <nodeInfo nodeId="6240071430106213339" fileName="FormatDateTimeExpression_delete.java" startLine="21" startPosition="63" endLine="22" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6240071430106213339" fileName="FormatDateTimeExpression_delete.java" startLine="25" startPosition="40" endLine="26" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6240071430106213339" fileName="FormatDateTimeExpression_delete.java" startLine="29" startPosition="54" endLine="30" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2192048487563547664" fileName="FormatDateTimeExpression_delete.java" startLine="33" startPosition="75" endLine="34" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6240071430106214302" fileName="FormatDateTimeExpression_delete.java" startLine="34" startPosition="71" endLine="35" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2192048487562972266" fileName="FormatDateTimeExpression_delete.java" startLine="35" startPosition="55" endLine="36" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6240071430106213339" fileName="FormatDateTimeExpression_delete.java" startLine="14" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="setCellActions#(Ljetbrains/mps/openapi/editor/cells/EditorCell;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
-    <nodeInfo nodeId="6240071430106213339" fileName="FormatDateTimeExpression_delete.java" startLine="21" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="FormatDateTimeExpression_delete_DELETE#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="6240071430106213339" fileName="FormatDateTimeExpression_delete.java" startLine="25" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescriptionText#()Ljava/lang/String;" />
-    <nodeInfo nodeId="6240071430106213339" fileName="FormatDateTimeExpression_delete.java" startLine="29" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/openapi/editor/EditorContext;)V" />
-    <nodeInfo nodeId="6240071430106213339" fileName="FormatDateTimeExpression_delete.java" startLine="33" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute_internal#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <scopeInfo nodeId="6240071430106213339" fileName="FormatDateTimeExpression_delete.java" startLine="14" startPosition="95" endLine="15" endPosition="130" />
-    <scopeInfo nodeId="6240071430106213339" fileName="FormatDateTimeExpression_delete.java" startLine="21" startPosition="63" endLine="22" endPosition="25" />
-    <scopeInfo nodeId="6240071430106213339" fileName="FormatDateTimeExpression_delete.java" startLine="25" startPosition="40" endLine="26" endPosition="33" />
-    <scopeInfo nodeId="6240071430106213339" fileName="FormatDateTimeExpression_delete.java" startLine="29" startPosition="54" endLine="30" endPosition="56" />
-    <scopeInfo nodeId="6240071430106213339" fileName="FormatDateTimeExpression_delete.java" startLine="14" startPosition="0" endLine="17" endPosition="0">
+    <nodeInfo nodeId="6240071430106213339" fileName="FormatDateTimeExpression_delete.java" startLine="15" startPosition="95" endLine="16" endPosition="130" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6240071430106213339" fileName="FormatDateTimeExpression_delete.java" startLine="20" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myNode" />
+    <nodeInfo nodeId="6240071430106213339" fileName="FormatDateTimeExpression_delete.java" startLine="22" startPosition="63" endLine="23" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6240071430106213339" fileName="FormatDateTimeExpression_delete.java" startLine="26" startPosition="40" endLine="27" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6240071430106213339" fileName="FormatDateTimeExpression_delete.java" startLine="30" startPosition="54" endLine="31" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2192048487563547664" fileName="FormatDateTimeExpression_delete.java" startLine="34" startPosition="75" endLine="35" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6240071430106214302" fileName="FormatDateTimeExpression_delete.java" startLine="35" startPosition="71" endLine="36" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2192048487562972266" fileName="FormatDateTimeExpression_delete.java" startLine="36" startPosition="55" endLine="37" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6240071430106213339" fileName="FormatDateTimeExpression_delete.java" startLine="15" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="setCellActions#(Ljetbrains/mps/openapi/editor/cells/EditorCell;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+    <nodeInfo nodeId="6240071430106213339" fileName="FormatDateTimeExpression_delete.java" startLine="22" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="FormatDateTimeExpression_delete_DELETE#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="6240071430106213339" fileName="FormatDateTimeExpression_delete.java" startLine="26" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescriptionText#()Ljava/lang/String;" />
+    <nodeInfo nodeId="6240071430106213339" fileName="FormatDateTimeExpression_delete.java" startLine="30" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+    <nodeInfo nodeId="6240071430106213339" fileName="FormatDateTimeExpression_delete.java" startLine="34" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute_internal#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <scopeInfo nodeId="6240071430106213339" fileName="FormatDateTimeExpression_delete.java" startLine="15" startPosition="95" endLine="16" endPosition="130" />
+    <scopeInfo nodeId="6240071430106213339" fileName="FormatDateTimeExpression_delete.java" startLine="22" startPosition="63" endLine="23" endPosition="25" />
+    <scopeInfo nodeId="6240071430106213339" fileName="FormatDateTimeExpression_delete.java" startLine="26" startPosition="40" endLine="27" endPosition="33" />
+    <scopeInfo nodeId="6240071430106213339" fileName="FormatDateTimeExpression_delete.java" startLine="30" startPosition="54" endLine="31" endPosition="56" />
+    <scopeInfo nodeId="6240071430106213339" fileName="FormatDateTimeExpression_delete.java" startLine="15" startPosition="0" endLine="18" endPosition="0">
       <varInfo nodeId="6240071430106213339" varName="context" />
       <varInfo nodeId="6240071430106213339" varName="editorCell" />
       <varInfo nodeId="6240071430106213339" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="6240071430106213339" fileName="FormatDateTimeExpression_delete.java" startLine="21" startPosition="0" endLine="24" endPosition="0">
+    <scopeInfo nodeId="6240071430106213339" fileName="FormatDateTimeExpression_delete.java" startLine="22" startPosition="0" endLine="25" endPosition="0">
       <varInfo nodeId="6240071430106213339" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="6240071430106213339" fileName="FormatDateTimeExpression_delete.java" startLine="25" startPosition="0" endLine="28" endPosition="0" />
-    <scopeInfo nodeId="6240071430106213339" fileName="FormatDateTimeExpression_delete.java" startLine="29" startPosition="0" endLine="32" endPosition="0">
+    <scopeInfo nodeId="6240071430106213339" fileName="FormatDateTimeExpression_delete.java" startLine="26" startPosition="0" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="6240071430106213339" fileName="FormatDateTimeExpression_delete.java" startLine="30" startPosition="0" endLine="33" endPosition="0">
       <varInfo nodeId="6240071430106213339" varName="editorContext" />
     </scopeInfo>
-    <scopeInfo nodeId="6240071430106214301" fileName="FormatDateTimeExpression_delete.java" startLine="33" startPosition="75" endLine="36" endPosition="35">
+    <scopeInfo nodeId="6240071430106214301" fileName="FormatDateTimeExpression_delete.java" startLine="34" startPosition="75" endLine="37" endPosition="54">
       <varInfo nodeId="2192048487563547665" varName="result" />
     </scopeInfo>
-    <scopeInfo nodeId="6240071430106213339" fileName="FormatDateTimeExpression_delete.java" startLine="33" startPosition="0" endLine="38" endPosition="0">
+    <scopeInfo nodeId="6240071430106213339" fileName="FormatDateTimeExpression_delete.java" startLine="34" startPosition="0" endLine="39" endPosition="0">
       <varInfo nodeId="6240071430106213339" varName="editorContext" />
       <varInfo nodeId="6240071430106213339" varName="node" />
     </scopeInfo>
-    <unitInfo nodeId="6240071430106213339" fileName="FormatDateTimeExpression_delete.java" startLine="18" startPosition="0" endLine="39" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.editor.FormatDateTimeExpression_delete$FormatDateTimeExpression_delete_DELETE" />
-    <unitInfo nodeId="6240071430106213339" fileName="FormatDateTimeExpression_delete.java" startLine="13" startPosition="0" endLine="40" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.editor.FormatDateTimeExpression_delete" />
+    <unitInfo nodeId="6240071430106213339" fileName="FormatDateTimeExpression_delete.java" startLine="19" startPosition="0" endLine="40" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.editor.FormatDateTimeExpression_delete$FormatDateTimeExpression_delete_DELETE" />
+    <unitInfo nodeId="6240071430106213339" fileName="FormatDateTimeExpression_delete.java" startLine="14" startPosition="0" endLine="41" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.editor.FormatDateTimeExpression_delete" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903d0(jetbrains.mps.baseLanguage.dates.editor)/6240071430106390467">
     <nodeInfo nodeId="6240071430106390467" fileName="FormatDateTimeExpression_deleteLocale.java" startLine="13" startPosition="95" endLine="14" endPosition="142" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -14679,44 +14679,44 @@
     <unitInfo nodeId="8875872347489702171" fileName="FormatPeriodExpression_deleteLocale.java" startLine="12" startPosition="0" endLine="37" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.editor.FormatPeriodExpression_deleteLocale" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903d0(jetbrains.mps.baseLanguage.dates.editor)/8875872347489706928">
-    <nodeInfo nodeId="8875872347489706928" fileName="FormatPeriodExpression_delete.java" startLine="14" startPosition="95" endLine="15" endPosition="126" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8875872347489706928" fileName="FormatPeriodExpression_delete.java" startLine="19" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myNode" />
-    <nodeInfo nodeId="8875872347489706928" fileName="FormatPeriodExpression_delete.java" startLine="21" startPosition="61" endLine="22" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8875872347489706928" fileName="FormatPeriodExpression_delete.java" startLine="25" startPosition="40" endLine="26" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8875872347489706928" fileName="FormatPeriodExpression_delete.java" startLine="29" startPosition="54" endLine="30" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8875872347489706932" fileName="FormatPeriodExpression_delete.java" startLine="33" startPosition="75" endLine="34" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8875872347489706944" fileName="FormatPeriodExpression_delete.java" startLine="34" startPosition="69" endLine="35" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8875872347489706954" fileName="FormatPeriodExpression_delete.java" startLine="35" startPosition="55" endLine="36" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8875872347489706928" fileName="FormatPeriodExpression_delete.java" startLine="14" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="setCellActions#(Ljetbrains/mps/openapi/editor/cells/EditorCell;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
-    <nodeInfo nodeId="8875872347489706928" fileName="FormatPeriodExpression_delete.java" startLine="21" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="FormatPeriodExpression_delete_DELETE#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="8875872347489706928" fileName="FormatPeriodExpression_delete.java" startLine="25" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescriptionText#()Ljava/lang/String;" />
-    <nodeInfo nodeId="8875872347489706928" fileName="FormatPeriodExpression_delete.java" startLine="29" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/openapi/editor/EditorContext;)V" />
-    <nodeInfo nodeId="8875872347489706928" fileName="FormatPeriodExpression_delete.java" startLine="33" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute_internal#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <scopeInfo nodeId="8875872347489706928" fileName="FormatPeriodExpression_delete.java" startLine="14" startPosition="95" endLine="15" endPosition="126" />
-    <scopeInfo nodeId="8875872347489706928" fileName="FormatPeriodExpression_delete.java" startLine="21" startPosition="61" endLine="22" endPosition="25" />
-    <scopeInfo nodeId="8875872347489706928" fileName="FormatPeriodExpression_delete.java" startLine="25" startPosition="40" endLine="26" endPosition="33" />
-    <scopeInfo nodeId="8875872347489706928" fileName="FormatPeriodExpression_delete.java" startLine="29" startPosition="54" endLine="30" endPosition="56" />
-    <scopeInfo nodeId="8875872347489706928" fileName="FormatPeriodExpression_delete.java" startLine="14" startPosition="0" endLine="17" endPosition="0">
+    <nodeInfo nodeId="8875872347489706928" fileName="FormatPeriodExpression_delete.java" startLine="15" startPosition="95" endLine="16" endPosition="126" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8875872347489706928" fileName="FormatPeriodExpression_delete.java" startLine="20" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myNode" />
+    <nodeInfo nodeId="8875872347489706928" fileName="FormatPeriodExpression_delete.java" startLine="22" startPosition="61" endLine="23" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8875872347489706928" fileName="FormatPeriodExpression_delete.java" startLine="26" startPosition="40" endLine="27" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8875872347489706928" fileName="FormatPeriodExpression_delete.java" startLine="30" startPosition="54" endLine="31" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8875872347489706932" fileName="FormatPeriodExpression_delete.java" startLine="34" startPosition="75" endLine="35" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8875872347489706944" fileName="FormatPeriodExpression_delete.java" startLine="35" startPosition="69" endLine="36" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8875872347489706954" fileName="FormatPeriodExpression_delete.java" startLine="36" startPosition="55" endLine="37" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8875872347489706928" fileName="FormatPeriodExpression_delete.java" startLine="15" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="setCellActions#(Ljetbrains/mps/openapi/editor/cells/EditorCell;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+    <nodeInfo nodeId="8875872347489706928" fileName="FormatPeriodExpression_delete.java" startLine="22" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="FormatPeriodExpression_delete_DELETE#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="8875872347489706928" fileName="FormatPeriodExpression_delete.java" startLine="26" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescriptionText#()Ljava/lang/String;" />
+    <nodeInfo nodeId="8875872347489706928" fileName="FormatPeriodExpression_delete.java" startLine="30" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+    <nodeInfo nodeId="8875872347489706928" fileName="FormatPeriodExpression_delete.java" startLine="34" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute_internal#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <scopeInfo nodeId="8875872347489706928" fileName="FormatPeriodExpression_delete.java" startLine="15" startPosition="95" endLine="16" endPosition="126" />
+    <scopeInfo nodeId="8875872347489706928" fileName="FormatPeriodExpression_delete.java" startLine="22" startPosition="61" endLine="23" endPosition="25" />
+    <scopeInfo nodeId="8875872347489706928" fileName="FormatPeriodExpression_delete.java" startLine="26" startPosition="40" endLine="27" endPosition="33" />
+    <scopeInfo nodeId="8875872347489706928" fileName="FormatPeriodExpression_delete.java" startLine="30" startPosition="54" endLine="31" endPosition="56" />
+    <scopeInfo nodeId="8875872347489706928" fileName="FormatPeriodExpression_delete.java" startLine="15" startPosition="0" endLine="18" endPosition="0">
       <varInfo nodeId="8875872347489706928" varName="context" />
       <varInfo nodeId="8875872347489706928" varName="editorCell" />
       <varInfo nodeId="8875872347489706928" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="8875872347489706928" fileName="FormatPeriodExpression_delete.java" startLine="21" startPosition="0" endLine="24" endPosition="0">
+    <scopeInfo nodeId="8875872347489706928" fileName="FormatPeriodExpression_delete.java" startLine="22" startPosition="0" endLine="25" endPosition="0">
       <varInfo nodeId="8875872347489706928" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="8875872347489706928" fileName="FormatPeriodExpression_delete.java" startLine="25" startPosition="0" endLine="28" endPosition="0" />
-    <scopeInfo nodeId="8875872347489706928" fileName="FormatPeriodExpression_delete.java" startLine="29" startPosition="0" endLine="32" endPosition="0">
+    <scopeInfo nodeId="8875872347489706928" fileName="FormatPeriodExpression_delete.java" startLine="26" startPosition="0" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="8875872347489706928" fileName="FormatPeriodExpression_delete.java" startLine="30" startPosition="0" endLine="33" endPosition="0">
       <varInfo nodeId="8875872347489706928" varName="editorContext" />
     </scopeInfo>
-    <scopeInfo nodeId="8875872347489706931" fileName="FormatPeriodExpression_delete.java" startLine="33" startPosition="75" endLine="36" endPosition="35">
+    <scopeInfo nodeId="8875872347489706931" fileName="FormatPeriodExpression_delete.java" startLine="34" startPosition="75" endLine="37" endPosition="54">
       <varInfo nodeId="8875872347489706933" varName="result" />
     </scopeInfo>
-    <scopeInfo nodeId="8875872347489706928" fileName="FormatPeriodExpression_delete.java" startLine="33" startPosition="0" endLine="38" endPosition="0">
+    <scopeInfo nodeId="8875872347489706928" fileName="FormatPeriodExpression_delete.java" startLine="34" startPosition="0" endLine="39" endPosition="0">
       <varInfo nodeId="8875872347489706928" varName="editorContext" />
       <varInfo nodeId="8875872347489706928" varName="node" />
     </scopeInfo>
-    <unitInfo nodeId="8875872347489706928" fileName="FormatPeriodExpression_delete.java" startLine="18" startPosition="0" endLine="39" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.editor.FormatPeriodExpression_delete$FormatPeriodExpression_delete_DELETE" />
-    <unitInfo nodeId="8875872347489706928" fileName="FormatPeriodExpression_delete.java" startLine="13" startPosition="0" endLine="40" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.editor.FormatPeriodExpression_delete" />
+    <unitInfo nodeId="8875872347489706928" fileName="FormatPeriodExpression_delete.java" startLine="19" startPosition="0" endLine="40" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.editor.FormatPeriodExpression_delete$FormatPeriodExpression_delete_DELETE" />
+    <unitInfo nodeId="8875872347489706928" fileName="FormatPeriodExpression_delete.java" startLine="14" startPosition="0" endLine="41" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.editor.FormatPeriodExpression_delete" />
   </root>
 </debugInfo>
 

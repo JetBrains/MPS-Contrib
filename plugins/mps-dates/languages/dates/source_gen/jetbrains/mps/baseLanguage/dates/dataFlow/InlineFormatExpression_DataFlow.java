@@ -21,7 +21,7 @@ public class InlineFormatExpression_DataFlow extends DataFlowBuilder {
       _context.getBuilder().build((SNode) formatToken);
     }
     if ((SLinkOperations.getTarget(_context.getNode(), "locale", false) != null)) {
-      _context.getBuilder().emitRead(SLinkOperations.getTarget(_context.getNode(), "locale", false));
+      _context.getBuilder().emitRead(SLinkOperations.getTarget(_context.getNode(), "locale", false), "r:42b790f6-0ce5-4628-9d36-011037949e80(jetbrains.mps.baseLanguage.dates.dataFlow)/1239793244720");
     }
   }
 }

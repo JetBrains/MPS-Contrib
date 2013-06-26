@@ -13,8 +13,7 @@ import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.buildlanguage.behavior.IDeclaration_Behavior;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import org.jetbrains.mps.openapi.model.SModel;
-import jetbrains.mps.smodel.ModuleRepositoryFacade;
-import jetbrains.mps.smodel.Language;
+import org.jetbrains.mps.openapi.persistence.PersistenceFacade;
 import org.jetbrains.mps.openapi.module.SModuleReference;
 import org.jetbrains.mps.openapi.module.SModule;
 
@@ -121,17 +120,10 @@ public class BuiltInTaskDeclaration_Behavior {
   }
 
   public static boolean isInGeneratedModels_1445805690439864419(SModel model) {
-    return eq_y5o5bz_a0a0j(check_y5o5bz_a0a0a_0(check_y5o5bz_a0a0a0(model)), check_y5o5bz_a0a0a(ModuleRepositoryFacade.getInstance().getModule("jetbrains.mps.build.generictasks", Language.class)));
+    return eq_y5o5bz_a0a0j(check_y5o5bz_a0a0a(check_y5o5bz_a0a0a0(model)), PersistenceFacade.getInstance().createModuleReference("fba399db-f591-45dc-a279-e2a2a986e262(jetbrains.mps.build.generictasks)"));
   }
 
-  private static SModuleReference check_y5o5bz_a0a0a(Language checkedDotOperand) {
-    if (null != checkedDotOperand) {
-      return checkedDotOperand.getModuleReference();
-    }
-    return null;
-  }
-
-  private static SModuleReference check_y5o5bz_a0a0a_0(SModule checkedDotOperand) {
+  private static SModuleReference check_y5o5bz_a0a0a(SModule checkedDotOperand) {
     if (null != checkedDotOperand) {
       return checkedDotOperand.getModuleReference();
     }

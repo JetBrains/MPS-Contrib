@@ -9,6 +9,7 @@ import jetbrains.mps.openapi.editor.cells.CellActionType;
 import jetbrains.mps.editor.runtime.cells.AbstractCellAction;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.editor.runtime.selection.SelectionUtil;
 
 public class FormatDateTimeExpression_delete {
   public static void setCellActions(EditorCell editorCell, SNode node, EditorContext context) {
@@ -33,7 +34,7 @@ public class FormatDateTimeExpression_delete {
     public void execute_internal(EditorContext editorContext, SNode node) {
       SNode result = SLinkOperations.getTarget(node, "datetime", true);
       SNodeOperations.replaceWithAnother(node, result);
-      editorContext.select(result);
+      SelectionUtil.selectNode(editorContext, result);
     }
   }
 }

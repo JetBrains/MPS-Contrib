@@ -15,6 +15,6 @@ public class DateTimeCompareOperation_DataFlow extends DataFlowBuilder {
   public void build(final IOperationContext operationContext, final DataFlowBuilderContext _context) {
     _context.getBuilder().build((SNode) SLinkOperations.getTarget(_context.getNode(), "op1", true));
     _context.getBuilder().build((SNode) SLinkOperations.getTarget(_context.getNode(), "op2", true));
-    _context.getBuilder().emitRead(SLinkOperations.getTarget(_context.getNode(), "datetimeProperty", false));
+    _context.getBuilder().emitRead(SLinkOperations.getTarget(_context.getNode(), "datetimeProperty", false), "r:42b790f6-0ce5-4628-9d36-011037949e80(jetbrains.mps.baseLanguage.dates.dataFlow)/1239799881708");
   }
 }

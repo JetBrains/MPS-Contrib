@@ -15,6 +15,6 @@ public class DateTimeWithPropertyOperation_DataFlow extends DataFlowBuilder {
   public void build(final IOperationContext operationContext, final DataFlowBuilderContext _context) {
     _context.getBuilder().build((SNode) SLinkOperations.getTarget(_context.getNode(), "datetime", true));
     _context.getBuilder().build((SNode) SLinkOperations.getTarget(_context.getNode(), "expression", true));
-    _context.getBuilder().emitRead(SLinkOperations.getTarget(_context.getNode(), "dateTimeProperty", false));
+    _context.getBuilder().emitRead(SLinkOperations.getTarget(_context.getNode(), "dateTimeProperty", false), "r:42b790f6-0ce5-4628-9d36-011037949e80(jetbrains.mps.baseLanguage.dates.dataFlow)/1239800052825");
   }
 }

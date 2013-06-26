@@ -7,7 +7,7 @@
     <nodeInfo nodeId="8321286824329088232" fileName="TestRunParameters.java" startLine="25" startPosition="30" endLine="26" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="8321286824329088236" fileName="TestRunParameters.java" startLine="26" startPosition="85" endLine="27" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="8321286824329088242" fileName="TestRunParameters.java" startLine="27" startPosition="68" endLine="28" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8321286824329088248" fileName="TestRunParameters.java" startLine="28" startPosition="65" endLine="29" endPosition="229" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8321286824329088248" fileName="TestRunParameters.java" startLine="28" startPosition="65" endLine="29" endPosition="309" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="8321286824329088262" fileName="TestRunParameters.java" startLine="32" startPosition="42" endLine="33" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="8321286824329088272" fileName="TestRunParameters.java" startLine="36" startPosition="33" endLine="37" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="8321286824329088278" fileName="TestRunParameters.java" startLine="40" startPosition="56" endLine="41" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -57,7 +57,7 @@
       <varInfo nodeId="8321286824329088300" varName="classPath" />
     </scopeInfo>
     <scopeInfo nodeId="8321286824329088303" fileName="TestRunParameters.java" startLine="52" startPosition="0" endLine="55" endPosition="0" />
-    <scopeInfo nodeId="8321286824329088231" fileName="TestRunParameters.java" startLine="25" startPosition="30" endLine="29" endPosition="229" />
+    <scopeInfo nodeId="8321286824329088231" fileName="TestRunParameters.java" startLine="25" startPosition="30" endLine="29" endPosition="309" />
     <scopeInfo nodeId="8321286824329088361" fileName="TestRunParameters.java" startLine="68" startPosition="0" endLine="72" endPosition="0" />
     <scopeInfo nodeId="8321286824329088331" fileName="TestRunParameters.java" startLine="73" startPosition="64" endLine="77" endPosition="6" />
     <scopeInfo nodeId="8321286824329088340" fileName="TestRunParameters.java" startLine="80" startPosition="64" endLine="84" endPosition="6" />

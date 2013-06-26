@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="czvav8mr48s6dwyfks6j2r4exbnldh6">
+<dependencies version="2" modelHash="dp73e7ffdzn2x5ymvqidibndtv82iv0">
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
   <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.baseLanguage.tuples.runtime(MPS.Core/jetbrains.mps.baseLanguage.tuples.runtime@java_stub)" />
-  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-7mxihkcc0vv2q7mmukrgbm8b18oc3tu" />
-  <dep model="r:00000000-0000-4000-0000-011c895902d8(jetbrains.mps.baseLanguage.unitTest.generator.baseLanguage.template.main@generator)" hash="dgtel9s427vm37iaz9u6ikq38xnt1eq" />
-  <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" hash="59ea0wchjl1p3fmqjarzl02fje6rngu" />
-  <dep model="r:1674ee60-7c44-4176-8f8c-2c87c767d971(sampleGraphs)" hash="2y1uf3g1ftglla4ie66p1heaza7esjc" />
-  <dep model="r:6d741586-5996-4cd2-b3d3-7b04b7dd2971(jetbrains.mps.graphLayout.planarGraph)" hash="dhl1c1fmqngqi4g6jwzkclx8cx471pm" />
-  <dep model="r:964bbf7c-f239-4721-836a-ba42f2f69703(visualization)" hash="2ybtk4gf27c3oec0w4broc6agkvaxhn" />
-  <dep model="r:c71b740e-a20d-4190-9688-0f8df932da4d(jetbrains.mps.baseLanguage.tuples.generator.template.main@generator)" hash="-72puvw17edzqo9qji6cugf26whp3ugs" />
-  <dep model="r:d0ff68b2-4710-4f71-b818-0fa9dd95286e(jetbrains.mps.graphLayout.planarization)" hash="-c4p8kngrhxvcmbszj45ln0j21f5sr8e" />
-  <dep model="r:d1558b8f-fc9e-4ca7-bb90-70ac789f336e(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.post@generator)" hash="-2ndxdy2yylqxt61razyif42s9aj25s9" />
-  <dep model="r:d228b8c9-d2b1-4686-9904-e3c49a346bc6(jetbrains.mps.graphLayout.graph)" hash="bh3vzml3pkn2vdqdw8exjqonf2mktj3" />
-  <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" hash="30wpo2za1rc0zf5vwwy3fdx7rb6qejl" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-bj3r7xrkx1tokdu56absbnx3f3f389" />
+  <dep model="r:00000000-0000-4000-0000-011c895902d8(jetbrains.mps.baseLanguage.unitTest.generator.baseLanguage.template.main@generator)" hash="3ufygskomwsbyhgecoht1jp34ipmj9l" />
+  <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" hash="-ehclih2ljjvh3gcfl67v2ip8o73gip1" />
+  <dep model="r:1674ee60-7c44-4176-8f8c-2c87c767d971(sampleGraphs)" hash="-8ulu62uvcj7hx8deoup90wyr2k1wawt" />
+  <dep model="r:6d741586-5996-4cd2-b3d3-7b04b7dd2971(jetbrains.mps.graphLayout.planarGraph)" hash="dyrvqo3g4bh2nbpjqzv62i5xmn8ztv1" />
+  <dep model="r:964bbf7c-f239-4721-836a-ba42f2f69703(visualization)" hash="-eid4kzqihd2ifjrnuighnfpltfg96yc" />
+  <dep model="r:c71b740e-a20d-4190-9688-0f8df932da4d(jetbrains.mps.baseLanguage.tuples.generator.template.main@generator)" hash="a7mvfiyrorcd3377pnn2hvrjnn2yn4z" />
+  <dep model="r:d0ff68b2-4710-4f71-b818-0fa9dd95286e(jetbrains.mps.graphLayout.planarization)" hash="3jwzld16sztedpigqc3g67os25zzpim" />
+  <dep model="r:d1558b8f-fc9e-4ca7-bb90-70ac789f336e(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.post@generator)" hash="-2te9zcwr0xtinv0zm3xquqs5me3u63x" />
+  <dep model="r:d228b8c9-d2b1-4686-9904-e3c49a346bc6(jetbrains.mps.graphLayout.graph)" hash="3sjjcs4v409zu4bb053kst6oaxv7wie" />
+  <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" hash="5wivjm735wrx1nbiz5js62dqixuwvq4" />
   <common hash="bzo8ppdglm1kcwifpc845tqqwsov5hj" />
-  <source id="1646208389854262552" name="CheckFace" hash="68sx4xsxuymhdfr3j6ej728w4zxx9ns">
+  <source id="1646208389854262552" name="CheckFace" hash="b9txfzwrtsmu8pfgf8ueuputtcap9dk">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -25,7 +25,7 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="CheckFace.java" />
   </source>
-  <source id="4179389957059017814" name="TreeEmbeddingFinder_Find_Test" hash="-43gy6udcl9fg9gkcycpfljkjaot2nnc">
+  <source id="4179389957059017814" name="TreeEmbeddingFinder_Find_Test" hash="-5ijibbmpwxh9s8jv7l4u6tqbqhumiz0">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
@@ -36,7 +36,7 @@
     <dep model="r:d228b8c9-d2b1-4686-9904-e3c49a346bc6(jetbrains.mps.graphLayout.graph)" />
     <file name="TreeEmbeddingFinder_Find_Test.java" />
   </source>
-  <source id="1123934034178616897" name="CheckEmbeddedGraph" hash="sf65lygdkk81zdwkzmji7x99qc7gfx">
+  <source id="1123934034178616897" name="CheckEmbeddedGraph" hash="c3wjd0kwzykiex18u5l0q1keftj4kj9">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -48,7 +48,7 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="CheckEmbeddedGraph.java" />
   </source>
-  <source id="6984255766319183447" name="STPlanarGraph_Test" hash="-7k71nt4qwsnpm8iffeo6wirit250dh8">
+  <source id="6984255766319183447" name="STPlanarGraph_Test" hash="-57ldn0zhb598imt33bkg33567udwrcx">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
@@ -63,7 +63,7 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="STPlanarGraph_Test.java" />
   </source>
-  <source id="1327612371813215595" name="BiconnectedInitialEmbeddingFinder_Test" hash="-652gttwqsr9z332xwmr25abtjhulexq">
+  <source id="1327612371813215595" name="BiconnectedInitialEmbeddingFinder_Test" hash="-d7rr9wseid7ym2f2br8mwescrx35yxp">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
@@ -74,7 +74,7 @@
     <dep model="r:d228b8c9-d2b1-4686-9904-e3c49a346bc6(jetbrains.mps.graphLayout.graph)" />
     <file name="BiconnectedInitialEmbeddingFinder_Test.java" />
   </source>
-  <source id="1327612371813258703" name="ShortestPathEmbeddingFinder_Test" hash="bflkrizx97978q7i4156ycsqfx0xzjv">
+  <source id="1327612371813258703" name="ShortestPathEmbeddingFinder_Test" hash="-39ino3ur90i13glwugwye7qax2a5fnl">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
@@ -85,7 +85,7 @@
     <dep model="r:d228b8c9-d2b1-4686-9904-e3c49a346bc6(jetbrains.mps.graphLayout.graph)" />
     <file name="ShortestPathEmbeddingFinder_Test.java" />
   </source>
-  <source id="516638300680467095" name="PQPlanarityTest_Test" hash="-58ed4m7x4gyx1ad9ofkjul3mm4qx5s0">
+  <source id="516638300680467095" name="PQPlanarityTest_Test" hash="-9ulxq3nnz1xs6d3bhx4fjatmfclj0tp">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
@@ -99,14 +99,14 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="PQPlanarityTest_Test.java" />
   </source>
-  <source id="4644851485137285698" name="PQPlanarizationFinder_Test" hash="-8lnitxtexfiteybwxzyccv5c8fqu4lo">
+  <source id="4644851485137285698" name="PQPlanarizationFinder_Test" hash="d5i2xcm9rvr6inzi4uynv88gtguzniy">
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902d8(jetbrains.mps.baseLanguage.unitTest.generator.baseLanguage.template.main@generator)" />
     <dep model="r:6d741586-5996-4cd2-b3d3-7b04b7dd2971(jetbrains.mps.graphLayout.planarGraph)" />
     <dep model="r:d228b8c9-d2b1-4686-9904-e3c49a346bc6(jetbrains.mps.graphLayout.graph)" />
     <file name="PQPlanarizationFinder_Test.java" />
   </source>
-  <source id="6191740939834534343" name="StressTestPlanarization" hash="-316dch5oiwjwi4t2uh0b7w5a13te5ke">
+  <source id="6191740939834534343" name="StressTestPlanarization" hash="561acp38ki5ggejvquyyf38ca0m2z72">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
@@ -119,7 +119,7 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="StressTestPlanarization.java" />
   </source>
-  <source id="4422427343208741421" name="AmbiguityPlanarizationFinder_Test" hash="-akq6ljrbvmarhkpnrehozuqz88cve98">
+  <source id="4422427343208741421" name="AmbiguityPlanarizationFinder_Test" hash="-676irp1ct22cp542a92gikgt4wyy76j">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -130,14 +130,14 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="AmbiguityPlanarizationFinder_Test.java" />
   </source>
-  <source id="4998536563116627620" name="ClusterEmbeddingConstructor_Test" hash="ben190577utrl5aaxrzq7aihjcsc7x9">
+  <source id="4998536563116627620" name="ClusterEmbeddingConstructor_Test" hash="du01msfu4qdcgpihbrjgak0w6bqc388">
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902d8(jetbrains.mps.baseLanguage.unitTest.generator.baseLanguage.template.main@generator)" />
     <dep model="r:6d741586-5996-4cd2-b3d3-7b04b7dd2971(jetbrains.mps.graphLayout.planarGraph)" />
     <dep model="r:d228b8c9-d2b1-4686-9904-e3c49a346bc6(jetbrains.mps.graphLayout.graph)" />
     <file name="ClusterEmbeddingConstructor_Test.java" />
   </source>
-  <source id="5668095147007608818" name="ClusterEmbeddingMakeBiconnected_Test" hash="-5di9gppcbqmq6lvq2bvcydr96n6niva">
+  <source id="5668095147007608818" name="ClusterEmbeddingMakeBiconnected_Test" hash="-3n45392opvitec0rnnthkm8u5wcgdg4">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -148,7 +148,7 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="ClusterEmbeddingMakeBiconnected_Test.java" />
   </source>
-  <source id="8383102279435103573" name="SubsequenceFinder_Test" hash="-bcp7nxlpb3d1dk163utdd6mn4ky0n4i">
+  <source id="8383102279435103573" name="SubsequenceFinder_Test" hash="5cyy5efjykwc0t0dzcg57j16wqj4k1m">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.baseLanguage.tuples.runtime(MPS.Core/jetbrains.mps.baseLanguage.tuples.runtime@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />

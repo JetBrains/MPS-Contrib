@@ -12,7 +12,7 @@
   <root type="tp41.DataFlowBuilderDeclaration" typeId="tp41.1206442055221" id="5211164146777002739" nodeInfo="ng">
     <link role="conceptDeclaration" roleId="tp41.1206442096288" targetNodeId="mass.5211164146777002721" resolveInfo="AssertXMLEquals" />
     <node role="builderBlock" roleId="tp41.1206442812839" type="tp41.BuilderBlock" typeId="tp41.1206442659665" id="5211164146777002740" nodeInfo="nn">
-      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="5211164146777002741" nodeInfo="nn">
+      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="5211164146777002741" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="tp41.EmitCodeForStatement" typeId="tp41.1206454052847" id="5211164146777002742" nodeInfo="nn">
           <node role="codeFor" roleId="tp41.1206454079161" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5211164146777002743" nodeInfo="nn">
             <node role="operand" roleId="tpee.1197027771414" type="tp41.NodeParameter" typeId="tp41.1206442747519" id="5211164146777002744" nodeInfo="nn" />

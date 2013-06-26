@@ -21,7 +21,6 @@
       <root url="jar://$PROJECT_DIR$/lib/sanselan-0.98-snapshot.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/swingx-core-1.6.2.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/xpp3-1.1.4-min.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/cli-parser-1.1.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/gson-2.2.1.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/netty-3.6.2.Final.jar!/" />
     </CLASSES>
@@ -38,7 +37,6 @@
       <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/bootstrap" />
       <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/vcs-impl" />
       <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/forms_rt" />
-      <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/smRunner" />
       <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/platform-impl" />
       <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/boot" />
       <root url="jar://$PROJECT_DIR$/lib/src/platform.src.zip!/lang-api" />

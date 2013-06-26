@@ -15,7 +15,7 @@ public class FormatExpression_DataFlow extends DataFlowBuilder {
   public void build(final IOperationContext operationContext, final DataFlowBuilderContext _context) {
     _context.getBuilder().build((SNode) SLinkOperations.getTarget(_context.getNode(), "dateExpression", true));
     _context.getBuilder().build((SNode) SLinkOperations.getTarget(_context.getNode(), "zone", true));
-    _context.getBuilder().emitRead(SLinkOperations.getTarget(_context.getNode(), "dateFormat", false));
-    _context.getBuilder().emitRead(SLinkOperations.getTarget(_context.getNode(), "locale", false));
+    _context.getBuilder().emitRead(SLinkOperations.getTarget(_context.getNode(), "dateFormat", false), "r:42b790f6-0ce5-4628-9d36-011037949e80(jetbrains.mps.baseLanguage.dates.dataFlow)/1239793182476");
+    _context.getBuilder().emitRead(SLinkOperations.getTarget(_context.getNode(), "locale", false), "r:42b790f6-0ce5-4628-9d36-011037949e80(jetbrains.mps.baseLanguage.dates.dataFlow)/1239793187861");
   }
 }
