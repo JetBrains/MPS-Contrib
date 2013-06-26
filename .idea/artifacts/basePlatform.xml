@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="basePlatform">
-    <output-path>$PROJECT_DIR$/plugins/mpsjava/lib</output-path>
-    <root id="archive" name="basePlatform.jar">
-      <element id="module-output" name="basePlatform" />
-    </root>
-  </artifact>
-</component>

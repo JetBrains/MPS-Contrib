@@ -1,9 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="debugger-java">
-    <output-path>$PROJECT_DIR$/plugins/debugger-java/lib</output-path>
-    <root id="archive" name="debugger_java.jar">
-      <element id="module-output" name="debugger-java-api" />
-      <element id="module-output" name="debugger-java-runtime" />
-    </root>
-  </artifact>
-</component>

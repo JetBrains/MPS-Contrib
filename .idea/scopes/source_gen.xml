@@ -1,3 +1,0 @@
-<component name="DependencyValidationManager">
-  <scope name="source_gen" pattern="!(file:source//*||file:.*/source//*)&amp;&amp;file:*//*.java" />
-</component>
