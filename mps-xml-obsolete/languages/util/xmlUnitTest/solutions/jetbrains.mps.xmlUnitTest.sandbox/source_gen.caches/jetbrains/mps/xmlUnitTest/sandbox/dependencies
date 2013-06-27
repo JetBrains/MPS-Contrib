@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="jetbrains.mps.xmlUnitTest.sandbox.Sample_Test" file="Sample_Test.java">
+    <classNode dependClassName="java.lang.Exception" />
+    <classNode dependClassName="org.custommonkey.xmlunit.XMLAssert" />
+    <classNode extendsClassName="junit.framework.TestCase" />
+  </dependency>
+</dependenciesRoot>
+

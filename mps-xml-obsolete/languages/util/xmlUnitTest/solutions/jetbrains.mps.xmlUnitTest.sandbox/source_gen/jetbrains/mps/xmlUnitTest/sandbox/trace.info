@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <root nodeRef="r:711fa6a3-3961-4b7b-b3da-5afbfdf297e7(jetbrains.mps.xmlUnitTest.sandbox)/9070985627710925999">
+    <nodeInfo nodeId="9070985627710932727" fileName="Sample_Test.java" startLine="9" startPosition="50" endLine="10" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9070985627710932722" fileName="Sample_Test.java" startLine="9" startPosition="0" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_compareXML#()V" />
+    <scopeInfo nodeId="9070985627710932725" fileName="Sample_Test.java" startLine="9" startPosition="50" endLine="10" endPosition="94" />
+    <scopeInfo nodeId="9070985627710932722" fileName="Sample_Test.java" startLine="9" startPosition="0" endLine="12" endPosition="0" />
+    <unitInfo nodeId="9070985627710925999" fileName="Sample_Test.java" startLine="8" startPosition="0" endLine="13" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.sandbox.Sample_Test" />
+  </root>
+</debugInfo>
+

@@ -1,0 +1,82 @@
+<component name="libraryTable">
+  <library name="mps">
+    <CLASSES>
+      <root url="jar://$mps_dist_home$/lib/annotations.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/asm-commons.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/asm.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/asm4-all.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/automaton.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/beansbinding-1.2.1.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/boot.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/bootstrap.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/cglib-2.2.2.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/commons-codec-1.3.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/commons-httpclient-3.1-patched.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/commons-net-3.1.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/diffutils-1.2.1.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/ecj-4.2.1.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/extensions.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/forms_rt.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/gson-2.2.1.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/guava-12.0.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/javac2.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/jaxen-1.1.3.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/jdom.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/jgoodies-common-1.2.1.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/jgoodies-forms.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/jgoodies-looks-2.4.2.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/jh.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/jna-utils.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/jna.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/jsr173_1.0_api.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/junit-4.10.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/junit.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/log4j.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/microba.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/miglayout-swing.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/mps-boot.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/mps-closures.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/mps-collections.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/mps-core.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/mps-editor-api.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/mps-editor-runtime.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/mps-editor.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/mps-icons.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/mps-openapi.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/mps-platform.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/mps-test.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/mps-tool.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/mps-tuples.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/mps-ui.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/mps-workbench.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/nanoxml-2.2.3.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/netty-3.6.2.Final.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/oromatcher.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/picocontainer.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/platform-api.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/platform.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/proxy-vole_20120920.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/resolver.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/sanselan-0.98-snapshot.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/serviceMessages.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/snappy-java-1.0.5-M2.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/swingx-core-1.6.2.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/tools.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/trove4j.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/util.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/velocity.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/winp-1.17-patched.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/xbean.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/xerces.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/xmlrpc-2.0.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/xpp3-1.1.4-min.jar!/" />
+      <root url="jar://$mps_dist_home$/lib/xstream-1.4.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$mps_dist_home$/lib/MPS-src.zip!/" />
+      <root url="jar://$mps_dist_home$/lib/tools.jar!/" />
+    </SOURCES>
+  </library>
+</component>

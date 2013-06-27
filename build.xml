@@ -3,8 +3,8 @@
   <property name="build.dir" location="build" />
   <property name="build.tmp" location="${build.dir}/tmp/mpsContrib" />
   <property name="build.layout" location="${build.dir}/artifacts/mpsContrib" />
-  <property name="mps_dist_home" location="" />
-  <property name="artifacts.mps" location="${mps_dist_home}" />
+  <property name="mps_home" location="" />
+  <property name="artifacts.mps" location="${mps_home}" />
   <property name="artifacts.mpsDates" location="${build.dir}/artifacts/mpsDates" />
   <property name="artifacts.mpsDeprecatedBuildlanguage" location="${build.dir}/artifacts/mpsDeprecatedBuildlanguage" />
   <property name="artifacts.mpsXml" location="${build.dir}/artifacts/mpsXml" />

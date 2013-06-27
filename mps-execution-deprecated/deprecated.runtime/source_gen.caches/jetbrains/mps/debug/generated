@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependencies version="2" modelHash="aaih73xrkjv76lab6jwcca2a4zgofh">
-  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-bj3r7xrkx1tokdu56absbnx3f3f389" />
-  <dep model="r:0cf7389f-e174-4742-a3d2-15c79317838a(jetbrains.mps.debug.api.run)" hash="-bhair0leoj7y687c243s9qo3wyfqx22" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+  <dep model="r:0cf7389f-e174-4742-a3d2-15c79317838a(jetbrains.mps.debug.api.run)" />
   <common hash="875sn6jczhxsqjsr2pz2zqmnrfvecm7" />
   <source id="8321286824330490408" name="BaseRunProfileState" hash="-aeg8jp6utjdpmbknb7vnqkjvsdolq16">
     <dep root="8321286824331322657" />

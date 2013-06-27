@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="mps-execution">
+    <CLASSES>
+      <root url="jar://$mps_dist_home$/plugins/mps-execution-configurations/lib/execution-configurations.jar!/" />
+      <root url="jar://$mps_dist_home$/plugins/mps-execution-api/lib/execution-api.jar!/" />
+      <root url="jar://$mps_dist_home$/plugins/mps-execution-languages/lib/execution-languages.jar!/" />
+      <root url="jar://$mps_dist_home$/plugins/mps-debugger-api/lib/debugger-api.jar!/" />
+      <root url="jar://$mps_dist_home$/plugins/mps-debugger-java/lib/debugger-java.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

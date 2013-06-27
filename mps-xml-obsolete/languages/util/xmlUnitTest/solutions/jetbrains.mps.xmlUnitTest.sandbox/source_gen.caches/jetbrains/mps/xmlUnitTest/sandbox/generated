@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies version="2" modelHash="-71pzo0a2k408bu7i7xbojgq6cbltfbm">
+  <dep model="r:00000000-0000-4000-0000-011c895902d8(jetbrains.mps.baseLanguage.unitTest.generator.baseLanguage.template.main@generator)" />
+  <dep model="r:02894bc7-2bb0-45e7-8cf1-73b80bf42896(jetbrains.mps.xmlUnitTest.generator.template.main@generator)" hash="1klssjx3k4qqy18a8zlpjef5ahsllj" />
+  <common hash="-s4g0die8a4nz1jhcd16hvq5a8cyxk3" />
+  <source id="9070985627710925999" name="Sample_Test" hash="5amkn21yitenhesj0jyoddelq5ho0au">
+    <dep model="r:00000000-0000-4000-0000-011c895902d8(jetbrains.mps.baseLanguage.unitTest.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:02894bc7-2bb0-45e7-8cf1-73b80bf42896(jetbrains.mps.xmlUnitTest.generator.template.main@generator)" />
+    <file name="Sample_Test.java" />
+  </source>
+</dependencies>
+

@@ -3,10 +3,9 @@
   <property name="build.dir" location="build" />
   <property name="build.tmp" location="${build.dir}/tmp/mpsContribBuild" />
   <property name="build.layout" location="${build.dir}/artifacts/mpsContribBuild" />
-  <property name="mps_dist_home" location="" />
-  <property name="idea_home" location="${mps_dist_home}" />
-  <property name="contrib_home" location="${basedir}" />
-  <property name="artifacts.mps" location="${mps_dist_home}" />
+  <property name="mps_home" location="" />
+  <property name="idea_home" location="${mps_home}" />
+  <property name="artifacts.mps" location="${mps_home}" />
   <property name="artifacts.IDEA" location="${idea_home}" />
   <property file="${artifacts.mps}/build.properties" prefix="import.mps" />
   <property name="mps.build.number" value="${import.mps.mps.build.number}" />
@@ -48,15 +47,15 @@
     </echoxml>
     <jar destfile="${build.layout}/mps-contrib-build/languages/jetbrains.mps.contrib.build.jar">
       <fileset dir="${build.tmp}/java/out/jetbrains.mps.contrib.build" />
-      <fileset dir="${contrib_home}/jetbrains.mps.contrib.build" includes="icons/**, resources/**" />
+      <fileset dir="${basedir}/jetbrains.mps.contrib.build" includes="icons/**, resources/**" />
       <fileset dir="${build.tmp}/default/jetbrains.mps.contrib.build.jar" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/jetbrains.mps.contrib.build-models">
-      <fileset dir="${contrib_home}/jetbrains.mps.contrib.build/models" includes="**/*.mps, **/*.metadata, **/*.history" />
+      <fileset dir="${basedir}/jetbrains.mps.contrib.build/models" includes="**/*.mps, **/*.metadata, **/*.history" />
     </copyModels>
     <jar destfile="${build.layout}/mps-contrib-build/languages/jetbrains.mps.contrib.build-src.jar">
-      <fileset dir="${contrib_home}/jetbrains.mps.contrib.build/source_gen" includes="**/*.java" />
-      <zipfileset file="${contrib_home}/jetbrains.mps.contrib.build/jetbrains.mps.contrib.build.msd" prefix="module" />
+      <fileset dir="${basedir}/jetbrains.mps.contrib.build/source_gen" includes="**/*.java" />
+      <zipfileset file="${basedir}/jetbrains.mps.contrib.build/jetbrains.mps.contrib.build.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/jetbrains.mps.contrib.build-models" prefix="module/models" />
     </jar>
     <echo file="${build.layout}/build.properties">mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}</echo>
@@ -139,7 +138,7 @@
       <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.ide.build.jar" />
       <library file="${artifacts.mps}/plugins/mps-core/languages/util/jetbrains.mps.core.properties.jar" />
       <chunk>
-        <module file="${contrib_home}/jetbrains.mps.contrib.build/jetbrains.mps.contrib.build.msd" />
+        <module file="${basedir}/jetbrains.mps.contrib.build/jetbrains.mps.contrib.build.msd" />
       </chunk>
     </generate>
   </target>
@@ -155,13 +154,13 @@
     <javac destdir="${build.tmp}/java/out/jetbrains.mps.contrib.build" fork="true" includeantruntime="false">
       <compilerarg value="-Xlint:none" />
       <src>
-        <path location="${contrib_home}/jetbrains.mps.contrib.build/source_gen" />
+        <path location="${basedir}/jetbrains.mps.contrib.build/source_gen" />
       </src>
       <classpath />
     </javac>
   </target>
   
   <target name="cleanSources">
-    <delete dir="${contrib_home}/jetbrains.mps.contrib.build/source_gen" />
+    <delete dir="${basedir}/jetbrains.mps.contrib.build/source_gen" />
   </target>
 </project>
