@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="382mzv6xnlss098p1k01z2ho2u1x29s">
+<dependencies version="2" modelHash="3hithiq1c3kg05iwybfrn5of4tdaki8">
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt(JDK/java.awt@java_stub)" />
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.swing(JDK/javax.swing@java_stub)" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-8uwjsvoyc0jmxumo62dusu4gaxjguv8" />
@@ -22,7 +22,7 @@
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <file name="VBoxPanel.java" />
   </source>
-  <source id="5606982432899038992" name="SimpleListModel" hash="-96nwin9wmfm52hdbq67hh1loy3juark">
+  <source id="5606982432899038992" name="SimpleListModel" hash="9ip4brlygbqqz4036xhfi9osljhxvdw">
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <file name="SimpleListModel.java" />
   </source>
