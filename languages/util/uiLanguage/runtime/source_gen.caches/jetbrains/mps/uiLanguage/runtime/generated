@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-3psquc4jkam7ya22aq3w2fzcf13xj1j">
+<dependencies version="2" modelHash="lwv3j53le7kzqormaof6p5cwaaforl">
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt(JDK/java.awt@java_stub)" />
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.swing(JDK/javax.swing@java_stub)" />
-  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-bj3r7xrkx1tokdu56absbnx3f3f389" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="15mjw3qikskmufrobbswpi8m7cntoco" />
   <common hash="dywbv5th6ai161orrwwbintycp89et9" />
   <source id="5606982432899038941" name="HBoxPanel" hash="78ynh7hwisv3j26ky7dowlfhg6boitz">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.swing(JDK/javax.swing@java_stub)" />
@@ -30,7 +30,7 @@
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <file name="JbRadioButton.java" />
   </source>
-  <source id="3987693689859618023" name="BaseBean" hash="-3gt6mrow79dkxwmapno4u7cke1ckz0p">
+  <source id="3987693689859618023" name="BaseBean" hash="a8z49m33fiysxwsq2qsstaiyqlka3ij">
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <file name="BaseBean.java" />
   </source>
