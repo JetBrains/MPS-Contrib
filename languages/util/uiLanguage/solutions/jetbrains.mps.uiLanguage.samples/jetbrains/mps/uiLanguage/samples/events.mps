@@ -152,7 +152,7 @@
                       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="1209814737617" nodeInfo="nn" />
                       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="1209814737618" nodeInfo="sn">
                         <node role="statement" roleId="tpee.1068581517665" type="tphr.RaiseInternalStatement" typeId="tphr.1209655552864" id="1209814737619" nodeInfo="nn">
-                          <node role="argument" roleId="tphr.1209655590318" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="1209814737620" nodeInfo="nn">
+                          <node role="argument" roleId="tphr.1209655590318" type="tpee.VariableReference" typeId="tpee.1068498886296" id="3021153905151399315" nodeInfo="nn">
                             <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1209814737621" resolveInfo="e" />
                           </node>
                         </node>
