@@ -31,7 +31,6 @@
       <modulePath path="$PROJECT_DIR$/mps-xml-obsolete/languages/util/xmlUnitTest/languages/xmlUnitTest/solutions/runtime/jetbrains.mps.xmlUnitTest.runtime.msd" folder="xml" />
       <modulePath path="$PROJECT_DIR$/mps-xml-obsolete/languages/util/xmlUnitTest/solutions/jetbrains.mps.xmlUnitTest.sandbox/jetbrains.mps.xmlUnitTest.sandbox.msd" folder="xml" />
     </projectModules>
-    <genConfs />
   </component>
 </project>
 
