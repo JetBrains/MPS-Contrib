@@ -58,6 +58,7 @@
   <import index="mp5t" modelUID="r:09ae1f9b-32e9-4f71-85df-1271dde1eb7a(jetbrains.mps.lang.plugin.run)" version="0" />
   <import index="3ats" modelUID="r:3300d13f-1b70-47a2-97b4-fc48c6fa9e45(jetbrains.mps.plugins.pluginparts.runconfigs)" version="0" />
   <import index="h2wd" modelUID="r:e668577d-4946-4b7d-8278-f6ebfb65ac06(jetbrains.mps.debug)" version="1" />
+  <import index="eibu" modelUID="r:49e72ff8-8ace-42fd-8f9f-5961eed9792e(jetbrains.mps.execution.api.configurations)" version="-1" />
   <import index="tp3r" modelUID="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" version="0" implicit="yes" />
   <import index="tpf8" modelUID="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" version="2" implicit="yes" />
   <import index="tpf3" modelUID="r:00000000-0000-4000-0000-011c895902f3(jetbrains.mps.lang.generator.generationContext.structure)" version="0" implicit="yes" />
@@ -5273,7 +5274,7 @@
       <link role="applicableConcept" roleId="tpf8.1168619429071" targetNodeId="11eb.314981645426569335" resolveInfo="UniversalRunConfigCreator" />
     </node>
     <node role="superclass" roleId="tpee.1165602531693" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="314981645427226210" nodeInfo="in">
-      <link role="classifier" roleId="tpee.1107535924139" targetNodeId="jd8b.5628633142282726006" resolveInfo="BaseConfigCreator" />
+      <link role="classifier" roleId="tpee.1107535924139" targetNodeId="eibu.8536479618435048503" resolveInfo="BaseMpsProducer" />
       <node role="parameter" roleId="tpee.1109201940907" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="314981645427226211" nodeInfo="in">
         <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ec5l.~SNode" resolveInfo="SNode" />
         <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.ReferenceMacro" typeId="tpf8.1088761943574" id="314981645427226212" nodeInfo="nn">
@@ -6188,7 +6189,7 @@
                         <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="314981645427226864" nodeInfo="nn">
                           <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="314981645427226865" nodeInfo="nn">
                             <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="314981645427226866" nodeInfo="nn">
-                              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="jd8b.5628633142282726848" resolveInfo="getContext" />
+                              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="eibu.8536479618435048548" resolveInfo="getContext" />
                             </node>
                             <node role="operand" roleId="tpee.1197027771414" type="tpee.ThisExpression" typeId="tpee.1070475354124" id="314981645427226867" nodeInfo="nn">
                               <link role="classConcept" roleId="tpee.1182955020723" targetNodeId="314981645427226733" resolveInfo="ConfigurationCreator" />
@@ -6496,8 +6497,8 @@
         <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="314981645427227039" nodeInfo="in" />
       </node>
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="314981645427226737" nodeInfo="nn" />
-      <node role="superclass" roleId="tpee.1165602531693" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="314981645427226738" nodeInfo="in">
-        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="jd8b.5628633142282726006" resolveInfo="BaseConfigCreator" />
+      <node role="superclass" roleId="tpee.1165602531693" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="9068037921925772661" nodeInfo="in">
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="eibu.8536479618435048503" resolveInfo="BaseMpsProducer" />
       </node>
     </node>
   </root>
@@ -6514,7 +6515,7 @@
           <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="314981645427227047" nodeInfo="nn">
             <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="314981645427227048" nodeInfo="nn">
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="314981645427227049" nodeInfo="nn">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="jd8b.5628633142282726832" resolveInfo="setSourceElement" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="eibu.8536479618435048531" resolveInfo="setSourceElement" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="314981645427227050" nodeInfo="nn">
                   <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="314981645427227051" nodeInfo="nn">
                     <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="hoff.~MPSPsiElement%d&lt;init&gt;(jetbrains%dmps%dproject%dMPSProject)" resolveInfo="MPSPsiElement" />
@@ -6572,8 +6573,8 @@
         <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="314981645427227092" nodeInfo="in" />
       </node>
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="314981645427227042" nodeInfo="nn" />
-      <node role="superclass" roleId="tpee.1165602531693" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="314981645427227043" nodeInfo="in">
-        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="jd8b.5628633142282726006" resolveInfo="BaseConfigCreator" />
+      <node role="superclass" roleId="tpee.1165602531693" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="9068037921925781678" nodeInfo="in">
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="eibu.8536479618435048503" resolveInfo="BaseMpsProducer" />
       </node>
     </node>
   </root>
