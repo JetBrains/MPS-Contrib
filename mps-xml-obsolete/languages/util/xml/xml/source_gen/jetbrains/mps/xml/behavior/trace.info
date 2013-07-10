@@ -80,50 +80,54 @@
     <nodeInfo nodeId="1221256566635" fileName="ContentList_Behavior.java" startLine="31" startPosition="81" endLine="32" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1221256566646" fileName="ContentList_Behavior.java" startLine="33" startPosition="27" endLine="34" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1221256566653" fileName="ContentList_Behavior.java" startLine="36" startPosition="27" endLine="37" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1221256566673" fileName="ContentList_Behavior.java" startLine="38" startPosition="548" endLine="39" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1221256566675" fileName="ContentList_Behavior.java" startLine="41" startPosition="5" endLine="42" endPosition="125" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1221256566685" fileName="ContentList_Behavior.java" startLine="43" startPosition="36" endLine="44" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1221256566692" fileName="ContentList_Behavior.java" startLine="45" startPosition="5" endLine="46" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1262430001741647232" fileName="ContentList_Behavior.java" startLine="49" startPosition="93" endLine="50" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8219981499616367331" fileName="ContentList_Behavior.java" startLine="37" startPosition="60" endLine="38" endPosition="121" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="8219981499616361353" fileName="ContentList_Behavior.java" startLine="39" startPosition="90" endLine="40" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1221256566673" fileName="ContentList_Behavior.java" startLine="42" startPosition="548" endLine="43" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1221256566675" fileName="ContentList_Behavior.java" startLine="45" startPosition="5" endLine="46" endPosition="125" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1221256566685" fileName="ContentList_Behavior.java" startLine="47" startPosition="36" endLine="48" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1221256566692" fileName="ContentList_Behavior.java" startLine="49" startPosition="5" endLine="50" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1262430001741647232" fileName="ContentList_Behavior.java" startLine="53" startPosition="93" endLine="54" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1213877331918" fileName="ContentList_Behavior.java" startLine="17" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
     <nodeInfo nodeId="1213877331918" fileName="ContentList_Behavior.java" startLine="20" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getSubcontents_1213877224308#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/util/List;" />
     <nodeInfo nodeId="1221256566615" fileName="ContentList_Behavior.java" startLine="24" startPosition="73" endLine="27" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="1221256566622" fileName="ContentList_Behavior.java" startLine="27" startPosition="5" endLine="30" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="1221256566641" fileName="ContentList_Behavior.java" startLine="32" startPosition="62" endLine="35" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1221256566659" fileName="ContentList_Behavior.java" startLine="37" startPosition="60" endLine="40" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1221256566683" fileName="ContentList_Behavior.java" startLine="42" startPosition="125" endLine="45" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1213877331918" fileName="ContentList_Behavior.java" startLine="49" startPosition="0" endLine="52" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_isComplex_1262430001741498088#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)Z" />
-    <nodeInfo nodeId="1221256566648" fileName="ContentList_Behavior.java" startLine="35" startPosition="5" endLine="41" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1213877331918" fileName="ContentList_Behavior.java" startLine="24" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_isHorizontal_1221256530294#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <nodeInfo nodeId="8219981499616358783" fileName="ContentList_Behavior.java" startLine="38" startPosition="121" endLine="41" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1221256566659" fileName="ContentList_Behavior.java" startLine="41" startPosition="7" endLine="44" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1221256566683" fileName="ContentList_Behavior.java" startLine="46" startPosition="125" endLine="49" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1213877331918" fileName="ContentList_Behavior.java" startLine="53" startPosition="0" endLine="56" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_isComplex_1262430001741498088#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)Z" />
+    <nodeInfo nodeId="1221256566648" fileName="ContentList_Behavior.java" startLine="35" startPosition="5" endLine="45" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1213877331918" fileName="ContentList_Behavior.java" startLine="24" startPosition="0" endLine="52" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_isHorizontal_1221256530294#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
     <scopeInfo nodeId="1213877331920" fileName="ContentList_Behavior.java" startLine="17" startPosition="43" endLine="17" endPosition="43" />
     <scopeInfo nodeId="1213877331922" fileName="ContentList_Behavior.java" startLine="20" startPosition="82" endLine="21" endPosition="65" />
     <scopeInfo nodeId="1221256566619" fileName="ContentList_Behavior.java" startLine="25" startPosition="29" endLine="26" endPosition="18" />
     <scopeInfo nodeId="1221256566626" fileName="ContentList_Behavior.java" startLine="28" startPosition="67" endLine="29" endPosition="18" />
     <scopeInfo nodeId="1221256566645" fileName="ContentList_Behavior.java" startLine="33" startPosition="27" endLine="34" endPosition="18" />
-    <scopeInfo nodeId="1221256566672" fileName="ContentList_Behavior.java" startLine="38" startPosition="548" endLine="39" endPosition="20" />
-    <scopeInfo nodeId="1221256566684" fileName="ContentList_Behavior.java" startLine="43" startPosition="36" endLine="44" endPosition="85" />
-    <scopeInfo nodeId="1262430001741647231" fileName="ContentList_Behavior.java" startLine="49" startPosition="93" endLine="50" endPosition="16" />
+    <scopeInfo nodeId="8219981499616358786" fileName="ContentList_Behavior.java" startLine="39" startPosition="90" endLine="40" endPosition="20" />
+    <scopeInfo nodeId="1221256566672" fileName="ContentList_Behavior.java" startLine="42" startPosition="548" endLine="43" endPosition="20" />
+    <scopeInfo nodeId="1221256566684" fileName="ContentList_Behavior.java" startLine="47" startPosition="36" endLine="48" endPosition="85" />
+    <scopeInfo nodeId="1262430001741647231" fileName="ContentList_Behavior.java" startLine="53" startPosition="93" endLine="54" endPosition="16" />
     <scopeInfo nodeId="1213877331918" fileName="ContentList_Behavior.java" startLine="17" startPosition="0" endLine="19" endPosition="0">
       <varInfo nodeId="1213877331918" varName="thisNode" />
     </scopeInfo>
     <scopeInfo nodeId="1213877331918" fileName="ContentList_Behavior.java" startLine="20" startPosition="0" endLine="23" endPosition="0">
       <varInfo nodeId="1213877331918" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="1213877331918" fileName="ContentList_Behavior.java" startLine="49" startPosition="0" endLine="52" endPosition="0">
+    <scopeInfo nodeId="1213877331918" fileName="ContentList_Behavior.java" startLine="53" startPosition="0" endLine="56" endPosition="0">
       <varInfo nodeId="1213877331918" varName="thisConcept" />
     </scopeInfo>
-    <scopeInfo nodeId="1221256566652" fileName="ContentList_Behavior.java" startLine="36" startPosition="27" endLine="40" endPosition="7">
+    <scopeInfo nodeId="1221256566652" fileName="ContentList_Behavior.java" startLine="36" startPosition="27" endLine="44" endPosition="7">
       <varInfo nodeId="1221256566654" varName="first" />
     </scopeInfo>
-    <scopeInfo nodeId="1221256530297" fileName="ContentList_Behavior.java" startLine="24" startPosition="73" endLine="46" endPosition="17">
+    <scopeInfo nodeId="1221256530297" fileName="ContentList_Behavior.java" startLine="24" startPosition="73" endLine="50" endPosition="17">
       <varInfo nodeId="1221256566636" varName="contentSize" />
       <varInfo nodeId="1221256566630" varName="contents" />
       <varInfo nodeId="1221256566676" varName="parentContentList" />
     </scopeInfo>
-    <scopeInfo nodeId="1213877331918" fileName="ContentList_Behavior.java" startLine="24" startPosition="0" endLine="48" endPosition="0">
+    <scopeInfo nodeId="1213877331918" fileName="ContentList_Behavior.java" startLine="24" startPosition="0" endLine="52" endPosition="0">
       <varInfo nodeId="1213877331918" varName="thisNode" />
     </scopeInfo>
-    <unitInfo nodeId="1213877331918" fileName="ContentList_Behavior.java" startLine="16" startPosition="0" endLine="53" endPosition="0" unitName="jetbrains.mps.xml.behavior.ContentList_Behavior" />
+    <unitInfo nodeId="1213877331918" fileName="ContentList_Behavior.java" startLine="16" startPosition="0" endLine="57" endPosition="0" unitName="jetbrains.mps.xml.behavior.ContentList_Behavior" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c89590584(jetbrains.mps.xml.behavior)/1213877420377">
     <nodeInfo nodeId="1213877420377" fileName="XmlRoot_Behavior.java" startLine="16" startPosition="82" endLine="17" endPosition="149" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
