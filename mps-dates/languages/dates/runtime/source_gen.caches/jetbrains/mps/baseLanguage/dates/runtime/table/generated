@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependencies version="2" modelHash="b8lmhdafv6prhtwmzejmx02wcg5hoez">
-  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-bj3r7xrkx1tokdu56absbnx3f3f389" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
   <common hash="-6cw8dq57no8yocdt64usedqfl66tngz" />
   <source id="734650238126519390" name="BasePeriodFormatTable" hash="37vyrb9eh9pvuqxkyl9b3fwxt6z33sx">
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />

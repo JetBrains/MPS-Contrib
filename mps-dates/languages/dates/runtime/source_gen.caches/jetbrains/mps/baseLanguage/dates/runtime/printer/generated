@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependencies version="2" modelHash="-erztg8n3r6o1ublccs4tl5l0iy8u8nt">
-  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-bj3r7xrkx1tokdu56absbnx3f3f389" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
   <common hash="-4kpn7yx2lmop3x4o9e7ynap0uinhess" />
   <source id="734650238126517390" name="Printer" hash="-98chm3ooapqwt2nkviicgxjqpngugqe">
     <file name="Printer.java" />
