@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="jetbrains.mps.execution.configurations.deprecated.runtime" uuid="0a4126f7-80aa-49b3-88c4-7fd3bf7596a2" pluginKind="PLUGIN_OTHER" compileInMPS="false">
+<solution name="jetbrains.mps.execution.configurations.deprecated.runtime" uuid="0a4126f7-80aa-49b3-88c4-7fd3bf7596a2" pluginKind="PLUGIN_OTHER" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />

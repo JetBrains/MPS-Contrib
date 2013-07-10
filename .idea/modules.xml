@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/mps-execution-deprecated/execution-languages-deprecated-runtime.iml" filepath="$PROJECT_DIR$/mps-execution-deprecated/execution-languages-deprecated-runtime.iml" />
       <module fileurl="file://$PROJECT_DIR$/mps.contrib.iml" filepath="$PROJECT_DIR$/mps.contrib.iml" />
     </modules>
   </component>
