@@ -334,7 +334,7 @@
       <property name="id" nameId="kdzh.6592112598314498927" value="jetbrains.mps.build.deprecated" />
       <node role="name" roleId="kdzh.6592112598314499021" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="4416206207494300371" nodeInfo="ng">
         <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="4416206207494300372" nodeInfo="ng">
-          <property name="text" nameId="3ior.4903714810883755350" value="MPS Depreacted XML and Build Languages" />
+          <property name="text" nameId="3ior.4903714810883755350" value="MPS Deprecated XML and Build Languages" />
         </node>
       </node>
       <node role="containerName" roleId="kdzh.6592112598314855574" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="4416206207494300373" nodeInfo="ng">
@@ -1533,7 +1533,7 @@
       </node>
       <node role="name" roleId="kdzh.6592112598314499021" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="8321286824325034322" nodeInfo="ng">
         <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="8321286824325034323" nodeInfo="ng">
-          <property name="text" nameId="3ior.4903714810883755350" value="Deprected Execution Language" />
+          <property name="text" nameId="3ior.4903714810883755350" value="Deprecated Execution Language" />
         </node>
       </node>
       <node role="version" roleId="kdzh.6592112598314498931" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="8321286824325034324" nodeInfo="ng">

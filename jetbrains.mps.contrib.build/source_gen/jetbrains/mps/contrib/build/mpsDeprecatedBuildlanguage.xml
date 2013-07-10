@@ -46,7 +46,7 @@
     <echoxml file="${build.layout}/mps-build-deprecated/META-INF/plugin.xml">
       <idea-plugin version="2" xmlns:xi="http://www.w3.org/2001/XInclude">
         <id>jetbrains.mps.build.deprecated</id>
-        <name>MPS Depreacted XML and Build Languages</name>
+        <name>MPS Deprecated XML and Build Languages</name>
         <version>${mpsBootstrapCore.version}</version>
         <depends>jetbrains.mps.core</depends>
         <depends>jetbrains.mps.xml.obsolete</depends>

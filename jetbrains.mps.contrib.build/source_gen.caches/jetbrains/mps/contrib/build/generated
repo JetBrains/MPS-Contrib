@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-8pr2zkrjh4lbwb1eu0o5wgvu4htbn6a">
+<dependencies version="2" modelHash="5d84a04aakg5h9cmc24xfufxpf5uwyb">
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" />
   <dep model="r:0353b795-df17-4050-9687-ee47eeb7094f(jetbrains.mps.build.mps.structure)" />
@@ -22,7 +22,7 @@
     <dep model="r:fdebfc98-bbd7-4c50-8a8d-eda16da9406e(jetbrains.mps.build.generator.template.main@generator)" />
     <file name="mpsDates.xml" />
   </source>
-  <source id="4416206207494300367" name="mpsDeprecatedBuildlanguage" hash="bvcfxzj2h7d3uno8htlhfczwyu9cvlo">
+  <source id="4416206207494300367" name="mpsDeprecatedBuildlanguage" hash="-bgpy9n5xwg8kskwobx614ufcf3g7vvr">
     <dep root="4579351749506262387" />
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" />
@@ -59,7 +59,7 @@
     <dep model="r:fdebfc98-bbd7-4c50-8a8d-eda16da9406e(jetbrains.mps.build.generator.template.main@generator)" />
     <file name="mpsXml.xml" />
   </source>
-  <source id="8321286824325034320" name="mpsDeprecatedExecution" hash="-exms2ljwsxq4jze7wgvkdw5tug8w8to">
+  <source id="8321286824325034320" name="mpsDeprecatedExecution" hash="cur78t2afctnjlpnzkqkt7lf1k0c4rt">
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" />
     <dep model="r:0353b795-df17-4050-9687-ee47eeb7094f(jetbrains.mps.build.mps.structure)" />
