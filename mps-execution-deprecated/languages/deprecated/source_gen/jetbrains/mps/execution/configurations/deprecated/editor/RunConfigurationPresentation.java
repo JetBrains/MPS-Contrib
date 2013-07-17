@@ -21,6 +21,7 @@ import jetbrains.mps.smodel.IScope;
 import org.jetbrains.mps.openapi.module.SModule;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.project.AbstractModule;
+import jetbrains.mps.util.MacroHelper;
 import jetbrains.mps.util.MacrosFactory;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.vfs.FileSystem;
@@ -126,7 +127,11 @@ public class RunConfigurationPresentation implements ConceptEditorComponent {
     String path = null;
     SModule module = SNodeOperations.getModel(node).getModule();
     if (module instanceof AbstractModule) {
-      path = MacrosFactory.forModule((AbstractModule) module).expandPath(SPropertyOperations.getString(node, "iconPath"));
+      MacroHelper macros = MacrosFactory.forModule((AbstractModule) module);
+      if (macros == null) {
+        return false;
+      }
+      path = macros.expandPath(SPropertyOperations.getString(node, "iconPath"));
     }
     return path != null && FileSystem.getInstance().getFileByPath(path).exists();
   }
