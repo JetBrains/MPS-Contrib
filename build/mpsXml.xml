@@ -99,26 +99,6 @@
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/mps-xml-obsolete-languages-util-gtext-generators-baseLanguage-templates" prefix="module/generators/baseLanguage/templates" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/mps-xml-obsolete-languages-util-gtext-languageModels" prefix="module/languageModels" />
     </jar>
-    <mkdir dir="${build.tmp}/default/jetbrains.mps.gtext#1164413905312.jar" />
-    <mkdir dir="${build.tmp}/default/jetbrains.mps.gtext#1164413905312.jar/META-INF" />
-    <echoxml file="${build.tmp}/default/jetbrains.mps.gtext#1164413905312.jar/META-INF/module.xml">
-      <module namespace="jetbrains.mps.gtext#1164413905312" type="language" uuid="bfcadeff-430f-4472-9641-06156a02be37">
-        <dependencies>
-          <module ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" />
-          <module ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" />
-          <module ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" />
-          <module ref="4c6a28d1-2c60-478d-b36e-db9b3cbb21fb(closures.runtime)" />
-          <module ref="9b80526e-f0bf-4992-bdf5-cee39c1833f3(collections.runtime)" />
-          <module ref="a3e4657f-a76c-45bb-bbda-c764596ecc65(jetbrains.mps.baseLanguage.logging.runtime)" />
-          <module ref="d44dab97-aaac-44cb-9745-8a14db674c03(jetbrains.mps.baseLanguage.tuples.runtime)" />
-          <module ref="9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)" />
-        </dependencies>
-      </module>
-    </echoxml>
-    <jar destfile="${build.layout}/mps-xml-obsolete/languages/gtext/jetbrains.mps.gtext#1164413905312.jar">
-      <fileset dir="${build.tmp}/java/out/jetbrains.mps.gtext#1164413905312" />
-      <fileset dir="${build.tmp}/default/jetbrains.mps.gtext#1164413905312.jar" />
-    </jar>
     <mkdir dir="${build.tmp}/default/jetbrains.mps.gtext.runtime.jar" />
     <mkdir dir="${build.tmp}/default/jetbrains.mps.gtext.runtime.jar/META-INF" />
     <echoxml file="${build.tmp}/default/jetbrains.mps.gtext.runtime.jar/META-INF/module.xml">
@@ -186,27 +166,6 @@
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/mps-xml-obsolete-languages-util-xml-xml-generators-baseLanguage-templates" prefix="module/generators/baseLanguage/templates" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/mps-xml-obsolete-languages-util-xml-xml-languageModels" prefix="module/languageModels" />
     </jar>
-    <mkdir dir="${build.tmp}/default/jetbrains.mps.xml#1163716442262.jar" />
-    <mkdir dir="${build.tmp}/default/jetbrains.mps.xml#1163716442262.jar/META-INF" />
-    <echoxml file="${build.tmp}/default/jetbrains.mps.xml#1163716442262.jar/META-INF/module.xml">
-      <module namespace="jetbrains.mps.xml#1163716442262" type="language" uuid="94951427-301e-4a1c-a1cd-d2c6bc9f3cfa">
-        <dependencies>
-          <module ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" />
-          <module ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" />
-          <module ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" />
-          <module ref="4c6a28d1-2c60-478d-b36e-db9b3cbb21fb(closures.runtime)" />
-          <module ref="9b80526e-f0bf-4992-bdf5-cee39c1833f3(collections.runtime)" />
-          <module ref="a3e4657f-a76c-45bb-bbda-c764596ecc65(jetbrains.mps.baseLanguage.logging.runtime)" />
-          <module ref="d44dab97-aaac-44cb-9745-8a14db674c03(jetbrains.mps.baseLanguage.tuples.runtime)" />
-          <module ref="34f23130-e35c-4795-a45a-85d828b16016(jetbrains.mps.gtext.runtime)" />
-          <module ref="9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)" />
-        </dependencies>
-      </module>
-    </echoxml>
-    <jar destfile="${build.layout}/mps-xml-obsolete/languages/xml/jetbrains.mps.xml#1163716442262.jar">
-      <fileset dir="${build.tmp}/java/out/jetbrains.mps.xml#1163716442262" />
-      <fileset dir="${build.tmp}/default/jetbrains.mps.xml#1163716442262.jar" />
-    </jar>
     <mkdir dir="${build.tmp}/default/jetbrains.mps.xmlInternal.jar" />
     <mkdir dir="${build.tmp}/default/jetbrains.mps.xmlInternal.jar/META-INF" />
     <echoxml file="${build.tmp}/default/jetbrains.mps.xmlInternal.jar/META-INF/module.xml">
@@ -247,27 +206,6 @@
       <zipfileset file="${basedir}/mps-xml-obsolete/languages/util/xml/xmlInternal/jetbrains.mps.xmlInternal.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/mps-xml-obsolete-languages-util-xml-xmlInternal-generators-baseLanguage-templates" prefix="module/generators/baseLanguage/templates" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/mps-xml-obsolete-languages-util-xml-xmlInternal-languageModels" prefix="module/languageModels" />
-    </jar>
-    <mkdir dir="${build.tmp}/default/jetbrains.mps.xmlInternal#1165632612566.jar" />
-    <mkdir dir="${build.tmp}/default/jetbrains.mps.xmlInternal#1165632612566.jar/META-INF" />
-    <echoxml file="${build.tmp}/default/jetbrains.mps.xmlInternal#1165632612566.jar/META-INF/module.xml">
-      <module namespace="jetbrains.mps.xmlInternal#1165632612566" type="language" uuid="54e8601c-dee3-4b7a-94f7-5ee53b3f2dcb">
-        <dependencies>
-          <module ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" />
-          <module ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" />
-          <module ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" />
-          <module ref="4c6a28d1-2c60-478d-b36e-db9b3cbb21fb(closures.runtime)" />
-          <module ref="9b80526e-f0bf-4992-bdf5-cee39c1833f3(collections.runtime)" />
-          <module ref="a3e4657f-a76c-45bb-bbda-c764596ecc65(jetbrains.mps.baseLanguage.logging.runtime)" />
-          <module ref="d44dab97-aaac-44cb-9745-8a14db674c03(jetbrains.mps.baseLanguage.tuples.runtime)" />
-          <module ref="34f23130-e35c-4795-a45a-85d828b16016(jetbrains.mps.gtext.runtime)" />
-          <module ref="9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)" />
-        </dependencies>
-      </module>
-    </echoxml>
-    <jar destfile="${build.layout}/mps-xml-obsolete/languages/xml/jetbrains.mps.xmlInternal#1165632612566.jar">
-      <fileset dir="${build.tmp}/java/out/jetbrains.mps.xmlInternal#1165632612566" />
-      <fileset dir="${build.tmp}/default/jetbrains.mps.xmlInternal#1165632612566.jar" />
     </jar>
     <mkdir dir="${build.tmp}/default/jetbrains.mps.xmlSchema.jar" />
     <mkdir dir="${build.tmp}/default/jetbrains.mps.xmlSchema.jar/META-INF" />
@@ -310,29 +248,6 @@
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/mps-xml-obsolete-languages-util-xml-xmlSchema-generator-template" prefix="module/generator/template" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/mps-xml-obsolete-languages-util-xml-xmlSchema-languageModels" prefix="module/languageModels" />
     </jar>
-    <mkdir dir="${build.tmp}/default/jetbrains.mps.xmlSchema#2709156219364519555.jar" />
-    <mkdir dir="${build.tmp}/default/jetbrains.mps.xmlSchema#2709156219364519555.jar/META-INF" />
-    <echoxml file="${build.tmp}/default/jetbrains.mps.xmlSchema#2709156219364519555.jar/META-INF/module.xml">
-      <module namespace="jetbrains.mps.xmlSchema#2709156219364519555" type="language" uuid="c202c4d8-8ec4-4178-8398-99beed04ee2c">
-        <dependencies>
-          <module ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" />
-          <module ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" />
-          <module ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224(MPS.Editor)" />
-          <module ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" />
-          <module ref="4c6a28d1-2c60-478d-b36e-db9b3cbb21fb(closures.runtime)" />
-          <module ref="9b80526e-f0bf-4992-bdf5-cee39c1833f3(collections.runtime)" />
-          <module ref="a3e4657f-a76c-45bb-bbda-c764596ecc65(jetbrains.mps.baseLanguage.logging.runtime)" />
-          <module ref="d44dab97-aaac-44cb-9745-8a14db674c03(jetbrains.mps.baseLanguage.tuples.runtime)" />
-          <module ref="2af156ab-65c1-4a62-bd0d-ea734f71eab6(jetbrains.mps.dataFlow.runtime)" />
-          <module ref="8fe4c62a-2020-4ff4-8eda-f322a55bdc9f(jetbrains.mps.refactoring.runtime)" />
-          <module ref="9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)" />
-        </dependencies>
-      </module>
-    </echoxml>
-    <jar destfile="${build.layout}/mps-xml-obsolete/languages/xml/jetbrains.mps.xmlSchema#2709156219364519555.jar">
-      <fileset dir="${build.tmp}/java/out/jetbrains.mps.xmlSchema#2709156219364519555" />
-      <fileset dir="${build.tmp}/default/jetbrains.mps.xmlSchema#2709156219364519555.jar" />
-    </jar>
     <mkdir dir="${build.tmp}/default/jetbrains.mps.xmlQuery.jar" />
     <mkdir dir="${build.tmp}/default/jetbrains.mps.xmlQuery.jar/META-INF" />
     <echoxml file="${build.tmp}/default/jetbrains.mps.xmlQuery.jar/META-INF/module.xml">
@@ -374,29 +289,6 @@
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/mps-xml-obsolete-languages-util-xml-xmlQuery-generator-template" prefix="module/generator/template" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/mps-xml-obsolete-languages-util-xml-xmlQuery-languageModels" prefix="module/languageModels" />
     </jar>
-    <mkdir dir="${build.tmp}/default/jetbrains.mps.xmlQuery#2341233264267726012.jar" />
-    <mkdir dir="${build.tmp}/default/jetbrains.mps.xmlQuery#2341233264267726012.jar/META-INF" />
-    <echoxml file="${build.tmp}/default/jetbrains.mps.xmlQuery#2341233264267726012.jar/META-INF/module.xml">
-      <module namespace="jetbrains.mps.xmlQuery#2341233264267726012" type="language" uuid="7b9177cb-d5b3-4650-b872-423416f1e5f1">
-        <dependencies>
-          <module ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" />
-          <module ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" />
-          <module ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224(MPS.Editor)" />
-          <module ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" />
-          <module ref="4c6a28d1-2c60-478d-b36e-db9b3cbb21fb(closures.runtime)" />
-          <module ref="9b80526e-f0bf-4992-bdf5-cee39c1833f3(collections.runtime)" />
-          <module ref="a3e4657f-a76c-45bb-bbda-c764596ecc65(jetbrains.mps.baseLanguage.logging.runtime)" />
-          <module ref="d44dab97-aaac-44cb-9745-8a14db674c03(jetbrains.mps.baseLanguage.tuples.runtime)" />
-          <module ref="2af156ab-65c1-4a62-bd0d-ea734f71eab6(jetbrains.mps.dataFlow.runtime)" />
-          <module ref="8fe4c62a-2020-4ff4-8eda-f322a55bdc9f(jetbrains.mps.refactoring.runtime)" />
-          <module ref="9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)" />
-        </dependencies>
-      </module>
-    </echoxml>
-    <jar destfile="${build.layout}/mps-xml-obsolete/languages/xml/jetbrains.mps.xmlQuery#2341233264267726012.jar">
-      <fileset dir="${build.tmp}/java/out/jetbrains.mps.xmlQuery#2341233264267726012" />
-      <fileset dir="${build.tmp}/default/jetbrains.mps.xmlQuery#2341233264267726012.jar" />
-    </jar>
     <mkdir dir="${build.tmp}/default/jetbrains.mps.xmlQuery.runtime.jar" />
     <mkdir dir="${build.tmp}/default/jetbrains.mps.xmlQuery.runtime.jar/META-INF" />
     <echoxml file="${build.tmp}/default/jetbrains.mps.xmlQuery.runtime.jar/META-INF/module.xml">
@@ -421,29 +313,6 @@
       <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xml/xmlQuery/runtime/source_gen" includes="**/*.java" />
       <zipfileset file="${basedir}/mps-xml-obsolete/languages/util/xml/xmlQuery/runtime/jetbrains.mps.xmlQuery.runtime.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/mps-xml-obsolete-languages-util-xml-xmlQuery-runtime-models" prefix="module/models" />
-    </jar>
-    <mkdir dir="${build.tmp}/default/jetbrains.mps.xmlUnitTest#5211164146776564145.jar" />
-    <mkdir dir="${build.tmp}/default/jetbrains.mps.xmlUnitTest#5211164146776564145.jar/META-INF" />
-    <echoxml file="${build.tmp}/default/jetbrains.mps.xmlUnitTest#5211164146776564145.jar/META-INF/module.xml">
-      <module namespace="jetbrains.mps.xmlUnitTest#5211164146776564145" type="language" uuid="582567cc-e906-468f-8bf0-b574e317c43c">
-        <dependencies>
-          <module ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" />
-          <module ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" />
-          <module ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224(MPS.Editor)" />
-          <module ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" />
-          <module ref="4c6a28d1-2c60-478d-b36e-db9b3cbb21fb(closures.runtime)" />
-          <module ref="9b80526e-f0bf-4992-bdf5-cee39c1833f3(collections.runtime)" />
-          <module ref="a3e4657f-a76c-45bb-bbda-c764596ecc65(jetbrains.mps.baseLanguage.logging.runtime)" />
-          <module ref="d44dab97-aaac-44cb-9745-8a14db674c03(jetbrains.mps.baseLanguage.tuples.runtime)" />
-          <module ref="2af156ab-65c1-4a62-bd0d-ea734f71eab6(jetbrains.mps.dataFlow.runtime)" />
-          <module ref="8fe4c62a-2020-4ff4-8eda-f322a55bdc9f(jetbrains.mps.refactoring.runtime)" />
-          <module ref="9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)" />
-        </dependencies>
-      </module>
-    </echoxml>
-    <jar destfile="${build.layout}/mps-xml-obsolete/languages/xml/jetbrains.mps.xmlUnitTest#5211164146776564145.jar">
-      <fileset dir="${build.tmp}/java/out/jetbrains.mps.xmlUnitTest#5211164146776564145" />
-      <fileset dir="${build.tmp}/default/jetbrains.mps.xmlUnitTest#5211164146776564145.jar" />
     </jar>
     <mkdir dir="${build.layout}/mps-xml-obsolete/lib" />
     <copy todir="${build.layout}/mps-xml-obsolete/lib">

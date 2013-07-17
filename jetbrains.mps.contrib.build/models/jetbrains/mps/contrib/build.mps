@@ -2009,11 +2009,11 @@
               <property name="text" nameId="3ior.4903714810883755350" value="lib" />
             </node>
           </node>
-          <node role="children" roleId="3ior.7389400916848037006" type="kdzh.BuildMpsLayout_ModuleJars" typeId="kdzh.1265949165890536423" id="7175666659236714836" nodeInfo="ng">
-            <link role="module" roleId="kdzh.1265949165890536425" targetNodeId="6361939271669846609" resolveInfo="jetbrains.mps.execution.configurations.deprecated" />
-          </node>
           <node role="children" roleId="3ior.7389400916848037006" type="kdzh.BuildMpsLayout_ModuleJars" typeId="kdzh.1265949165890536423" id="7175666659236714841" nodeInfo="ng">
             <link role="module" roleId="kdzh.1265949165890536425" targetNodeId="6361939271669846635" resolveInfo="jetbrains.mps.execution.configurations.deprecated.runtime" />
+          </node>
+          <node role="children" roleId="3ior.7389400916848037006" type="kdzh.BuildMpsLayout_ModuleJars" typeId="kdzh.1265949165890536423" id="8330846886391540940" nodeInfo="ng">
+            <link role="module" roleId="kdzh.1265949165890536425" targetNodeId="8321286824328943507" resolveInfo="jetbrains.mps.baseLanguage.unitTest.execution.deprecated" />
           </node>
         </node>
       </node>
