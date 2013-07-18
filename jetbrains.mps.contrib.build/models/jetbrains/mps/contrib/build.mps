@@ -313,6 +313,9 @@
     </node>
     <node role="plugins" roleId="3ior.6647099934206700656" type="3ior.BuildJavaPlugin" typeId="3ior.6647099934206700647" id="4061567211001166718" nodeInfo="ng" />
     <node role="plugins" roleId="3ior.6647099934206700656" type="kdzh.BuildMPSPlugin" typeId="kdzh.868032131020265945" id="4061567211001166720" nodeInfo="ng" />
+    <node role="aspects" roleId="3ior.3542413272732620719" type="kdzh.BuildMpsAspect" typeId="kdzh.6503355885715333289" id="4569962905157501328" nodeInfo="ng">
+      <property name="testGeneration" nameId="kdzh.1787667533297081791" value="true" />
+    </node>
   </root>
   <root type="3ior.BuildProject" typeId="3ior.5617550519002745363" id="4416206207494300367" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="mpsDeprecatedBuildlanguage" />
@@ -320,6 +323,7 @@
     <property name="internalBaseDirectory" nameId="3ior.5204048710541015587" value="../" />
     <node role="aspects" roleId="3ior.3542413272732620719" type="kdzh.BuildMpsAspect" typeId="kdzh.6503355885715333289" id="2488570609613315074" nodeInfo="ng">
       <property name="bootstrap" nameId="kdzh.6503355885715353788" value="true" />
+      <property name="testGeneration" nameId="kdzh.1787667533297081791" value="true" />
     </node>
     <node role="parts" roleId="3ior.7389400916848080626" type="3ior.BuildSource_JavaOptions" typeId="3ior.927724900262033858" id="4416206207494300368" nodeInfo="ng">
       <property name="generateDebugInfo" nameId="3ior.927724900262033861" value="true" />
@@ -805,6 +809,9 @@
     <property name="name" nameId="tpck.1169194664001" value="mpsXml" />
     <property name="fileName" nameId="3ior.4915877860348071612" value="mpsXml.xml" />
     <property name="internalBaseDirectory" nameId="3ior.5204048710541015587" value="../" />
+    <node role="aspects" roleId="3ior.3542413272732620719" type="kdzh.BuildMpsAspect" typeId="kdzh.6503355885715333289" id="4569962905157505631" nodeInfo="ng">
+      <property name="testGeneration" nameId="kdzh.1787667533297081791" value="true" />
+    </node>
     <node role="parts" roleId="3ior.7389400916848080626" type="kdzh.BuildMps_IdeaPlugin" typeId="kdzh.6592112598314498932" id="4579351749506262388" nodeInfo="ng">
       <property name="id" nameId="kdzh.6592112598314498927" value="jetbrains.mps.xml.obsolete" />
       <node role="name" roleId="kdzh.6592112598314499021" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="4579351749506262389" nodeInfo="ng">
@@ -2036,11 +2043,17 @@
     </node>
     <node role="plugins" roleId="3ior.6647099934206700656" type="3ior.BuildJavaPlugin" typeId="3ior.6647099934206700647" id="8321286824325034495" nodeInfo="ng" />
     <node role="plugins" roleId="3ior.6647099934206700656" type="kdzh.BuildMPSPlugin" typeId="kdzh.868032131020265945" id="8321286824325034496" nodeInfo="ng" />
+    <node role="aspects" roleId="3ior.3542413272732620719" type="kdzh.BuildMpsAspect" typeId="kdzh.6503355885715333289" id="4569962905157504910" nodeInfo="ng">
+      <property name="testGeneration" nameId="kdzh.1787667533297081791" value="true" />
+    </node>
   </root>
   <root type="3ior.BuildProject" typeId="3ior.5617550519002745363" id="310331596773287654" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="mpsContribBuild" />
     <property name="fileName" nameId="3ior.4915877860348071612" value="mpsContribBuild.xml" />
     <property name="internalBaseDirectory" nameId="3ior.5204048710541015587" value="../" />
+    <node role="aspects" roleId="3ior.3542413272732620719" type="kdzh.BuildMpsAspect" typeId="kdzh.6503355885715333289" id="4569962905157503475" nodeInfo="ng">
+      <property name="testGeneration" nameId="kdzh.1787667533297081791" value="true" />
+    </node>
     <node role="parts" roleId="3ior.7389400916848080626" type="kdzh.BuildMps_IdeaPlugin" typeId="kdzh.6592112598314498932" id="310331596773285804" nodeInfo="ng">
       <property name="id" nameId="kdzh.6592112598314498927" value="jetbrains.mps.contrib.build" />
       <node role="name" roleId="kdzh.6592112598314499021" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="310331596773285806" nodeInfo="ng">
