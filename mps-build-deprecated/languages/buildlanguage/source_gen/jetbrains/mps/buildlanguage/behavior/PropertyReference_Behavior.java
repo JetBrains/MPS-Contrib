@@ -8,6 +8,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import java.util.List;
+import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import java.util.ArrayList;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 
@@ -36,7 +37,7 @@ public class PropertyReference_Behavior {
     return BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(thisNode, "propertyDeclaration", false), "jetbrains.mps.buildlanguage.structure.PropertyDeclaration"), "propertyValue", true), "virtual_getActualValue_1213877472572", new Object[]{});
   }
 
-  public static List<SNode> getAllVisibleDeclarations_1239123615225(SNode enclosingNode) {
+  public static List<SNode> call_getAllVisibleDeclarations_1239123615225(SAbstractConcept thisConcept, SNode enclosingNode) {
     List<SNode> result = new ArrayList<SNode>();
     for (SNode holder : ListSequence.fromList(SNodeOperations.getAncestors(enclosingNode, "jetbrains.mps.buildlanguage.structure.IPropertyHolder", true))) {
       ListSequence.fromList(result).addSequence(ListSequence.fromList(BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), holder, "virtual_getProperties_1213877375726", new Object[]{})));

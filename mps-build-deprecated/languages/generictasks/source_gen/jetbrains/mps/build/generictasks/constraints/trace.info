@@ -25,39 +25,39 @@
     <unitInfo nodeId="1190349257898069072" fileName="SequenceSearchScope.java" startLine="13" startPosition="0" endLine="30" endPosition="0" unitName="jetbrains.mps.build.generictasks.constraints.SequenceSearchScope" />
   </root>
   <root nodeRef="r:71eee63a-b16f-40f8-920d-8fd0fe7dc8a1(jetbrains.mps.build.generictasks.constraints)/1445805690439864464">
-    <nodeInfo nodeId="1445805690439864464" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="14" startPosition="49" endLine="15" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
-    <nodeInfo nodeId="1445805690439864464" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="19" startPosition="42" endLine="20" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1445805690439864464" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="24" startPosition="120" endLine="25" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1445805690439864464" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="25" startPosition="55" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="1445805690439864464" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="27" startPosition="51" endLine="28" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1445805690439864464" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="29" startPosition="5" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="1445805690439864464" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="30" startPosition="0" endLine="31" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1445805690439864467" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="34" startPosition="99" endLine="35" endPosition="90" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1445805690439864464" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="38" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="canBeRootBreakingPoint" />
-    <nodeInfo nodeId="1445805690439864464" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="14" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="TaskInterfaceDeclaration_Constraints#()V" />
-    <nodeInfo nodeId="1445805690439864464" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="26" startPosition="0" endLine="29" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1445805690439864464" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="34" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="static_canBeARoot#(Lorg/jetbrains/mps/openapi/model/SModel;Ljetbrains/mps/smodel/IOperationContext;)Z" />
-    <nodeInfo nodeId="1445805690439864464" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="18" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasOwnCanBeRootMethod#()Z" />
-    <nodeInfo nodeId="1445805690439864464" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="23" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="canBeRoot#(Ljetbrains/mps/smodel/IOperationContext;Lorg/jetbrains/mps/openapi/model/SModel;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
-    <scopeInfo nodeId="1445805690439864464" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="14" startPosition="49" endLine="15" endPosition="81" />
-    <scopeInfo nodeId="1445805690439864464" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="19" startPosition="42" endLine="20" endPosition="16" />
-    <scopeInfo nodeId="1445805690439864464" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="27" startPosition="51" endLine="28" endPosition="66" />
-    <scopeInfo nodeId="1445805690439864466" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="34" startPosition="99" endLine="35" endPosition="90" />
-    <scopeInfo nodeId="1445805690439864464" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="14" startPosition="0" endLine="17" endPosition="0" />
-    <scopeInfo nodeId="1445805690439864464" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="34" startPosition="0" endLine="37" endPosition="0">
+    <nodeInfo nodeId="1445805690439864464" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="17" startPosition="49" endLine="18" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="1445805690439864464" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="22" startPosition="42" endLine="23" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1445805690439864464" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="27" startPosition="120" endLine="28" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1445805690439864464" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="28" startPosition="55" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="1445805690439864464" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="30" startPosition="51" endLine="31" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1445805690439864464" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="32" startPosition="5" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="1445805690439864464" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="33" startPosition="0" endLine="34" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1445805690439864467" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="37" startPosition="99" endLine="38" endPosition="273" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1445805690439864464" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="41" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="canBeRootBreakingPoint" />
+    <nodeInfo nodeId="1445805690439864464" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="17" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="TaskInterfaceDeclaration_Constraints#()V" />
+    <nodeInfo nodeId="1445805690439864464" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="29" startPosition="0" endLine="32" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1445805690439864464" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="37" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="static_canBeARoot#(Lorg/jetbrains/mps/openapi/model/SModel;Ljetbrains/mps/smodel/IOperationContext;)Z" />
+    <nodeInfo nodeId="1445805690439864464" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="21" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasOwnCanBeRootMethod#()Z" />
+    <nodeInfo nodeId="1445805690439864464" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="26" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="canBeRoot#(Ljetbrains/mps/smodel/IOperationContext;Lorg/jetbrains/mps/openapi/model/SModel;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
+    <scopeInfo nodeId="1445805690439864464" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="17" startPosition="49" endLine="18" endPosition="81" />
+    <scopeInfo nodeId="1445805690439864464" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="22" startPosition="42" endLine="23" endPosition="16" />
+    <scopeInfo nodeId="1445805690439864464" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="30" startPosition="51" endLine="31" endPosition="66" />
+    <scopeInfo nodeId="1445805690439864466" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="37" startPosition="99" endLine="38" endPosition="273" />
+    <scopeInfo nodeId="1445805690439864464" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="17" startPosition="0" endLine="20" endPosition="0" />
+    <scopeInfo nodeId="1445805690439864464" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="37" startPosition="0" endLine="40" endPosition="0">
       <varInfo nodeId="1445805690439864464" varName="model" />
       <varInfo nodeId="1445805690439864464" varName="operationContext" />
     </scopeInfo>
-    <scopeInfo nodeId="1445805690439864464" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="18" startPosition="0" endLine="22" endPosition="0" />
-    <scopeInfo nodeId="1445805690439864464" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="24" startPosition="120" endLine="31" endPosition="18">
+    <scopeInfo nodeId="1445805690439864464" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="21" startPosition="0" endLine="25" endPosition="0" />
+    <scopeInfo nodeId="1445805690439864464" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="27" startPosition="120" endLine="34" endPosition="18">
       <varInfo nodeId="1445805690439864464" varName="result" />
     </scopeInfo>
-    <scopeInfo nodeId="1445805690439864464" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="23" startPosition="0" endLine="33" endPosition="0">
+    <scopeInfo nodeId="1445805690439864464" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="26" startPosition="0" endLine="36" endPosition="0">
       <varInfo nodeId="1445805690439864464" varName="checkingNodeContext" />
       <varInfo nodeId="1445805690439864464" varName="context" />
       <varInfo nodeId="1445805690439864464" varName="model" />
     </scopeInfo>
-    <unitInfo nodeId="1445805690439864464" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="13" startPosition="0" endLine="40" endPosition="0" unitName="jetbrains.mps.build.generictasks.constraints.TaskInterfaceDeclaration_Constraints" />
+    <unitInfo nodeId="1445805690439864464" fileName="TaskInterfaceDeclaration_Constraints.java" startLine="16" startPosition="0" endLine="43" endPosition="0" unitName="jetbrains.mps.build.generictasks.constraints.TaskInterfaceDeclaration_Constraints" />
   </root>
   <root nodeRef="r:71eee63a-b16f-40f8-920d-8fd0fe7dc8a1(jetbrains.mps.build.generictasks.constraints)/3037831562615764090">
     <nodeInfo nodeId="3037831562615764090" fileName="TaskReference_Constraints.java" startLine="26" startPosition="38" endLine="27" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
@@ -452,39 +452,39 @@
     <unitInfo nodeId="4710899751214125125" fileName="NestedDeclaration_Constraints.java" startLine="13" startPosition="0" endLine="40" endPosition="0" unitName="jetbrains.mps.build.generictasks.constraints.NestedDeclaration_Constraints" />
   </root>
   <root nodeRef="r:71eee63a-b16f-40f8-920d-8fd0fe7dc8a1(jetbrains.mps.build.generictasks.constraints)/8233904257588554705">
-    <nodeInfo nodeId="8233904257588554705" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="14" startPosition="47" endLine="15" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
-    <nodeInfo nodeId="8233904257588554705" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="19" startPosition="42" endLine="20" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8233904257588554705" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="24" startPosition="120" endLine="25" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8233904257588554705" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="25" startPosition="55" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="8233904257588554705" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="27" startPosition="51" endLine="28" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8233904257588554705" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="29" startPosition="5" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="8233904257588554705" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="30" startPosition="0" endLine="31" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1445805690439864417" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="34" startPosition="99" endLine="35" endPosition="90" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8233904257588554705" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="38" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="canBeRootBreakingPoint" />
-    <nodeInfo nodeId="8233904257588554705" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="14" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="BuiltInTaskDeclaration_Constraints#()V" />
-    <nodeInfo nodeId="8233904257588554705" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="26" startPosition="0" endLine="29" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="8233904257588554705" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="34" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="static_canBeARoot#(Lorg/jetbrains/mps/openapi/model/SModel;Ljetbrains/mps/smodel/IOperationContext;)Z" />
-    <nodeInfo nodeId="8233904257588554705" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="18" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasOwnCanBeRootMethod#()Z" />
-    <nodeInfo nodeId="8233904257588554705" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="23" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="canBeRoot#(Ljetbrains/mps/smodel/IOperationContext;Lorg/jetbrains/mps/openapi/model/SModel;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
-    <scopeInfo nodeId="8233904257588554705" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="14" startPosition="47" endLine="15" endPosition="79" />
-    <scopeInfo nodeId="8233904257588554705" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="19" startPosition="42" endLine="20" endPosition="16" />
-    <scopeInfo nodeId="8233904257588554705" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="27" startPosition="51" endLine="28" endPosition="66" />
-    <scopeInfo nodeId="8233904257588554707" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="34" startPosition="99" endLine="35" endPosition="90" />
-    <scopeInfo nodeId="8233904257588554705" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="14" startPosition="0" endLine="17" endPosition="0" />
-    <scopeInfo nodeId="8233904257588554705" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="34" startPosition="0" endLine="37" endPosition="0">
+    <nodeInfo nodeId="8233904257588554705" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="17" startPosition="47" endLine="18" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="8233904257588554705" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="22" startPosition="42" endLine="23" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8233904257588554705" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="27" startPosition="120" endLine="28" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8233904257588554705" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="28" startPosition="55" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="8233904257588554705" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="30" startPosition="51" endLine="31" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8233904257588554705" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="32" startPosition="5" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="8233904257588554705" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="33" startPosition="0" endLine="34" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1445805690439864417" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="37" startPosition="99" endLine="38" endPosition="273" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8233904257588554705" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="41" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="canBeRootBreakingPoint" />
+    <nodeInfo nodeId="8233904257588554705" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="17" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="BuiltInTaskDeclaration_Constraints#()V" />
+    <nodeInfo nodeId="8233904257588554705" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="29" startPosition="0" endLine="32" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8233904257588554705" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="37" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="static_canBeARoot#(Lorg/jetbrains/mps/openapi/model/SModel;Ljetbrains/mps/smodel/IOperationContext;)Z" />
+    <nodeInfo nodeId="8233904257588554705" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="21" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasOwnCanBeRootMethod#()Z" />
+    <nodeInfo nodeId="8233904257588554705" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="26" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="canBeRoot#(Ljetbrains/mps/smodel/IOperationContext;Lorg/jetbrains/mps/openapi/model/SModel;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
+    <scopeInfo nodeId="8233904257588554705" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="17" startPosition="47" endLine="18" endPosition="79" />
+    <scopeInfo nodeId="8233904257588554705" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="22" startPosition="42" endLine="23" endPosition="16" />
+    <scopeInfo nodeId="8233904257588554705" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="30" startPosition="51" endLine="31" endPosition="66" />
+    <scopeInfo nodeId="8233904257588554707" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="37" startPosition="99" endLine="38" endPosition="273" />
+    <scopeInfo nodeId="8233904257588554705" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="17" startPosition="0" endLine="20" endPosition="0" />
+    <scopeInfo nodeId="8233904257588554705" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="37" startPosition="0" endLine="40" endPosition="0">
       <varInfo nodeId="8233904257588554705" varName="model" />
       <varInfo nodeId="8233904257588554705" varName="operationContext" />
     </scopeInfo>
-    <scopeInfo nodeId="8233904257588554705" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="18" startPosition="0" endLine="22" endPosition="0" />
-    <scopeInfo nodeId="8233904257588554705" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="24" startPosition="120" endLine="31" endPosition="18">
+    <scopeInfo nodeId="8233904257588554705" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="21" startPosition="0" endLine="25" endPosition="0" />
+    <scopeInfo nodeId="8233904257588554705" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="27" startPosition="120" endLine="34" endPosition="18">
       <varInfo nodeId="8233904257588554705" varName="result" />
     </scopeInfo>
-    <scopeInfo nodeId="8233904257588554705" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="23" startPosition="0" endLine="33" endPosition="0">
+    <scopeInfo nodeId="8233904257588554705" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="26" startPosition="0" endLine="36" endPosition="0">
       <varInfo nodeId="8233904257588554705" varName="checkingNodeContext" />
       <varInfo nodeId="8233904257588554705" varName="context" />
       <varInfo nodeId="8233904257588554705" varName="model" />
     </scopeInfo>
-    <unitInfo nodeId="8233904257588554705" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="13" startPosition="0" endLine="40" endPosition="0" unitName="jetbrains.mps.build.generictasks.constraints.BuiltInTaskDeclaration_Constraints" />
+    <unitInfo nodeId="8233904257588554705" fileName="BuiltInTaskDeclaration_Constraints.java" startLine="16" startPosition="0" endLine="43" endPosition="0" unitName="jetbrains.mps.build.generictasks.constraints.BuiltInTaskDeclaration_Constraints" />
   </root>
 </debugInfo>
 

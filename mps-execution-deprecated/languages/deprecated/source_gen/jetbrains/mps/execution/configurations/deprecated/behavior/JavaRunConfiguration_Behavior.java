@@ -7,6 +7,8 @@ import java.util.List;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import org.jetbrains.mps.openapi.language.SConceptRepository;
+import jetbrains.mps.util.NameUtil;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import org.jetbrains.mps.openapi.persistence.PersistenceFacade;
@@ -26,7 +28,7 @@ public class JavaRunConfiguration_Behavior {
   }
 
   public static String call_getParameterFieldName_8126994885493113070(SNode thisNode) {
-    return JavaConfigurationRunParameters_FunctionParameter_Behavior.getGeneratedFieldName_8126994885493110313();
+    return JavaConfigurationRunParameters_FunctionParameter_Behavior.call_getGeneratedFieldName_8126994885493110313(SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.JavaConfigurationRunParameters_FunctionParameter"))));
   }
 
   public static SNode virtual_getStateType_314981645426570519(SNode thisNode) {

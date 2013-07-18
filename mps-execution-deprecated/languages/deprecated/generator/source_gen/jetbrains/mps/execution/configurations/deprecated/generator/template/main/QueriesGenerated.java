@@ -14,6 +14,8 @@ import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.execution.configurations.deprecated.behavior.JavaRunConfiguration_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.execution.configurations.deprecated.behavior.Node_FunctionParameter_Behavior;
+import org.jetbrains.mps.openapi.language.SConceptRepository;
+import jetbrains.mps.util.NameUtil;
 import jetbrains.mps.generator.template.ReferenceMacroContext;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.baseLanguage.behavior.ClassConcept_Behavior;
@@ -88,11 +90,11 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_472629177864052142(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return Node_FunctionParameter_Behavior.getVariableForExecuteBlockNameStatic_281656731534771380();
+    return Node_FunctionParameter_Behavior.call_getVariableForExecuteBlockNameStatic_281656731534771380(SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.Node_FunctionParameter"))));
   }
 
   public static Object propertyMacro_GetPropertyValue_1614521997361913493(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return Node_FunctionParameter_Behavior.getVariableForExecuteBlockNameStatic_281656731534771380();
+    return Node_FunctionParameter_Behavior.call_getVariableForExecuteBlockNameStatic_281656731534771380(SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.Node_FunctionParameter"))));
   }
 
   public static Object referenceMacro_GetReferent_3251065477410858822(final IOperationContext operationContext, final ReferenceMacroContext _context) {
@@ -236,43 +238,43 @@ public class QueriesGenerated {
   }
 
   public static SNode sourceNodeQuery_472629177864052136(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return Node_FunctionParameter_Behavior.getParameterType_5147346160405686358(_context.getNode());
+    return Node_FunctionParameter_Behavior.call_getParameterType_5147346160405686358(SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.Node_FunctionParameter"))), _context.getNode());
   }
 
   public static SNode sourceNodeQuery_1633282062187904803(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return Node_FunctionParameter_Behavior.getParameterType_5147346160405686358(_context.getNode());
+    return Node_FunctionParameter_Behavior.call_getParameterType_5147346160405686358(SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.Node_FunctionParameter"))), _context.getNode());
   }
 
   public static SNode sourceNodeQuery_664608570000532592(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return Node_FunctionParameter_Behavior.getParameterType_5147346160405686358(_context.getNode());
+    return Node_FunctionParameter_Behavior.call_getParameterType_5147346160405686358(SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.Node_FunctionParameter"))), _context.getNode());
   }
 
   public static SNode sourceNodeQuery_8755168384251068718(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return Node_FunctionParameter_Behavior.getParameterType_5147346160405686358(_context.getNode());
+    return Node_FunctionParameter_Behavior.call_getParameterType_5147346160405686358(SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.Node_FunctionParameter"))), _context.getNode());
   }
 
   public static SNode sourceNodeQuery_1633282062187628598(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return Node_FunctionParameter_Behavior.getParameterType_5147346160405686358(_context.getNode());
+    return Node_FunctionParameter_Behavior.call_getParameterType_5147346160405686358(SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.Node_FunctionParameter"))), _context.getNode());
   }
 
   public static SNode sourceNodeQuery_1633282062187904717(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return Node_FunctionParameter_Behavior.getParameterType_5147346160405686358(_context.getNode());
+    return Node_FunctionParameter_Behavior.call_getParameterType_5147346160405686358(SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.Node_FunctionParameter"))), _context.getNode());
   }
 
   public static SNode sourceNodeQuery_4462513030604562848(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return Node_FunctionParameter_Behavior.getParameterType_5147346160405686358(_context.getNode());
+    return Node_FunctionParameter_Behavior.call_getParameterType_5147346160405686358(SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.Node_FunctionParameter"))), _context.getNode());
   }
 
   public static SNode sourceNodeQuery_4462513030604562802(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return Node_FunctionParameter_Behavior.getParameterType_5147346160405686358(_context.getNode());
+    return Node_FunctionParameter_Behavior.call_getParameterType_5147346160405686358(SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.Node_FunctionParameter"))), _context.getNode());
   }
 
   public static SNode sourceNodeQuery_664608570000532664(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return Node_FunctionParameter_Behavior.getParameterType_5147346160405686358(_context.getNode());
+    return Node_FunctionParameter_Behavior.call_getParameterType_5147346160405686358(SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.Node_FunctionParameter"))), _context.getNode());
   }
 
   public static SNode sourceNodeQuery_1614521997361913452(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return Node_FunctionParameter_Behavior.getParameterType_5147346160405686358(SNodeOperations.cast(SNodeOperations.getParent(_context.getNode()), "jetbrains.mps.execution.configurations.deprecated.structure.JavaNodeRunConfiguration"));
+    return Node_FunctionParameter_Behavior.call_getParameterType_5147346160405686358(SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.Node_FunctionParameter"))), SNodeOperations.cast(SNodeOperations.getParent(_context.getNode()), "jetbrains.mps.execution.configurations.deprecated.structure.JavaNodeRunConfiguration"));
   }
 
   public static SNode sourceNodeQuery_2392137962931159149(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {

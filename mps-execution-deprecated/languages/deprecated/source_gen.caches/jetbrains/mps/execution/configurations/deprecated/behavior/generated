@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-cg67229tzst75tg6awm6x40y1whlrrf">
+<dependencies version="2" modelHash="-ec1twrczi4b8t07qudi1tpm66d49fl3">
   <dep model="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.checkedName(MPS.Editor/jetbrains.mps.checkedName@java_stub)" />
   <dep model="f:java_stub#498d89d2-c2e9-11e2-ad49-6cf049e62fe5#com.intellij.execution.configurations(MPS.IDEA/com.intellij.execution.configurations@java_stub)" />
   <dep model="f:java_stub#498d89d2-c2e9-11e2-ad49-6cf049e62fe5#com.intellij.execution.process(MPS.IDEA/com.intellij.execution.process@java_stub)" />
@@ -178,7 +178,7 @@
     <dep model="r:550fbd90-c9f2-4576-a8a6-223eca16d68b(jetbrains.mps.execution.configurations.deprecated.structure)" />
     <file name="JavaNodeRunConfiguration_Behavior.java" />
   </source>
-  <source id="4964800443628310125" name="JavaRunConfiguration_Behavior" hash="-dftrlrpj09auzrspxq3ixuvd65d3thp">
+  <source id="4964800443628310125" name="JavaRunConfiguration_Behavior" hash="8anibss97izm8igjy2usp5euylyed9n">
     <dep root="314981645426570422" />
     <dep root="314981645426570796" />
     <dep root="8126994885493110310" />
@@ -196,7 +196,7 @@
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="JavaRunConfiguration_Behavior.java" />
   </source>
-  <source id="8126994885493110310" name="JavaConfigurationRunParameters_FunctionParameter_Behavior" hash="-9wbt5y16g2a69dlqb0c2fkkyhu9f1fl">
+  <source id="8126994885493110310" name="JavaConfigurationRunParameters_FunctionParameter_Behavior" hash="-1m9kep0hy39zjj6fx0ntl0g3zutf1z1">
     <dep root="1810772216404807666" />
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -207,7 +207,7 @@
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="JavaConfigurationRunParameters_FunctionParameter_Behavior.java" />
   </source>
-  <source id="3607966867310747821" name="Node_FunctionParameter_Behavior" hash="-3q46ymo7owcxgmwc5qxl9di9mf24fkp">
+  <source id="3607966867310747821" name="Node_FunctionParameter_Behavior" hash="-9uwcjytu3omo6xug2dt5t4g3y61titw">
     <dep root="1810772216404807666" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />

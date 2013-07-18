@@ -12,6 +12,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.buildlanguage.behavior.IDeclaration_Behavior;
 import jetbrains.mps.internal.collections.runtime.Sequence;
+import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import org.jetbrains.mps.openapi.model.SModel;
 import org.jetbrains.mps.openapi.persistence.PersistenceFacade;
 import org.jetbrains.mps.openapi.module.SModuleReference;
@@ -119,18 +120,18 @@ public class BuiltInTaskDeclaration_Behavior {
     return SPropertyOperations.getBoolean(thisNode, "fake");
   }
 
-  public static boolean isInGeneratedModels_1445805690439864419(SModel model) {
-    return eq_y5o5bz_a0a0j(check_y5o5bz_a0a0a(check_y5o5bz_a0a0a0(model)), PersistenceFacade.getInstance().createModuleReference("fba399db-f591-45dc-a279-e2a2a986e262(jetbrains.mps.build.generictasks)"));
+  public static boolean call_isInGeneratedModels_1445805690439864419(SAbstractConcept thisConcept, SModel model) {
+    return eq_y5o5bz_a0a0j(check_y5o5bz_a0a0i(check_y5o5bz_a0a0a8(model)), PersistenceFacade.getInstance().createModuleReference("fba399db-f591-45dc-a279-e2a2a986e262(jetbrains.mps.build.generictasks)"));
   }
 
-  private static SModuleReference check_y5o5bz_a0a0a(SModule checkedDotOperand) {
+  private static SModuleReference check_y5o5bz_a0a0i(SModule checkedDotOperand) {
     if (null != checkedDotOperand) {
       return checkedDotOperand.getModuleReference();
     }
     return null;
   }
 
-  private static SModule check_y5o5bz_a0a0a0(SModel checkedDotOperand) {
+  private static SModule check_y5o5bz_a0a0a8(SModel checkedDotOperand) {
     if (null != checkedDotOperand) {
       return checkedDotOperand.getModule();
     }
