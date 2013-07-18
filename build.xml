@@ -4,6 +4,8 @@
   <property name="build.tmp" location="${build.dir}/tmp/mpsContrib" />
   <property name="build.layout" location="${build.dir}/artifacts/mpsContrib" />
   <property name="mps_home" location="" />
+  <property name="build.contrib.number" value="1" />
+  <property name="build.mps.number" value="${mps.build.number}" />
   <property name="artifacts.mps" location="${mps_home}" />
   <property name="artifacts.mpsDates" location="${build.dir}/artifacts/mpsDates" />
   <property name="artifacts.mpsDeprecatedBuildlanguage" location="${build.dir}/artifacts/mpsDeprecatedBuildlanguage" />
@@ -20,14 +22,14 @@
   
   <target name="assemble" depends="fetchDependencies">
     <mkdir dir="${build.layout}" />
-    <zip destfile="${build.layout}/${mps.build.number}-contrib.zip">
+    <zip destfile="${build.layout}/${build.mps.number}.${build.contrib.number}-contrib.zip">
       <zipfileset dir="${artifacts.mpsDates}/mps-dates" prefix="mps-dates" />
       <zipfileset dir="${artifacts.mpsDeprecatedBuildlanguage}/mps-build-deprecated" prefix="mps-build-deprecated" />
       <zipfileset dir="${artifacts.mpsXml}/mps-xml-obsolete" prefix="mps-xml-obsolete" />
       <zipfileset dir="${artifacts.mpsDeprecatedExecution}/mps-execution-deprecated" prefix="mps-execution-deprecated" />
       <zipfileset dir="${artifacts.mpsContribBuild}/mps-contrib-build" prefix="mps-contrib-build" />
     </zip>
-    <echo file="${build.layout}/build.properties">mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}</echo>
+    <echo file="${build.layout}/build.properties">mpsContrib.build.contrib.number=${build.contrib.number}${line.separator}mpsContrib.build.mps.number=${build.mps.number}${line.separator}mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}</echo>
   </target>
   
   <target name="buildDependents">

@@ -10,7 +10,7 @@
     <unitInfo nodeId="4416206207494300367" fileName="mpsDeprecatedBuildlanguage.xml" startLine="1" startPosition="0" endLine="747" endPosition="10" unitName="jetbrains.mps.contrib.build.mpsDeprecatedBuildlanguage" />
   </root>
   <root nodeRef="r:83393c4f-0a35-4150-a4fc-e0cb31ea54f6(jetbrains.mps.contrib.build)/4579351749503152215">
-    <unitInfo nodeId="4579351749503152215" fileName="mpsContrib.xml" startLine="1" startPosition="0" endLine="49" endPosition="10" unitName="jetbrains.mps.contrib.build.mpsContrib" />
+    <unitInfo nodeId="4579351749503152215" fileName="mpsContrib.xml" startLine="1" startPosition="0" endLine="51" endPosition="10" unitName="jetbrains.mps.contrib.build.mpsContrib" />
   </root>
   <root nodeRef="r:83393c4f-0a35-4150-a4fc-e0cb31ea54f6(jetbrains.mps.contrib.build)/4579351749506128205" />
   <root nodeRef="r:83393c4f-0a35-4150-a4fc-e0cb31ea54f6(jetbrains.mps.contrib.build)/4579351749506262387">
