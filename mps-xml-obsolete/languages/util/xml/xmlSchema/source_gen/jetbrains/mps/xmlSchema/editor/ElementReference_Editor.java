@@ -85,6 +85,7 @@ public class ElementReference_Editor extends DefaultNodeEditor {
         null :
         editorCell.getSNode()
       ))));
+      style.set(StyleAttributes.AUTO_DELETABLE, true);
       editorCell.getStyle().putAll(style);
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();
