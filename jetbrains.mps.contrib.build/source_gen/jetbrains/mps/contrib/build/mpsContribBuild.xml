@@ -203,6 +203,9 @@
       <chunk>
         <module file="${basedir}/jetbrains.mps.contrib.build/jetbrains.mps.contrib.build.msd" />
       </chunk>
+      <jvmargs>
+        <arg value="-Xmx512m" />
+      </jvmargs>
     </generate>
   </target>
   
@@ -213,6 +216,7 @@
   <target name="makeDependents" />
   
   <target name="java.compile.jetbrains.mps.contrib.build">
+    <mkdir dir="${basedir}/jetbrains.mps.contrib.build/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.contrib.build" />
     <javac destdir="${build.tmp}/java/out/jetbrains.mps.contrib.build" fork="true" includeantruntime="false">
       <compilerarg value="-Xlint:none" />

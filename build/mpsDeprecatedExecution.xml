@@ -369,6 +369,9 @@
         <module file="${basedir}/mps-execution-deprecated/languages/deprecated/jetbrains.mps.execution.configurations.deprecated.mpl" />
         <module file="${basedir}/mps-execution-deprecated/deprecated.runtime/jetbrains.mps.execution.configurations.deprecated.runtime.msd" />
       </chunk>
+      <jvmargs>
+        <arg value="-Xmx512m" />
+      </jvmargs>
     </generate>
   </target>
   
@@ -379,6 +382,7 @@
   <target name="makeDependents" />
   
   <target name="java.compile.jetbrains.mps.execution.configurations.deprecated.runtime" depends="fetchDependencies">
+    <mkdir dir="${basedir}/mps-execution-deprecated/deprecated.runtime/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.execution.configurations.deprecated.runtime" />
     <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.execution.configurations.deprecated.runtime" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true">
       <compilerarg value="-Xlint:none" />
@@ -420,6 +424,7 @@
   </target>
   
   <target name="java.compile.jetbrains.mps.baseLanguage.unitTest.execution.deprecated" depends="java.compile.jetbrains.mps.execution.configurations.deprecated.runtime, fetchDependencies">
+    <mkdir dir="${basedir}/mps-execution-deprecated/unitTests/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.unitTest.execution.deprecated" />
     <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.unitTest.execution.deprecated" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true">
       <compilerarg value="-Xlint:none" />
@@ -465,11 +470,15 @@
         <fileset file="${artifacts.mps}/lib/tools.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.closures.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.collections.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jdk7.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
         <fileset file="${artifacts.mps}/plugins/mps-testing/languages/baseLanguage/jetbrains.mps.baseLanguage.unitTest.jar" />
         <fileset file="${artifacts.mps}/plugins/mps-execution-configurations/languages/mps-execution-configurations/jetbrains.mps.baseLanguage.unitTest.execution.startup.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.scopes.runtime.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
         <path refid="path.jdk.classpath" />
       </classpath>
@@ -480,6 +489,7 @@
   </target>
   
   <target name="java.compile.jetbrains.mps.execution.configurations.deprecated" depends="java.compile.jetbrains.mps.execution.configurations.deprecated.runtime, fetchDependencies">
+    <mkdir dir="${basedir}/mps-execution-deprecated/languages/deprecated/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.execution.configurations.deprecated" />
     <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.execution.configurations.deprecated" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true">
       <compilerarg value="-Xlint:none" />
@@ -548,6 +558,7 @@
   </target>
   
   <target name="java.compile.jetbrains.mps.execution.configurations.deprecated#6629582826328981980" depends="java.compile.jetbrains.mps.execution.configurations.deprecated, fetchDependencies">
+    <mkdir dir="${basedir}/mps-execution-deprecated/languages/deprecated/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.execution.configurations.deprecated#6629582826328981980" />
     <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.execution.configurations.deprecated#6629582826328981980" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true">
       <compilerarg value="-Xlint:none" />

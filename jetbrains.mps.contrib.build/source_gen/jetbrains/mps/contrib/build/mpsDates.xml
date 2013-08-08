@@ -320,6 +320,9 @@
       <chunk>
         <module file="${basedir}/mps-dates/languages/dates/jetbrains.mps.baseLanguage.dates.mpl" />
       </chunk>
+      <jvmargs>
+        <arg value="-Xmx512m" />
+      </jvmargs>
     </generate>
   </target>
   
@@ -330,6 +333,7 @@
   <target name="makeDependents" />
   
   <target name="java.compile.jetbrains.mps.baseLanguage.dates" depends="java.compile.jetbrains.mps.baseLanguage.dates.runtime, java.compile.jetbrains.mps.baseLanguage.datesInternal, fetchDependencies">
+    <mkdir dir="${basedir}/mps-dates/languages/dates/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.dates" />
     <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.dates" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true">
       <compilerarg value="-Xlint:none" />
@@ -362,9 +366,11 @@
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.closures.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.collections.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jdk7.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.regexp.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
         <path refid="path.jdk.classpath" />
       </classpath>
@@ -375,6 +381,7 @@
   </target>
   
   <target name="java.compile.jetbrains.mps.baseLanguage.dates#1169550118977" depends="java.compile.jetbrains.mps.baseLanguage.dates, java.compile.jetbrains.mps.baseLanguage.dates.runtime, java.compile.jetbrains.mps.baseLanguage.datesInternal, fetchDependencies">
+    <mkdir dir="${basedir}/mps-dates/languages/dates/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.dates#1169550118977" />
     <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.dates#1169550118977" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true">
       <compilerarg value="-Xlint:none" />
@@ -408,8 +415,10 @@
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.closures.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.collections.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jdk7.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
         <path refid="path.jdk.classpath" />
       </classpath>
@@ -420,6 +429,7 @@
   </target>
   
   <target name="java.compile.jetbrains.mps.baseLanguage.datesInternal" depends="java.compile.jetbrains.mps.baseLanguage.dates.runtime, fetchDependencies">
+    <mkdir dir="${basedir}/mps-dates/languages/dates/internal/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.datesInternal" />
     <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.datesInternal" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true">
       <compilerarg value="-Xlint:none" />
@@ -449,8 +459,12 @@
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.closures.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.collections.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jdk7.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
         <path refid="path.jdk.classpath" />
       </classpath>
@@ -461,6 +475,7 @@
   </target>
   
   <target name="java.compile.jetbrains.mps.baseLanguage.dates.runtime" depends="fetchDependencies">
+    <mkdir dir="${basedir}/mps-dates/languages/dates/runtime/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.dates.runtime" />
     <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.dates.runtime" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true">
       <compilerarg value="-Xlint:none" />
