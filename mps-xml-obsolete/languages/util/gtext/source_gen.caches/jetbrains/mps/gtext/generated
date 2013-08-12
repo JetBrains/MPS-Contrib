@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-7mtq3c3tbsaaceyxvgrlmbjhnufzuc6">
-  <dep model="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
-  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+<dependencies version="2" modelHash="2gmj9zskrs5eavboin5zrsqxil32ofz">
+  <dep model="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" hash="-5npsvsyrn9wjxm8chqeqoks9rzxsct3" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-8uwjsvoyc0jmxumo62dusu4gaxjguv8" />
   <dep model="r:00000000-0000-4000-0000-011c89590572(jetbrains.mps.gtext.editor)" hash="cb4fqb0vsf6lzzmniq4fen98i1eqycc" />
   <dep model="r:00000000-0000-4000-0000-011c89590573(jetbrains.mps.gtext.typesystem)" hash="19vrxzk7zle0lo1pgyr9vyvp4ux39nd" />
   <common>
