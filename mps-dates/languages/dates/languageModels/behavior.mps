@@ -28,6 +28,7 @@
   <import index="tpek" modelUID="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" version="-1" implicit="yes" />
   <import index="1i04" modelUID="r:3270011d-8b2d-4938-8dff-d256a759e017(jetbrains.mps.lang.behavior.structure)" version="-1" implicit="yes" />
   <import index="tpib" modelUID="r:00000000-0000-4000-0000-011c8959057f(jetbrains.mps.baseLanguage.logging.structure)" version="0" implicit="yes" />
+  <import index="tp6y" modelUID="r:00000000-0000-4000-0000-011c895903d6(jetbrains.mps.baseLanguage.dates.accessories)" version="-1" implicit="yes" />
   <root type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="1213877270116" nodeInfo="ng">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="constant.schedule" />
     <link role="concept" roleId="1i04.1225194240799" targetNodeId="tp6x.1194003500823" resolveInfo="ScheduleLiteral" />
@@ -901,6 +902,28 @@
             <node role="type" roleId="tpee.5680397130376446158" type="tp2q.ListType" typeId="tp2q.1151688443754" id="3044950653914717075" nodeInfo="in">
               <node role="elementType" roleId="tp2q.1151688676805" type="tp25.SNodeType" typeId="tp25.1138055754698" id="3044950653914717076" nodeInfo="in">
                 <link role="concept" roleId="tp25.1138405853777" targetNodeId="tp6p.1172074318583" resolveInfo="DateTimeProperty" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3359984355452171377" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3359984355452262382" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="3359984355452171376" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3044950653914717071" resolveInfo="result" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tp2q.AddElementOperation" typeId="tp2q.1160612413312" id="3359984355452356884" nodeInfo="nn">
+              <node role="argument" roleId="tp2q.1160612519549" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3359984355452620963" nodeInfo="nn">
+                <node role="operand" roleId="tpee.1197027771414" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="3359984355452619641" nodeInfo="nn">
+                  <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.PeriodConstant" typeId="tp6x.1172489559047" id="3359984355452619645" nodeInfo="nn">
+                    <link role="dateTimeProperty" roleId="tp6x.1172489570282" targetNodeId="tp6y.1172074929011" resolveInfo="millis" />
+                    <node role="count" roleId="tp6x.1172491543832" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="3359984355452619766" nodeInfo="nn">
+                      <property name="value" nameId="tpee.1068580320021" value="10" />
+                    </node>
+                  </node>
+                </node>
+                <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="3359984355452628962" nodeInfo="nn">
+                  <link role="link" roleId="tp25.1138056516764" targetNodeId="tp6x.1172489570282" />
+                </node>
               </node>
             </node>
           </node>
