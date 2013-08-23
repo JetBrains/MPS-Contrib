@@ -5,6 +5,10 @@
       <sourceRoot location="languageModels" />
     </modelRoot>
   </models>
+  <facets>
+    <facet type="java" />
+    <facet type="tests" />
+  </facets>
   <accessoryModels>
     <model modelUID="r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)" />
   </accessoryModels>
@@ -124,6 +128,7 @@
     <usedLanguage>df345b11-b8c7-4213-ac66-48d2a9b75d88(jetbrains.mps.baseLanguageInternal)</usedLanguage>
   </usedLanguages>
   <usedDevKits>
+    <usedDevKit>fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)</usedDevKit>
     <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>
   </usedDevKits>
   <runtime>
