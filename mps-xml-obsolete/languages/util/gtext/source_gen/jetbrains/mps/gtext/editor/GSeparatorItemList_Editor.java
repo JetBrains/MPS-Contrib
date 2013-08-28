@@ -37,7 +37,7 @@ public class GSeparatorItemList_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createComponent_d3654u_a0(EditorContext editorContext, SNode node) {
-    EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.lang.core.editor.AliasEditorComponent");
+    EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.lang.core.editor.alias");
     return editorCell;
   }
 

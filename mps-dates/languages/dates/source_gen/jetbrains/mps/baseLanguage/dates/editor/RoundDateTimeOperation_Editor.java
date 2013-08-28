@@ -53,7 +53,7 @@ public class RoundDateTimeOperation_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createComponent_z8nl1z_b0(EditorContext editorContext, SNode node) {
-    EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.lang.core.editor.AliasEditorComponent");
+    EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.lang.core.editor.alias");
     Style style = new StyleImpl();
     Dates_StyleSheet.applyDateCompactKeyWord(style, editorCell);
     editorCell.getStyle().putAll(style);

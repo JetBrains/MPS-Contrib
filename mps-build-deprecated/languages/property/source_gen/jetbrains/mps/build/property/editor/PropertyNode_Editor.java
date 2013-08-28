@@ -52,7 +52,7 @@ public class PropertyNode_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createComponent_i7uzyy_a0a(EditorContext editorContext, SNode node) {
-    EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.lang.core.editor.AliasEditorComponent");
+    EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.lang.core.editor.alias");
     return editorCell;
   }
 

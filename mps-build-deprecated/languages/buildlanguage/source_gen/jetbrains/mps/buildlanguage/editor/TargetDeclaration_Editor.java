@@ -123,7 +123,7 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createComponent_xfdsch_a1a(EditorContext editorContext, SNode node) {
-    EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.lang.core.editor.AliasEditorComponent");
+    EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.lang.core.editor.alias");
     Style style = new StyleImpl();
     BuildLanguageStyle_StyleSheet.applyKeyword(style, editorCell);
     style.set(StyleAttributes.EDITABLE, false);

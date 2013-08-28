@@ -92,7 +92,7 @@ public class TaskDeclarationHeader_EditorComponent implements ConceptEditorCompo
   }
 
   private EditorCell createComponent_ws04gp_b0a(EditorContext editorContext, SNode node) {
-    EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.lang.core.editor.AliasEditorComponent");
+    EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.lang.core.editor.alias");
     Style style = new StyleImpl();
     BuildLanguageStyle_StyleSheet.applyKeyword(style, editorCell);
     editorCell.getStyle().putAll(style);

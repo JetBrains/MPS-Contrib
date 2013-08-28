@@ -25,7 +25,7 @@ public class TimeZoneIdOperation_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createComponent_8oshgc_a0(EditorContext editorContext, SNode node) {
-    EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.lang.core.editor.AliasEditorComponent");
+    EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.lang.core.editor.alias");
     Style style = new StyleImpl();
     BaseLanguageStyle_StyleSheet.applyField(style, editorCell);
     editorCell.getStyle().putAll(style);
