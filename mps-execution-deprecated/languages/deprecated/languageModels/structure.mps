@@ -100,6 +100,12 @@
     <property name="virtualPackage" nameId="tpck.1193676396447" value="annotations" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="user component reference" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.3364660638048049748" resolveInfo="NodeAttribute" />
+    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.AttributeInfo" typeId="tpce.2992811758677295509" id="8861685540947340130" nodeInfo="ng">
+      <property name="role" nameId="tpce.7588428831955550663" value="userComponentReferenceAnnotation" />
+      <node role="attributed" roleId="tpce.7588428831947959310" type="tpce.AttributeInfo_AttributedConcept" typeId="tpce.6054523464627964745" id="8861685540947341249" nodeInfo="ng">
+        <link role="concept" roleId="tpce.6054523464627965081" targetNodeId="314981645426569161" resolveInfo="ComponentReference" />
+      </node>
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3607966867310075767" nodeInfo="ig">
     <property name="abstract" nameId="tpce.4628067390765956802" value="false" />
@@ -160,6 +166,12 @@
     <property name="virtualPackage" nameId="tpck.1193676396447" value="annotations" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="component inside of change listener" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.3364660638048049748" resolveInfo="NodeAttribute" />
+    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.AttributeInfo" typeId="tpce.2992811758677295509" id="8861685540947341252" nodeInfo="ng">
+      <property name="role" nameId="tpce.7588428831955550663" value="componentInsideOfChangeListenerAnnotation" />
+      <node role="attributed" roleId="tpce.7588428831947959310" type="tpce.AttributeInfo_AttributedConcept" typeId="tpce.6054523464627964745" id="8861685540947341253" nodeInfo="ng">
+        <link role="concept" roleId="tpce.6054523464627965081" targetNodeId="314981645426569161" resolveInfo="ComponentReference" />
+      </node>
+    </node>
   </root>
   <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="1566895476211680660" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="IOnChangeEditorBlock" />

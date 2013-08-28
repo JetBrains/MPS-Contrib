@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="arh3561tneljwnbkp9yb9lds1y2plfe">
+<dependencies version="2" modelHash="esumadbwsu3mvwdroqs7xkjggxnclbm">
   <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel.runtime.impl(MPS.Core/jetbrains.mps.smodel.runtime.impl@java_stub)" />
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
@@ -105,7 +105,7 @@
   <source id="4964800443628314809" name="JavaConfigurationRunParameters_FunctionParameter" hash="-613kxwszwty7osk5ax1e7mb4vcg8h94">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="7549816165173145425" name="UserComponentReferenceAnnotation" hash="-5s8rkugf2s6u36xg12jj385hhkdpxyr">
+  <source id="7549816165173145425" name="UserComponentReferenceAnnotation" hash="-ddh0jrao0g28vqfj6wl7f296hh7uant">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="3607966867310075767" name="Node_FunctionParameter" hash="3vd6x350cxajpihqgpxiog87g350udp">
@@ -123,7 +123,7 @@
   <source id="2178855608170754525" name="OnChangeNodeBlock" hash="36xq23azva2t6ehxjw2fcz8coq3h6zz">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1566895476211680658" name="ComponentInsideOfChangeListenerAnnotation" hash="-a9ui00ck6bsi879k226t71oeuca35m3">
+  <source id="1566895476211680658" name="ComponentInsideOfChangeListenerAnnotation" hash="avkxzzkbza6ri5dyzcpusgn54215riy">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="1566895476211680660" name="IOnChangeEditorBlock" hash="cdruo9ln3dzburf3wylvgur0jc73ftu">

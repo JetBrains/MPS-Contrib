@@ -9,7 +9,7 @@
   <unitInfo fileName="BaseCreatorTarget_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.behavior.BaseCreatorTarget_BehaviorDescriptor" />
   <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="144" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.behavior.BehaviorAspectDescriptor" />
   <unitInfo fileName="CheckConfigurationBlock_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="24" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.behavior.CheckConfigurationBlock_BehaviorDescriptor" />
-  <unitInfo fileName="ComponentInsideOfChangeListenerAnnotation_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="27" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.behavior.ComponentInsideOfChangeListenerAnnotation_BehaviorDescriptor" />
+  <unitInfo fileName="ComponentInsideOfChangeListenerAnnotation_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.behavior.ComponentInsideOfChangeListenerAnnotation_BehaviorDescriptor" />
   <unitInfo fileName="ComponentReference_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.behavior.ComponentReference_BehaviorDescriptor" />
   <unitInfo fileName="ConfigurationEditorDeclaration_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.behavior.ConfigurationEditorDeclaration_BehaviorDescriptor" />
   <unitInfo fileName="ConsoleExpression_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.behavior.ConsoleExpression_BehaviorDescriptor" />
@@ -70,7 +70,7 @@
   <unitInfo fileName="RunConfigurationMethodDeclaration_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.behavior.RunConfigurationMethodDeclaration_BehaviorDescriptor" />
   <unitInfo fileName="RunConfigurationTypeDeclaration_BehaviorDescriptor.java" startLine="14" startPosition="0" endLine="43" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.behavior.RunConfigurationTypeDeclaration_BehaviorDescriptor" />
   <unitInfo fileName="UniversalRunConfigCreator_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.behavior.UniversalRunConfigCreator_BehaviorDescriptor" />
-  <unitInfo fileName="UserComponentReferenceAnnotation_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="27" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.behavior.UserComponentReferenceAnnotation_BehaviorDescriptor" />
+  <unitInfo fileName="UserComponentReferenceAnnotation_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.behavior.UserComponentReferenceAnnotation_BehaviorDescriptor" />
   <root nodeRef="r:44be5a71-98f4-4137-88b1-8ccaf67186a8(jetbrains.mps.execution.configurations.deprecated.behavior)/1262430001741638293">
     <nodeInfo nodeId="1262430001741638291" fileName="ResetEditorBlock_Behavior.java" startLine="12" startPosition="92" endLine="13" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1262430001741638293" fileName="ResetEditorBlock_Behavior.java" startLine="9" startPosition="0" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
@@ -125,28 +125,12 @@
     <unitInfo nodeId="1262430001741643076" fileName="ExecuteConfigBlock_Behavior.java" startLine="12" startPosition="0" endLine="27" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.behavior.ExecuteConfigBlock_Behavior" />
   </root>
   <root nodeRef="r:44be5a71-98f4-4137-88b1-8ccaf67186a8(jetbrains.mps.execution.configurations.deprecated.behavior)/1262430001741646744">
-    <nodeInfo nodeId="1262430001741646743" fileName="UserComponentReferenceAnnotation_Behavior.java" startLine="16" startPosition="90" endLine="17" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3044950653914726393" fileName="UserComponentReferenceAnnotation_Behavior.java" startLine="20" startPosition="101" endLine="21" endPosition="232" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3044950653914726408" fileName="UserComponentReferenceAnnotation_Behavior.java" startLine="21" startPosition="232" endLine="22" endPosition="195" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3044950653914726412" fileName="UserComponentReferenceAnnotation_Behavior.java" startLine="22" startPosition="195" endLine="23" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1262430001741646744" fileName="UserComponentReferenceAnnotation_Behavior.java" startLine="13" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="1262430001741646744" fileName="UserComponentReferenceAnnotation_Behavior.java" startLine="16" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getRole_1262430001741497900#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)Ljava/lang/String;" />
-    <nodeInfo nodeId="1262430001741646744" fileName="UserComponentReferenceAnnotation_Behavior.java" startLine="20" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getAttributed_3044950653914717013#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)Ljava/util/List;" />
-    <scopeInfo nodeId="1262430001741646746" fileName="UserComponentReferenceAnnotation_Behavior.java" startLine="13" startPosition="43" endLine="13" endPosition="43" />
-    <scopeInfo nodeId="1262430001741646741" fileName="UserComponentReferenceAnnotation_Behavior.java" startLine="16" startPosition="90" endLine="17" endPosition="46" />
-    <scopeInfo nodeId="1262430001741646744" fileName="UserComponentReferenceAnnotation_Behavior.java" startLine="13" startPosition="0" endLine="15" endPosition="0">
+    <nodeInfo nodeId="1262430001741646744" fileName="UserComponentReferenceAnnotation_Behavior.java" startLine="8" startPosition="0" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <scopeInfo nodeId="1262430001741646746" fileName="UserComponentReferenceAnnotation_Behavior.java" startLine="8" startPosition="43" endLine="8" endPosition="43" />
+    <scopeInfo nodeId="1262430001741646744" fileName="UserComponentReferenceAnnotation_Behavior.java" startLine="8" startPosition="0" endLine="10" endPosition="0">
       <varInfo nodeId="1262430001741646744" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="1262430001741646744" fileName="UserComponentReferenceAnnotation_Behavior.java" startLine="16" startPosition="0" endLine="19" endPosition="0">
-      <varInfo nodeId="1262430001741646744" varName="thisConcept" />
-    </scopeInfo>
-    <scopeInfo nodeId="3044950653914726392" fileName="UserComponentReferenceAnnotation_Behavior.java" startLine="20" startPosition="101" endLine="23" endPosition="18">
-      <varInfo nodeId="3044950653914726394" varName="result" />
-    </scopeInfo>
-    <scopeInfo nodeId="1262430001741646744" fileName="UserComponentReferenceAnnotation_Behavior.java" startLine="20" startPosition="0" endLine="25" endPosition="0">
-      <varInfo nodeId="1262430001741646744" varName="thisConcept" />
-    </scopeInfo>
-    <unitInfo nodeId="1262430001741646744" fileName="UserComponentReferenceAnnotation_Behavior.java" startLine="12" startPosition="0" endLine="26" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.behavior.UserComponentReferenceAnnotation_Behavior" />
+    <unitInfo nodeId="1262430001741646744" fileName="UserComponentReferenceAnnotation_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.behavior.UserComponentReferenceAnnotation_Behavior" />
   </root>
   <root nodeRef="r:44be5a71-98f4-4137-88b1-8ccaf67186a8(jetbrains.mps.execution.configurations.deprecated.behavior)/1262430001741647216">
     <nodeInfo nodeId="1262430001741647214" fileName="CheckConfigurationBlock_Behavior.java" startLine="12" startPosition="92" endLine="13" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -245,28 +229,12 @@
     <unitInfo nodeId="1262430001741704570" fileName="DisposeEditorBlock_Behavior.java" startLine="8" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.behavior.DisposeEditorBlock_Behavior" />
   </root>
   <root nodeRef="r:44be5a71-98f4-4137-88b1-8ccaf67186a8(jetbrains.mps.execution.configurations.deprecated.behavior)/1262430001741717375">
-    <nodeInfo nodeId="1262430001741717374" fileName="ComponentInsideOfChangeListenerAnnotation_Behavior.java" startLine="16" startPosition="90" endLine="17" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3044950653914724671" fileName="ComponentInsideOfChangeListenerAnnotation_Behavior.java" startLine="20" startPosition="101" endLine="21" endPosition="232" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3044950653914724686" fileName="ComponentInsideOfChangeListenerAnnotation_Behavior.java" startLine="21" startPosition="232" endLine="22" endPosition="195" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3044950653914724690" fileName="ComponentInsideOfChangeListenerAnnotation_Behavior.java" startLine="22" startPosition="195" endLine="23" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1262430001741717375" fileName="ComponentInsideOfChangeListenerAnnotation_Behavior.java" startLine="13" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="1262430001741717375" fileName="ComponentInsideOfChangeListenerAnnotation_Behavior.java" startLine="16" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getRole_1262430001741497900#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)Ljava/lang/String;" />
-    <nodeInfo nodeId="1262430001741717375" fileName="ComponentInsideOfChangeListenerAnnotation_Behavior.java" startLine="20" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getAttributed_3044950653914717013#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)Ljava/util/List;" />
-    <scopeInfo nodeId="1262430001741717377" fileName="ComponentInsideOfChangeListenerAnnotation_Behavior.java" startLine="13" startPosition="43" endLine="13" endPosition="43" />
-    <scopeInfo nodeId="1262430001741717372" fileName="ComponentInsideOfChangeListenerAnnotation_Behavior.java" startLine="16" startPosition="90" endLine="17" endPosition="55" />
-    <scopeInfo nodeId="1262430001741717375" fileName="ComponentInsideOfChangeListenerAnnotation_Behavior.java" startLine="13" startPosition="0" endLine="15" endPosition="0">
+    <nodeInfo nodeId="1262430001741717375" fileName="ComponentInsideOfChangeListenerAnnotation_Behavior.java" startLine="8" startPosition="0" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <scopeInfo nodeId="1262430001741717377" fileName="ComponentInsideOfChangeListenerAnnotation_Behavior.java" startLine="8" startPosition="43" endLine="8" endPosition="43" />
+    <scopeInfo nodeId="1262430001741717375" fileName="ComponentInsideOfChangeListenerAnnotation_Behavior.java" startLine="8" startPosition="0" endLine="10" endPosition="0">
       <varInfo nodeId="1262430001741717375" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="1262430001741717375" fileName="ComponentInsideOfChangeListenerAnnotation_Behavior.java" startLine="16" startPosition="0" endLine="19" endPosition="0">
-      <varInfo nodeId="1262430001741717375" varName="thisConcept" />
-    </scopeInfo>
-    <scopeInfo nodeId="3044950653914724670" fileName="ComponentInsideOfChangeListenerAnnotation_Behavior.java" startLine="20" startPosition="101" endLine="23" endPosition="18">
-      <varInfo nodeId="3044950653914724672" varName="result" />
-    </scopeInfo>
-    <scopeInfo nodeId="1262430001741717375" fileName="ComponentInsideOfChangeListenerAnnotation_Behavior.java" startLine="20" startPosition="0" endLine="25" endPosition="0">
-      <varInfo nodeId="1262430001741717375" varName="thisConcept" />
-    </scopeInfo>
-    <unitInfo nodeId="1262430001741717375" fileName="ComponentInsideOfChangeListenerAnnotation_Behavior.java" startLine="12" startPosition="0" endLine="26" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.behavior.ComponentInsideOfChangeListenerAnnotation_Behavior" />
+    <unitInfo nodeId="1262430001741717375" fileName="ComponentInsideOfChangeListenerAnnotation_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.behavior.ComponentInsideOfChangeListenerAnnotation_Behavior" />
   </root>
   <root nodeRef="r:44be5a71-98f4-4137-88b1-8ccaf67186a8(jetbrains.mps.execution.configurations.deprecated.behavior)/1262430001741717447">
     <nodeInfo nodeId="1262430001741717445" fileName="CreateRunConfigBlock_Behavior.java" startLine="16" startPosition="92" endLine="17" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
