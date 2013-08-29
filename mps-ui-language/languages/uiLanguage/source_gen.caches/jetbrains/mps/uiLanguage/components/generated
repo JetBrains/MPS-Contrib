@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies version="2" modelHash="bgpddhj794nah31lxr3qjrl6ozici38">
+  <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.swing(JDK/javax.swing@java_stub)" />
+  <dep model="f:java_stub#86441d7a-e194-42da-81a5-2161ec62a379#org.jdesktop.beansbinding(MPS.Workbench/org.jdesktop.beansbinding@java_stub)" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-8uwjsvoyc0jmxumo62dusu4gaxjguv8" />
+  <dep model="r:00000000-0000-4000-0000-011c89590557(jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator)" hash="9vtev0p3392tfqwui8qynnkti9w9c7p" />
+  <common hash="-d99pfhp9dq2zcwmifaj3wwt9u5caraq" />
+  <source id="1202393472906" name="BaseComponent" hash="8carb01x648wfekla893i1qxopknjaz">
+    <dep root="1202393511419" />
+    <dep root="1202393521454" />
+    <dep root="1202393560969" />
+    <dep root="1202393573380" />
+    <dep root="1202393598579" />
+    <dep root="1202464198724" />
+    <dep root="1202464205555" />
+    <dep root="1202465811094" />
+    <dep root="1202465821678" />
+    <dep root="1202738287160" />
+    <dep root="1202738350852" />
+    <dep root="1202815836444" />
+    <dep root="1202815871669" />
+    <dep root="1202816402995" />
+    <dep root="1202816455619" />
+    <dep root="1202828480666" />
+    <dep root="1202828573950" />
+    <dep root="1203082515478" />
+    <dep root="1203082521713" />
+    <dep root="1204287075288" />
+    <dep root="1204287125444" />
+    <dep root="2081431238554771058" />
+    <dep root="8606751926055253470" />
+    <dep root="8606751926055253530" />
+    <dep model="f:java_stub#86441d7a-e194-42da-81a5-2161ec62a379#org.jdesktop.beansbinding(MPS.Workbench/org.jdesktop.beansbinding@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590557(jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator)" />
+    <file name="BaseComponent.java" />
+  </source>
+  <source id="1202393511419" name="Frame" hash="-7u9fgg664nsdedft9qvjgz8z00n5d37">
+    <dep root="1202393472906" />
+    <dep root="1202393521454" />
+    <dep root="1202393560969" />
+    <dep root="1202393573380" />
+    <dep root="1202393598579" />
+    <dep root="1202464198724" />
+    <dep root="1202464205555" />
+    <dep root="1202465811094" />
+    <dep root="1202465821678" />
+    <dep root="1202738287160" />
+    <dep root="1202738350852" />
+    <dep root="1202815836444" />
+    <dep root="1202815871669" />
+    <dep root="1202816402995" />
+    <dep root="1202816455619" />
+    <dep root="1202828480666" />
+    <dep root="1202828573950" />
+    <dep root="1203082515478" />
+    <dep root="1203082521713" />
+    <dep root="1204287075288" />
+    <dep root="1204287125444" />
+    <dep root="2081431238554771058" />
+    <dep root="8606751926055253470" />
+    <dep root="8606751926055253530" />
+    <dep model="f:java_stub#86441d7a-e194-42da-81a5-2161ec62a379#org.jdesktop.beansbinding(MPS.Workbench/org.jdesktop.beansbinding@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590557(jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator)" />
+    <file name="Frame.java" />
+  </source>
+  <source id="1202393521454" name="Frame_Controller" hash="-c8fv4e8xz62yu4e6h792v4onuqytxdp">
+    <dep model="r:00000000-0000-4000-0000-011c89590557(jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator)" />
+  </source>
+  <source id="1202393560969" name="Button" hash="4999jj9wwzovaa3m3wccz1h0k4bzhrz">
+    <dep root="1202393472906" />
+    <dep root="1202393511419" />
+    <dep root="1202393521454" />
+    <dep root="1202393573380" />
+    <dep root="1202393598579" />
+    <dep root="1202464198724" />
+    <dep root="1202464205555" />
+    <dep root="1202465811094" />
+    <dep root="1202465821678" />
+    <dep root="1202738287160" />
+    <dep root="1202738350852" />
+    <dep root="1202815836444" />
+    <dep root="1202815871669" />
+    <dep root="1202816402995" />
+    <dep root="1202816455619" />
+    <dep root="1202828480666" />
+    <dep root="1202828573950" />
+    <dep root="1203082515478" />
+    <dep root="1203082521713" />
+    <dep root="1204287075288" />
+    <dep root="1204287125444" />
+    <dep root="2081431238554771058" />
+    <dep root="8606751926055253470" />
+    <dep root="8606751926055253530" />
+    <dep model="f:java_stub#86441d7a-e194-42da-81a5-2161ec62a379#org.jdesktop.beansbinding(MPS.Workbench/org.jdesktop.beansbinding@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590557(jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator)" />
+    <file name="Button.java" />
+  </source>
+  <source id="1202393573380" name="Button_Controller" hash="-caimlph6fujxgj3xbdgimx7d5gmt386">
+    <dep model="r:00000000-0000-4000-0000-011c89590557(jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator)" />
+  </source>
+  <source id="1202393598579" name="BaseComponent_Controller" hash="cxp6kh1ar172ksm9wb7g6fbh23fd4fv">
+    <dep model="r:00000000-0000-4000-0000-011c89590557(jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator)" />
+  </source>
+  <source id="1202464198724" name="TextField" hash="38jbtq96800auvmrw49rmu1crjihb6m">
+    <dep root="1202393472906" />
+    <dep root="1202393511419" />
+    <dep root="1202393521454" />
+    <dep root="1202393560969" />
+    <dep root="1202393573380" />
+    <dep root="1202393598579" />
+    <dep root="1202464205555" />
+    <dep root="1202465811094" />
+    <dep root="1202465821678" />
+    <dep root="1202738287160" />
+    <dep root="1202738350852" />
+    <dep root="1202815836444" />
+    <dep root="1202815871669" />
+    <dep root="1202816402995" />
+    <dep root="1202816455619" />
+    <dep root="1202828480666" />
+    <dep root="1202828573950" />
+    <dep root="1203082515478" />
+    <dep root="1203082521713" />
+    <dep root="1204287075288" />
+    <dep root="1204287125444" />
+    <dep root="2081431238554771058" />
+    <dep root="8606751926055253470" />
+    <dep root="8606751926055253530" />
+    <dep model="f:java_stub#86441d7a-e194-42da-81a5-2161ec62a379#org.jdesktop.beansbinding(MPS.Workbench/org.jdesktop.beansbinding@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590557(jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator)" />
+    <file name="TextField.java" />
+  </source>
+  <source id="1202464205555" name="TextField_Controller" hash="-blzjwjuy25uqxxyhj149iv9l2jtlcep">
+    <dep model="r:00000000-0000-4000-0000-011c89590557(jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator)" />
+  </source>
+  <source id="1202465811094" name="Label" hash="-603plw32swn4241pva99v7sav6a00nm">
+    <dep root="1202393472906" />
+    <dep root="1202393511419" />
+    <dep root="1202393521454" />
+    <dep root="1202393560969" />
+    <dep root="1202393573380" />
+    <dep root="1202393598579" />
+    <dep root="1202464198724" />
+    <dep root="1202464205555" />
+    <dep root="1202465821678" />
+    <dep root="1202738287160" />
+    <dep root="1202738350852" />
+    <dep root="1202815836444" />
+    <dep root="1202815871669" />
+    <dep root="1202816402995" />
+    <dep root="1202816455619" />
+    <dep root="1202828480666" />
+    <dep root="1202828573950" />
+    <dep root="1203082515478" />
+    <dep root="1203082521713" />
+    <dep root="1204287075288" />
+    <dep root="1204287125444" />
+    <dep root="2081431238554771058" />
+    <dep root="8606751926055253470" />
+    <dep root="8606751926055253530" />
+    <dep model="f:java_stub#86441d7a-e194-42da-81a5-2161ec62a379#org.jdesktop.beansbinding(MPS.Workbench/org.jdesktop.beansbinding@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590557(jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator)" />
+    <file name="Label.java" />
+  </source>
+  <source id="1202465821678" name="Label_Controller" hash="6uem9hqezvoqslumaq1qoac4zk3ixc5">
+    <dep model="r:00000000-0000-4000-0000-011c89590557(jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator)" />
+  </source>
+  <source id="1202738287160" name="VBox" hash="-eme22roupgk7y9tyq167f8jm9pk8gig">
+    <dep root="1202393472906" />
+    <dep root="1202393511419" />
+    <dep root="1202393521454" />
+    <dep root="1202393560969" />
+    <dep root="1202393573380" />
+    <dep root="1202393598579" />
+    <dep root="1202464198724" />
+    <dep root="1202464205555" />
+    <dep root="1202465811094" />
+    <dep root="1202465821678" />
+    <dep root="1202738350852" />
+    <dep root="1202815836444" />
+    <dep root="1202815871669" />
+    <dep root="1202816402995" />
+    <dep root="1202816455619" />
+    <dep root="1202828480666" />
+    <dep root="1202828573950" />
+    <dep root="1203082515478" />
+    <dep root="1203082521713" />
+    <dep root="1204287075288" />
+    <dep root="1204287125444" />
+    <dep root="2081431238554771058" />
+    <dep root="8606751926055253470" />
+    <dep root="8606751926055253530" />
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.swing(JDK/javax.swing@java_stub)" />
+    <dep model="f:java_stub#86441d7a-e194-42da-81a5-2161ec62a379#org.jdesktop.beansbinding(MPS.Workbench/org.jdesktop.beansbinding@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590557(jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator)" />
+    <file name="VBox.java" />
+  </source>
+  <source id="1202738350852" name="HBox" hash="8yerrtavdskjt319zbvbse902raolj6">
+    <dep root="1202393472906" />
+    <dep root="1202393511419" />
+    <dep root="1202393521454" />
+    <dep root="1202393560969" />
+    <dep root="1202393573380" />
+    <dep root="1202393598579" />
+    <dep root="1202464198724" />
+    <dep root="1202464205555" />
+    <dep root="1202465811094" />
+    <dep root="1202465821678" />
+    <dep root="1202738287160" />
+    <dep root="1202815836444" />
+    <dep root="1202815871669" />
+    <dep root="1202816402995" />
+    <dep root="1202816455619" />
+    <dep root="1202828480666" />
+    <dep root="1202828573950" />
+    <dep root="1203082515478" />
+    <dep root="1203082521713" />
+    <dep root="1204287075288" />
+    <dep root="1204287125444" />
+    <dep root="2081431238554771058" />
+    <dep root="8606751926055253470" />
+    <dep root="8606751926055253530" />
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.swing(JDK/javax.swing@java_stub)" />
+    <dep model="f:java_stub#86441d7a-e194-42da-81a5-2161ec62a379#org.jdesktop.beansbinding(MPS.Workbench/org.jdesktop.beansbinding@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590557(jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator)" />
+    <file name="HBox.java" />
+  </source>
+  <source id="1202815836444" name="CheckBox" hash="ddzbkfp5drcmqx4mom3l9pjb4k2bv30">
+    <dep root="1202393472906" />
+    <dep root="1202393511419" />
+    <dep root="1202393521454" />
+    <dep root="1202393560969" />
+    <dep root="1202393573380" />
+    <dep root="1202393598579" />
+    <dep root="1202464198724" />
+    <dep root="1202464205555" />
+    <dep root="1202465811094" />
+    <dep root="1202465821678" />
+    <dep root="1202738287160" />
+    <dep root="1202738350852" />
+    <dep root="1202815871669" />
+    <dep root="1202816402995" />
+    <dep root="1202816455619" />
+    <dep root="1202828480666" />
+    <dep root="1202828573950" />
+    <dep root="1203082515478" />
+    <dep root="1203082521713" />
+    <dep root="1204287075288" />
+    <dep root="1204287125444" />
+    <dep root="2081431238554771058" />
+    <dep root="8606751926055253470" />
+    <dep root="8606751926055253530" />
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.swing(JDK/javax.swing@java_stub)" />
+    <dep model="f:java_stub#86441d7a-e194-42da-81a5-2161ec62a379#org.jdesktop.beansbinding(MPS.Workbench/org.jdesktop.beansbinding@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590557(jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator)" />
+    <file name="CheckBox.java" />
+  </source>
+  <source id="1202815871669" name="CheckBox_Controller" hash="b2f54jdhztlgt6v9e271mhipap3bjaj">
+    <dep model="r:00000000-0000-4000-0000-011c89590557(jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator)" />
+  </source>
+  <source id="1202816402995" name="Panel" hash="-956nsrvdjcyn2bj48st6kocuomccg99">
+    <dep root="1202393472906" />
+    <dep root="1202393511419" />
+    <dep root="1202393521454" />
+    <dep root="1202393560969" />
+    <dep root="1202393573380" />
+    <dep root="1202393598579" />
+    <dep root="1202464198724" />
+    <dep root="1202464205555" />
+    <dep root="1202465811094" />
+    <dep root="1202465821678" />
+    <dep root="1202738287160" />
+    <dep root="1202738350852" />
+    <dep root="1202815836444" />
+    <dep root="1202815871669" />
+    <dep root="1202816455619" />
+    <dep root="1202828480666" />
+    <dep root="1202828573950" />
+    <dep root="1203082515478" />
+    <dep root="1203082521713" />
+    <dep root="1204287075288" />
+    <dep root="1204287125444" />
+    <dep root="2081431238554771058" />
+    <dep root="8606751926055253470" />
+    <dep root="8606751926055253530" />
+    <dep model="f:java_stub#86441d7a-e194-42da-81a5-2161ec62a379#org.jdesktop.beansbinding(MPS.Workbench/org.jdesktop.beansbinding@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590557(jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator)" />
+    <file name="Panel.java" />
+  </source>
+  <source id="1202816455619" name="FlowPanel" hash="70h0lr9w5xfaloddr4jpjmq9lccw8ka">
+    <dep root="1202393472906" />
+    <dep root="1202393511419" />
+    <dep root="1202393521454" />
+    <dep root="1202393560969" />
+    <dep root="1202393573380" />
+    <dep root="1202393598579" />
+    <dep root="1202464198724" />
+    <dep root="1202464205555" />
+    <dep root="1202465811094" />
+    <dep root="1202465821678" />
+    <dep root="1202738287160" />
+    <dep root="1202738350852" />
+    <dep root="1202815836444" />
+    <dep root="1202815871669" />
+    <dep root="1202816402995" />
+    <dep root="1202828480666" />
+    <dep root="1202828573950" />
+    <dep root="1203082515478" />
+    <dep root="1203082521713" />
+    <dep root="1204287075288" />
+    <dep root="1204287125444" />
+    <dep root="2081431238554771058" />
+    <dep root="8606751926055253470" />
+    <dep root="8606751926055253530" />
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.swing(JDK/javax.swing@java_stub)" />
+    <dep model="f:java_stub#86441d7a-e194-42da-81a5-2161ec62a379#org.jdesktop.beansbinding(MPS.Workbench/org.jdesktop.beansbinding@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590557(jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator)" />
+    <file name="FlowPanel.java" />
+  </source>
+  <source id="1202828480666" name="Dialog" hash="ddwyibqny1vfvl07vgmdlli3id47lc8">
+    <dep root="1202393472906" />
+    <dep root="1202393511419" />
+    <dep root="1202393521454" />
+    <dep root="1202393560969" />
+    <dep root="1202393573380" />
+    <dep root="1202393598579" />
+    <dep root="1202464198724" />
+    <dep root="1202464205555" />
+    <dep root="1202465811094" />
+    <dep root="1202465821678" />
+    <dep root="1202738287160" />
+    <dep root="1202738350852" />
+    <dep root="1202815836444" />
+    <dep root="1202815871669" />
+    <dep root="1202816402995" />
+    <dep root="1202816455619" />
+    <dep root="1202828573950" />
+    <dep root="1203082515478" />
+    <dep root="1203082521713" />
+    <dep root="1204287075288" />
+    <dep root="1204287125444" />
+    <dep root="2081431238554771058" />
+    <dep root="8606751926055253470" />
+    <dep root="8606751926055253530" />
+    <dep model="f:java_stub#86441d7a-e194-42da-81a5-2161ec62a379#org.jdesktop.beansbinding(MPS.Workbench/org.jdesktop.beansbinding@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590557(jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator)" />
+    <file name="Dialog.java" />
+  </source>
+  <source id="1202828573950" name="Dialog_Controller" hash="b71lazt1ya9qhgdloyzy17xaplzxm3d">
+    <dep model="r:00000000-0000-4000-0000-011c89590557(jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator)" />
+  </source>
+  <source id="1203082515478" name="List" hash="-1uiwlj0fjk2f779ra48pbx8njcn414x">
+    <dep root="1202393472906" />
+    <dep root="1202393511419" />
+    <dep root="1202393521454" />
+    <dep root="1202393560969" />
+    <dep root="1202393573380" />
+    <dep root="1202393598579" />
+    <dep root="1202464198724" />
+    <dep root="1202464205555" />
+    <dep root="1202465811094" />
+    <dep root="1202465821678" />
+    <dep root="1202738287160" />
+    <dep root="1202738350852" />
+    <dep root="1202815836444" />
+    <dep root="1202815871669" />
+    <dep root="1202816402995" />
+    <dep root="1202816455619" />
+    <dep root="1202828480666" />
+    <dep root="1202828573950" />
+    <dep root="1203082521713" />
+    <dep root="1204287075288" />
+    <dep root="1204287125444" />
+    <dep root="2081431238554771058" />
+    <dep root="8606751926055253470" />
+    <dep root="8606751926055253530" />
+    <dep model="f:java_stub#86441d7a-e194-42da-81a5-2161ec62a379#org.jdesktop.beansbinding(MPS.Workbench/org.jdesktop.beansbinding@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590557(jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator)" />
+    <file name="List.java" />
+  </source>
+  <source id="1203082521713" name="List_Controller" hash="-aqd5uxj3mr1uxubkwjd8n5kgme6pkzs">
+    <dep model="r:00000000-0000-4000-0000-011c89590557(jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator)" />
+  </source>
+  <source id="1204287075288" name="RadioButton" hash="523sb2fj0g44e5j5zirfnquvn45n0q5">
+    <dep root="1202393472906" />
+    <dep root="1202393511419" />
+    <dep root="1202393521454" />
+    <dep root="1202393560969" />
+    <dep root="1202393573380" />
+    <dep root="1202393598579" />
+    <dep root="1202464198724" />
+    <dep root="1202464205555" />
+    <dep root="1202465811094" />
+    <dep root="1202465821678" />
+    <dep root="1202738287160" />
+    <dep root="1202738350852" />
+    <dep root="1202815836444" />
+    <dep root="1202815871669" />
+    <dep root="1202816402995" />
+    <dep root="1202816455619" />
+    <dep root="1202828480666" />
+    <dep root="1202828573950" />
+    <dep root="1203082515478" />
+    <dep root="1203082521713" />
+    <dep root="1204287125444" />
+    <dep root="2081431238554771058" />
+    <dep root="8606751926055253470" />
+    <dep root="8606751926055253530" />
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.swing(JDK/javax.swing@java_stub)" />
+    <dep model="f:java_stub#86441d7a-e194-42da-81a5-2161ec62a379#org.jdesktop.beansbinding(MPS.Workbench/org.jdesktop.beansbinding@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590557(jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator)" />
+    <file name="RadioButton.java" />
+  </source>
+  <source id="1204287125444" name="RadioButton_Controller" hash="706rtro47vtt7s1kdhbpim0a2wsrlf7">
+    <dep model="r:00000000-0000-4000-0000-011c89590557(jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator)" />
+  </source>
+  <source id="2081431238554771058" name="Panel_Controller" hash="-bvpw9ygqnkhee9oulumqesf3i5sdqv5">
+    <dep model="r:00000000-0000-4000-0000-011c89590557(jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator)" />
+  </source>
+  <source id="8606751926055253470" name="Separator" hash="-14415jb4m2qs3hupjbe35stzar3exgi">
+    <dep root="1202393472906" />
+    <dep root="1202393511419" />
+    <dep root="1202393521454" />
+    <dep root="1202393560969" />
+    <dep root="1202393573380" />
+    <dep root="1202393598579" />
+    <dep root="1202464198724" />
+    <dep root="1202464205555" />
+    <dep root="1202465811094" />
+    <dep root="1202465821678" />
+    <dep root="1202738287160" />
+    <dep root="1202738350852" />
+    <dep root="1202815836444" />
+    <dep root="1202815871669" />
+    <dep root="1202816402995" />
+    <dep root="1202816455619" />
+    <dep root="1202828480666" />
+    <dep root="1202828573950" />
+    <dep root="1203082515478" />
+    <dep root="1203082521713" />
+    <dep root="1204287075288" />
+    <dep root="1204287125444" />
+    <dep root="2081431238554771058" />
+    <dep root="8606751926055253530" />
+    <dep model="f:java_stub#86441d7a-e194-42da-81a5-2161ec62a379#org.jdesktop.beansbinding(MPS.Workbench/org.jdesktop.beansbinding@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590557(jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator)" />
+    <file name="Separator.java" />
+  </source>
+  <source id="8606751926055253530" name="Separator_Controller" hash="5yo667lycswevv2wiymz2n9izmyvvxl">
+    <dep model="r:00000000-0000-4000-0000-011c89590557(jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator)" />
+  </source>
+</dependencies>
+

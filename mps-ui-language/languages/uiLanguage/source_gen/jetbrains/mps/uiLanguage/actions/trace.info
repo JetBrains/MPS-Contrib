@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <unitInfo fileName="QueriesGenerated.java" startLine="36" startPosition="34" endLine="40" endPosition="7" unitName="jetbrains.mps.uiLanguage.actions.QueriesGenerated$1" />
+  <unitInfo fileName="QueriesGenerated.java" startLine="20" startPosition="0" endLine="47" endPosition="0" unitName="jetbrains.mps.uiLanguage.actions.QueriesGenerated" />
+  <root nodeRef="r:00000000-0000-4000-0000-011c8959054b(jetbrains.mps.uiLanguage.actions)/1208687269513">
+    <nodeInfo nodeId="1208687387388" fileName="QueriesGenerated.java" startLine="26" startPosition="184" endLine="27" endPosition="245" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1208689342018" fileName="QueriesGenerated.java" startLine="37" startPosition="43" endLine="38" endPosition="118" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1208687331562" fileName="QueriesGenerated.java" startLine="26" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="nodeSubstituteActionsBuilder_Precondition_Expression_1208687331562#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/action/NodeSubstitutePreconditionContext;)Z" />
+    <scopeInfo nodeId="1208687331563" fileName="QueriesGenerated.java" startLine="26" startPosition="184" endLine="27" endPosition="245" />
+    <scopeInfo nodeId="1208689330048" fileName="QueriesGenerated.java" startLine="37" startPosition="43" endLine="38" endPosition="118" />
+    <scopeInfo nodeId="1208687331562" fileName="QueriesGenerated.java" startLine="26" startPosition="0" endLine="29" endPosition="0">
+      <varInfo nodeId="1208687331562" varName="_context" />
+      <varInfo nodeId="1208687331562" varName="operationContext" />
+    </scopeInfo>
+  </root>
+</debugInfo>
+

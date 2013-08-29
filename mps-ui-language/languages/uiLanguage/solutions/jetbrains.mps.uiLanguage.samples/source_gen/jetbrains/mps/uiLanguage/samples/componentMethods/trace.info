@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <root nodeRef="r:00000000-0000-4000-0000-011c8959055b(jetbrains.mps.uiLanguage.samples.componentMethods)/1202810604795">
+    <nodeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="15" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myThis" />
+    <nodeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="16" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_1v8jfh_d0" />
+    <nodeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="17" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myBindings" />
+    <nodeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="26" startPosition="24" endLine="27" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="27" startPosition="23" endLine="28" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="28" startPosition="33" endLine="29" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="29" startPosition="47" endLine="30" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="30" startPosition="61" endLine="31" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="31" startPosition="31" endLine="32" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="32" startPosition="52" endLine="33" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="39" startPosition="29" endLine="40" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="43" startPosition="27" endLine="44" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="44" startPosition="22" endLine="45" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="48" startPosition="30" endLine="49" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="49" startPosition="18" endLine="50" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="58" startPosition="30" endLine="59" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="64" startPosition="49" endLine="65" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="65" startPosition="42" endLine="66" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="66" startPosition="43" endLine="67" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="22" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="initialize#()V" />
+    <nodeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="53" startPosition="0" endLine="55" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="bind#()V" />
+    <nodeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="33" startPosition="31" endLine="36" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="39" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getEvents#()Ljetbrains/mps/uiLanguage/runtime/events/Events;" />
+    <nodeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="57" startPosition="49" endLine="60" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="43" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addNotify#()V" />
+    <nodeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="48" startPosition="0" endLine="52" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="removeNotify#()V" />
+    <nodeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="56" startPosition="25" endLine="61" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="64" startPosition="0" endLine="69" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_1v8jfh_d0#()Ljava/lang/Object;" />
+    <nodeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="18" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myEvents" />
+    <nodeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="56" startPosition="0" endLine="63" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="unbind#()V" />
+    <nodeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="26" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="SimpleFrame#()V" />
+    <scopeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="19" startPosition="5" endLine="19" endPosition="5" />
+    <scopeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="22" startPosition="30" endLine="22" endPosition="30" />
+    <scopeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="53" startPosition="23" endLine="53" endPosition="23" />
+    <scopeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="39" startPosition="29" endLine="40" endPosition="25" />
+    <scopeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="58" startPosition="30" endLine="59" endPosition="25" />
+    <scopeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="22" startPosition="0" endLine="24" endPosition="0" />
+    <scopeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="43" startPosition="27" endLine="45" endPosition="16" />
+    <scopeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="48" startPosition="30" endLine="50" endPosition="25" />
+    <scopeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="53" startPosition="0" endLine="55" endPosition="0" />
+    <scopeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="39" startPosition="0" endLine="42" endPosition="0" />
+    <scopeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="57" startPosition="49" endLine="60" endPosition="7" />
+    <scopeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="64" startPosition="49" endLine="67" endPosition="21">
+      <varInfo nodeId="1202810604795" varName="component" />
+    </scopeInfo>
+    <scopeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="43" startPosition="0" endLine="47" endPosition="0" />
+    <scopeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="48" startPosition="0" endLine="52" endPosition="0" />
+    <scopeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="56" startPosition="25" endLine="61" endPosition="5" />
+    <scopeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="56" startPosition="25" endLine="61" endPosition="5">
+      <varInfo nodeId="1202810604795" varName="binding" />
+    </scopeInfo>
+    <scopeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="64" startPosition="0" endLine="69" endPosition="0" />
+    <scopeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="56" startPosition="0" endLine="63" endPosition="0" />
+    <scopeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="26" startPosition="24" endLine="36" endPosition="5">
+      <varInfo nodeId="1202810604795" varName="component" />
+    </scopeInfo>
+    <scopeInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="26" startPosition="0" endLine="38" endPosition="0" />
+    <unitInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="18" startPosition="32" endLine="24" endPosition="3" unitName="jetbrains.mps.uiLanguage.samples.componentMethods.SimpleFrame$1" />
+    <unitInfo nodeId="1202810604795" fileName="SimpleFrame.java" startLine="14" startPosition="0" endLine="78" endPosition="0" unitName="jetbrains.mps.uiLanguage.samples.componentMethods.SimpleFrame" />
+  </root>
+  <root nodeRef="r:00000000-0000-4000-0000-011c8959055b(jetbrains.mps.uiLanguage.samples.componentMethods)/1202810679159">
+    <nodeInfo nodeId="1203080744101" fileName="SimpleFrame.java" startLine="34" startPosition="5" endLine="35" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1202810691901" fileName="SimpleFrame.java" startLine="73" startPosition="35" endLine="74" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1202814456506" fileName="SimpleFrame.java" startLine="74" startPosition="37" endLine="75" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1205770172009" fileName="SimpleFrame.java" startLine="70" startPosition="0" endLine="72" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="anotherSimpleMethod#(II)V" />
+    <nodeInfo nodeId="1205770171940" fileName="SimpleFrame.java" startLine="73" startPosition="0" endLine="77" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="simpleMethod#()V" />
+    <scopeInfo nodeId="1202810685025" fileName="SimpleFrame.java" startLine="70" startPosition="54" endLine="70" endPosition="54" />
+    <scopeInfo nodeId="1203080739771" fileName="SimpleFrame.java" startLine="34" startPosition="5" endLine="35" endPosition="16">
+      <varInfo nodeId="1203080744102" varName="i" />
+    </scopeInfo>
+    <scopeInfo nodeId="1205770172009" fileName="SimpleFrame.java" startLine="70" startPosition="0" endLine="72" endPosition="0">
+      <varInfo nodeId="1205772016398" varName="a" />
+      <varInfo nodeId="1205772018605" varName="b" />
+    </scopeInfo>
+    <scopeInfo nodeId="1202810681271" fileName="SimpleFrame.java" startLine="73" startPosition="35" endLine="75" endPosition="37" />
+    <scopeInfo nodeId="1205770171940" fileName="SimpleFrame.java" startLine="73" startPosition="0" endLine="77" endPosition="0" />
+  </root>
+</debugInfo>
+

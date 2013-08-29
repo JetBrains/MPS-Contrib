@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <root nodeRef="r:1d745698-959f-411a-bdd4-ff06bf4a08cf(jetbrains.mps.uiLanguage.samples.dogfood)/6936542821591824460">
+    <nodeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="14" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myThis" />
+    <nodeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="15" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_qku_b0" />
+    <nodeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="16" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myBindings" />
+    <nodeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="25" startPosition="16" endLine="26" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="26" startPosition="23" endLine="27" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="27" startPosition="25" endLine="28" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="28" startPosition="44" endLine="29" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="29" startPosition="70" endLine="30" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="33" startPosition="29" endLine="34" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="37" startPosition="27" endLine="38" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="38" startPosition="22" endLine="39" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="42" startPosition="30" endLine="43" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="43" startPosition="18" endLine="44" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="52" startPosition="30" endLine="53" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="58" startPosition="41" endLine="59" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="59" startPosition="32" endLine="60" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="60" startPosition="40" endLine="61" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="21" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="initialize#()V" />
+    <nodeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="47" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="bind#()V" />
+    <nodeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="33" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getEvents#()Ljetbrains/mps/uiLanguage/runtime/events/Events;" />
+    <nodeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="51" startPosition="49" endLine="54" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="37" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addNotify#()V" />
+    <nodeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="42" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="removeNotify#()V" />
+    <nodeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="50" startPosition="25" endLine="55" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="58" startPosition="0" endLine="63" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_qku_b0#()Ljava/lang/Object;" />
+    <nodeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="17" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myEvents" />
+    <nodeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="25" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="Dog#()V" />
+    <nodeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="50" startPosition="0" endLine="57" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="unbind#()V" />
+    <scopeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="18" startPosition="5" endLine="18" endPosition="5" />
+    <scopeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="21" startPosition="30" endLine="21" endPosition="30" />
+    <scopeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="47" startPosition="23" endLine="47" endPosition="23" />
+    <scopeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="33" startPosition="29" endLine="34" endPosition="25" />
+    <scopeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="52" startPosition="30" endLine="53" endPosition="25" />
+    <scopeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="21" startPosition="0" endLine="23" endPosition="0" />
+    <scopeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="37" startPosition="27" endLine="39" endPosition="16" />
+    <scopeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="42" startPosition="30" endLine="44" endPosition="25" />
+    <scopeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="47" startPosition="0" endLine="49" endPosition="0" />
+    <scopeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="33" startPosition="0" endLine="36" endPosition="0" />
+    <scopeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="51" startPosition="49" endLine="54" endPosition="7" />
+    <scopeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="58" startPosition="41" endLine="61" endPosition="21">
+      <varInfo nodeId="6936542821591824460" varName="component" />
+    </scopeInfo>
+    <scopeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="37" startPosition="0" endLine="41" endPosition="0" />
+    <scopeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="42" startPosition="0" endLine="46" endPosition="0" />
+    <scopeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="25" startPosition="16" endLine="30" endPosition="31">
+      <varInfo nodeId="6936542821591824460" varName="component" />
+    </scopeInfo>
+    <scopeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="50" startPosition="25" endLine="55" endPosition="5" />
+    <scopeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="50" startPosition="25" endLine="55" endPosition="5">
+      <varInfo nodeId="6936542821591824460" varName="binding" />
+    </scopeInfo>
+    <scopeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="58" startPosition="0" endLine="63" endPosition="0" />
+    <scopeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="25" startPosition="0" endLine="32" endPosition="0" />
+    <scopeInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="50" startPosition="0" endLine="57" endPosition="0" />
+    <unitInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="17" startPosition="32" endLine="23" endPosition="3" unitName="jetbrains.mps.uiLanguage.samples.dogfood.Dog$1" />
+    <unitInfo nodeId="6936542821591824460" fileName="Dog.java" startLine="13" startPosition="0" endLine="64" endPosition="0" unitName="jetbrains.mps.uiLanguage.samples.dogfood.Dog" />
+  </root>
+  <root nodeRef="r:1d745698-959f-411a-bdd4-ff06bf4a08cf(jetbrains.mps.uiLanguage.samples.dogfood)/6936542821591824462">
+    <nodeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="15" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myThis" />
+    <nodeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="16" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myLabel_nj27_b0" />
+    <nodeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="17" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myBindings" />
+    <nodeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="26" startPosition="17" endLine="27" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="27" startPosition="23" endLine="28" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="28" startPosition="26" endLine="29" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="29" startPosition="44" endLine="30" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="30" startPosition="71" endLine="31" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="34" startPosition="29" endLine="35" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="38" startPosition="27" endLine="39" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="39" startPosition="22" endLine="40" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="43" startPosition="30" endLine="44" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="44" startPosition="18" endLine="45" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="53" startPosition="30" endLine="54" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="59" startPosition="44" endLine="60" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="60" startPosition="36" endLine="61" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="61" startPosition="37" endLine="62" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="22" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="initialize#()V" />
+    <nodeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="48" startPosition="0" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="bind#()V" />
+    <nodeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="34" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getEvents#()Ljetbrains/mps/uiLanguage/runtime/events/Events;" />
+    <nodeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="52" startPosition="49" endLine="55" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="38" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addNotify#()V" />
+    <nodeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="43" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="removeNotify#()V" />
+    <nodeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="51" startPosition="25" endLine="56" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="59" startPosition="0" endLine="64" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_nj27_b0#()Ljava/lang/Object;" />
+    <nodeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="18" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myEvents" />
+    <nodeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="26" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="Food#()V" />
+    <nodeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="51" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="unbind#()V" />
+    <scopeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="19" startPosition="5" endLine="19" endPosition="5" />
+    <scopeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="22" startPosition="30" endLine="22" endPosition="30" />
+    <scopeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="48" startPosition="23" endLine="48" endPosition="23" />
+    <scopeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="34" startPosition="29" endLine="35" endPosition="25" />
+    <scopeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="53" startPosition="30" endLine="54" endPosition="25" />
+    <scopeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="22" startPosition="0" endLine="24" endPosition="0" />
+    <scopeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="38" startPosition="27" endLine="40" endPosition="16" />
+    <scopeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="43" startPosition="30" endLine="45" endPosition="25" />
+    <scopeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="48" startPosition="0" endLine="50" endPosition="0" />
+    <scopeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="34" startPosition="0" endLine="37" endPosition="0" />
+    <scopeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="52" startPosition="49" endLine="55" endPosition="7" />
+    <scopeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="59" startPosition="44" endLine="62" endPosition="21">
+      <varInfo nodeId="6936542821591824462" varName="component" />
+    </scopeInfo>
+    <scopeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="38" startPosition="0" endLine="42" endPosition="0" />
+    <scopeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="43" startPosition="0" endLine="47" endPosition="0" />
+    <scopeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="26" startPosition="17" endLine="31" endPosition="31">
+      <varInfo nodeId="6936542821591824462" varName="component" />
+    </scopeInfo>
+    <scopeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="51" startPosition="25" endLine="56" endPosition="5" />
+    <scopeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="51" startPosition="25" endLine="56" endPosition="5">
+      <varInfo nodeId="6936542821591824462" varName="binding" />
+    </scopeInfo>
+    <scopeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="59" startPosition="0" endLine="64" endPosition="0" />
+    <scopeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="26" startPosition="0" endLine="33" endPosition="0" />
+    <scopeInfo nodeId="6936542821591824462" fileName="Food.java" startLine="51" startPosition="0" endLine="58" endPosition="0" />
+    <unitInfo nodeId="6936542821591824462" fileName="Food.java" startLine="18" startPosition="32" endLine="24" endPosition="3" unitName="jetbrains.mps.uiLanguage.samples.dogfood.Food$1" />
+    <unitInfo nodeId="6936542821591824462" fileName="Food.java" startLine="14" startPosition="0" endLine="65" endPosition="0" unitName="jetbrains.mps.uiLanguage.samples.dogfood.Food" />
+  </root>
+</debugInfo>
+
