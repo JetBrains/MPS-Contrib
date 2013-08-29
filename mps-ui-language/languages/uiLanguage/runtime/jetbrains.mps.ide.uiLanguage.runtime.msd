@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="jetbrains.mps.ide.uiLanguage.runtime" uuid="ceb47609-02c2-4927-bb6d-d58368388a62" compileInMPS="false">
+<solution name="jetbrains.mps.ide.uiLanguage.runtime" uuid="ceb47609-02c2-4927-bb6d-d58368388a62" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="jetbrains" />
     </modelRoot>
   </models>
   <facets>
-    <facet pluginId="com.intellij" type="ideaPlugin" />
+    <facet type="java" />
+    <facet type="java" />
+    <facet type="java" />
   </facets>
   <sourcePath />
   <dependencies>
