@@ -20,6 +20,10 @@
       <modulePath path="$PROJECT_DIR$/mps-execution-deprecated/deprecated.runtime/jetbrains.mps.execution.configurations.deprecated.runtime.msd" folder="execution" />
       <modulePath path="$PROJECT_DIR$/mps-execution-deprecated/languages/deprecated/jetbrains.mps.execution.configurations.deprecated.mpl" folder="execution" />
       <modulePath path="$PROJECT_DIR$/mps-execution-deprecated/unitTests/jetbrains.mps.baseLanguage.unitTest.execution.deprecated.msd" folder="execution" />
+      <modulePath path="$PROJECT_DIR$/mps-ui-language/languages/uiLanguage/jetbrains.mps.uiLanguage.mpl" folder="uiLanguage" />
+      <modulePath path="$PROJECT_DIR$/mps-ui-language/languages/uiLanguage/runtime/jetbrains.mps.ide.uiLanguage.runtime.msd" folder="uiLanguage" />
+      <modulePath path="$PROJECT_DIR$/mps-ui-language/languages/uiLanguage/solutions/jetbrains.mps.uiLanguage.samples/jetbrains.mps.uiLanguage.samples.msd" folder="uiLanguage" />
+      <modulePath path="$PROJECT_DIR$/mps-ui-language/languages/uiLanguage/solutions/pluginSolution/jetbrains.mps.uiLanguage.pluginSolution.msd" folder="uiLanguage" />
       <modulePath path="$PROJECT_DIR$/mps-xml-obsolete/languages/util/gtext/jetbrains.mps.gtext.mpl" folder="gtext" />
       <modulePath path="$PROJECT_DIR$/mps-xml-obsolete/languages/util/gtext/runtime/jetbrains.mps.gtext.runtime.msd" folder="gtext" />
       <modulePath path="$PROJECT_DIR$/mps-xml-obsolete/languages/util/xml/xml/jetbrains.mps.xml.mpl" folder="xml" />
