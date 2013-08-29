@@ -547,8 +547,20 @@
           </node>
         </node>
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="9109219111435176204" nodeInfo="nn">
-          <node role="expression" roleId="tpee.1068581517676" type="tpee.SuperMethodCall" typeId="tpee.1073063089578" id="9109219111435176243" nodeInfo="nn">
-            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="jj9i.~ConfigurationFactory%dgetIcon()%cjavax%dswing%dIcon" resolveInfo="getIcon" />
+          <node role="expression" roleId="tpee.1068581517676" type="tpee.TernaryOperatorExpression" typeId="tpee.1163668896201" id="7210289808668161115" nodeInfo="nn">
+            <node role="ifFalse" roleId="tpee.1163668934364" type="tpee.SuperMethodCall" typeId="tpee.1073063089578" id="7210289808668186279" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="jj9i.~ConfigurationFactory%dgetIcon()%cjavax%dswing%dIcon" resolveInfo="getIcon" />
+            </node>
+            <node role="condition" roleId="tpee.1163668914799" type="tpee.EqualsExpression" typeId="tpee.1068580123152" id="7210289808668140599" nodeInfo="nn">
+              <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="7210289808668154337" nodeInfo="nn" />
+              <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.SuperMethodCall" typeId="tpee.1073063089578" id="7210289808668115193" nodeInfo="nn">
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="jj9i.~ConfigurationFactory%dgetIcon()%cjavax%dswing%dIcon" resolveInfo="getIcon" />
+              </node>
+            </node>
+            <node role="ifTrue" roleId="tpee.1163668922816" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="7210289808667675396" nodeInfo="nn">
+              <link role="classifier" roleId="tpee.1144433057691" targetNodeId="zxm1.~AllIcons$RunConfigurations" resolveInfo="AllIcons.RunConfigurations" />
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="zxm1.~AllIcons$RunConfigurations%dApplication" resolveInfo="Application" />
+            </node>
           </node>
         </node>
       </node>
