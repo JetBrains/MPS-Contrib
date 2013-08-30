@@ -7,8 +7,8 @@
   </models>
   <facets>
     <facet type="java" />
-    <facet type="java" />
-    <facet type="java" />
+    <facet type="tests" />
+    <facet pluginId="jetbrains.mps.uiLanguage" type="ideaPlugin" />
   </facets>
   <sourcePath />
   <dependencies>
