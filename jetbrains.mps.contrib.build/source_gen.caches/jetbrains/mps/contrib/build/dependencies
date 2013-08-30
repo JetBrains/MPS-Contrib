@@ -5,6 +5,7 @@
   <dependency className="jetbrains.mps.contrib.build.mpsDates" file="mpsDates.xml" />
   <dependency className="jetbrains.mps.contrib.build.mpsDeprecatedBuildlanguage" file="mpsDeprecatedBuildlanguage.xml" />
   <dependency className="jetbrains.mps.contrib.build.mpsDeprecatedExecution" file="mpsDeprecatedExecution.xml" />
+  <dependency className="jetbrains.mps.contrib.build.mpsUiLanguage" file="mpsUiLanguage.xml" />
   <dependency className="jetbrains.mps.contrib.build.mpsXml" file="mpsXml.xml" />
 </dependenciesRoot>
 

@@ -35,6 +35,7 @@
     <ant antfile="build/mpsDates.xml" inheritAll="false" useNativeBasedir="true" />
     <ant antfile="build/mpsXml.xml" inheritAll="false" useNativeBasedir="true" />
     <ant antfile="build/mpsDeprecatedBuildlanguage.xml" inheritAll="false" useNativeBasedir="true" />
+    <ant antfile="build/mpsUiLanguage.xml" inheritAll="false" useNativeBasedir="true" />
     <ant antfile="build/mpsDeprecatedExecution.xml" inheritAll="false" useNativeBasedir="true" />
     <ant antfile="build/mpsContribBuild.xml" inheritAll="false" useNativeBasedir="true" />
   </target>
