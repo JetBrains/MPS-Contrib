@@ -328,6 +328,9 @@
       <module file="${basedir}/mps-build-deprecated/languages/property/jetbrains.mps.build.property.mpl" />
       <module file="${basedir}/mps-build-deprecated/languages/buildlanguage/jetbrains.mps.buildlanguage.mpl" />
       <module file="${basedir}/mps-build-deprecated/languages/xmlDeprecated/jetbrains.mps.xml.deprecated.mpl" />
+      <jvmargs>
+        <arg value="-Xmx512m" />
+      </jvmargs>
     </gentest>
   </target>
   

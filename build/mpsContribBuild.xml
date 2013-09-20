@@ -138,6 +138,9 @@
       <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.ide.build.jar" />
       <library file="${artifacts.mps}/plugins/mps-core/languages/util/jetbrains.mps.core.properties.jar" />
       <module file="${basedir}/jetbrains.mps.contrib.build/jetbrains.mps.contrib.build.msd" />
+      <jvmargs>
+        <arg value="-Xmx512m" />
+      </jvmargs>
     </gentest>
   </target>
   
