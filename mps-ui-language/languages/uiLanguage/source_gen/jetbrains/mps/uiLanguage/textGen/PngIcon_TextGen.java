@@ -4,12 +4,12 @@ package jetbrains.mps.uiLanguage.textGen;
 
 import jetbrains.mps.textGen.SNodeTextGen;
 import org.jetbrains.mps.openapi.model.SNode;
-import jetbrains.mps.textGen.TextGenManager;
+import jetbrains.mps.textGen.TextGen;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class PngIcon_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
-    getBuffer().putUserObject(TextGenManager.OUTPUT_ENCODING, "binary");
+    getBuffer().putUserObject(TextGen.OUTPUT_ENCODING, "binary");
     this.append(SPropertyOperations.getString(node, "iconData"));
   }
 

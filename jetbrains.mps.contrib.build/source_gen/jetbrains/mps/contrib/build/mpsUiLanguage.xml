@@ -161,7 +161,7 @@
   
   <target name="fetchDependencies" />
   
-  <target name="build" depends="assemble, check" />
+  <target name="build" depends="assemble" />
   
   <target name="clean">
     <delete dir="${build.tmp}" />
@@ -237,6 +237,11 @@
       <module file="${basedir}/mps-ui-language/languages/uiLanguage/runtime/jetbrains.mps.ide.uiLanguage.runtime.msd" />
       <module file="${basedir}/mps-ui-language/languages/uiLanguage/jetbrains.mps.uiLanguage.mpl" />
       <module file="${basedir}/mps-ui-language/languages/uiLanguage/solutions/pluginSolution/jetbrains.mps.uiLanguage.pluginSolution.msd" />
+      <jvmargs>
+        <arg value="-Xmx512m" />
+      </jvmargs>
+      <macro name="mps_home" path="${mps_home}" />
+      <macro name="idea_home" path="${idea_home}" />
     </gentest>
   </target>
   
@@ -309,6 +314,8 @@
       <jvmargs>
         <arg value="-Xmx512m" />
       </jvmargs>
+      <macro name="mps_home" path="${mps_home}" />
+      <macro name="idea_home" path="${idea_home}" />
     </generate>
   </target>
   

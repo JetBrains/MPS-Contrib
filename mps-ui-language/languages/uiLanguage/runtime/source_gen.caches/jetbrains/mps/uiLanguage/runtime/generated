@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependencies version="2" modelHash="3hithiq1c3kg05iwybfrn5of4tdaki8">
+  <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt(JDK/java.awt@java_stub)" />
+  <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.swing(JDK/javax.swing@java_stub)" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
   <common hash="dywbv5th6ai161orrwwbintycp89et9" />
   <source id="5606982432899038941" name="HBoxPanel" hash="78ynh7hwisv3j26ky7dowlfhg6boitz">
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.swing(JDK/javax.swing@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <file name="HBoxPanel.java" />
   </source>
@@ -10,10 +13,12 @@
     <file name="ValueWrapper.java" />
   </source>
   <source id="5606982432899038963" name="FlowPanel" hash="98awc1d5lnp9gnxpfe2l6z9htrfiujv">
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt(JDK/java.awt@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <file name="FlowPanel.java" />
   </source>
   <source id="5606982432899038977" name="VBoxPanel" hash="dwgg529am9m3zshv3829mqt0443ddil">
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.swing(JDK/javax.swing@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <file name="VBoxPanel.java" />
   </source>

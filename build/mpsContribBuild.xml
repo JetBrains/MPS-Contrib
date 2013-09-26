@@ -66,7 +66,7 @@
   
   <target name="fetchDependencies" />
   
-  <target name="build" depends="assemble, check" />
+  <target name="build" depends="assemble" />
   
   <target name="clean">
     <delete dir="${build.tmp}" />
@@ -138,6 +138,11 @@
       <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.ide.build.jar" />
       <library file="${artifacts.mps}/plugins/mps-core/languages/util/jetbrains.mps.core.properties.jar" />
       <module file="${basedir}/jetbrains.mps.contrib.build/jetbrains.mps.contrib.build.msd" />
+      <jvmargs>
+        <arg value="-Xmx512m" />
+      </jvmargs>
+      <macro name="mps_home" path="${mps_home}" />
+      <macro name="idea_home" path="${idea_home}" />
     </gentest>
   </target>
   
@@ -206,6 +211,8 @@
       <jvmargs>
         <arg value="-Xmx512m" />
       </jvmargs>
+      <macro name="mps_home" path="${mps_home}" />
+      <macro name="idea_home" path="${idea_home}" />
     </generate>
   </target>
   

@@ -1,5 +1,174 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <root nodeRef="r:68c7815b-65d3-4b04-9110-50fab74211e0(jetbrains.mps.execution.configurations.deprecated.runtime)/2272150854071668755">
+    <nodeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="13" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myThis" />
+    <nodeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="14" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myText" />
+    <nodeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="15" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myDialogCaption" />
+    <nodeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="16" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myBindings" />
+    <nodeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="25" startPosition="29" endLine="26" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="26" startPosition="23" endLine="27" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="27" startPosition="38" endLine="28" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="31" startPosition="29" endLine="32" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="35" startPosition="27" endLine="36" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="36" startPosition="22" endLine="37" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="40" startPosition="30" endLine="41" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="41" startPosition="18" endLine="42" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="50" startPosition="30" endLine="51" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="56" startPosition="27" endLine="57" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="60" startPosition="36" endLine="61" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="64" startPosition="40" endLine="65" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="65" startPosition="34" endLine="66" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="66" startPosition="27" endLine="67" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="70" startPosition="49" endLine="71" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="71" startPosition="43" endLine="72" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="72" startPosition="36" endLine="73" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="21" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="initialize#()V" />
+    <nodeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="45" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="bind#()V" />
+    <nodeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="31" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getEvents#()Ljetbrains/mps/uiLanguage/runtime/events/Events;" />
+    <nodeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="49" startPosition="49" endLine="52" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="56" startPosition="0" endLine="59" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getText#()Ljava/lang/String;" />
+    <nodeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="60" startPosition="0" endLine="63" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDialogCaption#()Ljava/lang/String;" />
+    <nodeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="35" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addNotify#()V" />
+    <nodeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="40" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="removeNotify#()V" />
+    <nodeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="25" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ParameterBrowser#()V" />
+    <nodeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="48" startPosition="25" endLine="53" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="64" startPosition="0" endLine="69" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setText#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="70" startPosition="0" endLine="75" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setDialogCaption#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="17" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myEvents" />
+    <nodeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="48" startPosition="0" endLine="55" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="unbind#()V" />
+    <scopeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="18" startPosition="5" endLine="18" endPosition="5" />
+    <scopeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="21" startPosition="30" endLine="21" endPosition="30" />
+    <scopeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="45" startPosition="23" endLine="45" endPosition="23" />
+    <scopeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="31" startPosition="29" endLine="32" endPosition="25" />
+    <scopeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="50" startPosition="30" endLine="51" endPosition="25" />
+    <scopeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="56" startPosition="27" endLine="57" endPosition="23" />
+    <scopeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="60" startPosition="36" endLine="61" endPosition="32" />
+    <scopeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="21" startPosition="0" endLine="23" endPosition="0" />
+    <scopeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="35" startPosition="27" endLine="37" endPosition="16" />
+    <scopeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="40" startPosition="30" endLine="42" endPosition="25" />
+    <scopeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="45" startPosition="0" endLine="47" endPosition="0" />
+    <scopeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="25" startPosition="29" endLine="28" endPosition="31">
+      <varInfo nodeId="2272150854071668755" varName="component" />
+    </scopeInfo>
+    <scopeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="31" startPosition="0" endLine="34" endPosition="0" />
+    <scopeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="49" startPosition="49" endLine="52" endPosition="7" />
+    <scopeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="56" startPosition="0" endLine="59" endPosition="0" />
+    <scopeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="60" startPosition="0" endLine="63" endPosition="0" />
+    <scopeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="64" startPosition="40" endLine="67" endPosition="56">
+      <varInfo nodeId="2272150854071668755" varName="oldValue" />
+    </scopeInfo>
+    <scopeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="70" startPosition="49" endLine="73" endPosition="65">
+      <varInfo nodeId="2272150854071668755" varName="oldValue" />
+    </scopeInfo>
+    <scopeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="35" startPosition="0" endLine="39" endPosition="0" />
+    <scopeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="40" startPosition="0" endLine="44" endPosition="0" />
+    <scopeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="25" startPosition="0" endLine="30" endPosition="0" />
+    <scopeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="48" startPosition="25" endLine="53" endPosition="5" />
+    <scopeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="48" startPosition="25" endLine="53" endPosition="5">
+      <varInfo nodeId="2272150854071668755" varName="binding" />
+    </scopeInfo>
+    <scopeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="64" startPosition="0" endLine="69" endPosition="0">
+      <varInfo nodeId="2272150854071668755" varName="newValue" />
+    </scopeInfo>
+    <scopeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="70" startPosition="0" endLine="75" endPosition="0">
+      <varInfo nodeId="2272150854071668755" varName="newValue" />
+    </scopeInfo>
+    <scopeInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="48" startPosition="0" endLine="55" endPosition="0" />
+    <unitInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="17" startPosition="32" endLine="23" endPosition="3" unitName="jetbrains.mps.execution.configurations.deprecated.runtime.ParameterBrowser$1" />
+    <unitInfo nodeId="2272150854071668755" fileName="ParameterBrowser.java" startLine="12" startPosition="0" endLine="76" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.runtime.ParameterBrowser" />
+  </root>
+  <root nodeRef="r:68c7815b-65d3-4b04-9110-50fab74211e0(jetbrains.mps.execution.configurations.deprecated.runtime)/2272150854071781582">
+    <nodeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="13" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myThis" />
+    <nodeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="14" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myText" />
+    <nodeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="15" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myTitle" />
+    <nodeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="16" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myEditable" />
+    <nodeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="17" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myBindings" />
+    <nodeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="26" startPosition="34" endLine="27" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="27" startPosition="23" endLine="28" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="28" startPosition="43" endLine="29" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="32" startPosition="29" endLine="33" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="36" startPosition="27" endLine="37" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="37" startPosition="22" endLine="38" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="41" startPosition="30" endLine="42" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="42" startPosition="18" endLine="43" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="51" startPosition="30" endLine="52" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="57" startPosition="27" endLine="58" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="61" startPosition="28" endLine="62" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="65" startPosition="32" endLine="66" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="69" startPosition="40" endLine="70" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="70" startPosition="34" endLine="71" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="71" startPosition="27" endLine="72" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="75" startPosition="41" endLine="76" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="76" startPosition="35" endLine="77" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="77" startPosition="28" endLine="78" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="81" startPosition="45" endLine="82" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="82" startPosition="39" endLine="83" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="83" startPosition="31" endLine="84" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="22" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="initialize#()V" />
+    <nodeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="46" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="bind#()V" />
+    <nodeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="32" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getEvents#()Ljetbrains/mps/uiLanguage/runtime/events/Events;" />
+    <nodeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="50" startPosition="49" endLine="53" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="57" startPosition="0" endLine="60" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getText#()Ljava/lang/String;" />
+    <nodeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="61" startPosition="0" endLine="64" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getTitle#()Ljava/lang/String;" />
+    <nodeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="65" startPosition="0" endLine="68" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getEditable#()Z" />
+    <nodeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="36" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addNotify#()V" />
+    <nodeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="41" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="removeNotify#()V" />
+    <nodeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="26" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="FieldWithBrowseButton#()V" />
+    <nodeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="49" startPosition="25" endLine="54" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="69" startPosition="0" endLine="74" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setText#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="75" startPosition="0" endLine="80" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setTitle#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="81" startPosition="0" endLine="86" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setEditable#(Z)V" />
+    <nodeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="18" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myEvents" />
+    <nodeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="49" startPosition="0" endLine="56" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="unbind#()V" />
+    <scopeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="19" startPosition="5" endLine="19" endPosition="5" />
+    <scopeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="22" startPosition="30" endLine="22" endPosition="30" />
+    <scopeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="46" startPosition="23" endLine="46" endPosition="23" />
+    <scopeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="32" startPosition="29" endLine="33" endPosition="25" />
+    <scopeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="51" startPosition="30" endLine="52" endPosition="25" />
+    <scopeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="57" startPosition="27" endLine="58" endPosition="23" />
+    <scopeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="61" startPosition="28" endLine="62" endPosition="24" />
+    <scopeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="65" startPosition="32" endLine="66" endPosition="27" />
+    <scopeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="22" startPosition="0" endLine="24" endPosition="0" />
+    <scopeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="36" startPosition="27" endLine="38" endPosition="16" />
+    <scopeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="41" startPosition="30" endLine="43" endPosition="25" />
+    <scopeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="46" startPosition="0" endLine="48" endPosition="0" />
+    <scopeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="26" startPosition="34" endLine="29" endPosition="31">
+      <varInfo nodeId="2272150854071781582" varName="component" />
+    </scopeInfo>
+    <scopeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="32" startPosition="0" endLine="35" endPosition="0" />
+    <scopeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="50" startPosition="49" endLine="53" endPosition="7" />
+    <scopeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="57" startPosition="0" endLine="60" endPosition="0" />
+    <scopeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="61" startPosition="0" endLine="64" endPosition="0" />
+    <scopeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="65" startPosition="0" endLine="68" endPosition="0" />
+    <scopeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="69" startPosition="40" endLine="72" endPosition="56">
+      <varInfo nodeId="2272150854071781582" varName="oldValue" />
+    </scopeInfo>
+    <scopeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="75" startPosition="41" endLine="78" endPosition="57">
+      <varInfo nodeId="2272150854071781582" varName="oldValue" />
+    </scopeInfo>
+    <scopeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="81" startPosition="45" endLine="84" endPosition="60">
+      <varInfo nodeId="2272150854071781582" varName="oldValue" />
+    </scopeInfo>
+    <scopeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="36" startPosition="0" endLine="40" endPosition="0" />
+    <scopeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="41" startPosition="0" endLine="45" endPosition="0" />
+    <scopeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="26" startPosition="0" endLine="31" endPosition="0" />
+    <scopeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="49" startPosition="25" endLine="54" endPosition="5" />
+    <scopeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="49" startPosition="25" endLine="54" endPosition="5">
+      <varInfo nodeId="2272150854071781582" varName="binding" />
+    </scopeInfo>
+    <scopeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="69" startPosition="0" endLine="74" endPosition="0">
+      <varInfo nodeId="2272150854071781582" varName="newValue" />
+    </scopeInfo>
+    <scopeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="75" startPosition="0" endLine="80" endPosition="0">
+      <varInfo nodeId="2272150854071781582" varName="newValue" />
+    </scopeInfo>
+    <scopeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="81" startPosition="0" endLine="86" endPosition="0">
+      <varInfo nodeId="2272150854071781582" varName="newValue" />
+    </scopeInfo>
+    <scopeInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="49" startPosition="0" endLine="56" endPosition="0" />
+    <unitInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="18" startPosition="32" endLine="24" endPosition="3" unitName="jetbrains.mps.execution.configurations.deprecated.runtime.FieldWithBrowseButton$1" />
+    <unitInfo nodeId="2272150854071781582" fileName="FieldWithBrowseButton.java" startLine="12" startPosition="0" endLine="87" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.runtime.FieldWithBrowseButton" />
+  </root>
   <root nodeRef="r:68c7815b-65d3-4b04-9110-50fab74211e0(jetbrains.mps.execution.configurations.deprecated.runtime)/3718417974957372893">
     <nodeInfo nodeId="3718417974957372906" fileName="JavaConfigOptions.java" startLine="277" startPosition="25" endLine="278" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="3718417974957372914" fileName="JavaConfigOptions.java" startLine="278" startPosition="65" endLine="279" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />

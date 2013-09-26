@@ -387,7 +387,7 @@
   
   <target name="fetchDependencies" />
   
-  <target name="build" depends="assemble, check" />
+  <target name="build" depends="assemble" />
   
   <target name="clean">
     <delete dir="${build.tmp}" />
@@ -473,6 +473,11 @@
       <module file="${basedir}/mps-xml-obsolete/languages/util/xml/xmlSchema/jetbrains.mps.xmlSchema.mpl" />
       <module file="${basedir}/mps-xml-obsolete/languages/util/xmlUnitTest/languages/xmlUnitTest/jetbrains.mps.xmlUnitTest.mpl" />
       <module file="${basedir}/mps-xml-obsolete/languages/util/xmlUnitTest/languages/xmlUnitTest/solutions/runtime/jetbrains.mps.xmlUnitTest.runtime.msd" />
+      <jvmargs>
+        <arg value="-Xmx512m" />
+      </jvmargs>
+      <macro name="mps_home" path="${mps_home}" />
+      <macro name="idea_home" path="${idea_home}" />
     </gentest>
   </target>
   
@@ -558,6 +563,8 @@
       <jvmargs>
         <arg value="-Xmx512m" />
       </jvmargs>
+      <macro name="mps_home" path="${mps_home}" />
+      <macro name="idea_home" path="${idea_home}" />
     </generate>
   </target>
   
