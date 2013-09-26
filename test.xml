@@ -1,0 +1,10 @@
+<project name="testMpsContrib" default="testDependents">
+  <target name="testDependents">
+    <ant antfile="build/mpsDates.xml" inheritAll="false" useNativeBasedir="true" target="check"/>
+    <ant antfile="build/mpsXml.xml" inheritAll="false" useNativeBasedir="true" target="check"/>
+    <ant antfile="build/mpsDeprecatedBuildlanguage.xml" inheritAll="false" useNativeBasedir="true" target="check"/>
+    <ant antfile="build/mpsUiLanguage.xml" inheritAll="false" useNativeBasedir="true" target="check"/>
+    <ant antfile="build/mpsDeprecatedExecution.xml" inheritAll="false" useNativeBasedir="true" target="check"/>
+    <ant antfile="build/mpsContribBuild.xml" inheritAll="false" useNativeBasedir="true" target="check"/>
+  </target>
+</project>
