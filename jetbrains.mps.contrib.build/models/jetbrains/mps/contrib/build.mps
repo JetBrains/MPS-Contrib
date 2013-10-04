@@ -2419,6 +2419,9 @@
     <node role="dependencies" roleId="3ior.5617550519002745381" type="3ior.BuildProjectDependency" typeId="3ior.4993211115183325728" id="6901657050505746407" nodeInfo="ng">
       <link role="script" roleId="3ior.5617550519002745380" targetNodeId="310331596773287654" resolveInfo="mpsContribBuild" />
     </node>
+    <node role="dependencies" roleId="3ior.5617550519002745381" type="3ior.BuildProjectDependency" typeId="3ior.4993211115183325728" id="2960991014920442546" nodeInfo="ng">
+      <link role="script" roleId="3ior.5617550519002745380" targetNodeId="3945781919312589433" resolveInfo="mpsUiLanguage" />
+    </node>
     <node role="scriptsDir" roleId="3ior.4796668409958418110" type="3ior.BuildSourceProjectRelativePath" typeId="3ior.5481553824944787378" id="6901657050506256701" nodeInfo="ng">
       <node role="compositePart" roleId="3ior.7321017245477039051" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="6901657050506256704" nodeInfo="nn">
         <property name="head" nameId="3ior.8618885170173601779" value="build" />
@@ -2439,6 +2442,9 @@
       </node>
       <node role="children" roleId="3ior.7389400916848037006" type="3ior.BuildLayout_Import" typeId="3ior.841011766565753074" id="310331596773403143" nodeInfo="ng">
         <link role="target" roleId="3ior.841011766565753076" targetNodeId="310331596773287939" resolveInfo="mps-contrib-build" />
+      </node>
+      <node role="children" roleId="3ior.7389400916848037006" type="3ior.BuildLayout_Import" typeId="3ior.841011766565753074" id="2960991014920442502" nodeInfo="ng">
+        <link role="target" roleId="3ior.841011766565753076" targetNodeId="3945781919312589648" resolveInfo="mps-ui-language" />
       </node>
     </node>
   </root>
