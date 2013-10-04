@@ -759,37 +759,13 @@
             <property name="text" nameId="3ior.4903714810883755350" value="-contrib.zip" />
           </node>
         </node>
-        <node role="children" roleId="3ior.7389400916848037006" type="3ior.BuildLayout_Import" typeId="3ior.841011766565753074" id="4579351749503272628" nodeInfo="ng">
-          <link role="target" roleId="3ior.841011766565753076" targetNodeId="6673387549254013754" resolveInfo="mps-dates" />
-        </node>
-        <node role="children" roleId="3ior.7389400916848037006" type="3ior.BuildLayout_Import" typeId="3ior.841011766565753074" id="4579351749503272633" nodeInfo="ng">
-          <link role="target" roleId="3ior.841011766565753076" targetNodeId="4416206207494300591" resolveInfo="mps-build-deprecated" />
-        </node>
-        <node role="children" roleId="3ior.7389400916848037006" type="3ior.BuildLayout_Import" typeId="3ior.841011766565753074" id="4579351749507278968" nodeInfo="ng">
-          <link role="target" roleId="3ior.841011766565753076" targetNodeId="4579351749506262482" resolveInfo="mps-xml" />
-        </node>
-        <node role="children" roleId="3ior.7389400916848037006" type="3ior.BuildLayout_Import" typeId="3ior.841011766565753074" id="8321286824330068136" nodeInfo="ng">
-          <link role="target" roleId="3ior.841011766565753076" targetNodeId="8321286824325034494" resolveInfo="mps-execution-deprecated" />
-        </node>
-        <node role="children" roleId="3ior.7389400916848037006" type="3ior.BuildLayout_Import" typeId="3ior.841011766565753074" id="310331596773403143" nodeInfo="ng">
-          <link role="target" roleId="3ior.841011766565753076" targetNodeId="310331596773287939" resolveInfo="mps-contrib-build" />
+        <node role="children" roleId="3ior.7389400916848037006" type="3ior.BuildLayout_ImportContent" typeId="3ior.5610619299013057363" id="6901657050505749320" nodeInfo="ng">
+          <link role="target" roleId="3ior.5610619299013057365" targetNodeId="6901657050505738529" />
         </node>
       </node>
     </node>
-    <node role="dependencies" roleId="3ior.5617550519002745381" type="3ior.BuildProjectDependency" typeId="3ior.4993211115183325728" id="4579351749503263930" nodeInfo="ng">
-      <link role="script" roleId="3ior.5617550519002745380" targetNodeId="4061567211001166715" resolveInfo="mpsDates" />
-    </node>
-    <node role="dependencies" roleId="3ior.5617550519002745381" type="3ior.BuildProjectDependency" typeId="3ior.4993211115183325728" id="4579351749503263935" nodeInfo="ng">
-      <link role="script" roleId="3ior.5617550519002745380" targetNodeId="4416206207494300367" resolveInfo="mpsDeprecatedBuildlanguage" />
-    </node>
-    <node role="dependencies" roleId="3ior.5617550519002745381" type="3ior.BuildProjectDependency" typeId="3ior.4993211115183325728" id="4579351749507278960" nodeInfo="ng">
-      <link role="script" roleId="3ior.5617550519002745380" targetNodeId="4579351749506262387" resolveInfo="mpsXml" />
-    </node>
-    <node role="dependencies" roleId="3ior.5617550519002745381" type="3ior.BuildProjectDependency" typeId="3ior.4993211115183325728" id="8321286824330068126" nodeInfo="ng">
-      <link role="script" roleId="3ior.5617550519002745380" targetNodeId="8321286824325034320" resolveInfo="mpsDeprecatedExecution" />
-    </node>
-    <node role="dependencies" roleId="3ior.5617550519002745381" type="3ior.BuildProjectDependency" typeId="3ior.4993211115183325728" id="310331596773402467" nodeInfo="ng">
-      <link role="script" roleId="3ior.5617550519002745380" targetNodeId="310331596773287654" resolveInfo="mpsContribBuild" />
+    <node role="dependencies" roleId="3ior.5617550519002745381" type="3ior.BuildProjectDependency" typeId="3ior.4993211115183325728" id="6901657050505748495" nodeInfo="ng">
+      <link role="script" roleId="3ior.5617550519002745380" targetNodeId="6901657050505737387" resolveInfo="mpsContribUnpacked" />
     </node>
     <node role="macros" roleId="3ior.5617550519002745378" type="3ior.BuildFolderMacro" typeId="3ior.7389400916848136194" id="8068967866759841406" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="mps_home" />
@@ -2423,6 +2399,48 @@
     </node>
     <node role="plugins" roleId="3ior.6647099934206700656" type="3ior.BuildJavaPlugin" typeId="3ior.6647099934206700647" id="3945781919312589675" nodeInfo="ng" />
     <node role="plugins" roleId="3ior.6647099934206700656" type="kdzh.BuildMPSPlugin" typeId="kdzh.868032131020265945" id="3945781919312589676" nodeInfo="ng" />
+  </root>
+  <root type="3ior.BuildProject" typeId="3ior.5617550519002745363" id="6901657050505737387" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="mpsContribUnpacked" />
+    <property name="fileName" nameId="3ior.4915877860348071612" value="mpsContribUnpacked.xml" />
+    <property name="internalBaseDirectory" nameId="3ior.5204048710541015587" value="../" />
+    <node role="dependencies" roleId="3ior.5617550519002745381" type="3ior.BuildProjectDependency" typeId="3ior.4993211115183325728" id="6901657050505746403" nodeInfo="ng">
+      <link role="script" roleId="3ior.5617550519002745380" targetNodeId="4061567211001166715" resolveInfo="mpsDates" />
+    </node>
+    <node role="dependencies" roleId="3ior.5617550519002745381" type="3ior.BuildProjectDependency" typeId="3ior.4993211115183325728" id="6901657050505746404" nodeInfo="ng">
+      <link role="script" roleId="3ior.5617550519002745380" targetNodeId="4416206207494300367" resolveInfo="mpsDeprecatedBuildlanguage" />
+    </node>
+    <node role="dependencies" roleId="3ior.5617550519002745381" type="3ior.BuildProjectDependency" typeId="3ior.4993211115183325728" id="6901657050505746405" nodeInfo="ng">
+      <link role="script" roleId="3ior.5617550519002745380" targetNodeId="4579351749506262387" resolveInfo="mpsXml" />
+    </node>
+    <node role="dependencies" roleId="3ior.5617550519002745381" type="3ior.BuildProjectDependency" typeId="3ior.4993211115183325728" id="6901657050505746406" nodeInfo="ng">
+      <link role="script" roleId="3ior.5617550519002745380" targetNodeId="8321286824325034320" resolveInfo="mpsDeprecatedExecution" />
+    </node>
+    <node role="dependencies" roleId="3ior.5617550519002745381" type="3ior.BuildProjectDependency" typeId="3ior.4993211115183325728" id="6901657050505746407" nodeInfo="ng">
+      <link role="script" roleId="3ior.5617550519002745380" targetNodeId="310331596773287654" resolveInfo="mpsContribBuild" />
+    </node>
+    <node role="scriptsDir" roleId="3ior.4796668409958418110" type="3ior.BuildSourceProjectRelativePath" typeId="3ior.5481553824944787378" id="6901657050506256701" nodeInfo="ng">
+      <node role="compositePart" roleId="3ior.7321017245477039051" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="6901657050506256704" nodeInfo="nn">
+        <property name="head" nameId="3ior.8618885170173601779" value="build" />
+      </node>
+    </node>
+    <node role="layout" roleId="3ior.5617550519002745372" type="3ior.BuildLayout" typeId="3ior.5617550519002745364" id="6901657050505738529" nodeInfo="ng">
+      <node role="children" roleId="3ior.7389400916848037006" type="3ior.BuildLayout_Import" typeId="3ior.841011766565753074" id="4579351749503272628" nodeInfo="ng">
+        <link role="target" roleId="3ior.841011766565753076" targetNodeId="6673387549254013754" resolveInfo="mps-dates" />
+      </node>
+      <node role="children" roleId="3ior.7389400916848037006" type="3ior.BuildLayout_Import" typeId="3ior.841011766565753074" id="4579351749503272633" nodeInfo="ng">
+        <link role="target" roleId="3ior.841011766565753076" targetNodeId="4416206207494300591" resolveInfo="mps-build-deprecated" />
+      </node>
+      <node role="children" roleId="3ior.7389400916848037006" type="3ior.BuildLayout_Import" typeId="3ior.841011766565753074" id="4579351749507278968" nodeInfo="ng">
+        <link role="target" roleId="3ior.841011766565753076" targetNodeId="4579351749506262482" resolveInfo="mps-xml-obsolete" />
+      </node>
+      <node role="children" roleId="3ior.7389400916848037006" type="3ior.BuildLayout_Import" typeId="3ior.841011766565753074" id="8321286824330068136" nodeInfo="ng">
+        <link role="target" roleId="3ior.841011766565753076" targetNodeId="8321286824325034494" resolveInfo="mps-execution-deprecated" />
+      </node>
+      <node role="children" roleId="3ior.7389400916848037006" type="3ior.BuildLayout_Import" typeId="3ior.841011766565753074" id="310331596773403143" nodeInfo="ng">
+        <link role="target" roleId="3ior.841011766565753076" targetNodeId="310331596773287939" resolveInfo="mps-contrib-build" />
+      </node>
+    </node>
   </root>
 </model>
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="44w5i5pagahl14cdncauwsatmvuv8ey">
+<dependencies version="2" modelHash="-bol3hni34n4tum8wgoggssj5ix34kif">
   <dep model="r:0353b795-df17-4050-9687-ee47eeb7094f(jetbrains.mps.build.mps.structure)" />
   <dep model="r:14f06230-41df-42af-9a25-81de46539bf1(jetbrains.mps.build.workflow.accessories)" />
   <dep model="r:4c16a3e9-db56-4447-9b0d-14adce23db0d(jetbrains.mps.build.mps.accessories)" />
@@ -32,12 +32,13 @@
     <dep model="r:fdebfc98-bbd7-4c50-8a8d-eda16da9406e(jetbrains.mps.build.generator.template.main@generator)" />
     <file name="mpsDeprecatedBuildlanguage.xml" />
   </source>
-  <source id="4579351749503152215" name="mpsContrib" hash="divxzd1u6q0i7r9ldf6hmdw2xhs9wqg">
+  <source id="4579351749503152215" name="mpsContrib" hash="-dmwyest41a45rlk47v9zn5iiteu4g5d">
     <dep root="310331596773287654" />
     <dep root="3945781919312589433" />
     <dep root="4061567211001166715" />
     <dep root="4416206207494300367" />
     <dep root="4579351749506262387" />
+    <dep root="6901657050505737387" />
     <dep root="8321286824325034320" />
     <dep model="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
     <dep model="r:d8d06a40-eb90-4ad9-a679-19e3fc235859(jetbrains.mps.build.workflow.generator.template.main@generator)" />
@@ -84,6 +85,18 @@
     <dep model="r:ed179f4d-7cf2-479d-8348-50c1fc63b96a(jetbrains.mps.build.workflow.structure)" />
     <dep model="r:fdebfc98-bbd7-4c50-8a8d-eda16da9406e(jetbrains.mps.build.generator.template.main@generator)" />
     <file name="mpsUiLanguage.xml" />
+  </source>
+  <source id="6901657050505737387" name="mpsContribUnpacked" hash="-esno8cv0s09t1gaob9evy0wtx93hm2m">
+    <dep root="310331596773287654" />
+    <dep root="3945781919312589433" />
+    <dep root="4061567211001166715" />
+    <dep root="4416206207494300367" />
+    <dep root="4579351749506262387" />
+    <dep root="8321286824325034320" />
+    <dep model="r:d8d06a40-eb90-4ad9-a679-19e3fc235859(jetbrains.mps.build.workflow.generator.template.main@generator)" />
+    <dep model="r:ed179f4d-7cf2-479d-8348-50c1fc63b96a(jetbrains.mps.build.workflow.structure)" />
+    <dep model="r:fdebfc98-bbd7-4c50-8a8d-eda16da9406e(jetbrains.mps.build.generator.template.main@generator)" />
+    <file name="mpsContribUnpacked.xml" />
   </source>
 </dependencies>
 
