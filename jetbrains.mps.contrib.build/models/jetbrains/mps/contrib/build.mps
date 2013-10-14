@@ -749,12 +749,6 @@
           <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildVarRefStringPart" typeId="3ior.4903714810883702017" id="4579351749503281308" nodeInfo="ng">
             <link role="macro" roleId="3ior.4903714810883702018" targetNodeId="ffeo.4301118715654465616" resolveInfo="build.number" />
           </node>
-          <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="4579351749503281313" nodeInfo="ng">
-            <property name="text" nameId="3ior.4903714810883755350" value="." />
-          </node>
-          <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildVarRefStringPart" typeId="3ior.4903714810883702017" id="7456614557363089555" nodeInfo="ng">
-            <link role="macro" roleId="3ior.4903714810883702018" targetNodeId="7456614557363089525" resolveInfo="build.contrib.number" />
-          </node>
           <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="7456614557363089554" nodeInfo="ng">
             <property name="text" nameId="3ior.4903714810883755350" value="-contrib.zip" />
           </node>
@@ -769,16 +763,6 @@
     </node>
     <node role="macros" roleId="3ior.5617550519002745378" type="3ior.BuildFolderMacro" typeId="3ior.7389400916848136194" id="8068967866759841406" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="mps_home" />
-    </node>
-    <node role="macros" roleId="3ior.5617550519002745378" type="3ior.BuildVariableMacro" typeId="3ior.3767587139141066978" id="7456614557363089525" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="build.contrib.number" />
-      <node role="initialValue" roleId="3ior.2755237150521975432" type="3ior.BuildVariableMacroInitWithString" typeId="3ior.2755237150521975431" id="7456614557363089540" nodeInfo="ng">
-        <node role="value" roleId="3ior.2755237150521975437" type="3ior.BuildString" typeId="3ior.4380385936562003279" id="7456614557363089539" nodeInfo="ng">
-          <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="7456614557363089538" nodeInfo="ng">
-            <property name="text" nameId="3ior.4903714810883755350" value="1" />
-          </node>
-        </node>
-      </node>
     </node>
   </root>
   <root type="3ior.BuildProject" typeId="3ior.5617550519002745363" id="4579351749506262387" nodeInfo="ng">
