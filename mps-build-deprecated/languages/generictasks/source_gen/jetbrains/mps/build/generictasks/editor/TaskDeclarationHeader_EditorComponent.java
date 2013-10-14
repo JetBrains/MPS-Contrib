@@ -105,7 +105,7 @@ public class TaskDeclarationHeader_EditorComponent implements ConceptEditorCompo
     provider.setNoTargetText("<no name>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setCellId("property_name");
+    editorCell.setCellId("TDHEC_property_name");
     Style style = new StyleImpl();
     BuildLanguageStyle_StyleSheet.applyTask(style, editorCell);
     editorCell.getStyle().putAll(style);
@@ -189,7 +189,7 @@ public class TaskDeclarationHeader_EditorComponent implements ConceptEditorCompo
   private EditorCell createRefNodeList_ws04gp_b5a0(EditorContext editorContext, SNode node) {
     AbstractCellListHandler handler = new TaskDeclarationHeader_EditorComponent.interfacesListHandler_ws04gp_b5a0(node, "interfaces", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Horizontal(), false);
-    editorCell.setCellId("refNodeList_interfaces");
+    editorCell.setCellId("TDHEC_refNodeList_interfaces");
     Style style = new StyleImpl();
     BuildLanguageStyle_StyleSheet.applyTask(style, editorCell);
     editorCell.getStyle().putAll(style);
@@ -294,7 +294,7 @@ public class TaskDeclarationHeader_EditorComponent implements ConceptEditorCompo
     provider.setNoTargetText("<no classname>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setCellId("property_classname");
+    editorCell.setCellId("TDHEC_property_classname");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -343,7 +343,7 @@ public class TaskDeclarationHeader_EditorComponent implements ConceptEditorCompo
     provider.setNoTargetText("<no canHaveInternalText>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setCellId("property_canHaveInternalText");
+    editorCell.setCellId("TDHEC_property_canHaveInternalText");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

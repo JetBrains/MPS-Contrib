@@ -74,7 +74,7 @@ public class TaskDeclarationInspector_EditorComponent implements ConceptEditorCo
     provider.setNoTargetText("<no classname>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setCellId("property_classname");
+    editorCell.setCellId("TDIEC_property_classname");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -118,7 +118,7 @@ public class TaskDeclarationInspector_EditorComponent implements ConceptEditorCo
     provider.setNoTargetText("<no abstract>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setCellId("property_abstract");
+    editorCell.setCellId("TDIEC_property_abstract");
     Style style = new StyleImpl();
     BuildLanguageStyle_StyleSheet.applyBooleanLiteral(style, editorCell);
     editorCell.getStyle().putAll(style);
@@ -211,7 +211,7 @@ public class TaskDeclarationInspector_EditorComponent implements ConceptEditorCo
   private EditorCell createRefNodeList_69kouh_c3a(EditorContext editorContext, SNode node) {
     AbstractCellListHandler handler = new TaskDeclarationInspector_EditorComponent.interfacesListHandler_69kouh_c3a(node, "interfaces", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Horizontal(), false);
-    editorCell.setCellId("refNodeList_interfaces");
+    editorCell.setCellId("TDIEC_refNodeList_interfaces");
     editorCell.setRole(handler.getElementRole());
     return editorCell;
   }
@@ -312,7 +312,7 @@ public class TaskDeclarationInspector_EditorComponent implements ConceptEditorCo
     provider.setNoTargetText("<no canHaveInternalText>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setCellId("property_canHaveInternalText");
+    editorCell.setCellId("TDIEC_property_canHaveInternalText");
     Style style = new StyleImpl();
     BuildLanguageStyle_StyleSheet.applyBooleanLiteral(style, editorCell);
     editorCell.getStyle().putAll(style);
@@ -359,7 +359,7 @@ public class TaskDeclarationInspector_EditorComponent implements ConceptEditorCo
     provider.setNoTargetText("<no depracated>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setCellId("property_depracated");
+    editorCell.setCellId("TDIEC_property_depracated");
     Style style = new StyleImpl();
     BuildLanguageStyle_StyleSheet.applyBooleanLiteral(style, editorCell);
     editorCell.getStyle().putAll(style);

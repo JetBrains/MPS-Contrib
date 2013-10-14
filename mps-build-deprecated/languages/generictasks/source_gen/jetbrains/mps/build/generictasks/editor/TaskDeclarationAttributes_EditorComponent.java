@@ -80,7 +80,7 @@ public class TaskDeclarationAttributes_EditorComponent implements ConceptEditorC
   private EditorCell createRefNodeList_p33j5q_b1a(EditorContext editorContext, SNode node) {
     AbstractCellListHandler handler = new TaskDeclarationAttributes_EditorComponent.attributesDeclListHandler_p33j5q_b1a(node, "attributesDecl", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Vertical(), false);
-    editorCell.setCellId("refNodeList_attributesDecl");
+    editorCell.setCellId("TDAEC_refNodeList_attributesDecl");
     Style style = new StyleImpl();
     style.set(StyleAttributes.SELECTABLE, false);
     editorCell.getStyle().putAll(style);

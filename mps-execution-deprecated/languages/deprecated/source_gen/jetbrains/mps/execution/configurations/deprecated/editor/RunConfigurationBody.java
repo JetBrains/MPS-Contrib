@@ -67,7 +67,7 @@ public class RunConfigurationBody implements ConceptEditorComponent {
   private EditorCell createRefNodeList_mrxxs6_a0(EditorContext editorContext, SNode node) {
     AbstractCellListHandler handler = new RunConfigurationBody.propertyListHandler_mrxxs6_a0(node, "property", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Vertical(), false);
-    editorCell.setCellId("refNodeList_property");
+    editorCell.setCellId("RCB_refNodeList_property");
     editorCell.setRole(handler.getElementRole());
     return editorCell;
   }
@@ -300,7 +300,7 @@ public class RunConfigurationBody implements ConceptEditorComponent {
   private EditorCell createRefNodeList_mrxxs6_b1i0(EditorContext editorContext, SNode node) {
     AbstractCellListHandler handler = new RunConfigurationBody.executionParameterListHandler_mrxxs6_b1i0(node, "executionParameter", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Vertical(), false);
-    editorCell.setCellId("refNodeList_executionParameter");
+    editorCell.setCellId("RCB_refNodeList_executionParameter");
     editorCell.setRole(handler.getElementRole());
     return editorCell;
   }

@@ -77,7 +77,7 @@ public class TargetDeclaration_EditorComponent implements ConceptEditorComponent
   private EditorCell createRefNodeList_8asdb1_c0a(EditorContext editorContext, SNode node) {
     AbstractCellListHandler handler = new TargetDeclaration_EditorComponent.dependsListHandler_8asdb1_c0a(node, "depends", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Horizontal(), false);
-    editorCell.setCellId("refNodeList_depends");
+    editorCell.setCellId("TDEC_refNodeList_depends");
     editorCell.setRole(handler.getElementRole());
     return editorCell;
   }

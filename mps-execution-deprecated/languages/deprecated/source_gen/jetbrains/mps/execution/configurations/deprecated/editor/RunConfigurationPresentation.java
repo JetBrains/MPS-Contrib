@@ -77,7 +77,7 @@ public class RunConfigurationPresentation implements ConceptEditorComponent {
     provider.setNoTargetText("<no caption>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setCellId("property_caption");
+    editorCell.setCellId("RCP_property_caption");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -165,7 +165,7 @@ public class RunConfigurationPresentation implements ConceptEditorComponent {
     provider.setNoTargetText("<no iconPath>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setCellId("property_iconPath");
+    editorCell.setCellId("RCP_property_iconPath");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -225,7 +225,7 @@ public class RunConfigurationPresentation implements ConceptEditorComponent {
     provider.setNoTargetText("<no isDebuggable>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setCellId("property_isDebuggable");
+    editorCell.setCellId("RCP_property_isDebuggable");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

@@ -77,7 +77,7 @@ public class GenericAttributeDeclaration_EditorComponent implements ConceptEdito
     provider.setNoTargetText("<no required>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setCellId("property_required");
+    editorCell.setCellId("GADEC_property_required");
     Style style = new StyleImpl();
     BuildLanguageStyle_StyleSheet.applyBooleanLiteral(style, editorCell);
     editorCell.getStyle().putAll(style);
@@ -178,7 +178,7 @@ public class GenericAttributeDeclaration_EditorComponent implements ConceptEdito
     provider.setNoTargetText("<no deprecated>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setCellId("property_deprecated");
+    editorCell.setCellId("GADEC_property_deprecated");
     Style style = new StyleImpl();
     BuildLanguageStyle_StyleSheet.applyBooleanLiteral(style, editorCell);
     editorCell.getStyle().putAll(style);

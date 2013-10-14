@@ -42,7 +42,7 @@ public class BaseElement_attributeList implements ConceptEditorComponent {
   private EditorCell createRefNodeList_usj5o3_a0(EditorContext editorContext, SNode node) {
     AbstractCellListHandler handler = new BaseElement_attributeList.attributeListHandler_usj5o3_a0(node, "attribute", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Horizontal(), false);
-    editorCell.setCellId("refNodeList_attribute");
+    editorCell.setCellId("BEL_refNodeList_attribute");
     editorCell.setRole(handler.getElementRole());
     return editorCell;
   }

@@ -49,7 +49,7 @@ public class RunConfigurationMethods implements ConceptEditorComponent {
   private EditorCell createRefNodeList_a3nk37_b0(EditorContext editorContext, SNode node) {
     AbstractCellListHandler handler = new RunConfigurationMethods.methodDeclarationListHandler_a3nk37_b0(node, "methodDeclaration", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Vertical(), false);
-    editorCell.setCellId("refNodeList_methodDeclaration");
+    editorCell.setCellId("RCM_refNodeList_methodDeclaration");
     editorCell.setRole(handler.getElementRole());
     return editorCell;
   }
