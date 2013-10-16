@@ -102,7 +102,7 @@ public class PeriodSeparatorFormatToken_Editor extends DefaultNodeEditor {
   }
 
   private static boolean renderingCondition_ih8plz_a2a(SNode node, EditorContext editorContext, IScope scope) {
-    return isNotEmpty_ih8plz_a0a0a7(SPropertyOperations.getString(node, "lastText")) && SPropertyOperations.hasValue(node, "kind", "default", "default");
+    return isNotEmptyString(SPropertyOperations.getString(node, "lastText")) && SPropertyOperations.hasValue(node, "kind", "default", "default");
   }
 
   private EditorCell createConstant_ih8plz_a2a(EditorContext editorContext, SNode node) {
@@ -295,7 +295,7 @@ public class PeriodSeparatorFormatToken_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public static boolean isNotEmpty_ih8plz_a0a0a7(String str) {
+  private static boolean isNotEmptyString(String str) {
     return str != null && str.length() > 0;
   }
 }

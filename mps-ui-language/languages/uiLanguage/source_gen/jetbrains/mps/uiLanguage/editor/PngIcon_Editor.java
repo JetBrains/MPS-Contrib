@@ -90,7 +90,7 @@ public class PngIcon_Editor extends DefaultNodeEditor {
   }
 
   private static boolean renderingCondition_4kucyt_a3a(SNode node, EditorContext editorContext, IScope scope) {
-    return isNotEmpty_4kucyt_a0a0g(SPropertyOperations.getString(node, "iconData"));
+    return isNotEmptyString(SPropertyOperations.getString(node, "iconData"));
   }
 
   private EditorCell createJComponent_4kucyt_a3a(EditorContext editorContext, SNode node) {
@@ -123,7 +123,7 @@ public class PngIcon_Editor extends DefaultNodeEditor {
     return EditorIconUtil.createSelectIconButton(node, editorContext);
   }
 
-  public static boolean isNotEmpty_4kucyt_a0a0g(String str) {
+  private static boolean isNotEmptyString(String str) {
     return str != null && str.length() > 0;
   }
 }

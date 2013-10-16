@@ -34,31 +34,31 @@ public class check_ScheduleLiteral_NonTypesystemRule extends AbstractNonTypesyst
         IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(literal, "Month is not specified", "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1015544890586322359", null, errorTarget);
       }
     }
-    if (SPropertyOperations.getBoolean(period, "dayOfMonth") && isEmpty_gmond6_a0a4a1(SPropertyOperations.getString(literal, "dayOfMonth"))) {
+    if (SPropertyOperations.getBoolean(period, "dayOfMonth") && isEmptyString(SPropertyOperations.getString(literal, "dayOfMonth"))) {
       {
         MessageTarget errorTarget = new NodeMessageTarget();
         IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(literal, "Day of month is not specified", "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1015544890586322367", null, errorTarget);
       }
     }
-    if (SPropertyOperations.getBoolean(period, "dayOfWeek") && isEmpty_gmond6_a0a5a1(SPropertyOperations.getString_def(literal, "dayOfWeek", "SUN"))) {
+    if (SPropertyOperations.getBoolean(period, "dayOfWeek") && isEmptyString(SPropertyOperations.getString_def(literal, "dayOfWeek", "SUN"))) {
       {
         MessageTarget errorTarget = new NodeMessageTarget();
         IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(literal, "Day of week is not specified", "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1015544890586323059", null, errorTarget);
       }
     }
-    if (SPropertyOperations.getBoolean(period, "hour") && isEmpty_gmond6_a0a6a1(SPropertyOperations.getString(literal, "hour"))) {
+    if (SPropertyOperations.getBoolean(period, "hour") && isEmptyString(SPropertyOperations.getString(literal, "hour"))) {
       {
         MessageTarget errorTarget = new NodeMessageTarget();
         IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(literal, "Hour is not specified", "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1015544890586323073", null, errorTarget);
       }
     }
-    if (SPropertyOperations.getBoolean(period, "minute") && isEmpty_gmond6_a0a7a1(SPropertyOperations.getString(literal, "minute"))) {
+    if (SPropertyOperations.getBoolean(period, "minute") && isEmptyString(SPropertyOperations.getString(literal, "minute"))) {
       {
         MessageTarget errorTarget = new NodeMessageTarget();
         IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(literal, "Minute is not specified", "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1015544890586323087", null, errorTarget);
       }
     }
-    if (SPropertyOperations.getBoolean(period, "second") && isEmpty_gmond6_a0a8a1(SPropertyOperations.getString(literal, "second"))) {
+    if (SPropertyOperations.getBoolean(period, "second") && isEmptyString(SPropertyOperations.getString(literal, "second"))) {
       {
         MessageTarget errorTarget = new NodeMessageTarget();
         IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(literal, "Second is not specified", "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1015544890586323101", null, errorTarget);
@@ -82,23 +82,7 @@ public class check_ScheduleLiteral_NonTypesystemRule extends AbstractNonTypesyst
     return false;
   }
 
-  public static boolean isEmpty_gmond6_a0a4a1(String str) {
-    return str == null || str.length() == 0;
-  }
-
-  public static boolean isEmpty_gmond6_a0a5a1(String str) {
-    return str == null || str.length() == 0;
-  }
-
-  public static boolean isEmpty_gmond6_a0a6a1(String str) {
-    return str == null || str.length() == 0;
-  }
-
-  public static boolean isEmpty_gmond6_a0a7a1(String str) {
-    return str == null || str.length() == 0;
-  }
-
-  public static boolean isEmpty_gmond6_a0a8a1(String str) {
+  private static boolean isEmptyString(String str) {
     return str == null || str.length() == 0;
   }
 }

@@ -168,7 +168,7 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private static boolean renderingCondition_xfdsch_a2b0(SNode node, EditorContext editorContext, IScope scope) {
-    return isNotEmpty_xfdsch_a0a0l(SPropertyOperations.getString(node, "if"));
+    return isNotEmptyString(SPropertyOperations.getString(node, "if"));
   }
 
   private EditorCell createConstant_xfdsch_a2b0(EditorContext editorContext, SNode node) {
@@ -209,7 +209,7 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private static boolean renderingCondition_xfdsch_a3b0(SNode node, EditorContext editorContext, IScope scope) {
-    return isNotEmpty_xfdsch_a0a0p(SPropertyOperations.getString(node, "unless"));
+    return isNotEmptyString(SPropertyOperations.getString(node, "unless"));
   }
 
   private EditorCell createConstant_xfdsch_a3b0(EditorContext editorContext, SNode node) {
@@ -559,11 +559,7 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public static boolean isNotEmpty_xfdsch_a0a0l(String str) {
-    return str != null && str.length() > 0;
-  }
-
-  public static boolean isNotEmpty_xfdsch_a0a0p(String str) {
+  private static boolean isNotEmptyString(String str) {
     return str != null && str.length() > 0;
   }
 }

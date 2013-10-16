@@ -79,7 +79,7 @@ public class PeriodPropertyFormatToken_Editor extends DefaultNodeEditor {
   }
 
   private static boolean renderingCondition_ed1xw0_a1a(SNode node, EditorContext editorContext, IScope scope) {
-    return isNotEmpty_ed1xw0_a0a0f(SPropertyOperations.getString(node, "prefix"));
+    return isNotEmptyString(SPropertyOperations.getString(node, "prefix"));
   }
 
   private EditorCell createProperty_ed1xw0_a1a(EditorContext editorContext, SNode node) {
@@ -116,7 +116,7 @@ public class PeriodPropertyFormatToken_Editor extends DefaultNodeEditor {
   }
 
   private static boolean renderingCondition_ed1xw0_a1b0(SNode node, EditorContext editorContext, IScope scope) {
-    return isNotEmpty_ed1xw0_a0a0i(SPropertyOperations.getString(node, "prefixPlural"));
+    return isNotEmptyString(SPropertyOperations.getString(node, "prefixPlural"));
   }
 
   private EditorCell createConstant_ed1xw0_a1b0(EditorContext editorContext, SNode node) {
@@ -283,7 +283,7 @@ public class PeriodPropertyFormatToken_Editor extends DefaultNodeEditor {
   }
 
   private static boolean renderingCondition_ed1xw0_a5a(SNode node, EditorContext editorContext, IScope scope) {
-    return isNotEmpty_ed1xw0_a0a0u(SPropertyOperations.getString(node, "suffix"));
+    return isNotEmptyString(SPropertyOperations.getString(node, "suffix"));
   }
 
   private EditorCell createProperty_ed1xw0_a5a(EditorContext editorContext, SNode node) {
@@ -320,7 +320,7 @@ public class PeriodPropertyFormatToken_Editor extends DefaultNodeEditor {
   }
 
   private static boolean renderingCondition_ed1xw0_a1f0(SNode node, EditorContext editorContext, IScope scope) {
-    return isNotEmpty_ed1xw0_a0a0x(SPropertyOperations.getString(node, "suffixPlural"));
+    return isNotEmptyString(SPropertyOperations.getString(node, "suffixPlural"));
   }
 
   private EditorCell createConstant_ed1xw0_a1f0(EditorContext editorContext, SNode node) {
@@ -604,19 +604,7 @@ public class PeriodPropertyFormatToken_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public static boolean isNotEmpty_ed1xw0_a0a0f(String str) {
-    return str != null && str.length() > 0;
-  }
-
-  public static boolean isNotEmpty_ed1xw0_a0a0i(String str) {
-    return str != null && str.length() > 0;
-  }
-
-  public static boolean isNotEmpty_ed1xw0_a0a0u(String str) {
-    return str != null && str.length() > 0;
-  }
-
-  public static boolean isNotEmpty_ed1xw0_a0a0x(String str) {
+  private static boolean isNotEmptyString(String str) {
     return str != null && str.length() > 0;
   }
 }

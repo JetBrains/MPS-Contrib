@@ -304,11 +304,11 @@ public class Generator {
     public void updateDeclaration(SNode decl, ClassInfo ci) {
       if (ImportOptions.getInstance().isNeedUpdateDeclarations()) {
         String name = this.myNamesMap.getNameForClass(ci.getDeclarationClass());
-        if ((isEmpty_ixz87t_a0a0b0a0n9(SPropertyOperations.getString(decl, "name"))) || neq_ixz87t_a0a1a0a31j(SPropertyOperations.getString(decl, "name"), name)) {
+        if ((isEmptyString(SPropertyOperations.getString(decl, "name"))) || neq_ixz87t_a0a1a0a31j(SPropertyOperations.getString(decl, "name"), name)) {
           SPropertyOperations.set(decl, "name", name);
           System.out.format("Declaration %s name has been set to %s.\n", ci.getDeclarationClass().getName(), name);
         }
-        if (isEmpty_ixz87t_a0c0a0n9(SPropertyOperations.getString(decl, "classname"))) {
+        if (isEmptyString(SPropertyOperations.getString(decl, "classname"))) {
           SPropertyOperations.set(decl, "classname", ci.getDeclarationClass().getName());
         }
         if (SPropertyOperations.getBoolean(decl, "abstract") != ci.isAbstract()) {
@@ -443,7 +443,7 @@ public class Generator {
       );
     }
 
-    public static boolean isEmpty_ixz87t_a0a0b0a0n9(String str) {
+    private static boolean isEmptyString(String str) {
       return str == null || str.length() == 0;
     }
 
@@ -452,10 +452,6 @@ public class Generator {
         a.equals(b) :
         a == b
       ));
-    }
-
-    public static boolean isEmpty_ixz87t_a0c0a0n9(String str) {
-      return str == null || str.length() == 0;
     }
   }
 

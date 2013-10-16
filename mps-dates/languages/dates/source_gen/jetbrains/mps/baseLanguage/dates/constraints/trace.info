@@ -957,9 +957,9 @@
     <nodeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="83" startPosition="63" endLine="84" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="88" startPosition="7" endLine="89" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="92" startPosition="0" endLine="93" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="breakingNode_bw6cj5_a0a3a0a0a1a0b0a1a2" />
-    <nodeInfo nodeId="5581663871701800943" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="94" startPosition="77" endLine="95" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5581663871701800943" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="94" startPosition="55" endLine="95" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="25" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="PeriodPropertyFormatToken_Constraints#()V" />
-    <nodeInfo nodeId="5581663871701800943" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="94" startPosition="0" endLine="97" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="isNotEmpty_bw6cj5_a0a0a0b0a0a0b0a1a0b0c#(Ljava/lang/String;)Z" />
+    <nodeInfo nodeId="5581663871701800943" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="94" startPosition="0" endLine="97" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="isNotEmptyString#(Ljava/lang/String;)Z" />
     <nodeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="33" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasOwnValidator#()Z" />
     <nodeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="51" startPosition="0" endLine="55" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasOwnScopeProvider#()Z" />
     <nodeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="60" startPosition="0" endLine="64" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasPresentation#()Z" />
@@ -982,7 +982,7 @@
     <scopeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="61" startPosition="44" endLine="62" endPosition="24" />
     <scopeInfo nodeId="5581663871699705090" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="78" startPosition="142" endLine="79" endPosition="132" />
     <scopeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="83" startPosition="63" endLine="84" endPosition="58" />
-    <scopeInfo nodeId="5581663871701800943" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="94" startPosition="77" endLine="95" endPosition="43" />
+    <scopeInfo nodeId="5581663871701800943" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="94" startPosition="55" endLine="95" endPosition="43" />
     <scopeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="39" startPosition="84" endLine="41" endPosition="123">
       <varInfo nodeId="7249953535157223281" varName="propertyName" />
     </scopeInfo>

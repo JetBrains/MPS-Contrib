@@ -130,13 +130,13 @@
     <unitInfo nodeId="1015544890586293378" fileName="NotNullOperation_Behavior.java" startLine="10" startPosition="0" endLine="28" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.NotNullOperation_Behavior" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903ce(jetbrains.mps.baseLanguage.dates.behavior)/1075917115049868776">
-    <nodeInfo nodeId="1075917115049868800" fileName="ConditionalFormatToken_Behavior.java" startLine="19" startPosition="60" endLine="20" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1075917115049868800" fileName="ConditionalFormatToken_Behavior.java" startLine="19" startPosition="52" endLine="20" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1075917115049868776" fileName="ConditionalFormatToken_Behavior.java" startLine="9" startPosition="0" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="1075917115049868800" fileName="ConditionalFormatToken_Behavior.java" startLine="19" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="isEmpty_7o1ii_a0a0a0a1#(Ljava/lang/String;)Z" />
+    <nodeInfo nodeId="1075917115049868800" fileName="ConditionalFormatToken_Behavior.java" startLine="19" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="isEmptyString#(Ljava/lang/String;)Z" />
     <nodeInfo nodeId="1075917115049868784" fileName="ConditionalFormatToken_Behavior.java" startLine="12" startPosition="78" endLine="16" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1075917115049868776" fileName="ConditionalFormatToken_Behavior.java" startLine="12" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getClassName_1075917115049868779#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
     <scopeInfo nodeId="1075917115049868778" fileName="ConditionalFormatToken_Behavior.java" startLine="9" startPosition="43" endLine="9" endPosition="43" />
-    <scopeInfo nodeId="1075917115049868800" fileName="ConditionalFormatToken_Behavior.java" startLine="19" startPosition="60" endLine="20" endPosition="44" />
+    <scopeInfo nodeId="1075917115049868800" fileName="ConditionalFormatToken_Behavior.java" startLine="19" startPosition="52" endLine="20" endPosition="44" />
     <scopeInfo nodeId="1075917115049868776" fileName="ConditionalFormatToken_Behavior.java" startLine="9" startPosition="0" endLine="11" endPosition="0">
       <varInfo nodeId="1075917115049868776" varName="thisNode" />
     </scopeInfo>

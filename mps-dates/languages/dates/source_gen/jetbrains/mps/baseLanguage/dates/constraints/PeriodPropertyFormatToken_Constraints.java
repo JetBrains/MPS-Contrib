@@ -64,7 +64,7 @@ public class PeriodPropertyFormatToken_Constraints extends BaseConstraintsDescri
 
           @Override
           public String getPresentation(final IOperationContext operationContext, final ReferencePresentationContext _context) {
-            String name = (isNotEmpty_bw6cj5_a0a0a0b0a0a0b0a1a0b0c(SPropertyOperations.getString(_context.getParameterNode(), "pluralForm")) ?
+            String name = (isNotEmptyString(SPropertyOperations.getString(_context.getParameterNode(), "pluralForm")) ?
               SPropertyOperations.getString(_context.getParameterNode(), "pluralForm") :
               SPropertyOperations.getString(_context.getParameterNode(), "name")
             );
@@ -91,7 +91,7 @@ public class PeriodPropertyFormatToken_Constraints extends BaseConstraintsDescri
 
   private static SNodePointer breakingNode_bw6cj5_a0a3a0a0a1a0b0a1a2 = new SNodePointer("r:00000000-0000-4000-0000-011c895903cf(jetbrains.mps.baseLanguage.dates.constraints)", "5581663871699705089");
 
-  public static boolean isNotEmpty_bw6cj5_a0a0a0b0a0a0b0a1a0b0c(String str) {
+  private static boolean isNotEmptyString(String str) {
     return str != null && str.length() > 0;
   }
 }
