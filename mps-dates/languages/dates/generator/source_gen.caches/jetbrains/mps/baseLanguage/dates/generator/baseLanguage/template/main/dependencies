@@ -17,6 +17,7 @@
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.behavior.WithPropertyCompareExpression_Behavior" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.generator.baseLanguage.template.util.DatesQueriesUtil" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.datesInternal.behavior.DateTimeZone_Behavior" />
+    <classNode dependClassName="jetbrains.mps.generator.runtime.Generated" />
     <classNode dependClassName="jetbrains.mps.generator.template.BaseMappingRuleContext" />
     <classNode dependClassName="jetbrains.mps.generator.template.IfMacroContext" />
     <classNode dependClassName="jetbrains.mps.generator.template.PropertyMacroContext" />
