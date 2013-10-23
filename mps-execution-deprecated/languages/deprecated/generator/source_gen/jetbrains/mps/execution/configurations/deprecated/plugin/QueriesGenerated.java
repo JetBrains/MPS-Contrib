@@ -79,7 +79,7 @@ public class QueriesGenerated {
     SModule module = ((TemplateQueryContext) _context).getGenerator().getGeneratorSessionContext().getInvocationContext().getModule();
     return (module == null ?
       null :
-      module.getModuleId().toString()
+      module.getModuleReference().toString()
     );
   }
 
@@ -103,7 +103,7 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_801145553017987806(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return _context.getOriginalInputModel().getModule().getModuleId().toString();
+    return _context.getOriginalInputModel().getModule().getModuleReference().toString();
   }
 
   public static Object propertyMacro_GetPropertyValue_8173163127951938046(final IOperationContext operationContext, final PropertyMacroContext _context) {
