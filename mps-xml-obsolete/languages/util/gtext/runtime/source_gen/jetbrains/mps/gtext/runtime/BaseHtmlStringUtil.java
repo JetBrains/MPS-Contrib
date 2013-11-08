@@ -52,10 +52,7 @@ public class BaseHtmlStringUtil {
     StringBuilder builder = null;
     for (int i = 0; i < capacity; i++) {
       final char c = str.charAt(i);
-      String literal = ((c < _charsToLiterals.length) ?
-        _charsToLiterals[c] :
-        null
-      );
+      String literal = ((c < _charsToLiterals.length) ? _charsToLiterals[c] : null);
       if (literal != null) {
         if (builder == null) {
           builder = new StringBuilder(capacity + 16);

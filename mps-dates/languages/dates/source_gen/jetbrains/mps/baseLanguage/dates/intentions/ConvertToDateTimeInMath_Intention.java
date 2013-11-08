@@ -79,10 +79,7 @@ public class ConvertToDateTimeInMath_Intention implements IntentionFactory {
     }
 
     public String getDescription(final SNode node, final EditorContext editorContext) {
-      return "Convert " + '\'' + (MathDateTimeOperation_Behavior.call_needLeftConvert_1238250704510(node) ?
-        BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(node, "leftExpression", true), "virtual_getPresentation_1213877396640", new Object[]{}) :
-        BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(node, "rightExpression", true), "virtual_getPresentation_1213877396640", new Object[]{}) + '\'' + " to Datetime"
-      );
+      return "Convert " + '\'' + (MathDateTimeOperation_Behavior.call_needLeftConvert_1238250704510(node) ? BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(node, "leftExpression", true), "virtual_getPresentation_1213877396640", new Object[]{}) : BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(node, "rightExpression", true), "virtual_getPresentation_1213877396640", new Object[]{}) + '\'' + " to Datetime");
     }
 
     public void execute(final SNode node, final EditorContext editorContext) {

@@ -68,10 +68,7 @@ public class MakeTypeExpressionListVertical_Intention implements IntentionFactor
     }
 
     public String getDescription(final SNode node, final EditorContext editorContext) {
-      return (SPropertyOperations.getBoolean(node, "isVertical") ?
-        "Make type expression list horizontal" :
-        "Make type expression list vertical"
-      );
+      return (SPropertyOperations.getBoolean(node, "isVertical") ? "Make type expression list horizontal" : "Make type expression list vertical");
     }
 
     public void execute(final SNode node, final EditorContext editorContext) {

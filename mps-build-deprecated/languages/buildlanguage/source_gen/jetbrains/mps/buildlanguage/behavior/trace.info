@@ -664,11 +664,11 @@
     <nodeInfo nodeId="1218551988100" fileName="MultiLineString_Behavior.java" startLine="15" startPosition="71" endLine="16" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1218552680071" fileName="MultiLineString_Behavior.java" startLine="19" startPosition="77" endLine="20" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1218552680081" fileName="MultiLineString_Behavior.java" startLine="21" startPosition="109" endLine="22" endPosition="124" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1218552680092" fileName="MultiLineString_Behavior.java" startLine="23" startPosition="5" endLine="24" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1218551973556" fileName="MultiLineString_Behavior.java" startLine="12" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
     <nodeInfo nodeId="1218551973556" fileName="MultiLineString_Behavior.java" startLine="15" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_toString_1213877472569#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
     <nodeInfo nodeId="1218552680075" fileName="MultiLineString_Behavior.java" startLine="20" startPosition="23" endLine="23" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="1218552680092" fileName="MultiLineString_Behavior.java" startLine="23" startPosition="5" endLine="27" endPosition="6" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1218551973556" fileName="MultiLineString_Behavior.java" startLine="19" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getActualValue_1213877472572#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+    <nodeInfo nodeId="1218551973556" fileName="MultiLineString_Behavior.java" startLine="19" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getActualValue_1213877472572#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
     <scopeInfo nodeId="1218551973558" fileName="MultiLineString_Behavior.java" startLine="12" startPosition="43" endLine="12" endPosition="43" />
     <scopeInfo nodeId="1218551975872" fileName="MultiLineString_Behavior.java" startLine="15" startPosition="71" endLine="16" endPosition="59" />
     <scopeInfo nodeId="1218552680080" fileName="MultiLineString_Behavior.java" startLine="21" startPosition="109" endLine="22" endPosition="124" />
@@ -681,13 +681,13 @@
     <scopeInfo nodeId="1218552680075" fileName="MultiLineString_Behavior.java" startLine="20" startPosition="23" endLine="23" endPosition="5">
       <varInfo nodeId="1218552680076" varName="lit" />
     </scopeInfo>
-    <scopeInfo nodeId="1218552002520" fileName="MultiLineString_Behavior.java" startLine="19" startPosition="77" endLine="27" endPosition="6">
+    <scopeInfo nodeId="1218552002520" fileName="MultiLineString_Behavior.java" startLine="19" startPosition="77" endLine="24" endPosition="47">
       <varInfo nodeId="1218552680072" varName="result" />
     </scopeInfo>
-    <scopeInfo nodeId="1218551973556" fileName="MultiLineString_Behavior.java" startLine="19" startPosition="0" endLine="29" endPosition="0">
+    <scopeInfo nodeId="1218551973556" fileName="MultiLineString_Behavior.java" startLine="19" startPosition="0" endLine="26" endPosition="0">
       <varInfo nodeId="1218551973556" varName="thisNode" />
     </scopeInfo>
-    <unitInfo nodeId="1218551973556" fileName="MultiLineString_Behavior.java" startLine="11" startPosition="0" endLine="30" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.MultiLineString_Behavior" />
+    <unitInfo nodeId="1218551973556" fileName="MultiLineString_Behavior.java" startLine="11" startPosition="0" endLine="27" endPosition="0" unitName="jetbrains.mps.buildlanguage.behavior.MultiLineString_Behavior" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895904c0(jetbrains.mps.buildlanguage.behavior)/1230222762938">
     <nodeInfo nodeId="1230222762938" fileName="ITargetReference_Behavior.java" startLine="15" startPosition="78" endLine="16" endPosition="128" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />

@@ -4,7 +4,7 @@
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
-  <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" />
+  <dep model="r:00000000-0000-4000-0000-011c8959032f(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.main@generator)" />
   <dep model="r:00000000-0000-4000-0000-011c89590373(jetbrains.mps.baseLanguage.classifiers.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c895904c8(jetbrains.mps.buildlanguage.structure)" hash="dml0mhziq5cr1af33s0er0o3yxkv22g" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
@@ -22,38 +22,20 @@
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
-    <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c8959032f(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.main@generator)" />
     <dep model="r:00000000-0000-4000-0000-011c89590373(jetbrains.mps.baseLanguage.classifiers.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895904c8(jetbrains.mps.buildlanguage.structure)" />
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="StructureAspectDescriptor.java" />
   </common>
-  <source id="353793545802643466" name="Attribute" hash="-7t40obn43n0z2bdzcsnxsr650gsehyo">
-    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
-  </source>
-  <source id="353793545802643469" name="AttributeDeclaration" hash="etvgeclyodz76tlni7ozadg4j0d69oh">
-    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
-  </source>
-  <source id="353793545802643477" name="TaskCall" hash="23mmy3oz3c8rbn4nq1mruahzahodhl0">
-    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
-  </source>
-  <source id="353793545802643483" name="TaskInterfaceDeclaration" hash="-9oztp5wczkdfitbwhvm72c65daiealc">
-    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
-  </source>
-  <source id="353793545802643486" name="BuiltInTaskDeclaration" hash="-23k5t3ugvvh79zjp92aklrs2242u4xv">
-    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
-  </source>
-  <source id="353793545802643498" name="NestedDeclaration" hash="-1bxozwki5yl1pmi9u448mjy90x6pg50">
-    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
-  </source>
-  <source id="353793545802854870" name="PathReference" hash="15axa3brv3d6jsiiem1echvckzxpsub">
-    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
-  </source>
-  <source id="3037831562615764081" name="TaskReference" hash="5my1114iy2aopip8e9bz0v1s3hf1e2b">
-    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
-  </source>
-  <source id="5699548131010533020" name="ITaskDeclaration" hash="-2ccp38ccm944hc1jekph2y5e0uqbizm">
-    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
-  </source>
+  <source id="353793545802643466" name="Attribute" hash="-7t40obn43n0z2bdzcsnxsr650gsehyo" />
+  <source id="353793545802643469" name="AttributeDeclaration" hash="etvgeclyodz76tlni7ozadg4j0d69oh" />
+  <source id="353793545802643477" name="TaskCall" hash="23mmy3oz3c8rbn4nq1mruahzahodhl0" />
+  <source id="353793545802643483" name="TaskInterfaceDeclaration" hash="-9oztp5wczkdfitbwhvm72c65daiealc" />
+  <source id="353793545802643486" name="BuiltInTaskDeclaration" hash="-23k5t3ugvvh79zjp92aklrs2242u4xv" />
+  <source id="353793545802643498" name="NestedDeclaration" hash="-1bxozwki5yl1pmi9u448mjy90x6pg50" />
+  <source id="353793545802854870" name="PathReference" hash="15axa3brv3d6jsiiem1echvckzxpsub" />
+  <source id="3037831562615764081" name="TaskReference" hash="5my1114iy2aopip8e9bz0v1s3hf1e2b" />
+  <source id="5699548131010533020" name="ITaskDeclaration" hash="-2ccp38ccm944hc1jekph2y5e0uqbizm" />
 </dependencies>
 

@@ -33,10 +33,7 @@ public class EditorIconUtil {
       @Override
       public void actionPerformed(ActionEvent e) {
         Component root = SwingUtilities.getRoot(button);
-        JFrame frame = (root instanceof JFrame ?
-          (JFrame) root :
-          null
-        );
+        JFrame frame = (root instanceof JFrame ? (JFrame) root : null);
         TreeFileChooser chooser = new TreeFileChooser();
         chooser.setContext(context.getOperationContext());
         IFile file = chooser.showDialog(frame);

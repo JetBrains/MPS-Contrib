@@ -35,10 +35,7 @@ public class MultiLineString_Constraints extends BaseConstraintsDescriptor {
           for (SNode lit : ListSequence.fromList(SLinkOperations.getTargets(node, "stringExpression", true))) {
             result += BehaviorReflection.invokeVirtual(String.class, lit, "virtual_toString_1213877472569", new Object[]{});
           }
-          return (result.length() > 0 ?
-            result :
-            ""
-          );
+          return (result.length() > 0 ? result : "");
         }
       }
     });

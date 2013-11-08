@@ -11,10 +11,7 @@ public class GDocument_Behavior {
   }
 
   public static String virtual_getUnitName_5067982036267369911(SNode thisNode) {
-    String extension = (SPropertyOperations.getString(thisNode, "extension") != null ?
-      SPropertyOperations.getString(thisNode, "extension").replace(".", "$") :
-      ""
-    );
+    String extension = (SPropertyOperations.getString(thisNode, "extension") != null ? SPropertyOperations.getString(thisNode, "extension").replace(".", "$") : "");
     return SNodeOperations.getModelLongName(jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations.getModel(thisNode)) + "." + SPropertyOperations.getString(thisNode, "name").replace(".", "$") + "$" + extension;
   }
 }

@@ -402,45 +402,27 @@ public class Generator {
     }
 
     private static boolean eq_ixz87t_a0a0a0f9(Object a, Object b) {
-      return (a != null ?
-        a.equals(b) :
-        a == b
-      );
+      return (a != null ? a.equals(b) : a == b);
     }
 
     private static boolean eq_ixz87t_a0a0a0a0a0a0a0g9(Object a, Object b) {
-      return (a != null ?
-        a.equals(b) :
-        a == b
-      );
+      return (a != null ? a.equals(b) : a == b);
     }
 
     private static boolean eq_ixz87t_a0a0a0a0a0a0a0l9(Object a, Object b) {
-      return (a != null ?
-        a.equals(b) :
-        a == b
-      );
+      return (a != null ? a.equals(b) : a == b);
     }
 
     private static boolean eq_ixz87t_a0e0l9(Object a, Object b) {
-      return (a != null ?
-        a.equals(b) :
-        a == b
-      );
+      return (a != null ? a.equals(b) : a == b);
     }
 
     private static boolean eq_ixz87t_a0a0a0m9(Object a, Object b) {
-      return (a != null ?
-        a.equals(b) :
-        a == b
-      );
+      return (a != null ? a.equals(b) : a == b);
     }
 
     private static boolean eq_ixz87t_a0c0m9(Object a, Object b) {
-      return (a != null ?
-        a.equals(b) :
-        a == b
-      );
+      return (a != null ? a.equals(b) : a == b);
     }
 
     private static boolean isEmptyString(String str) {
@@ -448,31 +430,19 @@ public class Generator {
     }
 
     private static boolean neq_ixz87t_a0a1a0a31j(Object a, Object b) {
-      return !((a != null ?
-        a.equals(b) :
-        a == b
-      ));
+      return !((a != null ? a.equals(b) : a == b));
     }
   }
 
   private static boolean eq_ixz87t_a0a0a0b0h(Object a, Object b) {
-    return (a != null ?
-      a.equals(b) :
-      a == b
-    );
+    return (a != null ? a.equals(b) : a == b);
   }
 
   private static boolean eq_ixz87t_a0b0a0b0h(Object a, Object b) {
-    return (a != null ?
-      a.equals(b) :
-      a == b
-    );
+    return (a != null ? a.equals(b) : a == b);
   }
 
   private static boolean eq_ixz87t_a0a1a0a0a0a0a0a9a7(Object a, Object b) {
-    return (a != null ?
-      a.equals(b) :
-      a == b
-    );
+    return (a != null ? a.equals(b) : a == b);
   }
 }

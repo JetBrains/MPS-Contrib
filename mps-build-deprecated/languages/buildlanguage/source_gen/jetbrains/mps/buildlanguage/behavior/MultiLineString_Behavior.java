@@ -21,9 +21,6 @@ public class MultiLineString_Behavior {
     for (SNode lit : ListSequence.fromList(SLinkOperations.getTargets(thisNode, "stringExpression", true))) {
       result += BehaviorReflection.invokeVirtual(String.class, lit, "virtual_getActualValue_1213877472572", new Object[]{});
     }
-    return (result.length() > 0 ?
-      result :
-      ""
-    );
+    return (result.length() > 0 ? result : "");
   }
 }

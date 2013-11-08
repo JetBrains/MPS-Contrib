@@ -76,13 +76,7 @@ public class RemoveEmptyComment_intention_Intention implements IntentionFactory 
     }
 
     public String getDescription(final SNode node, final EditorContext editorContext) {
-      return "Remove Empty Comment from " + (((SPropertyOperations.getString(SNodeOperations.getConceptDeclaration(node), "conceptAlias") != null) ?
-        SPropertyOperations.getString(SNodeOperations.getConceptDeclaration(node), "conceptAlias") :
-        "Node"
-      )) + " " + ((SPropertyOperations.getString(node, "name") != null) ?
-        SPropertyOperations.getString(node, "name") :
-        ""
-      );
+      return "Remove Empty Comment from " + (((SPropertyOperations.getString(SNodeOperations.getConceptDeclaration(node), "conceptAlias") != null) ? SPropertyOperations.getString(SNodeOperations.getConceptDeclaration(node), "conceptAlias") : "Node")) + " " + ((SPropertyOperations.getString(node, "name") != null) ? SPropertyOperations.getString(node, "name") : "");
     }
 
     public void execute(final SNode node, final EditorContext editorContext) {

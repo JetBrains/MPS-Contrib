@@ -10,10 +10,7 @@ public class LiteralPrinter implements Printer {
   private String myLiteral;
 
   public LiteralPrinter(String literal) {
-    myLiteral = (literal != null ?
-      literal :
-      ""
-    );
+    myLiteral = (literal != null ? literal : "");
   }
 
   @Override

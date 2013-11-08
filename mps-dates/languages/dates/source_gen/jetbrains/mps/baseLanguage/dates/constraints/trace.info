@@ -899,48 +899,48 @@
     <nodeInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="26" startPosition="83" endLine="27" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="30" startPosition="44" endLine="31" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="39" startPosition="44" endLine="40" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7249953535157218344" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="52" startPosition="142" endLine="53" endPosition="131" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="57" startPosition="63" endLine="58" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="62" startPosition="7" endLine="63" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="66" startPosition="0" endLine="67" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="breakingNode_jo2z1j_a0a3a0a0a1a0b0a1a1" />
+    <nodeInfo nodeId="7249953535157794981" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="44" startPosition="128" endLine="45" endPosition="200" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7249953535157218344" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="49" startPosition="142" endLine="50" endPosition="131" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="54" startPosition="63" endLine="55" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="59" startPosition="7" endLine="60" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="63" startPosition="0" endLine="64" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="breakingNode_jo2z1j_a0a3a0a0a1a0b0a1a1" />
     <nodeInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="21" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="PeriodReferenceFormatToken_Constraints#()V" />
     <nodeInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="29" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasOwnScopeProvider#()Z" />
     <nodeInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="38" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasPresentation#()Z" />
-    <nodeInfo nodeId="7249953535157794981" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="44" startPosition="128" endLine="48" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="51" startPosition="0" endLine="55" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createSearchScopeOrListOfNodes#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljava/lang/Object;" />
-    <nodeInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="56" startPosition="0" endLine="60" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
-    <nodeInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="43" startPosition="0" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPresentation#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/ReferencePresentationContext;)Ljava/lang/String;" />
-    <nodeInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="36" startPosition="56" endLine="60" endPosition="10" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="34" startPosition="0" endLine="62" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
-    <nodeInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="27" startPosition="75" endLine="62" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="25" startPosition="0" endLine="65" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getNotDefaultReferences#()Ljava/util/Map;" />
+    <nodeInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="43" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPresentation#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/ReferencePresentationContext;)Ljava/lang/String;" />
+    <nodeInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="48" startPosition="0" endLine="52" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createSearchScopeOrListOfNodes#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljava/lang/Object;" />
+    <nodeInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="53" startPosition="0" endLine="57" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+    <nodeInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="36" startPosition="56" endLine="57" endPosition="10" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="34" startPosition="0" endLine="59" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+    <nodeInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="27" startPosition="75" endLine="59" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="25" startPosition="0" endLine="62" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getNotDefaultReferences#()Ljava/util/Map;" />
     <scopeInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="21" startPosition="51" endLine="22" endPosition="83" />
     <scopeInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="30" startPosition="44" endLine="31" endPosition="20" />
     <scopeInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="39" startPosition="44" endLine="40" endPosition="24" />
-    <scopeInfo nodeId="7249953535157218343" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="52" startPosition="142" endLine="53" endPosition="131" />
-    <scopeInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="57" startPosition="63" endLine="58" endPosition="58" />
+    <scopeInfo nodeId="7249953535157794980" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="44" startPosition="128" endLine="45" endPosition="200" />
+    <scopeInfo nodeId="7249953535157218343" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="49" startPosition="142" endLine="50" endPosition="131" />
+    <scopeInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="54" startPosition="63" endLine="55" endPosition="58" />
     <scopeInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="21" startPosition="0" endLine="24" endPosition="0" />
     <scopeInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="29" startPosition="0" endLine="33" endPosition="0" />
     <scopeInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="38" startPosition="0" endLine="42" endPosition="0" />
-    <scopeInfo nodeId="7249953535157794980" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="44" startPosition="128" endLine="48" endPosition="14" />
-    <scopeInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="51" startPosition="0" endLine="55" endPosition="0">
+    <scopeInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="43" startPosition="0" endLine="47" endPosition="0">
       <varInfo nodeId="7249953535157218339" varName="_context" />
       <varInfo nodeId="7249953535157218339" varName="operationContext" />
     </scopeInfo>
-    <scopeInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="56" startPosition="0" endLine="60" endPosition="0" />
-    <scopeInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="43" startPosition="0" endLine="50" endPosition="0">
+    <scopeInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="48" startPosition="0" endLine="52" endPosition="0">
       <varInfo nodeId="7249953535157218339" varName="_context" />
       <varInfo nodeId="7249953535157218339" varName="operationContext" />
     </scopeInfo>
-    <scopeInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="36" startPosition="56" endLine="60" endPosition="10" />
-    <scopeInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="34" startPosition="0" endLine="62" endPosition="0" />
-    <scopeInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="26" startPosition="83" endLine="63" endPosition="22">
+    <scopeInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="53" startPosition="0" endLine="57" endPosition="0" />
+    <scopeInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="36" startPosition="56" endLine="57" endPosition="10" />
+    <scopeInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="34" startPosition="0" endLine="59" endPosition="0" />
+    <scopeInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="26" startPosition="83" endLine="60" endPosition="22">
       <varInfo nodeId="7249953535157218339" varName="references" />
     </scopeInfo>
-    <scopeInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="25" startPosition="0" endLine="65" endPosition="0" />
-    <unitInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="37" startPosition="19" endLine="60" endPosition="9" unitName="jetbrains.mps.baseLanguage.dates.constraints.PeriodReferenceFormatToken_Constraints$2" />
-    <unitInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="28" startPosition="33" endLine="62" endPosition="5" unitName="jetbrains.mps.baseLanguage.dates.constraints.PeriodReferenceFormatToken_Constraints$1" />
-    <unitInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="20" startPosition="0" endLine="68" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.constraints.PeriodReferenceFormatToken_Constraints" />
+    <scopeInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="25" startPosition="0" endLine="62" endPosition="0" />
+    <unitInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="37" startPosition="19" endLine="57" endPosition="9" unitName="jetbrains.mps.baseLanguage.dates.constraints.PeriodReferenceFormatToken_Constraints$2" />
+    <unitInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="28" startPosition="33" endLine="59" endPosition="5" unitName="jetbrains.mps.baseLanguage.dates.constraints.PeriodReferenceFormatToken_Constraints$1" />
+    <unitInfo nodeId="7249953535157218339" fileName="PeriodReferenceFormatToken_Constraints.java" startLine="20" startPosition="0" endLine="65" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.constraints.PeriodReferenceFormatToken_Constraints" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903cf(jetbrains.mps.baseLanguage.dates.constraints)/7249953535157223281">
     <nodeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="25" startPosition="50" endLine="26" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
@@ -953,60 +953,60 @@
     <nodeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="48" startPosition="83" endLine="49" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="52" startPosition="44" endLine="53" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="61" startPosition="44" endLine="62" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5581663871699707498" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="78" startPosition="142" endLine="79" endPosition="132" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="83" startPosition="63" endLine="84" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="88" startPosition="7" endLine="89" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="92" startPosition="0" endLine="93" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="breakingNode_bw6cj5_a0a3a0a0a1a0b0a1a2" />
-    <nodeInfo nodeId="5581663871701800943" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="94" startPosition="55" endLine="95" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5581663871699895021" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="66" startPosition="128" endLine="67" endPosition="263" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7249953535157606019" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="67" startPosition="263" endLine="68" endPosition="76" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5581663871699707498" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="72" startPosition="142" endLine="73" endPosition="132" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="77" startPosition="63" endLine="78" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="82" startPosition="7" endLine="83" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="86" startPosition="0" endLine="87" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="breakingNode_bw6cj5_a0a3a0a0a1a0b0a1a2" />
+    <nodeInfo nodeId="5581663871701800943" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="88" startPosition="55" endLine="89" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="25" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="PeriodPropertyFormatToken_Constraints#()V" />
-    <nodeInfo nodeId="5581663871701800943" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="94" startPosition="0" endLine="97" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="isNotEmptyString#(Ljava/lang/String;)Z" />
+    <nodeInfo nodeId="5581663871701800943" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="88" startPosition="0" endLine="91" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="isNotEmptyString#(Ljava/lang/String;)Z" />
     <nodeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="33" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasOwnValidator#()Z" />
     <nodeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="51" startPosition="0" endLine="55" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasOwnScopeProvider#()Z" />
     <nodeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="60" startPosition="0" endLine="64" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasPresentation#()Z" />
-    <nodeInfo nodeId="5581663871699895021" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="66" startPosition="128" endLine="70" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7249953535157606019" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="70" startPosition="14" endLine="74" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="77" startPosition="0" endLine="81" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createSearchScopeOrListOfNodes#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljava/lang/Object;" />
-    <nodeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="82" startPosition="0" endLine="86" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+    <nodeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="71" startPosition="0" endLine="75" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createSearchScopeOrListOfNodes#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljava/lang/Object;" />
+    <nodeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="76" startPosition="0" endLine="80" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
     <nodeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="38" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;Ljetbrains/mps/smodel/IScope;)Z" />
-    <nodeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="65" startPosition="0" endLine="76" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPresentation#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/ReferencePresentationContext;)Ljava/lang/String;" />
+    <nodeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="65" startPosition="0" endLine="70" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPresentation#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/ReferencePresentationContext;)Ljava/lang/String;" />
     <nodeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="31" startPosition="74" endLine="43" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="29" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getNotDefaultProperties#()Ljava/util/Map;" />
-    <nodeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="58" startPosition="56" endLine="86" endPosition="10" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="56" startPosition="0" endLine="88" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
-    <nodeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="49" startPosition="75" endLine="88" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="47" startPosition="0" endLine="91" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getNotDefaultReferences#()Ljava/util/Map;" />
+    <nodeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="58" startPosition="56" endLine="80" endPosition="10" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="56" startPosition="0" endLine="82" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+    <nodeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="49" startPosition="75" endLine="82" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="47" startPosition="0" endLine="85" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getNotDefaultReferences#()Ljava/util/Map;" />
     <scopeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="25" startPosition="50" endLine="26" endPosition="82" />
     <scopeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="34" startPosition="40" endLine="35" endPosition="20" />
     <scopeInfo nodeId="5581663871704305617" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="40" startPosition="42" endLine="41" endPosition="123" />
     <scopeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="52" startPosition="44" endLine="53" endPosition="20" />
     <scopeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="61" startPosition="44" endLine="62" endPosition="24" />
-    <scopeInfo nodeId="5581663871699705090" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="78" startPosition="142" endLine="79" endPosition="132" />
-    <scopeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="83" startPosition="63" endLine="84" endPosition="58" />
-    <scopeInfo nodeId="5581663871701800943" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="94" startPosition="55" endLine="95" endPosition="43" />
+    <scopeInfo nodeId="5581663871699705090" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="72" startPosition="142" endLine="73" endPosition="132" />
+    <scopeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="77" startPosition="63" endLine="78" endPosition="58" />
+    <scopeInfo nodeId="5581663871701800943" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="88" startPosition="55" endLine="89" endPosition="43" />
     <scopeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="39" startPosition="84" endLine="41" endPosition="123">
       <varInfo nodeId="7249953535157223281" varName="propertyName" />
     </scopeInfo>
+    <scopeInfo nodeId="7249953535157223286" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="66" startPosition="128" endLine="68" endPosition="76">
+      <varInfo nodeId="5581663871699895022" varName="name" />
+    </scopeInfo>
     <scopeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="25" startPosition="0" endLine="28" endPosition="0" />
-    <scopeInfo nodeId="5581663871701800943" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="94" startPosition="0" endLine="97" endPosition="0">
+    <scopeInfo nodeId="5581663871701800943" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="88" startPosition="0" endLine="91" endPosition="0">
       <varInfo nodeId="5581663871701800943" varName="str" />
     </scopeInfo>
     <scopeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="33" startPosition="0" endLine="37" endPosition="0" />
     <scopeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="51" startPosition="0" endLine="55" endPosition="0" />
     <scopeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="60" startPosition="0" endLine="64" endPosition="0" />
-    <scopeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="77" startPosition="0" endLine="81" endPosition="0">
+    <scopeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="71" startPosition="0" endLine="75" endPosition="0">
       <varInfo nodeId="7249953535157223281" varName="_context" />
       <varInfo nodeId="7249953535157223281" varName="operationContext" />
     </scopeInfo>
-    <scopeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="82" startPosition="0" endLine="86" endPosition="0" />
+    <scopeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="76" startPosition="0" endLine="80" endPosition="0" />
     <scopeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="38" startPosition="0" endLine="43" endPosition="0">
       <varInfo nodeId="7249953535157223281" varName="node" />
       <varInfo nodeId="7249953535157223281" varName="propertyValue" />
       <varInfo nodeId="7249953535157223281" varName="scope" />
     </scopeInfo>
-    <scopeInfo nodeId="7249953535157223286" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="66" startPosition="128" endLine="74" endPosition="14">
-      <varInfo nodeId="5581663871699895022" varName="name" />
-    </scopeInfo>
-    <scopeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="65" startPosition="0" endLine="76" endPosition="0">
+    <scopeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="65" startPosition="0" endLine="70" endPosition="0">
       <varInfo nodeId="7249953535157223281" varName="_context" />
       <varInfo nodeId="7249953535157223281" varName="operationContext" />
     </scopeInfo>
@@ -1014,16 +1014,16 @@
       <varInfo nodeId="7249953535157223281" varName="properties" />
     </scopeInfo>
     <scopeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="29" startPosition="0" endLine="46" endPosition="0" />
-    <scopeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="58" startPosition="56" endLine="86" endPosition="10" />
-    <scopeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="56" startPosition="0" endLine="88" endPosition="0" />
-    <scopeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="48" startPosition="83" endLine="89" endPosition="22">
+    <scopeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="58" startPosition="56" endLine="80" endPosition="10" />
+    <scopeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="56" startPosition="0" endLine="82" endPosition="0" />
+    <scopeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="48" startPosition="83" endLine="83" endPosition="22">
       <varInfo nodeId="7249953535157223281" varName="references" />
     </scopeInfo>
-    <scopeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="47" startPosition="0" endLine="91" endPosition="0" />
+    <scopeInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="47" startPosition="0" endLine="85" endPosition="0" />
     <unitInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="32" startPosition="36" endLine="43" endPosition="5" unitName="jetbrains.mps.baseLanguage.dates.constraints.PeriodPropertyFormatToken_Constraints$1" />
-    <unitInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="59" startPosition="19" endLine="86" endPosition="9" unitName="jetbrains.mps.baseLanguage.dates.constraints.PeriodPropertyFormatToken_Constraints$3" />
-    <unitInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="50" startPosition="35" endLine="88" endPosition="5" unitName="jetbrains.mps.baseLanguage.dates.constraints.PeriodPropertyFormatToken_Constraints$2" />
-    <unitInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="24" startPosition="0" endLine="98" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.constraints.PeriodPropertyFormatToken_Constraints" />
+    <unitInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="59" startPosition="19" endLine="80" endPosition="9" unitName="jetbrains.mps.baseLanguage.dates.constraints.PeriodPropertyFormatToken_Constraints$3" />
+    <unitInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="50" startPosition="35" endLine="82" endPosition="5" unitName="jetbrains.mps.baseLanguage.dates.constraints.PeriodPropertyFormatToken_Constraints$2" />
+    <unitInfo nodeId="7249953535157223281" fileName="PeriodPropertyFormatToken_Constraints.java" startLine="24" startPosition="0" endLine="92" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.constraints.PeriodPropertyFormatToken_Constraints" />
   </root>
 </debugInfo>
 

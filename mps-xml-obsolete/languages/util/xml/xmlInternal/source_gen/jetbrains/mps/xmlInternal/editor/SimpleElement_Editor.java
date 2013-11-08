@@ -228,10 +228,7 @@ public class SimpleElement_Editor extends DefaultNodeEditor {
   private EditorCell createReadOnlyModelAccessor_944ac1_b2a(final EditorContext editorContext, final SNode node) {
     EditorCell_Property editorCell = EditorCell_Property.create(editorContext, new ModelAccessor() {
       public String getText() {
-        return (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(node, "elementName", true), "jetbrains.mps.xml.structure.Text") ?
-          SPropertyOperations.getString(SNodeOperations.cast(SLinkOperations.getTarget(node, "elementName", true), "jetbrains.mps.xml.structure.Text"), "text") :
-          "..."
-        );
+        return (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(node, "elementName", true), "jetbrains.mps.xml.structure.Text") ? SPropertyOperations.getString(SNodeOperations.cast(SLinkOperations.getTarget(node, "elementName", true), "jetbrains.mps.xml.structure.Text"), "text") : "...");
       }
 
       public void setText(String s) {

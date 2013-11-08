@@ -111,18 +111,18 @@
     <unitInfo nodeId="1213877536320" fileName="PredefinedDateFormat_Behavior.java" startLine="9" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.behavior.PredefinedDateFormat_Behavior" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903da(jetbrains.mps.baseLanguage.datesInternal.behavior)/1239362722081">
+    <nodeInfo nodeId="1239368283265" fileName="DateTimeZone_Behavior.java" startLine="12" startPosition="65" endLine="13" endPosition="213" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1239362722081" fileName="DateTimeZone_Behavior.java" startLine="9" startPosition="0" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="1239368283265" fileName="DateTimeZone_Behavior.java" startLine="12" startPosition="65" endLine="16" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1239362722081" fileName="DateTimeZone_Behavior.java" startLine="12" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getID_1239362726615#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+    <nodeInfo nodeId="1239362722081" fileName="DateTimeZone_Behavior.java" startLine="12" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getID_1239362726615#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
     <scopeInfo nodeId="1239362722083" fileName="DateTimeZone_Behavior.java" startLine="9" startPosition="43" endLine="9" endPosition="43" />
+    <scopeInfo nodeId="1239362726618" fileName="DateTimeZone_Behavior.java" startLine="12" startPosition="65" endLine="13" endPosition="213" />
     <scopeInfo nodeId="1239362722081" fileName="DateTimeZone_Behavior.java" startLine="9" startPosition="0" endLine="11" endPosition="0">
       <varInfo nodeId="1239362722081" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="1239362726618" fileName="DateTimeZone_Behavior.java" startLine="12" startPosition="65" endLine="16" endPosition="60" />
-    <scopeInfo nodeId="1239362722081" fileName="DateTimeZone_Behavior.java" startLine="12" startPosition="0" endLine="18" endPosition="0">
+    <scopeInfo nodeId="1239362722081" fileName="DateTimeZone_Behavior.java" startLine="12" startPosition="0" endLine="15" endPosition="0">
       <varInfo nodeId="1239362722081" varName="thisNode" />
     </scopeInfo>
-    <unitInfo nodeId="1239362722081" fileName="DateTimeZone_Behavior.java" startLine="8" startPosition="0" endLine="19" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.behavior.DateTimeZone_Behavior" />
+    <unitInfo nodeId="1239362722081" fileName="DateTimeZone_Behavior.java" startLine="8" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.behavior.DateTimeZone_Behavior" />
   </root>
 </debugInfo>
 

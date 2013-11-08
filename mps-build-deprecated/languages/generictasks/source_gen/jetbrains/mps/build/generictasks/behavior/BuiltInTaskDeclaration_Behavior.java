@@ -139,9 +139,6 @@ public class BuiltInTaskDeclaration_Behavior {
   }
 
   private static boolean eq_y5o5bz_a0a0j(Object a, Object b) {
-    return (a != null ?
-      a.equals(b) :
-      a == b
-    );
+    return (a != null ? a.equals(b) : a == b);
   }
 }

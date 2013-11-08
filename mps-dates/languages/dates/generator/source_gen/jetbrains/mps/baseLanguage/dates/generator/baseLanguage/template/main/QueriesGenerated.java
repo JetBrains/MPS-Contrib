@@ -240,10 +240,7 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_2872438607476942807(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return (SPropertyOperations.getInteger(_context.getNode(), "minDigits") > 0 ?
-      SPropertyOperations.getInteger(_context.getNode(), "minDigits") :
-      1
-    );
+    return (SPropertyOperations.getInteger(_context.getNode(), "minDigits") > 0 ? SPropertyOperations.getInteger(_context.getNode(), "minDigits") : 1);
   }
 
   public static Object propertyMacro_GetPropertyValue_2872438607476484900(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -390,10 +387,7 @@ public class QueriesGenerated {
   }
 
   public static Object referenceMacro_GetReferent_5293902215864743806(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return (SPropertyOperations.getString(_context.getNode(), "property").equals("name") ?
-      "getName" :
-      "getShortName"
-    );
+    return (SPropertyOperations.getString(_context.getNode(), "property").equals("name") ? "getName" : "getShortName");
   }
 
   public static boolean ifMacro_Condition_1238663921403(final IOperationContext operationContext, final IfMacroContext _context) {
@@ -798,10 +792,7 @@ public class QueriesGenerated {
   }
 
   public static SNode sourceNodeQuery_1379098806889724521(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return ((SLinkOperations.getTarget(_context.getNode(), "locale", false) != null) ?
-      SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "locale", false), "javaLocale", true) :
-      SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.structure.NullLiteral", null)
-    );
+    return ((SLinkOperations.getTarget(_context.getNode(), "locale", false) != null) ? SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "locale", false), "javaLocale", true) : SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.structure.NullLiteral", null));
   }
 
   public static SNode sourceNodeQuery_1379098806890866348(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
@@ -835,10 +826,7 @@ public class QueriesGenerated {
   }
 
   public static SNode sourceNodeQuery_5293902215864721359(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return ((SLinkOperations.getTarget(_context.getNode(), "locale", false) != null) ?
-      SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "locale", false), "javaLocale", true) :
-      SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.structure.NullLiteral", null)
-    );
+    return ((SLinkOperations.getTarget(_context.getNode(), "locale", false) != null) ? SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "locale", false), "javaLocale", true) : SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.structure.NullLiteral", null));
   }
 
   public static Iterable sourceNodesQuery_1173786885585(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {

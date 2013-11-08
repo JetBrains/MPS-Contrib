@@ -12498,233 +12498,233 @@
     <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="50" startPosition="87" endLine="51" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="51" startPosition="47" endLine="52" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="52" startPosition="34" endLine="53" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="60" startPosition="8" endLine="61" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="61" startPosition="40" endLine="62" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="62" startPosition="34" endLine="63" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5581663871703343462" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="66" startPosition="109" endLine="67" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5581663871702358917" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="70" startPosition="88" endLine="71" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702358917" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="71" startPosition="82" endLine="72" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358917" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="72" startPosition="29" endLine="73" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358917" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="73" startPosition="42" endLine="74" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702358917" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="74" startPosition="26" endLine="75" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358917" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="75" startPosition="58" endLine="76" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358917" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="76" startPosition="42" endLine="77" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702358917" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="77" startPosition="34" endLine="78" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358917" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="78" startPosition="57" endLine="79" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358917" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="79" startPosition="79" endLine="80" endPosition="108" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358917" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="80" startPosition="108" endLine="81" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358917" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="81" startPosition="40" endLine="82" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358917" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="82" startPosition="73" endLine="83" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702358917" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="83" startPosition="57" endLine="84" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702358917" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="85" startPosition="35" endLine="86" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702358917" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="86" startPosition="72" endLine="87" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702358917" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="87" startPosition="78" endLine="88" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5581663871702358917" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="89" startPosition="10" endLine="90" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="93" startPosition="90" endLine="94" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="94" startPosition="96" endLine="95" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="95" startPosition="49" endLine="96" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="96" startPosition="34" endLine="97" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="97" startPosition="49" endLine="98" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="98" startPosition="40" endLine="99" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="98" startPosition="40" endLine="99" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="99" startPosition="82" endLine="100" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="99" startPosition="82" endLine="100" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="100" startPosition="82" endLine="101" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5581663871702358925" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="104" startPosition="111" endLine="105" endPosition="145" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5581663871702358938" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="108" startPosition="89" endLine="109" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702358938" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="109" startPosition="87" endLine="110" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358938" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="110" startPosition="48" endLine="111" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702358938" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="111" startPosition="34" endLine="112" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358938" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="112" startPosition="54" endLine="113" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358938" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="113" startPosition="40" endLine="114" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358938" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="114" startPosition="34" endLine="115" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5581663871702358941" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="118" startPosition="89" endLine="119" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702358941" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="119" startPosition="82" endLine="120" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358941" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="120" startPosition="33" endLine="121" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358941" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="121" startPosition="46" endLine="122" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702358941" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="122" startPosition="26" endLine="123" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358941" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="123" startPosition="58" endLine="124" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358941" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="124" startPosition="46" endLine="125" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702358941" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="125" startPosition="34" endLine="126" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358941" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="126" startPosition="57" endLine="127" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358941" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="127" startPosition="79" endLine="128" endPosition="108" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358941" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="128" startPosition="108" endLine="129" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358941" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="129" startPosition="40" endLine="130" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358941" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="130" startPosition="73" endLine="131" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702358941" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="131" startPosition="57" endLine="132" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702358941" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="133" startPosition="35" endLine="134" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702358941" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="134" startPosition="72" endLine="135" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702358941" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="135" startPosition="78" endLine="136" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5581663871702358941" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="137" startPosition="10" endLine="138" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="141" startPosition="88" endLine="142" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="142" startPosition="87" endLine="143" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="143" startPosition="47" endLine="144" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="144" startPosition="34" endLine="145" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="152" startPosition="8" endLine="153" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="153" startPosition="40" endLine="154" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="154" startPosition="34" endLine="155" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5581663871703724991" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="158" startPosition="109" endLine="159" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="162" startPosition="91" endLine="163" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="163" startPosition="97" endLine="164" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="164" startPosition="50" endLine="165" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="165" startPosition="28" endLine="166" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="165" startPosition="28" endLine="166" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="167" startPosition="109" endLine="168" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="169" startPosition="5" endLine="170" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="169" startPosition="5" endLine="170" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="170" startPosition="85" endLine="171" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="174" startPosition="90" endLine="175" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="175" startPosition="96" endLine="176" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="176" startPosition="49" endLine="177" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="177" startPosition="34" endLine="178" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="178" startPosition="49" endLine="179" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="179" startPosition="40" endLine="180" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="179" startPosition="40" endLine="180" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="180" startPosition="82" endLine="181" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="180" startPosition="82" endLine="181" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="181" startPosition="82" endLine="182" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5581663871702548609" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="185" startPosition="89" endLine="186" endPosition="90" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702548609" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="186" startPosition="90" endLine="187" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702548609" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="187" startPosition="48" endLine="188" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702548609" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="188" startPosition="34" endLine="189" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5581663871702548611" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="192" startPosition="89" endLine="193" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702548611" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="193" startPosition="82" endLine="194" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702548611" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="194" startPosition="29" endLine="195" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702548611" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="195" startPosition="42" endLine="196" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702548611" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="196" startPosition="26" endLine="197" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702548611" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="197" startPosition="58" endLine="198" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702548611" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="198" startPosition="44" endLine="199" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702548611" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="199" startPosition="34" endLine="200" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702548611" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="200" startPosition="57" endLine="201" endPosition="108" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702548611" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="201" startPosition="108" endLine="202" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702548611" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="202" startPosition="40" endLine="203" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702548611" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="203" startPosition="73" endLine="204" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702548611" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="204" startPosition="57" endLine="205" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702548611" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="206" startPosition="35" endLine="207" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702548611" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="207" startPosition="72" endLine="208" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702548611" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="208" startPosition="78" endLine="209" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5581663871702548611" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="210" startPosition="10" endLine="211" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="214" startPosition="90" endLine="215" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="215" startPosition="96" endLine="216" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="216" startPosition="49" endLine="217" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="217" startPosition="34" endLine="218" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="218" startPosition="49" endLine="219" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="219" startPosition="40" endLine="220" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="219" startPosition="40" endLine="220" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="220" startPosition="82" endLine="221" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="220" startPosition="82" endLine="221" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="221" startPosition="82" endLine="222" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5581663871702930702" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="225" startPosition="111" endLine="226" endPosition="76" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5581663871702548618" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="229" startPosition="89" endLine="230" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702548618" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="230" startPosition="109" endLine="231" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702548618" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="231" startPosition="48" endLine="232" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702548618" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="232" startPosition="34" endLine="233" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5581663871702548620" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="236" startPosition="89" endLine="237" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702548620" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="237" startPosition="82" endLine="238" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702548620" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="238" startPosition="33" endLine="239" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702548620" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="239" startPosition="46" endLine="240" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702548620" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="240" startPosition="40" endLine="241" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702548620" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="241" startPosition="26" endLine="242" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702548620" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="242" startPosition="58" endLine="243" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702548620" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="243" startPosition="48" endLine="244" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702548620" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="244" startPosition="34" endLine="245" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702548620" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="245" startPosition="57" endLine="246" endPosition="108" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702548620" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="246" startPosition="108" endLine="247" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702548620" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="247" startPosition="40" endLine="248" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702548620" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="248" startPosition="73" endLine="249" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702548620" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="249" startPosition="57" endLine="250" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702548620" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="251" startPosition="35" endLine="252" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702548620" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="252" startPosition="72" endLine="253" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702548620" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="253" startPosition="78" endLine="254" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5581663871702548620" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="255" startPosition="10" endLine="256" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="259" startPosition="92" endLine="260" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="260" startPosition="96" endLine="261" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="261" startPosition="51" endLine="262" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="262" startPosition="34" endLine="263" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="263" startPosition="49" endLine="264" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="264" startPosition="40" endLine="265" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="264" startPosition="40" endLine="265" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="265" startPosition="84" endLine="266" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="265" startPosition="84" endLine="266" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="266" startPosition="84" endLine="267" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5581663871702548626" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="270" startPosition="91" endLine="271" endPosition="107" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702548626" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="271" startPosition="107" endLine="272" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702548626" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="272" startPosition="50" endLine="273" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702548626" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="273" startPosition="34" endLine="274" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5581663871702548628" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="277" startPosition="91" endLine="278" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702548628" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="278" startPosition="82" endLine="279" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702548628" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="279" startPosition="29" endLine="280" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702548628" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="280" startPosition="42" endLine="281" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702548628" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="281" startPosition="26" endLine="282" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702548628" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="282" startPosition="58" endLine="283" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702548628" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="283" startPosition="42" endLine="284" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702548628" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="284" startPosition="34" endLine="285" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702548628" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="285" startPosition="56" endLine="286" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702548628" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="286" startPosition="40" endLine="287" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702548628" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="287" startPosition="73" endLine="288" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702548628" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="288" startPosition="57" endLine="289" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702548628" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="290" startPosition="35" endLine="291" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702548628" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="291" startPosition="72" endLine="292" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5581663871702548628" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="292" startPosition="78" endLine="293" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5581663871702548628" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="294" startPosition="10" endLine="295" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5581663871702358937" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="298" startPosition="55" endLine="299" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="53" startPosition="69" endLine="54" endPosition="233" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="54" startPosition="233" endLine="55" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="55" startPosition="40" endLine="56" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="56" startPosition="34" endLine="57" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5581663871703343462" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="60" startPosition="109" endLine="61" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5581663871702358917" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="64" startPosition="88" endLine="65" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702358917" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="65" startPosition="82" endLine="66" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358917" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="66" startPosition="29" endLine="67" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358917" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="67" startPosition="42" endLine="68" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702358917" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="68" startPosition="26" endLine="69" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358917" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="69" startPosition="58" endLine="70" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358917" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="70" startPosition="42" endLine="71" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702358917" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="71" startPosition="34" endLine="72" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358917" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="72" startPosition="57" endLine="73" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358917" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="73" startPosition="79" endLine="74" endPosition="108" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358917" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="74" startPosition="108" endLine="75" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358917" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="75" startPosition="40" endLine="76" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358917" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="76" startPosition="73" endLine="77" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702358917" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="77" startPosition="57" endLine="78" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702358917" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="79" startPosition="35" endLine="80" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702358917" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="80" startPosition="72" endLine="81" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702358917" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="81" startPosition="78" endLine="82" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5581663871702358917" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="83" startPosition="10" endLine="84" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="87" startPosition="90" endLine="88" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="88" startPosition="96" endLine="89" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="89" startPosition="49" endLine="90" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="90" startPosition="34" endLine="91" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="91" startPosition="49" endLine="92" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="92" startPosition="40" endLine="93" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="92" startPosition="40" endLine="93" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="93" startPosition="82" endLine="94" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="93" startPosition="82" endLine="94" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="94" startPosition="82" endLine="95" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5581663871702358925" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="98" startPosition="111" endLine="99" endPosition="145" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5581663871702358938" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="102" startPosition="89" endLine="103" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702358938" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="103" startPosition="87" endLine="104" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358938" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="104" startPosition="48" endLine="105" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702358938" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="105" startPosition="34" endLine="106" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358938" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="106" startPosition="54" endLine="107" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358938" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="107" startPosition="40" endLine="108" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358938" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="108" startPosition="34" endLine="109" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5581663871702358941" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="112" startPosition="89" endLine="113" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702358941" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="113" startPosition="82" endLine="114" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358941" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="114" startPosition="33" endLine="115" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358941" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="115" startPosition="46" endLine="116" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702358941" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="116" startPosition="26" endLine="117" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358941" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="117" startPosition="58" endLine="118" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358941" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="118" startPosition="46" endLine="119" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702358941" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="119" startPosition="34" endLine="120" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358941" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="120" startPosition="57" endLine="121" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358941" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="121" startPosition="79" endLine="122" endPosition="108" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358941" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="122" startPosition="108" endLine="123" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358941" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="123" startPosition="40" endLine="124" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358941" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="124" startPosition="73" endLine="125" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702358941" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="125" startPosition="57" endLine="126" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702358941" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="127" startPosition="35" endLine="128" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702358941" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="128" startPosition="72" endLine="129" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702358941" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="129" startPosition="78" endLine="130" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5581663871702358941" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="131" startPosition="10" endLine="132" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="135" startPosition="88" endLine="136" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="136" startPosition="87" endLine="137" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="137" startPosition="47" endLine="138" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="138" startPosition="34" endLine="139" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="139" startPosition="70" endLine="140" endPosition="234" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="140" startPosition="234" endLine="141" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="141" startPosition="40" endLine="142" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="142" startPosition="34" endLine="143" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5581663871703724991" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="146" startPosition="109" endLine="147" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="150" startPosition="91" endLine="151" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="151" startPosition="97" endLine="152" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="152" startPosition="50" endLine="153" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="153" startPosition="28" endLine="154" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="153" startPosition="28" endLine="154" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="155" startPosition="109" endLine="156" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="157" startPosition="5" endLine="158" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="157" startPosition="5" endLine="158" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="158" startPosition="85" endLine="159" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="162" startPosition="90" endLine="163" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="163" startPosition="96" endLine="164" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="164" startPosition="49" endLine="165" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="165" startPosition="34" endLine="166" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="166" startPosition="49" endLine="167" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="167" startPosition="40" endLine="168" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="167" startPosition="40" endLine="168" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="168" startPosition="82" endLine="169" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="168" startPosition="82" endLine="169" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="169" startPosition="82" endLine="170" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5581663871702548609" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="173" startPosition="89" endLine="174" endPosition="90" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702548609" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="174" startPosition="90" endLine="175" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702548609" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="175" startPosition="48" endLine="176" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702548609" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="176" startPosition="34" endLine="177" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5581663871702548611" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="180" startPosition="89" endLine="181" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702548611" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="181" startPosition="82" endLine="182" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702548611" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="182" startPosition="29" endLine="183" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702548611" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="183" startPosition="42" endLine="184" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702548611" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="184" startPosition="26" endLine="185" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702548611" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="185" startPosition="58" endLine="186" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702548611" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="186" startPosition="44" endLine="187" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702548611" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="187" startPosition="34" endLine="188" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702548611" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="188" startPosition="57" endLine="189" endPosition="108" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702548611" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="189" startPosition="108" endLine="190" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702548611" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="190" startPosition="40" endLine="191" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702548611" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="191" startPosition="73" endLine="192" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702548611" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="192" startPosition="57" endLine="193" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702548611" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="194" startPosition="35" endLine="195" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702548611" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="195" startPosition="72" endLine="196" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702548611" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="196" startPosition="78" endLine="197" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5581663871702548611" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="198" startPosition="10" endLine="199" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="202" startPosition="90" endLine="203" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="203" startPosition="96" endLine="204" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="204" startPosition="49" endLine="205" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="205" startPosition="34" endLine="206" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="206" startPosition="49" endLine="207" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="207" startPosition="40" endLine="208" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="207" startPosition="40" endLine="208" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="208" startPosition="82" endLine="209" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="208" startPosition="82" endLine="209" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="209" startPosition="82" endLine="210" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5581663871702930702" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="213" startPosition="111" endLine="214" endPosition="76" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5581663871702548618" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="217" startPosition="89" endLine="218" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702548618" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="218" startPosition="109" endLine="219" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702548618" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="219" startPosition="48" endLine="220" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702548618" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="220" startPosition="34" endLine="221" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5581663871702548620" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="224" startPosition="89" endLine="225" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702548620" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="225" startPosition="82" endLine="226" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702548620" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="226" startPosition="33" endLine="227" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702548620" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="227" startPosition="46" endLine="228" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702548620" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="228" startPosition="40" endLine="229" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702548620" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="229" startPosition="26" endLine="230" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702548620" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="230" startPosition="58" endLine="231" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702548620" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="231" startPosition="48" endLine="232" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702548620" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="232" startPosition="34" endLine="233" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702548620" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="233" startPosition="57" endLine="234" endPosition="108" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702548620" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="234" startPosition="108" endLine="235" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702548620" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="235" startPosition="40" endLine="236" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702548620" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="236" startPosition="73" endLine="237" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702548620" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="237" startPosition="57" endLine="238" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702548620" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="239" startPosition="35" endLine="240" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702548620" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="240" startPosition="72" endLine="241" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702548620" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="241" startPosition="78" endLine="242" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5581663871702548620" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="243" startPosition="10" endLine="244" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="247" startPosition="92" endLine="248" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="248" startPosition="96" endLine="249" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="249" startPosition="51" endLine="250" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="250" startPosition="34" endLine="251" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="251" startPosition="49" endLine="252" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="252" startPosition="40" endLine="253" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="252" startPosition="40" endLine="253" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="253" startPosition="84" endLine="254" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="253" startPosition="84" endLine="254" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="254" startPosition="84" endLine="255" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5581663871702548626" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="258" startPosition="91" endLine="259" endPosition="107" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702548626" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="259" startPosition="107" endLine="260" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702548626" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="260" startPosition="50" endLine="261" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702548626" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="261" startPosition="34" endLine="262" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5581663871702548628" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="265" startPosition="91" endLine="266" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702548628" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="266" startPosition="82" endLine="267" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702548628" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="267" startPosition="29" endLine="268" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702548628" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="268" startPosition="42" endLine="269" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702548628" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="269" startPosition="26" endLine="270" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702548628" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="270" startPosition="58" endLine="271" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702548628" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="271" startPosition="42" endLine="272" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702548628" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="272" startPosition="34" endLine="273" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702548628" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="273" startPosition="56" endLine="274" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702548628" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="274" startPosition="40" endLine="275" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5581663871702548628" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="275" startPosition="73" endLine="276" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702548628" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="276" startPosition="57" endLine="277" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702548628" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="278" startPosition="35" endLine="279" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702548628" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="279" startPosition="72" endLine="280" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5581663871702548628" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="280" startPosition="78" endLine="281" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5581663871702548628" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="282" startPosition="10" endLine="283" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5581663871702358937" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="286" startPosition="55" endLine="287" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="28" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
     <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="32" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
     <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="41" startPosition="81" endLine="44" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="41" startPosition="81" endLine="44" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="5581663871703343460" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="66" startPosition="0" endLine="69" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_StyleParameter_QueryFunction_ih8plz_a0a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-    <nodeInfo nodeId="5581663871702358923" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="104" startPosition="0" endLine="107" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="renderingCondition_ih8plz_a2a#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;Ljetbrains/mps/smodel/IScope;)Z" />
-    <nodeInfo nodeId="5581663871703724989" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="158" startPosition="0" endLine="161" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_StyleParameter_QueryFunction_ih8plz_a0d0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="166" startPosition="83" endLine="169" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="166" startPosition="83" endLine="169" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="5581663871702930700" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="225" startPosition="0" endLine="228" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="renderingCondition_ih8plz_a1a#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;Ljetbrains/mps/smodel/IScope;)Z" />
-    <nodeInfo nodeId="5581663871702358937" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="298" startPosition="0" endLine="301" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="isNotEmptyString#(Ljava/lang/String;)Z" />
-    <nodeInfo nodeId="5581663871702358917" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="84" startPosition="59" endLine="90" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="5581663871702358941" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="132" startPosition="59" endLine="138" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="5581663871702548609" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="185" startPosition="0" endLine="191" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_ih8plz_a0a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="5581663871702548611" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="205" startPosition="59" endLine="211" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="5581663871702548618" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="229" startPosition="0" endLine="235" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_ih8plz_a1a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="5581663871702548620" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="250" startPosition="59" endLine="256" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="5581663871702548626" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="270" startPosition="0" endLine="276" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_ih8plz_a2a_0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="5581663871702548628" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="289" startPosition="59" endLine="295" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="53" startPosition="69" endLine="60" endPosition="8" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="145" startPosition="70" endLine="152" endPosition="8" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5581663871702358938" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="108" startPosition="0" endLine="117" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_ih8plz_a2a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="93" startPosition="0" endLine="103" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_ih8plz_c0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="174" startPosition="0" endLine="184" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_ih8plz_a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="214" startPosition="0" endLine="224" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_ih8plz_b0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="259" startPosition="0" endLine="269" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_ih8plz_c0_0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="162" startPosition="0" endLine="173" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_ih8plz_a_0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="5581663871703343460" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="60" startPosition="0" endLine="63" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_StyleParameter_QueryFunction_ih8plz_a0a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <nodeInfo nodeId="5581663871702358923" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="98" startPosition="0" endLine="101" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="renderingCondition_ih8plz_a2a#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;Ljetbrains/mps/smodel/IScope;)Z" />
+    <nodeInfo nodeId="5581663871703724989" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="146" startPosition="0" endLine="149" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_StyleParameter_QueryFunction_ih8plz_a0d0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="154" startPosition="83" endLine="157" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="154" startPosition="83" endLine="157" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5581663871702930700" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="213" startPosition="0" endLine="216" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="renderingCondition_ih8plz_a1a#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;Ljetbrains/mps/smodel/IScope;)Z" />
+    <nodeInfo nodeId="5581663871702358937" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="286" startPosition="0" endLine="289" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="isNotEmptyString#(Ljava/lang/String;)Z" />
+    <nodeInfo nodeId="5581663871702358917" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="78" startPosition="59" endLine="84" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5581663871702358941" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="126" startPosition="59" endLine="132" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5581663871702548609" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="173" startPosition="0" endLine="179" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_ih8plz_a0a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="5581663871702548611" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="193" startPosition="59" endLine="199" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5581663871702548618" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="217" startPosition="0" endLine="223" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_ih8plz_a1a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="5581663871702548620" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="238" startPosition="59" endLine="244" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5581663871702548626" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="258" startPosition="0" endLine="264" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_ih8plz_a2a_0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="5581663871702548628" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="277" startPosition="59" endLine="283" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5581663871702358938" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="102" startPosition="0" endLine="111" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_ih8plz_a2a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="49" startPosition="0" endLine="59" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_ih8plz_a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="87" startPosition="0" endLine="97" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_ih8plz_c0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="135" startPosition="0" endLine="145" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_ih8plz_d0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="162" startPosition="0" endLine="172" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_ih8plz_a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="202" startPosition="0" endLine="212" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_ih8plz_b0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="247" startPosition="0" endLine="257" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_ih8plz_c0_0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="150" startPosition="0" endLine="161" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_ih8plz_a_0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
     <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="36" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_ih8plz_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="49" startPosition="0" endLine="65" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_ih8plz_a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="141" startPosition="0" endLine="157" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_ih8plz_d0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="5581663871702548628" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="277" startPosition="0" endLine="297" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createProperty_ih8plz_b2a_0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="5581663871702548611" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="192" startPosition="0" endLine="213" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createProperty_ih8plz_b0a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="5581663871702358917" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="70" startPosition="0" endLine="92" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createProperty_ih8plz_b0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="5581663871702358941" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="118" startPosition="0" endLine="140" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createProperty_ih8plz_b2a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="5581663871702548620" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="236" startPosition="0" endLine="258" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createProperty_ih8plz_b1a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="5581663871702548628" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="265" startPosition="0" endLine="285" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createProperty_ih8plz_b2a_0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="5581663871702548611" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="180" startPosition="0" endLine="201" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createProperty_ih8plz_b0a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="5581663871702358917" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="64" startPosition="0" endLine="86" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createProperty_ih8plz_b0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="5581663871702358941" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="112" startPosition="0" endLine="134" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createProperty_ih8plz_b2a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="5581663871702548620" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="224" startPosition="0" endLine="246" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createProperty_ih8plz_b1a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
     <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="28" startPosition="79" endLine="29" endPosition="63" />
     <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="32" startPosition="82" endLine="33" endPosition="65" />
     <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="39" startPosition="28" endLine="40" endPosition="81" />
     <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="40" startPosition="81" endLine="41" endPosition="81" />
     <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="42" startPosition="109" endLine="43" endPosition="85" />
     <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="44" startPosition="5" endLine="45" endPosition="81" />
-    <scopeInfo nodeId="5581663871703343461" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="66" startPosition="109" endLine="67" endPosition="79" />
-    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="98" startPosition="40" endLine="99" endPosition="82" />
-    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="99" startPosition="82" endLine="100" endPosition="82" />
-    <scopeInfo nodeId="5581663871702358924" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="104" startPosition="111" endLine="105" endPosition="145" />
-    <scopeInfo nodeId="5581663871703724990" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="158" startPosition="109" endLine="159" endPosition="80" />
-    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="165" startPosition="28" endLine="166" endPosition="83" />
-    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="167" startPosition="109" endLine="168" endPosition="85" />
-    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="169" startPosition="5" endLine="170" endPosition="85" />
-    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="179" startPosition="40" endLine="180" endPosition="82" />
-    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="180" startPosition="82" endLine="181" endPosition="82" />
-    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="219" startPosition="40" endLine="220" endPosition="82" />
-    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="220" startPosition="82" endLine="221" endPosition="82" />
-    <scopeInfo nodeId="5581663871702930701" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="225" startPosition="111" endLine="226" endPosition="76" />
-    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="264" startPosition="40" endLine="265" endPosition="84" />
-    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="265" startPosition="84" endLine="266" endPosition="84" />
-    <scopeInfo nodeId="5581663871702358937" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="298" startPosition="55" endLine="299" endPosition="43" />
+    <scopeInfo nodeId="5581663871703343461" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="60" startPosition="109" endLine="61" endPosition="79" />
+    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="92" startPosition="40" endLine="93" endPosition="82" />
+    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="93" startPosition="82" endLine="94" endPosition="82" />
+    <scopeInfo nodeId="5581663871702358924" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="98" startPosition="111" endLine="99" endPosition="145" />
+    <scopeInfo nodeId="5581663871703724990" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="146" startPosition="109" endLine="147" endPosition="80" />
+    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="153" startPosition="28" endLine="154" endPosition="83" />
+    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="155" startPosition="109" endLine="156" endPosition="85" />
+    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="157" startPosition="5" endLine="158" endPosition="85" />
+    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="167" startPosition="40" endLine="168" endPosition="82" />
+    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="168" startPosition="82" endLine="169" endPosition="82" />
+    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="207" startPosition="40" endLine="208" endPosition="82" />
+    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="208" startPosition="82" endLine="209" endPosition="82" />
+    <scopeInfo nodeId="5581663871702930701" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="213" startPosition="111" endLine="214" endPosition="76" />
+    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="252" startPosition="40" endLine="253" endPosition="84" />
+    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="253" startPosition="84" endLine="254" endPosition="84" />
+    <scopeInfo nodeId="5581663871702358937" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="286" startPosition="55" endLine="287" endPosition="43" />
     <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="28" startPosition="0" endLine="31" endPosition="0">
       <varInfo nodeId="5581663871702358908" varName="editorContext" />
       <varInfo nodeId="5581663871702358908" varName="node" />
@@ -12734,116 +12734,132 @@
       <varInfo nodeId="5581663871702358908" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="41" startPosition="81" endLine="44" endPosition="5" />
-    <scopeInfo nodeId="5581663871703343460" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="66" startPosition="0" endLine="69" endPosition="0">
+    <scopeInfo nodeId="5581663871703343460" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="60" startPosition="0" endLine="63" endPosition="0">
       <varInfo nodeId="5581663871703343460" varName="editorContext" />
       <varInfo nodeId="5581663871703343460" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="5581663871702358917" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="85" startPosition="35" endLine="88" endPosition="105">
+    <scopeInfo nodeId="5581663871702358917" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="79" startPosition="35" endLine="82" endPosition="105">
       <varInfo nodeId="5581663871702358917" varName="manager" />
       <varInfo nodeId="5581663871702358917" varName="opContext" />
     </scopeInfo>
-    <scopeInfo nodeId="5581663871702358923" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="104" startPosition="0" endLine="107" endPosition="0">
+    <scopeInfo nodeId="5581663871702358923" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="98" startPosition="0" endLine="101" endPosition="0">
       <varInfo nodeId="5581663871702358923" varName="editorContext" />
       <varInfo nodeId="5581663871702358923" varName="node" />
       <varInfo nodeId="5581663871702358923" varName="scope" />
     </scopeInfo>
-    <scopeInfo nodeId="5581663871702358941" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="133" startPosition="35" endLine="136" endPosition="105">
+    <scopeInfo nodeId="5581663871702358941" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="127" startPosition="35" endLine="130" endPosition="105">
       <varInfo nodeId="5581663871702358941" varName="manager" />
       <varInfo nodeId="5581663871702358941" varName="opContext" />
     </scopeInfo>
-    <scopeInfo nodeId="5581663871703724989" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="158" startPosition="0" endLine="161" endPosition="0">
+    <scopeInfo nodeId="5581663871703724989" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="146" startPosition="0" endLine="149" endPosition="0">
       <varInfo nodeId="5581663871703724989" varName="editorContext" />
       <varInfo nodeId="5581663871703724989" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="166" startPosition="83" endLine="169" endPosition="5" />
-    <scopeInfo nodeId="5581663871702548611" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="206" startPosition="35" endLine="209" endPosition="105">
+    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="154" startPosition="83" endLine="157" endPosition="5" />
+    <scopeInfo nodeId="5581663871702548611" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="194" startPosition="35" endLine="197" endPosition="105">
       <varInfo nodeId="5581663871702548611" varName="manager" />
       <varInfo nodeId="5581663871702548611" varName="opContext" />
     </scopeInfo>
-    <scopeInfo nodeId="5581663871702930700" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="225" startPosition="0" endLine="228" endPosition="0">
+    <scopeInfo nodeId="5581663871702930700" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="213" startPosition="0" endLine="216" endPosition="0">
       <varInfo nodeId="5581663871702930700" varName="editorContext" />
       <varInfo nodeId="5581663871702930700" varName="node" />
       <varInfo nodeId="5581663871702930700" varName="scope" />
     </scopeInfo>
-    <scopeInfo nodeId="5581663871702548620" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="251" startPosition="35" endLine="254" endPosition="105">
+    <scopeInfo nodeId="5581663871702548620" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="239" startPosition="35" endLine="242" endPosition="105">
       <varInfo nodeId="5581663871702548620" varName="manager" />
       <varInfo nodeId="5581663871702548620" varName="opContext" />
     </scopeInfo>
-    <scopeInfo nodeId="5581663871702548628" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="290" startPosition="35" endLine="293" endPosition="105">
+    <scopeInfo nodeId="5581663871702548628" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="278" startPosition="35" endLine="281" endPosition="105">
       <varInfo nodeId="5581663871702548628" varName="manager" />
       <varInfo nodeId="5581663871702548628" varName="opContext" />
     </scopeInfo>
-    <scopeInfo nodeId="5581663871702358937" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="298" startPosition="0" endLine="301" endPosition="0">
+    <scopeInfo nodeId="5581663871702358937" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="286" startPosition="0" endLine="289" endPosition="0">
       <varInfo nodeId="5581663871702358937" varName="str" />
     </scopeInfo>
-    <scopeInfo nodeId="5581663871702548609" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="185" startPosition="89" endLine="189" endPosition="22">
+    <scopeInfo nodeId="5581663871702548609" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="173" startPosition="89" endLine="177" endPosition="22">
       <varInfo nodeId="5581663871702548609" varName="editorCell" />
     </scopeInfo>
-    <scopeInfo nodeId="5581663871702548618" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="229" startPosition="89" endLine="233" endPosition="22">
+    <scopeInfo nodeId="5581663871702548618" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="217" startPosition="89" endLine="221" endPosition="22">
       <varInfo nodeId="5581663871702548618" varName="editorCell" />
     </scopeInfo>
-    <scopeInfo nodeId="5581663871702548626" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="270" startPosition="91" endLine="274" endPosition="22">
+    <scopeInfo nodeId="5581663871702548626" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="258" startPosition="91" endLine="262" endPosition="22">
       <varInfo nodeId="5581663871702548626" varName="editorCell" />
     </scopeInfo>
-    <scopeInfo nodeId="5581663871702548609" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="185" startPosition="0" endLine="191" endPosition="0">
+    <scopeInfo nodeId="5581663871702548609" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="173" startPosition="0" endLine="179" endPosition="0">
       <varInfo nodeId="5581663871702548609" varName="editorContext" />
       <varInfo nodeId="5581663871702548609" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="5581663871702548618" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="229" startPosition="0" endLine="235" endPosition="0">
+    <scopeInfo nodeId="5581663871702548618" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="217" startPosition="0" endLine="223" endPosition="0">
       <varInfo nodeId="5581663871702548618" varName="editorContext" />
       <varInfo nodeId="5581663871702548618" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="5581663871702548626" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="270" startPosition="0" endLine="276" endPosition="0">
+    <scopeInfo nodeId="5581663871702548626" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="258" startPosition="0" endLine="264" endPosition="0">
       <varInfo nodeId="5581663871702548626" varName="editorContext" />
       <varInfo nodeId="5581663871702548626" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="5581663871702358938" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="108" startPosition="89" endLine="115" endPosition="22">
+    <scopeInfo nodeId="5581663871702358938" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="102" startPosition="89" endLine="109" endPosition="22">
       <varInfo nodeId="5581663871702358938" varName="editorCell" />
       <varInfo nodeId="5581663871702358938" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="93" startPosition="90" endLine="101" endPosition="22">
+    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="49" startPosition="88" endLine="57" endPosition="22">
       <varInfo nodeId="5581663871702358908" varName="editorCell" />
       <varInfo nodeId="5581663871702358908" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="174" startPosition="90" endLine="182" endPosition="22">
+    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="87" startPosition="90" endLine="95" endPosition="22">
       <varInfo nodeId="5581663871702358908" varName="editorCell" />
       <varInfo nodeId="5581663871702358908" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="214" startPosition="90" endLine="222" endPosition="22">
+    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="135" startPosition="88" endLine="143" endPosition="22">
       <varInfo nodeId="5581663871702358908" varName="editorCell" />
       <varInfo nodeId="5581663871702358908" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="259" startPosition="92" endLine="267" endPosition="22">
+    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="162" startPosition="90" endLine="170" endPosition="22">
       <varInfo nodeId="5581663871702358908" varName="editorCell" />
       <varInfo nodeId="5581663871702358908" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="5581663871702358938" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="108" startPosition="0" endLine="117" endPosition="0">
+    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="202" startPosition="90" endLine="210" endPosition="22">
+      <varInfo nodeId="5581663871702358908" varName="editorCell" />
+      <varInfo nodeId="5581663871702358908" varName="style" />
+    </scopeInfo>
+    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="247" startPosition="92" endLine="255" endPosition="22">
+      <varInfo nodeId="5581663871702358908" varName="editorCell" />
+      <varInfo nodeId="5581663871702358908" varName="style" />
+    </scopeInfo>
+    <scopeInfo nodeId="5581663871702358938" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="102" startPosition="0" endLine="111" endPosition="0">
       <varInfo nodeId="5581663871702358938" varName="editorContext" />
       <varInfo nodeId="5581663871702358938" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="162" startPosition="91" endLine="171" endPosition="22">
+    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="150" startPosition="91" endLine="159" endPosition="22">
       <varInfo nodeId="5581663871702358908" varName="editorCell" />
     </scopeInfo>
     <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="36" startPosition="89" endLine="46" endPosition="22">
       <varInfo nodeId="5581663871702358908" varName="editorCell" />
     </scopeInfo>
-    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="93" startPosition="0" endLine="103" endPosition="0">
+    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="49" startPosition="0" endLine="59" endPosition="0">
       <varInfo nodeId="5581663871702358908" varName="editorContext" />
       <varInfo nodeId="5581663871702358908" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="174" startPosition="0" endLine="184" endPosition="0">
+    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="87" startPosition="0" endLine="97" endPosition="0">
       <varInfo nodeId="5581663871702358908" varName="editorContext" />
       <varInfo nodeId="5581663871702358908" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="214" startPosition="0" endLine="224" endPosition="0">
+    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="135" startPosition="0" endLine="145" endPosition="0">
       <varInfo nodeId="5581663871702358908" varName="editorContext" />
       <varInfo nodeId="5581663871702358908" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="259" startPosition="0" endLine="269" endPosition="0">
+    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="162" startPosition="0" endLine="172" endPosition="0">
       <varInfo nodeId="5581663871702358908" varName="editorContext" />
       <varInfo nodeId="5581663871702358908" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="162" startPosition="0" endLine="173" endPosition="0">
+    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="202" startPosition="0" endLine="212" endPosition="0">
+      <varInfo nodeId="5581663871702358908" varName="editorContext" />
+      <varInfo nodeId="5581663871702358908" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="247" startPosition="0" endLine="257" endPosition="0">
+      <varInfo nodeId="5581663871702358908" varName="editorContext" />
+      <varInfo nodeId="5581663871702358908" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="150" startPosition="0" endLine="161" endPosition="0">
       <varInfo nodeId="5581663871702358908" varName="editorContext" />
       <varInfo nodeId="5581663871702358908" varName="node" />
     </scopeInfo>
@@ -12851,78 +12867,62 @@
       <varInfo nodeId="5581663871702358908" varName="editorContext" />
       <varInfo nodeId="5581663871702358908" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="49" startPosition="88" endLine="63" endPosition="22">
-      <varInfo nodeId="5581663871702358908" varName="editorCell" />
-      <varInfo nodeId="5581663871702358908" varName="style" />
-    </scopeInfo>
-    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="141" startPosition="88" endLine="155" endPosition="22">
-      <varInfo nodeId="5581663871702358908" varName="editorCell" />
-      <varInfo nodeId="5581663871702358908" varName="style" />
-    </scopeInfo>
-    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="49" startPosition="0" endLine="65" endPosition="0">
-      <varInfo nodeId="5581663871702358908" varName="editorContext" />
-      <varInfo nodeId="5581663871702358908" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="141" startPosition="0" endLine="157" endPosition="0">
-      <varInfo nodeId="5581663871702358908" varName="editorContext" />
-      <varInfo nodeId="5581663871702358908" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="5581663871702548628" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="277" startPosition="91" endLine="295" endPosition="22">
+    <scopeInfo nodeId="5581663871702548628" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="265" startPosition="91" endLine="283" endPosition="22">
       <varInfo nodeId="5581663871702548628" varName="attributeConcept" />
       <varInfo nodeId="5581663871702548628" varName="attributeKind" />
       <varInfo nodeId="5581663871702548628" varName="editorCell" />
       <varInfo nodeId="5581663871702548628" varName="provider" />
       <varInfo nodeId="5581663871702548628" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="5581663871702548611" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="192" startPosition="89" endLine="211" endPosition="22">
+    <scopeInfo nodeId="5581663871702548611" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="180" startPosition="89" endLine="199" endPosition="22">
       <varInfo nodeId="5581663871702548611" varName="attributeConcept" />
       <varInfo nodeId="5581663871702548611" varName="attributeKind" />
       <varInfo nodeId="5581663871702548611" varName="editorCell" />
       <varInfo nodeId="5581663871702548611" varName="provider" />
       <varInfo nodeId="5581663871702548611" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="5581663871702358917" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="70" startPosition="88" endLine="90" endPosition="22">
+    <scopeInfo nodeId="5581663871702358917" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="64" startPosition="88" endLine="84" endPosition="22">
       <varInfo nodeId="5581663871702358917" varName="attributeConcept" />
       <varInfo nodeId="5581663871702358917" varName="attributeKind" />
       <varInfo nodeId="5581663871702358917" varName="editorCell" />
       <varInfo nodeId="5581663871702358917" varName="provider" />
       <varInfo nodeId="5581663871702358917" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="5581663871702358941" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="118" startPosition="89" endLine="138" endPosition="22">
+    <scopeInfo nodeId="5581663871702358941" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="112" startPosition="89" endLine="132" endPosition="22">
       <varInfo nodeId="5581663871702358941" varName="attributeConcept" />
       <varInfo nodeId="5581663871702358941" varName="attributeKind" />
       <varInfo nodeId="5581663871702358941" varName="editorCell" />
       <varInfo nodeId="5581663871702358941" varName="provider" />
       <varInfo nodeId="5581663871702358941" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="5581663871702548620" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="236" startPosition="89" endLine="256" endPosition="22">
+    <scopeInfo nodeId="5581663871702548620" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="224" startPosition="89" endLine="244" endPosition="22">
       <varInfo nodeId="5581663871702548620" varName="attributeConcept" />
       <varInfo nodeId="5581663871702548620" varName="attributeKind" />
       <varInfo nodeId="5581663871702548620" varName="editorCell" />
       <varInfo nodeId="5581663871702548620" varName="provider" />
       <varInfo nodeId="5581663871702548620" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="5581663871702548628" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="277" startPosition="0" endLine="297" endPosition="0">
+    <scopeInfo nodeId="5581663871702548628" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="265" startPosition="0" endLine="285" endPosition="0">
       <varInfo nodeId="5581663871702548628" varName="editorContext" />
       <varInfo nodeId="5581663871702548628" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="5581663871702548611" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="192" startPosition="0" endLine="213" endPosition="0">
+    <scopeInfo nodeId="5581663871702548611" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="180" startPosition="0" endLine="201" endPosition="0">
       <varInfo nodeId="5581663871702548611" varName="editorContext" />
       <varInfo nodeId="5581663871702548611" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="5581663871702358917" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="70" startPosition="0" endLine="92" endPosition="0">
+    <scopeInfo nodeId="5581663871702358917" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="64" startPosition="0" endLine="86" endPosition="0">
       <varInfo nodeId="5581663871702358917" varName="editorContext" />
       <varInfo nodeId="5581663871702358917" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="5581663871702358941" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="118" startPosition="0" endLine="140" endPosition="0">
+    <scopeInfo nodeId="5581663871702358941" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="112" startPosition="0" endLine="134" endPosition="0">
       <varInfo nodeId="5581663871702358941" varName="editorContext" />
       <varInfo nodeId="5581663871702358941" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="5581663871702548620" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="236" startPosition="0" endLine="258" endPosition="0">
+    <scopeInfo nodeId="5581663871702548620" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="224" startPosition="0" endLine="246" endPosition="0">
       <varInfo nodeId="5581663871702548620" varName="editorContext" />
       <varInfo nodeId="5581663871702548620" varName="node" />
     </scopeInfo>
-    <unitInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="27" startPosition="0" endLine="302" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.editor.PeriodSeparatorFormatToken_Editor" />
+    <unitInfo nodeId="5581663871702358908" fileName="PeriodSeparatorFormatToken_Editor.java" startLine="27" startPosition="0" endLine="290" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.editor.PeriodSeparatorFormatToken_Editor" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903d0(jetbrains.mps.baseLanguage.dates.editor)/5600029375247572396">
     <nodeInfo nodeId="5600029375247572396" fileName="InTimeZoneExpression_delete.java" startLine="14" startPosition="95" endLine="15" endPosition="122" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />

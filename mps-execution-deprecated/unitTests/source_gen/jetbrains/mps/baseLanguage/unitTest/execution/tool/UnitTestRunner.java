@@ -115,10 +115,7 @@ public class UnitTestRunner extends BaseRunner {
 
         testsCommandLine.value = ListSequence.fromList(new ArrayList<String>(ListSequence.fromList(tests).count()));
         for (ITestNodeWrapper test : ListSequence.fromList(tests)) {
-          List<String> parametersPart = ListSequence.fromListAndArray(new ArrayList<String>(), (test.isTestCase() ?
-            "-c" :
-            "-m"
-          ), test.getFqName());
+          List<String> parametersPart = ListSequence.fromListAndArray(new ArrayList<String>(), (test.isTestCase() ? "-c" : "-m"), test.getFqName());
           testCommandLineLength.value = ListSequence.fromList(parametersPart).foldLeft(testCommandLineLength.value, new ILeftCombinator<String, Long>() {
             public Long combine(Long s, String it) {
               return s + it.length();
@@ -219,17 +216,11 @@ public class UnitTestRunner extends BaseRunner {
   }
 
   private static boolean eq_y7hhub_a0a0a0a0a0a0b0a0a0a0e0f(Object a, Object b) {
-    return (a != null ?
-      a.equals(b) :
-      a == b
-    );
+    return (a != null ? a.equals(b) : a == b);
   }
 
   private static boolean eq_y7hhub_a0a0a0a0a0a2a0a0a0a4a5(Object a, Object b) {
-    return (a != null ?
-      a.equals(b) :
-      a == b
-    );
+    return (a != null ? a.equals(b) : a == b);
   }
 
   private static boolean isNotEmptyString(String str) {

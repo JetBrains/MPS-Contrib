@@ -269,10 +269,7 @@ public class ClassInfo<T> {
         return false;
       }
       ClassInfo.MyAttribute attribute = (ClassInfo.MyAttribute) o;
-      if ((this.myName != null ?
-        !(this.myName.equals(attribute.myName)) :
-        attribute.myName != null
-      )) {
+      if ((this.myName != null ? !(this.myName.equals(attribute.myName)) : attribute.myName != null)) {
         return false;
       }
       return true;
@@ -280,10 +277,7 @@ public class ClassInfo<T> {
 
     @Override
     public int hashCode() {
-      return ((this.myName != null ?
-        this.myName.hashCode() :
-        0
-      ));
+      return ((this.myName != null ? this.myName.hashCode() : 0));
     }
 
     @Override

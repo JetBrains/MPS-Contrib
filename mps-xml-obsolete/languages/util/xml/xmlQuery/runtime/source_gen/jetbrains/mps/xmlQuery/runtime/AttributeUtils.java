@@ -12,25 +12,16 @@ public class AttributeUtils {
   }
 
   public static String stringWithDefault(String value, String defaultValue) {
-    return (value == null ?
-      defaultValue :
-      value
-    );
+    return (value == null ? defaultValue : value);
   }
 
   public static boolean booleanWithDefault(String value, boolean defaultValue) {
-    return (value == null ?
-      defaultValue :
-      Boolean.parseBoolean(value)
-    );
+    return (value == null ? defaultValue : Boolean.parseBoolean(value));
   }
 
   public static int integerWithDefault(String value, int defaultValue) {
     try {
-      return (value == null ?
-        defaultValue :
-        Integer.parseInt(value)
-      );
+      return (value == null ? defaultValue : Integer.parseInt(value));
     } catch (NumberFormatException e) {
       return defaultValue;
     }

@@ -30,10 +30,7 @@ public class DateTimeOperations {
 
   @Deprecated
   public static String print(Long datetime, DateTimeFormatter formatter) {
-    return formatter.print((datetime != null ?
-      new DateTime(datetime, currentZone.get()) :
-      Constants.NULL_DATE_TIME
-    ));
+    return formatter.print((datetime != null ? new DateTime(datetime, currentZone.get()) : Constants.NULL_DATE_TIME));
   }
 
   @Deprecated
@@ -43,41 +40,20 @@ public class DateTimeOperations {
 
   @Deprecated
   public static String print(Long value, DateTimeFormatter formatter, Locale locale, DateTimeZone zone) {
-    DateTime dateTime = ((value != null) ?
-      (((zone != null) ?
-        new DateTime(value, zone) :
-        new DateTime(value, currentZone.get())
-      )) :
-      Constants.NULL_DATE_TIME
-    );
-    DateTimeFormatter dateTimeFormatter = ((locale == null) ?
-      formatter :
-      formatter.withLocale(locale)
-    );
+    DateTime dateTime = ((value != null) ? (((zone != null) ? new DateTime(value, zone) : new DateTime(value, currentZone.get()))) : Constants.NULL_DATE_TIME);
+    DateTimeFormatter dateTimeFormatter = ((locale == null) ? formatter : formatter.withLocale(locale));
     return dateTimeFormatter.print(dateTime);
   }
 
   public static String print(DateTime value, DateTimeFormatter formatter, Locale locale) {
-    DateTime dateTime = ((value != null) ?
-      value :
-      Constants.NULL_DATE_TIME
-    );
-    DateTimeFormatter dateTimeFormatter = ((locale == null) ?
-      formatter :
-      formatter.withLocale(locale)
-    );
+    DateTime dateTime = ((value != null) ? value : Constants.NULL_DATE_TIME);
+    DateTimeFormatter dateTimeFormatter = ((locale == null) ? formatter : formatter.withLocale(locale));
     return dateTimeFormatter.print(dateTime);
   }
 
   public static String print(Period value, PeriodFormatter formatter, Locale locale) {
-    Period period = (value != null ?
-      value :
-      new Period()
-    );
-    PeriodFormatter dateTimeFormatter = (locale == null ?
-      formatter :
-      formatter.withLocale(locale)
-    );
+    Period period = (value != null ? value : new Period());
+    PeriodFormatter dateTimeFormatter = (locale == null ? formatter : formatter.withLocale(locale));
     return dateTimeFormatter.print(period);
   }
 
@@ -87,52 +63,31 @@ public class DateTimeOperations {
   }
 
   public static DateTime convert(Long l, DateTimeZone zone) {
-    return (l != null ?
-      new DateTime(l, zone) :
-      null
-    );
+    return (l != null ? new DateTime(l, zone) : null);
   }
 
   public static Long convert(DateTime dateTime) {
-    return (dateTime != null ?
-      dateTime.getMillis() :
-      null
-    );
+    return (dateTime != null ? dateTime.getMillis() : null);
   }
 
   public static Long convert(Date date) {
-    return (date != null ?
-      date.getTime() :
-      null
-    );
+    return (date != null ? date.getTime() : null);
   }
 
   public static Long convert(Calendar calendar) {
-    return (calendar != null ?
-      calendar.getTimeInMillis() :
-      null
-    );
+    return (calendar != null ? calendar.getTimeInMillis() : null);
   }
 
   public static Long convert(Period period) {
-    return (period != null ?
-      period.toStandardDuration().getMillis() :
-      null
-    );
+    return (period != null ? period.toStandardDuration().getMillis() : null);
   }
 
   public static Long convert(Duration period) {
-    return (period != null ?
-      period.getMillis() :
-      null
-    );
+    return (period != null ? period.getMillis() : null);
   }
 
   public static Duration toDuration(Period p) {
-    return (p != null ?
-      p.toStandardDuration() :
-      null
-    );
+    return (p != null ? p.toStandardDuration() : null);
   }
 
   @Deprecated
@@ -148,10 +103,7 @@ public class DateTimeOperations {
     }
     try {
       if (defValues != null) {
-        MutableDateTime mdt = new MutableDateTime((defValues != null ?
-          defValues :
-          0L
-        ));
+        MutableDateTime mdt = new MutableDateTime((defValues != null ? defValues : 0L));
         formatter = formatter.withDefaultYear(mdt.getYear());
         int res = formatter.parseInto(mdt, datetimeString, 0);
         if (res <= 0) {
@@ -207,98 +159,59 @@ public class DateTimeOperations {
   }
 
   public static boolean compare(DateTime op1, CompareType cmp, DateTime op2, DateTimeFieldType type) {
-    DateTimeComparator dtc = (type != null ?
-      DateTimeComparator.getInstance(type) :
-      DateTimeComparator.getInstance()
-    );
+    DateTimeComparator dtc = (type != null ? DateTimeComparator.getInstance(type) : DateTimeComparator.getInstance());
     int compareValue;
     if (op1 == null) {
-      compareValue = (op2 != null ?
-        -1 :
-        0
-      );
+      compareValue = (op2 != null ? -1 : 0);
     } else {
-      compareValue = (op2 != null ?
-        dtc.compare(op1, op2) :
-        1
-      );
+      compareValue = (op2 != null ? dtc.compare(op1, op2) : 1);
     }
     return DateTimeOperations.compareResult(compareValue, cmp);
   }
 
   @Deprecated
   public static Long roundFloor(Long datetime, DateTimeFieldType type) {
-    return (datetime != null ?
-      new DateTime(datetime, currentZone.get()).property(type).roundFloorCopy().getMillis() :
-      null
-    );
+    return (datetime != null ? new DateTime(datetime, currentZone.get()).property(type).roundFloorCopy().getMillis() : null);
   }
 
   public static DateTime roundFloor(DateTime datetime, DateTimeFieldType type) {
-    return (datetime != null ?
-      datetime.property(type).roundFloorCopy() :
-      null
-    );
+    return (datetime != null ? datetime.property(type).roundFloorCopy() : null);
   }
 
   @Deprecated
   public static Long roundCeiling(Long datetime, DateTimeFieldType type) {
-    return (datetime != null ?
-      new DateTime(datetime, currentZone.get()).property(type).roundCeilingCopy().getMillis() :
-      null
-    );
+    return (datetime != null ? new DateTime(datetime, currentZone.get()).property(type).roundCeilingCopy().getMillis() : null);
   }
 
   public static DateTime roundCeiling(DateTime datetime, DateTimeFieldType type) {
-    return (datetime != null ?
-      datetime.property(type).roundCeilingCopy() :
-      null
-    );
+    return (datetime != null ? datetime.property(type).roundCeilingCopy() : null);
   }
 
   @Deprecated
   public static Long round(Long datetime, DateTimeFieldType type) {
-    return (datetime != null ?
-      new DateTime(datetime, currentZone.get()).property(type).roundHalfCeilingCopy().getMillis() :
-      null
-    );
+    return (datetime != null ? new DateTime(datetime, currentZone.get()).property(type).roundHalfCeilingCopy().getMillis() : null);
   }
 
   public static DateTime round(DateTime datetime, DateTimeFieldType type) {
-    return (datetime != null ?
-      datetime.property(type).roundHalfCeilingCopy() :
-      null
-    );
+    return (datetime != null ? datetime.property(type).roundHalfCeilingCopy() : null);
   }
 
   @Deprecated
   public static Integer get(Long datetime, DateTimeFieldType type) {
-    return (datetime != null ?
-      new DateTime(datetime, currentZone.get()).property(type).get() :
-      null
-    );
+    return (datetime != null ? new DateTime(datetime, currentZone.get()).property(type).get() : null);
   }
 
   public static Integer get(DateTime datetime, DateTimeFieldType type) {
-    return (datetime != null ?
-      datetime.property(type).get() :
-      null
-    );
+    return (datetime != null ? datetime.property(type).get() : null);
   }
 
   @Deprecated
   public static Long with(Long datetime, DateTimeFieldType type, int value) {
-    return (datetime != null ?
-      new DateTime(datetime, currentZone.get()).property(type).setCopy(value).getMillis() :
-      null
-    );
+    return (datetime != null ? new DateTime(datetime, currentZone.get()).property(type).setCopy(value).getMillis() : null);
   }
 
   public static DateTime with(DateTime datetime, DateTimeFieldType type, int value) {
-    return (datetime != null ?
-      datetime.property(type).setCopy(value) :
-      null
-    );
+    return (datetime != null ? datetime.property(type).setCopy(value) : null);
   }
 
   @Deprecated
@@ -387,66 +300,36 @@ public class DateTimeOperations {
   }
 
   public static boolean compare(Duration op1, CompareType cmp, Period op2) {
-    return DateTimeOperations.compare(op1, cmp, (op2 != null ?
-      op2.toStandardDuration() :
-      null
-    ));
+    return DateTimeOperations.compare(op1, cmp, (op2 != null ? op2.toStandardDuration() : null));
   }
 
   public static boolean compare(Period op1, CompareType cmp, Duration op2) {
-    return DateTimeOperations.compare((op1 != null ?
-      op1.toStandardDuration() :
-      null
-    ), cmp, op2);
+    return DateTimeOperations.compare((op1 != null ? op1.toStandardDuration() : null), cmp, op2);
   }
 
   public static boolean compare(Long op1, CompareType cmp, Period op2) {
-    return DateTimeOperations.compare((op1 != null ?
-      new Duration(op1) :
-      null
-    ), cmp, (op2 != null ?
-      op2.toStandardDuration() :
-      null
-    ));
+    return DateTimeOperations.compare((op1 != null ? new Duration(op1) : null), cmp, (op2 != null ? op2.toStandardDuration() : null));
   }
 
   public static boolean compare(Period op1, CompareType cmp, Long op2) {
-    return DateTimeOperations.compare((op1 != null ?
-      op1.toStandardDuration() :
-      null
-    ), cmp, (op2 != null ?
-      new Duration(op2) :
-      null
-    ));
+    return DateTimeOperations.compare((op1 != null ? op1.toStandardDuration() : null), cmp, (op2 != null ? new Duration(op2) : null));
   }
 
   public static boolean compare(Long op1, CompareType cmp, Duration op2) {
-    return DateTimeOperations.compare((op1 != null ?
-      new Duration(op1) :
-      null
-    ), cmp, op2);
+    return DateTimeOperations.compare((op1 != null ? new Duration(op1) : null), cmp, op2);
   }
 
   public static boolean compare(Duration op1, CompareType cmp, Long op2) {
-    return DateTimeOperations.compare(op1, cmp, (op2 != null ?
-      new Duration(op2) :
-      null
-    ));
+    return DateTimeOperations.compare(op1, cmp, (op2 != null ? new Duration(op2) : null));
   }
 
   public static boolean compare(Period op1, CompareType cmp, Period op2) {
     DateTime now = new DateTime(currentZone.get());
     int compareValue;
     if (op1 == null) {
-      compareValue = (op2 != null ?
-        -1 :
-        0
-      );
+      compareValue = (op2 != null ? -1 : 0);
     } else {
-      compareValue = (op2 != null ?
-        op1.toDurationFrom(now).compareTo(op2.toDurationFrom(now)) :
-        1
-      );
+      compareValue = (op2 != null ? op1.toDurationFrom(now).compareTo(op2.toDurationFrom(now)) : 1);
     }
     return DateTimeOperations.compareResult(compareValue, cmp);
   }
@@ -454,15 +337,9 @@ public class DateTimeOperations {
   public static boolean compare(Duration op1, CompareType cmp, Duration op2) {
     int compareValue;
     if (op1 == null) {
-      compareValue = (op2 != null ?
-        -1 :
-        0
-      );
+      compareValue = (op2 != null ? -1 : 0);
     } else {
-      compareValue = (op2 != null ?
-        op1.compareTo(op2) :
-        1
-      );
+      compareValue = (op2 != null ? op1.compareTo(op2) : 1);
     }
     return DateTimeOperations.compareResult(compareValue, cmp);
   }

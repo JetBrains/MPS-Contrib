@@ -14,13 +14,7 @@ public class DateTimeArithmetics {
 
   public static Duration minus(Long left, Long right) {
     if (left == null || right == null) {
-      return (right == null ?
-        ((left != null ?
-          new Duration(left) :
-          null
-        )) :
-        new Duration(-right)
-      );
+      return (right == null ? ((left != null ? new Duration(left) : null)) : new Duration(-right));
     }
     return new Duration(right, left);
   }
@@ -68,28 +62,19 @@ public class DateTimeArithmetics {
   }
 
   public static DateTime minus(DateTime leftExpression, Period rightExpression) {
-    return (leftExpression == null ?
-      null :
-      leftExpression.minus(rightExpression)
-    );
+    return (leftExpression == null ? null : leftExpression.minus(rightExpression));
   }
 
   public static Period plus(Period left, Period right) {
     if (left == null || right == null) {
-      return (left == null ?
-        right :
-        left
-      );
+      return (left == null ? right : left);
     }
     return left.plus(right);
   }
 
   public static Duration plus(Duration left, Duration right) {
     if (left == null || right == null) {
-      return (left == null ?
-        right :
-        left
-      );
+      return (left == null ? right : left);
     }
     return left.plus(right);
   }
@@ -130,20 +115,11 @@ public class DateTimeArithmetics {
   }
 
   public static Long min(Long a, Long b) {
-    return (a == null || b == null ?
-      null :
-      Math.min(a, b)
-    );
+    return (a == null || b == null ? null : Math.min(a, b));
   }
 
   public static Long max(Long a, Long b) {
-    return (a == null ?
-      b :
-      ((b == null ?
-        a :
-        Math.max(a, b)
-      ))
-    );
+    return (a == null ? b : ((b == null ? a : Math.max(a, b))));
   }
 
   public static DateTime min(DateTime a, DateTime b) {
@@ -151,23 +127,14 @@ public class DateTimeArithmetics {
       return null;
     }
     int res = DateTimeComparator.getInstance().compare(a, b);
-    return (res < 0 ?
-      a :
-      b
-    );
+    return (res < 0 ? a : b);
   }
 
   public static DateTime max(DateTime a, DateTime b) {
     if (a == null || b == null) {
-      return (a != null ?
-        a :
-        b
-      );
+      return (a != null ? a : b);
     }
     int res = DateTimeComparator.getInstance().compare(a, b);
-    return (res > 0 ?
-      a :
-      b
-    );
+    return (res > 0 ? a : b);
   }
 }

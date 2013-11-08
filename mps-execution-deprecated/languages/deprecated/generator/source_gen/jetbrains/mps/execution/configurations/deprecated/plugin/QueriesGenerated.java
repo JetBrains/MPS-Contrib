@@ -79,10 +79,7 @@ public class QueriesGenerated {
 
   public static Object propertyMacro_GetPropertyValue_8173163127951753815(final IOperationContext operationContext, final PropertyMacroContext _context) {
     SModule module = ((TemplateQueryContext) _context).getGenerator().getGeneratorSessionContext().getInvocationContext().getModule();
-    return (module == null ?
-      null :
-      module.getModuleId().toString()
-    );
+    return (module == null ? null : module.getModuleId().toString());
   }
 
   public static Object propertyMacro_GetPropertyValue_8173163127951753846(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -106,10 +103,7 @@ public class QueriesGenerated {
 
   public static Object propertyMacro_GetPropertyValue_8173163127951938015(final IOperationContext operationContext, final PropertyMacroContext _context) {
     SModule module = ((TemplateQueryContext) _context).getGenerator().getGeneratorSessionContext().getInvocationContext().getModule();
-    return (module == null ?
-      null :
-      module.getModuleId().toString()
-    );
+    return (module == null ? null : module.getModuleId().toString());
   }
 
   public static Object propertyMacro_GetPropertyValue_8173163127951938046(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -364,17 +358,11 @@ public class QueriesGenerated {
   }
 
   public static Object referenceMacro_GetReferent_314981645427226548(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return (SLinkOperations.getTarget(_context.getNode(), "concept", false) == null ?
-      SLinkOperations.getTarget(_quotation_createNode_x583g4_a0a0a47(), "concept", false) :
-      SLinkOperations.getTarget(_context.getNode(), "concept", false)
-    );
+    return (SLinkOperations.getTarget(_context.getNode(), "concept", false) == null ? SLinkOperations.getTarget(_quotation_createNode_x583g4_a0a0a47(), "concept", false) : SLinkOperations.getTarget(_context.getNode(), "concept", false));
   }
 
   public static Object referenceMacro_GetReferent_314981645427226592(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return (SLinkOperations.getTarget(_context.getNode(), "concept", false) == null ?
-      SLinkOperations.getTarget(_quotation_createNode_x583g4_a0a0a57(), "concept", false) :
-      SLinkOperations.getTarget(_context.getNode(), "concept", false)
-    );
+    return (SLinkOperations.getTarget(_context.getNode(), "concept", false) == null ? SLinkOperations.getTarget(_quotation_createNode_x583g4_a0a0a57(), "concept", false) : SLinkOperations.getTarget(_context.getNode(), "concept", false));
   }
 
   public static Object referenceMacro_GetReferent_314981645427226688(final IOperationContext operationContext, final ReferenceMacroContext _context) {

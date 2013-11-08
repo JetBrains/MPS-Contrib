@@ -130,10 +130,7 @@ public class DateTypeUtil {
   public static SNode getContainingPeriod(SNode expr) {
     SNode current = expr;
     while ((current != null) && TypeChecker.getInstance().getRuntimeSupport().coerce_(TypeChecker.getInstance().getTypeOf(current), HUtil.createMatchingPatternByConceptFQName("jetbrains.mps.baseLanguage.dates.structure.PeriodType"), false) == null) {
-      current = (SNodeOperations.isInstanceOf(SNodeOperations.getParent(current), "jetbrains.mps.baseLanguage.structure.Expression") ?
-        SNodeOperations.cast(SNodeOperations.getParent(current), "jetbrains.mps.baseLanguage.structure.Expression") :
-        null
-      );
+      current = (SNodeOperations.isInstanceOf(SNodeOperations.getParent(current), "jetbrains.mps.baseLanguage.structure.Expression") ? SNodeOperations.cast(SNodeOperations.getParent(current), "jetbrains.mps.baseLanguage.structure.Expression") : null);
     }
     return current;
   }
@@ -147,10 +144,7 @@ public class DateTypeUtil {
         }
         return null;
       } else {
-        current = (SNodeOperations.isInstanceOf(SNodeOperations.getParent(current), "jetbrains.mps.baseLanguage.structure.Expression") ?
-          SNodeOperations.cast(SNodeOperations.getParent(current), "jetbrains.mps.baseLanguage.structure.Expression") :
-          null
-        );
+        current = (SNodeOperations.isInstanceOf(SNodeOperations.getParent(current), "jetbrains.mps.baseLanguage.structure.Expression") ? SNodeOperations.cast(SNodeOperations.getParent(current), "jetbrains.mps.baseLanguage.structure.Expression") : null);
       }
     }
     return null;

@@ -114,10 +114,7 @@ public class QueriesGenerated {
           }
 
           public String getMatchingText(String pattern) {
-            return (pattern.length() == 0 ?
-              "/text" :
-              pattern
-            );
+            return (pattern.length() == 0 ? "/text" : pattern);
           }
 
           public String getVisibleMatchingText(String pattern) {

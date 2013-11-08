@@ -80,36 +80,18 @@ public class OffsetDateTimePrinter implements DateTimePrinter {
   }
 
   private Period toPeriod(DateTime dateTime) {
-    boolean isBefore = (myReference == null ?
-      dateTime.isBeforeNow() :
-      dateTime.compareTo(myReference) < 0
-    );
-    Period period = (isBefore ?
-      new Period(dateTime, myReference, myPeriodType) :
-      new Period(myReference, dateTime, myPeriodType)
-    );
+    boolean isBefore = (myReference == null ? dateTime.isBeforeNow() : dateTime.compareTo(myReference) < 0);
+    Period period = (isBefore ? new Period(dateTime, myReference, myPeriodType) : new Period(myReference, dateTime, myPeriodType));
     return period;
   }
 
   private String prefix(DateTime dateTime) {
-    boolean isBefore = (myReference == null ?
-      dateTime.isBeforeNow() :
-      dateTime.compareTo(myReference) < 0
-    );
-    return (isBefore ?
-      "" :
-      "in "
-    );
+    boolean isBefore = (myReference == null ? dateTime.isBeforeNow() : dateTime.compareTo(myReference) < 0);
+    return (isBefore ? "" : "in ");
   }
 
   private String suffix(DateTime dateTime) {
-    boolean isBefore = (myReference == null ?
-      dateTime.isBeforeNow() :
-      dateTime.compareTo(myReference) < 0
-    );
-    return (isBefore ?
-      " ago" :
-      ""
-    );
+    boolean isBefore = (myReference == null ? dateTime.isBeforeNow() : dateTime.compareTo(myReference) < 0);
+    return (isBefore ? " ago" : "");
   }
 }

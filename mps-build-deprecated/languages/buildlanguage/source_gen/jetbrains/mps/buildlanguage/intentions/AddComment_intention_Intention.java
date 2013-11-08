@@ -76,13 +76,7 @@ public class AddComment_intention_Intention implements IntentionFactory {
     }
 
     public String getDescription(final SNode node, final EditorContext editorContext) {
-      return "Add Comment for " + (((SPropertyOperations.getString(SNodeOperations.getConceptDeclaration(node), "conceptAlias") != null) ?
-        SPropertyOperations.getString(SNodeOperations.getConceptDeclaration(node), "conceptAlias") :
-        "Node"
-      )) + " " + ((SPropertyOperations.getString(node, "name") != null) ?
-        SPropertyOperations.getString(node, "name") :
-        ""
-      );
+      return "Add Comment for " + (((SPropertyOperations.getString(SNodeOperations.getConceptDeclaration(node), "conceptAlias") != null) ? SPropertyOperations.getString(SNodeOperations.getConceptDeclaration(node), "conceptAlias") : "Node")) + " " + ((SPropertyOperations.getString(node, "name") != null) ? SPropertyOperations.getString(node, "name") : "");
     }
 
     public void execute(final SNode node, final EditorContext editorContext) {

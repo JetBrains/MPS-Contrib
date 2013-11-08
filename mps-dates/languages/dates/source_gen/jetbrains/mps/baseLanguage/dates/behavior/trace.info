@@ -130,45 +130,46 @@
     <unitInfo nodeId="1015544890586293378" fileName="NotNullOperation_Behavior.java" startLine="10" startPosition="0" endLine="28" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.NotNullOperation_Behavior" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903ce(jetbrains.mps.baseLanguage.dates.behavior)/1075917115049868776">
-    <nodeInfo nodeId="1075917115049868800" fileName="ConditionalFormatToken_Behavior.java" startLine="19" startPosition="52" endLine="20" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1075917115049868784" fileName="ConditionalFormatToken_Behavior.java" startLine="12" startPosition="78" endLine="13" endPosition="187" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1075917115049868800" fileName="ConditionalFormatToken_Behavior.java" startLine="16" startPosition="52" endLine="17" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1075917115049868776" fileName="ConditionalFormatToken_Behavior.java" startLine="9" startPosition="0" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="1075917115049868800" fileName="ConditionalFormatToken_Behavior.java" startLine="19" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="isEmptyString#(Ljava/lang/String;)Z" />
-    <nodeInfo nodeId="1075917115049868784" fileName="ConditionalFormatToken_Behavior.java" startLine="12" startPosition="78" endLine="16" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1075917115049868776" fileName="ConditionalFormatToken_Behavior.java" startLine="12" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getClassName_1075917115049868779#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+    <nodeInfo nodeId="1075917115049868776" fileName="ConditionalFormatToken_Behavior.java" startLine="12" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getClassName_1075917115049868779#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+    <nodeInfo nodeId="1075917115049868800" fileName="ConditionalFormatToken_Behavior.java" startLine="16" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="isEmptyString#(Ljava/lang/String;)Z" />
     <scopeInfo nodeId="1075917115049868778" fileName="ConditionalFormatToken_Behavior.java" startLine="9" startPosition="43" endLine="9" endPosition="43" />
-    <scopeInfo nodeId="1075917115049868800" fileName="ConditionalFormatToken_Behavior.java" startLine="19" startPosition="52" endLine="20" endPosition="44" />
+    <scopeInfo nodeId="1075917115049868782" fileName="ConditionalFormatToken_Behavior.java" startLine="12" startPosition="78" endLine="13" endPosition="187" />
+    <scopeInfo nodeId="1075917115049868800" fileName="ConditionalFormatToken_Behavior.java" startLine="16" startPosition="52" endLine="17" endPosition="44" />
     <scopeInfo nodeId="1075917115049868776" fileName="ConditionalFormatToken_Behavior.java" startLine="9" startPosition="0" endLine="11" endPosition="0">
       <varInfo nodeId="1075917115049868776" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="1075917115049868800" fileName="ConditionalFormatToken_Behavior.java" startLine="19" startPosition="0" endLine="22" endPosition="0">
-      <varInfo nodeId="1075917115049868800" varName="str" />
-    </scopeInfo>
-    <scopeInfo nodeId="1075917115049868782" fileName="ConditionalFormatToken_Behavior.java" startLine="12" startPosition="78" endLine="16" endPosition="7" />
-    <scopeInfo nodeId="1075917115049868776" fileName="ConditionalFormatToken_Behavior.java" startLine="12" startPosition="0" endLine="18" endPosition="0">
+    <scopeInfo nodeId="1075917115049868776" fileName="ConditionalFormatToken_Behavior.java" startLine="12" startPosition="0" endLine="15" endPosition="0">
       <varInfo nodeId="1075917115049868776" varName="thisNode" />
     </scopeInfo>
-    <unitInfo nodeId="1075917115049868776" fileName="ConditionalFormatToken_Behavior.java" startLine="8" startPosition="0" endLine="23" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.ConditionalFormatToken_Behavior" />
+    <scopeInfo nodeId="1075917115049868800" fileName="ConditionalFormatToken_Behavior.java" startLine="16" startPosition="0" endLine="19" endPosition="0">
+      <varInfo nodeId="1075917115049868800" varName="str" />
+    </scopeInfo>
+    <unitInfo nodeId="1075917115049868776" fileName="ConditionalFormatToken_Behavior.java" startLine="8" startPosition="0" endLine="20" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.ConditionalFormatToken_Behavior" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903ce(jetbrains.mps.baseLanguage.dates.behavior)/1213877270116">
     <nodeInfo nodeId="1213877270120" fileName="ScheduleLiteral_Behavior.java" startLine="13" startPosition="67" endLine="14" endPosition="303" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1213877270142" fileName="ScheduleLiteral_Behavior.java" startLine="17" startPosition="68" endLine="18" endPosition="400" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1213877270170" fileName="ScheduleLiteral_Behavior.java" startLine="21" startPosition="76" endLine="22" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1213877270259" fileName="ScheduleLiteral_Behavior.java" startLine="49" startPosition="6" endLine="50" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1213877270176" fileName="ScheduleLiteral_Behavior.java" startLine="22" startPosition="80" endLine="23" endPosition="199" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1213877270190" fileName="ScheduleLiteral_Behavior.java" startLine="23" startPosition="199" endLine="24" endPosition="199" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1213877270204" fileName="ScheduleLiteral_Behavior.java" startLine="24" startPosition="199" endLine="25" endPosition="193" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1213877270218" fileName="ScheduleLiteral_Behavior.java" startLine="25" startPosition="193" endLine="26" endPosition="205" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1213877270235" fileName="ScheduleLiteral_Behavior.java" startLine="26" startPosition="205" endLine="27" endPosition="173" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1213877270248" fileName="ScheduleLiteral_Behavior.java" startLine="27" startPosition="173" endLine="28" endPosition="149" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1213877270259" fileName="ScheduleLiteral_Behavior.java" startLine="28" startPosition="149" endLine="29" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1213877270284" fileName="ScheduleLiteral_Behavior.java" startLine="32" startPosition="84" endLine="33" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1213877270116" fileName="ScheduleLiteral_Behavior.java" startLine="10" startPosition="0" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
     <nodeInfo nodeId="1213877270116" fileName="ScheduleLiteral_Behavior.java" startLine="13" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_hasDay_1213877270117#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
     <nodeInfo nodeId="1213877270116" fileName="ScheduleLiteral_Behavior.java" startLine="17" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_hasTime_1213877270139#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-    <nodeInfo nodeId="1213877270176" fileName="ScheduleLiteral_Behavior.java" startLine="22" startPosition="80" endLine="26" endPosition="6" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1213877270190" fileName="ScheduleLiteral_Behavior.java" startLine="26" startPosition="6" endLine="30" endPosition="6" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1213877270204" fileName="ScheduleLiteral_Behavior.java" startLine="30" startPosition="6" endLine="34" endPosition="6" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1213877270235" fileName="ScheduleLiteral_Behavior.java" startLine="41" startPosition="6" endLine="45" endPosition="6" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1213877270248" fileName="ScheduleLiteral_Behavior.java" startLine="45" startPosition="6" endLine="49" endPosition="6" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1213877270284" fileName="ScheduleLiteral_Behavior.java" startLine="53" startPosition="84" endLine="57" endPosition="6" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1213877270116" fileName="ScheduleLiteral_Behavior.java" startLine="53" startPosition="0" endLine="59" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_cutLeadingZero_1213877270281#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Ljava/lang/String;" />
-    <nodeInfo nodeId="1213877270218" fileName="ScheduleLiteral_Behavior.java" startLine="34" startPosition="6" endLine="41" endPosition="6" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1213877270116" fileName="ScheduleLiteral_Behavior.java" startLine="21" startPosition="0" endLine="52" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_toCronExpression_1213877270167#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+    <nodeInfo nodeId="1213877270116" fileName="ScheduleLiteral_Behavior.java" startLine="32" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_cutLeadingZero_1213877270281#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Ljava/lang/String;" />
+    <nodeInfo nodeId="1213877270116" fileName="ScheduleLiteral_Behavior.java" startLine="21" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_toCronExpression_1213877270167#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
     <scopeInfo nodeId="1213877270305" fileName="ScheduleLiteral_Behavior.java" startLine="10" startPosition="43" endLine="10" endPosition="43" />
     <scopeInfo nodeId="1213877270119" fileName="ScheduleLiteral_Behavior.java" startLine="13" startPosition="67" endLine="14" endPosition="303" />
     <scopeInfo nodeId="1213877270141" fileName="ScheduleLiteral_Behavior.java" startLine="17" startPosition="68" endLine="18" endPosition="400" />
+    <scopeInfo nodeId="1213877270283" fileName="ScheduleLiteral_Behavior.java" startLine="32" startPosition="84" endLine="33" endPosition="73" />
     <scopeInfo nodeId="1213877270116" fileName="ScheduleLiteral_Behavior.java" startLine="10" startPosition="0" endLine="12" endPosition="0">
       <varInfo nodeId="1213877270116" varName="thisNode" />
     </scopeInfo>
@@ -178,12 +179,11 @@
     <scopeInfo nodeId="1213877270116" fileName="ScheduleLiteral_Behavior.java" startLine="17" startPosition="0" endLine="20" endPosition="0">
       <varInfo nodeId="1213877270116" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="1213877270283" fileName="ScheduleLiteral_Behavior.java" startLine="53" startPosition="84" endLine="57" endPosition="6" />
-    <scopeInfo nodeId="1213877270116" fileName="ScheduleLiteral_Behavior.java" startLine="53" startPosition="0" endLine="59" endPosition="0">
+    <scopeInfo nodeId="1213877270116" fileName="ScheduleLiteral_Behavior.java" startLine="32" startPosition="0" endLine="35" endPosition="0">
       <varInfo nodeId="1213877270302" varName="s" />
       <varInfo nodeId="1213877270116" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="1213877270169" fileName="ScheduleLiteral_Behavior.java" startLine="21" startPosition="76" endLine="50" endPosition="97">
+    <scopeInfo nodeId="1213877270169" fileName="ScheduleLiteral_Behavior.java" startLine="21" startPosition="76" endLine="29" endPosition="97">
       <varInfo nodeId="1213877270219" varName="dayOfMonth" />
       <varInfo nodeId="1213877270249" varName="dayOfWeek" />
       <varInfo nodeId="1213877270205" varName="hour" />
@@ -192,10 +192,10 @@
       <varInfo nodeId="1213877270171" varName="period" />
       <varInfo nodeId="1213877270177" varName="second" />
     </scopeInfo>
-    <scopeInfo nodeId="1213877270116" fileName="ScheduleLiteral_Behavior.java" startLine="21" startPosition="0" endLine="52" endPosition="0">
+    <scopeInfo nodeId="1213877270116" fileName="ScheduleLiteral_Behavior.java" startLine="21" startPosition="0" endLine="31" endPosition="0">
       <varInfo nodeId="1213877270116" varName="thisNode" />
     </scopeInfo>
-    <unitInfo nodeId="1213877270116" fileName="ScheduleLiteral_Behavior.java" startLine="9" startPosition="0" endLine="60" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.ScheduleLiteral_Behavior" />
+    <unitInfo nodeId="1213877270116" fileName="ScheduleLiteral_Behavior.java" startLine="9" startPosition="0" endLine="36" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.ScheduleLiteral_Behavior" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903ce(jetbrains.mps.baseLanguage.dates.behavior)/1213877283141">
     <nodeInfo nodeId="1213877283141" fileName="DateTimeOperation_Behavior.java" startLine="8" startPosition="0" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
@@ -833,70 +833,73 @@
     <nodeInfo nodeId="3086205941497649607" fileName="DateTypeUtil.java" startLine="122" startPosition="5" endLine="123" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="5251619021093068884" fileName="DateTypeUtil.java" startLine="126" startPosition="80" endLine="127" endPosition="139" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="5251619021093068898" fileName="DateTypeUtil.java" startLine="130" startPosition="55" endLine="131" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5251619021093068930" fileName="DateTypeUtil.java" startLine="137" startPosition="5" endLine="138" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5251619021093068937" fileName="DateTypeUtil.java" startLine="141" startPosition="56" endLine="142" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5251619021093068950" fileName="DateTypeUtil.java" startLine="145" startPosition="179" endLine="146" endPosition="103" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5251619021093068958" fileName="DateTypeUtil.java" startLine="147" startPosition="9" endLine="148" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5251619021093068991" fileName="DateTypeUtil.java" startLine="155" startPosition="5" endLine="156" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5251619021093068639" fileName="DateTypeUtil.java" startLine="159" startPosition="0" endLine="160" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="LOG" />
-    <nodeInfo nodeId="5251619021093068642" fileName="DateTypeUtil.java" startLine="161" startPosition="58" endLine="162" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5251619021093068642" fileName="DateTypeUtil.java" startLine="162" startPosition="63" endLine="163" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5251619021093068642" fileName="DateTypeUtil.java" startLine="163" startPosition="30" endLine="164" endPosition="169" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="5251619021093068642" fileName="DateTypeUtil.java" startLine="163" startPosition="30" endLine="164" endPosition="169" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="5251619021093068642" fileName="DateTypeUtil.java" startLine="163" startPosition="30" endLine="164" endPosition="169" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5251619021093068642" fileName="DateTypeUtil.java" startLine="164" startPosition="169" endLine="165" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5251619021093068648" fileName="DateTypeUtil.java" startLine="168" startPosition="58" endLine="169" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5251619021093068648" fileName="DateTypeUtil.java" startLine="169" startPosition="63" endLine="170" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5251619021093068648" fileName="DateTypeUtil.java" startLine="170" startPosition="30" endLine="171" endPosition="173" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="5251619021093068648" fileName="DateTypeUtil.java" startLine="170" startPosition="30" endLine="171" endPosition="173" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="5251619021093068648" fileName="DateTypeUtil.java" startLine="170" startPosition="30" endLine="171" endPosition="173" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5251619021093068648" fileName="DateTypeUtil.java" startLine="171" startPosition="173" endLine="172" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5251619021093068653" fileName="DateTypeUtil.java" startLine="175" startPosition="58" endLine="176" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5251619021093068653" fileName="DateTypeUtil.java" startLine="176" startPosition="63" endLine="177" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5251619021093068653" fileName="DateTypeUtil.java" startLine="177" startPosition="30" endLine="178" endPosition="175" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="5251619021093068653" fileName="DateTypeUtil.java" startLine="177" startPosition="30" endLine="178" endPosition="175" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="5251619021093068653" fileName="DateTypeUtil.java" startLine="177" startPosition="30" endLine="178" endPosition="175" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5251619021093068653" fileName="DateTypeUtil.java" startLine="178" startPosition="175" endLine="179" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5251619021093068657" fileName="DateTypeUtil.java" startLine="182" startPosition="58" endLine="183" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5251619021093068657" fileName="DateTypeUtil.java" startLine="183" startPosition="63" endLine="184" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5251619021093068657" fileName="DateTypeUtil.java" startLine="184" startPosition="30" endLine="185" endPosition="167" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="5251619021093068657" fileName="DateTypeUtil.java" startLine="184" startPosition="30" endLine="185" endPosition="167" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="5251619021093068657" fileName="DateTypeUtil.java" startLine="184" startPosition="30" endLine="185" endPosition="167" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5251619021093068657" fileName="DateTypeUtil.java" startLine="185" startPosition="167" endLine="186" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5251619021093068663" fileName="DateTypeUtil.java" startLine="189" startPosition="58" endLine="190" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5251619021093068663" fileName="DateTypeUtil.java" startLine="190" startPosition="63" endLine="191" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5251619021093068663" fileName="DateTypeUtil.java" startLine="191" startPosition="30" endLine="192" endPosition="169" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="5251619021093068663" fileName="DateTypeUtil.java" startLine="191" startPosition="30" endLine="192" endPosition="169" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="5251619021093068663" fileName="DateTypeUtil.java" startLine="191" startPosition="30" endLine="192" endPosition="169" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5251619021093068663" fileName="DateTypeUtil.java" startLine="192" startPosition="169" endLine="193" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5251619021093068667" fileName="DateTypeUtil.java" startLine="196" startPosition="58" endLine="197" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5251619021093068667" fileName="DateTypeUtil.java" startLine="197" startPosition="63" endLine="198" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5251619021093068667" fileName="DateTypeUtil.java" startLine="198" startPosition="30" endLine="199" endPosition="162" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="5251619021093068667" fileName="DateTypeUtil.java" startLine="198" startPosition="30" endLine="199" endPosition="162" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="5251619021093068667" fileName="DateTypeUtil.java" startLine="198" startPosition="30" endLine="199" endPosition="162" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5251619021093068667" fileName="DateTypeUtil.java" startLine="199" startPosition="162" endLine="200" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5251619021093068672" fileName="DateTypeUtil.java" startLine="203" startPosition="58" endLine="204" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5251619021093068672" fileName="DateTypeUtil.java" startLine="204" startPosition="63" endLine="205" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5251619021093068672" fileName="DateTypeUtil.java" startLine="205" startPosition="30" endLine="206" endPosition="165" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5251619021093068672" fileName="DateTypeUtil.java" startLine="206" startPosition="165" endLine="207" endPosition="237" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5251619021093068672" fileName="DateTypeUtil.java" startLine="207" startPosition="237" endLine="208" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5251619021093068677" fileName="DateTypeUtil.java" startLine="211" startPosition="58" endLine="212" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5251619021093068677" fileName="DateTypeUtil.java" startLine="212" startPosition="63" endLine="213" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5251619021093068677" fileName="DateTypeUtil.java" startLine="213" startPosition="30" endLine="214" endPosition="165" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5251619021093068677" fileName="DateTypeUtil.java" startLine="214" startPosition="165" endLine="215" endPosition="241" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5251619021093068677" fileName="DateTypeUtil.java" startLine="215" startPosition="241" endLine="216" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5251619021093068682" fileName="DateTypeUtil.java" startLine="219" startPosition="58" endLine="220" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5251619021093068682" fileName="DateTypeUtil.java" startLine="220" startPosition="63" endLine="221" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5251619021093068682" fileName="DateTypeUtil.java" startLine="221" startPosition="30" endLine="222" endPosition="165" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5251619021093068682" fileName="DateTypeUtil.java" startLine="222" startPosition="165" endLine="223" endPosition="303" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5251619021093068682" fileName="DateTypeUtil.java" startLine="223" startPosition="303" endLine="224" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5251619021093068915" fileName="DateTypeUtil.java" startLine="132" startPosition="250" endLine="133" endPosition="251" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5251619021093068930" fileName="DateTypeUtil.java" startLine="134" startPosition="5" endLine="135" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5251619021093068937" fileName="DateTypeUtil.java" startLine="138" startPosition="56" endLine="139" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5251619021093068950" fileName="DateTypeUtil.java" startLine="142" startPosition="179" endLine="143" endPosition="103" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5251619021093068958" fileName="DateTypeUtil.java" startLine="144" startPosition="9" endLine="145" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5251619021093068976" fileName="DateTypeUtil.java" startLine="146" startPosition="14" endLine="147" endPosition="253" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5251619021093068991" fileName="DateTypeUtil.java" startLine="149" startPosition="5" endLine="150" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5251619021093068639" fileName="DateTypeUtil.java" startLine="153" startPosition="0" endLine="154" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="LOG" />
+    <nodeInfo nodeId="5251619021093068642" fileName="DateTypeUtil.java" startLine="155" startPosition="58" endLine="156" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5251619021093068642" fileName="DateTypeUtil.java" startLine="156" startPosition="63" endLine="157" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5251619021093068642" fileName="DateTypeUtil.java" startLine="157" startPosition="30" endLine="158" endPosition="169" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5251619021093068642" fileName="DateTypeUtil.java" startLine="157" startPosition="30" endLine="158" endPosition="169" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5251619021093068642" fileName="DateTypeUtil.java" startLine="157" startPosition="30" endLine="158" endPosition="169" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5251619021093068642" fileName="DateTypeUtil.java" startLine="158" startPosition="169" endLine="159" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5251619021093068648" fileName="DateTypeUtil.java" startLine="162" startPosition="58" endLine="163" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5251619021093068648" fileName="DateTypeUtil.java" startLine="163" startPosition="63" endLine="164" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5251619021093068648" fileName="DateTypeUtil.java" startLine="164" startPosition="30" endLine="165" endPosition="173" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5251619021093068648" fileName="DateTypeUtil.java" startLine="164" startPosition="30" endLine="165" endPosition="173" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5251619021093068648" fileName="DateTypeUtil.java" startLine="164" startPosition="30" endLine="165" endPosition="173" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5251619021093068648" fileName="DateTypeUtil.java" startLine="165" startPosition="173" endLine="166" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5251619021093068653" fileName="DateTypeUtil.java" startLine="169" startPosition="58" endLine="170" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5251619021093068653" fileName="DateTypeUtil.java" startLine="170" startPosition="63" endLine="171" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5251619021093068653" fileName="DateTypeUtil.java" startLine="171" startPosition="30" endLine="172" endPosition="175" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5251619021093068653" fileName="DateTypeUtil.java" startLine="171" startPosition="30" endLine="172" endPosition="175" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5251619021093068653" fileName="DateTypeUtil.java" startLine="171" startPosition="30" endLine="172" endPosition="175" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5251619021093068653" fileName="DateTypeUtil.java" startLine="172" startPosition="175" endLine="173" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5251619021093068657" fileName="DateTypeUtil.java" startLine="176" startPosition="58" endLine="177" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5251619021093068657" fileName="DateTypeUtil.java" startLine="177" startPosition="63" endLine="178" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5251619021093068657" fileName="DateTypeUtil.java" startLine="178" startPosition="30" endLine="179" endPosition="167" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5251619021093068657" fileName="DateTypeUtil.java" startLine="178" startPosition="30" endLine="179" endPosition="167" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5251619021093068657" fileName="DateTypeUtil.java" startLine="178" startPosition="30" endLine="179" endPosition="167" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5251619021093068657" fileName="DateTypeUtil.java" startLine="179" startPosition="167" endLine="180" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5251619021093068663" fileName="DateTypeUtil.java" startLine="183" startPosition="58" endLine="184" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5251619021093068663" fileName="DateTypeUtil.java" startLine="184" startPosition="63" endLine="185" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5251619021093068663" fileName="DateTypeUtil.java" startLine="185" startPosition="30" endLine="186" endPosition="169" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5251619021093068663" fileName="DateTypeUtil.java" startLine="185" startPosition="30" endLine="186" endPosition="169" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5251619021093068663" fileName="DateTypeUtil.java" startLine="185" startPosition="30" endLine="186" endPosition="169" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5251619021093068663" fileName="DateTypeUtil.java" startLine="186" startPosition="169" endLine="187" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5251619021093068667" fileName="DateTypeUtil.java" startLine="190" startPosition="58" endLine="191" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5251619021093068667" fileName="DateTypeUtil.java" startLine="191" startPosition="63" endLine="192" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5251619021093068667" fileName="DateTypeUtil.java" startLine="192" startPosition="30" endLine="193" endPosition="162" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5251619021093068667" fileName="DateTypeUtil.java" startLine="192" startPosition="30" endLine="193" endPosition="162" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5251619021093068667" fileName="DateTypeUtil.java" startLine="192" startPosition="30" endLine="193" endPosition="162" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5251619021093068667" fileName="DateTypeUtil.java" startLine="193" startPosition="162" endLine="194" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5251619021093068672" fileName="DateTypeUtil.java" startLine="197" startPosition="58" endLine="198" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5251619021093068672" fileName="DateTypeUtil.java" startLine="198" startPosition="63" endLine="199" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5251619021093068672" fileName="DateTypeUtil.java" startLine="199" startPosition="30" endLine="200" endPosition="165" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5251619021093068672" fileName="DateTypeUtil.java" startLine="200" startPosition="165" endLine="201" endPosition="237" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5251619021093068672" fileName="DateTypeUtil.java" startLine="201" startPosition="237" endLine="202" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5251619021093068677" fileName="DateTypeUtil.java" startLine="205" startPosition="58" endLine="206" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5251619021093068677" fileName="DateTypeUtil.java" startLine="206" startPosition="63" endLine="207" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5251619021093068677" fileName="DateTypeUtil.java" startLine="207" startPosition="30" endLine="208" endPosition="165" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5251619021093068677" fileName="DateTypeUtil.java" startLine="208" startPosition="165" endLine="209" endPosition="241" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5251619021093068677" fileName="DateTypeUtil.java" startLine="209" startPosition="241" endLine="210" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5251619021093068682" fileName="DateTypeUtil.java" startLine="213" startPosition="58" endLine="214" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5251619021093068682" fileName="DateTypeUtil.java" startLine="214" startPosition="63" endLine="215" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5251619021093068682" fileName="DateTypeUtil.java" startLine="215" startPosition="30" endLine="216" endPosition="165" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5251619021093068682" fileName="DateTypeUtil.java" startLine="216" startPosition="165" endLine="217" endPosition="303" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5251619021093068682" fileName="DateTypeUtil.java" startLine="217" startPosition="303" endLine="218" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="5251619021093068997" fileName="DateTypeUtil.java" startLine="34" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="DateTypeUtil#()V" />
-    <nodeInfo nodeId="5251619021093068672" fileName="DateTypeUtil.java" startLine="205" startPosition="30" endLine="207" endPosition="237" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="5251619021093068672" fileName="DateTypeUtil.java" startLine="205" startPosition="30" endLine="207" endPosition="237" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="5251619021093068677" fileName="DateTypeUtil.java" startLine="213" startPosition="30" endLine="215" endPosition="241" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="5251619021093068677" fileName="DateTypeUtil.java" startLine="213" startPosition="30" endLine="215" endPosition="241" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="5251619021093068682" fileName="DateTypeUtil.java" startLine="221" startPosition="30" endLine="223" endPosition="303" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="5251619021093068682" fileName="DateTypeUtil.java" startLine="221" startPosition="30" endLine="223" endPosition="303" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5251619021093068974" fileName="DateTypeUtil.java" startLine="146" startPosition="12" endLine="148" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5251619021093068672" fileName="DateTypeUtil.java" startLine="199" startPosition="30" endLine="201" endPosition="237" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5251619021093068672" fileName="DateTypeUtil.java" startLine="199" startPosition="30" endLine="201" endPosition="237" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5251619021093068677" fileName="DateTypeUtil.java" startLine="207" startPosition="30" endLine="209" endPosition="241" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5251619021093068677" fileName="DateTypeUtil.java" startLine="207" startPosition="30" endLine="209" endPosition="241" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5251619021093068682" fileName="DateTypeUtil.java" startLine="215" startPosition="30" endLine="217" endPosition="303" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5251619021093068682" fileName="DateTypeUtil.java" startLine="215" startPosition="30" endLine="217" endPosition="303" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="5251619021093068685" fileName="DateTypeUtil.java" startLine="37" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="isInstanceOfPeriod#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
     <nodeInfo nodeId="3086205941497649609" fileName="DateTypeUtil.java" startLine="41" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="isPeriodType#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
     <nodeInfo nodeId="5251619021093068695" fileName="DateTypeUtil.java" startLine="45" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="isInstanceOfPeriodCompare#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
@@ -918,30 +921,27 @@
     <nodeInfo nodeId="3086205941497649604" fileName="DateTypeUtil.java" startLine="118" startPosition="29" endLine="121" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="3086205941497649604" fileName="DateTypeUtil.java" startLine="118" startPosition="29" endLine="121" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="5251619021093068881" fileName="DateTypeUtil.java" startLine="126" startPosition="0" endLine="129" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="findDateTimeProperties#(Ljetbrains/mps/smodel/IScope;Lorg/jetbrains/mps/openapi/model/SModel;)Ljava/util/List;" />
-    <nodeInfo nodeId="5251619021093068948" fileName="DateTypeUtil.java" startLine="144" startPosition="312" endLine="147" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="5251619021093068915" fileName="DateTypeUtil.java" startLine="132" startPosition="250" endLine="136" endPosition="8" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5251619021093068976" fileName="DateTypeUtil.java" startLine="149" startPosition="14" endLine="153" endPosition="10" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5251619021093068974" fileName="DateTypeUtil.java" startLine="149" startPosition="12" endLine="154" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5251619021093068902" fileName="DateTypeUtil.java" startLine="131" startPosition="25" endLine="134" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
+    <nodeInfo nodeId="5251619021093068948" fileName="DateTypeUtil.java" startLine="141" startPosition="312" endLine="144" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="5251619021093068846" fileName="DateTypeUtil.java" startLine="95" startPosition="62" endLine="101" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="5251619021093068902" fileName="DateTypeUtil.java" startLine="131" startPosition="25" endLine="137" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
-    <nodeInfo nodeId="5251619021093068642" fileName="DateTypeUtil.java" startLine="161" startPosition="0" endLine="167" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_hzl4bp_a0#()Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="5251619021093068648" fileName="DateTypeUtil.java" startLine="168" startPosition="0" endLine="174" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_hzl4bp_a1#()Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="5251619021093068653" fileName="DateTypeUtil.java" startLine="175" startPosition="0" endLine="181" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_hzl4bp_a2#()Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="5251619021093068657" fileName="DateTypeUtil.java" startLine="182" startPosition="0" endLine="188" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_hzl4bp_a3#()Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="5251619021093068663" fileName="DateTypeUtil.java" startLine="189" startPosition="0" endLine="195" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_hzl4bp_a4#()Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="5251619021093068667" fileName="DateTypeUtil.java" startLine="196" startPosition="0" endLine="202" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_hzl4bp_a5#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="5251619021093068642" fileName="DateTypeUtil.java" startLine="155" startPosition="0" endLine="161" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_hzl4bp_a0#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="5251619021093068648" fileName="DateTypeUtil.java" startLine="162" startPosition="0" endLine="168" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_hzl4bp_a1#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="5251619021093068653" fileName="DateTypeUtil.java" startLine="169" startPosition="0" endLine="175" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_hzl4bp_a2#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="5251619021093068657" fileName="DateTypeUtil.java" startLine="176" startPosition="0" endLine="182" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_hzl4bp_a3#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="5251619021093068663" fileName="DateTypeUtil.java" startLine="183" startPosition="0" endLine="189" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_hzl4bp_a4#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="5251619021093068667" fileName="DateTypeUtil.java" startLine="190" startPosition="0" endLine="196" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_hzl4bp_a5#()Lorg/jetbrains/mps/openapi/model/SNode;" />
     <nodeInfo nodeId="5251619021093068859" fileName="DateTypeUtil.java" startLine="101" startPosition="5" endLine="108" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
     <nodeInfo nodeId="3086205941497649592" fileName="DateTypeUtil.java" startLine="115" startPosition="5" endLine="122" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
-    <nodeInfo nodeId="5251619021093068672" fileName="DateTypeUtil.java" startLine="203" startPosition="0" endLine="210" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_hzl4bp_a6#()Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="5251619021093068677" fileName="DateTypeUtil.java" startLine="211" startPosition="0" endLine="218" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_hzl4bp_a7#()Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="5251619021093068682" fileName="DateTypeUtil.java" startLine="219" startPosition="0" endLine="226" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_hzl4bp_a8#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="5251619021093068894" fileName="DateTypeUtil.java" startLine="130" startPosition="0" endLine="137" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getContainingPeriod#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="5251619021093068672" fileName="DateTypeUtil.java" startLine="197" startPosition="0" endLine="204" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_hzl4bp_a6#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="5251619021093068677" fileName="DateTypeUtil.java" startLine="205" startPosition="0" endLine="212" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_hzl4bp_a7#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="5251619021093068682" fileName="DateTypeUtil.java" startLine="213" startPosition="0" endLine="220" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_hzl4bp_a8#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="5251619021093068946" fileName="DateTypeUtil.java" startLine="140" startPosition="31" endLine="148" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="5251619021093068773" fileName="DateTypeUtil.java" startLine="81" startPosition="0" endLine="90" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="isInstanceOfJavaDatePresentation#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-    <nodeInfo nodeId="5251619021093068894" fileName="DateTypeUtil.java" startLine="130" startPosition="0" endLine="140" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getContainingPeriod#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="5251619021093068946" fileName="DateTypeUtil.java" startLine="143" startPosition="31" endLine="154" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5251619021093068941" fileName="DateTypeUtil.java" startLine="139" startPosition="25" endLine="149" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
     <nodeInfo nodeId="3086205941497649570" fileName="DateTypeUtil.java" startLine="112" startPosition="0" endLine="125" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="isStrongSubtype#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-    <nodeInfo nodeId="5251619021093068941" fileName="DateTypeUtil.java" startLine="142" startPosition="25" endLine="155" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
+    <nodeInfo nodeId="5251619021093068934" fileName="DateTypeUtil.java" startLine="138" startPosition="0" endLine="152" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getCompareExpression#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
     <nodeInfo nodeId="5251619021093068843" fileName="DateTypeUtil.java" startLine="95" startPosition="0" endLine="111" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="isInstanceOf#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-    <nodeInfo nodeId="5251619021093068934" fileName="DateTypeUtil.java" startLine="141" startPosition="0" endLine="158" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getCompareExpression#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
     <scopeInfo nodeId="5251619021093069000" fileName="DateTypeUtil.java" startLine="34" startPosition="25" endLine="34" endPosition="25" />
     <scopeInfo nodeId="5251619021093068687" fileName="DateTypeUtil.java" startLine="37" startPosition="56" endLine="38" endPosition="42" />
     <scopeInfo nodeId="3086205941497649612" fileName="DateTypeUtil.java" startLine="41" startPosition="50" endLine="42" endPosition="45" />
@@ -963,17 +963,19 @@
     <scopeInfo nodeId="3086205941497649593" fileName="DateTypeUtil.java" startLine="116" startPosition="9" endLine="117" endPosition="91" />
     <scopeInfo nodeId="3086205941497649604" fileName="DateTypeUtil.java" startLine="119" startPosition="45" endLine="120" endPosition="62" />
     <scopeInfo nodeId="5251619021093068883" fileName="DateTypeUtil.java" startLine="126" startPosition="80" endLine="127" endPosition="139" />
-    <scopeInfo nodeId="5251619021093068949" fileName="DateTypeUtil.java" startLine="145" startPosition="179" endLine="146" endPosition="103" />
-    <scopeInfo nodeId="5251619021093068642" fileName="DateTypeUtil.java" startLine="163" startPosition="30" endLine="164" endPosition="169" />
-    <scopeInfo nodeId="5251619021093068648" fileName="DateTypeUtil.java" startLine="170" startPosition="30" endLine="171" endPosition="173" />
-    <scopeInfo nodeId="5251619021093068653" fileName="DateTypeUtil.java" startLine="177" startPosition="30" endLine="178" endPosition="175" />
-    <scopeInfo nodeId="5251619021093068657" fileName="DateTypeUtil.java" startLine="184" startPosition="30" endLine="185" endPosition="167" />
-    <scopeInfo nodeId="5251619021093068663" fileName="DateTypeUtil.java" startLine="191" startPosition="30" endLine="192" endPosition="169" />
-    <scopeInfo nodeId="5251619021093068667" fileName="DateTypeUtil.java" startLine="198" startPosition="30" endLine="199" endPosition="162" />
+    <scopeInfo nodeId="5251619021093068914" fileName="DateTypeUtil.java" startLine="132" startPosition="250" endLine="133" endPosition="251" />
+    <scopeInfo nodeId="5251619021093068949" fileName="DateTypeUtil.java" startLine="142" startPosition="179" endLine="143" endPosition="103" />
+    <scopeInfo nodeId="5251619021093068975" fileName="DateTypeUtil.java" startLine="146" startPosition="14" endLine="147" endPosition="253" />
+    <scopeInfo nodeId="5251619021093068642" fileName="DateTypeUtil.java" startLine="157" startPosition="30" endLine="158" endPosition="169" />
+    <scopeInfo nodeId="5251619021093068648" fileName="DateTypeUtil.java" startLine="164" startPosition="30" endLine="165" endPosition="173" />
+    <scopeInfo nodeId="5251619021093068653" fileName="DateTypeUtil.java" startLine="171" startPosition="30" endLine="172" endPosition="175" />
+    <scopeInfo nodeId="5251619021093068657" fileName="DateTypeUtil.java" startLine="178" startPosition="30" endLine="179" endPosition="167" />
+    <scopeInfo nodeId="5251619021093068663" fileName="DateTypeUtil.java" startLine="185" startPosition="30" endLine="186" endPosition="169" />
+    <scopeInfo nodeId="5251619021093068667" fileName="DateTypeUtil.java" startLine="192" startPosition="30" endLine="193" endPosition="162" />
     <scopeInfo nodeId="5251619021093068997" fileName="DateTypeUtil.java" startLine="34" startPosition="0" endLine="36" endPosition="0" />
-    <scopeInfo nodeId="5251619021093068672" fileName="DateTypeUtil.java" startLine="205" startPosition="30" endLine="207" endPosition="237" />
-    <scopeInfo nodeId="5251619021093068677" fileName="DateTypeUtil.java" startLine="213" startPosition="30" endLine="215" endPosition="241" />
-    <scopeInfo nodeId="5251619021093068682" fileName="DateTypeUtil.java" startLine="221" startPosition="30" endLine="223" endPosition="303" />
+    <scopeInfo nodeId="5251619021093068672" fileName="DateTypeUtil.java" startLine="199" startPosition="30" endLine="201" endPosition="237" />
+    <scopeInfo nodeId="5251619021093068677" fileName="DateTypeUtil.java" startLine="207" startPosition="30" endLine="209" endPosition="241" />
+    <scopeInfo nodeId="5251619021093068682" fileName="DateTypeUtil.java" startLine="215" startPosition="30" endLine="217" endPosition="303" />
     <scopeInfo nodeId="5251619021093068685" fileName="DateTypeUtil.java" startLine="37" startPosition="0" endLine="40" endPosition="0">
       <varInfo nodeId="5251619021093068692" varName="node" />
     </scopeInfo>
@@ -1026,86 +1028,84 @@
       <varInfo nodeId="5251619021093068889" varName="scope" />
     </scopeInfo>
     <scopeInfo nodeId="5251619021093068847" fileName="DateTypeUtil.java" startLine="96" startPosition="39" endLine="100" endPosition="19" />
-    <scopeInfo nodeId="5251619021093068914" fileName="DateTypeUtil.java" startLine="132" startPosition="250" endLine="136" endPosition="8" />
-    <scopeInfo nodeId="5251619021093068947" fileName="DateTypeUtil.java" startLine="144" startPosition="312" endLine="148" endPosition="20" />
-    <scopeInfo nodeId="5251619021093068975" fileName="DateTypeUtil.java" startLine="149" startPosition="14" endLine="153" endPosition="10" />
-    <scopeInfo nodeId="5251619021093068642" fileName="DateTypeUtil.java" startLine="161" startPosition="58" endLine="165" endPosition="24">
+    <scopeInfo nodeId="5251619021093068947" fileName="DateTypeUtil.java" startLine="141" startPosition="312" endLine="145" endPosition="20" />
+    <scopeInfo nodeId="5251619021093068642" fileName="DateTypeUtil.java" startLine="155" startPosition="58" endLine="159" endPosition="24">
       <varInfo nodeId="5251619021093068642" varName="facade" />
       <varInfo nodeId="5251619021093068642" varName="quotedNode_1" />
     </scopeInfo>
-    <scopeInfo nodeId="5251619021093068648" fileName="DateTypeUtil.java" startLine="168" startPosition="58" endLine="172" endPosition="24">
+    <scopeInfo nodeId="5251619021093068648" fileName="DateTypeUtil.java" startLine="162" startPosition="58" endLine="166" endPosition="24">
       <varInfo nodeId="5251619021093068648" varName="facade" />
       <varInfo nodeId="5251619021093068648" varName="quotedNode_1" />
     </scopeInfo>
-    <scopeInfo nodeId="5251619021093068653" fileName="DateTypeUtil.java" startLine="175" startPosition="58" endLine="179" endPosition="24">
+    <scopeInfo nodeId="5251619021093068653" fileName="DateTypeUtil.java" startLine="169" startPosition="58" endLine="173" endPosition="24">
       <varInfo nodeId="5251619021093068653" varName="facade" />
       <varInfo nodeId="5251619021093068653" varName="quotedNode_1" />
     </scopeInfo>
-    <scopeInfo nodeId="5251619021093068657" fileName="DateTypeUtil.java" startLine="182" startPosition="58" endLine="186" endPosition="24">
+    <scopeInfo nodeId="5251619021093068657" fileName="DateTypeUtil.java" startLine="176" startPosition="58" endLine="180" endPosition="24">
       <varInfo nodeId="5251619021093068657" varName="facade" />
       <varInfo nodeId="5251619021093068657" varName="quotedNode_1" />
     </scopeInfo>
-    <scopeInfo nodeId="5251619021093068663" fileName="DateTypeUtil.java" startLine="189" startPosition="58" endLine="193" endPosition="24">
+    <scopeInfo nodeId="5251619021093068663" fileName="DateTypeUtil.java" startLine="183" startPosition="58" endLine="187" endPosition="24">
       <varInfo nodeId="5251619021093068663" varName="facade" />
       <varInfo nodeId="5251619021093068663" varName="quotedNode_1" />
     </scopeInfo>
-    <scopeInfo nodeId="5251619021093068667" fileName="DateTypeUtil.java" startLine="196" startPosition="58" endLine="200" endPosition="24">
+    <scopeInfo nodeId="5251619021093068667" fileName="DateTypeUtil.java" startLine="190" startPosition="58" endLine="194" endPosition="24">
       <varInfo nodeId="5251619021093068667" varName="facade" />
       <varInfo nodeId="5251619021093068667" varName="quotedNode_1" />
     </scopeInfo>
-    <scopeInfo nodeId="5251619021093068672" fileName="DateTypeUtil.java" startLine="203" startPosition="58" endLine="208" endPosition="24">
+    <scopeInfo nodeId="5251619021093068897" fileName="DateTypeUtil.java" startLine="130" startPosition="55" endLine="135" endPosition="19">
+      <varInfo nodeId="5251619021093068899" varName="current" />
+    </scopeInfo>
+    <scopeInfo nodeId="5251619021093068672" fileName="DateTypeUtil.java" startLine="197" startPosition="58" endLine="202" endPosition="24">
       <varInfo nodeId="5251619021093068672" varName="facade" />
       <varInfo nodeId="5251619021093068672" varName="quotedNode_1" />
     </scopeInfo>
-    <scopeInfo nodeId="5251619021093068677" fileName="DateTypeUtil.java" startLine="211" startPosition="58" endLine="216" endPosition="24">
+    <scopeInfo nodeId="5251619021093068677" fileName="DateTypeUtil.java" startLine="205" startPosition="58" endLine="210" endPosition="24">
       <varInfo nodeId="5251619021093068677" varName="facade" />
       <varInfo nodeId="5251619021093068677" varName="quotedNode_1" />
     </scopeInfo>
-    <scopeInfo nodeId="5251619021093068682" fileName="DateTypeUtil.java" startLine="219" startPosition="58" endLine="224" endPosition="24">
+    <scopeInfo nodeId="5251619021093068682" fileName="DateTypeUtil.java" startLine="213" startPosition="58" endLine="218" endPosition="24">
       <varInfo nodeId="5251619021093068682" varName="facade" />
       <varInfo nodeId="5251619021093068682" varName="quotedNode_1" />
     </scopeInfo>
-    <scopeInfo nodeId="5251619021093068642" fileName="DateTypeUtil.java" startLine="161" startPosition="0" endLine="167" endPosition="0" />
-    <scopeInfo nodeId="5251619021093068648" fileName="DateTypeUtil.java" startLine="168" startPosition="0" endLine="174" endPosition="0" />
-    <scopeInfo nodeId="5251619021093068653" fileName="DateTypeUtil.java" startLine="175" startPosition="0" endLine="181" endPosition="0" />
-    <scopeInfo nodeId="5251619021093068657" fileName="DateTypeUtil.java" startLine="182" startPosition="0" endLine="188" endPosition="0" />
-    <scopeInfo nodeId="5251619021093068663" fileName="DateTypeUtil.java" startLine="189" startPosition="0" endLine="195" endPosition="0" />
-    <scopeInfo nodeId="5251619021093068667" fileName="DateTypeUtil.java" startLine="196" startPosition="0" endLine="202" endPosition="0" />
+    <scopeInfo nodeId="5251619021093068642" fileName="DateTypeUtil.java" startLine="155" startPosition="0" endLine="161" endPosition="0" />
+    <scopeInfo nodeId="5251619021093068648" fileName="DateTypeUtil.java" startLine="162" startPosition="0" endLine="168" endPosition="0" />
+    <scopeInfo nodeId="5251619021093068653" fileName="DateTypeUtil.java" startLine="169" startPosition="0" endLine="175" endPosition="0" />
+    <scopeInfo nodeId="5251619021093068657" fileName="DateTypeUtil.java" startLine="176" startPosition="0" endLine="182" endPosition="0" />
+    <scopeInfo nodeId="5251619021093068663" fileName="DateTypeUtil.java" startLine="183" startPosition="0" endLine="189" endPosition="0" />
+    <scopeInfo nodeId="5251619021093068667" fileName="DateTypeUtil.java" startLine="190" startPosition="0" endLine="196" endPosition="0" />
     <scopeInfo nodeId="5251619021093068777" fileName="DateTypeUtil.java" startLine="81" startPosition="70" endLine="88" endPosition="145">
       <varInfo nodeId="5251619021093068797" varName="actualType" />
       <varInfo nodeId="5251619021093068791" varName="sm" />
       <varInfo nodeId="5251619021093068787" varName="tc" />
     </scopeInfo>
-    <scopeInfo nodeId="5251619021093068672" fileName="DateTypeUtil.java" startLine="203" startPosition="0" endLine="210" endPosition="0" />
-    <scopeInfo nodeId="5251619021093068677" fileName="DateTypeUtil.java" startLine="211" startPosition="0" endLine="218" endPosition="0" />
-    <scopeInfo nodeId="5251619021093068682" fileName="DateTypeUtil.java" startLine="219" startPosition="0" endLine="226" endPosition="0" />
-    <scopeInfo nodeId="5251619021093068897" fileName="DateTypeUtil.java" startLine="130" startPosition="55" endLine="138" endPosition="19">
-      <varInfo nodeId="5251619021093068899" varName="current" />
+    <scopeInfo nodeId="5251619021093068894" fileName="DateTypeUtil.java" startLine="130" startPosition="0" endLine="137" endPosition="0">
+      <varInfo nodeId="5251619021093068932" varName="expr" />
     </scopeInfo>
+    <scopeInfo nodeId="5251619021093068672" fileName="DateTypeUtil.java" startLine="197" startPosition="0" endLine="204" endPosition="0" />
+    <scopeInfo nodeId="5251619021093068677" fileName="DateTypeUtil.java" startLine="205" startPosition="0" endLine="212" endPosition="0" />
+    <scopeInfo nodeId="5251619021093068682" fileName="DateTypeUtil.java" startLine="213" startPosition="0" endLine="220" endPosition="0" />
+    <scopeInfo nodeId="5251619021093068945" fileName="DateTypeUtil.java" startLine="140" startPosition="31" endLine="148" endPosition="7" />
     <scopeInfo nodeId="5251619021093068773" fileName="DateTypeUtil.java" startLine="81" startPosition="0" endLine="90" endPosition="0">
       <varInfo nodeId="5251619021093068775" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="5251619021093068894" fileName="DateTypeUtil.java" startLine="130" startPosition="0" endLine="140" endPosition="0">
-      <varInfo nodeId="5251619021093068932" varName="expr" />
-    </scopeInfo>
     <scopeInfo nodeId="3086205941497649573" fileName="DateTypeUtil.java" startLine="112" startPosition="66" endLine="123" endPosition="17" />
-    <scopeInfo nodeId="5251619021093068945" fileName="DateTypeUtil.java" startLine="143" startPosition="31" endLine="154" endPosition="7" />
+    <scopeInfo nodeId="5251619021093068936" fileName="DateTypeUtil.java" startLine="138" startPosition="56" endLine="150" endPosition="16">
+      <varInfo nodeId="5251619021093068938" varName="current" />
+    </scopeInfo>
     <scopeInfo nodeId="3086205941497649570" fileName="DateTypeUtil.java" startLine="112" startPosition="0" endLine="125" endPosition="0">
       <varInfo nodeId="3086205941497649577" varName="stype" />
       <varInfo nodeId="3086205941497649575" varName="type" />
     </scopeInfo>
     <scopeInfo nodeId="5251619021093068845" fileName="DateTypeUtil.java" startLine="95" startPosition="62" endLine="109" endPosition="17" />
-    <scopeInfo nodeId="5251619021093068936" fileName="DateTypeUtil.java" startLine="141" startPosition="56" endLine="156" endPosition="16">
-      <varInfo nodeId="5251619021093068938" varName="current" />
+    <scopeInfo nodeId="5251619021093068934" fileName="DateTypeUtil.java" startLine="138" startPosition="0" endLine="152" endPosition="0">
+      <varInfo nodeId="5251619021093068994" varName="expr" />
     </scopeInfo>
     <scopeInfo nodeId="5251619021093068843" fileName="DateTypeUtil.java" startLine="95" startPosition="0" endLine="111" endPosition="0">
       <varInfo nodeId="5251619021093068876" varName="node" />
       <varInfo nodeId="5251619021093068878" varName="type" />
     </scopeInfo>
-    <scopeInfo nodeId="5251619021093068934" fileName="DateTypeUtil.java" startLine="141" startPosition="0" endLine="158" endPosition="0">
-      <varInfo nodeId="5251619021093068994" varName="expr" />
-    </scopeInfo>
-    <unitInfo nodeId="5251619021093068639" fileName="DateTypeUtil.java" startLine="23" startPosition="0" endLine="227" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.DateTypeUtil" />
+    <unitInfo nodeId="5251619021093068639" fileName="DateTypeUtil.java" startLine="23" startPosition="0" endLine="221" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.DateTypeUtil" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903ce(jetbrains.mps.baseLanguage.dates.behavior)/5581663871704498938">
     <nodeInfo nodeId="5581663871704500956" fileName="PeriodPropertyFormatToken_Behavior.java" startLine="9" startPosition="43" endLine="10" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
