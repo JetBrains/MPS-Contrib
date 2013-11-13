@@ -6,6 +6,6 @@ import javax.swing.Icon;
 import jetbrains.mps.util.IconUtil;
 
 public class IconContainer {
-  protected static Icon ICON_a1 = IconUtil.getIcon("component.png");
   protected static Icon ICON_a0 = IconUtil.getIcon("controller.png");
+  protected static Icon ICON_a1 = IconUtil.getIcon("component.png");
 }
