@@ -194,7 +194,7 @@ public abstract class BaseRunner {
 
   public static String getJdkHome() {
     List<String> homes = getJavaHomes();
-    for (String javaHome : ListSequence.fromList(homes)) {
+    for (String javaHome : homes) {
       if (new File(getJavaCommand(javaHome)).exists()) {
         return javaHome;
       }

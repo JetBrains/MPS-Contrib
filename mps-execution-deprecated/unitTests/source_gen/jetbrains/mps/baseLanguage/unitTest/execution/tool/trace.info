@@ -111,7 +111,7 @@
     <nodeInfo nodeId="8321286824326274798" fileName="UnitTestRunner.java" startLine="136" startPosition="46" endLine="137" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
     <nodeInfo nodeId="8321286824326274800" fileName="UnitTestRunner.java" startLine="137" startPosition="83" endLine="138" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="8321286824326274806" fileName="UnitTestRunner.java" startLine="139" startPosition="11" endLine="140" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8321286824326274816" fileName="UnitTestRunner.java" startLine="141" startPosition="87" endLine="142" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8321286824326274816" fileName="UnitTestRunner.java" startLine="141" startPosition="64" endLine="142" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="8321286824326274821" fileName="UnitTestRunner.java" startLine="142" startPosition="42" endLine="143" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="8321286824326274826" fileName="UnitTestRunner.java" startLine="144" startPosition="9" endLine="145" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="8321286824326274830" fileName="UnitTestRunner.java" startLine="145" startPosition="23" endLine="146" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -218,7 +218,7 @@
     <scopeInfo nodeId="2034046503361614879" fileName="UnitTestRunner.java" startLine="106" startPosition="73" endLine="108" endPosition="106">
       <varInfo nodeId="2034046503361614881" varName="paramList" />
     </scopeInfo>
-    <scopeInfo nodeId="8321286824326274815" fileName="UnitTestRunner.java" startLine="141" startPosition="87" endLine="143" endPosition="30" />
+    <scopeInfo nodeId="8321286824326274815" fileName="UnitTestRunner.java" startLine="141" startPosition="64" endLine="143" endPosition="30" />
     <scopeInfo nodeId="8321286824326274862" fileName="UnitTestRunner.java" startLine="154" startPosition="79" endLine="156" endPosition="102">
       <varInfo nodeId="8321286824326274864" varName="paramList" />
     </scopeInfo>

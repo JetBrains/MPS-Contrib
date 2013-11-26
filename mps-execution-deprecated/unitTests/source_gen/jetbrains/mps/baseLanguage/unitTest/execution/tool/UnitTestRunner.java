@@ -138,7 +138,7 @@ public class UnitTestRunner extends BaseRunner {
       tmpFile.deleteOnExit();
       try {
         PrintWriter writer = new PrintWriter(tmpFile);
-        for (String commandLinePiece : ListSequence.fromList(testsCommandLine.value)) {
+        for (String commandLinePiece : testsCommandLine.value) {
           writer.append(commandLinePiece);
           writer.append("\n");
         }
