@@ -36,7 +36,7 @@ public class ComplexTypeReference_Constraints extends BaseConstraintsDescriptor 
         return new BaseReferenceScopeProvider() {
           @Override
           public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
-            return new ModelAndImportedModelsScope(_context.getModel(), false, operationContext.getScope());
+            return new ModelAndImportedModelsScope(_context.getModel(), false);
           }
 
           @Override
