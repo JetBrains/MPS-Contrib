@@ -4,9 +4,7 @@
   <property name="build.tmp" location="${build.dir}/tmp/mpsContribUnpacked" />
   <property name="build.layout" location="${build.dir}/artifacts/mpsContribUnpacked" />
   <property name="artifacts.mpsDates" location="${build.dir}/artifacts/mpsDates" />
-  <property name="artifacts.mpsDeprecatedBuildlanguage" location="${build.dir}/artifacts/mpsDeprecatedBuildlanguage" />
   <property name="artifacts.mpsXml" location="${build.dir}/artifacts/mpsXml" />
-  <property name="artifacts.mpsDeprecatedExecution" location="${build.dir}/artifacts/mpsDeprecatedExecution" />
   <property name="artifacts.mpsContribBuild" location="${build.dir}/artifacts/mpsContribBuild" />
   <property name="artifacts.mpsUiLanguage" location="${build.dir}/artifacts/mpsUiLanguage" />
   <property file="${artifacts.mpsDates}/build.properties" prefix="import.mpsDates" />
@@ -22,17 +20,9 @@
     <copy todir="${build.layout}/mps-dates">
       <fileset dir="${artifacts.mpsDates}/mps-dates" />
     </copy>
-    <mkdir dir="${build.layout}/mps-build-deprecated" />
-    <copy todir="${build.layout}/mps-build-deprecated">
-      <fileset dir="${artifacts.mpsDeprecatedBuildlanguage}/mps-build-deprecated" />
-    </copy>
     <mkdir dir="${build.layout}/mps-xml-obsolete" />
     <copy todir="${build.layout}/mps-xml-obsolete">
       <fileset dir="${artifacts.mpsXml}/mps-xml-obsolete" />
-    </copy>
-    <mkdir dir="${build.layout}/mps-execution-deprecated" />
-    <copy todir="${build.layout}/mps-execution-deprecated">
-      <fileset dir="${artifacts.mpsDeprecatedExecution}/mps-execution-deprecated" />
     </copy>
     <mkdir dir="${build.layout}/mps-contrib-build" />
     <copy todir="${build.layout}/mps-contrib-build">
@@ -48,10 +38,8 @@
   <target name="buildDependents">
     <ant antfile="build/mpsDates.xml" inheritAll="false" useNativeBasedir="true" />
     <ant antfile="build/mpsXml.xml" inheritAll="false" useNativeBasedir="true" />
-    <ant antfile="build/mpsDeprecatedBuildlanguage.xml" inheritAll="false" useNativeBasedir="true" />
-    <ant antfile="build/mpsUiLanguage.xml" inheritAll="false" useNativeBasedir="true" />
-    <ant antfile="build/mpsDeprecatedExecution.xml" inheritAll="false" useNativeBasedir="true" />
     <ant antfile="build/mpsContribBuild.xml" inheritAll="false" useNativeBasedir="true" />
+    <ant antfile="build/mpsUiLanguage.xml" inheritAll="false" useNativeBasedir="true" />
   </target>
   
   <target name="fetchDependencies" />

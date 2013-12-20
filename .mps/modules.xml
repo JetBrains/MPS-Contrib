@@ -9,17 +9,10 @@
       <modulePath path="$PROJECT_DIR$/graphLayout/jetbrains.mps.graphLayout.planarization/jetbrains.mps.graphLayout.planarization.msd" folder="graphLayout" />
       <modulePath path="$PROJECT_DIR$/graphLayout/jetbrains.mps.graphLayout.test/jetbrains.mps.graphLayout.test.msd" folder="graphLayout" />
       <modulePath path="$PROJECT_DIR$/jetbrains.mps.contrib.build/jetbrains.mps.contrib.build.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/mps-build-deprecated/languages/buildlanguage/jetbrains.mps.buildlanguage.mpl" folder="buildlanguage" />
-      <modulePath path="$PROJECT_DIR$/mps-build-deprecated/languages/generictasks/jetbrains.mps.build.generictasks.mpl" folder="buildlanguage" />
-      <modulePath path="$PROJECT_DIR$/mps-build-deprecated/languages/property/jetbrains.mps.build.property.mpl" folder="buildlanguage" />
-      <modulePath path="$PROJECT_DIR$/mps-build-deprecated/languages/xmlDeprecated/jetbrains.mps.xml.deprecated.mpl" folder="buildlanguage" />
       <modulePath path="$PROJECT_DIR$/mps-dates/languages/dates/internal/jetbrains.mps.baseLanguage.datesInternal.mpl" folder="dates" />
       <modulePath path="$PROJECT_DIR$/mps-dates/languages/dates/jetbrains.mps.baseLanguage.dates.mpl" folder="dates" />
       <modulePath path="$PROJECT_DIR$/mps-dates/languages/dates/runtime/jetbrains.mps.baseLanguage.dates.runtime.msd" folder="dates" />
       <modulePath path="$PROJECT_DIR$/mps-dates/languages/dates/unittest/dates_unittest.msd" folder="dates" />
-      <modulePath path="$PROJECT_DIR$/mps-execution-deprecated/deprecated.runtime/jetbrains.mps.execution.configurations.deprecated.runtime.msd" folder="execution" />
-      <modulePath path="$PROJECT_DIR$/mps-execution-deprecated/languages/deprecated/jetbrains.mps.execution.configurations.deprecated.mpl" folder="execution" />
-      <modulePath path="$PROJECT_DIR$/mps-execution-deprecated/unitTests/jetbrains.mps.baseLanguage.unitTest.execution.deprecated.msd" folder="execution" />
       <modulePath path="$PROJECT_DIR$/mps-ui-language/languages/uiLanguage/jetbrains.mps.uiLanguage.mpl" folder="uiLanguage" />
       <modulePath path="$PROJECT_DIR$/mps-ui-language/languages/uiLanguage/runtime/jetbrains.mps.ide.uiLanguage.runtime.msd" folder="uiLanguage" />
       <modulePath path="$PROJECT_DIR$/mps-ui-language/languages/uiLanguage/solutions/jetbrains.mps.uiLanguage.samples/jetbrains.mps.uiLanguage.samples.msd" folder="uiLanguage" />
