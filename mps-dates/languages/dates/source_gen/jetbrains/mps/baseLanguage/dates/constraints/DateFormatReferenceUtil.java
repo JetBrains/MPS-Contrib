@@ -21,7 +21,7 @@ public class DateFormatReferenceUtil {
   }
 
   public static ISearchScope buildIDateFormatSearchScope(final SNode node, IScope scope) {
-    ISearchScope s = SModelSearchUtil.createModelAndImportedModelsScope(SNodeOperations.getModel(node), scope);
+    ISearchScope s = SModelSearchUtil.createModelAndImportedModelsScope(SNodeOperations.getModel(node), false, scope);
     SNode cd = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.datesInternal.structure.IDateFormat");
     List<SNode> formats = (List<SNode>) s.getNodes(new IsInstanceCondition(cd));
     formats = ListSequence.fromList(formats).where(new IWhereFilter<SNode>() {
@@ -33,7 +33,7 @@ public class DateFormatReferenceUtil {
   }
 
   public static ISearchScope buildIPeriodFormatSearchScope(final SNode node, IScope scope) {
-    ISearchScope s = SModelSearchUtil.createModelAndImportedModelsScope(SNodeOperations.getModel(node), scope);
+    ISearchScope s = SModelSearchUtil.createModelAndImportedModelsScope(SNodeOperations.getModel(node), false, scope);
     SNode cd = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.datesInternal.structure.IPeriodFormat");
     List<SNode> formats = (List<SNode>) s.getNodes(new IsInstanceCondition(cd));
     final SNode containingFormat = SNodeOperations.getAncestor(node, "jetbrains.mps.baseLanguage.dates.structure.PeriodFormat", true, false);
@@ -46,7 +46,7 @@ public class DateFormatReferenceUtil {
   }
 
   public static ISearchScope buildPeriodPropertySearchScope(SNode node, IScope scope) {
-    ISearchScope s = SModelSearchUtil.createModelAndImportedModelsScope(SNodeOperations.getModel(node), scope);
+    ISearchScope s = SModelSearchUtil.createModelAndImportedModelsScope(SNodeOperations.getModel(node), false, scope);
     SNode cd = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeProperty");
     List<SNode> formats = (List<SNode>) s.getNodes(new IsInstanceCondition(cd));
     formats = ListSequence.fromList(formats).where(new IWhereFilter<SNode>() {

@@ -124,7 +124,7 @@ public class DateTypeUtil {
   }
 
   public static List<SNode> findDateTimeProperties(IScope scope, SModel model) {
-    return SModelOperations.getNodesIncludingImported(model, scope, "jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeProperty");
+    return SModelOperations.getNodesIncludingImported(model, "jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeProperty");
   }
 
   public static SNode getContainingPeriod(SNode expr) {
