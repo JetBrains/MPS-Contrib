@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="jetbrains.mps.execution.configurations.deprecated.constraints.AbstractCheckConfigBlock_Constraints" file="AbstractCheckConfigBlock_Constraints.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor" />
+  </dependency>
+  <dependency className="jetbrains.mps.execution.configurations.deprecated.constraints.ComponentReference_Constraints" file="ComponentReference_Constraints.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.IOperationContext" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNodePointer" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.CheckingNodeContext" />
+    <classNode dependClassName="org.jetbrains.annotations.Nullable" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor" />
+  </dependency>
+  <dependency className="jetbrains.mps.execution.configurations.deprecated.constraints.ConstraintsAspectDescriptor" file="ConstraintsAspectDescriptor.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Arrays" />
+    <classNode dependClassName="jetbrains.mps.execution.configurations.deprecated.constraints.AbstractCheckConfigBlock_Constraints" />
+    <classNode dependClassName="jetbrains.mps.execution.configurations.deprecated.constraints.ComponentReference_Constraints" />
+    <classNode dependClassName="jetbrains.mps.execution.configurations.deprecated.constraints.CreateRunConfigStatement_Constraints" />
+    <classNode dependClassName="jetbrains.mps.execution.configurations.deprecated.constraints.ExecuteParameterQuery_Constraints" />
+    <classNode dependClassName="jetbrains.mps.execution.configurations.deprecated.constraints.ExecuteSpecific_Constraints" />
+    <classNode dependClassName="jetbrains.mps.execution.configurations.deprecated.constraints.JavaCheckBlock_Constraints" />
+    <classNode dependClassName="jetbrains.mps.execution.configurations.deprecated.constraints.JavaNodeRunConfiguration_Constraints" />
+    <classNode dependClassName="jetbrains.mps.execution.configurations.deprecated.constraints.NodeRunConfigPropertyInstance_Constraints" />
+    <classNode dependClassName="jetbrains.mps.execution.configurations.deprecated.constraints.ReportErrorStatement_Constraints" />
+    <classNode dependClassName="jetbrains.mps.execution.configurations.deprecated.constraints.RunConfigMainNodeStatement_Constraints" />
+    <classNode dependClassName="jetbrains.mps.execution.configurations.deprecated.constraints.RunConfigParameterReferenceOperation_Constraints" />
+    <classNode dependClassName="jetbrains.mps.execution.configurations.deprecated.constraints.RunConfigPropertyInstance_Constraints" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.ConstraintsDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.ConstraintsAspectDescriptor" />
+  </dependency>
+  <dependency className="jetbrains.mps.execution.configurations.deprecated.constraints.CreateRunConfigStatement_Constraints" file="CreateRunConfigStatement_Constraints.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.IOperationContext" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNodePointer" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.CheckingNodeContext" />
+    <classNode dependClassName="org.jetbrains.annotations.Nullable" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor" />
+  </dependency>
+  <dependency className="jetbrains.mps.execution.configurations.deprecated.constraints.ExecuteParameterQuery_Constraints" file="ExecuteParameterQuery_Constraints.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.IOperationContext" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNodePointer" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.CheckingNodeContext" />
+    <classNode dependClassName="org.jetbrains.annotations.Nullable" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor" />
+  </dependency>
+  <dependency className="jetbrains.mps.execution.configurations.deprecated.constraints.ExecuteSpecific_Constraints" file="ExecuteSpecific_Constraints.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.IOperationContext" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNodePointer" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.CheckingNodeContext" />
+    <classNode dependClassName="org.jetbrains.annotations.Nullable" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor" />
+  </dependency>
+  <dependency className="jetbrains.mps.execution.configurations.deprecated.constraints.JavaCheckBlock_Constraints" file="JavaCheckBlock_Constraints.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.IOperationContext" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNodePointer" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.CheckingNodeContext" />
+    <classNode dependClassName="org.jetbrains.annotations.Nullable" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor" />
+  </dependency>
+  <dependency className="jetbrains.mps.execution.configurations.deprecated.constraints.JavaNodeRunConfiguration_Constraints" file="JavaNodeRunConfiguration_Constraints.java">
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor" />
+  </dependency>
+  <dependency className="jetbrains.mps.execution.configurations.deprecated.constraints.NodeRunConfigPropertyInstance_Constraints" file="NodeRunConfigPropertyInstance_Constraints.java">
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.HashMap" />
+    <classNode dependClassName="java.util.Map" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.IOperationContext" />
+    <classNode dependClassName="jetbrains.mps.smodel.IScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNodePointer" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.CheckingNodeContext" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.PropertyConstraintsDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.base.BasePropertyConstraintsDescriptor" />
+    <classNode dependClassName="org.jetbrains.annotations.Nullable" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor" />
+  </dependency>
+  <dependency className="jetbrains.mps.execution.configurations.deprecated.constraints.ReportErrorStatement_Constraints" file="ReportErrorStatement_Constraints.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.IOperationContext" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNodePointer" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.CheckingNodeContext" />
+    <classNode dependClassName="org.jetbrains.annotations.Nullable" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor" />
+  </dependency>
+  <dependency className="jetbrains.mps.execution.configurations.deprecated.constraints.RunConfigMainNodeStatement_Constraints" file="RunConfigMainNodeStatement_Constraints.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.IOperationContext" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNodePointer" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.CheckingNodeContext" />
+    <classNode dependClassName="org.jetbrains.annotations.Nullable" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor" />
+  </dependency>
+  <dependency className="jetbrains.mps.execution.configurations.deprecated.constraints.RunConfigParameterReferenceOperation_Constraints" file="RunConfigParameterReferenceOperation_Constraints.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.IOperationContext" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNodePointer" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.CheckingNodeContext" />
+    <classNode dependClassName="org.jetbrains.annotations.Nullable" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor" />
+  </dependency>
+  <dependency className="jetbrains.mps.execution.configurations.deprecated.constraints.RunConfigPropertyInstance_Constraints" file="RunConfigPropertyInstance_Constraints.java">
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.ArrayList" />
+    <classNode dependClassName="java.util.HashMap" />
+    <classNode dependClassName="java.util.Map" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.IOperationContext" />
+    <classNode dependClassName="jetbrains.mps.smodel.IScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNodePointer" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.PropertyConstraintsDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.ReferenceConstraintsContext" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.ReferenceConstraintsDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.ReferenceScopeProvider" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.base.BasePropertyConstraintsDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.base.BaseReferenceConstraintsDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.base.BaseReferenceScopeProvider" />
+    <classNode dependClassName="org.jetbrains.annotations.Nullable" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNodeReference" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor" />
+  </dependency>
+</dependenciesRoot>
+

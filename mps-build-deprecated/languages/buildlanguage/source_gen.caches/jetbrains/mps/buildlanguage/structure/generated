@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies version="2" modelHash="dml0mhziq5cr1af33s0er0o3yxkv22g">
+  <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel.runtime.impl(MPS.Core/jetbrains.mps.smodel.runtime.impl@java_stub)" />
+  <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+  <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+  <dep model="r:00000000-0000-4000-0000-011c8959032f(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.main@generator)" />
+  <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
+  <common hash="-9lohlulkbr67kz7l5293v214j6h063x">
+    <dep root="1196851066733" />
+    <dep root="1196851087779" />
+    <dep root="1196851099544" />
+    <dep root="1196851107341" />
+    <dep root="1196851952934" />
+    <dep root="1196852921336" />
+    <dep root="1196853662806" />
+    <dep root="1196861005114" />
+    <dep root="1196862084542" />
+    <dep root="1196865966685" />
+    <dep root="1196866637548" />
+    <dep root="1196870363565" />
+    <dep root="1196870403099" />
+    <dep root="1196870417350" />
+    <dep root="1196870830058" />
+    <dep root="1197107841918" />
+    <dep root="1197108973325" />
+    <dep root="1197398796434" />
+    <dep root="1197399151554" />
+    <dep root="1197464877317" />
+    <dep root="1199031681512" />
+    <dep root="1199032398223" />
+    <dep root="1199644616584" />
+    <dep root="1200418817047" />
+    <dep root="1200510908478" />
+    <dep root="1200511852076" />
+    <dep root="1201111033873" />
+    <dep root="1201259656252" />
+    <dep root="1201701678947" />
+    <dep root="1201702638416" />
+    <dep root="1218548668666" />
+    <dep root="1219147669362" />
+    <dep root="1230209993244" />
+    <dep root="1230220832119" />
+    <dep root="1240397336536" />
+    <dep root="1240398708423" />
+    <dep root="1240833739976" />
+    <dep root="1463999527524104369" />
+    <dep root="3749843785777956745" />
+    <dep root="5699548131010533022" />
+    <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel.runtime.impl(MPS.Core/jetbrains.mps.smodel.runtime.impl@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c8959032f(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
+    <file name="StructureAspectDescriptor.java" />
+  </common>
+  <source id="1196851066733" name="Project" hash="clblrtj0853yysbwbjtkm606y75x9uo" />
+  <source id="1196851087779" name="AbstractCall" hash="9frvwd6dm65tqjzcv8uxz3wd7fhwvgh" />
+  <source id="1196851099544" name="TargetDeclaration" hash="-4ksmgff4h58slblws20acr14jt0l6s9" />
+  <source id="1196851107341" name="PropertyDeclaration" hash="-arvoevqc0kd6vyaq2k63rqgpdz4sfgc" />
+  <source id="1196851952934" name="PropertyValueExpression" hash="c4zsg7olyfok7i3o6dusz7i5qeeo7nr" />
+  <source id="1196852921336" name="TargetReference" hash="7qztrwoo1skft5hahhcyyku5g4pp6c" />
+  <source id="1196853662806" name="PropertyReference" hash="-apatz6g6zxj742tmtrvs0bxnsbd3yyi" />
+  <source id="1196861005114" name="StringLiteral" hash="-61o7fnbh784j6c4plv01qcekj3cmha3" />
+  <source id="1196862084542" name="IPropertyHolder" hash="-2f48hcrdtjet3jks04cgzpkgfbasbph" />
+  <source id="1196865966685" name="BooleanLiteral" hash="-e8ltglyf5w6bbzhj7k916smy4c9yxhd" />
+  <source id="1196866637548" name="IntLiteral" hash="2dmf78oe2zvo2dk5yz5w3jx25u6xuf9" />
+  <source id="1196870363565" name="BooleanType" hash="cp2u1ebn4tt5fzosbt47k4soq75bmh9" />
+  <source id="1196870403099" name="StringType" hash="d1d3y90l3gz1epf36jw48vkfjw9diuw" />
+  <source id="1196870417350" name="IntegerType" hash="2ppcmhiir4y5n6ngh7tdaivc7powrr5" />
+  <source id="1196870830058" name="PropertyType" hash="c2v995e3n98qe8m8ea7704io9xbiz04" />
+  <source id="1197107841918" name="BinaryOperation" hash="-bntep02ya8ejrgy3mixhiwyn8qdgpj3" />
+  <source id="1197108973325" name="PlusOperation" hash="eljkvyaclll11x0qk3trc701ew2tr8d" />
+  <source id="1197398796434" name="Enum" hash="1h4clt5xobo24qhnu1o69q0ck4uzila" />
+  <source id="1197399151554" name="StringEnum" hash="-84jh6swjwsmijdabwvvv757zhrf5ruj" />
+  <source id="1197464877317" name="IntegerEnum" hash="-1umrflijafm0vg2yc779v3db7zljzaf" />
+  <source id="1199031681512" name="FileName" hash="-54eztc1vuferwzubjha1043u8qefnrv" />
+  <source id="1199032398223" name="FileType" hash="87j9wv9k7zadggavugvgmsppaqx2fs7" />
+  <source id="1199644616584" name="IProjectComponent" hash="-2gh1l7zzsqn1u3p9ovx6ud2omk4c7w6" />
+  <source id="1200418817047" name="ImportPropertyNode" hash="-4rwn7rlnvjs1eopfbz8n8zc2h7xbqol" />
+  <source id="1200510908478" name="CallReferenceType" hash="3tc44qoqxi4zgb3ffzgwsqkms2f295g" />
+  <source id="1200511852076" name="CallReference" hash="eb6bjum0ke61tbl7baaykugdkfo2eqj" />
+  <source id="1201111033873" name="ISource" hash="-bwettkst7ary46i4wy49nl9yshy53dl" />
+  <source id="1201259656252" name="ICommented" hash="5ccsjqn1ogznhosbk1y2ueju39fw7j5" />
+  <source id="1201701678947" name="TargetReferencePropertyValueExpression" hash="-6n5auf0tiq5lnmui6oltlcixc5kjeke" />
+  <source id="1201702638416" name="ImportProject" hash="15q51l13dm87t39eqf2nmk4mg0dl3oj" />
+  <source id="1218548668666" name="MultiLineString" hash="clenuws8b6850nxpfdfz0q17jrkwrt4" />
+  <source id="1219147669362" name="ExternalPropertyDeclaration" hash="-ci03id1eo5zsjbz1q067q5sk5a6j8jg" />
+  <source id="1230209993244" name="AbstractImportProject" hash="dg0rctt992ajac98jg1egf7wztvqz3v" />
+  <source id="1230220832119" name="ITargetReference" hash="-d5wffxfg2uj60269b0hsb1078p3sokx" />
+  <source id="1240397336536" name="AbstractImportProperties" hash="-b0fygdui784osjc246fz1qmjfz8j4fh" />
+  <source id="1240398708423" name="ImportPropertiesFromFile" hash="7brkgvpehqjjqu12z5psk9drl1faxhs" />
+  <source id="1240833739976" name="IAntScript" hash="add9wzfv599tnuz6izfnj0pazy9gun5" />
+  <source id="5699548131010533022" name="IDeclaration" hash="90ux0zvibwh53u1tw5sc7fyodl5a5hj" />
+  <source id="1463999527524104369" name="AbstractPropertyDeclaration" hash="32o20osqxzrd1be8arws2vr9d56x6uh" />
+  <source id="3749843785777956745" name="XmlStringLiteral" hash="cyb2g0k9it1jpvj4nsrcoppap061g4z" />
+</dependencies>
+
