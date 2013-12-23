@@ -48,6 +48,9 @@ public class TestRandomGraph_Test extends TestCase {
     RandomGraphGenerator.generateFixedNumLayers(numInLayer, minNumEdges);
   }
 
+  public TestRandomGraph_Test() {
+  }
+
   public Map<Node, Integer> getLayers(Graph g, int[] numInLayer) {
     Map<Node, Integer> layers = new NodeMap<Integer>(g);
     int cur = 0;

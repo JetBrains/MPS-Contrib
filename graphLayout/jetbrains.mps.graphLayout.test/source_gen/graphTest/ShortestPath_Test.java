@@ -22,4 +22,7 @@ public class ShortestPath_Test extends TestCase {
     path = ShortestPath.getPath(graph, graph.getNode(0), graph.getNode(2), Edge.Direction.BACK);
     Assert.assertTrue(path == null);
   }
+
+  public ShortestPath_Test() {
+  }
 }

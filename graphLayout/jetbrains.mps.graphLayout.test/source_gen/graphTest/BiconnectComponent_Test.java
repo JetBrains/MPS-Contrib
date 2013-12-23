@@ -45,6 +45,9 @@ public class BiconnectComponent_Test extends TestCase {
     test(chain);
   }
 
+  public BiconnectComponent_Test() {
+  }
+
   public void test(Graph graph) {
     BiconnectedComponent tree = BiconnectedComponent.createTree(graph);
   }

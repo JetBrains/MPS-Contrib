@@ -37,4 +37,7 @@ public class TopologicalNumbering_Test extends TestCase {
     Assert.assertTrue((Integer) MapSequence.fromMap(numbering).get(graph.getNode(4)) == 1);
     Assert.assertTrue((Integer) MapSequence.fromMap(numbering).get(graph.getNode(5)) == 0);
   }
+
+  public TopologicalNumbering_Test() {
+  }
 }

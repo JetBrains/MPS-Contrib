@@ -74,6 +74,9 @@ public class QuasiOrthogonalRepresentation_Test extends TestCase {
     testPlanarBiconnectedGraph(graph);
   }
 
+  public QuasiOrthogonalRepresentation_Test() {
+  }
+
   public void testPlanarBiconnectedGraph(Graph graph) {
     EmbeddedGraph embeddedGraph = new PQPlanarizationFinder().find(graph);
     Map<Dart, Integer> bends = MapSequence.fromMap(new HashMap<Dart, Integer>());

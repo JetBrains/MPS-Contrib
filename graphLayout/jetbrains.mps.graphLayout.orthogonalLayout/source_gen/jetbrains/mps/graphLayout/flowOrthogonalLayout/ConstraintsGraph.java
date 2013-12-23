@@ -153,7 +153,7 @@ public class ConstraintsGraph {
       }
     }
     if (ConstraintsGraph.DEBUG > 0) {
-      for (int rotation : ListSequence.fromList(rotations)) {
+      for (int rotation : rotations) {
         if (rotation != 1) {
           throw new RuntimeException("bad face completion result!");
         }

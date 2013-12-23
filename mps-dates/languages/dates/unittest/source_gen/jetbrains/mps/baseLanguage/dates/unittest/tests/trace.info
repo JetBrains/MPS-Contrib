@@ -941,6 +941,7 @@
     <nodeInfo nodeId="5293902215866758577" fileName="DateTimeZone_Test.java" startLine="96" startPosition="0" endLine="97" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="5293902215866758561" fileName="DateTimeZone_Test.java" startLine="97" startPosition="40" endLine="98" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="5293902215866758567" fileName="DateTimeZone_Test.java" startLine="98" startPosition="62" endLine="99" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1238681295331" fileName="DateTimeZone_Test.java" startLine="102" startPosition="0" endLine="104" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="DateTimeZone_Test#()V" />
     <nodeInfo nodeId="5293902215865197703" fileName="DateTimeZone_Test.java" startLine="77" startPosition="0" endLine="80" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_inLocale#()V" />
     <nodeInfo nodeId="1238681325228" fileName="DateTimeZone_Test.java" startLine="16" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_londonAndHelsinkiShortTime#()V" />
     <nodeInfo nodeId="1238681823348" fileName="DateTimeZone_Test.java" startLine="21" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_londonAndHelsinkiFullTime#()V" />
@@ -955,6 +956,7 @@
     <nodeInfo nodeId="5293902215865158103" fileName="DateTimeZone_Test.java" startLine="57" startPosition="0" endLine="66" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_london#()V" />
     <nodeInfo nodeId="5293902215865165955" fileName="DateTimeZone_Test.java" startLine="67" startPosition="0" endLine="76" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_prague#()V" />
     <nodeInfo nodeId="5293902215865634125" fileName="DateTimeZone_Test.java" startLine="81" startPosition="0" endLine="92" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_allZones#()V" />
+    <scopeInfo nodeId="1238681295334" fileName="DateTimeZone_Test.java" startLine="102" startPosition="30" endLine="102" endPosition="30" />
     <scopeInfo nodeId="5293902215865197706" fileName="DateTimeZone_Test.java" startLine="77" startPosition="48" endLine="78" endPosition="215" />
     <scopeInfo nodeId="1238681325230" fileName="DateTimeZone_Test.java" startLine="16" startPosition="66" endLine="18" endPosition="384">
       <varInfo nodeId="1238681349284" varName="current" />
@@ -972,6 +974,7 @@
       <varInfo nodeId="1239020188320" varName="thisMoment" />
     </scopeInfo>
     <scopeInfo nodeId="5293902215865861400" fileName="DateTimeZone_Test.java" startLine="84" startPosition="38" endLine="86" endPosition="16" />
+    <scopeInfo nodeId="1238681295331" fileName="DateTimeZone_Test.java" startLine="102" startPosition="0" endLine="104" endPosition="0" />
     <scopeInfo nodeId="1239019989031" fileName="DateTimeZone_Test.java" startLine="36" startPosition="60" endLine="39" endPosition="339">
       <varInfo nodeId="1239020055840" varName="thisMoment" />
       <varInfo nodeId="1239020004017" varName="zone" />
@@ -1012,7 +1015,7 @@
       <varInfo nodeId="5293902215865635493" varName="count" />
     </scopeInfo>
     <scopeInfo nodeId="5293902215865634125" fileName="DateTimeZone_Test.java" startLine="81" startPosition="0" endLine="92" endPosition="0" />
-    <unitInfo nodeId="1238681295329" fileName="DateTimeZone_Test.java" startLine="15" startPosition="0" endLine="102" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.DateTimeZone_Test" />
+    <unitInfo nodeId="1238681295329" fileName="DateTimeZone_Test.java" startLine="15" startPosition="0" endLine="105" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.DateTimeZone_Test" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903e0(jetbrains.mps.baseLanguage.dates.unittest.tests)/2583319411283568322">
     <nodeInfo nodeId="2583319411283568349" fileName="Parse_Test.java" startLine="17" startPosition="50" endLine="18" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -1050,6 +1053,7 @@
     <nodeInfo nodeId="7517433918793205150" fileName="Parse_Test.java" startLine="79" startPosition="68" endLine="80" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1140983047399056926" fileName="Parse_Test.java" startLine="80" startPosition="68" endLine="81" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="8625920436392683936" fileName="Parse_Test.java" startLine="81" startPosition="68" endLine="82" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2583319411283568324" fileName="Parse_Test.java" startLine="85" startPosition="0" endLine="87" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="Parse_Test#()V" />
     <nodeInfo nodeId="4251945201431413193" fileName="Parse_Test.java" startLine="23" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_dateParseinTZ#()V" />
     <nodeInfo nodeId="2583319411283568364" fileName="Parse_Test.java" startLine="27" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_jodaDateTime#()V" />
     <nodeInfo nodeId="2583319411283568603" fileName="Parse_Test.java" startLine="61" startPosition="0" endLine="65" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_shortDatePeriod#()V" />
@@ -1061,6 +1065,7 @@
     <nodeInfo nodeId="5088260876035740501" fileName="Parse_Test.java" startLine="41" startPosition="27" endLine="48" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
     <nodeInfo nodeId="4555537781928180293" fileName="Parse_Test.java" startLine="76" startPosition="0" endLine="84" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_timezone#()V" />
     <nodeInfo nodeId="2583319411283568444" fileName="Parse_Test.java" startLine="39" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_predefined#()V" />
+    <scopeInfo nodeId="2583319411283568327" fileName="Parse_Test.java" startLine="85" startPosition="23" endLine="85" endPosition="23" />
     <scopeInfo nodeId="4251945201431413196" fileName="Parse_Test.java" startLine="23" startPosition="53" endLine="24" endPosition="235" />
     <scopeInfo nodeId="5088260876035740504" fileName="Parse_Test.java" startLine="46" startPosition="0" endLine="47" endPosition="20">
       <varInfo nodeId="5088260876035740505" varName="iae" />
@@ -1078,6 +1083,7 @@
     <scopeInfo nodeId="34521615669077536" fileName="Parse_Test.java" startLine="71" startPosition="45" endLine="73" endPosition="223">
       <varInfo nodeId="34521615669077560" varName="mskid" />
     </scopeInfo>
+    <scopeInfo nodeId="2583319411283568324" fileName="Parse_Test.java" startLine="85" startPosition="0" endLine="87" endPosition="0" />
     <scopeInfo nodeId="2583319411283568348" fileName="Parse_Test.java" startLine="17" startPosition="50" endLine="20" endPosition="336">
       <varInfo nodeId="2583319411283568350" varName="dt" />
       <varInfo nodeId="7678715681280274348" varName="today" />
@@ -1113,7 +1119,7 @@
       <varInfo nodeId="5088260876035740515" varName="thrown" />
     </scopeInfo>
     <scopeInfo nodeId="2583319411283568444" fileName="Parse_Test.java" startLine="39" startPosition="0" endLine="54" endPosition="0" />
-    <unitInfo nodeId="2583319411283568322" fileName="Parse_Test.java" startLine="16" startPosition="0" endLine="85" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.Parse_Test" />
+    <unitInfo nodeId="2583319411283568322" fileName="Parse_Test.java" startLine="16" startPosition="0" endLine="88" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.Parse_Test" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903e0(jetbrains.mps.baseLanguage.dates.unittest.tests)/3394771273339287653">
     <nodeInfo nodeId="3394771273339497991" fileName="Arithmetic_Test.java" startLine="16" startPosition="57" endLine="17" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -1139,12 +1145,15 @@
     <nodeInfo nodeId="3394771273339287800" fileName="Arithmetic_Test.java" startLine="51" startPosition="66" endLine="52" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="3394771273339287804" fileName="Arithmetic_Test.java" startLine="52" startPosition="41" endLine="53" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="3394771273339287811" fileName="Arithmetic_Test.java" startLine="53" startPosition="63" endLine="54" endPosition="214" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3394771273339287655" fileName="Arithmetic_Test.java" startLine="57" startPosition="0" endLine="59" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="Arithmetic_Test#()V" />
     <nodeInfo nodeId="3394771273339497981" fileName="Arithmetic_Test.java" startLine="16" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_compatibilityPlus#()V" />
     <nodeInfo nodeId="3394771273339287723" fileName="Arithmetic_Test.java" startLine="33" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_plusExpressionWithConvert#()V" />
     <nodeInfo nodeId="3394771273339287749" fileName="Arithmetic_Test.java" startLine="39" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_plusExpressionReversed#()V" />
     <nodeInfo nodeId="3394771273339287774" fileName="Arithmetic_Test.java" startLine="45" startPosition="0" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_minusExpression#()V" />
     <nodeInfo nodeId="3394771273339287797" fileName="Arithmetic_Test.java" startLine="51" startPosition="0" endLine="56" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_minusExpressionWithConvert#()V" />
     <nodeInfo nodeId="3394771273339287673" fileName="Arithmetic_Test.java" startLine="22" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_plusExpression#()V" />
+    <scopeInfo nodeId="3394771273339287658" fileName="Arithmetic_Test.java" startLine="57" startPosition="28" endLine="57" endPosition="28" />
+    <scopeInfo nodeId="3394771273339287655" fileName="Arithmetic_Test.java" startLine="57" startPosition="0" endLine="59" endPosition="0" />
     <scopeInfo nodeId="3394771273339497984" fileName="Arithmetic_Test.java" startLine="16" startPosition="57" endLine="19" endPosition="209">
       <varInfo nodeId="3394771273339497992" varName="myinstant" />
     </scopeInfo>
@@ -1176,22 +1185,25 @@
       <varInfo nodeId="3394771273339287711" varName="now2" />
     </scopeInfo>
     <scopeInfo nodeId="3394771273339287673" fileName="Arithmetic_Test.java" startLine="22" startPosition="0" endLine="32" endPosition="0" />
-    <unitInfo nodeId="3394771273339287653" fileName="Arithmetic_Test.java" startLine="15" startPosition="0" endLine="57" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.Arithmetic_Test" />
+    <unitInfo nodeId="3394771273339287653" fileName="Arithmetic_Test.java" startLine="15" startPosition="0" endLine="60" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.Arithmetic_Test" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903e0(jetbrains.mps.baseLanguage.dates.unittest.tests)/3394771273339814721">
     <nodeInfo nodeId="3394771273339844805" fileName="Cron_Test.java" startLine="9" startPosition="50" endLine="10" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="3394771273340595588" fileName="Cron_Test.java" startLine="13" startPosition="49" endLine="14" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="7473690929694313959" fileName="Cron_Test.java" startLine="17" startPosition="50" endLine="18" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3394771273339814723" fileName="Cron_Test.java" startLine="21" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="Cron_Test#()V" />
     <nodeInfo nodeId="3394771273339838593" fileName="Cron_Test.java" startLine="9" startPosition="0" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_cronWeekly#()V" />
     <nodeInfo nodeId="3394771273340595584" fileName="Cron_Test.java" startLine="13" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_cronDaily#()V" />
     <nodeInfo nodeId="7473690929694313955" fileName="Cron_Test.java" startLine="17" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_cronHourly#()V" />
+    <scopeInfo nodeId="3394771273339814726" fileName="Cron_Test.java" startLine="21" startPosition="22" endLine="21" endPosition="22" />
     <scopeInfo nodeId="3394771273339838596" fileName="Cron_Test.java" startLine="9" startPosition="50" endLine="10" endPosition="60" />
     <scopeInfo nodeId="3394771273340595587" fileName="Cron_Test.java" startLine="13" startPosition="49" endLine="14" endPosition="58" />
     <scopeInfo nodeId="7473690929694313958" fileName="Cron_Test.java" startLine="17" startPosition="50" endLine="18" endPosition="54" />
+    <scopeInfo nodeId="3394771273339814723" fileName="Cron_Test.java" startLine="21" startPosition="0" endLine="23" endPosition="0" />
     <scopeInfo nodeId="3394771273339838593" fileName="Cron_Test.java" startLine="9" startPosition="0" endLine="12" endPosition="0" />
     <scopeInfo nodeId="3394771273340595584" fileName="Cron_Test.java" startLine="13" startPosition="0" endLine="16" endPosition="0" />
     <scopeInfo nodeId="7473690929694313955" fileName="Cron_Test.java" startLine="17" startPosition="0" endLine="20" endPosition="0" />
-    <unitInfo nodeId="3394771273339814721" fileName="Cron_Test.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.Cron_Test" />
+    <unitInfo nodeId="3394771273339814721" fileName="Cron_Test.java" startLine="8" startPosition="0" endLine="24" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.unittest.tests.Cron_Test" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903e0(jetbrains.mps.baseLanguage.dates.unittest.tests)/48671598478025726">
     <nodeInfo nodeId="48671598478025726" fileName="main_Format2.java" startLine="10" startPosition="0" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="INSTANCE" />

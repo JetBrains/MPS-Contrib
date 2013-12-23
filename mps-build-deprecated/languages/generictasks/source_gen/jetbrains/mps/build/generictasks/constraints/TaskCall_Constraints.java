@@ -45,7 +45,7 @@ public class TaskCall_Constraints extends BaseConstraintsDescriptor {
     return new BaseReferenceScopeProvider() {
       @Override
       public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
-        List<SNode> nodes = SModelOperations.getNodesIncludingImported(_context.getModel(), operationContext.getScope(), "jetbrains.mps.build.generictasks.structure.TaskCall");
+        List<SNode> nodes = SModelOperations.getNodesIncludingImported(_context.getModel(), "jetbrains.mps.build.generictasks.structure.TaskCall");
         List<SNode> visible = new ArrayList<SNode>();
         for (SNode call : ListSequence.fromList(nodes)) {
           if ((SPropertyOperations.getString(call, "name") != null) && (SNodeOperations.getContainingRoot(call) == SNodeOperations.getContainingRoot(_context.getEnclosingNode()))) {
@@ -116,7 +116,7 @@ public class TaskCall_Constraints extends BaseConstraintsDescriptor {
         return new BaseReferenceScopeProvider() {
           @Override
           public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
-            List<SNode> declarations = SModelOperations.getNodesIncludingImported(_context.getModel(), operationContext.getScope(), "jetbrains.mps.build.generictasks.structure.ITaskDeclaration");
+            List<SNode> declarations = SModelOperations.getNodesIncludingImported(_context.getModel(), "jetbrains.mps.build.generictasks.structure.ITaskDeclaration");
             if (!(SNodeOperations.isInstanceOf(_context.getEnclosingNode(), "jetbrains.mps.build.generictasks.structure.TaskCall"))) {
               return new SequenceSearchScope(ListSequence.fromList(declarations).where(new IWhereFilter<SNode>() {
                 public boolean accept(SNode it) {

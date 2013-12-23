@@ -61,7 +61,7 @@ public class RandomGraphGenerator {
       if (iter == maxIter) {
         countBad++;
         s = 0;
-        while (s < numNodes && (int) SetSequence.fromSet(ListSequence.fromList(connected).getElement(s)).count() == numNodes) {
+        while (s < numNodes && SetSequence.fromSet(ListSequence.fromList(connected).getElement(s)).count() == numNodes) {
           s++;
         }
         if (s == numNodes) {
@@ -132,7 +132,7 @@ public class RandomGraphGenerator {
       if (iter == maxIter) {
         countBad++;
         s = 0;
-        while (s < n && (int) SetSequence.fromSet(ListSequence.fromList(connected).getElement(s)).count() == n) {
+        while (s < n && SetSequence.fromSet(ListSequence.fromList(connected).getElement(s)).count() == n) {
           s++;
         }
         if (s == n) {

@@ -40,6 +40,9 @@ public class ClusterEmbeddingConstructor_Test extends TestCase {
     test(graph);
   }
 
+  public ClusterEmbeddingConstructor_Test() {
+  }
+
   public void test(ClusteredGraph graph) {
     List<Edge> edges = graph.getEdges();
     EdgesHistoryManager manager = new EdgesHistoryManager(graph);

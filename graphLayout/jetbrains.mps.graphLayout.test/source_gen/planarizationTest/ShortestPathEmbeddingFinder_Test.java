@@ -44,6 +44,9 @@ public class ShortestPathEmbeddingFinder_Test extends TestCase {
     testPQ(graph);
   }
 
+  public ShortestPathEmbeddingFinder_Test() {
+  }
+
   public void test(Graph graph) {
     EmbeddedGraph embeddedGraph = new ShortestPathEmbeddingFinder(new BiconnectedInitialEmbeddingFinder()).find(graph);
     CheckEmbeddedGraph.checkEmbeddedGraph(embeddedGraph, true);

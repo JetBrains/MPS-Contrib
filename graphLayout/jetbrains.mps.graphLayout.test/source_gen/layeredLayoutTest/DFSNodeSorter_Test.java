@@ -50,4 +50,7 @@ public class DFSNodeSorter_Test extends TestCase {
     Assert.assertTrue(ListSequence.fromList(order.getOrder(2)).getElement(0) == simpleGraph.getNode(2));
     Assert.assertTrue(ListSequence.fromList(order.getOrder(3)).getElement(0) == simpleGraph.getNode(3));
   }
+
+  public DFSNodeSorter_Test() {
+  }
 }

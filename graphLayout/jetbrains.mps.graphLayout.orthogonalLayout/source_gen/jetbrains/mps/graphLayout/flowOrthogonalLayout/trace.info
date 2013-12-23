@@ -2803,7 +2803,7 @@
     <nodeInfo nodeId="7021611379030086598" fileName="ConstraintsGraph.java" startLine="124" startPosition="10" endLine="127" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="7021611379030086615" fileName="ConstraintsGraph.java" startLine="129" startPosition="31" endLine="132" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
     <nodeInfo nodeId="7021611379030086744" fileName="ConstraintsGraph.java" startLine="149" startPosition="20" endLine="152" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="7021611379030086761" fileName="ConstraintsGraph.java" startLine="156" startPosition="61" endLine="159" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="7021611379030086761" fileName="ConstraintsGraph.java" startLine="156" startPosition="38" endLine="159" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="7021611379030086791" fileName="ConstraintsGraph.java" startLine="168" startPosition="0" endLine="171" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/graphLayout/graph/Edge;)Z" />
     <nodeInfo nodeId="7021611379030086802" fileName="ConstraintsGraph.java" startLine="171" startPosition="7" endLine="174" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="7021611379030086921" fileName="ConstraintsGraph.java" startLine="198" startPosition="0" endLine="201" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#(Ljetbrains/mps/graphLayout/intGeom2D/Direction2D;)Ljava/lang/Boolean;" />
@@ -2963,7 +2963,7 @@
       <varInfo nodeId="7021611379030086636" varName="i" />
     </scopeInfo>
     <scopeInfo nodeId="7021611379030086684" fileName="ConstraintsGraph.java" startLine="138" startPosition="37" endLine="141" endPosition="63" />
-    <scopeInfo nodeId="7021611379030086760" fileName="ConstraintsGraph.java" startLine="156" startPosition="61" endLine="159" endPosition="9" />
+    <scopeInfo nodeId="7021611379030086760" fileName="ConstraintsGraph.java" startLine="156" startPosition="38" endLine="159" endPosition="9" />
     <scopeInfo nodeId="7021611379030086791" fileName="ConstraintsGraph.java" startLine="168" startPosition="0" endLine="171" endPosition="0">
       <varInfo nodeId="7021611379030086791" varName="edge" />
     </scopeInfo>

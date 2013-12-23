@@ -35,7 +35,7 @@ public class ClusterGraphCopier extends GraphCopier {
     List<Node> clusters = tree.getNodes();
     for (Node leafCluster : ListSequence.fromList(clusters).where(new IWhereFilter<Node>() {
       public boolean accept(Node it) {
-        return (int) ListSequence.fromList(it.getOutEdges()).count() == 0;
+        return ListSequence.fromList(it.getOutEdges()).count() == 0;
       }
     })) {
       Node node = this.getLeafNode(leafCluster);
@@ -66,7 +66,7 @@ public class ClusterGraphCopier extends GraphCopier {
   private void copyCluster(Node cluster, Node copy) {
     MapSequence.fromMap(myClusterMap).put(cluster, copy);
     List<Node> children = myClusteredGraph.getInclusionTree().getChildren(cluster);
-    if ((int) ListSequence.fromList(children).count() == 0) {
+    if (ListSequence.fromList(children).count() == 0) {
       getCopy().setNodeInCluster(copy, getNodeCopy(this.getLeafNode(cluster)));
     } else {
       for (Node child : ListSequence.fromList(children).where(new IWhereFilter<Node>() {

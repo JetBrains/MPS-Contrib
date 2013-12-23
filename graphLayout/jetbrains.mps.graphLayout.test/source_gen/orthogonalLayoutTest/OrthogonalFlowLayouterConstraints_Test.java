@@ -63,6 +63,9 @@ public class OrthogonalFlowLayouterConstraints_Test extends TestCase {
     OrthogonalLayoutChecker.checkLayout(graphLayout);
   }
 
+  public OrthogonalFlowLayouterConstraints_Test() {
+  }
+
   public void test(Graph graph) {
     Map<Node, Dimension> nodeSizes = MapSequence.fromMap(new LinkedHashMap<Node, Dimension>(16, (float) 0.75, false));
     for (Node node : ListSequence.fromList(graph.getNodes())) {

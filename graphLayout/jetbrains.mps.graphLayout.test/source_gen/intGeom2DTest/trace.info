@@ -21,10 +21,13 @@
     <nodeInfo nodeId="7490214903453705592" fileName="IsIntersects_Test.java" startLine="37" startPosition="31" endLine="38" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="7490214903453705599" fileName="IsIntersects_Test.java" startLine="38" startPosition="31" endLine="39" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="7490214903453705606" fileName="IsIntersects_Test.java" startLine="39" startPosition="31" endLine="40" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7490214903453704355" fileName="IsIntersects_Test.java" startLine="43" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="IsIntersects_Test#()V" />
     <nodeInfo nodeId="7490214903453704364" fileName="IsIntersects_Test.java" startLine="11" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_sameLine1#()V" />
     <nodeInfo nodeId="7490214903453704424" fileName="IsIntersects_Test.java" startLine="19" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_sameLine2#()V" />
     <nodeInfo nodeId="7490214903453705507" fileName="IsIntersects_Test.java" startLine="27" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_interByEnd#()V" />
     <nodeInfo nodeId="7490214903453705570" fileName="IsIntersects_Test.java" startLine="35" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_simplyInter#()V" />
+    <scopeInfo nodeId="7490214903453704358" fileName="IsIntersects_Test.java" startLine="43" startPosition="30" endLine="43" endPosition="30" />
+    <scopeInfo nodeId="7490214903453704355" fileName="IsIntersects_Test.java" startLine="43" startPosition="0" endLine="45" endPosition="0" />
     <scopeInfo nodeId="7490214903453704367" fileName="IsIntersects_Test.java" startLine="11" startPosition="49" endLine="16" endPosition="60">
       <varInfo nodeId="7490214903453704371" varName="p1" />
       <varInfo nodeId="7490214903453704381" varName="p2" />
@@ -53,7 +56,7 @@
     <scopeInfo nodeId="7490214903453704424" fileName="IsIntersects_Test.java" startLine="19" startPosition="0" endLine="26" endPosition="0" />
     <scopeInfo nodeId="7490214903453705507" fileName="IsIntersects_Test.java" startLine="27" startPosition="0" endLine="34" endPosition="0" />
     <scopeInfo nodeId="7490214903453705570" fileName="IsIntersects_Test.java" startLine="35" startPosition="0" endLine="42" endPosition="0" />
-    <unitInfo nodeId="7490214903453704353" fileName="IsIntersects_Test.java" startLine="10" startPosition="0" endLine="43" endPosition="0" unitName="intGeom2DTest.IsIntersects_Test" />
+    <unitInfo nodeId="7490214903453704353" fileName="IsIntersects_Test.java" startLine="10" startPosition="0" endLine="46" endPosition="0" unitName="intGeom2DTest.IsIntersects_Test" />
   </root>
 </debugInfo>
 

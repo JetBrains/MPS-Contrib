@@ -72,4 +72,7 @@ public class TopologicalLayerer_Test extends TestCase {
     Assert.assertTrue((Integer) MapSequence.fromMap(layers).get(simpleGraph.getNode(3)) == 3);
     Assert.assertTrue((Integer) MapSequence.fromMap(layers).get(simpleGraph.getNode(4)) == 1);
   }
+
+  public TopologicalLayerer_Test() {
+  }
 }

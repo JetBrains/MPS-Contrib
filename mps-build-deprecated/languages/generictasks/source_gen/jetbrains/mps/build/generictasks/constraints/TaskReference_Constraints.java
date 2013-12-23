@@ -42,7 +42,7 @@ public class TaskReference_Constraints extends BaseConstraintsDescriptor {
         return new BaseReferenceScopeProvider() {
           @Override
           public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
-            List<SNode> decls = SModelOperations.getNodesIncludingImported(_context.getModel(), operationContext.getScope(), "jetbrains.mps.buildlanguage.structure.IDeclaration");
+            List<SNode> decls = SModelOperations.getNodesIncludingImported(_context.getModel(), "jetbrains.mps.buildlanguage.structure.IDeclaration");
             if (SNodeOperations.isInstanceOf(_context.getEnclosingNode(), "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration") && SNodeOperations.hasRole(_context.getReferenceNode(), "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration", "fakeDeclaration")) {
               List<SNode> newDecls = new ArrayList<SNode>();
               for (SNode decl : ListSequence.fromList(decls)) {

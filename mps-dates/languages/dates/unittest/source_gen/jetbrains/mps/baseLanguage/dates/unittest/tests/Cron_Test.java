@@ -17,4 +17,7 @@ public class Cron_Test extends TestCase {
   public void test_cronHourly() throws Exception {
     Assert.assertEquals("0 0 * * * ?", "0 0 * * * ?");
   }
+
+  public Cron_Test() {
+  }
 }

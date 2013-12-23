@@ -39,4 +39,7 @@ public class IsIntersects_Test extends TestCase {
     Point q2 = new Point(6, 2);
     Assert.assertTrue(GeomUtil.intersects(p1, p2, q1, q2));
   }
+
+  public IsIntersects_Test() {
+  }
 }

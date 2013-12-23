@@ -26,6 +26,9 @@ public class BlockGraphProcessor_Test extends TestCase {
     test(graphString);
   }
 
+  public BlockGraphProcessor_Test() {
+  }
+
   public void test(String graphString) {
     Graph blockGraph = GraphIO.scanGraph(new Scanner(graphString));
     Map<Node, Integer> layers = new BlockGraphProcessor().process(blockGraph);

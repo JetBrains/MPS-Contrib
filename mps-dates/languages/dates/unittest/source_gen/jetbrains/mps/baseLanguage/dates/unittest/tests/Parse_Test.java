@@ -81,4 +81,7 @@ public class Parse_Test extends BaseTestCase {
     DateTimeZone mskoffset = DateTimeZone.forOffsetMillis(10800000);
     Assert.assertEquals(DateTimeZone.forOffsetMillis(10800000), mskoffset);
   }
+
+  public Parse_Test() {
+  }
 }

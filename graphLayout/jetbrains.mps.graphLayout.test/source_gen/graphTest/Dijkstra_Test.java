@@ -74,6 +74,9 @@ public class Dijkstra_Test extends TestCase {
     test(graph, weights, source, target, 3);
   }
 
+  public Dijkstra_Test() {
+  }
+
   public void test(Graph graph, Map<Edge, Integer> weights, Node source, Node target, int expectedLength) {
     Dijkstra finder = new Dijkstra(graph, source, weights);
     finder.doAlgorithm();

@@ -20,6 +20,9 @@ public class OrthogonalFlowLayouterNoLabels_Test extends TestCase {
     test(graph);
   }
 
+  public OrthogonalFlowLayouterNoLabels_Test() {
+  }
+
   public void test(Graph graph) {
     LayoutInfo layoutInfo = new LayoutInfo(graph);
     for (Node node : ListSequence.fromList(graph.getNodes())) {

@@ -53,4 +53,7 @@ public class Arithmetic_Test extends TestCase {
     Long d2 = DateTimeArithmetics.minus(d1, Period.minutes(5));
     Assert.assertTrue(DateTimeOperations.compare(DateTimeOperations.convert((DateTimeArithmetics.minus(d1, d2))), CompareType.EQ, DateTimeOperations.convert(Period.minutes(5)), DateTimeFieldType.millisOfSecond()));
   }
+
+  public Arithmetic_Test() {
+  }
 }

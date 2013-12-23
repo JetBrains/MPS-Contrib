@@ -23,6 +23,9 @@ public class RectOrthogonalLayouter_Test extends TestCase {
     test(graph);
   }
 
+  public RectOrthogonalLayouter_Test() {
+  }
+
   public void test(Graph graph) {
     Map<Node, Dimension> nodeSizes = MapSequence.fromMap(new HashMap<Node, Dimension>());
     Map<Edge, Dimension> edgeSizes = MapSequence.fromMap(new HashMap<Edge, Dimension>());

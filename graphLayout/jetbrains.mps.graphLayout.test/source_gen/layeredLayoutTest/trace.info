@@ -3,12 +3,15 @@
   <root nodeRef="r:e4338979-215b-4b9c-a1e7-b887743c18eb(layeredLayoutTest)/1567683135099906065">
     <nodeInfo nodeId="1567683135099906076" fileName="DFSEdgeReverter_Test.java" startLine="11" startPosition="45" endLine="12" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="4519409331094619719" fileName="DFSEdgeReverter_Test.java" startLine="12" startPosition="49" endLine="13" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1567683135099906067" fileName="DFSEdgeReverter_Test.java" startLine="16" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="DFSEdgeReverter_Test#()V" />
     <nodeInfo nodeId="1567683135099906072" fileName="DFSEdgeReverter_Test.java" startLine="11" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_cycle#()V" />
+    <scopeInfo nodeId="1567683135099906070" fileName="DFSEdgeReverter_Test.java" startLine="16" startPosition="33" endLine="16" endPosition="33" />
     <scopeInfo nodeId="1567683135099906075" fileName="DFSEdgeReverter_Test.java" startLine="11" startPosition="45" endLine="13" endPosition="68">
       <varInfo nodeId="1567683135099906077" varName="cycle" />
     </scopeInfo>
+    <scopeInfo nodeId="1567683135099906067" fileName="DFSEdgeReverter_Test.java" startLine="16" startPosition="0" endLine="18" endPosition="0" />
     <scopeInfo nodeId="1567683135099906072" fileName="DFSEdgeReverter_Test.java" startLine="11" startPosition="0" endLine="15" endPosition="0" />
-    <unitInfo nodeId="1567683135099906065" fileName="DFSEdgeReverter_Test.java" startLine="10" startPosition="0" endLine="16" endPosition="0" unitName="layeredLayoutTest.DFSEdgeReverter_Test" />
+    <unitInfo nodeId="1567683135099906065" fileName="DFSEdgeReverter_Test.java" startLine="10" startPosition="0" endLine="19" endPosition="0" unitName="layeredLayoutTest.DFSEdgeReverter_Test" />
   </root>
   <root nodeRef="r:e4338979-215b-4b9c-a1e7-b887743c18eb(layeredLayoutTest)/1567683135099906087">
     <nodeInfo nodeId="1567683135099906098" fileName="TopologicalLayerer_Test.java" startLine="16" startPosition="46" endLine="17" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -47,6 +50,7 @@
     <nodeInfo nodeId="1567683135099906413" fileName="TopologicalLayerer_Test.java" startLine="70" startPosition="94" endLine="71" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1567683135099906422" fileName="TopologicalLayerer_Test.java" startLine="71" startPosition="94" endLine="72" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1567683135099906431" fileName="TopologicalLayerer_Test.java" startLine="72" startPosition="94" endLine="73" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1567683135099906089" fileName="TopologicalLayerer_Test.java" startLine="76" startPosition="0" endLine="78" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="TopologicalLayerer_Test#()V" />
     <nodeInfo nodeId="1567683135099906094" fileName="TopologicalLayerer_Test.java" startLine="16" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_chain1#()V" />
     <nodeInfo nodeId="1567683135099906128" fileName="TopologicalLayerer_Test.java" startLine="22" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_chain2#()V" />
     <nodeInfo nodeId="1567683135099906283" fileName="TopologicalLayerer_Test.java" startLine="46" startPosition="48" endLine="52" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
@@ -55,11 +59,13 @@
     <nodeInfo nodeId="1567683135099906274" fileName="TopologicalLayerer_Test.java" startLine="45" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_cycle#()V" />
     <nodeInfo nodeId="1567683135099906371" fileName="TopologicalLayerer_Test.java" startLine="66" startPosition="0" endLine="75" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_simpleFourLayers#()V" />
     <nodeInfo nodeId="1567683135099906293" fileName="TopologicalLayerer_Test.java" startLine="55" startPosition="0" endLine="65" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_sandwatches#()V" />
+    <scopeInfo nodeId="1567683135099906092" fileName="TopologicalLayerer_Test.java" startLine="76" startPosition="36" endLine="76" endPosition="36" />
     <scopeInfo nodeId="1567683135099906283" fileName="TopologicalLayerer_Test.java" startLine="50" startPosition="0" endLine="51" endPosition="28">
       <varInfo nodeId="1567683135099906283" varName="e" />
     </scopeInfo>
     <scopeInfo nodeId="1567683135099906283" fileName="TopologicalLayerer_Test.java" startLine="50" startPosition="42" endLine="51" endPosition="28" />
     <scopeInfo nodeId="1567683135099906283" fileName="TopologicalLayerer_Test.java" startLine="47" startPosition="9" endLine="49" endPosition="49" />
+    <scopeInfo nodeId="1567683135099906089" fileName="TopologicalLayerer_Test.java" startLine="76" startPosition="0" endLine="78" endPosition="0" />
     <scopeInfo nodeId="1567683135099906097" fileName="TopologicalLayerer_Test.java" startLine="16" startPosition="46" endLine="19" endPosition="88">
       <varInfo nodeId="1567683135099906099" varName="chain" />
       <varInfo nodeId="1567683135099906104" varName="layers" />
@@ -94,7 +100,7 @@
     <scopeInfo nodeId="1567683135099906274" fileName="TopologicalLayerer_Test.java" startLine="45" startPosition="0" endLine="54" endPosition="0" />
     <scopeInfo nodeId="1567683135099906371" fileName="TopologicalLayerer_Test.java" startLine="66" startPosition="0" endLine="75" endPosition="0" />
     <scopeInfo nodeId="1567683135099906293" fileName="TopologicalLayerer_Test.java" startLine="55" startPosition="0" endLine="65" endPosition="0" />
-    <unitInfo nodeId="1567683135099906087" fileName="TopologicalLayerer_Test.java" startLine="15" startPosition="0" endLine="76" endPosition="0" unitName="layeredLayoutTest.TopologicalLayerer_Test" />
+    <unitInfo nodeId="1567683135099906087" fileName="TopologicalLayerer_Test.java" startLine="15" startPosition="0" endLine="79" endPosition="0" unitName="layeredLayoutTest.TopologicalLayerer_Test" />
   </root>
   <root nodeRef="r:e4338979-215b-4b9c-a1e7-b887743c18eb(layeredLayoutTest)/1567683135099906440">
     <nodeInfo nodeId="1567683135099906451" fileName="DFSNodeSorter_Test.java" startLine="19" startPosition="45" endLine="20" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -126,8 +132,11 @@
     <nodeInfo nodeId="1567683135099906694" fileName="DFSNodeSorter_Test.java" startLine="48" startPosition="104" endLine="49" endPosition="104" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1567683135099906707" fileName="DFSNodeSorter_Test.java" startLine="49" startPosition="104" endLine="50" endPosition="104" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1567683135099906720" fileName="DFSNodeSorter_Test.java" startLine="50" startPosition="104" endLine="51" endPosition="104" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1567683135099906442" fileName="DFSNodeSorter_Test.java" startLine="54" startPosition="0" endLine="56" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="DFSNodeSorter_Test#()V" />
     <nodeInfo nodeId="1567683135099906447" fileName="DFSNodeSorter_Test.java" startLine="19" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_Chain#()V" />
     <nodeInfo nodeId="1567683135099906564" fileName="DFSNodeSorter_Test.java" startLine="34" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_simpleFourLeyers#()V" />
+    <scopeInfo nodeId="1567683135099906445" fileName="DFSNodeSorter_Test.java" startLine="54" startPosition="31" endLine="54" endPosition="31" />
+    <scopeInfo nodeId="1567683135099906442" fileName="DFSNodeSorter_Test.java" startLine="54" startPosition="0" endLine="56" endPosition="0" />
     <scopeInfo nodeId="1567683135099906450" fileName="DFSNodeSorter_Test.java" startLine="19" startPosition="45" endLine="31" endPosition="98">
       <varInfo nodeId="1567683135099906452" varName="chain" />
       <varInfo nodeId="920414672219866064" varName="layers" />
@@ -140,7 +149,7 @@
       <varInfo nodeId="1567683135099906569" varName="simpleGraph" />
     </scopeInfo>
     <scopeInfo nodeId="1567683135099906564" fileName="DFSNodeSorter_Test.java" startLine="34" startPosition="0" endLine="53" endPosition="0" />
-    <unitInfo nodeId="1567683135099906440" fileName="DFSNodeSorter_Test.java" startLine="18" startPosition="0" endLine="54" endPosition="0" unitName="layeredLayoutTest.DFSNodeSorter_Test" />
+    <unitInfo nodeId="1567683135099906440" fileName="DFSNodeSorter_Test.java" startLine="18" startPosition="0" endLine="57" endPosition="0" unitName="layeredLayoutTest.DFSNodeSorter_Test" />
   </root>
   <root nodeRef="r:e4338979-215b-4b9c-a1e7-b887743c18eb(layeredLayoutTest)/1567683135099906733">
     <nodeInfo nodeId="1567683135099906734" fileName="CheckCycles.java" startLine="12" startPosition="0" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="hasCycles" />
@@ -266,12 +275,14 @@
     <nodeInfo nodeId="5180427534211902544" fileName="BlockGraphProcessor_Test.java" startLine="20" startPosition="72" endLine="21" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5180427534211903503" fileName="BlockGraphProcessor_Test.java" startLine="24" startPosition="45" endLine="25" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="5180427534211903507" fileName="BlockGraphProcessor_Test.java" startLine="25" startPosition="83" endLine="26" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5180427534211902524" fileName="BlockGraphProcessor_Test.java" startLine="29" startPosition="40" endLine="30" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5180427534211903959" fileName="BlockGraphProcessor_Test.java" startLine="30" startPosition="67" endLine="31" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5180427534211902524" fileName="BlockGraphProcessor_Test.java" startLine="32" startPosition="40" endLine="33" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5180427534211903959" fileName="BlockGraphProcessor_Test.java" startLine="33" startPosition="67" endLine="34" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4519409331094801571" fileName="BlockGraphProcessor_Test.java" startLine="29" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="BlockGraphProcessor_Test#()V" />
     <nodeInfo nodeId="4519409331094801576" fileName="BlockGraphProcessor_Test.java" startLine="14" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" />
     <nodeInfo nodeId="5180427534211902494" fileName="BlockGraphProcessor_Test.java" startLine="19" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test2#()V" />
     <nodeInfo nodeId="5180427534211903487" fileName="BlockGraphProcessor_Test.java" startLine="24" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test3#()V" />
-    <nodeInfo nodeId="5180427534211902517" fileName="BlockGraphProcessor_Test.java" startLine="29" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="5180427534211902517" fileName="BlockGraphProcessor_Test.java" startLine="32" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljava/lang/String;)V" />
+    <scopeInfo nodeId="4519409331094801574" fileName="BlockGraphProcessor_Test.java" startLine="29" startPosition="37" endLine="29" endPosition="37" />
     <scopeInfo nodeId="4519409331094801579" fileName="BlockGraphProcessor_Test.java" startLine="14" startPosition="45" endLine="16" endPosition="22">
       <varInfo nodeId="4519409331094801581" varName="graphString" />
     </scopeInfo>
@@ -281,17 +292,18 @@
     <scopeInfo nodeId="5180427534211903490" fileName="BlockGraphProcessor_Test.java" startLine="24" startPosition="45" endLine="26" endPosition="22">
       <varInfo nodeId="5180427534211903504" varName="graphString" />
     </scopeInfo>
-    <scopeInfo nodeId="5180427534211902520" fileName="BlockGraphProcessor_Test.java" startLine="29" startPosition="40" endLine="31" endPosition="78">
+    <scopeInfo nodeId="4519409331094801571" fileName="BlockGraphProcessor_Test.java" startLine="29" startPosition="0" endLine="31" endPosition="0" />
+    <scopeInfo nodeId="5180427534211902520" fileName="BlockGraphProcessor_Test.java" startLine="32" startPosition="40" endLine="34" endPosition="78">
       <varInfo nodeId="5180427534211902525" varName="blockGraph" />
       <varInfo nodeId="5180427534211903960" varName="layers" />
     </scopeInfo>
     <scopeInfo nodeId="4519409331094801576" fileName="BlockGraphProcessor_Test.java" startLine="14" startPosition="0" endLine="18" endPosition="0" />
     <scopeInfo nodeId="5180427534211902494" fileName="BlockGraphProcessor_Test.java" startLine="19" startPosition="0" endLine="23" endPosition="0" />
     <scopeInfo nodeId="5180427534211903487" fileName="BlockGraphProcessor_Test.java" startLine="24" startPosition="0" endLine="28" endPosition="0" />
-    <scopeInfo nodeId="5180427534211902517" fileName="BlockGraphProcessor_Test.java" startLine="29" startPosition="0" endLine="33" endPosition="0">
+    <scopeInfo nodeId="5180427534211902517" fileName="BlockGraphProcessor_Test.java" startLine="32" startPosition="0" endLine="36" endPosition="0">
       <varInfo nodeId="5180427534211902521" varName="graphString" />
     </scopeInfo>
-    <unitInfo nodeId="4519409331094801569" fileName="BlockGraphProcessor_Test.java" startLine="13" startPosition="0" endLine="34" endPosition="0" unitName="layeredLayoutTest.BlockGraphProcessor_Test" />
+    <unitInfo nodeId="4519409331094801569" fileName="BlockGraphProcessor_Test.java" startLine="13" startPosition="0" endLine="37" endPosition="0" unitName="layeredLayoutTest.BlockGraphProcessor_Test" />
   </root>
   <root nodeRef="r:e4338979-215b-4b9c-a1e7-b887743c18eb(layeredLayoutTest)/6088058844796081230">
     <nodeInfo nodeId="7033456583153162491" fileName="CheckDummyEdgesCrossing.java" startLine="18" startPosition="40" endLine="19" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />

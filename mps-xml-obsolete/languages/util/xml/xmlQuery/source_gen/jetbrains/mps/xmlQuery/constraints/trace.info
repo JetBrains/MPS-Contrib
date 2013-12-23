@@ -6,7 +6,7 @@
     <nodeInfo nodeId="1384720974900260384" fileName="ElementBuilder_Constraints.java" startLine="35" startPosition="83" endLine="36" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1384720974900260384" fileName="ElementBuilder_Constraints.java" startLine="39" startPosition="44" endLine="40" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1384720974900260390" fileName="ElementBuilder_Constraints.java" startLine="48" startPosition="142" endLine="49" endPosition="290" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3036783058493954369" fileName="ElementBuilder_Constraints.java" startLine="50" startPosition="41" endLine="51" endPosition="110" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3036783058493954369" fileName="ElementBuilder_Constraints.java" startLine="50" startPosition="41" endLine="51" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="3036783058493954384" fileName="ElementBuilder_Constraints.java" startLine="52" startPosition="121" endLine="53" endPosition="282" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="3036783058493954396" fileName="ElementBuilder_Constraints.java" startLine="54" startPosition="20" endLine="55" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1384720974900260384" fileName="ElementBuilder_Constraints.java" startLine="60" startPosition="63" endLine="61" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -24,7 +24,7 @@
     <nodeInfo nodeId="1384720974900260384" fileName="ElementBuilder_Constraints.java" startLine="34" startPosition="0" endLine="68" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getNotDefaultReferences#()Ljava/util/Map;" />
     <scopeInfo nodeId="1384720974900260384" fileName="ElementBuilder_Constraints.java" startLine="30" startPosition="39" endLine="31" endPosition="61" />
     <scopeInfo nodeId="1384720974900260384" fileName="ElementBuilder_Constraints.java" startLine="39" startPosition="44" endLine="40" endPosition="20" />
-    <scopeInfo nodeId="3036783058493954352" fileName="ElementBuilder_Constraints.java" startLine="50" startPosition="41" endLine="51" endPosition="110" />
+    <scopeInfo nodeId="3036783058493954352" fileName="ElementBuilder_Constraints.java" startLine="50" startPosition="41" endLine="51" endPosition="81" />
     <scopeInfo nodeId="3036783058493954379" fileName="ElementBuilder_Constraints.java" startLine="52" startPosition="121" endLine="53" endPosition="282" />
     <scopeInfo nodeId="3036783058493954395" fileName="ElementBuilder_Constraints.java" startLine="54" startPosition="20" endLine="55" endPosition="44" />
     <scopeInfo nodeId="1384720974900260384" fileName="ElementBuilder_Constraints.java" startLine="60" startPosition="63" endLine="61" endPosition="58" />

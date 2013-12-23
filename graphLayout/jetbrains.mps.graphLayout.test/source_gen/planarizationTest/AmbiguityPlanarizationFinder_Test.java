@@ -33,6 +33,9 @@ public class AmbiguityPlanarizationFinder_Test extends TestCase {
     test(graph);
   }
 
+  public AmbiguityPlanarizationFinder_Test() {
+  }
+
   public void test(Graph graph) {
     EmbeddedGraph mainEmbeddedGraph = null;
     for (int testNum = 0; testNum < 100; testNum++) {

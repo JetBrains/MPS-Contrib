@@ -37,6 +37,9 @@ public class ClusterEmbeddingMakeBiconnected_Test extends TestCase {
     test(graph);
   }
 
+  public ClusterEmbeddingMakeBiconnected_Test() {
+  }
+
   public void test(ClusteredGraph graph) {
     List<Edge> edges = graph.getEdges();
     EdgesHistoryManager manager = new EdgesHistoryManager(graph);

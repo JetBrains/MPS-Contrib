@@ -44,7 +44,7 @@ public class Attribute_Constraints extends BaseConstraintsDescriptor {
             ISearchScope searchScope;
             SNode elementDeclaration = ElementUtil.getParentElementDeclaration(_context.getEnclosingNode(), operationContext.getScope());
             if ((elementDeclaration == null)) {
-              searchScope = SModelSearchUtil.createModelAndImportedModelsScope(_context.getModel(), operationContext.getScope());
+              searchScope = SModelSearchUtil.createModelAndImportedModelsScope(_context.getModel(), false, operationContext.getScope());
             } else {
               searchScope = new SimpleSearchScope(ElementDeclaration_Behavior.call_getAttributeDeclarations_1213877429821(elementDeclaration));
             }

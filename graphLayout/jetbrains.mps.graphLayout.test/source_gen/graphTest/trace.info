@@ -13,9 +13,12 @@
     <nodeInfo nodeId="4624841703139866882" fileName="STNumbering_Test.java" startLine="29" startPosition="92" endLine="30" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="4624841703139866889" fileName="STNumbering_Test.java" startLine="30" startPosition="62" endLine="31" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="4624841703139866904" fileName="STNumbering_Test.java" startLine="31" startPosition="97" endLine="32" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1654665216152489677" fileName="STNumbering_Test.java" startLine="35" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="STNumbering_Test#()V" />
     <nodeInfo nodeId="1654665216152489682" fileName="STNumbering_Test.java" startLine="14" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" />
     <nodeInfo nodeId="5213231752900621480" fileName="STNumbering_Test.java" startLine="21" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_graphFromPaper#()V" />
     <nodeInfo nodeId="4624841703139866871" fileName="STNumbering_Test.java" startLine="28" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_K5plus#()V" />
+    <scopeInfo nodeId="1654665216152489680" fileName="STNumbering_Test.java" startLine="35" startPosition="29" endLine="35" endPosition="29" />
+    <scopeInfo nodeId="1654665216152489677" fileName="STNumbering_Test.java" startLine="35" startPosition="0" endLine="37" endPosition="0" />
     <scopeInfo nodeId="1654665216152489685" fileName="STNumbering_Test.java" startLine="14" startPosition="45" endLine="18" endPosition="83">
       <varInfo nodeId="1654665216152489696" varName="graph" />
       <varInfo nodeId="1654665216152489687" varName="graphString" />
@@ -34,7 +37,7 @@
     <scopeInfo nodeId="1654665216152489682" fileName="STNumbering_Test.java" startLine="14" startPosition="0" endLine="20" endPosition="0" />
     <scopeInfo nodeId="5213231752900621480" fileName="STNumbering_Test.java" startLine="21" startPosition="0" endLine="27" endPosition="0" />
     <scopeInfo nodeId="4624841703139866871" fileName="STNumbering_Test.java" startLine="28" startPosition="0" endLine="34" endPosition="0" />
-    <unitInfo nodeId="1654665216152489675" fileName="STNumbering_Test.java" startLine="13" startPosition="0" endLine="35" endPosition="0" unitName="graphTest.STNumbering_Test" />
+    <unitInfo nodeId="1654665216152489675" fileName="STNumbering_Test.java" startLine="13" startPosition="0" endLine="38" endPosition="0" unitName="graphTest.STNumbering_Test" />
   </root>
   <root nodeRef="r:2d0fbdb5-e73c-4db3-b9e8-fb2e93925820(graphTest)/1953828525454981991">
     <nodeInfo nodeId="1953828525454983931" fileName="Dijkstra_Test.java" startLine="20" startPosition="48" endLine="21" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -82,23 +85,26 @@
     <nodeInfo nodeId="7727845083901385139" fileName="Dijkstra_Test.java" startLine="71" startPosition="84" endLine="72" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="7727845083901385155" fileName="Dijkstra_Test.java" startLine="72" startPosition="84" endLine="73" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="7727845083901385147" fileName="Dijkstra_Test.java" startLine="73" startPosition="84" endLine="74" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1953828525454983842" fileName="Dijkstra_Test.java" startLine="77" startPosition="107" endLine="78" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1953828525454983853" fileName="Dijkstra_Test.java" startLine="78" startPosition="59" endLine="79" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1953828525454983890" fileName="Dijkstra_Test.java" startLine="79" startPosition="25" endLine="80" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1953828525454983899" fileName="Dijkstra_Test.java" startLine="80" startPosition="53" endLine="81" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1953828525454983910" fileName="Dijkstra_Test.java" startLine="82" startPosition="51" endLine="83" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1953828525454983921" fileName="Dijkstra_Test.java" startLine="84" startPosition="5" endLine="85" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1953828525454983905" fileName="Dijkstra_Test.java" startLine="81" startPosition="19" endLine="84" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="1953828525454983819" fileName="Dijkstra_Test.java" startLine="77" startPosition="0" endLine="87" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljetbrains/mps/graphLayout/graph/Graph;Ljava/util/Map;Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/graph/Node;I)V" />
+    <nodeInfo nodeId="1953828525454983842" fileName="Dijkstra_Test.java" startLine="80" startPosition="107" endLine="81" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1953828525454983853" fileName="Dijkstra_Test.java" startLine="81" startPosition="59" endLine="82" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1953828525454983890" fileName="Dijkstra_Test.java" startLine="82" startPosition="25" endLine="83" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1953828525454983899" fileName="Dijkstra_Test.java" startLine="83" startPosition="53" endLine="84" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1953828525454983910" fileName="Dijkstra_Test.java" startLine="85" startPosition="51" endLine="86" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1953828525454983921" fileName="Dijkstra_Test.java" startLine="87" startPosition="5" endLine="88" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1953828525454981993" fileName="Dijkstra_Test.java" startLine="77" startPosition="0" endLine="79" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="Dijkstra_Test#()V" />
+    <nodeInfo nodeId="1953828525454983905" fileName="Dijkstra_Test.java" startLine="84" startPosition="19" endLine="87" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="1953828525454983819" fileName="Dijkstra_Test.java" startLine="80" startPosition="0" endLine="90" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljetbrains/mps/graphLayout/graph/Graph;Ljava/util/Map;Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/graph/Node;I)V" />
     <nodeInfo nodeId="1953828525455054823" fileName="Dijkstra_Test.java" startLine="35" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test2#()V" />
     <nodeInfo nodeId="7727845083901381786" fileName="Dijkstra_Test.java" startLine="48" startPosition="0" endLine="61" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test3#()V" />
     <nodeInfo nodeId="1953828525454982001" fileName="Dijkstra_Test.java" startLine="20" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_triangle#()V" />
     <nodeInfo nodeId="7727845083901385068" fileName="Dijkstra_Test.java" startLine="62" startPosition="0" endLine="76" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test4#()V" />
-    <scopeInfo nodeId="1953828525454983908" fileName="Dijkstra_Test.java" startLine="82" startPosition="51" endLine="83" endPosition="55" />
-    <scopeInfo nodeId="1953828525454983905" fileName="Dijkstra_Test.java" startLine="81" startPosition="19" endLine="84" endPosition="5">
+    <scopeInfo nodeId="1953828525454981996" fileName="Dijkstra_Test.java" startLine="77" startPosition="26" endLine="77" endPosition="26" />
+    <scopeInfo nodeId="1953828525454983908" fileName="Dijkstra_Test.java" startLine="85" startPosition="51" endLine="86" endPosition="55" />
+    <scopeInfo nodeId="1953828525454981993" fileName="Dijkstra_Test.java" startLine="77" startPosition="0" endLine="79" endPosition="0" />
+    <scopeInfo nodeId="1953828525454983905" fileName="Dijkstra_Test.java" startLine="84" startPosition="19" endLine="87" endPosition="5">
       <varInfo nodeId="1953828525454983906" varName="edge" />
     </scopeInfo>
-    <scopeInfo nodeId="1953828525454983822" fileName="Dijkstra_Test.java" startLine="77" startPosition="107" endLine="85" endPosition="48">
+    <scopeInfo nodeId="1953828525454983822" fileName="Dijkstra_Test.java" startLine="80" startPosition="107" endLine="88" endPosition="48">
       <varInfo nodeId="1953828525454983843" varName="finder" />
       <varInfo nodeId="1953828525454983900" varName="length" />
       <varInfo nodeId="1953828525454983891" varName="path" />
@@ -111,7 +117,7 @@
       <varInfo nodeId="1953828525455054853" varName="target" />
       <varInfo nodeId="1953828525455054861" varName="weights" />
     </scopeInfo>
-    <scopeInfo nodeId="1953828525454983819" fileName="Dijkstra_Test.java" startLine="77" startPosition="0" endLine="87" endPosition="0">
+    <scopeInfo nodeId="1953828525454983819" fileName="Dijkstra_Test.java" startLine="80" startPosition="0" endLine="90" endPosition="0">
       <varInfo nodeId="1953828525454983838" varName="expectedLength" />
       <varInfo nodeId="1953828525454983823" varName="graph" />
       <varInfo nodeId="1953828525454983832" varName="source" />
@@ -146,7 +152,7 @@
     <scopeInfo nodeId="7727845083901381786" fileName="Dijkstra_Test.java" startLine="48" startPosition="0" endLine="61" endPosition="0" />
     <scopeInfo nodeId="1953828525454982001" fileName="Dijkstra_Test.java" startLine="20" startPosition="0" endLine="34" endPosition="0" />
     <scopeInfo nodeId="7727845083901385068" fileName="Dijkstra_Test.java" startLine="62" startPosition="0" endLine="76" endPosition="0" />
-    <unitInfo nodeId="1953828525454981991" fileName="Dijkstra_Test.java" startLine="19" startPosition="0" endLine="88" endPosition="0" unitName="graphTest.Dijkstra_Test" />
+    <unitInfo nodeId="1953828525454981991" fileName="Dijkstra_Test.java" startLine="19" startPosition="0" endLine="91" endPosition="0" unitName="graphTest.Dijkstra_Test" />
   </root>
   <root nodeRef="r:2d0fbdb5-e73c-4db3-b9e8-fb2e93925820(graphTest)/228830736476020639">
     <nodeInfo nodeId="228830736476020848" fileName="MinCirculation_Test.java" startLine="22" startPosition="45" endLine="23" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -189,64 +195,67 @@
     <nodeInfo nodeId="228830736476023017" fileName="MinCirculation_Test.java" startLine="64" startPosition="100" endLine="65" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="228830736476023027" fileName="MinCirculation_Test.java" startLine="65" startPosition="70" endLine="66" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="228830736476023039" fileName="MinCirculation_Test.java" startLine="67" startPosition="63" endLine="68" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="228830736476020670" fileName="MinCirculation_Test.java" startLine="72" startPosition="126" endLine="73" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="228830736476020676" fileName="MinCirculation_Test.java" startLine="73" startPosition="39" endLine="74" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="228830736476020684" fileName="MinCirculation_Test.java" startLine="74" startPosition="67" endLine="75" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="228830736476020700" fileName="MinCirculation_Test.java" startLine="75" startPosition="99" endLine="76" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="228830736476020708" fileName="MinCirculation_Test.java" startLine="76" startPosition="68" endLine="77" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="228830736476020714" fileName="MinCirculation_Test.java" startLine="77" startPosition="55" endLine="78" endPosition="89" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="228830736476020722" fileName="MinCirculation_Test.java" startLine="78" startPosition="89" endLine="79" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="228830736476020745" fileName="MinCirculation_Test.java" startLine="82" startPosition="92" endLine="83" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="228830736476020754" fileName="MinCirculation_Test.java" startLine="84" startPosition="68" endLine="85" endPosition="129" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="228830736476020787" fileName="MinCirculation_Test.java" startLine="89" startPosition="77" endLine="90" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="228830736476020797" fileName="MinCirculation_Test.java" startLine="91" startPosition="79" endLine="92" endPosition="92" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="228830736476020807" fileName="MinCirculation_Test.java" startLine="93" startPosition="5" endLine="94" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="228830736476020670" fileName="MinCirculation_Test.java" startLine="75" startPosition="126" endLine="76" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="228830736476020676" fileName="MinCirculation_Test.java" startLine="76" startPosition="39" endLine="77" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="228830736476020684" fileName="MinCirculation_Test.java" startLine="77" startPosition="67" endLine="78" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="228830736476020700" fileName="MinCirculation_Test.java" startLine="78" startPosition="99" endLine="79" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="228830736476020708" fileName="MinCirculation_Test.java" startLine="79" startPosition="68" endLine="80" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="228830736476020714" fileName="MinCirculation_Test.java" startLine="80" startPosition="55" endLine="81" endPosition="89" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="228830736476020722" fileName="MinCirculation_Test.java" startLine="81" startPosition="89" endLine="82" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="228830736476020745" fileName="MinCirculation_Test.java" startLine="85" startPosition="92" endLine="86" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="228830736476020754" fileName="MinCirculation_Test.java" startLine="87" startPosition="68" endLine="88" endPosition="129" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="228830736476020787" fileName="MinCirculation_Test.java" startLine="92" startPosition="77" endLine="93" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="228830736476020797" fileName="MinCirculation_Test.java" startLine="94" startPosition="79" endLine="95" endPosition="92" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="228830736476020807" fileName="MinCirculation_Test.java" startLine="96" startPosition="5" endLine="97" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="228830736476020641" fileName="MinCirculation_Test.java" startLine="72" startPosition="0" endLine="74" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="MinCirculation_Test#()V" />
     <nodeInfo nodeId="228830736476021085" fileName="MinCirculation_Test.java" startLine="41" startPosition="59" endLine="44" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="228830736476023033" fileName="MinCirculation_Test.java" startLine="66" startPosition="59" endLine="69" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="228830736476020752" fileName="MinCirculation_Test.java" startLine="83" startPosition="44" endLine="86" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="228830736476020791" fileName="MinCirculation_Test.java" startLine="90" startPosition="21" endLine="93" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="228830736476020741" fileName="MinCirculation_Test.java" startLine="82" startPosition="0" endLine="88" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setEdgesMap#(Ljava/util/Map;Ljetbrains/mps/graphLayout/graph/Node;Ljava/util/List;)V" />
-    <nodeInfo nodeId="228830736476020783" fileName="MinCirculation_Test.java" startLine="89" startPosition="0" endLine="96" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getFlowCost#(Ljava/util/Map;Ljava/util/Map;)I" />
-    <nodeInfo nodeId="228830736476020667" fileName="MinCirculation_Test.java" startLine="72" startPosition="0" endLine="81" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljetbrains/mps/graphLayout/graph/Graph;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;)Ljava/util/Map;" />
+    <nodeInfo nodeId="228830736476020752" fileName="MinCirculation_Test.java" startLine="86" startPosition="44" endLine="89" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
+    <nodeInfo nodeId="228830736476020791" fileName="MinCirculation_Test.java" startLine="93" startPosition="21" endLine="96" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="228830736476020741" fileName="MinCirculation_Test.java" startLine="85" startPosition="0" endLine="91" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setEdgesMap#(Ljava/util/Map;Ljetbrains/mps/graphLayout/graph/Node;Ljava/util/List;)V" />
+    <nodeInfo nodeId="228830736476020783" fileName="MinCirculation_Test.java" startLine="92" startPosition="0" endLine="99" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getFlowCost#(Ljava/util/Map;Ljava/util/Map;)I" />
+    <nodeInfo nodeId="228830736476020667" fileName="MinCirculation_Test.java" startLine="75" startPosition="0" endLine="84" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljetbrains/mps/graphLayout/graph/Graph;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;)Ljava/util/Map;" />
     <nodeInfo nodeId="228830736476020839" fileName="MinCirculation_Test.java" startLine="22" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" />
     <nodeInfo nodeId="228830736476022843" fileName="MinCirculation_Test.java" startLine="47" startPosition="0" endLine="71" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test2#()V" />
+    <scopeInfo nodeId="228830736476020644" fileName="MinCirculation_Test.java" startLine="72" startPosition="32" endLine="72" endPosition="32" />
     <scopeInfo nodeId="228830736476021088" fileName="MinCirculation_Test.java" startLine="42" startPosition="63" endLine="43" endPosition="83" />
     <scopeInfo nodeId="228830736476023038" fileName="MinCirculation_Test.java" startLine="67" startPosition="63" endLine="68" endPosition="83" />
-    <scopeInfo nodeId="228830736476020753" fileName="MinCirculation_Test.java" startLine="84" startPosition="68" endLine="85" endPosition="129" />
-    <scopeInfo nodeId="228830736476020796" fileName="MinCirculation_Test.java" startLine="91" startPosition="79" endLine="92" endPosition="92" />
+    <scopeInfo nodeId="228830736476020753" fileName="MinCirculation_Test.java" startLine="87" startPosition="68" endLine="88" endPosition="129" />
+    <scopeInfo nodeId="228830736476020796" fileName="MinCirculation_Test.java" startLine="94" startPosition="79" endLine="95" endPosition="92" />
+    <scopeInfo nodeId="228830736476020641" fileName="MinCirculation_Test.java" startLine="72" startPosition="0" endLine="74" endPosition="0" />
     <scopeInfo nodeId="228830736476021085" fileName="MinCirculation_Test.java" startLine="41" startPosition="59" endLine="44" endPosition="5">
       <varInfo nodeId="228830736476021086" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="228830736476023033" fileName="MinCirculation_Test.java" startLine="66" startPosition="59" endLine="69" endPosition="5">
       <varInfo nodeId="228830736476023034" varName="edge" />
     </scopeInfo>
-    <scopeInfo nodeId="228830736476020752" fileName="MinCirculation_Test.java" startLine="83" startPosition="44" endLine="86" endPosition="5">
+    <scopeInfo nodeId="228830736476020752" fileName="MinCirculation_Test.java" startLine="86" startPosition="44" endLine="89" endPosition="5">
       <varInfo nodeId="228830736476020764" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="228830736476020791" fileName="MinCirculation_Test.java" startLine="90" startPosition="21" endLine="93" endPosition="5">
+    <scopeInfo nodeId="228830736476020791" fileName="MinCirculation_Test.java" startLine="93" startPosition="21" endLine="96" endPosition="5">
       <varInfo nodeId="228830736476020792" varName="edge" />
     </scopeInfo>
-    <scopeInfo nodeId="228830736476020744" fileName="MinCirculation_Test.java" startLine="82" startPosition="92" endLine="86" endPosition="5">
+    <scopeInfo nodeId="228830736476020744" fileName="MinCirculation_Test.java" startLine="85" startPosition="92" endLine="89" endPosition="5">
       <varInfo nodeId="228830736476020746" varName="edges" />
     </scopeInfo>
-    <scopeInfo nodeId="228830736476020786" fileName="MinCirculation_Test.java" startLine="89" startPosition="77" endLine="94" endPosition="20">
+    <scopeInfo nodeId="228830736476020786" fileName="MinCirculation_Test.java" startLine="92" startPosition="77" endLine="97" endPosition="20">
       <varInfo nodeId="228830736476020788" varName="flowCost" />
     </scopeInfo>
-    <scopeInfo nodeId="228830736476020741" fileName="MinCirculation_Test.java" startLine="82" startPosition="0" endLine="88" endPosition="0">
+    <scopeInfo nodeId="228830736476020741" fileName="MinCirculation_Test.java" startLine="85" startPosition="0" endLine="91" endPosition="0">
       <varInfo nodeId="228830736476020774" varName="edgesMap" />
       <varInfo nodeId="228830736476020778" varName="source" />
       <varInfo nodeId="228830736476020780" varName="values" />
     </scopeInfo>
-    <scopeInfo nodeId="228830736476020669" fileName="MinCirculation_Test.java" startLine="72" startPosition="126" endLine="79" endPosition="23">
+    <scopeInfo nodeId="228830736476020669" fileName="MinCirculation_Test.java" startLine="75" startPosition="126" endLine="82" endPosition="23">
       <varInfo nodeId="228830736476020685" varName="circulation" />
       <varInfo nodeId="228830736476020677" varName="numEdges" />
       <varInfo nodeId="228830736476020671" varName="numNodes" />
     </scopeInfo>
-    <scopeInfo nodeId="228830736476020783" fileName="MinCirculation_Test.java" startLine="89" startPosition="0" endLine="96" endPosition="0">
+    <scopeInfo nodeId="228830736476020783" fileName="MinCirculation_Test.java" startLine="92" startPosition="0" endLine="99" endPosition="0">
       <varInfo nodeId="228830736476020813" varName="cost" />
       <varInfo nodeId="228830736476020809" varName="flow" />
     </scopeInfo>
-    <scopeInfo nodeId="228830736476020667" fileName="MinCirculation_Test.java" startLine="72" startPosition="0" endLine="81" endPosition="0">
+    <scopeInfo nodeId="228830736476020667" fileName="MinCirculation_Test.java" startLine="75" startPosition="0" endLine="84" endPosition="0">
       <varInfo nodeId="228830736476020730" varName="capacity" />
       <varInfo nodeId="228830736476020734" varName="cost" />
       <varInfo nodeId="228830736476020724" varName="graph" />
@@ -270,7 +279,7 @@
     </scopeInfo>
     <scopeInfo nodeId="228830736476020839" fileName="MinCirculation_Test.java" startLine="22" startPosition="0" endLine="46" endPosition="0" />
     <scopeInfo nodeId="228830736476022843" fileName="MinCirculation_Test.java" startLine="47" startPosition="0" endLine="71" endPosition="0" />
-    <unitInfo nodeId="228830736476020639" fileName="MinCirculation_Test.java" startLine="21" startPosition="0" endLine="97" endPosition="0" unitName="graphTest.MinCirculation_Test" />
+    <unitInfo nodeId="228830736476020639" fileName="MinCirculation_Test.java" startLine="21" startPosition="0" endLine="100" endPosition="0" unitName="graphTest.MinCirculation_Test" />
   </root>
   <root nodeRef="r:2d0fbdb5-e73c-4db3-b9e8-fb2e93925820(graphTest)/3935697627027920091">
     <nodeInfo nodeId="3935697627027920245" fileName="FlowChecker.java" startLine="15" startPosition="63" endLine="16" endPosition="104" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -368,14 +377,17 @@
     <nodeInfo nodeId="4179389957059013600" fileName="ShortestPath_Test.java" startLine="20" startPosition="60" endLine="21" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4179389957059013615" fileName="ShortestPath_Test.java" startLine="21" startPosition="60" endLine="22" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4179389957059013640" fileName="ShortestPath_Test.java" startLine="22" startPosition="96" endLine="23" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4179389957059012711" fileName="ShortestPath_Test.java" startLine="26" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ShortestPath_Test#()V" />
     <nodeInfo nodeId="4179389957059012716" fileName="ShortestPath_Test.java" startLine="15" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_triangle#()V" />
+    <scopeInfo nodeId="4179389957059012714" fileName="ShortestPath_Test.java" startLine="26" startPosition="30" endLine="26" endPosition="30" />
+    <scopeInfo nodeId="4179389957059012711" fileName="ShortestPath_Test.java" startLine="26" startPosition="0" endLine="28" endPosition="0" />
     <scopeInfo nodeId="4179389957059012719" fileName="ShortestPath_Test.java" startLine="15" startPosition="48" endLine="23" endPosition="36">
       <varInfo nodeId="4179389957059013577" varName="edge" />
       <varInfo nodeId="4179389957059012723" varName="graph" />
       <varInfo nodeId="4179389957059012730" varName="path" />
     </scopeInfo>
     <scopeInfo nodeId="4179389957059012716" fileName="ShortestPath_Test.java" startLine="15" startPosition="0" endLine="25" endPosition="0" />
-    <unitInfo nodeId="4179389957059012709" fileName="ShortestPath_Test.java" startLine="14" startPosition="0" endLine="26" endPosition="0" unitName="graphTest.ShortestPath_Test" />
+    <unitInfo nodeId="4179389957059012709" fileName="ShortestPath_Test.java" startLine="14" startPosition="0" endLine="29" endPosition="0" unitName="graphTest.ShortestPath_Test" />
   </root>
   <root nodeRef="r:2d0fbdb5-e73c-4db3-b9e8-fb2e93925820(graphTest)/4189203018295045228">
     <nodeInfo nodeId="4189203018295045250" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="24" startPosition="45" endLine="25" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -408,8 +420,11 @@
     <nodeInfo nodeId="4189203018295132423" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="53" startPosition="70" endLine="54" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4189203018295132445" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="54" startPosition="97" endLine="55" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4189203018295132465" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="55" startPosition="97" endLine="56" endPosition="140" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4189203018295045230" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="59" startPosition="0" endLine="61" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="GroupedGraphModificationSynchronizer_Test#()V" />
     <nodeInfo nodeId="4189203018295045370" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="38" startPosition="77" endLine="45" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="4189203018295045239" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="24" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" />
+    <scopeInfo nodeId="4189203018295045233" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="59" startPosition="54" endLine="59" endPosition="54" />
+    <scopeInfo nodeId="4189203018295045230" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="59" startPosition="0" endLine="61" endPosition="0" />
     <scopeInfo nodeId="4189203018295045373" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="39" startPosition="63" endLine="44" endPosition="59">
       <varInfo nodeId="4189203018295132253" varName="groupEdge" />
       <varInfo nodeId="4189203018295045383" varName="groupSource" />
@@ -434,7 +449,7 @@
       <varInfo nodeId="4189203018295132293" varName="synchronizer" />
     </scopeInfo>
     <scopeInfo nodeId="4189203018295045239" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="24" startPosition="0" endLine="58" endPosition="0" />
-    <unitInfo nodeId="4189203018295045228" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="23" startPosition="0" endLine="59" endPosition="0" unitName="graphTest.GroupedGraphModificationSynchronizer_Test" />
+    <unitInfo nodeId="4189203018295045228" fileName="GroupedGraphModificationSynchronizer_Test.java" startLine="23" startPosition="0" endLine="62" endPosition="0" unitName="graphTest.GroupedGraphModificationSynchronizer_Test" />
   </root>
   <root nodeRef="r:2d0fbdb5-e73c-4db3-b9e8-fb2e93925820(graphTest)/4250605017401931158">
     <nodeInfo nodeId="4250605017401931171" fileName="FordBellman_Test.java" startLine="17" startPosition="48" endLine="18" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -445,14 +460,17 @@
     <nodeInfo nodeId="4250605017401931184" fileName="FordBellman_Test.java" startLine="22" startPosition="100" endLine="23" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="4250605017401933175" fileName="FordBellman_Test.java" startLine="23" startPosition="70" endLine="24" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4250605017401933680" fileName="FordBellman_Test.java" startLine="24" startPosition="26" endLine="25" endPosition="107" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4250605017401931160" fileName="FordBellman_Test.java" startLine="28" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="FordBellman_Test#()V" />
     <nodeInfo nodeId="4250605017401931165" fileName="FordBellman_Test.java" startLine="17" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_triangle#()V" />
+    <scopeInfo nodeId="4250605017401931163" fileName="FordBellman_Test.java" startLine="28" startPosition="29" endLine="28" endPosition="29" />
+    <scopeInfo nodeId="4250605017401931160" fileName="FordBellman_Test.java" startLine="28" startPosition="0" endLine="30" endPosition="0" />
     <scopeInfo nodeId="4250605017401931168" fileName="FordBellman_Test.java" startLine="17" startPosition="48" endLine="25" endPosition="107">
       <varInfo nodeId="4250605017401931185" varName="bellman" />
       <varInfo nodeId="4250605017401931172" varName="graph" />
       <varInfo nodeId="4250605017401931208" varName="w" />
     </scopeInfo>
     <scopeInfo nodeId="4250605017401931165" fileName="FordBellman_Test.java" startLine="17" startPosition="0" endLine="27" endPosition="0" />
-    <unitInfo nodeId="4250605017401931158" fileName="FordBellman_Test.java" startLine="16" startPosition="0" endLine="28" endPosition="0" unitName="graphTest.FordBellman_Test" />
+    <unitInfo nodeId="4250605017401931158" fileName="FordBellman_Test.java" startLine="16" startPosition="0" endLine="31" endPosition="0" unitName="graphTest.FordBellman_Test" />
   </root>
   <root nodeRef="r:2d0fbdb5-e73c-4db3-b9e8-fb2e93925820(graphTest)/4644851485137246800">
     <nodeInfo nodeId="4644851485137247436" fileName="BiconnectComponent_Test.java" startLine="13" startPosition="45" endLine="14" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -472,20 +490,23 @@
     <nodeInfo nodeId="4644851485137254310" fileName="BiconnectComponent_Test.java" startLine="39" startPosition="62" endLine="40" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4644851485137254782" fileName="BiconnectComponent_Test.java" startLine="43" startPosition="45" endLine="44" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="4644851485137254790" fileName="BiconnectComponent_Test.java" startLine="44" startPosition="48" endLine="45" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4644851485137246816" fileName="BiconnectComponent_Test.java" startLine="48" startPosition="33" endLine="49" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4644851485137246807" fileName="BiconnectComponent_Test.java" startLine="48" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljetbrains/mps/graphLayout/graph/Graph;)V" />
+    <nodeInfo nodeId="4644851485137246816" fileName="BiconnectComponent_Test.java" startLine="51" startPosition="33" endLine="52" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4644851485137246802" fileName="BiconnectComponent_Test.java" startLine="48" startPosition="0" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="BiconnectComponent_Test#()V" />
+    <nodeInfo nodeId="4644851485137246807" fileName="BiconnectComponent_Test.java" startLine="51" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljetbrains/mps/graphLayout/graph/Graph;)V" />
     <nodeInfo nodeId="4644851485137254776" fileName="BiconnectComponent_Test.java" startLine="43" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_chain#()V" />
     <nodeInfo nodeId="4644851485137247432" fileName="BiconnectComponent_Test.java" startLine="13" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" />
     <nodeInfo nodeId="4644851485137252410" fileName="BiconnectComponent_Test.java" startLine="19" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test2#()V" />
     <nodeInfo nodeId="4644851485137252882" fileName="BiconnectComponent_Test.java" startLine="25" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test3#()V" />
     <nodeInfo nodeId="4644851485137253355" fileName="BiconnectComponent_Test.java" startLine="31" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test4#()V" />
     <nodeInfo nodeId="4644851485137254295" fileName="BiconnectComponent_Test.java" startLine="37" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test5#()V" />
-    <scopeInfo nodeId="4644851485137246810" fileName="BiconnectComponent_Test.java" startLine="48" startPosition="33" endLine="49" endPosition="71">
+    <scopeInfo nodeId="4644851485137246805" fileName="BiconnectComponent_Test.java" startLine="48" startPosition="36" endLine="48" endPosition="36" />
+    <scopeInfo nodeId="4644851485137246810" fileName="BiconnectComponent_Test.java" startLine="51" startPosition="33" endLine="52" endPosition="71">
       <varInfo nodeId="4644851485137246817" varName="tree" />
     </scopeInfo>
     <scopeInfo nodeId="4644851485137254779" fileName="BiconnectComponent_Test.java" startLine="43" startPosition="45" endLine="45" endPosition="16">
       <varInfo nodeId="4644851485137254783" varName="chain" />
     </scopeInfo>
+    <scopeInfo nodeId="4644851485137246802" fileName="BiconnectComponent_Test.java" startLine="48" startPosition="0" endLine="50" endPosition="0" />
     <scopeInfo nodeId="4644851485137247435" fileName="BiconnectComponent_Test.java" startLine="13" startPosition="45" endLine="16" endPosition="16">
       <varInfo nodeId="4644851485137247444" varName="graph" />
       <varInfo nodeId="4644851485137247437" varName="graphString" />
@@ -506,7 +527,7 @@
       <varInfo nodeId="4644851485137254304" varName="graph" />
       <varInfo nodeId="4644851485137254300" varName="graphString" />
     </scopeInfo>
-    <scopeInfo nodeId="4644851485137246807" fileName="BiconnectComponent_Test.java" startLine="48" startPosition="0" endLine="51" endPosition="0">
+    <scopeInfo nodeId="4644851485137246807" fileName="BiconnectComponent_Test.java" startLine="51" startPosition="0" endLine="54" endPosition="0">
       <varInfo nodeId="4644851485137246811" varName="graph" />
     </scopeInfo>
     <scopeInfo nodeId="4644851485137254776" fileName="BiconnectComponent_Test.java" startLine="43" startPosition="0" endLine="47" endPosition="0" />
@@ -515,7 +536,7 @@
     <scopeInfo nodeId="4644851485137252882" fileName="BiconnectComponent_Test.java" startLine="25" startPosition="0" endLine="30" endPosition="0" />
     <scopeInfo nodeId="4644851485137253355" fileName="BiconnectComponent_Test.java" startLine="31" startPosition="0" endLine="36" endPosition="0" />
     <scopeInfo nodeId="4644851485137254295" fileName="BiconnectComponent_Test.java" startLine="37" startPosition="0" endLine="42" endPosition="0" />
-    <unitInfo nodeId="4644851485137246800" fileName="BiconnectComponent_Test.java" startLine="12" startPosition="0" endLine="52" endPosition="0" unitName="graphTest.BiconnectComponent_Test" />
+    <unitInfo nodeId="4644851485137246800" fileName="BiconnectComponent_Test.java" startLine="12" startPosition="0" endLine="55" endPosition="0" unitName="graphTest.BiconnectComponent_Test" />
   </root>
   <root nodeRef="r:2d0fbdb5-e73c-4db3-b9e8-fb2e93925820(graphTest)/5180427534212042871">
     <nodeInfo nodeId="5180427534212042882" fileName="TopologicalSorting_Test.java" startLine="16" startPosition="45" endLine="17" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -526,14 +547,17 @@
     <nodeInfo nodeId="5180427534212042961" fileName="TopologicalSorting_Test.java" startLine="21" startPosition="86" endLine="22" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5180427534212042971" fileName="TopologicalSorting_Test.java" startLine="22" startPosition="86" endLine="23" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5180427534212042981" fileName="TopologicalSorting_Test.java" startLine="23" startPosition="86" endLine="24" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5180427534212042873" fileName="TopologicalSorting_Test.java" startLine="27" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="TopologicalSorting_Test#()V" />
     <nodeInfo nodeId="5180427534212042878" fileName="TopologicalSorting_Test.java" startLine="16" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" />
+    <scopeInfo nodeId="5180427534212042876" fileName="TopologicalSorting_Test.java" startLine="27" startPosition="36" endLine="27" endPosition="36" />
+    <scopeInfo nodeId="5180427534212042873" fileName="TopologicalSorting_Test.java" startLine="27" startPosition="0" endLine="29" endPosition="0" />
     <scopeInfo nodeId="5180427534212042881" fileName="TopologicalSorting_Test.java" startLine="16" startPosition="45" endLine="24" endPosition="86">
       <varInfo nodeId="5180427534212042901" varName="graph" />
       <varInfo nodeId="5180427534212042883" varName="graphString" />
       <varInfo nodeId="5180427534212042890" varName="order" />
     </scopeInfo>
     <scopeInfo nodeId="5180427534212042878" fileName="TopologicalSorting_Test.java" startLine="16" startPosition="0" endLine="26" endPosition="0" />
-    <unitInfo nodeId="5180427534212042871" fileName="TopologicalSorting_Test.java" startLine="15" startPosition="0" endLine="27" endPosition="0" unitName="graphTest.TopologicalSorting_Test" />
+    <unitInfo nodeId="5180427534212042871" fileName="TopologicalSorting_Test.java" startLine="15" startPosition="0" endLine="30" endPosition="0" unitName="graphTest.TopologicalSorting_Test" />
   </root>
   <root nodeRef="r:2d0fbdb5-e73c-4db3-b9e8-fb2e93925820(graphTest)/5213231752900628577">
     <nodeInfo nodeId="5213231752900628643" fileName="STNumberingChecker.java" startLine="15" startPosition="99" endLine="16" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -740,19 +764,22 @@
     <nodeInfo nodeId="5488345258545812722" fileName="BiconnectAugmentation_Test.java" startLine="37" startPosition="45" endLine="38" endPosition="116" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="5488345258545812726" fileName="BiconnectAugmentation_Test.java" startLine="38" startPosition="116" endLine="39" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5488345258545812729" fileName="BiconnectAugmentation_Test.java" startLine="39" startPosition="22" endLine="40" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6074874003310508321" fileName="BiconnectAugmentation_Test.java" startLine="43" startPosition="40" endLine="44" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6074874003310508328" fileName="BiconnectAugmentation_Test.java" startLine="44" startPosition="62" endLine="45" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6074874003310508331" fileName="BiconnectAugmentation_Test.java" startLine="45" startPosition="49" endLine="46" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639338193" fileName="BiconnectAugmentation_Test.java" startLine="49" startPosition="45" endLine="50" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="529057043639338200" fileName="BiconnectAugmentation_Test.java" startLine="50" startPosition="62" endLine="51" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="529057043639338203" fileName="BiconnectAugmentation_Test.java" startLine="51" startPosition="54" endLine="52" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6074874003310508321" fileName="BiconnectAugmentation_Test.java" startLine="46" startPosition="40" endLine="47" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6074874003310508328" fileName="BiconnectAugmentation_Test.java" startLine="47" startPosition="62" endLine="48" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6074874003310508331" fileName="BiconnectAugmentation_Test.java" startLine="48" startPosition="49" endLine="49" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639338193" fileName="BiconnectAugmentation_Test.java" startLine="52" startPosition="45" endLine="53" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="529057043639338200" fileName="BiconnectAugmentation_Test.java" startLine="53" startPosition="62" endLine="54" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639338203" fileName="BiconnectAugmentation_Test.java" startLine="54" startPosition="54" endLine="55" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6074874003310500655" fileName="BiconnectAugmentation_Test.java" startLine="43" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="BiconnectAugmentation_Test#()V" />
     <nodeInfo nodeId="6074874003310500664" fileName="BiconnectAugmentation_Test.java" startLine="13" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_chain3#()V" />
     <nodeInfo nodeId="6074874003310507606" fileName="BiconnectAugmentation_Test.java" startLine="19" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" />
     <nodeInfo nodeId="6074874003310508293" fileName="BiconnectAugmentation_Test.java" startLine="25" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test2#()V" />
     <nodeInfo nodeId="4624841703139859435" fileName="BiconnectAugmentation_Test.java" startLine="31" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test3#()V" />
     <nodeInfo nodeId="5488345258545812718" fileName="BiconnectAugmentation_Test.java" startLine="37" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test4#()V" />
-    <nodeInfo nodeId="6074874003310508314" fileName="BiconnectAugmentation_Test.java" startLine="43" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljava/lang/String;)V" />
-    <nodeInfo nodeId="529057043639338186" fileName="BiconnectAugmentation_Test.java" startLine="49" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="testSmart#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="6074874003310508314" fileName="BiconnectAugmentation_Test.java" startLine="46" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="529057043639338186" fileName="BiconnectAugmentation_Test.java" startLine="52" startPosition="0" endLine="57" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="testSmart#(Ljava/lang/String;)V" />
+    <scopeInfo nodeId="6074874003310500658" fileName="BiconnectAugmentation_Test.java" startLine="43" startPosition="39" endLine="43" endPosition="39" />
+    <scopeInfo nodeId="6074874003310500655" fileName="BiconnectAugmentation_Test.java" startLine="43" startPosition="0" endLine="45" endPosition="0" />
     <scopeInfo nodeId="6074874003310500667" fileName="BiconnectAugmentation_Test.java" startLine="13" startPosition="46" endLine="16" endPosition="39">
       <varInfo nodeId="6074874003310507285" varName="graph" />
     </scopeInfo>
@@ -768,10 +795,10 @@
     <scopeInfo nodeId="5488345258545812721" fileName="BiconnectAugmentation_Test.java" startLine="37" startPosition="45" endLine="40" endPosition="27">
       <varInfo nodeId="5488345258545812723" varName="graphString" />
     </scopeInfo>
-    <scopeInfo nodeId="6074874003310508317" fileName="BiconnectAugmentation_Test.java" startLine="43" startPosition="40" endLine="46" endPosition="39">
+    <scopeInfo nodeId="6074874003310508317" fileName="BiconnectAugmentation_Test.java" startLine="46" startPosition="40" endLine="49" endPosition="39">
       <varInfo nodeId="6074874003310508322" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="529057043639338189" fileName="BiconnectAugmentation_Test.java" startLine="49" startPosition="45" endLine="52" endPosition="39">
+    <scopeInfo nodeId="529057043639338189" fileName="BiconnectAugmentation_Test.java" startLine="52" startPosition="45" endLine="55" endPosition="39">
       <varInfo nodeId="529057043639338194" varName="graph" />
     </scopeInfo>
     <scopeInfo nodeId="6074874003310500664" fileName="BiconnectAugmentation_Test.java" startLine="13" startPosition="0" endLine="18" endPosition="0" />
@@ -779,13 +806,13 @@
     <scopeInfo nodeId="6074874003310508293" fileName="BiconnectAugmentation_Test.java" startLine="25" startPosition="0" endLine="30" endPosition="0" />
     <scopeInfo nodeId="4624841703139859435" fileName="BiconnectAugmentation_Test.java" startLine="31" startPosition="0" endLine="36" endPosition="0" />
     <scopeInfo nodeId="5488345258545812718" fileName="BiconnectAugmentation_Test.java" startLine="37" startPosition="0" endLine="42" endPosition="0" />
-    <scopeInfo nodeId="6074874003310508314" fileName="BiconnectAugmentation_Test.java" startLine="43" startPosition="0" endLine="48" endPosition="0">
+    <scopeInfo nodeId="6074874003310508314" fileName="BiconnectAugmentation_Test.java" startLine="46" startPosition="0" endLine="51" endPosition="0">
       <varInfo nodeId="6074874003310508318" varName="graphString" />
     </scopeInfo>
-    <scopeInfo nodeId="529057043639338186" fileName="BiconnectAugmentation_Test.java" startLine="49" startPosition="0" endLine="54" endPosition="0">
+    <scopeInfo nodeId="529057043639338186" fileName="BiconnectAugmentation_Test.java" startLine="52" startPosition="0" endLine="57" endPosition="0">
       <varInfo nodeId="529057043639338190" varName="graphString" />
     </scopeInfo>
-    <unitInfo nodeId="6074874003310500653" fileName="BiconnectAugmentation_Test.java" startLine="12" startPosition="0" endLine="55" endPosition="0" unitName="graphTest.BiconnectAugmentation_Test" />
+    <unitInfo nodeId="6074874003310500653" fileName="BiconnectAugmentation_Test.java" startLine="12" startPosition="0" endLine="58" endPosition="0" unitName="graphTest.BiconnectAugmentation_Test" />
   </root>
   <root nodeRef="r:2d0fbdb5-e73c-4db3-b9e8-fb2e93925820(graphTest)/7727845083901343929">
     <nodeInfo nodeId="7727845083901344063" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="19" startPosition="45" endLine="20" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -799,28 +826,31 @@
     <nodeInfo nodeId="7727845083901372091" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="29" startPosition="5" endLine="30" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="7727845083901372106" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="30" startPosition="81" endLine="31" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="7727845083901372116" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="31" startPosition="81" endLine="32" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7727845083901343954" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="35" startPosition="135" endLine="36" endPosition="106" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7727845083901343994" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="36" startPosition="106" endLine="37" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7727845083901344002" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="37" startPosition="71" endLine="38" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7727845083901344012" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="39" startPosition="63" endLine="40" endPosition="93" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7727845083901344027" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="41" startPosition="5" endLine="42" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7727845083901344006" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="38" startPosition="22" endLine="41" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="7727845083901343954" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="38" startPosition="135" endLine="39" endPosition="106" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7727845083901343994" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="39" startPosition="106" endLine="40" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7727845083901344002" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="40" startPosition="71" endLine="41" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7727845083901344012" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="42" startPosition="63" endLine="43" endPosition="93" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7727845083901344027" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="44" startPosition="5" endLine="45" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7727845083901343931" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="35" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="MinCostMaxFlowWithPotentials_Test#()V" />
+    <nodeInfo nodeId="7727845083901344006" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="41" startPosition="22" endLine="44" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
     <nodeInfo nodeId="7727845083901372064" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="25" startPosition="40" endLine="29" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="7727845083901343950" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="35" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="testFull#(Ljetbrains/mps/graphLayout/graph/Graph;Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/graph/Node;Ljava/util/Map;Ljava/util/Map;I)V" />
+    <nodeInfo nodeId="7727845083901343950" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="38" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="testFull#(Ljetbrains/mps/graphLayout/graph/Graph;Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/graph/Node;Ljava/util/Map;Ljava/util/Map;I)V" />
     <nodeInfo nodeId="7727845083901344047" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="19" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" />
-    <scopeInfo nodeId="7727845083901344011" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="39" startPosition="63" endLine="40" endPosition="93" />
+    <scopeInfo nodeId="7727845083901343934" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="35" startPosition="46" endLine="35" endPosition="46" />
+    <scopeInfo nodeId="7727845083901344011" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="42" startPosition="63" endLine="43" endPosition="93" />
     <scopeInfo nodeId="7727845083901372067" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="26" startPosition="52" endLine="28" endPosition="45" />
-    <scopeInfo nodeId="7727845083901344006" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="38" startPosition="22" endLine="41" endPosition="5">
+    <scopeInfo nodeId="7727845083901343931" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="35" startPosition="0" endLine="37" endPosition="0" />
+    <scopeInfo nodeId="7727845083901344006" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="41" startPosition="22" endLine="44" endPosition="5">
       <varInfo nodeId="7727845083901344007" varName="edge" />
     </scopeInfo>
     <scopeInfo nodeId="7727845083901372064" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="25" startPosition="40" endLine="29" endPosition="5">
       <varInfo nodeId="7727845083901372065" varName="edge" />
     </scopeInfo>
-    <scopeInfo nodeId="7727845083901343953" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="35" startPosition="135" endLine="42" endPosition="49">
+    <scopeInfo nodeId="7727845083901343953" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="38" startPosition="135" endLine="45" endPosition="49">
       <varInfo nodeId="7727845083901343955" varName="flow" />
       <varInfo nodeId="7727845083901344003" varName="totalCost" />
     </scopeInfo>
-    <scopeInfo nodeId="7727845083901343950" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="35" startPosition="0" endLine="44" endPosition="0">
+    <scopeInfo nodeId="7727845083901343950" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="38" startPosition="0" endLine="47" endPosition="0">
       <varInfo nodeId="7727845083901344037" varName="capacity" />
       <varInfo nodeId="7727845083901344041" varName="cost" />
       <varInfo nodeId="7727845083901344045" varName="expectedCost" />
@@ -837,7 +867,7 @@
       <varInfo nodeId="7727845083901372056" varName="target" />
     </scopeInfo>
     <scopeInfo nodeId="7727845083901344047" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="19" startPosition="0" endLine="34" endPosition="0" />
-    <unitInfo nodeId="7727845083901343929" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="18" startPosition="0" endLine="45" endPosition="0" unitName="graphTest.MinCostMaxFlowWithPotentials_Test" />
+    <unitInfo nodeId="7727845083901343929" fileName="MinCostMaxFlowWithPotentials_Test.java" startLine="18" startPosition="0" endLine="48" endPosition="0" unitName="graphTest.MinCostMaxFlowWithPotentials_Test" />
   </root>
   <root nodeRef="r:2d0fbdb5-e73c-4db3-b9e8-fb2e93925820(graphTest)/7851503458189909342">
     <nodeInfo nodeId="7851503458189909356" fileName="CompareFlowStressTest.java" startLine="25" startPosition="59" endLine="26" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -977,7 +1007,10 @@
     <nodeInfo nodeId="903391227141031422" fileName="WeightedTopologicalNumbering_Test.java" startLine="26" startPosition="75" endLine="27" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="903391227141031440" fileName="WeightedTopologicalNumbering_Test.java" startLine="27" startPosition="85" endLine="28" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="903391227141031450" fileName="WeightedTopologicalNumbering_Test.java" startLine="28" startPosition="85" endLine="29" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="903391227141030930" fileName="WeightedTopologicalNumbering_Test.java" startLine="32" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="WeightedTopologicalNumbering_Test#()V" />
     <nodeInfo nodeId="903391227141030935" fileName="WeightedTopologicalNumbering_Test.java" startLine="19" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" />
+    <scopeInfo nodeId="903391227141030933" fileName="WeightedTopologicalNumbering_Test.java" startLine="32" startPosition="46" endLine="32" endPosition="46" />
+    <scopeInfo nodeId="903391227141030930" fileName="WeightedTopologicalNumbering_Test.java" startLine="32" startPosition="0" endLine="34" endPosition="0" />
     <scopeInfo nodeId="903391227141030938" fileName="WeightedTopologicalNumbering_Test.java" startLine="19" startPosition="45" endLine="29" endPosition="85">
       <varInfo nodeId="903391227141030963" varName="edges" />
       <varInfo nodeId="903391227141030948" varName="graph" />
@@ -985,7 +1018,7 @@
       <varInfo nodeId="903391227141030976" varName="w" />
     </scopeInfo>
     <scopeInfo nodeId="903391227141030935" fileName="WeightedTopologicalNumbering_Test.java" startLine="19" startPosition="0" endLine="31" endPosition="0" />
-    <unitInfo nodeId="903391227141030928" fileName="WeightedTopologicalNumbering_Test.java" startLine="18" startPosition="0" endLine="32" endPosition="0" unitName="graphTest.WeightedTopologicalNumbering_Test" />
+    <unitInfo nodeId="903391227141030928" fileName="WeightedTopologicalNumbering_Test.java" startLine="18" startPosition="0" endLine="35" endPosition="0" unitName="graphTest.WeightedTopologicalNumbering_Test" />
   </root>
   <root nodeRef="r:2d0fbdb5-e73c-4db3-b9e8-fb2e93925820(graphTest)/9057893087611421554">
     <nodeInfo nodeId="9057893087611421748" fileName="MinCostMaxFlow_Test.java" startLine="22" startPosition="45" endLine="23" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -1020,55 +1053,58 @@
     <nodeInfo nodeId="9057893087611433975" fileName="MinCostMaxFlow_Test.java" startLine="54" startPosition="100" endLine="55" endPosition="100" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="9057893087611433986" fileName="MinCostMaxFlow_Test.java" startLine="55" startPosition="100" endLine="56" endPosition="155" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="9057893087611434005" fileName="MinCostMaxFlow_Test.java" startLine="56" startPosition="155" endLine="57" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="9057893087611421671" fileName="MinCostMaxFlow_Test.java" startLine="60" startPosition="128" endLine="61" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="9057893087611421683" fileName="MinCostMaxFlow_Test.java" startLine="61" startPosition="39" endLine="62" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="9057893087611421659" fileName="MinCostMaxFlow_Test.java" startLine="62" startPosition="67" endLine="63" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7953585273259929183" fileName="MinCostMaxFlow_Test.java" startLine="63" startPosition="28" endLine="64" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="9057893087611421699" fileName="MinCostMaxFlow_Test.java" startLine="64" startPosition="73" endLine="65" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="9057893087611421714" fileName="MinCostMaxFlow_Test.java" startLine="65" startPosition="72" endLine="66" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="9057893087611421727" fileName="MinCostMaxFlow_Test.java" startLine="66" startPosition="55" endLine="67" endPosition="89" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="9057893087611433117" fileName="MinCostMaxFlow_Test.java" startLine="67" startPosition="89" endLine="68" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9057893087611426396" fileName="MinCostMaxFlow_Test.java" startLine="71" startPosition="92" endLine="72" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="9057893087611426438" fileName="MinCostMaxFlow_Test.java" startLine="73" startPosition="68" endLine="74" endPosition="129" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="9057893087611433075" fileName="MinCostMaxFlow_Test.java" startLine="78" startPosition="77" endLine="79" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="9057893087611433091" fileName="MinCostMaxFlow_Test.java" startLine="80" startPosition="79" endLine="81" endPosition="92" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="9057893087611433110" fileName="MinCostMaxFlow_Test.java" startLine="82" startPosition="5" endLine="83" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9057893087611426417" fileName="MinCostMaxFlow_Test.java" startLine="72" startPosition="44" endLine="75" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="9057893087611433081" fileName="MinCostMaxFlow_Test.java" startLine="79" startPosition="21" endLine="82" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="9057893087611426349" fileName="MinCostMaxFlow_Test.java" startLine="71" startPosition="0" endLine="77" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setEdgesMap#(Ljava/util/Map;Ljetbrains/mps/graphLayout/graph/Node;Ljava/util/List;)V" />
-    <nodeInfo nodeId="9057893087611433055" fileName="MinCostMaxFlow_Test.java" startLine="78" startPosition="0" endLine="85" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getFlowCost#(Ljava/util/Map;Ljava/util/Map;)I" />
-    <nodeInfo nodeId="9057893087611421610" fileName="MinCostMaxFlow_Test.java" startLine="60" startPosition="0" endLine="70" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljetbrains/mps/graphLayout/graph/Graph;Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/graph/Node;Ljava/util/Map;Ljava/util/Map;)Ljava/util/Map;" />
+    <nodeInfo nodeId="9057893087611421671" fileName="MinCostMaxFlow_Test.java" startLine="63" startPosition="128" endLine="64" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="9057893087611421683" fileName="MinCostMaxFlow_Test.java" startLine="64" startPosition="39" endLine="65" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="9057893087611421659" fileName="MinCostMaxFlow_Test.java" startLine="65" startPosition="67" endLine="66" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7953585273259929183" fileName="MinCostMaxFlow_Test.java" startLine="66" startPosition="28" endLine="67" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9057893087611421699" fileName="MinCostMaxFlow_Test.java" startLine="67" startPosition="73" endLine="68" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9057893087611421714" fileName="MinCostMaxFlow_Test.java" startLine="68" startPosition="72" endLine="69" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9057893087611421727" fileName="MinCostMaxFlow_Test.java" startLine="69" startPosition="55" endLine="70" endPosition="89" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9057893087611433117" fileName="MinCostMaxFlow_Test.java" startLine="70" startPosition="89" endLine="71" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="9057893087611426396" fileName="MinCostMaxFlow_Test.java" startLine="74" startPosition="92" endLine="75" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="9057893087611426438" fileName="MinCostMaxFlow_Test.java" startLine="76" startPosition="68" endLine="77" endPosition="129" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9057893087611433075" fileName="MinCostMaxFlow_Test.java" startLine="81" startPosition="77" endLine="82" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="9057893087611433091" fileName="MinCostMaxFlow_Test.java" startLine="83" startPosition="79" endLine="84" endPosition="92" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9057893087611433110" fileName="MinCostMaxFlow_Test.java" startLine="85" startPosition="5" endLine="86" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="9057893087611421556" fileName="MinCostMaxFlow_Test.java" startLine="60" startPosition="0" endLine="62" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="MinCostMaxFlow_Test#()V" />
+    <nodeInfo nodeId="9057893087611426417" fileName="MinCostMaxFlow_Test.java" startLine="75" startPosition="44" endLine="78" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
+    <nodeInfo nodeId="9057893087611433081" fileName="MinCostMaxFlow_Test.java" startLine="82" startPosition="21" endLine="85" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="9057893087611426349" fileName="MinCostMaxFlow_Test.java" startLine="74" startPosition="0" endLine="80" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setEdgesMap#(Ljava/util/Map;Ljetbrains/mps/graphLayout/graph/Node;Ljava/util/List;)V" />
+    <nodeInfo nodeId="9057893087611433055" fileName="MinCostMaxFlow_Test.java" startLine="81" startPosition="0" endLine="88" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getFlowCost#(Ljava/util/Map;Ljava/util/Map;)I" />
+    <nodeInfo nodeId="9057893087611421610" fileName="MinCostMaxFlow_Test.java" startLine="63" startPosition="0" endLine="73" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljetbrains/mps/graphLayout/graph/Graph;Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/graph/Node;Ljava/util/Map;Ljava/util/Map;)Ljava/util/Map;" />
     <nodeInfo nodeId="9057893087611421744" fileName="MinCostMaxFlow_Test.java" startLine="22" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" />
     <nodeInfo nodeId="9057893087611433837" fileName="MinCostMaxFlow_Test.java" startLine="41" startPosition="0" endLine="59" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test2#()V" />
-    <scopeInfo nodeId="9057893087611426418" fileName="MinCostMaxFlow_Test.java" startLine="73" startPosition="68" endLine="74" endPosition="129" />
-    <scopeInfo nodeId="9057893087611433084" fileName="MinCostMaxFlow_Test.java" startLine="80" startPosition="79" endLine="81" endPosition="92" />
-    <scopeInfo nodeId="9057893087611426417" fileName="MinCostMaxFlow_Test.java" startLine="72" startPosition="44" endLine="75" endPosition="5">
+    <scopeInfo nodeId="9057893087611421559" fileName="MinCostMaxFlow_Test.java" startLine="60" startPosition="32" endLine="60" endPosition="32" />
+    <scopeInfo nodeId="9057893087611426418" fileName="MinCostMaxFlow_Test.java" startLine="76" startPosition="68" endLine="77" endPosition="129" />
+    <scopeInfo nodeId="9057893087611433084" fileName="MinCostMaxFlow_Test.java" startLine="83" startPosition="79" endLine="84" endPosition="92" />
+    <scopeInfo nodeId="9057893087611421556" fileName="MinCostMaxFlow_Test.java" startLine="60" startPosition="0" endLine="62" endPosition="0" />
+    <scopeInfo nodeId="9057893087611426417" fileName="MinCostMaxFlow_Test.java" startLine="75" startPosition="44" endLine="78" endPosition="5">
       <varInfo nodeId="9057893087611426420" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="9057893087611433081" fileName="MinCostMaxFlow_Test.java" startLine="79" startPosition="21" endLine="82" endPosition="5">
+    <scopeInfo nodeId="9057893087611433081" fileName="MinCostMaxFlow_Test.java" startLine="82" startPosition="21" endLine="85" endPosition="5">
       <varInfo nodeId="9057893087611433082" varName="edge" />
     </scopeInfo>
-    <scopeInfo nodeId="9057893087611426352" fileName="MinCostMaxFlow_Test.java" startLine="71" startPosition="92" endLine="75" endPosition="5">
+    <scopeInfo nodeId="9057893087611426352" fileName="MinCostMaxFlow_Test.java" startLine="74" startPosition="92" endLine="78" endPosition="5">
       <varInfo nodeId="9057893087611426397" varName="edges" />
     </scopeInfo>
-    <scopeInfo nodeId="9057893087611433058" fileName="MinCostMaxFlow_Test.java" startLine="78" startPosition="77" endLine="83" endPosition="20">
+    <scopeInfo nodeId="9057893087611433058" fileName="MinCostMaxFlow_Test.java" startLine="81" startPosition="77" endLine="86" endPosition="20">
       <varInfo nodeId="9057893087611433076" varName="flowCost" />
     </scopeInfo>
-    <scopeInfo nodeId="9057893087611426349" fileName="MinCostMaxFlow_Test.java" startLine="71" startPosition="0" endLine="77" endPosition="0">
+    <scopeInfo nodeId="9057893087611426349" fileName="MinCostMaxFlow_Test.java" startLine="74" startPosition="0" endLine="80" endPosition="0">
       <varInfo nodeId="9057893087611426354" varName="edgesMap" />
       <varInfo nodeId="9057893087611426371" varName="source" />
       <varInfo nodeId="9057893087611426366" varName="values" />
     </scopeInfo>
-    <scopeInfo nodeId="9057893087611433055" fileName="MinCostMaxFlow_Test.java" startLine="78" startPosition="0" endLine="85" endPosition="0">
+    <scopeInfo nodeId="9057893087611433055" fileName="MinCostMaxFlow_Test.java" startLine="81" startPosition="0" endLine="88" endPosition="0">
       <varInfo nodeId="9057893087611433068" varName="cost" />
       <varInfo nodeId="9057893087611433062" varName="flow" />
     </scopeInfo>
-    <scopeInfo nodeId="9057893087611421613" fileName="MinCostMaxFlow_Test.java" startLine="60" startPosition="128" endLine="68" endPosition="16">
+    <scopeInfo nodeId="9057893087611421613" fileName="MinCostMaxFlow_Test.java" startLine="63" startPosition="128" endLine="71" endPosition="16">
       <varInfo nodeId="9057893087611421660" varName="flow" />
       <varInfo nodeId="9057893087611421684" varName="numEdges" />
       <varInfo nodeId="9057893087611421672" varName="numNodes" />
     </scopeInfo>
-    <scopeInfo nodeId="9057893087611421610" fileName="MinCostMaxFlow_Test.java" startLine="60" startPosition="0" endLine="70" endPosition="0">
+    <scopeInfo nodeId="9057893087611421610" fileName="MinCostMaxFlow_Test.java" startLine="63" startPosition="0" endLine="73" endPosition="0">
       <varInfo nodeId="9057893087611421616" varName="capacity" />
       <varInfo nodeId="9057893087611421626" varName="cost" />
       <varInfo nodeId="9057893087611421614" varName="graph" />
@@ -1091,7 +1127,7 @@
     </scopeInfo>
     <scopeInfo nodeId="9057893087611421744" fileName="MinCostMaxFlow_Test.java" startLine="22" startPosition="0" endLine="40" endPosition="0" />
     <scopeInfo nodeId="9057893087611433837" fileName="MinCostMaxFlow_Test.java" startLine="41" startPosition="0" endLine="59" endPosition="0" />
-    <unitInfo nodeId="9057893087611421554" fileName="MinCostMaxFlow_Test.java" startLine="21" startPosition="0" endLine="86" endPosition="0" unitName="graphTest.MinCostMaxFlow_Test" />
+    <unitInfo nodeId="9057893087611421554" fileName="MinCostMaxFlow_Test.java" startLine="21" startPosition="0" endLine="89" endPosition="0" unitName="graphTest.MinCostMaxFlow_Test" />
   </root>
   <root nodeRef="r:2d0fbdb5-e73c-4db3-b9e8-fb2e93925820(graphTest)/920414672219836580">
     <nodeInfo nodeId="920414672219836591" fileName="TopologicalNumbering_Test.java" startLine="17" startPosition="51" endLine="18" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -1112,8 +1148,11 @@
     <nodeInfo nodeId="920414672219841330" fileName="TopologicalNumbering_Test.java" startLine="35" startPosition="91" endLine="36" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="920414672219841339" fileName="TopologicalNumbering_Test.java" startLine="36" startPosition="91" endLine="37" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="920414672219841348" fileName="TopologicalNumbering_Test.java" startLine="37" startPosition="91" endLine="38" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="920414672219836582" fileName="TopologicalNumbering_Test.java" startLine="41" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="TopologicalNumbering_Test#()V" />
     <nodeInfo nodeId="920414672219836587" fileName="TopologicalNumbering_Test.java" startLine="17" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_sandwatches#()V" />
     <nodeInfo nodeId="920414672219837008" fileName="TopologicalNumbering_Test.java" startLine="29" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" />
+    <scopeInfo nodeId="920414672219836585" fileName="TopologicalNumbering_Test.java" startLine="41" startPosition="38" endLine="41" endPosition="38" />
+    <scopeInfo nodeId="920414672219836582" fileName="TopologicalNumbering_Test.java" startLine="41" startPosition="0" endLine="43" endPosition="0" />
     <scopeInfo nodeId="920414672219836590" fileName="TopologicalNumbering_Test.java" startLine="17" startPosition="51" endLine="26" endPosition="91">
       <varInfo nodeId="920414672219836592" varName="graph" />
       <varInfo nodeId="920414672219836596" varName="numbering" />
@@ -1125,7 +1164,7 @@
     </scopeInfo>
     <scopeInfo nodeId="920414672219836587" fileName="TopologicalNumbering_Test.java" startLine="17" startPosition="0" endLine="28" endPosition="0" />
     <scopeInfo nodeId="920414672219837008" fileName="TopologicalNumbering_Test.java" startLine="29" startPosition="0" endLine="40" endPosition="0" />
-    <unitInfo nodeId="920414672219836580" fileName="TopologicalNumbering_Test.java" startLine="16" startPosition="0" endLine="41" endPosition="0" unitName="graphTest.TopologicalNumbering_Test" />
+    <unitInfo nodeId="920414672219836580" fileName="TopologicalNumbering_Test.java" startLine="16" startPosition="0" endLine="44" endPosition="0" unitName="graphTest.TopologicalNumbering_Test" />
   </root>
 </debugInfo>
 

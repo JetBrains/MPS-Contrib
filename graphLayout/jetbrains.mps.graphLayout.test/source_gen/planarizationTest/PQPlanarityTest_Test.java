@@ -46,6 +46,9 @@ public class PQPlanarityTest_Test extends TestCase {
     testWithGraph(graphString);
   }
 
+  public PQPlanarityTest_Test() {
+  }
+
   private void test(String graphString) throws IllegalArgumentException {
     Graph graph = GraphIO.scanGraph(new Scanner(graphString));
     Node s = graph.getNode(0);

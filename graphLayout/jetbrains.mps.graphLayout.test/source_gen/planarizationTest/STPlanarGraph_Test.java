@@ -116,4 +116,7 @@ public class STPlanarGraph_Test extends TestCase {
     STPlanarGraph stPlanarGraph = new STPlanarGraph(embeddedGraph, s, t);
     DualGraph dualGraph = stPlanarGraph.getModifiedDualGraph();
   }
+
+  public STPlanarGraph_Test() {
+  }
 }

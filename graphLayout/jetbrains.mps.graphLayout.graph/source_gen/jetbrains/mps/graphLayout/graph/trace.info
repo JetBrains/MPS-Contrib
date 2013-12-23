@@ -64,7 +64,7 @@
     <nodeInfo nodeId="1714301205550416228" fileName="HyperGraph.java" startLine="71" startPosition="25" endLine="72" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1714301205550416367" fileName="HyperGraph.java" startLine="75" startPosition="36" endLine="76" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1714301205550416382" fileName="HyperGraph.java" startLine="79" startPosition="44" endLine="80" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1705599667576644061" fileName="HyperGraph.java" startLine="83" startPosition="36" endLine="84" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1705599667576644061" fileName="HyperGraph.java" startLine="83" startPosition="36" endLine="84" endPosition="89" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1714301205550416276" fileName="HyperGraph.java" startLine="59" startPosition="61" endLine="62" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="1714301205550416316" fileName="HyperGraph.java" startLine="67" startPosition="0" endLine="70" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addChild#(Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/graph/Node;)V" />
     <nodeInfo nodeId="1714301205550416223" fileName="HyperGraph.java" startLine="71" startPosition="0" endLine="74" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getRoot#()Ljetbrains/mps/graphLayout/graph/Node;" />
@@ -84,7 +84,7 @@
     <scopeInfo nodeId="1714301205550416226" fileName="HyperGraph.java" startLine="71" startPosition="25" endLine="72" endPosition="18" />
     <scopeInfo nodeId="1714301205550416363" fileName="HyperGraph.java" startLine="75" startPosition="36" endLine="76" endPosition="51" />
     <scopeInfo nodeId="1714301205550416376" fileName="HyperGraph.java" startLine="79" startPosition="44" endLine="80" endPosition="53" />
-    <scopeInfo nodeId="1705599667576644052" fileName="HyperGraph.java" startLine="83" startPosition="36" endLine="84" endPosition="95" />
+    <scopeInfo nodeId="1705599667576644052" fileName="HyperGraph.java" startLine="83" startPosition="36" endLine="84" endPosition="89" />
     <scopeInfo nodeId="1714301205550416144" fileName="HyperGraph.java" startLine="31" startPosition="46" endLine="34" endPosition="16">
       <varInfo nodeId="1714301205550416150" varName="node" />
     </scopeInfo>
@@ -231,7 +231,7 @@
     <nodeInfo nodeId="3167072330486561067" fileName="ClusterGraphCopier.java" startLine="32" startPosition="55" endLine="33" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="3167072330486563721" fileName="ClusterGraphCopier.java" startLine="33" startPosition="35" endLine="34" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="3167072330486563545" fileName="ClusterGraphCopier.java" startLine="34" startPosition="52" endLine="35" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3167072330486563564" fileName="ClusterGraphCopier.java" startLine="37" startPosition="38" endLine="38" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3167072330486563564" fileName="ClusterGraphCopier.java" startLine="37" startPosition="38" endLine="38" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="3167072330486563596" fileName="ClusterGraphCopier.java" startLine="40" startPosition="9" endLine="41" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="3167072330486562041" fileName="ClusterGraphCopier.java" startLine="42" startPosition="36" endLine="43" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="3167072330486563743" fileName="ClusterGraphCopier.java" startLine="45" startPosition="5" endLine="46" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -246,7 +246,7 @@
     <nodeInfo nodeId="3167072330486611386" fileName="ClusterGraphCopier.java" startLine="62" startPosition="5" endLine="63" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="3167072330486563978" fileName="ClusterGraphCopier.java" startLine="66" startPosition="53" endLine="67" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="3167072330486563788" fileName="ClusterGraphCopier.java" startLine="67" startPosition="57" endLine="68" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3167072330486563821" fileName="ClusterGraphCopier.java" startLine="69" startPosition="61" endLine="70" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3167072330486563821" fileName="ClusterGraphCopier.java" startLine="69" startPosition="55" endLine="70" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="3167072330486563932" fileName="ClusterGraphCopier.java" startLine="73" startPosition="40" endLine="74" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="3167072330486563959" fileName="ClusterGraphCopier.java" startLine="76" startPosition="11" endLine="77" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="3167072330486563943" fileName="ClusterGraphCopier.java" startLine="77" startPosition="49" endLine="78" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -280,10 +280,10 @@
     <nodeInfo nodeId="1082658699371280960" fileName="ClusterGraphCopier.java" startLine="85" startPosition="0" endLine="99" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="restoreLayout#(Ljetbrains/mps/graphLayout/graphLayout/GraphLayout;)Ljetbrains/mps/graphLayout/graphLayout/ClusteredGraphLayout;" />
     <nodeInfo nodeId="3167072330486563733" fileName="ClusterGraphCopier.java" startLine="66" startPosition="0" endLine="84" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="copyCluster#(Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/graph/Node;)V" />
     <nodeInfo nodeId="3167072330486561060" fileName="ClusterGraphCopier.java" startLine="31" startPosition="0" endLine="52" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="copySubgraph#(Ljetbrains/mps/graphLayout/util/Filter;)Ljetbrains/mps/graphLayout/graph/Graph;" />
-    <scopeInfo nodeId="3167072330486563561" fileName="ClusterGraphCopier.java" startLine="37" startPosition="38" endLine="38" endPosition="74" />
+    <scopeInfo nodeId="3167072330486563561" fileName="ClusterGraphCopier.java" startLine="37" startPosition="38" endLine="38" endPosition="68" />
     <scopeInfo nodeId="3167072330486562025" fileName="ClusterGraphCopier.java" startLine="42" startPosition="36" endLine="43" endPosition="38" />
     <scopeInfo nodeId="3167072330486563883" fileName="ClusterGraphCopier.java" startLine="53" startPosition="46" endLine="54" endPosition="88" />
-    <scopeInfo nodeId="3167072330486563808" fileName="ClusterGraphCopier.java" startLine="69" startPosition="61" endLine="70" endPosition="79" />
+    <scopeInfo nodeId="3167072330486563808" fileName="ClusterGraphCopier.java" startLine="69" startPosition="55" endLine="70" endPosition="79" />
     <scopeInfo nodeId="3167072330486563929" fileName="ClusterGraphCopier.java" startLine="73" startPosition="40" endLine="74" endPosition="66" />
     <scopeInfo nodeId="1082658699371282554" fileName="ClusterGraphCopier.java" startLine="92" startPosition="28" endLine="93" endPosition="55" />
     <scopeInfo nodeId="3167072330486561766" fileName="ClusterGraphCopier.java" startLine="100" startPosition="43" endLine="101" endPosition="58" />
@@ -765,7 +765,7 @@
     <nodeInfo nodeId="1082658699371282525" fileName="ClusteredGraph.java" startLine="84" startPosition="35" endLine="85" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="3167072330486561035" fileName="ClusteredGraph.java" startLine="88" startPosition="59" endLine="89" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="3167072330486561042" fileName="ClusteredGraph.java" startLine="89" startPosition="27" endLine="90" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3444434563276347951" fileName="ClusteredGraph.java" startLine="93" startPosition="46" endLine="94" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3444434563276347951" fileName="ClusteredGraph.java" startLine="93" startPosition="46" endLine="94" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4189203018295021140" fileName="ClusteredGraph.java" startLine="35" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Ljetbrains/mps/graphLayout/graph/Edge;)Ljetbrains/mps/graphLayout/graph/Node;" />
     <nodeInfo nodeId="4998536563116676152" fileName="ClusteredGraph.java" startLine="41" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setNodeInCluster#(Ljetbrains/mps/graphLayout/graph/Node;Ljetbrains/mps/graphLayout/graph/Node;)V" />
     <nodeInfo nodeId="6003893670991929350" fileName="ClusteredGraph.java" startLine="47" startPosition="0" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Ljetbrains/mps/graphLayout/graph/Edge;)Ljetbrains/mps/graphLayout/graph/Node;" />
@@ -796,7 +796,7 @@
     <scopeInfo nodeId="3167072330486561905" fileName="ClusteredGraph.java" startLine="75" startPosition="28" endLine="76" endPosition="32" />
     <scopeInfo nodeId="6003893670991928540" fileName="ClusteredGraph.java" startLine="80" startPosition="34" endLine="81" endPosition="27" />
     <scopeInfo nodeId="1082658699371282518" fileName="ClusteredGraph.java" startLine="84" startPosition="35" endLine="85" endPosition="41" />
-    <scopeInfo nodeId="3444434563276347941" fileName="ClusteredGraph.java" startLine="93" startPosition="46" endLine="94" endPosition="75" />
+    <scopeInfo nodeId="3444434563276347941" fileName="ClusteredGraph.java" startLine="93" startPosition="46" endLine="94" endPosition="69" />
     <scopeInfo nodeId="3167072330486561027" fileName="ClusteredGraph.java" startLine="88" startPosition="59" endLine="90" endPosition="18" />
     <scopeInfo nodeId="6003893670991928465" fileName="ClusteredGraph.java" startLine="20" startPosition="27" endLine="23" endPosition="68" />
     <scopeInfo nodeId="6003893670991928528" fileName="ClusteredGraph.java" startLine="27" startPosition="53" endLine="30" endPosition="17">

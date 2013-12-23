@@ -31,4 +31,7 @@ public class STNumbering_Test extends TestCase {
     Map<Node, Integer> numbering = STNumbering.number(graph, graph.getNode(0), graph.getNode(4));
     STNumberingChecker.check(graph, graph.getNode(0), graph.getNode(4), numbering);
   }
+
+  public STNumbering_Test() {
+  }
 }

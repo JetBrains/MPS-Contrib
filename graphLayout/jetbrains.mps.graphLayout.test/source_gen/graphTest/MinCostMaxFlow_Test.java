@@ -57,6 +57,9 @@ public class MinCostMaxFlow_Test extends TestCase {
     Assert.assertTrue(getFlowCost(flow, cost) == 9);
   }
 
+  public MinCostMaxFlow_Test() {
+  }
+
   private Map<Edge, Integer> test(Graph graph, Node source, Node target, Map<Edge, Integer> capacity, Map<Edge, Integer> cost) {
     int numNodes = graph.getNumNodes();
     int numEdges = ListSequence.fromList(graph.getEdges()).count();

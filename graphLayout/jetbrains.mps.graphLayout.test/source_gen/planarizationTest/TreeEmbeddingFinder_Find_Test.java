@@ -41,6 +41,9 @@ public class TreeEmbeddingFinder_Find_Test extends TestCase {
     test(GraphIO.scanGraph(new Scanner(graphString)));
   }
 
+  public TreeEmbeddingFinder_Find_Test() {
+  }
+
   public void test(Graph graph) {
     TreeEmbeddingFinder embeddingFinder = new TreeEmbeddingFinder();
     EmbeddedGraph embeddedGraph = embeddingFinder.find(graph);

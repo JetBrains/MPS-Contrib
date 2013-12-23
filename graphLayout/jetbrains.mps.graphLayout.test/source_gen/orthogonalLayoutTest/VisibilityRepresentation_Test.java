@@ -49,4 +49,7 @@ public class VisibilityRepresentation_Test extends TestCase {
     STPlanarGraph stPlanarGraph = new STPlanarGraph(embeddedGraph, s, t);
     Map<Object, Rectangle> visibility = VisibilityRepresentation.getVisibilityRepresentation(stPlanarGraph);
   }
+
+  public VisibilityRepresentation_Test() {
+  }
 }

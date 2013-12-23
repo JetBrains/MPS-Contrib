@@ -104,7 +104,7 @@
       <varInfo nodeId="1213104846152" varName="references" />
     </scopeInfo>
     <scopeInfo nodeId="1213104846152" fileName="ComponentInstance_Constraints.java" startLine="30" startPosition="0" endLine="63" endPosition="0" />
-    <unitInfo nodeId="1227876806094" fileName="ComponentInstance_Constraints.java" startLine="46" startPosition="243" endLine="50" endPosition="13" unitName="jetbrains.mps.uiLanguage.constraints.ComponentInstance_Constraints$3" />
+    <unitInfo nodeId="1227876806094" fileName="ComponentInstance_Constraints.java" startLine="46" startPosition="214" endLine="50" endPosition="13" unitName="jetbrains.mps.uiLanguage.constraints.ComponentInstance_Constraints$3" />
     <unitInfo nodeId="1213104846152" fileName="ComponentInstance_Constraints.java" startLine="42" startPosition="19" endLine="58" endPosition="9" unitName="jetbrains.mps.uiLanguage.constraints.ComponentInstance_Constraints$2" />
     <unitInfo nodeId="1213104846152" fileName="ComponentInstance_Constraints.java" startLine="33" startPosition="47" endLine="60" endPosition="5" unitName="jetbrains.mps.uiLanguage.constraints.ComponentInstance_Constraints$1" />
     <unitInfo nodeId="1213104846152" fileName="ComponentInstance_Constraints.java" startLine="25" startPosition="0" endLine="66" endPosition="0" unitName="jetbrains.mps.uiLanguage.constraints.ComponentInstance_Constraints" />

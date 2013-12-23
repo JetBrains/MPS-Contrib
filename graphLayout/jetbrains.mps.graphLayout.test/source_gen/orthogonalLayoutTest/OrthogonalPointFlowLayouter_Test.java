@@ -52,6 +52,9 @@ public class OrthogonalPointFlowLayouter_Test extends TestCase {
     test(graph);
   }
 
+  public OrthogonalPointFlowLayouter_Test() {
+  }
+
   public void test(Graph graph) {
     OrthogonalPointFlowLayouter layouter = new OrthogonalPointFlowLayouter();
     GraphPointLayout layout = layouter.doLayout(graph);

@@ -54,6 +54,9 @@ public class OrthogonalFlowLabelProcessing_Test extends TestCase {
     OrthogonalLayoutChecker.checkLayout(graphLayout);
   }
 
+  public OrthogonalFlowLabelProcessing_Test() {
+  }
+
   public void test(Graph graph) {
     Map<Node, Dimension> nodeSizes = MapSequence.fromMap(new HashMap<Node, Dimension>());
     for (Node node : ListSequence.fromList(graph.getNodes())) {

@@ -44,6 +44,9 @@ public class ConstraintsGraph_Test extends TestCase {
     testModification(graph);
   }
 
+  public ConstraintsGraph_Test() {
+  }
+
   public void testModification(Graph graph) {
     EmbeddedGraph embeddedGraph = new ShortestPathEmbeddingFinder(new PQPlanarizationFinder()).find(graph);
     Map<Dart, Integer> bends = MapSequence.fromMap(new HashMap<Dart, Integer>());

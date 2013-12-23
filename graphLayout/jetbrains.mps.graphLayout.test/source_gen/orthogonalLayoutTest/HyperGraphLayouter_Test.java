@@ -26,6 +26,9 @@ public class HyperGraphLayouter_Test extends TestCase {
     test(graph);
   }
 
+  public HyperGraphLayouter_Test() {
+  }
+
   public void test(HyperGraph graph) {
     LayoutInfo layoutInfo = new LayoutInfo(graph);
     for (Node node : ListSequence.fromList(graph.getNodes())) {

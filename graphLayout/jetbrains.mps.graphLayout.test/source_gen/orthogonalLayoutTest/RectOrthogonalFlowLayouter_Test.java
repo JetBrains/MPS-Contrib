@@ -58,6 +58,9 @@ public class RectOrthogonalFlowLayouter_Test extends TestCase {
     test(graph);
   }
 
+  public RectOrthogonalFlowLayouter_Test() {
+  }
+
   public void test(Graph graph) {
     OrthogonalRectFlowLayouter layouter = new OrthogonalRectFlowLayouter();
     Map<Node, Dimension> nodeSizes = MapSequence.fromMap(new HashMap<Node, Dimension>());

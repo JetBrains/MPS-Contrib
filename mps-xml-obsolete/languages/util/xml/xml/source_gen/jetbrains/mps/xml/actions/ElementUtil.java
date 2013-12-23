@@ -71,7 +71,7 @@ public class ElementUtil {
       if ((schema != null) && SPropertyOperations.getBoolean(schema, "alwaysUseRoot")) {
         SetSequence.fromSet(elementDeclarationSet).addElement(SLinkOperations.getTarget(SLinkOperations.getTarget(schema, "rootElementReference", true), "elementDeclaration", false));
       } else {
-        List<SNode> elementDeclarations = SModelOperations.getNodesIncludingImported(SNodeOperations.getModel(node), scope, "jetbrains.mps.xmlSchema.structure.ElementDeclaration");
+        List<SNode> elementDeclarations = SModelOperations.getNodesIncludingImported(SNodeOperations.getModel(node), "jetbrains.mps.xmlSchema.structure.ElementDeclaration");
         SetSequence.fromSet(elementDeclarationSet).addSequence(ListSequence.fromList(elementDeclarations));
       }
     } else {

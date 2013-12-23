@@ -98,4 +98,7 @@ public class DateTimeZone_Test extends BaseTestCase {
     DateTimeZone tz2 = DateTimeZone.forID("Europe/Amsterdam");
     tz2.getName(n, null);
   }
+
+  public DateTimeZone_Test() {
+  }
 }

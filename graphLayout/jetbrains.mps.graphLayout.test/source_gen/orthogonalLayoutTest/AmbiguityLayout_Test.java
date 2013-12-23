@@ -33,6 +33,9 @@ public class AmbiguityLayout_Test extends TestCase {
     test(graph);
   }
 
+  public AmbiguityLayout_Test() {
+  }
+
   public void test(Graph graph) {
     Map<Node, Dimension> nodeSizes = MapSequence.fromMap(new HashMap<Node, Dimension>());
     Map<Edge, Dimension> edgeSizes = MapSequence.fromMap(new HashMap<Edge, Dimension>());
@@ -53,7 +56,7 @@ public class AmbiguityLayout_Test extends TestCase {
       for (Edge edge : ListSequence.fromList(graph.getEdges())) {
         List<Point> p1 = layout.getEdgeLayout(edge);
         List<Point> p2 = newLayout.getEdgeLayout(edge);
-        Assert.assertTrue((int) ListSequence.fromList(p1).count() == (int) ListSequence.fromList(p2).count());
+        Assert.assertTrue(ListSequence.fromList(p1).count() == ListSequence.fromList(p2).count());
         for (int p = 0; p < ListSequence.fromList(p1).count(); p++) {
           Assert.assertTrue(ListSequence.fromList(p1).getElement(p).x == ListSequence.fromList(p2).getElement(p).x && ListSequence.fromList(p1).getElement(p).y == ListSequence.fromList(p2).getElement(p).y);
         }

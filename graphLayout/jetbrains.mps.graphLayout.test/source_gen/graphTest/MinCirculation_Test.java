@@ -69,6 +69,9 @@ public class MinCirculation_Test extends TestCase {
     }
   }
 
+  public MinCirculation_Test() {
+  }
+
   private Map<Edge, Integer> test(Graph graph, Map<Edge, Integer> low, Map<Edge, Integer> capacity, Map<Edge, Integer> cost) {
     int numNodes = graph.getNumNodes();
     int numEdges = ListSequence.fromList(graph.getEdges()).count();

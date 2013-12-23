@@ -42,7 +42,7 @@ public class PathReference_Constraints extends BaseConstraintsDescriptor {
         return new BaseReferenceScopeProvider() {
           @Override
           public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
-            List<SNode> importedNodes = SModelOperations.getNodesIncludingImported(_context.getModel(), operationContext.getScope(), "jetbrains.mps.build.generictasks.structure.TaskCall");
+            List<SNode> importedNodes = SModelOperations.getNodesIncludingImported(_context.getModel(), "jetbrains.mps.build.generictasks.structure.TaskCall");
             List<SNode> newScope = ListSequence.fromList(new ArrayList<SNode>());
             for (SNode node : ListSequence.fromList(importedNodes)) {
               SNode gcall = SNodeOperations.cast(node, "jetbrains.mps.build.generictasks.structure.TaskCall");

@@ -27,4 +27,7 @@ public class SubsequenceFinder_Test extends TestCase {
     List<Object> p = ListSequence.fromListAndArray(new ArrayList<Object>(), 4, 2, 0, 1, 3);
     List<Tuples._2<Integer, Integer>> pos = SubsequenceFinder.getCyclicSubsequence(s, p);
   }
+
+  public SubsequenceFinder_Test() {
+  }
 }

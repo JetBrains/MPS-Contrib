@@ -21,7 +21,7 @@ public class OrthogonalRepresentationChecker {
           return it.getSource() == node;
         }
       }).toListSequence();
-      Assert.assertTrue((int) ListSequence.fromList(darts).count() == (int) ListSequence.fromList(node.getEdges()).count());
+      Assert.assertTrue(ListSequence.fromList(darts).count() == ListSequence.fromList(node.getEdges()).count());
       int totalAngle = 0;
       for (Dart dart : ListSequence.fromList(darts)) {
         Integer dartAngle = MapSequence.fromMap(angles).get(dart);
@@ -34,8 +34,8 @@ public class OrthogonalRepresentationChecker {
 
   public static void checkOrthogonalRepresentation(Graph graph, Map<Dart, Integer> bends, Map<Dart, Integer> angles, int minAngle) {
     int numEdges = ListSequence.fromList(graph.getEdges()).count();
-    Assert.assertTrue(2 * numEdges == (int) MapSequence.fromMap(bends).count());
-    Assert.assertTrue(2 * numEdges == (int) MapSequence.fromMap(angles).count());
+    Assert.assertTrue(2 * numEdges == MapSequence.fromMap(bends).count());
+    Assert.assertTrue(2 * numEdges == MapSequence.fromMap(angles).count());
     checkAngles(graph, angles, minAngle);
   }
 }

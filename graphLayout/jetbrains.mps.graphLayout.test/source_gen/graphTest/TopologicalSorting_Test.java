@@ -23,4 +23,7 @@ public class TopologicalSorting_Test extends TestCase {
     Assert.assertTrue(ListSequence.fromList(order).getElement(2) == graph.getNode(2));
     Assert.assertTrue(ListSequence.fromList(order).getElement(3) == graph.getNode(0));
   }
+
+  public TopologicalSorting_Test() {
+  }
 }

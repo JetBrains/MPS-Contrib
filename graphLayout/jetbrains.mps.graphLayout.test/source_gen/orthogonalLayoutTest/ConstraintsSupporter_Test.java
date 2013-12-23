@@ -31,6 +31,9 @@ public class ConstraintsSupporter_Test extends TestCase {
     test(GraphIO.scanGraph(new Scanner(gString)));
   }
 
+  public ConstraintsSupporter_Test() {
+  }
+
   public void test(Graph graph) {
     EmbeddedGraph embeddedGraph = new TreeEmbeddingFinder().find(graph);
     Node s = ListSequence.fromList(embeddedGraph.getOuterFace().getDarts()).getElement(0).getSource();
