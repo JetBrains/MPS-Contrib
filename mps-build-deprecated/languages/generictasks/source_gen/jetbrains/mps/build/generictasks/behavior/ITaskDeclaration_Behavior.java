@@ -60,38 +60,13 @@ public class ITaskDeclaration_Behavior {
   }
 
   @Deprecated
-  public static Iterable<SNode> call_getPossibleNesteds_1449762848926780436(SNode thisNode, List<SNode> declarations) {
-    return BehaviorReflection.invokeVirtual((Class<Iterable<SNode>>) ((Class) Object.class), thisNode, "virtual_getPossibleNesteds_1449762848926780436", new Object[]{declarations});
-  }
-
-  @Deprecated
-  public static boolean call_isPossibleNested_1648602681640249389(SNode thisNode, SNode declaration, List<SNode> nestedTasks) {
-    return BehaviorReflection.invokeVirtual(Boolean.TYPE, thisNode, "virtual_isPossibleNested_1648602681640249389", new Object[]{declaration, nestedTasks});
-  }
-
-  @Deprecated
-  public static boolean call_hasNested_4241383766070759083(SNode thisNode) {
-    return BehaviorReflection.invokeVirtual(Boolean.TYPE, thisNode, "virtual_hasNested_4241383766070759083", new Object[]{});
-  }
-
-  @Deprecated
-  public static List<SNode> call_getNestedTasks_4241383766070831847(SNode thisNode) {
-    return BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), thisNode, "virtual_getNestedTasks_4241383766070831847", new Object[]{});
-  }
-
-  @Deprecated
-  public static boolean call_filterMeOut_4710899751214010949(SNode thisNode) {
-    return BehaviorReflection.invokeVirtual(Boolean.TYPE, thisNode, "virtual_filterMeOut_4710899751214010949", new Object[]{});
-  }
-
-  @Deprecated
-  public static List<SNode> call_getAttributesDeclarations_1190349257898147625(SNode thisNode) {
-    return BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), thisNode, "virtual_getAttributesDeclarations_1190349257898147625", new Object[]{});
-  }
-
-  @Deprecated
   public static boolean callSuper_canBeRootTask_1449762848926780427(SNode thisNode, String callerConceptFqName) {
     return BehaviorManager.getInstance().invokeSuper(Boolean.TYPE, SNodeOperations.cast(thisNode, "jetbrains.mps.build.generictasks.structure.ITaskDeclaration"), callerConceptFqName, "virtual_canBeRootTask_1449762848926780427", new Class[]{SNode.class}, new Object[]{});
+  }
+
+  @Deprecated
+  public static Iterable<SNode> call_getPossibleNesteds_1449762848926780436(SNode thisNode, List<SNode> declarations) {
+    return BehaviorReflection.invokeVirtual((Class<Iterable<SNode>>) ((Class) Object.class), thisNode, "virtual_getPossibleNesteds_1449762848926780436", new Object[]{declarations});
   }
 
   @Deprecated
@@ -100,8 +75,18 @@ public class ITaskDeclaration_Behavior {
   }
 
   @Deprecated
+  public static boolean call_isPossibleNested_1648602681640249389(SNode thisNode, SNode declaration, List<SNode> nestedTasks) {
+    return BehaviorReflection.invokeVirtual(Boolean.TYPE, thisNode, "virtual_isPossibleNested_1648602681640249389", new Object[]{declaration, nestedTasks});
+  }
+
+  @Deprecated
   public static boolean callSuper_isPossibleNested_1648602681640249389(SNode thisNode, String callerConceptFqName, SNode declaration, List<SNode> nestedTasks) {
     return BehaviorManager.getInstance().invokeSuper(Boolean.TYPE, SNodeOperations.cast(thisNode, "jetbrains.mps.build.generictasks.structure.ITaskDeclaration"), callerConceptFqName, "virtual_isPossibleNested_1648602681640249389", new Class[]{SNode.class, SNode.class, List.class}, new Object[]{declaration, nestedTasks});
+  }
+
+  @Deprecated
+  public static boolean call_hasNested_4241383766070759083(SNode thisNode) {
+    return BehaviorReflection.invokeVirtual(Boolean.TYPE, thisNode, "virtual_hasNested_4241383766070759083", new Object[]{});
   }
 
   @Deprecated
@@ -110,13 +95,28 @@ public class ITaskDeclaration_Behavior {
   }
 
   @Deprecated
+  public static List<SNode> call_getNestedTasks_4241383766070831847(SNode thisNode) {
+    return BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), thisNode, "virtual_getNestedTasks_4241383766070831847", new Object[]{});
+  }
+
+  @Deprecated
   public static List<SNode> callSuper_getNestedTasks_4241383766070831847(SNode thisNode, String callerConceptFqName) {
     return BehaviorManager.getInstance().invokeSuper((Class<List<SNode>>) ((Class) Object.class), SNodeOperations.cast(thisNode, "jetbrains.mps.build.generictasks.structure.ITaskDeclaration"), callerConceptFqName, "virtual_getNestedTasks_4241383766070831847", new Class[]{SNode.class}, new Object[]{});
   }
 
   @Deprecated
+  public static boolean call_filterMeOut_4710899751214010949(SNode thisNode) {
+    return BehaviorReflection.invokeVirtual(Boolean.TYPE, thisNode, "virtual_filterMeOut_4710899751214010949", new Object[]{});
+  }
+
+  @Deprecated
   public static boolean callSuper_filterMeOut_4710899751214010949(SNode thisNode, String callerConceptFqName) {
     return BehaviorManager.getInstance().invokeSuper(Boolean.TYPE, SNodeOperations.cast(thisNode, "jetbrains.mps.build.generictasks.structure.ITaskDeclaration"), callerConceptFqName, "virtual_filterMeOut_4710899751214010949", new Class[]{SNode.class}, new Object[]{});
+  }
+
+  @Deprecated
+  public static List<SNode> call_getAttributesDeclarations_1190349257898147625(SNode thisNode) {
+    return BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), thisNode, "virtual_getAttributesDeclarations_1190349257898147625", new Object[]{});
   }
 
   @Deprecated

@@ -33,23 +33,13 @@ public class TypeExpression_Behavior {
   }
 
   @Deprecated
-  public static void call_checkElements_1213877382378(SNode thisNode, Set<SNode> elementDeclarations) {
-    BehaviorReflection.invokeVirtual(Void.class, thisNode, "virtual_checkElements_1213877382378", new Object[]{elementDeclarations});
-  }
-
-  @Deprecated
-  public static boolean call_hasElementReferences_1213877382383(SNode thisNode) {
-    return BehaviorReflection.invokeVirtual(Boolean.TYPE, thisNode, "virtual_hasElementReferences_1213877382383", new Object[]{});
-  }
-
-  @Deprecated
-  public static boolean call_isMixed_1213877382388(SNode thisNode) {
-    return BehaviorReflection.invokeVirtual(Boolean.TYPE, thisNode, "virtual_isMixed_1213877382388", new Object[]{});
-  }
-
-  @Deprecated
   public static void callSuper_checkAttributes_1213877382373(SNode thisNode, String callerConceptFqName, List<SNode> attributeDeclarations) {
     BehaviorManager.getInstance().invokeSuper(Void.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.TypeExpression"), callerConceptFqName, "virtual_checkAttributes_1213877382373", new Class[]{SNode.class, List.class}, new Object[]{attributeDeclarations});
+  }
+
+  @Deprecated
+  public static void call_checkElements_1213877382378(SNode thisNode, Set<SNode> elementDeclarations) {
+    BehaviorReflection.invokeVirtual(Void.class, thisNode, "virtual_checkElements_1213877382378", new Object[]{elementDeclarations});
   }
 
   @Deprecated
@@ -58,8 +48,18 @@ public class TypeExpression_Behavior {
   }
 
   @Deprecated
+  public static boolean call_hasElementReferences_1213877382383(SNode thisNode) {
+    return BehaviorReflection.invokeVirtual(Boolean.TYPE, thisNode, "virtual_hasElementReferences_1213877382383", new Object[]{});
+  }
+
+  @Deprecated
   public static boolean callSuper_hasElementReferences_1213877382383(SNode thisNode, String callerConceptFqName) {
     return BehaviorManager.getInstance().invokeSuper(Boolean.TYPE, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.TypeExpression"), callerConceptFqName, "virtual_hasElementReferences_1213877382383", new Class[]{SNode.class}, new Object[]{});
+  }
+
+  @Deprecated
+  public static boolean call_isMixed_1213877382388(SNode thisNode) {
+    return BehaviorReflection.invokeVirtual(Boolean.TYPE, thisNode, "virtual_isMixed_1213877382388", new Object[]{});
   }
 
   @Deprecated

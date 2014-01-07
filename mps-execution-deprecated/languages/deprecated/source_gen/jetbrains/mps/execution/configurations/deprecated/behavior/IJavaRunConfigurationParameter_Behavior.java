@@ -17,13 +17,13 @@ public class IJavaRunConfigurationParameter_Behavior {
   }
 
   @Deprecated
-  public static SNode call_getParameterType_1810772216404820824(SNode thisNode) {
-    return BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), thisNode, "virtual_getParameterType_1810772216404820824", new Object[]{});
+  public static String callSuper_getVariableForExecuteBlockName_1810772216404807669(SNode thisNode, String callerConceptFqName) {
+    return BehaviorManager.getInstance().invokeSuper(String.class, SNodeOperations.cast(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.IJavaRunConfigurationParameter"), callerConceptFqName, "virtual_getVariableForExecuteBlockName_1810772216404807669", new Class[]{SNode.class}, new Object[]{});
   }
 
   @Deprecated
-  public static String callSuper_getVariableForExecuteBlockName_1810772216404807669(SNode thisNode, String callerConceptFqName) {
-    return BehaviorManager.getInstance().invokeSuper(String.class, SNodeOperations.cast(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.IJavaRunConfigurationParameter"), callerConceptFqName, "virtual_getVariableForExecuteBlockName_1810772216404807669", new Class[]{SNode.class}, new Object[]{});
+  public static SNode call_getParameterType_1810772216404820824(SNode thisNode) {
+    return BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), thisNode, "virtual_getParameterType_1810772216404820824", new Object[]{});
   }
 
   @Deprecated

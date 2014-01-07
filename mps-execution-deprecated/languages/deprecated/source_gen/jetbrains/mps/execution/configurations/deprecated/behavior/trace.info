@@ -324,18 +324,18 @@
   </root>
   <root nodeRef="r:44be5a71-98f4-4137-88b1-8ccaf67186a8(jetbrains.mps.execution.configurations.deprecated.behavior)/1810772216404807666">
     <nodeInfo nodeId="1810772216404807666" fileName="IJavaRunConfigurationParameter_Behavior.java" startLine="15" startPosition="96" endLine="16" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1810772216404807666" fileName="IJavaRunConfigurationParameter_Behavior.java" startLine="20" startPosition="81" endLine="21" endPosition="157" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1810772216404807666" fileName="IJavaRunConfigurationParameter_Behavior.java" startLine="25" startPosition="129" endLine="26" endPosition="318" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1810772216404807666" fileName="IJavaRunConfigurationParameter_Behavior.java" startLine="20" startPosition="129" endLine="21" endPosition="318" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1810772216404807666" fileName="IJavaRunConfigurationParameter_Behavior.java" startLine="25" startPosition="81" endLine="26" endPosition="157" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1810772216404807666" fileName="IJavaRunConfigurationParameter_Behavior.java" startLine="30" startPosition="114" endLine="31" endPosition="329" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1810772216404807666" fileName="IJavaRunConfigurationParameter_Behavior.java" startLine="11" startPosition="0" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
     <nodeInfo nodeId="1810772216404807666" fileName="IJavaRunConfigurationParameter_Behavior.java" startLine="14" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getVariableForExecuteBlockName_1810772216404807669#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
-    <nodeInfo nodeId="1810772216404807666" fileName="IJavaRunConfigurationParameter_Behavior.java" startLine="19" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getParameterType_1810772216404820824#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="1810772216404807666" fileName="IJavaRunConfigurationParameter_Behavior.java" startLine="24" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="callSuper_getVariableForExecuteBlockName_1810772216404807669#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Ljava/lang/String;" />
+    <nodeInfo nodeId="1810772216404807666" fileName="IJavaRunConfigurationParameter_Behavior.java" startLine="19" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="callSuper_getVariableForExecuteBlockName_1810772216404807669#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Ljava/lang/String;" />
+    <nodeInfo nodeId="1810772216404807666" fileName="IJavaRunConfigurationParameter_Behavior.java" startLine="24" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getParameterType_1810772216404820824#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
     <nodeInfo nodeId="1810772216404807666" fileName="IJavaRunConfigurationParameter_Behavior.java" startLine="29" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="callSuper_getParameterType_1810772216404820824#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Lorg/jetbrains/mps/openapi/model/SNode;" />
     <scopeInfo nodeId="1810772216404807668" fileName="IJavaRunConfigurationParameter_Behavior.java" startLine="11" startPosition="43" endLine="11" endPosition="43" />
     <scopeInfo nodeId="1810772216404807666" fileName="IJavaRunConfigurationParameter_Behavior.java" startLine="15" startPosition="96" endLine="16" endPosition="146" />
-    <scopeInfo nodeId="1810772216404807666" fileName="IJavaRunConfigurationParameter_Behavior.java" startLine="20" startPosition="81" endLine="21" endPosition="157" />
-    <scopeInfo nodeId="1810772216404807666" fileName="IJavaRunConfigurationParameter_Behavior.java" startLine="25" startPosition="129" endLine="26" endPosition="318" />
+    <scopeInfo nodeId="1810772216404807666" fileName="IJavaRunConfigurationParameter_Behavior.java" startLine="20" startPosition="129" endLine="21" endPosition="318" />
+    <scopeInfo nodeId="1810772216404807666" fileName="IJavaRunConfigurationParameter_Behavior.java" startLine="25" startPosition="81" endLine="26" endPosition="157" />
     <scopeInfo nodeId="1810772216404807666" fileName="IJavaRunConfigurationParameter_Behavior.java" startLine="30" startPosition="114" endLine="31" endPosition="329" />
     <scopeInfo nodeId="1810772216404807666" fileName="IJavaRunConfigurationParameter_Behavior.java" startLine="11" startPosition="0" endLine="13" endPosition="0">
       <varInfo nodeId="1810772216404807666" varName="thisNode" />
@@ -344,10 +344,10 @@
       <varInfo nodeId="1810772216404807666" varName="thisNode" />
     </scopeInfo>
     <scopeInfo nodeId="1810772216404807666" fileName="IJavaRunConfigurationParameter_Behavior.java" startLine="19" startPosition="0" endLine="23" endPosition="0">
+      <varInfo nodeId="1810772216404807666" varName="callerConceptFqName" />
       <varInfo nodeId="1810772216404807666" varName="thisNode" />
     </scopeInfo>
     <scopeInfo nodeId="1810772216404807666" fileName="IJavaRunConfigurationParameter_Behavior.java" startLine="24" startPosition="0" endLine="28" endPosition="0">
-      <varInfo nodeId="1810772216404807666" varName="callerConceptFqName" />
       <varInfo nodeId="1810772216404807666" varName="thisNode" />
     </scopeInfo>
     <scopeInfo nodeId="1810772216404807666" fileName="IJavaRunConfigurationParameter_Behavior.java" startLine="29" startPosition="0" endLine="33" endPosition="0">

@@ -5,9 +5,9 @@ package jetbrains.mps.xmlSchema.behavior;
 import org.jetbrains.mps.openapi.model.SNode;
 import java.util.List;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
-import java.util.Set;
 import jetbrains.mps.smodel.behaviour.BehaviorManager;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import java.util.Set;
 
 public class ContentItem_Behavior {
   public static void init(SNode thisNode) {
@@ -19,23 +19,23 @@ public class ContentItem_Behavior {
   }
 
   @Deprecated
-  public static void call_checkElements_1213877413543(SNode thisNode, Set<SNode> elementDeclarations) {
-    BehaviorReflection.invokeVirtual(Void.class, thisNode, "virtual_checkElements_1213877413543", new Object[]{elementDeclarations});
-  }
-
-  @Deprecated
-  public static boolean call_isMixed_1213877413548(SNode thisNode) {
-    return BehaviorReflection.invokeVirtual(Boolean.TYPE, thisNode, "virtual_isMixed_1213877413548", new Object[]{});
-  }
-
-  @Deprecated
   public static void callSuper_checkAttributes_1213877413538(SNode thisNode, String callerConceptFqName, List<SNode> attributeDeclarations) {
     BehaviorManager.getInstance().invokeSuper(Void.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.ContentItem"), callerConceptFqName, "virtual_checkAttributes_1213877413538", new Class[]{SNode.class, List.class}, new Object[]{attributeDeclarations});
   }
 
   @Deprecated
+  public static void call_checkElements_1213877413543(SNode thisNode, Set<SNode> elementDeclarations) {
+    BehaviorReflection.invokeVirtual(Void.class, thisNode, "virtual_checkElements_1213877413543", new Object[]{elementDeclarations});
+  }
+
+  @Deprecated
   public static void callSuper_checkElements_1213877413543(SNode thisNode, String callerConceptFqName, Set<SNode> elementDeclarations) {
     BehaviorManager.getInstance().invokeSuper(Void.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.ContentItem"), callerConceptFqName, "virtual_checkElements_1213877413543", new Class[]{SNode.class, Set.class}, new Object[]{elementDeclarations});
+  }
+
+  @Deprecated
+  public static boolean call_isMixed_1213877413548(SNode thisNode) {
+    return BehaviorReflection.invokeVirtual(Boolean.TYPE, thisNode, "virtual_isMixed_1213877413548", new Object[]{});
   }
 
   @Deprecated

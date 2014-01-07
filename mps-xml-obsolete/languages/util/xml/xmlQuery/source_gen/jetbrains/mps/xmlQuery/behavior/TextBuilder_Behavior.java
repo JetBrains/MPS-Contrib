@@ -40,23 +40,23 @@ public class TextBuilder_Behavior {
   }
 
   @Deprecated
-  public static SNode call_getCreatorExpression_10026583185457221(SNode thisNode, SNode parentRef) {
-    return BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), thisNode, "virtual_getCreatorExpression_7057666463730727863", new Object[]{parentRef});
-  }
-
-  @Deprecated
-  public static SNode call_getAttachStatementChild_608266221866981707(SNode thisNode, SNode parentBuilder, SNode parentRef, SNode childRef) {
-    return BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), thisNode, "virtual_getAttachStatementChild_4797501453850305563", new Object[]{parentBuilder, parentRef, childRef});
-  }
-
-  @Deprecated
   public static SNode callSuper_getResultType_10026583185457217(SNode thisNode, String callerConceptFqName) {
     return BehaviorManager.getInstance().invokeSuper((Class<SNode>) ((Class) Object.class), SNodeOperations.cast(thisNode, "jetbrains.mps.xmlQuery.structure.TextBuilder"), callerConceptFqName, "virtual_getResultType_7057666463730718251", new Class[]{SNode.class}, new Object[]{});
   }
 
   @Deprecated
+  public static SNode call_getCreatorExpression_10026583185457221(SNode thisNode, SNode parentRef) {
+    return BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), thisNode, "virtual_getCreatorExpression_7057666463730727863", new Object[]{parentRef});
+  }
+
+  @Deprecated
   public static SNode callSuper_getCreatorExpression_10026583185457221(SNode thisNode, String callerConceptFqName, SNode parentRef) {
     return BehaviorManager.getInstance().invokeSuper((Class<SNode>) ((Class) Object.class), SNodeOperations.cast(thisNode, "jetbrains.mps.xmlQuery.structure.TextBuilder"), callerConceptFqName, "virtual_getCreatorExpression_7057666463730727863", new Class[]{SNode.class, SNode.class}, new Object[]{parentRef});
+  }
+
+  @Deprecated
+  public static SNode call_getAttachStatementChild_608266221866981707(SNode thisNode, SNode parentBuilder, SNode parentRef, SNode childRef) {
+    return BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), thisNode, "virtual_getAttachStatementChild_4797501453850305563", new Object[]{parentBuilder, parentRef, childRef});
   }
 
   @Deprecated

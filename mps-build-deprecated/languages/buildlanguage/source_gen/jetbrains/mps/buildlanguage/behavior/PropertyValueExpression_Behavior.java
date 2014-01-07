@@ -25,13 +25,13 @@ public class PropertyValueExpression_Behavior {
   }
 
   @Deprecated
-  public static String call_getActualValue_1213877472572(SNode thisNode) {
-    return BehaviorReflection.invokeVirtual(String.class, thisNode, "virtual_getActualValue_1213877472572", new Object[]{});
+  public static String callSuper_toString_1213877472569(SNode thisNode, String callerConceptFqName) {
+    return BehaviorManager.getInstance().invokeSuper(String.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.PropertyValueExpression"), callerConceptFqName, "virtual_toString_1213877472569", new Class[]{SNode.class}, new Object[]{});
   }
 
   @Deprecated
-  public static String callSuper_toString_1213877472569(SNode thisNode, String callerConceptFqName) {
-    return BehaviorManager.getInstance().invokeSuper(String.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.PropertyValueExpression"), callerConceptFqName, "virtual_toString_1213877472569", new Class[]{SNode.class}, new Object[]{});
+  public static String call_getActualValue_1213877472572(SNode thisNode) {
+    return BehaviorReflection.invokeVirtual(String.class, thisNode, "virtual_getActualValue_1213877472572", new Object[]{});
   }
 
   @Deprecated

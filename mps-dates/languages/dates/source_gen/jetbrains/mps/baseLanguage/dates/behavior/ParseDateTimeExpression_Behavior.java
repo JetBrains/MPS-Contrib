@@ -39,13 +39,13 @@ public class ParseDateTimeExpression_Behavior {
   }
 
   @Deprecated
-  public static SNode call_deriveType_7499037524191428434(SNode thisNode, SNode expression, SNode link) {
-    return BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), thisNode, "virtual_deriveType_4555537781928374706", new Object[]{expression, link});
+  public static SNode callSuper_deriveType_7499037524191428325(SNode thisNode, String callerConceptFqName, SNode expression) {
+    return BehaviorManager.getInstance().invokeSuper((Class<SNode>) ((Class) Object.class), SNodeOperations.cast(thisNode, "jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression"), callerConceptFqName, "virtual_deriveType_1213877435747", new Class[]{SNode.class, SNode.class}, new Object[]{expression});
   }
 
   @Deprecated
-  public static SNode callSuper_deriveType_7499037524191428325(SNode thisNode, String callerConceptFqName, SNode expression) {
-    return BehaviorManager.getInstance().invokeSuper((Class<SNode>) ((Class) Object.class), SNodeOperations.cast(thisNode, "jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression"), callerConceptFqName, "virtual_deriveType_1213877435747", new Class[]{SNode.class, SNode.class}, new Object[]{expression});
+  public static SNode call_deriveType_7499037524191428434(SNode thisNode, SNode expression, SNode link) {
+    return BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), thisNode, "virtual_deriveType_4555537781928374706", new Object[]{expression, link});
   }
 
   @Deprecated
