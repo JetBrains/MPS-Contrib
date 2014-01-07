@@ -2872,7 +2872,7 @@
                           <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="314981645427225383" nodeInfo="nn">
                             <node role="operand" roleId="tpee.1197027771414" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="314981645427225384" nodeInfo="nn">
                               <link role="classifier" roleId="tpee.1144433057691" targetNodeId="kt55.~MPSDataKeys" resolveInfo="MPSDataKeys" />
-                              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="nx2.~PlatformDataKeys%dPROJECT" resolveInfo="PROJECT" />
+                              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="nx2.~CommonDataKeys%dPROJECT" resolveInfo="PROJECT" />
                             </node>
                             <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="314981645427225385" nodeInfo="nn">
                               <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="nx2.~DataKey%dgetData(com%dintellij%dopenapi%dactionSystem%dDataContext)%cjava%dlang%dObject" resolveInfo="getData" />
@@ -3029,7 +3029,7 @@
                         <node role="initializer" roleId="tpee.1068431790190" type="tpee.DotExpression" typeId="tpee.1197027756228" id="314981645427225448" nodeInfo="nn">
                           <node role="operand" roleId="tpee.1197027771414" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="314981645427225449" nodeInfo="nn">
                             <link role="classifier" roleId="tpee.1144433057691" targetNodeId="kt55.~MPSDataKeys" resolveInfo="MPSDataKeys" />
-                            <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="nx2.~PlatformDataKeys%dEDITOR" resolveInfo="EDITOR" />
+                            <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="nx2.~CommonDataKeys%dEDITOR" resolveInfo="EDITOR" />
                             <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.ReferenceMacro" typeId="tpf8.1088761943574" id="314981645427225450" nodeInfo="nn">
                               <property name="linkRole" nameId="tpck.1757699476691236116" value="variableDeclaration" />
                               <node role="referentFunction" roleId="tpf8.1167770376702" type="tpf8.ReferenceMacro_GetReferent" typeId="tpf8.1167770111131" id="314981645427225451" nodeInfo="nn">
@@ -7383,7 +7383,7 @@
     <property name="name" nameId="tpck.1169194664001" value="reduce_PersistentPropertyReference_Config" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="Configuration" />
     <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="tpee.1197027756228" resolveInfo="DotExpression" />
-    <node role="parameter" roleId="tpf8.1805153994415891175" type="tpf8.TemplateParameterDeclaration" typeId="tpf8.1805153994415891174" id="5467467154229727044" nodeInfo="ng">
+    <node role="parameter" roleId="tpf8.982871510064032342" type="tpf8.TemplateParameterDeclaration" typeId="tpf8.1805153994415891174" id="5467467154229727044" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="runConfiguration" />
       <node role="type" roleId="tpf8.1805153994415893199" type="tp25.SNodeType" typeId="tp25.1138055754698" id="5467467154229727046" nodeInfo="in">
         <link role="concept" roleId="tp25.1138405853777" targetNodeId="11eb.314981645426569350" resolveInfo="RunConfigurationDeclaration" />
