@@ -7,5 +7,6 @@
   <depends>jetbrains.mps.core</depends>
   <extensions defaultExtensionNs="com.intellij">
     <mps.LanguageLibrary dir="/languages" />
+    <mps.LanguageLibrary dir="/lib" />
   </extensions>
 </idea-plugin>
