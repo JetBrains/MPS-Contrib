@@ -6,27 +6,11 @@
   <import index="tpj8" modelUID="r:00000000-0000-4000-0000-011c89590598(jetbrains.mps.xmlSchema.structure)" version="3" />
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
   <import index="tpjo" modelUID="r:00000000-0000-4000-0000-011c89590588(jetbrains.mps.xml.structure)" version="0" implicit="yes" />
-  <import index="tpjs" modelUID="r:00000000-0000-4000-0000-011c89590584(jetbrains.mps.xml.behavior)" version="-1" implicit="yes" />
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1161371727643" nodeInfo="ig">
     <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
     <property name="final" nameId="tpce.4628067390765956807" value="false" />
     <property name="name" nameId="tpck.1169194664001" value="Content" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
-    <node role="conceptPropertyDeclaration" roleId="tpce.1137467167200" type="tpce.BooleanConceptPropertyDeclaration" typeId="tpce.1105725240314" id="1168792704590" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="isComplex" />
-      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="4694041203278845215" nodeInfo="ig" />
-      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.MigratedToMethodAnnotation" typeId="tpce.8080932314785812236" id="4694041203278845214" nodeInfo="ig">
-        <link role="method" roleId="tpce.8080932314785812847" targetNodeId="tpjs.1262430001741498088" resolveInfo="isComplex" />
-      </node>
-    </node>
-    <node role="conceptLinkDeclaration" roleId="tpce.1137532086877" type="tpce.ReferenceConceptLinkDeclaration" typeId="tpce.1105741578420" id="1175095327345" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="correspondingElement" />
-      <link role="targetType" roleId="tpce.1105736621938" targetNodeId="tpj8.1167838236835" resolveInfo="ElementDeclaration" />
-      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="3044950653914717085" nodeInfo="ig" />
-      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.MigratedToMethodAnnotation" typeId="tpce.8080932314785812236" id="3044950653914717084" nodeInfo="ig">
-        <link role="method" roleId="tpce.8080932314785812847" targetNodeId="tpjs.3044950653914717088" resolveInfo="getCorrespondingElement" />
-      </node>
-    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1161373262136" nodeInfo="ig">
     <property name="abstract" nameId="tpce.4628067390765956802" value="false" />
