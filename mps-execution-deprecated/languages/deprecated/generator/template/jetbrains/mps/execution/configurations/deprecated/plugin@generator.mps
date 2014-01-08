@@ -3462,24 +3462,6 @@
       </node>
       <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.MapSrcNodeMacro" typeId="tpf8.1131073187192" id="314981645427225644" nodeInfo="nn" />
     </node>
-    <node role="member" roleId="tpee.5375687026011219971" type="tpee.InstanceMethodDeclaration" typeId="tpee.1068580123165" id="314981645427225645" nodeInfo="igu">
-      <property name="name" nameId="tpck.1169194664001" value="createRunnerSettings" />
-      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="314981645427225646" nodeInfo="nn" />
-      <node role="returnType" roleId="tpee.1068580123133" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="314981645427225647" nodeInfo="in">
-        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="8d8z.~JDOMExternalizable" resolveInfo="JDOMExternalizable" />
-      </node>
-      <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="314981645427225648" nodeInfo="ir">
-        <property name="name" nameId="tpck.1169194664001" value="p0" />
-        <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="314981645427225649" nodeInfo="in">
-          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="jj9i.~ConfigurationInfoProvider" resolveInfo="ConfigurationInfoProvider" />
-        </node>
-      </node>
-      <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="314981645427225650" nodeInfo="sn">
-        <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="314981645427225651" nodeInfo="nn">
-          <node role="expression" roleId="tpee.1068581517676" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="314981645427225652" nodeInfo="nn" />
-        </node>
-      </node>
-    </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.InstanceMethodDeclaration" typeId="tpee.1068580123165" id="314981645427225653" nodeInfo="igu">
       <property name="name" nameId="tpck.1169194664001" value="getConfigurationEditor" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="314981645427225654" nodeInfo="nn" />
@@ -3506,8 +3488,8 @@
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="314981645427225663" nodeInfo="nn" />
       <node role="returnType" roleId="tpee.1068580123133" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="314981645427225664" nodeInfo="in">
         <link role="classifier" roleId="tpee.1107535924139" targetNodeId="k39r.~SettingsEditor" resolveInfo="SettingsEditor" />
-        <node role="parameter" roleId="tpee.1109201940907" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="314981645427225665" nodeInfo="in">
-          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="8d8z.~JDOMExternalizable" resolveInfo="JDOMExternalizable" />
+        <node role="parameter" roleId="tpee.1109201940907" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="2931648071863188464" nodeInfo="in">
+          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="jj9i.~ConfigurationPerRunnerSettings" resolveInfo="ConfigurationPerRunnerSettings" />
         </node>
       </node>
       <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="314981645427225666" nodeInfo="ir">
