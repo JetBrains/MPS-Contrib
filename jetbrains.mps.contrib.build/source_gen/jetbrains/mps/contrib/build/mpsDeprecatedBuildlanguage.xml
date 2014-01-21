@@ -88,10 +88,10 @@
       <fileset dir="${build.tmp}/java/out/jetbrains.mps.buildlanguage#1197036391807" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/mps-build-deprecated-languages-buildlanguage-generator-xml-template">
-      <fileset dir="${basedir}/mps-build-deprecated/languages/buildlanguage/generator/xml/template" includes="**/*.mps, **/*.metadata, **/*.history" />
+      <fileset dir="${basedir}/mps-build-deprecated/languages/buildlanguage/generator/xml/template" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/mps-build-deprecated-languages-buildlanguage-languageModels">
-      <fileset dir="${basedir}/mps-build-deprecated/languages/buildlanguage/languageModels" includes="**/*.mps, **/*.metadata, **/*.history" />
+      <fileset dir="${basedir}/mps-build-deprecated/languages/buildlanguage/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/mps-build-deprecated/languages/build/jetbrains.mps.buildlanguage-src.jar">
       <fileset dir="${basedir}/mps-build-deprecated/languages/buildlanguage/generator/source_gen" includes="**/*.java" />
@@ -129,10 +129,10 @@
       <fileset dir="${build.tmp}/java/out/jetbrains.mps.build.property#1224602648191" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/mps-build-deprecated-languages-property-generator-template">
-      <fileset dir="${basedir}/mps-build-deprecated/languages/property/generator/template" includes="**/*.mps, **/*.metadata, **/*.history" />
+      <fileset dir="${basedir}/mps-build-deprecated/languages/property/generator/template" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/mps-build-deprecated-languages-property-languageModels">
-      <fileset dir="${basedir}/mps-build-deprecated/languages/property/languageModels" includes="**/*.mps, **/*.metadata, **/*.history" />
+      <fileset dir="${basedir}/mps-build-deprecated/languages/property/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/mps-build-deprecated/languages/build/jetbrains.mps.build.property-src.jar">
       <fileset dir="${basedir}/mps-build-deprecated/languages/property/generator/source_gen" includes="**/*.java" />
@@ -172,10 +172,10 @@
       <fileset dir="${build.tmp}/java/out/jetbrains.mps.xml.deprecated#1129923280838" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/mps-build-deprecated-languages-xmlDeprecated-generator">
-      <fileset dir="${basedir}/mps-build-deprecated/languages/xmlDeprecated/generator" includes="**/*.mps, **/*.metadata, **/*.history" />
+      <fileset dir="${basedir}/mps-build-deprecated/languages/xmlDeprecated/generator" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/mps-build-deprecated-languages-xmlDeprecated-languageModels">
-      <fileset dir="${basedir}/mps-build-deprecated/languages/xmlDeprecated/languageModels" includes="**/*.mps, **/*.metadata, **/*.history" />
+      <fileset dir="${basedir}/mps-build-deprecated/languages/xmlDeprecated/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/mps-build-deprecated/languages/xml/jetbrains.mps.xml.deprecated-src.jar">
       <fileset dir="${basedir}/mps-build-deprecated/languages/xmlDeprecated/generator/source_gen" includes="**/*.java" />
@@ -220,13 +220,13 @@
       <fileset dir="${build.tmp}/java/out/jetbrains.mps.build.generictasks#683020775182432297" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/mps-build-deprecated-languages-generictasks-generator-template">
-      <fileset dir="${basedir}/mps-build-deprecated/languages/generictasks/generator/template" includes="**/*.mps, **/*.metadata, **/*.history" />
+      <fileset dir="${basedir}/mps-build-deprecated/languages/generictasks/generator/template" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/mps-build-deprecated-languages-generictasks-languageAccessories">
-      <fileset dir="${basedir}/mps-build-deprecated/languages/generictasks/languageAccessories" includes="**/*.mps, **/*.metadata, **/*.history" />
+      <fileset dir="${basedir}/mps-build-deprecated/languages/generictasks/languageAccessories" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/mps-build-deprecated-languages-generictasks-languageModels">
-      <fileset dir="${basedir}/mps-build-deprecated/languages/generictasks/languageModels" includes="**/*.mps, **/*.metadata, **/*.history" />
+      <fileset dir="${basedir}/mps-build-deprecated/languages/generictasks/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/mps-build-deprecated/languages/build/jetbrains.mps.build.generictasks-src.jar">
       <fileset dir="${basedir}/mps-build-deprecated/languages/generictasks/generator/source_gen" includes="**/*.java" />
