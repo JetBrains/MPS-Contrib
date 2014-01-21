@@ -79,7 +79,7 @@ public class QueriesGenerated {
 
   public static Object propertyMacro_GetPropertyValue_8173163127951753815(final IOperationContext operationContext, final PropertyMacroContext _context) {
     SModule module = ((TemplateQueryContext) _context).getGenerator().getGeneratorSessionContext().getInvocationContext().getModule();
-    return (module == null ? null : module.getModuleId().toString());
+    return (module == null ? null : module.getModuleReference().toString());
   }
 
   public static Object propertyMacro_GetPropertyValue_8173163127951753846(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -101,9 +101,8 @@ public class QueriesGenerated {
     return RunConfigurationDeclaration_Behavior.call_getGeneratedFactoryName_314981645426570449(_context.getNode());
   }
 
-  public static Object propertyMacro_GetPropertyValue_8173163127951938015(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    SModule module = ((TemplateQueryContext) _context).getGenerator().getGeneratorSessionContext().getInvocationContext().getModule();
-    return (module == null ? null : module.getModuleId().toString());
+  public static Object propertyMacro_GetPropertyValue_801145553017987806(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return _context.getOriginalInputModel().getModule().getModuleReference().toString();
   }
 
   public static Object propertyMacro_GetPropertyValue_8173163127951938046(final IOperationContext operationContext, final PropertyMacroContext _context) {

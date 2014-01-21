@@ -229,6 +229,7 @@
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895904c1(jetbrains.mps.buildlanguage.constraints)/2113577360859165800">
     <nodeInfo nodeId="2113577360859165800" fileName="PropertyValueExpression_Constraints.java" startLine="8" startPosition="48" endLine="9" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="2113577360859165800" fileName="PropertyValueExpression_Constraints.java" startLine="8" startPosition="48" endLine="9" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
     <nodeInfo nodeId="2113577360859165800" fileName="PropertyValueExpression_Constraints.java" startLine="8" startPosition="0" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="PropertyValueExpression_Constraints#()V" />
     <scopeInfo nodeId="2113577360859165800" fileName="PropertyValueExpression_Constraints.java" startLine="8" startPosition="48" endLine="9" endPosition="75" />
     <scopeInfo nodeId="2113577360859165800" fileName="PropertyValueExpression_Constraints.java" startLine="8" startPosition="0" endLine="11" endPosition="0" />

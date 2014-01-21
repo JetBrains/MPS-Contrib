@@ -296,6 +296,7 @@
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c8959054c(jetbrains.mps.uiLanguage.behavior)/1213877364258">
     <nodeInfo nodeId="1213877364261" fileName="EventHandlerReference_Behavior.java" startLine="8" startPosition="43" endLine="9" endPosition="10" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1213877364261" fileName="EventHandlerReference_Behavior.java" startLine="8" startPosition="43" endLine="9" endPosition="10" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1213877364258" fileName="EventHandlerReference_Behavior.java" startLine="8" startPosition="0" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
     <scopeInfo nodeId="1213877364260" fileName="EventHandlerReference_Behavior.java" startLine="8" startPosition="43" endLine="9" endPosition="10">
       <varInfo nodeId="1213877364262" varName="a" />
