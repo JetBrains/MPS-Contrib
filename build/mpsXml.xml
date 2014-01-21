@@ -87,10 +87,10 @@
       <fileset dir="${build.tmp}/java/out/jetbrains.mps.gtext#1164413905312" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/mps-xml-obsolete-languages-util-gtext-generators-baseLanguage-templates">
-      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/gtext/generators/baseLanguage/templates" includes="**/*.mps, **/*.metadata, **/*.history" />
+      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/gtext/generators/baseLanguage/templates" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/mps-xml-obsolete-languages-util-gtext-languageModels">
-      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/gtext/languageModels" includes="**/*.mps, **/*.metadata, **/*.history" />
+      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/gtext/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/mps-xml-obsolete/languages/gtext/jetbrains.mps.gtext-src.jar">
       <fileset dir="${basedir}/mps-xml-obsolete/languages/util/gtext/generator/source_gen" includes="**/*.java" />
@@ -115,7 +115,7 @@
       <fileset dir="${build.tmp}/default/jetbrains.mps.gtext.runtime.jar" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/mps-xml-obsolete-languages-util-gtext-runtime-jetbrains">
-      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/gtext/runtime/jetbrains" includes="**/*.mps, **/*.metadata, **/*.history" />
+      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/gtext/runtime/jetbrains" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/mps-xml-obsolete/languages/gtext/jetbrains.mps.gtext.runtime-src.jar">
       <fileset dir="${basedir}/mps-xml-obsolete/languages/util/gtext/runtime/source_gen" includes="**/*.java" />
@@ -154,10 +154,10 @@
       <fileset dir="${build.tmp}/java/out/jetbrains.mps.xml#1163716442262" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/mps-xml-obsolete-languages-util-xml-xml-generators-baseLanguage-templates">
-      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xml/xml/generators/baseLanguage/templates" includes="**/*.mps, **/*.metadata, **/*.history" />
+      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xml/xml/generators/baseLanguage/templates" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/mps-xml-obsolete-languages-util-xml-xml-languageModels">
-      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xml/xml/languageModels" includes="**/*.mps, **/*.metadata, **/*.history" />
+      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xml/xml/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/mps-xml-obsolete/languages/xml/jetbrains.mps.xml-src.jar">
       <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xml/xml/generator/source_gen" includes="**/*.java" />
@@ -195,10 +195,10 @@
       <fileset dir="${build.tmp}/java/out/jetbrains.mps.xmlInternal#1165632612566" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/mps-xml-obsolete-languages-util-xml-xmlInternal-generators-baseLanguage-templates">
-      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xml/xmlInternal/generators/baseLanguage/templates" includes="**/*.mps, **/*.metadata, **/*.history" />
+      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xml/xmlInternal/generators/baseLanguage/templates" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/mps-xml-obsolete-languages-util-xml-xmlInternal-languageModels">
-      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xml/xmlInternal/languageModels" includes="**/*.mps, **/*.metadata, **/*.history" />
+      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xml/xmlInternal/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/mps-xml-obsolete/languages/xml/jetbrains.mps.xmlInternal-src.jar">
       <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xml/xmlInternal/generator/source_gen" includes="**/*.java" />
@@ -236,10 +236,10 @@
       <fileset dir="${build.tmp}/java/out/jetbrains.mps.xmlSchema#2709156219364519555" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/mps-xml-obsolete-languages-util-xml-xmlSchema-generator-template">
-      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xml/xmlSchema/generator/template" includes="**/*.mps, **/*.metadata, **/*.history" />
+      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xml/xmlSchema/generator/template" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/mps-xml-obsolete-languages-util-xml-xmlSchema-languageModels">
-      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xml/xmlSchema/languageModels" includes="**/*.mps, **/*.metadata, **/*.history" />
+      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xml/xmlSchema/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/mps-xml-obsolete/languages/xml/jetbrains.mps.xmlSchema-src.jar">
       <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xml/xmlSchema/generator/source_gen" includes="**/*.java" />
@@ -277,10 +277,10 @@
       <fileset dir="${build.tmp}/java/out/jetbrains.mps.xmlQuery#2341233264267726012" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/mps-xml-obsolete-languages-util-xml-xmlQuery-generator-template">
-      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xml/xmlQuery/generator/template" includes="**/*.mps, **/*.metadata, **/*.history" />
+      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xml/xmlQuery/generator/template" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/mps-xml-obsolete-languages-util-xml-xmlQuery-languageModels">
-      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xml/xmlQuery/languageModels" includes="**/*.mps, **/*.metadata, **/*.history" />
+      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xml/xmlQuery/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/mps-xml-obsolete/languages/xml/jetbrains.mps.xmlQuery-src.jar">
       <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xml/xmlQuery/generator/source_gen" includes="**/*.java" />
@@ -307,7 +307,7 @@
       <fileset dir="${build.tmp}/default/jetbrains.mps.xmlQuery.runtime.jar" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/mps-xml-obsolete-languages-util-xml-xmlQuery-runtime-models">
-      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xml/xmlQuery/runtime/models" includes="**/*.mps, **/*.metadata, **/*.history" />
+      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xml/xmlQuery/runtime/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/mps-xml-obsolete/languages/xml/jetbrains.mps.xmlQuery.runtime-src.jar">
       <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xml/xmlQuery/runtime/source_gen" includes="**/*.java" />
@@ -350,10 +350,10 @@
       <fileset dir="${build.tmp}/java/out/jetbrains.mps.xmlUnitTest#5211164146776564145" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/mps-xml-obsolete-languages-util-xmlUnitTest-languages-xmlUnitTest-generator-template">
-      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xmlUnitTest/languages/xmlUnitTest/generator/template" includes="**/*.mps, **/*.metadata, **/*.history" />
+      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xmlUnitTest/languages/xmlUnitTest/generator/template" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/mps-xml-obsolete-languages-util-xmlUnitTest-languages-xmlUnitTest-languageModels">
-      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xmlUnitTest/languages/xmlUnitTest/languageModels" includes="**/*.mps, **/*.metadata, **/*.history" />
+      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xmlUnitTest/languages/xmlUnitTest/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/mps-xml-obsolete/languages/xml/jetbrains.mps.xmlUnitTest/jetbrains.mps.xmlUnitTest-src.jar">
       <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xmlUnitTest/languages/xmlUnitTest/generator/source_gen" includes="**/*.java" />

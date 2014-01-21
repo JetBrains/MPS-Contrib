@@ -79,10 +79,10 @@
       <fileset dir="${build.tmp}/java/out/jetbrains.mps.execution.configurations.deprecated#6629582826328981980" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/mps-execution-deprecated-languages-deprecated-generator-template">
-      <fileset dir="${basedir}/mps-execution-deprecated/languages/deprecated/generator/template" includes="**/*.mps, **/*.metadata, **/*.history" />
+      <fileset dir="${basedir}/mps-execution-deprecated/languages/deprecated/generator/template" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/mps-execution-deprecated-languages-deprecated-languageModels">
-      <fileset dir="${basedir}/mps-execution-deprecated/languages/deprecated/languageModels" includes="**/*.mps, **/*.metadata, **/*.history" />
+      <fileset dir="${basedir}/mps-execution-deprecated/languages/deprecated/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/mps-execution-deprecated/languages/jetbrains.mps.execution.configurations.deprecated-src.jar">
       <fileset dir="${basedir}/mps-execution-deprecated/languages/deprecated/generator/source_gen" includes="**/*.java" />
@@ -116,7 +116,7 @@
       <fileset dir="${build.tmp}/default/jetbrains.mps.execution.configurations.deprecated.runtime.jar" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/mps-execution-deprecated-deprecated.runtime-models">
-      <fileset dir="${basedir}/mps-execution-deprecated/deprecated.runtime/models" includes="**/*.mps, **/*.metadata, **/*.history" />
+      <fileset dir="${basedir}/mps-execution-deprecated/deprecated.runtime/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/mps-execution-deprecated/lib/jetbrains.mps.execution.configurations.deprecated.runtime-src.jar">
       <fileset dir="${basedir}/mps-execution-deprecated/deprecated.runtime/source_gen" includes="**/*.java" />
@@ -150,7 +150,7 @@
       <fileset dir="${build.tmp}/default/jetbrains.mps.baseLanguage.unitTest.execution.deprecated.jar" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/mps-execution-deprecated-unitTests-models">
-      <fileset dir="${basedir}/mps-execution-deprecated/unitTests/models" includes="**/*.mps, **/*.metadata, **/*.history" />
+      <fileset dir="${basedir}/mps-execution-deprecated/unitTests/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/mps-execution-deprecated/lib/jetbrains.mps.baseLanguage.unitTest.execution.deprecated-src.jar">
       <fileset dir="${basedir}/mps-execution-deprecated/unitTests/source_gen" includes="**/*.java" />
