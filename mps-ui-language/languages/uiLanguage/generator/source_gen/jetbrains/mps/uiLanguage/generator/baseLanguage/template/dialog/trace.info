@@ -12,8 +12,8 @@
     <scopeInfo nodeId="1202833810238" fileName="QueriesGenerated.java" startLine="29" startPosition="149" endLine="30" endPosition="74" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c89590554(jetbrains.mps.uiLanguage.generator.baseLanguage.template.dialog@generator)/1202833910008">
-    <nodeInfo nodeId="1202834335517" fileName="QueriesGenerated.java" startLine="33" startPosition="159" endLine="34" endPosition="122" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <scopeInfo nodeId="1202834159581" fileName="QueriesGenerated.java" startLine="33" startPosition="159" endLine="34" endPosition="122" />
+    <nodeInfo nodeId="1202834335517" fileName="QueriesGenerated.java" startLine="33" startPosition="158" endLine="34" endPosition="122" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <scopeInfo nodeId="1202834159581" fileName="QueriesGenerated.java" startLine="33" startPosition="158" endLine="34" endPosition="122" />
   </root>
 </debugInfo>
 

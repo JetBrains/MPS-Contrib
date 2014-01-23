@@ -2,8 +2,8 @@
 <debugInfo>
   <unitInfo fileName="QueriesGenerated.java" startLine="17" startPosition="0" endLine="61" endPosition="0" unitName="jetbrains.mps.uiLanguage.generator.baseLanguage.template.form.QueriesGenerated" />
   <root nodeRef="r:00000000-0000-4000-0000-011c89590555(jetbrains.mps.uiLanguage.generator.baseLanguage.template.form@generator)/1202820745239">
-    <nodeInfo nodeId="1202822697324" fileName="QueriesGenerated.java" startLine="57" startPosition="159" endLine="58" endPosition="116" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <scopeInfo nodeId="1202822661804" fileName="QueriesGenerated.java" startLine="57" startPosition="159" endLine="58" endPosition="116" />
+    <nodeInfo nodeId="1202822697324" fileName="QueriesGenerated.java" startLine="57" startPosition="158" endLine="58" endPosition="116" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <scopeInfo nodeId="1202822661804" fileName="QueriesGenerated.java" startLine="57" startPosition="158" endLine="58" endPosition="116" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c89590555(jetbrains.mps.uiLanguage.generator.baseLanguage.template.form@generator)/1202820804619">
     <nodeInfo nodeId="1202820804632" fileName="QueriesGenerated.java" startLine="19" startPosition="148" endLine="20" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />

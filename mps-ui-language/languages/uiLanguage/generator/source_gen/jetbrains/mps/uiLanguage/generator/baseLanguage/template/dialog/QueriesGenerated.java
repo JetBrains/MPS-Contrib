@@ -30,7 +30,7 @@ public class QueriesGenerated {
     return SLinkOperations.getTargets(_context.getNode(), "button", true);
   }
 
-  public static SNode weaving_MappingRule_ContextNodeQuery_1202834159580(final IOperationContext opereationContext, final WeavingMappingRuleContext _context) {
+  public static SNode weaving_MappingRule_ContextNodeQuery_1202834159580(final IOperationContext operationContext, final WeavingMappingRuleContext _context) {
     return _context.getCopiedOutputNodeForInputNode(SLinkOperations.getTarget(_context.getNode(), "rootComponent", true));
   }
 }
