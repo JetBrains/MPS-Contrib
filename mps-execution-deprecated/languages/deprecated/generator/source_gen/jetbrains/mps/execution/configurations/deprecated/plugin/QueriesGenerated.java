@@ -16,7 +16,6 @@ import jetbrains.mps.baseLanguage.classifiers.behavior.ThisClassifierExpression_
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.generator.template.PropertyMacroContext;
 import org.jetbrains.mps.openapi.module.SModule;
-import jetbrains.mps.generator.template.TemplateQueryContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.util.MacrosFactory;
 import jetbrains.mps.execution.configurations.deprecated.behavior.RunConfigurationTypeDeclaration_Behavior;
@@ -31,6 +30,7 @@ import jetbrains.mps.typesystem.inference.TypeChecker;
 import jetbrains.mps.lang.typesystem.runtime.HUtil;
 import jetbrains.mps.generator.template.IfMacroContext;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
+import jetbrains.mps.generator.template.TemplateQueryContext;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 import jetbrains.mps.generator.template.MappingScriptContext;
 import jetbrains.mps.internal.collections.runtime.ITranslator2;
@@ -78,7 +78,7 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_8173163127951753815(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    SModule module = ((TemplateQueryContext) _context).getGenerator().getGeneratorSessionContext().getInvocationContext().getModule();
+    SModule module = _context.getOriginalInputModel().getModule();
     return (module == null ? null : module.getModuleReference().toString());
   }
 
