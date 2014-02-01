@@ -21,7 +21,6 @@ import jetbrains.mps.typesystem.inference.TypeChecker;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import org.jetbrains.mps.openapi.persistence.PersistenceFacade;
 import jetbrains.mps.smodel.SModelUtil_new;
-import jetbrains.mps.project.GlobalScope;
 
 public class MigrateParameterBrowser_MigrationScript extends BaseMigrationScript {
   public MigrateParameterBrowser_MigrationScript(IOperationContext operationContext) {
@@ -83,7 +82,7 @@ public class MigrateParameterBrowser_MigrationScript extends BaseMigrationScript
 
   private static SNode createComponentDeclaration_wft9px_a0a0b0a0() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
-    SNode n1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.uiLanguage.structure.ComponentDeclaration", null, GlobalScope.getInstance(), false);
+    SNode n1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.uiLanguage.structure.ComponentDeclaration", null, false);
     n1.setProperty("name", "ParameterBrowser");
     n1.setProperty("actionComponent", "" + true);
     n1.setProperty("stub", "" + true);
@@ -93,19 +92,19 @@ public class MigrateParameterBrowser_MigrationScript extends BaseMigrationScript
 
   private static SNode createComponentController_wft9px_a0a3a1a0a(Object p0) {
     PersistenceFacade facade = PersistenceFacade.getInstance();
-    SNode n1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.uiLanguage.structure.ComponentController", null, GlobalScope.getInstance(), false);
+    SNode n1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.uiLanguage.structure.ComponentController", null, false);
     {
       n1.setReferenceTarget("component", (SNode) p0);
-      SNode n2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.uiLanguage.structure.AttributeDeclaration", null, GlobalScope.getInstance(), false);
+      SNode n2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.uiLanguage.structure.AttributeDeclaration", null, false);
       {
         n2.setProperty("name", "text");
-        SNode n3 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.StringType", null, GlobalScope.getInstance(), false);
+        SNode n3 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.StringType", null, false);
         n2.addChild("type", n3);
       }
-      SNode n4 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.uiLanguage.structure.AttributeDeclaration", null, GlobalScope.getInstance(), false);
+      SNode n4 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.uiLanguage.structure.AttributeDeclaration", null, false);
       {
         n4.setProperty("name", "dialogCaption");
-        SNode n5 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.StringType", null, GlobalScope.getInstance(), false);
+        SNode n5 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.StringType", null, false);
         n4.addChild("type", n5);
       }
       n1.addChild("attribute", n2);

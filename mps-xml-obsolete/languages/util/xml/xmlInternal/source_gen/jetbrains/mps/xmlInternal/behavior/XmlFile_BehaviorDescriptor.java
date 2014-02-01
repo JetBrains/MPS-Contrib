@@ -7,7 +7,6 @@ import jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor;
 import jetbrains.mps.xml.behavior.XmlRoot_BehaviorDescriptor;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.core.behavior.INamedConcept_Behavior;
-import jetbrains.mps.smodel.IScope;
 
 public class XmlFile_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor implements INamedConcept_BehaviorDescriptor, XmlRoot_BehaviorDescriptor {
   public XmlFile_BehaviorDescriptor() {
@@ -17,8 +16,8 @@ public class XmlFile_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor i
     return INamedConcept_Behavior.virtual_getFqName_1213877404258(thisNode);
   }
 
-  public SNode virtual_getSchema_1213877420378(SNode thisNode, IScope scope) {
-    return XmlFile_Behavior.virtual_getSchema_1213877420378(thisNode, scope);
+  public SNode virtual_getSchema_1213877420378(SNode thisNode) {
+    return XmlFile_Behavior.virtual_getSchema_1213877420378(thisNode);
   }
 
   @Override

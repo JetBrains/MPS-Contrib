@@ -11,7 +11,6 @@ import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
-import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
@@ -58,7 +57,7 @@ public class PeriodConstant_Editor extends DefaultNodeEditor {
 
   private EditorCell createAlternation_x7xgz7_b0(EditorContext editorContext, SNode node) {
     boolean alternationCondition = true;
-    alternationCondition = PeriodConstant_Editor.renderingCondition_x7xgz7_a1a(node, editorContext, editorContext.getOperationContext().getScope());
+    alternationCondition = PeriodConstant_Editor.renderingCondition_x7xgz7_a1a(node, editorContext);
     EditorCell editorCell = null;
     if (alternationCondition) {
       editorCell = this.createRefCell_x7xgz7_a1a(editorContext, node);
@@ -69,7 +68,7 @@ public class PeriodConstant_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static boolean renderingCondition_x7xgz7_a1a(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_x7xgz7_a1a(SNode node, EditorContext editorContext) {
     boolean result = true;
     if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(node, "count", true), "jetbrains.mps.baseLanguage.structure.IntegerConstant")) {
       return SPropertyOperations.getInteger(SNodeOperations.cast(SLinkOperations.getTarget(node, "count", true), "jetbrains.mps.baseLanguage.structure.IntegerConstant"), "value") != 1;

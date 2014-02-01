@@ -15,7 +15,6 @@ import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
-import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Component;
 import javax.swing.JComponent;
@@ -95,7 +94,7 @@ public class EntitySet_Editor extends DefaultNodeEditor {
 
   private EditorCell createAlternation_bj9nw6_d0a(EditorContext editorContext, SNode node) {
     boolean alternationCondition = true;
-    alternationCondition = EntitySet_Editor.renderingCondition_bj9nw6_a3a0(node, editorContext, editorContext.getOperationContext().getScope());
+    alternationCondition = EntitySet_Editor.renderingCondition_bj9nw6_a3a0(node, editorContext);
     EditorCell editorCell = null;
     if (alternationCondition) {
       editorCell = this.createProperty_bj9nw6_a3a0(editorContext, node);
@@ -105,7 +104,7 @@ public class EntitySet_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static boolean renderingCondition_bj9nw6_a3a0(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_bj9nw6_a3a0(SNode node, EditorContext editorContext) {
     return SPropertyOperations.getString(node, "url") == null;
   }
 

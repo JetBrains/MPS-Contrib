@@ -20,7 +20,6 @@ import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import jetbrains.mps.editor.runtime.style.Padding;
 import jetbrains.mps.editor.runtime.style.Measure;
-import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.baseLanguage.dates.constraints.DateTimePropertFormatTokenUtil;
 
 public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
@@ -38,7 +37,7 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
     editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_q7na0t_a0(editorContext, node));
     editorCell.addEditorCell(this.createRefCell_q7na0t_b0(editorContext, node));
-    if (renderingCondition_q7na0t_a2a(node, editorContext, editorContext.getOperationContext().getScope())) {
+    if (renderingCondition_q7na0t_a2a(node, editorContext)) {
       editorCell.addEditorCell(this.createRefCell_q7na0t_c0(editorContext, node));
     }
     editorCell.addEditorCell(this.createConstant_q7na0t_d0(editorContext, node));
@@ -173,7 +172,7 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
     }
   }
 
-  private static boolean renderingCondition_q7na0t_a2a(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_q7na0t_a2a(SNode node, EditorContext editorContext) {
     return !(DateTimePropertFormatTokenUtil.isFormatTypeDefault(node));
   }
 

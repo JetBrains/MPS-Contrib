@@ -14,24 +14,22 @@
   <unitInfo fileName="SimpleAttribute_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlInternal.behavior.SimpleAttribute_BehaviorDescriptor" />
   <unitInfo fileName="SimpleElement_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.xmlInternal.behavior.SimpleElement_BehaviorDescriptor" />
   <unitInfo fileName="StatementElement_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.xmlInternal.behavior.StatementElement_BehaviorDescriptor" />
-  <unitInfo fileName="XmlFile_BehaviorDescriptor.java" startLine="12" startPosition="0" endLine="29" endPosition="0" unitName="jetbrains.mps.xmlInternal.behavior.XmlFile_BehaviorDescriptor" />
+  <unitInfo fileName="XmlFile_BehaviorDescriptor.java" startLine="11" startPosition="0" endLine="28" endPosition="0" unitName="jetbrains.mps.xmlInternal.behavior.XmlFile_BehaviorDescriptor" />
   <root nodeRef="r:00000000-0000-4000-0000-011c8959058e(jetbrains.mps.xmlInternal.behavior)/1213877487338">
-    <nodeInfo nodeId="1213877487341" fileName="XmlFile_Behavior.java" startLine="13" startPosition="85" endLine="14" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1213877487338" fileName="XmlFile_Behavior.java" startLine="10" startPosition="0" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="1213877487338" fileName="XmlFile_Behavior.java" startLine="13" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getSchema_1213877420378#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/smodel/IScope;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <scopeInfo nodeId="1213877487349" fileName="XmlFile_Behavior.java" startLine="10" startPosition="43" endLine="10" endPosition="43" />
-    <scopeInfo nodeId="1213877487340" fileName="XmlFile_Behavior.java" startLine="13" startPosition="85" endLine="14" endPosition="64" />
-    <scopeInfo nodeId="1213877487338" fileName="XmlFile_Behavior.java" startLine="10" startPosition="0" endLine="12" endPosition="0">
+    <nodeInfo nodeId="1213877487341" fileName="XmlFile_Behavior.java" startLine="12" startPosition="71" endLine="13" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1213877487338" fileName="XmlFile_Behavior.java" startLine="9" startPosition="0" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="1213877487338" fileName="XmlFile_Behavior.java" startLine="12" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getSchema_1213877420378#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <scopeInfo nodeId="1213877487349" fileName="XmlFile_Behavior.java" startLine="9" startPosition="43" endLine="9" endPosition="43" />
+    <scopeInfo nodeId="1213877487340" fileName="XmlFile_Behavior.java" startLine="12" startPosition="71" endLine="13" endPosition="64" />
+    <scopeInfo nodeId="1213877487338" fileName="XmlFile_Behavior.java" startLine="9" startPosition="0" endLine="11" endPosition="0">
       <varInfo nodeId="1213877487338" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="1213877487338" fileName="XmlFile_Behavior.java" startLine="13" startPosition="0" endLine="16" endPosition="0">
-      <varInfo nodeId="1213877487345" varName="scope" />
+    <scopeInfo nodeId="1213877487338" fileName="XmlFile_Behavior.java" startLine="12" startPosition="0" endLine="15" endPosition="0">
       <varInfo nodeId="1213877487338" varName="thisNode" />
     </scopeInfo>
-    <unitInfo nodeId="1213877487338" fileName="XmlFile_Behavior.java" startLine="9" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.xmlInternal.behavior.XmlFile_Behavior" />
+    <unitInfo nodeId="1213877487338" fileName="XmlFile_Behavior.java" startLine="8" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlInternal.behavior.XmlFile_Behavior" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c8959058e(jetbrains.mps.xmlInternal.behavior)/1262430001741498766">
-    <nodeInfo nodeId="1262430001741498764" fileName="SimpleElement_Behavior.java" startLine="12" startPosition="93" endLine="13" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1262430001741498764" fileName="SimpleElement_Behavior.java" startLine="12" startPosition="93" endLine="13" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1262430001741498766" fileName="SimpleElement_Behavior.java" startLine="9" startPosition="0" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
     <nodeInfo nodeId="1262430001741498766" fileName="SimpleElement_Behavior.java" startLine="12" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_isComplex_1262430001741498088#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)Z" />
@@ -46,7 +44,6 @@
     <unitInfo nodeId="1262430001741498766" fileName="SimpleElement_Behavior.java" startLine="8" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlInternal.behavior.SimpleElement_Behavior" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c8959058e(jetbrains.mps.xmlInternal.behavior)/1262430001741647616">
-    <nodeInfo nodeId="1262430001741647614" fileName="StatementElement_Behavior.java" startLine="12" startPosition="93" endLine="13" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1262430001741647614" fileName="StatementElement_Behavior.java" startLine="12" startPosition="93" endLine="13" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1262430001741647616" fileName="StatementElement_Behavior.java" startLine="9" startPosition="0" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
     <nodeInfo nodeId="1262430001741647616" fileName="StatementElement_Behavior.java" startLine="12" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_isComplex_1262430001741498088#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)Z" />

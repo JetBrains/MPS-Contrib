@@ -2,57 +2,57 @@
 <debugInfo>
   <unitInfo fileName="TypesystemDescriptor.java" startLine="8" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.typesystem.TypesystemDescriptor" />
   <root nodeRef="r:d43ac4df-d36f-42ee-9923-a53d21b79525(jetbrains.mps.xmlUnitTest.typesystem)/5211164146776489225">
-    <nodeInfo nodeId="5211164146776491224" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="20" startPosition="5" endLine="21" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5211164146776491224" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="21" startPosition="49" endLine="22" endPosition="202" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5211164146776491224" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="22" startPosition="202" endLine="23" endPosition="279" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5211164146776489225" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="27" startPosition="46" endLine="28" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5211164146776489225" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="32" startPosition="5" endLine="33" endPosition="130" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5211164146776489225" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="33" startPosition="130" endLine="34" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5211164146776489225" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="38" startPosition="30" endLine="39" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5211164146776491229" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="42" startPosition="61" endLine="43" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5211164146776491229" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="43" startPosition="63" endLine="44" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5211164146776491229" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="44" startPosition="30" endLine="45" endPosition="161" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="5211164146776491229" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="44" startPosition="30" endLine="45" endPosition="161" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="5211164146776491229" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="44" startPosition="30" endLine="45" endPosition="161" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5211164146776491229" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="45" startPosition="161" endLine="46" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5211164146776489225" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="16" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="typeof_XMLStringLiteral_InferenceRule#()V" />
-    <nodeInfo nodeId="5211164146776489225" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="27" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getApplicableConceptFQName#()Ljava/lang/String;" />
-    <nodeInfo nodeId="5211164146776489225" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="38" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="overrides#()Z" />
-    <nodeInfo nodeId="5211164146776489225" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="31" startPosition="68" endLine="35" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="5211164146776491224" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="19" startPosition="120" endLine="24" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="5211164146776489225" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="31" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
-    <nodeInfo nodeId="5211164146776491229" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="42" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_e9zs51_a0a0b#()Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="5211164146776489225" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="19" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
-    <scopeInfo nodeId="5211164146776489225" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="16" startPosition="50" endLine="16" endPosition="50" />
-    <scopeInfo nodeId="5211164146776489225" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="27" startPosition="46" endLine="28" endPosition="66" />
-    <scopeInfo nodeId="5211164146776489225" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="38" startPosition="30" endLine="39" endPosition="17" />
-    <scopeInfo nodeId="5211164146776491229" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="44" startPosition="30" endLine="45" endPosition="161" />
-    <scopeInfo nodeId="5211164146776489225" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="16" startPosition="0" endLine="18" endPosition="0" />
-    <scopeInfo nodeId="5211164146776489225" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="32" startPosition="5" endLine="34" endPosition="45">
+    <nodeInfo nodeId="5211164146776491224" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="19" startPosition="5" endLine="20" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5211164146776491224" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="20" startPosition="49" endLine="21" endPosition="202" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5211164146776491224" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="21" startPosition="202" endLine="22" endPosition="279" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5211164146776489225" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="26" startPosition="46" endLine="27" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5211164146776489225" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="31" startPosition="5" endLine="32" endPosition="130" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5211164146776489225" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="32" startPosition="130" endLine="33" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5211164146776489225" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="37" startPosition="30" endLine="38" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5211164146776491229" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="41" startPosition="61" endLine="42" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5211164146776491229" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="42" startPosition="63" endLine="43" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5211164146776491229" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="43" startPosition="30" endLine="44" endPosition="134" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5211164146776491229" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="43" startPosition="30" endLine="44" endPosition="134" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5211164146776491229" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="43" startPosition="30" endLine="44" endPosition="134" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5211164146776491229" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="44" startPosition="134" endLine="45" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5211164146776489225" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="15" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="typeof_XMLStringLiteral_InferenceRule#()V" />
+    <nodeInfo nodeId="5211164146776489225" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="26" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getApplicableConceptFQName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="5211164146776489225" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="37" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="overrides#()Z" />
+    <nodeInfo nodeId="5211164146776489225" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="30" startPosition="68" endLine="34" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5211164146776491224" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="18" startPosition="120" endLine="23" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5211164146776489225" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="30" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+    <nodeInfo nodeId="5211164146776491229" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="41" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_e9zs51_a0a0b#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="5211164146776489225" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="18" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+    <scopeInfo nodeId="5211164146776489225" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="15" startPosition="50" endLine="15" endPosition="50" />
+    <scopeInfo nodeId="5211164146776489225" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="26" startPosition="46" endLine="27" endPosition="66" />
+    <scopeInfo nodeId="5211164146776489225" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="37" startPosition="30" endLine="38" endPosition="17" />
+    <scopeInfo nodeId="5211164146776491229" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="43" startPosition="30" endLine="44" endPosition="134" />
+    <scopeInfo nodeId="5211164146776489225" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="15" startPosition="0" endLine="17" endPosition="0" />
+    <scopeInfo nodeId="5211164146776489225" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="31" startPosition="5" endLine="33" endPosition="45">
       <varInfo nodeId="5211164146776489225" varName="b" />
     </scopeInfo>
-    <scopeInfo nodeId="5211164146776491224" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="20" startPosition="5" endLine="23" endPosition="279">
+    <scopeInfo nodeId="5211164146776491224" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="19" startPosition="5" endLine="22" endPosition="279">
       <varInfo nodeId="5211164146776491224" varName="_info_12389875345" />
       <varInfo nodeId="5211164146776491224" varName="_nodeToCheck_1029348928467" />
     </scopeInfo>
-    <scopeInfo nodeId="5211164146776489225" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="27" startPosition="0" endLine="30" endPosition="0" />
-    <scopeInfo nodeId="5211164146776489225" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="38" startPosition="0" endLine="41" endPosition="0" />
-    <scopeInfo nodeId="5211164146776489225" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="31" startPosition="68" endLine="35" endPosition="5" />
-    <scopeInfo nodeId="5211164146776491229" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="42" startPosition="61" endLine="46" endPosition="24">
+    <scopeInfo nodeId="5211164146776489225" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="26" startPosition="0" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="5211164146776489225" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="37" startPosition="0" endLine="40" endPosition="0" />
+    <scopeInfo nodeId="5211164146776489225" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="30" startPosition="68" endLine="34" endPosition="5" />
+    <scopeInfo nodeId="5211164146776491229" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="41" startPosition="61" endLine="45" endPosition="24">
       <varInfo nodeId="5211164146776491229" varName="facade" />
       <varInfo nodeId="5211164146776491229" varName="quotedNode_1" />
     </scopeInfo>
-    <scopeInfo nodeId="5211164146776489226" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="19" startPosition="120" endLine="24" endPosition="5" />
-    <scopeInfo nodeId="5211164146776489225" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="31" startPosition="0" endLine="37" endPosition="0">
+    <scopeInfo nodeId="5211164146776489226" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="18" startPosition="120" endLine="23" endPosition="5" />
+    <scopeInfo nodeId="5211164146776489225" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="30" startPosition="0" endLine="36" endPosition="0">
       <varInfo nodeId="5211164146776489225" varName="argument" />
     </scopeInfo>
-    <scopeInfo nodeId="5211164146776491229" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="42" startPosition="0" endLine="48" endPosition="0" />
-    <scopeInfo nodeId="5211164146776489225" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="19" startPosition="0" endLine="26" endPosition="0">
+    <scopeInfo nodeId="5211164146776491229" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="41" startPosition="0" endLine="47" endPosition="0" />
+    <scopeInfo nodeId="5211164146776489225" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="18" startPosition="0" endLine="25" endPosition="0">
       <varInfo nodeId="5211164146776489225" varName="literal" />
       <varInfo nodeId="5211164146776489225" varName="status" />
       <varInfo nodeId="5211164146776489225" varName="typeCheckingContext" />
     </scopeInfo>
-    <unitInfo nodeId="5211164146776489225" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="15" startPosition="0" endLine="49" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.typesystem.typeof_XMLStringLiteral_InferenceRule" />
+    <unitInfo nodeId="5211164146776489225" fileName="typeof_XMLStringLiteral_InferenceRule.java" startLine="14" startPosition="0" endLine="48" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.typesystem.typeof_XMLStringLiteral_InferenceRule" />
   </root>
 </debugInfo>
 

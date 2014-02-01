@@ -25,7 +25,6 @@ import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
-import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import org.jetbrains.mps.openapi.language.SConceptRepository;
 import jetbrains.mps.util.NameUtil;
@@ -54,7 +53,7 @@ public class RunConfigurationBody implements ConceptEditorComponent {
     editorCell.addEditorCell(this.createConstant_mrxxs6_f0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_mrxxs6_g0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_mrxxs6_h0(editorContext, node));
-    if (renderingCondition_mrxxs6_a8a(node, editorContext, editorContext.getOperationContext().getScope())) {
+    if (renderingCondition_mrxxs6_a8a(node, editorContext)) {
       editorCell.addEditorCell(this.createCollection_mrxxs6_i0(editorContext, node));
     }
     editorCell.addEditorCell(this.createConstant_mrxxs6_j0(editorContext, node));
@@ -125,10 +124,10 @@ public class RunConfigurationBody implements ConceptEditorComponent {
     style.set(StyleAttributes.SELECTABLE, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_mrxxs6_a2a(editorContext, node));
-    if (renderingCondition_mrxxs6_a1c0(node, editorContext, editorContext.getOperationContext().getScope())) {
+    if (renderingCondition_mrxxs6_a1c0(node, editorContext)) {
       editorCell.addEditorCell(this.createRefNode_mrxxs6_b2a(editorContext, node));
     }
-    if (renderingCondition_mrxxs6_a2c0(node, editorContext, editorContext.getOperationContext().getScope())) {
+    if (renderingCondition_mrxxs6_a2c0(node, editorContext)) {
       editorCell.addEditorCell(this.createRefNode_mrxxs6_c2a(editorContext, node));
     }
     return editorCell;
@@ -161,7 +160,7 @@ public class RunConfigurationBody implements ConceptEditorComponent {
     return editorCell;
   }
 
-  private static boolean renderingCondition_mrxxs6_a1c0(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_mrxxs6_a1c0(SNode node, EditorContext editorContext) {
     return BehaviorReflection.invokeVirtualStatic(Boolean.TYPE, SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SNodeOperations.getConceptDeclaration(node))), "virtual_requiresCustomEditor_1262430001741498265", new Object[]{});
   }
 
@@ -185,7 +184,7 @@ public class RunConfigurationBody implements ConceptEditorComponent {
     return editorCell;
   }
 
-  private static boolean renderingCondition_mrxxs6_a2c0(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_mrxxs6_a2c0(SNode node, EditorContext editorContext) {
     return !(BehaviorReflection.invokeVirtualStatic(Boolean.TYPE, SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SNodeOperations.getConceptDeclaration(node))), "virtual_requiresCustomEditor_1262430001741498265", new Object[]{}));
   }
 
@@ -270,7 +269,7 @@ public class RunConfigurationBody implements ConceptEditorComponent {
     return editorCell;
   }
 
-  private static boolean renderingCondition_mrxxs6_a8a(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_mrxxs6_a8a(SNode node, EditorContext editorContext) {
     return ListSequence.fromList(SLinkOperations.getTargets(node, "executionParameter", true)).isNotEmpty();
   }
 

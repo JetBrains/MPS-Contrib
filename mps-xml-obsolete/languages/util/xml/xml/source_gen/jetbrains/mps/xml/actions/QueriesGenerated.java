@@ -54,7 +54,7 @@ public class QueriesGenerated {
         Iterable<SNode> queryResult = new Computable<Iterable<SNode>>() {
           public Iterable<SNode> compute() {
             List<SNode> attributeDeclarations = new ArrayList<SNode>();
-            SNode parentlementDeclaration = ElementUtil.getParentElementDeclaration(_context.getParentNode(), operationContext.getScope());
+            SNode parentlementDeclaration = ElementUtil.getParentElementDeclaration(_context.getParentNode());
             if ((parentlementDeclaration != null)) {
               ListSequence.fromList(attributeDeclarations).addSequence(ListSequence.fromList(ElementDeclaration_Behavior.call_getAttributeDeclarations_1213877429821(parentlementDeclaration)));
             }
@@ -63,7 +63,7 @@ public class QueriesGenerated {
         }.compute();
         if (queryResult != null) {
           for (final SNode item : queryResult) {
-            ListSequence.fromList(result).addElement(new DefaultChildNodeSubstituteAction(outputConcept, item, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
+            ListSequence.fromList(result).addElement(new DefaultChildNodeSubstituteAction(outputConcept, item, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter()) {
               public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
                 SNode attribute = SNodeFactoryOperations.createNewNode(model, "jetbrains.mps.xml.structure.Attribute", _context.getCurrentTargetNode());
                 SLinkOperations.setTarget(attribute, "attributeDeclaration", (item), false);
@@ -92,7 +92,7 @@ public class QueriesGenerated {
       SNode outputConcept = SConceptOperations.findConceptDeclaration("jetbrains.mps.xml.structure.Text");
       SNode childConcept = (SNode) _context.getChildConcept();
       if (outputConcept == null || SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName(outputConcept))) {
-        ListSequence.fromList(result).addElement(new DefaultSimpleSubstituteAction(outputConcept, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
+        ListSequence.fromList(result).addElement(new DefaultSimpleSubstituteAction(outputConcept, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter()) {
           public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
             SNode text = SNodeFactoryOperations.createNewNode("jetbrains.mps.xml.structure.Text", _context.getCurrentTargetNode());
             if (pattern.length() > 0) {
@@ -130,7 +130,7 @@ public class QueriesGenerated {
     List<SubstituteAction> result = ListSequence.fromList(new ArrayList<SubstituteAction>());
     final SNode parentElement = new Computable<SNode>() {
       public SNode compute() {
-        return ElementUtil.getParentElementDeclaration(_context.getParentNode(), operationContext.getScope());
+        return ElementUtil.getParentElementDeclaration(_context.getParentNode());
       }
     }.compute();
     final boolean isMixed = new Computable<Boolean>() {
@@ -144,12 +144,12 @@ public class QueriesGenerated {
       if (SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName(outputConcept))) {
         Iterable<SNode> queryResult = new Computable<Iterable<SNode>>() {
           public Iterable<SNode> compute() {
-            return ElementUtil.getElementDeclarations(parentElement, _context.getParentNode(), operationContext.getScope());
+            return ElementUtil.getElementDeclarations(parentElement, _context.getParentNode());
           }
         }.compute();
         if (queryResult != null) {
           for (final SNode item : queryResult) {
-            ListSequence.fromList(result).addElement(new DefaultChildNodeSubstituteAction(outputConcept, item, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
+            ListSequence.fromList(result).addElement(new DefaultChildNodeSubstituteAction(outputConcept, item, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter()) {
               public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
                 SNode prototype;
                 if (SNodeOperations.isInstanceOf(_context.getCurrentTargetNode(), "jetbrains.mps.xml.structure.Text") && pattern.equals(SPropertyOperations.getString(SNodeOperations.cast(_context.getCurrentTargetNode(), "jetbrains.mps.xml.structure.Text"), "text"))) {
@@ -184,7 +184,7 @@ public class QueriesGenerated {
     {
       Computable calc = new Computable() {
         public Object compute() {
-          return ElementUtil.getParentElementDeclaration(_context.getParentNode(), operationContext.getScope());
+          return ElementUtil.getParentElementDeclaration(_context.getParentNode());
         }
       };
       parentElement = (SNode) calc.compute();

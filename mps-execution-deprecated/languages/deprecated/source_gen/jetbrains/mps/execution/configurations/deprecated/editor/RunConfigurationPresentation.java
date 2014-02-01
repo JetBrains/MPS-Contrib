@@ -17,7 +17,6 @@ import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
-import jetbrains.mps.smodel.IScope;
 import org.jetbrains.mps.openapi.module.SModule;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.project.AbstractModule;
@@ -113,7 +112,7 @@ public class RunConfigurationPresentation implements ConceptEditorComponent {
 
   private EditorCell createAlternation_ltb2bm_b1a(EditorContext editorContext, SNode node) {
     boolean alternationCondition = true;
-    alternationCondition = RunConfigurationPresentation.renderingCondition_ltb2bm_a1b0(node, editorContext, editorContext.getOperationContext().getScope());
+    alternationCondition = RunConfigurationPresentation.renderingCondition_ltb2bm_a1b0(node, editorContext);
     EditorCell editorCell = null;
     if (alternationCondition) {
       editorCell = this.createCollection_ltb2bm_a1b0(editorContext, node);
@@ -123,7 +122,7 @@ public class RunConfigurationPresentation implements ConceptEditorComponent {
     return editorCell;
   }
 
-  private static boolean renderingCondition_ltb2bm_a1b0(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_ltb2bm_a1b0(SNode node, EditorContext editorContext) {
     String path = null;
     SModule module = SNodeOperations.getModel(node).getModule();
     if (module instanceof AbstractModule) {

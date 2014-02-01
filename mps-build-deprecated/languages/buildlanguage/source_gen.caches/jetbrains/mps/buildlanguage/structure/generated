@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="dml0mhziq5cr1af33s0er0o3yxkv22g">
+<dependencies version="2" modelHash="4wu416niaby2rfr0xryp3u8ppmejjjn">
   <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel.runtime.impl(MPS.Core/jetbrains.mps.smodel.runtime.impl@java_stub)" />
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="-2hubvwh7bwismm0eld02cqmdefvj5by" />
   <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" hash="-18rci04s2u92vopawqedkce2noitsf3" />
-  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-49z6ix1osbf4bcfsrs690f77hhwnlqa" />
-  <dep model="r:00000000-0000-4000-0000-011c8959032f(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.main@generator)" hash="3o1u5zqpl0y3uzzfiounih1jeir2hjx" />
-  <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="-cng60gwjd8nfkret78zysb03xky5zcp" />
-  <common hash="-9lohlulkbr67kz7l5293v214j6h063x" dependsOnNodes="true">
+  <dep model="r:00000000-0000-4000-0000-011c8959032f(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.main@generator)" hash="-gr2zs39ir60re4v2cnhxizxzi8x804" />
+  <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="-678kcoxyd773tflbpxsyyz58cxkoyqd" />
+  <common hash="4sxn5weusqke65su4h029ktjuy2fz3p" dependsOnNodes="true">
     <dep root="1196851066733" />
     <dep root="1196851087779" />
     <dep root="1196851099544" />
@@ -50,7 +49,6 @@
     <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel.runtime.impl(MPS.Core/jetbrains.mps.smodel.runtime.impl@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
-    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c8959032f(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.main@generator)" />
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="StructureAspectDescriptor.java" />
@@ -70,7 +68,7 @@
   <source id="1196870403099" name="StringType" hash="d1d3y90l3gz1epf36jw48vkfjw9diuw" />
   <source id="1196870417350" name="IntegerType" hash="2ppcmhiir4y5n6ngh7tdaivc7powrr5" />
   <source id="1196870830058" name="PropertyType" hash="c2v995e3n98qe8m8ea7704io9xbiz04" />
-  <source id="1197107841918" name="BinaryOperation" hash="-bntep02ya8ejrgy3mixhiwyn8qdgpj3" />
+  <source id="1197107841918" name="BinaryOperation" hash="-71ku65kmtkm00lqdfzlyehfbdm0d61g" />
   <source id="1197108973325" name="PlusOperation" hash="eljkvyaclll11x0qk3trc701ew2tr8d" />
   <source id="1197398796434" name="Enum" hash="1h4clt5xobo24qhnu1o69q0ck4uzila" />
   <source id="1197399151554" name="StringEnum" hash="-84jh6swjwsmijdabwvvv757zhrf5ruj" />
@@ -80,7 +78,7 @@
   <source id="1199644616584" name="IProjectComponent" hash="-2gh1l7zzsqn1u3p9ovx6ud2omk4c7w6" />
   <source id="1200418817047" name="ImportPropertyNode" hash="-4rwn7rlnvjs1eopfbz8n8zc2h7xbqol" />
   <source id="1200510908478" name="CallReferenceType" hash="3tc44qoqxi4zgb3ffzgwsqkms2f295g" />
-  <source id="1200511852076" name="CallReference" hash="eb6bjum0ke61tbl7baaykugdkfo2eqj" />
+  <source id="1200511852076" name="CallReference" hash="-4p0ql8i97y9gjjwtjp1ac77jauurg0k" />
   <source id="1201111033873" name="ISource" hash="-bwettkst7ary46i4wy49nl9yshy53dl" />
   <source id="1201259656252" name="ICommented" hash="5ccsjqn1ogznhosbk1y2ueju39fw7j5" />
   <source id="1201701678947" name="TargetReferencePropertyValueExpression" hash="-6n5auf0tiq5lnmui6oltlcixc5kjeke" />

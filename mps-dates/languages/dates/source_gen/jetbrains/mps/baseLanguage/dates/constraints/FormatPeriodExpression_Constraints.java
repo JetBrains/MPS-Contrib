@@ -35,7 +35,7 @@ public class FormatPeriodExpression_Constraints extends BaseConstraintsDescripto
         return new BaseReferenceScopeProvider() {
           @Override
           public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
-            return DateFormatReferenceUtil.buildIPeriodFormatSearchScope(_context.getEnclosingNode(), operationContext.getScope());
+            return DateFormatReferenceUtil.buildIPeriodFormatSearchScope(_context.getEnclosingNode());
           }
 
           @Override

@@ -26,7 +26,6 @@ import jetbrains.mps.openapi.editor.cells.CellActionType;
 import jetbrains.mps.nodeEditor.cellActions.CellAction_DeleteNode;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultReferenceSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
-import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
 import jetbrains.mps.nodeEditor.InlineCellProvider;
@@ -50,7 +49,7 @@ public class InlineFormatDateTimeExpression_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createConstant_wdrux0_c0(editorContext, node));
     editorCell.addEditorCell(this.createRefNodeList_wdrux0_d0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_wdrux0_e0(editorContext, node));
-    if (renderingCondition_wdrux0_a5a(node, editorContext, editorContext.getOperationContext().getScope())) {
+    if (renderingCondition_wdrux0_a5a(node, editorContext)) {
       editorCell.addEditorCell(this.createCollection_wdrux0_f0(editorContext, node));
     }
     return editorCell;
@@ -184,7 +183,7 @@ public class InlineFormatDateTimeExpression_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static boolean renderingCondition_wdrux0_a5a(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_wdrux0_a5a(SNode node, EditorContext editorContext) {
     return (SLinkOperations.getTarget(node, "locale", false) != null);
   }
 

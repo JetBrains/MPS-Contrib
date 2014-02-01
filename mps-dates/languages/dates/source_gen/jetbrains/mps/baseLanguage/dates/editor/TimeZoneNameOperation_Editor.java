@@ -18,7 +18,6 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.lang.editor.generator.internal.AbstractCellMenuPart_PropertyValues;
 import java.util.List;
-import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
@@ -46,7 +45,7 @@ public class TimeZoneNameOperation_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createConstant_vkak8k_c0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_vkak8k_d0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_vkak8k_e0(editorContext, node));
-    if (renderingCondition_vkak8k_a5a(node, editorContext, editorContext.getOperationContext().getScope())) {
+    if (renderingCondition_vkak8k_a5a(node, editorContext)) {
       editorCell.addEditorCell(this.createCollection_vkak8k_f0(editorContext, node));
     }
     return editorCell;
@@ -77,7 +76,7 @@ public class TimeZoneNameOperation_Editor extends DefaultNodeEditor {
     public TimeZoneNameOperation_property_cellMenu_vkak8k_a0a0() {
     }
 
-    public List<String> getPropertyValues(SNode node, IScope scope, IOperationContext operationContext, EditorContext editorContext) {
+    public List<String> getPropertyValues(SNode node, IOperationContext operationContext, EditorContext editorContext) {
       List<String> l = ListSequence.fromList(new ArrayList<String>(2));
       ListSequence.fromList(l).addElement("name");
       ListSequence.fromList(l).addElement("short name");
@@ -151,7 +150,7 @@ public class TimeZoneNameOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static boolean renderingCondition_vkak8k_a5a(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_vkak8k_a5a(SNode node, EditorContext editorContext) {
     return (SLinkOperations.getTarget(node, "locale", false) != null);
   }
 

@@ -17,7 +17,6 @@ import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.editor.runtime.style.Padding;
 import jetbrains.mps.editor.runtime.style.Measure;
-import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
@@ -43,10 +42,10 @@ public class AttributeDeclaration_Editor extends DefaultNodeEditor {
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createRefNode_vddsqv_a0a(editorContext, node));
     editorCell.addEditorCell(this.createProperty_vddsqv_b0a(editorContext, node));
-    if (renderingCondition_vddsqv_a2a0(node, editorContext, editorContext.getOperationContext().getScope())) {
+    if (renderingCondition_vddsqv_a2a0(node, editorContext)) {
       editorCell.addEditorCell(this.createCollection_vddsqv_c0a(editorContext, node));
     }
-    if (renderingCondition_vddsqv_a3a0(node, editorContext, editorContext.getOperationContext().getScope())) {
+    if (renderingCondition_vddsqv_a3a0(node, editorContext)) {
       editorCell.addEditorCell(this.createCollection_vddsqv_d0a(editorContext, node));
     }
     return editorCell;
@@ -104,7 +103,7 @@ public class AttributeDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static boolean renderingCondition_vddsqv_a2a0(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_vddsqv_a2a0(SNode node, EditorContext editorContext) {
     return SLinkOperations.getTarget(node, "initializer", true) != null;
   }
 
@@ -148,7 +147,7 @@ public class AttributeDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static boolean renderingCondition_vddsqv_a3a0(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_vddsqv_a3a0(SNode node, EditorContext editorContext) {
     return SLinkOperations.getTarget(node, "onChange", true) != null;
   }
 

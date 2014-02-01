@@ -6,7 +6,6 @@ import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.openapi.editor.cells.EditorCell;
 import jetbrains.mps.openapi.editor.EditorContext;
 import org.jetbrains.mps.openapi.model.SNode;
-import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
@@ -28,7 +27,7 @@ public class Sequence_Editor extends DefaultNodeEditor {
 
   private EditorCell createAlternation_6lwes5_a(EditorContext editorContext, SNode node) {
     boolean alternationCondition = true;
-    alternationCondition = Sequence_Editor.renderingCondition_6lwes5_a0(node, editorContext, editorContext.getOperationContext().getScope());
+    alternationCondition = Sequence_Editor.renderingCondition_6lwes5_a0(node, editorContext);
     EditorCell editorCell = null;
     if (alternationCondition) {
       editorCell = this.createCollection_6lwes5_a0(editorContext, node);
@@ -39,7 +38,7 @@ public class Sequence_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static boolean renderingCondition_6lwes5_a0(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_6lwes5_a0(SNode node, EditorContext editorContext) {
     return SPropertyOperations.getBoolean(SLinkOperations.getTarget(node, "typeExpressionList", true), "isVertical");
   }
 

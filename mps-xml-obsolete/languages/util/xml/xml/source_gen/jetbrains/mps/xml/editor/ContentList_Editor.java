@@ -6,7 +6,6 @@ import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.openapi.editor.cells.EditorCell;
 import jetbrains.mps.openapi.editor.EditorContext;
 import org.jetbrains.mps.openapi.model.SNode;
-import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.xml.behavior.ContentList_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
@@ -37,7 +36,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
 
   private EditorCell createAlternation_bs144a_a(EditorContext editorContext, SNode node) {
     boolean alternationCondition = true;
-    alternationCondition = ContentList_Editor.renderingCondition_bs144a_a0(node, editorContext, editorContext.getOperationContext().getScope());
+    alternationCondition = ContentList_Editor.renderingCondition_bs144a_a0(node, editorContext);
     EditorCell editorCell = null;
     if (alternationCondition) {
       editorCell = this.createAlternation_bs144a_a0(editorContext, node);
@@ -48,13 +47,13 @@ public class ContentList_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static boolean renderingCondition_bs144a_a0(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_bs144a_a0(SNode node, EditorContext editorContext) {
     return ContentList_Behavior.call_isHorizontal_1221256530294(node);
   }
 
   private EditorCell createAlternation_bs144a_a0(EditorContext editorContext, SNode node) {
     boolean alternationCondition = true;
-    alternationCondition = ContentList_Editor.renderingCondition_bs144a_a0a(node, editorContext, editorContext.getOperationContext().getScope());
+    alternationCondition = ContentList_Editor.renderingCondition_bs144a_a0a(node, editorContext);
     EditorCell editorCell = null;
     if (alternationCondition) {
       editorCell = this.createRefNodeList_bs144a_a0a(editorContext, node);
@@ -64,7 +63,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static boolean renderingCondition_bs144a_a0a(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_bs144a_a0a(SNode node, EditorContext editorContext) {
     return SNodeOperations.isInstanceOf(SNodeOperations.getParent(node), "jetbrains.mps.xml.structure.BaseElement");
   }
 
@@ -224,7 +223,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
 
   private EditorCell createAlternation_bs144a_a0_0(EditorContext editorContext, SNode node) {
     boolean alternationCondition = true;
-    alternationCondition = ContentList_Editor.renderingCondition_bs144a_a0a_0(node, editorContext, editorContext.getOperationContext().getScope());
+    alternationCondition = ContentList_Editor.renderingCondition_bs144a_a0a_0(node, editorContext);
     EditorCell editorCell = null;
     if (alternationCondition) {
       editorCell = this.createCollection_bs144a_a0a_0(editorContext, node);
@@ -234,7 +233,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static boolean renderingCondition_bs144a_a0a_0(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_bs144a_a0a_0(SNode node, EditorContext editorContext) {
     return SNodeOperations.isInstanceOf(SNodeOperations.getParent(node), "jetbrains.mps.xml.structure.ContentList");
   }
 

@@ -8,7 +8,6 @@ import jetbrains.mps.smodel.runtime.PropertyConstraintsDescriptor;
 import java.util.HashMap;
 import jetbrains.mps.smodel.runtime.base.BasePropertyConstraintsDescriptor;
 import org.jetbrains.mps.openapi.model.SNode;
-import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.runtime.ReferenceConstraintsDescriptor;
 import jetbrains.mps.smodel.runtime.base.BaseReferenceConstraintsDescriptor;
@@ -36,7 +35,7 @@ public class PeriodPropertyFormatToken_Constraints extends BaseConstraintsDescri
       }
 
       @Override
-      public boolean validateValue(SNode node, String propertyValue, IScope scope) {
+      public boolean validateValue(SNode node, String propertyValue) {
         String propertyName = "minDigits";
         return (SPropertyOperations.getInteger(propertyValue)) > 0 && (SPropertyOperations.getInteger(propertyValue)) < 20;
       }
@@ -70,7 +69,7 @@ public class PeriodPropertyFormatToken_Constraints extends BaseConstraintsDescri
 
           @Override
           public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
-            return DateFormatReferenceUtil.buildPeriodPropertySearchScope(_context.getEnclosingNode(), operationContext.getScope());
+            return DateFormatReferenceUtil.buildPeriodPropertySearchScope(_context.getEnclosingNode());
           }
 
           @Override

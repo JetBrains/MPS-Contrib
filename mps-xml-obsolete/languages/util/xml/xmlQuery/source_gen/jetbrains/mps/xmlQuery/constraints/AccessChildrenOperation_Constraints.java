@@ -56,7 +56,7 @@ public class AccessChildrenOperation_Constraints extends BaseConstraintsDescript
                 }
               });
             }
-            List<SNode> elementDeclarations = ElementUtil.getElementDeclarations(elementDeclaration, _context.getEnclosingNode(), operationContext.getScope());
+            List<SNode> elementDeclarations = ElementUtil.getElementDeclarations(elementDeclaration, _context.getEnclosingNode());
             return elementDeclarations;
           }
 

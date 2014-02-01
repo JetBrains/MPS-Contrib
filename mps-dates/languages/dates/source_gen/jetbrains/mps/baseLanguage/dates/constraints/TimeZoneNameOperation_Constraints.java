@@ -11,7 +11,6 @@ import java.util.Map;
 import jetbrains.mps.smodel.runtime.PropertyConstraintsDescriptor;
 import java.util.HashMap;
 import jetbrains.mps.smodel.runtime.base.BasePropertyConstraintsDescriptor;
-import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.typesystem.inference.TypeChecker;
@@ -50,7 +49,7 @@ public class TimeZoneNameOperation_Constraints extends BaseConstraintsDescriptor
       }
 
       @Override
-      public boolean validateValue(SNode node, String propertyValue, IScope scope) {
+      public boolean validateValue(SNode node, String propertyValue) {
         String propertyName = "property";
         return (SPropertyOperations.getString(propertyValue)).equals("short name") || (SPropertyOperations.getString(propertyValue)).equals("name");
       }

@@ -18,7 +18,6 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.nodeEditor.InlineCellProvider;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
-import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.build.generictasks.behavior.AttributeDeclaration_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
@@ -36,10 +35,10 @@ public class Attribute_EditorComponent implements ConceptEditorComponent {
   private EditorCell createCollection_y32exi_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_y32exi_a");
-    if (renderingCondition_y32exi_a0a(node, editorContext, editorContext.getOperationContext().getScope())) {
+    if (renderingCondition_y32exi_a0a(node, editorContext)) {
       editorCell.addEditorCell(this.createRefCell_y32exi_a0(editorContext, node));
     }
-    if (renderingCondition_y32exi_a1a(node, editorContext, editorContext.getOperationContext().getScope())) {
+    if (renderingCondition_y32exi_a1a(node, editorContext)) {
       editorCell.addEditorCell(this.createRefCell_y32exi_b0(editorContext, node));
     }
     editorCell.addEditorCell(this.createConstant_y32exi_c0(editorContext, node));
@@ -108,7 +107,7 @@ public class Attribute_EditorComponent implements ConceptEditorComponent {
     }
   }
 
-  private static boolean renderingCondition_y32exi_a0a(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_y32exi_a0a(SNode node, EditorContext editorContext) {
     return !(AttributeDeclaration_Behavior.call_isDeprecated_353793545802643819(SLinkOperations.getTarget(node, "attributeDeclaration", false)));
   }
 
@@ -170,7 +169,7 @@ public class Attribute_EditorComponent implements ConceptEditorComponent {
     }
   }
 
-  private static boolean renderingCondition_y32exi_a1a(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_y32exi_a1a(SNode node, EditorContext editorContext) {
     return AttributeDeclaration_Behavior.call_isDeprecated_353793545802643819(SLinkOperations.getTarget(node, "attributeDeclaration", false));
   }
 

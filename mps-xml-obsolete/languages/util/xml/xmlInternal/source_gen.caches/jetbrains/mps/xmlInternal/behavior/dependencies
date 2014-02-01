@@ -112,7 +112,6 @@
   </dependency>
   <dependency className="jetbrains.mps.xmlInternal.behavior.XmlFile_Behavior" file="XmlFile_Behavior.java">
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
-    <classNode dependClassName="jetbrains.mps.smodel.IScope" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
   </dependency>
   <dependency className="jetbrains.mps.xmlInternal.behavior.XmlFile_BehaviorDescriptor" file="XmlFile_BehaviorDescriptor.java">
@@ -121,7 +120,6 @@
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
-    <classNode dependClassName="jetbrains.mps.smodel.IScope" />
     <classNode dependClassName="jetbrains.mps.xml.behavior.XmlRoot_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.xmlInternal.behavior.XmlFile_Behavior" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />

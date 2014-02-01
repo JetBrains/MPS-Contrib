@@ -16,7 +16,6 @@ import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
-import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.baseLanguage.dates.behavior.ScheduleLiteral_Behavior;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
@@ -32,10 +31,10 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Collection_53656_a");
     editorCell.setBig(true);
     editorCell.addEditorCell(this.createRefCell_53656_a0(editorContext, node));
-    if (renderingCondition_53656_a1a(node, editorContext, editorContext.getOperationContext().getScope())) {
+    if (renderingCondition_53656_a1a(node, editorContext)) {
       editorCell.addEditorCell(this.createCollection_53656_b0(editorContext, node));
     }
-    if (renderingCondition_53656_a2a(node, editorContext, editorContext.getOperationContext().getScope())) {
+    if (renderingCondition_53656_a2a(node, editorContext)) {
       editorCell.addEditorCell(this.createCollection_53656_c0(editorContext, node));
     }
     return editorCell;
@@ -103,19 +102,19 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     style.set(StyleAttributes.SELECTABLE, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_53656_a1a(editorContext, node));
-    if (renderingCondition_53656_a1b0(node, editorContext, editorContext.getOperationContext().getScope())) {
+    if (renderingCondition_53656_a1b0(node, editorContext)) {
       editorCell.addEditorCell(this.createCollection_53656_b1a(editorContext, node));
     }
-    if (renderingCondition_53656_a2b0(node, editorContext, editorContext.getOperationContext().getScope())) {
+    if (renderingCondition_53656_a2b0(node, editorContext)) {
       editorCell.addEditorCell(this.createProperty_53656_c1a(editorContext, node));
     }
-    if (renderingCondition_53656_a3b0(node, editorContext, editorContext.getOperationContext().getScope())) {
+    if (renderingCondition_53656_a3b0(node, editorContext)) {
       editorCell.addEditorCell(this.createProperty_53656_d1a(editorContext, node));
     }
     return editorCell;
   }
 
-  private static boolean renderingCondition_53656_a1a(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_53656_a1a(SNode node, EditorContext editorContext) {
     return ScheduleLiteral_Behavior.call_hasDay_1213877270117(node);
   }
 
@@ -140,7 +139,7 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static boolean renderingCondition_53656_a1b0(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_53656_a1b0(SNode node, EditorContext editorContext) {
     return SPropertyOperations.getBoolean(SLinkOperations.getTarget(node, "schedulePeriod", false), "month");
   }
 
@@ -228,7 +227,7 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static boolean renderingCondition_53656_a2b0(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_53656_a2b0(SNode node, EditorContext editorContext) {
     return SPropertyOperations.getBoolean(SLinkOperations.getTarget(node, "schedulePeriod", false), "dayOfMonth");
   }
 
@@ -250,7 +249,7 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static boolean renderingCondition_53656_a3b0(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_53656_a3b0(SNode node, EditorContext editorContext) {
     return SPropertyOperations.getBoolean(SLinkOperations.getTarget(node, "schedulePeriod", false), "dayOfWeek");
   }
 
@@ -261,13 +260,13 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     style.set(StyleAttributes.SELECTABLE, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_53656_a2a(editorContext, node));
-    if (renderingCondition_53656_a1c0(node, editorContext, editorContext.getOperationContext().getScope())) {
+    if (renderingCondition_53656_a1c0(node, editorContext)) {
       editorCell.addEditorCell(this.createCollection_53656_b2a(editorContext, node));
     }
     return editorCell;
   }
 
-  private static boolean renderingCondition_53656_a2a(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_53656_a2a(SNode node, EditorContext editorContext) {
     return ScheduleLiteral_Behavior.call_hasTime_1213877270139(node);
   }
 
@@ -287,14 +286,14 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     Style style = new StyleImpl();
     style.set(StyleAttributes.SELECTABLE, false);
     editorCell.getStyle().putAll(style);
-    if (renderingCondition_53656_a0b2a(node, editorContext, editorContext.getOperationContext().getScope())) {
+    if (renderingCondition_53656_a0b2a(node, editorContext)) {
       editorCell.addEditorCell(this.createCollection_53656_a1c0(editorContext, node));
     }
     editorCell.addEditorCell(this.createProperty_53656_b1c0(editorContext, node));
     return editorCell;
   }
 
-  private static boolean renderingCondition_53656_a1c0(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_53656_a1c0(SNode node, EditorContext editorContext) {
     return SPropertyOperations.getBoolean(SLinkOperations.getTarget(node, "schedulePeriod", false), "second");
   }
 
@@ -304,7 +303,7 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     Style style = new StyleImpl();
     style.set(StyleAttributes.SELECTABLE, false);
     editorCell.getStyle().putAll(style);
-    if (renderingCondition_53656_a0a1c0(node, editorContext, editorContext.getOperationContext().getScope())) {
+    if (renderingCondition_53656_a0a1c0(node, editorContext)) {
       editorCell.addEditorCell(this.createCollection_53656_a0b2a(editorContext, node));
     }
     editorCell.addEditorCell(this.createProperty_53656_b0b2a(editorContext, node));
@@ -312,7 +311,7 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static boolean renderingCondition_53656_a0b2a(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_53656_a0b2a(SNode node, EditorContext editorContext) {
     return SPropertyOperations.getBoolean(SLinkOperations.getTarget(node, "schedulePeriod", false), "minute");
   }
 
@@ -327,7 +326,7 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static boolean renderingCondition_53656_a0a1c0(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_53656_a0a1c0(SNode node, EditorContext editorContext) {
     return SPropertyOperations.getBoolean(SLinkOperations.getTarget(node, "schedulePeriod", false), "hour");
   }
 

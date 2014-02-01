@@ -47,7 +47,7 @@ public class PeriodReferenceFormatToken_Constraints extends BaseConstraintsDescr
 
           @Override
           public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
-            return DateFormatReferenceUtil.buildIPeriodFormatSearchScope(_context.getEnclosingNode(), operationContext.getScope());
+            return DateFormatReferenceUtil.buildIPeriodFormatSearchScope(_context.getEnclosingNode());
           }
 
           @Override

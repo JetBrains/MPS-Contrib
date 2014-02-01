@@ -18,7 +18,6 @@ import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.buildlanguage.editor.BuildLanguageStyle_StyleSheet;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
-import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.build.generictasks.behavior.AttributeDeclaration_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
@@ -36,10 +35,10 @@ public class GenericAttributeDeclaration_EditorComponent implements ConceptEdito
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_es1meb_a");
     editorCell.addEditorCell(this.createCollection_es1meb_a0(editorContext, node));
-    if (renderingCondition_es1meb_a1a(node, editorContext, editorContext.getOperationContext().getScope())) {
+    if (renderingCondition_es1meb_a1a(node, editorContext)) {
       editorCell.addEditorCell(this.createCollection_es1meb_b0(editorContext, node));
     }
-    if (renderingCondition_es1meb_a2a(node, editorContext, editorContext.getOperationContext().getScope())) {
+    if (renderingCondition_es1meb_a2a(node, editorContext)) {
       editorCell.addEditorCell(this.createCollection_es1meb_c0(editorContext, node));
     }
     return editorCell;
@@ -104,7 +103,7 @@ public class GenericAttributeDeclaration_EditorComponent implements ConceptEdito
     return editorCell;
   }
 
-  private static boolean renderingCondition_es1meb_a1a(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_es1meb_a1a(SNode node, EditorContext editorContext) {
     return (!(AttributeDeclaration_Behavior.call_isRequired_353793545802643811(node)) && (SLinkOperations.getTarget(node, "default", true) != null)) || editorContext.isInspector();
   }
 
@@ -154,7 +153,7 @@ public class GenericAttributeDeclaration_EditorComponent implements ConceptEdito
     return editorCell;
   }
 
-  private static boolean renderingCondition_es1meb_a2a(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_es1meb_a2a(SNode node, EditorContext editorContext) {
     return AttributeDeclaration_Behavior.call_isDeprecated_353793545802643819(node) || editorContext.isInspector();
   }
 

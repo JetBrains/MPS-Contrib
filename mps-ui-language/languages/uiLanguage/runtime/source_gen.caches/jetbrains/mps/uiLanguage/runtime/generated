@@ -1,32 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependencies version="2" modelHash="3hithiq1c3kg05iwybfrn5of4tdaki8">
-  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-49z6ix1osbf4bcfsrs690f77hhwnlqa" />
   <common hash="dywbv5th6ai161orrwwbintycp89et9" dependsOnNodes="true" />
   <source id="5606982432899038941" name="HBoxPanel" hash="78ynh7hwisv3j26ky7dowlfhg6boitz">
-    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <file name="HBoxPanel.java" />
   </source>
   <source id="5606982432899038956" name="ValueWrapper" hash="8b6ce90o0b0kq2drrrlsd5plc08fex8">
     <file name="ValueWrapper.java" />
   </source>
   <source id="5606982432899038963" name="FlowPanel" hash="98awc1d5lnp9gnxpfe2l6z9htrfiujv">
-    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <file name="FlowPanel.java" />
   </source>
   <source id="5606982432899038977" name="VBoxPanel" hash="dwgg529am9m3zshv3829mqt0443ddil">
-    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <file name="VBoxPanel.java" />
   </source>
   <source id="5606982432899038992" name="SimpleListModel" hash="9ip4brlygbqqz4036xhfi9osljhxvdw">
-    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <file name="SimpleListModel.java" />
   </source>
   <source id="3987693689859617965" name="JbRadioButton" hash="-aemzxvpud439ttq0hipiwpdj02htdfp">
-    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <file name="JbRadioButton.java" />
   </source>
   <source id="3987693689859618023" name="BaseBean" hash="-10vglyt89sdhgn9vn6qxcq16mgnenzc">
-    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <file name="BaseBean.java" />
   </source>
 </dependencies>

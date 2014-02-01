@@ -12,7 +12,6 @@ import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
-import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
@@ -38,17 +37,17 @@ public class PeriodPropertyFormatToken_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Collection_ed1xw0_a");
     editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_ed1xw0_a0(editorContext, node));
-    if (renderingCondition_ed1xw0_a1a(node, editorContext, editorContext.getOperationContext().getScope())) {
+    if (renderingCondition_ed1xw0_a1a(node, editorContext)) {
       editorCell.addEditorCell(this.createCollection_ed1xw0_b0(editorContext, node));
     }
-    if (renderingCondition_ed1xw0_a2a(node, editorContext, editorContext.getOperationContext().getScope())) {
+    if (renderingCondition_ed1xw0_a2a(node, editorContext)) {
       editorCell.addEditorCell(this.createConstant_ed1xw0_c0(editorContext, node));
     }
     editorCell.addEditorCell(this.createRefCell_ed1xw0_d0(editorContext, node));
-    if (renderingCondition_ed1xw0_a4a(node, editorContext, editorContext.getOperationContext().getScope())) {
+    if (renderingCondition_ed1xw0_a4a(node, editorContext)) {
       editorCell.addEditorCell(this.createCollection_ed1xw0_e0(editorContext, node));
     }
-    if (renderingCondition_ed1xw0_a5a(node, editorContext, editorContext.getOperationContext().getScope())) {
+    if (renderingCondition_ed1xw0_a5a(node, editorContext)) {
       editorCell.addEditorCell(this.createCollection_ed1xw0_f0(editorContext, node));
     }
     editorCell.addEditorCell(this.createConstant_ed1xw0_g0(editorContext, node));
@@ -72,13 +71,13 @@ public class PeriodPropertyFormatToken_Editor extends DefaultNodeEditor {
     style.set(StyleAttributes.SELECTABLE, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createProperty_ed1xw0_a1a(editorContext, node));
-    if (renderingCondition_ed1xw0_a1b0(node, editorContext, editorContext.getOperationContext().getScope())) {
+    if (renderingCondition_ed1xw0_a1b0(node, editorContext)) {
       editorCell.addEditorCell(this.createCollection_ed1xw0_b1a(editorContext, node));
     }
     return editorCell;
   }
 
-  private static boolean renderingCondition_ed1xw0_a1a(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_ed1xw0_a1a(SNode node, EditorContext editorContext) {
     return isNotEmptyString(SPropertyOperations.getString(node, "prefix"));
   }
 
@@ -115,7 +114,7 @@ public class PeriodPropertyFormatToken_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static boolean renderingCondition_ed1xw0_a1b0(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_ed1xw0_a1b0(SNode node, EditorContext editorContext) {
     return isNotEmptyString(SPropertyOperations.getString(node, "prefixPlural"));
   }
 
@@ -163,7 +162,7 @@ public class PeriodPropertyFormatToken_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static boolean renderingCondition_ed1xw0_a2a(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_ed1xw0_a2a(SNode node, EditorContext editorContext) {
     return !(SPropertyOperations.hasValue(node, "zeroHandling", "never", "never"));
   }
 
@@ -236,7 +235,7 @@ public class PeriodPropertyFormatToken_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static boolean renderingCondition_ed1xw0_a4a(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_ed1xw0_a4a(SNode node, EditorContext editorContext) {
     return SPropertyOperations.getInteger(node, "minDigits") > 1;
   }
 
@@ -276,13 +275,13 @@ public class PeriodPropertyFormatToken_Editor extends DefaultNodeEditor {
     style.set(StyleAttributes.SELECTABLE, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createProperty_ed1xw0_a5a(editorContext, node));
-    if (renderingCondition_ed1xw0_a1f0(node, editorContext, editorContext.getOperationContext().getScope())) {
+    if (renderingCondition_ed1xw0_a1f0(node, editorContext)) {
       editorCell.addEditorCell(this.createCollection_ed1xw0_b5a(editorContext, node));
     }
     return editorCell;
   }
 
-  private static boolean renderingCondition_ed1xw0_a5a(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_ed1xw0_a5a(SNode node, EditorContext editorContext) {
     return isNotEmptyString(SPropertyOperations.getString(node, "suffix"));
   }
 
@@ -319,7 +318,7 @@ public class PeriodPropertyFormatToken_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static boolean renderingCondition_ed1xw0_a1f0(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_ed1xw0_a1f0(SNode node, EditorContext editorContext) {
     return isNotEmptyString(SPropertyOperations.getString(node, "suffixPlural"));
   }
 

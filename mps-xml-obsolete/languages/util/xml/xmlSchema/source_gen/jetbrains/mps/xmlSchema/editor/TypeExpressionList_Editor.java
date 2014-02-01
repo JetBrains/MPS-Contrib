@@ -6,7 +6,6 @@ import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.openapi.editor.cells.EditorCell;
 import jetbrains.mps.openapi.editor.EditorContext;
 import org.jetbrains.mps.openapi.model.SNode;
-import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
@@ -31,7 +30,7 @@ public class TypeExpressionList_Editor extends DefaultNodeEditor {
 
   private EditorCell createAlternation_kgtkmm_a(EditorContext editorContext, SNode node) {
     boolean alternationCondition = true;
-    alternationCondition = TypeExpressionList_Editor.renderingCondition_kgtkmm_a0(node, editorContext, editorContext.getOperationContext().getScope());
+    alternationCondition = TypeExpressionList_Editor.renderingCondition_kgtkmm_a0(node, editorContext);
     EditorCell editorCell = null;
     if (alternationCondition) {
       editorCell = this.createRefNodeList_kgtkmm_a0(editorContext, node);
@@ -42,7 +41,7 @@ public class TypeExpressionList_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static boolean renderingCondition_kgtkmm_a0(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_kgtkmm_a0(SNode node, EditorContext editorContext) {
     return SPropertyOperations.getBoolean(node, "isVertical");
   }
 

@@ -19,7 +19,6 @@ import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import jetbrains.mps.editor.runtime.style.Padding;
 import jetbrains.mps.editor.runtime.style.Measure;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
-import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
 import jetbrains.mps.nodeEditor.InlineCellProvider;
@@ -48,7 +47,7 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createProperty_ehy6fr_b0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_ehy6fr_c0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_ehy6fr_d0(editorContext, node));
-    if (renderingCondition_ehy6fr_a4a(node, editorContext, editorContext.getOperationContext().getScope())) {
+    if (renderingCondition_ehy6fr_a4a(node, editorContext)) {
       editorCell.addEditorCell(this.createCollection_ehy6fr_e0(editorContext, node));
     }
     return editorCell;
@@ -142,7 +141,7 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static boolean renderingCondition_ehy6fr_a4a(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_ehy6fr_a4a(SNode node, EditorContext editorContext) {
     return (SLinkOperations.getTarget(node, "datetimeProperty", false) != null);
   }
 

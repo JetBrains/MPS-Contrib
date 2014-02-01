@@ -15,7 +15,6 @@ import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
-import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Component;
 import javax.swing.JComponent;
@@ -79,7 +78,7 @@ public class PngIcon_Editor extends DefaultNodeEditor {
 
   private EditorCell createAlternation_4kucyt_d0(EditorContext editorContext, SNode node) {
     boolean alternationCondition = true;
-    alternationCondition = PngIcon_Editor.renderingCondition_4kucyt_a3a(node, editorContext, editorContext.getOperationContext().getScope());
+    alternationCondition = PngIcon_Editor.renderingCondition_4kucyt_a3a(node, editorContext);
     EditorCell editorCell = null;
     if (alternationCondition) {
       editorCell = this.createJComponent_4kucyt_a3a(editorContext, node);
@@ -89,7 +88,7 @@ public class PngIcon_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static boolean renderingCondition_4kucyt_a3a(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_4kucyt_a3a(SNode node, EditorContext editorContext) {
     return isNotEmptyString(SPropertyOperations.getString(node, "iconData"));
   }
 

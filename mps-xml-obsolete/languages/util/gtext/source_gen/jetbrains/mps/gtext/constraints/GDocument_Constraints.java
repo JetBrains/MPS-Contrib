@@ -8,7 +8,6 @@ import jetbrains.mps.smodel.runtime.PropertyConstraintsDescriptor;
 import java.util.HashMap;
 import jetbrains.mps.smodel.runtime.base.BasePropertyConstraintsDescriptor;
 import org.jetbrains.mps.openapi.model.SNode;
-import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class GDocument_Constraints extends BaseConstraintsDescriptor {
@@ -26,7 +25,7 @@ public class GDocument_Constraints extends BaseConstraintsDescriptor {
       }
 
       @Override
-      public Object getValue(SNode node, IScope scope) {
+      public Object getValue(SNode node) {
         String propertyName = "name";
         return SPropertyOperations.getString(node, "documentName");
       }
@@ -37,7 +36,7 @@ public class GDocument_Constraints extends BaseConstraintsDescriptor {
       }
 
       @Override
-      public void setValue(SNode node, String propertyValue, IScope scope) {
+      public void setValue(SNode node, String propertyValue) {
         String propertyName = "name";
         // R/O 
       }

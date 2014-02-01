@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependencies version="2" modelHash="a1b0clnkdp55spqlabgl8ot7qon772s">
-  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-49z6ix1osbf4bcfsrs690f77hhwnlqa" />
   <common hash="-dhzwlbqrqxc5i6fh55xem1edcfr7uzm" dependsOnNodes="true" />
   <source id="3987693689859618102" name="ListenerId" hash="2uf304e8v1ed43xfgc64nd6c6v6jfuw">
-    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <file name="ListenerId.java" />
   </source>
   <source id="3987693689859618179" name="IListener" hash="3j9fjkj2tuqu75q4mt4589w8ohz0ts4">
     <file name="IListener.java" />
   </source>
   <source id="3987693689859618187" name="Event" hash="8eqktxrqj2igqgq945tplwt6wlc8qp6">
-    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <file name="Event.java" />
   </source>
   <source id="3987693689859618260" name="Events" hash="-5v85f60ix7b06ufisr5adkz2k4r95h8">
-    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <file name="Events.java" />
   </source>
 </dependencies>

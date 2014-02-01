@@ -8,7 +8,6 @@ import jetbrains.mps.smodel.runtime.PropertyConstraintsDescriptor;
 import java.util.HashMap;
 import jetbrains.mps.smodel.runtime.base.BasePropertyConstraintsDescriptor;
 import org.jetbrains.mps.openapi.model.SNode;
-import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.runtime.ReferenceConstraintsDescriptor;
@@ -43,7 +42,7 @@ public class Element_Constraints extends BaseConstraintsDescriptor {
       }
 
       @Override
-      public Object getValue(SNode node, IScope scope) {
+      public Object getValue(SNode node) {
         String propertyName = "alias";
         return SPropertyOperations.getString(SLinkOperations.getTarget(node, "elementDeclaration", false), "elementName");
       }
@@ -68,9 +67,9 @@ public class Element_Constraints extends BaseConstraintsDescriptor {
           public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
             ISearchScope searchScope;
             SNode element = SNodeOperations.getAncestor(_context.getEnclosingNode(), "jetbrains.mps.xml.structure.Element", false, false);
-            List<SNode> elementDeclarations = ElementUtil.getElementDeclarations(SLinkOperations.getTarget(element, "elementDeclaration", false), _context.getEnclosingNode(), operationContext.getScope());
+            List<SNode> elementDeclarations = ElementUtil.getElementDeclarations(SLinkOperations.getTarget(element, "elementDeclaration", false), _context.getEnclosingNode());
             if (ListSequence.fromList(elementDeclarations).isEmpty()) {
-              searchScope = SModelSearchUtil.createModelAndImportedModelsScope(_context.getModel(), false, operationContext.getScope());
+              searchScope = SModelSearchUtil.createModelAndImportedModelsScope(_context.getModel(), false);
             } else {
               searchScope = new SimpleSearchScope(elementDeclarations);
             }

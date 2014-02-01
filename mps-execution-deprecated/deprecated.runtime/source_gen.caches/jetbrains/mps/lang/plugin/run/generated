@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependencies version="2" modelHash="-dht6ymyhyl4zfp5i39izihvgu7j1flr">
-  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-49z6ix1osbf4bcfsrs690f77hhwnlqa" />
   <common hash="-7exqcrxh6u46hpuona5emy32mxcrzvc" dependsOnNodes="true" />
   <source id="8321286824330329604" name="DefaultOsProcessHandler" hash="-7blgh5k1vs0jhlb22nj8swuvlekl5i7">
     <file name="DefaultOsProcessHandler.java" />
   </source>
   <source id="8321286824330329630" name="DefaultProcessHandler" hash="9e67f9zbm6zapxuhjpqxb7npvlbbjca">
-    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <file name="DefaultProcessHandler.java" />
   </source>
 </dependencies>

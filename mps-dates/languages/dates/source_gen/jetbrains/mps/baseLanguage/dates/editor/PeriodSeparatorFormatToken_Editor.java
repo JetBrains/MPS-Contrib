@@ -22,7 +22,6 @@ import jetbrains.mps.openapi.editor.style.StyleRegistry;
 import jetbrains.mps.nodeEditor.MPSColors;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
-import jetbrains.mps.smodel.IScope;
 
 public class PeriodSeparatorFormatToken_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
@@ -39,7 +38,7 @@ public class PeriodSeparatorFormatToken_Editor extends DefaultNodeEditor {
     editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_ih8plz_a0(editorContext, node));
     editorCell.addEditorCell(this.createProperty_ih8plz_b0(editorContext, node));
-    if (renderingCondition_ih8plz_a2a(node, editorContext, editorContext.getOperationContext().getScope())) {
+    if (renderingCondition_ih8plz_a2a(node, editorContext)) {
       editorCell.addEditorCell(this.createCollection_ih8plz_c0(editorContext, node));
     }
     editorCell.addEditorCell(this.createConstant_ih8plz_d0(editorContext, node));
@@ -95,7 +94,7 @@ public class PeriodSeparatorFormatToken_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static boolean renderingCondition_ih8plz_a2a(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_ih8plz_a2a(SNode node, EditorContext editorContext) {
     return isNotEmptyString(SPropertyOperations.getString(node, "lastText")) && SPropertyOperations.hasValue(node, "kind", "default", "default");
   }
 
@@ -152,7 +151,7 @@ public class PeriodSeparatorFormatToken_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Collection_ih8plz_a_0");
     editorCell.setBig(true);
     editorCell.addEditorCell(this.createCollection_ih8plz_a0(editorContext, node));
-    if (renderingCondition_ih8plz_a1a(node, editorContext, editorContext.getOperationContext().getScope())) {
+    if (renderingCondition_ih8plz_a1a(node, editorContext)) {
       editorCell.addEditorCell(this.createCollection_ih8plz_b0(editorContext, node));
     }
     editorCell.addEditorCell(this.createCollection_ih8plz_c0_0(editorContext, node));
@@ -210,7 +209,7 @@ public class PeriodSeparatorFormatToken_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static boolean renderingCondition_ih8plz_a1a(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_ih8plz_a1a(SNode node, EditorContext editorContext) {
     return SPropertyOperations.hasValue(node, "kind", "default", "default");
   }
 

@@ -15,7 +15,6 @@ import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.buildlanguage.editor.BuildLanguageStyle_StyleSheet;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
-import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
@@ -54,7 +53,7 @@ public class TaskInterfaceDeclaration_Editor extends DefaultNodeEditor {
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createComponent_hzqec3_a0a(editorContext, node));
     editorCell.addEditorCell(this.createProperty_hzqec3_b0a(editorContext, node));
-    if (renderingCondition_hzqec3_a2a0(node, editorContext, editorContext.getOperationContext().getScope())) {
+    if (renderingCondition_hzqec3_a2a0(node, editorContext)) {
       editorCell.addEditorCell(this.createCollection_hzqec3_c0a(editorContext, node));
     }
     return editorCell;
@@ -97,7 +96,7 @@ public class TaskInterfaceDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static boolean renderingCondition_hzqec3_a2a0(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_hzqec3_a2a0(SNode node, EditorContext editorContext) {
     return ListSequence.fromList(SLinkOperations.getTargets(node, "interfaces", true)).count() > 0;
   }
 

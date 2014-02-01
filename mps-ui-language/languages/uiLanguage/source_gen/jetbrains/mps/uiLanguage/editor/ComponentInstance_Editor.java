@@ -16,7 +16,6 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.nodeEditor.InlineCellProvider;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
-import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Indent;
@@ -54,7 +53,7 @@ public class ComponentInstance_Editor extends DefaultNodeEditor {
     style.set(StyleAttributes.SELECTABLE, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createRefCell_9hod0t_a0a(editorContext, node));
-    if (renderingCondition_9hod0t_a1a0(node, editorContext, editorContext.getOperationContext().getScope())) {
+    if (renderingCondition_9hod0t_a1a0(node, editorContext)) {
       editorCell.addEditorCell(this.createCollection_9hod0t_b0a(editorContext, node));
     }
     return editorCell;
@@ -130,7 +129,7 @@ public class ComponentInstance_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static boolean renderingCondition_9hod0t_a1a0(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_9hod0t_a1a0(SNode node, EditorContext editorContext) {
     return SPropertyOperations.getString(node, "name") != null;
   }
 

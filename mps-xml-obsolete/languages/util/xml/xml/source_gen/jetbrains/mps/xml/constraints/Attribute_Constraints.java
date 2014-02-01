@@ -42,9 +42,9 @@ public class Attribute_Constraints extends BaseConstraintsDescriptor {
           @Override
           public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
             ISearchScope searchScope;
-            SNode elementDeclaration = ElementUtil.getParentElementDeclaration(_context.getEnclosingNode(), operationContext.getScope());
+            SNode elementDeclaration = ElementUtil.getParentElementDeclaration(_context.getEnclosingNode());
             if ((elementDeclaration == null)) {
-              searchScope = SModelSearchUtil.createModelAndImportedModelsScope(_context.getModel(), false, operationContext.getScope());
+              searchScope = SModelSearchUtil.createModelAndImportedModelsScope(_context.getModel(), false);
             } else {
               searchScope = new SimpleSearchScope(ElementDeclaration_Behavior.call_getAttributeDeclarations_1213877429821(elementDeclaration));
             }

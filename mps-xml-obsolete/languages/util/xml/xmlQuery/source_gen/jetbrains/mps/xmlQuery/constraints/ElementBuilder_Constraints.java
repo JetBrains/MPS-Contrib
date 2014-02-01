@@ -50,7 +50,7 @@ public class ElementBuilder_Constraints extends BaseConstraintsDescriptor {
             if (contextBuilder == null) {
               return new ModelAndImportedModelsScope(_context.getModel(), false);
             } else if (SNodeOperations.isInstanceOf(contextBuilder, "jetbrains.mps.xmlQuery.structure.ElementBuilder")) {
-              return new SimpleSearchScope(ElementUtil.getElementDeclarations(SLinkOperations.getTarget(SNodeOperations.cast(contextBuilder, "jetbrains.mps.xmlQuery.structure.ElementBuilder"), "elementDeclaration", false), _context.getEnclosingNode(), operationContext.getScope()));
+              return new SimpleSearchScope(ElementUtil.getElementDeclarations(SLinkOperations.getTarget(SNodeOperations.cast(contextBuilder, "jetbrains.mps.xmlQuery.structure.ElementBuilder"), "elementDeclaration", false), _context.getEnclosingNode()));
             } else {
               return new EmptySearchScope();
             }

@@ -10,7 +10,6 @@ import jetbrains.mps.openapi.editor.EditorContext;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
-import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
@@ -29,10 +28,10 @@ public class GenericAttributeDeclarationInEnum_EditorComponent implements Concep
   private EditorCell createCollection_pdjfsm_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_pdjfsm_a");
-    if (renderingCondition_pdjfsm_a0a(node, editorContext, editorContext.getOperationContext().getScope())) {
+    if (renderingCondition_pdjfsm_a0a(node, editorContext)) {
       editorCell.addEditorCell(this.createConstant_pdjfsm_a0(editorContext, node));
     }
-    if (renderingCondition_pdjfsm_a1a(node, editorContext, editorContext.getOperationContext().getScope())) {
+    if (renderingCondition_pdjfsm_a1a(node, editorContext)) {
       editorCell.addEditorCell(this.createRefNode_pdjfsm_b0(editorContext, node));
     }
     return editorCell;
@@ -45,7 +44,7 @@ public class GenericAttributeDeclarationInEnum_EditorComponent implements Concep
     return editorCell;
   }
 
-  private static boolean renderingCondition_pdjfsm_a0a(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_pdjfsm_a0a(SNode node, EditorContext editorContext) {
     return (SLinkOperations.getTarget(node, "enum", true) != null) || editorContext.isInspector();
   }
 
@@ -69,7 +68,7 @@ public class GenericAttributeDeclarationInEnum_EditorComponent implements Concep
     return editorCell;
   }
 
-  private static boolean renderingCondition_pdjfsm_a1a(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_pdjfsm_a1a(SNode node, EditorContext editorContext) {
     return (SLinkOperations.getTarget(node, "enum", true) != null) || editorContext.isInspector();
   }
 }

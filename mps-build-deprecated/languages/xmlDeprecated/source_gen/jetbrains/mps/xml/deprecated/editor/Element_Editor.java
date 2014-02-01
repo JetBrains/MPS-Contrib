@@ -25,7 +25,6 @@ import jetbrains.mps.openapi.editor.cells.CellActionType;
 import jetbrains.mps.nodeEditor.cellActions.CellAction_DeleteNode;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultReferenceSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
-import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Indent;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Vertical;
@@ -46,10 +45,10 @@ public class Element_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Collection_76r4mg_a");
     editorCell.setBig(true);
     editorCell.addEditorCell(this.createCollection_76r4mg_a0(editorContext, node));
-    if (renderingCondition_76r4mg_a1a(node, editorContext, editorContext.getOperationContext().getScope())) {
+    if (renderingCondition_76r4mg_a1a(node, editorContext)) {
       editorCell.addEditorCell(this.createCollection_76r4mg_b0(editorContext, node));
     }
-    if (renderingCondition_76r4mg_a2a(node, editorContext, editorContext.getOperationContext().getScope())) {
+    if (renderingCondition_76r4mg_a2a(node, editorContext)) {
       editorCell.addEditorCell(this.createCollection_76r4mg_c0(editorContext, node));
     }
     return editorCell;
@@ -64,10 +63,10 @@ public class Element_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createConstant_76r4mg_a0a(editorContext, node));
     editorCell.addEditorCell(this.createProperty_76r4mg_b0a(editorContext, node));
     editorCell.addEditorCell(this.createRefNodeList_76r4mg_c0a(editorContext, node));
-    if (renderingCondition_76r4mg_a3a0(node, editorContext, editorContext.getOperationContext().getScope())) {
+    if (renderingCondition_76r4mg_a3a0(node, editorContext)) {
       editorCell.addEditorCell(this.createConstant_76r4mg_d0a(editorContext, node));
     }
-    if (renderingCondition_76r4mg_a4a0(node, editorContext, editorContext.getOperationContext().getScope())) {
+    if (renderingCondition_76r4mg_a4a0(node, editorContext)) {
       editorCell.addEditorCell(this.createConstant_76r4mg_e0a(editorContext, node));
     }
     return editorCell;
@@ -177,7 +176,7 @@ public class Element_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static boolean renderingCondition_76r4mg_a3a0(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_76r4mg_a3a0(SNode node, EditorContext editorContext) {
     return !(SPropertyOperations.getBoolean(node, "collapse"));
   }
 
@@ -192,7 +191,7 @@ public class Element_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static boolean renderingCondition_76r4mg_a4a0(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_76r4mg_a4a0(SNode node, EditorContext editorContext) {
     return SPropertyOperations.getBoolean(node, "collapse");
   }
 
@@ -207,7 +206,7 @@ public class Element_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static boolean renderingCondition_76r4mg_a1a(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_76r4mg_a1a(SNode node, EditorContext editorContext) {
     return !(SPropertyOperations.getBoolean(node, "collapse"));
   }
 
@@ -287,7 +286,7 @@ public class Element_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static boolean renderingCondition_76r4mg_a2a(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_76r4mg_a2a(SNode node, EditorContext editorContext) {
     return !(SPropertyOperations.getBoolean(node, "collapse"));
   }
 
@@ -339,7 +338,7 @@ public class Element_Editor extends DefaultNodeEditor {
     Style style = new StyleImpl();
     style.set(StyleAttributes.SELECTABLE, false);
     editorCell.getStyle().putAll(style);
-    if (renderingCondition_76r4mg_a0a(node, editorContext, editorContext.getOperationContext().getScope())) {
+    if (renderingCondition_76r4mg_a0a(node, editorContext)) {
       editorCell.addEditorCell(this.createCollection_76r4mg_a0_0(editorContext, node));
     }
     return editorCell;
@@ -353,7 +352,7 @@ public class Element_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static boolean renderingCondition_76r4mg_a0a(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_76r4mg_a0a(SNode node, EditorContext editorContext) {
     return ListSequence.fromList(SLinkOperations.getTargets(node, "content", true)).isEmpty();
   }
 

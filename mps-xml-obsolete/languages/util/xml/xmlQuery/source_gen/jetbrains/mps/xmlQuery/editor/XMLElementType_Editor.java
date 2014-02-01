@@ -17,7 +17,6 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.nodeEditor.InlineCellProvider;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
-import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.xml.editor.XmlStyle_StyleSheet;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Property;
@@ -35,10 +34,10 @@ public class XMLElementType_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createConstant_ohiupi_a0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_ohiupi_b0(editorContext, node));
     editorCell.addEditorCell(this.createRefCell_ohiupi_c0(editorContext, node));
-    if (renderingCondition_ohiupi_a3a(node, editorContext, editorContext.getOperationContext().getScope())) {
+    if (renderingCondition_ohiupi_a3a(node, editorContext)) {
       editorCell.addEditorCell(this.createConstant_ohiupi_d0(editorContext, node));
     }
-    if (renderingCondition_ohiupi_a4a(node, editorContext, editorContext.getOperationContext().getScope())) {
+    if (renderingCondition_ohiupi_a4a(node, editorContext)) {
       editorCell.addEditorCell(this.createRefCell_ohiupi_e0(editorContext, node));
     }
     editorCell.addEditorCell(this.createConstant_ohiupi_f0(editorContext, node));
@@ -130,7 +129,7 @@ public class XMLElementType_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static boolean renderingCondition_ohiupi_a3a(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_ohiupi_a3a(SNode node, EditorContext editorContext) {
     return (SLinkOperations.getTarget(node, "schema", false) != null);
   }
 
@@ -179,7 +178,7 @@ public class XMLElementType_Editor extends DefaultNodeEditor {
     }
   }
 
-  private static boolean renderingCondition_ohiupi_a4a(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_ohiupi_a4a(SNode node, EditorContext editorContext) {
     return (SLinkOperations.getTarget(node, "schema", false) != null);
   }
 

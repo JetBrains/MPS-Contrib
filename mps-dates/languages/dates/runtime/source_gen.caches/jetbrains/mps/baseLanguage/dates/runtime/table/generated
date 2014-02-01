@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependencies version="2" modelHash="b8lmhdafv6prhtwmzejmx02wcg5hoez">
-  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-49z6ix1osbf4bcfsrs690f77hhwnlqa" />
   <common hash="-6cw8dq57no8yocdt64usedqfl66tngz" dependsOnNodes="true" />
   <source id="734650238126519390" name="BasePeriodFormatTable" hash="37vyrb9eh9pvuqxkyl9b3fwxt6z33sx">
-    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <file name="BasePeriodFormatTable.java" />
   </source>
   <source id="734650238126519701" name="BaseFormatTable" hash="-8hyr37ec6cskwnev54bratqik5xjjr3">
-    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <file name="BaseFormatTable.java" />
   </source>
 </dependencies>

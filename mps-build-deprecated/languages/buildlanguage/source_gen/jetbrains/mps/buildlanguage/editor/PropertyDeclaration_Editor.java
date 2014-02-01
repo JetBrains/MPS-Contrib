@@ -10,7 +10,6 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
-import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
@@ -33,7 +32,7 @@ public class PropertyDeclaration_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_lnae77_a");
     editorCell.setBig(true);
-    if (renderingCondition_lnae77_a0a(node, editorContext, editorContext.getOperationContext().getScope())) {
+    if (renderingCondition_lnae77_a0a(node, editorContext)) {
       editorCell.addEditorCell(this.createCollection_lnae77_a0(editorContext, node));
     }
     editorCell.addEditorCell(this.createCollection_lnae77_b0(editorContext, node));
@@ -51,7 +50,7 @@ public class PropertyDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static boolean renderingCondition_lnae77_a0a(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_lnae77_a0a(SNode node, EditorContext editorContext) {
     return SPropertyOperations.getString(node, "shortDescription") != null;
   }
 
@@ -104,7 +103,7 @@ public class PropertyDeclaration_Editor extends DefaultNodeEditor {
     public PropertyDeclaration_generic_cellMenu_lnae77_a0b0() {
     }
 
-    public void handleAction(SNode node, SModel model, IScope scope, IOperationContext operationContext, EditorContext editorContext) {
+    public void handleAction(SNode node, SModel model, IOperationContext operationContext, EditorContext editorContext) {
       SPropertyOperations.set(node, "shortDescription", "");
     }
 

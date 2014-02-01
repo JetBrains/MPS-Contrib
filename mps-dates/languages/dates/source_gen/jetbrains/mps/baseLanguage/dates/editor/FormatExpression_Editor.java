@@ -11,7 +11,6 @@ import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
-import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.openapi.editor.style.Style;
@@ -41,12 +40,12 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Collection_vqr4da_a");
     editorCell.setBig(true);
     editorCell.addEditorCell(this.createRefNode_vqr4da_a0(editorContext, node));
-    if (renderingCondition_vqr4da_a1a(node, editorContext, editorContext.getOperationContext().getScope())) {
+    if (renderingCondition_vqr4da_a1a(node, editorContext)) {
       editorCell.addEditorCell(this.createCollection_vqr4da_b0(editorContext, node));
     }
     editorCell.addEditorCell(this.createConstant_vqr4da_c0(editorContext, node));
     editorCell.addEditorCell(this.createRefCell_vqr4da_d0(editorContext, node));
-    if (renderingCondition_vqr4da_a4a(node, editorContext, editorContext.getOperationContext().getScope())) {
+    if (renderingCondition_vqr4da_a4a(node, editorContext)) {
       editorCell.addEditorCell(this.createCollection_vqr4da_e0(editorContext, node));
     }
     return editorCell;
@@ -80,7 +79,7 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static boolean renderingCondition_vqr4da_a1a(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_vqr4da_a1a(SNode node, EditorContext editorContext) {
     return (SLinkOperations.getTarget(node, "zone", true) != null);
   }
 
@@ -198,7 +197,7 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static boolean renderingCondition_vqr4da_a4a(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_vqr4da_a4a(SNode node, EditorContext editorContext) {
     return (SLinkOperations.getTarget(node, "locale", false) != null);
   }
 

@@ -6,7 +6,6 @@ import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.openapi.editor.cells.EditorCell;
 import jetbrains.mps.openapi.editor.EditorContext;
 import org.jetbrains.mps.openapi.model.SNode;
-import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
@@ -31,7 +30,7 @@ public class GItemList_Editor extends DefaultNodeEditor {
 
   private EditorCell createAlternation_39hcsa_a(EditorContext editorContext, SNode node) {
     boolean alternationCondition = true;
-    alternationCondition = GItemList_Editor.renderingCondition_39hcsa_a0(node, editorContext, editorContext.getOperationContext().getScope());
+    alternationCondition = GItemList_Editor.renderingCondition_39hcsa_a0(node, editorContext);
     EditorCell editorCell = null;
     if (alternationCondition) {
       editorCell = this.createCollection_39hcsa_a0(editorContext, node);
@@ -42,7 +41,7 @@ public class GItemList_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static boolean renderingCondition_39hcsa_a0(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_39hcsa_a0(SNode node, EditorContext editorContext) {
     return BehaviorReflection.invokeVirtual(Boolean.TYPE, node, "virtual_isComplex_1213877298853", new Object[]{});
   }
 
