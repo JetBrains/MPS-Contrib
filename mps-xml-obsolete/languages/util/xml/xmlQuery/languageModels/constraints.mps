@@ -286,7 +286,6 @@
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3129600724328918848" resolveInfo="elementDeclaration" />
                 </node>
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tp1t.ConceptParameter_ReferentSearchScope_enclosingNode" typeId="tp1t.1148934636683" id="3014833108615640108" nodeInfo="nn" />
-                <node role="actualArgument" roleId="tpee.1068499141038" type="tpcw.ConceptFunctionParameter_scope" typeId="tpcw.1161622878565" id="1211753978542125472" nodeInfo="nn" />
               </node>
             </node>
           </node>
@@ -1360,7 +1359,6 @@
                           </node>
                         </node>
                         <node role="actualArgument" roleId="tpee.1068499141038" type="tp1t.ConceptParameter_ReferentSearchScope_enclosingNode" typeId="tp1t.1148934636683" id="8949395081772919946" nodeInfo="nn" />
-                        <node role="actualArgument" roleId="tpee.1068499141038" type="tpcw.ConceptFunctionParameter_scope" typeId="tpcw.1161622878565" id="8949395081772919947" nodeInfo="nn" />
                       </node>
                     </node>
                   </node>

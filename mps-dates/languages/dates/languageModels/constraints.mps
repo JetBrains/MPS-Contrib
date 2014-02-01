@@ -25,7 +25,6 @@
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
   <import index="tp2c" modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="tpcw" modelUID="r:00000000-0000-4000-0000-011c895902bc(jetbrains.mps.lang.sharedConcepts.structure)" version="0" implicit="yes" />
   <import index="tp3r" modelUID="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" version="0" implicit="yes" />
   <import index="tpd4" modelUID="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" version="3" implicit="yes" />
   <root type="tpee.ClassConcept" typeId="tpee.1068390468198" id="1173960152516" nodeInfo="ig">
@@ -183,9 +182,6 @@
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="9080200797439084631" nodeInfo="nn">
                 <property name="value" nameId="tpee.1068580123138" value="false" />
               </node>
-              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="1173977384993" nodeInfo="nn">
-                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1173977364968" resolveInfo="scope" />
-              </node>
             </node>
           </node>
         </node>
@@ -300,12 +296,6 @@
         <property name="name" nameId="tpck.1169194664001" value="node" />
         <node role="type" roleId="tpee.5680397130376446158" type="tp25.SNodeType" typeId="tp25.1138055754698" id="1173977280011" nodeInfo="in" />
       </node>
-      <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="1173977364968" nodeInfo="ir">
-        <property name="name" nameId="tpck.1169194664001" value="scope" />
-        <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="1173977369893" nodeInfo="in">
-          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="cu2c.~IScope" resolveInfo="IScope" />
-        </node>
-      </node>
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="1178546172567" nodeInfo="nn" />
     </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.StaticMethodDeclaration" typeId="tpee.1081236700938" id="34521615669576977" nodeInfo="igu">
@@ -329,9 +319,6 @@
               </node>
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="9080200797439097065" nodeInfo="nn">
                 <property name="value" nameId="tpee.1068580123138" value="false" />
-              </node>
-              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="34521615669576998" nodeInfo="nn">
-                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="34521615669576984" resolveInfo="scope" />
               </node>
             </node>
           </node>
@@ -480,12 +467,6 @@
         <property name="name" nameId="tpck.1169194664001" value="node" />
         <node role="type" roleId="tpee.5680397130376446158" type="tp25.SNodeType" typeId="tp25.1138055754698" id="34521615669576983" nodeInfo="in" />
       </node>
-      <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="34521615669576984" nodeInfo="ir">
-        <property name="name" nameId="tpck.1169194664001" value="scope" />
-        <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="34521615669576986" nodeInfo="in">
-          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="cu2c.~IScope" resolveInfo="IScope" />
-        </node>
-      </node>
     </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.StaticMethodDeclaration" typeId="tpee.1081236700938" id="5581663871699705091" nodeInfo="igu">
       <property name="name" nameId="tpck.1169194664001" value="buildPeriodPropertySearchScope" />
@@ -508,9 +489,6 @@
               </node>
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="9080200797439110326" nodeInfo="nn">
                 <property name="value" nameId="tpee.1068580123138" value="false" />
-              </node>
-              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="5581663871699705112" nodeInfo="nn">
-                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="5581663871699705098" resolveInfo="scope" />
               </node>
             </node>
           </node>
@@ -609,12 +587,6 @@
         <property name="name" nameId="tpck.1169194664001" value="node" />
         <node role="type" roleId="tpee.5680397130376446158" type="tp25.SNodeType" typeId="tp25.1138055754698" id="5581663871699705097" nodeInfo="in" />
       </node>
-      <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="5581663871699705098" nodeInfo="ir">
-        <property name="name" nameId="tpck.1169194664001" value="scope" />
-        <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="5581663871699705100" nodeInfo="in">
-          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="cu2c.~IScope" resolveInfo="IScope" />
-        </node>
-      </node>
     </node>
   </root>
   <root type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="1213104837351" nodeInfo="ng">
@@ -629,7 +601,6 @@
               <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1173977222265" resolveInfo="buildIDateFormatSearchScope" />
               <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="1173977205622" resolveInfo="DateFormatReferenceUtil" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tp1t.ConceptParameter_ReferentSearchScope_enclosingNode" typeId="tp1t.1148934636683" id="1213104837357" nodeInfo="nn" />
-              <node role="actualArgument" roleId="tpee.1068499141038" type="tpcw.ConceptFunctionParameter_scope" typeId="tpcw.1161622878565" id="1213104837358" nodeInfo="nn" />
             </node>
           </node>
         </node>
@@ -648,7 +619,6 @@
               <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="1173977205622" resolveInfo="DateFormatReferenceUtil" />
               <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1173977222265" resolveInfo="buildIDateFormatSearchScope" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tp1t.ConceptParameter_ReferentSearchScope_enclosingNode" typeId="tp1t.1148934636683" id="1213104846057" nodeInfo="nn" />
-              <node role="actualArgument" roleId="tpee.1068499141038" type="tpcw.ConceptFunctionParameter_scope" typeId="tpcw.1161622878565" id="1213104846058" nodeInfo="nn" />
             </node>
           </node>
         </node>
@@ -748,7 +718,6 @@
               <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="1173977205622" resolveInfo="DateFormatReferenceUtil" />
               <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1173977222265" resolveInfo="buildIDateFormatSearchScope" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tp1t.ConceptParameter_ReferentSearchScope_enclosingNode" typeId="tp1t.1148934636683" id="1213104847088" nodeInfo="nn" />
-              <node role="actualArgument" roleId="tpee.1068499141038" type="tpcw.ConceptFunctionParameter_scope" typeId="tpcw.1161622878565" id="1213104847089" nodeInfo="nn" />
             </node>
           </node>
         </node>
@@ -767,7 +736,6 @@
               <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="1173977205622" resolveInfo="DateFormatReferenceUtil" />
               <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1173977222265" resolveInfo="buildIDateFormatSearchScope" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tp1t.ConceptParameter_ReferentSearchScope_enclosingNode" typeId="tp1t.1148934636683" id="1213104858520" nodeInfo="nn" />
-              <node role="actualArgument" roleId="tpee.1068499141038" type="tpcw.ConceptFunctionParameter_scope" typeId="tpcw.1161622878565" id="1213104858521" nodeInfo="nn" />
             </node>
           </node>
         </node>
@@ -960,7 +928,7 @@
                       <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1213107437410" resolveInfo="operandType" />
                     </node>
                     <node role="supertypeExpression" roleId="tpd4.1176543950311" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="1238086989055" nodeInfo="nn">
-                      <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.PeriodType" typeId="tp6x.1172487727591" id="1238086989056" nodeInfo="in" />
+                      <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.PeriodType" typeId="tp6x.1172487727591" id="1238086989056" nodeInfo="ng" />
                     </node>
                   </node>
                   <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="1238086590591" nodeInfo="nn">
@@ -980,7 +948,7 @@
                       <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1213107437410" resolveInfo="operandType" />
                     </node>
                     <node role="supertypeExpression" roleId="tpd4.1176543950311" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="3627207017677325879" nodeInfo="nn">
-                      <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.DurationType" typeId="tp6x.3931616304474644667" id="3627207017677325883" nodeInfo="in" />
+                      <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.DurationType" typeId="tp6x.3931616304474644667" id="3627207017677325883" nodeInfo="ng" />
                     </node>
                   </node>
                   <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="3627207017677325881" nodeInfo="nn">
@@ -1003,7 +971,7 @@
                       <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1213107437410" resolveInfo="operandType" />
                     </node>
                     <node role="supertypeExpression" roleId="tpd4.1176543950311" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="3992658348645879285" nodeInfo="nn">
-                      <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.DateTimeWithTZType" typeId="tp6x.1195930031035447613" id="3992658348645879287" nodeInfo="in" />
+                      <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.DateTimeWithTZType" typeId="tp6x.1195930031035447613" id="3992658348645879287" nodeInfo="ng" />
                     </node>
                   </node>
                   <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="3992658348645879277" nodeInfo="nn">
@@ -1115,7 +1083,6 @@
               <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1173977222265" resolveInfo="buildIDateFormatSearchScope" />
               <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="1173977205622" resolveInfo="DateFormatReferenceUtil" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tp1t.ConceptParameter_ReferentSearchScope_enclosingNode" typeId="tp1t.1148934636683" id="5034322243092299906" nodeInfo="nn" />
-              <node role="actualArgument" roleId="tpee.1068499141038" type="tpcw.ConceptFunctionParameter_scope" typeId="tpcw.1161622878565" id="5034322243092299908" nodeInfo="nn" />
             </node>
           </node>
         </node>
@@ -1205,7 +1172,6 @@
               <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="34521615669576977" resolveInfo="buildIPeriodFormatSearchScope" />
               <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="1173977205622" resolveInfo="DateFormatReferenceUtil" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tp1t.ConceptParameter_ReferentSearchScope_enclosingNode" typeId="tp1t.1148934636683" id="34521615669577129" nodeInfo="nn" />
-              <node role="actualArgument" roleId="tpee.1068499141038" type="tpcw.ConceptFunctionParameter_scope" typeId="tpcw.1161622878565" id="34521615669577131" nodeInfo="nn" />
             </node>
           </node>
         </node>
@@ -1250,7 +1216,6 @@
               <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="34521615669576977" resolveInfo="buildIPeriodFormatSearchScope" />
               <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="1173977205622" resolveInfo="DateFormatReferenceUtil" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tp1t.ConceptParameter_ReferentSearchScope_enclosingNode" typeId="tp1t.1148934636683" id="7249953535157218347" nodeInfo="nn" />
-              <node role="actualArgument" roleId="tpee.1068499141038" type="tpcw.ConceptFunctionParameter_scope" typeId="tpcw.1161622878565" id="7249953535157218349" nodeInfo="nn" />
             </node>
           </node>
         </node>
@@ -1377,7 +1342,6 @@
               <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="5581663871699705091" resolveInfo="buildPeriodPropertySearchScope" />
               <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="1173977205622" resolveInfo="DateFormatReferenceUtil" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tp1t.ConceptParameter_ReferentSearchScope_enclosingNode" typeId="tp1t.1148934636683" id="5581663871699707501" nodeInfo="nn" />
-              <node role="actualArgument" roleId="tpee.1068499141038" type="tpcw.ConceptFunctionParameter_scope" typeId="tpcw.1161622878565" id="5581663871699707503" nodeInfo="nn" />
             </node>
           </node>
         </node>

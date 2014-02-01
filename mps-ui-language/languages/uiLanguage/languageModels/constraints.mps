@@ -228,7 +228,6 @@
                     <node role="operand" roleId="tpee.1197027771414" type="tpcw.ConceptFunctionParameter_model" typeId="tpcw.1161622665029" id="1213104846177" nodeInfo="nn" />
                     <node role="operation" roleId="tpee.1197027833540" type="tp25.Model_RootsIncludingImportedOperation" typeId="tp25.1176109685393" id="1213104846178" nodeInfo="nn">
                       <link role="concept" roleId="tp25.1176109685394" targetNodeId="tphr.1202387718766" resolveInfo="ComponentDeclaration" />
-                      <node role="scope" roleId="tp25.1176109762787" type="tpcw.ConceptFunctionParameter_scope" typeId="tpcw.1161622878565" id="1213104846179" nodeInfo="nn" />
                     </node>
                   </node>
                   <node role="operation" roleId="tpee.1197027833540" type="tp2q.WhereOperation" typeId="tp2q.1202120902084" id="1227876806093" nodeInfo="nn">
