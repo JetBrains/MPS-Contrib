@@ -40,7 +40,7 @@ public class PropertyReference_Editor extends DefaultNodeEditor {
     provider.setAuxiliaryCellProvider(new PropertyReference_Editor._Inline_5yutfv_a0a());
     editorCell = provider.createEditorCell(editorContext);
     Style style = new StyleImpl();
-    BuildLanguageStyle_StyleSheet.applyProperty(style, editorCell);
+    BuildLanguageStyle_StyleSheet.apply_property(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

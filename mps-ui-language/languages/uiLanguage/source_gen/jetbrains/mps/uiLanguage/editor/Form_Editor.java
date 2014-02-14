@@ -39,7 +39,7 @@ public class Form_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Form");
     editorCell.setCellId("Constant_317s4_a0");
     Style style = new StyleImpl();
-    Stylesheet_StyleSheet.applyComponent(style, editorCell);
+    Stylesheet_StyleSheet.apply_Component(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;

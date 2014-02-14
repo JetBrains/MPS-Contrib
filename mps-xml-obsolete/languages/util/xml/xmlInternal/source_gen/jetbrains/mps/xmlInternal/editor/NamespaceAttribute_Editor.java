@@ -40,7 +40,7 @@ public class NamespaceAttribute_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "xmlns");
     editorCell.setCellId("Constant_t8bc39_a0");
     Style style = new StyleImpl();
-    XmlStyle_StyleSheet.applyXmlAttribute(style, editorCell);
+    XmlStyle_StyleSheet.apply_XmlAttribute(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -50,7 +50,7 @@ public class NamespaceAttribute_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ":");
     editorCell.setCellId("Constant_t8bc39_b0");
     Style style = new StyleImpl();
-    XmlStyle_StyleSheet.applyXmlAttribute(style, editorCell);
+    XmlStyle_StyleSheet.apply_XmlAttribute(style, editorCell);
     style.set(StyleAttributes.PUNCTUATION_LEFT, true);
     style.set(StyleAttributes.PUNCTUATION_RIGHT, true);
     editorCell.getStyle().putAll(style);
@@ -66,7 +66,7 @@ public class NamespaceAttribute_Editor extends DefaultNodeEditor {
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_prefix");
     Style style = new StyleImpl();
-    XmlStyle_StyleSheet.applyXmlAttribute(style, editorCell);
+    XmlStyle_StyleSheet.apply_XmlAttribute(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -83,7 +83,7 @@ public class NamespaceAttribute_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "=");
     editorCell.setCellId("Constant_t8bc39_d0");
     Style style = new StyleImpl();
-    XmlStyle_StyleSheet.applyXmlOperator(style, editorCell);
+    XmlStyle_StyleSheet.apply_XmlOperator(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -93,7 +93,7 @@ public class NamespaceAttribute_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\"");
     editorCell.setCellId("Constant_t8bc39_e0");
     Style style = new StyleImpl();
-    XmlStyle_StyleSheet.applyXmlOpenQuote(style, editorCell);
+    XmlStyle_StyleSheet.apply_XmlOpenQuote(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -107,7 +107,7 @@ public class NamespaceAttribute_Editor extends DefaultNodeEditor {
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_uri");
     Style style = new StyleImpl();
-    XmlStyle_StyleSheet.applyXmlText(style, editorCell);
+    XmlStyle_StyleSheet.apply_XmlText(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -124,7 +124,7 @@ public class NamespaceAttribute_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\"");
     editorCell.setCellId("Constant_t8bc39_g0");
     Style style = new StyleImpl();
-    XmlStyle_StyleSheet.applyXmlCloseQuote(style, editorCell);
+    XmlStyle_StyleSheet.apply_XmlCloseQuote(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;

@@ -21,7 +21,7 @@ public class ProjectCreatorTarget_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Constant_wvvopw_a");
     editorCell.setBig(true);
     Style style = new StyleImpl();
-    BaseLanguageStyle_StyleSheet.applyKeyWord(style, editorCell);
+    BaseLanguageStyle_StyleSheet.apply_KeyWord(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;

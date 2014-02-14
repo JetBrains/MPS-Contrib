@@ -73,7 +73,7 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "//");
     editorCell.setCellId("Constant_xfdsch_a0a");
     Style style = new StyleImpl();
-    BuildLanguageStyle_StyleSheet.applyComment(style, editorCell);
+    BuildLanguageStyle_StyleSheet.apply_comment(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -88,7 +88,7 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_shortDescription");
     Style style = new StyleImpl();
-    BuildLanguageStyle_StyleSheet.applyComment(style, editorCell);
+    BuildLanguageStyle_StyleSheet.apply_comment(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -124,7 +124,7 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
   private EditorCell createComponent_xfdsch_a1a(EditorContext editorContext, SNode node) {
     EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.lang.core.editor.alias");
     Style style = new StyleImpl();
-    BuildLanguageStyle_StyleSheet.applyKeyword(style, editorCell);
+    BuildLanguageStyle_StyleSheet.apply_keyword(style, editorCell);
     style.set(StyleAttributes.EDITABLE, false);
     editorCell.getStyle().putAll(style);
     return editorCell;
@@ -138,7 +138,7 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_name");
     Style style = new StyleImpl();
-    BuildLanguageStyle_StyleSheet.applyTarget(style, editorCell);
+    BuildLanguageStyle_StyleSheet.apply_target(style, editorCell);
     editorCell.getStyle().putAll(style);
     if (true) {
       editorCell.getStyle().set(StyleAttributes.FOCUS_POLICY, FocusPolicy.ATTRACTS_FOCUS);
@@ -344,7 +344,7 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
       EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<property declarations>");
       editorCell.setCellId("Constant_xfdsch_a1c0");
       Style style = new StyleImpl();
-      BuildLanguageStyle_StyleSheet.applyPrompting(style, editorCell);
+      BuildLanguageStyle_StyleSheet.apply_prompting(style, editorCell);
       editorCell.getStyle().putAll(style);
       editorCell.setDefaultText("");
       return editorCell;
@@ -421,7 +421,7 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
       EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<task calls>");
       editorCell.setCellId("Constant_xfdsch_a1d0");
       Style style = new StyleImpl();
-      BuildLanguageStyle_StyleSheet.applyPrompting(style, editorCell);
+      BuildLanguageStyle_StyleSheet.apply_prompting(style, editorCell);
       editorCell.getStyle().putAll(style);
       editorCell.setDefaultText("");
       return editorCell;

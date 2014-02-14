@@ -45,7 +45,7 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "datetime properties");
     editorCell.setCellId("Constant_t7l4bw_a0");
     Style style = new StyleImpl();
-    BaseLanguageStyle_StyleSheet.applyKeyWord(style, editorCell);
+    BaseLanguageStyle_StyleSheet.apply_KeyWord(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -55,7 +55,7 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "{");
     editorCell.setCellId("Constant_t7l4bw_b0");
     Style style = new StyleImpl();
-    BaseLanguageStyle_StyleSheet.applyMatching(style, editorCell);
+    BaseLanguageStyle_StyleSheet.apply_Matching(style, editorCell);
     style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
     style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
     editorCell.getStyle().putAll(style);
@@ -459,7 +459,7 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "month");
     editorCell.setCellId("Constant_t7l4bw_b0i2a");
     Style style = new StyleImpl();
-    DatesInternal_StyleSheet.applyTableCell(style, editorCell);
+    DatesInternal_StyleSheet.apply_TableCell(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -469,7 +469,7 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "day of month");
     editorCell.setCellId("Constant_t7l4bw_c0i2a");
     Style style = new StyleImpl();
-    DatesInternal_StyleSheet.applyTableCell(style, editorCell);
+    DatesInternal_StyleSheet.apply_TableCell(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -479,7 +479,7 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "day of week");
     editorCell.setCellId("Constant_t7l4bw_d0i2a");
     Style style = new StyleImpl();
-    DatesInternal_StyleSheet.applyTableCell(style, editorCell);
+    DatesInternal_StyleSheet.apply_TableCell(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -489,7 +489,7 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "hour");
     editorCell.setCellId("Constant_t7l4bw_e0i2a");
     Style style = new StyleImpl();
-    DatesInternal_StyleSheet.applyTableCell(style, editorCell);
+    DatesInternal_StyleSheet.apply_TableCell(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -499,7 +499,7 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "minute");
     editorCell.setCellId("Constant_t7l4bw_f0i2a");
     Style style = new StyleImpl();
-    DatesInternal_StyleSheet.applyTableCell(style, editorCell);
+    DatesInternal_StyleSheet.apply_TableCell(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -509,7 +509,7 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "second");
     editorCell.setCellId("Constant_t7l4bw_g0i2a");
     Style style = new StyleImpl();
-    DatesInternal_StyleSheet.applyTableCell(style, editorCell);
+    DatesInternal_StyleSheet.apply_TableCell(style, editorCell);
     style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
@@ -680,7 +680,7 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "}");
     editorCell.setCellId("Constant_t7l4bw_d0");
     Style style = new StyleImpl();
-    BaseLanguageStyle_StyleSheet.applyMatching(style, editorCell);
+    BaseLanguageStyle_StyleSheet.apply_Matching(style, editorCell);
     style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
     style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
     editorCell.getStyle().putAll(style);

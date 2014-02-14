@@ -54,7 +54,7 @@ public class Attribute_EditorComponent implements ConceptEditorComponent {
     provider.setAuxiliaryCellProvider(new Attribute_EditorComponent._Inline_y32exi_a0a());
     editorCell = provider.createEditorCell(editorContext);
     Style style = new StyleImpl();
-    BuildLanguageStyle_StyleSheet.applyAttributeName(style, editorCell);
+    BuildLanguageStyle_StyleSheet.apply_attributeName(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -93,7 +93,7 @@ public class Attribute_EditorComponent implements ConceptEditorComponent {
         editorCell.setRole("attributeDeclaration");
       }
       Style style = new StyleImpl();
-      BuildLanguageStyle_StyleSheet.applyAttributeName(style, editorCell);
+      BuildLanguageStyle_StyleSheet.apply_attributeName(style, editorCell);
       editorCell.getStyle().putAll(style);
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();
@@ -119,7 +119,7 @@ public class Attribute_EditorComponent implements ConceptEditorComponent {
     provider.setAuxiliaryCellProvider(new Attribute_EditorComponent._Inline_y32exi_a1a());
     editorCell = provider.createEditorCell(editorContext);
     Style style = new StyleImpl();
-    BuildLanguageStyle_StyleSheet.applyDepractaedAttributeName(style, editorCell);
+    BuildLanguageStyle_StyleSheet.apply_depractaedAttributeName(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

@@ -52,7 +52,7 @@ public class DateTimeOffsetFormatToken_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "{");
     editorCell.setCellId("Constant_ugt6yk_a0");
     Style style = new StyleImpl();
-    BaseLanguageStyle_StyleSheet.applyLeftBrace(style, editorCell);
+    BaseLanguageStyle_StyleSheet.apply_LeftBrace(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -134,7 +134,7 @@ public class DateTimeOffsetFormatToken_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "}");
     editorCell.setCellId("Constant_ugt6yk_c0");
     Style style = new StyleImpl();
-    BaseLanguageStyle_StyleSheet.applyRightBrace(style, editorCell);
+    BaseLanguageStyle_StyleSheet.apply_RightBrace(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -144,7 +144,7 @@ public class DateTimeOffsetFormatToken_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "ago");
     editorCell.setCellId("Constant_ugt6yk_d0");
     Style style = new StyleImpl();
-    Dates_StyleSheet.applyDateCompactKeyWord(style, editorCell);
+    Dates_StyleSheet.apply_DateCompactKeyWord(style, editorCell);
     style.set(StyleAttributes.PADDING_LEFT, new Padding(1., Measure.SPACES));
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");

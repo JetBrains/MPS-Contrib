@@ -111,7 +111,7 @@ public class Enum_Editor extends DefaultNodeEditor {
       EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<constant values>");
       editorCell.setCellId("Constant_78un91_a1a");
       Style style = new StyleImpl();
-      BuildLanguageStyle_StyleSheet.applyPrompting(style, editorCell);
+      BuildLanguageStyle_StyleSheet.apply_prompting(style, editorCell);
       editorCell.getStyle().putAll(style);
       editorCell.setDefaultText("");
       return editorCell;

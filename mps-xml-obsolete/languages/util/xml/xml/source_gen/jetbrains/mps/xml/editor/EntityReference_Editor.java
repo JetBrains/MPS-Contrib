@@ -37,7 +37,7 @@ public class EntityReference_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "&");
     editorCell.setCellId("Constant_jj82vm_a0");
     Style style = new StyleImpl();
-    XmlStyle_StyleSheet.applyXmlOpenParen(style, editorCell);
+    XmlStyle_StyleSheet.apply_XmlOpenParen(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -90,7 +90,7 @@ public class EntityReference_Editor extends DefaultNodeEditor {
         editorCell.setRole("entityDeclaration");
       }
       Style style = new StyleImpl();
-      XmlStyle_StyleSheet.applyXmlEntity(style, editorCell);
+      XmlStyle_StyleSheet.apply_XmlEntity(style, editorCell);
       editorCell.getStyle().putAll(style);
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();
@@ -108,7 +108,7 @@ public class EntityReference_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ";");
     editorCell.setCellId("Constant_jj82vm_c0");
     Style style = new StyleImpl();
-    XmlStyle_StyleSheet.applyXmlCloseParen(style, editorCell);
+    XmlStyle_StyleSheet.apply_XmlCloseParen(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;

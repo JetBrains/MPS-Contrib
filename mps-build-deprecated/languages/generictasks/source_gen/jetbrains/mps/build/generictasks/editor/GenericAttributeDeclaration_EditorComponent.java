@@ -78,7 +78,7 @@ public class GenericAttributeDeclaration_EditorComponent implements ConceptEdito
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("GADEC_property_required");
     Style style = new StyleImpl();
-    BuildLanguageStyle_StyleSheet.applyBooleanLiteral(style, editorCell);
+    BuildLanguageStyle_StyleSheet.apply_booleanLiteral(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -179,7 +179,7 @@ public class GenericAttributeDeclaration_EditorComponent implements ConceptEdito
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("GADEC_property_deprecated");
     Style style = new StyleImpl();
-    BuildLanguageStyle_StyleSheet.applyBooleanLiteral(style, editorCell);
+    BuildLanguageStyle_StyleSheet.apply_booleanLiteral(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

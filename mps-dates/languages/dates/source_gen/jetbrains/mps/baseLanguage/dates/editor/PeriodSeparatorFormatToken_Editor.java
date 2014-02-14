@@ -49,7 +49,7 @@ public class PeriodSeparatorFormatToken_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "[");
     editorCell.setCellId("Constant_ih8plz_a0");
     Style style = new StyleImpl();
-    BaseLanguageStyle_StyleSheet.applyLeftBracket(style, editorCell);
+    BaseLanguageStyle_StyleSheet.apply_LeftBracket(style, editorCell);
     style.set(StyleAttributes.PUNCTUATION_LEFT, PeriodSeparatorFormatToken_Editor._StyleParameter_QueryFunction_ih8plz_a0a0((editorCell == null ? null : editorCell.getContext()), (editorCell == null ? null : editorCell.getSNode())));
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
@@ -135,7 +135,7 @@ public class PeriodSeparatorFormatToken_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "]");
     editorCell.setCellId("Constant_ih8plz_d0");
     Style style = new StyleImpl();
-    BaseLanguageStyle_StyleSheet.applyRightBracket(style, editorCell);
+    BaseLanguageStyle_StyleSheet.apply_RightBracket(style, editorCell);
     style.set(StyleAttributes.PUNCTUATION_RIGHT, PeriodSeparatorFormatToken_Editor._StyleParameter_QueryFunction_ih8plz_a0d0((editorCell == null ? null : editorCell.getContext()), (editorCell == null ? null : editorCell.getSNode())));
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
@@ -269,7 +269,7 @@ public class PeriodSeparatorFormatToken_Editor extends DefaultNodeEditor {
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_kind");
     Style style = new StyleImpl();
-    Dates_StyleSheet.applyDateFormat(style, editorCell);
+    Dates_StyleSheet.apply_DateFormat(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

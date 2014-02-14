@@ -18,7 +18,7 @@ public class TimeZoneConstant_Editor extends DefaultNodeEditor {
     EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.lang.core.editor.alias");
     editorCell.setBig(true);
     Style style = new StyleImpl();
-    Dates_StyleSheet.applyDateCompactKeyWord(style, editorCell);
+    Dates_StyleSheet.apply_DateCompactKeyWord(style, editorCell);
     editorCell.getStyle().putAll(style);
     return editorCell;
   }

@@ -72,7 +72,7 @@ public class TaskInterfaceDeclaration_Editor extends DefaultNodeEditor {
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_name");
     Style style = new StyleImpl();
-    BuildLanguageStyle_StyleSheet.applyTask(style, editorCell);
+    BuildLanguageStyle_StyleSheet.apply_task(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -172,7 +172,7 @@ public class TaskInterfaceDeclaration_Editor extends DefaultNodeEditor {
       EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<interfaces>");
       editorCell.setCellId("Constant_hzqec3_a1c0a");
       Style style = new StyleImpl();
-      BuildLanguageStyle_StyleSheet.applyPrompting(style, editorCell);
+      BuildLanguageStyle_StyleSheet.apply_prompting(style, editorCell);
       editorCell.getStyle().putAll(style);
       editorCell.setDefaultText("");
       return editorCell;
@@ -271,7 +271,7 @@ public class TaskInterfaceDeclaration_Editor extends DefaultNodeEditor {
       EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<interfaces>");
       editorCell.setCellId("Constant_hzqec3_a2a");
       Style style = new StyleImpl();
-      BuildLanguageStyle_StyleSheet.applyPrompting(style, editorCell);
+      BuildLanguageStyle_StyleSheet.apply_prompting(style, editorCell);
       editorCell.getStyle().putAll(style);
       editorCell.setDefaultText("");
       return editorCell;

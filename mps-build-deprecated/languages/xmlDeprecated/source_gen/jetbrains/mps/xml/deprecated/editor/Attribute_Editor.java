@@ -42,7 +42,7 @@ public class Attribute_Editor extends DefaultNodeEditor {
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_name");
     Style style = new StyleImpl();
-    XMLDeprecatedStyles_StyleSheet.applyAttributeName(style, editorCell);
+    XMLDeprecatedStyles_StyleSheet.apply_attributeName(style, editorCell);
     editorCell.getStyle().putAll(style);
     if (true) {
       editorCell.getStyle().set(StyleAttributes.FOCUS_POLICY, FocusPolicy.ATTRACTS_FOCUS);
@@ -69,7 +69,7 @@ public class Attribute_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\"");
     editorCell.setCellId("Constant_mc4j88_c0");
     Style style = new StyleImpl();
-    XMLDeprecatedStyles_StyleSheet.applyAttributeValue(style, editorCell);
+    XMLDeprecatedStyles_StyleSheet.apply_attributeValue(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -83,7 +83,7 @@ public class Attribute_Editor extends DefaultNodeEditor {
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_value");
     Style style = new StyleImpl();
-    XMLDeprecatedStyles_StyleSheet.applyAttributeValue(style, editorCell);
+    XMLDeprecatedStyles_StyleSheet.apply_attributeValue(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -100,7 +100,7 @@ public class Attribute_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\"");
     editorCell.setCellId("Constant_mc4j88_e0");
     Style style = new StyleImpl();
-    XMLDeprecatedStyles_StyleSheet.applyAttributeValue(style, editorCell);
+    XMLDeprecatedStyles_StyleSheet.apply_attributeValue(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;

@@ -4,135 +4,57 @@ package jetbrains.mps.buildlanguage.editor;
 
 import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.openapi.editor.cells.EditorCell;
-import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import jetbrains.mps.openapi.editor.style.StyleRegistry;
 import jetbrains.mps.nodeEditor.MPSColors;
 import jetbrains.mps.nodeEditor.MPSFonts;
 
 public class BuildLanguageStyle_StyleSheet {
-  @Deprecated
-  public static Style getStringLiteral(final EditorCell editorCell) {
-    Style style = new StyleImpl(editorCell);
-    style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.DARK_GREEN));
-    return style;
-  }
-
-  @Deprecated
-  public static Style getBooleanLiteral(final EditorCell editorCell) {
-    Style style = new StyleImpl(editorCell);
-    style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.DARK_MAGENTA));
-    style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
-    return style;
-  }
-
-  @Deprecated
-  public static Style getIntegerLiteral(final EditorCell editorCell) {
-    Style style = new StyleImpl(editorCell);
-    return style;
-  }
-
-  @Deprecated
-  public static Style getKeyword(final EditorCell editorCell) {
-    Style style = new StyleImpl(editorCell);
-    style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.DARK_BLUE));
-    style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
-    return style;
-  }
-
-  @Deprecated
-  public static Style getTarget(final EditorCell editorCell) {
-    Style style = new StyleImpl(editorCell);
-    style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
-    style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.darkGray));
-    return style;
-  }
-
-  @Deprecated
-  public static Style getTask(final EditorCell editorCell) {
-    Style style = new StyleImpl(editorCell);
-    style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
-    style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.DARK_BLUE));
-    return style;
-  }
-
-  @Deprecated
-  public static Style getProperty(final EditorCell editorCell) {
-    Style style = new StyleImpl(editorCell);
-    return style;
-  }
-
-  @Deprecated
-  public static Style getAttributeName(final EditorCell editorCell) {
-    Style style = new StyleImpl(editorCell);
-    style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
-    return style;
-  }
-
-  @Deprecated
-  public static Style getDepractaedAttributeName(final EditorCell editorCell) {
-    Style style = new StyleImpl(editorCell);
-    style.set(StyleAttributes.STRIKE_OUT, true);
-    return style;
-  }
-
-  @Deprecated
-  public static Style getPrompting(final EditorCell editorCell) {
-    Style style = new StyleImpl(editorCell);
-    style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.lightGray));
-    return style;
-  }
-
-  @Deprecated
-  public static Style getComment(final EditorCell editorCell) {
-    Style style = new StyleImpl(editorCell);
-    style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.gray));
-    return style;
-  }
-
-  public static void applyStringLiteral(Style style, EditorCell editorCell) {
+  public static void apply_stringLiteral(Style style, EditorCell editorCell) {
     style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.DARK_GREEN));
   }
 
-  public static void applyBooleanLiteral(Style style, EditorCell editorCell) {
+  public static void apply_booleanLiteral(Style style, EditorCell editorCell) {
     style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.DARK_MAGENTA));
     style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
   }
 
-  public static void applyIntegerLiteral(Style style, EditorCell editorCell) {
+  public static void apply_integerLiteral(Style style, EditorCell editorCell) {
   }
 
-  public static void applyKeyword(Style style, EditorCell editorCell) {
+  public static void apply_keyword(Style style, EditorCell editorCell) {
     style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.DARK_BLUE));
     style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
   }
 
-  public static void applyTarget(Style style, EditorCell editorCell) {
+  public static void apply_target(Style style, EditorCell editorCell) {
     style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
     style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.darkGray));
   }
 
-  public static void applyTask(Style style, EditorCell editorCell) {
+  public static void apply_task(Style style, EditorCell editorCell) {
     style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
     style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.DARK_BLUE));
   }
 
-  public static void applyProperty(Style style, EditorCell editorCell) {
+  public static void apply_property(Style style, EditorCell editorCell) {
   }
 
-  public static void applyAttributeName(Style style, EditorCell editorCell) {
+  public static void apply_attributeName(Style style, EditorCell editorCell) {
     style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
   }
 
-  public static void applyDepractaedAttributeName(Style style, EditorCell editorCell) {
+  public static void apply_depractaedAttributeName(Style style, EditorCell editorCell) {
     style.set(StyleAttributes.STRIKE_OUT, true);
   }
 
-  public static void applyPrompting(Style style, EditorCell editorCell) {
+  public static void apply_prompting(Style style, EditorCell editorCell) {
     style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.lightGray));
   }
 
-  public static void applyComment(Style style, EditorCell editorCell) {
+  public static void apply_comment(Style style, EditorCell editorCell) {
     style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.gray));
   }
+
+
 }

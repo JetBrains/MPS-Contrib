@@ -39,7 +39,7 @@ public class TaskReference_Editor extends DefaultNodeEditor {
     provider.setAuxiliaryCellProvider(new TaskReference_Editor._Inline_bbna77_a0a());
     editorCell = provider.createEditorCell(editorContext);
     Style style = new StyleImpl();
-    BuildLanguageStyle_StyleSheet.applyTask(style, editorCell);
+    BuildLanguageStyle_StyleSheet.apply_task(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

@@ -39,7 +39,7 @@ public class ElementBuilder_Editor extends DefaultNodeEditor {
     provider.setAuxiliaryCellProvider(new ElementBuilder_Editor._Inline_wmom6u_a0a());
     editorCell = provider.createEditorCell(editorContext);
     Style style = new StyleImpl();
-    XmlStyle_StyleSheet.applyXmlElement(style, editorCell);
+    XmlStyle_StyleSheet.apply_XmlElement(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -78,7 +78,7 @@ public class ElementBuilder_Editor extends DefaultNodeEditor {
         editorCell.setRole("elementDeclaration");
       }
       Style style = new StyleImpl();
-      XmlStyle_StyleSheet.applyXmlElement(style, editorCell);
+      XmlStyle_StyleSheet.apply_XmlElement(style, editorCell);
       style.set(StyleAttributes.AUTO_DELETABLE, true);
       editorCell.getStyle().putAll(style);
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());

@@ -74,7 +74,7 @@ public class ComponentReference_Editor extends DefaultNodeEditor {
         editorCell.setRole("component");
       }
       Style style = new StyleImpl();
-      Stylesheet_StyleSheet.applyComponentInstanceName(style, editorCell);
+      Stylesheet_StyleSheet.apply_ComponentInstanceName(style, editorCell);
       style.set(StyleAttributes.AUTO_DELETABLE, true);
       editorCell.getStyle().putAll(style);
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());

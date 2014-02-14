@@ -36,7 +36,7 @@ public class MathDateTimeOperation_Editor extends DefaultNodeEditor {
   private EditorCell createComponent_egbayc_a0(EditorContext editorContext, SNode node) {
     EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.lang.core.editor.alias");
     Style style = new StyleImpl();
-    BaseLanguageStyle_StyleSheet.applyStaticMethod(style, editorCell);
+    BaseLanguageStyle_StyleSheet.apply_StaticMethod(style, editorCell);
     editorCell.getStyle().putAll(style);
     return editorCell;
   }

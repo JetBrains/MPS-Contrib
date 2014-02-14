@@ -40,7 +40,7 @@ public class TargetReference_Editor extends DefaultNodeEditor {
     provider.setAuxiliaryCellProvider(new TargetReference_Editor._Inline_a1n9ex_a0a());
     editorCell = provider.createEditorCell(editorContext);
     Style style = new StyleImpl();
-    BuildLanguageStyle_StyleSheet.applyTarget(style, editorCell);
+    BuildLanguageStyle_StyleSheet.apply_target(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

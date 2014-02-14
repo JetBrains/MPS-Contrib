@@ -1,10 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="81vf0knqmn5g0akh87tr8n4tfjp9rdq">
-  <dep model="r:00000000-0000-4000-0000-011c895902d8(jetbrains.mps.baseLanguage.unitTest.generator.baseLanguage.template.main@generator)" hash="-ungqs4bw4iarv5x0w54gskv8zva7o4" />
-  <common hash="-3udz7cfuxmurmyabmzlsw5gjtfb5s0u" dependsOnNodes="true" />
-  <source id="7490214903453704353" name="IsIntersects_Test" hash="5dexdixlwboibgwhb4dqk2zw2w2dmn3">
-    <dep model="r:00000000-0000-4000-0000-011c895902d8(jetbrains.mps.baseLanguage.unitTest.generator.baseLanguage.template.main@generator)" />
-    <file name="IsIntersects_Test.java" />
-  </source>
-</dependencies>
+<dependencies version="2" modelHash="81vf0knqmn5g0akh87tr8n4tfjp9rdq" />
 

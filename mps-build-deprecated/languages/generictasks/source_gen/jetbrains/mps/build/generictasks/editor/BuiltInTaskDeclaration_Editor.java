@@ -105,7 +105,7 @@ public class BuiltInTaskDeclaration_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "nested elements:");
     editorCell.setCellId("Constant_5jjl7x_a0b2a");
     Style style = new StyleImpl();
-    BuildLanguageStyle_StyleSheet.applyKeyword(style, editorCell);
+    BuildLanguageStyle_StyleSheet.apply_keyword(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -203,7 +203,7 @@ public class BuiltInTaskDeclaration_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "fake declarations:");
     editorCell.setCellId("Constant_5jjl7x_a1a");
     Style style = new StyleImpl();
-    BuildLanguageStyle_StyleSheet.applyKeyword(style, editorCell);
+    BuildLanguageStyle_StyleSheet.apply_keyword(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;

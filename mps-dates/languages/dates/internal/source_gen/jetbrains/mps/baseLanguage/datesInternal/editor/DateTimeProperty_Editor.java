@@ -46,7 +46,7 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_name");
     Style style = new StyleImpl();
-    BaseLanguageStyle_StyleSheet.applyStaticField(style, editorCell);
+    BaseLanguageStyle_StyleSheet.apply_StaticField(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -63,7 +63,7 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "{");
     editorCell.setCellId("Constant_kwu3ge_b0");
     Style style = new StyleImpl();
-    BaseLanguageStyle_StyleSheet.applyMatching(style, editorCell);
+    BaseLanguageStyle_StyleSheet.apply_Matching(style, editorCell);
     style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
     style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
     editorCell.getStyle().putAll(style);
@@ -108,7 +108,7 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Joda DateTimeFieldType");
     editorCell.setCellId("Constant_kwu3ge_b2a");
     Style style = new StyleImpl();
-    DatesInternal_StyleSheet.applySimpleText(style, editorCell);
+    DatesInternal_StyleSheet.apply_SimpleText(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -161,7 +161,7 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
         editorCell.setRole("jodaDateTimeFieldType");
       }
       Style style = new StyleImpl();
-      BaseLanguageStyle_StyleSheet.applyField(style, editorCell);
+      BaseLanguageStyle_StyleSheet.apply_Field(style, editorCell);
       editorCell.getStyle().putAll(style);
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();
@@ -184,7 +184,7 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Joda PeriodType");
     editorCell.setCellId("Constant_kwu3ge_e2a");
     Style style = new StyleImpl();
-    DatesInternal_StyleSheet.applySimpleText(style, editorCell);
+    DatesInternal_StyleSheet.apply_SimpleText(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -237,7 +237,7 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
         editorCell.setRole("jodaPeriodType");
       }
       Style style = new StyleImpl();
-      BaseLanguageStyle_StyleSheet.applyField(style, editorCell);
+      BaseLanguageStyle_StyleSheet.apply_Field(style, editorCell);
       editorCell.getStyle().putAll(style);
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();
@@ -260,7 +260,7 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Joda DurationType");
     editorCell.setCellId("Constant_kwu3ge_h2a");
     Style style = new StyleImpl();
-    DatesInternal_StyleSheet.applySimpleText(style, editorCell);
+    DatesInternal_StyleSheet.apply_SimpleText(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -313,7 +313,7 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
         editorCell.setRole("jodaDurationType");
       }
       Style style = new StyleImpl();
-      BaseLanguageStyle_StyleSheet.applyField(style, editorCell);
+      BaseLanguageStyle_StyleSheet.apply_Field(style, editorCell);
       editorCell.getStyle().putAll(style);
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();
@@ -386,7 +386,7 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
         editorCell.setRole("periodFormatMethod");
       }
       Style style = new StyleImpl();
-      BaseLanguageStyle_StyleSheet.applyField(style, editorCell);
+      BaseLanguageStyle_StyleSheet.apply_Field(style, editorCell);
       editorCell.getStyle().putAll(style);
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();
@@ -420,7 +420,7 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_singleForm");
     Style style = new StyleImpl();
-    BaseLanguageStyle_StyleSheet.applyField(style, editorCell);
+    BaseLanguageStyle_StyleSheet.apply_Field(style, editorCell);
     style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
@@ -443,7 +443,7 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Plural form");
     editorCell.setCellId("Constant_kwu3ge_q2a");
     Style style = new StyleImpl();
-    DatesInternal_StyleSheet.applySimpleText(style, editorCell);
+    DatesInternal_StyleSheet.apply_SimpleText(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -457,7 +457,7 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_pluralForm");
     Style style = new StyleImpl();
-    BaseLanguageStyle_StyleSheet.applyField(style, editorCell);
+    BaseLanguageStyle_StyleSheet.apply_Field(style, editorCell);
     style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
@@ -475,7 +475,7 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "}");
     editorCell.setCellId("Constant_kwu3ge_d0");
     Style style = new StyleImpl();
-    BaseLanguageStyle_StyleSheet.applyMatching(style, editorCell);
+    BaseLanguageStyle_StyleSheet.apply_Matching(style, editorCell);
     style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
     style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
     editorCell.getStyle().putAll(style);

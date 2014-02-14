@@ -38,7 +38,7 @@ public class ComplexText_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "*");
     editorCell.setCellId("Constant_ohdes7_a0");
     Style style = new StyleImpl();
-    XmlStyle_StyleSheet.applyXmlComplexText_Start(style, editorCell);
+    XmlStyle_StyleSheet.apply_XmlComplexText_Start(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -92,7 +92,7 @@ public class ComplexText_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "*");
     editorCell.setCellId("Constant_ohdes7_c0");
     Style style = new StyleImpl();
-    XmlStyle_StyleSheet.applyXmlComplexText_End(style, editorCell);
+    XmlStyle_StyleSheet.apply_XmlComplexText_End(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;

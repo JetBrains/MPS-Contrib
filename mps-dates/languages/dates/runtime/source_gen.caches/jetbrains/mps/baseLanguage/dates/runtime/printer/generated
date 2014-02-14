@@ -1,17 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-erztg8n3r6o1ublccs4tl5l0iy8u8nt">
-  <common hash="-4kpn7yx2lmop3x4o9e7ynap0uinhess" dependsOnNodes="true" />
-  <source id="734650238126517390" name="Printer" hash="-98chm3ooapqwt2nkviicgxjqpngugqe">
-    <file name="Printer.java" />
-  </source>
-  <source id="734650238126517407" name="CompositePrinter" hash="-8wtowwehplx246q1fpozhfbev6rmi5s">
-    <file name="CompositePrinter.java" />
-  </source>
-  <source id="734650238126519308" name="ConditionalPrinter" hash="-exyxq4a5lqcwou7bupgfmm8kxlufwuu">
-    <file name="ConditionalPrinter.java" />
-  </source>
-  <source id="734650238126520134" name="LiteralPrinter" hash="-4cpjewaznjr1t153clmwmfesievjzt4">
-    <file name="LiteralPrinter.java" />
-  </source>
-</dependencies>
+<dependencies version="2" modelHash="-erztg8n3r6o1ublccs4tl5l0iy8u8nt" />
 

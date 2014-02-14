@@ -50,7 +50,7 @@ public class Document_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "document");
     editorCell.setCellId("Constant_7wjwco_a0a");
     Style style = new StyleImpl();
-    XMLDeprecatedStyles_StyleSheet.applyElement(style, editorCell);
+    XMLDeprecatedStyles_StyleSheet.apply_element(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -64,7 +64,7 @@ public class Document_Editor extends DefaultNodeEditor {
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_name");
     Style style = new StyleImpl();
-    XMLDeprecatedStyles_StyleSheet.applyAttributeValue(style, editorCell);
+    XMLDeprecatedStyles_StyleSheet.apply_attributeValue(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -81,7 +81,7 @@ public class Document_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ".");
     editorCell.setCellId("Constant_7wjwco_c0a");
     Style style = new StyleImpl();
-    XMLDeprecatedStyles_StyleSheet.applyAttributeValue(style, editorCell);
+    XMLDeprecatedStyles_StyleSheet.apply_attributeValue(style, editorCell);
     style.set(StyleAttributes.PUNCTUATION_LEFT, true);
     style.set(StyleAttributes.PUNCTUATION_RIGHT, true);
     editorCell.getStyle().putAll(style);
@@ -98,7 +98,7 @@ public class Document_Editor extends DefaultNodeEditor {
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_extension");
     Style style = new StyleImpl();
-    XMLDeprecatedStyles_StyleSheet.applyAttributeValue(style, editorCell);
+    XMLDeprecatedStyles_StyleSheet.apply_attributeValue(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

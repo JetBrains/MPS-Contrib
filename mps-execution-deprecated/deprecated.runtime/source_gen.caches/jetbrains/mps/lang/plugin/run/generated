@@ -1,11 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-dht6ymyhyl4zfp5i39izihvgu7j1flr">
-  <common hash="-7exqcrxh6u46hpuona5emy32mxcrzvc" dependsOnNodes="true" />
-  <source id="8321286824330329604" name="DefaultOsProcessHandler" hash="-7blgh5k1vs0jhlb22nj8swuvlekl5i7">
-    <file name="DefaultOsProcessHandler.java" />
-  </source>
-  <source id="8321286824330329630" name="DefaultProcessHandler" hash="9e67f9zbm6zapxuhjpqxb7npvlbbjca">
-    <file name="DefaultProcessHandler.java" />
-  </source>
-</dependencies>
+<dependencies version="2" modelHash="-dht6ymyhyl4zfp5i39izihvgu7j1flr" />
 

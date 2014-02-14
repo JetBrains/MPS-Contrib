@@ -26,7 +26,7 @@ public class AllTimeZonesConstant_Editor extends DefaultNodeEditor {
   private EditorCell createComponent_b8qhz_a0(EditorContext editorContext, SNode node) {
     EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.lang.core.editor.alias");
     Style style = new StyleImpl();
-    Dates_StyleSheet.applyDateCompactKeyWord(style, editorCell);
+    Dates_StyleSheet.apply_DateCompactKeyWord(style, editorCell);
     editorCell.getStyle().putAll(style);
     return editorCell;
   }

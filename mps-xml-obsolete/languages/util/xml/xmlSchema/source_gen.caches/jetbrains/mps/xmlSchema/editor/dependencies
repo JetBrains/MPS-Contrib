@@ -726,9 +726,7 @@
   </dependency>
   <dependency className="jetbrains.mps.xmlSchema.editor.XmlSchema_StyleSheet" file="XmlSchema_StyleSheet.java">
     <classNode dependClassName="java.awt.Color" />
-    <classNode dependClassName="java.lang.Deprecated" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleAttributes" />
-    <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleImpl" />
     <classNode dependClassName="jetbrains.mps.nodeEditor.MPSFonts" />
     <classNode dependClassName="jetbrains.mps.openapi.editor.EditorContext" />
     <classNode dependClassName="jetbrains.mps.openapi.editor.cells.EditorCell" />

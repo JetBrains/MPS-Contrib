@@ -42,7 +42,7 @@ public class WithPropertyCompareExpression_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "by");
     editorCell.setCellId("Constant_gd466t_b0");
     Style style = new StyleImpl();
-    BaseLanguageStyle_StyleSheet.applyOperator(style, editorCell);
+    BaseLanguageStyle_StyleSheet.apply_Operator(style, editorCell);
     editorCell.getStyle().putAll(style);
     WithPropertyCompareExpression_delete.setCellActions(editorCell, node, editorContext);
     editorCell.setDefaultText("");
@@ -94,7 +94,7 @@ public class WithPropertyCompareExpression_Editor extends DefaultNodeEditor {
         editorCell.setRole("datetimeProperty");
       }
       Style style = new StyleImpl();
-      Dates_StyleSheet.applyDateProperty(style, editorCell);
+      Dates_StyleSheet.apply_DateProperty(style, editorCell);
       editorCell.getStyle().putAll(style);
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();

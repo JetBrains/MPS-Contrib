@@ -4514,33 +4514,22 @@
     <unitInfo nodeId="1189887895767" fileName="NamespaceDeclaration_Editor.java" startLine="16" startPosition="0" endLine="98" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.NamespaceDeclaration_Editor" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)/1189991321651">
-    <nodeInfo nodeId="1189991321651" fileName="XmlSchema_StyleSheet.java" startLine="17" startPosition="66" endLine="18" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1189991321651" fileName="XmlSchema_StyleSheet.java" startLine="18" startPosition="44" endLine="19" endPosition="257" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1189991321651" fileName="XmlSchema_StyleSheet.java" startLine="19" startPosition="257" endLine="20" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1189991321651" fileName="XmlSchema_StyleSheet.java" startLine="20" startPosition="57" endLine="21" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1189991321651" fileName="XmlSchema_StyleSheet.java" startLine="24" startPosition="74" endLine="25" endPosition="257" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1189991321651" fileName="XmlSchema_StyleSheet.java" startLine="25" startPosition="257" endLine="26" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1189991446520" fileName="XmlSchema_StyleSheet.java" startLine="29" startPosition="106" endLine="30" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1189991412577" fileName="XmlSchema_StyleSheet.java" startLine="29" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_StyleParameter_QueryFunction_35vscc_a0a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/awt/Color;" />
-    <nodeInfo nodeId="1189991321651" fileName="XmlSchema_StyleSheet.java" startLine="24" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="applyXmlElement#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
-    <nodeInfo nodeId="1189991321651" fileName="XmlSchema_StyleSheet.java" startLine="16" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getXmlElement#(Ljetbrains/mps/openapi/editor/cells/EditorCell;)Ljetbrains/mps/openapi/editor/style/Style;" />
-    <scopeInfo nodeId="1189991412578" fileName="XmlSchema_StyleSheet.java" startLine="29" startPosition="106" endLine="30" endPosition="39" />
-    <scopeInfo nodeId="1189991321651" fileName="XmlSchema_StyleSheet.java" startLine="24" startPosition="74" endLine="26" endPosition="57" />
-    <scopeInfo nodeId="1189991412577" fileName="XmlSchema_StyleSheet.java" startLine="29" startPosition="0" endLine="32" endPosition="0">
+    <nodeInfo nodeId="1189991321651" fileName="XmlSchema_StyleSheet.java" startLine="15" startPosition="75" endLine="16" endPosition="257" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1189991321651" fileName="XmlSchema_StyleSheet.java" startLine="16" startPosition="257" endLine="17" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1189991446520" fileName="XmlSchema_StyleSheet.java" startLine="22" startPosition="106" endLine="23" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1189991412577" fileName="XmlSchema_StyleSheet.java" startLine="22" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_StyleParameter_QueryFunction_35vscc_a0a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/awt/Color;" />
+    <nodeInfo nodeId="1189991321651" fileName="XmlSchema_StyleSheet.java" startLine="15" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="apply_xmlElement#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
+    <scopeInfo nodeId="1189991412578" fileName="XmlSchema_StyleSheet.java" startLine="22" startPosition="106" endLine="23" endPosition="39" />
+    <scopeInfo nodeId="1189991321651" fileName="XmlSchema_StyleSheet.java" startLine="15" startPosition="75" endLine="17" endPosition="57" />
+    <scopeInfo nodeId="1189991412577" fileName="XmlSchema_StyleSheet.java" startLine="22" startPosition="0" endLine="25" endPosition="0">
       <varInfo nodeId="1189991412577" varName="editorContext" />
       <varInfo nodeId="1189991412577" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="1189991321651" fileName="XmlSchema_StyleSheet.java" startLine="17" startPosition="66" endLine="21" endPosition="17">
-      <varInfo nodeId="1189991321651" varName="style" />
-    </scopeInfo>
-    <scopeInfo nodeId="1189991321651" fileName="XmlSchema_StyleSheet.java" startLine="24" startPosition="0" endLine="28" endPosition="0">
+    <scopeInfo nodeId="1189991321651" fileName="XmlSchema_StyleSheet.java" startLine="15" startPosition="0" endLine="19" endPosition="0">
       <varInfo nodeId="1189991321651" varName="editorCell" />
       <varInfo nodeId="1189991321651" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="1189991321651" fileName="XmlSchema_StyleSheet.java" startLine="16" startPosition="0" endLine="23" endPosition="0">
-      <varInfo nodeId="1189991321651" varName="editorCell" />
-    </scopeInfo>
-    <unitInfo nodeId="1189991321651" fileName="XmlSchema_StyleSheet.java" startLine="15" startPosition="0" endLine="33" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.XmlSchema_StyleSheet" />
+    <unitInfo nodeId="1189991321651" fileName="XmlSchema_StyleSheet.java" startLine="14" startPosition="0" endLine="26" endPosition="0" unitName="jetbrains.mps.xmlSchema.editor.XmlSchema_StyleSheet" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)/5496586556363185402">
     <nodeInfo nodeId="5496586556363185402" fileName="SchemaType_Editor.java" startLine="17" startPosition="79" endLine="18" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />

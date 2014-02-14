@@ -75,7 +75,7 @@ public class AccessAttributeOperation_Editor extends DefaultNodeEditor {
         editorCell.setRole("attributeDeclaration");
       }
       Style style = new StyleImpl();
-      XmlStyle_StyleSheet.applyXmlAttribute(style, editorCell);
+      XmlStyle_StyleSheet.apply_XmlAttribute(style, editorCell);
       style.set(StyleAttributes.AUTO_DELETABLE, true);
       editorCell.getStyle().putAll(style);
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());

@@ -51,7 +51,7 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "format configuration");
     editorCell.setCellId("Constant_e2al3f_a0");
     Style style = new StyleImpl();
-    BaseLanguageStyle_StyleSheet.applyKeyWord(style, editorCell);
+    BaseLanguageStyle_StyleSheet.apply_KeyWord(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -61,7 +61,7 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "for");
     editorCell.setCellId("Constant_e2al3f_b0");
     Style style = new StyleImpl();
-    DatesInternal_StyleSheet.applySimpleText(style, editorCell);
+    DatesInternal_StyleSheet.apply_SimpleText(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -111,7 +111,7 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
         editorCell.setRole("dateTimeProperty");
       }
       Style style = new StyleImpl();
-      BaseLanguageStyle_StyleSheet.applyStaticField(style, editorCell);
+      BaseLanguageStyle_StyleSheet.apply_StaticField(style, editorCell);
       editorCell.getStyle().putAll(style);
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();
@@ -129,7 +129,7 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "{");
     editorCell.setCellId("Constant_e2al3f_d0");
     Style style = new StyleImpl();
-    BaseLanguageStyle_StyleSheet.applyMatching(style, editorCell);
+    BaseLanguageStyle_StyleSheet.apply_Matching(style, editorCell);
     style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
     style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
     editorCell.getStyle().putAll(style);
@@ -190,7 +190,7 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "}");
     editorCell.setCellId("Constant_e2al3f_f0");
     Style style = new StyleImpl();
-    BaseLanguageStyle_StyleSheet.applyMatching(style, editorCell);
+    BaseLanguageStyle_StyleSheet.apply_Matching(style, editorCell);
     style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
     style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
     editorCell.getStyle().putAll(style);

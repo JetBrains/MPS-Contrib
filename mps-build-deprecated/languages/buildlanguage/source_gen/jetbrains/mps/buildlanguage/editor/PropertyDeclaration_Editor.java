@@ -58,7 +58,7 @@ public class PropertyDeclaration_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "//");
     editorCell.setCellId("Constant_lnae77_a0a");
     Style style = new StyleImpl();
-    BuildLanguageStyle_StyleSheet.applyComment(style, editorCell);
+    BuildLanguageStyle_StyleSheet.apply_comment(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -73,7 +73,7 @@ public class PropertyDeclaration_Editor extends DefaultNodeEditor {
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_shortDescription");
     Style style = new StyleImpl();
-    BuildLanguageStyle_StyleSheet.applyComment(style, editorCell);
+    BuildLanguageStyle_StyleSheet.apply_comment(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -115,7 +115,7 @@ public class PropertyDeclaration_Editor extends DefaultNodeEditor {
   private EditorCell createComponent_lnae77_a1a(EditorContext editorContext, SNode node) {
     EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.lang.core.editor.alias");
     Style style = new StyleImpl();
-    BuildLanguageStyle_StyleSheet.applyKeyword(style, editorCell);
+    BuildLanguageStyle_StyleSheet.apply_keyword(style, editorCell);
     editorCell.getStyle().putAll(style);
     return editorCell;
   }
@@ -128,7 +128,7 @@ public class PropertyDeclaration_Editor extends DefaultNodeEditor {
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_name");
     Style style = new StyleImpl();
-    BuildLanguageStyle_StyleSheet.applyProperty(style, editorCell);
+    BuildLanguageStyle_StyleSheet.apply_property(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

@@ -44,7 +44,7 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Dialog");
     editorCell.setCellId("Constant_trqmo3_a0");
     Style style = new StyleImpl();
-    Stylesheet_StyleSheet.applyComponent(style, editorCell);
+    Stylesheet_StyleSheet.apply_Component(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -81,7 +81,7 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Content");
     editorCell.setCellId("Constant_trqmo3_a1b0");
     Style style = new StyleImpl();
-    Stylesheet_StyleSheet.applyComponent(style, editorCell);
+    Stylesheet_StyleSheet.apply_Component(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -154,7 +154,7 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Buttons");
     editorCell.setCellId("Constant_trqmo3_a1c0");
     Style style = new StyleImpl();
-    Stylesheet_StyleSheet.applyComponent(style, editorCell);
+    Stylesheet_StyleSheet.apply_Component(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;

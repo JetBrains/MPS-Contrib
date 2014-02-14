@@ -58,7 +58,7 @@ public class Project_Editor extends DefaultNodeEditor {
   private EditorCell createComponent_o8np3d_a0a(EditorContext editorContext, SNode node) {
     EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.lang.core.editor.alias");
     Style style = new StyleImpl();
-    BuildLanguageStyle_StyleSheet.applyKeyword(style, editorCell);
+    BuildLanguageStyle_StyleSheet.apply_keyword(style, editorCell);
     editorCell.getStyle().putAll(style);
     return editorCell;
   }
@@ -71,7 +71,7 @@ public class Project_Editor extends DefaultNodeEditor {
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_name");
     Style style = new StyleImpl();
-    BuildLanguageStyle_StyleSheet.applyTarget(style, editorCell);
+    BuildLanguageStyle_StyleSheet.apply_target(style, editorCell);
     editorCell.getStyle().putAll(style);
     if (true) {
       editorCell.getStyle().set(StyleAttributes.FOCUS_POLICY, FocusPolicy.FIRST_EDITABLE_CELL);
@@ -305,7 +305,7 @@ public class Project_Editor extends DefaultNodeEditor {
       EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<property declarations>");
       editorCell.setCellId("Constant_o8np3d_a1b1a");
       Style style = new StyleImpl();
-      BuildLanguageStyle_StyleSheet.applyPrompting(style, editorCell);
+      BuildLanguageStyle_StyleSheet.apply_prompting(style, editorCell);
       editorCell.getStyle().putAll(style);
       editorCell.setDefaultText("");
       return editorCell;
@@ -377,7 +377,7 @@ public class Project_Editor extends DefaultNodeEditor {
       EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<property imports>");
       editorCell.setCellId("Constant_o8np3d_a3b1a");
       Style style = new StyleImpl();
-      BuildLanguageStyle_StyleSheet.applyPrompting(style, editorCell);
+      BuildLanguageStyle_StyleSheet.apply_prompting(style, editorCell);
       editorCell.getStyle().putAll(style);
       editorCell.setDefaultText("");
       return editorCell;
@@ -449,7 +449,7 @@ public class Project_Editor extends DefaultNodeEditor {
       EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<task calls>");
       editorCell.setCellId("Constant_o8np3d_a5b1a");
       Style style = new StyleImpl();
-      BuildLanguageStyle_StyleSheet.applyPrompting(style, editorCell);
+      BuildLanguageStyle_StyleSheet.apply_prompting(style, editorCell);
       editorCell.getStyle().putAll(style);
       editorCell.setDefaultText("");
       return editorCell;
@@ -521,7 +521,7 @@ public class Project_Editor extends DefaultNodeEditor {
       EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<import projects>");
       editorCell.setCellId("Constant_o8np3d_a7b1a");
       Style style = new StyleImpl();
-      BuildLanguageStyle_StyleSheet.applyPrompting(style, editorCell);
+      BuildLanguageStyle_StyleSheet.apply_prompting(style, editorCell);
       editorCell.getStyle().putAll(style);
       editorCell.setDefaultText("");
       return editorCell;
@@ -594,7 +594,7 @@ public class Project_Editor extends DefaultNodeEditor {
       EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<targets>");
       editorCell.setCellId("Constant_o8np3d_a9b1a");
       Style style = new StyleImpl();
-      BuildLanguageStyle_StyleSheet.applyPrompting(style, editorCell);
+      BuildLanguageStyle_StyleSheet.apply_prompting(style, editorCell);
       editorCell.getStyle().putAll(style);
       editorCell.setDefaultText("");
       return editorCell;

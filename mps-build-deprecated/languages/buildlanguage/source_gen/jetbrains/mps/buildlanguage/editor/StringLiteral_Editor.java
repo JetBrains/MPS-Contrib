@@ -28,7 +28,7 @@ public class StringLiteral_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Collection_fgt3_a");
     editorCell.setBig(true);
     Style style = new StyleImpl();
-    BuildLanguageStyle_StyleSheet.applyStringLiteral(style, editorCell);
+    BuildLanguageStyle_StyleSheet.apply_stringLiteral(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_fgt3_a0(editorContext, node));
     editorCell.addEditorCell(this.createProperty_fgt3_b0(editorContext, node));
@@ -40,7 +40,7 @@ public class StringLiteral_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\"");
     editorCell.setCellId("Constant_fgt3_a0");
     Style style = new StyleImpl();
-    BuildLanguageStyle_StyleSheet.applyStringLiteral(style, editorCell);
+    BuildLanguageStyle_StyleSheet.apply_stringLiteral(style, editorCell);
     style.set(StyleAttributes.PUNCTUATION_RIGHT, true);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
@@ -56,7 +56,7 @@ public class StringLiteral_Editor extends DefaultNodeEditor {
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_value");
     Style style = new StyleImpl();
-    BuildLanguageStyle_StyleSheet.applyStringLiteral(style, editorCell);
+    BuildLanguageStyle_StyleSheet.apply_stringLiteral(style, editorCell);
     style.set(StyleAttributes.PADDING_LEFT, new Padding(0.0, Measure.SPACES));
     style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
     editorCell.getStyle().putAll(style);
@@ -75,7 +75,7 @@ public class StringLiteral_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\"");
     editorCell.setCellId("Constant_fgt3_c0");
     Style style = new StyleImpl();
-    BuildLanguageStyle_StyleSheet.applyStringLiteral(style, editorCell);
+    BuildLanguageStyle_StyleSheet.apply_stringLiteral(style, editorCell);
     style.set(StyleAttributes.PUNCTUATION_LEFT, true);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");

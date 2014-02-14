@@ -35,7 +35,7 @@ public class Literal_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\"");
     editorCell.setCellId("Constant_e2nj2_a0");
     Style style = new StyleImpl();
-    XmlStyle_StyleSheet.applyXmlOpenQuote(style, editorCell);
+    XmlStyle_StyleSheet.apply_XmlOpenQuote(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -49,7 +49,7 @@ public class Literal_Editor extends DefaultNodeEditor {
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_value");
     Style style = new StyleImpl();
-    XmlStyle_StyleSheet.applyXmlText(style, editorCell);
+    XmlStyle_StyleSheet.apply_XmlText(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -66,7 +66,7 @@ public class Literal_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\"");
     editorCell.setCellId("Constant_e2nj2_c0");
     Style style = new StyleImpl();
-    XmlStyle_StyleSheet.applyXmlCloseQuote(style, editorCell);
+    XmlStyle_StyleSheet.apply_XmlCloseQuote(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;

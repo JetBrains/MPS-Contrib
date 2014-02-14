@@ -34,7 +34,7 @@ public class ListElements_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "elements");
     editorCell.setCellId("Constant_o8ftej_a0");
     Style style = new StyleImpl();
-    Stylesheet_StyleSheet.applyModel(style, editorCell);
+    Stylesheet_StyleSheet.apply_Model(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;

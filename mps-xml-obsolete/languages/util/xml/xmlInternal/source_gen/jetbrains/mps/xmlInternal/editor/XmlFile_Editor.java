@@ -79,7 +79,7 @@ public class XmlFile_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ".");
     editorCell.setCellId("Constant_zencf0_b0a");
     Style style = new StyleImpl();
-    BaseLanguageStyle_StyleSheet.applyDot(style, editorCell);
+    BaseLanguageStyle_StyleSheet.apply_Dot(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -110,7 +110,7 @@ public class XmlFile_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
     editorCell.setCellId("Constant_zencf0_d0a");
     Style style = new StyleImpl();
-    XmlStyle_StyleSheet.applyXmlOpenParen(style, editorCell);
+    XmlStyle_StyleSheet.apply_XmlOpenParen(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -185,7 +185,7 @@ public class XmlFile_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
     editorCell.setCellId("Constant_zencf0_g0a");
     Style style = new StyleImpl();
-    XmlStyle_StyleSheet.applyXmlCloseParen(style, editorCell);
+    XmlStyle_StyleSheet.apply_XmlCloseParen(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;

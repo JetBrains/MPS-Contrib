@@ -1,12 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="ca48s0jmsi4ry9b8g6s18p0bcjznudd">
-  <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.generator.runtime(MPS.Core/jetbrains.mps.generator.runtime@java_stub)" />
-  <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" hash="85t8gj3oyc0p2yn3v3ynr03iyidt85k" />
-  <common hash="-dr58sky5esumkx684qe1atderyt93g7" dependsOnNodes="true">
-    <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.generator.runtime(MPS.Core/jetbrains.mps.generator.runtime@java_stub)" />
-    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
-    <file name="QueriesGenerated.java" />
-  </common>
-  <source id="1132883750937" name="MAP_main" hash="-6sfrp47mjuuzy5ubnrx2mpjesg7qqm6" />
-</dependencies>
+<dependencies version="2" modelHash="ca48s0jmsi4ry9b8g6s18p0bcjznudd" />
 

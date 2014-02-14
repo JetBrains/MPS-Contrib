@@ -43,7 +43,7 @@ public class FixedLocaleFormatToken_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "with");
     editorCell.setCellId("Constant_gkiggc_a0");
     Style style = new StyleImpl();
-    Dates_StyleSheet.applyDateCompactKeyWord(style, editorCell);
+    Dates_StyleSheet.apply_DateCompactKeyWord(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -93,7 +93,7 @@ public class FixedLocaleFormatToken_Editor extends DefaultNodeEditor {
         editorCell.setRole("locale");
       }
       Style style = new StyleImpl();
-      Dates_StyleSheet.applyDateProperty(style, editorCell);
+      Dates_StyleSheet.apply_DateProperty(style, editorCell);
       style.set(StyleAttributes.PADDING_LEFT, new Padding(1.0, Measure.SPACES));
       editorCell.getStyle().putAll(style);
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
@@ -112,7 +112,7 @@ public class FixedLocaleFormatToken_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "locale");
     editorCell.setCellId("Constant_gkiggc_c0");
     Style style = new StyleImpl();
-    Dates_StyleSheet.applyDateCompactKeyWord(style, editorCell);
+    Dates_StyleSheet.apply_DateCompactKeyWord(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -122,7 +122,7 @@ public class FixedLocaleFormatToken_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
     editorCell.setCellId("Constant_gkiggc_d0");
     Style style = new StyleImpl();
-    BaseLanguageStyle_StyleSheet.applyLeftParen(style, editorCell);
+    BaseLanguageStyle_StyleSheet.apply_LeftParen(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -172,7 +172,7 @@ public class FixedLocaleFormatToken_Editor extends DefaultNodeEditor {
         editorCell.setRole("dateFormat");
       }
       Style style = new StyleImpl();
-      Dates_StyleSheet.applyDateFormat(style, editorCell);
+      Dates_StyleSheet.apply_DateFormat(style, editorCell);
       editorCell.getStyle().putAll(style);
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();
@@ -190,7 +190,7 @@ public class FixedLocaleFormatToken_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
     editorCell.setCellId("Constant_gkiggc_f0");
     Style style = new StyleImpl();
-    BaseLanguageStyle_StyleSheet.applyRightParen(style, editorCell);
+    BaseLanguageStyle_StyleSheet.apply_RightParen(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;

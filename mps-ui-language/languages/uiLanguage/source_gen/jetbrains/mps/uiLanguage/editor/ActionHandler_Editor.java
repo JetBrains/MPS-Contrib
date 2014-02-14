@@ -34,7 +34,7 @@ public class ActionHandler_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "action");
     editorCell.setCellId("Constant_7i8ufg_a0");
     Style style = new StyleImpl();
-    Stylesheet_StyleSheet.applyActionHandler(style, editorCell);
+    Stylesheet_StyleSheet.apply_ActionHandler(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;

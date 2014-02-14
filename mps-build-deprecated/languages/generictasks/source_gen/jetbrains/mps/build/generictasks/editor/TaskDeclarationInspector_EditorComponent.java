@@ -120,7 +120,7 @@ public class TaskDeclarationInspector_EditorComponent implements ConceptEditorCo
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("TDIEC_property_abstract");
     Style style = new StyleImpl();
-    BuildLanguageStyle_StyleSheet.applyBooleanLiteral(style, editorCell);
+    BuildLanguageStyle_StyleSheet.apply_booleanLiteral(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -169,7 +169,7 @@ public class TaskDeclarationInspector_EditorComponent implements ConceptEditorCo
       editorCell.setRole("parentRef");
     }
     Style style = new StyleImpl();
-    BuildLanguageStyle_StyleSheet.applyTask(style, editorCell);
+    BuildLanguageStyle_StyleSheet.apply_task(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -273,7 +273,7 @@ public class TaskDeclarationInspector_EditorComponent implements ConceptEditorCo
       EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<interfaces>");
       editorCell.setCellId("Constant_69kouh_a2d0");
       Style style = new StyleImpl();
-      BuildLanguageStyle_StyleSheet.applyPrompting(style, editorCell);
+      BuildLanguageStyle_StyleSheet.apply_prompting(style, editorCell);
       editorCell.getStyle().putAll(style);
       editorCell.setDefaultText("");
       return editorCell;
@@ -314,7 +314,7 @@ public class TaskDeclarationInspector_EditorComponent implements ConceptEditorCo
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("TDIEC_property_canHaveInternalText");
     Style style = new StyleImpl();
-    BuildLanguageStyle_StyleSheet.applyBooleanLiteral(style, editorCell);
+    BuildLanguageStyle_StyleSheet.apply_booleanLiteral(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -361,7 +361,7 @@ public class TaskDeclarationInspector_EditorComponent implements ConceptEditorCo
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("TDIEC_property_depracated");
     Style style = new StyleImpl();
-    BuildLanguageStyle_StyleSheet.applyBooleanLiteral(style, editorCell);
+    BuildLanguageStyle_StyleSheet.apply_booleanLiteral(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

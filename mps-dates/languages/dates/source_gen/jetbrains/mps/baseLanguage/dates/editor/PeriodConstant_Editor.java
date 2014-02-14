@@ -120,7 +120,7 @@ public class PeriodConstant_Editor extends DefaultNodeEditor {
         editorCell.setRole("dateTimeProperty");
       }
       Style style = new StyleImpl();
-      Dates_StyleSheet.applyDateProperty(style, editorCell);
+      Dates_StyleSheet.apply_DateProperty(style, editorCell);
       style.set(StyleAttributes.AUTO_DELETABLE, true);
       editorCell.getStyle().putAll(style);
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
@@ -179,7 +179,7 @@ public class PeriodConstant_Editor extends DefaultNodeEditor {
         editorCell.setRole("dateTimeProperty");
       }
       Style style = new StyleImpl();
-      Dates_StyleSheet.applyDateProperty(style, editorCell);
+      Dates_StyleSheet.apply_DateProperty(style, editorCell);
       style.set(StyleAttributes.AUTO_DELETABLE, true);
       editorCell.getStyle().putAll(style);
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());

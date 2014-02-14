@@ -60,7 +60,7 @@ public class DateTimePlusPeriodOperation_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "+");
     editorCell.setCellId("Constant_5ha11p_b0");
     Style style = new StyleImpl();
-    BaseLanguageStyle_StyleSheet.applyOperator(style, editorCell);
+    BaseLanguageStyle_StyleSheet.apply_Operator(style, editorCell);
     style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
@@ -71,7 +71,7 @@ public class DateTimePlusPeriodOperation_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "period");
     editorCell.setCellId("Constant_5ha11p_c0");
     Style style = new StyleImpl();
-    Dates_StyleSheet.applyDateSmall(style, editorCell);
+    Dates_StyleSheet.apply_DateSmall(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;

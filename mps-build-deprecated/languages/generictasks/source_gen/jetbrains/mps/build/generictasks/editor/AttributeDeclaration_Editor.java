@@ -49,7 +49,7 @@ public class AttributeDeclaration_Editor extends DefaultNodeEditor {
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_name");
     Style style = new StyleImpl();
-    BuildLanguageStyle_StyleSheet.applyAttributeName(style, editorCell);
+    BuildLanguageStyle_StyleSheet.apply_attributeName(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -213,7 +213,7 @@ public class AttributeDeclaration_Editor extends DefaultNodeEditor {
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_shortDescription");
     Style style = new StyleImpl();
-    BuildLanguageStyle_StyleSheet.applyStringLiteral(style, editorCell);
+    BuildLanguageStyle_StyleSheet.apply_stringLiteral(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

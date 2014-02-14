@@ -103,7 +103,7 @@ public class ComponentInstance_Editor extends DefaultNodeEditor {
         editorCell.setRole("componentDeclaration");
       }
       Style style = new StyleImpl();
-      Stylesheet_StyleSheet.applyComponent(style, editorCell);
+      Stylesheet_StyleSheet.apply_Component(style, editorCell);
       editorCell.getStyle().putAll(style);
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();
@@ -148,7 +148,7 @@ public class ComponentInstance_Editor extends DefaultNodeEditor {
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_name_1");
     Style style = new StyleImpl();
-    Stylesheet_StyleSheet.applyComponentInstanceName(style, editorCell);
+    Stylesheet_StyleSheet.apply_ComponentInstanceName(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -263,7 +263,7 @@ public class ComponentInstance_Editor extends DefaultNodeEditor {
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_name_2");
     Style style = new StyleImpl();
-    Stylesheet_StyleSheet.applyComponentInstanceName(style, editorCell);
+    Stylesheet_StyleSheet.apply_ComponentInstanceName(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

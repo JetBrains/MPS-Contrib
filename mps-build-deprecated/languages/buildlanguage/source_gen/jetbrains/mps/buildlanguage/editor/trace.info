@@ -29,8 +29,8 @@
     <nodeInfo nodeId="1196852366761" fileName="Project_Editor.java" startLine="54" startPosition="82" endLine="55" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="2886182022232400554" fileName="Project_Editor.java" startLine="58" startPosition="90" endLine="59" endPosition="131" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="2886182022232400554" fileName="Project_Editor.java" startLine="59" startPosition="131" endLine="60" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2886182022232400554" fileName="Project_Editor.java" startLine="60" startPosition="34" endLine="61" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2886182022232400554" fileName="Project_Editor.java" startLine="61" startPosition="66" endLine="62" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2886182022232400554" fileName="Project_Editor.java" startLine="60" startPosition="34" endLine="61" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2886182022232400554" fileName="Project_Editor.java" startLine="61" startPosition="67" endLine="62" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="2886182022232400554" fileName="Project_Editor.java" startLine="62" startPosition="40" endLine="63" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1196852473889" fileName="Project_Editor.java" startLine="66" startPosition="89" endLine="67" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1196852473889" fileName="Project_Editor.java" startLine="67" startPosition="82" endLine="68" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -39,8 +39,8 @@
     <nodeInfo nodeId="1196852473889" fileName="Project_Editor.java" startLine="70" startPosition="26" endLine="71" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1196852473889" fileName="Project_Editor.java" startLine="71" startPosition="58" endLine="72" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1196852473889" fileName="Project_Editor.java" startLine="72" startPosition="42" endLine="73" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1196852473889" fileName="Project_Editor.java" startLine="73" startPosition="34" endLine="74" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196852473889" fileName="Project_Editor.java" startLine="74" startPosition="65" endLine="75" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196852473889" fileName="Project_Editor.java" startLine="73" startPosition="34" endLine="74" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196852473889" fileName="Project_Editor.java" startLine="74" startPosition="66" endLine="75" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1196852473889" fileName="Project_Editor.java" startLine="76" startPosition="15" endLine="77" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1196852473889" fileName="Project_Editor.java" startLine="78" startPosition="5" endLine="79" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1196852473889" fileName="Project_Editor.java" startLine="79" startPosition="73" endLine="80" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -206,8 +206,8 @@
     <nodeInfo nodeId="1200419258253" fileName="Project_Editor.java" startLine="304" startPosition="93" endLine="305" endPosition="111" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1200419258253" fileName="Project_Editor.java" startLine="305" startPosition="111" endLine="306" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1200419258253" fileName="Project_Editor.java" startLine="306" startPosition="52" endLine="307" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1200419258253" fileName="Project_Editor.java" startLine="307" startPosition="36" endLine="308" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1200419258253" fileName="Project_Editor.java" startLine="308" startPosition="70" endLine="309" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1200419258253" fileName="Project_Editor.java" startLine="307" startPosition="36" endLine="308" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1200419258253" fileName="Project_Editor.java" startLine="308" startPosition="71" endLine="309" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1200419258253" fileName="Project_Editor.java" startLine="309" startPosition="42" endLine="310" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1200419258253" fileName="Project_Editor.java" startLine="310" startPosition="36" endLine="311" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1200341312121" fileName="Project_Editor.java" startLine="315" startPosition="90" endLine="316" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -243,8 +243,8 @@
     <nodeInfo nodeId="1200427264658" fileName="Project_Editor.java" startLine="376" startPosition="93" endLine="377" endPosition="106" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1200427264658" fileName="Project_Editor.java" startLine="377" startPosition="106" endLine="378" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1200427264658" fileName="Project_Editor.java" startLine="378" startPosition="52" endLine="379" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1200427264658" fileName="Project_Editor.java" startLine="379" startPosition="36" endLine="380" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1200427264658" fileName="Project_Editor.java" startLine="380" startPosition="70" endLine="381" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1200427264658" fileName="Project_Editor.java" startLine="379" startPosition="36" endLine="380" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1200427264658" fileName="Project_Editor.java" startLine="380" startPosition="71" endLine="381" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1200427264658" fileName="Project_Editor.java" startLine="381" startPosition="42" endLine="382" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1200427264658" fileName="Project_Editor.java" startLine="382" startPosition="36" endLine="383" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1209912607968" fileName="Project_Editor.java" startLine="387" startPosition="90" endLine="388" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -280,8 +280,8 @@
     <nodeInfo nodeId="1200419266893" fileName="Project_Editor.java" startLine="448" startPosition="93" endLine="449" endPosition="100" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1200419266893" fileName="Project_Editor.java" startLine="449" startPosition="100" endLine="450" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1200419266893" fileName="Project_Editor.java" startLine="450" startPosition="52" endLine="451" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1200419266893" fileName="Project_Editor.java" startLine="451" startPosition="36" endLine="452" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1200419266893" fileName="Project_Editor.java" startLine="452" startPosition="70" endLine="453" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1200419266893" fileName="Project_Editor.java" startLine="451" startPosition="36" endLine="452" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1200419266893" fileName="Project_Editor.java" startLine="452" startPosition="71" endLine="453" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1200419266893" fileName="Project_Editor.java" startLine="453" startPosition="42" endLine="454" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1200419266893" fileName="Project_Editor.java" startLine="454" startPosition="36" endLine="455" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1200341315640" fileName="Project_Editor.java" startLine="459" startPosition="90" endLine="460" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -317,8 +317,8 @@
     <nodeInfo nodeId="1201702909273" fileName="Project_Editor.java" startLine="520" startPosition="93" endLine="521" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1201702909273" fileName="Project_Editor.java" startLine="521" startPosition="105" endLine="522" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1201702909273" fileName="Project_Editor.java" startLine="522" startPosition="52" endLine="523" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1201702909273" fileName="Project_Editor.java" startLine="523" startPosition="36" endLine="524" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1201702909273" fileName="Project_Editor.java" startLine="524" startPosition="70" endLine="525" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1201702909273" fileName="Project_Editor.java" startLine="523" startPosition="36" endLine="524" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1201702909273" fileName="Project_Editor.java" startLine="524" startPosition="71" endLine="525" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1201702909273" fileName="Project_Editor.java" startLine="525" startPosition="42" endLine="526" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1201702909273" fileName="Project_Editor.java" startLine="526" startPosition="36" endLine="527" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1201250945378" fileName="Project_Editor.java" startLine="531" startPosition="90" endLine="532" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -355,8 +355,8 @@
     <nodeInfo nodeId="1200419287236" fileName="Project_Editor.java" startLine="593" startPosition="93" endLine="594" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1200419287236" fileName="Project_Editor.java" startLine="594" startPosition="97" endLine="595" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1200419287236" fileName="Project_Editor.java" startLine="595" startPosition="52" endLine="596" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1200419287236" fileName="Project_Editor.java" startLine="596" startPosition="36" endLine="597" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1200419287236" fileName="Project_Editor.java" startLine="597" startPosition="70" endLine="598" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1200419287236" fileName="Project_Editor.java" startLine="596" startPosition="36" endLine="597" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1200419287236" fileName="Project_Editor.java" startLine="597" startPosition="71" endLine="598" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1200419287236" fileName="Project_Editor.java" startLine="598" startPosition="42" endLine="599" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1200419287236" fileName="Project_Editor.java" startLine="599" startPosition="36" endLine="600" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1200341318829" fileName="Project_Editor.java" startLine="604" startPosition="90" endLine="605" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -999,8 +999,8 @@
     <nodeInfo nodeId="1196853044151" fileName="TargetReference_Editor.java" startLine="39" startPosition="26" endLine="40" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1196853044151" fileName="TargetReference_Editor.java" startLine="40" startPosition="87" endLine="41" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1196853044151" fileName="TargetReference_Editor.java" startLine="41" startPosition="58" endLine="42" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1196853044151" fileName="TargetReference_Editor.java" startLine="42" startPosition="34" endLine="43" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196853044151" fileName="TargetReference_Editor.java" startLine="43" startPosition="65" endLine="44" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196853044151" fileName="TargetReference_Editor.java" startLine="42" startPosition="34" endLine="43" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196853044151" fileName="TargetReference_Editor.java" startLine="43" startPosition="66" endLine="44" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1196853044151" fileName="TargetReference_Editor.java" startLine="44" startPosition="40" endLine="45" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1196853044151" fileName="TargetReference_Editor.java" startLine="45" startPosition="73" endLine="46" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1196853044151" fileName="TargetReference_Editor.java" startLine="46" startPosition="57" endLine="47" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -1129,8 +1129,8 @@
     <nodeInfo nodeId="1201260045442" fileName="TargetDeclaration_Editor.java" startLine="72" startPosition="89" endLine="73" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1201260045442" fileName="TargetDeclaration_Editor.java" startLine="73" startPosition="88" endLine="74" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1201260045442" fileName="TargetDeclaration_Editor.java" startLine="74" startPosition="48" endLine="75" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1201260045442" fileName="TargetDeclaration_Editor.java" startLine="75" startPosition="34" endLine="76" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1201260045442" fileName="TargetDeclaration_Editor.java" startLine="76" startPosition="66" endLine="77" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1201260045442" fileName="TargetDeclaration_Editor.java" startLine="75" startPosition="34" endLine="76" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1201260045442" fileName="TargetDeclaration_Editor.java" startLine="76" startPosition="67" endLine="77" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1201260045442" fileName="TargetDeclaration_Editor.java" startLine="77" startPosition="40" endLine="78" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1201260045442" fileName="TargetDeclaration_Editor.java" startLine="78" startPosition="34" endLine="79" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1201260045443" fileName="TargetDeclaration_Editor.java" startLine="82" startPosition="89" endLine="83" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -1141,8 +1141,8 @@
     <nodeInfo nodeId="1201260045443" fileName="TargetDeclaration_Editor.java" startLine="87" startPosition="26" endLine="88" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1201260045443" fileName="TargetDeclaration_Editor.java" startLine="88" startPosition="58" endLine="89" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1201260045443" fileName="TargetDeclaration_Editor.java" startLine="89" startPosition="54" endLine="90" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1201260045443" fileName="TargetDeclaration_Editor.java" startLine="90" startPosition="34" endLine="91" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1201260045443" fileName="TargetDeclaration_Editor.java" startLine="91" startPosition="66" endLine="92" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1201260045443" fileName="TargetDeclaration_Editor.java" startLine="90" startPosition="34" endLine="91" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1201260045443" fileName="TargetDeclaration_Editor.java" startLine="91" startPosition="67" endLine="92" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1201260045443" fileName="TargetDeclaration_Editor.java" startLine="92" startPosition="40" endLine="93" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1201260045443" fileName="TargetDeclaration_Editor.java" startLine="93" startPosition="73" endLine="94" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1201260045443" fileName="TargetDeclaration_Editor.java" startLine="94" startPosition="57" endLine="95" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -1165,8 +1165,8 @@
     <nodeInfo nodeId="1196853805142" fileName="TargetDeclaration_Editor.java" startLine="120" startPosition="5" endLine="121" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="2886182022232399995" fileName="TargetDeclaration_Editor.java" startLine="124" startPosition="90" endLine="125" endPosition="131" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="2886182022232399995" fileName="TargetDeclaration_Editor.java" startLine="125" startPosition="131" endLine="126" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2886182022232399995" fileName="TargetDeclaration_Editor.java" startLine="126" startPosition="34" endLine="127" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2886182022232399995" fileName="TargetDeclaration_Editor.java" startLine="127" startPosition="66" endLine="128" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2886182022232399995" fileName="TargetDeclaration_Editor.java" startLine="126" startPosition="34" endLine="127" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2886182022232399995" fileName="TargetDeclaration_Editor.java" startLine="127" startPosition="67" endLine="128" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="2886182022232399995" fileName="TargetDeclaration_Editor.java" startLine="128" startPosition="47" endLine="129" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="2886182022232399995" fileName="TargetDeclaration_Editor.java" startLine="129" startPosition="40" endLine="130" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1196855783095" fileName="TargetDeclaration_Editor.java" startLine="133" startPosition="89" endLine="134" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -1176,8 +1176,8 @@
     <nodeInfo nodeId="1196855783095" fileName="TargetDeclaration_Editor.java" startLine="137" startPosition="26" endLine="138" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1196855783095" fileName="TargetDeclaration_Editor.java" startLine="138" startPosition="58" endLine="139" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1196855783095" fileName="TargetDeclaration_Editor.java" startLine="139" startPosition="42" endLine="140" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1196855783095" fileName="TargetDeclaration_Editor.java" startLine="140" startPosition="34" endLine="141" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196855783095" fileName="TargetDeclaration_Editor.java" startLine="141" startPosition="65" endLine="142" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196855783095" fileName="TargetDeclaration_Editor.java" startLine="140" startPosition="34" endLine="141" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196855783095" fileName="TargetDeclaration_Editor.java" startLine="141" startPosition="66" endLine="142" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1196855783095" fileName="TargetDeclaration_Editor.java" startLine="143" startPosition="15" endLine="144" endPosition="90" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1196855783095" fileName="TargetDeclaration_Editor.java" startLine="145" startPosition="5" endLine="146" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1196855783095" fileName="TargetDeclaration_Editor.java" startLine="146" startPosition="73" endLine="147" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -1307,8 +1307,8 @@
     <nodeInfo nodeId="1200419175278" fileName="TargetDeclaration_Editor.java" startLine="343" startPosition="92" endLine="344" endPosition="111" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1200419175278" fileName="TargetDeclaration_Editor.java" startLine="344" startPosition="111" endLine="345" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1200419175278" fileName="TargetDeclaration_Editor.java" startLine="345" startPosition="51" endLine="346" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1200419175278" fileName="TargetDeclaration_Editor.java" startLine="346" startPosition="36" endLine="347" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1200419175278" fileName="TargetDeclaration_Editor.java" startLine="347" startPosition="70" endLine="348" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1200419175278" fileName="TargetDeclaration_Editor.java" startLine="346" startPosition="36" endLine="347" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1200419175278" fileName="TargetDeclaration_Editor.java" startLine="347" startPosition="71" endLine="348" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1200419175278" fileName="TargetDeclaration_Editor.java" startLine="348" startPosition="42" endLine="349" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1200419175278" fileName="TargetDeclaration_Editor.java" startLine="349" startPosition="36" endLine="350" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1196853805142" fileName="TargetDeclaration_Editor.java" startLine="354" startPosition="90" endLine="355" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -1348,8 +1348,8 @@
     <nodeInfo nodeId="1200419207103" fileName="TargetDeclaration_Editor.java" startLine="420" startPosition="92" endLine="421" endPosition="100" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1200419207103" fileName="TargetDeclaration_Editor.java" startLine="421" startPosition="100" endLine="422" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1200419207103" fileName="TargetDeclaration_Editor.java" startLine="422" startPosition="51" endLine="423" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1200419207103" fileName="TargetDeclaration_Editor.java" startLine="423" startPosition="36" endLine="424" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1200419207103" fileName="TargetDeclaration_Editor.java" startLine="424" startPosition="70" endLine="425" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1200419207103" fileName="TargetDeclaration_Editor.java" startLine="423" startPosition="36" endLine="424" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1200419207103" fileName="TargetDeclaration_Editor.java" startLine="424" startPosition="71" endLine="425" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1200419207103" fileName="TargetDeclaration_Editor.java" startLine="425" startPosition="42" endLine="426" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1200419207103" fileName="TargetDeclaration_Editor.java" startLine="426" startPosition="36" endLine="427" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1200510301099" fileName="TargetDeclaration_Editor.java" startLine="431" startPosition="88" endLine="432" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -2030,8 +2030,8 @@
     <nodeInfo nodeId="1201252763764" fileName="PropertyDeclaration_Editor.java" startLine="57" startPosition="89" endLine="58" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1201252763764" fileName="PropertyDeclaration_Editor.java" startLine="58" startPosition="88" endLine="59" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1201252763764" fileName="PropertyDeclaration_Editor.java" startLine="59" startPosition="48" endLine="60" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1201252763764" fileName="PropertyDeclaration_Editor.java" startLine="60" startPosition="34" endLine="61" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1201252763764" fileName="PropertyDeclaration_Editor.java" startLine="61" startPosition="66" endLine="62" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1201252763764" fileName="PropertyDeclaration_Editor.java" startLine="60" startPosition="34" endLine="61" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1201252763764" fileName="PropertyDeclaration_Editor.java" startLine="61" startPosition="67" endLine="62" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1201252763764" fileName="PropertyDeclaration_Editor.java" startLine="62" startPosition="40" endLine="63" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1201252763764" fileName="PropertyDeclaration_Editor.java" startLine="63" startPosition="34" endLine="64" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1201252778983" fileName="PropertyDeclaration_Editor.java" startLine="67" startPosition="89" endLine="68" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -2042,8 +2042,8 @@
     <nodeInfo nodeId="1201252778983" fileName="PropertyDeclaration_Editor.java" startLine="72" startPosition="26" endLine="73" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1201252778983" fileName="PropertyDeclaration_Editor.java" startLine="73" startPosition="58" endLine="74" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1201252778983" fileName="PropertyDeclaration_Editor.java" startLine="74" startPosition="54" endLine="75" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1201252778983" fileName="PropertyDeclaration_Editor.java" startLine="75" startPosition="34" endLine="76" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1201252778983" fileName="PropertyDeclaration_Editor.java" startLine="76" startPosition="66" endLine="77" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1201252778983" fileName="PropertyDeclaration_Editor.java" startLine="75" startPosition="34" endLine="76" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1201252778983" fileName="PropertyDeclaration_Editor.java" startLine="76" startPosition="67" endLine="77" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1201252778983" fileName="PropertyDeclaration_Editor.java" startLine="77" startPosition="40" endLine="78" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1201252778983" fileName="PropertyDeclaration_Editor.java" startLine="78" startPosition="73" endLine="79" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1201252778983" fileName="PropertyDeclaration_Editor.java" startLine="79" startPosition="57" endLine="80" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -2071,8 +2071,8 @@
     <nodeInfo nodeId="1201253279046" fileName="PropertyDeclaration_Editor.java" startLine="110" startPosition="37" endLine="111" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="2886182022232400089" fileName="PropertyDeclaration_Editor.java" startLine="115" startPosition="90" endLine="116" endPosition="131" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="2886182022232400089" fileName="PropertyDeclaration_Editor.java" startLine="116" startPosition="131" endLine="117" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2886182022232400089" fileName="PropertyDeclaration_Editor.java" startLine="117" startPosition="34" endLine="118" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2886182022232400089" fileName="PropertyDeclaration_Editor.java" startLine="118" startPosition="66" endLine="119" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2886182022232400089" fileName="PropertyDeclaration_Editor.java" startLine="117" startPosition="34" endLine="118" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2886182022232400089" fileName="PropertyDeclaration_Editor.java" startLine="118" startPosition="67" endLine="119" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="2886182022232400089" fileName="PropertyDeclaration_Editor.java" startLine="119" startPosition="40" endLine="120" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1201252713896" fileName="PropertyDeclaration_Editor.java" startLine="123" startPosition="89" endLine="124" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1201252713896" fileName="PropertyDeclaration_Editor.java" startLine="124" startPosition="82" endLine="125" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -2081,8 +2081,8 @@
     <nodeInfo nodeId="1201252713896" fileName="PropertyDeclaration_Editor.java" startLine="127" startPosition="26" endLine="128" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1201252713896" fileName="PropertyDeclaration_Editor.java" startLine="128" startPosition="58" endLine="129" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1201252713896" fileName="PropertyDeclaration_Editor.java" startLine="129" startPosition="42" endLine="130" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1201252713896" fileName="PropertyDeclaration_Editor.java" startLine="130" startPosition="34" endLine="131" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1201252713896" fileName="PropertyDeclaration_Editor.java" startLine="131" startPosition="67" endLine="132" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1201252713896" fileName="PropertyDeclaration_Editor.java" startLine="130" startPosition="34" endLine="131" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1201252713896" fileName="PropertyDeclaration_Editor.java" startLine="131" startPosition="68" endLine="132" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1201252713896" fileName="PropertyDeclaration_Editor.java" startLine="132" startPosition="40" endLine="133" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1201252713896" fileName="PropertyDeclaration_Editor.java" startLine="133" startPosition="73" endLine="134" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1201252713896" fileName="PropertyDeclaration_Editor.java" startLine="134" startPosition="57" endLine="135" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -2310,8 +2310,8 @@
     <nodeInfo nodeId="1196860241260" fileName="PropertyReference_Editor.java" startLine="39" startPosition="26" endLine="40" endPosition="89" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1196860241260" fileName="PropertyReference_Editor.java" startLine="40" startPosition="89" endLine="41" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1196860241260" fileName="PropertyReference_Editor.java" startLine="41" startPosition="58" endLine="42" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1196860241260" fileName="PropertyReference_Editor.java" startLine="42" startPosition="34" endLine="43" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196860241260" fileName="PropertyReference_Editor.java" startLine="43" startPosition="67" endLine="44" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196860241260" fileName="PropertyReference_Editor.java" startLine="42" startPosition="34" endLine="43" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196860241260" fileName="PropertyReference_Editor.java" startLine="43" startPosition="68" endLine="44" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1196860241260" fileName="PropertyReference_Editor.java" startLine="44" startPosition="40" endLine="45" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1196860241260" fileName="PropertyReference_Editor.java" startLine="45" startPosition="73" endLine="46" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1196860241260" fileName="PropertyReference_Editor.java" startLine="46" startPosition="57" endLine="47" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -2416,8 +2416,8 @@
     <nodeInfo nodeId="1196861045571" fileName="StringLiteral_Editor.java" startLine="27" startPosition="99" endLine="28" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1196861045571" fileName="StringLiteral_Editor.java" startLine="28" startPosition="46" endLine="29" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1196861045571" fileName="StringLiteral_Editor.java" startLine="29" startPosition="28" endLine="30" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1196861045571" fileName="StringLiteral_Editor.java" startLine="30" startPosition="34" endLine="31" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196861045571" fileName="StringLiteral_Editor.java" startLine="31" startPosition="72" endLine="32" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196861045571" fileName="StringLiteral_Editor.java" startLine="30" startPosition="34" endLine="31" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196861045571" fileName="StringLiteral_Editor.java" startLine="31" startPosition="73" endLine="32" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1196861045571" fileName="StringLiteral_Editor.java" startLine="32" startPosition="40" endLine="33" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1196861045571" fileName="StringLiteral_Editor.java" startLine="32" startPosition="40" endLine="33" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1196861045571" fileName="StringLiteral_Editor.java" startLine="33" startPosition="79" endLine="34" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
@@ -2428,8 +2428,8 @@
     <nodeInfo nodeId="1196861106563" fileName="StringLiteral_Editor.java" startLine="39" startPosition="86" endLine="40" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1196861106563" fileName="StringLiteral_Editor.java" startLine="40" startPosition="88" endLine="41" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1196861106563" fileName="StringLiteral_Editor.java" startLine="41" startPosition="45" endLine="42" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1196861106563" fileName="StringLiteral_Editor.java" startLine="42" startPosition="34" endLine="43" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196861106563" fileName="StringLiteral_Editor.java" startLine="43" startPosition="72" endLine="44" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196861106563" fileName="StringLiteral_Editor.java" startLine="42" startPosition="34" endLine="43" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196861106563" fileName="StringLiteral_Editor.java" startLine="43" startPosition="73" endLine="44" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1196861106563" fileName="StringLiteral_Editor.java" startLine="44" startPosition="55" endLine="45" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1196861106563" fileName="StringLiteral_Editor.java" startLine="45" startPosition="40" endLine="46" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1196861106563" fileName="StringLiteral_Editor.java" startLine="46" startPosition="34" endLine="47" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -2441,8 +2441,8 @@
     <nodeInfo nodeId="1196861109049" fileName="StringLiteral_Editor.java" startLine="55" startPosition="26" endLine="56" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1196861109049" fileName="StringLiteral_Editor.java" startLine="56" startPosition="58" endLine="57" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1196861109049" fileName="StringLiteral_Editor.java" startLine="57" startPosition="43" endLine="58" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1196861109049" fileName="StringLiteral_Editor.java" startLine="58" startPosition="34" endLine="59" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196861109049" fileName="StringLiteral_Editor.java" startLine="59" startPosition="72" endLine="60" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196861109049" fileName="StringLiteral_Editor.java" startLine="58" startPosition="34" endLine="59" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196861109049" fileName="StringLiteral_Editor.java" startLine="59" startPosition="73" endLine="60" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1196861109049" fileName="StringLiteral_Editor.java" startLine="60" startPosition="78" endLine="61" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1196861109049" fileName="StringLiteral_Editor.java" startLine="61" startPosition="79" endLine="62" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1196861109049" fileName="StringLiteral_Editor.java" startLine="62" startPosition="40" endLine="63" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -2455,8 +2455,8 @@
     <nodeInfo nodeId="1196861117192" fileName="StringLiteral_Editor.java" startLine="74" startPosition="86" endLine="75" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1196861117192" fileName="StringLiteral_Editor.java" startLine="75" startPosition="88" endLine="76" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1196861117192" fileName="StringLiteral_Editor.java" startLine="76" startPosition="45" endLine="77" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1196861117192" fileName="StringLiteral_Editor.java" startLine="77" startPosition="34" endLine="78" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196861117192" fileName="StringLiteral_Editor.java" startLine="78" startPosition="72" endLine="79" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196861117192" fileName="StringLiteral_Editor.java" startLine="77" startPosition="34" endLine="78" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196861117192" fileName="StringLiteral_Editor.java" startLine="78" startPosition="73" endLine="79" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1196861117192" fileName="StringLiteral_Editor.java" startLine="79" startPosition="54" endLine="80" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1196861117192" fileName="StringLiteral_Editor.java" startLine="80" startPosition="40" endLine="81" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1196861117192" fileName="StringLiteral_Editor.java" startLine="81" startPosition="34" endLine="82" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -2516,198 +2516,86 @@
     <unitInfo nodeId="1196861045571" fileName="StringLiteral_Editor.java" startLine="21" startPosition="0" endLine="85" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.StringLiteral_Editor" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895904c2(jetbrains.mps.buildlanguage.editor)/1196861129522">
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="15" startPosition="69" endLine="16" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="16" startPosition="44" endLine="17" endPosition="108" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="17" startPosition="108" endLine="18" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="22" startPosition="70" endLine="23" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="23" startPosition="44" endLine="24" endPosition="110" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="24" startPosition="110" endLine="25" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="25" startPosition="57" endLine="26" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="30" startPosition="70" endLine="31" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="31" startPosition="44" endLine="32" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="36" startPosition="63" endLine="37" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="37" startPosition="44" endLine="38" endPosition="107" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="38" startPosition="107" endLine="39" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="39" startPosition="57" endLine="40" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="44" startPosition="62" endLine="45" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="45" startPosition="44" endLine="46" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="46" startPosition="57" endLine="47" endPosition="106" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="47" startPosition="106" endLine="48" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="52" startPosition="60" endLine="53" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="53" startPosition="44" endLine="54" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="54" startPosition="58" endLine="55" endPosition="107" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="55" startPosition="107" endLine="56" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="60" startPosition="64" endLine="61" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="61" startPosition="44" endLine="62" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="66" startPosition="69" endLine="67" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="67" startPosition="44" endLine="68" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="68" startPosition="58" endLine="69" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="73" startPosition="79" endLine="74" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="74" startPosition="44" endLine="75" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="75" startPosition="48" endLine="76" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="80" startPosition="65" endLine="81" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="81" startPosition="44" endLine="82" endPosition="107" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="82" startPosition="107" endLine="83" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="87" startPosition="63" endLine="88" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="88" startPosition="44" endLine="89" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="89" startPosition="102" endLine="90" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="93" startPosition="77" endLine="94" endPosition="108" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="97" startPosition="78" endLine="98" endPosition="110" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="98" startPosition="110" endLine="99" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="105" startPosition="71" endLine="106" endPosition="107" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="106" startPosition="107" endLine="107" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="110" startPosition="70" endLine="111" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="111" startPosition="57" endLine="112" endPosition="106" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="115" startPosition="68" endLine="116" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="116" startPosition="58" endLine="117" endPosition="107" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="123" startPosition="77" endLine="124" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="127" startPosition="87" endLine="128" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="131" startPosition="73" endLine="132" endPosition="107" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="135" startPosition="71" endLine="136" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="102" startPosition="0" endLine="104" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="applyIntegerLiteral#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="120" startPosition="0" endLine="122" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="applyProperty#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="93" startPosition="0" endLine="96" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="applyStringLiteral#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="123" startPosition="0" endLine="126" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="applyAttributeName#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="127" startPosition="0" endLine="130" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="applyDepractaedAttributeName#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="131" startPosition="0" endLine="134" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="applyPrompting#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="135" startPosition="0" endLine="138" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="applyComment#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="97" startPosition="0" endLine="101" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="applyBooleanLiteral#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="105" startPosition="0" endLine="109" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="applyKeyword#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="110" startPosition="0" endLine="114" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="applyTarget#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="115" startPosition="0" endLine="119" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="applyTask#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="29" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getIntegerLiteral#(Ljetbrains/mps/openapi/editor/cells/EditorCell;)Ljetbrains/mps/openapi/editor/style/Style;" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="59" startPosition="0" endLine="64" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getProperty#(Ljetbrains/mps/openapi/editor/cells/EditorCell;)Ljetbrains/mps/openapi/editor/style/Style;" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="14" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getStringLiteral#(Ljetbrains/mps/openapi/editor/cells/EditorCell;)Ljetbrains/mps/openapi/editor/style/Style;" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="65" startPosition="0" endLine="71" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getAttributeName#(Ljetbrains/mps/openapi/editor/cells/EditorCell;)Ljetbrains/mps/openapi/editor/style/Style;" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="72" startPosition="0" endLine="78" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getDepractaedAttributeName#(Ljetbrains/mps/openapi/editor/cells/EditorCell;)Ljetbrains/mps/openapi/editor/style/Style;" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="79" startPosition="0" endLine="85" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getPrompting#(Ljetbrains/mps/openapi/editor/cells/EditorCell;)Ljetbrains/mps/openapi/editor/style/Style;" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="86" startPosition="0" endLine="92" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getComment#(Ljetbrains/mps/openapi/editor/cells/EditorCell;)Ljetbrains/mps/openapi/editor/style/Style;" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="21" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getBooleanLiteral#(Ljetbrains/mps/openapi/editor/cells/EditorCell;)Ljetbrains/mps/openapi/editor/style/Style;" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="35" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getKeyword#(Ljetbrains/mps/openapi/editor/cells/EditorCell;)Ljetbrains/mps/openapi/editor/style/Style;" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="43" startPosition="0" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getTarget#(Ljetbrains/mps/openapi/editor/cells/EditorCell;)Ljetbrains/mps/openapi/editor/style/Style;" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="51" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getTask#(Ljetbrains/mps/openapi/editor/cells/EditorCell;)Ljetbrains/mps/openapi/editor/style/Style;" />
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="102" startPosition="78" endLine="102" endPosition="78" />
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="120" startPosition="72" endLine="120" endPosition="72" />
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="93" startPosition="77" endLine="94" endPosition="108" />
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="123" startPosition="77" endLine="124" endPosition="58" />
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="127" startPosition="87" endLine="128" endPosition="48" />
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="131" startPosition="73" endLine="132" endPosition="107" />
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="135" startPosition="71" endLine="136" endPosition="102" />
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="30" startPosition="70" endLine="32" endPosition="17">
-      <varInfo nodeId="1196861129522" varName="style" />
-    </scopeInfo>
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="60" startPosition="64" endLine="62" endPosition="17">
-      <varInfo nodeId="1196861129522" varName="style" />
-    </scopeInfo>
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="97" startPosition="78" endLine="99" endPosition="57" />
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="102" startPosition="0" endLine="104" endPosition="0">
+    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="13" startPosition="78" endLine="14" endPosition="108" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="17" startPosition="79" endLine="18" endPosition="110" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="18" startPosition="110" endLine="19" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="25" startPosition="72" endLine="26" endPosition="107" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="26" startPosition="107" endLine="27" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="30" startPosition="71" endLine="31" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="31" startPosition="57" endLine="32" endPosition="106" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="35" startPosition="69" endLine="36" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="36" startPosition="58" endLine="37" endPosition="107" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="43" startPosition="78" endLine="44" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="47" startPosition="88" endLine="48" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="51" startPosition="74" endLine="52" endPosition="107" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="55" startPosition="72" endLine="56" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="22" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="apply_integerLiteral#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
+    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="40" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="apply_property#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
+    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="13" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="apply_stringLiteral#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
+    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="43" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="apply_attributeName#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
+    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="47" startPosition="0" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="apply_depractaedAttributeName#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
+    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="51" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="apply_prompting#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
+    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="55" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="apply_comment#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
+    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="17" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="apply_booleanLiteral#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
+    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="25" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="apply_keyword#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
+    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="30" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="apply_target#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
+    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="35" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="apply_task#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
+    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="22" startPosition="79" endLine="22" endPosition="79" />
+    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="40" startPosition="73" endLine="40" endPosition="73" />
+    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="13" startPosition="78" endLine="14" endPosition="108" />
+    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="43" startPosition="78" endLine="44" endPosition="58" />
+    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="47" startPosition="88" endLine="48" endPosition="48" />
+    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="51" startPosition="74" endLine="52" endPosition="107" />
+    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="55" startPosition="72" endLine="56" endPosition="102" />
+    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="17" startPosition="79" endLine="19" endPosition="57" />
+    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="22" startPosition="0" endLine="24" endPosition="0">
       <varInfo nodeId="1196861129522" varName="editorCell" />
       <varInfo nodeId="1196861129522" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="105" startPosition="71" endLine="107" endPosition="57" />
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="110" startPosition="70" endLine="112" endPosition="106" />
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="115" startPosition="68" endLine="117" endPosition="107" />
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="120" startPosition="0" endLine="122" endPosition="0">
+    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="25" startPosition="72" endLine="27" endPosition="57" />
+    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="30" startPosition="71" endLine="32" endPosition="106" />
+    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="35" startPosition="69" endLine="37" endPosition="107" />
+    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="40" startPosition="0" endLine="42" endPosition="0">
       <varInfo nodeId="1196861129522" varName="editorCell" />
       <varInfo nodeId="1196861129522" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="15" startPosition="69" endLine="18" endPosition="17">
-      <varInfo nodeId="1196861129522" varName="style" />
-    </scopeInfo>
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="66" startPosition="69" endLine="69" endPosition="17">
-      <varInfo nodeId="1196861129522" varName="style" />
-    </scopeInfo>
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="73" startPosition="79" endLine="76" endPosition="17">
-      <varInfo nodeId="1196861129522" varName="style" />
-    </scopeInfo>
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="80" startPosition="65" endLine="83" endPosition="17">
-      <varInfo nodeId="1196861129522" varName="style" />
-    </scopeInfo>
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="87" startPosition="63" endLine="90" endPosition="17">
-      <varInfo nodeId="1196861129522" varName="style" />
-    </scopeInfo>
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="93" startPosition="0" endLine="96" endPosition="0">
+    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="13" startPosition="0" endLine="16" endPosition="0">
       <varInfo nodeId="1196861129522" varName="editorCell" />
       <varInfo nodeId="1196861129522" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="123" startPosition="0" endLine="126" endPosition="0">
+    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="43" startPosition="0" endLine="46" endPosition="0">
       <varInfo nodeId="1196861129522" varName="editorCell" />
       <varInfo nodeId="1196861129522" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="127" startPosition="0" endLine="130" endPosition="0">
+    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="47" startPosition="0" endLine="50" endPosition="0">
       <varInfo nodeId="1196861129522" varName="editorCell" />
       <varInfo nodeId="1196861129522" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="131" startPosition="0" endLine="134" endPosition="0">
+    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="51" startPosition="0" endLine="54" endPosition="0">
       <varInfo nodeId="1196861129522" varName="editorCell" />
       <varInfo nodeId="1196861129522" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="135" startPosition="0" endLine="138" endPosition="0">
+    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="55" startPosition="0" endLine="58" endPosition="0">
       <varInfo nodeId="1196861129522" varName="editorCell" />
       <varInfo nodeId="1196861129522" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="22" startPosition="70" endLine="26" endPosition="17">
-      <varInfo nodeId="1196861129522" varName="style" />
-    </scopeInfo>
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="36" startPosition="63" endLine="40" endPosition="17">
-      <varInfo nodeId="1196861129522" varName="style" />
-    </scopeInfo>
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="44" startPosition="62" endLine="48" endPosition="17">
-      <varInfo nodeId="1196861129522" varName="style" />
-    </scopeInfo>
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="52" startPosition="60" endLine="56" endPosition="17">
-      <varInfo nodeId="1196861129522" varName="style" />
-    </scopeInfo>
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="97" startPosition="0" endLine="101" endPosition="0">
+    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="17" startPosition="0" endLine="21" endPosition="0">
       <varInfo nodeId="1196861129522" varName="editorCell" />
       <varInfo nodeId="1196861129522" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="105" startPosition="0" endLine="109" endPosition="0">
+    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="25" startPosition="0" endLine="29" endPosition="0">
       <varInfo nodeId="1196861129522" varName="editorCell" />
       <varInfo nodeId="1196861129522" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="110" startPosition="0" endLine="114" endPosition="0">
+    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="30" startPosition="0" endLine="34" endPosition="0">
       <varInfo nodeId="1196861129522" varName="editorCell" />
       <varInfo nodeId="1196861129522" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="115" startPosition="0" endLine="119" endPosition="0">
+    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="35" startPosition="0" endLine="39" endPosition="0">
       <varInfo nodeId="1196861129522" varName="editorCell" />
       <varInfo nodeId="1196861129522" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="29" startPosition="0" endLine="34" endPosition="0">
-      <varInfo nodeId="1196861129522" varName="editorCell" />
-    </scopeInfo>
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="59" startPosition="0" endLine="64" endPosition="0">
-      <varInfo nodeId="1196861129522" varName="editorCell" />
-    </scopeInfo>
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="14" startPosition="0" endLine="20" endPosition="0">
-      <varInfo nodeId="1196861129522" varName="editorCell" />
-    </scopeInfo>
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="65" startPosition="0" endLine="71" endPosition="0">
-      <varInfo nodeId="1196861129522" varName="editorCell" />
-    </scopeInfo>
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="72" startPosition="0" endLine="78" endPosition="0">
-      <varInfo nodeId="1196861129522" varName="editorCell" />
-    </scopeInfo>
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="79" startPosition="0" endLine="85" endPosition="0">
-      <varInfo nodeId="1196861129522" varName="editorCell" />
-    </scopeInfo>
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="86" startPosition="0" endLine="92" endPosition="0">
-      <varInfo nodeId="1196861129522" varName="editorCell" />
-    </scopeInfo>
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="21" startPosition="0" endLine="28" endPosition="0">
-      <varInfo nodeId="1196861129522" varName="editorCell" />
-    </scopeInfo>
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="35" startPosition="0" endLine="42" endPosition="0">
-      <varInfo nodeId="1196861129522" varName="editorCell" />
-    </scopeInfo>
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="43" startPosition="0" endLine="50" endPosition="0">
-      <varInfo nodeId="1196861129522" varName="editorCell" />
-    </scopeInfo>
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="51" startPosition="0" endLine="58" endPosition="0">
-      <varInfo nodeId="1196861129522" varName="editorCell" />
-    </scopeInfo>
-    <unitInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="13" startPosition="0" endLine="139" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.BuildLanguageStyle_StyleSheet" />
+    <unitInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="12" startPosition="0" endLine="61" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.BuildLanguageStyle_StyleSheet" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895904c2(jetbrains.mps.buildlanguage.editor)/1196866050516">
     <nodeInfo nodeId="1196866050516" fileName="BooleanLiteral_Editor.java" startLine="17" startPosition="79" endLine="18" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -2719,8 +2607,8 @@
     <nodeInfo nodeId="1196866059049" fileName="BooleanLiteral_Editor.java" startLine="26" startPosition="58" endLine="27" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1196866059049" fileName="BooleanLiteral_Editor.java" startLine="27" startPosition="43" endLine="28" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1196866059049" fileName="BooleanLiteral_Editor.java" startLine="28" startPosition="28" endLine="29" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1196866059049" fileName="BooleanLiteral_Editor.java" startLine="29" startPosition="34" endLine="30" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196866059049" fileName="BooleanLiteral_Editor.java" startLine="30" startPosition="73" endLine="31" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196866059049" fileName="BooleanLiteral_Editor.java" startLine="29" startPosition="34" endLine="30" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196866059049" fileName="BooleanLiteral_Editor.java" startLine="30" startPosition="74" endLine="31" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1196866059049" fileName="BooleanLiteral_Editor.java" startLine="31" startPosition="40" endLine="32" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1196866059049" fileName="BooleanLiteral_Editor.java" startLine="32" startPosition="73" endLine="33" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1196866059049" fileName="BooleanLiteral_Editor.java" startLine="33" startPosition="57" endLine="34" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -2763,8 +2651,8 @@
     <nodeInfo nodeId="1196866674973" fileName="IntLiteral_Editor.java" startLine="26" startPosition="58" endLine="27" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1196866674973" fileName="IntLiteral_Editor.java" startLine="27" startPosition="43" endLine="28" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1196866674973" fileName="IntLiteral_Editor.java" startLine="28" startPosition="28" endLine="29" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1196866674973" fileName="IntLiteral_Editor.java" startLine="29" startPosition="34" endLine="30" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196866674973" fileName="IntLiteral_Editor.java" startLine="30" startPosition="73" endLine="31" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196866674973" fileName="IntLiteral_Editor.java" startLine="29" startPosition="34" endLine="30" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196866674973" fileName="IntLiteral_Editor.java" startLine="30" startPosition="74" endLine="31" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1196866674973" fileName="IntLiteral_Editor.java" startLine="31" startPosition="40" endLine="32" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1196866674973" fileName="IntLiteral_Editor.java" startLine="32" startPosition="73" endLine="33" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1196866674973" fileName="IntLiteral_Editor.java" startLine="33" startPosition="57" endLine="34" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -3177,8 +3065,8 @@
     <nodeInfo nodeId="1200419310593" fileName="Enum_Editor.java" startLine="110" startPosition="91" endLine="111" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1200419310593" fileName="Enum_Editor.java" startLine="111" startPosition="105" endLine="112" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1200419310593" fileName="Enum_Editor.java" startLine="112" startPosition="50" endLine="113" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1200419310593" fileName="Enum_Editor.java" startLine="113" startPosition="36" endLine="114" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1200419310593" fileName="Enum_Editor.java" startLine="114" startPosition="70" endLine="115" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1200419310593" fileName="Enum_Editor.java" startLine="113" startPosition="36" endLine="114" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1200419310593" fileName="Enum_Editor.java" startLine="114" startPosition="71" endLine="115" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1200419310593" fileName="Enum_Editor.java" startLine="115" startPosition="42" endLine="116" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1200419310593" fileName="Enum_Editor.java" startLine="116" startPosition="36" endLine="117" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1197399041536" fileName="Enum_Editor.java" startLine="121" startPosition="88" endLine="122" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -3503,8 +3391,8 @@
     <nodeInfo nodeId="1200420323624" fileName="ImportPropertyNode_Editor.java" startLine="29" startPosition="80" endLine="30" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="2886182022232399991" fileName="ImportPropertyNode_Editor.java" startLine="33" startPosition="89" endLine="34" endPosition="131" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="2886182022232399991" fileName="ImportPropertyNode_Editor.java" startLine="34" startPosition="131" endLine="35" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2886182022232399991" fileName="ImportPropertyNode_Editor.java" startLine="35" startPosition="34" endLine="36" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2886182022232399991" fileName="ImportPropertyNode_Editor.java" startLine="36" startPosition="66" endLine="37" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2886182022232399991" fileName="ImportPropertyNode_Editor.java" startLine="35" startPosition="34" endLine="36" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2886182022232399991" fileName="ImportPropertyNode_Editor.java" startLine="36" startPosition="67" endLine="37" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="2886182022232399991" fileName="ImportPropertyNode_Editor.java" startLine="37" startPosition="40" endLine="38" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1200420323624" fileName="ImportPropertyNode_Editor.java" startLine="41" startPosition="87" endLine="42" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1200420323624" fileName="ImportPropertyNode_Editor.java" startLine="42" startPosition="81" endLine="43" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -3915,8 +3803,8 @@
     <nodeInfo nodeId="1201702710512" fileName="ImportProject_Editor.java" startLine="29" startPosition="80" endLine="30" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="2886182022232399997" fileName="ImportProject_Editor.java" startLine="33" startPosition="89" endLine="34" endPosition="131" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="2886182022232399997" fileName="ImportProject_Editor.java" startLine="34" startPosition="131" endLine="35" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2886182022232399997" fileName="ImportProject_Editor.java" startLine="35" startPosition="34" endLine="36" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2886182022232399997" fileName="ImportProject_Editor.java" startLine="36" startPosition="66" endLine="37" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2886182022232399997" fileName="ImportProject_Editor.java" startLine="35" startPosition="34" endLine="36" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2886182022232399997" fileName="ImportProject_Editor.java" startLine="36" startPosition="67" endLine="37" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="2886182022232399997" fileName="ImportProject_Editor.java" startLine="37" startPosition="40" endLine="38" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1201702710512" fileName="ImportProject_Editor.java" startLine="41" startPosition="87" endLine="42" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1201702710512" fileName="ImportProject_Editor.java" startLine="42" startPosition="81" endLine="43" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -4146,8 +4034,8 @@
     <nodeInfo nodeId="1219147949890" fileName="ExternalPropertyDeclaration_Editor.java" startLine="62" startPosition="89" endLine="63" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1219147949890" fileName="ExternalPropertyDeclaration_Editor.java" startLine="63" startPosition="88" endLine="64" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1219147949890" fileName="ExternalPropertyDeclaration_Editor.java" startLine="64" startPosition="48" endLine="65" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1219147949890" fileName="ExternalPropertyDeclaration_Editor.java" startLine="65" startPosition="34" endLine="66" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1219147949890" fileName="ExternalPropertyDeclaration_Editor.java" startLine="66" startPosition="66" endLine="67" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1219147949890" fileName="ExternalPropertyDeclaration_Editor.java" startLine="65" startPosition="34" endLine="66" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1219147949890" fileName="ExternalPropertyDeclaration_Editor.java" startLine="66" startPosition="67" endLine="67" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1219147949890" fileName="ExternalPropertyDeclaration_Editor.java" startLine="67" startPosition="40" endLine="68" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1219147949890" fileName="ExternalPropertyDeclaration_Editor.java" startLine="68" startPosition="34" endLine="69" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1219147949891" fileName="ExternalPropertyDeclaration_Editor.java" startLine="72" startPosition="89" endLine="73" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -4158,8 +4046,8 @@
     <nodeInfo nodeId="1219147949891" fileName="ExternalPropertyDeclaration_Editor.java" startLine="77" startPosition="26" endLine="78" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1219147949891" fileName="ExternalPropertyDeclaration_Editor.java" startLine="78" startPosition="58" endLine="79" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1219147949891" fileName="ExternalPropertyDeclaration_Editor.java" startLine="79" startPosition="54" endLine="80" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1219147949891" fileName="ExternalPropertyDeclaration_Editor.java" startLine="80" startPosition="34" endLine="81" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1219147949891" fileName="ExternalPropertyDeclaration_Editor.java" startLine="81" startPosition="66" endLine="82" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1219147949891" fileName="ExternalPropertyDeclaration_Editor.java" startLine="80" startPosition="34" endLine="81" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1219147949891" fileName="ExternalPropertyDeclaration_Editor.java" startLine="81" startPosition="67" endLine="82" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1219147949891" fileName="ExternalPropertyDeclaration_Editor.java" startLine="82" startPosition="40" endLine="83" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1219147949891" fileName="ExternalPropertyDeclaration_Editor.java" startLine="83" startPosition="73" endLine="84" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1219147949891" fileName="ExternalPropertyDeclaration_Editor.java" startLine="84" startPosition="57" endLine="85" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -4185,15 +4073,15 @@
     <nodeInfo nodeId="1219147880893" fileName="ExternalPropertyDeclaration_Editor.java" startLine="121" startPosition="89" endLine="122" endPosition="93" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1219147880893" fileName="ExternalPropertyDeclaration_Editor.java" startLine="122" startPosition="93" endLine="123" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1219147880893" fileName="ExternalPropertyDeclaration_Editor.java" startLine="123" startPosition="48" endLine="124" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1219147880893" fileName="ExternalPropertyDeclaration_Editor.java" startLine="124" startPosition="34" endLine="125" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1219147880893" fileName="ExternalPropertyDeclaration_Editor.java" startLine="125" startPosition="66" endLine="126" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1219147880893" fileName="ExternalPropertyDeclaration_Editor.java" startLine="124" startPosition="34" endLine="125" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1219147880893" fileName="ExternalPropertyDeclaration_Editor.java" startLine="125" startPosition="67" endLine="126" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1219147880893" fileName="ExternalPropertyDeclaration_Editor.java" startLine="126" startPosition="40" endLine="127" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1219147880893" fileName="ExternalPropertyDeclaration_Editor.java" startLine="127" startPosition="34" endLine="128" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1219774459041" fileName="ExternalPropertyDeclaration_Editor.java" startLine="131" startPosition="98" endLine="132" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="2886182022232400255" fileName="ExternalPropertyDeclaration_Editor.java" startLine="135" startPosition="90" endLine="136" endPosition="131" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="2886182022232400255" fileName="ExternalPropertyDeclaration_Editor.java" startLine="136" startPosition="131" endLine="137" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2886182022232400255" fileName="ExternalPropertyDeclaration_Editor.java" startLine="137" startPosition="34" endLine="138" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2886182022232400255" fileName="ExternalPropertyDeclaration_Editor.java" startLine="138" startPosition="66" endLine="139" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2886182022232400255" fileName="ExternalPropertyDeclaration_Editor.java" startLine="137" startPosition="34" endLine="138" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2886182022232400255" fileName="ExternalPropertyDeclaration_Editor.java" startLine="138" startPosition="67" endLine="139" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="2886182022232400255" fileName="ExternalPropertyDeclaration_Editor.java" startLine="139" startPosition="40" endLine="140" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1219147949903" fileName="ExternalPropertyDeclaration_Editor.java" startLine="143" startPosition="89" endLine="144" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1219147949903" fileName="ExternalPropertyDeclaration_Editor.java" startLine="144" startPosition="82" endLine="145" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -4202,8 +4090,8 @@
     <nodeInfo nodeId="1219147949903" fileName="ExternalPropertyDeclaration_Editor.java" startLine="147" startPosition="26" endLine="148" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1219147949903" fileName="ExternalPropertyDeclaration_Editor.java" startLine="148" startPosition="58" endLine="149" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1219147949903" fileName="ExternalPropertyDeclaration_Editor.java" startLine="149" startPosition="42" endLine="150" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1219147949903" fileName="ExternalPropertyDeclaration_Editor.java" startLine="150" startPosition="34" endLine="151" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1219147949903" fileName="ExternalPropertyDeclaration_Editor.java" startLine="151" startPosition="67" endLine="152" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1219147949903" fileName="ExternalPropertyDeclaration_Editor.java" startLine="150" startPosition="34" endLine="151" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1219147949903" fileName="ExternalPropertyDeclaration_Editor.java" startLine="151" startPosition="68" endLine="152" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1219147949903" fileName="ExternalPropertyDeclaration_Editor.java" startLine="152" startPosition="40" endLine="153" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1219147949903" fileName="ExternalPropertyDeclaration_Editor.java" startLine="153" startPosition="73" endLine="154" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1219147949903" fileName="ExternalPropertyDeclaration_Editor.java" startLine="154" startPosition="57" endLine="155" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -4249,8 +4137,8 @@
     <nodeInfo nodeId="1219774537889" fileName="ExternalPropertyDeclaration_Editor.java" startLine="217" startPosition="91" endLine="218" endPosition="100" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1219774537889" fileName="ExternalPropertyDeclaration_Editor.java" startLine="218" startPosition="100" endLine="219" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1219774537889" fileName="ExternalPropertyDeclaration_Editor.java" startLine="219" startPosition="50" endLine="220" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1219774537889" fileName="ExternalPropertyDeclaration_Editor.java" startLine="220" startPosition="34" endLine="221" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1219774537889" fileName="ExternalPropertyDeclaration_Editor.java" startLine="221" startPosition="72" endLine="222" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1219774537889" fileName="ExternalPropertyDeclaration_Editor.java" startLine="220" startPosition="34" endLine="221" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1219774537889" fileName="ExternalPropertyDeclaration_Editor.java" startLine="221" startPosition="73" endLine="222" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1219774537889" fileName="ExternalPropertyDeclaration_Editor.java" startLine="222" startPosition="40" endLine="223" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1219774537889" fileName="ExternalPropertyDeclaration_Editor.java" startLine="223" startPosition="34" endLine="224" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1219774988253" fileName="ExternalPropertyDeclaration_Editor.java" startLine="227" startPosition="89" endLine="228" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -4264,8 +4152,8 @@
     <nodeInfo nodeId="1219774550067" fileName="ExternalPropertyDeclaration_Editor.java" startLine="238" startPosition="26" endLine="239" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1219774550067" fileName="ExternalPropertyDeclaration_Editor.java" startLine="239" startPosition="58" endLine="240" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1219774550067" fileName="ExternalPropertyDeclaration_Editor.java" startLine="240" startPosition="50" endLine="241" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1219774550067" fileName="ExternalPropertyDeclaration_Editor.java" startLine="241" startPosition="34" endLine="242" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1219774550067" fileName="ExternalPropertyDeclaration_Editor.java" startLine="242" startPosition="73" endLine="243" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1219774550067" fileName="ExternalPropertyDeclaration_Editor.java" startLine="241" startPosition="34" endLine="242" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1219774550067" fileName="ExternalPropertyDeclaration_Editor.java" startLine="242" startPosition="74" endLine="243" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1219774550067" fileName="ExternalPropertyDeclaration_Editor.java" startLine="243" startPosition="40" endLine="244" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1219774550067" fileName="ExternalPropertyDeclaration_Editor.java" startLine="244" startPosition="73" endLine="245" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1219774550067" fileName="ExternalPropertyDeclaration_Editor.java" startLine="245" startPosition="57" endLine="246" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -4654,8 +4542,8 @@
     <nodeInfo nodeId="1240398843278" fileName="ImportPropertiesFromFile_Editor.java" startLine="29" startPosition="80" endLine="30" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="2886182022232400355" fileName="ImportPropertiesFromFile_Editor.java" startLine="33" startPosition="89" endLine="34" endPosition="131" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="2886182022232400355" fileName="ImportPropertiesFromFile_Editor.java" startLine="34" startPosition="131" endLine="35" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2886182022232400355" fileName="ImportPropertiesFromFile_Editor.java" startLine="35" startPosition="34" endLine="36" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2886182022232400355" fileName="ImportPropertiesFromFile_Editor.java" startLine="36" startPosition="66" endLine="37" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2886182022232400355" fileName="ImportPropertiesFromFile_Editor.java" startLine="35" startPosition="34" endLine="36" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2886182022232400355" fileName="ImportPropertiesFromFile_Editor.java" startLine="36" startPosition="67" endLine="37" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="2886182022232400355" fileName="ImportPropertiesFromFile_Editor.java" startLine="37" startPosition="40" endLine="38" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1240398863269" fileName="ImportPropertiesFromFile_Editor.java" startLine="41" startPosition="87" endLine="42" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1240398863269" fileName="ImportPropertiesFromFile_Editor.java" startLine="42" startPosition="81" endLine="43" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />

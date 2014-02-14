@@ -4,30 +4,17 @@ package jetbrains.mps.baseLanguage.datesInternal.editor;
 
 import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.openapi.editor.cells.EditorCell;
-import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.MPSFonts;
 
 public class DatesInternal_StyleSheet {
-  @Deprecated
-  public static Style getSimpleText(final EditorCell editorCell) {
-    Style style = new StyleImpl(editorCell);
-    style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
-    return style;
-  }
-
-  @Deprecated
-  public static Style getTableCell(final EditorCell editorCell) {
-    Style style = new StyleImpl(editorCell);
-    style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
-    return style;
-  }
-
-  public static void applySimpleText(Style style, EditorCell editorCell) {
+  public static void apply_SimpleText(Style style, EditorCell editorCell) {
     style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
   }
 
-  public static void applyTableCell(Style style, EditorCell editorCell) {
+  public static void apply_TableCell(Style style, EditorCell editorCell) {
     style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
   }
+
+
 }

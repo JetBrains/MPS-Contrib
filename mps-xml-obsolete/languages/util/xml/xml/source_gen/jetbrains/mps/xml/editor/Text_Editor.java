@@ -30,7 +30,7 @@ public class Text_Editor extends DefaultNodeEditor {
     editorCell.setCellId("property_text");
     editorCell.setBig(true);
     Style style = new StyleImpl();
-    XmlStyle_StyleSheet.applyXmlText(style, editorCell);
+    XmlStyle_StyleSheet.apply_XmlText(style, editorCell);
     editorCell.getStyle().putAll(style);
     if (true) {
       editorCell.getStyle().set(StyleAttributes.FOCUS_POLICY, FocusPolicy.ATTRACTS_FOCUS);

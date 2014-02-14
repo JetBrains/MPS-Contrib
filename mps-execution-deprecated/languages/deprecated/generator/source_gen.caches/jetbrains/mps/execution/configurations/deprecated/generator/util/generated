@@ -1,8 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-8kldhjk34yl1s06lxh4jr0m0mbmd44o">
-  <common hash="-7s7wv1gwmrc6zlke0380cvhqbj2rh63" dependsOnNodes="true" />
-  <source id="5755638771828887259" name="VariableNameUtil" hash="ebkun0oom9zt7jn4cljzqz0836xm8ew">
-    <file name="VariableNameUtil.java" />
-  </source>
-</dependencies>
+<dependencies version="2" modelHash="-8kldhjk34yl1s06lxh4jr0m0mbmd44o" />
 

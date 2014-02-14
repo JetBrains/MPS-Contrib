@@ -55,7 +55,7 @@ public class RoundDateTimeOperation_Editor extends DefaultNodeEditor {
   private EditorCell createComponent_z8nl1z_b0(EditorContext editorContext, SNode node) {
     EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.lang.core.editor.alias");
     Style style = new StyleImpl();
-    Dates_StyleSheet.applyDateCompactKeyWord(style, editorCell);
+    Dates_StyleSheet.apply_DateCompactKeyWord(style, editorCell);
     editorCell.getStyle().putAll(style);
     UnaryDateTimeOperation_ActionMap.setCellActions(editorCell, node, editorContext);
     return editorCell;
@@ -106,7 +106,7 @@ public class RoundDateTimeOperation_Editor extends DefaultNodeEditor {
         editorCell.setRole("precision");
       }
       Style style = new StyleImpl();
-      Dates_StyleSheet.applyDateProperty(style, editorCell);
+      Dates_StyleSheet.apply_DateProperty(style, editorCell);
       editorCell.getStyle().putAll(style);
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();

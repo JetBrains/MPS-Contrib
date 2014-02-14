@@ -42,7 +42,7 @@ public class TimeZoneIDExpression_Editor extends DefaultNodeEditor {
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_timezone_id");
     Style style = new StyleImpl();
-    Dates_StyleSheet.applyDateProperty(style, editorCell);
+    Dates_StyleSheet.apply_DateProperty(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(new CompositeSubstituteInfo(editorContext, provider.getCellContext(), new SubstituteInfoPartExt[]{new TimeZoneIDExpression_Editor.TimeZoneIDExpression_timezone_id_cellMenu_dukjzk_a0a0()}));
     SNode attributeConcept = provider.getRoleAttribute();

@@ -27,7 +27,7 @@ public class IntLiteral_Editor extends DefaultNodeEditor {
     editorCell.setCellId("property_value");
     editorCell.setBig(true);
     Style style = new StyleImpl();
-    BuildLanguageStyle_StyleSheet.applyIntegerLiteral(style, editorCell);
+    BuildLanguageStyle_StyleSheet.apply_integerLiteral(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

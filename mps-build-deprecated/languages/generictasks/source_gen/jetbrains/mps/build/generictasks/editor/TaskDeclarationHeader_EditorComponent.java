@@ -80,7 +80,7 @@ public class TaskDeclarationHeader_EditorComponent implements ConceptEditorCompo
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "abstract");
     editorCell.setCellId("Constant_ws04gp_a0a");
     Style style = new StyleImpl();
-    BuildLanguageStyle_StyleSheet.applyKeyword(style, editorCell);
+    BuildLanguageStyle_StyleSheet.apply_keyword(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -93,7 +93,7 @@ public class TaskDeclarationHeader_EditorComponent implements ConceptEditorCompo
   private EditorCell createComponent_ws04gp_b0a(EditorContext editorContext, SNode node) {
     EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.lang.core.editor.alias");
     Style style = new StyleImpl();
-    BuildLanguageStyle_StyleSheet.applyKeyword(style, editorCell);
+    BuildLanguageStyle_StyleSheet.apply_keyword(style, editorCell);
     editorCell.getStyle().putAll(style);
     return editorCell;
   }
@@ -106,7 +106,7 @@ public class TaskDeclarationHeader_EditorComponent implements ConceptEditorCompo
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("TDHEC_property_name");
     Style style = new StyleImpl();
-    BuildLanguageStyle_StyleSheet.applyTask(style, editorCell);
+    BuildLanguageStyle_StyleSheet.apply_task(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -123,7 +123,7 @@ public class TaskDeclarationHeader_EditorComponent implements ConceptEditorCompo
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "extends");
     editorCell.setCellId("Constant_ws04gp_d0a");
     Style style = new StyleImpl();
-    BuildLanguageStyle_StyleSheet.applyKeyword(style, editorCell);
+    BuildLanguageStyle_StyleSheet.apply_keyword(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -143,7 +143,7 @@ public class TaskDeclarationHeader_EditorComponent implements ConceptEditorCompo
       editorCell.setRole("parentRef");
     }
     Style style = new StyleImpl();
-    BuildLanguageStyle_StyleSheet.applyTask(style, editorCell);
+    BuildLanguageStyle_StyleSheet.apply_task(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -179,7 +179,7 @@ public class TaskDeclarationHeader_EditorComponent implements ConceptEditorCompo
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "implements");
     editorCell.setCellId("Constant_ws04gp_a5a0");
     Style style = new StyleImpl();
-    BuildLanguageStyle_StyleSheet.applyKeyword(style, editorCell);
+    BuildLanguageStyle_StyleSheet.apply_keyword(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -190,7 +190,7 @@ public class TaskDeclarationHeader_EditorComponent implements ConceptEditorCompo
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Horizontal(), false);
     editorCell.setCellId("TDHEC_refNodeList_interfaces");
     Style style = new StyleImpl();
-    BuildLanguageStyle_StyleSheet.applyTask(style, editorCell);
+    BuildLanguageStyle_StyleSheet.apply_task(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setRole(handler.getElementRole());
     return editorCell;
@@ -253,7 +253,7 @@ public class TaskDeclarationHeader_EditorComponent implements ConceptEditorCompo
       EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<interfaces>");
       editorCell.setCellId("Constant_ws04gp_a1f0a");
       Style style = new StyleImpl();
-      BuildLanguageStyle_StyleSheet.applyPrompting(style, editorCell);
+      BuildLanguageStyle_StyleSheet.apply_prompting(style, editorCell);
       editorCell.getStyle().putAll(style);
       editorCell.setDefaultText("");
       return editorCell;
@@ -281,7 +281,7 @@ public class TaskDeclarationHeader_EditorComponent implements ConceptEditorCompo
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "classname:");
     editorCell.setCellId("Constant_ws04gp_b1a");
     Style style = new StyleImpl();
-    BuildLanguageStyle_StyleSheet.applyKeyword(style, editorCell);
+    BuildLanguageStyle_StyleSheet.apply_keyword(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -330,7 +330,7 @@ public class TaskDeclarationHeader_EditorComponent implements ConceptEditorCompo
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "have internal text:");
     editorCell.setCellId("Constant_ws04gp_b2a");
     Style style = new StyleImpl();
-    BuildLanguageStyle_StyleSheet.applyKeyword(style, editorCell);
+    BuildLanguageStyle_StyleSheet.apply_keyword(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;

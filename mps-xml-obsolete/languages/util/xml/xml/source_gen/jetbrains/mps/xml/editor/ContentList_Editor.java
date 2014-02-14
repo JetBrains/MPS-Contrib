@@ -144,7 +144,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
     editorCell.setCellId("Constant_bs144a_a0a0_0");
     Style style = new StyleImpl();
-    XmlStyle_StyleSheet.applyXmlCLOpenParen(style, editorCell);
+    XmlStyle_StyleSheet.apply_XmlCLOpenParen(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -215,7 +215,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
     editorCell.setCellId("Constant_bs144a_c0a0");
     Style style = new StyleImpl();
-    XmlStyle_StyleSheet.applyXmlCLCloseParen(style, editorCell);
+    XmlStyle_StyleSheet.apply_XmlCLCloseParen(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -250,7 +250,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
     editorCell.setCellId("Constant_bs144a_a0a0_1");
     Style style = new StyleImpl();
-    XmlStyle_StyleSheet.applyXmlOpenBrace(style, editorCell);
+    XmlStyle_StyleSheet.apply_XmlOpenBrace(style, editorCell);
     style.set(StyleAttributes.PADDING_LEFT, new Padding(0.0, Measure.SPACES));
     style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.lightGray));
     editorCell.getStyle().putAll(style);
@@ -336,7 +336,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
     editorCell.setCellId("Constant_bs144a_c0a0_0");
     Style style = new StyleImpl();
-    XmlStyle_StyleSheet.applyXmlCloseBrace(style, editorCell);
+    XmlStyle_StyleSheet.apply_XmlCloseBrace(style, editorCell);
     style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.lightGray));
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");

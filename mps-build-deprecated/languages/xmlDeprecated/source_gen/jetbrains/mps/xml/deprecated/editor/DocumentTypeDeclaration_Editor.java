@@ -55,7 +55,7 @@ public class DocumentTypeDeclaration_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "DOCTYPE");
     editorCell.setCellId("Constant_eyi3ub_b0a");
     Style style = new StyleImpl();
-    XMLDeprecatedStyles_StyleSheet.applyElement(style, editorCell);
+    XMLDeprecatedStyles_StyleSheet.apply_element(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -69,7 +69,7 @@ public class DocumentTypeDeclaration_Editor extends DefaultNodeEditor {
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_name");
     Style style = new StyleImpl();
-    XMLDeprecatedStyles_StyleSheet.applyAttributeValue(style, editorCell);
+    XMLDeprecatedStyles_StyleSheet.apply_attributeValue(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

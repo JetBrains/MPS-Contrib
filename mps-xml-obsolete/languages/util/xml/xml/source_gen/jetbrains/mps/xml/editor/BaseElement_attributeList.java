@@ -104,7 +104,7 @@ public class BaseElement_attributeList implements ConceptEditorComponent {
       EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "attr");
       editorCell.setCellId("Constant_usj5o3_a0a");
       Style style = new StyleImpl();
-      XmlStyle_StyleSheet.applyXmlEmptyCell(style, editorCell);
+      XmlStyle_StyleSheet.apply_XmlEmptyCell(style, editorCell);
       editorCell.getStyle().putAll(style);
       editorCell.setDefaultText("");
       return editorCell;

@@ -71,7 +71,7 @@ public class ComponentDeclaration_Editor extends DefaultNodeEditor {
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_name");
     Style style = new StyleImpl();
-    Stylesheet_StyleSheet.applyComponent(style, editorCell);
+    Stylesheet_StyleSheet.apply_Component(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

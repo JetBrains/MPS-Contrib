@@ -39,7 +39,7 @@ public class Scroller_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Scroller");
     editorCell.setCellId("Constant_rbdq4p_a0");
     Style style = new StyleImpl();
-    Stylesheet_StyleSheet.applyComponent(style, editorCell);
+    Stylesheet_StyleSheet.apply_Component(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;

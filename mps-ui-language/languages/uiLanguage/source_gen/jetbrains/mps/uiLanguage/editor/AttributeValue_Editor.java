@@ -77,7 +77,7 @@ public class AttributeValue_Editor extends DefaultNodeEditor {
         editorCell.setRole("attribute");
       }
       Style style = new StyleImpl();
-      Stylesheet_StyleSheet.applyAttribute(style, editorCell);
+      Stylesheet_StyleSheet.apply_Attribute(style, editorCell);
       editorCell.getStyle().putAll(style);
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();

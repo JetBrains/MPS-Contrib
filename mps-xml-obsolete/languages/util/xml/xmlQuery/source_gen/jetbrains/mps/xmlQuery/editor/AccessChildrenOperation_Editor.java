@@ -75,7 +75,7 @@ public class AccessChildrenOperation_Editor extends DefaultNodeEditor {
         editorCell.setRole("elementDeclaration");
       }
       Style style = new StyleImpl();
-      XmlStyle_StyleSheet.applyXmlElement(style, editorCell);
+      XmlStyle_StyleSheet.apply_XmlElement(style, editorCell);
       style.set(StyleAttributes.AUTO_DELETABLE, true);
       editorCell.getStyle().putAll(style);
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());

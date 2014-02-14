@@ -78,7 +78,7 @@ public class TaskCall_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "//");
     editorCell.setCellId("Constant_fr7f84_a0a");
     Style style = new StyleImpl();
-    BuildLanguageStyle_StyleSheet.applyComment(style, editorCell);
+    BuildLanguageStyle_StyleSheet.apply_comment(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -93,7 +93,7 @@ public class TaskCall_Editor extends DefaultNodeEditor {
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_shortDescription");
     Style style = new StyleImpl();
-    BuildLanguageStyle_StyleSheet.applyComment(style, editorCell);
+    BuildLanguageStyle_StyleSheet.apply_comment(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -133,7 +133,7 @@ public class TaskCall_Editor extends DefaultNodeEditor {
     provider.setAuxiliaryCellProvider(new TaskCall_Editor._Inline_fr7f84_a0b0());
     editorCell = provider.createEditorCell(editorContext);
     Style style = new StyleImpl();
-    BuildLanguageStyle_StyleSheet.applyTask(style, editorCell);
+    BuildLanguageStyle_StyleSheet.apply_task(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -195,7 +195,7 @@ public class TaskCall_Editor extends DefaultNodeEditor {
     provider.setAuxiliaryCellProvider(new TaskCall_Editor._Inline_fr7f84_a1b0());
     editorCell = provider.createEditorCell(editorContext);
     Style style = new StyleImpl();
-    BuildLanguageStyle_StyleSheet.applyDepractaedAttributeName(style, editorCell);
+    BuildLanguageStyle_StyleSheet.apply_depractaedAttributeName(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -330,7 +330,7 @@ public class TaskCall_Editor extends DefaultNodeEditor {
       EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<attributes>");
       editorCell.setCellId("Constant_fr7f84_a4b0");
       Style style = new StyleImpl();
-      BuildLanguageStyle_StyleSheet.applyPrompting(style, editorCell);
+      BuildLanguageStyle_StyleSheet.apply_prompting(style, editorCell);
       editorCell.getStyle().putAll(style);
       editorCell.setDefaultText("");
       return editorCell;
@@ -458,7 +458,7 @@ public class TaskCall_Editor extends DefaultNodeEditor {
       EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<nested tasks>");
       editorCell.setCellId("Constant_fr7f84_a1d0");
       Style style = new StyleImpl();
-      BuildLanguageStyle_StyleSheet.applyPrompting(style, editorCell);
+      BuildLanguageStyle_StyleSheet.apply_prompting(style, editorCell);
       editorCell.getStyle().putAll(style);
       editorCell.setDefaultText("");
       return editorCell;
@@ -527,7 +527,7 @@ public class TaskCall_Editor extends DefaultNodeEditor {
       EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<attributes>");
       editorCell.setCellId("Constant_fr7f84_a0a_0");
       Style style = new StyleImpl();
-      BuildLanguageStyle_StyleSheet.applyPrompting(style, editorCell);
+      BuildLanguageStyle_StyleSheet.apply_prompting(style, editorCell);
       editorCell.getStyle().putAll(style);
       editorCell.setDefaultText("");
       return editorCell;

@@ -91,7 +91,7 @@ public class Element_Editor extends DefaultNodeEditor {
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_name");
     Style style = new StyleImpl();
-    XMLDeprecatedStyles_StyleSheet.applyElement(style, editorCell);
+    XMLDeprecatedStyles_StyleSheet.apply_element(style, editorCell);
     editorCell.getStyle().putAll(style);
     if (true) {
       editorCell.getStyle().set(StyleAttributes.FOCUS_POLICY, FocusPolicy.ATTRACTS_FOCUS);
@@ -308,7 +308,7 @@ public class Element_Editor extends DefaultNodeEditor {
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_name_1");
     Style style = new StyleImpl();
-    XMLDeprecatedStyles_StyleSheet.applyElement(style, editorCell);
+    XMLDeprecatedStyles_StyleSheet.apply_element(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

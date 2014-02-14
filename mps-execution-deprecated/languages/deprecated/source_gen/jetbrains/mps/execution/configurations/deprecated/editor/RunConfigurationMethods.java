@@ -97,7 +97,7 @@ public class RunConfigurationMethods implements ConceptEditorComponent {
       EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<additional methods>");
       editorCell.setCellId("Constant_a3nk37_a1a");
       Style style = new StyleImpl();
-      BaseLanguageStyle_StyleSheet.applyComment(style, editorCell);
+      BaseLanguageStyle_StyleSheet.apply_Comment(style, editorCell);
       editorCell.getStyle().putAll(style);
       editorCell.setDefaultText("");
       return editorCell;

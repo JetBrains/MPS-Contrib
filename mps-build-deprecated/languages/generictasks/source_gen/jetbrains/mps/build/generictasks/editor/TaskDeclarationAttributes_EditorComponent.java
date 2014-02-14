@@ -55,7 +55,7 @@ public class TaskDeclarationAttributes_EditorComponent implements ConceptEditorC
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "attributes:");
     editorCell.setCellId("Constant_p33j5q_a0a");
     Style style = new StyleImpl();
-    BuildLanguageStyle_StyleSheet.applyKeyword(style, editorCell);
+    BuildLanguageStyle_StyleSheet.apply_keyword(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;

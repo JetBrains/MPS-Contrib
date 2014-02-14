@@ -1,20 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-1adil8h2bsja7zhy63ztg6g63buvgli">
-  <common hash="-44y9wx5abv2qm18m9p66d1nz4vvlpxs" dependsOnNodes="true" />
-  <source id="7733366827988670914" name="TBaseBuilderContextListener" hash="bcbnwn5meroocs9uo3s27dzzue2sd89">
-    <file name="TBaseBuilderContextListener.java" />
-  </source>
-  <source id="7733366827988670922" name="TBuffer" hash="-erk0r32w6vek7vstu1qmny8rf38ovyr">
-    <file name="TBuffer.java" />
-  </source>
-  <source id="7733366827988671037" name="TBaseBuilderContext" hash="-38bbiquggkm08enbbut41wz3y3657nv">
-    <file name="TBaseBuilderContext.java" />
-  </source>
-  <source id="7733366827988671516" name="BaseHtmlStringUtil" hash="-2ah0ezqee7pale4c0lqhfsqbf6n6xx">
-    <file name="BaseHtmlStringUtil.java" />
-  </source>
-  <source id="7733366827988670913" name="TContent" hash="-bqv10hsd4or0q3mx2fqa2lka2l9kz9k">
-    <file name="TContent.java" />
-  </source>
-</dependencies>
+<dependencies version="2" modelHash="-1adil8h2bsja7zhy63ztg6g63buvgli" />
 

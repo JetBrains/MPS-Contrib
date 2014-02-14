@@ -125,7 +125,7 @@ public class FormatDateTimeExpression_Editor extends DefaultNodeEditor {
         editorCell.setRole("dateFormat");
       }
       Style style = new StyleImpl();
-      Dates_StyleSheet.applyDateFormat(style, editorCell);
+      Dates_StyleSheet.apply_DateFormat(style, editorCell);
       editorCell.getStyle().putAll(style);
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();
@@ -160,7 +160,7 @@ public class FormatDateTimeExpression_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
     editorCell.setCellId("Constant_3ctnox_a3a");
     Style style = new StyleImpl();
-    BaseLanguageStyle_StyleSheet.applyLeftParen(style, editorCell);
+    BaseLanguageStyle_StyleSheet.apply_LeftParen(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -225,7 +225,7 @@ public class FormatDateTimeExpression_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
     editorCell.setCellId("Constant_3ctnox_c3a");
     Style style = new StyleImpl();
-    BaseLanguageStyle_StyleSheet.applyRightParen(style, editorCell);
+    BaseLanguageStyle_StyleSheet.apply_RightParen(style, editorCell);
     editorCell.getStyle().putAll(style);
     FormatDateTimeExpression_deleteLocale.setCellActions(editorCell, node, editorContext);
     editorCell.setDefaultText("");

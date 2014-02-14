@@ -27,7 +27,7 @@ public class Text_Editor extends DefaultNodeEditor {
     editorCell.setCellId("property_text");
     editorCell.setBig(true);
     Style style = new StyleImpl();
-    XMLDeprecatedStyles_StyleSheet.applyText(style, editorCell);
+    XMLDeprecatedStyles_StyleSheet.apply_text(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

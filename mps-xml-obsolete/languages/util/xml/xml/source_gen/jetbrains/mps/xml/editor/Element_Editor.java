@@ -57,7 +57,7 @@ public class Element_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<");
     editorCell.setCellId("Constant_76r4mg_a0a");
     Style style = new StyleImpl();
-    XmlStyle_StyleSheet.applyXmlOpenParen(style, editorCell);
+    XmlStyle_StyleSheet.apply_XmlOpenParen(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -77,7 +77,7 @@ public class Element_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "/>");
     editorCell.setCellId("Constant_76r4mg_d0a");
     Style style = new StyleImpl();
-    XmlStyle_StyleSheet.applyXmlCloseParen(style, editorCell);
+    XmlStyle_StyleSheet.apply_XmlCloseParen(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -117,7 +117,7 @@ public class Element_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<");
     editorCell.setCellId("Constant_76r4mg_a0a0");
     Style style = new StyleImpl();
-    XmlStyle_StyleSheet.applyXmlOpenParen(style, editorCell);
+    XmlStyle_StyleSheet.apply_XmlOpenParen(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -137,7 +137,7 @@ public class Element_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ">");
     editorCell.setCellId("Constant_76r4mg_d0a0");
     Style style = new StyleImpl();
-    XmlStyle_StyleSheet.applyXmlCloseParen(style, editorCell);
+    XmlStyle_StyleSheet.apply_XmlCloseParen(style, editorCell);
     style.set(StyleAttributes.PUNCTUATION_RIGHT, true);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
@@ -171,7 +171,7 @@ public class Element_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "</");
     editorCell.setCellId("Constant_76r4mg_f0a0");
     Style style = new StyleImpl();
-    XmlStyle_StyleSheet.applyXmlOpenParen(style, editorCell);
+    XmlStyle_StyleSheet.apply_XmlOpenParen(style, editorCell);
     style.set(StyleAttributes.PUNCTUATION_LEFT, true);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
@@ -187,7 +187,7 @@ public class Element_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ">");
     editorCell.setCellId("Constant_76r4mg_h0a0");
     Style style = new StyleImpl();
-    XmlStyle_StyleSheet.applyXmlCloseParen(style, editorCell);
+    XmlStyle_StyleSheet.apply_XmlCloseParen(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -219,7 +219,7 @@ public class Element_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<");
     editorCell.setCellId("Constant_76r4mg_a0a0a");
     Style style = new StyleImpl();
-    XmlStyle_StyleSheet.applyXmlOpenParen(style, editorCell);
+    XmlStyle_StyleSheet.apply_XmlOpenParen(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -239,7 +239,7 @@ public class Element_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ">");
     editorCell.setCellId("Constant_76r4mg_d0a0a");
     Style style = new StyleImpl();
-    XmlStyle_StyleSheet.applyXmlCloseParen(style, editorCell);
+    XmlStyle_StyleSheet.apply_XmlCloseParen(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -297,7 +297,7 @@ public class Element_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "</");
     editorCell.setCellId("Constant_76r4mg_a2a0a");
     Style style = new StyleImpl();
-    XmlStyle_StyleSheet.applyXmlOpenParen(style, editorCell);
+    XmlStyle_StyleSheet.apply_XmlOpenParen(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -312,7 +312,7 @@ public class Element_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ">");
     editorCell.setCellId("Constant_76r4mg_c2a0a");
     Style style = new StyleImpl();
-    XmlStyle_StyleSheet.applyXmlCloseParen(style, editorCell);
+    XmlStyle_StyleSheet.apply_XmlCloseParen(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;

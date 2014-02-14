@@ -45,7 +45,7 @@ public class SimpleAttribute_Editor extends DefaultNodeEditor {
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_attributeName");
     Style style = new StyleImpl();
-    XmlStyle_StyleSheet.applyXmlAttribute(style, editorCell);
+    XmlStyle_StyleSheet.apply_XmlAttribute(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -62,7 +62,7 @@ public class SimpleAttribute_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "=");
     editorCell.setCellId("Constant_r7gjsx_b0");
     Style style = new StyleImpl();
-    XmlStyle_StyleSheet.applyXmlOperator(style, editorCell);
+    XmlStyle_StyleSheet.apply_XmlOperator(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -72,7 +72,7 @@ public class SimpleAttribute_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\"");
     editorCell.setCellId("Constant_r7gjsx_c0");
     Style style = new StyleImpl();
-    XmlStyle_StyleSheet.applyXmlOpenQuote(style, editorCell);
+    XmlStyle_StyleSheet.apply_XmlOpenQuote(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -105,7 +105,7 @@ public class SimpleAttribute_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\"");
     editorCell.setCellId("Constant_r7gjsx_e0");
     Style style = new StyleImpl();
-    XmlStyle_StyleSheet.applyXmlCloseQuote(style, editorCell);
+    XmlStyle_StyleSheet.apply_XmlCloseQuote(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;

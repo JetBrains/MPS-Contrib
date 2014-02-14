@@ -4,7 +4,6 @@ package jetbrains.mps.baseLanguage.dates.editor;
 
 import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.openapi.editor.cells.EditorCell;
-import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import jetbrains.mps.editor.runtime.style.Padding;
@@ -14,57 +13,26 @@ import jetbrains.mps.nodeEditor.MPSColors;
 import jetbrains.mps.nodeEditor.MPSFonts;
 
 public class Dates_StyleSheet {
-  @Deprecated
-  public static Style getDateCompactKeyWord(final EditorCell editorCell) {
-    Style style = new StyleImpl(editorCell);
-    style.putAll(BaseLanguageStyle_StyleSheet.getCompactKeyWord(editorCell));
-    return style;
+  public static void apply_DateCompactKeyWord(Style style, EditorCell editorCell) {
+    BaseLanguageStyle_StyleSheet.apply_CompactKeyWord(style, editorCell);
   }
 
-  @Deprecated
-  public static Style getDateSmall(final EditorCell editorCell) {
-    Style style = new StyleImpl(editorCell);
-    style.set(StyleAttributes.SELECTABLE, false);
-    style.set(StyleAttributes.FONT_SIZE, 9);
-    style.set(StyleAttributes.PADDING_RIGHT, new Padding(1.0, Measure.SPACES));
-    style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.gray));
-    return style;
-  }
-
-  @Deprecated
-  public static Style getDateFormat(final EditorCell editorCell) {
-    Style style = new StyleImpl(editorCell);
-    style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
-    style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.DARK_MAGENTA));
-    style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
-    return style;
-  }
-
-  @Deprecated
-  public static Style getDateProperty(final EditorCell editorCell) {
-    Style style = new StyleImpl(editorCell);
-    style.putAll(BaseLanguageStyle_StyleSheet.getField(editorCell));
-    return style;
-  }
-
-  public static void applyDateCompactKeyWord(Style style, EditorCell editorCell) {
-    BaseLanguageStyle_StyleSheet.applyCompactKeyWord(style, editorCell);
-  }
-
-  public static void applyDateSmall(Style style, EditorCell editorCell) {
+  public static void apply_DateSmall(Style style, EditorCell editorCell) {
     style.set(StyleAttributes.SELECTABLE, false);
     style.set(StyleAttributes.FONT_SIZE, 9);
     style.set(StyleAttributes.PADDING_RIGHT, new Padding(1.0, Measure.SPACES));
     style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.gray));
   }
 
-  public static void applyDateFormat(Style style, EditorCell editorCell) {
+  public static void apply_DateFormat(Style style, EditorCell editorCell) {
     style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
     style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.DARK_MAGENTA));
     style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
   }
 
-  public static void applyDateProperty(Style style, EditorCell editorCell) {
-    BaseLanguageStyle_StyleSheet.applyField(style, editorCell);
+  public static void apply_DateProperty(Style style, EditorCell editorCell) {
+    BaseLanguageStyle_StyleSheet.apply_Field(style, editorCell);
   }
+
+
 }

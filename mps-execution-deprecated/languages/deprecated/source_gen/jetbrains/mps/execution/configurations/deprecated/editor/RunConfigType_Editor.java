@@ -41,7 +41,7 @@ public class RunConfigType_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "runConfig");
     editorCell.setCellId("Constant_dibbxu_a0");
     Style style = new StyleImpl();
-    BaseLanguageStyle_StyleSheet.applyKeyWord(style, editorCell);
+    BaseLanguageStyle_StyleSheet.apply_KeyWord(style, editorCell);
     style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
@@ -52,7 +52,7 @@ public class RunConfigType_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<");
     editorCell.setCellId("Constant_dibbxu_b0");
     Style style = new StyleImpl();
-    BaseLanguageStyle_StyleSheet.applyBracket(style, editorCell);
+    BaseLanguageStyle_StyleSheet.apply_Bracket(style, editorCell);
     style.set(StyleAttributes.PUNCTUATION_LEFT, true);
     style.set(StyleAttributes.PUNCTUATION_RIGHT, true);
     editorCell.getStyle().putAll(style);
@@ -122,7 +122,7 @@ public class RunConfigType_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ">");
     editorCell.setCellId("Constant_dibbxu_d0");
     Style style = new StyleImpl();
-    BaseLanguageStyle_StyleSheet.applyBracket(style, editorCell);
+    BaseLanguageStyle_StyleSheet.apply_Bracket(style, editorCell);
     style.set(StyleAttributes.PUNCTUATION_LEFT, true);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
