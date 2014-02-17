@@ -23,8 +23,8 @@ public class GLine_TextGen extends SNodeTextGen {
       for (SNode item : collection) {
         appendNode(item);
       }
-      this.appendNewLine();
     }
+    this.appendNewLine();
     if (getBuffer().hasPositionsSupport()) {
       {
         String traceableProperty = "";
