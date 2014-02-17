@@ -1,3 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="bnh4bu2uj2msw2oksrc7babux4r0e6w" />
+<dependencies version="2" modelHash="bnh4bu2uj2msw2oksrc7babux4r0e6w">
+  <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel.runtime.impl(MPS.Core/jetbrains.mps.smodel.runtime.impl@java_stub)" />
+  <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="-2hubvwh7bwismm0eld02cqmdefvj5by" />
+  <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" hash="-18rci04s2u92vopawqedkce2noitsf3" />
+  <dep model="r:00000000-0000-4000-0000-011c8959032f(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.main@generator)" hash="-8m69ykqla8brdy60tjaaawgft692m48" />
+  <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="6gsgv1p6bkd8kmlifl0ddbzjugbmbxl" />
+  <common hash="88u831u7ol174fr21m3izunp10atw89" dependsOnNodes="true">
+    <dep root="1107866742882" />
+    <dep root="1107866767486" />
+    <dep root="1107866778860" />
+    <dep root="1107866821377" />
+    <dep root="1119976146404" />
+    <dep root="1234365312778" />
+    <dep root="1234366341260" />
+    <dep root="1234366368307" />
+    <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel.runtime.impl(MPS.Core/jetbrains.mps.smodel.runtime.impl@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c8959032f(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
+    <file name="StructureAspectDescriptor.java" />
+  </common>
+  <source id="1107866742882" name="Attribute" hash="3ouhn2r9rws1zlzdzmcuk17vjcx0z9n" />
+  <source id="1107866767486" name="ElementPart" hash="-89ma9wi08yfza82u4qxcbxmddkodm3n" />
+  <source id="1107866778860" name="Element" hash="2z4dxys7j26sbult4cdtyhh734e5mmr" />
+  <source id="1107866821377" name="Text" hash="65ie8k1wp2vfmbgr027s98506io95gs" />
+  <source id="1119976146404" name="Document" hash="-1rc3k7532yurtdqcbbddtbtplyda5cg" />
+  <source id="1234365312778" name="DocumentTypeDeclaration" hash="544ft8yfr7z6xbtpcvpfq86dpkna7s6" />
+  <source id="1234366341260" name="ExternalId" hash="518fnd3pvhe665ysqac7lnmpdezug75" />
+  <source id="1234366368307" name="PublicId" hash="cilth55dif0ojxpzn0bykx2je0i6j55" />
+</dependencies>
 

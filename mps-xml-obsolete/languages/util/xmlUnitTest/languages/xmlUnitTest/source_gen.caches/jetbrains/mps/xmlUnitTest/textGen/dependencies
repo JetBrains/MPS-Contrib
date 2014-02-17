@@ -50,7 +50,6 @@
   </dependency>
   <dependency className="jetbrains.mps.xmlUnitTest.textGen.XMLStringLiteral_TextGen" file="XMLStringLiteral_TextGen.java">
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
-    <classNode dependClassName="jetbrains.mps.textGen.TextGenManager" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.textGen.SNodeTextGen" />
   </dependency>

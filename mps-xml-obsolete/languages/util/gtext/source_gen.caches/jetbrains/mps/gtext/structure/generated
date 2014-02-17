@@ -1,3 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="3aq3xub02hw1a25v3psjt7dhaw6wpiu" />
+<dependencies version="2" modelHash="3aq3xub02hw1a25v3psjt7dhaw6wpiu">
+  <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel.runtime.impl(MPS.Core/jetbrains.mps.smodel.runtime.impl@java_stub)" />
+  <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="-2hubvwh7bwismm0eld02cqmdefvj5by" />
+  <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" hash="-18rci04s2u92vopawqedkce2noitsf3" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="69bccegrxostpexpy6d34x7at3ezmg6" />
+  <dep model="r:00000000-0000-4000-0000-011c8959032f(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.main@generator)" hash="-8m69ykqla8brdy60tjaaawgft692m48" />
+  <dep model="r:3b7ed80f-6cfd-45bc-b051-2f66c620dd27(jetbrains.mps.lang.traceable.structure)" hash="76myxegtoxgbtj6tyvu3vtcyqh6ntew" />
+  <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="6gsgv1p6bkd8kmlifl0ddbzjugbmbxl" />
+  <common hash="73dbqiq9onglcqcectgp4da3w9a0dmn" dependsOnNodes="true">
+    <dep root="1164412789837" />
+    <dep root="1164412935041" />
+    <dep root="1164412982980" />
+    <dep root="1164413172275" />
+    <dep root="1164413214326" />
+    <dep root="1164416446950" />
+    <dep root="1164488352732" />
+    <dep root="1164497519485" />
+    <dep root="1165582968644" />
+    <dep root="1166926309597" />
+    <dep root="1179109169620" />
+    <dep root="1181754781153" />
+    <dep root="1184639540818" />
+    <dep root="1186170508337" />
+    <dep root="1188509198390" />
+    <dep root="1211920428461" />
+    <dep root="1211920502338" />
+    <dep root="1239125024709" />
+    <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel.runtime.impl(MPS.Core/jetbrains.mps.smodel.runtime.impl@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c8959032f(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:3b7ed80f-6cfd-45bc-b051-2f66c620dd27(jetbrains.mps.lang.traceable.structure)" />
+    <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
+    <file name="StructureAspectDescriptor.java" />
+  </common>
+  <source id="1164412789837" name="GText" hash="cmdw9xmh04l8ope0frh37p0jpo81a8w" />
+  <source id="1164412935041" name="GItem" hash="6upentsxpaw5sixjpqf4zmk4iovvg42" />
+  <source id="1164412982980" name="GItemList" hash="30y57ey2oj2dtdazwdb5m7au8s9ijyy" />
+  <source id="1164413172275" name="GNewLine" hash="dlpcl9scn2nwrd5ehf04l5nwnts1yee" />
+  <source id="1164413214326" name="GIndent" hash="103mvg0sva0a6ov86abvr6ufcp0zesl" />
+  <source id="1164416446950" name="GIndentBlock" hash="-8i5r9q9e6kz0pjghrumuydx3vo8k2lg" />
+  <source id="1164488352732" name="GItemStatement" hash="6m0hbvxyrs3nhptu9tnv5w2v5kky5bo" />
+  <source id="1164497519485" name="GExpressionItem" hash="-20k1ytsq9jofpq8vv7x4392uq10dkp8" />
+  <source id="1165582968644" name="GStatementItem" hash="1a0r9etg9lceo7x57kcyivss0t199b8" />
+  <source id="1166926309597" name="GLine" hash="31bxavj20ca3x0pqcgszkcpazsx0iks" />
+  <source id="1179109169620" name="GConditionalLine" hash="-c8f6zc7m1smqax8vhymp9jy244o7d5z" />
+  <source id="1181754781153" name="BuilderContextRef" hash="-d01gxw3607bhjk2cle66ef348g3tnzu" />
+  <source id="1184639540818" name="GDocument" hash="bxq3us0aqckqh235u9p2vw0cs7bh8v0" />
+  <source id="1186170508337" name="GTextConcept" hash="5qzatea2qvjyb9ofjv1ypuqmv44npzy" />
+  <source id="1188509198390" name="GSeparatorItemList" hash="-9wfbyntb4c1ar0m6sf0rwq9ka8e5roo" />
+  <source id="1211920428461" name="GContentPlaceholder" hash="9v0v54m4w44kpj639z6p2r4co37ks16" />
+  <source id="1211920502338" name="GContentBlock" hash="c9lk40ok8avt1ao6nzuliyjd3836sx5" />
+  <source id="1239125024709" name="GCompositeItem" hash="-t71hehdvodg9yydx8glbb8b67lom2q" />
+</dependencies>
 

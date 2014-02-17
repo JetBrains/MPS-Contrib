@@ -5,7 +5,6 @@ package jetbrains.mps.xml.deprecated.textGen;
 import jetbrains.mps.textGen.SNodeTextGen;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.textGen.TextGenManager;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class DocumentTypeDeclaration_TextGen extends SNodeTextGen {
@@ -13,7 +12,7 @@ public class DocumentTypeDeclaration_TextGen extends SNodeTextGen {
     this.append("<!DOCTYPE ");
     this.append(SPropertyOperations.getString(node, "name"));
     this.append(" ");
-    TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "externalID", true), this.getSNode());
+    appendNode(SLinkOperations.getTarget(node, "externalID", true));
     this.append(">");
   }
 }

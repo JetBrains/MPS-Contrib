@@ -7,7 +7,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.textGen.TraceInfoGenerationUtil;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.textGen.TextGenManager;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import org.apache.log4j.Priority;
@@ -21,9 +20,9 @@ public class GSeparatorItemList_TextGen extends SNodeTextGen {
     }
     for (SNode item : SLinkOperations.getTargets(node, "item", true)) {
       if (item != ListSequence.fromList(SLinkOperations.getTargets(node, "item", true)).first()) {
-        TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "separator", true), this.getSNode());
+        appendNode(SLinkOperations.getTarget(node, "separator", true));
       }
-      TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), item, this.getSNode());
+      appendNode(item);
     }
     if (getBuffer().hasPositionsSupport()) {
       {
