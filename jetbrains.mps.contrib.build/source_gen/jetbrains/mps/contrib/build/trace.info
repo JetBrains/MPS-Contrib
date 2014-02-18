@@ -4,7 +4,7 @@
     <unitInfo nodeId="310331596773287654" fileName="mpsContribBuild.xml" startLine="1" startPosition="0" endLine="240" endPosition="10" unitName="jetbrains.mps.contrib.build.mpsContribBuild" />
   </root>
   <root nodeRef="r:83393c4f-0a35-4150-a4fc-e0cb31ea54f6(jetbrains.mps.contrib.build)/3945781919312589433">
-    <unitInfo nodeId="3945781919312589433" fileName="mpsUiLanguage.xml" startLine="1" startPosition="0" endLine="496" endPosition="10" unitName="jetbrains.mps.contrib.build.mpsUiLanguage" />
+    <unitInfo nodeId="3945781919312589433" fileName="mpsUiLanguage.xml" startLine="1" startPosition="0" endLine="495" endPosition="10" unitName="jetbrains.mps.contrib.build.mpsUiLanguage" />
   </root>
   <root nodeRef="r:83393c4f-0a35-4150-a4fc-e0cb31ea54f6(jetbrains.mps.contrib.build)/4061567211001166715">
     <unitInfo nodeId="4061567211001166715" fileName="mpsDates.xml" startLine="1" startPosition="0" endLine="509" endPosition="10" unitName="jetbrains.mps.contrib.build.mpsDates" />

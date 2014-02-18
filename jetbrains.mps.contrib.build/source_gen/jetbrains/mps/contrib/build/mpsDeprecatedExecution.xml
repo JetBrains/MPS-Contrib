@@ -193,8 +193,8 @@
       <plugin path="${artifacts.mps}/plugins/mps-execution-languages" />
       <plugin path="${artifacts.mps}/plugins/mps-testing" />
       <library file="${artifacts.mps}/languages/make/jetbrains.mps.tool.gentest.jar" />
+      <library file="${artifacts.mpsUiLanguage}/mps-ui-language/languages/uiLanguage/jetbrains.mps.ide.uiLanguage.runtime.jar" />
       <library file="${artifacts.mpsUiLanguage}/mps-ui-language/languages/uiLanguage/jetbrains.mps.uiLanguage.jar" />
-      <library file="${artifacts.mpsUiLanguage}/mps-ui-language/lib/jetbrains.mps.ide.uiLanguage.runtime.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.checkedDots.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
@@ -299,8 +299,8 @@
       <plugin path="${artifacts.mps}/plugins/mps-execution-configurations" />
       <plugin path="${artifacts.mps}/plugins/mps-execution-languages" />
       <plugin path="${artifacts.mps}/plugins/mps-testing" />
+      <library file="${artifacts.mpsUiLanguage}/mps-ui-language/languages/uiLanguage/jetbrains.mps.ide.uiLanguage.runtime.jar" />
       <library file="${artifacts.mpsUiLanguage}/mps-ui-language/languages/uiLanguage/jetbrains.mps.uiLanguage.jar" />
-      <library file="${artifacts.mpsUiLanguage}/mps-ui-language/lib/jetbrains.mps.ide.uiLanguage.runtime.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.checkedDots.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
@@ -438,7 +438,7 @@
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/lib/tools.jar" />
-        <fileset file="${artifacts.mpsUiLanguage}/mps-ui-language/lib/jetbrains.mps.ide.uiLanguage.runtime.jar" />
+        <fileset file="${artifacts.mpsUiLanguage}/mps-ui-language/languages/uiLanguage/jetbrains.mps.ide.uiLanguage.runtime.jar" />
         <path refid="path.jdk.classpath" />
       </classpath>
     </javac2>
@@ -561,7 +561,7 @@
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.tuples.jar" />
         <fileset file="${artifacts.mps}/plugins/mps-execution-api/languages/mps-execution-api/jetbrains.mps.execution.common.jar" />
         <fileset file="${artifacts.mps}/plugins/mps-execution-api/languages/mps-execution-api/jetbrains.mps.execution.settings.jar" />
-        <fileset file="${artifacts.mpsUiLanguage}/mps-ui-language/lib/jetbrains.mps.ide.uiLanguage.runtime.jar" />
+        <fileset file="${artifacts.mpsUiLanguage}/mps-ui-language/languages/uiLanguage/jetbrains.mps.ide.uiLanguage.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.checkedName.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.constraints.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
@@ -629,7 +629,7 @@
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.tuples.jar" />
         <fileset file="${artifacts.mps}/plugins/mps-execution-api/languages/mps-execution-api/jetbrains.mps.execution.common.jar" />
         <fileset file="${artifacts.mps}/plugins/mps-execution-api/languages/mps-execution-api/jetbrains.mps.execution.settings.jar" />
-        <fileset file="${artifacts.mpsUiLanguage}/mps-ui-language/lib/jetbrains.mps.ide.uiLanguage.runtime.jar" />
+        <fileset file="${artifacts.mpsUiLanguage}/mps-ui-language/languages/uiLanguage/jetbrains.mps.ide.uiLanguage.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.checkedName.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.constraints.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
