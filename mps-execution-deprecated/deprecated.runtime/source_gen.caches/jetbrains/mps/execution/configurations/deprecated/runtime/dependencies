@@ -77,8 +77,6 @@
     <classNode dependClassName="java.awt.event.ActionEvent" />
     <classNode dependClassName="java.awt.event.ActionListener" />
     <classNode dependClassName="java.lang.Deprecated" />
-    <classNode dependClassName="java.lang.Object" />
-    <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.ArrayList" />
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="javax.swing.JCheckBox" />
@@ -92,9 +90,6 @@
     <classNode dependClassName="jetbrains.mps.uiLanguage.runtime.events.Events" />
     <classNode dependClassName="jetbrains.mps.util.annotation.ToRemove" />
     <classNode dependClassName="org.jdesktop.beansbinding.AutoBinding" />
-    <classNode dependClassName="org.jdesktop.beansbinding.BeanProperty" />
-    <classNode dependClassName="org.jdesktop.beansbinding.Bindings" />
-    <classNode dependClassName="org.jdesktop.beansbinding.Property" />
     <classNode dependClassName="org.jetbrains.annotations.Nullable" />
     <classNode extendsClassName="javax.swing.JComponent" />
   </dependency>
