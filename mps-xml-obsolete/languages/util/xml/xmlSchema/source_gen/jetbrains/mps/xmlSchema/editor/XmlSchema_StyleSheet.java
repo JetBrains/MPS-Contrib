@@ -13,8 +13,8 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class XmlSchema_StyleSheet {
   public static void apply_xmlElement(Style style, EditorCell editorCell) {
-    style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(XmlSchema_StyleSheet._StyleParameter_QueryFunction_35vscc_a0a((editorCell == null ? null : editorCell.getContext()), (editorCell == null ? null : editorCell.getSNode()))));
-    style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
+    style.set(StyleAttributes.TEXT_COLOR, 0, StyleRegistry.getInstance().getSimpleColor(XmlSchema_StyleSheet._StyleParameter_QueryFunction_35vscc_a0a((editorCell == null ? null : editorCell.getContext()), (editorCell == null ? null : editorCell.getSNode()))));
+    style.set(StyleAttributes.FONT_STYLE, 0, MPSFonts.BOLD);
   }
 
 

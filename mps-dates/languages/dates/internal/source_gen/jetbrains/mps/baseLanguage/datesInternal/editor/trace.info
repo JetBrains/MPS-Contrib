@@ -4498,12 +4498,12 @@
     <unitInfo nodeId="1238668494582" fileName="DateTimeZone_Editor.java" startLine="28" startPosition="0" endLine="191" endPosition="0" unitName="jetbrains.mps.baseLanguage.datesInternal.editor.DateTimeZone_Editor" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903dc(jetbrains.mps.baseLanguage.datesInternal.editor)/1238677627618">
-    <nodeInfo nodeId="1238677627618" fileName="DatesInternal_StyleSheet.java" startLine="11" startPosition="75" endLine="12" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1238677627618" fileName="DatesInternal_StyleSheet.java" startLine="15" startPosition="74" endLine="16" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1238677627618" fileName="DatesInternal_StyleSheet.java" startLine="11" startPosition="75" endLine="12" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1238677627618" fileName="DatesInternal_StyleSheet.java" startLine="15" startPosition="74" endLine="16" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1238677627618" fileName="DatesInternal_StyleSheet.java" startLine="11" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="apply_SimpleText#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
     <nodeInfo nodeId="1238677627618" fileName="DatesInternal_StyleSheet.java" startLine="15" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="apply_TableCell#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
-    <scopeInfo nodeId="1238677627618" fileName="DatesInternal_StyleSheet.java" startLine="11" startPosition="75" endLine="12" endPosition="58" />
-    <scopeInfo nodeId="1238677627618" fileName="DatesInternal_StyleSheet.java" startLine="15" startPosition="74" endLine="16" endPosition="58" />
+    <scopeInfo nodeId="1238677627618" fileName="DatesInternal_StyleSheet.java" startLine="11" startPosition="75" endLine="12" endPosition="61" />
+    <scopeInfo nodeId="1238677627618" fileName="DatesInternal_StyleSheet.java" startLine="15" startPosition="74" endLine="16" endPosition="61" />
     <scopeInfo nodeId="1238677627618" fileName="DatesInternal_StyleSheet.java" startLine="11" startPosition="0" endLine="14" endPosition="0">
       <varInfo nodeId="1238677627618" varName="editorCell" />
       <varInfo nodeId="1238677627618" varName="style" />

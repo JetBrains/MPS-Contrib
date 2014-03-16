@@ -9,11 +9,11 @@ import jetbrains.mps.nodeEditor.MPSFonts;
 
 public class DatesInternal_StyleSheet {
   public static void apply_SimpleText(Style style, EditorCell editorCell) {
-    style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
+    style.set(StyleAttributes.FONT_STYLE, 0, MPSFonts.PLAIN);
   }
 
   public static void apply_TableCell(Style style, EditorCell editorCell) {
-    style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
+    style.set(StyleAttributes.FONT_STYLE, 0, MPSFonts.PLAIN);
   }
 
 

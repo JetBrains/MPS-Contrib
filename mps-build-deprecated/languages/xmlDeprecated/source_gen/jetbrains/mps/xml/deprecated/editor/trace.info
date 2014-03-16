@@ -1407,22 +1407,22 @@
     <unitInfo nodeId="1234366488861" fileName="PublicId_Editor.java" startLine="18" startPosition="0" endLine="137" endPosition="0" unitName="jetbrains.mps.xml.deprecated.editor.PublicId_Editor" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895905a1(jetbrains.mps.xml.deprecated.editor)/1234429007878">
-    <nodeInfo nodeId="1234429007878" fileName="XMLDeprecatedStyles_StyleSheet.java" startLine="13" startPosition="72" endLine="14" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1234429007878" fileName="XMLDeprecatedStyles_StyleSheet.java" startLine="14" startPosition="57" endLine="15" endPosition="107" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1234429007878" fileName="XMLDeprecatedStyles_StyleSheet.java" startLine="18" startPosition="78" endLine="19" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1234429007878" fileName="XMLDeprecatedStyles_StyleSheet.java" startLine="19" startPosition="57" endLine="20" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1234429007878" fileName="XMLDeprecatedStyles_StyleSheet.java" startLine="23" startPosition="79" endLine="24" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1234429007878" fileName="XMLDeprecatedStyles_StyleSheet.java" startLine="24" startPosition="57" endLine="25" endPosition="108" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1234429007878" fileName="XMLDeprecatedStyles_StyleSheet.java" startLine="28" startPosition="69" endLine="29" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1234429007878" fileName="XMLDeprecatedStyles_StyleSheet.java" startLine="29" startPosition="59" endLine="30" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1234429007878" fileName="XMLDeprecatedStyles_StyleSheet.java" startLine="13" startPosition="72" endLine="14" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1234429007878" fileName="XMLDeprecatedStyles_StyleSheet.java" startLine="14" startPosition="60" endLine="15" endPosition="110" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1234429007878" fileName="XMLDeprecatedStyles_StyleSheet.java" startLine="18" startPosition="78" endLine="19" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1234429007878" fileName="XMLDeprecatedStyles_StyleSheet.java" startLine="19" startPosition="60" endLine="20" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1234429007878" fileName="XMLDeprecatedStyles_StyleSheet.java" startLine="23" startPosition="79" endLine="24" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1234429007878" fileName="XMLDeprecatedStyles_StyleSheet.java" startLine="24" startPosition="60" endLine="25" endPosition="111" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1234429007878" fileName="XMLDeprecatedStyles_StyleSheet.java" startLine="28" startPosition="69" endLine="29" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1234429007878" fileName="XMLDeprecatedStyles_StyleSheet.java" startLine="29" startPosition="62" endLine="30" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1234429007878" fileName="XMLDeprecatedStyles_StyleSheet.java" startLine="13" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="apply_element#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
     <nodeInfo nodeId="1234429007878" fileName="XMLDeprecatedStyles_StyleSheet.java" startLine="18" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="apply_attributeName#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
     <nodeInfo nodeId="1234429007878" fileName="XMLDeprecatedStyles_StyleSheet.java" startLine="23" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="apply_attributeValue#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
     <nodeInfo nodeId="1234429007878" fileName="XMLDeprecatedStyles_StyleSheet.java" startLine="28" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="apply_text#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
-    <scopeInfo nodeId="1234429007878" fileName="XMLDeprecatedStyles_StyleSheet.java" startLine="13" startPosition="72" endLine="15" endPosition="107" />
-    <scopeInfo nodeId="1234429007878" fileName="XMLDeprecatedStyles_StyleSheet.java" startLine="18" startPosition="78" endLine="20" endPosition="102" />
-    <scopeInfo nodeId="1234429007878" fileName="XMLDeprecatedStyles_StyleSheet.java" startLine="23" startPosition="79" endLine="25" endPosition="108" />
-    <scopeInfo nodeId="1234429007878" fileName="XMLDeprecatedStyles_StyleSheet.java" startLine="28" startPosition="69" endLine="30" endPosition="102" />
+    <scopeInfo nodeId="1234429007878" fileName="XMLDeprecatedStyles_StyleSheet.java" startLine="13" startPosition="72" endLine="15" endPosition="110" />
+    <scopeInfo nodeId="1234429007878" fileName="XMLDeprecatedStyles_StyleSheet.java" startLine="18" startPosition="78" endLine="20" endPosition="105" />
+    <scopeInfo nodeId="1234429007878" fileName="XMLDeprecatedStyles_StyleSheet.java" startLine="23" startPosition="79" endLine="25" endPosition="111" />
+    <scopeInfo nodeId="1234429007878" fileName="XMLDeprecatedStyles_StyleSheet.java" startLine="28" startPosition="69" endLine="30" endPosition="105" />
     <scopeInfo nodeId="1234429007878" fileName="XMLDeprecatedStyles_StyleSheet.java" startLine="13" startPosition="0" endLine="17" endPosition="0">
       <varInfo nodeId="1234429007878" varName="editorCell" />
       <varInfo nodeId="1234429007878" varName="style" />

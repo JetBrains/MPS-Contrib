@@ -2516,19 +2516,19 @@
     <unitInfo nodeId="1196861045571" fileName="StringLiteral_Editor.java" startLine="21" startPosition="0" endLine="85" endPosition="0" unitName="jetbrains.mps.buildlanguage.editor.StringLiteral_Editor" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895904c2(jetbrains.mps.buildlanguage.editor)/1196861129522">
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="13" startPosition="78" endLine="14" endPosition="108" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="17" startPosition="79" endLine="18" endPosition="110" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="18" startPosition="110" endLine="19" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="25" startPosition="72" endLine="26" endPosition="107" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="26" startPosition="107" endLine="27" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="30" startPosition="71" endLine="31" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="31" startPosition="57" endLine="32" endPosition="106" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="35" startPosition="69" endLine="36" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="36" startPosition="58" endLine="37" endPosition="107" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="43" startPosition="78" endLine="44" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="47" startPosition="88" endLine="48" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="51" startPosition="74" endLine="52" endPosition="107" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="55" startPosition="72" endLine="56" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="13" startPosition="78" endLine="14" endPosition="111" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="17" startPosition="79" endLine="18" endPosition="113" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="18" startPosition="113" endLine="19" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="25" startPosition="72" endLine="26" endPosition="110" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="26" startPosition="110" endLine="27" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="30" startPosition="71" endLine="31" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="31" startPosition="60" endLine="32" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="35" startPosition="69" endLine="36" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="36" startPosition="61" endLine="37" endPosition="110" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="43" startPosition="78" endLine="44" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="47" startPosition="88" endLine="48" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="51" startPosition="74" endLine="52" endPosition="110" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="55" startPosition="72" endLine="56" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="22" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="apply_integerLiteral#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
     <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="40" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="apply_property#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
     <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="13" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="apply_stringLiteral#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
@@ -2542,19 +2542,19 @@
     <nodeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="35" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="apply_task#(Ljetbrains/mps/openapi/editor/style/Style;Ljetbrains/mps/openapi/editor/cells/EditorCell;)V" />
     <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="22" startPosition="79" endLine="22" endPosition="79" />
     <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="40" startPosition="73" endLine="40" endPosition="73" />
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="13" startPosition="78" endLine="14" endPosition="108" />
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="43" startPosition="78" endLine="44" endPosition="58" />
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="47" startPosition="88" endLine="48" endPosition="48" />
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="51" startPosition="74" endLine="52" endPosition="107" />
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="55" startPosition="72" endLine="56" endPosition="102" />
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="17" startPosition="79" endLine="19" endPosition="57" />
+    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="13" startPosition="78" endLine="14" endPosition="111" />
+    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="43" startPosition="78" endLine="44" endPosition="61" />
+    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="47" startPosition="88" endLine="48" endPosition="51" />
+    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="51" startPosition="74" endLine="52" endPosition="110" />
+    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="55" startPosition="72" endLine="56" endPosition="105" />
+    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="17" startPosition="79" endLine="19" endPosition="60" />
     <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="22" startPosition="0" endLine="24" endPosition="0">
       <varInfo nodeId="1196861129522" varName="editorCell" />
       <varInfo nodeId="1196861129522" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="25" startPosition="72" endLine="27" endPosition="57" />
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="30" startPosition="71" endLine="32" endPosition="106" />
-    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="35" startPosition="69" endLine="37" endPosition="107" />
+    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="25" startPosition="72" endLine="27" endPosition="60" />
+    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="30" startPosition="71" endLine="32" endPosition="109" />
+    <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="35" startPosition="69" endLine="37" endPosition="110" />
     <scopeInfo nodeId="1196861129522" fileName="BuildLanguageStyle_StyleSheet.java" startLine="40" startPosition="0" endLine="42" endPosition="0">
       <varInfo nodeId="1196861129522" varName="editorCell" />
       <varInfo nodeId="1196861129522" varName="style" />
