@@ -38,7 +38,7 @@ public class QueriesGenerated {
     return SLinkOperations.getTarget(_context.getNode(), "internalText", true);
   }
 
-  public static Iterable sourceNodesQuery_353793545802704416(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+  public static Iterable<SNode> sourceNodesQuery_353793545802704416(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     List<SNode> xmlattributes = new ArrayList<SNode>();
     for (SNode attr : SLinkOperations.getTargets(_context.getNode(), "atributes", true)) {
       SNode newAttr = SConceptOperations.createNewNode("jetbrains.mps.xml.deprecated.structure.Attribute", null);
@@ -49,7 +49,7 @@ public class QueriesGenerated {
     return xmlattributes;
   }
 
-  public static Iterable sourceNodesQuery_353793545802704499(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+  public static Iterable<SNode> sourceNodesQuery_353793545802704499(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "nested", true);
   }
 }

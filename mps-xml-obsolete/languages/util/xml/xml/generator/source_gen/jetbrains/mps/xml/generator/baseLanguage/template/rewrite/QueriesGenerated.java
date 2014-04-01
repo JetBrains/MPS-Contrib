@@ -40,7 +40,7 @@ public class QueriesGenerated {
     return SLinkOperations.getTarget(_context.getNode(), "contentList", true);
   }
 
-  public static Iterable sourceNodesQuery_1191201293826(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+  public static Iterable<SNode> sourceNodesQuery_1191201293826(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "attribute", true);
   }
 }

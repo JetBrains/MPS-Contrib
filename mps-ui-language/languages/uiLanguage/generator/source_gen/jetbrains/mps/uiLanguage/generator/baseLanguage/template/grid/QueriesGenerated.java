@@ -26,15 +26,15 @@ public class QueriesGenerated {
     return _context.getNode();
   }
 
-  public static Iterable sourceNodesQuery_1202825294699(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+  public static Iterable<SNode> sourceNodesQuery_1202825294699(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "row", true);
   }
 
-  public static Iterable sourceNodesQuery_1202825291118(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+  public static Iterable<SNode> sourceNodesQuery_1202825291118(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return GridRow_Behavior.call_getRowComponents_1213877252264(_context.getNode());
   }
 
-  public static Iterable sourceNodesQuery_1203604100897(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+  public static Iterable<SNode> sourceNodesQuery_1203604100897(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "content", true);
   }
 }

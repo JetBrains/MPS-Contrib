@@ -26,7 +26,7 @@ public class QueriesGenerated {
     return SLinkOperations.getTarget(_context.getNode(), "handler", true);
   }
 
-  public static Iterable sourceNodesQuery_1202833810237(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+  public static Iterable<SNode> sourceNodesQuery_1202833810237(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "button", true);
   }
 
