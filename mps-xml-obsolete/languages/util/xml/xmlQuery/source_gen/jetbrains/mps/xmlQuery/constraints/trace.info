@@ -64,7 +64,7 @@
     <nodeInfo nodeId="5285611549890897428" fileName="SchemaUtil.java" startLine="43" startPosition="115" endLine="44" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="5285611549890897438" fileName="SchemaUtil.java" startLine="45" startPosition="111" endLine="46" endPosition="230" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="5386339623102266364" fileName="SchemaUtil.java" startLine="47" startPosition="118" endLine="48" endPosition="178" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5386339623102266329" fileName="SchemaUtil.java" startLine="50" startPosition="45" endLine="51" endPosition="156" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5386339623102266329" fileName="SchemaUtil.java" startLine="50" startPosition="42" endLine="51" endPosition="156" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="8949395081772919958" fileName="SchemaUtil.java" startLine="52" startPosition="7" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
     <nodeInfo nodeId="5285611549890897384" fileName="SchemaUtil.java" startLine="53" startPosition="0" endLine="54" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="2341233264267552782" fileName="SchemaUtil.java" startLine="58" startPosition="81" endLine="59" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -146,7 +146,7 @@
     <scopeInfo nodeId="5285611549890897427" fileName="SchemaUtil.java" startLine="43" startPosition="115" endLine="44" endPosition="36" />
     <scopeInfo nodeId="5285611549890897437" fileName="SchemaUtil.java" startLine="45" startPosition="111" endLine="46" endPosition="230" />
     <scopeInfo nodeId="5386339623102266354" fileName="SchemaUtil.java" startLine="47" startPosition="118" endLine="48" endPosition="178" />
-    <scopeInfo nodeId="5386339623102266329" fileName="SchemaUtil.java" startLine="50" startPosition="45" endLine="51" endPosition="156" />
+    <scopeInfo nodeId="5386339623102266329" fileName="SchemaUtil.java" startLine="50" startPosition="42" endLine="51" endPosition="156" />
     <scopeInfo nodeId="2341233264267552790" fileName="SchemaUtil.java" startLine="60" startPosition="73" endLine="61" endPosition="115" />
     <scopeInfo nodeId="2341233264267552817" fileName="SchemaUtil.java" startLine="69" startPosition="39" endLine="70" endPosition="84" />
     <scopeInfo nodeId="2341233264267552817" fileName="SchemaUtil.java" startLine="73" startPosition="37" endLine="74" endPosition="74" />

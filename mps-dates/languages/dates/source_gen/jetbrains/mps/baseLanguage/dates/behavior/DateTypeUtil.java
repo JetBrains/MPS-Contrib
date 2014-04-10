@@ -7,7 +7,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.typesystem.inference.TypeChecker;
 import jetbrains.mps.typesystem.inference.SubtypingManager;
-import org.apache.log4j.Priority;
+import org.apache.log4j.Level;
 import java.util.List;
 import org.jetbrains.mps.openapi.model.SModel;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
@@ -92,7 +92,7 @@ public class DateTypeUtil {
 
   public static boolean isInstanceOf(SNode node, SNode type) {
     if (node == null || type == null) {
-      if (LOG.isEnabledFor(Priority.ERROR)) {
+      if (LOG.isEnabledFor(Level.ERROR)) {
         LOG.error("Null parameter to isInstanceOf()");
       }
       return false;
@@ -100,7 +100,7 @@ public class DateTypeUtil {
     try {
       return TypeChecker.getInstance().getSubtypingManager().isSubtype(TypeChecker.getInstance().getTypeOf(node), type, false);
     } catch (Throwable thr) {
-      if (LOG.isEnabledFor(Priority.ERROR)) {
+      if (LOG.isEnabledFor(Level.ERROR)) {
         LOG.error("Error executing isStrongSubtype(): ", thr);
       }
     }
@@ -114,7 +114,7 @@ public class DateTypeUtil {
     try {
       return TypeChecker.getInstance().getSubtypingManager().isSubtype(type, stype, false);
     } catch (Throwable thr) {
-      if (LOG.isEnabledFor(Priority.ERROR)) {
+      if (LOG.isEnabledFor(Level.ERROR)) {
         LOG.error("Error executing isStrongSubtype(): ", thr);
       }
     }

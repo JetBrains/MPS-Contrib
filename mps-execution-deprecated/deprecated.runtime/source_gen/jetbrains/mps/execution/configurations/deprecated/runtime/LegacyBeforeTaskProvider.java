@@ -10,7 +10,7 @@ import com.intellij.openapi.actionSystem.DataContext;
 import com.intellij.execution.runners.ExecutionEnvironment;
 import java.lang.reflect.Method;
 import com.intellij.openapi.actionSystem.PlatformDataKeys;
-import org.apache.log4j.Priority;
+import org.apache.log4j.Level;
 import java.lang.reflect.InvocationTargetException;
 import com.intellij.openapi.project.Project;
 import com.intellij.execution.BeforeRunTask;
@@ -86,19 +86,19 @@ public class LegacyBeforeTaskProvider extends BeforeRunTaskProvider<LegacyBefore
       }
       return (Boolean) make.invoke(configuration, PlatformDataKeys.PROJECT.getData(context));
     } catch (NoSuchMethodException e) {
-      if (LOG.isEnabledFor(Priority.ERROR)) {
+      if (LOG.isEnabledFor(Level.ERROR)) {
         LOG.error("", e);
       }
     } catch (InvocationTargetException e) {
-      if (LOG.isEnabledFor(Priority.ERROR)) {
+      if (LOG.isEnabledFor(Level.ERROR)) {
         LOG.error("", e);
       }
     } catch (IllegalAccessException e) {
-      if (LOG.isEnabledFor(Priority.ERROR)) {
+      if (LOG.isEnabledFor(Level.ERROR)) {
         LOG.error("", e);
       }
     } catch (ClassCastException e) {
-      if (LOG.isEnabledFor(Priority.ERROR)) {
+      if (LOG.isEnabledFor(Level.ERROR)) {
         LOG.error("", e);
       }
     }

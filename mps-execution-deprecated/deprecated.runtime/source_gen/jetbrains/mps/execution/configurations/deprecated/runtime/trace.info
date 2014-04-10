@@ -623,10 +623,10 @@
     <nodeInfo nodeId="2034046503361595093" fileName="ClassRunner.java" startLine="44" startPosition="84" endLine="45" endPosition="76" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4631964019510578343" fileName="ClassRunner.java" startLine="48" startPosition="7" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
     <nodeInfo nodeId="4631964019510578396" fileName="ClassRunner.java" startLine="50" startPosition="9" endLine="51" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4631964019510578347" fileName="ClassRunner.java" startLine="53" startPosition="45" endLine="54" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4631964019510578347" fileName="ClassRunner.java" startLine="53" startPosition="42" endLine="54" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4631964019510578358" fileName="ClassRunner.java" startLine="55" startPosition="7" endLine="56" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
     <nodeInfo nodeId="4631964019510578374" fileName="ClassRunner.java" startLine="57" startPosition="40" endLine="58" endPosition="114" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4631964019510578384" fileName="ClassRunner.java" startLine="59" startPosition="45" endLine="60" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4631964019510578384" fileName="ClassRunner.java" startLine="59" startPosition="42" endLine="60" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4631964019510578387" fileName="ClassRunner.java" startLine="61" startPosition="7" endLine="62" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
     <nodeInfo nodeId="4631964019510578409" fileName="ClassRunner.java" startLine="66" startPosition="36" endLine="67" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4631964019510578259" fileName="ClassRunner.java" startLine="70" startPosition="0" endLine="71" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="LOG" />
@@ -644,8 +644,8 @@
     <scopeInfo nodeId="4631964019510578270" fileName="ClassRunner.java" startLine="28" startPosition="54" endLine="29" endPosition="22" />
     <scopeInfo nodeId="2034046503361595092" fileName="ClassRunner.java" startLine="44" startPosition="84" endLine="45" endPosition="76" />
     <scopeInfo nodeId="4631964019510578395" fileName="ClassRunner.java" startLine="50" startPosition="9" endLine="51" endPosition="43" />
-    <scopeInfo nodeId="4631964019510578347" fileName="ClassRunner.java" startLine="53" startPosition="45" endLine="54" endPosition="77" />
-    <scopeInfo nodeId="4631964019510578384" fileName="ClassRunner.java" startLine="59" startPosition="45" endLine="60" endPosition="32" />
+    <scopeInfo nodeId="4631964019510578347" fileName="ClassRunner.java" startLine="53" startPosition="42" endLine="54" endPosition="77" />
+    <scopeInfo nodeId="4631964019510578384" fileName="ClassRunner.java" startLine="59" startPosition="42" endLine="60" endPosition="32" />
     <scopeInfo nodeId="4631964019510578408" fileName="ClassRunner.java" startLine="66" startPosition="36" endLine="67" endPosition="56" />
     <scopeInfo nodeId="4631964019510578347" fileName="ClassRunner.java" startLine="52" startPosition="29" endLine="55" endPosition="7" />
     <scopeInfo nodeId="4631964019510578384" fileName="ClassRunner.java" startLine="58" startPosition="114" endLine="61" endPosition="7" />
@@ -812,10 +812,10 @@
     <nodeInfo nodeId="8321286824330315914" fileName="LegacyBeforeTaskProvider.java" startLine="82" startPosition="9" endLine="83" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="8321286824330315924" fileName="LegacyBeforeTaskProvider.java" startLine="84" startPosition="25" endLine="85" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="8321286824330315926" fileName="LegacyBeforeTaskProvider.java" startLine="86" startPosition="7" endLine="87" endPosition="93" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8321286824330315887" fileName="LegacyBeforeTaskProvider.java" startLine="89" startPosition="45" endLine="90" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8321286824330315894" fileName="LegacyBeforeTaskProvider.java" startLine="93" startPosition="45" endLine="94" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8321286824330315901" fileName="LegacyBeforeTaskProvider.java" startLine="97" startPosition="45" endLine="98" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8321286824330315908" fileName="LegacyBeforeTaskProvider.java" startLine="101" startPosition="45" endLine="102" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8321286824330315887" fileName="LegacyBeforeTaskProvider.java" startLine="89" startPosition="42" endLine="90" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8321286824330315894" fileName="LegacyBeforeTaskProvider.java" startLine="93" startPosition="42" endLine="94" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8321286824330315901" fileName="LegacyBeforeTaskProvider.java" startLine="97" startPosition="42" endLine="98" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8321286824330315908" fileName="LegacyBeforeTaskProvider.java" startLine="101" startPosition="42" endLine="102" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="8321286824330315937" fileName="LegacyBeforeTaskProvider.java" startLine="104" startPosition="5" endLine="105" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="8321286824330315946" fileName="LegacyBeforeTaskProvider.java" startLine="108" startPosition="89" endLine="109" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="8321286824330315963" fileName="LegacyBeforeTaskProvider.java" startLine="113" startPosition="23" endLine="114" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
@@ -860,10 +860,10 @@
     <scopeInfo nodeId="8321286824330315856" fileName="LegacyBeforeTaskProvider.java" startLine="67" startPosition="48" endLine="68" endPosition="20" />
     <scopeInfo nodeId="8321286824330315868" fileName="LegacyBeforeTaskProvider.java" startLine="76" startPosition="105" endLine="77" endPosition="16" />
     <scopeInfo nodeId="8321286824330315923" fileName="LegacyBeforeTaskProvider.java" startLine="84" startPosition="25" endLine="85" endPosition="21" />
-    <scopeInfo nodeId="8321286824330315887" fileName="LegacyBeforeTaskProvider.java" startLine="89" startPosition="45" endLine="90" endPosition="25" />
-    <scopeInfo nodeId="8321286824330315894" fileName="LegacyBeforeTaskProvider.java" startLine="93" startPosition="45" endLine="94" endPosition="25" />
-    <scopeInfo nodeId="8321286824330315901" fileName="LegacyBeforeTaskProvider.java" startLine="97" startPosition="45" endLine="98" endPosition="25" />
-    <scopeInfo nodeId="8321286824330315908" fileName="LegacyBeforeTaskProvider.java" startLine="101" startPosition="45" endLine="102" endPosition="25" />
+    <scopeInfo nodeId="8321286824330315887" fileName="LegacyBeforeTaskProvider.java" startLine="89" startPosition="42" endLine="90" endPosition="25" />
+    <scopeInfo nodeId="8321286824330315894" fileName="LegacyBeforeTaskProvider.java" startLine="93" startPosition="42" endLine="94" endPosition="25" />
+    <scopeInfo nodeId="8321286824330315901" fileName="LegacyBeforeTaskProvider.java" startLine="97" startPosition="42" endLine="98" endPosition="25" />
+    <scopeInfo nodeId="8321286824330315908" fileName="LegacyBeforeTaskProvider.java" startLine="101" startPosition="42" endLine="102" endPosition="25" />
     <scopeInfo nodeId="8321286824330315945" fileName="LegacyBeforeTaskProvider.java" startLine="108" startPosition="89" endLine="109" endPosition="69" />
     <scopeInfo nodeId="8321286824330315962" fileName="LegacyBeforeTaskProvider.java" startLine="113" startPosition="23" endLine="115" endPosition="23" />
     <scopeInfo nodeId="8321286824330315776" fileName="LegacyBeforeTaskProvider.java" startLine="28" startPosition="0" endLine="31" endPosition="0" />
