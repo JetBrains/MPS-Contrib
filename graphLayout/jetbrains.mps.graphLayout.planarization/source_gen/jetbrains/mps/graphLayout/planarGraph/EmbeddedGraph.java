@@ -228,7 +228,7 @@ public class EmbeddedGraph {
     MapSequence.fromMap(myDartsToFacesMap).removeKey(dart);
     Edge edge = dart.getEdge();
     ListSequence.fromList(MapSequence.fromMap(myEdgeDarts).get(edge)).removeElement(dart);
-    if ((int) ListSequence.fromList(MapSequence.fromMap(myEdgeDarts).get(edge)).count() == 0) {
+    if (ListSequence.fromList(MapSequence.fromMap(myEdgeDarts).get(edge)).count() == 0) {
       MapSequence.fromMap(myEdgeDarts).removeKey(edge);
     }
   }
@@ -269,7 +269,7 @@ public class EmbeddedGraph {
         return getFace(dart);
       }
     }));
-    if ((int) ListSequence.fromList(faces).count() == 0) {
+    if (ListSequence.fromList(faces).count() == 0) {
       return null;
     }
     return faces;
@@ -388,6 +388,6 @@ public class EmbeddedGraph {
   }
 
   public boolean isEmpty() {
-    return (int) ListSequence.fromList(getFaces()).count() == 0;
+    return ListSequence.fromList(getFaces()).count() == 0;
   }
 }

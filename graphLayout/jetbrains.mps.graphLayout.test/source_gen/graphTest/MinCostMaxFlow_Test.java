@@ -67,7 +67,7 @@ public class MinCostMaxFlow_Test extends TestCase {
     flow = MinCostMaxFlow.getFlow(graph, source, target, capacity, cost);
     FlowChecker.checkFlow(graph, source, target, capacity, flow, false);
     Assert.assertTrue(numNodes == graph.getNumNodes());
-    Assert.assertTrue(numEdges == (int) ListSequence.fromList(graph.getEdges()).count());
+    Assert.assertTrue(numEdges == ListSequence.fromList(graph.getEdges()).count());
     return flow;
   }
 

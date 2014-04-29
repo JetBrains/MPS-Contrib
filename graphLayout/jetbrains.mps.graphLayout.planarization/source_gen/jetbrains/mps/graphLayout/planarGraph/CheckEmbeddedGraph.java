@@ -40,7 +40,7 @@ public class CheckEmbeddedGraph {
     for (Edge edge : ListSequence.fromList(embeddedGraph.getGraph().getEdges())) {
       List<Dart> darts = embeddedGraph.getDarts(edge);
       if (darts != null) {
-        Assert.assertTrue((int) ListSequence.fromList(darts).count() == 2);
+        Assert.assertTrue(ListSequence.fromList(darts).count() == 2);
         Set<Node> sources = SetSequence.fromSet(new HashSet<Node>());
         SetSequence.fromSet(sources).addSequence(ListSequence.fromList(darts).select(new ISelector<Dart, Node>() {
           public Node select(Dart it) {

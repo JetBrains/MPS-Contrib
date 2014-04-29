@@ -55,11 +55,11 @@ public class AmbiguityPlanarizationFinder_Test extends TestCase {
         mainEmbeddedGraph = embeddedGraph;
       } else {
         Graph main = mainEmbeddedGraph.getGraph();
-        Assert.assertTrue((int) ListSequence.fromList(main.getNodes()).count() == (int) ListSequence.fromList(copy.getNodes()).count());
+        Assert.assertTrue(ListSequence.fromList(main.getNodes()).count() == ListSequence.fromList(copy.getNodes()).count());
         for (int i = 0; i < ListSequence.fromList(main.getNodes()).count(); i++) {
           Node n1 = ListSequence.fromList(main.getNodes()).getElement(i);
           Node n2 = ListSequence.fromList(copy.getNodes()).getElement(i);
-          Assert.assertTrue((int) ListSequence.fromList(n1.getEdges()).count() == (int) ListSequence.fromList(n2.getEdges()).count());
+          Assert.assertTrue(ListSequence.fromList(n1.getEdges()).count() == ListSequence.fromList(n2.getEdges()).count());
           for (int j = 0; j < ListSequence.fromList(n1.getEdges()).count(); j++) {
             Edge e1 = ListSequence.fromList(n1.getEdges()).getElement(j);
             Edge e2 = ListSequence.fromList(n2.getEdges()).getElement(j);
@@ -67,11 +67,11 @@ public class AmbiguityPlanarizationFinder_Test extends TestCase {
             Assert.assertTrue(e1.getTarget().getIndex() == e2.getTarget().getIndex());
           }
         }
-        Assert.assertTrue((int) ListSequence.fromList(embeddedGraph.getFaces()).count() == (int) ListSequence.fromList(mainEmbeddedGraph.getFaces()).count());
+        Assert.assertTrue(ListSequence.fromList(embeddedGraph.getFaces()).count() == ListSequence.fromList(mainEmbeddedGraph.getFaces()).count());
         for (int i = 0; i < ListSequence.fromList(embeddedGraph.getFaces()).count(); i++) {
           Face f1 = ListSequence.fromList(embeddedGraph.getFaces()).getElement(i);
           Face f2 = ListSequence.fromList(mainEmbeddedGraph.getFaces()).getElement(i);
-          Assert.assertTrue((int) ListSequence.fromList(f1.getDarts()).count() == (int) ListSequence.fromList(f2.getDarts()).count());
+          Assert.assertTrue(ListSequence.fromList(f1.getDarts()).count() == ListSequence.fromList(f2.getDarts()).count());
           for (int j = 0; j < ListSequence.fromList(f1.getDarts()).count(); j++) {
             Dart d1 = ListSequence.fromList(f1.getDarts()).getElement(j);
             Dart d2 = ListSequence.fromList(f2.getDarts()).getElement(j);

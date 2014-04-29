@@ -50,7 +50,7 @@ public class PQPlanarizationFinder implements IEmbeddingFinder {
         System.out.println("removed edges:");
         System.out.println(removed);
       }
-      if ((int) SetSequence.fromSet(removed).count() == 0) {
+      if (SetSequence.fromSet(removed).count() == 0) {
         return pqPlanarityTest.getEmbedding(graph, myNumbering);
       } else {
         for (Edge edge : SetSequence.fromSet(removed)) {
@@ -99,7 +99,7 @@ public class PQPlanarizationFinder implements IEmbeddingFinder {
       PQPlanarityTest pqPlanarityTest = new PQPlanarityTest();
       Set<Edge> removed = pqPlanarityTest.removeEdgesToPlanarity(componentGraph, GraphOrientation.orientST(componentGraph));
       EmbeddedGraph componentEmbedding;
-      if ((int) SetSequence.fromSet(removed).count() == 0) {
+      if (SetSequence.fromSet(removed).count() == 0) {
         componentEmbedding = pqPlanarityTest.getEmbedding(componentGraph, GraphOrientation.orientST(componentGraph));
       } else {
         for (Edge edge : SetSequence.fromSet(removed)) {

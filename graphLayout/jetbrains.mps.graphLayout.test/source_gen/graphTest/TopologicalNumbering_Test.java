@@ -17,7 +17,7 @@ public class TopologicalNumbering_Test extends TestCase {
   public void test_sandwatches() throws Exception {
     Graph graph = SimpleDirectedGraphs.sandwatches();
     Map<Node, Integer> numbering = TopologicalNumbering.number(graph);
-    Assert.assertTrue((int) MapSequence.fromMap(numbering).count() == graph.getNumNodes());
+    Assert.assertTrue(MapSequence.fromMap(numbering).count() == graph.getNumNodes());
     Assert.assertTrue((Integer) MapSequence.fromMap(numbering).get(graph.getNode(0)) == 0);
     Assert.assertTrue((Integer) MapSequence.fromMap(numbering).get(graph.getNode(1)) == 0);
     Assert.assertTrue((Integer) MapSequence.fromMap(numbering).get(graph.getNode(2)) == 1);

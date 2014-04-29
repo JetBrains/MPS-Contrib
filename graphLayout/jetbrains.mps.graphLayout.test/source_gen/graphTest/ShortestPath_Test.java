@@ -15,7 +15,7 @@ public class ShortestPath_Test extends TestCase {
   public void test_triangle() throws Exception {
     Graph graph = SimpleDirectedGraphs.triangle();
     List<Edge> path = ShortestPath.getPath(graph, graph.getNode(0), graph.getNode(2), Edge.Direction.FRONT);
-    Assert.assertTrue((int) ListSequence.fromList(path).count() == 1);
+    Assert.assertTrue(ListSequence.fromList(path).count() == 1);
     Edge edge = ListSequence.fromList(path).getElement(0);
     Assert.assertTrue(edge.getSource() == graph.getNode(0));
     Assert.assertTrue(edge.getTarget() == graph.getNode(2));

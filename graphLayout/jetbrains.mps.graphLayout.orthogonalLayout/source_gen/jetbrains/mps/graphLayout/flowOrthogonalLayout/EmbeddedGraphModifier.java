@@ -65,7 +65,7 @@ public class EmbeddedGraphModifier {
     for (Node node : SetSequence.fromSet(MapSequence.fromMap(nodesToProcess).keySet())) {
       MapSequence.fromMap(myCornerNodes).put(node, new Node[4]);
       List<Node> nodes = MapSequence.fromMap(nodesToProcess).get(node);
-      if ((int) ListSequence.fromList(nodes).count() == 0) {
+      if (ListSequence.fromList(nodes).count() == 0) {
         makeRectangleForSingleNode(node, modifiedEdges);
       } else {
         makeRectangleForSplittedNode(node, MapSequence.fromMap(nodesToProcess).get(node));
@@ -463,7 +463,7 @@ public class EmbeddedGraphModifier {
       if (Sequence.fromIterable(specialNodes).contains(node) && prevDir == dir) {
         Direction2D opposite = MapSequence.fromMap(myDartDirections).get(dart).opposite();
         List<Dart> oppositeDarts = getDirectionDarts(face, opposite);
-        if ((int) ListSequence.fromList(oppositeDarts).count() == 1) {
+        if (ListSequence.fromList(oppositeDarts).count() == 1) {
           dartToSplit = ListSequence.fromList(oppositeDarts).first();
           break;
         }

@@ -351,7 +351,7 @@ public class QNode extends PQNode {
   public Node getLast() {
     Node last = null;
     for (Node node : SetSequence.fromSet(getEdgesOrder().getNodes())) {
-      if ((int) ListSequence.fromList(getEdgesOrder().getOutEdgesOrder(node)).count() == 0) {
+      if (ListSequence.fromList(getEdgesOrder().getOutEdgesOrder(node)).count() == 0) {
         last = node;
       }
     }

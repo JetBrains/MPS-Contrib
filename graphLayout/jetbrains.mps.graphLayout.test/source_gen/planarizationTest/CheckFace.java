@@ -13,7 +13,7 @@ public class CheckFace {
     List<Dart> darts = face.getDarts();
     for (int index = 0; index < ListSequence.fromList(darts).count(); index++) {
       int nextIndex = index + 1;
-      if (nextIndex == (int) ListSequence.fromList(darts).count()) {
+      if (nextIndex == ListSequence.fromList(darts).count()) {
         nextIndex = 0;
       }
       Node curTarget = ListSequence.fromList(darts).getElement(index).getTarget();

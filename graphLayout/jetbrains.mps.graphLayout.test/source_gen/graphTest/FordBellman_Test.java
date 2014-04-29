@@ -22,7 +22,7 @@ public class FordBellman_Test extends TestCase {
     MapSequence.fromMap(w).put(ListSequence.fromList(graph.getNode(1).getEdges()).getElement(0), 2);
     FordBellman bellman = new FordBellman(graph, graph.getNode(0), w);
     bellman.doAlgorithm();
-    Assert.assertTrue((int) ListSequence.fromList(bellman.getShortestPath(graph.getNode(2))).count() == 2);
+    Assert.assertTrue(ListSequence.fromList(bellman.getShortestPath(graph.getNode(2))).count() == 2);
   }
 
   public FordBellman_Test() {

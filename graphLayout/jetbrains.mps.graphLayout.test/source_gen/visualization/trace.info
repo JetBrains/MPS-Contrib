@@ -7,7 +7,7 @@
     <nodeInfo nodeId="1532165762814296238" fileName="ClusterGraphLayoutPanel.java" startLine="24" startPosition="38" endLine="25" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1532165762814296297" fileName="ClusterGraphLayoutPanel.java" startLine="25" startPosition="42" endLine="26" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1532165762814296248" fileName="ClusterGraphLayoutPanel.java" startLine="26" startPosition="37" endLine="27" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1532165762814296267" fileName="ClusterGraphLayoutPanel.java" startLine="29" startPosition="76" endLine="30" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1532165762814296267" fileName="ClusterGraphLayoutPanel.java" startLine="29" startPosition="70" endLine="30" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1532165762814296277" fileName="ClusterGraphLayoutPanel.java" startLine="32" startPosition="5" endLine="33" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1532165762814296285" fileName="ClusterGraphLayoutPanel.java" startLine="33" startPosition="35" endLine="34" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="3444434563276381047" fileName="ClusterGraphLayoutPanel.java" startLine="38" startPosition="31" endLine="39" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -31,7 +31,7 @@
     <nodeInfo nodeId="1532165762814312857" fileName="ClusterGraphLayoutPanel.java" startLine="59" startPosition="0" endLine="67" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="main#([Ljava/lang/String;)V" />
     <nodeInfo nodeId="1532165762814296202" fileName="ClusterGraphLayoutPanel.java" startLine="21" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="readGraph#(Ljava/util/Scanner;)Ljetbrains/mps/graphLayout/graph/Graph;" />
     <scopeInfo nodeId="1532165762814268478" fileName="ClusterGraphLayoutPanel.java" startLine="17" startPosition="36" endLine="18" endPosition="12" />
-    <scopeInfo nodeId="1532165762814296266" fileName="ClusterGraphLayoutPanel.java" startLine="29" startPosition="76" endLine="30" endPosition="62" />
+    <scopeInfo nodeId="1532165762814296266" fileName="ClusterGraphLayoutPanel.java" startLine="29" startPosition="70" endLine="30" endPosition="62" />
     <scopeInfo nodeId="1532165762814312870" fileName="ClusterGraphLayoutPanel.java" startLine="62" startPosition="25" endLine="63" endPosition="47" />
     <scopeInfo nodeId="3444434563276381043" fileName="ClusterGraphLayoutPanel.java" startLine="38" startPosition="31" endLine="40" endPosition="43" />
     <scopeInfo nodeId="1251688034163277209" fileName="ClusterGraphLayoutPanel.java" startLine="46" startPosition="42" endLine="48" endPosition="29">
@@ -116,7 +116,7 @@
     <nodeInfo nodeId="4998536563116676177" fileName="GraphIO.java" startLine="120" startPosition="37" endLine="121" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="4998536563116677018" fileName="GraphIO.java" startLine="121" startPosition="44" endLine="122" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4998536563116677050" fileName="GraphIO.java" startLine="122" startPosition="35" endLine="123" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4998536563116677086" fileName="GraphIO.java" startLine="125" startPosition="78" endLine="126" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4998536563116677086" fileName="GraphIO.java" startLine="125" startPosition="72" endLine="126" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4998536563116677158" fileName="GraphIO.java" startLine="128" startPosition="7" endLine="129" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4998536563116676117" fileName="GraphIO.java" startLine="129" startPosition="37" endLine="130" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4998536563116676123" fileName="GraphIO.java" startLine="131" startPosition="27" endLine="132" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
@@ -176,7 +176,7 @@
     <scopeInfo nodeId="8527875266531960626" fileName="GraphIO.java" startLine="104" startPosition="84" endLine="105" endPosition="149" />
     <scopeInfo nodeId="8527875266531960726" fileName="GraphIO.java" startLine="108" startPosition="89" endLine="109" endPosition="207" />
     <scopeInfo nodeId="4998536563116627671" fileName="GraphIO.java" startLine="113" startPosition="90" endLine="114" endPosition="81" />
-    <scopeInfo nodeId="4998536563116677070" fileName="GraphIO.java" startLine="125" startPosition="78" endLine="126" endPosition="64" />
+    <scopeInfo nodeId="4998536563116677070" fileName="GraphIO.java" startLine="125" startPosition="72" endLine="126" endPosition="64" />
     <scopeInfo nodeId="4998536563116676119" fileName="GraphIO.java" startLine="131" startPosition="0" endLine="132" endPosition="61">
       <varInfo nodeId="4998536563116676120" varName="e" />
     </scopeInfo>

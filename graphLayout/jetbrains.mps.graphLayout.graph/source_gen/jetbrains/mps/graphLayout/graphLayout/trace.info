@@ -223,7 +223,7 @@
     <nodeInfo nodeId="1714301205550511352" fileName="HyperGraphLayouter.java" startLine="161" startPosition="57" endLine="162" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1714301205550511444" fileName="HyperGraphLayouter.java" startLine="163" startPosition="56" endLine="164" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1714301205550511477" fileName="HyperGraphLayouter.java" startLine="164" startPosition="30" endLine="165" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1714301205550511508" fileName="HyperGraphLayouter.java" startLine="167" startPosition="61" endLine="168" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1714301205550511508" fileName="HyperGraphLayouter.java" startLine="167" startPosition="55" endLine="168" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1714301205550511519" fileName="HyperGraphLayouter.java" startLine="168" startPosition="52" endLine="169" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1714301205550511532" fileName="HyperGraphLayouter.java" startLine="169" startPosition="57" endLine="170" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1714301205550511263" fileName="HyperGraphLayouter.java" startLine="42" startPosition="41" endLine="45" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
@@ -282,7 +282,7 @@
       <varInfo nodeId="1714301205550512192" varName="source" />
       <varInfo nodeId="1714301205550512193" varName="target" />
     </scopeInfo>
-    <scopeInfo nodeId="1714301205550511493" fileName="HyperGraphLayouter.java" startLine="167" startPosition="61" endLine="170" endPosition="59">
+    <scopeInfo nodeId="1714301205550511493" fileName="HyperGraphLayouter.java" startLine="167" startPosition="55" endLine="170" endPosition="59">
       <varInfo nodeId="1714301205550511509" varName="leafNode" />
     </scopeInfo>
     <scopeInfo nodeId="1714301205550511231" fileName="HyperGraphLayouter.java" startLine="33" startPosition="56" endLine="37" endPosition="63" />

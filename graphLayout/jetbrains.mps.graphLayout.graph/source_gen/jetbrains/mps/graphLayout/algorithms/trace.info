@@ -538,7 +538,7 @@
     <nodeInfo nodeId="4644851485137240308" fileName="BiconnectedComponent.java" startLine="99" startPosition="67" endLine="100" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4644851485137246241" fileName="BiconnectedComponent.java" startLine="100" startPosition="28" endLine="101" endPosition="100" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4644851485137251894" fileName="BiconnectedComponent.java" startLine="101" startPosition="100" endLine="102" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4644851485137251872" fileName="BiconnectedComponent.java" startLine="103" startPosition="124" endLine="104" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4644851485137251872" fileName="BiconnectedComponent.java" startLine="103" startPosition="118" endLine="104" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4644851485137240304" fileName="BiconnectedComponent.java" startLine="105" startPosition="5" endLine="106" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4644851485137244903" fileName="BiconnectedComponent.java" startLine="110" startPosition="0" endLine="111" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myLow" />
     <nodeInfo nodeId="4644851485137244911" fileName="BiconnectedComponent.java" startLine="111" startPosition="0" endLine="112" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myNum" />
@@ -601,7 +601,7 @@
     <scopeInfo nodeId="529057043639340231" fileName="BiconnectedComponent.java" startLine="69" startPosition="12" endLine="70" endPosition="57" />
     <scopeInfo nodeId="529057043639383827" fileName="BiconnectedComponent.java" startLine="78" startPosition="66" endLine="79" endPosition="38" />
     <scopeInfo nodeId="529057043639383841" fileName="BiconnectedComponent.java" startLine="82" startPosition="12" endLine="83" endPosition="57" />
-    <scopeInfo nodeId="4644851485137251854" fileName="BiconnectedComponent.java" startLine="103" startPosition="124" endLine="104" endPosition="27" />
+    <scopeInfo nodeId="4644851485137251854" fileName="BiconnectedComponent.java" startLine="103" startPosition="118" endLine="104" endPosition="27" />
     <scopeInfo nodeId="4644851485137245117" fileName="BiconnectedComponent.java" startLine="130" startPosition="33" endLine="131" endPosition="34" />
     <scopeInfo nodeId="4644851485137246106" fileName="BiconnectedComponent.java" startLine="142" startPosition="14" endLine="143" endPosition="32" />
     <scopeInfo nodeId="4644851485137246177" fileName="BiconnectedComponent.java" startLine="147" startPosition="76" endLine="148" endPosition="41" />
@@ -1486,15 +1486,15 @@
     <nodeInfo nodeId="5488345258545813633" fileName="BiconnectAugmentation.java" startLine="29" startPosition="23" endLine="30" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="529057043639337194" fileName="BiconnectAugmentation.java" startLine="32" startPosition="64" endLine="33" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="529057043639337191" fileName="BiconnectAugmentation.java" startLine="33" startPosition="74" endLine="34" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5488345258545819675" fileName="BiconnectAugmentation.java" startLine="35" startPosition="68" endLine="36" endPosition="98" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5488345258545819675" fileName="BiconnectAugmentation.java" startLine="35" startPosition="62" endLine="36" endPosition="98" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5488345258545819693" fileName="BiconnectAugmentation.java" startLine="37" startPosition="14" endLine="38" endPosition="98" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="5488345258545819715" fileName="BiconnectAugmentation.java" startLine="40" startPosition="42" endLine="41" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="529057043639337248" fileName="BiconnectAugmentation.java" startLine="44" startPosition="7" endLine="45" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1763712338172347677" fileName="BiconnectAugmentation.java" startLine="47" startPosition="27" endLine="48" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="529057043639337266" fileName="BiconnectAugmentation.java" startLine="49" startPosition="9" endLine="50" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="529057043639337068" fileName="BiconnectAugmentation.java" startLine="52" startPosition="5" endLine="53" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="529057043639340119" fileName="BiconnectAugmentation.java" startLine="57" startPosition="76" endLine="58" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="529057043639340143" fileName="BiconnectAugmentation.java" startLine="59" startPosition="67" endLine="60" endPosition="93" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="529057043639340119" fileName="BiconnectAugmentation.java" startLine="57" startPosition="70" endLine="58" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="529057043639340143" fileName="BiconnectAugmentation.java" startLine="59" startPosition="61" endLine="60" endPosition="93" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="529057043639340196" fileName="BiconnectAugmentation.java" startLine="63" startPosition="42" endLine="64" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="529057043639337149" fileName="BiconnectAugmentation.java" startLine="69" startPosition="89" endLine="70" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="6074874003310495256" fileName="BiconnectAugmentation.java" startLine="76" startPosition="0" endLine="77" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myLow" />
@@ -1561,10 +1561,10 @@
     <scopeInfo nodeId="6074874003310495273" fileName="BiconnectAugmentation.java" startLine="83" startPosition="20" endLine="83" endPosition="20" />
     <scopeInfo nodeId="5213231752900665932" fileName="BiconnectAugmentation.java" startLine="22" startPosition="56" endLine="23" endPosition="113" />
     <scopeInfo nodeId="5488345258545815605" fileName="BiconnectAugmentation.java" startLine="29" startPosition="23" endLine="30" endPosition="44" />
-    <scopeInfo nodeId="5488345258545819674" fileName="BiconnectAugmentation.java" startLine="35" startPosition="68" endLine="36" endPosition="98" />
+    <scopeInfo nodeId="5488345258545819674" fileName="BiconnectAugmentation.java" startLine="35" startPosition="62" endLine="36" endPosition="98" />
     <scopeInfo nodeId="5488345258545819714" fileName="BiconnectAugmentation.java" startLine="40" startPosition="42" endLine="41" endPosition="34" />
     <scopeInfo nodeId="529057043639337256" fileName="BiconnectAugmentation.java" startLine="47" startPosition="27" endLine="48" endPosition="80" />
-    <scopeInfo nodeId="529057043639340129" fileName="BiconnectAugmentation.java" startLine="59" startPosition="67" endLine="60" endPosition="93" />
+    <scopeInfo nodeId="529057043639340129" fileName="BiconnectAugmentation.java" startLine="59" startPosition="61" endLine="60" endPosition="93" />
     <scopeInfo nodeId="529057043639340193" fileName="BiconnectAugmentation.java" startLine="63" startPosition="42" endLine="64" endPosition="34" />
     <scopeInfo nodeId="529057043639337142" fileName="BiconnectAugmentation.java" startLine="69" startPosition="89" endLine="70" endPosition="74" />
     <scopeInfo nodeId="6074874003310498621" fileName="BiconnectAugmentation.java" startLine="95" startPosition="61" endLine="96" endPosition="79" />
@@ -1621,7 +1621,7 @@
     <scopeInfo nodeId="6074874003310498611" fileName="BiconnectAugmentation.java" startLine="117" startPosition="25" endLine="126" endPosition="62">
       <varInfo nodeId="6074874003310495390" varName="prev" />
     </scopeInfo>
-    <scopeInfo nodeId="529057043639337095" fileName="BiconnectAugmentation.java" startLine="57" startPosition="76" endLine="67" endPosition="7">
+    <scopeInfo nodeId="529057043639337095" fileName="BiconnectAugmentation.java" startLine="57" startPosition="70" endLine="67" endPosition="7">
       <varInfo nodeId="529057043639340120" varName="componentNodes" />
     </scopeInfo>
     <scopeInfo nodeId="6074874003310495388" fileName="BiconnectAugmentation.java" startLine="116" startPosition="54" endLine="127" endPosition="7" />

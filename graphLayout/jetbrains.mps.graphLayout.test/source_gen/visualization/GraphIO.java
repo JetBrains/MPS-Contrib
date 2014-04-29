@@ -122,7 +122,7 @@ public class GraphIO {
       scanGraph(treeScanner, tree);
       int cur = 0;
       for (Node cluster : ListSequence.fromList(tree.getNodes())) {
-        if ((int) ListSequence.fromList(cluster.getOutEdges()).count() == 0) {
+        if (ListSequence.fromList(cluster.getOutEdges()).count() == 0) {
           graph.setNodeInCluster(cluster, graph.getNode(cur++));
         }
       }

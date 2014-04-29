@@ -82,7 +82,7 @@
     <nodeInfo nodeId="4759409676487241137" fileName="MedianLayerSorter.java" startLine="57" startPosition="30" endLine="58" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="190081711777510109" fileName="MedianLayerSorter.java" startLine="61" startPosition="90" endLine="62" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="190081711777515794" fileName="MedianLayerSorter.java" startLine="63" startPosition="65" endLine="64" endPosition="112" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="190081711777516025" fileName="MedianLayerSorter.java" startLine="66" startPosition="66" endLine="67" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="190081711777516025" fileName="MedianLayerSorter.java" startLine="66" startPosition="60" endLine="67" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="190081711777515967" fileName="MedianLayerSorter.java" startLine="70" startPosition="41" endLine="71" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4759409676487234270" fileName="MedianLayerSorter.java" startLine="74" startPosition="64" endLine="75" endPosition="111" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4759409676487234280" fileName="MedianLayerSorter.java" startLine="76" startPosition="12" endLine="77" endPosition="221" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -120,7 +120,7 @@
     <scopeInfo nodeId="4759409676487233696" fileName="MedianLayerSorter.java" startLine="49" startPosition="20" endLine="50" endPosition="20" />
     <scopeInfo nodeId="4759409676487233726" fileName="MedianLayerSorter.java" startLine="52" startPosition="20" endLine="53" endPosition="19" />
     <scopeInfo nodeId="190081711777515786" fileName="MedianLayerSorter.java" startLine="63" startPosition="65" endLine="64" endPosition="112" />
-    <scopeInfo nodeId="190081711777516011" fileName="MedianLayerSorter.java" startLine="66" startPosition="66" endLine="67" endPosition="16" />
+    <scopeInfo nodeId="190081711777516011" fileName="MedianLayerSorter.java" startLine="66" startPosition="60" endLine="67" endPosition="16" />
     <scopeInfo nodeId="190081711777515963" fileName="MedianLayerSorter.java" startLine="70" startPosition="41" endLine="71" endPosition="18" />
     <scopeInfo nodeId="4759409676487234244" fileName="MedianLayerSorter.java" startLine="74" startPosition="64" endLine="75" endPosition="111" />
     <scopeInfo nodeId="4759409676487234279" fileName="MedianLayerSorter.java" startLine="76" startPosition="12" endLine="77" endPosition="221" />

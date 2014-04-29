@@ -78,7 +78,7 @@ public class MinCirculation_Test extends TestCase {
     Map<Edge, Integer> circulation = MinCostCirculation.getCirculation(graph, low, capacity, cost);
     FlowChecker.checkCirculation(graph, low, capacity, circulation);
     Assert.assertTrue(numNodes == graph.getNumNodes());
-    Assert.assertTrue(numEdges == (int) ListSequence.fromList(graph.getEdges()).count());
+    Assert.assertTrue(numEdges == ListSequence.fromList(graph.getEdges()).count());
     return circulation;
   }
 

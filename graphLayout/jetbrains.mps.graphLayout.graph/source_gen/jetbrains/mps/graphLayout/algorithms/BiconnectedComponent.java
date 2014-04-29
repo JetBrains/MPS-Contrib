@@ -100,7 +100,7 @@ public class BiconnectedComponent {
     components.doDfs(graph);
     new BiconnectedComponent.TreeMaker(components.getLow(), components.getNum()).doDfs(graph, tree);
     BiconnectedComponent treeCandidate = ListSequence.fromList(tree.getChildren()).first();
-    if ((int) ListSequence.fromList(tree.getChildren()).count() == 1 && tree.getConnection(treeCandidate) instanceof Node) {
+    if (ListSequence.fromList(tree.getChildren()).count() == 1 && tree.getConnection(treeCandidate) instanceof Node) {
       tree = treeCandidate;
     }
     return tree;
