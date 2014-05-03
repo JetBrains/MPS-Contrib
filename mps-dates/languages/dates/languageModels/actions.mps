@@ -12,7 +12,7 @@
   <language namespace="daafa647-f1f7-4b0b-b096-69cd7c8408c0(jetbrains.mps.baseLanguage.regexp)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   <import index="tp6x" modelUID="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)" version="1" />
-  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" />
+  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" />
   <import index="tp6p" modelUID="r:00000000-0000-4000-0000-011c895903dd(jetbrains.mps.baseLanguage.datesInternal.structure)" version="3" />
   <import index="tpek" modelUID="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" version="-1" />
   <import index="tp6y" modelUID="r:00000000-0000-4000-0000-011c895903d6(jetbrains.mps.baseLanguage.dates.accessories)" version="-1" />
@@ -28,7 +28,7 @@
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpcw" modelUID="r:00000000-0000-4000-0000-011c895902bc(jetbrains.mps.lang.sharedConcepts.structure)" version="0" implicit="yes" />
   <import index="tp3r" modelUID="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" version="0" implicit="yes" />
-  <import index="tpd4" modelUID="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" version="3" implicit="yes" />
+  <import index="tpd4" modelUID="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" version="7" implicit="yes" />
   <import index="tpfo" modelUID="r:00000000-0000-4000-0000-011c89590518(jetbrains.mps.baseLanguage.regexp.structure)" version="0" implicit="yes" />
   <import index="tpfp" modelUID="r:00000000-0000-4000-0000-011c89590519(jetbrains.mps.baseLanguage.regexp.jetbrains.mps.regexp.accessory)" version="-1" implicit="yes" />
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
@@ -488,7 +488,7 @@
             <node role="expression" roleId="tpee.1068580123156" type="tpee.AndExpression" typeId="tpee.1080120340718" id="4555537781927653113" nodeInfo="nn">
               <node role="rightExpression" roleId="tpee.1081773367579" type="tpd4.IsSubtypeExpression" typeId="tpd4.1176543928247" id="4555537781927653116" nodeInfo="nn">
                 <node role="supertypeExpression" roleId="tpd4.1176543950311" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="4555537781927653127" nodeInfo="nn">
-                  <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.DateTimeZoneType" typeId="tp6x.1238513516532" id="4555537781927653128" nodeInfo="ng" />
+                  <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.DateTimeZoneType" typeId="tp6x.1238513516532" id="4555537781927653128" nodeInfo="in" />
                 </node>
                 <node role="subtypeExpression" roleId="tpd4.1176543945045" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4555537781927653130" nodeInfo="nn">
                   <node role="operand" roleId="tpee.1197027771414" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="4555537781927653129" nodeInfo="nn">
@@ -603,12 +603,12 @@
                   </node>
                   <node role="rValue" roleId="tpee.1068498886297" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2890840340813347017" nodeInfo="nn">
                     <node role="operand" roleId="tpee.1197027771414" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="2890840340813347018" nodeInfo="nn">
-                      <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.FormatDateTimeExpression" typeId="tp6x.5034322243092296606" id="2890840340813347019" nodeInfo="ng">
+                      <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.FormatDateTimeExpression" typeId="tp6x.5034322243092296606" id="2890840340813347019" nodeInfo="nn">
                         <link role="locale" roleId="tp6x.5034322243092298628" targetNodeId="tp6y.1172681308861" resolveInfo="ENGLISH" />
                         <link role="dateFormat" roleId="tp6x.5034322243092298627" targetNodeId="tp6y.1173884238614" />
-                        <node role="datetime" roleId="tp6x.5034322243092298623" type="tp6x.InTimezoneExpression" typeId="tp6x.2639623922402691276" id="2890840340813347020" nodeInfo="ng">
-                          <node role="timezone" roleId="tp6x.2639623922402691641" type="tp6x.UTCTimeZoneConstant" typeId="tp6x.1238514476665" id="2890840340813347025" nodeInfo="ng" />
-                          <node role="datetime" roleId="tp6x.2639623922402691278" type="tp6x.NowExpression" typeId="tp6x.1169630122569" id="2890840340813347022" nodeInfo="ng" />
+                        <node role="datetime" roleId="tp6x.5034322243092298623" type="tp6x.InTimezoneExpression" typeId="tp6x.2639623922402691276" id="2890840340813347020" nodeInfo="nn">
+                          <node role="timezone" roleId="tp6x.2639623922402691641" type="tp6x.UTCTimeZoneConstant" typeId="tp6x.1238514476665" id="2890840340813347025" nodeInfo="nn" />
+                          <node role="datetime" roleId="tp6x.2639623922402691278" type="tp6x.NowExpression" typeId="tp6x.1169630122569" id="2890840340813347022" nodeInfo="nn" />
                         </node>
                       </node>
                     </node>
@@ -643,12 +643,12 @@
                   </node>
                   <node role="rValue" roleId="tpee.1068498886297" type="tpee.DotExpression" typeId="tpee.1197027756228" id="194163770812721408" nodeInfo="nn">
                     <node role="operand" roleId="tpee.1197027771414" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="194163770812721403" nodeInfo="nn">
-                      <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.FormatDateTimeExpression" typeId="tp6x.5034322243092296606" id="194163770812721404" nodeInfo="ng">
+                      <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.FormatDateTimeExpression" typeId="tp6x.5034322243092296606" id="194163770812721404" nodeInfo="nn">
                         <link role="locale" roleId="tp6x.5034322243092298628" targetNodeId="tp6y.1172681308861" resolveInfo="ENGLISH" />
                         <link role="dateFormat" roleId="tp6x.5034322243092298627" targetNodeId="tp6y.1173884238614" />
-                        <node role="datetime" roleId="tp6x.5034322243092298623" type="tp6x.InTimezoneExpression" typeId="tp6x.2639623922402691276" id="194163770812721405" nodeInfo="ng">
-                          <node role="timezone" roleId="tp6x.2639623922402691641" type="tp6x.UTCTimeZoneConstant" typeId="tp6x.1238514476665" id="2890840340813347024" nodeInfo="ng" />
-                          <node role="datetime" roleId="tp6x.2639623922402691278" type="tp6x.NowExpression" typeId="tp6x.1169630122569" id="194163770812721407" nodeInfo="ng" />
+                        <node role="datetime" roleId="tp6x.5034322243092298623" type="tp6x.InTimezoneExpression" typeId="tp6x.2639623922402691276" id="194163770812721405" nodeInfo="nn">
+                          <node role="timezone" roleId="tp6x.2639623922402691641" type="tp6x.UTCTimeZoneConstant" typeId="tp6x.1238514476665" id="2890840340813347024" nodeInfo="nn" />
+                          <node role="datetime" roleId="tp6x.2639623922402691278" type="tp6x.NowExpression" typeId="tp6x.1169630122569" id="194163770812721407" nodeInfo="nn" />
                         </node>
                       </node>
                     </node>
@@ -713,12 +713,12 @@
                   </node>
                   <node role="rValue" roleId="tpee.1068498886297" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8875872347490100089" nodeInfo="nn">
                     <node role="operand" roleId="tpee.1197027771414" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="8875872347490100090" nodeInfo="nn">
-                      <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.FormatDateTimeExpression" typeId="tp6x.5034322243092296606" id="8875872347490100091" nodeInfo="ng">
+                      <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.FormatDateTimeExpression" typeId="tp6x.5034322243092296606" id="8875872347490100091" nodeInfo="nn">
                         <link role="locale" roleId="tp6x.5034322243092298628" targetNodeId="tp6y.1172681308861" resolveInfo="ENGLISH" />
                         <link role="dateFormat" roleId="tp6x.5034322243092298627" targetNodeId="tp6y.1173884238614" />
-                        <node role="datetime" roleId="tp6x.5034322243092298623" type="tp6x.InTimezoneExpression" typeId="tp6x.2639623922402691276" id="8875872347490100092" nodeInfo="ng">
-                          <node role="timezone" roleId="tp6x.2639623922402691641" type="tp6x.UTCTimeZoneConstant" typeId="tp6x.1238514476665" id="8875872347490100093" nodeInfo="ng" />
-                          <node role="datetime" roleId="tp6x.2639623922402691278" type="tp6x.NowExpression" typeId="tp6x.1169630122569" id="8875872347490100094" nodeInfo="ng" />
+                        <node role="datetime" roleId="tp6x.5034322243092298623" type="tp6x.InTimezoneExpression" typeId="tp6x.2639623922402691276" id="8875872347490100092" nodeInfo="nn">
+                          <node role="timezone" roleId="tp6x.2639623922402691641" type="tp6x.UTCTimeZoneConstant" typeId="tp6x.1238514476665" id="8875872347490100093" nodeInfo="nn" />
+                          <node role="datetime" roleId="tp6x.2639623922402691278" type="tp6x.NowExpression" typeId="tp6x.1169630122569" id="8875872347490100094" nodeInfo="nn" />
                         </node>
                       </node>
                     </node>
@@ -885,9 +885,9 @@
                     </node>
                   </node>
                   <node role="rValue" roleId="tpee.1068498886297" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="670620798052454400" nodeInfo="nn">
-                    <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.InTimezoneExpression" typeId="tp6x.2639623922402691276" id="7499037524191507002" nodeInfo="ng">
-                      <node role="datetime" roleId="tp6x.2639623922402691278" type="tp6x.NowExpression" typeId="tp6x.1169630122569" id="670620798052454403" nodeInfo="ng" />
-                      <node role="timezone" roleId="tp6x.2639623922402691641" type="tp6x.DefaultTimeZoneConstant" typeId="tp6x.1238514419896" id="7499037524191508276" nodeInfo="ng" />
+                    <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.InTimezoneExpression" typeId="tp6x.2639623922402691276" id="7499037524191507002" nodeInfo="nn">
+                      <node role="datetime" roleId="tp6x.2639623922402691278" type="tp6x.NowExpression" typeId="tp6x.1169630122569" id="670620798052454403" nodeInfo="nn" />
+                      <node role="timezone" roleId="tp6x.2639623922402691641" type="tp6x.DefaultTimeZoneConstant" typeId="tp6x.1238514419896" id="7499037524191508276" nodeInfo="nn" />
                     </node>
                   </node>
                 </node>
@@ -950,12 +950,12 @@
                   </node>
                   <node role="rValue" roleId="tpee.1068498886297" type="tpee.DotExpression" typeId="tpee.1197027756228" id="670620798052429801" nodeInfo="nn">
                     <node role="operand" roleId="tpee.1197027771414" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="670620798052429802" nodeInfo="nn">
-                      <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.FormatDateTimeExpression" typeId="tp6x.5034322243092296606" id="670620798052429803" nodeInfo="ng">
+                      <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.FormatDateTimeExpression" typeId="tp6x.5034322243092296606" id="670620798052429803" nodeInfo="nn">
                         <link role="locale" roleId="tp6x.5034322243092298628" targetNodeId="tp6y.1172681308861" resolveInfo="ENGLISH" />
                         <link role="dateFormat" roleId="tp6x.5034322243092298627" targetNodeId="tp6y.1173884238614" />
-                        <node role="datetime" roleId="tp6x.5034322243092298623" type="tp6x.InTimezoneExpression" typeId="tp6x.2639623922402691276" id="670620798052429804" nodeInfo="ng">
-                          <node role="timezone" roleId="tp6x.2639623922402691641" type="tp6x.UTCTimeZoneConstant" typeId="tp6x.1238514476665" id="670620798052429805" nodeInfo="ng" />
-                          <node role="datetime" roleId="tp6x.2639623922402691278" type="tp6x.NowExpression" typeId="tp6x.1169630122569" id="670620798052429806" nodeInfo="ng" />
+                        <node role="datetime" roleId="tp6x.5034322243092298623" type="tp6x.InTimezoneExpression" typeId="tp6x.2639623922402691276" id="670620798052429804" nodeInfo="nn">
+                          <node role="timezone" roleId="tp6x.2639623922402691641" type="tp6x.UTCTimeZoneConstant" typeId="tp6x.1238514476665" id="670620798052429805" nodeInfo="nn" />
+                          <node role="datetime" roleId="tp6x.2639623922402691278" type="tp6x.NowExpression" typeId="tp6x.1169630122569" id="670620798052429806" nodeInfo="nn" />
                         </node>
                       </node>
                     </node>

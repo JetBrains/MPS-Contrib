@@ -25,7 +25,7 @@
   <import index="11eb" modelUID="r:550fbd90-c9f2-4576-a8a6-223eca16d68b(jetbrains.mps.execution.configurations.deprecated.structure)" version="4" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <import index="tp4f" modelUID="r:00000000-0000-4000-0000-011c89590373(jetbrains.mps.baseLanguage.classifiers.structure)" version="0" />
-  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="-1" />
+  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" />
   <import index="tp4k" modelUID="r:00000000-0000-4000-0000-011c89590368(jetbrains.mps.lang.plugin.structure)" version="35" />
   <import index="mp5t" modelUID="r:09ae1f9b-32e9-4f71-85df-1271dde1eb7a(jetbrains.mps.lang.plugin.run)" version="0" />
   <import index="3ats" modelUID="r:3300d13f-1b70-47a2-97b4-fc48c6fa9e45(jetbrains.mps.plugins.pluginparts.runconfigs)" version="0" />
@@ -76,7 +76,7 @@
   <import index="tp68" modelUID="r:00000000-0000-4000-0000-011c895903ac(jetbrains.mps.baseLanguageInternal.structure)" version="-1" implicit="yes" />
   <import index="tpcw" modelUID="r:00000000-0000-4000-0000-011c895902bc(jetbrains.mps.lang.sharedConcepts.structure)" version="0" implicit="yes" />
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
-  <import index="tpd4" modelUID="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" version="3" implicit="yes" />
+  <import index="tpd4" modelUID="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" version="7" implicit="yes" />
   <import index="cx9y" modelUID="r:309aeee7-bee8-445c-b31d-35928d1da75f(jetbrains.mps.baseLanguage.tuples.structure)" version="2" implicit="yes" />
   <import index="e2lc" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" implicit="yes" />
   <import index="tgbt" modelUID="r:c70ee934-afb1-4c02-b6a9-1c4d1908a792(jetbrains.mps.lang.plugin.standalone.structure)" version="1" implicit="yes" />
@@ -7748,7 +7748,7 @@
             <node role="rValue" roleId="tpee.1068498886297" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="314981645427227265" nodeInfo="nn">
               <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="314981645427227266" nodeInfo="nn">
                 <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mp5t.8321286824330329614" resolveInfo="DefaultOsProcessHandler" />
-                <node role="actualArgument" roleId="tpee.1068499141038" type="11eb.ConsoleExpression" typeId="11eb.314981645426569245" id="314981645427227267" nodeInfo="ng" />
+                <node role="actualArgument" roleId="tpee.1068499141038" type="11eb.ConsoleExpression" typeId="11eb.314981645426569245" id="314981645427227267" nodeInfo="nn" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="314981645427227268" nodeInfo="nn">
                   <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.CopySrcNodeMacro" typeId="tpf8.1114706874351" id="314981645427227269" nodeInfo="nn">
                     <node role="sourceNodeQuery" roleId="tpf8.1168024447342" type="tpf8.SourceSubstituteMacro_SourceNodeQuery" typeId="tpf8.1168024337012" id="314981645427227270" nodeInfo="nn">
@@ -8286,7 +8286,7 @@
     <property name="name" nameId="tpck.1169194664001" value="reduce_ParametrizedExecuteBlock" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="Configuration.Execute.Parametrized" />
     <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="11eb.314981645426569209" resolveInfo="ParametrizedExecuteBlock" />
-    <node role="contentNode" roleId="tpf8.1092060348987" type="11eb.ExecuteConfigBlock" typeId="11eb.314981645426569258" id="314981645427227506" nodeInfo="ng">
+    <node role="contentNode" roleId="tpf8.1092060348987" type="11eb.ExecuteConfigBlock" typeId="11eb.314981645426569258" id="314981645427227506" nodeInfo="nn">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="314981645427227507" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.BlockStatement" typeId="tpee.1082485599095" id="314981645427227508" nodeInfo="nn">
           <node role="statements" roleId="tpee.1082485599096" type="tpee.StatementList" typeId="tpee.1068580123136" id="314981645427227509" nodeInfo="sn">
@@ -8367,7 +8367,7 @@
               </node>
             </node>
             <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="314981645427227546" nodeInfo="nn" />
-            <node role="statement" roleId="tpee.1068581517665" type="11eb.ActionListStatement" typeId="11eb.314981645426569236" id="314981645427227547" nodeInfo="ng">
+            <node role="statement" roleId="tpee.1068581517665" type="11eb.ActionListStatement" typeId="11eb.314981645426569236" id="314981645427227547" nodeInfo="nn">
               <node role="actions" roleId="11eb.314981645426569239" type="tpee.DotExpression" typeId="tpee.1197027756228" id="314981645427227548" nodeInfo="nn">
                 <node role="operand" roleId="tpee.1197027771414" type="tp2c.ClosureLiteral" typeId="tp2c.1199569711397" id="314981645427227549" nodeInfo="nn">
                   <node role="body" roleId="tp2c.1199569916463" type="tpee.StatementList" typeId="tpee.1068580123136" id="314981645427227550" nodeInfo="sn">
@@ -8388,7 +8388,7 @@
                                   <link role="classifier" roleId="tpee.1107535924139" targetNodeId="nx2.~AnAction" resolveInfo="AnAction" />
                                 </node>
                                 <node role="copyFrom" roleId="tp2q.1237731803878" type="tpee.DotExpression" typeId="tpee.1197027756228" id="314981645427227560" nodeInfo="nn">
-                                  <node role="operand" roleId="tpee.1197027771414" type="11eb.ConsoleExpression" typeId="11eb.314981645426569245" id="314981645427227561" nodeInfo="ng" />
+                                  <node role="operand" roleId="tpee.1197027771414" type="11eb.ConsoleExpression" typeId="11eb.314981645426569245" id="314981645427227561" nodeInfo="nn" />
                                   <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="314981645427227562" nodeInfo="nn">
                                     <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="8ill.~ConsoleViewImpl%dcreateConsoleActions()%ccom%dintellij%dopenapi%dactionSystem%dAnAction[]" resolveInfo="createConsoleActions" />
                                   </node>
@@ -8506,8 +8506,8 @@
                 </node>
               </node>
             </node>
-            <node role="statement" roleId="tpee.1068581517665" type="11eb.ExecutionConsoleStatement" typeId="11eb.314981645426569222" id="314981645427227614" nodeInfo="ng">
-              <node role="disposeBlock" roleId="11eb.314981645426569225" type="11eb.DisposeConsoleBlock" typeId="11eb.314981645426569240" id="314981645427227615" nodeInfo="ng">
+            <node role="statement" roleId="tpee.1068581517665" type="11eb.ExecutionConsoleStatement" typeId="11eb.314981645426569222" id="314981645427227614" nodeInfo="nn">
+              <node role="disposeBlock" roleId="11eb.314981645426569225" type="11eb.DisposeConsoleBlock" typeId="11eb.314981645426569240" id="314981645427227615" nodeInfo="nn">
                 <node role="body" roleId="tp2c.1199569916463" type="tpee.StatementList" typeId="tpee.1068580123136" id="314981645427227616" nodeInfo="sn">
                   <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="314981645427227617" nodeInfo="nn">
                     <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="314981645427227618" nodeInfo="nn">
@@ -8542,7 +8542,7 @@
                           <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="314981645427227634" nodeInfo="nn">
                             <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="8d8z.~Disposer" resolveInfo="Disposer" />
                             <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="8d8z.~Disposer%ddispose(com%dintellij%dopenapi%dDisposable)%cvoid" resolveInfo="dispose" />
-                            <node role="actualArgument" roleId="tpee.1068499141038" type="11eb.ConsoleExpression" typeId="11eb.314981645426569245" id="314981645427227635" nodeInfo="ng" />
+                            <node role="actualArgument" roleId="tpee.1068499141038" type="11eb.ConsoleExpression" typeId="11eb.314981645426569245" id="314981645427227635" nodeInfo="nn" />
                           </node>
                         </node>
                       </node>
@@ -8575,7 +8575,7 @@
                   </node>
                   <node role="alternativeConsequence" roleId="tpf8.1194989344771" type="tpf8.InlineTemplate_RuleConsequence" typeId="tpf8.1177093525992" id="314981645427227648" nodeInfo="ng">
                     <node role="templateNode" roleId="tpf8.1177093586806" type="tpee.DotExpression" typeId="tpee.1197027756228" id="314981645427227649" nodeInfo="nn">
-                      <node role="operand" roleId="tpee.1197027771414" type="11eb.ConsoleExpression" typeId="11eb.314981645426569245" id="314981645427227650" nodeInfo="ng" />
+                      <node role="operand" roleId="tpee.1197027771414" type="11eb.ConsoleExpression" typeId="11eb.314981645426569245" id="314981645427227650" nodeInfo="nn" />
                       <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="314981645427227651" nodeInfo="nn">
                         <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="8ill.~ConsoleViewImpl%dgetComponent()%cjavax%dswing%dJComponent" resolveInfo="getComponent" />
                       </node>
@@ -8706,10 +8706,10 @@
     <property name="name" nameId="tpck.1169194664001" value="reduce_Console_FunctionParameter" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="Configuration.Execute.Parametrized" />
     <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="11eb.314981645426569152" resolveInfo="Console_FunctionParameter" />
-    <node role="contentNode" roleId="tpf8.1092060348987" type="11eb.ExecuteConfigBlock" typeId="11eb.314981645426569258" id="314981645427227696" nodeInfo="ng">
+    <node role="contentNode" roleId="tpf8.1092060348987" type="11eb.ExecuteConfigBlock" typeId="11eb.314981645426569258" id="314981645427227696" nodeInfo="nn">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="314981645427227697" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="314981645427227698" nodeInfo="nn">
-          <node role="expression" roleId="tpee.1068580123156" type="11eb.ConsoleExpression" typeId="11eb.314981645426569245" id="314981645427227699" nodeInfo="ng">
+          <node role="expression" roleId="tpee.1068580123156" type="11eb.ConsoleExpression" typeId="11eb.314981645426569245" id="314981645427227699" nodeInfo="nn">
             <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.TemplateFragment" typeId="tpf8.1095672379244" id="314981645427227700" nodeInfo="ng" />
           </node>
         </node>
