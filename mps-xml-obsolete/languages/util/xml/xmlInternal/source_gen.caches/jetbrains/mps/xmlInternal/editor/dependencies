@@ -100,7 +100,6 @@
     <classNode dependClassName="java.util.Collections" />
     <classNode dependClassName="jetbrains.mps.openapi.editor.descriptor.ConceptEditor" />
     <classNode dependClassName="jetbrains.mps.openapi.editor.descriptor.ConceptEditorComponent" />
-    <classNode dependClassName="jetbrains.mps.openapi.editor.descriptor.ConceptEditorHint" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.ConceptDescriptor" />
     <classNode dependClassName="jetbrains.mps.xmlInternal.editor.Comment_Editor" />
     <classNode dependClassName="jetbrains.mps.xmlInternal.editor.ContentStatement_Editor" />

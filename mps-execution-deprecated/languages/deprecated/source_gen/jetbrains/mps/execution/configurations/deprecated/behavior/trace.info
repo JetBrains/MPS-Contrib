@@ -1049,10 +1049,6 @@
     <scopeInfo nodeId="9017024590936850773" fileName="JavaRunConfiguration_Behavior.java" startLine="52" startPosition="0" endLine="59" endPosition="0" />
     <unitInfo nodeId="4964800443628310125" fileName="JavaRunConfiguration_Behavior.java" startLine="18" startPosition="0" endLine="60" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.behavior.JavaRunConfiguration_Behavior" />
   </root>
-  <root nodeRef="r:44be5a71-98f4-4137-88b1-8ccaf67186a8(jetbrains.mps.execution.configurations.deprecated.behavior)/6575219246653227382" />
-  <root nodeRef="r:44be5a71-98f4-4137-88b1-8ccaf67186a8(jetbrains.mps.execution.configurations.deprecated.behavior)/6575219246653228005" />
-  <root nodeRef="r:44be5a71-98f4-4137-88b1-8ccaf67186a8(jetbrains.mps.execution.configurations.deprecated.behavior)/6575219246653228469" />
-  <root nodeRef="r:44be5a71-98f4-4137-88b1-8ccaf67186a8(jetbrains.mps.execution.configurations.deprecated.behavior)/6575219246653231918" />
   <root nodeRef="r:44be5a71-98f4-4137-88b1-8ccaf67186a8(jetbrains.mps.execution.configurations.deprecated.behavior)/6629582826328967165">
     <nodeInfo nodeId="3592413331517228993" fileName="JavaNodeRunConfiguration_Behavior.java" startLine="13" startPosition="43" endLine="14" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="3607966867310086838" fileName="JavaNodeRunConfiguration_Behavior.java" startLine="17" startPosition="96" endLine="18" endPosition="269" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />

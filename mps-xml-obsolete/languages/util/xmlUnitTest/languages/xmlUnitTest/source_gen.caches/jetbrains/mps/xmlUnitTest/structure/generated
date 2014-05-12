@@ -1,37 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="843cjbkzmbrd1li98xnwy3qnw5pipqk">
-  <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel.runtime.impl(MPS.Core/jetbrains.mps.smodel.runtime.impl@java_stub)" />
-  <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="-2hubvwh7bwismm0eld02cqmdefvj5by" />
-  <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" hash="-18rci04s2u92vopawqedkce2noitsf3" />
-  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="69bccegrxostpexpy6d34x7at3ezmg6" />
-  <dep model="r:00000000-0000-4000-0000-011c895902d7(jetbrains.mps.baseLanguage.unitTest.structure)" hash="-5kctb7b7jnlp1h0duovrvgm0c42ily4" />
-  <dep model="r:00000000-0000-4000-0000-011c8959032f(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.main@generator)" hash="-8m69ykqla8brdy60tjaaawgft692m48" />
-  <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="6gsgv1p6bkd8kmlifl0ddbzjugbmbxl" />
-  <common hash="66odab3wjlip58kxp19tm6uxnaphk7p" dependsOnNodes="true">
-    <dep root="5211164146776488214" />
-    <dep root="5211164146776489223" />
-    <dep root="5211164146777002721" />
-    <dep root="5266766379151914050" />
-    <dep root="5266766379151914055" />
-    <dep root="5266766379151914058" />
-    <dep root="5266766379151914063" />
-    <dep root="5266766379151914066" />
-    <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel.runtime.impl(MPS.Core/jetbrains.mps.smodel.runtime.impl@java_stub)" />
-    <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
-    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
-    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
-    <dep model="r:00000000-0000-4000-0000-011c895902d7(jetbrains.mps.baseLanguage.unitTest.structure)" />
-    <dep model="r:00000000-0000-4000-0000-011c8959032f(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.main@generator)" />
-    <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
-    <file name="StructureAspectDescriptor.java" />
-  </common>
-  <source id="5211164146776488214" name="XMLLiteral" hash="4fwqee65tvqsaybjqcs4crdldi8gquh" />
-  <source id="5211164146776489223" name="XMLStringLiteral" hash="-1aoxus6gegix2675jkokgujy5lusra" />
-  <source id="5211164146777002721" name="AssertXMLEquals" hash="-8sjejmspw5guvgfr59kkmz5mnjwk19" />
-  <source id="5266766379151914050" name="Attribute" hash="aefh3h8knfkwerxlv2pvslxobppr3zj" />
-  <source id="5266766379151914055" name="Document" hash="-darqkzux8fgckaesuc3jcenhk8xq8xv" />
-  <source id="5266766379151914058" name="Element" hash="-48mkk5d42wk7ck9uc57gtna43popkdx" />
-  <source id="5266766379151914063" name="ElementPart" hash="evlvfpq97nzw7z1zkmblbgxn2g29zlo" />
-  <source id="5266766379151914066" name="Text" hash="-93lc1hj3vx0n9s52bx3ac41qunpnayu" />
-</dependencies>
+<dependencies version="2" modelHash="-bpr5kjwdlatkz108ooaz82ylkvksm37" />
 

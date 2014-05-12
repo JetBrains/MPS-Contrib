@@ -636,7 +636,6 @@
     </scopeInfo>
     <unitInfo nodeId="314981645426570053" fileName="typeof_ConsoleExpression_InferenceRule.java" startLine="14" startPosition="0" endLine="48" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.typesystem.typeof_ConsoleExpression_InferenceRule" />
   </root>
-  <root nodeRef="r:3d1d89d4-ed40-464f-804b-a59886f41d55(jetbrains.mps.execution.configurations.deprecated.typesystem)/314981645426570063" />
   <root nodeRef="r:3d1d89d4-ed40-464f-804b-a59886f41d55(jetbrains.mps.execution.configurations.deprecated.typesystem)/314981645426570085">
     <nodeInfo nodeId="314981645426570087" fileName="typeof_SNodeCreatorTarget_InferenceRule.java" startLine="21" startPosition="5" endLine="22" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="314981645426570087" fileName="typeof_SNodeCreatorTarget_InferenceRule.java" startLine="22" startPosition="48" endLine="23" endPosition="225" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />

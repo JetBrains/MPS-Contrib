@@ -9,11 +9,12 @@ import jetbrains.mps.smodel.runtime.ConceptDescriptor;
 import java.util.Arrays;
 import java.util.Collections;
 import jetbrains.mps.openapi.editor.descriptor.ConceptEditorComponent;
-import jetbrains.mps.openapi.editor.descriptor.ConceptEditorHint;
 
 public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
+
+
   public Collection<ConceptEditor> getEditors(ConceptDescriptor descriptor) {
-    switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0a, descriptor.getConceptFqName())) {
+    switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0b, descriptor.getConceptFqName())) {
       case 0:
         return Collections.<ConceptEditor>singletonList(new AttributeDeclaration_Editor());
       case 1:
@@ -96,19 +97,14 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
         return Collections.<ConceptEditor>singletonList(new UseAttribute_Editor());
       default:
     }
-    return Collections.emptyList();
+    return Collections.<ConceptEditor>emptyList();
   }
 
   public Collection<ConceptEditorComponent> getEditorComponents(ConceptDescriptor descriptor, String editorComponentId) {
-    return Collections.emptyList();
+    return Collections.<ConceptEditorComponent>emptyList();
   }
 
 
 
-  public Collection<ConceptEditorHint> getHints() {
-    return Collections.emptyList();
-  }
-
-
-  private static String[] stringSwitchCases_xbvbvu_a0a0a = new String[]{"jetbrains.mps.xmlSchema.structure.AttributeDeclaration", "jetbrains.mps.xmlSchema.structure.AttributeExpression", "jetbrains.mps.xmlSchema.structure.AttributeGroup", "jetbrains.mps.xmlSchema.structure.AttributeGroupReference", "jetbrains.mps.xmlSchema.structure.BooleanSchemaType", "jetbrains.mps.xmlSchema.structure.BoundExpression", "jetbrains.mps.xmlSchema.structure.Choice", "jetbrains.mps.xmlSchema.structure.ComplexContent", "jetbrains.mps.xmlSchema.structure.ComplexType", "jetbrains.mps.xmlSchema.structure.ComplexTypeReference", "jetbrains.mps.xmlSchema.structure.ContentItem", "jetbrains.mps.xmlSchema.structure.Declaration", "jetbrains.mps.xmlSchema.structure.DeclarationBlock", "jetbrains.mps.xmlSchema.structure.ElementReference", "jetbrains.mps.xmlSchema.structure.ElementWithContent", "jetbrains.mps.xmlSchema.structure.ElementWithType", "jetbrains.mps.xmlSchema.structure.EntityBlock", "jetbrains.mps.xmlSchema.structure.EntityDeclaration", "jetbrains.mps.xmlSchema.structure.EntityLine", "jetbrains.mps.xmlSchema.structure.EntitySet", "jetbrains.mps.xmlSchema.structure.Extension", "jetbrains.mps.xmlSchema.structure.GroupDeclaration", "jetbrains.mps.xmlSchema.structure.GroupExpression", "jetbrains.mps.xmlSchema.structure.GroupReference", "jetbrains.mps.xmlSchema.structure.IntegerSchemaType", "jetbrains.mps.xmlSchema.structure.MaxOccursExpression", "jetbrains.mps.xmlSchema.structure.MixedAttribute", "jetbrains.mps.xmlSchema.structure.NamespaceDeclaration", "jetbrains.mps.xmlSchema.structure.OccursAttribute", "jetbrains.mps.xmlSchema.structure.Schema", "jetbrains.mps.xmlSchema.structure.SchemaComment", "jetbrains.mps.xmlSchema.structure.SchemaType", "jetbrains.mps.xmlSchema.structure.Sequence", "jetbrains.mps.xmlSchema.structure.SimpleContent", "jetbrains.mps.xmlSchema.structure.StringSchemaType", "jetbrains.mps.xmlSchema.structure.TextLine", "jetbrains.mps.xmlSchema.structure.TypeExpression", "jetbrains.mps.xmlSchema.structure.TypeExpressionList", "jetbrains.mps.xmlSchema.structure.UnboundExpression", "jetbrains.mps.xmlSchema.structure.UseAttribute"};
+  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"jetbrains.mps.xmlSchema.structure.AttributeDeclaration", "jetbrains.mps.xmlSchema.structure.AttributeExpression", "jetbrains.mps.xmlSchema.structure.AttributeGroup", "jetbrains.mps.xmlSchema.structure.AttributeGroupReference", "jetbrains.mps.xmlSchema.structure.BooleanSchemaType", "jetbrains.mps.xmlSchema.structure.BoundExpression", "jetbrains.mps.xmlSchema.structure.Choice", "jetbrains.mps.xmlSchema.structure.ComplexContent", "jetbrains.mps.xmlSchema.structure.ComplexType", "jetbrains.mps.xmlSchema.structure.ComplexTypeReference", "jetbrains.mps.xmlSchema.structure.ContentItem", "jetbrains.mps.xmlSchema.structure.Declaration", "jetbrains.mps.xmlSchema.structure.DeclarationBlock", "jetbrains.mps.xmlSchema.structure.ElementReference", "jetbrains.mps.xmlSchema.structure.ElementWithContent", "jetbrains.mps.xmlSchema.structure.ElementWithType", "jetbrains.mps.xmlSchema.structure.EntityBlock", "jetbrains.mps.xmlSchema.structure.EntityDeclaration", "jetbrains.mps.xmlSchema.structure.EntityLine", "jetbrains.mps.xmlSchema.structure.EntitySet", "jetbrains.mps.xmlSchema.structure.Extension", "jetbrains.mps.xmlSchema.structure.GroupDeclaration", "jetbrains.mps.xmlSchema.structure.GroupExpression", "jetbrains.mps.xmlSchema.structure.GroupReference", "jetbrains.mps.xmlSchema.structure.IntegerSchemaType", "jetbrains.mps.xmlSchema.structure.MaxOccursExpression", "jetbrains.mps.xmlSchema.structure.MixedAttribute", "jetbrains.mps.xmlSchema.structure.NamespaceDeclaration", "jetbrains.mps.xmlSchema.structure.OccursAttribute", "jetbrains.mps.xmlSchema.structure.Schema", "jetbrains.mps.xmlSchema.structure.SchemaComment", "jetbrains.mps.xmlSchema.structure.SchemaType", "jetbrains.mps.xmlSchema.structure.Sequence", "jetbrains.mps.xmlSchema.structure.SimpleContent", "jetbrains.mps.xmlSchema.structure.StringSchemaType", "jetbrains.mps.xmlSchema.structure.TextLine", "jetbrains.mps.xmlSchema.structure.TypeExpression", "jetbrains.mps.xmlSchema.structure.TypeExpressionList", "jetbrains.mps.xmlSchema.structure.UnboundExpression", "jetbrains.mps.xmlSchema.structure.UseAttribute"};
 }

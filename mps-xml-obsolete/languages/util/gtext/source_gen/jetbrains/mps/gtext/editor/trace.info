@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="EditorAspectDescriptorImpl.java" startLine="14" startPosition="0" endLine="67" endPosition="0" unitName="jetbrains.mps.gtext.editor.EditorAspectDescriptorImpl" />
+  <unitInfo fileName="EditorAspectDescriptorImpl.java" startLine="13" startPosition="0" endLine="63" endPosition="0" unitName="jetbrains.mps.gtext.editor.EditorAspectDescriptorImpl" />
   <root nodeRef="r:00000000-0000-4000-0000-011c89590572(jetbrains.mps.gtext.editor)/1164413046327">
     <nodeInfo nodeId="1164413046327" fileName="GText_Editor.java" startLine="21" startPosition="79" endLine="22" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1166929205411" fileName="GText_Editor.java" startLine="25" startPosition="87" endLine="26" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
