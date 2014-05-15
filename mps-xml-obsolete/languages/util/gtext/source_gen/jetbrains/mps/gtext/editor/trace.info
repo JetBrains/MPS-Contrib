@@ -55,257 +55,254 @@
     <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="38" startPosition="12" endLine="39" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="40" startPosition="5" endLine="41" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="42" startPosition="26" endLine="43" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="44" startPosition="12" endLine="45" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="46" startPosition="5" endLine="47" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1188506191325" fileName="GItemList_Editor.java" startLine="50" startPosition="96" endLine="51" endPosition="115" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="54" startPosition="90" endLine="55" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="55" startPosition="96" endLine="56" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="56" startPosition="49" endLine="57" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="57" startPosition="35" endLine="58" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="57" startPosition="35" endLine="58" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="58" startPosition="82" endLine="59" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="58" startPosition="82" endLine="59" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="59" startPosition="85" endLine="60" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1184873034765" fileName="GItemList_Editor.java" startLine="63" startPosition="89" endLine="64" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1184873034765" fileName="GItemList_Editor.java" startLine="64" startPosition="87" endLine="65" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1184873034765" fileName="GItemList_Editor.java" startLine="65" startPosition="48" endLine="66" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1184873034765" fileName="GItemList_Editor.java" startLine="66" startPosition="34" endLine="67" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1184873034765" fileName="GItemList_Editor.java" startLine="67" startPosition="102" endLine="68" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1184873034765" fileName="GItemList_Editor.java" startLine="68" startPosition="60" endLine="69" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1184873034765" fileName="GItemList_Editor.java" startLine="69" startPosition="40" endLine="70" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1184873034765" fileName="GItemList_Editor.java" startLine="70" startPosition="34" endLine="71" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="74" startPosition="92" endLine="75" endPosition="115" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="75" startPosition="115" endLine="76" endPosition="106" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="76" startPosition="106" endLine="77" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="77" startPosition="45" endLine="78" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="78" startPosition="34" endLine="79" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="79" startPosition="58" endLine="80" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="80" startPosition="69" endLine="81" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="81" startPosition="60" endLine="82" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="82" startPosition="40" endLine="83" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="83" startPosition="49" endLine="84" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="88" startPosition="97" endLine="89" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="92" startPosition="66" endLine="93" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="93" startPosition="41" endLine="94" endPosition="93" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="97" startPosition="86" endLine="98" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="98" startPosition="80" endLine="99" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="99" startPosition="95" endLine="100" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="103" startPosition="68" endLine="104" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="104" startPosition="34" endLine="105" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="105" startPosition="55" endLine="106" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="106" startPosition="87" endLine="107" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="111" startPosition="96" endLine="112" endPosition="134" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="113" startPosition="34" endLine="114" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="116" startPosition="131" endLine="117" endPosition="139" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="123" startPosition="92" endLine="124" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="124" startPosition="96" endLine="125" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="125" startPosition="51" endLine="126" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="126" startPosition="35" endLine="127" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="126" startPosition="35" endLine="127" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="127" startPosition="84" endLine="128" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="127" startPosition="84" endLine="128" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="128" startPosition="87" endLine="129" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1184872998714" fileName="GItemList_Editor.java" startLine="132" startPosition="91" endLine="133" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1184872998714" fileName="GItemList_Editor.java" startLine="133" startPosition="87" endLine="134" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1184872998714" fileName="GItemList_Editor.java" startLine="134" startPosition="50" endLine="135" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1184872998714" fileName="GItemList_Editor.java" startLine="135" startPosition="34" endLine="136" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1184872998714" fileName="GItemList_Editor.java" startLine="136" startPosition="102" endLine="137" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1184872998714" fileName="GItemList_Editor.java" startLine="137" startPosition="40" endLine="138" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1184872998714" fileName="GItemList_Editor.java" startLine="138" startPosition="34" endLine="139" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="142" startPosition="94" endLine="143" endPosition="117" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="143" startPosition="117" endLine="144" endPosition="106" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="144" startPosition="106" endLine="145" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="145" startPosition="47" endLine="146" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="146" startPosition="49" endLine="147" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="151" startPosition="99" endLine="152" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="155" startPosition="66" endLine="156" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="156" startPosition="41" endLine="157" endPosition="93" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="160" startPosition="86" endLine="161" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="161" startPosition="80" endLine="162" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="162" startPosition="95" endLine="163" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="166" startPosition="68" endLine="167" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="167" startPosition="34" endLine="168" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="168" startPosition="55" endLine="169" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="169" startPosition="87" endLine="170" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="174" startPosition="96" endLine="175" endPosition="134" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="176" startPosition="34" endLine="177" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="179" startPosition="131" endLine="180" endPosition="139" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="44" startPosition="5" endLine="45" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1188506191325" fileName="GItemList_Editor.java" startLine="48" startPosition="96" endLine="49" endPosition="115" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="52" startPosition="90" endLine="53" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="53" startPosition="96" endLine="54" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="54" startPosition="49" endLine="55" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="55" startPosition="35" endLine="56" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="55" startPosition="35" endLine="56" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="56" startPosition="82" endLine="57" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="56" startPosition="82" endLine="57" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="57" startPosition="85" endLine="58" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1184873034765" fileName="GItemList_Editor.java" startLine="61" startPosition="89" endLine="62" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1184873034765" fileName="GItemList_Editor.java" startLine="62" startPosition="87" endLine="63" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1184873034765" fileName="GItemList_Editor.java" startLine="63" startPosition="48" endLine="64" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1184873034765" fileName="GItemList_Editor.java" startLine="64" startPosition="34" endLine="65" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1184873034765" fileName="GItemList_Editor.java" startLine="65" startPosition="102" endLine="66" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1184873034765" fileName="GItemList_Editor.java" startLine="66" startPosition="60" endLine="67" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1184873034765" fileName="GItemList_Editor.java" startLine="67" startPosition="40" endLine="68" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1184873034765" fileName="GItemList_Editor.java" startLine="68" startPosition="34" endLine="69" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="72" startPosition="92" endLine="73" endPosition="115" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="73" startPosition="115" endLine="74" endPosition="106" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="74" startPosition="106" endLine="75" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="75" startPosition="45" endLine="76" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="76" startPosition="34" endLine="77" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="77" startPosition="58" endLine="78" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="78" startPosition="69" endLine="79" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="79" startPosition="60" endLine="80" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="80" startPosition="40" endLine="81" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="81" startPosition="49" endLine="82" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="86" startPosition="97" endLine="87" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="90" startPosition="66" endLine="91" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="91" startPosition="41" endLine="92" endPosition="93" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="95" startPosition="86" endLine="96" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="96" startPosition="80" endLine="97" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="97" startPosition="95" endLine="98" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="101" startPosition="68" endLine="102" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="102" startPosition="34" endLine="103" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="103" startPosition="55" endLine="104" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="104" startPosition="87" endLine="105" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="109" startPosition="96" endLine="110" endPosition="134" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="111" startPosition="34" endLine="112" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="114" startPosition="131" endLine="115" endPosition="139" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="121" startPosition="92" endLine="122" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="122" startPosition="96" endLine="123" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="123" startPosition="51" endLine="124" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="124" startPosition="35" endLine="125" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="124" startPosition="35" endLine="125" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="125" startPosition="84" endLine="126" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="125" startPosition="84" endLine="126" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="126" startPosition="87" endLine="127" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1184872998714" fileName="GItemList_Editor.java" startLine="130" startPosition="91" endLine="131" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1184872998714" fileName="GItemList_Editor.java" startLine="131" startPosition="87" endLine="132" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1184872998714" fileName="GItemList_Editor.java" startLine="132" startPosition="50" endLine="133" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1184872998714" fileName="GItemList_Editor.java" startLine="133" startPosition="34" endLine="134" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1184872998714" fileName="GItemList_Editor.java" startLine="134" startPosition="102" endLine="135" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1184872998714" fileName="GItemList_Editor.java" startLine="135" startPosition="40" endLine="136" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1184872998714" fileName="GItemList_Editor.java" startLine="136" startPosition="34" endLine="137" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="140" startPosition="94" endLine="141" endPosition="117" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="141" startPosition="117" endLine="142" endPosition="106" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="142" startPosition="106" endLine="143" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="143" startPosition="47" endLine="144" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="144" startPosition="49" endLine="145" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="149" startPosition="99" endLine="150" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="153" startPosition="66" endLine="154" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="154" startPosition="41" endLine="155" endPosition="93" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="158" startPosition="86" endLine="159" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="159" startPosition="80" endLine="160" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="160" startPosition="95" endLine="161" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="164" startPosition="68" endLine="165" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="165" startPosition="34" endLine="166" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="166" startPosition="55" endLine="167" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="167" startPosition="87" endLine="168" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="172" startPosition="96" endLine="173" endPosition="134" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="174" startPosition="34" endLine="175" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="177" startPosition="131" endLine="178" endPosition="139" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="38" startPosition="10" endLine="40" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="44" startPosition="10" endLine="46" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="28" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="1184872993738" fileName="GItemList_Editor.java" startLine="50" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="renderingCondition_39hcsa_a0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="88" startPosition="0" endLine="91" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="itemListHandler_39hcsa_b0a#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="112" startPosition="134" endLine="115" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="115" startPosition="9" endLine="118" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="151" startPosition="0" endLine="154" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="itemListHandler_39hcsa_b0a_0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="175" startPosition="134" endLine="178" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="178" startPosition="9" endLine="181" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="92" startPosition="0" endLine="96" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNodeToInsert#(Ljetbrains/mps/openapi/editor/EditorContext;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="155" startPosition="0" endLine="159" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNodeToInsert#(Ljetbrains/mps/openapi/editor/EditorContext;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="41" startPosition="67" endLine="44" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1184872993738" fileName="GItemList_Editor.java" startLine="48" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="renderingCondition_39hcsa_a0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="86" startPosition="0" endLine="89" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="itemListHandler_39hcsa_b0a#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="110" startPosition="134" endLine="113" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="113" startPosition="9" endLine="116" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="149" startPosition="0" endLine="152" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="itemListHandler_39hcsa_b0a_0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="173" startPosition="134" endLine="176" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="176" startPosition="9" endLine="179" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="90" startPosition="0" endLine="94" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNodeToInsert#(Ljetbrains/mps/openapi/editor/EditorContext;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="153" startPosition="0" endLine="157" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNodeToInsert#(Ljetbrains/mps/openapi/editor/EditorContext;)Lorg/jetbrains/mps/openapi/model/SNode;" />
     <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="35" startPosition="33" endLine="40" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="41" startPosition="67" endLine="46" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="97" startPosition="0" endLine="102" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNodeCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="160" startPosition="0" endLine="165" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNodeCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="103" startPosition="0" endLine="109" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEmptyCell#(Ljetbrains/mps/openapi/editor/EditorContext;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="166" startPosition="0" endLine="172" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEmptyCell#(Ljetbrains/mps/openapi/editor/EditorContext;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="142" startPosition="0" endLine="149" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createRefNodeList_39hcsa_b0a_0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="54" startPosition="0" endLine="62" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_39hcsa_a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="123" startPosition="0" endLine="131" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_39hcsa_a0_0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="110" startPosition="132" endLine="119" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1184872998714" fileName="GItemList_Editor.java" startLine="132" startPosition="0" endLine="141" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_39hcsa_a0a_0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="173" startPosition="132" endLine="182" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1184873034765" fileName="GItemList_Editor.java" startLine="63" startPosition="0" endLine="73" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_39hcsa_a0a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="110" startPosition="0" endLine="121" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="installElementCellActions#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/cells/EditorCell;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="173" startPosition="0" endLine="184" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="installElementCellActions#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/cells/EditorCell;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="74" startPosition="0" endLine="86" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createRefNodeList_39hcsa_b0a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="32" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createAlternation_39hcsa_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="95" startPosition="0" endLine="100" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNodeCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="158" startPosition="0" endLine="163" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNodeCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="101" startPosition="0" endLine="107" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEmptyCell#(Ljetbrains/mps/openapi/editor/EditorContext;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="164" startPosition="0" endLine="170" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEmptyCell#(Ljetbrains/mps/openapi/editor/EditorContext;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="140" startPosition="0" endLine="147" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createRefNodeList_39hcsa_b0a_0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="52" startPosition="0" endLine="60" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_39hcsa_a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="121" startPosition="0" endLine="129" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_39hcsa_a0_0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="108" startPosition="132" endLine="117" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1184872998714" fileName="GItemList_Editor.java" startLine="130" startPosition="0" endLine="139" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_39hcsa_a0a_0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="171" startPosition="132" endLine="180" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1184873034765" fileName="GItemList_Editor.java" startLine="61" startPosition="0" endLine="71" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_39hcsa_a0a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="108" startPosition="0" endLine="119" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="installElementCellActions#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/cells/EditorCell;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="171" startPosition="0" endLine="182" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="installElementCellActions#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/cells/EditorCell;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="72" startPosition="0" endLine="84" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createRefNodeList_39hcsa_b0a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="32" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createAlternation_39hcsa_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
     <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="28" startPosition="79" endLine="29" endPosition="64" />
     <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="36" startPosition="31" endLine="37" endPosition="72" />
     <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="38" startPosition="12" endLine="39" endPosition="74" />
     <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="42" startPosition="26" endLine="43" endPosition="27" />
-    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="44" startPosition="12" endLine="45" endPosition="55" />
-    <scopeInfo nodeId="1184872993739" fileName="GItemList_Editor.java" startLine="50" startPosition="96" endLine="51" endPosition="115" />
-    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="57" startPosition="35" endLine="58" endPosition="82" />
-    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="58" startPosition="82" endLine="59" endPosition="85" />
-    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="88" startPosition="97" endLine="89" endPosition="50" />
-    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="113" startPosition="34" endLine="114" endPosition="95" />
-    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="116" startPosition="131" endLine="117" endPosition="139" />
-    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="126" startPosition="35" endLine="127" endPosition="84" />
-    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="127" startPosition="84" endLine="128" endPosition="87" />
-    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="151" startPosition="99" endLine="152" endPosition="50" />
-    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="176" startPosition="34" endLine="177" endPosition="95" />
-    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="179" startPosition="131" endLine="180" endPosition="139" />
-    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="92" startPosition="66" endLine="94" endPosition="93">
+    <scopeInfo nodeId="1184872993739" fileName="GItemList_Editor.java" startLine="48" startPosition="96" endLine="49" endPosition="115" />
+    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="55" startPosition="35" endLine="56" endPosition="82" />
+    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="56" startPosition="82" endLine="57" endPosition="85" />
+    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="86" startPosition="97" endLine="87" endPosition="50" />
+    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="111" startPosition="34" endLine="112" endPosition="95" />
+    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="114" startPosition="131" endLine="115" endPosition="139" />
+    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="124" startPosition="35" endLine="125" endPosition="84" />
+    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="125" startPosition="84" endLine="126" endPosition="87" />
+    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="149" startPosition="99" endLine="150" endPosition="50" />
+    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="174" startPosition="34" endLine="175" endPosition="95" />
+    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="177" startPosition="131" endLine="178" endPosition="139" />
+    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="90" startPosition="66" endLine="92" endPosition="93">
       <varInfo nodeId="1164413081741" varName="listOwner" />
     </scopeInfo>
-    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="155" startPosition="66" endLine="157" endPosition="93">
+    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="153" startPosition="66" endLine="155" endPosition="93">
       <varInfo nodeId="1164413081741" varName="listOwner" />
     </scopeInfo>
     <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="28" startPosition="0" endLine="31" endPosition="0">
       <varInfo nodeId="1164413081741" varName="editorContext" />
       <varInfo nodeId="1164413081741" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="1184872993738" fileName="GItemList_Editor.java" startLine="50" startPosition="0" endLine="53" endPosition="0">
+    <scopeInfo nodeId="1184872993738" fileName="GItemList_Editor.java" startLine="48" startPosition="0" endLine="51" endPosition="0">
       <varInfo nodeId="1184872993738" varName="editorContext" />
       <varInfo nodeId="1184872993738" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="88" startPosition="0" endLine="91" endPosition="0">
+    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="86" startPosition="0" endLine="89" endPosition="0">
       <varInfo nodeId="1164413081741" varName="childRole" />
       <varInfo nodeId="1164413081741" varName="context" />
       <varInfo nodeId="1164413081741" varName="ownerNode" />
     </scopeInfo>
-    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="97" startPosition="86" endLine="100" endPosition="25">
+    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="95" startPosition="86" endLine="98" endPosition="25">
       <varInfo nodeId="1164413081741" varName="elementCell" />
     </scopeInfo>
-    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="151" startPosition="0" endLine="154" endPosition="0">
+    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="149" startPosition="0" endLine="152" endPosition="0">
       <varInfo nodeId="1164413081741" varName="childRole" />
       <varInfo nodeId="1164413081741" varName="context" />
       <varInfo nodeId="1164413081741" varName="ownerNode" />
     </scopeInfo>
-    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="160" startPosition="86" endLine="163" endPosition="25">
+    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="158" startPosition="86" endLine="161" endPosition="25">
       <varInfo nodeId="1164413081741" varName="elementCell" />
     </scopeInfo>
-    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="92" startPosition="0" endLine="96" endPosition="0">
+    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="90" startPosition="0" endLine="94" endPosition="0">
       <varInfo nodeId="1164413081741" varName="editorContext" />
     </scopeInfo>
-    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="103" startPosition="68" endLine="107" endPosition="23">
+    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="101" startPosition="68" endLine="105" endPosition="23">
       <varInfo nodeId="1164413081741" varName="emptyCell" />
     </scopeInfo>
-    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="155" startPosition="0" endLine="159" endPosition="0">
+    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="153" startPosition="0" endLine="157" endPosition="0">
       <varInfo nodeId="1164413081741" varName="editorContext" />
     </scopeInfo>
-    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="166" startPosition="68" endLine="170" endPosition="23">
+    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="164" startPosition="68" endLine="168" endPosition="23">
       <varInfo nodeId="1164413081741" varName="emptyCell" />
     </scopeInfo>
-    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="97" startPosition="0" endLine="102" endPosition="0">
+    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="95" startPosition="0" endLine="100" endPosition="0">
       <varInfo nodeId="1164413081741" varName="editorContext" />
       <varInfo nodeId="1164413081741" varName="elementNode" />
     </scopeInfo>
-    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="142" startPosition="94" endLine="147" endPosition="22">
+    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="140" startPosition="94" endLine="145" endPosition="22">
       <varInfo nodeId="1164413081741" varName="editorCell" />
       <varInfo nodeId="1164413081741" varName="handler" />
     </scopeInfo>
-    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="160" startPosition="0" endLine="165" endPosition="0">
+    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="158" startPosition="0" endLine="163" endPosition="0">
       <varInfo nodeId="1164413081741" varName="editorContext" />
       <varInfo nodeId="1164413081741" varName="elementNode" />
     </scopeInfo>
-    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="54" startPosition="90" endLine="60" endPosition="22">
+    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="52" startPosition="90" endLine="58" endPosition="22">
       <varInfo nodeId="1164413081741" varName="editorCell" />
     </scopeInfo>
-    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="103" startPosition="0" endLine="109" endPosition="0">
+    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="101" startPosition="0" endLine="107" endPosition="0">
       <varInfo nodeId="1164413081741" varName="editorContext" />
     </scopeInfo>
-    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="123" startPosition="92" endLine="129" endPosition="22">
+    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="121" startPosition="92" endLine="127" endPosition="22">
       <varInfo nodeId="1164413081741" varName="editorCell" />
     </scopeInfo>
-    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="166" startPosition="0" endLine="172" endPosition="0">
+    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="164" startPosition="0" endLine="170" endPosition="0">
       <varInfo nodeId="1164413081741" varName="editorContext" />
     </scopeInfo>
-    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="111" startPosition="96" endLine="118" endPosition="9" />
-    <scopeInfo nodeId="1184872998714" fileName="GItemList_Editor.java" startLine="132" startPosition="91" endLine="139" endPosition="22">
+    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="109" startPosition="96" endLine="116" endPosition="9" />
+    <scopeInfo nodeId="1184872998714" fileName="GItemList_Editor.java" startLine="130" startPosition="91" endLine="137" endPosition="22">
       <varInfo nodeId="1184872998714" varName="editorCell" />
       <varInfo nodeId="1184872998714" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="142" startPosition="0" endLine="149" endPosition="0">
+    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="140" startPosition="0" endLine="147" endPosition="0">
       <varInfo nodeId="1164413081741" varName="editorContext" />
       <varInfo nodeId="1164413081741" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="174" startPosition="96" endLine="181" endPosition="9" />
-    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="54" startPosition="0" endLine="62" endPosition="0">
+    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="172" startPosition="96" endLine="179" endPosition="9" />
+    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="52" startPosition="0" endLine="60" endPosition="0">
       <varInfo nodeId="1164413081741" varName="editorContext" />
       <varInfo nodeId="1164413081741" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="1184873034765" fileName="GItemList_Editor.java" startLine="63" startPosition="89" endLine="71" endPosition="22">
+    <scopeInfo nodeId="1184873034765" fileName="GItemList_Editor.java" startLine="61" startPosition="89" endLine="69" endPosition="22">
       <varInfo nodeId="1184873034765" varName="editorCell" />
       <varInfo nodeId="1184873034765" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="123" startPosition="0" endLine="131" endPosition="0">
+    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="121" startPosition="0" endLine="129" endPosition="0">
       <varInfo nodeId="1164413081741" varName="editorContext" />
       <varInfo nodeId="1164413081741" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="110" startPosition="132" endLine="119" endPosition="7" />
-    <scopeInfo nodeId="1184872998714" fileName="GItemList_Editor.java" startLine="132" startPosition="0" endLine="141" endPosition="0">
+    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="108" startPosition="132" endLine="117" endPosition="7" />
+    <scopeInfo nodeId="1184872998714" fileName="GItemList_Editor.java" startLine="130" startPosition="0" endLine="139" endPosition="0">
       <varInfo nodeId="1184872998714" varName="editorContext" />
       <varInfo nodeId="1184872998714" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="173" startPosition="132" endLine="182" endPosition="7" />
-    <scopeInfo nodeId="1184873034765" fileName="GItemList_Editor.java" startLine="63" startPosition="0" endLine="73" endPosition="0">
+    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="171" startPosition="132" endLine="180" endPosition="7" />
+    <scopeInfo nodeId="1184873034765" fileName="GItemList_Editor.java" startLine="61" startPosition="0" endLine="71" endPosition="0">
       <varInfo nodeId="1184873034765" varName="editorContext" />
       <varInfo nodeId="1184873034765" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="74" startPosition="92" endLine="84" endPosition="22">
+    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="72" startPosition="92" endLine="82" endPosition="22">
       <varInfo nodeId="1164413081741" varName="editorCell" />
       <varInfo nodeId="1164413081741" varName="handler" />
       <varInfo nodeId="1164413081741" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="110" startPosition="0" endLine="121" endPosition="0">
+    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="108" startPosition="0" endLine="119" endPosition="0">
       <varInfo nodeId="1164413081741" varName="editorContext" />
       <varInfo nodeId="1164413081741" varName="elementCell" />
       <varInfo nodeId="1164413081741" varName="elementNode" />
       <varInfo nodeId="1164413081741" varName="listOwner" />
     </scopeInfo>
-    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="173" startPosition="0" endLine="184" endPosition="0">
+    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="171" startPosition="0" endLine="182" endPosition="0">
       <varInfo nodeId="1164413081741" varName="editorContext" />
       <varInfo nodeId="1164413081741" varName="elementCell" />
       <varInfo nodeId="1164413081741" varName="elementNode" />
       <varInfo nodeId="1164413081741" varName="listOwner" />
     </scopeInfo>
-    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="74" startPosition="0" endLine="86" endPosition="0">
+    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="72" startPosition="0" endLine="84" endPosition="0">
       <varInfo nodeId="1164413081741" varName="editorContext" />
       <varInfo nodeId="1164413081741" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="32" startPosition="90" endLine="47" endPosition="22">
+    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="32" startPosition="90" endLine="45" endPosition="22">
       <varInfo nodeId="1164413081741" varName="alternationCondition" />
       <varInfo nodeId="1164413081741" varName="bigCell" />
       <varInfo nodeId="1164413081741" varName="editorCell" />
     </scopeInfo>
-    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="32" startPosition="0" endLine="49" endPosition="0">
+    <scopeInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="32" startPosition="0" endLine="47" endPosition="0">
       <varInfo nodeId="1164413081741" varName="editorContext" />
       <varInfo nodeId="1164413081741" varName="node" />
     </scopeInfo>
-    <unitInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="87" startPosition="0" endLine="122" endPosition="0" unitName="jetbrains.mps.gtext.editor.GItemList_Editor$itemListHandler_39hcsa_b0a" />
-    <unitInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="150" startPosition="0" endLine="185" endPosition="0" unitName="jetbrains.mps.gtext.editor.GItemList_Editor$itemListHandler_39hcsa_b0a_0" />
-    <unitInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="27" startPosition="0" endLine="186" endPosition="0" unitName="jetbrains.mps.gtext.editor.GItemList_Editor" />
+    <unitInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="85" startPosition="0" endLine="120" endPosition="0" unitName="jetbrains.mps.gtext.editor.GItemList_Editor$itemListHandler_39hcsa_b0a" />
+    <unitInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="148" startPosition="0" endLine="183" endPosition="0" unitName="jetbrains.mps.gtext.editor.GItemList_Editor$itemListHandler_39hcsa_b0a_0" />
+    <unitInfo nodeId="1164413081741" fileName="GItemList_Editor.java" startLine="27" startPosition="0" endLine="184" endPosition="0" unitName="jetbrains.mps.gtext.editor.GItemList_Editor" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c89590572(jetbrains.mps.gtext.editor)/1164413184980">
     <nodeInfo nodeId="1164413184980" fileName="GNewLine_Editor.java" startLine="17" startPosition="79" endLine="18" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -1042,32 +1039,29 @@
     <nodeInfo nodeId="2886182022232400452" fileName="BuilderContextRef_Editor.java" startLine="19" startPosition="88" endLine="20" endPosition="131" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="2886182022232400452" fileName="BuilderContextRef_Editor.java" startLine="20" startPosition="131" endLine="21" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="2886182022232400452" fileName="BuilderContextRef_Editor.java" startLine="22" startPosition="26" endLine="23" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2886182022232400452" fileName="BuilderContextRef_Editor.java" startLine="24" startPosition="12" endLine="25" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
-    <nodeInfo nodeId="2886182022232400452" fileName="BuilderContextRef_Editor.java" startLine="26" startPosition="5" endLine="27" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2886182022232400452" fileName="BuilderContextRef_Editor.java" startLine="27" startPosition="34" endLine="28" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2886182022232400452" fileName="BuilderContextRef_Editor.java" startLine="28" startPosition="73" endLine="29" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2886182022232400452" fileName="BuilderContextRef_Editor.java" startLine="29" startPosition="40" endLine="30" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2886182022232400452" fileName="BuilderContextRef_Editor.java" startLine="24" startPosition="10" endLine="26" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="2886182022232400452" fileName="BuilderContextRef_Editor.java" startLine="24" startPosition="5" endLine="25" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2886182022232400452" fileName="BuilderContextRef_Editor.java" startLine="25" startPosition="34" endLine="26" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2886182022232400452" fileName="BuilderContextRef_Editor.java" startLine="26" startPosition="73" endLine="27" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2886182022232400452" fileName="BuilderContextRef_Editor.java" startLine="27" startPosition="40" endLine="28" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1181754781780" fileName="BuilderContextRef_Editor.java" startLine="15" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="2886182022232400452" fileName="BuilderContextRef_Editor.java" startLine="21" startPosition="67" endLine="26" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="2886182022232400452" fileName="BuilderContextRef_Editor.java" startLine="19" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_t5218m_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="2886182022232400452" fileName="BuilderContextRef_Editor.java" startLine="21" startPosition="67" endLine="24" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="2886182022232400452" fileName="BuilderContextRef_Editor.java" startLine="19" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_t5218m_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
     <scopeInfo nodeId="1181754781780" fileName="BuilderContextRef_Editor.java" startLine="15" startPosition="79" endLine="16" endPosition="62" />
     <scopeInfo nodeId="2886182022232400452" fileName="BuilderContextRef_Editor.java" startLine="22" startPosition="26" endLine="23" endPosition="27" />
-    <scopeInfo nodeId="2886182022232400452" fileName="BuilderContextRef_Editor.java" startLine="24" startPosition="12" endLine="25" endPosition="55" />
     <scopeInfo nodeId="1181754781780" fileName="BuilderContextRef_Editor.java" startLine="15" startPosition="0" endLine="18" endPosition="0">
       <varInfo nodeId="1181754781780" varName="editorContext" />
       <varInfo nodeId="1181754781780" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="2886182022232400452" fileName="BuilderContextRef_Editor.java" startLine="19" startPosition="88" endLine="30" endPosition="22">
+    <scopeInfo nodeId="2886182022232400452" fileName="BuilderContextRef_Editor.java" startLine="19" startPosition="88" endLine="28" endPosition="22">
       <varInfo nodeId="2886182022232400452" varName="bigCell" />
       <varInfo nodeId="2886182022232400452" varName="editorCell" />
       <varInfo nodeId="2886182022232400452" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="2886182022232400452" fileName="BuilderContextRef_Editor.java" startLine="19" startPosition="0" endLine="32" endPosition="0">
+    <scopeInfo nodeId="2886182022232400452" fileName="BuilderContextRef_Editor.java" startLine="19" startPosition="0" endLine="30" endPosition="0">
       <varInfo nodeId="2886182022232400452" varName="editorContext" />
       <varInfo nodeId="2886182022232400452" varName="node" />
     </scopeInfo>
-    <unitInfo nodeId="1181754781780" fileName="BuilderContextRef_Editor.java" startLine="14" startPosition="0" endLine="33" endPosition="0" unitName="jetbrains.mps.gtext.editor.BuilderContextRef_Editor" />
+    <unitInfo nodeId="1181754781780" fileName="BuilderContextRef_Editor.java" startLine="14" startPosition="0" endLine="31" endPosition="0" unitName="jetbrains.mps.gtext.editor.BuilderContextRef_Editor" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c89590572(jetbrains.mps.gtext.editor)/1184639569381">
     <nodeInfo nodeId="1184639569381" fileName="GDocument_Editor.java" startLine="28" startPosition="79" endLine="29" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />

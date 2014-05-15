@@ -137,8 +137,6 @@ public class RunConfigExecutionParameterDeclaration_Editor extends DefaultNodeEd
     EditorCell bigCell = BigCellUtil.findBigCell(editorCell, node);
     if (bigCell != null) {
       bigCell.setBig(true);
-    } else {
-      throw new RuntimeException("No big cell found!");
     }
     return editorCell;
   }
