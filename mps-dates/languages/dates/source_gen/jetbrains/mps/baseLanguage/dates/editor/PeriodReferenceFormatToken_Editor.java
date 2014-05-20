@@ -51,6 +51,10 @@ public class PeriodReferenceFormatToken_Editor extends DefaultNodeEditor {
     EditorCell editorCell;
     provider.setAuxiliaryCellProvider(new PeriodReferenceFormatToken_Editor._Inline_kfljbu_a1a());
     editorCell = provider.createEditorCell(editorContext);
+    if (editorCell.getRole() == null) {
+      editorCell.setReferenceCell(true);
+      editorCell.setRole("format");
+    }
     Style style = new StyleImpl();
     style.set(StyleAttributes.LAYOUT_CONSTRAINT, "punctuation");
     editorCell.getStyle().putAll(style);
@@ -86,10 +90,6 @@ public class PeriodReferenceFormatToken_Editor extends DefaultNodeEditor {
       EditorCell editorCell;
       editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("property_name");
-      if (editorCell.getRole() == null) {
-        editorCell.setReferenceCell(true);
-        editorCell.setRole("format");
-      }
       Style style = new StyleImpl();
       Dates_StyleSheet.apply_DateFormat(style, editorCell);
       editorCell.getStyle().putAll(style);

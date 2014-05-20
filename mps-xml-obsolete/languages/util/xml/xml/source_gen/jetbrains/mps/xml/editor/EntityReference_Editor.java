@@ -50,6 +50,10 @@ public class EntityReference_Editor extends DefaultNodeEditor {
     EditorCell editorCell;
     provider.setAuxiliaryCellProvider(new EntityReference_Editor._Inline_jj82vm_a1a());
     editorCell = provider.createEditorCell(editorContext);
+    if (editorCell.getRole() == null) {
+      editorCell.setReferenceCell(true);
+      editorCell.setRole("entityDeclaration");
+    }
     Style style = new StyleImpl();
     style.set(StyleAttributes.LAYOUT_CONSTRAINT, "punctuation");
     editorCell.getStyle().putAll(style);
@@ -85,10 +89,6 @@ public class EntityReference_Editor extends DefaultNodeEditor {
       EditorCell editorCell;
       editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("property_entityName");
-      if (editorCell.getRole() == null) {
-        editorCell.setReferenceCell(true);
-        editorCell.setRole("entityDeclaration");
-      }
       Style style = new StyleImpl();
       XmlStyle_StyleSheet.apply_XmlEntity(style, editorCell);
       editorCell.getStyle().putAll(style);

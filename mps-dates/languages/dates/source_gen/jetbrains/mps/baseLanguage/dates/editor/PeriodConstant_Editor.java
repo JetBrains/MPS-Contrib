@@ -83,6 +83,10 @@ public class PeriodConstant_Editor extends DefaultNodeEditor {
     EditorCell editorCell;
     provider.setAuxiliaryCellProvider(new PeriodConstant_Editor._Inline_x7xgz7_a0b0());
     editorCell = provider.createEditorCell(editorContext);
+    if (editorCell.getRole() == null) {
+      editorCell.setReferenceCell(true);
+      editorCell.setRole("dateTimeProperty");
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -115,10 +119,6 @@ public class PeriodConstant_Editor extends DefaultNodeEditor {
       EditorCell editorCell;
       editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("property_pluralForm");
-      if (editorCell.getRole() == null) {
-        editorCell.setReferenceCell(true);
-        editorCell.setRole("dateTimeProperty");
-      }
       Style style = new StyleImpl();
       Dates_StyleSheet.apply_DateProperty(style, editorCell);
       style.set(StyleAttributes.AUTO_DELETABLE, true);
@@ -142,6 +142,10 @@ public class PeriodConstant_Editor extends DefaultNodeEditor {
     EditorCell editorCell;
     provider.setAuxiliaryCellProvider(new PeriodConstant_Editor._Inline_x7xgz7_a0b0_0());
     editorCell = provider.createEditorCell(editorContext);
+    if (editorCell.getRole() == null) {
+      editorCell.setReferenceCell(true);
+      editorCell.setRole("dateTimeProperty");
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -174,10 +178,6 @@ public class PeriodConstant_Editor extends DefaultNodeEditor {
       EditorCell editorCell;
       editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("property_name");
-      if (editorCell.getRole() == null) {
-        editorCell.setReferenceCell(true);
-        editorCell.setRole("dateTimeProperty");
-      }
       Style style = new StyleImpl();
       Dates_StyleSheet.apply_DateProperty(style, editorCell);
       style.set(StyleAttributes.AUTO_DELETABLE, true);

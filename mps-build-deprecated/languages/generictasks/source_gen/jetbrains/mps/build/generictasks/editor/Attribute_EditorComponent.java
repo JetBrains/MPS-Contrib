@@ -53,6 +53,10 @@ public class Attribute_EditorComponent implements ConceptEditorComponent {
     EditorCell editorCell;
     provider.setAuxiliaryCellProvider(new Attribute_EditorComponent._Inline_y32exi_a0a());
     editorCell = provider.createEditorCell(editorContext);
+    if (editorCell.getRole() == null) {
+      editorCell.setReferenceCell(true);
+      editorCell.setRole("attributeDeclaration");
+    }
     Style style = new StyleImpl();
     BuildLanguageStyle_StyleSheet.apply_attributeName(style, editorCell);
     editorCell.getStyle().putAll(style);
@@ -88,10 +92,6 @@ public class Attribute_EditorComponent implements ConceptEditorComponent {
       EditorCell editorCell;
       editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("AEC_property_name");
-      if (editorCell.getRole() == null) {
-        editorCell.setReferenceCell(true);
-        editorCell.setRole("attributeDeclaration");
-      }
       Style style = new StyleImpl();
       BuildLanguageStyle_StyleSheet.apply_attributeName(style, editorCell);
       editorCell.getStyle().putAll(style);
@@ -118,6 +118,10 @@ public class Attribute_EditorComponent implements ConceptEditorComponent {
     EditorCell editorCell;
     provider.setAuxiliaryCellProvider(new Attribute_EditorComponent._Inline_y32exi_a1a());
     editorCell = provider.createEditorCell(editorContext);
+    if (editorCell.getRole() == null) {
+      editorCell.setReferenceCell(true);
+      editorCell.setRole("attributeDeclaration");
+    }
     Style style = new StyleImpl();
     BuildLanguageStyle_StyleSheet.apply_depractaedAttributeName(style, editorCell);
     editorCell.getStyle().putAll(style);
@@ -153,10 +157,6 @@ public class Attribute_EditorComponent implements ConceptEditorComponent {
       EditorCell editorCell;
       editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("AEC_property_name_1");
-      if (editorCell.getRole() == null) {
-        editorCell.setReferenceCell(true);
-        editorCell.setRole("attributeDeclaration");
-      }
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();
       Class attributeKind = provider.getRoleAttributeClass();

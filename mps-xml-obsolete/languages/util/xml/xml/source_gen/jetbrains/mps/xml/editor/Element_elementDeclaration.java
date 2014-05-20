@@ -44,6 +44,10 @@ public class Element_elementDeclaration implements ConceptEditorComponent {
     EditorCell editorCell;
     provider.setAuxiliaryCellProvider(new Element_elementDeclaration._Inline_vbcaz4_a0a());
     editorCell = provider.createEditorCell(editorContext);
+    if (editorCell.getRole() == null) {
+      editorCell.setReferenceCell(true);
+      editorCell.setRole("elementDeclaration");
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -83,10 +87,6 @@ public class Element_elementDeclaration implements ConceptEditorComponent {
       }, node);
       editorCell.setAction(CellActionType.DELETE, EmptyCellAction.getInstance());
       editorCell.setCellId("ReadOnlyModelAccessor_vbcaz4_a0a0");
-      if (editorCell.getRole() == null) {
-        editorCell.setReferenceCell(true);
-        editorCell.setRole("elementDeclaration");
-      }
       return editorCell;
     }
   }

@@ -38,6 +38,10 @@ public class ElementBuilder_Editor extends DefaultNodeEditor {
     EditorCell editorCell;
     provider.setAuxiliaryCellProvider(new ElementBuilder_Editor._Inline_wmom6u_a0a());
     editorCell = provider.createEditorCell(editorContext);
+    if (editorCell.getRole() == null) {
+      editorCell.setReferenceCell(true);
+      editorCell.setRole("elementDeclaration");
+    }
     Style style = new StyleImpl();
     XmlStyle_StyleSheet.apply_XmlElement(style, editorCell);
     editorCell.getStyle().putAll(style);
@@ -73,10 +77,6 @@ public class ElementBuilder_Editor extends DefaultNodeEditor {
       EditorCell editorCell;
       editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("property_elementName");
-      if (editorCell.getRole() == null) {
-        editorCell.setReferenceCell(true);
-        editorCell.setRole("elementDeclaration");
-      }
       Style style = new StyleImpl();
       XmlStyle_StyleSheet.apply_XmlElement(style, editorCell);
       style.set(StyleAttributes.AUTO_DELETABLE, true);

@@ -39,6 +39,10 @@ public class TargetReference_Editor extends DefaultNodeEditor {
     EditorCell editorCell;
     provider.setAuxiliaryCellProvider(new TargetReference_Editor._Inline_a1n9ex_a0a());
     editorCell = provider.createEditorCell(editorContext);
+    if (editorCell.getRole() == null) {
+      editorCell.setReferenceCell(true);
+      editorCell.setRole("targetDeclaration");
+    }
     Style style = new StyleImpl();
     BuildLanguageStyle_StyleSheet.apply_target(style, editorCell);
     editorCell.getStyle().putAll(style);
@@ -74,10 +78,6 @@ public class TargetReference_Editor extends DefaultNodeEditor {
       EditorCell editorCell;
       editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("property_name");
-      if (editorCell.getRole() == null) {
-        editorCell.setReferenceCell(true);
-        editorCell.setRole("targetDeclaration");
-      }
       Style style = new StyleImpl();
       style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
       style.set(StyleAttributes.AUTO_DELETABLE, true);
