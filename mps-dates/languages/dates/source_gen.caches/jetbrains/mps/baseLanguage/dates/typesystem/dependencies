@@ -66,6 +66,7 @@
     <classNode extendsClassName="jetbrains.mps.lang.typesystem.runtime.SubtypingRule_Runtime" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.typesystem.TypesystemDescriptor" file="TypesystemDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.typesystem.DateTimeType_boxing_SubtypingRule" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.typesystem.DateTimeType_unboxing_SubtypingRule" />
@@ -112,6 +113,7 @@
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.typesystem.typeof_TimeZoneNameOperation_InferenceRule" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.typesystem.typeof_UnaryDateTimeOperation_InferenceRule" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.typesystem.typeof_WithPropertyCompareExpression_InferenceRule" />
+    <classNode dependClassName="jetbrains.mps.errors.IRuleConflictWarningProducer" />
     <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.InferenceRule_Runtime" />
     <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.NonTypesystemRule_Runtime" />
     <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.SubtypingRule_Runtime" />

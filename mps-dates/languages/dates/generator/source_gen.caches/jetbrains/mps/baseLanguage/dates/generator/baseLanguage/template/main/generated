@@ -1,3 +1,202 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-3v4tiuq29wj8rzn6a8mgqkhh0joash0" />
+<dependencies version="2" modelHash="-3v4tiuq29wj8rzn6a8mgqkhh0joash0">
+  <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
+  <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
+  <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.generator.runtime(MPS.Core/jetbrains.mps.generator.runtime@java_stub)" />
+  <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.generator.template(MPS.Core/jetbrains.mps.generator.template@java_stub)" />
+  <dep model="f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.model(MPS.OpenAPI/org.jetbrains.mps.openapi.model@java_stub)" />
+  <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="5sdbpqxziyuazpb9j1p4zdk6bnvbn49" />
+  <dep model="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" hash="-35lzf89nwborba8bafdcbq2cn8d1qbk" />
+  <dep model="r:00000000-0000-4000-0000-011c895902b7(jetbrains.mps.lang.typesystem.generator.baseLanguage.template.main@generator)" hash="-3786ipefsi9zrl9vjnicw41jbsl3tvd" />
+  <dep model="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" hash="4uvm6wafcvf3bpxp6i51qa7jxw7eou4" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="eipa2mhf4boz6q6obwq08e6c7sjzfnw" />
+  <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="303xz1b2lyseld0axia86q3lpvucmq6" />
+  <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" hash="-15uwdtf1y5pg0o0e3fc6ujv2qcw23bv" />
+  <dep model="r:00000000-0000-4000-0000-011c895902f4(jetbrains.mps.lang.generator.generationContext.generator.baseLanguage.template.main@generator)" hash="-bvnrxlw08cm6ent2z814f9sjqfl7iby" />
+  <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" hash="-8z73tx2nml9xagbxlfmq60ehji8q3f5" />
+  <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" hash="2rw431aummgwrvc6vvrvyxnd6ddlzo0" />
+  <dep model="r:00000000-0000-4000-0000-011c895903ce(jetbrains.mps.baseLanguage.dates.behavior)" hash="ad7somn1tkji0nq8vmzaassbof1n4vr" />
+  <dep model="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)" hash="bi4doc189oapq9edrj97cflczr4kixq" />
+  <dep model="r:00000000-0000-4000-0000-011c895903da(jetbrains.mps.baseLanguage.datesInternal.behavior)" hash="7jbkbt7q063dzgfidl39386vmstazc" />
+  <dep model="r:00000000-0000-4000-0000-011c895903dd(jetbrains.mps.baseLanguage.datesInternal.structure)" hash="-7u0iamfk01thtti5u0j1v7xlx8xdcr2" />
+  <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="b4ewbuz42qcbg1awca5bacgi0vopxqt" />
+  <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" hash="e5zswcvgdspmt039m3gg97emcadi0ez" />
+  <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="a8elw7fctzg6sg8fe36u9gzu42axhdb" />
+  <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" hash="-8chtguhcvj45cjy0bx3xiqekte2lox7" />
+  <common hash="-dvduijtywc4e344m0baw6l80s0q5jxs" dependsOnNodes="true">
+    <dep root="1169550125892" />
+    <dep root="1169550327580" />
+    <dep root="1169551475383" />
+    <dep root="1169553961768" />
+    <dep root="1169558091454" />
+    <dep root="1169638264524" />
+    <dep root="1169646919575" />
+    <dep root="1169647821783" />
+    <dep root="1172145375222" />
+    <dep root="1172326347243" />
+    <dep root="1172327129404" />
+    <dep root="1172327149445" />
+    <dep root="1172332406179" />
+    <dep root="1172492017024" />
+    <dep root="1172499604795" />
+    <dep root="1172501993121" />
+    <dep root="1172684437748" />
+    <dep root="1173885253101" />
+    <dep root="1173885363705" />
+    <dep root="1173967707012" />
+    <dep root="1174045772633" />
+    <dep root="1174322757200" />
+    <dep root="1174322924465" />
+    <dep root="1174385195181" />
+    <dep root="1174390375904" />
+    <dep root="1207144894043" />
+    <dep root="1207223181393" />
+    <dep root="1209037407602" />
+    <dep root="1209037432960" />
+    <dep root="1209037487736" />
+    <dep root="1209037512244" />
+    <dep root="1209037539138" />
+    <dep root="1209037556127" />
+    <dep root="1209039909796" />
+    <dep root="1238249953442" />
+    <dep root="1238857203188" />
+    <dep root="1239804357845" />
+    <dep root="1239804842313" />
+    <dep root="1379098806890585748" />
+    <dep root="1548440323223124156" />
+    <dep root="194163770812053449" />
+    <dep root="2583319411283203429" />
+    <dep root="276836602888578412" />
+    <dep root="3394771273339689767" />
+    <dep root="34521615669576970" />
+    <dep root="3627207017677900774" />
+    <dep root="4389880778953638912" />
+    <dep root="4396211440736525363" />
+    <dep root="48671598477581907" />
+    <dep root="48671598477852545" />
+    <dep root="48671598477852583" />
+    <dep root="5034322243092302197" />
+    <dep root="5074955036991702210" />
+    <dep root="5293902215864689842" />
+    <dep root="5372916090361183394" />
+    <dep root="5581663871702930719" />
+    <dep root="5969170299421360921" />
+    <dep root="6626410111396109619" />
+    <dep root="7249953535157218364" />
+    <dep root="7249953535157223315" />
+    <dep root="7517433918793153488" />
+    <dep root="779372288056195858" />
+    <dep root="8253375325060753917" />
+    <dep root="8625920436392689293" />
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
+    <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.generator.runtime(MPS.Core/jetbrains.mps.generator.runtime@java_stub)" />
+    <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.generator.template(MPS.Core/jetbrains.mps.generator.template@java_stub)" />
+    <dep model="f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.model(MPS.OpenAPI/org.jetbrains.mps.openapi.model@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902b7(jetbrains.mps.lang.typesystem.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902f4(jetbrains.mps.lang.generator.generationContext.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c895903ce(jetbrains.mps.baseLanguage.dates.behavior)" />
+    <dep model="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895903da(jetbrains.mps.baseLanguage.datesInternal.behavior)" />
+    <dep model="r:00000000-0000-4000-0000-011c895903dd(jetbrains.mps.baseLanguage.datesInternal.structure)" />
+    <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
+    <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" />
+    <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
+    <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
+    <file name="QueriesGenerated.java" />
+  </common>
+  <source id="1169550125892" name="main" hash="-8rp9vyzitg8cr4vptwb730e7bcybvaw">
+    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
+  </source>
+  <source id="1169550327580" name="FormatTable" hash="5lc6g0lg341f07muosit5ji9pb9mdww">
+    <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.generator.runtime(MPS.Core/jetbrains.mps.generator.runtime@java_stub)" />
+  </source>
+  <source id="1169551475383" name="reduce_DateFormat" hash="-dtkdbdgyffffjy0067nb2ct4q3ez9h8" />
+  <source id="1169553961768" name="reduce_LiteralFormatToken" hash="4g4kaoomou9backzu1lbi8fnok1ttc3" />
+  <source id="1169558091454" name="reduce_FormatExpression" hash="-5ombyvvroa4yn2o8a6sz2ugb40qzb6a" />
+  <source id="1169630265920" name="reduce_NowExpression" hash="-7tixr0xb5yof39v8yb4nlgzr5jpkey3" />
+  <source id="1169638264524" name="ConditionalDateTimePrinterImpl" hash="2wtpccwnoom7aq0jpsw437otd9f3t2b">
+    <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.generator.runtime(MPS.Core/jetbrains.mps.generator.runtime@java_stub)" />
+  </source>
+  <source id="1169646919575" name="reduce_ReferenceFormatToken" hash="-er9p1tdxuldygs6i35c6sy96vtn2qd3" />
+  <source id="1169647821783" name="reduce_ConditionalFormatToken" hash="-6mqj6zaguot01fxpkouqc0d7sfj8o2s" />
+  <source id="1172068095799" name="reduce_DateTimeType" hash="-b7sd7wkq41zoa4wyjulgubrdv5ecmbm" />
+  <source id="1172145375222" name="reduce_DateTimeCompareOperation" hash="dmk69omkple5r8kxl6un7l4gh4psx6" />
+  <source id="1172326347243" name="reduce_RoundDateTimeOperation" hash="50mjybil3ytmfg1qq4qyj77vwzy9ata" />
+  <source id="1172327129404" name="reduce_FloorDateTimeOperation" hash="-2af4ch5kfaxaibvfj300zo80rjv559" />
+  <source id="1172327149445" name="reduce_CeilingDateTimeOperation" hash="37y3jy7fpbekxqs08cesmx7puzvyo2e" />
+  <source id="1172332406179" name="reduce_DateTimeWithPropertyOperation" hash="4djzdvb8iwk7fbx5begc791329tg3c" />
+  <source id="1172489369985" name="reduce_PeriodType" hash="8mxhasvd3qb4c720lzalbm2kutgbq5i" />
+  <source id="1172492017024" name="reduce_PeriodConstant" hash="-c05wg2pyattr5thnafidxc0lcvik2qu" />
+  <source id="1172499604795" name="reduce_PlusExpression" hash="2ubd75zctfxrohc44zm3qpefvwn4xaz" />
+  <source id="1172501993121" name="reduce_MinusExpression" hash="aw42n1orsaz0hua1umsphevs46g9pz2" />
+  <source id="1172684437748" name="reduce_FixedLocaleFormatToken" hash="-1dvekkd7h75xp8pxl5p012wc1lo46vv" />
+  <source id="1173885209754" name="switch_IDateFormat_reference" hash="asxdknaka58ne0jp536yvx6syiimuyi" />
+  <source id="1173885253101" name="reduce_DateFormat_IDateFormat_reference" hash="-5l5a5h7p8i6cd42jb6iggu8fwixbn4c" />
+  <source id="1173885363705" name="reduce_PredefinedDateFormat_IDateFormat_reference" hash="2fgm7fb3fr43w6vqbiciyb8sswsucjf" />
+  <source id="1173967707012" name="reduce_DateTimePropertyFormatToken" hash="-2ozo1adiukai4i0mrv3lbx2tpo5fa6f" />
+  <source id="1174045772633" name="reduce_InlineFormatExpression" hash="-32oikwarv3vzpwhibl34lmc5nypgpo" />
+  <source id="1174322757200" name="reduce_DateTimeOffsetFormatToken" hash="33hv1yd42dx02ialcey5wqwdgqgoymw" />
+  <source id="1174322924465" name="reduce_DurationTypeReference" hash="4jf2x0qmkwd0k956hry0vfkpvgw20lv" />
+  <source id="1174385195181" name="reduce_DateTimeMinusOperation" hash="-bbub12ygc8axtspuvqktelh9s7o10cm" />
+  <source id="1174390375904" name="reduce_AbsDateTimeMinusOperation" hash="av86fiid6qtwmmtdkfx9hyr29cms38r" />
+  <source id="1207144894043" name="reduce_DateTimePlusPeriodOperation" hash="ayusfp8g84qzcyigrxbhliwlyzgle0o" />
+  <source id="1207223181393" name="reduce_DateTimeMinusPeriodOperation" hash="cip847f4xypst34jts0iedthl8egagm" />
+  <source id="1209037407602" name="reduce_NullOperation" hash="-a8hfgsbgimsyxknp0fe5b33x66e0vhl" />
+  <source id="1209037432960" name="reduce_NotNullOperation" hash="-7wl7s0x50q42au52705dej1jrl28k9y" />
+  <source id="1209037487736" name="reduce_ConvertToDateTimeOperation" hash="bxnyo53tp187zu7mbdgouwn5wdzp3zt" />
+  <source id="1209037512244" name="reduce_ConvertToJavaCalendarOperation" hash="506iev5bvdcdcr326ot5ls6f73bwvvl" />
+  <source id="1209037539138" name="reduce_ConvertToJavaDateOperation" hash="6jsie4s7qj3cui870lq397o97w18h22" />
+  <source id="1209037556127" name="reduce_ConvertToJodaDateTimeOperation" hash="dcspgkldhjh2o8egwupu6tzxkogtcls" />
+  <source id="1209039909796" name="reduce_DateTimePropetyReferenceOperation" hash="6bswa7bsv4ie48eopi4u9d7fcm1im1u" />
+  <source id="1238088433863" name="reduce_NeverExpression" hash="-84mhyq1ugm86tjknanlotbu33w3bdet" />
+  <source id="1238249953442" name="reduce_MathDateTimeOperation" hash="dhobtkxpmwarg5us8g5vqch0ou17mf0" />
+  <source id="1238513572309" name="reduce_TimeZoneType" hash="bz3t6gciiiv5p89ml5m0by1gs24evgw" />
+  <source id="1238514665489" name="reduce_UTCTimeZoneConstant" hash="-8yldxao8e2cd2kgtm8a29pd5hcuz58o" />
+  <source id="1238514756824" name="reduce_DefaultTimeZoneConstant" hash="-1r4tveub2r12lwh4n4lo0f1zmiubki7" />
+  <source id="1238857203188" name="reduce_DateTimeZoneCreator" hash="6c15wxbk3rwkwx7j47healmpt38kujl" />
+  <source id="1239804357845" name="reduce_WithPropertyCompareExpression" hash="-dffvzqo4bgh35lgylf3x4gwjtfi5mh4" />
+  <source id="1239804842313" name="reduce_PeriodInPropertyOperation" hash="-7ch9mnfunt8m7lm6tpwxuf5ssd1nrs5" />
+  <source id="4396211440736525363" name="reduce_BinaryCompareOperation" hash="-cbsfc9fxobjz47ml8h8bahjlby1kkkj" />
+  <source id="2583319411283203429" name="reduce_ParseExpression" hash="-46ll9r9tizs0y1ipcl2amcn2uu2cnqo" />
+  <source id="7517433918793153488" name="reduce_TimeZoneIDExpression" hash="2d7ia4kfbw3m6cbmz983ptx7szgdgob" />
+  <source id="8625920436392689293" name="reduce_TimeZoneOffsetExpression" hash="-e10fgqwjej4ceuwrj2nhe50se87bua5" />
+  <source id="1195930031035447618" name="reduce_DateTimeWithTZType" hash="-a2h4itruq58tek6abqwn2pu0p727q7r" />
+  <source id="6626410111396109619" name="reduce_InTimezoneExpression" hash="6j23f04mh2daa39nsqrwfrk9fior2mn" />
+  <source id="5969170299421360921" name="reduce_PeriodCompareOperation" hash="jnd2d35gy8jle0z1uhd9zbkwe7rkjf" />
+  <source id="4389880778953638912" name="reduce_ParseDateTimeExpression" hash="-2u5l7bc5oif2724x9t5st31ivkywp3s" />
+  <source id="5034322243092302197" name="reduce_FormatDateTimeExpression" hash="etqn0baqrllgtxtq2gjs9b026rbw4ju" />
+  <source id="194163770812053449" name="reduce_InlineFormatDateTimeExpression" hash="-9fgidyj4ixxt8erx3uyjigjtyw1ao33" />
+  <source id="3931616304474644672" name="reduce_DurationType" hash="1yg2g22cgtawentalz2u6fmz065w9op" />
+  <source id="5372916090361183394" name="reduce_ConvertToDurationOperation" hash="bau7e3e02g1iro08vt0l321udu1zwh1" />
+  <source id="8253375325060753917" name="reduce_DurationCompareOperation" hash="-5ha9apy3c320sep2vbk20ku8wk7v4tr" />
+  <source id="276836602888578412" name="reduce_PeriodInPropertyExpression" hash="-vvqq283oyo41x5e0a8vfrw2rhtvh1n" />
+  <source id="1548440323223124156" name="reduce_DurationInPropertyOperation" hash="ek1c1wnlvak8n54zbfd0cbr0xlv5zdn" />
+  <source id="3627207017677900774" name="reduce_DurationInPropertyExpression" hash="ddewbr5faqurfzz2tg2he5s1s648w58" />
+  <source id="3394771273339689767" name="reduce_ScheduleLiteral" hash="-91sktofnyo17l51lgnjjlvy7cqipl5s" />
+  <source id="779372288056195858" name="reduce_TimeConstant" hash="eiutxrailxfthhbyt2gfkho56gzpinj" />
+  <source id="34521615669576970" name="reduce_FormatPeriodExpression" hash="4fdwzlxwn9b3nu14cpmtmogkky1mhzq" />
+  <source id="1379098806890585667" name="switch_IPeriodFormat_reference" hash="-1w9vx0rw87jr5ezvqgn3tw7rabtbtkf" />
+  <source id="1379098806890585748" name="reduce_PredefinedPeriodFormat_reference" hash="53wu8slu47qjrmslehhhi8x4tn9e1zf" />
+  <source id="48671598477581907" name="reduce_PeriodLiteralFormatToken" hash="-c1rrba2aanmrh2i4icgcdzs7njfk5em" />
+  <source id="48671598477852545" name="PeriodFormatTable" hash="-9omncjp58zankiqvuqkntguvkr8zrj3">
+    <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.generator.runtime(MPS.Core/jetbrains.mps.generator.runtime@java_stub)" />
+  </source>
+  <source id="48671598477852583" name="reduce_PeriodFormat" hash="6lv6oq7y3our5vm92gt7pys62skna8i" />
+  <source id="5074955036991702210" name="reduce_PeriodFormat_IPeriodFormat_reference" hash="aqrx0o1dh8pj2wo7kxplw9pxl9spbsx" />
+  <source id="7249953535157218364" name="reduce_PeriodReferenceFormatToken" hash="-9gbuogpw2e0alh7swki60sjbd0n0k3x" />
+  <source id="7249953535157223315" name="reduce_PeriodPropertyFormatToken" hash="bpms13es5jitt52wh2e2auagicpgblm" />
+  <source id="5581663871702930719" name="reduce_PeriodSeparatorFormatToken" hash="-3uijh3lmrelqeyzpwdjcuchcevl6x9c" />
+  <source id="5293902215864075092" name="reduce_TimeZoneIdOperation" hash="4uckke42cbhjx5enfxm4h2dotddgib4" />
+  <source id="5293902215864689842" name="reduce_TimeZoneNameOperation" hash="-8i1aewnqgalfhdn9xicrq2xbkjfcvcp" />
+  <source id="5293902215865431555" name="reduce_AllTimeZonesConstant" hash="-avp9d0lfuqgsp0uetf1l6kvl2620qbz" />
+</dependencies>
 
