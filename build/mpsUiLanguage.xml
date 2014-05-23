@@ -76,7 +76,7 @@
       <fileset dir="${basedir}/mps-ui-language/languages/uiLanguage/runtime/jetbrains" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/mps-ui-language/languages/uiLanguage/jetbrains.mps.ide.uiLanguage.runtime-src.jar">
-      <fileset dir="${basedir}/mps-ui-language/languages/uiLanguage/runtime/source_gen" includes="**/*.java" />
+      <fileset dir="${basedir}/mps-ui-language/languages/uiLanguage/runtime/source_gen" />
       <zipfileset file="${basedir}/mps-ui-language/languages/uiLanguage/runtime/jetbrains.mps.ide.uiLanguage.runtime.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/mps-ui-language-languages-uiLanguage-runtime-jetbrains" prefix="module/jetbrains" />
     </jar>
@@ -108,7 +108,7 @@
       <fileset dir="${basedir}/mps-ui-language/languages/uiLanguage/solutions/pluginSolution/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/mps-ui-language/languages/uiLanguage/jetbrains.mps.uiLanguage.pluginSolution-src.jar">
-      <fileset dir="${basedir}/mps-ui-language/languages/uiLanguage/solutions/pluginSolution/source_gen" includes="**/*.java" />
+      <fileset dir="${basedir}/mps-ui-language/languages/uiLanguage/solutions/pluginSolution/source_gen" />
       <zipfileset file="${basedir}/mps-ui-language/languages/uiLanguage/solutions/pluginSolution/jetbrains.mps.uiLanguage.pluginSolution.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/mps-ui-language-languages-uiLanguage-solutions-pluginSolution-models" prefix="module/models" />
     </jar>
@@ -147,8 +147,8 @@
       <fileset dir="${basedir}/mps-ui-language/languages/uiLanguage/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/mps-ui-language/languages/uiLanguage/jetbrains.mps.uiLanguage-src.jar">
-      <fileset dir="${basedir}/mps-ui-language/languages/uiLanguage/generator/source_gen" includes="**/*.java" />
-      <fileset dir="${basedir}/mps-ui-language/languages/uiLanguage/source_gen" includes="**/*.java" />
+      <fileset dir="${basedir}/mps-ui-language/languages/uiLanguage/generator/source_gen" />
+      <fileset dir="${basedir}/mps-ui-language/languages/uiLanguage/source_gen" />
       <zipfileset file="${basedir}/mps-ui-language/languages/uiLanguage/jetbrains.mps.uiLanguage.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/mps-ui-language-languages-uiLanguage-generator-baseLanguage-template" prefix="module/generator/baseLanguage/template" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/mps-ui-language-languages-uiLanguage-languageModels" prefix="module/languageModels" />
