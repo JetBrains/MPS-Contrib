@@ -891,7 +891,7 @@
     </copy>
   </target>
   
-  <target name="java.compile.jetbrains.mps.xmlQuery" depends="java.compile.jetbrains.mps.gtext, java.compile.jetbrains.mps.gtext.runtime, java.compile.jetbrains.mps.xml, java.compile.jetbrains.mps.xmlSchema, fetchDependencies">
+  <target name="java.compile.jetbrains.mps.xmlQuery" depends="java.compile.jetbrains.mps.gtext, java.compile.jetbrains.mps.gtext.runtime, java.compile.jetbrains.mps.xml, java.compile.jetbrains.mps.xmlQuery.runtime, java.compile.jetbrains.mps.xmlSchema, fetchDependencies">
     <mkdir dir="${basedir}/mps-xml-obsolete/languages/util/xml/xmlQuery/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.xmlQuery" />
     <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.xmlQuery" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true">
@@ -912,6 +912,7 @@
         <pathelement path="${build.tmp}/java/out/jetbrains.mps.gtext" />
         <pathelement path="${build.tmp}/java/out/jetbrains.mps.gtext.runtime" />
         <pathelement path="${build.tmp}/java/out/jetbrains.mps.xml" />
+        <pathelement path="${build.tmp}/java/out/jetbrains.mps.xmlQuery.runtime" />
         <pathelement path="${build.tmp}/java/out/jetbrains.mps.xmlSchema" />
         <fileset file="${artifacts.IDEA}/lib/log4j.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />

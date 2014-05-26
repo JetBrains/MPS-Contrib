@@ -16,7 +16,7 @@
     <unitInfo nodeId="4579351749503152215" fileName="mpsContrib.xml" startLine="1" startPosition="0" endLine="43" endPosition="10" unitName="jetbrains.mps.contrib.build.mpsContrib" />
   </root>
   <root nodeRef="r:83393c4f-0a35-4150-a4fc-e0cb31ea54f6(jetbrains.mps.contrib.build)/4579351749506262387">
-    <unitInfo nodeId="4579351749506262387" fileName="mpsXml.xml" startLine="1" startPosition="0" endLine="1246" endPosition="10" unitName="jetbrains.mps.contrib.build.mpsXml" />
+    <unitInfo nodeId="4579351749506262387" fileName="mpsXml.xml" startLine="1" startPosition="0" endLine="1247" endPosition="10" unitName="jetbrains.mps.contrib.build.mpsXml" />
   </root>
   <root nodeRef="r:83393c4f-0a35-4150-a4fc-e0cb31ea54f6(jetbrains.mps.contrib.build)/6901657050505737387">
     <unitInfo nodeId="6901657050505737387" fileName="mpsContribUnpacked.xml" startLine="1" startPosition="0" endLine="65" endPosition="10" unitName="jetbrains.mps.contrib.build.mpsContribUnpacked" />
