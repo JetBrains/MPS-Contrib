@@ -13,7 +13,6 @@
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
-    <classNode dependClassName="jetbrains.mps.smodel.IOperationContext" />
     <classNode dependClassName="jetbrains.mps.xml.behavior.ContentList_Behavior" />
     <classNode dependClassName="jetbrains.mps.xml.behavior.Content_Behavior" />
     <classNode dependClassName="jetbrains.mps.xmlSchema.behavior.ElementDeclaration_Behavior" />

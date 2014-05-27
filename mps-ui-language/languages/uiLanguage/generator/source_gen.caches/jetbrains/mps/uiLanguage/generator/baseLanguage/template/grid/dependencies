@@ -8,7 +8,6 @@
     <classNode dependClassName="jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext" />
     <classNode dependClassName="jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
-    <classNode dependClassName="jetbrains.mps.smodel.IOperationContext" />
     <classNode dependClassName="jetbrains.mps.uiLanguage.behavior.GridRow_Behavior" />
     <classNode dependClassName="jetbrains.mps.uiLanguage.behavior.Grid_Behavior" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
