@@ -9,7 +9,7 @@ import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.buildlanguage.behavior.PropertyValueExpression_Behavior;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 
 public class PathReference_Behavior {
@@ -48,7 +48,7 @@ public class PathReference_Behavior {
   }
 
   public static String virtual_getActualValue_1213877472572(SNode thisNode) {
-    return PropertyValueExpression_Behavior.call_toString_1213877472569(thisNode);
+    return BehaviorReflection.invokeVirtual(String.class, thisNode, "virtual_toString_1213877472569", new Object[]{});
   }
 
   public static String virtual_getCallName_1262430001741497852(SAbstractConcept thisConcept) {

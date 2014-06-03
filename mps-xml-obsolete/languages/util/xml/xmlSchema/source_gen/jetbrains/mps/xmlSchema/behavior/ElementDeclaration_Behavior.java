@@ -11,7 +11,6 @@ import jetbrains.mps.internal.collections.runtime.SetSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.smodel.behaviour.BehaviorManager;
 
 public class ElementDeclaration_Behavior {
   public static void init(SNode thisNode) {
@@ -63,15 +62,5 @@ public class ElementDeclaration_Behavior {
   public static boolean call_hasNamespace_1213877429936(SNode thisNode) {
     SNode namespaceDeclaration = ElementDeclaration_Behavior.call_getNamespaceDeclaration_1213877429893(thisNode);
     return (namespaceDeclaration != null);
-  }
-
-  @Deprecated
-  public static SNode call_getComplexType_1213877429806(SNode thisNode) {
-    return BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), thisNode, "virtual_getComplexType_1213877429806", new Object[]{});
-  }
-
-  @Deprecated
-  public static SNode callSuper_getComplexType_1213877429806(SNode thisNode, String callerConceptFqName) {
-    return BehaviorManager.getInstance().invokeSuper((Class<SNode>) ((Class) Object.class), SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.ElementDeclaration"), callerConceptFqName, "virtual_getComplexType_1213877429806", new Class[]{SNode.class}, new Object[]{});
   }
 }

@@ -6,8 +6,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.smodel.behaviour.BehaviorReflection;
-import jetbrains.mps.smodel.behaviour.BehaviorManager;
 
 public class XMLElementType_Behavior {
   public static void init(SNode thisNode) {
@@ -28,15 +26,5 @@ public class XMLElementType_Behavior {
       }
       return String.format("xml<%s:%s>", SPropertyOperations.getString(SLinkOperations.getTarget(thisNode, "schema", false), "schemaName"), complexTypePresentation);
     }
-  }
-
-  @Deprecated
-  public static String call_getPresentation_7129398160685021502(SNode thisNode) {
-    return BehaviorReflection.invokeVirtual(String.class, thisNode, "virtual_getPresentation_1213877396640", new Object[]{});
-  }
-
-  @Deprecated
-  public static String callSuper_getPresentation_7129398160685021502(SNode thisNode, String callerConceptFqName) {
-    return BehaviorManager.getInstance().invokeSuper(String.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlQuery.structure.XMLElementType"), callerConceptFqName, "virtual_getPresentation_1213877396640", new Class[]{SNode.class}, new Object[]{});
   }
 }

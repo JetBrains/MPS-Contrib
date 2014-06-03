@@ -8,8 +8,6 @@ import java.util.List;
 import java.util.ArrayList;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.smodel.behaviour.BehaviorReflection;
-import jetbrains.mps.smodel.behaviour.BehaviorManager;
 
 public class Content_Behavior {
   public static void init(SNode thisNode) {
@@ -39,15 +37,5 @@ public class Content_Behavior {
 
   public static List<SNode> virtual_getCorrespondingElement_3044950653914717088(SAbstractConcept thisConcept) {
     return ListSequence.fromList(new ArrayList<SNode>());
-  }
-
-  @Deprecated
-  public static List<SNode> call_getSubcontents_1213877224308(SNode thisNode) {
-    return BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), thisNode, "virtual_getSubcontents_1213877224308", new Object[]{});
-  }
-
-  @Deprecated
-  public static List<SNode> callSuper_getSubcontents_1213877224308(SNode thisNode, String callerConceptFqName) {
-    return BehaviorManager.getInstance().invokeSuper((Class<List<SNode>>) ((Class) Object.class), SNodeOperations.cast(thisNode, "jetbrains.mps.xml.structure.Content"), callerConceptFqName, "virtual_getSubcontents_1213877224308", new Class[]{SNode.class}, new Object[]{});
   }
 }

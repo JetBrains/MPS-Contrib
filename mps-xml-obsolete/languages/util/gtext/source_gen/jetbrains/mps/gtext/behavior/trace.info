@@ -118,31 +118,18 @@
     <unitInfo nodeId="1213877296938" fileName="GDocument_Behavior.java" startLine="9" startPosition="0" endLine="18" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GDocument_Behavior" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c89590570(jetbrains.mps.gtext.behavior)/1213877298852">
-    <nodeInfo nodeId="1213877298856" fileName="GItem_Behavior.java" startLine="14" startPosition="73" endLine="15" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1213877298852" fileName="GItem_Behavior.java" startLine="19" startPosition="70" endLine="20" endPosition="119" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1213877298852" fileName="GItem_Behavior.java" startLine="24" startPosition="103" endLine="25" endPosition="236" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1213877298852" fileName="GItem_Behavior.java" startLine="11" startPosition="0" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="1213877298852" fileName="GItem_Behavior.java" startLine="14" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_isComplex_1213877298853#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-    <nodeInfo nodeId="1213877298852" fileName="GItem_Behavior.java" startLine="18" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_isComplex_1213877298853#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-    <nodeInfo nodeId="1213877298852" fileName="GItem_Behavior.java" startLine="23" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="callSuper_isComplex_1213877298853#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
-    <scopeInfo nodeId="1213877298859" fileName="GItem_Behavior.java" startLine="11" startPosition="43" endLine="11" endPosition="43" />
-    <scopeInfo nodeId="1213877298855" fileName="GItem_Behavior.java" startLine="14" startPosition="73" endLine="15" endPosition="17" />
-    <scopeInfo nodeId="1213877298852" fileName="GItem_Behavior.java" startLine="19" startPosition="70" endLine="20" endPosition="119" />
-    <scopeInfo nodeId="1213877298852" fileName="GItem_Behavior.java" startLine="24" startPosition="103" endLine="25" endPosition="236" />
-    <scopeInfo nodeId="1213877298852" fileName="GItem_Behavior.java" startLine="11" startPosition="0" endLine="13" endPosition="0">
+    <nodeInfo nodeId="1213877298856" fileName="GItem_Behavior.java" startLine="11" startPosition="73" endLine="12" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1213877298852" fileName="GItem_Behavior.java" startLine="8" startPosition="0" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="1213877298852" fileName="GItem_Behavior.java" startLine="11" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_isComplex_1213877298853#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <scopeInfo nodeId="1213877298859" fileName="GItem_Behavior.java" startLine="8" startPosition="43" endLine="8" endPosition="43" />
+    <scopeInfo nodeId="1213877298855" fileName="GItem_Behavior.java" startLine="11" startPosition="73" endLine="12" endPosition="17" />
+    <scopeInfo nodeId="1213877298852" fileName="GItem_Behavior.java" startLine="8" startPosition="0" endLine="10" endPosition="0">
       <varInfo nodeId="1213877298852" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="1213877298852" fileName="GItem_Behavior.java" startLine="14" startPosition="0" endLine="17" endPosition="0">
+    <scopeInfo nodeId="1213877298852" fileName="GItem_Behavior.java" startLine="11" startPosition="0" endLine="14" endPosition="0">
       <varInfo nodeId="1213877298852" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="1213877298852" fileName="GItem_Behavior.java" startLine="18" startPosition="0" endLine="22" endPosition="0">
-      <varInfo nodeId="1213877298852" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="1213877298852" fileName="GItem_Behavior.java" startLine="23" startPosition="0" endLine="27" endPosition="0">
-      <varInfo nodeId="1213877298852" varName="callerConceptFqName" />
-      <varInfo nodeId="1213877298852" varName="thisNode" />
-    </scopeInfo>
-    <unitInfo nodeId="1213877298852" fileName="GItem_Behavior.java" startLine="10" startPosition="0" endLine="28" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GItem_Behavior" />
+    <unitInfo nodeId="1213877298852" fileName="GItem_Behavior.java" startLine="7" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GItem_Behavior" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c89590570(jetbrains.mps.gtext.behavior)/1213877310934">
     <nodeInfo nodeId="1213877310938" fileName="GTextConcept_Behavior.java" startLine="12" startPosition="76" endLine="13" endPosition="131" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -175,25 +162,12 @@
     <unitInfo nodeId="1213877432356" fileName="GContentPlaceholder_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GContentPlaceholder_Behavior" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c89590570(jetbrains.mps.gtext.behavior)/1239125081253">
-    <nodeInfo nodeId="1239125081253" fileName="GCompositeItem_Behavior.java" startLine="16" startPosition="73" endLine="17" endPosition="149" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1239125081253" fileName="GCompositeItem_Behavior.java" startLine="21" startPosition="106" endLine="22" endPosition="275" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1239125081253" fileName="GCompositeItem_Behavior.java" startLine="12" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="1239125081253" fileName="GCompositeItem_Behavior.java" startLine="15" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getItems_1239125087745#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/util/List;" />
-    <nodeInfo nodeId="1239125081253" fileName="GCompositeItem_Behavior.java" startLine="20" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="callSuper_getItems_1239125087745#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Ljava/util/List;" />
-    <scopeInfo nodeId="1239125081255" fileName="GCompositeItem_Behavior.java" startLine="12" startPosition="43" endLine="12" endPosition="43" />
-    <scopeInfo nodeId="1239125081253" fileName="GCompositeItem_Behavior.java" startLine="16" startPosition="73" endLine="17" endPosition="149" />
-    <scopeInfo nodeId="1239125081253" fileName="GCompositeItem_Behavior.java" startLine="21" startPosition="106" endLine="22" endPosition="275" />
-    <scopeInfo nodeId="1239125081253" fileName="GCompositeItem_Behavior.java" startLine="12" startPosition="0" endLine="14" endPosition="0">
+    <nodeInfo nodeId="1239125081253" fileName="GCompositeItem_Behavior.java" startLine="8" startPosition="0" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <scopeInfo nodeId="1239125081255" fileName="GCompositeItem_Behavior.java" startLine="8" startPosition="43" endLine="8" endPosition="43" />
+    <scopeInfo nodeId="1239125081253" fileName="GCompositeItem_Behavior.java" startLine="8" startPosition="0" endLine="10" endPosition="0">
       <varInfo nodeId="1239125081253" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="1239125081253" fileName="GCompositeItem_Behavior.java" startLine="15" startPosition="0" endLine="19" endPosition="0">
-      <varInfo nodeId="1239125081253" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="1239125081253" fileName="GCompositeItem_Behavior.java" startLine="20" startPosition="0" endLine="24" endPosition="0">
-      <varInfo nodeId="1239125081253" varName="callerConceptFqName" />
-      <varInfo nodeId="1239125081253" varName="thisNode" />
-    </scopeInfo>
-    <unitInfo nodeId="1239125081253" fileName="GCompositeItem_Behavior.java" startLine="11" startPosition="0" endLine="25" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GCompositeItem_Behavior" />
+    <unitInfo nodeId="1239125081253" fileName="GCompositeItem_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GCompositeItem_Behavior" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c89590570(jetbrains.mps.gtext.behavior)/1239127127721">
     <nodeInfo nodeId="1239127152388" fileName="GSeparatorItemList_Behavior.java" startLine="13" startPosition="76" endLine="14" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />

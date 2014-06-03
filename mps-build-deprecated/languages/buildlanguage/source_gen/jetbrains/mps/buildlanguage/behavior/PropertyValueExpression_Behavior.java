@@ -7,35 +7,13 @@ import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
-import jetbrains.mps.smodel.behaviour.BehaviorManager;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class PropertyValueExpression_Behavior {
   public static void init(SNode thisNode) {
   }
 
   public static List<String> virtual_getPaths_1213877276955(SNode thisNode) {
-    List<String> list = ListSequence.fromListAndArray(new ArrayList<String>(), PropertyValueExpression_Behavior.call_getActualValue_1213877472572(thisNode));
+    List<String> list = ListSequence.fromListAndArray(new ArrayList<String>(), BehaviorReflection.invokeVirtual(String.class, thisNode, "virtual_getActualValue_1213877472572", new Object[]{}));
     return list;
-  }
-
-  @Deprecated
-  public static String call_toString_1213877472569(SNode thisNode) {
-    return BehaviorReflection.invokeVirtual(String.class, thisNode, "virtual_toString_1213877472569", new Object[]{});
-  }
-
-  @Deprecated
-  public static String callSuper_toString_1213877472569(SNode thisNode, String callerConceptFqName) {
-    return BehaviorManager.getInstance().invokeSuper(String.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.PropertyValueExpression"), callerConceptFqName, "virtual_toString_1213877472569", new Class[]{SNode.class}, new Object[]{});
-  }
-
-  @Deprecated
-  public static String call_getActualValue_1213877472572(SNode thisNode) {
-    return BehaviorReflection.invokeVirtual(String.class, thisNode, "virtual_getActualValue_1213877472572", new Object[]{});
-  }
-
-  @Deprecated
-  public static String callSuper_getActualValue_1213877472572(SNode thisNode, String callerConceptFqName) {
-    return BehaviorManager.getInstance().invokeSuper(String.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.PropertyValueExpression"), callerConceptFqName, "virtual_getActualValue_1213877472572", new Class[]{SNode.class}, new Object[]{});
   }
 }

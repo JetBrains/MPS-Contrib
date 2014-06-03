@@ -76,58 +76,32 @@
   <unitInfo fileName="UnaryDateTimeOperation_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.UnaryDateTimeOperation_BehaviorDescriptor" />
   <unitInfo fileName="WithPropertyCompareExpression_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.WithPropertyCompareExpression_BehaviorDescriptor" />
   <root nodeRef="r:00000000-0000-4000-0000-011c895903ce(jetbrains.mps.baseLanguage.dates.behavior)/1015544890586258578">
-    <nodeInfo nodeId="1015544890586290195" fileName="NullOperation_Behavior.java" startLine="14" startPosition="85" endLine="15" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1015544890586258578" fileName="NullOperation_Behavior.java" startLine="19" startPosition="83" endLine="20" endPosition="131" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1015544890586258578" fileName="NullOperation_Behavior.java" startLine="24" startPosition="116" endLine="25" endPosition="269" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1015544890586258578" fileName="NullOperation_Behavior.java" startLine="11" startPosition="0" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="1015544890586258578" fileName="NullOperation_Behavior.java" startLine="14" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_operandCanBeNull_323410281720656291#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-    <nodeInfo nodeId="1015544890586258578" fileName="NullOperation_Behavior.java" startLine="18" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_operandCanBeNull_1015544890586290191#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-    <nodeInfo nodeId="1015544890586258578" fileName="NullOperation_Behavior.java" startLine="23" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="callSuper_operandCanBeNull_1015544890586290191#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
-    <scopeInfo nodeId="1015544890586258580" fileName="NullOperation_Behavior.java" startLine="11" startPosition="43" endLine="11" endPosition="43" />
-    <scopeInfo nodeId="1015544890586290193" fileName="NullOperation_Behavior.java" startLine="14" startPosition="85" endLine="15" endPosition="16" />
-    <scopeInfo nodeId="1015544890586258578" fileName="NullOperation_Behavior.java" startLine="19" startPosition="83" endLine="20" endPosition="131" />
-    <scopeInfo nodeId="1015544890586258578" fileName="NullOperation_Behavior.java" startLine="24" startPosition="116" endLine="25" endPosition="269" />
-    <scopeInfo nodeId="1015544890586258578" fileName="NullOperation_Behavior.java" startLine="11" startPosition="0" endLine="13" endPosition="0">
+    <nodeInfo nodeId="1015544890586290195" fileName="NullOperation_Behavior.java" startLine="11" startPosition="85" endLine="12" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1015544890586258578" fileName="NullOperation_Behavior.java" startLine="8" startPosition="0" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="1015544890586258578" fileName="NullOperation_Behavior.java" startLine="11" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_operandCanBeNull_323410281720656291#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <scopeInfo nodeId="1015544890586258580" fileName="NullOperation_Behavior.java" startLine="8" startPosition="43" endLine="8" endPosition="43" />
+    <scopeInfo nodeId="1015544890586290193" fileName="NullOperation_Behavior.java" startLine="11" startPosition="85" endLine="12" endPosition="16" />
+    <scopeInfo nodeId="1015544890586258578" fileName="NullOperation_Behavior.java" startLine="8" startPosition="0" endLine="10" endPosition="0">
       <varInfo nodeId="1015544890586258578" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="1015544890586258578" fileName="NullOperation_Behavior.java" startLine="14" startPosition="0" endLine="17" endPosition="0">
+    <scopeInfo nodeId="1015544890586258578" fileName="NullOperation_Behavior.java" startLine="11" startPosition="0" endLine="14" endPosition="0">
       <varInfo nodeId="1015544890586258578" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="1015544890586258578" fileName="NullOperation_Behavior.java" startLine="18" startPosition="0" endLine="22" endPosition="0">
-      <varInfo nodeId="1015544890586258578" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="1015544890586258578" fileName="NullOperation_Behavior.java" startLine="23" startPosition="0" endLine="27" endPosition="0">
-      <varInfo nodeId="1015544890586258578" varName="callerConceptFqName" />
-      <varInfo nodeId="1015544890586258578" varName="thisNode" />
-    </scopeInfo>
-    <unitInfo nodeId="1015544890586258578" fileName="NullOperation_Behavior.java" startLine="10" startPosition="0" endLine="28" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.NullOperation_Behavior" />
+    <unitInfo nodeId="1015544890586258578" fileName="NullOperation_Behavior.java" startLine="7" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.NullOperation_Behavior" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903ce(jetbrains.mps.baseLanguage.dates.behavior)/1015544890586293378">
-    <nodeInfo nodeId="1015544890586293385" fileName="NotNullOperation_Behavior.java" startLine="14" startPosition="85" endLine="15" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1015544890586293378" fileName="NotNullOperation_Behavior.java" startLine="19" startPosition="83" endLine="20" endPosition="131" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1015544890586293378" fileName="NotNullOperation_Behavior.java" startLine="24" startPosition="116" endLine="25" endPosition="272" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1015544890586293378" fileName="NotNullOperation_Behavior.java" startLine="11" startPosition="0" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="1015544890586293378" fileName="NotNullOperation_Behavior.java" startLine="14" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_operandCanBeNull_323410281720656291#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-    <nodeInfo nodeId="1015544890586293378" fileName="NotNullOperation_Behavior.java" startLine="18" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_operandCanBeNull_1015544890586293381#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-    <nodeInfo nodeId="1015544890586293378" fileName="NotNullOperation_Behavior.java" startLine="23" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="callSuper_operandCanBeNull_1015544890586293381#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
-    <scopeInfo nodeId="1015544890586293380" fileName="NotNullOperation_Behavior.java" startLine="11" startPosition="43" endLine="11" endPosition="43" />
-    <scopeInfo nodeId="1015544890586293383" fileName="NotNullOperation_Behavior.java" startLine="14" startPosition="85" endLine="15" endPosition="16" />
-    <scopeInfo nodeId="1015544890586293378" fileName="NotNullOperation_Behavior.java" startLine="19" startPosition="83" endLine="20" endPosition="131" />
-    <scopeInfo nodeId="1015544890586293378" fileName="NotNullOperation_Behavior.java" startLine="24" startPosition="116" endLine="25" endPosition="272" />
-    <scopeInfo nodeId="1015544890586293378" fileName="NotNullOperation_Behavior.java" startLine="11" startPosition="0" endLine="13" endPosition="0">
+    <nodeInfo nodeId="1015544890586293385" fileName="NotNullOperation_Behavior.java" startLine="11" startPosition="85" endLine="12" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1015544890586293378" fileName="NotNullOperation_Behavior.java" startLine="8" startPosition="0" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="1015544890586293378" fileName="NotNullOperation_Behavior.java" startLine="11" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_operandCanBeNull_323410281720656291#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <scopeInfo nodeId="1015544890586293380" fileName="NotNullOperation_Behavior.java" startLine="8" startPosition="43" endLine="8" endPosition="43" />
+    <scopeInfo nodeId="1015544890586293383" fileName="NotNullOperation_Behavior.java" startLine="11" startPosition="85" endLine="12" endPosition="16" />
+    <scopeInfo nodeId="1015544890586293378" fileName="NotNullOperation_Behavior.java" startLine="8" startPosition="0" endLine="10" endPosition="0">
       <varInfo nodeId="1015544890586293378" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="1015544890586293378" fileName="NotNullOperation_Behavior.java" startLine="14" startPosition="0" endLine="17" endPosition="0">
+    <scopeInfo nodeId="1015544890586293378" fileName="NotNullOperation_Behavior.java" startLine="11" startPosition="0" endLine="14" endPosition="0">
       <varInfo nodeId="1015544890586293378" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="1015544890586293378" fileName="NotNullOperation_Behavior.java" startLine="18" startPosition="0" endLine="22" endPosition="0">
-      <varInfo nodeId="1015544890586293378" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="1015544890586293378" fileName="NotNullOperation_Behavior.java" startLine="23" startPosition="0" endLine="27" endPosition="0">
-      <varInfo nodeId="1015544890586293378" varName="callerConceptFqName" />
-      <varInfo nodeId="1015544890586293378" varName="thisNode" />
-    </scopeInfo>
-    <unitInfo nodeId="1015544890586293378" fileName="NotNullOperation_Behavior.java" startLine="10" startPosition="0" endLine="28" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.NotNullOperation_Behavior" />
+    <unitInfo nodeId="1015544890586293378" fileName="NotNullOperation_Behavior.java" startLine="7" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.NotNullOperation_Behavior" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903ce(jetbrains.mps.baseLanguage.dates.behavior)/1075917115049868776">
     <nodeInfo nodeId="1075917115049868784" fileName="ConditionalFormatToken_Behavior.java" startLine="12" startPosition="78" endLine="13" endPosition="187" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -590,96 +564,64 @@
     <unitInfo nodeId="3044950653914724856" fileName="TokenCondition_Behavior.java" startLine="12" startPosition="0" endLine="22" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.TokenCondition_Behavior" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903ce(jetbrains.mps.baseLanguage.dates.behavior)/34521615669576863">
-    <nodeInfo nodeId="34521615669576880" fileName="FormatPeriodExpression_Behavior.java" startLine="19" startPosition="31" endLine="20" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="34521615669576890" fileName="FormatPeriodExpression_Behavior.java" startLine="21" startPosition="179" endLine="22" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="34521615669576902" fileName="FormatPeriodExpression_Behavior.java" startLine="24" startPosition="5" endLine="25" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="34521615669576921" fileName="FormatPeriodExpression_Behavior.java" startLine="29" startPosition="133" endLine="30" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="34521615669576931" fileName="FormatPeriodExpression_Behavior.java" startLine="31" startPosition="5" endLine="32" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="36" startPosition="91" endLine="37" endPosition="155" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="41" startPosition="124" endLine="42" endPosition="315" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="46" startPosition="103" endLine="47" endPosition="167" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="51" startPosition="136" endLine="52" endPosition="340" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="34521615669576891" fileName="FormatPeriodExpression_Behavior.java" startLine="55" startPosition="64" endLine="56" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="34521615669576891" fileName="FormatPeriodExpression_Behavior.java" startLine="56" startPosition="63" endLine="57" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="34521615669576891" fileName="FormatPeriodExpression_Behavior.java" startLine="57" startPosition="30" endLine="58" endPosition="140" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="34521615669576891" fileName="FormatPeriodExpression_Behavior.java" startLine="57" startPosition="30" endLine="58" endPosition="140" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="34521615669576891" fileName="FormatPeriodExpression_Behavior.java" startLine="57" startPosition="30" endLine="58" endPosition="140" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="34521615669576891" fileName="FormatPeriodExpression_Behavior.java" startLine="58" startPosition="140" endLine="59" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="34521615669576922" fileName="FormatPeriodExpression_Behavior.java" startLine="62" startPosition="62" endLine="63" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="34521615669576922" fileName="FormatPeriodExpression_Behavior.java" startLine="63" startPosition="63" endLine="64" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="34521615669576922" fileName="FormatPeriodExpression_Behavior.java" startLine="64" startPosition="30" endLine="65" endPosition="140" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="34521615669576922" fileName="FormatPeriodExpression_Behavior.java" startLine="64" startPosition="30" endLine="65" endPosition="140" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="34521615669576922" fileName="FormatPeriodExpression_Behavior.java" startLine="64" startPosition="30" endLine="65" endPosition="140" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="34521615669576922" fileName="FormatPeriodExpression_Behavior.java" startLine="65" startPosition="140" endLine="66" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="15" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="34521615669576888" fileName="FormatPeriodExpression_Behavior.java" startLine="20" startPosition="49" endLine="23" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="34521615669576919" fileName="FormatPeriodExpression_Behavior.java" startLine="28" startPosition="108" endLine="31" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="35" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_deriveType_34521615669576867#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="40" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="callSuper_deriveType_34521615669576867#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="45" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_deriveType_34521615669576905#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="50" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="callSuper_deriveType_34521615669576905#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="34521615669576878" fileName="FormatPeriodExpression_Behavior.java" startLine="18" startPosition="90" endLine="24" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="28" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_deriveType_4555537781928374706#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="34521615669576891" fileName="FormatPeriodExpression_Behavior.java" startLine="55" startPosition="0" endLine="61" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_tjsbw0_a0a1a0a0#()Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="34521615669576922" fileName="FormatPeriodExpression_Behavior.java" startLine="62" startPosition="0" endLine="68" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_tjsbw0_a0a0a1#()Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="18" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_deriveType_1213877435747#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <scopeInfo nodeId="34521615669576865" fileName="FormatPeriodExpression_Behavior.java" startLine="15" startPosition="43" endLine="15" endPosition="43" />
-    <scopeInfo nodeId="34521615669576889" fileName="FormatPeriodExpression_Behavior.java" startLine="21" startPosition="179" endLine="22" endPosition="55" />
-    <scopeInfo nodeId="34521615669576920" fileName="FormatPeriodExpression_Behavior.java" startLine="29" startPosition="133" endLine="30" endPosition="51" />
-    <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="36" startPosition="91" endLine="37" endPosition="155" />
-    <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="41" startPosition="124" endLine="42" endPosition="315" />
-    <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="46" startPosition="103" endLine="47" endPosition="167" />
-    <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="51" startPosition="136" endLine="52" endPosition="340" />
-    <scopeInfo nodeId="34521615669576891" fileName="FormatPeriodExpression_Behavior.java" startLine="57" startPosition="30" endLine="58" endPosition="140" />
-    <scopeInfo nodeId="34521615669576922" fileName="FormatPeriodExpression_Behavior.java" startLine="64" startPosition="30" endLine="65" endPosition="140" />
-    <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="15" startPosition="0" endLine="17" endPosition="0">
+    <nodeInfo nodeId="34521615669576880" fileName="FormatPeriodExpression_Behavior.java" startLine="16" startPosition="31" endLine="17" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="34521615669576890" fileName="FormatPeriodExpression_Behavior.java" startLine="18" startPosition="179" endLine="19" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="34521615669576902" fileName="FormatPeriodExpression_Behavior.java" startLine="21" startPosition="5" endLine="22" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="34521615669576921" fileName="FormatPeriodExpression_Behavior.java" startLine="26" startPosition="133" endLine="27" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="34521615669576931" fileName="FormatPeriodExpression_Behavior.java" startLine="28" startPosition="5" endLine="29" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="34521615669576891" fileName="FormatPeriodExpression_Behavior.java" startLine="32" startPosition="64" endLine="33" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="34521615669576891" fileName="FormatPeriodExpression_Behavior.java" startLine="33" startPosition="63" endLine="34" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="34521615669576891" fileName="FormatPeriodExpression_Behavior.java" startLine="34" startPosition="30" endLine="35" endPosition="140" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="34521615669576891" fileName="FormatPeriodExpression_Behavior.java" startLine="34" startPosition="30" endLine="35" endPosition="140" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="34521615669576891" fileName="FormatPeriodExpression_Behavior.java" startLine="34" startPosition="30" endLine="35" endPosition="140" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="34521615669576891" fileName="FormatPeriodExpression_Behavior.java" startLine="35" startPosition="140" endLine="36" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="34521615669576922" fileName="FormatPeriodExpression_Behavior.java" startLine="39" startPosition="62" endLine="40" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="34521615669576922" fileName="FormatPeriodExpression_Behavior.java" startLine="40" startPosition="63" endLine="41" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="34521615669576922" fileName="FormatPeriodExpression_Behavior.java" startLine="41" startPosition="30" endLine="42" endPosition="140" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="34521615669576922" fileName="FormatPeriodExpression_Behavior.java" startLine="41" startPosition="30" endLine="42" endPosition="140" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="34521615669576922" fileName="FormatPeriodExpression_Behavior.java" startLine="41" startPosition="30" endLine="42" endPosition="140" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="34521615669576922" fileName="FormatPeriodExpression_Behavior.java" startLine="42" startPosition="140" endLine="43" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="12" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="34521615669576888" fileName="FormatPeriodExpression_Behavior.java" startLine="17" startPosition="49" endLine="20" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="34521615669576919" fileName="FormatPeriodExpression_Behavior.java" startLine="25" startPosition="108" endLine="28" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="34521615669576878" fileName="FormatPeriodExpression_Behavior.java" startLine="15" startPosition="90" endLine="21" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="25" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_deriveType_4555537781928374706#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="34521615669576891" fileName="FormatPeriodExpression_Behavior.java" startLine="32" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_tjsbw0_a0a1a0a0#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="34521615669576922" fileName="FormatPeriodExpression_Behavior.java" startLine="39" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_tjsbw0_a0a0a1#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="15" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_deriveType_1213877435747#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <scopeInfo nodeId="34521615669576865" fileName="FormatPeriodExpression_Behavior.java" startLine="12" startPosition="43" endLine="12" endPosition="43" />
+    <scopeInfo nodeId="34521615669576889" fileName="FormatPeriodExpression_Behavior.java" startLine="18" startPosition="179" endLine="19" endPosition="55" />
+    <scopeInfo nodeId="34521615669576920" fileName="FormatPeriodExpression_Behavior.java" startLine="26" startPosition="133" endLine="27" endPosition="51" />
+    <scopeInfo nodeId="34521615669576891" fileName="FormatPeriodExpression_Behavior.java" startLine="34" startPosition="30" endLine="35" endPosition="140" />
+    <scopeInfo nodeId="34521615669576922" fileName="FormatPeriodExpression_Behavior.java" startLine="41" startPosition="30" endLine="42" endPosition="140" />
+    <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="12" startPosition="0" endLine="14" endPosition="0">
       <varInfo nodeId="34521615669576863" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="34521615669576879" fileName="FormatPeriodExpression_Behavior.java" startLine="19" startPosition="31" endLine="23" endPosition="7">
+    <scopeInfo nodeId="34521615669576879" fileName="FormatPeriodExpression_Behavior.java" startLine="16" startPosition="31" endLine="20" endPosition="7">
       <varInfo nodeId="34521615669576881" varName="role" />
     </scopeInfo>
-    <scopeInfo nodeId="34521615669576907" fileName="FormatPeriodExpression_Behavior.java" startLine="28" startPosition="108" endLine="32" endPosition="16" />
-    <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="35" startPosition="0" endLine="39" endPosition="0">
-      <varInfo nodeId="34521615669576870" varName="expression" />
-      <varInfo nodeId="34521615669576863" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="40" startPosition="0" endLine="44" endPosition="0">
-      <varInfo nodeId="34521615669576863" varName="callerConceptFqName" />
-      <varInfo nodeId="34521615669576870" varName="expression" />
-      <varInfo nodeId="34521615669576863" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="45" startPosition="0" endLine="49" endPosition="0">
-      <varInfo nodeId="34521615669576908" varName="expression" />
-      <varInfo nodeId="34521615669576910" varName="link" />
-      <varInfo nodeId="34521615669576863" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="50" startPosition="0" endLine="54" endPosition="0">
-      <varInfo nodeId="34521615669576863" varName="callerConceptFqName" />
-      <varInfo nodeId="34521615669576908" varName="expression" />
-      <varInfo nodeId="34521615669576910" varName="link" />
-      <varInfo nodeId="34521615669576863" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="34521615669576891" fileName="FormatPeriodExpression_Behavior.java" startLine="55" startPosition="64" endLine="59" endPosition="24">
+    <scopeInfo nodeId="34521615669576907" fileName="FormatPeriodExpression_Behavior.java" startLine="25" startPosition="108" endLine="29" endPosition="16" />
+    <scopeInfo nodeId="34521615669576891" fileName="FormatPeriodExpression_Behavior.java" startLine="32" startPosition="64" endLine="36" endPosition="24">
       <varInfo nodeId="34521615669576891" varName="facade" />
       <varInfo nodeId="34521615669576891" varName="quotedNode_1" />
     </scopeInfo>
-    <scopeInfo nodeId="34521615669576922" fileName="FormatPeriodExpression_Behavior.java" startLine="62" startPosition="62" endLine="66" endPosition="24">
+    <scopeInfo nodeId="34521615669576922" fileName="FormatPeriodExpression_Behavior.java" startLine="39" startPosition="62" endLine="43" endPosition="24">
       <varInfo nodeId="34521615669576922" varName="facade" />
       <varInfo nodeId="34521615669576922" varName="quotedNode_1" />
     </scopeInfo>
-    <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="28" startPosition="0" endLine="34" endPosition="0">
+    <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="25" startPosition="0" endLine="31" endPosition="0">
       <varInfo nodeId="34521615669576908" varName="expression" />
       <varInfo nodeId="34521615669576910" varName="link" />
       <varInfo nodeId="34521615669576863" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="34521615669576891" fileName="FormatPeriodExpression_Behavior.java" startLine="55" startPosition="0" endLine="61" endPosition="0" />
-    <scopeInfo nodeId="34521615669576922" fileName="FormatPeriodExpression_Behavior.java" startLine="62" startPosition="0" endLine="68" endPosition="0" />
-    <scopeInfo nodeId="34521615669576869" fileName="FormatPeriodExpression_Behavior.java" startLine="18" startPosition="90" endLine="25" endPosition="16" />
-    <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="18" startPosition="0" endLine="27" endPosition="0">
+    <scopeInfo nodeId="34521615669576891" fileName="FormatPeriodExpression_Behavior.java" startLine="32" startPosition="0" endLine="38" endPosition="0" />
+    <scopeInfo nodeId="34521615669576922" fileName="FormatPeriodExpression_Behavior.java" startLine="39" startPosition="0" endLine="45" endPosition="0" />
+    <scopeInfo nodeId="34521615669576869" fileName="FormatPeriodExpression_Behavior.java" startLine="15" startPosition="90" endLine="22" endPosition="16" />
+    <scopeInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="15" startPosition="0" endLine="24" endPosition="0">
       <varInfo nodeId="34521615669576870" varName="expression" />
       <varInfo nodeId="34521615669576863" varName="thisNode" />
     </scopeInfo>
-    <unitInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="14" startPosition="0" endLine="69" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.FormatPeriodExpression_Behavior" />
+    <unitInfo nodeId="34521615669576863" fileName="FormatPeriodExpression_Behavior.java" startLine="11" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.FormatPeriodExpression_Behavior" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903ce(jetbrains.mps.baseLanguage.dates.behavior)/4555537781927648382">
     <nodeInfo nodeId="4555537781927648382" fileName="TimeZoneIDExpression_Behavior.java" startLine="8" startPosition="0" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
@@ -704,96 +646,64 @@
     <unitInfo nodeId="48671598477850432" fileName="PeriodFormatsTable_Behavior.java" startLine="9" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.PeriodFormatsTable_Behavior" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903ce(jetbrains.mps.baseLanguage.dates.behavior)/5034322243092301670">
-    <nodeInfo nodeId="5034322243092301822" fileName="FormatDateTimeExpression_Behavior.java" startLine="19" startPosition="31" endLine="20" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5034322243092302101" fileName="FormatDateTimeExpression_Behavior.java" startLine="21" startPosition="183" endLine="22" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5034322243092301686" fileName="FormatDateTimeExpression_Behavior.java" startLine="24" startPosition="5" endLine="25" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5034322243092302127" fileName="FormatDateTimeExpression_Behavior.java" startLine="29" startPosition="137" endLine="30" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5034322243092301797" fileName="FormatDateTimeExpression_Behavior.java" startLine="31" startPosition="5" endLine="32" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="36" startPosition="93" endLine="37" endPosition="155" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="41" startPosition="126" endLine="42" endPosition="317" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="46" startPosition="105" endLine="47" endPosition="167" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="51" startPosition="138" endLine="52" endPosition="342" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5034322243092302108" fileName="FormatDateTimeExpression_Behavior.java" startLine="55" startPosition="64" endLine="56" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5034322243092302108" fileName="FormatDateTimeExpression_Behavior.java" startLine="56" startPosition="63" endLine="57" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5034322243092302108" fileName="FormatDateTimeExpression_Behavior.java" startLine="57" startPosition="30" endLine="58" endPosition="148" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="5034322243092302108" fileName="FormatDateTimeExpression_Behavior.java" startLine="57" startPosition="30" endLine="58" endPosition="148" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="5034322243092302108" fileName="FormatDateTimeExpression_Behavior.java" startLine="57" startPosition="30" endLine="58" endPosition="148" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5034322243092302108" fileName="FormatDateTimeExpression_Behavior.java" startLine="58" startPosition="148" endLine="59" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5034322243092302129" fileName="FormatDateTimeExpression_Behavior.java" startLine="62" startPosition="62" endLine="63" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5034322243092302129" fileName="FormatDateTimeExpression_Behavior.java" startLine="63" startPosition="63" endLine="64" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5034322243092302129" fileName="FormatDateTimeExpression_Behavior.java" startLine="64" startPosition="30" endLine="65" endPosition="148" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="5034322243092302129" fileName="FormatDateTimeExpression_Behavior.java" startLine="64" startPosition="30" endLine="65" endPosition="148" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="5034322243092302129" fileName="FormatDateTimeExpression_Behavior.java" startLine="64" startPosition="30" endLine="65" endPosition="148" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5034322243092302129" fileName="FormatDateTimeExpression_Behavior.java" startLine="65" startPosition="148" endLine="66" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="15" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="5034322243092302085" fileName="FormatDateTimeExpression_Behavior.java" startLine="20" startPosition="49" endLine="23" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="5034322243092302118" fileName="FormatDateTimeExpression_Behavior.java" startLine="28" startPosition="108" endLine="31" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="35" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_deriveType_5034322243092301679#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="40" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="callSuper_deriveType_5034322243092301679#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="45" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_deriveType_5034322243092301788#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="50" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="callSuper_deriveType_5034322243092301788#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="5034322243092301809" fileName="FormatDateTimeExpression_Behavior.java" startLine="18" startPosition="90" endLine="24" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="28" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_deriveType_4555537781928374706#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="5034322243092302108" fileName="FormatDateTimeExpression_Behavior.java" startLine="55" startPosition="0" endLine="61" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_s69rer_a0a1a0a0#()Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="5034322243092302129" fileName="FormatDateTimeExpression_Behavior.java" startLine="62" startPosition="0" endLine="68" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_s69rer_a0a0a1#()Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="18" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_deriveType_1213877435747#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <scopeInfo nodeId="5034322243092301672" fileName="FormatDateTimeExpression_Behavior.java" startLine="15" startPosition="43" endLine="15" endPosition="43" />
-    <scopeInfo nodeId="5034322243092302086" fileName="FormatDateTimeExpression_Behavior.java" startLine="21" startPosition="183" endLine="22" endPosition="55" />
-    <scopeInfo nodeId="5034322243092302119" fileName="FormatDateTimeExpression_Behavior.java" startLine="29" startPosition="137" endLine="30" endPosition="51" />
-    <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="36" startPosition="93" endLine="37" endPosition="155" />
-    <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="41" startPosition="126" endLine="42" endPosition="317" />
-    <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="46" startPosition="105" endLine="47" endPosition="167" />
-    <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="51" startPosition="138" endLine="52" endPosition="342" />
-    <scopeInfo nodeId="5034322243092302108" fileName="FormatDateTimeExpression_Behavior.java" startLine="57" startPosition="30" endLine="58" endPosition="148" />
-    <scopeInfo nodeId="5034322243092302129" fileName="FormatDateTimeExpression_Behavior.java" startLine="64" startPosition="30" endLine="65" endPosition="148" />
-    <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="15" startPosition="0" endLine="17" endPosition="0">
+    <nodeInfo nodeId="5034322243092301822" fileName="FormatDateTimeExpression_Behavior.java" startLine="16" startPosition="31" endLine="17" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5034322243092302101" fileName="FormatDateTimeExpression_Behavior.java" startLine="18" startPosition="183" endLine="19" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5034322243092301686" fileName="FormatDateTimeExpression_Behavior.java" startLine="21" startPosition="5" endLine="22" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5034322243092302127" fileName="FormatDateTimeExpression_Behavior.java" startLine="26" startPosition="137" endLine="27" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5034322243092301797" fileName="FormatDateTimeExpression_Behavior.java" startLine="28" startPosition="5" endLine="29" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5034322243092302108" fileName="FormatDateTimeExpression_Behavior.java" startLine="32" startPosition="64" endLine="33" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5034322243092302108" fileName="FormatDateTimeExpression_Behavior.java" startLine="33" startPosition="63" endLine="34" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5034322243092302108" fileName="FormatDateTimeExpression_Behavior.java" startLine="34" startPosition="30" endLine="35" endPosition="148" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5034322243092302108" fileName="FormatDateTimeExpression_Behavior.java" startLine="34" startPosition="30" endLine="35" endPosition="148" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5034322243092302108" fileName="FormatDateTimeExpression_Behavior.java" startLine="34" startPosition="30" endLine="35" endPosition="148" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5034322243092302108" fileName="FormatDateTimeExpression_Behavior.java" startLine="35" startPosition="148" endLine="36" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5034322243092302129" fileName="FormatDateTimeExpression_Behavior.java" startLine="39" startPosition="62" endLine="40" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5034322243092302129" fileName="FormatDateTimeExpression_Behavior.java" startLine="40" startPosition="63" endLine="41" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5034322243092302129" fileName="FormatDateTimeExpression_Behavior.java" startLine="41" startPosition="30" endLine="42" endPosition="148" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5034322243092302129" fileName="FormatDateTimeExpression_Behavior.java" startLine="41" startPosition="30" endLine="42" endPosition="148" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5034322243092302129" fileName="FormatDateTimeExpression_Behavior.java" startLine="41" startPosition="30" endLine="42" endPosition="148" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5034322243092302129" fileName="FormatDateTimeExpression_Behavior.java" startLine="42" startPosition="148" endLine="43" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="12" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="5034322243092302085" fileName="FormatDateTimeExpression_Behavior.java" startLine="17" startPosition="49" endLine="20" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5034322243092302118" fileName="FormatDateTimeExpression_Behavior.java" startLine="25" startPosition="108" endLine="28" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5034322243092301809" fileName="FormatDateTimeExpression_Behavior.java" startLine="15" startPosition="90" endLine="21" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="25" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_deriveType_4555537781928374706#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="5034322243092302108" fileName="FormatDateTimeExpression_Behavior.java" startLine="32" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_s69rer_a0a1a0a0#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="5034322243092302129" fileName="FormatDateTimeExpression_Behavior.java" startLine="39" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_s69rer_a0a0a1#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="15" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_deriveType_1213877435747#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <scopeInfo nodeId="5034322243092301672" fileName="FormatDateTimeExpression_Behavior.java" startLine="12" startPosition="43" endLine="12" endPosition="43" />
+    <scopeInfo nodeId="5034322243092302086" fileName="FormatDateTimeExpression_Behavior.java" startLine="18" startPosition="183" endLine="19" endPosition="55" />
+    <scopeInfo nodeId="5034322243092302119" fileName="FormatDateTimeExpression_Behavior.java" startLine="26" startPosition="137" endLine="27" endPosition="51" />
+    <scopeInfo nodeId="5034322243092302108" fileName="FormatDateTimeExpression_Behavior.java" startLine="34" startPosition="30" endLine="35" endPosition="148" />
+    <scopeInfo nodeId="5034322243092302129" fileName="FormatDateTimeExpression_Behavior.java" startLine="41" startPosition="30" endLine="42" endPosition="148" />
+    <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="12" startPosition="0" endLine="14" endPosition="0">
       <varInfo nodeId="5034322243092301670" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="5034322243092301810" fileName="FormatDateTimeExpression_Behavior.java" startLine="19" startPosition="31" endLine="23" endPosition="7">
+    <scopeInfo nodeId="5034322243092301810" fileName="FormatDateTimeExpression_Behavior.java" startLine="16" startPosition="31" endLine="20" endPosition="7">
       <varInfo nodeId="5034322243092301823" varName="role" />
     </scopeInfo>
-    <scopeInfo nodeId="5034322243092301790" fileName="FormatDateTimeExpression_Behavior.java" startLine="28" startPosition="108" endLine="32" endPosition="16" />
-    <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="35" startPosition="0" endLine="39" endPosition="0">
-      <varInfo nodeId="5034322243092301682" varName="expression" />
-      <varInfo nodeId="5034322243092301670" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="40" startPosition="0" endLine="44" endPosition="0">
-      <varInfo nodeId="5034322243092301670" varName="callerConceptFqName" />
-      <varInfo nodeId="5034322243092301682" varName="expression" />
-      <varInfo nodeId="5034322243092301670" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="45" startPosition="0" endLine="49" endPosition="0">
-      <varInfo nodeId="5034322243092301791" varName="expression" />
-      <varInfo nodeId="5034322243092301793" varName="link" />
-      <varInfo nodeId="5034322243092301670" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="50" startPosition="0" endLine="54" endPosition="0">
-      <varInfo nodeId="5034322243092301670" varName="callerConceptFqName" />
-      <varInfo nodeId="5034322243092301791" varName="expression" />
-      <varInfo nodeId="5034322243092301793" varName="link" />
-      <varInfo nodeId="5034322243092301670" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="5034322243092302108" fileName="FormatDateTimeExpression_Behavior.java" startLine="55" startPosition="64" endLine="59" endPosition="24">
+    <scopeInfo nodeId="5034322243092301790" fileName="FormatDateTimeExpression_Behavior.java" startLine="25" startPosition="108" endLine="29" endPosition="16" />
+    <scopeInfo nodeId="5034322243092302108" fileName="FormatDateTimeExpression_Behavior.java" startLine="32" startPosition="64" endLine="36" endPosition="24">
       <varInfo nodeId="5034322243092302108" varName="facade" />
       <varInfo nodeId="5034322243092302108" varName="quotedNode_1" />
     </scopeInfo>
-    <scopeInfo nodeId="5034322243092302129" fileName="FormatDateTimeExpression_Behavior.java" startLine="62" startPosition="62" endLine="66" endPosition="24">
+    <scopeInfo nodeId="5034322243092302129" fileName="FormatDateTimeExpression_Behavior.java" startLine="39" startPosition="62" endLine="43" endPosition="24">
       <varInfo nodeId="5034322243092302129" varName="facade" />
       <varInfo nodeId="5034322243092302129" varName="quotedNode_1" />
     </scopeInfo>
-    <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="28" startPosition="0" endLine="34" endPosition="0">
+    <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="25" startPosition="0" endLine="31" endPosition="0">
       <varInfo nodeId="5034322243092301791" varName="expression" />
       <varInfo nodeId="5034322243092301793" varName="link" />
       <varInfo nodeId="5034322243092301670" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="5034322243092302108" fileName="FormatDateTimeExpression_Behavior.java" startLine="55" startPosition="0" endLine="61" endPosition="0" />
-    <scopeInfo nodeId="5034322243092302129" fileName="FormatDateTimeExpression_Behavior.java" startLine="62" startPosition="0" endLine="68" endPosition="0" />
-    <scopeInfo nodeId="5034322243092301681" fileName="FormatDateTimeExpression_Behavior.java" startLine="18" startPosition="90" endLine="25" endPosition="16" />
-    <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="18" startPosition="0" endLine="27" endPosition="0">
+    <scopeInfo nodeId="5034322243092302108" fileName="FormatDateTimeExpression_Behavior.java" startLine="32" startPosition="0" endLine="38" endPosition="0" />
+    <scopeInfo nodeId="5034322243092302129" fileName="FormatDateTimeExpression_Behavior.java" startLine="39" startPosition="0" endLine="45" endPosition="0" />
+    <scopeInfo nodeId="5034322243092301681" fileName="FormatDateTimeExpression_Behavior.java" startLine="15" startPosition="90" endLine="22" endPosition="16" />
+    <scopeInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="15" startPosition="0" endLine="24" endPosition="0">
       <varInfo nodeId="5034322243092301682" varName="expression" />
       <varInfo nodeId="5034322243092301670" varName="thisNode" />
     </scopeInfo>
-    <unitInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="14" startPosition="0" endLine="69" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.FormatDateTimeExpression_Behavior" />
+    <unitInfo nodeId="5034322243092301670" fileName="FormatDateTimeExpression_Behavior.java" startLine="11" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.FormatDateTimeExpression_Behavior" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903ce(jetbrains.mps.baseLanguage.dates.behavior)/5251619021093068639">
     <nodeInfo nodeId="5251619021093068640" fileName="DateTypeUtil.java" startLine="22" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="dateTimeType" />
@@ -1116,312 +1026,216 @@
     <unitInfo nodeId="5581663871704498938" fileName="PeriodPropertyFormatToken_Behavior.java" startLine="8" startPosition="0" endLine="13" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.PeriodPropertyFormatToken_Behavior" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903ce(jetbrains.mps.baseLanguage.dates.behavior)/6626410111395870950">
-    <nodeInfo nodeId="2890840340813585340" fileName="InTimezoneExpression_Behavior.java" startLine="19" startPosition="31" endLine="20" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2890840340813585623" fileName="InTimezoneExpression_Behavior.java" startLine="21" startPosition="179" endLine="22" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2890840340813585649" fileName="InTimezoneExpression_Behavior.java" startLine="24" startPosition="179" endLine="25" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2890840340813585630" fileName="InTimezoneExpression_Behavior.java" startLine="27" startPosition="5" endLine="28" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2890840340813585310" fileName="InTimezoneExpression_Behavior.java" startLine="32" startPosition="133" endLine="33" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2890840340813585326" fileName="InTimezoneExpression_Behavior.java" startLine="35" startPosition="133" endLine="36" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2890840340813585285" fileName="InTimezoneExpression_Behavior.java" startLine="37" startPosition="5" endLine="38" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="42" startPosition="93" endLine="43" endPosition="155" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="47" startPosition="126" endLine="48" endPosition="313" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="52" startPosition="105" endLine="53" endPosition="167" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="57" startPosition="138" endLine="58" endPosition="338" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2890840340813585625" fileName="InTimezoneExpression_Behavior.java" startLine="61" startPosition="64" endLine="62" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2890840340813585625" fileName="InTimezoneExpression_Behavior.java" startLine="62" startPosition="63" endLine="63" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2890840340813585625" fileName="InTimezoneExpression_Behavior.java" startLine="63" startPosition="30" endLine="64" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="2890840340813585625" fileName="InTimezoneExpression_Behavior.java" startLine="63" startPosition="30" endLine="64" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="2890840340813585625" fileName="InTimezoneExpression_Behavior.java" startLine="63" startPosition="30" endLine="64" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2890840340813585625" fileName="InTimezoneExpression_Behavior.java" startLine="64" startPosition="146" endLine="65" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2890840340813585651" fileName="InTimezoneExpression_Behavior.java" startLine="68" startPosition="64" endLine="69" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2890840340813585651" fileName="InTimezoneExpression_Behavior.java" startLine="69" startPosition="63" endLine="70" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2890840340813585651" fileName="InTimezoneExpression_Behavior.java" startLine="70" startPosition="30" endLine="71" endPosition="148" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="2890840340813585651" fileName="InTimezoneExpression_Behavior.java" startLine="70" startPosition="30" endLine="71" endPosition="148" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="2890840340813585651" fileName="InTimezoneExpression_Behavior.java" startLine="70" startPosition="30" endLine="71" endPosition="148" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2890840340813585651" fileName="InTimezoneExpression_Behavior.java" startLine="71" startPosition="148" endLine="72" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2890840340813585312" fileName="InTimezoneExpression_Behavior.java" startLine="75" startPosition="62" endLine="76" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2890840340813585312" fileName="InTimezoneExpression_Behavior.java" startLine="76" startPosition="63" endLine="77" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2890840340813585312" fileName="InTimezoneExpression_Behavior.java" startLine="77" startPosition="30" endLine="78" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="2890840340813585312" fileName="InTimezoneExpression_Behavior.java" startLine="77" startPosition="30" endLine="78" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="2890840340813585312" fileName="InTimezoneExpression_Behavior.java" startLine="77" startPosition="30" endLine="78" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2890840340813585312" fileName="InTimezoneExpression_Behavior.java" startLine="78" startPosition="146" endLine="79" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2890840340813585328" fileName="InTimezoneExpression_Behavior.java" startLine="82" startPosition="62" endLine="83" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2890840340813585328" fileName="InTimezoneExpression_Behavior.java" startLine="83" startPosition="63" endLine="84" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2890840340813585328" fileName="InTimezoneExpression_Behavior.java" startLine="84" startPosition="30" endLine="85" endPosition="148" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="2890840340813585328" fileName="InTimezoneExpression_Behavior.java" startLine="84" startPosition="30" endLine="85" endPosition="148" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="2890840340813585328" fileName="InTimezoneExpression_Behavior.java" startLine="84" startPosition="30" endLine="85" endPosition="148" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2890840340813585328" fileName="InTimezoneExpression_Behavior.java" startLine="85" startPosition="148" endLine="86" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="15" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="2890840340813585601" fileName="InTimezoneExpression_Behavior.java" startLine="20" startPosition="49" endLine="23" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="2890840340813585633" fileName="InTimezoneExpression_Behavior.java" startLine="23" startPosition="7" endLine="26" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="2890840340813585296" fileName="InTimezoneExpression_Behavior.java" startLine="31" startPosition="108" endLine="34" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="2890840340813585316" fileName="InTimezoneExpression_Behavior.java" startLine="34" startPosition="5" endLine="37" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="41" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_deriveType_6626410111395872158#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="46" startPosition="0" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="callSuper_deriveType_6626410111395872158#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="51" startPosition="0" endLine="55" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_deriveType_2890840340813585276#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="56" startPosition="0" endLine="60" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="callSuper_deriveType_2890840340813585276#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="2890840340813585625" fileName="InTimezoneExpression_Behavior.java" startLine="61" startPosition="0" endLine="67" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_g9idtp_a0a1a0a0#()Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="2890840340813585651" fileName="InTimezoneExpression_Behavior.java" startLine="68" startPosition="0" endLine="74" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_g9idtp_a0a2a0a0#()Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="2890840340813585312" fileName="InTimezoneExpression_Behavior.java" startLine="75" startPosition="0" endLine="81" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_g9idtp_a0a0a1#()Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="2890840340813585328" fileName="InTimezoneExpression_Behavior.java" startLine="82" startPosition="0" endLine="88" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_g9idtp_a0a1a1#()Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="2890840340813585331" fileName="InTimezoneExpression_Behavior.java" startLine="18" startPosition="90" endLine="27" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="31" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_deriveType_4555537781928374706#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="18" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_deriveType_1213877435747#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <scopeInfo nodeId="6626410111395870952" fileName="InTimezoneExpression_Behavior.java" startLine="15" startPosition="43" endLine="15" endPosition="43" />
-    <scopeInfo nodeId="2890840340813585602" fileName="InTimezoneExpression_Behavior.java" startLine="21" startPosition="179" endLine="22" endPosition="55" />
-    <scopeInfo nodeId="2890840340813585634" fileName="InTimezoneExpression_Behavior.java" startLine="24" startPosition="179" endLine="25" endPosition="55" />
-    <scopeInfo nodeId="2890840340813585297" fileName="InTimezoneExpression_Behavior.java" startLine="32" startPosition="133" endLine="33" endPosition="51" />
-    <scopeInfo nodeId="2890840340813585317" fileName="InTimezoneExpression_Behavior.java" startLine="35" startPosition="133" endLine="36" endPosition="51" />
-    <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="42" startPosition="93" endLine="43" endPosition="155" />
-    <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="47" startPosition="126" endLine="48" endPosition="313" />
-    <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="52" startPosition="105" endLine="53" endPosition="167" />
-    <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="57" startPosition="138" endLine="58" endPosition="338" />
-    <scopeInfo nodeId="2890840340813585625" fileName="InTimezoneExpression_Behavior.java" startLine="63" startPosition="30" endLine="64" endPosition="146" />
-    <scopeInfo nodeId="2890840340813585651" fileName="InTimezoneExpression_Behavior.java" startLine="70" startPosition="30" endLine="71" endPosition="148" />
-    <scopeInfo nodeId="2890840340813585312" fileName="InTimezoneExpression_Behavior.java" startLine="77" startPosition="30" endLine="78" endPosition="146" />
-    <scopeInfo nodeId="2890840340813585328" fileName="InTimezoneExpression_Behavior.java" startLine="84" startPosition="30" endLine="85" endPosition="148" />
-    <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="15" startPosition="0" endLine="17" endPosition="0">
+    <nodeInfo nodeId="2890840340813585340" fileName="InTimezoneExpression_Behavior.java" startLine="16" startPosition="31" endLine="17" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2890840340813585623" fileName="InTimezoneExpression_Behavior.java" startLine="18" startPosition="179" endLine="19" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2890840340813585649" fileName="InTimezoneExpression_Behavior.java" startLine="21" startPosition="179" endLine="22" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2890840340813585630" fileName="InTimezoneExpression_Behavior.java" startLine="24" startPosition="5" endLine="25" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2890840340813585310" fileName="InTimezoneExpression_Behavior.java" startLine="29" startPosition="133" endLine="30" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2890840340813585326" fileName="InTimezoneExpression_Behavior.java" startLine="32" startPosition="133" endLine="33" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2890840340813585285" fileName="InTimezoneExpression_Behavior.java" startLine="34" startPosition="5" endLine="35" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2890840340813585625" fileName="InTimezoneExpression_Behavior.java" startLine="38" startPosition="64" endLine="39" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2890840340813585625" fileName="InTimezoneExpression_Behavior.java" startLine="39" startPosition="63" endLine="40" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2890840340813585625" fileName="InTimezoneExpression_Behavior.java" startLine="40" startPosition="30" endLine="41" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="2890840340813585625" fileName="InTimezoneExpression_Behavior.java" startLine="40" startPosition="30" endLine="41" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="2890840340813585625" fileName="InTimezoneExpression_Behavior.java" startLine="40" startPosition="30" endLine="41" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2890840340813585625" fileName="InTimezoneExpression_Behavior.java" startLine="41" startPosition="146" endLine="42" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2890840340813585651" fileName="InTimezoneExpression_Behavior.java" startLine="45" startPosition="64" endLine="46" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2890840340813585651" fileName="InTimezoneExpression_Behavior.java" startLine="46" startPosition="63" endLine="47" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2890840340813585651" fileName="InTimezoneExpression_Behavior.java" startLine="47" startPosition="30" endLine="48" endPosition="148" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="2890840340813585651" fileName="InTimezoneExpression_Behavior.java" startLine="47" startPosition="30" endLine="48" endPosition="148" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="2890840340813585651" fileName="InTimezoneExpression_Behavior.java" startLine="47" startPosition="30" endLine="48" endPosition="148" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2890840340813585651" fileName="InTimezoneExpression_Behavior.java" startLine="48" startPosition="148" endLine="49" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2890840340813585312" fileName="InTimezoneExpression_Behavior.java" startLine="52" startPosition="62" endLine="53" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2890840340813585312" fileName="InTimezoneExpression_Behavior.java" startLine="53" startPosition="63" endLine="54" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2890840340813585312" fileName="InTimezoneExpression_Behavior.java" startLine="54" startPosition="30" endLine="55" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="2890840340813585312" fileName="InTimezoneExpression_Behavior.java" startLine="54" startPosition="30" endLine="55" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="2890840340813585312" fileName="InTimezoneExpression_Behavior.java" startLine="54" startPosition="30" endLine="55" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2890840340813585312" fileName="InTimezoneExpression_Behavior.java" startLine="55" startPosition="146" endLine="56" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2890840340813585328" fileName="InTimezoneExpression_Behavior.java" startLine="59" startPosition="62" endLine="60" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2890840340813585328" fileName="InTimezoneExpression_Behavior.java" startLine="60" startPosition="63" endLine="61" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2890840340813585328" fileName="InTimezoneExpression_Behavior.java" startLine="61" startPosition="30" endLine="62" endPosition="148" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="2890840340813585328" fileName="InTimezoneExpression_Behavior.java" startLine="61" startPosition="30" endLine="62" endPosition="148" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="2890840340813585328" fileName="InTimezoneExpression_Behavior.java" startLine="61" startPosition="30" endLine="62" endPosition="148" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2890840340813585328" fileName="InTimezoneExpression_Behavior.java" startLine="62" startPosition="148" endLine="63" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="12" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="2890840340813585601" fileName="InTimezoneExpression_Behavior.java" startLine="17" startPosition="49" endLine="20" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="2890840340813585633" fileName="InTimezoneExpression_Behavior.java" startLine="20" startPosition="7" endLine="23" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="2890840340813585296" fileName="InTimezoneExpression_Behavior.java" startLine="28" startPosition="108" endLine="31" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="2890840340813585316" fileName="InTimezoneExpression_Behavior.java" startLine="31" startPosition="5" endLine="34" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="2890840340813585625" fileName="InTimezoneExpression_Behavior.java" startLine="38" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_g9idtp_a0a1a0a0#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="2890840340813585651" fileName="InTimezoneExpression_Behavior.java" startLine="45" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_g9idtp_a0a2a0a0#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="2890840340813585312" fileName="InTimezoneExpression_Behavior.java" startLine="52" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_g9idtp_a0a0a1#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="2890840340813585328" fileName="InTimezoneExpression_Behavior.java" startLine="59" startPosition="0" endLine="65" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_g9idtp_a0a1a1#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="2890840340813585331" fileName="InTimezoneExpression_Behavior.java" startLine="15" startPosition="90" endLine="24" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="28" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_deriveType_4555537781928374706#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="15" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_deriveType_1213877435747#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <scopeInfo nodeId="6626410111395870952" fileName="InTimezoneExpression_Behavior.java" startLine="12" startPosition="43" endLine="12" endPosition="43" />
+    <scopeInfo nodeId="2890840340813585602" fileName="InTimezoneExpression_Behavior.java" startLine="18" startPosition="179" endLine="19" endPosition="55" />
+    <scopeInfo nodeId="2890840340813585634" fileName="InTimezoneExpression_Behavior.java" startLine="21" startPosition="179" endLine="22" endPosition="55" />
+    <scopeInfo nodeId="2890840340813585297" fileName="InTimezoneExpression_Behavior.java" startLine="29" startPosition="133" endLine="30" endPosition="51" />
+    <scopeInfo nodeId="2890840340813585317" fileName="InTimezoneExpression_Behavior.java" startLine="32" startPosition="133" endLine="33" endPosition="51" />
+    <scopeInfo nodeId="2890840340813585625" fileName="InTimezoneExpression_Behavior.java" startLine="40" startPosition="30" endLine="41" endPosition="146" />
+    <scopeInfo nodeId="2890840340813585651" fileName="InTimezoneExpression_Behavior.java" startLine="47" startPosition="30" endLine="48" endPosition="148" />
+    <scopeInfo nodeId="2890840340813585312" fileName="InTimezoneExpression_Behavior.java" startLine="54" startPosition="30" endLine="55" endPosition="146" />
+    <scopeInfo nodeId="2890840340813585328" fileName="InTimezoneExpression_Behavior.java" startLine="61" startPosition="30" endLine="62" endPosition="148" />
+    <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="12" startPosition="0" endLine="14" endPosition="0">
       <varInfo nodeId="6626410111395870950" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="41" startPosition="0" endLine="45" endPosition="0">
-      <varInfo nodeId="6626410111395872161" varName="expression" />
-      <varInfo nodeId="6626410111395870950" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="46" startPosition="0" endLine="50" endPosition="0">
-      <varInfo nodeId="6626410111395870950" varName="callerConceptFqName" />
-      <varInfo nodeId="6626410111395872161" varName="expression" />
-      <varInfo nodeId="6626410111395870950" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="51" startPosition="0" endLine="55" endPosition="0">
-      <varInfo nodeId="2890840340813585279" varName="expression" />
-      <varInfo nodeId="2890840340813585281" varName="link" />
-      <varInfo nodeId="6626410111395870950" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="56" startPosition="0" endLine="60" endPosition="0">
-      <varInfo nodeId="6626410111395870950" varName="callerConceptFqName" />
-      <varInfo nodeId="2890840340813585279" varName="expression" />
-      <varInfo nodeId="2890840340813585281" varName="link" />
-      <varInfo nodeId="6626410111395870950" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="2890840340813585625" fileName="InTimezoneExpression_Behavior.java" startLine="61" startPosition="64" endLine="65" endPosition="24">
+    <scopeInfo nodeId="2890840340813585625" fileName="InTimezoneExpression_Behavior.java" startLine="38" startPosition="64" endLine="42" endPosition="24">
       <varInfo nodeId="2890840340813585625" varName="facade" />
       <varInfo nodeId="2890840340813585625" varName="quotedNode_1" />
     </scopeInfo>
-    <scopeInfo nodeId="2890840340813585651" fileName="InTimezoneExpression_Behavior.java" startLine="68" startPosition="64" endLine="72" endPosition="24">
+    <scopeInfo nodeId="2890840340813585651" fileName="InTimezoneExpression_Behavior.java" startLine="45" startPosition="64" endLine="49" endPosition="24">
       <varInfo nodeId="2890840340813585651" varName="facade" />
       <varInfo nodeId="2890840340813585651" varName="quotedNode_1" />
     </scopeInfo>
-    <scopeInfo nodeId="2890840340813585312" fileName="InTimezoneExpression_Behavior.java" startLine="75" startPosition="62" endLine="79" endPosition="24">
+    <scopeInfo nodeId="2890840340813585312" fileName="InTimezoneExpression_Behavior.java" startLine="52" startPosition="62" endLine="56" endPosition="24">
       <varInfo nodeId="2890840340813585312" varName="facade" />
       <varInfo nodeId="2890840340813585312" varName="quotedNode_1" />
     </scopeInfo>
-    <scopeInfo nodeId="2890840340813585328" fileName="InTimezoneExpression_Behavior.java" startLine="82" startPosition="62" endLine="86" endPosition="24">
+    <scopeInfo nodeId="2890840340813585328" fileName="InTimezoneExpression_Behavior.java" startLine="59" startPosition="62" endLine="63" endPosition="24">
       <varInfo nodeId="2890840340813585328" varName="facade" />
       <varInfo nodeId="2890840340813585328" varName="quotedNode_1" />
     </scopeInfo>
-    <scopeInfo nodeId="2890840340813585625" fileName="InTimezoneExpression_Behavior.java" startLine="61" startPosition="0" endLine="67" endPosition="0" />
-    <scopeInfo nodeId="2890840340813585651" fileName="InTimezoneExpression_Behavior.java" startLine="68" startPosition="0" endLine="74" endPosition="0" />
-    <scopeInfo nodeId="2890840340813585312" fileName="InTimezoneExpression_Behavior.java" startLine="75" startPosition="0" endLine="81" endPosition="0" />
-    <scopeInfo nodeId="2890840340813585328" fileName="InTimezoneExpression_Behavior.java" startLine="82" startPosition="0" endLine="88" endPosition="0" />
-    <scopeInfo nodeId="2890840340813585333" fileName="InTimezoneExpression_Behavior.java" startLine="19" startPosition="31" endLine="26" endPosition="7">
+    <scopeInfo nodeId="2890840340813585625" fileName="InTimezoneExpression_Behavior.java" startLine="38" startPosition="0" endLine="44" endPosition="0" />
+    <scopeInfo nodeId="2890840340813585651" fileName="InTimezoneExpression_Behavior.java" startLine="45" startPosition="0" endLine="51" endPosition="0" />
+    <scopeInfo nodeId="2890840340813585312" fileName="InTimezoneExpression_Behavior.java" startLine="52" startPosition="0" endLine="58" endPosition="0" />
+    <scopeInfo nodeId="2890840340813585328" fileName="InTimezoneExpression_Behavior.java" startLine="59" startPosition="0" endLine="65" endPosition="0" />
+    <scopeInfo nodeId="2890840340813585333" fileName="InTimezoneExpression_Behavior.java" startLine="16" startPosition="31" endLine="23" endPosition="7">
       <varInfo nodeId="2890840340813585341" varName="role" />
     </scopeInfo>
-    <scopeInfo nodeId="2890840340813585278" fileName="InTimezoneExpression_Behavior.java" startLine="31" startPosition="108" endLine="38" endPosition="16" />
-    <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="31" startPosition="0" endLine="40" endPosition="0">
+    <scopeInfo nodeId="2890840340813585278" fileName="InTimezoneExpression_Behavior.java" startLine="28" startPosition="108" endLine="35" endPosition="16" />
+    <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="28" startPosition="0" endLine="37" endPosition="0">
       <varInfo nodeId="2890840340813585279" varName="expression" />
       <varInfo nodeId="2890840340813585281" varName="link" />
       <varInfo nodeId="6626410111395870950" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="6626410111395872160" fileName="InTimezoneExpression_Behavior.java" startLine="18" startPosition="90" endLine="28" endPosition="16" />
-    <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="18" startPosition="0" endLine="30" endPosition="0">
+    <scopeInfo nodeId="6626410111395872160" fileName="InTimezoneExpression_Behavior.java" startLine="15" startPosition="90" endLine="25" endPosition="16" />
+    <scopeInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="15" startPosition="0" endLine="27" endPosition="0">
       <varInfo nodeId="6626410111395872161" varName="expression" />
       <varInfo nodeId="6626410111395870950" varName="thisNode" />
     </scopeInfo>
-    <unitInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="14" startPosition="0" endLine="89" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.InTimezoneExpression_Behavior" />
+    <unitInfo nodeId="6626410111395870950" fileName="InTimezoneExpression_Behavior.java" startLine="11" startPosition="0" endLine="66" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.InTimezoneExpression_Behavior" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903ce(jetbrains.mps.baseLanguage.dates.behavior)/7499037524191428321">
-    <nodeInfo nodeId="7499037524191428821" fileName="ParseDateTimeExpression_Behavior.java" startLine="19" startPosition="31" endLine="20" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7499037524191428859" fileName="ParseDateTimeExpression_Behavior.java" startLine="21" startPosition="178" endLine="22" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7499037524191428818" fileName="ParseDateTimeExpression_Behavior.java" startLine="24" startPosition="5" endLine="25" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7499037524191428872" fileName="ParseDateTimeExpression_Behavior.java" startLine="29" startPosition="132" endLine="30" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7499037524191428878" fileName="ParseDateTimeExpression_Behavior.java" startLine="31" startPosition="5" endLine="32" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="36" startPosition="93" endLine="37" endPosition="155" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="41" startPosition="126" endLine="42" endPosition="316" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="46" startPosition="105" endLine="47" endPosition="167" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="51" startPosition="138" endLine="52" endPosition="341" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7499037524191428861" fileName="ParseDateTimeExpression_Behavior.java" startLine="55" startPosition="64" endLine="56" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7499037524191428861" fileName="ParseDateTimeExpression_Behavior.java" startLine="56" startPosition="63" endLine="57" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7499037524191428861" fileName="ParseDateTimeExpression_Behavior.java" startLine="57" startPosition="30" endLine="58" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="7499037524191428861" fileName="ParseDateTimeExpression_Behavior.java" startLine="57" startPosition="30" endLine="58" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="7499037524191428861" fileName="ParseDateTimeExpression_Behavior.java" startLine="57" startPosition="30" endLine="58" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7499037524191428861" fileName="ParseDateTimeExpression_Behavior.java" startLine="58" startPosition="146" endLine="59" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7499037524191428874" fileName="ParseDateTimeExpression_Behavior.java" startLine="62" startPosition="62" endLine="63" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7499037524191428874" fileName="ParseDateTimeExpression_Behavior.java" startLine="63" startPosition="63" endLine="64" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7499037524191428874" fileName="ParseDateTimeExpression_Behavior.java" startLine="64" startPosition="30" endLine="65" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="7499037524191428874" fileName="ParseDateTimeExpression_Behavior.java" startLine="64" startPosition="30" endLine="65" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="7499037524191428874" fileName="ParseDateTimeExpression_Behavior.java" startLine="64" startPosition="30" endLine="65" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7499037524191428874" fileName="ParseDateTimeExpression_Behavior.java" startLine="65" startPosition="146" endLine="66" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="15" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="7499037524191428842" fileName="ParseDateTimeExpression_Behavior.java" startLine="20" startPosition="49" endLine="23" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="7499037524191428864" fileName="ParseDateTimeExpression_Behavior.java" startLine="28" startPosition="108" endLine="31" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="35" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_deriveType_7499037524191428325#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="40" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="callSuper_deriveType_7499037524191428325#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="45" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_deriveType_7499037524191428434#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="50" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="callSuper_deriveType_7499037524191428434#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="7499037524191428808" fileName="ParseDateTimeExpression_Behavior.java" startLine="18" startPosition="90" endLine="24" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="28" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_deriveType_4555537781928374706#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="7499037524191428861" fileName="ParseDateTimeExpression_Behavior.java" startLine="55" startPosition="0" endLine="61" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_b1835x_a0a1a0a0#()Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="7499037524191428874" fileName="ParseDateTimeExpression_Behavior.java" startLine="62" startPosition="0" endLine="68" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_b1835x_a0a0a1#()Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="18" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_deriveType_1213877435747#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <scopeInfo nodeId="7499037524191428323" fileName="ParseDateTimeExpression_Behavior.java" startLine="15" startPosition="43" endLine="15" endPosition="43" />
-    <scopeInfo nodeId="7499037524191428843" fileName="ParseDateTimeExpression_Behavior.java" startLine="21" startPosition="178" endLine="22" endPosition="55" />
-    <scopeInfo nodeId="7499037524191428866" fileName="ParseDateTimeExpression_Behavior.java" startLine="29" startPosition="132" endLine="30" endPosition="51" />
-    <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="36" startPosition="93" endLine="37" endPosition="155" />
-    <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="41" startPosition="126" endLine="42" endPosition="316" />
-    <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="46" startPosition="105" endLine="47" endPosition="167" />
-    <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="51" startPosition="138" endLine="52" endPosition="341" />
-    <scopeInfo nodeId="7499037524191428861" fileName="ParseDateTimeExpression_Behavior.java" startLine="57" startPosition="30" endLine="58" endPosition="146" />
-    <scopeInfo nodeId="7499037524191428874" fileName="ParseDateTimeExpression_Behavior.java" startLine="64" startPosition="30" endLine="65" endPosition="146" />
-    <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="15" startPosition="0" endLine="17" endPosition="0">
+    <nodeInfo nodeId="7499037524191428821" fileName="ParseDateTimeExpression_Behavior.java" startLine="16" startPosition="31" endLine="17" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7499037524191428859" fileName="ParseDateTimeExpression_Behavior.java" startLine="18" startPosition="178" endLine="19" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7499037524191428818" fileName="ParseDateTimeExpression_Behavior.java" startLine="21" startPosition="5" endLine="22" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7499037524191428872" fileName="ParseDateTimeExpression_Behavior.java" startLine="26" startPosition="132" endLine="27" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7499037524191428878" fileName="ParseDateTimeExpression_Behavior.java" startLine="28" startPosition="5" endLine="29" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7499037524191428861" fileName="ParseDateTimeExpression_Behavior.java" startLine="32" startPosition="64" endLine="33" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7499037524191428861" fileName="ParseDateTimeExpression_Behavior.java" startLine="33" startPosition="63" endLine="34" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7499037524191428861" fileName="ParseDateTimeExpression_Behavior.java" startLine="34" startPosition="30" endLine="35" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="7499037524191428861" fileName="ParseDateTimeExpression_Behavior.java" startLine="34" startPosition="30" endLine="35" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="7499037524191428861" fileName="ParseDateTimeExpression_Behavior.java" startLine="34" startPosition="30" endLine="35" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7499037524191428861" fileName="ParseDateTimeExpression_Behavior.java" startLine="35" startPosition="146" endLine="36" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7499037524191428874" fileName="ParseDateTimeExpression_Behavior.java" startLine="39" startPosition="62" endLine="40" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7499037524191428874" fileName="ParseDateTimeExpression_Behavior.java" startLine="40" startPosition="63" endLine="41" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7499037524191428874" fileName="ParseDateTimeExpression_Behavior.java" startLine="41" startPosition="30" endLine="42" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="7499037524191428874" fileName="ParseDateTimeExpression_Behavior.java" startLine="41" startPosition="30" endLine="42" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="7499037524191428874" fileName="ParseDateTimeExpression_Behavior.java" startLine="41" startPosition="30" endLine="42" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7499037524191428874" fileName="ParseDateTimeExpression_Behavior.java" startLine="42" startPosition="146" endLine="43" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="12" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="7499037524191428842" fileName="ParseDateTimeExpression_Behavior.java" startLine="17" startPosition="49" endLine="20" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="7499037524191428864" fileName="ParseDateTimeExpression_Behavior.java" startLine="25" startPosition="108" endLine="28" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="7499037524191428808" fileName="ParseDateTimeExpression_Behavior.java" startLine="15" startPosition="90" endLine="21" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="25" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_deriveType_4555537781928374706#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="7499037524191428861" fileName="ParseDateTimeExpression_Behavior.java" startLine="32" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_b1835x_a0a1a0a0#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="7499037524191428874" fileName="ParseDateTimeExpression_Behavior.java" startLine="39" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_b1835x_a0a0a1#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="15" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_deriveType_1213877435747#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <scopeInfo nodeId="7499037524191428323" fileName="ParseDateTimeExpression_Behavior.java" startLine="12" startPosition="43" endLine="12" endPosition="43" />
+    <scopeInfo nodeId="7499037524191428843" fileName="ParseDateTimeExpression_Behavior.java" startLine="18" startPosition="178" endLine="19" endPosition="55" />
+    <scopeInfo nodeId="7499037524191428866" fileName="ParseDateTimeExpression_Behavior.java" startLine="26" startPosition="132" endLine="27" endPosition="51" />
+    <scopeInfo nodeId="7499037524191428861" fileName="ParseDateTimeExpression_Behavior.java" startLine="34" startPosition="30" endLine="35" endPosition="146" />
+    <scopeInfo nodeId="7499037524191428874" fileName="ParseDateTimeExpression_Behavior.java" startLine="41" startPosition="30" endLine="42" endPosition="146" />
+    <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="12" startPosition="0" endLine="14" endPosition="0">
       <varInfo nodeId="7499037524191428321" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="7499037524191428810" fileName="ParseDateTimeExpression_Behavior.java" startLine="19" startPosition="31" endLine="23" endPosition="7">
+    <scopeInfo nodeId="7499037524191428810" fileName="ParseDateTimeExpression_Behavior.java" startLine="16" startPosition="31" endLine="20" endPosition="7">
       <varInfo nodeId="7499037524191428822" varName="role" />
     </scopeInfo>
-    <scopeInfo nodeId="7499037524191428436" fileName="ParseDateTimeExpression_Behavior.java" startLine="28" startPosition="108" endLine="32" endPosition="16" />
-    <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="35" startPosition="0" endLine="39" endPosition="0">
-      <varInfo nodeId="7499037524191428328" varName="expression" />
-      <varInfo nodeId="7499037524191428321" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="40" startPosition="0" endLine="44" endPosition="0">
-      <varInfo nodeId="7499037524191428321" varName="callerConceptFqName" />
-      <varInfo nodeId="7499037524191428328" varName="expression" />
-      <varInfo nodeId="7499037524191428321" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="45" startPosition="0" endLine="49" endPosition="0">
-      <varInfo nodeId="7499037524191428437" varName="expression" />
-      <varInfo nodeId="7499037524191428439" varName="link" />
-      <varInfo nodeId="7499037524191428321" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="50" startPosition="0" endLine="54" endPosition="0">
-      <varInfo nodeId="7499037524191428321" varName="callerConceptFqName" />
-      <varInfo nodeId="7499037524191428437" varName="expression" />
-      <varInfo nodeId="7499037524191428439" varName="link" />
-      <varInfo nodeId="7499037524191428321" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="7499037524191428861" fileName="ParseDateTimeExpression_Behavior.java" startLine="55" startPosition="64" endLine="59" endPosition="24">
+    <scopeInfo nodeId="7499037524191428436" fileName="ParseDateTimeExpression_Behavior.java" startLine="25" startPosition="108" endLine="29" endPosition="16" />
+    <scopeInfo nodeId="7499037524191428861" fileName="ParseDateTimeExpression_Behavior.java" startLine="32" startPosition="64" endLine="36" endPosition="24">
       <varInfo nodeId="7499037524191428861" varName="facade" />
       <varInfo nodeId="7499037524191428861" varName="quotedNode_1" />
     </scopeInfo>
-    <scopeInfo nodeId="7499037524191428874" fileName="ParseDateTimeExpression_Behavior.java" startLine="62" startPosition="62" endLine="66" endPosition="24">
+    <scopeInfo nodeId="7499037524191428874" fileName="ParseDateTimeExpression_Behavior.java" startLine="39" startPosition="62" endLine="43" endPosition="24">
       <varInfo nodeId="7499037524191428874" varName="facade" />
       <varInfo nodeId="7499037524191428874" varName="quotedNode_1" />
     </scopeInfo>
-    <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="28" startPosition="0" endLine="34" endPosition="0">
+    <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="25" startPosition="0" endLine="31" endPosition="0">
       <varInfo nodeId="7499037524191428437" varName="expression" />
       <varInfo nodeId="7499037524191428439" varName="link" />
       <varInfo nodeId="7499037524191428321" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="7499037524191428861" fileName="ParseDateTimeExpression_Behavior.java" startLine="55" startPosition="0" endLine="61" endPosition="0" />
-    <scopeInfo nodeId="7499037524191428874" fileName="ParseDateTimeExpression_Behavior.java" startLine="62" startPosition="0" endLine="68" endPosition="0" />
-    <scopeInfo nodeId="7499037524191428327" fileName="ParseDateTimeExpression_Behavior.java" startLine="18" startPosition="90" endLine="25" endPosition="16" />
-    <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="18" startPosition="0" endLine="27" endPosition="0">
+    <scopeInfo nodeId="7499037524191428861" fileName="ParseDateTimeExpression_Behavior.java" startLine="32" startPosition="0" endLine="38" endPosition="0" />
+    <scopeInfo nodeId="7499037524191428874" fileName="ParseDateTimeExpression_Behavior.java" startLine="39" startPosition="0" endLine="45" endPosition="0" />
+    <scopeInfo nodeId="7499037524191428327" fileName="ParseDateTimeExpression_Behavior.java" startLine="15" startPosition="90" endLine="22" endPosition="16" />
+    <scopeInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="15" startPosition="0" endLine="24" endPosition="0">
       <varInfo nodeId="7499037524191428328" varName="expression" />
       <varInfo nodeId="7499037524191428321" varName="thisNode" />
     </scopeInfo>
-    <unitInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="14" startPosition="0" endLine="69" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.ParseDateTimeExpression_Behavior" />
+    <unitInfo nodeId="7499037524191428321" fileName="ParseDateTimeExpression_Behavior.java" startLine="11" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.ParseDateTimeExpression_Behavior" />
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903ce(jetbrains.mps.baseLanguage.dates.behavior)/779372288056821935">
-    <nodeInfo nodeId="779372288056825301" fileName="TimeConstant_Behavior.java" startLine="19" startPosition="31" endLine="20" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="779372288056825311" fileName="TimeConstant_Behavior.java" startLine="21" startPosition="171" endLine="22" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="779372288056825289" fileName="TimeConstant_Behavior.java" startLine="24" startPosition="5" endLine="25" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="779372288056825363" fileName="TimeConstant_Behavior.java" startLine="29" startPosition="125" endLine="30" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="779372288056825354" fileName="TimeConstant_Behavior.java" startLine="31" startPosition="5" endLine="32" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="36" startPosition="92" endLine="37" endPosition="155" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="41" startPosition="125" endLine="42" endPosition="305" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="46" startPosition="104" endLine="47" endPosition="167" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="51" startPosition="137" endLine="52" endPosition="330" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="779372288056825312" fileName="TimeConstant_Behavior.java" startLine="55" startPosition="64" endLine="56" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="779372288056825312" fileName="TimeConstant_Behavior.java" startLine="56" startPosition="63" endLine="57" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="779372288056825312" fileName="TimeConstant_Behavior.java" startLine="57" startPosition="30" endLine="58" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="779372288056825312" fileName="TimeConstant_Behavior.java" startLine="57" startPosition="30" endLine="58" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="779372288056825312" fileName="TimeConstant_Behavior.java" startLine="57" startPosition="30" endLine="58" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="779372288056825312" fileName="TimeConstant_Behavior.java" startLine="58" startPosition="146" endLine="59" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="779372288056825364" fileName="TimeConstant_Behavior.java" startLine="62" startPosition="62" endLine="63" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="779372288056825364" fileName="TimeConstant_Behavior.java" startLine="63" startPosition="63" endLine="64" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="779372288056825364" fileName="TimeConstant_Behavior.java" startLine="64" startPosition="30" endLine="65" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="779372288056825364" fileName="TimeConstant_Behavior.java" startLine="64" startPosition="30" endLine="65" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="779372288056825364" fileName="TimeConstant_Behavior.java" startLine="64" startPosition="30" endLine="65" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="779372288056825364" fileName="TimeConstant_Behavior.java" startLine="65" startPosition="146" endLine="66" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="15" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="779372288056825309" fileName="TimeConstant_Behavior.java" startLine="20" startPosition="49" endLine="23" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="779372288056825361" fileName="TimeConstant_Behavior.java" startLine="28" startPosition="108" endLine="31" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="35" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_deriveType_779372288056823164#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="40" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="callSuper_deriveType_779372288056823164#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="45" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_deriveType_779372288056825341#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="50" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="callSuper_deriveType_779372288056825341#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="779372288056825299" fileName="TimeConstant_Behavior.java" startLine="18" startPosition="90" endLine="24" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="28" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_deriveType_4555537781928374706#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="779372288056825312" fileName="TimeConstant_Behavior.java" startLine="55" startPosition="0" endLine="61" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_annx5s_a0a1a0a0#()Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="779372288056825364" fileName="TimeConstant_Behavior.java" startLine="62" startPosition="0" endLine="68" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_annx5s_a0a0a1#()Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="18" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_deriveType_1213877435747#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <scopeInfo nodeId="779372288056821937" fileName="TimeConstant_Behavior.java" startLine="15" startPosition="43" endLine="15" endPosition="43" />
-    <scopeInfo nodeId="779372288056825310" fileName="TimeConstant_Behavior.java" startLine="21" startPosition="171" endLine="22" endPosition="55" />
-    <scopeInfo nodeId="779372288056825362" fileName="TimeConstant_Behavior.java" startLine="29" startPosition="125" endLine="30" endPosition="51" />
-    <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="36" startPosition="92" endLine="37" endPosition="155" />
-    <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="41" startPosition="125" endLine="42" endPosition="305" />
-    <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="46" startPosition="104" endLine="47" endPosition="167" />
-    <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="51" startPosition="137" endLine="52" endPosition="330" />
-    <scopeInfo nodeId="779372288056825312" fileName="TimeConstant_Behavior.java" startLine="57" startPosition="30" endLine="58" endPosition="146" />
-    <scopeInfo nodeId="779372288056825364" fileName="TimeConstant_Behavior.java" startLine="64" startPosition="30" endLine="65" endPosition="146" />
-    <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="15" startPosition="0" endLine="17" endPosition="0">
+    <nodeInfo nodeId="779372288056825301" fileName="TimeConstant_Behavior.java" startLine="16" startPosition="31" endLine="17" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="779372288056825311" fileName="TimeConstant_Behavior.java" startLine="18" startPosition="171" endLine="19" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="779372288056825289" fileName="TimeConstant_Behavior.java" startLine="21" startPosition="5" endLine="22" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="779372288056825363" fileName="TimeConstant_Behavior.java" startLine="26" startPosition="125" endLine="27" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="779372288056825354" fileName="TimeConstant_Behavior.java" startLine="28" startPosition="5" endLine="29" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="779372288056825312" fileName="TimeConstant_Behavior.java" startLine="32" startPosition="64" endLine="33" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="779372288056825312" fileName="TimeConstant_Behavior.java" startLine="33" startPosition="63" endLine="34" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="779372288056825312" fileName="TimeConstant_Behavior.java" startLine="34" startPosition="30" endLine="35" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="779372288056825312" fileName="TimeConstant_Behavior.java" startLine="34" startPosition="30" endLine="35" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="779372288056825312" fileName="TimeConstant_Behavior.java" startLine="34" startPosition="30" endLine="35" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="779372288056825312" fileName="TimeConstant_Behavior.java" startLine="35" startPosition="146" endLine="36" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="779372288056825364" fileName="TimeConstant_Behavior.java" startLine="39" startPosition="62" endLine="40" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="779372288056825364" fileName="TimeConstant_Behavior.java" startLine="40" startPosition="63" endLine="41" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="779372288056825364" fileName="TimeConstant_Behavior.java" startLine="41" startPosition="30" endLine="42" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="779372288056825364" fileName="TimeConstant_Behavior.java" startLine="41" startPosition="30" endLine="42" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="779372288056825364" fileName="TimeConstant_Behavior.java" startLine="41" startPosition="30" endLine="42" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="779372288056825364" fileName="TimeConstant_Behavior.java" startLine="42" startPosition="146" endLine="43" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="12" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="779372288056825309" fileName="TimeConstant_Behavior.java" startLine="17" startPosition="49" endLine="20" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="779372288056825361" fileName="TimeConstant_Behavior.java" startLine="25" startPosition="108" endLine="28" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="779372288056825299" fileName="TimeConstant_Behavior.java" startLine="15" startPosition="90" endLine="21" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="25" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_deriveType_4555537781928374706#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="779372288056825312" fileName="TimeConstant_Behavior.java" startLine="32" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_annx5s_a0a1a0a0#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="779372288056825364" fileName="TimeConstant_Behavior.java" startLine="39" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_annx5s_a0a0a1#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="15" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_deriveType_1213877435747#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <scopeInfo nodeId="779372288056821937" fileName="TimeConstant_Behavior.java" startLine="12" startPosition="43" endLine="12" endPosition="43" />
+    <scopeInfo nodeId="779372288056825310" fileName="TimeConstant_Behavior.java" startLine="18" startPosition="171" endLine="19" endPosition="55" />
+    <scopeInfo nodeId="779372288056825362" fileName="TimeConstant_Behavior.java" startLine="26" startPosition="125" endLine="27" endPosition="51" />
+    <scopeInfo nodeId="779372288056825312" fileName="TimeConstant_Behavior.java" startLine="34" startPosition="30" endLine="35" endPosition="146" />
+    <scopeInfo nodeId="779372288056825364" fileName="TimeConstant_Behavior.java" startLine="41" startPosition="30" endLine="42" endPosition="146" />
+    <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="12" startPosition="0" endLine="14" endPosition="0">
       <varInfo nodeId="779372288056821935" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="779372288056825300" fileName="TimeConstant_Behavior.java" startLine="19" startPosition="31" endLine="23" endPosition="7">
+    <scopeInfo nodeId="779372288056825300" fileName="TimeConstant_Behavior.java" startLine="16" startPosition="31" endLine="20" endPosition="7">
       <varInfo nodeId="779372288056825302" varName="role" />
     </scopeInfo>
-    <scopeInfo nodeId="779372288056825343" fileName="TimeConstant_Behavior.java" startLine="28" startPosition="108" endLine="32" endPosition="16" />
-    <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="35" startPosition="0" endLine="39" endPosition="0">
-      <varInfo nodeId="779372288056823167" varName="expression" />
-      <varInfo nodeId="779372288056821935" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="40" startPosition="0" endLine="44" endPosition="0">
-      <varInfo nodeId="779372288056821935" varName="callerConceptFqName" />
-      <varInfo nodeId="779372288056823167" varName="expression" />
-      <varInfo nodeId="779372288056821935" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="45" startPosition="0" endLine="49" endPosition="0">
-      <varInfo nodeId="779372288056825344" varName="expression" />
-      <varInfo nodeId="779372288056825346" varName="link" />
-      <varInfo nodeId="779372288056821935" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="50" startPosition="0" endLine="54" endPosition="0">
-      <varInfo nodeId="779372288056821935" varName="callerConceptFqName" />
-      <varInfo nodeId="779372288056825344" varName="expression" />
-      <varInfo nodeId="779372288056825346" varName="link" />
-      <varInfo nodeId="779372288056821935" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="779372288056825312" fileName="TimeConstant_Behavior.java" startLine="55" startPosition="64" endLine="59" endPosition="24">
+    <scopeInfo nodeId="779372288056825343" fileName="TimeConstant_Behavior.java" startLine="25" startPosition="108" endLine="29" endPosition="16" />
+    <scopeInfo nodeId="779372288056825312" fileName="TimeConstant_Behavior.java" startLine="32" startPosition="64" endLine="36" endPosition="24">
       <varInfo nodeId="779372288056825312" varName="facade" />
       <varInfo nodeId="779372288056825312" varName="quotedNode_1" />
     </scopeInfo>
-    <scopeInfo nodeId="779372288056825364" fileName="TimeConstant_Behavior.java" startLine="62" startPosition="62" endLine="66" endPosition="24">
+    <scopeInfo nodeId="779372288056825364" fileName="TimeConstant_Behavior.java" startLine="39" startPosition="62" endLine="43" endPosition="24">
       <varInfo nodeId="779372288056825364" varName="facade" />
       <varInfo nodeId="779372288056825364" varName="quotedNode_1" />
     </scopeInfo>
-    <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="28" startPosition="0" endLine="34" endPosition="0">
+    <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="25" startPosition="0" endLine="31" endPosition="0">
       <varInfo nodeId="779372288056825344" varName="expression" />
       <varInfo nodeId="779372288056825346" varName="link" />
       <varInfo nodeId="779372288056821935" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="779372288056825312" fileName="TimeConstant_Behavior.java" startLine="55" startPosition="0" endLine="61" endPosition="0" />
-    <scopeInfo nodeId="779372288056825364" fileName="TimeConstant_Behavior.java" startLine="62" startPosition="0" endLine="68" endPosition="0" />
-    <scopeInfo nodeId="779372288056823166" fileName="TimeConstant_Behavior.java" startLine="18" startPosition="90" endLine="25" endPosition="16" />
-    <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="18" startPosition="0" endLine="27" endPosition="0">
+    <scopeInfo nodeId="779372288056825312" fileName="TimeConstant_Behavior.java" startLine="32" startPosition="0" endLine="38" endPosition="0" />
+    <scopeInfo nodeId="779372288056825364" fileName="TimeConstant_Behavior.java" startLine="39" startPosition="0" endLine="45" endPosition="0" />
+    <scopeInfo nodeId="779372288056823166" fileName="TimeConstant_Behavior.java" startLine="15" startPosition="90" endLine="22" endPosition="16" />
+    <scopeInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="15" startPosition="0" endLine="24" endPosition="0">
       <varInfo nodeId="779372288056823167" varName="expression" />
       <varInfo nodeId="779372288056821935" varName="thisNode" />
     </scopeInfo>
-    <unitInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="14" startPosition="0" endLine="69" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.TimeConstant_Behavior" />
+    <unitInfo nodeId="779372288056821935" fileName="TimeConstant_Behavior.java" startLine="11" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.behavior.TimeConstant_Behavior" />
   </root>
 </debugInfo>
 

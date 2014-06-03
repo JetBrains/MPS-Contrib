@@ -5,9 +5,6 @@ package jetbrains.mps.buildlanguage.behavior;
 import org.jetbrains.mps.openapi.model.SNode;
 import java.util.List;
 import java.util.ArrayList;
-import jetbrains.mps.smodel.behaviour.BehaviorReflection;
-import jetbrains.mps.smodel.behaviour.BehaviorManager;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class AbstractImportProperties_Behavior {
   public static void init(SNode thisNode) {
@@ -15,15 +12,5 @@ public class AbstractImportProperties_Behavior {
 
   public static List<SNode> virtual_getPropertyDeclarations_1240397763706(SNode thisNode) {
     return new ArrayList<SNode>();
-  }
-
-  @Deprecated
-  public static List<SNode> call_getPropertyDeclarations_1240397763706(SNode thisNode) {
-    return BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), thisNode, "virtual_getPropertyDeclarations_1240397763706", new Object[]{});
-  }
-
-  @Deprecated
-  public static List<SNode> callSuper_getPropertyDeclarations_1240397763706(SNode thisNode, String callerConceptFqName) {
-    return BehaviorManager.getInstance().invokeSuper((Class<List<SNode>>) ((Class) Object.class), SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.AbstractImportProperties"), callerConceptFqName, "virtual_getPropertyDeclarations_1240397763706", new Class[]{SNode.class}, new Object[]{});
   }
 }

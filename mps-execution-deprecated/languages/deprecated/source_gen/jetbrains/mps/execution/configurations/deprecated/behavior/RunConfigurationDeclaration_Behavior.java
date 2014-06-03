@@ -15,7 +15,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
-import jetbrains.mps.smodel.behaviour.BehaviorManager;
 import org.jetbrains.mps.openapi.persistence.PersistenceFacade;
 import jetbrains.mps.smodel.SModelUtil_new;
 import org.jetbrains.mps.openapi.model.SNodeAccessUtil;
@@ -80,16 +79,6 @@ public class RunConfigurationDeclaration_Behavior {
 
   public static boolean virtual_requiresCustomEditor_1262430001741498265(SAbstractConcept thisConcept) {
     return true;
-  }
-
-  @Deprecated
-  public static SNode call_getStateType_314981645426570519(SNode thisNode) {
-    return BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), thisNode, "virtual_getStateType_314981645426570519", new Object[]{});
-  }
-
-  @Deprecated
-  public static SNode callSuper_getStateType_314981645426570519(SNode thisNode, String callerConceptFqName) {
-    return BehaviorManager.getInstance().invokeSuper((Class<SNode>) ((Class) Object.class), jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations.cast(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigurationDeclaration"), callerConceptFqName, "virtual_getStateType_314981645426570519", new Class[]{SNode.class}, new Object[]{});
   }
 
   private static SNode _quotation_createNode_ym0401_a0a5(Object parameter_1) {

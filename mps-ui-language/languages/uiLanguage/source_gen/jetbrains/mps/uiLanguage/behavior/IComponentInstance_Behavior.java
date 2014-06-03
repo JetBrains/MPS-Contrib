@@ -7,8 +7,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
-import jetbrains.mps.smodel.behaviour.BehaviorReflection;
-import jetbrains.mps.smodel.behaviour.BehaviorManager;
 
 public class IComponentInstance_Behavior {
   public static void init(SNode thisNode) {
@@ -24,15 +22,5 @@ public class IComponentInstance_Behavior {
 
   public static SNode virtual_getExtendedComponent_1213877498080(SNode thisNode) {
     return null;
-  }
-
-  @Deprecated
-  public static SNode call_getExtendedComponent_1213877498080(SNode thisNode) {
-    return BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), thisNode, "virtual_getExtendedComponent_1213877498080", new Object[]{});
-  }
-
-  @Deprecated
-  public static SNode callSuper_getExtendedComponent_1213877498080(SNode thisNode, String callerConceptFqName) {
-    return BehaviorManager.getInstance().invokeSuper((Class<SNode>) ((Class) Object.class), SNodeOperations.cast(thisNode, "jetbrains.mps.uiLanguage.structure.IComponentInstance"), callerConceptFqName, "virtual_getExtendedComponent_1213877498080", new Class[]{SNode.class}, new Object[]{});
   }
 }

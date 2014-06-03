@@ -5,6 +5,7 @@ package jetbrains.mps.buildlanguage.behavior;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class TargetReferencePropertyValueExpression_Behavior {
@@ -21,7 +22,7 @@ public class TargetReferencePropertyValueExpression_Behavior {
   }
 
   public static String virtual_getActualValue_1213877472572(SNode thisNode) {
-    return PropertyValueExpression_Behavior.call_toString_1213877472569(thisNode);
+    return BehaviorReflection.invokeVirtual(String.class, thisNode, "virtual_toString_1213877472569", new Object[]{});
   }
 
   public static String virtual_getProjectFileName_1230222765831(SNode thisNode) {

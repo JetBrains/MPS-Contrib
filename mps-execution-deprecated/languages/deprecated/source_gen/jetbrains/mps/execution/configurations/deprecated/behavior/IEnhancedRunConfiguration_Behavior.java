@@ -6,9 +6,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
-import jetbrains.mps.smodel.behaviour.BehaviorReflection;
-import jetbrains.mps.smodel.behaviour.BehaviorManager;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class IEnhancedRunConfiguration_Behavior {
   public static void init(SNode thisNode) {
@@ -16,15 +13,5 @@ public class IEnhancedRunConfiguration_Behavior {
 
   public static List<SNode> virtual_getAdditionalParameters_314981645426570797(SNode thisNode) {
     return ListSequence.fromList(new LinkedList<SNode>());
-  }
-
-  @Deprecated
-  public static List<SNode> call_getAdditionalParameters_314981645426570797(SNode thisNode) {
-    return BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), thisNode, "virtual_getAdditionalParameters_314981645426570797", new Object[]{});
-  }
-
-  @Deprecated
-  public static List<SNode> callSuper_getAdditionalParameters_314981645426570797(SNode thisNode, String callerConceptFqName) {
-    return BehaviorManager.getInstance().invokeSuper((Class<List<SNode>>) ((Class) Object.class), SNodeOperations.cast(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.IEnhancedRunConfiguration"), callerConceptFqName, "virtual_getAdditionalParameters_314981645426570797", new Class[]{SNode.class}, new Object[]{});
   }
 }

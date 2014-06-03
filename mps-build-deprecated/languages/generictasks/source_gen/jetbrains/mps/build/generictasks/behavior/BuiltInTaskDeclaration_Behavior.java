@@ -10,7 +10,6 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
-import jetbrains.mps.buildlanguage.behavior.IDeclaration_Behavior;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import org.jetbrains.mps.openapi.model.SModel;
@@ -74,14 +73,14 @@ public class BuiltInTaskDeclaration_Behavior {
   public static boolean virtual_isHeirOf_5699548131010535069(SNode thisNode, SNode probableParent) {
     if (SNodeOperations.isInstanceOf(probableParent, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration") && SPropertyOperations.getBoolean(SNodeOperations.cast(probableParent, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration"), "fake")) {
       SNode declOfProbableParent = SNodeOperations.cast(probableParent, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration");
-      if ((SLinkOperations.getTarget(declOfProbableParent, "parentRef", true) != null) && IDeclaration_Behavior.call_isHeirOf_5699548131010535069(thisNode, SLinkOperations.getTarget(SLinkOperations.getTarget(declOfProbableParent, "parentRef", true), "declaration", false))) {
+      if ((SLinkOperations.getTarget(declOfProbableParent, "parentRef", true) != null) && BehaviorReflection.invokeVirtual(Boolean.TYPE, thisNode, "virtual_isHeirOf_5699548131010535069", new Object[]{SLinkOperations.getTarget(SLinkOperations.getTarget(declOfProbableParent, "parentRef", true), "declaration", false)})) {
         return true;
       }
       if ((SLinkOperations.getTarget(declOfProbableParent, "parentRef", true) != null)) {
         return false;
       }
       for (SNode intRef : ListSequence.fromList(SLinkOperations.getTargets(declOfProbableParent, "interfaces", true))) {
-        if (IDeclaration_Behavior.call_isHeirOf_5699548131010535069(thisNode, SLinkOperations.getTarget(intRef, "declaration", false))) {
+        if (BehaviorReflection.invokeVirtual(Boolean.TYPE, thisNode, "virtual_isHeirOf_5699548131010535069", new Object[]{SLinkOperations.getTarget(intRef, "declaration", false)})) {
           return true;
         }
       }

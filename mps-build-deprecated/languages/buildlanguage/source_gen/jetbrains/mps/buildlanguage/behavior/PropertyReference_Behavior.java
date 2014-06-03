@@ -32,7 +32,7 @@ public class PropertyReference_Behavior {
       return "";
     }
     if ((SLinkOperations.getTarget(SNodeOperations.cast(propertyDeclaration, "jetbrains.mps.buildlanguage.structure.PropertyDeclaration"), "propertyValue", true) == null)) {
-      return PropertyValueExpression_Behavior.call_toString_1213877472569(thisNode);
+      return BehaviorReflection.invokeVirtual(String.class, thisNode, "virtual_toString_1213877472569", new Object[]{});
     }
     return BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(thisNode, "propertyDeclaration", false), "jetbrains.mps.buildlanguage.structure.PropertyDeclaration"), "propertyValue", true), "virtual_getActualValue_1213877472572", new Object[]{});
   }

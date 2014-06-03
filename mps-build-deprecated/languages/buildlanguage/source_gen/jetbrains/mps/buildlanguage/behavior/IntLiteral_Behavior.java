@@ -4,6 +4,7 @@ package jetbrains.mps.buildlanguage.behavior;
 
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 
 public class IntLiteral_Behavior {
   public static void init(SNode thisNode) {
@@ -17,6 +18,6 @@ public class IntLiteral_Behavior {
   }
 
   public static String virtual_getActualValue_1213877472572(SNode thisNode) {
-    return PropertyValueExpression_Behavior.call_toString_1213877472569(thisNode);
+    return BehaviorReflection.invokeVirtual(String.class, thisNode, "virtual_toString_1213877472569", new Object[]{});
   }
 }

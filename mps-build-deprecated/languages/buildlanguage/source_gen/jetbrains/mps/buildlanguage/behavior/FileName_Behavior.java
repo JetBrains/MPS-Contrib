@@ -22,7 +22,7 @@ public class FileName_Behavior {
   }
 
   public static boolean call_exists_1213877511925(SNode thisNode) {
-    String filename = PropertyValueExpression_Behavior.call_getActualValue_1213877472572(thisNode);
+    String filename = BehaviorReflection.invokeVirtual(String.class, thisNode, "virtual_getActualValue_1213877472572", new Object[]{});
     File f = new File(filename);
     if (f.exists()) {
       return true;
