@@ -9,7 +9,7 @@ import org.jdom.Element;
 import org.jdom.Document;
 import org.jdom.output.Format;
 import org.jdom.output.XMLOutputter;
-import jetbrains.mps.logging.Logger;
+import org.apache.log4j.Logger;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
