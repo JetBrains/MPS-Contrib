@@ -12,7 +12,6 @@ import javax.swing.SwingUtilities;
 import javax.swing.JFrame;
 import jetbrains.mps.ide.ui.filechoosers.treefilechooser.TreeFileChooser;
 import jetbrains.mps.vfs.IFile;
-import jetbrains.mps.smodel.ModelAccess;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.util.EncodingUtil;
 import java.io.ByteArrayOutputStream;
@@ -46,12 +45,12 @@ public class EditorIconUtil {
           return;
         }
 
-        ModelAccess.instance().runCommandInEDT(new Runnable() {
+        context.getOperationContext().getProject().getModelAccess().executeCommandInEDT(new Runnable() {
           @Override
           public void run() {
             SPropertyOperations.set(node, "iconData", EncodingUtil.encodeBase64(content));
           }
-        }, context.getOperationContext().getProject());
+        });
       }
     });
     return button;
