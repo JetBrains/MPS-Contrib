@@ -80,6 +80,7 @@ public class PlusOperation_Editor extends DefaultNodeEditor {
       }
     }, node);
     editorCell.setAction(CellActionType.DELETE, EmptyCellAction.getInstance());
+    editorCell.setAction(CellActionType.BACKSPACE, EmptyCellAction.getInstance());
     editorCell.setSubstituteInfo(new CompositeSubstituteInfo(editorContext, new BasicCellContext(node), new SubstituteInfoPartExt[]{new PlusOperation_Editor.ReplaceWith_BinaryOperation_cellMenu_306krj_a0b0()}));
     editorCell.setCellId("ReadOnlyModelAccessor_306krj_b0");
     Style style = new StyleImpl();

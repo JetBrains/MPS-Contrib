@@ -12,12 +12,33 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 public class FormatDateTimeExpression_deleteLocale {
   public static void setCellActions(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setAction(CellActionType.DELETE, new FormatDateTimeExpression_deleteLocale.FormatDateTimeExpression_deleteLocale_DELETE(node));
+    editorCell.setAction(CellActionType.BACKSPACE, new FormatDateTimeExpression_deleteLocale.FormatDateTimeExpression_deleteLocale_BACKSPACE(node));
   }
 
   public static class FormatDateTimeExpression_deleteLocale_DELETE extends AbstractCellAction {
     /*package*/ SNode myNode;
 
     public FormatDateTimeExpression_deleteLocale_DELETE(SNode node) {
+      this.myNode = node;
+    }
+
+    public String getDescriptionText() {
+      return "Remove locale";
+    }
+
+    public void execute(EditorContext editorContext) {
+      this.execute_internal(editorContext, this.myNode);
+    }
+
+    public void execute_internal(EditorContext editorContext, SNode node) {
+      SLinkOperations.setTarget(node, "locale", null, false);
+    }
+  }
+
+  public static class FormatDateTimeExpression_deleteLocale_BACKSPACE extends AbstractCellAction {
+    /*package*/ SNode myNode;
+
+    public FormatDateTimeExpression_deleteLocale_BACKSPACE(SNode node) {
       this.myNode = node;
     }
 
