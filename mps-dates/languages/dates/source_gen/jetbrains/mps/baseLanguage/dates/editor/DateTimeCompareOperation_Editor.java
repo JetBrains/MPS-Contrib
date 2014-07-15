@@ -243,6 +243,7 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
       }
     }, node);
     editorCell.setAction(CellActionType.DELETE, EmptyCellAction.getInstance());
+    editorCell.setAction(CellActionType.BACKSPACE, EmptyCellAction.getInstance());
     editorCell.setCellId("ReadOnlyModelAccessor_ehy6fr_b0");
     Style style = new StyleImpl();
     style.set(StyleAttributes.EDITABLE, false);

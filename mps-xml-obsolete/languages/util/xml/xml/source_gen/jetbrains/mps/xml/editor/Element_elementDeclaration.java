@@ -86,6 +86,7 @@ public class Element_elementDeclaration implements ConceptEditorComponent {
         }
       }, node);
       editorCell.setAction(CellActionType.DELETE, EmptyCellAction.getInstance());
+      editorCell.setAction(CellActionType.BACKSPACE, EmptyCellAction.getInstance());
       editorCell.setCellId("ReadOnlyModelAccessor_vbcaz4_a0a0");
       return editorCell;
     }

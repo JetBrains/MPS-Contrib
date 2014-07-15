@@ -58,6 +58,7 @@ public class RunConfigExecutionParameterDeclaration_Editor extends DefaultNodeEd
       }
     }, node);
     editorCell.setAction(CellActionType.DELETE, EmptyCellAction.getInstance());
+    editorCell.setAction(CellActionType.BACKSPACE, EmptyCellAction.getInstance());
     editorCell.setCellId("ReadOnlyModelAccessor_ystr20_a0");
     return editorCell;
   }
