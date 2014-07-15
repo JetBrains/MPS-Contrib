@@ -1,21 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debugInfo>
-  <unitInfo fileName="AssertXMLEquals_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.behavior.AssertXMLEquals_BehaviorDescriptor" />
-  <unitInfo fileName="Attribute_BehaviorDescriptor.java" startLine="11" startPosition="0" endLine="24" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.behavior.Attribute_BehaviorDescriptor" />
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="36" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.behavior.BehaviorAspectDescriptor" />
-  <unitInfo fileName="Document_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.behavior.Document_BehaviorDescriptor" />
-  <unitInfo fileName="ElementPart_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.behavior.ElementPart_BehaviorDescriptor" />
-  <unitInfo fileName="Element_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.behavior.Element_BehaviorDescriptor" />
-  <unitInfo fileName="Text_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.behavior.Text_BehaviorDescriptor" />
-  <unitInfo fileName="XMLLiteral_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.behavior.XMLLiteral_BehaviorDescriptor" />
-  <unitInfo fileName="XMLStringLiteral_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.behavior.XMLStringLiteral_BehaviorDescriptor" />
-  <root nodeRef="r:636c9596-b7dd-4f5f-8b0b-20006d279b8b(jetbrains.mps.xmlUnitTest.behavior)/2511103526757027822">
-    <nodeInfo nodeId="2511103526757027822" fileName="Text_Behavior.java" startLine="8" startPosition="0" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <scopeInfo nodeId="2511103526757027824" fileName="Text_Behavior.java" startLine="8" startPosition="43" endLine="8" endPosition="43" />
-    <scopeInfo nodeId="2511103526757027822" fileName="Text_Behavior.java" startLine="8" startPosition="0" endLine="10" endPosition="0">
-      <varInfo nodeId="2511103526757027822" varName="thisNode" />
-    </scopeInfo>
-    <unitInfo nodeId="2511103526757027822" fileName="Text_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.behavior.Text_Behavior" />
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="Text_BehaviorDescriptor.java">
+      <unit at="7,0,16,0" name="jetbrains.mps.xmlUnitTest.behavior.Text_BehaviorDescriptor" />
+    </file>
+    <file name="AssertXMLEquals_BehaviorDescriptor.java">
+      <unit at="8,0,17,0" name="jetbrains.mps.xmlUnitTest.behavior.AssertXMLEquals_BehaviorDescriptor" />
+    </file>
+    <file name="ElementPart_BehaviorDescriptor.java">
+      <unit at="10,0,23,0" name="jetbrains.mps.xmlUnitTest.behavior.ElementPart_BehaviorDescriptor" />
+    </file>
+    <file name="XMLLiteral_BehaviorDescriptor.java">
+      <unit at="7,0,16,0" name="jetbrains.mps.xmlUnitTest.behavior.XMLLiteral_BehaviorDescriptor" />
+    </file>
+    <file name="Document_BehaviorDescriptor.java">
+      <unit at="10,0,23,0" name="jetbrains.mps.xmlUnitTest.behavior.Document_BehaviorDescriptor" />
+    </file>
+    <file name="XMLStringLiteral_BehaviorDescriptor.java">
+      <unit at="7,0,16,0" name="jetbrains.mps.xmlUnitTest.behavior.XMLStringLiteral_BehaviorDescriptor" />
+    </file>
+    <file name="BehaviorAspectDescriptor.java">
+      <unit at="9,0,36,0" name="jetbrains.mps.xmlUnitTest.behavior.BehaviorAspectDescriptor" />
+    </file>
+    <file name="Attribute_BehaviorDescriptor.java">
+      <unit at="11,0,24,0" name="jetbrains.mps.xmlUnitTest.behavior.Attribute_BehaviorDescriptor" />
+    </file>
+    <file name="Element_BehaviorDescriptor.java">
+      <unit at="6,0,15,0" name="jetbrains.mps.xmlUnitTest.behavior.Element_BehaviorDescriptor" />
+    </file>
   </root>
-</debugInfo>
+  <root nodeRef="r:636c9596-b7dd-4f5f-8b0b-20006d279b8b(jetbrains.mps.xmlUnitTest.behavior)/2511103526757027822">
+    <file name="Text_Behavior.java">
+      <node id="2511103526757027822" at="8,0,10,0" concept="0" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <scope id="2511103526757027824" at="8,43,8,43" />
+      <scope id="2511103526757027822" at="8,0,10,0">
+        <var name="thisNode" id="2511103526757027822" />
+      </scope>
+      <unit id="2511103526757027822" at="7,0,11,0" name="jetbrains.mps.xmlUnitTest.behavior.Text_Behavior" />
+    </file>
+  </root>
+</debug-info>
 

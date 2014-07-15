@@ -1,201 +1,272 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debugInfo>
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="52" endPosition="0" unitName="jetbrains.mps.gtext.behavior.BehaviorAspectDescriptor" />
-  <unitInfo fileName="BuilderContextRef_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="22" endPosition="0" unitName="jetbrains.mps.gtext.behavior.BuilderContextRef_BehaviorDescriptor" />
-  <unitInfo fileName="GCompositeItem_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GCompositeItem_BehaviorDescriptor" />
-  <unitInfo fileName="GConditionalLine_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GConditionalLine_BehaviorDescriptor" />
-  <unitInfo fileName="GContentBlock_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="27" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GContentBlock_BehaviorDescriptor" />
-  <unitInfo fileName="GContentPlaceholder_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="22" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GContentPlaceholder_BehaviorDescriptor" />
-  <unitInfo fileName="GDocument_BehaviorDescriptor.java" startLine="11" startPosition="0" endLine="28" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GDocument_BehaviorDescriptor" />
-  <unitInfo fileName="GExpressionItem_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GExpressionItem_BehaviorDescriptor" />
-  <unitInfo fileName="GIndentBlock_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GIndentBlock_BehaviorDescriptor" />
-  <unitInfo fileName="GIndent_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GIndent_BehaviorDescriptor" />
-  <unitInfo fileName="GItemList_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="25" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GItemList_BehaviorDescriptor" />
-  <unitInfo fileName="GItemStatement_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GItemStatement_BehaviorDescriptor" />
-  <unitInfo fileName="GItem_BehaviorDescriptor.java" startLine="11" startPosition="0" endLine="29" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GItem_BehaviorDescriptor" />
-  <unitInfo fileName="GLine_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="25" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GLine_BehaviorDescriptor" />
-  <unitInfo fileName="GNewLine_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GNewLine_BehaviorDescriptor" />
-  <unitInfo fileName="GSeparatorItemList_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GSeparatorItemList_BehaviorDescriptor" />
-  <unitInfo fileName="GStatementItem_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GStatementItem_BehaviorDescriptor" />
-  <unitInfo fileName="GTextConcept_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GTextConcept_BehaviorDescriptor" />
-  <unitInfo fileName="GText_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GText_BehaviorDescriptor" />
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.BreakStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="GNewLine_BehaviorDescriptor.java">
+      <unit at="6,0,15,0" name="jetbrains.mps.gtext.behavior.GNewLine_BehaviorDescriptor" />
+    </file>
+    <file name="GContentPlaceholder_BehaviorDescriptor.java">
+      <unit at="9,0,22,0" name="jetbrains.mps.gtext.behavior.GContentPlaceholder_BehaviorDescriptor" />
+    </file>
+    <file name="GItem_BehaviorDescriptor.java">
+      <unit at="11,0,29,0" name="jetbrains.mps.gtext.behavior.GItem_BehaviorDescriptor" />
+    </file>
+    <file name="GDocument_BehaviorDescriptor.java">
+      <unit at="11,0,28,0" name="jetbrains.mps.gtext.behavior.GDocument_BehaviorDescriptor" />
+    </file>
+    <file name="GStatementItem_BehaviorDescriptor.java">
+      <unit at="6,0,15,0" name="jetbrains.mps.gtext.behavior.GStatementItem_BehaviorDescriptor" />
+    </file>
+    <file name="GText_BehaviorDescriptor.java">
+      <unit at="6,0,15,0" name="jetbrains.mps.gtext.behavior.GText_BehaviorDescriptor" />
+    </file>
+    <file name="GCompositeItem_BehaviorDescriptor.java">
+      <unit at="8,0,11,0" name="jetbrains.mps.gtext.behavior.GCompositeItem_BehaviorDescriptor" />
+    </file>
+    <file name="GItemStatement_BehaviorDescriptor.java">
+      <unit at="7,0,16,0" name="jetbrains.mps.gtext.behavior.GItemStatement_BehaviorDescriptor" />
+    </file>
+    <file name="GExpressionItem_BehaviorDescriptor.java">
+      <unit at="6,0,15,0" name="jetbrains.mps.gtext.behavior.GExpressionItem_BehaviorDescriptor" />
+    </file>
+    <file name="GIndent_BehaviorDescriptor.java">
+      <unit at="6,0,15,0" name="jetbrains.mps.gtext.behavior.GIndent_BehaviorDescriptor" />
+    </file>
+    <file name="GTextConcept_BehaviorDescriptor.java">
+      <unit at="6,0,8,0" name="jetbrains.mps.gtext.behavior.GTextConcept_BehaviorDescriptor" />
+    </file>
+    <file name="GLine_BehaviorDescriptor.java">
+      <unit at="8,0,25,0" name="jetbrains.mps.gtext.behavior.GLine_BehaviorDescriptor" />
+    </file>
+    <file name="GSeparatorItemList_BehaviorDescriptor.java">
+      <unit at="8,0,21,0" name="jetbrains.mps.gtext.behavior.GSeparatorItemList_BehaviorDescriptor" />
+    </file>
+    <file name="GConditionalLine_BehaviorDescriptor.java">
+      <unit at="8,0,21,0" name="jetbrains.mps.gtext.behavior.GConditionalLine_BehaviorDescriptor" />
+    </file>
+    <file name="GItemList_BehaviorDescriptor.java">
+      <unit at="8,0,25,0" name="jetbrains.mps.gtext.behavior.GItemList_BehaviorDescriptor" />
+    </file>
+    <file name="GIndentBlock_BehaviorDescriptor.java">
+      <unit at="6,0,15,0" name="jetbrains.mps.gtext.behavior.GIndentBlock_BehaviorDescriptor" />
+    </file>
+    <file name="BehaviorAspectDescriptor.java">
+      <unit at="9,0,52,0" name="jetbrains.mps.gtext.behavior.BehaviorAspectDescriptor" />
+    </file>
+    <file name="GContentBlock_BehaviorDescriptor.java">
+      <unit at="10,0,27,0" name="jetbrains.mps.gtext.behavior.GContentBlock_BehaviorDescriptor" />
+    </file>
+    <file name="BuilderContextRef_BehaviorDescriptor.java">
+      <unit at="9,0,22,0" name="jetbrains.mps.gtext.behavior.BuilderContextRef_BehaviorDescriptor" />
+    </file>
+  </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c89590570(jetbrains.mps.gtext.behavior)/1213877183413">
-    <nodeInfo nodeId="1239127253994" fileName="GContentBlock_Behavior.java" startLine="13" startPosition="76" endLine="14" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1213877183413" fileName="GContentBlock_Behavior.java" startLine="10" startPosition="0" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="1213877183413" fileName="GContentBlock_Behavior.java" startLine="13" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getItems_1239125087745#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/util/List;" />
-    <scopeInfo nodeId="1213877183415" fileName="GContentBlock_Behavior.java" startLine="10" startPosition="43" endLine="10" endPosition="43" />
-    <scopeInfo nodeId="1239126924999" fileName="GContentBlock_Behavior.java" startLine="13" startPosition="76" endLine="14" endPosition="62" />
-    <scopeInfo nodeId="1213877183413" fileName="GContentBlock_Behavior.java" startLine="10" startPosition="0" endLine="12" endPosition="0">
-      <varInfo nodeId="1213877183413" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="1213877183413" fileName="GContentBlock_Behavior.java" startLine="13" startPosition="0" endLine="16" endPosition="0">
-      <varInfo nodeId="1213877183413" varName="thisNode" />
-    </scopeInfo>
-    <unitInfo nodeId="1213877183413" fileName="GContentBlock_Behavior.java" startLine="9" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GContentBlock_Behavior" />
+    <file name="GContentBlock_Behavior.java">
+      <node id="1239127253994" at="13,76,14,62" concept="5" />
+      <node id="1213877183413" at="10,0,12,0" concept="6" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1213877183413" at="13,0,16,0" concept="6" trace="virtual_getItems_1239125087745#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/util/List;" />
+      <scope id="1213877183415" at="10,43,10,43" />
+      <scope id="1239126924999" at="13,76,14,62" />
+      <scope id="1213877183413" at="10,0,12,0">
+        <var name="thisNode" id="1213877183413" />
+      </scope>
+      <scope id="1213877183413" at="13,0,16,0">
+        <var name="thisNode" id="1213877183413" />
+      </scope>
+      <unit id="1213877183413" at="9,0,17,0" name="jetbrains.mps.gtext.behavior.GContentBlock_Behavior" />
+    </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c89590570(jetbrains.mps.gtext.behavior)/1213877245919">
-    <nodeInfo nodeId="1213877245922" fileName="GItemList_Behavior.java" startLine="16" startPosition="73" endLine="17" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1213877245934" fileName="GItemList_Behavior.java" startLine="19" startPosition="193" endLine="20" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1213877245938" fileName="GItemList_Behavior.java" startLine="20" startPosition="23" endLine="21" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.BreakStatement" />
-    <nodeInfo nodeId="1213877245947" fileName="GItemList_Behavior.java" startLine="23" startPosition="5" endLine="24" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1239126812897" fileName="GItemList_Behavior.java" startLine="27" startPosition="76" endLine="28" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1213877245919" fileName="GItemList_Behavior.java" startLine="13" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="1213877245919" fileName="GItemList_Behavior.java" startLine="27" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getItems_1239125087745#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/util/List;" />
-    <nodeInfo nodeId="1213877245932" fileName="GItemList_Behavior.java" startLine="18" startPosition="98" endLine="22" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1213877245926" fileName="GItemList_Behavior.java" startLine="17" startPosition="28" endLine="23" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="1213877245919" fileName="GItemList_Behavior.java" startLine="16" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_isComplex_1213877298853#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-    <scopeInfo nodeId="1213877245951" fileName="GItemList_Behavior.java" startLine="13" startPosition="43" endLine="13" endPosition="43" />
-    <scopeInfo nodeId="1239126797825" fileName="GItemList_Behavior.java" startLine="27" startPosition="76" endLine="28" endPosition="62" />
-    <scopeInfo nodeId="1213877245919" fileName="GItemList_Behavior.java" startLine="13" startPosition="0" endLine="15" endPosition="0">
-      <varInfo nodeId="1213877245919" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="1213877245933" fileName="GItemList_Behavior.java" startLine="19" startPosition="193" endLine="21" endPosition="14" />
-    <scopeInfo nodeId="1213877245919" fileName="GItemList_Behavior.java" startLine="27" startPosition="0" endLine="30" endPosition="0">
-      <varInfo nodeId="1213877245919" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="1213877245931" fileName="GItemList_Behavior.java" startLine="18" startPosition="98" endLine="22" endPosition="7" />
-    <scopeInfo nodeId="1213877245926" fileName="GItemList_Behavior.java" startLine="17" startPosition="28" endLine="23" endPosition="5">
-      <varInfo nodeId="1213877245927" varName="item" />
-    </scopeInfo>
-    <scopeInfo nodeId="1213877245921" fileName="GItemList_Behavior.java" startLine="16" startPosition="73" endLine="24" endPosition="19">
-      <varInfo nodeId="1213877245923" varName="complex" />
-    </scopeInfo>
-    <scopeInfo nodeId="1213877245919" fileName="GItemList_Behavior.java" startLine="16" startPosition="0" endLine="26" endPosition="0">
-      <varInfo nodeId="1213877245919" varName="thisNode" />
-    </scopeInfo>
-    <unitInfo nodeId="1213877245919" fileName="GItemList_Behavior.java" startLine="12" startPosition="0" endLine="31" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GItemList_Behavior" />
+    <file name="GItemList_Behavior.java">
+      <node id="1213877245922" at="16,73,17,28" concept="4" />
+      <node id="1213877245934" at="19,193,20,23" concept="1" />
+      <node id="1213877245938" at="20,23,21,14" concept="0" />
+      <node id="1213877245947" at="23,5,24,19" concept="5" />
+      <node id="1239126812897" at="27,76,28,62" concept="5" />
+      <node id="1213877245919" at="13,0,15,0" concept="6" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1213877245919" at="27,0,30,0" concept="6" trace="virtual_getItems_1239125087745#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/util/List;" />
+      <node id="1213877245932" at="18,98,22,7" concept="3" />
+      <node id="1213877245926" at="17,28,23,5" concept="2" />
+      <node id="1213877245919" at="16,0,26,0" concept="6" trace="virtual_isComplex_1213877298853#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <scope id="1213877245951" at="13,43,13,43" />
+      <scope id="1239126797825" at="27,76,28,62" />
+      <scope id="1213877245919" at="13,0,15,0">
+        <var name="thisNode" id="1213877245919" />
+      </scope>
+      <scope id="1213877245933" at="19,193,21,14" />
+      <scope id="1213877245919" at="27,0,30,0">
+        <var name="thisNode" id="1213877245919" />
+      </scope>
+      <scope id="1213877245931" at="18,98,22,7" />
+      <scope id="1213877245926" at="17,28,23,5">
+        <var name="item" id="1213877245927" />
+      </scope>
+      <scope id="1213877245921" at="16,73,24,19">
+        <var name="complex" id="1213877245923" />
+      </scope>
+      <scope id="1213877245919" at="16,0,26,0">
+        <var name="thisNode" id="1213877245919" />
+      </scope>
+      <unit id="1213877245919" at="12,0,31,0" name="jetbrains.mps.gtext.behavior.GItemList_Behavior" />
+    </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c89590570(jetbrains.mps.gtext.behavior)/1213877254059">
-    <nodeInfo nodeId="3288512235108370150" fileName="BuilderContextRef_Behavior.java" startLine="12" startPosition="83" endLine="13" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1213877254059" fileName="BuilderContextRef_Behavior.java" startLine="9" startPosition="0" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="1213877254059" fileName="BuilderContextRef_Behavior.java" startLine="12" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_eval_1213877519769#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/module/SModule;)Ljava/lang/Object;" />
-    <scopeInfo nodeId="1213877254068" fileName="BuilderContextRef_Behavior.java" startLine="9" startPosition="43" endLine="9" endPosition="43" />
-    <scopeInfo nodeId="3288512235108370140" fileName="BuilderContextRef_Behavior.java" startLine="12" startPosition="83" endLine="13" endPosition="16" />
-    <scopeInfo nodeId="1213877254059" fileName="BuilderContextRef_Behavior.java" startLine="9" startPosition="0" endLine="11" endPosition="0">
-      <varInfo nodeId="1213877254059" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="1213877254059" fileName="BuilderContextRef_Behavior.java" startLine="12" startPosition="0" endLine="15" endPosition="0">
-      <varInfo nodeId="3288512235108370141" varName="module" />
-      <varInfo nodeId="1213877254059" varName="thisNode" />
-    </scopeInfo>
-    <unitInfo nodeId="1213877254059" fileName="BuilderContextRef_Behavior.java" startLine="8" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.gtext.behavior.BuilderContextRef_Behavior" />
+    <file name="BuilderContextRef_Behavior.java">
+      <node id="3288512235108370150" at="12,83,13,16" concept="5" />
+      <node id="1213877254059" at="9,0,11,0" concept="6" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1213877254059" at="12,0,15,0" concept="6" trace="virtual_eval_1213877519769#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/module/SModule;)Ljava/lang/Object;" />
+      <scope id="1213877254068" at="9,43,9,43" />
+      <scope id="3288512235108370140" at="12,83,13,16" />
+      <scope id="1213877254059" at="9,0,11,0">
+        <var name="thisNode" id="1213877254059" />
+      </scope>
+      <scope id="1213877254059" at="12,0,15,0">
+        <var name="module" id="3288512235108370141" />
+        <var name="thisNode" id="1213877254059" />
+      </scope>
+      <unit id="1213877254059" at="8,0,16,0" name="jetbrains.mps.gtext.behavior.BuilderContextRef_Behavior" />
+    </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c89590570(jetbrains.mps.gtext.behavior)/1213877257058">
-    <nodeInfo nodeId="1213877257061" fileName="GLine_Behavior.java" startLine="13" startPosition="73" endLine="14" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1239126855823" fileName="GLine_Behavior.java" startLine="17" startPosition="76" endLine="18" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1213877257058" fileName="GLine_Behavior.java" startLine="10" startPosition="0" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="1213877257058" fileName="GLine_Behavior.java" startLine="13" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_isComplex_1213877298853#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-    <nodeInfo nodeId="1213877257058" fileName="GLine_Behavior.java" startLine="17" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getItems_1239125087745#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/util/List;" />
-    <scopeInfo nodeId="1213877257065" fileName="GLine_Behavior.java" startLine="10" startPosition="43" endLine="10" endPosition="43" />
-    <scopeInfo nodeId="1213877257060" fileName="GLine_Behavior.java" startLine="13" startPosition="73" endLine="14" endPosition="16" />
-    <scopeInfo nodeId="1239126841760" fileName="GLine_Behavior.java" startLine="17" startPosition="76" endLine="18" endPosition="62" />
-    <scopeInfo nodeId="1213877257058" fileName="GLine_Behavior.java" startLine="10" startPosition="0" endLine="12" endPosition="0">
-      <varInfo nodeId="1213877257058" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="1213877257058" fileName="GLine_Behavior.java" startLine="13" startPosition="0" endLine="16" endPosition="0">
-      <varInfo nodeId="1213877257058" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="1213877257058" fileName="GLine_Behavior.java" startLine="17" startPosition="0" endLine="20" endPosition="0">
-      <varInfo nodeId="1213877257058" varName="thisNode" />
-    </scopeInfo>
-    <unitInfo nodeId="1213877257058" fileName="GLine_Behavior.java" startLine="9" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GLine_Behavior" />
+    <file name="GLine_Behavior.java">
+      <node id="1213877257061" at="13,73,14,16" concept="5" />
+      <node id="1239126855823" at="17,76,18,62" concept="5" />
+      <node id="1213877257058" at="10,0,12,0" concept="6" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1213877257058" at="13,0,16,0" concept="6" trace="virtual_isComplex_1213877298853#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="1213877257058" at="17,0,20,0" concept="6" trace="virtual_getItems_1239125087745#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/util/List;" />
+      <scope id="1213877257065" at="10,43,10,43" />
+      <scope id="1213877257060" at="13,73,14,16" />
+      <scope id="1239126841760" at="17,76,18,62" />
+      <scope id="1213877257058" at="10,0,12,0">
+        <var name="thisNode" id="1213877257058" />
+      </scope>
+      <scope id="1213877257058" at="13,0,16,0">
+        <var name="thisNode" id="1213877257058" />
+      </scope>
+      <scope id="1213877257058" at="17,0,20,0">
+        <var name="thisNode" id="1213877257058" />
+      </scope>
+      <unit id="1213877257058" at="9,0,21,0" name="jetbrains.mps.gtext.behavior.GLine_Behavior" />
+    </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c89590570(jetbrains.mps.gtext.behavior)/1213877296938">
-    <nodeInfo nodeId="2254280326565247272" fileName="GDocument_Behavior.java" startLine="13" startPosition="80" endLine="14" endPosition="164" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4886751650217069001" fileName="GDocument_Behavior.java" startLine="14" startPosition="164" endLine="15" endPosition="222" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1213877296938" fileName="GDocument_Behavior.java" startLine="10" startPosition="0" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="1213877296938" fileName="GDocument_Behavior.java" startLine="13" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getUnitName_5067982036267369911#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
-    <scopeInfo nodeId="1213877296940" fileName="GDocument_Behavior.java" startLine="10" startPosition="43" endLine="10" endPosition="43" />
-    <scopeInfo nodeId="1213877296938" fileName="GDocument_Behavior.java" startLine="10" startPosition="0" endLine="12" endPosition="0">
-      <varInfo nodeId="1213877296938" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="4886751650217068999" fileName="GDocument_Behavior.java" startLine="13" startPosition="80" endLine="15" endPosition="222">
-      <varInfo nodeId="2254280326565247273" varName="extension" />
-    </scopeInfo>
-    <scopeInfo nodeId="1213877296938" fileName="GDocument_Behavior.java" startLine="13" startPosition="0" endLine="17" endPosition="0">
-      <varInfo nodeId="1213877296938" varName="thisNode" />
-    </scopeInfo>
-    <unitInfo nodeId="1213877296938" fileName="GDocument_Behavior.java" startLine="9" startPosition="0" endLine="18" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GDocument_Behavior" />
+    <file name="GDocument_Behavior.java">
+      <node id="2254280326565247272" at="13,80,14,164" concept="4" />
+      <node id="4886751650217069001" at="14,164,15,222" concept="5" />
+      <node id="1213877296938" at="10,0,12,0" concept="6" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1213877296938" at="13,0,17,0" concept="6" trace="virtual_getUnitName_5067982036267369911#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <scope id="1213877296940" at="10,43,10,43" />
+      <scope id="1213877296938" at="10,0,12,0">
+        <var name="thisNode" id="1213877296938" />
+      </scope>
+      <scope id="4886751650217068999" at="13,80,15,222">
+        <var name="extension" id="2254280326565247273" />
+      </scope>
+      <scope id="1213877296938" at="13,0,17,0">
+        <var name="thisNode" id="1213877296938" />
+      </scope>
+      <unit id="1213877296938" at="9,0,18,0" name="jetbrains.mps.gtext.behavior.GDocument_Behavior" />
+    </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c89590570(jetbrains.mps.gtext.behavior)/1213877298852">
-    <nodeInfo nodeId="1213877298856" fileName="GItem_Behavior.java" startLine="11" startPosition="73" endLine="12" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1213877298852" fileName="GItem_Behavior.java" startLine="8" startPosition="0" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="1213877298852" fileName="GItem_Behavior.java" startLine="11" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_isComplex_1213877298853#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-    <scopeInfo nodeId="1213877298859" fileName="GItem_Behavior.java" startLine="8" startPosition="43" endLine="8" endPosition="43" />
-    <scopeInfo nodeId="1213877298855" fileName="GItem_Behavior.java" startLine="11" startPosition="73" endLine="12" endPosition="17" />
-    <scopeInfo nodeId="1213877298852" fileName="GItem_Behavior.java" startLine="8" startPosition="0" endLine="10" endPosition="0">
-      <varInfo nodeId="1213877298852" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="1213877298852" fileName="GItem_Behavior.java" startLine="11" startPosition="0" endLine="14" endPosition="0">
-      <varInfo nodeId="1213877298852" varName="thisNode" />
-    </scopeInfo>
-    <unitInfo nodeId="1213877298852" fileName="GItem_Behavior.java" startLine="7" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GItem_Behavior" />
+    <file name="GItem_Behavior.java">
+      <node id="1213877298856" at="11,73,12,17" concept="5" />
+      <node id="1213877298852" at="8,0,10,0" concept="6" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1213877298852" at="11,0,14,0" concept="6" trace="virtual_isComplex_1213877298853#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <scope id="1213877298859" at="8,43,8,43" />
+      <scope id="1213877298855" at="11,73,12,17" />
+      <scope id="1213877298852" at="8,0,10,0">
+        <var name="thisNode" id="1213877298852" />
+      </scope>
+      <scope id="1213877298852" at="11,0,14,0">
+        <var name="thisNode" id="1213877298852" />
+      </scope>
+      <unit id="1213877298852" at="7,0,15,0" name="jetbrains.mps.gtext.behavior.GItem_Behavior" />
+    </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c89590570(jetbrains.mps.gtext.behavior)/1213877310934">
-    <nodeInfo nodeId="1213877310938" fileName="GTextConcept_Behavior.java" startLine="12" startPosition="76" endLine="13" endPosition="131" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1213877310934" fileName="GTextConcept_Behavior.java" startLine="9" startPosition="0" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="1213877310934" fileName="GTextConcept_Behavior.java" startLine="12" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_shouldBeReduced_1213877310935#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-    <scopeInfo nodeId="1213877310947" fileName="GTextConcept_Behavior.java" startLine="9" startPosition="43" endLine="9" endPosition="43" />
-    <scopeInfo nodeId="1213877310937" fileName="GTextConcept_Behavior.java" startLine="12" startPosition="76" endLine="13" endPosition="131" />
-    <scopeInfo nodeId="1213877310934" fileName="GTextConcept_Behavior.java" startLine="9" startPosition="0" endLine="11" endPosition="0">
-      <varInfo nodeId="1213877310934" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="1213877310934" fileName="GTextConcept_Behavior.java" startLine="12" startPosition="0" endLine="15" endPosition="0">
-      <varInfo nodeId="1213877310934" varName="thisNode" />
-    </scopeInfo>
-    <unitInfo nodeId="1213877310934" fileName="GTextConcept_Behavior.java" startLine="8" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GTextConcept_Behavior" />
+    <file name="GTextConcept_Behavior.java">
+      <node id="1213877310938" at="12,76,13,131" concept="5" />
+      <node id="1213877310934" at="9,0,11,0" concept="6" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1213877310934" at="12,0,15,0" concept="6" trace="call_shouldBeReduced_1213877310935#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <scope id="1213877310947" at="9,43,9,43" />
+      <scope id="1213877310937" at="12,76,13,131" />
+      <scope id="1213877310934" at="9,0,11,0">
+        <var name="thisNode" id="1213877310934" />
+      </scope>
+      <scope id="1213877310934" at="12,0,15,0">
+        <var name="thisNode" id="1213877310934" />
+      </scope>
+      <unit id="1213877310934" at="8,0,16,0" name="jetbrains.mps.gtext.behavior.GTextConcept_Behavior" />
+    </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c89590570(jetbrains.mps.gtext.behavior)/1213877314286">
-    <nodeInfo nodeId="1213877314286" fileName="GText_Behavior.java" startLine="8" startPosition="0" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <scopeInfo nodeId="1213877314288" fileName="GText_Behavior.java" startLine="8" startPosition="43" endLine="8" endPosition="43" />
-    <scopeInfo nodeId="1213877314286" fileName="GText_Behavior.java" startLine="8" startPosition="0" endLine="10" endPosition="0">
-      <varInfo nodeId="1213877314286" varName="thisNode" />
-    </scopeInfo>
-    <unitInfo nodeId="1213877314286" fileName="GText_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GText_Behavior" />
+    <file name="GText_Behavior.java">
+      <node id="1213877314286" at="8,0,10,0" concept="6" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <scope id="1213877314288" at="8,43,8,43" />
+      <scope id="1213877314286" at="8,0,10,0">
+        <var name="thisNode" id="1213877314286" />
+      </scope>
+      <unit id="1213877314286" at="7,0,11,0" name="jetbrains.mps.gtext.behavior.GText_Behavior" />
+    </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c89590570(jetbrains.mps.gtext.behavior)/1213877432356">
-    <nodeInfo nodeId="1213877432356" fileName="GContentPlaceholder_Behavior.java" startLine="8" startPosition="0" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <scopeInfo nodeId="1213877432358" fileName="GContentPlaceholder_Behavior.java" startLine="8" startPosition="43" endLine="8" endPosition="43" />
-    <scopeInfo nodeId="1213877432356" fileName="GContentPlaceholder_Behavior.java" startLine="8" startPosition="0" endLine="10" endPosition="0">
-      <varInfo nodeId="1213877432356" varName="thisNode" />
-    </scopeInfo>
-    <unitInfo nodeId="1213877432356" fileName="GContentPlaceholder_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GContentPlaceholder_Behavior" />
+    <file name="GContentPlaceholder_Behavior.java">
+      <node id="1213877432356" at="8,0,10,0" concept="6" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <scope id="1213877432358" at="8,43,8,43" />
+      <scope id="1213877432356" at="8,0,10,0">
+        <var name="thisNode" id="1213877432356" />
+      </scope>
+      <unit id="1213877432356" at="7,0,11,0" name="jetbrains.mps.gtext.behavior.GContentPlaceholder_Behavior" />
+    </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c89590570(jetbrains.mps.gtext.behavior)/1239125081253">
-    <nodeInfo nodeId="1239125081253" fileName="GCompositeItem_Behavior.java" startLine="8" startPosition="0" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <scopeInfo nodeId="1239125081255" fileName="GCompositeItem_Behavior.java" startLine="8" startPosition="43" endLine="8" endPosition="43" />
-    <scopeInfo nodeId="1239125081253" fileName="GCompositeItem_Behavior.java" startLine="8" startPosition="0" endLine="10" endPosition="0">
-      <varInfo nodeId="1239125081253" varName="thisNode" />
-    </scopeInfo>
-    <unitInfo nodeId="1239125081253" fileName="GCompositeItem_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GCompositeItem_Behavior" />
+    <file name="GCompositeItem_Behavior.java">
+      <node id="1239125081253" at="8,0,10,0" concept="6" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <scope id="1239125081255" at="8,43,8,43" />
+      <scope id="1239125081253" at="8,0,10,0">
+        <var name="thisNode" id="1239125081253" />
+      </scope>
+      <unit id="1239125081253" at="7,0,11,0" name="jetbrains.mps.gtext.behavior.GCompositeItem_Behavior" />
+    </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c89590570(jetbrains.mps.gtext.behavior)/1239127127721">
-    <nodeInfo nodeId="1239127152388" fileName="GSeparatorItemList_Behavior.java" startLine="13" startPosition="76" endLine="14" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1239127127721" fileName="GSeparatorItemList_Behavior.java" startLine="10" startPosition="0" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="1239127127721" fileName="GSeparatorItemList_Behavior.java" startLine="13" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getItems_1239125087745#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/util/List;" />
-    <scopeInfo nodeId="1239127127723" fileName="GSeparatorItemList_Behavior.java" startLine="10" startPosition="43" endLine="10" endPosition="43" />
-    <scopeInfo nodeId="1239127129693" fileName="GSeparatorItemList_Behavior.java" startLine="13" startPosition="76" endLine="14" endPosition="62" />
-    <scopeInfo nodeId="1239127127721" fileName="GSeparatorItemList_Behavior.java" startLine="10" startPosition="0" endLine="12" endPosition="0">
-      <varInfo nodeId="1239127127721" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="1239127127721" fileName="GSeparatorItemList_Behavior.java" startLine="13" startPosition="0" endLine="16" endPosition="0">
-      <varInfo nodeId="1239127127721" varName="thisNode" />
-    </scopeInfo>
-    <unitInfo nodeId="1239127127721" fileName="GSeparatorItemList_Behavior.java" startLine="9" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GSeparatorItemList_Behavior" />
+    <file name="GSeparatorItemList_Behavior.java">
+      <node id="1239127152388" at="13,76,14,62" concept="5" />
+      <node id="1239127127721" at="10,0,12,0" concept="6" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1239127127721" at="13,0,16,0" concept="6" trace="virtual_getItems_1239125087745#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/util/List;" />
+      <scope id="1239127127723" at="10,43,10,43" />
+      <scope id="1239127129693" at="13,76,14,62" />
+      <scope id="1239127127721" at="10,0,12,0">
+        <var name="thisNode" id="1239127127721" />
+      </scope>
+      <scope id="1239127127721" at="13,0,16,0">
+        <var name="thisNode" id="1239127127721" />
+      </scope>
+      <unit id="1239127127721" at="9,0,17,0" name="jetbrains.mps.gtext.behavior.GSeparatorItemList_Behavior" />
+    </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c89590570(jetbrains.mps.gtext.behavior)/1239127267034">
-    <nodeInfo nodeId="1239127816966" fileName="GConditionalLine_Behavior.java" startLine="13" startPosition="76" endLine="14" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1239127267034" fileName="GConditionalLine_Behavior.java" startLine="10" startPosition="0" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="1239127267034" fileName="GConditionalLine_Behavior.java" startLine="13" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getItems_1239125087745#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/util/List;" />
-    <scopeInfo nodeId="1239127267036" fileName="GConditionalLine_Behavior.java" startLine="10" startPosition="43" endLine="10" endPosition="43" />
-    <scopeInfo nodeId="1239127268682" fileName="GConditionalLine_Behavior.java" startLine="13" startPosition="76" endLine="14" endPosition="62" />
-    <scopeInfo nodeId="1239127267034" fileName="GConditionalLine_Behavior.java" startLine="10" startPosition="0" endLine="12" endPosition="0">
-      <varInfo nodeId="1239127267034" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="1239127267034" fileName="GConditionalLine_Behavior.java" startLine="13" startPosition="0" endLine="16" endPosition="0">
-      <varInfo nodeId="1239127267034" varName="thisNode" />
-    </scopeInfo>
-    <unitInfo nodeId="1239127267034" fileName="GConditionalLine_Behavior.java" startLine="9" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.gtext.behavior.GConditionalLine_Behavior" />
+    <file name="GConditionalLine_Behavior.java">
+      <node id="1239127816966" at="13,76,14,62" concept="5" />
+      <node id="1239127267034" at="10,0,12,0" concept="6" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1239127267034" at="13,0,16,0" concept="6" trace="virtual_getItems_1239125087745#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/util/List;" />
+      <scope id="1239127267036" at="10,43,10,43" />
+      <scope id="1239127268682" at="13,76,14,62" />
+      <scope id="1239127267034" at="10,0,12,0">
+        <var name="thisNode" id="1239127267034" />
+      </scope>
+      <scope id="1239127267034" at="13,0,16,0">
+        <var name="thisNode" id="1239127267034" />
+      </scope>
+      <unit id="1239127267034" at="9,0,17,0" name="jetbrains.mps.gtext.behavior.GConditionalLine_Behavior" />
+    </file>
   </root>
-</debugInfo>
+</debug-info>
 
