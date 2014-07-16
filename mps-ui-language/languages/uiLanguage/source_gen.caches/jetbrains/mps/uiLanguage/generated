@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependencies version="2" modelHash="9v3adwliszrnb45d86mvmz06v980hn4">
   <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="-5guu3hjwnpnfynbad2ytblvm5de60j1" />
+  <dep model="r:00000000-0000-4000-0000-011c8959054c(jetbrains.mps.uiLanguage.behavior)" hash="-79arv5w5lg4fxhl0bwzx6ldlr6j2oep" />
+  <dep model="r:00000000-0000-4000-0000-011c8959054e(jetbrains.mps.uiLanguage.constraints)" hash="d8tdr614vyqbj90ea5fn69i0q5y3t1g" />
   <dep model="r:00000000-0000-4000-0000-011c8959054f(jetbrains.mps.uiLanguage.editor)" hash="-6fqbwciprn6czcqrr9twhsp3t5hg2f9" />
   <dep model="r:00000000-0000-4000-0000-011c89590550(jetbrains.mps.uiLanguage.typesystem)" hash="-enxg7ccirfg97wyq3vf2tzmnmnr51ja" />
+  <dep model="r:00000000-0000-4000-0000-011c89590552(jetbrains.mps.uiLanguage.plugin)" hash="-8asmbd93rvrqlknqvoqd8g6ya5u5h4s" />
+  <dep model="r:00000000-0000-4000-0000-011c89590553(jetbrains.mps.uiLanguage.structure)" hash="-duju4dgwx8zy0pha9lhhgkje2rlh1o2" />
+  <dep model="r:0aa1c06f-0c0c-4636-851a-9e1cd87fcce8(jetbrains.mps.uiLanguage.textGen)" hash="90h86h6gs4zoddlb41jlpn7h55n7ygq" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="-bkuyiekmoekvx4wtv4qejtruxiwtg50" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="8cdjk2e5d2y2u9lult1ptgxxrttxv07" />
   <common dependsOnNodes="true">
     <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c8959054c(jetbrains.mps.uiLanguage.behavior)" />
+    <dep model="r:00000000-0000-4000-0000-011c8959054e(jetbrains.mps.uiLanguage.constraints)" />
     <dep model="r:00000000-0000-4000-0000-011c8959054f(jetbrains.mps.uiLanguage.editor)" />
     <dep model="r:00000000-0000-4000-0000-011c89590550(jetbrains.mps.uiLanguage.typesystem)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590552(jetbrains.mps.uiLanguage.plugin)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590553(jetbrains.mps.uiLanguage.structure)" />
+    <dep model="r:0aa1c06f-0c0c-4636-851a-9e1cd87fcce8(jetbrains.mps.uiLanguage.textGen)" />
     <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="Language.java" />

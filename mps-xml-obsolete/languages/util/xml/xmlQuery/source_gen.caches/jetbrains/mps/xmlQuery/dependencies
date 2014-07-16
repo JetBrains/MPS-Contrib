@@ -7,11 +7,16 @@
     <classNode dependClassName="java.util.Collection" />
     <classNode dependClassName="jetbrains.mps.generator.runtime.TemplateModule" />
     <classNode dependClassName="jetbrains.mps.generator.runtime.TemplateUtil" />
-    <classNode dependClassName="jetbrains.mps.ide.findusages.BaseFindUsagesDescriptor" />
     <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.IHelginsDescriptor" />
     <classNode dependClassName="jetbrains.mps.openapi.editor.descriptor.EditorAspectDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.ConstraintsAspectDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.LanguageAspectDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.StructureAspectDescriptor" />
+    <classNode dependClassName="jetbrains.mps.xmlQuery.behavior.BehaviorAspectDescriptor" />
+    <classNode dependClassName="jetbrains.mps.xmlQuery.constraints.ConstraintsAspectDescriptor" />
     <classNode dependClassName="jetbrains.mps.xmlQuery.editor.EditorAspectDescriptorImpl" />
+    <classNode dependClassName="jetbrains.mps.xmlQuery.structure.StructureAspectDescriptor" />
     <classNode dependClassName="jetbrains.mps.xmlQuery.typesystem.TypesystemDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.language.LanguageRuntime" />
   </dependency>
