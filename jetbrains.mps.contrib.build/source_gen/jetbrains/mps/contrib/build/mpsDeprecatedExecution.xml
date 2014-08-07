@@ -21,7 +21,6 @@
       <include name="javac2.jar" />
       <include name="jdom.jar" />
       <include name="asm4-all.jar" />
-      <include name="asm-all.jar" />
       <include name="jgoodies-forms.jar" />
     </fileset>
   </path>
@@ -87,8 +86,12 @@
       <fileset dir="${basedir}/mps-execution-deprecated/languages/deprecated/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/mps-execution-deprecated/languages/jetbrains.mps.execution.configurations.deprecated-src.jar">
-      <fileset dir="${basedir}/mps-execution-deprecated/languages/deprecated/generator/source_gen" />
-      <fileset dir="${basedir}/mps-execution-deprecated/languages/deprecated/source_gen" />
+      <fileset dir="${basedir}/mps-execution-deprecated/languages/deprecated/generator/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
+      <fileset dir="${basedir}/mps-execution-deprecated/languages/deprecated/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
       <zipfileset file="${basedir}/mps-execution-deprecated/languages/deprecated/jetbrains.mps.execution.configurations.deprecated.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/mps-execution-deprecated-languages-deprecated-generator-template" prefix="module/generator/template" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/mps-execution-deprecated-languages-deprecated-languageModels" prefix="module/languageModels" />
@@ -121,7 +124,9 @@
       <fileset dir="${basedir}/mps-execution-deprecated/deprecated.runtime/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/mps-execution-deprecated/lib/jetbrains.mps.execution.configurations.deprecated.runtime-src.jar">
-      <fileset dir="${basedir}/mps-execution-deprecated/deprecated.runtime/source_gen" />
+      <fileset dir="${basedir}/mps-execution-deprecated/deprecated.runtime/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
       <zipfileset file="${basedir}/mps-execution-deprecated/deprecated.runtime/jetbrains.mps.execution.configurations.deprecated.runtime.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/mps-execution-deprecated-deprecated.runtime-models" prefix="module/models" />
     </jar>
@@ -155,7 +160,9 @@
       <fileset dir="${basedir}/mps-execution-deprecated/unitTests/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/mps-execution-deprecated/lib/jetbrains.mps.baseLanguage.unitTest.execution.deprecated-src.jar">
-      <fileset dir="${basedir}/mps-execution-deprecated/unitTests/source_gen" />
+      <fileset dir="${basedir}/mps-execution-deprecated/unitTests/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
       <zipfileset file="${basedir}/mps-execution-deprecated/unitTests/jetbrains.mps.baseLanguage.unitTest.execution.deprecated.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/mps-execution-deprecated-unitTests-models" prefix="module/models" />
     </jar>
@@ -434,7 +441,6 @@
         <fileset file="${artifacts.IDEA}/lib/trove4j.jar" />
         <fileset file="${artifacts.IDEA}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.IDEA}/lib/asm4-all.jar" />
-        <fileset file="${artifacts.IDEA}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/lib/tools.jar" />
@@ -489,7 +495,6 @@
         <fileset file="${artifacts.IDEA}/lib/trove4j.jar" />
         <fileset file="${artifacts.IDEA}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.IDEA}/lib/asm4-all.jar" />
-        <fileset file="${artifacts.IDEA}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/lib/tools.jar" />
@@ -546,7 +551,6 @@
         <fileset file="${artifacts.IDEA}/lib/trove4j.jar" />
         <fileset file="${artifacts.IDEA}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.IDEA}/lib/asm4-all.jar" />
-        <fileset file="${artifacts.IDEA}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/lib/tools.jar" />
@@ -614,7 +618,6 @@
         <fileset file="${artifacts.IDEA}/lib/trove4j.jar" />
         <fileset file="${artifacts.IDEA}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.IDEA}/lib/asm4-all.jar" />
-        <fileset file="${artifacts.IDEA}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
