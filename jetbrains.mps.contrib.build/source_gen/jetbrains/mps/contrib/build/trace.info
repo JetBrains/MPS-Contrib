@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <root nodeRef="r:83393c4f-0a35-4150-a4fc-e0cb31ea54f6(jetbrains.mps.contrib.build)/310331596773287654">
+    <file name="mpsContribBuild.xml">
+      <unit id="310331596773287654" at="1,0,238,10" name="jetbrains.mps.contrib.build.mpsContribBuild" />
+    </file>
+  </root>
+  <root nodeRef="r:83393c4f-0a35-4150-a4fc-e0cb31ea54f6(jetbrains.mps.contrib.build)/3945781919312589433">
+    <file name="mpsUiLanguage.xml">
+      <unit id="3945781919312589433" at="1,0,499,10" name="jetbrains.mps.contrib.build.mpsUiLanguage" />
+    </file>
+  </root>
+  <root nodeRef="r:83393c4f-0a35-4150-a4fc-e0cb31ea54f6(jetbrains.mps.contrib.build)/4061567211001166715">
+    <file name="mpsDates.xml">
+      <unit id="4061567211001166715" at="1,0,512,10" name="jetbrains.mps.contrib.build.mpsDates" />
+    </file>
+  </root>
+  <root nodeRef="r:83393c4f-0a35-4150-a4fc-e0cb31ea54f6(jetbrains.mps.contrib.build)/4416206207494300367">
+    <file name="mpsDeprecatedBuildlanguage.xml">
+      <unit id="4416206207494300367" at="1,0,883,10" name="jetbrains.mps.contrib.build.mpsDeprecatedBuildlanguage" />
+    </file>
+  </root>
+  <root nodeRef="r:83393c4f-0a35-4150-a4fc-e0cb31ea54f6(jetbrains.mps.contrib.build)/4579351749503152215">
+    <file name="mpsContrib.xml">
+      <unit id="4579351749503152215" at="1,0,43,10" name="jetbrains.mps.contrib.build.mpsContrib" />
+    </file>
+  </root>
+  <root nodeRef="r:83393c4f-0a35-4150-a4fc-e0cb31ea54f6(jetbrains.mps.contrib.build)/4579351749506262387">
+    <file name="mpsXml.xml">
+      <unit id="4579351749506262387" at="1,0,1266,10" name="jetbrains.mps.contrib.build.mpsXml" />
+    </file>
+  </root>
+  <root nodeRef="r:83393c4f-0a35-4150-a4fc-e0cb31ea54f6(jetbrains.mps.contrib.build)/6901657050505737387">
+    <file name="mpsContribUnpacked.xml">
+      <unit id="6901657050505737387" at="1,0,65,10" name="jetbrains.mps.contrib.build.mpsContribUnpacked" />
+    </file>
+  </root>
+  <root nodeRef="r:83393c4f-0a35-4150-a4fc-e0cb31ea54f6(jetbrains.mps.contrib.build)/8321286824325034320">
+    <file name="mpsDeprecatedExecution.xml">
+      <unit id="8321286824325034320" at="1,0,662,10" name="jetbrains.mps.contrib.build.mpsDeprecatedExecution" />
+    </file>
+  </root>
+</debug-info>
+
