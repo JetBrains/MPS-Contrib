@@ -20,7 +20,6 @@
       <include name="javac2.jar" />
       <include name="jdom.jar" />
       <include name="asm4-all.jar" />
-      <include name="asm-all.jar" />
       <include name="jgoodies-forms.jar" />
     </fileset>
   </path>
@@ -94,8 +93,12 @@
       <fileset dir="${basedir}/mps-xml-obsolete/languages/util/gtext/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/mps-xml-obsolete/languages/gtext/jetbrains.mps.gtext-src.jar">
-      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/gtext/generator/source_gen" />
-      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/gtext/source_gen" />
+      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/gtext/generator/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
+      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/gtext/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
       <zipfileset file="${basedir}/mps-xml-obsolete/languages/util/gtext/jetbrains.mps.gtext.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/mps-xml-obsolete-languages-util-gtext-generators-baseLanguage-templates" prefix="module/generators/baseLanguage/templates" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/mps-xml-obsolete-languages-util-gtext-languageModels" prefix="module/languageModels" />
@@ -119,7 +122,9 @@
       <fileset dir="${basedir}/mps-xml-obsolete/languages/util/gtext/runtime/jetbrains" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/mps-xml-obsolete/languages/gtext/jetbrains.mps.gtext.runtime-src.jar">
-      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/gtext/runtime/source_gen" />
+      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/gtext/runtime/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
       <zipfileset file="${basedir}/mps-xml-obsolete/languages/util/gtext/runtime/jetbrains.mps.gtext.runtime.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/mps-xml-obsolete-languages-util-gtext-runtime-jetbrains" prefix="module/jetbrains" />
     </jar>
@@ -161,8 +166,12 @@
       <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xml/xml/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/mps-xml-obsolete/languages/xml/jetbrains.mps.xml-src.jar">
-      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xml/xml/generator/source_gen" />
-      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xml/xml/source_gen" />
+      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xml/xml/generator/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
+      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xml/xml/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
       <zipfileset file="${basedir}/mps-xml-obsolete/languages/util/xml/xml/jetbrains.mps.xml.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/mps-xml-obsolete-languages-util-xml-xml-generators-baseLanguage-templates" prefix="module/generators/baseLanguage/templates" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/mps-xml-obsolete-languages-util-xml-xml-languageModels" prefix="module/languageModels" />
@@ -202,8 +211,12 @@
       <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xml/xmlInternal/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/mps-xml-obsolete/languages/xml/jetbrains.mps.xmlInternal-src.jar">
-      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xml/xmlInternal/generator/source_gen" />
-      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xml/xmlInternal/source_gen" />
+      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xml/xmlInternal/generator/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
+      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xml/xmlInternal/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
       <zipfileset file="${basedir}/mps-xml-obsolete/languages/util/xml/xmlInternal/jetbrains.mps.xmlInternal.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/mps-xml-obsolete-languages-util-xml-xmlInternal-generators-baseLanguage-templates" prefix="module/generators/baseLanguage/templates" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/mps-xml-obsolete-languages-util-xml-xmlInternal-languageModels" prefix="module/languageModels" />
@@ -243,8 +256,12 @@
       <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xml/xmlSchema/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/mps-xml-obsolete/languages/xml/jetbrains.mps.xmlSchema-src.jar">
-      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xml/xmlSchema/generator/source_gen" />
-      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xml/xmlSchema/source_gen" />
+      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xml/xmlSchema/generator/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
+      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xml/xmlSchema/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
       <zipfileset file="${basedir}/mps-xml-obsolete/languages/util/xml/xmlSchema/jetbrains.mps.xmlSchema.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/mps-xml-obsolete-languages-util-xml-xmlSchema-generator-template" prefix="module/generator/template" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/mps-xml-obsolete-languages-util-xml-xmlSchema-languageModels" prefix="module/languageModels" />
@@ -284,8 +301,12 @@
       <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xml/xmlQuery/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/mps-xml-obsolete/languages/xml/jetbrains.mps.xmlQuery-src.jar">
-      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xml/xmlQuery/generator/source_gen" />
-      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xml/xmlQuery/source_gen" />
+      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xml/xmlQuery/generator/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
+      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xml/xmlQuery/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
       <zipfileset file="${basedir}/mps-xml-obsolete/languages/util/xml/xmlQuery/jetbrains.mps.xmlQuery.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/mps-xml-obsolete-languages-util-xml-xmlQuery-generator-template" prefix="module/generator/template" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/mps-xml-obsolete-languages-util-xml-xmlQuery-languageModels" prefix="module/languageModels" />
@@ -311,7 +332,9 @@
       <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xml/xmlQuery/runtime/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/mps-xml-obsolete/languages/xml/jetbrains.mps.xmlQuery.runtime-src.jar">
-      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xml/xmlQuery/runtime/source_gen" />
+      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xml/xmlQuery/runtime/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
       <zipfileset file="${basedir}/mps-xml-obsolete/languages/util/xml/xmlQuery/runtime/jetbrains.mps.xmlQuery.runtime.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/mps-xml-obsolete-languages-util-xml-xmlQuery-runtime-models" prefix="module/models" />
     </jar>
@@ -357,8 +380,12 @@
       <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xmlUnitTest/languages/xmlUnitTest/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/mps-xml-obsolete/languages/xml/jetbrains.mps.xmlUnitTest/jetbrains.mps.xmlUnitTest-src.jar">
-      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xmlUnitTest/languages/xmlUnitTest/generator/source_gen" />
-      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xmlUnitTest/languages/xmlUnitTest/source_gen" />
+      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xmlUnitTest/languages/xmlUnitTest/generator/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
+      <fileset dir="${basedir}/mps-xml-obsolete/languages/util/xmlUnitTest/languages/xmlUnitTest/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
       <zipfileset file="${basedir}/mps-xml-obsolete/languages/util/xmlUnitTest/languages/xmlUnitTest/jetbrains.mps.xmlUnitTest.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/mps-xml-obsolete-languages-util-xmlUnitTest-languages-xmlUnitTest-generator-template" prefix="module/generator/template" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/mps-xml-obsolete-languages-util-xmlUnitTest-languages-xmlUnitTest-languageModels" prefix="module/languageModels" />
@@ -602,7 +629,6 @@
         <fileset file="${artifacts.IDEA}/lib/trove4j.jar" />
         <fileset file="${artifacts.IDEA}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.IDEA}/lib/asm4-all.jar" />
-        <fileset file="${artifacts.IDEA}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -648,7 +674,6 @@
         <fileset file="${artifacts.IDEA}/lib/trove4j.jar" />
         <fileset file="${artifacts.IDEA}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.IDEA}/lib/asm4-all.jar" />
-        <fileset file="${artifacts.IDEA}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -698,7 +723,6 @@
         <fileset file="${artifacts.IDEA}/lib/trove4j.jar" />
         <fileset file="${artifacts.IDEA}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.IDEA}/lib/asm4-all.jar" />
-        <fileset file="${artifacts.IDEA}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -745,7 +769,6 @@
         <fileset file="${artifacts.IDEA}/lib/trove4j.jar" />
         <fileset file="${artifacts.IDEA}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.IDEA}/lib/asm4-all.jar" />
-        <fileset file="${artifacts.IDEA}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -795,7 +818,6 @@
         <fileset file="${artifacts.IDEA}/lib/trove4j.jar" />
         <fileset file="${artifacts.IDEA}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.IDEA}/lib/asm4-all.jar" />
-        <fileset file="${artifacts.IDEA}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -839,7 +861,6 @@
         <fileset file="${artifacts.IDEA}/lib/trove4j.jar" />
         <fileset file="${artifacts.IDEA}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.IDEA}/lib/asm4-all.jar" />
-        <fileset file="${artifacts.IDEA}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -884,7 +905,6 @@
         <fileset file="${artifacts.IDEA}/lib/trove4j.jar" />
         <fileset file="${artifacts.IDEA}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.IDEA}/lib/asm4-all.jar" />
-        <fileset file="${artifacts.IDEA}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -933,7 +953,6 @@
         <fileset file="${artifacts.IDEA}/lib/trove4j.jar" />
         <fileset file="${artifacts.IDEA}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.IDEA}/lib/asm4-all.jar" />
-        <fileset file="${artifacts.IDEA}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -981,7 +1000,6 @@
         <fileset file="${artifacts.IDEA}/lib/trove4j.jar" />
         <fileset file="${artifacts.IDEA}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.IDEA}/lib/asm4-all.jar" />
-        <fileset file="${artifacts.IDEA}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -1022,7 +1040,6 @@
         <fileset file="${artifacts.IDEA}/lib/trove4j.jar" />
         <fileset file="${artifacts.IDEA}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.IDEA}/lib/asm4-all.jar" />
-        <fileset file="${artifacts.IDEA}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <path refid="path.jdk.classpath" />
       </classpath>
@@ -1066,7 +1083,6 @@
         <fileset file="${artifacts.IDEA}/lib/trove4j.jar" />
         <fileset file="${artifacts.IDEA}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.IDEA}/lib/asm4-all.jar" />
-        <fileset file="${artifacts.IDEA}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -1121,7 +1137,6 @@
         <fileset file="${artifacts.IDEA}/lib/trove4j.jar" />
         <fileset file="${artifacts.IDEA}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.IDEA}/lib/asm4-all.jar" />
-        <fileset file="${artifacts.IDEA}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -1167,7 +1182,6 @@
         <fileset file="${artifacts.IDEA}/lib/trove4j.jar" />
         <fileset file="${artifacts.IDEA}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.IDEA}/lib/asm4-all.jar" />
-        <fileset file="${artifacts.IDEA}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -1213,7 +1227,6 @@
         <fileset file="${artifacts.IDEA}/lib/trove4j.jar" />
         <fileset file="${artifacts.IDEA}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.IDEA}/lib/asm4-all.jar" />
-        <fileset file="${artifacts.IDEA}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />

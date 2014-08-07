@@ -55,7 +55,9 @@
       <fileset dir="${basedir}/jetbrains.mps.contrib.build/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/mps-contrib-build/languages/jetbrains.mps.contrib.build-src.jar">
-      <fileset dir="${basedir}/jetbrains.mps.contrib.build/source_gen" />
+      <fileset dir="${basedir}/jetbrains.mps.contrib.build/source_gen">
+        <exclude name="**/trace.info" />
+      </fileset>
       <zipfileset file="${basedir}/jetbrains.mps.contrib.build/jetbrains.mps.contrib.build.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/jetbrains.mps.contrib.build-models" prefix="module/models" />
     </jar>
