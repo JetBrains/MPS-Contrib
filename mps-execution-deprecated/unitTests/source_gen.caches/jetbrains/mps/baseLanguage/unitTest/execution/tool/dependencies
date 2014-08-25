@@ -11,7 +11,7 @@
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.unitTest.execution.client.ITestNodeWrapper" />
-    <classNode dependClassName="jetbrains.mps.baseLanguage.unitTest.execution.client.Junit_Command" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.unitTest.execution.client.JUnit_Command" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.unitTest.execution.client.TestEventsDispatcher" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.unitTest.execution.client.TestRunState" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.unitTest.execution.client.UnitTestProcessListener" />

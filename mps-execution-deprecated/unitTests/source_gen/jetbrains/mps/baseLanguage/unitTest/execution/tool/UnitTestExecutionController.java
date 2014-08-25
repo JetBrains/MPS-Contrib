@@ -14,7 +14,7 @@ import com.intellij.execution.process.ProcessHandler;
 import jetbrains.mps.smodel.ModelAccess;
 import com.intellij.execution.ExecutionException;
 import jetbrains.mps.execution.api.commands.OutputRedirector;
-import jetbrains.mps.baseLanguage.unitTest.execution.client.Junit_Command;
+import jetbrains.mps.baseLanguage.unitTest.execution.client.JUnit_Command;
 import java.io.File;
 import jetbrains.mps.baseLanguage.unitTest.execution.client.UnitTestProcessListener;
 import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
@@ -30,7 +30,6 @@ public class UnitTestExecutionController {
   private final ConfigRunParameters myConfigurationRunParameters;
   private final List<ITestNodeWrapper> myWhatToTest = ListSequence.fromList(new ArrayList<ITestNodeWrapper>());
   private ProcessHandler myCurrentProcess;
-
   @Deprecated
   public UnitTestExecutionController(final List<ITestNodeWrapper> whatToTest, ConfigRunParameters configurationRunParameters) {
     ModelAccess.instance().runReadAction(new Runnable() {
@@ -42,18 +41,16 @@ public class UnitTestExecutionController {
     myDispatcher = new TestEventsDispatcher(myState);
     myConfigurationRunParameters = configurationRunParameters;
   }
-
   public TestRunState getState() {
     return myState;
   }
-
   public ProcessHandler execute() throws ExecutionException {
     if (ListSequence.fromList(myWhatToTest).isEmpty()) {
       throw new ExecutionException("Nothing to test.");
     }
 
     String workingDir = myConfigurationRunParameters.getWorkingDirectory();
-    myCurrentProcess = OutputRedirector.redirect(new Junit_Command().setJrePath_String(myConfigurationRunParameters.getAlternativeJRE()).setVirtualMachineParameter_String(myConfigurationRunParameters.getVMParameters()).setWorkingDirectory_File(((workingDir != null && workingDir.length() > 0) ? new File(workingDir) : null)).createProcess(myWhatToTest), new UnitTestProcessListener(myDispatcher));
+    myCurrentProcess = OutputRedirector.redirect(new JUnit_Command().setJrePath_String(myConfigurationRunParameters.getAlternativeJRE()).setVirtualMachineParameter_String(myConfigurationRunParameters.getVMParameters()).setWorkingDirectory_File(((workingDir != null && workingDir.length() > 0) ? new File(workingDir) : null)).createProcess(myWhatToTest), new UnitTestProcessListener(myDispatcher));
 
     if (myCurrentProcess == null) {
       myState.terminate();
@@ -62,7 +59,6 @@ public class UnitTestExecutionController {
 
     return myCurrentProcess;
   }
-
   public _FunctionTypes._void_P0_E0 getCloseListener() {
     final ProcessHandler process = myCurrentProcess;
     return new _FunctionTypes._void_P0_E0() {

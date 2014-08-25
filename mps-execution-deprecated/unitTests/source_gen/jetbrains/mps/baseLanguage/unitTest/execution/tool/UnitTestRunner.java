@@ -42,17 +42,14 @@ public class UnitTestRunner extends BaseRunner {
   private static final int MAX_COMMAND_LINE = 16384;
   private ProcessBuilder myProcessBuilder;
   private final List<ITestNodeWrapper> myTestable = ListSequence.fromList(new ArrayList<ITestNodeWrapper>());
-
   @Deprecated
   public UnitTestRunner(List<ITestNodeWrapper> testable, ConfigRunParameters parameters) {
     super(parameters);
     ListSequence.fromList(myTestable).addSequence(ListSequence.fromList(testable));
   }
-
   public Process run() throws ProcessNotCreatedException {
     return run(myTestable);
   }
-
   @Nullable
   public Process run(final List<ITestNodeWrapper> tests) throws ProcessNotCreatedException {
     if (ListSequence.fromList(tests).isEmpty()) {
@@ -82,7 +79,6 @@ public class UnitTestRunner extends BaseRunner {
     });
     return runTestWithParameters(runParams.value, testsToRun.value);
   }
-
   private Process runTestWithParameters(final Tuples._3<String, List<String>, List<String>> parameters, final List<ITestNodeWrapper> tests) throws ProcessNotCreatedException {
     final List<String> params = ListSequence.fromList(new ArrayList<String>());
     final Wrappers._T<String> workingDir = new Wrappers._T<String>(null);
@@ -172,14 +168,12 @@ public class UnitTestRunner extends BaseRunner {
       throw new ProcessNotCreatedException(e.getMessage(), e, getCommandLine(myRunParameters.getWorkingDirectory()));
     }
   }
-
   public String getCommandString() {
     if (myProcessBuilder == null) {
       return null;
     }
     return getCommandString(myProcessBuilder);
   }
-
   public String getClasspathString(List<ITestNodeWrapper> list, List<String> additionalClassPath) {
     Set<SModule> uniqueModules = SetSequence.fromSet(new HashSet<SModule>());
     for (ITestNodeWrapper testable : list) {
@@ -198,31 +192,25 @@ public class UnitTestRunner extends BaseRunner {
     }
     return buff.toString();
   }
-
   protected static Logger LOG = LogManager.getLogger(UnitTestRunner.class);
-
   private static Tuples._3<String, List<String>, List<String>> check_y7hhub_a0a0a0a0a1a0a0e0f(ITestNodeWrapper checkedDotOperand) {
     if (null != checkedDotOperand) {
       return checkedDotOperand.getTestRunParameters();
     }
     return null;
   }
-
   private static Tuples._3<String, List<String>, List<String>> check_y7hhub_a0a0a0a0c0a0a4a5(ITestNodeWrapper checkedDotOperand) {
     if (null != checkedDotOperand) {
       return checkedDotOperand.getTestRunParameters();
     }
     return null;
   }
-
   private static boolean eq_y7hhub_a0a0a0a0a0a0b0a0a0a0e0f(Object a, Object b) {
     return (a != null ? a.equals(b) : a == b);
   }
-
   private static boolean eq_y7hhub_a0a0a0a0a0a2a0a0a0a4a5(Object a, Object b) {
     return (a != null ? a.equals(b) : a == b);
   }
-
   private static boolean isNotEmptyString(String str) {
     return str != null && str.length() > 0;
   }
