@@ -9,15 +9,12 @@ import java.util.List;
 public class RunConfigType_BehaviorDescriptor extends BaseClassifierType_BehaviorDescriptor {
   public RunConfigType_BehaviorDescriptor() {
   }
-
   public SNode virtual_getClassExpression_1213877337357(SNode thisNode) {
     return RunConfigType_Behavior.virtual_getClassExpression_1213877337357(thisNode);
   }
-
   public List<SNode> virtual_getMembers_1213877402148(SNode thisNode, SNode contextNode) {
     return RunConfigType_Behavior.virtual_getMembers_1213877402148(thisNode, contextNode);
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigType";

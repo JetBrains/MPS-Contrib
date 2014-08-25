@@ -7,7 +7,6 @@ import jetbrains.mps.baseLanguage.classifiers.behavior.DefaultClassifierMethodDe
 public class RunConfigurationMethodDeclaration_BehaviorDescriptor extends DefaultClassifierMethodDeclaration_BehaviorDescriptor {
   public RunConfigurationMethodDeclaration_BehaviorDescriptor() {
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigurationMethodDeclaration";

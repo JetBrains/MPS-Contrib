@@ -14,27 +14,21 @@ import jetbrains.mps.checkedName.PropertyReference;
 public class RunConfigurationTypeDeclaration_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor implements INamedConcept_BehaviorDescriptor, ICheckedNamePolicy_BehaviorDescriptor {
   public RunConfigurationTypeDeclaration_BehaviorDescriptor() {
   }
-
   public SNode virtual_getDescendantToCheck_4844813484172611439(SNode thisNode) {
     return ICheckedNamePolicy_Behavior.virtual_getDescendantToCheck_4844813484172611439(thisNode);
   }
-
   public List<SNode> virtual_getDescendantsToCheck_4844813484172611413(SNode thisNode) {
     return ICheckedNamePolicy_Behavior.virtual_getDescendantsToCheck_4844813484172611413(thisNode);
   }
-
   public String virtual_getFqName_1213877404258(SNode thisNode) {
     return INamedConcept_Behavior.virtual_getFqName_1213877404258(thisNode);
   }
-
   public List<PropertyReference> virtual_getPropertiesToCheck_4844813484172611445(SNode thisNode) {
     return ICheckedNamePolicy_Behavior.virtual_getPropertiesToCheck_4844813484172611445(thisNode);
   }
-
   public PropertyReference virtual_getPropertyToCheck_4844813484172611473(SNode thisNode) {
     return RunConfigurationTypeDeclaration_Behavior.virtual_getPropertyToCheck_4844813484172611473(thisNode);
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigurationTypeDeclaration";

@@ -7,7 +7,6 @@ import jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor;
 public class ParametrizedExecuteBlock_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor implements IExecuteConfigBlock_BehaviorDescriptor {
   public ParametrizedExecuteBlock_BehaviorDescriptor() {
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.execution.configurations.deprecated.structure.ParametrizedExecuteBlock";

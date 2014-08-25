@@ -6,7 +6,6 @@ package jetbrains.mps.execution.configurations.deprecated.behavior;
 public class JavaNodeConfigurationEditorDeclaration_BehaviorDescriptor extends ConfigurationEditorDeclaration_BehaviorDescriptor {
   public JavaNodeConfigurationEditorDeclaration_BehaviorDescriptor() {
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.execution.configurations.deprecated.structure.JavaNodeConfigurationEditorDeclaration";

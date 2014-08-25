@@ -7,7 +7,6 @@ import jetbrains.mps.lang.core.behavior.NodeAttribute_BehaviorDescriptor;
 public class UserComponentReferenceAnnotation_BehaviorDescriptor extends NodeAttribute_BehaviorDescriptor {
   public UserComponentReferenceAnnotation_BehaviorDescriptor() {
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.execution.configurations.deprecated.structure.UserComponentReferenceAnnotation";

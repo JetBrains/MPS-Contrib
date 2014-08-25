@@ -6,7 +6,6 @@ package jetbrains.mps.execution.configurations.deprecated.behavior;
 public class ModelCreatorTarget_BehaviorDescriptor extends BaseCreatorTarget_BehaviorDescriptor {
   public ModelCreatorTarget_BehaviorDescriptor() {
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.execution.configurations.deprecated.structure.ModelCreatorTarget";

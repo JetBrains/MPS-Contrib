@@ -11,15 +11,12 @@ import jetbrains.mps.checkedName.PropertyReference;
 public class RunConfigurationTypeDeclaration_Behavior {
   public static void init(SNode thisNode) {
   }
-
   public static String call_getGeneratedName_314981645426570387(SNode thisNode) {
     return NameUtil.toValidIdentifier(SPropertyOperations.getString(thisNode, "name")) + "_ConfigurationType";
   }
-
   public static String call_getGeneratedClassFQName_314981645426570398(SNode thisNode) {
     return SNodeOperations.getModelLongName(jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations.getModel(thisNode)) + "." + RunConfigurationTypeDeclaration_Behavior.call_getGeneratedName_314981645426570387(thisNode);
   }
-
   public static PropertyReference virtual_getPropertyToCheck_4844813484172611473(SNode thisNode) {
     return new PropertyReference(thisNode, "caption");
   }

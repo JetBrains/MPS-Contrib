@@ -8,11 +8,9 @@ import org.jetbrains.mps.openapi.model.SNode;
 public class JavaNodeRunConfiguration_BehaviorDescriptor extends JavaRunConfiguration_BehaviorDescriptor {
   public JavaNodeRunConfiguration_BehaviorDescriptor() {
   }
-
   public List<SNode> virtual_getAdditionalParameters_314981645426570797(SNode thisNode) {
     return JavaNodeRunConfiguration_Behavior.virtual_getAdditionalParameters_314981645426570797(thisNode);
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.execution.configurations.deprecated.structure.JavaNodeRunConfiguration";

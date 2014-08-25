@@ -8,7 +8,6 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 public class Parameter_FunctionParameter_Behavior {
   public static void init(SNode thisNode) {
   }
-
   public static boolean virtual_dontUseParameterObject_1262430001741498340(SAbstractConcept thisConcept) {
     return true;
   }

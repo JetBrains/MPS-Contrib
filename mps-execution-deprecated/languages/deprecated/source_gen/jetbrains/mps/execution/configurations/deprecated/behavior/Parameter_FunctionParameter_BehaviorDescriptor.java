@@ -9,11 +9,9 @@ import org.jetbrains.mps.openapi.language.SConcept;
 public class Parameter_FunctionParameter_BehaviorDescriptor extends ConceptFunctionParameter_BehaviorDescriptor implements IDontSubstituteByDefault_BehaviorDescriptor {
   public Parameter_FunctionParameter_BehaviorDescriptor() {
   }
-
   public boolean virtual_dontUseParameterObject_1262430001741498340(SConcept thisConcept) {
     return Parameter_FunctionParameter_Behavior.virtual_dontUseParameterObject_1262430001741498340(thisConcept);
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.execution.configurations.deprecated.structure.Parameter_FunctionParameter";

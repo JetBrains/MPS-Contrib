@@ -2,7 +2,7 @@
 <debug-info>
   <root>
     <file name="Language.java">
-      <unit at="18,0,59,0" name="jetbrains.mps.execution.configurations.deprecated.Language" />
+      <unit at="18,0,54,0" name="jetbrains.mps.execution.configurations.deprecated.Language" />
     </file>
   </root>
 </debug-info>

@@ -7,7 +7,6 @@ import jetbrains.mps.lang.core.behavior.NodeAttribute_BehaviorDescriptor;
 public class ComponentInsideOfChangeListenerAnnotation_BehaviorDescriptor extends NodeAttribute_BehaviorDescriptor {
   public ComponentInsideOfChangeListenerAnnotation_BehaviorDescriptor() {
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.execution.configurations.deprecated.structure.ComponentInsideOfChangeListenerAnnotation";

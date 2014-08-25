@@ -12,11 +12,9 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 public class ExecuteParameterQuery_Behavior {
   public static void init(SNode thisNode) {
   }
-
   public static SNode virtual_getExpectedReturnType_1213877374441(SNode thisNode) {
     return SLinkOperations.getTarget(thisNode, "parameterType", true);
   }
-
   public static List<SNode> virtual_getParameters_1213877374450(SNode thisNode) {
     List<SNode> conceptFunctionParameterConcepts = BehaviorReflection.invokeSuper((Class<List<SNode>>) ((Class) Object.class), thisNode, "jetbrains.mps.baseLanguage.structure.ConceptFunction", "virtual_getParameters_1213877374450", new Object[]{});
     SNode root = SNodeOperations.getAncestor(thisNode, null, false, true);

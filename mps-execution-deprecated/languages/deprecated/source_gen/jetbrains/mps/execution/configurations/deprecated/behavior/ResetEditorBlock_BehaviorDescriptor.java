@@ -7,11 +7,9 @@ import org.jetbrains.mps.openapi.language.SConcept;
 public class ResetEditorBlock_BehaviorDescriptor extends AbstractEnhancedConceptFunction_BehaviorDescriptor {
   public ResetEditorBlock_BehaviorDescriptor() {
   }
-
   public boolean virtual_showName_1262430001741498082(SConcept thisConcept) {
     return ResetEditorBlock_Behavior.virtual_showName_1262430001741498082(thisConcept);
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.execution.configurations.deprecated.structure.ResetEditorBlock";

@@ -10,19 +10,15 @@ import org.jetbrains.mps.openapi.language.SConcept;
 public class RunConfigExecutionParameterDeclaration_BehaviorDescriptor extends ActionDataParameterDeclaration_BehaviorDescriptor {
   public RunConfigExecutionParameterDeclaration_BehaviorDescriptor() {
   }
-
   public boolean virtual_canBeReferent_8179323502814657526(SNode thisNode, SNode referentConcept) {
     return RunConfigExecutionParameterDeclaration_Behavior.virtual_canBeReferent_8179323502814657526(thisNode, referentConcept);
   }
-
   public boolean virtual_canOperationBeChild_4593153787954614840(SNode thisNode, SNode parentNode) {
     return RunConfigExecutionParameterDeclaration_Behavior.virtual_canOperationBeChild_4593153787954614840(thisNode, parentNode);
   }
-
   public List<SNode> virtual_getOperationConcept_3044950653914717125(SConcept thisConcept) {
     return RunConfigExecutionParameterDeclaration_Behavior.virtual_getOperationConcept_3044950653914717125(thisConcept);
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigExecutionParameterDeclaration";

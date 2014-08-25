@@ -7,7 +7,6 @@ import jetbrains.mps.baseLanguage.closures.behavior.ClosureLiteral_BehaviorDescr
 public class DisposeConsoleBlock_BehaviorDescriptor extends ClosureLiteral_BehaviorDescriptor {
   public DisposeConsoleBlock_BehaviorDescriptor() {
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.execution.configurations.deprecated.structure.DisposeConsoleBlock";

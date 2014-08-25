@@ -23,31 +23,24 @@ import jetbrains.mps.smodel.SReference;
 public class RunConfigurationDeclaration_Behavior {
   public static void init(SNode thisNode) {
   }
-
   public static String call_getGeneratedName_314981645426570423(SNode thisNode) {
     return NameUtil.toValidIdentifier(SPropertyOperations.getString(thisNode, "name")) + "_Configuration";
   }
-
   public static String call_getGeneratedClassFQName_314981645426570434(SNode thisNode) {
     return SNodeOperations.getModelLongName(jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations.getModel(thisNode)) + "." + RunConfigurationDeclaration_Behavior.call_getGeneratedName_314981645426570423(thisNode);
   }
-
   public static String call_getGeneratedFactoryName_314981645426570449(SNode thisNode) {
     return NameUtil.toValidIdentifier(SPropertyOperations.getString(thisNode, "name")) + "_Factory";
   }
-
   public static String call_getGeneratedFactoryClassFQName_314981645426570460(SNode thisNode) {
     return SNodeOperations.getModelLongName(jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations.getModel(thisNode)) + "." + RunConfigurationDeclaration_Behavior.call_getGeneratedFactoryName_314981645426570449(thisNode);
   }
-
   public static PropertyReference virtual_getPropertyToCheck_4844813484172611473(SNode thisNode) {
     return new PropertyReference(thisNode, "caption");
   }
-
   public static SNode virtual_createType_1213877527970(SNode thisNode) {
     return _quotation_createNode_ym0401_a0a5(thisNode);
   }
-
   public static List<SNode> virtual_getMembers_1213877528020(SNode thisNode, final SNode contextNode) {
     List<SNode> members = BehaviorReflection.invokeSuper((Class<List<SNode>>) ((Class) Object.class), thisNode, "jetbrains.mps.baseLanguage.classifiers.structure.IClassifier", "virtual_getMembers_1213877528020", new Object[]{contextNode});
     return ListSequence.fromList(members).where(new IWhereFilter<SNode>() {
@@ -56,7 +49,6 @@ public class RunConfigurationDeclaration_Behavior {
       }
     }).toListSequence();
   }
-
   public static SNode virtual_getStateType_314981645426570519(SNode thisNode) {
     if ((SLinkOperations.getTarget(thisNode, "stateTypeParameter", false) != null)) {
       SNode classifierType = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.structure.ClassifierType", null);
@@ -68,7 +60,6 @@ public class RunConfigurationDeclaration_Behavior {
     }
     return _quotation_createNode_ym0401_a2a7();
   }
-
   public static boolean call_isForeign_314981645426570558(SNode thisNode) {
     SNode type = SLinkOperations.getTarget(thisNode, "configType", false);
     if (type == null) {
@@ -76,11 +67,9 @@ public class RunConfigurationDeclaration_Behavior {
     }
     return neq_ym0401_a0c0j(SModelOperations.getModelName(jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations.getModel(thisNode)), SModelOperations.getModelName(jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations.getModel(type)));
   }
-
   public static boolean virtual_requiresCustomEditor_1262430001741498265(SAbstractConcept thisConcept) {
     return true;
   }
-
   private static SNode _quotation_createNode_ym0401_a0a5(Object parameter_1) {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_2 = null;
@@ -88,7 +77,6 @@ public class RunConfigurationDeclaration_Behavior {
     SNodeAccessUtil.setReferenceTarget(quotedNode_2, "runConfig", (SNode) parameter_1);
     return quotedNode_2;
   }
-
   private static SNode _quotation_createNode_ym0401_a0a1a7() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;
@@ -96,7 +84,6 @@ public class RunConfigurationDeclaration_Behavior {
     quotedNode_1.setReference("classifier", SReference.create("classifier", quotedNode_1, facade.createModelReference("r:e668577d-4946-4b7d-8278-f6ebfb65ac06(jetbrains.mps.debug)"), facade.createNodeId("8321286824330490408")));
     return quotedNode_1;
   }
-
   private static SNode _quotation_createNode_ym0401_a2a7() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;
@@ -104,7 +91,6 @@ public class RunConfigurationDeclaration_Behavior {
     quotedNode_1.setReference("classifier", SReference.create("classifier", quotedNode_1, facade.createModelReference("f:java_stub#498d89d2-c2e9-11e2-ad49-6cf049e62fe5#com.intellij.execution.configurations(MPS.IDEA/com.intellij.execution.configurations@java_stub)"), facade.createNodeId("~RunProfileState")));
     return quotedNode_1;
   }
-
   private static boolean neq_ym0401_a0c0j(Object a, Object b) {
     return !((a != null ? a.equals(b) : a == b));
   }

@@ -7,7 +7,6 @@ import jetbrains.mps.baseLanguage.behavior.Statement_BehaviorDescriptor;
 public class RunConfigMainNodeStatement_BehaviorDescriptor extends Statement_BehaviorDescriptor {
   public RunConfigMainNodeStatement_BehaviorDescriptor() {
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigMainNodeStatement";

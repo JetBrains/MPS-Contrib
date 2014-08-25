@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debugInfo>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
   <root nodeRef="r:138f9603-0b54-46a2-bfb5-a0b1fa62bd91(jetbrains.mps.execution.configurations.deprecated.generator.util)/5755638771828887259">
-    <nodeInfo nodeId="5755638771828887264" fileName="VariableNameUtil.java" startLine="10" startPosition="65" endLine="11" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5755638771828887271" fileName="VariableNameUtil.java" startLine="7" startPosition="0" endLine="9" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="VariableNameUtil#()V" />
-    <nodeInfo nodeId="5755638771828887260" fileName="VariableNameUtil.java" startLine="10" startPosition="0" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="createComplicatedNameSuffix#(Ljava/lang/String;)Ljava/lang/String;" />
-    <scopeInfo nodeId="5755638771828887274" fileName="VariableNameUtil.java" startLine="7" startPosition="29" endLine="7" endPosition="29" />
-    <scopeInfo nodeId="5755638771828887263" fileName="VariableNameUtil.java" startLine="10" startPosition="65" endLine="11" endPosition="30" />
-    <scopeInfo nodeId="5755638771828887271" fileName="VariableNameUtil.java" startLine="7" startPosition="0" endLine="9" endPosition="0" />
-    <scopeInfo nodeId="5755638771828887260" fileName="VariableNameUtil.java" startLine="10" startPosition="0" endLine="13" endPosition="0">
-      <varInfo nodeId="5755638771828887268" varName="name" />
-    </scopeInfo>
-    <unitInfo nodeId="5755638771828887259" fileName="VariableNameUtil.java" startLine="6" startPosition="0" endLine="14" endPosition="0" unitName="jetbrains.mps.execution.configurations.deprecated.generator.util.VariableNameUtil" />
+    <file name="VariableNameUtil.java">
+      <node id="5755638771828887264" at="9,65,10,30" concept="1" />
+      <node id="5755638771828887271" at="7,0,9,0" concept="0" trace="VariableNameUtil#()V" />
+      <node id="5755638771828887260" at="9,0,12,0" concept="2" trace="createComplicatedNameSuffix#(Ljava/lang/String;)Ljava/lang/String;" />
+      <scope id="5755638771828887274" at="7,29,7,29" />
+      <scope id="5755638771828887263" at="9,65,10,30" />
+      <scope id="5755638771828887271" at="7,0,9,0" />
+      <scope id="5755638771828887260" at="9,0,12,0">
+        <var name="name" id="5755638771828887268" />
+      </scope>
+      <unit id="5755638771828887259" at="6,0,13,0" name="jetbrains.mps.execution.configurations.deprecated.generator.util.VariableNameUtil" />
+    </file>
   </root>
-</debugInfo>
+</debug-info>
 

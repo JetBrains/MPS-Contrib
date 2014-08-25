@@ -7,7 +7,6 @@ import jetbrains.mps.baseLanguage.behavior.ConceptFunction_BehaviorDescriptor;
 public abstract class AbstractCheckConfigBlock_BehaviorDescriptor extends ConceptFunction_BehaviorDescriptor {
   public AbstractCheckConfigBlock_BehaviorDescriptor() {
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.execution.configurations.deprecated.structure.AbstractCheckConfigBlock";

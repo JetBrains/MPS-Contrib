@@ -7,11 +7,9 @@ import org.jetbrains.mps.openapi.model.SNode;
 public class NodesCreatorTarget_BehaviorDescriptor extends BaseCreatorTarget_BehaviorDescriptor {
   public NodesCreatorTarget_BehaviorDescriptor() {
   }
-
   public SNode virtual_getParameter_314981645426570613(SNode thisNode) {
     return NodesCreatorTarget_Behavior.virtual_getParameter_314981645426570613(thisNode);
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.execution.configurations.deprecated.structure.NodesCreatorTarget";

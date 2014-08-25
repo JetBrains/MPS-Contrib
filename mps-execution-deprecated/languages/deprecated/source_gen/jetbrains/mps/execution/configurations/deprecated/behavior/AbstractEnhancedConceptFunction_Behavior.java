@@ -15,7 +15,6 @@ import jetbrains.mps.smodel.SModelUtil_new;
 public class AbstractEnhancedConceptFunction_Behavior {
   public static void init(SNode thisNode) {
   }
-
   public static List<SNode> virtual_getParameters_1213877374450(SNode thisNode) {
     List<SNode> conceptFunctionParameterConcepts = BehaviorReflection.invokeSuper((Class<List<SNode>>) ((Class) Object.class), thisNode, "jetbrains.mps.baseLanguage.structure.ConceptFunction", "virtual_getParameters_1213877374450", new Object[]{});
 
@@ -33,7 +32,6 @@ public class AbstractEnhancedConceptFunction_Behavior {
 
     return conceptFunctionParameterConcepts;
   }
-
   private static SNode _quotation_createNode_73aeno_b0a0a1a0a8a0() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;

@@ -7,7 +7,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 public class BaseCreatorTarget_Behavior {
   public static void init(SNode thisNode) {
   }
-
   public static SNode virtual_getParameter_314981645426570613(SNode thisNode) {
     return null;
   }

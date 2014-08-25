@@ -9,11 +9,9 @@ import org.jetbrains.mps.openapi.model.SNode;
 public abstract class AbstractEnhancedConceptFunction_BehaviorDescriptor extends ConceptFunction_BehaviorDescriptor {
   public AbstractEnhancedConceptFunction_BehaviorDescriptor() {
   }
-
   public List<SNode> virtual_getParameters_1213877374450(SNode thisNode) {
     return AbstractEnhancedConceptFunction_Behavior.virtual_getParameters_1213877374450(thisNode);
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.execution.configurations.deprecated.structure.AbstractEnhancedConceptFunction";

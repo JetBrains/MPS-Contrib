@@ -8,15 +8,12 @@ import org.jetbrains.mps.openapi.model.SNode;
 public class JavaConfigurationRunParameters_FunctionParameter_BehaviorDescriptor extends ConceptFunctionParameter_BehaviorDescriptor implements IJavaRunConfigurationParameter_BehaviorDescriptor {
   public JavaConfigurationRunParameters_FunctionParameter_BehaviorDescriptor() {
   }
-
   public SNode virtual_getParameterType_1810772216404820824(SNode thisNode) {
     return JavaConfigurationRunParameters_FunctionParameter_Behavior.virtual_getParameterType_1810772216404820824(thisNode);
   }
-
   public String virtual_getVariableForExecuteBlockName_1810772216404807669(SNode thisNode) {
     return JavaConfigurationRunParameters_FunctionParameter_Behavior.virtual_getVariableForExecuteBlockName_1810772216404807669(thisNode);
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.execution.configurations.deprecated.structure.JavaConfigurationRunParameters_FunctionParameter";

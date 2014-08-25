@@ -8,11 +8,9 @@ import org.jetbrains.mps.openapi.language.SConcept;
 public class DisposeEditorBlock_BehaviorDescriptor extends ConceptFunction_BehaviorDescriptor {
   public DisposeEditorBlock_BehaviorDescriptor() {
   }
-
   public boolean virtual_showName_1262430001741498082(SConcept thisConcept) {
     return DisposeEditorBlock_Behavior.virtual_showName_1262430001741498082(thisConcept);
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.execution.configurations.deprecated.structure.DisposeEditorBlock";
