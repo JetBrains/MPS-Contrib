@@ -16,7 +16,6 @@ import jetbrains.mps.graphLayout.algorithms.BiconnectAugmentation;
 public class BiconnectAugmentationStressTest {
   public BiconnectAugmentationStressTest() {
   }
-
   public static void main(String[] args) throws Exception {
     String fileName = "C:\\work\\stressBiconnectAugmentation.txt";
     int numNodes = Integer.parseInt(args[0]);

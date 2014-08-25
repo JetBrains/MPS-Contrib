@@ -27,25 +27,20 @@ public class QuasiOrthogonalRepresentation {
   private Set<Edge> myStraightEdges;
   private Set<Edge> myRealEdges;
   private Set<Node> myRealNodes;
-
   public QuasiOrthogonalRepresentation() {
     myStraightEdges = null;
     myRealEdges = null;
     myRealNodes = null;
   }
-
   public void setStraightEdges(Set<Edge> straightEdges) {
     myStraightEdges = straightEdges;
   }
-
   public void setRealEdges(Set<Edge> realEdges) {
     myRealEdges = realEdges;
   }
-
   public void setRealNodes(Set<Node> realNodes) {
     myRealNodes = realNodes;
   }
-
   public Tuples._2<Map<Dart, Integer>, Map<Dart, Integer>> getRepresentation(EmbeddedGraph embeddedGraph) {
     Graph graph = embeddedGraph.getGraph();
     int c = 100 * graph.getNumNodes();
@@ -266,11 +261,9 @@ public class QuasiOrthogonalRepresentation {
     }
     return MultiTuple.<Map<Dart, Integer>,Map<Dart, Integer>>from(bends, angles);
   }
-
   private boolean isParallelEdgeNode(Node node) {
     return SetSequence.fromSet(myRealNodes).contains(node) || ListSequence.fromList(node.getEdges()).count() > 4;
   }
-
   private int getCapacity(Edge edge) {
     if (SetSequence.fromSet(myStraightEdges).contains(edge)) {
       System.out.println("edge " + edge + " is straight");
@@ -279,7 +272,6 @@ public class QuasiOrthogonalRepresentation {
       return INF;
     }
   }
-
   private int getCost(Edge edge) {
     int cost;
     if (SetSequence.fromSet(myRealEdges).contains(edge)) {
@@ -289,11 +281,9 @@ public class QuasiOrthogonalRepresentation {
     }
     return cost;
   }
-
   public static void getRepresentation(EmbeddedGraph embeddedGraph, Map<Dart, Integer> bends, Map<Dart, Integer> angles) {
     getRepresentation(embeddedGraph, bends, angles, SetSequence.fromSet(new HashSet<Edge>()));
   }
-
   public static void getRepresentation(EmbeddedGraph embeddedGraph, Map<Dart, Integer> bends, Map<Dart, Integer> angles, Set<Edge> straightEdges) {
     Graph graph = embeddedGraph.getGraph();
     int c = 100 * graph.getNumNodes();

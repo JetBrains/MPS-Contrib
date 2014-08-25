@@ -8,15 +8,12 @@ import org.jetbrains.mps.openapi.model.SNode;
 public abstract class BinaryOperation_BehaviorDescriptor extends PropertyValueExpression_BehaviorDescriptor {
   public BinaryOperation_BehaviorDescriptor() {
   }
-
   public String virtual_getOperation_1262430001741497840(SConcept thisConcept) {
     return BinaryOperation_Behavior.virtual_getOperation_1262430001741497840(thisConcept);
   }
-
   public SNode virtual_getType_1213877398951(SNode thisNode, SNode s1, SNode s2) {
     return BinaryOperation_Behavior.virtual_getType_1213877398951(thisNode, s1, s2);
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.buildlanguage.structure.BinaryOperation";

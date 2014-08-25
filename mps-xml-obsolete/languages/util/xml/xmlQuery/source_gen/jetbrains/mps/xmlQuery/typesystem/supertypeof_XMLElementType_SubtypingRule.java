@@ -18,7 +18,6 @@ import jetbrains.mps.smodel.SReference;
 public class supertypeof_XMLElementType_SubtypingRule extends SubtypingRule_Runtime implements ISubtypingRule_Runtime {
   public supertypeof_XMLElementType_SubtypingRule() {
   }
-
   public SNode getSubOrSuperType(SNode xmlType, TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
     if ((SLinkOperations.getTarget(xmlType, "schema", false) == null)) {
       return _quotation_createNode_vusj77_a0a0a1();
@@ -39,22 +38,18 @@ public class supertypeof_XMLElementType_SubtypingRule extends SubtypingRule_Runt
       return _quotation_createNode_vusj77_a1a0a0b();
     }
   }
-
   public String getApplicableConceptFQName() {
     return "jetbrains.mps.xmlQuery.structure.XMLElementType";
   }
-
   public IsApplicableStatus isApplicableAndPattern(SNode argument) {
     {
       boolean b = SModelUtil_new.isAssignableConcept(argument.getConcept().getQualifiedName(), this.getApplicableConceptFQName());
       return new IsApplicableStatus(b, null);
     }
   }
-
   public boolean isWeak() {
     return true;
   }
-
   private static SNode _quotation_createNode_vusj77_a0a0a1() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;
@@ -62,7 +57,6 @@ public class supertypeof_XMLElementType_SubtypingRule extends SubtypingRule_Runt
     quotedNode_1.setReference("classifier", SReference.create("classifier", quotedNode_1, facade.createModelReference("f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#org.jdom(MPS.Core/org.jdom@java_stub)"), facade.createNodeId("~Element")));
     return quotedNode_1;
   }
-
   private static SNode _quotation_createNode_vusj77_a1a0a0b() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;

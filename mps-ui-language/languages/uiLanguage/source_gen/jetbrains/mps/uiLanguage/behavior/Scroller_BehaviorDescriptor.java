@@ -8,11 +8,9 @@ import org.jetbrains.mps.openapi.model.SNode;
 public class Scroller_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor implements IComponentInstance_BehaviorDescriptor {
   public Scroller_BehaviorDescriptor() {
   }
-
   public SNode virtual_getExtendedComponent_1213877498080(SNode thisNode) {
     return IComponentInstance_Behavior.virtual_getExtendedComponent_1213877498080(thisNode);
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.uiLanguage.structure.Scroller";

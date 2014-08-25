@@ -22,11 +22,9 @@ public class ConfigurationEditorDeclaration_BasicEditor implements ConceptEditor
   public Collection<String> getContextHints() {
     return Collections.emptyList();
   }
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_i31dfd_a(editorContext, node);
   }
-
   private EditorCell createCollection_i31dfd_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_i31dfd_a");
@@ -36,7 +34,6 @@ public class ConfigurationEditorDeclaration_BasicEditor implements ConceptEditor
     editorCell.addEditorCell(this.createRefNode_i31dfd_d0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createCollection_i31dfd_a0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_i31dfd_a0");
@@ -47,14 +44,12 @@ public class ConfigurationEditorDeclaration_BasicEditor implements ConceptEditor
     editorCell.addEditorCell(this.createRefNode_i31dfd_b0a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_i31dfd_a0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "component:");
     editorCell.setCellId("Constant_i31dfd_a0a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefNode_i31dfd_b0a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("editor");
@@ -74,7 +69,6 @@ public class ConfigurationEditorDeclaration_BasicEditor implements ConceptEditor
     } else
     return editorCell;
   }
-
   private EditorCell createRefNode_i31dfd_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("applyBlock");
@@ -94,7 +88,6 @@ public class ConfigurationEditorDeclaration_BasicEditor implements ConceptEditor
     } else
     return editorCell;
   }
-
   private EditorCell createRefNode_i31dfd_c0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("resetBlock");
@@ -114,7 +107,6 @@ public class ConfigurationEditorDeclaration_BasicEditor implements ConceptEditor
     } else
     return editorCell;
   }
-
   private EditorCell createRefNode_i31dfd_d0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("disposeBlock");

@@ -17,7 +17,6 @@ public class RunConfigMainNodeStatement_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_xsmi4i_a(editorContext, node);
   }
-
   private EditorCell createCollection_xsmi4i_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_xsmi4i_a");
@@ -27,14 +26,12 @@ public class RunConfigMainNodeStatement_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createConstant_xsmi4i_c0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_xsmi4i_a0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "main context item");
     editorCell.setCellId("Constant_xsmi4i_a0");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefNode_xsmi4i_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("contextItem");
@@ -54,7 +51,6 @@ public class RunConfigMainNodeStatement_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createConstant_xsmi4i_c0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ";");
     editorCell.setCellId("Constant_xsmi4i_c0");

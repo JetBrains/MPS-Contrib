@@ -24,7 +24,6 @@ public class ElementReference_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_uugm4e_a(editorContext, node);
   }
-
   private EditorCell createCollection_uugm4e_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_uugm4e_a");
@@ -32,7 +31,6 @@ public class ElementReference_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createRefCell_uugm4e_a0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createRefCell_uugm4e_a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("elementDeclaration");
@@ -54,20 +52,16 @@ public class ElementReference_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   public static class _Inline_uugm4e_a0a extends InlineCellProvider {
     public _Inline_uugm4e_a0a() {
       super();
     }
-
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
     }
-
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
       return this.createProperty_uugm4e_a0a0(editorContext, node);
     }
-
     private EditorCell createProperty_uugm4e_a0a0(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("elementName");
@@ -91,7 +85,6 @@ public class ElementReference_Editor extends DefaultNodeEditor {
       } else
       return editorCell;
     }
-
     private static Color _StyleParameter_QueryFunction_uugm4e_a1a0a0(EditorContext editorContext, SNode node) {
       return XmlColorConstants.XML_COLOR;
     }

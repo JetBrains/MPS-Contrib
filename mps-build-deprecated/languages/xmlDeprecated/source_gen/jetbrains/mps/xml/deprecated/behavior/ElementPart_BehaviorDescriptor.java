@@ -11,15 +11,12 @@ import org.jetbrains.mps.openapi.language.SConcept;
 public abstract class ElementPart_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor implements INamedConcept_BehaviorDescriptor {
   public ElementPart_BehaviorDescriptor() {
   }
-
   public String virtual_getFqName_1213877404258(SNode thisNode) {
     return INamedConcept_Behavior.virtual_getFqName_1213877404258(thisNode);
   }
-
   public boolean virtual_indented_1262430001741498172(SConcept thisConcept) {
     return ElementPart_Behavior.virtual_indented_1262430001741498172(thisConcept);
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.xml.deprecated.structure.ElementPart";

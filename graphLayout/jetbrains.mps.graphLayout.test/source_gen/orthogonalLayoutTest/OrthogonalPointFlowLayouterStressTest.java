@@ -18,7 +18,6 @@ import jetbrains.mps.graphLayout.graphLayout.GraphPointLayout;
 public class OrthogonalPointFlowLayouterStressTest {
   public OrthogonalPointFlowLayouterStressTest() {
   }
-
   public static void main(String[] args) throws Exception {
     String fileName = "C:\\work\\stressFlow.txt";
     IPointLayouter layouter = new OrthogonalPointFlowLayouter();

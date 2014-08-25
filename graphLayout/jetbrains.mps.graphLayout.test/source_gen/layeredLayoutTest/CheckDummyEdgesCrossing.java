@@ -11,7 +11,6 @@ import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 public class CheckDummyEdgesCrossing {
   public CheckDummyEdgesCrossing() {
   }
-
   public static boolean hasCrosses(NodeLayeredOrder order) {
     for (int layer = 0; layer < order.getNumLayers() - 1; layer++) {
       List<Node> dummyNodes = ListSequence.fromList(order.getOrder(layer)).where(new IWhereFilter<Node>() {

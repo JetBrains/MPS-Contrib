@@ -22,7 +22,6 @@ public class DateTimePropertyFormatToken_Constraints extends BaseConstraintsDesc
   public DateTimePropertyFormatToken_Constraints() {
     super("jetbrains.mps.baseLanguage.dates.structure.DateTimePropertyFormatToken");
   }
-
   @Override
   protected Map<String, ReferenceConstraintsDescriptor> getNotDefaultReferences() {
     Map<String, ReferenceConstraintsDescriptor> references = new HashMap();
@@ -31,19 +30,16 @@ public class DateTimePropertyFormatToken_Constraints extends BaseConstraintsDesc
       public boolean hasOwnOnReferenceSetHandler() {
         return true;
       }
-
       @Override
       public boolean validate(final SNode referenceNode, final SNode oldReferentNode, final SNode newReferentNode) {
         return true;
       }
-
       @Override
       public void onReferenceSet(final SNode referenceNode, final SNode oldReferentNode, final SNode newReferentNode) {
         if (newReferentNode != oldReferentNode) {
           SLinkOperations.setTarget(referenceNode, "dateTimePropertyFormatType", DateTimePropertFormatTokenUtil.getDefaultFormatType(referenceNode), false);
         }
       }
-
       @Nullable
       @Override
       public ReferenceScopeProvider getScopeProvider() {
@@ -55,7 +51,6 @@ public class DateTimePropertyFormatToken_Constraints extends BaseConstraintsDesc
       public boolean hasOwnScopeProvider() {
         return true;
       }
-
       @Nullable
       @Override
       public ReferenceScopeProvider getScopeProvider() {
@@ -64,7 +59,6 @@ public class DateTimePropertyFormatToken_Constraints extends BaseConstraintsDesc
           public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
             return SLinkOperations.getTargets(SLinkOperations.getTarget(_context.getReferenceNode(), "dateTimePropertyFormatConfiguration", false), "dateTimePropertyFormatType", true);
           }
-
           @Override
           public SNodeReference getSearchScopeValidatorNode() {
             return breakingNode_unq1r8_a0a1a0a0a1a0b0a2a1;
@@ -74,6 +68,5 @@ public class DateTimePropertyFormatToken_Constraints extends BaseConstraintsDesc
     });
     return references;
   }
-
   private static SNodePointer breakingNode_unq1r8_a0a1a0a0a1a0b0a2a1 = new SNodePointer("r:00000000-0000-4000-0000-011c895903cf(jetbrains.mps.baseLanguage.dates.constraints)", "1213104846964");
 }

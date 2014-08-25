@@ -8,15 +8,12 @@ import org.jetbrains.mps.openapi.model.SNode;
 public class GItemList_BehaviorDescriptor extends GItem_BehaviorDescriptor implements GCompositeItem_BehaviorDescriptor {
   public GItemList_BehaviorDescriptor() {
   }
-
   public List<SNode> virtual_getItems_1239125087745(SNode thisNode) {
     return GItemList_Behavior.virtual_getItems_1239125087745(thisNode);
   }
-
   public boolean virtual_isComplex_1213877298853(SNode thisNode) {
     return GItemList_Behavior.virtual_isComplex_1213877298853(thisNode);
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.gtext.structure.GItemList";

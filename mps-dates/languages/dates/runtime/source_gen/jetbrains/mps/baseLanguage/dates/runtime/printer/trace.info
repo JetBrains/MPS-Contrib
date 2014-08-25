@@ -1,117 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debugInfo>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
   <root nodeRef="r:b42d6374-f34e-421f-bab1-70799f938951(jetbrains.mps.baseLanguage.dates.runtime.printer)/734650238126517390">
-    <nodeInfo nodeId="734650238126517392" fileName="Printer.java" startLine="10" startPosition="0" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="estimatePrintedLength#()I" />
-    <nodeInfo nodeId="734650238126517396" fileName="Printer.java" startLine="11" startPosition="0" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="printTo#(Ljava/lang/Appendable;Lorg/joda/time/DateTime;Ljava/util/Locale;)V" />
-    <scopeInfo nodeId="734650238126517392" fileName="Printer.java" startLine="10" startPosition="0" endLine="11" endPosition="0" />
-    <scopeInfo nodeId="734650238126517396" fileName="Printer.java" startLine="11" startPosition="0" endLine="12" endPosition="0">
-      <varInfo nodeId="734650238126517401" varName="dateTime" />
-      <varInfo nodeId="734650238126517403" varName="locale" />
-      <varInfo nodeId="734650238126517399" varName="out" />
-    </scopeInfo>
-    <unitInfo nodeId="734650238126517390" fileName="Printer.java" startLine="9" startPosition="0" endLine="13" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.runtime.printer.Printer" />
+    <file name="Printer.java">
+      <node id="734650238126517392" at="10,0,11,0" concept="5" trace="estimatePrintedLength#()I" />
+      <node id="734650238126517396" at="11,0,12,0" concept="5" trace="printTo#(Ljava/lang/Appendable;Lorg/joda/time/DateTime;Ljava/util/Locale;)V" />
+      <scope id="734650238126517392" at="10,0,11,0" />
+      <scope id="734650238126517396" at="11,0,12,0">
+        <var name="dateTime" id="734650238126517401" />
+        <var name="locale" id="734650238126517403" />
+        <var name="out" id="734650238126517399" />
+      </scope>
+      <unit id="734650238126517390" at="9,0,13,0" name="jetbrains.mps.baseLanguage.dates.runtime.printer.Printer" />
+    </file>
   </root>
   <root nodeRef="r:b42d6374-f34e-421f-bab1-70799f938951(jetbrains.mps.baseLanguage.dates.runtime.printer)/734650238126517407">
-    <nodeInfo nodeId="734650238126517410" fileName="CompositePrinter.java" startLine="12" startPosition="0" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myPrinters" />
-    <nodeInfo nodeId="734650238126517417" fileName="CompositePrinter.java" startLine="13" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myEstimatedPrintLength" />
-    <nodeInfo nodeId="734650238126517435" fileName="CompositePrinter.java" startLine="20" startPosition="37" endLine="21" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="734650238126517444" fileName="CompositePrinter.java" startLine="22" startPosition="42" endLine="23" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="734650238126517450" fileName="CompositePrinter.java" startLine="25" startPosition="5" endLine="26" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="734650238126517458" fileName="CompositePrinter.java" startLine="29" startPosition="36" endLine="30" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="734650238126517463" fileName="CompositePrinter.java" startLine="30" startPosition="32" endLine="31" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="734650238126517483" fileName="CompositePrinter.java" startLine="36" startPosition="40" endLine="37" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="734650238126517422" fileName="CompositePrinter.java" startLine="15" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="CompositePrinter#()V" />
-    <nodeInfo nodeId="734650238126517439" fileName="CompositePrinter.java" startLine="21" startPosition="33" endLine="24" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="734650238126517478" fileName="CompositePrinter.java" startLine="35" startPosition="92" endLine="38" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="734650238126517452" fileName="CompositePrinter.java" startLine="29" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="add#(Ljetbrains/mps/baseLanguage/dates/runtime/printer/Printer;)V" />
-    <nodeInfo nodeId="734650238126517430" fileName="CompositePrinter.java" startLine="19" startPosition="38" endLine="25" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="734650238126517468" fileName="CompositePrinter.java" startLine="34" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="printTo#(Ljava/lang/Appendable;Lorg/joda/time/DateTime;Ljava/util/Locale;)V" />
-    <nodeInfo nodeId="734650238126517426" fileName="CompositePrinter.java" startLine="18" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="estimatePrintedLength#()I" />
-    <scopeInfo nodeId="734650238126517425" fileName="CompositePrinter.java" startLine="15" startPosition="29" endLine="15" endPosition="29" />
-    <scopeInfo nodeId="734650238126517443" fileName="CompositePrinter.java" startLine="22" startPosition="42" endLine="23" endPosition="66" />
-    <scopeInfo nodeId="734650238126517482" fileName="CompositePrinter.java" startLine="36" startPosition="40" endLine="37" endPosition="45" />
-    <scopeInfo nodeId="734650238126517422" fileName="CompositePrinter.java" startLine="15" startPosition="0" endLine="17" endPosition="0" />
-    <scopeInfo nodeId="734650238126517457" fileName="CompositePrinter.java" startLine="29" startPosition="36" endLine="31" endPosition="28" />
-    <scopeInfo nodeId="734650238126517439" fileName="CompositePrinter.java" startLine="21" startPosition="33" endLine="24" endPosition="7">
-      <varInfo nodeId="734650238126517441" varName="printer" />
-    </scopeInfo>
-    <scopeInfo nodeId="734650238126517477" fileName="CompositePrinter.java" startLine="35" startPosition="92" endLine="38" endPosition="5" />
-    <scopeInfo nodeId="734650238126517478" fileName="CompositePrinter.java" startLine="35" startPosition="92" endLine="38" endPosition="5">
-      <varInfo nodeId="734650238126517480" varName="printer" />
-    </scopeInfo>
-    <scopeInfo nodeId="734650238126517434" fileName="CompositePrinter.java" startLine="20" startPosition="37" endLine="24" endPosition="7" />
-    <scopeInfo nodeId="734650238126517452" fileName="CompositePrinter.java" startLine="29" startPosition="0" endLine="33" endPosition="0">
-      <varInfo nodeId="734650238126517455" varName="printer" />
-    </scopeInfo>
-    <scopeInfo nodeId="734650238126517468" fileName="CompositePrinter.java" startLine="34" startPosition="0" endLine="40" endPosition="0">
-      <varInfo nodeId="734650238126517473" varName="dateTime" />
-      <varInfo nodeId="734650238126517475" varName="locale" />
-      <varInfo nodeId="734650238126517471" varName="out" />
-    </scopeInfo>
-    <scopeInfo nodeId="734650238126517429" fileName="CompositePrinter.java" startLine="19" startPosition="38" endLine="26" endPosition="34" />
-    <scopeInfo nodeId="734650238126517426" fileName="CompositePrinter.java" startLine="18" startPosition="0" endLine="28" endPosition="0" />
-    <unitInfo nodeId="734650238126517407" fileName="CompositePrinter.java" startLine="11" startPosition="0" endLine="41" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.runtime.printer.CompositePrinter" />
+    <file name="CompositePrinter.java">
+      <node id="734650238126517410" at="12,0,13,0" concept="2" trace="myPrinters" />
+      <node id="734650238126517417" at="13,0,14,0" concept="2" trace="myEstimatedPrintLength" />
+      <node id="734650238126517435" at="18,37,19,33" concept="1" />
+      <node id="734650238126517444" at="20,42,21,66" concept="1" />
+      <node id="734650238126517450" at="23,5,24,34" concept="7" />
+      <node id="734650238126517458" at="26,36,27,32" concept="1" />
+      <node id="734650238126517463" at="27,32,28,28" concept="1" />
+      <node id="734650238126517483" at="32,40,33,45" concept="1" />
+      <node id="734650238126517422" at="14,0,16,0" concept="0" trace="CompositePrinter#()V" />
+      <node id="734650238126517439" at="19,33,22,7" concept="3" />
+      <node id="734650238126517478" at="31,92,34,5" concept="3" />
+      <node id="734650238126517452" at="26,0,30,0" concept="5" trace="add#(Ljetbrains/mps/baseLanguage/dates/runtime/printer/Printer;)V" />
+      <node id="734650238126517430" at="17,38,23,5" concept="4" />
+      <node id="734650238126517468" at="30,0,36,0" concept="5" trace="printTo#(Ljava/lang/Appendable;Lorg/joda/time/DateTime;Ljava/util/Locale;)V" />
+      <node id="734650238126517426" at="16,0,26,0" concept="5" trace="estimatePrintedLength#()I" />
+      <scope id="734650238126517425" at="14,29,14,29" />
+      <scope id="734650238126517443" at="20,42,21,66" />
+      <scope id="734650238126517482" at="32,40,33,45" />
+      <scope id="734650238126517422" at="14,0,16,0" />
+      <scope id="734650238126517457" at="26,36,28,28" />
+      <scope id="734650238126517439" at="19,33,22,7">
+        <var name="printer" id="734650238126517441" />
+      </scope>
+      <scope id="734650238126517477" at="31,92,34,5" />
+      <scope id="734650238126517478" at="31,92,34,5">
+        <var name="printer" id="734650238126517480" />
+      </scope>
+      <scope id="734650238126517434" at="18,37,22,7" />
+      <scope id="734650238126517452" at="26,0,30,0">
+        <var name="printer" id="734650238126517455" />
+      </scope>
+      <scope id="734650238126517468" at="30,0,36,0">
+        <var name="dateTime" id="734650238126517473" />
+        <var name="locale" id="734650238126517475" />
+        <var name="out" id="734650238126517471" />
+      </scope>
+      <scope id="734650238126517429" at="17,38,24,34" />
+      <scope id="734650238126517426" at="16,0,26,0" />
+      <unit id="734650238126517407" at="11,0,37,0" name="jetbrains.mps.baseLanguage.dates.runtime.printer.CompositePrinter" />
+    </file>
   </root>
   <root nodeRef="r:b42d6374-f34e-421f-bab1-70799f938951(jetbrains.mps.baseLanguage.dates.runtime.printer)/734650238126519308">
-    <nodeInfo nodeId="734650238126519311" fileName="ConditionalPrinter.java" startLine="11" startPosition="0" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myEstimatedPrintLength" />
-    <nodeInfo nodeId="734650238126519329" fileName="ConditionalPrinter.java" startLine="18" startPosition="37" endLine="19" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="734650238126519338" fileName="ConditionalPrinter.java" startLine="20" startPosition="48" endLine="21" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="734650238126519346" fileName="ConditionalPrinter.java" startLine="22" startPosition="7" endLine="23" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="734650238126519348" fileName="ConditionalPrinter.java" startLine="24" startPosition="5" endLine="25" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="734650238126519360" fileName="ConditionalPrinter.java" startLine="29" startPosition="92" endLine="30" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="734650238126519369" fileName="ConditionalPrinter.java" startLine="30" startPosition="78" endLine="31" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="734650238126519377" fileName="ConditionalPrinter.java" startLine="34" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPrinterIndex#(Lorg/joda/time/DateTime;Ljava/util/Locale;)I" />
-    <nodeInfo nodeId="734650238126519385" fileName="ConditionalPrinter.java" startLine="36" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getAllPrinters#()Ljava/util/List;" />
-    <nodeInfo nodeId="734650238126519316" fileName="ConditionalPrinter.java" startLine="13" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ConditionalPrinter#()V" />
-    <nodeInfo nodeId="734650238126519333" fileName="ConditionalPrinter.java" startLine="19" startPosition="33" endLine="22" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="734650238126519350" fileName="ConditionalPrinter.java" startLine="28" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="printTo#(Ljava/lang/Appendable;Lorg/joda/time/DateTime;Ljava/util/Locale;)V" />
-    <nodeInfo nodeId="734650238126519324" fileName="ConditionalPrinter.java" startLine="17" startPosition="38" endLine="24" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="734650238126519320" fileName="ConditionalPrinter.java" startLine="16" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="estimatePrintedLength#()I" />
-    <scopeInfo nodeId="734650238126519319" fileName="ConditionalPrinter.java" startLine="13" startPosition="31" endLine="13" endPosition="31" />
-    <scopeInfo nodeId="734650238126519337" fileName="ConditionalPrinter.java" startLine="20" startPosition="48" endLine="21" endPosition="99" />
-    <scopeInfo nodeId="734650238126519377" fileName="ConditionalPrinter.java" startLine="34" startPosition="0" endLine="35" endPosition="0">
-      <varInfo nodeId="734650238126519380" varName="dateTime" />
-      <varInfo nodeId="734650238126519382" varName="locale" />
-    </scopeInfo>
-    <scopeInfo nodeId="734650238126519385" fileName="ConditionalPrinter.java" startLine="36" startPosition="0" endLine="37" endPosition="0" />
-    <scopeInfo nodeId="734650238126519316" fileName="ConditionalPrinter.java" startLine="13" startPosition="0" endLine="15" endPosition="0" />
-    <scopeInfo nodeId="734650238126519359" fileName="ConditionalPrinter.java" startLine="29" startPosition="92" endLine="31" endPosition="43">
-      <varInfo nodeId="734650238126519361" varName="printer" />
-    </scopeInfo>
-    <scopeInfo nodeId="734650238126519333" fileName="ConditionalPrinter.java" startLine="19" startPosition="33" endLine="22" endPosition="7">
-      <varInfo nodeId="734650238126519335" varName="printer" />
-    </scopeInfo>
-    <scopeInfo nodeId="734650238126519328" fileName="ConditionalPrinter.java" startLine="18" startPosition="37" endLine="23" endPosition="36" />
-    <scopeInfo nodeId="734650238126519350" fileName="ConditionalPrinter.java" startLine="28" startPosition="0" endLine="33" endPosition="0">
-      <varInfo nodeId="734650238126519355" varName="dateTime" />
-      <varInfo nodeId="734650238126519357" varName="locale" />
-      <varInfo nodeId="734650238126519353" varName="out" />
-    </scopeInfo>
-    <scopeInfo nodeId="734650238126519323" fileName="ConditionalPrinter.java" startLine="17" startPosition="38" endLine="25" endPosition="34" />
-    <scopeInfo nodeId="734650238126519320" fileName="ConditionalPrinter.java" startLine="16" startPosition="0" endLine="27" endPosition="0" />
-    <unitInfo nodeId="734650238126519308" fileName="ConditionalPrinter.java" startLine="10" startPosition="0" endLine="38" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.runtime.printer.ConditionalPrinter" />
+    <file name="ConditionalPrinter.java">
+      <node id="734650238126519311" at="11,0,12,0" concept="2" trace="myEstimatedPrintLength" />
+      <node id="734650238126519329" at="16,37,17,33" concept="1" />
+      <node id="734650238126519338" at="18,48,19,99" concept="1" />
+      <node id="734650238126519346" at="20,7,21,36" concept="7" />
+      <node id="734650238126519348" at="22,5,23,34" concept="7" />
+      <node id="734650238126519360" at="26,92,27,78" concept="6" />
+      <node id="734650238126519369" at="27,78,28,43" concept="1" />
+      <node id="734650238126519377" at="30,0,31,0" concept="5" trace="getPrinterIndex#(Lorg/joda/time/DateTime;Ljava/util/Locale;)I" />
+      <node id="734650238126519385" at="31,0,32,0" concept="5" trace="getAllPrinters#()Ljava/util/List;" />
+      <node id="734650238126519316" at="12,0,14,0" concept="0" trace="ConditionalPrinter#()V" />
+      <node id="734650238126519333" at="17,33,20,7" concept="3" />
+      <node id="734650238126519350" at="25,0,30,0" concept="5" trace="printTo#(Ljava/lang/Appendable;Lorg/joda/time/DateTime;Ljava/util/Locale;)V" />
+      <node id="734650238126519324" at="15,38,22,5" concept="4" />
+      <node id="734650238126519320" at="14,0,25,0" concept="5" trace="estimatePrintedLength#()I" />
+      <scope id="734650238126519319" at="12,31,12,31" />
+      <scope id="734650238126519337" at="18,48,19,99" />
+      <scope id="734650238126519377" at="30,0,31,0">
+        <var name="dateTime" id="734650238126519380" />
+        <var name="locale" id="734650238126519382" />
+      </scope>
+      <scope id="734650238126519385" at="31,0,32,0" />
+      <scope id="734650238126519316" at="12,0,14,0" />
+      <scope id="734650238126519359" at="26,92,28,43">
+        <var name="printer" id="734650238126519361" />
+      </scope>
+      <scope id="734650238126519333" at="17,33,20,7">
+        <var name="printer" id="734650238126519335" />
+      </scope>
+      <scope id="734650238126519328" at="16,37,21,36" />
+      <scope id="734650238126519350" at="25,0,30,0">
+        <var name="dateTime" id="734650238126519355" />
+        <var name="locale" id="734650238126519357" />
+        <var name="out" id="734650238126519353" />
+      </scope>
+      <scope id="734650238126519323" at="15,38,23,34" />
+      <scope id="734650238126519320" at="14,0,25,0" />
+      <unit id="734650238126519308" at="10,0,33,0" name="jetbrains.mps.baseLanguage.dates.runtime.printer.ConditionalPrinter" />
+    </file>
   </root>
   <root nodeRef="r:b42d6374-f34e-421f-bab1-70799f938951(jetbrains.mps.baseLanguage.dates.runtime.printer)/734650238126520134">
-    <nodeInfo nodeId="734650238126520137" fileName="LiteralPrinter.java" startLine="10" startPosition="0" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myLiteral" />
-    <nodeInfo nodeId="734650238126520146" fileName="LiteralPrinter.java" startLine="12" startPosition="41" endLine="13" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="734650238126520159" fileName="LiteralPrinter.java" startLine="17" startPosition="38" endLine="18" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="734650238126520173" fileName="LiteralPrinter.java" startLine="22" startPosition="92" endLine="23" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="734650238126520140" fileName="LiteralPrinter.java" startLine="12" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="LiteralPrinter#(Ljava/lang/String;)V" />
-    <nodeInfo nodeId="734650238126520155" fileName="LiteralPrinter.java" startLine="16" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="estimatePrintedLength#()I" />
-    <nodeInfo nodeId="734650238126520163" fileName="LiteralPrinter.java" startLine="21" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="printTo#(Ljava/lang/Appendable;Lorg/joda/time/DateTime;Ljava/util/Locale;)V" />
-    <scopeInfo nodeId="734650238126520145" fileName="LiteralPrinter.java" startLine="12" startPosition="41" endLine="13" endPosition="49" />
-    <scopeInfo nodeId="734650238126520158" fileName="LiteralPrinter.java" startLine="17" startPosition="38" endLine="18" endPosition="30" />
-    <scopeInfo nodeId="734650238126520172" fileName="LiteralPrinter.java" startLine="22" startPosition="92" endLine="23" endPosition="26" />
-    <scopeInfo nodeId="734650238126520140" fileName="LiteralPrinter.java" startLine="12" startPosition="0" endLine="15" endPosition="0">
-      <varInfo nodeId="734650238126520143" varName="literal" />
-    </scopeInfo>
-    <scopeInfo nodeId="734650238126520155" fileName="LiteralPrinter.java" startLine="16" startPosition="0" endLine="20" endPosition="0" />
-    <scopeInfo nodeId="734650238126520163" fileName="LiteralPrinter.java" startLine="21" startPosition="0" endLine="25" endPosition="0">
-      <varInfo nodeId="734650238126520168" varName="dateTime" />
-      <varInfo nodeId="734650238126520170" varName="locale" />
-      <varInfo nodeId="734650238126520166" varName="out" />
-    </scopeInfo>
-    <unitInfo nodeId="734650238126520134" fileName="LiteralPrinter.java" startLine="9" startPosition="0" endLine="26" endPosition="0" unitName="jetbrains.mps.baseLanguage.dates.runtime.printer.LiteralPrinter" />
+    <file name="LiteralPrinter.java">
+      <node id="734650238126520137" at="10,0,11,0" concept="2" trace="myLiteral" />
+      <node id="734650238126520146" at="11,41,12,49" concept="1" />
+      <node id="734650238126520159" at="15,38,16,30" concept="7" />
+      <node id="734650238126520173" at="19,92,20,26" concept="1" />
+      <node id="734650238126520140" at="11,0,14,0" concept="0" trace="LiteralPrinter#(Ljava/lang/String;)V" />
+      <node id="734650238126520155" at="14,0,18,0" concept="5" trace="estimatePrintedLength#()I" />
+      <node id="734650238126520163" at="18,0,22,0" concept="5" trace="printTo#(Ljava/lang/Appendable;Lorg/joda/time/DateTime;Ljava/util/Locale;)V" />
+      <scope id="734650238126520145" at="11,41,12,49" />
+      <scope id="734650238126520158" at="15,38,16,30" />
+      <scope id="734650238126520172" at="19,92,20,26" />
+      <scope id="734650238126520140" at="11,0,14,0">
+        <var name="literal" id="734650238126520143" />
+      </scope>
+      <scope id="734650238126520155" at="14,0,18,0" />
+      <scope id="734650238126520163" at="18,0,22,0">
+        <var name="dateTime" id="734650238126520168" />
+        <var name="locale" id="734650238126520170" />
+        <var name="out" id="734650238126520166" />
+      </scope>
+      <unit id="734650238126520134" at="9,0,23,0" name="jetbrains.mps.baseLanguage.dates.runtime.printer.LiteralPrinter" />
+    </file>
   </root>
-</debugInfo>
+</debug-info>
 

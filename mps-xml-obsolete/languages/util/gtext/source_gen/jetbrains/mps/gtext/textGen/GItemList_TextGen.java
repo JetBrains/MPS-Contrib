@@ -37,6 +37,5 @@ public class GItemList_TextGen extends SNodeTextGen {
       }
     }
   }
-
   protected static Logger LOG = LogManager.getLogger(GItemList_TextGen.class);
 }

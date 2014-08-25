@@ -31,102 +31,78 @@ import jetbrains.mps.generator.template.TemplateQueryContext;
 @Generated
 public class QueriesGenerated {
   public final boolean NEEDS_OPCONTEXT = false;
-
   public static boolean baseMappingRule_Condition_1224769157301(final BaseMappingRuleContext _context) {
     return (SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.buildlanguage.structure.Project", false, true) != null);
   }
-
   public static boolean baseMappingRule_Condition_1224769231960(final BaseMappingRuleContext _context) {
     return (SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.buildlanguage.structure.Project", false, true) != null);
   }
-
   public static Object propertyMacro_GetPropertyValue_1197041984406(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), "name");
   }
-
   public static Object propertyMacro_GetPropertyValue_1229186338304(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), "if");
   }
-
   public static Object propertyMacro_GetPropertyValue_1229186668950(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), "unless");
   }
-
   public static Object propertyMacro_GetPropertyValue_1197041696784(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), "name");
   }
-
   public static Object propertyMacro_GetPropertyValue_1197047737338(final PropertyMacroContext _context) {
     return BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(_context.getNode(), "propertyValue", true), "virtual_toString_1213877472569", new Object[]{});
   }
-
   public static Object propertyMacro_GetPropertyValue_1197043097344(final PropertyMacroContext _context) {
     return ((String) _context.getVariable("var:projectName"));
   }
-
   public static Object propertyMacro_GetPropertyValue_1197043134402(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "default", true), "targetDeclaration", false), "name");
   }
-
   public static Object propertyMacro_GetPropertyValue_1200145395655(final PropertyMacroContext _context) {
     return BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(_context.getNode(), "basedir", true), "virtual_toString_1213877472569", new Object[]{});
   }
-
   public static Object propertyMacro_GetPropertyValue_1230222683911(final PropertyMacroContext _context) {
     return "${ant.file." + ((String) _context.getVariable("var:projectName")) + "}/../" + BehaviorReflection.invokeVirtual(String.class, _context.getNode(), "virtual_getProjectFileName_1230222765831", new Object[]{});
   }
-
   public static Object propertyMacro_GetPropertyValue_1199647316381(final PropertyMacroContext _context) {
     return Project_Behavior.call_getDocumentName_1213877351812(_context.getNode());
   }
-
   public static Object propertyMacro_GetPropertyValue_1197725505264(final PropertyMacroContext _context) {
     return BehaviorReflection.invokeVirtual(String.class, _context.getNode(), "virtual_toString_1213877472569", new Object[]{});
   }
-
   public static Object propertyMacro_GetPropertyValue_1201017147787(final PropertyMacroContext _context) {
     return "${ant.file." + SPropertyOperations.getString(SNodeOperations.cast(SNodeOperations.getContainingRoot(_context.getNode()), "jetbrains.mps.lang.core.structure.INamedConcept"), "name") + "}/../" + PropertyNode_Behavior.call_getFileName_1213877341757(SLinkOperations.getTarget(_context.getNode(), "propertyNode", false));
   }
-
   public static Object propertyMacro_GetPropertyValue_1201709830416(final PropertyMacroContext _context) {
     if (SNodeOperations.isInstanceOf(SNodeOperations.getParent(_context.getNode()), "jetbrains.mps.buildlanguage.structure.Project")) {
       return "${ant.file." + SPropertyOperations.getString(SNodeOperations.cast(SNodeOperations.getParent(_context.getNode()), "jetbrains.mps.buildlanguage.structure.Project"), "name") + "}/../" + Project_Behavior.call_getFileName_1213877351819(SLinkOperations.getTarget(_context.getNode(), "project", false));
     }
     return "${ant.file." + SPropertyOperations.getString(SNodeOperations.cast(SNodeOperations.getContainingRoot(_context.getNode()), "jetbrains.mps.lang.core.structure.INamedConcept"), "name") + "}/../" + Project_Behavior.call_getFileName_1213877351819(SLinkOperations.getTarget(_context.getNode(), "project", false));
   }
-
   public static Object propertyMacro_GetPropertyValue_1219150196232(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), "name");
   }
-
   public static Object propertyMacro_GetPropertyValue_1219153881551(final PropertyMacroContext _context) {
     return "Property " + SPropertyOperations.getString(_context.getNode(), "name") + " unspecified.";
   }
-
   public static Object propertyMacro_GetPropertyValue_1240399737243(final PropertyMacroContext _context) {
     return BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(_context.getNode(), "propertyFile", true), "virtual_toString_1213877472569", new Object[]{});
   }
-
   public static boolean ifMacro_Condition_1229186350652(final IfMacroContext _context) {
     return isNotEmptyString(SPropertyOperations.getString(_context.getNode(), "if"));
   }
-
   public static boolean ifMacro_Condition_1229186682042(final IfMacroContext _context) {
     return isNotEmptyString(SPropertyOperations.getString(_context.getNode(), "unless"));
   }
-
   public static boolean ifMacro_Condition_1240316820310(final IfMacroContext _context) {
     return (SLinkOperations.getTarget(_context.getNode(), "default", true) != null);
   }
-
   public static boolean ifMacro_Condition_1200145404081(final IfMacroContext _context) {
     return (SLinkOperations.getTarget(_context.getNode(), "basedir", true) != null);
   }
-
   public static boolean ifMacro_Condition_1219774096052(final IfMacroContext _context) {
     return SPropertyOperations.getBoolean(SNodeOperations.cast(_context.getNode(), "jetbrains.mps.buildlanguage.structure.ExternalPropertyDeclaration"), "checkOnStart");
   }
-
   public static SNode sourceNodeQuery_1197045463934(final SourceSubstituteMacroNodeContext _context) {
     if (ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "depends", true)).count() == 0) {
       return null;
@@ -136,19 +112,15 @@ public class QueriesGenerated {
     SPropertyOperations.set(attribute, "value", TargetDeclaration_Behavior.call_getDependanceString_1213877231974(_context.getNode()));
     return attribute;
   }
-
   public static SNode sourceNodeQuery_1219774104894(final SourceSubstituteMacroNodeContext _context) {
     return _context.getNode();
   }
-
   public static SNode sourceNodeQuery_3749843785778050921(final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "xml", true);
   }
-
   public static Iterable<SNode> sourceNodesQuery_1197045140155(final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "propertyList", true);
   }
-
   public static Iterable<SNode> sourceNodesQuery_1219152731276(final SourceSubstituteMacroNodesContext _context) {
     List<SNode> references = SNodeOperations.getDescendants(_context.getNode(), "jetbrains.mps.buildlanguage.structure.PropertyReference", false, new String[]{});
     Iterable<SNode> externalReferences = ListSequence.fromList(references).where(new IWhereFilter<SNode>() {
@@ -164,15 +136,12 @@ public class QueriesGenerated {
     });
     return Sequence.fromIterable(decls).distinct();
   }
-
   public static Iterable<SNode> sourceNodesQuery_1197045203873(final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "taskCall", true);
   }
-
   public static Iterable<SNode> sourceNodesQuery_1220365505588(final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "importProperties", true);
   }
-
   public static Iterable<SNode> sourceNodesQuery_1219774083522(final SourceSubstituteMacroNodesContext _context) {
     return ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "property", true)).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
@@ -180,11 +149,9 @@ public class QueriesGenerated {
       }
     });
   }
-
   public static Iterable<SNode> sourceNodesQuery_1221832362895(final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "importProject", true);
   }
-
   public static Iterable<SNode> sourceNodesQuery_1230222691427(final SourceSubstituteMacroNodesContext _context) {
     final Set<String> existing = SetSequence.fromSet(new HashSet<String>());
     for (SNode importProject : ListSequence.fromList(SNodeOperations.getDescendants(_context.getNode(), "jetbrains.mps.buildlanguage.structure.ImportProject", false, new String[]{}))) {
@@ -203,7 +170,6 @@ public class QueriesGenerated {
       }
     }, true);
   }
-
   public static Iterable<SNode> sourceNodesQuery_1197043380401(final SourceSubstituteMacroNodesContext _context) {
     return ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "property", true)).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
@@ -211,19 +177,15 @@ public class QueriesGenerated {
       }
     });
   }
-
   public static Iterable<SNode> sourceNodesQuery_1199029853220(final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "paths", true);
   }
-
   public static Iterable<SNode> sourceNodesQuery_1197043378055(final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "target", true);
   }
-
   public static Object insertMacro_varValue_5198087850870257905(final TemplateQueryContext _context) {
     return SPropertyOperations.getString(_context.getNode(), "name");
   }
-
   private static boolean isNotEmptyString(String str) {
     return str != null && str.length() > 0;
   }

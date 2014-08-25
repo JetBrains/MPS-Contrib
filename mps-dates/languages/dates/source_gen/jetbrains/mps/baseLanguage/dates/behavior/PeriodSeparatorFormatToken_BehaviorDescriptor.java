@@ -6,7 +6,6 @@ package jetbrains.mps.baseLanguage.dates.behavior;
 public class PeriodSeparatorFormatToken_BehaviorDescriptor extends PeriodFormatToken_BehaviorDescriptor {
   public PeriodSeparatorFormatToken_BehaviorDescriptor() {
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.baseLanguage.dates.structure.PeriodSeparatorFormatToken";

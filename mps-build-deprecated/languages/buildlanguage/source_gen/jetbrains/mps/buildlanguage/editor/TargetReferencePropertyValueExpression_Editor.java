@@ -19,11 +19,9 @@ public class TargetReferencePropertyValueExpression_Editor extends DefaultNodeEd
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createProperty_826xl5_a(editorContext, node);
   }
-
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
     return this.createCollection_826xl5_a(editorContext, node);
   }
-
   private EditorCell createProperty_826xl5_a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("fullName");
@@ -42,7 +40,6 @@ public class TargetReferencePropertyValueExpression_Editor extends DefaultNodeEd
     } else
     return editorCell;
   }
-
   private EditorCell createCollection_826xl5_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_826xl5_a");
@@ -51,14 +48,12 @@ public class TargetReferencePropertyValueExpression_Editor extends DefaultNodeEd
     editorCell.addEditorCell(this.createRefCell_826xl5_b0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_826xl5_a0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "target");
     editorCell.setCellId("Constant_826xl5_a0");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefCell_826xl5_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("declaration");
@@ -80,20 +75,16 @@ public class TargetReferencePropertyValueExpression_Editor extends DefaultNodeEd
     } else
     return editorCell;
   }
-
   public static class _Inline_826xl5_a1a extends InlineCellProvider {
     public _Inline_826xl5_a1a() {
       super();
     }
-
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
     }
-
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
       return this.createProperty_826xl5_a0b0(editorContext, node);
     }
-
     private EditorCell createProperty_826xl5_a0b0(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("name");

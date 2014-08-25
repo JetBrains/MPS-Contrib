@@ -15,42 +15,32 @@ public class PeriodConstant_ActionMap {
     editorCell.setAction(CellActionType.DELETE, new PeriodConstant_ActionMap.PeriodConstant_ActionMap_DELETE(node));
     editorCell.setAction(CellActionType.BACKSPACE, new PeriodConstant_ActionMap.PeriodConstant_ActionMap_BACKSPACE(node));
   }
-
   public static class PeriodConstant_ActionMap_DELETE extends AbstractCellAction {
     /*package*/ SNode myNode;
-
     public PeriodConstant_ActionMap_DELETE(SNode node) {
       this.myNode = node;
     }
-
     public String getDescriptionText() {
       return "Delete period";
     }
-
     public void execute(EditorContext editorContext) {
       this.execute_internal(editorContext, this.myNode);
     }
-
     public void execute_internal(EditorContext editorContext, SNode node) {
       SNodeOperations.replaceWithAnother(node, SLinkOperations.getTarget(node, "count", true));
     }
   }
-
   public static class PeriodConstant_ActionMap_BACKSPACE extends AbstractCellAction {
     /*package*/ SNode myNode;
-
     public PeriodConstant_ActionMap_BACKSPACE(SNode node) {
       this.myNode = node;
     }
-
     public String getDescriptionText() {
       return "Delete period";
     }
-
     public void execute(EditorContext editorContext) {
       this.execute_internal(editorContext, this.myNode);
     }
-
     public void execute_internal(EditorContext editorContext, SNode node) {
       SNodeOperations.replaceWithAnother(node, SLinkOperations.getTarget(node, "count", true));
     }

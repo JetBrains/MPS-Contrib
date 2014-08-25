@@ -33,13 +33,11 @@ import java.io.File;
 public abstract class BaseRunner {
   private String myJavaHome = System.getProperty("java.home");
   protected final ConfigRunParameters myRunParameters;
-
   @Deprecated
   public BaseRunner(ConfigRunParameters parameters) {
     this.myRunParameters = parameters;
     this.updateJavaHome(parameters);
   }
-
   public String getCommandString(ProcessBuilder p) {
     StringBuilder res = new StringBuilder();
     for (String s : p.command()) {
@@ -47,35 +45,27 @@ public abstract class BaseRunner {
     }
     return res.toString();
   }
-
   protected String[] splitParams(String programParams) {
     return programParams.split("(\\s)+");
   }
-
   public void setJavaHomePath(String alternativeJavaHome) {
     this.myJavaHome = alternativeJavaHome.replace("/", fs());
   }
-
   protected void addJavaCommand(List<String> params) {
     ListSequence.fromList(params).addElement(getJavaCommand(this.myJavaHome));
   }
-
   protected void addDebug(List<String> params, String arguments) {
     ListSequence.fromList(params).addElement(arguments);
   }
-
   protected void addMaxHeapSize(List<String> params, int megaBytes) {
     ListSequence.fromList(params).addElement("-Xmx" + megaBytes + "m");
   }
-
   protected void addVmOptions(List<String> params) {
     this.addParametersString(params, myRunParameters.getVMParameters());
   }
-
   protected void addProgramParameters(List<String> params) {
     this.addParametersString(params, myRunParameters.getProgramParameters());
   }
-
   private void addParametersString(List<String> params, @Nullable String parametersString) {
     if (parametersString != null && (parametersString != null && parametersString.length() > 0)) {
       String[] paramList = this.splitParams(parametersString);
@@ -86,11 +76,9 @@ public abstract class BaseRunner {
       }));
     }
   }
-
   protected void addClassPath(List<String> params, SNode node) {
     this.addClassPath(params, this.getClasspath(node));
   }
-
   protected void addClassPath(List<String> params, @Nullable String classPath) {
     if (classPath == null) {
       return;
@@ -98,7 +86,6 @@ public abstract class BaseRunner {
     ListSequence.fromList(params).addElement("-cp");
     ListSequence.fromList(params).addElement(classPath);
   }
-
   @Nullable
   protected String getClasspath(SNode node) {
     SModel model = SNodeOperations.getModel(node);
@@ -108,7 +95,6 @@ public abstract class BaseRunner {
     SModule module = model.getModule();
     return this.getClasspath(module, true);
   }
-
   protected String getClasspath(SModule module, boolean withDependencies) {
     StringBuilder res = new StringBuilder();
     for (String cp : getModuleClasspath(module, withDependencies)) {
@@ -116,22 +102,18 @@ public abstract class BaseRunner {
     }
     return res.toString();
   }
-
   public String getJavaHome() {
     return this.myJavaHome;
   }
-
   protected GeneralCommandLine getCommandLine() {
     return getCommandLine(myRunParameters.getWorkingDirectory());
   }
-
   protected GeneralCommandLine getCommandLine(String workingDir) {
     GeneralCommandLine commandLine = new GeneralCommandLine();
     commandLine.setExePath(getJavaCommand(this.getJavaHome()));
     commandLine.setWorkDirectory(workingDir);
     return commandLine;
   }
-
   private void updateJavaHome(ConfigRunParameters parameters) {
     if (parameters != null && parameters.getUseAlternativeJRE()) {
       this.setJavaHomePath(parameters.getAlternativeJRE());
@@ -139,15 +121,12 @@ public abstract class BaseRunner {
       this.setJavaHomePath(getJdkHome());
     }
   }
-
   protected static String fs() {
     return System.getProperty("file.separator");
   }
-
   protected static String ps() {
     return System.getProperty("path.separator");
   }
-
   protected static Set<String> getModuleClasspath(SModule module, boolean withDependencies) {
     Set<String> classpath = SetSequence.fromSet(new HashSet<String>());
     if (withDependencies) {
@@ -162,8 +141,6 @@ public abstract class BaseRunner {
     return classpath;
   }
 
-
-
   @NotNull
   public static String getJavaCommand(String javaHome) {
     String result = javaHome + fs() + "bin" + fs();
@@ -177,7 +154,6 @@ public abstract class BaseRunner {
       return result + "java";
     }
   }
-
   public static List<String> getJavaHomes() {
     String systemJavaHome = System.getProperty("java.home");
     List<String> homes = ListSequence.fromList(new LinkedList<String>());
@@ -191,7 +167,6 @@ public abstract class BaseRunner {
     ListSequence.fromList(homes).addElement(systemJavaHome);
     return homes;
   }
-
   public static String getJdkHome() {
     List<String> homes = getJavaHomes();
     for (String javaHome : homes) {
@@ -201,7 +176,6 @@ public abstract class BaseRunner {
     }
     return ListSequence.fromList(homes).first();
   }
-
   private static boolean isNotEmptyString(String str) {
     return str != null && str.length() > 0;
   }

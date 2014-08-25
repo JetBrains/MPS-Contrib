@@ -23,7 +23,6 @@ import jetbrains.mps.graphLayout.internal.flowOrthogonalLayout.ConstraintsGraphP
 public class ConstraintsGraphStressTest {
   public ConstraintsGraphStressTest() {
   }
-
   public static void main(String[] args) throws Exception {
     String fileName = "C:\\work\\stressConstraints.txt";
     int numNodes = Integer.parseInt(args[0]);
@@ -41,7 +40,6 @@ public class ConstraintsGraphStressTest {
     }
     System.out.println("END!");
   }
-
   private static void constructConstraintsGraph(Graph graph) {
     EmbeddedGraph embeddedGraph = new ShortestPathEmbeddingFinder(new PQPlanarizationFinder()).find(graph);
     Map<Dart, Integer> bends = MapSequence.fromMap(new HashMap<Dart, Integer>());

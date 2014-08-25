@@ -25,15 +25,12 @@ public class ConstraintsSupporter_Test extends TestCase {
     String graphString = "4 4  0 1  1 2  2 3  3 0";
     test(GraphIO.scanGraph(new Scanner(graphString)));
   }
-
   public void test_K5() throws Exception {
     String gString = "5 10  0 1  0 2  0 3  0 4  1 2  1 3  1 4  2 3  2 4  3 4";
     test(GraphIO.scanGraph(new Scanner(gString)));
   }
-
   public ConstraintsSupporter_Test() {
   }
-
   public void test(Graph graph) {
     EmbeddedGraph embeddedGraph = new TreeEmbeddingFinder().find(graph);
     Node s = ListSequence.fromList(embeddedGraph.getOuterFace().getDarts()).getElement(0).getSource();

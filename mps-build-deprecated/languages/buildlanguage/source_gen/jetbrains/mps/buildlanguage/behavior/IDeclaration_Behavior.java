@@ -10,11 +10,9 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 public class IDeclaration_Behavior {
   public static void init(SNode thisNode) {
   }
-
   public static SNode virtual_getParent_5699548131010535048(SNode thisNode) {
     return null;
   }
-
   public static boolean virtual_isHeirOf_5699548131010535069(SNode thisNode, SNode probableParent) {
     if (thisNode == probableParent) {
       return true;
@@ -24,7 +22,6 @@ public class IDeclaration_Behavior {
     }
     return BehaviorReflection.invokeVirtual(Boolean.TYPE, BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), thisNode, "virtual_getParent_5699548131010535048", new Object[]{}), "virtual_isHeirOf_5699548131010535069", new Object[]{probableParent});
   }
-
   public static boolean virtual_isHeirOf_5699548131010535105(SNode thisNode, List<SNode> parents) {
     for (SNode parent : ListSequence.fromList(parents)) {
       if (BehaviorReflection.invokeVirtual(Boolean.TYPE, thisNode, "virtual_isHeirOf_5699548131010535069", new Object[]{parent})) {

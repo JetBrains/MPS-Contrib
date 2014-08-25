@@ -16,23 +16,18 @@ import org.jetbrains.mps.openapi.model.SNodeAccessUtil;
 public class AttributeBuilder_Behavior {
   public static void init(SNode thisNode) {
   }
-
   public static SNode virtual_getResultType_7057666463730718251(SNode thisNode) {
     return SchemaUtil.getAttributeType(SLinkOperations.getTarget(thisNode, "attributeDeclaration", false));
   }
-
   public static SNode virtual_getCreatorExpression_7057666463730727863(SNode thisNode, SNode parentRef) {
     return SLinkOperations.getTarget(thisNode, "value", true);
   }
-
   public static SNode virtual_getAttachStatementChild_4797501453850305563(SNode thisNode, SNode parentBuilder, SNode parentRef, SNode childRef) {
     return _quotation_createNode_emlk0p_a0a2(parentRef, SPropertyOperations.getString(SLinkOperations.getTarget(thisNode, "attributeDeclaration", false), "attributeName"), childRef);
   }
-
   public static boolean virtual_leaf_1262430001741498370(SAbstractConcept thisConcept) {
     return true;
   }
-
   private static SNode _quotation_createNode_emlk0p_a0a2(Object parameter_1, Object parameter_2, Object parameter_3) {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_4 = null;

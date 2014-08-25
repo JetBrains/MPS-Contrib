@@ -20,7 +20,6 @@ public class DurationType_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_7vmrxr_a(editorContext, node);
   }
-
   private EditorCell createCollection_7vmrxr_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_7vmrxr_a");
@@ -29,7 +28,6 @@ public class DurationType_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createRefNode_7vmrxr_b0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_7vmrxr_a0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "duration type");
     editorCell.setCellId("Constant_7vmrxr_a0");
@@ -39,7 +37,6 @@ public class DurationType_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefNode_7vmrxr_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("jodaDurationFieldType");

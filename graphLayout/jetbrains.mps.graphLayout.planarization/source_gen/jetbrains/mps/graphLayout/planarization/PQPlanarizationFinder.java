@@ -23,10 +23,8 @@ public class PQPlanarizationFinder implements IEmbeddingFinder {
   private static int SHOW_LOG = 0;
   private Graph myGraph;
   private Map<Node, Integer> myNumbering;
-
   public PQPlanarizationFinder() {
   }
-
   @Override
   public EmbeddedGraph find(Graph graph) {
     Map<Node, Integer> components = ConnectivityComponents.getComponents(graph);
@@ -68,7 +66,6 @@ public class PQPlanarizationFinder implements IEmbeddingFinder {
       }
     */
   }
-
   private EmbeddedGraph createEmbedding(BiconnectedComponent component) {
     Graph componentGraph = new Graph();
     Set<Node> nodes = component.getNodes();

@@ -25,7 +25,6 @@ public class PeriodConstant_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_x7xgz7_a(editorContext, node);
   }
-
   private EditorCell createCollection_x7xgz7_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_x7xgz7_a");
@@ -34,7 +33,6 @@ public class PeriodConstant_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createAlternation_x7xgz7_b0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createRefNode_x7xgz7_a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("count");
@@ -54,7 +52,6 @@ public class PeriodConstant_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createAlternation_x7xgz7_b0(EditorContext editorContext, SNode node) {
     boolean alternationCondition = true;
     alternationCondition = PeriodConstant_Editor.renderingCondition_x7xgz7_a1a(node, editorContext);
@@ -67,7 +64,6 @@ public class PeriodConstant_Editor extends DefaultNodeEditor {
     PeriodConstant_ActionMap.setCellActions(editorCell, node, editorContext);
     return editorCell;
   }
-
   private static boolean renderingCondition_x7xgz7_a1a(SNode node, EditorContext editorContext) {
     boolean result = true;
     if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(node, "count", true), "jetbrains.mps.baseLanguage.structure.IntegerConstant")) {
@@ -75,7 +71,6 @@ public class PeriodConstant_Editor extends DefaultNodeEditor {
     }
     return result;
   }
-
   private EditorCell createRefCell_x7xgz7_a1a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("dateTimeProperty");
@@ -97,20 +92,16 @@ public class PeriodConstant_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   public static class _Inline_x7xgz7_a0b0 extends InlineCellProvider {
     public _Inline_x7xgz7_a0b0() {
       super();
     }
-
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
     }
-
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
       return this.createProperty_x7xgz7_a0a1a(editorContext, node);
     }
-
     private EditorCell createProperty_x7xgz7_a0a1a(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("pluralForm");
@@ -134,7 +125,6 @@ public class PeriodConstant_Editor extends DefaultNodeEditor {
       return editorCell;
     }
   }
-
   private EditorCell createRefCell_x7xgz7_a1a_0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("dateTimeProperty");
@@ -156,20 +146,16 @@ public class PeriodConstant_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   public static class _Inline_x7xgz7_a0b0_0 extends InlineCellProvider {
     public _Inline_x7xgz7_a0b0_0() {
       super();
     }
-
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
     }
-
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
       return this.createProperty_x7xgz7_a0a1a_0(editorContext, node);
     }
-
     private EditorCell createProperty_x7xgz7_a0a1a_0(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("name");

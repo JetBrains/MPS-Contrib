@@ -14,7 +14,6 @@ import jetbrains.mps.graphLayout.graph.Edge;
 public class TopologicalNumbering {
   private TopologicalNumbering() {
   }
-
   public static Map<Node, Integer> number(Graph graph) throws IllegalArgumentException {
     List<Node> sorting = TopologicalSorting.sort(graph);
     if (sorting == null) {

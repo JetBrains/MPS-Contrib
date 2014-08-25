@@ -23,13 +23,11 @@ public class Dijkstra {
   private Map<Node, Integer> myDist;
   private Map<Node, Edge> myPrev;
   private TreeSet<Node> mySet;
-
   public Dijkstra(Graph graph, Node source, Map<Edge, Integer> weights) {
     myGraph = graph;
     mySource = source;
     myWeights = weights;
   }
-
   public void doAlgorithm() {
     doAlgorithm(new _FunctionTypes._return_P1_E0<Boolean, Edge>() {
       public Boolean invoke(Edge edge) {
@@ -37,7 +35,6 @@ public class Dijkstra {
       }
     }, Edge.Direction.FRONT);
   }
-
   public void doAlgorithm(final _FunctionTypes._return_P1_E0<? extends Boolean, ? super Edge> filter, Edge.Direction direction) {
     init();
     while (mySet.size() > 0) {
@@ -65,7 +62,6 @@ public class Dijkstra {
       }
     }
   }
-
   private void init() {
     myDist = MapSequence.fromMap(new HashMap<Node, Integer>());
     myPrev = MapSequence.fromMap(new HashMap<Node, Edge>());
@@ -78,7 +74,6 @@ public class Dijkstra {
       mySet.add(node);
     }
   }
-
   public List<Edge> getShortestPath(Node target) {
     List<Edge> path = ListSequence.fromList(new LinkedList<Edge>());
     if ((Integer) MapSequence.fromMap(myDist).get(target) == ShortestPath.INF) {
@@ -92,15 +87,12 @@ public class Dijkstra {
     }
     return path;
   }
-
   public Map<Node, Integer> getDistance() {
     return myDist;
   }
-
   private class NodeComparator implements Comparator<Node> {
     public NodeComparator() {
     }
-
     @Override
     public int compare(Node first, Node second) {
       int distCompare = MapSequence.fromMap(myDist).get(first).compareTo(MapSequence.fromMap(myDist).get(second));

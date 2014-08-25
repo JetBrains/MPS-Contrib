@@ -10,13 +10,11 @@ public class MultiTest {
   private List<Integer> myNumNodes;
   private List<Integer> myNumEdges;
   private List<Integer> myNumIter;
-
   public MultiTest() {
     myNumNodes = ListSequence.fromList(new ArrayList<Integer>());
     myNumEdges = ListSequence.fromList(new ArrayList<Integer>());
     myNumIter = ListSequence.fromList(new ArrayList<Integer>());
   }
-
   public void run() throws Exception {
     addTestCase(6, 10, 1000);
     addTestCase(7, 13, 500);
@@ -27,7 +25,6 @@ public class MultiTest {
     addTestCase(30, 55, 50);
     runTests();
   }
-
   private void runTests() throws Exception {
     for (int i = 0; i < ListSequence.fromList(myNumNodes).count(); i++) {
       String[] params = new String[3];
@@ -37,13 +34,11 @@ public class MultiTest {
       OrthogonalFlowLayouterStressTest.main(params);
     }
   }
-
   private void addTestCase(int numNodes, int numEdges, int numIter) {
     ListSequence.fromList(myNumNodes).addElement(numNodes);
     ListSequence.fromList(myNumEdges).addElement(numEdges);
     ListSequence.fromList(myNumIter).addElement(numIter);
   }
-
   public static void main(String[] args) throws Exception {
     new MultiTest().run();
   }

@@ -4,38 +4,38 @@
   <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
   <root>
     <file name="PropertyNode_BehaviorDescriptor.java">
-      <unit at="13,0,34,0" name="jetbrains.mps.build.property.behavior.PropertyNode_BehaviorDescriptor" />
+      <unit at="13,0,30,0" name="jetbrains.mps.build.property.behavior.PropertyNode_BehaviorDescriptor" />
     </file>
     <file name="BehaviorAspectDescriptor.java">
-      <unit at="9,0,24,0" name="jetbrains.mps.build.property.behavior.BehaviorAspectDescriptor" />
+      <unit at="9,0,22,0" name="jetbrains.mps.build.property.behavior.BehaviorAspectDescriptor" />
     </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895904dd(jetbrains.mps.build.property.behavior)/1213877341756">
     <file name="PropertyNode_Behavior.java">
-      <node id="1213877341760" at="19,71,20,289" concept="0" />
-      <node id="1213877341770" at="23,81,24,69" concept="0" />
-      <node id="1262430001741497932" at="27,95,28,25" concept="0" />
+      <node id="1213877341760" at="18,71,19,289" concept="0" />
+      <node id="1213877341770" at="21,81,22,69" concept="0" />
+      <node id="1262430001741497932" at="24,95,25,25" concept="0" />
       <node id="1213877341756" at="16,0,18,0" concept="1" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-      <node id="1213877341756" at="19,0,22,0" concept="1" trace="call_getFileName_1213877341757#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
-      <node id="1213877341756" at="23,0,26,0" concept="1" trace="virtual_getProperties_1213877375726#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/util/List;" />
-      <node id="1213877341756" at="27,0,30,0" concept="1" trace="virtual_getExtension_1262430001741497933#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)Ljava/lang/String;" />
+      <node id="1213877341756" at="18,0,21,0" concept="1" trace="call_getFileName_1213877341757#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="1213877341756" at="21,0,24,0" concept="1" trace="virtual_getProperties_1213877375726#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/util/List;" />
+      <node id="1213877341756" at="24,0,27,0" concept="1" trace="virtual_getExtension_1262430001741497933#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)Ljava/lang/String;" />
       <scope id="1213877341776" at="16,43,16,43" />
-      <scope id="1213877341759" at="19,71,20,289" />
-      <scope id="1213877341769" at="23,81,24,69" />
-      <scope id="1262430001741497935" at="27,95,28,25" />
+      <scope id="1213877341759" at="18,71,19,289" />
+      <scope id="1213877341769" at="21,81,22,69" />
+      <scope id="1262430001741497935" at="24,95,25,25" />
       <scope id="1213877341756" at="16,0,18,0">
         <var name="thisNode" id="1213877341756" />
       </scope>
-      <scope id="1213877341756" at="19,0,22,0">
+      <scope id="1213877341756" at="18,0,21,0">
         <var name="thisNode" id="1213877341756" />
       </scope>
-      <scope id="1213877341756" at="23,0,26,0">
+      <scope id="1213877341756" at="21,0,24,0">
         <var name="thisNode" id="1213877341756" />
       </scope>
-      <scope id="1213877341756" at="27,0,30,0">
+      <scope id="1213877341756" at="24,0,27,0">
         <var name="thisConcept" id="1213877341756" />
       </scope>
-      <unit id="1213877341756" at="15,0,31,0" name="jetbrains.mps.build.property.behavior.PropertyNode_Behavior" />
+      <unit id="1213877341756" at="15,0,28,0" name="jetbrains.mps.build.property.behavior.PropertyNode_Behavior" />
     </file>
   </root>
 </debug-info>

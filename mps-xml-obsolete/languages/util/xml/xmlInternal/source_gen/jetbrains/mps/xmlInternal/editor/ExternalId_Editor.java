@@ -12,7 +12,6 @@ public class ExternalId_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createError_9jduwz_a(editorContext, node);
   }
-
   private EditorCell createError_9jduwz_a(EditorContext editorContext, SNode node) {
     EditorCell_Error editorCell = new EditorCell_Error(editorContext, node, "externalId");
     editorCell.setCellId("Error_9jduwz_a");

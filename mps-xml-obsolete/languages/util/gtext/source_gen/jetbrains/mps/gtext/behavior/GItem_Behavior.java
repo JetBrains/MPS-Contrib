@@ -7,7 +7,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 public class GItem_Behavior {
   public static void init(SNode thisNode) {
   }
-
   public static boolean virtual_isComplex_1213877298853(SNode thisNode) {
     return false;
   }

@@ -35,11 +35,9 @@ public class PersonEditor extends JFrame {
   private Events myEvents = new Events(null) {
     {
     }
-
     public void initialize() {
     }
   };
-
   public PersonEditor() {
     this.myThis = this;
     PersonEditor component = this;
@@ -51,21 +49,17 @@ public class PersonEditor extends JFrame {
     component.setVisible(true);
     this.myEvents.initialize();
   }
-
   public Events getEvents() {
     return this.myEvents;
   }
-
   public void addNotify() {
     super.addNotify();
     this.bind();
   }
-
   public void removeNotify() {
     this.unbind();
     super.removeNotify();
   }
-
   private void bind() {
     {
       Object sourceObject = myThis;
@@ -86,7 +80,6 @@ public class PersonEditor extends JFrame {
       ListSequence.fromList(this.myBindings).addElement(binding);
     }
   }
-
   private void unbind() {
     for (AutoBinding binding : this.myBindings) {
       if (binding.isBound()) {
@@ -94,7 +87,6 @@ public class PersonEditor extends JFrame {
       }
     }
   }
-
   private VBoxPanel createComponent_s1toyp_a0() {
     VBoxPanel component = new VBoxPanel();
     this.myComponent_s1toyp_a0 = component;
@@ -105,33 +97,28 @@ public class PersonEditor extends JFrame {
     component.add(this.createComponent_s1toyp_e0a());
     return component;
   }
-
   private JLabel createComponent_s1toyp_a0a() {
     JLabel component = new JLabel();
     this.myComponent_s1toyp_a0a = component;
     component.setText("Name:");
     return component;
   }
-
   private JTextField createComponent_s1toyp_b0a() {
     JTextField component = new JTextField();
     this.myComponent_s1toyp_b0a = component;
     return component;
   }
-
   private JLabel createComponent_s1toyp_c0a() {
     JLabel component = new JLabel();
     this.myComponent_s1toyp_c0a = component;
     component.setText("Last Name:");
     return component;
   }
-
   private JTextField createComponent_s1toyp_d0a() {
     JTextField component = new JTextField();
     this.myComponent_s1toyp_d0a = component;
     return component;
   }
-
   private HBoxPanel createComponent_s1toyp_e0a() {
     HBoxPanel component = new HBoxPanel();
     this.myComponent_s1toyp_e0a = component;
@@ -139,35 +126,29 @@ public class PersonEditor extends JFrame {
     component.add(this.createComponent_s1toyp_b4a0());
     return component;
   }
-
   private JButton createComponent_s1toyp_a4a0() {
     JButton component = new JButton();
     this.myComponent_s1toyp_a4a0 = component;
     component.setText("OK");
     return component;
   }
-
   private JButton createComponent_s1toyp_b4a0() {
     JButton component = new JButton();
     this.myComponent_s1toyp_b4a0 = component;
     component.setText("Cancel");
     return component;
   }
-
   public String getFirstName() {
     return this.myFirstName;
   }
-
   public String getLastName() {
     return this.myLastName;
   }
-
   public void setFirstName(String newValue) {
     String oldValue = this.myFirstName;
     this.myFirstName = newValue;
     this.firePropertyChange("firstName", oldValue, newValue);
   }
-
   public void setLastName(String newValue) {
     String oldValue = this.myLastName;
     this.myLastName = newValue;

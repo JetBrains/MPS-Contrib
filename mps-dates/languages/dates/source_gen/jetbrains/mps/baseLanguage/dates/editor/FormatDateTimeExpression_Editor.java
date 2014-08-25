@@ -27,11 +27,9 @@ public class FormatDateTimeExpression_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_3ctnox_a(editorContext, node);
   }
-
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
     return this.createCollection_3ctnox_a_0(editorContext, node);
   }
-
   private EditorCell createCollection_3ctnox_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_3ctnox_a");
@@ -44,7 +42,6 @@ public class FormatDateTimeExpression_Editor extends DefaultNodeEditor {
     }
     return editorCell;
   }
-
   private EditorCell createRefNode_3ctnox_a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("datetime");
@@ -64,7 +61,6 @@ public class FormatDateTimeExpression_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createConstant_3ctnox_b0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "#");
     editorCell.setCellId("Constant_3ctnox_b0");
@@ -76,7 +72,6 @@ public class FormatDateTimeExpression_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefCell_3ctnox_c0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("dateFormat");
@@ -102,20 +97,16 @@ public class FormatDateTimeExpression_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   public static class _Inline_3ctnox_a2a extends InlineCellProvider {
     public _Inline_3ctnox_a2a() {
       super();
     }
-
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
     }
-
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
       return this.createProperty_3ctnox_a0c0(editorContext, node);
     }
-
     private EditorCell createProperty_3ctnox_a0c0(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("name");
@@ -138,7 +129,6 @@ public class FormatDateTimeExpression_Editor extends DefaultNodeEditor {
       return editorCell;
     }
   }
-
   private EditorCell createCollection_3ctnox_d0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_3ctnox_d0");
@@ -151,11 +141,9 @@ public class FormatDateTimeExpression_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createConstant_3ctnox_c3a(editorContext, node));
     return editorCell;
   }
-
   private static boolean renderingCondition_3ctnox_a3a(SNode node, EditorContext editorContext) {
     return (SLinkOperations.getTarget(node, "locale", false) != null);
   }
-
   private EditorCell createConstant_3ctnox_a3a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
     editorCell.setCellId("Constant_3ctnox_a3a");
@@ -165,7 +153,6 @@ public class FormatDateTimeExpression_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefCell_3ctnox_b3a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("locale");
@@ -187,20 +174,16 @@ public class FormatDateTimeExpression_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   public static class _Inline_3ctnox_a1d0 extends InlineCellProvider {
     public _Inline_3ctnox_a1d0() {
       super();
     }
-
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
     }
-
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
       return this.createProperty_3ctnox_a0b3a(editorContext, node);
     }
-
     private EditorCell createProperty_3ctnox_a0b3a(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("name");
@@ -220,7 +203,6 @@ public class FormatDateTimeExpression_Editor extends DefaultNodeEditor {
       return editorCell;
     }
   }
-
   private EditorCell createConstant_3ctnox_c3a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
     editorCell.setCellId("Constant_3ctnox_c3a");
@@ -231,7 +213,6 @@ public class FormatDateTimeExpression_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createCollection_3ctnox_a_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_3ctnox_a_0");
@@ -239,7 +220,6 @@ public class FormatDateTimeExpression_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createCollection_3ctnox_a0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createCollection_3ctnox_a0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_3ctnox_a0");
@@ -250,14 +230,12 @@ public class FormatDateTimeExpression_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createRefCell_3ctnox_b0a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_3ctnox_a0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "locale");
     editorCell.setCellId("Constant_3ctnox_a0a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefCell_3ctnox_b0a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("locale");
@@ -279,20 +257,16 @@ public class FormatDateTimeExpression_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   public static class _Inline_3ctnox_a1a0 extends InlineCellProvider {
     public _Inline_3ctnox_a1a0() {
       super();
     }
-
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
     }
-
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
       return this.createProperty_3ctnox_a0b0a(editorContext, node);
     }
-
     private EditorCell createProperty_3ctnox_a0b0a(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("name");

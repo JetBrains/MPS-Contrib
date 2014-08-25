@@ -14,10 +14,8 @@ public class BiconnectedComponents extends Dfs {
   private Map<Node, Node> myLow;
   private Map<Node, Integer> myNum;
   private int myCurNum;
-
   public BiconnectedComponents() {
   }
-
   @Override
   public void doDfs(Graph graph) {
     myLow = new NodeMap<Node>(graph);
@@ -26,7 +24,6 @@ public class BiconnectedComponents extends Dfs {
     myCurNum = 0;
     dfs(ListSequence.fromList(graph.getNodes()).first(), null);
   }
-
   public void doDfs(Graph graph, Node source, Edge stEdge) {
     myLow = new NodeMap<Node>(graph);
     myNum = new NodeMap<Integer>(graph);
@@ -37,13 +34,11 @@ public class BiconnectedComponents extends Dfs {
     myCurNum = 1;
     dfs(stEdge.getOpposite(source), stEdge);
   }
-
   @Override
   protected void preprocess(Node node, Edge from) {
     MapSequence.fromMap(myNum).put(node, myCurNum++);
     MapSequence.fromMap(myLow).put(node, node);
   }
-
   @Override
   protected void processEdge(Edge edge, Node source) {
     Node next = edge.getOpposite(source);
@@ -51,7 +46,6 @@ public class BiconnectedComponents extends Dfs {
       changeLow(source, next);
     }
   }
-
   @Override
   protected void postprocess(Node node, Edge from) {
     if (from != null) {
@@ -59,18 +53,15 @@ public class BiconnectedComponents extends Dfs {
       changeLow(prev, MapSequence.fromMap(myLow).get(node));
     }
   }
-
   private void changeLow(Node node, Node newLow) {
     Node oldLow = MapSequence.fromMap(myLow).get(node);
     if (MapSequence.fromMap(myNum).get(oldLow) > MapSequence.fromMap(myNum).get(newLow)) {
       MapSequence.fromMap(myLow).put(node, newLow);
     }
   }
-
   public Map<Node, Node> getLow() {
     return this.myLow;
   }
-
   public Map<Node, Integer> getNum() {
     return this.myNum;
   }

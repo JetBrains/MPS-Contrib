@@ -25,7 +25,6 @@ import javax.swing.JLabel;
 public class EditorIconUtil {
   public EditorIconUtil() {
   }
-
   public static JButton createSelectIconButton(final SNode node, final EditorContext context) {
     final JButton button = new JButton();
     button.setAction(new AbstractAction("...") {
@@ -55,7 +54,6 @@ public class EditorIconUtil {
     });
     return button;
   }
-
   public static byte[] readFile(IFile file) {
     ByteArrayOutputStream s = new ByteArrayOutputStream((int) file.length());
     InputStream stream = null;
@@ -78,7 +76,6 @@ public class EditorIconUtil {
     }
     return s.toByteArray();
   }
-
   public static JComponent createIconPreview(String encodedContent) {
     byte[] bytes = EncodingUtil.decodeBase64(encodedContent);
     final Icon image = new ImageIcon(bytes);

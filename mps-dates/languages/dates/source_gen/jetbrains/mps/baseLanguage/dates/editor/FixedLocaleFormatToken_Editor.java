@@ -25,7 +25,6 @@ public class FixedLocaleFormatToken_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_gkiggc_a(editorContext, node);
   }
-
   private EditorCell createCollection_gkiggc_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_gkiggc_a");
@@ -38,7 +37,6 @@ public class FixedLocaleFormatToken_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createConstant_gkiggc_f0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_gkiggc_a0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "with");
     editorCell.setCellId("Constant_gkiggc_a0");
@@ -48,7 +46,6 @@ public class FixedLocaleFormatToken_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefCell_gkiggc_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("locale");
@@ -70,20 +67,16 @@ public class FixedLocaleFormatToken_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   public static class _Inline_gkiggc_a1a extends InlineCellProvider {
     public _Inline_gkiggc_a1a() {
       super();
     }
-
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
     }
-
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
       return this.createProperty_gkiggc_a0b0(editorContext, node);
     }
-
     private EditorCell createProperty_gkiggc_a0b0(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("name");
@@ -107,7 +100,6 @@ public class FixedLocaleFormatToken_Editor extends DefaultNodeEditor {
       return editorCell;
     }
   }
-
   private EditorCell createConstant_gkiggc_c0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "locale");
     editorCell.setCellId("Constant_gkiggc_c0");
@@ -117,7 +109,6 @@ public class FixedLocaleFormatToken_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createConstant_gkiggc_d0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
     editorCell.setCellId("Constant_gkiggc_d0");
@@ -127,7 +118,6 @@ public class FixedLocaleFormatToken_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefCell_gkiggc_e0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("dateFormat");
@@ -149,20 +139,16 @@ public class FixedLocaleFormatToken_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   public static class _Inline_gkiggc_a4a extends InlineCellProvider {
     public _Inline_gkiggc_a4a() {
       super();
     }
-
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
     }
-
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
       return this.createProperty_gkiggc_a0e0(editorContext, node);
     }
-
     private EditorCell createProperty_gkiggc_a0e0(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("name");
@@ -185,7 +171,6 @@ public class FixedLocaleFormatToken_Editor extends DefaultNodeEditor {
       return editorCell;
     }
   }
-
   private EditorCell createConstant_gkiggc_f0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
     editorCell.setCellId("Constant_gkiggc_f0");

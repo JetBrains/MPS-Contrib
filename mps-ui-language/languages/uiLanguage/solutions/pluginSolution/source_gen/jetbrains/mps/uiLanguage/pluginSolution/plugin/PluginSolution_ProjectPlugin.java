@@ -11,7 +11,6 @@ import java.util.ArrayList;
 public class PluginSolution_ProjectPlugin extends BaseProjectPlugin {
   public PluginSolution_ProjectPlugin() {
   }
-
   public List<RelationDescriptor> initTabbedEditors(Project project) {
     List<RelationDescriptor> result = new ArrayList();
     result.add(new Component_TabDescriptor());

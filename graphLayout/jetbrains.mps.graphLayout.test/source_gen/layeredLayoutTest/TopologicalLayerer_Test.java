@@ -18,14 +18,12 @@ public class TopologicalLayerer_Test extends TestCase {
     Map<Node, Integer> layers = new LayererProxy(new TopologicalLayerer()).computeLayers(chain);
     Assert.assertTrue((Integer) MapSequence.fromMap(layers).get(chain.getNode(0)) == 0);
   }
-
   public void test_chain2() throws Exception {
     Graph chain = SimpleDirectedGraphs.chain(2);
     Map<Node, Integer> layers = new LayererProxy(new TopologicalLayerer()).computeLayers(chain);
     Assert.assertTrue((Integer) MapSequence.fromMap(layers).get(chain.getNode(0)) == 0);
     Assert.assertTrue((Integer) MapSequence.fromMap(layers).get(chain.getNode(1)) == 1);
   }
-
   public void test_chain3() throws Exception {
     Graph chain = SimpleDirectedGraphs.chain(3);
     Map<Node, Integer> layers = new LayererProxy(new TopologicalLayerer()).computeLayers(chain);
@@ -33,7 +31,6 @@ public class TopologicalLayerer_Test extends TestCase {
     Assert.assertTrue((Integer) MapSequence.fromMap(layers).get(chain.getNode(1)) == 1);
     Assert.assertTrue((Integer) MapSequence.fromMap(layers).get(chain.getNode(2)) == 2);
   }
-
   public void test_triangle() throws Exception {
     Graph triangle = SimpleDirectedGraphs.triangle();
     Map<Node, Integer> layers = new LayererProxy(new TopologicalLayerer()).computeLayers(triangle);
@@ -41,7 +38,6 @@ public class TopologicalLayerer_Test extends TestCase {
     Assert.assertTrue((Integer) MapSequence.fromMap(layers).get(triangle.getNode(1)) == 1);
     Assert.assertTrue((Integer) MapSequence.fromMap(layers).get(triangle.getNode(2)) == 2);
   }
-
   public void test_cycle() throws Exception {
     Graph cycle = SimpleDirectedGraphs.cycle(3);
     try {
@@ -51,7 +47,6 @@ public class TopologicalLayerer_Test extends TestCase {
       // expected exception 
     }
   }
-
   public void test_sandwatches() throws Exception {
     Graph sandwatches = SimpleDirectedGraphs.sandwatches();
     Map<Node, Integer> layers = new LayererProxy(new TopologicalLayerer()).computeLayers(sandwatches);
@@ -62,7 +57,6 @@ public class TopologicalLayerer_Test extends TestCase {
     Assert.assertTrue((Integer) MapSequence.fromMap(layers).get(sandwatches.getNode(4)) == 3);
     Assert.assertTrue((Integer) MapSequence.fromMap(layers).get(sandwatches.getNode(5)) == 3);
   }
-
   public void test_simpleFourLayers() throws Exception {
     Graph simpleGraph = GraphsForLayers.simpleFourLayersGraph();
     Map<Node, Integer> layers = new TopologicalLayerer().computeLayers(simpleGraph);
@@ -72,7 +66,6 @@ public class TopologicalLayerer_Test extends TestCase {
     Assert.assertTrue((Integer) MapSequence.fromMap(layers).get(simpleGraph.getNode(3)) == 3);
     Assert.assertTrue((Integer) MapSequence.fromMap(layers).get(simpleGraph.getNode(4)) == 1);
   }
-
   public TopologicalLayerer_Test() {
   }
 }

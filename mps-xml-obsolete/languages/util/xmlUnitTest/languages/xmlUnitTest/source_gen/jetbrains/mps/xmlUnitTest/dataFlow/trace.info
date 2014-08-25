@@ -1,19 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debugInfo>
-  <unitInfo fileName="DFABuilders.java" startLine="8" startPosition="0" endLine="13" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.dataFlow.DFABuilders" />
-  <root nodeRef="r:4f7e1546-f010-4245-9179-6018a9cfa4a2(jetbrains.mps.xmlUnitTest.dataFlow)/5211164146777002739">
-    <nodeInfo nodeId="5211164146777002742" fileName="AssertXMLEquals_DataFlow.java" startLine="15" startPosition="102" endLine="16" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5211164146777002746" fileName="AssertXMLEquals_DataFlow.java" startLine="16" startPosition="105" endLine="17" endPosition="103" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5211164146777002739" fileName="AssertXMLEquals_DataFlow.java" startLine="12" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="AssertXMLEquals_DataFlow#()V" />
-    <nodeInfo nodeId="5211164146777002739" fileName="AssertXMLEquals_DataFlow.java" startLine="15" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="build#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/lang/dataFlow/DataFlowBuilderContext;)V" />
-    <scopeInfo nodeId="5211164146777002739" fileName="AssertXMLEquals_DataFlow.java" startLine="12" startPosition="37" endLine="12" endPosition="37" />
-    <scopeInfo nodeId="5211164146777002739" fileName="AssertXMLEquals_DataFlow.java" startLine="12" startPosition="0" endLine="14" endPosition="0" />
-    <scopeInfo nodeId="5211164146777002741" fileName="AssertXMLEquals_DataFlow.java" startLine="15" startPosition="102" endLine="17" endPosition="103" />
-    <scopeInfo nodeId="5211164146777002739" fileName="AssertXMLEquals_DataFlow.java" startLine="15" startPosition="0" endLine="19" endPosition="0">
-      <varInfo nodeId="5211164146777002739" varName="_context" />
-      <varInfo nodeId="5211164146777002739" varName="operationContext" />
-    </scopeInfo>
-    <unitInfo nodeId="5211164146777002739" fileName="AssertXMLEquals_DataFlow.java" startLine="11" startPosition="0" endLine="20" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.dataFlow.AssertXMLEquals_DataFlow" />
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <root>
+    <file name="DFABuilders.java">
+      <unit at="8,0,13,0" name="jetbrains.mps.xmlUnitTest.dataFlow.DFABuilders" />
+    </file>
   </root>
-</debugInfo>
+  <root nodeRef="r:4f7e1546-f010-4245-9179-6018a9cfa4a2(jetbrains.mps.xmlUnitTest.dataFlow)/5211164146777002739">
+    <file name="AssertXMLEquals_DataFlow.java">
+      <node id="5211164146777002742" at="14,102,15,105" concept="1" />
+      <node id="5211164146777002746" at="15,105,16,103" concept="1" />
+      <node id="5211164146777002739" at="12,0,14,0" concept="0" trace="AssertXMLEquals_DataFlow#()V" />
+      <node id="5211164146777002739" at="14,0,18,0" concept="2" trace="build#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/lang/dataFlow/DataFlowBuilderContext;)V" />
+      <scope id="5211164146777002739" at="12,37,12,37" />
+      <scope id="5211164146777002739" at="12,0,14,0" />
+      <scope id="5211164146777002741" at="14,102,16,103" />
+      <scope id="5211164146777002739" at="14,0,18,0">
+        <var name="_context" id="5211164146777002739" />
+        <var name="operationContext" id="5211164146777002739" />
+      </scope>
+      <unit id="5211164146777002739" at="11,0,19,0" name="jetbrains.mps.xmlUnitTest.dataFlow.AssertXMLEquals_DataFlow" />
+    </file>
+  </root>
+</debug-info>
 

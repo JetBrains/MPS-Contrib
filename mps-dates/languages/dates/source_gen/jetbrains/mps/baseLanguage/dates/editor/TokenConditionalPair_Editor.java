@@ -24,7 +24,6 @@ public class TokenConditionalPair_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_ar9cj6_a(editorContext, node);
   }
-
   private EditorCell createCollection_ar9cj6_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_ar9cj6_a");
@@ -34,14 +33,12 @@ public class TokenConditionalPair_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createRefCell_ar9cj6_c0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createCollection_ar9cj6_a0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_ar9cj6_a0");
     editorCell.addEditorCell(this.createRefNode_ar9cj6_a0a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createRefNode_ar9cj6_a0a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("condition");
@@ -64,7 +61,6 @@ public class TokenConditionalPair_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createConstant_ar9cj6_b0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "->");
     editorCell.setCellId("Constant_ar9cj6_b0");
@@ -74,7 +70,6 @@ public class TokenConditionalPair_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefCell_ar9cj6_c0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("format");
@@ -96,20 +91,16 @@ public class TokenConditionalPair_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   public static class _Inline_ar9cj6_a2a extends InlineCellProvider {
     public _Inline_ar9cj6_a2a() {
       super();
     }
-
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
     }
-
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
       return this.createProperty_ar9cj6_a0c0(editorContext, node);
     }
-
     private EditorCell createProperty_ar9cj6_a0c0(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("name");

@@ -19,26 +19,21 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 @Generated
 public class QueriesGenerated {
   public final boolean NEEDS_OPCONTEXT = false;
-
   public static Object propertyMacro_GetPropertyValue_353793545802704406(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "declaration", false), "name");
   }
-
   public static Object propertyMacro_GetPropertyValue_353793545802704468(final PropertyMacroContext _context) {
     if (SPropertyOperations.getString(_context.getNode(), "id") == null) {
       return _context.createUniqueName(SPropertyOperations.getString(_context.getNode(), "name"), null);
     }
     return SPropertyOperations.getString(_context.getNode(), "name");
   }
-
   public static boolean ifMacro_Condition_353793545802704489(final IfMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), "id") != null;
   }
-
   public static SNode sourceNodeQuery_353793545802704507(final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "internalText", true);
   }
-
   public static Iterable<SNode> sourceNodesQuery_353793545802704416(final SourceSubstituteMacroNodesContext _context) {
     List<SNode> xmlattributes = new ArrayList<SNode>();
     for (SNode attr : SLinkOperations.getTargets(_context.getNode(), "atributes", true)) {
@@ -49,7 +44,6 @@ public class QueriesGenerated {
     }
     return xmlattributes;
   }
-
   public static Iterable<SNode> sourceNodesQuery_353793545802704499(final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "nested", true);
   }

@@ -30,7 +30,6 @@ public class ElementBuilder_Constraints extends BaseConstraintsDescriptor {
   public ElementBuilder_Constraints() {
     super("jetbrains.mps.xmlQuery.structure.ElementBuilder");
   }
-
   @Override
   protected Map<String, ReferenceConstraintsDescriptor> getNotDefaultReferences() {
     Map<String, ReferenceConstraintsDescriptor> references = new HashMap();
@@ -39,7 +38,6 @@ public class ElementBuilder_Constraints extends BaseConstraintsDescriptor {
       public boolean hasOwnScopeProvider() {
         return true;
       }
-
       @Nullable
       @Override
       public ReferenceScopeProvider getScopeProvider() {
@@ -55,7 +53,6 @@ public class ElementBuilder_Constraints extends BaseConstraintsDescriptor {
               return new EmptySearchScope();
             }
           }
-
           @Override
           public SNodeReference getSearchScopeValidatorNode() {
             return breakingNode_4i0ku3_a0a1a0a0a1a0b0a1a1;
@@ -65,6 +62,5 @@ public class ElementBuilder_Constraints extends BaseConstraintsDescriptor {
     });
     return references;
   }
-
   private static SNodePointer breakingNode_4i0ku3_a0a1a0a0a1a0b0a1a1 = new SNodePointer("r:e79b58b4-ea58-4c9d-b43b-c3a260addf6a(jetbrains.mps.xmlQuery.constraints)", "1384720974900260388");
 }

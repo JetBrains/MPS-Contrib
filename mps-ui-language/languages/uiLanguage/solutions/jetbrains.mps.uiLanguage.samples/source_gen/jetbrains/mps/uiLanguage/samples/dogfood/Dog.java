@@ -17,11 +17,9 @@ public class Dog extends JPanel {
   private Events myEvents = new Events(null) {
     {
     }
-
     public void initialize() {
     }
   };
-
   public Dog() {
     this.myThis = this;
     Dog component = this;
@@ -29,24 +27,19 @@ public class Dog extends JPanel {
     component.add(this.createComponent_qku_b0(), BorderLayout.CENTER);
     this.myEvents.initialize();
   }
-
   public Events getEvents() {
     return this.myEvents;
   }
-
   public void addNotify() {
     super.addNotify();
     this.bind();
   }
-
   public void removeNotify() {
     this.unbind();
     super.removeNotify();
   }
-
   private void bind() {
   }
-
   private void unbind() {
     for (AutoBinding binding : this.myBindings) {
       if (binding.isBound()) {
@@ -54,7 +47,6 @@ public class Dog extends JPanel {
       }
     }
   }
-
   private Food createComponent_qku_b0() {
     Food component = new Food();
     this.myComponent_qku_b0 = component;

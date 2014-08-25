@@ -19,135 +19,109 @@ import org.joda.time.DateTimeFieldType;
 public class FixedLocaleDateTimeFormatter implements DateTimePrinter, DateTimeParser {
   private DateTimeFormatter myDateTimeFormatter;
   private Locale myLocale;
-
   public FixedLocaleDateTimeFormatter(DateTimeFormatter dateTimeFormatter, Locale locale) {
     this.myDateTimeFormatter = dateTimeFormatter;
     this.myLocale = locale;
   }
-
   @Override
   public int estimatePrintedLength() {
     return myDateTimeFormatter.getPrinter().estimatePrintedLength();
   }
-
   @Override
   public void printTo(StringBuffer buf, long instant, Chronology chrono, int displayOffset, DateTimeZone displayZone, Locale locale) {
     myDateTimeFormatter.getPrinter().printTo(buf, instant, chrono, displayOffset, displayZone, myLocale);
   }
-
   @Override
   public void printTo(Writer out, long instant, Chronology chrono, int displayOffset, DateTimeZone displayZone, Locale locale) throws IOException {
     myDateTimeFormatter.getPrinter().printTo(out, instant, chrono, displayOffset, displayZone, myLocale);
   }
-
   @Override
   public void printTo(StringBuffer buf, ReadablePartial partial, Locale locale) {
     myDateTimeFormatter.getPrinter().printTo(buf, partial, myLocale);
   }
-
   @Override
   public void printTo(Writer out, ReadablePartial partial, Locale locale) throws IOException {
     myDateTimeFormatter.getPrinter().printTo(out, partial, myLocale);
   }
-
   @Override
   public int estimateParsedLength() {
     return myDateTimeFormatter.getParser().estimateParsedLength();
   }
-
   @Override
   public int parseInto(DateTimeParserBucket bucket, String text, int position) {
     return myDateTimeFormatter.getParser().parseInto(new FixedLocaleDateTimeFormatter.LocaledDateTimeParserBucketWrapper(bucket, myLocale), text, position);
   }
-
   private static class LocaledDateTimeParserBucketWrapper extends DateTimeParserBucket {
     private DateTimeParserBucket myBucket;
     private Locale myLocale;
-
     public LocaledDateTimeParserBucketWrapper(DateTimeParserBucket bucket, Locale locale) {
       super(0, null, null);
       myBucket = bucket;
       myLocale = locale;
       setZone(DateTimeUtils.getChronology(null).getZone());
     }
-
     @Override
     public Chronology getChronology() {
       return myBucket.getChronology();
     }
-
     @Override
     public Locale getLocale() {
       return myLocale;
     }
-
     @Override
     public DateTimeZone getZone() {
       return myBucket.getZone();
     }
-
     @Override
     public void setZone(DateTimeZone zone) {
       if (myBucket != null) {
         myBucket.setZone(zone);
       }
     }
-
     @Override
     public int getOffset() {
       return myBucket.getOffset();
     }
-
     @Override
     public void setOffset(int offset) {
       myBucket.setOffset(offset);
     }
-
     @Override
     public Integer getPivotYear() {
       return myBucket.getPivotYear();
     }
-
     @Override
     public void setPivotYear(Integer pivotYear) {
       myBucket.setPivotYear(pivotYear);
     }
-
     @Override
     public void saveField(DateTimeField field, int value) {
       myBucket.saveField(field, value);
     }
-
     @Override
     public void saveField(DateTimeFieldType fieldType, int value) {
       myBucket.saveField(fieldType, value);
     }
-
     @Override
     public void saveField(DateTimeFieldType fieldType, String text, Locale locale) {
       myBucket.saveField(fieldType, text, locale);
     }
-
     @Override
     public Object saveState() {
       return myBucket.saveState();
     }
-
     @Override
     public boolean restoreState(Object savedState) {
       return myBucket.restoreState(savedState);
     }
-
     @Override
     public long computeMillis() {
       return myBucket.computeMillis();
     }
-
     @Override
     public long computeMillis(boolean resetFields) {
       return myBucket.computeMillis(resetFields);
     }
-
     @Override
     public long computeMillis(boolean resetFields, String text) {
       return myBucket.computeMillis(resetFields, text);

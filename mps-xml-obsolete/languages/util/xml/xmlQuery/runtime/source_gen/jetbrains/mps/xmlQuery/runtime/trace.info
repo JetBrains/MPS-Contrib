@@ -1,50 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debugInfo>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
   <root nodeRef="r:2ce4e257-c156-4a78-85de-48acd3262c38(jetbrains.mps.xmlQuery.runtime)/4876847581624823994">
-    <nodeInfo nodeId="4876847581624824003" fileName="AttributeUtils.java" startLine="14" startPosition="77" endLine="15" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4876847581624824018" fileName="AttributeUtils.java" startLine="18" startPosition="80" endLine="19" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4876847581624824036" fileName="AttributeUtils.java" startLine="23" startPosition="9" endLine="24" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4876847581624824048" fileName="AttributeUtils.java" startLine="25" startPosition="39" endLine="26" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4876847581624824064" fileName="AttributeUtils.java" startLine="31" startPosition="26" endLine="32" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4876847581624824070" fileName="AttributeUtils.java" startLine="33" startPosition="12" endLine="34" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4876847581624823995" fileName="AttributeUtils.java" startLine="11" startPosition="0" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="AttributeUtils#()V" />
-    <nodeInfo nodeId="4876847581624824068" fileName="AttributeUtils.java" startLine="33" startPosition="10" endLine="35" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4876847581624823999" fileName="AttributeUtils.java" startLine="14" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="stringWithDefault#(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" />
-    <nodeInfo nodeId="4876847581624824014" fileName="AttributeUtils.java" startLine="18" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="booleanWithDefault#(Ljava/lang/String;Z)Z" />
-    <nodeInfo nodeId="4876847581624824034" fileName="AttributeUtils.java" startLine="22" startPosition="72" endLine="27" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
-    <nodeInfo nodeId="4876847581624824059" fileName="AttributeUtils.java" startLine="30" startPosition="77" endLine="35" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="4876847581624824030" fileName="AttributeUtils.java" startLine="22" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="integerWithDefault#(Ljava/lang/String;I)I" />
-    <nodeInfo nodeId="4876847581624824054" fileName="AttributeUtils.java" startLine="30" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="elementChildren#(Lorg/jdom/Element;Ljava/lang/String;)Ljava/util/List;" />
-    <scopeInfo nodeId="4876847581624823998" fileName="AttributeUtils.java" startLine="11" startPosition="27" endLine="11" endPosition="27" />
-    <scopeInfo nodeId="4876847581624824002" fileName="AttributeUtils.java" startLine="14" startPosition="77" endLine="15" endPosition="50" />
-    <scopeInfo nodeId="4876847581624824017" fileName="AttributeUtils.java" startLine="18" startPosition="80" endLine="19" endPosition="72" />
-    <scopeInfo nodeId="4876847581624824035" fileName="AttributeUtils.java" startLine="23" startPosition="9" endLine="24" endPosition="70" />
-    <scopeInfo nodeId="4876847581624824044" fileName="AttributeUtils.java" startLine="25" startPosition="0" endLine="26" endPosition="26">
-      <varInfo nodeId="4876847581624824045" varName="e" />
-    </scopeInfo>
-    <scopeInfo nodeId="4876847581624824047" fileName="AttributeUtils.java" startLine="25" startPosition="39" endLine="26" endPosition="26" />
-    <scopeInfo nodeId="4876847581624824063" fileName="AttributeUtils.java" startLine="31" startPosition="26" endLine="32" endPosition="61" />
-    <scopeInfo nodeId="4876847581624824069" fileName="AttributeUtils.java" startLine="33" startPosition="12" endLine="34" endPosition="55" />
-    <scopeInfo nodeId="4876847581624823995" fileName="AttributeUtils.java" startLine="11" startPosition="0" endLine="13" endPosition="0" />
-    <scopeInfo nodeId="4876847581624823999" fileName="AttributeUtils.java" startLine="14" startPosition="0" endLine="17" endPosition="0">
-      <varInfo nodeId="4876847581624824012" varName="defaultValue" />
-      <varInfo nodeId="4876847581624824010" varName="value" />
-    </scopeInfo>
-    <scopeInfo nodeId="4876847581624824014" fileName="AttributeUtils.java" startLine="18" startPosition="0" endLine="21" endPosition="0">
-      <varInfo nodeId="4876847581624824028" varName="defaultValue" />
-      <varInfo nodeId="4876847581624824026" varName="value" />
-    </scopeInfo>
-    <scopeInfo nodeId="4876847581624824033" fileName="AttributeUtils.java" startLine="22" startPosition="72" endLine="27" endPosition="5" />
-    <scopeInfo nodeId="4876847581624824058" fileName="AttributeUtils.java" startLine="30" startPosition="77" endLine="35" endPosition="5" />
-    <scopeInfo nodeId="4876847581624824030" fileName="AttributeUtils.java" startLine="22" startPosition="0" endLine="29" endPosition="0">
-      <varInfo nodeId="4876847581624824052" varName="defaultValue" />
-      <varInfo nodeId="4876847581624824050" varName="value" />
-    </scopeInfo>
-    <scopeInfo nodeId="4876847581624824054" fileName="AttributeUtils.java" startLine="30" startPosition="0" endLine="37" endPosition="0">
-      <varInfo nodeId="4876847581624824078" varName="element" />
-      <varInfo nodeId="4876847581624824080" varName="name" />
-    </scopeInfo>
-    <unitInfo nodeId="4876847581624823994" fileName="AttributeUtils.java" startLine="10" startPosition="0" endLine="38" endPosition="0" unitName="jetbrains.mps.xmlQuery.runtime.AttributeUtils" />
+    <file name="AttributeUtils.java">
+      <node id="4876847581624824003" at="13,77,14,50" concept="3" />
+      <node id="4876847581624824018" at="16,80,17,72" concept="3" />
+      <node id="4876847581624824036" at="20,9,21,70" concept="3" />
+      <node id="4876847581624824048" at="22,39,23,26" concept="3" />
+      <node id="4876847581624824064" at="27,26,28,61" concept="3" />
+      <node id="4876847581624824070" at="29,12,30,55" concept="3" />
+      <node id="4876847581624823995" at="11,0,13,0" concept="1" trace="AttributeUtils#()V" />
+      <node id="4876847581624824068" at="29,10,31,5" concept="0" />
+      <node id="4876847581624823999" at="13,0,16,0" concept="4" trace="stringWithDefault#(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="4876847581624824014" at="16,0,19,0" concept="4" trace="booleanWithDefault#(Ljava/lang/String;Z)Z" />
+      <node id="4876847581624824034" at="19,72,24,5" concept="5" />
+      <node id="4876847581624824059" at="26,77,31,5" concept="2" />
+      <node id="4876847581624824030" at="19,0,26,0" concept="4" trace="integerWithDefault#(Ljava/lang/String;I)I" />
+      <node id="4876847581624824054" at="26,0,33,0" concept="4" trace="elementChildren#(Lorg/jdom/Element;Ljava/lang/String;)Ljava/util/List;" />
+      <scope id="4876847581624823998" at="11,27,11,27" />
+      <scope id="4876847581624824002" at="13,77,14,50" />
+      <scope id="4876847581624824017" at="16,80,17,72" />
+      <scope id="4876847581624824035" at="20,9,21,70" />
+      <scope id="4876847581624824044" at="22,0,23,26">
+        <var name="e" id="4876847581624824045" />
+      </scope>
+      <scope id="4876847581624824047" at="22,39,23,26" />
+      <scope id="4876847581624824063" at="27,26,28,61" />
+      <scope id="4876847581624824069" at="29,12,30,55" />
+      <scope id="4876847581624823995" at="11,0,13,0" />
+      <scope id="4876847581624823999" at="13,0,16,0">
+        <var name="defaultValue" id="4876847581624824012" />
+        <var name="value" id="4876847581624824010" />
+      </scope>
+      <scope id="4876847581624824014" at="16,0,19,0">
+        <var name="defaultValue" id="4876847581624824028" />
+        <var name="value" id="4876847581624824026" />
+      </scope>
+      <scope id="4876847581624824033" at="19,72,24,5" />
+      <scope id="4876847581624824058" at="26,77,31,5" />
+      <scope id="4876847581624824030" at="19,0,26,0">
+        <var name="defaultValue" id="4876847581624824052" />
+        <var name="value" id="4876847581624824050" />
+      </scope>
+      <scope id="4876847581624824054" at="26,0,33,0">
+        <var name="element" id="4876847581624824078" />
+        <var name="name" id="4876847581624824080" />
+      </scope>
+      <unit id="4876847581624823994" at="10,0,34,0" name="jetbrains.mps.xmlQuery.runtime.AttributeUtils" />
+    </file>
   </root>
-</debugInfo>
+</debug-info>
 

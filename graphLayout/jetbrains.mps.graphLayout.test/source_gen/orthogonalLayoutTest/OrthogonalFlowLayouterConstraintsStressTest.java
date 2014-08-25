@@ -18,7 +18,6 @@ import jetbrains.mps.graphLayout.graphLayout.GraphLayout;
 public class OrthogonalFlowLayouterConstraintsStressTest {
   public OrthogonalFlowLayouterConstraintsStressTest() {
   }
-
   public static void main(String[] args) throws Exception {
     String fileName = "C:\\work\\stressConstraintsFlow.txt";
     OrthogonalFlowLayouterConstraints layouter = new OrthogonalFlowLayouterConstraints();

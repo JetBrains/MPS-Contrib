@@ -19,68 +19,53 @@ import jetbrains.mps.intentions.IntentionDescriptor;
 
 public class CreateNormalPropertyFromExternal_intention_Intention implements IntentionFactory {
   private Collection<IntentionExecutable> myCachedExecutable;
-
   public CreateNormalPropertyFromExternal_intention_Intention() {
   }
-
   public String getConcept() {
     return "jetbrains.mps.buildlanguage.structure.ExternalPropertyDeclaration";
   }
-
   public String getPresentation() {
     return "CreateNormalPropertyFromExternal_intention";
   }
-
   public String getPersistentStateKey() {
     return "jetbrains.mps.buildlanguage.intentions.CreateNormalPropertyFromExternal_intention_Intention";
   }
-
   public String getLanguageFqName() {
     return "jetbrains.mps.buildlanguage";
   }
-
   public IntentionType getType() {
     return IntentionType.NORMAL;
   }
-
   public boolean isAvailableInChildNodes() {
     return false;
   }
-
   public boolean isApplicable(final SNode node, final EditorContext editorContext) {
     return true;
   }
-
   public SNodeReference getIntentionNodeReference() {
     return new SNodePointer("r:00000000-0000-4000-0000-011c895904c5(jetbrains.mps.buildlanguage.intentions)", "1219149486459");
   }
-
   public boolean isSurroundWith() {
     return false;
   }
-
   public Collection<IntentionExecutable> instances(final SNode node, final EditorContext context) {
     if (myCachedExecutable == null) {
       myCachedExecutable = Collections.<IntentionExecutable>singletonList(new CreateNormalPropertyFromExternal_intention_Intention.IntentionImplementation());
     }
     return myCachedExecutable;
   }
-
   public class IntentionImplementation implements IntentionExecutable {
     public IntentionImplementation() {
     }
-
     public String getDescription(final SNode node, final EditorContext editorContext) {
       return "Transform External Property to Ordinary Property";
     }
-
     public void execute(final SNode node, final EditorContext editorContext) {
       SNode property = SNodeFactoryOperations.createNewNode("jetbrains.mps.buildlanguage.structure.PropertyDeclaration", null);
       SLinkOperations.setTarget(property, "type", SLinkOperations.getTarget(node, "type", true), true);
       SPropertyOperations.set(property, "name", SPropertyOperations.getString(node, "name"));
       SNodeOperations.replaceWithAnother(node, property);
     }
-
     public IntentionDescriptor getDescriptor() {
       return CreateNormalPropertyFromExternal_intention_Intention.this;
     }

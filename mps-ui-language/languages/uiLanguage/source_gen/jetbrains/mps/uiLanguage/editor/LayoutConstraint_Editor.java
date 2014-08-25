@@ -19,7 +19,6 @@ public class LayoutConstraint_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_fyhbsy_a(editorContext, node);
   }
-
   private EditorCell createCollection_fyhbsy_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_fyhbsy_a");
@@ -29,7 +28,6 @@ public class LayoutConstraint_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createRefNode_fyhbsy_c0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_fyhbsy_a0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "layout constraint");
     editorCell.setCellId("Constant_fyhbsy_a0");
@@ -39,14 +37,12 @@ public class LayoutConstraint_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createConstant_fyhbsy_b0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ":");
     editorCell.setCellId("Constant_fyhbsy_b0");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefNode_fyhbsy_c0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("constraint");

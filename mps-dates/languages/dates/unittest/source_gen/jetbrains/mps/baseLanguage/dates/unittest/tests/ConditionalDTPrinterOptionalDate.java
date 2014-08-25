@@ -14,7 +14,6 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 public class ConditionalDTPrinterOptionalDate extends ConditionalDateTimePrinter {
   public ConditionalDTPrinterOptionalDate() {
   }
-
   protected int getPrinterIndex(Long datetimeToFormat) {
     if (DateTimeOperations.isNull(datetimeToFormat)) {
       return 0;
@@ -27,7 +26,6 @@ public class ConditionalDTPrinterOptionalDate extends ConditionalDateTimePrinter
     }
     return -1;
   }
-
   protected List<DateTimePrinter> createPrinters() {
     List<DateTimePrinter> printers = new ArrayList<DateTimePrinter>(3);
     ListSequence.fromList(printers).addElement((MainFormatTable.INSTANCE).getFormatter("empty").getPrinter());

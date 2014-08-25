@@ -21,7 +21,6 @@ import jetbrains.mps.smodel.SModelUtil_new;
 public class SchemaUtil {
   private SchemaUtil() {
   }
-
   public static List<SNode> getAvailableAttributes(SNode typeExpression) {
     if ((typeExpression == null)) {
       return new ArrayList<SNode>();
@@ -54,7 +53,6 @@ public class SchemaUtil {
       return new ArrayList<SNode>();
     }
   }
-
   public static List<SNode> getAvailableAttributes(List<SNode> typeExpressions) {
     List<SNode> attributes = new ArrayList<SNode>();
     for (SNode typeExpression : ListSequence.fromList(typeExpressions)) {
@@ -62,7 +60,6 @@ public class SchemaUtil {
     }
     return attributes;
   }
-
   public static List<SNode> getAvailableChildren(SNode complexType) {
     List<SNode> children = new ArrayList<SNode>();
     ListSequence.fromList(children).addSequence(ListSequence.fromList(SNodeOperations.getDescendants(complexType, "jetbrains.mps.xmlSchema.structure.ElementReference", false, new String[]{})).where(new IWhereFilter<SNode>() {
@@ -76,7 +73,6 @@ public class SchemaUtil {
     }));
     return children;
   }
-
   public static String complexTypePresentation(SNode complexType) {
     String typeName = SPropertyOperations.getString(complexType, "typeName");
     if ((typeName == null || typeName.length() == 0)) {
@@ -85,7 +81,6 @@ public class SchemaUtil {
       return "[" + typeName + "]";
     }
   }
-
   public static SNode constructXMLElementType(SNode complexType) {
     SNode type = SConceptOperations.createNewNode("jetbrains.mps.xmlQuery.structure.XMLElementType", null);
     if (complexType != null) {
@@ -94,7 +89,6 @@ public class SchemaUtil {
     }
     return type;
   }
-
   public static SNode constructXMLElementTypeForElement(SNode elementDeclaration) {
     if (SNodeOperations.isInstanceOf(elementDeclaration, "jetbrains.mps.xmlSchema.structure.ElementWithType")) {
       return constructXMLElementType(SLinkOperations.getTarget(SLinkOperations.getTarget(SNodeOperations.cast(elementDeclaration, "jetbrains.mps.xmlSchema.structure.ElementWithType"), "complexTypeReference", true), "complexType", false));
@@ -103,7 +97,6 @@ public class SchemaUtil {
     }
     return null;
   }
-
   public static SNode getAttributeType(SNode attributeDeclaration) {
     SNode attributeSchemaType = SLinkOperations.getTarget(attributeDeclaration, "type", true);
     if ((attributeSchemaType == null) || SNodeOperations.isInstanceOf(attributeSchemaType, "jetbrains.mps.xmlSchema.structure.StringSchemaType")) {
@@ -115,30 +108,25 @@ public class SchemaUtil {
     }
     return _quotation_createNode_crwl9t_a2a7();
   }
-
   protected static Logger LOG = LogManager.getLogger(SchemaUtil.class);
-
   private static SNode _quotation_createNode_crwl9t_a0a1a7() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;
     quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.StringType", null, null, false);
     return quotedNode_1;
   }
-
   private static SNode _quotation_createNode_crwl9t_a0a0b0h() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;
     quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.BooleanType", null, null, false);
     return quotedNode_1;
   }
-
   private static SNode _quotation_createNode_crwl9t_a0a1b0h() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;
     quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.IntegerType", null, null, false);
     return quotedNode_1;
   }
-
   private static SNode _quotation_createNode_crwl9t_a2a7() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;

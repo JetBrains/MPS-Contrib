@@ -51,7 +51,6 @@ public class OrthogonalLayoutTestPanel extends JPanel {
   private JTextField myNumEdgesField;
   private JTextField myNumNodesField;
   private OrthogonalLayoutTestPanel.MyLayoutChoice myLayoutChoice;
-
   public OrthogonalLayoutTestPanel() {
     this.setLayout(new GridBagLayout());
     createDoLayoutButton();
@@ -62,14 +61,12 @@ public class OrthogonalLayoutTestPanel extends JPanel {
     initLayout();
     myCurrentLayout = null;
   }
-
   protected void initLayout() {
     OrthogonalFlowLayouter layouter = new OrthogonalFlowLayouter();
     layouter.setAvoidLabelCrossings(true);
     myLayouter = layouter;
     myPainter = new LayoutPainter();
   }
-
   private void createLayoutChoiceButtons() {
     GridBagConstraints c = new GridBagConstraints();
     c.gridy = 0;
@@ -78,7 +75,6 @@ public class OrthogonalLayoutTestPanel extends JPanel {
     myLayoutChoice = new OrthogonalLayoutTestPanel.MyLayoutChoice();
     this.add(myLayoutChoice);
   }
-
   private void createNewGraphButton() {
     myNumNodesField = new JTextField(10);
     myNumNodesField.setBorder(BorderFactory.createTitledBorder("nodes:"));
@@ -112,11 +108,9 @@ public class OrthogonalLayoutTestPanel extends JPanel {
     });
     this.add(button);
   }
-
   protected Graph generateGraph(int numNodes, int numEdges) {
     return RandomGraphGenerator.generateSimpleConnectedGraph(numNodes, numEdges);
   }
-
   private void createDoLayoutButton() {
     JButton button = new JButton("do layout!");
     GridBagConstraints c = new GridBagConstraints();
@@ -135,7 +129,6 @@ public class OrthogonalLayoutTestPanel extends JPanel {
     c.gridheight = 1;
     this.add(button);
   }
-
   protected void writeGraph(Graph graph) {
     List<Edge> edges = graph.getEdges();
     myTextArea.append(graph.getNumNodes() + " " + ListSequence.fromList(edges).count() + "  \n");
@@ -143,7 +136,6 @@ public class OrthogonalLayoutTestPanel extends JPanel {
       myTextArea.append(edge.getSource().getIndex() + " " + edge.getTarget().getIndex() + "  \n");
     }
   }
-
   private void layoutGraph() {
     Map<Node, jetbrains.mps.graphLayout.intGeom2D.Dimension> nodeDimensions = MapSequence.fromMap(new HashMap<Node, jetbrains.mps.graphLayout.intGeom2D.Dimension>());
     Map<Edge, jetbrains.mps.graphLayout.intGeom2D.Dimension> edgeDimensions = MapSequence.fromMap(new HashMap<Edge, jetbrains.mps.graphLayout.intGeom2D.Dimension>());
@@ -180,7 +172,6 @@ public class OrthogonalLayoutTestPanel extends JPanel {
       myCurrentLayout = myCurrentLayout.shift(20, 20);
     }
   }
-
   protected Graph readGraph(Map<Node, jetbrains.mps.graphLayout.intGeom2D.Dimension> nodeSizes, Map<Edge, jetbrains.mps.graphLayout.intGeom2D.Dimension> edgeSizes) {
     Graph g;
     Scanner scanner = new Scanner(myTextArea.getText());
@@ -188,11 +179,9 @@ public class OrthogonalLayoutTestPanel extends JPanel {
     this.readSizes(scanner, g, nodeSizes, edgeSizes);
     return g;
   }
-
   protected Graph readGraph(Scanner scanner) {
     return GraphIO.scanGraph(scanner);
   }
-
   protected void readSizes(Scanner scanner, Graph g, Map<Node, jetbrains.mps.graphLayout.intGeom2D.Dimension> nodeSizes, Map<Edge, jetbrains.mps.graphLayout.intGeom2D.Dimension> edgeSizes) {
     int numNodeSizes = scanner.nextInt();
     for (int i = 0; i < numNodeSizes; i++) {
@@ -214,7 +203,6 @@ public class OrthogonalLayoutTestPanel extends JPanel {
       MapSequence.fromMap(edgeSizes).put(edge, new jetbrains.mps.graphLayout.intGeom2D.Dimension(scanner.nextInt(), scanner.nextInt()));
     }
   }
-
   private void createTextPanel() {
     myTextArea = new JTextArea(20, 20);
     myTextArea.setBorder(BorderFactory.createTitledBorder("enter graph here"));
@@ -226,7 +214,6 @@ public class OrthogonalLayoutTestPanel extends JPanel {
     c.weighty = 1;
     this.add(myTextArea, c);
   }
-
   private void createGraphPanel() {
     myGraphLabel = new OrthogonalLayoutTestPanel.MyGraphLabel();
     myGraphLabel.setBorder(BorderFactory.createTitledBorder("graph layout"));
@@ -240,7 +227,6 @@ public class OrthogonalLayoutTestPanel extends JPanel {
     c.weightx = 1;
     this.add(new JScrollPane(myGraphLabel), c);
   }
-
   protected void create() {
     JFrame frame = new JFrame();
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -249,7 +235,6 @@ public class OrthogonalLayoutTestPanel extends JPanel {
     frame.pack();
     frame.setVisible(true);
   }
-
   public static void main(String[] args) {
     SwingUtilities.invokeLater(new Runnable() {
       @Override
@@ -258,11 +243,9 @@ public class OrthogonalLayoutTestPanel extends JPanel {
       }
     });
   }
-
   public class MyLayoutChoice extends JPanel {
     private int myLayoutLevel;
     private JRadioButton myLabelForAllEdges;
-
     public MyLayoutChoice() {
       ButtonGroup group = new ButtonGroup();
       GridBagConstraints c = new GridBagConstraints();
@@ -306,21 +289,17 @@ public class OrthogonalLayoutTestPanel extends JPanel {
       myLabelForAllEdges = button;
       myLayoutLevel = 2;
     }
-
     public int getSelectedLayoutLavel() {
       return myLayoutLevel;
     }
-
     public boolean isSetLabels() {
       return myLabelForAllEdges.isSelected();
     }
   }
-
   private class MyGraphLabel extends JLabel {
     public MyGraphLabel() {
       super();
     }
-
     @Override
     public void paintComponent(Graphics graphics) {
       if (myCurrentLayout == null) {

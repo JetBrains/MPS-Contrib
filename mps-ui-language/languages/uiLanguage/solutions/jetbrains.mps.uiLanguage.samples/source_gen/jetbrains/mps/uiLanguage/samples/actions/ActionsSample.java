@@ -25,11 +25,9 @@ public class ActionsSample extends JFrame {
   private Events myEvents = new Events(null) {
     {
     }
-
     public void initialize() {
     }
   };
-
   public ActionsSample() {
     this.myThis = this;
     ActionsSample component = this;
@@ -41,24 +39,19 @@ public class ActionsSample extends JFrame {
     component.setVisible(true);
     this.myEvents.initialize();
   }
-
   public Events getEvents() {
     return this.myEvents;
   }
-
   public void addNotify() {
     super.addNotify();
     this.bind();
   }
-
   public void removeNotify() {
     this.unbind();
     super.removeNotify();
   }
-
   private void bind() {
   }
-
   private void unbind() {
     for (AutoBinding binding : this.myBindings) {
       if (binding.isBound()) {
@@ -66,7 +59,6 @@ public class ActionsSample extends JFrame {
       }
     }
   }
-
   private VBoxPanel createComponent_gc1z77_a0() {
     VBoxPanel component = new VBoxPanel();
     this.myComponent_gc1z77_a0 = component;
@@ -74,14 +66,12 @@ public class ActionsSample extends JFrame {
     component.add(this.createComponent_gc1z77_b0a());
     return component;
   }
-
   private JLabel createComponent_gc1z77_a0a() {
     JLabel component = new JLabel();
     this.myLabel_gc1z77_a0a = component;
     component.setText("<PRESS BUTTON>");
     return component;
   }
-
   private JButton createComponent_gc1z77_b0a() {
     JButton component = new JButton();
     this.myComponent_gc1z77_b0a = component;
@@ -93,7 +83,6 @@ public class ActionsSample extends JFrame {
     component.setText("Change Text");
     return component;
   }
-
   /*package*/ void abc() {
     int abcdefI = 239 + 23;
     int i = 23 + 23 - 23 * (abcdefI + 23 * 100);

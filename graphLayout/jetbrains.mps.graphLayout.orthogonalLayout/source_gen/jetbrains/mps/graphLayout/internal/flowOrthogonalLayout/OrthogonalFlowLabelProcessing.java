@@ -38,10 +38,8 @@ public class OrthogonalFlowLabelProcessing {
   private static int DEFAULT_UNIT_LENGTH = 20;
   private static int SHOW_INFO = 0;
   private int myUnitLength = OrthogonalFlowLabelProcessing.DEFAULT_UNIT_LENGTH;
-
   public OrthogonalFlowLabelProcessing() {
   }
-
   public GraphLayout doLayout(Graph graph, Map<Node, Dimension> nodeSizes, Map<Edge, Dimension> labelSizes) {
     Graph copy = new Graph();
     Map<Node, Node> nodeMap = MapSequence.fromMap(new HashMap<Node, Node>());
@@ -81,7 +79,6 @@ public class OrthogonalFlowLabelProcessing {
     layout = layout.shift(20 - rect.x, 20 - rect.y);
     return layout;
   }
-
   private GraphLayout getLayoutCorruptGraph(Graph graph, Map<Node, Dimension> nodeSizes, Map<Edge, Dimension> initialLabelSizes) {
     Set<Node> initialNodes = SetSequence.fromSet(new HashSet<Node>());
     SetSequence.fromSet(initialNodes).addSequence(ListSequence.fromList(graph.getNodes()));
@@ -123,11 +120,9 @@ public class OrthogonalFlowLabelProcessing {
     }
     return initialLayout;
   }
-
   private Edge getLabeledEdge(List<Edge> edges) {
     return ListSequence.fromList(edges).getElement(ListSequence.fromList(edges).count() / 2);
   }
-
   public GraphLayout getlayoutFromEmbeddedGraph(EmbeddedGraph embeddedGraph, Map<Node, Dimension> nodeSizes, Map<Edge, Dimension> labelSizes, EdgesHistoryManager historyManager) {
     if (OrthogonalFlowLabelProcessing.SHOW_INFO > 0) {
       System.out.println("initial graph: " + embeddedGraph);
@@ -232,7 +227,6 @@ public class OrthogonalFlowLabelProcessing {
     }
     return graphLayout;
   }
-
   private Node splitEdge(Edge oldEdge, EmbeddedGraph embeddedGraph, Map<Dart, Direction2D> directions) {
     Node source = oldEdge.getSource();
     Node target = oldEdge.getTarget();
@@ -251,7 +245,6 @@ public class OrthogonalFlowLabelProcessing {
     }
     return node;
   }
-
   public GraphLayout getLayoutFromEmbeddedGraph(EmbeddedGraph embeddedGraph, Map<Node, Dimension> nodeSizes, Map<Node, Map<Direction2D, Integer>> nodeDirectionSizes, EdgesHistoryManager historyManager) {
     if (OrthogonalFlowLabelProcessing.SHOW_INFO > 0) {
       System.out.println("initial graph: " + embeddedGraph);
@@ -323,7 +316,6 @@ public class OrthogonalFlowLabelProcessing {
     }
     return graphLayout;
   }
-
   public GraphLayout processLabels(EmbeddedGraph embeddedGraph, Map<Node, Dimension> nodeSizes, Map<Edge, Dimension> labelSizes, EdgesHistoryManager historyManager) {
     Graph graph = embeddedGraph.getGraph();
     List<Edge> oldEdges = ListSequence.fromList(new ArrayList<Edge>());
@@ -367,14 +359,12 @@ public class OrthogonalFlowLabelProcessing {
     }
     return initialLayout;
   }
-
   private Rectangle getRectangle(Map<Node, Point> coordinates, Node node, Map<Node, Map<Direction2D, Integer>> nodeDirectionSizes, Map<Node, Dimension> nodeSizes) {
     Point center = MapSequence.fromMap(coordinates).get(node);
     Map<Direction2D, Integer> sizes = MapSequence.fromMap(nodeDirectionSizes).get(node);
     Dimension nodeSize = MapSequence.fromMap(nodeSizes).get(node);
     return new Rectangle(center.x - MapSequence.fromMap(sizes).get(Direction2D.LEFT), center.y - MapSequence.fromMap(sizes).get(Direction2D.DOWN), nodeSize.width, nodeSize.height);
   }
-
   private Map<Node, Map<Direction2D, Integer>> getNodeDirectionSizes(Map<Node, Dimension> nodeSizes) {
     Map<Node, Map<Direction2D, Integer>> nodeDirectionSizes = MapSequence.fromMap(new HashMap<Node, Map<Direction2D, Integer>>());
     for (Node node : SetSequence.fromSet(MapSequence.fromMap(nodeSizes).keySet())) {
@@ -390,7 +380,6 @@ public class OrthogonalFlowLabelProcessing {
     }
     return nodeDirectionSizes;
   }
-
   private Map<Edge, Integer> getEdgesShifts(List<QuasiRepresentationModifier.Modification> modifications, Map<Dart, Direction2D> directions, Map<Node, Map<Direction2D, Integer>> nodeSizes) {
     Map<Edge, Integer> edgeShifts = MapSequence.fromMap(new HashMap<Edge, Integer>());
     for (QuasiRepresentationModifier.Modification modification : ListSequence.fromList(modifications)) {
@@ -409,7 +398,6 @@ public class OrthogonalFlowLabelProcessing {
     }
     return edgeShifts;
   }
-
   private void splitEdges(GraphLayout layout, QuasiRepresentationModifier.Modification modification, Map<Edge, Integer> edgeShifts) {
     List<Edge> edges = modification.getModifiedEdges();
     Edge firstEdge = ListSequence.fromList(edges).first();

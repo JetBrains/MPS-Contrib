@@ -36,7 +36,6 @@ public class GraphLayoutOutputUtil {
     Point2D.Double res = new Point2D.Double(x, y);
     return res;
   }
-
   public static Point2D getRectPosAlongPolyline(List<Point> route, Rectangle rect) {
     Point prev = null;
     int x = rect.x;

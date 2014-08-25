@@ -15,12 +15,10 @@ public class WithPropertyCompareExpression_Constraints extends BaseConstraintsDe
   public WithPropertyCompareExpression_Constraints() {
     super("jetbrains.mps.baseLanguage.dates.structure.WithPropertyCompareExpression");
   }
-
   @Override
   public boolean hasOwnCanBeParentMethod() {
     return true;
   }
-
   @Override
   public boolean canBeParent(SNode node, @Nullable SNode childNode, SNode childConcept, SNode link, IOperationContext operationContext, @Nullable CheckingNodeContext checkingNodeContext) {
     boolean result = static_canBeAParent(node, childNode, childConcept, link, operationContext);
@@ -31,13 +29,11 @@ public class WithPropertyCompareExpression_Constraints extends BaseConstraintsDe
 
     return result;
   }
-
   public static boolean static_canBeAParent(SNode node, SNode childNode, SNode childConcept, SNode link, final IOperationContext operationContext) {
     if (link == SLinkOperations.findLinkDeclaration("jetbrains.mps.baseLanguage.dates.structure.WithPropertyCompareExpression", "operation")) {
       return SConceptOperations.isSubConceptOf(childConcept, "jetbrains.mps.baseLanguage.structure.BinaryCompareOperation") || childConcept == SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.structure.EqualsExpression") || childConcept == SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.structure.NotEqualsExpression");
     }
     return true;
   }
-
   private static SNodePointer canBeParentBreakingPoint = new SNodePointer("r:00000000-0000-4000-0000-011c895903cf(jetbrains.mps.baseLanguage.dates.constraints)", "8931998598488287817");
 }

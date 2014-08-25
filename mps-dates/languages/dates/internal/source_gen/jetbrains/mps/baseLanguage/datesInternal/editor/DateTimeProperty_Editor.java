@@ -25,7 +25,6 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_kwu3ge_a(editorContext, node);
   }
-
   private EditorCell createCollection_kwu3ge_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_kwu3ge_a");
@@ -37,7 +36,6 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createConstant_kwu3ge_e0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createProperty_kwu3ge_a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("name");
@@ -58,7 +56,6 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createConstant_kwu3ge_b0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "{");
     editorCell.setCellId("Constant_kwu3ge_b0");
@@ -70,7 +67,6 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createCollection_kwu3ge_c0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_kwu3ge_c0");
@@ -98,12 +94,10 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createProperty_kwu3ge_r2a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createIndentCell_kwu3ge_a2a(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
     return editorCell;
   }
-
   private EditorCell createConstant_kwu3ge_b2a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Joda DateTimeFieldType");
     editorCell.setCellId("Constant_kwu3ge_b2a");
@@ -113,7 +107,6 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefCell_kwu3ge_c2a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("jodaDateTimeFieldType");
@@ -138,20 +131,16 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   public static class _Inline_kwu3ge_a2c0 extends InlineCellProvider {
     public _Inline_kwu3ge_a2c0() {
       super();
     }
-
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
     }
-
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
       return this.createProperty_kwu3ge_a0c2a(editorContext, node);
     }
-
     private EditorCell createProperty_kwu3ge_a0c2a(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("name");
@@ -174,12 +163,10 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
       return editorCell;
     }
   }
-
   private EditorCell createIndentCell_kwu3ge_d2a(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
     return editorCell;
   }
-
   private EditorCell createConstant_kwu3ge_e2a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Joda PeriodType");
     editorCell.setCellId("Constant_kwu3ge_e2a");
@@ -189,7 +176,6 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefCell_kwu3ge_f2a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("jodaPeriodType");
@@ -214,20 +200,16 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   public static class _Inline_kwu3ge_a5c0 extends InlineCellProvider {
     public _Inline_kwu3ge_a5c0() {
       super();
     }
-
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
     }
-
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
       return this.createProperty_kwu3ge_a0f2a(editorContext, node);
     }
-
     private EditorCell createProperty_kwu3ge_a0f2a(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("name");
@@ -250,12 +232,10 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
       return editorCell;
     }
   }
-
   private EditorCell createIndentCell_kwu3ge_g2a(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
     return editorCell;
   }
-
   private EditorCell createConstant_kwu3ge_h2a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Joda DurationType");
     editorCell.setCellId("Constant_kwu3ge_h2a");
@@ -265,7 +245,6 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefCell_kwu3ge_i2a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("jodaDurationType");
@@ -290,20 +269,16 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   public static class _Inline_kwu3ge_a8c0 extends InlineCellProvider {
     public _Inline_kwu3ge_a8c0() {
       super();
     }
-
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
     }
-
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
       return this.createProperty_kwu3ge_a0i2a(editorContext, node);
     }
-
     private EditorCell createProperty_kwu3ge_a0i2a(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("name");
@@ -326,19 +301,16 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
       return editorCell;
     }
   }
-
   private EditorCell createIndentCell_kwu3ge_j2a(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
     return editorCell;
   }
-
   private EditorCell createConstant_kwu3ge_k2a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Period formatting method");
     editorCell.setCellId("Constant_kwu3ge_k2a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefCell_kwu3ge_l2a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("periodFormatMethod");
@@ -363,20 +335,16 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   public static class _Inline_kwu3ge_a11c0 extends InlineCellProvider {
     public _Inline_kwu3ge_a11c0() {
       super();
     }
-
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
     }
-
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
       return this.createProperty_kwu3ge_a0l2a(editorContext, node);
     }
-
     private EditorCell createProperty_kwu3ge_a0l2a(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("name");
@@ -399,19 +367,16 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
       return editorCell;
     }
   }
-
   private EditorCell createIndentCell_kwu3ge_m2a(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
     return editorCell;
   }
-
   private EditorCell createConstant_kwu3ge_n2a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Single form");
     editorCell.setCellId("Constant_kwu3ge_n2a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createProperty_kwu3ge_o2a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("singleForm");
@@ -433,12 +398,10 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createIndentCell_kwu3ge_p2a(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
     return editorCell;
   }
-
   private EditorCell createConstant_kwu3ge_q2a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Plural form");
     editorCell.setCellId("Constant_kwu3ge_q2a");
@@ -448,7 +411,6 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createProperty_kwu3ge_r2a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("pluralForm");
@@ -470,7 +432,6 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createConstant_kwu3ge_d0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "}");
     editorCell.setCellId("Constant_kwu3ge_d0");
@@ -482,7 +443,6 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createConstant_kwu3ge_e0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_kwu3ge_e0");

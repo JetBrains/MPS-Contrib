@@ -23,12 +23,10 @@ import org.apache.log4j.LogManager;
 @ToRemove(version = 2.0)
 public class ClassRunner extends BaseRunner {
   private ProcessBuilder myProcessBuilder;
-
   @Deprecated
   public ClassRunner(ConfigRunParameters parameters) {
     super(parameters);
   }
-
   public Process run(final SNode node, @NotNull final String className) throws ProcessNotCreatedException {
     final List<String> params = ListSequence.fromList(new ArrayList<String>());
     ModelAccess.instance().runReadAction(new Runnable() {
@@ -62,10 +60,8 @@ public class ClassRunner extends BaseRunner {
       throw new ProcessNotCreatedException(message, npe, this.getCommandLine());
     }
   }
-
   public String getCommandString() {
     return this.getCommandString(this.myProcessBuilder);
   }
-
   protected static Logger LOG = LogManager.getLogger(ClassRunner.class);
 }

@@ -26,11 +26,9 @@ public class GenericAttributeDeclaration_EditorComponent implements ConceptEdito
   public Collection<String> getContextHints() {
     return Collections.emptyList();
   }
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_es1meb_a(editorContext, node);
   }
-
   private EditorCell createCollection_es1meb_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_es1meb_a");
@@ -43,7 +41,6 @@ public class GenericAttributeDeclaration_EditorComponent implements ConceptEdito
     }
     return editorCell;
   }
-
   private EditorCell createCollection_es1meb_a0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_es1meb_a0");
@@ -55,21 +52,18 @@ public class GenericAttributeDeclaration_EditorComponent implements ConceptEdito
     editorCell.addEditorCell(this.createProperty_es1meb_c0a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_es1meb_a0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "required");
     editorCell.setCellId("Constant_es1meb_a0a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createConstant_es1meb_b0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "=");
     editorCell.setCellId("Constant_es1meb_b0a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createProperty_es1meb_c0a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("required");
@@ -90,7 +84,6 @@ public class GenericAttributeDeclaration_EditorComponent implements ConceptEdito
     } else
     return editorCell;
   }
-
   private EditorCell createCollection_es1meb_b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_es1meb_b0");
@@ -102,25 +95,21 @@ public class GenericAttributeDeclaration_EditorComponent implements ConceptEdito
     editorCell.addEditorCell(this.createRefNode_es1meb_c1a(editorContext, node));
     return editorCell;
   }
-
   private static boolean renderingCondition_es1meb_a1a(SNode node, EditorContext editorContext) {
     return (!(AttributeDeclaration_Behavior.call_isRequired_353793545802643811(node)) && (SLinkOperations.getTarget(node, "default", true) != null)) || editorContext.isInspector();
   }
-
   private EditorCell createConstant_es1meb_a1a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "default");
     editorCell.setCellId("Constant_es1meb_a1a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createConstant_es1meb_b1a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "=");
     editorCell.setCellId("Constant_es1meb_b1a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefNode_es1meb_c1a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("default");
@@ -140,7 +129,6 @@ public class GenericAttributeDeclaration_EditorComponent implements ConceptEdito
     } else
     return editorCell;
   }
-
   private EditorCell createCollection_es1meb_c0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_es1meb_c0");
@@ -152,25 +140,21 @@ public class GenericAttributeDeclaration_EditorComponent implements ConceptEdito
     editorCell.addEditorCell(this.createProperty_es1meb_c2a(editorContext, node));
     return editorCell;
   }
-
   private static boolean renderingCondition_es1meb_a2a(SNode node, EditorContext editorContext) {
     return AttributeDeclaration_Behavior.call_isDeprecated_353793545802643819(node) || editorContext.isInspector();
   }
-
   private EditorCell createConstant_es1meb_a2a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "deprecated");
     editorCell.setCellId("Constant_es1meb_a2a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createConstant_es1meb_b2a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "=");
     editorCell.setCellId("Constant_es1meb_b2a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createProperty_es1meb_c2a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("deprecated");

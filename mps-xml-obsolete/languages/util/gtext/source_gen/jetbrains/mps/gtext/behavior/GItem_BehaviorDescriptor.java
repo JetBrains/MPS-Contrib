@@ -11,16 +11,13 @@ import jetbrains.mps.lang.traceable.behavior.TraceableConcept_Behavior;
 public abstract class GItem_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor implements GTextConcept_BehaviorDescriptor, TraceableConcept_BehaviorDescriptor {
   public GItem_BehaviorDescriptor() {
   }
-
   @Nullable
   public String virtual_getTraceableProperty_5067982036267369901(SNode thisNode) {
     return TraceableConcept_Behavior.virtual_getTraceableProperty_5067982036267369901(thisNode);
   }
-
   public boolean virtual_isComplex_1213877298853(SNode thisNode) {
     return GItem_Behavior.virtual_isComplex_1213877298853(thisNode);
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.gtext.structure.GItem";

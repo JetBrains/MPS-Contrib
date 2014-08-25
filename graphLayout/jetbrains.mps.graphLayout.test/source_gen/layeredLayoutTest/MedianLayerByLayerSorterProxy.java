@@ -14,11 +14,9 @@ import junit.framework.Assert;
 
 public class MedianLayerByLayerSorterProxy implements INodeSorter {
   private LayerByLayerNodeSorter mySorter;
-
   public MedianLayerByLayerSorterProxy() {
     mySorter = new LayerByLayerNodeSorter(new MedianLayerSorter(), new DFSNodeSorter());
   }
-
   @Override
   public NodeLayeredOrder sortNodes(Graph graph, Map<Node, Integer> layers) {
     NodeLayeredOrder order = mySorter.sortNodes(graph, layers);

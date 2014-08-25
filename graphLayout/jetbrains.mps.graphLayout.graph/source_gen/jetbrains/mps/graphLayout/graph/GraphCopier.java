@@ -20,7 +20,6 @@ public class GraphCopier {
   private Graph myCopy;
   private Map<INode, Node> myNodeMap;
   private Map<IEdge, Edge> myEdgeMap;
-
   public GraphCopier(IGraph graph) {
     myGraph = graph;
     if (graph instanceof Graph) {
@@ -31,13 +30,11 @@ public class GraphCopier {
     myNodeMap = MapSequence.fromMap(new HashMap<INode, Node>());
     myEdgeMap = MapSequence.fromMap(new HashMap<IEdge, Edge>());
   }
-
   public Node copyNode(INode node) {
     Node copyNode = myCopy.createNode();
     MapSequence.fromMap(myNodeMap).put(node, copyNode);
     return copyNode;
   }
-
   public Edge copyEdge(IEdge edge) {
     Node copySource = MapSequence.fromMap(myNodeMap).get(edge.getSource());
     Node copyTarget = MapSequence.fromMap(myNodeMap).get(edge.getTarget());
@@ -45,11 +42,9 @@ public class GraphCopier {
     MapSequence.fromMap(myEdgeMap).put(edge, copyEdge);
     return copyEdge;
   }
-
   public Graph copy() {
     return copySubgraph(new DefaultFilter<INode>());
   }
-
   public Graph copySubgraph(Filter<INode> nodeFilter) {
     for (INode node : myGraph.getNodes()) {
       if (nodeFilter.accept(node)) {
@@ -63,35 +58,27 @@ public class GraphCopier {
     }
     return myCopy;
   }
-
   private boolean acceptEdge(Filter<INode> nodeFilter, IEdge edge) {
     return nodeFilter.accept(edge.getSource()) && nodeFilter.accept(edge.getTarget());
   }
-
   public Graph getCopy() {
     return myCopy;
   }
-
   public Node getNodeCopy(INode node) {
     return MapSequence.fromMap(myNodeMap).get(node);
   }
-
   public Edge getEdgeCopy(IEdge edge) {
     return MapSequence.fromMap(myEdgeMap).get(edge);
   }
-
   public Set<INode> getCopiedNodes() {
     return MapSequence.fromMap(myNodeMap).keySet();
   }
-
   public Set<IEdge> getCopiedEdges() {
     return MapSequence.fromMap(myEdgeMap).keySet();
   }
-
   public IGraph getCopiedGraph() {
     return myGraph;
   }
-
   public GraphLayout restoreLayout(GraphLayout copyLayout) {
     GraphLayout layout = GraphLayoutFactory.createGraphLayout(myGraph);
     for (INode node : Sequence.fromIterable(myGraph.getNodes())) {

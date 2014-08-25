@@ -18,12 +18,10 @@ public class ListElements_Constraints extends BaseConstraintsDescriptor {
   public ListElements_Constraints() {
     super("jetbrains.mps.uiLanguage.structure.ListElements");
   }
-
   @Override
   public boolean hasOwnCanBeChildMethod() {
     return true;
   }
-
   @Override
   public boolean canBeChild(@Nullable SNode node, SNode parentNode, SNode link, SNode childConcept, final IOperationContext operationContext, @Nullable final CheckingNodeContext checkingNodeContext) {
     boolean result = static_canBeAChild(node, parentNode, link, childConcept, operationContext);
@@ -34,14 +32,12 @@ public class ListElements_Constraints extends BaseConstraintsDescriptor {
 
     return result;
   }
-
   public static boolean static_canBeAChild(SNode node, SNode parentNode, SNode link, SNode childConcept, final IOperationContext operationContext) {
     if (SNodeOperations.isInstanceOf(parentNode, "jetbrains.mps.uiLanguage.structure.ComponentInstance")) {
       return SLinkOperations.getTarget(SNodeOperations.cast(parentNode, "jetbrains.mps.uiLanguage.structure.ComponentInstance"), "componentDeclaration", false) == SLinkOperations.getTarget(_quotation_createNode_fpzj2u_a0a0a0a0(), "componentDeclaration", false);
     }
     return false;
   }
-
   private static SNode _quotation_createNode_fpzj2u_a0a0a0a0() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;
@@ -49,6 +45,5 @@ public class ListElements_Constraints extends BaseConstraintsDescriptor {
     quotedNode_1.setReference("componentDeclaration", SReference.create("componentDeclaration", quotedNode_1, facade.createModelReference("r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)"), facade.createNodeId("1203082515478")));
     return quotedNode_1;
   }
-
   private static SNodePointer canBeChildBreakingPoint = new SNodePointer("r:00000000-0000-4000-0000-011c8959054e(jetbrains.mps.uiLanguage.constraints)", "1213107437628");
 }

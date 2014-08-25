@@ -23,7 +23,6 @@ public class TimeConstant_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_r2b8x9_a(editorContext, node);
   }
-
   private EditorCell createCollection_r2b8x9_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_r2b8x9_a");
@@ -40,7 +39,6 @@ public class TimeConstant_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createRefNode_r2b8x9_j0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createProperty_r2b8x9_a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("day");
@@ -58,7 +56,6 @@ public class TimeConstant_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createRefCell_r2b8x9_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("month");
@@ -80,20 +77,16 @@ public class TimeConstant_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   public static class _Inline_r2b8x9_a1a extends InlineCellProvider {
     public _Inline_r2b8x9_a1a() {
       super();
     }
-
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
     }
-
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
       return this.createProperty_r2b8x9_a0b0(editorContext, node);
     }
-
     private EditorCell createProperty_r2b8x9_a0b0(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("name");
@@ -113,7 +106,6 @@ public class TimeConstant_Editor extends DefaultNodeEditor {
       return editorCell;
     }
   }
-
   private EditorCell createProperty_r2b8x9_c0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("year");
@@ -131,7 +123,6 @@ public class TimeConstant_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createProperty_r2b8x9_d0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("hour");
@@ -149,7 +140,6 @@ public class TimeConstant_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createConstant_r2b8x9_e0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ":");
     editorCell.setCellId("Constant_r2b8x9_e0");
@@ -160,7 +150,6 @@ public class TimeConstant_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createProperty_r2b8x9_f0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("minute");
@@ -178,7 +167,6 @@ public class TimeConstant_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createConstant_r2b8x9_g0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ":");
     editorCell.setCellId("Constant_r2b8x9_g0");
@@ -189,7 +177,6 @@ public class TimeConstant_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createProperty_r2b8x9_h0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("second");
@@ -207,7 +194,6 @@ public class TimeConstant_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createConstant_r2b8x9_i0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "in");
     editorCell.setCellId("Constant_r2b8x9_i0");
@@ -217,7 +203,6 @@ public class TimeConstant_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefNode_r2b8x9_j0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("timezone");

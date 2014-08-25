@@ -14,15 +14,12 @@ public enum PeriodZeroHandlingKind {
   RARELY_LAST("rarely last", "rarelyLast");
 
   private String myName;
-
   public String getName() {
     return this.myName;
   }
-
   public String getValueAsString() {
     return this.myValue;
   }
-
   public static List<PeriodZeroHandlingKind> getConstants() {
     List<PeriodZeroHandlingKind> list = ListSequence.fromList(new LinkedList<PeriodZeroHandlingKind>());
     ListSequence.fromList(list).addElement(PeriodZeroHandlingKind.ALWAYS);
@@ -32,11 +29,9 @@ public enum PeriodZeroHandlingKind {
     ListSequence.fromList(list).addElement(PeriodZeroHandlingKind.RARELY_LAST);
     return list;
   }
-
   public static PeriodZeroHandlingKind getDefault() {
     return PeriodZeroHandlingKind.NEVER;
   }
-
   public static PeriodZeroHandlingKind parseValue(String value) {
     if (value == null) {
       return PeriodZeroHandlingKind.getDefault();
@@ -58,14 +53,11 @@ public enum PeriodZeroHandlingKind {
     }
     return PeriodZeroHandlingKind.getDefault();
   }
-
   private String myValue;
-
   PeriodZeroHandlingKind(String name, String value) {
     this.myName = name;
     this.myValue = value;
   }
-
   public String getValue() {
     return this.myValue;
   }

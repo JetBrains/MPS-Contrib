@@ -34,6 +34,5 @@ public class GIndentBlock_TextGen extends SNodeTextGen {
       }
     }
   }
-
   protected static Logger LOG = LogManager.getLogger(GIndentBlock_TextGen.class);
 }

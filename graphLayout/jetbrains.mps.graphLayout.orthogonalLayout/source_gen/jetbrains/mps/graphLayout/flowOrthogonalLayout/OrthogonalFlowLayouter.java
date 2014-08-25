@@ -32,10 +32,8 @@ import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
 
 public class OrthogonalFlowLayouter extends AbstractOrthogonalFlowLayouter {
   private static int LABEL_DIST = 10;
-
   public OrthogonalFlowLayouter() {
   }
-
   @Override
   public GraphLayout getLayoutFromEmbeddedGraph(EmbeddedGraph embeddedGraph, LayoutInfo layoutInfo) {
     if (SHOW_INFO > 0) {
@@ -312,7 +310,6 @@ public class OrthogonalFlowLayouter extends AbstractOrthogonalFlowLayouter {
     }
     return graphLayout;
   }
-
   private Rectangle getLabelLayout(Map<Edge, Node> labelCenters, Edge edge, Map<Node, Point> coordinates, EmbeddedGraph embeddedGraph, Map<Edge, Dimension> edgeSizes, Map<Dart, Direction2D> directions) {
     Node node = MapSequence.fromMap(labelCenters).get(edge);
     Point center = MapSequence.fromMap(coordinates).get(node);
@@ -326,7 +323,6 @@ public class OrthogonalFlowLayouter extends AbstractOrthogonalFlowLayouter {
     }
     return rect;
   }
-
   private List<Point> getEdgeLayout(Edge edge, EmbeddedGraph embeddedGraph, EdgesHistoryManager manager, Map<Node, Point> coordinates, List<Node> initialNodes, Map<Dart, Direction2D> directions, Map<Node, Map<Direction2D, Integer>> nodeDirectionSizes) {
     Node source = edge.getSource();
     Node target = edge.getTarget();
@@ -357,19 +353,16 @@ public class OrthogonalFlowLayouter extends AbstractOrthogonalFlowLayouter {
     }
     return edgeLayout;
   }
-
   private Rectangle getNodeLayout(Map<Node, Point> coordinates, Node node, Map<Node, Map<Direction2D, Integer>> nodeDirectionSizes, Map<Node, Dimension> nodeSizes) {
     Point center = MapSequence.fromMap(coordinates).get(node);
     Map<Direction2D, Integer> sizes = MapSequence.fromMap(nodeDirectionSizes).get(node);
     Dimension nodeSize = MapSequence.fromMap(nodeSizes).get(node);
     return new Rectangle(center.x - MapSequence.fromMap(sizes).get(Direction2D.LEFT), center.y - MapSequence.fromMap(sizes).get(Direction2D.DOWN), nodeSize.width, nodeSize.height);
   }
-
   @Override
   public Edge getLabeledEdge(List<Edge> edges) {
     return ListSequence.fromList(edges).first();
   }
-
   private Node splitEdge(Edge oldEdge, EmbeddedGraph embeddedGraph, Map<Dart, Direction2D> directions) {
     Node source = oldEdge.getSource();
     Node target = oldEdge.getTarget();

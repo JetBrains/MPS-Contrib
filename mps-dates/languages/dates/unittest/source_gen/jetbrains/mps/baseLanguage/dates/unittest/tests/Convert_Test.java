@@ -15,13 +15,11 @@ public class Convert_Test extends TestCase {
     Long dt = DateTimeOperations.convert(date);
     Assert.assertEquals(date, new Date(dt));
   }
-
   public void test_javaCalendar() throws Exception {
     Calendar calendar = Calendar.getInstance();
     Long dt = DateTimeOperations.convert(calendar);
     Assert.assertEquals(calendar, new DateTime(dt).toCalendar(null));
   }
-
   public void test_jodaDateTime() throws Exception {
     DateTime datetime = new DateTime();
     Long dt = DateTimeOperations.convert(datetime);

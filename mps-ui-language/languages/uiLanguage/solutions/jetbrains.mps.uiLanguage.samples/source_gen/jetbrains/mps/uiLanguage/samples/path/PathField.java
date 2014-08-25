@@ -30,11 +30,9 @@ public class PathField extends JPanel {
   private Events myEvents = new Events(null) {
     {
     }
-
     public void initialize() {
     }
   };
-
   public PathField() {
     this.myThis = this;
     PathField component = this;
@@ -44,21 +42,17 @@ public class PathField extends JPanel {
     this.myEvents.initialize();
     myThis.setMode(TreeFileChooser.MODE_DIRECTORIES);
   }
-
   public Events getEvents() {
     return this.myEvents;
   }
-
   public void addNotify() {
     super.addNotify();
     this.bind();
   }
-
   public void removeNotify() {
     this.unbind();
     super.removeNotify();
   }
-
   private void bind() {
     {
       Object sourceObject = myThis;
@@ -70,7 +64,6 @@ public class PathField extends JPanel {
       ListSequence.fromList(this.myBindings).addElement(binding);
     }
   }
-
   private void unbind() {
     for (AutoBinding binding : this.myBindings) {
       if (binding.isBound()) {
@@ -78,14 +71,12 @@ public class PathField extends JPanel {
       }
     }
   }
-
   private JTextField createComponent_d96i1m_b0() {
     JTextField component = new JTextField();
     this.myPathField_d96i1m_b0 = component;
     component.setColumns(40);
     return component;
   }
-
   private JButton createComponent_d96i1m_c0() {
     JButton component = new JButton();
     this.myButton_d96i1m_c0 = component;
@@ -97,27 +88,22 @@ public class PathField extends JPanel {
     });
     return component;
   }
-
   public String getPath() {
     return this.myPath;
   }
-
   public int getMode() {
     return this.myMode;
   }
-
   public void setPath(String newValue) {
     String oldValue = this.myPath;
     this.myPath = newValue;
     this.firePropertyChange("path", oldValue, newValue);
   }
-
   public void setMode(int newValue) {
     int oldValue = this.myMode;
     this.myMode = newValue;
     this.firePropertyChange("mode", oldValue, newValue);
   }
-
   /*package*/ void choosePathClicked() {
     String oldPath = myThis.myPathField_d96i1m_b0.getText();
     TreeFileChooser chooser = new TreeFileChooser();
@@ -130,7 +116,6 @@ public class PathField extends JPanel {
       myThis.setPath(result.getPath());
     }
   }
-
   public void setEnabled(boolean enabled) {
     myThis.myPathField_d96i1m_b0.setEnabled(enabled);
     myThis.myButton_d96i1m_c0.setEnabled(enabled);

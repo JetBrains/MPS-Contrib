@@ -15,41 +15,33 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 public class ElementDeclaration_Behavior {
   public static void init(SNode thisNode) {
   }
-
   public static void virtual_checkAttributes_1213877382373(SNode thisNode, List<SNode> attributeDeclarations) {
     BehaviorReflection.invokeVirtual(Void.class, BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), thisNode, "virtual_getComplexType_1213877429806", new Object[]{}), "virtual_checkAttributes_1213877382373", new Object[]{attributeDeclarations});
   }
-
   public static List<SNode> call_getAttributeDeclarations_1213877429821(SNode thisNode) {
     List<SNode> attributeDeclarations = new ArrayList<SNode>();
     BehaviorReflection.invokeVirtual(Void.class, thisNode, "virtual_checkAttributes_1213877382373", new Object[]{attributeDeclarations});
     return attributeDeclarations;
   }
-
   public static void virtual_checkElements_1213877382378(SNode thisNode, Set<SNode> elementDeclarations) {
     SetSequence.fromSet(elementDeclarations).addElement(thisNode);
   }
-
   public static void call_checkElements_ed_1213877429846(SNode thisNode, Set<SNode> elementDeclarations) {
     SNode complexType = BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), thisNode, "virtual_getComplexType_1213877429806", new Object[]{});
     if ((complexType != null)) {
       BehaviorReflection.invokeVirtual(Void.class, complexType, "virtual_checkElements_1213877382378", new Object[]{elementDeclarations});
     }
   }
-
   public static boolean call_isEmpty_1213877429867(SNode thisNode) {
     return ComplexType_Behavior.call_isEmpty_1213877526947(BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), thisNode, "virtual_getComplexType_1213877429806", new Object[]{}));
   }
-
   public static boolean virtual_isMixed_1213877382388(SNode thisNode) {
     SNode complexType = BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), thisNode, "virtual_getComplexType_1213877429806", new Object[]{});
     return (complexType == null) || BehaviorReflection.invokeVirtual(Boolean.TYPE, complexType, "virtual_isMixed_1213877382388", new Object[]{});
   }
-
   public static SNode call_getNamespaceDeclaration_1213877429893(SNode thisNode) {
     return SLinkOperations.getTarget(SNodeOperations.getAncestor(thisNode, "jetbrains.mps.xmlSchema.structure.Schema", false, false), "defaultNamespaceDeclaration", true);
   }
-
   public static String call_getQualifiedName_1213877429904(SNode thisNode) {
     String qualifiedName = SPropertyOperations.getString(thisNode, "elementName");
     SNode namespaceDeclaration = ElementDeclaration_Behavior.call_getNamespaceDeclaration_1213877429893(thisNode);
@@ -58,7 +50,6 @@ public class ElementDeclaration_Behavior {
     }
     return qualifiedName;
   }
-
   public static boolean call_hasNamespace_1213877429936(SNode thisNode) {
     SNode namespaceDeclaration = ElementDeclaration_Behavior.call_getNamespaceDeclaration_1213877429893(thisNode);
     return (namespaceDeclaration != null);

@@ -26,7 +26,6 @@ import jetbrains.mps.graphLayout.intGeom2D.Point;
 public class OrthogonalFromVisibility implements IPointLayouter {
   public OrthogonalFromVisibility() {
   }
-
   @Override
   public GraphPointLayout doLayout(Graph graph) {
     /*
@@ -43,7 +42,6 @@ public class OrthogonalFromVisibility implements IPointLayouter {
     STPlanarGraph stPlanarGraph = new STPlanarGraph(embeddedGraph, s, t);
     return doLayout(stPlanarGraph);
   }
-
   public GraphPointLayout doLayout(STPlanarGraph stPlanarGraph) {
     Graph graph = stPlanarGraph.getGraph();
     Map<Object, Rectangle> visibility = VisibilityRepresentation.getVisibilityRepresentation(stPlanarGraph);

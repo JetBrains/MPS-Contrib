@@ -14,7 +14,6 @@ public class AttributeDeclaration_Constraints extends BaseConstraintsDescriptor 
   public AttributeDeclaration_Constraints() {
     super("jetbrains.mps.xmlSchema.structure.AttributeDeclaration");
   }
-
   @Override
   protected Map<String, PropertyConstraintsDescriptor> getNotDefaultProperties() {
     Map<String, PropertyConstraintsDescriptor> properties = new HashMap();
@@ -23,7 +22,6 @@ public class AttributeDeclaration_Constraints extends BaseConstraintsDescriptor 
       public boolean hasOwnGetter() {
         return true;
       }
-
       @Override
       public Object getValue(SNode node) {
         String propertyName = "name";

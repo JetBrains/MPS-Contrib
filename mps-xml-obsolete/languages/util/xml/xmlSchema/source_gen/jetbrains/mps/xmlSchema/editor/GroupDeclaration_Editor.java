@@ -23,7 +23,6 @@ public class GroupDeclaration_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_d9mel4_a(editorContext, node);
   }
-
   private EditorCell createCollection_d9mel4_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_d9mel4_a");
@@ -34,7 +33,6 @@ public class GroupDeclaration_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createRefNode_d9mel4_d0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_d9mel4_a0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "group");
     editorCell.setCellId("Constant_d9mel4_a0");
@@ -44,7 +42,6 @@ public class GroupDeclaration_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createProperty_d9mel4_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("groupName");
@@ -65,14 +62,12 @@ public class GroupDeclaration_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createConstant_d9mel4_c0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ": ");
     editorCell.setCellId("Constant_d9mel4_c0");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefNode_d9mel4_d0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("groupExpression");

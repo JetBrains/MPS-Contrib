@@ -29,7 +29,6 @@ public abstract class ElementCreator {
       Logger.getLogger(Document.class).error(e);
     }
   }
-
   protected static Element createElement(SNode element, final SNodeTextGen textGen) {
     Element result = new Element(SPropertyOperations.getString(element, "name"));
     for (SNode attribute : SLinkOperations.getTargets(element, "attribute", true)) {

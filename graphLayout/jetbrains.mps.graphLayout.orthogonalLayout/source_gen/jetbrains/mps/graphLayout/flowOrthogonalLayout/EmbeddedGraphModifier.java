@@ -33,18 +33,15 @@ public class EmbeddedGraphModifier {
   private Map<Dart, Direction2D> myDartDirections;
   private Map<Node, Node[]> myCornerNodes;
   private Map<Node, Face> myNodeFaces;
-
   public EmbeddedGraphModifier(EmbeddedGraph embeddedGraph) {
     myGraph = embeddedGraph.getGraph();
     myEmbeddedGraph = embeddedGraph;
     myCornerNodes = MapSequence.fromMap(new HashMap<Node, Node[]>());
     myNodeFaces = MapSequence.fromMap(new HashMap<Node, Face>());
   }
-
   public void setDartDirections(Map<Dart, Direction2D> dartDirections) {
     myDartDirections = dartDirections;
   }
-
   public Map<Edge, Edge> makeRectanglesForNodes(Iterable<Node> nodesToProcess) {
     Map<Edge, Edge> modifiedEdges = MapSequence.fromMap(new HashMap<Edge, Edge>());
     for (Node node : Sequence.fromIterable(nodesToProcess)) {
@@ -59,7 +56,6 @@ public class EmbeddedGraphModifier {
     }
     return modifiedEdges;
   }
-
   public Map<Edge, Edge> makeRectanglesForNodes(Map<Node, List<Node>> nodesToProcess) {
     Map<Edge, Edge> modifiedEdges = MapSequence.fromMap(new HashMap<Edge, Edge>());
     for (Node node : SetSequence.fromSet(MapSequence.fromMap(nodesToProcess).keySet())) {
@@ -79,13 +75,11 @@ public class EmbeddedGraphModifier {
     }
     return modifiedEdges;
   }
-
   public void makerInnerFaces() {
     for (Node node : SetSequence.fromSet(MapSequence.fromMap(myCornerNodes).keySet())) {
       makeInnerFace(node);
     }
   }
-
   private void makeInnerFace(Node node) {
     Node[] nodes = MapSequence.fromMap(myCornerNodes).get(node);
     Face face = MapSequence.fromMap(myNodeFaces).get(node);
@@ -106,7 +100,6 @@ public class EmbeddedGraphModifier {
     }
     MapSequence.fromMap(myNodeFaces).put(node, face);
   }
-
   public void makeRectangleForSplittedNode(Node node, final List<Node> nodes) {
     final Wrappers._T<Node> prev = new Wrappers._T<Node>(ListSequence.fromList(nodes).getElement(ListSequence.fromList(nodes).count() - 2));
     final Wrappers._T<Node> cur = new Wrappers._T<Node>(ListSequence.fromList(nodes).getElement(ListSequence.fromList(nodes).count() - 1));
@@ -194,7 +187,6 @@ public class EmbeddedGraphModifier {
       }
     }
   }
-
   public void makeRectangleForSingleNode(Node node, Map<Edge, Edge> modifiedEdges) {
     List<Direction2D> allDirections = Arrays.asList(Direction2D.values());
     List<Dart> darts = myEmbeddedGraph.getDartWithSource(node);
@@ -281,7 +273,6 @@ public class EmbeddedGraphModifier {
     myEmbeddedGraph.addFace(nodeInnerFace);
     myGraph.deleteNode(node);
   }
-
   private void addToNodeFace(Face nodeFace, Edge edge, Direction2D dir, List<Dart> outerDarts) {
     Dart innerDart = new Dart(edge, edge.getSource());
     nodeFace.addLast(innerDart);
@@ -290,11 +281,9 @@ public class EmbeddedGraphModifier {
     MapSequence.fromMap(myDartDirections).put(outerDart, MapSequence.fromMap(myDartDirections).get(innerDart).opposite());
     ListSequence.fromList(outerDarts).addElement(outerDart);
   }
-
   public Set<Edge> reduceNodesDegree(Map<Node, List<Node>> nodeMap, Map<Edge, Edge> edgeMap) {
     return reduceNodesDegree(nodeMap, edgeMap, false);
   }
-
   public Set<Edge> reduceNodesDegree(Map<Node, List<Node>> nodeMap, Map<Edge, Edge> edgeMap, boolean splitAllNodes) {
     Set<Edge> addedEdges = SetSequence.fromSet(new HashSet<Edge>());
     List<Node> realNodes = ListSequence.fromList(new ArrayList<Node>());
@@ -375,7 +364,6 @@ public class EmbeddedGraphModifier {
     }
     return addedEdges;
   }
-
   public void makeRectangularFaces() {
     List<Face> faces = ListSequence.fromList(new ArrayList<Face>());
     ListSequence.fromList(faces).addSequence(ListSequence.fromList(myEmbeddedGraph.getFaces()));
@@ -386,7 +374,6 @@ public class EmbeddedGraphModifier {
       makeFaceRectangle(face);
     }
   }
-
   public void makeFaceRectangle(Face face) {
     Dart badDart = null;
     List<Dart> darts = face.getDarts();
@@ -440,7 +427,6 @@ public class EmbeddedGraphModifier {
       }
     }
   }
-
   public void connectSpecialNodes(Iterable<Node> specialNodes) {
     // can be used only if all faces are rectangular 
     List<Face> oldFaces = ListSequence.fromList(new ArrayList<Face>());
@@ -450,7 +436,6 @@ public class EmbeddedGraphModifier {
       connectSpecialNodesInFace(face, specialNodes);
     }
   }
-
   private void connectSpecialNodesInFace(Face face, Iterable<Node> specialNodes) {
     List<Dart> darts = face.getDarts();
     Direction2D prevDir = MapSequence.fromMap(myDartDirections).get(ListSequence.fromList(darts).last());
@@ -502,7 +487,6 @@ public class EmbeddedGraphModifier {
       }
     }
   }
-
   private List<Dart> getDirectionDarts(Face face, Direction2D direction) {
     List<Dart> directionDarts = ListSequence.fromList(new LinkedList<Dart>());
     List<Dart> darts = face.getDarts();
@@ -520,23 +504,18 @@ public class EmbeddedGraphModifier {
     }
     return directionDarts;
   }
-
   public EmbeddedGraph getEmbeddedGraph() {
     return myEmbeddedGraph;
   }
-
   public Map<Dart, Direction2D> getDartDirections() {
     return myDartDirections;
   }
-
   public Face getNodeFace(Node node) {
     return MapSequence.fromMap(myNodeFaces).get(node);
   }
-
   public Node[] getCornerNodes(Node node) {
     return MapSequence.fromMap(myCornerNodes).get(node);
   }
-
   public Map<Node, Face> getNodeFaces() {
     return myNodeFaces;
   }

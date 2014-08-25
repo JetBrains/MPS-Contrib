@@ -39,12 +39,10 @@ public class Scanner {
   private final Set<JarFile> myJarFiles = new LinkedHashSet<JarFile>();
   private ClassLoader myClassLoader;
   private NamesMap myNamesMap = new NamesMap();
-
   public Scanner(String antPath, String... srcJars) {
     this.myAntPath = antPath;
     this.mySrcJars.addAll(Arrays.asList(srcJars));
   }
-
   public List<ClassInfo> scan() throws IOException, ClassNotFoundException {
     this.myClassLoader = Scanner.createClassLoader(this.myAntPath, this.mySrcJars.toArray(new String[this.mySrcJars.size()]));
     JarFile antJar = new JarFile(this.myAntPath + Scanner.LIB_ANT_JAR);
@@ -71,7 +69,6 @@ public class Scanner {
     }
     return toImport;
   }
-
   private void getNamesMap(JarFile jarFile) {
     Enumeration<JarEntry> entries = jarFile.entries();
     if (!(entries.hasMoreElements())) {
@@ -88,15 +85,12 @@ public class Scanner {
       }
     } while (entries.hasMoreElements());
   }
-
   public NamesMap getNamesMap() {
     return this.myNamesMap;
   }
-
   public Set<ClassInfo> getRoots() {
     return Collections.unmodifiableSet(this.myRoots);
   }
-
   public Importer.IClassInfoProvider createClassInfoProvider() {
     return new Importer.IClassInfoProvider() {
       @Override
@@ -105,13 +99,11 @@ public class Scanner {
       }
     };
   }
-
   public ClassInfo createClassInfo(String className) throws ClassNotFoundException, FileNotFoundException {
     this.myClassLoader = Scanner.createClassLoader(this.myAntPath, this.mySrcJars.toArray(new String[this.mySrcJars.size()]));
     Class<?> clazz = this.myClassLoader.loadClass(className);
     return Scanner.getClassInfo(clazz, this.myJarFiles.toArray(new JarFile[this.myJarFiles.size()]));
   }
-
   public static ClassLoader createClassLoader(String antPath, String[] classpath) throws FileNotFoundException {
     String antJarPath = antPath + Scanner.LIB_ANT_JAR;
     File f = new File(antJarPath);
@@ -138,7 +130,6 @@ public class Scanner {
       return null;
     }
   }
-
   /*package*/ static <T> Set<ClassInfo<? extends T>> getTaskClasses(JarFile jarFile, ClassLoader loader, Class<? extends T> parentClass) {
     Enumeration<JarEntry> entries = jarFile.entries();
     if (!(entries.hasMoreElements())) {
@@ -172,15 +163,12 @@ public class Scanner {
     } while (entries.hasMoreElements());
     return taskClasses;
   }
-
   private static String getClassName(String name) {
     return Scanner.replaceSlashes(name).substring(0, name.length() - Scanner.CLASSFILE_EXT.length());
   }
-
   private static String replaceSlashes(String name) {
     return name.replace("/", ".").replace("\\", ".");
   }
-
   /*package*/ static ClassInfo getClassInfo(Class clazz, JarFile... jarFiles) {
     for (JarFile srcJar : jarFiles) {
       ClassInfo classInfo = Scanner.getClassInfo(clazz, srcJar);
@@ -190,7 +178,6 @@ public class Scanner {
     }
     return new ClassInfo(clazz);
   }
-
   private static ClassInfo getClassInfo(Class clazz, JarFile jarFile) {
     Enumeration<JarEntry> entries = jarFile.entries();
     do {
@@ -208,7 +195,6 @@ public class Scanner {
     } while (entries.hasMoreElements());
     return null;
   }
-
   public static String getShortClassName(Class<?> clazz) {
     String fullName = clazz.getName().toLowerCase();
     int pos2 = fullName.lastIndexOf(".");

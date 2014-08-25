@@ -8,11 +8,9 @@ import org.jetbrains.mps.openapi.language.SConcept;
 public class StatementElement_BehaviorDescriptor extends Content_BehaviorDescriptor {
   public StatementElement_BehaviorDescriptor() {
   }
-
   public boolean virtual_isComplex_1262430001741498088(SConcept thisConcept) {
     return StatementElement_Behavior.virtual_isComplex_1262430001741498088(thisConcept);
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.xmlInternal.structure.StatementElement";

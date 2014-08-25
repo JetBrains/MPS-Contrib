@@ -18,10 +18,8 @@ public class BiconnectivityChecker extends Dfs {
   private int myCurNum;
   private Node mySource;
   private int myNumSourceDecentants;
-
   private BiconnectivityChecker() {
   }
-
   public void doDfs(Graph graph, Node source) {
     myLow = new NodeMap<Node>(graph);
     myNum = new NodeMap<Integer>(graph);
@@ -35,13 +33,11 @@ public class BiconnectivityChecker extends Dfs {
       Assert.assertTrue(MapSequence.fromMap(myNum).get(node) != null);
     }
   }
-
   @Override
   protected void preprocess(Node node, Edge from) {
     MapSequence.fromMap(myNum).put(node, myCurNum++);
     MapSequence.fromMap(myLow).put(node, node);
   }
-
   @Override
   protected void processEdge(Edge edge, Node source) {
     Node next = edge.getOpposite(source);
@@ -49,7 +45,6 @@ public class BiconnectivityChecker extends Dfs {
       changeLow(source, next);
     }
   }
-
   @Override
   protected void postprocess(Node node, Edge from) {
     if (from != null) {
@@ -62,14 +57,12 @@ public class BiconnectivityChecker extends Dfs {
       }
     }
   }
-
   private void changeLow(Node node, Node newLow) {
     Node oldLow = MapSequence.fromMap(myLow).get(node);
     if (MapSequence.fromMap(myNum).get(oldLow) > MapSequence.fromMap(myNum).get(newLow)) {
       MapSequence.fromMap(myLow).put(node, newLow);
     }
   }
-
   public static void check(Graph graph) {
     new BiconnectivityChecker().doDfs(graph, ListSequence.fromList(graph.getNodes()).getElement(0));
   }

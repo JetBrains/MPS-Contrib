@@ -9,11 +9,9 @@ import org.jetbrains.mps.openapi.model.SNode;
 public class BeanType_BehaviorDescriptor extends BaseClassifierType_BehaviorDescriptor {
   public BeanType_BehaviorDescriptor() {
   }
-
   public List<SNode> virtual_getMembers_1213877402148(SNode thisNode, SNode contextNode) {
     return BeanType_Behavior.virtual_getMembers_1213877402148(thisNode, contextNode);
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.uiLanguage.structure.BeanType";

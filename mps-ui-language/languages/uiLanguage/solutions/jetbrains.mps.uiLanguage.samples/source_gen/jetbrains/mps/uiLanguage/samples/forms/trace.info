@@ -1,177 +1,187 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debugInfo>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
   <root nodeRef="r:00000000-0000-4000-0000-011c8959055e(jetbrains.mps.uiLanguage.samples.forms)/1202817919406">
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="20" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myThis" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="21" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_4g3yb7_a0" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="22" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_4g3yb7_b0a" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="23" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_4g3yb7_c0a" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="24" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_4g3yb7_d0a" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="25" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_4g3yb7_e0a" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="26" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_4g3yb7_f0a" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="27" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myBindings" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="36" startPosition="21" endLine="37" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="37" startPosition="23" endLine="38" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="38" startPosition="30" endLine="39" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="39" startPosition="52" endLine="40" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="40" startPosition="47" endLine="41" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="41" startPosition="61" endLine="42" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="42" startPosition="31" endLine="43" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="46" startPosition="29" endLine="47" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="50" startPosition="27" endLine="51" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="51" startPosition="22" endLine="52" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="55" startPosition="30" endLine="56" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="56" startPosition="18" endLine="57" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="65" startPosition="30" endLine="66" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="71" startPosition="46" endLine="72" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="72" startPosition="36" endLine="73" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="73" startPosition="43" endLine="74" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="76" startPosition="41" endLine="77" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="77" startPosition="56" endLine="78" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="78" startPosition="20" endLine="79" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="79" startPosition="20" endLine="80" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="80" startPosition="55" endLine="81" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="85" startPosition="41" endLine="86" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="86" startPosition="56" endLine="87" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="87" startPosition="20" endLine="88" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="88" startPosition="20" endLine="89" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="89" startPosition="55" endLine="90" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="94" startPosition="41" endLine="95" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="95" startPosition="56" endLine="96" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="96" startPosition="20" endLine="97" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="97" startPosition="20" endLine="98" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="98" startPosition="55" endLine="99" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="99" startPosition="22" endLine="100" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="104" startPosition="41" endLine="105" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="105" startPosition="56" endLine="106" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="106" startPosition="20" endLine="107" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="107" startPosition="20" endLine="108" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="108" startPosition="55" endLine="109" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="109" startPosition="22" endLine="110" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="114" startPosition="41" endLine="115" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="115" startPosition="56" endLine="116" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="116" startPosition="20" endLine="117" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="117" startPosition="20" endLine="118" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="118" startPosition="24" endLine="119" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="119" startPosition="22" endLine="120" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="122" startPosition="15" endLine="123" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="126" startPosition="47" endLine="127" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="127" startPosition="36" endLine="128" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="128" startPosition="44" endLine="129" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="129" startPosition="30" endLine="130" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="133" startPosition="47" endLine="134" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="134" startPosition="36" endLine="135" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="135" startPosition="44" endLine="136" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="136" startPosition="35" endLine="137" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="140" startPosition="51" endLine="141" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="141" startPosition="44" endLine="142" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="142" startPosition="44" endLine="143" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="143" startPosition="29" endLine="144" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="147" startPosition="51" endLine="148" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="148" startPosition="44" endLine="149" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="149" startPosition="44" endLine="150" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="150" startPosition="29" endLine="151" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="154" startPosition="47" endLine="155" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="155" startPosition="36" endLine="156" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="156" startPosition="44" endLine="157" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="32" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="initialize#()V" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="60" startPosition="0" endLine="62" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="bind#()V" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="46" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getEvents#()Ljetbrains/mps/uiLanguage/runtime/events/Events;" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="64" startPosition="49" endLine="67" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="50" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addNotify#()V" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="55" startPosition="0" endLine="59" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="removeNotify#()V" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="63" startPosition="25" endLine="68" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="154" startPosition="0" endLine="159" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_4g3yb7_f0a#()Ljava/lang/Object;" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="126" startPosition="0" endLine="132" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_4g3yb7_b0a#()Ljava/lang/Object;" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="133" startPosition="0" endLine="139" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_4g3yb7_c0a#()Ljava/lang/Object;" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="140" startPosition="0" endLine="146" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_4g3yb7_d0a#()Ljava/lang/Object;" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="147" startPosition="0" endLine="153" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_4g3yb7_e0a#()Ljava/lang/Object;" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="28" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myEvents" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="63" startPosition="0" endLine="70" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="unbind#()V" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="76" startPosition="0" endLine="83" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="value#()Ljava/awt/GridBagConstraints;" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="85" startPosition="0" endLine="92" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="value#()Ljava/awt/GridBagConstraints;" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="94" startPosition="0" endLine="102" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="value#()Ljava/awt/GridBagConstraints;" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="104" startPosition="0" endLine="112" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="value#()Ljava/awt/GridBagConstraints;" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="114" startPosition="0" endLine="122" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="value#()Ljava/awt/GridBagConstraints;" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="36" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="FormDemo#()V" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="74" startPosition="45" endLine="83" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="83" startPosition="15" endLine="92" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="92" startPosition="15" endLine="102" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="102" startPosition="15" endLine="112" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="112" startPosition="15" endLine="122" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="71" startPosition="0" endLine="125" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_4g3yb7_a0#()Ljava/lang/Object;" />
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="29" startPosition="5" endLine="29" endPosition="5" />
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="32" startPosition="30" endLine="32" endPosition="30" />
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="60" startPosition="23" endLine="60" endPosition="23" />
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="46" startPosition="29" endLine="47" endPosition="25" />
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="65" startPosition="30" endLine="66" endPosition="25" />
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="32" startPosition="0" endLine="34" endPosition="0" />
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="50" startPosition="27" endLine="52" endPosition="16" />
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="55" startPosition="30" endLine="57" endPosition="25" />
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="60" startPosition="0" endLine="62" endPosition="0" />
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="46" startPosition="0" endLine="49" endPosition="0" />
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="64" startPosition="49" endLine="67" endPosition="7" />
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="154" startPosition="47" endLine="157" endPosition="21">
-      <varInfo nodeId="1202817919406" varName="component" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="50" startPosition="0" endLine="54" endPosition="0" />
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="55" startPosition="0" endLine="59" endPosition="0" />
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="126" startPosition="47" endLine="130" endPosition="21">
-      <varInfo nodeId="1202817919406" varName="component" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="133" startPosition="47" endLine="137" endPosition="21">
-      <varInfo nodeId="1202817919406" varName="component" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="140" startPosition="51" endLine="144" endPosition="21">
-      <varInfo nodeId="1202817919406" varName="component" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="147" startPosition="51" endLine="151" endPosition="21">
-      <varInfo nodeId="1202817919406" varName="component" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="63" startPosition="25" endLine="68" endPosition="5" />
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="63" startPosition="25" endLine="68" endPosition="5">
-      <varInfo nodeId="1202817919406" varName="binding" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="76" startPosition="41" endLine="81" endPosition="17">
-      <varInfo nodeId="1202817919406" varName="c" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="85" startPosition="41" endLine="90" endPosition="17">
-      <varInfo nodeId="1202817919406" varName="c" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="154" startPosition="0" endLine="159" endPosition="0" />
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="94" startPosition="41" endLine="100" endPosition="17">
-      <varInfo nodeId="1202817919406" varName="c" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="104" startPosition="41" endLine="110" endPosition="17">
-      <varInfo nodeId="1202817919406" varName="c" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="114" startPosition="41" endLine="120" endPosition="17">
-      <varInfo nodeId="1202817919406" varName="c" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="126" startPosition="0" endLine="132" endPosition="0" />
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="133" startPosition="0" endLine="139" endPosition="0" />
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="140" startPosition="0" endLine="146" endPosition="0" />
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="147" startPosition="0" endLine="153" endPosition="0" />
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="36" startPosition="21" endLine="43" endPosition="31">
-      <varInfo nodeId="1202817919406" varName="component" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="63" startPosition="0" endLine="70" endPosition="0" />
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="76" startPosition="0" endLine="83" endPosition="0" />
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="85" startPosition="0" endLine="92" endPosition="0" />
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="94" startPosition="0" endLine="102" endPosition="0" />
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="104" startPosition="0" endLine="112" endPosition="0" />
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="114" startPosition="0" endLine="122" endPosition="0" />
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="36" startPosition="0" endLine="45" endPosition="0" />
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="71" startPosition="46" endLine="123" endPosition="21">
-      <varInfo nodeId="1202817919406" varName="component" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="71" startPosition="0" endLine="125" endPosition="0" />
-    <unitInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="28" startPosition="32" endLine="34" endPosition="3" unitName="jetbrains.mps.uiLanguage.samples.forms.FormDemo$1" />
-    <unitInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="75" startPosition="57" endLine="83" endPosition="5" unitName="jetbrains.mps.uiLanguage.samples.forms.FormDemo$2" />
-    <unitInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="84" startPosition="57" endLine="92" endPosition="5" unitName="jetbrains.mps.uiLanguage.samples.forms.FormDemo$3" />
-    <unitInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="93" startPosition="57" endLine="102" endPosition="5" unitName="jetbrains.mps.uiLanguage.samples.forms.FormDemo$4" />
-    <unitInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="103" startPosition="57" endLine="112" endPosition="5" unitName="jetbrains.mps.uiLanguage.samples.forms.FormDemo$5" />
-    <unitInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="113" startPosition="57" endLine="122" endPosition="5" unitName="jetbrains.mps.uiLanguage.samples.forms.FormDemo$6" />
-    <unitInfo nodeId="1202817919406" fileName="FormDemo.java" startLine="19" startPosition="0" endLine="160" endPosition="0" unitName="jetbrains.mps.uiLanguage.samples.forms.FormDemo" />
+    <file name="FormDemo.java">
+      <node id="1202817919406" at="20,0,21,0" concept="2" trace="myThis" />
+      <node id="1202817919406" at="21,0,22,0" concept="2" trace="myComponent_4g3yb7_a0" />
+      <node id="1202817919406" at="22,0,23,0" concept="2" trace="myComponent_4g3yb7_b0a" />
+      <node id="1202817919406" at="23,0,24,0" concept="2" trace="myComponent_4g3yb7_c0a" />
+      <node id="1202817919406" at="24,0,25,0" concept="2" trace="myComponent_4g3yb7_d0a" />
+      <node id="1202817919406" at="25,0,26,0" concept="2" trace="myComponent_4g3yb7_e0a" />
+      <node id="1202817919406" at="26,0,27,0" concept="2" trace="myComponent_4g3yb7_f0a" />
+      <node id="1202817919406" at="27,0,28,0" concept="2" trace="myBindings" />
+      <node id="1202817919406" at="34,21,35,23" concept="1" />
+      <node id="1202817919406" at="35,23,36,30" concept="6" />
+      <node id="1202817919406" at="36,30,37,52" concept="1" />
+      <node id="1202817919406" at="37,52,38,47" concept="1" />
+      <node id="1202817919406" at="38,47,39,61" concept="1" />
+      <node id="1202817919406" at="39,61,40,31" concept="1" />
+      <node id="1202817919406" at="40,31,41,31" concept="1" />
+      <node id="1202817919406" at="43,29,44,25" concept="7" />
+      <node id="1202817919406" at="46,27,47,22" concept="1" />
+      <node id="1202817919406" at="47,22,48,16" concept="1" />
+      <node id="1202817919406" at="50,30,51,18" concept="1" />
+      <node id="1202817919406" at="51,18,52,25" concept="1" />
+      <node id="1202817919406" at="58,30,59,25" concept="1" />
+      <node id="1202817919406" at="63,46,64,36" concept="6" />
+      <node id="1202817919406" at="64,36,65,43" concept="1" />
+      <node id="1202817919406" at="65,43,66,45" concept="1" />
+      <node id="1202817919406" at="68,41,69,56" concept="6" />
+      <node id="1202817919406" at="69,56,70,20" concept="1" />
+      <node id="1202817919406" at="70,20,71,20" concept="1" />
+      <node id="1202817919406" at="71,20,72,55" concept="1" />
+      <node id="1202817919406" at="72,55,73,17" concept="7" />
+      <node id="1202817919406" at="77,41,78,56" concept="6" />
+      <node id="1202817919406" at="78,56,79,20" concept="1" />
+      <node id="1202817919406" at="79,20,80,20" concept="1" />
+      <node id="1202817919406" at="80,20,81,55" concept="1" />
+      <node id="1202817919406" at="81,55,82,17" concept="7" />
+      <node id="1202817919406" at="86,41,87,56" concept="6" />
+      <node id="1202817919406" at="87,56,88,20" concept="1" />
+      <node id="1202817919406" at="88,20,89,20" concept="1" />
+      <node id="1202817919406" at="89,20,90,55" concept="1" />
+      <node id="1202817919406" at="90,55,91,22" concept="1" />
+      <node id="1202817919406" at="91,22,92,17" concept="7" />
+      <node id="1202817919406" at="96,41,97,56" concept="6" />
+      <node id="1202817919406" at="97,56,98,20" concept="1" />
+      <node id="1202817919406" at="98,20,99,20" concept="1" />
+      <node id="1202817919406" at="99,20,100,55" concept="1" />
+      <node id="1202817919406" at="100,55,101,22" concept="1" />
+      <node id="1202817919406" at="101,22,102,17" concept="7" />
+      <node id="1202817919406" at="106,41,107,56" concept="6" />
+      <node id="1202817919406" at="107,56,108,20" concept="1" />
+      <node id="1202817919406" at="108,20,109,20" concept="1" />
+      <node id="1202817919406" at="109,20,110,24" concept="1" />
+      <node id="1202817919406" at="110,24,111,22" concept="1" />
+      <node id="1202817919406" at="111,22,112,17" concept="7" />
+      <node id="1202817919406" at="114,15,115,21" concept="7" />
+      <node id="1202817919406" at="117,47,118,36" concept="6" />
+      <node id="1202817919406" at="118,36,119,44" concept="1" />
+      <node id="1202817919406" at="119,44,120,30" concept="1" />
+      <node id="1202817919406" at="120,30,121,21" concept="7" />
+      <node id="1202817919406" at="123,47,124,36" concept="6" />
+      <node id="1202817919406" at="124,36,125,44" concept="1" />
+      <node id="1202817919406" at="125,44,126,35" concept="1" />
+      <node id="1202817919406" at="126,35,127,21" concept="7" />
+      <node id="1202817919406" at="129,51,130,44" concept="6" />
+      <node id="1202817919406" at="130,44,131,44" concept="1" />
+      <node id="1202817919406" at="131,44,132,29" concept="1" />
+      <node id="1202817919406" at="132,29,133,21" concept="7" />
+      <node id="1202817919406" at="135,51,136,44" concept="6" />
+      <node id="1202817919406" at="136,44,137,44" concept="1" />
+      <node id="1202817919406" at="137,44,138,29" concept="1" />
+      <node id="1202817919406" at="138,29,139,21" concept="7" />
+      <node id="1202817919406" at="141,47,142,36" concept="6" />
+      <node id="1202817919406" at="142,36,143,44" concept="1" />
+      <node id="1202817919406" at="143,44,144,21" concept="7" />
+      <node id="1202817919406" at="31,0,33,0" concept="5" trace="initialize#()V" />
+      <node id="1202817919406" at="54,0,56,0" concept="5" trace="bind#()V" />
+      <node id="1202817919406" at="43,0,46,0" concept="5" trace="getEvents#()Ljetbrains/mps/uiLanguage/runtime/events/Events;" />
+      <node id="1202817919406" at="57,49,60,7" concept="4" />
+      <node id="1202817919406" at="46,0,50,0" concept="5" trace="addNotify#()V" />
+      <node id="1202817919406" at="50,0,54,0" concept="5" trace="removeNotify#()V" />
+      <node id="1202817919406" at="56,25,61,5" concept="3" />
+      <node id="1202817919406" at="141,0,146,0" concept="5" trace="createComponent_4g3yb7_f0a#()Ljava/lang/Object;" />
+      <node id="1202817919406" at="28,0,34,0" concept="2" trace="myEvents" />
+      <node id="1202817919406" at="117,0,123,0" concept="5" trace="createComponent_4g3yb7_b0a#()Ljava/lang/Object;" />
+      <node id="1202817919406" at="123,0,129,0" concept="5" trace="createComponent_4g3yb7_c0a#()Ljava/lang/Object;" />
+      <node id="1202817919406" at="129,0,135,0" concept="5" trace="createComponent_4g3yb7_d0a#()Ljava/lang/Object;" />
+      <node id="1202817919406" at="135,0,141,0" concept="5" trace="createComponent_4g3yb7_e0a#()Ljava/lang/Object;" />
+      <node id="1202817919406" at="56,0,63,0" concept="5" trace="unbind#()V" />
+      <node id="1202817919406" at="68,0,75,0" concept="5" trace="value#()Ljava/awt/GridBagConstraints;" />
+      <node id="1202817919406" at="77,0,84,0" concept="5" trace="value#()Ljava/awt/GridBagConstraints;" />
+      <node id="1202817919406" at="86,0,94,0" concept="5" trace="value#()Ljava/awt/GridBagConstraints;" />
+      <node id="1202817919406" at="96,0,104,0" concept="5" trace="value#()Ljava/awt/GridBagConstraints;" />
+      <node id="1202817919406" at="106,0,114,0" concept="5" trace="value#()Ljava/awt/GridBagConstraints;" />
+      <node id="1202817919406" at="34,0,43,0" concept="0" trace="FormDemo#()V" />
+      <node id="1202817919406" at="66,45,75,15" concept="1" />
+      <node id="1202817919406" at="75,15,84,15" concept="1" />
+      <node id="1202817919406" at="84,15,94,15" concept="1" />
+      <node id="1202817919406" at="94,15,104,15" concept="1" />
+      <node id="1202817919406" at="104,15,114,15" concept="1" />
+      <node id="1202817919406" at="63,0,117,0" concept="5" trace="createComponent_4g3yb7_a0#()Ljava/lang/Object;" />
+      <scope id="1202817919406" at="29,5,29,5" />
+      <scope id="1202817919406" at="31,30,31,30" />
+      <scope id="1202817919406" at="54,23,54,23" />
+      <scope id="1202817919406" at="43,29,44,25" />
+      <scope id="1202817919406" at="58,30,59,25" />
+      <scope id="1202817919406" at="31,0,33,0" />
+      <scope id="1202817919406" at="46,27,48,16" />
+      <scope id="1202817919406" at="50,30,52,25" />
+      <scope id="1202817919406" at="54,0,56,0" />
+      <scope id="1202817919406" at="43,0,46,0" />
+      <scope id="1202817919406" at="57,49,60,7" />
+      <scope id="1202817919406" at="141,47,144,21">
+        <var name="component" id="1202817919406" />
+      </scope>
+      <scope id="1202817919406" at="46,0,50,0" />
+      <scope id="1202817919406" at="50,0,54,0" />
+      <scope id="1202817919406" at="117,47,121,21">
+        <var name="component" id="1202817919406" />
+      </scope>
+      <scope id="1202817919406" at="123,47,127,21">
+        <var name="component" id="1202817919406" />
+      </scope>
+      <scope id="1202817919406" at="129,51,133,21">
+        <var name="component" id="1202817919406" />
+      </scope>
+      <scope id="1202817919406" at="135,51,139,21">
+        <var name="component" id="1202817919406" />
+      </scope>
+      <scope id="1202817919406" at="56,25,61,5" />
+      <scope id="1202817919406" at="56,25,61,5">
+        <var name="binding" id="1202817919406" />
+      </scope>
+      <scope id="1202817919406" at="68,41,73,17">
+        <var name="c" id="1202817919406" />
+      </scope>
+      <scope id="1202817919406" at="77,41,82,17">
+        <var name="c" id="1202817919406" />
+      </scope>
+      <scope id="1202817919406" at="141,0,146,0" />
+      <scope id="1202817919406" at="86,41,92,17">
+        <var name="c" id="1202817919406" />
+      </scope>
+      <scope id="1202817919406" at="96,41,102,17">
+        <var name="c" id="1202817919406" />
+      </scope>
+      <scope id="1202817919406" at="106,41,112,17">
+        <var name="c" id="1202817919406" />
+      </scope>
+      <scope id="1202817919406" at="117,0,123,0" />
+      <scope id="1202817919406" at="123,0,129,0" />
+      <scope id="1202817919406" at="129,0,135,0" />
+      <scope id="1202817919406" at="135,0,141,0" />
+      <scope id="1202817919406" at="34,21,41,31">
+        <var name="component" id="1202817919406" />
+      </scope>
+      <scope id="1202817919406" at="56,0,63,0" />
+      <scope id="1202817919406" at="68,0,75,0" />
+      <scope id="1202817919406" at="77,0,84,0" />
+      <scope id="1202817919406" at="86,0,94,0" />
+      <scope id="1202817919406" at="96,0,104,0" />
+      <scope id="1202817919406" at="106,0,114,0" />
+      <scope id="1202817919406" at="34,0,43,0" />
+      <scope id="1202817919406" at="63,46,115,21">
+        <var name="component" id="1202817919406" />
+      </scope>
+      <scope id="1202817919406" at="63,0,117,0" />
+      <unit id="1202817919406" at="28,32,33,3" name="jetbrains.mps.uiLanguage.samples.forms.FormDemo$1" />
+      <unit id="1202817919406" at="67,57,75,5" name="jetbrains.mps.uiLanguage.samples.forms.FormDemo$2" />
+      <unit id="1202817919406" at="76,57,84,5" name="jetbrains.mps.uiLanguage.samples.forms.FormDemo$3" />
+      <unit id="1202817919406" at="85,57,94,5" name="jetbrains.mps.uiLanguage.samples.forms.FormDemo$4" />
+      <unit id="1202817919406" at="95,57,104,5" name="jetbrains.mps.uiLanguage.samples.forms.FormDemo$5" />
+      <unit id="1202817919406" at="105,57,114,5" name="jetbrains.mps.uiLanguage.samples.forms.FormDemo$6" />
+      <unit id="1202817919406" at="19,0,147,0" name="jetbrains.mps.uiLanguage.samples.forms.FormDemo" />
+    </file>
   </root>
-</debugInfo>
+</debug-info>
 

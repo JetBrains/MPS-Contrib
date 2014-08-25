@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debugInfo>
-  <unitInfo fileName="StructureAspectDescriptor.java" startLine="10" startPosition="0" endLine="39" endPosition="0" unitName="jetbrains.mps.xml.deprecated.structure.StructureAspectDescriptor" />
-</debugInfo>
+<debug-info>
+  <root>
+    <file name="StructureAspectDescriptor.java">
+      <unit at="10,0,37,0" name="jetbrains.mps.xml.deprecated.structure.StructureAspectDescriptor" />
+    </file>
+  </root>
+</debug-info>
 

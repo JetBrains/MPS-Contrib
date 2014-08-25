@@ -10,11 +10,9 @@ public class BooleanLiteral_Behavior {
   public static void init(SNode thisNode) {
     SPropertyOperations.set(thisNode, "value", "" + (false));
   }
-
   public static String virtual_toString_1213877472569(SNode thisNode) {
     return SPropertyOperations.getBoolean(thisNode, "value") + "";
   }
-
   public static String virtual_getActualValue_1213877472572(SNode thisNode) {
     return BehaviorReflection.invokeVirtual(String.class, thisNode, "virtual_toString_1213877472569", new Object[]{});
   }

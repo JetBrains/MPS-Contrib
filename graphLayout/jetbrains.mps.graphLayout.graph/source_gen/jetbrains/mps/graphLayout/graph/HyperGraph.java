@@ -13,7 +13,6 @@ public class HyperGraph extends Graph {
   private Map<Node, Node> myParent;
   private Map<Node, List<Node>> myChildren;
   private Node myRoot;
-
   public HyperGraph() {
     super();
     myParent = MapSequence.fromMap(new HashMap<Node, Node>());
@@ -21,40 +20,34 @@ public class HyperGraph extends Graph {
     myRoot = new Node(this, -1, false);
     MapSequence.fromMap(myChildren).put(myRoot, ListSequence.fromList(new LinkedList<Node>()));
   }
-
   @Override
   public Graph createNew() {
     return new HyperGraph();
   }
-
   @Override
   protected Node createNode(boolean isDummy) {
     Node node = super.createNode(isDummy);
     MapSequence.fromMap(myChildren).put(node, ListSequence.fromList(new LinkedList<Node>()));
     return node;
   }
-
   @Override
   public Node createNode() {
     Node node = super.createNode();
     setParent(node, myRoot);
     return node;
   }
-
   @Override
   public Node createDummyNode() {
     Node node = super.createDummyNode();
     setParent(node, myRoot);
     return node;
   }
-
   public void createNode(Node parent) {
     // calling an internal superclass method to avoid setting myRoot as 
     // parent of created node 
     Node node = super.createNode();
     setParent(node, parent);
   }
-
   public void setParent(Node node, Node parent) {
     Node oldParent = MapSequence.fromMap(myParent).get(node);
     if (oldParent != null) {
@@ -63,23 +56,18 @@ public class HyperGraph extends Graph {
     MapSequence.fromMap(myParent).put(node, parent);
     ListSequence.fromList(MapSequence.fromMap(myChildren).get(parent)).addElement(node);
   }
-
   public void addChild(Node node, Node child) {
     setParent(child, node);
   }
-
   public Node getRoot() {
     return myRoot;
   }
-
   public Node getParent(Node node) {
     return MapSequence.fromMap(myParent).get(node);
   }
-
   public List<Node> getChildren(Node node) {
     return MapSequence.fromMap(myChildren).get(node);
   }
-
   public boolean isNode(Node node) {
     return ListSequence.fromList(MapSequence.fromMap(myChildren).get(node)).count() == 0;
   }

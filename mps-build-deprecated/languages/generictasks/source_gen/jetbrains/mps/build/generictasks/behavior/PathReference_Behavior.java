@@ -15,18 +15,15 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 public class PathReference_Behavior {
   public static void init(SNode thisNode) {
   }
-
   public static String virtual_toString_1213877472569(SNode thisNode) {
     if ((SLinkOperations.getTarget(thisNode, "call", false) == null)) {
       return "";
     }
     return SPropertyOperations.getString(SLinkOperations.getTarget(thisNode, "call", false), "name");
   }
-
   public static List<String> virtual_getPaths_1213877276955(SNode thisNode) {
     return PathReference_Behavior.call_getPaths_353793545802854909(thisNode, SLinkOperations.getTarget(thisNode, "call", false));
   }
-
   public static List<String> call_getPaths_353793545802854909(SNode thisNode, SNode call) {
     List<String> list = ListSequence.fromList(new ArrayList<String>());
     String attName = "path";
@@ -46,11 +43,9 @@ public class PathReference_Behavior {
     }
     return list;
   }
-
   public static String virtual_getActualValue_1213877472572(SNode thisNode) {
     return BehaviorReflection.invokeVirtual(String.class, thisNode, "virtual_toString_1213877472569", new Object[]{});
   }
-
   public static String virtual_getCallName_1262430001741497852(SAbstractConcept thisConcept) {
     return "path";
   }

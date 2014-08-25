@@ -17,74 +17,58 @@ import jetbrains.mps.intentions.IntentionDescriptor;
 
 public class ConvertDateTimeMinusToMinus_Intention implements IntentionFactory {
   private Collection<IntentionExecutable> myCachedExecutable;
-
   public ConvertDateTimeMinusToMinus_Intention() {
   }
-
   public String getConcept() {
     return "jetbrains.mps.baseLanguage.dates.structure.DateTimeMinusPeriodOperation";
   }
-
   public String getPresentation() {
     return "ConvertDateTimeMinusToMinus";
   }
-
   public String getPersistentStateKey() {
     return "jetbrains.mps.baseLanguage.dates.intentions.ConvertDateTimeMinusToMinus_Intention";
   }
-
   public String getLanguageFqName() {
     return "jetbrains.mps.baseLanguage.dates";
   }
-
   public IntentionType getType() {
     return IntentionType.ERROR;
   }
-
   public boolean isAvailableInChildNodes() {
     return false;
   }
-
   public boolean isApplicable(final SNode node, final EditorContext editorContext) {
     if (!(isApplicableToNode(node, editorContext))) {
       return false;
     }
     return true;
   }
-
   private boolean isApplicableToNode(final SNode node, final EditorContext editorContext) {
     return true;
   }
-
   public SNodeReference getIntentionNodeReference() {
     return new SNodePointer("r:00000000-0000-4000-0000-011c895903d2(jetbrains.mps.baseLanguage.dates.intentions)", "1207223065533");
   }
-
   public boolean isSurroundWith() {
     return false;
   }
-
   public Collection<IntentionExecutable> instances(final SNode node, final EditorContext context) {
     if (myCachedExecutable == null) {
       myCachedExecutable = Collections.<IntentionExecutable>singletonList(new ConvertDateTimeMinusToMinus_Intention.IntentionImplementation());
     }
     return myCachedExecutable;
   }
-
   public class IntentionImplementation implements IntentionExecutable {
     public IntentionImplementation() {
     }
-
     public String getDescription(final SNode node, final EditorContext editorContext) {
       return "Convert Minus to Datetime Minus Period";
     }
-
     public void execute(final SNode node, final EditorContext editorContext) {
       SNode plusPeriodOperation = SNodeFactoryOperations.replaceWithNewChild(node, "jetbrains.mps.baseLanguage.structure.MinusExpression");
       SLinkOperations.setTarget(plusPeriodOperation, "leftExpression", SLinkOperations.getTarget(node, "leftValue", true), true);
       SLinkOperations.setTarget(plusPeriodOperation, "rightExpression", SLinkOperations.getTarget(node, "rightValue", true), true);
     }
-
     public IntentionDescriptor getDescriptor() {
       return ConvertDateTimeMinusToMinus_Intention.this;
     }

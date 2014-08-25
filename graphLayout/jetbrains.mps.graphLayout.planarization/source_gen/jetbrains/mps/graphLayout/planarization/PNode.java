@@ -25,13 +25,11 @@ public class PNode extends PQNode {
   private PQNode myFirstAChild;
   private PQNode mySecondAChild;
   private boolean myMakeAFromH;
-
   public PNode(Node graphNode, Edge graphEdge) {
     super();
     myGraphNode = graphNode;
     myGraphEdge = graphEdge;
   }
-
   @Override
   public PQNode processAsPertinentRoot(List<PQNode> children, Node nextGraphNode) {
     ListSequence.fromList(this.getChildren()).removeWhere(new IWhereFilter<PQNode>() {
@@ -162,7 +160,6 @@ public class PNode extends PQNode {
     }
     return nextNode;
   }
-
   @Override
   public void collectEdgesOrderInSubtree(EdgesOrder order) {
     order.addEdge(myGraphNode, myGraphEdge);
@@ -170,7 +167,6 @@ public class PNode extends PQNode {
       child.collectEdgesOrderInSubtree(order);
     }
   }
-
   @Override
   public PQNode makeReduction(boolean isRealPertinentRoot) {
     int numFull = 0;
@@ -201,7 +197,6 @@ public class PNode extends PQNode {
       return replacement;
     }
   }
-
   public void splitNodes(PQNode replacement) {
     PQNode newFullNode = new PNode(myGraphNode, null);
     newFullNode.setState(PQNode.State.FULL);
@@ -224,31 +219,25 @@ public class PNode extends PQNode {
     replacement.getEdgesOrder().addEdge(myGraphNode, myGraphEdge);
     replacement.setParent(getParent());
   }
-
   @Override
   public void addGraphNode(Node node) {
     myGraphNode = node;
   }
-
   @Override
   public Node getGraphNode() {
     return myGraphNode;
   }
-
   public Edge getEdge() {
     return myGraphEdge;
   }
-
   @Override
   public String getType() {
     return "P";
   }
-
   @Override
   public int getAValue() {
     return myAValue;
   }
-
   @Override
   public void computeAValue() {
     super.computeAValue();
@@ -307,7 +296,6 @@ public class PNode extends PQNode {
       myAValue = INF;
     }
   }
-
   @Override
   public void makeADeletion() {
     if (getState() == PQNode.State.FULL || getState() == PQNode.State.EMPTY) {
@@ -346,12 +334,10 @@ public class PNode extends PQNode {
       }
     }
   }
-
   @Override
   public int getHValue() {
     return myHValue;
   }
-
   @Override
   public void computeHValue() {
     super.computeHValue();
@@ -382,7 +368,6 @@ public class PNode extends PQNode {
       myHValue = INF;
     }
   }
-
   @Override
   public void makeHDeletion() {
     if (getState() == PQNode.State.FULL || getState() == PQNode.State.EMPTY) {
@@ -399,7 +384,6 @@ public class PNode extends PQNode {
       }
     }
   }
-
   @Override
   public String getGraphInfo(String prefix) {
     return prefix + " node: " + myGraphNode + " edge: " + myGraphEdge;

@@ -18,29 +18,23 @@ import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 @Generated
 public class QueriesGenerated {
   public final boolean NEEDS_OPCONTEXT = false;
-
   public static boolean baseMappingRule_Condition_1191197782536(final BaseMappingRuleContext _context) {
     boolean hasNamespace = ElementDeclaration_Behavior.call_hasNamespace_1213877429936(SLinkOperations.getTarget(_context.getNode(), "elementDeclaration", false));
     boolean condition = hasNamespace && ListSequence.fromList(SNodeOperations.getDescendants(_context.getNode(), "jetbrains.mps.xmlInternal.structure.NamespaceAttribute", false, new String[]{})).isEmpty();
     return condition;
   }
-
   public static Object propertyMacro_GetPropertyValue_1191202214917(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(ElementDeclaration_Behavior.call_getNamespaceDeclaration_1213877429893(SLinkOperations.getTarget(_context.getNode(), "elementDeclaration", false)), "uri");
   }
-
   public static Object propertyMacro_GetPropertyValue_1191204437358(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(ElementDeclaration_Behavior.call_getNamespaceDeclaration_1213877429893(SLinkOperations.getTarget(_context.getNode(), "elementDeclaration", false)), "prefix");
   }
-
   public static Object referenceMacro_GetReferent_1191199727159(final ReferenceMacroContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "elementDeclaration", false);
   }
-
   public static SNode sourceNodeQuery_1191204860822(final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "contentList", true);
   }
-
   public static Iterable<SNode> sourceNodesQuery_1191201293826(final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "attribute", true);
   }

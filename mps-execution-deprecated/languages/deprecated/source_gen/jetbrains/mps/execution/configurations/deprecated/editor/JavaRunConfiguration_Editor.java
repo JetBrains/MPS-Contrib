@@ -25,11 +25,9 @@ public class JavaRunConfiguration_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_gt2apr_a(editorContext, node);
   }
-
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
     return this.createCollection_gt2apr_a_0(editorContext, node);
   }
-
   private EditorCell createCollection_gt2apr_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_gt2apr_a");
@@ -44,7 +42,6 @@ public class JavaRunConfiguration_Editor extends DefaultNodeEditor {
     }
     return editorCell;
   }
-
   private EditorCell createCollection_gt2apr_a0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_gt2apr_a0");
@@ -57,12 +54,10 @@ public class JavaRunConfiguration_Editor extends DefaultNodeEditor {
     }
     return editorCell;
   }
-
   private EditorCell createComponent_gt2apr_a0a(EditorContext editorContext, SNode node) {
     EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.execution.configurations.deprecated.editor.RunConfigurationHeader");
     return editorCell;
   }
-
   private EditorCell createConstant_gt2apr_b0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "{");
     editorCell.setCellId("Constant_gt2apr_b0a");
@@ -74,11 +69,9 @@ public class JavaRunConfiguration_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private static boolean renderingCondition_gt2apr_a1a0(SNode node, EditorContext editorContext) {
     return BlockCells.useBraces();
   }
-
   private EditorCell createCollection_gt2apr_b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_gt2apr_b0");
@@ -89,12 +82,10 @@ public class JavaRunConfiguration_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createCollection_gt2apr_b1a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createIndentCell_gt2apr_a1a(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
     return editorCell;
   }
-
   private EditorCell createCollection_gt2apr_b1a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_gt2apr_b1a");
@@ -104,29 +95,24 @@ public class JavaRunConfiguration_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createComponent_gt2apr_d1b0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createComponent_gt2apr_a1b0(EditorContext editorContext, SNode node) {
     EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.execution.configurations.deprecated.editor.RunConfigurationPresentation");
     return editorCell;
   }
-
   private EditorCell createConstant_gt2apr_b1b0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_gt2apr_b1b0");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createComponent_gt2apr_c1b0(EditorContext editorContext, SNode node) {
     EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.execution.configurations.deprecated.editor.RunConfigurationBody");
     return editorCell;
   }
-
   private EditorCell createComponent_gt2apr_d1b0(EditorContext editorContext, SNode node) {
     EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.execution.configurations.deprecated.editor.RunConfigurationMethods");
     return editorCell;
   }
-
   private EditorCell createConstant_gt2apr_c0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "}");
     editorCell.setCellId("Constant_gt2apr_c0");
@@ -138,11 +124,9 @@ public class JavaRunConfiguration_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private static boolean renderingCondition_gt2apr_a2a(SNode node, EditorContext editorContext) {
     return BlockCells.useBraces();
   }
-
   private EditorCell createCollection_gt2apr_a_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_gt2apr_a_0");
@@ -150,7 +134,6 @@ public class JavaRunConfiguration_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createRefCell_gt2apr_a0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createRefCell_gt2apr_a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("stateTypeParameter");
@@ -172,20 +155,16 @@ public class JavaRunConfiguration_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   public static class _Inline_gt2apr_a0a extends InlineCellProvider {
     public _Inline_gt2apr_a0a() {
       super();
     }
-
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
     }
-
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
       return this.createProperty_gt2apr_a0a0(editorContext, node);
     }
-
     private EditorCell createProperty_gt2apr_a0a0(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("name");

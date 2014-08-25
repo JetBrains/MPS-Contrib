@@ -18,7 +18,6 @@ import jetbrains.mps.smodel.SModelUtil_new;
 public class checkAttributeDeclarationDefaultValueIsInEnum_NonTypesystemRule extends AbstractNonTypesystemRule_Runtime implements NonTypesystemRule_Runtime {
   public checkAttributeDeclarationDefaultValueIsInEnum_NonTypesystemRule() {
   }
-
   public void applyRule(final SNode genericAttributeDeclaration, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
     if ((SLinkOperations.getTarget(genericAttributeDeclaration, "default", true) != null) && (SLinkOperations.getTarget(genericAttributeDeclaration, "enum", true) != null)) {
       if (!(Enum_Behavior.call_inEnum_1213877413964(SLinkOperations.getTarget(genericAttributeDeclaration, "enum", true), SLinkOperations.getTarget(genericAttributeDeclaration, "default", true)))) {
@@ -35,18 +34,15 @@ public class checkAttributeDeclarationDefaultValueIsInEnum_NonTypesystemRule ext
       }
     }
   }
-
   public String getApplicableConceptFQName() {
     return "jetbrains.mps.build.generictasks.structure.AttributeDeclaration";
   }
-
   public IsApplicableStatus isApplicableAndPattern(SNode argument) {
     {
       boolean b = SModelUtil_new.isAssignableConcept(argument.getConcept().getQualifiedName(), this.getApplicableConceptFQName());
       return new IsApplicableStatus(b, null);
     }
   }
-
   public boolean overrides() {
     return false;
   }

@@ -19,7 +19,6 @@ public class FixedLocaleFormatToken_Constraints extends BaseConstraintsDescripto
   public FixedLocaleFormatToken_Constraints() {
     super("jetbrains.mps.baseLanguage.dates.structure.FixedLocaleFormatToken");
   }
-
   @Override
   protected Map<String, ReferenceConstraintsDescriptor> getNotDefaultReferences() {
     Map<String, ReferenceConstraintsDescriptor> references = new HashMap();
@@ -28,7 +27,6 @@ public class FixedLocaleFormatToken_Constraints extends BaseConstraintsDescripto
       public boolean hasOwnScopeProvider() {
         return true;
       }
-
       @Nullable
       @Override
       public ReferenceScopeProvider getScopeProvider() {
@@ -37,7 +35,6 @@ public class FixedLocaleFormatToken_Constraints extends BaseConstraintsDescripto
           public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
             return DateFormatReferenceUtil.buildIDateFormatSearchScope(_context.getEnclosingNode());
           }
-
           @Override
           public SNodeReference getSearchScopeValidatorNode() {
             return breakingNode_k18hv9_a0a1a0a0a1a0b0a1a1;
@@ -47,6 +44,5 @@ public class FixedLocaleFormatToken_Constraints extends BaseConstraintsDescripto
     });
     return references;
   }
-
   private static SNodePointer breakingNode_k18hv9_a0a1a0a0a1a0b0a1a1 = new SNodePointer("r:00000000-0000-4000-0000-011c895903cf(jetbrains.mps.baseLanguage.dates.constraints)", "1213104847084");
 }

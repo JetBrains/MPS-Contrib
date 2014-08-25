@@ -15,7 +15,6 @@ import jetbrains.mps.smodel.SReference;
 public class GridRow_Behavior {
   public static void init(SNode thisNode) {
   }
-
   public static List<SNode> call_getRowComponents_1213877252264(SNode thisNode) {
     int columnCount = Grid_Behavior.call_getColumnsCount_1213877333391(SNodeOperations.cast(SNodeOperations.getParent(thisNode), "jetbrains.mps.uiLanguage.structure.Grid"));
     List<SNode> result = new ArrayList<SNode>();
@@ -25,7 +24,6 @@ public class GridRow_Behavior {
     }
     return result;
   }
-
   private static SNode _quotation_createNode_cglpzy_a0a0a3a0() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;

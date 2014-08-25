@@ -29,11 +29,9 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_l50atq_a(editorContext, node);
   }
-
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
     return this.createCollection_l50atq_a_0(editorContext, node);
   }
-
   private EditorCell createCollection_l50atq_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_l50atq_a");
@@ -48,7 +46,6 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
     }
     return editorCell;
   }
-
   private EditorCell createCollection_l50atq_a0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_l50atq_a0");
@@ -61,12 +58,10 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
     }
     return editorCell;
   }
-
   private EditorCell createComponent_l50atq_a0a(EditorContext editorContext, SNode node) {
     EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.execution.configurations.deprecated.editor.RunConfigurationHeader");
     return editorCell;
   }
-
   private EditorCell createConstant_l50atq_b0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "{");
     editorCell.setCellId("Constant_l50atq_b0a");
@@ -78,11 +73,9 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private static boolean renderingCondition_l50atq_a1a0(SNode node, EditorContext editorContext) {
     return BlockCells.useBraces();
   }
-
   private EditorCell createCollection_l50atq_b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_l50atq_b0");
@@ -93,12 +86,10 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createCollection_l50atq_b1a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createIndentCell_l50atq_a1a(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
     return editorCell;
   }
-
   private EditorCell createCollection_l50atq_b1a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_l50atq_b1a");
@@ -111,24 +102,20 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createComponent_l50atq_e1b0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createComponent_l50atq_a1b0(EditorContext editorContext, SNode node) {
     EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.execution.configurations.deprecated.editor.RunConfigurationPresentation");
     return editorCell;
   }
-
   private EditorCell createConstant_l50atq_b1b0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_l50atq_b1b0");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createComponent_l50atq_c1b0(EditorContext editorContext, SNode node) {
     EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.execution.configurations.deprecated.editor.RunConfigurationBody");
     return editorCell;
   }
-
   private EditorCell createCollection_l50atq_d1b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_l50atq_d1b0");
@@ -140,18 +127,15 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createCollection_l50atq_c3b1a(editorContext, node));
     return editorCell;
   }
-
   private static boolean renderingCondition_l50atq_a3b1a(SNode node, EditorContext editorContext) {
     return SPropertyOperations.getBoolean(node, "isDebuggable");
   }
-
   private EditorCell createConstant_l50atq_a3b1a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "debug:");
     editorCell.setCellId("Constant_l50atq_a3b1a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createCollection_l50atq_b3b1a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_l50atq_b3b1a");
@@ -159,12 +143,10 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createRefNode_l50atq_b1d1b0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createIndentCell_l50atq_a1d1b0(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
     return editorCell;
   }
-
   private EditorCell createRefNode_l50atq_b1d1b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("prepareBlock");
@@ -184,7 +166,6 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createCollection_l50atq_c3b1a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_l50atq_c3b1a");
@@ -192,12 +173,10 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createRefNode_l50atq_b2d1b0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createIndentCell_l50atq_a2d1b0(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
     return editorCell;
   }
-
   private EditorCell createRefNode_l50atq_b2d1b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("debugSessionCreator");
@@ -217,12 +196,10 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createComponent_l50atq_e1b0(EditorContext editorContext, SNode node) {
     EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.execution.configurations.deprecated.editor.RunConfigurationMethods");
     return editorCell;
   }
-
   private EditorCell createConstant_l50atq_c0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "}");
     editorCell.setCellId("Constant_l50atq_c0");
@@ -234,11 +211,9 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private static boolean renderingCondition_l50atq_a2a(SNode node, EditorContext editorContext) {
     return BlockCells.useBraces();
   }
-
   private EditorCell createCollection_l50atq_a_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_l50atq_a_0");
@@ -251,7 +226,6 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
     }
     return editorCell;
   }
-
   private EditorCell createCollection_l50atq_a0_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_l50atq_a0_0");
@@ -262,18 +236,15 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createRefCell_l50atq_b0a(editorContext, node));
     return editorCell;
   }
-
   private static boolean renderingCondition_l50atq_a0a(SNode node, EditorContext editorContext) {
     return SModelStereotype.isGeneratorModel(SNodeOperations.getModel(node));
   }
-
   private EditorCell createConstant_l50atq_a0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "state type:");
     editorCell.setCellId("Constant_l50atq_a0a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefCell_l50atq_b0a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("stateTypeParameter");
@@ -295,20 +266,16 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   public static class _Inline_l50atq_a1a0 extends InlineCellProvider {
     public _Inline_l50atq_a1a0() {
       super();
     }
-
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
     }
-
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
       return this.createProperty_l50atq_a0b0a(editorContext, node);
     }
-
     private EditorCell createProperty_l50atq_a0b0a(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("name");

@@ -1,120 +1,136 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debugInfo>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
   <root nodeRef="r:4fc7b676-941c-40f5-b442-77b156c079c8(jetbrains.mps.uiLanguage.runtime.events)/3987693689859618102">
-    <nodeInfo nodeId="3987693689859618104" fileName="ListenerId.java" startLine="7" startPosition="0" endLine="8" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myInstance" />
-    <nodeInfo nodeId="3987693689859618107" fileName="ListenerId.java" startLine="8" startPosition="0" endLine="9" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myMethod" />
-    <nodeInfo nodeId="3987693689859618118" fileName="ListenerId.java" startLine="10" startPosition="53" endLine="11" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3987693689859618122" fileName="ListenerId.java" startLine="11" startPosition="26" endLine="12" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3987693689859618130" fileName="ListenerId.java" startLine="16" startPosition="25" endLine="17" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3987693689859618153" fileName="ListenerId.java" startLine="22" startPosition="39" endLine="23" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3987693689859618155" fileName="ListenerId.java" startLine="24" startPosition="5" endLine="25" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3987693689859618175" fileName="ListenerId.java" startLine="26" startPosition="70" endLine="27" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3987693689859618177" fileName="ListenerId.java" startLine="28" startPosition="5" endLine="29" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3987693689859618146" fileName="ListenerId.java" startLine="21" startPosition="35" endLine="24" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="3987693689859618161" fileName="ListenerId.java" startLine="25" startPosition="35" endLine="28" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="3987693689859618110" fileName="ListenerId.java" startLine="10" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ListenerId#(Ljava/lang/Object;Ljava/lang/String;)V" />
-    <nodeInfo nodeId="3987693689859618126" fileName="ListenerId.java" startLine="15" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hashCode#()I" />
-    <nodeInfo nodeId="3987693689859618140" fileName="ListenerId.java" startLine="20" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="equals#(Ljava/lang/Object;)Z" />
-    <scopeInfo nodeId="3987693689859618129" fileName="ListenerId.java" startLine="16" startPosition="25" endLine="17" endPosition="61" />
-    <scopeInfo nodeId="3987693689859618152" fileName="ListenerId.java" startLine="22" startPosition="39" endLine="23" endPosition="19" />
-    <scopeInfo nodeId="3987693689859618174" fileName="ListenerId.java" startLine="26" startPosition="70" endLine="27" endPosition="19" />
-    <scopeInfo nodeId="3987693689859618117" fileName="ListenerId.java" startLine="10" startPosition="53" endLine="12" endPosition="22" />
-    <scopeInfo nodeId="3987693689859618110" fileName="ListenerId.java" startLine="10" startPosition="0" endLine="14" endPosition="0">
-      <varInfo nodeId="3987693689859618113" varName="instance" />
-      <varInfo nodeId="3987693689859618115" varName="method" />
-    </scopeInfo>
-    <scopeInfo nodeId="3987693689859618126" fileName="ListenerId.java" startLine="15" startPosition="0" endLine="19" endPosition="0" />
-    <scopeInfo nodeId="3987693689859618145" fileName="ListenerId.java" startLine="21" startPosition="35" endLine="29" endPosition="16">
-      <varInfo nodeId="3987693689859618156" varName="id" />
-    </scopeInfo>
-    <scopeInfo nodeId="3987693689859618140" fileName="ListenerId.java" startLine="20" startPosition="0" endLine="31" endPosition="0">
-      <varInfo nodeId="3987693689859618143" varName="o" />
-    </scopeInfo>
-    <unitInfo nodeId="3987693689859618102" fileName="ListenerId.java" startLine="6" startPosition="0" endLine="32" endPosition="0" unitName="jetbrains.mps.uiLanguage.runtime.events.ListenerId" />
+    <file name="ListenerId.java">
+      <node id="3987693689859618104" at="7,0,8,0" concept="2" trace="myInstance" />
+      <node id="3987693689859618107" at="8,0,9,0" concept="2" trace="myMethod" />
+      <node id="3987693689859618118" at="9,53,10,26" concept="1" />
+      <node id="3987693689859618122" at="10,26,11,22" concept="1" />
+      <node id="3987693689859618130" at="14,25,15,61" concept="7" />
+      <node id="3987693689859618153" at="19,39,20,19" concept="7" />
+      <node id="3987693689859618155" at="21,5,22,35" concept="6" />
+      <node id="3987693689859618175" at="23,70,24,19" concept="7" />
+      <node id="3987693689859618177" at="25,5,26,16" concept="7" />
+      <node id="3987693689859618146" at="18,35,21,5" concept="4" />
+      <node id="3987693689859618161" at="22,35,25,5" concept="4" />
+      <node id="3987693689859618110" at="9,0,13,0" concept="0" trace="ListenerId#(Ljava/lang/Object;Ljava/lang/String;)V" />
+      <node id="3987693689859618126" at="13,0,17,0" concept="5" trace="hashCode#()I" />
+      <node id="3987693689859618140" at="17,0,28,0" concept="5" trace="equals#(Ljava/lang/Object;)Z" />
+      <scope id="3987693689859618129" at="14,25,15,61" />
+      <scope id="3987693689859618152" at="19,39,20,19" />
+      <scope id="3987693689859618174" at="23,70,24,19" />
+      <scope id="3987693689859618117" at="9,53,11,22" />
+      <scope id="3987693689859618110" at="9,0,13,0">
+        <var name="instance" id="3987693689859618113" />
+        <var name="method" id="3987693689859618115" />
+      </scope>
+      <scope id="3987693689859618126" at="13,0,17,0" />
+      <scope id="3987693689859618145" at="18,35,26,16">
+        <var name="id" id="3987693689859618156" />
+      </scope>
+      <scope id="3987693689859618140" at="17,0,28,0">
+        <var name="o" id="3987693689859618143" />
+      </scope>
+      <unit id="3987693689859618102" at="6,0,29,0" name="jetbrains.mps.uiLanguage.runtime.events.ListenerId" />
+    </file>
   </root>
   <root nodeRef="r:4fc7b676-941c-40f5-b442-77b156c079c8(jetbrains.mps.uiLanguage.runtime.events)/3987693689859618179">
-    <nodeInfo nodeId="3987693689859618181" fileName="IListener.java" startLine="7" startPosition="0" endLine="8" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#(Ljava/lang/Object;)V" />
-    <scopeInfo nodeId="3987693689859618181" fileName="IListener.java" startLine="7" startPosition="0" endLine="8" endPosition="0">
-      <varInfo nodeId="3987693689859618184" varName="o" />
-    </scopeInfo>
-    <unitInfo nodeId="3987693689859618179" fileName="IListener.java" startLine="6" startPosition="0" endLine="9" endPosition="0" unitName="jetbrains.mps.uiLanguage.runtime.events.IListener" />
+    <file name="IListener.java">
+      <node id="3987693689859618181" at="7,0,8,0" concept="5" trace="invoke#(Ljava/lang/Object;)V" />
+      <scope id="3987693689859618181" at="7,0,8,0">
+        <var name="o" id="3987693689859618184" />
+      </scope>
+      <unit id="3987693689859618179" at="6,0,9,0" name="jetbrains.mps.uiLanguage.runtime.events.IListener" />
+    </file>
   </root>
   <root nodeRef="r:4fc7b676-941c-40f5-b442-77b156c079c8(jetbrains.mps.uiLanguage.runtime.events)/3987693689859618187">
-    <nodeInfo nodeId="3987693689859618189" fileName="Event.java" startLine="9" startPosition="0" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myListeners" />
-    <nodeInfo nodeId="3987693689859618198" fileName="Event.java" startLine="10" startPosition="0" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myName" />
-    <nodeInfo nodeId="3987693689859618207" fileName="Event.java" startLine="12" startPosition="29" endLine="13" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3987693689859618215" fileName="Event.java" startLine="16" startPosition="27" endLine="17" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3987693689859618225" fileName="Event.java" startLine="20" startPosition="55" endLine="21" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3987693689859618237" fileName="Event.java" startLine="24" startPosition="45" endLine="25" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3987693689859618255" fileName="Event.java" startLine="29" startPosition="53" endLine="30" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3987693689859618201" fileName="Event.java" startLine="12" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="Event#(Ljava/lang/String;)V" />
-    <nodeInfo nodeId="3987693689859618211" fileName="Event.java" startLine="16" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getName#()Ljava/lang/String;" />
-    <nodeInfo nodeId="3987693689859618217" fileName="Event.java" startLine="20" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addListener#(Ljetbrains/mps/uiLanguage/runtime/events/IListener;Ljetbrains/mps/uiLanguage/runtime/events/ListenerId;)V" />
-    <nodeInfo nodeId="3987693689859618231" fileName="Event.java" startLine="24" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="removeListener#(Ljetbrains/mps/uiLanguage/runtime/events/ListenerId;)V" />
-    <nodeInfo nodeId="3987693689859618248" fileName="Event.java" startLine="28" startPosition="31" endLine="31" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="3987693689859618242" fileName="Event.java" startLine="28" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="raise#(Ljava/lang/Object;)V" />
-    <scopeInfo nodeId="3987693689859618206" fileName="Event.java" startLine="12" startPosition="29" endLine="13" endPosition="18" />
-    <scopeInfo nodeId="3987693689859618214" fileName="Event.java" startLine="16" startPosition="27" endLine="17" endPosition="18" />
-    <scopeInfo nodeId="3987693689859618224" fileName="Event.java" startLine="20" startPosition="55" endLine="21" endPosition="27" />
-    <scopeInfo nodeId="3987693689859618236" fileName="Event.java" startLine="24" startPosition="45" endLine="25" endPosition="27" />
-    <scopeInfo nodeId="3987693689859618254" fileName="Event.java" startLine="29" startPosition="53" endLine="30" endPosition="25" />
-    <scopeInfo nodeId="3987693689859618201" fileName="Event.java" startLine="12" startPosition="0" endLine="15" endPosition="0">
-      <varInfo nodeId="3987693689859618204" varName="name" />
-    </scopeInfo>
-    <scopeInfo nodeId="3987693689859618211" fileName="Event.java" startLine="16" startPosition="0" endLine="19" endPosition="0" />
-    <scopeInfo nodeId="3987693689859618217" fileName="Event.java" startLine="20" startPosition="0" endLine="23" endPosition="0">
-      <varInfo nodeId="3987693689859618222" varName="id" />
-      <varInfo nodeId="3987693689859618220" varName="l" />
-    </scopeInfo>
-    <scopeInfo nodeId="3987693689859618231" fileName="Event.java" startLine="24" startPosition="0" endLine="27" endPosition="0">
-      <varInfo nodeId="3987693689859618234" varName="id" />
-    </scopeInfo>
-    <scopeInfo nodeId="3987693689859618247" fileName="Event.java" startLine="28" startPosition="31" endLine="31" endPosition="5" />
-    <scopeInfo nodeId="3987693689859618248" fileName="Event.java" startLine="28" startPosition="31" endLine="31" endPosition="5">
-      <varInfo nodeId="3987693689859618252" varName="listener" />
-    </scopeInfo>
-    <scopeInfo nodeId="3987693689859618242" fileName="Event.java" startLine="28" startPosition="0" endLine="33" endPosition="0">
-      <varInfo nodeId="3987693689859618245" varName="o" />
-    </scopeInfo>
-    <unitInfo nodeId="3987693689859618187" fileName="Event.java" startLine="8" startPosition="0" endLine="34" endPosition="0" unitName="jetbrains.mps.uiLanguage.runtime.events.Event" />
+    <file name="Event.java">
+      <node id="3987693689859618189" at="9,0,10,0" concept="2" trace="myListeners" />
+      <node id="3987693689859618198" at="10,0,11,0" concept="2" trace="myName" />
+      <node id="3987693689859618207" at="11,29,12,18" concept="1" />
+      <node id="3987693689859618215" at="14,27,15,18" concept="7" />
+      <node id="3987693689859618225" at="17,55,18,27" concept="1" />
+      <node id="3987693689859618237" at="20,45,21,27" concept="1" />
+      <node id="3987693689859618255" at="24,53,25,25" concept="1" />
+      <node id="3987693689859618201" at="11,0,14,0" concept="0" trace="Event#(Ljava/lang/String;)V" />
+      <node id="3987693689859618211" at="14,0,17,0" concept="5" trace="getName#()Ljava/lang/String;" />
+      <node id="3987693689859618217" at="17,0,20,0" concept="5" trace="addListener#(Ljetbrains/mps/uiLanguage/runtime/events/IListener;Ljetbrains/mps/uiLanguage/runtime/events/ListenerId;)V" />
+      <node id="3987693689859618231" at="20,0,23,0" concept="5" trace="removeListener#(Ljetbrains/mps/uiLanguage/runtime/events/ListenerId;)V" />
+      <node id="3987693689859618248" at="23,31,26,5" concept="3" />
+      <node id="3987693689859618242" at="23,0,28,0" concept="5" trace="raise#(Ljava/lang/Object;)V" />
+      <scope id="3987693689859618206" at="11,29,12,18" />
+      <scope id="3987693689859618214" at="14,27,15,18" />
+      <scope id="3987693689859618224" at="17,55,18,27" />
+      <scope id="3987693689859618236" at="20,45,21,27" />
+      <scope id="3987693689859618254" at="24,53,25,25" />
+      <scope id="3987693689859618201" at="11,0,14,0">
+        <var name="name" id="3987693689859618204" />
+      </scope>
+      <scope id="3987693689859618211" at="14,0,17,0" />
+      <scope id="3987693689859618217" at="17,0,20,0">
+        <var name="id" id="3987693689859618222" />
+        <var name="l" id="3987693689859618220" />
+      </scope>
+      <scope id="3987693689859618231" at="20,0,23,0">
+        <var name="id" id="3987693689859618234" />
+      </scope>
+      <scope id="3987693689859618247" at="23,31,26,5" />
+      <scope id="3987693689859618248" at="23,31,26,5">
+        <var name="listener" id="3987693689859618252" />
+      </scope>
+      <scope id="3987693689859618242" at="23,0,28,0">
+        <var name="o" id="3987693689859618245" />
+      </scope>
+      <unit id="3987693689859618187" at="8,0,29,0" name="jetbrains.mps.uiLanguage.runtime.events.Event" />
+    </file>
   </root>
   <root nodeRef="r:4fc7b676-941c-40f5-b442-77b156c079c8(jetbrains.mps.uiLanguage.runtime.events)/3987693689859618260">
-    <nodeInfo nodeId="3987693689859618262" fileName="Events.java" startLine="9" startPosition="0" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myParentEvents" />
-    <nodeInfo nodeId="3987693689859618266" fileName="Events.java" startLine="10" startPosition="0" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myEvents" />
-    <nodeInfo nodeId="3987693689859618285" fileName="Events.java" startLine="15" startPosition="41" endLine="16" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3987693689859618295" fileName="Events.java" startLine="19" startPosition="36" endLine="20" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3987693689859618309" fileName="Events.java" startLine="23" startPosition="38" endLine="24" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3987693689859618321" fileName="Events.java" startLine="25" startPosition="24" endLine="26" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3987693689859618328" fileName="Events.java" startLine="28" startPosition="33" endLine="29" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3987693689859618330" fileName="Events.java" startLine="30" startPosition="5" endLine="31" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3987693689859618275" fileName="Events.java" startLine="12" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="Events#()V" />
-    <nodeInfo nodeId="3987693689859618335" fileName="Events.java" startLine="34" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="initialize#()V" />
-    <nodeInfo nodeId="3987693689859618279" fileName="Events.java" startLine="15" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="Events#(Ljetbrains/mps/uiLanguage/runtime/events/Events;)V" />
-    <nodeInfo nodeId="3987693689859618289" fileName="Events.java" startLine="19" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addEvent#(Ljetbrains/mps/uiLanguage/runtime/events/Event;)V" />
-    <nodeInfo nodeId="3987693689859618316" fileName="Events.java" startLine="24" startPosition="37" endLine="27" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="3987693689859618323" fileName="Events.java" startLine="27" startPosition="5" endLine="30" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="3987693689859618303" fileName="Events.java" startLine="23" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getEvent#(Ljava/lang/String;)Ljetbrains/mps/uiLanguage/runtime/events/Event;" />
-    <scopeInfo nodeId="3987693689859618278" fileName="Events.java" startLine="12" startPosition="22" endLine="12" endPosition="22" />
-    <scopeInfo nodeId="3987693689859618338" fileName="Events.java" startLine="34" startPosition="28" endLine="34" endPosition="28" />
-    <scopeInfo nodeId="3987693689859618284" fileName="Events.java" startLine="15" startPosition="41" endLine="16" endPosition="34" />
-    <scopeInfo nodeId="3987693689859618294" fileName="Events.java" startLine="19" startPosition="36" endLine="20" endPosition="33" />
-    <scopeInfo nodeId="3987693689859618320" fileName="Events.java" startLine="25" startPosition="24" endLine="26" endPosition="19" />
-    <scopeInfo nodeId="3987693689859618327" fileName="Events.java" startLine="28" startPosition="33" endLine="29" endPosition="18" />
-    <scopeInfo nodeId="3987693689859618275" fileName="Events.java" startLine="12" startPosition="0" endLine="14" endPosition="0" />
-    <scopeInfo nodeId="3987693689859618335" fileName="Events.java" startLine="34" startPosition="0" endLine="36" endPosition="0" />
-    <scopeInfo nodeId="3987693689859618279" fileName="Events.java" startLine="15" startPosition="0" endLine="18" endPosition="0">
-      <varInfo nodeId="3987693689859618282" varName="parentEvents" />
-    </scopeInfo>
-    <scopeInfo nodeId="3987693689859618289" fileName="Events.java" startLine="19" startPosition="0" endLine="22" endPosition="0">
-      <varInfo nodeId="3987693689859618292" varName="e" />
-    </scopeInfo>
-    <scopeInfo nodeId="3987693689859618308" fileName="Events.java" startLine="23" startPosition="38" endLine="31" endPosition="41">
-      <varInfo nodeId="3987693689859618310" varName="event" />
-    </scopeInfo>
-    <scopeInfo nodeId="3987693689859618303" fileName="Events.java" startLine="23" startPosition="0" endLine="33" endPosition="0">
-      <varInfo nodeId="3987693689859618306" varName="name" />
-    </scopeInfo>
-    <unitInfo nodeId="3987693689859618260" fileName="Events.java" startLine="8" startPosition="0" endLine="37" endPosition="0" unitName="jetbrains.mps.uiLanguage.runtime.events.Events" />
+    <file name="Events.java">
+      <node id="3987693689859618262" at="9,0,10,0" concept="2" trace="myParentEvents" />
+      <node id="3987693689859618266" at="10,0,11,0" concept="2" trace="myEvents" />
+      <node id="3987693689859618285" at="13,41,14,34" concept="1" />
+      <node id="3987693689859618295" at="16,36,17,33" concept="1" />
+      <node id="3987693689859618309" at="19,38,20,37" concept="6" />
+      <node id="3987693689859618321" at="21,24,22,19" concept="7" />
+      <node id="3987693689859618328" at="24,33,25,18" concept="7" />
+      <node id="3987693689859618330" at="26,5,27,41" concept="7" />
+      <node id="3987693689859618275" at="11,0,13,0" concept="0" trace="Events#()V" />
+      <node id="3987693689859618335" at="29,0,31,0" concept="5" trace="initialize#()V" />
+      <node id="3987693689859618279" at="13,0,16,0" concept="0" trace="Events#(Ljetbrains/mps/uiLanguage/runtime/events/Events;)V" />
+      <node id="3987693689859618289" at="16,0,19,0" concept="5" trace="addEvent#(Ljetbrains/mps/uiLanguage/runtime/events/Event;)V" />
+      <node id="3987693689859618316" at="20,37,23,5" concept="4" />
+      <node id="3987693689859618323" at="23,5,26,5" concept="4" />
+      <node id="3987693689859618303" at="19,0,29,0" concept="5" trace="getEvent#(Ljava/lang/String;)Ljetbrains/mps/uiLanguage/runtime/events/Event;" />
+      <scope id="3987693689859618278" at="11,22,11,22" />
+      <scope id="3987693689859618338" at="29,28,29,28" />
+      <scope id="3987693689859618284" at="13,41,14,34" />
+      <scope id="3987693689859618294" at="16,36,17,33" />
+      <scope id="3987693689859618320" at="21,24,22,19" />
+      <scope id="3987693689859618327" at="24,33,25,18" />
+      <scope id="3987693689859618275" at="11,0,13,0" />
+      <scope id="3987693689859618335" at="29,0,31,0" />
+      <scope id="3987693689859618279" at="13,0,16,0">
+        <var name="parentEvents" id="3987693689859618282" />
+      </scope>
+      <scope id="3987693689859618289" at="16,0,19,0">
+        <var name="e" id="3987693689859618292" />
+      </scope>
+      <scope id="3987693689859618308" at="19,38,27,41">
+        <var name="event" id="3987693689859618310" />
+      </scope>
+      <scope id="3987693689859618303" at="19,0,29,0">
+        <var name="name" id="3987693689859618306" />
+      </scope>
+      <unit id="3987693689859618260" at="8,0,32,0" name="jetbrains.mps.uiLanguage.runtime.events.Events" />
+    </file>
   </root>
-</debugInfo>
+</debug-info>
 

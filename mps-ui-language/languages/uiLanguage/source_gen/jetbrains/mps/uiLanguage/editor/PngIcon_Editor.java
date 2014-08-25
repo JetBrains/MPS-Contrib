@@ -25,7 +25,6 @@ public class PngIcon_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_4kucyt_a(editorContext, node);
   }
-
   private EditorCell createCollection_4kucyt_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_4kucyt_a");
@@ -37,14 +36,12 @@ public class PngIcon_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createJComponent_4kucyt_e0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_4kucyt_a0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ".png icon");
     editorCell.setCellId("Constant_4kucyt_a0");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createProperty_4kucyt_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("name");
@@ -65,7 +62,6 @@ public class PngIcon_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createConstant_4kucyt_c0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_4kucyt_c0");
@@ -75,7 +71,6 @@ public class PngIcon_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createAlternation_4kucyt_d0(EditorContext editorContext, SNode node) {
     boolean alternationCondition = true;
     alternationCondition = PngIcon_Editor.renderingCondition_4kucyt_a3a(node, editorContext);
@@ -87,21 +82,17 @@ public class PngIcon_Editor extends DefaultNodeEditor {
     }
     return editorCell;
   }
-
   private static boolean renderingCondition_4kucyt_a3a(SNode node, EditorContext editorContext) {
     return isNotEmptyString(SPropertyOperations.getString(node, "iconData"));
   }
-
   private EditorCell createJComponent_4kucyt_a3a(EditorContext editorContext, SNode node) {
     EditorCell editorCell = EditorCell_Component.createComponentCell(editorContext, node, PngIcon_Editor._QueryFunction_JComponent_4kucyt_a0d0(node, editorContext), "_4kucyt_a3a");
     editorCell.setCellId("JComponent_4kucyt_a3a");
     return editorCell;
   }
-
   private static JComponent _QueryFunction_JComponent_4kucyt_a0d0(final SNode node, final EditorContext editorContext) {
     return EditorIconUtil.createIconPreview(SPropertyOperations.getString(node, "iconData"));
   }
-
   private EditorCell createConstant_4kucyt_a3a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<no icon>");
     editorCell.setCellId("Constant_4kucyt_a3a");
@@ -111,17 +102,14 @@ public class PngIcon_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createJComponent_4kucyt_e0(EditorContext editorContext, SNode node) {
     EditorCell editorCell = EditorCell_Component.createComponentCell(editorContext, node, PngIcon_Editor._QueryFunction_JComponent_4kucyt_a4a(node, editorContext), "_4kucyt_e0");
     editorCell.setCellId("JComponent_4kucyt_e0");
     return editorCell;
   }
-
   private static JComponent _QueryFunction_JComponent_4kucyt_a4a(final SNode node, final EditorContext editorContext) {
     return EditorIconUtil.createSelectIconButton(node, editorContext);
   }
-
   private static boolean isNotEmptyString(String str) {
     return str != null && str.length() > 0;
   }

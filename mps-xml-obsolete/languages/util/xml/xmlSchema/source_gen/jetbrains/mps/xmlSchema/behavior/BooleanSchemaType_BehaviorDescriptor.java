@@ -6,7 +6,6 @@ package jetbrains.mps.xmlSchema.behavior;
 public class BooleanSchemaType_BehaviorDescriptor extends SchemaType_BehaviorDescriptor {
   public BooleanSchemaType_BehaviorDescriptor() {
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.xmlSchema.structure.BooleanSchemaType";

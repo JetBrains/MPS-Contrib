@@ -16,7 +16,6 @@ import java.util.ArrayList;
 public class WithPropertyCompareExpression_Behavior {
   public static void init(SNode thisNode) {
   }
-
   public static SNode call_getDatetimeProperty_1239206693907(SNode thisNode) {
     SNode property = SLinkOperations.getTarget(thisNode, "datetimeProperty", false);
     if ((property == null)) {
@@ -24,7 +23,6 @@ public class WithPropertyCompareExpression_Behavior {
     }
     return property;
   }
-
   public static List<SNode> virtual_getDefaultDatetimeProperty_3044950653914717024(SAbstractConcept thisConcept) {
     return ListSequence.fromList(new ArrayList<SNode>());
   }

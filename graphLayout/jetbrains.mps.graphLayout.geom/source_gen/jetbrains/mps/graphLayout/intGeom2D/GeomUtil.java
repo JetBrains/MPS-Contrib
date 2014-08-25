@@ -13,7 +13,6 @@ import java.util.ArrayList;
 public class GeomUtil {
   public GeomUtil() {
   }
-
   public static boolean intersects(Point p1, Point p2, Point q1, Point q2) {
     boolean interInEnd = false;
     interInEnd |= inside(p1, p2, q1);
@@ -27,11 +26,9 @@ public class GeomUtil {
     boolean diffP = GeomUtil.isOnDiffSide(q1, q2, p1, p2);
     return diffP && diffQ;
   }
-
   public static boolean intersects(int minX, int maxX, int minY, int maxY) {
     return Math.min(maxX, maxY) >= Math.max(minX, minY);
   }
-
   private static boolean isOnDiffSide(Point p1, Point p2, Point q1, Point q2) {
     int x = p1.x - p2.x;
     int y = p1.y - p2.y;
@@ -39,7 +36,6 @@ public class GeomUtil {
     int c2 = crossproduct2D(x, y, q2.x - p2.x, q2.y - p2.y);
     return (c1 > 0 && c2 < 0) || (c1 < 0 && c2 > 0);
   }
-
   public static boolean inside(Point e1, Point e2, Point p) {
     boolean onLine = crossproduct2D(p.x - e1.x, p.y - e1.y, e2.x - e1.x, e2.y - e1.y) == 0;
     if (onLine) {
@@ -48,15 +44,12 @@ public class GeomUtil {
       return false;
     }
   }
-
   public static int crossproduct2D(int x1, int y1, int x2, int y2) {
     return x1 * y2 - x2 * y1;
   }
-
   public static int scalar(int x1, int y1, int x2, int y2) {
     return x1 * x2 + y1 * y2;
   }
-
   public static List<Point> shiftPolyline(List<Point> polyline, int xShift, int yShift) {
     List<Point> shiftedPolyline = ListSequence.fromList(new LinkedList<Point>());
     for (Point p : ListSequence.fromList(polyline)) {
@@ -64,11 +57,9 @@ public class GeomUtil {
     }
     return shiftedPolyline;
   }
-
   public static Rectangle getRectangle(Point p1, Point p2) {
     return getContainingRectangle(ListSequence.fromListAndArray(new ArrayList<Point>(), p1, p2));
   }
-
   public static Rectangle getContainingRectangle(List<Point> points) {
     int minX = Integer.MAX_VALUE;
     int minY = Integer.MAX_VALUE;
@@ -82,7 +73,6 @@ public class GeomUtil {
     }
     return new Rectangle(minX, minY, maxX - minX, maxY - minY);
   }
-
   public static boolean onBorder(Point p, Rectangle rect) {
     boolean res = false;
     res |= p.x == rect.x && Util1D.insideClosedSegment(rect.y, rect.y + rect.height, p.y);
@@ -91,7 +81,6 @@ public class GeomUtil {
     res |= p.y == rect.y + rect.height && Util1D.insideClosedSegment(rect.x, rect.x + rect.width, p.x);
     return res;
   }
-
   public static boolean intersects(Rectangle rect, List<Point> polyline) {
     Point prev = null;
     for (Point cur : ListSequence.fromList(polyline)) {

@@ -17,7 +17,6 @@ import jetbrains.mps.smodel.SModelUtil_new;
 public class check_executeBlock_returns_NonTypesystemRule extends AbstractNonTypesystemRule_Runtime implements NonTypesystemRule_Runtime {
   public check_executeBlock_returns_NonTypesystemRule() {
   }
-
   public void applyRule(final SNode executeBlock, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
     if (ListSequence.fromList(SNodeOperations.getDescendants(executeBlock, "jetbrains.mps.execution.configurations.deprecated.structure.ExecutionConsoleStatement", false, new String[]{})).isEmpty()) {
       {
@@ -26,18 +25,15 @@ public class check_executeBlock_returns_NonTypesystemRule extends AbstractNonTyp
       }
     }
   }
-
   public String getApplicableConceptFQName() {
     return "jetbrains.mps.execution.configurations.deprecated.structure.ExecuteConfigBlock";
   }
-
   public IsApplicableStatus isApplicableAndPattern(SNode argument) {
     {
       boolean b = SModelUtil_new.isAssignableConcept(argument.getConcept().getQualifiedName(), this.getApplicableConceptFQName());
       return new IsApplicableStatus(b, null);
     }
   }
-
   public boolean overrides() {
     return false;
   }

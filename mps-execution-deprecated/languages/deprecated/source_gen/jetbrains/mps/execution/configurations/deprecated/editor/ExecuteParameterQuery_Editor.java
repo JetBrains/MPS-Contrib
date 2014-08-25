@@ -21,7 +21,6 @@ public class ExecuteParameterQuery_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_qazu5o_a(editorContext, node);
   }
-
   private EditorCell createCollection_qazu5o_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_qazu5o_a");
@@ -30,7 +29,6 @@ public class ExecuteParameterQuery_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createCollection_qazu5o_b0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createCollection_qazu5o_a0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_qazu5o_a0");
@@ -42,21 +40,18 @@ public class ExecuteParameterQuery_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createRefNode_qazu5o_c0a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_qazu5o_a0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "execute parameter type");
     editorCell.setCellId("Constant_qazu5o_a0a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createConstant_qazu5o_b0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "=");
     editorCell.setCellId("Constant_qazu5o_b0a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefNode_qazu5o_c0a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("parameterType");
@@ -76,7 +71,6 @@ public class ExecuteParameterQuery_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createCollection_qazu5o_b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_qazu5o_b0");
@@ -84,14 +78,12 @@ public class ExecuteParameterQuery_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createCollection_qazu5o_b1a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_qazu5o_a1a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "parameter query:");
     editorCell.setCellId("Constant_qazu5o_a1a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createCollection_qazu5o_b1a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_qazu5o_b1a");
@@ -102,12 +94,10 @@ public class ExecuteParameterQuery_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createCollection_qazu5o_b1b0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createIndentCell_qazu5o_a1b0(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
     return editorCell;
   }
-
   private EditorCell createCollection_qazu5o_b1b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_qazu5o_b1b0");
@@ -117,7 +107,6 @@ public class ExecuteParameterQuery_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createComponent_qazu5o_a1b1a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createComponent_qazu5o_a1b1a(EditorContext editorContext, SNode node) {
     EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.baseLanguage.editor.ConceptFunction_Component");
     return editorCell;

@@ -9,15 +9,12 @@ import org.jetbrains.mps.openapi.language.SConcept;
 public class ContentList_BehaviorDescriptor extends Content_BehaviorDescriptor {
   public ContentList_BehaviorDescriptor() {
   }
-
   public List<SNode> virtual_getSubcontents_1213877224308(SNode thisNode) {
     return ContentList_Behavior.virtual_getSubcontents_1213877224308(thisNode);
   }
-
   public boolean virtual_isComplex_1262430001741498088(SConcept thisConcept) {
     return ContentList_Behavior.virtual_isComplex_1262430001741498088(thisConcept);
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.xml.structure.ContentList";

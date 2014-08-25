@@ -22,32 +22,26 @@ public class FixReferencesToMpsLaunch_MigrationScript extends BaseMigrationScrip
       public String getName() {
         return "Fix References to MPSLaunch Annotation";
       }
-
       public String getAdditionalInfo() {
         return "Fix References to MPSLaunch Annotation";
       }
-
       public String getFqNameOfConceptToSearchInstances() {
         return "jetbrains.mps.lang.core.structure.BaseConcept";
       }
-
       public boolean isApplicableInstanceNode(SNode node) {
         // only root nodes 
         SModel model = node.getModel();
         return model != null && node.getParent() == null && Sequence.fromIterable(ScriptsUtil.getImports(SNodeOperations.getModel(node), "jetbrains.mps.baseLanguage.util.plugin.run")).isNotEmpty();
       }
-
       public void doUpdateInstanceNode(SNode node) {
         SNode mpsLaunch = SLinkOperations.getTarget(_quotation_createNode_ueer6d_a0a0a0a(), "classifier", false);
         ScriptsUtil.updateReferencesToClassifier(node, "jetbrains.mps.baseLanguage.util.plugin.run", SPropertyOperations.getString(mpsLaunch, "name"), SNodeOperations.getModel(mpsLaunch).getReference(), mpsLaunch);
       }
-
       public boolean isShowAsIntention() {
         return false;
       }
     });
   }
-
   private static SNode _quotation_createNode_ueer6d_a0a0a0a() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;

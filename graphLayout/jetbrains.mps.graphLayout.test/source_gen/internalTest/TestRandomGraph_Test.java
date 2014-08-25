@@ -47,10 +47,8 @@ public class TestRandomGraph_Test extends TestCase {
     RandomGraphGenerator.generateFixedNumLayers(numInLayer, numEdges);
     RandomGraphGenerator.generateFixedNumLayers(numInLayer, minNumEdges);
   }
-
   public TestRandomGraph_Test() {
   }
-
   public Map<Node, Integer> getLayers(Graph g, int[] numInLayer) {
     Map<Node, Integer> layers = new NodeMap<Integer>(g);
     int cur = 0;
@@ -62,7 +60,6 @@ public class TestRandomGraph_Test extends TestCase {
     }
     return layers;
   }
-
   public void testEdges(Graph g, Map<Node, Integer> layers) {
     for (Node node : ListSequence.fromList(g.getNodes())) {
       for (Edge edge : ListSequence.fromList(node.getInEdges())) {

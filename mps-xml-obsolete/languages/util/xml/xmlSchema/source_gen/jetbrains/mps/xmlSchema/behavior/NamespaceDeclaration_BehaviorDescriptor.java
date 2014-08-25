@@ -7,7 +7,6 @@ import jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor;
 public class NamespaceDeclaration_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor {
   public NamespaceDeclaration_BehaviorDescriptor() {
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.xmlSchema.structure.NamespaceDeclaration";

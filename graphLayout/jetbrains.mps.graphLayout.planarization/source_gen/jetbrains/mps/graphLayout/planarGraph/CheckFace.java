@@ -9,7 +9,6 @@ import jetbrains.mps.graphLayout.graph.Node;
 public class CheckFace {
   public CheckFace() {
   }
-
   public static boolean check(Face face) {
     List<Dart> darts = face.getDarts();
     for (int index = 0; index < ListSequence.fromList(darts).count(); index++) {

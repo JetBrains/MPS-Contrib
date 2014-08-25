@@ -15,42 +15,32 @@ public class DateTimePlusPeriodOperation_leftOperand_actionMap {
     editorCell.setAction(CellActionType.DELETE, new DateTimePlusPeriodOperation_leftOperand_actionMap.DateTimePlusPeriodOperation_leftOperand_actionMap_DELETE(node));
     editorCell.setAction(CellActionType.BACKSPACE, new DateTimePlusPeriodOperation_leftOperand_actionMap.DateTimePlusPeriodOperation_leftOperand_actionMap_BACKSPACE(node));
   }
-
   public static class DateTimePlusPeriodOperation_leftOperand_actionMap_DELETE extends AbstractCellAction {
     /*package*/ SNode myNode;
-
     public DateTimePlusPeriodOperation_leftOperand_actionMap_DELETE(SNode node) {
       this.myNode = node;
     }
-
     public String getDescriptionText() {
       return "Delete left operand";
     }
-
     public void execute(EditorContext editorContext) {
       this.execute_internal(editorContext, this.myNode);
     }
-
     public void execute_internal(EditorContext editorContext, SNode node) {
       SNodeOperations.replaceWithAnother(node, SLinkOperations.getTarget(node, "rightValue", true));
     }
   }
-
   public static class DateTimePlusPeriodOperation_leftOperand_actionMap_BACKSPACE extends AbstractCellAction {
     /*package*/ SNode myNode;
-
     public DateTimePlusPeriodOperation_leftOperand_actionMap_BACKSPACE(SNode node) {
       this.myNode = node;
     }
-
     public String getDescriptionText() {
       return "Delete left operand";
     }
-
     public void execute(EditorContext editorContext) {
       this.execute_internal(editorContext, this.myNode);
     }
-
     public void execute_internal(EditorContext editorContext, SNode node) {
       SNodeOperations.replaceWithAnother(node, SLinkOperations.getTarget(node, "rightValue", true));
     }

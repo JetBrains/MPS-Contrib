@@ -24,7 +24,6 @@ public class PeriodPropertyFormatToken_Constraints extends BaseConstraintsDescri
   public PeriodPropertyFormatToken_Constraints() {
     super("jetbrains.mps.baseLanguage.dates.structure.PeriodPropertyFormatToken");
   }
-
   @Override
   protected Map<String, PropertyConstraintsDescriptor> getNotDefaultProperties() {
     Map<String, PropertyConstraintsDescriptor> properties = new HashMap();
@@ -33,7 +32,6 @@ public class PeriodPropertyFormatToken_Constraints extends BaseConstraintsDescri
       public boolean hasOwnValidator() {
         return true;
       }
-
       @Override
       public boolean validateValue(SNode node, String propertyValue) {
         String propertyName = "minDigits";
@@ -42,7 +40,6 @@ public class PeriodPropertyFormatToken_Constraints extends BaseConstraintsDescri
     });
     return properties;
   }
-
   @Override
   protected Map<String, ReferenceConstraintsDescriptor> getNotDefaultReferences() {
     Map<String, ReferenceConstraintsDescriptor> references = new HashMap();
@@ -51,7 +48,6 @@ public class PeriodPropertyFormatToken_Constraints extends BaseConstraintsDescri
       public boolean hasOwnScopeProvider() {
         return true;
       }
-
       @Nullable
       @Override
       public ReferenceScopeProvider getScopeProvider() {
@@ -60,18 +56,15 @@ public class PeriodPropertyFormatToken_Constraints extends BaseConstraintsDescri
           public boolean hasPresentation() {
             return true;
           }
-
           @Override
           public String getPresentation(final IOperationContext operationContext, final ReferencePresentationContext _context) {
             String name = (isNotEmptyString(SPropertyOperations.getString(_context.getParameterNode(), "pluralForm")) ? SPropertyOperations.getString(_context.getParameterNode(), "pluralForm") : SPropertyOperations.getString(_context.getParameterNode(), "name"));
             return (_context.getSmartReference() ? "{" + name + "}" : name);
           }
-
           @Override
           public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
             return DateFormatReferenceUtil.buildPeriodPropertySearchScope(_context.getEnclosingNode());
           }
-
           @Override
           public SNodeReference getSearchScopeValidatorNode() {
             return breakingNode_bw6cj5_a0a3a0a0a1a0b0a1a2;
@@ -81,10 +74,8 @@ public class PeriodPropertyFormatToken_Constraints extends BaseConstraintsDescri
     });
     return references;
   }
-
-  private static SNodePointer breakingNode_bw6cj5_a0a3a0a0a1a0b0a1a2 = new SNodePointer("r:00000000-0000-4000-0000-011c895903cf(jetbrains.mps.baseLanguage.dates.constraints)", "5581663871699705089");
-
   private static boolean isNotEmptyString(String str) {
     return str != null && str.length() > 0;
   }
+  private static SNodePointer breakingNode_bw6cj5_a0a3a0a0a1a0b0a1a2 = new SNodePointer("r:00000000-0000-4000-0000-011c895903cf(jetbrains.mps.baseLanguage.dates.constraints)", "5581663871699705089");
 }

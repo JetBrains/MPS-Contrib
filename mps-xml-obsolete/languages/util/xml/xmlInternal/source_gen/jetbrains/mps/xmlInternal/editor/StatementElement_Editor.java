@@ -22,7 +22,6 @@ public class StatementElement_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_8rs9tb_a(editorContext, node);
   }
-
   private EditorCell createCollection_8rs9tb_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_8rs9tb_a");
@@ -32,7 +31,6 @@ public class StatementElement_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createCollection_8rs9tb_c0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createCollection_8rs9tb_a0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_8rs9tb_a0");
@@ -45,7 +43,6 @@ public class StatementElement_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createConstant_8rs9tb_c0a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_8rs9tb_a0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<");
     editorCell.setCellId("Constant_8rs9tb_a0a");
@@ -55,7 +52,6 @@ public class StatementElement_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createConstant_8rs9tb_b0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "statement element");
     editorCell.setCellId("Constant_8rs9tb_b0a");
@@ -65,7 +61,6 @@ public class StatementElement_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createConstant_8rs9tb_c0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ">");
     editorCell.setCellId("Constant_8rs9tb_c0a");
@@ -75,7 +70,6 @@ public class StatementElement_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createCollection_8rs9tb_b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_8rs9tb_b0");
@@ -86,12 +80,10 @@ public class StatementElement_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createRefNode_8rs9tb_b1a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createIndentCell_8rs9tb_a1a(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
     return editorCell;
   }
-
   private EditorCell createRefNode_8rs9tb_b1a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("statementList");
@@ -111,7 +103,6 @@ public class StatementElement_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createCollection_8rs9tb_c0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_8rs9tb_c0");
@@ -124,7 +115,6 @@ public class StatementElement_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createConstant_8rs9tb_c2a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_8rs9tb_a2a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "</");
     editorCell.setCellId("Constant_8rs9tb_a2a");
@@ -134,7 +124,6 @@ public class StatementElement_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createConstant_8rs9tb_b2a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "statement element");
     editorCell.setCellId("Constant_8rs9tb_b2a");
@@ -144,7 +133,6 @@ public class StatementElement_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createConstant_8rs9tb_c2a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ">");
     editorCell.setCellId("Constant_8rs9tb_c2a");

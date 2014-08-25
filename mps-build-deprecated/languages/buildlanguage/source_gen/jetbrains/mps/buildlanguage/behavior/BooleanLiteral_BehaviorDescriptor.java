@@ -8,15 +8,12 @@ import org.jetbrains.mps.openapi.model.SNode;
 public class BooleanLiteral_BehaviorDescriptor extends PropertyValueExpression_BehaviorDescriptor implements IDontSubstituteByDefault_BehaviorDescriptor {
   public BooleanLiteral_BehaviorDescriptor() {
   }
-
   public String virtual_getActualValue_1213877472572(SNode thisNode) {
     return BooleanLiteral_Behavior.virtual_getActualValue_1213877472572(thisNode);
   }
-
   public String virtual_toString_1213877472569(SNode thisNode) {
     return BooleanLiteral_Behavior.virtual_toString_1213877472569(thisNode);
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.buildlanguage.structure.BooleanLiteral";

@@ -18,17 +18,14 @@ public class LayoutInfoCopier {
   private ILayoutInfo myLayoutInfo;
   private LayoutInfo myInfoCopy;
   private GraphCopier myCopier;
-
   public LayoutInfoCopier(ILayoutInfo layoutInfo) {
     myCopier = GraphCopierFactory.getCopier(layoutInfo.getGraph());
     myLayoutInfo = layoutInfo;
     myInfoCopy = new LayoutInfo(myCopier.getCopy());
   }
-
   public LayoutInfo copy() {
     return copySubgraph(new DefaultFilter<INode>());
   }
-
   public LayoutInfo copySubgraph(Filter<INode> nodeFilter) {
     myCopier.copySubgraph(nodeFilter);
     for (INode node : myLayoutInfo.getNodesWithSize()) {
@@ -46,35 +43,27 @@ public class LayoutInfoCopier {
     }
     return myInfoCopy;
   }
-
   public LayoutInfo getLayoutInfoCopy() {
     return myInfoCopy;
   }
-
   public Graph getGraphCopy() {
     return myInfoCopy.getGraph();
   }
-
   public Node getNodeCopy(INode node) {
     return myCopier.getNodeCopy(node);
   }
-
   public Edge getEdgeCopy(IEdge edge) {
     return myCopier.getEdgeCopy(edge);
   }
-
   public Set<INode> getCopiedNodes() {
     return myCopier.getCopiedNodes();
   }
-
   public Set<IEdge> getCopiedEdges() {
     return myCopier.getCopiedEdges();
   }
-
   public GraphCopier getGraphCopier() {
     return myCopier;
   }
-
   public GraphLayout restoreLayout(GraphLayout copyLayout) {
     return myCopier.restoreLayout(copyLayout);
   }

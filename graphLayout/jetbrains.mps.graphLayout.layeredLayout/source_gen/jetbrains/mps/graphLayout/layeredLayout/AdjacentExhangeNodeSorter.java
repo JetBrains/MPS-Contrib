@@ -12,7 +12,6 @@ import jetbrains.mps.internal.collections.runtime.MapSequence;
 public class AdjacentExhangeNodeSorter implements IOneLayerSorter {
   public AdjacentExhangeNodeSorter() {
   }
-
   @Override
   public void sortLayer(int layerToSort, NodeLayeredOrder order, Edge.Direction direction) {
     List<Node> layerOrder = order.getOrder(layerToSort);
@@ -28,7 +27,6 @@ public class AdjacentExhangeNodeSorter implements IOneLayerSorter {
       }
     }
   }
-
   private int countNumOfCrossings(Node first, Node second, Map<Node, Integer> posInLayer, Edge.Direction dir) {
     int numOfCrossings = 0;
     for (Edge firstEdge : ListSequence.fromList(first.getEdges(dir))) {

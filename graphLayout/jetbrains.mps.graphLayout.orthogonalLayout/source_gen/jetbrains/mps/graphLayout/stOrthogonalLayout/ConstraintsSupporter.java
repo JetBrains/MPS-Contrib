@@ -30,10 +30,8 @@ public class ConstraintsSupporter {
   private Map<Node, Integer> myVerNumbering;
   private int myMinEdgeXDistance = 10;
   private int myMinEdgeYDistance = 10;
-
   public ConstraintsSupporter() {
   }
-
   public Map<Object, Rectangle> getRepresentation(STPlanarGraph stPlanarGraph, Map<Node, Dimension> nodeConstraints, Map<Edge, Dimension> edgeConstraints) {
     myStPlanarGraph = stPlanarGraph;
     Graph graph = myStPlanarGraph.getGraph();
@@ -69,7 +67,6 @@ public class ConstraintsSupporter {
     }
     return representation;
   }
-
   private Rectangle getRectangle(Object graphObject, Edge fakeEdge) {
     Face leftFace = myStPlanarGraph.getLeftFace(graphObject);
     int minX = MapSequence.fromMap(myHorNumbering).get(MapSequence.fromMap(myModifiedDualGraph.getNodesMap()).get(leftFace));
@@ -78,7 +75,6 @@ public class ConstraintsSupporter {
     int maxY = MapSequence.fromMap(myVerNumbering).get(fakeEdge.getTarget());
     return new Rectangle(minX, minY, maxX - minX, maxY - minY);
   }
-
   private int getMaxX(Object graphObject) {
     Face rightFace = myStPlanarGraph.getRightFace(graphObject);
     int maxX = MapSequence.fromMap(myHorNumbering).get(MapSequence.fromMap(myModifiedDualGraph.getNodesMap()).get(rightFace));
@@ -89,7 +85,6 @@ public class ConstraintsSupporter {
     }
     return maxX;
   }
-
   private DualGraph modifyDualGraph(STPlanarGraph stPlanarGraph) {
     myFakeDualEdges = MapSequence.fromMap(new HashMap<Node, Edge>());
     DualGraph dualGraph = stPlanarGraph.getModifiedDualGraph();
@@ -115,7 +110,6 @@ public class ConstraintsSupporter {
     }
     return dualGraph;
   }
-
   private Graph splitNodes(Graph graph) {
     myInNode = new NodeMap<Node>(graph);
     myOutNode = new NodeMap<Node>(graph);
@@ -132,7 +126,6 @@ public class ConstraintsSupporter {
     }
     return modifiedGraph;
   }
-
   public void setMinEdgeDistance(int x, int y) {
     myMinEdgeXDistance = x;
     myMinEdgeYDistance = y;

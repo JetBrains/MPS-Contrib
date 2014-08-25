@@ -6,17 +6,14 @@ package jetbrains.mps.uiLanguage.runtime.events;
 public class ListenerId {
   private Object myInstance;
   private String myMethod;
-
   public ListenerId(Object instance, String method) {
     myInstance = instance;
     myMethod = method;
   }
-
   @Override
   public int hashCode() {
     return myInstance.hashCode() * 239 + myMethod.hashCode();
   }
-
   @Override
   public boolean equals(Object o) {
     if (!((o instanceof ListenerId))) {

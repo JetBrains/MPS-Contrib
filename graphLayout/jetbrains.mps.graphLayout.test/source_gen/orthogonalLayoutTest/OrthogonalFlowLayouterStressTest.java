@@ -19,7 +19,6 @@ import jetbrains.mps.graphLayout.graphLayout.GraphLayout;
 public class OrthogonalFlowLayouterStressTest {
   public OrthogonalFlowLayouterStressTest() {
   }
-
   public static void main(String[] args) throws Exception {
     String fileName = "C:\\work\\stressCurrent.txt";
     AbstractOrthogonalFlowLayouter layouter = new OrthogonalFlowLayouter();

@@ -12,10 +12,8 @@ import jetbrains.mps.internal.collections.runtime.MapSequence;
 public class DFSNodeSorter extends Dfs implements INodeSorter {
   private Map<Node, Integer> myNodeLayers;
   private NodeLayeredOrder myLayeredOrder;
-
   public DFSNodeSorter() {
   }
-
   @Override
   public NodeLayeredOrder sortNodes(Graph graph, Map<Node, Integer> nodeLayers) {
     myNodeLayers = nodeLayers;
@@ -23,7 +21,6 @@ public class DFSNodeSorter extends Dfs implements INodeSorter {
     doDfs(graph);
     return myLayeredOrder;
   }
-
   @Override
   protected void preprocess(Node node, Edge from) {
     myLayeredOrder.addLast(node, MapSequence.fromMap(myNodeLayers).get(node));

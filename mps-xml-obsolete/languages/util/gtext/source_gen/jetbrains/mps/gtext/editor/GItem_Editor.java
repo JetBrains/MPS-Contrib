@@ -12,7 +12,6 @@ public class GItem_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createError_4defuh_a(editorContext, node);
   }
-
   private EditorCell createError_4defuh_a(EditorContext editorContext, SNode node) {
     EditorCell_Error editorCell = new EditorCell_Error(editorContext, node, "gItem");
     editorCell.setCellId("Error_4defuh_a");

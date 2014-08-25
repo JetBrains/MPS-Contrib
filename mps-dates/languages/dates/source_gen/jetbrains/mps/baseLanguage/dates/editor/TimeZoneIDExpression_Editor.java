@@ -25,7 +25,6 @@ public class TimeZoneIDExpression_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_dukjzk_a(editorContext, node);
   }
-
   private EditorCell createCollection_dukjzk_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_dukjzk_a");
@@ -33,7 +32,6 @@ public class TimeZoneIDExpression_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createProperty_dukjzk_a0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createProperty_dukjzk_a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("timezone_id");
@@ -54,11 +52,9 @@ public class TimeZoneIDExpression_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   public static class TimeZoneIDExpression_timezone_id_cellMenu_dukjzk_a0a0 extends AbstractCellMenuPart_PropertyValues {
     public TimeZoneIDExpression_timezone_id_cellMenu_dukjzk_a0a0() {
     }
-
     public List<String> getPropertyValues(SNode node, IOperationContext operationContext, EditorContext editorContext) {
       DateTimeZone.getAvailableIDs();
       List<String> result = ListSequence.fromList(new ArrayList<String>());

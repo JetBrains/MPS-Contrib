@@ -18,11 +18,9 @@ public class SimpleFrame extends JFrame {
   private Events myEvents = new Events(null) {
     {
     }
-
     public void initialize() {
     }
   };
-
   public SimpleFrame() {
     this.myThis = this;
     SimpleFrame component = this;
@@ -35,24 +33,19 @@ public class SimpleFrame extends JFrame {
       int i = 0;
     }
   }
-
   public Events getEvents() {
     return this.myEvents;
   }
-
   public void addNotify() {
     super.addNotify();
     this.bind();
   }
-
   public void removeNotify() {
     this.unbind();
     super.removeNotify();
   }
-
   private void bind() {
   }
-
   private void unbind() {
     for (AutoBinding binding : this.myBindings) {
       if (binding.isBound()) {
@@ -60,16 +53,13 @@ public class SimpleFrame extends JFrame {
       }
     }
   }
-
   private JCheckBox createComponent_1v8jfh_d0() {
     JCheckBox component = new JCheckBox();
     this.myComponent_1v8jfh_d0 = component;
     return component;
   }
-
   /*package*/ void anotherSimpleMethod(int a, int b) {
   }
-
   /*package*/ void simpleMethod() {
     myThis.anotherSimpleMethod(2, 3);
     myThis.anotherSimpleMethod(3, 2);

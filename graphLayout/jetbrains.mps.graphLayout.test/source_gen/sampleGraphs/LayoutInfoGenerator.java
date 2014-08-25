@@ -28,34 +28,28 @@ public class LayoutInfoGenerator {
   private Map<Node, Dimension> myNodeSizes;
   private Map<Edge, Dimension> myEdgeLabelSizes;
   private LayoutInfo myLayoutInfo;
-
   public LayoutInfoGenerator(AbstractGraphGenerator generator) {
     myGenerator = generator;
     myLabelThreshold = 0;
   }
-
   public void setNodeSizeConstraints(int minWidth, int maxWidth, int minHeight, int maxHeight) {
     myMinNodeWidth = minWidth;
     myMaxNodeWidth = maxWidth;
     myMinNodeHeight = minHeight;
     myMaxNodeHeight = maxHeight;
   }
-
   public void setLabelSizeConstraints(int minWidth, int maxWidth, int minHeight, int maxHeight) {
     myMinLabelWidth = minWidth;
     myMaxLabelWidth = maxWidth;
     myMinLabelHeight = minHeight;
     myMaxLabelHeight = maxHeight;
   }
-
   public double getLabelSeed() {
     return myLabelThreshold;
   }
-
   public void setLabelSeed(double labelSeed) {
     myLabelThreshold = labelSeed;
   }
-
   public void generate() {
     myGraph = myGenerator.generate();
     myLayoutInfo = new LayoutInfo(myGraph);
@@ -78,19 +72,15 @@ public class LayoutInfoGenerator {
       }
     }
   }
-
   public Graph getGraph() {
     return myGraph;
   }
-
   public Map<Node, Dimension> getNodeSizes() {
     return myNodeSizes;
   }
-
   public Map<Edge, Dimension> getEdgeLabelSizes() {
     return myEdgeLabelSizes;
   }
-
   public LayoutInfo getLayoutInfo() {
     return myLayoutInfo;
   }

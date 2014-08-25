@@ -10,15 +10,12 @@ import java.util.ArrayList;
 public class AttributeUtils {
   public AttributeUtils() {
   }
-
   public static String stringWithDefault(String value, String defaultValue) {
     return (value == null ? defaultValue : value);
   }
-
   public static boolean booleanWithDefault(String value, boolean defaultValue) {
     return (value == null ? defaultValue : Boolean.parseBoolean(value));
   }
-
   public static int integerWithDefault(String value, int defaultValue) {
     try {
       return (value == null ? defaultValue : Integer.parseInt(value));
@@ -26,7 +23,6 @@ public class AttributeUtils {
       return defaultValue;
     }
   }
-
   public static List<Element> elementChildren(Element element, String name) {
     if (element == null) {
       return ListSequence.fromList(new ArrayList<Element>());

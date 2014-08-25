@@ -13,7 +13,6 @@ public class DateTimePropertyConfiguration_Constraints extends BaseConstraintsDe
   public DateTimePropertyConfiguration_Constraints() {
     super("jetbrains.mps.baseLanguage.datesInternal.structure.DateTimePropertyConfiguration");
   }
-
   @Override
   protected Map<String, PropertyConstraintsDescriptor> getNotDefaultProperties() {
     Map<String, PropertyConstraintsDescriptor> properties = new HashMap();
@@ -22,7 +21,6 @@ public class DateTimePropertyConfiguration_Constraints extends BaseConstraintsDe
       public boolean hasOwnGetter() {
         return true;
       }
-
       @Override
       public Object getValue(SNode node) {
         String propertyName = "shortDescription";

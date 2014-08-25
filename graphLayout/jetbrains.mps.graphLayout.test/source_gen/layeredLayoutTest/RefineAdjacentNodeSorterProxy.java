@@ -13,12 +13,10 @@ import junit.framework.Assert;
 
 public class RefineAdjacentNodeSorterProxy implements INodeSorter {
   private LayerByLayerNodeSorter mySorter;
-
   public RefineAdjacentNodeSorterProxy() {
     INodeSorter medianSorter = new MedianLayerByLayerSorterProxy();
     mySorter = new LayerByLayerNodeSorter(new AdjacentExhangeNodeSorter(), medianSorter);
   }
-
   @Override
   public NodeLayeredOrder sortNodes(Graph graph, Map<Node, Integer> layers) {
     NodeLayeredOrder order = mySorter.sortNodes(graph, layers);

@@ -11,7 +11,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 public class PeriodFormat_DataFlow extends DataFlowBuilder {
   public PeriodFormat_DataFlow() {
   }
-
   public void build(final IOperationContext operationContext, final DataFlowBuilderContext _context) {
     for (SNode t : SLinkOperations.getTargets(_context.getNode(), "token", true)) {
       _context.getBuilder().build((SNode) t);

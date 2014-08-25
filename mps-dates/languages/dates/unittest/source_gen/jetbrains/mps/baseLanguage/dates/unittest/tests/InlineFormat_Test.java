@@ -62,7 +62,6 @@ public class InlineFormat_Test extends BaseTestCase {
       }
     }
   }
-
   public void test_withTimezone() throws Exception {
     Long now1 = System.currentTimeMillis();
     String ddd = DateTimeOperations.print(DateTimeArithmetics.minus((DateTimeOperations.convert(now1, DateTimeZone.forID("Europe/Helsinki"))), Period.hours(2)), (MainFormatTable.INSTANCE).getFormatter("time"), null);

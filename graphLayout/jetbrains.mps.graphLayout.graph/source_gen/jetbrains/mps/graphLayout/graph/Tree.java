@@ -9,11 +9,9 @@ import jetbrains.mps.internal.collections.runtime.ISelector;
 public class Tree extends Graph {
   public Tree() {
   }
-
   public Node getParent(Node node) {
     return ListSequence.fromList(node.getInEdges()).first().getOpposite(node);
   }
-
   public List<Node> getChildren(final Node node) {
     return ListSequence.fromList(node.getOutEdges()).select(new ISelector<Edge, Node>() {
       public Node select(Edge edge) {
@@ -21,7 +19,6 @@ public class Tree extends Graph {
       }
     }).toListSequence();
   }
-
   @Override
   public Graph createNew() {
     return new Tree();

@@ -26,7 +26,6 @@ public class Attribute_Constraints extends BaseConstraintsDescriptor {
   public Attribute_Constraints() {
     super("jetbrains.mps.build.generictasks.structure.Attribute");
   }
-
   @Override
   protected Map<String, ReferenceConstraintsDescriptor> getNotDefaultReferences() {
     Map<String, ReferenceConstraintsDescriptor> references = new HashMap();
@@ -35,22 +34,18 @@ public class Attribute_Constraints extends BaseConstraintsDescriptor {
       public boolean hasOwnOnReferenceSetHandler() {
         return true;
       }
-
       @Override
       public boolean validate(final SNode referenceNode, final SNode oldReferentNode, final SNode newReferentNode) {
         return true;
       }
-
       @Override
       public void onReferenceSet(final SNode referenceNode, final SNode oldReferentNode, final SNode newReferentNode) {
         SLinkOperations.setTarget(referenceNode, "value", SLinkOperations.getTarget(newReferentNode, "default", true), true);
       }
-
       @Override
       public boolean hasOwnScopeProvider() {
         return true;
       }
-
       @Nullable
       @Override
       public ReferenceScopeProvider getScopeProvider() {
@@ -68,7 +63,6 @@ public class Attribute_Constraints extends BaseConstraintsDescriptor {
               }
             };
           }
-
           @Override
           public SNodeReference getSearchScopeValidatorNode() {
             return breakingNode_oyfip5_a0a1a0a0a4a0b0a1a1;
@@ -78,6 +72,5 @@ public class Attribute_Constraints extends BaseConstraintsDescriptor {
     });
     return references;
   }
-
   private static SNodePointer breakingNode_oyfip5_a0a1a0a0a4a0b0a1a1 = new SNodePointer("r:71eee63a-b16f-40f8-920d-8fd0fe7dc8a1(jetbrains.mps.build.generictasks.constraints)", "353793545802644407");
 }

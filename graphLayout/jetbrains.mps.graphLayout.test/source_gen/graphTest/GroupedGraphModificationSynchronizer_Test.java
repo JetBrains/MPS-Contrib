@@ -55,7 +55,6 @@ public class GroupedGraphModificationSynchronizer_Test extends TestCase {
     ListSequence.fromList(gSplit).addElement(groupedGraph.connect(node, secondEdge.getTarget()));
     groupedGraph.getModificationProcessor().fire(new GraphModificationEvent(GraphModificationEvent.Type.EDGE_SPLITTED, secondEdge, gSplit));
   }
-
   public GroupedGraphModificationSynchronizer_Test() {
   }
 }

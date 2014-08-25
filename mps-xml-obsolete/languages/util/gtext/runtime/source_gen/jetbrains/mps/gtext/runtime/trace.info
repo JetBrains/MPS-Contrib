@@ -1,445 +1,468 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debugInfo>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ForStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
   <root nodeRef="r:1773d365-6692-4940-84a5-a678462b1f6f(jetbrains.mps.gtext.runtime)/7733366827988670913">
-    <nodeInfo nodeId="7733366827988682191" fileName="TContent.java" startLine="7" startPosition="0" endLine="8" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="name" />
-    <nodeInfo nodeId="7733366827988682194" fileName="TContent.java" startLine="8" startPosition="0" endLine="9" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="buf" />
-    <nodeInfo nodeId="7733366827988682197" fileName="TContent.java" startLine="9" startPosition="0" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="position" />
-    <nodeInfo nodeId="7733366827988682210" fileName="TContent.java" startLine="11" startPosition="45" endLine="12" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988682216" fileName="TContent.java" startLine="12" startPosition="21" endLine="13" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988682226" fileName="TContent.java" startLine="16" startPosition="27" endLine="17" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7733366827988682232" fileName="TContent.java" startLine="20" startPosition="27" endLine="21" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7733366827988682238" fileName="TContent.java" startLine="24" startPosition="28" endLine="25" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7733366827988682246" fileName="TContent.java" startLine="28" startPosition="41" endLine="29" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988682222" fileName="TContent.java" startLine="16" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getName#()Ljava/lang/String;" />
-    <nodeInfo nodeId="7733366827988682228" fileName="TContent.java" startLine="20" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getBuf#()Ljetbrains/mps/gtext/runtime/TBuffer;" />
-    <nodeInfo nodeId="7733366827988682234" fileName="TContent.java" startLine="24" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPosition#()I" />
-    <nodeInfo nodeId="7733366827988682240" fileName="TContent.java" startLine="28" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setPosition#(I)V" />
-    <nodeInfo nodeId="7733366827988682202" fileName="TContent.java" startLine="11" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="TContent#(Ljava/lang/String;Ljetbrains/mps/gtext/runtime/TBuffer;)V" />
-    <scopeInfo nodeId="7733366827988682225" fileName="TContent.java" startLine="16" startPosition="27" endLine="17" endPosition="16" />
-    <scopeInfo nodeId="7733366827988682231" fileName="TContent.java" startLine="20" startPosition="27" endLine="21" endPosition="15" />
-    <scopeInfo nodeId="7733366827988682237" fileName="TContent.java" startLine="24" startPosition="28" endLine="25" endPosition="20" />
-    <scopeInfo nodeId="7733366827988682245" fileName="TContent.java" startLine="28" startPosition="41" endLine="29" endPosition="29" />
-    <scopeInfo nodeId="7733366827988682209" fileName="TContent.java" startLine="11" startPosition="45" endLine="13" endPosition="19" />
-    <scopeInfo nodeId="7733366827988682222" fileName="TContent.java" startLine="16" startPosition="0" endLine="19" endPosition="0" />
-    <scopeInfo nodeId="7733366827988682228" fileName="TContent.java" startLine="20" startPosition="0" endLine="23" endPosition="0" />
-    <scopeInfo nodeId="7733366827988682234" fileName="TContent.java" startLine="24" startPosition="0" endLine="27" endPosition="0" />
-    <scopeInfo nodeId="7733366827988682240" fileName="TContent.java" startLine="28" startPosition="0" endLine="31" endPosition="0">
-      <varInfo nodeId="7733366827988682243" varName="position" />
-    </scopeInfo>
-    <scopeInfo nodeId="7733366827988682202" fileName="TContent.java" startLine="11" startPosition="0" endLine="15" endPosition="0">
-      <varInfo nodeId="7733366827988682207" varName="buf" />
-      <varInfo nodeId="7733366827988682205" varName="name" />
-    </scopeInfo>
-    <unitInfo nodeId="7733366827988670913" fileName="TContent.java" startLine="6" startPosition="0" endLine="32" endPosition="0" unitName="jetbrains.mps.gtext.runtime.TContent" />
+    <file name="TContent.java">
+      <node id="7733366827988682191" at="7,0,8,0" concept="3" trace="name" />
+      <node id="7733366827988682194" at="8,0,9,0" concept="3" trace="buf" />
+      <node id="7733366827988682197" at="9,0,10,0" concept="3" trace="position" />
+      <node id="7733366827988682210" at="10,45,11,21" concept="2" />
+      <node id="7733366827988682216" at="11,21,12,19" concept="2" />
+      <node id="7733366827988682226" at="14,27,15,16" concept="9" />
+      <node id="7733366827988682232" at="17,27,18,15" concept="9" />
+      <node id="7733366827988682238" at="20,28,21,20" concept="9" />
+      <node id="7733366827988682246" at="23,41,24,29" concept="2" />
+      <node id="7733366827988682222" at="14,0,17,0" concept="7" trace="getName#()Ljava/lang/String;" />
+      <node id="7733366827988682228" at="17,0,20,0" concept="7" trace="getBuf#()Ljetbrains/mps/gtext/runtime/TBuffer;" />
+      <node id="7733366827988682234" at="20,0,23,0" concept="7" trace="getPosition#()I" />
+      <node id="7733366827988682240" at="23,0,26,0" concept="7" trace="setPosition#(I)V" />
+      <node id="7733366827988682202" at="10,0,14,0" concept="1" trace="TContent#(Ljava/lang/String;Ljetbrains/mps/gtext/runtime/TBuffer;)V" />
+      <scope id="7733366827988682225" at="14,27,15,16" />
+      <scope id="7733366827988682231" at="17,27,18,15" />
+      <scope id="7733366827988682237" at="20,28,21,20" />
+      <scope id="7733366827988682245" at="23,41,24,29" />
+      <scope id="7733366827988682209" at="10,45,12,19" />
+      <scope id="7733366827988682222" at="14,0,17,0" />
+      <scope id="7733366827988682228" at="17,0,20,0" />
+      <scope id="7733366827988682234" at="20,0,23,0" />
+      <scope id="7733366827988682240" at="23,0,26,0">
+        <var name="position" id="7733366827988682243" />
+      </scope>
+      <scope id="7733366827988682202" at="10,0,14,0">
+        <var name="buf" id="7733366827988682207" />
+        <var name="name" id="7733366827988682205" />
+      </scope>
+      <unit id="7733366827988670913" at="6,0,27,0" name="jetbrains.mps.gtext.runtime.TContent" />
+    </file>
   </root>
   <root nodeRef="r:1773d365-6692-4940-84a5-a678462b1f6f(jetbrains.mps.gtext.runtime)/7733366827988670914">
-    <nodeInfo nodeId="7733366827988670916" fileName="TBaseBuilderContextListener.java" startLine="7" startPosition="0" endLine="8" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getTextCalled#(Ljetbrains/mps/gtext/runtime/TBaseBuilderContext;)V" />
-    <scopeInfo nodeId="7733366827988670916" fileName="TBaseBuilderContextListener.java" startLine="7" startPosition="0" endLine="8" endPosition="0">
-      <varInfo nodeId="7733366827988670919" varName="builderContext" />
-    </scopeInfo>
-    <unitInfo nodeId="7733366827988670914" fileName="TBaseBuilderContextListener.java" startLine="6" startPosition="0" endLine="9" endPosition="0" unitName="jetbrains.mps.gtext.runtime.TBaseBuilderContextListener" />
+    <file name="TBaseBuilderContextListener.java">
+      <node id="7733366827988670916" at="7,0,8,0" concept="7" trace="getTextCalled#(Ljetbrains/mps/gtext/runtime/TBaseBuilderContext;)V" />
+      <scope id="7733366827988670916" at="7,0,8,0">
+        <var name="builderContext" id="7733366827988670919" />
+      </scope>
+      <unit id="7733366827988670914" at="6,0,9,0" name="jetbrains.mps.gtext.runtime.TBaseBuilderContextListener" />
+    </file>
   </root>
   <root nodeRef="r:1773d365-6692-4940-84a5-a678462b1f6f(jetbrains.mps.gtext.runtime)/7733366827988670922">
-    <nodeInfo nodeId="7733366827988670924" fileName="TBuffer.java" startLine="7" startPosition="0" endLine="8" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myStringBuilder" />
-    <nodeInfo nodeId="7733366827988670929" fileName="TBuffer.java" startLine="8" startPosition="0" endLine="9" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myIndent" />
-    <nodeInfo nodeId="7733366827988670939" fileName="TBuffer.java" startLine="13" startPosition="48" endLine="14" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7733366827988670945" fileName="TBuffer.java" startLine="17" startPosition="27" endLine="18" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7733366827988670952" fileName="TBuffer.java" startLine="21" startPosition="40" endLine="22" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7733366827988670959" fileName="TBuffer.java" startLine="25" startPosition="37" endLine="26" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988670965" fileName="TBuffer.java" startLine="29" startPosition="37" endLine="30" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988670982" fileName="TBuffer.java" startLine="34" startPosition="40" endLine="35" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988670985" fileName="TBuffer.java" startLine="35" startPosition="18" endLine="36" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988671012" fileName="TBuffer.java" startLine="41" startPosition="45" endLine="42" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988671006" fileName="TBuffer.java" startLine="43" startPosition="12" endLine="44" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988671025" fileName="TBuffer.java" startLine="48" startPosition="41" endLine="49" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988671034" fileName="TBuffer.java" startLine="52" startPosition="31" endLine="53" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988670932" fileName="TBuffer.java" startLine="10" startPosition="0" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="TBuffer#()V" />
-    <nodeInfo nodeId="7733366827988671004" fileName="TBuffer.java" startLine="43" startPosition="10" endLine="45" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="7733366827988670936" fileName="TBuffer.java" startLine="13" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getStringBuilder#()Ljava/lang/StringBuilder;" />
-    <nodeInfo nodeId="7733366827988670941" fileName="TBuffer.java" startLine="17" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getText#()Ljava/lang/String;" />
-    <nodeInfo nodeId="7733366827988670949" fileName="TBuffer.java" startLine="21" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getCurrentPosition#()I" />
-    <nodeInfo nodeId="7733366827988670956" fileName="TBuffer.java" startLine="25" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="increaseIndent#()V" />
-    <nodeInfo nodeId="7733366827988670962" fileName="TBuffer.java" startLine="29" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="decreaseIndent#()V" />
-    <nodeInfo nodeId="7733366827988671020" fileName="TBuffer.java" startLine="48" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="append#(C)V" />
-    <nodeInfo nodeId="7733366827988671030" fileName="TBuffer.java" startLine="52" startPosition="0" endLine="55" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="appendNewLine#()V" />
-    <nodeInfo nodeId="7733366827988670972" fileName="TBuffer.java" startLine="33" startPosition="30" endLine="37" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="7733366827988670994" fileName="TBuffer.java" startLine="40" startPosition="41" endLine="45" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="7733366827988670968" fileName="TBuffer.java" startLine="33" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="appendIndent#()V" />
-    <nodeInfo nodeId="7733366827988670988" fileName="TBuffer.java" startLine="40" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="append#(Ljava/lang/String;)V" />
-    <scopeInfo nodeId="7733366827988670935" fileName="TBuffer.java" startLine="10" startPosition="20" endLine="10" endPosition="20" />
-    <scopeInfo nodeId="7733366827988670938" fileName="TBuffer.java" startLine="13" startPosition="48" endLine="14" endPosition="27" />
-    <scopeInfo nodeId="7733366827988670944" fileName="TBuffer.java" startLine="17" startPosition="27" endLine="18" endPosition="38" />
-    <scopeInfo nodeId="7733366827988670951" fileName="TBuffer.java" startLine="21" startPosition="40" endLine="22" endPosition="36" />
-    <scopeInfo nodeId="7733366827988670958" fileName="TBuffer.java" startLine="25" startPosition="37" endLine="26" endPosition="15" />
-    <scopeInfo nodeId="7733366827988670964" fileName="TBuffer.java" startLine="29" startPosition="37" endLine="30" endPosition="15" />
-    <scopeInfo nodeId="7733366827988671011" fileName="TBuffer.java" startLine="41" startPosition="45" endLine="42" endPosition="45" />
-    <scopeInfo nodeId="7733366827988671005" fileName="TBuffer.java" startLine="43" startPosition="12" endLine="44" endPosition="35" />
-    <scopeInfo nodeId="7733366827988671024" fileName="TBuffer.java" startLine="48" startPosition="41" endLine="49" endPosition="30" />
-    <scopeInfo nodeId="7733366827988671033" fileName="TBuffer.java" startLine="52" startPosition="31" endLine="53" endPosition="17" />
-    <scopeInfo nodeId="7733366827988670932" fileName="TBuffer.java" startLine="10" startPosition="0" endLine="12" endPosition="0" />
-    <scopeInfo nodeId="7733366827988670981" fileName="TBuffer.java" startLine="34" startPosition="40" endLine="36" endPosition="18" />
-    <scopeInfo nodeId="7733366827988670936" fileName="TBuffer.java" startLine="13" startPosition="0" endLine="16" endPosition="0" />
-    <scopeInfo nodeId="7733366827988670941" fileName="TBuffer.java" startLine="17" startPosition="0" endLine="20" endPosition="0" />
-    <scopeInfo nodeId="7733366827988670949" fileName="TBuffer.java" startLine="21" startPosition="0" endLine="24" endPosition="0" />
-    <scopeInfo nodeId="7733366827988670956" fileName="TBuffer.java" startLine="25" startPosition="0" endLine="28" endPosition="0" />
-    <scopeInfo nodeId="7733366827988670962" fileName="TBuffer.java" startLine="29" startPosition="0" endLine="32" endPosition="0" />
-    <scopeInfo nodeId="7733366827988671020" fileName="TBuffer.java" startLine="48" startPosition="0" endLine="51" endPosition="0">
-      <varInfo nodeId="7733366827988671022" varName="c" />
-    </scopeInfo>
-    <scopeInfo nodeId="7733366827988671030" fileName="TBuffer.java" startLine="52" startPosition="0" endLine="55" endPosition="0" />
-    <scopeInfo nodeId="7733366827988670971" fileName="TBuffer.java" startLine="33" startPosition="30" endLine="37" endPosition="5" />
-    <scopeInfo nodeId="7733366827988670972" fileName="TBuffer.java" startLine="33" startPosition="30" endLine="37" endPosition="5">
-      <varInfo nodeId="7733366827988670976" varName="i" />
-    </scopeInfo>
-    <scopeInfo nodeId="7733366827988670993" fileName="TBuffer.java" startLine="40" startPosition="41" endLine="45" endPosition="5" />
-    <scopeInfo nodeId="7733366827988670968" fileName="TBuffer.java" startLine="33" startPosition="0" endLine="39" endPosition="0" />
-    <scopeInfo nodeId="7733366827988670988" fileName="TBuffer.java" startLine="40" startPosition="0" endLine="47" endPosition="0">
-      <varInfo nodeId="7733366827988670991" varName="text" />
-    </scopeInfo>
-    <unitInfo nodeId="7733366827988670922" fileName="TBuffer.java" startLine="6" startPosition="0" endLine="56" endPosition="0" unitName="jetbrains.mps.gtext.runtime.TBuffer" />
+    <file name="TBuffer.java">
+      <node id="7733366827988670924" at="7,0,8,0" concept="3" trace="myStringBuilder" />
+      <node id="7733366827988670929" at="8,0,9,0" concept="3" trace="myIndent" />
+      <node id="7733366827988670939" at="11,48,12,27" concept="9" />
+      <node id="7733366827988670945" at="14,27,15,38" concept="9" />
+      <node id="7733366827988670952" at="17,40,18,36" concept="9" />
+      <node id="7733366827988670959" at="20,37,21,15" concept="2" />
+      <node id="7733366827988670965" at="23,37,24,15" concept="2" />
+      <node id="7733366827988670982" at="27,40,28,18" concept="2" />
+      <node id="7733366827988670985" at="28,18,29,18" concept="2" />
+      <node id="7733366827988671012" at="33,45,34,45" concept="2" />
+      <node id="7733366827988671006" at="35,12,36,35" concept="2" />
+      <node id="7733366827988671025" at="39,41,40,30" concept="2" />
+      <node id="7733366827988671034" at="42,31,43,17" concept="2" />
+      <node id="7733366827988670932" at="9,0,11,0" concept="1" trace="TBuffer#()V" />
+      <node id="7733366827988671004" at="35,10,37,5" concept="0" />
+      <node id="7733366827988670936" at="11,0,14,0" concept="7" trace="getStringBuilder#()Ljava/lang/StringBuilder;" />
+      <node id="7733366827988670941" at="14,0,17,0" concept="7" trace="getText#()Ljava/lang/String;" />
+      <node id="7733366827988670949" at="17,0,20,0" concept="7" trace="getCurrentPosition#()I" />
+      <node id="7733366827988670956" at="20,0,23,0" concept="7" trace="increaseIndent#()V" />
+      <node id="7733366827988670962" at="23,0,26,0" concept="7" trace="decreaseIndent#()V" />
+      <node id="7733366827988671020" at="39,0,42,0" concept="7" trace="append#(C)V" />
+      <node id="7733366827988671030" at="42,0,45,0" concept="7" trace="appendNewLine#()V" />
+      <node id="7733366827988670972" at="26,30,30,5" concept="4" />
+      <node id="7733366827988670994" at="32,41,37,5" concept="6" />
+      <node id="7733366827988670968" at="26,0,32,0" concept="7" trace="appendIndent#()V" />
+      <node id="7733366827988670988" at="32,0,39,0" concept="7" trace="append#(Ljava/lang/String;)V" />
+      <scope id="7733366827988670935" at="9,20,9,20" />
+      <scope id="7733366827988670938" at="11,48,12,27" />
+      <scope id="7733366827988670944" at="14,27,15,38" />
+      <scope id="7733366827988670951" at="17,40,18,36" />
+      <scope id="7733366827988670958" at="20,37,21,15" />
+      <scope id="7733366827988670964" at="23,37,24,15" />
+      <scope id="7733366827988671011" at="33,45,34,45" />
+      <scope id="7733366827988671005" at="35,12,36,35" />
+      <scope id="7733366827988671024" at="39,41,40,30" />
+      <scope id="7733366827988671033" at="42,31,43,17" />
+      <scope id="7733366827988670932" at="9,0,11,0" />
+      <scope id="7733366827988670981" at="27,40,29,18" />
+      <scope id="7733366827988670936" at="11,0,14,0" />
+      <scope id="7733366827988670941" at="14,0,17,0" />
+      <scope id="7733366827988670949" at="17,0,20,0" />
+      <scope id="7733366827988670956" at="20,0,23,0" />
+      <scope id="7733366827988670962" at="23,0,26,0" />
+      <scope id="7733366827988671020" at="39,0,42,0">
+        <var name="c" id="7733366827988671022" />
+      </scope>
+      <scope id="7733366827988671030" at="42,0,45,0" />
+      <scope id="7733366827988670971" at="26,30,30,5" />
+      <scope id="7733366827988670972" at="26,30,30,5">
+        <var name="i" id="7733366827988670976" />
+      </scope>
+      <scope id="7733366827988670993" at="32,41,37,5" />
+      <scope id="7733366827988670968" at="26,0,32,0" />
+      <scope id="7733366827988670988" at="32,0,39,0">
+        <var name="text" id="7733366827988670991" />
+      </scope>
+      <unit id="7733366827988670922" at="6,0,46,0" name="jetbrains.mps.gtext.runtime.TBuffer" />
+    </file>
   </root>
   <root nodeRef="r:1773d365-6692-4940-84a5-a678462b1f6f(jetbrains.mps.gtext.runtime)/7733366827988671037">
-    <nodeInfo nodeId="7733366827988671045" fileName="TBaseBuilderContext.java" startLine="15" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="ROOT" />
-    <nodeInfo nodeId="7733366827988671049" fileName="TBaseBuilderContext.java" startLine="16" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myContents" />
-    <nodeInfo nodeId="7733366827988671054" fileName="TBaseBuilderContext.java" startLine="17" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myContentsStack" />
-    <nodeInfo nodeId="7733366827988671058" fileName="TBaseBuilderContext.java" startLine="18" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myBuffer" />
-    <nodeInfo nodeId="7733366827988671061" fileName="TBaseBuilderContext.java" startLine="19" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myListeners" />
-    <nodeInfo nodeId="7733366827988671075" fileName="TBaseBuilderContext.java" startLine="24" startPosition="42" endLine="25" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988671079" fileName="TBaseBuilderContext.java" startLine="25" startPosition="22" endLine="26" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988671083" fileName="TBaseBuilderContext.java" startLine="26" startPosition="27" endLine="27" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7733366827988671090" fileName="TBaseBuilderContext.java" startLine="27" startPosition="54" endLine="28" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988671096" fileName="TBaseBuilderContext.java" startLine="28" startPosition="41" endLine="29" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988671101" fileName="TBaseBuilderContext.java" startLine="29" startPosition="31" endLine="30" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988671109" fileName="TBaseBuilderContext.java" startLine="30" startPosition="53" endLine="31" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988671117" fileName="TBaseBuilderContext.java" startLine="34" startPosition="28" endLine="35" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988671132" fileName="TBaseBuilderContext.java" startLine="39" startPosition="41" endLine="40" endPosition="139" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
-    <nodeInfo nodeId="7733366827988671502" fileName="TBaseBuilderContext.java" startLine="44" startPosition="56" endLine="45" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988671161" fileName="TBaseBuilderContext.java" startLine="48" startPosition="36" endLine="49" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7733366827988671170" fileName="TBaseBuilderContext.java" startLine="50" startPosition="5" endLine="51" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7733366827988671180" fileName="TBaseBuilderContext.java" startLine="51" startPosition="84" endLine="52" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988671508" fileName="TBaseBuilderContext.java" startLine="55" startPosition="52" endLine="56" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7733366827988671230" fileName="TBaseBuilderContext.java" startLine="60" startPosition="34" endLine="61" endPosition="128" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988671215" fileName="TBaseBuilderContext.java" startLine="62" startPosition="14" endLine="63" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988671244" fileName="TBaseBuilderContext.java" startLine="65" startPosition="5" endLine="66" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7733366827988671254" fileName="TBaseBuilderContext.java" startLine="69" startPosition="35" endLine="70" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988671263" fileName="TBaseBuilderContext.java" startLine="73" startPosition="30" endLine="74" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988671271" fileName="TBaseBuilderContext.java" startLine="77" startPosition="31" endLine="78" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988671279" fileName="TBaseBuilderContext.java" startLine="81" startPosition="32" endLine="82" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988671287" fileName="TBaseBuilderContext.java" startLine="85" startPosition="32" endLine="86" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988671302" fileName="TBaseBuilderContext.java" startLine="90" startPosition="29" endLine="91" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988671309" fileName="TBaseBuilderContext.java" startLine="92" startPosition="5" endLine="93" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7733366827988671321" fileName="TBaseBuilderContext.java" startLine="97" startPosition="34" endLine="98" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988671327" fileName="TBaseBuilderContext.java" startLine="99" startPosition="5" endLine="100" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7733366827988671333" fileName="TBaseBuilderContext.java" startLine="103" startPosition="38" endLine="104" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7733366827988671348" fileName="TBaseBuilderContext.java" startLine="107" startPosition="50" endLine="108" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7733366827988671353" fileName="TBaseBuilderContext.java" startLine="108" startPosition="39" endLine="109" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988671364" fileName="TBaseBuilderContext.java" startLine="112" startPosition="46" endLine="113" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7733366827988671369" fileName="TBaseBuilderContext.java" startLine="113" startPosition="39" endLine="114" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988671374" fileName="TBaseBuilderContext.java" startLine="114" startPosition="31" endLine="115" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988671386" fileName="TBaseBuilderContext.java" startLine="118" startPosition="49" endLine="119" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7733366827988671398" fileName="TBaseBuilderContext.java" startLine="120" startPosition="26" endLine="121" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988671406" fileName="TBaseBuilderContext.java" startLine="121" startPosition="50" endLine="122" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988671412" fileName="TBaseBuilderContext.java" startLine="123" startPosition="5" endLine="124" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7733366827988671418" fileName="TBaseBuilderContext.java" startLine="127" startPosition="33" endLine="128" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988671422" fileName="TBaseBuilderContext.java" startLine="128" startPosition="29" endLine="129" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988671434" fileName="TBaseBuilderContext.java" startLine="132" startPosition="39" endLine="133" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7733366827988671448" fileName="TBaseBuilderContext.java" startLine="137" startPosition="30" endLine="138" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988671454" fileName="TBaseBuilderContext.java" startLine="139" startPosition="5" endLine="140" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7733366827988671462" fileName="TBaseBuilderContext.java" startLine="143" startPosition="58" endLine="144" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988671473" fileName="TBaseBuilderContext.java" startLine="147" startPosition="61" endLine="148" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988671489" fileName="TBaseBuilderContext.java" startLine="152" startPosition="30" endLine="153" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7733366827988671495" fileName="TBaseBuilderContext.java" startLine="155" startPosition="55" endLine="156" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988671040" fileName="TBaseBuilderContext.java" startLine="161" startPosition="0" endLine="162" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="visit#(Ljetbrains/mps/gtext/runtime/TBaseBuilderContextListener;)V" />
-    <nodeInfo nodeId="7733366827988671065" fileName="TBaseBuilderContext.java" startLine="21" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="TBaseBuilderContext#()V" />
-    <nodeInfo nodeId="7733366827988671213" fileName="TBaseBuilderContext.java" startLine="62" startPosition="12" endLine="64" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="7733366827988671113" fileName="TBaseBuilderContext.java" startLine="34" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="initBuffer#()V" />
-    <nodeInfo nodeId="7733366827988671125" fileName="TBaseBuilderContext.java" startLine="38" startPosition="27" endLine="41" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="7733366827988671154" fileName="TBaseBuilderContext.java" startLine="47" startPosition="7" endLine="50" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="7733366827988671248" fileName="TBaseBuilderContext.java" startLine="69" startPosition="0" endLine="72" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="append#(Ljava/lang/String;)V" />
-    <nodeInfo nodeId="7733366827988671259" fileName="TBaseBuilderContext.java" startLine="73" startPosition="0" endLine="76" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="appendIndent#()V" />
-    <nodeInfo nodeId="7733366827988671267" fileName="TBaseBuilderContext.java" startLine="77" startPosition="0" endLine="80" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="appendNewLine#()V" />
-    <nodeInfo nodeId="7733366827988671275" fileName="TBaseBuilderContext.java" startLine="81" startPosition="0" endLine="84" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="increaseIndent#()V" />
-    <nodeInfo nodeId="7733366827988671283" fileName="TBaseBuilderContext.java" startLine="85" startPosition="0" endLine="88" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="decreaseIndent#()V" />
-    <nodeInfo nodeId="7733366827988671297" fileName="TBaseBuilderContext.java" startLine="89" startPosition="49" endLine="92" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="7733366827988671316" fileName="TBaseBuilderContext.java" startLine="96" startPosition="48" endLine="99" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="7733366827988671329" fileName="TBaseBuilderContext.java" startLine="103" startPosition="0" endLine="106" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getCurrentPosition#()I" />
-    <nodeInfo nodeId="7733366827988671430" fileName="TBaseBuilderContext.java" startLine="132" startPosition="0" endLine="135" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getCurrentContent#()Ljetbrains/mps/gtext/runtime/TContent;" />
-    <nodeInfo nodeId="7733366827988671443" fileName="TBaseBuilderContext.java" startLine="136" startPosition="60" endLine="139" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="7733366827988671456" fileName="TBaseBuilderContext.java" startLine="143" startPosition="0" endLine="146" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addListener#(Ljetbrains/mps/gtext/runtime/TBaseBuilderContextListener;)V" />
-    <nodeInfo nodeId="7733366827988671467" fileName="TBaseBuilderContext.java" startLine="147" startPosition="0" endLine="150" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="removeListener#(Ljetbrains/mps/gtext/runtime/TBaseBuilderContextListener;)V" />
-    <nodeInfo nodeId="7733366827988671484" fileName="TBaseBuilderContext.java" startLine="151" startPosition="64" endLine="154" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="7733366827988671490" fileName="TBaseBuilderContext.java" startLine="154" startPosition="5" endLine="157" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="7733366827988671149" fileName="TBaseBuilderContext.java" startLine="43" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="visit#(Ljetbrains/mps/gtext/runtime/TBaseBuilderContextListener;)V" />
-    <nodeInfo nodeId="7733366827988671194" fileName="TBaseBuilderContext.java" startLine="54" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="compare#(Ljetbrains/mps/gtext/runtime/TContent;Ljetbrains/mps/gtext/runtime/TContent;)I" />
-    <nodeInfo nodeId="7733366827988671342" fileName="TBaseBuilderContext.java" startLine="107" startPosition="0" endLine="111" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addContentPlaceholder#(Ljava/lang/String;)V" />
-    <nodeInfo nodeId="7733366827988671393" fileName="TBaseBuilderContext.java" startLine="119" startPosition="47" endLine="123" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="7733366827988671414" fileName="TBaseBuilderContext.java" startLine="127" startPosition="0" endLine="131" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="endContentBlock#()V" />
-    <nodeInfo nodeId="7733366827988671206" fileName="TBaseBuilderContext.java" startLine="59" startPosition="39" endLine="64" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="7733366827988671358" fileName="TBaseBuilderContext.java" startLine="112" startPosition="0" endLine="117" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="startContentBlock#(Ljava/lang/String;)V" />
-    <nodeInfo nodeId="7733366827988671144" fileName="TBaseBuilderContext.java" startLine="41" startPosition="5" endLine="47" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988671187" fileName="TBaseBuilderContext.java" startLine="52" startPosition="53" endLine="58" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988671291" fileName="TBaseBuilderContext.java" startLine="89" startPosition="0" endLine="95" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getContents#()Ljava/util/Map;" />
-    <nodeInfo nodeId="7733366827988671311" fileName="TBaseBuilderContext.java" startLine="96" startPosition="0" endLine="102" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getContentsStack#()Ljava/util/Stack;" />
-    <nodeInfo nodeId="7733366827988671438" fileName="TBaseBuilderContext.java" startLine="136" startPosition="0" endLine="142" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getListeners#()Ljava/util/List;" />
-    <nodeInfo nodeId="7733366827988671201" fileName="TBaseBuilderContext.java" startLine="58" startPosition="7" endLine="65" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="7733366827988671380" fileName="TBaseBuilderContext.java" startLine="118" startPosition="0" endLine="126" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getContentBlock#(Ljava/lang/String;)Ljetbrains/mps/gtext/runtime/TContent;" />
-    <nodeInfo nodeId="7733366827988671478" fileName="TBaseBuilderContext.java" startLine="151" startPosition="0" endLine="159" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="notify#(Ljetbrains/mps/gtext/runtime/TBaseBuilderContext/ListenerVisitor;)V" />
-    <nodeInfo nodeId="7733366827988671069" fileName="TBaseBuilderContext.java" startLine="24" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="initBuffer#(Ljetbrains/mps/gtext/runtime/TBuffer;)V" />
-    <nodeInfo nodeId="7733366827988671121" fileName="TBaseBuilderContext.java" startLine="38" startPosition="0" endLine="68" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getText#()Ljava/lang/String;" />
-    <scopeInfo nodeId="7733366827988671068" fileName="TBaseBuilderContext.java" startLine="21" startPosition="32" endLine="21" endPosition="32" />
-    <scopeInfo nodeId="7733366827988671116" fileName="TBaseBuilderContext.java" startLine="34" startPosition="28" endLine="35" endPosition="30" />
-    <scopeInfo nodeId="7733366827988671131" fileName="TBaseBuilderContext.java" startLine="39" startPosition="41" endLine="40" endPosition="139" />
-    <scopeInfo nodeId="7733366827988671501" fileName="TBaseBuilderContext.java" startLine="44" startPosition="56" endLine="45" endPosition="50" />
-    <scopeInfo nodeId="7733366827988671160" fileName="TBaseBuilderContext.java" startLine="48" startPosition="36" endLine="49" endPosition="32" />
-    <scopeInfo nodeId="7733366827988671507" fileName="TBaseBuilderContext.java" startLine="55" startPosition="52" endLine="56" endPosition="51" />
-    <scopeInfo nodeId="7733366827988671229" fileName="TBaseBuilderContext.java" startLine="60" startPosition="34" endLine="61" endPosition="128" />
-    <scopeInfo nodeId="7733366827988671214" fileName="TBaseBuilderContext.java" startLine="62" startPosition="14" endLine="63" endPosition="82" />
-    <scopeInfo nodeId="7733366827988671253" fileName="TBaseBuilderContext.java" startLine="69" startPosition="35" endLine="70" endPosition="26" />
-    <scopeInfo nodeId="7733366827988671262" fileName="TBaseBuilderContext.java" startLine="73" startPosition="30" endLine="74" endPosition="28" />
-    <scopeInfo nodeId="7733366827988671270" fileName="TBaseBuilderContext.java" startLine="77" startPosition="31" endLine="78" endPosition="29" />
-    <scopeInfo nodeId="7733366827988671278" fileName="TBaseBuilderContext.java" startLine="81" startPosition="32" endLine="82" endPosition="30" />
-    <scopeInfo nodeId="7733366827988671286" fileName="TBaseBuilderContext.java" startLine="85" startPosition="32" endLine="86" endPosition="30" />
-    <scopeInfo nodeId="7733366827988671301" fileName="TBaseBuilderContext.java" startLine="90" startPosition="29" endLine="91" endPosition="51" />
-    <scopeInfo nodeId="7733366827988671320" fileName="TBaseBuilderContext.java" startLine="97" startPosition="34" endLine="98" endPosition="46" />
-    <scopeInfo nodeId="7733366827988671332" fileName="TBaseBuilderContext.java" startLine="103" startPosition="38" endLine="104" endPosition="65" />
-    <scopeInfo nodeId="7733366827988671433" fileName="TBaseBuilderContext.java" startLine="132" startPosition="39" endLine="133" endPosition="37" />
-    <scopeInfo nodeId="7733366827988671447" fileName="TBaseBuilderContext.java" startLine="137" startPosition="30" endLine="138" endPosition="65" />
-    <scopeInfo nodeId="7733366827988671461" fileName="TBaseBuilderContext.java" startLine="143" startPosition="58" endLine="144" endPosition="26" />
-    <scopeInfo nodeId="7733366827988671472" fileName="TBaseBuilderContext.java" startLine="147" startPosition="61" endLine="148" endPosition="29" />
-    <scopeInfo nodeId="7733366827988671488" fileName="TBaseBuilderContext.java" startLine="152" startPosition="30" endLine="153" endPosition="13" />
-    <scopeInfo nodeId="7733366827988671494" fileName="TBaseBuilderContext.java" startLine="155" startPosition="55" endLine="156" endPosition="17" />
-    <scopeInfo nodeId="7733366827988671040" fileName="TBaseBuilderContext.java" startLine="161" startPosition="0" endLine="162" endPosition="0">
-      <varInfo nodeId="7733366827988671043" varName="l" />
-    </scopeInfo>
-    <scopeInfo nodeId="7733366827988671065" fileName="TBaseBuilderContext.java" startLine="21" startPosition="0" endLine="23" endPosition="0" />
-    <scopeInfo nodeId="7733366827988671347" fileName="TBaseBuilderContext.java" startLine="107" startPosition="50" endLine="109" endPosition="40">
-      <varInfo nodeId="7733366827988671349" varName="c" />
-    </scopeInfo>
-    <scopeInfo nodeId="7733366827988671397" fileName="TBaseBuilderContext.java" startLine="120" startPosition="26" endLine="122" endPosition="39" />
-    <scopeInfo nodeId="7733366827988671417" fileName="TBaseBuilderContext.java" startLine="127" startPosition="33" endLine="129" endPosition="50" />
-    <scopeInfo nodeId="7733366827988671113" fileName="TBaseBuilderContext.java" startLine="34" startPosition="0" endLine="37" endPosition="0" />
-    <scopeInfo nodeId="7733366827988671248" fileName="TBaseBuilderContext.java" startLine="69" startPosition="0" endLine="72" endPosition="0">
-      <varInfo nodeId="7733366827988671251" varName="text" />
-    </scopeInfo>
-    <scopeInfo nodeId="7733366827988671259" fileName="TBaseBuilderContext.java" startLine="73" startPosition="0" endLine="76" endPosition="0" />
-    <scopeInfo nodeId="7733366827988671267" fileName="TBaseBuilderContext.java" startLine="77" startPosition="0" endLine="80" endPosition="0" />
-    <scopeInfo nodeId="7733366827988671275" fileName="TBaseBuilderContext.java" startLine="81" startPosition="0" endLine="84" endPosition="0" />
-    <scopeInfo nodeId="7733366827988671283" fileName="TBaseBuilderContext.java" startLine="85" startPosition="0" endLine="88" endPosition="0" />
-    <scopeInfo nodeId="7733366827988671329" fileName="TBaseBuilderContext.java" startLine="103" startPosition="0" endLine="106" endPosition="0" />
-    <scopeInfo nodeId="7733366827988671363" fileName="TBaseBuilderContext.java" startLine="112" startPosition="46" endLine="115" endPosition="26">
-      <varInfo nodeId="7733366827988671365" varName="c" />
-    </scopeInfo>
-    <scopeInfo nodeId="7733366827988671430" fileName="TBaseBuilderContext.java" startLine="132" startPosition="0" endLine="135" endPosition="0" />
-    <scopeInfo nodeId="7733366827988671456" fileName="TBaseBuilderContext.java" startLine="143" startPosition="0" endLine="146" endPosition="0">
-      <varInfo nodeId="7733366827988671459" varName="l" />
-    </scopeInfo>
-    <scopeInfo nodeId="7733366827988671467" fileName="TBaseBuilderContext.java" startLine="147" startPosition="0" endLine="150" endPosition="0">
-      <varInfo nodeId="7733366827988671470" varName="l" />
-    </scopeInfo>
-    <scopeInfo nodeId="7733366827988671490" fileName="TBaseBuilderContext.java" startLine="154" startPosition="5" endLine="157" endPosition="5">
-      <varInfo nodeId="7733366827988671492" varName="l" />
-    </scopeInfo>
-    <scopeInfo nodeId="7733366827988671149" fileName="TBaseBuilderContext.java" startLine="43" startPosition="0" endLine="47" endPosition="0">
-      <varInfo nodeId="7733366827988671152" varName="l" />
-    </scopeInfo>
-    <scopeInfo nodeId="7733366827988671194" fileName="TBaseBuilderContext.java" startLine="54" startPosition="0" endLine="58" endPosition="0">
-      <varInfo nodeId="7733366827988671197" varName="o1" />
-      <varInfo nodeId="7733366827988671199" varName="o2" />
-    </scopeInfo>
-    <scopeInfo nodeId="7733366827988671296" fileName="TBaseBuilderContext.java" startLine="89" startPosition="49" endLine="93" endPosition="22" />
-    <scopeInfo nodeId="7733366827988671315" fileName="TBaseBuilderContext.java" startLine="96" startPosition="48" endLine="100" endPosition="27" />
-    <scopeInfo nodeId="7733366827988671342" fileName="TBaseBuilderContext.java" startLine="107" startPosition="0" endLine="111" endPosition="0">
-      <varInfo nodeId="7733366827988671345" varName="name" />
-    </scopeInfo>
-    <scopeInfo nodeId="7733366827988671414" fileName="TBaseBuilderContext.java" startLine="127" startPosition="0" endLine="131" endPosition="0" />
-    <scopeInfo nodeId="7733366827988671442" fileName="TBaseBuilderContext.java" startLine="136" startPosition="60" endLine="140" endPosition="23" />
-    <scopeInfo nodeId="7733366827988671205" fileName="TBaseBuilderContext.java" startLine="59" startPosition="39" endLine="64" endPosition="7" />
-    <scopeInfo nodeId="7733366827988671358" fileName="TBaseBuilderContext.java" startLine="112" startPosition="0" endLine="117" endPosition="0">
-      <varInfo nodeId="7733366827988671361" varName="name" />
-    </scopeInfo>
-    <scopeInfo nodeId="7733366827988671291" fileName="TBaseBuilderContext.java" startLine="89" startPosition="0" endLine="95" endPosition="0" />
-    <scopeInfo nodeId="7733366827988671311" fileName="TBaseBuilderContext.java" startLine="96" startPosition="0" endLine="102" endPosition="0" />
-    <scopeInfo nodeId="7733366827988671385" fileName="TBaseBuilderContext.java" startLine="118" startPosition="49" endLine="124" endPosition="19">
-      <varInfo nodeId="7733366827988671387" varName="content" />
-    </scopeInfo>
-    <scopeInfo nodeId="7733366827988671438" fileName="TBaseBuilderContext.java" startLine="136" startPosition="0" endLine="142" endPosition="0" />
-    <scopeInfo nodeId="7733366827988671483" fileName="TBaseBuilderContext.java" startLine="151" startPosition="64" endLine="157" endPosition="5" />
-    <scopeInfo nodeId="7733366827988671074" fileName="TBaseBuilderContext.java" startLine="24" startPosition="42" endLine="31" endPosition="22">
-      <varInfo nodeId="7733366827988671084" varName="rootContent" />
-    </scopeInfo>
-    <scopeInfo nodeId="7733366827988671201" fileName="TBaseBuilderContext.java" startLine="58" startPosition="7" endLine="65" endPosition="5">
-      <varInfo nodeId="7733366827988671203" varName="c" />
-    </scopeInfo>
-    <scopeInfo nodeId="7733366827988671380" fileName="TBaseBuilderContext.java" startLine="118" startPosition="0" endLine="126" endPosition="0">
-      <varInfo nodeId="7733366827988671383" varName="name" />
-    </scopeInfo>
-    <scopeInfo nodeId="7733366827988671478" fileName="TBaseBuilderContext.java" startLine="151" startPosition="0" endLine="159" endPosition="0">
-      <varInfo nodeId="7733366827988671481" varName="v" />
-    </scopeInfo>
-    <scopeInfo nodeId="7733366827988671069" fileName="TBaseBuilderContext.java" startLine="24" startPosition="0" endLine="33" endPosition="0">
-      <varInfo nodeId="7733366827988671072" varName="buffer" />
-    </scopeInfo>
-    <scopeInfo nodeId="7733366827988671124" fileName="TBaseBuilderContext.java" startLine="38" startPosition="27" endLine="66" endPosition="30">
-      <varInfo nodeId="7733366827988671171" varName="sortedContents" />
-    </scopeInfo>
-    <scopeInfo nodeId="7733366827988671121" fileName="TBaseBuilderContext.java" startLine="38" startPosition="0" endLine="68" endPosition="0" />
-    <unitInfo nodeId="7733366827988652895" fileName="TBaseBuilderContext.java" startLine="160" startPosition="0" endLine="163" endPosition="0" unitName="jetbrains.mps.gtext.runtime.TBaseBuilderContext$ListenerVisitor" />
-    <unitInfo nodeId="7733366827988671148" fileName="TBaseBuilderContext.java" startLine="42" startPosition="15" endLine="47" endPosition="5" unitName="jetbrains.mps.gtext.runtime.TBaseBuilderContext$1" />
-    <unitInfo nodeId="7733366827988671192" fileName="TBaseBuilderContext.java" startLine="53" startPosition="41" endLine="58" endPosition="5" unitName="jetbrains.mps.gtext.runtime.TBaseBuilderContext$2" />
-    <unitInfo nodeId="7733366827988671037" fileName="TBaseBuilderContext.java" startLine="14" startPosition="0" endLine="164" endPosition="0" unitName="jetbrains.mps.gtext.runtime.TBaseBuilderContext" />
+    <file name="TBaseBuilderContext.java">
+      <node id="7733366827988671045" at="15,0,16,0" concept="10" trace="ROOT" />
+      <node id="7733366827988671049" at="16,0,17,0" concept="3" trace="myContents" />
+      <node id="7733366827988671054" at="17,0,18,0" concept="3" trace="myContentsStack" />
+      <node id="7733366827988671058" at="18,0,19,0" concept="3" trace="myBuffer" />
+      <node id="7733366827988671061" at="19,0,20,0" concept="3" trace="myListeners" />
+      <node id="7733366827988671075" at="22,42,23,22" concept="2" />
+      <node id="7733366827988671079" at="23,22,24,27" concept="2" />
+      <node id="7733366827988671083" at="24,27,25,54" concept="8" />
+      <node id="7733366827988671090" at="25,54,26,41" concept="2" />
+      <node id="7733366827988671096" at="26,41,27,31" concept="2" />
+      <node id="7733366827988671101" at="27,31,28,53" concept="2" />
+      <node id="7733366827988671109" at="28,53,29,22" concept="2" />
+      <node id="7733366827988671117" at="31,28,32,30" concept="2" />
+      <node id="7733366827988671132" at="35,41,36,139" concept="12" />
+      <node id="7733366827988671502" at="40,56,41,50" concept="2" />
+      <node id="7733366827988671161" at="44,36,45,32" concept="9" />
+      <node id="7733366827988671170" at="46,5,47,84" concept="8" />
+      <node id="7733366827988671180" at="47,84,48,53" concept="2" />
+      <node id="7733366827988671508" at="51,52,52,51" concept="9" />
+      <node id="7733366827988671230" at="56,34,57,128" concept="2" />
+      <node id="7733366827988671215" at="58,14,59,82" concept="2" />
+      <node id="7733366827988671244" at="61,5,62,30" concept="9" />
+      <node id="7733366827988671254" at="64,35,65,26" concept="2" />
+      <node id="7733366827988671263" at="67,30,68,28" concept="2" />
+      <node id="7733366827988671271" at="70,31,71,29" concept="2" />
+      <node id="7733366827988671279" at="73,32,74,30" concept="2" />
+      <node id="7733366827988671287" at="76,32,77,30" concept="2" />
+      <node id="7733366827988671302" at="80,29,81,51" concept="2" />
+      <node id="7733366827988671309" at="82,5,83,22" concept="9" />
+      <node id="7733366827988671321" at="86,34,87,46" concept="2" />
+      <node id="7733366827988671327" at="88,5,89,27" concept="9" />
+      <node id="7733366827988671333" at="91,38,92,65" concept="9" />
+      <node id="7733366827988671348" at="94,50,95,39" concept="8" />
+      <node id="7733366827988671353" at="95,39,96,40" concept="2" />
+      <node id="7733366827988671364" at="98,46,99,39" concept="8" />
+      <node id="7733366827988671369" at="99,39,100,31" concept="2" />
+      <node id="7733366827988671374" at="100,31,101,26" concept="2" />
+      <node id="7733366827988671386" at="103,49,104,47" concept="8" />
+      <node id="7733366827988671398" at="105,26,106,50" concept="2" />
+      <node id="7733366827988671406" at="106,50,107,39" concept="2" />
+      <node id="7733366827988671412" at="108,5,109,19" concept="9" />
+      <node id="7733366827988671418" at="111,33,112,29" concept="2" />
+      <node id="7733366827988671422" at="112,29,113,50" concept="2" />
+      <node id="7733366827988671434" at="115,39,116,37" concept="9" />
+      <node id="7733366827988671448" at="119,30,120,65" concept="2" />
+      <node id="7733366827988671454" at="121,5,122,23" concept="9" />
+      <node id="7733366827988671462" at="124,58,125,26" concept="2" />
+      <node id="7733366827988671473" at="127,61,128,29" concept="2" />
+      <node id="7733366827988671489" at="131,30,132,13" concept="9" />
+      <node id="7733366827988671495" at="134,55,135,17" concept="2" />
+      <node id="7733366827988671040" at="139,0,140,0" concept="7" trace="visit#(Ljetbrains/mps/gtext/runtime/TBaseBuilderContextListener;)V" />
+      <node id="7733366827988671065" at="20,0,22,0" concept="1" trace="TBaseBuilderContext#()V" />
+      <node id="7733366827988671213" at="58,12,60,7" concept="0" />
+      <node id="7733366827988671113" at="31,0,34,0" concept="7" trace="initBuffer#()V" />
+      <node id="7733366827988671125" at="34,27,37,5" concept="6" />
+      <node id="7733366827988671154" at="43,7,46,5" concept="6" />
+      <node id="7733366827988671248" at="64,0,67,0" concept="7" trace="append#(Ljava/lang/String;)V" />
+      <node id="7733366827988671259" at="67,0,70,0" concept="7" trace="appendIndent#()V" />
+      <node id="7733366827988671267" at="70,0,73,0" concept="7" trace="appendNewLine#()V" />
+      <node id="7733366827988671275" at="73,0,76,0" concept="7" trace="increaseIndent#()V" />
+      <node id="7733366827988671283" at="76,0,79,0" concept="7" trace="decreaseIndent#()V" />
+      <node id="7733366827988671297" at="79,49,82,5" concept="6" />
+      <node id="7733366827988671316" at="85,48,88,5" concept="6" />
+      <node id="7733366827988671329" at="91,0,94,0" concept="7" trace="getCurrentPosition#()I" />
+      <node id="7733366827988671430" at="115,0,118,0" concept="7" trace="getCurrentContent#()Ljetbrains/mps/gtext/runtime/TContent;" />
+      <node id="7733366827988671443" at="118,60,121,5" concept="6" />
+      <node id="7733366827988671456" at="124,0,127,0" concept="7" trace="addListener#(Ljetbrains/mps/gtext/runtime/TBaseBuilderContextListener;)V" />
+      <node id="7733366827988671467" at="127,0,130,0" concept="7" trace="removeListener#(Ljetbrains/mps/gtext/runtime/TBaseBuilderContextListener;)V" />
+      <node id="7733366827988671484" at="130,64,133,5" concept="6" />
+      <node id="7733366827988671490" at="133,5,136,5" concept="5" />
+      <node id="7733366827988671149" at="39,0,43,0" concept="7" trace="visit#(Ljetbrains/mps/gtext/runtime/TBaseBuilderContextListener;)V" />
+      <node id="7733366827988671194" at="50,0,54,0" concept="7" trace="compare#(Ljetbrains/mps/gtext/runtime/TContent;Ljetbrains/mps/gtext/runtime/TContent;)I" />
+      <node id="7733366827988671342" at="94,0,98,0" concept="7" trace="addContentPlaceholder#(Ljava/lang/String;)V" />
+      <node id="7733366827988671393" at="104,47,108,5" concept="6" />
+      <node id="7733366827988671414" at="111,0,115,0" concept="7" trace="endContentBlock#()V" />
+      <node id="7733366827988671206" at="55,39,60,7" concept="6" />
+      <node id="7733366827988671358" at="98,0,103,0" concept="7" trace="startContentBlock#(Ljava/lang/String;)V" />
+      <node id="7733366827988671144" at="37,5,43,7" concept="2" />
+      <node id="7733366827988671187" at="48,53,54,7" concept="2" />
+      <node id="7733366827988671291" at="79,0,85,0" concept="7" trace="getContents#()Ljava/util/Map;" />
+      <node id="7733366827988671311" at="85,0,91,0" concept="7" trace="getContentsStack#()Ljava/util/Stack;" />
+      <node id="7733366827988671438" at="118,0,124,0" concept="7" trace="getListeners#()Ljava/util/List;" />
+      <node id="7733366827988671201" at="54,7,61,5" concept="5" />
+      <node id="7733366827988671380" at="103,0,111,0" concept="7" trace="getContentBlock#(Ljava/lang/String;)Ljetbrains/mps/gtext/runtime/TContent;" />
+      <node id="7733366827988671478" at="130,0,138,0" concept="7" trace="notify#(Ljetbrains/mps/gtext/runtime/TBaseBuilderContext/ListenerVisitor;)V" />
+      <node id="7733366827988671069" at="22,0,31,0" concept="7" trace="initBuffer#(Ljetbrains/mps/gtext/runtime/TBuffer;)V" />
+      <node id="7733366827988671121" at="34,0,64,0" concept="7" trace="getText#()Ljava/lang/String;" />
+      <scope id="7733366827988671068" at="20,32,20,32" />
+      <scope id="7733366827988671116" at="31,28,32,30" />
+      <scope id="7733366827988671131" at="35,41,36,139" />
+      <scope id="7733366827988671501" at="40,56,41,50" />
+      <scope id="7733366827988671160" at="44,36,45,32" />
+      <scope id="7733366827988671507" at="51,52,52,51" />
+      <scope id="7733366827988671229" at="56,34,57,128" />
+      <scope id="7733366827988671214" at="58,14,59,82" />
+      <scope id="7733366827988671253" at="64,35,65,26" />
+      <scope id="7733366827988671262" at="67,30,68,28" />
+      <scope id="7733366827988671270" at="70,31,71,29" />
+      <scope id="7733366827988671278" at="73,32,74,30" />
+      <scope id="7733366827988671286" at="76,32,77,30" />
+      <scope id="7733366827988671301" at="80,29,81,51" />
+      <scope id="7733366827988671320" at="86,34,87,46" />
+      <scope id="7733366827988671332" at="91,38,92,65" />
+      <scope id="7733366827988671433" at="115,39,116,37" />
+      <scope id="7733366827988671447" at="119,30,120,65" />
+      <scope id="7733366827988671461" at="124,58,125,26" />
+      <scope id="7733366827988671472" at="127,61,128,29" />
+      <scope id="7733366827988671488" at="131,30,132,13" />
+      <scope id="7733366827988671494" at="134,55,135,17" />
+      <scope id="7733366827988671040" at="139,0,140,0">
+        <var name="l" id="7733366827988671043" />
+      </scope>
+      <scope id="7733366827988671065" at="20,0,22,0" />
+      <scope id="7733366827988671347" at="94,50,96,40">
+        <var name="c" id="7733366827988671349" />
+      </scope>
+      <scope id="7733366827988671397" at="105,26,107,39" />
+      <scope id="7733366827988671417" at="111,33,113,50" />
+      <scope id="7733366827988671113" at="31,0,34,0" />
+      <scope id="7733366827988671248" at="64,0,67,0">
+        <var name="text" id="7733366827988671251" />
+      </scope>
+      <scope id="7733366827988671259" at="67,0,70,0" />
+      <scope id="7733366827988671267" at="70,0,73,0" />
+      <scope id="7733366827988671275" at="73,0,76,0" />
+      <scope id="7733366827988671283" at="76,0,79,0" />
+      <scope id="7733366827988671329" at="91,0,94,0" />
+      <scope id="7733366827988671363" at="98,46,101,26">
+        <var name="c" id="7733366827988671365" />
+      </scope>
+      <scope id="7733366827988671430" at="115,0,118,0" />
+      <scope id="7733366827988671456" at="124,0,127,0">
+        <var name="l" id="7733366827988671459" />
+      </scope>
+      <scope id="7733366827988671467" at="127,0,130,0">
+        <var name="l" id="7733366827988671470" />
+      </scope>
+      <scope id="7733366827988671490" at="133,5,136,5">
+        <var name="l" id="7733366827988671492" />
+      </scope>
+      <scope id="7733366827988671149" at="39,0,43,0">
+        <var name="l" id="7733366827988671152" />
+      </scope>
+      <scope id="7733366827988671194" at="50,0,54,0">
+        <var name="o1" id="7733366827988671197" />
+        <var name="o2" id="7733366827988671199" />
+      </scope>
+      <scope id="7733366827988671296" at="79,49,83,22" />
+      <scope id="7733366827988671315" at="85,48,89,27" />
+      <scope id="7733366827988671342" at="94,0,98,0">
+        <var name="name" id="7733366827988671345" />
+      </scope>
+      <scope id="7733366827988671414" at="111,0,115,0" />
+      <scope id="7733366827988671442" at="118,60,122,23" />
+      <scope id="7733366827988671205" at="55,39,60,7" />
+      <scope id="7733366827988671358" at="98,0,103,0">
+        <var name="name" id="7733366827988671361" />
+      </scope>
+      <scope id="7733366827988671291" at="79,0,85,0" />
+      <scope id="7733366827988671311" at="85,0,91,0" />
+      <scope id="7733366827988671385" at="103,49,109,19">
+        <var name="content" id="7733366827988671387" />
+      </scope>
+      <scope id="7733366827988671438" at="118,0,124,0" />
+      <scope id="7733366827988671483" at="130,64,136,5" />
+      <scope id="7733366827988671074" at="22,42,29,22">
+        <var name="rootContent" id="7733366827988671084" />
+      </scope>
+      <scope id="7733366827988671201" at="54,7,61,5">
+        <var name="c" id="7733366827988671203" />
+      </scope>
+      <scope id="7733366827988671380" at="103,0,111,0">
+        <var name="name" id="7733366827988671383" />
+      </scope>
+      <scope id="7733366827988671478" at="130,0,138,0">
+        <var name="v" id="7733366827988671481" />
+      </scope>
+      <scope id="7733366827988671069" at="22,0,31,0">
+        <var name="buffer" id="7733366827988671072" />
+      </scope>
+      <scope id="7733366827988671124" at="34,27,62,30">
+        <var name="sortedContents" id="7733366827988671171" />
+      </scope>
+      <scope id="7733366827988671121" at="34,0,64,0" />
+      <unit id="7733366827988652895" at="138,0,141,0" name="jetbrains.mps.gtext.runtime.TBaseBuilderContext$ListenerVisitor" />
+      <unit id="7733366827988671148" at="38,15,43,5" name="jetbrains.mps.gtext.runtime.TBaseBuilderContext$1" />
+      <unit id="7733366827988671192" at="49,41,54,5" name="jetbrains.mps.gtext.runtime.TBaseBuilderContext$2" />
+      <unit id="7733366827988671037" at="14,0,142,0" name="jetbrains.mps.gtext.runtime.TBaseBuilderContext" />
+    </file>
   </root>
   <root nodeRef="r:1773d365-6692-4940-84a5-a678462b1f6f(jetbrains.mps.gtext.runtime)/7733366827988671516">
-    <nodeInfo nodeId="7733366827988681715" fileName="BaseHtmlStringUtil.java" startLine="8" startPosition="0" endLine="9" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="EMPTY_STRING" />
-    <nodeInfo nodeId="7733366827988681719" fileName="BaseHtmlStringUtil.java" startLine="9" startPosition="0" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="BAD_SYMBOL_CHAR" />
-    <nodeInfo nodeId="7733366827988681723" fileName="BaseHtmlStringUtil.java" startLine="10" startPosition="0" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="_charsToEntities" />
-    <nodeInfo nodeId="7733366827988681727" fileName="BaseHtmlStringUtil.java" startLine="11" startPosition="0" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="_charsToLiterals" />
-    <nodeInfo nodeId="7733366827988681731" fileName="BaseHtmlStringUtil.java" startLine="12" startPosition="0" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="_literalChars" />
-    <nodeInfo nodeId="7733366827988681734" fileName="BaseHtmlStringUtil.java" startLine="13" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="_newLine" />
-    <nodeInfo nodeId="7733366827988681739" fileName="BaseHtmlStringUtil.java" startLine="14" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="_doubleQuote" />
-    <nodeInfo nodeId="7733366827988681744" fileName="BaseHtmlStringUtil.java" startLine="15" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="_deprecatedIntervals" />
-    <nodeInfo nodeId="7733366827988681763" fileName="BaseHtmlStringUtil.java" startLine="21" startPosition="25" endLine="22" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7733366827988681765" fileName="BaseHtmlStringUtil.java" startLine="23" startPosition="5" endLine="24" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7733366827988681771" fileName="BaseHtmlStringUtil.java" startLine="24" startPosition="41" endLine="25" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7733366827988681777" fileName="BaseHtmlStringUtil.java" startLine="25" startPosition="38" endLine="26" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7733366827988681791" fileName="BaseHtmlStringUtil.java" startLine="27" startPosition="40" endLine="28" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7733366827988681820" fileName="BaseHtmlStringUtil.java" startLine="30" startPosition="30" endLine="31" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988681828" fileName="BaseHtmlStringUtil.java" startLine="31" startPosition="54" endLine="32" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988681837" fileName="BaseHtmlStringUtil.java" startLine="33" startPosition="9" endLine="34" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988681809" fileName="BaseHtmlStringUtil.java" startLine="36" startPosition="28" endLine="37" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988681849" fileName="BaseHtmlStringUtil.java" startLine="40" startPosition="26" endLine="41" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7733366827988681853" fileName="BaseHtmlStringUtil.java" startLine="42" startPosition="5" endLine="43" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7733366827988681866" fileName="BaseHtmlStringUtil.java" startLine="47" startPosition="25" endLine="48" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7733366827988681868" fileName="BaseHtmlStringUtil.java" startLine="49" startPosition="5" endLine="50" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7733366827988681874" fileName="BaseHtmlStringUtil.java" startLine="50" startPosition="41" endLine="51" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7733366827988681880" fileName="BaseHtmlStringUtil.java" startLine="51" startPosition="38" endLine="52" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7733366827988681894" fileName="BaseHtmlStringUtil.java" startLine="53" startPosition="40" endLine="54" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7733366827988681901" fileName="BaseHtmlStringUtil.java" startLine="54" startPosition="35" endLine="55" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7733366827988681935" fileName="BaseHtmlStringUtil.java" startLine="57" startPosition="30" endLine="58" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988681943" fileName="BaseHtmlStringUtil.java" startLine="58" startPosition="53" endLine="59" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988681952" fileName="BaseHtmlStringUtil.java" startLine="60" startPosition="9" endLine="61" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988681924" fileName="BaseHtmlStringUtil.java" startLine="63" startPosition="28" endLine="64" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988681962" fileName="BaseHtmlStringUtil.java" startLine="67" startPosition="26" endLine="68" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7733366827988681966" fileName="BaseHtmlStringUtil.java" startLine="69" startPosition="5" endLine="70" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7733366827988681979" fileName="BaseHtmlStringUtil.java" startLine="74" startPosition="25" endLine="75" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7733366827988681981" fileName="BaseHtmlStringUtil.java" startLine="76" startPosition="5" endLine="77" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7733366827988682000" fileName="BaseHtmlStringUtil.java" startLine="81" startPosition="25" endLine="82" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7733366827988682002" fileName="BaseHtmlStringUtil.java" startLine="83" startPosition="5" endLine="84" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7733366827988682016" fileName="BaseHtmlStringUtil.java" startLine="87" startPosition="79" endLine="88" endPosition="90" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7733366827988681702" fileName="BaseHtmlStringUtil.java" startLine="92" startPosition="0" endLine="93" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="start" />
-    <nodeInfo nodeId="7733366827988681705" fileName="BaseHtmlStringUtil.java" startLine="93" startPosition="0" endLine="94" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="end" />
-    <nodeInfo nodeId="7733366827988682178" fileName="BaseHtmlStringUtil.java" startLine="95" startPosition="59" endLine="96" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988682184" fileName="BaseHtmlStringUtil.java" startLine="96" startPosition="25" endLine="97" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988682022" fileName="BaseHtmlStringUtil.java" startLine="101" startPosition="10" endLine="102" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988682030" fileName="BaseHtmlStringUtil.java" startLine="102" startPosition="41" endLine="103" endPosition="562" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988682087" fileName="BaseHtmlStringUtil.java" startLine="105" startPosition="80" endLine="106" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988682093" fileName="BaseHtmlStringUtil.java" startLine="108" startPosition="5" endLine="109" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988682099" fileName="BaseHtmlStringUtil.java" startLine="109" startPosition="35" endLine="110" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988682105" fileName="BaseHtmlStringUtil.java" startLine="110" startPosition="35" endLine="111" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988682111" fileName="BaseHtmlStringUtil.java" startLine="111" startPosition="36" endLine="112" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988682117" fileName="BaseHtmlStringUtil.java" startLine="112" startPosition="38" endLine="113" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988682123" fileName="BaseHtmlStringUtil.java" startLine="113" startPosition="37" endLine="114" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988682131" fileName="BaseHtmlStringUtil.java" startLine="114" startPosition="39" endLine="115" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988682137" fileName="BaseHtmlStringUtil.java" startLine="115" startPosition="30" endLine="116" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988682143" fileName="BaseHtmlStringUtil.java" startLine="116" startPosition="36" endLine="117" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988682149" fileName="BaseHtmlStringUtil.java" startLine="117" startPosition="36" endLine="118" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988682155" fileName="BaseHtmlStringUtil.java" startLine="118" startPosition="35" endLine="119" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988682161" fileName="BaseHtmlStringUtil.java" startLine="119" startPosition="35" endLine="120" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988682167" fileName="BaseHtmlStringUtil.java" startLine="120" startPosition="35" endLine="121" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988682173" fileName="BaseHtmlStringUtil.java" startLine="121" startPosition="35" endLine="122" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7733366827988681748" fileName="BaseHtmlStringUtil.java" startLine="17" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="BaseHtmlStringUtil#()V" />
-    <nodeInfo nodeId="7733366827988681758" fileName="BaseHtmlStringUtil.java" startLine="20" startPosition="50" endLine="23" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="7733366827988681804" fileName="BaseHtmlStringUtil.java" startLine="35" startPosition="12" endLine="38" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="7733366827988681844" fileName="BaseHtmlStringUtil.java" startLine="39" startPosition="5" endLine="42" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="7733366827988681861" fileName="BaseHtmlStringUtil.java" startLine="46" startPosition="59" endLine="49" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="7733366827988681919" fileName="BaseHtmlStringUtil.java" startLine="62" startPosition="12" endLine="65" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="7733366827988681957" fileName="BaseHtmlStringUtil.java" startLine="66" startPosition="5" endLine="69" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="7733366827988681974" fileName="BaseHtmlStringUtil.java" startLine="73" startPosition="56" endLine="76" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="7733366827988681995" fileName="BaseHtmlStringUtil.java" startLine="80" startPosition="66" endLine="83" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="7733366827988682010" fileName="BaseHtmlStringUtil.java" startLine="87" startPosition="0" endLine="90" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="singleLineAnddoubleToSingleQuotes#(Ljava/lang/String;)Ljava/lang/String;" />
-    <nodeInfo nodeId="7733366827988682073" fileName="BaseHtmlStringUtil.java" startLine="104" startPosition="98" endLine="107" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="7733366827988681815" fileName="BaseHtmlStringUtil.java" startLine="29" startPosition="40" endLine="33" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="7733366827988681930" fileName="BaseHtmlStringUtil.java" startLine="56" startPosition="28" endLine="60" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="7733366827988681708" fileName="BaseHtmlStringUtil.java" startLine="95" startPosition="0" endLine="99" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="DeprecatedSymbolsInterval#(II)V" />
-    <nodeInfo nodeId="7733366827988682068" fileName="BaseHtmlStringUtil.java" startLine="103" startPosition="562" endLine="108" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="7733366827988681968" fileName="BaseHtmlStringUtil.java" startLine="73" startPosition="0" endLine="79" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="singleLine#(Ljava/lang/String;)Ljava/lang/String;" />
-    <nodeInfo nodeId="7733366827988681989" fileName="BaseHtmlStringUtil.java" startLine="80" startPosition="0" endLine="86" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="doubleToSingleQuotes#(Ljava/lang/String;)Ljava/lang/String;" />
-    <nodeInfo nodeId="7733366827988681798" fileName="BaseHtmlStringUtil.java" startLine="28" startPosition="35" endLine="38" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="7733366827988681915" fileName="BaseHtmlStringUtil.java" startLine="55" startPosition="84" endLine="65" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="7733366827988681781" fileName="BaseHtmlStringUtil.java" startLine="26" startPosition="33" endLine="39" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="7733366827988681884" fileName="BaseHtmlStringUtil.java" startLine="52" startPosition="33" endLine="66" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="7733366827988681752" fileName="BaseHtmlStringUtil.java" startLine="20" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="html#(Ljava/lang/Object;)Ljava/lang/String;" />
-    <nodeInfo nodeId="7733366827988681855" fileName="BaseHtmlStringUtil.java" startLine="46" startPosition="0" endLine="72" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="stringLiteral#(Ljava/lang/Object;)Ljava/lang/String;" />
-    <scopeInfo nodeId="7733366827988681751" fileName="BaseHtmlStringUtil.java" startLine="17" startPosition="34" endLine="17" endPosition="34" />
-    <scopeInfo nodeId="7733366827988681762" fileName="BaseHtmlStringUtil.java" startLine="21" startPosition="25" endLine="22" endPosition="26" />
-    <scopeInfo nodeId="7733366827988681808" fileName="BaseHtmlStringUtil.java" startLine="36" startPosition="28" endLine="37" endPosition="26" />
-    <scopeInfo nodeId="7733366827988681848" fileName="BaseHtmlStringUtil.java" startLine="40" startPosition="26" endLine="41" endPosition="32" />
-    <scopeInfo nodeId="7733366827988681865" fileName="BaseHtmlStringUtil.java" startLine="47" startPosition="25" endLine="48" endPosition="26" />
-    <scopeInfo nodeId="7733366827988681923" fileName="BaseHtmlStringUtil.java" startLine="63" startPosition="28" endLine="64" endPosition="26" />
-    <scopeInfo nodeId="7733366827988681961" fileName="BaseHtmlStringUtil.java" startLine="67" startPosition="26" endLine="68" endPosition="32" />
-    <scopeInfo nodeId="7733366827988681978" fileName="BaseHtmlStringUtil.java" startLine="74" startPosition="25" endLine="75" endPosition="26" />
-    <scopeInfo nodeId="7733366827988681999" fileName="BaseHtmlStringUtil.java" startLine="81" startPosition="25" endLine="82" endPosition="26" />
-    <scopeInfo nodeId="7733366827988682015" fileName="BaseHtmlStringUtil.java" startLine="87" startPosition="79" endLine="88" endPosition="90" />
-    <scopeInfo nodeId="7733366827988682086" fileName="BaseHtmlStringUtil.java" startLine="105" startPosition="80" endLine="106" endPosition="46" />
-    <scopeInfo nodeId="7733366827988681748" fileName="BaseHtmlStringUtil.java" startLine="17" startPosition="0" endLine="19" endPosition="0" />
-    <scopeInfo nodeId="7733366827988681819" fileName="BaseHtmlStringUtil.java" startLine="30" startPosition="30" endLine="32" endPosition="46" />
-    <scopeInfo nodeId="7733366827988681934" fileName="BaseHtmlStringUtil.java" startLine="57" startPosition="30" endLine="59" endPosition="46" />
-    <scopeInfo nodeId="7733366827988682177" fileName="BaseHtmlStringUtil.java" startLine="95" startPosition="59" endLine="97" endPosition="21" />
-    <scopeInfo nodeId="7733366827988682010" fileName="BaseHtmlStringUtil.java" startLine="87" startPosition="0" endLine="90" endPosition="0">
-      <varInfo nodeId="7733366827988682013" varName="string" />
-    </scopeInfo>
-    <scopeInfo nodeId="7733366827988682072" fileName="BaseHtmlStringUtil.java" startLine="104" startPosition="98" endLine="107" endPosition="7" />
-    <scopeInfo nodeId="7733366827988682073" fileName="BaseHtmlStringUtil.java" startLine="104" startPosition="98" endLine="107" endPosition="7">
-      <varInfo nodeId="7733366827988682079" varName="i" />
-    </scopeInfo>
-    <scopeInfo nodeId="7733366827988681973" fileName="BaseHtmlStringUtil.java" startLine="73" startPosition="56" endLine="77" endPosition="52" />
-    <scopeInfo nodeId="7733366827988681994" fileName="BaseHtmlStringUtil.java" startLine="80" startPosition="66" endLine="84" endPosition="56" />
-    <scopeInfo nodeId="7733366827988681708" fileName="BaseHtmlStringUtil.java" startLine="95" startPosition="0" endLine="99" endPosition="0">
-      <varInfo nodeId="7733366827988681713" varName="end" />
-      <varInfo nodeId="7733366827988681711" varName="start" />
-    </scopeInfo>
-    <scopeInfo nodeId="7733366827988681814" fileName="BaseHtmlStringUtil.java" startLine="29" startPosition="40" endLine="34" endPosition="44" />
-    <scopeInfo nodeId="7733366827988681929" fileName="BaseHtmlStringUtil.java" startLine="56" startPosition="28" endLine="61" endPosition="32" />
-    <scopeInfo nodeId="7733366827988682068" fileName="BaseHtmlStringUtil.java" startLine="103" startPosition="562" endLine="108" endPosition="5">
-      <varInfo nodeId="7733366827988682070" varName="deprecatedInterval" />
-    </scopeInfo>
-    <scopeInfo nodeId="7733366827988681968" fileName="BaseHtmlStringUtil.java" startLine="73" startPosition="0" endLine="79" endPosition="0">
-      <varInfo nodeId="7733366827988681971" varName="string" />
-    </scopeInfo>
-    <scopeInfo nodeId="7733366827988681989" fileName="BaseHtmlStringUtil.java" startLine="80" startPosition="0" endLine="86" endPosition="0">
-      <varInfo nodeId="7733366827988681992" varName="string" />
-    </scopeInfo>
-    <scopeInfo nodeId="7733366827988681790" fileName="BaseHtmlStringUtil.java" startLine="27" startPosition="40" endLine="38" endPosition="7">
-      <varInfo nodeId="7733366827988681792" varName="c" />
-    </scopeInfo>
-    <scopeInfo nodeId="7733366827988681893" fileName="BaseHtmlStringUtil.java" startLine="53" startPosition="40" endLine="65" endPosition="7">
-      <varInfo nodeId="7733366827988681895" varName="c" />
-      <varInfo nodeId="7733366827988681902" varName="literal" />
-    </scopeInfo>
-    <scopeInfo nodeId="7733366827988681781" fileName="BaseHtmlStringUtil.java" startLine="26" startPosition="33" endLine="39" endPosition="5">
-      <varInfo nodeId="7733366827988681785" varName="i" />
-    </scopeInfo>
-    <scopeInfo nodeId="7733366827988681884" fileName="BaseHtmlStringUtil.java" startLine="52" startPosition="33" endLine="66" endPosition="5">
-      <varInfo nodeId="7733366827988681888" varName="i" />
-    </scopeInfo>
-    <scopeInfo nodeId="7733366827988682021" fileName="BaseHtmlStringUtil.java" startLine="101" startPosition="10" endLine="122" endPosition="40" />
-    <scopeInfo nodeId="7733366827988681757" fileName="BaseHtmlStringUtil.java" startLine="20" startPosition="50" endLine="43" endPosition="15">
-      <varInfo nodeId="7733366827988681778" varName="builder" />
-      <varInfo nodeId="7733366827988681772" varName="capacity" />
-      <varInfo nodeId="7733366827988681766" varName="str" />
-    </scopeInfo>
-    <scopeInfo nodeId="7733366827988681860" fileName="BaseHtmlStringUtil.java" startLine="46" startPosition="59" endLine="70" endPosition="15">
-      <varInfo nodeId="7733366827988681881" varName="builder" />
-      <varInfo nodeId="7733366827988681875" varName="capacity" />
-      <varInfo nodeId="7733366827988681869" varName="str" />
-    </scopeInfo>
-    <scopeInfo nodeId="7733366827988681752" fileName="BaseHtmlStringUtil.java" startLine="20" startPosition="0" endLine="45" endPosition="0">
-      <varInfo nodeId="7733366827988681755" varName="object" />
-    </scopeInfo>
-    <scopeInfo nodeId="7733366827988681855" fileName="BaseHtmlStringUtil.java" startLine="46" startPosition="0" endLine="72" endPosition="0">
-      <varInfo nodeId="7733366827988681858" varName="object" />
-    </scopeInfo>
-    <unitInfo nodeId="7733366827988681699" fileName="BaseHtmlStringUtil.java" startLine="91" startPosition="0" endLine="100" endPosition="0" unitName="jetbrains.mps.gtext.runtime.BaseHtmlStringUtil$DeprecatedSymbolsInterval" />
-    <unitInfo nodeId="7733366827988671516" fileName="BaseHtmlStringUtil.java" startLine="7" startPosition="0" endLine="125" endPosition="0" unitName="jetbrains.mps.gtext.runtime.BaseHtmlStringUtil" />
+    <file name="BaseHtmlStringUtil.java">
+      <node id="7733366827988681715" at="8,0,9,0" concept="10" trace="EMPTY_STRING" />
+      <node id="7733366827988681719" at="9,0,10,0" concept="10" trace="BAD_SYMBOL_CHAR" />
+      <node id="7733366827988681723" at="10,0,11,0" concept="10" trace="_charsToEntities" />
+      <node id="7733366827988681727" at="11,0,12,0" concept="10" trace="_charsToLiterals" />
+      <node id="7733366827988681731" at="12,0,13,0" concept="10" trace="_literalChars" />
+      <node id="7733366827988681734" at="13,0,14,0" concept="10" trace="_newLine" />
+      <node id="7733366827988681739" at="14,0,15,0" concept="10" trace="_doubleQuote" />
+      <node id="7733366827988681744" at="15,0,16,0" concept="10" trace="_deprecatedIntervals" />
+      <node id="7733366827988681763" at="19,25,20,26" concept="9" />
+      <node id="7733366827988681765" at="21,5,22,41" concept="8" />
+      <node id="7733366827988681771" at="22,41,23,38" concept="8" />
+      <node id="7733366827988681777" at="23,38,24,33" concept="8" />
+      <node id="7733366827988681791" at="25,40,26,35" concept="8" />
+      <node id="7733366827988681820" at="28,30,29,54" concept="2" />
+      <node id="7733366827988681828" at="29,54,30,46" concept="2" />
+      <node id="7733366827988681837" at="31,9,32,44" concept="2" />
+      <node id="7733366827988681809" at="34,28,35,26" concept="2" />
+      <node id="7733366827988681849" at="38,26,39,32" concept="9" />
+      <node id="7733366827988681853" at="40,5,41,15" concept="9" />
+      <node id="7733366827988681866" at="44,25,45,26" concept="9" />
+      <node id="7733366827988681868" at="46,5,47,41" concept="8" />
+      <node id="7733366827988681874" at="47,41,48,38" concept="8" />
+      <node id="7733366827988681880" at="48,38,49,33" concept="8" />
+      <node id="7733366827988681894" at="50,40,51,35" concept="8" />
+      <node id="7733366827988681901" at="51,35,52,84" concept="8" />
+      <node id="7733366827988681935" at="54,30,55,53" concept="2" />
+      <node id="7733366827988681943" at="55,53,56,46" concept="2" />
+      <node id="7733366827988681952" at="57,9,58,32" concept="2" />
+      <node id="7733366827988681924" at="60,28,61,26" concept="2" />
+      <node id="7733366827988681962" at="64,26,65,32" concept="9" />
+      <node id="7733366827988681966" at="66,5,67,15" concept="9" />
+      <node id="7733366827988681979" at="70,25,71,26" concept="9" />
+      <node id="7733366827988681981" at="72,5,73,52" concept="9" />
+      <node id="7733366827988682000" at="76,25,77,26" concept="9" />
+      <node id="7733366827988682002" at="78,5,79,56" concept="9" />
+      <node id="7733366827988682016" at="81,79,82,90" concept="9" />
+      <node id="7733366827988681702" at="85,0,86,0" concept="3" trace="start" />
+      <node id="7733366827988681705" at="86,0,87,0" concept="3" trace="end" />
+      <node id="7733366827988682178" at="87,59,88,25" concept="2" />
+      <node id="7733366827988682184" at="88,25,89,21" concept="2" />
+      <node id="7733366827988682022" at="92,10,93,41" concept="2" />
+      <node id="7733366827988682030" at="93,41,94,562" concept="2" />
+      <node id="7733366827988682087" at="96,80,97,46" concept="2" />
+      <node id="7733366827988682093" at="99,5,100,35" concept="2" />
+      <node id="7733366827988682099" at="100,35,101,35" concept="2" />
+      <node id="7733366827988682105" at="101,35,102,36" concept="2" />
+      <node id="7733366827988682111" at="102,36,103,38" concept="2" />
+      <node id="7733366827988682117" at="103,38,104,37" concept="2" />
+      <node id="7733366827988682123" at="104,37,105,39" concept="2" />
+      <node id="7733366827988682131" at="105,39,106,30" concept="2" />
+      <node id="7733366827988682137" at="106,30,107,36" concept="2" />
+      <node id="7733366827988682143" at="107,36,108,36" concept="2" />
+      <node id="7733366827988682149" at="108,36,109,35" concept="2" />
+      <node id="7733366827988682155" at="109,35,110,35" concept="2" />
+      <node id="7733366827988682161" at="110,35,111,35" concept="2" />
+      <node id="7733366827988682167" at="111,35,112,35" concept="2" />
+      <node id="7733366827988682173" at="112,35,113,40" concept="2" />
+      <node id="7733366827988681748" at="16,0,18,0" concept="1" trace="BaseHtmlStringUtil#()V" />
+      <node id="7733366827988681758" at="18,50,21,5" concept="6" />
+      <node id="7733366827988681804" at="33,12,36,7" concept="6" />
+      <node id="7733366827988681844" at="37,5,40,5" concept="6" />
+      <node id="7733366827988681861" at="43,59,46,5" concept="6" />
+      <node id="7733366827988681919" at="59,12,62,7" concept="6" />
+      <node id="7733366827988681957" at="63,5,66,5" concept="6" />
+      <node id="7733366827988681974" at="69,56,72,5" concept="6" />
+      <node id="7733366827988681995" at="75,66,78,5" concept="6" />
+      <node id="7733366827988682010" at="81,0,84,0" concept="11" trace="singleLineAnddoubleToSingleQuotes#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="7733366827988682073" at="95,98,98,7" concept="4" />
+      <node id="7733366827988681815" at="27,40,31,9" concept="6" />
+      <node id="7733366827988681930" at="53,28,57,9" concept="6" />
+      <node id="7733366827988681708" at="87,0,91,0" concept="1" trace="DeprecatedSymbolsInterval#(II)V" />
+      <node id="7733366827988682068" at="94,562,99,5" concept="5" />
+      <node id="7733366827988681968" at="69,0,75,0" concept="11" trace="singleLine#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="7733366827988681989" at="75,0,81,0" concept="11" trace="doubleToSingleQuotes#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="7733366827988681798" at="26,35,36,7" concept="6" />
+      <node id="7733366827988681915" at="52,84,62,7" concept="6" />
+      <node id="7733366827988681781" at="24,33,37,5" concept="4" />
+      <node id="7733366827988681884" at="49,33,63,5" concept="4" />
+      <node id="7733366827988681752" at="18,0,43,0" concept="11" trace="html#(Ljava/lang/Object;)Ljava/lang/String;" />
+      <node id="7733366827988681855" at="43,0,69,0" concept="11" trace="stringLiteral#(Ljava/lang/Object;)Ljava/lang/String;" />
+      <scope id="7733366827988681751" at="16,34,16,34" />
+      <scope id="7733366827988681762" at="19,25,20,26" />
+      <scope id="7733366827988681808" at="34,28,35,26" />
+      <scope id="7733366827988681848" at="38,26,39,32" />
+      <scope id="7733366827988681865" at="44,25,45,26" />
+      <scope id="7733366827988681923" at="60,28,61,26" />
+      <scope id="7733366827988681961" at="64,26,65,32" />
+      <scope id="7733366827988681978" at="70,25,71,26" />
+      <scope id="7733366827988681999" at="76,25,77,26" />
+      <scope id="7733366827988682015" at="81,79,82,90" />
+      <scope id="7733366827988682086" at="96,80,97,46" />
+      <scope id="7733366827988681748" at="16,0,18,0" />
+      <scope id="7733366827988681819" at="28,30,30,46" />
+      <scope id="7733366827988681934" at="54,30,56,46" />
+      <scope id="7733366827988682177" at="87,59,89,21" />
+      <scope id="7733366827988682010" at="81,0,84,0">
+        <var name="string" id="7733366827988682013" />
+      </scope>
+      <scope id="7733366827988682072" at="95,98,98,7" />
+      <scope id="7733366827988682073" at="95,98,98,7">
+        <var name="i" id="7733366827988682079" />
+      </scope>
+      <scope id="7733366827988681973" at="69,56,73,52" />
+      <scope id="7733366827988681994" at="75,66,79,56" />
+      <scope id="7733366827988681708" at="87,0,91,0">
+        <var name="end" id="7733366827988681713" />
+        <var name="start" id="7733366827988681711" />
+      </scope>
+      <scope id="7733366827988681814" at="27,40,32,44" />
+      <scope id="7733366827988681929" at="53,28,58,32" />
+      <scope id="7733366827988682068" at="94,562,99,5">
+        <var name="deprecatedInterval" id="7733366827988682070" />
+      </scope>
+      <scope id="7733366827988681968" at="69,0,75,0">
+        <var name="string" id="7733366827988681971" />
+      </scope>
+      <scope id="7733366827988681989" at="75,0,81,0">
+        <var name="string" id="7733366827988681992" />
+      </scope>
+      <scope id="7733366827988681790" at="25,40,36,7">
+        <var name="c" id="7733366827988681792" />
+      </scope>
+      <scope id="7733366827988681893" at="50,40,62,7">
+        <var name="c" id="7733366827988681895" />
+        <var name="literal" id="7733366827988681902" />
+      </scope>
+      <scope id="7733366827988681781" at="24,33,37,5">
+        <var name="i" id="7733366827988681785" />
+      </scope>
+      <scope id="7733366827988681884" at="49,33,63,5">
+        <var name="i" id="7733366827988681888" />
+      </scope>
+      <scope id="7733366827988682021" at="92,10,113,40" />
+      <scope id="7733366827988681757" at="18,50,41,15">
+        <var name="builder" id="7733366827988681778" />
+        <var name="capacity" id="7733366827988681772" />
+        <var name="str" id="7733366827988681766" />
+      </scope>
+      <scope id="7733366827988681860" at="43,59,67,15">
+        <var name="builder" id="7733366827988681881" />
+        <var name="capacity" id="7733366827988681875" />
+        <var name="str" id="7733366827988681869" />
+      </scope>
+      <scope id="7733366827988681752" at="18,0,43,0">
+        <var name="object" id="7733366827988681755" />
+      </scope>
+      <scope id="7733366827988681855" at="43,0,69,0">
+        <var name="object" id="7733366827988681858" />
+      </scope>
+      <unit id="7733366827988681699" at="84,0,92,0" name="jetbrains.mps.gtext.runtime.BaseHtmlStringUtil$DeprecatedSymbolsInterval" />
+      <unit id="7733366827988671516" at="7,0,116,0" name="jetbrains.mps.gtext.runtime.BaseHtmlStringUtil" />
+    </file>
   </root>
-</debugInfo>
+</debug-info>
 

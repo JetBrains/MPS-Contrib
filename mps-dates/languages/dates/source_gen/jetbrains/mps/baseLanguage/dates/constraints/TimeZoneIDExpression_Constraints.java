@@ -15,7 +15,6 @@ public class TimeZoneIDExpression_Constraints extends BaseConstraintsDescriptor 
   public TimeZoneIDExpression_Constraints() {
     super("jetbrains.mps.baseLanguage.dates.structure.TimeZoneIDExpression");
   }
-
   @Override
   protected Map<String, PropertyConstraintsDescriptor> getNotDefaultProperties() {
     Map<String, PropertyConstraintsDescriptor> properties = new HashMap();
@@ -24,7 +23,6 @@ public class TimeZoneIDExpression_Constraints extends BaseConstraintsDescriptor 
       public boolean hasOwnValidator() {
         return true;
       }
-
       @Override
       public boolean validateValue(SNode node, String propertyValue) {
         String propertyName = "timezone_id";

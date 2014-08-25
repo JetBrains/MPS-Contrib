@@ -17,7 +17,6 @@ import jetbrains.mps.lang.typesystem.runtime.HUtil;
 public class typeof_GetUserDataExpression_InferenceRule extends AbstractInferenceRule_Runtime implements InferenceRule_Runtime {
   public typeof_GetUserDataExpression_InferenceRule() {
   }
-
   public void applyRule(final SNode getUserDataExpression, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
     final SNode t_typevar_314981645426570131 = typeCheckingContext.createNewRuntimeTypesVariable();
     {
@@ -31,22 +30,18 @@ public class typeof_GetUserDataExpression_InferenceRule extends AbstractInferenc
       typeCheckingContext.createLessThanInequality((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:3d1d89d4-ed40-464f-804b-a59886f41d55(jetbrains.mps.execution.configurations.deprecated.typesystem)", "314981645426570140", true), (SNode) _quotation_createNode_xw47et_a0c0b(typeCheckingContext.getRepresentative(t_typevar_314981645426570131)), false, false, _info_12389875345);
     }
   }
-
   public String getApplicableConceptFQName() {
     return "jetbrains.mps.execution.configurations.deprecated.structure.GetUserDataExpression";
   }
-
   public IsApplicableStatus isApplicableAndPattern(SNode argument) {
     {
       boolean b = SModelUtil_new.isAssignableConcept(argument.getConcept().getQualifiedName(), this.getApplicableConceptFQName());
       return new IsApplicableStatus(b, null);
     }
   }
-
   public boolean overrides() {
     return false;
   }
-
   private static SNode _quotation_createNode_xw47et_a0c0b(Object parameter_1) {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_2 = null;

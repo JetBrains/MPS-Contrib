@@ -30,7 +30,6 @@ public class FlowChecker {
       }
     }
   }
-
   public static void checkCirculation(Graph graph, Map<Edge, Integer> low, Map<Edge, Integer> capacity, Map<Edge, Integer> circulation) {
     for (Edge edge : ListSequence.fromList(graph.getEdges())) {
       Assert.assertTrue(MapSequence.fromMap(capacity).get(edge) >= MapSequence.fromMap(circulation).get(edge));
@@ -40,7 +39,6 @@ public class FlowChecker {
       checkConservation(node, circulation);
     }
   }
-
   private static void checkConservation(Node node, Map<Edge, Integer> flow) {
     int inFlow = 0;
     for (Edge edge : ListSequence.fromList(node.getInEdges())) {

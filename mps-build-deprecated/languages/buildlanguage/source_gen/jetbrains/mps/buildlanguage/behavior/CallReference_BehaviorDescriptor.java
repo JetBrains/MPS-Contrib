@@ -8,19 +8,15 @@ import org.jetbrains.mps.openapi.language.SConcept;
 public class CallReference_BehaviorDescriptor extends PropertyValueExpression_BehaviorDescriptor {
   public CallReference_BehaviorDescriptor() {
   }
-
   public String virtual_getActualValue_1213877472572(SNode thisNode) {
     return CallReference_Behavior.virtual_getActualValue_1213877472572(thisNode);
   }
-
   public String virtual_getCallName_1262430001741497852(SConcept thisConcept) {
     return CallReference_Behavior.virtual_getCallName_1262430001741497852(thisConcept);
   }
-
   public String virtual_toString_1213877472569(SNode thisNode) {
     return CallReference_Behavior.virtual_toString_1213877472569(thisNode);
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.buildlanguage.structure.CallReference";

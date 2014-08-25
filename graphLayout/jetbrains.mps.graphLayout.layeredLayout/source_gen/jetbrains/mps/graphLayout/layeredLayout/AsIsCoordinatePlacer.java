@@ -14,7 +14,6 @@ import jetbrains.mps.internal.collections.runtime.MapSequence;
 public class AsIsCoordinatePlacer implements ICoordinatePlacer {
   public AsIsCoordinatePlacer() {
   }
-
   @Override
   public Map<Node, Point> placeCoordinates(Graph graph, NodeLayeredOrder order) {
     Map<Node, Point> placement = new NodeMap<Point>(graph);

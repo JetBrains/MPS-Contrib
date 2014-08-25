@@ -22,7 +22,6 @@ public class TargetReference_Constraints extends BaseConstraintsDescriptor {
   public TargetReference_Constraints() {
     super("jetbrains.mps.buildlanguage.structure.TargetReference");
   }
-
   @Override
   protected Map<String, ReferenceConstraintsDescriptor> getNotDefaultReferences() {
     Map<String, ReferenceConstraintsDescriptor> references = new HashMap();
@@ -31,7 +30,6 @@ public class TargetReference_Constraints extends BaseConstraintsDescriptor {
       public boolean hasOwnScopeProvider() {
         return true;
       }
-
       @Nullable
       @Override
       public ReferenceScopeProvider getScopeProvider() {
@@ -41,7 +39,6 @@ public class TargetReference_Constraints extends BaseConstraintsDescriptor {
             SNode project = SNodeOperations.getAncestor(_context.getEnclosingNode(), "jetbrains.mps.buildlanguage.structure.Project", true, false);
             return Project_Behavior.call_getAllTargets_1213877351828(project);
           }
-
           @Override
           public SNodeReference getSearchScopeValidatorNode() {
             return breakingNode_qs3fug_a0a1a0a0a1a0b0a1a1;
@@ -51,6 +48,5 @@ public class TargetReference_Constraints extends BaseConstraintsDescriptor {
     });
     return references;
   }
-
   private static SNodePointer breakingNode_qs3fug_a0a1a0a0a1a0b0a1a1 = new SNodePointer("r:00000000-0000-4000-0000-011c895904c1(jetbrains.mps.buildlanguage.constraints)", "1213104847184");
 }

@@ -22,7 +22,6 @@ public class AssertXMLEquals_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_bzxsv2_a(editorContext, node);
   }
-
   private EditorCell createCollection_bzxsv2_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_bzxsv2_a");
@@ -35,7 +34,6 @@ public class AssertXMLEquals_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createConstant_bzxsv2_f0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_bzxsv2_a0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "assert XML");
     editorCell.setCellId("Constant_bzxsv2_a0");
@@ -45,7 +43,6 @@ public class AssertXMLEquals_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefNode_bzxsv2_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("actual");
@@ -65,7 +62,6 @@ public class AssertXMLEquals_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createConstant_bzxsv2_c0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "equals");
     editorCell.setCellId("Constant_bzxsv2_c0");
@@ -75,7 +71,6 @@ public class AssertXMLEquals_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefNode_bzxsv2_d0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("expected");
@@ -95,7 +90,6 @@ public class AssertXMLEquals_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createComponent_bzxsv2_e0(EditorContext editorContext, SNode node) {
     EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.baseLanguage.unitTest.editor.MessageComponent");
     Style style = new StyleImpl();
@@ -103,7 +97,6 @@ public class AssertXMLEquals_Editor extends DefaultNodeEditor {
     editorCell.getStyle().putAll(style);
     return editorCell;
   }
-
   private EditorCell createConstant_bzxsv2_f0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ";");
     editorCell.setCellId("Constant_bzxsv2_f0");

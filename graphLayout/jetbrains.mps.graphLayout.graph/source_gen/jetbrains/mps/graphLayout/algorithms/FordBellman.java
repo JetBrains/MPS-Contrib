@@ -25,13 +25,11 @@ public class FordBellman {
   private Map<Edge, Integer> myWeights;
   private Map<Node, Edge> myPrev;
   private Map<Node, Integer> myDist;
-
   public FordBellman(Graph graph, Node source, Map<Edge, Integer> weights) {
     myGraph = graph;
     mySource = source;
     myWeights = weights;
   }
-
   public void doAlgorithm(final _FunctionTypes._return_P1_E0<? extends Boolean, ? super Edge> edgeFilter, Edge.Direction direction) {
     init(direction, edgeFilter);
 
@@ -56,7 +54,6 @@ public class FordBellman {
       }
     }
   }
-
   public void doAlgorithm() {
     doAlgorithm(new _FunctionTypes._return_P1_E0<Boolean, Edge>() {
       public Boolean invoke(Edge edge) {
@@ -64,7 +61,6 @@ public class FordBellman {
       }
     }, Edge.Direction.FRONT);
   }
-
   private void init(Edge.Direction direction, _FunctionTypes._return_P1_E0<? extends Boolean, ? super Edge> filter) {
     myDirection = direction;
     myFilter = filter;
@@ -75,7 +71,6 @@ public class FordBellman {
     }
     MapSequence.fromMap(myDist).put(mySource, 0);
   }
-
   public List<Edge> getShortestPath(Node target) {
     List<Edge> path = ListSequence.fromList(new LinkedList<Edge>());
     if ((Integer) MapSequence.fromMap(myDist).get(target) == ShortestPath.INF) {
@@ -89,7 +84,6 @@ public class FordBellman {
     }
     return path;
   }
-
   public List<Edge> getNegativeCycleReachableFromSource() {
     for (Node node : ListSequence.fromList(myGraph.getNodes())) {
       int sourceDist = MapSequence.fromMap(myDist).get(node);
@@ -133,11 +127,9 @@ public class FordBellman {
     }
     return null;
   }
-
   public boolean isReachableFromSource(Node target) {
     return MapSequence.fromMap(myDist).get(target) != ShortestPath.INF;
   }
-
   public static List<Edge> getNegativeCycle(Graph graph, Map<Edge, Integer> weights, _FunctionTypes._return_P1_E0<? extends Boolean, ? super Edge> filter, Edge.Direction direction) {
     Set<Node> visited = SetSequence.fromSet(new HashSet<Node>());
     for (Node node : ListSequence.fromList(graph.getNodes())) {

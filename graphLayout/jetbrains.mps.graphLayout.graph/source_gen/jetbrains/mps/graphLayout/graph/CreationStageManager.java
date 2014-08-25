@@ -10,7 +10,6 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 public class CreationStageManager implements IGraphModificationListener {
   private int myStage;
   private Map<Object, Integer> myCreationStage;
-
   public CreationStageManager(Graph graph) {
     myStage = 0;
     myCreationStage = MapSequence.fromMap(new HashMap<Object, Integer>());
@@ -23,7 +22,6 @@ public class CreationStageManager implements IGraphModificationListener {
     nextStage();
     graph.addListener(this);
   }
-
   @Override
   public void process(GraphModificationEvent event) {
     switch (event.getType()) {
@@ -36,15 +34,12 @@ public class CreationStageManager implements IGraphModificationListener {
       default:
     }
   }
-
   private void putStage(Object object) {
     MapSequence.fromMap(myCreationStage).put(object, myStage);
   }
-
   public void nextStage() {
     myStage++;
   }
-
   public int getStage(Object object) {
     return MapSequence.fromMap(myCreationStage).get(object);
   }

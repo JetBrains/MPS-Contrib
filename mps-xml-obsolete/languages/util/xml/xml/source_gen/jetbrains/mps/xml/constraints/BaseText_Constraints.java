@@ -8,7 +8,6 @@ public class BaseText_Constraints extends BaseConstraintsDescriptor {
   public BaseText_Constraints() {
     super("jetbrains.mps.xml.structure.BaseText");
   }
-
   public String getDefaultConcreteConceptFqName() {
     return "jetbrains.mps.xml.structure.Text";
   }

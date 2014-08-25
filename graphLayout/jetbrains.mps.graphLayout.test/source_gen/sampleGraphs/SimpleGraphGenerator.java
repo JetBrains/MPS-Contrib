@@ -12,11 +12,9 @@ import jetbrains.mps.internal.collections.runtime.ISelector;
 public class SimpleGraphGenerator extends BasicGraphGenerator {
   private static int MAX_EDGE_GEN = 100;
   private int[] myComponents;
-
   public SimpleGraphGenerator(int numNodes, int minEdges, int maxEdges) {
     super(numNodes, minEdges, maxEdges);
   }
-
   @Override
   protected Edge generateEdge(Graph graph) {
     for (int iter = 0; iter < MAX_EDGE_GEN; iter++) {
@@ -35,7 +33,6 @@ public class SimpleGraphGenerator extends BasicGraphGenerator {
     }
     return null;
   }
-
   private boolean canConnect(final Node source, Node target) {
     List<Node> sourceComp = ListSequence.fromList(source.getEdges()).select(new ISelector<Edge, Node>() {
       public Node select(Edge edge) {
@@ -48,7 +45,6 @@ public class SimpleGraphGenerator extends BasicGraphGenerator {
       return false;
     }
   }
-
   @Override
   protected Graph generateGraph() {
     int numNodes = getNumNodes();

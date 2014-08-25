@@ -20,34 +20,27 @@ public class Frame extends JComponent {
   private Events myEvents = new Events(null) {
     {
     }
-
     public void initialize() {
     }
   };
-
   public Frame() {
     this.myThis = this;
     Frame component = this;
     this.myEvents.initialize();
   }
-
   public Events getEvents() {
     return this.myEvents;
   }
-
   public void addNotify() {
     super.addNotify();
     this.bind();
   }
-
   public void removeNotify() {
     this.unbind();
     super.removeNotify();
   }
-
   private void bind() {
   }
-
   private void unbind() {
     for (AutoBinding binding : this.myBindings) {
       if (binding.isBound()) {
@@ -55,41 +48,33 @@ public class Frame extends JComponent {
       }
     }
   }
-
   public String getTitle() {
     return this.myTitle;
   }
-
   public boolean getVisible() {
     return this.myVisible;
   }
-
   public Dimension getSize() {
     return this.mySize;
   }
-
   public int getDefaultCloseOperation() {
     return this.myDefaultCloseOperation;
   }
-
   public void setTitle(String newValue) {
     String oldValue = this.myTitle;
     this.myTitle = newValue;
     this.firePropertyChange("title", oldValue, newValue);
   }
-
   public void setVisible(boolean newValue) {
     boolean oldValue = this.myVisible;
     this.myVisible = newValue;
     this.firePropertyChange("visible", oldValue, newValue);
   }
-
   public void setSize(Dimension newValue) {
     Dimension oldValue = this.mySize;
     this.mySize = newValue;
     this.firePropertyChange("size", oldValue, newValue);
   }
-
   public void setDefaultCloseOperation(int newValue) {
     int oldValue = this.myDefaultCloseOperation;
     this.myDefaultCloseOperation = newValue;

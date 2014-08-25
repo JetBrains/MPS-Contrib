@@ -16,45 +16,35 @@ import jetbrains.mps.generator.template.WeavingMappingRuleContext;
 @Generated
 public class QueriesGenerated {
   public final boolean NEEDS_OPCONTEXT = false;
-
   public static Object propertyMacro_GetPropertyValue_1202820804630(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), "label");
   }
-
   public static Object propertyMacro_GetPropertyValue_1202822134016(final PropertyMacroContext _context) {
     SNode parent = SNodeOperations.cast(SNodeOperations.getParent(_context.getNode()), "jetbrains.mps.uiLanguage.structure.Form");
     return ListSequence.fromList(SLinkOperations.getTargets(parent, "part", true)).indexOf(_context.getNode());
   }
-
   public static Object propertyMacro_GetPropertyValue_1202822099795(final PropertyMacroContext _context) {
     return ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "part", true)).count();
   }
-
   public static Object propertyMacro_GetPropertyValue_1202822227345(final PropertyMacroContext _context) {
     SNode parent = SNodeOperations.cast(SNodeOperations.getParent(_context.getNode()), "jetbrains.mps.uiLanguage.structure.Form");
     return ListSequence.fromList(SLinkOperations.getTargets(parent, "part", true)).indexOf(_context.getNode());
   }
-
   public static SNode sourceNodeQuery_1202821118006(final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "content", true);
   }
-
   public static SNode sourceNodeQuery_1202821815645(final SourceSubstituteMacroNodeContext _context) {
     return _context.getNode();
   }
-
   public static Iterable<SNode> sourceNodesQuery_1202820804680(final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "part", true);
   }
-
   public static Iterable<SNode> sourceNodesQuery_1202821115845(final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "part", true);
   }
-
   public static Iterable<SNode> sourceNodesQuery_1202821811859(final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "content", true);
   }
-
   public static SNode weaving_MappingRule_ContextNodeQuery_1202822661803(final WeavingMappingRuleContext _context) {
     return _context.getCopiedOutputNodeForInputNode(SLinkOperations.getTarget(_context.getNode(), "content", true));
   }

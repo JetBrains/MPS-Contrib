@@ -17,7 +17,6 @@ public class NamespaceDeclaration_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_4r64p2_a(editorContext, node);
   }
-
   private EditorCell createCollection_4r64p2_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_4r64p2_a");
@@ -30,14 +29,12 @@ public class NamespaceDeclaration_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createConstant_4r64p2_f0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_4r64p2_a0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "namespace");
     editorCell.setCellId("Constant_4r64p2_a0");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createProperty_4r64p2_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("prefix");
@@ -55,21 +52,18 @@ public class NamespaceDeclaration_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createConstant_4r64p2_c0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "=");
     editorCell.setCellId("Constant_4r64p2_c0");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createConstant_4r64p2_d0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\"");
     editorCell.setCellId("Constant_4r64p2_d0");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createProperty_4r64p2_e0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("uri");
@@ -87,7 +81,6 @@ public class NamespaceDeclaration_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createConstant_4r64p2_f0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\"");
     editorCell.setCellId("Constant_4r64p2_f0");

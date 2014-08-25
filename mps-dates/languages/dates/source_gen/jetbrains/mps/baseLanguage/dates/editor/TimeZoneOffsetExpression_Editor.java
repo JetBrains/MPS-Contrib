@@ -20,7 +20,6 @@ public class TimeZoneOffsetExpression_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_q7k010_a(editorContext, node);
   }
-
   private EditorCell createCollection_q7k010_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_q7k010_a");
@@ -28,14 +27,12 @@ public class TimeZoneOffsetExpression_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createModelAccess_q7k010_a0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createModelAccess_q7k010_a0(final EditorContext editorContext, final SNode node) {
     ModelAccessor modelAccessor = new ModelAccessor() {
       public String getText() {
         DateTimeZone zone = DateTimeZone.forOffsetMillis(SPropertyOperations.getInteger(node, "offsetmillis"));
         return DateTimeFormat.forPattern("ZZ").print(new DateTime(zone));
       }
-
       public void setText(String text) {
         try {
           DateTime dt = DateTimeFormat.forPattern("Z").withOffsetParsed().parseDateTime(text);
@@ -45,7 +42,6 @@ public class TimeZoneOffsetExpression_Editor extends DefaultNodeEditor {
         } catch (RuntimeException ignored) {
         }
       }
-
       public boolean isValidText(String text) {
         try {
           DateTime dt = DateTimeFormat.forPattern("Z").withOffsetParsed().parseDateTime(text);

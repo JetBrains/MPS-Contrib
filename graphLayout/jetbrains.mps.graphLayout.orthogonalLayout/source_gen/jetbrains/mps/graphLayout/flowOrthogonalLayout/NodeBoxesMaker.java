@@ -30,7 +30,6 @@ public class NodeBoxesMaker {
   private Map<Dart, Direction2D> myDirections;
   private Set<Face> myBoxFaces;
   private Map<Edge, Integer> myBoxEdgeLengths;
-
   public NodeBoxesMaker(EmbeddedGraph embeddedGraph, Map<Dart, Direction2D> directions) {
     myGraph = embeddedGraph.getGraph();
     myEmbeddedGraph = embeddedGraph;
@@ -38,7 +37,6 @@ public class NodeBoxesMaker {
     myBoxFaces = SetSequence.fromSet(new HashSet<Face>());
     myBoxEdgeLengths = MapSequence.fromMap(new HashMap<Edge, Integer>());
   }
-
   public void makeBoxes(Map<Node, Dimension> nodeSizes) {
     if (SHOW_INFO > 0) {
       System.out.println("Making boxes for nodes");
@@ -76,7 +74,6 @@ public class NodeBoxesMaker {
     }
 
   }
-
   private Node splitEdge(Edge oldEdge) {
     Node source = oldEdge.getSource();
     Node target = oldEdge.getTarget();
@@ -97,7 +94,6 @@ public class NodeBoxesMaker {
     MapSequence.fromMap(myDirections).removeKey(targetDart);
     return node;
   }
-
   private Map<Direction2D, List<Edge>> makeRectangleForNode(Node node) {
     List<Dart> darts = myEmbeddedGraph.getDartWithSource(node);
     Map<Direction2D, List<Edge>> edgesInDirection = MapSequence.fromMap(new HashMap<Direction2D, List<Edge>>());
@@ -173,7 +169,6 @@ public class NodeBoxesMaker {
     }
     return edgesInDirection;
   }
-
   private void printEmbeddedGraph() {
     for (Face face : ListSequence.fromList(myEmbeddedGraph.getFaces())) {
       System.out.println("face: ");
@@ -189,11 +184,9 @@ public class NodeBoxesMaker {
       }
     }
   }
-
   public Set<Face> getBoxFaces() {
     return myBoxFaces;
   }
-
   public Map<Edge, Integer> getBoxEdgeLengths() {
     return myBoxEdgeLengths;
   }

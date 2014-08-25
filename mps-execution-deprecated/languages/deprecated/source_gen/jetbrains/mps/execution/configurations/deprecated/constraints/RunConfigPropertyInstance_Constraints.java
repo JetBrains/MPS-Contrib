@@ -26,7 +26,6 @@ public class RunConfigPropertyInstance_Constraints extends BaseConstraintsDescri
   public RunConfigPropertyInstance_Constraints() {
     super("jetbrains.mps.execution.configurations.deprecated.structure.RunConfigPropertyInstance");
   }
-
   @Override
   protected Map<String, PropertyConstraintsDescriptor> getNotDefaultProperties() {
     Map<String, PropertyConstraintsDescriptor> properties = new HashMap();
@@ -35,7 +34,6 @@ public class RunConfigPropertyInstance_Constraints extends BaseConstraintsDescri
       public boolean hasOwnGetter() {
         return true;
       }
-
       @Override
       public Object getValue(SNode node) {
         String propertyName = "name";
@@ -47,7 +45,6 @@ public class RunConfigPropertyInstance_Constraints extends BaseConstraintsDescri
     });
     return properties;
   }
-
   @Override
   protected Map<String, ReferenceConstraintsDescriptor> getNotDefaultReferences() {
     Map<String, ReferenceConstraintsDescriptor> references = new HashMap();
@@ -56,7 +53,6 @@ public class RunConfigPropertyInstance_Constraints extends BaseConstraintsDescri
       public boolean hasOwnScopeProvider() {
         return true;
       }
-
       @Nullable
       @Override
       public ReferenceScopeProvider getScopeProvider() {
@@ -73,7 +69,6 @@ public class RunConfigPropertyInstance_Constraints extends BaseConstraintsDescri
             }
             return SLinkOperations.getTargets(runConfig, "property", true);
           }
-
           @Override
           public SNodeReference getSearchScopeValidatorNode() {
             return breakingNode_dpzxjb_a0a1a0a0a1a0b0a1a2;
@@ -83,6 +78,5 @@ public class RunConfigPropertyInstance_Constraints extends BaseConstraintsDescri
     });
     return references;
   }
-
   private static SNodePointer breakingNode_dpzxjb_a0a1a0a0a1a0b0a1a2 = new SNodePointer("r:4ab4c6eb-58ca-426d-b62d-119c0aacbe5e(jetbrains.mps.execution.configurations.deprecated.constraints)", "314981645426570883");
 }

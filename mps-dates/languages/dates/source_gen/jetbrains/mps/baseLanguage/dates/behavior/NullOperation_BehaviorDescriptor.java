@@ -7,11 +7,9 @@ import org.jetbrains.mps.openapi.model.SNode;
 public class NullOperation_BehaviorDescriptor extends DateTimeOperation_BehaviorDescriptor {
   public NullOperation_BehaviorDescriptor() {
   }
-
   public boolean virtual_operandCanBeNull_323410281720656291(SNode thisNode) {
     return NullOperation_Behavior.virtual_operandCanBeNull_323410281720656291(thisNode);
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.baseLanguage.dates.structure.NullOperation";

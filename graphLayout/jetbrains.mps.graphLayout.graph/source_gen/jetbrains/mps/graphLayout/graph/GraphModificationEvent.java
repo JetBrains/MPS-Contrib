@@ -9,39 +9,31 @@ public class GraphModificationEvent {
   private Node myNode = null;
   private Edge myEdge = null;
   private List<Edge> mySplit = null;
-
   public GraphModificationEvent(GraphModificationEvent.Type type, Node node) {
     myType = type;
     myNode = node;
   }
-
   public GraphModificationEvent(GraphModificationEvent.Type type, Edge edge) {
     myType = type;
     myEdge = edge;
   }
-
   public GraphModificationEvent(GraphModificationEvent.Type type, Edge edge, List<Edge> split) {
     myType = type;
     myEdge = edge;
     mySplit = split;
   }
-
   public Node getNode() {
     return myNode;
   }
-
   public Edge getEdge() {
     return myEdge;
   }
-
   public List<Edge> getSplit() {
     return mySplit;
   }
-
   public GraphModificationEvent.Type getType() {
     return myType;
   }
-
   public static   enum Type {
     NODE_CREATED(),
     NODE_DETETED(),

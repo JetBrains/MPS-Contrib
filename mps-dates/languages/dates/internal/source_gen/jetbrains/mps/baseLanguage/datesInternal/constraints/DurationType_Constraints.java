@@ -15,7 +15,6 @@ public class DurationType_Constraints extends BaseConstraintsDescriptor {
   public DurationType_Constraints() {
     super("jetbrains.mps.baseLanguage.datesInternal.structure.DurationType");
   }
-
   @Override
   protected Map<String, PropertyConstraintsDescriptor> getNotDefaultProperties() {
     Map<String, PropertyConstraintsDescriptor> properties = new HashMap();
@@ -24,7 +23,6 @@ public class DurationType_Constraints extends BaseConstraintsDescriptor {
       public boolean hasOwnGetter() {
         return true;
       }
-
       @Override
       public Object getValue(SNode node) {
         String propertyName = "name";

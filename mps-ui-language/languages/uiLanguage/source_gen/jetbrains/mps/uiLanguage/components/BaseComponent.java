@@ -19,34 +19,27 @@ public class BaseComponent extends JComponent {
   private Events myEvents = new Events(null) {
     {
     }
-
     public void initialize() {
     }
   };
-
   public BaseComponent() {
     this.myThis = this;
     BaseComponent component = this;
     this.myEvents.initialize();
   }
-
   public Events getEvents() {
     return this.myEvents;
   }
-
   public void addNotify() {
     super.addNotify();
     this.bind();
   }
-
   public void removeNotify() {
     this.unbind();
     super.removeNotify();
   }
-
   private void bind() {
   }
-
   private void unbind() {
     for (AutoBinding binding : this.myBindings) {
       if (binding.isBound()) {
@@ -54,21 +47,17 @@ public class BaseComponent extends JComponent {
       }
     }
   }
-
   public LayoutManager getLayout() {
     return this.myLayout;
   }
-
   public Border getBorder() {
     return this.myBorder;
   }
-
   public void setLayout(LayoutManager newValue) {
     LayoutManager oldValue = this.myLayout;
     this.myLayout = newValue;
     this.firePropertyChange("layout", oldValue, newValue);
   }
-
   public void setBorder(Border newValue) {
     Border oldValue = this.myBorder;
     this.myBorder = newValue;

@@ -22,10 +22,8 @@ import jetbrains.mps.graphLayout.graph.GraphModificationEvent;
 
 public class BiconnectedInitialEmbeddingFinder implements IEmbeddingFinder {
   private static int SHOW_LOG = 0;
-
   public BiconnectedInitialEmbeddingFinder() {
   }
-
   @Override
   public EmbeddedGraph find(Graph graph) {
     EmbeddedGraph embeddedGraph = new EmbeddedGraph(graph);
@@ -47,7 +45,6 @@ public class BiconnectedInitialEmbeddingFinder implements IEmbeddingFinder {
     }
     return embeddedGraph;
   }
-
   private void addPath(EmbeddedGraph embeddedGraph, final Node start, final Node toAdd, Set<Node> toBeAdded) {
     if (SHOW_LOG > 0) {
       System.out.println("before: \n" + embeddedGraph);
@@ -87,7 +84,6 @@ public class BiconnectedInitialEmbeddingFinder implements IEmbeddingFinder {
     }
     connect(embeddedGraph, path, start, cur);
   }
-
   private void findCycle(EmbeddedGraph embeddedGraph) {
     Set<Node> visited = SetSequence.fromSet(new HashSet<Node>());
     List<Dart> darts = ListSequence.fromList(new ArrayList<Dart>());
@@ -126,7 +122,6 @@ public class BiconnectedInitialEmbeddingFinder implements IEmbeddingFinder {
     embeddedGraph.addFace(outerFace);
     embeddedGraph.setOuterFace(outerFace);
   }
-
   public void connect(EmbeddedGraph embeddedGraph, List<Edge> path, Node start, Node end) {
     Graph graph = embeddedGraph.getGraph();
     DualGraph dualGraph = new DualGraph(embeddedGraph);

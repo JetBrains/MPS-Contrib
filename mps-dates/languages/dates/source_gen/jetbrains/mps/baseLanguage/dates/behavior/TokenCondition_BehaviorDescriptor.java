@@ -10,11 +10,9 @@ import org.jetbrains.mps.openapi.language.SConcept;
 public class TokenCondition_BehaviorDescriptor extends ConceptFunction_BehaviorDescriptor {
   public TokenCondition_BehaviorDescriptor() {
   }
-
   public List<SNode> virtual_getApplicableConceptFunctionParameter_3044950653914717136(SConcept thisConcept) {
     return TokenCondition_Behavior.virtual_getApplicableConceptFunctionParameter_3044950653914717136(thisConcept);
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.baseLanguage.dates.structure.TokenCondition";

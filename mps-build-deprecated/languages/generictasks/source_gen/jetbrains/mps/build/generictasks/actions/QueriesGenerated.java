@@ -48,7 +48,6 @@ public class QueriesGenerated {
     }
     return result;
   }
-
   public static boolean nodeSubstituteActionsBuilder_Precondition_PropertyValueExpression_353793545802854369(final IOperationContext operationContext, final NodeSubstitutePreconditionContext _context) {
     if (!(SNodeOperations.isInstanceOf(_context.getParentNode(), "jetbrains.mps.build.generictasks.structure.Attribute"))) {
       return false;

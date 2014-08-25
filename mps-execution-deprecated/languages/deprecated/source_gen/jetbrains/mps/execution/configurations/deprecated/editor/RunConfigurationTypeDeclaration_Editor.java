@@ -37,7 +37,6 @@ public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_wgm1kr_a(editorContext, node);
   }
-
   private EditorCell createCollection_wgm1kr_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_wgm1kr_a");
@@ -52,7 +51,6 @@ public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
     }
     return editorCell;
   }
-
   private EditorCell createCollection_wgm1kr_a0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_wgm1kr_a0");
@@ -65,7 +63,6 @@ public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
     }
     return editorCell;
   }
-
   private EditorCell createCollection_wgm1kr_a0a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_wgm1kr_a0a");
@@ -73,7 +70,6 @@ public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createProperty_wgm1kr_b0a0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_wgm1kr_a0a0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "run configuration type");
     editorCell.setCellId("Constant_wgm1kr_a0a0");
@@ -83,7 +79,6 @@ public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createProperty_wgm1kr_b0a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("name");
@@ -104,7 +99,6 @@ public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createConstant_wgm1kr_b0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "{");
     editorCell.setCellId("Constant_wgm1kr_b0a");
@@ -116,11 +110,9 @@ public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private static boolean renderingCondition_wgm1kr_a1a0(SNode node, EditorContext editorContext) {
     return BlockCells.useBraces();
   }
-
   private EditorCell createCollection_wgm1kr_b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_wgm1kr_b0");
@@ -131,12 +123,10 @@ public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createCollection_wgm1kr_b1a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createIndentCell_wgm1kr_a1a(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
     return editorCell;
   }
-
   private EditorCell createCollection_wgm1kr_b1a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_wgm1kr_b1a");
@@ -146,7 +136,6 @@ public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createCollection_wgm1kr_c1b0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createCollection_wgm1kr_a1b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_wgm1kr_a1b0");
@@ -157,14 +146,12 @@ public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createProperty_wgm1kr_b0b1a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_wgm1kr_a0b1a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "caption:");
     editorCell.setCellId("Constant_wgm1kr_a0b1a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createProperty_wgm1kr_b0b1a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("caption");
@@ -182,7 +169,6 @@ public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createCollection_wgm1kr_b1b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_wgm1kr_b1b0");
@@ -193,14 +179,12 @@ public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createProperty_wgm1kr_b1b1a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_wgm1kr_a1b1a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "description:");
     editorCell.setCellId("Constant_wgm1kr_a1b1a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createProperty_wgm1kr_b1b1a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("description");
@@ -219,7 +203,6 @@ public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createCollection_wgm1kr_c1b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_wgm1kr_c1b0");
@@ -231,7 +214,6 @@ public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createJComponent_wgm1kr_c2b1a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_wgm1kr_a2b1a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "icon:");
     editorCell.setCellId("Constant_wgm1kr_a2b1a");
@@ -241,7 +223,6 @@ public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createAlternation_wgm1kr_b2b1a(EditorContext editorContext, SNode node) {
     boolean alternationCondition = true;
     alternationCondition = RunConfigurationTypeDeclaration_Editor.renderingCondition_wgm1kr_a1c1b0(node, editorContext);
@@ -253,7 +234,6 @@ public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
     }
     return editorCell;
   }
-
   private static boolean renderingCondition_wgm1kr_a1c1b0(SNode node, EditorContext editorContext) {
     String path = null;
     SModule module = SNodeOperations.getModel(node).getModule();
@@ -262,7 +242,6 @@ public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
     }
     return path != null && FileSystem.getInstance().getFileByPath(path).exists();
   }
-
   private EditorCell createCollection_wgm1kr_a1c1b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_wgm1kr_a1c1b0");
@@ -273,7 +252,6 @@ public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createProperty_wgm1kr_b0b2b1a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createImage_wgm1kr_a0b2b1a(final EditorContext editorContext, final SNode node) {
     EditorCell_Image editorCell;
     editorCell = EditorCell_Image.createImageCell(editorContext, node, new _FunctionTypes._return_P0_E0<String>() {
@@ -285,7 +263,6 @@ public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
     editorCell.setDescent(0);
     return editorCell;
   }
-
   private EditorCell createProperty_wgm1kr_b0b2b1a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("iconPath");
@@ -303,7 +280,6 @@ public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createConstant_wgm1kr_a1c1b0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<no icon>");
     editorCell.setCellId("Constant_wgm1kr_a1c1b0");
@@ -313,17 +289,14 @@ public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createJComponent_wgm1kr_c2b1a(EditorContext editorContext, SNode node) {
     EditorCell editorCell = EditorCell_Component.createComponentCell(editorContext, node, RunConfigurationTypeDeclaration_Editor._QueryFunction_JComponent_wgm1kr_a2c1b0(node, editorContext), "_wgm1kr_c2b1a");
     editorCell.setCellId("JComponent_wgm1kr_c2b1a");
     return editorCell;
   }
-
   private static JComponent _QueryFunction_JComponent_wgm1kr_a2c1b0(final SNode node, final EditorContext editorContext) {
     return EditorUtil.createSelectIconButton(node, "iconPath", editorContext);
   }
-
   private EditorCell createConstant_wgm1kr_c0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "}");
     editorCell.setCellId("Constant_wgm1kr_c0");
@@ -335,7 +308,6 @@ public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private static boolean renderingCondition_wgm1kr_a2a(SNode node, EditorContext editorContext) {
     return BlockCells.useBraces();
   }

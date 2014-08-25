@@ -7,7 +7,6 @@ import jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor;
 public class OccursAttribute_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor {
   public OccursAttribute_BehaviorDescriptor() {
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.xmlSchema.structure.OccursAttribute";

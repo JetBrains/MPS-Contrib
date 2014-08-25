@@ -25,18 +25,15 @@ public class Element_elementDeclaration implements ConceptEditorComponent {
   public Collection<String> getContextHints() {
     return Collections.emptyList();
   }
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_vbcaz4_a(editorContext, node);
   }
-
   private EditorCell createCollection_vbcaz4_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_vbcaz4_a");
     editorCell.addEditorCell(this.createRefCell_vbcaz4_a0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createRefCell_vbcaz4_a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("elementDeclaration");
@@ -58,29 +55,23 @@ public class Element_elementDeclaration implements ConceptEditorComponent {
     } else
     return editorCell;
   }
-
   public static class _Inline_vbcaz4_a0a extends InlineCellProvider {
     public _Inline_vbcaz4_a0a() {
       super();
     }
-
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
     }
-
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
       return this.createReadOnlyModelAccessor_vbcaz4_a0a0(editorContext, node);
     }
-
     private EditorCell createReadOnlyModelAccessor_vbcaz4_a0a0(final EditorContext editorContext, final SNode node) {
       EditorCell_Property editorCell = EditorCell_Property.create(editorContext, new ModelAccessor() {
         public String getText() {
           return ElementDeclaration_Behavior.call_getQualifiedName_1213877429904(node);
         }
-
         public void setText(String s) {
         }
-
         public boolean isValidText(String s) {
           return EqualUtil.equals(s, getText());
         }

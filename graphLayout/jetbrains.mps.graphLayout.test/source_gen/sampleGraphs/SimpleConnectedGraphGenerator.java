@@ -9,7 +9,6 @@ public class SimpleConnectedGraphGenerator extends SimpleGraphGenerator {
   public SimpleConnectedGraphGenerator(int numNodes, int minEdges, int maxEdges) {
     super(numNodes, minEdges, maxEdges);
   }
-
   @Override
   protected boolean checkGraph(Graph graph) {
     if (!(super.checkGraph(graph))) {

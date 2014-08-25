@@ -14,7 +14,6 @@ public class StringLiteral_Constraints extends BaseConstraintsDescriptor {
   public StringLiteral_Constraints() {
     super("jetbrains.mps.buildlanguage.structure.StringLiteral");
   }
-
   @Override
   protected Map<String, PropertyConstraintsDescriptor> getNotDefaultProperties() {
     Map<String, PropertyConstraintsDescriptor> properties = new HashMap();
@@ -23,7 +22,6 @@ public class StringLiteral_Constraints extends BaseConstraintsDescriptor {
       public boolean hasOwnGetter() {
         return true;
       }
-
       @Override
       public Object getValue(SNode node) {
         String propertyName = "name";

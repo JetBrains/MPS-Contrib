@@ -22,7 +22,6 @@ public class BuiltInTaskDeclaration_Behavior {
     SPropertyOperations.set(thisNode, "depracated", "" + (false));
     SPropertyOperations.set(thisNode, "fake", "" + (false));
   }
-
   public static List<SNode> virtual_getAttributesDeclarations_1190349257898147625(SNode thisNode) {
     List<SNode> attrs = new ArrayList<SNode>();
     ListSequence.fromList(attrs).addSequence(ListSequence.fromList(SLinkOperations.getTargets(thisNode, "attributesDecl", true)));
@@ -43,7 +42,6 @@ public class BuiltInTaskDeclaration_Behavior {
     }
     return attrs;
   }
-
   public static List<SNode> virtual_getNestedTasks_4241383766070831847(SNode thisNode) {
     List<SNode> nested = new ArrayList<SNode>();
     for (SNode nref : ListSequence.fromList(SLinkOperations.getTargets(thisNode, "nested", true))) {
@@ -56,7 +54,6 @@ public class BuiltInTaskDeclaration_Behavior {
     }
     return nested;
   }
-
   public static List<SNode> call_getFakeDeclarations_353793545802644200(SNode thisNode) {
     List<SNode> result = new ArrayList<SNode>();
     for (SNode declaration : ListSequence.fromList(SLinkOperations.getTargets(thisNode, "fakeDeclaration", true))) {
@@ -69,7 +66,6 @@ public class BuiltInTaskDeclaration_Behavior {
     }
     return result;
   }
-
   public static boolean virtual_isHeirOf_5699548131010535069(SNode thisNode, SNode probableParent) {
     if (SNodeOperations.isInstanceOf(probableParent, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration") && SPropertyOperations.getBoolean(SNodeOperations.cast(probableParent, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration"), "fake")) {
       SNode declOfProbableParent = SNodeOperations.cast(probableParent, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration");
@@ -102,42 +98,34 @@ public class BuiltInTaskDeclaration_Behavior {
     }
     return false;
   }
-
   public static boolean virtual_canBeRootTask_1449762848926780427(SNode thisNode) {
     return BehaviorReflection.invokeSuper(Boolean.TYPE, thisNode, "jetbrains.mps.build.generictasks.structure.ITaskDeclaration", "virtual_canBeRootTask_1449762848926780427", new Object[]{}) && !(SPropertyOperations.getBoolean(thisNode, "fake"));
   }
-
   public static Iterable<SNode> virtual_getPossibleNesteds_1449762848926780436(SNode thisNode, List<SNode> declarations) {
     return Sequence.fromIterable(BehaviorReflection.invokeSuper((Class<Iterable<SNode>>) ((Class) Object.class), thisNode, "jetbrains.mps.build.generictasks.structure.ITaskDeclaration", "virtual_getPossibleNesteds_1449762848926780436", new Object[]{declarations})).union(ListSequence.fromList(BuiltInTaskDeclaration_Behavior.call_getFakeDeclarations_353793545802644200(thisNode)));
   }
-
   public static boolean virtual_isPossibleNested_1648602681640249389(SNode thisNode, SNode declaration, List<SNode> nestedTasks) {
     return BehaviorReflection.invokeSuper(Boolean.TYPE, thisNode, "jetbrains.mps.build.generictasks.structure.ITaskDeclaration", "virtual_isPossibleNested_1648602681640249389", new Object[]{declaration, nestedTasks}) || ListSequence.fromList(BuiltInTaskDeclaration_Behavior.call_getFakeDeclarations_353793545802644200(thisNode)).contains(declaration);
   }
-
   public static boolean virtual_filterMeOut_4710899751214010949(SNode thisNode) {
     return SPropertyOperations.getBoolean(thisNode, "fake");
   }
-
   public static boolean call_isInGeneratedModels_1445805690439864419(SAbstractConcept thisConcept, SModel model) {
     return eq_y5o5bz_a0a0j(check_y5o5bz_a0a0i(check_y5o5bz_a0a0a8(model)), PersistenceFacade.getInstance().createModuleReference("fba399db-f591-45dc-a279-e2a2a986e262(jetbrains.mps.build.generictasks)"));
   }
-
+  private static boolean eq_y5o5bz_a0a0j(Object a, Object b) {
+    return (a != null ? a.equals(b) : a == b);
+  }
   private static SModuleReference check_y5o5bz_a0a0i(SModule checkedDotOperand) {
     if (null != checkedDotOperand) {
       return checkedDotOperand.getModuleReference();
     }
     return null;
   }
-
   private static SModule check_y5o5bz_a0a0a8(SModel checkedDotOperand) {
     if (null != checkedDotOperand) {
       return checkedDotOperand.getModule();
     }
     return null;
-  }
-
-  private static boolean eq_y5o5bz_a0a0j(Object a, Object b) {
-    return (a != null ? a.equals(b) : a == b);
   }
 }

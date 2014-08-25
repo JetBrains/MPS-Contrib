@@ -25,7 +25,6 @@ public class TopologicalNumbering_Test extends TestCase {
     Assert.assertTrue((Integer) MapSequence.fromMap(numbering).get(graph.getNode(4)) == 3);
     Assert.assertTrue((Integer) MapSequence.fromMap(numbering).get(graph.getNode(5)) == 3);
   }
-
   public void test_test1() throws Exception {
     String graphString = "6 7  0 1  0 3  1 2  3 1  4 3  5 4  5 2";
     Graph graph = GraphIO.scanGraph(new Scanner(graphString));
@@ -37,7 +36,6 @@ public class TopologicalNumbering_Test extends TestCase {
     Assert.assertTrue((Integer) MapSequence.fromMap(numbering).get(graph.getNode(4)) == 1);
     Assert.assertTrue((Integer) MapSequence.fromMap(numbering).get(graph.getNode(5)) == 0);
   }
-
   public TopologicalNumbering_Test() {
   }
 }

@@ -17,34 +17,27 @@ public class ParameterBrowser extends JPanel {
   private Events myEvents = new Events(null) {
     {
     }
-
     public void initialize() {
     }
   };
-
   public ParameterBrowser() {
     this.myThis = this;
     ParameterBrowser component = this;
     this.myEvents.initialize();
   }
-
   public Events getEvents() {
     return this.myEvents;
   }
-
   public void addNotify() {
     super.addNotify();
     this.bind();
   }
-
   public void removeNotify() {
     this.unbind();
     super.removeNotify();
   }
-
   private void bind() {
   }
-
   private void unbind() {
     for (AutoBinding binding : this.myBindings) {
       if (binding.isBound()) {
@@ -52,21 +45,17 @@ public class ParameterBrowser extends JPanel {
       }
     }
   }
-
   public String getText() {
     return this.myText;
   }
-
   public String getDialogCaption() {
     return this.myDialogCaption;
   }
-
   public void setText(String newValue) {
     String oldValue = this.myText;
     this.myText = newValue;
     this.firePropertyChange("text", oldValue, newValue);
   }
-
   public void setDialogCaption(String newValue) {
     String oldValue = this.myDialogCaption;
     this.myDialogCaption = newValue;

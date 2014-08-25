@@ -26,7 +26,6 @@ public class TaskReference_Constraints extends BaseConstraintsDescriptor {
   public TaskReference_Constraints() {
     super("jetbrains.mps.build.generictasks.structure.TaskReference");
   }
-
   @Override
   protected Map<String, ReferenceConstraintsDescriptor> getNotDefaultReferences() {
     Map<String, ReferenceConstraintsDescriptor> references = new HashMap();
@@ -35,7 +34,6 @@ public class TaskReference_Constraints extends BaseConstraintsDescriptor {
       public boolean hasOwnScopeProvider() {
         return true;
       }
-
       @Nullable
       @Override
       public ReferenceScopeProvider getScopeProvider() {
@@ -63,7 +61,6 @@ public class TaskReference_Constraints extends BaseConstraintsDescriptor {
             }
             return new SimpleSearchScope(decls);
           }
-
           @Override
           public SNodeReference getSearchScopeValidatorNode() {
             return breakingNode_6artq6_a0a1a0a0a1a0b0a1a1;
@@ -73,6 +70,5 @@ public class TaskReference_Constraints extends BaseConstraintsDescriptor {
     });
     return references;
   }
-
   private static SNodePointer breakingNode_6artq6_a0a1a0a0a1a0b0a1a1 = new SNodePointer("r:71eee63a-b16f-40f8-920d-8fd0fe7dc8a1(jetbrains.mps.build.generictasks.constraints)", "3037831562615764092");
 }

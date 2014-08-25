@@ -12,7 +12,6 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 public class CreateRunConfigStatement_DataFlow extends DataFlowBuilder {
   public CreateRunConfigStatement_DataFlow() {
   }
-
   public void build(final IOperationContext operationContext, final DataFlowBuilderContext _context) {
     _context.getBuilder().build((SNode) SLinkOperations.getTarget(_context.getNode(), "configName", true));
     _context.getBuilder().build((SNode) SLinkOperations.getTarget(_context.getNode(), "suggestedName", true));

@@ -22,7 +22,6 @@ public class GExpressionItem_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_nqsegt_a(editorContext, node);
   }
-
   private EditorCell createCollection_nqsegt_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_nqsegt_a");
@@ -31,7 +30,6 @@ public class GExpressionItem_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createRefNode_nqsegt_b0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_nqsegt_a0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "expression");
     editorCell.setCellId("Constant_nqsegt_a0");
@@ -41,7 +39,6 @@ public class GExpressionItem_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefNode_nqsegt_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("expression");

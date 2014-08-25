@@ -1,59 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debugInfo>
-  <unitInfo fileName="TypesystemDescriptor.java" startLine="8" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.gtext.typesystem.TypesystemDescriptor" />
-  <root nodeRef="r:00000000-0000-4000-0000-011c89590573(jetbrains.mps.gtext.typesystem)/1181754943395">
-    <nodeInfo nodeId="1207736329894" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="20" startPosition="5" endLine="21" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1207736329894" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="21" startPosition="59" endLine="22" endPosition="190" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1207736329894" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="22" startPosition="190" endLine="23" endPosition="267" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1181754943395" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="27" startPosition="46" endLine="28" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1181754943395" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="32" startPosition="5" endLine="33" endPosition="130" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1181754943395" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="33" startPosition="130" endLine="34" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1181754943395" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="38" startPosition="30" endLine="39" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1207736334229" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="42" startPosition="61" endLine="43" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1207736334229" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="43" startPosition="63" endLine="44" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1207736334229" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="44" startPosition="30" endLine="45" endPosition="138" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1207736334229" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="45" startPosition="138" endLine="46" endPosition="235" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1207736334229" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="46" startPosition="235" endLine="47" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1181754943395" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="16" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="typeof_BuilderContextRef_InferenceRule#()V" />
-    <nodeInfo nodeId="1207736334229" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="44" startPosition="30" endLine="46" endPosition="235" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="1207736334229" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="44" startPosition="30" endLine="46" endPosition="235" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="1181754943395" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="27" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getApplicableConceptFQName#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1181754943395" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="38" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="overrides#()Z" />
-    <nodeInfo nodeId="1181754943395" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="31" startPosition="68" endLine="35" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="1207736329894" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="19" startPosition="130" endLine="24" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="1181754943395" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="31" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
-    <nodeInfo nodeId="1181754943395" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="19" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
-    <nodeInfo nodeId="1207736334229" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="42" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_m3afeb_a0a0b#()Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <scopeInfo nodeId="1181754943395" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="16" startPosition="51" endLine="16" endPosition="51" />
-    <scopeInfo nodeId="1181754943395" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="27" startPosition="46" endLine="28" endPosition="61" />
-    <scopeInfo nodeId="1181754943395" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="38" startPosition="30" endLine="39" endPosition="17" />
-    <scopeInfo nodeId="1181754943395" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="16" startPosition="0" endLine="18" endPosition="0" />
-    <scopeInfo nodeId="1181754943395" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="32" startPosition="5" endLine="34" endPosition="45">
-      <varInfo nodeId="1181754943395" varName="b" />
-    </scopeInfo>
-    <scopeInfo nodeId="1207736334229" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="44" startPosition="30" endLine="46" endPosition="235" />
-    <scopeInfo nodeId="1207736329894" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="20" startPosition="5" endLine="23" endPosition="267">
-      <varInfo nodeId="1207736329894" varName="_info_12389875345" />
-      <varInfo nodeId="1207736329894" varName="_nodeToCheck_1029348928467" />
-    </scopeInfo>
-    <scopeInfo nodeId="1181754943395" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="27" startPosition="0" endLine="30" endPosition="0" />
-    <scopeInfo nodeId="1181754943395" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="38" startPosition="0" endLine="41" endPosition="0" />
-    <scopeInfo nodeId="1181754943395" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="31" startPosition="68" endLine="35" endPosition="5" />
-    <scopeInfo nodeId="1181754943396" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="19" startPosition="130" endLine="24" endPosition="5" />
-    <scopeInfo nodeId="1207736334229" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="42" startPosition="61" endLine="47" endPosition="24">
-      <varInfo nodeId="1207736334229" varName="facade" />
-      <varInfo nodeId="1207736334229" varName="quotedNode_1" />
-    </scopeInfo>
-    <scopeInfo nodeId="1181754943395" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="31" startPosition="0" endLine="37" endPosition="0">
-      <varInfo nodeId="1181754943395" varName="argument" />
-    </scopeInfo>
-    <scopeInfo nodeId="1181754943395" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="19" startPosition="0" endLine="26" endPosition="0">
-      <varInfo nodeId="1181754943395" varName="builderContextRef" />
-      <varInfo nodeId="1181754943395" varName="status" />
-      <varInfo nodeId="1181754943395" varName="typeCheckingContext" />
-    </scopeInfo>
-    <scopeInfo nodeId="1207736334229" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="42" startPosition="0" endLine="49" endPosition="0" />
-    <unitInfo nodeId="1181754943395" fileName="typeof_BuilderContextRef_InferenceRule.java" startLine="15" startPosition="0" endLine="50" endPosition="0" unitName="jetbrains.mps.gtext.typesystem.typeof_BuilderContextRef_InferenceRule" />
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="TypesystemDescriptor.java">
+      <unit at="8,0,16,0" name="jetbrains.mps.gtext.typesystem.TypesystemDescriptor" />
+    </file>
   </root>
-</debugInfo>
+  <root nodeRef="r:00000000-0000-4000-0000-011c89590573(jetbrains.mps.gtext.typesystem)/1181754943395">
+    <file name="typeof_BuilderContextRef_InferenceRule.java">
+      <node id="1207736329894" at="19,5,20,59" concept="4" />
+      <node id="1207736329894" at="20,59,21,190" concept="4" />
+      <node id="1207736329894" at="21,190,22,267" concept="2" />
+      <node id="1181754943395" at="25,46,26,61" concept="5" />
+      <node id="1181754943395" at="29,5,30,130" concept="4" />
+      <node id="1181754943395" at="30,130,31,45" concept="5" />
+      <node id="1181754943395" at="34,30,35,17" concept="5" />
+      <node id="1207736334229" at="37,61,38,63" concept="4" />
+      <node id="1207736334229" at="38,63,39,30" concept="4" />
+      <node id="1207736334229" at="39,30,40,138" concept="2" />
+      <node id="1207736334229" at="40,138,41,235" concept="2" />
+      <node id="1207736334229" at="41,235,42,24" concept="5" />
+      <node id="1181754943395" at="16,0,18,0" concept="1" trace="typeof_BuilderContextRef_InferenceRule#()V" />
+      <node id="1207736334229" at="39,30,41,235" concept="0" />
+      <node id="1207736334229" at="39,30,41,235" concept="0" />
+      <node id="1181754943395" at="25,0,28,0" concept="3" trace="getApplicableConceptFQName#()Ljava/lang/String;" />
+      <node id="1181754943395" at="34,0,37,0" concept="3" trace="overrides#()Z" />
+      <node id="1181754943395" at="28,68,32,5" concept="0" />
+      <node id="1207736329894" at="18,130,23,5" concept="0" />
+      <node id="1181754943395" at="28,0,34,0" concept="3" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="1181754943395" at="18,0,25,0" concept="3" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <node id="1207736334229" at="37,0,44,0" concept="6" trace="_quotation_createNode_m3afeb_a0a0b#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <scope id="1181754943395" at="16,51,16,51" />
+      <scope id="1181754943395" at="25,46,26,61" />
+      <scope id="1181754943395" at="34,30,35,17" />
+      <scope id="1181754943395" at="16,0,18,0" />
+      <scope id="1181754943395" at="29,5,31,45">
+        <var name="b" id="1181754943395" />
+      </scope>
+      <scope id="1207736334229" at="39,30,41,235" />
+      <scope id="1207736329894" at="19,5,22,267">
+        <var name="_info_12389875345" id="1207736329894" />
+        <var name="_nodeToCheck_1029348928467" id="1207736329894" />
+      </scope>
+      <scope id="1181754943395" at="25,0,28,0" />
+      <scope id="1181754943395" at="34,0,37,0" />
+      <scope id="1181754943395" at="28,68,32,5" />
+      <scope id="1181754943396" at="18,130,23,5" />
+      <scope id="1207736334229" at="37,61,42,24">
+        <var name="facade" id="1207736334229" />
+        <var name="quotedNode_1" id="1207736334229" />
+      </scope>
+      <scope id="1181754943395" at="28,0,34,0">
+        <var name="argument" id="1181754943395" />
+      </scope>
+      <scope id="1181754943395" at="18,0,25,0">
+        <var name="builderContextRef" id="1181754943395" />
+        <var name="status" id="1181754943395" />
+        <var name="typeCheckingContext" id="1181754943395" />
+      </scope>
+      <scope id="1207736334229" at="37,0,44,0" />
+      <unit id="1181754943395" at="15,0,45,0" name="jetbrains.mps.gtext.typesystem.typeof_BuilderContextRef_InferenceRule" />
+    </file>
+  </root>
+</debug-info>
 

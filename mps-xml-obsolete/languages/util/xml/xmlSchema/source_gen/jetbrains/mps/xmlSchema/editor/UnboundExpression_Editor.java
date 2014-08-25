@@ -17,7 +17,6 @@ public class UnboundExpression_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createConstant_kjl4ev_a(editorContext, node);
   }
-
   private EditorCell createConstant_kjl4ev_a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "unbounded");
     editorCell.setCellId("Constant_kjl4ev_a");

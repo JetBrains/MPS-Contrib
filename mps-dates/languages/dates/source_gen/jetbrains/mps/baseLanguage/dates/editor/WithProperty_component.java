@@ -18,18 +18,15 @@ public class WithProperty_component implements ConceptEditorComponent {
   public Collection<String> getContextHints() {
     return Collections.emptyList();
   }
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_d8rolo_a(editorContext, node);
   }
-
   private EditorCell createCollection_d8rolo_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_d8rolo_a");
     editorCell.addEditorCell(this.createRefNode_d8rolo_a0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createRefNode_d8rolo_a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("operation");

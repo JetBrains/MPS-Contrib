@@ -17,7 +17,6 @@ public class GNewLine_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createConstant_m1b3gv_a(editorContext, node);
   }
-
   private EditorCell createConstant_m1b3gv_a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "newLine");
     editorCell.setCellId("Constant_m1b3gv_a");

@@ -42,13 +42,11 @@ public class ConstraintsGraph {
   private Map<Node, Node> myVerNodeMap;
   private Map<Edge, Edge> myEdgeMap;
   private int myUnitLength = DEFAULT_UNIT_LENGTH;
-
   public ConstraintsGraph(EmbeddedGraph embeddedGraph, Map<Dart, Direction2D> directions) {
     myEmbeddedGraph = embeddedGraph;
     myGraph = embeddedGraph.getGraph();
     myDirections = directions;
   }
-
   public void constructGraph(Set<Face> facesToSkip) {
     getShape();
     for (Face face : ListSequence.fromList(myEmbeddedGraph.getFaces())) {
@@ -69,7 +67,6 @@ public class ConstraintsGraph {
       */
     }
   }
-
   public Map<Node, Point> getCoordinates(Map<Edge, Integer> predefinedEdgeLengths, Map<Edge, Integer> constraintEdgeLengths) {
     Map<Edge, Integer> edgeLengths = MapSequence.fromMap(new HashMap<Edge, Integer>());
     for (Edge edge : ListSequence.fromList(myHorConstraintsGraph.getEdges())) {
@@ -95,7 +92,6 @@ public class ConstraintsGraph {
     }
     return coordinates;
   }
-
   private void makeShapeComplete(Face face) {
     List<Node> segments = ListSequence.fromList(new LinkedList<Node>());
     List<Direction2D> directions = ListSequence.fromList(new LinkedList<Direction2D>());
@@ -161,7 +157,6 @@ public class ConstraintsGraph {
     }
     connectPattern(segments, directions);
   }
-
   private void connectConstraintsNodes(final Node node1, final Node node2, Direction2D direction) {
     Graph graph = node1.getGraph();
     Edge connectingEdge = ListSequence.fromList(node1.getEdges()).findFirst(new IWhereFilter<Edge>() {
@@ -186,12 +181,10 @@ public class ConstraintsGraph {
       }
     }
   }
-
   private void connectPattern(List<Node> nodes, List<Direction2D> directions) {
     connectConstraintsNodes(ListSequence.fromList(nodes).getElement(0), ListSequence.fromList(nodes).getElement(2), ListSequence.fromList(directions).getElement(1));
     connectConstraintsNodes(ListSequence.fromList(nodes).getElement(1), ListSequence.fromList(nodes).getElement(3), ListSequence.fromList(directions).getElement(2));
   }
-
   private void getShape() {
     Map<Node, Node> horNodeMap = MapSequence.fromMap(new HashMap<Node, Node>());
     Graph horConstraintsGraph = getDirectionConstraintsGraph(new _FunctionTypes._return_P1_E0<Boolean, Direction2D>() {
@@ -229,7 +222,6 @@ public class ConstraintsGraph {
       System.out.println("vertical constraints graph: " + verConstraintsGraph);
     }
   }
-
   private Edge connect(Edge realEdge, final Direction2D direction, Map<Node, Node> nodeMap) {
     Dart dart = ListSequence.fromList(myEmbeddedGraph.getDarts(realEdge)).findFirst(new IWhereFilter<Dart>() {
       public boolean accept(Dart it) {
@@ -244,7 +236,6 @@ public class ConstraintsGraph {
     }
     return null;
   }
-
   private Graph getDirectionConstraintsGraph(final _FunctionTypes._return_P1_E0<? extends Boolean, ? super Direction2D> directionFilter, Map<Node, Node> nodeMap) {
     Map<Node, Integer> components = ConnectivityComponents.getComponents(myGraph, new _FunctionTypes._return_P1_E0<Boolean, Edge>() {
       public Boolean invoke(Edge edge) {
@@ -262,7 +253,6 @@ public class ConstraintsGraph {
     }
     return constraintsCraph;
   }
-
   private void checkCompleteness() {
     for (Node horSeg : ListSequence.fromList(myHorConstraintsGraph.getNodes())) {
       for (Node verSeg : ListSequence.fromList(myVerConstraintsGraph.getNodes())) {
@@ -287,7 +277,6 @@ public class ConstraintsGraph {
       }
     }
   }
-
   private boolean hasPath(Graph graph, Node node, Node[] ends) {
     if (ShortestPath.getPath(graph, node, ends[0], Edge.Direction.FRONT) != null) {
       return true;
@@ -297,7 +286,6 @@ public class ConstraintsGraph {
     }
     return false;
   }
-
   private boolean isSegmentsIntersect(final Node horSegment, final Node verSegment) {
     Iterable<Node> horNodes = SetSequence.fromSet(MapSequence.fromMap(myHorNodeMap).keySet()).where(new IWhereFilter<Node>() {
       public boolean accept(Node key) {
@@ -315,7 +303,6 @@ public class ConstraintsGraph {
     }
     return intersects;
   }
-
   private Node[] getSegmentEndSegments(Node segment, Direction2D direction) {
     Node[] ends = getSegmentEnds(segment, direction);
     Map<Node, Node> nodeMap;
@@ -329,7 +316,6 @@ public class ConstraintsGraph {
     }
     return ends;
   }
-
   private Node[] getSegmentEnds(final Node segment, final Direction2D direction) {
     final Wrappers._T<Map<Node, Node>> nodeMap = new Wrappers._T<Map<Node, Node>>();
     if (direction.isHorizontal()) {
@@ -369,15 +355,12 @@ public class ConstraintsGraph {
     ends[0] = SetSequence.fromSet(firstCandidates).first();
     return ends;
   }
-
   public int getUnitLength() {
     return myUnitLength;
   }
-
   public void setUnitLength(int unitLength) {
     myUnitLength = unitLength;
   }
-
   public Edge addConstraintEdge(Node first, Node second, Direction2D direction) {
     Map<Node, Node> constraintsMap;
     if (direction.isHorizontal()) {

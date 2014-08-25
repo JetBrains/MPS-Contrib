@@ -19,7 +19,6 @@ public class Text_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createProperty_wlph7j_a(editorContext, node);
   }
-
   private EditorCell createProperty_wlph7j_a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("text");

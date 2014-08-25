@@ -7,7 +7,6 @@ import jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor;
 public class XMLLiteral_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor {
   public XMLLiteral_BehaviorDescriptor() {
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.xmlUnitTest.structure.XMLLiteral";

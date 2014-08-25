@@ -20,11 +20,9 @@ public class GenericAttributeDeclarationInEnum_EditorComponent implements Concep
   public Collection<String> getContextHints() {
     return Collections.emptyList();
   }
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_pdjfsm_a(editorContext, node);
   }
-
   private EditorCell createCollection_pdjfsm_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_pdjfsm_a");
@@ -36,18 +34,15 @@ public class GenericAttributeDeclarationInEnum_EditorComponent implements Concep
     }
     return editorCell;
   }
-
   private EditorCell createConstant_pdjfsm_a0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "in");
     editorCell.setCellId("Constant_pdjfsm_a0");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private static boolean renderingCondition_pdjfsm_a0a(SNode node, EditorContext editorContext) {
     return (SLinkOperations.getTarget(node, "enum", true) != null) || editorContext.isInspector();
   }
-
   private EditorCell createRefNode_pdjfsm_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("enum");
@@ -67,7 +62,6 @@ public class GenericAttributeDeclarationInEnum_EditorComponent implements Concep
     } else
     return editorCell;
   }
-
   private static boolean renderingCondition_pdjfsm_a1a(SNode node, EditorContext editorContext) {
     return (SLinkOperations.getTarget(node, "enum", true) != null) || editorContext.isInspector();
   }

@@ -8,11 +8,9 @@ import jetbrains.mps.graphLayout.graph.ClusteredGraph;
 public class EmbeddingFinderFactory {
   public EmbeddingFinderFactory() {
   }
-
   public static IEmbeddingFinder getFinder() {
     return new ShortestPathEmbeddingFinder(new PQPlanarizationFinder());
   }
-
   public static IEmbeddingFinder getFinderForGraph(Graph graph) {
     if (graph instanceof ClusteredGraph) {
       return new ClusteredGraphEmbeddingFinder();

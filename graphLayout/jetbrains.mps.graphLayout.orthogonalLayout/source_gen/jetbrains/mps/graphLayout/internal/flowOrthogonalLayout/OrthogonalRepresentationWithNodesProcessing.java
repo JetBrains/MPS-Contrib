@@ -25,10 +25,8 @@ import jetbrains.mps.internal.collections.runtime.ISelector;
 
 public class OrthogonalRepresentationWithNodesProcessing {
   private static int SHOW_INFO = 1;
-
   public OrthogonalRepresentationWithNodesProcessing() {
   }
-
   public static void getRepresentation(EmbeddedGraph embeddedGraph, Iterable<Face> nodeFaces, Map<Dart, Integer> bends, Map<Dart, Integer> angles) {
     Graph graph = embeddedGraph.getGraph();
     Graph network = new Graph();
@@ -116,7 +114,6 @@ public class OrthogonalRepresentationWithNodesProcessing {
       MapSequence.fromMap(angles).put(dart, MapSequence.fromMap(circulation).get(MapSequence.fromMap(dartAngleMap).get(dart)));
     }
   }
-
   public static void replaceBendsByNodes(EmbeddedGraph embeddedGraph, Map<Dart, Integer> bends, Map<Dart, Integer> angles) {
     for (Edge edge : ListSequence.fromList(embeddedGraph.getGraph().getEdges())) {
       List<Dart> darts = embeddedGraph.getDarts(edge);
@@ -175,25 +172,21 @@ public class OrthogonalRepresentationWithNodesProcessing {
       }
     }
   }
-
   public static Map<Dart, Direction2D> getDirections(EmbeddedGraph embeddedGraph, Map<Dart, Integer> angles) {
     OrthogonalRepresentationWithNodesProcessing.GetDirectionsDfs dfs = new OrthogonalRepresentationWithNodesProcessing.GetDirectionsDfs(embeddedGraph, angles);
     dfs.doDfs(embeddedGraph.getGraph(), Edge.Direction.BOTH);
     return dfs.getDirections();
   }
-
   private static class GetDirectionsDfs extends Dfs {
     private Map<Dart, Direction2D> myDirections;
     private EmbeddedGraph myEmbeddedGraph;
     private Map<Dart, Integer> myAngles;
-
     public GetDirectionsDfs(EmbeddedGraph embeddedGraph, Map<Dart, Integer> angles) {
       super();
       myEmbeddedGraph = embeddedGraph;
       myAngles = angles;
       myDirections = MapSequence.fromMap(new HashMap<Dart, Direction2D>());
     }
-
     @Override
     protected void preprocessRoot(final Node root) {
       Edge edge = ListSequence.fromList(root.getEdges()).first();
@@ -205,7 +198,6 @@ public class OrthogonalRepresentationWithNodesProcessing {
       MapSequence.fromMap(myDirections).put(dart, Direction2D.RIGHT);
       MapSequence.fromMap(myDirections).put(myEmbeddedGraph.getOpposite(dart), MapSequence.fromMap(myDirections).get(dart).opposite());
     }
-
     @Override
     protected void preprocess(final Node node, Edge from) {
       List<Dart> darts = ListSequence.fromList(node.getEdges()).select(new ISelector<Edge, Dart>() {
@@ -238,7 +230,6 @@ public class OrthogonalRepresentationWithNodesProcessing {
         cur = next;
       } while (cur != first);
     }
-
     public Map<Dart, Direction2D> getDirections() {
       return myDirections;
     }

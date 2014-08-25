@@ -15,7 +15,6 @@ public class TargetReferencePropertyValueExpression_Constraints extends BaseCons
   public TargetReferencePropertyValueExpression_Constraints() {
     super("jetbrains.mps.buildlanguage.structure.TargetReferencePropertyValueExpression");
   }
-
   @Override
   protected Map<String, PropertyConstraintsDescriptor> getNotDefaultProperties() {
     Map<String, PropertyConstraintsDescriptor> properties = new HashMap();
@@ -24,7 +23,6 @@ public class TargetReferencePropertyValueExpression_Constraints extends BaseCons
       public boolean hasOwnGetter() {
         return true;
       }
-
       @Override
       public Object getValue(SNode node) {
         String propertyName = "fullName";

@@ -8,24 +8,19 @@ import jetbrains.mps.graphLayout.graph.Node;
 public class Dart {
   private Edge myEdge;
   private Node mySource;
-
   public Dart(Edge edge, Node source) {
     myEdge = edge;
     mySource = source;
   }
-
   public Node getSource() {
     return mySource;
   }
-
   public Node getTarget() {
     return myEdge.getOpposite(mySource);
   }
-
   public Edge getEdge() {
     return myEdge;
   }
-
   @Override
   public String toString() {
     return "(dart " + getSource() + " -> " + getTarget() + ")";

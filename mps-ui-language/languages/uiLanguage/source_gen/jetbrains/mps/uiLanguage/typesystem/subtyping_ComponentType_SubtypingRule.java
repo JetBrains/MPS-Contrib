@@ -20,7 +20,6 @@ import org.jetbrains.mps.openapi.model.SNodeAccessUtil;
 public class subtyping_ComponentType_SubtypingRule extends SubtypingRule_Runtime implements ISubtypingRule_Runtime {
   public subtyping_ComponentType_SubtypingRule() {
   }
-
   public List<SNode> getSubOrSuperTypes(SNode componentType, TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
     List<SNode> result = new ArrayList<SNode>();
     SNode extendedComponent = ComponentDeclaration_Behavior.call_getExtendedComponent_1213877495528(SLinkOperations.getTarget(componentType, "component", false));
@@ -32,22 +31,18 @@ public class subtyping_ComponentType_SubtypingRule extends SubtypingRule_Runtime
     }
     return result;
   }
-
   public String getApplicableConceptFQName() {
     return "jetbrains.mps.uiLanguage.structure.ComponentType";
   }
-
   public IsApplicableStatus isApplicableAndPattern(SNode argument) {
     {
       boolean b = SModelUtil_new.isAssignableConcept(argument.getConcept().getQualifiedName(), this.getApplicableConceptFQName());
       return new IsApplicableStatus(b, null);
     }
   }
-
   public boolean isWeak() {
     return false;
   }
-
   private static SNode _quotation_createNode_1j2wpd_a0a0a2a1(Object parameter_1) {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_2 = null;
@@ -55,7 +50,6 @@ public class subtyping_ComponentType_SubtypingRule extends SubtypingRule_Runtime
     SNodeAccessUtil.setReferenceTarget(quotedNode_2, "component", (SNode) parameter_1);
     return quotedNode_2;
   }
-
   private static SNode _quotation_createNode_1j2wpd_a0a0a3a1(Object parameter_1) {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_2 = null;

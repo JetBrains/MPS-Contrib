@@ -15,7 +15,6 @@ public class OrthogonalFromVisibility_Test extends TestCase {
     Graph graph = GraphIO.scanGraph(new Scanner(graphString));
     GraphPointLayout layout = new OrthogonalFromVisibility().doLayout(graph);
   }
-
   public OrthogonalFromVisibility_Test() {
   }
 }

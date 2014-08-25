@@ -33,10 +33,8 @@ public class OrthogonalPointFlowLayouter implements IPointLayouter {
   private static int SHOW_TIME = 0;
   private static int MILLIS = 1000;
   private double curTime;
-
   public OrthogonalPointFlowLayouter() {
   }
-
   @Override
   public GraphPointLayout doLayout(Graph graph) {
     double time = System.currentTimeMillis();
@@ -96,7 +94,6 @@ public class OrthogonalPointFlowLayouter implements IPointLayouter {
     }
     return graphLayout;
   }
-
   public GraphPointLayout getFlowLayout(EmbeddedGraph embeddedGraph, EdgesHistoryManager historyManager) {
     Graph graph = embeddedGraph.getGraph();
     List<Edge> oldEdges = ListSequence.fromList(new ArrayList<Edge>());
@@ -163,7 +160,6 @@ public class OrthogonalPointFlowLayouter implements IPointLayouter {
     }
     return graphLayout;
   }
-
   private void printEmbeddedGraphWithDirections(EmbeddedGraph embeddedGraph, Map<Dart, Direction2D> directions) {
     for (Face face : ListSequence.fromList(embeddedGraph.getFaces())) {
       System.out.println("face: ");

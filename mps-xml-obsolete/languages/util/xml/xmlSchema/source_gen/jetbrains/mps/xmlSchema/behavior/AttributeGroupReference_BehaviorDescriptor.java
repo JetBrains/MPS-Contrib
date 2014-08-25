@@ -8,11 +8,9 @@ import java.util.List;
 public class AttributeGroupReference_BehaviorDescriptor extends AttributeExpression_BehaviorDescriptor {
   public AttributeGroupReference_BehaviorDescriptor() {
   }
-
   public void virtual_checkAttributes_1213877382373(SNode thisNode, List<SNode> attributeDeclarations) {
     AttributeGroupReference_Behavior.virtual_checkAttributes_1213877382373(thisNode, attributeDeclarations);
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.xmlSchema.structure.AttributeGroupReference";

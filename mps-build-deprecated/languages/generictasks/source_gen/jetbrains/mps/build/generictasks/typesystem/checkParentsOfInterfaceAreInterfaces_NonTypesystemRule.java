@@ -19,7 +19,6 @@ import jetbrains.mps.smodel.SModelUtil_new;
 public class checkParentsOfInterfaceAreInterfaces_NonTypesystemRule extends AbstractNonTypesystemRule_Runtime implements NonTypesystemRule_Runtime {
   public checkParentsOfInterfaceAreInterfaces_NonTypesystemRule() {
   }
-
   public void applyRule(final SNode genericInterfaceDeclaration, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
     for (SNode parent : ListSequence.fromList(SLinkOperations.getTargets(genericInterfaceDeclaration, "parents", true))) {
       if (!(SNodeOperations.isInstanceOf(SLinkOperations.getTarget(parent, "declaration", false), "jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration"))) {
@@ -30,18 +29,15 @@ public class checkParentsOfInterfaceAreInterfaces_NonTypesystemRule extends Abst
       }
     }
   }
-
   public String getApplicableConceptFQName() {
     return "jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration";
   }
-
   public IsApplicableStatus isApplicableAndPattern(SNode argument) {
     {
       boolean b = SModelUtil_new.isAssignableConcept(argument.getConcept().getQualifiedName(), this.getApplicableConceptFQName());
       return new IsApplicableStatus(b, null);
     }
   }
-
   public boolean overrides() {
     return false;
   }

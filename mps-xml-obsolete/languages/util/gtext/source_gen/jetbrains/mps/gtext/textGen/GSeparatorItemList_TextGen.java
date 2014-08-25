@@ -38,6 +38,5 @@ public class GSeparatorItemList_TextGen extends SNodeTextGen {
       }
     }
   }
-
   protected static Logger LOG = LogManager.getLogger(GSeparatorItemList_TextGen.class);
 }

@@ -15,42 +15,32 @@ public class DateTimeCompareOperation_rightOperand_actionMap {
     editorCell.setAction(CellActionType.DELETE, new DateTimeCompareOperation_rightOperand_actionMap.DateTimeCompareOperation_rightOperand_actionMap_DELETE(node));
     editorCell.setAction(CellActionType.BACKSPACE, new DateTimeCompareOperation_rightOperand_actionMap.DateTimeCompareOperation_rightOperand_actionMap_BACKSPACE(node));
   }
-
   public static class DateTimeCompareOperation_rightOperand_actionMap_DELETE extends AbstractCellAction {
     /*package*/ SNode myNode;
-
     public DateTimeCompareOperation_rightOperand_actionMap_DELETE(SNode node) {
       this.myNode = node;
     }
-
     public String getDescriptionText() {
       return "Delete right operand";
     }
-
     public void execute(EditorContext editorContext) {
       this.execute_internal(editorContext, this.myNode);
     }
-
     public void execute_internal(EditorContext editorContext, SNode node) {
       SNodeOperations.replaceWithAnother(node, SLinkOperations.getTarget(node, "op1", true));
     }
   }
-
   public static class DateTimeCompareOperation_rightOperand_actionMap_BACKSPACE extends AbstractCellAction {
     /*package*/ SNode myNode;
-
     public DateTimeCompareOperation_rightOperand_actionMap_BACKSPACE(SNode node) {
       this.myNode = node;
     }
-
     public String getDescriptionText() {
       return "Delete right operand";
     }
-
     public void execute(EditorContext editorContext) {
       this.execute_internal(editorContext, this.myNode);
     }
-
     public void execute_internal(EditorContext editorContext, SNode node) {
       SNodeOperations.replaceWithAnother(node, SLinkOperations.getTarget(node, "op1", true));
     }

@@ -14,26 +14,21 @@ import jetbrains.mps.smodel.SReference;
 public class typeof_Console_IsSubtype_JComponent_SubtypingRule extends SubtypingRule_Runtime implements ISubtypingRule_Runtime {
   public typeof_Console_IsSubtype_JComponent_SubtypingRule() {
   }
-
   public SNode getSubOrSuperType(SNode consoleType, TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
     return _quotation_createNode_oa5pba_a0a1();
   }
-
   public String getApplicableConceptFQName() {
     return "jetbrains.mps.execution.configurations.deprecated.structure.ConsoleType";
   }
-
   public IsApplicableStatus isApplicableAndPattern(SNode argument) {
     {
       boolean b = SModelUtil_new.isAssignableConcept(argument.getConcept().getQualifiedName(), this.getApplicableConceptFQName());
       return new IsApplicableStatus(b, null);
     }
   }
-
   public boolean isWeak() {
     return false;
   }
-
   private static SNode _quotation_createNode_oa5pba_a0a1() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;

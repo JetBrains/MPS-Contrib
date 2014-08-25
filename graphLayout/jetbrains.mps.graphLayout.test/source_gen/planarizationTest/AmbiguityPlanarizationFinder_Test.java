@@ -26,16 +26,13 @@ public class AmbiguityPlanarizationFinder_Test extends TestCase {
     Graph graph = GraphIO.scanGraph(new Scanner(graphString));
     test(graph);
   }
-
   public void test_test2() throws Exception {
     String graphString = "10 15\n  0 9  \n1 6  \n2 7  \n2 0  \n3 0  \n4 2\n  5 0  \n5 6  \n5 2  \n6 2  \n7 9  \n7 5  \n8 2  \n9 5  \n9 1";
     Graph graph = GraphIO.scanGraph(new Scanner(graphString));
     test(graph);
   }
-
   public AmbiguityPlanarizationFinder_Test() {
   }
-
   public void test(Graph graph) {
     EmbeddedGraph mainEmbeddedGraph = null;
     for (int testNum = 0; testNum < 100; testNum++) {

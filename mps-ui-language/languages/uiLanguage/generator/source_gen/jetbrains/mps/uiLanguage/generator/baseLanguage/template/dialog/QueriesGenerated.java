@@ -14,23 +14,18 @@ import jetbrains.mps.generator.template.WeavingMappingRuleContext;
 @Generated
 public class QueriesGenerated {
   public final boolean NEEDS_OPCONTEXT = false;
-
   public static Object propertyMacro_GetPropertyValue_1202833834564(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), "text");
   }
-
   public static SNode sourceNodeQuery_1202833877884(final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "rootComponent", true);
   }
-
   public static SNode sourceNodeQuery_1202833843652(final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "handler", true);
   }
-
   public static Iterable<SNode> sourceNodesQuery_1202833810237(final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "button", true);
   }
-
   public static SNode weaving_MappingRule_ContextNodeQuery_1202834159580(final WeavingMappingRuleContext _context) {
     return _context.getCopiedOutputNodeForInputNode(SLinkOperations.getTarget(_context.getNode(), "rootComponent", true));
   }

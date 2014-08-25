@@ -34,10 +34,8 @@ public class Generator {
   private static final Logger LOG = LogManager.getLogger(Generator.class);
   /*package*/ static final String ANT_PATH = PathManager.getHomePath() + "/lib/ant";
   private static final BuildLanguageGenerator GENERATOR = BuildLanguageGenerator.getInstance();
-
   public Generator() {
   }
-
   private String getPath(Generator.Modes m) {
     switch (m) {
       case CORE:
@@ -48,7 +46,6 @@ public class Generator {
     }
     throw new IllegalArgumentException("Unknown mode " + m);
   }
-
   public void generateTasks(SModel model, Generator.Modes m, SModel[] allModels) {
     try {
       Scanner scanner = new Scanner(Generator.ANT_PATH, getPath(m));
@@ -67,7 +64,6 @@ public class Generator {
       Generator.LOG.error(null, e);
     }
   }
-
   private Map<String, SNode> getExistingDeclarations(SModel[] models) {
     Map<String, SNode> declarations = new LinkedHashMap<String, SNode>();
     for (SModel model : models) {
@@ -79,7 +75,6 @@ public class Generator {
     }
     return declarations;
   }
-
   private void cleanDeclaration(final SNode decl) {
     Set<SNode> toRemoveNestedReference = SetSequence.fromSet(new HashSet());
     for (SNode nref : SLinkOperations.getTargets(decl, "nested", true)) {
@@ -142,7 +137,6 @@ public class Generator {
       ListSequence.fromList(SNodeOperations.getChildren(decl)).removeElement(SLinkOperations.getTarget(node, "declaration", false));
     }
   }
-
   public static   enum Modes {
     CORE(),
     JUNIT();
@@ -150,16 +144,13 @@ public class Generator {
     Modes() {
     }
   }
-
   public static class Builder implements Importer.IBuilder<SNode> {
     protected final SModel myModel;
     private final NamesMap myNamesMap;
-
     public Builder(SModel model, NamesMap namesMap) {
       this.myModel = model;
       this.myNamesMap = namesMap;
     }
-
     @Override
     public SNode createDeclaration(ClassInfo ci) {
       String classname = ci.getDeclarationClass().getName();
@@ -173,12 +164,10 @@ public class Generator {
       myModel.addRootNode(decl);
       return decl;
     }
-
     @Override
     public void addParent(SNode declaration, SNode parent) {
       SLinkOperations.setTarget(declaration, "parentRef", Generator.GENERATOR.createDeclarationReference(parent), true);
     }
-
     @Override
     public void addInterface(SNode declaration, SNode interfaceDeclaration) {
       for (SNode in : SLinkOperations.getTargets(declaration, "interfaces", true)) {
@@ -189,7 +178,6 @@ public class Generator {
       SNode ref = Generator.GENERATOR.createDeclarationReference(interfaceDeclaration);
       ListSequence.fromList(SLinkOperations.getTargets(declaration, "interfaces", true)).addElement(ref);
     }
-
     @Override
     public void addAttribute(SNode declaration, final ClassInfo.MyAttribute attribute) {
       SNode node = ListSequence.fromList(SLinkOperations.getTargets(declaration, "attributesDecl", true)).where(new IWhereFilter<SNode>() {
@@ -203,7 +191,6 @@ public class Generator {
         this.updateAttribute(node, attribute);
       }
     }
-
     private void updateAttribute(SNode ad, ClassInfo.MyAttribute att) {
       SLinkOperations.setTarget(ad, "attributeType", Generator.Builder.getType(att.getType()), true);
       if (att.getEnumValues() != null) {
@@ -218,14 +205,12 @@ public class Generator {
         SPropertyOperations.set(ad, "deprecated", "" + (att.isDeprecated()));
       }
     }
-
     private void createAttribute(SNode decl, ClassInfo.MyAttribute att) {
       SNode attrDecl = Generator.GENERATOR.createAttributeDeclaration(att.getName(), Generator.Builder.getType(att.getType()));
       SPropertyOperations.set(attrDecl, "deprecated", "" + (att.isDeprecated()));
       this.addEnum(attrDecl, att.getEnumValues());
       ListSequence.fromList(SLinkOperations.getTargets(decl, "attributesDecl", true)).addElement(attrDecl);
     }
-
     private void addEnum(SNode attrDecl, String[] enumValues) {
       if (enumValues == null) {
         return;
@@ -234,7 +219,6 @@ public class Generator {
       this.updateEnum(senum, enumValues);
       SLinkOperations.setTarget(attrDecl, "enum", senum, true);
     }
-
     private void updateEnum(SNode sEnum, String[] enumValues) {
       Set<String> set = SetSequence.fromSetWithValues(new HashSet(), ListSequence.fromList(SLinkOperations.getTargets(sEnum, "constants", true)).select(new ISelector<SNode, String>() {
         public String select(SNode it) {
@@ -248,7 +232,6 @@ public class Generator {
         ListSequence.fromList(SLinkOperations.getTargets(sEnum, "constants", true)).addElement(_quotation_createNode_ixz87t_a0a1a1a01j(str));
       }
     }
-
     @Override
     public void addNested(SNode decl, final SNode nestedDecl, ClassInfo.Nested nested) {
       SNode node = ListSequence.fromList(SLinkOperations.getTargets(decl, "nested", true)).where(new IWhereFilter<SNode>() {
@@ -271,7 +254,6 @@ public class Generator {
       }
       ListSequence.fromList(SLinkOperations.getTargets(decl, "nested", true)).addElement(nref);
     }
-
     private void addNestedName(SNode declaration, SNode nref, String name) {
       for (SNode ref : SLinkOperations.getTargets(nref, "role", true)) {
         if (eq_ixz87t_a0a0a0m9(SPropertyOperations.getString(SLinkOperations.getTarget(ref, "declaration", false), "name"), name)) {
@@ -298,7 +280,6 @@ public class Generator {
       ListSequence.fromList(SLinkOperations.getTargets(nref, "role", true)).addElement(Generator.GENERATOR.createDeclarationReference(fake));
       ListSequence.fromList(SLinkOperations.getTargets(declaration, "fakeDeclaration", true)).addElement(fake);
     }
-
     @Override
     public void updateDeclaration(SNode decl, ClassInfo ci) {
       if (ImportOptions.getInstance().isNeedUpdateDeclarations()) {
@@ -324,7 +305,6 @@ public class Generator {
         }
       }
     }
-
     private static SNode getType(Class<?> clazz) {
       if (clazz.equals(int.class)) {
         return _quotation_createNode_ixz87t_a0a0a41j();
@@ -341,14 +321,18 @@ public class Generator {
         return _quotation_createNode_ixz87t_a0a0a0a0a41j();
       }
     }
-
+    private static boolean eq_ixz87t_a0a0a0f9(Object a, Object b) {
+      return (a != null ? a.equals(b) : a == b);
+    }
+    private static boolean eq_ixz87t_a0a0a0a0a0a0a0g9(Object a, Object b) {
+      return (a != null ? a.equals(b) : a == b);
+    }
     private static SNode _quotation_createNode_ixz87t_a0b0j9() {
       PersistenceFacade facade = PersistenceFacade.getInstance();
       SNode quotedNode_1 = null;
       quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.StringEnum", null, null, false);
       return quotedNode_1;
     }
-
     private static SNode _quotation_createNode_ixz87t_a0a1a1a01j(Object parameter_1) {
       PersistenceFacade facade = PersistenceFacade.getInstance();
       SNode quotedNode_2 = null;
@@ -356,7 +340,9 @@ public class Generator {
       SNodeAccessUtil.setProperty(quotedNode_2, "value", (String) parameter_1);
       return quotedNode_2;
     }
-
+    private static boolean eq_ixz87t_a0a0a0a0a0a0a0l9(Object a, Object b) {
+      return (a != null ? a.equals(b) : a == b);
+    }
     private static SNode _quotation_createNode_ixz87t_a0d0l9(Object parameter_1) {
       PersistenceFacade facade = PersistenceFacade.getInstance();
       SNode quotedNode_2 = null;
@@ -364,83 +350,58 @@ public class Generator {
       SNodeAccessUtil.setReferenceTarget(quotedNode_2, "declaration", (SNode) parameter_1);
       return quotedNode_2;
     }
-
+    private static boolean eq_ixz87t_a0e0l9(Object a, Object b) {
+      return (a != null ? a.equals(b) : a == b);
+    }
+    private static boolean eq_ixz87t_a0a0a0m9(Object a, Object b) {
+      return (a != null ? a.equals(b) : a == b);
+    }
+    private static boolean eq_ixz87t_a0c0m9(Object a, Object b) {
+      return (a != null ? a.equals(b) : a == b);
+    }
+    private static boolean isEmptyString(String str) {
+      return str == null || str.length() == 0;
+    }
+    private static boolean neq_ixz87t_a0a1a0a31j(Object a, Object b) {
+      return !((a != null ? a.equals(b) : a == b));
+    }
     private static SNode _quotation_createNode_ixz87t_a0a0a0a0a41j() {
       PersistenceFacade facade = PersistenceFacade.getInstance();
       SNode quotedNode_1 = null;
       quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.StringType", null, null, false);
       return quotedNode_1;
     }
-
     private static SNode _quotation_createNode_ixz87t_a0a0a0a0o9() {
       PersistenceFacade facade = PersistenceFacade.getInstance();
       SNode quotedNode_1 = null;
       quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.CallReferenceType", null, null, false);
       return quotedNode_1;
     }
-
     private static SNode _quotation_createNode_ixz87t_a0a0a0a41j() {
       PersistenceFacade facade = PersistenceFacade.getInstance();
       SNode quotedNode_1 = null;
       quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.FileType", null, null, false);
       return quotedNode_1;
     }
-
     private static SNode _quotation_createNode_ixz87t_a0a0a0o9() {
       PersistenceFacade facade = PersistenceFacade.getInstance();
       SNode quotedNode_1 = null;
       quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.BooleanType", null, null, false);
       return quotedNode_1;
     }
-
     private static SNode _quotation_createNode_ixz87t_a0a0a41j() {
       PersistenceFacade facade = PersistenceFacade.getInstance();
       SNode quotedNode_1 = null;
       quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.IntegerType", null, null, false);
       return quotedNode_1;
     }
-
-    private static boolean eq_ixz87t_a0a0a0f9(Object a, Object b) {
-      return (a != null ? a.equals(b) : a == b);
-    }
-
-    private static boolean eq_ixz87t_a0a0a0a0a0a0a0g9(Object a, Object b) {
-      return (a != null ? a.equals(b) : a == b);
-    }
-
-    private static boolean eq_ixz87t_a0a0a0a0a0a0a0l9(Object a, Object b) {
-      return (a != null ? a.equals(b) : a == b);
-    }
-
-    private static boolean eq_ixz87t_a0e0l9(Object a, Object b) {
-      return (a != null ? a.equals(b) : a == b);
-    }
-
-    private static boolean eq_ixz87t_a0a0a0m9(Object a, Object b) {
-      return (a != null ? a.equals(b) : a == b);
-    }
-
-    private static boolean eq_ixz87t_a0c0m9(Object a, Object b) {
-      return (a != null ? a.equals(b) : a == b);
-    }
-
-    private static boolean isEmptyString(String str) {
-      return str == null || str.length() == 0;
-    }
-
-    private static boolean neq_ixz87t_a0a1a0a31j(Object a, Object b) {
-      return !((a != null ? a.equals(b) : a == b));
-    }
   }
-
   private static boolean eq_ixz87t_a0a0a0b0h(Object a, Object b) {
     return (a != null ? a.equals(b) : a == b);
   }
-
   private static boolean eq_ixz87t_a0b0a0b0h(Object a, Object b) {
     return (a != null ? a.equals(b) : a == b);
   }
-
   private static boolean eq_ixz87t_a0a1a0a0a0a0a0a9a7(Object a, Object b) {
     return (a != null ? a.equals(b) : a == b);
   }

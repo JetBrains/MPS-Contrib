@@ -12,17 +12,14 @@ import java.util.Iterator;
 public class ClusterGraphGenerator extends AbstractGraphGenerator {
   private AbstractGraphGenerator myGraphGenerator;
   private int myNumClusters;
-
   public ClusterGraphGenerator(AbstractGraphGenerator graphGenerator) {
     super(0, 0, 0);
     myNumClusters = 3;
     myGraphGenerator = graphGenerator;
   }
-
   public void setNumClusters(int numClusters) {
     myNumClusters = numClusters;
   }
-
   @Override
   protected ClusteredGraph generateGraph() {
     Graph graph = myGraphGenerator.generate();
@@ -53,7 +50,6 @@ public class ClusterGraphGenerator extends AbstractGraphGenerator {
     }
     return clusteredGraph;
   }
-
   private void addLeafCluster(Node cluster, Iterator<Node> nodeItr, ClusteredGraph clusteredGraph) {
     Graph tree = clusteredGraph.getInclusionTree();
     Node leafCluster = tree.createNode();
@@ -61,17 +57,14 @@ public class ClusterGraphGenerator extends AbstractGraphGenerator {
     Node node = nodeItr.next();
     clusteredGraph.setNodeInCluster(leafCluster, node);
   }
-
   @Override
   public ClusteredGraph generate() throws IllegalArgumentException {
     return ((ClusteredGraph) super.generate());
   }
-
   @Override
   public int getNumNodes() {
     return myGraphGenerator.getNumNodes();
   }
-
   @Override
   public int getNumEdges() {
     return myGraphGenerator.getNumEdges();

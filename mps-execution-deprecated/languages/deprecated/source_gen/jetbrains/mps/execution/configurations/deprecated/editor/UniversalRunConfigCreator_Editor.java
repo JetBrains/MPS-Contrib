@@ -24,7 +24,6 @@ public class UniversalRunConfigCreator_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_5cdmsx_a(editorContext, node);
   }
-
   private EditorCell createCollection_5cdmsx_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_5cdmsx_a");
@@ -36,7 +35,6 @@ public class UniversalRunConfigCreator_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createRefNode_5cdmsx_e0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createCollection_5cdmsx_a0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_5cdmsx_a0");
@@ -44,7 +42,6 @@ public class UniversalRunConfigCreator_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createProperty_5cdmsx_b0a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_5cdmsx_a0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "run config creator");
     editorCell.setCellId("Constant_5cdmsx_a0a");
@@ -54,7 +51,6 @@ public class UniversalRunConfigCreator_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createProperty_5cdmsx_b0a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("name");
@@ -75,7 +71,6 @@ public class UniversalRunConfigCreator_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createCollection_5cdmsx_b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_5cdmsx_b0");
@@ -86,14 +81,12 @@ public class UniversalRunConfigCreator_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createRefCell_5cdmsx_b1a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_5cdmsx_a1a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "config type:");
     editorCell.setCellId("Constant_5cdmsx_a1a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefCell_5cdmsx_b1a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("rcType");
@@ -115,20 +108,16 @@ public class UniversalRunConfigCreator_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   public static class _Inline_5cdmsx_a1b0 extends InlineCellProvider {
     public _Inline_5cdmsx_a1b0() {
       super();
     }
-
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
     }
-
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
       return this.createProperty_5cdmsx_a0b1a(editorContext, node);
     }
-
     private EditorCell createProperty_5cdmsx_a0b1a(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("name");
@@ -148,7 +137,6 @@ public class UniversalRunConfigCreator_Editor extends DefaultNodeEditor {
       return editorCell;
     }
   }
-
   private EditorCell createCollection_5cdmsx_c0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_5cdmsx_c0");
@@ -159,14 +147,12 @@ public class UniversalRunConfigCreator_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createRefNode_5cdmsx_b2a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_5cdmsx_a2a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "create from:");
     editorCell.setCellId("Constant_5cdmsx_a2a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefNode_5cdmsx_b2a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("target");
@@ -186,7 +172,6 @@ public class UniversalRunConfigCreator_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createConstant_5cdmsx_d0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_5cdmsx_d0");
@@ -196,7 +181,6 @@ public class UniversalRunConfigCreator_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefNode_5cdmsx_e0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("createBlock");

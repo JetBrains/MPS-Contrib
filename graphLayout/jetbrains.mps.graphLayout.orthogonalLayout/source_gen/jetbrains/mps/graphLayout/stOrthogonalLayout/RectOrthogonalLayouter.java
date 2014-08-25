@@ -42,14 +42,12 @@ public class RectOrthogonalLayouter {
   private int myEdgeDistance;
   private int myLayoutLevel;
   private Map<Edge, Edge> myMovedLabels;
-
   public RectOrthogonalLayouter() {
     myNodeSize = DEFAULT_NODE_SIZE;
     myEdgeDistance = DEFAULT_EDGE_DISTANCE;
     myMovedLabels = MapSequence.fromMap(new HashMap<Edge, Edge>());
     myLayoutLevel = 1;
   }
-
   public GraphLayout doLayout(Graph graph, Map<Node, Dimension> nodeSizes, Map<Edge, Dimension> edgeSizes) {
     Map<Node, Integer> components = ConnectivityComponents.getComponents(graph);
     int maxComponent = 0;
@@ -110,7 +108,6 @@ public class RectOrthogonalLayouter {
       return layout;
     }
   }
-
   public GraphLayout findSTLayout(Graph graph, Map<Node, Dimension> nodeSizes, Map<Edge, Dimension> edgeSizes) {
     if (graph.getNumNodes() == 1) {
       GraphLayout layout = GraphLayoutFactory.createGraphLayout(graph);
@@ -176,7 +173,6 @@ public class RectOrthogonalLayouter {
     }
     return graphLayout;
   }
-
   private void removeTempObjects(List<Edge> oldEdges, GraphLayout graphLayout, Graph graph, Node addedNode, EdgesHistoryManager manager) {
     Set<Node> visited = SetSequence.fromSet(new HashSet<Node>());
     for (Edge oldEdge : ListSequence.fromList(oldEdges)) {
@@ -280,7 +276,6 @@ public class RectOrthogonalLayouter {
       }
     }
   }
-
   private GraphLayout createLayout(Graph graph, Map<Object, Rectangle> representation, Map<Node, Dimension> nodeSizes, Map<Edge, Dimension> edgeSizes, Set<Edge> hasLabels) {
     GraphLayout layout = GraphLayoutFactory.createGraphLayout(graph);
     for (Node node : ListSequence.fromList(graph.getNodes())) {
@@ -358,7 +353,6 @@ public class RectOrthogonalLayouter {
     correctEdgesLayout(layout);
     return layout;
   }
-
   public void correctEdgesLayout(GraphLayout layout) {
     Graph graph = ((Graph) layout.getGraph());
     for (Node node : ListSequence.fromList(graph.getNodes())) {
@@ -366,7 +360,6 @@ public class RectOrthogonalLayouter {
       this.correctEdgesFromNode(layout, node, layout.getNodeLayout(node).x + layout.getNodeLayout(node).width);
     }
   }
-
   private void correctEdgesFromNode(GraphLayout layout, Node node, final int xCoord) {
     Map<IEdge, List<Point>> edgeLayout = layout.getEdgeLayout();
     Rectangle rect = layout.getNodeLayout(node);
@@ -421,15 +414,12 @@ public class RectOrthogonalLayouter {
       curY += step;
     }
   }
-
   public void setNodeSize(int nodeSize) {
     this.myNodeSize = nodeSize;
   }
-
   public void setEdgeDistance(int edgeDistance) {
     this.myEdgeDistance = edgeDistance;
   }
-
   public void setLayoutLevel(int level) {
     myLayoutLevel = level;
   }

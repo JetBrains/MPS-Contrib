@@ -16,34 +16,27 @@ public class Dialog extends JComponent {
   private Events myEvents = new Events(null) {
     {
     }
-
     public void initialize() {
     }
   };
-
   public Dialog() {
     this.myThis = this;
     Dialog component = this;
     this.myEvents.initialize();
   }
-
   public Events getEvents() {
     return this.myEvents;
   }
-
   public void addNotify() {
     super.addNotify();
     this.bind();
   }
-
   public void removeNotify() {
     this.unbind();
     super.removeNotify();
   }
-
   private void bind() {
   }
-
   private void unbind() {
     for (AutoBinding binding : this.myBindings) {
       if (binding.isBound()) {
@@ -51,11 +44,9 @@ public class Dialog extends JComponent {
       }
     }
   }
-
   public String getTitle() {
     return this.myTitle;
   }
-
   public void setTitle(String newValue) {
     String oldValue = this.myTitle;
     this.myTitle = newValue;

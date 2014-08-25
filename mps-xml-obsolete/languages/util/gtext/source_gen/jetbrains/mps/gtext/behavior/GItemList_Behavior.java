@@ -12,7 +12,6 @@ import java.util.List;
 public class GItemList_Behavior {
   public static void init(SNode thisNode) {
   }
-
   public static boolean virtual_isComplex_1213877298853(SNode thisNode) {
     boolean complex = false;
     for (SNode item : ListSequence.fromList(SLinkOperations.getTargets(thisNode, "item", true))) {
@@ -23,7 +22,6 @@ public class GItemList_Behavior {
     }
     return complex;
   }
-
   public static List<SNode> virtual_getItems_1239125087745(SNode thisNode) {
     return SLinkOperations.getTargets(thisNode, "item", true);
   }

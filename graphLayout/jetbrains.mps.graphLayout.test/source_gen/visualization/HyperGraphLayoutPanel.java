@@ -14,12 +14,10 @@ import javax.swing.SwingUtilities;
 public class HyperGraphLayoutPanel extends OrthogonalLayoutTestPanel {
   public HyperGraphLayoutPanel() {
   }
-
   @Override
   protected Graph readGraph(Scanner scanner) {
     return GraphIO.scanHyperGraph(scanner);
   }
-
   @Override
   protected void writeGraph(Graph graph) {
     super.writeGraph(graph);
@@ -29,20 +27,17 @@ public class HyperGraphLayoutPanel extends OrthogonalLayoutTestPanel {
     writeTree(root, hyperGraph);
     myTextArea.append("\n");
   }
-
   @Override
   protected void initLayout() {
     super.initLayout();
     myLayouter = new HyperGraphLayouter(new ClusterOrthogonalFlowLayouter());
   }
-
   private void writeTree(Node node, HyperGraph graph) {
     for (Node child : ListSequence.fromList(graph.getChildren(node))) {
       myTextArea.append(node.getIndex() + " " + child.getIndex());
       writeTree(child, graph);
     }
   }
-
   public static void main(String[] args) {
     SwingUtilities.invokeLater(new Runnable() {
       @Override

@@ -9,15 +9,12 @@ import jetbrains.mps.lang.core.behavior.INamedConcept_Behavior;
 public class PredefinedDateFormat_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor implements IDateFormat_BehaviorDescriptor {
   public PredefinedDateFormat_BehaviorDescriptor() {
   }
-
   public String virtual_getFqName_1213877404258(SNode thisNode) {
     return INamedConcept_Behavior.virtual_getFqName_1213877404258(thisNode);
   }
-
   public String virtual_getPresentation_1213877396640(SNode thisNode) {
     return PredefinedDateFormat_Behavior.virtual_getPresentation_1213877396640(thisNode);
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.baseLanguage.datesInternal.structure.PredefinedDateFormat";

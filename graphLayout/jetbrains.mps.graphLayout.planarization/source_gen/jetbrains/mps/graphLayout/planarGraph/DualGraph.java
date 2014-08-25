@@ -17,14 +17,12 @@ public class DualGraph extends Graph {
   private Map<Node, Face> myFacesMap;
   private Map<Face, Node> myNodesMap;
   private Map<Edge, Edge> myEdgesMap;
-
   public DualGraph(EmbeddedGraph graph) {
     super();
     myEmbeddedGraph = graph;
     myEdgesMap = MapSequence.fromMap(new HashMap<Edge, Edge>());
     compute();
   }
-
   private void compute() {
     myNodesMap = MapSequence.fromMap(new HashMap<Face, Node>());
     myFacesMap = MapSequence.fromMap(new HashMap<Node, Face>());
@@ -41,7 +39,6 @@ public class DualGraph extends Graph {
       MapSequence.fromMap(myEdgesMap).put(faceEdge, edge);
     }
   }
-
   public Node addRealNode(Node realNode) {
     Node newNode = this.createDummyNode();
     for (Edge edge : ListSequence.fromList(realNode.getEdges())) {
@@ -51,28 +48,22 @@ public class DualGraph extends Graph {
     }
     return newNode;
   }
-
   public EmbeddedGraph getEmbeddedGraph() {
     return this.myEmbeddedGraph;
   }
-
   public Map<Node, Face> getFacesMap() {
     return this.myFacesMap;
   }
-
   public Map<Face, Node> getNodesMap() {
     return this.myNodesMap;
   }
-
   public Map<Edge, Edge> getEdgesMap() {
     return this.myEdgesMap;
   }
-
   public void removeFromGraph(Edge edge) {
     removeEdge(edge);
     MapSequence.fromMap(myEdgesMap).removeKey(edge);
   }
-
   public Edge addEdge(Node source, Node target, Edge realEdge) {
     Edge edge = connect(source, target);
     MapSequence.fromMap(myEdgesMap).put(edge, realEdge);

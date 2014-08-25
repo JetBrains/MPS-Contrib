@@ -33,10 +33,8 @@ public class BKCoordinatePlacer implements ICoordinatePlacer {
   private Map<Node, Integer> myNumLayer;
   private Map<Node, Node> myBlocks;
   private Set<Edge> badEdges;
-
   public BKCoordinatePlacer() {
   }
-
   @Override
   public Map<Node, Point> placeCoordinates(Graph graph, NodeLayeredOrder order) {
     this.myGraph = graph;
@@ -92,7 +90,6 @@ public class BKCoordinatePlacer implements ICoordinatePlacer {
     }
     return coord;
   }
-
   private Map<Node, Integer> computeCoords(int orderDir, int layerDir) {
     Edge.Direction dir;
     if (orderDir == TOP_TO_BOTTOM) {
@@ -119,7 +116,6 @@ public class BKCoordinatePlacer implements ICoordinatePlacer {
     }
     return curCoords;
   }
-
   public Graph createBlockGraph(Iterator<List<Node>> orderIterator, Map<Node, Node> roots, int layerDirection) {
     Graph blockGraph = new Graph();
     myBlocks = MapSequence.fromMap(new HashMap<Node, Node>());
@@ -140,7 +136,6 @@ public class BKCoordinatePlacer implements ICoordinatePlacer {
     }
     return blockGraph;
   }
-
   public void init() {
     myPosInLayer = new NodeMap<Integer>(myGraph);
     myNumLayer = new NodeMap<Integer>(myGraph);
@@ -156,7 +151,6 @@ public class BKCoordinatePlacer implements ICoordinatePlacer {
       SetSequence.fromSet(badEdges).addSequence(SetSequence.fromSet(findBadEdgesInLayer(myOrder.getOrder(layer))));
     }
   }
-
   private Set<Edge> findBadEdgesInLayer(List<Node> layerOrder) {
     Set<Edge> badEdges = SetSequence.fromSet(new HashSet<Edge>());
     int closestInnerEdgePos = -1;
@@ -189,7 +183,6 @@ public class BKCoordinatePlacer implements ICoordinatePlacer {
     }
     return badEdges;
   }
-
   private boolean isInnerDummy(Node node) {
     if (ListSequence.fromList(node.getOutEdges()).count() != 1) {
       return false;
@@ -197,11 +190,9 @@ public class BKCoordinatePlacer implements ICoordinatePlacer {
     Edge edge = ListSequence.fromList(node.getOutEdges()).getElement(0);
     return edge.getSource().isDummy() && edge.getTarget().isDummy();
   }
-
   private int getOppositePos(Node dummyNode) {
     return MapSequence.fromMap(myPosInLayer).get(ListSequence.fromList(dummyNode.getOutEdges()).getElement(0).getTarget());
   }
-
   private Iterator<Node> getListIterator(List<Node> nodeList, int direction) {
     if (direction == LEFTMOST) {
       return ListSequence.fromList(nodeList).iterator();
@@ -209,7 +200,6 @@ public class BKCoordinatePlacer implements ICoordinatePlacer {
       return ListSequence.fromList(nodeList).reversedList().iterator();
     }
   }
-
   private Iterator<List<Node>> getOrderIterator(NodeLayeredOrder order, int direction) {
     if (direction == TOP_TO_BOTTOM) {
       return order.getTopToBottomIterator();
@@ -217,7 +207,6 @@ public class BKCoordinatePlacer implements ICoordinatePlacer {
       return order.getBottomToTopIterator();
     }
   }
-
   public Map<Node, Node> computeBlocks(Iterator<List<Node>> layerIterator, final Edge.Direction dir, int layerDirection) {
     Map<Node, Node> roots = new NodeMap<Node>(myGraph);
     for (Node node : ListSequence.fromList(myGraph.getNodes())) {
@@ -273,7 +262,6 @@ public class BKCoordinatePlacer implements ICoordinatePlacer {
     }
     return roots;
   }
-
   private int tryToAddRoot(Node node, Map<Node, Node> roots, Edge edge, int curConnectedPos, Edge.Direction dir, int layerDirection) {
     Node medianNode = edge.getTarget(dir);
     boolean after;

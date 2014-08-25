@@ -10,7 +10,6 @@ public class BasicGraphGenerator extends AbstractGraphGenerator {
   public BasicGraphGenerator(int numNodes, int minEdges, int maxEdges) {
     super(numNodes, minEdges, maxEdges);
   }
-
   @Override
   protected Graph generateGraph() {
     Graph graph = new Graph();
@@ -25,7 +24,6 @@ public class BasicGraphGenerator extends AbstractGraphGenerator {
     }
     return graph;
   }
-
   protected Edge generateEdge(Graph graph) {
     Node source = graph.getNode(random().nextInt(getNumNodes()));
     Node target = graph.getNode(random().nextInt(getNumNodes()));

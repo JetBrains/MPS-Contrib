@@ -25,25 +25,20 @@ public class FixReferencesToDeletedRunModels_MigrationScript extends BaseMigrati
       public String getName() {
         return "Fix References To Deleted BaseLanguage Run Model";
       }
-
       public String getAdditionalInfo() {
         return "Fix References To Deleted BaseLanguage Run Model";
       }
-
       public String getFqNameOfConceptToSearchInstances() {
         return "jetbrains.mps.lang.core.structure.BaseConcept";
       }
-
       public boolean isApplicableInstanceNode(SNode node) {
         // only root nodes 
         SModel model = node.getModel();
         return model != null && node.getParent() == null && Sequence.fromIterable(ScriptsUtil.getImports(SNodeOperations.getModel(node), "jetbrains.mps.baseLanguage.util.plugin.run")).isNotEmpty();
       }
-
       public void doUpdateInstanceNode(SNode node) {
         ScriptsUtil.updateReferencesToModel(node, "jetbrains.mps.baseLanguage.util.plugin.run", SNodeOperations.getModel(SLinkOperations.getTarget(_quotation_createNode_26ji2y_a0a0c0a0a0(), "classifier", false)).getReference());
       }
-
       public boolean isShowAsIntention() {
         return false;
       }
@@ -52,15 +47,12 @@ public class FixReferencesToDeletedRunModels_MigrationScript extends BaseMigrati
       public String getName() {
         return "Fix References To Deleted Plugin Run Model";
       }
-
       public String getAdditionalInfo() {
         return "Fix References To Deleted Plugin Run Model";
       }
-
       public String getFqNameOfConceptToSearchInstances() {
         return "jetbrains.mps.lang.core.structure.BaseConcept";
       }
-
       public boolean isApplicableInstanceNode(SNode node) {
         // only root nodes 
         final SModel model = SNodeOperations.getModel(node);
@@ -74,17 +66,14 @@ public class FixReferencesToDeletedRunModels_MigrationScript extends BaseMigrati
           }
         }).isNotEmpty();
       }
-
       public void doUpdateInstanceNode(SNode node) {
         ScriptsUtil.updateReferencesToModel(node, "jetbrains.mps.lang.plugin.run", SNodeOperations.getModel(SLinkOperations.getTarget(_quotation_createNode_26ji2y_a0a0c0a0a1(), "classifier", false)).getReference());
       }
-
       public boolean isShowAsIntention() {
         return false;
       }
     });
   }
-
   private static SNode _quotation_createNode_26ji2y_a0a0c0a0a0() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;
@@ -92,7 +81,6 @@ public class FixReferencesToDeletedRunModels_MigrationScript extends BaseMigrati
     quotedNode_1.setReference("classifier", SReference.create("classifier", quotedNode_1, facade.createModelReference("f:java_stub#920eaa0e-ecca-46bc-bee7-4e5c59213dd6#jetbrains.mps(Testbench/jetbrains.mps@java_stub)"), facade.createNodeId("~MPSLaunch")));
     return quotedNode_1;
   }
-
   private static SNode _quotation_createNode_26ji2y_a0a0c0a0a1() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;

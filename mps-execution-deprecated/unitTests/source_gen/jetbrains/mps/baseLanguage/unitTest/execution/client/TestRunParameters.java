@@ -20,39 +20,31 @@ public class TestRunParameters {
   private String myTestRunner;
   private List<String> myVmParameters;
   private List<String> myClassPath;
-
   @Deprecated
   public TestRunParameters() {
-    myTestRunner = "jetbrains.mps.baseLanguage.unitTest.execution.server.TestRunner";
+    myTestRunner = "jetbrains.mps.baseLanguage.unitTest.execution.server.DefaultTestExecutor";
     myVmParameters = ListSequence.fromList(new ArrayList<String>());
     myClassPath = ListSequence.fromList(new ArrayList<String>());
     ListSequence.fromList(myClassPath).addSequence(SetSequence.fromSet(ModuleRepositoryFacade.getInstance().getModule(PersistenceFacade.getInstance().createModuleReference("f618e99a-2641-465c-bb54-31fe76f9e285(jetbrains.mps.baseLanguage.unitTest.execution)")).getFacet(JavaModuleFacet.class).getClassPath()));
   }
-
   public void setTestRunner(String name) {
     myTestRunner = name;
   }
-
   public String getTestRunner() {
     return myTestRunner;
   }
-
   public void setVmParameters(List<String> parameters) {
     myVmParameters = parameters;
   }
-
   public List<String> getVmParameters() {
     return myVmParameters;
   }
-
   public void setClassPath(List<String> classPath) {
     myClassPath = classPath;
   }
-
   public List<String> getClassPath() {
     return myClassPath;
   }
-
   @Override
   public boolean equals(Object obj) {
     if (!(obj instanceof TestRunParameters)) {
@@ -64,20 +56,16 @@ public class TestRunParameters {
     result = result && eq_mls2ap_a0a0e0k(myClassPath, parameters.myClassPath);
     return result;
   }
-
   @Override
   public int hashCode() {
     return myTestRunner.hashCode() + myClassPath.hashCode() + myVmParameters.hashCode();
   }
-
   private static boolean eq_mls2ap_a0a2a01(Object a, Object b) {
     return (a != null ? a.equals(b) : a == b);
   }
-
   private static boolean eq_mls2ap_a0a0d0k(Object a, Object b) {
     return (a != null ? a.equals(b) : a == b);
   }
-
   private static boolean eq_mls2ap_a0a0e0k(Object a, Object b) {
     return (a != null ? a.equals(b) : a == b);
   }

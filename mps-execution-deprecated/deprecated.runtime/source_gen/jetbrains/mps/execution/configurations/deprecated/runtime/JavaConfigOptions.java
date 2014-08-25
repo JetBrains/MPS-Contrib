@@ -33,11 +33,9 @@ public class JavaConfigOptions extends JPanel {
   private Events myEvents = new Events(null) {
     {
     }
-
     public void initialize() {
     }
   };
-
   public JavaConfigOptions() {
     this.myThis = this;
     JavaConfigOptions component = this;
@@ -52,24 +50,19 @@ public class JavaConfigOptions extends JPanel {
     component.add(this.createComponent_jy82jx_i0(), LayoutUtil.createPanelConstraints(10));
     this.myEvents.initialize();
   }
-
   public Events getEvents() {
     return this.myEvents;
   }
-
   public void addNotify() {
     super.addNotify();
     this.bind();
   }
-
   public void removeNotify() {
     this.unbind();
     super.removeNotify();
   }
-
   private void bind() {
   }
-
   private void unbind() {
     for (AutoBinding binding : this.myBindings) {
       if (binding.isBound()) {
@@ -77,49 +70,42 @@ public class JavaConfigOptions extends JPanel {
       }
     }
   }
-
   private JLabel createComponent_jy82jx_b0() {
     JLabel component = new JLabel();
     this.myComponent_jy82jx_b0 = component;
     component.setText("VM Parameters:");
     return component;
   }
-
   private RawLineEditorComponent createComponent_jy82jx_c0() {
     RawLineEditorComponent component = new RawLineEditorComponent();
     this.myVmParam_jy82jx_c0 = component;
     component.setDialogCaption("VM Parameters");
     return component;
   }
-
   private JLabel createComponent_jy82jx_d0() {
     JLabel component = new JLabel();
     this.myComponent_jy82jx_d0 = component;
     component.setText("Program Parameters:");
     return component;
   }
-
   private RawLineEditorComponent createComponent_jy82jx_e0() {
     RawLineEditorComponent component = new RawLineEditorComponent();
     this.myProgramParam_jy82jx_e0 = component;
     component.setDialogCaption("Program Parameters");
     return component;
   }
-
   private JLabel createComponent_jy82jx_f0() {
     JLabel component = new JLabel();
     this.myComponent_jy82jx_f0 = component;
     component.setText("Working Directory:");
     return component;
   }
-
   private FieldWithPathChooseDialog createComponent_jy82jx_g0() {
     FieldWithPathChooseDialog component = new FieldWithPathChooseDialog();
     this.myWorkingDir_jy82jx_g0 = component;
     component.setTitle("Select Working Directory");
     return component;
   }
-
   private JCheckBox createComponent_jy82jx_h0() {
     JCheckBox component = new JCheckBox();
     this.myAltJre_jy82jx_h0 = component;
@@ -131,14 +117,12 @@ public class JavaConfigOptions extends JPanel {
     });
     return component;
   }
-
   private FieldWithPathChooseDialog createComponent_jy82jx_i0() {
     FieldWithPathChooseDialog component = new FieldWithPathChooseDialog();
     this.myJreHome_jy82jx_i0 = component;
     component.setTitle("Select Alternative JRE home");
     return component;
   }
-
   @Deprecated
   @ToRemove(version = 2.0)
   public void reset(@Nullable ConfigRunParameters config) {
@@ -150,7 +134,6 @@ public class JavaConfigOptions extends JPanel {
       myThis.myAltJre_jy82jx_h0.setSelected(config.getUseAlternativeJRE());
     }
   }
-
   @Deprecated
   @ToRemove(version = 2.0)
   public void apply(@Nullable ConfigRunParameters config) {
@@ -162,14 +145,12 @@ public class JavaConfigOptions extends JPanel {
       config.setUseAlternativeJRE(myThis.myAltJre_jy82jx_h0.isSelected());
     }
   }
-
   public void dispose() {
     myThis.myJreHome_jy82jx_i0.dispose();
     myThis.myWorkingDir_jy82jx_g0.dispose();
     myThis.myProgramParam_jy82jx_e0.dispose();
     myThis.myVmParam_jy82jx_c0.dispose();
   }
-
   public void onCheckUseAlternativeJRE() {
     myThis.myJreHome_jy82jx_i0.setEditable(myThis.myAltJre_jy82jx_h0.isSelected());
   }

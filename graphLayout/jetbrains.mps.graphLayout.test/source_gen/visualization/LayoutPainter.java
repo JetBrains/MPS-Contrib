@@ -14,7 +14,6 @@ import jetbrains.mps.graphLayout.intGeom2D.Rectangle;
 public class LayoutPainter {
   public LayoutPainter() {
   }
-
   public void paint(IGraphLayout layout, Graphics g) {
     IGraph graph = layout.getGraph();
     for (IEdge edge : graph.getEdges()) {
@@ -36,7 +35,6 @@ public class LayoutPainter {
       }
     }
   }
-
   protected void drawPolyline(Iterable<Point> polyline, Graphics g) {
     Point prev = null;
     for (Point point : Sequence.fromIterable(polyline)) {

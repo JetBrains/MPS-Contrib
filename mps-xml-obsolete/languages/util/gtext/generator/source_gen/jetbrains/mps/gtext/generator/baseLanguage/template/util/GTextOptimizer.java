@@ -14,7 +14,6 @@ import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 public class GTextOptimizer {
   public GTextOptimizer() {
   }
-
   public static SNode optimize(SNode item, boolean mayReplace) {
     if (SNodeOperations.isInstanceOf(item, "jetbrains.mps.gtext.structure.GItemList") || SNodeOperations.isInstanceOf(item, "jetbrains.mps.gtext.structure.GConditionalLine") || SNodeOperations.isInstanceOf(item, "jetbrains.mps.gtext.structure.GLine")) {
       if (optimizeItems(item) == 1 && mayReplace && SNodeOperations.isInstanceOf(item, "jetbrains.mps.gtext.structure.GItemList")) {
@@ -26,11 +25,9 @@ public class GTextOptimizer {
     }
     return item;
   }
-
   public static SNode optimize(SNode item) {
     return optimize(item, true);
   }
-
   public static int optimizeItems(SNode item) {
     // inline item lists 
     SNode n = item;
@@ -80,7 +77,6 @@ public class GTextOptimizer {
     }
     return IterableUtil.asCollection(n.getChildren("item")).size();
   }
-
   public static SNode inlineChildren(SNode optChild, SNode nextChild) {
     SNode nc = nextChild;
     // cast to GItemList, because all item list containers have the same name for children items - "item" 

@@ -11,10 +11,8 @@ import java.io.InputStreamReader;
 
 public class NamesMap {
   private final Map<String, String> myMap = new LinkedHashMap<String, String>();
-
   public NamesMap() {
   }
-
   public void parsePropertyFile(InputStream stream) throws IOException {
     LineNumberReader lnr = new LineNumberReader(new InputStreamReader(stream));
     while (true) {
@@ -25,7 +23,6 @@ public class NamesMap {
       this.parseLine(line);
     }
   }
-
   private void parseLine(String line) throws IOException {
     if (line.matches("(\\s)*") || line.startsWith("#")) {
       return;
@@ -36,11 +33,9 @@ public class NamesMap {
     }
     this.myMap.put(strings[1], strings[0]);
   }
-
   public boolean containsClassName(String name) {
     return this.myMap.containsKey(name);
   }
-
   public String getNameForClass(Class<?> clazz) {
     if (this.myMap.containsKey(clazz.getName())) {
       return this.myMap.get(clazz.getName());

@@ -25,11 +25,9 @@ public class ComponentDeclaration_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_kze313_a(editorContext, node);
   }
-
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
     return this.createCollection_kze313_a_0(editorContext, node);
   }
-
   private EditorCell createCollection_kze313_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_kze313_a");
@@ -44,7 +42,6 @@ public class ComponentDeclaration_Editor extends DefaultNodeEditor {
     }
     return editorCell;
   }
-
   private EditorCell createCollection_kze313_a0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_kze313_a0");
@@ -55,14 +52,12 @@ public class ComponentDeclaration_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createProperty_kze313_b0a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_kze313_a0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "component");
     editorCell.setCellId("Constant_kze313_a0a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createProperty_kze313_b0a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("name");
@@ -83,7 +78,6 @@ public class ComponentDeclaration_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createConstant_kze313_b0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_kze313_b0");
@@ -93,7 +87,6 @@ public class ComponentDeclaration_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createCollection_kze313_c0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_kze313_c0");
@@ -104,16 +97,13 @@ public class ComponentDeclaration_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createCollection_kze313_b2a(editorContext, node));
     return editorCell;
   }
-
   private static boolean renderingCondition_kze313_a2a(SNode node, EditorContext editorContext) {
     return !(SPropertyOperations.getBoolean(node, "stub"));
   }
-
   private EditorCell createIndentCell_kze313_a2a(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
     return editorCell;
   }
-
   private EditorCell createCollection_kze313_b2a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_kze313_b2a");
@@ -123,7 +113,6 @@ public class ComponentDeclaration_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createRefNode_kze313_a1c0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createRefNode_kze313_a1c0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("root");
@@ -143,7 +132,6 @@ public class ComponentDeclaration_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createCollection_kze313_d0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_kze313_d0");
@@ -154,16 +142,13 @@ public class ComponentDeclaration_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createCollection_kze313_b3a(editorContext, node));
     return editorCell;
   }
-
   private static boolean renderingCondition_kze313_a3a(SNode node, EditorContext editorContext) {
     return SPropertyOperations.getBoolean(node, "stub");
   }
-
   private EditorCell createIndentCell_kze313_a3a(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
     return editorCell;
   }
-
   private EditorCell createCollection_kze313_b3a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_kze313_b3a");
@@ -178,7 +163,6 @@ public class ComponentDeclaration_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createCollection_kze313_e1d0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createCollection_kze313_a1d0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_kze313_a1d0");
@@ -189,14 +173,12 @@ public class ComponentDeclaration_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createRefCell_kze313_b0b3a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_kze313_a0b3a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "extends");
     editorCell.setCellId("Constant_kze313_a0b3a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefCell_kze313_b0b3a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("extendedComponent");
@@ -218,20 +200,16 @@ public class ComponentDeclaration_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   public static class _Inline_kze313_a1a1d0 extends InlineCellProvider {
     public _Inline_kze313_a1a1d0() {
       super();
     }
-
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
     }
-
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
       return this.createProperty_kze313_a0b0b3a(editorContext, node);
     }
-
     private EditorCell createProperty_kze313_a0b0b3a(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("name");
@@ -251,7 +229,6 @@ public class ComponentDeclaration_Editor extends DefaultNodeEditor {
       return editorCell;
     }
   }
-
   private EditorCell createCollection_kze313_b1d0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_kze313_b1d0");
@@ -262,14 +239,12 @@ public class ComponentDeclaration_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createRefCell_kze313_b1b3a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_kze313_a1b3a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "map to");
     editorCell.setCellId("Constant_kze313_a1b3a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefCell_kze313_b1b3a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("mapTo");
@@ -291,20 +266,16 @@ public class ComponentDeclaration_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   public static class _Inline_kze313_a1b1d0 extends InlineCellProvider {
     public _Inline_kze313_a1b1d0() {
       super();
     }
-
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
     }
-
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
       return this.createProperty_kze313_a0b1b3a(editorContext, node);
     }
-
     private EditorCell createProperty_kze313_a0b1b3a(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("name");
@@ -324,7 +295,6 @@ public class ComponentDeclaration_Editor extends DefaultNodeEditor {
       return editorCell;
     }
   }
-
   private EditorCell createCollection_kze313_c1d0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_kze313_c1d0");
@@ -335,14 +305,12 @@ public class ComponentDeclaration_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createProperty_kze313_b2b3a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_kze313_a2b3a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "abstract");
     editorCell.setCellId("Constant_kze313_a2b3a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createProperty_kze313_b2b3a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("abstract");
@@ -360,7 +328,6 @@ public class ComponentDeclaration_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createCollection_kze313_d1d0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_kze313_d1d0");
@@ -371,14 +338,12 @@ public class ComponentDeclaration_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createProperty_kze313_b3b3a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_kze313_a3b3a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "action component");
     editorCell.setCellId("Constant_kze313_a3b3a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createProperty_kze313_b3b3a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("actionComponent");
@@ -396,7 +361,6 @@ public class ComponentDeclaration_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createCollection_kze313_e1d0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_kze313_e1d0");
@@ -407,14 +371,12 @@ public class ComponentDeclaration_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createRefNode_kze313_b4b3a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_kze313_a4b3a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "cell renderer");
     editorCell.setCellId("Constant_kze313_a4b3a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefNode_kze313_b4b3a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("rendererInfo");
@@ -434,7 +396,6 @@ public class ComponentDeclaration_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createCollection_kze313_a_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_kze313_a_0");
@@ -442,7 +403,6 @@ public class ComponentDeclaration_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createCollection_kze313_a0_0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createCollection_kze313_a0_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_kze313_a0_0");
@@ -453,14 +413,12 @@ public class ComponentDeclaration_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createProperty_kze313_b0a_0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_kze313_a0a_0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "stub:");
     editorCell.setCellId("Constant_kze313_a0a_0");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createProperty_kze313_b0a_0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("stub");

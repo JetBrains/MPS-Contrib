@@ -14,7 +14,6 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 public class ConditionalDTPrinterOffset extends ConditionalDateTimePrinter {
   public ConditionalDTPrinterOffset() {
   }
-
   protected int getPrinterIndex(Long datetimeToFormat) {
     if (DateTimeOperations.compare(System.currentTimeMillis(), CompareType.EQ, datetimeToFormat, DateTimeFieldType.minuteOfHour())) {
       return 0;
@@ -30,7 +29,6 @@ public class ConditionalDTPrinterOffset extends ConditionalDateTimePrinter {
     }
     return -1;
   }
-
   protected List<DateTimePrinter> createPrinters() {
     List<DateTimePrinter> printers = new ArrayList<DateTimePrinter>(4);
     ListSequence.fromList(printers).addElement((MainFormatTable.INSTANCE).getFormatter("momentsAgo").getPrinter());

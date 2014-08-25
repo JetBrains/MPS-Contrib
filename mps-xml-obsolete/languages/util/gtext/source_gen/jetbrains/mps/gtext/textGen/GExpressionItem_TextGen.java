@@ -32,6 +32,5 @@ public class GExpressionItem_TextGen extends SNodeTextGen {
       }
     }
   }
-
   protected static Logger LOG = LogManager.getLogger(GExpressionItem_TextGen.class);
 }

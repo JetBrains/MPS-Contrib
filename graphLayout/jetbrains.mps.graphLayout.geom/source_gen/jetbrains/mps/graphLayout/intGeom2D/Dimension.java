@@ -6,17 +6,14 @@ package jetbrains.mps.graphLayout.intGeom2D;
 public class Dimension {
   public int width;
   public int height;
-
   public Dimension(int width, int height) {
     this.width = width;
     this.height = height;
   }
-
   public Dimension(Dimension dimension) {
     width = dimension.width;
     height = dimension.height;
   }
-
   @Override
   public String toString() {
     return "(" + width + ", " + height + ")";

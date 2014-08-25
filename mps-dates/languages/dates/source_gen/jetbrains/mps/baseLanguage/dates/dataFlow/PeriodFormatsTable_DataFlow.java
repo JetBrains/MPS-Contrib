@@ -11,7 +11,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 public class PeriodFormatsTable_DataFlow extends DataFlowBuilder {
   public PeriodFormatsTable_DataFlow() {
   }
-
   public void build(final IOperationContext operationContext, final DataFlowBuilderContext _context) {
     for (SNode format : SLinkOperations.getTargets(_context.getNode(), "periodFormat", true)) {
       _context.getBuilder().build((SNode) format);

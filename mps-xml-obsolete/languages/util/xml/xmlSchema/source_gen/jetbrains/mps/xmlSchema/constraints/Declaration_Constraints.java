@@ -22,12 +22,10 @@ public class Declaration_Constraints extends BaseConstraintsDescriptor {
   public Declaration_Constraints() {
     super("jetbrains.mps.xmlSchema.structure.Declaration");
   }
-
   @Override
   public boolean hasOwnDefaultScopeProvider() {
     return true;
   }
-
   @Override
   public ReferenceScopeProvider getDefaultScopeProvider() {
     return new BaseReferenceScopeProvider() {
@@ -36,14 +34,12 @@ public class Declaration_Constraints extends BaseConstraintsDescriptor {
         SNode schema = SNodeOperations.getAncestor(_context.getEnclosingNode(), "jetbrains.mps.xmlSchema.structure.Schema", true, false);
         return new SubnodesSearchScope(schema);
       }
-
       @Override
       public SNodeReference getSearchScopeValidatorNode() {
         return breakingNode_qtrxw8_a0a1a0a0a2;
       }
     };
   }
-
   @Override
   protected Map<String, PropertyConstraintsDescriptor> getNotDefaultProperties() {
     Map<String, PropertyConstraintsDescriptor> properties = new HashMap();
@@ -52,7 +48,6 @@ public class Declaration_Constraints extends BaseConstraintsDescriptor {
       public boolean hasOwnGetter() {
         return true;
       }
-
       @Override
       public Object getValue(SNode node) {
         String propertyName = "name";
@@ -61,6 +56,5 @@ public class Declaration_Constraints extends BaseConstraintsDescriptor {
     });
     return properties;
   }
-
   private static SNodePointer breakingNode_qtrxw8_a0a1a0a0a2 = new SNodePointer("r:00000000-0000-4000-0000-011c89590595(jetbrains.mps.xmlSchema.constraints)", "1213104847290");
 }

@@ -16,7 +16,6 @@ public class XMLLiteral_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_9bqf0a_a(editorContext, node);
   }
-
   private EditorCell createCollection_9bqf0a_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_9bqf0a_a");
@@ -24,7 +23,6 @@ public class XMLLiteral_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createRefNode_9bqf0a_a0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createRefNode_9bqf0a_a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("element");

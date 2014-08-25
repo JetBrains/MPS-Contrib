@@ -14,7 +14,6 @@ public class EntitySet_Constraints extends BaseConstraintsDescriptor {
   public EntitySet_Constraints() {
     super("jetbrains.mps.xmlSchema.structure.EntitySet");
   }
-
   @Override
   protected Map<String, PropertyConstraintsDescriptor> getNotDefaultProperties() {
     Map<String, PropertyConstraintsDescriptor> properties = new HashMap();
@@ -23,7 +22,6 @@ public class EntitySet_Constraints extends BaseConstraintsDescriptor {
       public boolean hasOwnGetter() {
         return true;
       }
-
       @Override
       public Object getValue(SNode node) {
         String propertyName = "name";

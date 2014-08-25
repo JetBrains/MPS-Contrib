@@ -1,130 +1,140 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debugInfo>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
   <root nodeRef="r:00000000-0000-4000-0000-011c8959055f(jetbrains.mps.uiLanguage.samples.grid)/1202823852897">
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="17" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myThis" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="18" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_35s7qs_a0" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="19" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_35s7qs_b0a" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="20" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_35s7qs_c0a" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="21" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_35s7qs_d0a" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="22" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_35s7qs_e0a" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="23" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_35s7qs_f0a" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="24" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_35s7qs_g0a" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="25" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myBindings" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="34" startPosition="21" endLine="35" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="35" startPosition="23" endLine="36" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="36" startPosition="30" endLine="37" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="37" startPosition="52" endLine="38" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="38" startPosition="47" endLine="39" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="39" startPosition="61" endLine="40" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="40" startPosition="31" endLine="41" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="44" startPosition="29" endLine="45" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="48" startPosition="27" endLine="49" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="49" startPosition="22" endLine="50" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="53" startPosition="30" endLine="54" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="54" startPosition="18" endLine="55" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="63" startPosition="30" endLine="64" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="69" startPosition="46" endLine="70" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="70" startPosition="36" endLine="71" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="71" startPosition="43" endLine="72" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="72" startPosition="46" endLine="73" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="73" startPosition="53" endLine="74" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="74" startPosition="53" endLine="75" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="75" startPosition="53" endLine="76" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="76" startPosition="53" endLine="77" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="77" startPosition="53" endLine="78" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="78" startPosition="53" endLine="79" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="82" startPosition="47" endLine="83" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="83" startPosition="36" endLine="84" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="84" startPosition="44" endLine="85" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="85" startPosition="29" endLine="86" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="89" startPosition="47" endLine="90" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="90" startPosition="36" endLine="91" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="91" startPosition="44" endLine="92" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="92" startPosition="30" endLine="93" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="96" startPosition="47" endLine="97" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="97" startPosition="36" endLine="98" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="98" startPosition="44" endLine="99" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="102" startPosition="47" endLine="103" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="103" startPosition="36" endLine="104" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="104" startPosition="44" endLine="105" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="105" startPosition="29" endLine="106" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="109" startPosition="47" endLine="110" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="110" startPosition="36" endLine="111" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="111" startPosition="44" endLine="112" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="112" startPosition="29" endLine="113" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="116" startPosition="47" endLine="117" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="117" startPosition="36" endLine="118" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="118" startPosition="44" endLine="119" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="119" startPosition="29" endLine="120" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="30" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="initialize#()V" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="58" startPosition="0" endLine="60" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="bind#()V" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="44" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getEvents#()Ljetbrains/mps/uiLanguage/runtime/events/Events;" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="62" startPosition="49" endLine="65" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="48" startPosition="0" endLine="52" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addNotify#()V" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="53" startPosition="0" endLine="57" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="removeNotify#()V" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="61" startPosition="25" endLine="66" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="96" startPosition="0" endLine="101" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_35s7qs_d0a#()Ljava/lang/Object;" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="82" startPosition="0" endLine="88" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_35s7qs_b0a#()Ljava/lang/Object;" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="89" startPosition="0" endLine="95" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_35s7qs_c0a#()Ljava/lang/Object;" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="102" startPosition="0" endLine="108" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_35s7qs_e0a#()Ljava/lang/Object;" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="109" startPosition="0" endLine="115" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_35s7qs_f0a#()Ljava/lang/Object;" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="116" startPosition="0" endLine="122" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_35s7qs_g0a#()Ljava/lang/Object;" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="26" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myEvents" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="61" startPosition="0" endLine="68" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="unbind#()V" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="34" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="GridDemo#()V" />
-    <nodeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="69" startPosition="0" endLine="81" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_35s7qs_a0#()Ljava/lang/Object;" />
-    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="27" startPosition="5" endLine="27" endPosition="5" />
-    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="30" startPosition="30" endLine="30" endPosition="30" />
-    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="58" startPosition="23" endLine="58" endPosition="23" />
-    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="44" startPosition="29" endLine="45" endPosition="25" />
-    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="63" startPosition="30" endLine="64" endPosition="25" />
-    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="30" startPosition="0" endLine="32" endPosition="0" />
-    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="48" startPosition="27" endLine="50" endPosition="16" />
-    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="53" startPosition="30" endLine="55" endPosition="25" />
-    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="58" startPosition="0" endLine="60" endPosition="0" />
-    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="44" startPosition="0" endLine="47" endPosition="0" />
-    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="62" startPosition="49" endLine="65" endPosition="7" />
-    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="96" startPosition="47" endLine="99" endPosition="21">
-      <varInfo nodeId="1202823852897" varName="component" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="48" startPosition="0" endLine="52" endPosition="0" />
-    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="53" startPosition="0" endLine="57" endPosition="0" />
-    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="82" startPosition="47" endLine="86" endPosition="21">
-      <varInfo nodeId="1202823852897" varName="component" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="89" startPosition="47" endLine="93" endPosition="21">
-      <varInfo nodeId="1202823852897" varName="component" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="102" startPosition="47" endLine="106" endPosition="21">
-      <varInfo nodeId="1202823852897" varName="component" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="109" startPosition="47" endLine="113" endPosition="21">
-      <varInfo nodeId="1202823852897" varName="component" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="116" startPosition="47" endLine="120" endPosition="21">
-      <varInfo nodeId="1202823852897" varName="component" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="61" startPosition="25" endLine="66" endPosition="5" />
-    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="61" startPosition="25" endLine="66" endPosition="5">
-      <varInfo nodeId="1202823852897" varName="binding" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="96" startPosition="0" endLine="101" endPosition="0" />
-    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="82" startPosition="0" endLine="88" endPosition="0" />
-    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="89" startPosition="0" endLine="95" endPosition="0" />
-    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="102" startPosition="0" endLine="108" endPosition="0" />
-    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="109" startPosition="0" endLine="115" endPosition="0" />
-    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="116" startPosition="0" endLine="122" endPosition="0" />
-    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="34" startPosition="21" endLine="41" endPosition="31">
-      <varInfo nodeId="1202823852897" varName="component" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="61" startPosition="0" endLine="68" endPosition="0" />
-    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="34" startPosition="0" endLine="43" endPosition="0" />
-    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="69" startPosition="46" endLine="79" endPosition="21">
-      <varInfo nodeId="1202823852897" varName="component" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="69" startPosition="0" endLine="81" endPosition="0" />
-    <unitInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="26" startPosition="32" endLine="32" endPosition="3" unitName="jetbrains.mps.uiLanguage.samples.grid.GridDemo$1" />
-    <unitInfo nodeId="1202823852897" fileName="GridDemo.java" startLine="16" startPosition="0" endLine="123" endPosition="0" unitName="jetbrains.mps.uiLanguage.samples.grid.GridDemo" />
+    <file name="GridDemo.java">
+      <node id="1202823852897" at="17,0,18,0" concept="2" trace="myThis" />
+      <node id="1202823852897" at="18,0,19,0" concept="2" trace="myComponent_35s7qs_a0" />
+      <node id="1202823852897" at="19,0,20,0" concept="2" trace="myComponent_35s7qs_b0a" />
+      <node id="1202823852897" at="20,0,21,0" concept="2" trace="myComponent_35s7qs_c0a" />
+      <node id="1202823852897" at="21,0,22,0" concept="2" trace="myComponent_35s7qs_d0a" />
+      <node id="1202823852897" at="22,0,23,0" concept="2" trace="myComponent_35s7qs_e0a" />
+      <node id="1202823852897" at="23,0,24,0" concept="2" trace="myComponent_35s7qs_f0a" />
+      <node id="1202823852897" at="24,0,25,0" concept="2" trace="myComponent_35s7qs_g0a" />
+      <node id="1202823852897" at="25,0,26,0" concept="2" trace="myBindings" />
+      <node id="1202823852897" at="32,21,33,23" concept="1" />
+      <node id="1202823852897" at="33,23,34,30" concept="6" />
+      <node id="1202823852897" at="34,30,35,52" concept="1" />
+      <node id="1202823852897" at="35,52,36,47" concept="1" />
+      <node id="1202823852897" at="36,47,37,61" concept="1" />
+      <node id="1202823852897" at="37,61,38,31" concept="1" />
+      <node id="1202823852897" at="38,31,39,31" concept="1" />
+      <node id="1202823852897" at="41,29,42,25" concept="7" />
+      <node id="1202823852897" at="44,27,45,22" concept="1" />
+      <node id="1202823852897" at="45,22,46,16" concept="1" />
+      <node id="1202823852897" at="48,30,49,18" concept="1" />
+      <node id="1202823852897" at="49,18,50,25" concept="1" />
+      <node id="1202823852897" at="56,30,57,25" concept="1" />
+      <node id="1202823852897" at="61,46,62,36" concept="6" />
+      <node id="1202823852897" at="62,36,63,43" concept="1" />
+      <node id="1202823852897" at="63,43,64,46" concept="1" />
+      <node id="1202823852897" at="64,46,65,53" concept="1" />
+      <node id="1202823852897" at="65,53,66,53" concept="1" />
+      <node id="1202823852897" at="66,53,67,53" concept="1" />
+      <node id="1202823852897" at="67,53,68,53" concept="1" />
+      <node id="1202823852897" at="68,53,69,53" concept="1" />
+      <node id="1202823852897" at="69,53,70,53" concept="1" />
+      <node id="1202823852897" at="70,53,71,21" concept="7" />
+      <node id="1202823852897" at="73,47,74,36" concept="6" />
+      <node id="1202823852897" at="74,36,75,44" concept="1" />
+      <node id="1202823852897" at="75,44,76,29" concept="1" />
+      <node id="1202823852897" at="76,29,77,21" concept="7" />
+      <node id="1202823852897" at="79,47,80,36" concept="6" />
+      <node id="1202823852897" at="80,36,81,44" concept="1" />
+      <node id="1202823852897" at="81,44,82,30" concept="1" />
+      <node id="1202823852897" at="82,30,83,21" concept="7" />
+      <node id="1202823852897" at="85,47,86,36" concept="6" />
+      <node id="1202823852897" at="86,36,87,44" concept="1" />
+      <node id="1202823852897" at="87,44,88,21" concept="7" />
+      <node id="1202823852897" at="90,47,91,36" concept="6" />
+      <node id="1202823852897" at="91,36,92,44" concept="1" />
+      <node id="1202823852897" at="92,44,93,29" concept="1" />
+      <node id="1202823852897" at="93,29,94,21" concept="7" />
+      <node id="1202823852897" at="96,47,97,36" concept="6" />
+      <node id="1202823852897" at="97,36,98,44" concept="1" />
+      <node id="1202823852897" at="98,44,99,29" concept="1" />
+      <node id="1202823852897" at="99,29,100,21" concept="7" />
+      <node id="1202823852897" at="102,47,103,36" concept="6" />
+      <node id="1202823852897" at="103,36,104,44" concept="1" />
+      <node id="1202823852897" at="104,44,105,29" concept="1" />
+      <node id="1202823852897" at="105,29,106,21" concept="7" />
+      <node id="1202823852897" at="29,0,31,0" concept="5" trace="initialize#()V" />
+      <node id="1202823852897" at="52,0,54,0" concept="5" trace="bind#()V" />
+      <node id="1202823852897" at="41,0,44,0" concept="5" trace="getEvents#()Ljetbrains/mps/uiLanguage/runtime/events/Events;" />
+      <node id="1202823852897" at="55,49,58,7" concept="4" />
+      <node id="1202823852897" at="44,0,48,0" concept="5" trace="addNotify#()V" />
+      <node id="1202823852897" at="48,0,52,0" concept="5" trace="removeNotify#()V" />
+      <node id="1202823852897" at="54,25,59,5" concept="3" />
+      <node id="1202823852897" at="85,0,90,0" concept="5" trace="createComponent_35s7qs_d0a#()Ljava/lang/Object;" />
+      <node id="1202823852897" at="26,0,32,0" concept="2" trace="myEvents" />
+      <node id="1202823852897" at="73,0,79,0" concept="5" trace="createComponent_35s7qs_b0a#()Ljava/lang/Object;" />
+      <node id="1202823852897" at="79,0,85,0" concept="5" trace="createComponent_35s7qs_c0a#()Ljava/lang/Object;" />
+      <node id="1202823852897" at="90,0,96,0" concept="5" trace="createComponent_35s7qs_e0a#()Ljava/lang/Object;" />
+      <node id="1202823852897" at="96,0,102,0" concept="5" trace="createComponent_35s7qs_f0a#()Ljava/lang/Object;" />
+      <node id="1202823852897" at="102,0,108,0" concept="5" trace="createComponent_35s7qs_g0a#()Ljava/lang/Object;" />
+      <node id="1202823852897" at="54,0,61,0" concept="5" trace="unbind#()V" />
+      <node id="1202823852897" at="32,0,41,0" concept="0" trace="GridDemo#()V" />
+      <node id="1202823852897" at="61,0,73,0" concept="5" trace="createComponent_35s7qs_a0#()Ljava/lang/Object;" />
+      <scope id="1202823852897" at="27,5,27,5" />
+      <scope id="1202823852897" at="29,30,29,30" />
+      <scope id="1202823852897" at="52,23,52,23" />
+      <scope id="1202823852897" at="41,29,42,25" />
+      <scope id="1202823852897" at="56,30,57,25" />
+      <scope id="1202823852897" at="29,0,31,0" />
+      <scope id="1202823852897" at="44,27,46,16" />
+      <scope id="1202823852897" at="48,30,50,25" />
+      <scope id="1202823852897" at="52,0,54,0" />
+      <scope id="1202823852897" at="41,0,44,0" />
+      <scope id="1202823852897" at="55,49,58,7" />
+      <scope id="1202823852897" at="85,47,88,21">
+        <var name="component" id="1202823852897" />
+      </scope>
+      <scope id="1202823852897" at="44,0,48,0" />
+      <scope id="1202823852897" at="48,0,52,0" />
+      <scope id="1202823852897" at="73,47,77,21">
+        <var name="component" id="1202823852897" />
+      </scope>
+      <scope id="1202823852897" at="79,47,83,21">
+        <var name="component" id="1202823852897" />
+      </scope>
+      <scope id="1202823852897" at="90,47,94,21">
+        <var name="component" id="1202823852897" />
+      </scope>
+      <scope id="1202823852897" at="96,47,100,21">
+        <var name="component" id="1202823852897" />
+      </scope>
+      <scope id="1202823852897" at="102,47,106,21">
+        <var name="component" id="1202823852897" />
+      </scope>
+      <scope id="1202823852897" at="54,25,59,5" />
+      <scope id="1202823852897" at="54,25,59,5">
+        <var name="binding" id="1202823852897" />
+      </scope>
+      <scope id="1202823852897" at="85,0,90,0" />
+      <scope id="1202823852897" at="73,0,79,0" />
+      <scope id="1202823852897" at="79,0,85,0" />
+      <scope id="1202823852897" at="90,0,96,0" />
+      <scope id="1202823852897" at="96,0,102,0" />
+      <scope id="1202823852897" at="102,0,108,0" />
+      <scope id="1202823852897" at="32,21,39,31">
+        <var name="component" id="1202823852897" />
+      </scope>
+      <scope id="1202823852897" at="54,0,61,0" />
+      <scope id="1202823852897" at="32,0,41,0" />
+      <scope id="1202823852897" at="61,46,71,21">
+        <var name="component" id="1202823852897" />
+      </scope>
+      <scope id="1202823852897" at="61,0,73,0" />
+      <unit id="1202823852897" at="26,32,31,3" name="jetbrains.mps.uiLanguage.samples.grid.GridDemo$1" />
+      <unit id="1202823852897" at="16,0,109,0" name="jetbrains.mps.uiLanguage.samples.grid.GridDemo" />
+    </file>
   </root>
-</debugInfo>
+</debug-info>
 

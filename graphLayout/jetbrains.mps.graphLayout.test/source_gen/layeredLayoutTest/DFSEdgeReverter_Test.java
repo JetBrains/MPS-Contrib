@@ -12,7 +12,6 @@ public class DFSEdgeReverter_Test extends TestCase {
     Graph cycle = SimpleDirectedGraphs.cycle(10);
     new EdgeReverterProxy(new DFSEdgeReverter()).revertEdges(cycle);
   }
-
   public DFSEdgeReverter_Test() {
   }
 }

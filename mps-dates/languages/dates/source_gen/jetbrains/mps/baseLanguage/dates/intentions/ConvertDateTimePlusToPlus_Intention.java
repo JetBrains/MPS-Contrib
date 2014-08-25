@@ -17,74 +17,58 @@ import jetbrains.mps.intentions.IntentionDescriptor;
 
 public class ConvertDateTimePlusToPlus_Intention implements IntentionFactory {
   private Collection<IntentionExecutable> myCachedExecutable;
-
   public ConvertDateTimePlusToPlus_Intention() {
   }
-
   public String getConcept() {
     return "jetbrains.mps.baseLanguage.dates.structure.DateTimePlusPeriodOperation";
   }
-
   public String getPresentation() {
     return "ConvertDateTimePlusToPlus";
   }
-
   public String getPersistentStateKey() {
     return "jetbrains.mps.baseLanguage.dates.intentions.ConvertDateTimePlusToPlus_Intention";
   }
-
   public String getLanguageFqName() {
     return "jetbrains.mps.baseLanguage.dates";
   }
-
   public IntentionType getType() {
     return IntentionType.ERROR;
   }
-
   public boolean isAvailableInChildNodes() {
     return false;
   }
-
   public boolean isApplicable(final SNode node, final EditorContext editorContext) {
     if (!(isApplicableToNode(node, editorContext))) {
       return false;
     }
     return true;
   }
-
   private boolean isApplicableToNode(final SNode node, final EditorContext editorContext) {
     return true;
   }
-
   public SNodeReference getIntentionNodeReference() {
     return new SNodePointer("r:00000000-0000-4000-0000-011c895903d2(jetbrains.mps.baseLanguage.dates.intentions)", "1207144041354");
   }
-
   public boolean isSurroundWith() {
     return false;
   }
-
   public Collection<IntentionExecutable> instances(final SNode node, final EditorContext context) {
     if (myCachedExecutable == null) {
       myCachedExecutable = Collections.<IntentionExecutable>singletonList(new ConvertDateTimePlusToPlus_Intention.IntentionImplementation());
     }
     return myCachedExecutable;
   }
-
   public class IntentionImplementation implements IntentionExecutable {
     public IntentionImplementation() {
     }
-
     public String getDescription(final SNode node, final EditorContext editorContext) {
       return "Convert Plus to Datetime Plus Period";
     }
-
     public void execute(final SNode node, final EditorContext editorContext) {
       SNode plusPeriodOperation = SNodeFactoryOperations.replaceWithNewChild(node, "jetbrains.mps.baseLanguage.structure.PlusExpression");
       SLinkOperations.setTarget(plusPeriodOperation, "leftExpression", SLinkOperations.getTarget(node, "leftValue", true), true);
       SLinkOperations.setTarget(plusPeriodOperation, "rightExpression", SLinkOperations.getTarget(node, "rightValue", true), true);
     }
-
     public IntentionDescriptor getDescriptor() {
       return ConvertDateTimePlusToPlus_Intention.this;
     }

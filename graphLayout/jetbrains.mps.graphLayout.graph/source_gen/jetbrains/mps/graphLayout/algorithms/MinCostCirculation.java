@@ -12,7 +12,6 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 
 public class MinCostCirculation {
   private static int TEST_MODE = 1;
-
   public static Map<Edge, Integer> getCirculation(Graph graph, Map<Edge, Integer> low, Map<Edge, Integer> initialCapacity, Map<Edge, Integer> cost) {
     Map<Edge, Integer> capacity = MapSequence.fromMap(new HashMap<Edge, Integer>());
     Node source = graph.createNode();

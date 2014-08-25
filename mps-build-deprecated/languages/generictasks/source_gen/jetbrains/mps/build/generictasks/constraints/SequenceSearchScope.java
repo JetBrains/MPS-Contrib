@@ -12,11 +12,9 @@ import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 
 public class SequenceSearchScope extends AbstractSearchScope {
   private final Iterable<SNode> myNodes;
-
   public SequenceSearchScope(Iterable<SNode> nodes) {
     myNodes = nodes;
   }
-
   @NotNull
   @Override
   public List<SNode> getNodes(final Condition<SNode> condition) {

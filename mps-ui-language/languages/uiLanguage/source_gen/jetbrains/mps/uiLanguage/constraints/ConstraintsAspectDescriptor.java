@@ -9,7 +9,6 @@ import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
 public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime.ConstraintsAspectDescriptor {
   public ConstraintsAspectDescriptor() {
   }
-
   public ConstraintsDescriptor getDescriptor(String fqName) {
     switch (Arrays.binarySearch(stringSwitchCases_2qnle6_a0a0b, fqName)) {
       case 7:
@@ -51,6 +50,5 @@ public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime
         return new BaseConstraintsDescriptor(fqName);
     }
   }
-
   private static String[] stringSwitchCases_2qnle6_a0a0b = new String[]{"jetbrains.mps.uiLanguage.structure.ActionHandler", "jetbrains.mps.uiLanguage.structure.AddListenerOperation", "jetbrains.mps.uiLanguage.structure.AttributeValue", "jetbrains.mps.uiLanguage.structure.BindExpression", "jetbrains.mps.uiLanguage.structure.CellRendererAttribute", "jetbrains.mps.uiLanguage.structure.ComponentController", "jetbrains.mps.uiLanguage.structure.ComponentInstance", "jetbrains.mps.uiLanguage.structure.ComponentReference", "jetbrains.mps.uiLanguage.structure.EventHandlerReference", "jetbrains.mps.uiLanguage.structure.InlineRenderer", "jetbrains.mps.uiLanguage.structure.ListElements", "jetbrains.mps.uiLanguage.structure.RaiseInternalStatement", "jetbrains.mps.uiLanguage.structure.RaiseOperation", "jetbrains.mps.uiLanguage.structure.RemoveListenerOperation", "jetbrains.mps.uiLanguage.structure.RenderingObject", "jetbrains.mps.uiLanguage.structure.StandardDialog", "jetbrains.mps.uiLanguage.structure.StubCellRendererInfo"};
 }

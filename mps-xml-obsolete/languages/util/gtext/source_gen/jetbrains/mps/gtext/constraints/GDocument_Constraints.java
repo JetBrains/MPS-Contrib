@@ -14,7 +14,6 @@ public class GDocument_Constraints extends BaseConstraintsDescriptor {
   public GDocument_Constraints() {
     super("jetbrains.mps.gtext.structure.GDocument");
   }
-
   @Override
   protected Map<String, PropertyConstraintsDescriptor> getNotDefaultProperties() {
     Map<String, PropertyConstraintsDescriptor> properties = new HashMap();
@@ -23,18 +22,15 @@ public class GDocument_Constraints extends BaseConstraintsDescriptor {
       public boolean hasOwnGetter() {
         return true;
       }
-
       @Override
       public Object getValue(SNode node) {
         String propertyName = "name";
         return SPropertyOperations.getString(node, "documentName");
       }
-
       @Override
       public boolean hasOwnSetter() {
         return true;
       }
-
       @Override
       public void setValue(SNode node, String propertyValue) {
         String propertyName = "name";

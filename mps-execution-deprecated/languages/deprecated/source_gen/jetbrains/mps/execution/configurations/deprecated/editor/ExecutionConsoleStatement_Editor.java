@@ -20,7 +20,6 @@ public class ExecutionConsoleStatement_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_hgllge_a(editorContext, node);
   }
-
   private EditorCell createCollection_hgllge_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_hgllge_a");
@@ -30,14 +29,12 @@ public class ExecutionConsoleStatement_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createConstant_hgllge_c0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_hgllge_a0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "console");
     editorCell.setCellId("Constant_hgllge_a0");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createCollection_hgllge_b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_hgllge_b0");
@@ -45,7 +42,6 @@ public class ExecutionConsoleStatement_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createRefNode_hgllge_b1a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createCollection_hgllge_a1a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_hgllge_a1a");
@@ -53,14 +49,12 @@ public class ExecutionConsoleStatement_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createRefNode_hgllge_b0b0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_hgllge_a0b0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "component:");
     editorCell.setCellId("Constant_hgllge_a0b0");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefNode_hgllge_b0b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("consoleComponent");
@@ -80,7 +74,6 @@ public class ExecutionConsoleStatement_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createRefNode_hgllge_b1a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("disposeBlock");
@@ -100,7 +93,6 @@ public class ExecutionConsoleStatement_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createConstant_hgllge_c0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ";");
     editorCell.setCellId("Constant_hgllge_c0");

@@ -15,7 +15,6 @@ public class ComponentController_Constraints extends BaseConstraintsDescriptor {
   public ComponentController_Constraints() {
     super("jetbrains.mps.uiLanguage.structure.ComponentController");
   }
-
   @Override
   protected Map<String, PropertyConstraintsDescriptor> getNotDefaultProperties() {
     Map<String, PropertyConstraintsDescriptor> properties = new HashMap();
@@ -24,7 +23,6 @@ public class ComponentController_Constraints extends BaseConstraintsDescriptor {
       public boolean hasOwnGetter() {
         return true;
       }
-
       @Override
       public Object getValue(SNode node) {
         String propertyName = "name";

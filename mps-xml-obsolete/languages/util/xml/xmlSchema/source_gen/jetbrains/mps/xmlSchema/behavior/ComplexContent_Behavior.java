@@ -11,19 +11,15 @@ import java.util.Set;
 public class ComplexContent_Behavior {
   public static void init(SNode thisNode) {
   }
-
   public static void virtual_checkAttributes_1213877382373(SNode thisNode, List<SNode> attributeDeclarations) {
     BehaviorReflection.invokeVirtual(Void.class, SLinkOperations.getTarget(thisNode, "contentItem", true), "virtual_checkAttributes_1213877413538", new Object[]{attributeDeclarations});
   }
-
   public static void virtual_checkElements_1213877382378(SNode thisNode, Set<SNode> elementDeclarations) {
     BehaviorReflection.invokeVirtual(Void.class, SLinkOperations.getTarget(thisNode, "contentItem", true), "virtual_checkElements_1213877413543", new Object[]{elementDeclarations});
   }
-
   public static boolean virtual_hasElementReferences_1213877382383(SNode thisNode) {
     return true;
   }
-
   public static boolean virtual_isMixed_1213877382388(SNode thisNode) {
     return BehaviorReflection.invokeVirtual(Boolean.TYPE, SLinkOperations.getTarget(thisNode, "contentItem", true), "virtual_isMixed_1213877413548", new Object[]{});
   }

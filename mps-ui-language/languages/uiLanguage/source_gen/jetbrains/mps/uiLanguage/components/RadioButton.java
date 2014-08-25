@@ -18,34 +18,27 @@ public class RadioButton extends JButton {
   private Events myEvents = new Events(null) {
     {
     }
-
     public void initialize() {
     }
   };
-
   public RadioButton() {
     this.myThis = this;
     RadioButton component = this;
     this.myEvents.initialize();
   }
-
   public Events getEvents() {
     return this.myEvents;
   }
-
   public void addNotify() {
     super.addNotify();
     this.bind();
   }
-
   public void removeNotify() {
     this.unbind();
     super.removeNotify();
   }
-
   private void bind() {
   }
-
   private void unbind() {
     for (AutoBinding binding : this.myBindings) {
       if (binding.isBound()) {
@@ -53,21 +46,17 @@ public class RadioButton extends JButton {
       }
     }
   }
-
   public boolean getSelected() {
     return this.mySelected;
   }
-
   public ButtonGroup getGroup() {
     return this.myGroup;
   }
-
   public void setSelected(boolean newValue) {
     boolean oldValue = this.mySelected;
     this.mySelected = newValue;
     this.firePropertyChange("selected", oldValue, newValue);
   }
-
   public void setGroup(ButtonGroup newValue) {
     ButtonGroup oldValue = this.myGroup;
     this.myGroup = newValue;

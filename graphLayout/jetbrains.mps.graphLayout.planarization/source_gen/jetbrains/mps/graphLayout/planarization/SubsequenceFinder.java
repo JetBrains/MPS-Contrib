@@ -10,10 +10,8 @@ import jetbrains.mps.baseLanguage.tuples.runtime.MultiTuple;
 
 public class SubsequenceFinder {
   private static int showInfo = 0;
-
   public SubsequenceFinder() {
   }
-
   public static List<Tuples._2<Integer, Integer>> getCyclicSubsequence(List<Object> sample, List<Object> cyclic) {
     List<Object> copy = ListSequence.fromList(new LinkedList<Object>());
     ListSequence.fromList(copy).addSequence(ListSequence.fromList(cyclic));
@@ -40,7 +38,6 @@ public class SubsequenceFinder {
     }
     return pos;
   }
-
   public static List<Tuples._2<Integer, Integer>> getSubsequence(Object[] s, Object[] p) {
     // finds greatest common subsequence of arrays s and p 
     // here one element of p can correspond to many elements of s 

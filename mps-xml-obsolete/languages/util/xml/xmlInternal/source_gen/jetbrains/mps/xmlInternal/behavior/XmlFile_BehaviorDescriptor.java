@@ -11,15 +11,12 @@ import jetbrains.mps.lang.core.behavior.INamedConcept_Behavior;
 public class XmlFile_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor implements INamedConcept_BehaviorDescriptor, XmlRoot_BehaviorDescriptor {
   public XmlFile_BehaviorDescriptor() {
   }
-
   public String virtual_getFqName_1213877404258(SNode thisNode) {
     return INamedConcept_Behavior.virtual_getFqName_1213877404258(thisNode);
   }
-
   public SNode virtual_getSchema_1213877420378(SNode thisNode) {
     return XmlFile_Behavior.virtual_getSchema_1213877420378(thisNode);
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.xmlInternal.structure.XmlFile";

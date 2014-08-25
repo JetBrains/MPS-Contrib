@@ -12,19 +12,15 @@ public class PQTree {
   private static int SHOW_LOG = 0;
   private PQNode myRoot;
   private Node myNodeToMerge;
-
   public PQTree() {
     myRoot = null;
   }
-
   public PQNode getRoot() {
     return this.myRoot;
   }
-
   public void setRoot(PQNode root) {
     this.myRoot = root;
   }
-
   public PQNode modifyTree(Node nodeToMerge) {
     myNodeToMerge = nodeToMerge;
     String oldTreeRepresentation = this.toString();
@@ -81,7 +77,6 @@ public class PQTree {
       }
     }
   }
-
   public PQNode findPertinentRoot(PQNode node) {
     if (node.isLeaf()) {
       if (node.getGraphNode() == myNodeToMerge) {
@@ -133,7 +128,6 @@ public class PQTree {
       }
     }
   }
-
   private PQNode arrange(PQNode node, boolean isRealPertinentRoot) {
     // this boolean value is for Q3 case only 
     if (node.getNumFullLeaves() == 0) {
@@ -149,12 +143,10 @@ public class PQTree {
     }
     return node.makeReduction(isRealPertinentRoot);
   }
-
   @Override
   public String toString() {
     return getRoot().toString(0);
   }
-
   public void makeReducible() {
     PQNode pertinentRoot = findPertinentRoot(myRoot);
     pertinentRoot.computeHValue();

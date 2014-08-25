@@ -19,7 +19,6 @@ import jetbrains.mps.graphLayout.graph.Edge;
 public class VisibilityRepresentation {
   public VisibilityRepresentation() {
   }
-
   public static Map<Object, Rectangle> getVisibilityRepresentation(STPlanarGraph stPlanarGraph) {
     Graph graph = stPlanarGraph.getGraph();
     EmbeddedGraph embeddedGraph = stPlanarGraph.getEmbeddedGraph();

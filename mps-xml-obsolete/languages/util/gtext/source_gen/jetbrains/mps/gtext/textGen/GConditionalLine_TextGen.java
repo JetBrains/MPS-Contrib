@@ -44,6 +44,5 @@ public class GConditionalLine_TextGen extends SNodeTextGen {
       }
     }
   }
-
   protected static Logger LOG = LogManager.getLogger(GConditionalLine_TextGen.class);
 }

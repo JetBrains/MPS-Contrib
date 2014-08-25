@@ -14,22 +14,18 @@ import java.util.HashSet;
 public class NodeMap<V> implements Map<Node, V> {
   private ArrayList<V> myMap;
   private Graph myGraph;
-
   public NodeMap(Graph graph) {
     myMap = new ArrayList<V>(graph.getNumNodes());
     myGraph = graph;
   }
-
   @Override
   public Set<Map.Entry<Node, V>> entrySet() {
     throw new RuntimeException("method is not implemented");
   }
-
   @Override
   public Collection<V> values() {
     return myMap;
   }
-
   @Override
   public Set<Node> keySet() {
     /*
@@ -41,22 +37,18 @@ public class NodeMap<V> implements Map<Node, V> {
     */
     throw new RuntimeException("method is not implemented");
   }
-
   @Override
   public void clear() {
     throw new RuntimeException("method is not implemented");
   }
-
   @Override
   public void putAll(Map<? extends Node, ? extends V> map) {
     throw new RuntimeException("method is not implemented");
   }
-
   @Override
   public V remove(Object object) {
     throw new RuntimeException("method is not implemented");
   }
-
   @Override
   public V put(Node node, V value) {
     int index = node.getIndex();
@@ -64,7 +56,6 @@ public class NodeMap<V> implements Map<Node, V> {
     myMap.set(index, value);
     return value;
   }
-
   @Override
   public V get(Object object) {
     Node node = ((Node) object);
@@ -72,27 +63,22 @@ public class NodeMap<V> implements Map<Node, V> {
     fillToPosition(index);
     return myMap.get(index);
   }
-
   @Override
   public boolean containsValue(Object object) {
     throw new RuntimeException("method is not implemented");
   }
-
   @Override
   public boolean containsKey(Object object) {
     throw new RuntimeException("method is not implemented");
   }
-
   @Override
   public boolean isEmpty() {
     throw new RuntimeException("method is not implemented");
   }
-
   @Override
   public int size() {
     return myMap.size();
   }
-
   private void fillToPosition(int position) {
     if (position >= myMap.size()) {
       for (int i = myMap.size(); i <= position; i++) {
@@ -100,7 +86,6 @@ public class NodeMap<V> implements Map<Node, V> {
       }
     }
   }
-
   @Override
   public String toString() {
     StringBuilder builder = new StringBuilder();

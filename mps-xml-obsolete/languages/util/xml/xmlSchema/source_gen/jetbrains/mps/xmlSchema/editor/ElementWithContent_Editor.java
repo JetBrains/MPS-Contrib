@@ -25,7 +25,6 @@ public class ElementWithContent_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_cvtcu2_a(editorContext, node);
   }
-
   private EditorCell createCollection_cvtcu2_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_cvtcu2_a");
@@ -34,7 +33,6 @@ public class ElementWithContent_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createCollection_cvtcu2_b0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createCollection_cvtcu2_a0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_cvtcu2_a0");
@@ -45,7 +43,6 @@ public class ElementWithContent_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createProperty_cvtcu2_b0a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_cvtcu2_a0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "element");
     editorCell.setCellId("Constant_cvtcu2_a0a");
@@ -55,7 +52,6 @@ public class ElementWithContent_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createProperty_cvtcu2_b0a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("elementName");
@@ -77,11 +73,9 @@ public class ElementWithContent_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private static Color _StyleParameter_QueryFunction_cvtcu2_a1b0a(EditorContext editorContext, SNode node) {
     return XmlColorConstants.XML_COLOR;
   }
-
   private EditorCell createCollection_cvtcu2_b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_cvtcu2_b0");
@@ -92,7 +86,6 @@ public class ElementWithContent_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createRefNode_cvtcu2_b1a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_cvtcu2_a1a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "  ");
     editorCell.setCellId("Constant_cvtcu2_a1a");
@@ -102,7 +95,6 @@ public class ElementWithContent_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefNode_cvtcu2_b1a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("complexType");

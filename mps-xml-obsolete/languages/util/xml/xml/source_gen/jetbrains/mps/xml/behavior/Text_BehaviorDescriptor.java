@@ -7,7 +7,6 @@ import jetbrains.mps.lang.core.behavior.IDontSubstituteByDefault_BehaviorDescrip
 public class Text_BehaviorDescriptor extends BaseText_BehaviorDescriptor implements IDontSubstituteByDefault_BehaviorDescriptor {
   public Text_BehaviorDescriptor() {
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.xml.structure.Text";

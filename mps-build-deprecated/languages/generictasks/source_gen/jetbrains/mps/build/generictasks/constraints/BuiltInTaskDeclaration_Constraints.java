@@ -17,12 +17,10 @@ public class BuiltInTaskDeclaration_Constraints extends BaseConstraintsDescripto
   public BuiltInTaskDeclaration_Constraints() {
     super("jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration");
   }
-
   @Override
   public boolean hasOwnCanBeRootMethod() {
     return true;
   }
-
   @Override
   public boolean canBeRoot(IOperationContext context, SModel model, @Nullable CheckingNodeContext checkingNodeContext) {
     boolean result = static_canBeARoot(model, context);
@@ -33,10 +31,8 @@ public class BuiltInTaskDeclaration_Constraints extends BaseConstraintsDescripto
 
     return result;
   }
-
   public static boolean static_canBeARoot(SModel model, final IOperationContext operationContext) {
     return BuiltInTaskDeclaration_Behavior.call_isInGeneratedModels_1445805690439864419(SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SConceptOperations.findConceptDeclaration("jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration"))), model);
   }
-
   private static SNodePointer canBeRootBreakingPoint = new SNodePointer("r:71eee63a-b16f-40f8-920d-8fd0fe7dc8a1(jetbrains.mps.build.generictasks.constraints)", "8233904257588554706");
 }

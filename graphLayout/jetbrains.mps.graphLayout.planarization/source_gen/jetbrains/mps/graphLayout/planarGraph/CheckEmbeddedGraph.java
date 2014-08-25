@@ -15,7 +15,6 @@ import jetbrains.mps.internal.collections.runtime.ISelector;
 public class CheckEmbeddedGraph {
   public CheckEmbeddedGraph() {
   }
-
   public static boolean checkAdjacentFaces(EmbeddedGraph embeddedGraph) {
     for (Edge edge : SetSequence.fromSet(embeddedGraph.getEdges())) {
       if (ListSequence.fromList(embeddedGraph.getAdjacentFaces(edge)).count() != 2) {
@@ -24,7 +23,6 @@ public class CheckEmbeddedGraph {
     }
     return true;
   }
-
   public static void checkEmbeddedGraph(EmbeddedGraph embeddedGraph, boolean isRegularFaces) {
     checkAdjacentFaces(embeddedGraph);
     for (Face face : ListSequence.fromList(embeddedGraph.getFaces())) {
@@ -52,7 +50,6 @@ public class CheckEmbeddedGraph {
       }
     }
   }
-
   public static void checkFull(EmbeddedGraph embeddedGraph) {
     for (Edge edge : ListSequence.fromList(embeddedGraph.getGraph().getEdges())) {
       Assert.assertTrue(embeddedGraph.getAdjacentFaces(edge) != null);

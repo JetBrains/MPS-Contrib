@@ -28,7 +28,6 @@ public class AccessChildrenOperation_Constraints extends BaseConstraintsDescript
   public AccessChildrenOperation_Constraints() {
     super("jetbrains.mps.xmlQuery.structure.AccessChildrenOperation");
   }
-
   @Override
   protected Map<String, ReferenceConstraintsDescriptor> getNotDefaultReferences() {
     Map<String, ReferenceConstraintsDescriptor> references = new HashMap();
@@ -37,7 +36,6 @@ public class AccessChildrenOperation_Constraints extends BaseConstraintsDescript
       public boolean hasOwnScopeProvider() {
         return true;
       }
-
       @Nullable
       @Override
       public ReferenceScopeProvider getScopeProvider() {
@@ -59,7 +57,6 @@ public class AccessChildrenOperation_Constraints extends BaseConstraintsDescript
             List<SNode> elementDeclarations = ElementUtil.getElementDeclarations(elementDeclaration, _context.getEnclosingNode());
             return elementDeclarations;
           }
-
           @Override
           public SNodeReference getSearchScopeValidatorNode() {
             return breakingNode_iuzmb1_a0a1a0a0a1a0b0a1a1;
@@ -69,6 +66,5 @@ public class AccessChildrenOperation_Constraints extends BaseConstraintsDescript
     });
     return references;
   }
-
   private static SNodePointer breakingNode_iuzmb1_a0a1a0a0a1a0b0a1a1 = new SNodePointer("r:e79b58b4-ea58-4c9d-b43b-c3a260addf6a(jetbrains.mps.xmlQuery.constraints)", "4991903842868413103");
 }

@@ -23,11 +23,9 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_sz01hx_a(editorContext, node);
   }
-
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
     return this.createCollection_sz01hx_a_0(editorContext, node);
   }
-
   private EditorCell createCollection_sz01hx_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_sz01hx_a");
@@ -36,7 +34,6 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createRefNode_sz01hx_b0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_sz01hx_a0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ">");
     editorCell.setCellId("Constant_sz01hx_a0");
@@ -46,7 +43,6 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefNode_sz01hx_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("body");
@@ -70,7 +66,6 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createCollection_sz01hx_a_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_sz01hx_a_0");
@@ -84,7 +79,6 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createConstant_sz01hx_g0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_sz01hx_a0_0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "parameters:");
     editorCell.setCellId("Constant_sz01hx_a0_0");
@@ -95,14 +89,12 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createConstant_sz01hx_b0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "datetimeToFormat");
     editorCell.setCellId("Constant_sz01hx_b0");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createConstant_sz01hx_c0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "date time to format");
     editorCell.setCellId("Constant_sz01hx_c0");
@@ -113,7 +105,6 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createConstant_sz01hx_d0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_sz01hx_d0");
@@ -124,7 +115,6 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createConstant_sz01hx_e0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "returns:");
     editorCell.setCellId("Constant_sz01hx_e0");
@@ -135,7 +125,6 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createConstant_sz01hx_f0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Last statement should be an ExpressionStatement");
     editorCell.setCellId("Constant_sz01hx_f0");
@@ -146,7 +135,6 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createConstant_sz01hx_g0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Value of the expression is a condition to test");
     editorCell.setCellId("Constant_sz01hx_g0");

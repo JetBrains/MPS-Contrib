@@ -6,7 +6,6 @@ package jetbrains.mps.xmlInternal.behavior;
 public class PublicExternalId_BehaviorDescriptor extends ExternalId_BehaviorDescriptor {
   public PublicExternalId_BehaviorDescriptor() {
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.xmlInternal.structure.PublicExternalId";

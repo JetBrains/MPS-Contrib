@@ -16,34 +16,27 @@ public class CheckBox extends JButton {
   private Events myEvents = new Events(null) {
     {
     }
-
     public void initialize() {
     }
   };
-
   public CheckBox() {
     this.myThis = this;
     CheckBox component = this;
     this.myEvents.initialize();
   }
-
   public Events getEvents() {
     return this.myEvents;
   }
-
   public void addNotify() {
     super.addNotify();
     this.bind();
   }
-
   public void removeNotify() {
     this.unbind();
     super.removeNotify();
   }
-
   private void bind() {
   }
-
   private void unbind() {
     for (AutoBinding binding : this.myBindings) {
       if (binding.isBound()) {
@@ -51,11 +44,9 @@ public class CheckBox extends JButton {
       }
     }
   }
-
   public boolean getSelected() {
     return this.mySelected;
   }
-
   public void setSelected(boolean newValue) {
     boolean oldValue = this.mySelected;
     this.mySelected = newValue;

@@ -23,34 +23,27 @@ public class Label extends JComponent {
   private Events myEvents = new Events(null) {
     {
     }
-
     public void initialize() {
     }
   };
-
   public Label() {
     this.myThis = this;
     Label component = this;
     this.myEvents.initialize();
   }
-
   public Events getEvents() {
     return this.myEvents;
   }
-
   public void addNotify() {
     super.addNotify();
     this.bind();
   }
-
   public void removeNotify() {
     this.unbind();
     super.removeNotify();
   }
-
   private void bind() {
   }
-
   private void unbind() {
     for (AutoBinding binding : this.myBindings) {
       if (binding.isBound()) {
@@ -58,51 +51,41 @@ public class Label extends JComponent {
       }
     }
   }
-
   public String getText() {
     return this.myText;
   }
-
   public Color getForeground() {
     return this.myForeground;
   }
-
   public Color getBackground() {
     return this.myBackground;
   }
-
   public Icon getIcon() {
     return this.myIcon;
   }
-
   public Font getFont() {
     return this.myFont;
   }
-
   public void setText(String newValue) {
     String oldValue = this.myText;
     this.myText = newValue;
     this.firePropertyChange("text", oldValue, newValue);
   }
-
   public void setForeground(Color newValue) {
     Color oldValue = this.myForeground;
     this.myForeground = newValue;
     this.firePropertyChange("foreground", oldValue, newValue);
   }
-
   public void setBackground(Color newValue) {
     Color oldValue = this.myBackground;
     this.myBackground = newValue;
     this.firePropertyChange("background", oldValue, newValue);
   }
-
   public void setIcon(Icon newValue) {
     Icon oldValue = this.myIcon;
     this.myIcon = newValue;
     this.firePropertyChange("icon", oldValue, newValue);
   }
-
   public void setFont(Font newValue) {
     Font oldValue = this.myFont;
     this.myFont = newValue;

@@ -1,62 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debugInfo>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
   <root nodeRef="r:78f2e0c5-46c5-4e92-98dc-5ef72e1144a0(intGeom2DTest)/7490214903453704353">
-    <nodeInfo nodeId="7490214903453704370" fileName="IsIntersects_Test.java" startLine="11" startPosition="49" endLine="12" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7490214903453704380" fileName="IsIntersects_Test.java" startLine="12" startPosition="31" endLine="13" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7490214903453704387" fileName="IsIntersects_Test.java" startLine="13" startPosition="31" endLine="14" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7490214903453704394" fileName="IsIntersects_Test.java" startLine="14" startPosition="31" endLine="15" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7490214903453704404" fileName="IsIntersects_Test.java" startLine="15" startPosition="31" endLine="16" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7490214903453704428" fileName="IsIntersects_Test.java" startLine="19" startPosition="49" endLine="20" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7490214903453704435" fileName="IsIntersects_Test.java" startLine="20" startPosition="31" endLine="21" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7490214903453704442" fileName="IsIntersects_Test.java" startLine="21" startPosition="31" endLine="22" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7490214903453704449" fileName="IsIntersects_Test.java" startLine="22" startPosition="31" endLine="23" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7490214903453704472" fileName="IsIntersects_Test.java" startLine="23" startPosition="31" endLine="24" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7490214903453705515" fileName="IsIntersects_Test.java" startLine="27" startPosition="50" endLine="28" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7490214903453705522" fileName="IsIntersects_Test.java" startLine="28" startPosition="31" endLine="29" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7490214903453705529" fileName="IsIntersects_Test.java" startLine="29" startPosition="31" endLine="30" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7490214903453705536" fileName="IsIntersects_Test.java" startLine="30" startPosition="31" endLine="31" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7490214903453705543" fileName="IsIntersects_Test.java" startLine="31" startPosition="32" endLine="32" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7490214903453705578" fileName="IsIntersects_Test.java" startLine="35" startPosition="51" endLine="36" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7490214903453705585" fileName="IsIntersects_Test.java" startLine="36" startPosition="31" endLine="37" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7490214903453705592" fileName="IsIntersects_Test.java" startLine="37" startPosition="31" endLine="38" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7490214903453705599" fileName="IsIntersects_Test.java" startLine="38" startPosition="31" endLine="39" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7490214903453705606" fileName="IsIntersects_Test.java" startLine="39" startPosition="31" endLine="40" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7490214903453704355" fileName="IsIntersects_Test.java" startLine="43" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="IsIntersects_Test#()V" />
-    <nodeInfo nodeId="7490214903453704364" fileName="IsIntersects_Test.java" startLine="11" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_sameLine1#()V" />
-    <nodeInfo nodeId="7490214903453704424" fileName="IsIntersects_Test.java" startLine="19" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_sameLine2#()V" />
-    <nodeInfo nodeId="7490214903453705507" fileName="IsIntersects_Test.java" startLine="27" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_interByEnd#()V" />
-    <nodeInfo nodeId="7490214903453705570" fileName="IsIntersects_Test.java" startLine="35" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_simplyInter#()V" />
-    <scopeInfo nodeId="7490214903453704358" fileName="IsIntersects_Test.java" startLine="43" startPosition="30" endLine="43" endPosition="30" />
-    <scopeInfo nodeId="7490214903453704355" fileName="IsIntersects_Test.java" startLine="43" startPosition="0" endLine="45" endPosition="0" />
-    <scopeInfo nodeId="7490214903453704367" fileName="IsIntersects_Test.java" startLine="11" startPosition="49" endLine="16" endPosition="60">
-      <varInfo nodeId="7490214903453704371" varName="p1" />
-      <varInfo nodeId="7490214903453704381" varName="p2" />
-      <varInfo nodeId="7490214903453704388" varName="q1" />
-      <varInfo nodeId="7490214903453704395" varName="q2" />
-    </scopeInfo>
-    <scopeInfo nodeId="7490214903453704427" fileName="IsIntersects_Test.java" startLine="19" startPosition="49" endLine="24" endPosition="59">
-      <varInfo nodeId="7490214903453704429" varName="p1" />
-      <varInfo nodeId="7490214903453704436" varName="p2" />
-      <varInfo nodeId="7490214903453704443" varName="q1" />
-      <varInfo nodeId="7490214903453704450" varName="q2" />
-    </scopeInfo>
-    <scopeInfo nodeId="7490214903453705510" fileName="IsIntersects_Test.java" startLine="27" startPosition="50" endLine="32" endPosition="59">
-      <varInfo nodeId="7490214903453705516" varName="p1" />
-      <varInfo nodeId="7490214903453705523" varName="p2" />
-      <varInfo nodeId="7490214903453705530" varName="q1" />
-      <varInfo nodeId="7490214903453705537" varName="q2" />
-    </scopeInfo>
-    <scopeInfo nodeId="7490214903453705573" fileName="IsIntersects_Test.java" startLine="35" startPosition="51" endLine="40" endPosition="59">
-      <varInfo nodeId="7490214903453705579" varName="p1" />
-      <varInfo nodeId="7490214903453705586" varName="p2" />
-      <varInfo nodeId="7490214903453705593" varName="q1" />
-      <varInfo nodeId="7490214903453705600" varName="q2" />
-    </scopeInfo>
-    <scopeInfo nodeId="7490214903453704364" fileName="IsIntersects_Test.java" startLine="11" startPosition="0" endLine="18" endPosition="0" />
-    <scopeInfo nodeId="7490214903453704424" fileName="IsIntersects_Test.java" startLine="19" startPosition="0" endLine="26" endPosition="0" />
-    <scopeInfo nodeId="7490214903453705507" fileName="IsIntersects_Test.java" startLine="27" startPosition="0" endLine="34" endPosition="0" />
-    <scopeInfo nodeId="7490214903453705570" fileName="IsIntersects_Test.java" startLine="35" startPosition="0" endLine="42" endPosition="0" />
-    <unitInfo nodeId="7490214903453704353" fileName="IsIntersects_Test.java" startLine="10" startPosition="0" endLine="46" endPosition="0" unitName="intGeom2DTest.IsIntersects_Test" />
+    <file name="IsIntersects_Test.java">
+      <node id="7490214903453704370" at="11,49,12,31" concept="3" />
+      <node id="7490214903453704380" at="12,31,13,31" concept="3" />
+      <node id="7490214903453704387" at="13,31,14,31" concept="3" />
+      <node id="7490214903453704394" at="14,31,15,31" concept="3" />
+      <node id="7490214903453704404" at="15,31,16,60" concept="1" />
+      <node id="7490214903453704428" at="18,49,19,31" concept="3" />
+      <node id="7490214903453704435" at="19,31,20,31" concept="3" />
+      <node id="7490214903453704442" at="20,31,21,31" concept="3" />
+      <node id="7490214903453704449" at="21,31,22,31" concept="3" />
+      <node id="7490214903453704472" at="22,31,23,59" concept="1" />
+      <node id="7490214903453705515" at="25,50,26,31" concept="3" />
+      <node id="7490214903453705522" at="26,31,27,31" concept="3" />
+      <node id="7490214903453705529" at="27,31,28,31" concept="3" />
+      <node id="7490214903453705536" at="28,31,29,32" concept="3" />
+      <node id="7490214903453705543" at="29,32,30,59" concept="1" />
+      <node id="7490214903453705578" at="32,51,33,31" concept="3" />
+      <node id="7490214903453705585" at="33,31,34,31" concept="3" />
+      <node id="7490214903453705592" at="34,31,35,31" concept="3" />
+      <node id="7490214903453705599" at="35,31,36,31" concept="3" />
+      <node id="7490214903453705606" at="36,31,37,59" concept="1" />
+      <node id="7490214903453704355" at="39,0,41,0" concept="0" trace="IsIntersects_Test#()V" />
+      <node id="7490214903453704364" at="11,0,18,0" concept="2" trace="test_sameLine1#()V" />
+      <node id="7490214903453704424" at="18,0,25,0" concept="2" trace="test_sameLine2#()V" />
+      <node id="7490214903453705507" at="25,0,32,0" concept="2" trace="test_interByEnd#()V" />
+      <node id="7490214903453705570" at="32,0,39,0" concept="2" trace="test_simplyInter#()V" />
+      <scope id="7490214903453704358" at="39,30,39,30" />
+      <scope id="7490214903453704355" at="39,0,41,0" />
+      <scope id="7490214903453704367" at="11,49,16,60">
+        <var name="p1" id="7490214903453704371" />
+        <var name="p2" id="7490214903453704381" />
+        <var name="q1" id="7490214903453704388" />
+        <var name="q2" id="7490214903453704395" />
+      </scope>
+      <scope id="7490214903453704427" at="18,49,23,59">
+        <var name="p1" id="7490214903453704429" />
+        <var name="p2" id="7490214903453704436" />
+        <var name="q1" id="7490214903453704443" />
+        <var name="q2" id="7490214903453704450" />
+      </scope>
+      <scope id="7490214903453705510" at="25,50,30,59">
+        <var name="p1" id="7490214903453705516" />
+        <var name="p2" id="7490214903453705523" />
+        <var name="q1" id="7490214903453705530" />
+        <var name="q2" id="7490214903453705537" />
+      </scope>
+      <scope id="7490214903453705573" at="32,51,37,59">
+        <var name="p1" id="7490214903453705579" />
+        <var name="p2" id="7490214903453705586" />
+        <var name="q1" id="7490214903453705593" />
+        <var name="q2" id="7490214903453705600" />
+      </scope>
+      <scope id="7490214903453704364" at="11,0,18,0" />
+      <scope id="7490214903453704424" at="18,0,25,0" />
+      <scope id="7490214903453705507" at="25,0,32,0" />
+      <scope id="7490214903453705570" at="32,0,39,0" />
+      <unit id="7490214903453704353" at="10,0,42,0" name="intGeom2DTest.IsIntersects_Test" />
+    </file>
   </root>
-</debugInfo>
+</debug-info>
 

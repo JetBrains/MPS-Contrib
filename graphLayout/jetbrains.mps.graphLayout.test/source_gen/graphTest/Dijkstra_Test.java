@@ -31,7 +31,6 @@ public class Dijkstra_Test extends TestCase {
     MapSequence.fromMap(weights).put(ListSequence.fromList(edges).getElement(4), 1);
     test(graph, weights, source, target, 3);
   }
-
   public void test_test2() throws Exception {
     String graphString = "3 3  0 1  0 2  1 2";
     Graph graph = GraphIO.scanGraph(new Scanner(graphString));
@@ -44,7 +43,6 @@ public class Dijkstra_Test extends TestCase {
     MapSequence.fromMap(weights).put(ListSequence.fromList(edges).getElement(2), 2);
     test(graph, weights, source, target, 3);
   }
-
   public void test_test3() throws Exception {
     String graphString = "4 4  0 1  1 2  1 3  2 3";
     Graph graph = GraphIO.scanGraph(new Scanner(graphString));
@@ -58,7 +56,6 @@ public class Dijkstra_Test extends TestCase {
     MapSequence.fromMap(weights).put(ListSequence.fromList(edges).getElement(3), 4);
     test(graph, weights, source, target, 3);
   }
-
   public void test_test4() throws Exception {
     String graphString = "5 5  0 1  1 2  1 3  2 3  2 4";
     Graph graph = GraphIO.scanGraph(new Scanner(graphString));
@@ -73,10 +70,8 @@ public class Dijkstra_Test extends TestCase {
     MapSequence.fromMap(weights).put(ListSequence.fromList(edges).getElement(4), 1);
     test(graph, weights, source, target, 3);
   }
-
   public Dijkstra_Test() {
   }
-
   public void test(Graph graph, Map<Edge, Integer> weights, Node source, Node target, int expectedLength) {
     Dijkstra finder = new Dijkstra(graph, source, weights);
     finder.doAlgorithm();

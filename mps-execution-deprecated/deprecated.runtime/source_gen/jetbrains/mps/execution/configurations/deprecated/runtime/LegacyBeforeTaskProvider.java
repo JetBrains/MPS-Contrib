@@ -24,31 +24,25 @@ import org.apache.log4j.LogManager;
 @ToRemove(version = 2.0)
 public class LegacyBeforeTaskProvider extends BeforeRunTaskProvider<LegacyBeforeTaskProvider.MakeTask> {
   private static final Key<LegacyBeforeTaskProvider.MakeTask> KEY = Key.create("Legacy");
-
   @Deprecated
   public LegacyBeforeTaskProvider() {
   }
-
   @Override
   public Key<LegacyBeforeTaskProvider.MakeTask> getId() {
     return KEY;
   }
-
   @Override
   public String getName() {
     return "Make";
   }
-
   @Override
   public String getDescription(LegacyBeforeTaskProvider.MakeTask task) {
     return "Make";
   }
-
   @Override
   public boolean isConfigurable() {
     return false;
   }
-
   @Override
   public LegacyBeforeTaskProvider.MakeTask createTask(RunConfiguration runConfiguration) {
     if (hasMake(runConfiguration)) {
@@ -56,12 +50,10 @@ public class LegacyBeforeTaskProvider extends BeforeRunTaskProvider<LegacyBefore
     }
     return null;
   }
-
   @Override
   public boolean configureTask(RunConfiguration runConfiguration, LegacyBeforeTaskProvider.MakeTask task) {
     return hasMake(runConfiguration);
   }
-
   private boolean hasMake(RunConfiguration runConfiguration) {
     try {
       if (getMethod(runConfiguration) != null) {
@@ -71,12 +63,10 @@ public class LegacyBeforeTaskProvider extends BeforeRunTaskProvider<LegacyBefore
     }
     return false;
   }
-
   @Override
   public boolean canExecuteTask(RunConfiguration configuration, LegacyBeforeTaskProvider.MakeTask task) {
     return true;
   }
-
   @Override
   public boolean executeTask(DataContext context, RunConfiguration configuration, ExecutionEnvironment env, LegacyBeforeTaskProvider.MakeTask task) {
     try {
@@ -104,17 +94,14 @@ public class LegacyBeforeTaskProvider extends BeforeRunTaskProvider<LegacyBefore
     }
     return false;
   }
-
   private Method getMethod(RunConfiguration configuration) throws NoSuchMethodException {
     return configuration.getClass().getMethod("make", Project.class);
   }
-
   public static class MakeTask extends BeforeRunTask<LegacyBeforeTaskProvider.MakeTask> {
     public MakeTask() {
       super(KEY);
       setEnabled(true);
     }
   }
-
   protected static Logger LOG = LogManager.getLogger(LegacyBeforeTaskProvider.class);
 }

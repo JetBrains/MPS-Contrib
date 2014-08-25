@@ -15,7 +15,6 @@ import jetbrains.mps.smodel.SModelUtil_new;
 public class typeof_PrepareReturnType_FunctionParameter_InferenceRule extends AbstractInferenceRule_Runtime implements InferenceRule_Runtime {
   public typeof_PrepareReturnType_FunctionParameter_InferenceRule() {
   }
-
   public void applyRule(final SNode prepareReturnType_FunctionParameter, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
     SNode runConfigurationDeclaration = SNodeOperations.getAncestor(prepareReturnType_FunctionParameter, "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigurationDeclaration", false, false);
     if ((runConfigurationDeclaration != null) && (SLinkOperations.getTarget(runConfigurationDeclaration, "prepareBlock", true) != null)) {
@@ -26,18 +25,15 @@ public class typeof_PrepareReturnType_FunctionParameter_InferenceRule extends Ab
       }
     }
   }
-
   public String getApplicableConceptFQName() {
     return "jetbrains.mps.execution.configurations.deprecated.structure.PrepareReturnType_FunctionParameter";
   }
-
   public IsApplicableStatus isApplicableAndPattern(SNode argument) {
     {
       boolean b = SModelUtil_new.isAssignableConcept(argument.getConcept().getQualifiedName(), this.getApplicableConceptFQName());
       return new IsApplicableStatus(b, null);
     }
   }
-
   public boolean overrides() {
     return false;
   }

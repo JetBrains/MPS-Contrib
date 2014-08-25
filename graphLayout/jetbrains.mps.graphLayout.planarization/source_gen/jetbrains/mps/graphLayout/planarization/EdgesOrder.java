@@ -22,7 +22,6 @@ public class EdgesOrder {
   private Map<Node, List<Edge>> myInEdgesMap;
   private Map<Node, List<Edge>> myOutEdgesMap;
   private boolean myReversed;
-
   public EdgesOrder() {
     /*
       myInEdgesMap = MapSequence.fromMap(new HashMap<Node, List<Edge>>());
@@ -32,21 +31,17 @@ public class EdgesOrder {
     myOutEdgesMap = MapSequence.fromMap(new LinkedHashMap<Node, List<Edge>>(16, (float) 0.75, false));
     myReversed = false;
   }
-
   public List<Edge> getInEdgesOrder(Node node) {
     List<Edge> edges = MapSequence.fromMap(myInEdgesMap).get(node);
     return this.reverseIfNeed(edges);
   }
-
   public List<Edge> getOutEdgesOrder(Node node) {
     List<Edge> edges = MapSequence.fromMap(myOutEdgesMap).get(node);
     return this.reverseIfNeed(edges);
   }
-
   public void reverse() {
     myReversed = !(myReversed);
   }
-
   public String toString(String prefix) {
     StringBuilder builder = new StringBuilder();
     for (Node node : SetSequence.fromSet(MapSequence.fromMap(myInEdgesMap).keySet())) {
@@ -56,11 +51,9 @@ public class EdgesOrder {
     }
     return builder.toString();
   }
-
   public Set<Node> getNodes() {
     return MapSequence.fromMap(myInEdgesMap).keySet();
   }
-
   public void merge(EdgesOrder order) {
     for (Node node : SetSequence.fromSet(order.getNodes())) {
       checkNode(node);
@@ -68,7 +61,6 @@ public class EdgesOrder {
       ListSequence.fromList(MapSequence.fromMap(myOutEdgesMap).get(node)).addSequence(ListSequence.fromList(order.getOutEdgesOrder(node)));
     }
   }
-
   public void addEdge(Node node, Edge edge) {
     checkNode(node);
     if (edge != null) {
@@ -77,14 +69,12 @@ public class EdgesOrder {
       ListSequence.fromList(MapSequence.fromMap(myOutEdgesMap).get(edge.getSource())).addElement(edge);
     }
   }
-
   private void checkNode(Node node) {
     if (!(MapSequence.fromMap(myInEdgesMap).containsKey(node))) {
       MapSequence.fromMap(myInEdgesMap).put(node, ListSequence.fromList(new LinkedList<Edge>()));
       MapSequence.fromMap(myOutEdgesMap).put(node, ListSequence.fromList(new LinkedList<Edge>()));
     }
   }
-
   private List<Edge> reverseIfNeed(List<Edge> edges) {
     if (myReversed) {
       return ListSequence.fromList(edges).reversedList();
@@ -92,7 +82,6 @@ public class EdgesOrder {
       return edges;
     }
   }
-
   public Face findFace(Graph graph, Node node, Edge edge, boolean clockwise) {
     Face face = new Face(graph);
     Node curNode;
@@ -111,7 +100,6 @@ public class EdgesOrder {
     face.addLast(curDart);
     return face;
   }
-
   public Edge getNextClockwise(Node node, Edge edge) {
     List<Edge> inOrder = getInEdgesOrder(node);
     List<Edge> outOrder = getOutEdgesOrder(node);
@@ -121,7 +109,6 @@ public class EdgesOrder {
       return findEdge(edge, inOrder, outOrder, false);
     }
   }
-
   public Edge getPrevClockwise(Node node, Edge edge) {
     List<Edge> inOrder = getInEdgesOrder(node);
     List<Edge> outOrder = getOutEdgesOrder(node);
@@ -131,7 +118,6 @@ public class EdgesOrder {
       return findEdge(edge, inOrder, outOrder, true);
     }
   }
-
   private Edge findEdge(Edge edge, List<Edge> containingList, List<Edge> alternativeList, boolean tryFirst) {
     Edge sideEdge;
     if (tryFirst == true) {

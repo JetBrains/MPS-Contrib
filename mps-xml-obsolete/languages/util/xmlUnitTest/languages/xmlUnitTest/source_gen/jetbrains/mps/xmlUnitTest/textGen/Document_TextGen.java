@@ -9,7 +9,6 @@ public class Document_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
     ElementCreator.byElement(node, this);
   }
-
   public String getExtension(SNode node) {
     return "xml";
   }

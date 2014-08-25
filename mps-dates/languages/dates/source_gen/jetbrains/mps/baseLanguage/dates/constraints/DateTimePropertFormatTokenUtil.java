@@ -9,11 +9,9 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 public class DateTimePropertFormatTokenUtil {
   public DateTimePropertFormatTokenUtil() {
   }
-
   public static boolean isFormatTypeDefault(SNode token) {
     return SLinkOperations.getTarget(token, "dateTimePropertyFormatType", false) != null && SLinkOperations.getTarget(token, "dateTimePropertyFormatType", false) == getDefaultFormatType(token);
   }
-
   public static SNode getDefaultFormatType(SNode token) {
     SNode result = null;
     SNode config = SLinkOperations.getTarget(token, "dateTimePropertyFormatConfiguration", false);

@@ -8,7 +8,6 @@ public class AbstractCheckConfigBlock_Constraints extends BaseConstraintsDescrip
   public AbstractCheckConfigBlock_Constraints() {
     super("jetbrains.mps.execution.configurations.deprecated.structure.AbstractCheckConfigBlock");
   }
-
   public String getDefaultConcreteConceptFqName() {
     return "jetbrains.mps.execution.configurations.deprecated.structure.CheckConfigurationBlock";
   }

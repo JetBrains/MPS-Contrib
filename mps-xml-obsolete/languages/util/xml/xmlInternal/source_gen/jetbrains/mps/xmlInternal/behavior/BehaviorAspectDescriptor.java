@@ -9,7 +9,6 @@ import jetbrains.mps.smodel.runtime.interpreted.BehaviorAspectInterpreted;
 public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor {
   public BehaviorAspectDescriptor() {
   }
-
   public BehaviorDescriptor getDescriptor(String fqName) {
     switch (Arrays.binarySearch(stringSwitchCases_846f5o_a0a0b, fqName)) {
       case 11:
@@ -42,6 +41,5 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return BehaviorAspectInterpreted.getInstance().getDescriptor(fqName);
     }
   }
-
   private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"jetbrains.mps.xmlInternal.structure.Comment", "jetbrains.mps.xmlInternal.structure.ContentStatement", "jetbrains.mps.xmlInternal.structure.Document", "jetbrains.mps.xmlInternal.structure.DocumentStatement", "jetbrains.mps.xmlInternal.structure.DocumentTypeDeclaration", "jetbrains.mps.xmlInternal.structure.Literal", "jetbrains.mps.xmlInternal.structure.NamespaceAttribute", "jetbrains.mps.xmlInternal.structure.Prolog", "jetbrains.mps.xmlInternal.structure.PublicExternalId", "jetbrains.mps.xmlInternal.structure.SimpleAttribute", "jetbrains.mps.xmlInternal.structure.SimpleElement", "jetbrains.mps.xmlInternal.structure.StatementElement", "jetbrains.mps.xmlInternal.structure.XmlFile"};
 }

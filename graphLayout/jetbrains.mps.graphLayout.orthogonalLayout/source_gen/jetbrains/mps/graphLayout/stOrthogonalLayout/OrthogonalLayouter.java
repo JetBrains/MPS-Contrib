@@ -27,7 +27,6 @@ import jetbrains.mps.graphLayout.planarGraph.STPlanarGraph;
 public class OrthogonalLayouter implements IPointLayouter {
   public OrthogonalLayouter() {
   }
-
   @Override
   public GraphPointLayout doLayout(Graph graph) {
     Map<Node, Integer> components = ConnectivityComponents.getComponents(graph);
@@ -56,7 +55,6 @@ public class OrthogonalLayouter implements IPointLayouter {
     */
     return findSTLayout(ListSequence.fromList(subgraphs).getElement(0));
   }
-
   public GraphPointLayout findSTLayout(Graph graph) {
     BiconnectAugmentation.makeBiconnected(graph);
     final int maxIndex = graph.getNumNodes();

@@ -22,20 +22,17 @@ public class Dates_StyleSheet {
       style.putAll(styleToPut, 0);
     }
   }
-
   public static void apply_DateSmall(Style style, EditorCell editorCell) {
     style.set(StyleAttributes.SELECTABLE, 0, false);
     style.set(StyleAttributes.FONT_SIZE, 0, 9);
     style.set(StyleAttributes.PADDING_RIGHT, 0, new Padding(1.0, Measure.SPACES));
     style.set(StyleAttributes.TEXT_COLOR, 0, StyleRegistry.getInstance().getSimpleColor(MPSColors.gray));
   }
-
   public static void apply_DateFormat(Style style, EditorCell editorCell) {
     style.set(StyleAttributes.FONT_STYLE, 0, MPSFonts.PLAIN);
     style.set(StyleAttributes.TEXT_COLOR, 0, StyleRegistry.getInstance().getSimpleColor(MPSColors.DARK_MAGENTA));
     style.set(StyleAttributes.PADDING_RIGHT, 0, new Padding(0.0, Measure.SPACES));
   }
-
   public static void apply_DateProperty(Style style, EditorCell editorCell) {
     {
       Style styleToPut;
@@ -44,6 +41,5 @@ public class Dates_StyleSheet {
       style.putAll(styleToPut, 0);
     }
   }
-
 
 }

@@ -14,7 +14,6 @@ public class DateTimePropertyFormatType_Constraints extends BaseConstraintsDescr
   public DateTimePropertyFormatType_Constraints() {
     super("jetbrains.mps.baseLanguage.datesInternal.structure.DateTimePropertyFormatType");
   }
-
   @Override
   protected Map<String, PropertyConstraintsDescriptor> getNotDefaultProperties() {
     Map<String, PropertyConstraintsDescriptor> properties = new HashMap();
@@ -23,7 +22,6 @@ public class DateTimePropertyFormatType_Constraints extends BaseConstraintsDescr
       public boolean hasOwnGetter() {
         return true;
       }
-
       @Override
       public Object getValue(SNode node) {
         String propertyName = "name";

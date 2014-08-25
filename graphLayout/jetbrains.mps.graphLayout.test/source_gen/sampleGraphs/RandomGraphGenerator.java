@@ -15,7 +15,6 @@ import jetbrains.mps.graphLayout.algorithms.ConnectivityComponents;
 
 public class RandomGraphGenerator {
   private static Random rand = new Random();
-
   public static Graph generateNoLoops(int numNodes, int numEdges) {
     // Generate random directed graph with fixed number of nodes and edges. Multiedges are allowed. 
     Graph g = new Graph();
@@ -33,7 +32,6 @@ public class RandomGraphGenerator {
     }
     return g;
   }
-
   public static Graph generateSimple(int numNodes, int numEdges) throws IllegalArgumentException {
     // Generate random simple directed graph with fixed number of nodes and edges. 
     Graph g = new Graph();
@@ -78,7 +76,6 @@ public class RandomGraphGenerator {
     }
     return g;
   }
-
   public static Graph generateFixedNumLayers(int[] numInLayer, int numEdges) throws IllegalArgumentException {
     // generate simple layered graph with fixed number of vertices in each layer and fixed number of edges. 
     int n = 0;
@@ -152,7 +149,6 @@ public class RandomGraphGenerator {
     }
     return g;
   }
-
   public static Graph generateLayeredGraph(int numNodes, int numEdges) throws IllegalArgumentException {
     // generate simple layered graph with fixed number of vertices, random distribution of layers and fixed number of edges. 
     int numLayers = RandomGraphGenerator.rand.nextInt(numNodes) + 1;
@@ -174,7 +170,6 @@ public class RandomGraphGenerator {
     }
     return generateFixedNumLayers(numInLayer, numEdges);
   }
-
   public static Graph generateSimpleConnectedGraph(int numNodes, int numEdges) {
     Graph graph = null;
     while (graph == null) {

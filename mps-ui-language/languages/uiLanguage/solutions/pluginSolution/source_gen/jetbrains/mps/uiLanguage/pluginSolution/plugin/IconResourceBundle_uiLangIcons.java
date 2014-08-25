@@ -15,18 +15,14 @@ public class IconResourceBundle_uiLangIcons implements IconResourceBundle {
       put("Component", IconContainer.ICON_a1);
     }
   };
-
   public IconResourceBundle_uiLangIcons() {
   }
-
   public Iterable<String> getKeys() {
     return icons.keySet();
   }
-
   public Icon getResource(String key) {
     return icons.get(key);
   }
-
   public static IconResourceBundle_uiLangIcons getInstance() {
     return IconResourceBundle_uiLangIcons.INSTANCE;
   }

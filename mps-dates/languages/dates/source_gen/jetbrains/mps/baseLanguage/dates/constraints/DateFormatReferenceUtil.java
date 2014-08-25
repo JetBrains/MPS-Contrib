@@ -18,7 +18,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 public class DateFormatReferenceUtil {
   public DateFormatReferenceUtil() {
   }
-
   public static ISearchScope buildIDateFormatSearchScope(final SNode node) {
     ISearchScope s = SModelSearchUtil.createModelAndImportedModelsScope(SNodeOperations.getModel(node), false);
     SNode cd = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.datesInternal.structure.IDateFormat");
@@ -30,7 +29,6 @@ public class DateFormatReferenceUtil {
     }).toListSequence();
     return new SimpleSearchScope(formats);
   }
-
   public static ISearchScope buildIPeriodFormatSearchScope(final SNode node) {
     ISearchScope s = SModelSearchUtil.createModelAndImportedModelsScope(SNodeOperations.getModel(node), false);
     SNode cd = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.datesInternal.structure.IPeriodFormat");
@@ -43,7 +41,6 @@ public class DateFormatReferenceUtil {
     }).toListSequence();
     return new SimpleSearchScope(formats);
   }
-
   public static ISearchScope buildPeriodPropertySearchScope(SNode node) {
     ISearchScope s = SModelSearchUtil.createModelAndImportedModelsScope(SNodeOperations.getModel(node), false);
     SNode cd = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeProperty");

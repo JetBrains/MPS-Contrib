@@ -9,7 +9,6 @@ import jetbrains.mps.lang.dataFlow.DataFlowBuilderContext;
 public class LiteralFormatToken_DataFlow extends DataFlowBuilder {
   public LiteralFormatToken_DataFlow() {
   }
-
   public void build(final IOperationContext operationContext, final DataFlowBuilderContext _context) {
   }
 }

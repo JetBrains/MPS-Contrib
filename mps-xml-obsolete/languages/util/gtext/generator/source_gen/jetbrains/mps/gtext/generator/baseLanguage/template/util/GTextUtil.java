@@ -11,7 +11,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 public class GTextUtil {
   public GTextUtil() {
   }
-
   public static void optimize(SModel model) {
     for (SNode r : ListSequence.fromList(SModelOperations.getRoots(model, null))) {
       if (SNodeOperations.isInstanceOf(r, "jetbrains.mps.gtext.structure.GDocument")) {
@@ -20,7 +19,6 @@ public class GTextUtil {
       visit(r);
     }
   }
-
   public static void visit(SNode n) {
     if (SNodeOperations.isInstanceOf(n, "jetbrains.mps.gtext.structure.GItem")) {
       GTextOptimizer.optimize(SNodeOperations.cast(n, "jetbrains.mps.gtext.structure.GItem"), false);

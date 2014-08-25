@@ -17,7 +17,6 @@ public class BooleanLiteral_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createProperty_ow1wv6_a(editorContext, node);
   }
-
   private EditorCell createProperty_ow1wv6_a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("value");

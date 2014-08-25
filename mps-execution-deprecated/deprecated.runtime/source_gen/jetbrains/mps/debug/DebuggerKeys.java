@@ -9,7 +9,6 @@ import com.intellij.openapi.util.Key;
 @ToRemove(version = 2.1)
 public class DebuggerKeys {
   public static final Key<String> CONNECTION_SETTINGS = Key.<String>create("CONNECTION_SETTINGS");
-
   @Deprecated
   public DebuggerKeys() {
   }

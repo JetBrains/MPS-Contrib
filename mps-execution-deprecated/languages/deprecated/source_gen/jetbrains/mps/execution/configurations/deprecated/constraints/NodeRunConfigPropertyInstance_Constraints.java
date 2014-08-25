@@ -19,12 +19,10 @@ public class NodeRunConfigPropertyInstance_Constraints extends BaseConstraintsDe
   public NodeRunConfigPropertyInstance_Constraints() {
     super("jetbrains.mps.execution.configurations.deprecated.structure.NodeRunConfigPropertyInstance");
   }
-
   @Override
   public boolean hasOwnCanBeChildMethod() {
     return true;
   }
-
   @Override
   public boolean canBeChild(@Nullable SNode node, SNode parentNode, SNode link, SNode childConcept, final IOperationContext operationContext, @Nullable final CheckingNodeContext checkingNodeContext) {
     boolean result = static_canBeAChild(node, parentNode, link, childConcept, operationContext);
@@ -35,7 +33,6 @@ public class NodeRunConfigPropertyInstance_Constraints extends BaseConstraintsDe
 
     return result;
   }
-
   @Override
   protected Map<String, PropertyConstraintsDescriptor> getNotDefaultProperties() {
     Map<String, PropertyConstraintsDescriptor> properties = new HashMap();
@@ -44,7 +41,6 @@ public class NodeRunConfigPropertyInstance_Constraints extends BaseConstraintsDe
       public boolean hasOwnGetter() {
         return true;
       }
-
       @Override
       public Object getValue(SNode node) {
         String propertyName = "name";
@@ -53,13 +49,11 @@ public class NodeRunConfigPropertyInstance_Constraints extends BaseConstraintsDe
     });
     return properties;
   }
-
   public static boolean static_canBeAChild(SNode node, SNode parentNode, SNode link, SNode childConcept, final IOperationContext operationContext) {
     if (!(SNodeOperations.isInstanceOf(parentNode, "jetbrains.mps.execution.configurations.deprecated.structure.CreateRunConfigStatement"))) {
       return false;
     }
     return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SNodeOperations.cast(parentNode, "jetbrains.mps.execution.configurations.deprecated.structure.CreateRunConfigStatement"), "runConfig", false), "jetbrains.mps.execution.configurations.deprecated.structure.JavaNodeRunConfiguration");
   }
-
   private static SNodePointer canBeChildBreakingPoint = new SNodePointer("r:4ab4c6eb-58ca-426d-b62d-119c0aacbe5e(jetbrains.mps.execution.configurations.deprecated.constraints)", "3361586479360712802");
 }

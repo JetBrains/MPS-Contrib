@@ -8,7 +8,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 public class DateTimeZone_Behavior {
   public static void init(SNode thisNode) {
   }
-
   public static String call_getID_1239362726615(SNode thisNode) {
     return ((SPropertyOperations.getString(thisNode, "continentOfCountry") != null ? SPropertyOperations.getString(thisNode, "continentOfCountry") + "/" : "")) + SPropertyOperations.getString(thisNode, "country");
   }

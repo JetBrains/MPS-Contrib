@@ -16,20 +16,17 @@ public class ClusteredGraph extends Graph implements IClusteredGraph {
   private Tree myInclusionTree;
   private Map<Node, Node> myLeafClusters;
   private Node myRoot;
-
   public ClusteredGraph() {
     super();
     myInclusionTree = new Tree();
     myLeafClusters = MapSequence.fromMap(new HashMap<Node, Node>());
   }
-
   @Override
   public Set<Node> getNodesInCluster(INode cluster) {
     Set<Node> nodes = SetSequence.fromSet(new LinkedHashSet<Node>());
     getNodesInCluster(((Node) cluster), nodes);
     return nodes;
   }
-
   public List<Node> getSubclusters(final Node cluster) {
     return ListSequence.fromList(cluster.getOutEdges()).select(new ISelector<Edge, Node>() {
       public Node select(Edge edge) {
@@ -37,11 +34,9 @@ public class ClusteredGraph extends Graph implements IClusteredGraph {
       }
     }).toListSequence();
   }
-
   public void setNodeInCluster(Node cluster, Node node) {
     MapSequence.fromMap(myLeafClusters).put(cluster, node);
   }
-
   private void getNodesInCluster(Node cluster, Set<Node> nodes) {
     List<Node> subclusters = ListSequence.fromList(cluster.getOutEdges()).select(new ISelector<Edge, Node>() {
       public Node select(Edge it) {
@@ -56,40 +51,32 @@ public class ClusteredGraph extends Graph implements IClusteredGraph {
       SetSequence.fromSet(nodes).addElement(node);
     }
   }
-
   public void setRoot(Node root) {
     myRoot = root;
   }
-
   @Override
   public Node getRoot() {
     return myRoot;
   }
-
   @Override
   public Graph getUnderlyingGraph() {
     return this;
   }
-
   @Override
   public Graph createNew() {
     return new ClusteredGraph();
   }
-
   @Override
   public Tree getInclusionTree() {
     return myInclusionTree;
   }
-
   public List<Node> getClusters() {
     return getInclusionTree().getNodes();
   }
-
   /*package*/ void setInclusionTree(Tree tree, Node root) {
     myInclusionTree = tree;
     setRoot(root);
   }
-
   public boolean isLeafCluster(Node cluster) {
     return ListSequence.fromList(cluster.getOutEdges()).count() == 0;
   }

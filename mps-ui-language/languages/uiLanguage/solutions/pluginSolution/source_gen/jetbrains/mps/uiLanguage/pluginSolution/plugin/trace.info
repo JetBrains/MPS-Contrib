@@ -1,192 +1,215 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debugInfo>
-  <unitInfo fileName="IconContainer.java" startLine="8" startPosition="0" endLine="12" endPosition="0" unitName="jetbrains.mps.uiLanguage.pluginSolution.plugin.IconContainer" />
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="IconContainer.java">
+      <unit at="8,0,12,0" name="jetbrains.mps.uiLanguage.pluginSolution.plugin.IconContainer" />
+    </file>
+  </root>
   <root nodeRef="r:398aa954-b452-478c-93d3-de5d80fe2afa(jetbrains.mps.uiLanguage.pluginSolution.plugin)/5487985028841950396">
-    <nodeInfo nodeId="5487985028841950409" fileName="ComponentEditor_Helper.java" startLine="14" startPosition="103" endLine="15" endPosition="145" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5487985028841950414" fileName="ComponentEditor_Helper.java" startLine="16" startPosition="5" endLine="17" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5487985028841950416" fileName="ComponentEditor_Helper.java" startLine="10" startPosition="0" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ComponentEditor_Helper#()V" />
-    <nodeInfo nodeId="5487985028841950403" fileName="ComponentEditor_Helper.java" startLine="13" startPosition="47" endLine="16" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="5487985028841950397" fileName="ComponentEditor_Helper.java" startLine="13" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getBaseNode#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <scopeInfo nodeId="5487985028841950418" fileName="ComponentEditor_Helper.java" startLine="10" startPosition="35" endLine="10" endPosition="35" />
-    <scopeInfo nodeId="5487985028841950408" fileName="ComponentEditor_Helper.java" startLine="14" startPosition="103" endLine="15" endPosition="145" />
-    <scopeInfo nodeId="5487985028841950416" fileName="ComponentEditor_Helper.java" startLine="10" startPosition="0" endLine="12" endPosition="0" />
-    <scopeInfo nodeId="5487985028841950402" fileName="ComponentEditor_Helper.java" startLine="13" startPosition="47" endLine="17" endPosition="16" />
-    <scopeInfo nodeId="5487985028841950397" fileName="ComponentEditor_Helper.java" startLine="13" startPosition="0" endLine="19" endPosition="0">
-      <varInfo nodeId="5487985028841950398" varName="node" />
-    </scopeInfo>
-    <unitInfo nodeId="5487985028841950396" fileName="ComponentEditor_Helper.java" startLine="9" startPosition="0" endLine="20" endPosition="0" unitName="jetbrains.mps.uiLanguage.pluginSolution.plugin.ComponentEditor_Helper" />
+    <file name="ComponentEditor_Helper.java">
+      <node id="5487985028841950409" at="13,103,14,145" concept="6" />
+      <node id="5487985028841950414" at="15,5,16,16" concept="6" />
+      <node id="5487985028841950416" at="10,0,12,0" concept="0" trace="ComponentEditor_Helper#()V" />
+      <node id="5487985028841950403" at="12,47,15,5" concept="3" />
+      <node id="5487985028841950397" at="12,0,18,0" concept="8" trace="getBaseNode#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <scope id="5487985028841950418" at="10,35,10,35" />
+      <scope id="5487985028841950408" at="13,103,14,145" />
+      <scope id="5487985028841950416" at="10,0,12,0" />
+      <scope id="5487985028841950402" at="12,47,16,16" />
+      <scope id="5487985028841950397" at="12,0,18,0">
+        <var name="node" id="5487985028841950398" />
+      </scope>
+      <unit id="5487985028841950396" at="9,0,19,0" name="jetbrains.mps.uiLanguage.pluginSolution.plugin.ComponentEditor_Helper" />
+    </file>
   </root>
   <root nodeRef="r:398aa954-b452-478c-93d3-de5d80fe2afa(jetbrains.mps.uiLanguage.pluginSolution.plugin)/5487985028841950420">
-    <nodeInfo nodeId="5487985028841950420" fileName="Component_TabDescriptor.java" startLine="15" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="ICON" />
-    <nodeInfo nodeId="5487985028841950420" fileName="Component_TabDescriptor.java" startLine="20" startPosition="28" endLine="21" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5487985028841950423" fileName="Component_TabDescriptor.java" startLine="28" startPosition="40" endLine="29" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5487985028841950428" fileName="Component_TabDescriptor.java" startLine="32" startPosition="43" endLine="33" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5487985028841950420" fileName="Component_TabDescriptor.java" startLine="37" startPosition="25" endLine="38" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5487985028841950420" fileName="Component_TabDescriptor.java" startLine="41" startPosition="43" endLine="42" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5487985028841950420" fileName="Component_TabDescriptor.java" startLine="42" startPosition="69" endLine="43" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5487985028841950420" fileName="Component_TabDescriptor.java" startLine="44" startPosition="20" endLine="45" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5487985028841950420" fileName="Component_TabDescriptor.java" startLine="46" startPosition="5" endLine="47" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5487985028841950420" fileName="Component_TabDescriptor.java" startLine="47" startPosition="46" endLine="48" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5487985028841950420" fileName="Component_TabDescriptor.java" startLine="51" startPosition="29" endLine="52" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5487985028841950435" fileName="Component_TabDescriptor.java" startLine="55" startPosition="36" endLine="56" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5487985028841950420" fileName="Component_TabDescriptor.java" startLine="17" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="Component_TabDescriptor#()V" />
-    <nodeInfo nodeId="5487985028841950420" fileName="Component_TabDescriptor.java" startLine="20" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getTitle#()Ljava/lang/String;" />
-    <nodeInfo nodeId="5487985028841950420" fileName="Component_TabDescriptor.java" startLine="24" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="startListening#()V" />
-    <nodeInfo nodeId="5487985028841950420" fileName="Component_TabDescriptor.java" startLine="28" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getBaseNode#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="5487985028841950420" fileName="Component_TabDescriptor.java" startLine="32" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-    <nodeInfo nodeId="5487985028841950420" fileName="Component_TabDescriptor.java" startLine="43" startPosition="28" endLine="46" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="5487985028841950420" fileName="Component_TabDescriptor.java" startLine="51" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isSingle#()Z" />
-    <nodeInfo nodeId="5487985028841950420" fileName="Component_TabDescriptor.java" startLine="55" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getNode#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="5487985028841950420" fileName="Component_TabDescriptor.java" startLine="36" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getIcon#()Ljavax/swing/Icon;" />
-    <nodeInfo nodeId="5487985028841950420" fileName="Component_TabDescriptor.java" startLine="41" startPosition="0" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getNodes#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/util/List;" />
-    <scopeInfo nodeId="5487985028841950420" fileName="Component_TabDescriptor.java" startLine="17" startPosition="36" endLine="17" endPosition="36" />
-    <scopeInfo nodeId="5487985028841950420" fileName="Component_TabDescriptor.java" startLine="20" startPosition="28" endLine="21" endPosition="23" />
-    <scopeInfo nodeId="5487985028841950420" fileName="Component_TabDescriptor.java" startLine="28" startPosition="40" endLine="29" endPosition="52" />
-    <scopeInfo nodeId="5487985028841950420" fileName="Component_TabDescriptor.java" startLine="32" startPosition="43" endLine="33" endPosition="105" />
-    <scopeInfo nodeId="5487985028841950420" fileName="Component_TabDescriptor.java" startLine="37" startPosition="25" endLine="38" endPosition="16" />
-    <scopeInfo nodeId="5487985028841950420" fileName="Component_TabDescriptor.java" startLine="44" startPosition="20" endLine="45" endPosition="18" />
-    <scopeInfo nodeId="5487985028841950420" fileName="Component_TabDescriptor.java" startLine="51" startPosition="29" endLine="52" endPosition="16" />
-    <scopeInfo nodeId="5487985028841950420" fileName="Component_TabDescriptor.java" startLine="55" startPosition="36" endLine="56" endPosition="16" />
-    <scopeInfo nodeId="5487985028841950420" fileName="Component_TabDescriptor.java" startLine="17" startPosition="0" endLine="19" endPosition="0" />
-    <scopeInfo nodeId="5487985028841950420" fileName="Component_TabDescriptor.java" startLine="20" startPosition="0" endLine="23" endPosition="0" />
-    <scopeInfo nodeId="5487985028841950420" fileName="Component_TabDescriptor.java" startLine="24" startPosition="0" endLine="27" endPosition="0" />
-    <scopeInfo nodeId="5487985028841950420" fileName="Component_TabDescriptor.java" startLine="28" startPosition="0" endLine="31" endPosition="0">
-      <varInfo nodeId="5487985028841950420" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="5487985028841950420" fileName="Component_TabDescriptor.java" startLine="32" startPosition="0" endLine="35" endPosition="0">
-      <varInfo nodeId="5487985028841950420" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="5487985028841950420" fileName="Component_TabDescriptor.java" startLine="51" startPosition="0" endLine="54" endPosition="0" />
-    <scopeInfo nodeId="5487985028841950420" fileName="Component_TabDescriptor.java" startLine="55" startPosition="0" endLine="58" endPosition="0">
-      <varInfo nodeId="5487985028841950420" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="5487985028841950420" fileName="Component_TabDescriptor.java" startLine="36" startPosition="0" endLine="40" endPosition="0" />
-    <scopeInfo nodeId="5487985028841950420" fileName="Component_TabDescriptor.java" startLine="41" startPosition="43" endLine="48" endPosition="16">
-      <varInfo nodeId="5487985028841950420" varName="list" />
-      <varInfo nodeId="5487985028841950420" varName="n" />
-    </scopeInfo>
-    <scopeInfo nodeId="5487985028841950420" fileName="Component_TabDescriptor.java" startLine="41" startPosition="0" endLine="50" endPosition="0">
-      <varInfo nodeId="5487985028841950420" varName="node" />
-    </scopeInfo>
-    <unitInfo nodeId="5487985028841950420" fileName="Component_TabDescriptor.java" startLine="14" startPosition="0" endLine="59" endPosition="0" unitName="jetbrains.mps.uiLanguage.pluginSolution.plugin.Component_TabDescriptor" />
+    <file name="Component_TabDescriptor.java">
+      <node id="5487985028841950420" at="15,0,16,0" concept="7" trace="ICON" />
+      <node id="5487985028841950420" at="18,28,19,23" concept="6" />
+      <node id="5487985028841950423" at="24,40,25,52" concept="6" />
+      <node id="5487985028841950428" at="27,43,28,105" concept="6" />
+      <node id="5487985028841950420" at="31,25,32,16" concept="6" />
+      <node id="5487985028841950420" at="34,43,35,69" concept="5" />
+      <node id="5487985028841950420" at="35,69,36,28" concept="5" />
+      <node id="5487985028841950420" at="37,20,38,18" concept="6" />
+      <node id="5487985028841950420" at="39,5,40,46" concept="1" />
+      <node id="5487985028841950420" at="40,46,41,16" concept="6" />
+      <node id="5487985028841950420" at="43,29,44,16" concept="6" />
+      <node id="5487985028841950435" at="46,36,47,16" concept="6" />
+      <node id="5487985028841950420" at="16,0,18,0" concept="0" trace="Component_TabDescriptor#()V" />
+      <node id="5487985028841950420" at="18,0,21,0" concept="4" trace="getTitle#()Ljava/lang/String;" />
+      <node id="5487985028841950420" at="21,0,24,0" concept="4" trace="startListening#()V" />
+      <node id="5487985028841950420" at="24,0,27,0" concept="4" trace="getBaseNode#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="5487985028841950420" at="27,0,30,0" concept="4" trace="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="5487985028841950420" at="36,28,39,5" concept="3" />
+      <node id="5487985028841950420" at="43,0,46,0" concept="4" trace="isSingle#()Z" />
+      <node id="5487985028841950420" at="46,0,49,0" concept="4" trace="getNode#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="5487985028841950420" at="30,0,34,0" concept="4" trace="getIcon#()Ljavax/swing/Icon;" />
+      <node id="5487985028841950420" at="34,0,43,0" concept="4" trace="getNodes#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/util/List;" />
+      <scope id="5487985028841950420" at="16,36,16,36" />
+      <scope id="5487985028841950420" at="18,28,19,23" />
+      <scope id="5487985028841950420" at="24,40,25,52" />
+      <scope id="5487985028841950420" at="27,43,28,105" />
+      <scope id="5487985028841950420" at="31,25,32,16" />
+      <scope id="5487985028841950420" at="37,20,38,18" />
+      <scope id="5487985028841950420" at="43,29,44,16" />
+      <scope id="5487985028841950420" at="46,36,47,16" />
+      <scope id="5487985028841950420" at="16,0,18,0" />
+      <scope id="5487985028841950420" at="18,0,21,0" />
+      <scope id="5487985028841950420" at="21,0,24,0" />
+      <scope id="5487985028841950420" at="24,0,27,0">
+        <var name="node" id="5487985028841950420" />
+      </scope>
+      <scope id="5487985028841950420" at="27,0,30,0">
+        <var name="node" id="5487985028841950420" />
+      </scope>
+      <scope id="5487985028841950420" at="43,0,46,0" />
+      <scope id="5487985028841950420" at="46,0,49,0">
+        <var name="node" id="5487985028841950420" />
+      </scope>
+      <scope id="5487985028841950420" at="30,0,34,0" />
+      <scope id="5487985028841950420" at="34,43,41,16">
+        <var name="list" id="5487985028841950420" />
+        <var name="n" id="5487985028841950420" />
+      </scope>
+      <scope id="5487985028841950420" at="34,0,43,0">
+        <var name="node" id="5487985028841950420" />
+      </scope>
+      <unit id="5487985028841950420" at="14,0,50,0" name="jetbrains.mps.uiLanguage.pluginSolution.plugin.Component_TabDescriptor" />
+    </file>
   </root>
   <root nodeRef="r:398aa954-b452-478c-93d3-de5d80fe2afa(jetbrains.mps.uiLanguage.pluginSolution.plugin)/5487985028841950437">
-    <nodeInfo nodeId="5487985028841950437" fileName="Controller_TabDescriptor.java" startLine="21" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="ICON" />
-    <nodeInfo nodeId="5487985028841950437" fileName="Controller_TabDescriptor.java" startLine="26" startPosition="28" endLine="27" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5487985028841950440" fileName="Controller_TabDescriptor.java" startLine="34" startPosition="40" endLine="35" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5487985028841950445" fileName="Controller_TabDescriptor.java" startLine="38" startPosition="43" endLine="39" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5487985028841950437" fileName="Controller_TabDescriptor.java" startLine="43" startPosition="25" endLine="44" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5487985028841950437" fileName="Controller_TabDescriptor.java" startLine="47" startPosition="43" endLine="48" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5487985028841950437" fileName="Controller_TabDescriptor.java" startLine="48" startPosition="69" endLine="49" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5487985028841950437" fileName="Controller_TabDescriptor.java" startLine="50" startPosition="20" endLine="51" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5487985028841950437" fileName="Controller_TabDescriptor.java" startLine="52" startPosition="5" endLine="53" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5487985028841950437" fileName="Controller_TabDescriptor.java" startLine="53" startPosition="46" endLine="54" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5487985028841950437" fileName="Controller_TabDescriptor.java" startLine="57" startPosition="29" endLine="58" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5487985028841950452" fileName="Controller_TabDescriptor.java" startLine="61" startPosition="36" endLine="62" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5487985028841950497" fileName="Controller_TabDescriptor.java" startLine="65" startPosition="52" endLine="66" endPosition="166" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5487985028841950459" fileName="Controller_TabDescriptor.java" startLine="69" startPosition="66" endLine="70" endPosition="120" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5487985028841950465" fileName="Controller_TabDescriptor.java" startLine="70" startPosition="120" endLine="71" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5487985028841950471" fileName="Controller_TabDescriptor.java" startLine="71" startPosition="68" endLine="72" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5487985028841950478" fileName="Controller_TabDescriptor.java" startLine="72" startPosition="77" endLine="73" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5487985028841950486" fileName="Controller_TabDescriptor.java" startLine="73" startPosition="109" endLine="74" endPosition="107" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5487985028841950493" fileName="Controller_TabDescriptor.java" startLine="74" startPosition="107" endLine="75" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5487985028841950437" fileName="Controller_TabDescriptor.java" startLine="23" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="Controller_TabDescriptor#()V" />
-    <nodeInfo nodeId="5487985028841950437" fileName="Controller_TabDescriptor.java" startLine="26" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getTitle#()Ljava/lang/String;" />
-    <nodeInfo nodeId="5487985028841950437" fileName="Controller_TabDescriptor.java" startLine="30" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="startListening#()V" />
-    <nodeInfo nodeId="5487985028841950437" fileName="Controller_TabDescriptor.java" startLine="34" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getBaseNode#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="5487985028841950437" fileName="Controller_TabDescriptor.java" startLine="38" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-    <nodeInfo nodeId="5487985028841950437" fileName="Controller_TabDescriptor.java" startLine="49" startPosition="28" endLine="52" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="5487985028841950437" fileName="Controller_TabDescriptor.java" startLine="57" startPosition="0" endLine="60" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isSingle#()Z" />
-    <nodeInfo nodeId="5487985028841950437" fileName="Controller_TabDescriptor.java" startLine="61" startPosition="0" endLine="64" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getNode#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="5487985028841950437" fileName="Controller_TabDescriptor.java" startLine="65" startPosition="0" endLine="68" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcepts#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/util/List;" />
-    <nodeInfo nodeId="5487985028841950437" fileName="Controller_TabDescriptor.java" startLine="42" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getIcon#()Ljavax/swing/Icon;" />
-    <nodeInfo nodeId="5487985028841950437" fileName="Controller_TabDescriptor.java" startLine="69" startPosition="0" endLine="77" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNode#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="5487985028841950437" fileName="Controller_TabDescriptor.java" startLine="47" startPosition="0" endLine="56" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getNodes#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/util/List;" />
-    <scopeInfo nodeId="5487985028841950437" fileName="Controller_TabDescriptor.java" startLine="23" startPosition="37" endLine="23" endPosition="37" />
-    <scopeInfo nodeId="5487985028841950437" fileName="Controller_TabDescriptor.java" startLine="26" startPosition="28" endLine="27" endPosition="24" />
-    <scopeInfo nodeId="5487985028841950437" fileName="Controller_TabDescriptor.java" startLine="34" startPosition="40" endLine="35" endPosition="52" />
-    <scopeInfo nodeId="5487985028841950437" fileName="Controller_TabDescriptor.java" startLine="38" startPosition="43" endLine="39" endPosition="105" />
-    <scopeInfo nodeId="5487985028841950437" fileName="Controller_TabDescriptor.java" startLine="43" startPosition="25" endLine="44" endPosition="16" />
-    <scopeInfo nodeId="5487985028841950437" fileName="Controller_TabDescriptor.java" startLine="50" startPosition="20" endLine="51" endPosition="18" />
-    <scopeInfo nodeId="5487985028841950437" fileName="Controller_TabDescriptor.java" startLine="57" startPosition="29" endLine="58" endPosition="16" />
-    <scopeInfo nodeId="5487985028841950437" fileName="Controller_TabDescriptor.java" startLine="61" startPosition="36" endLine="62" endPosition="80" />
-    <scopeInfo nodeId="5487985028841950496" fileName="Controller_TabDescriptor.java" startLine="65" startPosition="52" endLine="66" endPosition="166" />
-    <scopeInfo nodeId="5487985028841950437" fileName="Controller_TabDescriptor.java" startLine="23" startPosition="0" endLine="25" endPosition="0" />
-    <scopeInfo nodeId="5487985028841950437" fileName="Controller_TabDescriptor.java" startLine="26" startPosition="0" endLine="29" endPosition="0" />
-    <scopeInfo nodeId="5487985028841950437" fileName="Controller_TabDescriptor.java" startLine="30" startPosition="0" endLine="33" endPosition="0" />
-    <scopeInfo nodeId="5487985028841950437" fileName="Controller_TabDescriptor.java" startLine="34" startPosition="0" endLine="37" endPosition="0">
-      <varInfo nodeId="5487985028841950437" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="5487985028841950437" fileName="Controller_TabDescriptor.java" startLine="38" startPosition="0" endLine="41" endPosition="0">
-      <varInfo nodeId="5487985028841950437" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="5487985028841950437" fileName="Controller_TabDescriptor.java" startLine="57" startPosition="0" endLine="60" endPosition="0" />
-    <scopeInfo nodeId="5487985028841950437" fileName="Controller_TabDescriptor.java" startLine="61" startPosition="0" endLine="64" endPosition="0">
-      <varInfo nodeId="5487985028841950437" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="5487985028841950437" fileName="Controller_TabDescriptor.java" startLine="65" startPosition="0" endLine="68" endPosition="0">
-      <varInfo nodeId="5487985028841950437" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="5487985028841950437" fileName="Controller_TabDescriptor.java" startLine="42" startPosition="0" endLine="46" endPosition="0" />
-    <scopeInfo nodeId="5487985028841950458" fileName="Controller_TabDescriptor.java" startLine="69" startPosition="66" endLine="75" endPosition="22">
-      <varInfo nodeId="5487985028841950460" varName="controller" />
-      <varInfo nodeId="5487985028841950479" varName="virtualPackage" />
-    </scopeInfo>
-    <scopeInfo nodeId="5487985028841950437" fileName="Controller_TabDescriptor.java" startLine="47" startPosition="43" endLine="54" endPosition="16">
-      <varInfo nodeId="5487985028841950437" varName="list" />
-      <varInfo nodeId="5487985028841950437" varName="n" />
-    </scopeInfo>
-    <scopeInfo nodeId="5487985028841950437" fileName="Controller_TabDescriptor.java" startLine="69" startPosition="0" endLine="77" endPosition="0">
-      <varInfo nodeId="5487985028841950437" varName="concept" />
-      <varInfo nodeId="5487985028841950437" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="5487985028841950437" fileName="Controller_TabDescriptor.java" startLine="47" startPosition="0" endLine="56" endPosition="0">
-      <varInfo nodeId="5487985028841950437" varName="node" />
-    </scopeInfo>
-    <unitInfo nodeId="5487985028841950437" fileName="Controller_TabDescriptor.java" startLine="20" startPosition="0" endLine="78" endPosition="0" unitName="jetbrains.mps.uiLanguage.pluginSolution.plugin.Controller_TabDescriptor" />
+    <file name="Controller_TabDescriptor.java">
+      <node id="5487985028841950437" at="21,0,22,0" concept="7" trace="ICON" />
+      <node id="5487985028841950437" at="24,28,25,24" concept="6" />
+      <node id="5487985028841950440" at="30,40,31,52" concept="6" />
+      <node id="5487985028841950445" at="33,43,34,105" concept="6" />
+      <node id="5487985028841950437" at="37,25,38,16" concept="6" />
+      <node id="5487985028841950437" at="40,43,41,69" concept="5" />
+      <node id="5487985028841950437" at="41,69,42,28" concept="5" />
+      <node id="5487985028841950437" at="43,20,44,18" concept="6" />
+      <node id="5487985028841950437" at="45,5,46,46" concept="1" />
+      <node id="5487985028841950437" at="46,46,47,16" concept="6" />
+      <node id="5487985028841950437" at="49,29,50,16" concept="6" />
+      <node id="5487985028841950452" at="52,36,53,80" concept="6" />
+      <node id="5487985028841950497" at="55,52,56,166" concept="6" />
+      <node id="5487985028841950459" at="58,66,59,120" concept="5" />
+      <node id="5487985028841950465" at="59,120,60,68" concept="1" />
+      <node id="5487985028841950471" at="60,68,61,77" concept="1" />
+      <node id="5487985028841950478" at="61,77,62,109" concept="5" />
+      <node id="5487985028841950486" at="62,109,63,107" concept="1" />
+      <node id="5487985028841950493" at="63,107,64,22" concept="6" />
+      <node id="5487985028841950437" at="22,0,24,0" concept="0" trace="Controller_TabDescriptor#()V" />
+      <node id="5487985028841950437" at="24,0,27,0" concept="4" trace="getTitle#()Ljava/lang/String;" />
+      <node id="5487985028841950437" at="27,0,30,0" concept="4" trace="startListening#()V" />
+      <node id="5487985028841950437" at="30,0,33,0" concept="4" trace="getBaseNode#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="5487985028841950437" at="33,0,36,0" concept="4" trace="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="5487985028841950437" at="42,28,45,5" concept="3" />
+      <node id="5487985028841950437" at="49,0,52,0" concept="4" trace="isSingle#()Z" />
+      <node id="5487985028841950437" at="52,0,55,0" concept="4" trace="getNode#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="5487985028841950437" at="55,0,58,0" concept="4" trace="getConcepts#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/util/List;" />
+      <node id="5487985028841950437" at="36,0,40,0" concept="4" trace="getIcon#()Ljavax/swing/Icon;" />
+      <node id="5487985028841950437" at="58,0,66,0" concept="4" trace="createNode#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="5487985028841950437" at="40,0,49,0" concept="4" trace="getNodes#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/util/List;" />
+      <scope id="5487985028841950437" at="22,37,22,37" />
+      <scope id="5487985028841950437" at="24,28,25,24" />
+      <scope id="5487985028841950437" at="30,40,31,52" />
+      <scope id="5487985028841950437" at="33,43,34,105" />
+      <scope id="5487985028841950437" at="37,25,38,16" />
+      <scope id="5487985028841950437" at="43,20,44,18" />
+      <scope id="5487985028841950437" at="49,29,50,16" />
+      <scope id="5487985028841950437" at="52,36,53,80" />
+      <scope id="5487985028841950496" at="55,52,56,166" />
+      <scope id="5487985028841950437" at="22,0,24,0" />
+      <scope id="5487985028841950437" at="24,0,27,0" />
+      <scope id="5487985028841950437" at="27,0,30,0" />
+      <scope id="5487985028841950437" at="30,0,33,0">
+        <var name="node" id="5487985028841950437" />
+      </scope>
+      <scope id="5487985028841950437" at="33,0,36,0">
+        <var name="node" id="5487985028841950437" />
+      </scope>
+      <scope id="5487985028841950437" at="49,0,52,0" />
+      <scope id="5487985028841950437" at="52,0,55,0">
+        <var name="node" id="5487985028841950437" />
+      </scope>
+      <scope id="5487985028841950437" at="55,0,58,0">
+        <var name="node" id="5487985028841950437" />
+      </scope>
+      <scope id="5487985028841950437" at="36,0,40,0" />
+      <scope id="5487985028841950458" at="58,66,64,22">
+        <var name="controller" id="5487985028841950460" />
+        <var name="virtualPackage" id="5487985028841950479" />
+      </scope>
+      <scope id="5487985028841950437" at="40,43,47,16">
+        <var name="list" id="5487985028841950437" />
+        <var name="n" id="5487985028841950437" />
+      </scope>
+      <scope id="5487985028841950437" at="58,0,66,0">
+        <var name="concept" id="5487985028841950437" />
+        <var name="node" id="5487985028841950437" />
+      </scope>
+      <scope id="5487985028841950437" at="40,0,49,0">
+        <var name="node" id="5487985028841950437" />
+      </scope>
+      <unit id="5487985028841950437" at="20,0,67,0" name="jetbrains.mps.uiLanguage.pluginSolution.plugin.Controller_TabDescriptor" />
+    </file>
   </root>
   <root nodeRef="r:398aa954-b452-478c-93d3-de5d80fe2afa(jetbrains.mps.uiLanguage.pluginSolution.plugin)/6423088429871243083">
-    <nodeInfo nodeId="6423088429871243083" fileName="IconResourceBundle_uiLangIcons.java" startLine="11" startPosition="0" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="INSTANCE" />
-    <nodeInfo nodeId="6423088429871243083" fileName="IconResourceBundle_uiLangIcons.java" startLine="13" startPosition="5" endLine="14" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6423088429871243083" fileName="IconResourceBundle_uiLangIcons.java" startLine="14" startPosition="47" endLine="15" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6423088429871243083" fileName="IconResourceBundle_uiLangIcons.java" startLine="22" startPosition="37" endLine="23" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6423088429871243083" fileName="IconResourceBundle_uiLangIcons.java" startLine="26" startPosition="39" endLine="27" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6423088429871243083" fileName="IconResourceBundle_uiLangIcons.java" startLine="30" startPosition="62" endLine="31" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6423088429871243083" fileName="IconResourceBundle_uiLangIcons.java" startLine="19" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="IconResourceBundle_uiLangIcons#()V" />
-    <nodeInfo nodeId="6423088429871243083" fileName="IconResourceBundle_uiLangIcons.java" startLine="22" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getKeys#()Ljava/lang/Iterable;" />
-    <nodeInfo nodeId="6423088429871243083" fileName="IconResourceBundle_uiLangIcons.java" startLine="26" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getResource#(Ljava/lang/String;)Ljavax/swing/Icon;" />
-    <nodeInfo nodeId="6423088429871243083" fileName="IconResourceBundle_uiLangIcons.java" startLine="30" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getInstance#()Ljetbrains/mps/uiLanguage/pluginSolution/plugin/IconResourceBundle_uiLangIcons;" />
-    <nodeInfo nodeId="6423088429871243083" fileName="IconResourceBundle_uiLangIcons.java" startLine="12" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="icons" />
-    <scopeInfo nodeId="6423088429871243083" fileName="IconResourceBundle_uiLangIcons.java" startLine="19" startPosition="43" endLine="19" endPosition="43" />
-    <scopeInfo nodeId="6423088429871243083" fileName="IconResourceBundle_uiLangIcons.java" startLine="22" startPosition="37" endLine="23" endPosition="26" />
-    <scopeInfo nodeId="6423088429871243083" fileName="IconResourceBundle_uiLangIcons.java" startLine="26" startPosition="39" endLine="27" endPosition="26" />
-    <scopeInfo nodeId="6423088429871243083" fileName="IconResourceBundle_uiLangIcons.java" startLine="30" startPosition="62" endLine="31" endPosition="51" />
-    <scopeInfo nodeId="6423088429871243083" fileName="IconResourceBundle_uiLangIcons.java" startLine="13" startPosition="5" endLine="15" endPosition="46" />
-    <scopeInfo nodeId="6423088429871243083" fileName="IconResourceBundle_uiLangIcons.java" startLine="19" startPosition="0" endLine="21" endPosition="0" />
-    <scopeInfo nodeId="6423088429871243083" fileName="IconResourceBundle_uiLangIcons.java" startLine="22" startPosition="0" endLine="25" endPosition="0" />
-    <scopeInfo nodeId="6423088429871243083" fileName="IconResourceBundle_uiLangIcons.java" startLine="26" startPosition="0" endLine="29" endPosition="0">
-      <varInfo nodeId="6423088429871243083" varName="key" />
-    </scopeInfo>
-    <scopeInfo nodeId="6423088429871243083" fileName="IconResourceBundle_uiLangIcons.java" startLine="30" startPosition="0" endLine="33" endPosition="0" />
-    <unitInfo nodeId="6423088429871243083" fileName="IconResourceBundle_uiLangIcons.java" startLine="12" startPosition="40" endLine="17" endPosition="3" unitName="jetbrains.mps.uiLanguage.pluginSolution.plugin.IconResourceBundle_uiLangIcons$1" />
-    <unitInfo nodeId="6423088429871243083" fileName="IconResourceBundle_uiLangIcons.java" startLine="10" startPosition="0" endLine="34" endPosition="0" unitName="jetbrains.mps.uiLanguage.pluginSolution.plugin.IconResourceBundle_uiLangIcons" />
+    <file name="IconResourceBundle_uiLangIcons.java">
+      <node id="6423088429871243083" at="11,0,12,0" concept="7" trace="INSTANCE" />
+      <node id="6423088429871243083" at="13,5,14,47" concept="1" />
+      <node id="6423088429871243083" at="14,47,15,46" concept="1" />
+      <node id="6423088429871243083" at="20,37,21,26" concept="6" />
+      <node id="6423088429871243083" at="23,39,24,26" concept="6" />
+      <node id="6423088429871243083" at="26,62,27,51" concept="6" />
+      <node id="6423088429871243083" at="18,0,20,0" concept="0" trace="IconResourceBundle_uiLangIcons#()V" />
+      <node id="6423088429871243083" at="20,0,23,0" concept="4" trace="getKeys#()Ljava/lang/Iterable;" />
+      <node id="6423088429871243083" at="23,0,26,0" concept="4" trace="getResource#(Ljava/lang/String;)Ljavax/swing/Icon;" />
+      <node id="6423088429871243083" at="26,0,29,0" concept="8" trace="getInstance#()Ljetbrains/mps/uiLanguage/pluginSolution/plugin/IconResourceBundle_uiLangIcons;" />
+      <node id="6423088429871243083" at="12,0,18,0" concept="2" trace="icons" />
+      <scope id="6423088429871243083" at="18,43,18,43" />
+      <scope id="6423088429871243083" at="20,37,21,26" />
+      <scope id="6423088429871243083" at="23,39,24,26" />
+      <scope id="6423088429871243083" at="26,62,27,51" />
+      <scope id="6423088429871243083" at="13,5,15,46" />
+      <scope id="6423088429871243083" at="18,0,20,0" />
+      <scope id="6423088429871243083" at="20,0,23,0" />
+      <scope id="6423088429871243083" at="23,0,26,0">
+        <var name="key" id="6423088429871243083" />
+      </scope>
+      <scope id="6423088429871243083" at="26,0,29,0" />
+      <unit id="6423088429871243083" at="12,40,17,3" name="jetbrains.mps.uiLanguage.pluginSolution.plugin.IconResourceBundle_uiLangIcons$1" />
+      <unit id="6423088429871243083" at="10,0,30,0" name="jetbrains.mps.uiLanguage.pluginSolution.plugin.IconResourceBundle_uiLangIcons" />
+    </file>
   </root>
   <root nodeRef="r:398aa954-b452-478c-93d3-de5d80fe2afa(jetbrains.mps.uiLanguage.pluginSolution.plugin)/7162597690968001880">
-    <nodeInfo nodeId="7162597690968001880" fileName="PluginSolution_ProjectPlugin.java" startLine="15" startPosition="70" endLine="16" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7162597690968001880" fileName="PluginSolution_ProjectPlugin.java" startLine="16" startPosition="54" endLine="17" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7162597690968001880" fileName="PluginSolution_ProjectPlugin.java" startLine="17" startPosition="46" endLine="18" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7162597690968001880" fileName="PluginSolution_ProjectPlugin.java" startLine="18" startPosition="47" endLine="19" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7162597690968001880" fileName="PluginSolution_ProjectPlugin.java" startLine="12" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="PluginSolution_ProjectPlugin#()V" />
-    <nodeInfo nodeId="7162597690968001880" fileName="PluginSolution_ProjectPlugin.java" startLine="15" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="initTabbedEditors#(Lcom/intellij/openapi/project/Project;)Ljava/util/List;" />
-    <scopeInfo nodeId="7162597690968001880" fileName="PluginSolution_ProjectPlugin.java" startLine="12" startPosition="41" endLine="12" endPosition="41" />
-    <scopeInfo nodeId="7162597690968001880" fileName="PluginSolution_ProjectPlugin.java" startLine="12" startPosition="0" endLine="14" endPosition="0" />
-    <scopeInfo nodeId="7162597690968001880" fileName="PluginSolution_ProjectPlugin.java" startLine="15" startPosition="70" endLine="19" endPosition="18">
-      <varInfo nodeId="7162597690968001880" varName="result" />
-    </scopeInfo>
-    <scopeInfo nodeId="7162597690968001880" fileName="PluginSolution_ProjectPlugin.java" startLine="15" startPosition="0" endLine="21" endPosition="0">
-      <varInfo nodeId="7162597690968001880" varName="project" />
-    </scopeInfo>
-    <unitInfo nodeId="7162597690968001880" fileName="PluginSolution_ProjectPlugin.java" startLine="11" startPosition="0" endLine="22" endPosition="0" unitName="jetbrains.mps.uiLanguage.pluginSolution.plugin.PluginSolution_ProjectPlugin" />
+    <file name="PluginSolution_ProjectPlugin.java">
+      <node id="7162597690968001880" at="14,70,15,54" concept="5" />
+      <node id="7162597690968001880" at="15,54,16,46" concept="1" />
+      <node id="7162597690968001880" at="16,46,17,47" concept="1" />
+      <node id="7162597690968001880" at="17,47,18,18" concept="6" />
+      <node id="7162597690968001880" at="12,0,14,0" concept="0" trace="PluginSolution_ProjectPlugin#()V" />
+      <node id="7162597690968001880" at="14,0,20,0" concept="4" trace="initTabbedEditors#(Lcom/intellij/openapi/project/Project;)Ljava/util/List;" />
+      <scope id="7162597690968001880" at="12,41,12,41" />
+      <scope id="7162597690968001880" at="12,0,14,0" />
+      <scope id="7162597690968001880" at="14,70,18,18">
+        <var name="result" id="7162597690968001880" />
+      </scope>
+      <scope id="7162597690968001880" at="14,0,20,0">
+        <var name="project" id="7162597690968001880" />
+      </scope>
+      <unit id="7162597690968001880" at="11,0,21,0" name="jetbrains.mps.uiLanguage.pluginSolution.plugin.PluginSolution_ProjectPlugin" />
+    </file>
   </root>
-</debugInfo>
+</debug-info>
 

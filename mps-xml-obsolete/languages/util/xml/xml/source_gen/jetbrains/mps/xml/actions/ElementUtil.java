@@ -22,7 +22,6 @@ public class ElementUtil {
   public static SNode getParentElementDeclaration(SNode node) {
     return getParentElementDeclaration(node, true);
   }
-
   private static SNode getParentElementDeclaration(SNode node, boolean includeThis) {
     SNode elementDeclaration = null;
     SNode currentNode = node;
@@ -48,7 +47,6 @@ public class ElementUtil {
     }
     return elementDeclaration;
   }
-
   private static SNode findSchema(SNode node) {
     SNode schema = null;
     SNode element = SNodeOperations.getAncestor(node, "jetbrains.mps.xml.structure.Element", true, false);
@@ -62,7 +60,6 @@ public class ElementUtil {
     }
     return schema;
   }
-
   public static List<SNode> getElementDeclarations(SNode elementDeclaration, SNode node) {
     SNode schema = findSchema(node);
     Set<SNode> elementDeclarationSet = SetSequence.fromSet(new HashSet<SNode>());

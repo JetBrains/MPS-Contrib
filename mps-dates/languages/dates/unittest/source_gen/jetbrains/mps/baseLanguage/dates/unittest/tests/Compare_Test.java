@@ -15,48 +15,40 @@ import org.joda.time.DateTimeFieldType;
 public class Compare_Test extends TestCase {
   private static DateTime yesterday = DateTimeArithmetics.minus(DateTimeOperations.convert(System.currentTimeMillis(), DateTimeZone.getDefault()), Period.days(1));
   private static Long yesterdayInstant = DateTimeArithmetics.minus(System.currentTimeMillis(), Period.days(1));
-
   public void test_equals() throws Exception {
     Long now1 = System.currentTimeMillis();
     Assert.assertTrue(DateTimeOperations.compare(now1, CompareType.EQ, now1, DateTimeFieldType.secondOfMinute()));
     Assert.assertFalse(DateTimeOperations.compare(now1, CompareType.NE, now1, DateTimeFieldType.millisOfSecond()));
   }
-
   public void test_equals2() throws Exception {
     DateTime now1 = DateTimeOperations.convert(System.currentTimeMillis(), DateTimeZone.getDefault());
     Assert.assertTrue(DateTimeOperations.compare(now1, CompareType.EQ, now1, DateTimeFieldType.millisOfSecond()));
     Assert.assertFalse(DateTimeOperations.compare(now1, CompareType.NE, now1, DateTimeFieldType.millisOfSecond()));
   }
-
   public void test_zoneEquals() throws Exception {
     Long now1 = System.currentTimeMillis();
     Assert.assertEquals(DateTimeOperations.convert(now1, DateTimeZone.getDefault()), DateTimeOperations.roundFloor(DateTimeOperations.convert(now1, DateTimeZone.getDefault()), DateTimeFieldType.millisOfSecond()));
   }
-
   public void test_greater() throws Exception {
     Long now1 = System.currentTimeMillis();
     Assert.assertFalse(DateTimeOperations.compare(now1, CompareType.GT, now1, DateTimeFieldType.millisOfSecond()));
     Assert.assertTrue(DateTimeOperations.compare(System.currentTimeMillis(), CompareType.GE, yesterdayInstant, DateTimeFieldType.dayOfMonth()));
   }
-
   public void test_greater2() throws Exception {
     DateTime now2 = DateTimeOperations.convert(System.currentTimeMillis(), DateTimeZone.getDefault());
     Assert.assertTrue(DateTimeOperations.compare(now2, CompareType.GT, yesterday, DateTimeFieldType.millisOfSecond()));
     Assert.assertFalse(DateTimeOperations.compare(yesterday, CompareType.GE, now2, DateTimeFieldType.millisOfSecond()));
   }
-
   public void test_never() throws Exception {
     Assert.assertFalse(DateTimeOperations.compare(DateTimeOperations.never(), CompareType.GE, System.currentTimeMillis(), DateTimeFieldType.millisOfSecond()));
     Assert.assertTrue(DateTimeOperations.compare(DateTimeOperations.never(), CompareType.LT, yesterdayInstant, DateTimeFieldType.secondOfMinute()));
     Assert.assertNull(DateTimeOperations.never());
     Assert.assertNull(DateTimeOperations.convert(DateTimeOperations.never(), DateTimeZone.getDefault()));
   }
-
   public void test_lessOrEquals() throws Exception {
     Assert.assertTrue(DateTimeOperations.compare((DateTimeOperations.roundFloor(System.currentTimeMillis(), DateTimeFieldType.monthOfYear())), CompareType.LE, (DateTimeOperations.round(System.currentTimeMillis(), DateTimeFieldType.dayOfMonth())), DateTimeFieldType.millisOfSecond()));
     Assert.assertTrue(DateTimeOperations.compare(DateTimeOperations.convert(System.currentTimeMillis(), DateTimeZone.forID("Europe/Moscow")), CompareType.LE, DateTimeArithmetics.plus(DateTimeOperations.convert(System.currentTimeMillis(), DateTimeZone.forID("Europe/Amsterdam")), Period.hours(1)), DateTimeFieldType.millisOfSecond()));
   }
-
   public void test_min() throws Exception {
     Assert.assertTrue(DateTimeOperations.compare(DateTimeArithmetics.min(DateTimeOperations.convert(Period.hours(12)), DateTimeOperations.convert(Period.hours(24))), CompareType.LT, DateTimeOperations.convert(Period.days(1)), DateTimeFieldType.millisOfSecond()));
     Long nowx = System.currentTimeMillis();
@@ -64,7 +56,6 @@ public class Compare_Test extends TestCase {
     Assert.assertTrue(DateTimeOperations.compare((DateTimeArithmetics.min(nowx, DateTimeOperations.never())), CompareType.EQ, DateTimeOperations.never(), DateTimeFieldType.millisOfSecond()));
     Assert.assertTrue(DateTimeOperations.compare((DateTimeArithmetics.min(DateTimeOperations.never(), nowx)), CompareType.EQ, DateTimeOperations.never(), DateTimeFieldType.millisOfSecond()));
   }
-
   public void test_max() throws Exception {
     Assert.assertFalse(DateTimeOperations.compare(DateTimeArithmetics.max(DateTimeOperations.convert(Period.days(1)), DateTimeOperations.convert(Period.days(2))), CompareType.EQ, DateTimeOperations.convert(Period.hours(24)), DateTimeFieldType.millisOfSecond()));
     Long nowx = System.currentTimeMillis();

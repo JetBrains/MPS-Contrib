@@ -20,7 +20,6 @@ import jetbrains.mps.graphLayout.flowOrthogonalLayout.QuasiRepresentationModifie
 public class QuasiOrthogonalRepresentationStressTest {
   public QuasiOrthogonalRepresentationStressTest() {
   }
-
   public static void main(String[] args) throws Exception {
     String fileName = "C:\\work\\stressQuasi.txt";
     int numNodes = Integer.parseInt(args[0]);

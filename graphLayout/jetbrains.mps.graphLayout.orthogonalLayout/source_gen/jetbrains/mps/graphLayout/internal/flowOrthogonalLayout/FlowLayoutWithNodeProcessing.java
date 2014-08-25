@@ -27,10 +27,8 @@ import jetbrains.mps.graphLayout.planarGraph.Face;
 
 public class FlowLayoutWithNodeProcessing implements IPointLayouter {
   private static int SHOW_lOG = 0;
-
   public FlowLayoutWithNodeProcessing() {
   }
-
   public void getLayout(EmbeddedGraph embeddedGraph) {
     Graph graph = embeddedGraph.getGraph();
     List<Edge> initialEdges = ListSequence.fromList(new ArrayList<Edge>());
@@ -48,7 +46,6 @@ public class FlowLayoutWithNodeProcessing implements IPointLayouter {
     Map<Dart, Direction2D> directions = OrthogonalRepresentation.getDirections(embeddedGraph, angles);
 
   }
-
   @Override
   public GraphPointLayout doLayout(Graph graph) {
     Graph copy = new Graph();
@@ -83,7 +80,6 @@ public class FlowLayoutWithNodeProcessing implements IPointLayouter {
     Map<Dart, Direction2D> directions = OrthogonalRepresentation.getDirections(embeddedGraph, angles);
     return null;
   }
-
   private void updateHistory(Map<Edge, Edge> replacedEdges, Map<Edge, List<Edge>> history) {
     for (List<Edge> list : Sequence.fromIterable(MapSequence.fromMap(history).values())) {
       Edge first = ListSequence.fromList(list).first();
@@ -98,7 +94,6 @@ public class FlowLayoutWithNodeProcessing implements IPointLayouter {
       }
     }
   }
-
   public GraphPointLayout getFlowLayout(EmbeddedGraph embeddedGraph, EmbeddedGraphModifier modifier, EdgesHistoryManager historyManager) {
     Graph graph = embeddedGraph.getGraph();
     List<Edge> oldEdges = ListSequence.fromList(new ArrayList<Edge>());
@@ -149,7 +144,6 @@ public class FlowLayoutWithNodeProcessing implements IPointLayouter {
     }
     return graphLayout;
   }
-
   private void printEmbeddedGraphWithDirections(EmbeddedGraph embeddedGraph, Map<Dart, Direction2D> directions) {
     for (Face face : ListSequence.fromList(embeddedGraph.getFaces())) {
       System.out.println("face: ");

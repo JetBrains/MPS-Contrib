@@ -11,11 +11,9 @@ import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 public class MultiLineString_Behavior {
   public static void init(SNode thisNode) {
   }
-
   public static String virtual_toString_1213877472569(SNode thisNode) {
     return SPropertyOperations.getString(thisNode, "name");
   }
-
   public static String virtual_getActualValue_1213877472572(SNode thisNode) {
     String result = "";
     for (SNode lit : ListSequence.fromList(SLinkOperations.getTargets(thisNode, "stringExpression", true))) {

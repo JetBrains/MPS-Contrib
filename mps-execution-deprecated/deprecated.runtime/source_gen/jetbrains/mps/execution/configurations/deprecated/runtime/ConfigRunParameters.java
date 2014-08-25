@@ -15,16 +15,13 @@ public class ConfigRunParameters implements Cloneable {
   private String myAlternativeJRE;
   private boolean myUseAlternativeJRE = false;
   private boolean myMake = true;
-
   @Deprecated
   public ConfigRunParameters() {
   }
-
   @Deprecated
   public ConfigRunParameters(boolean makeBeforeRun) {
     this.myMake = makeBeforeRun;
   }
-
   public String getErrorReport() {
     if (this.myUseAlternativeJRE) {
       if (this.myAlternativeJRE != null) {
@@ -37,55 +34,42 @@ public class ConfigRunParameters implements Cloneable {
     }
     return null;
   }
-
   public void setVMParameters(String value) {
     this.myVmParam = value;
   }
-
   public void setProgramParameters(String value) {
     this.myProgramParam = value;
   }
-
   public void setWorkingDirectory(String value) {
     this.myWorkingDir = value;
   }
-
   public void setMake(boolean value) {
     this.myMake = value;
   }
-
   public void setAlternativeJRE(String value) {
     this.myAlternativeJRE = value;
   }
-
   public void setUseAlternativeJRE(boolean value) {
     this.myUseAlternativeJRE = value;
   }
-
   public boolean getUseAlternativeJRE() {
     return this.myUseAlternativeJRE;
   }
-
   public String getVMParameters() {
     return this.myVmParam;
   }
-
   public String getProgramParameters() {
     return this.myProgramParam;
   }
-
   public String getWorkingDirectory() {
     return this.myWorkingDir;
   }
-
   public boolean getMake() {
     return this.myMake;
   }
-
   public String getAlternativeJRE() {
     return this.myAlternativeJRE;
   }
-
   public ConfigRunParameters copy() {
     try {
       return (ConfigRunParameters) this.clone();
@@ -93,7 +77,6 @@ public class ConfigRunParameters implements Cloneable {
     }
     return null;
   }
-
   @Override
   public Object clone() throws CloneNotSupportedException {
     return super.clone();

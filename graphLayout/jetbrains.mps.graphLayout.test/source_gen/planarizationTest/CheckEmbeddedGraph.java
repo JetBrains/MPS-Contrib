@@ -25,7 +25,6 @@ public class CheckEmbeddedGraph {
     }
     return true;
   }
-
   public static void checkEmbeddedGraph(EmbeddedGraph embeddedGraph, boolean isRegularFaces) {
     checkAdjacentFaces(embeddedGraph);
     for (Face face : ListSequence.fromList(embeddedGraph.getFaces())) {
@@ -53,7 +52,6 @@ public class CheckEmbeddedGraph {
       }
     }
   }
-
   public static void checkFull(EmbeddedGraph embeddedGraph) {
     for (Edge edge : ListSequence.fromList(embeddedGraph.getGraph().getEdges())) {
       if (embeddedGraph.getAdjacentFaces(edge) == null) {

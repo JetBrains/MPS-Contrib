@@ -8,12 +8,9 @@ import java.util.HashMap;
 
 public abstract class BasePeriodFormatTable {
   private Map<String, PeriodFormatter> myFormatters = new HashMap<String, PeriodFormatter>();
-
   public BasePeriodFormatTable() {
   }
-
   protected abstract PeriodFormatter createFormatter(String formatterName);
-
   public final PeriodFormatter getFormatter(String formatterName) {
     PeriodFormatter result = myFormatters.get(formatterName);
     if (result == null) {

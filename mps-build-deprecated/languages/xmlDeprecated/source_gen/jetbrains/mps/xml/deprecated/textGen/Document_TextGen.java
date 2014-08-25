@@ -15,7 +15,6 @@ public class Document_TextGen extends SNodeTextGen {
     }
     appendNode(SLinkOperations.getTarget(node, "rootElement", true));
   }
-
   public String getExtension(SNode node) {
     return (SPropertyOperations.getString(node, "extension") == null ? "xml" : SPropertyOperations.getString(node, "extension"));
   }

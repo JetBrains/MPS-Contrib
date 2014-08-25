@@ -11,15 +11,12 @@ import java.util.List;
 public class Project_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor implements INamedConcept_BehaviorDescriptor, IPropertyHolder_BehaviorDescriptor, IAntScript_BehaviorDescriptor {
   public Project_BehaviorDescriptor() {
   }
-
   public String virtual_getFqName_1213877404258(SNode thisNode) {
     return INamedConcept_Behavior.virtual_getFqName_1213877404258(thisNode);
   }
-
   public List<SNode> virtual_getProperties_1213877375726(SNode thisNode) {
     return Project_Behavior.virtual_getProperties_1213877375726(thisNode);
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.buildlanguage.structure.Project";

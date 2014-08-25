@@ -57,7 +57,6 @@ public class TestPanel extends JPanel {
   private JTextField myNumEdgesField;
   private JTextField myNumNodesField;
   private JRadioButton myAllowMultiEdges;
-
   public TestPanel() {
     this.setLayout(new GridBagLayout());
     createDoLayoutButton();
@@ -79,7 +78,6 @@ public class TestPanel extends JPanel {
     */
     myCurrentLayout = null;
   }
-
   private void createNewGraphButton() {
     myNumNodesField = new JTextField(10);
     myNumNodesField.setBorder(BorderFactory.createTitledBorder("nodes:"));
@@ -120,7 +118,6 @@ public class TestPanel extends JPanel {
     });
     this.add(button);
   }
-
   private void createDoLayoutButton() {
     JButton button = new JButton("do layout!");
     GridBagConstraints c = new GridBagConstraints();
@@ -139,7 +136,6 @@ public class TestPanel extends JPanel {
     c.gridheight = 1;
     this.add(button);
   }
-
   private void writeGraph(Graph graph) {
     int numEdges = 0;
     List<Node> nodes = graph.getNodes();
@@ -154,7 +150,6 @@ public class TestPanel extends JPanel {
       }
     }
   }
-
   private void layoutGraph() {
     Scanner scanner = new Scanner(myTextArea.getText());
     Graph g = null;
@@ -165,7 +160,6 @@ public class TestPanel extends JPanel {
     }
     myCurrentLayout = myLayouter.doLayout(g);
   }
-
   private void createTextPanel() {
     myTextArea = new JTextArea(20, 20);
     myTextArea.setBorder(BorderFactory.createTitledBorder("enter graph here"));
@@ -177,7 +171,6 @@ public class TestPanel extends JPanel {
     c.weighty = 1;
     this.add(myTextArea, c);
   }
-
   private void createGraphPanel() {
     myGraphLabel = new TestPanel.MyGraphLabel();
     myGraphLabel.setBorder(BorderFactory.createTitledBorder("graph layout"));
@@ -194,7 +187,6 @@ public class TestPanel extends JPanel {
     */
     this.add(new JScrollPane(myGraphLabel), c);
   }
-
   private static void create() {
     JFrame frame = new JFrame();
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -203,7 +195,6 @@ public class TestPanel extends JPanel {
     frame.pack();
     frame.setVisible(true);
   }
-
   public static void main(String[] args) {
     SwingUtilities.invokeLater(new Runnable() {
       @Override
@@ -212,12 +203,10 @@ public class TestPanel extends JPanel {
       }
     });
   }
-
   private class MyGraphLabel extends JLabel {
     public MyGraphLabel() {
       super();
     }
-
     @Override
     public void paintComponent(Graphics graphics) {
       if (myCurrentLayout == null) {

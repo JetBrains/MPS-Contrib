@@ -16,11 +16,9 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 public class ContentList_Behavior {
   public static void init(SNode thisNode) {
   }
-
   public static List<SNode> virtual_getSubcontents_1213877224308(SNode thisNode) {
     return SLinkOperations.getTargets(thisNode, "content", true);
   }
-
   public static boolean call_isHorizontal_1221256530294(SNode thisNode) {
     if ((thisNode == null)) {
       return true;
@@ -49,7 +47,6 @@ public class ContentList_Behavior {
     }
     return false;
   }
-
   public static boolean virtual_isComplex_1262430001741498088(SAbstractConcept thisConcept) {
     return true;
   }

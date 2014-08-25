@@ -17,12 +17,10 @@ public class QNode extends PQNode {
   private PQNode myFirstAChild;
   private PQNode mySecondAChild;
   private boolean myMakeAFromH;
-
   public QNode() {
     super();
     myEdgesOrder = new EdgesOrder();
   }
-
   public PQNode processPartialCandidate(PQNode.State initialState, boolean isPertinentRoot) {
     QNode candidate = createCandidate(initialState);
     if (checkCandidate(candidate, isPertinentRoot)) {
@@ -37,7 +35,6 @@ public class QNode extends PQNode {
       return null;
     }
   }
-
   private QNode createCandidate(PQNode.State initialState) {
     PQNode.State curState = initialState;
     QNode candidate = new QNode();
@@ -64,7 +61,6 @@ public class QNode extends PQNode {
     }
     return candidate;
   }
-
   private boolean checkCandidate(QNode candidate, boolean isPertinentRoot) {
     boolean startFullSegment = false;
     boolean endFullSegment = false;
@@ -88,7 +84,6 @@ public class QNode extends PQNode {
       return ListSequence.fromList(candidate.getChildren()).first().getState() == PQNode.State.FULL || ListSequence.fromList(candidate.getChildren()).last().getState() == PQNode.State.FULL;
     }
   }
-
   @Override
   public PQNode makeReduction(boolean isRealPertinentRoot) {
     if (getState() != PQNode.State.PARTIAL) {
@@ -104,32 +99,26 @@ public class QNode extends PQNode {
     }
     return null;
   }
-
   @Override
   public PQNode processAsPertinentRoot(List<PQNode> children, Node nextGraphNode) {
     return null;
   }
-
   @Override
   public String getType() {
     return "Q";
   }
-
   public void reverse() {
     myChildren = ListSequence.fromList(myChildren).reversedList();
     getEdgesOrder().reverse();
   }
-
   @Override
   public EdgesOrder getEdgesOrder() {
     return myEdgesOrder;
   }
-
   @Override
   public int getAValue() {
     return myAValue;
   }
-
   @Override
   public void computeAValue() {
     super.computeAValue();
@@ -203,7 +192,6 @@ public class QNode extends PQNode {
       myAValue = INF;
     }
   }
-
   @Override
   public void makeADeletion() {
     if (getState() != PQNode.State.PARTIAL) {
@@ -239,12 +227,10 @@ public class QNode extends PQNode {
       }
     }
   }
-
   @Override
   public int getHValue() {
     return myHValue;
   }
-
   @Override
   public void computeHValue() {
     super.computeHValue();
@@ -273,7 +259,6 @@ public class QNode extends PQNode {
       myHValue = INF;
     }
   }
-
   @Override
   public void makeHDeletion() {
     if (getState() != PQNode.State.PARTIAL) {
@@ -300,7 +285,6 @@ public class QNode extends PQNode {
       }
     }
   }
-
   private void findHByIterator(Iterator<PQNode> childItr) {
     PQNode firstPartial = null;
     boolean foundPartial = false;
@@ -330,7 +314,6 @@ public class QNode extends PQNode {
       myHChild = firstPartial;
     }
   }
-
   @Override
   public void collectEdgesOrderInSubtree(EdgesOrder order) {
     /*
@@ -347,7 +330,6 @@ public class QNode extends PQNode {
       child.collectEdgesOrderInSubtree(order);
     }
   }
-
   public Node getLast() {
     Node last = null;
     for (Node node : SetSequence.fromSet(getEdgesOrder().getNodes())) {
@@ -357,7 +339,6 @@ public class QNode extends PQNode {
     }
     return last;
   }
-
   @Override
   public String getGraphInfo(String prefix) {
     return getEdgesOrder().toString(prefix);

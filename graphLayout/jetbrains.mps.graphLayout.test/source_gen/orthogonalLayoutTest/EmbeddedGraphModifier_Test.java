@@ -33,16 +33,13 @@ public class EmbeddedGraphModifier_Test extends TestCase {
     Graph graph = GraphIO.scanGraph(new Scanner(graphString));
     test(graph);
   }
-
   public void test_test2() throws Exception {
     String graphString = "6 10  0 1  0 2  0 3  0 4  0 5  1 2  2 3  3 4  4 5  5 1";
     Graph graph = GraphIO.scanGraph(new Scanner(graphString));
     test(graph);
   }
-
   public EmbeddedGraphModifier_Test() {
   }
-
   public EmbeddedGraphModifier prepare(Graph graph, Map<Node, List<Node>> nodeMap) {
     List<Node> nodes = ListSequence.fromList(new ArrayList<Node>());
     ListSequence.fromList(nodes).addSequence(ListSequence.fromList(graph.getNodes()));
@@ -60,7 +57,6 @@ public class EmbeddedGraphModifier_Test extends TestCase {
     modifier.setDartDirections(directions);
     return modifier;
   }
-
   public void test(Graph graph) {
     Map<Node, List<Node>> nodeMap = MapSequence.fromMap(new LinkedHashMap<Node, List<Node>>(16, (float) 0.75, false));
     EmbeddedGraphModifier modifier = prepare(graph, nodeMap);

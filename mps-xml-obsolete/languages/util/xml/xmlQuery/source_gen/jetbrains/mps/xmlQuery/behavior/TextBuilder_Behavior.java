@@ -13,30 +13,24 @@ import jetbrains.mps.smodel.SReference;
 public class TextBuilder_Behavior {
   public static void init(SNode thisNode) {
   }
-
   public static SNode virtual_getResultType_7057666463730718251(SNode thisNode) {
     return _quotation_createNode_8nuept_a0a0();
   }
-
   public static SNode virtual_getCreatorExpression_7057666463730727863(SNode thisNode, SNode parentRef) {
     return SLinkOperations.getTarget(thisNode, "value", true);
   }
-
   public static SNode virtual_getAttachStatementChild_4797501453850305563(SNode thisNode, SNode parentBuilder, SNode parentRef, SNode childRef) {
     return _quotation_createNode_8nuept_a0a2(parentRef, childRef);
   }
-
   public static boolean virtual_leaf_1262430001741498370(SAbstractConcept thisConcept) {
     return true;
   }
-
   private static SNode _quotation_createNode_8nuept_a0a0() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;
     quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.StringType", null, null, false);
     return quotedNode_1;
   }
-
   private static SNode _quotation_createNode_8nuept_a0a2(Object parameter_1, Object parameter_2) {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_3 = null;

@@ -23,34 +23,27 @@ import jetbrains.mps.debug.api.Debuggers;
 @ToRemove(version = 2.1)
 public abstract class BaseRunProfileState extends DebuggerRunProfileState {
   private final Map<Key, Object> myUserData = new HashMap<Key, Object>();
-
   @Deprecated
   public BaseRunProfileState() {
   }
-
   public <T> void putUserData(@NotNull Key<T> key, T value) {
     myUserData.put(key, value);
   }
-
   @Nullable
   public <T> T getUserData(Key<T> key) {
     return (T) myUserData.get(key);
   }
-
   @NotNull
   public abstract AbstractDebugSessionCreator createDebugSessionCreator(Project project);
-
   @Nullable
   public Object prepare(final Executor executor, @NotNull ProgramRunner runner) {
     return null;
   }
-
   @Override
   protected void updateDebuggerSettings() {
     super.updateDebuggerSettings();
     putUserData(DebuggerKeys.CONNECTION_SETTINGS, myDebuggerSettings.getCommandLine(true));
   }
-
   @NotNull
   @Override
   public IDebuggerConfiguration getDebuggerConfiguration() {
@@ -59,7 +52,6 @@ public abstract class BaseRunProfileState extends DebuggerRunProfileState {
       public IDebuggerSettings createDebuggerSettings() {
         return new LocalConnectionSettings(true);
       }
-
       @Override
       public IDebugger getDebugger() {
         return Debuggers.getInstance().getDebuggerByName("Java");

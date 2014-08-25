@@ -6,7 +6,6 @@ package jetbrains.mps.xml.behavior;
 public class CDATA_BehaviorDescriptor extends Content_BehaviorDescriptor {
   public CDATA_BehaviorDescriptor() {
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.xml.structure.CDATA";

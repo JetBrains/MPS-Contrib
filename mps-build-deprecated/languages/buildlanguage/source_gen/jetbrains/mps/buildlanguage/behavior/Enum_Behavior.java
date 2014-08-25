@@ -11,7 +11,6 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 public class Enum_Behavior {
   public static void init(SNode thisNode) {
   }
-
   public static String call_toString_1213877413898(SNode thisNode) {
     StringBuffer sb = new StringBuffer();
     sb.append("{");
@@ -24,7 +23,6 @@ public class Enum_Behavior {
     sb.append("}");
     return sb.toString();
   }
-
   public static boolean call_inEnum_1213877413964(SNode thisNode, SNode nodeToCheck) {
     for (SNode constant : ListSequence.fromList(SLinkOperations.getTargets(thisNode, "constants", true))) {
       if (BehaviorReflection.invokeVirtual(String.class, constant, "virtual_toString_1213877472569", new Object[]{}).equals(BehaviorReflection.invokeVirtual(String.class, nodeToCheck, "virtual_toString_1213877472569", new Object[]{}))) {
@@ -33,7 +31,6 @@ public class Enum_Behavior {
     }
     return false;
   }
-
   public static SNode virtual_getExpectedAttributeType_6575219246653626201(SAbstractConcept thisConcept) {
     return null;
   }

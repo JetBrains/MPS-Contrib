@@ -1,381 +1,415 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debugInfo>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ForStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
   <root nodeRef="r:e4338979-215b-4b9c-a1e7-b887743c18eb(layeredLayoutTest)/1567683135099906065">
-    <nodeInfo nodeId="1567683135099906076" fileName="DFSEdgeReverter_Test.java" startLine="11" startPosition="45" endLine="12" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4519409331094619719" fileName="DFSEdgeReverter_Test.java" startLine="12" startPosition="49" endLine="13" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099906067" fileName="DFSEdgeReverter_Test.java" startLine="16" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="DFSEdgeReverter_Test#()V" />
-    <nodeInfo nodeId="1567683135099906072" fileName="DFSEdgeReverter_Test.java" startLine="11" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_cycle#()V" />
-    <scopeInfo nodeId="1567683135099906070" fileName="DFSEdgeReverter_Test.java" startLine="16" startPosition="33" endLine="16" endPosition="33" />
-    <scopeInfo nodeId="1567683135099906075" fileName="DFSEdgeReverter_Test.java" startLine="11" startPosition="45" endLine="13" endPosition="68">
-      <varInfo nodeId="1567683135099906077" varName="cycle" />
-    </scopeInfo>
-    <scopeInfo nodeId="1567683135099906067" fileName="DFSEdgeReverter_Test.java" startLine="16" startPosition="0" endLine="18" endPosition="0" />
-    <scopeInfo nodeId="1567683135099906072" fileName="DFSEdgeReverter_Test.java" startLine="11" startPosition="0" endLine="15" endPosition="0" />
-    <unitInfo nodeId="1567683135099906065" fileName="DFSEdgeReverter_Test.java" startLine="10" startPosition="0" endLine="19" endPosition="0" unitName="layeredLayoutTest.DFSEdgeReverter_Test" />
+    <file name="DFSEdgeReverter_Test.java">
+      <node id="1567683135099906076" at="11,45,12,49" concept="7" />
+      <node id="4519409331094619719" at="12,49,13,68" concept="1" />
+      <node id="1567683135099906067" at="15,0,17,0" concept="0" trace="DFSEdgeReverter_Test#()V" />
+      <node id="1567683135099906072" at="11,0,15,0" concept="6" trace="test_cycle#()V" />
+      <scope id="1567683135099906070" at="15,33,15,33" />
+      <scope id="1567683135099906075" at="11,45,13,68">
+        <var name="cycle" id="1567683135099906077" />
+      </scope>
+      <scope id="1567683135099906067" at="15,0,17,0" />
+      <scope id="1567683135099906072" at="11,0,15,0" />
+      <unit id="1567683135099906065" at="10,0,18,0" name="layeredLayoutTest.DFSEdgeReverter_Test" />
+    </file>
   </root>
   <root nodeRef="r:e4338979-215b-4b9c-a1e7-b887743c18eb(layeredLayoutTest)/1567683135099906087">
-    <nodeInfo nodeId="1567683135099906098" fileName="TopologicalLayerer_Test.java" startLine="16" startPosition="46" endLine="17" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1567683135099906103" fileName="TopologicalLayerer_Test.java" startLine="17" startPosition="48" endLine="18" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1567683135099906119" fileName="TopologicalLayerer_Test.java" startLine="18" startPosition="96" endLine="19" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099906132" fileName="TopologicalLayerer_Test.java" startLine="22" startPosition="46" endLine="23" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1567683135099906137" fileName="TopologicalLayerer_Test.java" startLine="23" startPosition="48" endLine="24" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1567683135099906153" fileName="TopologicalLayerer_Test.java" startLine="24" startPosition="96" endLine="25" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099906162" fileName="TopologicalLayerer_Test.java" startLine="25" startPosition="88" endLine="26" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099906175" fileName="TopologicalLayerer_Test.java" startLine="29" startPosition="46" endLine="30" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1567683135099906180" fileName="TopologicalLayerer_Test.java" startLine="30" startPosition="48" endLine="31" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1567683135099906196" fileName="TopologicalLayerer_Test.java" startLine="31" startPosition="96" endLine="32" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099906205" fileName="TopologicalLayerer_Test.java" startLine="32" startPosition="88" endLine="33" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099906214" fileName="TopologicalLayerer_Test.java" startLine="33" startPosition="88" endLine="34" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099906227" fileName="TopologicalLayerer_Test.java" startLine="37" startPosition="48" endLine="38" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1567683135099906231" fileName="TopologicalLayerer_Test.java" startLine="38" startPosition="53" endLine="39" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1567683135099906247" fileName="TopologicalLayerer_Test.java" startLine="39" startPosition="99" endLine="40" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099906256" fileName="TopologicalLayerer_Test.java" startLine="40" startPosition="91" endLine="41" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099906265" fileName="TopologicalLayerer_Test.java" startLine="41" startPosition="91" endLine="42" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3263240354041154372" fileName="TopologicalLayerer_Test.java" startLine="45" startPosition="45" endLine="46" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1567683135099906287" fileName="TopologicalLayerer_Test.java" startLine="47" startPosition="9" endLine="48" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099906283" fileName="TopologicalLayerer_Test.java" startLine="48" startPosition="70" endLine="49" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099906283" fileName="TopologicalLayerer_Test.java" startLine="50" startPosition="42" endLine="51" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
-    <nodeInfo nodeId="1567683135099906297" fileName="TopologicalLayerer_Test.java" startLine="55" startPosition="51" endLine="56" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1567683135099906301" fileName="TopologicalLayerer_Test.java" startLine="56" startPosition="59" endLine="57" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1567683135099906317" fileName="TopologicalLayerer_Test.java" startLine="57" startPosition="102" endLine="58" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099906326" fileName="TopologicalLayerer_Test.java" startLine="58" startPosition="94" endLine="59" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099906335" fileName="TopologicalLayerer_Test.java" startLine="59" startPosition="94" endLine="60" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099906344" fileName="TopologicalLayerer_Test.java" startLine="60" startPosition="94" endLine="61" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099906353" fileName="TopologicalLayerer_Test.java" startLine="61" startPosition="94" endLine="62" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099906362" fileName="TopologicalLayerer_Test.java" startLine="62" startPosition="94" endLine="63" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099906375" fileName="TopologicalLayerer_Test.java" startLine="66" startPosition="56" endLine="67" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1567683135099906379" fileName="TopologicalLayerer_Test.java" startLine="67" startPosition="64" endLine="68" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1567683135099906395" fileName="TopologicalLayerer_Test.java" startLine="68" startPosition="84" endLine="69" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099906404" fileName="TopologicalLayerer_Test.java" startLine="69" startPosition="94" endLine="70" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099906413" fileName="TopologicalLayerer_Test.java" startLine="70" startPosition="94" endLine="71" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099906422" fileName="TopologicalLayerer_Test.java" startLine="71" startPosition="94" endLine="72" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099906431" fileName="TopologicalLayerer_Test.java" startLine="72" startPosition="94" endLine="73" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099906089" fileName="TopologicalLayerer_Test.java" startLine="76" startPosition="0" endLine="78" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="TopologicalLayerer_Test#()V" />
-    <nodeInfo nodeId="1567683135099906094" fileName="TopologicalLayerer_Test.java" startLine="16" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_chain1#()V" />
-    <nodeInfo nodeId="1567683135099906128" fileName="TopologicalLayerer_Test.java" startLine="22" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_chain2#()V" />
-    <nodeInfo nodeId="1567683135099906283" fileName="TopologicalLayerer_Test.java" startLine="46" startPosition="48" endLine="52" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
-    <nodeInfo nodeId="1567683135099906171" fileName="TopologicalLayerer_Test.java" startLine="29" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_chain3#()V" />
-    <nodeInfo nodeId="1567683135099906223" fileName="TopologicalLayerer_Test.java" startLine="37" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_triangle#()V" />
-    <nodeInfo nodeId="1567683135099906274" fileName="TopologicalLayerer_Test.java" startLine="45" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_cycle#()V" />
-    <nodeInfo nodeId="1567683135099906371" fileName="TopologicalLayerer_Test.java" startLine="66" startPosition="0" endLine="75" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_simpleFourLayers#()V" />
-    <nodeInfo nodeId="1567683135099906293" fileName="TopologicalLayerer_Test.java" startLine="55" startPosition="0" endLine="65" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_sandwatches#()V" />
-    <scopeInfo nodeId="1567683135099906092" fileName="TopologicalLayerer_Test.java" startLine="76" startPosition="36" endLine="76" endPosition="36" />
-    <scopeInfo nodeId="1567683135099906283" fileName="TopologicalLayerer_Test.java" startLine="50" startPosition="0" endLine="51" endPosition="28">
-      <varInfo nodeId="1567683135099906283" varName="e" />
-    </scopeInfo>
-    <scopeInfo nodeId="1567683135099906283" fileName="TopologicalLayerer_Test.java" startLine="50" startPosition="42" endLine="51" endPosition="28" />
-    <scopeInfo nodeId="1567683135099906283" fileName="TopologicalLayerer_Test.java" startLine="47" startPosition="9" endLine="49" endPosition="49" />
-    <scopeInfo nodeId="1567683135099906089" fileName="TopologicalLayerer_Test.java" startLine="76" startPosition="0" endLine="78" endPosition="0" />
-    <scopeInfo nodeId="1567683135099906097" fileName="TopologicalLayerer_Test.java" startLine="16" startPosition="46" endLine="19" endPosition="88">
-      <varInfo nodeId="1567683135099906099" varName="chain" />
-      <varInfo nodeId="1567683135099906104" varName="layers" />
-    </scopeInfo>
-    <scopeInfo nodeId="1567683135099906131" fileName="TopologicalLayerer_Test.java" startLine="22" startPosition="46" endLine="26" endPosition="88">
-      <varInfo nodeId="1567683135099906133" varName="chain" />
-      <varInfo nodeId="1567683135099906138" varName="layers" />
-    </scopeInfo>
-    <scopeInfo nodeId="1567683135099906094" fileName="TopologicalLayerer_Test.java" startLine="16" startPosition="0" endLine="21" endPosition="0" />
-    <scopeInfo nodeId="1567683135099906174" fileName="TopologicalLayerer_Test.java" startLine="29" startPosition="46" endLine="34" endPosition="88">
-      <varInfo nodeId="1567683135099906176" varName="chain" />
-      <varInfo nodeId="1567683135099906181" varName="layers" />
-    </scopeInfo>
-    <scopeInfo nodeId="1567683135099906226" fileName="TopologicalLayerer_Test.java" startLine="37" startPosition="48" endLine="42" endPosition="91">
-      <varInfo nodeId="1567683135099906232" varName="layers" />
-      <varInfo nodeId="1567683135099906228" varName="triangle" />
-    </scopeInfo>
-    <scopeInfo nodeId="1567683135099906128" fileName="TopologicalLayerer_Test.java" startLine="22" startPosition="0" endLine="28" endPosition="0" />
-    <scopeInfo nodeId="1567683135099906171" fileName="TopologicalLayerer_Test.java" startLine="29" startPosition="0" endLine="36" endPosition="0" />
-    <scopeInfo nodeId="1567683135099906223" fileName="TopologicalLayerer_Test.java" startLine="37" startPosition="0" endLine="44" endPosition="0" />
-    <scopeInfo nodeId="1567683135099906277" fileName="TopologicalLayerer_Test.java" startLine="45" startPosition="45" endLine="52" endPosition="5">
-      <varInfo nodeId="3263240354041154373" varName="cycle" />
-    </scopeInfo>
-    <scopeInfo nodeId="1567683135099906374" fileName="TopologicalLayerer_Test.java" startLine="66" startPosition="56" endLine="73" endPosition="94">
-      <varInfo nodeId="1567683135099906380" varName="layers" />
-      <varInfo nodeId="1567683135099906376" varName="simpleGraph" />
-    </scopeInfo>
-    <scopeInfo nodeId="1567683135099906296" fileName="TopologicalLayerer_Test.java" startLine="55" startPosition="51" endLine="63" endPosition="94">
-      <varInfo nodeId="1567683135099906302" varName="layers" />
-      <varInfo nodeId="1567683135099906298" varName="sandwatches" />
-    </scopeInfo>
-    <scopeInfo nodeId="1567683135099906274" fileName="TopologicalLayerer_Test.java" startLine="45" startPosition="0" endLine="54" endPosition="0" />
-    <scopeInfo nodeId="1567683135099906371" fileName="TopologicalLayerer_Test.java" startLine="66" startPosition="0" endLine="75" endPosition="0" />
-    <scopeInfo nodeId="1567683135099906293" fileName="TopologicalLayerer_Test.java" startLine="55" startPosition="0" endLine="65" endPosition="0" />
-    <unitInfo nodeId="1567683135099906087" fileName="TopologicalLayerer_Test.java" startLine="15" startPosition="0" endLine="79" endPosition="0" unitName="layeredLayoutTest.TopologicalLayerer_Test" />
+    <file name="TopologicalLayerer_Test.java">
+      <node id="1567683135099906098" at="16,46,17,48" concept="7" />
+      <node id="1567683135099906103" at="17,48,18,96" concept="7" />
+      <node id="1567683135099906119" at="18,96,19,88" concept="1" />
+      <node id="1567683135099906132" at="21,46,22,48" concept="7" />
+      <node id="1567683135099906137" at="22,48,23,96" concept="7" />
+      <node id="1567683135099906153" at="23,96,24,88" concept="1" />
+      <node id="1567683135099906162" at="24,88,25,88" concept="1" />
+      <node id="1567683135099906175" at="27,46,28,48" concept="7" />
+      <node id="1567683135099906180" at="28,48,29,96" concept="7" />
+      <node id="1567683135099906196" at="29,96,30,88" concept="1" />
+      <node id="1567683135099906205" at="30,88,31,88" concept="1" />
+      <node id="1567683135099906214" at="31,88,32,88" concept="1" />
+      <node id="1567683135099906227" at="34,48,35,53" concept="7" />
+      <node id="1567683135099906231" at="35,53,36,99" concept="7" />
+      <node id="1567683135099906247" at="36,99,37,91" concept="1" />
+      <node id="1567683135099906256" at="37,91,38,91" concept="1" />
+      <node id="1567683135099906265" at="38,91,39,91" concept="1" />
+      <node id="3263240354041154372" at="41,45,42,48" concept="7" />
+      <node id="1567683135099906287" at="43,9,44,70" concept="1" />
+      <node id="1567683135099906283" at="44,70,45,49" concept="1" />
+      <node id="1567683135099906283" at="46,42,47,28" concept="9" />
+      <node id="1567683135099906297" at="50,51,51,59" concept="7" />
+      <node id="1567683135099906301" at="51,59,52,102" concept="7" />
+      <node id="1567683135099906317" at="52,102,53,94" concept="1" />
+      <node id="1567683135099906326" at="53,94,54,94" concept="1" />
+      <node id="1567683135099906335" at="54,94,55,94" concept="1" />
+      <node id="1567683135099906344" at="55,94,56,94" concept="1" />
+      <node id="1567683135099906353" at="56,94,57,94" concept="1" />
+      <node id="1567683135099906362" at="57,94,58,94" concept="1" />
+      <node id="1567683135099906375" at="60,56,61,64" concept="7" />
+      <node id="1567683135099906379" at="61,64,62,84" concept="7" />
+      <node id="1567683135099906395" at="62,84,63,94" concept="1" />
+      <node id="1567683135099906404" at="63,94,64,94" concept="1" />
+      <node id="1567683135099906413" at="64,94,65,94" concept="1" />
+      <node id="1567683135099906422" at="65,94,66,94" concept="1" />
+      <node id="1567683135099906431" at="66,94,67,94" concept="1" />
+      <node id="1567683135099906089" at="69,0,71,0" concept="0" trace="TopologicalLayerer_Test#()V" />
+      <node id="1567683135099906094" at="16,0,21,0" concept="6" trace="test_chain1#()V" />
+      <node id="1567683135099906128" at="21,0,27,0" concept="6" trace="test_chain2#()V" />
+      <node id="1567683135099906283" at="42,48,48,5" concept="11" />
+      <node id="1567683135099906171" at="27,0,34,0" concept="6" trace="test_chain3#()V" />
+      <node id="1567683135099906223" at="34,0,41,0" concept="6" trace="test_triangle#()V" />
+      <node id="1567683135099906274" at="41,0,50,0" concept="6" trace="test_cycle#()V" />
+      <node id="1567683135099906371" at="60,0,69,0" concept="6" trace="test_simpleFourLayers#()V" />
+      <node id="1567683135099906293" at="50,0,60,0" concept="6" trace="test_sandwatches#()V" />
+      <scope id="1567683135099906092" at="69,36,69,36" />
+      <scope id="1567683135099906283" at="46,0,47,28">
+        <var name="e" id="1567683135099906283" />
+      </scope>
+      <scope id="1567683135099906283" at="46,42,47,28" />
+      <scope id="1567683135099906283" at="43,9,45,49" />
+      <scope id="1567683135099906089" at="69,0,71,0" />
+      <scope id="1567683135099906097" at="16,46,19,88">
+        <var name="chain" id="1567683135099906099" />
+        <var name="layers" id="1567683135099906104" />
+      </scope>
+      <scope id="1567683135099906131" at="21,46,25,88">
+        <var name="chain" id="1567683135099906133" />
+        <var name="layers" id="1567683135099906138" />
+      </scope>
+      <scope id="1567683135099906094" at="16,0,21,0" />
+      <scope id="1567683135099906174" at="27,46,32,88">
+        <var name="chain" id="1567683135099906176" />
+        <var name="layers" id="1567683135099906181" />
+      </scope>
+      <scope id="1567683135099906226" at="34,48,39,91">
+        <var name="layers" id="1567683135099906232" />
+        <var name="triangle" id="1567683135099906228" />
+      </scope>
+      <scope id="1567683135099906128" at="21,0,27,0" />
+      <scope id="1567683135099906171" at="27,0,34,0" />
+      <scope id="1567683135099906223" at="34,0,41,0" />
+      <scope id="1567683135099906277" at="41,45,48,5">
+        <var name="cycle" id="3263240354041154373" />
+      </scope>
+      <scope id="1567683135099906374" at="60,56,67,94">
+        <var name="layers" id="1567683135099906380" />
+        <var name="simpleGraph" id="1567683135099906376" />
+      </scope>
+      <scope id="1567683135099906296" at="50,51,58,94">
+        <var name="layers" id="1567683135099906302" />
+        <var name="sandwatches" id="1567683135099906298" />
+      </scope>
+      <scope id="1567683135099906274" at="41,0,50,0" />
+      <scope id="1567683135099906371" at="60,0,69,0" />
+      <scope id="1567683135099906293" at="50,0,60,0" />
+      <unit id="1567683135099906087" at="15,0,72,0" name="layeredLayoutTest.TopologicalLayerer_Test" />
+    </file>
   </root>
   <root nodeRef="r:e4338979-215b-4b9c-a1e7-b887743c18eb(layeredLayoutTest)/1567683135099906440">
-    <nodeInfo nodeId="1567683135099906451" fileName="DFSNodeSorter_Test.java" startLine="19" startPosition="45" endLine="20" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="920414672219866063" fileName="DFSNodeSorter_Test.java" startLine="20" startPosition="48" endLine="21" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="920414672219866078" fileName="DFSNodeSorter_Test.java" startLine="21" startPosition="60" endLine="22" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="920414672219866092" fileName="DFSNodeSorter_Test.java" startLine="22" startPosition="57" endLine="23" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="920414672219866103" fileName="DFSNodeSorter_Test.java" startLine="23" startPosition="57" endLine="24" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099906489" fileName="DFSNodeSorter_Test.java" startLine="24" startPosition="57" endLine="25" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1567683135099906498" fileName="DFSNodeSorter_Test.java" startLine="25" startPosition="74" endLine="26" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099906507" fileName="DFSNodeSorter_Test.java" startLine="26" startPosition="77" endLine="27" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099906516" fileName="DFSNodeSorter_Test.java" startLine="27" startPosition="77" endLine="28" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099906525" fileName="DFSNodeSorter_Test.java" startLine="28" startPosition="77" endLine="29" endPosition="98" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099906538" fileName="DFSNodeSorter_Test.java" startLine="29" startPosition="98" endLine="30" endPosition="98" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099906551" fileName="DFSNodeSorter_Test.java" startLine="30" startPosition="98" endLine="31" endPosition="98" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099906568" fileName="DFSNodeSorter_Test.java" startLine="34" startPosition="56" endLine="35" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="920414672219866117" fileName="DFSNodeSorter_Test.java" startLine="35" startPosition="64" endLine="36" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="920414672219866126" fileName="DFSNodeSorter_Test.java" startLine="36" startPosition="66" endLine="37" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="920414672219866135" fileName="DFSNodeSorter_Test.java" startLine="37" startPosition="63" endLine="38" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="920414672219866144" fileName="DFSNodeSorter_Test.java" startLine="38" startPosition="63" endLine="39" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="920414672219866161" fileName="DFSNodeSorter_Test.java" startLine="39" startPosition="63" endLine="40" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="920414672219866170" fileName="DFSNodeSorter_Test.java" startLine="40" startPosition="63" endLine="41" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099906623" fileName="DFSNodeSorter_Test.java" startLine="41" startPosition="63" endLine="42" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1567683135099906632" fileName="DFSNodeSorter_Test.java" startLine="42" startPosition="80" endLine="43" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099906641" fileName="DFSNodeSorter_Test.java" startLine="43" startPosition="77" endLine="44" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099906650" fileName="DFSNodeSorter_Test.java" startLine="44" startPosition="77" endLine="45" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099906659" fileName="DFSNodeSorter_Test.java" startLine="45" startPosition="77" endLine="46" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099906668" fileName="DFSNodeSorter_Test.java" startLine="46" startPosition="77" endLine="47" endPosition="104" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099906681" fileName="DFSNodeSorter_Test.java" startLine="47" startPosition="104" endLine="48" endPosition="104" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099906694" fileName="DFSNodeSorter_Test.java" startLine="48" startPosition="104" endLine="49" endPosition="104" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099906707" fileName="DFSNodeSorter_Test.java" startLine="49" startPosition="104" endLine="50" endPosition="104" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099906720" fileName="DFSNodeSorter_Test.java" startLine="50" startPosition="104" endLine="51" endPosition="104" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099906442" fileName="DFSNodeSorter_Test.java" startLine="54" startPosition="0" endLine="56" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="DFSNodeSorter_Test#()V" />
-    <nodeInfo nodeId="1567683135099906447" fileName="DFSNodeSorter_Test.java" startLine="19" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_Chain#()V" />
-    <nodeInfo nodeId="1567683135099906564" fileName="DFSNodeSorter_Test.java" startLine="34" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_simpleFourLeyers#()V" />
-    <scopeInfo nodeId="1567683135099906445" fileName="DFSNodeSorter_Test.java" startLine="54" startPosition="31" endLine="54" endPosition="31" />
-    <scopeInfo nodeId="1567683135099906442" fileName="DFSNodeSorter_Test.java" startLine="54" startPosition="0" endLine="56" endPosition="0" />
-    <scopeInfo nodeId="1567683135099906450" fileName="DFSNodeSorter_Test.java" startLine="19" startPosition="45" endLine="31" endPosition="98">
-      <varInfo nodeId="1567683135099906452" varName="chain" />
-      <varInfo nodeId="920414672219866064" varName="layers" />
-      <varInfo nodeId="1567683135099906490" varName="order" />
-    </scopeInfo>
-    <scopeInfo nodeId="1567683135099906447" fileName="DFSNodeSorter_Test.java" startLine="19" startPosition="0" endLine="33" endPosition="0" />
-    <scopeInfo nodeId="1567683135099906567" fileName="DFSNodeSorter_Test.java" startLine="34" startPosition="56" endLine="51" endPosition="104">
-      <varInfo nodeId="920414672219866118" varName="layers" />
-      <varInfo nodeId="1567683135099906624" varName="order" />
-      <varInfo nodeId="1567683135099906569" varName="simpleGraph" />
-    </scopeInfo>
-    <scopeInfo nodeId="1567683135099906564" fileName="DFSNodeSorter_Test.java" startLine="34" startPosition="0" endLine="53" endPosition="0" />
-    <unitInfo nodeId="1567683135099906440" fileName="DFSNodeSorter_Test.java" startLine="18" startPosition="0" endLine="57" endPosition="0" unitName="layeredLayoutTest.DFSNodeSorter_Test" />
+    <file name="DFSNodeSorter_Test.java">
+      <node id="1567683135099906451" at="19,45,20,48" concept="7" />
+      <node id="920414672219866063" at="20,48,21,60" concept="7" />
+      <node id="920414672219866078" at="21,60,22,57" concept="1" />
+      <node id="920414672219866092" at="22,57,23,57" concept="1" />
+      <node id="920414672219866103" at="23,57,24,57" concept="1" />
+      <node id="1567683135099906489" at="24,57,25,74" concept="7" />
+      <node id="1567683135099906498" at="25,74,26,77" concept="1" />
+      <node id="1567683135099906507" at="26,77,27,77" concept="1" />
+      <node id="1567683135099906516" at="27,77,28,77" concept="1" />
+      <node id="1567683135099906525" at="28,77,29,98" concept="1" />
+      <node id="1567683135099906538" at="29,98,30,98" concept="1" />
+      <node id="1567683135099906551" at="30,98,31,98" concept="1" />
+      <node id="1567683135099906568" at="33,56,34,64" concept="7" />
+      <node id="920414672219866117" at="34,64,35,66" concept="7" />
+      <node id="920414672219866126" at="35,66,36,63" concept="1" />
+      <node id="920414672219866135" at="36,63,37,63" concept="1" />
+      <node id="920414672219866144" at="37,63,38,63" concept="1" />
+      <node id="920414672219866161" at="38,63,39,63" concept="1" />
+      <node id="920414672219866170" at="39,63,40,63" concept="1" />
+      <node id="1567683135099906623" at="40,63,41,80" concept="7" />
+      <node id="1567683135099906632" at="41,80,42,77" concept="1" />
+      <node id="1567683135099906641" at="42,77,43,77" concept="1" />
+      <node id="1567683135099906650" at="43,77,44,77" concept="1" />
+      <node id="1567683135099906659" at="44,77,45,77" concept="1" />
+      <node id="1567683135099906668" at="45,77,46,104" concept="1" />
+      <node id="1567683135099906681" at="46,104,47,104" concept="1" />
+      <node id="1567683135099906694" at="47,104,48,104" concept="1" />
+      <node id="1567683135099906707" at="48,104,49,104" concept="1" />
+      <node id="1567683135099906720" at="49,104,50,104" concept="1" />
+      <node id="1567683135099906442" at="52,0,54,0" concept="0" trace="DFSNodeSorter_Test#()V" />
+      <node id="1567683135099906447" at="19,0,33,0" concept="6" trace="test_Chain#()V" />
+      <node id="1567683135099906564" at="33,0,52,0" concept="6" trace="test_simpleFourLeyers#()V" />
+      <scope id="1567683135099906445" at="52,31,52,31" />
+      <scope id="1567683135099906442" at="52,0,54,0" />
+      <scope id="1567683135099906450" at="19,45,31,98">
+        <var name="chain" id="1567683135099906452" />
+        <var name="layers" id="920414672219866064" />
+        <var name="order" id="1567683135099906490" />
+      </scope>
+      <scope id="1567683135099906447" at="19,0,33,0" />
+      <scope id="1567683135099906567" at="33,56,50,104">
+        <var name="layers" id="920414672219866118" />
+        <var name="order" id="1567683135099906624" />
+        <var name="simpleGraph" id="1567683135099906569" />
+      </scope>
+      <scope id="1567683135099906564" at="33,0,52,0" />
+      <unit id="1567683135099906440" at="18,0,55,0" name="layeredLayoutTest.DFSNodeSorter_Test" />
+    </file>
   </root>
   <root nodeRef="r:e4338979-215b-4b9c-a1e7-b887743c18eb(layeredLayoutTest)/1567683135099906733">
-    <nodeInfo nodeId="1567683135099906734" fileName="CheckCycles.java" startLine="12" startPosition="0" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="hasCycles" />
-    <nodeInfo nodeId="1567683135099906741" fileName="CheckCycles.java" startLine="17" startPosition="40" endLine="18" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099906745" fileName="CheckCycles.java" startLine="18" startPosition="22" endLine="19" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099906748" fileName="CheckCycles.java" startLine="19" startPosition="17" endLine="20" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1567683135099906760" fileName="CheckCycles.java" startLine="25" startPosition="82" endLine="26" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099906773" fileName="CheckCycles.java" startLine="14" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="CheckCycles#()V" />
-    <nodeInfo nodeId="1567683135099906758" fileName="CheckCycles.java" startLine="24" startPosition="54" endLine="27" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1567683135099906737" fileName="CheckCycles.java" startLine="17" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasCycle#(Ljetbrains/mps/graphLayout/graph/Graph;)Z" />
-    <nodeInfo nodeId="1567683135099906752" fileName="CheckCycles.java" startLine="23" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="processEdge#(Ljetbrains/mps/graphLayout/graph/Edge;Ljetbrains/mps/graphLayout/graph/Node;)V" />
-    <scopeInfo nodeId="1567683135099906776" fileName="CheckCycles.java" startLine="14" startPosition="24" endLine="14" endPosition="24" />
-    <scopeInfo nodeId="1567683135099906759" fileName="CheckCycles.java" startLine="25" startPosition="82" endLine="26" endPosition="24" />
-    <scopeInfo nodeId="1567683135099906773" fileName="CheckCycles.java" startLine="14" startPosition="0" endLine="16" endPosition="0" />
-    <scopeInfo nodeId="1567683135099906740" fileName="CheckCycles.java" startLine="17" startPosition="40" endLine="20" endPosition="21" />
-    <scopeInfo nodeId="1567683135099906757" fileName="CheckCycles.java" startLine="24" startPosition="54" endLine="27" endPosition="5" />
-    <scopeInfo nodeId="1567683135099906737" fileName="CheckCycles.java" startLine="17" startPosition="0" endLine="22" endPosition="0">
-      <varInfo nodeId="1567683135099906750" varName="graph" />
-    </scopeInfo>
-    <scopeInfo nodeId="1567683135099906752" fileName="CheckCycles.java" startLine="23" startPosition="0" endLine="29" endPosition="0">
-      <varInfo nodeId="1567683135099906755" varName="edge" />
-      <varInfo nodeId="1646208389854266714" varName="source" />
-    </scopeInfo>
-    <unitInfo nodeId="1567683135099906733" fileName="CheckCycles.java" startLine="11" startPosition="0" endLine="30" endPosition="0" unitName="layeredLayoutTest.CheckCycles" />
+    <file name="CheckCycles.java">
+      <node id="1567683135099906734" at="12,0,13,0" concept="2" trace="hasCycles" />
+      <node id="1567683135099906741" at="15,40,16,22" concept="1" />
+      <node id="1567683135099906745" at="16,22,17,17" concept="1" />
+      <node id="1567683135099906748" at="17,17,18,21" concept="8" />
+      <node id="1567683135099906760" at="22,82,23,24" concept="1" />
+      <node id="1567683135099906773" at="13,0,15,0" concept="0" trace="CheckCycles#()V" />
+      <node id="1567683135099906758" at="21,54,24,5" concept="5" />
+      <node id="1567683135099906737" at="15,0,20,0" concept="6" trace="hasCycle#(Ljetbrains/mps/graphLayout/graph/Graph;)Z" />
+      <node id="1567683135099906752" at="20,0,26,0" concept="6" trace="processEdge#(Ljetbrains/mps/graphLayout/graph/Edge;Ljetbrains/mps/graphLayout/graph/Node;)V" />
+      <scope id="1567683135099906776" at="13,24,13,24" />
+      <scope id="1567683135099906759" at="22,82,23,24" />
+      <scope id="1567683135099906773" at="13,0,15,0" />
+      <scope id="1567683135099906740" at="15,40,18,21" />
+      <scope id="1567683135099906757" at="21,54,24,5" />
+      <scope id="1567683135099906737" at="15,0,20,0">
+        <var name="graph" id="1567683135099906750" />
+      </scope>
+      <scope id="1567683135099906752" at="20,0,26,0">
+        <var name="edge" id="1567683135099906755" />
+        <var name="source" id="1646208389854266714" />
+      </scope>
+      <unit id="1567683135099906733" at="11,0,27,0" name="layeredLayoutTest.CheckCycles" />
+    </file>
   </root>
   <root nodeRef="r:e4338979-215b-4b9c-a1e7-b887743c18eb(layeredLayoutTest)/1567683135099906778">
-    <nodeInfo nodeId="1567683135099906812" fileName="CheckLayers.java" startLine="19" startPosition="116" endLine="20" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1567683135099906837" fileName="CheckLayers.java" startLine="24" startPosition="116" endLine="25" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1567683135099906839" fileName="CheckLayers.java" startLine="28" startPosition="5" endLine="29" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5409050563449596627" fileName="CheckLayers.java" startLine="13" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="CheckLayers#()V" />
-    <nodeInfo nodeId="1567683135099906795" fileName="CheckLayers.java" startLine="18" startPosition="67" endLine="21" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1567683135099906820" fileName="CheckLayers.java" startLine="23" startPosition="66" endLine="26" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1567683135099906789" fileName="CheckLayers.java" startLine="17" startPosition="63" endLine="22" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="1567683135099906814" fileName="CheckLayers.java" startLine="22" startPosition="7" endLine="27" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="1567683135099906783" fileName="CheckLayers.java" startLine="16" startPosition="77" endLine="28" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="1567683135099906779" fileName="CheckLayers.java" startLine="16" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="hasBadEdges#(Ljetbrains/mps/graphLayout/graph/Graph;Ljava/util/Map;)Z" />
-    <scopeInfo nodeId="5409050563449596629" fileName="CheckLayers.java" startLine="13" startPosition="24" endLine="13" endPosition="24" />
-    <scopeInfo nodeId="1567683135099906811" fileName="CheckLayers.java" startLine="19" startPosition="116" endLine="20" endPosition="22" />
-    <scopeInfo nodeId="1567683135099906836" fileName="CheckLayers.java" startLine="24" startPosition="116" endLine="25" endPosition="22" />
-    <scopeInfo nodeId="5409050563449596627" fileName="CheckLayers.java" startLine="13" startPosition="0" endLine="15" endPosition="0" />
-    <scopeInfo nodeId="1567683135099906794" fileName="CheckLayers.java" startLine="18" startPosition="67" endLine="21" endPosition="9" />
-    <scopeInfo nodeId="1567683135099906819" fileName="CheckLayers.java" startLine="23" startPosition="66" endLine="26" endPosition="9" />
-    <scopeInfo nodeId="1567683135099906789" fileName="CheckLayers.java" startLine="17" startPosition="63" endLine="22" endPosition="7">
-      <varInfo nodeId="1567683135099906790" varName="edge" />
-    </scopeInfo>
-    <scopeInfo nodeId="1567683135099906814" fileName="CheckLayers.java" startLine="22" startPosition="7" endLine="27" endPosition="7">
-      <varInfo nodeId="1567683135099906815" varName="edge" />
-    </scopeInfo>
-    <scopeInfo nodeId="1567683135099906788" fileName="CheckLayers.java" startLine="17" startPosition="63" endLine="27" endPosition="7" />
-    <scopeInfo nodeId="1567683135099906783" fileName="CheckLayers.java" startLine="16" startPosition="77" endLine="28" endPosition="5">
-      <varInfo nodeId="1567683135099906784" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="1567683135099906782" fileName="CheckLayers.java" startLine="16" startPosition="77" endLine="29" endPosition="17" />
-    <scopeInfo nodeId="1567683135099906779" fileName="CheckLayers.java" startLine="16" startPosition="0" endLine="31" endPosition="0">
-      <varInfo nodeId="1567683135099906841" varName="graph" />
-      <varInfo nodeId="1567683135099906843" varName="layers" />
-    </scopeInfo>
-    <unitInfo nodeId="1567683135099906778" fileName="CheckLayers.java" startLine="12" startPosition="0" endLine="32" endPosition="0" unitName="layeredLayoutTest.CheckLayers" />
+    <file name="CheckLayers.java">
+      <node id="1567683135099906812" at="18,116,19,22" concept="8" />
+      <node id="1567683135099906837" at="23,116,24,22" concept="8" />
+      <node id="1567683135099906839" at="27,5,28,17" concept="8" />
+      <node id="5409050563449596627" at="13,0,15,0" concept="0" trace="CheckLayers#()V" />
+      <node id="1567683135099906795" at="17,67,20,9" concept="5" />
+      <node id="1567683135099906820" at="22,66,25,9" concept="5" />
+      <node id="1567683135099906789" at="16,63,21,7" concept="4" />
+      <node id="1567683135099906814" at="21,7,26,7" concept="4" />
+      <node id="1567683135099906783" at="15,77,27,5" concept="4" />
+      <node id="1567683135099906779" at="15,0,30,0" concept="10" trace="hasBadEdges#(Ljetbrains/mps/graphLayout/graph/Graph;Ljava/util/Map;)Z" />
+      <scope id="5409050563449596629" at="13,24,13,24" />
+      <scope id="1567683135099906811" at="18,116,19,22" />
+      <scope id="1567683135099906836" at="23,116,24,22" />
+      <scope id="5409050563449596627" at="13,0,15,0" />
+      <scope id="1567683135099906794" at="17,67,20,9" />
+      <scope id="1567683135099906819" at="22,66,25,9" />
+      <scope id="1567683135099906789" at="16,63,21,7">
+        <var name="edge" id="1567683135099906790" />
+      </scope>
+      <scope id="1567683135099906814" at="21,7,26,7">
+        <var name="edge" id="1567683135099906815" />
+      </scope>
+      <scope id="1567683135099906788" at="16,63,26,7" />
+      <scope id="1567683135099906783" at="15,77,27,5">
+        <var name="node" id="1567683135099906784" />
+      </scope>
+      <scope id="1567683135099906782" at="15,77,28,17" />
+      <scope id="1567683135099906779" at="15,0,30,0">
+        <var name="graph" id="1567683135099906841" />
+        <var name="layers" id="1567683135099906843" />
+      </scope>
+      <unit id="1567683135099906778" at="12,0,31,0" name="layeredLayoutTest.CheckLayers" />
+    </file>
   </root>
   <root nodeRef="r:e4338979-215b-4b9c-a1e7-b887743c18eb(layeredLayoutTest)/4519409331094619347">
-    <nodeInfo nodeId="4519409331094619356" fileName="EdgeReverterProxy.java" startLine="12" startPosition="0" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myReverter" />
-    <nodeInfo nodeId="4519409331094619360" fileName="EdgeReverterProxy.java" startLine="14" startPosition="52" endLine="15" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4519409331094619373" fileName="EdgeReverterProxy.java" startLine="19" startPosition="41" endLine="20" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4519409331094619392" fileName="EdgeReverterProxy.java" startLine="20" startPosition="51" endLine="21" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4519409331094619387" fileName="EdgeReverterProxy.java" startLine="21" startPosition="54" endLine="22" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4519409331094619349" fileName="EdgeReverterProxy.java" startLine="14" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="EdgeReverterProxy#(Ljetbrains/mps/graphLayout/layeredLayout/IEdgeReverter;)V" />
-    <nodeInfo nodeId="4519409331094619366" fileName="EdgeReverterProxy.java" startLine="18" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="revertEdges#(Ljetbrains/mps/graphLayout/graph/Graph;)Ljava/util/Set;" />
-    <scopeInfo nodeId="4519409331094619352" fileName="EdgeReverterProxy.java" startLine="14" startPosition="52" endLine="15" endPosition="26" />
-    <scopeInfo nodeId="4519409331094619349" fileName="EdgeReverterProxy.java" startLine="14" startPosition="0" endLine="17" endPosition="0">
-      <varInfo nodeId="4519409331094619354" varName="reverter" />
-    </scopeInfo>
-    <scopeInfo nodeId="4519409331094619372" fileName="EdgeReverterProxy.java" startLine="19" startPosition="41" endLine="22" endPosition="20">
-      <varInfo nodeId="4519409331094619374" varName="reverted" />
-    </scopeInfo>
-    <scopeInfo nodeId="4519409331094619366" fileName="EdgeReverterProxy.java" startLine="18" startPosition="0" endLine="24" endPosition="0">
-      <varInfo nodeId="4519409331094619370" varName="g" />
-    </scopeInfo>
-    <unitInfo nodeId="4519409331094619347" fileName="EdgeReverterProxy.java" startLine="11" startPosition="0" endLine="25" endPosition="0" unitName="layeredLayoutTest.EdgeReverterProxy" />
+    <file name="EdgeReverterProxy.java">
+      <node id="4519409331094619356" at="12,0,13,0" concept="2" trace="myReverter" />
+      <node id="4519409331094619360" at="13,52,14,26" concept="1" />
+      <node id="4519409331094619373" at="17,41,18,51" concept="7" />
+      <node id="4519409331094619392" at="18,51,19,54" concept="1" />
+      <node id="4519409331094619387" at="19,54,20,20" concept="8" />
+      <node id="4519409331094619349" at="13,0,16,0" concept="0" trace="EdgeReverterProxy#(Ljetbrains/mps/graphLayout/layeredLayout/IEdgeReverter;)V" />
+      <node id="4519409331094619366" at="16,0,22,0" concept="6" trace="revertEdges#(Ljetbrains/mps/graphLayout/graph/Graph;)Ljava/util/Set;" />
+      <scope id="4519409331094619352" at="13,52,14,26" />
+      <scope id="4519409331094619349" at="13,0,16,0">
+        <var name="reverter" id="4519409331094619354" />
+      </scope>
+      <scope id="4519409331094619372" at="17,41,20,20">
+        <var name="reverted" id="4519409331094619374" />
+      </scope>
+      <scope id="4519409331094619366" at="16,0,22,0">
+        <var name="g" id="4519409331094619370" />
+      </scope>
+      <unit id="4519409331094619347" at="11,0,23,0" name="layeredLayoutTest.EdgeReverterProxy" />
+    </file>
   </root>
   <root nodeRef="r:e4338979-215b-4b9c-a1e7-b887743c18eb(layeredLayoutTest)/4519409331094620043">
-    <nodeInfo nodeId="4519409331094620050" fileName="LayererProxy.java" startLine="12" startPosition="0" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myLayerer" />
-    <nodeInfo nodeId="4519409331094620056" fileName="LayererProxy.java" startLine="14" startPosition="41" endLine="15" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4519409331094620073" fileName="LayererProxy.java" startLine="19" startPosition="88" endLine="20" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4519409331094620099" fileName="LayererProxy.java" startLine="20" startPosition="63" endLine="21" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4519409331094620085" fileName="LayererProxy.java" startLine="21" startPosition="63" endLine="22" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4519409331094620045" fileName="LayererProxy.java" startLine="14" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="LayererProxy#(Ljetbrains/mps/graphLayout/layeredLayout/ILayerer;)V" />
-    <nodeInfo nodeId="4519409331094620062" fileName="LayererProxy.java" startLine="18" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="computeLayers#(Ljetbrains/mps/graphLayout/graph/Graph;)Ljava/util/Map;" />
-    <scopeInfo nodeId="4519409331094620048" fileName="LayererProxy.java" startLine="14" startPosition="41" endLine="15" endPosition="24" />
-    <scopeInfo nodeId="4519409331094620045" fileName="LayererProxy.java" startLine="14" startPosition="0" endLine="17" endPosition="0">
-      <varInfo nodeId="4519409331094620054" varName="layerer" />
-    </scopeInfo>
-    <scopeInfo nodeId="4519409331094620068" fileName="LayererProxy.java" startLine="19" startPosition="88" endLine="22" endPosition="18">
-      <varInfo nodeId="4519409331094620074" varName="layers" />
-    </scopeInfo>
-    <scopeInfo nodeId="4519409331094620062" fileName="LayererProxy.java" startLine="18" startPosition="0" endLine="24" endPosition="0">
-      <varInfo nodeId="4519409331094620065" varName="graph" />
-    </scopeInfo>
-    <unitInfo nodeId="4519409331094620043" fileName="LayererProxy.java" startLine="11" startPosition="0" endLine="25" endPosition="0" unitName="layeredLayoutTest.LayererProxy" />
+    <file name="LayererProxy.java">
+      <node id="4519409331094620050" at="12,0,13,0" concept="2" trace="myLayerer" />
+      <node id="4519409331094620056" at="13,41,14,24" concept="1" />
+      <node id="4519409331094620073" at="17,88,18,63" concept="7" />
+      <node id="4519409331094620099" at="18,63,19,63" concept="1" />
+      <node id="4519409331094620085" at="19,63,20,18" concept="8" />
+      <node id="4519409331094620045" at="13,0,16,0" concept="0" trace="LayererProxy#(Ljetbrains/mps/graphLayout/layeredLayout/ILayerer;)V" />
+      <node id="4519409331094620062" at="16,0,22,0" concept="6" trace="computeLayers#(Ljetbrains/mps/graphLayout/graph/Graph;)Ljava/util/Map;" />
+      <scope id="4519409331094620048" at="13,41,14,24" />
+      <scope id="4519409331094620045" at="13,0,16,0">
+        <var name="layerer" id="4519409331094620054" />
+      </scope>
+      <scope id="4519409331094620068" at="17,88,20,18">
+        <var name="layers" id="4519409331094620074" />
+      </scope>
+      <scope id="4519409331094620062" at="16,0,22,0">
+        <var name="graph" id="4519409331094620065" />
+      </scope>
+      <unit id="4519409331094620043" at="11,0,23,0" name="layeredLayoutTest.LayererProxy" />
+    </file>
   </root>
   <root nodeRef="r:e4338979-215b-4b9c-a1e7-b887743c18eb(layeredLayoutTest)/4519409331094621475">
-    <nodeInfo nodeId="4519409331094621482" fileName="MedianLayerByLayerSorterProxy.java" startLine="16" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="mySorter" />
-    <nodeInfo nodeId="4519409331094621487" fileName="MedianLayerByLayerSorterProxy.java" startLine="18" startPosition="42" endLine="19" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4519409331094621511" fileName="MedianLayerByLayerSorterProxy.java" startLine="23" startPosition="77" endLine="24" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4519409331094621529" fileName="MedianLayerByLayerSorterProxy.java" startLine="24" startPosition="63" endLine="25" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4519409331094621525" fileName="MedianLayerByLayerSorterProxy.java" startLine="25" startPosition="66" endLine="26" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4519409331094621477" fileName="MedianLayerByLayerSorterProxy.java" startLine="18" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="MedianLayerByLayerSorterProxy#()V" />
-    <nodeInfo nodeId="4519409331094621498" fileName="MedianLayerByLayerSorterProxy.java" startLine="22" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="sortNodes#(Ljetbrains/mps/graphLayout/graph/Graph;Ljava/util/Map;)Ljetbrains/mps/graphLayout/layeredLayout/NodeLayeredOrder;" />
-    <scopeInfo nodeId="4519409331094621480" fileName="MedianLayerByLayerSorterProxy.java" startLine="18" startPosition="42" endLine="19" endPosition="88" />
-    <scopeInfo nodeId="4519409331094621477" fileName="MedianLayerByLayerSorterProxy.java" startLine="18" startPosition="0" endLine="21" endPosition="0" />
-    <scopeInfo nodeId="4519409331094621505" fileName="MedianLayerByLayerSorterProxy.java" startLine="23" startPosition="77" endLine="26" endPosition="17">
-      <varInfo nodeId="4519409331094621512" varName="order" />
-    </scopeInfo>
-    <scopeInfo nodeId="4519409331094621498" fileName="MedianLayerByLayerSorterProxy.java" startLine="22" startPosition="0" endLine="28" endPosition="0">
-      <varInfo nodeId="4519409331094621500" varName="graph" />
-      <varInfo nodeId="4519409331094621502" varName="layers" />
-    </scopeInfo>
-    <unitInfo nodeId="4519409331094621475" fileName="MedianLayerByLayerSorterProxy.java" startLine="15" startPosition="0" endLine="29" endPosition="0" unitName="layeredLayoutTest.MedianLayerByLayerSorterProxy" />
+    <file name="MedianLayerByLayerSorterProxy.java">
+      <node id="4519409331094621482" at="16,0,17,0" concept="2" trace="mySorter" />
+      <node id="4519409331094621487" at="17,42,18,88" concept="1" />
+      <node id="4519409331094621511" at="21,77,22,63" concept="7" />
+      <node id="4519409331094621529" at="22,63,23,66" concept="1" />
+      <node id="4519409331094621525" at="23,66,24,17" concept="8" />
+      <node id="4519409331094621477" at="17,0,20,0" concept="0" trace="MedianLayerByLayerSorterProxy#()V" />
+      <node id="4519409331094621498" at="20,0,26,0" concept="6" trace="sortNodes#(Ljetbrains/mps/graphLayout/graph/Graph;Ljava/util/Map;)Ljetbrains/mps/graphLayout/layeredLayout/NodeLayeredOrder;" />
+      <scope id="4519409331094621480" at="17,42,18,88" />
+      <scope id="4519409331094621477" at="17,0,20,0" />
+      <scope id="4519409331094621505" at="21,77,24,17">
+        <var name="order" id="4519409331094621512" />
+      </scope>
+      <scope id="4519409331094621498" at="20,0,26,0">
+        <var name="graph" id="4519409331094621500" />
+        <var name="layers" id="4519409331094621502" />
+      </scope>
+      <unit id="4519409331094621475" at="15,0,27,0" name="layeredLayoutTest.MedianLayerByLayerSorterProxy" />
+    </file>
   </root>
   <root nodeRef="r:e4338979-215b-4b9c-a1e7-b887743c18eb(layeredLayoutTest)/4519409331094801569">
-    <nodeInfo nodeId="4519409331094801580" fileName="BlockGraphProcessor_Test.java" startLine="14" startPosition="45" endLine="15" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5180427534211902540" fileName="BlockGraphProcessor_Test.java" startLine="15" startPosition="51" endLine="16" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5180427534211902500" fileName="BlockGraphProcessor_Test.java" startLine="19" startPosition="45" endLine="20" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5180427534211902544" fileName="BlockGraphProcessor_Test.java" startLine="20" startPosition="72" endLine="21" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5180427534211903503" fileName="BlockGraphProcessor_Test.java" startLine="24" startPosition="45" endLine="25" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5180427534211903507" fileName="BlockGraphProcessor_Test.java" startLine="25" startPosition="83" endLine="26" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5180427534211902524" fileName="BlockGraphProcessor_Test.java" startLine="32" startPosition="40" endLine="33" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5180427534211903959" fileName="BlockGraphProcessor_Test.java" startLine="33" startPosition="67" endLine="34" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4519409331094801571" fileName="BlockGraphProcessor_Test.java" startLine="29" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="BlockGraphProcessor_Test#()V" />
-    <nodeInfo nodeId="4519409331094801576" fileName="BlockGraphProcessor_Test.java" startLine="14" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test1#()V" />
-    <nodeInfo nodeId="5180427534211902494" fileName="BlockGraphProcessor_Test.java" startLine="19" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test2#()V" />
-    <nodeInfo nodeId="5180427534211903487" fileName="BlockGraphProcessor_Test.java" startLine="24" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_test3#()V" />
-    <nodeInfo nodeId="5180427534211902517" fileName="BlockGraphProcessor_Test.java" startLine="32" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test#(Ljava/lang/String;)V" />
-    <scopeInfo nodeId="4519409331094801574" fileName="BlockGraphProcessor_Test.java" startLine="29" startPosition="37" endLine="29" endPosition="37" />
-    <scopeInfo nodeId="4519409331094801579" fileName="BlockGraphProcessor_Test.java" startLine="14" startPosition="45" endLine="16" endPosition="22">
-      <varInfo nodeId="4519409331094801581" varName="graphString" />
-    </scopeInfo>
-    <scopeInfo nodeId="5180427534211902497" fileName="BlockGraphProcessor_Test.java" startLine="19" startPosition="45" endLine="21" endPosition="22">
-      <varInfo nodeId="5180427534211902501" varName="graphString" />
-    </scopeInfo>
-    <scopeInfo nodeId="5180427534211903490" fileName="BlockGraphProcessor_Test.java" startLine="24" startPosition="45" endLine="26" endPosition="22">
-      <varInfo nodeId="5180427534211903504" varName="graphString" />
-    </scopeInfo>
-    <scopeInfo nodeId="4519409331094801571" fileName="BlockGraphProcessor_Test.java" startLine="29" startPosition="0" endLine="31" endPosition="0" />
-    <scopeInfo nodeId="5180427534211902520" fileName="BlockGraphProcessor_Test.java" startLine="32" startPosition="40" endLine="34" endPosition="78">
-      <varInfo nodeId="5180427534211902525" varName="blockGraph" />
-      <varInfo nodeId="5180427534211903960" varName="layers" />
-    </scopeInfo>
-    <scopeInfo nodeId="4519409331094801576" fileName="BlockGraphProcessor_Test.java" startLine="14" startPosition="0" endLine="18" endPosition="0" />
-    <scopeInfo nodeId="5180427534211902494" fileName="BlockGraphProcessor_Test.java" startLine="19" startPosition="0" endLine="23" endPosition="0" />
-    <scopeInfo nodeId="5180427534211903487" fileName="BlockGraphProcessor_Test.java" startLine="24" startPosition="0" endLine="28" endPosition="0" />
-    <scopeInfo nodeId="5180427534211902517" fileName="BlockGraphProcessor_Test.java" startLine="32" startPosition="0" endLine="36" endPosition="0">
-      <varInfo nodeId="5180427534211902521" varName="graphString" />
-    </scopeInfo>
-    <unitInfo nodeId="4519409331094801569" fileName="BlockGraphProcessor_Test.java" startLine="13" startPosition="0" endLine="37" endPosition="0" unitName="layeredLayoutTest.BlockGraphProcessor_Test" />
+    <file name="BlockGraphProcessor_Test.java">
+      <node id="4519409331094801580" at="14,45,15,51" concept="7" />
+      <node id="5180427534211902540" at="15,51,16,22" concept="1" />
+      <node id="5180427534211902500" at="18,45,19,72" concept="7" />
+      <node id="5180427534211902544" at="19,72,20,22" concept="1" />
+      <node id="5180427534211903503" at="22,45,23,83" concept="7" />
+      <node id="5180427534211903507" at="23,83,24,22" concept="1" />
+      <node id="5180427534211902524" at="28,40,29,67" concept="7" />
+      <node id="5180427534211903959" at="29,67,30,78" concept="7" />
+      <node id="4519409331094801571" at="26,0,28,0" concept="0" trace="BlockGraphProcessor_Test#()V" />
+      <node id="4519409331094801576" at="14,0,18,0" concept="6" trace="test_test1#()V" />
+      <node id="5180427534211902494" at="18,0,22,0" concept="6" trace="test_test2#()V" />
+      <node id="5180427534211903487" at="22,0,26,0" concept="6" trace="test_test3#()V" />
+      <node id="5180427534211902517" at="28,0,32,0" concept="6" trace="test#(Ljava/lang/String;)V" />
+      <scope id="4519409331094801574" at="26,37,26,37" />
+      <scope id="4519409331094801579" at="14,45,16,22">
+        <var name="graphString" id="4519409331094801581" />
+      </scope>
+      <scope id="5180427534211902497" at="18,45,20,22">
+        <var name="graphString" id="5180427534211902501" />
+      </scope>
+      <scope id="5180427534211903490" at="22,45,24,22">
+        <var name="graphString" id="5180427534211903504" />
+      </scope>
+      <scope id="4519409331094801571" at="26,0,28,0" />
+      <scope id="5180427534211902520" at="28,40,30,78">
+        <var name="blockGraph" id="5180427534211902525" />
+        <var name="layers" id="5180427534211903960" />
+      </scope>
+      <scope id="4519409331094801576" at="14,0,18,0" />
+      <scope id="5180427534211902494" at="18,0,22,0" />
+      <scope id="5180427534211903487" at="22,0,26,0" />
+      <scope id="5180427534211902517" at="28,0,32,0">
+        <var name="graphString" id="5180427534211902521" />
+      </scope>
+      <unit id="4519409331094801569" at="13,0,33,0" name="layeredLayoutTest.BlockGraphProcessor_Test" />
+    </file>
   </root>
   <root nodeRef="r:e4338979-215b-4b9c-a1e7-b887743c18eb(layeredLayoutTest)/6088058844796081230">
-    <nodeInfo nodeId="7033456583153162491" fileName="CheckDummyEdgesCrossing.java" startLine="18" startPosition="40" endLine="19" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7033456583153162501" fileName="CheckDummyEdgesCrossing.java" startLine="23" startPosition="100" endLine="24" endPosition="144" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7033456583153162514" fileName="CheckDummyEdgesCrossing.java" startLine="24" startPosition="144" endLine="25" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7033456583153162527" fileName="CheckDummyEdgesCrossing.java" startLine="26" startPosition="64" endLine="27" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7033456583153162583" fileName="CheckDummyEdgesCrossing.java" startLine="28" startPosition="139" endLine="29" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7033456583153162588" fileName="CheckDummyEdgesCrossing.java" startLine="34" startPosition="5" endLine="35" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5409050563449596659" fileName="CheckDummyEdgesCrossing.java" startLine="12" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="CheckDummyEdgesCrossing#()V" />
-    <nodeInfo nodeId="7033456583153162489" fileName="CheckDummyEdgesCrossing.java" startLine="18" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Ljetbrains/mps/graphLayout/graph/Node;)Z" />
-    <nodeInfo nodeId="7033456583153162537" fileName="CheckDummyEdgesCrossing.java" startLine="27" startPosition="66" endLine="30" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="7033456583153162480" fileName="CheckDummyEdgesCrossing.java" startLine="16" startPosition="68" endLine="21" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4519409331094687696" fileName="CheckDummyEdgesCrossing.java" startLine="25" startPosition="146" endLine="31" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="7033456583153162499" fileName="CheckDummyEdgesCrossing.java" startLine="22" startPosition="87" endLine="32" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="7033456583153162497" fileName="CheckDummyEdgesCrossing.java" startLine="21" startPosition="26" endLine="33" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="7033456583153162475" fileName="CheckDummyEdgesCrossing.java" startLine="15" startPosition="60" endLine="34" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="7033456583153162448" fileName="CheckDummyEdgesCrossing.java" startLine="15" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="hasCrosses#(Ljetbrains/mps/graphLayout/layeredLayout/NodeLayeredOrder;)Z" />
-    <scopeInfo nodeId="5409050563449596661" fileName="CheckDummyEdgesCrossing.java" startLine="12" startPosition="36" endLine="12" endPosition="36" />
-    <scopeInfo nodeId="7033456583153162490" fileName="CheckDummyEdgesCrossing.java" startLine="18" startPosition="40" endLine="19" endPosition="30" />
-    <scopeInfo nodeId="7033456583153162538" fileName="CheckDummyEdgesCrossing.java" startLine="28" startPosition="139" endLine="29" endPosition="26" />
-    <scopeInfo nodeId="5409050563449596659" fileName="CheckDummyEdgesCrossing.java" startLine="12" startPosition="0" endLine="14" endPosition="0" />
-    <scopeInfo nodeId="7033456583153162489" fileName="CheckDummyEdgesCrossing.java" startLine="18" startPosition="0" endLine="21" endPosition="0">
-      <varInfo nodeId="7033456583153162489" varName="it" />
-    </scopeInfo>
-    <scopeInfo nodeId="4519409331094687698" fileName="CheckDummyEdgesCrossing.java" startLine="26" startPosition="64" endLine="30" endPosition="13">
-      <varInfo nodeId="7033456583153162528" varName="nextLayerOrder" />
-    </scopeInfo>
-    <scopeInfo nodeId="7033456583153162500" fileName="CheckDummyEdgesCrossing.java" startLine="23" startPosition="100" endLine="31" endPosition="11">
-      <varInfo nodeId="7033456583153162502" varName="firstTarget" />
-      <varInfo nodeId="7033456583153162515" varName="secondTarget" />
-    </scopeInfo>
-    <scopeInfo nodeId="7033456583153162498" fileName="CheckDummyEdgesCrossing.java" startLine="22" startPosition="87" endLine="32" endPosition="9" />
-    <scopeInfo nodeId="7033456583153162499" fileName="CheckDummyEdgesCrossing.java" startLine="22" startPosition="87" endLine="32" endPosition="9">
-      <varInfo nodeId="7033456583153162549" varName="second" />
-    </scopeInfo>
-    <scopeInfo nodeId="7033456583153162497" fileName="CheckDummyEdgesCrossing.java" startLine="21" startPosition="26" endLine="33" endPosition="7">
-      <varInfo nodeId="7033456583153162561" varName="first" />
-    </scopeInfo>
-    <scopeInfo nodeId="7033456583153162479" fileName="CheckDummyEdgesCrossing.java" startLine="16" startPosition="68" endLine="33" endPosition="7">
-      <varInfo nodeId="7033456583153162481" varName="dummyNodes" />
-    </scopeInfo>
-    <scopeInfo nodeId="7033456583153162475" fileName="CheckDummyEdgesCrossing.java" startLine="15" startPosition="60" endLine="34" endPosition="5">
-      <varInfo nodeId="7033456583153162476" varName="layer" />
-    </scopeInfo>
-    <scopeInfo nodeId="7033456583153162451" fileName="CheckDummyEdgesCrossing.java" startLine="15" startPosition="60" endLine="35" endPosition="17" />
-    <scopeInfo nodeId="7033456583153162448" fileName="CheckDummyEdgesCrossing.java" startLine="15" startPosition="0" endLine="37" endPosition="0">
-      <varInfo nodeId="7033456583153162458" varName="order" />
-    </scopeInfo>
-    <unitInfo nodeId="7033456583153162489" fileName="CheckDummyEdgesCrossing.java" startLine="17" startPosition="85" endLine="21" endPosition="7" unitName="layeredLayoutTest.CheckDummyEdgesCrossing$1" />
-    <unitInfo nodeId="6088058844796081230" fileName="CheckDummyEdgesCrossing.java" startLine="11" startPosition="0" endLine="38" endPosition="0" unitName="layeredLayoutTest.CheckDummyEdgesCrossing" />
+    <file name="CheckDummyEdgesCrossing.java">
+      <node id="7033456583153162491" at="17,40,18,30" concept="8" />
+      <node id="7033456583153162501" at="22,100,23,144" concept="7" />
+      <node id="7033456583153162514" at="23,144,24,146" concept="7" />
+      <node id="7033456583153162527" at="25,64,26,66" concept="7" />
+      <node id="7033456583153162583" at="27,139,28,26" concept="8" />
+      <node id="7033456583153162588" at="33,5,34,17" concept="8" />
+      <node id="5409050563449596659" at="12,0,14,0" concept="0" trace="CheckDummyEdgesCrossing#()V" />
+      <node id="7033456583153162489" at="17,0,20,0" concept="6" trace="accept#(Ljetbrains/mps/graphLayout/graph/Node;)Z" />
+      <node id="7033456583153162537" at="26,66,29,13" concept="5" />
+      <node id="7033456583153162480" at="15,68,20,26" concept="7" />
+      <node id="4519409331094687696" at="24,146,30,11" concept="5" />
+      <node id="7033456583153162499" at="21,87,31,9" concept="3" />
+      <node id="7033456583153162497" at="20,26,32,7" concept="3" />
+      <node id="7033456583153162475" at="14,60,33,5" concept="3" />
+      <node id="7033456583153162448" at="14,0,36,0" concept="10" trace="hasCrosses#(Ljetbrains/mps/graphLayout/layeredLayout/NodeLayeredOrder;)Z" />
+      <scope id="5409050563449596661" at="12,36,12,36" />
+      <scope id="7033456583153162490" at="17,40,18,30" />
+      <scope id="7033456583153162538" at="27,139,28,26" />
+      <scope id="5409050563449596659" at="12,0,14,0" />
+      <scope id="7033456583153162489" at="17,0,20,0">
+        <var name="it" id="7033456583153162489" />
+      </scope>
+      <scope id="4519409331094687698" at="25,64,29,13">
+        <var name="nextLayerOrder" id="7033456583153162528" />
+      </scope>
+      <scope id="7033456583153162500" at="22,100,30,11">
+        <var name="firstTarget" id="7033456583153162502" />
+        <var name="secondTarget" id="7033456583153162515" />
+      </scope>
+      <scope id="7033456583153162498" at="21,87,31,9" />
+      <scope id="7033456583153162499" at="21,87,31,9">
+        <var name="second" id="7033456583153162549" />
+      </scope>
+      <scope id="7033456583153162497" at="20,26,32,7">
+        <var name="first" id="7033456583153162561" />
+      </scope>
+      <scope id="7033456583153162479" at="15,68,32,7">
+        <var name="dummyNodes" id="7033456583153162481" />
+      </scope>
+      <scope id="7033456583153162475" at="14,60,33,5">
+        <var name="layer" id="7033456583153162476" />
+      </scope>
+      <scope id="7033456583153162451" at="14,60,34,17" />
+      <scope id="7033456583153162448" at="14,0,36,0">
+        <var name="order" id="7033456583153162458" />
+      </scope>
+      <unit id="7033456583153162489" at="16,85,20,7" name="layeredLayoutTest.CheckDummyEdgesCrossing$1" />
+      <unit id="6088058844796081230" at="11,0,37,0" name="layeredLayoutTest.CheckDummyEdgesCrossing" />
+    </file>
   </root>
   <root nodeRef="r:e4338979-215b-4b9c-a1e7-b887743c18eb(layeredLayoutTest)/8780938838750221986">
-    <nodeInfo nodeId="8780938838750221993" fileName="RefineAdjacentNodeSorterProxy.java" startLine="15" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="mySorter" />
-    <nodeInfo nodeId="8780938838750222012" fileName="RefineAdjacentNodeSorterProxy.java" startLine="17" startPosition="42" endLine="18" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8780938838750221997" fileName="RefineAdjacentNodeSorterProxy.java" startLine="18" startPosition="67" endLine="19" endPosition="89" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8780938838750222033" fileName="RefineAdjacentNodeSorterProxy.java" startLine="23" startPosition="77" endLine="24" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8780938838750222041" fileName="RefineAdjacentNodeSorterProxy.java" startLine="24" startPosition="63" endLine="25" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8780938838750222044" fileName="RefineAdjacentNodeSorterProxy.java" startLine="25" startPosition="66" endLine="26" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8780938838750221988" fileName="RefineAdjacentNodeSorterProxy.java" startLine="17" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="RefineAdjacentNodeSorterProxy#()V" />
-    <nodeInfo nodeId="8780938838750222021" fileName="RefineAdjacentNodeSorterProxy.java" startLine="22" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="sortNodes#(Ljetbrains/mps/graphLayout/graph/Graph;Ljava/util/Map;)Ljetbrains/mps/graphLayout/layeredLayout/NodeLayeredOrder;" />
-    <scopeInfo nodeId="8780938838750221991" fileName="RefineAdjacentNodeSorterProxy.java" startLine="17" startPosition="42" endLine="19" endPosition="89">
-      <varInfo nodeId="8780938838750222013" varName="medianSorter" />
-    </scopeInfo>
-    <scopeInfo nodeId="8780938838750222030" fileName="RefineAdjacentNodeSorterProxy.java" startLine="23" startPosition="77" endLine="26" endPosition="17">
-      <varInfo nodeId="8780938838750222034" varName="order" />
-    </scopeInfo>
-    <scopeInfo nodeId="8780938838750221988" fileName="RefineAdjacentNodeSorterProxy.java" startLine="17" startPosition="0" endLine="21" endPosition="0" />
-    <scopeInfo nodeId="8780938838750222021" fileName="RefineAdjacentNodeSorterProxy.java" startLine="22" startPosition="0" endLine="28" endPosition="0">
-      <varInfo nodeId="8780938838750222023" varName="graph" />
-      <varInfo nodeId="8780938838750222025" varName="layers" />
-    </scopeInfo>
-    <unitInfo nodeId="8780938838750221986" fileName="RefineAdjacentNodeSorterProxy.java" startLine="14" startPosition="0" endLine="29" endPosition="0" unitName="layeredLayoutTest.RefineAdjacentNodeSorterProxy" />
+    <file name="RefineAdjacentNodeSorterProxy.java">
+      <node id="8780938838750221993" at="15,0,16,0" concept="2" trace="mySorter" />
+      <node id="8780938838750222012" at="16,42,17,67" concept="7" />
+      <node id="8780938838750221997" at="17,67,18,89" concept="1" />
+      <node id="8780938838750222033" at="21,77,22,63" concept="7" />
+      <node id="8780938838750222041" at="22,63,23,66" concept="1" />
+      <node id="8780938838750222044" at="23,66,24,17" concept="8" />
+      <node id="8780938838750221988" at="16,0,20,0" concept="0" trace="RefineAdjacentNodeSorterProxy#()V" />
+      <node id="8780938838750222021" at="20,0,26,0" concept="6" trace="sortNodes#(Ljetbrains/mps/graphLayout/graph/Graph;Ljava/util/Map;)Ljetbrains/mps/graphLayout/layeredLayout/NodeLayeredOrder;" />
+      <scope id="8780938838750221991" at="16,42,18,89">
+        <var name="medianSorter" id="8780938838750222013" />
+      </scope>
+      <scope id="8780938838750222030" at="21,77,24,17">
+        <var name="order" id="8780938838750222034" />
+      </scope>
+      <scope id="8780938838750221988" at="16,0,20,0" />
+      <scope id="8780938838750222021" at="20,0,26,0">
+        <var name="graph" id="8780938838750222023" />
+        <var name="layers" id="8780938838750222025" />
+      </scope>
+      <unit id="8780938838750221986" at="14,0,27,0" name="layeredLayoutTest.RefineAdjacentNodeSorterProxy" />
+    </file>
   </root>
-</debugInfo>
+</debug-info>
 

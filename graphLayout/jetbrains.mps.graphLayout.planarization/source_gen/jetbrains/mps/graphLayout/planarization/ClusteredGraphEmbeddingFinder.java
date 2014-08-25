@@ -20,10 +20,8 @@ import jetbrains.mps.graphLayout.planarGraph.CheckEmbeddedGraph;
 
 public class ClusteredGraphEmbeddingFinder implements IEmbeddingFinder {
   private Map<Node, List<Edge>> myClusterBorderMap;
-
   public ClusteredGraphEmbeddingFinder() {
   }
-
   @Override
   public EmbeddedGraph find(Graph graph) {
     if (graph instanceof ClusteredGraph) {
@@ -54,7 +52,6 @@ public class ClusteredGraphEmbeddingFinder implements IEmbeddingFinder {
       throw new RuntimeException("can find embedding of clustered graphs only");
     }
   }
-
   public Map<Node, List<Edge>> getClusterBorderMap() {
     return myClusterBorderMap;
   }

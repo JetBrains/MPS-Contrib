@@ -8,7 +8,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 public class ElementWithType_Behavior {
   public static void init(SNode thisNode) {
   }
-
   public static SNode virtual_getComplexType_1213877429806(SNode thisNode) {
     return SLinkOperations.getTarget(SLinkOperations.getTarget(thisNode, "complexTypeReference", true), "complexType", false);
   }

@@ -31,7 +31,6 @@ public class OrthogonalRepresentationChecker {
       Assert.assertTrue(totalAngle == 4);
     }
   }
-
   public static void checkOrthogonalRepresentation(Graph graph, Map<Dart, Integer> bends, Map<Dart, Integer> angles, int minAngle) {
     int numEdges = ListSequence.fromList(graph.getEdges()).count();
     Assert.assertTrue(2 * numEdges == MapSequence.fromMap(bends).count());

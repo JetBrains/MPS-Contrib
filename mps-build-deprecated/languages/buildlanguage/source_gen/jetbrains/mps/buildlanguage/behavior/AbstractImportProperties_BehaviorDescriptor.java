@@ -9,11 +9,9 @@ import org.jetbrains.mps.openapi.model.SNode;
 public abstract class AbstractImportProperties_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor {
   public AbstractImportProperties_BehaviorDescriptor() {
   }
-
   public List<SNode> virtual_getPropertyDeclarations_1240397763706(SNode thisNode) {
     return AbstractImportProperties_Behavior.virtual_getPropertyDeclarations_1240397763706(thisNode);
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.buildlanguage.structure.AbstractImportProperties";

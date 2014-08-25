@@ -28,54 +28,41 @@ public class DateTypeUtil {
   private static SNode javaDateType = _quotation_createNode_hzl4bp_a6();
   private static SNode javaCalendarType = _quotation_createNode_hzl4bp_a7();
   private static SNode jodaAbstractInstant = _quotation_createNode_hzl4bp_a8();
-
   public DateTypeUtil() {
   }
-
   public static boolean isInstanceOfPeriod(SNode node) {
     return isInstanceOf(node, periodType);
   }
-
   public static boolean isPeriodType(SNode type) {
     return isStrongSubtype(type, periodType);
   }
-
   public static boolean isInstanceOfPeriodCompare(SNode compareOperation) {
     return bothOperandsAreNotNull(compareOperation) && isInstanceOfPeriod(SLinkOperations.getTarget(compareOperation, "leftExpression", true));
   }
-
   public static boolean isInstanceOfDurationCompare(SNode compareOperation) {
     return bothOperandsAreNotNull(compareOperation) && isInstanceOfDuration(SLinkOperations.getTarget(compareOperation, "leftExpression", true));
   }
-
   public static boolean isInstanceOfDuration(SNode node) {
     return isInstanceOf(node, durationType);
   }
-
   public static boolean isInstanceOfDatetime(SNode node) {
     return isInstanceOf(node, dateTimeType);
   }
-
   public static boolean isDatetimeType(SNode type) {
     return isStrongSubtype(type, dateTimeType);
   }
-
   public static boolean isInstanceOfTimezone(SNode node) {
     return isInstanceOf(node, dateTimeZoneType);
   }
-
   public static boolean isInstanceOfDatetimeWithTZ(SNode node) {
     return isInstanceOf(node, dateTimeWithTZType);
   }
-
   public static boolean isDatetimeWithTZ(SNode type) {
     return isStrongSubtype(type, dateTimeWithTZType);
   }
-
   public static boolean isInstanceOfInt(SNode node) {
     return isInstanceOf(node, intType);
   }
-
   public static boolean isInstanceOfJavaDatePresentation(SNode node) {
     if (SNodeOperations.isInstanceOf(node, "jetbrains.mps.baseLanguage.structure.NullLiteral")) {
       return false;
@@ -85,11 +72,9 @@ public class DateTypeUtil {
     SNode actualType = tc.getTypeOf(node);
     return sm.isSubtype(actualType, javaDateType) || sm.isSubtype(actualType, javaCalendarType) || sm.isSubtype(actualType, jodaAbstractInstant);
   }
-
   public static boolean bothOperandsAreNotNull(SNode operation) {
     return !(SNodeOperations.isInstanceOf(SLinkOperations.getTarget(operation, "leftExpression", true), "jetbrains.mps.baseLanguage.structure.NullLiteral") || SNodeOperations.isInstanceOf(SLinkOperations.getTarget(operation, "rightExpression", true), "jetbrains.mps.baseLanguage.structure.NullLiteral"));
   }
-
   public static boolean isInstanceOf(SNode node, SNode type) {
     if (node == null || type == null) {
       if (LOG.isEnabledFor(Level.ERROR)) {
@@ -106,7 +91,6 @@ public class DateTypeUtil {
     }
     return false;
   }
-
   public static boolean isStrongSubtype(SNode type, SNode stype) {
     if (stype == null) {
       return false;
@@ -120,11 +104,9 @@ public class DateTypeUtil {
     }
     return false;
   }
-
   public static List<SNode> findDateTimeProperties(SModel model) {
     return SModelOperations.getNodesIncludingImported(model, "jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeProperty");
   }
-
   public static SNode getContainingPeriod(SNode expr) {
     SNode current = expr;
     while ((current != null) && TypeChecker.getInstance().getRuntimeSupport().coerce_(TypeChecker.getInstance().getTypeOf(current), HUtil.createMatchingPatternByConceptFQName("jetbrains.mps.baseLanguage.dates.structure.PeriodType"), false) == null) {
@@ -132,7 +114,6 @@ public class DateTypeUtil {
     }
     return current;
   }
-
   public static SNode getCompareExpression(SNode expr) {
     SNode current = expr;
     while ((current != null)) {
@@ -147,51 +128,43 @@ public class DateTypeUtil {
     }
     return null;
   }
-
   protected static Logger LOG = LogManager.getLogger(DateTypeUtil.class);
-
   private static SNode _quotation_createNode_hzl4bp_a0() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;
     quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", null, null, false);
     return quotedNode_1;
   }
-
   private static SNode _quotation_createNode_hzl4bp_a1() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;
     quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType", null, null, false);
     return quotedNode_1;
   }
-
   private static SNode _quotation_createNode_hzl4bp_a2() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;
     quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", null, null, false);
     return quotedNode_1;
   }
-
   private static SNode _quotation_createNode_hzl4bp_a3() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;
     quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", null, null, false);
     return quotedNode_1;
   }
-
   private static SNode _quotation_createNode_hzl4bp_a4() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;
     quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DurationType", null, null, false);
     return quotedNode_1;
   }
-
   private static SNode _quotation_createNode_hzl4bp_a5() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;
     quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.IntegerType", null, null, false);
     return quotedNode_1;
   }
-
   private static SNode _quotation_createNode_hzl4bp_a6() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;
@@ -199,7 +172,6 @@ public class DateTypeUtil {
     quotedNode_1.setReference("classifier", SReference.create("classifier", quotedNode_1, facade.createModelReference("f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)"), facade.createNodeId("~Date")));
     return quotedNode_1;
   }
-
   private static SNode _quotation_createNode_hzl4bp_a7() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;
@@ -207,7 +179,6 @@ public class DateTypeUtil {
     quotedNode_1.setReference("classifier", SReference.create("classifier", quotedNode_1, facade.createModelReference("f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)"), facade.createNodeId("~Calendar")));
     return quotedNode_1;
   }
-
   private static SNode _quotation_createNode_hzl4bp_a8() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;

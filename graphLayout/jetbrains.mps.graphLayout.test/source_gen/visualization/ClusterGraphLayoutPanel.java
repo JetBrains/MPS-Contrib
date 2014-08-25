@@ -17,7 +17,6 @@ public class ClusterGraphLayoutPanel extends OrthogonalLayoutTestPanel {
   public ClusterGraphLayoutPanel() {
     super();
   }
-
   @Override
   protected Graph readGraph(Scanner scanner) {
     ClusteredGraph graph = new ClusteredGraph();
@@ -33,13 +32,11 @@ public class ClusterGraphLayoutPanel extends OrthogonalLayoutTestPanel {
     graph.setRoot(tree.getNode(0));
     return graph;
   }
-
   @Override
   protected void initLayout() {
     myLayouter = new ClusterOrthogonalFlowLayouter();
     myPainter = new ClusterLayoutPainter();
   }
-
   @Override
   protected void writeGraph(Graph graph) {
     super.writeGraph(graph);
@@ -48,14 +45,12 @@ public class ClusterGraphLayoutPanel extends OrthogonalLayoutTestPanel {
       super.writeGraph(tree);
     }
   }
-
   @Override
   protected ClusteredGraph generateGraph(int numNodes, int numEdges) {
     AbstractGraphGenerator graphGenerator = new SimpleConnectedGraphGenerator(numNodes, numEdges, numEdges);
     ClusterGraphGenerator generator = new ClusterGraphGenerator(graphGenerator);
     return generator.generate();
   }
-
   public static void main(String[] args) {
     SwingUtilities.invokeLater(new Runnable() {
       @Override

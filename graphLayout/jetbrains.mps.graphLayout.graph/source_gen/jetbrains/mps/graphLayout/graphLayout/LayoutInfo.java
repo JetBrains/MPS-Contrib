@@ -17,47 +17,39 @@ public class LayoutInfo implements ILayoutInfo {
   private Graph myGraph;
   private Map<Node, Dimension> myNodeSizes;
   private Map<Edge, Dimension> myLabelSizes;
-
   public LayoutInfo(Graph graph) {
     myGraph = graph;
     myNodeSizes = MapSequence.fromMap(new LinkedHashMap<Node, Dimension>(16, (float) 0.75, false));
     myLabelSizes = MapSequence.fromMap(new LinkedHashMap<Edge, Dimension>(16, (float) 0.75, false));
   }
-
   @Override
   public void setNodeSize(INode node, Dimension size) {
     Node myNode = ((Node) node);
     MapSequence.fromMap(myNodeSizes).put(myNode, size);
   }
-
   @Override
   public void setLabelSize(IEdge labeledEdge, Dimension size) {
     Edge myLabeledEdge = ((Edge) labeledEdge);
     MapSequence.fromMap(myLabelSizes).put(myLabeledEdge, size);
   }
-
   @Override
   public Dimension getNodeSize(INode node) {
     Node myNode = ((Node) node);
     return MapSequence.fromMap(myNodeSizes).get(myNode);
   }
-
   @Override
   public Dimension getLabelSize(IEdge edge) {
     Edge myEdge = ((Edge) edge);
     return MapSequence.fromMap(myLabelSizes).get(myEdge);
   }
-
   @Override
   public Graph getGraph() {
     return myGraph;
   }
-
   @Override
   public Set<Edge> getLabeledEdges() {
     return MapSequence.fromMap(myLabelSizes).keySet();
   }
-
   @Override
   public Set<Node> getNodesWithSize() {
     return MapSequence.fromMap(myNodeSizes).keySet();

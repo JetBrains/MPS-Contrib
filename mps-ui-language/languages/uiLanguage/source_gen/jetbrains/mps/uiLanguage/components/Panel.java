@@ -16,34 +16,27 @@ public class Panel extends JComponent {
   private Events myEvents = new Events(null) {
     {
     }
-
     public void initialize() {
     }
   };
-
   public Panel() {
     this.myThis = this;
     Panel component = this;
     this.myEvents.initialize();
   }
-
   public Events getEvents() {
     return this.myEvents;
   }
-
   public void addNotify() {
     super.addNotify();
     this.bind();
   }
-
   public void removeNotify() {
     this.unbind();
     super.removeNotify();
   }
-
   private void bind() {
   }
-
   private void unbind() {
     for (AutoBinding binding : this.myBindings) {
       if (binding.isBound()) {
@@ -51,11 +44,9 @@ public class Panel extends JComponent {
       }
     }
   }
-
   public boolean getVisible() {
     return this.myVisible;
   }
-
   public void setVisible(boolean newValue) {
     boolean oldValue = this.myVisible;
     this.myVisible = newValue;

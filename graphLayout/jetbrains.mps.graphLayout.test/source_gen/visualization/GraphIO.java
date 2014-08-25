@@ -25,13 +25,11 @@ public class GraphIO {
   public static Graph scanGraph(String graphString) {
     return scanGraph(new Scanner(graphString));
   }
-
   public static Graph scanGraph(Scanner scanner) {
     Graph graph = new Graph();
     scanGraph(scanner, graph);
     return graph;
   }
-
   private static void scanGraph(Scanner scanner, Graph graph, int nodeOffset) {
     try {
       int numNodes = scanner.nextInt();
@@ -48,11 +46,9 @@ public class GraphIO {
       throw new IllegalArgumentException("invalid input", e);
     }
   }
-
   public static void scanGraph(Scanner scanner, Graph graph) {
     scanGraph(scanner, graph, 0);
   }
-
   public static EmbeddedGraph scanSimpleEmbeddedGraph(Scanner scanner) {
     Graph graph = scanGraph(scanner);
     EmbeddedGraph embeddedGraph = new EmbeddedGraph(graph);
@@ -84,7 +80,6 @@ public class GraphIO {
     }
     return embeddedGraph;
   }
-
   public static void writeGraph(Graph graph, PrintWriter writer) {
     int numEdges = 0;
     for (Node node : ListSequence.fromList(graph.getNodes())) {
@@ -97,7 +92,6 @@ public class GraphIO {
       }
     }
   }
-
   public static void writeGraph(Graph graph, Map<Node, Dimension> nodeSizes, Map<Edge, Dimension> edgeLabelSizes, PrintWriter writer) {
     writeGraph(graph, writer);
     writer.println(MapSequence.fromMap(nodeSizes).count());
@@ -109,11 +103,9 @@ public class GraphIO {
       writer.println(edge.getSource().getIndex() + " " + edge.getTarget().getIndex() + " " + MapSequence.fromMap(edgeLabelSizes).get(edge).width + " " + MapSequence.fromMap(edgeLabelSizes).get(edge).height);
     }
   }
-
   public static ClusteredGraph scanClusteredGraph(String graphString, String treeString) {
     return scanClusteredGraph(new Scanner(graphString), new Scanner(treeString));
   }
-
   public static ClusteredGraph scanClusteredGraph(Scanner graphScanner, Scanner treeScanner) {
     try {
       ClusteredGraph graph = new ClusteredGraph();
@@ -132,7 +124,6 @@ public class GraphIO {
       throw new IllegalArgumentException("invalid input", e);
     }
   }
-
   public static HyperGraph scanHyperGraph(Scanner scanner) {
     HyperGraph graph = new HyperGraph();
     scanGraph(scanner, graph);

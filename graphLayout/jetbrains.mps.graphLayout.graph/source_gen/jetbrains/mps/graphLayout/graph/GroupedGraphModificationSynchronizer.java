@@ -15,7 +15,6 @@ public class GroupedGraphModificationSynchronizer implements IGraphModificationL
   private Map<Node, Node> myNodeMap;
   private Graph myGroupedGraph;
   private Graph mySynchronizedGraph;
-
   public GroupedGraphModificationSynchronizer(Graph groupedGraph, Graph synchronizedGraph, Map<Edge, Edge> edgeMap) {
     myGroupedGraph = groupedGraph;
     mySynchronizedGraph = synchronizedGraph;
@@ -23,7 +22,6 @@ public class GroupedGraphModificationSynchronizer implements IGraphModificationL
     myEdgeMap = edgeMap;
     myNodeMap = MapSequence.fromMap(new HashMap<Node, Node>());
   }
-
   @Override
   public void process(GraphModificationEvent event) {
     switch (event.getType()) {
@@ -83,7 +81,6 @@ public class GroupedGraphModificationSynchronizer implements IGraphModificationL
       default:
     }
   }
-
   private void processSplitEvent(GraphModificationEvent event) {
     Edge splittedEdge = event.getEdge();
     if (MapSequence.fromMap(myEdgeMap).containsKey(splittedEdge)) {
@@ -119,7 +116,6 @@ public class GroupedGraphModificationSynchronizer implements IGraphModificationL
       mySynchronizedGraph.getModificationProcessor().fire(new GraphModificationEvent(GraphModificationEvent.Type.EDGE_SPLITTED, syncEdge, syncSplit));
     }
   }
-
   public void disconnect() {
     myGroupedGraph.removeListener(this);
   }

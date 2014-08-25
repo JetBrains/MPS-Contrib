@@ -22,7 +22,6 @@ public class TaskReference_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_bbna77_a(editorContext, node);
   }
-
   private EditorCell createCollection_bbna77_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_bbna77_a");
@@ -30,7 +29,6 @@ public class TaskReference_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createRefCell_bbna77_a0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createRefCell_bbna77_a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("declaration");
@@ -55,20 +53,16 @@ public class TaskReference_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   public static class _Inline_bbna77_a0a extends InlineCellProvider {
     public _Inline_bbna77_a0a() {
       super();
     }
-
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
     }
-
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
       return this.createProperty_bbna77_a0a0(editorContext, node);
     }
-
     private EditorCell createProperty_bbna77_a0a0(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("name");

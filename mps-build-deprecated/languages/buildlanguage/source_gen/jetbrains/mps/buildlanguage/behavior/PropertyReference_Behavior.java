@@ -15,14 +15,12 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 public class PropertyReference_Behavior {
   public static void init(SNode thisNode) {
   }
-
   public static String virtual_toString_1213877472569(SNode thisNode) {
     if ((SLinkOperations.getTarget(thisNode, "propertyDeclaration", false) == null)) {
       return "";
     }
     return "${" + SPropertyOperations.getString(SLinkOperations.getTarget(thisNode, "propertyDeclaration", false), "name") + "}";
   }
-
   public static String virtual_getActualValue_1213877472572(SNode thisNode) {
     if ((SLinkOperations.getTarget(thisNode, "propertyDeclaration", false) == null)) {
       return "";
@@ -36,7 +34,6 @@ public class PropertyReference_Behavior {
     }
     return BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(thisNode, "propertyDeclaration", false), "jetbrains.mps.buildlanguage.structure.PropertyDeclaration"), "propertyValue", true), "virtual_getActualValue_1213877472572", new Object[]{});
   }
-
   public static List<SNode> call_getAllVisibleDeclarations_1239123615225(SAbstractConcept thisConcept, SNode enclosingNode) {
     List<SNode> result = new ArrayList<SNode>();
     for (SNode holder : ListSequence.fromList(SNodeOperations.getAncestors(enclosingNode, "jetbrains.mps.buildlanguage.structure.IPropertyHolder", true))) {

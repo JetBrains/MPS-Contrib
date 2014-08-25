@@ -7,7 +7,6 @@ import jetbrains.mps.baseLanguage.behavior.ConceptFunctionParameter_BehaviorDesc
 public class TokenCondition_datetimeToFormat_BehaviorDescriptor extends ConceptFunctionParameter_BehaviorDescriptor {
   public TokenCondition_datetimeToFormat_BehaviorDescriptor() {
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.baseLanguage.dates.structure.TokenCondition_datetimeToFormat";

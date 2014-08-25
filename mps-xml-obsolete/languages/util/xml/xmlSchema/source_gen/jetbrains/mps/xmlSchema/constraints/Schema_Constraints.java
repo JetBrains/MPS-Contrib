@@ -14,7 +14,6 @@ public class Schema_Constraints extends BaseConstraintsDescriptor {
   public Schema_Constraints() {
     super("jetbrains.mps.xmlSchema.structure.Schema");
   }
-
   @Override
   protected Map<String, PropertyConstraintsDescriptor> getNotDefaultProperties() {
     Map<String, PropertyConstraintsDescriptor> properties = new HashMap();
@@ -23,7 +22,6 @@ public class Schema_Constraints extends BaseConstraintsDescriptor {
       public boolean hasOwnGetter() {
         return true;
       }
-
       @Override
       public Object getValue(SNode node) {
         String propertyName = "name";

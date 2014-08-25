@@ -23,81 +23,64 @@ public class GraphLayout implements IGraphLayout {
   private Map<INode, Rectangle> myNodeLayout;
   private Map<IEdge, List<Point>> myEdgeLayout;
   private Map<IEdge, Rectangle> myLabelLayout;
-
   public GraphLayout(IGraph graph) {
     myGraph = graph;
     myNodeLayout = MapSequence.fromMap(new HashMap<INode, Rectangle>());
     myEdgeLayout = MapSequence.fromMap(new HashMap<IEdge, List<Point>>());
     myLabelLayout = MapSequence.fromMap(new HashMap<IEdge, Rectangle>());
   }
-
   public Map<INode, Rectangle> getNodeLayout() {
     return this.myNodeLayout;
   }
-
   @Override
   public Set<? extends INode> getLayoutedNodes() {
     return MapSequence.fromMap(myNodeLayout).keySet();
   }
-
   @Override
   public Set<? extends IEdge> getLayoutedEdges() {
     return MapSequence.fromMap(myEdgeLayout).keySet();
   }
-
   @Override
   public Set<? extends IEdge> getLayoutedLabels() {
     return MapSequence.fromMap(myLabelLayout).keySet();
   }
-
   public void setNodeLayout(Map<INode, Rectangle> nodeLayout) {
     this.myNodeLayout = nodeLayout;
   }
-
   public Map<IEdge, List<Point>> getEdgeLayout() {
     return this.myEdgeLayout;
   }
-
   public void setEdgeLayout(Map<IEdge, List<Point>> edgeLayout) {
     this.myEdgeLayout = edgeLayout;
   }
-
   public void setLayoutFor(INode node, Rectangle rect) {
     MapSequence.fromMap(myNodeLayout).put(node, rect);
   }
-
   @Override
   public Rectangle getNodeLayout(INode node) {
     return MapSequence.fromMap(myNodeLayout).get(node);
   }
-
   public void setLayoutFor(IEdge edge, List<Point> points) {
     MapSequence.fromMap(myEdgeLayout).put(edge, points);
   }
-
   @Override
   public List<Point> getEdgeLayout(IEdge edge) {
     return MapSequence.fromMap(myEdgeLayout).get(edge);
   }
-
   public void setLabelLayout(IEdge edge, Rectangle rectangle) {
     MapSequence.fromMap(myLabelLayout).put(edge, rectangle);
   }
-
   @Override
   public Rectangle getLabelLayout(IEdge edge) {
     return MapSequence.fromMap(myLabelLayout).get(edge);
   }
-
   public Map<IEdge, Rectangle> getLabelLayout() {
     return myLabelLayout;
   }
-
   @Override
   public IGraph getGraph() {
     return this.myGraph;
   }
-
   public void refineEdgeLayout() {
     for (IEdge edge : SetSequence.fromSet(MapSequence.fromMap(myEdgeLayout).keySet())) {
       this.shiftEdgeLayoutAlongEndsBorder(edge);
@@ -106,7 +89,6 @@ public class GraphLayout implements IGraphLayout {
       this.removeStraightBends(edge);
     }
   }
-
   public void removeStraightBends(IEdge edge) {
     List<Point> path = MapSequence.fromMap(myEdgeLayout).get(edge);
     boolean ver = ListSequence.fromList(path).getElement(0).x == ListSequence.fromList(path).getElement(1).x;
@@ -121,7 +103,6 @@ public class GraphLayout implements IGraphLayout {
       }
     }
   }
-
   public void shiftEdgeLayoutAlongEndsBorder(IEdge edge) {
     Rectangle rect = MapSequence.fromMap(myNodeLayout).get(edge.getSource());
     List<Point> path = MapSequence.fromMap(myEdgeLayout).get(edge);
@@ -135,7 +116,6 @@ public class GraphLayout implements IGraphLayout {
       ListSequence.fromList(path).setElement(ListSequence.fromList(path).count() - 1, p);
     }
   }
-
   @Override
   public Rectangle getContainingRectangle() {
     int minX = Integer.MAX_VALUE;
@@ -158,7 +138,6 @@ public class GraphLayout implements IGraphLayout {
     }
     return new Rectangle(minX, minY, maxX - minX, maxY - minY);
   }
-
   @Override
   public String toString() {
     StringBuilder builder = new StringBuilder();
@@ -171,7 +150,6 @@ public class GraphLayout implements IGraphLayout {
     }
     return builder.toString();
   }
-
   public GraphLayout shift(int xShift, int yShift) {
     GraphLayout newLayout = GraphLayoutFactory.createGraphLayout(getGraph());
     for (INode node : SetSequence.fromSet(getLayoutedNodes())) {

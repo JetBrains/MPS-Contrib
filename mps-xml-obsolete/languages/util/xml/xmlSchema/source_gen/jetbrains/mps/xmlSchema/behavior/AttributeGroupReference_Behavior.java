@@ -11,7 +11,6 @@ import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 public class AttributeGroupReference_Behavior {
   public static void init(SNode thisNode) {
   }
-
   public static void virtual_checkAttributes_1213877382373(SNode thisNode, List<SNode> attributeDeclarations) {
     List<SNode> attributeExpressions = SLinkOperations.getTargets(SLinkOperations.getTarget(thisNode, "attributeGroup", false), "attributeExpression", true);
     for (SNode attributeExpression : ListSequence.fromList(attributeExpressions)) {

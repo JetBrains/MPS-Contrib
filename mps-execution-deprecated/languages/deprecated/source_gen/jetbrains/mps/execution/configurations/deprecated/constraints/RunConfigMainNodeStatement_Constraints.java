@@ -14,12 +14,10 @@ public class RunConfigMainNodeStatement_Constraints extends BaseConstraintsDescr
   public RunConfigMainNodeStatement_Constraints() {
     super("jetbrains.mps.execution.configurations.deprecated.structure.RunConfigMainNodeStatement");
   }
-
   @Override
   public boolean hasOwnCanBeChildMethod() {
     return true;
   }
-
   @Override
   public boolean canBeChild(@Nullable SNode node, SNode parentNode, SNode link, SNode childConcept, final IOperationContext operationContext, @Nullable final CheckingNodeContext checkingNodeContext) {
     boolean result = static_canBeAChild(node, parentNode, link, childConcept, operationContext);
@@ -30,10 +28,8 @@ public class RunConfigMainNodeStatement_Constraints extends BaseConstraintsDescr
 
     return result;
   }
-
   public static boolean static_canBeAChild(SNode node, SNode parentNode, SNode link, SNode childConcept, final IOperationContext operationContext) {
     return (SNodeOperations.getAncestor(parentNode, "jetbrains.mps.execution.configurations.deprecated.structure.CreateRunConfigBlock", true, false) != null);
   }
-
   private static SNodePointer canBeChildBreakingPoint = new SNodePointer("r:4ab4c6eb-58ca-426d-b62d-119c0aacbe5e(jetbrains.mps.execution.configurations.deprecated.constraints)", "314981645426570923");
 }

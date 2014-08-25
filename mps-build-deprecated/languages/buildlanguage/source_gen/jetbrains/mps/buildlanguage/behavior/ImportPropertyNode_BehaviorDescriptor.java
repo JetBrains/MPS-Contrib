@@ -9,15 +9,12 @@ import java.util.List;
 public class ImportPropertyNode_BehaviorDescriptor extends AbstractImportProperties_BehaviorDescriptor implements IProjectComponent_BehaviorDescriptor {
   public ImportPropertyNode_BehaviorDescriptor() {
   }
-
   public String virtual_getFqName_1213877404258(SNode thisNode) {
     return INamedConcept_Behavior.virtual_getFqName_1213877404258(thisNode);
   }
-
   public List<SNode> virtual_getPropertyDeclarations_1240397763706(SNode thisNode) {
     return ImportPropertyNode_Behavior.virtual_getPropertyDeclarations_1240397763706(thisNode);
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.buildlanguage.structure.ImportPropertyNode";

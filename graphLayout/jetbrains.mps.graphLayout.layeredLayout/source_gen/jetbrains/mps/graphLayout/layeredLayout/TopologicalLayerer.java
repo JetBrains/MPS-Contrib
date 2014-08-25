@@ -10,7 +10,6 @@ import jetbrains.mps.graphLayout.algorithms.TopologicalNumbering;
 public class TopologicalLayerer implements ILayerer {
   public TopologicalLayerer() {
   }
-
   @Override
   public Map<Node, Integer> computeLayers(Graph graph) throws IllegalArgumentException {
     return TopologicalNumbering.number(graph);

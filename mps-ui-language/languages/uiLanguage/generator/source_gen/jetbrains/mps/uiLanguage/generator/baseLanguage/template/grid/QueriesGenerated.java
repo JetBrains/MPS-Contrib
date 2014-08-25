@@ -14,27 +14,21 @@ import jetbrains.mps.uiLanguage.behavior.GridRow_Behavior;
 @Generated
 public class QueriesGenerated {
   public final boolean NEEDS_OPCONTEXT = false;
-
   public static Object propertyMacro_GetPropertyValue_1202825165022(final PropertyMacroContext _context) {
     return Grid_Behavior.call_getRowCount_1213877333382(_context.getNode());
   }
-
   public static Object propertyMacro_GetPropertyValue_1202825202366(final PropertyMacroContext _context) {
     return Grid_Behavior.call_getColumnsCount_1213877333391(_context.getNode());
   }
-
   public static SNode sourceNodeQuery_1202825892189(final SourceSubstituteMacroNodeContext _context) {
     return _context.getNode();
   }
-
   public static Iterable<SNode> sourceNodesQuery_1202825294699(final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "row", true);
   }
-
   public static Iterable<SNode> sourceNodesQuery_1202825291118(final SourceSubstituteMacroNodesContext _context) {
     return GridRow_Behavior.call_getRowComponents_1213877252264(_context.getNode());
   }
-
   public static Iterable<SNode> sourceNodesQuery_1203604100897(final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "content", true);
   }

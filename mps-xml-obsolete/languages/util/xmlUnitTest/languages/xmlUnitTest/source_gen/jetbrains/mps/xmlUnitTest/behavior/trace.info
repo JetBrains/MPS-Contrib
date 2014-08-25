@@ -3,31 +3,31 @@
   <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
   <root>
     <file name="Text_BehaviorDescriptor.java">
-      <unit at="7,0,16,0" name="jetbrains.mps.xmlUnitTest.behavior.Text_BehaviorDescriptor" />
+      <unit at="7,0,15,0" name="jetbrains.mps.xmlUnitTest.behavior.Text_BehaviorDescriptor" />
     </file>
     <file name="AssertXMLEquals_BehaviorDescriptor.java">
-      <unit at="8,0,17,0" name="jetbrains.mps.xmlUnitTest.behavior.AssertXMLEquals_BehaviorDescriptor" />
+      <unit at="8,0,16,0" name="jetbrains.mps.xmlUnitTest.behavior.AssertXMLEquals_BehaviorDescriptor" />
     </file>
     <file name="ElementPart_BehaviorDescriptor.java">
-      <unit at="10,0,23,0" name="jetbrains.mps.xmlUnitTest.behavior.ElementPart_BehaviorDescriptor" />
+      <unit at="10,0,21,0" name="jetbrains.mps.xmlUnitTest.behavior.ElementPart_BehaviorDescriptor" />
     </file>
     <file name="XMLLiteral_BehaviorDescriptor.java">
-      <unit at="7,0,16,0" name="jetbrains.mps.xmlUnitTest.behavior.XMLLiteral_BehaviorDescriptor" />
+      <unit at="7,0,15,0" name="jetbrains.mps.xmlUnitTest.behavior.XMLLiteral_BehaviorDescriptor" />
     </file>
     <file name="Document_BehaviorDescriptor.java">
-      <unit at="10,0,23,0" name="jetbrains.mps.xmlUnitTest.behavior.Document_BehaviorDescriptor" />
+      <unit at="10,0,21,0" name="jetbrains.mps.xmlUnitTest.behavior.Document_BehaviorDescriptor" />
     </file>
     <file name="XMLStringLiteral_BehaviorDescriptor.java">
-      <unit at="7,0,16,0" name="jetbrains.mps.xmlUnitTest.behavior.XMLStringLiteral_BehaviorDescriptor" />
+      <unit at="7,0,15,0" name="jetbrains.mps.xmlUnitTest.behavior.XMLStringLiteral_BehaviorDescriptor" />
     </file>
     <file name="BehaviorAspectDescriptor.java">
-      <unit at="9,0,36,0" name="jetbrains.mps.xmlUnitTest.behavior.BehaviorAspectDescriptor" />
+      <unit at="9,0,34,0" name="jetbrains.mps.xmlUnitTest.behavior.BehaviorAspectDescriptor" />
     </file>
     <file name="Attribute_BehaviorDescriptor.java">
-      <unit at="11,0,24,0" name="jetbrains.mps.xmlUnitTest.behavior.Attribute_BehaviorDescriptor" />
+      <unit at="11,0,22,0" name="jetbrains.mps.xmlUnitTest.behavior.Attribute_BehaviorDescriptor" />
     </file>
     <file name="Element_BehaviorDescriptor.java">
-      <unit at="6,0,15,0" name="jetbrains.mps.xmlUnitTest.behavior.Element_BehaviorDescriptor" />
+      <unit at="6,0,14,0" name="jetbrains.mps.xmlUnitTest.behavior.Element_BehaviorDescriptor" />
     </file>
   </root>
   <root nodeRef="r:636c9596-b7dd-4f5f-8b0b-20006d279b8b(jetbrains.mps.xmlUnitTest.behavior)/2511103526757027822">

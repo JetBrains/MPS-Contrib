@@ -12,14 +12,12 @@ public abstract class AbstractGraphGenerator {
   private int myMaxEdges;
   private int myNumEdges;
   private Random myRandom;
-
   public AbstractGraphGenerator(int numNodes, int minEdges, int maxEdges) {
     myNumNodes = numNodes;
     myMinEdges = minEdges;
     myMaxEdges = maxEdges;
     myRandom = new Random();
   }
-
   public Graph generate() throws IllegalArgumentException {
     myNumEdges = RandomUtil.nextInRange(myRandom, myMinEdges, myMaxEdges);
     for (int i = 0; i < MAX_ITERATIONS; i++) {
@@ -30,21 +28,16 @@ public abstract class AbstractGraphGenerator {
     }
     throw new IllegalArgumentException("failed to generate graph");
   }
-
   protected boolean checkGraph(Graph graph) {
     return graph != null;
   }
-
   protected abstract Graph generateGraph();
-
   public int getNumNodes() {
     return myNumNodes;
   }
-
   public int getNumEdges() {
     return myNumEdges;
   }
-
   protected Random random() {
     return myRandom;
   }

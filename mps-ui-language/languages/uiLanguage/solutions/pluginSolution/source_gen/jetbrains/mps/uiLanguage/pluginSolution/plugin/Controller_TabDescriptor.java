@@ -19,31 +19,24 @@ import jetbrains.mps.smodel.SNodeUtil;
 
 public class Controller_TabDescriptor extends RelationDescriptor {
   private static final Icon ICON = IconResourceBundle_uiLangIcons.getInstance().getResource("Controller");
-
   public Controller_TabDescriptor() {
   }
-
   public String getTitle() {
     return "Controller";
   }
-
   public void startListening() {
     throw new RuntimeException("NOT IMPLEMENTED");
   }
-
   public SNode getBaseNode(SNode node) {
     return ComponentEditor_Helper.getBaseNode(node);
   }
-
   public boolean isApplicable(SNode node) {
     return SNodeOperations.isInstanceOf(node, "jetbrains.mps.uiLanguage.structure.ComponentDeclaration");
   }
-
   @Nullable
   public Icon getIcon() {
     return ICON;
   }
-
   public List<SNode> getNodes(SNode node) {
     List<SNode> list = ListSequence.fromList(new ArrayList<SNode>());
     SNode n = getNode(node);
@@ -53,19 +46,15 @@ public class Controller_TabDescriptor extends RelationDescriptor {
     ListSequence.fromList(list).addElement(n);
     return list;
   }
-
   public boolean isSingle() {
     return true;
   }
-
   public SNode getNode(SNode node) {
     return ComponentDeclaration_Behavior.call_getController_1213877495364(node);
   }
-
   public List<SNode> getConcepts(final SNode node) {
     return ListSequence.fromListAndArray(new ArrayList<SNode>(), SConceptOperations.findConceptDeclaration("jetbrains.mps.uiLanguage.structure.ComponentController"));
   }
-
   public SNode createNode(final SNode node, final SNode concept) {
     SNode controller = SConceptOperations.createNewNode("jetbrains.mps.uiLanguage.structure.ComponentController", null);
     SLinkOperations.setTarget(controller, "component", node, false);

@@ -12,7 +12,6 @@ public class XMLElementOperation_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createError_k8d8w5_a(editorContext, node);
   }
-
   private EditorCell createError_k8d8w5_a(EditorContext editorContext, SNode node) {
     EditorCell_Error editorCell = new EditorCell_Error(editorContext, node, "<abstract operation>");
     editorCell.setCellId("Error_k8d8w5_a");

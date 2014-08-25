@@ -18,11 +18,9 @@ import jetbrains.mps.internal.collections.runtime.MapSequence;
 
 public class BiconnectAugmentation {
   private static int SHOW_LOG = 0;
-
   public static Set<Edge> makeBiconnected(Graph graph) {
     return new BiconnectAugmentation.MyDfs().doDfs(graph, ListSequence.fromList(graph.getNodes()).getElement(0));
   }
-
   public static Set<Edge> smartMakeBiconnected(Graph graph) {
     Set<Edge> addedEdges = SetSequence.fromSet(new LinkedHashSet<Edge>());
     BiconnectedComponent root = BiconnectedComponent.createTree(graph);
@@ -52,7 +50,6 @@ public class BiconnectAugmentation {
     }
     return addedEdges;
   }
-
   private static void collectListNodes(BiconnectedComponent component, List<Node> nodes, final Node cutpoint) {
     if (ListSequence.fromList(component.getChildren()).count() == 0) {
       Set<Node> componentNodes = component.getNodes();
@@ -71,7 +68,6 @@ public class BiconnectAugmentation {
       }
     }
   }
-
   public static class MyDfs extends Dfs {
     private Map<Node, Node> myLow;
     private Map<Node, Integer> myNum;
@@ -79,10 +75,8 @@ public class BiconnectAugmentation {
     private Node myNewNode;
     private Node mySource;
     private Set<Node> myConnectToNew;
-
     public MyDfs() {
     }
-
     public Set<Edge> doDfs(Graph graph, Node source) {
       myLow = new NodeMap<Node>(graph);
       myNum = new NodeMap<Integer>(graph);
@@ -97,13 +91,11 @@ public class BiconnectAugmentation {
       }
       return result;
     }
-
     @Override
     protected void preprocess(Node node, Edge from) {
       MapSequence.fromMap(myNum).put(node, myCurNum++);
       MapSequence.fromMap(myLow).put(node, node);
     }
-
     @Override
     protected void processEdge(Edge edge, Node source) {
       Node next = edge.getOpposite(source);
@@ -111,7 +103,6 @@ public class BiconnectAugmentation {
         changeLow(source, next);
       }
     }
-
     @Override
     protected void postprocess(Node node, Edge from) {
       if (from != null) {
@@ -126,14 +117,12 @@ public class BiconnectAugmentation {
         changeLow(prev, MapSequence.fromMap(myLow).get(node));
       }
     }
-
     private void changeLow(Node node, Node newLow) {
       Node oldLow = MapSequence.fromMap(myLow).get(node);
       if (MapSequence.fromMap(myNum).get(oldLow) > MapSequence.fromMap(myNum).get(newLow)) {
         MapSequence.fromMap(myLow).put(node, newLow);
       }
     }
-
     public void createNewNode() {
       myNewNode = getGraph().createNode();
       MapSequence.fromMap(myNum).put(myNewNode, -1);

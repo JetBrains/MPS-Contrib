@@ -11,7 +11,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 public class DateTimeMinusOperation_DataFlow extends DataFlowBuilder {
   public DateTimeMinusOperation_DataFlow() {
   }
-
   public void build(final IOperationContext operationContext, final DataFlowBuilderContext _context) {
     _context.getBuilder().build((SNode) SLinkOperations.getTarget(_context.getNode(), "leftValue", true));
     _context.getBuilder().build((SNode) SLinkOperations.getTarget(_context.getNode(), "rightValue", true));

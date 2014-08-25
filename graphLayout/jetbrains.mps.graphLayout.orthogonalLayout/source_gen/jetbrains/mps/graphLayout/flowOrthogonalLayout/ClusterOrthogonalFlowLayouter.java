@@ -28,10 +28,8 @@ import jetbrains.mps.internal.collections.runtime.Sequence;
 public class ClusterOrthogonalFlowLayouter extends OrthogonalFlowLayouter {
   private Map<Node, List<Edge>> myClusterBorderMap;
   private EdgesHistoryManager myHistoryManager;
-
   public ClusterOrthogonalFlowLayouter() {
   }
-
   @Override
   public GraphLayout doLayout(ILayoutInfo layoutInfo) {
     IGraph graph = layoutInfo.getGraph();
@@ -41,12 +39,10 @@ public class ClusterOrthogonalFlowLayouter extends OrthogonalFlowLayouter {
     setUseRepresentationOptimizations(false);
     return super.doLayout(layoutInfo);
   }
-
   @Override
   protected GraphLayout doLayoutCopy(LayoutInfo patchInfo) {
     return doLayoutConnectedGraph(patchInfo);
   }
-
   @Override
   protected GraphLayout refineLayout(Graph graph, Set<Node> initialNodes, GraphLayout layout, Set<Edge> initialEdges, Map<Edge, List<Edge>> history, Map<Edge, Edge> labeledEdges) {
     ClusteredGraphLayout refinedLayout = ((ClusteredGraphLayout) super.refineLayout(graph, initialNodes, layout, initialEdges, history, labeledEdges));
@@ -64,12 +60,10 @@ public class ClusterOrthogonalFlowLayouter extends OrthogonalFlowLayouter {
     }
     return refinedLayout;
   }
-
   @Override
   public Edge getLabeledEdge(List<Edge> edges) {
     return super.getLabeledEdge(edges);
   }
-
   @Override
   protected EmbeddedGraph getEmbedding(Graph graph) {
     EdgesHistoryManager historyManager = new EdgesHistoryManager(graph);
@@ -86,7 +80,6 @@ public class ClusterOrthogonalFlowLayouter extends OrthogonalFlowLayouter {
     */
     return embeddedGraph;
   }
-
   private void checkClusterBorder(EdgesHistoryManager historyManager) {
     for (List<Edge> border : Sequence.fromIterable(MapSequence.fromMap(myClusterBorderMap).values())) {
       for (Edge edge : ListSequence.fromList(border)) {

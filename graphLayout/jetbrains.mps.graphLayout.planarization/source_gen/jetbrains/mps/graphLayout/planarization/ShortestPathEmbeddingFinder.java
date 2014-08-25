@@ -21,16 +21,13 @@ public class ShortestPathEmbeddingFinder implements IEmbeddingFinder {
   private static int SHOW_LOG = 0;
   private IEmbeddingFinder myInitialFinder;
   private boolean myForbidOuterEdgeCrossing;
-
   public ShortestPathEmbeddingFinder(IEmbeddingFinder initialFinder) {
     myInitialFinder = initialFinder;
     myForbidOuterEdgeCrossing = false;
   }
-
   public void setForbidOuterFaceCrossing(boolean forbidOuterFaceCrossing) {
     myForbidOuterEdgeCrossing = forbidOuterFaceCrossing;
   }
-
   @Override
   public EmbeddedGraph find(Graph graph) {
     if (graph.getNumNodes() < 2) {
@@ -62,7 +59,6 @@ public class ShortestPathEmbeddingFinder implements IEmbeddingFinder {
     }
     return embeddedGraph;
   }
-
   public static List<Edge> restoreEdge(EmbeddedGraph embeddedGraph, Edge removedEdge, boolean forbidOuterEdgeCrossing) {
     DualGraph dualGraph = new DualGraph(embeddedGraph);
     List<Node> newNodes = ListSequence.fromList(new ArrayList<Node>());

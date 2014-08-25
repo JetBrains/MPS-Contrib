@@ -19,68 +19,53 @@ import jetbrains.mps.intentions.IntentionDescriptor;
 
 public class ReplaceNodeWithItsContent_Intention implements IntentionFactory {
   private Collection<IntentionExecutable> myCachedExecutable;
-
   public ReplaceNodeWithItsContent_Intention() {
   }
-
   public String getConcept() {
     return "jetbrains.mps.xml.structure.Content";
   }
-
   public String getPresentation() {
     return "ReplaceNodeWithItsContent";
   }
-
   public String getPersistentStateKey() {
     return "jetbrains.mps.xml.intentions.ReplaceNodeWithItsContent_Intention";
   }
-
   public String getLanguageFqName() {
     return "jetbrains.mps.xml";
   }
-
   public IntentionType getType() {
     return IntentionType.NORMAL;
   }
-
   public boolean isAvailableInChildNodes() {
     return false;
   }
-
   public boolean isApplicable(final SNode node, final EditorContext editorContext) {
     if (!(isApplicableToNode(node, editorContext))) {
       return false;
     }
     return true;
   }
-
   private boolean isApplicableToNode(final SNode node, final EditorContext editorContext) {
     return SNodeOperations.isInstanceOf(SNodeOperations.getParent(node), "jetbrains.mps.xml.structure.ContentList") && ListSequence.fromList(BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), node, "virtual_getSubcontents_1213877224308", new Object[]{})).isNotEmpty();
   }
-
   public SNodeReference getIntentionNodeReference() {
     return new SNodePointer("r:00000000-0000-4000-0000-011c89590587(jetbrains.mps.xml.intentions)", "1195647309117");
   }
-
   public boolean isSurroundWith() {
     return false;
   }
-
   public Collection<IntentionExecutable> instances(final SNode node, final EditorContext context) {
     if (myCachedExecutable == null) {
       myCachedExecutable = Collections.<IntentionExecutable>singletonList(new ReplaceNodeWithItsContent_Intention.IntentionImplementation());
     }
     return myCachedExecutable;
   }
-
   public class IntentionImplementation implements IntentionExecutable {
     public IntentionImplementation() {
     }
-
     public String getDescription(final SNode node, final EditorContext editorContext) {
       return "Replace Node with Its Content";
     }
-
     public void execute(final SNode node, final EditorContext editorContext) {
       SNode s = node;
       for (SNode subContent : ListSequence.fromList(BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), node, "virtual_getSubcontents_1213877224308", new Object[]{}))) {
@@ -89,7 +74,6 @@ public class ReplaceNodeWithItsContent_Intention implements IntentionFactory {
       }
       SNodeOperations.deleteNode(node);
     }
-
     public IntentionDescriptor getDescriptor() {
       return ReplaceNodeWithItsContent_Intention.this;
     }

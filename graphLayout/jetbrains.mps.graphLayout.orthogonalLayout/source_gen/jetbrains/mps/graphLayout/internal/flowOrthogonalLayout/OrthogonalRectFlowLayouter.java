@@ -34,10 +34,8 @@ import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
 
 public class OrthogonalRectFlowLayouter {
   private static int SHOW_lOG = 0;
-
   public OrthogonalRectFlowLayouter() {
   }
-
   public GraphLayout doLayout(Graph graph, Map<Node, Dimension> nodeSizes) {
     Graph copy = new Graph();
     Map<Node, Node> nodeMap = MapSequence.fromMap(new HashMap<Node, Node>());
@@ -117,7 +115,6 @@ public class OrthogonalRectFlowLayouter {
     graphLayout = graphLayout.shift(20 - containingRect.x, 20 - containingRect.y);
     return graphLayout;
   }
-
   public GraphLayout getFlowLayout(EmbeddedGraph embeddedGraph, Set<Edge> edgesToBeStraight, Map<Node, List<Node>> nodeMap, Map<Node, Dimension> nodeSizes, EdgesHistoryManager historyManager) {
     EmbeddedGraphModifier modifier = new EmbeddedGraphModifier(embeddedGraph);
     Graph graph = embeddedGraph.getGraph();

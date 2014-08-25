@@ -8,23 +8,18 @@ import org.jetbrains.mps.openapi.language.SConcept;
 public class PlusOperation_BehaviorDescriptor extends BinaryOperation_BehaviorDescriptor {
   public PlusOperation_BehaviorDescriptor() {
   }
-
   public String virtual_getActualValue_1213877472572(SNode thisNode) {
     return PlusOperation_Behavior.virtual_getActualValue_1213877472572(thisNode);
   }
-
   public String virtual_getOperation_1262430001741497840(SConcept thisConcept) {
     return PlusOperation_Behavior.virtual_getOperation_1262430001741497840(thisConcept);
   }
-
   public SNode virtual_getType_1213877398951(SNode thisNode, SNode s1, SNode s2) {
     return PlusOperation_Behavior.virtual_getType_1213877398951(thisNode, s1, s2);
   }
-
   public String virtual_toString_1213877472569(SNode thisNode) {
     return PlusOperation_Behavior.virtual_toString_1213877472569(thisNode);
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.buildlanguage.structure.PlusOperation";

@@ -4,97 +4,97 @@
   <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
   <root>
     <file name="Document_BehaviorDescriptor.java">
-      <unit at="7,0,16,0" name="jetbrains.mps.xmlInternal.behavior.Document_BehaviorDescriptor" />
+      <unit at="7,0,15,0" name="jetbrains.mps.xmlInternal.behavior.Document_BehaviorDescriptor" />
     </file>
     <file name="ExternalId_BehaviorDescriptor.java">
-      <unit at="7,0,16,0" name="jetbrains.mps.xmlInternal.behavior.ExternalId_BehaviorDescriptor" />
+      <unit at="7,0,15,0" name="jetbrains.mps.xmlInternal.behavior.ExternalId_BehaviorDescriptor" />
     </file>
     <file name="Literal_BehaviorDescriptor.java">
-      <unit at="7,0,16,0" name="jetbrains.mps.xmlInternal.behavior.Literal_BehaviorDescriptor" />
+      <unit at="7,0,15,0" name="jetbrains.mps.xmlInternal.behavior.Literal_BehaviorDescriptor" />
     </file>
     <file name="Prolog_BehaviorDescriptor.java">
-      <unit at="7,0,16,0" name="jetbrains.mps.xmlInternal.behavior.Prolog_BehaviorDescriptor" />
+      <unit at="7,0,15,0" name="jetbrains.mps.xmlInternal.behavior.Prolog_BehaviorDescriptor" />
     </file>
     <file name="DocumentStatement_BehaviorDescriptor.java">
-      <unit at="7,0,16,0" name="jetbrains.mps.xmlInternal.behavior.DocumentStatement_BehaviorDescriptor" />
+      <unit at="7,0,15,0" name="jetbrains.mps.xmlInternal.behavior.DocumentStatement_BehaviorDescriptor" />
     </file>
     <file name="StatementElement_BehaviorDescriptor.java">
-      <unit at="8,0,21,0" name="jetbrains.mps.xmlInternal.behavior.StatementElement_BehaviorDescriptor" />
+      <unit at="8,0,19,0" name="jetbrains.mps.xmlInternal.behavior.StatementElement_BehaviorDescriptor" />
     </file>
     <file name="ContentStatement_BehaviorDescriptor.java">
-      <unit at="7,0,16,0" name="jetbrains.mps.xmlInternal.behavior.ContentStatement_BehaviorDescriptor" />
+      <unit at="7,0,15,0" name="jetbrains.mps.xmlInternal.behavior.ContentStatement_BehaviorDescriptor" />
     </file>
     <file name="SimpleElement_BehaviorDescriptor.java">
-      <unit at="8,0,21,0" name="jetbrains.mps.xmlInternal.behavior.SimpleElement_BehaviorDescriptor" />
+      <unit at="8,0,19,0" name="jetbrains.mps.xmlInternal.behavior.SimpleElement_BehaviorDescriptor" />
     </file>
     <file name="BehaviorAspectDescriptor.java">
-      <unit at="9,0,48,0" name="jetbrains.mps.xmlInternal.behavior.BehaviorAspectDescriptor" />
+      <unit at="9,0,46,0" name="jetbrains.mps.xmlInternal.behavior.BehaviorAspectDescriptor" />
     </file>
     <file name="DocumentTypeDeclaration_BehaviorDescriptor.java">
-      <unit at="7,0,16,0" name="jetbrains.mps.xmlInternal.behavior.DocumentTypeDeclaration_BehaviorDescriptor" />
+      <unit at="7,0,15,0" name="jetbrains.mps.xmlInternal.behavior.DocumentTypeDeclaration_BehaviorDescriptor" />
     </file>
     <file name="XmlFile_BehaviorDescriptor.java">
-      <unit at="11,0,28,0" name="jetbrains.mps.xmlInternal.behavior.XmlFile_BehaviorDescriptor" />
+      <unit at="11,0,25,0" name="jetbrains.mps.xmlInternal.behavior.XmlFile_BehaviorDescriptor" />
     </file>
     <file name="PublicExternalId_BehaviorDescriptor.java">
-      <unit at="6,0,15,0" name="jetbrains.mps.xmlInternal.behavior.PublicExternalId_BehaviorDescriptor" />
+      <unit at="6,0,14,0" name="jetbrains.mps.xmlInternal.behavior.PublicExternalId_BehaviorDescriptor" />
     </file>
     <file name="NamespaceAttribute_BehaviorDescriptor.java">
-      <unit at="7,0,16,0" name="jetbrains.mps.xmlInternal.behavior.NamespaceAttribute_BehaviorDescriptor" />
+      <unit at="7,0,15,0" name="jetbrains.mps.xmlInternal.behavior.NamespaceAttribute_BehaviorDescriptor" />
     </file>
     <file name="Comment_BehaviorDescriptor.java">
-      <unit at="7,0,16,0" name="jetbrains.mps.xmlInternal.behavior.Comment_BehaviorDescriptor" />
+      <unit at="7,0,15,0" name="jetbrains.mps.xmlInternal.behavior.Comment_BehaviorDescriptor" />
     </file>
     <file name="SimpleAttribute_BehaviorDescriptor.java">
-      <unit at="7,0,16,0" name="jetbrains.mps.xmlInternal.behavior.SimpleAttribute_BehaviorDescriptor" />
+      <unit at="7,0,15,0" name="jetbrains.mps.xmlInternal.behavior.SimpleAttribute_BehaviorDescriptor" />
     </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c8959058e(jetbrains.mps.xmlInternal.behavior)/1213877487338">
     <file name="XmlFile_Behavior.java">
-      <node id="1213877487341" at="12,71,13,64" concept="0" />
+      <node id="1213877487341" at="11,71,12,64" concept="0" />
       <node id="1213877487338" at="9,0,11,0" concept="1" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-      <node id="1213877487338" at="12,0,15,0" concept="1" trace="virtual_getSchema_1213877420378#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="1213877487338" at="11,0,14,0" concept="1" trace="virtual_getSchema_1213877420378#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
       <scope id="1213877487349" at="9,43,9,43" />
-      <scope id="1213877487340" at="12,71,13,64" />
+      <scope id="1213877487340" at="11,71,12,64" />
       <scope id="1213877487338" at="9,0,11,0">
         <var name="thisNode" id="1213877487338" />
       </scope>
-      <scope id="1213877487338" at="12,0,15,0">
+      <scope id="1213877487338" at="11,0,14,0">
         <var name="thisNode" id="1213877487338" />
       </scope>
-      <unit id="1213877487338" at="8,0,16,0" name="jetbrains.mps.xmlInternal.behavior.XmlFile_Behavior" />
+      <unit id="1213877487338" at="8,0,15,0" name="jetbrains.mps.xmlInternal.behavior.XmlFile_Behavior" />
     </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c8959058e(jetbrains.mps.xmlInternal.behavior)/1262430001741498766">
     <file name="SimpleElement_Behavior.java">
-      <node id="1262430001741498764" at="12,93,13,16" concept="0" />
+      <node id="1262430001741498764" at="11,93,12,16" concept="0" />
       <node id="1262430001741498766" at="9,0,11,0" concept="1" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-      <node id="1262430001741498766" at="12,0,15,0" concept="1" trace="virtual_isComplex_1262430001741498088#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)Z" />
+      <node id="1262430001741498766" at="11,0,14,0" concept="1" trace="virtual_isComplex_1262430001741498088#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)Z" />
       <scope id="1262430001741498768" at="9,43,9,43" />
-      <scope id="1262430001741498763" at="12,93,13,16" />
+      <scope id="1262430001741498763" at="11,93,12,16" />
       <scope id="1262430001741498766" at="9,0,11,0">
         <var name="thisNode" id="1262430001741498766" />
       </scope>
-      <scope id="1262430001741498766" at="12,0,15,0">
+      <scope id="1262430001741498766" at="11,0,14,0">
         <var name="thisConcept" id="1262430001741498766" />
       </scope>
-      <unit id="1262430001741498766" at="8,0,16,0" name="jetbrains.mps.xmlInternal.behavior.SimpleElement_Behavior" />
+      <unit id="1262430001741498766" at="8,0,15,0" name="jetbrains.mps.xmlInternal.behavior.SimpleElement_Behavior" />
     </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c8959058e(jetbrains.mps.xmlInternal.behavior)/1262430001741647616">
     <file name="StatementElement_Behavior.java">
-      <node id="1262430001741647614" at="12,93,13,16" concept="0" />
+      <node id="1262430001741647614" at="11,93,12,16" concept="0" />
       <node id="1262430001741647616" at="9,0,11,0" concept="1" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-      <node id="1262430001741647616" at="12,0,15,0" concept="1" trace="virtual_isComplex_1262430001741498088#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)Z" />
+      <node id="1262430001741647616" at="11,0,14,0" concept="1" trace="virtual_isComplex_1262430001741498088#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)Z" />
       <scope id="1262430001741647618" at="9,43,9,43" />
-      <scope id="1262430001741647613" at="12,93,13,16" />
+      <scope id="1262430001741647613" at="11,93,12,16" />
       <scope id="1262430001741647616" at="9,0,11,0">
         <var name="thisNode" id="1262430001741647616" />
       </scope>
-      <scope id="1262430001741647616" at="12,0,15,0">
+      <scope id="1262430001741647616" at="11,0,14,0">
         <var name="thisConcept" id="1262430001741647616" />
       </scope>
-      <unit id="1262430001741647616" at="8,0,16,0" name="jetbrains.mps.xmlInternal.behavior.StatementElement_Behavior" />
+      <unit id="1262430001741647616" at="8,0,15,0" name="jetbrains.mps.xmlInternal.behavior.StatementElement_Behavior" />
     </file>
   </root>
 </debug-info>

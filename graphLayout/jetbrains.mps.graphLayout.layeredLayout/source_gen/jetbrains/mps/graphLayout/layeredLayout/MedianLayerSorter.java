@@ -17,7 +17,6 @@ import jetbrains.mps.internal.collections.runtime.ISelector;
 public class MedianLayerSorter implements IOneLayerSorter {
   public MedianLayerSorter() {
   }
-
   @Override
   public void sortLayer(int layerToSort, NodeLayeredOrder nodeLayeredOrder, Edge.Direction dir) {
     Graph graph = nodeLayeredOrder.getGraph();
@@ -57,7 +56,6 @@ public class MedianLayerSorter implements IOneLayerSorter {
     }, true).toListSequence();
     nodeLayeredOrder.setLayer(layerOrder, layerToSort);
   }
-
   public int computeMedian(Node node, Map<Node, Integer> nodesOrder, Edge.Direction dir) {
     List<Integer> adjNodesOrder = ListSequence.fromList(new ArrayList<Integer>());
     for (Edge edge : ListSequence.fromList(node.getEdges(dir))) {
@@ -77,7 +75,6 @@ public class MedianLayerSorter implements IOneLayerSorter {
       return (ListSequence.fromList(adjNodesOrder).getElement(ListSequence.fromList(adjNodesOrder).count() / 2) + ListSequence.fromList(adjNodesOrder).getElement(ListSequence.fromList(adjNodesOrder).count() / 2 - 1)) / 2;
     }
   }
-
   public double computeBarycenter(Node node, Map<Node, Integer> nodesOrder, Edge.Direction dir) {
     double barycenter = 0;
     List<Edge> edges = node.getEdges(dir);

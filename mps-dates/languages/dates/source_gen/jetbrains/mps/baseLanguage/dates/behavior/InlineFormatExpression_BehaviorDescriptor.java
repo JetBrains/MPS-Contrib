@@ -7,7 +7,6 @@ import jetbrains.mps.lang.core.behavior.IDontSubstituteByDefault_BehaviorDescrip
 public class InlineFormatExpression_BehaviorDescriptor extends UnaryDateTimeOperation_BehaviorDescriptor implements IDontSubstituteByDefault_BehaviorDescriptor {
   public InlineFormatExpression_BehaviorDescriptor() {
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.baseLanguage.dates.structure.InlineFormatExpression";

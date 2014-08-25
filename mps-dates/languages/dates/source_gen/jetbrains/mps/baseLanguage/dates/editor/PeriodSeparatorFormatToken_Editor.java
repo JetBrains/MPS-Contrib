@@ -27,11 +27,9 @@ public class PeriodSeparatorFormatToken_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_ih8plz_a(editorContext, node);
   }
-
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
     return this.createCollection_ih8plz_a_0(editorContext, node);
   }
-
   private EditorCell createCollection_ih8plz_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_ih8plz_a");
@@ -44,7 +42,6 @@ public class PeriodSeparatorFormatToken_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createConstant_ih8plz_d0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_ih8plz_a0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "[");
     editorCell.setCellId("Constant_ih8plz_a0");
@@ -55,11 +52,9 @@ public class PeriodSeparatorFormatToken_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private static boolean _StyleParameter_QueryFunction_ih8plz_a0a0(EditorContext editorContext, SNode node) {
     return !(SPropertyOperations.hasValue(node, "kind", "ifAfter", "default"));
   }
-
   private EditorCell createProperty_ih8plz_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("text");
@@ -82,7 +77,6 @@ public class PeriodSeparatorFormatToken_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createCollection_ih8plz_c0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_ih8plz_c0");
@@ -93,11 +87,9 @@ public class PeriodSeparatorFormatToken_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createProperty_ih8plz_b2a(editorContext, node));
     return editorCell;
   }
-
   private static boolean renderingCondition_ih8plz_a2a(SNode node, EditorContext editorContext) {
     return isNotEmptyString(SPropertyOperations.getString(node, "lastText")) && SPropertyOperations.hasValue(node, "kind", "default", "default");
   }
-
   private EditorCell createConstant_ih8plz_a2a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ",");
     editorCell.setCellId("Constant_ih8plz_a2a");
@@ -107,7 +99,6 @@ public class PeriodSeparatorFormatToken_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createProperty_ih8plz_b2a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("lastText");
@@ -130,7 +121,6 @@ public class PeriodSeparatorFormatToken_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createConstant_ih8plz_d0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "]");
     editorCell.setCellId("Constant_ih8plz_d0");
@@ -141,11 +131,9 @@ public class PeriodSeparatorFormatToken_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private static boolean _StyleParameter_QueryFunction_ih8plz_a0d0(EditorContext editorContext, SNode node) {
     return !(SPropertyOperations.hasValue(node, "kind", "ifBefore", "default"));
   }
-
   private EditorCell createCollection_ih8plz_a_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_ih8plz_a_0");
@@ -157,7 +145,6 @@ public class PeriodSeparatorFormatToken_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createCollection_ih8plz_c0_0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createCollection_ih8plz_a0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_ih8plz_a0");
@@ -168,14 +155,12 @@ public class PeriodSeparatorFormatToken_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createProperty_ih8plz_b0a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_ih8plz_a0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "text");
     editorCell.setCellId("Constant_ih8plz_a0a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createProperty_ih8plz_b0a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("text");
@@ -197,7 +182,6 @@ public class PeriodSeparatorFormatToken_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createCollection_ih8plz_b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_ih8plz_b0");
@@ -208,18 +192,15 @@ public class PeriodSeparatorFormatToken_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createProperty_ih8plz_b1a(editorContext, node));
     return editorCell;
   }
-
   private static boolean renderingCondition_ih8plz_a1a(SNode node, EditorContext editorContext) {
     return SPropertyOperations.hasValue(node, "kind", "default", "default");
   }
-
   private EditorCell createConstant_ih8plz_a1a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "text for last separator");
     editorCell.setCellId("Constant_ih8plz_a1a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createProperty_ih8plz_b1a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("lastText");
@@ -242,7 +223,6 @@ public class PeriodSeparatorFormatToken_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createCollection_ih8plz_c0_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_ih8plz_c0_0");
@@ -253,14 +233,12 @@ public class PeriodSeparatorFormatToken_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createProperty_ih8plz_b2a_0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_ih8plz_a2a_0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "applicable if present");
     editorCell.setCellId("Constant_ih8plz_a2a_0");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createProperty_ih8plz_b2a_0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("kind");
@@ -281,7 +259,6 @@ public class PeriodSeparatorFormatToken_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private static boolean isNotEmptyString(String str) {
     return str != null && str.length() > 0;
   }

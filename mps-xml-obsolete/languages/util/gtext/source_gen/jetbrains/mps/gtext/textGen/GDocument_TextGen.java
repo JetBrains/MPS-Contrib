@@ -38,10 +38,8 @@ public class GDocument_TextGen extends SNodeTextGen {
       }
     }
   }
-
   public String getExtension(SNode node) {
     return SPropertyOperations.getString(node, "extension");
   }
-
   protected static Logger LOG = LogManager.getLogger(GDocument_TextGen.class);
 }

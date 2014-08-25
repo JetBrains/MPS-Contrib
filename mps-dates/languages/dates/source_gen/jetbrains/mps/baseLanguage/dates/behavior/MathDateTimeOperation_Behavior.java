@@ -12,15 +12,12 @@ import jetbrains.mps.smodel.SReference;
 public class MathDateTimeOperation_Behavior {
   public static void init(SNode thisNode) {
   }
-
   public static boolean call_needLeftConvert_1238250704510(SNode thisNode) {
     return MathDateTimeOperation_Behavior.call_needConvert_1238250776233(thisNode, SLinkOperations.getTarget(thisNode, "leftExpression", true));
   }
-
   public static boolean call_needRightConvert_1238250706060(SNode thisNode) {
     return MathDateTimeOperation_Behavior.call_needConvert_1238250776233(thisNode, SLinkOperations.getTarget(thisNode, "rightExpression", true));
   }
-
   public static boolean call_needConvert_1238250776233(SNode thisNode, SNode expression) {
     boolean can = false;
     SNode expressionType = TypeChecker.getInstance().getTypeOf(expression);
@@ -31,7 +28,6 @@ public class MathDateTimeOperation_Behavior {
     can = can || DateTypeUtil.isInstanceOfPeriod(expression);
     return can;
   }
-
   private static SNode _quotation_createNode_26vghy_b0a0c0c() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;
@@ -39,7 +35,6 @@ public class MathDateTimeOperation_Behavior {
     quotedNode_1.setReference("classifier", SReference.create("classifier", quotedNode_1, facade.createModelReference("f:java_stub#2ebbb458-8ebb-481e-a5d7-9e27903323d4#org.joda.time.base(jetbrains.mps.baseLanguage.dates.runtime/org.joda.time.base@java_stub)"), facade.createNodeId("~AbstractInstant")));
     return quotedNode_1;
   }
-
   private static SNode _quotation_createNode_26vghy_b0a0a3a2() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;
@@ -47,7 +42,6 @@ public class MathDateTimeOperation_Behavior {
     quotedNode_1.setReference("classifier", SReference.create("classifier", quotedNode_1, facade.createModelReference("f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)"), facade.createNodeId("~Date")));
     return quotedNode_1;
   }
-
   private static SNode _quotation_createNode_26vghy_b0a0a4a2() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;
@@ -55,7 +49,6 @@ public class MathDateTimeOperation_Behavior {
     quotedNode_1.setReference("classifier", SReference.create("classifier", quotedNode_1, facade.createModelReference("f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)"), facade.createNodeId("~Calendar")));
     return quotedNode_1;
   }
-
   private static SNode _quotation_createNode_26vghy_b0a0a5a2() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;

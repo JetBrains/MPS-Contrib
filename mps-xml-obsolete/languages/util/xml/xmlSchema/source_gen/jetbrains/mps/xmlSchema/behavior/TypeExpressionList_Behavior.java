@@ -12,21 +12,18 @@ import java.util.Set;
 public class TypeExpressionList_Behavior {
   public static void init(SNode thisNode) {
   }
-
   public static void call_checkAttributes_1213877199074(SNode thisNode, List<SNode> attributeDeclarations) {
     List<SNode> typeExpressions = SLinkOperations.getTargets(thisNode, "typeExpression", true);
     for (SNode typeExpression : ListSequence.fromList(typeExpressions)) {
       BehaviorReflection.invokeVirtual(Void.class, typeExpression, "virtual_checkAttributes_1213877382373", new Object[]{attributeDeclarations});
     }
   }
-
   public static void call_checkElements_1213877199094(SNode thisNode, Set<SNode> elementDeclarations) {
     List<SNode> typeExpressions = SLinkOperations.getTargets(thisNode, "typeExpression", true);
     for (SNode typeExpression : ListSequence.fromList(typeExpressions)) {
       BehaviorReflection.invokeVirtual(Void.class, typeExpression, "virtual_checkElements_1213877382378", new Object[]{elementDeclarations});
     }
   }
-
   public static boolean call_isEmpty_1213877199114(SNode thisNode) {
     boolean empty = true;
     List<SNode> typeExpressions = SLinkOperations.getTargets(thisNode, "typeExpression", true);
@@ -38,7 +35,6 @@ public class TypeExpressionList_Behavior {
     }
     return empty;
   }
-
   public static boolean call_isMixed_1213877199143(SNode thisNode) {
     boolean mixed = false;
     List<SNode> typeExpressions = SLinkOperations.getTargets(thisNode, "typeExpression", true);

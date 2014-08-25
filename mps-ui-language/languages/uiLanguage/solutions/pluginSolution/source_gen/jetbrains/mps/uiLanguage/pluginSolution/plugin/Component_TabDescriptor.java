@@ -13,31 +13,24 @@ import java.util.ArrayList;
 
 public class Component_TabDescriptor extends RelationDescriptor {
   private static final Icon ICON = IconResourceBundle_uiLangIcons.getInstance().getResource("Component");
-
   public Component_TabDescriptor() {
   }
-
   public String getTitle() {
     return "Component";
   }
-
   public void startListening() {
     throw new RuntimeException("NOT IMPLEMENTED");
   }
-
   public SNode getBaseNode(SNode node) {
     return ComponentEditor_Helper.getBaseNode(node);
   }
-
   public boolean isApplicable(SNode node) {
     return SNodeOperations.isInstanceOf(node, "jetbrains.mps.uiLanguage.structure.ComponentDeclaration");
   }
-
   @Nullable
   public Icon getIcon() {
     return ICON;
   }
-
   public List<SNode> getNodes(SNode node) {
     List<SNode> list = ListSequence.fromList(new ArrayList<SNode>());
     SNode n = getNode(node);
@@ -47,11 +40,9 @@ public class Component_TabDescriptor extends RelationDescriptor {
     ListSequence.fromList(list).addElement(n);
     return list;
   }
-
   public boolean isSingle() {
     return true;
   }
-
   public SNode getNode(SNode node) {
     return node;
   }

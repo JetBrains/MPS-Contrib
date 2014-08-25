@@ -23,7 +23,6 @@ public class DocumentTypeDeclaration_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_eyi3ub_a(editorContext, node);
   }
-
   private EditorCell createCollection_eyi3ub_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_eyi3ub_a");
@@ -33,7 +32,6 @@ public class DocumentTypeDeclaration_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createConstant_eyi3ub_c0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createCollection_eyi3ub_a0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_eyi3ub_a0");
@@ -45,7 +43,6 @@ public class DocumentTypeDeclaration_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createProperty_eyi3ub_c0a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_eyi3ub_a0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<!");
     editorCell.setCellId("Constant_eyi3ub_a0a");
@@ -55,14 +52,12 @@ public class DocumentTypeDeclaration_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createConstant_eyi3ub_b0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "DOCTYPE");
     editorCell.setCellId("Constant_eyi3ub_b0a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createProperty_eyi3ub_c0a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("docTypeName");
@@ -80,7 +75,6 @@ public class DocumentTypeDeclaration_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createCollection_eyi3ub_b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_eyi3ub_b0");
@@ -91,12 +85,10 @@ public class DocumentTypeDeclaration_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createRefNode_eyi3ub_b1a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createIndentCell_eyi3ub_a1a(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
     return editorCell;
   }
-
   private EditorCell createRefNode_eyi3ub_b1a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("externalId");
@@ -116,7 +108,6 @@ public class DocumentTypeDeclaration_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createConstant_eyi3ub_c0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ">");
     editorCell.setCellId("Constant_eyi3ub_c0");

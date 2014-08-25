@@ -6,13 +6,11 @@ package jetbrains.mps.graphLayout.graph;
 public class ClusterNodesAdditionListener implements IGraphModificationListener {
   private ClusteredGraph myGraph;
   private Node myCurrentCluster;
-
   public ClusterNodesAdditionListener(ClusteredGraph graph) {
     myGraph = graph;
     myCurrentCluster = graph.getRoot();
     graph.addListener(this);
   }
-
   @Override
   public void process(GraphModificationEvent event) {
     if (event.getType() == GraphModificationEvent.Type.NODE_CREATED) {
@@ -22,7 +20,6 @@ public class ClusterNodesAdditionListener implements IGraphModificationListener 
       tree.connect(myCurrentCluster, newCluster);
     }
   }
-
   public void setCurrentCluster(Node cluster) {
     myCurrentCluster = cluster;
   }

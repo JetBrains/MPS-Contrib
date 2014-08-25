@@ -11,10 +11,8 @@ import java.io.IOException;
 public class CompositePrinter implements Printer {
   private List<Printer> myPrinters = new LinkedList<Printer>();
   private int myEstimatedPrintLength = -1;
-
   public CompositePrinter() {
   }
-
   @Override
   public int estimatePrintedLength() {
     if (myEstimatedPrintLength < 0) {
@@ -25,12 +23,10 @@ public class CompositePrinter implements Printer {
     }
     return myEstimatedPrintLength;
   }
-
   public void add(Printer printer) {
     myEstimatedPrintLength = -1;
     myPrinters.add(printer);
   }
-
   @Override
   public void printTo(Appendable out, DateTime dateTime, Locale locale) throws IOException {
     for (Printer printer : myPrinters) {

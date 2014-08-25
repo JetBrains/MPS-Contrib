@@ -6,7 +6,6 @@ package jetbrains.mps.baseLanguage.dates.behavior;
 public class ConvertToJavaCalendarOperation_BehaviorDescriptor extends DateTimeOperation_BehaviorDescriptor {
   public ConvertToJavaCalendarOperation_BehaviorDescriptor() {
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.baseLanguage.dates.structure.ConvertToJavaCalendarOperation";

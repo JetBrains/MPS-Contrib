@@ -18,11 +18,9 @@ public class Food extends JPanel {
   private Events myEvents = new Events(null) {
     {
     }
-
     public void initialize() {
     }
   };
-
   public Food() {
     this.myThis = this;
     Food component = this;
@@ -30,24 +28,19 @@ public class Food extends JPanel {
     component.add(this.createComponent_nj27_b0(), BorderLayout.CENTER);
     this.myEvents.initialize();
   }
-
   public Events getEvents() {
     return this.myEvents;
   }
-
   public void addNotify() {
     super.addNotify();
     this.bind();
   }
-
   public void removeNotify() {
     this.unbind();
     super.removeNotify();
   }
-
   private void bind() {
   }
-
   private void unbind() {
     for (AutoBinding binding : this.myBindings) {
       if (binding.isBound()) {
@@ -55,7 +48,6 @@ public class Food extends JPanel {
       }
     }
   }
-
   private JLabel createComponent_nj27_b0() {
     JLabel component = new JLabel();
     this.myLabel_nj27_b0 = component;

@@ -21,79 +21,62 @@ import jetbrains.mps.smodel.SModelUtil_new;
 
 public class AddDateTimePropertyForPeriod_Intention implements IntentionFactory {
   private Collection<IntentionExecutable> myCachedExecutable;
-
   public AddDateTimePropertyForPeriod_Intention() {
   }
-
   public String getConcept() {
     return "jetbrains.mps.baseLanguage.structure.Expression";
   }
-
   public String getPresentation() {
     return "AddDateTimePropertyForPeriod";
   }
-
   public String getPersistentStateKey() {
     return "jetbrains.mps.baseLanguage.dates.intentions.AddDateTimePropertyForPeriod_Intention";
   }
-
   public String getLanguageFqName() {
     return "jetbrains.mps.baseLanguage.dates";
   }
-
   public IntentionType getType() {
     return IntentionType.NORMAL;
   }
-
   public boolean isAvailableInChildNodes() {
     return false;
   }
-
   public boolean isApplicable(final SNode node, final EditorContext editorContext) {
     if (!(isApplicableToNode(node, editorContext))) {
       return false;
     }
     return true;
   }
-
   private boolean isApplicableToNode(final SNode node, final EditorContext editorContext) {
     return TypeChecker.getInstance().getSubtypingManager().isSubtype(TypeChecker.getInstance().getTypeOf(node), _quotation_createNode_e2qrq4_b0a0a0(), false);
   }
-
   public SNodeReference getIntentionNodeReference() {
     return new SNodePointer("r:00000000-0000-4000-0000-011c895903d2(jetbrains.mps.baseLanguage.dates.intentions)", "1239209586310");
   }
-
   public boolean isSurroundWith() {
     return false;
   }
-
   public Collection<IntentionExecutable> instances(final SNode node, final EditorContext context) {
     if (myCachedExecutable == null) {
       myCachedExecutable = Collections.<IntentionExecutable>singletonList(new AddDateTimePropertyForPeriod_Intention.IntentionImplementation());
     }
     return myCachedExecutable;
   }
-
   public class IntentionImplementation implements IntentionExecutable {
     public IntentionImplementation() {
     }
-
     public String getDescription(final SNode node, final EditorContext editorContext) {
       return "Add Datetime Property";
     }
-
     public void execute(final SNode node, final EditorContext editorContext) {
       SNode expression = SNodeFactoryOperations.createNewNode("jetbrains.mps.baseLanguage.dates.structure.PeriodInPropertyExpression", null);
       SLinkOperations.setTarget(expression, "datetime", SNodeOperations.copyNode(node), true);
       SNodeOperations.replaceWithAnother(node, expression);
     }
-
     public IntentionDescriptor getDescriptor() {
       return AddDateTimePropertyForPeriod_Intention.this;
     }
   }
-
   private static SNode _quotation_createNode_e2qrq4_b0a0a0() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;

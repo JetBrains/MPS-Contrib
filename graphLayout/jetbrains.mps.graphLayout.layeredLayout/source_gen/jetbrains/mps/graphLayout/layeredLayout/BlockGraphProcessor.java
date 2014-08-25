@@ -20,10 +20,8 @@ public class BlockGraphProcessor {
   private int[] myShift;
   private int myMaxClass;
   private Map<Node, Integer> myLayers;
-
   public BlockGraphProcessor() {
   }
-
   public Map<Node, Integer> process(Graph blockGraph) {
     myMaxClass = 0;
     myClasses = new NodeMap<Integer>(blockGraph);
@@ -52,7 +50,6 @@ public class BlockGraphProcessor {
     }
     return myLayers;
   }
-
   private void processClass(Node node) {
     Queue<Node> queue = QueueSequence.fromQueue(new LinkedList<Node>());
     QueueSequence.fromQueue(queue).addLastElement(node);
@@ -75,16 +72,13 @@ public class BlockGraphProcessor {
       }
     }
   }
-
   private class ClassesFinder extends Dfs {
     public ClassesFinder() {
     }
-
     @Override
     protected void preprocess(Node node, Edge from) {
       MapSequence.fromMap(myClasses).put(node, myMaxClass);
     }
-
     @Override
     protected void processEdge(Edge edge, Node source) {
       Node target = edge.getTarget();
@@ -96,7 +90,6 @@ public class BlockGraphProcessor {
         }
       }
     }
-
     @Override
     protected void preprocessRoot(Node node) {
       myMaxClass++;

@@ -16,7 +16,6 @@ public class BoundExpression_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_7fe5d7_a(editorContext, node);
   }
-
   private EditorCell createCollection_7fe5d7_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_7fe5d7_a");
@@ -24,7 +23,6 @@ public class BoundExpression_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createProperty_7fe5d7_a0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createProperty_7fe5d7_a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("maxOccurs");

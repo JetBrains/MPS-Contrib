@@ -48,7 +48,6 @@ public class ClusterEmbeddingConstructor {
   private Map<Node, Node> myNodeMap;
   private Map<Face, Face> myFaceMap;
   private Map<Node, List<Edge>> myClusterBorderMap = null;
-
   public ClusterEmbeddingConstructor(ClusteredGraph graph, Node cluster, List<Edge> outerEdgesOrder) {
     myGraph = graph;
     myCluster = cluster;
@@ -60,7 +59,6 @@ public class ClusterEmbeddingConstructor {
       System.out.println("cluster " + myCluster + " outer edges: " + outerEdgesOrder);
     }
   }
-
   public EmbeddedGraph constructEmbedding() {
     Iterable<Node> subclusters = myGraph.getSubclusters(myCluster);
     if (Sequence.fromIterable(subclusters).count() == 0) {
@@ -106,7 +104,6 @@ public class ClusterEmbeddingConstructor {
     }
     return myEmbeddedGraph;
   }
-
   private void findSubclusterEmbedding(Node subcluster, Map<Edge, Edge> invEdgeMap) {
     Node node = MapSequence.fromMap(mySubclustersMap).get(subcluster);
     List<Dart> darts = mySubEmbeddedGraph.getOrderedDarts(node);
@@ -183,7 +180,6 @@ public class ClusterEmbeddingConstructor {
       }
     }
   }
-
   private Edge getOuterEdgeAfterModifications(Node subcluster, Edge outerEdge) {
     final Node outerNode = this.getOuterNode(outerEdge, subcluster);
     return ListSequence.fromList(myHistoryManager.getHistory(outerEdge)).findFirst(new IWhereFilter<Edge>() {
@@ -192,7 +188,6 @@ public class ClusterEmbeddingConstructor {
       }
     });
   }
-
   private Node getOuterNode(Edge outerEdge, final Node subcluster) {
     return ListSequence.fromList(outerEdge.getAdjacentNodes()).findFirst(new IWhereFilter<Node>() {
       public boolean accept(Node node) {
@@ -200,7 +195,6 @@ public class ClusterEmbeddingConstructor {
       }
     });
   }
-
   private Map<Edge, Edge> constructSubclusterGraphEmbedding() {
     // Creating a subcluster graph, where each subcluster is represented by a single node, 
     // and finding embedding for it. 
@@ -324,7 +318,6 @@ public class ClusterEmbeddingConstructor {
     }
     return invEdgeMap;
   }
-
   private Set<Edge> createOuterFaceWithFaceSelection(List<Node> subBorderNodes, List<Edge> subOuterEdges, List<Edge> subClusterBorder) {
     // there is only one subcluster of myCluster 
     if (mySubEmbeddedGraph.isEmpty()) {
@@ -373,7 +366,6 @@ public class ClusterEmbeddingConstructor {
     addFace(subOuterEdges, prev, subBorderNodes, curEdges, pos, curDarts, addedEdges);
     return addedEdges;
   }
-
   private void addFace(List<Edge> subOuterEdges, Tuples._2<Integer, Integer> prev, List<Node> subBorderNodes, List<Edge> curEdges, Tuples._2<Integer, Integer> pos, List<Dart> curDarts, Set<Edge> addedEdges) {
     Face face = new Face(mySubclustersGraph);
     Edge prevEdge = ListSequence.fromList(subOuterEdges).getElement((int) prev._0());
@@ -388,7 +380,6 @@ public class ClusterEmbeddingConstructor {
     mySubEmbeddedGraph.addFace(face);
     SetSequence.fromSet(addedEdges).addElement(ListSequence.fromList(subOuterEdges).getElement((int) pos._0()));
   }
-
   public void checkPos(List<Tuples._2<Integer, Integer>> pos) {
     int last0 = Integer.MIN_VALUE;
     int last1 = Integer.MIN_VALUE;
@@ -403,7 +394,6 @@ public class ClusterEmbeddingConstructor {
       last1 = (int) p._1();
     }
   }
-
   private List<Tuples._2<Integer, Integer>> shiftLists(List<Tuples._2<Integer, Integer>> pos, List<Dart> darts, List<Node> borderNodes, List<Edge> outerEdges, List<Edge> borderEdges) {
     Tuples._2<Integer, Integer> first = ListSequence.fromList(pos).first();
     int firstBorderPos = (int) first._0();
@@ -427,7 +417,6 @@ public class ClusterEmbeddingConstructor {
     }
     return newPos;
   }
-
   private Tuples._2<Face, List<Tuples._2<Integer, Integer>>> findBestFace() {
     Face bestFace = null;
     List<Tuples._2<Integer, Integer>> pos = ListSequence.fromList(new ArrayList<Tuples._2<Integer, Integer>>());
@@ -450,7 +439,6 @@ public class ClusterEmbeddingConstructor {
     }
     return MultiTuple.<Face,List<Tuples._2<Integer, Integer>>>from(bestFace, pos);
   }
-
   private Edge createOuterFace(List<Node> subBorderNodes, List<Edge> subOuterEdges, List<Edge> subClusterBorder) {
     Node borderFirstNode = ListSequence.fromList(subBorderNodes).first();
     Edge bridge = ListSequence.fromList(subOuterEdges).first();
@@ -470,7 +458,6 @@ public class ClusterEmbeddingConstructor {
     mySubEmbeddedGraph.addFace(ringFace);
     return bridge;
   }
-
   private Node getRealNode(final Node subNode, final Map<Node, Node> nodeMap) {
     return SetSequence.fromSet(myClusterNodes).findFirst(new IWhereFilter<Node>() {
       public boolean accept(Node it) {
@@ -478,7 +465,6 @@ public class ClusterEmbeddingConstructor {
       }
     });
   }
-
   private Node getClusterNode(Edge edge) {
     boolean isSource = SetSequence.fromSet(myClusterNodes).contains(edge.getSource());
     boolean isTarget = SetSequence.fromSet(myClusterNodes).contains(edge.getTarget());
@@ -491,7 +477,6 @@ public class ClusterEmbeddingConstructor {
       return edge.getTarget();
     }
   }
-
   private Node getSubcluster(Edge outerEdge) {
     for (Node node : ListSequence.fromList(outerEdge.getAdjacentNodes())) {
       Node subcluster = MapSequence.fromMap(myNodeMap).get(node);
@@ -501,24 +486,19 @@ public class ClusterEmbeddingConstructor {
     }
     return null;
   }
-
   public List<Edge> getClusterBorder() {
     return myClusterBorder;
   }
-
   public void setClusterBorderMap(Map<Node, List<Edge>> clusterBorderMap) {
     myClusterBorderMap = clusterBorderMap;
   }
-
   public class ListParser<T> {
     private Iterator<T> myItr;
     private int myPos;
-
     public ListParser(List<T> list) {
       myItr = ListSequence.fromList(list).iterator();
       myPos = 0;
     }
-
     public List<T> getNext(int nextPos) {
       List<T> part = ListSequence.fromList(new LinkedList<T>());
       while (myPos != nextPos) {
@@ -527,7 +507,6 @@ public class ClusterEmbeddingConstructor {
       }
       return part;
     }
-
     public List<T> getEnd() {
       List<T> part = ListSequence.fromList(new LinkedList<T>());
       while (myItr.hasNext()) {

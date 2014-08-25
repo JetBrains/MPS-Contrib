@@ -18,7 +18,6 @@ import jetbrains.mps.graphLayout.graph.Edge;
 public class RectOrthogonalLayouterStressTest {
   public RectOrthogonalLayouterStressTest() {
   }
-
   public static void main(String[] args) throws Exception {
     String fileName = "C:\\work\\stressQuasi.txt";
     RectOrthogonalLayouter layouter = new RectOrthogonalLayouter();

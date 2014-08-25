@@ -14,7 +14,6 @@ import jetbrains.mps.graphLayout.intGeom2D.Point;
 public class ClusterLayoutPainter extends LayoutPainter {
   public ClusterLayoutPainter() {
   }
-
   @Override
   public void paint(IGraphLayout layout, Graphics g) {
     if (!(layout instanceof ClusteredGraphLayout)) {

@@ -13,10 +13,8 @@ import jetbrains.mps.internal.collections.runtime.MapSequence;
 
 public class DFSEdgeReverter extends Dfs implements IEdgeReverter {
   private Set<Edge> myToRevert;
-
   public DFSEdgeReverter() {
   }
-
   @Override
   public Set<Edge> revertEdges(Graph graph) {
     myToRevert = SetSequence.fromSet(new HashSet<Edge>());
@@ -28,7 +26,6 @@ public class DFSEdgeReverter extends Dfs implements IEdgeReverter {
     }
     return reverted;
   }
-
   @Override
   protected void processEdge(Edge edge, Node source) {
     Node target = edge.getTarget();

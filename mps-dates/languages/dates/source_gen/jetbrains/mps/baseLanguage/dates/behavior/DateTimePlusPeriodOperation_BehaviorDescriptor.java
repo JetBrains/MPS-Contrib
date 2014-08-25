@@ -7,7 +7,6 @@ import jetbrains.mps.baseLanguage.behavior.Expression_BehaviorDescriptor;
 public class DateTimePlusPeriodOperation_BehaviorDescriptor extends Expression_BehaviorDescriptor {
   public DateTimePlusPeriodOperation_BehaviorDescriptor() {
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.baseLanguage.dates.structure.DateTimePlusPeriodOperation";

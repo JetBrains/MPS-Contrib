@@ -14,7 +14,6 @@ public class XmlFile_Constraints extends BaseConstraintsDescriptor {
   public XmlFile_Constraints() {
     super("jetbrains.mps.xmlInternal.structure.XmlFile");
   }
-
   @Override
   protected Map<String, PropertyConstraintsDescriptor> getNotDefaultProperties() {
     Map<String, PropertyConstraintsDescriptor> properties = new HashMap();
@@ -23,7 +22,6 @@ public class XmlFile_Constraints extends BaseConstraintsDescriptor {
       public boolean hasOwnGetter() {
         return true;
       }
-
       @Override
       public Object getValue(SNode node) {
         String propertyName = "name";

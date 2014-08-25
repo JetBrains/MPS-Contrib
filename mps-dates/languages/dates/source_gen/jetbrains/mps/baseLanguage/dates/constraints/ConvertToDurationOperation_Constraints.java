@@ -17,12 +17,10 @@ public class ConvertToDurationOperation_Constraints extends BaseConstraintsDescr
   public ConvertToDurationOperation_Constraints() {
     super("jetbrains.mps.baseLanguage.dates.structure.ConvertToDurationOperation");
   }
-
   @Override
   public boolean hasOwnCanBeChildMethod() {
     return true;
   }
-
   @Override
   public boolean canBeChild(@Nullable SNode node, SNode parentNode, SNode link, SNode childConcept, final IOperationContext operationContext, @Nullable final CheckingNodeContext checkingNodeContext) {
     boolean result = static_canBeAChild(node, parentNode, link, childConcept, operationContext);
@@ -33,7 +31,6 @@ public class ConvertToDurationOperation_Constraints extends BaseConstraintsDescr
 
     return result;
   }
-
   public static boolean static_canBeAChild(SNode node, SNode parentNode, SNode link, SNode childConcept, final IOperationContext operationContext) {
     boolean can = false;
     if (SNodeOperations.isInstanceOf(parentNode, "jetbrains.mps.baseLanguage.structure.DotExpression")) {
@@ -42,6 +39,5 @@ public class ConvertToDurationOperation_Constraints extends BaseConstraintsDescr
     }
     return can;
   }
-
   private static SNodePointer canBeChildBreakingPoint = new SNodePointer("r:00000000-0000-4000-0000-011c895903cf(jetbrains.mps.baseLanguage.dates.constraints)", "3627207017677002510");
 }

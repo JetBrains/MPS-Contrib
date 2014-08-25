@@ -12,7 +12,6 @@ import jetbrains.mps.internal.collections.runtime.MapSequence;
 public class CheckLayers {
   public CheckLayers() {
   }
-
   public static boolean hasBadEdges(Graph graph, Map<Node, Integer> layers) {
     for (Node node : ListSequence.fromList(graph.getNodes())) {
       for (Edge edge : ListSequence.fromList(node.getOutEdges())) {

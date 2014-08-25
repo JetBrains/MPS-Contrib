@@ -16,15 +16,12 @@ public enum DayOfWeek {
   Saturday("Saturday", "SAT");
 
   private String myName;
-
   public String getName() {
     return this.myName;
   }
-
   public String getValueAsString() {
     return this.myValue;
   }
-
   public static List<DayOfWeek> getConstants() {
     List<DayOfWeek> list = ListSequence.fromList(new LinkedList<DayOfWeek>());
     ListSequence.fromList(list).addElement(DayOfWeek.Sunday);
@@ -36,11 +33,9 @@ public enum DayOfWeek {
     ListSequence.fromList(list).addElement(DayOfWeek.Saturday);
     return list;
   }
-
   public static DayOfWeek getDefault() {
     return DayOfWeek.Sunday;
   }
-
   public static DayOfWeek parseValue(String value) {
     if (value == null) {
       return DayOfWeek.getDefault();
@@ -68,14 +63,11 @@ public enum DayOfWeek {
     }
     return DayOfWeek.getDefault();
   }
-
   private String myValue;
-
   DayOfWeek(String name, String value) {
     this.myName = name;
     this.myValue = value;
   }
-
   public String getValue() {
     return this.myValue;
   }

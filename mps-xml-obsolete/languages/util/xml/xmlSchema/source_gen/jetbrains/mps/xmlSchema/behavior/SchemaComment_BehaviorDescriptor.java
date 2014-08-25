@@ -7,7 +7,6 @@ import jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor;
 public class SchemaComment_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor {
   public SchemaComment_BehaviorDescriptor() {
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.xmlSchema.structure.SchemaComment";

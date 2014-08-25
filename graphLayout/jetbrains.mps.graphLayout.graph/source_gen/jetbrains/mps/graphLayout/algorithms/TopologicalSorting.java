@@ -13,37 +13,30 @@ import jetbrains.mps.internal.collections.runtime.MapSequence;
 public class TopologicalSorting extends Dfs {
   private List<Node> myOrder;
   private boolean myHasCycles;
-
   private TopologicalSorting() {
   }
-
   @Override
   public void doDfs(Graph graph) {
     myOrder = ListSequence.fromList(new LinkedList<Node>());
     myHasCycles = false;
     super.doDfs(graph);
   }
-
   @Override
   protected void postprocess(Node node, Edge from) {
     ListSequence.fromList(myOrder).insertElement(0, node);
   }
-
   private List<Node> getOrder() {
     return myOrder;
   }
-
   private boolean getHasCycles() {
     return myHasCycles;
   }
-
   @Override
   protected void processEdge(Edge edge, Node source) {
     if ((Integer) MapSequence.fromMap(getDfsState()).get(edge.getTarget()) == Dfs.DURING) {
       myHasCycles = true;
     }
   }
-
   public static List<Node> sort(Graph graph) {
     TopologicalSorting sorter = new TopologicalSorting();
     sorter.doDfs(graph);
@@ -52,7 +45,6 @@ public class TopologicalSorting extends Dfs {
     }
     return sorter.getOrder();
   }
-
   public static boolean hasCycles(Graph graph) {
     TopologicalSorting sorter = new TopologicalSorting();
     sorter.doDfs(graph);

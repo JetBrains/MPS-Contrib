@@ -25,7 +25,6 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_53656_a(editorContext, node);
   }
-
   private EditorCell createCollection_53656_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_53656_a");
@@ -39,7 +38,6 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     }
     return editorCell;
   }
-
   private EditorCell createRefCell_53656_a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("schedulePeriod");
@@ -61,20 +59,16 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   public static class _Inline_53656_a0a extends InlineCellProvider {
     public _Inline_53656_a0a() {
       super();
     }
-
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
     }
-
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
       return this.createProperty_53656_a0a0(editorContext, node);
     }
-
     private EditorCell createProperty_53656_a0a0(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("name");
@@ -94,7 +88,6 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
       return editorCell;
     }
   }
-
   private EditorCell createCollection_53656_b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_53656_b0");
@@ -113,11 +106,9 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     }
     return editorCell;
   }
-
   private static boolean renderingCondition_53656_a1a(SNode node, EditorContext editorContext) {
     return ScheduleLiteral_Behavior.call_hasDay_1213877270117(node);
   }
-
   private EditorCell createConstant_53656_a1a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "on");
     editorCell.setCellId("Constant_53656_a1a");
@@ -127,7 +118,6 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createCollection_53656_b1a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_53656_b1a");
@@ -138,11 +128,9 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createConstant_53656_b1b0(editorContext, node));
     return editorCell;
   }
-
   private static boolean renderingCondition_53656_a1b0(SNode node, EditorContext editorContext) {
     return SPropertyOperations.getBoolean(SLinkOperations.getTarget(node, "schedulePeriod", false), "month");
   }
-
   private EditorCell createRefCell_53656_a1b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("month");
@@ -164,20 +152,16 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   public static class _Inline_53656_a0b1a extends InlineCellProvider {
     public _Inline_53656_a0b1a() {
       super();
     }
-
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
     }
-
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
       return this.createProperty_53656_a0a1b0(editorContext, node);
     }
-
     private EditorCell createProperty_53656_a0a1b0(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("name");
@@ -197,7 +181,6 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
       return editorCell;
     }
   }
-
   private EditorCell createConstant_53656_b1b0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ",");
     editorCell.setCellId("Constant_53656_b1b0");
@@ -208,7 +191,6 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createProperty_53656_c1a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("dayOfMonth");
@@ -226,11 +208,9 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private static boolean renderingCondition_53656_a2b0(SNode node, EditorContext editorContext) {
     return SPropertyOperations.getBoolean(SLinkOperations.getTarget(node, "schedulePeriod", false), "dayOfMonth");
   }
-
   private EditorCell createProperty_53656_d1a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("dayOfWeek");
@@ -248,11 +228,9 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private static boolean renderingCondition_53656_a3b0(SNode node, EditorContext editorContext) {
     return SPropertyOperations.getBoolean(SLinkOperations.getTarget(node, "schedulePeriod", false), "dayOfWeek");
   }
-
   private EditorCell createCollection_53656_c0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_53656_c0");
@@ -265,11 +243,9 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     }
     return editorCell;
   }
-
   private static boolean renderingCondition_53656_a2a(SNode node, EditorContext editorContext) {
     return ScheduleLiteral_Behavior.call_hasTime_1213877270139(node);
   }
-
   private EditorCell createConstant_53656_a2a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "at");
     editorCell.setCellId("Constant_53656_a2a");
@@ -279,7 +255,6 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createCollection_53656_b2a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_53656_b2a");
@@ -292,11 +267,9 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createProperty_53656_b1c0(editorContext, node));
     return editorCell;
   }
-
   private static boolean renderingCondition_53656_a1c0(SNode node, EditorContext editorContext) {
     return SPropertyOperations.getBoolean(SLinkOperations.getTarget(node, "schedulePeriod", false), "second");
   }
-
   private EditorCell createCollection_53656_a1c0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_53656_a1c0");
@@ -310,11 +283,9 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createConstant_53656_c0b2a(editorContext, node));
     return editorCell;
   }
-
   private static boolean renderingCondition_53656_a0b2a(SNode node, EditorContext editorContext) {
     return SPropertyOperations.getBoolean(SLinkOperations.getTarget(node, "schedulePeriod", false), "minute");
   }
-
   private EditorCell createCollection_53656_a0b2a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_53656_a0b2a");
@@ -325,11 +296,9 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createConstant_53656_b0a1c0(editorContext, node));
     return editorCell;
   }
-
   private static boolean renderingCondition_53656_a0a1c0(SNode node, EditorContext editorContext) {
     return SPropertyOperations.getBoolean(SLinkOperations.getTarget(node, "schedulePeriod", false), "hour");
   }
-
   private EditorCell createProperty_53656_a0a1c0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("hour");
@@ -347,7 +316,6 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createConstant_53656_b0a1c0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ":");
     editorCell.setCellId("Constant_53656_b0a1c0");
@@ -357,7 +325,6 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createProperty_53656_b0b2a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("minute");
@@ -375,7 +342,6 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createConstant_53656_c0b2a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ":");
     editorCell.setCellId("Constant_53656_c0b2a");
@@ -385,7 +351,6 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createProperty_53656_b1c0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("second");

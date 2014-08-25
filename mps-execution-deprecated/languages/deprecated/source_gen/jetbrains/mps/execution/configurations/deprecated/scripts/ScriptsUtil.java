@@ -20,7 +20,6 @@ import jetbrains.mps.smodel.StaticReference;
 public class ScriptsUtil {
   public ScriptsUtil() {
   }
-
   public static Iterable<SModel.ImportElement> getImports(final org.jetbrains.mps.openapi.model.SModel model, final String longName) {
     return Sequence.fromIterable(Sequence.fromClosure(new ISequenceClosure<SModel.ImportElement>() {
       public Iterable<SModel.ImportElement> iterable() {
@@ -32,7 +31,6 @@ public class ScriptsUtil {
       }
     });
   }
-
   public static void updateReferencesToModel(final SNode node, String longName, SModelReference newModelReference) {
     List<SModel.ImportElement> imports = Sequence.fromIterable(ScriptsUtil.getImports(SNodeOperations.getModel(node), longName)).toListSequence();
     ListSequence.fromList(imports).visitAll(new IVisitor<SModel.ImportElement>() {
@@ -50,7 +48,6 @@ public class ScriptsUtil {
       }
     }
   }
-
   public static void updateReferencesToClassifier(SNode node, String modelLongName, String classifierName, SModelReference newModelReference, SNode newNodeToReference) {
     boolean found = false;
     for (SNode childNode : ListSequence.fromList(SNodeOperations.getDescendants(node, null, true, new String[]{}))) {

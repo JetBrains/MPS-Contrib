@@ -1,102 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debugInfo>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ForStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
   <root nodeRef="r:aaa157bb-ca55-4102-b902-1e3083b4020b(internalTest)/1567683135099905768">
-    <nodeInfo nodeId="1567683135099905876" fileName="TestRandomGraph_Test.java" startLine="17" startPosition="56" endLine="18" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1567683135099905885" fileName="TestRandomGraph_Test.java" startLine="18" startPosition="34" endLine="19" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099905891" fileName="TestRandomGraph_Test.java" startLine="19" startPosition="22" endLine="20" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099905897" fileName="TestRandomGraph_Test.java" startLine="20" startPosition="22" endLine="21" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099905903" fileName="TestRandomGraph_Test.java" startLine="21" startPosition="22" endLine="22" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1567683135099905907" fileName="TestRandomGraph_Test.java" startLine="22" startPosition="22" endLine="23" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1567683135099905913" fileName="TestRandomGraph_Test.java" startLine="23" startPosition="80" endLine="24" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099905919" fileName="TestRandomGraph_Test.java" startLine="24" startPosition="43" endLine="25" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099905923" fileName="TestRandomGraph_Test.java" startLine="25" startPosition="17" endLine="26" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1567683135099905931" fileName="TestRandomGraph_Test.java" startLine="28" startPosition="18" endLine="29" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099905942" fileName="TestRandomGraph_Test.java" startLine="31" startPosition="55" endLine="32" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099905975" fileName="TestRandomGraph_Test.java" startLine="35" startPosition="9" endLine="36" endPosition="76" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099905974" fileName="TestRandomGraph_Test.java" startLine="36" startPosition="76" endLine="37" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099905974" fileName="TestRandomGraph_Test.java" startLine="38" startPosition="42" endLine="39" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
-    <nodeInfo nodeId="1567683135099905984" fileName="TestRandomGraph_Test.java" startLine="41" startPosition="9" endLine="42" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099905983" fileName="TestRandomGraph_Test.java" startLine="42" startPosition="79" endLine="43" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099905983" fileName="TestRandomGraph_Test.java" startLine="44" startPosition="42" endLine="45" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
-    <nodeInfo nodeId="1567683135099905991" fileName="TestRandomGraph_Test.java" startLine="46" startPosition="5" endLine="47" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099905995" fileName="TestRandomGraph_Test.java" startLine="47" startPosition="70" endLine="48" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099905773" fileName="TestRandomGraph_Test.java" startLine="54" startPosition="66" endLine="55" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1567683135099905779" fileName="TestRandomGraph_Test.java" startLine="55" startPosition="56" endLine="56" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="920414672219866575" fileName="TestRandomGraph_Test.java" startLine="58" startPosition="47" endLine="59" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099905796" fileName="TestRandomGraph_Test.java" startLine="59" startPosition="59" endLine="60" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099905819" fileName="TestRandomGraph_Test.java" startLine="62" startPosition="5" endLine="63" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1567683135099905850" fileName="TestRandomGraph_Test.java" startLine="68" startPosition="66" endLine="69" endPosition="129" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1567683135099905867" fileName="TestRandomGraph_Test.java" startLine="51" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="TestRandomGraph_Test#()V" />
-    <nodeInfo nodeId="1567683135099905929" fileName="TestRandomGraph_Test.java" startLine="27" startPosition="49" endLine="30" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1567683135099905940" fileName="TestRandomGraph_Test.java" startLine="30" startPosition="7" endLine="33" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="1567683135099905844" fileName="TestRandomGraph_Test.java" startLine="67" startPosition="59" endLine="70" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="1567683135099905785" fileName="TestRandomGraph_Test.java" startLine="57" startPosition="49" endLine="61" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="1567683135099905838" fileName="TestRandomGraph_Test.java" startLine="66" startPosition="61" endLine="71" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="1567683135099905974" fileName="TestRandomGraph_Test.java" startLine="34" startPosition="5" endLine="40" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
-    <nodeInfo nodeId="1567683135099905983" fileName="TestRandomGraph_Test.java" startLine="40" startPosition="5" endLine="46" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
-    <nodeInfo nodeId="1567683135099905783" fileName="TestRandomGraph_Test.java" startLine="56" startPosition="16" endLine="62" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="1567683135099905826" fileName="TestRandomGraph_Test.java" startLine="66" startPosition="0" endLine="73" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="testEdges#(Ljetbrains/mps/graphLayout/graph/Graph;Ljava/util/Map;)V" />
-    <nodeInfo nodeId="1567683135099905927" fileName="TestRandomGraph_Test.java" startLine="26" startPosition="24" endLine="34" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="1567683135099905769" fileName="TestRandomGraph_Test.java" startLine="54" startPosition="0" endLine="65" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLayers#(Ljetbrains/mps/graphLayout/graph/Graph;[I)Ljava/util/Map;" />
-    <nodeInfo nodeId="1567683135099905872" fileName="TestRandomGraph_Test.java" startLine="17" startPosition="0" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_threeLayersGraph#()V" />
-    <scopeInfo nodeId="1567683135099905870" fileName="TestRandomGraph_Test.java" startLine="51" startPosition="33" endLine="51" endPosition="33" />
-    <scopeInfo nodeId="1567683135099905930" fileName="TestRandomGraph_Test.java" startLine="28" startPosition="18" endLine="29" endPosition="37" />
-    <scopeInfo nodeId="1567683135099905941" fileName="TestRandomGraph_Test.java" startLine="31" startPosition="55" endLine="32" endPosition="50" />
-    <scopeInfo nodeId="1567683135099905974" fileName="TestRandomGraph_Test.java" startLine="38" startPosition="0" endLine="39" endPosition="28">
-      <varInfo nodeId="1567683135099905974" varName="e" />
-    </scopeInfo>
-    <scopeInfo nodeId="1567683135099905974" fileName="TestRandomGraph_Test.java" startLine="38" startPosition="42" endLine="39" endPosition="28" />
-    <scopeInfo nodeId="1567683135099905983" fileName="TestRandomGraph_Test.java" startLine="44" startPosition="0" endLine="45" endPosition="28">
-      <varInfo nodeId="1567683135099905983" varName="e" />
-    </scopeInfo>
-    <scopeInfo nodeId="1567683135099905983" fileName="TestRandomGraph_Test.java" startLine="44" startPosition="42" endLine="45" endPosition="28" />
-    <scopeInfo nodeId="1567683135099905849" fileName="TestRandomGraph_Test.java" startLine="68" startPosition="66" endLine="69" endPosition="129" />
-    <scopeInfo nodeId="1567683135099905974" fileName="TestRandomGraph_Test.java" startLine="35" startPosition="9" endLine="37" endPosition="20" />
-    <scopeInfo nodeId="1567683135099905983" fileName="TestRandomGraph_Test.java" startLine="41" startPosition="9" endLine="43" endPosition="20" />
-    <scopeInfo nodeId="1567683135099905867" fileName="TestRandomGraph_Test.java" startLine="51" startPosition="0" endLine="53" endPosition="0" />
-    <scopeInfo nodeId="1567683135099905786" fileName="TestRandomGraph_Test.java" startLine="58" startPosition="47" endLine="60" endPosition="14" />
-    <scopeInfo nodeId="1567683135099905940" fileName="TestRandomGraph_Test.java" startLine="30" startPosition="7" endLine="33" endPosition="7">
-      <varInfo nodeId="1567683135099905952" varName="j" />
-    </scopeInfo>
-    <scopeInfo nodeId="1567683135099905843" fileName="TestRandomGraph_Test.java" startLine="67" startPosition="59" endLine="70" endPosition="7" />
-    <scopeInfo nodeId="1567683135099905844" fileName="TestRandomGraph_Test.java" startLine="67" startPosition="59" endLine="70" endPosition="7">
-      <varInfo nodeId="1567683135099905845" varName="edge" />
-    </scopeInfo>
-    <scopeInfo nodeId="1567683135099905784" fileName="TestRandomGraph_Test.java" startLine="57" startPosition="49" endLine="61" endPosition="7" />
-    <scopeInfo nodeId="1567683135099905785" fileName="TestRandomGraph_Test.java" startLine="57" startPosition="49" endLine="61" endPosition="7">
-      <varInfo nodeId="1567683135099905799" varName="j" />
-    </scopeInfo>
-    <scopeInfo nodeId="1567683135099905829" fileName="TestRandomGraph_Test.java" startLine="66" startPosition="61" endLine="71" endPosition="5" />
-    <scopeInfo nodeId="1567683135099905838" fileName="TestRandomGraph_Test.java" startLine="66" startPosition="61" endLine="71" endPosition="5">
-      <varInfo nodeId="1567683135099905839" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="1567683135099905928" fileName="TestRandomGraph_Test.java" startLine="27" startPosition="49" endLine="33" endPosition="7" />
-    <scopeInfo nodeId="1567683135099905783" fileName="TestRandomGraph_Test.java" startLine="56" startPosition="16" endLine="62" endPosition="5">
-      <varInfo nodeId="1567683135099905809" varName="i" />
-    </scopeInfo>
-    <scopeInfo nodeId="1567683135099905826" fileName="TestRandomGraph_Test.java" startLine="66" startPosition="0" endLine="73" endPosition="0">
-      <varInfo nodeId="1567683135099905862" varName="g" />
-      <varInfo nodeId="1567683135099905864" varName="layers" />
-    </scopeInfo>
-    <scopeInfo nodeId="1567683135099905927" fileName="TestRandomGraph_Test.java" startLine="26" startPosition="24" endLine="34" endPosition="5">
-      <varInfo nodeId="1567683135099905964" varName="i" />
-    </scopeInfo>
-    <scopeInfo nodeId="1567683135099905772" fileName="TestRandomGraph_Test.java" startLine="54" startPosition="66" endLine="63" endPosition="18">
-      <varInfo nodeId="1567683135099905780" varName="cur" />
-      <varInfo nodeId="1567683135099905774" varName="layers" />
-    </scopeInfo>
-    <scopeInfo nodeId="1567683135099905769" fileName="TestRandomGraph_Test.java" startLine="54" startPosition="0" endLine="65" endPosition="0">
-      <varInfo nodeId="1567683135099905821" varName="g" />
-      <varInfo nodeId="1567683135099905823" varName="numInLayer" />
-    </scopeInfo>
-    <scopeInfo nodeId="1567683135099905875" fileName="TestRandomGraph_Test.java" startLine="17" startPosition="56" endLine="48" endPosition="73">
-      <varInfo nodeId="1567683135099905908" varName="g" />
-      <varInfo nodeId="1567683135099905924" varName="minNumEdges" />
-      <varInfo nodeId="1567683135099905904" varName="numEdges" />
-      <varInfo nodeId="1567683135099905877" varName="numInLayer" />
-    </scopeInfo>
-    <scopeInfo nodeId="1567683135099905872" fileName="TestRandomGraph_Test.java" startLine="17" startPosition="0" endLine="50" endPosition="0" />
-    <unitInfo nodeId="1567683135099905768" fileName="TestRandomGraph_Test.java" startLine="16" startPosition="0" endLine="74" endPosition="0" unitName="internalTest.TestRandomGraph_Test" />
+    <file name="TestRandomGraph_Test.java">
+      <node id="1567683135099905876" at="17,56,18,34" concept="6" />
+      <node id="1567683135099905885" at="18,34,19,22" concept="1" />
+      <node id="1567683135099905891" at="19,22,20,22" concept="1" />
+      <node id="1567683135099905897" at="20,22,21,22" concept="1" />
+      <node id="1567683135099905903" at="21,22,22,22" concept="6" />
+      <node id="1567683135099905907" at="22,22,23,80" concept="6" />
+      <node id="1567683135099905913" at="23,80,24,43" concept="1" />
+      <node id="1567683135099905919" at="24,43,25,17" concept="1" />
+      <node id="1567683135099905923" at="25,17,26,24" concept="6" />
+      <node id="1567683135099905931" at="28,18,29,37" concept="1" />
+      <node id="1567683135099905942" at="31,55,32,50" concept="1" />
+      <node id="1567683135099905975" at="35,9,36,76" concept="1" />
+      <node id="1567683135099905974" at="36,76,37,20" concept="1" />
+      <node id="1567683135099905974" at="38,42,39,28" concept="8" />
+      <node id="1567683135099905984" at="41,9,42,79" concept="1" />
+      <node id="1567683135099905983" at="42,79,43,20" concept="1" />
+      <node id="1567683135099905983" at="44,42,45,28" concept="8" />
+      <node id="1567683135099905991" at="46,5,47,70" concept="1" />
+      <node id="1567683135099905995" at="47,70,48,73" concept="1" />
+      <node id="1567683135099905773" at="52,66,53,56" concept="6" />
+      <node id="1567683135099905779" at="53,56,54,16" concept="6" />
+      <node id="920414672219866575" at="56,47,57,59" concept="1" />
+      <node id="1567683135099905796" at="57,59,58,14" concept="1" />
+      <node id="1567683135099905819" at="60,5,61,18" concept="7" />
+      <node id="1567683135099905850" at="65,66,66,129" concept="1" />
+      <node id="1567683135099905867" at="50,0,52,0" concept="0" trace="TestRandomGraph_Test#()V" />
+      <node id="1567683135099905929" at="27,49,30,7" concept="4" />
+      <node id="1567683135099905940" at="30,7,33,7" concept="2" />
+      <node id="1567683135099905844" at="64,59,67,7" concept="3" />
+      <node id="1567683135099905785" at="55,49,59,7" concept="2" />
+      <node id="1567683135099905838" at="63,61,68,5" concept="3" />
+      <node id="1567683135099905974" at="34,5,40,5" concept="9" />
+      <node id="1567683135099905983" at="40,5,46,5" concept="9" />
+      <node id="1567683135099905783" at="54,16,60,5" concept="2" />
+      <node id="1567683135099905826" at="63,0,70,0" concept="5" trace="testEdges#(Ljetbrains/mps/graphLayout/graph/Graph;Ljava/util/Map;)V" />
+      <node id="1567683135099905927" at="26,24,34,5" concept="2" />
+      <node id="1567683135099905769" at="52,0,63,0" concept="5" trace="getLayers#(Ljetbrains/mps/graphLayout/graph/Graph;[I)Ljava/util/Map;" />
+      <node id="1567683135099905872" at="17,0,50,0" concept="5" trace="test_threeLayersGraph#()V" />
+      <scope id="1567683135099905870" at="50,33,50,33" />
+      <scope id="1567683135099905930" at="28,18,29,37" />
+      <scope id="1567683135099905941" at="31,55,32,50" />
+      <scope id="1567683135099905974" at="38,0,39,28">
+        <var name="e" id="1567683135099905974" />
+      </scope>
+      <scope id="1567683135099905974" at="38,42,39,28" />
+      <scope id="1567683135099905983" at="44,0,45,28">
+        <var name="e" id="1567683135099905983" />
+      </scope>
+      <scope id="1567683135099905983" at="44,42,45,28" />
+      <scope id="1567683135099905849" at="65,66,66,129" />
+      <scope id="1567683135099905974" at="35,9,37,20" />
+      <scope id="1567683135099905983" at="41,9,43,20" />
+      <scope id="1567683135099905867" at="50,0,52,0" />
+      <scope id="1567683135099905786" at="56,47,58,14" />
+      <scope id="1567683135099905940" at="30,7,33,7">
+        <var name="j" id="1567683135099905952" />
+      </scope>
+      <scope id="1567683135099905843" at="64,59,67,7" />
+      <scope id="1567683135099905844" at="64,59,67,7">
+        <var name="edge" id="1567683135099905845" />
+      </scope>
+      <scope id="1567683135099905784" at="55,49,59,7" />
+      <scope id="1567683135099905785" at="55,49,59,7">
+        <var name="j" id="1567683135099905799" />
+      </scope>
+      <scope id="1567683135099905829" at="63,61,68,5" />
+      <scope id="1567683135099905838" at="63,61,68,5">
+        <var name="node" id="1567683135099905839" />
+      </scope>
+      <scope id="1567683135099905928" at="27,49,33,7" />
+      <scope id="1567683135099905783" at="54,16,60,5">
+        <var name="i" id="1567683135099905809" />
+      </scope>
+      <scope id="1567683135099905826" at="63,0,70,0">
+        <var name="g" id="1567683135099905862" />
+        <var name="layers" id="1567683135099905864" />
+      </scope>
+      <scope id="1567683135099905927" at="26,24,34,5">
+        <var name="i" id="1567683135099905964" />
+      </scope>
+      <scope id="1567683135099905772" at="52,66,61,18">
+        <var name="cur" id="1567683135099905780" />
+        <var name="layers" id="1567683135099905774" />
+      </scope>
+      <scope id="1567683135099905769" at="52,0,63,0">
+        <var name="g" id="1567683135099905821" />
+        <var name="numInLayer" id="1567683135099905823" />
+      </scope>
+      <scope id="1567683135099905875" at="17,56,48,73">
+        <var name="g" id="1567683135099905908" />
+        <var name="minNumEdges" id="1567683135099905924" />
+        <var name="numEdges" id="1567683135099905904" />
+        <var name="numInLayer" id="1567683135099905877" />
+      </scope>
+      <scope id="1567683135099905872" at="17,0,50,0" />
+      <unit id="1567683135099905768" at="16,0,71,0" name="internalTest.TestRandomGraph_Test" />
+    </file>
   </root>
-</debugInfo>
+</debug-info>
 

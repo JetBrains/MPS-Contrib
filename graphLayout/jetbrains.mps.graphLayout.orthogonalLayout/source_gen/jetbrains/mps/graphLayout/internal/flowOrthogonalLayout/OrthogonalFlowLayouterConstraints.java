@@ -38,10 +38,8 @@ public class OrthogonalFlowLayouterConstraints {
   private static int DEFAULT_UNIT_LENGTH = 20;
   private static int SHOW_LOG = 0;
   private int myUnitLength = OrthogonalFlowLayouterConstraints.DEFAULT_UNIT_LENGTH;
-
   public OrthogonalFlowLayouterConstraints() {
   }
-
   public GraphLayout doLayout(Graph graph, Map<Node, Dimension> nodeSizes) {
     Graph copy = new Graph();
     Map<Node, Node> nodeMap = MapSequence.fromMap(new HashMap<Node, Node>());
@@ -73,7 +71,6 @@ public class OrthogonalFlowLayouterConstraints {
     layout = layout.shift(20 - rect.x, 20 - rect.y);
     return layout;
   }
-
   private GraphLayout getLayoutCorruptGraph(Graph graph, Map<Node, Dimension> nodeSizes) {
     Set<Node> initialNodes = SetSequence.fromSet(new HashSet<Node>());
     SetSequence.fromSet(initialNodes).addSequence(ListSequence.fromList(graph.getNodes()));
@@ -106,7 +103,6 @@ public class OrthogonalFlowLayouterConstraints {
     }
     return initialLayout;
   }
-
   private GraphLayout getLayoutFromEmbeddedGraph(EmbeddedGraph embeddedGraph, Map<Node, Dimension> nodeSizes, EdgesHistoryManager historyManager) {
     if (OrthogonalFlowLayouterConstraints.SHOW_LOG > 0) {
       System.out.println("initial graph: " + embeddedGraph);
@@ -182,7 +178,6 @@ public class OrthogonalFlowLayouterConstraints {
     }
     return graphLayout;
   }
-
   private Map<Node, Map<Direction2D, Integer>> getNodeDirectionSizes(List<Node> oldNodes, Map<Node, Dimension> nodeSizes) {
     Map<Node, Map<Direction2D, Integer>> nodeDirectionSizes = MapSequence.fromMap(new HashMap<Node, Map<Direction2D, Integer>>());
     for (Node node : ListSequence.fromList(oldNodes)) {
@@ -198,7 +193,6 @@ public class OrthogonalFlowLayouterConstraints {
     }
     return nodeDirectionSizes;
   }
-
   private Map<Edge, Integer> getEdgesShifts(List<QuasiRepresentationModifier.Modification> modifications, Map<Dart, Direction2D> directions, Map<Node, Dimension> nodeSizes) {
     Map<Edge, Integer> edgeShifts = MapSequence.fromMap(new HashMap<Edge, Integer>());
     for (QuasiRepresentationModifier.Modification modification : ListSequence.fromList(modifications)) {
@@ -221,7 +215,6 @@ public class OrthogonalFlowLayouterConstraints {
     }
     return edgeShifts;
   }
-
   private void splitEdges(GraphLayout layout, QuasiRepresentationModifier.Modification modification, Map<Edge, Integer> edgeShifts) {
     List<Edge> edges = modification.getModifiedEdges();
     Edge firstEdge = ListSequence.fromList(edges).first();
@@ -254,7 +247,6 @@ public class OrthogonalFlowLayouterConstraints {
       }
     }
   }
-
   private void splitEdges(GraphLayout layout, QuasiRepresentationModifier.Modification modification) {
     List<Edge> edges = modification.getModifiedEdges();
     Edge firstEdge = ListSequence.fromList(edges).first();
@@ -296,7 +288,6 @@ public class OrthogonalFlowLayouterConstraints {
       curShift += unitShift;
     }
   }
-
   public void setUnitLength(int unitLength) {
     myUnitLength = unitLength;
   }

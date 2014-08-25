@@ -9,11 +9,9 @@ import org.jetbrains.mps.openapi.module.SModule;
 public class BuilderContextRef_BehaviorDescriptor extends Expression_BehaviorDescriptor implements GTextConcept_BehaviorDescriptor {
   public BuilderContextRef_BehaviorDescriptor() {
   }
-
   public Object virtual_eval_1213877519769(SNode thisNode, SModule module) {
     return BuilderContextRef_Behavior.virtual_eval_1213877519769(thisNode, module);
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.gtext.structure.BuilderContextRef";

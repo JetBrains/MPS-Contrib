@@ -15,7 +15,6 @@ public class DateTimeIntPropertyFormatConfiguration_Constraints extends BaseCons
   public DateTimeIntPropertyFormatConfiguration_Constraints() {
     super("jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeIntPropertyFormatConfiguration");
   }
-
   @Override
   protected Map<String, PropertyConstraintsDescriptor> getNotDefaultProperties() {
     Map<String, PropertyConstraintsDescriptor> properties = new HashMap();
@@ -24,7 +23,6 @@ public class DateTimeIntPropertyFormatConfiguration_Constraints extends BaseCons
       public boolean hasOwnGetter() {
         return true;
       }
-
       @Override
       public Object getValue(SNode node) {
         String propertyName = "name";

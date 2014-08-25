@@ -22,7 +22,6 @@ public class ComplexContent_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_npeg1_a(editorContext, node);
   }
-
   private EditorCell createCollection_npeg1_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_npeg1_a");
@@ -31,7 +30,6 @@ public class ComplexContent_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createRefNode_npeg1_b0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_npeg1_a0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "complexContent");
     editorCell.setCellId("Constant_npeg1_a0");
@@ -41,7 +39,6 @@ public class ComplexContent_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefNode_npeg1_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("contentItem");

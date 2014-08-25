@@ -24,7 +24,6 @@ public class XMLElementType_Constraints extends BaseConstraintsDescriptor {
   public XMLElementType_Constraints() {
     super("jetbrains.mps.xmlQuery.structure.XMLElementType");
   }
-
   @Override
   protected Map<String, ReferenceConstraintsDescriptor> getNotDefaultReferences() {
     Map<String, ReferenceConstraintsDescriptor> references = new HashMap();
@@ -33,21 +32,17 @@ public class XMLElementType_Constraints extends BaseConstraintsDescriptor {
       public boolean hasOwnOnReferenceSetHandler() {
         return true;
       }
-
       @Override
       public boolean validate(final SNode referenceNode, final SNode oldReferentNode, final SNode newReferentNode) {
         return true;
       }
-
       @Override
       public void onReferenceSet(final SNode referenceNode, final SNode oldReferentNode, final SNode newReferentNode) {
       }
-
       @Override
       public boolean hasOwnScopeProvider() {
         return true;
       }
-
       @Nullable
       @Override
       public ReferenceScopeProvider getScopeProvider() {
@@ -56,17 +51,14 @@ public class XMLElementType_Constraints extends BaseConstraintsDescriptor {
           public boolean hasPresentation() {
             return true;
           }
-
           @Override
           public String getPresentation(final IOperationContext operationContext, final ReferencePresentationContext _context) {
             return SchemaUtil.complexTypePresentation(_context.getParameterNode());
           }
-
           @Override
           public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
             return new SubnodesSearchScope(SLinkOperations.getTarget(_context.getReferenceNode(), "schema", false));
           }
-
           @Override
           public SNodeReference getSearchScopeValidatorNode() {
             return breakingNode_yvyt3v_a0a3a0a0a4a0b0a1a1;
@@ -79,18 +71,15 @@ public class XMLElementType_Constraints extends BaseConstraintsDescriptor {
       public boolean hasOwnOnReferenceSetHandler() {
         return true;
       }
-
       @Override
       public boolean validate(final SNode referenceNode, final SNode oldReferentNode, final SNode newReferentNode) {
         return true;
       }
-
       @Override
       public void onReferenceSet(final SNode referenceNode, final SNode oldReferentNode, final SNode newReferentNode) {
         assert oldReferentNode != newReferentNode;
         SLinkOperations.setTarget(referenceNode, "complexType", null, false);
       }
-
       @Nullable
       @Override
       public ReferenceScopeProvider getScopeProvider() {
@@ -99,6 +88,5 @@ public class XMLElementType_Constraints extends BaseConstraintsDescriptor {
     });
     return references;
   }
-
   private static SNodePointer breakingNode_yvyt3v_a0a3a0a0a4a0b0a1a1 = new SNodePointer("r:e79b58b4-ea58-4c9d-b43b-c3a260addf6a(jetbrains.mps.xmlQuery.constraints)", "4815471077468703818");
 }

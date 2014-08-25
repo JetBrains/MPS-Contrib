@@ -7,7 +7,6 @@ import jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor;
 public class EntityLine_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor implements SchemaCommentable_BehaviorDescriptor {
   public EntityLine_BehaviorDescriptor() {
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.xmlSchema.structure.EntityLine";

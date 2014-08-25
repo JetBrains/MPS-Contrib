@@ -11,18 +11,15 @@ public class Graph implements IGraph {
   private GraphModificationProcessor myProcessor;
   private List<Node> myNodes;
   private int myNextNum;
-
   public Graph() {
     myProcessor = new GraphModificationProcessor();
     myNodes = ListSequence.fromList(new ArrayList<Node>());
     myNextNum = 0;
   }
-
   @Override
   public List<Node> getNodes() {
     return myNodes;
   }
-
   @Override
   public List<Edge> getEdges() {
     List<Edge> allEdges = ListSequence.fromList(new ArrayList<Edge>());
@@ -31,23 +28,19 @@ public class Graph implements IGraph {
     }
     return allEdges;
   }
-
   protected Node createNode(boolean isDummy) {
     Node node = new Node(this, myNextNum++, isDummy);
     ListSequence.fromList(myNodes).addElement(node);
     myProcessor.fire(new GraphModificationEvent(GraphModificationEvent.Type.NODE_CREATED, node));
     return node;
   }
-
   @Override
   public Node createNode() {
     return createNode(false);
   }
-
   public Node createDummyNode() {
     return createNode(true);
   }
-
   @Override
   public Edge connect(INode source, INode target) {
     Node sourceNode = (Node) source;
@@ -62,7 +55,6 @@ public class Graph implements IGraph {
     myProcessor.fire(new GraphModificationEvent(GraphModificationEvent.Type.EDGE_ADDED, edge));
     return edge;
   }
-
   public void addEdge(Edge edge) {
     edge.addToGraph();
     if (showInfo > 0) {
@@ -70,19 +62,15 @@ public class Graph implements IGraph {
     }
     myProcessor.fire(new GraphModificationEvent(GraphModificationEvent.Type.EDGE_ADDED, edge));
   }
-
   public Node getNode(int index) {
     return ListSequence.fromList(myNodes).getElement(index);
   }
-
   public int getNumNodes() {
     return ListSequence.fromList(myNodes).count();
   }
-
   public Edge addEdgeByIndex(int sourceIndex, int targetIndex) {
     return connect(getNode(sourceIndex), getNode(targetIndex));
   }
-
   public void deleteNode(Node node) {
     for (Edge edge : ListSequence.fromList(node.getEdges())) {
       edge.removeFromGraph();
@@ -91,17 +79,14 @@ public class Graph implements IGraph {
     ListSequence.fromList(myNodes).removeElement(node);
     myProcessor.fire(new GraphModificationEvent(GraphModificationEvent.Type.NODE_DETETED, node));
   }
-
   public void removeEdge(Edge edge) {
     edge.removeFromGraph();
     myProcessor.fire(new GraphModificationEvent(GraphModificationEvent.Type.EDGE_REMOVED, edge));
   }
-
   public void revertEdge(Edge edge) {
     edge.revert();
     myProcessor.fire(new GraphModificationEvent(GraphModificationEvent.Type.EDGE_REVERTED, edge));
   }
-
   public List<Edge> splitEdge(Edge edge) {
     removeEdge(edge);
     List<Edge> newEdges = ListSequence.fromList(new ArrayList<Edge>(2));
@@ -111,7 +96,6 @@ public class Graph implements IGraph {
     myProcessor.fire(new GraphModificationEvent(GraphModificationEvent.Type.EDGE_SPLITTED, edge, newEdges));
     return newEdges;
   }
-
   @Override
   public String toString() {
     StringBuilder result = new StringBuilder();
@@ -132,19 +116,15 @@ public class Graph implements IGraph {
     result.append("end " + super.toString());
     return result.toString();
   }
-
   public void addListener(IGraphModificationListener listener) {
     myProcessor.addListener(listener);
   }
-
   public void removeListener(IGraphModificationListener listener) {
     myProcessor.removeListener(listener);
   }
-
   public GraphModificationProcessor getModificationProcessor() {
     return myProcessor;
   }
-
   public Graph createNew() {
     return new Graph();
   }

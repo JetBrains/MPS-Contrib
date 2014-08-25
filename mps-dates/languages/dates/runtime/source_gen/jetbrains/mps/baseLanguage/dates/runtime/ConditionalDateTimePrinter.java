@@ -15,10 +15,8 @@ import org.joda.time.format.DateTimeFormat;
 
 public abstract class ConditionalDateTimePrinter implements DateTimePrinter {
   private List<DateTimePrinter> myPrinters;
-
   public ConditionalDateTimePrinter() {
   }
-
   @Override
   public int estimatePrintedLength() {
     int max = 0;
@@ -27,35 +25,28 @@ public abstract class ConditionalDateTimePrinter implements DateTimePrinter {
     }
     return max;
   }
-
   @Override
   public void printTo(StringBuffer buf, long instant, Chronology chrono, int displayOffset, DateTimeZone displayZone, Locale locale) {
     getPrinter(instant, displayOffset, displayZone, locale).printTo(buf, instant, chrono, displayOffset, displayZone, locale);
   }
-
   @Override
   public void printTo(Writer out, long instant, Chronology chrono, int displayOffset, DateTimeZone displayZone, Locale locale) throws IOException {
     getPrinter(instant, displayOffset, displayZone, locale).printTo(out, instant, chrono, displayOffset, displayZone, locale);
   }
-
   @Override
   public void printTo(StringBuffer buf, ReadablePartial partial, Locale locale) {
     getPrinter(partial, locale).printTo(buf, partial, locale);
   }
-
   @Override
   public void printTo(Writer out, ReadablePartial partial, Locale locale) throws IOException {
     getPrinter(partial, locale).printTo(out, partial, locale);
   }
-
   protected DateTimePrinter getPrinter(ReadablePartial partial, Locale locale) {
     return getPrinter((partial != null ? partial.toDateTime(null) : null));
   }
-
   protected DateTimePrinter getPrinter(long instant, int displayOffset, DateTimeZone displayZone, Locale locale) {
     return getPrinter((instant != 0 ? new DateTime(instant - displayOffset, displayZone) : null));
   }
-
   private DateTimePrinter getPrinter(DateTime dateTime) {
     int index = this.getPrinterIndex(DateTimeOperations.convert(dateTime));
     if (index >= 0) {
@@ -65,7 +56,6 @@ public abstract class ConditionalDateTimePrinter implements DateTimePrinter {
       return DateTimeFormat.shortDateTime().getPrinter();
     }
   }
-
   private List<DateTimePrinter> getAllPrinters() {
     if (this.myPrinters == null) {
       synchronized (this) {
@@ -76,8 +66,6 @@ public abstract class ConditionalDateTimePrinter implements DateTimePrinter {
     }
     return myPrinters;
   }
-
   protected abstract int getPrinterIndex(Long datetimeToFormat);
-
   protected abstract List<DateTimePrinter> createPrinters();
 }

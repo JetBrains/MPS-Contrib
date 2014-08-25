@@ -15,7 +15,6 @@ public class SimpleDirectedGraphs {
     }
     return emptyGraph;
   }
-
   public static Graph chain(int numNodes) {
     Graph chain = new Graph();
     for (int i = 0; i < numNodes; i++) {
@@ -26,19 +25,16 @@ public class SimpleDirectedGraphs {
     }
     return chain;
   }
-
   public static Graph triangle() {
     Graph triangle = chain(3);
     triangle.connect(triangle.getNode(0), triangle.getNode(2));
     return triangle;
   }
-
   public static Graph cycle(int numNodes) {
     Graph cycle = chain(numNodes);
     cycle.connect(cycle.getNode(numNodes - 1), cycle.getNode(0));
     return cycle;
   }
-
   public static Graph sandwatches() {
     Graph sandwatces = emptyGraph(6);
     sandwatces.addEdgeByIndex(0, 2);
@@ -49,7 +45,6 @@ public class SimpleDirectedGraphs {
     sandwatces.addEdgeByIndex(0, 2);
     return sandwatces;
   }
-
   public static Graph weel(int numNodes) {
     Graph graph = emptyGraph(numNodes);
     List<Node> nodes = graph.getNodes();

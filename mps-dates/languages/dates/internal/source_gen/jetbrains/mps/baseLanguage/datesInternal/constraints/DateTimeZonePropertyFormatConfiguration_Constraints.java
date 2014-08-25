@@ -13,7 +13,6 @@ public class DateTimeZonePropertyFormatConfiguration_Constraints extends BaseCon
   public DateTimeZonePropertyFormatConfiguration_Constraints() {
     super("jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeZonePropertyFormatConfiguration");
   }
-
   @Override
   protected Map<String, PropertyConstraintsDescriptor> getNotDefaultProperties() {
     Map<String, PropertyConstraintsDescriptor> properties = new HashMap();
@@ -22,7 +21,6 @@ public class DateTimeZonePropertyFormatConfiguration_Constraints extends BaseCon
       public boolean hasOwnGetter() {
         return true;
       }
-
       @Override
       public Object getValue(SNode node) {
         String propertyName = "name";

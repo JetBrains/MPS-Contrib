@@ -26,7 +26,6 @@ public class GraphLayoutChecker {
     checkEdgeEnds(layout);
     checkCrossings(layout);
   }
-
   public static void checkLayout(GraphLayout layout, Map<Node, Dimension> nodeSizes, Map<Edge, Dimension> edgeSizes) {
     checkLayout(layout);
     for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(edgeSizes).keySet())) {
@@ -34,7 +33,6 @@ public class GraphLayoutChecker {
     }
     checkSizes(layout, nodeSizes, edgeSizes);
   }
-
   private static void checkSizes(GraphLayout layout, Map<Node, Dimension> nodeSizes, Map<Edge, Dimension> edgeSizes) {
     for (Node node : SetSequence.fromSet(MapSequence.fromMap(nodeSizes).keySet())) {
       Rectangle rect = layout.getNodeLayout(node);
@@ -47,7 +45,6 @@ public class GraphLayoutChecker {
       Assert.assertTrue(rect.height == MapSequence.fromMap(edgeSizes).get(edge).height);
     }
   }
-
   private static void checkFull(GraphLayout layout) {
     Graph graph = ((Graph) layout.getGraph());
     for (Node node : ListSequence.fromList(graph.getNodes())) {
@@ -58,7 +55,6 @@ public class GraphLayoutChecker {
       Assert.assertFalse(edgeLayout == null);
     }
   }
-
   public static void checkEdgeEnds(GraphLayout layout) {
     Graph graph = ((Graph) layout.getGraph());
     for (Edge edge : ListSequence.fromList(graph.getEdges())) {
@@ -69,7 +65,6 @@ public class GraphLayoutChecker {
       Assert.assertTrue(GeomUtil.onBorder(ListSequence.fromList(edgeLayout).last(), targetRect));
     }
   }
-
   public static void checkCrossings(GraphLayout layout) {
     Graph graph = ((Graph) layout.getGraph());
     List<Rectangle> rects = ListSequence.fromList(new ArrayList<Rectangle>());

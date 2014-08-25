@@ -16,7 +16,6 @@ public class JavaNodeConfigurationEditorDeclaration_Editor extends DefaultNodeEd
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_79d4iw_a(editorContext, node);
   }
-
   private EditorCell createCollection_79d4iw_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_79d4iw_a");
@@ -25,12 +24,10 @@ public class JavaNodeConfigurationEditorDeclaration_Editor extends DefaultNodeEd
     editorCell.addEditorCell(this.createRefNode_79d4iw_b0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createComponent_79d4iw_a0(EditorContext editorContext, SNode node) {
     EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.execution.configurations.deprecated.editor.ConfigurationEditorDeclaration_BasicEditor");
     return editorCell;
   }
-
   private EditorCell createRefNode_79d4iw_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("onChangeNodeBlock");

@@ -20,24 +20,20 @@ public class CoordinatePlacer extends Dfs {
   private Map<Edge, Integer> myLenghts;
   private Map<Dart, Direction2D> myDirections;
   private EmbeddedGraph myEmbeddedGraph;
-
   public CoordinatePlacer(EmbeddedGraph embeddedGraph, Map<Edge, Integer> lengths, Map<Dart, Direction2D> directions) {
     myCoordinates = MapSequence.fromMap(new HashMap<Node, Point>());
     myLenghts = lengths;
     myDirections = directions;
     myEmbeddedGraph = embeddedGraph;
   }
-
   public Map<Node, Point> getCoordinates() {
     doDfs(myEmbeddedGraph.getGraph(), Edge.Direction.BOTH);
     return myCoordinates;
   }
-
   @Override
   protected void preprocessRoot(Node root) {
     MapSequence.fromMap(myCoordinates).put(root, new Point(15, 15));
   }
-
   @Override
   protected void preprocess(Node node, Edge from) {
     if (from == null) {

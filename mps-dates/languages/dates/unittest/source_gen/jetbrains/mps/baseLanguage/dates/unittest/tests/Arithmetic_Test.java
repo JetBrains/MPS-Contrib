@@ -18,7 +18,6 @@ public class Arithmetic_Test extends TestCase {
     Assert.assertTrue(DateTimeOperations.compare(DateTimeOperations.plus(myinstant, Period.days(1)), CompareType.EQ, DateTimeArithmetics.plus(myinstant, Period.days(1)), DateTimeFieldType.millisOfSecond()));
     Assert.assertTrue(DateTimeOperations.compare(DateTimeOperations.plus(myinstant, Period.years(1)), CompareType.EQ, DateTimeArithmetics.plus(myinstant, Period.years(1)), DateTimeFieldType.millisOfSecond()));
   }
-
   public void test_plusExpression() throws Exception {
     Long d1 = System.currentTimeMillis();
     Long d2 = DateTimeArithmetics.plus(d1, Period.hours(5));
@@ -29,31 +28,26 @@ public class Arithmetic_Test extends TestCase {
     DateTime now2 = DateTimeArithmetics.plus(now1, Period.hours(5));
     Assert.assertEquals(Period.hours(5), DateTimeArithmetics.minus(now2, now1));
   }
-
   public void test_plusExpressionWithConvert() throws Exception {
     Long d1 = System.currentTimeMillis();
     Long d2 = DateTimeArithmetics.plus(d1, Period.hours(5));
     Assert.assertTrue(DateTimeOperations.compare(DateTimeOperations.convert((DateTimeArithmetics.minus(d2, d1))), CompareType.EQ, DateTimeOperations.convert(Period.hours(5)), DateTimeFieldType.millisOfSecond()));
   }
-
   public void test_plusExpressionReversed() throws Exception {
     Long d1 = System.currentTimeMillis();
     Long d2 = DateTimeArithmetics.plus(Period.hours(5), d1);
     Assert.assertTrue(DateTimeOperations.compare((DateTimeArithmetics.minus(d2, d1)), CompareType.EQ, DateTimeOperations.toDuration(Period.hours(5))));
   }
-
   public void test_minusExpression() throws Exception {
     Long d1 = System.currentTimeMillis();
     Long d2 = DateTimeArithmetics.minus(d1, Period.minutes(5));
     Assert.assertTrue(DateTimeOperations.compare(DateTimeArithmetics.minus(d1, d2), CompareType.EQ, DateTimeOperations.toDuration(Period.minutes(5))));
   }
-
   public void test_minusExpressionWithConvert() throws Exception {
     Long d1 = System.currentTimeMillis();
     Long d2 = DateTimeArithmetics.minus(d1, Period.minutes(5));
     Assert.assertTrue(DateTimeOperations.compare(DateTimeOperations.convert((DateTimeArithmetics.minus(d1, d2))), CompareType.EQ, DateTimeOperations.convert(Period.minutes(5)), DateTimeFieldType.millisOfSecond()));
   }
-
   public Arithmetic_Test() {
   }
 }

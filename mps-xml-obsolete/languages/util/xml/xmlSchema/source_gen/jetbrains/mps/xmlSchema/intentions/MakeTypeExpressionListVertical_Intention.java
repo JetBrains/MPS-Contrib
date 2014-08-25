@@ -16,65 +16,50 @@ import jetbrains.mps.intentions.IntentionDescriptor;
 
 public class MakeTypeExpressionListVertical_Intention implements IntentionFactory {
   private Collection<IntentionExecutable> myCachedExecutable;
-
   public MakeTypeExpressionListVertical_Intention() {
   }
-
   public String getConcept() {
     return "jetbrains.mps.xmlSchema.structure.TypeExpressionList";
   }
-
   public String getPresentation() {
     return "MakeTypeExpressionListVertical";
   }
-
   public String getPersistentStateKey() {
     return "jetbrains.mps.xmlSchema.intentions.MakeTypeExpressionListVertical_Intention";
   }
-
   public String getLanguageFqName() {
     return "jetbrains.mps.xmlSchema";
   }
-
   public IntentionType getType() {
     return IntentionType.NORMAL;
   }
-
   public boolean isAvailableInChildNodes() {
     return true;
   }
-
   public boolean isApplicable(final SNode node, final EditorContext editorContext) {
     return true;
   }
-
   public SNodeReference getIntentionNodeReference() {
     return new SNodePointer("r:00000000-0000-4000-0000-011c89590597(jetbrains.mps.xmlSchema.intentions)", "1195647346726");
   }
-
   public boolean isSurroundWith() {
     return false;
   }
-
   public Collection<IntentionExecutable> instances(final SNode node, final EditorContext context) {
     if (myCachedExecutable == null) {
       myCachedExecutable = Collections.<IntentionExecutable>singletonList(new MakeTypeExpressionListVertical_Intention.IntentionImplementation());
     }
     return myCachedExecutable;
   }
-
   public class IntentionImplementation implements IntentionExecutable {
     public IntentionImplementation() {
     }
-
     public String getDescription(final SNode node, final EditorContext editorContext) {
       return (SPropertyOperations.getBoolean(node, "isVertical") ? "Make type expression list horizontal" : "Make type expression list vertical");
     }
-
     public void execute(final SNode node, final EditorContext editorContext) {
       SPropertyOperations.set(node, "isVertical", "" + (!(SPropertyOperations.getBoolean(node, "isVertical"))));
     }
-
     public IntentionDescriptor getDescriptor() {
       return MakeTypeExpressionListVertical_Intention.this;
     }

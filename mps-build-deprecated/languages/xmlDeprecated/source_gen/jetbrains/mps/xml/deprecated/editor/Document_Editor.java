@@ -21,7 +21,6 @@ public class Document_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_7wjwco_a(editorContext, node);
   }
-
   private EditorCell createCollection_7wjwco_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_7wjwco_a");
@@ -32,7 +31,6 @@ public class Document_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createRefNode_7wjwco_d0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createCollection_7wjwco_a0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_7wjwco_a0");
@@ -45,7 +43,6 @@ public class Document_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createProperty_7wjwco_d0a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_7wjwco_a0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "document");
     editorCell.setCellId("Constant_7wjwco_a0a");
@@ -55,7 +52,6 @@ public class Document_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createProperty_7wjwco_b0a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("name");
@@ -76,7 +72,6 @@ public class Document_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createConstant_7wjwco_c0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ".");
     editorCell.setCellId("Constant_7wjwco_c0a");
@@ -88,7 +83,6 @@ public class Document_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createProperty_7wjwco_d0a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("extension");
@@ -110,7 +104,6 @@ public class Document_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createConstant_7wjwco_b0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_7wjwco_b0");
@@ -120,7 +113,6 @@ public class Document_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefNode_7wjwco_c0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("doctype");
@@ -140,7 +132,6 @@ public class Document_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createRefNode_7wjwco_d0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("rootElement");

@@ -20,11 +20,9 @@ import jetbrains.mps.internal.collections.runtime.Sequence;
 
 public class LayoutOptimizer {
   private GraphLayout myLayout;
-
   private LayoutOptimizer(GraphLayout layout) {
     myLayout = layout;
   }
-
   private void optimize() {
     boolean foundOptimize = true;
     while (foundOptimize) {
@@ -53,7 +51,6 @@ public class LayoutOptimizer {
       }
     }
   }
-
   private List<Point> tryChain(List<Point> chain, Edge edge) {
     boolean verMid = ListSequence.fromList(chain).getElement(1).x == ListSequence.fromList(chain).getElement(2).x;
     boolean zLike;
@@ -85,7 +82,6 @@ public class LayoutOptimizer {
     }
     return null;
   }
-
   public List<Point> getChain(Point begin, Point mid, Point end) {
     List<Point> chain = ListSequence.fromList(new ArrayList<Point>());
     ListSequence.fromList(chain).addElement(begin);
@@ -97,7 +93,6 @@ public class LayoutOptimizer {
     ListSequence.fromList(chain).addElement(end);
     return chain;
   }
-
   private boolean testRect(Rectangle rect, Edge edge) {
     for (INode node : SetSequence.fromSet(MapSequence.fromMap(myLayout.getNodeLayout()).keySet())) {
       Node myNode = ((Node) node);
@@ -132,7 +127,6 @@ public class LayoutOptimizer {
     }
     return true;
   }
-
   private boolean isInsideAndNotACorner(int x, int y, Rectangle rect) {
     boolean insideX = Util1D.insideClosedSegment(rect.x, rect.x + rect.width, x);
     boolean insideY = Util1D.insideClosedSegment(rect.y, rect.y + rect.height, y);
@@ -143,7 +137,6 @@ public class LayoutOptimizer {
     }
     return false;
   }
-
   public static void optimizeEdges(GraphLayout layout) {
     new LayoutOptimizer(layout).optimize();
   }

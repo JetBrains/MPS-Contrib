@@ -8,7 +8,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 public class Attribute_Behavior {
   public static void init(SNode thisNode) {
   }
-
   public static boolean call_isOfDeclaration_353793545802643786(SNode thisNode, SNode decl) {
     if ((SLinkOperations.getTarget(thisNode, "attributeDeclaration", false) == null)) {
       return false;

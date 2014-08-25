@@ -9,10 +9,8 @@ import java.util.List;
 
 public abstract class ConditionalPrinter implements Printer {
   private int myEstimatedPrintLength = -1;
-
   public ConditionalPrinter() {
   }
-
   @Override
   public int estimatePrintedLength() {
     if (myEstimatedPrintLength < 0) {
@@ -24,14 +22,11 @@ public abstract class ConditionalPrinter implements Printer {
     }
     return myEstimatedPrintLength;
   }
-
   @Override
   public void printTo(Appendable out, DateTime dateTime, Locale locale) throws IOException {
     Printer printer = getAllPrinters().get(getPrinterIndex(dateTime, locale));
     printer.printTo(out, dateTime, locale);
   }
-
   protected abstract int getPrinterIndex(DateTime dateTime, Locale locale);
-
   protected abstract List<Printer> getAllPrinters();
 }

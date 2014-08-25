@@ -9,7 +9,6 @@ import jetbrains.mps.baseLanguage.closures.runtime.Result;
 public class DateTimeUtil {
   public DateTimeUtil() {
   }
-
   public static void withTimeZone(DateTimeZone tz, _UnrestrictedFunctionTypes._void_void_P0_E0 block) {
     DateTimeZone currenttz = DateTimeOperations.getCurrentTimeZone();
     try {

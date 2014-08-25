@@ -17,24 +17,19 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 
 public class ClusteredGraphLayout extends GraphLayout {
   private Map<Node, List<Point>> myClusterLayout;
-
   public ClusteredGraphLayout(ClusteredGraph graph) {
     super(graph);
     myClusterLayout = MapSequence.fromMap(new HashMap<Node, List<Point>>());
   }
-
   public void setClusterLayout(Node cluster, List<Point> borderLayout) {
     MapSequence.fromMap(myClusterLayout).put(cluster, borderLayout);
   }
-
   public List<Point> getClusterLayout(Node cluster) {
     return MapSequence.fromMap(myClusterLayout).get(cluster);
   }
-
   public Set<Node> getLayoutedClusters() {
     return MapSequence.fromMap(myClusterLayout).keySet();
   }
-
   @Override
   public ClusteredGraphLayout shift(int xShift, int yShift) {
     ClusteredGraphLayout graphLayout = ((ClusteredGraphLayout) super.shift(xShift, yShift));
@@ -44,7 +39,6 @@ public class ClusteredGraphLayout extends GraphLayout {
     }
     return graphLayout;
   }
-
   @Override
   public Rectangle getContainingRectangle() {
     Rectangle rect = super.getContainingRectangle();

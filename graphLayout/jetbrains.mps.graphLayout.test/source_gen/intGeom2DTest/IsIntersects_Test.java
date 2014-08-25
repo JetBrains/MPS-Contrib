@@ -15,7 +15,6 @@ public class IsIntersects_Test extends TestCase {
     Point q2 = new Point(9, 3);
     Assert.assertFalse(GeomUtil.intersects(p1, p2, q1, q2));
   }
-
   public void test_sameLine2() throws Exception {
     Point p1 = new Point(1, 1);
     Point p2 = new Point(3, 3);
@@ -23,7 +22,6 @@ public class IsIntersects_Test extends TestCase {
     Point q2 = new Point(4, 4);
     Assert.assertTrue(GeomUtil.intersects(p1, p2, q1, q2));
   }
-
   public void test_interByEnd() throws Exception {
     Point p1 = new Point(1, 1);
     Point p2 = new Point(3, 3);
@@ -31,7 +29,6 @@ public class IsIntersects_Test extends TestCase {
     Point q2 = new Point(-4, 4);
     Assert.assertTrue(GeomUtil.intersects(p1, p2, q1, q2));
   }
-
   public void test_simplyInter() throws Exception {
     Point p1 = new Point(1, 1);
     Point p2 = new Point(7, 7);
@@ -39,7 +36,6 @@ public class IsIntersects_Test extends TestCase {
     Point q2 = new Point(6, 2);
     Assert.assertTrue(GeomUtil.intersects(p1, p2, q1, q2));
   }
-
   public IsIntersects_Test() {
   }
 }

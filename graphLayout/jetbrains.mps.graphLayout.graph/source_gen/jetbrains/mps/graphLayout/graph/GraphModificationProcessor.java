@@ -9,12 +9,10 @@ import java.util.HashSet;
 public class GraphModificationProcessor {
   private boolean myIsSuspended;
   private Set<IGraphModificationListener> myListeners;
-
   public GraphModificationProcessor() {
     myIsSuspended = false;
     myListeners = SetSequence.fromSet(new HashSet<IGraphModificationListener>());
   }
-
   public void fire(GraphModificationEvent event) {
     if (myIsSuspended) {
       return;
@@ -23,19 +21,15 @@ public class GraphModificationProcessor {
       listener.process(event);
     }
   }
-
   public void suspend() {
     myIsSuspended = true;
   }
-
   public void resume() {
     myIsSuspended = false;
   }
-
   public void addListener(IGraphModificationListener listener) {
     SetSequence.fromSet(myListeners).addElement(listener);
   }
-
   public void removeListener(IGraphModificationListener listener) {
     if (!(SetSequence.fromSet(myListeners).contains(listener))) {
       throw new RuntimeException("removing listener from wrong place");

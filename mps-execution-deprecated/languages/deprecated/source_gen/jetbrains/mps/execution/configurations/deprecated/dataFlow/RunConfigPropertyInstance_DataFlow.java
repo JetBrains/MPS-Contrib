@@ -11,7 +11,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 public class RunConfigPropertyInstance_DataFlow extends DataFlowBuilder {
   public RunConfigPropertyInstance_DataFlow() {
   }
-
   public void build(final IOperationContext operationContext, final DataFlowBuilderContext _context) {
     _context.getBuilder().build((SNode) SLinkOperations.getTarget(_context.getNode(), "propertyValue", true));
     _context.getBuilder().emitWrite(SLinkOperations.getTarget(_context.getNode(), "property", false), "r:8656e939-bf57-4238-aa56-83db35841a3e(jetbrains.mps.execution.configurations.deprecated.dataFlow)/314981645426571177");

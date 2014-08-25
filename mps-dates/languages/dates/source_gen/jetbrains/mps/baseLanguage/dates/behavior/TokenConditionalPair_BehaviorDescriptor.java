@@ -7,7 +7,6 @@ import jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor;
 public class TokenConditionalPair_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor {
   public TokenConditionalPair_BehaviorDescriptor() {
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.baseLanguage.dates.structure.TokenConditionalPair";

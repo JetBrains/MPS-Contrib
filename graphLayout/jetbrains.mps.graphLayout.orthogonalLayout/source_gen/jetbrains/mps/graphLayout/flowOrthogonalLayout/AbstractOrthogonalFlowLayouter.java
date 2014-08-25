@@ -44,12 +44,10 @@ public abstract class AbstractOrthogonalFlowLayouter extends BasicLayouter {
   protected Set<Edge> myRealEdges;
   protected Set<Node> myRealNodes;
   protected Set<Edge> myStraightEdges;
-
   public AbstractOrthogonalFlowLayouter() {
     myAvoidLabelCrossings = true;
     myUseRepresentationOptimizations = true;
   }
-
   @Override
   public GraphLayout doLayoutConnectedGraph(LayoutInfo layoutInfo) {
     LayoutInfo copyInfo;
@@ -63,13 +61,11 @@ public abstract class AbstractOrthogonalFlowLayouter extends BasicLayouter {
     refineLayout(layout);
     return layout;
   }
-
   private void refineLayout(GraphLayout layout) {
     for (IEdge edge : SetSequence.fromSet(MapSequence.fromMap(layout.getEdgeLayout()).keySet())) {
       layout.setLayoutFor(edge, OrthogonalUtil.refinePolyline(layout.getEdgeLayout(edge)));
     }
   }
-
   private GraphLayout getLayoutCorruptGraph(LayoutInfo layoutInfo) {
     myStraightEdges = null;
     Graph graph = layoutInfo.getGraph();
@@ -130,7 +126,6 @@ public abstract class AbstractOrthogonalFlowLayouter extends BasicLayouter {
     GraphLayout initialLayout = this.refineLayout(graph, initialNodes, layout, initialEdges, history, labeledEdges);
     return initialLayout;
   }
-
   protected GraphLayout getSingleNodeLayout(Graph graph, LayoutInfo layoutInfo) {
     GraphLayout layout = new GraphLayout(graph);
     Node node = ListSequence.fromList(graph.getNodes()).first();
@@ -139,7 +134,6 @@ public abstract class AbstractOrthogonalFlowLayouter extends BasicLayouter {
     layout.setLayoutFor(node, rect);
     return layout;
   }
-
   private void removeLoops(Graph graph, Set<Edge> loops) {
     for (Edge edge : ListSequence.fromList(graph.getEdges())) {
       if (edge.getSource() == edge.getTarget()) {
@@ -148,7 +142,6 @@ public abstract class AbstractOrthogonalFlowLayouter extends BasicLayouter {
       }
     }
   }
-
   protected GraphLayout refineLayout(Graph graph, Set<Node> initialNodes, GraphLayout layout, Set<Edge> initialEdges, Map<Edge, List<Edge>> history, Map<Edge, Edge> labeledEdges) {
     GraphLayout initialLayout = GraphLayoutFactory.createGraphLayout(graph);
     for (Node node : SetSequence.fromSet(initialNodes)) {
@@ -172,7 +165,6 @@ public abstract class AbstractOrthogonalFlowLayouter extends BasicLayouter {
     }
     return initialLayout;
   }
-
   private void addLoops(Set<Edge> loops, EmbeddedGraph embeddedGraph) {
     Map<Node, Face> facesMap = MapSequence.fromMap(new HashMap<Node, Face>());
     for (Edge edge : SetSequence.fromSet(loops)) {
@@ -192,16 +184,12 @@ public abstract class AbstractOrthogonalFlowLayouter extends BasicLayouter {
       MapSequence.fromMap(facesMap).put(node, newFace);
     }
   }
-
   protected EmbeddedGraph getEmbedding(Graph graph) {
     IEmbeddingFinder embeddingFinder = EmbeddingFinderFactory.getFinderForGraph(graph);
     return embeddingFinder.find(graph);
   }
-
   public abstract Edge getLabeledEdge(List<Edge> edges);
-
   public abstract GraphLayout getLayoutFromEmbeddedGraph(EmbeddedGraph embeddedGraph, LayoutInfo layoutInfo);
-
   protected Map<Node, Map<Direction2D, Integer>> getNodeDirectionSizes(List<Node> oldNodes, Map<Node, Dimension> nodeSizes) {
     Map<Node, Map<Direction2D, Integer>> nodeDirectionSizes = MapSequence.fromMap(new HashMap<Node, Map<Direction2D, Integer>>());
     for (Node node : ListSequence.fromList(oldNodes)) {
@@ -217,7 +205,6 @@ public abstract class AbstractOrthogonalFlowLayouter extends BasicLayouter {
     }
     return nodeDirectionSizes;
   }
-
   protected Map<Edge, Integer> getEdgesShifts(List<QuasiRepresentationModifier.Modification> modifications, Map<Dart, Direction2D> directions, Map<Node, Dimension> nodeSizes) {
     Map<Edge, Integer> edgeShifts = MapSequence.fromMap(new HashMap<Edge, Integer>());
     for (QuasiRepresentationModifier.Modification modification : ListSequence.fromList(modifications)) {
@@ -242,7 +229,6 @@ public abstract class AbstractOrthogonalFlowLayouter extends BasicLayouter {
     }
     return edgeShifts;
   }
-
   protected void splitEdges(GraphLayout layout, QuasiRepresentationModifier.Modification modification, Map<Edge, Integer> edgeShifts) {
     List<Edge> edges = modification.getModifiedEdges();
     Edge firstEdge = ListSequence.fromList(edges).first();
@@ -275,19 +261,15 @@ public abstract class AbstractOrthogonalFlowLayouter extends BasicLayouter {
       }
     }
   }
-
   public boolean getAvoidLabelCrossings() {
     return myAvoidLabelCrossings;
   }
-
   public void setAvoidLabelCrossings(boolean avoidLabelCrossings) {
     myAvoidLabelCrossings = avoidLabelCrossings;
   }
-
   public boolean getUseRepresentationOptimizations() {
     return myUseRepresentationOptimizations;
   }
-
   public void setUseRepresentationOptimizations(boolean useRepresentationOptimizations) {
     myUseRepresentationOptimizations = useRepresentationOptimizations;
   }

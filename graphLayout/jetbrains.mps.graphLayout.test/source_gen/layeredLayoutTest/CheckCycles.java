@@ -10,16 +10,13 @@ import jetbrains.mps.internal.collections.runtime.MapSequence;
 
 public class CheckCycles extends Dfs {
   private boolean hasCycles;
-
   public CheckCycles() {
   }
-
   public boolean hasCycle(Graph graph) {
     hasCycles = false;
     doDfs(graph);
     return hasCycles;
   }
-
   @Override
   protected void processEdge(Edge edge, Node source) {
     if ((Integer) MapSequence.fromMap(getDfsState()).get(edge.getTarget()) == 0) {

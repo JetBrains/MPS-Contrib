@@ -8,11 +8,9 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 public class BinaryOperation_Behavior {
   public static void init(SNode thisNode) {
   }
-
   public static SNode virtual_getType_1213877398951(SNode thisNode, SNode s1, SNode s2) {
     return s1;
   }
-
   public static String virtual_getOperation_1262430001741497840(SAbstractConcept thisConcept) {
     return null;
   }

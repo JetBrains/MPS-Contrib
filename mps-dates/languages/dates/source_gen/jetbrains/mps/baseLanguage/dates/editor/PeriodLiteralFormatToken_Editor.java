@@ -24,7 +24,6 @@ public class PeriodLiteralFormatToken_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_i0kv1o_a(editorContext, node);
   }
-
   private EditorCell createCollection_i0kv1o_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_i0kv1o_a");
@@ -32,7 +31,6 @@ public class PeriodLiteralFormatToken_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createProperty_i0kv1o_a0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createProperty_i0kv1o_a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("value");

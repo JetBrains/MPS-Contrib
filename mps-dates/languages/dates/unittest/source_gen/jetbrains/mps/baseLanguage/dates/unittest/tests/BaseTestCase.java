@@ -7,10 +7,8 @@ import org.apache.log4j.BasicConfigurator;
 
 public abstract class BaseTestCase extends TestCase {
   private static boolean LOGGING_INITIALIZED = false;
-
   public BaseTestCase() {
   }
-
   @Override
   public void setUp() {
     if (!(LOGGING_INITIALIZED)) {

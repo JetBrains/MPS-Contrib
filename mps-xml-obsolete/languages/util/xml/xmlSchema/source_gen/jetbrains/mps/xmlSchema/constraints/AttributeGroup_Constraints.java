@@ -14,7 +14,6 @@ public class AttributeGroup_Constraints extends BaseConstraintsDescriptor {
   public AttributeGroup_Constraints() {
     super("jetbrains.mps.xmlSchema.structure.AttributeGroup");
   }
-
   @Override
   protected Map<String, PropertyConstraintsDescriptor> getNotDefaultProperties() {
     Map<String, PropertyConstraintsDescriptor> properties = new HashMap();
@@ -23,7 +22,6 @@ public class AttributeGroup_Constraints extends BaseConstraintsDescriptor {
       public boolean hasOwnGetter() {
         return true;
       }
-
       @Override
       public Object getValue(SNode node) {
         String propertyName = "alias";

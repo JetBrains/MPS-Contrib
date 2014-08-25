@@ -13,15 +13,12 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 public class ITaskDeclaration_Behavior {
   public static void init(SNode thisNode) {
   }
-
   public static boolean virtual_isAbstract_5699548131010533031(SNode thisNode) {
     return SPropertyOperations.getBoolean(thisNode, "abstract");
   }
-
   public static boolean virtual_canBeRootTask_1449762848926780427(SNode thisNode) {
     return !(BehaviorReflection.invokeVirtual(Boolean.TYPE, thisNode, "virtual_isAbstract_5699548131010533031", new Object[]{}));
   }
-
   public static Iterable<SNode> virtual_getPossibleNesteds_1449762848926780436(final SNode thisNode, List<SNode> declarations) {
     final List<SNode> nestedTasks = BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), thisNode, "virtual_getNestedTasks_4241383766070831847", new Object[]{});
     return ListSequence.fromList(declarations).where(new IWhereFilter<SNode>() {
@@ -30,23 +27,18 @@ public class ITaskDeclaration_Behavior {
       }
     });
   }
-
   public static boolean virtual_isPossibleNested_1648602681640249389(SNode thisNode, SNode declaration, List<SNode> nestedTasks) {
     return !(BehaviorReflection.invokeVirtual(Boolean.TYPE, declaration, "virtual_filterMeOut_4710899751214010949", new Object[]{})) && BehaviorReflection.invokeVirtual(Boolean.TYPE, declaration, "virtual_isHeirOf_5699548131010535105", new Object[]{nestedTasks}) && !(BehaviorReflection.invokeVirtual(Boolean.TYPE, declaration, "virtual_isAbstract_5699548131010533031", new Object[]{}));
   }
-
   public static boolean call_isPossibleNested_1648602681640273280(SNode thisNode, SNode declaration) {
     return BehaviorReflection.invokeVirtual(Boolean.TYPE, thisNode, "virtual_isPossibleNested_1648602681640249389", new Object[]{declaration, BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), thisNode, "virtual_getNestedTasks_4241383766070831847", new Object[]{})});
   }
-
   public static boolean virtual_hasNested_4241383766070759083(SNode thisNode) {
     return ListSequence.fromList(BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), thisNode, "virtual_getNestedTasks_4241383766070831847", new Object[]{})).count() > 0;
   }
-
   public static boolean virtual_filterMeOut_4710899751214010949(SNode thisNode) {
     return false;
   }
-
   public static List<SNode> virtual_getAttributesDeclarations_1190349257898147625(SNode thisNode) {
     return SLinkOperations.getTargets(thisNode, "attributesDecl", true);
   }

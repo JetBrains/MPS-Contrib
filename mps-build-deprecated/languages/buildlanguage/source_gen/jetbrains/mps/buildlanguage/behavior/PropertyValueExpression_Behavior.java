@@ -11,7 +11,6 @@ import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 public class PropertyValueExpression_Behavior {
   public static void init(SNode thisNode) {
   }
-
   public static List<String> virtual_getPaths_1213877276955(SNode thisNode) {
     List<String> list = ListSequence.fromListAndArray(new ArrayList<String>(), BehaviorReflection.invokeVirtual(String.class, thisNode, "virtual_getActualValue_1213877472572", new Object[]{}));
     return list;

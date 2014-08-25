@@ -50,7 +50,6 @@ public class RectLayoutTestPanel extends JPanel {
   private JTextField myNumEdgesField;
   private JTextField myNumNodesField;
   private RectLayoutTestPanel.MyLayoutChoice myLayoutChoice;
-
   public RectLayoutTestPanel() {
     setLayout(new GridBagLayout());
     createDoLayoutButton();
@@ -68,7 +67,6 @@ public class RectLayoutTestPanel extends JPanel {
     myCurrentLayout = null;
     myPainter = new LayoutPainter();
   }
-
   private void createLayoutChoiceButtons() {
     GridBagConstraints c = new GridBagConstraints();
     c.gridy = 0;
@@ -77,7 +75,6 @@ public class RectLayoutTestPanel extends JPanel {
     myLayoutChoice = new RectLayoutTestPanel.MyLayoutChoice();
     add(myLayoutChoice);
   }
-
   private void createNewGraphButton() {
     myNumNodesField = new JTextField(10);
     myNumNodesField.setBorder(BorderFactory.createTitledBorder("nodes:"));
@@ -109,7 +106,6 @@ public class RectLayoutTestPanel extends JPanel {
     });
     this.add(button);
   }
-
   private void createDoLayoutButton() {
     JButton button = new JButton("do layout!");
     GridBagConstraints c = new GridBagConstraints();
@@ -128,7 +124,6 @@ public class RectLayoutTestPanel extends JPanel {
     c.gridheight = 1;
     this.add(button);
   }
-
   private void writeGraph(Graph graph) {
     List<Edge> edges = graph.getEdges();
     myTextArea.setText("");
@@ -138,7 +133,6 @@ public class RectLayoutTestPanel extends JPanel {
     }
     myTextArea.append("\n\n 0 \n 0 \n");
   }
-
   private void layoutGraph() {
     /*
       myLayouter.setLayoutLevel(myLayoutChoice.getSelectedLayoutLavel());
@@ -197,7 +191,6 @@ public class RectLayoutTestPanel extends JPanel {
       */
     }
   }
-
   private void createTextPanel() {
     myTextArea = new JTextArea(20, 20);
     myTextArea.setBorder(BorderFactory.createTitledBorder("enter graph here"));
@@ -209,7 +202,6 @@ public class RectLayoutTestPanel extends JPanel {
     c.weighty = 1;
     this.add(myTextArea, c);
   }
-
   private void createGraphPanel() {
     myGraphLabel = new RectLayoutTestPanel.MyGraphLabel();
     myGraphLabel.setBorder(BorderFactory.createTitledBorder("graph layout"));
@@ -223,7 +215,6 @@ public class RectLayoutTestPanel extends JPanel {
     c.weightx = 1;
     this.add(new JScrollPane(myGraphLabel), c);
   }
-
   private static void create() {
     JFrame frame = new JFrame();
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -232,7 +223,6 @@ public class RectLayoutTestPanel extends JPanel {
     frame.pack();
     frame.setVisible(true);
   }
-
   public static void main(String[] args) {
     SwingUtilities.invokeLater(new Runnable() {
       @Override
@@ -241,11 +231,9 @@ public class RectLayoutTestPanel extends JPanel {
       }
     });
   }
-
   public class MyLayoutChoice extends JPanel {
     private int myLayoutLevel;
     private JRadioButton myLabelForAllEdges;
-
     public MyLayoutChoice() {
       ButtonGroup group = new ButtonGroup();
       GridBagConstraints c = new GridBagConstraints();
@@ -289,21 +277,17 @@ public class RectLayoutTestPanel extends JPanel {
       myLabelForAllEdges = button;
       myLayoutLevel = 2;
     }
-
     public int getSelectedLayoutLavel() {
       return myLayoutLevel;
     }
-
     public boolean isSetLabels() {
       return myLabelForAllEdges.isSelected();
     }
   }
-
   private class MyGraphLabel extends JLabel {
     public MyGraphLabel() {
       super();
     }
-
     @Override
     public void paintComponent(Graphics graphics) {
       if (myCurrentLayout == null) {

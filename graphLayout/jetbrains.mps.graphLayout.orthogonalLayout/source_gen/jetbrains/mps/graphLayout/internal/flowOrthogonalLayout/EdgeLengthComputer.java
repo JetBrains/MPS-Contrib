@@ -20,19 +20,15 @@ public class EdgeLengthComputer {
   private static int SHOW_INFO = 0;
   private static int UNIT_LENGTH = 3;
   private int myUnitLength;
-
   public EdgeLengthComputer() {
     myUnitLength = EdgeLengthComputer.UNIT_LENGTH;
   }
-
   public void setUnitLength(int length) {
     myUnitLength = length;
   }
-
   public Map<Edge, Integer> compute(EmbeddedGraph embeddedGraph, Map<Dart, Direction2D> directions) {
     return compute(embeddedGraph, directions, MapSequence.fromMap(new HashMap<Edge, Integer>()));
   }
-
   public Map<Edge, Integer> compute(EmbeddedGraph embeddedGraph, Map<Dart, Direction2D> directions, Map<Edge, Integer> predefinedLengths) {
     Map<Edge, Integer> horEdgeLengths = computeEdgeLengths(embeddedGraph, directions, Direction2D.RIGHT, predefinedLengths);
     Map<Edge, Integer> verEdgeLenghts = computeEdgeLengths(embeddedGraph, directions, Direction2D.DOWN, predefinedLengths);
@@ -53,7 +49,6 @@ public class EdgeLengthComputer {
     }
     return lengths;
   }
-
   private Map<Edge, Integer> computeEdgeLengths(EmbeddedGraph embeddedGraph, final Map<Dart, Direction2D> directions, final Direction2D direction, Map<Edge, Integer> predefinedLengths) {
     Graph graph = embeddedGraph.getGraph();
     Graph network = new Graph();

@@ -27,7 +27,6 @@ public class ComponentReference_Constraints extends BaseConstraintsDescriptor {
   public ComponentReference_Constraints() {
     super("jetbrains.mps.uiLanguage.structure.ComponentReference");
   }
-
   @Override
   protected Map<String, ReferenceConstraintsDescriptor> getNotDefaultReferences() {
     Map<String, ReferenceConstraintsDescriptor> references = new HashMap();
@@ -36,7 +35,6 @@ public class ComponentReference_Constraints extends BaseConstraintsDescriptor {
       public boolean hasOwnScopeProvider() {
         return true;
       }
-
       @Nullable
       @Override
       public ReferenceScopeProvider getScopeProvider() {
@@ -61,7 +59,6 @@ public class ComponentReference_Constraints extends BaseConstraintsDescriptor {
             }
             return result;
           }
-
           @Override
           public SNodeReference getSearchScopeValidatorNode() {
             return breakingNode_bgitcy_a0a1a0a0a1a0b0a1a1;
@@ -71,6 +68,5 @@ public class ComponentReference_Constraints extends BaseConstraintsDescriptor {
     });
     return references;
   }
-
   private static SNodePointer breakingNode_bgitcy_a0a1a0a0a1a0b0a1a1 = new SNodePointer("r:00000000-0000-4000-0000-011c8959054e(jetbrains.mps.uiLanguage.constraints)", "1213104840189");
 }

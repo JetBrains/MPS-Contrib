@@ -12,15 +12,12 @@ public enum PeriodSeparatorKind {
   IFAFTER("right", "ifAfter");
 
   private String myName;
-
   public String getName() {
     return this.myName;
   }
-
   public String getValueAsString() {
     return this.myValue;
   }
-
   public static List<PeriodSeparatorKind> getConstants() {
     List<PeriodSeparatorKind> list = ListSequence.fromList(new LinkedList<PeriodSeparatorKind>());
     ListSequence.fromList(list).addElement(PeriodSeparatorKind.DEFAULT);
@@ -28,11 +25,9 @@ public enum PeriodSeparatorKind {
     ListSequence.fromList(list).addElement(PeriodSeparatorKind.IFAFTER);
     return list;
   }
-
   public static PeriodSeparatorKind getDefault() {
     return PeriodSeparatorKind.DEFAULT;
   }
-
   public static PeriodSeparatorKind parseValue(String value) {
     if (value == null) {
       return PeriodSeparatorKind.getDefault();
@@ -48,14 +43,11 @@ public enum PeriodSeparatorKind {
     }
     return PeriodSeparatorKind.getDefault();
   }
-
   private String myValue;
-
   PeriodSeparatorKind(String name, String value) {
     this.myName = name;
     this.myValue = value;
   }
-
   public String getValue() {
     return this.myValue;
   }

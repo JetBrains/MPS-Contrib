@@ -12,7 +12,6 @@ public class Node implements INode {
   private boolean myIsDummy;
   private int myIndex;
   private Graph myGraph;
-
   /*package*/ Node(Graph graph, int index, boolean isDummy) {
     myGraph = graph;
     myOutEdges = ListSequence.fromList(new LinkedList<Edge>());
@@ -20,7 +19,6 @@ public class Node implements INode {
     myIndex = index;
     myIsDummy = isDummy;
   }
-
   /*package*/ Edge addEdgeTo(Node target) {
     Edge edge = new Edge(this, target);
     this.addOutEdge(edge);
@@ -29,22 +27,18 @@ public class Node implements INode {
     }
     return edge;
   }
-
   @Override
   public List<Edge> getOutEdges() {
     return myOutEdges;
   }
-
   @Override
   public List<Edge> getInEdges() {
     return myInEdges;
   }
-
   @Override
   public List<Edge> getEdges() {
     return getEdges(Edge.Direction.BOTH);
   }
-
   public List<Edge> getEdges(Edge.Direction dir) {
     if (dir == Edge.Direction.FRONT) {
       return getOutEdges();
@@ -54,27 +48,21 @@ public class Node implements INode {
       return getInEdges();
     }
   }
-
   /*package*/ void addOutEdge(Edge edge) {
     ListSequence.fromList(myOutEdges).addElement(edge);
   }
-
   /*package*/ void addInEdge(Edge edge) {
     ListSequence.fromList(myInEdges).addElement(edge);
   }
-
   public int getIndex() {
     return this.myIndex;
   }
-
   public boolean isDummy() {
     return myIsDummy;
   }
-
   public Graph getGraph() {
     return myGraph;
   }
-
   @Override
   public String toString() {
     return Integer.toString(myIndex);

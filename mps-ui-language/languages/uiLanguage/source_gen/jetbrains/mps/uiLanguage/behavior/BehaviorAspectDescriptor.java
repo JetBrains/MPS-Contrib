@@ -9,7 +9,6 @@ import jetbrains.mps.smodel.runtime.interpreted.BehaviorAspectInterpreted;
 public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor {
   public BehaviorAspectDescriptor() {
   }
-
   public BehaviorDescriptor getDescriptor(String fqName) {
     switch (Arrays.binarySearch(stringSwitchCases_846f5o_a0a0b, fqName)) {
       case 15:
@@ -92,6 +91,5 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return BehaviorAspectInterpreted.getInstance().getDescriptor(fqName);
     }
   }
-
   private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"jetbrains.mps.uiLanguage.structure.ActionHandler", "jetbrains.mps.uiLanguage.structure.AddListenerOperation", "jetbrains.mps.uiLanguage.structure.AfterConstructionBlock", "jetbrains.mps.uiLanguage.structure.AttributeDeclaration", "jetbrains.mps.uiLanguage.structure.AttributeReferenceOperation", "jetbrains.mps.uiLanguage.structure.AttributeValue", "jetbrains.mps.uiLanguage.structure.BeanCreator", "jetbrains.mps.uiLanguage.structure.BeanDeclaration", "jetbrains.mps.uiLanguage.structure.BeanType", "jetbrains.mps.uiLanguage.structure.BeforeConstructionBlock", "jetbrains.mps.uiLanguage.structure.BindExpression", "jetbrains.mps.uiLanguage.structure.CellRendererAttribute", "jetbrains.mps.uiLanguage.structure.ComponentController", "jetbrains.mps.uiLanguage.structure.ComponentCreator", "jetbrains.mps.uiLanguage.structure.ComponentDeclaration", "jetbrains.mps.uiLanguage.structure.ComponentInstance", "jetbrains.mps.uiLanguage.structure.ComponentReference", "jetbrains.mps.uiLanguage.structure.ComponentType", "jetbrains.mps.uiLanguage.structure.EventAccessOperation", "jetbrains.mps.uiLanguage.structure.EventDeclaration", "jetbrains.mps.uiLanguage.structure.EventHandlerReference", "jetbrains.mps.uiLanguage.structure.Form", "jetbrains.mps.uiLanguage.structure.FormPart", "jetbrains.mps.uiLanguage.structure.Grid", "jetbrains.mps.uiLanguage.structure.GridRow", "jetbrains.mps.uiLanguage.structure.InlineEventHandler", "jetbrains.mps.uiLanguage.structure.InlineRenderer", "jetbrains.mps.uiLanguage.structure.LayoutConstraint", "jetbrains.mps.uiLanguage.structure.ListElements", "jetbrains.mps.uiLanguage.structure.PngIcon", "jetbrains.mps.uiLanguage.structure.RaiseInternalStatement", "jetbrains.mps.uiLanguage.structure.RaiseOperation", "jetbrains.mps.uiLanguage.structure.RemoveListenerOperation", "jetbrains.mps.uiLanguage.structure.RenderingObject", "jetbrains.mps.uiLanguage.structure.Scroller", "jetbrains.mps.uiLanguage.structure.StandardDialog", "jetbrains.mps.uiLanguage.structure.StandardDialogButton", "jetbrains.mps.uiLanguage.structure.StubCellRendererInfo"};
 }

@@ -21,7 +21,6 @@ public class Round_Test extends TestCase {
     Long roundDt = DateTimeOperations.round(dt, DateTimeFieldType.dayOfMonth());
     Assert.assertTrue(DateTimeOperations.compare(dt, CompareType.NE, roundDt, DateTimeFieldType.millisOfSecond()));
   }
-
   public void test_roundInTwoZones() throws Exception {
     DateTime clockchange = DateTimeOperations.convert(DateTimeOperations.parse("2009-03-29 01:59:00", (MainFormatTable.INSTANCE).getFormatter("date/time"), null, DateTimeZone.forID("Asia/Singapore"), null), DateTimeZone.forID("Asia/Singapore"));
     Assert.assertEquals("2009-03-29 02:00:00", DateTimeOperations.print(DateTimeOperations.round((DateTimeArithmetics.plus(clockchange, Period.minutes(2))), DateTimeFieldType.hourOfDay()), (new InlineDateFormatter() {
@@ -35,38 +34,32 @@ public class Round_Test extends TestCase {
     clockchange = DateTimeOperations.convert(DateTimeOperations.parse("2009-03-29 01:59:00", (MainFormatTable.INSTANCE).getFormatter("date/time"), null, DateTimeZone.forID("Europe/Moscow"), null), DateTimeZone.forID("Europe/Moscow"));
     Assert.assertEquals("2009-03-29 03:00:00", DateTimeOperations.print(DateTimeOperations.round((DateTimeArithmetics.plus(clockchange, Period.minutes(3))), DateTimeFieldType.hourOfDay()), (MainFormatTable.INSTANCE).getFormatter("date/time"), null));
   }
-
   public void test_floor() throws Exception {
     Long dt = System.currentTimeMillis();
     Long roundDownDt = DateTimeOperations.roundFloor(dt, DateTimeFieldType.monthOfYear());
     Assert.assertFalse(DateTimeOperations.compare(dt, CompareType.LT, roundDownDt, DateTimeFieldType.millisOfSecond()));
   }
-
   public void test_floorInTZ() throws Exception {
     DateTime dt = DateTimeOperations.convert(System.currentTimeMillis(), DateTimeZone.getDefault());
     DateTime rounded = DateTimeOperations.roundFloor(dt, DateTimeFieldType.monthOfYear());
     Assert.assertFalse(DateTimeOperations.compare(dt, CompareType.LT, rounded, DateTimeFieldType.millisOfSecond()));
   }
-
   public void test_ceiling() throws Exception {
     Long dt = System.currentTimeMillis();
     Long roundUpDt = DateTimeOperations.roundCeiling(dt, DateTimeFieldType.minuteOfHour());
     Assert.assertFalse(DateTimeOperations.compare(dt, CompareType.GT, roundUpDt, DateTimeFieldType.millisOfSecond()));
   }
-
   public void test_ceilingInTZ() throws Exception {
     DateTime dt = DateTimeOperations.convert(System.currentTimeMillis(), DateTimeZone.getDefault());
     DateTime rounded = DateTimeOperations.roundCeiling(dt, DateTimeFieldType.dayOfMonth());
     Assert.assertFalse(DateTimeOperations.compare(dt, CompareType.GT, rounded, DateTimeFieldType.millisOfSecond()));
   }
-
   public void test_roundNever() throws Exception {
     Long never = DateTimeOperations.never();
     Long roundDownNever = DateTimeOperations.roundFloor(never, DateTimeFieldType.minuteOfHour());
     Long roundUpNever = DateTimeOperations.roundCeiling(never, DateTimeFieldType.minuteOfHour());
     Assert.assertFalse(DateTimeOperations.compare(roundDownNever, CompareType.GT, never, DateTimeFieldType.millisOfSecond()) || DateTimeOperations.compare(roundUpNever, CompareType.GT, never, DateTimeFieldType.millisOfSecond()));
   }
-
   public void test_roundNeverInMonaco() throws Exception {
     DateTime never1 = DateTimeOperations.convert(DateTimeOperations.never(), DateTimeZone.forID("Europe/Monaco"));
     Assert.assertTrue(DateTimeOperations.compare(DateTimeOperations.roundFloor(never1, DateTimeFieldType.minuteOfHour()), CompareType.EQ, never1, DateTimeFieldType.millisOfSecond()) && DateTimeOperations.compare(DateTimeOperations.roundCeiling(never1, DateTimeFieldType.minuteOfHour()), CompareType.EQ, never1, DateTimeFieldType.millisOfSecond()));

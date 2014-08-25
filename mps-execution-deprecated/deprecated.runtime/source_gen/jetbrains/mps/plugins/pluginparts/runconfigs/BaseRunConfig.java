@@ -19,21 +19,17 @@ public abstract class BaseRunConfig extends BaseMpsRunConfiguration implements L
   protected BaseRunConfig(Project project, ConfigurationFactory factory, String name) {
     super(project, factory, name);
   }
-
   @Override
   public boolean isGeneratedName() {
     return true;
   }
-
   @Override
   public String suggestedName() {
     return getName();
   }
-
   public boolean isDebuggable() {
     return false;
   }
-
   @Override
   public boolean canExecute(String executorId) {
     return executorId.equals(DefaultRunExecutor.EXECUTOR_ID) || isDebuggable();

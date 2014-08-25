@@ -28,7 +28,6 @@ public class DateTimeProperty_Constraints extends BaseConstraintsDescriptor {
   public DateTimeProperty_Constraints() {
     super("jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeProperty");
   }
-
   @Override
   protected Map<String, ReferenceConstraintsDescriptor> getNotDefaultReferences() {
     Map<String, ReferenceConstraintsDescriptor> references = new HashMap();
@@ -37,7 +36,6 @@ public class DateTimeProperty_Constraints extends BaseConstraintsDescriptor {
       public boolean hasOwnScopeProvider() {
         return true;
       }
-
       @Nullable
       @Override
       public ReferenceScopeProvider getScopeProvider() {
@@ -46,7 +44,6 @@ public class DateTimeProperty_Constraints extends BaseConstraintsDescriptor {
           public SNodeReference getSearchScopeValidatorNode() {
             return breakingNode_hi7gxv_a0a0a0a0a1a0b0a1a1;
           }
-
           @Override
           public Scope createScope(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
             return new MethodsScope(Members.visibleStaticMethods((SNode) JavaModelUtil_new.findClassifier(Period.class), _context.getEnclosingNode()));
@@ -59,7 +56,6 @@ public class DateTimeProperty_Constraints extends BaseConstraintsDescriptor {
       public boolean hasOwnScopeProvider() {
         return true;
       }
-
       @Nullable
       @Override
       public ReferenceScopeProvider getScopeProvider() {
@@ -68,7 +64,6 @@ public class DateTimeProperty_Constraints extends BaseConstraintsDescriptor {
           public SNodeReference getSearchScopeValidatorNode() {
             return breakingNode_hi7gxv_a0a0a0a0a1a0b0a2a1;
           }
-
           @Override
           public Scope createScope(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
             return new MethodsScope(Members.visibleStaticMethods((SNode) JavaModelUtil_new.findClassifier(DateTimeFieldType.class), _context.getEnclosingNode()));
@@ -81,7 +76,6 @@ public class DateTimeProperty_Constraints extends BaseConstraintsDescriptor {
       public boolean hasOwnScopeProvider() {
         return true;
       }
-
       @Nullable
       @Override
       public ReferenceScopeProvider getScopeProvider() {
@@ -90,7 +84,6 @@ public class DateTimeProperty_Constraints extends BaseConstraintsDescriptor {
           public SNodeReference getSearchScopeValidatorNode() {
             return breakingNode_hi7gxv_a0a0a0a0a1a0b0a3a1;
           }
-
           @Override
           public Scope createScope(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
             return new MethodsScope(Members.visibleInstanceMethods(BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), ((SNode) JavaModelUtil_new.findClassifier(PeriodFormatterBuilder.class)), "virtual_getThisType_7405920559687254782", new Object[]{}), _context.getEnclosingNode()));
@@ -100,7 +93,6 @@ public class DateTimeProperty_Constraints extends BaseConstraintsDescriptor {
     });
     return references;
   }
-
   private static SNodePointer breakingNode_hi7gxv_a0a0a0a0a1a0b0a1a1 = new SNodePointer("r:00000000-0000-4000-0000-011c895903db(jetbrains.mps.baseLanguage.datesInternal.constraints)", "3671207155728948212");
   private static SNodePointer breakingNode_hi7gxv_a0a0a0a0a1a0b0a2a1 = new SNodePointer("r:00000000-0000-4000-0000-011c895903db(jetbrains.mps.baseLanguage.datesInternal.constraints)", "3671207155728952055");
   private static SNodePointer breakingNode_hi7gxv_a0a0a0a0a1a0b0a3a1 = new SNodePointer("r:00000000-0000-4000-0000-011c895903db(jetbrains.mps.baseLanguage.datesInternal.constraints)", "3671207155728952155");

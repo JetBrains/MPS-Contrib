@@ -9,11 +9,9 @@ import org.jetbrains.mps.openapi.language.SConcept;
 public class ParseExpression_BehaviorDescriptor extends Expression_BehaviorDescriptor implements IDontSubstituteByDefault_BehaviorDescriptor {
   public ParseExpression_BehaviorDescriptor() {
   }
-
   public String virtual_getDefaultKeyword_1262430001741498121(SConcept thisConcept) {
     return ParseExpression_Behavior.virtual_getDefaultKeyword_1262430001741498121(thisConcept);
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.baseLanguage.dates.structure.ParseExpression";

@@ -30,7 +30,6 @@ public class DFSNodeSorter_Test extends TestCase {
     Assert.assertTrue(ListSequence.fromList(order.getOrder(1)).getElement(0) == chain.getNode(1));
     Assert.assertTrue(ListSequence.fromList(order.getOrder(2)).getElement(0) == chain.getNode(2));
   }
-
   public void test_simpleFourLeyers() throws Exception {
     Graph simpleGraph = GraphsForLayers.simpleFourLayersGraph();
     Map<Node, Integer> layers = new NodeMap<Integer>(simpleGraph);
@@ -50,7 +49,6 @@ public class DFSNodeSorter_Test extends TestCase {
     Assert.assertTrue(ListSequence.fromList(order.getOrder(2)).getElement(0) == simpleGraph.getNode(2));
     Assert.assertTrue(ListSequence.fromList(order.getOrder(3)).getElement(0) == simpleGraph.getNode(3));
   }
-
   public DFSNodeSorter_Test() {
   }
 }

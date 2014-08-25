@@ -17,12 +17,10 @@ public class OrthogonalLayoutChecker {
   public static void checkLayout(GraphPointLayout layout) {
     GraphPointLayoutChecker.checkLayout(layout);
   }
-
   public static void checkLayout(GraphLayout layout) {
     GraphLayoutChecker.checkLayout(layout);
     checkOrthogonalEdges(layout);
   }
-
   public static void checkOrthogonalEdges(GraphLayout layout) {
     Graph graph = ((Graph) layout.getGraph());
     for (Edge edge : ListSequence.fromList(graph.getEdges())) {

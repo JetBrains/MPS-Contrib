@@ -11,12 +11,10 @@ public class LayerByLayerNodeSorter implements INodeSorter {
   private int myNumIterations = 51;
   private INodeSorter mySorter;
   private IOneLayerSorter myLayerSorter;
-
   public LayerByLayerNodeSorter(IOneLayerSorter layerSorter, INodeSorter initialSorter) {
     myLayerSorter = layerSorter;
     mySorter = initialSorter;
   }
-
   @Override
   public NodeLayeredOrder sortNodes(Graph graph, Map<Node, Integer> layers) {
     NodeLayeredOrder order = mySorter.sortNodes(graph, layers);
@@ -33,7 +31,6 @@ public class LayerByLayerNodeSorter implements INodeSorter {
     }
     return order;
   }
-
   public void setNumIterations(int numIterations) {
     this.myNumIterations = numIterations;
   }

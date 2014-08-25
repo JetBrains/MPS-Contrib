@@ -16,7 +16,6 @@ public class XMLElementCreator_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_f64ib6_a(editorContext, node);
   }
-
   private EditorCell createCollection_f64ib6_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_f64ib6_a");
@@ -24,7 +23,6 @@ public class XMLElementCreator_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createRefNode_f64ib6_a0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createRefNode_f64ib6_a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("type");

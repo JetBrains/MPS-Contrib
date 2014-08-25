@@ -8,7 +8,6 @@ import org.jetbrains.mps.openapi.module.SModule;
 public class BuilderContextRef_Behavior {
   public static void init(SNode thisNode) {
   }
-
   public static Object virtual_eval_1213877519769(SNode thisNode, SModule module) {
     return null;
   }

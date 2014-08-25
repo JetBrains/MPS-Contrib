@@ -6,32 +6,26 @@ package jetbrains.mps.graphLayout.intGeom2D;
 public class Point {
   public int x;
   public int y;
-
   public Point() {
     x = 0;
     y = 0;
   }
-
   public Point(Point p) {
     x = p.x;
     y = p.y;
   }
-
   public Point(int x, int y) {
     this.x = x;
     this.y = y;
   }
-
   public void translate(int shiftX, int shiftY) {
     x += shiftX;
     y += shiftY;
   }
-
   @Override
   public String toString() {
     return "[" + x + ", " + y + "]";
   }
-
   @Override
   public boolean equals(Object object) {
     if (object instanceof Point) {
@@ -40,11 +34,9 @@ public class Point {
     }
     return super.equals(object);
   }
-
   public double distance(Point p) {
     return Math.sqrt(1.0 * (p.x - x) * (p.x - x) + 1.0 * (p.y - y) * (p.y - y));
   }
-
   public int manhattanDist(Point p) {
     return Math.abs(p.x - x) + Math.abs(p.y - y);
   }

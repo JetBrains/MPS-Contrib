@@ -13,14 +13,12 @@ public class FileName_Behavior {
   public static void init(SNode thisNode) {
     SLinkOperations.setTarget(thisNode, "value", SConceptOperations.createNewNode("jetbrains.mps.buildlanguage.structure.StringLiteral", null), true);
   }
-
   public static String virtual_toString_1213877472569(SNode thisNode) {
     if ((SLinkOperations.getTarget(thisNode, "value", true) == null)) {
       return "";
     }
     return BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(thisNode, "value", true), "virtual_toString_1213877472569", new Object[]{});
   }
-
   public static boolean call_exists_1213877511925(SNode thisNode) {
     String filename = BehaviorReflection.invokeVirtual(String.class, thisNode, "virtual_getActualValue_1213877472572", new Object[]{});
     File f = new File(filename);
@@ -38,7 +36,6 @@ public class FileName_Behavior {
     }
     return true;
   }
-
   public static String virtual_getActualValue_1213877472572(SNode thisNode) {
     return BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(thisNode, "value", true), "virtual_getActualValue_1213877472572", new Object[]{});
   }

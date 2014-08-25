@@ -47,7 +47,6 @@ public class ClusterEmbeddingConstructorTemp {
   private Map<Node, Node> myNodeMap;
   private Map<Face, Face> myFaceMap;
   private ClusterNodesAdditionListener myNodesAdditionListener;
-
   public ClusterEmbeddingConstructorTemp(ClusteredGraph graph, Node cluster, List<Edge> outerEdgesOrder) {
     myGraph = graph;
     myCluster = cluster;
@@ -55,7 +54,6 @@ public class ClusterEmbeddingConstructorTemp {
     myOuterEdgesOrder = outerEdgesOrder;
     myHistoryManager = new EdgesHistoryManager(graph);
   }
-
   public EmbeddedGraph constructEmbedding() {
     Iterable<Node> subclusters = myGraph.getSubclusters(myCluster);
     if (Sequence.fromIterable(subclusters).count() == 0) {
@@ -105,7 +103,6 @@ public class ClusterEmbeddingConstructorTemp {
     myGraph.removeListener(myNodesAdditionListener);
     return myEmbeddedGraph;
   }
-
   private void findSubclusterEmbedding(Node subcluster, Map<Edge, Edge> invEdgeMap) {
     Node node = MapSequence.fromMap(mySubclustersMap).get(subcluster);
     List<Dart> darts = mySubEmbeddedGraph.getOrderedDarts(node);
@@ -180,7 +177,6 @@ public class ClusterEmbeddingConstructorTemp {
       }
     }
   }
-
   private Tuples._2<Edge, Node> getCurOuterEdge(Edge outerEdge, EmbeddedGraph embeddedGraph) {
     List<Edge> history = myHistoryManager.getHistory(outerEdge);
     Edge curOuterEdge = ListSequence.fromList(history).first();
@@ -191,7 +187,6 @@ public class ClusterEmbeddingConstructorTemp {
       return MultiTuple.<Edge,Node>from(curOuterEdge, curOuterEdge.getSource());
     }
   }
-
   private Map<Edge, Edge> constructSubclusterGraphEmbedding() {
     // Creating a subcluster graph, where each subcluster is represented by a single node, 
     // and finding embedding for it. 
@@ -315,7 +310,6 @@ public class ClusterEmbeddingConstructorTemp {
     myNodeMap = nodeMap;
     return invEdgeMap;
   }
-
   private Node getRealNode(final Node subNode, final Map<Node, Node> nodeMap) {
     return SetSequence.fromSet(myClusterNodes).findFirst(new IWhereFilter<Node>() {
       public boolean accept(Node it) {
@@ -323,7 +317,6 @@ public class ClusterEmbeddingConstructorTemp {
       }
     });
   }
-
   private Node getClusterNode(Edge edge) {
     boolean isSource = SetSequence.fromSet(myClusterNodes).contains(edge.getSource());
     boolean isTarget = SetSequence.fromSet(myClusterNodes).contains(edge.getTarget());
@@ -336,7 +329,6 @@ public class ClusterEmbeddingConstructorTemp {
       return edge.getTarget();
     }
   }
-
   public List<Edge> getClusterBorder() {
     return mySubClusterBorder;
   }

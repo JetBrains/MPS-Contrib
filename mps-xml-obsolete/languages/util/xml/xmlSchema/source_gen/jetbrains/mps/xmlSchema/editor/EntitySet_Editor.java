@@ -32,11 +32,9 @@ public class EntitySet_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_bj9nw6_a(editorContext, node);
   }
-
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
     return this.createCollection_bj9nw6_a_0(editorContext, node);
   }
-
   private EditorCell createCollection_bj9nw6_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_bj9nw6_a");
@@ -46,7 +44,6 @@ public class EntitySet_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createRefNodeList_bj9nw6_c0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createCollection_bj9nw6_a0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_bj9nw6_a0");
@@ -59,14 +56,12 @@ public class EntitySet_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createAlternation_bj9nw6_d0a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_bj9nw6_a0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "entity set");
     editorCell.setCellId("Constant_bj9nw6_a0a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createProperty_bj9nw6_b0a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("entitySetName");
@@ -84,14 +79,12 @@ public class EntitySet_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createConstant_bj9nw6_c0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ":");
     editorCell.setCellId("Constant_bj9nw6_c0a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createAlternation_bj9nw6_d0a(EditorContext editorContext, SNode node) {
     boolean alternationCondition = true;
     alternationCondition = EntitySet_Editor.renderingCondition_bj9nw6_a3a0(node, editorContext);
@@ -103,11 +96,9 @@ public class EntitySet_Editor extends DefaultNodeEditor {
     }
     return editorCell;
   }
-
   private static boolean renderingCondition_bj9nw6_a3a0(SNode node, EditorContext editorContext) {
     return SPropertyOperations.getString(node, "url") == null;
   }
-
   private EditorCell createProperty_bj9nw6_a3a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("url");
@@ -125,17 +116,14 @@ public class EntitySet_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createJComponent_bj9nw6_a3a0(EditorContext editorContext, SNode node) {
     EditorCell editorCell = EditorCell_Component.createComponentCell(editorContext, node, EntitySet_Editor._QueryFunction_JComponent_bj9nw6_a0d0a(node, editorContext), "_bj9nw6_a3a0");
     editorCell.setCellId("JComponent_bj9nw6_a3a0");
     return editorCell;
   }
-
   private static JComponent _QueryFunction_JComponent_bj9nw6_a0d0a(final SNode node, final EditorContext editorContext) {
     return HyperlinkUtil.getHyperlinkComponent(SPropertyOperations.getString(node, "url"));
   }
-
   private EditorCell createConstant_bj9nw6_b0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_bj9nw6_b0");
@@ -145,7 +133,6 @@ public class EntitySet_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefNodeList_bj9nw6_c0(EditorContext editorContext, SNode node) {
     AbstractCellListHandler handler = new EntitySet_Editor.entityBlockListHandler_bj9nw6_c0(node, "entityBlock", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Vertical(), false);
@@ -153,30 +140,25 @@ public class EntitySet_Editor extends DefaultNodeEditor {
     editorCell.setRole(handler.getElementRole());
     return editorCell;
   }
-
   private static class entityBlockListHandler_bj9nw6_c0 extends RefNodeListHandler {
     public entityBlockListHandler_bj9nw6_c0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
-
     public SNode createNodeToInsert(EditorContext editorContext) {
       SNode listOwner = super.getOwner();
       return NodeFactoryManager.createNode(listOwner, editorContext, super.getElementRole());
     }
-
     public EditorCell createNodeCell(EditorContext editorContext, SNode elementNode) {
       EditorCell elementCell = super.createNodeCell(editorContext, elementNode);
       this.installElementCellActions(this.getOwner(), elementNode, elementCell, editorContext);
       return elementCell;
     }
-
     public EditorCell createEmptyCell(EditorContext editorContext) {
       EditorCell emptyCell = null;
       emptyCell = super.createEmptyCell(editorContext);
       this.installElementCellActions(super.getOwner(), null, emptyCell, editorContext);
       return emptyCell;
     }
-
     public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext editorContext) {
       if (elementCell.getUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET) == null) {
         elementCell.putUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET, AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET);
@@ -190,7 +172,6 @@ public class EntitySet_Editor extends DefaultNodeEditor {
       }
     }
   }
-
   private EditorCell createCollection_bj9nw6_a_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_bj9nw6_a_0");
@@ -200,7 +181,6 @@ public class EntitySet_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createCollection_bj9nw6_b0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createCollection_bj9nw6_a0_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_bj9nw6_a0_0");
@@ -211,7 +191,6 @@ public class EntitySet_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createProperty_bj9nw6_b0a_0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_bj9nw6_a0a_0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "name:");
     editorCell.setCellId("Constant_bj9nw6_a0a_0");
@@ -221,7 +200,6 @@ public class EntitySet_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createProperty_bj9nw6_b0a_0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("entitySetName");
@@ -239,7 +217,6 @@ public class EntitySet_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createCollection_bj9nw6_b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_bj9nw6_b0");
@@ -250,7 +227,6 @@ public class EntitySet_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createProperty_bj9nw6_b1a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_bj9nw6_a1a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "url:");
     editorCell.setCellId("Constant_bj9nw6_a1a");
@@ -260,7 +236,6 @@ public class EntitySet_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createProperty_bj9nw6_b1a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("url");

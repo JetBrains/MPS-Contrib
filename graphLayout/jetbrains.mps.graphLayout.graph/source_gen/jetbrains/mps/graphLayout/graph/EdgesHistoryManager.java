@@ -11,12 +11,10 @@ import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
 
 public class EdgesHistoryManager implements IGraphModificationListener {
   private Map<Edge, List<Edge>> myHistory;
-
   public EdgesHistoryManager(Graph graph) {
     myHistory = MapSequence.fromMap(new HashMap<Edge, List<Edge>>());
     graph.addListener(this);
   }
-
   @Override
   public void process(GraphModificationEvent event) {
     List<Edge> history;
@@ -38,11 +36,9 @@ public class EdgesHistoryManager implements IGraphModificationListener {
       default:
     }
   }
-
   public Map<Edge, List<Edge>> getEntireHistory() {
     return myHistory;
   }
-
   public List<Edge> getHistory(Edge edge) {
     List<Edge> fullHistory = ListSequence.fromList(new LinkedList<Edge>());
     List<Edge> history = MapSequence.fromMap(myHistory).get(edge);
@@ -64,7 +60,6 @@ public class EdgesHistoryManager implements IGraphModificationListener {
     }
     return fullHistory;
   }
-
   protected boolean checkConnection(Node node, Edge edge) {
     return ListSequence.fromList(edge.getAdjacentNodes()).contains(node);
   }

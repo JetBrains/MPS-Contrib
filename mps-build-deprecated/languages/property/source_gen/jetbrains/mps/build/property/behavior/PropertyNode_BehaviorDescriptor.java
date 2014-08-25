@@ -13,19 +13,15 @@ import java.util.List;
 public class PropertyNode_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor implements INamedConcept_BehaviorDescriptor, IPropertyHolder_BehaviorDescriptor {
   public PropertyNode_BehaviorDescriptor() {
   }
-
   public String virtual_getExtension_1262430001741497933(SConcept thisConcept) {
     return PropertyNode_Behavior.virtual_getExtension_1262430001741497933(thisConcept);
   }
-
   public String virtual_getFqName_1213877404258(SNode thisNode) {
     return INamedConcept_Behavior.virtual_getFqName_1213877404258(thisNode);
   }
-
   public List<SNode> virtual_getProperties_1213877375726(SNode thisNode) {
     return PropertyNode_Behavior.virtual_getProperties_1213877375726(thisNode);
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.build.property.structure.PropertyNode";

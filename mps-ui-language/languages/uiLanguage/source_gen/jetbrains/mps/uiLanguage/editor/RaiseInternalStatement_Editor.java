@@ -17,7 +17,6 @@ public class RaiseInternalStatement_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_vabn2r_a(editorContext, node);
   }
-
   private EditorCell createCollection_vabn2r_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_vabn2r_a");
@@ -27,14 +26,12 @@ public class RaiseInternalStatement_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createConstant_vabn2r_c0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_vabn2r_a0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "raise");
     editorCell.setCellId("Constant_vabn2r_a0");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefNode_vabn2r_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("argument");
@@ -54,7 +51,6 @@ public class RaiseInternalStatement_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createConstant_vabn2r_c0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ";");
     editorCell.setCellId("Constant_vabn2r_c0");

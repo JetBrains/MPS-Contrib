@@ -1,113 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debugInfo>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ContinueStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
   <root nodeRef="r:d538b070-e076-4f76-8498-456a2fd4cda8(jetbrains.mps.graphLayout.outputUtil)/8653275637018833061">
-    <nodeInfo nodeId="8653275637018837869" fileName="GraphLayoutOutputUtil.java" startLine="12" startPosition="77" endLine="13" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8653275637018837873" fileName="GraphLayoutOutputUtil.java" startLine="13" startPosition="18" endLine="14" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8653275637018837879" fileName="GraphLayoutOutputUtil.java" startLine="15" startPosition="24" endLine="16" endPosition="12" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8653275637018837892" fileName="GraphLayoutOutputUtil.java" startLine="18" startPosition="37" endLine="19" endPosition="12" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8653275637018837909" fileName="GraphLayoutOutputUtil.java" startLine="21" startPosition="24" endLine="22" endPosition="12" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8653275637018837922" fileName="GraphLayoutOutputUtil.java" startLine="24" startPosition="38" endLine="25" endPosition="12" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8653275637018837939" fileName="GraphLayoutOutputUtil.java" startLine="27" startPosition="25" endLine="28" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
-    <nodeInfo nodeId="8653275637018837958" fileName="GraphLayoutOutputUtil.java" startLine="30" startPosition="16" endLine="31" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8653275637018837980" fileName="GraphLayoutOutputUtil.java" startLine="33" startPosition="16" endLine="34" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8653275637018845969" fileName="GraphLayoutOutputUtil.java" startLine="35" startPosition="5" endLine="36" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8653275637018838001" fileName="GraphLayoutOutputUtil.java" startLine="36" startPosition="50" endLine="37" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8653275637018846032" fileName="GraphLayoutOutputUtil.java" startLine="40" startPosition="84" endLine="41" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8653275637018846036" fileName="GraphLayoutOutputUtil.java" startLine="41" startPosition="22" endLine="42" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8653275637018846042" fileName="GraphLayoutOutputUtil.java" startLine="42" startPosition="19" endLine="43" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8653275637018846048" fileName="GraphLayoutOutputUtil.java" startLine="43" startPosition="19" endLine="44" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8653275637018846052" fileName="GraphLayoutOutputUtil.java" startLine="44" startPosition="21" endLine="45" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8653275637018846056" fileName="GraphLayoutOutputUtil.java" startLine="45" startPosition="16" endLine="46" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8653275637018846066" fileName="GraphLayoutOutputUtil.java" startLine="48" startPosition="46" endLine="49" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8653275637018846070" fileName="GraphLayoutOutputUtil.java" startLine="49" startPosition="20" endLine="50" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ContinueStatement" />
-    <nodeInfo nodeId="8653275637018846079" fileName="GraphLayoutOutputUtil.java" startLine="51" startPosition="7" endLine="52" endPosition="12" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8653275637018846110" fileName="GraphLayoutOutputUtil.java" startLine="54" startPosition="46" endLine="55" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8653275637018846120" fileName="GraphLayoutOutputUtil.java" startLine="55" startPosition="44" endLine="56" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8653275637018846130" fileName="GraphLayoutOutputUtil.java" startLine="57" startPosition="32" endLine="58" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8653275637018846142" fileName="GraphLayoutOutputUtil.java" startLine="59" startPosition="11" endLine="60" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8653275637018846171" fileName="GraphLayoutOutputUtil.java" startLine="61" startPosition="9" endLine="62" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="8653275637018846213" fileName="GraphLayoutOutputUtil.java" startLine="65" startPosition="46" endLine="66" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8653275637018846223" fileName="GraphLayoutOutputUtil.java" startLine="66" startPosition="43" endLine="67" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8653275637018846233" fileName="GraphLayoutOutputUtil.java" startLine="68" startPosition="32" endLine="69" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8653275637018846245" fileName="GraphLayoutOutputUtil.java" startLine="70" startPosition="11" endLine="71" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8653275637018846287" fileName="GraphLayoutOutputUtil.java" startLine="73" startPosition="7" endLine="74" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8653275637018846294" fileName="GraphLayoutOutputUtil.java" startLine="74" startPosition="38" endLine="75" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3507843960300513603" fileName="GraphLayoutOutputUtil.java" startLine="77" startPosition="22" endLine="78" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8653275637018846307" fileName="GraphLayoutOutputUtil.java" startLine="79" startPosition="5" endLine="80" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8653275637018846313" fileName="GraphLayoutOutputUtil.java" startLine="80" startPosition="20" endLine="81" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8653275637018846328" fileName="GraphLayoutOutputUtil.java" startLine="82" startPosition="20" endLine="83" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8653275637018846342" fileName="GraphLayoutOutputUtil.java" startLine="84" startPosition="5" endLine="85" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8653275637018846358" fileName="GraphLayoutOutputUtil.java" startLine="85" startPosition="59" endLine="86" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8653275637018837877" fileName="GraphLayoutOutputUtil.java" startLine="14" startPosition="18" endLine="17" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="8653275637018837890" fileName="GraphLayoutOutputUtil.java" startLine="17" startPosition="5" endLine="20" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="8653275637018837907" fileName="GraphLayoutOutputUtil.java" startLine="20" startPosition="5" endLine="23" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="8653275637018837920" fileName="GraphLayoutOutputUtil.java" startLine="23" startPosition="5" endLine="26" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="8653275637018837937" fileName="GraphLayoutOutputUtil.java" startLine="26" startPosition="5" endLine="29" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="8653275637018837956" fileName="GraphLayoutOutputUtil.java" startLine="29" startPosition="5" endLine="32" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="8653275637018837978" fileName="GraphLayoutOutputUtil.java" startLine="32" startPosition="5" endLine="35" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="8653275637018846128" fileName="GraphLayoutOutputUtil.java" startLine="56" startPosition="36" endLine="59" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="8653275637018846231" fileName="GraphLayoutOutputUtil.java" startLine="67" startPosition="37" endLine="70" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="8653275637018846298" fileName="GraphLayoutOutputUtil.java" startLine="76" startPosition="5" endLine="79" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="8653275637018846326" fileName="GraphLayoutOutputUtil.java" startLine="81" startPosition="48" endLine="84" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="8653275637018846064" fileName="GraphLayoutOutputUtil.java" startLine="47" startPosition="53" endLine="51" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="8653275637018846108" fileName="GraphLayoutOutputUtil.java" startLine="53" startPosition="44" endLine="61" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="8653275637018846211" fileName="GraphLayoutOutputUtil.java" startLine="64" startPosition="44" endLine="72" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="8653275637018846185" fileName="GraphLayoutOutputUtil.java" startLine="63" startPosition="7" endLine="73" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="8653275637018846082" fileName="GraphLayoutOutputUtil.java" startLine="52" startPosition="12" endLine="63" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="8653275637018833067" fileName="GraphLayoutOutputUtil.java" startLine="12" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getPointPosAlongRectBorder#(Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;Ljetbrains/mps/graphLayout/intGeom2D/Point;)Ljava/awt/geom/Point2D;" />
-    <nodeInfo nodeId="8653275637018846060" fileName="GraphLayoutOutputUtil.java" startLine="46" startPosition="16" endLine="76" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="8653275637018845998" fileName="GraphLayoutOutputUtil.java" startLine="40" startPosition="0" endLine="88" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getRectPosAlongPolyline#(Ljava/util/List;Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;)Ljava/awt/geom/Point2D;" />
-    <scopeInfo nodeId="8653275637018837878" fileName="GraphLayoutOutputUtil.java" startLine="15" startPosition="24" endLine="16" endPosition="12" />
-    <scopeInfo nodeId="8653275637018837891" fileName="GraphLayoutOutputUtil.java" startLine="18" startPosition="37" endLine="19" endPosition="12" />
-    <scopeInfo nodeId="8653275637018837908" fileName="GraphLayoutOutputUtil.java" startLine="21" startPosition="24" endLine="22" endPosition="12" />
-    <scopeInfo nodeId="8653275637018837921" fileName="GraphLayoutOutputUtil.java" startLine="24" startPosition="38" endLine="25" endPosition="12" />
-    <scopeInfo nodeId="8653275637018837938" fileName="GraphLayoutOutputUtil.java" startLine="27" startPosition="25" endLine="28" endPosition="69" />
-    <scopeInfo nodeId="8653275637018837957" fileName="GraphLayoutOutputUtil.java" startLine="30" startPosition="16" endLine="31" endPosition="44" />
-    <scopeInfo nodeId="8653275637018837979" fileName="GraphLayoutOutputUtil.java" startLine="33" startPosition="16" endLine="34" endPosition="45" />
-    <scopeInfo nodeId="8653275637018846129" fileName="GraphLayoutOutputUtil.java" startLine="57" startPosition="32" endLine="58" endPosition="25" />
-    <scopeInfo nodeId="8653275637018846232" fileName="GraphLayoutOutputUtil.java" startLine="68" startPosition="32" endLine="69" endPosition="25" />
-    <scopeInfo nodeId="8653275637018846299" fileName="GraphLayoutOutputUtil.java" startLine="77" startPosition="22" endLine="78" endPosition="18" />
-    <scopeInfo nodeId="8653275637018846327" fileName="GraphLayoutOutputUtil.java" startLine="82" startPosition="20" endLine="83" endPosition="19" />
-    <scopeInfo nodeId="8653275637018846065" fileName="GraphLayoutOutputUtil.java" startLine="48" startPosition="46" endLine="50" endPosition="17" />
-    <scopeInfo nodeId="8653275637018846109" fileName="GraphLayoutOutputUtil.java" startLine="54" startPosition="46" endLine="60" endPosition="66">
-      <varInfo nodeId="8653275637018846121" varName="dist" />
-      <varInfo nodeId="8653275637018846111" varName="yCenter" />
-    </scopeInfo>
-    <scopeInfo nodeId="8653275637018846212" fileName="GraphLayoutOutputUtil.java" startLine="65" startPosition="46" endLine="71" endPosition="66">
-      <varInfo nodeId="8653275637018846224" varName="dist" />
-      <varInfo nodeId="8653275637018846214" varName="xCenter" />
-    </scopeInfo>
-    <scopeInfo nodeId="8653275637018846186" fileName="GraphLayoutOutputUtil.java" startLine="64" startPosition="44" endLine="72" endPosition="9" />
-    <scopeInfo nodeId="8653275637018846083" fileName="GraphLayoutOutputUtil.java" startLine="53" startPosition="44" endLine="62" endPosition="0" />
-    <scopeInfo nodeId="8653275637018833070" fileName="GraphLayoutOutputUtil.java" startLine="12" startPosition="77" endLine="37" endPosition="15">
-      <varInfo nodeId="8653275637018845970" varName="res" />
-      <varInfo nodeId="8653275637018837870" varName="x" />
-      <varInfo nodeId="8653275637018837874" varName="y" />
-    </scopeInfo>
-    <scopeInfo nodeId="8653275637018833067" fileName="GraphLayoutOutputUtil.java" startLine="12" startPosition="0" endLine="39" endPosition="0">
-      <varInfo nodeId="8653275637018837864" varName="p" />
-      <varInfo nodeId="8653275637018837862" varName="rect" />
-    </scopeInfo>
-    <scopeInfo nodeId="8653275637018846063" fileName="GraphLayoutOutputUtil.java" startLine="47" startPosition="53" endLine="75" endPosition="18" />
-    <scopeInfo nodeId="8653275637018846060" fileName="GraphLayoutOutputUtil.java" startLine="46" startPosition="16" endLine="76" endPosition="5">
-      <varInfo nodeId="8653275637018846061" varName="next" />
-    </scopeInfo>
-    <scopeInfo nodeId="8653275637018846001" fileName="GraphLayoutOutputUtil.java" startLine="40" startPosition="84" endLine="86" endPosition="17">
-      <varInfo nodeId="8653275637018846308" varName="l" />
-      <varInfo nodeId="8653275637018846053" varName="len" />
-      <varInfo nodeId="8653275637018846057" varName="num" />
-      <varInfo nodeId="8653275637018846343" varName="point" />
-      <varInfo nodeId="8653275637018846033" varName="prev" />
-      <varInfo nodeId="8653275637018846314" varName="relX" />
-      <varInfo nodeId="8653275637018846049" varName="res" />
-      <varInfo nodeId="8653275637018846037" varName="x" />
-      <varInfo nodeId="8653275637018846043" varName="y" />
-    </scopeInfo>
-    <scopeInfo nodeId="8653275637018845998" fileName="GraphLayoutOutputUtil.java" startLine="40" startPosition="0" endLine="88" endPosition="0">
-      <varInfo nodeId="8653275637018846007" varName="rect" />
-      <varInfo nodeId="8653275637018846003" varName="route" />
-    </scopeInfo>
-    <unitInfo nodeId="8653275637018833061" fileName="GraphLayoutOutputUtil.java" startLine="11" startPosition="0" endLine="89" endPosition="0" unitName="jetbrains.mps.graphLayout.outputUtil.GraphLayoutOutputUtil" />
+    <file name="GraphLayoutOutputUtil.java">
+      <node id="8653275637018837869" at="12,77,13,18" concept="4" />
+      <node id="8653275637018837873" at="13,18,14,18" concept="4" />
+      <node id="8653275637018837879" at="15,24,16,12" concept="1" />
+      <node id="8653275637018837892" at="18,37,19,12" concept="1" />
+      <node id="8653275637018837909" at="21,24,22,12" concept="1" />
+      <node id="8653275637018837922" at="24,38,25,12" concept="1" />
+      <node id="8653275637018837939" at="27,25,28,69" concept="8" />
+      <node id="8653275637018837958" at="30,16,31,44" concept="1" />
+      <node id="8653275637018837980" at="33,16,34,45" concept="1" />
+      <node id="8653275637018845969" at="35,5,36,50" concept="4" />
+      <node id="8653275637018838001" at="36,50,37,15" concept="5" />
+      <node id="8653275637018846032" at="39,84,40,22" concept="4" />
+      <node id="8653275637018846036" at="40,22,41,19" concept="4" />
+      <node id="8653275637018846042" at="41,19,42,19" concept="4" />
+      <node id="8653275637018846048" at="42,19,43,21" concept="4" />
+      <node id="8653275637018846052" at="43,21,44,16" concept="4" />
+      <node id="8653275637018846056" at="44,16,45,16" concept="4" />
+      <node id="8653275637018846066" at="47,46,48,20" concept="1" />
+      <node id="8653275637018846070" at="48,20,49,17" concept="0" />
+      <node id="8653275637018846079" at="50,7,51,12" concept="1" />
+      <node id="8653275637018846110" at="53,46,54,44" concept="4" />
+      <node id="8653275637018846120" at="54,44,55,36" concept="4" />
+      <node id="8653275637018846130" at="56,32,57,25" concept="1" />
+      <node id="8653275637018846142" at="58,11,59,66" concept="1" />
+      <node id="8653275637018846171" at="60,9,61,0" concept="6" />
+      <node id="8653275637018846213" at="64,46,65,43" concept="4" />
+      <node id="8653275637018846223" at="65,43,66,37" concept="4" />
+      <node id="8653275637018846233" at="67,32,68,25" concept="1" />
+      <node id="8653275637018846245" at="69,11,70,66" concept="1" />
+      <node id="8653275637018846287" at="72,7,73,38" concept="1" />
+      <node id="8653275637018846294" at="73,38,74,18" concept="1" />
+      <node id="3507843960300513603" at="76,22,77,18" concept="5" />
+      <node id="8653275637018846307" at="78,5,79,20" concept="4" />
+      <node id="8653275637018846313" at="79,20,80,48" concept="4" />
+      <node id="8653275637018846328" at="81,20,82,19" concept="1" />
+      <node id="8653275637018846342" at="83,5,84,59" concept="4" />
+      <node id="8653275637018846358" at="84,59,85,17" concept="5" />
+      <node id="8653275637018837877" at="14,18,17,5" concept="3" />
+      <node id="8653275637018837890" at="17,5,20,5" concept="3" />
+      <node id="8653275637018837907" at="20,5,23,5" concept="3" />
+      <node id="8653275637018837920" at="23,5,26,5" concept="3" />
+      <node id="8653275637018837937" at="26,5,29,5" concept="3" />
+      <node id="8653275637018837956" at="29,5,32,5" concept="3" />
+      <node id="8653275637018837978" at="32,5,35,5" concept="3" />
+      <node id="8653275637018846128" at="55,36,58,11" concept="3" />
+      <node id="8653275637018846231" at="66,37,69,11" concept="3" />
+      <node id="8653275637018846298" at="75,5,78,5" concept="3" />
+      <node id="8653275637018846326" at="80,48,83,5" concept="3" />
+      <node id="8653275637018846064" at="46,53,50,7" concept="3" />
+      <node id="8653275637018846108" at="52,44,60,9" concept="3" />
+      <node id="8653275637018846211" at="63,44,71,9" concept="3" />
+      <node id="8653275637018846185" at="62,7,72,7" concept="3" />
+      <node id="8653275637018846082" at="51,12,62,7" concept="3" />
+      <node id="8653275637018833067" at="12,0,39,0" concept="7" trace="getPointPosAlongRectBorder#(Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;Ljetbrains/mps/graphLayout/intGeom2D/Point;)Ljava/awt/geom/Point2D;" />
+      <node id="8653275637018846060" at="45,16,75,5" concept="2" />
+      <node id="8653275637018845998" at="39,0,87,0" concept="7" trace="getRectPosAlongPolyline#(Ljava/util/List;Ljetbrains/mps/graphLayout/intGeom2D/Rectangle;)Ljava/awt/geom/Point2D;" />
+      <scope id="8653275637018837878" at="15,24,16,12" />
+      <scope id="8653275637018837891" at="18,37,19,12" />
+      <scope id="8653275637018837908" at="21,24,22,12" />
+      <scope id="8653275637018837921" at="24,38,25,12" />
+      <scope id="8653275637018837938" at="27,25,28,69" />
+      <scope id="8653275637018837957" at="30,16,31,44" />
+      <scope id="8653275637018837979" at="33,16,34,45" />
+      <scope id="8653275637018846129" at="56,32,57,25" />
+      <scope id="8653275637018846232" at="67,32,68,25" />
+      <scope id="8653275637018846299" at="76,22,77,18" />
+      <scope id="8653275637018846327" at="81,20,82,19" />
+      <scope id="8653275637018846065" at="47,46,49,17" />
+      <scope id="8653275637018846109" at="53,46,59,66">
+        <var name="dist" id="8653275637018846121" />
+        <var name="yCenter" id="8653275637018846111" />
+      </scope>
+      <scope id="8653275637018846212" at="64,46,70,66">
+        <var name="dist" id="8653275637018846224" />
+        <var name="xCenter" id="8653275637018846214" />
+      </scope>
+      <scope id="8653275637018846186" at="63,44,71,9" />
+      <scope id="8653275637018846083" at="52,44,61,0" />
+      <scope id="8653275637018833070" at="12,77,37,15">
+        <var name="res" id="8653275637018845970" />
+        <var name="x" id="8653275637018837870" />
+        <var name="y" id="8653275637018837874" />
+      </scope>
+      <scope id="8653275637018833067" at="12,0,39,0">
+        <var name="p" id="8653275637018837864" />
+        <var name="rect" id="8653275637018837862" />
+      </scope>
+      <scope id="8653275637018846063" at="46,53,74,18" />
+      <scope id="8653275637018846060" at="45,16,75,5">
+        <var name="next" id="8653275637018846061" />
+      </scope>
+      <scope id="8653275637018846001" at="39,84,85,17">
+        <var name="l" id="8653275637018846308" />
+        <var name="len" id="8653275637018846053" />
+        <var name="num" id="8653275637018846057" />
+        <var name="point" id="8653275637018846343" />
+        <var name="prev" id="8653275637018846033" />
+        <var name="relX" id="8653275637018846314" />
+        <var name="res" id="8653275637018846049" />
+        <var name="x" id="8653275637018846037" />
+        <var name="y" id="8653275637018846043" />
+      </scope>
+      <scope id="8653275637018845998" at="39,0,87,0">
+        <var name="rect" id="8653275637018846007" />
+        <var name="route" id="8653275637018846003" />
+      </scope>
+      <unit id="8653275637018833061" at="11,0,88,0" name="jetbrains.mps.graphLayout.outputUtil.GraphLayoutOutputUtil" />
+    </file>
   </root>
-</debugInfo>
+</debug-info>
 

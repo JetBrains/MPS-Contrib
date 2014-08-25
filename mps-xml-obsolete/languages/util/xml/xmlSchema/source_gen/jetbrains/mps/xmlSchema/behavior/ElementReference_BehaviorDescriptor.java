@@ -8,11 +8,9 @@ import java.util.Set;
 public class ElementReference_BehaviorDescriptor extends TypeExpression_BehaviorDescriptor {
   public ElementReference_BehaviorDescriptor() {
   }
-
   public void virtual_checkElements_1213877382378(SNode thisNode, Set<SNode> elementDeclarations) {
     ElementReference_Behavior.virtual_checkElements_1213877382378(thisNode, elementDeclarations);
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.xmlSchema.structure.ElementReference";

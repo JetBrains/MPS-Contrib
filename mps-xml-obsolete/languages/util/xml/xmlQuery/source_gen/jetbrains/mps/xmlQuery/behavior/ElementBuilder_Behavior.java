@@ -16,19 +16,15 @@ import jetbrains.mps.lang.typesystem.runtime.HUtil;
 public class ElementBuilder_Behavior {
   public static void init(SNode thisNode) {
   }
-
   public static SNode virtual_getResultType_7057666463730718251(SNode thisNode) {
     return SchemaUtil.constructXMLElementTypeForElement(SLinkOperations.getTarget(thisNode, "elementDeclaration", false));
   }
-
   public static SNode virtual_getCreatorExpression_7057666463730727863(SNode thisNode, SNode parentRef) {
     return _quotation_createNode_w52xu1_a0a1(SPropertyOperations.getString(SLinkOperations.getTarget(thisNode, "elementDeclaration", false), "elementName"));
   }
-
   public static SNode virtual_getAttachStatementChild_4797501453850305563(SNode thisNode, SNode parentBuilder, SNode parentRef, SNode childRef) {
     return _quotation_createNode_w52xu1_a0a2(parentRef, childRef);
   }
-
   public static SNode call_getComplexType_1384720974900281910(SNode thisNode) {
     if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(thisNode, "elementDeclaration", false), "jetbrains.mps.xmlSchema.structure.ElementWithType")) {
       return SLinkOperations.getTarget(SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(thisNode, "elementDeclaration", false), "jetbrains.mps.xmlSchema.structure.ElementWithType"), "complexTypeReference", true), "complexType", false);
@@ -39,7 +35,6 @@ public class ElementBuilder_Behavior {
       return null;
     }
   }
-
   private static SNode _quotation_createNode_w52xu1_a0a1(Object parameter_1) {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_2 = null;
@@ -54,7 +49,6 @@ public class ElementBuilder_Behavior {
     quotedNode_2.addChild("creator", quotedNode_3);
     return quotedNode_2;
   }
-
   private static SNode _quotation_createNode_w52xu1_a0a2(Object parameter_1, Object parameter_2) {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_3 = null;

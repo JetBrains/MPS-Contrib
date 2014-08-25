@@ -28,7 +28,6 @@ public class GItemList_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createAlternation_39hcsa_a(editorContext, node);
   }
-
   private EditorCell createAlternation_39hcsa_a(EditorContext editorContext, SNode node) {
     boolean alternationCondition = true;
     alternationCondition = GItemList_Editor.renderingCondition_39hcsa_a0(node, editorContext);
@@ -44,11 +43,9 @@ public class GItemList_Editor extends DefaultNodeEditor {
     }
     return editorCell;
   }
-
   private static boolean renderingCondition_39hcsa_a0(SNode node, EditorContext editorContext) {
     return BehaviorReflection.invokeVirtual(Boolean.TYPE, node, "virtual_isComplex_1213877298853", new Object[]{});
   }
-
   private EditorCell createCollection_39hcsa_a0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_39hcsa_a0");
@@ -57,7 +54,6 @@ public class GItemList_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createRefNodeList_39hcsa_b0a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_39hcsa_a0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "*");
     editorCell.setCellId("Constant_39hcsa_a0a");
@@ -68,7 +64,6 @@ public class GItemList_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefNodeList_39hcsa_b0a(EditorContext editorContext, SNode node) {
     AbstractCellListHandler handler = new GItemList_Editor.itemListHandler_39hcsa_b0a(node, "item", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Indent(), false);
@@ -81,30 +76,25 @@ public class GItemList_Editor extends DefaultNodeEditor {
     editorCell.setRole(handler.getElementRole());
     return editorCell;
   }
-
   private static class itemListHandler_39hcsa_b0a extends RefNodeListHandler {
     public itemListHandler_39hcsa_b0a(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
-
     public SNode createNodeToInsert(EditorContext editorContext) {
       SNode listOwner = super.getOwner();
       return NodeFactoryManager.createNode(listOwner, editorContext, super.getElementRole());
     }
-
     public EditorCell createNodeCell(EditorContext editorContext, SNode elementNode) {
       EditorCell elementCell = super.createNodeCell(editorContext, elementNode);
       this.installElementCellActions(this.getOwner(), elementNode, elementCell, editorContext);
       return elementCell;
     }
-
     public EditorCell createEmptyCell(EditorContext editorContext) {
       EditorCell emptyCell = null;
       emptyCell = super.createEmptyCell(editorContext);
       this.installElementCellActions(super.getOwner(), null, emptyCell, editorContext);
       return emptyCell;
     }
-
     public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext editorContext) {
       if (elementCell.getUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET) == null) {
         elementCell.putUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET, AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET);
@@ -118,7 +108,6 @@ public class GItemList_Editor extends DefaultNodeEditor {
       }
     }
   }
-
   private EditorCell createCollection_39hcsa_a0_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_39hcsa_a0_0");
@@ -127,7 +116,6 @@ public class GItemList_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createRefNodeList_39hcsa_b0a_0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_39hcsa_a0a_0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "*");
     editorCell.setCellId("Constant_39hcsa_a0a_0");
@@ -137,7 +125,6 @@ public class GItemList_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefNodeList_39hcsa_b0a_0(EditorContext editorContext, SNode node) {
     AbstractCellListHandler handler = new GItemList_Editor.itemListHandler_39hcsa_b0a_0(node, "item", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Indent(), false);
@@ -145,30 +132,25 @@ public class GItemList_Editor extends DefaultNodeEditor {
     editorCell.setRole(handler.getElementRole());
     return editorCell;
   }
-
   private static class itemListHandler_39hcsa_b0a_0 extends RefNodeListHandler {
     public itemListHandler_39hcsa_b0a_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
-
     public SNode createNodeToInsert(EditorContext editorContext) {
       SNode listOwner = super.getOwner();
       return NodeFactoryManager.createNode(listOwner, editorContext, super.getElementRole());
     }
-
     public EditorCell createNodeCell(EditorContext editorContext, SNode elementNode) {
       EditorCell elementCell = super.createNodeCell(editorContext, elementNode);
       this.installElementCellActions(this.getOwner(), elementNode, elementCell, editorContext);
       return elementCell;
     }
-
     public EditorCell createEmptyCell(EditorContext editorContext) {
       EditorCell emptyCell = null;
       emptyCell = super.createEmptyCell(editorContext);
       this.installElementCellActions(super.getOwner(), null, emptyCell, editorContext);
       return emptyCell;
     }
-
     public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext editorContext) {
       if (elementCell.getUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET) == null) {
         elementCell.putUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET, AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET);

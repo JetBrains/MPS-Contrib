@@ -15,45 +15,35 @@ public class GraphPointLayout {
   private Graph myGraph;
   private Map<Node, Point> myNodeLayout;
   private Map<Edge, List<Point>> myEdgeLayout;
-
   public GraphPointLayout(Graph graph) {
     myGraph = graph;
     myNodeLayout = MapSequence.fromMap(new HashMap<Node, Point>());
     myEdgeLayout = MapSequence.fromMap(new HashMap<Edge, List<Point>>());
   }
-
   public Map<Node, Point> getNodeLayout() {
     return this.myNodeLayout;
   }
-
   public void setNodeLayout(Map<Node, Point> nodeLayout) {
     this.myNodeLayout = nodeLayout;
   }
-
   public Map<Edge, List<Point>> getEdgeLayout() {
     return this.myEdgeLayout;
   }
-
   public void setEdgeLayout(Map<Edge, List<Point>> edgeLayout) {
     this.myEdgeLayout = edgeLayout;
   }
-
   public void setLayoutFor(Node node, Point point) {
     MapSequence.fromMap(myNodeLayout).put(node, point);
   }
-
   public Point getLayoutFor(Node node) {
     return MapSequence.fromMap(myNodeLayout).get(node);
   }
-
   public void setLayoutFor(Edge edge, List<Point> points) {
     MapSequence.fromMap(myEdgeLayout).put(edge, points);
   }
-
   public List<Point> getLayoutFor(Edge edge) {
     return MapSequence.fromMap(myEdgeLayout).get(edge);
   }
-
   public Graph getGraph() {
     return this.myGraph;
   }

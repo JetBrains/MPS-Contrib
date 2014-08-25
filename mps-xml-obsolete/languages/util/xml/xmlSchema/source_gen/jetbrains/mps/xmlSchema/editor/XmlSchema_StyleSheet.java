@@ -17,8 +17,6 @@ public class XmlSchema_StyleSheet {
     style.set(StyleAttributes.FONT_STYLE, 0, MPSFonts.BOLD);
   }
 
-
-
   private static Color _StyleParameter_QueryFunction_35vscc_a0a(EditorContext editorContext, SNode node) {
     return XmlColorConstants.XML_COLOR;
   }

@@ -6,7 +6,6 @@ package jetbrains.mps.xmlSchema.behavior;
 public class AttributeGroup_BehaviorDescriptor extends Declaration_BehaviorDescriptor {
   public AttributeGroup_BehaviorDescriptor() {
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.xmlSchema.structure.AttributeGroup";

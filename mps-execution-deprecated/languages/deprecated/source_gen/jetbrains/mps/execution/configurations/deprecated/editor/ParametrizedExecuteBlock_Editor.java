@@ -21,7 +21,6 @@ public class ParametrizedExecuteBlock_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_elhbwn_a(editorContext, node);
   }
-
   private EditorCell createCollection_elhbwn_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_elhbwn_a");
@@ -30,12 +29,10 @@ public class ParametrizedExecuteBlock_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createCollection_elhbwn_b0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createComponent_elhbwn_a0(EditorContext editorContext, SNode node) {
     EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.lang.core.editor.alias");
     return editorCell;
   }
-
   private EditorCell createCollection_elhbwn_b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_elhbwn_b0");
@@ -46,12 +43,10 @@ public class ParametrizedExecuteBlock_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createCollection_elhbwn_b1a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createIndentCell_elhbwn_a1a(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
     return editorCell;
   }
-
   private EditorCell createCollection_elhbwn_b1a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_elhbwn_b1a");
@@ -64,7 +59,6 @@ public class ParametrizedExecuteBlock_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createCollection_elhbwn_d1b0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createRefNode_elhbwn_a1b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("executeParameterQuery");
@@ -84,7 +78,6 @@ public class ParametrizedExecuteBlock_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createCollection_elhbwn_b1b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_elhbwn_b1b0");
@@ -92,14 +85,12 @@ public class ParametrizedExecuteBlock_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createCollection_elhbwn_b1b1a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_elhbwn_a1b1a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "actions:");
     editorCell.setCellId("Constant_elhbwn_a1b1a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createCollection_elhbwn_b1b1a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_elhbwn_b1b1a");
@@ -110,12 +101,10 @@ public class ParametrizedExecuteBlock_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createCollection_elhbwn_b1b1b0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createIndentCell_elhbwn_a1b1b0(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
     return editorCell;
   }
-
   private EditorCell createCollection_elhbwn_b1b1b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_elhbwn_b1b1b0");
@@ -125,7 +114,6 @@ public class ParametrizedExecuteBlock_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createRefNode_elhbwn_a1b1b1a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createRefNode_elhbwn_a1b1b1a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("executeActions");
@@ -145,7 +133,6 @@ public class ParametrizedExecuteBlock_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createCollection_elhbwn_c1b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_elhbwn_c1b0");
@@ -153,14 +140,12 @@ public class ParametrizedExecuteBlock_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createCollection_elhbwn_b2b1a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_elhbwn_a2b1a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "console:");
     editorCell.setCellId("Constant_elhbwn_a2b1a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createCollection_elhbwn_b2b1a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_elhbwn_b2b1a");
@@ -171,12 +156,10 @@ public class ParametrizedExecuteBlock_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createCollection_elhbwn_b1c1b0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createIndentCell_elhbwn_a1c1b0(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
     return editorCell;
   }
-
   private EditorCell createCollection_elhbwn_b1c1b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_elhbwn_b1c1b0");
@@ -186,7 +169,6 @@ public class ParametrizedExecuteBlock_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createRefNode_elhbwn_a1b2b1a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createRefNode_elhbwn_a1b2b1a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("executeConsole");
@@ -206,7 +188,6 @@ public class ParametrizedExecuteBlock_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createCollection_elhbwn_d1b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_elhbwn_d1b0");
@@ -214,14 +195,12 @@ public class ParametrizedExecuteBlock_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createCollection_elhbwn_b3b1a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_elhbwn_a3b1a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "process:");
     editorCell.setCellId("Constant_elhbwn_a3b1a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createCollection_elhbwn_b3b1a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_elhbwn_b3b1a");
@@ -232,12 +211,10 @@ public class ParametrizedExecuteBlock_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createCollection_elhbwn_b1d1b0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createIndentCell_elhbwn_a1d1b0(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
     return editorCell;
   }
-
   private EditorCell createCollection_elhbwn_b1d1b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_elhbwn_b1d1b0");
@@ -247,7 +224,6 @@ public class ParametrizedExecuteBlock_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createRefNode_elhbwn_a1b3b1a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createRefNode_elhbwn_a1b3b1a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("executeProcess");

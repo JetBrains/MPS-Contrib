@@ -9,7 +9,6 @@ package jetbrains.mps.graphLayout.intGeom2D;
 public class Util1D {
   public Util1D() {
   }
-
   public static boolean insideOpenSegment(int end1, int end2, int mid) {
     if (end1 < end2) {
       return end1 < mid && mid < end2;
@@ -17,15 +16,12 @@ public class Util1D {
       return end2 < mid && mid < end1;
     }
   }
-
   public static boolean insideClosedSegment(int end1, int end2, int mid) {
     return insideOpenSegment(end1, end2, mid) || end1 == mid || end2 == mid;
   }
-
   public static boolean intersects(int minA, int maxA, int minB, int maxB) {
     return Math.min(maxA, maxB) >= Math.max(minA, minB);
   }
-
   public static int getDirection(int begin, int end) {
     int direction = 0;
     if (begin > end) {

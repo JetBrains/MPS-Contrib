@@ -7,7 +7,6 @@ import jetbrains.mps.baseLanguage.behavior.PrimitiveType_BehaviorDescriptor;
 public class PeriodType_BehaviorDescriptor extends PrimitiveType_BehaviorDescriptor {
   public PeriodType_BehaviorDescriptor() {
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.baseLanguage.dates.structure.PeriodType";

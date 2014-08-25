@@ -20,14 +20,12 @@ public class ClusterGraphCopier extends GraphCopier {
   private Map<Node, Node> myClusterMap;
   private ClusteredGraph myClusteredGraph;
   private Set<Node> myGoodClusters;
-
   public ClusterGraphCopier(ClusteredGraph graph) {
     super(graph);
     myClusteredGraph = graph;
     myClusterMap = MapSequence.fromMap(new HashMap<Node, Node>());
     myGoodClusters = SetSequence.fromSet(new HashSet<Node>());
   }
-
   @Override
   public Graph copySubgraph(Filter<INode> nodeFilter) {
     super.copySubgraph(nodeFilter);
@@ -49,11 +47,9 @@ public class ClusterGraphCopier extends GraphCopier {
     copyCluster(myClusteredGraph.getRoot(), copyRoot);
     return getCopy();
   }
-
   private Node getLeafNode(Node leafCluster) {
     return SetSequence.fromSet(myClusteredGraph.getNodesInCluster(leafCluster)).first();
   }
-
   private void findGoodClusters(Node cluster) {
     Node curCluster = cluster;
     while (curCluster != myClusteredGraph.getRoot() && !(SetSequence.fromSet(myGoodClusters).contains(curCluster))) {
@@ -62,7 +58,6 @@ public class ClusterGraphCopier extends GraphCopier {
     }
     SetSequence.fromSet(myGoodClusters).addElement(curCluster);
   }
-
   private void copyCluster(Node cluster, Node copy) {
     MapSequence.fromMap(myClusterMap).put(cluster, copy);
     List<Node> children = myClusteredGraph.getInclusionTree().getChildren(cluster);
@@ -81,7 +76,6 @@ public class ClusterGraphCopier extends GraphCopier {
       }
     }
   }
-
   @Override
   public ClusteredGraphLayout restoreLayout(GraphLayout copyLayout) {
     ClusteredGraphLayout graphLayout = ((ClusteredGraphLayout) super.restoreLayout(copyLayout));
@@ -96,15 +90,12 @@ public class ClusterGraphCopier extends GraphCopier {
     }
     return graphLayout;
   }
-
   public Node getCluserCopy(Node cluster) {
     return MapSequence.fromMap(myClusterMap).get(cluster);
   }
-
   public Set<Node> getCopiedClusters() {
     return MapSequence.fromMap(myClusterMap).keySet();
   }
-
   @Override
   public ClusteredGraph getCopy() {
     return ((ClusteredGraph) super.getCopy());

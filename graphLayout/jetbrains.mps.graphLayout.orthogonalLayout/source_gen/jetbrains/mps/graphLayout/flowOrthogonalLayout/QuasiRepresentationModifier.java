@@ -29,7 +29,6 @@ public class QuasiRepresentationModifier {
   private Map<Dart, Integer> myAngles;
   private Map<Dart, Integer> myBends;
   private List<QuasiRepresentationModifier.Modification> myModifications;
-
   public QuasiRepresentationModifier(EmbeddedGraph embeddedGraph, Map<Dart, Integer> bends, Map<Dart, Integer> angles) {
     myGraph = embeddedGraph.getGraph();
     myEmbeddedGraph = embeddedGraph;
@@ -37,7 +36,6 @@ public class QuasiRepresentationModifier {
     myBends = bends;
     myModifications = ListSequence.fromList(new LinkedList<QuasiRepresentationModifier.Modification>());
   }
-
   public void reduceToOrthogonalRepresentation() {
     Graph graph = myEmbeddedGraph.getGraph();
     Map<Edge, Edge> edgeTransform = MapSequence.fromMap(new HashMap<Edge, Edge>());
@@ -158,7 +156,6 @@ public class QuasiRepresentationModifier {
       }
     }
   }
-
   private List<Dart> getOrderedDarts(Node node) {
     List<Dart> darts = myEmbeddedGraph.getOrderedDarts(node);
     boolean hasZeroAngles = false;
@@ -177,40 +174,32 @@ public class QuasiRepresentationModifier {
     }
     return darts;
   }
-
   public List<QuasiRepresentationModifier.Modification> getModifications() {
     return myModifications;
   }
-
   public class Modification {
     private List<Edge> myModifiedEdges;
     private List<Edge> myNewEdges;
     private Node mySource;
     private Dart mySourceDart;
-
     public Modification(List<Edge> modifiedEdges, List<Edge> newEdges, Node source, Dart sourceDart) {
       this.myModifiedEdges = modifiedEdges;
       this.myNewEdges = newEdges;
       this.mySource = source;
       this.mySourceDart = sourceDart;
     }
-
     public List<Edge> getModifiedEdges() {
       return myModifiedEdges;
     }
-
     public List<Edge> getNewEdges() {
       return myNewEdges;
     }
-
     public Node getSource() {
       return mySource;
     }
-
     public Dart getSourceDart() {
       return mySourceDart;
     }
-
     @Override
     public String toString() {
       StringBuilder builder = new StringBuilder();

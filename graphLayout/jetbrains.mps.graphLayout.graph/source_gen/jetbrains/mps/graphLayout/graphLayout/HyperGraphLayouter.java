@@ -29,14 +29,12 @@ public class HyperGraphLayouter extends BasicLayouter {
   private ClusteredGraph myClusteredGraph;
   private Tree myInclusionTree;
   private HyperGraph myGraph;
-
   public HyperGraphLayouter(ILayouter clusterLayouter) {
     myClusterLayouter = clusterLayouter;
     myClusterMap = MapSequence.fromMap(new HashMap<Node, Node>());
     myNodeMap = MapSequence.fromMap(new HashMap<Node, Node>());
     myEdgeMap = MapSequence.fromMap(new HashMap<Edge, Edge>());
   }
-
   @Override
   public GraphLayout doLayout(ILayoutInfo layoutInfo) {
     IGraph graph = layoutInfo.getGraph();
@@ -58,12 +56,10 @@ public class HyperGraphLayouter extends BasicLayouter {
     ClusteredGraphLayout layout = ((ClusteredGraphLayout) ilayout);
     return this.restoreLayout(layout);
   }
-
   @Override
   public GraphLayout doLayoutConnectedGraph(LayoutInfo layoutInfo) {
     return null;
   }
-
   private GraphLayout restoreLayout(ClusteredGraphLayout layout) {
     GraphLayout graphLayout = new GraphLayout(myGraph);
     for (Node node : ListSequence.fromList(myGraph.getNodes())) {
@@ -96,7 +92,6 @@ public class HyperGraphLayouter extends BasicLayouter {
     }
     return graphLayout;
   }
-
   private List<Point> cutRouteToBorder(List<Point> route, Rectangle border) {
     Point[] cornerPoints = border.getCornerPoints();
     boolean foundOnBorder = false;
@@ -128,7 +123,6 @@ public class HyperGraphLayouter extends BasicLayouter {
     }
     return newRoute;
   }
-
   private LayoutInfo createClusterInfo(ILayoutInfo layoutInfo) {
     LayoutInfo clusterInfo = new LayoutInfo(myClusteredGraph);
     for (Node node : ListSequence.fromList(myGraph.getNodes())) {
@@ -147,7 +141,6 @@ public class HyperGraphLayouter extends BasicLayouter {
     }
     return clusterInfo;
   }
-
   private void copyEdges() {
     for (Edge edge : ListSequence.fromList(myGraph.getEdges())) {
       Node source = SetSequence.fromSet(myClusteredGraph.getNodesInCluster(MapSequence.fromMap(myClusterMap).get(edge.getSource()))).first();
@@ -155,7 +148,6 @@ public class HyperGraphLayouter extends BasicLayouter {
       MapSequence.fromMap(myEdgeMap).put(edge, myClusteredGraph.connect(source, target));
     }
   }
-
   private void makeClusterGraph(Node node) {
     Node cluster = myInclusionTree.createNode();
     MapSequence.fromMap(myClusterMap).put(node, cluster);

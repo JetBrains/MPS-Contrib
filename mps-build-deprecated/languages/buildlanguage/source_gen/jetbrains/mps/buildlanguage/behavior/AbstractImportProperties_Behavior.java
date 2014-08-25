@@ -9,7 +9,6 @@ import java.util.ArrayList;
 public class AbstractImportProperties_Behavior {
   public static void init(SNode thisNode) {
   }
-
   public static List<SNode> virtual_getPropertyDeclarations_1240397763706(SNode thisNode) {
     return new ArrayList<SNode>();
   }

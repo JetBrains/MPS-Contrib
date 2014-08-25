@@ -15,7 +15,6 @@ public class ModuleCreatorTarget_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createConstant_gnu31p_a(editorContext, node);
   }
-
   private EditorCell createConstant_gnu31p_a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "module");
     editorCell.setCellId("Constant_gnu31p_a");

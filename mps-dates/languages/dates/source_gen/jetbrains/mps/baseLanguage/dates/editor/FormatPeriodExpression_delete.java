@@ -16,44 +16,34 @@ public class FormatPeriodExpression_delete {
     editorCell.setAction(CellActionType.DELETE, new FormatPeriodExpression_delete.FormatPeriodExpression_delete_DELETE(node));
     editorCell.setAction(CellActionType.BACKSPACE, new FormatPeriodExpression_delete.FormatPeriodExpression_delete_BACKSPACE(node));
   }
-
   public static class FormatPeriodExpression_delete_DELETE extends AbstractCellAction {
     /*package*/ SNode myNode;
-
     public FormatPeriodExpression_delete_DELETE(SNode node) {
       this.myNode = node;
     }
-
     public String getDescriptionText() {
       return "Remove formatting";
     }
-
     public void execute(EditorContext editorContext) {
       this.execute_internal(editorContext, this.myNode);
     }
-
     public void execute_internal(EditorContext editorContext, SNode node) {
       SNode result = SLinkOperations.getTarget(node, "period", true);
       SNodeOperations.replaceWithAnother(node, result);
       SelectionUtil.selectNode(editorContext, result);
     }
   }
-
   public static class FormatPeriodExpression_delete_BACKSPACE extends AbstractCellAction {
     /*package*/ SNode myNode;
-
     public FormatPeriodExpression_delete_BACKSPACE(SNode node) {
       this.myNode = node;
     }
-
     public String getDescriptionText() {
       return "Remove formatting";
     }
-
     public void execute(EditorContext editorContext) {
       this.execute_internal(editorContext, this.myNode);
     }
-
     public void execute_internal(EditorContext editorContext, SNode node) {
       SNode result = SLinkOperations.getTarget(node, "period", true);
       SNodeOperations.replaceWithAnother(node, result);

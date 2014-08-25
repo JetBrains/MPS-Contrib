@@ -13,7 +13,6 @@ public class PredefinedPeriodFormat_Constraints extends BaseConstraintsDescripto
   public PredefinedPeriodFormat_Constraints() {
     super("jetbrains.mps.baseLanguage.datesInternal.structure.PredefinedPeriodFormat");
   }
-
   @Override
   protected Map<String, PropertyConstraintsDescriptor> getNotDefaultProperties() {
     Map<String, PropertyConstraintsDescriptor> properties = new HashMap();
@@ -22,7 +21,6 @@ public class PredefinedPeriodFormat_Constraints extends BaseConstraintsDescripto
       public boolean hasOwnGetter() {
         return true;
       }
-
       @Override
       public Object getValue(SNode node) {
         String propertyName = "isPublic";

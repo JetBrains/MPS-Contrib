@@ -16,34 +16,27 @@ public class Separator extends JComponent {
   private Events myEvents = new Events(null) {
     {
     }
-
     public void initialize() {
     }
   };
-
   public Separator() {
     this.myThis = this;
     Separator component = this;
     this.myEvents.initialize();
   }
-
   public Events getEvents() {
     return this.myEvents;
   }
-
   public void addNotify() {
     super.addNotify();
     this.bind();
   }
-
   public void removeNotify() {
     this.unbind();
     super.removeNotify();
   }
-
   private void bind() {
   }
-
   private void unbind() {
     for (AutoBinding binding : this.myBindings) {
       if (binding.isBound()) {
@@ -51,11 +44,9 @@ public class Separator extends JComponent {
       }
     }
   }
-
   public int getOrientation() {
     return this.myOrientation;
   }
-
   public void setOrientation(int newValue) {
     int oldValue = this.myOrientation;
     this.myOrientation = newValue;

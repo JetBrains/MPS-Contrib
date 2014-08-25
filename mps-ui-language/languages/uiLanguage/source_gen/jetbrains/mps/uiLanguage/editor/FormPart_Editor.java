@@ -22,7 +22,6 @@ public class FormPart_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_adq38q_a(editorContext, node);
   }
-
   private EditorCell createCollection_adq38q_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_adq38q_a");
@@ -35,7 +34,6 @@ public class FormPart_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createCollection_adq38q_c0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createCollection_adq38q_a0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_adq38q_a0");
@@ -46,14 +44,12 @@ public class FormPart_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createProperty_adq38q_b0a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_adq38q_a0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "label:");
     editorCell.setCellId("Constant_adq38q_a0a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createProperty_adq38q_b0a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("label");
@@ -71,7 +67,6 @@ public class FormPart_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createCollection_adq38q_b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_adq38q_b0");
@@ -81,14 +76,12 @@ public class FormPart_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createConstant_adq38q_a1a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_adq38q_a1a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "content:");
     editorCell.setCellId("Constant_adq38q_a1a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createCollection_adq38q_c0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_adq38q_c0");
@@ -99,12 +92,10 @@ public class FormPart_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createRefNode_adq38q_b2a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createIndentCell_adq38q_a2a(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
     return editorCell;
   }
-
   private EditorCell createRefNode_adq38q_b2a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("content");

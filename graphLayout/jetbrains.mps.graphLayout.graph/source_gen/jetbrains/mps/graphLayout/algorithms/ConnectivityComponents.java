@@ -26,13 +26,11 @@ public class ConnectivityComponents {
       }
     });
   }
-
   public static Map<Node, Integer> getComponents(Graph graph, _FunctionTypes._return_P1_E0<? extends Boolean, ? super Edge> filter) {
     ConnectivityComponents.MyDfs dfs = new ConnectivityComponents.MyDfs();
     dfs.doDfs(graph, Edge.Direction.BOTH, filter);
     return dfs.getComponents();
   }
-
   public static boolean isConnected(Graph graph) {
     Map<Node, Integer> component = getComponents(graph);
     for (Node node : ListSequence.fromList(graph.getNodes())) {
@@ -42,7 +40,6 @@ public class ConnectivityComponents {
     }
     return true;
   }
-
   public static List<List<Node>> getComponentsList(Map<Node, Integer> components) {
     int componentsNum = ConnectivityComponents.getComponentsNum(components);
     List<List<Node>> componentsList = ListSequence.fromList(new ArrayList<List<Node>>(componentsNum));
@@ -54,7 +51,6 @@ public class ConnectivityComponents {
     }
     return componentsList;
   }
-
   private static int getComponentsNum(Map<Node, Integer> components) {
     int componentsNum = 0;
     for (Node node : SetSequence.fromSet(MapSequence.fromMap(components).keySet())) {
@@ -62,7 +58,6 @@ public class ConnectivityComponents {
     }
     return componentsNum;
   }
-
   public static Set<Edge> makeConnected(Graph graph) {
     Set<Edge> addedEdges = SetSequence.fromSet(new HashSet<Edge>());
     Map<Node, Integer> components = getComponents(graph);
@@ -81,31 +76,25 @@ public class ConnectivityComponents {
     }
     return addedEdges;
   }
-
   private static class MyDfs extends Dfs {
     private Map<Node, Integer> myComponents;
     private int myCurrentComponent;
-
     public MyDfs() {
     }
-
     @Override
     public void doDfs(Graph graph, Edge.Direction direction, _FunctionTypes._return_P1_E0<? extends Boolean, ? super Edge> filter) {
       myComponents = MapSequence.fromMap(new HashMap<Node, Integer>());
       myCurrentComponent = -1;
       super.doDfs(graph, Edge.Direction.BOTH, filter);
     }
-
     @Override
     protected void preprocessRoot(Node root) {
       myCurrentComponent++;
     }
-
     @Override
     protected void preprocess(Node node, Edge from) {
       MapSequence.fromMap(myComponents).put(node, myCurrentComponent);
     }
-
     public Map<Node, Integer> getComponents() {
       return this.myComponents;
     }

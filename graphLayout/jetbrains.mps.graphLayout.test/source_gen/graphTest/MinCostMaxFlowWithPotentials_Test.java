@@ -31,10 +31,8 @@ public class MinCostMaxFlowWithPotentials_Test extends TestCase {
     MapSequence.fromMap(cost).put(ListSequence.fromList(edges).getElement(6), 2);
     testFull(graph, source, target, capacity, cost, 8);
   }
-
   public MinCostMaxFlowWithPotentials_Test() {
   }
-
   public void testFull(Graph graph, Node source, Node target, Map<Edge, Integer> capacity, Map<Edge, Integer> cost, int expectedCost) {
     Map<Edge, Integer> flow = MinCostMaxFlowWithPotentials.getFlow(graph, source, target, capacity, cost);
     FlowChecker.checkFlow(graph, source, target, capacity, flow, true);

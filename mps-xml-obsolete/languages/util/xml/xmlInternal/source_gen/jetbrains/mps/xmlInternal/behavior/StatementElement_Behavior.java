@@ -8,7 +8,6 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 public class StatementElement_Behavior {
   public static void init(SNode thisNode) {
   }
-
   public static boolean virtual_isComplex_1262430001741498088(SAbstractConcept thisConcept) {
     return true;
   }

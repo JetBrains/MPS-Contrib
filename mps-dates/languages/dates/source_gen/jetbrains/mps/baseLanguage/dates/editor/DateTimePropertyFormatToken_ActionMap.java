@@ -14,22 +14,17 @@ public class DateTimePropertyFormatToken_ActionMap {
   public static void setCellActions(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setAction(CellActionType.RIGHT_TRANSFORM, new DateTimePropertyFormatToken_ActionMap.DateTimePropertyFormatToken_ActionMap_RIGHT_TRANSFORM(node));
   }
-
   public static class DateTimePropertyFormatToken_ActionMap_RIGHT_TRANSFORM extends AbstractCellAction {
     /*package*/ SNode myNode;
-
     public DateTimePropertyFormatToken_ActionMap_RIGHT_TRANSFORM(SNode node) {
       this.myNode = node;
     }
-
     public String getDescriptionText() {
       return "Set format type";
     }
-
     public void execute(EditorContext editorContext) {
       this.execute_internal(editorContext, this.myNode);
     }
-
     public void execute_internal(EditorContext editorContext, SNode node) {
       if (DateTimePropertFormatTokenUtil.isFormatTypeDefault(node)) {
         SLinkOperations.setTarget(node, "dateTimePropertyFormatType", null, false);

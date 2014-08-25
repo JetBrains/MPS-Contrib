@@ -29,20 +29,16 @@ public class MigrateParameterBrowser_MigrationScript extends BaseMigrationScript
       public String getName() {
         return "Migrate ParameterBrowser usages";
       }
-
       public String getAdditionalInfo() {
         return "Migrate ParameterBrowser usages";
       }
-
       public String getFqNameOfConceptToSearchInstances() {
         return "jetbrains.mps.uiLanguage.structure.ComponentCreator";
       }
-
       public boolean isApplicableInstanceNode(SNode node) {
         SReference reference = node.getReference("componentDeclaration");
         return reference != null && reference.getTargetSModelReference().equals(SModelRepository.getInstance().getModelDescriptor(new SModelReference("jetbrains.mps.execution.lib.ui", "")).getReference()) && reference.getTargetNodeId().toString().contains("1240470842553500411");
       }
-
       public void doUpdateInstanceNode(SNode node) {
         SNode parameterBrowserDeclaration = ListSequence.fromList(SModelOperations.getRoots(SNodeOperations.getModel(node), "jetbrains.mps.uiLanguage.structure.ComponentDeclaration")).findFirst(new IWhereFilter<SNode>() {
           public boolean accept(SNode it) {
@@ -73,13 +69,11 @@ public class MigrateParameterBrowser_MigrationScript extends BaseMigrationScript
         }
         SLinkOperations.setTarget(node, "componentDeclaration", parameterBrowserDeclaration, false);
       }
-
       public boolean isShowAsIntention() {
         return false;
       }
     });
   }
-
   private static SNode createComponentDeclaration_wft9px_a0a0b0a0() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode n1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.uiLanguage.structure.ComponentDeclaration", null, false);
@@ -89,7 +83,6 @@ public class MigrateParameterBrowser_MigrationScript extends BaseMigrationScript
     n1.setReference("extendedComponent", jetbrains.mps.smodel.SReference.create("extendedComponent", n1, facade.createModelReference("r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)"), facade.createNodeId("1202816402995")));
     return n1;
   }
-
   private static SNode createComponentController_wft9px_a0a3a1a0a(Object p0) {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode n1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.uiLanguage.structure.ComponentController", null, false);

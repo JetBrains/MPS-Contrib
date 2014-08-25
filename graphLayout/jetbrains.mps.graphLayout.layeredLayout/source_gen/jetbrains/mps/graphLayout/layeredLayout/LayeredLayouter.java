@@ -23,14 +23,12 @@ public class LayeredLayouter implements IPointLayouter {
   private ILayerer myLayerer;
   private ICoordinatePlacer myPlacer;
   private INodeSorter mySorter;
-
   public LayeredLayouter(IEdgeReverter reverter, ILayerer layerer, ICoordinatePlacer placer, INodeSorter sorter) {
     this.mySorter = sorter;
     this.myPlacer = placer;
     this.myLayerer = layerer;
     this.myReverter = reverter;
   }
-
   @Override
   public GraphPointLayout doLayout(Graph graph) {
     Set<Edge> reverted = myReverter.revertEdges(graph);
@@ -65,7 +63,6 @@ public class LayeredLayouter implements IPointLayouter {
     }
     return graphLayout;
   }
-
   public static Map<Edge, List<Edge>> insertDummyNodes(Graph graph, Map<Node, Integer> layers) {
     Map<Edge, List<Edge>> substituteMap = MapSequence.fromMap(new HashMap<Edge, List<Edge>>());
     int numOfRealNodes = graph.getNumNodes();

@@ -11,7 +11,6 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 public class PlusOperation_Behavior {
   public static void init(SNode thisNode) {
   }
-
   public static String virtual_toString_1213877472569(SNode thisNode) {
     String left;
     if ((SLinkOperations.getTarget(thisNode, "left", true) == null)) {
@@ -27,11 +26,9 @@ public class PlusOperation_Behavior {
     }
     return left + right;
   }
-
   public static SNode virtual_getType_1213877398951(SNode thisNode, SNode s1, SNode s2) {
     return SConceptOperations.createNewNode("jetbrains.mps.buildlanguage.structure.StringType", null);
   }
-
   public static String virtual_getActualValue_1213877472572(SNode thisNode) {
     String left;
     if ((SLinkOperations.getTarget(thisNode, "left", true) == null)) {
@@ -47,7 +44,6 @@ public class PlusOperation_Behavior {
     }
     return left + right;
   }
-
   public static String virtual_getOperation_1262430001741497840(SAbstractConcept thisConcept) {
     return "+";
   }

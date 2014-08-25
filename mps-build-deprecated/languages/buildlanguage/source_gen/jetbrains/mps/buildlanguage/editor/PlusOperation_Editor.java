@@ -34,7 +34,6 @@ public class PlusOperation_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_306krj_a(editorContext, node);
   }
-
   private EditorCell createCollection_306krj_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_306krj_a");
@@ -44,7 +43,6 @@ public class PlusOperation_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createRefNode_306krj_c0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createRefNode_306krj_a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("left");
@@ -65,16 +63,13 @@ public class PlusOperation_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createReadOnlyModelAccessor_306krj_b0(final EditorContext editorContext, final SNode node) {
     EditorCell_Property editorCell = EditorCell_Property.create(editorContext, new ModelAccessor() {
       public String getText() {
         return BehaviorReflection.invokeVirtualStatic(String.class, SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SNodeOperations.getConceptDeclaration(node))), "virtual_getOperation_1262430001741497840", new Object[]{});
       }
-
       public void setText(String s) {
       }
-
       public boolean isValidText(String s) {
         return EqualUtil.equals(s, getText());
       }
@@ -89,16 +84,13 @@ public class PlusOperation_Editor extends DefaultNodeEditor {
     editorCell.getStyle().putAll(style);
     return editorCell;
   }
-
   public static class ReplaceWith_BinaryOperation_cellMenu_306krj_a0b0 extends AbstractCellMenuPart_ReplaceNode_CustomNodeConcept {
     public ReplaceWith_BinaryOperation_cellMenu_306krj_a0b0() {
     }
-
     public String getReplacementConceptName() {
       return "jetbrains.mps.buildlanguage.structure.BinaryOperation";
     }
   }
-
   private EditorCell createRefNode_306krj_c0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("right");

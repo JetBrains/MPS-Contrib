@@ -12,20 +12,17 @@ public class Importer<T> {
   private final Map<Class, T> myMap = new LinkedHashMap<Class, T>();
   private final Importer.IClassInfoProvider myProvider;
   private final Map<String, T> myExisting;
-
   public Importer(List<ClassInfo> toImport, Map<String, T> existing, Importer.IClassInfoProvider provider) {
     this.myQueue.addAll(toImport);
     this.myProvider = provider;
     this.myExisting = existing;
   }
-
   public void importAll(Importer.IBuilder<T> builder) {
     for (ClassInfo ci : this.myQueue) {
       Importer.this.createDeclaration(builder, ci);
     }
     Importer.this.importDeclarations(this.myQueue, builder);
   }
-
   private void importDeclarations(List<ClassInfo> toImport, Importer.IBuilder<T> builder) {
     if (toImport.isEmpty()) {
       return;
@@ -53,7 +50,6 @@ public class Importer<T> {
     }
     Importer.this.importDeclarations(toImportLater, builder);
   }
-
   public T createDeclaration(Importer.IBuilder<T> builder, ClassInfo ci) {
     T decl;
     if (this.myExisting.containsKey(ci.getDeclarationClass().getName())) {
@@ -65,7 +61,6 @@ public class Importer<T> {
     this.myMap.put(ci.getDeclarationClass(), decl);
     return decl;
   }
-
   private void getDeclarationOrCreateItIfMissing(Class clazz, Importer.IBuilder<T> builder, List<ClassInfo> toAddLater) {
     if (!(this.myMap.containsKey(clazz))) {
       ClassInfo classInfo = this.myProvider.createClassInfo(clazz);
@@ -75,7 +70,6 @@ public class Importer<T> {
       }
     }
   }
-
   public static interface IBuilder<T> {
     public T createDeclaration(ClassInfo ci);
     public void addParent(T declaration, T parent);
@@ -84,7 +78,6 @@ public class Importer<T> {
     public void addNested(T declaration, T nestedDeclaration, ClassInfo.Nested nested);
     public void updateDeclaration(T declaration, ClassInfo ci);
   }
-
   public static interface IClassInfoProvider {
     public ClassInfo createClassInfo(Class clazz);
   }

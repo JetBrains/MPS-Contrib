@@ -26,10 +26,8 @@ import java.util.LinkedHashSet;
 
 public class TreeEmbeddingFinder implements IEmbeddingFinder {
   private Map<Edge, List<Edge>> mySplittedEdges;
-
   public TreeEmbeddingFinder() {
   }
-
   @Override
   public EmbeddedGraph find(Graph graph) {
     mySplittedEdges = MapSequence.fromMap(new HashMap<Edge, List<Edge>>());
@@ -48,7 +46,6 @@ public class TreeEmbeddingFinder implements IEmbeddingFinder {
     mergeEdges();
     return embeddedGraph;
   }
-
   private void restoreEdge(EmbeddedGraph embeddedGraph, Edge removedEdge) {
     MapSequence.fromMap(mySplittedEdges).put(removedEdge, ListSequence.fromList(new ArrayList<Edge>()));
     Graph graph = embeddedGraph.getGraph();
@@ -86,7 +83,6 @@ public class TreeEmbeddingFinder implements IEmbeddingFinder {
       splitFace(embeddedGraph, ListSequence.fromList(facePath).getElement(i), newEdge);
     }
   }
-
   public void splitFace(EmbeddedGraph embeddedGraph, Face face, Edge newEdge) {
     List<Node> nodes = newEdge.getAdjacentNodes();
     Graph originalGraph = embeddedGraph.getGraph();
@@ -129,7 +125,6 @@ public class TreeEmbeddingFinder implements IEmbeddingFinder {
       embeddedGraph.setOuterFace(ListSequence.fromList(newFaces).getElement(1));
     }
   }
-
   public Node split(EmbeddedGraph embeddedGraph, Edge edge) {
     Graph originalGraph = embeddedGraph.getGraph();
     Node newNode = originalGraph.createDummyNode();
@@ -160,7 +155,6 @@ public class TreeEmbeddingFinder implements IEmbeddingFinder {
     }
     return newNode;
   }
-
   private Face getOuterTreeFace(Graph graph, List<Edge> removed) {
     TreeEmbeddingFinder.MyDfs dfs = new TreeEmbeddingFinder.MyDfs();
     dfs.doDfs(graph, Edge.Direction.BOTH);
@@ -168,7 +162,6 @@ public class TreeEmbeddingFinder implements IEmbeddingFinder {
     ListSequence.fromList(removed).addSequence(SetSequence.fromSet(dfs.getBackEdges()));
     return dfs.getOuterFace();
   }
-
   private void mergeEdges() {
     Map<Edge, List<Edge>> merged = MapSequence.fromMap(new HashMap<Edge, List<Edge>>());
     Set<Edge> dummyEdges = SetSequence.fromSet(new HashSet<Edge>());
@@ -183,7 +176,6 @@ public class TreeEmbeddingFinder implements IEmbeddingFinder {
     }
     mySplittedEdges = merged;
   }
-
   private List<Edge> mergeEdges(Edge splittedEdge) {
     List<Edge> newEdgeList = ListSequence.fromList(new ArrayList<Edge>());
     for (Edge edge : ListSequence.fromList(MapSequence.fromMap(mySplittedEdges).get(splittedEdge))) {
@@ -195,18 +187,14 @@ public class TreeEmbeddingFinder implements IEmbeddingFinder {
     }
     return newEdgeList;
   }
-
   public Map<Edge, List<Edge>> getSplittedEdges() {
     return mySplittedEdges;
   }
-
   private class MyDfs extends Dfs {
     private Set<Edge> myBackEdges;
     private Face myOuterFace;
-
     public MyDfs() {
     }
-
     @Override
     protected void processEdge(Edge edge, Node source) {
       if ((Integer) MapSequence.fromMap(getDfsState()).get(edge.getOpposite(source)) == Dfs.BEFORE) {
@@ -215,7 +203,6 @@ public class TreeEmbeddingFinder implements IEmbeddingFinder {
         SetSequence.fromSet(myBackEdges).addElement(edge);
       }
     }
-
     @Override
     protected void postprocess(Node node, Edge from) {
       if (from != null) {
@@ -223,18 +210,15 @@ public class TreeEmbeddingFinder implements IEmbeddingFinder {
       }
 
     }
-
     @Override
     public void doDfs(Graph graph, Edge.Direction direction) {
       myBackEdges = SetSequence.fromSet(new LinkedHashSet<Edge>());
       myOuterFace = new Face(graph);
       super.doDfs(graph, direction);
     }
-
     public Set<Edge> getBackEdges() {
       return this.myBackEdges;
     }
-
     public Face getOuterFace() {
       return this.myOuterFace;
     }

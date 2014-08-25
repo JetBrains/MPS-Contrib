@@ -21,7 +21,6 @@ import jetbrains.mps.internal.collections.runtime.SetSequence;
 public class CompareFlowStressTest {
   public CompareFlowStressTest() {
   }
-
   public static void main(String[] args) throws Exception {
     String fileName = "C:\\work\\compareFlow.txt";
     int numNodes = Integer.parseInt(args[0]);
@@ -75,7 +74,6 @@ public class CompareFlowStressTest {
       }
     }
   }
-
   private static int getFlowSize(Map<Edge, Integer> flow, Node source) {
     int flowSize = 0;
     for (Edge edge : ListSequence.fromList(source.getOutEdges())) {
@@ -83,7 +81,6 @@ public class CompareFlowStressTest {
     }
     return flowSize;
   }
-
   public static void printFlow(Map<Edge, Integer> flow) {
     for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(flow).keySet())) {
       int edgeFlow = MapSequence.fromMap(flow).get(edge);

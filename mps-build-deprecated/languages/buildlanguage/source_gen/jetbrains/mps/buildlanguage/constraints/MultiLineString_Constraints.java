@@ -16,7 +16,6 @@ public class MultiLineString_Constraints extends BaseConstraintsDescriptor {
   public MultiLineString_Constraints() {
     super("jetbrains.mps.buildlanguage.structure.MultiLineString");
   }
-
   @Override
   protected Map<String, PropertyConstraintsDescriptor> getNotDefaultProperties() {
     Map<String, PropertyConstraintsDescriptor> properties = new HashMap();
@@ -25,7 +24,6 @@ public class MultiLineString_Constraints extends BaseConstraintsDescriptor {
       public boolean hasOwnGetter() {
         return true;
       }
-
       @Override
       public Object getValue(SNode node) {
         String propertyName = "name";

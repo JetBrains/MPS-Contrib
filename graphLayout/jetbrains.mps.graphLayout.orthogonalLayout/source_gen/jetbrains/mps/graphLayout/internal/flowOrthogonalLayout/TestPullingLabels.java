@@ -27,10 +27,8 @@ import jetbrains.mps.graphLayout.intGeom2D.Util1D;
 
 public class TestPullingLabels {
   private int myUnitLength = 20;
-
   public TestPullingLabels() {
   }
-
   public GraphLayout doLayout(Graph graph, Map<Node, Dimension> nodeSizes, Map<Edge, Dimension> edgeSizes) {
     OrthogonalFlowLayouterConstraints flowLayouterConstraints = new OrthogonalFlowLayouterConstraints();
     flowLayouterConstraints.setUnitLength(myUnitLength);
@@ -43,7 +41,6 @@ public class TestPullingLabels {
     layout = layout.shift(20 - rect.x, 20 - rect.y);
     return layout;
   }
-
   private GraphLayout addEdgeLabel(GraphLayout layout, Edge edge, Dimension labelSize, Map<Edge, Integer> labeledSegments) {
     List<Point> path = layout.getEdgeLayout(edge);
     int begin = 0;
@@ -85,7 +82,6 @@ public class TestPullingLabels {
     layout.setLabelLayout(edge, rect);
     return layout;
   }
-
   public int getMinDist(GraphLayout layout, Rectangle rect, Direction2D dir) {
     int minDist = Integer.MAX_VALUE;
     for (INode node : SetSequence.fromSet(MapSequence.fromMap(layout.getNodeLayout()).keySet())) {
@@ -116,7 +112,6 @@ public class TestPullingLabels {
     }
     return minDist;
   }
-
   public int getDist(Rectangle rect, Point point, Direction2D dir) {
     if (dir.isHorizontal()) {
       return point.y - rect.y;
@@ -124,7 +119,6 @@ public class TestPullingLabels {
       return point.x - rect.x;
     }
   }
-
   public Rectangle getRectangle(Dimension size, Point center, Direction2D dir) {
     if (dir.isVertical()) {
       return new Rectangle(center.x, center.y - size.height / 2, size.width, size.height);
@@ -132,7 +126,6 @@ public class TestPullingLabels {
       return new Rectangle(center.x - size.width / 2, center.y, size.width, size.height);
     }
   }
-
   public GraphLayout pullGraphLayout(GraphLayout layout, Direction2D direction, int shift, Point center, Map<Edge, Integer> labeledSegments, boolean alongEdge) {
     GraphLayout pulledLayout = GraphLayoutFactory.createGraphLayout(layout.getGraph());
     Set<Node> unpulledNodes = SetSequence.fromSet(new HashSet<Node>());
@@ -189,7 +182,6 @@ public class TestPullingLabels {
     }
     return pulledLayout;
   }
-
   public Point pullPoint(Point point, Point center, Direction2D direction, int shift) {
     int dx = direction.dx();
     int dy = direction.dy();
@@ -207,7 +199,6 @@ public class TestPullingLabels {
     dy = direction.dy() * shift;
     return new Point(point.x + dx, point.y + dy);
   }
-
   public Rectangle pullRectangle(Rectangle rect, Point center, Direction2D direction, int shift, boolean alongEdge) {
     int dx = direction.dx();
     int dy = direction.dy();
@@ -234,7 +225,6 @@ public class TestPullingLabels {
       return new Rectangle(rect.x + dx, rect.y + dy, rect.width, rect.height);
     }
   }
-
   private boolean wasSplitted(GraphLayout layout, Node node, Edge edge) {
     Direction2D dir = getStartDirection(layout, node, edge);
     boolean wasSplitted = false;
@@ -245,7 +235,6 @@ public class TestPullingLabels {
     }
     return wasSplitted;
   }
-
   private Direction2D getStartDirection(GraphLayout layout, Node node, Edge edge) {
     List<Point> path = layout.getEdgeLayout(edge);
     if (node == edge.getSource()) {

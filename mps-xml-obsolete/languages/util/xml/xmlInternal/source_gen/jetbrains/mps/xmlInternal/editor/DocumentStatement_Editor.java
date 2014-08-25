@@ -22,7 +22,6 @@ public class DocumentStatement_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_v8qqjg_a(editorContext, node);
   }
-
   private EditorCell createCollection_v8qqjg_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_v8qqjg_a");
@@ -31,7 +30,6 @@ public class DocumentStatement_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createCollection_v8qqjg_b0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_v8qqjg_a0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "document statement");
     editorCell.setCellId("Constant_v8qqjg_a0");
@@ -41,7 +39,6 @@ public class DocumentStatement_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createCollection_v8qqjg_b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_v8qqjg_b0");
@@ -52,12 +49,10 @@ public class DocumentStatement_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createRefNode_v8qqjg_b1a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createIndentCell_v8qqjg_a1a(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
     return editorCell;
   }
-
   private EditorCell createRefNode_v8qqjg_b1a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("document");

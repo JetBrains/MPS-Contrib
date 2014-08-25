@@ -19,7 +19,6 @@ public abstract class JavaRunProfileState extends BaseRunProfileState {
   @Deprecated
   public JavaRunProfileState() {
   }
-
   @NotNull
   @Override
   public AbstractDebugSessionCreator createDebugSessionCreator(Project project) {

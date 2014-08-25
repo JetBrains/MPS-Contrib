@@ -27,7 +27,6 @@ public class VisibilityRepresentation_Test extends TestCase {
     STPlanarGraph stPlanarGraph = new STPlanarGraph(embeddedGraph, graph.getNode(0), graph.getNode(8));
     Map<Object, Rectangle> visibility = VisibilityRepresentation.getVisibilityRepresentation(stPlanarGraph);
   }
-
   public void test_BookGraph() throws Exception {
     String graphString = "9 15  \n0 1  \n0 5  \n0 3  \n0 7  \n1 2  \n2 4  \n2 3  \n3 6  \n3 7  \n3 8  \n4 5  \n4 6  \n5 8  \n6 8 \n 7 8";
     Graph graph = GraphIO.scanGraph(new Scanner(graphString));
@@ -38,7 +37,6 @@ public class VisibilityRepresentation_Test extends TestCase {
     STPlanarGraph stPlanarGraph = new STPlanarGraph(embeddedGraph, s, t);
     Map<Object, Rectangle> visibility = VisibilityRepresentation.getVisibilityRepresentation(stPlanarGraph);
   }
-
   public void test_K5() throws Exception {
     String graphString = "5 10  0 1  0 2  0 3  0 4  1 2  1 3  1 4  2 3  2 4  3 4";
     Graph graph = GraphIO.scanGraph(new Scanner(graphString));
@@ -49,7 +47,6 @@ public class VisibilityRepresentation_Test extends TestCase {
     STPlanarGraph stPlanarGraph = new STPlanarGraph(embeddedGraph, s, t);
     Map<Object, Rectangle> visibility = VisibilityRepresentation.getVisibilityRepresentation(stPlanarGraph);
   }
-
   public VisibilityRepresentation_Test() {
   }
 }

@@ -7,7 +7,6 @@ import jetbrains.mps.lang.core.behavior.IDontSubstituteByDefault_BehaviorDescrip
 public class DateTimeWithPropertyOperation_BehaviorDescriptor extends UnaryDateTimeOperation_BehaviorDescriptor implements IDontSubstituteByDefault_BehaviorDescriptor {
   public DateTimeWithPropertyOperation_BehaviorDescriptor() {
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.baseLanguage.dates.structure.DateTimeWithPropertyOperation";

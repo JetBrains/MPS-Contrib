@@ -1,60 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debugInfo>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
   <root nodeRef="r:e668577d-4946-4b7d-8278-f6ebfb65ac06(jetbrains.mps.debug)/8321286824330490408">
-    <nodeInfo nodeId="8321286824330490415" fileName="BaseRunProfileState.java" startLine="25" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myUserData" />
-    <nodeInfo nodeId="8321286824330490439" fileName="BaseRunProfileState.java" startLine="31" startPosition="61" endLine="32" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8321286824330490453" fileName="BaseRunProfileState.java" startLine="36" startPosition="40" endLine="37" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8321286824330490477" fileName="BaseRunProfileState.java" startLine="44" startPosition="81" endLine="45" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8321286824330490484" fileName="BaseRunProfileState.java" startLine="49" startPosition="43" endLine="50" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8321286824330490486" fileName="BaseRunProfileState.java" startLine="50" startPosition="35" endLine="51" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8321286824330490506" fileName="BaseRunProfileState.java" startLine="59" startPosition="57" endLine="60" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8321286824330490515" fileName="BaseRunProfileState.java" startLine="64" startPosition="38" endLine="65" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8321286824330490461" fileName="BaseRunProfileState.java" startLine="40" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createDebugSessionCreator#(Lcom/intellij/openapi/project/Project;)Ljetbrains/mps/debug/api/AbstractDebugSessionCreator;" />
-    <nodeInfo nodeId="8321286824330490424" fileName="BaseRunProfileState.java" startLine="27" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="BaseRunProfileState#()V" />
-    <nodeInfo nodeId="8321286824330490428" fileName="BaseRunProfileState.java" startLine="31" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="putUserData#(Lcom/intellij/openapi/util/Key;null)V" />
-    <nodeInfo nodeId="8321286824330490445" fileName="BaseRunProfileState.java" startLine="35" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getUserData#(Lcom/intellij/openapi/util/Key;)null" />
-    <nodeInfo nodeId="8321286824330490468" fileName="BaseRunProfileState.java" startLine="43" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="prepare#(Lcom/intellij/execution/Executor;Lcom/intellij/execution/runners/ProgramRunner;)Ljava/lang/Object;" />
-    <nodeInfo nodeId="8321286824330490502" fileName="BaseRunProfileState.java" startLine="58" startPosition="0" endLine="62" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createDebuggerSettings#()Ljetbrains/mps/debug/api/IDebuggerSettings;" />
-    <nodeInfo nodeId="8321286824330490511" fileName="BaseRunProfileState.java" startLine="63" startPosition="0" endLine="67" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDebugger#()Ljetbrains/mps/debug/api/IDebugger;" />
-    <nodeInfo nodeId="8321286824330490480" fileName="BaseRunProfileState.java" startLine="48" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="updateDebuggerSettings#()V" />
-    <nodeInfo nodeId="8321286824330490498" fileName="BaseRunProfileState.java" startLine="56" startPosition="60" endLine="67" endPosition="6" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8321286824330490494" fileName="BaseRunProfileState.java" startLine="54" startPosition="0" endLine="69" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDebuggerConfiguration#()Ljetbrains/mps/debug/api/run/IDebuggerConfiguration;" />
-    <scopeInfo nodeId="8321286824330490427" fileName="BaseRunProfileState.java" startLine="28" startPosition="32" endLine="28" endPosition="32" />
-    <scopeInfo nodeId="8321286824330490438" fileName="BaseRunProfileState.java" startLine="31" startPosition="61" endLine="32" endPosition="31" />
-    <scopeInfo nodeId="8321286824330490452" fileName="BaseRunProfileState.java" startLine="36" startPosition="40" endLine="37" endPosition="35" />
-    <scopeInfo nodeId="8321286824330490476" fileName="BaseRunProfileState.java" startLine="44" startPosition="81" endLine="45" endPosition="16" />
-    <scopeInfo nodeId="8321286824330490505" fileName="BaseRunProfileState.java" startLine="59" startPosition="57" endLine="60" endPosition="49" />
-    <scopeInfo nodeId="8321286824330490514" fileName="BaseRunProfileState.java" startLine="64" startPosition="38" endLine="65" endPosition="65" />
-    <scopeInfo nodeId="8321286824330490461" fileName="BaseRunProfileState.java" startLine="40" startPosition="0" endLine="42" endPosition="0">
-      <varInfo nodeId="8321286824330490464" varName="project" />
-    </scopeInfo>
-    <scopeInfo nodeId="8321286824330490483" fileName="BaseRunProfileState.java" startLine="49" startPosition="43" endLine="51" endPosition="91" />
-    <scopeInfo nodeId="8321286824330490424" fileName="BaseRunProfileState.java" startLine="27" startPosition="0" endLine="30" endPosition="0" />
-    <scopeInfo nodeId="8321286824330490428" fileName="BaseRunProfileState.java" startLine="31" startPosition="0" endLine="34" endPosition="0">
-      <varInfo nodeId="8321286824330490432" varName="key" />
-      <varInfo nodeId="8321286824330490436" varName="value" />
-    </scopeInfo>
-    <scopeInfo nodeId="8321286824330490445" fileName="BaseRunProfileState.java" startLine="35" startPosition="0" endLine="39" endPosition="0">
-      <varInfo nodeId="8321286824330490449" varName="key" />
-    </scopeInfo>
-    <scopeInfo nodeId="8321286824330490468" fileName="BaseRunProfileState.java" startLine="43" startPosition="0" endLine="47" endPosition="0">
-      <varInfo nodeId="8321286824330490471" varName="executor" />
-      <varInfo nodeId="8321286824330490473" varName="runner" />
-    </scopeInfo>
-    <scopeInfo nodeId="8321286824330490502" fileName="BaseRunProfileState.java" startLine="58" startPosition="0" endLine="62" endPosition="0" />
-    <scopeInfo nodeId="8321286824330490511" fileName="BaseRunProfileState.java" startLine="63" startPosition="0" endLine="67" endPosition="0" />
-    <scopeInfo nodeId="8321286824330490480" fileName="BaseRunProfileState.java" startLine="48" startPosition="0" endLine="53" endPosition="0" />
-    <scopeInfo nodeId="8321286824330490497" fileName="BaseRunProfileState.java" startLine="56" startPosition="60" endLine="67" endPosition="6" />
-    <scopeInfo nodeId="8321286824330490494" fileName="BaseRunProfileState.java" startLine="54" startPosition="0" endLine="69" endPosition="0" />
-    <unitInfo nodeId="8321286824330490501" fileName="BaseRunProfileState.java" startLine="57" startPosition="15" endLine="67" endPosition="5" unitName="jetbrains.mps.debug.BaseRunProfileState$1" />
-    <unitInfo nodeId="8321286824330490408" fileName="BaseRunProfileState.java" startLine="22" startPosition="0" endLine="70" endPosition="0" unitName="jetbrains.mps.debug.BaseRunProfileState" />
+    <file name="BaseRunProfileState.java">
+      <node id="8321286824330490415" at="25,0,26,0" concept="2" trace="myUserData" />
+      <node id="8321286824330490439" at="29,61,30,31" concept="1" />
+      <node id="8321286824330490453" at="33,40,34,35" concept="4" />
+      <node id="8321286824330490477" at="39,81,40,16" concept="4" />
+      <node id="8321286824330490484" at="43,43,44,35" concept="1" />
+      <node id="8321286824330490486" at="44,35,45,91" concept="1" />
+      <node id="8321286824330490506" at="52,57,53,49" concept="4" />
+      <node id="8321286824330490515" at="56,38,57,65" concept="4" />
+      <node id="8321286824330490461" at="36,0,38,0" concept="3" trace="createDebugSessionCreator#(Lcom/intellij/openapi/project/Project;)Ljetbrains/mps/debug/api/AbstractDebugSessionCreator;" />
+      <node id="8321286824330490424" at="26,0,29,0" concept="0" trace="BaseRunProfileState#()V" />
+      <node id="8321286824330490428" at="29,0,32,0" concept="3" trace="putUserData#(Lcom/intellij/openapi/util/Key;null)V" />
+      <node id="8321286824330490445" at="32,0,36,0" concept="3" trace="getUserData#(Lcom/intellij/openapi/util/Key;)null" />
+      <node id="8321286824330490468" at="38,0,42,0" concept="3" trace="prepare#(Lcom/intellij/execution/Executor;Lcom/intellij/execution/runners/ProgramRunner;)Ljava/lang/Object;" />
+      <node id="8321286824330490502" at="51,0,55,0" concept="3" trace="createDebuggerSettings#()Ljetbrains/mps/debug/api/IDebuggerSettings;" />
+      <node id="8321286824330490511" at="55,0,59,0" concept="3" trace="getDebugger#()Ljetbrains/mps/debug/api/IDebugger;" />
+      <node id="8321286824330490480" at="42,0,47,0" concept="3" trace="updateDebuggerSettings#()V" />
+      <node id="8321286824330490498" at="49,60,59,6" concept="4" />
+      <node id="8321286824330490494" at="47,0,61,0" concept="3" trace="getDebuggerConfiguration#()Ljetbrains/mps/debug/api/run/IDebuggerConfiguration;" />
+      <scope id="8321286824330490427" at="27,32,27,32" />
+      <scope id="8321286824330490438" at="29,61,30,31" />
+      <scope id="8321286824330490452" at="33,40,34,35" />
+      <scope id="8321286824330490476" at="39,81,40,16" />
+      <scope id="8321286824330490505" at="52,57,53,49" />
+      <scope id="8321286824330490514" at="56,38,57,65" />
+      <scope id="8321286824330490461" at="36,0,38,0">
+        <var name="project" id="8321286824330490464" />
+      </scope>
+      <scope id="8321286824330490483" at="43,43,45,91" />
+      <scope id="8321286824330490424" at="26,0,29,0" />
+      <scope id="8321286824330490428" at="29,0,32,0">
+        <var name="key" id="8321286824330490432" />
+        <var name="value" id="8321286824330490436" />
+      </scope>
+      <scope id="8321286824330490445" at="32,0,36,0">
+        <var name="key" id="8321286824330490449" />
+      </scope>
+      <scope id="8321286824330490468" at="38,0,42,0">
+        <var name="executor" id="8321286824330490471" />
+        <var name="runner" id="8321286824330490473" />
+      </scope>
+      <scope id="8321286824330490502" at="51,0,55,0" />
+      <scope id="8321286824330490511" at="55,0,59,0" />
+      <scope id="8321286824330490480" at="42,0,47,0" />
+      <scope id="8321286824330490497" at="49,60,59,6" />
+      <scope id="8321286824330490494" at="47,0,61,0" />
+      <unit id="8321286824330490501" at="50,15,59,5" name="jetbrains.mps.debug.BaseRunProfileState$1" />
+      <unit id="8321286824330490408" at="22,0,62,0" name="jetbrains.mps.debug.BaseRunProfileState" />
+    </file>
   </root>
   <root nodeRef="r:e668577d-4946-4b7d-8278-f6ebfb65ac06(jetbrains.mps.debug)/8321286824331322657">
-    <nodeInfo nodeId="8321286824331322663" fileName="DebuggerKeys.java" startLine="11" startPosition="0" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="CONNECTION_SETTINGS" />
-    <nodeInfo nodeId="8321286824331322670" fileName="DebuggerKeys.java" startLine="13" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="DebuggerKeys#()V" />
-    <scopeInfo nodeId="8321286824331322673" fileName="DebuggerKeys.java" startLine="14" startPosition="25" endLine="14" endPosition="25" />
-    <scopeInfo nodeId="8321286824331322670" fileName="DebuggerKeys.java" startLine="13" startPosition="0" endLine="16" endPosition="0" />
-    <unitInfo nodeId="8321286824331322657" fileName="DebuggerKeys.java" startLine="8" startPosition="0" endLine="17" endPosition="0" unitName="jetbrains.mps.debug.DebuggerKeys" />
+    <file name="DebuggerKeys.java">
+      <node id="8321286824331322663" at="11,0,12,0" concept="5" trace="CONNECTION_SETTINGS" />
+      <node id="8321286824331322670" at="12,0,15,0" concept="0" trace="DebuggerKeys#()V" />
+      <scope id="8321286824331322673" at="13,25,13,25" />
+      <scope id="8321286824331322670" at="12,0,15,0" />
+      <unit id="8321286824331322657" at="8,0,16,0" name="jetbrains.mps.debug.DebuggerKeys" />
+    </file>
   </root>
-</debugInfo>
+</debug-info>
 

@@ -21,10 +21,8 @@ import jetbrains.mps.graphLayout.intGeom2D.Point;
 public abstract class BasicLayouter implements ILayouter {
   private static final int DEFAULT_UNIT_LENGTH = 20;
   private int myUnitLength = DEFAULT_UNIT_LENGTH;
-
   public BasicLayouter() {
   }
-
   @Override
   public GraphLayout doLayout(ILayoutInfo layoutInfo) {
     LayoutInfoCopier patchCopier = new LayoutInfoCopier(layoutInfo);
@@ -34,7 +32,6 @@ public abstract class BasicLayouter implements ILayouter {
     initialLayout = patchCopier.restoreLayout(graphLayout);
     return initialLayout;
   }
-
   protected GraphLayout doLayoutCopy(LayoutInfo patchInfo) {
     Graph graph = patchInfo.getGraph();
     final Map<Node, Integer> components = ConnectivityComponents.getComponents(graph);
@@ -89,9 +86,7 @@ public abstract class BasicLayouter implements ILayouter {
     }
     return graphLayout;
   }
-
   public abstract GraphLayout doLayoutConnectedGraph(LayoutInfo layoutInfo);
-
   protected List<Dimension> getSubgraphLayoutShifts(List<Rectangle> subgraphLayoutRects) {
     List<Dimension> subgraphLayoutShifts = ListSequence.fromList(new ArrayList<Dimension>(ListSequence.fromList(subgraphLayoutRects).count()));
     int shiftX = 0;
@@ -101,11 +96,9 @@ public abstract class BasicLayouter implements ILayouter {
     }
     return subgraphLayoutShifts;
   }
-
   public int getUnitLength() {
     return myUnitLength;
   }
-
   public void setUnitLength(int unitLength) {
     myUnitLength = unitLength;
   }

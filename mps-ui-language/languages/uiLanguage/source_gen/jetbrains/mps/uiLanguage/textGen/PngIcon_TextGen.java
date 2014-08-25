@@ -12,7 +12,6 @@ public class PngIcon_TextGen extends SNodeTextGen {
     getBuffer().putUserObject(TextGen.OUTPUT_ENCODING, "binary");
     this.append(SPropertyOperations.getString(node, "iconData"));
   }
-
   public String getExtension(SNode node) {
     return "png";
   }

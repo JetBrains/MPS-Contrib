@@ -11,20 +11,16 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class DatesQueriesUtil {
   public static final String FORMAL_TABLES_CONTAINER = "_FormatTables";
-
   public static String getFQName(SNode table) {
     return NameUtil.nodeFQName(table);
   }
-
   public static SNode findEnclosingTableClass(SNode node, TemplateQueryContext genctx) {
     return findEnclosingTableClass2(node, genctx);
   }
-
   public static SNode findEnclosingTableClass2(SNode node, TemplateQueryContext genctx) {
     SNode table = SNodeOperations.getAncestor(node, "jetbrains.mps.baseLanguage.dates.structure.DateFormatsTable", true, false);
     return genctx.getOutputNodeByInputNodeAndMappingLabel(table, "FormatTableClass");
   }
-
   public static SNode findFormattersFieldDeclaration(SNode node, TemplateQueryContext genctx) {
     SNode clazz = findEnclosingTableClass2(node, genctx);
     SNode result = null;
@@ -39,7 +35,6 @@ public class DatesQueriesUtil {
     }
     return result;
   }
-
   public static String getCompareType(SNode operation) {
     String result = null;
     if (SPropertyOperations.getString(SNodeOperations.getConceptDeclaration(operation), "conceptAlias").equals("==")) {

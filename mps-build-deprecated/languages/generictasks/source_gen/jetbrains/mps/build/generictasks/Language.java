@@ -17,25 +17,20 @@ import jetbrains.mps.build.generictasks.typesystem.TypesystemDescriptor;
 
 public class Language extends LanguageRuntime {
   public static String MODULE_REF = "fba399db-f591-45dc-a279-e2a2a986e262(jetbrains.mps.build.generictasks)";
-
   public Language() {
   }
-
   @Override
   public String getNamespace() {
     return "jetbrains.mps.build.generictasks";
   }
-
   @Override
   protected String[] getExtendedLanguageIDs() {
     return new String[]{"jetbrains.mps.buildlanguage", "jetbrains.mps.baseLanguage.classifiers", "jetbrains.mps.baseLanguage"};
   }
-
   @Override
   public Collection<TemplateModule> getGenerators() {
     return TemplateUtil.<TemplateModule>asCollection(TemplateUtil.createInterpretedGenerator(this, "e715b632-ac19-4813-ab23-46a82a84cc08(jetbrains.mps.build.generictasks#683020775182432297)"));
   }
-
   @Override
   protected <T extends LanguageAspectDescriptor> T createAspectDescriptor(Class<T> descriptorClass) {
     if (descriptorClass == BehaviorAspectDescriptor.class) {

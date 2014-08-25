@@ -14,7 +14,6 @@ import java.util.ArrayList;
 public class OrthogonalUtil {
   public OrthogonalUtil() {
   }
-
   /**
    * Removes some points from sequence in such a way that segments formed from successive
    * points of refined sequence alternate horisontal and vertical direction.
@@ -45,7 +44,6 @@ public class OrthogonalUtil {
     ListSequence.fromList(refined).addElement(prev);
     return refined;
   }
-
   public static Point findOnBorder(Rectangle rect, Point p1, Point p2) {
     if (p1.x == p2.x) {
       if (Util1D.insideClosedSegment(p1.y, p2.y, rect.y)) {
@@ -65,7 +63,6 @@ public class OrthogonalUtil {
     }
     return null;
   }
-
   public static Point moveToBorder(Rectangle rect, Point b, Point e) {
     List<Point> rectPoints = ListSequence.fromList(new ArrayList<Point>());
     boolean ver = b.x == e.x;
@@ -86,13 +83,11 @@ public class OrthogonalUtil {
     }
     return null;
   }
-
   public static Direction2D getDirection(Point begin, Point end) {
     int dx = Util1D.getDirection(begin.x, end.x);
     int dy = Util1D.getDirection(begin.y, end.y);
     return Direction2D.getByShifts(dx, dy);
   }
-
   /**
    * Intersects two segments. If they have no intersection, returns null.
    * If they shares a subsegment, returns one of the segment's ends, lying 
@@ -143,7 +138,6 @@ public class OrthogonalUtil {
       return res;
     }
   }
-
   public static boolean inside(Point b, Point e, Point mid) {
     if (b.x == e.x && mid.x == e.x) {
       return Util1D.insideClosedSegment(b.y, e.y, mid.y);

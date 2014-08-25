@@ -18,31 +18,26 @@ public class ClusterEmbeddingConstructor_Test extends TestCase {
     ClusteredGraph graph = GraphIO.scanClusteredGraph(graphString, treeString);
     test(graph);
   }
-
   public void test_manyClusters() throws Exception {
     String graphString = "1 0";
     String treeString = "3 2 0 1 1 2";
     ClusteredGraph graph = GraphIO.scanClusteredGraph(graphString, treeString);
     test(graph);
   }
-
   public void test_noEdges() throws Exception {
     String graphString = "4 0";
     String treeString = "7 6  0 1  0 2  1 3  1 4  2 5  2 6";
     ClusteredGraph graph = GraphIO.scanClusteredGraph(graphString, treeString);
     test(graph);
   }
-
   public void test_test1() throws Exception {
     String graphString = "4 1  0 2";
     String treeString = "7 6  0 1  0 2  1 3  1 4  2 5  2 6";
     ClusteredGraph graph = GraphIO.scanClusteredGraph(graphString, treeString);
     test(graph);
   }
-
   public ClusterEmbeddingConstructor_Test() {
   }
-
   public void test(ClusteredGraph graph) {
     List<Edge> edges = graph.getEdges();
     EdgesHistoryManager manager = new EdgesHistoryManager(graph);

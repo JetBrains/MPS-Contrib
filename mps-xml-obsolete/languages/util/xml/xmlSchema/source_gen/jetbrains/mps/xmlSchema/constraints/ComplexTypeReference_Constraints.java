@@ -20,7 +20,6 @@ public class ComplexTypeReference_Constraints extends BaseConstraintsDescriptor 
   public ComplexTypeReference_Constraints() {
     super("jetbrains.mps.xmlSchema.structure.ComplexTypeReference");
   }
-
   @Override
   protected Map<String, ReferenceConstraintsDescriptor> getNotDefaultReferences() {
     Map<String, ReferenceConstraintsDescriptor> references = new HashMap();
@@ -29,7 +28,6 @@ public class ComplexTypeReference_Constraints extends BaseConstraintsDescriptor 
       public boolean hasOwnScopeProvider() {
         return true;
       }
-
       @Nullable
       @Override
       public ReferenceScopeProvider getScopeProvider() {
@@ -38,7 +36,6 @@ public class ComplexTypeReference_Constraints extends BaseConstraintsDescriptor 
           public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
             return new ModelAndImportedModelsScope(_context.getModel(), false);
           }
-
           @Override
           public SNodeReference getSearchScopeValidatorNode() {
             return breakingNode_wv7ang_a0a1a0a0a1a0b0a1a1;
@@ -48,6 +45,5 @@ public class ComplexTypeReference_Constraints extends BaseConstraintsDescriptor 
     });
     return references;
   }
-
   private static SNodePointer breakingNode_wv7ang_a0a1a0a0a1a0b0a1a1 = new SNodePointer("r:00000000-0000-4000-0000-011c89590595(jetbrains.mps.xmlSchema.constraints)", "115745247309443797");
 }

@@ -24,7 +24,6 @@ public class EmbeddedGraph {
   private Map<Edge, List<Dart>> myEdgeDarts;
   private Graph myGraph;
   private Face myOuterFace;
-
   public EmbeddedGraph(Graph graph) {
     myFaces = ListSequence.fromList(new ArrayList<Face>());
     myAdjacentFacesMap = MapSequence.fromMap(new HashMap<Edge, List<Face>>());
@@ -32,7 +31,6 @@ public class EmbeddedGraph {
     myEdgeDarts = MapSequence.fromMap(new LinkedHashMap<Edge, List<Dart>>(16, (float) 0.75, false));
     myGraph = graph;
   }
-
   public Face findContainingFace(List<Node> nodes) {
     Face containingFace = null;
     for (Face face : ListSequence.fromList(getFaces())) {
@@ -46,7 +44,6 @@ public class EmbeddedGraph {
     }
     return containingFace;
   }
-
   public Face getFaceToTheRight(Edge edge) {
     List<Dart> darts = getDarts(edge);
     for (Dart dart : ListSequence.fromList(darts)) {
@@ -56,7 +53,6 @@ public class EmbeddedGraph {
     }
     return null;
   }
-
   public Face getFaceToTheLeft(Edge edge) {
     List<Dart> darts = getDarts(edge);
     for (Dart dart : ListSequence.fromList(darts)) {
@@ -66,7 +62,6 @@ public class EmbeddedGraph {
     }
     return null;
   }
-
   public Dart getSourceDart(Edge edge, final Node source) {
     return ListSequence.fromList(getDarts(edge)).findFirst(new IWhereFilter<Dart>() {
       public boolean accept(Dart dart) {
@@ -74,11 +69,9 @@ public class EmbeddedGraph {
       }
     });
   }
-
   public Node splitEdge(Edge edge) {
     return splitEdge(edge, ListSequence.fromList(new ArrayList<Edge>()));
   }
-
   public Node splitEdge(final Edge edge, List<Edge> newEdges) {
     Graph originalGraph = this.getGraph();
     List<Edge> split = originalGraph.splitEdge(edge);
@@ -128,7 +121,6 @@ public class EmbeddedGraph {
     }
     return newNode;
   }
-
   public List<Face> splitFace(Face face, List<Edge> path, Node start, Node end) {
     Graph originalGraph = this.getGraph();
     Face faceSToE = new Face(originalGraph);
@@ -187,7 +179,6 @@ public class EmbeddedGraph {
     }
     return ListSequence.fromListAndArray(new ArrayList<Face>(), faceSToE, faceEToS);
   }
-
   public Face makeLoop(Face face, List<Edge> loop, Node node) {
     face.makeEndsWith(node);
     for (Edge edge : ListSequence.fromList(loop)) {
@@ -200,14 +191,12 @@ public class EmbeddedGraph {
     addFace(newFace);
     return newFace;
   }
-
   public void addFace(Face face) {
     ListSequence.fromList(myFaces).addElement(face);
     for (Dart dart : ListSequence.fromList(face.getDarts())) {
       adjustDart(dart, face);
     }
   }
-
   private void adjustDart(Dart dart, Face face) {
     MapSequence.fromMap(myDartsToFacesMap).put(dart, face);
     Edge edge = dart.getEdge();
@@ -216,14 +205,12 @@ public class EmbeddedGraph {
     }
     ListSequence.fromList(MapSequence.fromMap(myEdgeDarts).get(edge)).addElement(dart);
   }
-
   public void removeFace(Face face) {
     ListSequence.fromList(myFaces).removeElement(face);
     for (Dart dart : ListSequence.fromList(face.getDarts())) {
       unadjustDart(dart);
     }
   }
-
   private void unadjustDart(Dart dart) {
     MapSequence.fromMap(myDartsToFacesMap).removeKey(dart);
     Edge edge = dart.getEdge();
@@ -232,36 +219,29 @@ public class EmbeddedGraph {
       MapSequence.fromMap(myEdgeDarts).removeKey(edge);
     }
   }
-
   public void setDart(Face face, int pos, Dart dart) {
     Dart oldDart = ListSequence.fromList(face.getDarts()).getElement(pos);
     unadjustDart(oldDart);
     ListSequence.fromList(face.getDarts()).setElement(pos, dart);
     adjustDart(dart, face);
   }
-
   public void removeDart(Face face, Dart dart) {
     unadjustDart(dart);
     ListSequence.fromList(face.getDarts()).removeElement(dart);
   }
-
   public void insertDart(Face face, int pos, Dart dart) {
     ListSequence.fromList(face.getDarts()).insertElement(pos, dart);
     adjustDart(dart, face);
   }
-
   public void addFirstDart(Face face, Dart dart) {
     insertDart(face, 0, dart);
   }
-
   public void addLastDart(Face face, Dart dart) {
     insertDart(face, ListSequence.fromList(face.getDarts()).count(), dart);
   }
-
   public List<Face> getFaces() {
     return this.myFaces;
   }
-
   public List<Face> getAdjacentFaces(Edge edge) {
     List<Face> faces = ListSequence.fromList(new ArrayList<Face>());
     ListSequence.fromList(faces).addSequence(ListSequence.fromList(getDarts(edge)).select(new ISelector<Dart, Face>() {
@@ -274,15 +254,12 @@ public class EmbeddedGraph {
     }
     return faces;
   }
-
   public Set<Edge> getEdges() {
     return MapSequence.fromMap(myEdgeDarts).keySet();
   }
-
   public List<Dart> getDarts(Edge edge) {
     return MapSequence.fromMap(myEdgeDarts).get(edge);
   }
-
   public Dart getOpposite(final Dart dart) {
     return ListSequence.fromList(getDarts(dart.getEdge())).findFirst(new IWhereFilter<Dart>() {
       public boolean accept(Dart it) {
@@ -290,11 +267,9 @@ public class EmbeddedGraph {
       }
     });
   }
-
   public Face getFace(Dart dart) {
     return MapSequence.fromMap(myDartsToFacesMap).get(dart);
   }
-
   public List<Dart> getDartWithSource(final Node node) {
     List<Dart> darts = ListSequence.fromList(new ArrayList<Dart>());
     for (Edge edge : ListSequence.fromList(node.getEdges())) {
@@ -309,7 +284,6 @@ public class EmbeddedGraph {
     }
     return darts;
   }
-
   public Dart getNextSourceDart(Dart dart) {
     Face face = getFace(dart);
     Dart next = null;
@@ -328,7 +302,6 @@ public class EmbeddedGraph {
     }
     return next;
   }
-
   public List<Dart> getOrderedDarts(Node node) {
     List<Dart> darts = getDartWithSource(node);
     List<Dart> sortedDarts = ListSequence.fromList(new LinkedList<Dart>());
@@ -339,11 +312,9 @@ public class EmbeddedGraph {
     }
     return sortedDarts;
   }
-
   public Graph getGraph() {
     return this.myGraph;
   }
-
   @Override
   public String toString() {
     StringBuilder builder = new StringBuilder();
@@ -353,19 +324,15 @@ public class EmbeddedGraph {
     builder.append("outer face has num: " + ListSequence.fromList(myFaces).indexOf(myOuterFace));
     return builder.toString();
   }
-
   public Face getOuterFace() {
     return this.myOuterFace;
   }
-
   public void setOuterFace(Face outerFace) {
     this.myOuterFace = outerFace;
   }
-
   public boolean isOuterFace(Face face) {
     return face == myOuterFace;
   }
-
   public void removeEdge(Edge edge) {
     List<Dart> edgeDarts = getDarts(edge);
     Dart first = ListSequence.fromList(edgeDarts).first();
@@ -386,7 +353,6 @@ public class EmbeddedGraph {
       addLastDart(face, dart);
     }
   }
-
   public boolean isEmpty() {
     return ListSequence.fromList(getFaces()).count() == 0;
   }

@@ -17,7 +17,6 @@ public class SchemaType_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_qq31lk_a(editorContext, node);
   }
-
   private EditorCell createCollection_qq31lk_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_qq31lk_a");
@@ -25,7 +24,6 @@ public class SchemaType_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createComponent_qq31lk_a0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createComponent_qq31lk_a0(EditorContext editorContext, SNode node) {
     EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.lang.core.editor.alias");
     Style style = new StyleImpl();

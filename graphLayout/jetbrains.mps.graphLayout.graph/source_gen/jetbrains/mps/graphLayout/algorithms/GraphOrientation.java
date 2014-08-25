@@ -21,7 +21,6 @@ public class GraphOrientation {
     }
     return stNumbering;
   }
-
   public static Map<Node, Integer> orientST(Graph graph) {
     Edge firstEdge = ListSequence.fromList(graph.getEdges()).first();
     Node source = firstEdge.getSource();

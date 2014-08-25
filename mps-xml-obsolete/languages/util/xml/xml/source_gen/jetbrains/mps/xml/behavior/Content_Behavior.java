@@ -12,7 +12,6 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 public class Content_Behavior {
   public static void init(SNode thisNode) {
   }
-
   public static boolean call_isSeparate_1213877224266(SNode thisNode) {
     SNode parent = SNodeOperations.getParent(thisNode);
     if (SNodeOperations.isInstanceOf(parent, "jetbrains.mps.xml.structure.ContentList")) {
@@ -22,19 +21,15 @@ public class Content_Behavior {
     }
     return jetbrains.mps.util.SNodeOperations.isRoot(parent) || SNodeOperations.isInstanceOf(parent, "jetbrains.mps.xmlInternal.structure.ContentStatement");
   }
-
   public static String call_isSeparate_string_1213877224300(SNode thisNode) {
     return String.valueOf(Content_Behavior.call_isSeparate_1213877224266(thisNode));
   }
-
   public static List<SNode> virtual_getSubcontents_1213877224308(SNode thisNode) {
     return new ArrayList<SNode>();
   }
-
   public static boolean virtual_isComplex_1262430001741498088(SAbstractConcept thisConcept) {
     return false;
   }
-
   public static List<SNode> virtual_getCorrespondingElement_3044950653914717088(SAbstractConcept thisConcept) {
     return ListSequence.fromList(new ArrayList<SNode>());
   }

@@ -13,19 +13,15 @@ public class AttributeDeclaration_Behavior {
     SPropertyOperations.set(thisNode, "deprecated", "" + (false));
     SPropertyOperations.set(thisNode, "required", "" + (false));
   }
-
   public static boolean call_isRequired_353793545802643811(SNode thisNode) {
     return SPropertyOperations.getBoolean(thisNode, "required");
   }
-
   public static boolean call_isDeprecated_353793545802643819(SNode thisNode) {
     return SPropertyOperations.getBoolean(thisNode, "deprecated");
   }
-
   public static boolean call_equals_353793545802643827(SNode thisNode, SNode decl) {
     return SPropertyOperations.getString(thisNode, "name").equals(SPropertyOperations.getString(decl, "name"));
   }
-
   public static String call_getRealClassName_4585165390551294438(SNode thisNode) {
     if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(thisNode, "attributeType", true), "jetbrains.mps.buildlanguage.structure.FileType")) {
       return File.class.getName();

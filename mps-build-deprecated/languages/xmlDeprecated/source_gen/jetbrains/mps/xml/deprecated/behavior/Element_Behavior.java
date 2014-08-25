@@ -8,7 +8,6 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 public class Element_Behavior {
   public static void init(SNode thisNode) {
   }
-
   public static boolean virtual_indented_1262430001741498172(SAbstractConcept thisConcept) {
     return true;
   }

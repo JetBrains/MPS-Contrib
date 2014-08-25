@@ -33,11 +33,9 @@ public class TaskDeclarationInspector_EditorComponent implements ConceptEditorCo
   public Collection<String> getContextHints() {
     return Collections.emptyList();
   }
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_69kouh_a(editorContext, node);
   }
-
   private EditorCell createCollection_69kouh_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_69kouh_a");
@@ -49,7 +47,6 @@ public class TaskDeclarationInspector_EditorComponent implements ConceptEditorCo
     editorCell.addEditorCell(this.createCollection_69kouh_f0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createCollection_69kouh_a0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_69kouh_a0");
@@ -60,14 +57,12 @@ public class TaskDeclarationInspector_EditorComponent implements ConceptEditorCo
     editorCell.addEditorCell(this.createProperty_69kouh_b0a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_69kouh_a0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "classname:");
     editorCell.setCellId("Constant_69kouh_a0a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createProperty_69kouh_b0a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("classname");
@@ -85,7 +80,6 @@ public class TaskDeclarationInspector_EditorComponent implements ConceptEditorCo
     } else
     return editorCell;
   }
-
   private EditorCell createCollection_69kouh_b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_69kouh_b0");
@@ -97,21 +91,18 @@ public class TaskDeclarationInspector_EditorComponent implements ConceptEditorCo
     editorCell.addEditorCell(this.createProperty_69kouh_c1a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_69kouh_a1a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "abstract");
     editorCell.setCellId("Constant_69kouh_a1a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createConstant_69kouh_b1a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "=");
     editorCell.setCellId("Constant_69kouh_b1a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createProperty_69kouh_c1a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("abstract");
@@ -132,7 +123,6 @@ public class TaskDeclarationInspector_EditorComponent implements ConceptEditorCo
     } else
     return editorCell;
   }
-
   private EditorCell createCollection_69kouh_c0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_69kouh_c0");
@@ -144,21 +134,18 @@ public class TaskDeclarationInspector_EditorComponent implements ConceptEditorCo
     editorCell.addEditorCell(this.createRefNode_69kouh_c2a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_69kouh_a2a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "extends");
     editorCell.setCellId("Constant_69kouh_a2a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createConstant_69kouh_b2a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "=");
     editorCell.setCellId("Constant_69kouh_b2a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefNode_69kouh_c2a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("parentRef");
@@ -181,7 +168,6 @@ public class TaskDeclarationInspector_EditorComponent implements ConceptEditorCo
     } else
     return editorCell;
   }
-
   private EditorCell createCollection_69kouh_d0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_69kouh_d0");
@@ -193,21 +179,18 @@ public class TaskDeclarationInspector_EditorComponent implements ConceptEditorCo
     editorCell.addEditorCell(this.createRefNodeList_69kouh_c3a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_69kouh_a3a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "implements");
     editorCell.setCellId("Constant_69kouh_a3a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createConstant_69kouh_b3a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "=");
     editorCell.setCellId("Constant_69kouh_b3a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefNodeList_69kouh_c3a(EditorContext editorContext, SNode node) {
     AbstractCellListHandler handler = new TaskDeclarationInspector_EditorComponent.interfacesListHandler_69kouh_c3a(node, "interfaces", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Horizontal(), false);
@@ -215,34 +198,28 @@ public class TaskDeclarationInspector_EditorComponent implements ConceptEditorCo
     editorCell.setRole(handler.getElementRole());
     return editorCell;
   }
-
   private static class interfacesListHandler_69kouh_c3a extends RefNodeListHandler {
     public interfacesListHandler_69kouh_c3a(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
-
     public SNode createNodeToInsert(EditorContext editorContext) {
       SNode listOwner = super.getOwner();
       return NodeFactoryManager.createNode(listOwner, editorContext, super.getElementRole());
     }
-
     public EditorCell createNodeCell(EditorContext editorContext, SNode elementNode) {
       EditorCell elementCell = super.createNodeCell(editorContext, elementNode);
       this.installElementCellActions(this.getOwner(), elementNode, elementCell, editorContext);
       return elementCell;
     }
-
     public EditorCell createEmptyCell(EditorContext editorContext) {
       EditorCell emptyCell = null;
       emptyCell = this.createEmptyCell_internal(editorContext, this.getOwner());
       this.installElementCellActions(super.getOwner(), null, emptyCell, editorContext);
       return emptyCell;
     }
-
     public EditorCell createEmptyCell_internal(EditorContext editorContext, SNode node) {
       return this.createConstant_69kouh_a2d0(editorContext, node);
     }
-
     public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext editorContext) {
       if (elementCell.getUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET) == null) {
         elementCell.putUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET, AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET);
@@ -256,7 +233,6 @@ public class TaskDeclarationInspector_EditorComponent implements ConceptEditorCo
         }
       }
     }
-
     @Override
     public EditorCell createSeparatorCell(EditorContext editorContext, SNode prevNode, SNode nextNode) {
       EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, this.getOwner(), ",");
@@ -269,7 +245,6 @@ public class TaskDeclarationInspector_EditorComponent implements ConceptEditorCo
       editorCell.setAction(CellActionType.DELETE, new CellAction_DeleteNode(prevNode));
       return editorCell;
     }
-
     private EditorCell createConstant_69kouh_a2d0(EditorContext editorContext, SNode node) {
       EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<interfaces>");
       editorCell.setCellId("Constant_69kouh_a2d0");
@@ -280,7 +255,6 @@ public class TaskDeclarationInspector_EditorComponent implements ConceptEditorCo
       return editorCell;
     }
   }
-
   private EditorCell createCollection_69kouh_e0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_69kouh_e0");
@@ -292,21 +266,18 @@ public class TaskDeclarationInspector_EditorComponent implements ConceptEditorCo
     editorCell.addEditorCell(this.createProperty_69kouh_c4a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_69kouh_a4a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "have internal text");
     editorCell.setCellId("Constant_69kouh_a4a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createConstant_69kouh_b4a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "=");
     editorCell.setCellId("Constant_69kouh_b4a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createProperty_69kouh_c4a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("canHaveInternalText");
@@ -327,7 +298,6 @@ public class TaskDeclarationInspector_EditorComponent implements ConceptEditorCo
     } else
     return editorCell;
   }
-
   private EditorCell createCollection_69kouh_f0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_69kouh_f0");
@@ -339,21 +309,18 @@ public class TaskDeclarationInspector_EditorComponent implements ConceptEditorCo
     editorCell.addEditorCell(this.createProperty_69kouh_c5a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_69kouh_a5a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "depraceted");
     editorCell.setCellId("Constant_69kouh_a5a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createConstant_69kouh_b5a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "=");
     editorCell.setCellId("Constant_69kouh_b5a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createProperty_69kouh_c5a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("depracated");

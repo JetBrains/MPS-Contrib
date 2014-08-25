@@ -17,7 +17,6 @@ import java.util.List;
 
 public class MinCostMaxFlow {
   private static int SHOW_TIME = 0;
-
   public static Map<Edge, Integer> getFlow(Graph graph, Node source, Node target, Map<Edge, Integer> initialCapacity, Map<Edge, Integer> cost) {
     double time = System.currentTimeMillis();
     Map<Edge, Integer> flow = MapSequence.fromMap(new HashMap<Edge, Integer>());

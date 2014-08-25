@@ -11,12 +11,10 @@ public enum Direction2D {
 
   private int myDx;
   private int myDy;
-
   Direction2D(int dx, int dy) {
     myDx = dx;
     myDy = dy;
   }
-
   public Direction2D turnClockwise(int angle) {
     int dir = ordinal() + angle;
     if (dir > 3) {
@@ -24,11 +22,9 @@ public enum Direction2D {
     }
     return get(dir);
   }
-
   public Direction2D opposite() {
     return turnClockwise(2);
   }
-
   public int getTurn(Direction2D dir) {
     int turn = dir.ordinal() - ordinal();
     if (turn == 2) {
@@ -42,7 +38,6 @@ public enum Direction2D {
     }
     return turn;
   }
-
   public int getClockwiseTurn(Direction2D dir) {
     int turn = dir.ordinal() - ordinal();
     if (turn < 0) {
@@ -50,27 +45,21 @@ public enum Direction2D {
     }
     return turn;
   }
-
   public boolean isHorizontal() {
     return myDx != 0;
   }
-
   public boolean isVertical() {
     return myDy != 0;
   }
-
   public int dx() {
     return myDx;
   }
-
   public int dy() {
     return myDy;
   }
-
   public static Direction2D get(int intDirection) {
     return Direction2D.values()[intDirection];
   }
-
   public static Direction2D getByShifts(int dx, int dy) {
     for (Direction2D dir : Direction2D.values()) {
       if (dir.dx() == dx && dir.dy() == dy) {
@@ -79,7 +68,6 @@ public enum Direction2D {
     }
     return null;
   }
-
   static {
   }
 }

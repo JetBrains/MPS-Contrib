@@ -15,7 +15,6 @@ public class ConsoleType_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createConstant_kt8lkt_a(editorContext, node);
   }
-
   private EditorCell createConstant_kt8lkt_a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "console");
     editorCell.setCellId("Constant_kt8lkt_a");

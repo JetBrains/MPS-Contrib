@@ -11,7 +11,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 public class TargetReferencePropertyValueExpression_Behavior {
   public static void init(SNode thisNode) {
   }
-
   public static String virtual_toString_1213877472569(SNode thisNode) {
     if ((SLinkOperations.getTarget(thisNode, "declaration", false) == null)) {
       return "";
@@ -20,11 +19,9 @@ public class TargetReferencePropertyValueExpression_Behavior {
     // <node> 
     return declarationProject + "." + SLinkOperations.getTarget(thisNode, "declaration", false);
   }
-
   public static String virtual_getActualValue_1213877472572(SNode thisNode) {
     return BehaviorReflection.invokeVirtual(String.class, thisNode, "virtual_toString_1213877472569", new Object[]{});
   }
-
   public static String virtual_getProjectFileName_1230222765831(SNode thisNode) {
     return SPropertyOperations.getString(SNodeOperations.getAncestor(SLinkOperations.getTarget(thisNode, "declaration", false), "jetbrains.mps.buildlanguage.structure.Project", false, true), "name") + ".xml";
   }

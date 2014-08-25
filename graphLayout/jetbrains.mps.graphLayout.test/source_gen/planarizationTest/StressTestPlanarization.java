@@ -22,7 +22,6 @@ import jetbrains.mps.graphLayout.algorithms.TopologicalSorting;
 public class StressTestPlanarization {
   public StressTestPlanarization() {
   }
-
   public static void main(String[] args) throws Exception {
     String fileName = "C:\\work\\stressPlanar.txt";
     int numNodes = Integer.parseInt(args[0]);

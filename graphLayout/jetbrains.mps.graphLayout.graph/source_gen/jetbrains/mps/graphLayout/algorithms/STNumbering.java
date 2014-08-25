@@ -40,16 +40,13 @@ public class STNumbering {
     }
     return res;
   }
-
   public static class Numbering extends Dfs {
     private Map<Node, Integer> mySign;
     private Map<Node, Node> myLow;
     private List<Node> myList;
     private Node myTarget;
-
     public Numbering() {
     }
-
     public void doDfs(Graph graph, Node source, Edge stEdge, Map<Node, Node> low) {
       init(graph, Edge.Direction.BOTH);
       myLow = low;
@@ -61,7 +58,6 @@ public class STNumbering {
       myList = ListSequence.fromListAndArray(new ArrayList<Node>(), source, target);
       dfs(target, stEdge);
     }
-
     @Override
     protected void preprocess(Node node, Edge from) {
       if (node != myTarget) {
@@ -75,7 +71,6 @@ public class STNumbering {
         MapSequence.fromMap(mySign).put(prev, -MapSequence.fromMap(mySign).get(MapSequence.fromMap(myLow).get(node)));
       }
     }
-
     public List<Node> getList() {
       return myList;
     }

@@ -12,15 +12,12 @@ public enum useAttributeEnum {
   required("required", "required");
 
   private String myName;
-
   public String getName() {
     return this.myName;
   }
-
   public String getValueAsString() {
     return this.myValue;
   }
-
   public static List<useAttributeEnum> getConstants() {
     List<useAttributeEnum> list = ListSequence.fromList(new LinkedList<useAttributeEnum>());
     ListSequence.fromList(list).addElement(useAttributeEnum.optional);
@@ -28,11 +25,9 @@ public enum useAttributeEnum {
     ListSequence.fromList(list).addElement(useAttributeEnum.required);
     return list;
   }
-
   public static useAttributeEnum getDefault() {
     return useAttributeEnum.required;
   }
-
   public static useAttributeEnum parseValue(String value) {
     if (value == null) {
       return useAttributeEnum.getDefault();
@@ -48,14 +43,11 @@ public enum useAttributeEnum {
     }
     return useAttributeEnum.getDefault();
   }
-
   private String myValue;
-
   useAttributeEnum(String name, String value) {
     this.myName = name;
     this.myValue = value;
   }
-
   public String getValue() {
     return this.myValue;
   }

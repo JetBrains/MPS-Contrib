@@ -12,10 +12,8 @@ import org.jetbrains.mps.openapi.model.SNodeAccessUtil;
 
 public class BuildLanguageGenerator {
   private static final BuildLanguageGenerator INSTANCE = new BuildLanguageGenerator();
-
   private BuildLanguageGenerator() {
   }
-
   public SNode createInterfaceDeclaration(String declName, String className, boolean isDeprecated) {
     SNode decl = SConceptOperations.createNewNode("jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration", null);
     SPropertyOperations.set(decl, "name", declName);
@@ -23,7 +21,6 @@ public class BuildLanguageGenerator {
     SPropertyOperations.set(decl, "depracated", "" + (isDeprecated));
     return decl;
   }
-
   public SNode createDeclaration(String declName, String className, boolean isAbstract, boolean canHaveInternalText, boolean isDeprecated) {
     SNode decl = SConceptOperations.createNewNode("jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration", null);
     SPropertyOperations.set(decl, "name", declName);
@@ -33,22 +30,18 @@ public class BuildLanguageGenerator {
     SPropertyOperations.set(decl, "depracated", "" + (isDeprecated));
     return decl;
   }
-
   public SNode createDeclarationReference(SNode decl) {
     return _quotation_createNode_moyhg6_a0a4(decl);
   }
-
   public SNode createAttributeDeclaration(String name, SNode type) {
     SNode res = SConceptOperations.createNewNode("jetbrains.mps.build.generictasks.structure.AttributeDeclaration", null);
     SPropertyOperations.set(res, "name", name);
     SLinkOperations.setTarget(res, "attributeType", type, true);
     return res;
   }
-
   public static BuildLanguageGenerator getInstance() {
     return BuildLanguageGenerator.INSTANCE;
   }
-
   private static SNode _quotation_createNode_moyhg6_a0a4(Object parameter_1) {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_2 = null;

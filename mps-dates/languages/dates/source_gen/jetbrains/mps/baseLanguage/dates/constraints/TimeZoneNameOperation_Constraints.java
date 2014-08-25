@@ -22,12 +22,10 @@ public class TimeZoneNameOperation_Constraints extends BaseConstraintsDescriptor
   public TimeZoneNameOperation_Constraints() {
     super("jetbrains.mps.baseLanguage.dates.structure.TimeZoneNameOperation");
   }
-
   @Override
   public boolean hasOwnCanBeChildMethod() {
     return true;
   }
-
   @Override
   public boolean canBeChild(@Nullable SNode node, SNode parentNode, SNode link, SNode childConcept, final IOperationContext operationContext, @Nullable final CheckingNodeContext checkingNodeContext) {
     boolean result = static_canBeAChild(node, parentNode, link, childConcept, operationContext);
@@ -38,7 +36,6 @@ public class TimeZoneNameOperation_Constraints extends BaseConstraintsDescriptor
 
     return result;
   }
-
   @Override
   protected Map<String, PropertyConstraintsDescriptor> getNotDefaultProperties() {
     Map<String, PropertyConstraintsDescriptor> properties = new HashMap();
@@ -47,7 +44,6 @@ public class TimeZoneNameOperation_Constraints extends BaseConstraintsDescriptor
       public boolean hasOwnValidator() {
         return true;
       }
-
       @Override
       public boolean validateValue(SNode node, String propertyValue) {
         String propertyName = "property";
@@ -56,7 +52,6 @@ public class TimeZoneNameOperation_Constraints extends BaseConstraintsDescriptor
     });
     return properties;
   }
-
   public static boolean static_canBeAChild(SNode node, SNode parentNode, SNode link, SNode childConcept, final IOperationContext operationContext) {
     boolean can = false;
     if (SNodeOperations.isInstanceOf(parentNode, "jetbrains.mps.baseLanguage.structure.DotExpression")) {
@@ -65,6 +60,5 @@ public class TimeZoneNameOperation_Constraints extends BaseConstraintsDescriptor
     }
     return can;
   }
-
   private static SNodePointer canBeChildBreakingPoint = new SNodePointer("r:00000000-0000-4000-0000-011c895903cf(jetbrains.mps.baseLanguage.dates.constraints)", "5293902215866131466");
 }

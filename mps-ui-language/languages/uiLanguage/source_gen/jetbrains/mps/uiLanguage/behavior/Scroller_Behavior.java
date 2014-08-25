@@ -11,7 +11,6 @@ import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 public class Scroller_Behavior {
   public static void init(SNode thisNode) {
   }
-
   public static SNode call_getWrappedComponent_1213877438937(SNode thisNode) {
     return SNodeOperations.cast(ListSequence.fromList(SLinkOperations.getTargets(thisNode, "content", true)).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {

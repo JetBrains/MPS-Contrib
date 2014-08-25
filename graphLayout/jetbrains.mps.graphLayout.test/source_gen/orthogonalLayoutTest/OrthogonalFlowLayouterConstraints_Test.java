@@ -21,37 +21,30 @@ public class OrthogonalFlowLayouterConstraints_Test extends TestCase {
     Graph graph = GraphIO.scanGraph("4 4  0 1  1 2  2 3  3 0");
     test(graph);
   }
-
   public void test_test2() throws Exception {
     Graph graph = SimpleDirectedGraphs.weel(6);
     test(graph);
   }
-
   public void test_test3() throws Exception {
     Graph graph = GraphIO.scanGraph("6 10\n  0 5\n  0 4\n  0 2  \n1 3  \n2 4  \n2 1  \n3 5  \n4 5  \n4 3  \n5 2");
     test(graph);
   }
-
   public void test_test4() throws Exception {
     Graph graph = GraphIO.scanGraph("7 12  \n0 1  \n1 4  \n1 5  \n2 6  \n2 1  \n2 0  \n3 2  \n3 6  \n5 6  \n5 2  \n6 4  \n6 0");
     test(graph);
   }
-
   public void test_test5() throws Exception {
     Graph graph = GraphIO.scanGraph("7 12  \n0 4  \n0 6  \n1 5  \n1 0  \n2 6  \n3 1  \n3 5  \n3 0  \n4 5  \n5 0  \n6 5  \n6 4");
     test(graph);
   }
-
   public void test_test6() throws Exception {
     Graph graph = GraphIO.scanGraph("7 12\n  0 3  \n0 5  \n1 5  \n2 4  \n2 1  \n3 4  \n3 6  \n3 2  \n3 1  \n5 2  \n5 4  \n6 1");
     test(graph);
   }
-
   public void test_test7() throws Exception {
     Graph graph = GraphIO.scanGraph("6 6  0 1  1 2  2 3  3 4  4 5  5 0");
     test(graph);
   }
-
   public void test_testSplitEdges() throws Exception {
     Graph graph = GraphIO.scanGraph("7 12  \n0 1  \n1 4  \n1 5  \n2 6  \n2 1  \n2 0  \n3 2  \n3 6  \n5 6  \n5 2  \n6 4  \n6 0");
     Map<Node, Dimension> nodeSizes = MapSequence.fromMap(new HashMap<Node, Dimension>());
@@ -62,10 +55,8 @@ public class OrthogonalFlowLayouterConstraints_Test extends TestCase {
     GraphLayout graphLayout = new OrthogonalFlowLayouterConstraints().doLayout(graph, nodeSizes);
     OrthogonalLayoutChecker.checkLayout(graphLayout);
   }
-
   public OrthogonalFlowLayouterConstraints_Test() {
   }
-
   public void test(Graph graph) {
     Map<Node, Dimension> nodeSizes = MapSequence.fromMap(new LinkedHashMap<Node, Dimension>(16, (float) 0.75, false));
     for (Node node : ListSequence.fromList(graph.getNodes())) {

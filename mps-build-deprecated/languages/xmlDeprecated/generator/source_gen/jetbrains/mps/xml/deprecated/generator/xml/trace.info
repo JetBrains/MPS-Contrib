@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debugInfo>
-  <unitInfo fileName="QueriesGenerated.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.xml.deprecated.generator.xml.QueriesGenerated" />
-</debugInfo>
+<debug-info>
+  <root>
+    <file name="QueriesGenerated.java">
+      <unit at="7,0,11,0" name="jetbrains.mps.xml.deprecated.generator.xml.QueriesGenerated" />
+    </file>
+  </root>
+</debug-info>
 

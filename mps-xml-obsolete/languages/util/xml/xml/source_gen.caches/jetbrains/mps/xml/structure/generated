@@ -1,3 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="29lw7a81jv6r4ixxmd0bxcupl7b0yo2" />
+<dependencies version="2" modelHash="29lw7a81jv6r4ixxmd0bxcupl7b0yo2">
+  <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
+  <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="-2hubvwh7bwismm0eld02cqmdefvj5by" />
+  <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" hash="-6irb241uclypyqbck1xyhuimii12zbl" />
+  <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="-2sqpydigz7vryaerubh22j78l4l08jz" />
+  <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="-6r79zerd5g4mkqvktwfk7i2ydwbhtup" />
+  <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="8cdjk2e5d2y2u9lult1ptgxxrttxv07" />
+  <common hash="9qcvonrl4s6z74o9i0y4ijvb1x0vykw" dependsOnNodes="true">
+    <dep root="1161371727643" />
+    <dep root="1161373262136" />
+    <dep root="1161911457732" />
+    <dep root="1163340203555" />
+    <dep root="1163629230879" />
+    <dep root="1165235274815" />
+    <dep root="1167523027466" />
+    <dep root="1167700349452" />
+    <dep root="1172960673168" />
+    <dep root="1179102053371" />
+    <dep root="1192038615503" />
+    <dep root="1198862578220" />
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
+    <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
+    <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
+    <file name="StructureAspectDescriptor.java" />
+  </common>
+  <source id="1161371727643" name="Content" hash="48r1sh582nsmanqajatgvb18hfrbtnr" />
+  <source id="1161373262136" name="Text" hash="-gn8cn3vh514jrb9qrx63q5csmmdgdk" />
+  <source id="1161911457732" name="ComplexText" hash="25k05mxjscqjks2rwsz2jqcmob7jo8n" />
+  <source id="1163340203555" name="BaseText" hash="-5fgfu3xb89gwypfeuxaj01h5tic3dwh" />
+  <source id="1163629230879" name="ContentList" hash="9ea2ki7jzts37cu7n9hc7034jzh0ow5" />
+  <source id="1165235274815" name="BaseAttribute" hash="9o6q5q6m9znb7lygwhkc76qj42xe6m2" />
+  <source id="1167523027466" name="Element" hash="-6c3k6slufr4cok06yamavv95hrwhnco" />
+  <source id="1167700349452" name="Attribute" hash="ccg22vdh43iyvjr87ea577j6j1jgego" />
+  <source id="1172960673168" name="EntityReference" hash="dot5lp6qauunrpt56ebjszb0myv1tz3" />
+  <source id="1179102053371" name="BaseElement" hash="c4x7wozwjrwwut35z12mbu229junihb" />
+  <source id="1192038615503" name="CDATA" hash="c6qeqvcnec4cz1yhfgll8l9wfkkbhdm" />
+  <source id="1198862578220" name="XmlRoot" hash="-9b1d8h7who9dqpkhnq0vw73l7695cm0" />
+</dependencies>
 

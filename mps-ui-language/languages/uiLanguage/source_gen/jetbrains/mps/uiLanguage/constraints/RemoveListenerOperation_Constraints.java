@@ -15,12 +15,10 @@ public class RemoveListenerOperation_Constraints extends BaseConstraintsDescript
   public RemoveListenerOperation_Constraints() {
     super("jetbrains.mps.uiLanguage.structure.RemoveListenerOperation");
   }
-
   @Override
   public boolean hasOwnCanBeParentMethod() {
     return true;
   }
-
   @Override
   public boolean canBeParent(SNode node, @Nullable SNode childNode, SNode childConcept, SNode link, IOperationContext operationContext, @Nullable CheckingNodeContext checkingNodeContext) {
     boolean result = static_canBeAParent(node, childNode, childConcept, link, operationContext);
@@ -31,7 +29,6 @@ public class RemoveListenerOperation_Constraints extends BaseConstraintsDescript
 
     return result;
   }
-
   public static boolean static_canBeAParent(SNode node, SNode childNode, SNode childConcept, SNode link, final IOperationContext operationContext) {
     if (SNodeOperations.hasRole(link, "jetbrains.mps.baseLanguage.structure.BinaryOperation", "leftExpression")) {
       if (!(SNodeOperations.isInstanceOf(node, "jetbrains.mps.baseLanguage.structure.DotExpression"))) {
@@ -48,6 +45,5 @@ public class RemoveListenerOperation_Constraints extends BaseConstraintsDescript
     }
     return true;
   }
-
   private static SNodePointer canBeParentBreakingPoint = new SNodePointer("r:00000000-0000-4000-0000-011c8959054e(jetbrains.mps.uiLanguage.constraints)", "1213107435980");
 }

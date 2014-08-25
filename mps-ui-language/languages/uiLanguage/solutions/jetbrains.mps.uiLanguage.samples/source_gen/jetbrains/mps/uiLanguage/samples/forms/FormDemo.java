@@ -28,11 +28,9 @@ public class FormDemo extends JFrame {
   private Events myEvents = new Events(null) {
     {
     }
-
     public void initialize() {
     }
   };
-
   public FormDemo() {
     this.myThis = this;
     FormDemo component = this;
@@ -42,24 +40,19 @@ public class FormDemo extends JFrame {
     component.setVisible(true);
     this.myEvents.initialize();
   }
-
   public Events getEvents() {
     return this.myEvents;
   }
-
   public void addNotify() {
     super.addNotify();
     this.bind();
   }
-
   public void removeNotify() {
     this.unbind();
     super.removeNotify();
   }
-
   private void bind() {
   }
-
   private void unbind() {
     for (AutoBinding binding : this.myBindings) {
       if (binding.isBound()) {
@@ -67,7 +60,6 @@ public class FormDemo extends JFrame {
       }
     }
   }
-
   private JPanel createComponent_4g3yb7_a0() {
     JPanel component = new JPanel();
     this.myComponent_4g3yb7_a0 = component;
@@ -122,35 +114,30 @@ public class FormDemo extends JFrame {
     }.value());
     return component;
   }
-
   private JLabel createComponent_4g3yb7_b0a() {
     JLabel component = new JLabel();
     this.myComponent_4g3yb7_b0a = component;
     component.setText("Name");
     return component;
   }
-
   private JLabel createComponent_4g3yb7_c0a() {
     JLabel component = new JLabel();
     this.myComponent_4g3yb7_c0a = component;
     component.setText("Last Name");
     return component;
   }
-
   private JTextField createComponent_4g3yb7_d0a() {
     JTextField component = new JTextField();
     this.myComponent_4g3yb7_d0a = component;
     component.setColumns(20);
     return component;
   }
-
   private JTextField createComponent_4g3yb7_e0a() {
     JTextField component = new JTextField();
     this.myComponent_4g3yb7_e0a = component;
     component.setColumns(20);
     return component;
   }
-
   private JPanel createComponent_4g3yb7_f0a() {
     JPanel component = new JPanel();
     this.myComponent_4g3yb7_f0a = component;

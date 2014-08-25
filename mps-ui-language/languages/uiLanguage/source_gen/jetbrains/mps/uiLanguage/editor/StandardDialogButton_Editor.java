@@ -21,7 +21,6 @@ public class StandardDialogButton_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_uh1gey_a(editorContext, node);
   }
-
   private EditorCell createCollection_uh1gey_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_uh1gey_a");
@@ -35,7 +34,6 @@ public class StandardDialogButton_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createCollection_uh1gey_c0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createCollection_uh1gey_a0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_uh1gey_a0");
@@ -46,14 +44,12 @@ public class StandardDialogButton_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createProperty_uh1gey_b0a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_uh1gey_a0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "button:");
     editorCell.setCellId("Constant_uh1gey_a0a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createProperty_uh1gey_b0a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("text");
@@ -71,7 +67,6 @@ public class StandardDialogButton_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createCollection_uh1gey_b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_uh1gey_b0");
@@ -82,14 +77,12 @@ public class StandardDialogButton_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createProperty_uh1gey_b1a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_uh1gey_a1a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "default:");
     editorCell.setCellId("Constant_uh1gey_a1a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createProperty_uh1gey_b1a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("isDefault");
@@ -107,7 +100,6 @@ public class StandardDialogButton_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createCollection_uh1gey_c0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_uh1gey_c0");
@@ -118,14 +110,12 @@ public class StandardDialogButton_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createRefNode_uh1gey_b2a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_uh1gey_a2a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "handler:");
     editorCell.setCellId("Constant_uh1gey_a2a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefNode_uh1gey_b2a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("handler");

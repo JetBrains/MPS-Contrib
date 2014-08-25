@@ -11,7 +11,6 @@ import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 public class IComponentInstance_Behavior {
   public static void init(SNode thisNode) {
   }
-
   public static SNode call_getLayoutConstraint_1213877498060(SNode thisNode) {
     return SNodeOperations.cast(ListSequence.fromList(SLinkOperations.getTargets(thisNode, "content", true)).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
@@ -19,7 +18,6 @@ public class IComponentInstance_Behavior {
       }
     }).first(), "jetbrains.mps.uiLanguage.structure.LayoutConstraint");
   }
-
   public static SNode virtual_getExtendedComponent_1213877498080(SNode thisNode) {
     return null;
   }

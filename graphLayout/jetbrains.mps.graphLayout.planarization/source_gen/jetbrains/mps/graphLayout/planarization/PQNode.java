@@ -14,13 +14,11 @@ public abstract class PQNode {
   private PQNode myParent;
   private PQNode.State myState;
   private int myNumFullLeaves;
-
   public PQNode() {
     myChildren = ListSequence.fromList(new LinkedList<PQNode>());
     myState = null;
     myParent = null;
   }
-
   /**
    * A spesial procedure for pertinent root. It merges all full leaves to one p-node and makes new biconnected
    * component created by reduction correct.
@@ -29,74 +27,55 @@ public abstract class PQNode {
    * @return a special node which corresponds to all full leaves
    */
   public abstract PQNode processAsPertinentRoot(List<PQNode> children, Node nextGraphNode);
-
   public abstract PQNode makeReduction(boolean isRealPertinentRoot);
-
   public abstract int getAValue();
-
   public void computeAValue() {
     for (PQNode child : ListSequence.fromList(getChildren())) {
       child.computeAValue();
     }
   }
-
   public abstract void makeADeletion();
-
   public abstract int getHValue();
-
   public void computeHValue() {
     for (PQNode child : ListSequence.fromList(getChildren())) {
       child.computeHValue();
     }
   }
-
   public abstract void makeHDeletion();
-
   public void setState(PQNode.State state) {
     myState = state;
   }
-
   public PQNode.State getState() {
     return myState;
   }
-
   public List<PQNode> getChildren() {
     return myChildren;
   }
-
   public EdgesOrder getEdgesOrder() {
     return null;
   }
-
   public Node getGraphNode() {
     return null;
   }
-
   public void addLastChild(PQNode child) {
     ListSequence.fromList(myChildren).addElement(child);
     child.setParent(this);
   }
-
   public void addFirstChild(PQNode child) {
     ListSequence.fromList(myChildren).insertElement(0, child);
     child.setParent(this);
   }
-
   public PQNode getParent() {
     return this.myParent;
   }
-
   public void setParent(PQNode parent) {
     this.myParent = parent;
   }
-
   public void collectEdgesOrderInSubtree(EdgesOrder order) {
   }
-
   public String getGraphInfo(String prefix) {
     return prefix;
   }
-
   public String toString(int offset) {
     StringBuilder builder = new StringBuilder();
     String spaces = "";
@@ -113,24 +92,18 @@ public abstract class PQNode {
     }
     return builder.toString();
   }
-
   public void addGraphNode(Node node) {
   }
-
   public abstract String getType();
-
   public int getNumFullLeaves() {
     return this.myNumFullLeaves;
   }
-
   public void setNumFullLeaves(int numFullLeaves) {
     this.myNumFullLeaves = numFullLeaves;
   }
-
   public boolean isLeaf() {
     return ListSequence.fromList(getChildren()).count() == 0;
   }
-
   protected PQNode makeEmpty() {
     if (getState() == PQNode.State.EMPTY) {
       return this;
@@ -156,7 +129,6 @@ public abstract class PQNode {
       }
     }
   }
-
   public static   enum State {
     FULL(),
     PARTIAL(),

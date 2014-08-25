@@ -26,10 +26,8 @@ public class PQPlanarityTest {
   private static int SHOW_LOG = 0;
   private PQTree myTree;
   private Map<Node, List<Edge>> myEdgesOrder;
-
   public PQPlanarityTest() {
   }
-
   public Set<Edge> removeEdgesToPlanarity(Graph graph, Map<Node, Integer> stNumbering) {
     myEdgesOrder = new NodeMap<List<Edge>>(graph);
     Set<Edge> removed = SetSequence.fromSet(new LinkedHashSet<Edge>());
@@ -85,7 +83,6 @@ public class PQPlanarityTest {
     }
     return removed;
   }
-
   public EmbeddedGraph getEmbedding(Graph graph, Map<Node, Integer> stNumbering) {
     if (SHOW_LOG > 0) {
       System.out.println("CONSTRUCTING THE EMBEDDING!!!");
@@ -109,7 +106,6 @@ public class PQPlanarityTest {
     }
     return embeddedGraph;
   }
-
   public EmbeddedGraph createEmbeddedGraph(Graph graph, EdgesOrder order, List<Node> nodeOrder) {
     EmbeddedGraph embeddedGraph = new EmbeddedGraph(graph);
     Node last = ListSequence.fromList(nodeOrder).last();
@@ -128,7 +124,6 @@ public class PQPlanarityTest {
     }
     return embeddedGraph;
   }
-
   public EmbeddedGraph createEmbeddedGraphFromInEdges(Graph graph, List<Node> nodeOrder) {
     if (SHOW_LOG > 0) {
       System.out.println("-------------------------");

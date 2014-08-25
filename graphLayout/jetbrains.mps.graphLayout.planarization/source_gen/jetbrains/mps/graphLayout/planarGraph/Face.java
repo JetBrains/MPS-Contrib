@@ -16,24 +16,19 @@ import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 public class Face {
   private Graph myGraph;
   private List<Dart> myDarts;
-
   public Face(Graph graph) {
     myGraph = graph;
     myDarts = ListSequence.fromList(new LinkedList<Dart>());
   }
-
   public void addLast(Dart dart) {
     ListSequence.fromList(myDarts).addElement(dart);
   }
-
   public void addFirst(Dart dart) {
     ListSequence.fromList(myDarts).insertElement(0, dart);
   }
-
   public List<Dart> getDarts() {
     return myDarts;
   }
-
   public boolean contains(List<Node> nodes) {
     Set<Node> faceNodes = SetSequence.fromSet(new HashSet<Node>());
     SetSequence.fromSet(faceNodes).addSequence(ListSequence.fromList(myDarts).select(new ISelector<Dart, Node>() {
@@ -43,7 +38,6 @@ public class Face {
     }));
     return SetSequence.fromSet(faceNodes).containsSequence(ListSequence.fromList(nodes));
   }
-
   public List<Dart> makeEndsWith(final Node end) {
     Dart dart = ListSequence.fromList(myDarts).findFirst(new IWhereFilter<Dart>() {
       public boolean accept(Dart it) {
@@ -55,7 +49,6 @@ public class Face {
     }
     return makeEndsWith(dart);
   }
-
   public List<Dart> makeEndsWith(Dart dart) {
     if (!(ListSequence.fromList(myDarts).contains(dart))) {
       throw new RuntimeException("list " + myDarts + " doesn't contain dart" + dart);
@@ -65,13 +58,11 @@ public class Face {
     }
     return myDarts;
   }
-
   public List<Dart> makeStartsWith(Dart dart) {
     makeEndsWith(dart);
     ListSequence.fromList(myDarts).insertElement(0, ListSequence.fromList(myDarts).removeLastElement());
     return myDarts;
   }
-
   @Override
   public String toString() {
     StringBuilder builder = new StringBuilder();

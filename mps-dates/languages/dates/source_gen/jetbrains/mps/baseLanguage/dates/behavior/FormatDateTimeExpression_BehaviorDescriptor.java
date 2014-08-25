@@ -9,15 +9,12 @@ import org.jetbrains.mps.openapi.model.SNode;
 public class FormatDateTimeExpression_BehaviorDescriptor extends Expression_BehaviorDescriptor implements TypeDerivable_BehaviorDescriptor {
   public FormatDateTimeExpression_BehaviorDescriptor() {
   }
-
   public SNode virtual_deriveType_1213877435747(SNode thisNode, SNode expression) {
     return FormatDateTimeExpression_Behavior.virtual_deriveType_1213877435747(thisNode, expression);
   }
-
   public SNode virtual_deriveType_4555537781928374706(SNode thisNode, SNode expression, SNode link) {
     return FormatDateTimeExpression_Behavior.virtual_deriveType_4555537781928374706(thisNode, expression, link);
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.baseLanguage.dates.structure.FormatDateTimeExpression";

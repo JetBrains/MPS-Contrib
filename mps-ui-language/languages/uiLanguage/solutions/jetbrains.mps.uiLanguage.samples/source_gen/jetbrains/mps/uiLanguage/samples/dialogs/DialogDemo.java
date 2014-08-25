@@ -43,11 +43,9 @@ public class DialogDemo extends JDialog {
   private Events myEvents = new Events(null) {
     {
     }
-
     public void initialize() {
     }
   };
-
   public DialogDemo() {
     this.myThis = this;
     DialogDemo component = this;
@@ -56,21 +54,17 @@ public class DialogDemo extends JDialog {
     component.add(this.createComponent_50z451_c0(), BorderLayout.SOUTH);
     this.myEvents.initialize();
   }
-
   public Events getEvents() {
     return this.myEvents;
   }
-
   public void addNotify() {
     super.addNotify();
     this.bind();
   }
-
   public void removeNotify() {
     this.unbind();
     super.removeNotify();
   }
-
   private void bind() {
     {
       Object sourceObject = myThis;
@@ -91,7 +85,6 @@ public class DialogDemo extends JDialog {
       ListSequence.fromList(this.myBindings).addElement(binding);
     }
   }
-
   private void unbind() {
     for (AutoBinding binding : this.myBindings) {
       if (binding.isBound()) {
@@ -99,7 +92,6 @@ public class DialogDemo extends JDialog {
       }
     }
   }
-
   private JPanel createComponent_50z451_b0() {
     JPanel component = new JPanel();
     this.myComponent_50z451_b0 = component;
@@ -154,40 +146,34 @@ public class DialogDemo extends JDialog {
     }.value());
     return component;
   }
-
   private JLabel createComponent_50z451_b1a() {
     JLabel component = new JLabel();
     this.myComponent_50z451_b1a = component;
     component.setText("Name");
     return component;
   }
-
   private JLabel createComponent_50z451_c1a() {
     JLabel component = new JLabel();
     this.myComponent_50z451_c1a = component;
     component.setText("LastName");
     return component;
   }
-
   private JTextField createComponent_50z451_d1a() {
     JTextField component = new JTextField();
     this.myComponent_50z451_d1a = component;
     component.setColumns(20);
     return component;
   }
-
   private JTextField createComponent_50z451_e1a() {
     JTextField component = new JTextField();
     this.myComponent_50z451_e1a = component;
     return component;
   }
-
   private JPanel createComponent_50z451_f1a() {
     JPanel component = new JPanel();
     this.myComponent_50z451_f1a = component;
     return component;
   }
-
   private JPanel createComponent_50z451_c0() {
     JPanel component = new JPanel();
     this.myComponent_50z451_c0 = component;
@@ -195,7 +181,6 @@ public class DialogDemo extends JDialog {
     component.add(this.createComponent_50z451_c2a(), BorderLayout.CENTER);
     return component;
   }
-
   private JPanel createComponent_50z451_c2a() {
     JPanel component = new JPanel();
     this.myComponent_50z451_c2a = component;
@@ -204,13 +189,11 @@ public class DialogDemo extends JDialog {
     component.add(this.createComponent_50z451_d2c0(), BorderLayout.EAST);
     return component;
   }
-
   private JPanel createComponent_50z451_c2c0() {
     JPanel component = new JPanel();
     this.myComponent_50z451_c2c0 = component;
     return component;
   }
-
   private JPanel createComponent_50z451_d2c0() {
     JPanel component = new JPanel();
     this.myComponent_50z451_d2c0 = component;
@@ -219,7 +202,6 @@ public class DialogDemo extends JDialog {
     component.add(this.createComponent_50z451_d3c2a());
     return component;
   }
-
   private JButton createComponent_50z451_c3c2a() {
     JButton component = new JButton();
     this.myComponent_50z451_c3c2a = component;
@@ -231,7 +213,6 @@ public class DialogDemo extends JDialog {
     });
     return component;
   }
-
   private JButton createComponent_50z451_d3c2a() {
     JButton component = new JButton();
     this.myComponent_50z451_d3c2a = component;
@@ -243,31 +224,25 @@ public class DialogDemo extends JDialog {
     });
     return component;
   }
-
   public String getName() {
     return this.myName;
   }
-
   public String getLastName() {
     return this.myLastName;
   }
-
   public void setName(String newValue) {
     String oldValue = this.myName;
     this.myName = newValue;
     this.firePropertyChange("name", oldValue, newValue);
   }
-
   public void setLastName(String newValue) {
     String oldValue = this.myLastName;
     this.myLastName = newValue;
     this.firePropertyChange("lastName", oldValue, newValue);
   }
-
   /*package*/ void onOk() {
     myThis.dispose();
   }
-
   /*package*/ void onCancel() {
     System.out.println("Cancel");
     myThis.dispose();

@@ -25,11 +25,9 @@ public class RunConfigurationHeader implements ConceptEditorComponent {
   public Collection<String> getContextHints() {
     return Collections.emptyList();
   }
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_bqmo2k_a(editorContext, node);
   }
-
   private EditorCell createCollection_bqmo2k_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_bqmo2k_a");
@@ -39,7 +37,6 @@ public class RunConfigurationHeader implements ConceptEditorComponent {
     editorCell.addEditorCell(this.createRefCell_bqmo2k_d0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_bqmo2k_a0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "run configuration");
     editorCell.setCellId("Constant_bqmo2k_a0");
@@ -49,7 +46,6 @@ public class RunConfigurationHeader implements ConceptEditorComponent {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createProperty_bqmo2k_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("name");
@@ -70,14 +66,12 @@ public class RunConfigurationHeader implements ConceptEditorComponent {
     } else
     return editorCell;
   }
-
   private EditorCell createConstant_bqmo2k_c0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "type");
     editorCell.setCellId("Constant_bqmo2k_c0");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefCell_bqmo2k_d0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("configType");
@@ -99,20 +93,16 @@ public class RunConfigurationHeader implements ConceptEditorComponent {
     } else
     return editorCell;
   }
-
   public static class _Inline_bqmo2k_a3a extends InlineCellProvider {
     public _Inline_bqmo2k_a3a() {
       super();
     }
-
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
     }
-
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
       return this.createProperty_bqmo2k_a0d0(editorContext, node);
     }
-
     private EditorCell createProperty_bqmo2k_a0d0(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("name");

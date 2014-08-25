@@ -22,11 +22,9 @@ public class AttributeDeclaration_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_vddsqv_a(editorContext, node);
   }
-
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
     return this.createCollection_vddsqv_a_0(editorContext, node);
   }
-
   private EditorCell createCollection_vddsqv_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_vddsqv_a");
@@ -40,7 +38,6 @@ public class AttributeDeclaration_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createConstant_vddsqv_g0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createProperty_vddsqv_a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("name");
@@ -61,14 +58,12 @@ public class AttributeDeclaration_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createConstant_vddsqv_b0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ":");
     editorCell.setCellId("Constant_vddsqv_b0");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefNode_vddsqv_c0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("attributeType");
@@ -88,31 +83,26 @@ public class AttributeDeclaration_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createComponent_vddsqv_d0(EditorContext editorContext, SNode node) {
     EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.build.generictasks.editor.GenericAttributeDeclarationInEnum_EditorComponent");
     return editorCell;
   }
-
   private EditorCell createConstant_vddsqv_e0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "[");
     editorCell.setCellId("Constant_vddsqv_e0");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createComponent_vddsqv_f0(EditorContext editorContext, SNode node) {
     EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.build.generictasks.editor.GenericAttributeDeclaration_EditorComponent");
     return editorCell;
   }
-
   private EditorCell createConstant_vddsqv_g0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "]");
     editorCell.setCellId("Constant_vddsqv_g0");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createCollection_vddsqv_a_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_vddsqv_a_0");
@@ -123,7 +113,6 @@ public class AttributeDeclaration_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createCollection_vddsqv_d0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createCollection_vddsqv_a0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_vddsqv_a0");
@@ -135,21 +124,18 @@ public class AttributeDeclaration_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createProperty_vddsqv_c0a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_vddsqv_a0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "name");
     editorCell.setCellId("Constant_vddsqv_a0a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createConstant_vddsqv_b0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "=");
     editorCell.setCellId("Constant_vddsqv_b0a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createProperty_vddsqv_c0a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("name");
@@ -167,17 +153,14 @@ public class AttributeDeclaration_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createComponent_vddsqv_b0(EditorContext editorContext, SNode node) {
     EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.build.generictasks.editor.GenericAttributeDeclaration_EditorComponent");
     return editorCell;
   }
-
   private EditorCell createComponent_vddsqv_c0(EditorContext editorContext, SNode node) {
     EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.build.generictasks.editor.GenericAttributeDeclarationInEnum_EditorComponent");
     return editorCell;
   }
-
   private EditorCell createCollection_vddsqv_d0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_vddsqv_d0");
@@ -189,21 +172,18 @@ public class AttributeDeclaration_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createProperty_vddsqv_c3a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_vddsqv_a3a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "short description");
     editorCell.setCellId("Constant_vddsqv_a3a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createConstant_vddsqv_b3a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "=");
     editorCell.setCellId("Constant_vddsqv_b3a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createProperty_vddsqv_c3a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("shortDescription");

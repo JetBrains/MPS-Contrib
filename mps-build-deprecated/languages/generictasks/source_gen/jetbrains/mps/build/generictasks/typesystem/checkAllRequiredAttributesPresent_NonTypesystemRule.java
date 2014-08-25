@@ -21,7 +21,6 @@ import jetbrains.mps.smodel.SModelUtil_new;
 public class checkAllRequiredAttributesPresent_NonTypesystemRule extends AbstractNonTypesystemRule_Runtime implements NonTypesystemRule_Runtime {
   public checkAllRequiredAttributesPresent_NonTypesystemRule() {
   }
-
   public void applyRule(final SNode genericTaskCall, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
     for (SNode attrDecl : ListSequence.fromList(BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), SLinkOperations.getTarget(genericTaskCall, "declaration", false), "virtual_getAttributesDeclarations_1190349257898147625", new Object[]{}))) {
       if (AttributeDeclaration_Behavior.call_isRequired_353793545802643811(attrDecl)) {
@@ -44,18 +43,15 @@ public class checkAllRequiredAttributesPresent_NonTypesystemRule extends Abstrac
       }
     }
   }
-
   public String getApplicableConceptFQName() {
     return "jetbrains.mps.build.generictasks.structure.TaskCall";
   }
-
   public IsApplicableStatus isApplicableAndPattern(SNode argument) {
     {
       boolean b = SModelUtil_new.isAssignableConcept(argument.getConcept().getQualifiedName(), this.getApplicableConceptFQName());
       return new IsApplicableStatus(b, null);
     }
   }
-
   public boolean overrides() {
     return false;
   }

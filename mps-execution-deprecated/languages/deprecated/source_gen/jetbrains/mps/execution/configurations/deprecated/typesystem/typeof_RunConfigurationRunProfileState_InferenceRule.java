@@ -18,7 +18,6 @@ import jetbrains.mps.smodel.SReference;
 public class typeof_RunConfigurationRunProfileState_InferenceRule extends AbstractInferenceRule_Runtime implements InferenceRule_Runtime {
   public typeof_RunConfigurationRunProfileState_InferenceRule() {
   }
-
   public void applyRule(final SNode runConfigurationDeclaration, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
     if ((SLinkOperations.getTarget(runConfigurationDeclaration, "stateTypeParameter", false) != null)) {
       SNode stateType = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.structure.ClassifierType", null);
@@ -38,22 +37,18 @@ public class typeof_RunConfigurationRunProfileState_InferenceRule extends Abstra
       }
     }
   }
-
   public String getApplicableConceptFQName() {
     return "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigurationDeclaration";
   }
-
   public IsApplicableStatus isApplicableAndPattern(SNode argument) {
     {
       boolean b = SModelUtil_new.isAssignableConcept(argument.getConcept().getQualifiedName(), this.getApplicableConceptFQName());
       return new IsApplicableStatus(b, null);
     }
   }
-
   public boolean overrides() {
     return false;
   }
-
   private static SNode _quotation_createNode_xq134o_a0a0c0a0b() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;
@@ -61,7 +56,6 @@ public class typeof_RunConfigurationRunProfileState_InferenceRule extends Abstra
     quotedNode_1.setReference("classifier", SReference.create("classifier", quotedNode_1, facade.createModelReference("r:e668577d-4946-4b7d-8278-f6ebfb65ac06(jetbrains.mps.debug)"), facade.createNodeId("8321286824330490408")));
     return quotedNode_1;
   }
-
   private static SNode _quotation_createNode_xq134o_a0a0a2a0a1() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;

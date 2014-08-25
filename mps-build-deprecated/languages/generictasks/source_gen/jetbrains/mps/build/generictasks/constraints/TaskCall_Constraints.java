@@ -33,12 +33,10 @@ public class TaskCall_Constraints extends BaseConstraintsDescriptor {
   public TaskCall_Constraints() {
     super("jetbrains.mps.build.generictasks.structure.TaskCall");
   }
-
   @Override
   public boolean hasOwnDefaultScopeProvider() {
     return true;
   }
-
   @Override
   public ReferenceScopeProvider getDefaultScopeProvider() {
     return new BaseReferenceScopeProvider() {
@@ -53,14 +51,12 @@ public class TaskCall_Constraints extends BaseConstraintsDescriptor {
         }
         return visible;
       }
-
       @Override
       public SNodeReference getSearchScopeValidatorNode() {
         return breakingNode_sufet9_a0a1a0a0a2;
       }
     };
   }
-
   @Override
   protected Map<String, PropertyConstraintsDescriptor> getNotDefaultProperties() {
     Map<String, PropertyConstraintsDescriptor> properties = new HashMap();
@@ -69,7 +65,6 @@ public class TaskCall_Constraints extends BaseConstraintsDescriptor {
       public boolean hasOwnGetter() {
         return true;
       }
-
       @Override
       public Object getValue(SNode node) {
         String propertyName = "name";
@@ -78,7 +73,6 @@ public class TaskCall_Constraints extends BaseConstraintsDescriptor {
     });
     return properties;
   }
-
   @Override
   protected Map<String, ReferenceConstraintsDescriptor> getNotDefaultReferences() {
     Map<String, ReferenceConstraintsDescriptor> references = new HashMap();
@@ -87,12 +81,10 @@ public class TaskCall_Constraints extends BaseConstraintsDescriptor {
       public boolean hasOwnOnReferenceSetHandler() {
         return true;
       }
-
       @Override
       public boolean validate(final SNode referenceNode, final SNode oldReferentNode, final SNode newReferentNode) {
         return true;
       }
-
       @Override
       public void onReferenceSet(final SNode referenceNode, final SNode oldReferentNode, final SNode newReferentNode) {
         for (SNode attrDecl : BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), newReferentNode, "virtual_getAttributesDeclarations_1190349257898147625", new Object[]{})) {
@@ -103,12 +95,10 @@ public class TaskCall_Constraints extends BaseConstraintsDescriptor {
           }
         }
       }
-
       @Override
       public boolean hasOwnScopeProvider() {
         return true;
       }
-
       @Nullable
       @Override
       public ReferenceScopeProvider getScopeProvider() {
@@ -136,7 +126,6 @@ public class TaskCall_Constraints extends BaseConstraintsDescriptor {
               }
             };
           }
-
           @Override
           public SNodeReference getSearchScopeValidatorNode() {
             return breakingNode_sufet9_a0a1a0a0a4a0b0a1a4;
@@ -146,7 +135,6 @@ public class TaskCall_Constraints extends BaseConstraintsDescriptor {
     });
     return references;
   }
-
   private static SNodePointer breakingNode_sufet9_a0a1a0a0a2 = new SNodePointer("r:71eee63a-b16f-40f8-920d-8fd0fe7dc8a1(jetbrains.mps.build.generictasks.constraints)", "353793545802644535");
   private static SNodePointer breakingNode_sufet9_a0a1a0a0a4a0b0a1a4 = new SNodePointer("r:71eee63a-b16f-40f8-920d-8fd0fe7dc8a1(jetbrains.mps.build.generictasks.constraints)", "353793545802644482");
 }

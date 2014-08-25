@@ -16,34 +16,27 @@ public class Button extends JComponent {
   private Events myEvents = new Events(null) {
     {
     }
-
     public void initialize() {
     }
   };
-
   public Button() {
     this.myThis = this;
     Button component = this;
     this.myEvents.initialize();
   }
-
   public Events getEvents() {
     return this.myEvents;
   }
-
   public void addNotify() {
     super.addNotify();
     this.bind();
   }
-
   public void removeNotify() {
     this.unbind();
     super.removeNotify();
   }
-
   private void bind() {
   }
-
   private void unbind() {
     for (AutoBinding binding : this.myBindings) {
       if (binding.isBound()) {
@@ -51,11 +44,9 @@ public class Button extends JComponent {
       }
     }
   }
-
   public String getText() {
     return this.myText;
   }
-
   public void setText(String newValue) {
     String oldValue = this.myText;
     this.myText = newValue;

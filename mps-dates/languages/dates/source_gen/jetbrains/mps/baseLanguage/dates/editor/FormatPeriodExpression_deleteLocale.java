@@ -13,22 +13,17 @@ public class FormatPeriodExpression_deleteLocale {
   public static void setCellActions(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setAction(CellActionType.RIGHT_TRANSFORM, new FormatPeriodExpression_deleteLocale.FormatPeriodExpression_deleteLocale_RIGHT_TRANSFORM(node));
   }
-
   public static class FormatPeriodExpression_deleteLocale_RIGHT_TRANSFORM extends AbstractCellAction {
     /*package*/ SNode myNode;
-
     public FormatPeriodExpression_deleteLocale_RIGHT_TRANSFORM(SNode node) {
       this.myNode = node;
     }
-
     public String getDescriptionText() {
       return "Remove locale";
     }
-
     public void execute(EditorContext editorContext) {
       this.execute_internal(editorContext, this.myNode);
     }
-
     public void execute_internal(EditorContext editorContext, SNode node) {
       SLinkOperations.setTarget(node, "locale", null, false);
     }

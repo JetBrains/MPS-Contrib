@@ -17,33 +17,27 @@ public class DateTimeZone_Test extends BaseTestCase {
     Long current = System.currentTimeMillis();
     Assert.assertEquals(DateTimeOperations.print(DateTimeOperations.convert(current, DateTimeZone.forID("Europe/London")), DateTimeFormat.shortTime(), new Locale("ru", "RU", "")), DateTimeOperations.print(DateTimeOperations.convert((DateTimeArithmetics.minus(current, Period.hours(2))), DateTimeZone.forID("Europe/Helsinki")), DateTimeFormat.shortTime(), new Locale("ru", "RU", "")));
   }
-
   public void test_londonAndHelsinkiFullTime() throws Exception {
     Long current = System.currentTimeMillis();
     Assert.assertFalse((DateTimeOperations.print(DateTimeOperations.convert(current, DateTimeZone.forID("Europe/London")), DateTimeFormat.fullTime(), new Locale("ru", "RU", ""))).equals(DateTimeOperations.print(DateTimeOperations.convert((DateTimeArithmetics.minus(current, Period.hours(3))), DateTimeZone.forID("Europe/Helsinki")), DateTimeFormat.fullTime(), new Locale("ru", "RU", ""))));
   }
-
   public void test_westernHemisphereTime() throws Exception {
     Long yesterday = DateTimeOperations.convert((new DateTime(2009, 7, 23, 13, 18, 20, 0, DateTimeZone.forID("UTC"))));
     Assert.assertEquals(DateTimeOperations.print(DateTimeOperations.convert(yesterday, DateTimeZone.forID("US/Eastern")), DateTimeFormat.shortTime(), null), DateTimeOperations.print(DateTimeOperations.convert((DateTimeArithmetics.minus(yesterday, Period.hours(11))), DateTimeZone.forID("Asia/Bangkok")), DateTimeFormat.shortTime(), null));
   }
-
   public void test_westernHemisphereDate() throws Exception {
     Long yesterday = DateTimeOperations.convert((new DateTime(2009, 7, 23, 13, 18, 20, 0, DateTimeZone.forID("UTC"))));
     Assert.assertFalse((DateTimeOperations.print(DateTimeOperations.convert(yesterday, DateTimeZone.forID("US/Eastern")), DateTimeFormat.fullDate(), Locale.US)).equals(DateTimeOperations.print(DateTimeOperations.convert((DateTimeArithmetics.plus(yesterday, Period.hours(22))), DateTimeZone.forID("Asia/Bangkok")), DateTimeFormat.fullDate(), Locale.US)));
   }
-
   public void test_timeZoneFromVariable() throws Exception {
     String zone = "Europe/Berlin";
     Long thisMoment = System.currentTimeMillis();
     Assert.assertEquals(DateTimeOperations.print(DateTimeOperations.convert(thisMoment, DateTimeZone.forID(zone)), (MainFormatTable.INSTANCE).getFormatter("date/time"), null), DateTimeOperations.print(DateTimeOperations.convert(thisMoment, DateTimeZone.forID("Europe/Berlin")), (MainFormatTable.INSTANCE).getFormatter("date/time"), null));
   }
-
   public void test_timeZoneFromStringLiteral() throws Exception {
     Long thisMoment = System.currentTimeMillis();
     Assert.assertEquals(DateTimeOperations.print(DateTimeOperations.convert(thisMoment, DateTimeZone.forID("Europe/Moscow")), (MainFormatTable.INSTANCE).getFormatter("date/time"), null), DateTimeOperations.print(DateTimeOperations.convert(thisMoment, DateTimeZone.forID("Europe/Moscow")), (MainFormatTable.INSTANCE).getFormatter("date/time"), null));
   }
-
   public void test_timeZoneFromString() throws Exception {
     Long nn = System.currentTimeMillis();
     String tz = "Europe/Berlin";
@@ -53,7 +47,6 @@ public class DateTimeZone_Test extends BaseTestCase {
     Assert.assertEquals("Europe/Berlin", tzz.getID());
     Assert.assertEquals("Europe/Moscow", DateTimeZone.forID("Europe/Moscow").getID());
   }
-
   public void test_london() throws Exception {
     DateTimeZone london = DateTimeZone.forID("Europe/London");
     Assert.assertEquals(london, DateTimeZone.forID(london.getID()));
@@ -63,7 +56,6 @@ public class DateTimeZone_Test extends BaseTestCase {
     Assert.assertEquals("British Summer Time", london.getName(DateTimeOperations.convert(new DateTime(2008, 7, 1, 12, 0, 0, 0, london)), null));
     Assert.assertEquals("BST", london.getShortName(DateTimeOperations.convert(new DateTime(2008, 7, 1, 12, 0, 0, 0, london)), null));
   }
-
   public void test_prague() throws Exception {
     DateTimeZone prg = DateTimeZone.forID("Europe/Prague");
     Assert.assertEquals(prg, DateTimeZone.forID(prg.getID()));
@@ -73,11 +65,9 @@ public class DateTimeZone_Test extends BaseTestCase {
     Assert.assertEquals("Central European Summer Time", prg.getName(DateTimeOperations.convert(new DateTime(2008, 7, 1, 12, 0, 0, 0, prg)), null));
     Assert.assertEquals("CEST", prg.getShortName(DateTimeOperations.convert(new DateTime(2008, 7, 1, 12, 0, 0, 0, prg)), null));
   }
-
   public void test_inLocale() throws Exception {
     Assert.assertEquals("Heure d'Europe centrale", DateTimeZone.forID("Europe/Prague").getName(DateTimeOperations.convert(new DateTime(2008, 1, 1, 12, 0, 0, 0, DateTimeZone.forID("Europe/Prague"))), Locale.FRENCH));
   }
-
   public void test_allZones() throws Exception {
     int count = 0;
     for (String id : ((Set<String>) DateTimeZone.getAvailableIDs())) {
@@ -89,7 +79,6 @@ public class DateTimeZone_Test extends BaseTestCase {
     Assert.assertTrue(count >= 3);
     Assert.assertTrue(((Set<String>) DateTimeZone.getAvailableIDs()).contains("Europe/Moscow"));
   }
-
   public void test_dataFlowCheck() throws Exception {
     DateTimeZone tz1 = DateTimeZone.forID("Europe/Athens");
     tz1.getID();
@@ -98,7 +87,6 @@ public class DateTimeZone_Test extends BaseTestCase {
     DateTimeZone tz2 = DateTimeZone.forID("Europe/Amsterdam");
     tz2.getName(n, null);
   }
-
   public DateTimeZone_Test() {
   }
 }

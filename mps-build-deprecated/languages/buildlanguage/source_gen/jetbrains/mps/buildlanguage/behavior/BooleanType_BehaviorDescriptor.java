@@ -6,7 +6,6 @@ package jetbrains.mps.buildlanguage.behavior;
 public class BooleanType_BehaviorDescriptor extends PropertyType_BehaviorDescriptor {
   public BooleanType_BehaviorDescriptor() {
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.buildlanguage.structure.BooleanType";

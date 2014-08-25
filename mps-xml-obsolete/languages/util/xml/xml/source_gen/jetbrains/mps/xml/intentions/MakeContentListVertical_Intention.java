@@ -17,72 +17,56 @@ import jetbrains.mps.intentions.IntentionDescriptor;
 
 public class MakeContentListVertical_Intention implements IntentionFactory {
   private Collection<IntentionExecutable> myCachedExecutable;
-
   public MakeContentListVertical_Intention() {
   }
-
   public String getConcept() {
     return "jetbrains.mps.xml.structure.ContentList";
   }
-
   public String getPresentation() {
     return "MakeContentListVertical";
   }
-
   public String getPersistentStateKey() {
     return "jetbrains.mps.xml.intentions.MakeContentListVertical_Intention";
   }
-
   public String getLanguageFqName() {
     return "jetbrains.mps.xml";
   }
-
   public IntentionType getType() {
     return IntentionType.NORMAL;
   }
-
   public boolean isAvailableInChildNodes() {
     return false;
   }
-
   public boolean isApplicable(final SNode node, final EditorContext editorContext) {
     if (!(isApplicableToNode(node, editorContext))) {
       return false;
     }
     return true;
   }
-
   private boolean isApplicableToNode(final SNode node, final EditorContext editorContext) {
     return ContentList_Behavior.call_isHorizontal_1221256530294(node);
   }
-
   public SNodeReference getIntentionNodeReference() {
     return new SNodePointer("r:00000000-0000-4000-0000-011c89590587(jetbrains.mps.xml.intentions)", "1195647386224");
   }
-
   public boolean isSurroundWith() {
     return false;
   }
-
   public Collection<IntentionExecutable> instances(final SNode node, final EditorContext context) {
     if (myCachedExecutable == null) {
       myCachedExecutable = Collections.<IntentionExecutable>singletonList(new MakeContentListVertical_Intention.IntentionImplementation());
     }
     return myCachedExecutable;
   }
-
   public class IntentionImplementation implements IntentionExecutable {
     public IntentionImplementation() {
     }
-
     public String getDescription(final SNode node, final EditorContext editorContext) {
       return "Make contentList Vertical";
     }
-
     public void execute(final SNode node, final EditorContext editorContext) {
       SPropertyOperations.set(node, "isHorizontal", "" + (false));
     }
-
     public IntentionDescriptor getDescriptor() {
       return MakeContentListVertical_Intention.this;
     }

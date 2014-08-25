@@ -16,25 +16,20 @@ public class convert_DateTimeOperations_MigrationScript extends BaseMigrationScr
       public String getName() {
         return "Update minus expression";
       }
-
       public String getAdditionalInfo() {
         return "Update minus expression";
       }
-
       public String getFqNameOfConceptToSearchInstances() {
         return "jetbrains.mps.baseLanguage.dates.structure.DateTimeMinusPeriodOperation";
       }
-
       public boolean isApplicableInstanceNode(SNode node) {
         return true;
       }
-
       public void doUpdateInstanceNode(SNode node) {
         SNode minusExpression = SNodeOperations.replaceWithNewChild(node, "jetbrains.mps.baseLanguage.structure.MinusExpression");
         SLinkOperations.setTarget(minusExpression, "leftExpression", SLinkOperations.getTarget(node, "leftValue", true), true);
         SLinkOperations.setTarget(minusExpression, "rightExpression", SLinkOperations.getTarget(node, "rightValue", true), true);
       }
-
       public boolean isShowAsIntention() {
         return false;
       }
@@ -43,25 +38,20 @@ public class convert_DateTimeOperations_MigrationScript extends BaseMigrationScr
       public String getName() {
         return "Update plus expression";
       }
-
       public String getAdditionalInfo() {
         return "Update plus expression";
       }
-
       public String getFqNameOfConceptToSearchInstances() {
         return "jetbrains.mps.baseLanguage.dates.structure.DateTimePlusPeriodOperation";
       }
-
       public boolean isApplicableInstanceNode(SNode node) {
         return true;
       }
-
       public void doUpdateInstanceNode(SNode node) {
         SNode minusExpression = SNodeOperations.replaceWithNewChild(node, "jetbrains.mps.baseLanguage.structure.PlusExpression");
         SLinkOperations.setTarget(minusExpression, "leftExpression", SLinkOperations.getTarget(node, "leftValue", true), true);
         SLinkOperations.setTarget(minusExpression, "rightExpression", SLinkOperations.getTarget(node, "rightValue", true), true);
       }
-
       public boolean isShowAsIntention() {
         return false;
       }

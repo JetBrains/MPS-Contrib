@@ -11,7 +11,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 public class DateFormat_DataFlow extends DataFlowBuilder {
   public DateFormat_DataFlow() {
   }
-
   public void build(final IOperationContext operationContext, final DataFlowBuilderContext _context) {
     for (SNode token : SLinkOperations.getTargets(_context.getNode(), "token", true)) {
       _context.getBuilder().build((SNode) token);

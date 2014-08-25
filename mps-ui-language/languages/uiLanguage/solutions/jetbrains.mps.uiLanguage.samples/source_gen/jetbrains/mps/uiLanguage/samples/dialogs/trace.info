@@ -1,326 +1,339 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debugInfo>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
   <root nodeRef="r:00000000-0000-4000-0000-011c8959055c(jetbrains.mps.uiLanguage.samples.dialogs)/1202829285111">
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="27" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myThis" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="28" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_50z451_b0" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="29" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_50z451_b1a" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="30" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_50z451_c1a" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="31" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_50z451_d1a" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="32" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_50z451_e1a" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="33" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_50z451_f1a" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="34" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_50z451_c0" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="35" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_50z451_c2a" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="36" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_50z451_c2c0" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="37" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_50z451_d2c0" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="38" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_50z451_c3c2a" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="39" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myComponent_50z451_d3c2a" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="40" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myName" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="41" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myLastName" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="42" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myBindings" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="51" startPosition="23" endLine="52" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="52" startPosition="23" endLine="53" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="53" startPosition="32" endLine="54" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="54" startPosition="44" endLine="55" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="55" startPosition="73" endLine="56" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="56" startPosition="72" endLine="57" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="60" startPosition="29" endLine="61" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="64" startPosition="27" endLine="65" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="65" startPosition="22" endLine="66" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="69" startPosition="30" endLine="70" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="70" startPosition="18" endLine="71" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="75" startPosition="5" endLine="76" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="76" startPosition="35" endLine="77" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="77" startPosition="60" endLine="78" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="78" startPosition="56" endLine="79" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="79" startPosition="60" endLine="80" endPosition="154" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="80" startPosition="154" endLine="81" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="81" startPosition="21" endLine="82" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="84" startPosition="5" endLine="85" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="85" startPosition="35" endLine="86" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="86" startPosition="64" endLine="87" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="87" startPosition="56" endLine="88" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="88" startPosition="60" endLine="89" endPosition="154" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="89" startPosition="154" endLine="90" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="90" startPosition="21" endLine="91" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="97" startPosition="30" endLine="98" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="103" startPosition="46" endLine="104" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="104" startPosition="36" endLine="105" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="105" startPosition="43" endLine="106" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="108" startPosition="41" endLine="109" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="109" startPosition="56" endLine="110" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="110" startPosition="20" endLine="111" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="111" startPosition="20" endLine="112" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="112" startPosition="55" endLine="113" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="117" startPosition="41" endLine="118" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="118" startPosition="56" endLine="119" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="119" startPosition="20" endLine="120" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="120" startPosition="20" endLine="121" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="121" startPosition="55" endLine="122" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="126" startPosition="41" endLine="127" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="127" startPosition="56" endLine="128" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="128" startPosition="20" endLine="129" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="129" startPosition="20" endLine="130" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="130" startPosition="55" endLine="131" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="131" startPosition="22" endLine="132" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="136" startPosition="41" endLine="137" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="137" startPosition="56" endLine="138" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="138" startPosition="20" endLine="139" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="139" startPosition="20" endLine="140" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="140" startPosition="55" endLine="141" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="141" startPosition="22" endLine="142" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="146" startPosition="41" endLine="147" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="147" startPosition="56" endLine="148" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="148" startPosition="20" endLine="149" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="149" startPosition="20" endLine="150" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="150" startPosition="24" endLine="151" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="151" startPosition="22" endLine="152" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="154" startPosition="15" endLine="155" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="158" startPosition="47" endLine="159" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="159" startPosition="36" endLine="160" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="160" startPosition="44" endLine="161" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="161" startPosition="30" endLine="162" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="165" startPosition="47" endLine="166" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="166" startPosition="36" endLine="167" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="167" startPosition="44" endLine="168" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="168" startPosition="34" endLine="169" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="172" startPosition="51" endLine="173" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="173" startPosition="44" endLine="174" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="174" startPosition="44" endLine="175" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="175" startPosition="29" endLine="176" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="179" startPosition="51" endLine="180" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="180" startPosition="44" endLine="181" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="181" startPosition="44" endLine="182" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="185" startPosition="47" endLine="186" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="186" startPosition="36" endLine="187" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="187" startPosition="44" endLine="188" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="191" startPosition="46" endLine="192" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="192" startPosition="36" endLine="193" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="193" startPosition="43" endLine="194" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="194" startPosition="44" endLine="195" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="195" startPosition="74" endLine="196" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="199" startPosition="47" endLine="200" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="200" startPosition="36" endLine="201" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="201" startPosition="44" endLine="202" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="202" startPosition="44" endLine="203" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="203" startPosition="75" endLine="204" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="204" startPosition="73" endLine="205" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="208" startPosition="48" endLine="209" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="209" startPosition="36" endLine="210" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="210" startPosition="45" endLine="211" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="214" startPosition="48" endLine="215" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="215" startPosition="36" endLine="216" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="216" startPosition="45" endLine="217" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="217" startPosition="46" endLine="218" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="218" startPosition="55" endLine="219" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="219" startPosition="55" endLine="220" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="223" startPosition="50" endLine="224" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="224" startPosition="38" endLine="225" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="225" startPosition="46" endLine="226" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="228" startPosition="54" endLine="229" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="231" startPosition="7" endLine="232" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="235" startPosition="50" endLine="236" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="236" startPosition="38" endLine="237" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="237" startPosition="46" endLine="238" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="240" startPosition="54" endLine="241" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="243" startPosition="7" endLine="244" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="247" startPosition="27" endLine="248" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="251" startPosition="31" endLine="252" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="255" startPosition="40" endLine="256" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="256" startPosition="34" endLine="257" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="257" startPosition="27" endLine="258" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="261" startPosition="44" endLine="262" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="262" startPosition="38" endLine="263" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="263" startPosition="31" endLine="264" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="47" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="initialize#()V" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="60" startPosition="0" endLine="63" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getEvents#()Ljetbrains/mps/uiLanguage/runtime/events/Events;" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="96" startPosition="49" endLine="99" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="228" startPosition="0" endLine="231" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="actionPerformed#(Ljava/awt/event/ActionEvent;)V" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="240" startPosition="0" endLine="243" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="actionPerformed#(Ljava/awt/event/ActionEvent;)V" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="247" startPosition="0" endLine="250" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getName#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="251" startPosition="0" endLine="254" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLastName#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="64" startPosition="0" endLine="68" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addNotify#()V" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="69" startPosition="0" endLine="73" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="removeNotify#()V" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="95" startPosition="25" endLine="100" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="179" startPosition="0" endLine="184" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_50z451_e1a#()Ljava/lang/Object;" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="185" startPosition="0" endLine="190" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_50z451_f1a#()Ljava/lang/Object;" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="208" startPosition="0" endLine="213" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_50z451_c2c0#()Ljava/lang/Object;" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="226" startPosition="28" endLine="231" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="238" startPosition="32" endLine="243" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="255" startPosition="0" endLine="260" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setName#(Ljava/lang/String;)V" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="261" startPosition="0" endLine="266" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setLastName#(Ljava/lang/String;)V" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="158" startPosition="0" endLine="164" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_50z451_b1a#()Ljava/lang/Object;" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="165" startPosition="0" endLine="171" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_50z451_c1a#()Ljava/lang/Object;" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="172" startPosition="0" endLine="178" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_50z451_d1a#()Ljava/lang/Object;" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="43" startPosition="0" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myEvents" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="95" startPosition="0" endLine="102" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="unbind#()V" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="108" startPosition="0" endLine="115" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="value#()Ljava/awt/GridBagConstraints;" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="117" startPosition="0" endLine="124" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="value#()Ljava/awt/GridBagConstraints;" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="191" startPosition="0" endLine="198" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_50z451_c0#()Ljava/lang/Object;" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="51" startPosition="0" endLine="59" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="DialogDemo#()V" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="126" startPosition="0" endLine="134" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="value#()Ljava/awt/GridBagConstraints;" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="136" startPosition="0" endLine="144" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="value#()Ljava/awt/GridBagConstraints;" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="146" startPosition="0" endLine="154" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="value#()Ljava/awt/GridBagConstraints;" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="199" startPosition="0" endLine="207" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_50z451_c2a#()Ljava/lang/Object;" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="214" startPosition="0" endLine="222" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_50z451_d2c0#()Ljava/lang/Object;" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="74" startPosition="23" endLine="83" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="83" startPosition="5" endLine="92" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="106" startPosition="45" endLine="115" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="115" startPosition="15" endLine="124" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="124" startPosition="15" endLine="134" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="134" startPosition="15" endLine="144" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="144" startPosition="15" endLine="154" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="223" startPosition="0" endLine="234" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_50z451_c3c2a#()Ljava/lang/Object;" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="235" startPosition="0" endLine="246" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_50z451_d3c2a#()Ljava/lang/Object;" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="74" startPosition="0" endLine="94" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="bind#()V" />
-    <nodeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="103" startPosition="0" endLine="157" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_50z451_b0#()Ljava/lang/Object;" />
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="44" startPosition="5" endLine="44" endPosition="5" />
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="47" startPosition="30" endLine="47" endPosition="30" />
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="60" startPosition="29" endLine="61" endPosition="25" />
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="97" startPosition="30" endLine="98" endPosition="25" />
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="228" startPosition="54" endLine="229" endPosition="22" />
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="240" startPosition="54" endLine="241" endPosition="26" />
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="247" startPosition="27" endLine="248" endPosition="23" />
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="251" startPosition="31" endLine="252" endPosition="27" />
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="47" startPosition="0" endLine="49" endPosition="0" />
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="64" startPosition="27" endLine="66" endPosition="16" />
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="69" startPosition="30" endLine="71" endPosition="25" />
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="60" startPosition="0" endLine="63" endPosition="0" />
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="96" startPosition="49" endLine="99" endPosition="7" />
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="179" startPosition="51" endLine="182" endPosition="21">
-      <varInfo nodeId="1202829285111" varName="component" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="185" startPosition="47" endLine="188" endPosition="21">
-      <varInfo nodeId="1202829285111" varName="component" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="208" startPosition="48" endLine="211" endPosition="21">
-      <varInfo nodeId="1202829285111" varName="component" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="228" startPosition="0" endLine="231" endPosition="0">
-      <varInfo nodeId="1202829285111" varName="event" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="240" startPosition="0" endLine="243" endPosition="0">
-      <varInfo nodeId="1202829285111" varName="event" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="247" startPosition="0" endLine="250" endPosition="0" />
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="251" startPosition="0" endLine="254" endPosition="0" />
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="255" startPosition="40" endLine="258" endPosition="56">
-      <varInfo nodeId="1202829285111" varName="oldValue" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="261" startPosition="44" endLine="264" endPosition="60">
-      <varInfo nodeId="1202829285111" varName="oldValue" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="64" startPosition="0" endLine="68" endPosition="0" />
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="69" startPosition="0" endLine="73" endPosition="0" />
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="158" startPosition="47" endLine="162" endPosition="21">
-      <varInfo nodeId="1202829285111" varName="component" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="165" startPosition="47" endLine="169" endPosition="21">
-      <varInfo nodeId="1202829285111" varName="component" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="172" startPosition="51" endLine="176" endPosition="21">
-      <varInfo nodeId="1202829285111" varName="component" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="95" startPosition="25" endLine="100" endPosition="5" />
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="95" startPosition="25" endLine="100" endPosition="5">
-      <varInfo nodeId="1202829285111" varName="binding" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="108" startPosition="41" endLine="113" endPosition="17">
-      <varInfo nodeId="1202829285111" varName="c" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="117" startPosition="41" endLine="122" endPosition="17">
-      <varInfo nodeId="1202829285111" varName="c" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="179" startPosition="0" endLine="184" endPosition="0" />
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="185" startPosition="0" endLine="190" endPosition="0" />
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="191" startPosition="46" endLine="196" endPosition="21">
-      <varInfo nodeId="1202829285111" varName="component" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="208" startPosition="0" endLine="213" endPosition="0" />
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="255" startPosition="0" endLine="260" endPosition="0">
-      <varInfo nodeId="1202829285111" varName="newValue" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="261" startPosition="0" endLine="266" endPosition="0">
-      <varInfo nodeId="1202829285111" varName="newValue" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="51" startPosition="23" endLine="57" endPosition="31">
-      <varInfo nodeId="1202829285111" varName="component" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="126" startPosition="41" endLine="132" endPosition="17">
-      <varInfo nodeId="1202829285111" varName="c" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="136" startPosition="41" endLine="142" endPosition="17">
-      <varInfo nodeId="1202829285111" varName="c" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="146" startPosition="41" endLine="152" endPosition="17">
-      <varInfo nodeId="1202829285111" varName="c" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="158" startPosition="0" endLine="164" endPosition="0" />
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="165" startPosition="0" endLine="171" endPosition="0" />
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="172" startPosition="0" endLine="178" endPosition="0" />
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="199" startPosition="47" endLine="205" endPosition="21">
-      <varInfo nodeId="1202829285111" varName="component" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="214" startPosition="48" endLine="220" endPosition="21">
-      <varInfo nodeId="1202829285111" varName="component" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="75" startPosition="5" endLine="82" endPosition="65">
-      <varInfo nodeId="1202829285111" varName="binding" />
-      <varInfo nodeId="1202829285111" varName="sourceObject" />
-      <varInfo nodeId="1202829285111" varName="sourceProperty" />
-      <varInfo nodeId="1202829285111" varName="targetObject" />
-      <varInfo nodeId="1202829285111" varName="targetProperty" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="84" startPosition="5" endLine="91" endPosition="65">
-      <varInfo nodeId="1202829285111" varName="binding" />
-      <varInfo nodeId="1202829285111" varName="sourceObject" />
-      <varInfo nodeId="1202829285111" varName="sourceProperty" />
-      <varInfo nodeId="1202829285111" varName="targetObject" />
-      <varInfo nodeId="1202829285111" varName="targetProperty" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="95" startPosition="0" endLine="102" endPosition="0" />
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="108" startPosition="0" endLine="115" endPosition="0" />
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="117" startPosition="0" endLine="124" endPosition="0" />
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="191" startPosition="0" endLine="198" endPosition="0" />
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="51" startPosition="0" endLine="59" endPosition="0" />
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="126" startPosition="0" endLine="134" endPosition="0" />
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="136" startPosition="0" endLine="144" endPosition="0" />
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="146" startPosition="0" endLine="154" endPosition="0" />
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="199" startPosition="0" endLine="207" endPosition="0" />
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="214" startPosition="0" endLine="222" endPosition="0" />
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="223" startPosition="50" endLine="232" endPosition="21">
-      <varInfo nodeId="1202829285111" varName="component" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="235" startPosition="50" endLine="244" endPosition="21">
-      <varInfo nodeId="1202829285111" varName="component" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="223" startPosition="0" endLine="234" endPosition="0" />
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="235" startPosition="0" endLine="246" endPosition="0" />
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="74" startPosition="23" endLine="92" endPosition="5" />
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="74" startPosition="0" endLine="94" endPosition="0" />
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="103" startPosition="46" endLine="155" endPosition="21">
-      <varInfo nodeId="1202829285111" varName="component" />
-    </scopeInfo>
-    <scopeInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="103" startPosition="0" endLine="157" endPosition="0" />
-    <unitInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="227" startPosition="36" endLine="231" endPosition="5" unitName="jetbrains.mps.uiLanguage.samples.dialogs.DialogDemo$7" />
-    <unitInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="239" startPosition="36" endLine="243" endPosition="5" unitName="jetbrains.mps.uiLanguage.samples.dialogs.DialogDemo$8" />
-    <unitInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="43" startPosition="32" endLine="49" endPosition="3" unitName="jetbrains.mps.uiLanguage.samples.dialogs.DialogDemo$1" />
-    <unitInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="107" startPosition="57" endLine="115" endPosition="5" unitName="jetbrains.mps.uiLanguage.samples.dialogs.DialogDemo$2" />
-    <unitInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="116" startPosition="57" endLine="124" endPosition="5" unitName="jetbrains.mps.uiLanguage.samples.dialogs.DialogDemo$3" />
-    <unitInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="125" startPosition="57" endLine="134" endPosition="5" unitName="jetbrains.mps.uiLanguage.samples.dialogs.DialogDemo$4" />
-    <unitInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="135" startPosition="57" endLine="144" endPosition="5" unitName="jetbrains.mps.uiLanguage.samples.dialogs.DialogDemo$5" />
-    <unitInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="145" startPosition="57" endLine="154" endPosition="5" unitName="jetbrains.mps.uiLanguage.samples.dialogs.DialogDemo$6" />
-    <unitInfo nodeId="1202829285111" fileName="DialogDemo.java" startLine="26" startPosition="0" endLine="276" endPosition="0" unitName="jetbrains.mps.uiLanguage.samples.dialogs.DialogDemo" />
+    <file name="DialogDemo.java">
+      <node id="1202829285111" at="27,0,28,0" concept="3" trace="myThis" />
+      <node id="1202829285111" at="28,0,29,0" concept="3" trace="myComponent_50z451_b0" />
+      <node id="1202829285111" at="29,0,30,0" concept="3" trace="myComponent_50z451_b1a" />
+      <node id="1202829285111" at="30,0,31,0" concept="3" trace="myComponent_50z451_c1a" />
+      <node id="1202829285111" at="31,0,32,0" concept="3" trace="myComponent_50z451_d1a" />
+      <node id="1202829285111" at="32,0,33,0" concept="3" trace="myComponent_50z451_e1a" />
+      <node id="1202829285111" at="33,0,34,0" concept="3" trace="myComponent_50z451_f1a" />
+      <node id="1202829285111" at="34,0,35,0" concept="3" trace="myComponent_50z451_c0" />
+      <node id="1202829285111" at="35,0,36,0" concept="3" trace="myComponent_50z451_c2a" />
+      <node id="1202829285111" at="36,0,37,0" concept="3" trace="myComponent_50z451_c2c0" />
+      <node id="1202829285111" at="37,0,38,0" concept="3" trace="myComponent_50z451_d2c0" />
+      <node id="1202829285111" at="38,0,39,0" concept="3" trace="myComponent_50z451_c3c2a" />
+      <node id="1202829285111" at="39,0,40,0" concept="3" trace="myComponent_50z451_d3c2a" />
+      <node id="1202829285111" at="40,0,41,0" concept="3" trace="myName" />
+      <node id="1202829285111" at="41,0,42,0" concept="3" trace="myLastName" />
+      <node id="1202829285111" at="42,0,43,0" concept="3" trace="myBindings" />
+      <node id="1202829285111" at="49,23,50,23" concept="2" />
+      <node id="1202829285111" at="50,23,51,32" concept="7" />
+      <node id="1202829285111" at="51,32,52,44" concept="2" />
+      <node id="1202829285111" at="52,44,53,73" concept="2" />
+      <node id="1202829285111" at="53,73,54,72" concept="2" />
+      <node id="1202829285111" at="54,72,55,31" concept="2" />
+      <node id="1202829285111" at="57,29,58,25" concept="8" />
+      <node id="1202829285111" at="60,27,61,22" concept="2" />
+      <node id="1202829285111" at="61,22,62,16" concept="2" />
+      <node id="1202829285111" at="64,30,65,18" concept="2" />
+      <node id="1202829285111" at="65,18,66,25" concept="2" />
+      <node id="1202829285111" at="69,5,70,35" concept="7" />
+      <node id="1202829285111" at="70,35,71,60" concept="7" />
+      <node id="1202829285111" at="71,60,72,56" concept="7" />
+      <node id="1202829285111" at="72,56,73,60" concept="7" />
+      <node id="1202829285111" at="73,60,74,154" concept="7" />
+      <node id="1202829285111" at="74,154,75,21" concept="2" />
+      <node id="1202829285111" at="75,21,76,65" concept="2" />
+      <node id="1202829285111" at="78,5,79,35" concept="7" />
+      <node id="1202829285111" at="79,35,80,64" concept="7" />
+      <node id="1202829285111" at="80,64,81,56" concept="7" />
+      <node id="1202829285111" at="81,56,82,60" concept="7" />
+      <node id="1202829285111" at="82,60,83,154" concept="7" />
+      <node id="1202829285111" at="83,154,84,21" concept="2" />
+      <node id="1202829285111" at="84,21,85,65" concept="2" />
+      <node id="1202829285111" at="90,30,91,25" concept="2" />
+      <node id="1202829285111" at="95,46,96,36" concept="7" />
+      <node id="1202829285111" at="96,36,97,43" concept="2" />
+      <node id="1202829285111" at="97,43,98,45" concept="2" />
+      <node id="1202829285111" at="100,41,101,56" concept="7" />
+      <node id="1202829285111" at="101,56,102,20" concept="2" />
+      <node id="1202829285111" at="102,20,103,20" concept="2" />
+      <node id="1202829285111" at="103,20,104,55" concept="2" />
+      <node id="1202829285111" at="104,55,105,17" concept="8" />
+      <node id="1202829285111" at="109,41,110,56" concept="7" />
+      <node id="1202829285111" at="110,56,111,20" concept="2" />
+      <node id="1202829285111" at="111,20,112,20" concept="2" />
+      <node id="1202829285111" at="112,20,113,55" concept="2" />
+      <node id="1202829285111" at="113,55,114,17" concept="8" />
+      <node id="1202829285111" at="118,41,119,56" concept="7" />
+      <node id="1202829285111" at="119,56,120,20" concept="2" />
+      <node id="1202829285111" at="120,20,121,20" concept="2" />
+      <node id="1202829285111" at="121,20,122,55" concept="2" />
+      <node id="1202829285111" at="122,55,123,22" concept="2" />
+      <node id="1202829285111" at="123,22,124,17" concept="8" />
+      <node id="1202829285111" at="128,41,129,56" concept="7" />
+      <node id="1202829285111" at="129,56,130,20" concept="2" />
+      <node id="1202829285111" at="130,20,131,20" concept="2" />
+      <node id="1202829285111" at="131,20,132,55" concept="2" />
+      <node id="1202829285111" at="132,55,133,22" concept="2" />
+      <node id="1202829285111" at="133,22,134,17" concept="8" />
+      <node id="1202829285111" at="138,41,139,56" concept="7" />
+      <node id="1202829285111" at="139,56,140,20" concept="2" />
+      <node id="1202829285111" at="140,20,141,20" concept="2" />
+      <node id="1202829285111" at="141,20,142,24" concept="2" />
+      <node id="1202829285111" at="142,24,143,22" concept="2" />
+      <node id="1202829285111" at="143,22,144,17" concept="8" />
+      <node id="1202829285111" at="146,15,147,21" concept="8" />
+      <node id="1202829285111" at="149,47,150,36" concept="7" />
+      <node id="1202829285111" at="150,36,151,44" concept="2" />
+      <node id="1202829285111" at="151,44,152,30" concept="2" />
+      <node id="1202829285111" at="152,30,153,21" concept="8" />
+      <node id="1202829285111" at="155,47,156,36" concept="7" />
+      <node id="1202829285111" at="156,36,157,44" concept="2" />
+      <node id="1202829285111" at="157,44,158,34" concept="2" />
+      <node id="1202829285111" at="158,34,159,21" concept="8" />
+      <node id="1202829285111" at="161,51,162,44" concept="7" />
+      <node id="1202829285111" at="162,44,163,44" concept="2" />
+      <node id="1202829285111" at="163,44,164,29" concept="2" />
+      <node id="1202829285111" at="164,29,165,21" concept="8" />
+      <node id="1202829285111" at="167,51,168,44" concept="7" />
+      <node id="1202829285111" at="168,44,169,44" concept="2" />
+      <node id="1202829285111" at="169,44,170,21" concept="8" />
+      <node id="1202829285111" at="172,47,173,36" concept="7" />
+      <node id="1202829285111" at="173,36,174,44" concept="2" />
+      <node id="1202829285111" at="174,44,175,21" concept="8" />
+      <node id="1202829285111" at="177,46,178,36" concept="7" />
+      <node id="1202829285111" at="178,36,179,43" concept="2" />
+      <node id="1202829285111" at="179,43,180,44" concept="2" />
+      <node id="1202829285111" at="180,44,181,74" concept="2" />
+      <node id="1202829285111" at="181,74,182,21" concept="8" />
+      <node id="1202829285111" at="184,47,185,36" concept="7" />
+      <node id="1202829285111" at="185,36,186,44" concept="2" />
+      <node id="1202829285111" at="186,44,187,44" concept="2" />
+      <node id="1202829285111" at="187,44,188,75" concept="2" />
+      <node id="1202829285111" at="188,75,189,73" concept="2" />
+      <node id="1202829285111" at="189,73,190,21" concept="8" />
+      <node id="1202829285111" at="192,48,193,36" concept="7" />
+      <node id="1202829285111" at="193,36,194,45" concept="2" />
+      <node id="1202829285111" at="194,45,195,21" concept="8" />
+      <node id="1202829285111" at="197,48,198,36" concept="7" />
+      <node id="1202829285111" at="198,36,199,45" concept="2" />
+      <node id="1202829285111" at="199,45,200,46" concept="2" />
+      <node id="1202829285111" at="200,46,201,55" concept="2" />
+      <node id="1202829285111" at="201,55,202,55" concept="2" />
+      <node id="1202829285111" at="202,55,203,21" concept="8" />
+      <node id="1202829285111" at="205,50,206,38" concept="7" />
+      <node id="1202829285111" at="206,38,207,46" concept="2" />
+      <node id="1202829285111" at="207,46,208,28" concept="2" />
+      <node id="1202829285111" at="210,54,211,22" concept="2" />
+      <node id="1202829285111" at="213,7,214,21" concept="8" />
+      <node id="1202829285111" at="216,50,217,38" concept="7" />
+      <node id="1202829285111" at="217,38,218,46" concept="2" />
+      <node id="1202829285111" at="218,46,219,32" concept="2" />
+      <node id="1202829285111" at="221,54,222,26" concept="2" />
+      <node id="1202829285111" at="224,7,225,21" concept="8" />
+      <node id="1202829285111" at="227,27,228,23" concept="8" />
+      <node id="1202829285111" at="230,31,231,27" concept="8" />
+      <node id="1202829285111" at="233,40,234,34" concept="7" />
+      <node id="1202829285111" at="234,34,235,27" concept="2" />
+      <node id="1202829285111" at="235,27,236,56" concept="2" />
+      <node id="1202829285111" at="238,44,239,38" concept="7" />
+      <node id="1202829285111" at="239,38,240,31" concept="2" />
+      <node id="1202829285111" at="240,31,241,60" concept="2" />
+      <node id="1202829285111" at="46,0,48,0" concept="6" trace="initialize#()V" />
+      <node id="1202829285111" at="57,0,60,0" concept="6" trace="getEvents#()Ljetbrains/mps/uiLanguage/runtime/events/Events;" />
+      <node id="1202829285111" at="89,49,92,7" concept="5" />
+      <node id="1202829285111" at="210,0,213,0" concept="6" trace="actionPerformed#(Ljava/awt/event/ActionEvent;)V" />
+      <node id="1202829285111" at="221,0,224,0" concept="6" trace="actionPerformed#(Ljava/awt/event/ActionEvent;)V" />
+      <node id="1202829285111" at="227,0,230,0" concept="6" trace="getName#()Ljava/lang/String;" />
+      <node id="1202829285111" at="230,0,233,0" concept="6" trace="getLastName#()Ljava/lang/String;" />
+      <node id="1202829285111" at="60,0,64,0" concept="6" trace="addNotify#()V" />
+      <node id="1202829285111" at="64,0,68,0" concept="6" trace="removeNotify#()V" />
+      <node id="1202829285111" at="88,25,93,5" concept="4" />
+      <node id="1202829285111" at="167,0,172,0" concept="6" trace="createComponent_50z451_e1a#()Ljava/lang/Object;" />
+      <node id="1202829285111" at="172,0,177,0" concept="6" trace="createComponent_50z451_f1a#()Ljava/lang/Object;" />
+      <node id="1202829285111" at="192,0,197,0" concept="6" trace="createComponent_50z451_c2c0#()Ljava/lang/Object;" />
+      <node id="1202829285111" at="208,28,213,7" concept="2" />
+      <node id="1202829285111" at="219,32,224,7" concept="2" />
+      <node id="1202829285111" at="233,0,238,0" concept="6" trace="setName#(Ljava/lang/String;)V" />
+      <node id="1202829285111" at="238,0,243,0" concept="6" trace="setLastName#(Ljava/lang/String;)V" />
+      <node id="1202829285111" at="43,0,49,0" concept="3" trace="myEvents" />
+      <node id="1202829285111" at="149,0,155,0" concept="6" trace="createComponent_50z451_b1a#()Ljava/lang/Object;" />
+      <node id="1202829285111" at="155,0,161,0" concept="6" trace="createComponent_50z451_c1a#()Ljava/lang/Object;" />
+      <node id="1202829285111" at="161,0,167,0" concept="6" trace="createComponent_50z451_d1a#()Ljava/lang/Object;" />
+      <node id="1202829285111" at="88,0,95,0" concept="6" trace="unbind#()V" />
+      <node id="1202829285111" at="100,0,107,0" concept="6" trace="value#()Ljava/awt/GridBagConstraints;" />
+      <node id="1202829285111" at="109,0,116,0" concept="6" trace="value#()Ljava/awt/GridBagConstraints;" />
+      <node id="1202829285111" at="177,0,184,0" concept="6" trace="createComponent_50z451_c0#()Ljava/lang/Object;" />
+      <node id="1202829285111" at="49,0,57,0" concept="1" trace="DialogDemo#()V" />
+      <node id="1202829285111" at="118,0,126,0" concept="6" trace="value#()Ljava/awt/GridBagConstraints;" />
+      <node id="1202829285111" at="128,0,136,0" concept="6" trace="value#()Ljava/awt/GridBagConstraints;" />
+      <node id="1202829285111" at="138,0,146,0" concept="6" trace="value#()Ljava/awt/GridBagConstraints;" />
+      <node id="1202829285111" at="184,0,192,0" concept="6" trace="createComponent_50z451_c2a#()Ljava/lang/Object;" />
+      <node id="1202829285111" at="197,0,205,0" concept="6" trace="createComponent_50z451_d2c0#()Ljava/lang/Object;" />
+      <node id="1202829285111" at="68,23,77,5" concept="0" />
+      <node id="1202829285111" at="77,5,86,5" concept="0" />
+      <node id="1202829285111" at="98,45,107,15" concept="2" />
+      <node id="1202829285111" at="107,15,116,15" concept="2" />
+      <node id="1202829285111" at="116,15,126,15" concept="2" />
+      <node id="1202829285111" at="126,15,136,15" concept="2" />
+      <node id="1202829285111" at="136,15,146,15" concept="2" />
+      <node id="1202829285111" at="205,0,216,0" concept="6" trace="createComponent_50z451_c3c2a#()Ljava/lang/Object;" />
+      <node id="1202829285111" at="216,0,227,0" concept="6" trace="createComponent_50z451_d3c2a#()Ljava/lang/Object;" />
+      <node id="1202829285111" at="68,0,88,0" concept="6" trace="bind#()V" />
+      <node id="1202829285111" at="95,0,149,0" concept="6" trace="createComponent_50z451_b0#()Ljava/lang/Object;" />
+      <scope id="1202829285111" at="44,5,44,5" />
+      <scope id="1202829285111" at="46,30,46,30" />
+      <scope id="1202829285111" at="57,29,58,25" />
+      <scope id="1202829285111" at="90,30,91,25" />
+      <scope id="1202829285111" at="210,54,211,22" />
+      <scope id="1202829285111" at="221,54,222,26" />
+      <scope id="1202829285111" at="227,27,228,23" />
+      <scope id="1202829285111" at="230,31,231,27" />
+      <scope id="1202829285111" at="46,0,48,0" />
+      <scope id="1202829285111" at="60,27,62,16" />
+      <scope id="1202829285111" at="64,30,66,25" />
+      <scope id="1202829285111" at="57,0,60,0" />
+      <scope id="1202829285111" at="89,49,92,7" />
+      <scope id="1202829285111" at="167,51,170,21">
+        <var name="component" id="1202829285111" />
+      </scope>
+      <scope id="1202829285111" at="172,47,175,21">
+        <var name="component" id="1202829285111" />
+      </scope>
+      <scope id="1202829285111" at="192,48,195,21">
+        <var name="component" id="1202829285111" />
+      </scope>
+      <scope id="1202829285111" at="210,0,213,0">
+        <var name="event" id="1202829285111" />
+      </scope>
+      <scope id="1202829285111" at="221,0,224,0">
+        <var name="event" id="1202829285111" />
+      </scope>
+      <scope id="1202829285111" at="227,0,230,0" />
+      <scope id="1202829285111" at="230,0,233,0" />
+      <scope id="1202829285111" at="233,40,236,56">
+        <var name="oldValue" id="1202829285111" />
+      </scope>
+      <scope id="1202829285111" at="238,44,241,60">
+        <var name="oldValue" id="1202829285111" />
+      </scope>
+      <scope id="1202829285111" at="60,0,64,0" />
+      <scope id="1202829285111" at="64,0,68,0" />
+      <scope id="1202829285111" at="149,47,153,21">
+        <var name="component" id="1202829285111" />
+      </scope>
+      <scope id="1202829285111" at="155,47,159,21">
+        <var name="component" id="1202829285111" />
+      </scope>
+      <scope id="1202829285111" at="161,51,165,21">
+        <var name="component" id="1202829285111" />
+      </scope>
+      <scope id="1202829285111" at="88,25,93,5" />
+      <scope id="1202829285111" at="88,25,93,5">
+        <var name="binding" id="1202829285111" />
+      </scope>
+      <scope id="1202829285111" at="100,41,105,17">
+        <var name="c" id="1202829285111" />
+      </scope>
+      <scope id="1202829285111" at="109,41,114,17">
+        <var name="c" id="1202829285111" />
+      </scope>
+      <scope id="1202829285111" at="167,0,172,0" />
+      <scope id="1202829285111" at="172,0,177,0" />
+      <scope id="1202829285111" at="177,46,182,21">
+        <var name="component" id="1202829285111" />
+      </scope>
+      <scope id="1202829285111" at="192,0,197,0" />
+      <scope id="1202829285111" at="233,0,238,0">
+        <var name="newValue" id="1202829285111" />
+      </scope>
+      <scope id="1202829285111" at="238,0,243,0">
+        <var name="newValue" id="1202829285111" />
+      </scope>
+      <scope id="1202829285111" at="49,23,55,31">
+        <var name="component" id="1202829285111" />
+      </scope>
+      <scope id="1202829285111" at="118,41,124,17">
+        <var name="c" id="1202829285111" />
+      </scope>
+      <scope id="1202829285111" at="128,41,134,17">
+        <var name="c" id="1202829285111" />
+      </scope>
+      <scope id="1202829285111" at="138,41,144,17">
+        <var name="c" id="1202829285111" />
+      </scope>
+      <scope id="1202829285111" at="149,0,155,0" />
+      <scope id="1202829285111" at="155,0,161,0" />
+      <scope id="1202829285111" at="161,0,167,0" />
+      <scope id="1202829285111" at="184,47,190,21">
+        <var name="component" id="1202829285111" />
+      </scope>
+      <scope id="1202829285111" at="197,48,203,21">
+        <var name="component" id="1202829285111" />
+      </scope>
+      <scope id="1202829285111" at="69,5,76,65">
+        <var name="binding" id="1202829285111" />
+        <var name="sourceObject" id="1202829285111" />
+        <var name="sourceProperty" id="1202829285111" />
+        <var name="targetObject" id="1202829285111" />
+        <var name="targetProperty" id="1202829285111" />
+      </scope>
+      <scope id="1202829285111" at="78,5,85,65">
+        <var name="binding" id="1202829285111" />
+        <var name="sourceObject" id="1202829285111" />
+        <var name="sourceProperty" id="1202829285111" />
+        <var name="targetObject" id="1202829285111" />
+        <var name="targetProperty" id="1202829285111" />
+      </scope>
+      <scope id="1202829285111" at="88,0,95,0" />
+      <scope id="1202829285111" at="100,0,107,0" />
+      <scope id="1202829285111" at="109,0,116,0" />
+      <scope id="1202829285111" at="177,0,184,0" />
+      <scope id="1202829285111" at="49,0,57,0" />
+      <scope id="1202829285111" at="118,0,126,0" />
+      <scope id="1202829285111" at="128,0,136,0" />
+      <scope id="1202829285111" at="138,0,146,0" />
+      <scope id="1202829285111" at="184,0,192,0" />
+      <scope id="1202829285111" at="197,0,205,0" />
+      <scope id="1202829285111" at="205,50,214,21">
+        <var name="component" id="1202829285111" />
+      </scope>
+      <scope id="1202829285111" at="216,50,225,21">
+        <var name="component" id="1202829285111" />
+      </scope>
+      <scope id="1202829285111" at="205,0,216,0" />
+      <scope id="1202829285111" at="216,0,227,0" />
+      <scope id="1202829285111" at="68,23,86,5" />
+      <scope id="1202829285111" at="68,0,88,0" />
+      <scope id="1202829285111" at="95,46,147,21">
+        <var name="component" id="1202829285111" />
+      </scope>
+      <scope id="1202829285111" at="95,0,149,0" />
+      <unit id="1202829285111" at="209,36,213,5" name="jetbrains.mps.uiLanguage.samples.dialogs.DialogDemo$7" />
+      <unit id="1202829285111" at="220,36,224,5" name="jetbrains.mps.uiLanguage.samples.dialogs.DialogDemo$8" />
+      <unit id="1202829285111" at="43,32,48,3" name="jetbrains.mps.uiLanguage.samples.dialogs.DialogDemo$1" />
+      <unit id="1202829285111" at="99,57,107,5" name="jetbrains.mps.uiLanguage.samples.dialogs.DialogDemo$2" />
+      <unit id="1202829285111" at="108,57,116,5" name="jetbrains.mps.uiLanguage.samples.dialogs.DialogDemo$3" />
+      <unit id="1202829285111" at="117,57,126,5" name="jetbrains.mps.uiLanguage.samples.dialogs.DialogDemo$4" />
+      <unit id="1202829285111" at="127,57,136,5" name="jetbrains.mps.uiLanguage.samples.dialogs.DialogDemo$5" />
+      <unit id="1202829285111" at="137,57,146,5" name="jetbrains.mps.uiLanguage.samples.dialogs.DialogDemo$6" />
+      <unit id="1202829285111" at="26,0,251,0" name="jetbrains.mps.uiLanguage.samples.dialogs.DialogDemo" />
+    </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c8959055c(jetbrains.mps.uiLanguage.samples.dialogs)/1202832184362">
-    <nodeInfo nodeId="1202833166011" fileName="DialogDemo.java" startLine="267" startPosition="27" endLine="268" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202832459637" fileName="DialogDemo.java" startLine="271" startPosition="31" endLine="272" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1202833174988" fileName="DialogDemo.java" startLine="272" startPosition="33" endLine="273" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1205770172088" fileName="DialogDemo.java" startLine="267" startPosition="0" endLine="270" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="onOk#()V" />
-    <nodeInfo nodeId="1205770172049" fileName="DialogDemo.java" startLine="271" startPosition="0" endLine="275" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="onCancel#()V" />
-    <scopeInfo nodeId="1202832185850" fileName="DialogDemo.java" startLine="267" startPosition="27" endLine="268" endPosition="21" />
-    <scopeInfo nodeId="1202832199405" fileName="DialogDemo.java" startLine="271" startPosition="31" endLine="273" endPosition="21" />
-    <scopeInfo nodeId="1205770172088" fileName="DialogDemo.java" startLine="267" startPosition="0" endLine="270" endPosition="0" />
-    <scopeInfo nodeId="1205770172049" fileName="DialogDemo.java" startLine="271" startPosition="0" endLine="275" endPosition="0" />
+    <file name="DialogDemo.java">
+      <node id="1202833166011" at="243,27,244,21" concept="2" />
+      <node id="1202832459637" at="246,31,247,33" concept="2" />
+      <node id="1202833174988" at="247,33,248,21" concept="2" />
+      <node id="1205770172088" at="243,0,246,0" concept="6" trace="onOk#()V" />
+      <node id="1205770172049" at="246,0,250,0" concept="6" trace="onCancel#()V" />
+      <scope id="1202832185850" at="243,27,244,21" />
+      <scope id="1202832199405" at="246,31,248,21" />
+      <scope id="1205770172088" at="243,0,246,0" />
+      <scope id="1205770172049" at="246,0,250,0" />
+    </file>
   </root>
-</debugInfo>
+</debug-info>
 

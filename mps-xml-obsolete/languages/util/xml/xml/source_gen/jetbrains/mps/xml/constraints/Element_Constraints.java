@@ -31,7 +31,6 @@ public class Element_Constraints extends BaseConstraintsDescriptor {
   public Element_Constraints() {
     super("jetbrains.mps.xml.structure.Element");
   }
-
   @Override
   protected Map<String, PropertyConstraintsDescriptor> getNotDefaultProperties() {
     Map<String, PropertyConstraintsDescriptor> properties = new HashMap();
@@ -40,7 +39,6 @@ public class Element_Constraints extends BaseConstraintsDescriptor {
       public boolean hasOwnGetter() {
         return true;
       }
-
       @Override
       public Object getValue(SNode node) {
         String propertyName = "alias";
@@ -49,7 +47,6 @@ public class Element_Constraints extends BaseConstraintsDescriptor {
     });
     return properties;
   }
-
   @Override
   protected Map<String, ReferenceConstraintsDescriptor> getNotDefaultReferences() {
     Map<String, ReferenceConstraintsDescriptor> references = new HashMap();
@@ -58,7 +55,6 @@ public class Element_Constraints extends BaseConstraintsDescriptor {
       public boolean hasOwnScopeProvider() {
         return true;
       }
-
       @Nullable
       @Override
       public ReferenceScopeProvider getScopeProvider() {
@@ -75,7 +71,6 @@ public class Element_Constraints extends BaseConstraintsDescriptor {
             }
             return searchScope;
           }
-
           @Override
           public SNodeReference getSearchScopeValidatorNode() {
             return breakingNode_o20hw9_a0a1a0a0a1a0b0a1a2;
@@ -85,6 +80,5 @@ public class Element_Constraints extends BaseConstraintsDescriptor {
     });
     return references;
   }
-
   private static SNodePointer breakingNode_o20hw9_a0a1a0a0a1a0b0a1a2 = new SNodePointer("r:00000000-0000-4000-0000-011c89590585(jetbrains.mps.xml.constraints)", "1213104840332");
 }

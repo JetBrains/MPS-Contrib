@@ -20,36 +20,29 @@ public class BiconnectedComponent {
   private List<BiconnectedComponent> myChildren;
   private Map<BiconnectedComponent, Edge> myBridges;
   private Map<BiconnectedComponent, Node> myCutpoints;
-
   private BiconnectedComponent() {
     myNodes = SetSequence.fromSet(new LinkedHashSet<Node>());
     myChildren = ListSequence.fromList(new ArrayList<BiconnectedComponent>());
     myBridges = MapSequence.fromMap(new HashMap<BiconnectedComponent, Edge>());
     myCutpoints = MapSequence.fromMap(new HashMap<BiconnectedComponent, Node>());
   }
-
   public void addComponent(BiconnectedComponent component, Node node) {
     ListSequence.fromList(myChildren).addElement(component);
     MapSequence.fromMap(myCutpoints).put(component, node);
   }
-
   public void addComponent(BiconnectedComponent component, Edge edge) {
     ListSequence.fromList(myChildren).addElement(component);
     MapSequence.fromMap(myBridges).put(component, edge);
   }
-
   public void addNode(Node node) {
     SetSequence.fromSet(myNodes).addElement(node);
   }
-
   public List<BiconnectedComponent> getChildren() {
     return myChildren;
   }
-
   public Set<Node> getNodes() {
     return myNodes;
   }
-
   public Object getConnection(BiconnectedComponent child) {
     if (MapSequence.fromMap(myBridges).containsKey(child)) {
       return MapSequence.fromMap(myBridges).get(child);
@@ -57,7 +50,6 @@ public class BiconnectedComponent {
       return MapSequence.fromMap(myCutpoints).get(child);
     }
   }
-
   public Node getChildCutpoint(BiconnectedComponent child) {
     if (MapSequence.fromMap(myBridges).containsKey(child)) {
       Edge bridge = MapSequence.fromMap(myBridges).get(child);
@@ -70,7 +62,6 @@ public class BiconnectedComponent {
       return MapSequence.fromMap(myCutpoints).get(child);
     }
   }
-
   public Node getCutpoint(BiconnectedComponent child) {
     if (MapSequence.fromMap(myBridges).containsKey(child)) {
       Edge bridge = MapSequence.fromMap(myBridges).get(child);
@@ -83,7 +74,6 @@ public class BiconnectedComponent {
       return MapSequence.fromMap(myCutpoints).get(child);
     }
   }
-
   public String toString(String prefix) {
     StringBuilder builder = new StringBuilder();
     builder.append(prefix + " C: " + getNodes() + " has " + ListSequence.fromList(getChildren()).count() + " children" + "\n");
@@ -93,7 +83,6 @@ public class BiconnectedComponent {
     }
     return builder.toString();
   }
-
   public static BiconnectedComponent createTree(Graph graph) {
     BiconnectedComponent tree = new BiconnectedComponent();
     BiconnectedComponents components = new BiconnectedComponents();
@@ -105,21 +94,17 @@ public class BiconnectedComponent {
     }
     return tree;
   }
-
   private static class TreeMaker extends Dfs {
     private Map<Node, Node> myLow;
     private Map<Node, Integer> myNum;
-
     public TreeMaker(Map<Node, Node> low, Map<Node, Integer> num) {
       myLow = low;
       myNum = num;
     }
-
     public void doDfs(Graph graph, BiconnectedComponent component) {
       init(graph, Edge.Direction.BOTH);
       dfs(ListSequence.fromList(graph.getNodes()).first(), null, component);
     }
-
     private void dfs(Node node, Edge from, BiconnectedComponent component) {
       MapSequence.fromMap(myDfsState).put(node, DURING);
       BiconnectedComponent nextComponent = component;

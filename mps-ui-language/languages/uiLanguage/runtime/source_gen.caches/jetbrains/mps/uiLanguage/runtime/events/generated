@@ -1,3 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-4nk5tww3kdag27jr1gb8ifq90pe4oug" />
+<dependencies version="2" modelHash="-4nk5tww3kdag27jr1gb8ifq90pe4oug">
+  <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="-2sqpydigz7vryaerubh22j78l4l08jz" />
+  <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="-6r79zerd5g4mkqvktwfk7i2ydwbhtup" />
+  <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="8cdjk2e5d2y2u9lult1ptgxxrttxv07" />
+  <common hash="-13xxw9jq4055rpmrqy1vgabkxy9yyqn" dependsOnNodes="true">
+    <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
+  </common>
+  <source id="3987693689859618102" name="ListenerId" hash="2uf304e8v1ed43xfgc64nd6c6v6jfuw">
+    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
+    <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
+    <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
+    <file name="ListenerId.java" />
+  </source>
+  <source id="3987693689859618179" name="IListener" hash="3j9fjkj2tuqu75q4mt4589w8ohz0ts4">
+    <file name="IListener.java" />
+  </source>
+  <source id="3987693689859618187" name="Event" hash="8eqktxrqj2igqgq945tplwt6wlc8qp6">
+    <file name="Event.java" />
+  </source>
+  <source id="3987693689859618260" name="Events" hash="-5v85f60ix7b06ufisr5adkz2k4r95h8">
+    <file name="Events.java" />
+  </source>
+</dependencies>
 

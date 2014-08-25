@@ -25,7 +25,6 @@ public class Sequence_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createAlternation_6lwes5_a(editorContext, node);
   }
-
   private EditorCell createAlternation_6lwes5_a(EditorContext editorContext, SNode node) {
     boolean alternationCondition = true;
     alternationCondition = Sequence_Editor.renderingCondition_6lwes5_a0(node, editorContext);
@@ -41,11 +40,9 @@ public class Sequence_Editor extends DefaultNodeEditor {
     }
     return editorCell;
   }
-
   private static boolean renderingCondition_6lwes5_a0(SNode node, EditorContext editorContext) {
     return SPropertyOperations.getBoolean(SLinkOperations.getTarget(node, "typeExpressionList", true), "isVertical");
   }
-
   private EditorCell createCollection_6lwes5_a0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_6lwes5_a0");
@@ -53,7 +50,6 @@ public class Sequence_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createCollection_6lwes5_b0a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_6lwes5_a0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "sequence");
     editorCell.setCellId("Constant_6lwes5_a0a");
@@ -63,7 +59,6 @@ public class Sequence_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createCollection_6lwes5_b0a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_6lwes5_b0a");
@@ -74,7 +69,6 @@ public class Sequence_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createRefNode_6lwes5_b1a0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_6lwes5_a1a0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "  ");
     editorCell.setCellId("Constant_6lwes5_a1a0");
@@ -84,7 +78,6 @@ public class Sequence_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefNode_6lwes5_b1a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("typeExpressionList");
@@ -104,7 +97,6 @@ public class Sequence_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createCollection_6lwes5_a0_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_6lwes5_a0_0");
@@ -114,7 +106,6 @@ public class Sequence_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createConstant_6lwes5_d0a(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_6lwes5_a0a_0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "sequence");
     editorCell.setCellId("Constant_6lwes5_a0a_0");
@@ -124,14 +115,12 @@ public class Sequence_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createConstant_6lwes5_b0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
     editorCell.setCellId("Constant_6lwes5_b0a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefNode_6lwes5_c0a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("typeExpressionList");
@@ -151,7 +140,6 @@ public class Sequence_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createConstant_6lwes5_d0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
     editorCell.setCellId("Constant_6lwes5_d0a");

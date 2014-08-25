@@ -19,7 +19,6 @@ public class With_Test extends TestCase {
     Long firstOfFirstWeek = DateTimeOperations.with(DateTimeOperations.with(DateTimeOperations.with(n, DateTimeFieldType.yearOfEra(), 2007), DateTimeFieldType.weekOfWeekyear(), 1), DateTimeFieldType.dayOfWeek(), 1);
     Assert.assertEquals(firstOfJan, firstOfFirstWeek);
   }
-
   public void test_testInZone() throws Exception {
     DateTime dt = DateTimeOperations.convert(System.currentTimeMillis(), DateTimeZone.UTC);
     DateTime fixed = DateTimeOperations.with(DateTimeOperations.with(dt, DateTimeFieldType.monthOfYear(), 1), DateTimeFieldType.dayOfMonth(), 7);

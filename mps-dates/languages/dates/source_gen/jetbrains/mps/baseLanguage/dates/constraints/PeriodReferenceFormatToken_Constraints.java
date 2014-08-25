@@ -21,7 +21,6 @@ public class PeriodReferenceFormatToken_Constraints extends BaseConstraintsDescr
   public PeriodReferenceFormatToken_Constraints() {
     super("jetbrains.mps.baseLanguage.dates.structure.PeriodReferenceFormatToken");
   }
-
   @Override
   protected Map<String, ReferenceConstraintsDescriptor> getNotDefaultReferences() {
     Map<String, ReferenceConstraintsDescriptor> references = new HashMap();
@@ -30,7 +29,6 @@ public class PeriodReferenceFormatToken_Constraints extends BaseConstraintsDescr
       public boolean hasOwnScopeProvider() {
         return true;
       }
-
       @Nullable
       @Override
       public ReferenceScopeProvider getScopeProvider() {
@@ -39,17 +37,14 @@ public class PeriodReferenceFormatToken_Constraints extends BaseConstraintsDescr
           public boolean hasPresentation() {
             return true;
           }
-
           @Override
           public String getPresentation(final IOperationContext operationContext, final ReferencePresentationContext _context) {
             return (_context.getSmartReference() ? "<" + SPropertyOperations.getString(_context.getParameterNode(), "name") + ">" : SPropertyOperations.getString(_context.getParameterNode(), "name"));
           }
-
           @Override
           public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
             return DateFormatReferenceUtil.buildIPeriodFormatSearchScope(_context.getEnclosingNode());
           }
-
           @Override
           public SNodeReference getSearchScopeValidatorNode() {
             return breakingNode_jo2z1j_a0a3a0a0a1a0b0a1a1;
@@ -59,6 +54,5 @@ public class PeriodReferenceFormatToken_Constraints extends BaseConstraintsDescr
     });
     return references;
   }
-
   private static SNodePointer breakingNode_jo2z1j_a0a3a0a0a1a0b0a1a1 = new SNodePointer("r:00000000-0000-4000-0000-011c895903cf(jetbrains.mps.baseLanguage.dates.constraints)", "7249953535157218342");
 }

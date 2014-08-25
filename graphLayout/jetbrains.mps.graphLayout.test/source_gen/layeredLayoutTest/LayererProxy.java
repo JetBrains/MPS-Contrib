@@ -10,11 +10,9 @@ import junit.framework.Assert;
 
 public class LayererProxy implements ILayerer {
   private ILayerer myLayerer;
-
   public LayererProxy(ILayerer layerer) {
     myLayerer = layerer;
   }
-
   @Override
   public Map<Node, Integer> computeLayers(Graph graph) throws IllegalArgumentException {
     Map<Node, Integer> layers = myLayerer.computeLayers(graph);

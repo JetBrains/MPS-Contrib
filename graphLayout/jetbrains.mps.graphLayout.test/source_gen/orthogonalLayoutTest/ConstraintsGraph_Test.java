@@ -28,25 +28,20 @@ public class ConstraintsGraph_Test extends TestCase {
     Graph graph = GraphIO.scanGraph("4 4  0 1  1 2  2 3  3 0");
     test(graph);
   }
-
   public void test_test2() throws Exception {
     Graph graph = GraphIO.scanGraph("6 7  0 1  0 3  1 2  1 4  2 5  3 4  4 5");
     test(graph);
   }
-
   public void test_test3() throws Exception {
     Graph graph = GraphIO.scanGraph("10 15  \n0 3  \n0 9  \n1 4  \n2 5  \n2 6  \n3 8  \n3 5  \n4 2  \n4 5  \n5 1  \n5 7  \n6 5  \n7 4  \n9 8  \n9 1");
     test(graph);
   }
-
   public void test_testModification1() throws Exception {
     Graph graph = GraphIO.scanGraph("4 4  0 1  1 2  2 3  3 0");
     testModification(graph);
   }
-
   public ConstraintsGraph_Test() {
   }
-
   public void testModification(Graph graph) {
     EmbeddedGraph embeddedGraph = new ShortestPathEmbeddingFinder(new PQPlanarizationFinder()).find(graph);
     Map<Dart, Integer> bends = MapSequence.fromMap(new HashMap<Dart, Integer>());
@@ -65,7 +60,6 @@ public class ConstraintsGraph_Test extends TestCase {
     }
     processor.modifyEmbeddedGraph(nodes, nodeSizes);
   }
-
   public void test(Graph graph) {
     EmbeddedGraph embeddedGraph = new ShortestPathEmbeddingFinder(new PQPlanarizationFinder()).find(graph);
     Map<Dart, Integer> bends = MapSequence.fromMap(new HashMap<Dart, Integer>());

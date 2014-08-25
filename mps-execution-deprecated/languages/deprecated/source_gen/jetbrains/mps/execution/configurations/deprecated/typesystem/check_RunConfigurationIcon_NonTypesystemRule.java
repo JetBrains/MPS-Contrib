@@ -17,7 +17,6 @@ import jetbrains.mps.smodel.SModelUtil_new;
 public class check_RunConfigurationIcon_NonTypesystemRule extends AbstractNonTypesystemRule_Runtime implements NonTypesystemRule_Runtime {
   public check_RunConfigurationIcon_NonTypesystemRule() {
   }
-
   public void applyRule(final SNode runConfigurationDeclaration, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
     if ((SLinkOperations.getTarget(runConfigurationDeclaration, "iconBlock", true) == null) && ((SLinkOperations.getTarget(runConfigurationDeclaration, "configType", false) != null) && isEmptyString(SPropertyOperations.getString(SLinkOperations.getTarget(runConfigurationDeclaration, "configType", false), "iconPath")))) {
       {
@@ -26,22 +25,18 @@ public class check_RunConfigurationIcon_NonTypesystemRule extends AbstractNonTyp
       }
     }
   }
-
   public String getApplicableConceptFQName() {
     return "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigurationDeclaration";
   }
-
   public IsApplicableStatus isApplicableAndPattern(SNode argument) {
     {
       boolean b = SModelUtil_new.isAssignableConcept(argument.getConcept().getQualifiedName(), this.getApplicableConceptFQName());
       return new IsApplicableStatus(b, null);
     }
   }
-
   public boolean overrides() {
     return false;
   }
-
   private static boolean isEmptyString(String str) {
     return str == null || str.length() == 0;
   }

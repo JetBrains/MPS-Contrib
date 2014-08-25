@@ -6,37 +6,29 @@ package jetbrains.mps.gtext.runtime;
 public class TBuffer {
   private final StringBuilder myStringBuilder = new StringBuilder();
   private int myIndent;
-
   public TBuffer() {
   }
-
   /*package*/ StringBuilder getStringBuilder() {
     return myStringBuilder;
   }
-
   public String getText() {
     return myStringBuilder.toString();
   }
-
   /*package*/ int getCurrentPosition() {
     return myStringBuilder.length();
   }
-
   /*package*/ void increaseIndent() {
     myIndent++;
   }
-
   /*package*/ void decreaseIndent() {
     myIndent--;
   }
-
   public void appendIndent() {
     for (int i = 0; i < myIndent; i++) {
       append(' ');
       append(' ');
     }
   }
-
   public void append(final String text) {
     if (text != null && text.length() == 1) {
       myStringBuilder.append(text.charAt(0));
@@ -44,11 +36,9 @@ public class TBuffer {
       myStringBuilder.append(text);
     }
   }
-
   /*package*/ void append(final char c) {
     myStringBuilder.append(c);
   }
-
   public void appendNewLine() {
     append('\n');
   }

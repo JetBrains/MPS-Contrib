@@ -21,7 +21,6 @@ public class STPlanarGraph {
   private Node mySource;
   private Node myTarget;
   private EmbeddedGraph myEmbeddedGraph;
-
   public STPlanarGraph(EmbeddedGraph embeddedGraph, Node source, Node target) {
     myEmbeddedGraph = embeddedGraph;
     myOrigNode = MapSequence.fromMap(new HashMap<Face, Node>());
@@ -34,7 +33,6 @@ public class STPlanarGraph {
     myTarget = target;
     computeMaps();
   }
-
   public void computeMaps() {
     for (Face face : ListSequence.fromList(myEmbeddedGraph.getFaces())) {
       List<Dart> darts = face.getDarts();
@@ -75,7 +73,6 @@ public class STPlanarGraph {
     MapSequence.fromMap(myLeftFaceForNode).put(myTarget, outerFace);
     MapSequence.fromMap(myRightFaceForNode).put(myTarget, outerFace);
   }
-
   public Node getOrigNode(Object o) {
     if (o instanceof Node) {
       return ((Node) o);
@@ -85,7 +82,6 @@ public class STPlanarGraph {
     }
     return MapSequence.fromMap(myOrigNode).get(((Face) o));
   }
-
   public Node getDestNode(Object o) {
     if (o instanceof Node) {
       return ((Node) o);
@@ -95,7 +91,6 @@ public class STPlanarGraph {
     }
     return MapSequence.fromMap(myDestNode).get(((Face) o));
   }
-
   public Face getLeftFace(Object o) {
     if (o instanceof Node) {
       return MapSequence.fromMap(myLeftFaceForNode).get(((Node) o));
@@ -105,7 +100,6 @@ public class STPlanarGraph {
     }
     return ((Face) o);
   }
-
   public Face getRightFace(Object o) {
     if (o instanceof Node) {
       return MapSequence.fromMap(myRightFaceForNode).get(((Node) o));
@@ -115,15 +109,12 @@ public class STPlanarGraph {
     }
     return ((Face) o);
   }
-
   public Node getSource() {
     return this.mySource;
   }
-
   public Node getTarget() {
     return this.myTarget;
   }
-
   public DualGraph getModifiedDualGraph() {
     DualGraph dualGraph = new DualGraph(myEmbeddedGraph);
     for (Edge edge : ListSequence.fromList(dualGraph.getEdges())) {
@@ -145,11 +136,9 @@ public class STPlanarGraph {
     }
     return dualGraph;
   }
-
   public EmbeddedGraph getEmbeddedGraph() {
     return myEmbeddedGraph;
   }
-
   public Graph getGraph() {
     return myEmbeddedGraph.getGraph();
   }

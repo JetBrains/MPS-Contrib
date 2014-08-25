@@ -26,11 +26,9 @@ public class CheckBoxDemo extends JFrame {
   private Events myEvents = new Events(null) {
     {
     }
-
     public void initialize() {
     }
   };
-
   public CheckBoxDemo() {
     this.myThis = this;
     CheckBoxDemo component = this;
@@ -41,21 +39,17 @@ public class CheckBoxDemo extends JFrame {
     component.setVisible(true);
     this.myEvents.initialize();
   }
-
   public Events getEvents() {
     return this.myEvents;
   }
-
   public void addNotify() {
     super.addNotify();
     this.bind();
   }
-
   public void removeNotify() {
     this.unbind();
     super.removeNotify();
   }
-
   private void bind() {
     {
       Object sourceObject = myThis.myCheckbox_1g8rab_b0a;
@@ -67,7 +61,6 @@ public class CheckBoxDemo extends JFrame {
       ListSequence.fromList(this.myBindings).addElement(binding);
     }
   }
-
   private void unbind() {
     for (AutoBinding binding : this.myBindings) {
       if (binding.isBound()) {
@@ -75,7 +68,6 @@ public class CheckBoxDemo extends JFrame {
       }
     }
   }
-
   private VBoxPanel createComponent_1g8rab_a0() {
     VBoxPanel component = new VBoxPanel();
     this.myComponent_1g8rab_a0 = component;
@@ -83,13 +75,11 @@ public class CheckBoxDemo extends JFrame {
     component.add(this.createComponent_1g8rab_b0a());
     return component;
   }
-
   private JLabel createComponent_1g8rab_a0a() {
     JLabel component = new JLabel();
     this.myComponent_1g8rab_a0a = component;
     return component;
   }
-
   private JCheckBox createComponent_1g8rab_b0a() {
     JCheckBox component = new JCheckBox();
     this.myCheckbox_1g8rab_b0a = component;

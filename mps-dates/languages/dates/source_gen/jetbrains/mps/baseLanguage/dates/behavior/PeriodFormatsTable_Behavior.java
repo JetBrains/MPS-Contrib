@@ -9,7 +9,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 public class PeriodFormatsTable_Behavior {
   public static void init(SNode thisNode) {
   }
-
   public static String call_getGeneratedConstantName_48671598477850435(SNode thisNode) {
     return NameUtil.toConstantName(SPropertyOperations.getString(thisNode, "name"));
   }

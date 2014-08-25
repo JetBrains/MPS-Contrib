@@ -19,12 +19,10 @@ public class ConvertToDateTimeOperation_Constraints extends BaseConstraintsDescr
   public ConvertToDateTimeOperation_Constraints() {
     super("jetbrains.mps.baseLanguage.dates.structure.ConvertToDateTimeOperation");
   }
-
   @Override
   public boolean hasOwnCanBeChildMethod() {
     return true;
   }
-
   @Override
   public boolean canBeChild(@Nullable SNode node, SNode parentNode, SNode link, SNode childConcept, final IOperationContext operationContext, @Nullable final CheckingNodeContext checkingNodeContext) {
     boolean result = static_canBeAChild(node, parentNode, link, childConcept, operationContext);
@@ -35,7 +33,6 @@ public class ConvertToDateTimeOperation_Constraints extends BaseConstraintsDescr
 
     return result;
   }
-
   public static boolean static_canBeAChild(SNode node, SNode parentNode, SNode link, SNode childConcept, final IOperationContext operationContext) {
     boolean can = false;
     if (SNodeOperations.isInstanceOf(parentNode, "jetbrains.mps.baseLanguage.structure.DotExpression")) {
@@ -49,7 +46,6 @@ public class ConvertToDateTimeOperation_Constraints extends BaseConstraintsDescr
     }
     return can;
   }
-
   private static SNode _quotation_createNode_i6v6x6_b0a0b0b0a() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;
@@ -57,7 +53,6 @@ public class ConvertToDateTimeOperation_Constraints extends BaseConstraintsDescr
     quotedNode_1.setReference("classifier", SReference.create("classifier", quotedNode_1, facade.createModelReference("f:java_stub#2ebbb458-8ebb-481e-a5d7-9e27903323d4#org.joda.time.base(jetbrains.mps.baseLanguage.dates.runtime/org.joda.time.base@java_stub)"), facade.createNodeId("~AbstractInstant")));
     return quotedNode_1;
   }
-
   private static SNode _quotation_createNode_i6v6x6_b0a0a2a1a0() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;
@@ -65,7 +60,6 @@ public class ConvertToDateTimeOperation_Constraints extends BaseConstraintsDescr
     quotedNode_1.setReference("classifier", SReference.create("classifier", quotedNode_1, facade.createModelReference("f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)"), facade.createNodeId("~Date")));
     return quotedNode_1;
   }
-
   private static SNode _quotation_createNode_i6v6x6_b0a0a3a1a0() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;
@@ -73,27 +67,23 @@ public class ConvertToDateTimeOperation_Constraints extends BaseConstraintsDescr
     quotedNode_1.setReference("classifier", SReference.create("classifier", quotedNode_1, facade.createModelReference("f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)"), facade.createNodeId("~Calendar")));
     return quotedNode_1;
   }
-
   private static SNode _quotation_createNode_i6v6x6_b0a0a4a1a0() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;
     quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", null, null, false);
     return quotedNode_1;
   }
-
   private static SNode _quotation_createNode_i6v6x6_b0a0a5a1a0() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;
     quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DurationType", null, null, false);
     return quotedNode_1;
   }
-
   private static SNode _quotation_createNode_i6v6x6_b0a0a6a1a0() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;
     quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", null, null, false);
     return quotedNode_1;
   }
-
   private static SNodePointer canBeChildBreakingPoint = new SNodePointer("r:00000000-0000-4000-0000-011c895903cf(jetbrains.mps.baseLanguage.dates.constraints)", "1213107437401");
 }

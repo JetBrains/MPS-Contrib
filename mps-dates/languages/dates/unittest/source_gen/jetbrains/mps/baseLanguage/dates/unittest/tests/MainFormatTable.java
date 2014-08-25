@@ -12,10 +12,8 @@ import org.joda.time.DurationFieldType;
 
 public class MainFormatTable extends BaseFormatTable {
   public static MainFormatTable INSTANCE = new MainFormatTable();
-
   public MainFormatTable() {
   }
-
   public DateTimeFormatter createFormatter(String formatterName) {
     if ("usDayOfWeek".equals(formatterName)) {
       DateTimeFormatterBuilder builder = new DateTimeFormatterBuilder();

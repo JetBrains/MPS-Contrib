@@ -10,11 +10,9 @@ import junit.framework.Assert;
 
 public class EdgeReverterProxy implements IEdgeReverter {
   private IEdgeReverter myReverter;
-
   public EdgeReverterProxy(IEdgeReverter reverter) {
     myReverter = reverter;
   }
-
   @Override
   public Set<Edge> revertEdges(Graph g) {
     Set<Edge> reverted = myReverter.revertEdges(g);

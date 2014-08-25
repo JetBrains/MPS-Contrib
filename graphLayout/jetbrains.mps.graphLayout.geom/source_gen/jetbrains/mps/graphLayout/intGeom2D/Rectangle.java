@@ -8,21 +8,18 @@ public class Rectangle {
   public int y;
   public int width;
   public int height;
-
   public Rectangle(int x, int y, int width, int height) {
     this.x = x;
     this.y = y;
     this.width = width;
     this.height = height;
   }
-
   public Rectangle(Rectangle rect) {
     x = rect.x;
     y = rect.y;
     width = rect.width;
     height = rect.height;
   }
-
   public boolean intersectsSegment(Point p1, Point p2) {
     if (contains(p1) || contains(p2)) {
       return true;
@@ -38,17 +35,14 @@ public class Rectangle {
     }
     return intersects;
   }
-
   public void translate(int shiftX, int shiftY) {
     x += shiftX;
     y += shiftY;
   }
-
   public void setLocation(int newX, int newY) {
     x = newX;
     y = newY;
   }
-
   public Point[] getCornerPoints() {
     Point[] points = new Point[4];
     points[0] = new Point(x, y);
@@ -57,23 +51,18 @@ public class Rectangle {
     points[3] = new Point(maxX(), y);
     return points;
   }
-
   public boolean contains(Point p) {
     return p.x >= x && p.x <= maxX() && p.y >= y && p.y <= maxY();
   }
-
   public boolean intersects(Rectangle rect) {
     return GeomUtil.intersects(x, maxX(), rect.x, rect.maxX()) && GeomUtil.intersects(y, maxY(), rect.y, rect.maxY());
   }
-
   public int maxX() {
     return x + width;
   }
-
   public int maxY() {
     return y + height;
   }
-
   public int size(Direction2D dir) {
     if (dir.isHorizontal()) {
       return width;
@@ -81,7 +70,6 @@ public class Rectangle {
       return height;
     }
   }
-
   @Override
   public String toString() {
     return "[min: " + new Point(x, y) + " max: " + new Point(maxX(), maxY()) + "]";

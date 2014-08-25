@@ -16,13 +16,11 @@ public class NodeLayeredOrder {
   private List<List<Node>> myLayeredOrder;
   private Map<Node, Integer> myPosInLayer;
   private Graph myGraph;
-
   public NodeLayeredOrder(Graph graph) {
     myGraph = graph;
     myLayeredOrder = ListSequence.fromList(new ArrayList<List<Node>>());
     myPosInLayer = new NodeMap<Integer>(graph);
   }
-
   public void addLast(Node node, int layer) {
     if (ListSequence.fromList(myLayeredOrder).count() <= layer) {
       for (int i = ListSequence.fromList(myLayeredOrder).count(); i <= layer; i++) {
@@ -32,35 +30,28 @@ public class NodeLayeredOrder {
     MapSequence.fromMap(myPosInLayer).put(node, ListSequence.fromList(ListSequence.fromList(myLayeredOrder).getElement(layer)).count());
     ListSequence.fromList(ListSequence.fromList(myLayeredOrder).getElement(layer)).addElement(node);
   }
-
   public void setLayer(List<Node> nodes, int layer) {
     ListSequence.fromList(myLayeredOrder).setElement(layer, nodes);
     for (int i = 0; i < ListSequence.fromList(nodes).count(); i++) {
       MapSequence.fromMap(myPosInLayer).put(ListSequence.fromList(nodes).getElement(i), i);
     }
   }
-
   public void set(int layer, Node node, int pos) {
     ListSequence.fromList(ListSequence.fromList(myLayeredOrder).getElement(layer)).setElement(pos, node);
     MapSequence.fromMap(myPosInLayer).put(node, pos);
   }
-
   public Map<Node, Integer> getPosInLayer() {
     return myPosInLayer;
   }
-
   public List<Node> getOrder(int layer) {
     return ListSequence.fromList(myLayeredOrder).getElement(layer);
   }
-
   public int getNumLayers() {
     return ListSequence.fromList(myLayeredOrder).count();
   }
-
   public Graph getGraph() {
     return this.myGraph;
   }
-
   @Override
   public String toString() {
     StringBuilder builder = new StringBuilder();
@@ -74,11 +65,9 @@ public class NodeLayeredOrder {
     builder.append("end order");
     return builder.toString();
   }
-
   public Iterator<List<Node>> getTopToBottomIterator() {
     return ListSequence.fromList(myLayeredOrder).iterator();
   }
-
   public Iterator<List<Node>> getBottomToTopIterator() {
     return ListSequence.fromList(myLayeredOrder).reversedList().iterator();
   }

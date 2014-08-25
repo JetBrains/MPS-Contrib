@@ -7,10 +7,8 @@ import javax.swing.ButtonGroup;
 
 public class JbRadioButton extends JRadioButton {
   private ButtonGroup myGroup;
-
   public JbRadioButton() {
   }
-
   public void setGroup(ButtonGroup group) {
     if (this.myGroup != null) {
       this.myGroup.remove(this);
@@ -20,7 +18,6 @@ public class JbRadioButton extends JRadioButton {
       this.myGroup.add(this);
     }
   }
-
   public ButtonGroup getGroup() {
     return this.myGroup;
   }

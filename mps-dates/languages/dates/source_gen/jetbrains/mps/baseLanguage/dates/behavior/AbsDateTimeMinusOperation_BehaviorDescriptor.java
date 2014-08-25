@@ -7,7 +7,6 @@ import jetbrains.mps.lang.core.behavior.IDontSubstituteByDefault_BehaviorDescrip
 public class AbsDateTimeMinusOperation_BehaviorDescriptor extends DateTimeMinusOperation_BehaviorDescriptor implements IDontSubstituteByDefault_BehaviorDescriptor {
   public AbsDateTimeMinusOperation_BehaviorDescriptor() {
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.baseLanguage.dates.structure.AbsDateTimeMinusOperation";

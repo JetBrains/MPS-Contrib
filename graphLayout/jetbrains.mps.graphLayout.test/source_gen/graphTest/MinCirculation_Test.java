@@ -43,7 +43,6 @@ public class MinCirculation_Test extends TestCase {
       Assert.assertTrue((Integer) MapSequence.fromMap(circulation).get(edge) == 1);
     }
   }
-
   public void test_test2() throws Exception {
     String graphString = "4 4  0 1  1 2  2 3  3 0";
     Graph graph = GraphIO.scanGraph(new Scanner(graphString));
@@ -68,10 +67,8 @@ public class MinCirculation_Test extends TestCase {
       Assert.assertTrue((Integer) MapSequence.fromMap(circulation).get(edge) == 2);
     }
   }
-
   public MinCirculation_Test() {
   }
-
   private Map<Edge, Integer> test(Graph graph, Map<Edge, Integer> low, Map<Edge, Integer> capacity, Map<Edge, Integer> cost) {
     int numNodes = graph.getNumNodes();
     int numEdges = ListSequence.fromList(graph.getEdges()).count();
@@ -81,14 +78,12 @@ public class MinCirculation_Test extends TestCase {
     Assert.assertTrue(numEdges == ListSequence.fromList(graph.getEdges()).count());
     return circulation;
   }
-
   private void setEdgesMap(Map<Edge, Integer> edgesMap, Node source, List<Integer> values) {
     List<Edge> edges = source.getOutEdges();
     for (int i = 0; i < ListSequence.fromList(edges).count(); i++) {
       MapSequence.fromMap(edgesMap).put(ListSequence.fromList(edges).getElement(i), ListSequence.fromList(values).getElement(i));
     }
   }
-
   private int getFlowCost(Map<Edge, Integer> flow, Map<Edge, Integer> cost) {
     int flowCost = 0;
     for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(flow).keySet())) {

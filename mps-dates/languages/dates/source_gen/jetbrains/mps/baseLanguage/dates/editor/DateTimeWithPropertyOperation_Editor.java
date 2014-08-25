@@ -23,7 +23,6 @@ public class DateTimeWithPropertyOperation_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_ky1sct_a(editorContext, node);
   }
-
   private EditorCell createCollection_ky1sct_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_ky1sct_a");
@@ -37,7 +36,6 @@ public class DateTimeWithPropertyOperation_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createConstant_ky1sct_g0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createRefNode_ky1sct_a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("datetime");
@@ -57,7 +55,6 @@ public class DateTimeWithPropertyOperation_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createConstant_ky1sct_b0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "with");
     editorCell.setCellId("Constant_ky1sct_b0");
@@ -67,7 +64,6 @@ public class DateTimeWithPropertyOperation_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createConstant_ky1sct_c0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
     editorCell.setCellId("Constant_ky1sct_c0");
@@ -77,7 +73,6 @@ public class DateTimeWithPropertyOperation_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefCell_ky1sct_d0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("dateTimeProperty");
@@ -99,20 +94,16 @@ public class DateTimeWithPropertyOperation_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   public static class _Inline_ky1sct_a3a extends InlineCellProvider {
     public _Inline_ky1sct_a3a() {
       super();
     }
-
     public EditorCell createEditorCell(EditorContext editorContext) {
       return this.createEditorCell(editorContext, this.getSNode());
     }
-
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
       return this.createProperty_ky1sct_a0d0(editorContext, node);
     }
-
     private EditorCell createProperty_ky1sct_a0d0(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("name");
@@ -135,7 +126,6 @@ public class DateTimeWithPropertyOperation_Editor extends DefaultNodeEditor {
       return editorCell;
     }
   }
-
   private EditorCell createConstant_ky1sct_e0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "=");
     editorCell.setCellId("Constant_ky1sct_e0");
@@ -145,7 +135,6 @@ public class DateTimeWithPropertyOperation_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefNode_ky1sct_f0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("expression");
@@ -165,7 +154,6 @@ public class DateTimeWithPropertyOperation_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
   private EditorCell createConstant_ky1sct_g0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
     editorCell.setCellId("Constant_ky1sct_g0");

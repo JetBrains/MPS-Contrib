@@ -11,11 +11,9 @@ import jetbrains.mps.smodel.SReference;
 public class StandardDialog_Behavior {
   public static void init(SNode thisNode) {
   }
-
   public static SNode virtual_getExtendedComponent_1213877498080(SNode thisNode) {
     return SLinkOperations.getTarget(_quotation_createNode_isnud2_a0a0a(), "componentDeclaration", false);
   }
-
   private static SNode _quotation_createNode_isnud2_a0a0a() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;

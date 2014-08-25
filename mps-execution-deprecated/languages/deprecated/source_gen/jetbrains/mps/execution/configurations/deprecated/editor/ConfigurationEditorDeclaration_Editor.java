@@ -12,7 +12,6 @@ public class ConfigurationEditorDeclaration_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createComponent_mr6qai_a(editorContext, node);
   }
-
   private EditorCell createComponent_mr6qai_a(EditorContext editorContext, SNode node) {
     EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.execution.configurations.deprecated.editor.ConfigurationEditorDeclaration_BasicEditor");
     EditorCell bigCell = BigCellUtil.findBigCell(editorCell, node);

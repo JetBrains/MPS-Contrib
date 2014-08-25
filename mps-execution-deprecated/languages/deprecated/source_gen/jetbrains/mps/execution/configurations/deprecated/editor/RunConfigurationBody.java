@@ -37,11 +37,9 @@ public class RunConfigurationBody implements ConceptEditorComponent {
   public Collection<String> getContextHints() {
     return Collections.emptyList();
   }
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_mrxxs6_a(editorContext, node);
   }
-
   private EditorCell createCollection_mrxxs6_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_mrxxs6_a");
@@ -62,7 +60,6 @@ public class RunConfigurationBody implements ConceptEditorComponent {
     editorCell.addEditorCell(this.createRefNode_mrxxs6_m0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createRefNodeList_mrxxs6_a0(EditorContext editorContext, SNode node) {
     AbstractCellListHandler handler = new RunConfigurationBody.propertyListHandler_mrxxs6_a0(node, "property", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Vertical(), false);
@@ -70,30 +67,25 @@ public class RunConfigurationBody implements ConceptEditorComponent {
     editorCell.setRole(handler.getElementRole());
     return editorCell;
   }
-
   private static class propertyListHandler_mrxxs6_a0 extends RefNodeListHandler {
     public propertyListHandler_mrxxs6_a0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
-
     public SNode createNodeToInsert(EditorContext editorContext) {
       SNode listOwner = super.getOwner();
       return NodeFactoryManager.createNode(listOwner, editorContext, super.getElementRole());
     }
-
     public EditorCell createNodeCell(EditorContext editorContext, SNode elementNode) {
       EditorCell elementCell = super.createNodeCell(editorContext, elementNode);
       this.installElementCellActions(this.getOwner(), elementNode, elementCell, editorContext);
       return elementCell;
     }
-
     public EditorCell createEmptyCell(EditorContext editorContext) {
       EditorCell emptyCell = null;
       emptyCell = super.createEmptyCell(editorContext);
       this.installElementCellActions(super.getOwner(), null, emptyCell, editorContext);
       return emptyCell;
     }
-
     public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext editorContext) {
       if (elementCell.getUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET) == null) {
         elementCell.putUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET, AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET);
@@ -107,7 +99,6 @@ public class RunConfigurationBody implements ConceptEditorComponent {
       }
     }
   }
-
   private EditorCell createConstant_mrxxs6_b0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_mrxxs6_b0");
@@ -117,7 +108,6 @@ public class RunConfigurationBody implements ConceptEditorComponent {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createCollection_mrxxs6_c0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_mrxxs6_c0");
@@ -133,14 +123,12 @@ public class RunConfigurationBody implements ConceptEditorComponent {
     }
     return editorCell;
   }
-
   private EditorCell createConstant_mrxxs6_a2a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "editor");
     editorCell.setCellId("Constant_mrxxs6_a2a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefNode_mrxxs6_b2a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("editor");
@@ -160,11 +148,9 @@ public class RunConfigurationBody implements ConceptEditorComponent {
     } else
     return editorCell;
   }
-
   private static boolean renderingCondition_mrxxs6_a1c0(SNode node, EditorContext editorContext) {
     return BehaviorReflection.invokeVirtualStatic(Boolean.TYPE, SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SNodeOperations.getConceptDeclaration(node))), "virtual_requiresCustomEditor_1262430001741498265", new Object[]{});
   }
-
   private EditorCell createRefNode_mrxxs6_c2a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("editor");
@@ -184,11 +170,9 @@ public class RunConfigurationBody implements ConceptEditorComponent {
     } else
     return editorCell;
   }
-
   private static boolean renderingCondition_mrxxs6_a2c0(SNode node, EditorContext editorContext) {
     return !(BehaviorReflection.invokeVirtualStatic(Boolean.TYPE, SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SNodeOperations.getConceptDeclaration(node))), "virtual_requiresCustomEditor_1262430001741498265", new Object[]{}));
   }
-
   private EditorCell createConstant_mrxxs6_d0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_mrxxs6_d0");
@@ -198,7 +182,6 @@ public class RunConfigurationBody implements ConceptEditorComponent {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefNode_mrxxs6_e0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("iconBlock");
@@ -218,7 +201,6 @@ public class RunConfigurationBody implements ConceptEditorComponent {
     } else
     return editorCell;
   }
-
   private EditorCell createConstant_mrxxs6_f0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_mrxxs6_f0");
@@ -228,7 +210,6 @@ public class RunConfigurationBody implements ConceptEditorComponent {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefNode_mrxxs6_g0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("checkBlock");
@@ -248,7 +229,6 @@ public class RunConfigurationBody implements ConceptEditorComponent {
     } else
     return editorCell;
   }
-
   private EditorCell createConstant_mrxxs6_h0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_mrxxs6_h0");
@@ -258,7 +238,6 @@ public class RunConfigurationBody implements ConceptEditorComponent {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createCollection_mrxxs6_i0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_mrxxs6_i0");
@@ -269,18 +248,15 @@ public class RunConfigurationBody implements ConceptEditorComponent {
     editorCell.addEditorCell(this.createCollection_mrxxs6_b8a(editorContext, node));
     return editorCell;
   }
-
   private static boolean renderingCondition_mrxxs6_a8a(SNode node, EditorContext editorContext) {
     return ListSequence.fromList(SLinkOperations.getTargets(node, "executionParameter", true)).isNotEmpty();
   }
-
   private EditorCell createConstant_mrxxs6_a8a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "execution parameters (deprecated):");
     editorCell.setCellId("Constant_mrxxs6_a8a");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createCollection_mrxxs6_b8a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_mrxxs6_b8a");
@@ -291,12 +267,10 @@ public class RunConfigurationBody implements ConceptEditorComponent {
     editorCell.addEditorCell(this.createRefNodeList_mrxxs6_b1i0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createIndentCell_mrxxs6_a1i0(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
     return editorCell;
   }
-
   private EditorCell createRefNodeList_mrxxs6_b1i0(EditorContext editorContext, SNode node) {
     AbstractCellListHandler handler = new RunConfigurationBody.executionParameterListHandler_mrxxs6_b1i0(node, "executionParameter", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Vertical(), false);
@@ -304,30 +278,25 @@ public class RunConfigurationBody implements ConceptEditorComponent {
     editorCell.setRole(handler.getElementRole());
     return editorCell;
   }
-
   private static class executionParameterListHandler_mrxxs6_b1i0 extends RefNodeListHandler {
     public executionParameterListHandler_mrxxs6_b1i0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
-
     public SNode createNodeToInsert(EditorContext editorContext) {
       SNode listOwner = super.getOwner();
       return NodeFactoryManager.createNode(listOwner, editorContext, super.getElementRole());
     }
-
     public EditorCell createNodeCell(EditorContext editorContext, SNode elementNode) {
       EditorCell elementCell = super.createNodeCell(editorContext, elementNode);
       this.installElementCellActions(this.getOwner(), elementNode, elementCell, editorContext);
       return elementCell;
     }
-
     public EditorCell createEmptyCell(EditorContext editorContext) {
       EditorCell emptyCell = null;
       emptyCell = super.createEmptyCell(editorContext);
       this.installElementCellActions(super.getOwner(), null, emptyCell, editorContext);
       return emptyCell;
     }
-
     public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext editorContext) {
       if (elementCell.getUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET) == null) {
         elementCell.putUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET, AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET);
@@ -341,14 +310,12 @@ public class RunConfigurationBody implements ConceptEditorComponent {
       }
     }
   }
-
   private EditorCell createConstant_mrxxs6_j0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_mrxxs6_j0");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefNode_mrxxs6_k0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("executeBlock");
@@ -368,7 +335,6 @@ public class RunConfigurationBody implements ConceptEditorComponent {
     } else
     return editorCell;
   }
-
   private EditorCell createConstant_mrxxs6_l0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_mrxxs6_l0");
@@ -378,7 +344,6 @@ public class RunConfigurationBody implements ConceptEditorComponent {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createRefNode_mrxxs6_m0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("makeBlock");

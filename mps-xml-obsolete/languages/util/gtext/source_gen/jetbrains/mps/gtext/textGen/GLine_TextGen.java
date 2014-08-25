@@ -39,6 +39,5 @@ public class GLine_TextGen extends SNodeTextGen {
       }
     }
   }
-
   protected static Logger LOG = LogManager.getLogger(GLine_TextGen.class);
 }

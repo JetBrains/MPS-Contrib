@@ -7,15 +7,12 @@ import org.jetbrains.mps.openapi.model.SNode;
 public class SimpleContent_BehaviorDescriptor extends TypeExpression_BehaviorDescriptor {
   public SimpleContent_BehaviorDescriptor() {
   }
-
   public boolean virtual_hasElementReferences_1213877382383(SNode thisNode) {
     return SimpleContent_Behavior.virtual_hasElementReferences_1213877382383(thisNode);
   }
-
   public boolean virtual_isMixed_1213877382388(SNode thisNode) {
     return SimpleContent_Behavior.virtual_isMixed_1213877382388(thisNode);
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.xmlSchema.structure.SimpleContent";

@@ -15,20 +15,16 @@ public class BlockGraphProcessor_Test extends TestCase {
     String graphString = "5 4  0 1  1 2  3 2  3 4";
     test(graphString);
   }
-
   public void test_test2() throws Exception {
     String graphString = "7 8  0 1  0 2  1 2  2 3  4 2  4 5   5 6  6 3";
     test(graphString);
   }
-
   public void test_test3() throws Exception {
     String graphString = "8 10  0 1  0 2  1 2  2 3  4 2  4 5   5 6  6 3  6 7  7 3";
     test(graphString);
   }
-
   public BlockGraphProcessor_Test() {
   }
-
   public void test(String graphString) {
     Graph blockGraph = GraphIO.scanGraph(new Scanner(graphString));
     Map<Node, Integer> layers = new BlockGraphProcessor().process(blockGraph);

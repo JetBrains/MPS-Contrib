@@ -28,20 +28,17 @@ public class ClassInfo<T> {
   private ClassReader myReader;
   private final String myShortName;
   private String myTag;
-
   public ClassInfo(Class<? extends T> clazz) {
     this.myClass = clazz;
     this.myShortName = Scanner.getShortClassName(this.myClass);
     ClassInfo.this.extract();
   }
-
   public ClassInfo(Class<? extends T> clazz, ClassReader reader) {
     this.myClass = clazz;
     this.myReader = reader;
     this.myShortName = Scanner.getShortClassName(this.myClass);
     ClassInfo.this.extract();
   }
-
   private void extract() {
     if (!(ClassInfo.this.isInterface())) {
       ClassInfo.this.extractCanHaveInternalText();
@@ -50,14 +47,12 @@ public class ClassInfo<T> {
       ClassInfo.this.extractOther();
     }
   }
-
   private void extractOther() {
     if (this.myReader != null) {
       this.myReader.accept(new ClassInfo.SimpleClassVisitor(), new Attribute[0], 0);
 
     }
   }
-
   private void extractAttributes() {
     Method[] methods = this.myClass.getDeclaredMethods();
     for (Method m : methods) {
@@ -69,7 +64,6 @@ public class ClassInfo<T> {
       }
     }
   }
-
   private void extractNesteds() {
     Map<Class<?>, List<String>> set = new LinkedHashMap<Class<?>, List<String>>();
     Method[] methods = this.myClass.getMethods();
@@ -108,7 +102,6 @@ public class ClassInfo<T> {
       }
     }
   }
-
   private void putName(Class<?> type, String name) {
     ClassInfo.Nested nested;
     if (this.myNesteds.containsKey(type)) {
@@ -119,7 +112,6 @@ public class ClassInfo<T> {
     }
     nested.addName(name);
   }
-
   private void extractCanHaveInternalText() {
     try {
       Method addText = this.myClass.getMethod("addText", String.class);
@@ -129,47 +121,36 @@ public class ClassInfo<T> {
     } catch (NoSuchMethodException e) {
     }
   }
-
   public boolean isInterface() {
     return this.myClass.isInterface();
   }
-
   public boolean isAbstract() {
     return Modifier.isAbstract(this.myClass.getModifiers());
   }
-
   public boolean isDeprecated() {
     return this.isDeprecated;
   }
-
   public boolean canHaveInternalText() {
     return this.canHaveInternalText;
   }
-
   public Class<?> getParentClass() {
     return this.myClass.getSuperclass();
   }
-
   public Class<?>[] getInterfaces() {
     return this.myClass.getInterfaces();
   }
-
   public Set<ClassInfo.MyAttribute> getAttributes() {
     return Collections.unmodifiableSet(this.myAttributes);
   }
-
   public Collection<ClassInfo.Nested> getNesteds() {
     return this.myNesteds.values();
   }
-
   public Class<?> getDeclarationClass() {
     return this.myClass;
   }
-
   public String getShortName() {
     return this.myShortName;
   }
-
   @Override
   public String toString() {
     StringBuffer sb = new StringBuffer();
@@ -204,29 +185,23 @@ public class ClassInfo<T> {
     }
     return sb.toString();
   }
-
   public String getTag() {
     return this.myTag;
   }
-
   public static class MyAttribute {
     private final String myName;
     private Class<?> myType;
     private boolean isDeprecated;
     private String[] myEnumValues;
-
     public MyAttribute(String name) {
       this.myName = name;
     }
-
     public String getName() {
       return this.myName;
     }
-
     public Class<?> getType() {
       return this.myType;
     }
-
     private void setType(Class<?> type) {
       this.myType = type;
       if (ClassInfo.MyAttribute.isEnum(type)) {
@@ -247,19 +222,15 @@ public class ClassInfo<T> {
         }
       }
     }
-
     public boolean isDeprecated() {
       return this.isDeprecated;
     }
-
     private void setDeprecated(boolean deprecated) {
       this.isDeprecated = deprecated;
     }
-
     public String[] getEnumValues() {
       return this.myEnumValues;
     }
-
     @Override
     public boolean equals(Object o) {
       if (this == o) {
@@ -274,12 +245,10 @@ public class ClassInfo<T> {
       }
       return true;
     }
-
     @Override
     public int hashCode() {
       return ((this.myName != null ? this.myName.hashCode() : 0));
     }
-
     @Override
     public String toString() {
       StringBuffer sb = new StringBuffer();
@@ -299,7 +268,6 @@ public class ClassInfo<T> {
       }
       return sb.toString();
     }
-
     private static boolean isEnum(Class<?> type) {
       try {
         ClassLoader loader = type.getClassLoader();
@@ -314,33 +282,26 @@ public class ClassInfo<T> {
       return false;
     }
   }
-
   public static class Nested {
     private final Class<?> myClass;
     private final Set<String> myNames = new LinkedHashSet<String>();
     private final String myShortName;
-
     public Nested(Class<?> clazz) {
       this.myClass = clazz;
       this.myShortName = Scanner.getShortClassName(clazz);
     }
-
     public Class<?> getNestedClass() {
       return this.myClass;
     }
-
     public Set<String> getNames() {
       return Collections.unmodifiableSet(this.myNames);
     }
-
     public String getShortName() {
       return this.myShortName;
     }
-
     private void addName(String name) {
       this.myNames.add(name);
     }
-
     @Override
     public String toString() {
       StringBuffer sb = new StringBuffer();
@@ -354,18 +315,15 @@ public class ClassInfo<T> {
       return sb.toString();
     }
   }
-
   private class SimpleClassVisitor extends EmptyClassVisitor {
     private SimpleClassVisitor() {
     }
-
     @Override
     public void visit(int version, int access, String name, String signature, String superName, String[] interfaces) {
       if (isDeprecated(access)) {
         ClassInfo.this.isDeprecated = true;
       }
     }
-
     @Override
     public MethodVisitor visitMethod(int access, String name, String desc, String signature, String[] exceptions) {
       if (isDeprecated(access)) {
@@ -379,7 +337,6 @@ public class ClassInfo<T> {
       }
       return super.visitMethod(access, name, desc, signature, exceptions);
     }
-
     private boolean isDeprecated(int access) {
       return (access & Opcodes.ACC_DEPRECATED) != 0;
     }

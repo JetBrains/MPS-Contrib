@@ -17,10 +17,8 @@ public class TBaseBuilderContext {
   protected Stack<TContent> myContentsStack;
   protected TBuffer myBuffer;
   protected List<TBaseBuilderContextListener> myListeners;
-
   public TBaseBuilderContext() {
   }
-
   public void initBuffer(TBuffer buffer) {
     myContents = null;
     myContentsStack = null;
@@ -30,11 +28,9 @@ public class TBaseBuilderContext {
     getContentsStack().push(getContents().get(ROOT));
     myBuffer = buffer;
   }
-
   public void initBuffer() {
     initBuffer(new TBuffer());
   }
-
   public String getText() {
     if (getContentsStack().size() != 1) {
       throw new IllegalStateException("Can't get text, because there is open content block [" + getContentsStack().peek().getName() + "]");
@@ -65,56 +61,45 @@ public class TBaseBuilderContext {
     }
     return myBuffer.getText();
   }
-
   public void append(String text) {
     myBuffer.append(text);
   }
-
   public void appendIndent() {
     myBuffer.appendIndent();
   }
-
   public void appendNewLine() {
     myBuffer.appendNewLine();
   }
-
   public void increaseIndent() {
     myBuffer.increaseIndent();
   }
-
   public void decreaseIndent() {
     myBuffer.decreaseIndent();
   }
-
   protected Map<String, TContent> getContents() {
     if (myContents == null) {
       myContents = new TreeMap<String, TContent>();
     }
     return myContents;
   }
-
   protected Stack<TContent> getContentsStack() {
     if (myContentsStack == null) {
       myContentsStack = new Stack<TContent>();
     }
     return myContentsStack;
   }
-
   protected int getCurrentPosition() {
     return getContents().get(ROOT).getBuf().getCurrentPosition();
   }
-
   public void addContentPlaceholder(String name) {
     TContent c = getContentBlock(name);
     c.setPosition(getCurrentPosition());
   }
-
   public void startContentBlock(String name) {
     TContent c = getContentBlock(name);
     getContentsStack().push(c);
     myBuffer = c.getBuf();
   }
-
   private TContent getContentBlock(String name) {
     TContent content = getContents().get(name);
     if (content == null) {
@@ -123,31 +108,25 @@ public class TBaseBuilderContext {
     }
     return content;
   }
-
   public void endContentBlock() {
     getContentsStack().pop();
     myBuffer = getContentsStack().peek().getBuf();
   }
-
   public TContent getCurrentContent() {
     return getContentsStack().peek();
   }
-
   private List<TBaseBuilderContextListener> getListeners() {
     if (myListeners == null) {
       myListeners = new ArrayList<TBaseBuilderContextListener>();
     }
     return myListeners;
   }
-
   public void addListener(TBaseBuilderContextListener l) {
     getListeners().add(l);
   }
-
   public void removeListener(TBaseBuilderContextListener l) {
     getListeners().remove(l);
   }
-
   protected void notify(TBaseBuilderContext.ListenerVisitor v) {
     if (myListeners == null) {
       return;
@@ -156,7 +135,6 @@ public class TBaseBuilderContext {
       v.visit(l);
     }
   }
-
   protected static interface ListenerVisitor {
     public void visit(TBaseBuilderContextListener l);
   }

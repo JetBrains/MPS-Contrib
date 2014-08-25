@@ -10,11 +10,9 @@ import org.jetbrains.mps.openapi.language.SConcept;
 public class DateTimeCompareOperation_BehaviorDescriptor extends Expression_BehaviorDescriptor {
   public DateTimeCompareOperation_BehaviorDescriptor() {
   }
-
   public List<SNode> virtual_getDefaultDatetimeProperty_3044950653914717067(SConcept thisConcept) {
     return DateTimeCompareOperation_Behavior.virtual_getDefaultDatetimeProperty_3044950653914717067(thisConcept);
   }
-
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.baseLanguage.dates.structure.DateTimeCompareOperation";
