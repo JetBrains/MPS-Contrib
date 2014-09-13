@@ -33,13 +33,13 @@
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="java.util.Map" />
     <classNode dependClassName="java.util.Set" />
+    <classNode dependClassName="jetbrains.mps.build.generictasks.taskfromjar.EmptyClassVisitor" />
     <classNode dependClassName="jetbrains.mps.build.generictasks.taskfromjar.Scanner" />
     <classNode dependClassName="org.apache.tools.ant.types.EnumeratedAttribute" />
     <classNode dependClassName="org.jetbrains.asm4.Attribute" />
     <classNode dependClassName="org.jetbrains.asm4.ClassReader" />
     <classNode dependClassName="org.jetbrains.asm4.MethodVisitor" />
     <classNode dependClassName="org.jetbrains.asm4.Opcodes" />
-    <classNode extendsClassName="jetbrains.mps.build.generictasks.taskfromjar.EmptyClassVisitor" />
   </dependency>
   <dependency className="jetbrains.mps.build.generictasks.taskfromjar.EmptyClassVisitor" file="EmptyClassVisitor.java">
     <classNode dependClassName="java.lang.Object" />
@@ -69,6 +69,7 @@
     <classNode dependClassName="jetbrains.mps.build.generictasks.behavior.AttributeDeclaration_Behavior" />
     <classNode dependClassName="jetbrains.mps.build.generictasks.taskfromjar.BuildLanguageGenerator" />
     <classNode dependClassName="jetbrains.mps.build.generictasks.taskfromjar.ClassInfo" />
+    <classNode dependClassName="jetbrains.mps.build.generictasks.taskfromjar.IBuilder" />
     <classNode dependClassName="jetbrains.mps.build.generictasks.taskfromjar.ImportOptions" />
     <classNode dependClassName="jetbrains.mps.build.generictasks.taskfromjar.Importer" />
     <classNode dependClassName="jetbrains.mps.build.generictasks.taskfromjar.NamesMap" />
@@ -92,7 +93,6 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNodeAccessUtil" />
     <classNode dependClassName="org.jetbrains.mps.openapi.persistence.PersistenceFacade" />
-    <classNode extendsClassName="jetbrains.mps.build.generictasks.taskfromjar.IBuilder" />
   </dependency>
   <dependency className="jetbrains.mps.build.generictasks.taskfromjar.ImportOptions" file="ImportOptions.java" />
   <dependency className="jetbrains.mps.build.generictasks.taskfromjar.Importer" file="Importer.java">

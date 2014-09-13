@@ -363,7 +363,7 @@ public class Generator {
       return str == null || str.length() == 0;
     }
     private static boolean neq_ixz87t_a0a1a0a31j(Object a, Object b) {
-      return !((a != null ? a.equals(b) : a == b));
+      return !(((a != null ? a.equals(b) : a == b)));
     }
     private static SNode _quotation_createNode_ixz87t_a0a0a0a0a41j() {
       PersistenceFacade facade = PersistenceFacade.getInstance();

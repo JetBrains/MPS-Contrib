@@ -485,7 +485,7 @@ public class QueriesGenerated {
     return SLinkOperations.getTargets(Sequence.fromIterable(Classifier_Behavior.call_methods_5292274854859311639(StubCellRendererInfo_Behavior.call_getInterface_1213877358391(InlineRenderer_Behavior.call_getRendererInfoNode_1213877298464(_context.getNode())))).first(), "parameter", true);
   }
   private static boolean neq_x583g4_a0a0c(Object a, Object b) {
-    return !((a != null ? a.equals(b) : a == b));
+    return !(((a != null ? a.equals(b) : a == b)));
   }
   private static boolean eq_x583g4_a0a0d(Object a, Object b) {
     return (a != null ? a.equals(b) : a == b);
