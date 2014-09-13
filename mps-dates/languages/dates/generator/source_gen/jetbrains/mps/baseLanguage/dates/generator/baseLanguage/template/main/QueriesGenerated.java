@@ -75,10 +75,10 @@ public class QueriesGenerated {
     return DateTypeUtil.isInstanceOfDurationCompare(_context.getNode());
   }
   public static boolean baseMappingRule_Condition_1172502299366(final BaseMappingRuleContext _context) {
-    if (!(DateTypeUtil.isInstanceOfPeriod(SLinkOperations.getTarget(_context.getNode(), "rightExpression", true)) || DateTypeUtil.isInstanceOfDatetime(SLinkOperations.getTarget(_context.getNode(), "rightExpression", true)) || DateTypeUtil.isInstanceOfDuration(SLinkOperations.getTarget(_context.getNode(), "rightExpression", true)) || DateTypeUtil.isInstanceOfDatetimeWithTZ(SLinkOperations.getTarget(_context.getNode(), "rightExpression", true)))) {
+    if (!((DateTypeUtil.isInstanceOfPeriod(SLinkOperations.getTarget(_context.getNode(), "rightExpression", true)) || DateTypeUtil.isInstanceOfDatetime(SLinkOperations.getTarget(_context.getNode(), "rightExpression", true)) || DateTypeUtil.isInstanceOfDuration(SLinkOperations.getTarget(_context.getNode(), "rightExpression", true)) || DateTypeUtil.isInstanceOfDatetimeWithTZ(SLinkOperations.getTarget(_context.getNode(), "rightExpression", true))))) {
       return false;
     }
-    if (!(DateTypeUtil.isInstanceOfPeriod(SLinkOperations.getTarget(_context.getNode(), "leftExpression", true)) || DateTypeUtil.isInstanceOfDatetime(SLinkOperations.getTarget(_context.getNode(), "leftExpression", true)) || DateTypeUtil.isInstanceOfDuration(SLinkOperations.getTarget(_context.getNode(), "leftExpression", true)) || DateTypeUtil.isInstanceOfDatetimeWithTZ(SLinkOperations.getTarget(_context.getNode(), "leftExpression", true)))) {
+    if (!((DateTypeUtil.isInstanceOfPeriod(SLinkOperations.getTarget(_context.getNode(), "leftExpression", true)) || DateTypeUtil.isInstanceOfDatetime(SLinkOperations.getTarget(_context.getNode(), "leftExpression", true)) || DateTypeUtil.isInstanceOfDuration(SLinkOperations.getTarget(_context.getNode(), "leftExpression", true)) || DateTypeUtil.isInstanceOfDatetimeWithTZ(SLinkOperations.getTarget(_context.getNode(), "leftExpression", true))))) {
       return false;
     }
     return true;
@@ -372,7 +372,7 @@ public class QueriesGenerated {
     return isNotEmptyString(SPropertyOperations.getString(_context.getNode(), "suffix"));
   }
   public static boolean ifMacro_Condition_5581663871703143195(final IfMacroContext _context) {
-    return !(SPropertyOperations.hasValue(_context.getNode(), "kind", "default", "default") && isNotEmptyString(SPropertyOperations.getString(_context.getNode(), "lastText")));
+    return !((SPropertyOperations.hasValue(_context.getNode(), "kind", "default", "default") && isNotEmptyString(SPropertyOperations.getString(_context.getNode(), "lastText"))));
   }
   public static SNode sourceNodeQuery_1209036487954(final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "operation", true);

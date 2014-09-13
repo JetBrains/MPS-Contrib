@@ -73,7 +73,7 @@ public class DateTypeUtil {
     return sm.isSubtype(actualType, javaDateType) || sm.isSubtype(actualType, javaCalendarType) || sm.isSubtype(actualType, jodaAbstractInstant);
   }
   public static boolean bothOperandsAreNotNull(SNode operation) {
-    return !(SNodeOperations.isInstanceOf(SLinkOperations.getTarget(operation, "leftExpression", true), "jetbrains.mps.baseLanguage.structure.NullLiteral") || SNodeOperations.isInstanceOf(SLinkOperations.getTarget(operation, "rightExpression", true), "jetbrains.mps.baseLanguage.structure.NullLiteral"));
+    return !((SNodeOperations.isInstanceOf(SLinkOperations.getTarget(operation, "leftExpression", true), "jetbrains.mps.baseLanguage.structure.NullLiteral") || SNodeOperations.isInstanceOf(SLinkOperations.getTarget(operation, "rightExpression", true), "jetbrains.mps.baseLanguage.structure.NullLiteral")));
   }
   public static boolean isInstanceOf(SNode node, SNode type) {
     if (node == null || type == null) {

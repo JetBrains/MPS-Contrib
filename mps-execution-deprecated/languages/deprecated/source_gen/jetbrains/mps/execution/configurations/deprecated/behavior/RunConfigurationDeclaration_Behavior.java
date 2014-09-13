@@ -92,6 +92,6 @@ public class RunConfigurationDeclaration_Behavior {
     return quotedNode_1;
   }
   private static boolean neq_ym0401_a0c0j(Object a, Object b) {
-    return !((a != null ? a.equals(b) : a == b));
+    return !(((a != null ? a.equals(b) : a == b)));
   }
 }
