@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-32hm246q3bg82popcy1rcm7yyqy4buj">
+<dependencies version="2" modelHash="3c7rbrr112wq4nyxhcuudhyg3pl58gx">
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang.reflect(JDK/java.lang.reflect@java_stub)" />
@@ -8,7 +8,7 @@
   <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#org.apache.log4j(MPS.Core/org.apache.log4j@java_stub)" />
   <dep model="f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.model(MPS.OpenAPI/org.jetbrains.mps.openapi.model@java_stub)" />
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="-2hubvwh7bwismm0eld02cqmdefvj5by" />
-  <dep model="r:00000000-0000-4000-0000-011c895902bf(jetbrains.mps.baseLanguage.actions)" hash="-e5ko2xi5ikug3vs3r6zx4fnl1hv008t" />
+  <dep model="r:00000000-0000-4000-0000-011c895902bf(jetbrains.mps.baseLanguage.actions)" hash="-374xsdomzs8nz3ramnnfxgyoa6gggdn" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-7vgk3jafz630zooccect8piiihx2bnu" />
   <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="-2sqpydigz7vryaerubh22j78l4l08jz" />
   <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" hash="-88dq2j910t3rwbhdmvczf6foy7a2l1t" />
@@ -21,11 +21,10 @@
   <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" hash="attjt7f9xsijagk72ems4fgf26chod2" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="8cdjk2e5d2y2u9lult1ptgxxrttxv07" />
   <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" hash="5g3rtdo35mi5yfu1kii2pegdk4kei4n" />
-  <common hash="-5o3uupbng8b6s262umcvelqu32svj4b" dependsOnNodes="true">
+  <common hash="6l72rvz5y1f1gzrwye5jdzi5cf8iuh" dependsOnNodes="true">
     <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   </common>
-  <source id="1462969652806434077" name="BuildLanguageGenerator" hash="-6rdqebmldzb3is58en8ju0pk2wlnmjs">
-    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
+  <source id="1462969652806434077" name="BuildLanguageGenerator" hash="6lz9rc9d35iw6yhgc4ninflox51w7cq">
     <dep model="f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.model(MPS.OpenAPI/org.jetbrains.mps.openapi.model@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
@@ -35,17 +34,17 @@
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="BuildLanguageGenerator.java" />
   </source>
-  <source id="1462969652806434314" name="ClassInfo" hash="-75rv7sf1lz6nrcq9vemaljytgeeme9g">
+  <source id="1462969652806434314" name="ClassInfo" hash="e3gukwycvz9fujnf8b1gm1ontnb7xl2">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
     <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" />
     <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
     <file name="ClassInfo.java" />
   </source>
-  <source id="1462969652806435709" name="EmptyClassVisitor" hash="-5q81e70tvlg1dlm6xhvyf9jb1tbziil">
+  <source id="1462969652806435709" name="EmptyClassVisitor" hash="btv156vhqvegmfh4pmu1tx4a90gghea">
     <file name="EmptyClassVisitor.java" />
   </source>
-  <source id="1462969652806435815" name="Generator" hash="9s1yj1yg8hiy21qh1m5xmfu6zj6dtk8">
+  <source id="1462969652806435815" name="Generator" hash="49o4ylexgp9se2qtkpnby10af0u93cy">
     <dep root="1462969652806434077" />
     <dep root="1462969652806434314" />
     <dep root="1462969652806437175" />
@@ -73,15 +72,15 @@
   <source id="1462969652806437111" name="ImportOptions" hash="-131udsjmofv6gq1cirbfab991u71et7">
     <file name="ImportOptions.java" />
   </source>
-  <source id="1462969652806437175" name="Importer" hash="1gx2fi5lc9h9wb47zlh5jnuk3m1tlkq">
+  <source id="1462969652806437175" name="Importer" hash="-clnabgqbs6rbxlynxdxvqa7qmeozhb">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
     <file name="Importer.java" />
   </source>
-  <source id="1462969652806437601" name="NamesMap" hash="-dlklulfulpozd3lf66qfry7mw0a78x0">
+  <source id="1462969652806437601" name="NamesMap" hash="a1bt71woni5pl43ksuye7kycd5gxhgs">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
     <file name="NamesMap.java" />
   </source>
-  <source id="1462969652806437758" name="Scanner" hash="-d2655phe1gfsnpcrf7q5kq81av678cu">
+  <source id="1462969652806437758" name="Scanner" hash="bc4cltwzaxjonah8y25p2imgc3ui5p5">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
     <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#org.apache.log4j(MPS.Core/org.apache.log4j@java_stub)" />
     <file name="Scanner.java" />

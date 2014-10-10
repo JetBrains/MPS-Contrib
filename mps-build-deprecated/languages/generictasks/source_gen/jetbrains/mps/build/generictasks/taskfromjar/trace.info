@@ -290,7 +290,7 @@
       <node id="1462969652806434785" at="310,30,314,7" concept="9" />
       <node id="1462969652806434882" at="331,72,335,11" concept="10" />
       <node id="1462969652806434955" at="31,0,36,0" concept="3" trace="ClassInfo#(Ljava/lang/Class;)V" />
-      <node id="1462969652806434981" at="36,0,42,0" concept="3" trace="ClassInfo#(Ljava/lang/Class;Lorg/jetbrains/asm4/ClassReader;)V" />
+      <node id="1462969652806434981" at="36,0,42,0" concept="3" trace="ClassInfo#(Ljava/lang/Class;Lorg/jetbrains/org/objectweb/asm/ClassReader;)V" />
       <node id="1462969652806435019" at="42,26,48,5" concept="10" />
       <node id="1462969652806435041" at="50,0,56,0" concept="11" trace="extractOther#()V" />
       <node id="1462969652806435084" at="58,30,64,7" concept="10" />
@@ -310,7 +310,7 @@
       <node id="1462969652806435251" at="85,16,97,11" concept="10" />
       <node id="1462969652806434757" at="305,0,317,0" concept="11" trace="toString#()Ljava/lang/String;" />
       <node id="1462969652806434361" at="271,0,284,0" concept="16" trace="isEnum#(Ljava/lang/Class;)Z" />
-      <node id="1462969652806434843" at="327,0,340,0" concept="11" trace="visitMethod#(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/jetbrains/asm4/MethodVisitor;" />
+      <node id="1462969652806434843" at="327,0,340,0" concept="11" trace="visitMethod#(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/jetbrains/org/objectweb/asm/MethodVisitor;" />
       <node id="1462969652806434427" at="208,42,222,9" concept="20" />
       <node id="1462969652806434521" at="234,0,248,0" concept="11" trace="equals#(Ljava/lang/Object;)Z" />
       <node id="1462969652806434418" at="206,25,223,7" concept="10" />
@@ -587,12 +587,12 @@
       <node id="1462969652806435715" at="15,0,18,0" concept="11" trace="visit#(IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V" />
       <node id="1462969652806435732" at="18,0,21,0" concept="11" trace="visitSource#(Ljava/lang/String;Ljava/lang/String;)V" />
       <node id="1462969652806435740" at="21,0,24,0" concept="11" trace="visitOuterClass#(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" />
-      <node id="1462969652806435760" at="28,0,31,0" concept="11" trace="visitAttribute#(Lorg/jetbrains/asm4/Attribute;)V" />
+      <node id="1462969652806435760" at="28,0,31,0" concept="11" trace="visitAttribute#(Lorg/jetbrains/org/objectweb/asm/Attribute;)V" />
       <node id="1462969652806435766" at="31,0,34,0" concept="11" trace="visitInnerClass#(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V" />
       <node id="1462969652806435811" at="42,0,45,0" concept="11" trace="visitEnd#()V" />
-      <node id="1462969652806435750" at="24,0,28,0" concept="11" trace="visitAnnotation#(Ljava/lang/String;Z)Lorg/jetbrains/asm4/AnnotationVisitor;" />
-      <node id="1462969652806435778" at="34,0,38,0" concept="11" trace="visitField#(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)Lorg/jetbrains/asm4/FieldVisitor;" />
-      <node id="1462969652806435794" at="38,0,42,0" concept="11" trace="visitMethod#(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/jetbrains/asm4/MethodVisitor;" />
+      <node id="1462969652806435750" at="24,0,28,0" concept="11" trace="visitAnnotation#(Ljava/lang/String;Z)Lorg/jetbrains/org/objectweb/asm/AnnotationVisitor;" />
+      <node id="1462969652806435778" at="34,0,38,0" concept="11" trace="visitField#(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)Lorg/jetbrains/org/objectweb/asm/FieldVisitor;" />
+      <node id="1462969652806435794" at="38,0,42,0" concept="11" trace="visitMethod#(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/jetbrains/org/objectweb/asm/MethodVisitor;" />
       <scope id="1462969652806435731" at="16,116,16,116" />
       <scope id="1462969652806435739" at="19,56,19,56" />
       <scope id="1462969652806435749" at="22,71,22,71" />

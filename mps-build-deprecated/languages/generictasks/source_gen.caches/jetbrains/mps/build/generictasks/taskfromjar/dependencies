@@ -36,20 +36,20 @@
     <classNode dependClassName="jetbrains.mps.build.generictasks.taskfromjar.EmptyClassVisitor" />
     <classNode dependClassName="jetbrains.mps.build.generictasks.taskfromjar.Scanner" />
     <classNode dependClassName="org.apache.tools.ant.types.EnumeratedAttribute" />
-    <classNode dependClassName="org.jetbrains.asm4.Attribute" />
-    <classNode dependClassName="org.jetbrains.asm4.ClassReader" />
-    <classNode dependClassName="org.jetbrains.asm4.MethodVisitor" />
-    <classNode dependClassName="org.jetbrains.asm4.Opcodes" />
+    <classNode dependClassName="org.jetbrains.org.objectweb.asm.Attribute" />
+    <classNode dependClassName="org.jetbrains.org.objectweb.asm.ClassReader" />
+    <classNode dependClassName="org.jetbrains.org.objectweb.asm.MethodVisitor" />
+    <classNode dependClassName="org.jetbrains.org.objectweb.asm.Opcodes" />
   </dependency>
   <dependency className="jetbrains.mps.build.generictasks.taskfromjar.EmptyClassVisitor" file="EmptyClassVisitor.java">
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="org.jetbrains.asm4.AnnotationVisitor" />
-    <classNode dependClassName="org.jetbrains.asm4.Attribute" />
-    <classNode dependClassName="org.jetbrains.asm4.FieldVisitor" />
-    <classNode dependClassName="org.jetbrains.asm4.MethodVisitor" />
-    <classNode extendsClassName="org.jetbrains.asm4.ClassVisitor" />
+    <classNode dependClassName="org.jetbrains.org.objectweb.asm.AnnotationVisitor" />
+    <classNode dependClassName="org.jetbrains.org.objectweb.asm.Attribute" />
+    <classNode dependClassName="org.jetbrains.org.objectweb.asm.FieldVisitor" />
+    <classNode dependClassName="org.jetbrains.org.objectweb.asm.MethodVisitor" />
+    <classNode extendsClassName="org.jetbrains.org.objectweb.asm.ClassVisitor" />
   </dependency>
   <dependency className="jetbrains.mps.build.generictasks.taskfromjar.Generator" file="Generator.java">
     <classNode dependClassName="java.io.File" />
@@ -150,7 +150,7 @@
     <classNode dependClassName="org.apache.tools.ant.taskdefs.ConditionTask" />
     <classNode dependClassName="org.apache.tools.ant.taskdefs.EchoXML" />
     <classNode dependClassName="org.apache.tools.ant.types.DataType" />
-    <classNode dependClassName="org.jetbrains.asm4.ClassReader" />
+    <classNode dependClassName="org.jetbrains.org.objectweb.asm.ClassReader" />
   </dependency>
 </dependenciesRoot>
 

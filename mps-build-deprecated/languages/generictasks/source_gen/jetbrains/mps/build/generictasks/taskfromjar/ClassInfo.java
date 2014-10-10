@@ -6,8 +6,8 @@ import java.util.Set;
 import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.LinkedHashMap;
-import org.jetbrains.asm4.ClassReader;
-import org.jetbrains.asm4.Attribute;
+import org.jetbrains.org.objectweb.asm.ClassReader;
+import org.jetbrains.org.objectweb.asm.Attribute;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 import java.util.List;
@@ -16,8 +16,8 @@ import java.util.Collection;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import org.apache.tools.ant.types.EnumeratedAttribute;
-import org.jetbrains.asm4.MethodVisitor;
-import org.jetbrains.asm4.Opcodes;
+import org.jetbrains.org.objectweb.asm.MethodVisitor;
+import org.jetbrains.org.objectweb.asm.Opcodes;
 
 public class ClassInfo<T> {
   private final Class<? extends T> myClass;
