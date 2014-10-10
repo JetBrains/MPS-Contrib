@@ -458,6 +458,7 @@
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.IDEA}/lib/jdom.jar" />
         <fileset file="${artifacts.IDEA}/lib/ecj-4.3.2.jar" />
+        <fileset file="${artifacts.IDEA}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.IDEA}/lib/trove4j.jar" />
         <fileset file="${artifacts.IDEA}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.IDEA}/lib/asm4-all.jar" />
@@ -514,6 +515,7 @@
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.IDEA}/lib/jdom.jar" />
         <fileset file="${artifacts.IDEA}/lib/ecj-4.3.2.jar" />
+        <fileset file="${artifacts.IDEA}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.IDEA}/lib/trove4j.jar" />
         <fileset file="${artifacts.IDEA}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.IDEA}/lib/asm4-all.jar" />
@@ -570,6 +572,7 @@
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.IDEA}/lib/jdom.jar" />
         <fileset file="${artifacts.IDEA}/lib/ecj-4.3.2.jar" />
+        <fileset file="${artifacts.IDEA}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.IDEA}/lib/trove4j.jar" />
         <fileset file="${artifacts.IDEA}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.IDEA}/lib/asm4-all.jar" />
@@ -638,6 +641,7 @@
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.IDEA}/lib/jdom.jar" />
         <fileset file="${artifacts.IDEA}/lib/ecj-4.3.2.jar" />
+        <fileset file="${artifacts.IDEA}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.IDEA}/lib/trove4j.jar" />
         <fileset file="${artifacts.IDEA}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.IDEA}/lib/asm4-all.jar" />
