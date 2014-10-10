@@ -267,6 +267,7 @@
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="java.util.Map" />
     <classNode dependClassName="java.util.Set" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.algorithms.Dfs" />
     <classNode dependClassName="jetbrains.mps.graphLayout.algorithms.ShortestPath" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
@@ -279,7 +280,6 @@
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.SetSequence" />
-    <classNode extendsClassName="jetbrains.mps.graphLayout.algorithms.Dfs" />
     <classNode extendsClassName="jetbrains.mps.graphLayout.planarization.IEmbeddingFinder" />
   </dependency>
 </dependenciesRoot>

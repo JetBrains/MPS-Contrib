@@ -5,12 +5,15 @@ package jetbrains.mps.build.property.structure;
 import jetbrains.mps.smodel.runtime.BaseStructureAspectDescriptor;
 import jetbrains.mps.smodel.runtime.ConceptDescriptor;
 import jetbrains.mps.smodel.runtime.impl.ConceptDescriptorBuilder;
+import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
+import java.util.UUID;
 import java.util.Collection;
 import java.util.Arrays;
 import org.jetbrains.annotations.Nullable;
 
 public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
-  /*package*/ final ConceptDescriptor myConceptPropertyNode = new ConceptDescriptorBuilder("jetbrains.mps.build.property.structure.PropertyNode").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept", "jetbrains.mps.buildlanguage.structure.IPropertyHolder").children(new String[]{"declaration"}, new boolean[]{true}).alias("property node", "property file").create();
+
+  /*package*/ final ConceptDescriptor myConceptPropertyNode = new ConceptDescriptorBuilder("jetbrains.mps.build.property.structure.PropertyNode", MetaIdFactory.conceptId(UUID.fromString("dd61a7d7-8e1b-45a1-9aa3-8585ec2b60fc"), 1200504738494L)).super_("jetbrains.mps.lang.core.structure.BaseConcept").super_(MetaIdFactory.conceptId(UUID.fromString("dd61a7d7-8e1b-45a1-9aa3-8585ec2b60fc"), 1133920641626L)).parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept", "jetbrains.mps.buildlanguage.structure.IPropertyHolder").parentIds(MetaIdFactory.conceptId(UUID.fromString("dd61a7d7-8e1b-45a1-9aa3-8585ec2b60fc"), 1133920641626L), MetaIdFactory.conceptId(UUID.fromString("dd61a7d7-8e1b-45a1-9aa3-8585ec2b60fc"), 1169194658468L), MetaIdFactory.conceptId(UUID.fromString("dd61a7d7-8e1b-45a1-9aa3-8585ec2b60fc"), 1196862084542L)).childDescriptors(new ConceptDescriptorBuilder.Link(1200504738496L, "declaration", MetaIdFactory.conceptId(UUID.fromString("dd61a7d7-8e1b-45a1-9aa3-8585ec2b60fc"), 1196851107341L), true, true, false)).children(new String[]{"declaration"}, new boolean[]{true}).alias("property node", "property file").create();
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
@@ -20,12 +23,12 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   @Override
   @Nullable
   public ConceptDescriptor getDescriptor(String conceptFqName) {
-    switch (Arrays.binarySearch(stringSwitchCases_1htk8d_a0a0e, conceptFqName)) {
+    switch (Arrays.binarySearch(stringSwitchCases_1htk8d_a0a0f, conceptFqName)) {
       case 0:
         return myConceptPropertyNode;
       default:
         return null;
     }
   }
-  private static String[] stringSwitchCases_1htk8d_a0a0e = new String[]{"jetbrains.mps.build.property.structure.PropertyNode"};
+  private static String[] stringSwitchCases_1htk8d_a0a0f = new String[]{"jetbrains.mps.build.property.structure.PropertyNode"};
 }

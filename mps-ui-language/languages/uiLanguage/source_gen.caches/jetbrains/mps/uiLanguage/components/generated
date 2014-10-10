@@ -67,9 +67,6 @@
     <dep root="8606751926055253470" />
     <dep root="8606751926055253530" />
     <dep model="f:java_stub#86441d7a-e194-42da-81a5-2161ec62a379#org.jdesktop.beansbinding(MPS.Workbench/org.jdesktop.beansbinding@java_stub)" />
-    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
-    <dep model="r:00000000-0000-4000-0000-011c89590557(jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator)" />
-    <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="Frame.java" />
   </source>
   <source id="1202393521454" name="Frame_Controller" hash="-c8fv4e8xz62yu4e6h792v4onuqytxdp" />
@@ -99,8 +96,6 @@
     <dep root="8606751926055253470" />
     <dep root="8606751926055253530" />
     <dep model="f:java_stub#86441d7a-e194-42da-81a5-2161ec62a379#org.jdesktop.beansbinding(MPS.Workbench/org.jdesktop.beansbinding@java_stub)" />
-    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
-    <dep model="r:00000000-0000-4000-0000-011c89590557(jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator)" />
     <file name="Button.java" />
   </source>
   <source id="1202393573380" name="Button_Controller" hash="-caimlph6fujxgj3xbdgimx7d5gmt386" />
@@ -131,8 +126,6 @@
     <dep root="8606751926055253470" />
     <dep root="8606751926055253530" />
     <dep model="f:java_stub#86441d7a-e194-42da-81a5-2161ec62a379#org.jdesktop.beansbinding(MPS.Workbench/org.jdesktop.beansbinding@java_stub)" />
-    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
-    <dep model="r:00000000-0000-4000-0000-011c89590557(jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator)" />
     <file name="TextField.java" />
   </source>
   <source id="1202464205555" name="TextField_Controller" hash="-blzjwjuy25uqxxyhj149iv9l2jtlcep" />

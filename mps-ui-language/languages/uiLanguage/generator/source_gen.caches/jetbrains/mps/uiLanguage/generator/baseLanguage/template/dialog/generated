@@ -36,9 +36,7 @@
   <source id="1202833474568" name="reduce_Dialog" hash="-96qgl2dpyqrut1gzremuqcqro1jbpuz">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
-  <source id="1202833910008" name="dialog" hash="3p2dg0n5umo2y7kb714npzti65wdjhr">
-    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
-  </source>
+  <source id="1202833910008" name="dialog" hash="3p2dg0n5umo2y7kb714npzti65wdjhr" />
   <source id="1202834129055" name="weave_LayoutConstraint" hash="-8nno6osfl01hfz8yqmcoqumyuwg6057" />
 </dependencies>
 

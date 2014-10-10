@@ -105,6 +105,7 @@
     <classNode extendsClassName="jetbrains.mps.debug.BaseRunProfileState" />
   </dependency>
   <dependency className="jetbrains.mps.execution.configurations.deprecated.runtime.LegacyBeforeTaskProvider" file="LegacyBeforeTaskProvider.java">
+    <classNode dependClassName="com.intellij.execution.BeforeRunTask" />
     <classNode dependClassName="com.intellij.execution.configurations.RunConfiguration" />
     <classNode dependClassName="com.intellij.execution.runners.ExecutionEnvironment" />
     <classNode dependClassName="com.intellij.openapi.actionSystem.DataContext" />
@@ -124,7 +125,6 @@
     <classNode dependClassName="org.apache.log4j.Level" />
     <classNode dependClassName="org.apache.log4j.LogManager" />
     <classNode dependClassName="org.apache.log4j.Logger" />
-    <classNode extendsClassName="com.intellij.execution.BeforeRunTask" />
     <classNode extendsClassName="com.intellij.execution.BeforeRunTaskProvider" />
   </dependency>
   <dependency className="jetbrains.mps.execution.configurations.deprecated.runtime.ParameterBrowser" file="ParameterBrowser.java">

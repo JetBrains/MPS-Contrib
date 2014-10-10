@@ -32,8 +32,6 @@
   <source id="1202824926823" name="reduce_Grid" hash="6hcxe330suv4lt6ph8rkr599ex3egj2">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
-  <source id="1202825629080" name="grid" hash="-8h0xhdbpqz36egc0p664n4b8sthe1o3">
-    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
-  </source>
+  <source id="1202825629080" name="grid" hash="-8h0xhdbpqz36egc0p664n4b8sthe1o3" />
 </dependencies>
 

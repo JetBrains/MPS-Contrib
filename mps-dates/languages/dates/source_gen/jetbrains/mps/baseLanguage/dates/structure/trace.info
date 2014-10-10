@@ -12,7 +12,7 @@
   <concept fqn="jetbrains.mps.baseLanguage.structure.WhileStatement" />
   <root>
     <file name="StructureAspectDescriptor.java">
-      <unit at="13,0,252,0" name="jetbrains.mps.baseLanguage.dates.structure.StructureAspectDescriptor" />
+      <unit at="15,0,255,0" name="jetbrains.mps.baseLanguage.dates.structure.StructureAspectDescriptor" />
     </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)/1172075151844">

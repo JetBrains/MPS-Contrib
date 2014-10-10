@@ -82,8 +82,8 @@
     <classNode dependClassName="org.joda.time.DateTimeZone" />
     <classNode dependClassName="org.joda.time.ReadablePartial" />
     <classNode dependClassName="org.joda.time.format.DateTimeFormatter" />
+    <classNode dependClassName="org.joda.time.format.DateTimeParserBucket" />
     <classNode extendsClassName="org.joda.time.format.DateTimeParser" />
-    <classNode extendsClassName="org.joda.time.format.DateTimeParserBucket" />
     <classNode extendsClassName="org.joda.time.format.DateTimePrinter" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.runtime.InlineDateFormatter" file="InlineDateFormatter.java">

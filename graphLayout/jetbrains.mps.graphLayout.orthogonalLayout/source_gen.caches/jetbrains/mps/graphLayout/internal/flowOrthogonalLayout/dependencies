@@ -253,6 +253,7 @@
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="java.util.Map" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.closures.runtime.Wrappers" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.algorithms.Dfs" />
     <classNode dependClassName="jetbrains.mps.graphLayout.algorithms.MinCostCirculation" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
@@ -267,7 +268,6 @@
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.Sequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.SetSequence" />
-    <classNode extendsClassName="jetbrains.mps.graphLayout.algorithms.Dfs" />
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.internal.flowOrthogonalLayout.TestPullingLabels" file="TestPullingLabels.java">
     <classNode dependClassName="java.lang.Integer" />

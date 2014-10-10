@@ -9,7 +9,6 @@ public class Sample_Test extends TestCase {
   public void test_compareXML() throws Exception {
     XMLAssert.assertXMLEqual("<foo><bar id=\"123\" /></foo>", "<foo><bar id=\"123\"/></foo>");
   }
-
   public Sample_Test() {
   }
 }

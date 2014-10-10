@@ -19,7 +19,6 @@
     <file name="Event.java" />
   </source>
   <source id="3987693689859618260" name="Events" hash="-5v85f60ix7b06ufisr5adkz2k4r95h8">
-    <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
     <file name="Events.java" />
   </source>
 </dependencies>

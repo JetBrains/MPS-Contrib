@@ -10,6 +10,7 @@
     <classNode dependClassName="java.util.Map" />
     <classNode dependClassName="java.util.Set" />
     <classNode dependClassName="jetbrains.mps.graphLayout.algorithms.BiconnectedComponent" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.algorithms.Dfs" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
@@ -18,7 +19,6 @@
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.SetSequence" />
-    <classNode extendsClassName="jetbrains.mps.graphLayout.algorithms.Dfs" />
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.algorithms.BiconnectedComponent" file="BiconnectedComponent.java">
     <classNode dependClassName="java.lang.Integer" />
@@ -32,13 +32,13 @@
     <classNode dependClassName="java.util.Map" />
     <classNode dependClassName="java.util.Set" />
     <classNode dependClassName="jetbrains.mps.graphLayout.algorithms.BiconnectedComponents" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.algorithms.Dfs" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.SetSequence" />
-    <classNode extendsClassName="jetbrains.mps.graphLayout.algorithms.Dfs" />
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.algorithms.BiconnectedComponents" file="BiconnectedComponents.java">
     <classNode dependClassName="java.lang.Integer" />
@@ -64,6 +64,7 @@
     <classNode dependClassName="java.util.Map" />
     <classNode dependClassName="java.util.Set" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.algorithms.Dfs" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
@@ -72,7 +73,6 @@
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.SetSequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.backports.LinkedList" />
-    <classNode extendsClassName="jetbrains.mps.graphLayout.algorithms.Dfs" />
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.algorithms.Dfs" file="Dfs.java">
     <classNode dependClassName="java.lang.Boolean" />
@@ -91,6 +91,7 @@
     <classNode dependClassName="java.lang.Integer" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.RuntimeException" />
+    <classNode dependClassName="java.util.Comparator" />
     <classNode dependClassName="java.util.HashMap" />
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="java.util.Map" />
@@ -104,7 +105,6 @@
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.backports.LinkedList" />
-    <classNode extendsClassName="java.util.Comparator" />
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.algorithms.FordBellman" file="FordBellman.java">
     <classNode dependClassName="java.lang.Boolean" />
@@ -234,13 +234,13 @@
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="java.util.Map" />
     <classNode dependClassName="jetbrains.mps.graphLayout.algorithms.BiconnectedComponents" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.algorithms.Dfs" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
     <classNode dependClassName="jetbrains.mps.graphLayout.util.NodeMap" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
-    <classNode extendsClassName="jetbrains.mps.graphLayout.algorithms.Dfs" />
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.algorithms.ShortestPath" file="ShortestPath.java">
     <classNode dependClassName="java.lang.Boolean" />

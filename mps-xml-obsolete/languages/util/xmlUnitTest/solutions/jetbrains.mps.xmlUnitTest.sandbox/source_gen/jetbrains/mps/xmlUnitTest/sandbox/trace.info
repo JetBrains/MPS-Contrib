@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debugInfo>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
   <root nodeRef="r:711fa6a3-3961-4b7b-b3da-5afbfdf297e7(jetbrains.mps.xmlUnitTest.sandbox)/9070985627710925999">
-    <nodeInfo nodeId="9070985627710932727" fileName="Sample_Test.java" startLine="9" startPosition="50" endLine="10" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="9070985627710926001" fileName="Sample_Test.java" startLine="13" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="Sample_Test#()V" />
-    <nodeInfo nodeId="9070985627710932722" fileName="Sample_Test.java" startLine="9" startPosition="0" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_compareXML#()V" />
-    <scopeInfo nodeId="9070985627710926004" fileName="Sample_Test.java" startLine="13" startPosition="24" endLine="13" endPosition="24" />
-    <scopeInfo nodeId="9070985627710932725" fileName="Sample_Test.java" startLine="9" startPosition="50" endLine="10" endPosition="94" />
-    <scopeInfo nodeId="9070985627710926001" fileName="Sample_Test.java" startLine="13" startPosition="0" endLine="15" endPosition="0" />
-    <scopeInfo nodeId="9070985627710932722" fileName="Sample_Test.java" startLine="9" startPosition="0" endLine="12" endPosition="0" />
-    <unitInfo nodeId="9070985627710925999" fileName="Sample_Test.java" startLine="8" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.xmlUnitTest.sandbox.Sample_Test" />
+    <file name="Sample_Test.java">
+      <node id="9070985627710932727" at="9,50,10,94" concept="1" />
+      <node id="9070985627710926001" at="12,0,14,0" concept="0" trace="Sample_Test#()V" />
+      <node id="9070985627710932722" at="9,0,12,0" concept="2" trace="test_compareXML#()V" />
+      <scope id="9070985627710926004" at="12,24,12,24" />
+      <scope id="9070985627710932725" at="9,50,10,94" />
+      <scope id="9070985627710926001" at="12,0,14,0" />
+      <scope id="9070985627710932722" at="9,0,12,0" />
+      <unit id="9070985627710925999" at="8,0,15,0" name="jetbrains.mps.xmlUnitTest.sandbox.Sample_Test" />
+    </file>
   </root>
-</debugInfo>
+</debug-info>
 

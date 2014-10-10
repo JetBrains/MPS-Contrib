@@ -41,9 +41,7 @@
   <source id="1202820745239" name="form" hash="-d8fjao2dulo0t6qw5rttcvelb6dalsn">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
-  <source id="1202820804619" name="reduce_Form" hash="-cmwpuswlw95vyhj4pj8ltn197eeaelz">
-    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
-  </source>
+  <source id="1202820804619" name="reduce_Form" hash="-cmwpuswlw95vyhj4pj8ltn197eeaelz" />
   <source id="1202822195718" name="weave_LayoutConstraintForFormPart" hash="17hol03af0x4zw3qo2fw7y8w5jua0f" />
 </dependencies>
 

@@ -101,6 +101,7 @@
     <classNode dependClassName="javax.swing.ButtonGroup" />
     <classNode dependClassName="javax.swing.JButton" />
     <classNode dependClassName="javax.swing.JFrame" />
+    <classNode dependClassName="javax.swing.JLabel" />
     <classNode dependClassName="javax.swing.JOptionPane" />
     <classNode dependClassName="javax.swing.JRadioButton" />
     <classNode dependClassName="javax.swing.JScrollPane" />
@@ -123,7 +124,6 @@
     <classNode dependClassName="sampleGraphs.RandomGraphGenerator" />
     <classNode dependClassName="visualization.GraphIO" />
     <classNode dependClassName="visualization.LayoutPainter" />
-    <classNode extendsClassName="javax.swing.JLabel" />
     <classNode extendsClassName="javax.swing.JPanel" />
   </dependency>
   <dependency className="visualization.RectLayoutTestPanel" file="RectLayoutTestPanel.java">
@@ -147,6 +147,7 @@
     <classNode dependClassName="javax.swing.ButtonGroup" />
     <classNode dependClassName="javax.swing.JButton" />
     <classNode dependClassName="javax.swing.JFrame" />
+    <classNode dependClassName="javax.swing.JLabel" />
     <classNode dependClassName="javax.swing.JOptionPane" />
     <classNode dependClassName="javax.swing.JRadioButton" />
     <classNode dependClassName="javax.swing.JScrollPane" />
@@ -168,7 +169,6 @@
     <classNode dependClassName="sampleGraphs.RandomGraphGenerator" />
     <classNode dependClassName="visualization.GraphIO" />
     <classNode dependClassName="visualization.LayoutPainter" />
-    <classNode extendsClassName="javax.swing.JLabel" />
     <classNode extendsClassName="javax.swing.JPanel" />
   </dependency>
   <dependency className="visualization.TestPanel" file="TestPanel.java">
@@ -191,6 +191,7 @@
     <classNode dependClassName="javax.swing.BorderFactory" />
     <classNode dependClassName="javax.swing.JButton" />
     <classNode dependClassName="javax.swing.JFrame" />
+    <classNode dependClassName="javax.swing.JLabel" />
     <classNode dependClassName="javax.swing.JOptionPane" />
     <classNode dependClassName="javax.swing.JRadioButton" />
     <classNode dependClassName="javax.swing.JScrollPane" />
@@ -219,7 +220,6 @@
     <classNode dependClassName="layeredLayoutTest.RefineAdjacentNodeSorterProxy" />
     <classNode dependClassName="sampleGraphs.RandomGraphGenerator" />
     <classNode dependClassName="visualization.GraphIO" />
-    <classNode extendsClassName="javax.swing.JLabel" />
     <classNode extendsClassName="javax.swing.JPanel" />
   </dependency>
 </dependenciesRoot>
