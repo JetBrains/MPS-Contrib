@@ -50,15 +50,21 @@
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="QueriesGenerated.java" />
   </common>
-  <source id="1163716445251" name="mc_xml" hash="88y9gec5yxt5luobrbkoyjzc8pnhqlx">
-    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
-  </source>
+  <source id="1163716445251" name="mc_xml" hash="88y9gec5yxt5luobrbkoyjzc8pnhqlx" />
   <source id="1164415382678" name="reduce_ContentList_isVertical" hash="36nsvfubjmg9xdcteqn2lvl3tn1rc5h" />
   <source id="1167702020416" name="reduce_Attribute" hash="4rvj836pzl5klgxrzryr5an5shisaqw" />
-  <source id="1179112352401" name="reduce_EntityReference" hash="-3q532s9uza9cpub42klv07qhtxceb02" />
-  <source id="1179112799204" name="reduce_ComplexText" hash="4gk2zsna48htpnj2mxd446iegw7en8d" />
-  <source id="1179113125414" name="reduce_ContentList_isHorizontal" hash="-2jo3wkyxwofxy0j623bdwio343i7183" />
-  <source id="1192038923039" name="reduce_CDATA" hash="chxsgqu7sucfy0dyctqmw30xhcajrey" />
+  <source id="1179112352401" name="reduce_EntityReference" hash="-3q532s9uza9cpub42klv07qhtxceb02">
+    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
+  </source>
+  <source id="1179112799204" name="reduce_ComplexText" hash="4gk2zsna48htpnj2mxd446iegw7en8d">
+    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
+  </source>
+  <source id="1179113125414" name="reduce_ContentList_isHorizontal" hash="-2jo3wkyxwofxy0j623bdwio343i7183">
+    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
+  </source>
+  <source id="1192038923039" name="reduce_CDATA" hash="chxsgqu7sucfy0dyctqmw30xhcajrey">
+    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
+  </source>
   <source id="1179113391611" name="reduce_Element" hash="-ahfiiz06luwphtzuj5y11t5tn8iwwdc" />
   <source id="1179110819551" name="reduce_Text" hash="cyl4qdrk0u3xfh835mxau2tb4reb4a4" />
 </dependencies>

@@ -26,6 +26,7 @@
     <file name="Filter.java" />
   </source>
   <source id="40016457508983181" name="DefaultFilter" hash="5cgku4y3ku5bpr87sjlwsr14l7s0ml1">
+    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
     <file name="DefaultFilter.java" />
   </source>
 </dependencies>

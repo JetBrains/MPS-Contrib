@@ -49,8 +49,12 @@
   <source id="1164413908130" name="mc_convertToBL" hash="-c5b9ulpfjcnjnc8lpe87uq0ozsxhyf2">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
-  <source id="1164488726779" name="reduce_GItemStatement" hash="8zrzgc03outqk53m32r5a27tgdw4wpq" />
-  <source id="1165584777191" name="reduce_GStatementItem" hash="-du2iobu5jxqkg1dp8d871991w7qhcwv" />
+  <source id="1164488726779" name="reduce_GItemStatement" hash="8zrzgc03outqk53m32r5a27tgdw4wpq">
+    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
+  </source>
+  <source id="1165584777191" name="reduce_GStatementItem" hash="-du2iobu5jxqkg1dp8d871991w7qhcwv">
+    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
+  </source>
   <source id="1166926684100" name="reduce_GLine" hash="-7gpxbk407wxhnjgbp4iwe4sbidns9rk" />
   <source id="1179110448984" name="reduce_GConditionalLine" hash="34eijrugpb7ql3tg52ppmoe8gn20ksv" />
   <source id="1195217368293" name="reduce_BuilderContextRef" hash="9ni9suflkywdabrt8a652ghd652psg2" />

@@ -16,9 +16,12 @@
     <file name="CompositePrinter.java" />
   </source>
   <source id="734650238126519308" name="ConditionalPrinter" hash="-exyxq4a5lqcwou7bupgfmm8kxlufwuu">
+    <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="ConditionalPrinter.java" />
   </source>
   <source id="734650238126520134" name="LiteralPrinter" hash="-4cpjewaznjr1t153clmwmfesievjzt4">
+    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
+    <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
     <file name="LiteralPrinter.java" />
   </source>
 </dependencies>

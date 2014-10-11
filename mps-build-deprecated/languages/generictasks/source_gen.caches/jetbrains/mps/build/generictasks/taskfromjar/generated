@@ -42,6 +42,7 @@
     <file name="ClassInfo.java" />
   </source>
   <source id="1462969652806435709" name="EmptyClassVisitor" hash="btv156vhqvegmfh4pmu1tx4a90gghea">
+    <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="EmptyClassVisitor.java" />
   </source>
   <source id="1462969652806435815" name="Generator" hash="49o4ylexgp9se2qtkpnby10af0u93cy">
@@ -70,6 +71,7 @@
     <file name="Generator.java" />
   </source>
   <source id="1462969652806437111" name="ImportOptions" hash="-131udsjmofv6gq1cirbfab991u71et7">
+    <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" />
     <file name="ImportOptions.java" />
   </source>
   <source id="1462969652806437175" name="Importer" hash="-clnabgqbs6rbxlynxdxvqa7qmeozhb">

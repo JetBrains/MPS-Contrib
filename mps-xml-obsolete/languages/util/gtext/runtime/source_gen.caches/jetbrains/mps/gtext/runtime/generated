@@ -30,6 +30,7 @@
     <file name="BaseHtmlStringUtil.java" />
   </source>
   <source id="7733366827988670913" name="TContent" hash="-bqv10hsd4or0q3mx2fqa2lka2l9kz9k">
+    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
     <file name="TContent.java" />
   </source>
 </dependencies>

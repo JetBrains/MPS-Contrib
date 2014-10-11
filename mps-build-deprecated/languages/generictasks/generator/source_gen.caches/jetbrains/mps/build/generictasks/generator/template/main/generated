@@ -49,6 +49,8 @@
   <source id="683020775182432298" name="main" hash="1g7791mkwhosh66ws95298h0squwkjj">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
-  <source id="353793545802704402" name="reduce_TaskCall" hash="-1rw9xix6j4mqhzv195vv2799ije8qq0" />
+  <source id="353793545802704402" name="reduce_TaskCall" hash="-1rw9xix6j4mqhzv195vv2799ije8qq0">
+    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
+  </source>
 </dependencies>
 

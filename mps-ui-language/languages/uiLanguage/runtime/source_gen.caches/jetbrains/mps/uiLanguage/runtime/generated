@@ -19,6 +19,7 @@
     <file name="FlowPanel.java" />
   </source>
   <source id="5606982432899038977" name="VBoxPanel" hash="dwgg529am9m3zshv3829mqt0443ddil">
+    <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="VBoxPanel.java" />
   </source>
   <source id="5606982432899038992" name="SimpleListModel" hash="9ip4brlygbqqz4036xhfi9osljhxvdw">
