@@ -50,7 +50,7 @@
         <version>${mpsBootstrapCore.version}</version>
         <vendor url="http://www.jetbrains.com/mps/">JetBrains</vendor>
         <depends>jetbrains.mps.core</depends>
-        <depends>jetbrains.mps.testing</depends>
+        <depends>mpsTesting</depends>
         
         <extensions defaultExtensionNs="com.intellij">
           <mps.LanguageLibrary dir="/languages" />
