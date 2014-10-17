@@ -249,7 +249,6 @@
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.sharedConcepts.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.smodel.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
-      <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.stubs.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.textGen.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.typesystem.jar" />
@@ -291,7 +290,7 @@
       <library file="${artifacts.mps}/plugins/mps-testing/languages/baseLanguage/jetbrains.mps.baseLanguage.unitTest.jar" />
       <library file="${artifacts.mps}/plugins/mps-testing/languages/languageDesign/jetbrains.mps.lang.test.jar" />
       <library file="${artifacts.mps}/plugins/mps-testing/languages/languageDesign/jetbrains.mps.lang.test.runtime.jar" />
-      <library file="${artifacts.mps}/plugins/mps-testing/languages/util/jetbrains.mps.lang.test.util.jar" />
+      <library file="${artifacts.mps}/plugins/mps-testing/lib/mps-testing.jar" />
       <module file="${basedir}/mps-execution-deprecated/unitTests/jetbrains.mps.baseLanguage.unitTest.execution.deprecated.msd" />
       <module file="${basedir}/mps-execution-deprecated/languages/deprecated/jetbrains.mps.execution.configurations.deprecated.mpl" />
       <module file="${basedir}/mps-execution-deprecated/deprecated.runtime/jetbrains.mps.execution.configurations.deprecated.runtime.msd" />
@@ -363,7 +362,6 @@
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.sharedConcepts.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.smodel.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
-      <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.stubs.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.textGen.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.typesystem.jar" />
@@ -405,7 +403,7 @@
       <library file="${artifacts.mps}/plugins/mps-testing/languages/baseLanguage/jetbrains.mps.baseLanguage.unitTest.jar" />
       <library file="${artifacts.mps}/plugins/mps-testing/languages/languageDesign/jetbrains.mps.lang.test.jar" />
       <library file="${artifacts.mps}/plugins/mps-testing/languages/languageDesign/jetbrains.mps.lang.test.runtime.jar" />
-      <library file="${artifacts.mps}/plugins/mps-testing/languages/util/jetbrains.mps.lang.test.util.jar" />
+      <library file="${artifacts.mps}/plugins/mps-testing/lib/mps-testing.jar" />
       <chunk>
         <module file="${basedir}/mps-execution-deprecated/unitTests/jetbrains.mps.baseLanguage.unitTest.execution.deprecated.msd" />
         <module file="${basedir}/mps-execution-deprecated/languages/deprecated/jetbrains.mps.execution.configurations.deprecated.mpl" />
