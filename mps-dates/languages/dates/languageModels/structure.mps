@@ -167,10 +167,6 @@
     <property name="staticScope" nameId="tpce.5404671619616246344" value="none" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="format.date" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
-    <node role="conceptLink" roleId="tpce.1105736949336" type="tpce.AggregationConceptLink" typeId="tpce.1105736889287" id="1172162329997" nodeInfo="ig">
-      <link role="conceptLinkDeclaration" roleId="tpce.1105736734721" targetNodeId="tpee.1137545148427" resolveInfo="conceptFunctionReturnType" />
-      <node role="target" roleId="tpce.1105736901241" type="tpee.BooleanType" typeId="tpee.1070534644030" id="1172162332013" nodeInfo="in" />
-    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1171902375079" nodeInfo="ig">
     <property name="abstract" nameId="tpce.4628067390765956802" value="false" />
@@ -1481,10 +1477,6 @@
     <property name="virtualPackage" nameId="tpck.1193676396447" value="format.date" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="datetimeToFormat" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
-    <node role="conceptLink" roleId="tpce.1105736949336" type="tpce.AggregationConceptLink" typeId="tpce.1105736889287" id="2226821765371874715" nodeInfo="ig">
-      <link role="conceptLinkDeclaration" roleId="tpce.1105736734721" targetNodeId="tpee.1137545963098" resolveInfo="conceptFunctionParameterType" />
-      <node role="target" roleId="tpce.1105736901241" type="tp6x.DateTimeType" typeId="1171902375079" id="2226821765371874716" nodeInfo="in" />
-    </node>
   </root>
 </model>
 

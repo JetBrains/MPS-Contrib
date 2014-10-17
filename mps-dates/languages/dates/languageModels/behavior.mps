@@ -512,7 +512,7 @@
               <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="4555537781928193437" nodeInfo="sn">
                 <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="4555537781928193671" nodeInfo="nn">
                   <node role="expression" roleId="tpee.1068581517676" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="4555537781928193673" nodeInfo="nn">
-                    <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.DateTimeType" typeId="tp6x.1171902375079" id="4555537781928193675" nodeInfo="in" />
+                    <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.DateTimeType" typeId="tp6x.1171902375079" id="4555537781928193675" nodeInfo="ng" />
                   </node>
                 </node>
               </node>
@@ -537,7 +537,7 @@
                 <node role="statementList" roleId="tpee.1206060644605" type="tpee.StatementList" typeId="tpee.1068580123136" id="4555537781928193678" nodeInfo="sn">
                   <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="4555537781928193680" nodeInfo="nn">
                     <node role="expression" roleId="tpee.1068581517676" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="4555537781928193682" nodeInfo="nn">
-                      <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.DateTimeZoneType" typeId="tp6x.1238513516532" id="4555537781928193684" nodeInfo="in" />
+                      <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.DateTimeZoneType" typeId="tp6x.1238513516532" id="4555537781928193684" nodeInfo="ng" />
                     </node>
                   </node>
                 </node>
@@ -591,7 +591,7 @@
           <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="4555537781928387850" nodeInfo="sn">
             <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="4555537781928387851" nodeInfo="nn">
               <node role="expression" roleId="tpee.1068581517676" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="4555537781928387852" nodeInfo="nn">
-                <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.DateTimeType" typeId="tp6x.1171902375079" id="4555537781928387853" nodeInfo="in" />
+                <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.DateTimeType" typeId="tp6x.1171902375079" id="4555537781928387853" nodeInfo="ng" />
               </node>
             </node>
           </node>
@@ -608,7 +608,7 @@
             <node role="statementList" roleId="tpee.1206060644605" type="tpee.StatementList" typeId="tpee.1068580123136" id="4555537781928387859" nodeInfo="sn">
               <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="4555537781928387860" nodeInfo="nn">
                 <node role="expression" roleId="tpee.1068581517676" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="4555537781928387861" nodeInfo="nn">
-                  <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.DateTimeZoneType" typeId="tp6x.1238513516532" id="4555537781928387862" nodeInfo="in" />
+                  <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.DateTimeZoneType" typeId="tp6x.1238513516532" id="4555537781928387862" nodeInfo="ng" />
                 </node>
               </node>
             </node>
@@ -914,7 +914,7 @@
             <node role="operation" roleId="tpee.1197027833540" type="tp2q.AddElementOperation" typeId="tp2q.1160612413312" id="3359984355452356884" nodeInfo="nn">
               <node role="argument" roleId="tp2q.1160612519549" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3359984355452620963" nodeInfo="nn">
                 <node role="operand" roleId="tpee.1197027771414" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="3359984355452619641" nodeInfo="nn">
-                  <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.PeriodConstant" typeId="tp6x.1172489559047" id="3359984355452619645" nodeInfo="nn">
+                  <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.PeriodConstant" typeId="tp6x.1172489559047" id="3359984355452619645" nodeInfo="ng">
                     <link role="dateTimeProperty" roleId="tp6x.1172489570282" targetNodeId="tp6y.1172074929011" resolveInfo="millis" />
                     <node role="count" roleId="tp6x.1172491543832" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="3359984355452619766" nodeInfo="nn">
                       <property name="value" nameId="tpee.1068580320021" value="10" />
@@ -1124,7 +1124,7 @@
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1238250788323" resolveInfo="expressionType" />
                 </node>
                 <node role="supertypeExpression" roleId="tpd4.1176543950311" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="1238250788361" nodeInfo="nn">
-                  <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.PeriodType" typeId="tp6x.1172487727591" id="1238250788362" nodeInfo="in" />
+                  <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.PeriodType" typeId="tp6x.1172487727591" id="1238250788362" nodeInfo="ng" />
                 </node>
               </node>
               <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="1238250788363" nodeInfo="nn">
@@ -1303,7 +1303,7 @@
               <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="2890840340813585602" nodeInfo="sn">
                 <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="2890840340813585623" nodeInfo="nn">
                   <node role="expression" roleId="tpee.1068581517676" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="2890840340813585625" nodeInfo="nn">
-                    <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.DateTimeZoneType" typeId="tp6x.1238513516532" id="2890840340813585627" nodeInfo="in" />
+                    <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.DateTimeZoneType" typeId="tp6x.1238513516532" id="2890840340813585627" nodeInfo="ng" />
                   </node>
                 </node>
               </node>
@@ -1329,7 +1329,7 @@
               <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="2890840340813585634" nodeInfo="sn">
                 <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="2890840340813585649" nodeInfo="nn">
                   <node role="expression" roleId="tpee.1068581517676" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="2890840340813585651" nodeInfo="nn">
-                    <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.DateTimeWithTZType" typeId="tp6x.1195930031035447613" id="2890840340813585653" nodeInfo="in" />
+                    <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.DateTimeWithTZType" typeId="tp6x.1195930031035447613" id="2890840340813585653" nodeInfo="ng" />
                   </node>
                 </node>
               </node>
@@ -1383,7 +1383,7 @@
           <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="2890840340813585297" nodeInfo="sn">
             <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="2890840340813585310" nodeInfo="nn">
               <node role="expression" roleId="tpee.1068581517676" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="2890840340813585312" nodeInfo="nn">
-                <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.DateTimeZoneType" typeId="tp6x.1238513516532" id="2890840340813585314" nodeInfo="in" />
+                <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.DateTimeZoneType" typeId="tp6x.1238513516532" id="2890840340813585314" nodeInfo="ng" />
               </node>
             </node>
           </node>
@@ -1401,7 +1401,7 @@
           <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="2890840340813585317" nodeInfo="sn">
             <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="2890840340813585326" nodeInfo="nn">
               <node role="expression" roleId="tpee.1068581517676" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="2890840340813585328" nodeInfo="nn">
-                <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.DateTimeWithTZType" typeId="tp6x.1195930031035447613" id="2890840340813585330" nodeInfo="in" />
+                <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.DateTimeWithTZType" typeId="tp6x.1195930031035447613" id="2890840340813585330" nodeInfo="ng" />
               </node>
             </node>
           </node>
@@ -1471,7 +1471,7 @@
               <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="5034322243092302086" nodeInfo="sn">
                 <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="5034322243092302101" nodeInfo="nn">
                   <node role="expression" roleId="tpee.1068581517676" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="5034322243092302108" nodeInfo="nn">
-                    <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.DateTimeWithTZType" typeId="tp6x.1195930031035447613" id="5034322243092302110" nodeInfo="in" />
+                    <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.DateTimeWithTZType" typeId="tp6x.1195930031035447613" id="5034322243092302110" nodeInfo="ng" />
                   </node>
                 </node>
               </node>
@@ -1525,7 +1525,7 @@
           <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="5034322243092302119" nodeInfo="sn">
             <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="5034322243092302127" nodeInfo="nn">
               <node role="expression" roleId="tpee.1068581517676" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="5034322243092302129" nodeInfo="nn">
-                <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.DateTimeWithTZType" typeId="tp6x.1195930031035447613" id="5034322243092302131" nodeInfo="in" />
+                <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.DateTimeWithTZType" typeId="tp6x.1195930031035447613" id="5034322243092302131" nodeInfo="ng" />
               </node>
             </node>
           </node>
@@ -1601,7 +1601,7 @@
               <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="7499037524191428843" nodeInfo="sn">
                 <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="7499037524191428859" nodeInfo="nn">
                   <node role="expression" roleId="tpee.1068581517676" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="7499037524191428861" nodeInfo="nn">
-                    <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.DateTimeZoneType" typeId="tp6x.1238513516532" id="7499037524191428863" nodeInfo="in" />
+                    <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.DateTimeZoneType" typeId="tp6x.1238513516532" id="7499037524191428863" nodeInfo="ng" />
                   </node>
                 </node>
               </node>
@@ -1649,7 +1649,7 @@
           <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="7499037524191428866" nodeInfo="sn">
             <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="7499037524191428872" nodeInfo="nn">
               <node role="expression" roleId="tpee.1068581517676" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="7499037524191428874" nodeInfo="nn">
-                <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.DateTimeZoneType" typeId="tp6x.1238513516532" id="7499037524191428876" nodeInfo="in" />
+                <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.DateTimeZoneType" typeId="tp6x.1238513516532" id="7499037524191428876" nodeInfo="ng" />
               </node>
             </node>
           </node>
@@ -1719,7 +1719,7 @@
               <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="779372288056825310" nodeInfo="sn">
                 <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="779372288056825311" nodeInfo="nn">
                   <node role="expression" roleId="tpee.1068581517676" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="779372288056825312" nodeInfo="nn">
-                    <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.DateTimeZoneType" typeId="tp6x.1238513516532" id="779372288056825336" nodeInfo="in" />
+                    <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.DateTimeZoneType" typeId="tp6x.1238513516532" id="779372288056825336" nodeInfo="ng" />
                   </node>
                 </node>
               </node>
@@ -1773,7 +1773,7 @@
           <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="779372288056825362" nodeInfo="sn">
             <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="779372288056825363" nodeInfo="nn">
               <node role="expression" roleId="tpee.1068581517676" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="779372288056825364" nodeInfo="nn">
-                <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.DateTimeZoneType" typeId="tp6x.1238513516532" id="779372288056825369" nodeInfo="in" />
+                <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.DateTimeZoneType" typeId="tp6x.1238513516532" id="779372288056825369" nodeInfo="ng" />
               </node>
             </node>
           </node>
@@ -1843,7 +1843,7 @@
               <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="34521615669576889" nodeInfo="sn">
                 <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="34521615669576890" nodeInfo="nn">
                   <node role="expression" roleId="tpee.1068581517676" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="34521615669576891" nodeInfo="nn">
-                    <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.PeriodType" typeId="tp6x.1172487727591" id="34521615669576904" nodeInfo="in" />
+                    <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.PeriodType" typeId="tp6x.1172487727591" id="34521615669576904" nodeInfo="ng" />
                   </node>
                 </node>
               </node>
@@ -1897,7 +1897,7 @@
           <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="34521615669576920" nodeInfo="sn">
             <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="34521615669576921" nodeInfo="nn">
               <node role="expression" roleId="tpee.1068581517676" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="34521615669576922" nodeInfo="nn">
-                <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.PeriodType" typeId="tp6x.1172487727591" id="34521615669576923" nodeInfo="in" />
+                <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.PeriodType" typeId="tp6x.1172487727591" id="34521615669576923" nodeInfo="ng" />
               </node>
             </node>
           </node>
@@ -2085,7 +2085,7 @@
         <link role="concept" roleId="tp25.1138405853777" targetNodeId="tp6x.1171902375079" resolveInfo="DateTimeType" />
       </node>
       <node role="initializer" roleId="tpee.1068431790190" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="5251619021093068642" nodeInfo="nn">
-        <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.DateTimeType" typeId="tp6x.1171902375079" id="5251619021093068643" nodeInfo="in" />
+        <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.DateTimeType" typeId="tp6x.1171902375079" id="5251619021093068643" nodeInfo="ng" />
       </node>
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="5251619021093068644" nodeInfo="nn" />
     </node>
@@ -2096,7 +2096,7 @@
         <link role="concept" roleId="tp25.1138405853777" targetNodeId="tp6x.1238513516532" resolveInfo="DateTimeZoneType" />
       </node>
       <node role="initializer" roleId="tpee.1068431790190" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="5251619021093068648" nodeInfo="nn">
-        <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.DateTimeZoneType" typeId="tp6x.1238513516532" id="5251619021093068649" nodeInfo="in" />
+        <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.DateTimeZoneType" typeId="tp6x.1238513516532" id="5251619021093068649" nodeInfo="ng" />
       </node>
     </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.StaticFieldDeclaration" typeId="tpee.1070462154015" id="5251619021093068650" nodeInfo="igu">
@@ -2106,7 +2106,7 @@
         <link role="concept" roleId="tp25.1138405853777" targetNodeId="tp6x.1195930031035447613" resolveInfo="DateTimeWithTZType" />
       </node>
       <node role="initializer" roleId="tpee.1068431790190" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="5251619021093068653" nodeInfo="nn">
-        <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.DateTimeWithTZType" typeId="tp6x.1195930031035447613" id="5251619021093068654" nodeInfo="in" />
+        <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.DateTimeWithTZType" typeId="tp6x.1195930031035447613" id="5251619021093068654" nodeInfo="ng" />
       </node>
     </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.StaticFieldDeclaration" typeId="tpee.1070462154015" id="5251619021093068655" nodeInfo="igu">
@@ -2115,7 +2115,7 @@
         <link role="concept" roleId="tp25.1138405853777" targetNodeId="tp6x.1172487727591" resolveInfo="PeriodType" />
       </node>
       <node role="initializer" roleId="tpee.1068431790190" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="5251619021093068657" nodeInfo="nn">
-        <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.PeriodType" typeId="tp6x.1172487727591" id="5251619021093068658" nodeInfo="in" />
+        <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.PeriodType" typeId="tp6x.1172487727591" id="5251619021093068658" nodeInfo="ng" />
       </node>
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="5251619021093068659" nodeInfo="nn" />
     </node>
@@ -2126,7 +2126,7 @@
         <link role="concept" roleId="tp25.1138405853777" targetNodeId="tp6x.3931616304474644667" resolveInfo="DurationType" />
       </node>
       <node role="initializer" roleId="tpee.1068431790190" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="5251619021093068663" nodeInfo="nn">
-        <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.DurationType" typeId="tp6x.3931616304474644667" id="5251619021093068664" nodeInfo="in" />
+        <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.DurationType" typeId="tp6x.3931616304474644667" id="5251619021093068664" nodeInfo="ng" />
       </node>
     </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.StaticFieldDeclaration" typeId="tpee.1070462154015" id="5251619021093068665" nodeInfo="igu">
@@ -3107,6 +3107,45 @@
             <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3044950653914724836" resolveInfo="result" />
           </node>
         </node>
+      </node>
+    </node>
+    <node role="method" roleId="1i04.1225194240805" type="1i04.ConceptMethodDeclaration" typeId="1i04.1225194472830" id="8629799033815585197" nodeInfo="ng">
+      <property name="isPrivate" nameId="1i04.1225194472833" value="false" />
+      <property name="name" nameId="tpck.1169194664001" value="getExpectedReturnType" />
+      <property name="isVirtual" nameId="1i04.1225194472832" value="false" />
+      <property name="isAbstract" nameId="1i04.1225194472834" value="false" />
+      <link role="overriddenMethod" roleId="1i04.1225194472831" targetNodeId="tpek.1213877374441" resolveInfo="getExpectedReturnType" />
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="8629799033815585198" nodeInfo="nn" />
+      <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="8629799033815585199" nodeInfo="sn">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="8629799033815585200" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068581517676" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="8629799033815585196" nodeInfo="nn">
+            <node role="quotedNode" roleId="tp3r.1196350785114" type="tpee.BooleanType" typeId="tpee.1070534644030" id="1172162332013" nodeInfo="in" />
+          </node>
+        </node>
+      </node>
+      <node role="returnType" roleId="tpee.1068580123133" type="tp25.SNodeType" typeId="tp25.1138055754698" id="8629799033815585201" nodeInfo="in" />
+    </node>
+  </root>
+  <root type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="8629799033815587332" nodeInfo="ng">
+    <link role="concept" roleId="1i04.1225194240799" targetNodeId="tp6x.2226821765371868198" resolveInfo="TokenCondition_datetimeToFormat" />
+    <node role="constructor" roleId="1i04.1225194240801" type="1i04.ConceptConstructorDeclaration" typeId="1i04.1225194413805" id="8629799033815587333" nodeInfo="nn">
+      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="8629799033815587334" nodeInfo="sn" />
+    </node>
+    <node role="method" roleId="1i04.1225194240805" type="1i04.ConceptMethodDeclaration" typeId="1i04.1225194472830" id="8629799033815587336" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="getType" />
+      <property name="isVirtual" nameId="1i04.1225194472832" value="false" />
+      <property name="isAbstract" nameId="1i04.1225194472834" value="false" />
+      <link role="overriddenMethod" roleId="1i04.1225194472831" targetNodeId="tpek.2443692612523876968" resolveInfo="getType" />
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="8629799033815587337" nodeInfo="nn" />
+      <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="8629799033815587338" nodeInfo="sn">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="8629799033815587339" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068581517676" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="8629799033815587335" nodeInfo="nn">
+            <node role="quotedNode" roleId="tp3r.1196350785114" type="tp6x.DateTimeType" typeId="tp6x.1171902375079" id="2226821765371874716" nodeInfo="ng" />
+          </node>
+        </node>
+      </node>
+      <node role="returnType" roleId="tpee.1068580123133" type="tp25.SNodeType" typeId="tp25.1138055754698" id="8629799033815587340" nodeInfo="in">
+        <link role="concept" roleId="tp25.1138405853777" targetNodeId="tpee.1068431790189" resolveInfo="Type" />
       </node>
     </node>
   </root>
