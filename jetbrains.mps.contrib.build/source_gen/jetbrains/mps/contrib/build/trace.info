@@ -2,22 +2,22 @@
 <debug-info>
   <root nodeRef="r:83393c4f-0a35-4150-a4fc-e0cb31ea54f6(jetbrains.mps.contrib.build)/310331596773287654">
     <file name="mpsContribBuild.xml">
-      <unit id="310331596773287654" at="1,0,238,10" name="jetbrains.mps.contrib.build.mpsContribBuild" />
+      <unit id="310331596773287654" at="1,0,244,10" name="jetbrains.mps.contrib.build.mpsContribBuild" />
     </file>
   </root>
   <root nodeRef="r:83393c4f-0a35-4150-a4fc-e0cb31ea54f6(jetbrains.mps.contrib.build)/3945781919312589433">
     <file name="mpsUiLanguage.xml">
-      <unit id="3945781919312589433" at="1,0,502,10" name="jetbrains.mps.contrib.build.mpsUiLanguage" />
+      <unit id="3945781919312589433" at="1,0,509,10" name="jetbrains.mps.contrib.build.mpsUiLanguage" />
     </file>
   </root>
   <root nodeRef="r:83393c4f-0a35-4150-a4fc-e0cb31ea54f6(jetbrains.mps.contrib.build)/4061567211001166715">
     <file name="mpsDates.xml">
-      <unit id="4061567211001166715" at="1,0,515,10" name="jetbrains.mps.contrib.build.mpsDates" />
+      <unit id="4061567211001166715" at="1,0,523,10" name="jetbrains.mps.contrib.build.mpsDates" />
     </file>
   </root>
   <root nodeRef="r:83393c4f-0a35-4150-a4fc-e0cb31ea54f6(jetbrains.mps.contrib.build)/4416206207494300367">
     <file name="mpsDeprecatedBuildlanguage.xml">
-      <unit id="4416206207494300367" at="1,0,888,10" name="jetbrains.mps.contrib.build.mpsDeprecatedBuildlanguage" />
+      <unit id="4416206207494300367" at="1,0,898,10" name="jetbrains.mps.contrib.build.mpsDeprecatedBuildlanguage" />
     </file>
   </root>
   <root nodeRef="r:83393c4f-0a35-4150-a4fc-e0cb31ea54f6(jetbrains.mps.contrib.build)/4579351749503152215">
@@ -27,7 +27,7 @@
   </root>
   <root nodeRef="r:83393c4f-0a35-4150-a4fc-e0cb31ea54f6(jetbrains.mps.contrib.build)/4579351749506262387">
     <file name="mpsXml.xml">
-      <unit id="4579351749506262387" at="1,0,1278,10" name="jetbrains.mps.contrib.build.mpsXml" />
+      <unit id="4579351749506262387" at="1,0,1290,10" name="jetbrains.mps.contrib.build.mpsXml" />
     </file>
   </root>
   <root nodeRef="r:83393c4f-0a35-4150-a4fc-e0cb31ea54f6(jetbrains.mps.contrib.build)/6901657050505737387">
@@ -37,7 +37,7 @@
   </root>
   <root nodeRef="r:83393c4f-0a35-4150-a4fc-e0cb31ea54f6(jetbrains.mps.contrib.build)/8321286824325034320">
     <file name="mpsDeprecatedExecution.xml">
-      <unit id="8321286824325034320" at="1,0,678,10" name="jetbrains.mps.contrib.build.mpsDeprecatedExecution" />
+      <unit id="8321286824325034320" at="1,0,685,10" name="jetbrains.mps.contrib.build.mpsDeprecatedExecution" />
     </file>
   </root>
 </debug-info>
