@@ -71,5 +71,5 @@ public class DateTimeType_boxing_SubtypingRule extends SubtypingRule_Runtime imp
     quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", null, null, false);
     return quotedNode_1;
   }
-  private static SNodePointer SNODE_POINTER_enqoju_a0a0a0a0b0b0a0a0a0a0a0e = new SNodePointer("f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)", "~Long");
+  private static SNodePointer SNODE_POINTER_enqoju_a0a0a0a0b0b0a0a0a0a0a0e = new SNodePointer("6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)", "~Long");
 }

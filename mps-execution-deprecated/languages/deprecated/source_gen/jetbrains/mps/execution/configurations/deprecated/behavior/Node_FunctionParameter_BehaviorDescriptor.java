@@ -11,6 +11,9 @@ public class Node_FunctionParameter_BehaviorDescriptor extends ConceptFunctionPa
   public SNode virtual_getParameterType_1810772216404820824(SNode thisNode) {
     return Node_FunctionParameter_Behavior.virtual_getParameterType_1810772216404820824(thisNode);
   }
+  public SNode virtual_getType_2443692612523876968(SNode thisNode) {
+    return Node_FunctionParameter_Behavior.virtual_getType_2443692612523876968(thisNode);
+  }
   public String virtual_getVariableForExecuteBlockName_1810772216404807669(SNode thisNode) {
     return Node_FunctionParameter_Behavior.virtual_getVariableForExecuteBlockName_1810772216404807669(thisNode);
   }

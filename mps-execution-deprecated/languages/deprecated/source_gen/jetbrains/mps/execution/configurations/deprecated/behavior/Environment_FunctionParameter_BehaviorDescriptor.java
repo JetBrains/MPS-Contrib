@@ -4,9 +4,13 @@ package jetbrains.mps.execution.configurations.deprecated.behavior;
 
 import jetbrains.mps.baseLanguage.behavior.ConceptFunctionParameter_BehaviorDescriptor;
 import jetbrains.mps.lang.core.behavior.IDontSubstituteByDefault_BehaviorDescriptor;
+import org.jetbrains.mps.openapi.model.SNode;
 
 public class Environment_FunctionParameter_BehaviorDescriptor extends ConceptFunctionParameter_BehaviorDescriptor implements IDontSubstituteByDefault_BehaviorDescriptor {
   public Environment_FunctionParameter_BehaviorDescriptor() {
+  }
+  public SNode virtual_getType_2443692612523876968(SNode thisNode) {
+    return Environment_FunctionParameter_Behavior.virtual_getType_2443692612523876968(thisNode);
   }
   @Override
   public String getConceptFqName() {

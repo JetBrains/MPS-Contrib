@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-4nk5tww3kdag27jr1gb8ifq90pe4oug">
-  <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="-2sqpydigz7vryaerubh22j78l4l08jz" />
-  <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="d987foka3qddszg3k3yjss0jaslj9i" />
-  <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="8cdjk2e5d2y2u9lult1ptgxxrttxv07" />
-  <common hash="-13xxw9jq4055rpmrqy1vgabkxy9yyqn" dependsOnNodes="true">
+<dependencies version="2" modelHash="4nzft1tp7d76csc0px56q713t6ifp2j">
+  <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="-9fyf8ube0aqhy2tpqxm8qrxfi4z6r48" />
+  <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="-byzd16c9464mzaxq1u6n0ssaly7qydz" />
+  <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="-8tpnzgwrbijeinrlmy2syctrrkkgmqe" />
+  <common hash="4nzft1tp7d76csc0px56q713t6ifp2j" dependsOnNodes="true">
     <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   </common>
-  <source id="3987693689859618102" name="ListenerId" hash="2uf304e8v1ed43xfgc64nd6c6v6jfuw">
+  <source id="3987693689859618102" name="ListenerId">
     <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
     <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="ListenerId.java" />
   </source>
-  <source id="3987693689859618179" name="IListener" hash="3j9fjkj2tuqu75q4mt4589w8ohz0ts4">
+  <source id="3987693689859618179" name="IListener">
     <file name="IListener.java" />
   </source>
-  <source id="3987693689859618187" name="Event" hash="8eqktxrqj2igqgq945tplwt6wlc8qp6">
+  <source id="3987693689859618187" name="Event">
     <file name="Event.java" />
   </source>
-  <source id="3987693689859618260" name="Events" hash="-5v85f60ix7b06ufisr5adkz2k4r95h8">
-    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
+  <source id="3987693689859618260" name="Events">
     <file name="Events.java" />
   </source>
 </dependencies>

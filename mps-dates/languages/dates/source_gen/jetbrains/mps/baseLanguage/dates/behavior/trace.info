@@ -138,7 +138,7 @@
       <unit at="9,0,23,0" name="jetbrains.mps.baseLanguage.dates.behavior.ParseDateTimeExpression_BehaviorDescriptor" />
     </file>
     <file name="TokenCondition_datetimeToFormat_BehaviorDescriptor.java">
-      <unit at="7,0,15,0" name="jetbrains.mps.baseLanguage.dates.behavior.TokenCondition_datetimeToFormat_BehaviorDescriptor" />
+      <unit at="8,0,19,0" name="jetbrains.mps.baseLanguage.dates.behavior.TokenCondition_datetimeToFormat_BehaviorDescriptor" />
     </file>
     <file name="DateTimeWithPropertyOperation_BehaviorDescriptor.java">
       <unit at="7,0,15,0" name="jetbrains.mps.baseLanguage.dates.behavior.DateTimeWithPropertyOperation_BehaviorDescriptor" />
@@ -225,7 +225,7 @@
       <unit at="7,0,15,0" name="jetbrains.mps.baseLanguage.dates.behavior.NowExpression_BehaviorDescriptor" />
     </file>
     <file name="TokenCondition_BehaviorDescriptor.java">
-      <unit at="10,0,21,0" name="jetbrains.mps.baseLanguage.dates.behavior.TokenCondition_BehaviorDescriptor" />
+      <unit at="10,0,24,0" name="jetbrains.mps.baseLanguage.dates.behavior.TokenCondition_BehaviorDescriptor" />
     </file>
     <file name="PeriodFormat_BehaviorDescriptor.java">
       <unit at="10,0,21,0" name="jetbrains.mps.baseLanguage.dates.behavior.PeriodFormat_BehaviorDescriptor" />
@@ -571,11 +571,11 @@
       <node id="1227698927239" at="16,59,17,63" concept="4" />
       <node id="1227698927239" at="17,63,18,30" concept="4" />
       <node id="1227698927239" at="18,30,19,138" concept="2" />
-      <node id="1227698927239" at="19,138,20,237" concept="2" />
-      <node id="1227698927239" at="20,237,21,24" concept="5" />
+      <node id="1227698927239" at="19,138,20,274" concept="2" />
+      <node id="1227698927239" at="20,274,21,24" concept="5" />
       <node id="1227698902205" at="11,0,13,0" concept="7" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-      <node id="1227698927239" at="18,30,20,237" concept="0" />
-      <node id="1227698927239" at="18,30,20,237" concept="0" />
+      <node id="1227698927239" at="18,30,20,274" concept="0" />
+      <node id="1227698927239" at="18,30,20,274" concept="0" />
       <node id="1227698902205" at="13,0,16,0" concept="7" trace="virtual_getJavaType_1213877337345#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="1227698927239" at="16,0,23,0" concept="7" trace="_quotation_createNode_rg6b2_a0a0#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <scope id="1227698902207" at="11,43,11,43" />
@@ -583,7 +583,7 @@
       <scope id="1227698902205" at="11,0,13,0">
         <var name="thisNode" id="1227698902205" />
       </scope>
-      <scope id="1227698927239" at="18,30,20,237" />
+      <scope id="1227698927239" at="18,30,20,274" />
       <scope id="1227698902205" at="13,0,16,0">
         <var name="thisNode" id="1227698902205" />
       </scope>
@@ -610,18 +610,18 @@
       <node id="1238250788335" at="31,63,32,63" concept="4" />
       <node id="1238250788335" at="32,63,33,30" concept="4" />
       <node id="1238250788335" at="33,30,34,138" concept="2" />
-      <node id="1238250788335" at="34,138,35,303" concept="2" />
-      <node id="1238250788335" at="35,303,36,24" concept="5" />
+      <node id="1238250788335" at="34,138,35,340" concept="2" />
+      <node id="1238250788335" at="35,340,36,24" concept="5" />
       <node id="1238250788343" at="38,64,39,63" concept="4" />
       <node id="1238250788343" at="39,63,40,30" concept="4" />
       <node id="1238250788343" at="40,30,41,138" concept="2" />
-      <node id="1238250788343" at="41,138,42,237" concept="2" />
-      <node id="1238250788343" at="42,237,43,24" concept="5" />
+      <node id="1238250788343" at="41,138,42,274" concept="2" />
+      <node id="1238250788343" at="42,274,43,24" concept="5" />
       <node id="1238250788352" at="45,64,46,63" concept="4" />
       <node id="1238250788352" at="46,63,47,30" concept="4" />
       <node id="1238250788352" at="47,30,48,138" concept="2" />
-      <node id="1238250788352" at="48,138,49,241" concept="2" />
-      <node id="1238250788352" at="49,241,50,24" concept="5" />
+      <node id="1238250788352" at="48,138,49,278" concept="2" />
+      <node id="1238250788352" at="49,278,50,24" concept="5" />
       <node id="1238250788361" at="52,64,53,63" concept="4" />
       <node id="1238250788361" at="53,63,54,30" concept="4" />
       <node id="1238250788361" at="54,30,55,140" concept="0" />
@@ -629,12 +629,12 @@
       <node id="1238250788361" at="54,30,55,140" concept="2" />
       <node id="1238250788361" at="55,140,56,24" concept="5" />
       <node id="1238250703195" at="13,0,15,0" concept="7" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-      <node id="1238250788335" at="33,30,35,303" concept="0" />
-      <node id="1238250788335" at="33,30,35,303" concept="0" />
-      <node id="1238250788343" at="40,30,42,237" concept="0" />
-      <node id="1238250788343" at="40,30,42,237" concept="0" />
-      <node id="1238250788352" at="47,30,49,241" concept="0" />
-      <node id="1238250788352" at="47,30,49,241" concept="0" />
+      <node id="1238250788335" at="33,30,35,340" concept="0" />
+      <node id="1238250788335" at="33,30,35,340" concept="0" />
+      <node id="1238250788343" at="40,30,42,274" concept="0" />
+      <node id="1238250788343" at="40,30,42,274" concept="0" />
+      <node id="1238250788352" at="47,30,49,278" concept="0" />
+      <node id="1238250788352" at="47,30,49,278" concept="0" />
       <node id="1238250703195" at="15,0,18,0" concept="7" trace="call_needLeftConvert_1238250704510#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
       <node id="1238250703195" at="18,0,21,0" concept="7" trace="call_needRightConvert_1238250706060#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
       <node id="1238250788361" at="52,0,58,0" concept="7" trace="_quotation_createNode_26vghy_b0a0a5a2#()Lorg/jetbrains/mps/openapi/model/SNode;" />
@@ -649,9 +649,9 @@
       <scope id="1238250703195" at="13,0,15,0">
         <var name="thisNode" id="1238250703195" />
       </scope>
-      <scope id="1238250788335" at="33,30,35,303" />
-      <scope id="1238250788343" at="40,30,42,237" />
-      <scope id="1238250788352" at="47,30,49,241" />
+      <scope id="1238250788335" at="33,30,35,340" />
+      <scope id="1238250788343" at="40,30,42,274" />
+      <scope id="1238250788352" at="47,30,49,278" />
       <scope id="1238250703195" at="15,0,18,0">
         <var name="thisNode" id="1238250703195" />
       </scope>
@@ -735,22 +735,41 @@
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903ce(jetbrains.mps.baseLanguage.dates.behavior)/3044950653914724856">
     <file name="TokenCondition_Behavior.java">
-      <node id="3044950653914724835" at="15,125,16,261" concept="4" />
-      <node id="3044950653914724850" at="16,261,17,179" concept="2" />
-      <node id="3044950653914724854" at="17,179,18,18" concept="5" />
-      <node id="3044950653914724856" at="13,0,15,0" concept="7" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-      <node id="3044950653914724856" at="15,0,20,0" concept="7" trace="virtual_getApplicableConceptFunctionParameter_3044950653914717136#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)Ljava/util/List;" />
-      <scope id="3044950653914724858" at="13,43,13,43" />
-      <scope id="3044950653914724856" at="13,0,15,0">
+      <node id="3044950653914724835" at="17,125,18,261" concept="4" />
+      <node id="3044950653914724850" at="18,261,19,179" concept="2" />
+      <node id="3044950653914724854" at="19,179,20,18" concept="5" />
+      <node id="8629799033815585200" at="22,83,23,47" concept="5" />
+      <node id="8629799033815585196" at="25,60,26,63" concept="4" />
+      <node id="8629799033815585196" at="26,63,27,30" concept="4" />
+      <node id="8629799033815585196" at="27,30,28,135" concept="0" />
+      <node id="8629799033815585196" at="27,30,28,135" concept="0" />
+      <node id="8629799033815585196" at="27,30,28,135" concept="2" />
+      <node id="8629799033815585196" at="28,135,29,24" concept="5" />
+      <node id="3044950653914724856" at="15,0,17,0" concept="7" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3044950653914724856" at="22,0,25,0" concept="7" trace="virtual_getExpectedReturnType_1213877374441#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="3044950653914724856" at="17,0,22,0" concept="7" trace="virtual_getApplicableConceptFunctionParameter_3044950653914717136#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)Ljava/util/List;" />
+      <node id="8629799033815585196" at="25,0,31,0" concept="7" trace="_quotation_createNode_wz5a3r_a0a1#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <scope id="3044950653914724858" at="15,43,15,43" />
+      <scope id="8629799033815585199" at="22,83,23,47" />
+      <scope id="8629799033815585196" at="27,30,28,135" />
+      <scope id="3044950653914724856" at="15,0,17,0">
         <var name="thisNode" id="3044950653914724856" />
       </scope>
-      <scope id="3044950653914724834" at="15,125,18,18">
+      <scope id="3044950653914724834" at="17,125,20,18">
         <var name="result" id="3044950653914724836" />
       </scope>
-      <scope id="3044950653914724856" at="15,0,20,0">
+      <scope id="3044950653914724856" at="22,0,25,0">
+        <var name="thisNode" id="3044950653914724856" />
+      </scope>
+      <scope id="8629799033815585196" at="25,60,29,24">
+        <var name="facade" id="8629799033815585196" />
+        <var name="quotedNode_1" id="8629799033815585196" />
+      </scope>
+      <scope id="3044950653914724856" at="17,0,22,0">
         <var name="thisConcept" id="3044950653914724856" />
       </scope>
-      <unit id="3044950653914724856" at="12,0,21,0" name="jetbrains.mps.baseLanguage.dates.behavior.TokenCondition_Behavior" />
+      <scope id="8629799033815585196" at="25,0,31,0" />
+      <unit id="3044950653914724856" at="14,0,32,0" name="jetbrains.mps.baseLanguage.dates.behavior.TokenCondition_Behavior" />
     </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903ce(jetbrains.mps.baseLanguage.dates.behavior)/34521615669576863">
@@ -989,26 +1008,26 @@
       <node id="5251619021093068672" at="168,58,169,63" concept="4" />
       <node id="5251619021093068672" at="169,63,170,30" concept="4" />
       <node id="5251619021093068672" at="170,30,171,138" concept="2" />
-      <node id="5251619021093068672" at="171,138,172,237" concept="2" />
-      <node id="5251619021093068672" at="172,237,173,24" concept="5" />
+      <node id="5251619021093068672" at="171,138,172,274" concept="2" />
+      <node id="5251619021093068672" at="172,274,173,24" concept="5" />
       <node id="5251619021093068677" at="175,58,176,63" concept="4" />
       <node id="5251619021093068677" at="176,63,177,30" concept="4" />
       <node id="5251619021093068677" at="177,30,178,138" concept="2" />
-      <node id="5251619021093068677" at="178,138,179,241" concept="2" />
-      <node id="5251619021093068677" at="179,241,180,24" concept="5" />
+      <node id="5251619021093068677" at="178,138,179,278" concept="2" />
+      <node id="5251619021093068677" at="179,278,180,24" concept="5" />
       <node id="5251619021093068682" at="182,58,183,63" concept="4" />
       <node id="5251619021093068682" at="183,63,184,30" concept="4" />
       <node id="5251619021093068682" at="184,30,185,138" concept="2" />
-      <node id="5251619021093068682" at="185,138,186,303" concept="2" />
-      <node id="5251619021093068682" at="186,303,187,24" concept="5" />
+      <node id="5251619021093068682" at="185,138,186,340" concept="2" />
+      <node id="5251619021093068682" at="186,340,187,24" concept="5" />
       <node id="5251619021093068997" at="31,0,33,0" concept="1" trace="DateTypeUtil#()V" />
       <node id="5251619021093068974" at="125,12,127,7" concept="0" />
-      <node id="5251619021093068672" at="170,30,172,237" concept="0" />
-      <node id="5251619021093068672" at="170,30,172,237" concept="0" />
-      <node id="5251619021093068677" at="177,30,179,241" concept="0" />
-      <node id="5251619021093068677" at="177,30,179,241" concept="0" />
-      <node id="5251619021093068682" at="184,30,186,303" concept="0" />
-      <node id="5251619021093068682" at="184,30,186,303" concept="0" />
+      <node id="5251619021093068672" at="170,30,172,274" concept="0" />
+      <node id="5251619021093068672" at="170,30,172,274" concept="0" />
+      <node id="5251619021093068677" at="177,30,179,278" concept="0" />
+      <node id="5251619021093068677" at="177,30,179,278" concept="0" />
+      <node id="5251619021093068682" at="184,30,186,340" concept="0" />
+      <node id="5251619021093068682" at="184,30,186,340" concept="0" />
       <node id="5251619021093068685" at="33,0,36,0" concept="7" trace="isInstanceOfPeriod#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
       <node id="3086205941497649609" at="36,0,39,0" concept="7" trace="isPeriodType#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
       <node id="5251619021093068695" at="39,0,42,0" concept="7" trace="isInstanceOfPeriodCompare#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
@@ -1082,9 +1101,9 @@
       <scope id="5251619021093068663" at="158,30,159,142" />
       <scope id="5251619021093068667" at="164,30,165,135" />
       <scope id="5251619021093068997" at="31,0,33,0" />
-      <scope id="5251619021093068672" at="170,30,172,237" />
-      <scope id="5251619021093068677" at="177,30,179,241" />
-      <scope id="5251619021093068682" at="184,30,186,303" />
+      <scope id="5251619021093068672" at="170,30,172,274" />
+      <scope id="5251619021093068677" at="177,30,179,278" />
+      <scope id="5251619021093068682" at="184,30,186,340" />
       <scope id="5251619021093068685" at="33,0,36,0">
         <var name="node" id="5251619021093068692" />
       </scope>
@@ -1443,6 +1462,35 @@
         <var name="thisNode" id="779372288056821935" />
       </scope>
       <unit id="779372288056821935" at="11,0,42,0" name="jetbrains.mps.baseLanguage.dates.behavior.TimeConstant_Behavior" />
+    </file>
+  </root>
+  <root nodeRef="r:00000000-0000-4000-0000-011c895903ce(jetbrains.mps.baseLanguage.dates.behavior)/8629799033815587332">
+    <file name="TokenCondition_datetimeToFormat_Behavior.java">
+      <node id="8629799033815587339" at="12,75,13,47" concept="5" />
+      <node id="8629799033815587335" at="15,60,16,63" concept="4" />
+      <node id="8629799033815587335" at="16,63,17,30" concept="4" />
+      <node id="8629799033815587335" at="17,30,18,142" concept="0" />
+      <node id="8629799033815587335" at="17,30,18,142" concept="0" />
+      <node id="8629799033815587335" at="17,30,18,142" concept="2" />
+      <node id="8629799033815587335" at="18,142,19,24" concept="5" />
+      <node id="8629799033815587332" at="10,0,12,0" concept="7" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8629799033815587332" at="12,0,15,0" concept="7" trace="virtual_getType_2443692612523876968#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="8629799033815587335" at="15,0,21,0" concept="7" trace="_quotation_createNode_ru4e3n_a0a0#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <scope id="8629799033815587334" at="10,43,10,43" />
+      <scope id="8629799033815587338" at="12,75,13,47" />
+      <scope id="8629799033815587335" at="17,30,18,142" />
+      <scope id="8629799033815587332" at="10,0,12,0">
+        <var name="thisNode" id="8629799033815587332" />
+      </scope>
+      <scope id="8629799033815587332" at="12,0,15,0">
+        <var name="thisNode" id="8629799033815587332" />
+      </scope>
+      <scope id="8629799033815587335" at="15,60,19,24">
+        <var name="facade" id="8629799033815587335" />
+        <var name="quotedNode_1" id="8629799033815587335" />
+      </scope>
+      <scope id="8629799033815587335" at="15,0,21,0" />
+      <unit id="8629799033815587332" at="9,0,22,0" name="jetbrains.mps.baseLanguage.dates.behavior.TokenCondition_datetimeToFormat_Behavior" />
     </file>
   </root>
 </debug-info>

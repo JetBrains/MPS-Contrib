@@ -15,6 +15,9 @@ public class ParametrizedExecuteProcess_BehaviorDescriptor extends AbstractEnhan
   public SNode virtual_getExpectedReturnType_1213877374441(SNode thisNode) {
     return ParametrizedExecuteProcess_Behavior.virtual_getExpectedReturnType_1213877374441(thisNode);
   }
+  public List<SNode> virtual_getThrowableTypes_6204026822016975623(SNode thisNode) {
+    return ParametrizedExecuteProcess_Behavior.virtual_getThrowableTypes_6204026822016975623(thisNode);
+  }
   @Override
   public String getConceptFqName() {
     return "jetbrains.mps.execution.configurations.deprecated.structure.ParametrizedExecuteProcess";

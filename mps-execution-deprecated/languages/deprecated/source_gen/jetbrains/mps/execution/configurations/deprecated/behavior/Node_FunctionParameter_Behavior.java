@@ -33,7 +33,16 @@ public class Node_FunctionParameter_Behavior {
     }
     return _quotation_createNode_2ajjny_a1a3();
   }
+  public static SNode virtual_getType_2443692612523876968(SNode thisNode) {
+    return _quotation_createNode_2ajjny_a0a4();
+  }
   private static SNode _quotation_createNode_2ajjny_a1a3() {
+    PersistenceFacade facade = PersistenceFacade.getInstance();
+    SNode quotedNode_1 = null;
+    quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.lang.smodel.structure.SNodeType", null, null, false);
+    return quotedNode_1;
+  }
+  private static SNode _quotation_createNode_2ajjny_a0a4() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;
     quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.lang.smodel.structure.SNodeType", null, null, false);

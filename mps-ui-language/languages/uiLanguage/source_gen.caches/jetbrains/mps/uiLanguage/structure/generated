@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-duju4dgwx8zy0pha9lhhgkje2rlh1o2">
-  <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
-  <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
-  <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel.adapter.ids(MPS.Core/jetbrains.mps.smodel.adapter.ids@java_stub)" />
-  <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel.runtime.impl(MPS.Core/jetbrains.mps.smodel.runtime.impl@java_stub)" />
-  <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="-2hubvwh7bwismm0eld02cqmdefvj5by" />
-  <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" hash="-ds0k2lb74rgixgd3bdaak41qmp1755x" />
-  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-7vgk3jafz630zooccect8piiihx2bnu" />
-  <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="-2sqpydigz7vryaerubh22j78l4l08jz" />
-  <dep model="r:00000000-0000-4000-0000-011c89590373(jetbrains.mps.baseLanguage.classifiers.structure)" hash="2rnsukeaoekb324wbbx6a2bi8ccu9xr" />
-  <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="d987foka3qddszg3k3yjss0jaslj9i" />
-  <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="8cdjk2e5d2y2u9lult1ptgxxrttxv07" />
-  <common hash="-3wnpcyvqtw1803430m7tvgafia1gdp4" dependsOnNodes="true">
+<dependencies version="2" modelHash="ka2mpzhm0gb3d4ty3rjajgrkjh9u3s">
+  <dep model="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
+  <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="5j4ycjpdxb0hhd1qpfbo5sg6kqjw5n1" />
+  <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" hash="7k4a98pk3z957ipickh98qliybx88fh" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-3fid1lc9vuvtwe9bdm13cz1ariv49fa" />
+  <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="-9fyf8ube0aqhy2tpqxm8qrxfi4z6r48" />
+  <dep model="r:00000000-0000-4000-0000-011c89590373(jetbrains.mps.baseLanguage.classifiers.structure)" hash="bo6kmf2tc0ytq6pe27s3yclp3086jyu" />
+  <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="-byzd16c9464mzaxq1u6n0ssaly7qydz" />
+  <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="-8tpnzgwrbijeinrlmy2syctrrkkgmqe" />
+  <common hash="ka2mpzhm0gb3d4ty3rjajgrkjh9u3s" dependsOnNodes="true">
     <dep root="1202387718766" />
     <dep root="1202387945296" />
     <dep root="1202387978141" />
@@ -52,10 +49,7 @@
     <dep root="1210521546663" />
     <dep root="1216903255225" />
     <dep root="6242401288845934074" />
-    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
-    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
-    <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel.adapter.ids(MPS.Core/jetbrains.mps.smodel.adapter.ids@java_stub)" />
-    <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel.runtime.impl(MPS.Core/jetbrains.mps.smodel.runtime.impl@java_stub)" />
+    <dep model="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -65,45 +59,45 @@
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="StructureAspectDescriptor.java" />
   </common>
-  <source id="1202387978141" name="IComponentPart" hash="3ewjn895z3bz5dv3av6zyg9x2fz57qx" />
-  <source id="1202387945296" name="ComponentInstance" hash="-1kopdm0rb745hedcqvvlimo5dasslt" />
-  <source id="1202387718766" name="ComponentDeclaration" hash="c4krgtnnhsg8dsyvsvj6ehrwl776t5g" />
-  <source id="1202388384249" name="ComponentController" hash="90n0xr0k3epygjwn6cq4oi72iwpzhga" />
-  <source id="1202389314593" name="AttributeValue" hash="2k6oh021ci9dyd6mk44uhsr21i4gstd" />
-  <source id="1202388805843" name="AttributeDeclaration" hash="asfn1njagjww79j36ab7ci4quddmv4v" />
-  <source id="1202464424004" name="BindExpression" hash="7es1o0gg162mgikm67zhy9o0un66fb" />
-  <source id="1202465023198" name="ComponentType" hash="ak2laywd1eg1sygqcjzmpi3r25mp2is" />
-  <source id="1202478475127" name="AttributeReferenceOperation" hash="-9e0xjh72swn6efu83n203f5isew4vi" />
-  <source id="1202739819652" name="LayoutConstraint" hash="8r254tyzdie5j90hmnbdbaubkyhvwza" />
-  <source id="1202742489421" name="ComponentReference" hash="1kxlh5ctdrlu33cj6ejd9nm33pahs8z" />
-  <source id="1202744043552" name="ActionHandler" hash="-6af0b4j33muaounwx9weqbqhajzdea3" />
-  <source id="1202816914429" name="Form" hash="27wt4xyft4zuw9wgzu5x1n9as4lpcem" />
-  <source id="1202816951086" name="FormPart" hash="-51dtgfa3erp3aevft4b20xov0cca62r" />
-  <source id="1202817076568" name="IComponentInstance" hash="-af8j6ytffe243hzts3xgspqeu9j751z" />
-  <source id="1202823654753" name="Grid" hash="6u1jpwwkavs5xwrckgcymt9lnyjbgrn" />
-  <source id="1202823683703" name="GridRow" hash="959s6vlvesnigzqoznx2zdy6mu9rxns" />
-  <source id="1202830095650" name="StandardDialog" hash="7jehl9s2rrtr9foax291boqr7i3l84h" />
-  <source id="1202831784434" name="StandardDialogButton" hash="-d7pkm7v6jdifqemytqdb8uzejc22fpi" />
-  <source id="1203080174635" name="AfterConstructionBlock" hash="-2e6p30rcghsip0zvta3rx9a6g2llr45" />
-  <source id="1203084152264" name="ListElements" hash="xrpis5pxu3obh8nlnru1r0muthavb2" />
-  <source id="1203089479329" name="Scroller" hash="-1iamj6sml8p9f3j1cuaut6hbfr2wdi" />
-  <source id="1203520768804" name="ComponentCreator" hash="nsj2dbt8nk83p10kbwyu19rj95ijjd" />
-  <source id="1207748052051" name="BeanDeclaration" hash="cc3trn8txrf6hj14gfh7unecg1hvncp" />
-  <source id="1207748590566" name="BeanType" hash="-9pocz2tw8vcmgpzgen0a0zpniysb66q" />
-  <source id="1207754257625" name="BeanCreator" hash="28z54bvyzvh5fg9lyllqoznmxpsq6ay" />
-  <source id="1208087694312" name="EventDeclaration" hash="3e1ajj0w356fl67ne8qf4zxzfgc5cob" />
-  <source id="1208089639160" name="EventAccessOperation" hash="-6txa772uu6qm7rxv9hvyu8ru4dlhl5p" />
-  <source id="1208089922381" name="RaiseOperation" hash="4g08154is4olzxyzyj41cev67mlz9a7" />
-  <source id="1208090496480" name="AddListenerOperation" hash="-17b5g0o2i8rlne5a3uu7qt7ujcr8d0k" />
-  <source id="1208090516982" name="RemoveListenerOperation" hash="6isyk6y6m8s3xye6gq6u7nm98xlxep4" />
-  <source id="1208110293926" name="InlineEventHandler" hash="7ppl7wullge48lz1p1vqwgrrd2dmvmv" />
-  <source id="1208685679469" name="EventHandlerReference" hash="-bapr9wmrf1sntir06kd1o4n6661t0o3" />
-  <source id="1209655552864" name="RaiseInternalStatement" hash="72sjbwhbfgfqrt5qh9bxs2xb81qyung" />
-  <source id="1210173918195" name="StubCellRendererInfo" hash="7psovz239fv26jqs0qm64r0w56qkgtr" />
-  <source id="1210179557036" name="CellRendererAttribute" hash="a9fv4y391ycte55ohnze8qlfhoqyjds" />
-  <source id="1210519144319" name="InlineRenderer" hash="aqz5u9hgjk9p9pg6attjat8ucok919u" />
-  <source id="1210521546663" name="RenderingObject" hash="-t8ky1esrok2ja81u6ggm8i3n2e0hqh" />
-  <source id="1216903255225" name="BeforeConstructionBlock" hash="-bou4x8g9a749xkdrs5ggfnzl4qhn370" />
-  <source id="6242401288845934074" name="PngIcon" hash="-azfqlluswuvsmj5e6tj3ayq8xmb53ox" />
+  <source id="1202387978141" name="IComponentPart" />
+  <source id="1202387945296" name="ComponentInstance" />
+  <source id="1202387718766" name="ComponentDeclaration" />
+  <source id="1202388384249" name="ComponentController" />
+  <source id="1202389314593" name="AttributeValue" />
+  <source id="1202388805843" name="AttributeDeclaration" />
+  <source id="1202464424004" name="BindExpression" />
+  <source id="1202465023198" name="ComponentType" />
+  <source id="1202478475127" name="AttributeReferenceOperation" />
+  <source id="1202739819652" name="LayoutConstraint" />
+  <source id="1202742489421" name="ComponentReference" />
+  <source id="1202744043552" name="ActionHandler" />
+  <source id="1202816914429" name="Form" />
+  <source id="1202816951086" name="FormPart" />
+  <source id="1202817076568" name="IComponentInstance" />
+  <source id="1202823654753" name="Grid" />
+  <source id="1202823683703" name="GridRow" />
+  <source id="1202830095650" name="StandardDialog" />
+  <source id="1202831784434" name="StandardDialogButton" />
+  <source id="1203080174635" name="AfterConstructionBlock" />
+  <source id="1203084152264" name="ListElements" />
+  <source id="1203089479329" name="Scroller" />
+  <source id="1203520768804" name="ComponentCreator" />
+  <source id="1207748052051" name="BeanDeclaration" />
+  <source id="1207748590566" name="BeanType" />
+  <source id="1207754257625" name="BeanCreator" />
+  <source id="1208087694312" name="EventDeclaration" />
+  <source id="1208089639160" name="EventAccessOperation" />
+  <source id="1208089922381" name="RaiseOperation" />
+  <source id="1208090496480" name="AddListenerOperation" />
+  <source id="1208090516982" name="RemoveListenerOperation" />
+  <source id="1208110293926" name="InlineEventHandler" />
+  <source id="1208685679469" name="EventHandlerReference" />
+  <source id="1209655552864" name="RaiseInternalStatement" />
+  <source id="1210173918195" name="StubCellRendererInfo" />
+  <source id="1210179557036" name="CellRendererAttribute" />
+  <source id="1210519144319" name="InlineRenderer" />
+  <source id="1210521546663" name="RenderingObject" />
+  <source id="1216903255225" name="BeforeConstructionBlock" />
+  <source id="6242401288845934074" name="PngIcon" />
 </dependencies>
 

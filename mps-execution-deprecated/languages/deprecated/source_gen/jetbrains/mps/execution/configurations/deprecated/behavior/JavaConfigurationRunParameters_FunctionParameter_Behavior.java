@@ -20,7 +20,17 @@ public class JavaConfigurationRunParameters_FunctionParameter_Behavior {
   public static String call_getGeneratedFieldName_8126994885493110313(SAbstractConcept thisConcept) {
     return "myJavaRunParameters";
   }
+  public static SNode virtual_getType_2443692612523876968(SNode thisNode) {
+    return _quotation_createNode_xwtk3j_a0a3();
+  }
   private static SNode _quotation_createNode_xwtk3j_a0a1() {
+    PersistenceFacade facade = PersistenceFacade.getInstance();
+    SNode quotedNode_1 = null;
+    quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", null, null, false);
+    quotedNode_1.setReference("classifier", SReference.create("classifier", quotedNode_1, facade.createModelReference("r:68c7815b-65d3-4b04-9110-50fab74211e0(jetbrains.mps.execution.configurations.deprecated.runtime)"), facade.createNodeId("4631964019510578418")));
+    return quotedNode_1;
+  }
+  private static SNode _quotation_createNode_xwtk3j_a0a3() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;
     quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", null, null, false);

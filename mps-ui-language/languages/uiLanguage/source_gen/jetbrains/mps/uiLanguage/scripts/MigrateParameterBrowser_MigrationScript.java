@@ -8,7 +8,6 @@ import jetbrains.mps.lang.script.runtime.AbstractMigrationRefactoring;
 import org.jetbrains.mps.openapi.model.SNode;
 import org.jetbrains.mps.openapi.model.SReference;
 import jetbrains.mps.smodel.SModelRepository;
-import jetbrains.mps.smodel.SModelReference;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
@@ -37,7 +36,7 @@ public class MigrateParameterBrowser_MigrationScript extends BaseMigrationScript
       }
       public boolean isApplicableInstanceNode(SNode node) {
         SReference reference = node.getReference("componentDeclaration");
-        return reference != null && reference.getTargetSModelReference().equals(SModelRepository.getInstance().getModelDescriptor(new SModelReference("jetbrains.mps.execution.lib.ui", "")).getReference()) && reference.getTargetNodeId().toString().contains("1240470842553500411");
+        return reference != null && reference.getTargetSModelReference().equals(SModelRepository.getInstance().getModelDescriptor("jetbrains.mps.execution.lib.ui").getReference()) && reference.getTargetNodeId().toString().contains("1240470842553500411");
       }
       public void doUpdateInstanceNode(SNode node) {
         SNode parameterBrowserDeclaration = ListSequence.fromList(SModelOperations.getRoots(SNodeOperations.getModel(node), "jetbrains.mps.uiLanguage.structure.ComponentDeclaration")).findFirst(new IWhereFilter<SNode>() {
@@ -47,7 +46,7 @@ public class MigrateParameterBrowser_MigrationScript extends BaseMigrationScript
         });
         if ((parameterBrowserDeclaration == null)) {
           parameterBrowserDeclaration = createComponentDeclaration_wft9px_a0a0b0a0();
-          parameterBrowserDeclaration.setReference("mapTo", new DynamicReference("mapTo", parameterBrowserDeclaration, SModelRepository.getInstance().getModelDescriptor(new SModelReference("jetbrains.mps.execution.lib.ui", "")).getReference(), "RawLineEditorComponent"));
+          parameterBrowserDeclaration.setReference("mapTo", new DynamicReference("mapTo", parameterBrowserDeclaration, SModelRepository.getInstance().getModelDescriptor("jetbrains.mps.execution.lib.ui").getReference(), "RawLineEditorComponent"));
           SModelOperations.addRootNode(SNodeOperations.getModel(node), parameterBrowserDeclaration);
           SModelOperations.addRootNode(SNodeOperations.getModel(node), createComponentController_wft9px_a0a3a1a0a(parameterBrowserDeclaration));
         }
