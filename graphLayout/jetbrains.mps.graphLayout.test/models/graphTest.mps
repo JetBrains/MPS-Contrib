@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:2d0fbdb5-e73c-4db3-b9e8-fb2e93925820(graphTest)">
+<model modelUID="1cf9ab03-28e6-49cc-b765-555cd6dcfc28/r:2d0fbdb5-e73c-4db3-b9e8-fb2e93925820(jetbrains.mps.graphLayout.test/graphTest)">
   <persistence version="8" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
   <language namespace="83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)" />
   <language namespace="f61473f9-130f-42f6-b98d-6c438812c2f6(jetbrains.mps.baseLanguage.unitTest)" />
-  <import index="kthp" modelUID="r:d228b8c9-d2b1-4686-9904-e3c49a346bc6(jetbrains.mps.graphLayout.graph)" version="0" />
-  <import index="6bc0" modelUID="r:1674ee60-7c44-4176-8f8c-2c87c767d971(sampleGraphs)" version="-1" />
-  <import index="p08e" modelUID="r:5aba4e89-d910-492c-9b56-c5e3fe8c0f28(jetbrains.mps.graphLayout.algorithms)" version="-1" />
-  <import index="2yak" modelUID="r:964bbf7c-f239-4721-836a-ba42f2f69703(visualization)" version="-1" />
-  <import index="x9z7" modelUID="r:8254b240-abed-4f97-a7cd-2eef733ec7fb(jetbrains.mps.graphLayout.util)" version="0" />
-  <import index="th8p" modelUID="r:e4338979-215b-4b9c-a1e7-b887743c18eb(layeredLayoutTest)" version="-1" />
-  <import index="k7g3" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(java.util@java_stub)" version="-1" />
-  <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(java.lang@java_stub)" version="-1" />
-  <import index="fxg7" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(java.io@java_stub)" version="-1" />
-  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
-  <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
-  <import index="tpe3" modelUID="r:00000000-0000-4000-0000-011c895902d7(jetbrains.mps.baseLanguage.unitTest.structure)" version="-1" implicit="yes" />
+  <import index="kthp" modelUID="8b851d7a-07be-4a1c-b815-1fb38e1fa4cc/r:d228b8c9-d2b1-4686-9904-e3c49a346bc6(jetbrains.mps.graphLayout.graph/jetbrains.mps.graphLayout.graph)" version="0" />
+  <import index="6bc0" modelUID="1cf9ab03-28e6-49cc-b765-555cd6dcfc28/r:1674ee60-7c44-4176-8f8c-2c87c767d971(jetbrains.mps.graphLayout.test/sampleGraphs)" version="-1" />
+  <import index="p08e" modelUID="8b851d7a-07be-4a1c-b815-1fb38e1fa4cc/r:5aba4e89-d910-492c-9b56-c5e3fe8c0f28(jetbrains.mps.graphLayout.graph/jetbrains.mps.graphLayout.algorithms)" version="-1" />
+  <import index="2yak" modelUID="1cf9ab03-28e6-49cc-b765-555cd6dcfc28/r:964bbf7c-f239-4721-836a-ba42f2f69703(jetbrains.mps.graphLayout.test/visualization)" version="-1" />
+  <import index="x9z7" modelUID="8b851d7a-07be-4a1c-b815-1fb38e1fa4cc/r:8254b240-abed-4f97-a7cd-2eef733ec7fb(jetbrains.mps.graphLayout.graph/jetbrains.mps.graphLayout.util)" version="0" />
+  <import index="th8p" modelUID="1cf9ab03-28e6-49cc-b765-555cd6dcfc28/r:e4338979-215b-4b9c-a1e7-b887743c18eb(jetbrains.mps.graphLayout.test/layeredLayoutTest)" version="-1" />
+  <import index="k7g3" modelUID="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" version="-1" />
+  <import index="e2lb" modelUID="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" />
+  <import index="fxg7" modelUID="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" version="-1" />
+  <import index="tpee" modelUID="f3061a53-9226-4cc5-a443-f952ceaf5816/r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage/jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
+  <import index="tpck" modelUID="ceab5195-25ea-4f22-9b92-103b95ca8c0c/r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core/jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
+  <import index="tp2q" modelUID="83888646-71ce-4f1c-9c53-c54016f6ad4f/r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections/jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
+  <import index="tpe3" modelUID="f61473f9-130f-42f6-b98d-6c438812c2f6/r:00000000-0000-4000-0000-011c895902d7(jetbrains.mps.baseLanguage.unitTest/jetbrains.mps.baseLanguage.unitTest.structure)" version="-1" implicit="yes" />
   <root type="tpe3.BTestCase" typeId="tpe3.1171931851043" id="5180427534212042871" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="algorithms" />
     <property name="testCaseName" nameId="tpe3.1171931851045" value="TopologicalSorting" />

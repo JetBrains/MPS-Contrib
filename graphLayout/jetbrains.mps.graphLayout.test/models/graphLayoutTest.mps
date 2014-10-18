@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:37c95452-cbcd-4818-9dbd-771ebb628247(graphLayoutTest)">
+<model modelUID="1cf9ab03-28e6-49cc-b765-555cd6dcfc28/r:37c95452-cbcd-4818-9dbd-771ebb628247(jetbrains.mps.graphLayout.test/graphLayoutTest)">
   <persistence version="8" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
   <language namespace="83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)" />
   <language namespace="f61473f9-130f-42f6-b98d-6c438812c2f6(jetbrains.mps.baseLanguage.unitTest)" />
-  <import index="j8ic" modelUID="r:839ad18f-aa0d-4b1a-8b4c-ca87cf3bcac6(jetbrains.mps.graphLayout.graphLayout)" version="-1" />
-  <import index="kthp" modelUID="r:d228b8c9-d2b1-4686-9904-e3c49a346bc6(jetbrains.mps.graphLayout.graph)" version="0" />
-  <import index="8rsx" modelUID="r:5498b4d6-623f-4d7c-a07f-396c96e14007(jetbrains.mps.graphLayout.intGeom2D)" version="-1" />
-  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
-  <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
-  <import index="tpe3" modelUID="r:00000000-0000-4000-0000-011c895902d7(jetbrains.mps.baseLanguage.unitTest.structure)" version="-1" implicit="yes" />
+  <import index="j8ic" modelUID="8b851d7a-07be-4a1c-b815-1fb38e1fa4cc/r:839ad18f-aa0d-4b1a-8b4c-ca87cf3bcac6(jetbrains.mps.graphLayout.graph/jetbrains.mps.graphLayout.graphLayout)" version="-1" />
+  <import index="kthp" modelUID="8b851d7a-07be-4a1c-b815-1fb38e1fa4cc/r:d228b8c9-d2b1-4686-9904-e3c49a346bc6(jetbrains.mps.graphLayout.graph/jetbrains.mps.graphLayout.graph)" version="0" />
+  <import index="8rsx" modelUID="dd0b904b-7c6b-48aa-8557-baf05cd83f66/r:5498b4d6-623f-4d7c-a07f-396c96e14007(jetbrains.mps.graphLayout.geom/jetbrains.mps.graphLayout.intGeom2D)" version="-1" />
+  <import index="tpee" modelUID="f3061a53-9226-4cc5-a443-f952ceaf5816/r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage/jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
+  <import index="tpck" modelUID="ceab5195-25ea-4f22-9b92-103b95ca8c0c/r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core/jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
+  <import index="tp2q" modelUID="83888646-71ce-4f1c-9c53-c54016f6ad4f/r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections/jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
+  <import index="tpe3" modelUID="f61473f9-130f-42f6-b98d-6c438812c2f6/r:00000000-0000-4000-0000-011c895902d7(jetbrains.mps.baseLanguage.unitTest/jetbrains.mps.baseLanguage.unitTest.structure)" version="-1" implicit="yes" />
   <root type="tpee.ClassConcept" typeId="tpee.1068390468198" id="5488345258545703426" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="GraphPointLayoutChecker" />
     <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="5488345258545703427" nodeInfo="nn" />

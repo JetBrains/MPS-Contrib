@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:3a06e273-15da-4a30-a12e-b0f88177e972(jetbrains.mps.build.generictasks.optional)" doNotGenerate="true">
+<model modelUID="fba399db-f591-45dc-a279-e2a2a986e262/r:3a06e273-15da-4a30-a12e-b0f88177e972(jetbrains.mps.build.generictasks/jetbrains.mps.build.generictasks.optional)" doNotGenerate="true">
   <persistence version="8" />
   <language namespace="0b608d44-1308-418d-8715-22d040c3b3cc(jetbrains.mps.buildlanguage)" />
   <language namespace="fba399db-f591-45dc-a279-e2a2a986e262(jetbrains.mps.build.generictasks)" />
-  <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="tpsk" modelUID="r:00000000-0000-4000-0000-011c895904c8(jetbrains.mps.buildlanguage.structure)" version="21" implicit="yes" />
-  <import index="adh8" modelUID="r:7a6a35c6-e369-4565-b91b-c7c8dfa2c8d7(jetbrains.mps.build.generictasks.generated)" version="-1" implicit="yes" />
-  <import index="ddum" modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" version="22" implicit="yes" />
+  <import index="tpck" modelUID="ceab5195-25ea-4f22-9b92-103b95ca8c0c/r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core/jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
+  <import index="tpsk" modelUID="0b608d44-1308-418d-8715-22d040c3b3cc/r:00000000-0000-4000-0000-011c895904c8(jetbrains.mps.buildlanguage/jetbrains.mps.buildlanguage.structure)" version="21" implicit="yes" />
+  <import index="adh8" modelUID="fba399db-f591-45dc-a279-e2a2a986e262/r:7a6a35c6-e369-4565-b91b-c7c8dfa2c8d7(jetbrains.mps.build.generictasks/jetbrains.mps.build.generictasks.generated)" version="-1" implicit="yes" />
+  <import index="ddum" modelUID="fba399db-f591-45dc-a279-e2a2a986e262/r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks/jetbrains.mps.build.generictasks.structure)" version="22" implicit="yes" />
   <root type="ddum.BuiltInTaskDeclaration" typeId="ddum.353793545802643486" id="4860082428302043549" nodeInfo="ng">
     <property name="depracated" nameId="ddum.7699562953468509839" value="false" />
     <property name="fake" nameId="ddum.353793545802643496" value="false" />

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:d89ddc4c-de44-408f-97b1-095c4af64bfb(jetbrains.mps.xmlQuery.typesystem)" version="0">
+<model modelUID="a8fdde77-2e6c-41f6-ac79-8e9b6449c271/r:d89ddc4c-de44-408f-97b1-095c4af64bfb(jetbrains.mps.xmlQuery/jetbrains.mps.xmlQuery.typesystem)" version="0">
   <persistence version="8" />
   <language namespace="a8fdde77-2e6c-41f6-ac79-8e9b6449c271(jetbrains.mps.xmlQuery)" />
   <language namespace="7a5dda62-9140-4668-ab76-d5ed1746f2b2(jetbrains.mps.lang.typesystem)" />
@@ -8,19 +8,19 @@
   <language namespace="7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)" />
   <language namespace="3a13115c-633c-4c5c-bbcc-75c4219e9555(jetbrains.mps.lang.quotation)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="mlj4" modelUID="r:bd6e2c7d-3a5d-4eed-9ff9-27f23ecb34e2(jetbrains.mps.xmlQuery.structure)" version="5" />
-  <import index="tpj8" modelUID="r:00000000-0000-4000-0000-011c89590598(jetbrains.mps.xmlSchema.structure)" version="3" />
-  <import index="ra3l" modelUID="r:e79b58b4-ea58-4c9d-b43b-c3a260addf6a(jetbrains.mps.xmlQuery.constraints)" version="0" />
-  <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(java.lang@java_stub)" version="-1" />
-  <import index="fmpa" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#org.xml.sax(org.xml.sax@java_stub)" version="-1" />
-  <import index="zwkq" modelUID="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#org.jdom(MPS.Core/org.jdom@java_stub)" version="-1" />
-  <import index="tpd4" modelUID="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" version="7" implicit="yes" />
-  <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
-  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
-  <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
-  <import index="tp3r" modelUID="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" version="0" implicit="yes" />
-  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="4991903842868198512" nodeInfo="ng">
+  <import index="mlj4" modelUID="a8fdde77-2e6c-41f6-ac79-8e9b6449c271/r:bd6e2c7d-3a5d-4eed-9ff9-27f23ecb34e2(jetbrains.mps.xmlQuery/jetbrains.mps.xmlQuery.structure)" version="5" />
+  <import index="tpj8" modelUID="b51b9e02-45dc-4b48-b300-cf49360a8d1f/r:00000000-0000-4000-0000-011c89590598(jetbrains.mps.xmlSchema/jetbrains.mps.xmlSchema.structure)" version="3" />
+  <import index="ra3l" modelUID="a8fdde77-2e6c-41f6-ac79-8e9b6449c271/r:e79b58b4-ea58-4c9d-b43b-c3a260addf6a(jetbrains.mps.xmlQuery/jetbrains.mps.xmlQuery.constraints)" version="0" />
+  <import index="e2lb" modelUID="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" />
+  <import index="fmpa" modelUID="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#org.xml.sax(JDK/org.xml.sax@java_stub)" version="-1" />
+  <import index="zwkq" modelUID="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#org.jdom(MPS.Core/org.jdom@java_stub)" version="-1" />
+  <import index="tpd4" modelUID="7a5dda62-9140-4668-ab76-d5ed1746f2b2/r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem/jetbrains.mps.lang.typesystem.structure)" version="7" implicit="yes" />
+  <import index="tp25" modelUID="7866978e-a0f0-4cc7-81bc-4d213d9375e1/r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel/jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
+  <import index="tpee" modelUID="f3061a53-9226-4cc5-a443-f952ceaf5816/r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage/jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
+  <import index="tpck" modelUID="ceab5195-25ea-4f22-9b92-103b95ca8c0c/r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core/jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
+  <import index="tp2q" modelUID="83888646-71ce-4f1c-9c53-c54016f6ad4f/r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections/jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
+  <import index="tp3r" modelUID="3a13115c-633c-4c5c-bbcc-75c4219e9555/r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation/jetbrains.mps.lang.quotation.structure)" version="0" implicit="yes" />
+  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="4991903842868198512" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="typeof_AccessChildrenOperation" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="operations" />
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="4991903842868198513" nodeInfo="sn">
@@ -142,7 +142,7 @@
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="mlj4.4815471077468621634" resolveInfo="AccessChildrenOperation" />
     </node>
   </root>
-  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="4991903842868473295" nodeInfo="ng">
+  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="4991903842868473295" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="typeof_AccessAttributeOperation" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="operations" />
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="4991903842868473296" nodeInfo="sn">
@@ -175,7 +175,7 @@
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="mlj4.4991903842868445303" resolveInfo="AccessAttributeOperation" />
     </node>
   </root>
-  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="634907465121461835" nodeInfo="ng">
+  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="634907465121461835" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="typeof_AccessArbitraryChildrenOperation" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="operations" />
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="634907465121461836" nodeInfo="sn">
@@ -221,7 +221,7 @@
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="mlj4.634907465121461799" resolveInfo="AccessArbitraryChildrenOperation" />
     </node>
   </root>
-  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="634907465121486818" nodeInfo="ng">
+  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="634907465121486818" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="typeof_AccessArbitraryAttributeOperation" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="operations" />
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="634907465121486819" nodeInfo="sn">
@@ -265,7 +265,7 @@
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="mlj4.634907465121463881" resolveInfo="AccessArbitraryAttributeOperation" />
     </node>
   </root>
-  <root type="tpd4.NonTypesystemRule" typeId="tpd4.1195214364922" id="7129398160684499233" nodeInfo="ng">
+  <root type="tpd4.NonTypesystemRule" typeId="tpd4.1195214364922" id="7129398160684499233" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="check_XMLElementType_references" />
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="7129398160684499234" nodeInfo="sn">
       <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="7129398160684613500" nodeInfo="nn">
@@ -351,7 +351,7 @@
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="mlj4.4815471077468621637" resolveInfo="XMLElementType" />
     </node>
   </root>
-  <root type="tpd4.SubtypingRule" typeId="tpd4.1175147670730" id="3865540407050958119" nodeInfo="ng">
+  <root type="tpd4.SubtypingRule" typeId="tpd4.1175147670730" id="3865540407050958119" nodeInfo="ig">
     <property name="isWeak" nameId="tpd4.1175607673137" value="true" />
     <property name="name" nameId="tpck.1169194664001" value="supertypeof_XMLElementType" />
     <node role="body" roleId="tpd4.1175147624276" type="tpee.StatementList" typeId="tpee.1068580123136" id="3865540407050958120" nodeInfo="sn">
@@ -543,7 +543,7 @@
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="mlj4.4815471077468621637" resolveInfo="XMLElementType" />
     </node>
   </root>
-  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="115745247309398848" nodeInfo="ng">
+  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="115745247309398848" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="typeof_AccessTextOperation" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="operations" />
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="115745247309398849" nodeInfo="sn">
@@ -567,7 +567,7 @@
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="mlj4.4203809819610731778" resolveInfo="AccessTextOperation" />
     </node>
   </root>
-  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="4705273682234223825" nodeInfo="ng">
+  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="4705273682234223825" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="typeof_XMLElementCreator" />
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="4705273682234223826" nodeInfo="sn">
       <node role="statement" roleId="tpee.1068581517665" type="tpd4.CreateEquationStatement" typeId="tpd4.1174658326157" id="4705273682234223845" nodeInfo="nn">
@@ -595,7 +595,7 @@
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="mlj4.4705273682234223462" resolveInfo="XMLElementCreator" />
     </node>
   </root>
-  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="10026583185000614" nodeInfo="ng">
+  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="10026583185000614" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="typeof_XMLAttributeBuilder" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="builders" />
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="10026583185000615" nodeInfo="sn">
@@ -634,7 +634,7 @@
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="mlj4.7225751495667376018" resolveInfo="AttributeBuilder" />
     </node>
   </root>
-  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="10026583185478629" nodeInfo="ng">
+  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="10026583185478629" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="typeof_XMLTextBuilder" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="builders" />
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="10026583185478630" nodeInfo="sn">

@@ -10,7 +10,7 @@
     <facet type="tests" />
   </facets>
   <accessoryModels>
-    <model modelUID="r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)" />
+    <model modelUID="5d6bee4c-f891-4a93-a0c9-e2268726ae47/r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage/jetbrains.mps.uiLanguage.components)" />
   </accessoryModels>
   <generators>
     <generator generatorUID="jetbrains.mps.uiLanguage#1202393863737" uuid="d1415f93-6c9c-4200-81f9-9205ed57131a">
@@ -58,13 +58,13 @@
           <greater-priority-mapping>
             <generator generatorUID="d1415f93-6c9c-4200-81f9-9205ed57131a(jetbrains.mps.uiLanguage#1202393863737)" />
             <external-mapping>
-              <mapping-node modelUID="r:00000000-0000-4000-0000-011c89590555(jetbrains.mps.uiLanguage.generator.baseLanguage.template.form@generator)" nodeID="*" />
+              <mapping-node modelUID="d1415f93-6c9c-4200-81f9-9205ed57131a/r:00000000-0000-4000-0000-011c89590555(jetbrains.mps.uiLanguage#1202393863737/jetbrains.mps.uiLanguage.generator.baseLanguage.template.form@generator)" nodeID="*" />
             </external-mapping>
           </greater-priority-mapping>
           <lesser-priority-mapping>
             <generator generatorUID="d1415f93-6c9c-4200-81f9-9205ed57131a(jetbrains.mps.uiLanguage#1202393863737)" />
             <external-mapping>
-              <mapping-node modelUID="r:00000000-0000-4000-0000-011c89590557(jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator)" nodeID="1202393865414" />
+              <mapping-node modelUID="d1415f93-6c9c-4200-81f9-9205ed57131a/r:00000000-0000-4000-0000-011c89590557(jetbrains.mps.uiLanguage#1202393863737/jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator)" nodeID="1202393865414" />
             </external-mapping>
           </lesser-priority-mapping>
         </mapping-priority-rule>
@@ -72,13 +72,13 @@
           <greater-priority-mapping>
             <generator generatorUID="d1415f93-6c9c-4200-81f9-9205ed57131a(jetbrains.mps.uiLanguage#1202393863737)" />
             <external-mapping>
-              <mapping-node modelUID="r:00000000-0000-4000-0000-011c89590556(jetbrains.mps.uiLanguage.generator.baseLanguage.template.grid@generator)" nodeID="*" />
+              <mapping-node modelUID="d1415f93-6c9c-4200-81f9-9205ed57131a/r:00000000-0000-4000-0000-011c89590556(jetbrains.mps.uiLanguage#1202393863737/jetbrains.mps.uiLanguage.generator.baseLanguage.template.grid@generator)" nodeID="*" />
             </external-mapping>
           </greater-priority-mapping>
           <lesser-priority-mapping>
             <generator generatorUID="d1415f93-6c9c-4200-81f9-9205ed57131a(jetbrains.mps.uiLanguage#1202393863737)" />
             <external-mapping>
-              <mapping-node modelUID="r:00000000-0000-4000-0000-011c89590557(jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator)" nodeID="1202393865414" />
+              <mapping-node modelUID="d1415f93-6c9c-4200-81f9-9205ed57131a/r:00000000-0000-4000-0000-011c89590557(jetbrains.mps.uiLanguage#1202393863737/jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator)" nodeID="1202393865414" />
             </external-mapping>
           </lesser-priority-mapping>
         </mapping-priority-rule>
@@ -86,13 +86,13 @@
           <greater-priority-mapping>
             <generator generatorUID="d1415f93-6c9c-4200-81f9-9205ed57131a(jetbrains.mps.uiLanguage#1202393863737)" />
             <external-mapping>
-              <mapping-node modelUID="r:00000000-0000-4000-0000-011c89590554(jetbrains.mps.uiLanguage.generator.baseLanguage.template.dialog@generator)" nodeID="*" />
+              <mapping-node modelUID="d1415f93-6c9c-4200-81f9-9205ed57131a/r:00000000-0000-4000-0000-011c89590554(jetbrains.mps.uiLanguage#1202393863737/jetbrains.mps.uiLanguage.generator.baseLanguage.template.dialog@generator)" nodeID="*" />
             </external-mapping>
           </greater-priority-mapping>
           <lesser-priority-mapping>
             <generator generatorUID="d1415f93-6c9c-4200-81f9-9205ed57131a(jetbrains.mps.uiLanguage#1202393863737)" />
             <external-mapping>
-              <mapping-node modelUID="r:00000000-0000-4000-0000-011c89590557(jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator)" nodeID="1202393865414" />
+              <mapping-node modelUID="d1415f93-6c9c-4200-81f9-9205ed57131a/r:00000000-0000-4000-0000-011c89590557(jetbrains.mps.uiLanguage#1202393863737/jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator)" nodeID="1202393865414" />
             </external-mapping>
           </lesser-priority-mapping>
         </mapping-priority-rule>
@@ -100,13 +100,13 @@
           <greater-priority-mapping>
             <generator generatorUID="d1415f93-6c9c-4200-81f9-9205ed57131a(jetbrains.mps.uiLanguage#1202393863737)" />
             <external-mapping>
-              <mapping-node modelUID="r:00000000-0000-4000-0000-011c89590557(jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator)" nodeID="1202393865414" />
+              <mapping-node modelUID="d1415f93-6c9c-4200-81f9-9205ed57131a/r:00000000-0000-4000-0000-011c89590557(jetbrains.mps.uiLanguage#1202393863737/jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator)" nodeID="1202393865414" />
             </external-mapping>
           </greater-priority-mapping>
           <lesser-priority-mapping>
             <generator generatorUID="d1415f93-6c9c-4200-81f9-9205ed57131a(jetbrains.mps.uiLanguage#1202393863737)" />
             <external-mapping>
-              <mapping-node modelUID="r:00000000-0000-4000-0000-011c89590557(jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator)" nodeID="1208105628414" />
+              <mapping-node modelUID="d1415f93-6c9c-4200-81f9-9205ed57131a/r:00000000-0000-4000-0000-011c89590557(jetbrains.mps.uiLanguage#1202393863737/jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator)" nodeID="1208105628414" />
             </external-mapping>
           </lesser-priority-mapping>
         </mapping-priority-rule>

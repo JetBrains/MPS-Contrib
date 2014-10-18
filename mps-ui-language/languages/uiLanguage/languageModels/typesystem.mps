@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:00000000-0000-4000-0000-011c89590550(jetbrains.mps.uiLanguage.typesystem)">
+<model modelUID="5d6bee4c-f891-4a93-a0c9-e2268726ae47/r:00000000-0000-4000-0000-011c89590550(jetbrains.mps.uiLanguage/jetbrains.mps.uiLanguage.typesystem)">
   <persistence version="8" />
   <language namespace="7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
@@ -8,18 +8,18 @@
   <language namespace="3a13115c-633c-4c5c-bbcc-75c4219e9555(jetbrains.mps.lang.quotation)" />
   <language namespace="5d6bee4c-f891-4a93-a0c9-e2268726ae47(jetbrains.mps.uiLanguage)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="tphr" modelUID="r:00000000-0000-4000-0000-011c89590553(jetbrains.mps.uiLanguage.structure)" version="1" />
-  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" />
-  <import index="tphs" modelUID="r:00000000-0000-4000-0000-011c8959054c(jetbrains.mps.uiLanguage.behavior)" version="-1" />
-  <import index="tp4f" modelUID="r:00000000-0000-4000-0000-011c89590373(jetbrains.mps.baseLanguage.classifiers.structure)" version="0" />
-  <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(java.lang@java_stub)" version="-1" />
-  <import index="vpl2" modelUID="r:00067a2f-ff21-4151-9184-3308b3d1f130(jetbrains.mps.uiLanguage.runtime)" version="-1" />
-  <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
-  <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
-  <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="tp3r" modelUID="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" version="0" implicit="yes" />
-  <import index="tpd4" modelUID="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" version="7" implicit="yes" />
-  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="1202396452486" nodeInfo="ng">
+  <import index="tphr" modelUID="5d6bee4c-f891-4a93-a0c9-e2268726ae47/r:00000000-0000-4000-0000-011c89590553(jetbrains.mps.uiLanguage/jetbrains.mps.uiLanguage.structure)" version="1" />
+  <import index="tpee" modelUID="f3061a53-9226-4cc5-a443-f952ceaf5816/r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage/jetbrains.mps.baseLanguage.structure)" version="5" />
+  <import index="tphs" modelUID="5d6bee4c-f891-4a93-a0c9-e2268726ae47/r:00000000-0000-4000-0000-011c8959054c(jetbrains.mps.uiLanguage/jetbrains.mps.uiLanguage.behavior)" version="-1" />
+  <import index="tp4f" modelUID="443f4c36-fcf5-4eb6-9500-8d06ed259e3e/r:00000000-0000-4000-0000-011c89590373(jetbrains.mps.baseLanguage.classifiers/jetbrains.mps.baseLanguage.classifiers.structure)" version="0" />
+  <import index="e2lb" modelUID="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" />
+  <import index="vpl2" modelUID="ceb47609-02c2-4927-bb6d-d58368388a62/r:00067a2f-ff21-4151-9184-3308b3d1f130(jetbrains.mps.ide.uiLanguage.runtime/jetbrains.mps.uiLanguage.runtime)" version="-1" />
+  <import index="tp25" modelUID="7866978e-a0f0-4cc7-81bc-4d213d9375e1/r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel/jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
+  <import index="tp2q" modelUID="83888646-71ce-4f1c-9c53-c54016f6ad4f/r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections/jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
+  <import index="tpck" modelUID="ceab5195-25ea-4f22-9b92-103b95ca8c0c/r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core/jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
+  <import index="tp3r" modelUID="3a13115c-633c-4c5c-bbcc-75c4219e9555/r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation/jetbrains.mps.lang.quotation.structure)" version="0" implicit="yes" />
+  <import index="tpd4" modelUID="7a5dda62-9140-4668-ab76-d5ed1746f2b2/r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem/jetbrains.mps.lang.typesystem.structure)" version="7" implicit="yes" />
+  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="1202396452486" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="typeof_AttributeValue" />
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="1202396452487" nodeInfo="sn">
       <node role="statement" roleId="tpee.1068581517665" type="tpd4.CreateStrongLessThanInequationStatement" typeId="tpd4.1179832490862" id="1202396548783" nodeInfo="nn">
@@ -58,7 +58,7 @@
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tphr.1202389314593" resolveInfo="AttributeValue" />
     </node>
   </root>
-  <root type="tpd4.SubtypingRule" typeId="tpd4.1175147670730" id="1202465570668" nodeInfo="ng">
+  <root type="tpd4.SubtypingRule" typeId="tpd4.1175147670730" id="1202465570668" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="subtyping_ComponentType" />
     <node role="body" roleId="tpd4.1175147624276" type="tpee.StatementList" typeId="tpee.1068580123136" id="1202465570669" nodeInfo="sn">
       <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="1202832958296" nodeInfo="nn">
@@ -179,7 +179,7 @@
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tphr.1202465023198" resolveInfo="ComponentType" />
     </node>
   </root>
-  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="1202487346795" nodeInfo="ng">
+  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="1202487346795" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="typeof_AttributeReferenceOperation" />
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="1202487346796" nodeInfo="sn">
       <node role="statement" roleId="tpee.1068581517665" type="tpd4.CreateEquationStatement" typeId="tpd4.1174658326157" id="1202487353287" nodeInfo="nn">
@@ -212,7 +212,7 @@
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tphr.1202478475127" resolveInfo="AttributeReferenceOperation" />
     </node>
   </root>
-  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="1202742675844" nodeInfo="ng">
+  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="1202742675844" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="typeof_ComponentReferencePart" />
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="1202742675845" nodeInfo="sn">
       <node role="statement" roleId="tpee.1068581517665" type="tpd4.CreateEquationStatement" typeId="tpd4.1174658326157" id="1202742685648" nodeInfo="nn">
@@ -252,7 +252,7 @@
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tphr.1202742489421" resolveInfo="ComponentReference" />
     </node>
   </root>
-  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="1203520939275" nodeInfo="ng">
+  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="1203520939275" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="typeof_ComponentCreator" />
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="1203520939276" nodeInfo="sn">
       <node role="statement" roleId="tpee.1068581517665" type="tpd4.CreateEquationStatement" typeId="tpd4.1174658326157" id="1203520945751" nodeInfo="nn">
@@ -287,7 +287,7 @@
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tphr.1203520768804" resolveInfo="ComponentCreator" />
     </node>
   </root>
-  <root type="tpd4.SubtypingRule" typeId="tpd4.1175147670730" id="1207748658541" nodeInfo="ng">
+  <root type="tpd4.SubtypingRule" typeId="tpd4.1175147670730" id="1207748658541" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Typeof_BeanType_IsSubtype_BeanObject" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="Beans" />
     <node role="body" roleId="tpd4.1175147624276" type="tpee.StatementList" typeId="tpee.1068580123136" id="1207748658542" nodeInfo="sn">
@@ -304,7 +304,7 @@
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tphr.1207748590566" resolveInfo="BeanType" />
     </node>
   </root>
-  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="1207754475172" nodeInfo="ng">
+  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="1207754475172" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="typeof_GenericNewExpression" />
     <property name="overrides" nameId="tpd4.1195213689297" value="true" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="Beans" />
@@ -372,7 +372,7 @@
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tpee.1145552977093" resolveInfo="GenericNewExpression" />
     </node>
   </root>
-  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="1208111228780" nodeInfo="ng">
+  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="1208111228780" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="typeof_RemoveListenerOperation" />
     <property name="overrides" nameId="tpd4.1195213689297" value="true" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="Events.Operations" />
@@ -548,7 +548,7 @@
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tphr.1208090516982" resolveInfo="RemoveListenerOperation" />
     </node>
   </root>
-  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="1208111558169" nodeInfo="ng">
+  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="1208111558169" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="typeof_AddListenerOperation" />
     <property name="overrides" nameId="tpd4.1195213689297" value="true" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="Events.Operations" />
@@ -724,7 +724,7 @@
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tphr.1208090496480" resolveInfo="AddListenerOperation" />
     </node>
   </root>
-  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="1208111589498" nodeInfo="ng">
+  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="1208111589498" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="typeof_RaiseOperation" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="Events.Operations" />
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="1208111589499" nodeInfo="sn">
@@ -788,7 +788,7 @@
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tphr.1208089922381" resolveInfo="RaiseOperation" />
     </node>
   </root>
-  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="1209655679279" nodeInfo="ng">
+  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="1209655679279" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="typeof_RaiseInternalStatement" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="Events.Operations" />
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="1209655679280" nodeInfo="sn">
@@ -838,7 +838,7 @@
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tphr.1209655552864" resolveInfo="RaiseInternalStatement" />
     </node>
   </root>
-  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="1210180436572" nodeInfo="ng">
+  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="1210180436572" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="typeof_CellRendererAttribute" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="Component" />
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="1210180436573" nodeInfo="sn">
@@ -891,7 +891,7 @@
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tphr.1210179557036" resolveInfo="CellRendererAttribute" />
     </node>
   </root>
-  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="1210521556477" nodeInfo="ng">
+  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="1210521556477" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="typeof_RenderingObject" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="Renderers" />
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="1210521556478" nodeInfo="sn">

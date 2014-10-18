@@ -49,13 +49,13 @@
           <greater-priority-mapping>
             <generator generatorUID="bfcadeff-430f-4472-9641-06156a02be37(jetbrains.mps.gtext#1164413905312)" />
             <external-mapping>
-              <mapping-node modelUID="r:00000000-0000-4000-0000-011c89590576(jetbrains.mps.gtext.generator.baseLanguage.template.main@generator)" nodeID="4246810654489660286" />
+              <mapping-node modelUID="bfcadeff-430f-4472-9641-06156a02be37/r:00000000-0000-4000-0000-011c89590576(jetbrains.mps.gtext#1164413905312/jetbrains.mps.gtext.generator.baseLanguage.template.main@generator)" nodeID="4246810654489660286" />
             </external-mapping>
           </greater-priority-mapping>
           <lesser-priority-mapping>
             <generator generatorUID="bfcadeff-430f-4472-9641-06156a02be37(jetbrains.mps.gtext#1164413905312)" />
             <external-mapping>
-              <mapping-node modelUID="r:00000000-0000-4000-0000-011c89590576(jetbrains.mps.gtext.generator.baseLanguage.template.main@generator)" nodeID="1164413908130" />
+              <mapping-node modelUID="bfcadeff-430f-4472-9641-06156a02be37/r:00000000-0000-4000-0000-011c89590576(jetbrains.mps.gtext#1164413905312/jetbrains.mps.gtext.generator.baseLanguage.template.main@generator)" nodeID="1164413908130" />
             </external-mapping>
           </lesser-priority-mapping>
         </mapping-priority-rule>

@@ -8,8 +8,8 @@
     <modelRoot path="${mps_home}/lib/ant/lib/ant-launcher.jar" type="java_classes" />
   </models>
   <accessoryModels>
-    <model modelUID="r:7a6a35c6-e369-4565-b91b-c7c8dfa2c8d7(jetbrains.mps.build.generictasks.generated)" />
-    <model modelUID="r:3a06e273-15da-4a30-a12e-b0f88177e972(jetbrains.mps.build.generictasks.optional)" />
+    <model modelUID="fba399db-f591-45dc-a279-e2a2a986e262/r:7a6a35c6-e369-4565-b91b-c7c8dfa2c8d7(jetbrains.mps.build.generictasks/jetbrains.mps.build.generictasks.generated)" />
+    <model modelUID="fba399db-f591-45dc-a279-e2a2a986e262/r:3a06e273-15da-4a30-a12e-b0f88177e972(jetbrains.mps.build.generictasks/jetbrains.mps.build.generictasks.optional)" />
   </accessoryModels>
   <generators>
     <generator name="" generatorUID="jetbrains.mps.build.generictasks#683020775182432297" uuid="e715b632-ac19-4813-ab23-46a82a84cc08">

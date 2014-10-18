@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:68f43446-b6ea-40ae-841b-d683d3d085cf(jetbrains.mps.xml.deprecated.textGen)">
+<model modelUID="823d79c6-2e26-4b0e-92a0-e1884a10bba9/r:68f43446-b6ea-40ae-841b-d683d3d085cf(jetbrains.mps.xml.deprecated/jetbrains.mps.xml.deprecated.textGen)">
   <persistence version="8" />
   <language namespace="b83431fe-5c8f-40bc-8a36-65e25f4dd253(jetbrains.mps.lang.textGen)" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
   <language namespace="83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)" />
   <language namespace="7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="tpkv" modelUID="r:00000000-0000-4000-0000-011c895905a3(jetbrains.mps.xml.deprecated.structure)" version="0" />
-  <import index="msyo" modelUID="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.util(MPS.Core/jetbrains.mps.util@java_stub)" version="-1" />
-  <import index="jhs5" modelUID="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#org.jdom.output(MPS.Core/org.jdom.output@java_stub)" version="-1" />
-  <import index="2omo" modelUID="r:de0d3c0c-d049-41cf-bbf9-a920ba513cd3(jetbrains.mps.lang.textGen.structure)" version="12" implicit="yes" />
-  <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
-  <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
-  <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
-  <import index="z9z4" modelUID="r:ba842257-2468-4a73-8c6f-fb41d6d73b25(jetbrains.mps.xml.deprecated.behavior)" version="-1" implicit="yes" />
-  <root type="2omo.ConceptTextGenDeclaration" typeId="2omo.1233670071145" id="1238415156895" nodeInfo="ng">
+  <import index="tpkv" modelUID="823d79c6-2e26-4b0e-92a0-e1884a10bba9/r:00000000-0000-4000-0000-011c895905a3(jetbrains.mps.xml.deprecated/jetbrains.mps.xml.deprecated.structure)" version="0" />
+  <import index="msyo" modelUID="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.util(MPS.Core/jetbrains.mps.util@java_stub)" version="-1" />
+  <import index="jhs5" modelUID="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#org.jdom.output(MPS.Core/org.jdom.output@java_stub)" version="-1" />
+  <import index="2omo" modelUID="b83431fe-5c8f-40bc-8a36-65e25f4dd253/r:de0d3c0c-d049-41cf-bbf9-a920ba513cd3(jetbrains.mps.lang.textGen/jetbrains.mps.lang.textGen.structure)" version="12" implicit="yes" />
+  <import index="tpck" modelUID="ceab5195-25ea-4f22-9b92-103b95ca8c0c/r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core/jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
+  <import index="tpee" modelUID="f3061a53-9226-4cc5-a443-f952ceaf5816/r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage/jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
+  <import index="tp2q" modelUID="83888646-71ce-4f1c-9c53-c54016f6ad4f/r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections/jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
+  <import index="tp25" modelUID="7866978e-a0f0-4cc7-81bc-4d213d9375e1/r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel/jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
+  <import index="z9z4" modelUID="823d79c6-2e26-4b0e-92a0-e1884a10bba9/r:ba842257-2468-4a73-8c6f-fb41d6d73b25(jetbrains.mps.xml.deprecated/jetbrains.mps.xml.deprecated.behavior)" version="-1" implicit="yes" />
+  <root type="2omo.ConceptTextGenDeclaration" typeId="2omo.1233670071145" id="1238415156895" nodeInfo="ig">
     <link role="conceptDeclaration" roleId="2omo.1233670257997" targetNodeId="tpkv.1119976146404" resolveInfo="Document" />
-    <node role="textGenBlock" roleId="2omo.1233749296504" type="2omo.GenerateTextDeclaration" typeId="2omo.1233749247888" id="1238415156896" nodeInfo="nn">
+    <node role="textGenBlock" roleId="2omo.1233749296504" type="2omo.GenerateTextDeclaration" typeId="2omo.1233749247888" id="1238415156896" nodeInfo="in">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="1238415156897" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="1238415415938" nodeInfo="nn">
           <node role="condition" roleId="tpee.1068580123160" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1238415422733" nodeInfo="nn">
@@ -57,7 +57,7 @@
         </node>
       </node>
     </node>
-    <node role="extension" roleId="2omo.7991274449437422201" type="2omo.ExtensionDeclaration" typeId="2omo.8931911391946696733" id="2341412953773657693" nodeInfo="nn">
+    <node role="extension" roleId="2omo.7991274449437422201" type="2omo.ExtensionDeclaration" typeId="2omo.8931911391946696733" id="2341412953773657693" nodeInfo="in">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="2341412953773657700" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="2341412953773657701" nodeInfo="nn">
           <node role="expression" roleId="tpee.1068580123156" type="tpee.TernaryOperatorExpression" typeId="tpee.1163668896201" id="2341412953773657702" nodeInfo="nn">
@@ -84,9 +84,9 @@
       </node>
     </node>
   </root>
-  <root type="2omo.ConceptTextGenDeclaration" typeId="2omo.1233670071145" id="1238415474351" nodeInfo="ng">
+  <root type="2omo.ConceptTextGenDeclaration" typeId="2omo.1233670071145" id="1238415474351" nodeInfo="ig">
     <link role="conceptDeclaration" roleId="2omo.1233670257997" targetNodeId="tpkv.1107866778860" resolveInfo="Element" />
-    <node role="textGenBlock" roleId="2omo.1233749296504" type="2omo.GenerateTextDeclaration" typeId="2omo.1233749247888" id="1238415474352" nodeInfo="nn">
+    <node role="textGenBlock" roleId="2omo.1233749296504" type="2omo.GenerateTextDeclaration" typeId="2omo.1233749247888" id="1238415474352" nodeInfo="in">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="1238415474353" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="2omo.IndentBufferOperation" typeId="2omo.1233920501193" id="1238423894624" nodeInfo="nn" />
         <node role="statement" roleId="tpee.1068581517665" type="2omo.AppendOperation" typeId="2omo.1237306079178" id="1238418252955" nodeInfo="nn">
@@ -259,9 +259,9 @@
       </node>
     </node>
   </root>
-  <root type="2omo.ConceptTextGenDeclaration" typeId="2omo.1233670071145" id="1238415701553" nodeInfo="ng">
+  <root type="2omo.ConceptTextGenDeclaration" typeId="2omo.1233670071145" id="1238415701553" nodeInfo="ig">
     <link role="conceptDeclaration" roleId="2omo.1233670257997" targetNodeId="tpkv.1234365312778" resolveInfo="DocumentTypeDeclaration" />
-    <node role="textGenBlock" roleId="2omo.1233749296504" type="2omo.GenerateTextDeclaration" typeId="2omo.1233749247888" id="1238415701554" nodeInfo="nn">
+    <node role="textGenBlock" roleId="2omo.1233749296504" type="2omo.GenerateTextDeclaration" typeId="2omo.1233749247888" id="1238415701554" nodeInfo="in">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="1238415701555" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="2omo.AppendOperation" typeId="2omo.1237306079178" id="1238416710767" nodeInfo="nn">
           <node role="part" roleId="2omo.1237306115446" type="2omo.ConstantStringAppendPart" typeId="2omo.1237305557638" id="1238416733443" nodeInfo="ng">
@@ -293,9 +293,9 @@
       </node>
     </node>
   </root>
-  <root type="2omo.ConceptTextGenDeclaration" typeId="2omo.1233670071145" id="1238415848487" nodeInfo="ng">
+  <root type="2omo.ConceptTextGenDeclaration" typeId="2omo.1233670071145" id="1238415848487" nodeInfo="ig">
     <link role="conceptDeclaration" roleId="2omo.1233670257997" targetNodeId="tpkv.1107866742882" resolveInfo="Attribute" />
-    <node role="textGenBlock" roleId="2omo.1233749296504" type="2omo.GenerateTextDeclaration" typeId="2omo.1233749247888" id="1238415848488" nodeInfo="nn">
+    <node role="textGenBlock" roleId="2omo.1233749296504" type="2omo.GenerateTextDeclaration" typeId="2omo.1233749247888" id="1238415848488" nodeInfo="in">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="1238415848489" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="1240315444887" nodeInfo="nn">
           <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="1240315444888" nodeInfo="nr">
@@ -356,9 +356,9 @@
       </node>
     </node>
   </root>
-  <root type="2omo.ConceptTextGenDeclaration" typeId="2omo.1233670071145" id="1238416547918" nodeInfo="ng">
+  <root type="2omo.ConceptTextGenDeclaration" typeId="2omo.1233670071145" id="1238416547918" nodeInfo="ig">
     <link role="conceptDeclaration" roleId="2omo.1233670257997" targetNodeId="tpkv.1107866821377" resolveInfo="Text" />
-    <node role="textGenBlock" roleId="2omo.1233749296504" type="2omo.GenerateTextDeclaration" typeId="2omo.1233749247888" id="1238416547919" nodeInfo="nn">
+    <node role="textGenBlock" roleId="2omo.1233749296504" type="2omo.GenerateTextDeclaration" typeId="2omo.1233749247888" id="1238416547919" nodeInfo="in">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="1238416547920" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="2omo.AppendOperation" typeId="2omo.1237306079178" id="1238416554509" nodeInfo="nn">
           <node role="part" roleId="2omo.1237306115446" type="2omo.NodeAppendPart" typeId="2omo.1237305334312" id="1238416558098" nodeInfo="ng">
@@ -373,9 +373,9 @@
       </node>
     </node>
   </root>
-  <root type="2omo.ConceptTextGenDeclaration" typeId="2omo.1233670071145" id="1238416791066" nodeInfo="ng">
+  <root type="2omo.ConceptTextGenDeclaration" typeId="2omo.1233670071145" id="1238416791066" nodeInfo="ig">
     <link role="conceptDeclaration" roleId="2omo.1233670257997" targetNodeId="tpkv.1234366368307" resolveInfo="PublicId" />
-    <node role="textGenBlock" roleId="2omo.1233749296504" type="2omo.GenerateTextDeclaration" typeId="2omo.1233749247888" id="1238416791067" nodeInfo="nn">
+    <node role="textGenBlock" roleId="2omo.1233749296504" type="2omo.GenerateTextDeclaration" typeId="2omo.1233749247888" id="1238416791067" nodeInfo="in">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="1238416791068" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="2omo.AppendOperation" typeId="2omo.1237306079178" id="1238416821884" nodeInfo="nn">
           <node role="part" roleId="2omo.1237306115446" type="2omo.ConstantStringAppendPart" typeId="2omo.1237305557638" id="1238416828665" nodeInfo="ng">

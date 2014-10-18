@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:83393c4f-0a35-4150-a4fc-e0cb31ea54f6(jetbrains.mps.contrib.build)">
+<model modelUID="cd346635-68ba-425d-800f-cb5e57c8aa1b/r:83393c4f-0a35-4150-a4fc-e0cb31ea54f6(jetbrains.mps.contrib.build/jetbrains.mps.contrib.build)">
   <persistence version="8" />
   <language namespace="798100da-4f0a-421a-b991-71f8c50ce5d2(jetbrains.mps.build)" />
   <language namespace="0cf935df-4699-4e9c-a132-fa109541cba3(jetbrains.mps.build.mps)" />
-  <import index="ffeo" modelUID="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" version="-1" />
-  <import index="3ior" modelUID="r:e9081cad-d8c3-45f2-b4ad-1dabd5ff82af(jetbrains.mps.build.structure)" version="2" implicit="yes" />
-  <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="kdzh" modelUID="r:0353b795-df17-4050-9687-ee47eeb7094f(jetbrains.mps.build.mps.structure)" version="1" implicit="yes" />
+  <import index="ffeo" modelUID="422c2909-59d6-41a9-b318-40e6256b250f/r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build/jetbrains.mps.ide.build)" version="-1" />
+  <import index="3ior" modelUID="798100da-4f0a-421a-b991-71f8c50ce5d2/r:e9081cad-d8c3-45f2-b4ad-1dabd5ff82af(jetbrains.mps.build/jetbrains.mps.build.structure)" version="2" implicit="yes" />
+  <import index="tpck" modelUID="ceab5195-25ea-4f22-9b92-103b95ca8c0c/r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core/jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
+  <import index="kdzh" modelUID="0cf935df-4699-4e9c-a132-fa109541cba3/r:0353b795-df17-4050-9687-ee47eeb7094f(jetbrains.mps.build.mps/jetbrains.mps.build.mps.structure)" version="1" implicit="yes" />
   <root type="3ior.BuildProject" typeId="3ior.5617550519002745363" id="4061567211001166715" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="mpsDates" />
     <property name="fileName" nameId="3ior.4915877860348071612" value="mpsDates.xml" />

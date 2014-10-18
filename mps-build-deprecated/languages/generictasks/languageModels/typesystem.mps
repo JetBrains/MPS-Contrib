@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:eac20369-5993-49cc-a9ac-fbeb7a91d81f(jetbrains.mps.build.generictasks.typesystem)">
+<model modelUID="fba399db-f591-45dc-a279-e2a2a986e262/r:eac20369-5993-49cc-a9ac-fbeb7a91d81f(jetbrains.mps.build.generictasks/jetbrains.mps.build.generictasks.typesystem)">
   <persistence version="8" />
   <language namespace="7a5dda62-9140-4668-ab76-d5ed1746f2b2(jetbrains.mps.lang.typesystem)" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
   <language namespace="83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)" />
   <language namespace="7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="ddum" modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" version="22" />
-  <import index="tpss" modelUID="r:00000000-0000-4000-0000-011c895904c0(jetbrains.mps.buildlanguage.behavior)" version="-1" />
-  <import index="tpsk" modelUID="r:00000000-0000-4000-0000-011c895904c8(jetbrains.mps.buildlanguage.structure)" version="21" />
-  <import index="uvv6" modelUID="r:83b1eb02-118e-488e-ab83-e4cc714b9392(jetbrains.mps.build.generictasks.behavior)" version="-1" />
-  <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(java.lang@java_stub)" version="-1" />
-  <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
-  <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
-  <import index="tpd4" modelUID="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" version="7" implicit="yes" />
-  <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
-  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="353793545802854604" nodeInfo="ng">
+  <import index="ddum" modelUID="fba399db-f591-45dc-a279-e2a2a986e262/r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks/jetbrains.mps.build.generictasks.structure)" version="22" />
+  <import index="tpss" modelUID="0b608d44-1308-418d-8715-22d040c3b3cc/r:00000000-0000-4000-0000-011c895904c0(jetbrains.mps.buildlanguage/jetbrains.mps.buildlanguage.behavior)" version="-1" />
+  <import index="tpsk" modelUID="0b608d44-1308-418d-8715-22d040c3b3cc/r:00000000-0000-4000-0000-011c895904c8(jetbrains.mps.buildlanguage/jetbrains.mps.buildlanguage.structure)" version="21" />
+  <import index="uvv6" modelUID="fba399db-f591-45dc-a279-e2a2a986e262/r:83b1eb02-118e-488e-ab83-e4cc714b9392(jetbrains.mps.build.generictasks/jetbrains.mps.build.generictasks.behavior)" version="-1" />
+  <import index="e2lb" modelUID="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" />
+  <import index="tpck" modelUID="ceab5195-25ea-4f22-9b92-103b95ca8c0c/r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core/jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
+  <import index="tpee" modelUID="f3061a53-9226-4cc5-a443-f952ceaf5816/r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage/jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
+  <import index="tp25" modelUID="7866978e-a0f0-4cc7-81bc-4d213d9375e1/r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel/jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
+  <import index="tpd4" modelUID="7a5dda62-9140-4668-ab76-d5ed1746f2b2/r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem/jetbrains.mps.lang.typesystem.structure)" version="7" implicit="yes" />
+  <import index="tp2q" modelUID="83888646-71ce-4f1c-9c53-c54016f6ad4f/r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections/jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
+  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="353793545802854604" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="typeof_Attribute" />
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="353793545802854605" nodeInfo="sn">
       <node role="statement" roleId="tpee.1068581517665" type="tpd4.CreateStrongLessThanInequationStatement" typeId="tpd4.1179832490862" id="353793545802854606" nodeInfo="nn">
@@ -55,7 +55,7 @@
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="ddum.353793545802643466" resolveInfo="Attribute" />
     </node>
   </root>
-  <root type="tpd4.NonTypesystemRule" typeId="tpd4.1195214364922" id="353793545802854619" nodeInfo="ng">
+  <root type="tpd4.NonTypesystemRule" typeId="tpd4.1195214364922" id="353793545802854619" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="checkAttributeDeclarationDefaultValueIsInEnum" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="Declarations" />
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="353793545802854620" nodeInfo="sn">
@@ -199,7 +199,7 @@
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="ddum.353793545802643469" resolveInfo="AttributeDeclaration" />
     </node>
   </root>
-  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="353793545802854672" nodeInfo="ng">
+  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="353793545802854672" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="typeof_GenericAttributeDeclaration" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="Declarations" />
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="353793545802854673" nodeInfo="sn">
@@ -308,7 +308,7 @@
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="ddum.353793545802643469" resolveInfo="AttributeDeclaration" />
     </node>
   </root>
-  <root type="tpd4.NonTypesystemRule" typeId="tpd4.1195214364922" id="353793545802854718" nodeInfo="ng">
+  <root type="tpd4.NonTypesystemRule" typeId="tpd4.1195214364922" id="353793545802854718" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="checkParentsOfInterfaceAreInterfaces" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="Declarations" />
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="353793545802854719" nodeInfo="sn">
@@ -377,7 +377,7 @@
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="ddum.353793545802643483" resolveInfo="TaskInterfaceDeclaration" />
     </node>
   </root>
-  <root type="tpd4.NonTypesystemRule" typeId="tpd4.1195214364922" id="353793545802854745" nodeInfo="ng">
+  <root type="tpd4.NonTypesystemRule" typeId="tpd4.1195214364922" id="353793545802854745" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="checkAttributeValueIsInEnum" />
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="353793545802854746" nodeInfo="sn">
       <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="353793545802854747" nodeInfo="nn">
@@ -499,7 +499,7 @@
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="ddum.353793545802643466" resolveInfo="Attribute" />
     </node>
   </root>
-  <root type="tpd4.NonTypesystemRule" typeId="tpd4.1195214364922" id="353793545802854795" nodeInfo="ng">
+  <root type="tpd4.NonTypesystemRule" typeId="tpd4.1195214364922" id="353793545802854795" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="checkAllRequiredAttributesPresent" />
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="353793545802854796" nodeInfo="sn">
       <node role="statement" roleId="tpee.1068581517665" type="tp2q.ForEachStatement" typeId="tp2q.1153943597977" id="353793545802854797" nodeInfo="nn">

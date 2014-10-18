@@ -63,7 +63,7 @@
           <greater-priority-mapping>
             <generator generatorUID="5dbba245-9e3e-4c09-8359-021a77a5d610(jetbrains.mps.build.property#1224602648191)" />
             <external-mapping>
-              <mapping-node modelUID="r:ea5ebe15-8287-48fa-903b-179b2fdbe69c(jetbrains.mps.build.property.generator.template.main@generator)" nodeID="*" />
+              <mapping-node modelUID="5dbba245-9e3e-4c09-8359-021a77a5d610/r:ea5ebe15-8287-48fa-903b-179b2fdbe69c(jetbrains.mps.build.property#1224602648191/jetbrains.mps.build.property.generator.template.main@generator)" nodeID="*" />
             </external-mapping>
           </greater-priority-mapping>
           <lesser-priority-mapping>

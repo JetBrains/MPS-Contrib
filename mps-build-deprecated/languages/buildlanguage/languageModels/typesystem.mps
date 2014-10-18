@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:00000000-0000-4000-0000-011c895904c4(jetbrains.mps.buildlanguage.typesystem)">
+<model modelUID="0b608d44-1308-418d-8715-22d040c3b3cc/r:00000000-0000-4000-0000-011c895904c4(jetbrains.mps.buildlanguage/jetbrains.mps.buildlanguage.typesystem)">
   <persistence version="8" />
   <language namespace="7a5dda62-9140-4668-ab76-d5ed1746f2b2(jetbrains.mps.lang.typesystem)" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
@@ -8,15 +8,15 @@
   <language namespace="83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)" />
   <language namespace="0b608d44-1308-418d-8715-22d040c3b3cc(jetbrains.mps.buildlanguage)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="tpsk" modelUID="r:00000000-0000-4000-0000-011c895904c8(jetbrains.mps.buildlanguage.structure)" version="21" />
-  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
-  <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
-  <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
-  <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="tp3r" modelUID="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" version="0" implicit="yes" />
-  <import index="tpd4" modelUID="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" version="7" implicit="yes" />
-  <import index="tpss" modelUID="r:00000000-0000-4000-0000-011c895904c0(jetbrains.mps.buildlanguage.behavior)" version="-1" implicit="yes" />
-  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="1196871134034" nodeInfo="ng">
+  <import index="tpsk" modelUID="0b608d44-1308-418d-8715-22d040c3b3cc/r:00000000-0000-4000-0000-011c895904c8(jetbrains.mps.buildlanguage/jetbrains.mps.buildlanguage.structure)" version="21" />
+  <import index="tpee" modelUID="f3061a53-9226-4cc5-a443-f952ceaf5816/r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage/jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
+  <import index="tp25" modelUID="7866978e-a0f0-4cc7-81bc-4d213d9375e1/r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel/jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
+  <import index="tp2q" modelUID="83888646-71ce-4f1c-9c53-c54016f6ad4f/r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections/jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
+  <import index="tpck" modelUID="ceab5195-25ea-4f22-9b92-103b95ca8c0c/r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core/jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
+  <import index="tp3r" modelUID="3a13115c-633c-4c5c-bbcc-75c4219e9555/r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation/jetbrains.mps.lang.quotation.structure)" version="0" implicit="yes" />
+  <import index="tpd4" modelUID="7a5dda62-9140-4668-ab76-d5ed1746f2b2/r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem/jetbrains.mps.lang.typesystem.structure)" version="7" implicit="yes" />
+  <import index="tpss" modelUID="0b608d44-1308-418d-8715-22d040c3b3cc/r:00000000-0000-4000-0000-011c895904c0(jetbrains.mps.buildlanguage/jetbrains.mps.buildlanguage.behavior)" version="-1" implicit="yes" />
+  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="1196871134034" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="typeof_PropertyDeclaration" />
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="1196871134035" nodeInfo="sn">
       <node role="statement" roleId="tpee.1068581517665" type="tpd4.CreateLessThanInequationStatement" typeId="tpd4.1174663118805" id="1196871226604" nodeInfo="nn">
@@ -69,7 +69,7 @@
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tpsk.1196851107341" resolveInfo="PropertyDeclaration" />
     </node>
   </root>
-  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="1196871327254" nodeInfo="ng">
+  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="1196871327254" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="typeof_PropertyReference" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="Expressions" />
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="1196871327255" nodeInfo="sn">
@@ -100,7 +100,7 @@
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tpsk.1196853662806" resolveInfo="PropertyReference" />
     </node>
   </root>
-  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="1196872609545" nodeInfo="ng">
+  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="1196872609545" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="typeof_BooleanLiteral" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="Expressions" />
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="1196872609546" nodeInfo="sn">
@@ -124,7 +124,7 @@
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tpsk.1196865966685" resolveInfo="BooleanLiteral" />
     </node>
   </root>
-  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="1196872826976" nodeInfo="ng">
+  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="1196872826976" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="typeof_IntLiteral" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="Expressions" />
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="1196872826977" nodeInfo="sn">
@@ -148,7 +148,7 @@
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tpsk.1196866637548" resolveInfo="IntLiteral" />
     </node>
   </root>
-  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="1196872869537" nodeInfo="ng">
+  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="1196872869537" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="typeof_StringLiteral" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="Expressions" />
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="1196872869538" nodeInfo="sn">
@@ -172,7 +172,7 @@
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tpsk.1196861005114" resolveInfo="StringLiteral" />
     </node>
   </root>
-  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="1197401210363" nodeInfo="ng">
+  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="1197401210363" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="typeof_Enum" />
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="1197401210364" nodeInfo="sn">
       <node role="statement" roleId="tpee.1068581517665" type="tp2q.ForEachStatement" typeId="tp2q.1153943597977" id="1197401216335" nodeInfo="nn">
@@ -219,7 +219,7 @@
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tpsk.1197398796434" resolveInfo="Enum" />
     </node>
   </root>
-  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="1199032009158" nodeInfo="ng">
+  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="1199032009158" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="typeof_FileName" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="Expressions" />
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="1199032009159" nodeInfo="sn">
@@ -243,7 +243,7 @@
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tpsk.1199031681512" resolveInfo="FileName" />
     </node>
   </root>
-  <root type="tpd4.NonTypesystemRule" typeId="tpd4.1195214364922" id="1199032114399" nodeInfo="ng">
+  <root type="tpd4.NonTypesystemRule" typeId="tpd4.1195214364922" id="1199032114399" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="checkFileExistance" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="Expressions" />
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="1199032114400" nodeInfo="sn" />
@@ -252,7 +252,7 @@
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tpsk.1199031681512" resolveInfo="FileName" />
     </node>
   </root>
-  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="1200511992931" nodeInfo="ng">
+  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="1200511992931" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="typeof_CallReference" />
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="1200511992932" nodeInfo="sn">
       <node role="statement" roleId="tpee.1068581517665" type="tpd4.CreateEquationStatement" typeId="tpd4.1174658326157" id="1200512038892" nodeInfo="nn">
@@ -275,7 +275,7 @@
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tpsk.1200511852076" resolveInfo="CallReference" />
     </node>
   </root>
-  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="1201702257492" nodeInfo="ng">
+  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="1201702257492" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="typeof_TagetReferencePropertyValueExpression" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="Expressions" />
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="1201702257493" nodeInfo="sn">
@@ -299,7 +299,7 @@
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tpsk.1201701678947" resolveInfo="TargetReferencePropertyValueExpression" />
     </node>
   </root>
-  <root type="tpd4.SubtypingRule" typeId="tpd4.1175147670730" id="1203432744195" nodeInfo="ng">
+  <root type="tpd4.SubtypingRule" typeId="tpd4.1175147670730" id="1203432744195" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="FileIsSubtipeOfString" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="Expressions" />
     <node role="body" roleId="tpd4.1175147624276" type="tpee.StatementList" typeId="tpee.1068580123136" id="1203432744196" nodeInfo="sn">
@@ -314,7 +314,7 @@
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tpsk.1199032398223" resolveInfo="FileType" />
     </node>
   </root>
-  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="1225557125535" nodeInfo="ng">
+  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="1225557125535" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="typeof_PlusOperation" />
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="1225557125536" nodeInfo="sn">
       <node role="statement" roleId="tpee.1068581517665" type="tpd4.CreateEquationStatement" typeId="tpd4.1174658326157" id="1225557159809" nodeInfo="nn">
@@ -337,7 +337,7 @@
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="tpsk.1197108973325" resolveInfo="PlusOperation" />
     </node>
   </root>
-  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="1226433420299" nodeInfo="ng">
+  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="1226433420299" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="typeof_MultiLineString" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="Expressions" />
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="1226433420300" nodeInfo="sn">

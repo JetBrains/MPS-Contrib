@@ -105,7 +105,7 @@
           <greater-priority-mapping>
             <generator generatorUID="ba88d7e7-0ed2-42da-87cb-525b46207909(jetbrains.mps.execution.configurations.deprecated#6629582826328981980)" />
             <external-mapping>
-              <mapping-node modelUID="r:6ca9e89f-d17e-40d3-aff6-7953521fc77e(jetbrains.mps.execution.configurations.deprecated.generator.template.main@generator)" nodeID="*" />
+              <mapping-node modelUID="ba88d7e7-0ed2-42da-87cb-525b46207909/r:6ca9e89f-d17e-40d3-aff6-7953521fc77e(jetbrains.mps.execution.configurations.deprecated#6629582826328981980/jetbrains.mps.execution.configurations.deprecated.generator.template.main@generator)" nodeID="*" />
             </external-mapping>
           </greater-priority-mapping>
           <lesser-priority-mapping>
@@ -119,7 +119,7 @@
           <greater-priority-mapping>
             <generator generatorUID="ba88d7e7-0ed2-42da-87cb-525b46207909(jetbrains.mps.execution.configurations.deprecated#6629582826328981980)" />
             <external-mapping>
-              <mapping-node modelUID="r:b98c22e2-bfcd-40d7-9c1f-9a32895cb7de(jetbrains.mps.execution.configurations.deprecated.plugin@generator)" nodeID="*" />
+              <mapping-node modelUID="ba88d7e7-0ed2-42da-87cb-525b46207909/r:b98c22e2-bfcd-40d7-9c1f-9a32895cb7de(jetbrains.mps.execution.configurations.deprecated#6629582826328981980/jetbrains.mps.execution.configurations.deprecated.plugin@generator)" nodeID="*" />
             </external-mapping>
           </greater-priority-mapping>
           <lesser-priority-mapping>

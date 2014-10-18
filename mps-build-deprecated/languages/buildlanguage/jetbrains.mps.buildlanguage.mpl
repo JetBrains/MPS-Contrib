@@ -6,8 +6,8 @@
     </modelRoot>
   </models>
   <accessoryModels>
-    <model modelUID="r:00000000-0000-4000-0000-011c895904c3(jetbrains.mps.buildlanguage.generated)" />
-    <model modelUID="r:00000000-0000-4000-0000-011c895904c6(jetbrains.mps.buildlanguage.optional)" />
+    <model modelUID="0b608d44-1308-418d-8715-22d040c3b3cc/r:00000000-0000-4000-0000-011c895904c3(jetbrains.mps.buildlanguage/jetbrains.mps.buildlanguage.generated)" />
+    <model modelUID="0b608d44-1308-418d-8715-22d040c3b3cc/r:00000000-0000-4000-0000-011c895904c6(jetbrains.mps.buildlanguage/jetbrains.mps.buildlanguage.optional)" />
   </accessoryModels>
   <generators>
     <generator generatorUID="jetbrains.mps.buildlanguage#1197036391807" uuid="40844709-b5b9-4c70-8f1d-a2e8ab542065">
@@ -54,7 +54,7 @@
           <greater-priority-mapping>
             <generator generatorUID="40844709-b5b9-4c70-8f1d-a2e8ab542065(jetbrains.mps.buildlanguage#1197036391807)" />
             <external-mapping>
-              <mapping-node modelUID="r:00000000-0000-4000-0000-011c895904c9(jetbrains.mps.buildlanguage.generator.xml.template.main@generator)" nodeID="*" />
+              <mapping-node modelUID="40844709-b5b9-4c70-8f1d-a2e8ab542065/r:00000000-0000-4000-0000-011c895904c9(jetbrains.mps.buildlanguage#1197036391807/jetbrains.mps.buildlanguage.generator.xml.template.main@generator)" nodeID="*" />
             </external-mapping>
           </greater-priority-mapping>
           <lesser-priority-mapping>
@@ -68,7 +68,7 @@
           <greater-priority-mapping>
             <generator generatorUID="40844709-b5b9-4c70-8f1d-a2e8ab542065(jetbrains.mps.buildlanguage#1197036391807)" />
             <external-mapping>
-              <mapping-node modelUID="r:00000000-0000-4000-0000-011c895904c9(jetbrains.mps.buildlanguage.generator.xml.template.main@generator)" nodeID="*" />
+              <mapping-node modelUID="40844709-b5b9-4c70-8f1d-a2e8ab542065/r:00000000-0000-4000-0000-011c895904c9(jetbrains.mps.buildlanguage#1197036391807/jetbrains.mps.buildlanguage.generator.xml.template.main@generator)" nodeID="*" />
             </external-mapping>
           </greater-priority-mapping>
           <lesser-priority-mapping>
