@@ -1,52 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="dd61a7d7-8e1b-45a1-9aa3-8585ec2b60fc/r:00000000-0000-4000-0000-011c895904df(jetbrains.mps.build.property/jetbrains.mps.build.property.editor)">
-  <persistence version="8" />
-  <language namespace="18bc6592-03a6-4e29-a83a-7ff23bde13ba(jetbrains.mps.lang.editor)" />
-  <import index="tptq" modelUID="dd61a7d7-8e1b-45a1-9aa3-8585ec2b60fc/r:00000000-0000-4000-0000-011c895904e2(jetbrains.mps.build.property/jetbrains.mps.build.property.structure)" version="1" />
-  <import index="tpck" modelUID="ceab5195-25ea-4f22-9b92-103b95ca8c0c/r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core/jetbrains.mps.lang.core.structure)" version="0" />
-  <import index="tpsu" modelUID="0b608d44-1308-418d-8715-22d040c3b3cc/r:00000000-0000-4000-0000-011c895904c2(jetbrains.mps.buildlanguage/jetbrains.mps.buildlanguage.editor)" version="0" />
-  <import index="tpc2" modelUID="18bc6592-03a6-4e29-a83a-7ff23bde13ba/r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor/jetbrains.mps.lang.editor.structure)" version="35" implicit="yes" />
-  <import index="tpco" modelUID="ceab5195-25ea-4f22-9b92-103b95ca8c0c/r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core/jetbrains.mps.lang.core.editor)" version="-1" implicit="yes" />
-  <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="1200505270682" nodeInfo="ig">
-    <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="tptq.1200504738494" resolveInfo="PropertyNode" />
-    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="1200505277122" nodeInfo="sn">
-      <property name="vertical" nameId="tpc2.1073389446425" value="true" />
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="1200505279858" nodeInfo="sn">
-        <property name="vertical" nameId="tpc2.1073389446425" value="false" />
-        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Component" typeId="tpc2.1078939183254" id="2886182022232400518" nodeInfo="sg">
-          <property name="attractsFocus" nameId="tpc2.1130859485024" value="0" />
-          <link role="editorComponent" roleId="tpc2.1078939183255" targetNodeId="tpco.2900100530630621651" resolveInfo="alias" />
+<model ref="r:00000000-0000-4000-0000-011c895904df(jetbrains.mps.build.property.editor)">
+  <persistence version="9" />
+  <debugInfo>
+    <lang id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" />
+    <model ref="r:00000000-0000-4000-0000-011c895904e2(jetbrains.mps.build.property.structure)" name="jetbrains.mps.build.property.structure" />
+    <model ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" name="jetbrains.mps.lang.core.structure" />
+    <model ref="r:00000000-0000-4000-0000-011c895904c2(jetbrains.mps.buildlanguage.editor)" name="jetbrains.mps.buildlanguage.editor" />
+    <concept id="18bc6592-03a6-4e29-a83a-7ff23bde13ba/1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" />
+    <concept id="18bc6592-03a6-4e29-a83a-7ff23bde13ba/1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" />
+    <concept id="18bc6592-03a6-4e29-a83a-7ff23bde13ba/1073389577006" name="jetbrains.mps.lang.editor.structure.CellModel_Constant" />
+    <concept id="18bc6592-03a6-4e29-a83a-7ff23bde13ba/1073389658414" name="jetbrains.mps.lang.editor.structure.CellModel_Property" />
+    <concept id="18bc6592-03a6-4e29-a83a-7ff23bde13ba/1073390211982" name="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" />
+    <concept id="18bc6592-03a6-4e29-a83a-7ff23bde13ba/1078939183254" name="jetbrains.mps.lang.editor.structure.CellModel_Component" />
+    <concept id="18bc6592-03a6-4e29-a83a-7ff23bde13ba/1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" />
+    <concept id="18bc6592-03a6-4e29-a83a-7ff23bde13ba/1106270571710" name="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" />
+    <concept id="18bc6592-03a6-4e29-a83a-7ff23bde13ba/1186414860679" name="jetbrains.mps.lang.editor.structure.EditableStyleClassItem" />
+    <concept id="18bc6592-03a6-4e29-a83a-7ff23bde13ba/1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" />
+    <property id="18bc6592-03a6-4e29-a83a-7ff23bde13ba/1073389446423/1073389446425" name="vertical" />
+    <property id="18bc6592-03a6-4e29-a83a-7ff23bde13ba/1073389577006/1073389577007" name="text" />
+    <property id="18bc6592-03a6-4e29-a83a-7ff23bde13ba/1073389214265/1130859485024" name="attractsFocus" />
+    <property id="18bc6592-03a6-4e29-a83a-7ff23bde13ba/1140524381322/1140524450554" name="vertical" />
+    <property id="18bc6592-03a6-4e29-a83a-7ff23bde13ba/1186414536763/1186414551515" name="flag" />
+    <refRole id="18bc6592-03a6-4e29-a83a-7ff23bde13ba/1078939183254/1078939183255" name="editorComponent" />
+    <refRole id="18bc6592-03a6-4e29-a83a-7ff23bde13ba/1139848536355/1140103550593" name="relationDeclaration" />
+    <refRole id="18bc6592-03a6-4e29-a83a-7ff23bde13ba/1166049232041/1166049300910" name="conceptDeclaration" />
+    <refRole id="18bc6592-03a6-4e29-a83a-7ff23bde13ba/1381004262292414836/1381004262292426837" name="parentStyleClass" />
+    <childRole id="18bc6592-03a6-4e29-a83a-7ff23bde13ba/1073389446423/1073389446424" name="childCellModel" />
+    <childRole id="18bc6592-03a6-4e29-a83a-7ff23bde13ba/1080736578640/1080736633877" name="cellModel" />
+    <childRole id="18bc6592-03a6-4e29-a83a-7ff23bde13ba/1073389446423/1106270802874" name="cellLayout" />
+    <childRole id="18bc6592-03a6-4e29-a83a-7ff23bde13ba/1140524381322/1140524464359" name="emptyCellModel" />
+    <childRole id="18bc6592-03a6-4e29-a83a-7ff23bde13ba/1140524381322/1140524464360" name="cellLayout" />
+    <childRole id="18bc6592-03a6-4e29-a83a-7ff23bde13ba/1219418625346/1219418656006" name="styleItem" />
+  </debugInfo>
+  <languages>
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" version="-1" index="9wj7" />
+  </languages>
+  <imports>
+    <import index="tptq" ref="r:00000000-0000-4000-0000-011c895904e2(jetbrains.mps.build.property.structure)" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <import index="tpsu" ref="r:00000000-0000-4000-0000-011c895904c2(jetbrains.mps.buildlanguage.editor)" />
+    <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" implicit="true" />
+    <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
+  </imports>
+  <contents>
+    <node concept="9wj7.1071666914219" id="1200505270682" info="ig">
+      <reference role="9wj7.1166049232041.1166049300910" target="tptq.1200504738494" resolveInfo="PropertyNode" />
+      <node concept="9wj7.1073389446423" id="1200505277122" role="9wj7.1080736578640.1080736633877" info="sn">
+        <property role="9wj7.1073389446423.1073389446425" value="true" />
+        <node concept="9wj7.1073389446423" id="1200505279858" role="9wj7.1073389446423.1073389446424" info="sn">
+          <property role="9wj7.1073389446423.1073389446425" value="false" />
+          <node concept="9wj7.1078939183254" id="2886182022232400518" role="9wj7.1073389446423.1073389446424" info="sg">
+            <property role="9wj7.1073389214265.1130859485024" value="0" />
+            <reference role="9wj7.1078939183254.1078939183255" target="tpco.2900100530630621651" resolveInfo="alias" />
+          </node>
+          <node concept="9wj7.1073389658414" id="1200505291268" role="9wj7.1073389446423.1073389446424" info="sg">
+            <reference role="9wj7.1139848536355.1140103550593" target="tpck.1169194664001" resolveInfo="name" />
+          </node>
+          <node concept="9wj7.1186414928363" id="1214310997112" role="9wj7.1219418625346.1219418656006" info="ln">
+            <property role="9wj7.1186414536763.1186414551515" value="false" />
+          </node>
+          <node concept="9wj7.1106270549637" id="1239880108682" role="9wj7.1073389446423.1106270802874" info="nn" />
         </node>
-        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="1200505291268" nodeInfo="sg">
-          <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1169194664001" resolveInfo="name" />
+        <node concept="9wj7.1073389577006" id="1200505296645" role="9wj7.1073389446423.1073389446424" info="sn">
+          <node concept="9wj7.1186414928363" id="1214310995141" role="9wj7.1219418625346.1219418656006" info="ln">
+            <property role="9wj7.1186414536763.1186414551515" value="false" />
+          </node>
+          <node concept="9wj7.1186414860679" id="1214398031910" role="9wj7.1219418625346.1219418656006" info="ln">
+            <property role="9wj7.1186414536763.1186414551515" value="false" />
+          </node>
         </node>
-        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.SelectableStyleSheetItem" typeId="tpc2.1186414928363" id="1214310997112" nodeInfo="ln">
-          <property name="flag" nameId="tpc2.1186414551515" value="false" />
+        <node concept="9wj7.1073390211982" id="1200505324007" role="9wj7.1073389446423.1073389446424" info="sg">
+          <property role="9wj7.1140524381322.1140524450554" value="true" />
+          <reference role="9wj7.1139848536355.1140103550593" target="tptq.1200504738496" />
+          <node concept="9wj7.1073389577006" id="1200505331367" role="9wj7.1140524381322.1140524464359" info="sn">
+            <property role="9wj7.1073389577006.1073389577007" value="&lt;property declarations&gt;" />
+            <reference role="9wj7.1381004262292414836.1381004262292426837" target="tpsu.1200419086632" resolveInfo="prompting" />
+          </node>
+          <node concept="9wj7.1186414928363" id="1214310995943" role="9wj7.1219418625346.1219418656006" info="ln">
+            <property role="9wj7.1186414536763.1186414551515" value="false" />
+          </node>
+          <node concept="9wj7.1106270571710" id="1239880108685" role="9wj7.1140524381322.1140524464360" info="nn" />
         </node>
-        <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Horizontal" typeId="tpc2.1106270549637" id="1239880108682" nodeInfo="nn" />
+        <node concept="9wj7.1106270571710" id="1239880108683" role="9wj7.1073389446423.1106270802874" info="nn" />
       </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="1200505296645" nodeInfo="sn">
-        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.SelectableStyleSheetItem" typeId="tpc2.1186414928363" id="1214310995141" nodeInfo="ln">
-          <property name="flag" nameId="tpc2.1186414551515" value="false" />
-        </node>
-        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.EditableStyleClassItem" typeId="tpc2.1186414860679" id="1214398031910" nodeInfo="ln">
-          <property name="flag" nameId="tpc2.1186414551515" value="false" />
-        </node>
-      </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNodeList" typeId="tpc2.1073390211982" id="1200505324007" nodeInfo="sg">
-        <property name="vertical" nameId="tpc2.1140524450554" value="true" />
-        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tptq.1200504738496" />
-        <node role="emptyCellModel" roleId="tpc2.1140524464359" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="1200505331367" nodeInfo="sn">
-          <property name="text" nameId="tpc2.1073389577007" value="&lt;property declarations&gt;" />
-          <link role="parentStyleClass" roleId="tpc2.1381004262292426837" targetNodeId="tpsu.1200419086632" resolveInfo="prompting" />
-        </node>
-        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.SelectableStyleSheetItem" typeId="tpc2.1186414928363" id="1214310995943" nodeInfo="ln">
-          <property name="flag" nameId="tpc2.1186414551515" value="false" />
-        </node>
-        <node role="cellLayout" roleId="tpc2.1140524464360" type="tpc2.CellLayout_Vertical" typeId="tpc2.1106270571710" id="1239880108685" nodeInfo="nn" />
-      </node>
-      <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Vertical" typeId="tpc2.1106270571710" id="1239880108683" nodeInfo="nn" />
     </node>
-  </root>
+  </contents>
 </model>
 
