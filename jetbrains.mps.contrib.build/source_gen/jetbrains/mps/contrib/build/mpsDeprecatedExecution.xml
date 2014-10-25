@@ -294,7 +294,7 @@
       <library file="${artifacts.mps}/plugins/mps-testing/languages/baseLanguage/jetbrains.mps.baseLanguage.unitTest.jar" />
       <library file="${artifacts.mps}/plugins/mps-testing/languages/languageDesign/jetbrains.mps.lang.test.jar" />
       <library file="${artifacts.mps}/plugins/mps-testing/languages/languageDesign/jetbrains.mps.lang.test.runtime.jar" />
-      <library file="${artifacts.mps}/plugins/mps-testing/lib/mps-testing.jar" />
+      <library file="${artifacts.mps}/plugins/mps-testing/lib/jetbrains.mps.lang.test.util.jar" />
       <module file="${basedir}/mps-execution-deprecated/unitTests/jetbrains.mps.baseLanguage.unitTest.execution.deprecated.msd" />
       <module file="${basedir}/mps-execution-deprecated/languages/deprecated/jetbrains.mps.execution.configurations.deprecated.mpl" />
       <module file="${basedir}/mps-execution-deprecated/deprecated.runtime/jetbrains.mps.execution.configurations.deprecated.runtime.msd" />
@@ -410,7 +410,7 @@
       <library file="${artifacts.mps}/plugins/mps-testing/languages/baseLanguage/jetbrains.mps.baseLanguage.unitTest.jar" />
       <library file="${artifacts.mps}/plugins/mps-testing/languages/languageDesign/jetbrains.mps.lang.test.jar" />
       <library file="${artifacts.mps}/plugins/mps-testing/languages/languageDesign/jetbrains.mps.lang.test.runtime.jar" />
-      <library file="${artifacts.mps}/plugins/mps-testing/lib/mps-testing.jar" />
+      <library file="${artifacts.mps}/plugins/mps-testing/lib/jetbrains.mps.lang.test.util.jar" />
       <chunk>
         <module file="${basedir}/mps-execution-deprecated/unitTests/jetbrains.mps.baseLanguage.unitTest.execution.deprecated.msd" />
         <module file="${basedir}/mps-execution-deprecated/languages/deprecated/jetbrains.mps.execution.configurations.deprecated.mpl" />
@@ -504,7 +504,7 @@
         <fileset file="${artifacts.mps}/plugins/mps-execution-languages/lib/execution-languages.jar" />
         <pathelement path="${build.tmp}/java/out/jetbrains.mps.execution.configurations.deprecated.runtime" />
         <fileset file="${artifacts.mps}/plugins/mps-execution-configurations/lib/execution-configurations.jar" />
-        <fileset file="${artifacts.mps}/plugins/mps-testing/lib/mps-testing.jar" />
+        <fileset file="${artifacts.mps}/plugins/mps-testing/lib/jetbrains.mps.lang.test.util.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.unitTest.libs/bsh-core-2.0b4.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.unitTest.libs/cglib-nodep-2.1_3.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.unitTest.libs/hamcrest-core-1.1.jar" />
