@@ -11,6 +11,8 @@ import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
@@ -52,7 +54,7 @@ public class ExternalPropertyDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private static boolean renderingCondition_i6hv21_a0a(SNode node, EditorContext editorContext) {
-    return SPropertyOperations.getString(node, "shortDescription") != null;
+    return SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1133920641626l, 1156234966388l, "shortDescription")) != null;
   }
   private EditorCell createConstant_i6hv21_a0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "//");
@@ -101,7 +103,7 @@ public class ExternalPropertyDeclaration_Editor extends DefaultNodeEditor {
     public ExternalPropertyDeclaration_generic_cellMenu_i6hv21_a0b0() {
     }
     public void handleAction(SNode node, SModel model, IOperationContext operationContext, EditorContext editorContext) {
-      SPropertyOperations.set(node, "shortDescription", "");
+      SPropertyOperations.set(node, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1133920641626l, 1156234966388l, "shortDescription"), "");
     }
     public String getMatchingText() {
       return "//";
@@ -117,7 +119,7 @@ public class ExternalPropertyDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private static boolean renderingCondition_i6hv21_a0b0(SNode node, EditorContext editorContext) {
-    return SPropertyOperations.getBoolean(node, "checkOnStart");
+    return SPropertyOperations.getBoolean(node, MetaAdapterFactory.getProperty(new UUID(819810455698030989l, -8713019626243247156l), 1219147669362l, 1219774190534l, "checkOnStart"));
   }
   private EditorCell createComponent_i6hv21_b1a(EditorContext editorContext, SNode node) {
     EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.lang.core.editor.alias");

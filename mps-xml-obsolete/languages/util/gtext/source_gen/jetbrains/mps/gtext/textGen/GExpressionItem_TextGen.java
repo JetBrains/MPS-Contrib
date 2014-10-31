@@ -7,6 +7,8 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.textGen.TraceInfoGenerationUtil;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
@@ -17,7 +19,7 @@ public class GExpressionItem_TextGen extends SNodeTextGen {
     if (getBuffer().hasPositionsSupport()) {
       TraceInfoGenerationUtil.createPositionInfo(this, node);
     }
-    this.append(((String) BehaviorReflection.invokeVirtual(Object.class, SLinkOperations.getTarget(node, "expression", true), "virtual_eval_1213877519769", new Object[]{SNodeOperations.getModel(node).getModule()})));
+    this.append(((String) BehaviorReflection.invokeVirtual(Object.class, SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(-6324114011398976607l, -8974808928016009858l), 1164497519485l, 1164497557065l, "expression")), "virtual_eval_1213877519769", new Object[]{SNodeOperations.getModel(node).getModule()})));
     if (getBuffer().hasPositionsSupport()) {
       {
         String traceableProperty = "";

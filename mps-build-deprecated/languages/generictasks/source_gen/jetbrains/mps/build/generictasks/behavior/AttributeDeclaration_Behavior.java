@@ -4,32 +4,34 @@ package jetbrains.mps.build.generictasks.behavior;
 
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import java.io.File;
 
 public class AttributeDeclaration_Behavior {
   public static void init(SNode thisNode) {
-    SPropertyOperations.set(thisNode, "deprecated", "" + (false));
-    SPropertyOperations.set(thisNode, "required", "" + (false));
+    SPropertyOperations.set(thisNode, MetaAdapterFactory.getProperty(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643469l, 353793545802643475l, "deprecated"), "" + (false));
+    SPropertyOperations.set(thisNode, MetaAdapterFactory.getProperty(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643469l, 353793545802643476l, "required"), "" + (false));
   }
   public static boolean call_isRequired_353793545802643811(SNode thisNode) {
-    return SPropertyOperations.getBoolean(thisNode, "required");
+    return SPropertyOperations.getBoolean(thisNode, MetaAdapterFactory.getProperty(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643469l, 353793545802643476l, "required"));
   }
   public static boolean call_isDeprecated_353793545802643819(SNode thisNode) {
-    return SPropertyOperations.getBoolean(thisNode, "deprecated");
+    return SPropertyOperations.getBoolean(thisNode, MetaAdapterFactory.getProperty(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643469l, 353793545802643475l, "deprecated"));
   }
   public static boolean call_equals_353793545802643827(SNode thisNode, SNode decl) {
-    return SPropertyOperations.getString(thisNode, "name").equals(SPropertyOperations.getString(decl, "name"));
+    return SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name")).equals(SPropertyOperations.getString(decl, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name")));
   }
   public static String call_getRealClassName_4585165390551294438(SNode thisNode) {
-    if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(thisNode, "attributeType", true), "jetbrains.mps.buildlanguage.structure.FileType")) {
+    if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643469l, 353793545802643473l, "attributeType")), "jetbrains.mps.buildlanguage.structure.FileType")) {
       return File.class.getName();
-    } else if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(thisNode, "attributeType", true), "jetbrains.mps.buildlanguage.structure.StringType")) {
+    } else if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643469l, 353793545802643473l, "attributeType")), "jetbrains.mps.buildlanguage.structure.StringType")) {
       return String.class.getName();
-    } else if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(thisNode, "attributeType", true), "jetbrains.mps.buildlanguage.structure.BooleanType")) {
+    } else if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643469l, 353793545802643473l, "attributeType")), "jetbrains.mps.buildlanguage.structure.BooleanType")) {
       return Integer.class.getName();
-    } else if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(thisNode, "attributeType", true), "jetbrains.mps.buildlanguage.structure.IntegerType")) {
+    } else if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643469l, 353793545802643473l, "attributeType")), "jetbrains.mps.buildlanguage.structure.IntegerType")) {
       return Boolean.class.getName();
     } else {
       return Object.class.getName();

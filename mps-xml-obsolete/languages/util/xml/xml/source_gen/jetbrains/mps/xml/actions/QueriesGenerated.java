@@ -7,6 +7,8 @@ import jetbrains.mps.smodel.action.NodeSetupContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 import java.util.List;
 import jetbrains.mps.openapi.editor.cells.SubstituteAction;
 import jetbrains.mps.smodel.action.NodeSubstituteActionsFactoryContext;
@@ -29,17 +31,17 @@ import org.jetbrains.mps.util.Condition;
 public class QueriesGenerated {
   public static void nodeFactory_NodeSetup_ComplexText_1178622222481(final IOperationContext operationContext, final NodeSetupContext _context) {
     if (SNodeOperations.isInstanceOf(_context.getSampleNode(), "jetbrains.mps.xml.structure.BaseText")) {
-      ListSequence.fromList(SLinkOperations.getTargets(_context.getNewNode(), "text", true)).addElement(SNodeOperations.cast(_context.getSampleNode(), "jetbrains.mps.xml.structure.BaseText"));
+      ListSequence.fromList(SLinkOperations.getChildren(_context.getNewNode(), MetaAdapterFactory.getContainmentLink(new UUID(3194679053860949738l, -5054431440157877063l), 1161911457732l, 1161911474092l, "text"))).addElement(SNodeOperations.cast(_context.getSampleNode(), "jetbrains.mps.xml.structure.BaseText"));
     }
   }
   public static void nodeFactory_NodeSetup_Element_1188911043247(final IOperationContext operationContext, final NodeSetupContext _context) {
     if (SNodeOperations.isInstanceOf(_context.getSampleNode(), "jetbrains.mps.xml.structure.Content")) {
-      ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(_context.getNewNode(), "contentList", true), "content", true)).addElement(SNodeOperations.cast(_context.getSampleNode(), "jetbrains.mps.xml.structure.Content"));
+      ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(_context.getNewNode(), MetaAdapterFactory.getContainmentLink(new UUID(3194679053860949738l, -5054431440157877063l), 1179102053371l, 1179114219774l, "contentList")), MetaAdapterFactory.getContainmentLink(new UUID(3194679053860949738l, -5054431440157877063l), 1163629230879l, 1163629255661l, "content"))).addElement(SNodeOperations.cast(_context.getSampleNode(), "jetbrains.mps.xml.structure.Content"));
     }
   }
   public static void nodeFactory_NodeSetup_ContentList_1178622500723(final IOperationContext operationContext, final NodeSetupContext _context) {
     if (SNodeOperations.isInstanceOf(_context.getSampleNode(), "jetbrains.mps.xml.structure.Content")) {
-      ListSequence.fromList(SLinkOperations.getTargets(_context.getNewNode(), "content", true)).addElement(SNodeOperations.cast(_context.getSampleNode(), "jetbrains.mps.xml.structure.Content"));
+      ListSequence.fromList(SLinkOperations.getChildren(_context.getNewNode(), MetaAdapterFactory.getContainmentLink(new UUID(3194679053860949738l, -5054431440157877063l), 1163629230879l, 1163629255661l, "content"))).addElement(SNodeOperations.cast(_context.getSampleNode(), "jetbrains.mps.xml.structure.Content"));
     }
   }
   public static List<SubstituteAction> nodeSubstituteActionsBuilder_ActionsFactory_BaseAttribute_1167699332639(final IOperationContext operationContext, final NodeSubstituteActionsFactoryContext _context) {
@@ -63,12 +65,12 @@ public class QueriesGenerated {
             ListSequence.fromList(result).addElement(new DefaultChildNodeSubstituteAction(outputConcept, item, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter()) {
               public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
                 SNode attribute = SNodeFactoryOperations.createNewNode(model, "jetbrains.mps.xml.structure.Attribute", _context.getCurrentTargetNode());
-                SLinkOperations.setTarget(attribute, "attributeDeclaration", (item), false);
-                SNodeFactoryOperations.setNewChild(attribute, "value", "jetbrains.mps.xml.structure.Text");
+                SLinkOperations.setTarget(attribute, MetaAdapterFactory.getReferenceLink(new UUID(3194679053860949738l, -5054431440157877063l), 1167700349452l, 1167701332877l, "attributeDeclaration"), (item));
+                SNodeFactoryOperations.setNewChild(attribute, MetaAdapterFactory.getContainmentLink(new UUID(3194679053860949738l, -5054431440157877063l), 1167700349452l, 1167703268127l, "value"), "jetbrains.mps.xml.structure.Text");
                 return attribute;
               }
               public String getMatchingText(String pattern) {
-                return SPropertyOperations.getString((item), "attributeName");
+                return SPropertyOperations.getString((item), MetaAdapterFactory.getProperty(new UUID(-5396545995874219192l, -5548206827574227681l), 1167697887602l, 1167698115100l, "attributeName"));
               }
               public String getVisibleMatchingText(String pattern) {
                 return getMatchingText(pattern);
@@ -90,7 +92,7 @@ public class QueriesGenerated {
           public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
             SNode text = SNodeFactoryOperations.createNewNode("jetbrains.mps.xml.structure.Text", _context.getCurrentTargetNode());
             if (pattern.length() > 0) {
-              SPropertyOperations.set(text, "text", pattern.substring(1));
+              SPropertyOperations.set(text, MetaAdapterFactory.getProperty(new UUID(3194679053860949738l, -5054431440157877063l), 1161373262136l, 1161373273669l, "text"), pattern.substring(1));
             }
             return text;
           }
@@ -101,7 +103,7 @@ public class QueriesGenerated {
             return pattern.startsWith("/") || pattern.length() == 0;
           }
           public String getDescriptionText(String pattern) {
-            return SPropertyOperations.getString(SConceptOperations.findConceptDeclaration("jetbrains.mps.xml.structure.Text"), "shortDescription");
+            return SPropertyOperations.getString(SConceptOperations.findConceptDeclaration("jetbrains.mps.xml.structure.Text"), MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1133920641626l, 1156234966388l, "shortDescription"));
           }
           public String getMatchingText(String pattern) {
             return (pattern.length() == 0 ? "/text" : pattern);
@@ -140,18 +142,18 @@ public class QueriesGenerated {
             ListSequence.fromList(result).addElement(new DefaultChildNodeSubstituteAction(outputConcept, item, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter()) {
               public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
                 SNode prototype;
-                if (SNodeOperations.isInstanceOf(_context.getCurrentTargetNode(), "jetbrains.mps.xml.structure.Text") && pattern.equals(SPropertyOperations.getString(SNodeOperations.cast(_context.getCurrentTargetNode(), "jetbrains.mps.xml.structure.Text"), "text"))) {
+                if (SNodeOperations.isInstanceOf(_context.getCurrentTargetNode(), "jetbrains.mps.xml.structure.Text") && pattern.equals(SPropertyOperations.getString(SNodeOperations.cast(_context.getCurrentTargetNode(), "jetbrains.mps.xml.structure.Text"), MetaAdapterFactory.getProperty(new UUID(3194679053860949738l, -5054431440157877063l), 1161373262136l, 1161373273669l, "text")))) {
                   prototype = null;
                 } else {
                   prototype = _context.getCurrentTargetNode();
                 }
                 SNode element = SNodeFactoryOperations.createNewNode(model, "jetbrains.mps.xml.structure.Element", prototype);
-                SLinkOperations.setTarget(element, "elementDeclaration", (item), false);
-                SPropertyOperations.set(element, "isEmpty", "" + (ElementDeclaration_Behavior.call_isEmpty_1213877429867((item))));
+                SLinkOperations.setTarget(element, MetaAdapterFactory.getReferenceLink(new UUID(3194679053860949738l, -5054431440157877063l), 1167523027466l, 1167523262932l, "elementDeclaration"), (item));
+                SPropertyOperations.set(element, MetaAdapterFactory.getProperty(new UUID(3194679053860949738l, -5054431440157877063l), 1167523027466l, 1172970532917l, "isEmpty"), "" + (ElementDeclaration_Behavior.call_isEmpty_1213877429867((item))));
                 return element;
               }
               public String getMatchingText(String pattern) {
-                return "<" + SPropertyOperations.getString((item), "elementName");
+                return "<" + SPropertyOperations.getString((item), MetaAdapterFactory.getProperty(new UUID(-5396545995874219192l, -5548206827574227681l), 1167838236835l, 1167838788027l, "elementName"));
               }
               public String getVisibleMatchingText(String pattern) {
                 return getMatchingText(pattern);

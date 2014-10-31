@@ -5,6 +5,8 @@ package jetbrains.mps.buildlanguage.behavior;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import java.util.List;
 
@@ -12,19 +14,19 @@ public class TargetDeclaration_Behavior {
   public static void init(SNode thisNode) {
   }
   public static String call_getDependanceString_1213877231974(SNode thisNode) {
-    if (ListSequence.fromList(SLinkOperations.getTargets(thisNode, "depends", true)).isEmpty()) {
+    if (ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1196851099544l, 1196853776690l, "depends"))).isEmpty()) {
       return "";
     }
     StringBuffer buffer = new StringBuffer();
-    for (int i = 0; i < ListSequence.fromList(SLinkOperations.getTargets(thisNode, "depends", true)).count(); i++) {
-      buffer.append(SPropertyOperations.getString(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getTargets(thisNode, "depends", true)).getElement(i), "targetDeclaration", false), "name"));
-      if (i < ListSequence.fromList(SLinkOperations.getTargets(thisNode, "depends", true)).count() - 1) {
+    for (int i = 0; i < ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1196851099544l, 1196853776690l, "depends"))).count(); i++) {
+      buffer.append(SPropertyOperations.getString(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1196851099544l, 1196853776690l, "depends"))).getElement(i), MetaAdapterFactory.getReferenceLink(new UUID(819810455698030989l, -8713019626243247156l), 1196852921336l, 1196852953065l, "targetDeclaration")), MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name")));
+      if (i < ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1196851099544l, 1196853776690l, "depends"))).count() - 1) {
         buffer.append(",");
       }
     }
     return buffer.toString();
   }
   public static List<SNode> virtual_getProperties_1213877375726(SNode thisNode) {
-    return SLinkOperations.getTargets(thisNode, "propertyList", true);
+    return SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1196851099544l, 1200425580778l, "propertyList"));
   }
 }

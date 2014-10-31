@@ -15,6 +15,8 @@ import jetbrains.mps.smodel.action.DefaultSimpleSubstituteAction;
 import org.jetbrains.mps.openapi.model.SModel;
 import jetbrains.mps.smodel.action.SNodeFactoryOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 import jetbrains.mps.smodel.action.NodeSubstitutePreconditionContext;
 import jetbrains.mps.smodel.action.ChildSubstituteActionsHelper;
 import jetbrains.mps.smodel.action.SideTransformActionsBuilderContext;
@@ -37,7 +39,7 @@ public class QueriesGenerated {
         ListSequence.fromList(result).addElement(new DefaultSimpleSubstituteAction(outputConcept, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter()) {
           public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
             SNode result = SNodeFactoryOperations.createNewNode(model, "jetbrains.mps.buildlanguage.structure.BooleanLiteral", null);
-            SPropertyOperations.set(result, "value", "" + (true));
+            SPropertyOperations.set(result, MetaAdapterFactory.getProperty(new UUID(819810455698030989l, -8713019626243247156l), 1196865966685l, 1196866040780l, "value"), "" + (true));
             return result;
           }
           public String getDescriptionText(String pattern) {
@@ -59,7 +61,7 @@ public class QueriesGenerated {
         ListSequence.fromList(result).addElement(new DefaultSimpleSubstituteAction(outputConcept, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter()) {
           public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
             SNode result = SNodeFactoryOperations.createNewNode(model, "jetbrains.mps.buildlanguage.structure.BooleanLiteral", null);
-            SPropertyOperations.set(result, "value", "" + (false));
+            SPropertyOperations.set(result, MetaAdapterFactory.getProperty(new UUID(819810455698030989l, -8713019626243247156l), 1196865966685l, 1196866040780l, "value"), "" + (false));
             return result;
           }
           public String getDescriptionText(String pattern) {
@@ -88,7 +90,7 @@ public class QueriesGenerated {
         ListSequence.fromList(result).addElement(new DefaultSimpleSubstituteAction(outputConcept, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter()) {
           public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
             SNode newNode = SNodeFactoryOperations.createNewNode("jetbrains.mps.buildlanguage.structure.IntLiteral", null);
-            SPropertyOperations.set(newNode, "value", "" + (Integer.parseInt(pattern)));
+            SPropertyOperations.set(newNode, MetaAdapterFactory.getProperty(new UUID(819810455698030989l, -8713019626243247156l), 1196866637548l, 1196866657424l, "value"), "" + (Integer.parseInt(pattern)));
             return newNode;
           }
           public boolean hasSubstitute() {
@@ -124,7 +126,7 @@ public class QueriesGenerated {
       public SNode doSubstitute(@Nullable final EditorContext editorContext, String pattern) {
         SNode newNode = SNodeFactoryOperations.createNewNode("jetbrains.mps.buildlanguage.structure.PlusOperation", null);
         SNodeOperations.replaceWithAnother(_context.getSourceNode(), newNode);
-        SLinkOperations.setTarget(newNode, "left", _context.getSourceNode(), true);
+        SLinkOperations.setTarget(newNode, MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1197107841918l, 1197107855106l, "left"), _context.getSourceNode());
         return newNode;
       }
       public String getMatchingText(String pattern) {
@@ -152,7 +154,7 @@ public class QueriesGenerated {
       public SNode doSubstitute(@Nullable final EditorContext editorContext, String pattern) {
         SNode newNode = SNodeFactoryOperations.createNewNode("jetbrains.mps.buildlanguage.structure.PlusOperation", null);
         SNodeOperations.replaceWithAnother(_context.getSourceNode(), newNode);
-        SLinkOperations.setTarget(newNode, "right", _context.getSourceNode(), true);
+        SLinkOperations.setTarget(newNode, MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1197107841918l, 1197107881958l, "right"), _context.getSourceNode());
         return newNode;
       }
       public String getMatchingText(String pattern) {
@@ -178,7 +180,7 @@ public class QueriesGenerated {
     List<SubstituteAction> result = ListSequence.fromList(new ArrayList<SubstituteAction>());
     ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(SConceptOperations.findConceptDeclaration("jetbrains.mps.buildlanguage.structure.ICommented"), _context.getSourceNode()) {
       public SNode doSubstitute(@Nullable final EditorContext editorContext, String pattern) {
-        SPropertyOperations.set(_context.getSourceNode(), "shortDescription", "");
+        SPropertyOperations.set(_context.getSourceNode(), MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1133920641626l, 1156234966388l, "shortDescription"), "");
         return _context.getSourceNode();
       }
       public String getMatchingText(String pattern) {
@@ -201,7 +203,7 @@ public class QueriesGenerated {
     return result;
   }
   public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_ICommented_1201259678301(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
-    return SPropertyOperations.getString(_context.getSourceNode(), "shortDescription") == null;
+    return SPropertyOperations.getString(_context.getSourceNode(), MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1133920641626l, 1156234966388l, "shortDescription")) == null;
   }
   private static Pattern REGEXP_x583g4_a0a0a2a0a0a0a2a0a1a2 = Pattern.compile("\\d", 0);
 }

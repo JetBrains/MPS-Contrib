@@ -4,6 +4,8 @@ package jetbrains.mps.baseLanguage.dates.behavior;
 
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import java.util.List;
@@ -17,7 +19,7 @@ public class WithPropertyCompareExpression_Behavior {
   public static void init(SNode thisNode) {
   }
   public static SNode call_getDatetimeProperty_1239206693907(SNode thisNode) {
-    SNode property = SLinkOperations.getTarget(thisNode, "datetimeProperty", false);
+    SNode property = SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getReferenceLink(new UUID(-3689458971415590814l, -6289781637635314138l), 1239193939163l, 1239193967166l, "datetimeProperty"));
     if ((property == null)) {
       property = ListSequence.fromList(BehaviorReflection.invokeVirtualStatic((Class<List<SNode>>) ((Class) Object.class), SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SNodeOperations.getConceptDeclaration(thisNode))), "virtual_getDefaultDatetimeProperty_3044950653914717024", new Object[]{})).first();
     }

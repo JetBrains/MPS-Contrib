@@ -5,6 +5,8 @@ package jetbrains.mps.xml.behavior;
 import org.jetbrains.mps.openapi.model.SNode;
 import java.util.List;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
@@ -17,16 +19,16 @@ public class ContentList_Behavior {
   public static void init(SNode thisNode) {
   }
   public static List<SNode> virtual_getSubcontents_1213877224308(SNode thisNode) {
-    return SLinkOperations.getTargets(thisNode, "content", true);
+    return SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(3194679053860949738l, -5054431440157877063l), 1163629230879l, 1163629255661l, "content"));
   }
   public static boolean call_isHorizontal_1221256530294(SNode thisNode) {
     if ((thisNode == null)) {
       return true;
     }
-    if (SPropertyOperations.getBoolean(thisNode, "isHorizontal")) {
+    if (SPropertyOperations.getBoolean(thisNode, MetaAdapterFactory.getProperty(new UUID(3194679053860949738l, -5054431440157877063l), 1163629230879l, 1166231449055l, "isHorizontal"))) {
       return true;
     }
-    List<SNode> contents = SLinkOperations.getTargets(thisNode, "content", true);
+    List<SNode> contents = SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(3194679053860949738l, -5054431440157877063l), 1163629230879l, 1163629255661l, "content"));
     int contentSize = ListSequence.fromList(contents).count();
     if (contentSize == 0) {
       return true;

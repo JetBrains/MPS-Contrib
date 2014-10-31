@@ -5,6 +5,8 @@ package jetbrains.mps.xml.deprecated.textGen;
 import jetbrains.mps.textGen.SNodeTextGen;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.Sequence;
@@ -17,12 +19,12 @@ public class Element_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
     this.indentBuffer();
     this.append("<");
-    this.append(SPropertyOperations.getString(node, "name"));
-    if (ListSequence.fromList(SLinkOperations.getTargets(node, "attribute", true)).isNotEmpty()) {
+    this.append(SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name")));
+    if (ListSequence.fromList(SLinkOperations.getChildren(node, MetaAdapterFactory.getContainmentLink(new UUID(-9061952983114822898l, -7881051372423955543l), 1107866778860l, 1107866791721l, "attribute"))).isNotEmpty()) {
       this.append(" ");
     }
     {
-      Iterable<SNode> collection = SLinkOperations.getTargets(node, "attribute", true);
+      Iterable<SNode> collection = SLinkOperations.getChildren(node, MetaAdapterFactory.getContainmentLink(new UUID(-9061952983114822898l, -7881051372423955543l), 1107866778860l, 1107866791721l, "attribute"));
       final SNode lastItem = Sequence.fromIterable(collection).last();
       for (SNode item : collection) {
         appendNode(item);
@@ -31,28 +33,28 @@ public class Element_TextGen extends SNodeTextGen {
         }
       }
     }
-    if (ListSequence.fromList(SLinkOperations.getTargets(node, "content", true)).isEmpty()) {
+    if (ListSequence.fromList(SLinkOperations.getChildren(node, MetaAdapterFactory.getContainmentLink(new UUID(-9061952983114822898l, -7881051372423955543l), 1107866778860l, 1107866800972l, "content"))).isEmpty()) {
       this.append(" />");
       this.appendNewLine();
       return;
     }
     this.append(">");
-    if (ListSequence.fromList(SLinkOperations.getTargets(node, "content", true)).isNotEmpty() && BehaviorReflection.invokeVirtualStatic(Boolean.TYPE, SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SNodeOperations.getConceptDeclaration(ListSequence.fromList(SLinkOperations.getTargets(node, "content", true)).first()))), "virtual_indented_1262430001741498172", new Object[]{})) {
+    if (ListSequence.fromList(SLinkOperations.getChildren(node, MetaAdapterFactory.getContainmentLink(new UUID(-9061952983114822898l, -7881051372423955543l), 1107866778860l, 1107866800972l, "content"))).isNotEmpty() && BehaviorReflection.invokeVirtualStatic(Boolean.TYPE, SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SNodeOperations.getConceptDeclaration(ListSequence.fromList(SLinkOperations.getChildren(node, MetaAdapterFactory.getContainmentLink(new UUID(-9061952983114822898l, -7881051372423955543l), 1107866778860l, 1107866800972l, "content"))).first()))), "virtual_indented_1262430001741498172", new Object[]{})) {
       this.appendNewLine();
     }
     this.increaseDepth();
     {
-      Iterable<SNode> collection = SLinkOperations.getTargets(node, "content", true);
+      Iterable<SNode> collection = SLinkOperations.getChildren(node, MetaAdapterFactory.getContainmentLink(new UUID(-9061952983114822898l, -7881051372423955543l), 1107866778860l, 1107866800972l, "content"));
       for (SNode item : collection) {
         appendNode(item);
       }
     }
     this.decreaseDepth();
-    if (ListSequence.fromList(SLinkOperations.getTargets(node, "content", true)).isNotEmpty() && BehaviorReflection.invokeVirtualStatic(Boolean.TYPE, SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SNodeOperations.getConceptDeclaration(ListSequence.fromList(SLinkOperations.getTargets(node, "content", true)).last()))), "virtual_indented_1262430001741498172", new Object[]{})) {
+    if (ListSequence.fromList(SLinkOperations.getChildren(node, MetaAdapterFactory.getContainmentLink(new UUID(-9061952983114822898l, -7881051372423955543l), 1107866778860l, 1107866800972l, "content"))).isNotEmpty() && BehaviorReflection.invokeVirtualStatic(Boolean.TYPE, SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SNodeOperations.getConceptDeclaration(ListSequence.fromList(SLinkOperations.getChildren(node, MetaAdapterFactory.getContainmentLink(new UUID(-9061952983114822898l, -7881051372423955543l), 1107866778860l, 1107866800972l, "content"))).last()))), "virtual_indented_1262430001741498172", new Object[]{})) {
       this.indentBuffer();
     }
     this.append("</");
-    this.append(SPropertyOperations.getString(node, "name"));
+    this.append(SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name")));
     this.append(">");
     this.appendNewLine();
   }

@@ -5,36 +5,38 @@ package jetbrains.mps.uiLanguage.behavior;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class BindExpression_Behavior {
   public static void init(SNode thisNode) {
   }
   public static SNode call_getOperationExpression_1213877287966(SNode thisNode) {
-    if (!(SNodeOperations.isInstanceOf(SLinkOperations.getTarget(thisNode, "expression", true), "jetbrains.mps.baseLanguage.structure.DotExpression"))) {
+    if (!(SNodeOperations.isInstanceOf(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202464424004l, 1202464474939l, "expression")), "jetbrains.mps.baseLanguage.structure.DotExpression"))) {
       return null;
     }
-    return SNodeOperations.cast(SLinkOperations.getTarget(thisNode, "expression", true), "jetbrains.mps.baseLanguage.structure.DotExpression");
+    return SNodeOperations.cast(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202464424004l, 1202464474939l, "expression")), "jetbrains.mps.baseLanguage.structure.DotExpression");
   }
   public static SNode call_getAttributeReferenceOperation_1213877287985(SNode thisNode) {
     if (BindExpression_Behavior.call_getOperationExpression_1213877287966(thisNode) == null) {
       return null;
     }
     SNode operationExpr = BindExpression_Behavior.call_getOperationExpression_1213877287966(thisNode);
-    if (!(SNodeOperations.isInstanceOf(SLinkOperations.getTarget(operationExpr, "operation", true), "jetbrains.mps.uiLanguage.structure.AttributeReferenceOperation"))) {
+    if (!(SNodeOperations.isInstanceOf(SLinkOperations.getTarget(operationExpr, MetaAdapterFactory.getContainmentLink(new UUID(-935030926396207931l, -6610165693999523818l), 1197027756228l, 1197027833540l, "operation")), "jetbrains.mps.uiLanguage.structure.AttributeReferenceOperation"))) {
       return null;
     }
-    return SNodeOperations.cast(SLinkOperations.getTarget(operationExpr, "operation", true), "jetbrains.mps.uiLanguage.structure.AttributeReferenceOperation");
+    return SNodeOperations.cast(SLinkOperations.getTarget(operationExpr, MetaAdapterFactory.getContainmentLink(new UUID(-935030926396207931l, -6610165693999523818l), 1197027756228l, 1197027833540l, "operation")), "jetbrains.mps.uiLanguage.structure.AttributeReferenceOperation");
   }
   public static String call_getPathExpression_1213877288019(SNode thisNode) {
     if (BindExpression_Behavior.call_getAttributeReferenceOperation_1213877287985(thisNode) != null) {
-      return SPropertyOperations.getString(SLinkOperations.getTarget(BindExpression_Behavior.call_getAttributeReferenceOperation_1213877287985(thisNode), "member", false), "name");
+      return SPropertyOperations.getString(SLinkOperations.getTarget(BindExpression_Behavior.call_getAttributeReferenceOperation_1213877287985(thisNode), MetaAdapterFactory.getReferenceLink(new UUID(4917733117167750838l, -7710007501170303426l), 1205756064662l, 1205756909548l, "member")), MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name"));
     }
     throw new RuntimeException();
   }
   public static SNode call_getSourceObject_1213877288039(SNode thisNode) {
     if (BindExpression_Behavior.call_getOperationExpression_1213877287966(thisNode) != null) {
-      return SLinkOperations.getTarget(BindExpression_Behavior.call_getOperationExpression_1213877287966(thisNode), "operand", true);
+      return SLinkOperations.getTarget(BindExpression_Behavior.call_getOperationExpression_1213877287966(thisNode), MetaAdapterFactory.getContainmentLink(new UUID(-935030926396207931l, -6610165693999523818l), 1197027756228l, 1197027771414l, "operand"));
     }
     throw new RuntimeException();
   }

@@ -4,11 +4,13 @@ package jetbrains.mps.baseLanguage.datesInternal.behavior;
 
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 
 public class DateTimePropertyCardinality_Behavior {
   public static void init(SNode thisNode) {
   }
   public static String virtual_getPresentation_1213877396640(SNode thisNode) {
-    return SPropertyOperations.getString(thisNode, "meaning");
+    return SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(new UUID(1842350883898016625l, -7531592358064104734l), 1173953789261l, 1173953818374l, "meaning"));
   }
 }

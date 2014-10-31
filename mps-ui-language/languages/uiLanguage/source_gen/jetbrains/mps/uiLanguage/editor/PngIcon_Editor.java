@@ -16,6 +16,8 @@ import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Component;
 import javax.swing.JComponent;
 import jetbrains.mps.openapi.editor.style.StyleRegistry;
@@ -83,7 +85,7 @@ public class PngIcon_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private static boolean renderingCondition_4kucyt_a3a(SNode node, EditorContext editorContext) {
-    return isNotEmptyString(SPropertyOperations.getString(node, "iconData"));
+    return isNotEmptyString(SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(new UUID(6731736082390534803l, -6860703902218146233l), 6242401288845934074l, 6242401288845940751l, "iconData")));
   }
   private EditorCell createJComponent_4kucyt_a3a(EditorContext editorContext, SNode node) {
     EditorCell editorCell = EditorCell_Component.createComponentCell(editorContext, node, PngIcon_Editor._QueryFunction_JComponent_4kucyt_a0d0(node, editorContext), "_4kucyt_a3a");
@@ -91,7 +93,7 @@ public class PngIcon_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private static JComponent _QueryFunction_JComponent_4kucyt_a0d0(final SNode node, final EditorContext editorContext) {
-    return EditorIconUtil.createIconPreview(SPropertyOperations.getString(node, "iconData"));
+    return EditorIconUtil.createIconPreview(SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(new UUID(6731736082390534803l, -6860703902218146233l), 6242401288845934074l, 6242401288845940751l, "iconData")));
   }
   private EditorCell createConstant_4kucyt_a3a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<no icon>");

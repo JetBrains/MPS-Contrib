@@ -6,11 +6,13 @@ import jetbrains.mps.textGen.SNodeTextGen;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.textGen.TextGen;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 
 public class PngIcon_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
     getBuffer().putUserObject(TextGen.OUTPUT_ENCODING, "binary");
-    this.append(SPropertyOperations.getString(node, "iconData"));
+    this.append(SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(new UUID(6731736082390534803l, -6860703902218146233l), 6242401288845934074l, 6242401288845940751l, "iconData")));
   }
   public String getExtension(SNode node) {
     return "png";

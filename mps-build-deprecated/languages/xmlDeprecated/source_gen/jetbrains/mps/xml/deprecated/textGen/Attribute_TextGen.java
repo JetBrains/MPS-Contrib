@@ -5,12 +5,14 @@ package jetbrains.mps.xml.deprecated.textGen;
 import jetbrains.mps.textGen.SNodeTextGen;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 import jetbrains.mps.util.JDOMUtil;
 
 public class Attribute_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
-    String value = (SPropertyOperations.getString(node, "value") == null ? "" : JDOMUtil.createOutputter().escapeElementEntities(SPropertyOperations.getString(node, "value")));
-    this.append(SPropertyOperations.getString(node, "name"));
+    String value = (SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(new UUID(-9061952983114822898l, -7881051372423955543l), 1107866742882l, 1107866755246l, "value")) == null ? "" : JDOMUtil.createOutputter().escapeElementEntities(SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(new UUID(-9061952983114822898l, -7881051372423955543l), 1107866742882l, 1107866755246l, "value"))));
+    this.append(SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name")));
     this.append("=\"");
     this.append(value);
     this.append("\"");

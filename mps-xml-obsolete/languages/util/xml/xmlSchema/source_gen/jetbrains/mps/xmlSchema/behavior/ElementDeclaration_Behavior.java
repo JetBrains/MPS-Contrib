@@ -10,6 +10,8 @@ import java.util.Set;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class ElementDeclaration_Behavior {
@@ -40,13 +42,13 @@ public class ElementDeclaration_Behavior {
     return (complexType == null) || BehaviorReflection.invokeVirtual(Boolean.TYPE, complexType, "virtual_isMixed_1213877382388", new Object[]{});
   }
   public static SNode call_getNamespaceDeclaration_1213877429893(SNode thisNode) {
-    return SLinkOperations.getTarget(SNodeOperations.getAncestor(thisNode, "jetbrains.mps.xmlSchema.structure.Schema", false, false), "defaultNamespaceDeclaration", true);
+    return SLinkOperations.getTarget(SNodeOperations.getAncestor(thisNode, "jetbrains.mps.xmlSchema.structure.Schema", false, false), MetaAdapterFactory.getContainmentLink(new UUID(-5396545995874219192l, -5548206827574227681l), 1167513239198l, 1189988930673l, "defaultNamespaceDeclaration"));
   }
   public static String call_getQualifiedName_1213877429904(SNode thisNode) {
-    String qualifiedName = SPropertyOperations.getString(thisNode, "elementName");
+    String qualifiedName = SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(new UUID(-5396545995874219192l, -5548206827574227681l), 1167838236835l, 1167838788027l, "elementName"));
     SNode namespaceDeclaration = ElementDeclaration_Behavior.call_getNamespaceDeclaration_1213877429893(thisNode);
     if ((namespaceDeclaration != null)) {
-      qualifiedName = SPropertyOperations.getString(namespaceDeclaration, "prefix") + ":" + qualifiedName;
+      qualifiedName = SPropertyOperations.getString(namespaceDeclaration, MetaAdapterFactory.getProperty(new UUID(-5396545995874219192l, -5548206827574227681l), 1189887674514l, 1189887823140l, "prefix")) + ":" + qualifiedName;
     }
     return qualifiedName;
   }

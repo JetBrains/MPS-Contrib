@@ -20,6 +20,8 @@ import jetbrains.mps.baseLanguage.dates.behavior.ScheduleLiteral_Behavior;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 
 public class ScheduleLiteral_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
@@ -129,7 +131,7 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private static boolean renderingCondition_53656_a1b0(SNode node, EditorContext editorContext) {
-    return SPropertyOperations.getBoolean(SLinkOperations.getTarget(node, "schedulePeriod", false), "month");
+    return SPropertyOperations.getBoolean(SLinkOperations.getTarget(node, MetaAdapterFactory.getReferenceLink(new UUID(-3689458971415590814l, -6289781637635314138l), 1194003500823l, 1194007702067l, "schedulePeriod")), MetaAdapterFactory.getProperty(new UUID(1842350883898016625l, -7531592358064104734l), 1194006427224l, 1194006543511l, "month"));
   }
   private EditorCell createRefCell_53656_a1b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
@@ -209,7 +211,7 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private static boolean renderingCondition_53656_a2b0(SNode node, EditorContext editorContext) {
-    return SPropertyOperations.getBoolean(SLinkOperations.getTarget(node, "schedulePeriod", false), "dayOfMonth");
+    return SPropertyOperations.getBoolean(SLinkOperations.getTarget(node, MetaAdapterFactory.getReferenceLink(new UUID(-3689458971415590814l, -6289781637635314138l), 1194003500823l, 1194007702067l, "schedulePeriod")), MetaAdapterFactory.getProperty(new UUID(1842350883898016625l, -7531592358064104734l), 1194006427224l, 1194006539888l, "dayOfMonth"));
   }
   private EditorCell createProperty_53656_d1a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
@@ -229,7 +231,7 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private static boolean renderingCondition_53656_a3b0(SNode node, EditorContext editorContext) {
-    return SPropertyOperations.getBoolean(SLinkOperations.getTarget(node, "schedulePeriod", false), "dayOfWeek");
+    return SPropertyOperations.getBoolean(SLinkOperations.getTarget(node, MetaAdapterFactory.getReferenceLink(new UUID(-3689458971415590814l, -6289781637635314138l), 1194003500823l, 1194007702067l, "schedulePeriod")), MetaAdapterFactory.getProperty(new UUID(1842350883898016625l, -7531592358064104734l), 1194006427224l, 1194006517951l, "dayOfWeek"));
   }
   private EditorCell createCollection_53656_c0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
@@ -268,7 +270,7 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private static boolean renderingCondition_53656_a1c0(SNode node, EditorContext editorContext) {
-    return SPropertyOperations.getBoolean(SLinkOperations.getTarget(node, "schedulePeriod", false), "second");
+    return SPropertyOperations.getBoolean(SLinkOperations.getTarget(node, MetaAdapterFactory.getReferenceLink(new UUID(-3689458971415590814l, -6289781637635314138l), 1194003500823l, 1194007702067l, "schedulePeriod")), MetaAdapterFactory.getProperty(new UUID(1842350883898016625l, -7531592358064104734l), 1194006427224l, 1194006461854l, "second"));
   }
   private EditorCell createCollection_53656_a1c0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
@@ -284,7 +286,7 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private static boolean renderingCondition_53656_a0b2a(SNode node, EditorContext editorContext) {
-    return SPropertyOperations.getBoolean(SLinkOperations.getTarget(node, "schedulePeriod", false), "minute");
+    return SPropertyOperations.getBoolean(SLinkOperations.getTarget(node, MetaAdapterFactory.getReferenceLink(new UUID(-3689458971415590814l, -6289781637635314138l), 1194003500823l, 1194007702067l, "schedulePeriod")), MetaAdapterFactory.getProperty(new UUID(1842350883898016625l, -7531592358064104734l), 1194006427224l, 1194006507227l, "minute"));
   }
   private EditorCell createCollection_53656_a0b2a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
@@ -297,7 +299,7 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private static boolean renderingCondition_53656_a0a1c0(SNode node, EditorContext editorContext) {
-    return SPropertyOperations.getBoolean(SLinkOperations.getTarget(node, "schedulePeriod", false), "hour");
+    return SPropertyOperations.getBoolean(SLinkOperations.getTarget(node, MetaAdapterFactory.getReferenceLink(new UUID(-3689458971415590814l, -6289781637635314138l), 1194003500823l, 1194007702067l, "schedulePeriod")), MetaAdapterFactory.getProperty(new UUID(1842350883898016625l, -7531592358064104734l), 1194006427224l, 1194006512400l, "hour"));
   }
   private EditorCell createProperty_53656_a0a1c0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);

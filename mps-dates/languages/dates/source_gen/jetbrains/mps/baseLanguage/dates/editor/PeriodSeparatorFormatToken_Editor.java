@@ -13,6 +13,8 @@ import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.nodeEditor.MPSFonts;
@@ -53,7 +55,7 @@ public class PeriodSeparatorFormatToken_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private static boolean _StyleParameter_QueryFunction_ih8plz_a0a0(EditorContext editorContext, SNode node) {
-    return !(SPropertyOperations.hasValue(node, "kind", "ifAfter", "default"));
+    return !(SPropertyOperations.hasValue(node, MetaAdapterFactory.getProperty(new UUID(-3689458971415590814l, -6289781637635314138l), 5581663871702358898l, 5581663871702358907l, "kind"), "ifAfter", "default"));
   }
   private EditorCell createProperty_ih8plz_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
@@ -88,7 +90,7 @@ public class PeriodSeparatorFormatToken_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private static boolean renderingCondition_ih8plz_a2a(SNode node, EditorContext editorContext) {
-    return isNotEmptyString(SPropertyOperations.getString(node, "lastText")) && SPropertyOperations.hasValue(node, "kind", "default", "default");
+    return isNotEmptyString(SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(new UUID(-3689458971415590814l, -6289781637635314138l), 5581663871702358898l, 5581663871702358900l, "lastText"))) && SPropertyOperations.hasValue(node, MetaAdapterFactory.getProperty(new UUID(-3689458971415590814l, -6289781637635314138l), 5581663871702358898l, 5581663871702358907l, "kind"), "default", "default");
   }
   private EditorCell createConstant_ih8plz_a2a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ",");
@@ -132,7 +134,7 @@ public class PeriodSeparatorFormatToken_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private static boolean _StyleParameter_QueryFunction_ih8plz_a0d0(EditorContext editorContext, SNode node) {
-    return !(SPropertyOperations.hasValue(node, "kind", "ifBefore", "default"));
+    return !(SPropertyOperations.hasValue(node, MetaAdapterFactory.getProperty(new UUID(-3689458971415590814l, -6289781637635314138l), 5581663871702358898l, 5581663871702358907l, "kind"), "ifBefore", "default"));
   }
   private EditorCell createCollection_ih8plz_a_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
@@ -193,7 +195,7 @@ public class PeriodSeparatorFormatToken_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private static boolean renderingCondition_ih8plz_a1a(SNode node, EditorContext editorContext) {
-    return SPropertyOperations.hasValue(node, "kind", "default", "default");
+    return SPropertyOperations.hasValue(node, MetaAdapterFactory.getProperty(new UUID(-3689458971415590814l, -6289781637635314138l), 5581663871702358898l, 5581663871702358907l, "kind"), "default", "default");
   }
   private EditorCell createConstant_ih8plz_a1a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "text for last separator");

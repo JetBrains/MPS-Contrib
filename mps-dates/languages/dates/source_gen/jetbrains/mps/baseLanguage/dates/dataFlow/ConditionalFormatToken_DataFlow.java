@@ -7,12 +7,14 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.lang.dataFlow.DataFlowBuilderContext;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 
 public class ConditionalFormatToken_DataFlow extends DataFlowBuilder {
   public ConditionalFormatToken_DataFlow() {
   }
   public void build(final IOperationContext operationContext, final DataFlowBuilderContext _context) {
-    for (SNode pair : SLinkOperations.getTargets(_context.getNode(), "conditionPair", true)) {
+    for (SNode pair : SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 1169562965517l, 1169563619049l, "conditionPair"))) {
       _context.getBuilder().build((SNode) pair);
     }
   }

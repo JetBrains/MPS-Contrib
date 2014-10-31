@@ -5,6 +5,7 @@ package jetbrains.mps.buildlanguage.constraints;
 import jetbrains.mps.smodel.runtime.ConstraintsDescriptor;
 import java.util.Arrays;
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
+import jetbrains.mps.smodel.adapter.ids.SConceptId;
 
 public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime.ConstraintsAspectDescriptor {
   public ConstraintsAspectDescriptor() {
@@ -28,9 +29,36 @@ public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime
       case 4:
         return new PropertyValueExpression_Constraints();
       default:
-        // todo: illegal in some cases? 
         return new BaseConstraintsDescriptor(fqName);
     }
+  }
+  public ConstraintsDescriptor getDescriptor(SConceptId conceptId) {
+    long id = conceptId.getConceptId();
+    if (id == 1196852921336l) {
+      return new TargetReference_Constraints();
+    }
+    if (id == 1201701678947l) {
+      return new TargetReferencePropertyValueExpression_Constraints();
+    }
+    if (id == 1196853662806l) {
+      return new PropertyReference_Constraints();
+    }
+    if (id == 1196861005114l) {
+      return new StringLiteral_Constraints();
+    }
+    if (id == 1218548668666l) {
+      return new MultiLineString_Constraints();
+    }
+    if (id == 1219147669362l) {
+      return new ExternalPropertyDeclaration_Constraints();
+    }
+    if (id == 1200511852076l) {
+      return new CallReference_Constraints();
+    }
+    if (id == 1196851952934l) {
+      return new PropertyValueExpression_Constraints();
+    }
+    return new BaseConstraintsDescriptor(conceptId);
   }
   private static String[] stringSwitchCases_2qnle6_a0a0b = new String[]{"jetbrains.mps.buildlanguage.structure.CallReference", "jetbrains.mps.buildlanguage.structure.ExternalPropertyDeclaration", "jetbrains.mps.buildlanguage.structure.MultiLineString", "jetbrains.mps.buildlanguage.structure.PropertyReference", "jetbrains.mps.buildlanguage.structure.PropertyValueExpression", "jetbrains.mps.buildlanguage.structure.StringLiteral", "jetbrains.mps.buildlanguage.structure.TargetReference", "jetbrains.mps.buildlanguage.structure.TargetReferencePropertyValueExpression"};
 }

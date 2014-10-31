@@ -5,6 +5,8 @@ package jetbrains.mps.gtext.behavior;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import java.util.List;
@@ -14,7 +16,7 @@ public class GItemList_Behavior {
   }
   public static boolean virtual_isComplex_1213877298853(SNode thisNode) {
     boolean complex = false;
-    for (SNode item : ListSequence.fromList(SLinkOperations.getTargets(thisNode, "item", true))) {
+    for (SNode item : ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(-6324114011398976607l, -8974808928016009858l), 1164412982980l, 1164413016466l, "item")))) {
       if (SNodeOperations.isInstanceOf(item, "jetbrains.mps.gtext.structure.GItem") && BehaviorReflection.invokeVirtual(Boolean.TYPE, item, "virtual_isComplex_1213877298853", new Object[]{})) {
         complex = true;
         break;
@@ -23,6 +25,6 @@ public class GItemList_Behavior {
     return complex;
   }
   public static List<SNode> virtual_getItems_1239125087745(SNode thisNode) {
-    return SLinkOperations.getTargets(thisNode, "item", true);
+    return SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(-6324114011398976607l, -8974808928016009858l), 1164412982980l, 1164413016466l, "item"));
   }
 }

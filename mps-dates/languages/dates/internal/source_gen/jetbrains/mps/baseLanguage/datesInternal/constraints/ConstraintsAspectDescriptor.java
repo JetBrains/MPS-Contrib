@@ -5,6 +5,7 @@ package jetbrains.mps.baseLanguage.datesInternal.constraints;
 import jetbrains.mps.smodel.runtime.ConstraintsDescriptor;
 import java.util.Arrays;
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
+import jetbrains.mps.smodel.adapter.ids.SConceptId;
 
 public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime.ConstraintsAspectDescriptor {
   public ConstraintsAspectDescriptor() {
@@ -34,9 +35,45 @@ public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime
       case 9:
         return new PredefinedPeriodFormat_Constraints();
       default:
-        // todo: illegal in some cases? 
         return new BaseConstraintsDescriptor(fqName);
     }
+  }
+  public ConstraintsDescriptor getDescriptor(SConceptId conceptId) {
+    long id = conceptId.getConceptId();
+    if (id == 1174320693350l) {
+      return new DurationType_Constraints();
+    }
+    if (id == 1194006427224l) {
+      return new SchedulePeriod_Constraints();
+    }
+    if (id == 1172074318583l) {
+      return new DateTimeProperty_Constraints();
+    }
+    if (id == 1173953789261l) {
+      return new DateTimePropertyCardinality_Constraints();
+    }
+    if (id == 1174043262324l) {
+      return new DateTimeZonePropertyFormatConfiguration_Constraints();
+    }
+    if (id == 1173883503931l) {
+      return new PredefinedDateFormat_Constraints();
+    }
+    if (id == 1194005944850l) {
+      return new Month_Constraints();
+    }
+    if (id == 1174042847309l) {
+      return new DateTimePropertyConfiguration_Constraints();
+    }
+    if (id == 1173953509960l) {
+      return new DateTimeIntPropertyFormatConfiguration_Constraints();
+    }
+    if (id == 1173953623139l) {
+      return new DateTimePropertyFormatType_Constraints();
+    }
+    if (id == 34521615669325565l) {
+      return new PredefinedPeriodFormat_Constraints();
+    }
+    return new BaseConstraintsDescriptor(conceptId);
   }
   private static String[] stringSwitchCases_2qnle6_a0a0b = new String[]{"jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeIntPropertyFormatConfiguration", "jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeProperty", "jetbrains.mps.baseLanguage.datesInternal.structure.DateTimePropertyCardinality", "jetbrains.mps.baseLanguage.datesInternal.structure.DateTimePropertyConfiguration", "jetbrains.mps.baseLanguage.datesInternal.structure.DateTimePropertyFormatType", "jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeZonePropertyFormatConfiguration", "jetbrains.mps.baseLanguage.datesInternal.structure.DurationType", "jetbrains.mps.baseLanguage.datesInternal.structure.Month", "jetbrains.mps.baseLanguage.datesInternal.structure.PredefinedDateFormat", "jetbrains.mps.baseLanguage.datesInternal.structure.PredefinedPeriodFormat", "jetbrains.mps.baseLanguage.datesInternal.structure.SchedulePeriod"};
 }

@@ -9,6 +9,8 @@ import jetbrains.mps.openapi.editor.cells.CellActionType;
 import jetbrains.mps.editor.runtime.cells.AbstractCellAction;
 import jetbrains.mps.baseLanguage.dates.constraints.DateTimePropertFormatTokenUtil;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 
 public class DateTimePropertyFormatToken_ActionMap {
   public static void setCellActions(EditorCell editorCell, SNode node, EditorContext context) {
@@ -27,7 +29,7 @@ public class DateTimePropertyFormatToken_ActionMap {
     }
     public void execute_internal(EditorContext editorContext, SNode node) {
       if (DateTimePropertFormatTokenUtil.isFormatTypeDefault(node)) {
-        SLinkOperations.setTarget(node, "dateTimePropertyFormatType", null, false);
+        SLinkOperations.setTarget(node, MetaAdapterFactory.getReferenceLink(new UUID(-3689458971415590814l, -6289781637635314138l), 1173959836330l, 1173959975857l, "dateTimePropertyFormatType"), null);
       }
     }
   }

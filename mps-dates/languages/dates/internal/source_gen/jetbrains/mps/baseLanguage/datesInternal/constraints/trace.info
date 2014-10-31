@@ -10,421 +10,421 @@
   <concept fqn="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
   <root>
     <file name="ConstraintsAspectDescriptor.java">
-      <unit at="9,0,43,0" name="jetbrains.mps.baseLanguage.datesInternal.constraints.ConstraintsAspectDescriptor" />
+      <unit at="10,0,80,0" name="jetbrains.mps.baseLanguage.datesInternal.constraints.ConstraintsAspectDescriptor" />
     </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903db(jetbrains.mps.baseLanguage.datesInternal.constraints)/1213104844878">
     <file name="DurationType_Constraints.java">
-      <node id="1213104844878" at="15,37,16,77" concept="7" />
-      <node id="1213104844878" at="19,82,20,74" concept="4" />
-      <node id="1213104844878" at="23,37,24,20" concept="5" />
-      <node id="1213104844878" at="27,42,28,37" concept="4" />
-      <node id="1213104844878" at="28,37,29,176" concept="0" />
-      <node id="1213104844882" at="28,37,29,176" concept="5" />
-      <node id="1213104844878" at="31,7,32,22" concept="5" />
-      <node id="1213104844878" at="15,0,18,0" concept="1" trace="DurationType_Constraints#()V" />
-      <node id="1213104844878" at="22,0,26,0" concept="3" trace="hasOwnGetter#()Z" />
-      <node id="1213104844878" at="26,0,31,0" concept="3" trace="getValue#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Object;" />
-      <node id="1213104844878" at="20,74,31,7" concept="2" />
-      <node id="1213104844878" at="18,0,34,0" concept="3" trace="getNotDefaultProperties#()Ljava/util/Map;" />
-      <scope id="1213104844878" at="15,37,16,77" />
-      <scope id="1213104844878" at="23,37,24,20" />
-      <scope id="1213104844881" at="28,37,29,176" />
-      <scope id="1213104844878" at="27,42,29,176">
+      <node id="1213104844878" at="19,37,20,106" concept="7" />
+      <node id="1213104844878" at="23,88,24,123" concept="4" />
+      <node id="1213104844878" at="27,37,28,20" concept="5" />
+      <node id="1213104844878" at="31,42,32,37" concept="4" />
+      <node id="1213104844878" at="32,37,33,533" concept="0" />
+      <node id="1213104844882" at="32,37,33,533" concept="5" />
+      <node id="1213104844878" at="35,7,36,22" concept="5" />
+      <node id="1213104844878" at="19,0,22,0" concept="1" trace="DurationType_Constraints#()V" />
+      <node id="1213104844878" at="26,0,30,0" concept="3" trace="hasOwnGetter#()Z" />
+      <node id="1213104844878" at="30,0,35,0" concept="3" trace="getValue#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Object;" />
+      <node id="1213104844878" at="24,123,35,7" concept="2" />
+      <node id="1213104844878" at="22,0,38,0" concept="3" trace="getNotDefaultSProperties#()Ljava/util/Map;" />
+      <scope id="1213104844878" at="19,37,20,106" />
+      <scope id="1213104844878" at="27,37,28,20" />
+      <scope id="1213104844881" at="32,37,33,533" />
+      <scope id="1213104844878" at="31,42,33,533">
         <var name="propertyName" id="1213104844878" />
       </scope>
-      <scope id="1213104844878" at="15,0,18,0" />
-      <scope id="1213104844878" at="22,0,26,0" />
-      <scope id="1213104844878" at="26,0,31,0">
+      <scope id="1213104844878" at="19,0,22,0" />
+      <scope id="1213104844878" at="26,0,30,0" />
+      <scope id="1213104844878" at="30,0,35,0">
         <var name="node" id="1213104844878" />
       </scope>
-      <scope id="1213104844878" at="19,82,32,22">
+      <scope id="1213104844878" at="23,88,36,22">
         <var name="properties" id="1213104844878" />
       </scope>
-      <scope id="1213104844878" at="18,0,34,0" />
-      <unit id="1213104844878" at="21,31,31,5" name="jetbrains.mps.baseLanguage.datesInternal.constraints.DurationType_Constraints$1" />
-      <unit id="1213104844878" at="14,0,35,0" name="jetbrains.mps.baseLanguage.datesInternal.constraints.DurationType_Constraints" />
+      <scope id="1213104844878" at="22,0,38,0" />
+      <unit id="1213104844878" at="25,133,35,5" name="jetbrains.mps.baseLanguage.datesInternal.constraints.DurationType_Constraints$1" />
+      <unit id="1213104844878" at="18,0,39,0" name="jetbrains.mps.baseLanguage.datesInternal.constraints.DurationType_Constraints" />
     </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903db(jetbrains.mps.baseLanguage.datesInternal.constraints)/1213104846007">
     <file name="SchedulePeriod_Constraints.java">
-      <node id="1213104846007" at="14,39,15,79" concept="7" />
-      <node id="1213104846007" at="18,82,19,74" concept="4" />
-      <node id="1213104846007" at="22,37,23,20" concept="5" />
-      <node id="1213104846007" at="26,42,27,38" concept="4" />
-      <node id="1213104846007" at="27,38,28,59" concept="0" />
-      <node id="1213104846011" at="27,38,28,59" concept="5" />
-      <node id="1213104846007" at="30,7,31,22" concept="5" />
-      <node id="1213104846007" at="14,0,17,0" concept="1" trace="SchedulePeriod_Constraints#()V" />
-      <node id="1213104846007" at="21,0,25,0" concept="3" trace="hasOwnGetter#()Z" />
-      <node id="1213104846007" at="25,0,30,0" concept="3" trace="getValue#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Object;" />
-      <node id="1213104846007" at="19,74,30,7" concept="2" />
-      <node id="1213104846007" at="17,0,33,0" concept="3" trace="getNotDefaultProperties#()Ljava/util/Map;" />
-      <scope id="1213104846007" at="14,39,15,79" />
-      <scope id="1213104846007" at="22,37,23,20" />
-      <scope id="1213104846010" at="27,38,28,59" />
-      <scope id="1213104846007" at="26,42,28,59">
+      <node id="1213104846007" at="18,39,19,106" concept="7" />
+      <node id="1213104846007" at="22,88,23,123" concept="4" />
+      <node id="1213104846007" at="26,37,27,20" concept="5" />
+      <node id="1213104846007" at="30,42,31,38" concept="4" />
+      <node id="1213104846007" at="31,38,32,179" concept="0" />
+      <node id="1213104846011" at="31,38,32,179" concept="5" />
+      <node id="1213104846007" at="34,7,35,22" concept="5" />
+      <node id="1213104846007" at="18,0,21,0" concept="1" trace="SchedulePeriod_Constraints#()V" />
+      <node id="1213104846007" at="25,0,29,0" concept="3" trace="hasOwnGetter#()Z" />
+      <node id="1213104846007" at="29,0,34,0" concept="3" trace="getValue#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Object;" />
+      <node id="1213104846007" at="23,123,34,7" concept="2" />
+      <node id="1213104846007" at="21,0,37,0" concept="3" trace="getNotDefaultSProperties#()Ljava/util/Map;" />
+      <scope id="1213104846007" at="18,39,19,106" />
+      <scope id="1213104846007" at="26,37,27,20" />
+      <scope id="1213104846010" at="31,38,32,179" />
+      <scope id="1213104846007" at="30,42,32,179">
         <var name="propertyName" id="1213104846007" />
       </scope>
-      <scope id="1213104846007" at="14,0,17,0" />
-      <scope id="1213104846007" at="21,0,25,0" />
-      <scope id="1213104846007" at="25,0,30,0">
+      <scope id="1213104846007" at="18,0,21,0" />
+      <scope id="1213104846007" at="25,0,29,0" />
+      <scope id="1213104846007" at="29,0,34,0">
         <var name="node" id="1213104846007" />
       </scope>
-      <scope id="1213104846007" at="18,82,31,22">
+      <scope id="1213104846007" at="22,88,35,22">
         <var name="properties" id="1213104846007" />
       </scope>
-      <scope id="1213104846007" at="17,0,33,0" />
-      <unit id="1213104846007" at="20,32,30,5" name="jetbrains.mps.baseLanguage.datesInternal.constraints.SchedulePeriod_Constraints$1" />
-      <unit id="1213104846007" at="13,0,34,0" name="jetbrains.mps.baseLanguage.datesInternal.constraints.SchedulePeriod_Constraints" />
+      <scope id="1213104846007" at="21,0,37,0" />
+      <unit id="1213104846007" at="24,133,34,5" name="jetbrains.mps.baseLanguage.datesInternal.constraints.SchedulePeriod_Constraints$1" />
+      <unit id="1213104846007" at="17,0,38,0" name="jetbrains.mps.baseLanguage.datesInternal.constraints.SchedulePeriod_Constraints" />
     </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903db(jetbrains.mps.baseLanguage.datesInternal.constraints)/1213104847902">
     <file name="DateTimeProperty_Constraints.java">
-      <node id="1213104847902" at="28,41,29,81" concept="7" />
-      <node id="1213104847902" at="32,83,33,75" concept="4" />
-      <node id="1213104847902" at="36,44,37,20" concept="5" />
-      <node id="1213104847902" at="44,63,45,58" concept="5" />
-      <node id="1213104847902" at="48,122,49,151" concept="0" />
-      <node id="3021057898025631647" at="48,122,49,151" concept="5" />
-      <node id="1213104847902" at="56,44,57,20" concept="5" />
-      <node id="1213104847902" at="64,63,65,58" concept="5" />
-      <node id="1213104847902" at="68,122,69,162" concept="0" />
-      <node id="3021057898025631684" at="68,122,69,162" concept="5" />
-      <node id="1213104847902" at="76,44,77,20" concept="5" />
-      <node id="1213104847902" at="84,63,85,58" concept="5" />
-      <node id="1213104847902" at="88,122,89,303" concept="0" />
-      <node id="3021057898025631708" at="88,122,89,303" concept="5" />
-      <node id="1213104847902" at="93,7,94,22" concept="5" />
-      <node id="1213104847902" at="96,0,97,0" concept="6" trace="breakingNode_hi7gxv_a0a0a0a0a1a0b0a1a1" />
-      <node id="1213104847902" at="97,0,98,0" concept="6" trace="breakingNode_hi7gxv_a0a0a0a0a1a0b0a2a1" />
-      <node id="1213104847902" at="98,0,99,0" concept="6" trace="breakingNode_hi7gxv_a0a0a0a0a1a0b0a3a1" />
-      <node id="1213104847902" at="28,0,31,0" concept="1" trace="DateTimeProperty_Constraints#()V" />
-      <node id="1213104847902" at="35,0,39,0" concept="3" trace="hasOwnScopeProvider#()Z" />
-      <node id="1213104847902" at="43,0,47,0" concept="3" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
-      <node id="1213104847902" at="47,0,51,0" concept="3" trace="createScope#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
-      <node id="1213104847902" at="55,0,59,0" concept="3" trace="hasOwnScopeProvider#()Z" />
-      <node id="1213104847902" at="63,0,67,0" concept="3" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
-      <node id="1213104847902" at="67,0,71,0" concept="3" trace="createScope#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
-      <node id="1213104847902" at="75,0,79,0" concept="3" trace="hasOwnScopeProvider#()Z" />
-      <node id="1213104847902" at="83,0,87,0" concept="3" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
-      <node id="1213104847902" at="87,0,91,0" concept="3" trace="createScope#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
-      <node id="1213104847902" at="41,56,51,10" concept="5" />
-      <node id="1213104847902" at="61,56,71,10" concept="5" />
-      <node id="1213104847902" at="81,56,91,10" concept="5" />
-      <node id="1213104847902" at="39,0,53,0" concept="3" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
-      <node id="1213104847902" at="59,0,73,0" concept="3" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
-      <node id="1213104847902" at="79,0,93,0" concept="3" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
-      <node id="1213104847902" at="33,75,53,7" concept="2" />
-      <node id="1213104847902" at="53,7,73,7" concept="2" />
-      <node id="1213104847902" at="73,7,93,7" concept="2" />
-      <node id="1213104847902" at="31,0,96,0" concept="3" trace="getNotDefaultReferences#()Ljava/util/Map;" />
-      <scope id="1213104847902" at="28,41,29,81" />
-      <scope id="1213104847902" at="36,44,37,20" />
-      <scope id="1213104847902" at="44,63,45,58" />
-      <scope id="1213104847902" at="48,122,49,151" />
-      <scope id="3671207155728948213" at="48,122,49,151" />
-      <scope id="1213104847902" at="56,44,57,20" />
-      <scope id="1213104847902" at="64,63,65,58" />
-      <scope id="1213104847902" at="68,122,69,162" />
-      <scope id="3671207155728952056" at="68,122,69,162" />
-      <scope id="1213104847902" at="76,44,77,20" />
-      <scope id="1213104847902" at="84,63,85,58" />
-      <scope id="1213104847902" at="88,122,89,303" />
-      <scope id="3671207155728952156" at="88,122,89,303" />
-      <scope id="1213104847902" at="28,0,31,0" />
-      <scope id="1213104847902" at="35,0,39,0" />
-      <scope id="1213104847902" at="43,0,47,0" />
-      <scope id="1213104847902" at="47,0,51,0">
+      <node id="1213104847902" at="31,41,32,106" concept="7" />
+      <node id="1213104847902" at="35,98,36,135" concept="4" />
+      <node id="1213104847902" at="39,44,40,20" concept="5" />
+      <node id="1213104847902" at="47,63,48,58" concept="5" />
+      <node id="1213104847902" at="51,122,52,151" concept="0" />
+      <node id="3021057898025631647" at="51,122,52,151" concept="5" />
+      <node id="1213104847902" at="59,44,60,20" concept="5" />
+      <node id="1213104847902" at="67,63,68,58" concept="5" />
+      <node id="1213104847902" at="71,122,72,162" concept="0" />
+      <node id="3021057898025631684" at="71,122,72,162" concept="5" />
+      <node id="1213104847902" at="79,44,80,20" concept="5" />
+      <node id="1213104847902" at="87,63,88,58" concept="5" />
+      <node id="1213104847902" at="91,122,92,303" concept="0" />
+      <node id="3021057898025631708" at="91,122,92,303" concept="5" />
+      <node id="1213104847902" at="96,7,97,22" concept="5" />
+      <node id="1213104847902" at="99,0,100,0" concept="6" trace="breakingNode_hi7gxv_a0a0a0a0a1a0b0a1a1" />
+      <node id="1213104847902" at="100,0,101,0" concept="6" trace="breakingNode_hi7gxv_a0a0a0a0a1a0b0a2a1" />
+      <node id="1213104847902" at="101,0,102,0" concept="6" trace="breakingNode_hi7gxv_a0a0a0a0a1a0b0a3a1" />
+      <node id="1213104847902" at="31,0,34,0" concept="1" trace="DateTimeProperty_Constraints#()V" />
+      <node id="1213104847902" at="38,0,42,0" concept="3" trace="hasOwnScopeProvider#()Z" />
+      <node id="1213104847902" at="46,0,50,0" concept="3" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="1213104847902" at="50,0,54,0" concept="3" trace="createScope#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="1213104847902" at="58,0,62,0" concept="3" trace="hasOwnScopeProvider#()Z" />
+      <node id="1213104847902" at="66,0,70,0" concept="3" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="1213104847902" at="70,0,74,0" concept="3" trace="createScope#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="1213104847902" at="78,0,82,0" concept="3" trace="hasOwnScopeProvider#()Z" />
+      <node id="1213104847902" at="86,0,90,0" concept="3" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="1213104847902" at="90,0,94,0" concept="3" trace="createScope#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="1213104847902" at="44,56,54,10" concept="5" />
+      <node id="1213104847902" at="64,56,74,10" concept="5" />
+      <node id="1213104847902" at="84,56,94,10" concept="5" />
+      <node id="1213104847902" at="42,0,56,0" concept="3" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="1213104847902" at="62,0,76,0" concept="3" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="1213104847902" at="82,0,96,0" concept="3" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="1213104847902" at="36,135,56,7" concept="2" />
+      <node id="1213104847902" at="56,7,76,7" concept="2" />
+      <node id="1213104847902" at="76,7,96,7" concept="2" />
+      <node id="1213104847902" at="34,0,99,0" concept="3" trace="getNotDefaultSReferenceLinks#()Ljava/util/Map;" />
+      <scope id="1213104847902" at="31,41,32,106" />
+      <scope id="1213104847902" at="39,44,40,20" />
+      <scope id="1213104847902" at="47,63,48,58" />
+      <scope id="1213104847902" at="51,122,52,151" />
+      <scope id="3671207155728948213" at="51,122,52,151" />
+      <scope id="1213104847902" at="59,44,60,20" />
+      <scope id="1213104847902" at="67,63,68,58" />
+      <scope id="1213104847902" at="71,122,72,162" />
+      <scope id="3671207155728952056" at="71,122,72,162" />
+      <scope id="1213104847902" at="79,44,80,20" />
+      <scope id="1213104847902" at="87,63,88,58" />
+      <scope id="1213104847902" at="91,122,92,303" />
+      <scope id="3671207155728952156" at="91,122,92,303" />
+      <scope id="1213104847902" at="31,0,34,0" />
+      <scope id="1213104847902" at="38,0,42,0" />
+      <scope id="1213104847902" at="46,0,50,0" />
+      <scope id="1213104847902" at="50,0,54,0">
         <var name="_context" id="1213104847902" />
         <var name="operationContext" id="1213104847902" />
       </scope>
-      <scope id="1213104847902" at="55,0,59,0" />
-      <scope id="1213104847902" at="63,0,67,0" />
-      <scope id="1213104847902" at="67,0,71,0">
+      <scope id="1213104847902" at="58,0,62,0" />
+      <scope id="1213104847902" at="66,0,70,0" />
+      <scope id="1213104847902" at="70,0,74,0">
         <var name="_context" id="1213104847902" />
         <var name="operationContext" id="1213104847902" />
       </scope>
-      <scope id="1213104847902" at="75,0,79,0" />
-      <scope id="1213104847902" at="83,0,87,0" />
-      <scope id="1213104847902" at="87,0,91,0">
+      <scope id="1213104847902" at="78,0,82,0" />
+      <scope id="1213104847902" at="86,0,90,0" />
+      <scope id="1213104847902" at="90,0,94,0">
         <var name="_context" id="1213104847902" />
         <var name="operationContext" id="1213104847902" />
       </scope>
-      <scope id="1213104847902" at="41,56,51,10" />
-      <scope id="1213104847902" at="61,56,71,10" />
-      <scope id="1213104847902" at="81,56,91,10" />
-      <scope id="1213104847902" at="39,0,53,0" />
-      <scope id="1213104847902" at="59,0,73,0" />
-      <scope id="1213104847902" at="79,0,93,0" />
-      <scope id="1213104847902" at="32,83,94,22">
+      <scope id="1213104847902" at="44,56,54,10" />
+      <scope id="1213104847902" at="64,56,74,10" />
+      <scope id="1213104847902" at="84,56,94,10" />
+      <scope id="1213104847902" at="42,0,56,0" />
+      <scope id="1213104847902" at="62,0,76,0" />
+      <scope id="1213104847902" at="82,0,96,0" />
+      <scope id="1213104847902" at="35,98,97,22">
         <var name="references" id="1213104847902" />
       </scope>
-      <scope id="1213104847902" at="31,0,96,0" />
-      <unit id="1213104847902" at="42,19,51,9" name="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimeProperty_Constraints$2" />
-      <unit id="1213104847902" at="62,19,71,9" name="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimeProperty_Constraints$3" />
-      <unit id="1213104847902" at="82,19,91,9" name="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimeProperty_Constraints$4" />
-      <unit id="1213104847902" at="34,41,53,5" name="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimeProperty_Constraints$1" />
-      <unit id="1213104847902" at="54,48,73,5" name="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimeProperty_Constraints$2" />
-      <unit id="1213104847902" at="74,45,93,5" name="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimeProperty_Constraints$3" />
-      <unit id="1213104847902" at="27,0,100,0" name="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimeProperty_Constraints" />
+      <scope id="1213104847902" at="34,0,99,0" />
+      <unit id="1213104847902" at="45,19,54,9" name="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimeProperty_Constraints$2" />
+      <unit id="1213104847902" at="65,19,74,9" name="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimeProperty_Constraints$3" />
+      <unit id="1213104847902" at="85,19,94,9" name="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimeProperty_Constraints$4" />
+      <unit id="1213104847902" at="37,131,56,5" name="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimeProperty_Constraints$1" />
+      <unit id="1213104847902" at="57,131,76,5" name="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimeProperty_Constraints$2" />
+      <unit id="1213104847902" at="77,135,96,5" name="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimeProperty_Constraints$3" />
+      <unit id="1213104847902" at="30,0,103,0" name="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimeProperty_Constraints" />
     </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903db(jetbrains.mps.baseLanguage.datesInternal.constraints)/1213104855748">
     <file name="DateTimePropertyCardinality_Constraints.java">
-      <node id="1213104855748" at="8,52,9,92" concept="7" />
-      <node id="1213104855748" at="8,0,11,0" concept="1" trace="DateTimePropertyCardinality_Constraints#()V" />
-      <scope id="1213104855748" at="8,52,9,92" />
-      <scope id="1213104855748" at="8,0,11,0" />
-      <unit id="1213104855748" at="7,0,12,0" name="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimePropertyCardinality_Constraints" />
+      <node id="1213104855748" at="10,52,11,106" concept="7" />
+      <node id="1213104855748" at="10,0,13,0" concept="1" trace="DateTimePropertyCardinality_Constraints#()V" />
+      <scope id="1213104855748" at="10,52,11,106" />
+      <scope id="1213104855748" at="10,0,13,0" />
+      <unit id="1213104855748" at="9,0,14,0" name="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimePropertyCardinality_Constraints" />
     </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903db(jetbrains.mps.baseLanguage.datesInternal.constraints)/1213104856101">
     <file name="DateTimeZonePropertyFormatConfiguration_Constraints.java">
-      <node id="1213104856101" at="13,64,14,104" concept="7" />
-      <node id="1213104856101" at="17,82,18,74" concept="4" />
-      <node id="1213104856101" at="21,37,22,20" concept="5" />
-      <node id="1213104856101" at="25,42,26,37" concept="4" />
-      <node id="1213104856101" at="26,37,27,22" concept="0" />
-      <node id="1213104856105" at="26,37,27,22" concept="5" />
-      <node id="1213104856101" at="29,7,30,22" concept="5" />
-      <node id="1213104856101" at="13,0,16,0" concept="1" trace="DateTimeZonePropertyFormatConfiguration_Constraints#()V" />
-      <node id="1213104856101" at="20,0,24,0" concept="3" trace="hasOwnGetter#()Z" />
-      <node id="1213104856101" at="24,0,29,0" concept="3" trace="getValue#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Object;" />
-      <node id="1213104856101" at="18,74,29,7" concept="2" />
-      <node id="1213104856101" at="16,0,32,0" concept="3" trace="getNotDefaultProperties#()Ljava/util/Map;" />
-      <scope id="1213104856101" at="13,64,14,104" />
-      <scope id="1213104856101" at="21,37,22,20" />
-      <scope id="1213104856104" at="26,37,27,22" />
-      <scope id="1213104856101" at="25,42,27,22">
+      <node id="1213104856101" at="16,64,17,106" concept="7" />
+      <node id="1213104856101" at="20,88,21,123" concept="4" />
+      <node id="1213104856101" at="24,37,25,20" concept="5" />
+      <node id="1213104856101" at="28,42,29,37" concept="4" />
+      <node id="1213104856101" at="29,37,30,22" concept="0" />
+      <node id="1213104856105" at="29,37,30,22" concept="5" />
+      <node id="1213104856101" at="32,7,33,22" concept="5" />
+      <node id="1213104856101" at="16,0,19,0" concept="1" trace="DateTimeZonePropertyFormatConfiguration_Constraints#()V" />
+      <node id="1213104856101" at="23,0,27,0" concept="3" trace="hasOwnGetter#()Z" />
+      <node id="1213104856101" at="27,0,32,0" concept="3" trace="getValue#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Object;" />
+      <node id="1213104856101" at="21,123,32,7" concept="2" />
+      <node id="1213104856101" at="19,0,35,0" concept="3" trace="getNotDefaultSProperties#()Ljava/util/Map;" />
+      <scope id="1213104856101" at="16,64,17,106" />
+      <scope id="1213104856101" at="24,37,25,20" />
+      <scope id="1213104856104" at="29,37,30,22" />
+      <scope id="1213104856101" at="28,42,30,22">
         <var name="propertyName" id="1213104856101" />
       </scope>
-      <scope id="1213104856101" at="13,0,16,0" />
-      <scope id="1213104856101" at="20,0,24,0" />
-      <scope id="1213104856101" at="24,0,29,0">
+      <scope id="1213104856101" at="16,0,19,0" />
+      <scope id="1213104856101" at="23,0,27,0" />
+      <scope id="1213104856101" at="27,0,32,0">
         <var name="node" id="1213104856101" />
       </scope>
-      <scope id="1213104856101" at="17,82,30,22">
+      <scope id="1213104856101" at="20,88,33,22">
         <var name="properties" id="1213104856101" />
       </scope>
-      <scope id="1213104856101" at="16,0,32,0" />
-      <unit id="1213104856101" at="19,31,29,5" name="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimeZonePropertyFormatConfiguration_Constraints$1" />
-      <unit id="1213104856101" at="12,0,33,0" name="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimeZonePropertyFormatConfiguration_Constraints" />
+      <scope id="1213104856101" at="19,0,35,0" />
+      <unit id="1213104856101" at="22,133,32,5" name="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimeZonePropertyFormatConfiguration_Constraints$1" />
+      <unit id="1213104856101" at="15,0,36,0" name="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimeZonePropertyFormatConfiguration_Constraints" />
     </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903db(jetbrains.mps.baseLanguage.datesInternal.constraints)/1213104856107">
     <file name="PredefinedDateFormat_Constraints.java">
-      <node id="1213104856107" at="15,45,16,85" concept="7" />
-      <node id="1213104856107" at="19,82,20,74" concept="4" />
-      <node id="1213104856107" at="23,37,24,20" concept="5" />
-      <node id="1213104856107" at="27,42,28,41" concept="4" />
-      <node id="1213104856107" at="28,41,29,20" concept="0" />
-      <node id="1227024496208" at="28,41,29,20" concept="5" />
-      <node id="1213104856107" at="34,37,35,20" concept="5" />
-      <node id="1213104856107" at="38,42,39,37" concept="4" />
-      <node id="1213104856107" at="39,37,40,164" concept="0" />
-      <node id="1227024517668" at="39,37,40,164" concept="5" />
-      <node id="1213104856107" at="42,7,43,22" concept="5" />
-      <node id="1213104856107" at="15,0,18,0" concept="1" trace="PredefinedDateFormat_Constraints#()V" />
-      <node id="1213104856107" at="22,0,26,0" concept="3" trace="hasOwnGetter#()Z" />
-      <node id="1213104856107" at="33,0,37,0" concept="3" trace="hasOwnGetter#()Z" />
-      <node id="1213104856107" at="26,0,31,0" concept="3" trace="getValue#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Object;" />
-      <node id="1213104856107" at="37,0,42,0" concept="3" trace="getValue#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Object;" />
-      <node id="1213104856107" at="20,74,31,7" concept="2" />
-      <node id="1213104856107" at="31,7,42,7" concept="2" />
-      <node id="1213104856107" at="18,0,45,0" concept="3" trace="getNotDefaultProperties#()Ljava/util/Map;" />
-      <scope id="1213104856107" at="15,45,16,85" />
-      <scope id="1213104856107" at="23,37,24,20" />
-      <scope id="1213104856110" at="28,41,29,20" />
-      <scope id="1213104856107" at="34,37,35,20" />
-      <scope id="1227024506178" at="39,37,40,164" />
-      <scope id="1213104856107" at="27,42,29,20">
+      <node id="1213104856107" at="19,45,20,106" concept="7" />
+      <node id="1213104856107" at="23,88,24,123" concept="4" />
+      <node id="1213104856107" at="27,37,28,20" concept="5" />
+      <node id="1213104856107" at="31,42,32,41" concept="4" />
+      <node id="1213104856107" at="32,41,33,20" concept="0" />
+      <node id="1227024496208" at="32,41,33,20" concept="5" />
+      <node id="1213104856107" at="38,37,39,20" concept="5" />
+      <node id="1213104856107" at="42,42,43,37" concept="4" />
+      <node id="1213104856107" at="43,37,44,521" concept="0" />
+      <node id="1227024517668" at="43,37,44,521" concept="5" />
+      <node id="1213104856107" at="46,7,47,22" concept="5" />
+      <node id="1213104856107" at="19,0,22,0" concept="1" trace="PredefinedDateFormat_Constraints#()V" />
+      <node id="1213104856107" at="26,0,30,0" concept="3" trace="hasOwnGetter#()Z" />
+      <node id="1213104856107" at="37,0,41,0" concept="3" trace="hasOwnGetter#()Z" />
+      <node id="1213104856107" at="30,0,35,0" concept="3" trace="getValue#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Object;" />
+      <node id="1213104856107" at="41,0,46,0" concept="3" trace="getValue#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Object;" />
+      <node id="1213104856107" at="24,123,35,7" concept="2" />
+      <node id="1213104856107" at="35,7,46,7" concept="2" />
+      <node id="1213104856107" at="22,0,49,0" concept="3" trace="getNotDefaultSProperties#()Ljava/util/Map;" />
+      <scope id="1213104856107" at="19,45,20,106" />
+      <scope id="1213104856107" at="27,37,28,20" />
+      <scope id="1213104856110" at="32,41,33,20" />
+      <scope id="1213104856107" at="38,37,39,20" />
+      <scope id="1227024506178" at="43,37,44,521" />
+      <scope id="1213104856107" at="31,42,33,20">
         <var name="propertyName" id="1213104856107" />
       </scope>
-      <scope id="1213104856107" at="38,42,40,164">
+      <scope id="1213104856107" at="42,42,44,521">
         <var name="propertyName" id="1213104856107" />
       </scope>
-      <scope id="1213104856107" at="15,0,18,0" />
-      <scope id="1213104856107" at="22,0,26,0" />
-      <scope id="1213104856107" at="33,0,37,0" />
-      <scope id="1213104856107" at="26,0,31,0">
+      <scope id="1213104856107" at="19,0,22,0" />
+      <scope id="1213104856107" at="26,0,30,0" />
+      <scope id="1213104856107" at="37,0,41,0" />
+      <scope id="1213104856107" at="30,0,35,0">
         <var name="node" id="1213104856107" />
       </scope>
-      <scope id="1213104856107" at="37,0,42,0">
+      <scope id="1213104856107" at="41,0,46,0">
         <var name="node" id="1213104856107" />
       </scope>
-      <scope id="1213104856107" at="19,82,43,22">
+      <scope id="1213104856107" at="23,88,47,22">
         <var name="properties" id="1213104856107" />
       </scope>
-      <scope id="1213104856107" at="18,0,45,0" />
-      <unit id="1213104856107" at="21,35,31,5" name="jetbrains.mps.baseLanguage.datesInternal.constraints.PredefinedDateFormat_Constraints$1" />
-      <unit id="1213104856107" at="32,31,42,5" name="jetbrains.mps.baseLanguage.datesInternal.constraints.PredefinedDateFormat_Constraints$2" />
-      <unit id="1213104856107" at="14,0,46,0" name="jetbrains.mps.baseLanguage.datesInternal.constraints.PredefinedDateFormat_Constraints" />
+      <scope id="1213104856107" at="22,0,49,0" />
+      <unit id="1213104856107" at="25,132,35,5" name="jetbrains.mps.baseLanguage.datesInternal.constraints.PredefinedDateFormat_Constraints$1" />
+      <unit id="1213104856107" at="36,133,46,5" name="jetbrains.mps.baseLanguage.datesInternal.constraints.PredefinedDateFormat_Constraints$2" />
+      <unit id="1213104856107" at="18,0,50,0" name="jetbrains.mps.baseLanguage.datesInternal.constraints.PredefinedDateFormat_Constraints" />
     </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903db(jetbrains.mps.baseLanguage.datesInternal.constraints)/1213104856614">
     <file name="Month_Constraints.java">
-      <node id="1213104856614" at="14,30,15,70" concept="7" />
-      <node id="1213104856614" at="18,82,19,74" concept="4" />
-      <node id="1213104856614" at="22,37,23,20" concept="5" />
-      <node id="1213104856614" at="26,42,27,38" concept="4" />
-      <node id="1213104856614" at="27,38,28,59" concept="0" />
-      <node id="1213104856618" at="27,38,28,59" concept="5" />
-      <node id="1213104856614" at="30,7,31,22" concept="5" />
-      <node id="1213104856614" at="14,0,17,0" concept="1" trace="Month_Constraints#()V" />
-      <node id="1213104856614" at="21,0,25,0" concept="3" trace="hasOwnGetter#()Z" />
-      <node id="1213104856614" at="25,0,30,0" concept="3" trace="getValue#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Object;" />
-      <node id="1213104856614" at="19,74,30,7" concept="2" />
-      <node id="1213104856614" at="17,0,33,0" concept="3" trace="getNotDefaultProperties#()Ljava/util/Map;" />
-      <scope id="1213104856614" at="14,30,15,70" />
-      <scope id="1213104856614" at="22,37,23,20" />
-      <scope id="1213104856617" at="27,38,28,59" />
-      <scope id="1213104856614" at="26,42,28,59">
+      <node id="1213104856614" at="18,30,19,106" concept="7" />
+      <node id="1213104856614" at="22,88,23,123" concept="4" />
+      <node id="1213104856614" at="26,37,27,20" concept="5" />
+      <node id="1213104856614" at="30,42,31,38" concept="4" />
+      <node id="1213104856614" at="31,38,32,179" concept="0" />
+      <node id="1213104856618" at="31,38,32,179" concept="5" />
+      <node id="1213104856614" at="34,7,35,22" concept="5" />
+      <node id="1213104856614" at="18,0,21,0" concept="1" trace="Month_Constraints#()V" />
+      <node id="1213104856614" at="25,0,29,0" concept="3" trace="hasOwnGetter#()Z" />
+      <node id="1213104856614" at="29,0,34,0" concept="3" trace="getValue#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Object;" />
+      <node id="1213104856614" at="23,123,34,7" concept="2" />
+      <node id="1213104856614" at="21,0,37,0" concept="3" trace="getNotDefaultSProperties#()Ljava/util/Map;" />
+      <scope id="1213104856614" at="18,30,19,106" />
+      <scope id="1213104856614" at="26,37,27,20" />
+      <scope id="1213104856617" at="31,38,32,179" />
+      <scope id="1213104856614" at="30,42,32,179">
         <var name="propertyName" id="1213104856614" />
       </scope>
-      <scope id="1213104856614" at="14,0,17,0" />
-      <scope id="1213104856614" at="21,0,25,0" />
-      <scope id="1213104856614" at="25,0,30,0">
+      <scope id="1213104856614" at="18,0,21,0" />
+      <scope id="1213104856614" at="25,0,29,0" />
+      <scope id="1213104856614" at="29,0,34,0">
         <var name="node" id="1213104856614" />
       </scope>
-      <scope id="1213104856614" at="18,82,31,22">
+      <scope id="1213104856614" at="22,88,35,22">
         <var name="properties" id="1213104856614" />
       </scope>
-      <scope id="1213104856614" at="17,0,33,0" />
-      <unit id="1213104856614" at="20,32,30,5" name="jetbrains.mps.baseLanguage.datesInternal.constraints.Month_Constraints$1" />
-      <unit id="1213104856614" at="13,0,34,0" name="jetbrains.mps.baseLanguage.datesInternal.constraints.Month_Constraints" />
+      <scope id="1213104856614" at="21,0,37,0" />
+      <unit id="1213104856614" at="24,133,34,5" name="jetbrains.mps.baseLanguage.datesInternal.constraints.Month_Constraints$1" />
+      <unit id="1213104856614" at="17,0,38,0" name="jetbrains.mps.baseLanguage.datesInternal.constraints.Month_Constraints" />
     </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903db(jetbrains.mps.baseLanguage.datesInternal.constraints)/1213104859192">
     <file name="DateTimePropertyConfiguration_Constraints.java">
-      <node id="1213104859192" at="13,54,14,94" concept="7" />
-      <node id="1213104859192" at="17,82,18,74" concept="4" />
-      <node id="1213104859192" at="21,37,22,20" concept="5" />
-      <node id="1213104859192" at="25,42,26,49" concept="4" />
-      <node id="1213104859192" at="26,49,27,35" concept="0" />
-      <node id="1213104859196" at="26,49,27,35" concept="5" />
-      <node id="1213104859192" at="29,7,30,22" concept="5" />
-      <node id="1213104859192" at="13,0,16,0" concept="1" trace="DateTimePropertyConfiguration_Constraints#()V" />
-      <node id="1213104859192" at="20,0,24,0" concept="3" trace="hasOwnGetter#()Z" />
-      <node id="1213104859192" at="24,0,29,0" concept="3" trace="getValue#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Object;" />
-      <node id="1213104859192" at="18,74,29,7" concept="2" />
-      <node id="1213104859192" at="16,0,32,0" concept="3" trace="getNotDefaultProperties#()Ljava/util/Map;" />
-      <scope id="1213104859192" at="13,54,14,94" />
-      <scope id="1213104859192" at="21,37,22,20" />
-      <scope id="1213104859195" at="26,49,27,35" />
-      <scope id="1213104859192" at="25,42,27,35">
+      <node id="1213104859192" at="16,54,17,106" concept="7" />
+      <node id="1213104859192" at="20,88,21,123" concept="4" />
+      <node id="1213104859192" at="24,37,25,20" concept="5" />
+      <node id="1213104859192" at="28,42,29,49" concept="4" />
+      <node id="1213104859192" at="29,49,30,35" concept="0" />
+      <node id="1213104859196" at="29,49,30,35" concept="5" />
+      <node id="1213104859192" at="32,7,33,22" concept="5" />
+      <node id="1213104859192" at="16,0,19,0" concept="1" trace="DateTimePropertyConfiguration_Constraints#()V" />
+      <node id="1213104859192" at="23,0,27,0" concept="3" trace="hasOwnGetter#()Z" />
+      <node id="1213104859192" at="27,0,32,0" concept="3" trace="getValue#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Object;" />
+      <node id="1213104859192" at="21,123,32,7" concept="2" />
+      <node id="1213104859192" at="19,0,35,0" concept="3" trace="getNotDefaultSProperties#()Ljava/util/Map;" />
+      <scope id="1213104859192" at="16,54,17,106" />
+      <scope id="1213104859192" at="24,37,25,20" />
+      <scope id="1213104859195" at="29,49,30,35" />
+      <scope id="1213104859192" at="28,42,30,35">
         <var name="propertyName" id="1213104859192" />
       </scope>
-      <scope id="1213104859192" at="13,0,16,0" />
-      <scope id="1213104859192" at="20,0,24,0" />
-      <scope id="1213104859192" at="24,0,29,0">
+      <scope id="1213104859192" at="16,0,19,0" />
+      <scope id="1213104859192" at="23,0,27,0" />
+      <scope id="1213104859192" at="27,0,32,0">
         <var name="node" id="1213104859192" />
       </scope>
-      <scope id="1213104859192" at="17,82,30,22">
+      <scope id="1213104859192" at="20,88,33,22">
         <var name="properties" id="1213104859192" />
       </scope>
-      <scope id="1213104859192" at="16,0,32,0" />
-      <unit id="1213104859192" at="19,43,29,5" name="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimePropertyConfiguration_Constraints$1" />
-      <unit id="1213104859192" at="12,0,33,0" name="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimePropertyConfiguration_Constraints" />
+      <scope id="1213104859192" at="19,0,35,0" />
+      <unit id="1213104859192" at="22,133,32,5" name="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimePropertyConfiguration_Constraints$1" />
+      <unit id="1213104859192" at="15,0,36,0" name="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimePropertyConfiguration_Constraints" />
     </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903db(jetbrains.mps.baseLanguage.datesInternal.constraints)/1213104859390">
     <file name="DateTimeIntPropertyFormatConfiguration_Constraints.java">
-      <node id="1213104859390" at="15,63,16,103" concept="7" />
-      <node id="1213104859390" at="19,82,20,74" concept="4" />
-      <node id="1213104859390" at="23,37,24,20" concept="5" />
-      <node id="1213104859390" at="27,42,28,37" concept="4" />
-      <node id="1213104859390" at="28,37,29,113" concept="0" />
-      <node id="1213104859394" at="28,37,29,113" concept="5" />
-      <node id="1213104859390" at="31,7,32,22" concept="5" />
-      <node id="1213104859390" at="15,0,18,0" concept="1" trace="DateTimeIntPropertyFormatConfiguration_Constraints#()V" />
-      <node id="1213104859390" at="22,0,26,0" concept="3" trace="hasOwnGetter#()Z" />
-      <node id="1213104859390" at="26,0,31,0" concept="3" trace="getValue#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Object;" />
-      <node id="1213104859390" at="20,74,31,7" concept="2" />
-      <node id="1213104859390" at="18,0,34,0" concept="3" trace="getNotDefaultProperties#()Ljava/util/Map;" />
-      <scope id="1213104859390" at="15,63,16,103" />
-      <scope id="1213104859390" at="23,37,24,20" />
-      <scope id="1213104859393" at="28,37,29,113" />
-      <scope id="1213104859390" at="27,42,29,113">
+      <node id="1213104859390" at="19,63,20,106" concept="7" />
+      <node id="1213104859390" at="23,88,24,123" concept="4" />
+      <node id="1213104859390" at="27,37,28,20" concept="5" />
+      <node id="1213104859390" at="31,42,32,37" concept="4" />
+      <node id="1213104859390" at="32,37,33,350" concept="0" />
+      <node id="1213104859394" at="32,37,33,350" concept="5" />
+      <node id="1213104859390" at="35,7,36,22" concept="5" />
+      <node id="1213104859390" at="19,0,22,0" concept="1" trace="DateTimeIntPropertyFormatConfiguration_Constraints#()V" />
+      <node id="1213104859390" at="26,0,30,0" concept="3" trace="hasOwnGetter#()Z" />
+      <node id="1213104859390" at="30,0,35,0" concept="3" trace="getValue#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Object;" />
+      <node id="1213104859390" at="24,123,35,7" concept="2" />
+      <node id="1213104859390" at="22,0,38,0" concept="3" trace="getNotDefaultSProperties#()Ljava/util/Map;" />
+      <scope id="1213104859390" at="19,63,20,106" />
+      <scope id="1213104859390" at="27,37,28,20" />
+      <scope id="1213104859393" at="32,37,33,350" />
+      <scope id="1213104859390" at="31,42,33,350">
         <var name="propertyName" id="1213104859390" />
       </scope>
-      <scope id="1213104859390" at="15,0,18,0" />
-      <scope id="1213104859390" at="22,0,26,0" />
-      <scope id="1213104859390" at="26,0,31,0">
+      <scope id="1213104859390" at="19,0,22,0" />
+      <scope id="1213104859390" at="26,0,30,0" />
+      <scope id="1213104859390" at="30,0,35,0">
         <var name="node" id="1213104859390" />
       </scope>
-      <scope id="1213104859390" at="19,82,32,22">
+      <scope id="1213104859390" at="23,88,36,22">
         <var name="properties" id="1213104859390" />
       </scope>
-      <scope id="1213104859390" at="18,0,34,0" />
-      <unit id="1213104859390" at="21,31,31,5" name="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimeIntPropertyFormatConfiguration_Constraints$1" />
-      <unit id="1213104859390" at="14,0,35,0" name="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimeIntPropertyFormatConfiguration_Constraints" />
+      <scope id="1213104859390" at="22,0,38,0" />
+      <unit id="1213104859390" at="25,133,35,5" name="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimeIntPropertyFormatConfiguration_Constraints$1" />
+      <unit id="1213104859390" at="18,0,39,0" name="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimeIntPropertyFormatConfiguration_Constraints" />
     </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903db(jetbrains.mps.baseLanguage.datesInternal.constraints)/1213104860458">
     <file name="DateTimePropertyFormatType_Constraints.java">
-      <node id="1213104860458" at="14,51,15,91" concept="7" />
-      <node id="1213104860458" at="18,82,19,74" concept="4" />
-      <node id="1213104860458" at="22,37,23,20" concept="5" />
-      <node id="1213104860458" at="26,42,27,37" concept="4" />
-      <node id="1213104860458" at="27,37,28,62" concept="0" />
-      <node id="1213104860462" at="27,37,28,62" concept="5" />
-      <node id="1213104860458" at="30,7,31,22" concept="5" />
-      <node id="1213104860458" at="14,0,17,0" concept="1" trace="DateTimePropertyFormatType_Constraints#()V" />
-      <node id="1213104860458" at="21,0,25,0" concept="3" trace="hasOwnGetter#()Z" />
-      <node id="1213104860458" at="25,0,30,0" concept="3" trace="getValue#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Object;" />
-      <node id="1213104860458" at="19,74,30,7" concept="2" />
-      <node id="1213104860458" at="17,0,33,0" concept="3" trace="getNotDefaultProperties#()Ljava/util/Map;" />
-      <scope id="1213104860458" at="14,51,15,91" />
-      <scope id="1213104860458" at="22,37,23,20" />
-      <scope id="1213104860461" at="27,37,28,62" />
-      <scope id="1213104860458" at="26,42,28,62">
+      <node id="1213104860458" at="18,51,19,106" concept="7" />
+      <node id="1213104860458" at="22,88,23,123" concept="4" />
+      <node id="1213104860458" at="26,37,27,20" concept="5" />
+      <node id="1213104860458" at="30,42,31,37" concept="4" />
+      <node id="1213104860458" at="31,37,32,181" concept="0" />
+      <node id="1213104860462" at="31,37,32,181" concept="5" />
+      <node id="1213104860458" at="34,7,35,22" concept="5" />
+      <node id="1213104860458" at="18,0,21,0" concept="1" trace="DateTimePropertyFormatType_Constraints#()V" />
+      <node id="1213104860458" at="25,0,29,0" concept="3" trace="hasOwnGetter#()Z" />
+      <node id="1213104860458" at="29,0,34,0" concept="3" trace="getValue#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Object;" />
+      <node id="1213104860458" at="23,123,34,7" concept="2" />
+      <node id="1213104860458" at="21,0,37,0" concept="3" trace="getNotDefaultSProperties#()Ljava/util/Map;" />
+      <scope id="1213104860458" at="18,51,19,106" />
+      <scope id="1213104860458" at="26,37,27,20" />
+      <scope id="1213104860461" at="31,37,32,181" />
+      <scope id="1213104860458" at="30,42,32,181">
         <var name="propertyName" id="1213104860458" />
       </scope>
-      <scope id="1213104860458" at="14,0,17,0" />
-      <scope id="1213104860458" at="21,0,25,0" />
-      <scope id="1213104860458" at="25,0,30,0">
+      <scope id="1213104860458" at="18,0,21,0" />
+      <scope id="1213104860458" at="25,0,29,0" />
+      <scope id="1213104860458" at="29,0,34,0">
         <var name="node" id="1213104860458" />
       </scope>
-      <scope id="1213104860458" at="18,82,31,22">
+      <scope id="1213104860458" at="22,88,35,22">
         <var name="properties" id="1213104860458" />
       </scope>
-      <scope id="1213104860458" at="17,0,33,0" />
-      <unit id="1213104860458" at="20,31,30,5" name="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimePropertyFormatType_Constraints$1" />
-      <unit id="1213104860458" at="13,0,34,0" name="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimePropertyFormatType_Constraints" />
+      <scope id="1213104860458" at="21,0,37,0" />
+      <unit id="1213104860458" at="24,133,34,5" name="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimePropertyFormatType_Constraints$1" />
+      <unit id="1213104860458" at="17,0,38,0" name="jetbrains.mps.baseLanguage.datesInternal.constraints.DateTimePropertyFormatType_Constraints" />
     </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903db(jetbrains.mps.baseLanguage.datesInternal.constraints)/1379098806889929547">
     <file name="PredefinedPeriodFormat_Constraints.java">
-      <node id="1379098806889929547" at="13,47,14,87" concept="7" />
-      <node id="1379098806889929547" at="17,82,18,74" concept="4" />
-      <node id="1379098806889929547" at="21,37,22,20" concept="5" />
-      <node id="1379098806889929547" at="25,42,26,41" concept="4" />
-      <node id="1379098806889929547" at="26,41,27,20" concept="0" />
-      <node id="1379098806889929551" at="26,41,27,20" concept="5" />
-      <node id="1379098806889929547" at="29,7,30,22" concept="5" />
-      <node id="1379098806889929547" at="13,0,16,0" concept="1" trace="PredefinedPeriodFormat_Constraints#()V" />
-      <node id="1379098806889929547" at="20,0,24,0" concept="3" trace="hasOwnGetter#()Z" />
-      <node id="1379098806889929547" at="24,0,29,0" concept="3" trace="getValue#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Object;" />
-      <node id="1379098806889929547" at="18,74,29,7" concept="2" />
-      <node id="1379098806889929547" at="16,0,32,0" concept="3" trace="getNotDefaultProperties#()Ljava/util/Map;" />
-      <scope id="1379098806889929547" at="13,47,14,87" />
-      <scope id="1379098806889929547" at="21,37,22,20" />
-      <scope id="1379098806889929550" at="26,41,27,20" />
-      <scope id="1379098806889929547" at="25,42,27,20">
+      <node id="1379098806889929547" at="16,47,17,110" concept="7" />
+      <node id="1379098806889929547" at="20,88,21,123" concept="4" />
+      <node id="1379098806889929547" at="24,37,25,20" concept="5" />
+      <node id="1379098806889929547" at="28,42,29,41" concept="4" />
+      <node id="1379098806889929547" at="29,41,30,20" concept="0" />
+      <node id="1379098806889929551" at="29,41,30,20" concept="5" />
+      <node id="1379098806889929547" at="32,7,33,22" concept="5" />
+      <node id="1379098806889929547" at="16,0,19,0" concept="1" trace="PredefinedPeriodFormat_Constraints#()V" />
+      <node id="1379098806889929547" at="23,0,27,0" concept="3" trace="hasOwnGetter#()Z" />
+      <node id="1379098806889929547" at="27,0,32,0" concept="3" trace="getValue#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Object;" />
+      <node id="1379098806889929547" at="21,123,32,7" concept="2" />
+      <node id="1379098806889929547" at="19,0,35,0" concept="3" trace="getNotDefaultSProperties#()Ljava/util/Map;" />
+      <scope id="1379098806889929547" at="16,47,17,110" />
+      <scope id="1379098806889929547" at="24,37,25,20" />
+      <scope id="1379098806889929550" at="29,41,30,20" />
+      <scope id="1379098806889929547" at="28,42,30,20">
         <var name="propertyName" id="1379098806889929547" />
       </scope>
-      <scope id="1379098806889929547" at="13,0,16,0" />
-      <scope id="1379098806889929547" at="20,0,24,0" />
-      <scope id="1379098806889929547" at="24,0,29,0">
+      <scope id="1379098806889929547" at="16,0,19,0" />
+      <scope id="1379098806889929547" at="23,0,27,0" />
+      <scope id="1379098806889929547" at="27,0,32,0">
         <var name="node" id="1379098806889929547" />
       </scope>
-      <scope id="1379098806889929547" at="17,82,30,22">
+      <scope id="1379098806889929547" at="20,88,33,22">
         <var name="properties" id="1379098806889929547" />
       </scope>
-      <scope id="1379098806889929547" at="16,0,32,0" />
-      <unit id="1379098806889929547" at="19,35,29,5" name="jetbrains.mps.baseLanguage.datesInternal.constraints.PredefinedPeriodFormat_Constraints$1" />
-      <unit id="1379098806889929547" at="12,0,33,0" name="jetbrains.mps.baseLanguage.datesInternal.constraints.PredefinedPeriodFormat_Constraints" />
+      <scope id="1379098806889929547" at="19,0,35,0" />
+      <unit id="1379098806889929547" at="22,140,32,5" name="jetbrains.mps.baseLanguage.datesInternal.constraints.PredefinedPeriodFormat_Constraints$1" />
+      <unit id="1379098806889929547" at="15,0,36,0" name="jetbrains.mps.baseLanguage.datesInternal.constraints.PredefinedPeriodFormat_Constraints" />
     </file>
   </root>
 </debug-info>

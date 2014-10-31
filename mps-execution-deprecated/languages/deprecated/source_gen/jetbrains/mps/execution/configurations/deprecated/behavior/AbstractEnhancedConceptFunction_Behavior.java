@@ -7,6 +7,8 @@ import java.util.List;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import org.jetbrains.mps.openapi.persistence.PersistenceFacade;
@@ -19,7 +21,7 @@ public class AbstractEnhancedConceptFunction_Behavior {
     List<SNode> conceptFunctionParameterConcepts = BehaviorReflection.invokeSuper((Class<List<SNode>>) ((Class) Object.class), thisNode, "jetbrains.mps.baseLanguage.structure.ConceptFunction", "virtual_getParameters_1213877374450", new Object[]{});
 
     SNode parametrizedExecuteBlock = SNodeOperations.getAncestor(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.ParametrizedExecuteBlock", false, false);
-    if ((parametrizedExecuteBlock != null) && (SLinkOperations.getTarget(parametrizedExecuteBlock, "executeParameterQuery", true) != null)) {
+    if ((parametrizedExecuteBlock != null) && (SLinkOperations.getTarget(parametrizedExecuteBlock, MetaAdapterFactory.getContainmentLink(new UUID(-9024322794181865535l, -5381379368254122047l), 314981645426569209l, 314981645426569211l, "executeParameterQuery")) != null)) {
       ListSequence.fromList(conceptFunctionParameterConcepts).addElement(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.Parameter_FunctionParameter"));
     }
 

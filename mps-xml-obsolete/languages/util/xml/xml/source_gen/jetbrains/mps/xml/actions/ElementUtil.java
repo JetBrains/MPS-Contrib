@@ -5,6 +5,8 @@ package jetbrains.mps.xml.actions;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import java.util.List;
@@ -33,7 +35,7 @@ public class ElementUtil {
         break;
       }
       if (SNodeOperations.isInstanceOf(currentNode, "jetbrains.mps.xml.structure.Element")) {
-        elementDeclaration = SLinkOperations.getTarget(SNodeOperations.cast(currentNode, "jetbrains.mps.xml.structure.Element"), "elementDeclaration", false);
+        elementDeclaration = SLinkOperations.getTarget(SNodeOperations.cast(currentNode, "jetbrains.mps.xml.structure.Element"), MetaAdapterFactory.getReferenceLink(new UUID(3194679053860949738l, -5054431440157877063l), 1167523027466l, 1167523262932l, "elementDeclaration"));
         break;
       }
       if (SNodeOperations.isInstanceOf(currentNode, "jetbrains.mps.xml.structure.Content")) {
@@ -56,7 +58,7 @@ public class ElementUtil {
         schema = BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), SNodeOperations.cast(containingRoot, "jetbrains.mps.xml.structure.XmlRoot"), "virtual_getSchema_1213877420378", new Object[]{});
       }
     } else {
-      schema = SNodeOperations.getAncestor(SLinkOperations.getTarget(element, "elementDeclaration", false), "jetbrains.mps.xmlSchema.structure.Schema", false, false);
+      schema = SNodeOperations.getAncestor(SLinkOperations.getTarget(element, MetaAdapterFactory.getReferenceLink(new UUID(3194679053860949738l, -5054431440157877063l), 1167523027466l, 1167523262932l, "elementDeclaration")), "jetbrains.mps.xmlSchema.structure.Schema", false, false);
     }
     return schema;
   }
@@ -64,8 +66,8 @@ public class ElementUtil {
     SNode schema = findSchema(node);
     Set<SNode> elementDeclarationSet = SetSequence.fromSet(new HashSet<SNode>());
     if ((elementDeclaration == null)) {
-      if ((schema != null) && SPropertyOperations.getBoolean(schema, "alwaysUseRoot")) {
-        SetSequence.fromSet(elementDeclarationSet).addElement(SLinkOperations.getTarget(SLinkOperations.getTarget(schema, "rootElementReference", true), "elementDeclaration", false));
+      if ((schema != null) && SPropertyOperations.getBoolean(schema, MetaAdapterFactory.getProperty(new UUID(-5396545995874219192l, -5548206827574227681l), 1167513239198l, 1168022873076l, "alwaysUseRoot"))) {
+        SetSequence.fromSet(elementDeclarationSet).addElement(SLinkOperations.getTarget(SLinkOperations.getTarget(schema, MetaAdapterFactory.getContainmentLink(new UUID(-5396545995874219192l, -5548206827574227681l), 1167513239198l, 1167537980718l, "rootElementReference")), MetaAdapterFactory.getReferenceLink(new UUID(-5396545995874219192l, -5548206827574227681l), 1167531070757l, 1167531079758l, "elementDeclaration")));
       } else {
         List<SNode> elementDeclarations = SModelOperations.getNodesIncludingImported(SNodeOperations.getModel(node), "jetbrains.mps.xmlSchema.structure.ElementDeclaration");
         SetSequence.fromSet(elementDeclarationSet).addSequence(ListSequence.fromList(elementDeclarations));

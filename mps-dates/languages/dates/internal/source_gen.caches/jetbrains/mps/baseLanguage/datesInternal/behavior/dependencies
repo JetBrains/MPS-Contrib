@@ -32,7 +32,9 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.datesInternal.behavior.DateTimePropertyCardinality_Behavior" file="DateTimePropertyCardinality_Behavior.java">
     <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.datesInternal.behavior.DateTimePropertyCardinality_BehaviorDescriptor" file="DateTimePropertyCardinality_BehaviorDescriptor.java">
@@ -102,7 +104,9 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.datesInternal.behavior.DateTimeZone_Behavior" file="DateTimeZone_Behavior.java">
     <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.datesInternal.behavior.DateTimeZone_BehaviorDescriptor" file="DateTimeZone_BehaviorDescriptor.java">
@@ -167,8 +171,10 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.datesInternal.behavior.PredefinedDateFormat_Behavior" file="PredefinedDateFormat_Behavior.java">
     <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.datesInternal.behavior.PredefinedDateFormat_BehaviorDescriptor" file="PredefinedDateFormat_BehaviorDescriptor.java">

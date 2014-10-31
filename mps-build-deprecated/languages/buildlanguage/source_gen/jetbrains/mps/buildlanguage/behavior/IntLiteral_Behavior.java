@@ -4,16 +4,18 @@ package jetbrains.mps.buildlanguage.behavior;
 
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 
 public class IntLiteral_Behavior {
   public static void init(SNode thisNode) {
   }
   public static String virtual_toString_1213877472569(SNode thisNode) {
-    if (SPropertyOperations.hasValue(thisNode, "value", null)) {
+    if (SPropertyOperations.hasValue(thisNode, MetaAdapterFactory.getProperty(new UUID(819810455698030989l, -8713019626243247156l), 1196866637548l, 1196866657424l, "value"), null)) {
       return "";
     }
-    return "" + SPropertyOperations.getInteger(thisNode, "value");
+    return "" + SPropertyOperations.getInteger(thisNode, MetaAdapterFactory.getProperty(new UUID(819810455698030989l, -8713019626243247156l), 1196866637548l, 1196866657424l, "value"));
   }
   public static String virtual_getActualValue_1213877472572(SNode thisNode) {
     return BehaviorReflection.invokeVirtual(String.class, thisNode, "virtual_toString_1213877472569", new Object[]{});

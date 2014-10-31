@@ -5,24 +5,26 @@ package jetbrains.mps.xmlSchema.behavior;
 import org.jetbrains.mps.openapi.model.SNode;
 import java.util.List;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 import java.util.Set;
 
 public class ComplexType_Behavior {
   public static void init(SNode thisNode) {
   }
   public static void virtual_checkAttributes_1213877382373(SNode thisNode, List<SNode> attributeDeclarations) {
-    TypeExpressionList_Behavior.call_checkAttributes_1213877199074(SLinkOperations.getTarget(thisNode, "typeExpressionList", true), attributeDeclarations);
+    TypeExpressionList_Behavior.call_checkAttributes_1213877199074(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(-5396545995874219192l, -5548206827574227681l), 1167615791597l, 1167841515196l, "typeExpressionList")), attributeDeclarations);
   }
   public static void virtual_checkElements_1213877382378(SNode thisNode, Set<SNode> elementDeclarations) {
-    TypeExpressionList_Behavior.call_checkElements_1213877199094(SLinkOperations.getTarget(thisNode, "typeExpressionList", true), elementDeclarations);
+    TypeExpressionList_Behavior.call_checkElements_1213877199094(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(-5396545995874219192l, -5548206827574227681l), 1167615791597l, 1167841515196l, "typeExpressionList")), elementDeclarations);
   }
   public static boolean call_isEmpty_1213877526947(SNode thisNode) {
-    return (SLinkOperations.getTarget(thisNode, "mixedAttribute", true) == null) && TypeExpressionList_Behavior.call_isEmpty_1213877199114(SLinkOperations.getTarget(thisNode, "typeExpressionList", true));
+    return (SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(-5396545995874219192l, -5548206827574227681l), 1167615791597l, 1167841735153l, "mixedAttribute")) == null) && TypeExpressionList_Behavior.call_isEmpty_1213877199114(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(-5396545995874219192l, -5548206827574227681l), 1167615791597l, 1167841515196l, "typeExpressionList")));
   }
   public static boolean virtual_isMixed_1213877382388(SNode thisNode) {
-    boolean mixed = (SLinkOperations.getTarget(thisNode, "mixedAttribute", true) != null);
+    boolean mixed = (SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(-5396545995874219192l, -5548206827574227681l), 1167615791597l, 1167841735153l, "mixedAttribute")) != null);
     if (!(mixed)) {
-      mixed = TypeExpressionList_Behavior.call_isMixed_1213877199143(SLinkOperations.getTarget(thisNode, "typeExpressionList", true));
+      mixed = TypeExpressionList_Behavior.call_isMixed_1213877199143(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(-5396545995874219192l, -5548206827574227681l), 1167615791597l, 1167841515196l, "typeExpressionList")));
     }
     return mixed;
   }

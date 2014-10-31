@@ -4,12 +4,14 @@ package jetbrains.mps.baseLanguage.dates.behavior;
 
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 
 public class ConditionalFormatToken_Behavior {
   public static void init(SNode thisNode) {
   }
   public static String call_getClassName_1075917115049868779(SNode thisNode) {
-    return "ConditionalDTPrinter" + ((isEmptyString(SPropertyOperations.getString(thisNode, "name")) ? thisNode.getNodeId().toString() : SPropertyOperations.getString(thisNode, "name")));
+    return "ConditionalDTPrinter" + ((isEmptyString(SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name"))) ? thisNode.getNodeId().toString() : SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name"))));
   }
   private static boolean isEmptyString(String str) {
     return str == null || str.length() == 0;

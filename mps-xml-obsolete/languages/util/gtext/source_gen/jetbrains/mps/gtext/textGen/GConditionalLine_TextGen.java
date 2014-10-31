@@ -6,6 +6,8 @@ import jetbrains.mps.textGen.SNodeTextGen;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.textGen.TraceInfoGenerationUtil;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
@@ -18,16 +20,16 @@ public class GConditionalLine_TextGen extends SNodeTextGen {
     if (getBuffer().hasPositionsSupport()) {
       TraceInfoGenerationUtil.createPositionInfo(this, node);
     }
-    if (SPropertyOperations.getBoolean(node, "isSeparate")) {
+    if (SPropertyOperations.getBoolean(node, MetaAdapterFactory.getProperty(new UUID(-6324114011398976607l, -8974808928016009858l), 1179109169620l, 1179109261107l, "isSeparate"))) {
       this.indentBuffer();
     }
     {
-      Iterable<SNode> collection = SLinkOperations.getTargets(node, "item", true);
+      Iterable<SNode> collection = SLinkOperations.getChildren(node, MetaAdapterFactory.getContainmentLink(new UUID(-6324114011398976607l, -8974808928016009858l), 1179109169620l, 1179109231418l, "item"));
       for (SNode item : collection) {
         appendNode(item);
       }
     }
-    if (SPropertyOperations.getBoolean(node, "isSeparate")) {
+    if (SPropertyOperations.getBoolean(node, MetaAdapterFactory.getProperty(new UUID(-6324114011398976607l, -8974808928016009858l), 1179109169620l, 1179109261107l, "isSeparate"))) {
       this.appendNewLine();
     }
     if (getBuffer().hasPositionsSupport()) {

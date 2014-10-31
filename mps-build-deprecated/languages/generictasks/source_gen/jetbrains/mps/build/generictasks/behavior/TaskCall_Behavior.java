@@ -5,6 +5,8 @@ package jetbrains.mps.build.generictasks.behavior;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
@@ -16,29 +18,29 @@ public class TaskCall_Behavior {
   }
   public static String call_getAttributeValue_353793545802643859(SNode thisNode, String name) {
     SNode node = SConceptOperations.createNewNode("jetbrains.mps.build.generictasks.structure.AttributeDeclaration", null);
-    SPropertyOperations.set(node, "name", name);
-    for (SNode attr : ListSequence.fromList(SLinkOperations.getTargets(thisNode, "atributes", true))) {
+    SPropertyOperations.set(node, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name"), name);
+    for (SNode attr : ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643477l, 353793545802643479l, "atributes")))) {
       if (Attribute_Behavior.call_isOfDeclaration_353793545802643786(attr, node)) {
-        if ((SLinkOperations.getTarget(attr, "value", true) != null)) {
-          return BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(attr, "value", true), "virtual_toString_1213877472569", new Object[]{});
+        if ((SLinkOperations.getTarget(attr, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643466l, 353793545802643468l, "value")) != null)) {
+          return BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(attr, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643466l, 353793545802643468l, "value")), "virtual_toString_1213877472569", new Object[]{});
         }
       }
     }
     return null;
   }
   public static boolean call_hasID_353793545802643905(SNode thisNode) {
-    return SPropertyOperations.getString(thisNode, "id") != null;
+    return SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643477l, 353793545802643481l, "id")) != null;
   }
   public static boolean call_isAttributeDefined_353793545802643915(SNode thisNode, SNode attrDecl) {
-    for (SNode attribute : ListSequence.fromList(SLinkOperations.getTargets(thisNode, "atributes", true))) {
-      if ((SLinkOperations.getTarget(attribute, "attributeDeclaration", false) != null) && Attribute_Behavior.call_isOfDeclaration_353793545802643786(attribute, attrDecl)) {
+    for (SNode attribute : ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643477l, 353793545802643479l, "atributes")))) {
+      if ((SLinkOperations.getTarget(attribute, MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643466l, 353793545802643467l, "attributeDeclaration")) != null) && Attribute_Behavior.call_isOfDeclaration_353793545802643786(attribute, attrDecl)) {
         return true;
       }
     }
     return false;
   }
   public static Iterable<SNode> call_getUndefinedAttributes_353793545802643943(final SNode thisNode) {
-    List<SNode> attributeDeclarations = BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), SLinkOperations.getTarget(thisNode, "declaration", false), "virtual_getAttributesDeclarations_1190349257898147625", new Object[]{});
+    List<SNode> attributeDeclarations = BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643477l, 353793545802643478l, "declaration")), "virtual_getAttributesDeclarations_1190349257898147625", new Object[]{});
     return ListSequence.fromList(attributeDeclarations).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
         return !(TaskCall_Behavior.call_isAttributeDefined_353793545802643915(thisNode, it));
@@ -46,9 +48,9 @@ public class TaskCall_Behavior {
     });
   }
   public static boolean call_isReferencedAndOfDeclaration_353793545802644027(SNode thisNode, String name) {
-    return TaskCall_Behavior.call_hasID_353793545802643905(thisNode) && (SLinkOperations.getTarget(thisNode, "declaration", false) != null) && SPropertyOperations.getString(SLinkOperations.getTarget(thisNode, "declaration", false), "name").equals(name);
+    return TaskCall_Behavior.call_hasID_353793545802643905(thisNode) && (SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643477l, 353793545802643478l, "declaration")) != null) && SPropertyOperations.getString(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643477l, 353793545802643478l, "declaration")), MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name")).equals(name);
   }
   public static boolean call_isDeprecated_353793545802644052(SNode thisNode) {
-    return (SLinkOperations.getTarget(thisNode, "declaration", false) != null) && SPropertyOperations.getBoolean(SLinkOperations.getTarget(thisNode, "declaration", false), "depracated");
+    return (SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643477l, 353793545802643478l, "declaration")) != null) && SPropertyOperations.getBoolean(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643477l, 353793545802643478l, "declaration")), MetaAdapterFactory.getProperty(new UUID(-314238378988976676l, -6739106179126467998l), 5699548131010533020l, 7699562953468509839l, "depracated"));
   }
 }

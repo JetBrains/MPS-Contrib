@@ -8,6 +8,8 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.typesystem.inference.TypeCheckingContext;
 import jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 import jetbrains.mps.buildlanguage.behavior.Enum_Behavior;
 import jetbrains.mps.errors.messageTargets.MessageTarget;
 import jetbrains.mps.errors.messageTargets.NodeMessageTarget;
@@ -19,15 +21,15 @@ public class checkAttributeDeclarationDefaultValueIsInEnum_NonTypesystemRule ext
   public checkAttributeDeclarationDefaultValueIsInEnum_NonTypesystemRule() {
   }
   public void applyRule(final SNode genericAttributeDeclaration, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
-    if ((SLinkOperations.getTarget(genericAttributeDeclaration, "default", true) != null) && (SLinkOperations.getTarget(genericAttributeDeclaration, "enum", true) != null)) {
-      if (!(Enum_Behavior.call_inEnum_1213877413964(SLinkOperations.getTarget(genericAttributeDeclaration, "enum", true), SLinkOperations.getTarget(genericAttributeDeclaration, "default", true)))) {
+    if ((SLinkOperations.getTarget(genericAttributeDeclaration, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643469l, 353793545802643472l, "default")) != null) && (SLinkOperations.getTarget(genericAttributeDeclaration, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643469l, 353793545802643474l, "enum")) != null)) {
+      if (!(Enum_Behavior.call_inEnum_1213877413964(SLinkOperations.getTarget(genericAttributeDeclaration, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643469l, 353793545802643474l, "enum")), SLinkOperations.getTarget(genericAttributeDeclaration, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643469l, 353793545802643472l, "default"))))) {
         {
           MessageTarget errorTarget = new NodeMessageTarget();
-          IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(genericAttributeDeclaration, "Default value of attribute \"" + SPropertyOperations.getString(genericAttributeDeclaration, "name") + "\" must be in " + Enum_Behavior.call_toString_1213877413898(SLinkOperations.getTarget(genericAttributeDeclaration, "enum", true)), "r:eac20369-5993-49cc-a9ac-fbeb7a91d81f(jetbrains.mps.build.generictasks.typesystem)", "353793545802854645", null, errorTarget);
+          IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(genericAttributeDeclaration, "Default value of attribute \"" + SPropertyOperations.getString(genericAttributeDeclaration, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name")) + "\" must be in " + Enum_Behavior.call_toString_1213877413898(SLinkOperations.getTarget(genericAttributeDeclaration, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643469l, 353793545802643474l, "enum"))), "r:eac20369-5993-49cc-a9ac-fbeb7a91d81f(jetbrains.mps.build.generictasks.typesystem)", "353793545802854645", null, errorTarget);
         }
       }
     }
-    if (SPropertyOperations.getString(genericAttributeDeclaration, "name") != null && SPropertyOperations.getString(genericAttributeDeclaration, "name").contains(" ")) {
+    if (SPropertyOperations.getString(genericAttributeDeclaration, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name")) != null && SPropertyOperations.getString(genericAttributeDeclaration, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name")).contains(" ")) {
       {
         MessageTarget errorTarget = new NodeMessageTarget();
         IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(genericAttributeDeclaration, "Attribute name contains whitespaces!", "r:eac20369-5993-49cc-a9ac-fbeb7a91d81f(jetbrains.mps.build.generictasks.typesystem)", "353793545802854662", null, errorTarget);

@@ -13,6 +13,8 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 import jetbrains.mps.smodel.DynamicReference;
 import jetbrains.mps.lang.pattern.IMatchingPattern;
 import jetbrains.mps.lang.typesystem.runtime.HUtil;
@@ -41,7 +43,7 @@ public class MigrateParameterBrowser_MigrationScript extends BaseMigrationScript
       public void doUpdateInstanceNode(SNode node) {
         SNode parameterBrowserDeclaration = ListSequence.fromList(SModelOperations.getRoots(SNodeOperations.getModel(node), "jetbrains.mps.uiLanguage.structure.ComponentDeclaration")).findFirst(new IWhereFilter<SNode>() {
           public boolean accept(SNode it) {
-            return SPropertyOperations.getString(it, "name").equals("ParameterBrowser");
+            return SPropertyOperations.getString(it, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name")).equals("ParameterBrowser");
           }
         });
         if ((parameterBrowserDeclaration == null)) {
@@ -56,17 +58,17 @@ public class MigrateParameterBrowser_MigrationScript extends BaseMigrationScript
           SReference oldComponentReference = node.getReference("componentDeclaration");
           {
             IMatchingPattern pattern_wft9px_b0e0a0 = HUtil.createMatchingPatternByConceptFQName("jetbrains.mps.uiLanguage.structure.ComponentType");
-            SNode coercedNode_wft9px_b0e0a0 = TypeChecker.getInstance().getRuntimeSupport().coerce_(SLinkOperations.getTarget(variableDeclaration, "type", true), pattern_wft9px_b0e0a0);
+            SNode coercedNode_wft9px_b0e0a0 = TypeChecker.getInstance().getRuntimeSupport().coerce_(SLinkOperations.getTarget(variableDeclaration, MetaAdapterFactory.getContainmentLink(new UUID(-935030926396207931l, -6610165693999523818l), 4972933694980447171l, 5680397130376446158l, "type")), pattern_wft9px_b0e0a0);
             if (coercedNode_wft9px_b0e0a0 != null) {
               SReference reference = coercedNode_wft9px_b0e0a0.getReference("component");
               if (reference != null && reference.getTargetSModelReference().equals(oldComponentReference.getTargetSModelReference()) && reference.getTargetNodeId().equals(oldComponentReference.getTargetNodeId())) {
-                SLinkOperations.setTarget(coercedNode_wft9px_b0e0a0, "component", parameterBrowserDeclaration, false);
+                SLinkOperations.setTarget(coercedNode_wft9px_b0e0a0, MetaAdapterFactory.getReferenceLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202465023198l, 1202465029373l, "component"), parameterBrowserDeclaration);
               }
             } else {
             }
           }
         }
-        SLinkOperations.setTarget(node, "componentDeclaration", parameterBrowserDeclaration, false);
+        SLinkOperations.setTarget(node, MetaAdapterFactory.getReferenceLink(new UUID(6731736082390534803l, -6860703902218146233l), 1203520768804l, 1203520776742l, "componentDeclaration"), parameterBrowserDeclaration);
       }
       public boolean isShowAsIntention() {
         return false;

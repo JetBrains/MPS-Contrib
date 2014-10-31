@@ -7,6 +7,8 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.List;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.util.IterableUtil;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
@@ -39,12 +41,12 @@ public class GTextOptimizer {
       } else
       if (SNodeOperations.isInstanceOf(optChild, "jetbrains.mps.gtext.structure.GConditionalLine")) {
         SNode nextChild = optChild;
-        if (SPropertyOperations.getBoolean(SNodeOperations.cast(optChild, "jetbrains.mps.gtext.structure.GConditionalLine"), "isSeparate")) {
+        if (SPropertyOperations.getBoolean(SNodeOperations.cast(optChild, "jetbrains.mps.gtext.structure.GConditionalLine"), MetaAdapterFactory.getProperty(new UUID(-6324114011398976607l, -8974808928016009858l), 1179109169620l, 1179109261107l, "isSeparate"))) {
           SNodeOperations.insertNextSiblingChild(nextChild, SModelOperations.createNewNode(SNodeOperations.getModel(item), null, "jetbrains.mps.gtext.structure.GIndent"));
           nextChild = SNodeOperations.cast(SNodeOperations.getNextSibling(nextChild), "jetbrains.mps.gtext.structure.GItem");
         }
         nextChild = inlineChildren(optChild, nextChild);
-        if (SPropertyOperations.getBoolean(SNodeOperations.cast(optChild, "jetbrains.mps.gtext.structure.GConditionalLine"), "isSeparate")) {
+        if (SPropertyOperations.getBoolean(SNodeOperations.cast(optChild, "jetbrains.mps.gtext.structure.GConditionalLine"), MetaAdapterFactory.getProperty(new UUID(-6324114011398976607l, -8974808928016009858l), 1179109169620l, 1179109261107l, "isSeparate"))) {
           SNodeOperations.insertNextSiblingChild(nextChild, SModelOperations.createNewNode(SNodeOperations.getModel(item), null, "jetbrains.mps.gtext.structure.GNewLine"));
         }
         SNodeOperations.deleteNode(optChild);
@@ -65,9 +67,9 @@ public class GTextOptimizer {
         if (t == null) {
           t = SNodeOperations.cast(child, "jetbrains.mps.gtext.structure.GText");
         } else {
-          String text = SPropertyOperations.getString(SNodeOperations.cast(child, "jetbrains.mps.gtext.structure.GText"), "text");
+          String text = SPropertyOperations.getString(SNodeOperations.cast(child, "jetbrains.mps.gtext.structure.GText"), MetaAdapterFactory.getProperty(new UUID(-6324114011398976607l, -8974808928016009858l), 1164412789837l, 1164413036326l, "text"));
           if (text != null) {
-            SPropertyOperations.set(t, "text", SPropertyOperations.getString(t, "text") + text);
+            SPropertyOperations.set(t, MetaAdapterFactory.getProperty(new UUID(-6324114011398976607l, -8974808928016009858l), 1164412789837l, 1164413036326l, "text"), SPropertyOperations.getString(t, MetaAdapterFactory.getProperty(new UUID(-6324114011398976607l, -8974808928016009858l), 1164412789837l, 1164413036326l, "text")) + text);
           }
           SNodeOperations.deleteNode(child);
         }

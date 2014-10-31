@@ -5,6 +5,8 @@ package jetbrains.mps.buildlanguage.behavior;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 
@@ -14,9 +16,9 @@ public class Enum_Behavior {
   public static String call_toString_1213877413898(SNode thisNode) {
     StringBuffer sb = new StringBuffer();
     sb.append("{");
-    for (int i = 0; i < ListSequence.fromList(SLinkOperations.getTargets(thisNode, "constants", true)).count(); i++) {
-      sb.append(BehaviorReflection.invokeVirtual(String.class, ListSequence.fromList(SLinkOperations.getTargets(thisNode, "constants", true)).getElement(i), "virtual_toString_1213877472569", new Object[]{}));
-      if (i < ListSequence.fromList(SLinkOperations.getTargets(thisNode, "constants", true)).count() - 1) {
+    for (int i = 0; i < ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1197398796434l, 1197398804591l, "constants"))).count(); i++) {
+      sb.append(BehaviorReflection.invokeVirtual(String.class, ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1197398796434l, 1197398804591l, "constants"))).getElement(i), "virtual_toString_1213877472569", new Object[]{}));
+      if (i < ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1197398796434l, 1197398804591l, "constants"))).count() - 1) {
         sb.append(", ");
       }
     }
@@ -24,7 +26,7 @@ public class Enum_Behavior {
     return sb.toString();
   }
   public static boolean call_inEnum_1213877413964(SNode thisNode, SNode nodeToCheck) {
-    for (SNode constant : ListSequence.fromList(SLinkOperations.getTargets(thisNode, "constants", true))) {
+    for (SNode constant : ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1197398796434l, 1197398804591l, "constants")))) {
       if (BehaviorReflection.invokeVirtual(String.class, constant, "virtual_toString_1213877472569", new Object[]{}).equals(BehaviorReflection.invokeVirtual(String.class, nodeToCheck, "virtual_toString_1213877472569", new Object[]{}))) {
         return true;
       }

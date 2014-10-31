@@ -9,6 +9,8 @@ import jetbrains.mps.util.NameUtil;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 import org.jetbrains.mps.openapi.persistence.PersistenceFacade;
 import jetbrains.mps.smodel.SModelUtil_new;
 
@@ -28,7 +30,7 @@ public class Node_FunctionParameter_Behavior {
   public static SNode call_getParameterType_5147346160405686358(SAbstractConcept thisConcept, SNode runConfig) {
     if ((runConfig != null)) {
       SNode nodeType = SConceptOperations.createNewNode("jetbrains.mps.lang.smodel.structure.SNodeType", null);
-      SLinkOperations.setTarget(nodeType, "concept", SLinkOperations.getTarget(runConfig, "conceptDeclaration", false), false);
+      SLinkOperations.setTarget(nodeType, MetaAdapterFactory.getReferenceLink(new UUID(8675788371017092295l, -9098312342032910879l), 1138055754698l, 1138405853777l, "concept"), SLinkOperations.getTarget(runConfig, MetaAdapterFactory.getReferenceLink(new UUID(-9024322794181865535l, -5381379368254122047l), 8456022385895583119l, 3607966867310500324l, "conceptDeclaration")));
       return nodeType;
     }
     return _quotation_createNode_2ajjny_a1a3();

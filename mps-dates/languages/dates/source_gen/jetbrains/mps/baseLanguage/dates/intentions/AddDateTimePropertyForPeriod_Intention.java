@@ -14,6 +14,8 @@ import jetbrains.mps.smodel.SNodePointer;
 import java.util.Collections;
 import jetbrains.mps.smodel.action.SNodeFactoryOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.intentions.IntentionDescriptor;
 import org.jetbrains.mps.openapi.persistence.PersistenceFacade;
@@ -70,7 +72,7 @@ public class AddDateTimePropertyForPeriod_Intention implements IntentionFactory 
     }
     public void execute(final SNode node, final EditorContext editorContext) {
       SNode expression = SNodeFactoryOperations.createNewNode("jetbrains.mps.baseLanguage.dates.structure.PeriodInPropertyExpression", null);
-      SLinkOperations.setTarget(expression, "datetime", SNodeOperations.copyNode(node), true);
+      SLinkOperations.setTarget(expression, MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 276836602888578296l, 276836602888578300l, "datetime"), SNodeOperations.copyNode(node));
       SNodeOperations.replaceWithAnother(node, expression);
     }
     public IntentionDescriptor getDescriptor() {

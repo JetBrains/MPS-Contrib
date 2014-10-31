@@ -5,6 +5,7 @@ package jetbrains.mps.baseLanguage.dates.constraints;
 import jetbrains.mps.smodel.runtime.ConstraintsDescriptor;
 import java.util.Arrays;
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
+import jetbrains.mps.smodel.adapter.ids.SConceptId;
 
 public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime.ConstraintsAspectDescriptor {
   public ConstraintsAspectDescriptor() {
@@ -48,9 +49,66 @@ public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime
       case 15:
         return new TimeZoneNameOperation_Constraints();
       default:
-        // todo: illegal in some cases? 
         return new BaseConstraintsDescriptor(fqName);
     }
+  }
+  public ConstraintsDescriptor getDescriptor(SConceptId conceptId) {
+    long id = conceptId.getConceptId();
+    if (id == 1169563444535l) {
+      return new TokenConditionalPair_Constraints();
+    }
+    if (id == 1169557513226l) {
+      return new FormatExpression_Constraints();
+    }
+    if (id == 1169487448949l) {
+      return new DateFormat_Constraints();
+    }
+    if (id == 1173959836330l) {
+      return new DateTimePropertyFormatToken_Constraints();
+    }
+    if (id == 1172679701720l) {
+      return new FixedLocaleFormatToken_Constraints();
+    }
+    if (id == 1169563273551l) {
+      return new ReferenceFormatToken_Constraints();
+    }
+    if (id == 1209035760903l) {
+      return new DateTimeOperation_Constraints();
+    }
+    if (id == 1209035204722l) {
+      return new ConvertToDateTimeOperation_Constraints();
+    }
+    if (id == 1239193939163l) {
+      return new WithPropertyCompareExpression_Constraints();
+    }
+    if (id == 4555537781927648369l) {
+      return new TimeZoneIDExpression_Constraints();
+    }
+    if (id == 5034322243092296606l) {
+      return new FormatDateTimeExpression_Constraints();
+    }
+    if (id == 5372916090361181333l) {
+      return new ConvertToDurationOperation_Constraints();
+    }
+    if (id == 34521615669572115l) {
+      return new FormatPeriodExpression_Constraints();
+    }
+    if (id == 48671598477573965l) {
+      return new PeriodFormat_Constraints();
+    }
+    if (id == 7249953535157212421l) {
+      return new PeriodReferenceFormatToken_Constraints();
+    }
+    if (id == 7249953535157196261l) {
+      return new PeriodPropertyFormatToken_Constraints();
+    }
+    if (id == 5293902215864051658l) {
+      return new TimeZoneIdOperation_Constraints();
+    }
+    if (id == 5293902215864689835l) {
+      return new TimeZoneNameOperation_Constraints();
+    }
+    return new BaseConstraintsDescriptor(conceptId);
   }
   private static String[] stringSwitchCases_2qnle6_a0a0b = new String[]{"jetbrains.mps.baseLanguage.dates.structure.ConvertToDateTimeOperation", "jetbrains.mps.baseLanguage.dates.structure.ConvertToDurationOperation", "jetbrains.mps.baseLanguage.dates.structure.DateFormat", "jetbrains.mps.baseLanguage.dates.structure.DateTimeOperation", "jetbrains.mps.baseLanguage.dates.structure.DateTimePropertyFormatToken", "jetbrains.mps.baseLanguage.dates.structure.FixedLocaleFormatToken", "jetbrains.mps.baseLanguage.dates.structure.FormatDateTimeExpression", "jetbrains.mps.baseLanguage.dates.structure.FormatExpression", "jetbrains.mps.baseLanguage.dates.structure.FormatPeriodExpression", "jetbrains.mps.baseLanguage.dates.structure.PeriodFormat", "jetbrains.mps.baseLanguage.dates.structure.PeriodPropertyFormatToken", "jetbrains.mps.baseLanguage.dates.structure.PeriodReferenceFormatToken", "jetbrains.mps.baseLanguage.dates.structure.ReferenceFormatToken", "jetbrains.mps.baseLanguage.dates.structure.TimeZoneIDExpression", "jetbrains.mps.baseLanguage.dates.structure.TimeZoneIdOperation", "jetbrains.mps.baseLanguage.dates.structure.TimeZoneNameOperation", "jetbrains.mps.baseLanguage.dates.structure.TokenConditionalPair", "jetbrains.mps.baseLanguage.dates.structure.WithPropertyCompareExpression"};
 }

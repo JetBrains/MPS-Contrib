@@ -5,17 +5,19 @@ package jetbrains.mps.xml.deprecated.textGen;
 import jetbrains.mps.textGen.SNodeTextGen;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class Document_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
-    if ((SLinkOperations.getTarget(node, "doctype", true) != null)) {
-      appendNode(SLinkOperations.getTarget(node, "doctype", true));
+    if ((SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(-9061952983114822898l, -7881051372423955543l), 1119976146404l, 1234365333275l, "doctype")) != null)) {
+      appendNode(SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(-9061952983114822898l, -7881051372423955543l), 1119976146404l, 1234365333275l, "doctype")));
       this.appendNewLine();
     }
-    appendNode(SLinkOperations.getTarget(node, "rootElement", true));
+    appendNode(SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(-9061952983114822898l, -7881051372423955543l), 1119976146404l, 1119976595358l, "rootElement")));
   }
   public String getExtension(SNode node) {
-    return (SPropertyOperations.getString(node, "extension") == null ? "xml" : SPropertyOperations.getString(node, "extension"));
+    return (SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(new UUID(-9061952983114822898l, -7881051372423955543l), 1119976146404l, 1234428502488l, "extension")) == null ? "xml" : SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(new UUID(-9061952983114822898l, -7881051372423955543l), 1119976146404l, 1234428502488l, "extension")));
   }
 }

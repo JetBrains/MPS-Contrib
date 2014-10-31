@@ -14,92 +14,92 @@
   <concept fqn="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
   <root>
     <file name="ConstraintsAspectDescriptor.java">
-      <unit at="9,0,25,0" name="jetbrains.mps.gtext.constraints.ConstraintsAspectDescriptor" />
+      <unit at="10,0,35,0" name="jetbrains.mps.gtext.constraints.ConstraintsAspectDescriptor" />
     </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c89590571(jetbrains.mps.gtext.constraints)/1213104844571">
     <file name="GDocument_Constraints.java">
-      <node id="1213104844571" at="14,34,15,53" concept="11" />
-      <node id="1213104844571" at="18,82,19,74" concept="5" />
-      <node id="1213104844571" at="22,37,23,20" concept="6" />
-      <node id="1213104844571" at="26,42,27,37" concept="5" />
-      <node id="1213104844571" at="27,37,28,67" concept="0" />
-      <node id="1213104844575" at="27,37,28,67" concept="6" />
-      <node id="1213104844571" at="31,37,32,20" concept="6" />
-      <node id="1213104844571" at="35,62,36,37" concept="5" />
-      <node id="1213104844571" at="36,37,37,15" concept="0" />
-      <node id="7376433222636453717" at="36,37,37,15" concept="7" />
-      <node id="1213104844571" at="39,7,40,22" concept="6" />
-      <node id="1213104844571" at="14,0,17,0" concept="1" trace="GDocument_Constraints#()V" />
-      <node id="1213104844571" at="21,0,25,0" concept="4" trace="hasOwnGetter#()Z" />
-      <node id="1213104844571" at="30,0,34,0" concept="4" trace="hasOwnSetter#()Z" />
-      <node id="1213104844571" at="25,0,30,0" concept="4" trace="getValue#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Object;" />
-      <node id="1213104844571" at="34,0,39,0" concept="4" trace="setValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)V" />
-      <node id="1213104844571" at="19,74,39,7" concept="2" />
-      <node id="1213104844571" at="17,0,42,0" concept="4" trace="getNotDefaultProperties#()Ljava/util/Map;" />
-      <scope id="1213104844571" at="14,34,15,53" />
-      <scope id="1213104844571" at="22,37,23,20" />
-      <scope id="1213104844574" at="27,37,28,67" />
-      <scope id="1213104844571" at="31,37,32,20" />
-      <scope id="2560685941238418435" at="36,37,37,15" />
-      <scope id="1213104844571" at="26,42,28,67">
+      <node id="1213104844571" at="18,34,19,107" concept="11" />
+      <node id="1213104844571" at="22,88,23,123" concept="5" />
+      <node id="1213104844571" at="26,37,27,20" concept="6" />
+      <node id="1213104844571" at="30,42,31,37" concept="5" />
+      <node id="1213104844571" at="31,37,32,187" concept="0" />
+      <node id="1213104844575" at="31,37,32,187" concept="6" />
+      <node id="1213104844571" at="35,37,36,20" concept="6" />
+      <node id="1213104844571" at="39,62,40,37" concept="5" />
+      <node id="1213104844571" at="40,37,41,15" concept="0" />
+      <node id="7376433222636453717" at="40,37,41,15" concept="7" />
+      <node id="1213104844571" at="43,7,44,22" concept="6" />
+      <node id="1213104844571" at="18,0,21,0" concept="1" trace="GDocument_Constraints#()V" />
+      <node id="1213104844571" at="25,0,29,0" concept="4" trace="hasOwnGetter#()Z" />
+      <node id="1213104844571" at="34,0,38,0" concept="4" trace="hasOwnSetter#()Z" />
+      <node id="1213104844571" at="29,0,34,0" concept="4" trace="getValue#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Object;" />
+      <node id="1213104844571" at="38,0,43,0" concept="4" trace="setValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)V" />
+      <node id="1213104844571" at="23,123,43,7" concept="2" />
+      <node id="1213104844571" at="21,0,46,0" concept="4" trace="getNotDefaultSProperties#()Ljava/util/Map;" />
+      <scope id="1213104844571" at="18,34,19,107" />
+      <scope id="1213104844571" at="26,37,27,20" />
+      <scope id="1213104844574" at="31,37,32,187" />
+      <scope id="1213104844571" at="35,37,36,20" />
+      <scope id="2560685941238418435" at="40,37,41,15" />
+      <scope id="1213104844571" at="30,42,32,187">
         <var name="propertyName" id="1213104844571" />
       </scope>
-      <scope id="1213104844571" at="35,62,37,15">
+      <scope id="1213104844571" at="39,62,41,15">
         <var name="propertyName" id="1213104844571" />
       </scope>
-      <scope id="1213104844571" at="14,0,17,0" />
-      <scope id="1213104844571" at="21,0,25,0" />
-      <scope id="1213104844571" at="30,0,34,0" />
-      <scope id="1213104844571" at="25,0,30,0">
+      <scope id="1213104844571" at="18,0,21,0" />
+      <scope id="1213104844571" at="25,0,29,0" />
+      <scope id="1213104844571" at="34,0,38,0" />
+      <scope id="1213104844571" at="29,0,34,0">
         <var name="node" id="1213104844571" />
       </scope>
-      <scope id="1213104844571" at="34,0,39,0">
+      <scope id="1213104844571" at="38,0,43,0">
         <var name="node" id="1213104844571" />
         <var name="propertyValue" id="1213104844571" />
       </scope>
-      <scope id="1213104844571" at="18,82,40,22">
+      <scope id="1213104844571" at="22,88,44,22">
         <var name="properties" id="1213104844571" />
       </scope>
-      <scope id="1213104844571" at="17,0,42,0" />
-      <unit id="1213104844571" at="20,31,39,5" name="jetbrains.mps.gtext.constraints.GDocument_Constraints$1" />
-      <unit id="1213104844571" at="13,0,43,0" name="jetbrains.mps.gtext.constraints.GDocument_Constraints" />
+      <scope id="1213104844571" at="21,0,46,0" />
+      <unit id="1213104844571" at="24,133,43,5" name="jetbrains.mps.gtext.constraints.GDocument_Constraints$1" />
+      <unit id="1213104844571" at="17,0,47,0" name="jetbrains.mps.gtext.constraints.GDocument_Constraints" />
     </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c89590571(jetbrains.mps.gtext.constraints)/1213107436024">
     <file name="GContentPlaceholder_Constraints.java">
-      <node id="1213107436024" at="14,44,15,63" concept="11" />
-      <node id="1213107436024" at="18,43,19,16" concept="6" />
-      <node id="1213107436024" at="22,200,23,96" concept="5" />
-      <node id="1213107436024" at="23,96,24,0" concept="8" />
-      <node id="1213107436024" at="25,51,26,67" concept="2" />
-      <node id="1213107436024" at="27,5,28,0" concept="8" />
-      <node id="1213107436024" at="28,0,29,18" concept="6" />
-      <node id="7376433222636454045" at="31,148,32,34" concept="7" />
-      <node id="1213107436028" at="32,34,33,121" concept="6" />
-      <node id="1213107436024" at="35,0,36,0" concept="9" trace="canBeChildBreakingPoint" />
-      <node id="1213107436024" at="14,0,17,0" concept="1" trace="GContentPlaceholder_Constraints#()V" />
-      <node id="1213107436024" at="24,0,27,5" concept="3" />
-      <node id="1213107436024" at="17,0,21,0" concept="4" trace="hasOwnCanBeChildMethod#()Z" />
-      <node id="1213107436024" at="31,0,35,0" concept="10" trace="static_canBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/smodel/IOperationContext;)Z" />
-      <node id="1213107436024" at="21,0,31,0" concept="4" trace="canBeChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
-      <scope id="1213107436024" at="14,44,15,63" />
-      <scope id="1213107436024" at="18,43,19,16" />
-      <scope id="1213107436024" at="25,51,26,67" />
-      <scope id="1213107436026" at="31,148,33,121" />
-      <scope id="1213107436024" at="14,0,17,0" />
-      <scope id="1213107436024" at="17,0,21,0" />
-      <scope id="1213107436024" at="31,0,35,0">
+      <node id="1213107436024" at="16,44,17,107" concept="11" />
+      <node id="1213107436024" at="20,43,21,16" concept="6" />
+      <node id="1213107436024" at="24,200,25,96" concept="5" />
+      <node id="1213107436024" at="25,96,26,0" concept="8" />
+      <node id="1213107436024" at="27,51,28,67" concept="2" />
+      <node id="1213107436024" at="29,5,30,0" concept="8" />
+      <node id="1213107436024" at="30,0,31,18" concept="6" />
+      <node id="7376433222636454045" at="33,148,34,34" concept="7" />
+      <node id="1213107436028" at="34,34,35,121" concept="6" />
+      <node id="1213107436024" at="37,0,38,0" concept="9" trace="canBeChildBreakingPoint" />
+      <node id="1213107436024" at="16,0,19,0" concept="1" trace="GContentPlaceholder_Constraints#()V" />
+      <node id="1213107436024" at="26,0,29,5" concept="3" />
+      <node id="1213107436024" at="19,0,23,0" concept="4" trace="hasOwnCanBeChildMethod#()Z" />
+      <node id="1213107436024" at="33,0,37,0" concept="10" trace="static_canBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/smodel/IOperationContext;)Z" />
+      <node id="1213107436024" at="23,0,33,0" concept="4" trace="canBeChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
+      <scope id="1213107436024" at="16,44,17,107" />
+      <scope id="1213107436024" at="20,43,21,16" />
+      <scope id="1213107436024" at="27,51,28,67" />
+      <scope id="1213107436026" at="33,148,35,121" />
+      <scope id="1213107436024" at="16,0,19,0" />
+      <scope id="1213107436024" at="19,0,23,0" />
+      <scope id="1213107436024" at="33,0,37,0">
         <var name="childConcept" id="1213107436024" />
         <var name="link" id="1213107436024" />
         <var name="node" id="1213107436024" />
         <var name="operationContext" id="1213107436024" />
         <var name="parentNode" id="1213107436024" />
       </scope>
-      <scope id="1213107436024" at="22,200,29,18">
+      <scope id="1213107436024" at="24,200,31,18">
         <var name="result" id="1213107436024" />
       </scope>
-      <scope id="1213107436024" at="21,0,31,0">
+      <scope id="1213107436024" at="23,0,33,0">
         <var name="checkingNodeContext" id="1213107436024" />
         <var name="childConcept" id="1213107436024" />
         <var name="link" id="1213107436024" />
@@ -107,7 +107,7 @@
         <var name="operationContext" id="1213107436024" />
         <var name="parentNode" id="1213107436024" />
       </scope>
-      <unit id="1213107436024" at="13,0,37,0" name="jetbrains.mps.gtext.constraints.GContentPlaceholder_Constraints" />
+      <unit id="1213107436024" at="15,0,39,0" name="jetbrains.mps.gtext.constraints.GContentPlaceholder_Constraints" />
     </file>
   </root>
 </debug-info>

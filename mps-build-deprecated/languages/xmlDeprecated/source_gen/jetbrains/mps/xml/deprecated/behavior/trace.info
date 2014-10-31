@@ -44,31 +44,31 @@
   </root>
   <root nodeRef="r:ba842257-2468-4a73-8c6f-fb41d6d73b25(jetbrains.mps.xml.deprecated.behavior)/1234406711692">
     <file name="PublicId_Behavior.java">
-      <node id="1234406741388" at="12,86,13,77" concept="0" />
-      <node id="1234406769296" at="13,77,14,77" concept="0" />
-      <node id="1234406711692" at="10,0,12,0" concept="2" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-      <node id="1234406711692" at="12,0,16,0" concept="2" trace="virtual_createID_1234406619968#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jdom/DocType;)V" />
-      <scope id="1234406711694" at="10,43,10,43" />
-      <scope id="1234406711692" at="10,0,12,0">
+      <node id="1234406741388" at="14,86,15,197" concept="0" />
+      <node id="1234406769296" at="15,197,16,197" concept="0" />
+      <node id="1234406711692" at="12,0,14,0" concept="2" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1234406711692" at="14,0,18,0" concept="2" trace="virtual_createID_1234406619968#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jdom/DocType;)V" />
+      <scope id="1234406711694" at="12,43,12,43" />
+      <scope id="1234406711692" at="12,0,14,0">
         <var name="thisNode" id="1234406711692" />
       </scope>
-      <scope id="1234406725877" at="12,86,14,77" />
-      <scope id="1234406711692" at="12,0,16,0">
+      <scope id="1234406725877" at="14,86,16,197" />
+      <scope id="1234406711692" at="14,0,18,0">
         <var name="doctype" id="1234406734431" />
         <var name="thisNode" id="1234406711692" />
       </scope>
-      <unit id="1234406711692" at="9,0,17,0" name="jetbrains.mps.xml.deprecated.behavior.PublicId_Behavior" />
+      <unit id="1234406711692" at="11,0,19,0" name="jetbrains.mps.xml.deprecated.behavior.PublicId_Behavior" />
     </file>
   </root>
   <root nodeRef="r:ba842257-2468-4a73-8c6f-fb41d6d73b25(jetbrains.mps.xml.deprecated.behavior)/1234428640648">
     <file name="Document_Behavior.java">
-      <node id="1234428648133" at="9,43,10,58" concept="0" />
-      <node id="1234428640648" at="9,0,12,0" concept="2" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-      <scope id="1234428640650" at="9,43,10,58" />
-      <scope id="1234428640648" at="9,0,12,0">
+      <node id="1234428648133" at="11,43,12,178" concept="0" />
+      <node id="1234428640648" at="11,0,14,0" concept="2" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <scope id="1234428640650" at="11,43,12,178" />
+      <scope id="1234428640648" at="11,0,14,0">
         <var name="thisNode" id="1234428640648" />
       </scope>
-      <unit id="1234428640648" at="8,0,13,0" name="jetbrains.mps.xml.deprecated.behavior.Document_Behavior" />
+      <unit id="1234428640648" at="10,0,15,0" name="jetbrains.mps.xml.deprecated.behavior.Document_Behavior" />
     </file>
   </root>
   <root nodeRef="r:ba842257-2468-4a73-8c6f-fb41d6d73b25(jetbrains.mps.xml.deprecated.behavior)/1262430001741498175">

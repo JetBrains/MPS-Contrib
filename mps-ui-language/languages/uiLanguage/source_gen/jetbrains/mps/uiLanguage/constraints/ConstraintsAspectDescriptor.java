@@ -5,6 +5,7 @@ package jetbrains.mps.uiLanguage.constraints;
 import jetbrains.mps.smodel.runtime.ConstraintsDescriptor;
 import java.util.Arrays;
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
+import jetbrains.mps.smodel.adapter.ids.SConceptId;
 
 public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime.ConstraintsAspectDescriptor {
   public ConstraintsAspectDescriptor() {
@@ -46,9 +47,63 @@ public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime
       case 3:
         return new BindExpression_Constraints();
       default:
-        // todo: illegal in some cases? 
         return new BaseConstraintsDescriptor(fqName);
     }
+  }
+  public ConstraintsDescriptor getDescriptor(SConceptId conceptId) {
+    long id = conceptId.getConceptId();
+    if (id == 1202742489421l) {
+      return new ComponentReference_Constraints();
+    }
+    if (id == 1202387945296l) {
+      return new ComponentInstance_Constraints();
+    }
+    if (id == 1202388384249l) {
+      return new ComponentController_Constraints();
+    }
+    if (id == 1202389314593l) {
+      return new AttributeValue_Constraints();
+    }
+    if (id == 1210173918195l) {
+      return new StubCellRendererInfo_Constraints();
+    }
+    if (id == 1208685679469l) {
+      return new EventHandlerReference_Constraints();
+    }
+    if (id == 1210179557036l) {
+      return new CellRendererAttribute_Constraints();
+    }
+    if (id == 1208089922381l) {
+      return new RaiseOperation_Constraints();
+    }
+    if (id == 1208090516982l) {
+      return new RemoveListenerOperation_Constraints();
+    }
+    if (id == 1210519144319l) {
+      return new InlineRenderer_Constraints();
+    }
+    if (id == 1210521546663l) {
+      return new RenderingObject_Constraints();
+    }
+    if (id == 1209655552864l) {
+      return new RaiseInternalStatement_Constraints();
+    }
+    if (id == 1202830095650l) {
+      return new StandardDialog_Constraints();
+    }
+    if (id == 1203084152264l) {
+      return new ListElements_Constraints();
+    }
+    if (id == 1208090496480l) {
+      return new AddListenerOperation_Constraints();
+    }
+    if (id == 1202744043552l) {
+      return new ActionHandler_Constraints();
+    }
+    if (id == 1202464424004l) {
+      return new BindExpression_Constraints();
+    }
+    return new BaseConstraintsDescriptor(conceptId);
   }
   private static String[] stringSwitchCases_2qnle6_a0a0b = new String[]{"jetbrains.mps.uiLanguage.structure.ActionHandler", "jetbrains.mps.uiLanguage.structure.AddListenerOperation", "jetbrains.mps.uiLanguage.structure.AttributeValue", "jetbrains.mps.uiLanguage.structure.BindExpression", "jetbrains.mps.uiLanguage.structure.CellRendererAttribute", "jetbrains.mps.uiLanguage.structure.ComponentController", "jetbrains.mps.uiLanguage.structure.ComponentInstance", "jetbrains.mps.uiLanguage.structure.ComponentReference", "jetbrains.mps.uiLanguage.structure.EventHandlerReference", "jetbrains.mps.uiLanguage.structure.InlineRenderer", "jetbrains.mps.uiLanguage.structure.ListElements", "jetbrains.mps.uiLanguage.structure.RaiseInternalStatement", "jetbrains.mps.uiLanguage.structure.RaiseOperation", "jetbrains.mps.uiLanguage.structure.RemoveListenerOperation", "jetbrains.mps.uiLanguage.structure.RenderingObject", "jetbrains.mps.uiLanguage.structure.StandardDialog", "jetbrains.mps.uiLanguage.structure.StubCellRendererInfo"};
 }

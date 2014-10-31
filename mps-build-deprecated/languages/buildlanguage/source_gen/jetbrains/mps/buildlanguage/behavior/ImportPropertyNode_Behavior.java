@@ -5,11 +5,13 @@ package jetbrains.mps.buildlanguage.behavior;
 import org.jetbrains.mps.openapi.model.SNode;
 import java.util.List;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 
 public class ImportPropertyNode_Behavior {
   public static void init(SNode thisNode) {
   }
   public static List<SNode> virtual_getPropertyDeclarations_1240397763706(SNode thisNode) {
-    return SLinkOperations.getTargets(SLinkOperations.getTarget(thisNode, "propertyNode", false), "declaration", true);
+    return SLinkOperations.getChildren(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getReferenceLink(new UUID(819810455698030989l, -8713019626243247156l), 1200418817047l, 1200420354547l, "propertyNode")), MetaAdapterFactory.getContainmentLink(new UUID(-2494528174342584927l, -7303847360425402116l), 1200504738494l, 1200504738496l, "declaration"));
   }
 }

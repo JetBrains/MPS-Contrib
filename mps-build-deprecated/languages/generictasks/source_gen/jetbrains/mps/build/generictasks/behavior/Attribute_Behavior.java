@@ -4,14 +4,16 @@ package jetbrains.mps.build.generictasks.behavior;
 
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 
 public class Attribute_Behavior {
   public static void init(SNode thisNode) {
   }
   public static boolean call_isOfDeclaration_353793545802643786(SNode thisNode, SNode decl) {
-    if ((SLinkOperations.getTarget(thisNode, "attributeDeclaration", false) == null)) {
+    if ((SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643466l, 353793545802643467l, "attributeDeclaration")) == null)) {
       return false;
     }
-    return AttributeDeclaration_Behavior.call_equals_353793545802643827(SLinkOperations.getTarget(thisNode, "attributeDeclaration", false), decl);
+    return AttributeDeclaration_Behavior.call_equals_353793545802643827(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643466l, 353793545802643467l, "attributeDeclaration")), decl);
   }
 }

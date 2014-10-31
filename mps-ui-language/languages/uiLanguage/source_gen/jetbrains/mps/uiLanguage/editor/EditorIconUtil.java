@@ -13,6 +13,8 @@ import javax.swing.JFrame;
 import jetbrains.mps.ide.ui.filechoosers.treefilechooser.TreeFileChooser;
 import jetbrains.mps.vfs.IFile;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 import jetbrains.mps.util.EncodingUtil;
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
@@ -47,7 +49,7 @@ public class EditorIconUtil {
         context.getOperationContext().getProject().getModelAccess().executeCommandInEDT(new Runnable() {
           @Override
           public void run() {
-            SPropertyOperations.set(node, "iconData", EncodingUtil.encodeBase64(content));
+            SPropertyOperations.set(node, MetaAdapterFactory.getProperty(new UUID(6731736082390534803l, -6860703902218146233l), 6242401288845934074l, 6242401288845940751l, "iconData"), EncodingUtil.encodeBase64(content));
           }
         });
       }

@@ -5,6 +5,8 @@ package jetbrains.mps.buildlanguage.actions;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 import jetbrains.mps.util.NameUtil;
 
 public class Util {
@@ -12,13 +14,13 @@ public class Util {
   }
   public static boolean checkNodeType(SNode parentNode, SNode type) {
     if (SNodeOperations.isInstanceOf(parentNode, "jetbrains.mps.buildlanguage.structure.PropertyDeclaration")) {
-      return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SNodeOperations.cast(parentNode, "jetbrains.mps.buildlanguage.structure.PropertyDeclaration"), "type", true), NameUtil.nodeFQName(type));
+      return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SNodeOperations.cast(parentNode, "jetbrains.mps.buildlanguage.structure.PropertyDeclaration"), MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1463999527524104369l, 1196870993204l, "type")), NameUtil.nodeFQName(type));
     } else
     if (SNodeOperations.isInstanceOf(parentNode, "jetbrains.mps.build.generictasks.structure.Attribute")) {
-      return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SLinkOperations.getTarget(SNodeOperations.cast(parentNode, "jetbrains.mps.build.generictasks.structure.Attribute"), "attributeDeclaration", false), "attributeType", true), NameUtil.nodeFQName(type));
+      return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SLinkOperations.getTarget(SNodeOperations.cast(parentNode, "jetbrains.mps.build.generictasks.structure.Attribute"), MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643466l, 353793545802643467l, "attributeDeclaration")), MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643469l, 353793545802643473l, "attributeType")), NameUtil.nodeFQName(type));
     } else
     if (SNodeOperations.isInstanceOf(parentNode, "jetbrains.mps.build.generictasks.structure.AttributeDeclaration")) {
-      return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SNodeOperations.cast(parentNode, "jetbrains.mps.build.generictasks.structure.AttributeDeclaration"), "attributeType", true), NameUtil.nodeFQName(type));
+      return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SNodeOperations.cast(parentNode, "jetbrains.mps.build.generictasks.structure.AttributeDeclaration"), MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643469l, 353793545802643473l, "attributeType")), NameUtil.nodeFQName(type));
     }
     return false;
   }

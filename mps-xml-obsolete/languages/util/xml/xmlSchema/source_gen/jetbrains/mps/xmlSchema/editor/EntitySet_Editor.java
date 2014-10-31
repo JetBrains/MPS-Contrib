@@ -16,6 +16,8 @@ import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Component;
 import javax.swing.JComponent;
 import jetbrains.mps.ide.browser.HyperlinkUtil;
@@ -97,7 +99,7 @@ public class EntitySet_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private static boolean renderingCondition_bj9nw6_a3a0(SNode node, EditorContext editorContext) {
-    return SPropertyOperations.getString(node, "url") == null;
+    return SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(new UUID(-5396545995874219192l, -5548206827574227681l), 1172948996536l, 1172955182464l, "url")) == null;
   }
   private EditorCell createProperty_bj9nw6_a3a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
@@ -122,7 +124,7 @@ public class EntitySet_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private static JComponent _QueryFunction_JComponent_bj9nw6_a0d0a(final SNode node, final EditorContext editorContext) {
-    return HyperlinkUtil.getHyperlinkComponent(SPropertyOperations.getString(node, "url"));
+    return HyperlinkUtil.getHyperlinkComponent(SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(new UUID(-5396545995874219192l, -5548206827574227681l), 1172948996536l, 1172955182464l, "url")));
   }
   private EditorCell createConstant_bj9nw6_b0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");

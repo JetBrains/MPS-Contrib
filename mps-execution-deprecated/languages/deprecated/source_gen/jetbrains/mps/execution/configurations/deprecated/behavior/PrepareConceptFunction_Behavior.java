@@ -4,6 +4,8 @@ package jetbrains.mps.execution.configurations.deprecated.behavior;
 
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import java.util.List;
@@ -13,10 +15,10 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class PrepareConceptFunction_Behavior {
   public static void init(SNode thisNode) {
-    SLinkOperations.setTarget(thisNode, "retrunTypeParameter", SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.structure.VoidType", null), true);
+    SLinkOperations.setTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(-9024322794181865535l, -5381379368254122047l), 314981645426569201l, 314981645426569202l, "retrunTypeParameter"), SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.structure.VoidType", null));
   }
   public static SNode virtual_getExpectedReturnType_1213877374441(SNode thisNode) {
-    return SLinkOperations.getTarget(thisNode, "retrunTypeParameter", true);
+    return SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(-9024322794181865535l, -5381379368254122047l), 314981645426569201l, 314981645426569202l, "retrunTypeParameter"));
   }
   public static boolean virtual_showName_1262430001741498082(SAbstractConcept thisConcept) {
     return true;

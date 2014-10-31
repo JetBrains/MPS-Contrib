@@ -31,6 +31,8 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Property;
 import jetbrains.mps.nodeEditor.cells.ModelAccessor;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.util.EqualUtil;
 import jetbrains.mps.editor.runtime.cells.EmptyCellAction;
@@ -210,7 +212,7 @@ public class SimpleElement_Editor extends DefaultNodeEditor {
   private EditorCell createReadOnlyModelAccessor_944ac1_b2a(final EditorContext editorContext, final SNode node) {
     EditorCell_Property editorCell = EditorCell_Property.create(editorContext, new ModelAccessor() {
       public String getText() {
-        return (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(node, "elementName", true), "jetbrains.mps.xml.structure.Text") ? SPropertyOperations.getString(SNodeOperations.cast(SLinkOperations.getTarget(node, "elementName", true), "jetbrains.mps.xml.structure.Text"), "text") : "...");
+        return (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(7275049699783163986l, -6957227899428870635l), 1179105519357l, 1179271242032l, "elementName")), "jetbrains.mps.xml.structure.Text") ? SPropertyOperations.getString(SNodeOperations.cast(SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(7275049699783163986l, -6957227899428870635l), 1179105519357l, 1179271242032l, "elementName")), "jetbrains.mps.xml.structure.Text"), MetaAdapterFactory.getProperty(new UUID(3194679053860949738l, -5054431440157877063l), 1161373262136l, 1161373273669l, "text")) : "...");
       }
       public void setText(String s) {
       }

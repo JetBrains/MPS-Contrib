@@ -14,6 +14,8 @@ import jetbrains.mps.smodel.SNodePointer;
 import java.util.Collections;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 import jetbrains.mps.smodel.action.SNodeFactoryOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.intentions.IntentionDescriptor;
@@ -65,17 +67,17 @@ public class ConvertToDateTimeInMath_Intention implements IntentionFactory {
     public IntentionImplementation() {
     }
     public String getDescription(final SNode node, final EditorContext editorContext) {
-      return "Convert " + '\'' + (MathDateTimeOperation_Behavior.call_needLeftConvert_1238250704510(node) ? BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(node, "leftExpression", true), "virtual_getPresentation_1213877396640", new Object[]{}) : BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(node, "rightExpression", true), "virtual_getPresentation_1213877396640", new Object[]{}) + '\'' + " to Datetime");
+      return "Convert " + '\'' + (MathDateTimeOperation_Behavior.call_needLeftConvert_1238250704510(node) ? BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 1238248029297l, 1238248060720l, "leftExpression")), "virtual_getPresentation_1213877396640", new Object[]{}) : BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 1238248029297l, 1238248060893l, "rightExpression")), "virtual_getPresentation_1213877396640", new Object[]{}) + '\'' + " to Datetime");
     }
     public void execute(final SNode node, final EditorContext editorContext) {
       SNode dotExpression = SNodeFactoryOperations.createNewNode("jetbrains.mps.baseLanguage.structure.DotExpression", null);
-      SLinkOperations.setTarget(dotExpression, "operation", SNodeFactoryOperations.createNewNode("jetbrains.mps.baseLanguage.dates.structure.ConvertToDateTimeOperation", null), true);
+      SLinkOperations.setTarget(dotExpression, MetaAdapterFactory.getContainmentLink(new UUID(-935030926396207931l, -6610165693999523818l), 1197027756228l, 1197027833540l, "operation"), SNodeFactoryOperations.createNewNode("jetbrains.mps.baseLanguage.dates.structure.ConvertToDateTimeOperation", null));
       if (MathDateTimeOperation_Behavior.call_needLeftConvert_1238250704510(node)) {
-        SLinkOperations.setTarget(dotExpression, "operand", SNodeOperations.copyNode(SLinkOperations.getTarget(node, "leftExpression", true)), true);
-        SLinkOperations.setTarget(node, "leftExpression", dotExpression, true);
+        SLinkOperations.setTarget(dotExpression, MetaAdapterFactory.getContainmentLink(new UUID(-935030926396207931l, -6610165693999523818l), 1197027756228l, 1197027771414l, "operand"), SNodeOperations.copyNode(SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 1238248029297l, 1238248060720l, "leftExpression"))));
+        SLinkOperations.setTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 1238248029297l, 1238248060720l, "leftExpression"), dotExpression);
       } else {
-        SLinkOperations.setTarget(dotExpression, "operand", SNodeOperations.copyNode(SLinkOperations.getTarget(node, "rightExpression", true)), true);
-        SLinkOperations.setTarget(node, "rightExpression", dotExpression, true);
+        SLinkOperations.setTarget(dotExpression, MetaAdapterFactory.getContainmentLink(new UUID(-935030926396207931l, -6610165693999523818l), 1197027756228l, 1197027771414l, "operand"), SNodeOperations.copyNode(SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 1238248029297l, 1238248060893l, "rightExpression"))));
+        SLinkOperations.setTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 1238248029297l, 1238248060893l, "rightExpression"), dotExpression);
       }
     }
     public IntentionDescriptor getDescriptor() {

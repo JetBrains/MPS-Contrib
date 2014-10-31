@@ -7,12 +7,14 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.lang.dataFlow.DataFlowBuilderContext;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 
 public class PeriodFormatsTable_DataFlow extends DataFlowBuilder {
   public PeriodFormatsTable_DataFlow() {
   }
   public void build(final IOperationContext operationContext, final DataFlowBuilderContext _context) {
-    for (SNode format : SLinkOperations.getTargets(_context.getNode(), "periodFormat", true)) {
+    for (SNode format : SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 48671598477850406l, 48671598477850408l, "periodFormat"))) {
       _context.getBuilder().build((SNode) format);
     }
   }

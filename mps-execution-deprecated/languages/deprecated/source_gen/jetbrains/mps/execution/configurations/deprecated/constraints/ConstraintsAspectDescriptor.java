@@ -5,6 +5,7 @@ package jetbrains.mps.execution.configurations.deprecated.constraints;
 import jetbrains.mps.smodel.runtime.ConstraintsDescriptor;
 import java.util.Arrays;
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
+import jetbrains.mps.smodel.adapter.ids.SConceptId;
 
 public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime.ConstraintsAspectDescriptor {
   public ConstraintsAspectDescriptor() {
@@ -36,9 +37,48 @@ public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime
       case 0:
         return new AbstractCheckConfigBlock_Constraints();
       default:
-        // todo: illegal in some cases? 
         return new BaseConstraintsDescriptor(fqName);
     }
+  }
+  public ConstraintsDescriptor getDescriptor(SConceptId conceptId) {
+    long id = conceptId.getConceptId();
+    if (id == 8456022385895583119l) {
+      return new JavaNodeRunConfiguration_Constraints();
+    }
+    if (id == 8456022385895584871l) {
+      return new JavaCheckBlock_Constraints();
+    }
+    if (id == 3361586479360705438l) {
+      return new NodeRunConfigPropertyInstance_Constraints();
+    }
+    if (id == 314981645426569157l) {
+      return new ExecuteSpecific_Constraints();
+    }
+    if (id == 314981645426569276l) {
+      return new ReportErrorStatement_Constraints();
+    }
+    if (id == 314981645426569161l) {
+      return new ComponentReference_Constraints();
+    }
+    if (id == 314981645426569299l) {
+      return new RunConfigPropertyInstance_Constraints();
+    }
+    if (id == 314981645426569341l) {
+      return new RunConfigMainNodeStatement_Constraints();
+    }
+    if (id == 314981645426569290l) {
+      return new CreateRunConfigStatement_Constraints();
+    }
+    if (id == 314981645426569344l) {
+      return new RunConfigParameterReferenceOperation_Constraints();
+    }
+    if (id == 314981645426569163l) {
+      return new ExecuteParameterQuery_Constraints();
+    }
+    if (id == 314981645426569270l) {
+      return new AbstractCheckConfigBlock_Constraints();
+    }
+    return new BaseConstraintsDescriptor(conceptId);
   }
   private static String[] stringSwitchCases_2qnle6_a0a0b = new String[]{"jetbrains.mps.execution.configurations.deprecated.structure.AbstractCheckConfigBlock", "jetbrains.mps.execution.configurations.deprecated.structure.ComponentReference", "jetbrains.mps.execution.configurations.deprecated.structure.CreateRunConfigStatement", "jetbrains.mps.execution.configurations.deprecated.structure.ExecuteParameterQuery", "jetbrains.mps.execution.configurations.deprecated.structure.ExecuteSpecific", "jetbrains.mps.execution.configurations.deprecated.structure.JavaCheckBlock", "jetbrains.mps.execution.configurations.deprecated.structure.JavaNodeRunConfiguration", "jetbrains.mps.execution.configurations.deprecated.structure.NodeRunConfigPropertyInstance", "jetbrains.mps.execution.configurations.deprecated.structure.ReportErrorStatement", "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigMainNodeStatement", "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigParameterReferenceOperation", "jetbrains.mps.execution.configurations.deprecated.structure.RunConfigPropertyInstance"};
 }

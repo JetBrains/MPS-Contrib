@@ -8,6 +8,8 @@ import jetbrains.mps.lang.script.runtime.AbstractMigrationRefactoring;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 
 public class convert_DateTimeOperations_MigrationScript extends BaseMigrationScript {
   public convert_DateTimeOperations_MigrationScript(IOperationContext operationContext) {
@@ -27,8 +29,8 @@ public class convert_DateTimeOperations_MigrationScript extends BaseMigrationScr
       }
       public void doUpdateInstanceNode(SNode node) {
         SNode minusExpression = SNodeOperations.replaceWithNewChild(node, "jetbrains.mps.baseLanguage.structure.MinusExpression");
-        SLinkOperations.setTarget(minusExpression, "leftExpression", SLinkOperations.getTarget(node, "leftValue", true), true);
-        SLinkOperations.setTarget(minusExpression, "rightExpression", SLinkOperations.getTarget(node, "rightValue", true), true);
+        SLinkOperations.setTarget(minusExpression, MetaAdapterFactory.getContainmentLink(new UUID(-935030926396207931l, -6610165693999523818l), 1081773326031l, 1081773367580l, "leftExpression"), SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 1207222873197l, 1207222904240l, "leftValue")));
+        SLinkOperations.setTarget(minusExpression, MetaAdapterFactory.getContainmentLink(new UUID(-935030926396207931l, -6610165693999523818l), 1081773326031l, 1081773367579l, "rightExpression"), SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 1207222873197l, 1207222904241l, "rightValue")));
       }
       public boolean isShowAsIntention() {
         return false;
@@ -49,8 +51,8 @@ public class convert_DateTimeOperations_MigrationScript extends BaseMigrationScr
       }
       public void doUpdateInstanceNode(SNode node) {
         SNode minusExpression = SNodeOperations.replaceWithNewChild(node, "jetbrains.mps.baseLanguage.structure.PlusExpression");
-        SLinkOperations.setTarget(minusExpression, "leftExpression", SLinkOperations.getTarget(node, "leftValue", true), true);
-        SLinkOperations.setTarget(minusExpression, "rightExpression", SLinkOperations.getTarget(node, "rightValue", true), true);
+        SLinkOperations.setTarget(minusExpression, MetaAdapterFactory.getContainmentLink(new UUID(-935030926396207931l, -6610165693999523818l), 1081773326031l, 1081773367580l, "leftExpression"), SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 1207143297026l, 1207143609180l, "leftValue")));
+        SLinkOperations.setTarget(minusExpression, MetaAdapterFactory.getContainmentLink(new UUID(-935030926396207931l, -6610165693999523818l), 1081773326031l, 1081773367579l, "rightExpression"), SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 1207143297026l, 1207143609181l, "rightValue")));
       }
       public boolean isShowAsIntention() {
         return false;

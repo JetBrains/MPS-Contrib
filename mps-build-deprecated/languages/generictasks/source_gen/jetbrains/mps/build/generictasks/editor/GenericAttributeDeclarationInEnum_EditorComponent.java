@@ -11,6 +11,8 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
@@ -41,7 +43,7 @@ public class GenericAttributeDeclarationInEnum_EditorComponent implements Concep
     return editorCell;
   }
   private static boolean renderingCondition_pdjfsm_a0a(SNode node, EditorContext editorContext) {
-    return (SLinkOperations.getTarget(node, "enum", true) != null) || editorContext.isInspector();
+    return (SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643469l, 353793545802643474l, "enum")) != null) || editorContext.isInspector();
   }
   private EditorCell createRefNode_pdjfsm_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
@@ -63,6 +65,6 @@ public class GenericAttributeDeclarationInEnum_EditorComponent implements Concep
     return editorCell;
   }
   private static boolean renderingCondition_pdjfsm_a1a(SNode node, EditorContext editorContext) {
-    return (SLinkOperations.getTarget(node, "enum", true) != null) || editorContext.isInspector();
+    return (SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643469l, 353793545802643474l, "enum")) != null) || editorContext.isInspector();
   }
 }

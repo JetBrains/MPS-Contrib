@@ -5,6 +5,7 @@ package jetbrains.mps.build.generictasks.constraints;
 import jetbrains.mps.smodel.runtime.ConstraintsDescriptor;
 import java.util.Arrays;
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
+import jetbrains.mps.smodel.adapter.ids.SConceptId;
 
 public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime.ConstraintsAspectDescriptor {
   public ConstraintsAspectDescriptor() {
@@ -26,9 +27,33 @@ public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime
       case 2:
         return new NestedDeclaration_Constraints();
       default:
-        // todo: illegal in some cases? 
         return new BaseConstraintsDescriptor(fqName);
     }
+  }
+  public ConstraintsDescriptor getDescriptor(SConceptId conceptId) {
+    long id = conceptId.getConceptId();
+    if (id == 353793545802643466l) {
+      return new Attribute_Constraints();
+    }
+    if (id == 353793545802643477l) {
+      return new TaskCall_Constraints();
+    }
+    if (id == 353793545802854870l) {
+      return new PathReference_Constraints();
+    }
+    if (id == 3037831562615764081l) {
+      return new TaskReference_Constraints();
+    }
+    if (id == 353793545802643486l) {
+      return new BuiltInTaskDeclaration_Constraints();
+    }
+    if (id == 353793545802643483l) {
+      return new TaskInterfaceDeclaration_Constraints();
+    }
+    if (id == 353793545802643498l) {
+      return new NestedDeclaration_Constraints();
+    }
+    return new BaseConstraintsDescriptor(conceptId);
   }
   private static String[] stringSwitchCases_2qnle6_a0a0b = new String[]{"jetbrains.mps.build.generictasks.structure.Attribute", "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration", "jetbrains.mps.build.generictasks.structure.NestedDeclaration", "jetbrains.mps.build.generictasks.structure.PathReference", "jetbrains.mps.build.generictasks.structure.TaskCall", "jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration", "jetbrains.mps.build.generictasks.structure.TaskReference"};
 }

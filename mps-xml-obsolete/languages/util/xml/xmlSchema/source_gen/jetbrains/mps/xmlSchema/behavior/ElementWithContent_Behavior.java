@@ -4,11 +4,13 @@ package jetbrains.mps.xmlSchema.behavior;
 
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 
 public class ElementWithContent_Behavior {
   public static void init(SNode thisNode) {
   }
   public static SNode virtual_getComplexType_1213877429806(SNode thisNode) {
-    return SLinkOperations.getTarget(thisNode, "complexType", true);
+    return SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(-5396545995874219192l, -5548206827574227681l), 1167512696010l, 1167842409344l, "complexType"));
   }
 }

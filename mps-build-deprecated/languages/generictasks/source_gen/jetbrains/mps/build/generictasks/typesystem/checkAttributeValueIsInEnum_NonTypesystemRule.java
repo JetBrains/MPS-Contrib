@@ -8,6 +8,8 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.typesystem.inference.TypeCheckingContext;
 import jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 import jetbrains.mps.buildlanguage.behavior.Enum_Behavior;
 import jetbrains.mps.errors.messageTargets.MessageTarget;
 import jetbrains.mps.errors.messageTargets.NodeMessageTarget;
@@ -19,11 +21,11 @@ public class checkAttributeValueIsInEnum_NonTypesystemRule extends AbstractNonTy
   public checkAttributeValueIsInEnum_NonTypesystemRule() {
   }
   public void applyRule(final SNode genericAttribute, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
-    if ((SLinkOperations.getTarget(SLinkOperations.getTarget(genericAttribute, "attributeDeclaration", false), "enum", true) != null) && (SLinkOperations.getTarget(genericAttribute, "value", true) != null)) {
-      if (!(Enum_Behavior.call_inEnum_1213877413964(SLinkOperations.getTarget(SLinkOperations.getTarget(genericAttribute, "attributeDeclaration", false), "enum", true), SLinkOperations.getTarget(genericAttribute, "value", true)))) {
+    if ((SLinkOperations.getTarget(SLinkOperations.getTarget(genericAttribute, MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643466l, 353793545802643467l, "attributeDeclaration")), MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643469l, 353793545802643474l, "enum")) != null) && (SLinkOperations.getTarget(genericAttribute, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643466l, 353793545802643468l, "value")) != null)) {
+      if (!(Enum_Behavior.call_inEnum_1213877413964(SLinkOperations.getTarget(SLinkOperations.getTarget(genericAttribute, MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643466l, 353793545802643467l, "attributeDeclaration")), MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643469l, 353793545802643474l, "enum")), SLinkOperations.getTarget(genericAttribute, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643466l, 353793545802643468l, "value"))))) {
         {
           MessageTarget errorTarget = new NodeMessageTarget();
-          IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(genericAttribute, "Attribute \"" + SPropertyOperations.getString(SLinkOperations.getTarget(genericAttribute, "attributeDeclaration", false), "name") + "\" must have value in " + Enum_Behavior.call_toString_1213877413898(SLinkOperations.getTarget(SLinkOperations.getTarget(genericAttribute, "attributeDeclaration", false), "enum", true)), "r:eac20369-5993-49cc-a9ac-fbeb7a91d81f(jetbrains.mps.build.generictasks.typesystem)", "353793545802854764", null, errorTarget);
+          IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(genericAttribute, "Attribute \"" + SPropertyOperations.getString(SLinkOperations.getTarget(genericAttribute, MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643466l, 353793545802643467l, "attributeDeclaration")), MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name")) + "\" must have value in " + Enum_Behavior.call_toString_1213877413898(SLinkOperations.getTarget(SLinkOperations.getTarget(genericAttribute, MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643466l, 353793545802643467l, "attributeDeclaration")), MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643469l, 353793545802643474l, "enum"))), "r:eac20369-5993-49cc-a9ac-fbeb7a91d81f(jetbrains.mps.build.generictasks.typesystem)", "353793545802854764", null, errorTarget);
         }
       }
     }

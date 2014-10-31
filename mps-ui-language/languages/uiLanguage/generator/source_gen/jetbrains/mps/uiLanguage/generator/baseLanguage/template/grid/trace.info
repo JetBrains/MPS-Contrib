@@ -3,23 +3,23 @@
   <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
   <root>
     <file name="QueriesGenerated.java">
-      <unit at="14,0,36,0" name="jetbrains.mps.uiLanguage.generator.baseLanguage.template.grid.QueriesGenerated" />
+      <unit at="16,0,38,0" name="jetbrains.mps.uiLanguage.generator.baseLanguage.template.grid.QueriesGenerated" />
     </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c89590556(jetbrains.mps.uiLanguage.generator.baseLanguage.template.grid@generator)/1202824926823">
     <file name="QueriesGenerated.java">
-      <node id="1202825166633" at="17,106,18,76" concept="0" />
-      <node id="1202825204119" at="20,106,21,80" concept="0" />
-      <node id="1202825900511" at="23,102,24,30" concept="0" />
-      <node id="1202825296873" at="26,114,27,71" concept="0" />
-      <node id="1202825609026" at="29,114,30,84" concept="0" />
-      <node id="1203604118378" at="32,114,33,75" concept="0" />
-      <scope id="1202825165023" at="17,106,18,76" />
-      <scope id="1202825202367" at="20,106,21,80" />
-      <scope id="1202825892190" at="23,102,24,30" />
-      <scope id="1202825294700" at="26,114,27,71" />
-      <scope id="1202825291119" at="29,114,30,84" />
-      <scope id="1203604100898" at="32,114,33,75" />
+      <node id="1202825166633" at="19,106,20,76" concept="0" />
+      <node id="1202825204119" at="22,106,23,80" concept="0" />
+      <node id="1202825900511" at="25,102,26,30" concept="0" />
+      <node id="1202825296873" at="28,114,29,192" concept="0" />
+      <node id="1202825609026" at="31,114,32,84" concept="0" />
+      <node id="1203604118378" at="34,114,35,196" concept="0" />
+      <scope id="1202825165023" at="19,106,20,76" />
+      <scope id="1202825202367" at="22,106,23,80" />
+      <scope id="1202825892190" at="25,102,26,30" />
+      <scope id="1202825294700" at="28,114,29,192" />
+      <scope id="1202825291119" at="31,114,32,84" />
+      <scope id="1203604100898" at="34,114,35,196" />
     </file>
   </root>
 </debug-info>

@@ -10,6 +10,8 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.ModelAccessor;
 import org.joda.time.DateTimeZone;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 import org.joda.time.format.DateTimeFormat;
 import org.joda.time.DateTime;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Property;
@@ -30,14 +32,14 @@ public class TimeZoneOffsetExpression_Editor extends DefaultNodeEditor {
   private EditorCell createModelAccess_q7k010_a0(final EditorContext editorContext, final SNode node) {
     ModelAccessor modelAccessor = new ModelAccessor() {
       public String getText() {
-        DateTimeZone zone = DateTimeZone.forOffsetMillis(SPropertyOperations.getInteger(node, "offsetmillis"));
+        DateTimeZone zone = DateTimeZone.forOffsetMillis(SPropertyOperations.getInteger(node, MetaAdapterFactory.getProperty(new UUID(-3689458971415590814l, -6289781637635314138l), 5473692278135631085l, 5473692278135819455l, "offsetmillis")));
         return DateTimeFormat.forPattern("ZZ").print(new DateTime(zone));
       }
       public void setText(String text) {
         try {
           DateTime dt = DateTimeFormat.forPattern("Z").withOffsetParsed().parseDateTime(text);
           if (dt.withZoneRetainFields(DateTimeZone.UTC).getMillis() == 0L) {
-            SPropertyOperations.set(node, "offsetmillis", "" + (dt.getZone().getStandardOffset(0L)));
+            SPropertyOperations.set(node, MetaAdapterFactory.getProperty(new UUID(-3689458971415590814l, -6289781637635314138l), 5473692278135631085l, 5473692278135819455l, "offsetmillis"), "" + (dt.getZone().getStandardOffset(0L)));
           }
         } catch (RuntimeException ignored) {
         }

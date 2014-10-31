@@ -4,6 +4,8 @@ package jetbrains.mps.build.generictasks.behavior;
 
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
@@ -14,7 +16,7 @@ public class ITaskDeclaration_Behavior {
   public static void init(SNode thisNode) {
   }
   public static boolean virtual_isAbstract_5699548131010533031(SNode thisNode) {
-    return SPropertyOperations.getBoolean(thisNode, "abstract");
+    return SPropertyOperations.getBoolean(thisNode, MetaAdapterFactory.getProperty(new UUID(-314238378988976676l, -6739106179126467998l), 5699548131010533020l, 7699562953468509838l, "abstract"));
   }
   public static boolean virtual_canBeRootTask_1449762848926780427(SNode thisNode) {
     return !(BehaviorReflection.invokeVirtual(Boolean.TYPE, thisNode, "virtual_isAbstract_5699548131010533031", new Object[]{}));
@@ -40,6 +42,6 @@ public class ITaskDeclaration_Behavior {
     return false;
   }
   public static List<SNode> virtual_getAttributesDeclarations_1190349257898147625(SNode thisNode) {
-    return SLinkOperations.getTargets(thisNode, "attributesDecl", true);
+    return SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 5699548131010533020l, 7699562953468509840l, "attributesDecl"));
   }
 }

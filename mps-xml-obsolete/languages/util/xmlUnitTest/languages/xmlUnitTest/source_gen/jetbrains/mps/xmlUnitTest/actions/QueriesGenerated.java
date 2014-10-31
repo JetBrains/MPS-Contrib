@@ -15,6 +15,8 @@ import jetbrains.mps.smodel.action.DefaultSimpleSubstituteAction;
 import org.jetbrains.mps.openapi.model.SModel;
 import jetbrains.mps.smodel.action.SNodeFactoryOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 import jetbrains.mps.smodel.action.SideTransformActionsBuilderContext;
 import jetbrains.mps.smodel.action.AbstractSideTransformHintSubstituteAction;
 import org.jetbrains.annotations.Nullable;
@@ -32,7 +34,7 @@ public class QueriesGenerated {
         ListSequence.fromList(result).addElement(new DefaultSimpleSubstituteAction(outputConcept, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter()) {
           public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
             SNode attr = SNodeFactoryOperations.createNewNode("jetbrains.mps.xmlUnitTest.structure.Attribute", null);
-            SPropertyOperations.set(attr, "name", ((pattern == null ? null : pattern.trim())));
+            SPropertyOperations.set(attr, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name"), ((pattern == null ? null : pattern.trim())));
             return attr;
           }
           public String getMatchingText(String pattern) {
@@ -55,7 +57,7 @@ public class QueriesGenerated {
         ListSequence.fromList(result).addElement(new DefaultSimpleSubstituteAction(outputConcept, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter()) {
           public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
             SNode text = SNodeFactoryOperations.createNewNode("jetbrains.mps.xmlUnitTest.structure.Text", null);
-            SPropertyOperations.set(text, "name", pattern);
+            SPropertyOperations.set(text, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name"), pattern);
             return text;
           }
           public String getMatchingText(String pattern) {
@@ -78,7 +80,7 @@ public class QueriesGenerated {
       public SNode doSubstitute(@Nullable final EditorContext editorContext, String pattern) {
         //  add next attribute 
         SNode nextAttr = SNodeFactoryOperations.createNewNode("jetbrains.mps.xmlUnitTest.structure.Attribute", null);
-        SPropertyOperations.set(nextAttr, "name", ((pattern == null ? null : pattern.trim())));
+        SPropertyOperations.set(nextAttr, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name"), ((pattern == null ? null : pattern.trim())));
         SNodeOperations.insertNextSiblingChild(_context.getSourceNode(), nextAttr);
         return nextAttr;
       }

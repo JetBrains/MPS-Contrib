@@ -5,6 +5,7 @@ package jetbrains.mps.xmlSchema.constraints;
 import jetbrains.mps.smodel.runtime.ConstraintsDescriptor;
 import java.util.Arrays;
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
+import jetbrains.mps.smodel.adapter.ids.SConceptId;
 
 public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime.ConstraintsAspectDescriptor {
   public ConstraintsAspectDescriptor() {
@@ -34,9 +35,45 @@ public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime
       case 2:
         return new BoundExpression_Constraints();
       default:
-        // todo: illegal in some cases? 
         return new BaseConstraintsDescriptor(fqName);
     }
+  }
+  public ConstraintsDescriptor getDescriptor(SConceptId conceptId) {
+    long id = conceptId.getConceptId();
+    if (id == 1167697887602l) {
+      return new AttributeDeclaration_Constraints();
+    }
+    if (id == 1172950047361l) {
+      return new EntityDeclaration_Constraints();
+    }
+    if (id == 1167838236835l) {
+      return new ElementDeclaration_Constraints();
+    }
+    if (id == 1167615791597l) {
+      return new ComplexType_Constraints();
+    }
+    if (id == 1172948996536l) {
+      return new EntitySet_Constraints();
+    }
+    if (id == 1167597273853l) {
+      return new GroupDeclaration_Constraints();
+    }
+    if (id == 1167513851570l) {
+      return new Declaration_Constraints();
+    }
+    if (id == 1167513239198l) {
+      return new Schema_Constraints();
+    }
+    if (id == 1167710782427l) {
+      return new AttributeGroup_Constraints();
+    }
+    if (id == 1167790566663l) {
+      return new ComplexTypeReference_Constraints();
+    }
+    if (id == 6992757512063653197l) {
+      return new BoundExpression_Constraints();
+    }
+    return new BaseConstraintsDescriptor(conceptId);
   }
   private static String[] stringSwitchCases_2qnle6_a0a0b = new String[]{"jetbrains.mps.xmlSchema.structure.AttributeDeclaration", "jetbrains.mps.xmlSchema.structure.AttributeGroup", "jetbrains.mps.xmlSchema.structure.BoundExpression", "jetbrains.mps.xmlSchema.structure.ComplexType", "jetbrains.mps.xmlSchema.structure.ComplexTypeReference", "jetbrains.mps.xmlSchema.structure.Declaration", "jetbrains.mps.xmlSchema.structure.ElementDeclaration", "jetbrains.mps.xmlSchema.structure.EntityDeclaration", "jetbrains.mps.xmlSchema.structure.EntitySet", "jetbrains.mps.xmlSchema.structure.GroupDeclaration", "jetbrains.mps.xmlSchema.structure.Schema"};
 }
