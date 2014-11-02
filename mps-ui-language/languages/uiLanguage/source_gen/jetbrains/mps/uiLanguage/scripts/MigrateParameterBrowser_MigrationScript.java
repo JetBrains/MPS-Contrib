@@ -78,31 +78,31 @@ public class MigrateParameterBrowser_MigrationScript extends BaseMigrationScript
   private static SNode createComponentDeclaration_wft9px_a0a0b0a0() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode n1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.uiLanguage.structure.ComponentDeclaration", null, false);
-    n1.setProperty("name", "ParameterBrowser");
-    n1.setProperty("actionComponent", "" + true);
-    n1.setProperty("stub", "" + true);
-    n1.setReference("extendedComponent", jetbrains.mps.smodel.SReference.create("extendedComponent", n1, facade.createModelReference("r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)"), facade.createNodeId("1202816402995")));
+    n1.setProperty(MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name"), "ParameterBrowser");
+    n1.setProperty(MetaAdapterFactory.getProperty(new UUID(6731736082390534803l, -6860703902218146233l), 1202387718766l, 1202744343014l, "actionComponent"), "" + true);
+    n1.setProperty(MetaAdapterFactory.getProperty(new UUID(6731736082390534803l, -6860703902218146233l), 1202387718766l, 1202393242164l, "stub"), "" + true);
+    n1.setReference(MetaAdapterFactory.getReferenceLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202387718766l, 1202393246965l, "extendedComponent"), jetbrains.mps.smodel.SReference.create(MetaAdapterFactory.getReferenceLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202387718766l, 1202393246965l, "extendedComponent"), n1, facade.createModelReference("r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)"), facade.createNodeId("1202816402995")));
     return n1;
   }
   private static SNode createComponentController_wft9px_a0a3a1a0a(Object p0) {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode n1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.uiLanguage.structure.ComponentController", null, false);
     {
-      n1.setReferenceTarget("component", (SNode) p0);
+      n1.setReferenceTarget(MetaAdapterFactory.getReferenceLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202388384249l, 1202388401455l, "component"), (SNode) p0);
       SNode n2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.uiLanguage.structure.AttributeDeclaration", null, false);
       {
-        n2.setProperty("name", "text");
+        n2.setProperty(MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name"), "text");
         SNode n3 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.StringType", null, false);
-        n2.addChild("type", n3);
+        n2.addChild(MetaAdapterFactory.getContainmentLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202388805843l, 1202389048182l, "type"), n3);
       }
       SNode n4 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.uiLanguage.structure.AttributeDeclaration", null, false);
       {
-        n4.setProperty("name", "dialogCaption");
+        n4.setProperty(MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name"), "dialogCaption");
         SNode n5 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.StringType", null, false);
-        n4.addChild("type", n5);
+        n4.addChild(MetaAdapterFactory.getContainmentLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202388805843l, 1202389048182l, "type"), n5);
       }
-      n1.addChild("attribute", n2);
-      n1.addChild("attribute", n4);
+      n1.addChild(MetaAdapterFactory.getContainmentLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202388384249l, 1202389186753l, "attribute"), n2);
+      n1.addChild(MetaAdapterFactory.getContainmentLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202388384249l, 1202389186753l, "attribute"), n4);
     }
     return n1;
   }

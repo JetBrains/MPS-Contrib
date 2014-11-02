@@ -21,11 +21,11 @@
     <file name="StatementElement_BehaviorDescriptor.java">
       <unit at="8,0,19,0" name="jetbrains.mps.xmlInternal.behavior.StatementElement_BehaviorDescriptor" />
     </file>
-    <file name="SimpleElement_BehaviorDescriptor.java">
-      <unit at="8,0,19,0" name="jetbrains.mps.xmlInternal.behavior.SimpleElement_BehaviorDescriptor" />
-    </file>
     <file name="ContentStatement_BehaviorDescriptor.java">
       <unit at="7,0,15,0" name="jetbrains.mps.xmlInternal.behavior.ContentStatement_BehaviorDescriptor" />
+    </file>
+    <file name="SimpleElement_BehaviorDescriptor.java">
+      <unit at="8,0,19,0" name="jetbrains.mps.xmlInternal.behavior.SimpleElement_BehaviorDescriptor" />
     </file>
     <file name="BehaviorAspectDescriptor.java">
       <unit at="9,0,46,0" name="jetbrains.mps.xmlInternal.behavior.BehaviorAspectDescriptor" />
