@@ -47,7 +47,7 @@ public class Element_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_76r4mg_a0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_76r4mg_a0a(editorContext, node));
     editorCell.addEditorCell(this.createProperty_76r4mg_b0a(editorContext, node));
@@ -59,7 +59,7 @@ public class Element_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<");
     editorCell.setCellId("Constant_76r4mg_a0a");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
+    style.set(StyleAttributes.FONT_STYLE, 0, MPSFonts.BOLD);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -72,8 +72,8 @@ public class Element_Editor extends DefaultNodeEditor {
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_name");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
-    style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.DARK_BLUE));
+    style.set(StyleAttributes.FONT_STYLE, 0, MPSFonts.BOLD);
+    style.set(StyleAttributes.TEXT_COLOR, 0, StyleRegistry.getInstance().getSimpleColor(MPSColors.DARK_BLUE));
     editorCell.getStyle().putAll(style);
     if (true) {
       editorCell.getStyle().set(StyleAttributes.FOCUS_POLICY, FocusPolicy.ATTRACTS_FOCUS);
@@ -133,7 +133,7 @@ public class Element_Editor extends DefaultNodeEditor {
       EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
       editorCell.setCellId("Constant_76r4mg_a2a0");
       Style style = new StyleImpl();
-      style.set(StyleAttributes.EDITABLE, true);
+      style.set(StyleAttributes.EDITABLE, 0, true);
       editorCell.getStyle().putAll(style);
       editorCell.setDefaultText("...");
       return editorCell;
@@ -143,7 +143,7 @@ public class Element_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ">");
     editorCell.setCellId("Constant_76r4mg_d0a");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
+    style.set(StyleAttributes.FONT_STYLE, 0, MPSFonts.BOLD);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -152,7 +152,7 @@ public class Element_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_76r4mg_b0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createIndentCell_76r4mg_a1a(editorContext, node));
     editorCell.addEditorCell(this.createRefNodeList_76r4mg_b1a(editorContext, node));
@@ -207,7 +207,7 @@ public class Element_Editor extends DefaultNodeEditor {
       EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
       editorCell.setCellId("Constant_76r4mg_a1b0");
       Style style = new StyleImpl();
-      style.set(StyleAttributes.EDITABLE, true);
+      style.set(StyleAttributes.EDITABLE, 0, true);
       editorCell.getStyle().putAll(style);
       editorCell.setDefaultText("...");
       return editorCell;
@@ -217,7 +217,7 @@ public class Element_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_76r4mg_c0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_76r4mg_a2a(editorContext, node));
     editorCell.addEditorCell(this.createProperty_76r4mg_b2a(editorContext, node));
@@ -228,7 +228,7 @@ public class Element_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "</");
     editorCell.setCellId("Constant_76r4mg_a2a");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
+    style.set(StyleAttributes.FONT_STYLE, 0, MPSFonts.BOLD);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -241,8 +241,8 @@ public class Element_Editor extends DefaultNodeEditor {
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_name_1");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
-    style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.DARK_BLUE));
+    style.set(StyleAttributes.FONT_STYLE, 0, MPSFonts.BOLD);
+    style.set(StyleAttributes.TEXT_COLOR, 0, StyleRegistry.getInstance().getSimpleColor(MPSColors.DARK_BLUE));
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -258,7 +258,7 @@ public class Element_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ">");
     editorCell.setCellId("Constant_76r4mg_c2a");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
+    style.set(StyleAttributes.FONT_STYLE, 0, MPSFonts.BOLD);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;

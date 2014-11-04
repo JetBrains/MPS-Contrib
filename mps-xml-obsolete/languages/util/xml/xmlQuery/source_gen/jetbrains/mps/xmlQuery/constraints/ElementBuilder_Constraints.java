@@ -22,10 +22,10 @@ import jetbrains.mps.util.NameUtil;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.smodel.search.ModelAndImportedModelsScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.smodel.search.SimpleSearchScope;
 import jetbrains.mps.xml.actions.ElementUtil;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.smodel.search.EmptySearchScope;
 import org.jetbrains.mps.openapi.model.SNodeReference;
 import jetbrains.mps.smodel.SNodePointer;
@@ -51,8 +51,8 @@ public class ElementBuilder_Constraints extends BaseConstraintsDescriptor {
             SNode contextBuilder = Builder_Behavior.call_getContextBuilder_7057666463730366732(SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.builders.structure.Builder"))), _context.getEnclosingNode());
             if (contextBuilder == null) {
               return new ModelAndImportedModelsScope(_context.getModel(), false);
-            } else if (SNodeOperations.isInstanceOf(contextBuilder, "jetbrains.mps.xmlQuery.structure.ElementBuilder")) {
-              return new SimpleSearchScope(ElementUtil.getElementDeclarations(SLinkOperations.getTarget(SNodeOperations.cast(contextBuilder, "jetbrains.mps.xmlQuery.structure.ElementBuilder"), MetaAdapterFactory.getReferenceLink(new UUID(-6269610502768541194l, -6018622628950326671l), 3149278768676788174l, 1384720974900260378l, "elementDeclaration")), _context.getEnclosingNode()));
+            } else if (SNodeOperations.isInstanceOf(contextBuilder, MetaAdapterFactory.getConcept(new UUID(-6269610502768541194l, -6018622628950326671l), 3149278768676788174l, "jetbrains.mps.xmlQuery.structure.ElementBuilder"))) {
+              return new SimpleSearchScope(ElementUtil.getElementDeclarations(SLinkOperations.getTarget(SNodeOperations.cast(contextBuilder, MetaAdapterFactory.getConcept(new UUID(-6269610502768541194l, -6018622628950326671l), 3149278768676788174l, "jetbrains.mps.xmlQuery.structure.ElementBuilder")), MetaAdapterFactory.getReferenceLink(new UUID(-6269610502768541194l, -6018622628950326671l), 3149278768676788174l, 1384720974900260378l, "elementDeclaration")), _context.getEnclosingNode()));
             } else {
               return new EmptySearchScope();
             }

@@ -28,8 +28,8 @@ public class FileName_Behavior {
       return true;
     }
     SNode root = SNodeOperations.getContainingRoot(thisNode);
-    if (SNodeOperations.isInstanceOf(root, "jetbrains.mps.buildlanguage.structure.Project")) {
-      SNode project = SNodeOperations.cast(root, "jetbrains.mps.buildlanguage.structure.Project");
+    if (SNodeOperations.isInstanceOf(root, MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1196851066733l, "jetbrains.mps.buildlanguage.structure.Project"))) {
+      SNode project = SNodeOperations.cast(root, MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1196851066733l, "jetbrains.mps.buildlanguage.structure.Project"));
       if ((SLinkOperations.getTarget(project, MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1196851066733l, 1199036079290l, "basedir")) == null)) {
         return false;
       }

@@ -31,7 +31,7 @@ public class GLine_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Collection_bzk4hk_a");
     editorCell.setBig(true);
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, true);
+    style.set(StyleAttributes.SELECTABLE, 0, true);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_bzk4hk_a0(editorContext, node));
     editorCell.addEditorCell(this.createRefNodeList_bzk4hk_b0(editorContext, node));
@@ -88,8 +88,8 @@ public class GLine_Editor extends DefaultNodeEditor {
       EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
       editorCell.setCellId("Constant_bzk4hk_a1a");
       Style style = new StyleImpl();
-      style.set(StyleAttributes.EDITABLE, true);
-      style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.lightGray));
+      style.set(StyleAttributes.EDITABLE, 0, true);
+      style.set(StyleAttributes.TEXT_COLOR, 0, StyleRegistry.getInstance().getSimpleColor(MPSColors.lightGray));
       editorCell.getStyle().putAll(style);
       editorCell.setDefaultText("<< items >>");
       return editorCell;

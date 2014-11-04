@@ -41,7 +41,7 @@ public class StubCellRendererInfo_Constraints extends BaseConstraintsDescriptor 
         return new BaseReferenceScopeProvider() {
           @Override
           public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
-            return new ClassifierAndSuperClassifiersScope(SLinkOperations.getTarget(SNodeOperations.cast(SNodeOperations.getParent(_context.getReferenceNode()), "jetbrains.mps.uiLanguage.structure.ComponentDeclaration"), MetaAdapterFactory.getReferenceLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202387718766l, 1202393168541l, "mapTo")), IClassifiersSearchScope.INSTANCE_METHOD);
+            return new ClassifierAndSuperClassifiersScope(SLinkOperations.getTarget(SNodeOperations.cast(SNodeOperations.getParent(_context.getReferenceNode()), MetaAdapterFactory.getConcept(new UUID(6731736082390534803l, -6860703902218146233l), 1202387718766l, "jetbrains.mps.uiLanguage.structure.ComponentDeclaration")), MetaAdapterFactory.getReferenceLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202387718766l, 1202393168541l, "mapTo")), IClassifiersSearchScope.INSTANCE_METHOD);
           }
           @Override
           public SNodeReference getSearchScopeValidatorNode() {

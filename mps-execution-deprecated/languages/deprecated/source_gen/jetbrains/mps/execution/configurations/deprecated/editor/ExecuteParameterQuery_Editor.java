@@ -33,7 +33,7 @@ public class ExecuteParameterQuery_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_qazu5o_a0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_qazu5o_a0a(editorContext, node));
     editorCell.addEditorCell(this.createConstant_qazu5o_b0a(editorContext, node));
@@ -88,7 +88,7 @@ public class ExecuteParameterQuery_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_qazu5o_b1a");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createIndentCell_qazu5o_a1b0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_qazu5o_b1b0(editorContext, node));
@@ -102,7 +102,7 @@ public class ExecuteParameterQuery_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_qazu5o_b1b0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createComponent_qazu5o_a1b1a(editorContext, node));
     return editorCell;

@@ -47,7 +47,7 @@ public class ComponentCreator_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Constant_o92roe_b0");
     Style style = new StyleImpl();
     BaseLanguageStyle_StyleSheet.apply_LeftAngleBracket(style, editorCell);
-    style.set(StyleAttributes.PUNCTUATION_LEFT, true);
+    style.set(StyleAttributes.PUNCTUATION_LEFT, 0, true);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;

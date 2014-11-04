@@ -54,7 +54,7 @@ public class SimpleElement_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_944ac1_a0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_944ac1_a0a(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_944ac1_b0a(editorContext, node));
@@ -98,7 +98,7 @@ public class SimpleElement_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Indent(), false);
     editorCell.setCellId("refNodeList_attribute");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.PADDING_LEFT, new Padding(0.0, Measure.SPACES));
+    style.set(StyleAttributes.PADDING_LEFT, 0, new Padding(0.0, Measure.SPACES));
     editorCell.getStyle().putAll(style);
     editorCell.setRole(handler.getElementRole());
     return editorCell;
@@ -160,7 +160,7 @@ public class SimpleElement_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_944ac1_b0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createIndentCell_944ac1_a1a(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_944ac1_b1a(editorContext, node));
@@ -193,7 +193,7 @@ public class SimpleElement_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_944ac1_c0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_944ac1_a2a(editorContext, node));
     editorCell.addEditorCell(this.createReadOnlyModelAccessor_944ac1_b2a(editorContext, node));
@@ -212,7 +212,7 @@ public class SimpleElement_Editor extends DefaultNodeEditor {
   private EditorCell createReadOnlyModelAccessor_944ac1_b2a(final EditorContext editorContext, final SNode node) {
     EditorCell_Property editorCell = EditorCell_Property.create(editorContext, new ModelAccessor() {
       public String getText() {
-        return (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(7275049699783163986l, -6957227899428870635l), 1179105519357l, 1179271242032l, "elementName")), "jetbrains.mps.xml.structure.Text") ? SPropertyOperations.getString(SNodeOperations.cast(SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(7275049699783163986l, -6957227899428870635l), 1179105519357l, 1179271242032l, "elementName")), "jetbrains.mps.xml.structure.Text"), MetaAdapterFactory.getProperty(new UUID(3194679053860949738l, -5054431440157877063l), 1161373262136l, 1161373273669l, "text")) : "...");
+        return (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(7275049699783163986l, -6957227899428870635l), 1179105519357l, 1179271242032l, "elementName")), MetaAdapterFactory.getConcept(new UUID(3194679053860949738l, -5054431440157877063l), 1161373262136l, "jetbrains.mps.xml.structure.Text")) ? SPropertyOperations.getString(SNodeOperations.cast(SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(7275049699783163986l, -6957227899428870635l), 1179105519357l, 1179271242032l, "elementName")), MetaAdapterFactory.getConcept(new UUID(3194679053860949738l, -5054431440157877063l), 1161373262136l, "jetbrains.mps.xml.structure.Text")), MetaAdapterFactory.getProperty(new UUID(3194679053860949738l, -5054431440157877063l), 1161373262136l, 1161373273669l, "text")) : "...");
       }
       public void setText(String s) {
       }

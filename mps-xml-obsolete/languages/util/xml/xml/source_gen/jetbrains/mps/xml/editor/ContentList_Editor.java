@@ -9,6 +9,8 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.editor.runtime.cells.BigCellUtil;
 import jetbrains.mps.xml.behavior.ContentList_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
@@ -64,14 +66,14 @@ public class ContentList_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private static boolean renderingCondition_bs144a_a0a(SNode node, EditorContext editorContext) {
-    return SNodeOperations.isInstanceOf(SNodeOperations.getParent(node), "jetbrains.mps.xml.structure.BaseElement");
+    return SNodeOperations.isInstanceOf(SNodeOperations.getParent(node), MetaAdapterFactory.getConcept(new UUID(3194679053860949738l, -5054431440157877063l), 1179102053371l, "jetbrains.mps.xml.structure.BaseElement"));
   }
   private EditorCell createRefNodeList_bs144a_a0a(EditorContext editorContext, SNode node) {
     AbstractCellListHandler handler = new ContentList_Editor.contentListHandler_bs144a_a0a(node, "content", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Horizontal(), false);
     editorCell.setCellId("refNodeList_content");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.HORIZONTAL_GAP, new Padding(0.0, Measure.SPACES));
+    style.set(StyleAttributes.HORIZONTAL_GAP, 0, new Padding(0.0, Measure.SPACES));
     editorCell.getStyle().putAll(style);
     editorCell.setRole(handler.getElementRole());
     return editorCell;
@@ -114,7 +116,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
       EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
       editorCell.setCellId("Constant_bs144a_a0a0");
       Style style = new StyleImpl();
-      style.set(StyleAttributes.EDITABLE, true);
+      style.set(StyleAttributes.EDITABLE, 0, true);
       editorCell.getStyle().putAll(style);
       if (true) {
         editorCell.getStyle().set(StyleAttributes.FOCUS_POLICY, FocusPolicy.ATTRACTS_FOCUS);
@@ -145,7 +147,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Horizontal(), false);
     editorCell.setCellId("refNodeList_content_1");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.HORIZONTAL_GAP, new Padding(0.0, Measure.SPACES));
+    style.set(StyleAttributes.HORIZONTAL_GAP, 0, new Padding(0.0, Measure.SPACES));
     editorCell.getStyle().putAll(style);
     editorCell.setRole(handler.getElementRole());
     return editorCell;
@@ -188,7 +190,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
       EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
       editorCell.setCellId("Constant_bs144a_a1a0a");
       Style style = new StyleImpl();
-      style.set(StyleAttributes.EDITABLE, true);
+      style.set(StyleAttributes.EDITABLE, 0, true);
       editorCell.getStyle().putAll(style);
       editorCell.setDefaultText("");
       return editorCell;
@@ -215,7 +217,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private static boolean renderingCondition_bs144a_a0a_0(SNode node, EditorContext editorContext) {
-    return SNodeOperations.isInstanceOf(SNodeOperations.getParent(node), "jetbrains.mps.xml.structure.ContentList");
+    return SNodeOperations.isInstanceOf(SNodeOperations.getParent(node), MetaAdapterFactory.getConcept(new UUID(3194679053860949738l, -5054431440157877063l), 1163629230879l, "jetbrains.mps.xml.structure.ContentList"));
   }
   private EditorCell createCollection_bs144a_a0a_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
@@ -230,8 +232,8 @@ public class ContentList_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Constant_bs144a_a0a0_1");
     Style style = new StyleImpl();
     XmlStyle_StyleSheet.apply_XmlOpenBrace(style, editorCell);
-    style.set(StyleAttributes.PADDING_LEFT, new Padding(0.0, Measure.SPACES));
-    style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.lightGray));
+    style.set(StyleAttributes.PADDING_LEFT, 0, new Padding(0.0, Measure.SPACES));
+    style.set(StyleAttributes.TEXT_COLOR, 0, StyleRegistry.getInstance().getSimpleColor(MPSColors.lightGray));
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -240,7 +242,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_bs144a_b0a0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createIndentCell_bs144a_a1a0a(editorContext, node));
     editorCell.addEditorCell(this.createRefNodeList_bs144a_b1a0a(editorContext, node));
@@ -295,7 +297,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
       EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
       editorCell.setCellId("Constant_bs144a_a1b0a0");
       Style style = new StyleImpl();
-      style.set(StyleAttributes.EDITABLE, true);
+      style.set(StyleAttributes.EDITABLE, 0, true);
       editorCell.getStyle().putAll(style);
       editorCell.setDefaultText("");
       return editorCell;
@@ -306,7 +308,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Constant_bs144a_c0a0_0");
     Style style = new StyleImpl();
     XmlStyle_StyleSheet.apply_XmlCloseBrace(style, editorCell);
-    style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.lightGray));
+    style.set(StyleAttributes.TEXT_COLOR, 0, StyleRegistry.getInstance().getSimpleColor(MPSColors.lightGray));
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -316,7 +318,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Vertical(), false);
     editorCell.setCellId("refNodeList_content_3");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, true);
+    style.set(StyleAttributes.SELECTABLE, 0, true);
     editorCell.getStyle().putAll(style);
     editorCell.setRole(handler.getElementRole());
     return editorCell;
@@ -359,7 +361,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
       EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
       editorCell.setCellId("Constant_bs144a_a0a0_2");
       Style style = new StyleImpl();
-      style.set(StyleAttributes.EDITABLE, true);
+      style.set(StyleAttributes.EDITABLE, 0, true);
       editorCell.getStyle().putAll(style);
       editorCell.setDefaultText("");
       return editorCell;

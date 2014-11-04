@@ -49,7 +49,7 @@ public class TokenConditionalPair_Editor extends DefaultNodeEditor {
       editorCell.setRole("condition");
     }
     Style style = new StyleImpl();
-    style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, false);
+    style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

@@ -26,7 +26,7 @@ public class DateFormatReferenceUtil {
     List<SNode> formats = (List<SNode>) s.getNodes(new IsInstanceCondition(cd));
     formats = ListSequence.fromList(formats).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
-        return SPropertyOperations.getBoolean(it, MetaAdapterFactory.getProperty(new UUID(1842350883898016625l, -7531592358064104734l), 1173884671039l, 1173975300968l, "isPublic")) || SNodeOperations.getAncestor(it, null, false, true) == SNodeOperations.getAncestor(node, null, false, true);
+        return SPropertyOperations.getBoolean(it, MetaAdapterFactory.getProperty(new UUID(1842350883898016625l, -7531592358064104734l), 1173884671039l, 1173975300968l, "isPublic")) || SNodeOperations.getNodeAncestor(it, null, false, true) == SNodeOperations.getNodeAncestor(node, null, false, true);
       }
     }).toListSequence();
     return new SimpleSearchScope(formats);
@@ -35,10 +35,10 @@ public class DateFormatReferenceUtil {
     ISearchScope s = SModelSearchUtil.createModelAndImportedModelsScope(SNodeOperations.getModel(node), false);
     SNode cd = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.datesInternal.structure.IPeriodFormat");
     List<SNode> formats = (List<SNode>) s.getNodes(new IsInstanceCondition(cd));
-    final SNode containingFormat = SNodeOperations.getAncestor(node, "jetbrains.mps.baseLanguage.dates.structure.PeriodFormat", true, false);
+    final SNode containingFormat = SNodeOperations.getNodeAncestor(node, MetaAdapterFactory.getConcept(new UUID(-3689458971415590814l, -6289781637635314138l), 48671598477573965l, "jetbrains.mps.baseLanguage.dates.structure.PeriodFormat"), true, false);
     formats = ListSequence.fromList(formats).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
-        return (SPropertyOperations.getBoolean(it, MetaAdapterFactory.getProperty(new UUID(1842350883898016625l, -7531592358064104734l), 34521615669325562l, 34521615669325564l, "isPublic")) || SNodeOperations.getAncestor(it, null, false, true) == SNodeOperations.getAncestor(node, null, false, true)) && it != containingFormat;
+        return (SPropertyOperations.getBoolean(it, MetaAdapterFactory.getProperty(new UUID(1842350883898016625l, -7531592358064104734l), 34521615669325562l, 34521615669325564l, "isPublic")) || SNodeOperations.getNodeAncestor(it, null, false, true) == SNodeOperations.getNodeAncestor(node, null, false, true)) && it != containingFormat;
       }
     }).toListSequence();
     return new SimpleSearchScope(formats);

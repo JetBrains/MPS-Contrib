@@ -53,7 +53,7 @@ public class MigrateParameterBrowser_MigrationScript extends BaseMigrationScript
           SModelOperations.addRootNode(SNodeOperations.getModel(node), createComponentController_wft9px_a0a3a1a0a(parameterBrowserDeclaration));
         }
 
-        SNode variableDeclaration = SNodeOperations.getAncestor(node, "jetbrains.mps.baseLanguage.structure.VariableDeclaration", false, false);
+        SNode variableDeclaration = SNodeOperations.getNodeAncestor(node, MetaAdapterFactory.getConcept(new UUID(-935030926396207931l, -6610165693999523818l), 1068431474542l, "jetbrains.mps.baseLanguage.structure.VariableDeclaration"), false, false);
         if ((variableDeclaration != null)) {
           SReference oldComponentReference = node.getReference("componentDeclaration");
           {

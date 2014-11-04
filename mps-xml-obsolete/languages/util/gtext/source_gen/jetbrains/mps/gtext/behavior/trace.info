@@ -85,7 +85,7 @@
   <root nodeRef="r:00000000-0000-4000-0000-011c89590570(jetbrains.mps.gtext.behavior)/1213877245919">
     <file name="GItemList_Behavior.java">
       <node id="1213877245922" at="17,73,18,28" concept="4" />
-      <node id="1213877245934" at="20,193,21,23" concept="1" />
+      <node id="1213877245934" at="20,296,21,23" concept="1" />
       <node id="1213877245938" at="21,23,22,14" concept="0" />
       <node id="1213877245947" at="24,5,25,19" concept="5" />
       <node id="1239126812897" at="27,76,28,184" concept="5" />
@@ -99,7 +99,7 @@
       <scope id="1213877245919" at="15,0,17,0">
         <var name="thisNode" id="1213877245919" />
       </scope>
-      <scope id="1213877245933" at="20,193,22,14" />
+      <scope id="1213877245933" at="20,296,22,14" />
       <scope id="1213877245919" at="27,0,30,0">
         <var name="thisNode" id="1213877245919" />
       </scope>
@@ -192,18 +192,18 @@
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c89590570(jetbrains.mps.gtext.behavior)/1213877310934">
     <file name="GTextConcept_Behavior.java">
-      <node id="1213877310938" at="11,76,12,131" concept="5" />
-      <node id="1213877310934" at="9,0,11,0" concept="6" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-      <node id="1213877310934" at="11,0,14,0" concept="6" trace="call_shouldBeReduced_1213877310935#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-      <scope id="1213877310947" at="9,43,9,43" />
-      <scope id="1213877310937" at="11,76,12,131" />
-      <scope id="1213877310934" at="9,0,11,0">
+      <node id="1213877310938" at="13,76,14,234" concept="5" />
+      <node id="1213877310934" at="11,0,13,0" concept="6" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1213877310934" at="13,0,16,0" concept="6" trace="call_shouldBeReduced_1213877310935#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <scope id="1213877310947" at="11,43,11,43" />
+      <scope id="1213877310937" at="13,76,14,234" />
+      <scope id="1213877310934" at="11,0,13,0">
         <var name="thisNode" id="1213877310934" />
       </scope>
-      <scope id="1213877310934" at="11,0,14,0">
+      <scope id="1213877310934" at="13,0,16,0">
         <var name="thisNode" id="1213877310934" />
       </scope>
-      <unit id="1213877310934" at="8,0,15,0" name="jetbrains.mps.gtext.behavior.GTextConcept_Behavior" />
+      <unit id="1213877310934" at="10,0,17,0" name="jetbrains.mps.gtext.behavior.GTextConcept_Behavior" />
     </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c89590570(jetbrains.mps.gtext.behavior)/1213877314286">

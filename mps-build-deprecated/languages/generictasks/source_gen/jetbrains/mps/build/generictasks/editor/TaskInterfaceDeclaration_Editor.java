@@ -48,7 +48,7 @@ public class TaskInterfaceDeclaration_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_hzqec3_a0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createComponent_hzqec3_a0a(editorContext, node));
     editorCell.addEditorCell(this.createProperty_hzqec3_b0a(editorContext, node));
@@ -85,7 +85,7 @@ public class TaskInterfaceDeclaration_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_hzqec3_c0a");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_hzqec3_a2a0(editorContext, node));
     editorCell.addEditorCell(this.createRefNodeList_hzqec3_b2a0(editorContext, node));
@@ -169,7 +169,7 @@ public class TaskInterfaceDeclaration_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Collection_hzqec3_a_0");
     editorCell.setBig(true);
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_hzqec3_a0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_hzqec3_b0(editorContext, node));

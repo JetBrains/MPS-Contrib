@@ -94,8 +94,8 @@ public class TimeZoneNameOperation_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Constant_vkak8k_c0");
     Style style = new StyleImpl();
     BaseLanguageStyle_StyleSheet.apply_LeftBrace(style, editorCell);
-    style.set(StyleAttributes.PUNCTUATION_LEFT, true);
-    style.set(StyleAttributes.PUNCTUATION_RIGHT, true);
+    style.set(StyleAttributes.PUNCTUATION_LEFT, 0, true);
+    style.set(StyleAttributes.PUNCTUATION_RIGHT, 0, true);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -124,7 +124,7 @@ public class TimeZoneNameOperation_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Constant_vkak8k_e0");
     Style style = new StyleImpl();
     BaseLanguageStyle_StyleSheet.apply_RightBrace(style, editorCell);
-    style.set(StyleAttributes.PUNCTUATION_LEFT, true);
+    style.set(StyleAttributes.PUNCTUATION_LEFT, 0, true);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -133,7 +133,7 @@ public class TimeZoneNameOperation_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_vkak8k_f0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_vkak8k_a5a(editorContext, node));
     editorCell.addEditorCell(this.createConstant_vkak8k_b5a(editorContext, node));
@@ -157,7 +157,7 @@ public class TimeZoneNameOperation_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
     editorCell.setCellId("Constant_vkak8k_b5a");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.PUNCTUATION_RIGHT, true);
+    style.set(StyleAttributes.PUNCTUATION_RIGHT, 0, true);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -216,7 +216,7 @@ public class TimeZoneNameOperation_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
     editorCell.setCellId("Constant_vkak8k_d5a");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.PUNCTUATION_LEFT, true);
+    style.set(StyleAttributes.PUNCTUATION_LEFT, 0, true);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -233,7 +233,7 @@ public class TimeZoneNameOperation_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_vkak8k_a0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_vkak8k_a0a(editorContext, node));
     editorCell.addEditorCell(this.createRefCell_vkak8k_b0a(editorContext, node));
@@ -299,7 +299,7 @@ public class TimeZoneNameOperation_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_vkak8k_b0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_vkak8k_a1a(editorContext, node));
     editorCell.addEditorCell(this.createProperty_vkak8k_b1a(editorContext, node));

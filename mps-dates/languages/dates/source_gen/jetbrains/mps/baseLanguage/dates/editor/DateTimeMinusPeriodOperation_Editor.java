@@ -43,7 +43,7 @@ public class DateTimeMinusPeriodOperation_Editor extends DefaultNodeEditor {
       editorCell.setRole("leftValue");
     }
     Style style = new StyleImpl();
-    style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
+    style.set(StyleAttributes.PADDING_RIGHT, 0, new Padding(0.0, Measure.SPACES));
     editorCell.getStyle().putAll(style);
     DateTimeMinusPeriodOperation_leftOperand_actionMap.setCellActions(editorCell, node, editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
@@ -61,7 +61,7 @@ public class DateTimeMinusPeriodOperation_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Constant_dmuglp_b0");
     Style style = new StyleImpl();
     BaseLanguageStyle_StyleSheet.apply_Operator(style, editorCell);
-    style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
+    style.set(StyleAttributes.PADDING_RIGHT, 0, new Padding(0.0, Measure.SPACES));
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -85,7 +85,7 @@ public class DateTimeMinusPeriodOperation_Editor extends DefaultNodeEditor {
       editorCell.setRole("rightValue");
     }
     Style style = new StyleImpl();
-    style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
+    style.set(StyleAttributes.PADDING_RIGHT, 0, new Padding(0.0, Measure.SPACES));
     editorCell.getStyle().putAll(style);
     DateTimeMinusPeriodOperation_rightOperand_actionMap.setCellActions(editorCell, node, editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());

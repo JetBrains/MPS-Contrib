@@ -73,9 +73,9 @@ public class ConstantTimeZoneRef_Editor extends DefaultNodeEditor {
       editorCell.setCellId("property_name");
       Style style = new StyleImpl();
       DatesInternal_StyleSheet.apply_SimpleText(style, editorCell);
-      style.set(StyleAttributes.FONT_STYLE, MPSFonts.ITALIC);
-      style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.gray));
-      style.set(StyleAttributes.AUTO_DELETABLE, true);
+      style.set(StyleAttributes.FONT_STYLE, 0, MPSFonts.ITALIC);
+      style.set(StyleAttributes.TEXT_COLOR, 0, StyleRegistry.getInstance().getSimpleColor(MPSColors.gray));
+      style.set(StyleAttributes.AUTO_DELETABLE, 0, true);
       editorCell.getStyle().putAll(style);
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();

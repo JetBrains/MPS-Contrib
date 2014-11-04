@@ -96,7 +96,7 @@ public class InTimezoneExpression_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Constant_xm0e97_e0");
     Style style = new StyleImpl();
     BaseLanguageStyle_StyleSheet.apply_RightParen(style, editorCell);
-    style.set(StyleAttributes.RT_ANCHOR_TAG, "default_RTransform");
+    style.set(StyleAttributes.RT_ANCHOR_TAG, 0, "default_RTransform");
     editorCell.getStyle().putAll(style);
     InTimeZoneExpression_delete.setCellActions(editorCell, node, editorContext);
     editorCell.setDefaultText("");

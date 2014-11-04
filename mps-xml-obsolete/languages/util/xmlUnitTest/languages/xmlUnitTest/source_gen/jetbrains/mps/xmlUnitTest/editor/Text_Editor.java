@@ -30,8 +30,8 @@ public class Text_Editor extends DefaultNodeEditor {
     editorCell.setCellId("property_text");
     editorCell.setBig(true);
     Style style = new StyleImpl();
-    style.set(StyleAttributes.FONT_STYLE, MPSFonts.ITALIC);
-    style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.blue));
+    style.set(StyleAttributes.FONT_STYLE, 0, MPSFonts.ITALIC);
+    style.set(StyleAttributes.TEXT_COLOR, 0, StyleRegistry.getInstance().getSimpleColor(MPSColors.blue));
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

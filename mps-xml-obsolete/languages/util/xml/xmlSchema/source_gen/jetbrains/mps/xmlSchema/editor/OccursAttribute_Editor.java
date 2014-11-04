@@ -36,7 +36,7 @@ public class OccursAttribute_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "[");
     editorCell.setCellId("Constant_cn93sb_a0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.MATCHING_LABEL, "occurs");
+    style.set(StyleAttributes.MATCHING_LABEL, 0, "occurs");
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -88,7 +88,7 @@ public class OccursAttribute_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "]");
     editorCell.setCellId("Constant_cn93sb_e0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.MATCHING_LABEL, "occurs");
+    style.set(StyleAttributes.MATCHING_LABEL, 0, "occurs");
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;

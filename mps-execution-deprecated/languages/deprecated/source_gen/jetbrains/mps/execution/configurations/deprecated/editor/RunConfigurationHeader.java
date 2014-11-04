@@ -41,7 +41,7 @@ public class RunConfigurationHeader implements ConceptEditorComponent {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "run configuration");
     editorCell.setCellId("Constant_bqmo2k_a0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;

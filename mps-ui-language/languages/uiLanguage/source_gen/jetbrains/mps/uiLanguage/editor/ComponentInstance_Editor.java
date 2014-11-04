@@ -49,7 +49,7 @@ public class ComponentInstance_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_9hod0t_a0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createRefCell_9hod0t_a0a(editorContext, node));
     if (renderingCondition_9hod0t_a1a0(node, editorContext)) {
@@ -114,7 +114,7 @@ public class ComponentInstance_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_9hod0t_b0a");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_9hod0t_a1a0(editorContext, node));
     editorCell.addEditorCell(this.createProperty_9hod0t_b1a0(editorContext, node));
@@ -160,7 +160,7 @@ public class ComponentInstance_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_9hod0t_b0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createIndentCell_9hod0t_a1a(editorContext, node));
     editorCell.addEditorCell(this.createRefNodeList_9hod0t_b1a(editorContext, node));
@@ -221,7 +221,7 @@ public class ComponentInstance_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_9hod0t_a0_0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_9hod0t_a0a(editorContext, node));
     editorCell.addEditorCell(this.createProperty_9hod0t_b0a(editorContext, node));

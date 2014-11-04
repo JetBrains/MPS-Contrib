@@ -38,7 +38,7 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ">");
     editorCell.setCellId("Constant_sz01hx_a0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.blue));
+    style.set(StyleAttributes.TEXT_COLOR, 0, StyleRegistry.getInstance().getSimpleColor(MPSColors.blue));
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -53,8 +53,8 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
       editorCell.setRole("body");
     }
     Style style = new StyleImpl();
-    style.set(StyleAttributes.DRAW_BRACKETS, true);
-    style.set(StyleAttributes.INDENT_LAYOUT_CHILDREN_NEWLINE, false);
+    style.set(StyleAttributes.DRAW_BRACKETS, 0, true);
+    style.set(StyleAttributes.INDENT_LAYOUT_CHILDREN_NEWLINE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -83,8 +83,8 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "parameters:");
     editorCell.setCellId("Constant_sz01hx_a0_0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
-    style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+    style.set(StyleAttributes.FONT_STYLE, 0, MPSFonts.PLAIN);
+    style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, 0, true);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -99,8 +99,8 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "date time to format");
     editorCell.setCellId("Constant_sz01hx_c0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
-    style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+    style.set(StyleAttributes.FONT_STYLE, 0, MPSFonts.PLAIN);
+    style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, 0, true);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -109,8 +109,8 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_sz01hx_d0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
-    style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
+    style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, 0, true);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -119,8 +119,8 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "returns:");
     editorCell.setCellId("Constant_sz01hx_e0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
-    style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+    style.set(StyleAttributes.FONT_STYLE, 0, MPSFonts.PLAIN);
+    style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, 0, true);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -129,8 +129,8 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Last statement should be an ExpressionStatement");
     editorCell.setCellId("Constant_sz01hx_f0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
-    style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+    style.set(StyleAttributes.FONT_STYLE, 0, MPSFonts.PLAIN);
+    style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, 0, true);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -139,8 +139,8 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Value of the expression is a condition to test");
     editorCell.setCellId("Constant_sz01hx_g0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
-    style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+    style.set(StyleAttributes.FONT_STYLE, 0, MPSFonts.PLAIN);
+    style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, 0, true);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;

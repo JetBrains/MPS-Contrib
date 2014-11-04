@@ -26,7 +26,7 @@
       <node id="938927469775220200" at="51,246,52,100" concept="2" />
       <node id="938927469775652836" at="52,100,53,144" concept="2" />
       <node id="938927469775957021" at="54,9,55,0" concept="7" />
-      <node id="938927469775728359" at="55,0,56,144" concept="5" />
+      <node id="938927469775728359" at="55,0,56,250" concept="5" />
       <node id="938927469775956420" at="57,44,58,87" concept="5" />
       <node id="938927469775853842" at="59,11,60,148" concept="5" />
       <node id="938927469775853842" at="60,148,61,317" concept="5" />
@@ -71,7 +71,7 @@
       <node id="938927469775853842" at="61,317,68,13" concept="3" />
       <node id="938927469775245318" at="78,0,87,0" concept="8" trace="createComponentDeclaration_wft9px_a0a0b0a0#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="938927469775853842" at="58,87,69,11" concept="0" />
-      <node id="938927469775693111" at="56,144,70,9" concept="3" />
+      <node id="938927469775693111" at="56,250,70,9" concept="3" />
       <node id="938927469775661561" at="89,131,106,5" concept="0" />
       <node id="938927469775661561" at="87,0,109,0" concept="8" trace="createComponentController_wft9px_a0a3a1a0a#(Ljava/lang/Object;)Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="938927469775024935" at="43,0,73,0" concept="4" trace="doUpdateInstanceNode#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />

@@ -36,7 +36,7 @@ public class DocumentTypeDeclaration_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_eyi3ub_a0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_eyi3ub_a0a(editorContext, node));
     editorCell.addEditorCell(this.createConstant_eyi3ub_b0a(editorContext, node));
@@ -79,7 +79,7 @@ public class DocumentTypeDeclaration_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_eyi3ub_b0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createIndentCell_eyi3ub_a1a(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_eyi3ub_b1a(editorContext, node));

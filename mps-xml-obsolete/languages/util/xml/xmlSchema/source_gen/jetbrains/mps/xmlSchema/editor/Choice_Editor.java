@@ -37,7 +37,7 @@ public class Choice_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "choice");
     editorCell.setCellId("Constant_q7klwl_a0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.DARK_MAGENTA));
+    style.set(StyleAttributes.TEXT_COLOR, 0, StyleRegistry.getInstance().getSimpleColor(MPSColors.DARK_MAGENTA));
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -65,7 +65,7 @@ public class Choice_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
     editorCell.setCellId("Constant_q7klwl_c0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.MATCHING_LABEL, "choice");
+    style.set(StyleAttributes.MATCHING_LABEL, 0, "choice");
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -93,7 +93,7 @@ public class Choice_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
     editorCell.setCellId("Constant_q7klwl_e0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.MATCHING_LABEL, "choice");
+    style.set(StyleAttributes.MATCHING_LABEL, 0, "choice");
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;

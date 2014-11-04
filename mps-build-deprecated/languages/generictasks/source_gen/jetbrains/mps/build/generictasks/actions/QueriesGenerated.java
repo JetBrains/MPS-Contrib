@@ -31,7 +31,7 @@ public class QueriesGenerated {
       if (SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName(outputConcept))) {
         Iterable<SNode> queryResult = new Computable<Iterable<SNode>>() {
           public Iterable<SNode> compute() {
-            SNode decl = SLinkOperations.getTarget(SNodeOperations.cast(_context.getParentNode(), "jetbrains.mps.build.generictasks.structure.Attribute"), MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643466l, 353793545802643467l, "attributeDeclaration"));
+            SNode decl = SLinkOperations.getTarget(SNodeOperations.cast(_context.getParentNode(), MetaAdapterFactory.getConcept(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643466l, "jetbrains.mps.build.generictasks.structure.Attribute")), MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643466l, 353793545802643467l, "attributeDeclaration"));
             return SLinkOperations.getChildren(SLinkOperations.getTarget(decl, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643469l, 353793545802643474l, "enum")), MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1197398796434l, 1197398804591l, "constants"));
           }
         }.compute();
@@ -51,10 +51,10 @@ public class QueriesGenerated {
     return result;
   }
   public static boolean nodeSubstituteActionsBuilder_Precondition_PropertyValueExpression_353793545802854369(final IOperationContext operationContext, final NodeSubstitutePreconditionContext _context) {
-    if (!(SNodeOperations.isInstanceOf(_context.getParentNode(), "jetbrains.mps.build.generictasks.structure.Attribute"))) {
+    if (!(SNodeOperations.isInstanceOf(_context.getParentNode(), MetaAdapterFactory.getConcept(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643466l, "jetbrains.mps.build.generictasks.structure.Attribute")))) {
       return false;
     }
-    SNode decl = SLinkOperations.getTarget(SNodeOperations.cast(_context.getParentNode(), "jetbrains.mps.build.generictasks.structure.Attribute"), MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643466l, 353793545802643467l, "attributeDeclaration"));
-    return ((SLinkOperations.getTarget(decl, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643469l, 353793545802643474l, "enum")) != null)) && SNodeOperations.isInstanceOf(SLinkOperations.getTarget(decl, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643469l, 353793545802643474l, "enum")), "jetbrains.mps.buildlanguage.structure.StringEnum");
+    SNode decl = SLinkOperations.getTarget(SNodeOperations.cast(_context.getParentNode(), MetaAdapterFactory.getConcept(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643466l, "jetbrains.mps.build.generictasks.structure.Attribute")), MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643466l, 353793545802643467l, "attributeDeclaration"));
+    return ((SLinkOperations.getTarget(decl, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643469l, 353793545802643474l, "enum")) != null)) && SNodeOperations.isInstanceOf(SLinkOperations.getTarget(decl, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643469l, 353793545802643474l, "enum")), MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1197399151554l, "jetbrains.mps.buildlanguage.structure.StringEnum"));
   }
 }

@@ -38,7 +38,7 @@ public class TargetDeclaration_EditorComponent implements ConceptEditorComponent
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_8asdb1_a");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     if (renderingCondition_8asdb1_a0a(node, editorContext)) {
       editorCell.addEditorCell(this.createCollection_8asdb1_a0(editorContext, node));

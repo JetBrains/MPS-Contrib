@@ -40,8 +40,8 @@ public class DateTimeZoneCreator_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Constant_owc583_b0");
     Style style = new StyleImpl();
     BaseLanguageStyle_StyleSheet.apply_Brace(style, editorCell);
-    style.set(StyleAttributes.SELECTABLE, false);
-    style.set(StyleAttributes.PUNCTUATION_RIGHT, true);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
+    style.set(StyleAttributes.PUNCTUATION_RIGHT, 0, true);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -70,7 +70,7 @@ public class DateTimeZoneCreator_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Constant_owc583_d0");
     Style style = new StyleImpl();
     BaseLanguageStyle_StyleSheet.apply_Brace(style, editorCell);
-    style.set(StyleAttributes.PUNCTUATION_LEFT, true);
+    style.set(StyleAttributes.PUNCTUATION_LEFT, 0, true);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;

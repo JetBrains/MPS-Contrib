@@ -40,14 +40,14 @@ public abstract class ElementCreator {
     }
     boolean first = true;
     for (SNode part : SLinkOperations.getChildren(element, MetaAdapterFactory.getContainmentLink(new UUID(-550886282855561870l, -4828828743312609243l), 5266766379151914058l, 5266766379151914060l, "content"))) {
-      if (SNodeOperations.isInstanceOf(part, "jetbrains.mps.xmlUnitTest.structure.Text")) {
+      if (SNodeOperations.isInstanceOf(part, MetaAdapterFactory.getConcept(new UUID(-550886282855561870l, -4828828743312609243l), 5266766379151914066l, "jetbrains.mps.xmlUnitTest.structure.Text"))) {
         if (!(first)) {
           result.addContent("\n");
         }
-        result.addContent(SPropertyOperations.getString(SNodeOperations.cast(part, "jetbrains.mps.xmlUnitTest.structure.Text"), MetaAdapterFactory.getProperty(new UUID(-550886282855561870l, -4828828743312609243l), 5266766379151914066l, 5266766379151914067l, "text")));
+        result.addContent(SPropertyOperations.getString(SNodeOperations.cast(part, MetaAdapterFactory.getConcept(new UUID(-550886282855561870l, -4828828743312609243l), 5266766379151914066l, "jetbrains.mps.xmlUnitTest.structure.Text")), MetaAdapterFactory.getProperty(new UUID(-550886282855561870l, -4828828743312609243l), 5266766379151914066l, 5266766379151914067l, "text")));
       }
-      if (SNodeOperations.isInstanceOf(part, "jetbrains.mps.xmlUnitTest.structure.Element")) {
-        result.addContent(ElementCreator.createElement(SNodeOperations.cast(part, "jetbrains.mps.xmlUnitTest.structure.Element"), textGen));
+      if (SNodeOperations.isInstanceOf(part, MetaAdapterFactory.getConcept(new UUID(-550886282855561870l, -4828828743312609243l), 5266766379151914058l, "jetbrains.mps.xmlUnitTest.structure.Element"))) {
+        result.addContent(ElementCreator.createElement(SNodeOperations.cast(part, MetaAdapterFactory.getConcept(new UUID(-550886282855561870l, -4828828743312609243l), 5266766379151914058l, "jetbrains.mps.xmlUnitTest.structure.Element")), textGen));
       }
       first = false;
     }

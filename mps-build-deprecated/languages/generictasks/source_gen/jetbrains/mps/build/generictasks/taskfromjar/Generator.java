@@ -94,7 +94,7 @@ public class Generator {
         ListSequence.fromList(SNodeOperations.getChildren(decl)).removeElement(it);
         ListSequence.fromList(SLinkOperations.getChildren(it, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643498l, 353793545802643499l, "role"))).where(new IWhereFilter<SNode>() {
           public boolean accept(SNode roleRef) {
-            return SPropertyOperations.getBoolean(SNodeOperations.cast(SLinkOperations.getTarget(roleRef, MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 3037831562615764081l, 3037831562615764082l, "declaration")), "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration"), MetaAdapterFactory.getProperty(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643486l, 353793545802643496l, "fake"));
+            return SPropertyOperations.getBoolean(SNodeOperations.cast(SLinkOperations.getTarget(roleRef, MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 3037831562615764081l, 3037831562615764082l, "declaration")), MetaAdapterFactory.getConcept(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643486l, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration")), MetaAdapterFactory.getProperty(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643486l, 353793545802643496l, "fake"));
           }
         }).visitAll(new IVisitor<SNode>() {
           public void visit(SNode child) {
@@ -114,7 +114,7 @@ public class Generator {
     for (SNode nref : SLinkOperations.getChildren(decl, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643486l, 353793545802643489l, "nested"))) {
       List<SNode> notRemove = ListSequence.fromList(SLinkOperations.getChildren(nref, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643498l, 353793545802643499l, "role"))).select(new ISelector<SNode, SNode>() {
         public SNode select(SNode it) {
-          return SNodeOperations.cast(SLinkOperations.getTarget(it, MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 3037831562615764081l, 3037831562615764082l, "declaration")), "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration");
+          return SNodeOperations.cast(SLinkOperations.getTarget(it, MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 3037831562615764081l, 3037831562615764082l, "declaration")), MetaAdapterFactory.getConcept(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643486l, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration"));
         }
       }).where(new IWhereFilter<SNode>() {
         public boolean accept(SNode it) {
@@ -131,7 +131,7 @@ public class Generator {
     for (final SNode nref : SLinkOperations.getChildren(decl, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643486l, 353793545802643489l, "nested"))) {
       SNode node = ListSequence.fromList(SLinkOperations.getChildren(nref, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643498l, 353793545802643499l, "role"))).where(new IWhereFilter<SNode>() {
         public boolean accept(SNode it) {
-          SNode biDecl = SNodeOperations.cast(SLinkOperations.getTarget(it, MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 3037831562615764081l, 3037831562615764082l, "declaration")), "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration");
+          SNode biDecl = SNodeOperations.cast(SLinkOperations.getTarget(it, MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 3037831562615764081l, 3037831562615764082l, "declaration")), MetaAdapterFactory.getConcept(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643486l, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration"));
           return SPropertyOperations.getBoolean(biDecl, MetaAdapterFactory.getProperty(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643486l, 353793545802643496l, "fake")) && eq_ixz87t_a0a1a0a0a0a0a0a9a7(SPropertyOperations.getString(biDecl, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name")), SPropertyOperations.getString(SLinkOperations.getTarget(nref, MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 3037831562615764081l, 3037831562615764082l, "declaration")), MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name")));
         }
       }).first();
@@ -197,8 +197,8 @@ public class Generator {
       SLinkOperations.setTarget(ad, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643469l, 353793545802643473l, "attributeType"), Generator.Builder.getType(att.getType()));
       if (att.getEnumValues() != null) {
         SNode anEnum = SLinkOperations.getTarget(ad, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643469l, 353793545802643474l, "enum"));
-        if ((anEnum != null) && (SNodeOperations.isInstanceOf(anEnum, "jetbrains.mps.buildlanguage.structure.StringEnum"))) {
-          this.updateEnum(SNodeOperations.cast(anEnum, "jetbrains.mps.buildlanguage.structure.StringEnum"), att.getEnumValues());
+        if ((anEnum != null) && (SNodeOperations.isInstanceOf(anEnum, MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1197399151554l, "jetbrains.mps.buildlanguage.structure.StringEnum")))) {
+          this.updateEnum(SNodeOperations.cast(anEnum, MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1197399151554l, "jetbrains.mps.buildlanguage.structure.StringEnum")), att.getEnumValues());
         } else {
           this.addEnum(ad, att.getEnumValues());
         }
@@ -264,14 +264,14 @@ public class Generator {
       }
 
       if (eq_ixz87t_a0c0m9(SPropertyOperations.getString(SLinkOperations.getTarget(nref, MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 3037831562615764081l, 3037831562615764082l, "declaration")), MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name")), name)) {
-        ListSequence.fromList(SLinkOperations.getChildren(nref, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643498l, 353793545802643499l, "role"))).addElement(Generator.GENERATOR.createDeclarationReference(SNodeOperations.cast(SLinkOperations.getTarget(nref, MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 3037831562615764081l, 3037831562615764082l, "declaration")), "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration")));
+        ListSequence.fromList(SLinkOperations.getChildren(nref, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643498l, 353793545802643499l, "role"))).addElement(Generator.GENERATOR.createDeclarationReference(SNodeOperations.cast(SLinkOperations.getTarget(nref, MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 3037831562615764081l, 3037831562615764082l, "declaration")), MetaAdapterFactory.getConcept(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643486l, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration"))));
         return;
       }
 
-      SNode parentDeclaration = SNodeOperations.cast(SLinkOperations.getTarget(nref, MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 3037831562615764081l, 3037831562615764082l, "declaration")), "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration");
+      SNode parentDeclaration = SNodeOperations.cast(SLinkOperations.getTarget(nref, MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 3037831562615764081l, 3037831562615764082l, "declaration")), MetaAdapterFactory.getConcept(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643486l, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration"));
       SNode parentRef = Generator.GENERATOR.createDeclarationReference(parentDeclaration);
       SNode fake;
-      if (SNodeOperations.isInstanceOf(parentDeclaration, "jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration")) {
+      if (SNodeOperations.isInstanceOf(parentDeclaration, MetaAdapterFactory.getConcept(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643483l, "jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration"))) {
         fake = Generator.GENERATOR.createInterfaceDeclaration(name, SPropertyOperations.getString(parentDeclaration, MetaAdapterFactory.getProperty(new UUID(-314238378988976676l, -6739106179126467998l), 5699548131010533020l, 7699562953468509836l, "classname")), SPropertyOperations.getBoolean(parentDeclaration, MetaAdapterFactory.getProperty(new UUID(-314238378988976676l, -6739106179126467998l), 5699548131010533020l, 7699562953468509839l, "depracated")));
         ListSequence.fromList(SLinkOperations.getChildren(fake, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 5699548131010533020l, 7699562953468509842l, "interfaces"))).addElement(parentRef);
       } else {

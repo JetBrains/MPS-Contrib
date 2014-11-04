@@ -51,7 +51,7 @@ public class TaskDeclarationInspector_EditorComponent implements ConceptEditorCo
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_69kouh_a0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_69kouh_a0a(editorContext, node));
     editorCell.addEditorCell(this.createProperty_69kouh_b0a(editorContext, node));
@@ -84,7 +84,7 @@ public class TaskDeclarationInspector_EditorComponent implements ConceptEditorCo
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_69kouh_b0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_69kouh_a1a(editorContext, node));
     editorCell.addEditorCell(this.createConstant_69kouh_b1a(editorContext, node));
@@ -127,7 +127,7 @@ public class TaskDeclarationInspector_EditorComponent implements ConceptEditorCo
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_69kouh_c0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_69kouh_a2a(editorContext, node));
     editorCell.addEditorCell(this.createConstant_69kouh_b2a(editorContext, node));
@@ -172,7 +172,7 @@ public class TaskDeclarationInspector_EditorComponent implements ConceptEditorCo
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_69kouh_d0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_69kouh_a3a(editorContext, node));
     editorCell.addEditorCell(this.createConstant_69kouh_b3a(editorContext, node));
@@ -259,7 +259,7 @@ public class TaskDeclarationInspector_EditorComponent implements ConceptEditorCo
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_69kouh_e0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_69kouh_a4a(editorContext, node));
     editorCell.addEditorCell(this.createConstant_69kouh_b4a(editorContext, node));
@@ -302,7 +302,7 @@ public class TaskDeclarationInspector_EditorComponent implements ConceptEditorCo
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_69kouh_f0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_69kouh_a5a(editorContext, node));
     editorCell.addEditorCell(this.createConstant_69kouh_b5a(editorContext, node));

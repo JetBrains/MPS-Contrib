@@ -132,7 +132,7 @@ public class DateTimeZone_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Constant_fpnw4i_f0");
     Style style = new StyleImpl();
     DatesInternal_StyleSheet.apply_SimpleText(style, editorCell);
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -146,7 +146,7 @@ public class DateTimeZone_Editor extends DefaultNodeEditor {
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_country");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.PUNCTUATION_LEFT, false);
+    style.set(StyleAttributes.PUNCTUATION_LEFT, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(new CompositeSubstituteInfo(editorContext, provider.getCellContext(), new SubstituteInfoPartExt[]{new DateTimeZone_Editor.DateTimeZone_country_cellMenu_fpnw4i_a0g0()}));
     SNode attributeConcept = provider.getRoleAttribute();

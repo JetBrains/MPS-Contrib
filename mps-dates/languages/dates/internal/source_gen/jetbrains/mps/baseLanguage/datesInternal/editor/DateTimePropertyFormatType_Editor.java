@@ -65,7 +65,7 @@ public class DateTimePropertyFormatType_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Constant_6yifed_b0");
     Style style = new StyleImpl();
     BaseLanguageStyle_StyleSheet.apply_LeftBracket(style, editorCell);
-    style.set(StyleAttributes.PUNCTUATION_RIGHT, true);
+    style.set(StyleAttributes.PUNCTUATION_RIGHT, 0, true);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -125,7 +125,7 @@ public class DateTimePropertyFormatType_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Constant_6yifed_d0");
     Style style = new StyleImpl();
     BaseLanguageStyle_StyleSheet.apply_RightBracket(style, editorCell);
-    style.set(StyleAttributes.PUNCTUATION_LEFT, true);
+    style.set(StyleAttributes.PUNCTUATION_LEFT, 0, true);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -158,7 +158,7 @@ public class DateTimePropertyFormatType_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Constant_6yifed_g0");
     Style style = new StyleImpl();
     DatesInternal_StyleSheet.apply_SimpleText(style, editorCell);
-    style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.gray));
+    style.set(StyleAttributes.TEXT_COLOR, 0, StyleRegistry.getInstance().getSimpleColor(MPSColors.gray));
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -171,7 +171,7 @@ public class DateTimePropertyFormatType_Editor extends DefaultNodeEditor {
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_examples");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.gray));
+    style.set(StyleAttributes.TEXT_COLOR, 0, StyleRegistry.getInstance().getSimpleColor(MPSColors.gray));
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -188,8 +188,8 @@ public class DateTimePropertyFormatType_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Constant_6yifed_i0");
     Style style = new StyleImpl();
     DatesInternal_StyleSheet.apply_SimpleText(style, editorCell);
-    style.set(StyleAttributes.PUNCTUATION_LEFT, true);
-    style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.gray));
+    style.set(StyleAttributes.PUNCTUATION_LEFT, 0, true);
+    style.set(StyleAttributes.TEXT_COLOR, 0, StyleRegistry.getInstance().getSimpleColor(MPSColors.gray));
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;

@@ -81,7 +81,7 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
     editorCell.setCellId("property_compareType");
     Style style = new StyleImpl();
     BaseLanguageStyle_StyleSheet.apply_Operator(style, editorCell);
-    style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
+    style.set(StyleAttributes.PADDING_RIGHT, 0, new Padding(0.0, Measure.SPACES));
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -112,7 +112,7 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
       editorCell.setRole("op2");
     }
     Style style = new StyleImpl();
-    style.set(StyleAttributes.RT_ANCHOR_TAG, "default_RTransform");
+    style.set(StyleAttributes.RT_ANCHOR_TAG, 0, "default_RTransform");
     editorCell.getStyle().putAll(style);
     DateTimeCompareOperation_rightOperand_actionMap.setCellActions(editorCell, node, editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
@@ -129,7 +129,7 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_ehy6fr_e0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_ehy6fr_a4a(editorContext, node));
     editorCell.addEditorCell(this.createRefCell_ehy6fr_b4a(editorContext, node));
@@ -229,7 +229,7 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
     editorCell.setAction(CellActionType.BACKSPACE, EmptyCellAction.getInstance());
     editorCell.setCellId("ReadOnlyModelAccessor_ehy6fr_b0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.EDITABLE, false);
+    style.set(StyleAttributes.EDITABLE, 0, false);
     editorCell.getStyle().putAll(style);
     return editorCell;
   }

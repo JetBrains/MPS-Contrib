@@ -66,7 +66,7 @@ public class DateTypeUtil {
     return isInstanceOf(node, intType);
   }
   public static boolean isInstanceOfJavaDatePresentation(SNode node) {
-    if (SNodeOperations.isInstanceOf(node, "jetbrains.mps.baseLanguage.structure.NullLiteral")) {
+    if (SNodeOperations.isInstanceOf(node, MetaAdapterFactory.getConcept(new UUID(-935030926396207931l, -6610165693999523818l), 1070534058343l, "jetbrains.mps.baseLanguage.structure.NullLiteral"))) {
       return false;
     }
     TypeChecker tc = TypeChecker.getInstance();
@@ -75,7 +75,7 @@ public class DateTypeUtil {
     return sm.isSubtype(actualType, javaDateType) || sm.isSubtype(actualType, javaCalendarType) || sm.isSubtype(actualType, jodaAbstractInstant);
   }
   public static boolean bothOperandsAreNotNull(SNode operation) {
-    return !((SNodeOperations.isInstanceOf(SLinkOperations.getTarget(operation, MetaAdapterFactory.getContainmentLink(new UUID(-935030926396207931l, -6610165693999523818l), 1081773326031l, 1081773367580l, "leftExpression")), "jetbrains.mps.baseLanguage.structure.NullLiteral") || SNodeOperations.isInstanceOf(SLinkOperations.getTarget(operation, MetaAdapterFactory.getContainmentLink(new UUID(-935030926396207931l, -6610165693999523818l), 1081773326031l, 1081773367579l, "rightExpression")), "jetbrains.mps.baseLanguage.structure.NullLiteral")));
+    return !((SNodeOperations.isInstanceOf(SLinkOperations.getTarget(operation, MetaAdapterFactory.getContainmentLink(new UUID(-935030926396207931l, -6610165693999523818l), 1081773326031l, 1081773367580l, "leftExpression")), MetaAdapterFactory.getConcept(new UUID(-935030926396207931l, -6610165693999523818l), 1070534058343l, "jetbrains.mps.baseLanguage.structure.NullLiteral")) || SNodeOperations.isInstanceOf(SLinkOperations.getTarget(operation, MetaAdapterFactory.getContainmentLink(new UUID(-935030926396207931l, -6610165693999523818l), 1081773326031l, 1081773367579l, "rightExpression")), MetaAdapterFactory.getConcept(new UUID(-935030926396207931l, -6610165693999523818l), 1070534058343l, "jetbrains.mps.baseLanguage.structure.NullLiteral"))));
   }
   public static boolean isInstanceOf(SNode node, SNode type) {
     if (node == null || type == null) {
@@ -112,20 +112,20 @@ public class DateTypeUtil {
   public static SNode getContainingPeriod(SNode expr) {
     SNode current = expr;
     while ((current != null) && TypeChecker.getInstance().getRuntimeSupport().coerce_(TypeChecker.getInstance().getTypeOf(current), HUtil.createMatchingPatternByConceptFQName("jetbrains.mps.baseLanguage.dates.structure.PeriodType"), false) == null) {
-      current = (SNodeOperations.isInstanceOf(SNodeOperations.getParent(current), "jetbrains.mps.baseLanguage.structure.Expression") ? SNodeOperations.cast(SNodeOperations.getParent(current), "jetbrains.mps.baseLanguage.structure.Expression") : null);
+      current = (SNodeOperations.isInstanceOf(SNodeOperations.getParent(current), MetaAdapterFactory.getConcept(new UUID(-935030926396207931l, -6610165693999523818l), 1068431790191l, "jetbrains.mps.baseLanguage.structure.Expression")) ? SNodeOperations.cast(SNodeOperations.getParent(current), MetaAdapterFactory.getConcept(new UUID(-935030926396207931l, -6610165693999523818l), 1068431790191l, "jetbrains.mps.baseLanguage.structure.Expression")) : null);
     }
     return current;
   }
   public static SNode getCompareExpression(SNode expr) {
     SNode current = expr;
     while ((current != null)) {
-      if (SNodeOperations.isInstanceOf(current, "jetbrains.mps.baseLanguage.structure.BinaryCompareOperation") || SNodeOperations.isInstanceOf(current, "jetbrains.mps.baseLanguage.structure.EqualsExpression") || SNodeOperations.isInstanceOf(current, "jetbrains.mps.baseLanguage.structure.NotEqualsExpression")) {
-        if (isInstanceOfDatetimeWithTZ(SLinkOperations.getTarget(SNodeOperations.cast(current, "jetbrains.mps.baseLanguage.structure.BinaryOperation"), MetaAdapterFactory.getContainmentLink(new UUID(-935030926396207931l, -6610165693999523818l), 1081773326031l, 1081773367580l, "leftExpression")))) {
-          return SNodeOperations.cast(current, "jetbrains.mps.baseLanguage.structure.BinaryOperation");
+      if (SNodeOperations.isInstanceOf(current, MetaAdapterFactory.getConcept(new UUID(-935030926396207931l, -6610165693999523818l), 1239448985469l, "jetbrains.mps.baseLanguage.structure.BinaryCompareOperation")) || SNodeOperations.isInstanceOf(current, MetaAdapterFactory.getConcept(new UUID(-935030926396207931l, -6610165693999523818l), 1068580123152l, "jetbrains.mps.baseLanguage.structure.EqualsExpression")) || SNodeOperations.isInstanceOf(current, MetaAdapterFactory.getConcept(new UUID(-935030926396207931l, -6610165693999523818l), 1073239437375l, "jetbrains.mps.baseLanguage.structure.NotEqualsExpression"))) {
+        if (isInstanceOfDatetimeWithTZ(SLinkOperations.getTarget(SNodeOperations.cast(current, MetaAdapterFactory.getConcept(new UUID(-935030926396207931l, -6610165693999523818l), 1081773326031l, "jetbrains.mps.baseLanguage.structure.BinaryOperation")), MetaAdapterFactory.getContainmentLink(new UUID(-935030926396207931l, -6610165693999523818l), 1081773326031l, 1081773367580l, "leftExpression")))) {
+          return SNodeOperations.cast(current, MetaAdapterFactory.getConcept(new UUID(-935030926396207931l, -6610165693999523818l), 1081773326031l, "jetbrains.mps.baseLanguage.structure.BinaryOperation"));
         }
         return null;
       } else {
-        current = (SNodeOperations.isInstanceOf(SNodeOperations.getParent(current), "jetbrains.mps.baseLanguage.structure.Expression") ? SNodeOperations.cast(SNodeOperations.getParent(current), "jetbrains.mps.baseLanguage.structure.Expression") : null);
+        current = (SNodeOperations.isInstanceOf(SNodeOperations.getParent(current), MetaAdapterFactory.getConcept(new UUID(-935030926396207931l, -6610165693999523818l), 1068431790191l, "jetbrains.mps.baseLanguage.structure.Expression")) ? SNodeOperations.cast(SNodeOperations.getParent(current), MetaAdapterFactory.getConcept(new UUID(-935030926396207931l, -6610165693999523818l), 1068431790191l, "jetbrains.mps.baseLanguage.structure.Expression")) : null);
       }
     }
     return null;

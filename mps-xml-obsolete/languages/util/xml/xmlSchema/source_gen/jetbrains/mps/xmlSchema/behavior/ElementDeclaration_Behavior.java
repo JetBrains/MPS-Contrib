@@ -42,7 +42,7 @@ public class ElementDeclaration_Behavior {
     return (complexType == null) || BehaviorReflection.invokeVirtual(Boolean.TYPE, complexType, "virtual_isMixed_1213877382388", new Object[]{});
   }
   public static SNode call_getNamespaceDeclaration_1213877429893(SNode thisNode) {
-    return SLinkOperations.getTarget(SNodeOperations.getAncestor(thisNode, "jetbrains.mps.xmlSchema.structure.Schema", false, false), MetaAdapterFactory.getContainmentLink(new UUID(-5396545995874219192l, -5548206827574227681l), 1167513239198l, 1189988930673l, "defaultNamespaceDeclaration"));
+    return SLinkOperations.getTarget(SNodeOperations.getNodeAncestor(thisNode, MetaAdapterFactory.getConcept(new UUID(-5396545995874219192l, -5548206827574227681l), 1167513239198l, "jetbrains.mps.xmlSchema.structure.Schema"), false, false), MetaAdapterFactory.getContainmentLink(new UUID(-5396545995874219192l, -5548206827574227681l), 1167513239198l, 1189988930673l, "defaultNamespaceDeclaration"));
   }
   public static String call_getQualifiedName_1213877429904(SNode thisNode) {
     String qualifiedName = SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(new UUID(-5396545995874219192l, -5548206827574227681l), 1167838236835l, 1167838788027l, "elementName"));

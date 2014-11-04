@@ -175,7 +175,7 @@
       <node id="353793545802854718" at="22,0,24,0" concept="2" trace="checkParentsOfInterfaceAreInterfaces_NonTypesystemRule#()V" />
       <node id="353793545802854718" at="34,0,37,0" concept="6" trace="getApplicableConceptFQName#()Ljava/lang/String;" />
       <node id="353793545802854718" at="43,0,46,0" concept="6" trace="overrides#()Z" />
-      <node id="353793545802854735" at="26,301,30,9" concept="0" />
+      <node id="353793545802854735" at="26,408,30,9" concept="0" />
       <node id="353793545802854718" at="37,68,41,5" concept="0" />
       <node id="353793545802854726" at="25,253,31,7" concept="5" />
       <node id="353793545802854718" at="37,0,43,0" concept="6" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
@@ -194,7 +194,7 @@
       </scope>
       <scope id="353793545802854718" at="34,0,37,0" />
       <scope id="353793545802854718" at="43,0,46,0" />
-      <scope id="353793545802854734" at="26,301,30,9" />
+      <scope id="353793545802854734" at="26,408,30,9" />
       <scope id="353793545802854718" at="37,68,41,5" />
       <scope id="353793545802854725" at="25,253,31,7" />
       <scope id="353793545802854718" at="37,0,43,0">

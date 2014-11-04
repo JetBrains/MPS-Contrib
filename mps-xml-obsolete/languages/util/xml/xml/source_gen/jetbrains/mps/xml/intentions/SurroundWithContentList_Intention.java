@@ -75,7 +75,7 @@ public class SurroundWithContentList_Intention implements IntentionFactory {
       SNode first = ListSequence.fromList(selectedNodes).getElement(0);
       SNodeOperations.insertPrevSiblingChild(first, contentList);
       for (SNode selectedNode : ListSequence.fromList(selectedNodes)) {
-        ListSequence.fromList(SLinkOperations.getChildren(contentList, MetaAdapterFactory.getContainmentLink(new UUID(3194679053860949738l, -5054431440157877063l), 1163629230879l, 1163629255661l, "content"))).addElement(SNodeOperations.cast(selectedNode, "jetbrains.mps.xml.structure.Content"));
+        ListSequence.fromList(SLinkOperations.getChildren(contentList, MetaAdapterFactory.getContainmentLink(new UUID(3194679053860949738l, -5054431440157877063l), 1163629230879l, 1163629255661l, "content"))).addElement(SNodeOperations.cast(selectedNode, MetaAdapterFactory.getConcept(new UUID(3194679053860949738l, -5054431440157877063l), 1161371727643l, "jetbrains.mps.xml.structure.Content")));
       }
       SNodeFactoryOperations.addNewChild(contentList, MetaAdapterFactory.getContainmentLink(new UUID(3194679053860949738l, -5054431440157877063l), 1163629230879l, 1163629255661l, "content"), "jetbrains.mps.xml.structure.Content");
     }

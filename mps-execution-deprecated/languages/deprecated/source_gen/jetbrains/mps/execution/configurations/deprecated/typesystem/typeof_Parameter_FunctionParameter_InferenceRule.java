@@ -8,9 +8,9 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.typesystem.inference.TypeCheckingContext;
 import jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import java.util.UUID;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.typesystem.inference.EquationInfo;
 import jetbrains.mps.smodel.SModelUtil_new;
 import org.jetbrains.mps.openapi.persistence.PersistenceFacade;
@@ -20,7 +20,7 @@ public class typeof_Parameter_FunctionParameter_InferenceRule extends AbstractIn
   public typeof_Parameter_FunctionParameter_InferenceRule() {
   }
   public void applyRule(final SNode parameter, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
-    SNode parametrizedExecuteBlock = SNodeOperations.getAncestor(parameter, "jetbrains.mps.execution.configurations.deprecated.structure.ParametrizedExecuteBlock", false, false);
+    SNode parametrizedExecuteBlock = SNodeOperations.getNodeAncestor(parameter, MetaAdapterFactory.getConcept(new UUID(-9024322794181865535l, -5381379368254122047l), 314981645426569209l, "jetbrains.mps.execution.configurations.deprecated.structure.ParametrizedExecuteBlock"), false, false);
     if ((parametrizedExecuteBlock != null) && (SLinkOperations.getTarget(SLinkOperations.getTarget(parametrizedExecuteBlock, MetaAdapterFactory.getContainmentLink(new UUID(-9024322794181865535l, -5381379368254122047l), 314981645426569209l, 314981645426569211l, "executeParameterQuery")), MetaAdapterFactory.getContainmentLink(new UUID(-9024322794181865535l, -5381379368254122047l), 314981645426569163l, 314981645426569164l, "parameterType")) != null)) {
       {
         SNode _nodeToCheck_1029348928467 = parameter;

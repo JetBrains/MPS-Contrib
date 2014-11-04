@@ -124,7 +124,7 @@ public class QueriesGenerated {
     return result;
   }
   public static boolean nodeSubstituteActionsBuilder_Precondition_Expression_4555537781927653007(final IOperationContext operationContext, final NodeSubstitutePreconditionContext _context) {
-    SNode td = SNodeOperations.getAncestor(_context.getParentNode(), "jetbrains.mps.baseLanguage.structure.TypeDerivable", true, false);
+    SNode td = SNodeOperations.getNodeAncestor(_context.getParentNode(), MetaAdapterFactory.getConcept(new UUID(-935030926396207931l, -6610165693999523818l), 1201183863028l, "jetbrains.mps.baseLanguage.structure.TypeDerivable"), true, false);
     return (td != null) && TypeChecker.getInstance().getSubtypingManager().isSubtype(BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), td, "virtual_deriveType_4555537781928374706", new Object[]{_context.getCurrentTargetNode(), _context.getLink()}), _quotation_createNode_59mrho_b0a0b0a0());
   }
   public static void removeActionsByCondition_8433752473579885120(final IOperationContext operationContext, final RemoveSubstituteActionByConditionContext _context) {
@@ -193,8 +193,8 @@ public class QueriesGenerated {
   }
   public static boolean nodeSubstituteActionsBuilder_Precondition_TimeZoneNameOperation_1064517862347161195(final IOperationContext operationContext, final NodeSubstitutePreconditionContext _context) {
     boolean can = false;
-    if (SNodeOperations.isInstanceOf(_context.getParentNode(), "jetbrains.mps.baseLanguage.structure.DotExpression")) {
-      SNode type = TypeChecker.getInstance().getTypeOf(SLinkOperations.getTarget(SNodeOperations.cast(_context.getParentNode(), "jetbrains.mps.baseLanguage.structure.DotExpression"), MetaAdapterFactory.getContainmentLink(new UUID(-935030926396207931l, -6610165693999523818l), 1197027756228l, 1197027771414l, "operand")));
+    if (SNodeOperations.isInstanceOf(_context.getParentNode(), MetaAdapterFactory.getConcept(new UUID(-935030926396207931l, -6610165693999523818l), 1197027756228l, "jetbrains.mps.baseLanguage.structure.DotExpression"))) {
+      SNode type = TypeChecker.getInstance().getTypeOf(SLinkOperations.getTarget(SNodeOperations.cast(_context.getParentNode(), MetaAdapterFactory.getConcept(new UUID(-935030926396207931l, -6610165693999523818l), 1197027756228l, "jetbrains.mps.baseLanguage.structure.DotExpression")), MetaAdapterFactory.getContainmentLink(new UUID(-935030926396207931l, -6610165693999523818l), 1197027756228l, 1197027771414l, "operand")));
       can = TypeChecker.getInstance().getRuntimeSupport().coerce_(type, HUtil.createMatchingPatternByConceptFQName("jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType"), true) != null;
     }
     return can;
@@ -343,7 +343,7 @@ public class QueriesGenerated {
     return result;
   }
   public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_Expression_7499037524191428232(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
-    return DateTypeUtil.isInstanceOfTimezone(_context.getSourceNode()) && SNodeOperations.isInstanceOf(SNodeOperations.getParent(_context.getSourceNode()), "jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression");
+    return DateTypeUtil.isInstanceOfTimezone(_context.getSourceNode()) && SNodeOperations.isInstanceOf(SNodeOperations.getParent(_context.getSourceNode()), MetaAdapterFactory.getConcept(new UUID(-3689458971415590814l, -6289781637635314138l), 4389880778953634893l, "jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression"));
   }
   public static List<SubstituteAction> sideTransform_ActionsFactory_ParseDateTimeExpression_670620798052429808(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
     List<SubstituteAction> result = ListSequence.fromList(new ArrayList<SubstituteAction>());
@@ -631,11 +631,11 @@ public class QueriesGenerated {
         private SNode substitute(SNode result, String pattern, @Nullable EditorContext editorContext) {
           SNode sn = DateTypeUtil.getContainingPeriod(_context.getSourceNode());
           SNodeOperations.replaceWithAnother(sn, result);
-          if (SNodeOperations.isInstanceOf(sn, "jetbrains.mps.baseLanguage.structure.ParenthesizedExpression")) {
+          if (SNodeOperations.isInstanceOf(sn, MetaAdapterFactory.getConcept(new UUID(-935030926396207931l, -6610165693999523818l), 1079359253375l, "jetbrains.mps.baseLanguage.structure.ParenthesizedExpression"))) {
             SLinkOperations.setTarget(result, MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 276836602888578296l, 276836602888578300l, "datetime"), sn);
           } else {
             SLinkOperations.setTarget(result, MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 276836602888578296l, 276836602888578300l, "datetime"), SNodeFactoryOperations.createNewNode("jetbrains.mps.baseLanguage.structure.ParenthesizedExpression", null));
-            SLinkOperations.setTarget(SNodeOperations.cast(SLinkOperations.getTarget(result, MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 276836602888578296l, 276836602888578300l, "datetime")), "jetbrains.mps.baseLanguage.structure.ParenthesizedExpression"), MetaAdapterFactory.getContainmentLink(new UUID(-935030926396207931l, -6610165693999523818l), 1079359253375l, 1079359253376l, "expression"), sn);
+            SLinkOperations.setTarget(SNodeOperations.cast(SLinkOperations.getTarget(result, MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 276836602888578296l, 276836602888578300l, "datetime")), MetaAdapterFactory.getConcept(new UUID(-935030926396207931l, -6610165693999523818l), 1079359253375l, "jetbrains.mps.baseLanguage.structure.ParenthesizedExpression")), MetaAdapterFactory.getContainmentLink(new UUID(-935030926396207931l, -6610165693999523818l), 1079359253375l, 1079359253376l, "expression"), sn);
           }
           return result;
         }

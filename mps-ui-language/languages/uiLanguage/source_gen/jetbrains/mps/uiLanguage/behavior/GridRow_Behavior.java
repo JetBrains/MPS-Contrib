@@ -5,11 +5,11 @@ package jetbrains.mps.uiLanguage.behavior;
 import org.jetbrains.mps.openapi.model.SNode;
 import java.util.List;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 import java.util.ArrayList;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import org.jetbrains.mps.openapi.persistence.PersistenceFacade;
 import jetbrains.mps.smodel.SModelUtil_new;
 import jetbrains.mps.smodel.SReference;
@@ -18,7 +18,7 @@ public class GridRow_Behavior {
   public static void init(SNode thisNode) {
   }
   public static List<SNode> call_getRowComponents_1213877252264(SNode thisNode) {
-    int columnCount = Grid_Behavior.call_getColumnsCount_1213877333391(SNodeOperations.cast(SNodeOperations.getParent(thisNode), "jetbrains.mps.uiLanguage.structure.Grid"));
+    int columnCount = Grid_Behavior.call_getColumnsCount_1213877333391(SNodeOperations.cast(SNodeOperations.getParent(thisNode), MetaAdapterFactory.getConcept(new UUID(6731736082390534803l, -6860703902218146233l), 1202823654753l, "jetbrains.mps.uiLanguage.structure.Grid")));
     List<SNode> result = new ArrayList<SNode>();
     ListSequence.fromList(result).addSequence(ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202823683703l, 1202823766928l, "component"))));
     for (int i = 0; i < columnCount - ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202823683703l, 1202823766928l, "component"))).count(); i++) {

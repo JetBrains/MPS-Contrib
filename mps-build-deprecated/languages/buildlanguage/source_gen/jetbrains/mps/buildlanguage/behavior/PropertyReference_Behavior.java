@@ -28,17 +28,17 @@ public class PropertyReference_Behavior {
       return "";
     }
     SNode propertyDeclaration = SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getReferenceLink(new UUID(819810455698030989l, -8713019626243247156l), 1196853662806l, 1196853671400l, "propertyDeclaration"));
-    if (!(SNodeOperations.isInstanceOf(propertyDeclaration, "jetbrains.mps.buildlanguage.structure.PropertyDeclaration"))) {
+    if (!(SNodeOperations.isInstanceOf(propertyDeclaration, MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1196851107341l, "jetbrains.mps.buildlanguage.structure.PropertyDeclaration")))) {
       return "";
     }
-    if ((SLinkOperations.getTarget(SNodeOperations.cast(propertyDeclaration, "jetbrains.mps.buildlanguage.structure.PropertyDeclaration"), MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1196851107341l, 1196851904859l, "propertyValue")) == null)) {
+    if ((SLinkOperations.getTarget(SNodeOperations.cast(propertyDeclaration, MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1196851107341l, "jetbrains.mps.buildlanguage.structure.PropertyDeclaration")), MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1196851107341l, 1196851904859l, "propertyValue")) == null)) {
       return BehaviorReflection.invokeVirtual(String.class, thisNode, "virtual_toString_1213877472569", new Object[]{});
     }
-    return BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getReferenceLink(new UUID(819810455698030989l, -8713019626243247156l), 1196853662806l, 1196853671400l, "propertyDeclaration")), "jetbrains.mps.buildlanguage.structure.PropertyDeclaration"), MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1196851107341l, 1196851904859l, "propertyValue")), "virtual_getActualValue_1213877472572", new Object[]{});
+    return BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getReferenceLink(new UUID(819810455698030989l, -8713019626243247156l), 1196853662806l, 1196853671400l, "propertyDeclaration")), MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1196851107341l, "jetbrains.mps.buildlanguage.structure.PropertyDeclaration")), MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1196851107341l, 1196851904859l, "propertyValue")), "virtual_getActualValue_1213877472572", new Object[]{});
   }
   public static List<SNode> call_getAllVisibleDeclarations_1239123615225(SAbstractConcept thisConcept, SNode enclosingNode) {
     List<SNode> result = new ArrayList<SNode>();
-    for (SNode holder : ListSequence.fromList(SNodeOperations.getAncestors(enclosingNode, "jetbrains.mps.buildlanguage.structure.IPropertyHolder", true))) {
+    for (SNode holder : ListSequence.fromList(SNodeOperations.getNodeAncestors(enclosingNode, MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1196862084542l, "jetbrains.mps.buildlanguage.structure.IPropertyHolder"), true))) {
       ListSequence.fromList(result).addSequence(ListSequence.fromList(BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), holder, "virtual_getProperties_1213877375726", new Object[]{})));
     }
     return result;

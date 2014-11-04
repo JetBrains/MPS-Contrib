@@ -22,14 +22,14 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(new UUID(6731736082390534803l, -6860703902218146233l), 1202816951086l, 1202817040942l, "label"));
   }
   public static Object propertyMacro_GetPropertyValue_1202822134016(final PropertyMacroContext _context) {
-    SNode parent = SNodeOperations.cast(SNodeOperations.getParent(_context.getNode()), "jetbrains.mps.uiLanguage.structure.Form");
+    SNode parent = SNodeOperations.cast(SNodeOperations.getParent(_context.getNode()), MetaAdapterFactory.getConcept(new UUID(6731736082390534803l, -6860703902218146233l), 1202816914429l, "jetbrains.mps.uiLanguage.structure.Form"));
     return ListSequence.fromList(SLinkOperations.getChildren(parent, MetaAdapterFactory.getContainmentLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202816914429l, 1202817842238l, "part"))).indexOf(_context.getNode());
   }
   public static Object propertyMacro_GetPropertyValue_1202822099795(final PropertyMacroContext _context) {
     return ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202816914429l, 1202817842238l, "part"))).count();
   }
   public static Object propertyMacro_GetPropertyValue_1202822227345(final PropertyMacroContext _context) {
-    SNode parent = SNodeOperations.cast(SNodeOperations.getParent(_context.getNode()), "jetbrains.mps.uiLanguage.structure.Form");
+    SNode parent = SNodeOperations.cast(SNodeOperations.getParent(_context.getNode()), MetaAdapterFactory.getConcept(new UUID(6731736082390534803l, -6860703902218146233l), 1202816914429l, "jetbrains.mps.uiLanguage.structure.Form"));
     return ListSequence.fromList(SLinkOperations.getChildren(parent, MetaAdapterFactory.getContainmentLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202816914429l, 1202817842238l, "part"))).indexOf(_context.getNode());
   }
   public static SNode sourceNodeQuery_1202821118006(final SourceSubstituteMacroNodeContext _context) {

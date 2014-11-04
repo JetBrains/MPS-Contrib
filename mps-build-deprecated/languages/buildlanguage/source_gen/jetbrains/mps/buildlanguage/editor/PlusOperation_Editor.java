@@ -79,8 +79,8 @@ public class PlusOperation_Editor extends DefaultNodeEditor {
     editorCell.setSubstituteInfo(new CompositeSubstituteInfo(editorContext, new BasicCellContext(node), new SubstituteInfoPartExt[]{new PlusOperation_Editor.ReplaceWith_BinaryOperation_cellMenu_306krj_a0b0()}));
     editorCell.setCellId("ReadOnlyModelAccessor_306krj_b0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.PADDING_LEFT, new Padding(0.8, Measure.SPACES));
-    style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.8, Measure.SPACES));
+    style.set(StyleAttributes.PADDING_LEFT, 0, new Padding(0.8, Measure.SPACES));
+    style.set(StyleAttributes.PADDING_RIGHT, 0, new Padding(0.8, Measure.SPACES));
     editorCell.getStyle().putAll(style);
     return editorCell;
   }

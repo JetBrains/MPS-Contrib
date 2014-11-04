@@ -344,7 +344,7 @@
     <file name="typeof_GenericNewExpression_InferenceRule.java">
       <node id="1207754534566" at="22,7,23,54" concept="5" />
       <node id="1207754534566" at="23,54,24,197" concept="5" />
-      <node id="1207754534566" at="24,197,25,877" concept="2" />
+      <node id="1207754534566" at="24,197,25,1085" concept="2" />
       <node id="1207754475172" at="29,46,30,71" concept="6" />
       <node id="1207754475172" at="33,5,34,130" concept="5" />
       <node id="1207754475172" at="34,130,35,45" concept="6" />
@@ -353,7 +353,7 @@
       <node id="1207754475172" at="29,0,32,0" concept="4" trace="getApplicableConceptFQName#()Ljava/lang/String;" />
       <node id="1207754475172" at="38,0,41,0" concept="4" trace="overrides#()Z" />
       <node id="1207754475172" at="32,68,36,5" concept="0" />
-      <node id="1207754534566" at="21,265,26,7" concept="0" />
+      <node id="1207754534566" at="21,367,26,7" concept="0" />
       <node id="1207754475172" at="32,0,38,0" concept="4" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
       <node id="1239020601880" at="20,123,27,5" concept="3" />
       <node id="1207754475172" at="20,0,29,0" concept="4" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
@@ -364,14 +364,14 @@
       <scope id="1207754475172" at="33,5,35,45">
         <var name="b" id="1207754475172" />
       </scope>
-      <scope id="1207754534566" at="22,7,25,877">
+      <scope id="1207754534566" at="22,7,25,1085">
         <var name="_info_12389875345" id="1207754534566" />
         <var name="_nodeToCheck_1029348928467" id="1207754534566" />
       </scope>
       <scope id="1207754475172" at="29,0,32,0" />
       <scope id="1207754475172" at="38,0,41,0" />
       <scope id="1207754475172" at="32,68,36,5" />
-      <scope id="1239020601881" at="21,265,26,7" />
+      <scope id="1239020601881" at="21,367,26,7" />
       <scope id="1207754475172" at="32,0,38,0">
         <var name="argument" id="1207754475172" />
       </scope>
@@ -386,15 +386,15 @@
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c89590550(jetbrains.mps.uiLanguage.typesystem)/1208111228780">
     <file name="typeof_RemoveListenerOperation_InferenceRule.java">
-      <node id="1208689440991" at="25,122,26,687" concept="5" />
-      <node id="1208689441003" at="26,687,27,449" concept="5" />
+      <node id="1208689440991" at="25,122,26,891" concept="5" />
+      <node id="1208689441003" at="26,891,27,551" concept="5" />
       <node id="1208689441014" at="29,7,30,60" concept="5" />
       <node id="1208689441014" at="30,60,31,242" concept="5" />
-      <node id="1208689441024" at="35,7,36,146" concept="5" />
-      <node id="1208689441024" at="36,146,37,223" concept="5" />
+      <node id="1208689441024" at="35,7,36,252" concept="5" />
+      <node id="1208689441024" at="36,252,37,223" concept="5" />
       <node id="1208689441024" at="37,223,38,792" concept="2" />
-      <node id="1208689441044" at="41,5,42,144" concept="5" />
-      <node id="1208689441044" at="42,144,43,225" concept="5" />
+      <node id="1208689441044" at="41,5,42,250" concept="5" />
+      <node id="1208689441044" at="42,250,43,225" concept="5" />
       <node id="1208689441044" at="43,225,44,293" concept="2" />
       <node id="1208111228780" at="47,46,48,72" concept="6" />
       <node id="1208111228780" at="51,5,52,130" concept="5" />
@@ -413,7 +413,7 @@
       <node id="1208111228780" at="50,68,54,5" concept="0" />
       <node id="1208689441024" at="34,59,39,7" concept="0" />
       <node id="1208689441044" at="40,5,45,5" concept="0" />
-      <node id="1208689441012" at="27,449,33,5" concept="3" />
+      <node id="1208689441012" at="27,551,33,5" concept="3" />
       <node id="1208111228780" at="50,0,56,0" concept="4" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
       <node id="1208689441046" at="59,0,65,0" concept="7" trace="_quotation_createNode_4xbi0r_a0e0b#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="1208689441024" at="33,5,40,5" concept="3" />
@@ -465,15 +465,15 @@
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c89590550(jetbrains.mps.uiLanguage.typesystem)/1208111558169">
     <file name="typeof_AddListenerOperation_InferenceRule.java">
-      <node id="1208686568944" at="25,122,26,687" concept="5" />
-      <node id="1208686692275" at="26,687,27,449" concept="5" />
+      <node id="1208686568944" at="25,122,26,891" concept="5" />
+      <node id="1208686692275" at="26,891,27,551" concept="5" />
       <node id="1208111560705" at="29,7,30,60" concept="5" />
       <node id="1208111560705" at="30,60,31,242" concept="5" />
-      <node id="1208111560719" at="35,7,36,146" concept="5" />
-      <node id="1208111560719" at="36,146,37,223" concept="5" />
+      <node id="1208111560719" at="35,7,36,252" concept="5" />
+      <node id="1208111560719" at="36,252,37,223" concept="5" />
       <node id="1208111560719" at="37,223,38,792" concept="2" />
-      <node id="1208112038267" at="41,5,42,144" concept="5" />
-      <node id="1208112038267" at="42,144,43,225" concept="5" />
+      <node id="1208112038267" at="41,5,42,250" concept="5" />
+      <node id="1208112038267" at="42,250,43,225" concept="5" />
       <node id="1208112038267" at="43,225,44,293" concept="2" />
       <node id="1208111558169" at="47,46,48,69" concept="6" />
       <node id="1208111558169" at="51,5,52,130" concept="5" />
@@ -492,7 +492,7 @@
       <node id="1208111558169" at="50,68,54,5" concept="0" />
       <node id="1208111560719" at="34,59,39,7" concept="0" />
       <node id="1208112038267" at="40,5,45,5" concept="0" />
-      <node id="1208111560703" at="27,449,33,5" concept="3" />
+      <node id="1208111560703" at="27,551,33,5" concept="3" />
       <node id="1208111558169" at="50,0,56,0" concept="4" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
       <node id="1208112040647" at="59,0,65,0" concept="7" trace="_quotation_createNode_of7xmz_a0e0b#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="1208111560719" at="33,5,40,5" concept="3" />
@@ -546,7 +546,7 @@
     <file name="typeof_RaiseOperation_InferenceRule.java">
       <node id="1208111631129" at="21,5,22,216" concept="5" />
       <node id="1208111631129" at="22,216,23,195" concept="5" />
-      <node id="1208111631129" at="23,195,24,1316" concept="2" />
+      <node id="1208111631129" at="23,195,24,1622" concept="2" />
       <node id="1208111589498" at="27,46,28,63" concept="6" />
       <node id="1208111589498" at="31,5,32,130" concept="5" />
       <node id="1208111589498" at="32,130,33,45" concept="6" />
@@ -565,7 +565,7 @@
       <scope id="1208111589498" at="31,5,33,45">
         <var name="b" id="1208111589498" />
       </scope>
-      <scope id="1208111631129" at="21,5,24,1316">
+      <scope id="1208111631129" at="21,5,24,1622">
         <var name="_info_12389875345" id="1208111631129" />
         <var name="_nodeToCheck_1029348928467" id="1208111631129" />
       </scope>
@@ -588,7 +588,7 @@
     <file name="typeof_RaiseInternalStatement_InferenceRule.java">
       <node id="1209655719223" at="22,7,23,218" concept="5" />
       <node id="1209655719223" at="23,218,24,197" concept="5" />
-      <node id="1209655719223" at="24,197,25,707" concept="2" />
+      <node id="1209655719223" at="24,197,25,813" concept="2" />
       <node id="1209655679279" at="29,46,30,71" concept="6" />
       <node id="1209655679279" at="33,5,34,130" concept="5" />
       <node id="1209655679279" at="34,130,35,45" concept="6" />
@@ -608,7 +608,7 @@
       <scope id="1209655679279" at="33,5,35,45">
         <var name="b" id="1209655679279" />
       </scope>
-      <scope id="1209655719223" at="22,7,25,707">
+      <scope id="1209655719223" at="22,7,25,813">
         <var name="_info_12389875345" id="1209655719223" />
         <var name="_nodeToCheck_1029348928467" id="1209655719223" />
       </scope>

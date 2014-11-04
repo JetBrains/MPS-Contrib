@@ -33,11 +33,11 @@ public class RaiseOperation_Constraints extends BaseConstraintsDescriptor {
     return result;
   }
   public static boolean static_canBeAChild(SNode node, SNode parentNode, SNode link, SNode childConcept, final IOperationContext operationContext) {
-    SNode operand = SLinkOperations.getTarget(SNodeOperations.cast(parentNode, "jetbrains.mps.baseLanguage.structure.DotExpression"), MetaAdapterFactory.getContainmentLink(new UUID(-935030926396207931l, -6610165693999523818l), 1197027756228l, 1197027771414l, "operand"));
-    if (!(SNodeOperations.isInstanceOf(operand, "jetbrains.mps.baseLanguage.structure.DotExpression"))) {
+    SNode operand = SLinkOperations.getTarget(SNodeOperations.cast(parentNode, MetaAdapterFactory.getConcept(new UUID(-935030926396207931l, -6610165693999523818l), 1197027756228l, "jetbrains.mps.baseLanguage.structure.DotExpression")), MetaAdapterFactory.getContainmentLink(new UUID(-935030926396207931l, -6610165693999523818l), 1197027756228l, 1197027771414l, "operand"));
+    if (!(SNodeOperations.isInstanceOf(operand, MetaAdapterFactory.getConcept(new UUID(-935030926396207931l, -6610165693999523818l), 1197027756228l, "jetbrains.mps.baseLanguage.structure.DotExpression")))) {
       return false;
     }
-    if (!(SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SNodeOperations.cast(operand, "jetbrains.mps.baseLanguage.structure.DotExpression"), MetaAdapterFactory.getContainmentLink(new UUID(-935030926396207931l, -6610165693999523818l), 1197027756228l, 1197027833540l, "operation")), "jetbrains.mps.uiLanguage.structure.EventAccessOperation"))) {
+    if (!(SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SNodeOperations.cast(operand, MetaAdapterFactory.getConcept(new UUID(-935030926396207931l, -6610165693999523818l), 1197027756228l, "jetbrains.mps.baseLanguage.structure.DotExpression")), MetaAdapterFactory.getContainmentLink(new UUID(-935030926396207931l, -6610165693999523818l), 1197027756228l, 1197027833540l, "operation")), MetaAdapterFactory.getConcept(new UUID(6731736082390534803l, -6860703902218146233l), 1208089639160l, "jetbrains.mps.uiLanguage.structure.EventAccessOperation")))) {
       return false;
     }
     return true;

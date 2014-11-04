@@ -39,7 +39,7 @@ public class StringLiteral_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Constant_fgt3_a0");
     Style style = new StyleImpl();
     BuildLanguageStyle_StyleSheet.apply_stringLiteral(style, editorCell);
-    style.set(StyleAttributes.PUNCTUATION_RIGHT, true);
+    style.set(StyleAttributes.PUNCTUATION_RIGHT, 0, true);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -54,8 +54,8 @@ public class StringLiteral_Editor extends DefaultNodeEditor {
     editorCell.setCellId("property_value");
     Style style = new StyleImpl();
     BuildLanguageStyle_StyleSheet.apply_stringLiteral(style, editorCell);
-    style.set(StyleAttributes.PADDING_LEFT, new Padding(0.0, Measure.SPACES));
-    style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
+    style.set(StyleAttributes.PADDING_LEFT, 0, new Padding(0.0, Measure.SPACES));
+    style.set(StyleAttributes.PADDING_RIGHT, 0, new Padding(0.0, Measure.SPACES));
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -72,7 +72,7 @@ public class StringLiteral_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Constant_fgt3_c0");
     Style style = new StyleImpl();
     BuildLanguageStyle_StyleSheet.apply_stringLiteral(style, editorCell);
-    style.set(StyleAttributes.PUNCTUATION_LEFT, true);
+    style.set(StyleAttributes.PUNCTUATION_LEFT, 0, true);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;

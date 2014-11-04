@@ -22,7 +22,7 @@ public class GNewLine_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Constant_m1b3gv_a");
     editorCell.setBig(true);
     Style style = new StyleImpl();
-    style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.blue));
+    style.set(StyleAttributes.TEXT_COLOR, 0, StyleRegistry.getInstance().getSimpleColor(MPSColors.blue));
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;

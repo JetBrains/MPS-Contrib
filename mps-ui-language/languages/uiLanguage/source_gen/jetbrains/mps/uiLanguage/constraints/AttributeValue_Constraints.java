@@ -17,12 +17,12 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.smodel.runtime.ReferenceConstraintsContext;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import java.util.List;
 import java.util.ArrayList;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.uiLanguage.behavior.ComponentDeclaration_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import org.jetbrains.mps.openapi.model.SNodeReference;
 import jetbrains.mps.smodel.SNodePointer;
 
@@ -44,7 +44,7 @@ public class AttributeValue_Constraints extends BaseConstraintsDescriptor {
         return new BaseReferenceScopeProvider() {
           @Override
           public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
-            SNode instance = SNodeOperations.getAncestor(_context.getEnclosingNode(), "jetbrains.mps.uiLanguage.structure.ComponentInstance", true, false);
+            SNode instance = SNodeOperations.getNodeAncestor(_context.getEnclosingNode(), MetaAdapterFactory.getConcept(new UUID(6731736082390534803l, -6860703902218146233l), 1202387945296l, "jetbrains.mps.uiLanguage.structure.ComponentInstance"), true, false);
             List<SNode> result = new ArrayList<SNode>();
             if (instance != null) {
               ListSequence.fromList(result).addSequence(ListSequence.fromList(ComponentDeclaration_Behavior.call_getAttributes_1213877495417(SLinkOperations.getTarget(instance, MetaAdapterFactory.getReferenceLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202387945296l, 1202388027333l, "componentDeclaration")))));

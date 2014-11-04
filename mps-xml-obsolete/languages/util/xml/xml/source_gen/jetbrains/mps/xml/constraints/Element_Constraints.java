@@ -67,7 +67,7 @@ public class Element_Constraints extends BaseConstraintsDescriptor {
           @Override
           public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
             ISearchScope searchScope;
-            SNode element = SNodeOperations.getAncestor(_context.getEnclosingNode(), "jetbrains.mps.xml.structure.Element", false, false);
+            SNode element = SNodeOperations.getNodeAncestor(_context.getEnclosingNode(), MetaAdapterFactory.getConcept(new UUID(3194679053860949738l, -5054431440157877063l), 1167523027466l, "jetbrains.mps.xml.structure.Element"), false, false);
             List<SNode> elementDeclarations = ElementUtil.getElementDeclarations(SLinkOperations.getTarget(element, MetaAdapterFactory.getReferenceLink(new UUID(3194679053860949738l, -5054431440157877063l), 1167523027466l, 1167523262932l, "elementDeclaration")), _context.getEnclosingNode());
             if (ListSequence.fromList(elementDeclarations).isEmpty()) {
               searchScope = SModelSearchUtil.createModelAndImportedModelsScope(_context.getModel(), false);

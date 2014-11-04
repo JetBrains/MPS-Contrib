@@ -144,8 +144,8 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
       editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("property_name_1");
       Style style = new StyleImpl();
-      style.set(StyleAttributes.PADDING_LEFT, new Padding(1.0, Measure.SPACES));
-      style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
+      style.set(StyleAttributes.PADDING_LEFT, 0, new Padding(1.0, Measure.SPACES));
+      style.set(StyleAttributes.PADDING_RIGHT, 0, new Padding(0.0, Measure.SPACES));
       editorCell.getStyle().putAll(style);
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();
@@ -200,7 +200,7 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
       editorCell.setRole("dateTimePropertyFormatConfiguration");
     }
     Style style = new StyleImpl();
-    style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+    style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, 0, true);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -259,7 +259,7 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
       editorCell.setRole("dateTimePropertyFormatType");
     }
     Style style = new StyleImpl();
-    style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+    style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, 0, true);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -318,7 +318,7 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
       editorCell.setRole("dateTimePropertyFormatType");
     }
     Style style = new StyleImpl();
-    style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+    style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, 0, true);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

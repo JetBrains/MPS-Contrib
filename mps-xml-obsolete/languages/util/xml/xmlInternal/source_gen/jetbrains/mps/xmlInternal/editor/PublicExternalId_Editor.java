@@ -39,7 +39,7 @@ public class PublicExternalId_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_u6a232_b0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createIndentCell_u6a232_a1a(editorContext, node));
     editorCell.addEditorCell(this.createCollection_u6a232_b1a(editorContext, node));
@@ -53,7 +53,7 @@ public class PublicExternalId_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_u6a232_b1a");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createRefNode_u6a232_a1b0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_u6a232_b1b0(editorContext, node));

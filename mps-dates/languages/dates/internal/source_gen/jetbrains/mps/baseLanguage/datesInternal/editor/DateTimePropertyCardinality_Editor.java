@@ -25,7 +25,7 @@ public class DateTimePropertyCardinality_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Collection_7ue2hj_a");
     editorCell.setBig(true);
     Style style = new StyleImpl();
-    style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+    style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, 0, true);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createProperty_7ue2hj_a0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_7ue2hj_b0(editorContext, node));

@@ -10,6 +10,7 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.smodel.runtime.CheckingNodeContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.smodel.SNodePointer;
 
 public class GContentPlaceholder_Constraints extends BaseConstraintsDescriptor {
@@ -32,7 +33,7 @@ public class GContentPlaceholder_Constraints extends BaseConstraintsDescriptor {
   }
   public static boolean static_canBeAChild(SNode node, SNode parentNode, SNode link, SNode childConcept, final IOperationContext operationContext) {
     // do not allow nested blocks 
-    return (SNodeOperations.getAncestor(parentNode, "jetbrains.mps.gtext.structure.GContentBlock", true, false) == null);
+    return (SNodeOperations.getNodeAncestor(parentNode, MetaAdapterFactory.getConcept(new UUID(-6324114011398976607l, -8974808928016009858l), 1211920502338l, "jetbrains.mps.gtext.structure.GContentBlock"), true, false) == null);
   }
   private static SNodePointer canBeChildBreakingPoint = new SNodePointer("r:00000000-0000-4000-0000-011c89590571(jetbrains.mps.gtext.constraints)", "1213107436025");
 }

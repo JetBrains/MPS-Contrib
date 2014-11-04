@@ -9,13 +9,13 @@ import jetbrains.mps.intentions.IntentionType;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 import org.jetbrains.mps.openapi.model.SNodeReference;
 import jetbrains.mps.smodel.SNodePointer;
 import java.util.Collections;
 import jetbrains.mps.smodel.action.SNodeFactoryOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.intentions.IntentionDescriptor;
 
@@ -48,7 +48,7 @@ public class CreateExternalPropertyFromNormal_intention_Intention implements Int
     return true;
   }
   private boolean isApplicableToNode(final SNode node, final EditorContext editorContext) {
-    return !(SNodeOperations.isInstanceOf(node, "jetbrains.mps.buildlanguage.structure.ExternalPropertyDeclaration"));
+    return !(SNodeOperations.isInstanceOf(node, MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1219147669362l, "jetbrains.mps.buildlanguage.structure.ExternalPropertyDeclaration")));
   }
   public SNodeReference getIntentionNodeReference() {
     return new SNodePointer("r:00000000-0000-4000-0000-011c895904c5(jetbrains.mps.buildlanguage.intentions)", "1219148733937");

@@ -93,7 +93,7 @@ public class TypeExpressionList_Editor extends DefaultNodeEditor {
       EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
       editorCell.setCellId("Constant_kgtkmm_a0a");
       Style style = new StyleImpl();
-      style.set(StyleAttributes.EDITABLE, true);
+      style.set(StyleAttributes.EDITABLE, 0, true);
       editorCell.getStyle().putAll(style);
       editorCell.setDefaultText("");
       return editorCell;
@@ -157,7 +157,7 @@ public class TypeExpressionList_Editor extends DefaultNodeEditor {
       EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
       editorCell.setCellId("Constant_kgtkmm_a0a_0");
       Style style = new StyleImpl();
-      style.set(StyleAttributes.EDITABLE, true);
+      style.set(StyleAttributes.EDITABLE, 0, true);
       editorCell.getStyle().putAll(style);
       editorCell.setDefaultText("");
       return editorCell;

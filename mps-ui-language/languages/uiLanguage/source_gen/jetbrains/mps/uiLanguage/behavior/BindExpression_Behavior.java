@@ -13,20 +13,20 @@ public class BindExpression_Behavior {
   public static void init(SNode thisNode) {
   }
   public static SNode call_getOperationExpression_1213877287966(SNode thisNode) {
-    if (!(SNodeOperations.isInstanceOf(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202464424004l, 1202464474939l, "expression")), "jetbrains.mps.baseLanguage.structure.DotExpression"))) {
+    if (!(SNodeOperations.isInstanceOf(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202464424004l, 1202464474939l, "expression")), MetaAdapterFactory.getConcept(new UUID(-935030926396207931l, -6610165693999523818l), 1197027756228l, "jetbrains.mps.baseLanguage.structure.DotExpression")))) {
       return null;
     }
-    return SNodeOperations.cast(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202464424004l, 1202464474939l, "expression")), "jetbrains.mps.baseLanguage.structure.DotExpression");
+    return SNodeOperations.cast(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202464424004l, 1202464474939l, "expression")), MetaAdapterFactory.getConcept(new UUID(-935030926396207931l, -6610165693999523818l), 1197027756228l, "jetbrains.mps.baseLanguage.structure.DotExpression"));
   }
   public static SNode call_getAttributeReferenceOperation_1213877287985(SNode thisNode) {
     if (BindExpression_Behavior.call_getOperationExpression_1213877287966(thisNode) == null) {
       return null;
     }
     SNode operationExpr = BindExpression_Behavior.call_getOperationExpression_1213877287966(thisNode);
-    if (!(SNodeOperations.isInstanceOf(SLinkOperations.getTarget(operationExpr, MetaAdapterFactory.getContainmentLink(new UUID(-935030926396207931l, -6610165693999523818l), 1197027756228l, 1197027833540l, "operation")), "jetbrains.mps.uiLanguage.structure.AttributeReferenceOperation"))) {
+    if (!(SNodeOperations.isInstanceOf(SLinkOperations.getTarget(operationExpr, MetaAdapterFactory.getContainmentLink(new UUID(-935030926396207931l, -6610165693999523818l), 1197027756228l, 1197027833540l, "operation")), MetaAdapterFactory.getConcept(new UUID(6731736082390534803l, -6860703902218146233l), 1202478475127l, "jetbrains.mps.uiLanguage.structure.AttributeReferenceOperation")))) {
       return null;
     }
-    return SNodeOperations.cast(SLinkOperations.getTarget(operationExpr, MetaAdapterFactory.getContainmentLink(new UUID(-935030926396207931l, -6610165693999523818l), 1197027756228l, 1197027833540l, "operation")), "jetbrains.mps.uiLanguage.structure.AttributeReferenceOperation");
+    return SNodeOperations.cast(SLinkOperations.getTarget(operationExpr, MetaAdapterFactory.getContainmentLink(new UUID(-935030926396207931l, -6610165693999523818l), 1197027756228l, 1197027833540l, "operation")), MetaAdapterFactory.getConcept(new UUID(6731736082390534803l, -6860703902218146233l), 1202478475127l, "jetbrains.mps.uiLanguage.structure.AttributeReferenceOperation"));
   }
   public static String call_getPathExpression_1213877288019(SNode thisNode) {
     if (BindExpression_Behavior.call_getAttributeReferenceOperation_1213877287985(thisNode) != null) {

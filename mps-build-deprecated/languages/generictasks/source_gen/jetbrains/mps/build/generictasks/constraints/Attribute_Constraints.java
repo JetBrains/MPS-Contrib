@@ -56,14 +56,14 @@ public class Attribute_Constraints extends BaseConstraintsDescriptor {
         return new BaseReferenceScopeProvider() {
           @Override
           public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
-            final SNode taskCall = SNodeOperations.getAncestor(_context.getEnclosingNode(), "jetbrains.mps.build.generictasks.structure.TaskCall", true, false);
+            final SNode taskCall = SNodeOperations.getNodeAncestor(_context.getEnclosingNode(), MetaAdapterFactory.getConcept(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643477l, "jetbrains.mps.build.generictasks.structure.TaskCall"), true, false);
             return new SequenceSearchScope(TaskCall_Behavior.call_getUndefinedAttributes_353793545802643943(taskCall)) {
               @Override
               public boolean isInScope(SNode node) {
-                if (!(SNodeOperations.isInstanceOf(node, "jetbrains.mps.build.generictasks.structure.AttributeDeclaration"))) {
+                if (!(SNodeOperations.isInstanceOf(node, MetaAdapterFactory.getConcept(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643469l, "jetbrains.mps.build.generictasks.structure.AttributeDeclaration")))) {
                   return false;
                 }
-                return ListSequence.fromList(BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), SLinkOperations.getTarget(taskCall, MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643477l, 353793545802643478l, "declaration")), "virtual_getAttributesDeclarations_1190349257898147625", new Object[]{})).contains(SNodeOperations.cast(node, "jetbrains.mps.build.generictasks.structure.AttributeDeclaration"));
+                return ListSequence.fromList(BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), SLinkOperations.getTarget(taskCall, MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643477l, 353793545802643478l, "declaration")), "virtual_getAttributesDeclarations_1190349257898147625", new Object[]{})).contains(SNodeOperations.cast(node, MetaAdapterFactory.getConcept(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643469l, "jetbrains.mps.build.generictasks.structure.AttributeDeclaration")));
               }
             };
           }

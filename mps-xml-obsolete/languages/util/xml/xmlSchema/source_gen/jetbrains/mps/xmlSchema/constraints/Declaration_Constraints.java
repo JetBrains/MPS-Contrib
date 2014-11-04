@@ -11,6 +11,7 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.smodel.runtime.ReferenceConstraintsContext;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.smodel.search.SubnodesSearchScope;
 import org.jetbrains.mps.openapi.model.SNodeReference;
 import java.util.Map;
@@ -19,7 +20,6 @@ import jetbrains.mps.smodel.runtime.PropertyConstraintsDescriptor;
 import java.util.HashMap;
 import jetbrains.mps.smodel.runtime.base.BasePropertyConstraintsDescriptor;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.smodel.SNodePointer;
 
 public class Declaration_Constraints extends BaseConstraintsDescriptor {
@@ -35,7 +35,7 @@ public class Declaration_Constraints extends BaseConstraintsDescriptor {
     return new BaseReferenceScopeProvider() {
       @Override
       public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
-        SNode schema = SNodeOperations.getAncestor(_context.getEnclosingNode(), "jetbrains.mps.xmlSchema.structure.Schema", true, false);
+        SNode schema = SNodeOperations.getNodeAncestor(_context.getEnclosingNode(), MetaAdapterFactory.getConcept(new UUID(-5396545995874219192l, -5548206827574227681l), 1167513239198l, "jetbrains.mps.xmlSchema.structure.Schema"), true, false);
         return new SubnodesSearchScope(schema);
       }
       @Override

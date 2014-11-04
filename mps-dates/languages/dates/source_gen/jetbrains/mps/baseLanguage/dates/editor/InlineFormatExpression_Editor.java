@@ -95,7 +95,7 @@ public class InlineFormatExpression_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Constant_b4441e_a1a");
     Style style = new StyleImpl();
     DatesInternal_StyleSheet.apply_SimpleText(style, editorCell);
-    style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.gray));
+    style.set(StyleAttributes.TEXT_COLOR, 0, StyleRegistry.getInstance().getSimpleColor(MPSColors.gray));
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -124,8 +124,8 @@ public class InlineFormatExpression_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Constant_b4441e_c0");
     Style style = new StyleImpl();
     BaseLanguageStyle_StyleSheet.apply_Operator(style, editorCell);
-    style.set(StyleAttributes.PADDING_LEFT, new Padding(0.0, Measure.SPACES));
-    style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
+    style.set(StyleAttributes.PADDING_LEFT, 0, new Padding(0.0, Measure.SPACES));
+    style.set(StyleAttributes.PADDING_RIGHT, 0, new Padding(0.0, Measure.SPACES));
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -184,8 +184,8 @@ public class InlineFormatExpression_Editor extends DefaultNodeEditor {
       EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
       editorCell.setCellId("Constant_b4441e_a4a");
       Style style = new StyleImpl();
-      style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
-      style.set(StyleAttributes.EDITABLE, true);
+      style.set(StyleAttributes.PADDING_RIGHT, 0, new Padding(0.0, Measure.SPACES));
+      style.set(StyleAttributes.EDITABLE, 0, true);
       editorCell.getStyle().putAll(style);
       editorCell.setDefaultText("");
       return editorCell;
@@ -204,7 +204,7 @@ public class InlineFormatExpression_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_b4441e_g0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_b4441e_a6a(editorContext, node));
     editorCell.addEditorCell(this.createConstant_b4441e_b6a(editorContext, node));
@@ -220,7 +220,7 @@ public class InlineFormatExpression_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Constant_b4441e_a6a");
     Style style = new StyleImpl();
     Dates_StyleSheet.apply_DateCompactKeyWord(style, editorCell);
-    style.set(StyleAttributes.PADDING_LEFT, new Padding(1.0, Measure.SPACES));
+    style.set(StyleAttributes.PADDING_LEFT, 0, new Padding(1.0, Measure.SPACES));
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -274,7 +274,7 @@ public class InlineFormatExpression_Editor extends DefaultNodeEditor {
       editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("property_name");
       Style style = new StyleImpl();
-      style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
+      style.set(StyleAttributes.PADDING_RIGHT, 0, new Padding(0.0, Measure.SPACES));
       editorCell.getStyle().putAll(style);
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();
@@ -371,8 +371,8 @@ public class InlineFormatExpression_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_b4441e_b0_0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_b4441e_a1a_0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_b4441e_b1a(editorContext, node));

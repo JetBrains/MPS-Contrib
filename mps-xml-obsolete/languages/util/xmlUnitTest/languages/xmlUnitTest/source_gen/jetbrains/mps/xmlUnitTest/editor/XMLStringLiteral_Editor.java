@@ -41,9 +41,9 @@ public class XMLStringLiteral_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_p2tmaa_b0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
-    style.set(StyleAttributes.DRAW_BRACKETS, true);
-    style.set(StyleAttributes.BRACKETS_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.LIGHT_BLUE));
+    style.set(StyleAttributes.SELECTABLE, 0, false);
+    style.set(StyleAttributes.DRAW_BRACKETS, 0, true);
+    style.set(StyleAttributes.BRACKETS_COLOR, 0, StyleRegistry.getInstance().getSimpleColor(MPSColors.LIGHT_BLUE));
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createRefNode_p2tmaa_a1a(editorContext, node));
     return editorCell;

@@ -34,7 +34,7 @@ public class Project_Behavior {
   }
   public static boolean call_isProjectImported_1213877351753(SNode thisNode, SNode project) {
     for (SNode importProject : ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1196851066733l, 1201702862229l, "importProject")))) {
-      if (SLinkOperations.getTarget(SNodeOperations.cast(importProject, "jetbrains.mps.buildlanguage.structure.ImportProject"), MetaAdapterFactory.getReferenceLink(new UUID(819810455698030989l, -8713019626243247156l), 1201702638416l, 1201702650857l, "project")) == project) {
+      if (SLinkOperations.getTarget(SNodeOperations.cast(importProject, MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1201702638416l, "jetbrains.mps.buildlanguage.structure.ImportProject")), MetaAdapterFactory.getReferenceLink(new UUID(819810455698030989l, -8713019626243247156l), 1201702638416l, 1201702650857l, "project")) == project) {
         return true;
       }
     }
@@ -43,7 +43,7 @@ public class Project_Behavior {
   public static List<SNode> call_getVisibleTargets_1213877351775(SNode thisNode) {
     List<SNode> visible = new ArrayList<SNode>();
     for (SNode importProject : ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1196851066733l, 1201702862229l, "importProject")))) {
-      for (SNode target : ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(SNodeOperations.cast(importProject, "jetbrains.mps.buildlanguage.structure.ImportProject"), MetaAdapterFactory.getReferenceLink(new UUID(819810455698030989l, -8713019626243247156l), 1201702638416l, 1201702650857l, "project")), MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1196851066733l, 1196851079482l, "target")))) {
+      for (SNode target : ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(SNodeOperations.cast(importProject, MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1201702638416l, "jetbrains.mps.buildlanguage.structure.ImportProject")), MetaAdapterFactory.getReferenceLink(new UUID(819810455698030989l, -8713019626243247156l), 1201702638416l, 1201702650857l, "project")), MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1196851066733l, 1196851079482l, "target")))) {
         ListSequence.fromList(visible).addElement(target);
       }
     }
@@ -61,7 +61,7 @@ public class Project_Behavior {
     ListSequence.fromList(res).addSequence(ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1196851066733l, 1196851079482l, "target"))));
     ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1196851066733l, 1201702862229l, "importProject"))).visitAll(new IVisitor<SNode>() {
       public void visit(SNode it) {
-        ListSequence.fromList(res).addSequence(ListSequence.fromList(Project_Behavior.call_getAllTargets_1213877351828(SLinkOperations.getTarget(SNodeOperations.cast(it, "jetbrains.mps.buildlanguage.structure.ImportProject"), MetaAdapterFactory.getReferenceLink(new UUID(819810455698030989l, -8713019626243247156l), 1201702638416l, 1201702650857l, "project")))));
+        ListSequence.fromList(res).addSequence(ListSequence.fromList(Project_Behavior.call_getAllTargets_1213877351828(SLinkOperations.getTarget(SNodeOperations.cast(it, MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1201702638416l, "jetbrains.mps.buildlanguage.structure.ImportProject")), MetaAdapterFactory.getReferenceLink(new UUID(819810455698030989l, -8713019626243247156l), 1201702638416l, 1201702650857l, "project")))));
       }
     });
     return res;

@@ -16,8 +16,8 @@ public class Scroller_Behavior {
   public static SNode call_getWrappedComponent_1213877438937(SNode thisNode) {
     return SNodeOperations.cast(ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202817076568l, 1202817142302l, "content"))).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
-        return SNodeOperations.isInstanceOf(it, "jetbrains.mps.uiLanguage.structure.IComponentInstance");
+        return SNodeOperations.isInstanceOf(it, MetaAdapterFactory.getConcept(new UUID(6731736082390534803l, -6860703902218146233l), 1202817076568l, "jetbrains.mps.uiLanguage.structure.IComponentInstance"));
       }
-    }).first(), "jetbrains.mps.uiLanguage.structure.IComponentInstance");
+    }).first(), MetaAdapterFactory.getConcept(new UUID(6731736082390534803l, -6860703902218146233l), 1202817076568l, "jetbrains.mps.uiLanguage.structure.IComponentInstance"));
   }
 }

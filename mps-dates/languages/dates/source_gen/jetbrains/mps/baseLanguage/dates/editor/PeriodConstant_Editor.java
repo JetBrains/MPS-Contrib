@@ -68,8 +68,8 @@ public class PeriodConstant_Editor extends DefaultNodeEditor {
   }
   private static boolean renderingCondition_x7xgz7_a1a(SNode node, EditorContext editorContext) {
     boolean result = true;
-    if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 1172489559047l, 1172491543832l, "count")), "jetbrains.mps.baseLanguage.structure.IntegerConstant")) {
-      return SPropertyOperations.getInteger(SNodeOperations.cast(SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 1172489559047l, 1172491543832l, "count")), "jetbrains.mps.baseLanguage.structure.IntegerConstant"), MetaAdapterFactory.getProperty(new UUID(-935030926396207931l, -6610165693999523818l), 1068580320020l, 1068580320021l, "value")) != 1;
+    if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 1172489559047l, 1172491543832l, "count")), MetaAdapterFactory.getConcept(new UUID(-935030926396207931l, -6610165693999523818l), 1068580320020l, "jetbrains.mps.baseLanguage.structure.IntegerConstant"))) {
+      return SPropertyOperations.getInteger(SNodeOperations.cast(SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 1172489559047l, 1172491543832l, "count")), MetaAdapterFactory.getConcept(new UUID(-935030926396207931l, -6610165693999523818l), 1068580320020l, "jetbrains.mps.baseLanguage.structure.IntegerConstant")), MetaAdapterFactory.getProperty(new UUID(-935030926396207931l, -6610165693999523818l), 1068580320020l, 1068580320021l, "value")) != 1;
     }
     return result;
   }
@@ -114,7 +114,7 @@ public class PeriodConstant_Editor extends DefaultNodeEditor {
       editorCell.setCellId("property_pluralForm");
       Style style = new StyleImpl();
       Dates_StyleSheet.apply_DateProperty(style, editorCell);
-      style.set(StyleAttributes.AUTO_DELETABLE, true);
+      style.set(StyleAttributes.AUTO_DELETABLE, 0, true);
       editorCell.getStyle().putAll(style);
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();
@@ -168,7 +168,7 @@ public class PeriodConstant_Editor extends DefaultNodeEditor {
       editorCell.setCellId("property_name");
       Style style = new StyleImpl();
       Dates_StyleSheet.apply_DateProperty(style, editorCell);
-      style.set(StyleAttributes.AUTO_DELETABLE, true);
+      style.set(StyleAttributes.AUTO_DELETABLE, 0, true);
       editorCell.getStyle().putAll(style);
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();

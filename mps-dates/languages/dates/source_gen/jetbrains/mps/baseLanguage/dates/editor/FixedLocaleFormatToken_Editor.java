@@ -87,7 +87,7 @@ public class FixedLocaleFormatToken_Editor extends DefaultNodeEditor {
       editorCell.setCellId("property_name");
       Style style = new StyleImpl();
       Dates_StyleSheet.apply_DateProperty(style, editorCell);
-      style.set(StyleAttributes.PADDING_LEFT, new Padding(1.0, Measure.SPACES));
+      style.set(StyleAttributes.PADDING_LEFT, 0, new Padding(1.0, Measure.SPACES));
       editorCell.getStyle().putAll(style);
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();

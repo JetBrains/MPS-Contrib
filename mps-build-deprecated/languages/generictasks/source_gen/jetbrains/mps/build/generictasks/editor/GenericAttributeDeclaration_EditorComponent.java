@@ -47,7 +47,7 @@ public class GenericAttributeDeclaration_EditorComponent implements ConceptEdito
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_es1meb_a0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_es1meb_a0a(editorContext, node));
     editorCell.addEditorCell(this.createConstant_es1meb_b0a(editorContext, node));
@@ -90,7 +90,7 @@ public class GenericAttributeDeclaration_EditorComponent implements ConceptEdito
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_es1meb_b0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_es1meb_a1a(editorContext, node));
     editorCell.addEditorCell(this.createConstant_es1meb_b1a(editorContext, node));
@@ -135,7 +135,7 @@ public class GenericAttributeDeclaration_EditorComponent implements ConceptEdito
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_es1meb_c0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_es1meb_a2a(editorContext, node));
     editorCell.addEditorCell(this.createConstant_es1meb_b2a(editorContext, node));

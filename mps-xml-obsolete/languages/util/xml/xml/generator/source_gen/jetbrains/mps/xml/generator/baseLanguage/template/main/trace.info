@@ -23,12 +23,12 @@
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c89590589(jetbrains.mps.xml.generator.baseLanguage.template.main@generator)/1164415382678">
     <file name="QueriesGenerated.java">
-      <node id="1173179037878" at="69,88,70,126" concept="1" />
-      <node id="1173179043099" at="72,88,73,129" concept="1" />
+      <node id="1173179037878" at="69,88,70,228" concept="1" />
+      <node id="1173179043099" at="72,88,73,231" concept="1" />
       <node id="1173179050773" at="90,114,91,196" concept="1" />
       <node id="1173179054353" at="93,114,94,196" concept="1" />
-      <scope id="1171381345811" at="69,88,70,126" />
-      <scope id="1171381407188" at="72,88,73,129" />
+      <scope id="1171381345811" at="69,88,70,228" />
+      <scope id="1171381407188" at="72,88,73,231" />
       <scope id="1171370078626" at="90,114,91,196" />
       <scope id="1171370108400" at="93,114,94,196" />
     </file>

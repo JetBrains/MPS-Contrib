@@ -56,7 +56,7 @@ public class TaskDeclarationHeader_EditorComponent implements ConceptEditorCompo
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_ws04gp_a0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     if (renderingCondition_ws04gp_a0a0(node, editorContext)) {
       editorCell.addEditorCell(this.createConstant_ws04gp_a0a(editorContext, node));
@@ -154,7 +154,7 @@ public class TaskDeclarationHeader_EditorComponent implements ConceptEditorCompo
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_ws04gp_f0a");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_ws04gp_a5a0(editorContext, node));
     editorCell.addEditorCell(this.createRefNodeList_ws04gp_b5a0(editorContext, node));
@@ -243,7 +243,7 @@ public class TaskDeclarationHeader_EditorComponent implements ConceptEditorCompo
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_ws04gp_b0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createIndentCell_ws04gp_a1a(editorContext, node));
     editorCell.addEditorCell(this.createConstant_ws04gp_b1a(editorContext, node));
@@ -284,7 +284,7 @@ public class TaskDeclarationHeader_EditorComponent implements ConceptEditorCompo
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_ws04gp_c0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createIndentCell_ws04gp_a2a(editorContext, node));
     editorCell.addEditorCell(this.createConstant_ws04gp_b2a(editorContext, node));

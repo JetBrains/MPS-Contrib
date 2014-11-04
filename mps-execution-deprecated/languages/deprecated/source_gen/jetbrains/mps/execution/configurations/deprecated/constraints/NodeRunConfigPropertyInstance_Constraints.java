@@ -15,8 +15,8 @@ import jetbrains.mps.smodel.runtime.PropertyConstraintsDescriptor;
 import java.util.HashMap;
 import jetbrains.mps.smodel.runtime.base.BasePropertyConstraintsDescriptor;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.SNodePointer;
 
 public class NodeRunConfigPropertyInstance_Constraints extends BaseConstraintsDescriptor {
@@ -54,10 +54,10 @@ public class NodeRunConfigPropertyInstance_Constraints extends BaseConstraintsDe
     return properties;
   }
   public static boolean static_canBeAChild(SNode node, SNode parentNode, SNode link, SNode childConcept, final IOperationContext operationContext) {
-    if (!(SNodeOperations.isInstanceOf(parentNode, "jetbrains.mps.execution.configurations.deprecated.structure.CreateRunConfigStatement"))) {
+    if (!(SNodeOperations.isInstanceOf(parentNode, MetaAdapterFactory.getConcept(new UUID(-9024322794181865535l, -5381379368254122047l), 314981645426569290l, "jetbrains.mps.execution.configurations.deprecated.structure.CreateRunConfigStatement")))) {
       return false;
     }
-    return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SNodeOperations.cast(parentNode, "jetbrains.mps.execution.configurations.deprecated.structure.CreateRunConfigStatement"), MetaAdapterFactory.getReferenceLink(new UUID(-9024322794181865535l, -5381379368254122047l), 314981645426569290l, 314981645426569295l, "runConfig")), "jetbrains.mps.execution.configurations.deprecated.structure.JavaNodeRunConfiguration");
+    return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SNodeOperations.cast(parentNode, MetaAdapterFactory.getConcept(new UUID(-9024322794181865535l, -5381379368254122047l), 314981645426569290l, "jetbrains.mps.execution.configurations.deprecated.structure.CreateRunConfigStatement")), MetaAdapterFactory.getReferenceLink(new UUID(-9024322794181865535l, -5381379368254122047l), 314981645426569290l, 314981645426569295l, "runConfig")), MetaAdapterFactory.getConcept(new UUID(-9024322794181865535l, -5381379368254122047l), 8456022385895583119l, "jetbrains.mps.execution.configurations.deprecated.structure.JavaNodeRunConfiguration"));
   }
   private static SNodePointer canBeChildBreakingPoint = new SNodePointer("r:4ab4c6eb-58ca-426d-b62d-119c0aacbe5e(jetbrains.mps.execution.configurations.deprecated.constraints)", "3361586479360712802");
 }

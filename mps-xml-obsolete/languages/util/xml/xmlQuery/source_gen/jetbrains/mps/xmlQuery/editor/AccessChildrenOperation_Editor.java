@@ -70,7 +70,7 @@ public class AccessChildrenOperation_Editor extends DefaultNodeEditor {
       editorCell.setCellId("property_name");
       Style style = new StyleImpl();
       XmlStyle_StyleSheet.apply_XmlElement(style, editorCell);
-      style.set(StyleAttributes.AUTO_DELETABLE, true);
+      style.set(StyleAttributes.AUTO_DELETABLE, 0, true);
       editorCell.getStyle().putAll(style);
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();

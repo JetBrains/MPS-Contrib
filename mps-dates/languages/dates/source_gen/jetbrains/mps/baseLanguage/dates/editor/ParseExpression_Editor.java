@@ -77,7 +77,7 @@ public class ParseExpression_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_xn2ov4_b0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createComponent_xn2ov4_a1a(editorContext, node));
     editorCell.addEditorCell(this.createRefCell_xn2ov4_b1a(editorContext, node));
@@ -131,7 +131,7 @@ public class ParseExpression_Editor extends DefaultNodeEditor {
       editorCell.setCellId("property_name");
       Style style = new StyleImpl();
       Dates_StyleSheet.apply_DateFormat(style, editorCell);
-      style.set(StyleAttributes.RT_ANCHOR_TAG, "default_RTransform");
+      style.set(StyleAttributes.RT_ANCHOR_TAG, 0, "default_RTransform");
       editorCell.getStyle().putAll(style);
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();
@@ -148,8 +148,8 @@ public class ParseExpression_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_xn2ov4_c0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
-    style.set(StyleAttributes.PUNCTUATION_LEFT, true);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
+    style.set(StyleAttributes.PUNCTUATION_LEFT, 0, true);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_xn2ov4_a2a(editorContext, node));
     editorCell.addEditorCell(this.createRefCell_xn2ov4_b2a(editorContext, node));
@@ -164,8 +164,8 @@ public class ParseExpression_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Constant_xn2ov4_a2a");
     Style style = new StyleImpl();
     DatesInternal_StyleSheet.apply_SimpleText(style, editorCell);
-    style.set(StyleAttributes.PUNCTUATION_RIGHT, true);
-    style.set(StyleAttributes.PUNCTUATION_LEFT, true);
+    style.set(StyleAttributes.PUNCTUATION_RIGHT, 0, true);
+    style.set(StyleAttributes.PUNCTUATION_LEFT, 0, true);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -225,8 +225,8 @@ public class ParseExpression_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Constant_xn2ov4_c2a");
     Style style = new StyleImpl();
     DatesInternal_StyleSheet.apply_SimpleText(style, editorCell);
-    style.set(StyleAttributes.PUNCTUATION_LEFT, true);
-    style.set(StyleAttributes.RT_ANCHOR_TAG, "default_RTransform");
+    style.set(StyleAttributes.PUNCTUATION_LEFT, 0, true);
+    style.set(StyleAttributes.RT_ANCHOR_TAG, 0, "default_RTransform");
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -235,7 +235,7 @@ public class ParseExpression_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_xn2ov4_d0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createReadOnlyModelAccessor_xn2ov4_a3a(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_xn2ov4_b3a(editorContext, node));
@@ -358,8 +358,8 @@ public class ParseExpression_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_xn2ov4_b0_0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_xn2ov4_a1a(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_xn2ov4_b1a(editorContext, node));
@@ -394,7 +394,7 @@ public class ParseExpression_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_xn2ov4_c0_0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_xn2ov4_a2a_0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_xn2ov4_b2a(editorContext, node));

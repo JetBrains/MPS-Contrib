@@ -50,11 +50,11 @@
   <root nodeRef="r:00000000-0000-4000-0000-011c89590576(jetbrains.mps.gtext.generator.baseLanguage.template.main@generator)/1211915472272">
     <file name="QueriesGenerated.java">
       <node id="1211917982639" at="42,88,43,72" concept="1" />
-      <node id="1211917971781" at="45,102,46,298" concept="1" />
+      <node id="1211917971781" at="45,102,46,401" concept="1" />
       <node id="1211917913093" at="48,102,49,30" concept="1" />
       <node id="1211917885310" at="75,114,76,194" concept="1" />
       <scope id="1211917979370" at="42,88,43,72" />
-      <scope id="1211917963710" at="45,102,46,298" />
+      <scope id="1211917963710" at="45,102,46,401" />
       <scope id="1211917909488" at="48,102,49,30" />
       <scope id="1211917873285" at="75,114,76,194" />
     </file>

@@ -84,7 +84,7 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Constant_vqr4da_a1a");
     Style style = new StyleImpl();
     DatesInternal_StyleSheet.apply_SimpleText(style, editorCell);
-    style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.gray));
+    style.set(StyleAttributes.TEXT_COLOR, 0, StyleRegistry.getInstance().getSimpleColor(MPSColors.gray));
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -113,8 +113,8 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Constant_vqr4da_c0");
     Style style = new StyleImpl();
     BaseLanguageStyle_StyleSheet.apply_Operator(style, editorCell);
-    style.set(StyleAttributes.PADDING_LEFT, new Padding(0.0, Measure.SPACES));
-    style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
+    style.set(StyleAttributes.PADDING_LEFT, 0, new Padding(0.0, Measure.SPACES));
+    style.set(StyleAttributes.PADDING_RIGHT, 0, new Padding(0.0, Measure.SPACES));
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -176,8 +176,8 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_vqr4da_e0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
-    style.set(StyleAttributes.PUNCTUATION_LEFT, true);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
+    style.set(StyleAttributes.PUNCTUATION_LEFT, 0, true);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_vqr4da_a4a(editorContext, node));
     editorCell.addEditorCell(this.createRefCell_vqr4da_b4a(editorContext, node));
@@ -192,8 +192,8 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Constant_vqr4da_a4a");
     Style style = new StyleImpl();
     DatesInternal_StyleSheet.apply_SimpleText(style, editorCell);
-    style.set(StyleAttributes.PUNCTUATION_RIGHT, true);
-    style.set(StyleAttributes.PUNCTUATION_LEFT, true);
+    style.set(StyleAttributes.PUNCTUATION_RIGHT, 0, true);
+    style.set(StyleAttributes.PUNCTUATION_LEFT, 0, true);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -253,7 +253,7 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Constant_vqr4da_c4a");
     Style style = new StyleImpl();
     DatesInternal_StyleSheet.apply_SimpleText(style, editorCell);
-    style.set(StyleAttributes.PUNCTUATION_LEFT, true);
+    style.set(StyleAttributes.PUNCTUATION_LEFT, 0, true);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -333,8 +333,8 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_vqr4da_b0_0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_vqr4da_a1a_0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_vqr4da_b1a_0(editorContext, node));

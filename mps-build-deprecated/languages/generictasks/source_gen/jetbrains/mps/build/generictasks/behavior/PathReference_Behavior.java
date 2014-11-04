@@ -35,8 +35,8 @@ public class PathReference_Behavior {
         ListSequence.fromList(list).addElement(path);
       }
       for (SNode nested : ListSequence.fromList(SLinkOperations.getChildren(call, MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1196851087779l, 1196858559206l, "nested")))) {
-        if (SNodeOperations.isInstanceOf(nested, "jetbrains.mps.build.generictasks.structure.TaskCall")) {
-          SNode ngeneric = SNodeOperations.cast(nested, "jetbrains.mps.build.generictasks.structure.TaskCall");
+        if (SNodeOperations.isInstanceOf(nested, MetaAdapterFactory.getConcept(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643477l, "jetbrains.mps.build.generictasks.structure.TaskCall"))) {
+          SNode ngeneric = SNodeOperations.cast(nested, MetaAdapterFactory.getConcept(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643477l, "jetbrains.mps.build.generictasks.structure.TaskCall"));
           if ((SLinkOperations.getTarget(ngeneric, MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643477l, 353793545802643478l, "declaration")) != null) && SPropertyOperations.getString(SLinkOperations.getTarget(ngeneric, MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643477l, 353793545802643478l, "declaration")), MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name")).equals("path")) {
             ListSequence.fromList(list).addSequence(ListSequence.fromList(PathReference_Behavior.call_getPaths_353793545802854909(thisNode, ngeneric)));
           }

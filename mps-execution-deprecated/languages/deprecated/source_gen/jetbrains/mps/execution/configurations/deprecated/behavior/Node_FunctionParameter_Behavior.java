@@ -4,13 +4,13 @@ package jetbrains.mps.execution.configurations.deprecated.behavior;
 
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 import org.jetbrains.mps.openapi.language.SConceptRepository;
 import jetbrains.mps.util.NameUtil;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import org.jetbrains.mps.openapi.persistence.PersistenceFacade;
 import jetbrains.mps.smodel.SModelUtil_new;
 
@@ -18,7 +18,7 @@ public class Node_FunctionParameter_Behavior {
   public static void init(SNode thisNode) {
   }
   public static SNode virtual_getParameterType_1810772216404820824(SNode thisNode) {
-    SNode runConfig = SNodeOperations.getAncestor(thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.JavaNodeRunConfiguration", false, true);
+    SNode runConfig = SNodeOperations.getNodeAncestor(thisNode, MetaAdapterFactory.getConcept(new UUID(-9024322794181865535l, -5381379368254122047l), 8456022385895583119l, "jetbrains.mps.execution.configurations.deprecated.structure.JavaNodeRunConfiguration"), false, true);
     return Node_FunctionParameter_Behavior.call_getParameterType_5147346160405686358(SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.Node_FunctionParameter"))), runConfig);
   }
   public static String virtual_getVariableForExecuteBlockName_1810772216404807669(SNode thisNode) {

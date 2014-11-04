@@ -10,9 +10,9 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.smodel.runtime.CheckingNodeContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.uiLanguage.behavior.ComponentDeclaration_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.smodel.SNodePointer;
 
 public class ActionHandler_Constraints extends BaseConstraintsDescriptor {
@@ -34,10 +34,10 @@ public class ActionHandler_Constraints extends BaseConstraintsDescriptor {
     return result;
   }
   public static boolean static_canBeAChild(SNode node, SNode parentNode, SNode link, SNode childConcept, final IOperationContext operationContext) {
-    if (!(SNodeOperations.isInstanceOf(parentNode, "jetbrains.mps.uiLanguage.structure.ComponentInstance"))) {
+    if (!(SNodeOperations.isInstanceOf(parentNode, MetaAdapterFactory.getConcept(new UUID(6731736082390534803l, -6860703902218146233l), 1202387945296l, "jetbrains.mps.uiLanguage.structure.ComponentInstance")))) {
       return false;
     }
-    SNode instance = SNodeOperations.cast(parentNode, "jetbrains.mps.uiLanguage.structure.ComponentInstance");
+    SNode instance = SNodeOperations.cast(parentNode, MetaAdapterFactory.getConcept(new UUID(6731736082390534803l, -6860703902218146233l), 1202387945296l, "jetbrains.mps.uiLanguage.structure.ComponentInstance"));
     return ComponentDeclaration_Behavior.call_isActionComponent_1213877495555(SLinkOperations.getTarget(instance, MetaAdapterFactory.getReferenceLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202387945296l, 1202388027333l, "componentDeclaration")));
   }
   private static SNodePointer canBeChildBreakingPoint = new SNodePointer("r:00000000-0000-4000-0000-011c8959054e(jetbrains.mps.uiLanguage.constraints)", "1213107437982");

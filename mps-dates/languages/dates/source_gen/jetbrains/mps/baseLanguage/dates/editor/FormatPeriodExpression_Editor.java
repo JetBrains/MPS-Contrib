@@ -122,7 +122,7 @@ public class FormatPeriodExpression_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_6favmm_d0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_6favmm_a3a(editorContext, node));
     editorCell.addEditorCell(this.createRefCell_6favmm_b3a(editorContext, node));
@@ -136,7 +136,7 @@ public class FormatPeriodExpression_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
     editorCell.setCellId("Constant_6favmm_a3a");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.PUNCTUATION_RIGHT, true);
+    style.set(StyleAttributes.PUNCTUATION_RIGHT, 0, true);
     editorCell.getStyle().putAll(style);
     FormatPeriodExpression_deleteLocale.setCellActions(editorCell, node, editorContext);
     editorCell.setDefaultText("");
@@ -197,7 +197,7 @@ public class FormatPeriodExpression_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
     editorCell.setCellId("Constant_6favmm_c3a");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.PUNCTUATION_LEFT, true);
+    style.set(StyleAttributes.PUNCTUATION_LEFT, 0, true);
     editorCell.getStyle().putAll(style);
     FormatPeriodExpression_deleteLocale.setCellActions(editorCell, node, editorContext);
     editorCell.setDefaultText("");
@@ -214,7 +214,7 @@ public class FormatPeriodExpression_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_6favmm_a0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_6favmm_a0a(editorContext, node));
     editorCell.addEditorCell(this.createRefCell_6favmm_b0a(editorContext, node));

@@ -42,7 +42,7 @@ public class TaskDeclarationAttributes_EditorComponent implements ConceptEditorC
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_p33j5q_a0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_p33j5q_a0a(editorContext, node));
     return editorCell;
@@ -60,7 +60,7 @@ public class TaskDeclarationAttributes_EditorComponent implements ConceptEditorC
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_p33j5q_b0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createIndentCell_p33j5q_a1a(editorContext, node));
     editorCell.addEditorCell(this.createRefNodeList_p33j5q_b1a(editorContext, node));
@@ -75,7 +75,7 @@ public class TaskDeclarationAttributes_EditorComponent implements ConceptEditorC
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Vertical(), false);
     editorCell.setCellId("TDAEC_refNodeList_attributesDecl");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.setRole(handler.getElementRole());
     return editorCell;

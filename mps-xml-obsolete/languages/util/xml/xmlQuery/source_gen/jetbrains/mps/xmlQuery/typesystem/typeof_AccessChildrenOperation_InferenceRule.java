@@ -23,10 +23,10 @@ public class typeof_AccessChildrenOperation_InferenceRule extends AbstractInfere
   public void applyRule(final SNode operation, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
     SNode elementDeclaration = SLinkOperations.getTarget(operation, MetaAdapterFactory.getReferenceLink(new UUID(-6269610502768541194l, -6018622628950326671l), 4815471077468621634l, 4815471077468621635l, "elementDeclaration"));
     SNode complexType;
-    if (SNodeOperations.isInstanceOf(elementDeclaration, "jetbrains.mps.xmlSchema.structure.ElementWithType")) {
-      complexType = SLinkOperations.getTarget(SLinkOperations.getTarget(SNodeOperations.cast(elementDeclaration, "jetbrains.mps.xmlSchema.structure.ElementWithType"), MetaAdapterFactory.getContainmentLink(new UUID(-5396545995874219192l, -5548206827574227681l), 1167838362804l, 1167839503230l, "complexTypeReference")), MetaAdapterFactory.getReferenceLink(new UUID(-5396545995874219192l, -5548206827574227681l), 1167790566663l, 1167790582664l, "complexType"));
+    if (SNodeOperations.isInstanceOf(elementDeclaration, MetaAdapterFactory.getConcept(new UUID(-5396545995874219192l, -5548206827574227681l), 1167838362804l, "jetbrains.mps.xmlSchema.structure.ElementWithType"))) {
+      complexType = SLinkOperations.getTarget(SLinkOperations.getTarget(SNodeOperations.cast(elementDeclaration, MetaAdapterFactory.getConcept(new UUID(-5396545995874219192l, -5548206827574227681l), 1167838362804l, "jetbrains.mps.xmlSchema.structure.ElementWithType")), MetaAdapterFactory.getContainmentLink(new UUID(-5396545995874219192l, -5548206827574227681l), 1167838362804l, 1167839503230l, "complexTypeReference")), MetaAdapterFactory.getReferenceLink(new UUID(-5396545995874219192l, -5548206827574227681l), 1167790566663l, 1167790582664l, "complexType"));
     } else {
-      complexType = SLinkOperations.getTarget(SNodeOperations.cast(elementDeclaration, "jetbrains.mps.xmlSchema.structure.ElementWithContent"), MetaAdapterFactory.getContainmentLink(new UUID(-5396545995874219192l, -5548206827574227681l), 1167512696010l, 1167842409344l, "complexType"));
+      complexType = SLinkOperations.getTarget(SNodeOperations.cast(elementDeclaration, MetaAdapterFactory.getConcept(new UUID(-5396545995874219192l, -5548206827574227681l), 1167512696010l, "jetbrains.mps.xmlSchema.structure.ElementWithContent")), MetaAdapterFactory.getContainmentLink(new UUID(-5396545995874219192l, -5548206827574227681l), 1167512696010l, 1167842409344l, "complexType"));
     }
     final SNode singular_typevar_6992757512064049678 = typeCheckingContext.createNewRuntimeTypesVariable();
     {

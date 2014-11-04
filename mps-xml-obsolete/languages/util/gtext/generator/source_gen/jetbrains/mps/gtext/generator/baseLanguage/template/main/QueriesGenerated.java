@@ -43,7 +43,7 @@ public class QueriesGenerated {
     return (SNodeOperations.getPrevSibling(_context.getNode()) != null);
   }
   public static SNode sourceNodeQuery_1211917963709(final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(SNodeOperations.cast(SNodeOperations.getParent(_context.getNode()), "jetbrains.mps.gtext.structure.GSeparatorItemList"), MetaAdapterFactory.getContainmentLink(new UUID(-6324114011398976607l, -8974808928016009858l), 1188509198390l, 1211914934108l, "separator"));
+    return SLinkOperations.getTarget(SNodeOperations.cast(SNodeOperations.getParent(_context.getNode()), MetaAdapterFactory.getConcept(new UUID(-6324114011398976607l, -8974808928016009858l), 1188509198390l, "jetbrains.mps.gtext.structure.GSeparatorItemList")), MetaAdapterFactory.getContainmentLink(new UUID(-6324114011398976607l, -8974808928016009858l), 1188509198390l, 1211914934108l, "separator"));
   }
   public static SNode sourceNodeQuery_1211917909487(final SourceSubstituteMacroNodeContext _context) {
     return _context.getNode();

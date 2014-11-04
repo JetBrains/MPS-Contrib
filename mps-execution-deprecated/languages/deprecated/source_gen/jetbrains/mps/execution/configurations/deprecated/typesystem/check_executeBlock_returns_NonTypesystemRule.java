@@ -9,6 +9,9 @@ import jetbrains.mps.typesystem.inference.TypeCheckingContext;
 import jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
+import org.jetbrains.mps.openapi.language.SConcept;
 import jetbrains.mps.errors.messageTargets.MessageTarget;
 import jetbrains.mps.errors.messageTargets.NodeMessageTarget;
 import jetbrains.mps.errors.IErrorReporter;
@@ -18,7 +21,7 @@ public class check_executeBlock_returns_NonTypesystemRule extends AbstractNonTyp
   public check_executeBlock_returns_NonTypesystemRule() {
   }
   public void applyRule(final SNode executeBlock, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
-    if (ListSequence.fromList(SNodeOperations.getDescendants(executeBlock, "jetbrains.mps.execution.configurations.deprecated.structure.ExecutionConsoleStatement", false, new String[]{})).isEmpty()) {
+    if (ListSequence.fromList(SNodeOperations.getNodeDescendants(executeBlock, MetaAdapterFactory.getConcept(new UUID(-9024322794181865535l, -5381379368254122047l), 314981645426569222l, "jetbrains.mps.execution.configurations.deprecated.structure.ExecutionConsoleStatement"), false, new SConcept[]{})).isEmpty()) {
       {
         MessageTarget errorTarget = new NodeMessageTarget();
         IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(executeBlock, "Execute block does not specify a console. Use 'console statement'", "r:3d1d89d4-ed40-464f-804b-a59886f41d55(jetbrains.mps.execution.configurations.deprecated.typesystem)", "314981645426569979", null, errorTarget);

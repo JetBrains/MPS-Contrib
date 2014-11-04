@@ -10,6 +10,7 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.smodel.runtime.CheckingNodeContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.smodel.SNodePointer;
 
 public class ExternalPropertyDeclaration_Constraints extends BaseConstraintsDescriptor {
@@ -31,7 +32,7 @@ public class ExternalPropertyDeclaration_Constraints extends BaseConstraintsDesc
     return result;
   }
   public static boolean static_canBeAChild(SNode node, SNode parentNode, SNode link, SNode childConcept, final IOperationContext operationContext) {
-    return SNodeOperations.isInstanceOf(parentNode, "jetbrains.mps.buildlanguage.structure.Project") || SNodeOperations.isInstanceOf(parentNode, "jetbrains.mps.buildlanguage.structure.TargetDeclaration");
+    return SNodeOperations.isInstanceOf(parentNode, MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1196851066733l, "jetbrains.mps.buildlanguage.structure.Project")) || SNodeOperations.isInstanceOf(parentNode, MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1196851099544l, "jetbrains.mps.buildlanguage.structure.TargetDeclaration"));
   }
   private static SNodePointer canBeChildBreakingPoint = new SNodePointer("r:00000000-0000-4000-0000-011c895904c1(jetbrains.mps.buildlanguage.constraints)", "1219148068256");
 }

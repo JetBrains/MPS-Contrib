@@ -33,7 +33,7 @@ public class TargetReferencePropertyValueExpression_Constraints extends BaseCons
         if ((SLinkOperations.getTarget(node, MetaAdapterFactory.getReferenceLink(new UUID(819810455698030989l, -8713019626243247156l), 1201701678947l, 1201701736447l, "declaration")) == null)) {
           return null;
         }
-        return SLinkOperations.getTarget(node, MetaAdapterFactory.getReferenceLink(new UUID(819810455698030989l, -8713019626243247156l), 1201701678947l, 1201701736447l, "declaration")) + "@" + SNodeOperations.getAncestor(SLinkOperations.getTarget(node, MetaAdapterFactory.getReferenceLink(new UUID(819810455698030989l, -8713019626243247156l), 1201701678947l, 1201701736447l, "declaration")), "jetbrains.mps.buildlanguage.structure.Project", false, true);
+        return SLinkOperations.getTarget(node, MetaAdapterFactory.getReferenceLink(new UUID(819810455698030989l, -8713019626243247156l), 1201701678947l, 1201701736447l, "declaration")) + "@" + SNodeOperations.getNodeAncestor(SLinkOperations.getTarget(node, MetaAdapterFactory.getReferenceLink(new UUID(819810455698030989l, -8713019626243247156l), 1201701678947l, 1201701736447l, "declaration")), MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1196851066733l, "jetbrains.mps.buildlanguage.structure.Project"), false, true);
       }
     });
     return properties;

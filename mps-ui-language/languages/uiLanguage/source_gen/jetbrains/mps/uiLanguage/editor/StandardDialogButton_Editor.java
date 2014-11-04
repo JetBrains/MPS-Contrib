@@ -26,7 +26,7 @@ public class StandardDialogButton_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Collection_uh1gey_a");
     editorCell.setBig(true);
     Style style = new StyleImpl();
-    style.set(StyleAttributes.DRAW_BRACKETS, true);
+    style.set(StyleAttributes.DRAW_BRACKETS, 0, true);
     editorCell.getStyle().putAll(style);
     editorCell.setGridLayout(true);
     editorCell.addEditorCell(this.createCollection_uh1gey_a0(editorContext, node));
@@ -38,7 +38,7 @@ public class StandardDialogButton_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_uh1gey_a0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_uh1gey_a0a(editorContext, node));
     editorCell.addEditorCell(this.createProperty_uh1gey_b0a(editorContext, node));
@@ -71,7 +71,7 @@ public class StandardDialogButton_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_uh1gey_b0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_uh1gey_a1a(editorContext, node));
     editorCell.addEditorCell(this.createProperty_uh1gey_b1a(editorContext, node));
@@ -104,7 +104,7 @@ public class StandardDialogButton_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_uh1gey_c0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_uh1gey_a2a(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_uh1gey_b2a(editorContext, node));

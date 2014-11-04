@@ -64,7 +64,7 @@ public class RunConfigPropertyInstance_Constraints extends BaseConstraintsDescri
         return new BaseReferenceScopeProvider() {
           @Override
           public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
-            SNode createStatement = SNodeOperations.getAncestor(_context.getEnclosingNode(), "jetbrains.mps.execution.configurations.deprecated.structure.CreateRunConfigStatement", true, false);
+            SNode createStatement = SNodeOperations.getNodeAncestor(_context.getEnclosingNode(), MetaAdapterFactory.getConcept(new UUID(-9024322794181865535l, -5381379368254122047l), 314981645426569290l, "jetbrains.mps.execution.configurations.deprecated.structure.CreateRunConfigStatement"), true, false);
             if ((createStatement == null)) {
               return new ArrayList<SNode>();
             }

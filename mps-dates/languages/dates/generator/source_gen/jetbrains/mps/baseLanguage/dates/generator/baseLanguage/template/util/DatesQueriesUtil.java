@@ -6,10 +6,10 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.util.NameUtil;
 import jetbrains.mps.generator.template.TemplateQueryContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.baseLanguage.behavior.Classifier_Behavior;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import java.util.UUID;
+import jetbrains.mps.baseLanguage.behavior.Classifier_Behavior;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class DatesQueriesUtil {
   public static final String FORMAL_TABLES_CONTAINER = "_FormatTables";
@@ -20,7 +20,7 @@ public class DatesQueriesUtil {
     return findEnclosingTableClass2(node, genctx);
   }
   public static SNode findEnclosingTableClass2(SNode node, TemplateQueryContext genctx) {
-    SNode table = SNodeOperations.getAncestor(node, "jetbrains.mps.baseLanguage.dates.structure.DateFormatsTable", true, false);
+    SNode table = SNodeOperations.getNodeAncestor(node, MetaAdapterFactory.getConcept(new UUID(-3689458971415590814l, -6289781637635314138l), 1169481390637l, "jetbrains.mps.baseLanguage.dates.structure.DateFormatsTable"), true, false);
     return genctx.getOutputNodeByInputNodeAndMappingLabel(table, "FormatTableClass");
   }
   public static SNode findFormattersFieldDeclaration(SNode node, TemplateQueryContext genctx) {

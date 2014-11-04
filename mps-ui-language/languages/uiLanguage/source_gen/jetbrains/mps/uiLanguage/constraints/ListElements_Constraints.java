@@ -10,8 +10,8 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.smodel.runtime.CheckingNodeContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import org.jetbrains.mps.openapi.persistence.PersistenceFacade;
 import jetbrains.mps.smodel.SModelUtil_new;
 import jetbrains.mps.smodel.SReference;
@@ -36,8 +36,8 @@ public class ListElements_Constraints extends BaseConstraintsDescriptor {
     return result;
   }
   public static boolean static_canBeAChild(SNode node, SNode parentNode, SNode link, SNode childConcept, final IOperationContext operationContext) {
-    if (SNodeOperations.isInstanceOf(parentNode, "jetbrains.mps.uiLanguage.structure.ComponentInstance")) {
-      return SLinkOperations.getTarget(SNodeOperations.cast(parentNode, "jetbrains.mps.uiLanguage.structure.ComponentInstance"), MetaAdapterFactory.getReferenceLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202387945296l, 1202388027333l, "componentDeclaration")) == SLinkOperations.getTarget(_quotation_createNode_fpzj2u_a0a0a0a0(), MetaAdapterFactory.getReferenceLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202387945296l, 1202388027333l, "componentDeclaration"));
+    if (SNodeOperations.isInstanceOf(parentNode, MetaAdapterFactory.getConcept(new UUID(6731736082390534803l, -6860703902218146233l), 1202387945296l, "jetbrains.mps.uiLanguage.structure.ComponentInstance"))) {
+      return SLinkOperations.getTarget(SNodeOperations.cast(parentNode, MetaAdapterFactory.getConcept(new UUID(6731736082390534803l, -6860703902218146233l), 1202387945296l, "jetbrains.mps.uiLanguage.structure.ComponentInstance")), MetaAdapterFactory.getReferenceLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202387945296l, 1202388027333l, "componentDeclaration")) == SLinkOperations.getTarget(_quotation_createNode_fpzj2u_a0a0a0a0(), MetaAdapterFactory.getReferenceLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202387945296l, 1202388027333l, "componentDeclaration"));
     }
     return false;
   }

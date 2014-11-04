@@ -46,7 +46,7 @@ public class GridRow_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_3uv0ek_b0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createIndentCell_3uv0ek_a1a(editorContext, node));
     editorCell.addEditorCell(this.createRefNodeList_3uv0ek_b1a(editorContext, node));
@@ -61,7 +61,7 @@ public class GridRow_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Horizontal(), false);
     editorCell.setCellId("refNodeList_component");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.DRAW_BRACKETS, true);
+    style.set(StyleAttributes.DRAW_BRACKETS, 0, true);
     editorCell.getStyle().putAll(style);
     editorCell.setRole(handler.getElementRole());
     return editorCell;

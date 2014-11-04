@@ -17,7 +17,7 @@ public class GItemList_Behavior {
   public static boolean virtual_isComplex_1213877298853(SNode thisNode) {
     boolean complex = false;
     for (SNode item : ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(-6324114011398976607l, -8974808928016009858l), 1164412982980l, 1164413016466l, "item")))) {
-      if (SNodeOperations.isInstanceOf(item, "jetbrains.mps.gtext.structure.GItem") && BehaviorReflection.invokeVirtual(Boolean.TYPE, item, "virtual_isComplex_1213877298853", new Object[]{})) {
+      if (SNodeOperations.isInstanceOf(item, MetaAdapterFactory.getConcept(new UUID(-6324114011398976607l, -8974808928016009858l), 1164412935041l, "jetbrains.mps.gtext.structure.GItem")) && BehaviorReflection.invokeVirtual(Boolean.TYPE, item, "virtual_isComplex_1213877298853", new Object[]{})) {
         complex = true;
         break;
       }

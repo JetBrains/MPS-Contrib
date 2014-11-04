@@ -17,7 +17,7 @@ public class TargetReferencePropertyValueExpression_Behavior {
     if ((SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getReferenceLink(new UUID(819810455698030989l, -8713019626243247156l), 1201701678947l, 1201701736447l, "declaration")) == null)) {
       return "";
     }
-    SNode declarationProject = SNodeOperations.getAncestor(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getReferenceLink(new UUID(819810455698030989l, -8713019626243247156l), 1201701678947l, 1201701736447l, "declaration")), "jetbrains.mps.buildlanguage.structure.Project", false, false);
+    SNode declarationProject = SNodeOperations.getNodeAncestor(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getReferenceLink(new UUID(819810455698030989l, -8713019626243247156l), 1201701678947l, 1201701736447l, "declaration")), MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1196851066733l, "jetbrains.mps.buildlanguage.structure.Project"), false, false);
     // <node> 
     return declarationProject + "." + SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getReferenceLink(new UUID(819810455698030989l, -8713019626243247156l), 1201701678947l, 1201701736447l, "declaration"));
   }
@@ -25,6 +25,6 @@ public class TargetReferencePropertyValueExpression_Behavior {
     return BehaviorReflection.invokeVirtual(String.class, thisNode, "virtual_toString_1213877472569", new Object[]{});
   }
   public static String virtual_getProjectFileName_1230222765831(SNode thisNode) {
-    return SPropertyOperations.getString(SNodeOperations.getAncestor(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getReferenceLink(new UUID(819810455698030989l, -8713019626243247156l), 1201701678947l, 1201701736447l, "declaration")), "jetbrains.mps.buildlanguage.structure.Project", false, true), MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name")) + ".xml";
+    return SPropertyOperations.getString(SNodeOperations.getNodeAncestor(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getReferenceLink(new UUID(819810455698030989l, -8713019626243247156l), 1201701678947l, 1201701736447l, "declaration")), MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1196851066733l, "jetbrains.mps.buildlanguage.structure.Project"), false, true), MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name")) + ".xml";
   }
 }

@@ -67,10 +67,10 @@ public class QueriesGenerated {
     return Content_Behavior.call_isSeparate_string_1213877224300(_context.getNode());
   }
   public static boolean ifMacro_Condition_1171381345810(final IfMacroContext _context) {
-    return SNodeOperations.isInstanceOf(SNodeOperations.getParent(_context.getNode()), "jetbrains.mps.xml.structure.Element");
+    return SNodeOperations.isInstanceOf(SNodeOperations.getParent(_context.getNode()), MetaAdapterFactory.getConcept(new UUID(3194679053860949738l, -5054431440157877063l), 1167523027466l, "jetbrains.mps.xml.structure.Element"));
   }
   public static boolean ifMacro_Condition_1171381407187(final IfMacroContext _context) {
-    return !(SNodeOperations.isInstanceOf(SNodeOperations.getParent(_context.getNode()), "jetbrains.mps.xml.structure.Element"));
+    return !(SNodeOperations.isInstanceOf(SNodeOperations.getParent(_context.getNode()), MetaAdapterFactory.getConcept(new UUID(3194679053860949738l, -5054431440157877063l), 1167523027466l, "jetbrains.mps.xml.structure.Element")));
   }
   public static boolean ifMacro_Condition_1179113432142(final IfMacroContext _context) {
     return !(SPropertyOperations.getBoolean(_context.getNode(), MetaAdapterFactory.getProperty(new UUID(3194679053860949738l, -5054431440157877063l), 1167523027466l, 1172970532917l, "isEmpty")));

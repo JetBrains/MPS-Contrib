@@ -10,6 +10,8 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
 import jetbrains.mps.smodel.action.NodeSubstitutePreconditionContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 import jetbrains.mps.smodel.action.RemoveSubstituteActionByConditionContext;
 import java.util.Iterator;
 import org.jetbrains.mps.openapi.model.SNode;
@@ -23,7 +25,7 @@ public class QueriesGenerated {
     return result;
   }
   public static boolean nodeSubstituteActionsBuilder_Precondition_Expression_1208687331562(final IOperationContext operationContext, final NodeSubstitutePreconditionContext _context) {
-    return SNodeOperations.isInstanceOf(_context.getParentNode(), "jetbrains.mps.uiLanguage.structure.AddListenerOperation") || SNodeOperations.isInstanceOf(_context.getParentNode(), "jetbrains.mps.uiLanguage.structure.RemoveListenerOperation");
+    return SNodeOperations.isInstanceOf(_context.getParentNode(), MetaAdapterFactory.getConcept(new UUID(6731736082390534803l, -6860703902218146233l), 1208090496480l, "jetbrains.mps.uiLanguage.structure.AddListenerOperation")) || SNodeOperations.isInstanceOf(_context.getParentNode(), MetaAdapterFactory.getConcept(new UUID(6731736082390534803l, -6860703902218146233l), 1208090516982l, "jetbrains.mps.uiLanguage.structure.RemoveListenerOperation"));
   }
   public static void removeActionsByCondition_1208689330046(final IOperationContext operationContext, final RemoveSubstituteActionByConditionContext _context) {
     Iterator<SubstituteAction> actions = _context.getSubstituteActions();

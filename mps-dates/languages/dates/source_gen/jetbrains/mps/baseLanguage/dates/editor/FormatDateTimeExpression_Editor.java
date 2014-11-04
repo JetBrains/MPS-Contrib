@@ -67,8 +67,8 @@ public class FormatDateTimeExpression_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "#");
     editorCell.setCellId("Constant_3ctnox_b0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.PADDING_LEFT, new Padding(0.0, Measure.SPACES));
-    style.set(StyleAttributes.PADDING_LEFT, new Padding(0.0, Measure.SPACES));
+    style.set(StyleAttributes.PADDING_LEFT, 0, new Padding(0.0, Measure.SPACES));
+    style.set(StyleAttributes.PADDING_LEFT, 0, new Padding(0.0, Measure.SPACES));
     editorCell.getStyle().putAll(style);
     FormatDateTimeExpression_delete.setCellActions(editorCell, node, editorContext);
     editorCell.setDefaultText("");
@@ -86,7 +86,7 @@ public class FormatDateTimeExpression_Editor extends DefaultNodeEditor {
       editorCell.setRole("dateFormat");
     }
     Style style = new StyleImpl();
-    style.set(StyleAttributes.RT_ANCHOR_TAG, "default_RTransform");
+    style.set(StyleAttributes.RT_ANCHOR_TAG, 0, "default_RTransform");
     editorCell.getStyle().putAll(style);
     FormatDateTimeExpression_delete.setCellActions(editorCell, node, editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
@@ -135,8 +135,8 @@ public class FormatDateTimeExpression_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_3ctnox_d0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
-    style.set(StyleAttributes.PUNCTUATION_LEFT, true);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
+    style.set(StyleAttributes.PUNCTUATION_LEFT, 0, true);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_3ctnox_a3a(editorContext, node));
     editorCell.addEditorCell(this.createRefCell_3ctnox_b3a(editorContext, node));
@@ -226,7 +226,7 @@ public class FormatDateTimeExpression_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_3ctnox_a0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_3ctnox_a0a(editorContext, node));
     editorCell.addEditorCell(this.createRefCell_3ctnox_b0a(editorContext, node));

@@ -58,7 +58,7 @@ public class AbsDateTimeMinusOperation_Editor extends DefaultNodeEditor {
       editorCell.setRole("leftValue");
     }
     Style style = new StyleImpl();
-    style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
+    style.set(StyleAttributes.PADDING_RIGHT, 0, new Padding(0.0, Measure.SPACES));
     editorCell.getStyle().putAll(style);
     AbsDateTimeMinusOperation_leftOperand_actionMap.setCellActions(editorCell, node, editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
@@ -90,7 +90,7 @@ public class AbsDateTimeMinusOperation_Editor extends DefaultNodeEditor {
       editorCell.setRole("rightValue");
     }
     Style style = new StyleImpl();
-    style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
+    style.set(StyleAttributes.PADDING_RIGHT, 0, new Padding(0.0, Measure.SPACES));
     editorCell.getStyle().putAll(style);
     AbsDateTimeMinusOperation_rightOperand_actionMap.setCellActions(editorCell, node, editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
@@ -117,8 +117,8 @@ public class AbsDateTimeMinusOperation_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Constant_ayji0k_f0");
     Style style = new StyleImpl();
     Dates_StyleSheet.apply_DateCompactKeyWord(style, editorCell);
-    style.set(StyleAttributes.PADDING_LEFT, new Padding(1.0, Measure.SPACES));
-    style.set(StyleAttributes.PADDING_RIGHT, new Padding(1.0, Measure.SPACES));
+    style.set(StyleAttributes.PADDING_LEFT, 0, new Padding(1.0, Measure.SPACES));
+    style.set(StyleAttributes.PADDING_RIGHT, 0, new Padding(1.0, Measure.SPACES));
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;

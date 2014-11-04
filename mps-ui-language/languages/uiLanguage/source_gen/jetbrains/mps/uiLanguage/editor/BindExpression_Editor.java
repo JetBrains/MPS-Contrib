@@ -35,7 +35,7 @@ public class BindExpression_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Constant_g6a9ln_a0");
     Style style = new StyleImpl();
     BaseLanguageStyle_StyleSheet.apply_LeftBrace(style, editorCell);
-    style.set(StyleAttributes.LAST_POSITION_ALLOWED, false);
+    style.set(StyleAttributes.LAST_POSITION_ALLOWED, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -64,7 +64,7 @@ public class BindExpression_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Constant_g6a9ln_c0");
     Style style = new StyleImpl();
     BaseLanguageStyle_StyleSheet.apply_RightBrace(style, editorCell);
-    style.set(StyleAttributes.FIRST_POSITION_ALLOWED, false);
+    style.set(StyleAttributes.FIRST_POSITION_ALLOWED, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;

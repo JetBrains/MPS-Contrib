@@ -67,7 +67,7 @@ public class ParseDateTimeExpression_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_6am7xv_b0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createComponent_6am7xv_a1a(editorContext, node));
     editorCell.addEditorCell(this.createRefCell_6am7xv_b1a(editorContext, node));
@@ -123,7 +123,7 @@ public class ParseDateTimeExpression_Editor extends DefaultNodeEditor {
       editorCell.setCellId("property_name");
       Style style = new StyleImpl();
       Dates_StyleSheet.apply_DateFormat(style, editorCell);
-      style.set(StyleAttributes.RT_ANCHOR_TAG, "default_RTransform");
+      style.set(StyleAttributes.RT_ANCHOR_TAG, 0, "default_RTransform");
       editorCell.getStyle().putAll(style);
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();
@@ -155,7 +155,7 @@ public class ParseDateTimeExpression_Editor extends DefaultNodeEditor {
       editorCell.setRole("zone");
     }
     Style style = new StyleImpl();
-    style.set(StyleAttributes.RT_ANCHOR_TAG, "default_RTransform");
+    style.set(StyleAttributes.RT_ANCHOR_TAG, 0, "default_RTransform");
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -171,8 +171,8 @@ public class ParseDateTimeExpression_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_6am7xv_c0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
-    style.set(StyleAttributes.PUNCTUATION_LEFT, true);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
+    style.set(StyleAttributes.PUNCTUATION_LEFT, 0, true);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_6am7xv_a2a(editorContext, node));
     editorCell.addEditorCell(this.createRefCell_6am7xv_b2a(editorContext, node));
@@ -246,7 +246,7 @@ public class ParseDateTimeExpression_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Constant_6am7xv_c2a");
     Style style = new StyleImpl();
     BaseLanguageStyle_StyleSheet.apply_RightParen(style, editorCell);
-    style.set(StyleAttributes.RT_ANCHOR_TAG, "default_RTransform");
+    style.set(StyleAttributes.RT_ANCHOR_TAG, 0, "default_RTransform");
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
@@ -255,7 +255,7 @@ public class ParseDateTimeExpression_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_6am7xv_d0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_6am7xv_a3a(editorContext, node));
     editorCell.addEditorCell(this.createConstant_6am7xv_b3a(editorContext, node));
@@ -324,7 +324,7 @@ public class ParseDateTimeExpression_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_6am7xv_a0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_6am7xv_a0a(editorContext, node));
     editorCell.addEditorCell(this.createRefCell_6am7xv_b0a(editorContext, node));
@@ -390,7 +390,7 @@ public class ParseDateTimeExpression_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_6am7xv_b0_0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.SELECTABLE, 0, false);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(this.createConstant_6am7xv_a1a(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_6am7xv_b1a(editorContext, node));

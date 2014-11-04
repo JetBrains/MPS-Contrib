@@ -16,9 +16,9 @@ public class IComponentInstance_Behavior {
   public static SNode call_getLayoutConstraint_1213877498060(SNode thisNode) {
     return SNodeOperations.cast(ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202817076568l, 1202817142302l, "content"))).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
-        return SNodeOperations.isInstanceOf(it, "jetbrains.mps.uiLanguage.structure.LayoutConstraint");
+        return SNodeOperations.isInstanceOf(it, MetaAdapterFactory.getConcept(new UUID(6731736082390534803l, -6860703902218146233l), 1202739819652l, "jetbrains.mps.uiLanguage.structure.LayoutConstraint"));
       }
-    }).first(), "jetbrains.mps.uiLanguage.structure.LayoutConstraint");
+    }).first(), MetaAdapterFactory.getConcept(new UUID(6731736082390534803l, -6860703902218146233l), 1202739819652l, "jetbrains.mps.uiLanguage.structure.LayoutConstraint"));
   }
   public static SNode virtual_getExtendedComponent_1213877498080(SNode thisNode) {
     return null;

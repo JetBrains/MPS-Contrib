@@ -72,8 +72,8 @@ public class AttributeBuilder_Constraints extends BaseConstraintsDescriptor {
           public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
             SNode contextBuilder = Builder_Behavior.call_getContextBuilder_7057666463730366732(SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.builders.structure.Builder"))), _context.getEnclosingNode());
             if (contextBuilder == null) {
-            } else if (SNodeOperations.isInstanceOf(contextBuilder, "jetbrains.mps.xmlQuery.structure.ElementBuilder")) {
-              return SchemaUtil.getAvailableAttributes(ElementBuilder_Behavior.call_getComplexType_1384720974900281910(SNodeOperations.cast(contextBuilder, "jetbrains.mps.xmlQuery.structure.ElementBuilder")));
+            } else if (SNodeOperations.isInstanceOf(contextBuilder, MetaAdapterFactory.getConcept(new UUID(-6269610502768541194l, -6018622628950326671l), 3149278768676788174l, "jetbrains.mps.xmlQuery.structure.ElementBuilder"))) {
+              return SchemaUtil.getAvailableAttributes(ElementBuilder_Behavior.call_getComplexType_1384720974900281910(SNodeOperations.cast(contextBuilder, MetaAdapterFactory.getConcept(new UUID(-6269610502768541194l, -6018622628950326671l), 3149278768676788174l, "jetbrains.mps.xmlQuery.structure.ElementBuilder"))));
             }
             return new ArrayList<SNode>();
           }
@@ -87,7 +87,7 @@ public class AttributeBuilder_Constraints extends BaseConstraintsDescriptor {
     return references;
   }
   public static boolean static_canBeAChild(SNode node, SNode parentNode, SNode link, SNode childConcept, final IOperationContext operationContext) {
-    return SNodeOperations.isInstanceOf(Builder_Behavior.call_getContextBuilder_7057666463730366732(SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.builders.structure.Builder"))), parentNode), "jetbrains.mps.xmlQuery.structure.ElementBuilder");
+    return SNodeOperations.isInstanceOf(Builder_Behavior.call_getContextBuilder_7057666463730366732(SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.builders.structure.Builder"))), parentNode), MetaAdapterFactory.getConcept(new UUID(-6269610502768541194l, -6018622628950326671l), 3149278768676788174l, "jetbrains.mps.xmlQuery.structure.ElementBuilder"));
   }
   private static SNodePointer canBeChildBreakingPoint = new SNodePointer("r:e79b58b4-ea58-4c9d-b43b-c3a260addf6a(jetbrains.mps.xmlQuery.constraints)", "7567280977594943779");
   private static SNodePointer breakingNode_jxchbf_a0a3a0a0a1a0b0a1a3 = new SNodePointer("r:e79b58b4-ea58-4c9d-b43b-c3a260addf6a(jetbrains.mps.xmlQuery.constraints)", "7225751495667376052");

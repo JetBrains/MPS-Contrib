@@ -6,6 +6,8 @@ import jetbrains.mps.plugins.relations.RelationDescriptor;
 import javax.swing.Icon;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import java.util.UUID;
 import org.jetbrains.annotations.Nullable;
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
@@ -13,8 +15,6 @@ import java.util.ArrayList;
 import jetbrains.mps.uiLanguage.behavior.ComponentDeclaration_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import org.jetbrains.mps.openapi.model.SNodeAccessUtil;
 import jetbrains.mps.smodel.SNodeUtil;
@@ -33,7 +33,7 @@ public class Controller_TabDescriptor extends RelationDescriptor {
     return ComponentEditor_Helper.getBaseNode(node);
   }
   public boolean isApplicable(SNode node) {
-    return SNodeOperations.isInstanceOf(node, "jetbrains.mps.uiLanguage.structure.ComponentDeclaration");
+    return SNodeOperations.isInstanceOf(node, MetaAdapterFactory.getConcept(new UUID(6731736082390534803l, -6860703902218146233l), 1202387718766l, "jetbrains.mps.uiLanguage.structure.ComponentDeclaration"));
   }
   @Nullable
   public Icon getIcon() {

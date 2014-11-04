@@ -22,7 +22,7 @@ public class MixedAttribute_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Constant_vnk3et_a");
     editorCell.setBig(true);
     Style style = new StyleImpl();
-    style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.DARK_MAGENTA));
+    style.set(StyleAttributes.TEXT_COLOR, 0, StyleRegistry.getInstance().getSimpleColor(MPSColors.DARK_MAGENTA));
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;

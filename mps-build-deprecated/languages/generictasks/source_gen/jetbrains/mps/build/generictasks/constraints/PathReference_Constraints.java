@@ -21,6 +21,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.build.generictasks.behavior.TaskCall_Behavior;
 import org.jetbrains.mps.openapi.model.SNodeReference;
 import jetbrains.mps.smodel.SNodePointer;
@@ -46,7 +47,7 @@ public class PathReference_Constraints extends BaseConstraintsDescriptor {
             List<SNode> importedNodes = SModelOperations.getNodesIncludingImported(_context.getModel(), "jetbrains.mps.build.generictasks.structure.TaskCall");
             List<SNode> newScope = ListSequence.fromList(new ArrayList<SNode>());
             for (SNode node : ListSequence.fromList(importedNodes)) {
-              SNode gcall = SNodeOperations.cast(node, "jetbrains.mps.build.generictasks.structure.TaskCall");
+              SNode gcall = SNodeOperations.cast(node, MetaAdapterFactory.getConcept(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643477l, "jetbrains.mps.build.generictasks.structure.TaskCall"));
               if (TaskCall_Behavior.call_isReferencedAndOfDeclaration_353793545802644027(gcall, "path")) {
                 ListSequence.fromList(newScope).addElement(gcall);
               }

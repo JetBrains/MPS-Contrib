@@ -16,8 +16,8 @@
   <root nodeRef="r:00000000-0000-4000-0000-011c89590555(jetbrains.mps.uiLanguage.generator.baseLanguage.template.form@generator)/1202820804619">
     <file name="QueriesGenerated.java">
       <node id="1202820804632" at="21,106,22,189" concept="1" />
-      <node id="1202822134018" at="24,106,25,130" concept="0" />
-      <node id="1202822134025" at="25,130,26,232" concept="1" />
+      <node id="1202822134018" at="24,106,25,232" concept="0" />
+      <node id="1202822134025" at="25,232,26,232" concept="1" />
       <node id="1202822099797" at="28,106,29,224" concept="1" />
       <node id="1202821129530" at="35,102,36,194" concept="1" />
       <node id="1202821829129" at="38,102,39,30" concept="1" />
@@ -38,8 +38,8 @@
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c89590555(jetbrains.mps.uiLanguage.generator.baseLanguage.template.form@generator)/1202822195718">
     <file name="QueriesGenerated.java">
-      <node id="1202822227347" at="31,106,32,130" concept="0" />
-      <node id="1202822227354" at="32,130,33,232" concept="1" />
+      <node id="1202822227347" at="31,106,32,232" concept="0" />
+      <node id="1202822227354" at="32,232,33,232" concept="1" />
       <scope id="1202822227346" at="31,106,33,232">
         <var name="parent" id="1202822227348" />
       </scope>
