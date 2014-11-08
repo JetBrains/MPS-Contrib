@@ -11,10 +11,10 @@
   <root nodeRef="r:00000000-0000-4000-0000-011c8959054b(jetbrains.mps.uiLanguage.actions)/1208687269513">
     <file name="QueriesGenerated.java">
       <node id="1208687387388" at="27,184,28,449" concept="0" />
-      <node id="1208689342018" at="37,43,38,118" concept="0" />
+      <node id="1208689342018" at="37,43,38,248" concept="0" />
       <node id="1208687331562" at="27,0,30,0" concept="1" trace="nodeSubstituteActionsBuilder_Precondition_Expression_1208687331562#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/action/NodeSubstitutePreconditionContext;)Z" />
       <scope id="1208687331563" at="27,184,28,449" />
-      <scope id="1208689330048" at="37,43,38,118" />
+      <scope id="1208689330048" at="37,43,38,248" />
       <scope id="1208687331562" at="27,0,30,0">
         <var name="_context" id="1208687331562" />
         <var name="operationContext" id="1208687331562" />

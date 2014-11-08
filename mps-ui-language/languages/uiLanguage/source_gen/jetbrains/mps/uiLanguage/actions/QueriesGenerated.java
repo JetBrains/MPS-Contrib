@@ -35,7 +35,7 @@ public class QueriesGenerated {
       SNode applicableConcept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.structure.Expression");
       Condition<SNode> cond = new Condition<SNode>() {
         public boolean met(SNode concept) {
-          return !(SConceptOperations.isExactly(concept, "jetbrains.mps.uiLanguage.structure.EventHandlerReference"));
+          return !(SConceptOperations.isExactly(SNodeOperations.asSConcept(concept), MetaAdapterFactory.getConcept(new UUID(6731736082390534803l, -6860703902218146233l), 1208685679469l, "jetbrains.mps.uiLanguage.structure.EventHandlerReference")));
         }
       };
       if (SConceptOperations.isSuperConceptOf(applicableConcept, NameUtil.nodeFQName(outputConcept)) && cond.met(outputConcept)) {

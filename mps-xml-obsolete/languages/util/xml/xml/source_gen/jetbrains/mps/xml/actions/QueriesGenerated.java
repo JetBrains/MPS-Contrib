@@ -191,7 +191,7 @@ public class QueriesGenerated {
       SNode applicableConcept = SConceptOperations.findConceptDeclaration("jetbrains.mps.xml.structure.Content");
       Condition<SNode> cond = new Condition<SNode>() {
         public boolean met(SNode concept) {
-          return SConceptOperations.isExactly(_context.getChildConcept(), "jetbrains.mps.xml.structure.Content") && SConceptOperations.isSuperConceptOf(SConceptOperations.findConceptDeclaration("jetbrains.mps.xml.structure.BaseText"), NameUtil.nodeFQName(concept)) && !(isMixed);
+          return SConceptOperations.isExactly(SNodeOperations.asSConcept(_context.getChildConcept()), MetaAdapterFactory.getConcept(new UUID(3194679053860949738l, -5054431440157877063l), 1161371727643l, "jetbrains.mps.xml.structure.Content")) && SConceptOperations.isSuperConceptOf(SConceptOperations.findConceptDeclaration("jetbrains.mps.xml.structure.BaseText"), NameUtil.nodeFQName(concept)) && !(isMixed);
         }
       };
       if (SConceptOperations.isSuperConceptOf(applicableConcept, NameUtil.nodeFQName(outputConcept)) && cond.met(outputConcept)) {
