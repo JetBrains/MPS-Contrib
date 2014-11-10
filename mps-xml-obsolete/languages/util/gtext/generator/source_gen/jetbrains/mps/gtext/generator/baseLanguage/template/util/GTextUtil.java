@@ -14,7 +14,7 @@ public class GTextUtil {
   public GTextUtil() {
   }
   public static void optimize(SModel model) {
-    for (SNode r : ListSequence.fromList(SModelOperations.getRoots(model, null))) {
+    for (SNode r : ListSequence.fromList(SModelOperations.roots(model, null))) {
       if (SNodeOperations.isInstanceOf(r, MetaAdapterFactory.getConcept(new UUID(-6324114011398976607l, -8974808928016009858l), 1184639540818l, "jetbrains.mps.gtext.structure.GDocument"))) {
         continue;
       }

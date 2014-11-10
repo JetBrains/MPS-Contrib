@@ -12,10 +12,10 @@ import jetbrains.mps.smodel.runtime.ReferenceConstraintsContext;
 import java.util.List;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import java.util.ArrayList;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import org.jetbrains.mps.openapi.model.SNodeReference;
 import java.util.Map;
@@ -47,7 +47,7 @@ public class TaskCall_Constraints extends BaseConstraintsDescriptor {
     return new BaseReferenceScopeProvider() {
       @Override
       public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
-        List<SNode> nodes = SModelOperations.getNodesIncludingImported(_context.getModel(), "jetbrains.mps.build.generictasks.structure.TaskCall");
+        List<SNode> nodes = SModelOperations.nodesIncludingImported(_context.getModel(), MetaAdapterFactory.getConcept(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643477l, "jetbrains.mps.build.generictasks.structure.TaskCall"));
         List<SNode> visible = new ArrayList<SNode>();
         for (SNode call : ListSequence.fromList(nodes)) {
           if ((SPropertyOperations.getString(call, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name")) != null) && (SNodeOperations.getContainingRoot(call) == SNodeOperations.getContainingRoot(_context.getEnclosingNode()))) {
@@ -94,7 +94,7 @@ public class TaskCall_Constraints extends BaseConstraintsDescriptor {
       public void onReferenceSet(final SNode referenceNode, final SNode oldReferentNode, final SNode newReferentNode) {
         for (SNode attrDecl : BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), newReferentNode, "virtual_getAttributesDeclarations_1190349257898147625", new Object[]{})) {
           if (AttributeDeclaration_Behavior.call_isRequired_353793545802643811(attrDecl)) {
-            SNode attr = SConceptOperations.createNewNode("jetbrains.mps.build.generictasks.structure.Attribute", null);
+            SNode attr = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643466l, "jetbrains.mps.build.generictasks.structure.Attribute"));
             SLinkOperations.setTarget(attr, MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643466l, 353793545802643467l, "attributeDeclaration"), attrDecl);
             ListSequence.fromList(SLinkOperations.getChildren(referenceNode, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643477l, 353793545802643479l, "atributes"))).addElement(attr);
           }
@@ -110,7 +110,7 @@ public class TaskCall_Constraints extends BaseConstraintsDescriptor {
         return new BaseReferenceScopeProvider() {
           @Override
           public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
-            List<SNode> declarations = SModelOperations.getNodesIncludingImported(_context.getModel(), "jetbrains.mps.build.generictasks.structure.ITaskDeclaration");
+            List<SNode> declarations = SModelOperations.nodesIncludingImported(_context.getModel(), MetaAdapterFactory.getConcept(new UUID(-314238378988976676l, -6739106179126467998l), 5699548131010533020l, "jetbrains.mps.build.generictasks.structure.ITaskDeclaration"));
             if (!(SNodeOperations.isInstanceOf(_context.getEnclosingNode(), MetaAdapterFactory.getConcept(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643477l, "jetbrains.mps.build.generictasks.structure.TaskCall")))) {
               return new SequenceSearchScope(ListSequence.fromList(declarations).where(new IWhereFilter<SNode>() {
                 public boolean accept(SNode it) {

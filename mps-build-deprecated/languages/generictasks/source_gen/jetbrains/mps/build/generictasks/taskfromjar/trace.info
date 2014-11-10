@@ -25,21 +25,21 @@
   <root nodeRef="r:641cc795-9da1-457c-a0b5-fbe12a078030(jetbrains.mps.build.generictasks.taskfromjar)/1462969652806434077">
     <file name="BuildLanguageGenerator.java">
       <node id="1462969652806434079" at="16,0,17,0" concept="15" trace="INSTANCE" />
-      <node id="1462969652806434107" at="19,100,20,127" concept="12" />
-      <node id="1462969652806434113" at="20,127,21,172" concept="6" />
+      <node id="1462969652806434107" at="19,100,20,228" concept="12" />
+      <node id="1462969652806434113" at="20,228,21,172" concept="6" />
       <node id="1277897048695361762" at="21,172,22,189" concept="6" />
       <node id="1277897048695361778" at="22,189,23,200" concept="6" />
       <node id="1462969652806434136" at="23,200,24,16" concept="13" />
-      <node id="1462969652806434156" at="26,140,27,125" concept="12" />
-      <node id="1277897048695363576" at="27,125,28,172" concept="6" />
+      <node id="1462969652806434156" at="26,140,27,226" concept="12" />
+      <node id="1277897048695363576" at="27,226,28,172" concept="6" />
       <node id="1277897048695363588" at="28,172,29,189" concept="6" />
       <node id="1277897048695363596" at="29,189,30,196" concept="6" />
       <node id="1277897048695363604" at="30,196,31,216" concept="6" />
       <node id="1277897048695363612" at="31,216,32,200" concept="6" />
       <node id="1462969652806434180" at="32,200,33,16" concept="13" />
       <node id="1277897048695363687" at="35,55,36,51" concept="13" />
-      <node id="1277897048695383594" at="38,68,39,122" concept="12" />
-      <node id="1277897048695383601" at="39,122,40,167" concept="6" />
+      <node id="1277897048695383594" at="38,68,39,223" concept="12" />
+      <node id="1277897048695383601" at="39,223,40,167" concept="6" />
       <node id="1277897048695383613" at="40,167,41,194" concept="6" />
       <node id="1277897048695383625" at="41,194,42,15" concept="13" />
       <node id="1462969652806434088" at="44,54,45,43" concept="13" />
@@ -671,7 +671,7 @@
       <node id="1462969652806436772" at="63,29,64,35" concept="6" />
       <node id="1462969652806436781" at="65,40,66,35" concept="6" />
       <node id="1462969652806436865" at="69,71,70,73" concept="12" />
-      <node id="1462969652806436879" at="71,33,72,128" concept="12" />
+      <node id="1462969652806436879" at="71,33,72,232" concept="12" />
       <node id="1462969652806436892" at="73,32,74,36" concept="6" />
       <node id="1462969652806436897" at="74,36,75,212" concept="6" />
       <node id="1462969652806436905" at="77,5,78,24" concept="13" />
@@ -862,7 +862,7 @@
       <node id="8826918594705148198" at="401,0,404,0" concept="16" trace="eq_ixz87t_a0a0a0b0h#(Ljava/lang/Object;Ljava/lang/Object;)Z" />
       <node id="8826918594705148184" at="404,0,407,0" concept="16" trace="eq_ixz87t_a0b0a0b0h#(Ljava/lang/Object;Ljava/lang/Object;)Z" />
       <node id="8826918594705200969" at="407,0,410,0" concept="16" trace="eq_ixz87t_a0a1a0a0a0a0a0a9a7#(Ljava/lang/Object;Ljava/lang/Object;)Z" />
-      <node id="1462969652806436887" at="72,128,76,7" concept="9" />
+      <node id="1462969652806436887" at="72,232,76,7" concept="9" />
       <node id="8826918594705200958" at="133,0,137,0" concept="11" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
       <node id="1462969652806435835" at="152,0,156,0" concept="3" trace="Builder#(Lorg/jetbrains/mps/openapi/model/SModel;Ljetbrains/mps/build/generictasks/taskfromjar/NamesMap;)V" />
       <node id="1462969652806435916" at="169,0,173,0" concept="11" trace="addParent#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
@@ -1087,7 +1087,7 @@
         <var name="a" id="8826918594705200969" />
         <var name="b" id="8826918594705200969" />
       </scope>
-      <scope id="1462969652806436887" at="72,128,76,7">
+      <scope id="1462969652806436887" at="72,232,76,7">
         <var name="decl" id="1462969652806436889" />
       </scope>
       <scope id="8826918594705200958" at="133,0,137,0">

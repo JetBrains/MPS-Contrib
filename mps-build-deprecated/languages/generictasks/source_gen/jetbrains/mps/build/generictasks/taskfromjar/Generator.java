@@ -12,9 +12,9 @@ import java.io.IOException;
 import java.util.Map;
 import java.util.LinkedHashMap;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import java.util.UUID;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import java.util.Set;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.HashSet;
@@ -69,7 +69,7 @@ public class Generator {
   private Map<String, SNode> getExistingDeclarations(SModel[] models) {
     Map<String, SNode> declarations = new LinkedHashMap<String, SNode>();
     for (SModel model : models) {
-      List<SNode> roots = SModelOperations.getRoots(model, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration");
+      List<SNode> roots = SModelOperations.roots(model, MetaAdapterFactory.getConcept(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643486l, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration"));
       for (SNode decl : roots) {
         this.cleanDeclaration(decl);
         declarations.put(SPropertyOperations.getString(decl, MetaAdapterFactory.getProperty(new UUID(-314238378988976676l, -6739106179126467998l), 5699548131010533020l, 7699562953468509836l, "classname")), decl);

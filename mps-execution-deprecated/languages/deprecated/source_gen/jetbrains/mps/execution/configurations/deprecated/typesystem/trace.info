@@ -911,8 +911,8 @@
   </root>
   <root nodeRef="r:3d1d89d4-ed40-464f-804b-a59886f41d55(jetbrains.mps.execution.configurations.deprecated.typesystem)/314981645426570151">
     <file name="typeof_RunConfigurationRunProfileState_InferenceRule.java">
-      <node id="314981645426570155" at="24,232,25,118" concept="6" />
-      <node id="314981645426570161" at="25,118,26,394" concept="2" />
+      <node id="314981645426570155" at="24,232,25,214" concept="6" />
+      <node id="314981645426570161" at="25,214,26,394" concept="2" />
       <node id="314981645426570172" at="28,9,29,73" concept="6" />
       <node id="314981645426570172" at="29,73,30,229" concept="6" />
       <node id="314981645426570172" at="30,229,31,157" concept="2" />
@@ -1079,45 +1079,45 @@
   </root>
   <root nodeRef="r:3d1d89d4-ed40-464f-804b-a59886f41d55(jetbrains.mps.execution.configurations.deprecated.typesystem)/314981645426570253">
     <file name="check_RunConfigurationEditor_NonTypesystemRule.java">
-      <node id="314981645426570268" at="27,7,28,60" concept="6" />
-      <node id="314981645426570268" at="28,60,29,299" concept="6" />
-      <node id="314981645426570253" at="33,46,34,101" concept="7" />
-      <node id="314981645426570253" at="37,5,38,130" concept="6" />
-      <node id="314981645426570253" at="38,130,39,45" concept="7" />
-      <node id="314981645426570253" at="42,30,43,17" concept="7" />
-      <node id="314981645426570253" at="23,0,25,0" concept="1" trace="check_RunConfigurationEditor_NonTypesystemRule#()V" />
-      <node id="314981645426570253" at="33,0,36,0" concept="5" trace="getApplicableConceptFQName#()Ljava/lang/String;" />
-      <node id="314981645426570253" at="42,0,45,0" concept="5" trace="overrides#()Z" />
-      <node id="314981645426570268" at="26,480,30,7" concept="0" />
-      <node id="314981645426570253" at="36,68,40,5" concept="0" />
-      <node id="314981645426570255" at="25,140,31,5" concept="4" />
-      <node id="314981645426570253" at="36,0,42,0" concept="5" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
-      <node id="314981645426570253" at="25,0,33,0" concept="5" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
-      <scope id="314981645426570253" at="23,59,23,59" />
-      <scope id="314981645426570253" at="33,46,34,101" />
-      <scope id="314981645426570253" at="42,30,43,17" />
-      <scope id="314981645426570253" at="23,0,25,0" />
-      <scope id="314981645426570268" at="27,7,29,299">
+      <node id="314981645426570268" at="25,7,26,60" concept="6" />
+      <node id="314981645426570268" at="26,60,27,299" concept="6" />
+      <node id="314981645426570253" at="31,46,32,101" concept="7" />
+      <node id="314981645426570253" at="35,5,36,130" concept="6" />
+      <node id="314981645426570253" at="36,130,37,45" concept="7" />
+      <node id="314981645426570253" at="40,30,41,17" concept="7" />
+      <node id="314981645426570253" at="21,0,23,0" concept="1" trace="check_RunConfigurationEditor_NonTypesystemRule#()V" />
+      <node id="314981645426570253" at="31,0,34,0" concept="5" trace="getApplicableConceptFQName#()Ljava/lang/String;" />
+      <node id="314981645426570253" at="40,0,43,0" concept="5" trace="overrides#()Z" />
+      <node id="314981645426570268" at="24,442,28,7" concept="0" />
+      <node id="314981645426570253" at="34,68,38,5" concept="0" />
+      <node id="314981645426570255" at="23,140,29,5" concept="4" />
+      <node id="314981645426570253" at="34,0,40,0" concept="5" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="314981645426570253" at="23,0,31,0" concept="5" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="314981645426570253" at="21,59,21,59" />
+      <scope id="314981645426570253" at="31,46,32,101" />
+      <scope id="314981645426570253" at="40,30,41,17" />
+      <scope id="314981645426570253" at="21,0,23,0" />
+      <scope id="314981645426570268" at="25,7,27,299">
         <var name="_reporter_2309309498" id="314981645426570268" />
         <var name="errorTarget" id="314981645426570268" />
       </scope>
-      <scope id="314981645426570253" at="37,5,39,45">
+      <scope id="314981645426570253" at="35,5,37,45">
         <var name="b" id="314981645426570253" />
       </scope>
-      <scope id="314981645426570253" at="33,0,36,0" />
-      <scope id="314981645426570253" at="42,0,45,0" />
-      <scope id="314981645426570267" at="26,480,30,7" />
-      <scope id="314981645426570253" at="36,68,40,5" />
-      <scope id="314981645426570254" at="25,140,31,5" />
-      <scope id="314981645426570253" at="36,0,42,0">
+      <scope id="314981645426570253" at="31,0,34,0" />
+      <scope id="314981645426570253" at="40,0,43,0" />
+      <scope id="314981645426570267" at="24,442,28,7" />
+      <scope id="314981645426570253" at="34,68,38,5" />
+      <scope id="314981645426570254" at="23,140,29,5" />
+      <scope id="314981645426570253" at="34,0,40,0">
         <var name="argument" id="314981645426570253" />
       </scope>
-      <scope id="314981645426570253" at="25,0,33,0">
+      <scope id="314981645426570253" at="23,0,31,0">
         <var name="runConfigurationDeclaration" id="314981645426570253" />
         <var name="status" id="314981645426570253" />
         <var name="typeCheckingContext" id="314981645426570253" />
       </scope>
-      <unit id="314981645426570253" at="22,0,46,0" name="jetbrains.mps.execution.configurations.deprecated.typesystem.check_RunConfigurationEditor_NonTypesystemRule" />
+      <unit id="314981645426570253" at="20,0,44,0" name="jetbrains.mps.execution.configurations.deprecated.typesystem.check_RunConfigurationEditor_NonTypesystemRule" />
     </file>
   </root>
   <root nodeRef="r:3d1d89d4-ed40-464f-804b-a59886f41d55(jetbrains.mps.execution.configurations.deprecated.typesystem)/314981645426570272">

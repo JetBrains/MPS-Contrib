@@ -341,8 +341,8 @@
     <file name="BeanDeclaration_Behavior.java">
       <node id="1213877331533" at="17,76,18,207" concept="7" />
       <node id="1213877331541" at="20,83,21,209" concept="7" />
-      <node id="1213877331558" at="23,72,24,103" concept="6" />
-      <node id="1213877331564" at="24,103,25,178" concept="1" />
+      <node id="1213877331558" at="23,72,24,199" concept="6" />
+      <node id="1213877331564" at="24,199,25,178" concept="1" />
       <node id="1213877331571" at="25,178,26,16" concept="7" />
       <node id="1213877331527" at="15,0,17,0" concept="8" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1213877331527" at="17,0,20,0" concept="8" trace="call_getGeneratedName_1213877331530#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
@@ -607,8 +607,8 @@
       <node id="1213877495553" at="86,5,87,16" concept="7" />
       <node id="1213877495558" at="89,78,90,190" concept="7" />
       <node id="1213877495565" at="92,76,93,197" concept="7" />
-      <node id="1213877495573" at="95,72,96,108" concept="6" />
-      <node id="1213877495579" at="96,108,97,183" concept="1" />
+      <node id="1213877495573" at="95,72,96,204" concept="6" />
+      <node id="1213877495579" at="96,204,97,183" concept="1" />
       <node id="1213877495586" at="97,183,98,16" concept="7" />
       <node id="1213877495591" at="100,78,101,48" concept="6" />
       <node id="1213877495597" at="101,48,102,272" concept="1" />
@@ -729,7 +729,7 @@
       <scope id="1213877495345" at="100,0,112,0">
         <var name="thisNode" id="1213877495345" />
       </scope>
-      <unit id="1227876799307" at="38,164,42,5" name="jetbrains.mps.uiLanguage.behavior.ComponentDeclaration_Behavior$1" />
+      <unit id="1227876799307" at="38,263,42,5" name="jetbrains.mps.uiLanguage.behavior.ComponentDeclaration_Behavior$1" />
       <unit id="1213877495345" at="21,0,113,0" name="jetbrains.mps.uiLanguage.behavior.ComponentDeclaration_Behavior" />
     </file>
   </root>
@@ -764,8 +764,8 @@
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c8959054c(jetbrains.mps.uiLanguage.behavior)/3044950653914722725">
     <file name="AttributeDeclaration_Behavior.java">
-      <node id="3044950653914722704" at="15,107,16,247" concept="6" />
-      <node id="3044950653914722719" at="16,247,17,165" concept="1" />
+      <node id="3044950653914722704" at="15,107,16,275" concept="6" />
+      <node id="3044950653914722719" at="16,275,17,165" concept="1" />
       <node id="3044950653914722723" at="17,165,18,18" concept="7" />
       <node id="3044950653914722725" at="13,0,15,0" concept="8" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="3044950653914722725" at="15,0,20,0" concept="8" trace="virtual_getOperationConcept_3044950653914717125#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)Ljava/util/List;" />
@@ -784,8 +784,8 @@
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c8959054c(jetbrains.mps.uiLanguage.behavior)/3044950653914723272">
     <file name="EventDeclaration_Behavior.java">
-      <node id="3044950653914723251" at="15,107,16,247" concept="6" />
-      <node id="3044950653914723266" at="16,247,17,165" concept="1" />
+      <node id="3044950653914723251" at="15,107,16,275" concept="6" />
+      <node id="3044950653914723266" at="16,275,17,165" concept="1" />
       <node id="3044950653914723270" at="17,165,18,18" concept="7" />
       <node id="3044950653914723272" at="13,0,15,0" concept="8" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="3044950653914723272" at="15,0,20,0" concept="8" trace="virtual_getOperationConcept_3044950653914717125#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)Ljava/util/List;" />

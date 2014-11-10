@@ -272,49 +272,49 @@
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895904c4(jetbrains.mps.buildlanguage.typesystem)/1197401210363">
     <file name="typeof_Enum_InferenceRule.java">
-      <node id="1197401256457" at="26,7,27,51" concept="5" />
-      <node id="1197401256457" at="27,51,28,200" concept="5" />
-      <node id="1197401256457" at="28,200,29,531" concept="2" />
-      <node id="1197401210363" at="33,46,34,56" concept="6" />
-      <node id="1197401210363" at="37,5,38,130" concept="5" />
-      <node id="1197401210363" at="38,130,39,45" concept="6" />
-      <node id="1197401210363" at="42,30,43,17" concept="6" />
-      <node id="1197401210363" at="22,0,24,0" concept="1" trace="typeof_Enum_InferenceRule#()V" />
-      <node id="1197401210363" at="33,0,36,0" concept="4" trace="getApplicableConceptFQName#()Ljava/lang/String;" />
-      <node id="1197401210363" at="42,0,45,0" concept="4" trace="overrides#()Z" />
-      <node id="1197401210363" at="36,68,40,5" concept="0" />
-      <node id="1197401256457" at="25,229,30,7" concept="0" />
-      <node id="1197401210363" at="36,0,42,0" concept="4" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
-      <node id="1197401216335" at="24,124,31,5" concept="3" />
-      <node id="1197401210363" at="24,0,33,0" concept="4" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
-      <scope id="1197401210363" at="22,38,22,38" />
-      <scope id="1197401210363" at="33,46,34,56" />
-      <scope id="1197401210363" at="42,30,43,17" />
-      <scope id="1197401210363" at="22,0,24,0" />
-      <scope id="1197401210363" at="37,5,39,45">
+      <node id="1197401256457" at="24,7,25,51" concept="5" />
+      <node id="1197401256457" at="25,51,26,200" concept="5" />
+      <node id="1197401256457" at="26,200,27,493" concept="2" />
+      <node id="1197401210363" at="31,46,32,56" concept="6" />
+      <node id="1197401210363" at="35,5,36,130" concept="5" />
+      <node id="1197401210363" at="36,130,37,45" concept="6" />
+      <node id="1197401210363" at="40,30,41,17" concept="6" />
+      <node id="1197401210363" at="20,0,22,0" concept="1" trace="typeof_Enum_InferenceRule#()V" />
+      <node id="1197401210363" at="31,0,34,0" concept="4" trace="getApplicableConceptFQName#()Ljava/lang/String;" />
+      <node id="1197401210363" at="40,0,43,0" concept="4" trace="overrides#()Z" />
+      <node id="1197401210363" at="34,68,38,5" concept="0" />
+      <node id="1197401256457" at="23,229,28,7" concept="0" />
+      <node id="1197401210363" at="34,0,40,0" concept="4" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="1197401216335" at="22,124,29,5" concept="3" />
+      <node id="1197401210363" at="22,0,31,0" concept="4" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="1197401210363" at="20,38,20,38" />
+      <scope id="1197401210363" at="31,46,32,56" />
+      <scope id="1197401210363" at="40,30,41,17" />
+      <scope id="1197401210363" at="20,0,22,0" />
+      <scope id="1197401210363" at="35,5,37,45">
         <var name="b" id="1197401210363" />
       </scope>
-      <scope id="1197401256457" at="26,7,29,531">
+      <scope id="1197401256457" at="24,7,27,493">
         <var name="_info_12389875345" id="1197401256457" />
         <var name="_nodeToCheck_1029348928467" id="1197401256457" />
       </scope>
-      <scope id="1197401210363" at="33,0,36,0" />
-      <scope id="1197401210363" at="42,0,45,0" />
-      <scope id="1197401210363" at="36,68,40,5" />
-      <scope id="1197401216338" at="25,229,30,7" />
-      <scope id="1197401210363" at="36,0,42,0">
+      <scope id="1197401210363" at="31,0,34,0" />
+      <scope id="1197401210363" at="40,0,43,0" />
+      <scope id="1197401210363" at="34,68,38,5" />
+      <scope id="1197401216338" at="23,229,28,7" />
+      <scope id="1197401210363" at="34,0,40,0">
         <var name="argument" id="1197401210363" />
       </scope>
-      <scope id="1197401210364" at="24,124,31,5" />
-      <scope id="1197401216335" at="24,124,31,5">
+      <scope id="1197401210364" at="22,124,29,5" />
+      <scope id="1197401216335" at="22,124,29,5">
         <var name="element" id="1197401216336" />
       </scope>
-      <scope id="1197401210363" at="24,0,33,0">
+      <scope id="1197401210363" at="22,0,31,0">
         <var name="nodeToCheck" id="1197401210363" />
         <var name="status" id="1197401210363" />
         <var name="typeCheckingContext" id="1197401210363" />
       </scope>
-      <unit id="1197401210363" at="21,0,46,0" name="jetbrains.mps.buildlanguage.typesystem.typeof_Enum_InferenceRule" />
+      <unit id="1197401210363" at="19,0,44,0" name="jetbrains.mps.buildlanguage.typesystem.typeof_Enum_InferenceRule" />
     </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895904c4(jetbrains.mps.buildlanguage.typesystem)/1199032009158">

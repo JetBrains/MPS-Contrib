@@ -15,8 +15,6 @@ import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.execution.configurations.deprecated.behavior.JavaRunConfiguration_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.execution.configurations.deprecated.behavior.Node_FunctionParameter_Behavior;
-import org.jetbrains.mps.openapi.language.SConceptRepository;
-import jetbrains.mps.util.NameUtil;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.generator.template.ReferenceMacroContext;
 import jetbrains.mps.internal.collections.runtime.Sequence;
@@ -81,10 +79,10 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name")) + "_Editor";
   }
   public static Object propertyMacro_GetPropertyValue_472629177864052142(final PropertyMacroContext _context) {
-    return Node_FunctionParameter_Behavior.call_getVariableForExecuteBlockNameStatic_281656731534771380(SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.Node_FunctionParameter"))));
+    return Node_FunctionParameter_Behavior.call_getVariableForExecuteBlockNameStatic_281656731534771380(SNodeOperations.asSConcept(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.Node_FunctionParameter")));
   }
   public static Object propertyMacro_GetPropertyValue_1614521997361913493(final PropertyMacroContext _context) {
-    return Node_FunctionParameter_Behavior.call_getVariableForExecuteBlockNameStatic_281656731534771380(SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.Node_FunctionParameter"))));
+    return Node_FunctionParameter_Behavior.call_getVariableForExecuteBlockNameStatic_281656731534771380(SNodeOperations.asSConcept(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.Node_FunctionParameter")));
   }
   public static Object referenceMacro_GetReferent_3251065477410858822(final ReferenceMacroContext _context) {
     return Sequence.fromIterable(ClassConcept_Behavior.call_constructors_5292274854859503373(_context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "map_JavaRunConfigurationToEditorComponent"))).first();
@@ -192,34 +190,34 @@ public class QueriesGenerated {
     return SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(new UUID(-9024322794181865535l, -5381379368254122047l), 314981645426569290l, 314981645426569292l, "configName"));
   }
   public static SNode sourceNodeQuery_472629177864052136(final SourceSubstituteMacroNodeContext _context) {
-    return Node_FunctionParameter_Behavior.call_getParameterType_5147346160405686358(SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.Node_FunctionParameter"))), _context.getNode());
+    return Node_FunctionParameter_Behavior.call_getParameterType_5147346160405686358(SNodeOperations.asSConcept(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.Node_FunctionParameter")), _context.getNode());
   }
   public static SNode sourceNodeQuery_1633282062187904803(final SourceSubstituteMacroNodeContext _context) {
-    return Node_FunctionParameter_Behavior.call_getParameterType_5147346160405686358(SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.Node_FunctionParameter"))), _context.getNode());
+    return Node_FunctionParameter_Behavior.call_getParameterType_5147346160405686358(SNodeOperations.asSConcept(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.Node_FunctionParameter")), _context.getNode());
   }
   public static SNode sourceNodeQuery_664608570000532592(final SourceSubstituteMacroNodeContext _context) {
-    return Node_FunctionParameter_Behavior.call_getParameterType_5147346160405686358(SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.Node_FunctionParameter"))), _context.getNode());
+    return Node_FunctionParameter_Behavior.call_getParameterType_5147346160405686358(SNodeOperations.asSConcept(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.Node_FunctionParameter")), _context.getNode());
   }
   public static SNode sourceNodeQuery_8755168384251068718(final SourceSubstituteMacroNodeContext _context) {
-    return Node_FunctionParameter_Behavior.call_getParameterType_5147346160405686358(SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.Node_FunctionParameter"))), _context.getNode());
+    return Node_FunctionParameter_Behavior.call_getParameterType_5147346160405686358(SNodeOperations.asSConcept(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.Node_FunctionParameter")), _context.getNode());
   }
   public static SNode sourceNodeQuery_1633282062187628598(final SourceSubstituteMacroNodeContext _context) {
-    return Node_FunctionParameter_Behavior.call_getParameterType_5147346160405686358(SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.Node_FunctionParameter"))), _context.getNode());
+    return Node_FunctionParameter_Behavior.call_getParameterType_5147346160405686358(SNodeOperations.asSConcept(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.Node_FunctionParameter")), _context.getNode());
   }
   public static SNode sourceNodeQuery_1633282062187904717(final SourceSubstituteMacroNodeContext _context) {
-    return Node_FunctionParameter_Behavior.call_getParameterType_5147346160405686358(SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.Node_FunctionParameter"))), _context.getNode());
+    return Node_FunctionParameter_Behavior.call_getParameterType_5147346160405686358(SNodeOperations.asSConcept(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.Node_FunctionParameter")), _context.getNode());
   }
   public static SNode sourceNodeQuery_4462513030604562848(final SourceSubstituteMacroNodeContext _context) {
-    return Node_FunctionParameter_Behavior.call_getParameterType_5147346160405686358(SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.Node_FunctionParameter"))), _context.getNode());
+    return Node_FunctionParameter_Behavior.call_getParameterType_5147346160405686358(SNodeOperations.asSConcept(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.Node_FunctionParameter")), _context.getNode());
   }
   public static SNode sourceNodeQuery_4462513030604562802(final SourceSubstituteMacroNodeContext _context) {
-    return Node_FunctionParameter_Behavior.call_getParameterType_5147346160405686358(SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.Node_FunctionParameter"))), _context.getNode());
+    return Node_FunctionParameter_Behavior.call_getParameterType_5147346160405686358(SNodeOperations.asSConcept(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.Node_FunctionParameter")), _context.getNode());
   }
   public static SNode sourceNodeQuery_664608570000532664(final SourceSubstituteMacroNodeContext _context) {
-    return Node_FunctionParameter_Behavior.call_getParameterType_5147346160405686358(SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.Node_FunctionParameter"))), _context.getNode());
+    return Node_FunctionParameter_Behavior.call_getParameterType_5147346160405686358(SNodeOperations.asSConcept(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.Node_FunctionParameter")), _context.getNode());
   }
   public static SNode sourceNodeQuery_1614521997361913452(final SourceSubstituteMacroNodeContext _context) {
-    return Node_FunctionParameter_Behavior.call_getParameterType_5147346160405686358(SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.Node_FunctionParameter"))), SNodeOperations.cast(SNodeOperations.getParent(_context.getNode()), MetaAdapterFactory.getConcept(new UUID(-9024322794181865535l, -5381379368254122047l), 8456022385895583119l, "jetbrains.mps.execution.configurations.deprecated.structure.JavaNodeRunConfiguration")));
+    return Node_FunctionParameter_Behavior.call_getParameterType_5147346160405686358(SNodeOperations.asSConcept(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.Node_FunctionParameter")), SNodeOperations.cast(SNodeOperations.getParent(_context.getNode()), MetaAdapterFactory.getConcept(new UUID(-9024322794181865535l, -5381379368254122047l), 8456022385895583119l, "jetbrains.mps.execution.configurations.deprecated.structure.JavaNodeRunConfiguration")));
   }
   public static SNode sourceNodeQuery_2392137962931159149(final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(new UUID(-9024322794181865535l, -5381379368254122047l), 314981645426569350l, 314981645426569359l, "checkBlock"));
@@ -293,7 +291,7 @@ public class QueriesGenerated {
     }), MetaAdapterFactory.getContainmentLink(new UUID(-935030926396207931l, -6610165693999523818l), 1068580123132l, 1068580123135l, "body"));
   }
   public static void mappingScript_CodeBlock_7549816165173146547(final MappingScriptContext _context) {
-    for (SNode configuration : ListSequence.fromList(SModelOperations.getRoots(_context.getModel(), "jetbrains.mps.execution.configurations.deprecated.structure.JavaRunConfiguration"))) {
+    for (SNode configuration : ListSequence.fromList(SModelOperations.roots(_context.getModel(), MetaAdapterFactory.getConcept(new UUID(-9024322794181865535l, -5381379368254122047l), 655818460756091959l, "jetbrains.mps.execution.configurations.deprecated.structure.JavaRunConfiguration")))) {
       for (SNode componentRef : ListSequence.fromList(SNodeOperations.getNodeDescendants(configuration, MetaAdapterFactory.getConcept(new UUID(-9024322794181865535l, -5381379368254122047l), 314981645426569161l, "jetbrains.mps.execution.configurations.deprecated.structure.ComponentReference"), false, new SConcept[]{}))) {
         if ((SNodeOperations.getNodeAncestor(componentRef, MetaAdapterFactory.getConcept(new UUID(-9024322794181865535l, -5381379368254122047l), 314981645426569207l, "jetbrains.mps.execution.configurations.deprecated.structure.AbstractEnhancedConceptFunction"), false, false) != null)) {
           AttributeOperations.createAndSetAttrbiute(componentRef, new IAttributeDescriptor.NodeAttribute("jetbrains.mps.execution.configurations.deprecated.structure.UserComponentReferenceAnnotation"), "jetbrains.mps.execution.configurations.deprecated.structure.UserComponentReferenceAnnotation");
@@ -304,7 +302,7 @@ public class QueriesGenerated {
     }
   }
   public static void mappingScript_CodeBlock_9192672578696349737(final MappingScriptContext _context) {
-    for (SNode config : ListSequence.fromList(SModelOperations.getRoots(_context.getModel(), "jetbrains.mps.execution.configurations.deprecated.structure.JavaNodeRunConfiguration"))) {
+    for (SNode config : ListSequence.fromList(SModelOperations.roots(_context.getModel(), MetaAdapterFactory.getConcept(new UUID(-9024322794181865535l, -5381379368254122047l), 8456022385895583119l, "jetbrains.mps.execution.configurations.deprecated.structure.JavaNodeRunConfiguration")))) {
       if ((SLinkOperations.getTarget(config, MetaAdapterFactory.getContainmentLink(new UUID(-9024322794181865535l, -5381379368254122047l), 8456022385895583119l, 4462513030604064304l, "isApplicableBlock")) != null)) {
         for (SNode statement : ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(SLinkOperations.getTarget(config, MetaAdapterFactory.getContainmentLink(new UUID(-9024322794181865535l, -5381379368254122047l), 8456022385895583119l, 4462513030604064304l, "isApplicableBlock")), MetaAdapterFactory.getContainmentLink(new UUID(-935030926396207931l, -6610165693999523818l), 1137021947720l, 1137022507850l, "body")), MetaAdapterFactory.getContainmentLink(new UUID(-935030926396207931l, -6610165693999523818l), 1068580123136l, 1068581517665l, "statement")))) {
           SNode expStatement = SNodeOperations.cast(statement, MetaAdapterFactory.getConcept(new UUID(-935030926396207931l, -6610165693999523818l), 1068580123155l, "jetbrains.mps.baseLanguage.structure.ExpressionStatement"));

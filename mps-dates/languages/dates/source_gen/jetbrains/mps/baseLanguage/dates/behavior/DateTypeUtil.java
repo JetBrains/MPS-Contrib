@@ -107,7 +107,7 @@ public class DateTypeUtil {
     return false;
   }
   public static List<SNode> findDateTimeProperties(SModel model) {
-    return SModelOperations.getNodesIncludingImported(model, "jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeProperty");
+    return SModelOperations.nodesIncludingImported(model, MetaAdapterFactory.getConcept(new UUID(1842350883898016625l, -7531592358064104734l), 1172074318583l, "jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeProperty"));
   }
   public static SNode getContainingPeriod(SNode expr) {
     SNode current = expr;

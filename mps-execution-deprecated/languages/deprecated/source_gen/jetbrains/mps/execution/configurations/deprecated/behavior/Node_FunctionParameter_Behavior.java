@@ -6,8 +6,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import java.util.UUID;
-import org.jetbrains.mps.openapi.language.SConceptRepository;
-import jetbrains.mps.util.NameUtil;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
@@ -19,17 +17,17 @@ public class Node_FunctionParameter_Behavior {
   }
   public static SNode virtual_getParameterType_1810772216404820824(SNode thisNode) {
     SNode runConfig = SNodeOperations.getNodeAncestor(thisNode, MetaAdapterFactory.getConcept(new UUID(-9024322794181865535l, -5381379368254122047l), 8456022385895583119l, "jetbrains.mps.execution.configurations.deprecated.structure.JavaNodeRunConfiguration"), false, true);
-    return Node_FunctionParameter_Behavior.call_getParameterType_5147346160405686358(SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.Node_FunctionParameter"))), runConfig);
+    return Node_FunctionParameter_Behavior.call_getParameterType_5147346160405686358(SNodeOperations.asSConcept(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.Node_FunctionParameter")), runConfig);
   }
   public static String virtual_getVariableForExecuteBlockName_1810772216404807669(SNode thisNode) {
-    return Node_FunctionParameter_Behavior.call_getVariableForExecuteBlockNameStatic_281656731534771380(SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.Node_FunctionParameter"))));
+    return Node_FunctionParameter_Behavior.call_getVariableForExecuteBlockNameStatic_281656731534771380(SNodeOperations.asSConcept(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.Node_FunctionParameter")));
   }
   public static String call_getVariableForExecuteBlockNameStatic_281656731534771380(SAbstractConcept thisConcept) {
     return "node";
   }
   public static SNode call_getParameterType_5147346160405686358(SAbstractConcept thisConcept, SNode runConfig) {
     if ((runConfig != null)) {
-      SNode nodeType = SConceptOperations.createNewNode("jetbrains.mps.lang.smodel.structure.SNodeType", null);
+      SNode nodeType = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(new UUID(8675788371017092295l, -9098312342032910879l), 1138055754698l, "jetbrains.mps.lang.smodel.structure.SNodeType"));
       SLinkOperations.setTarget(nodeType, MetaAdapterFactory.getReferenceLink(new UUID(8675788371017092295l, -9098312342032910879l), 1138055754698l, 1138405853777l, "concept"), SLinkOperations.getTarget(runConfig, MetaAdapterFactory.getReferenceLink(new UUID(-9024322794181865535l, -5381379368254122047l), 8456022385895583119l, 3607966867310500324l, "conceptDeclaration")));
       return nodeType;
     }

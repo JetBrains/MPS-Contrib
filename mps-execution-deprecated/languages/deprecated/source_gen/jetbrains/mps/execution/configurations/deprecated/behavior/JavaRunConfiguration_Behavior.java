@@ -7,8 +7,7 @@ import java.util.List;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
-import org.jetbrains.mps.openapi.language.SConceptRepository;
-import jetbrains.mps.util.NameUtil;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import java.util.UUID;
@@ -27,7 +26,7 @@ public class JavaRunConfiguration_Behavior {
     return parameters;
   }
   public static String call_getParameterFieldName_8126994885493113070(SNode thisNode) {
-    return JavaConfigurationRunParameters_FunctionParameter_Behavior.call_getGeneratedFieldName_8126994885493110313(SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.JavaConfigurationRunParameters_FunctionParameter"))));
+    return JavaConfigurationRunParameters_FunctionParameter_Behavior.call_getGeneratedFieldName_8126994885493110313(SNodeOperations.asSConcept(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.JavaConfigurationRunParameters_FunctionParameter")));
   }
   public static SNode virtual_getStateType_314981645426570519(SNode thisNode) {
     if (SPropertyOperations.getBoolean(thisNode, MetaAdapterFactory.getProperty(new UUID(-9024322794181865535l, -5381379368254122047l), 314981645426569350l, 314981645426569370l, "isDebuggable"))) {

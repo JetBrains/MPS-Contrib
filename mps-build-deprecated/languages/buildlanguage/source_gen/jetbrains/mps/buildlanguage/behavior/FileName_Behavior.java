@@ -13,7 +13,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class FileName_Behavior {
   public static void init(SNode thisNode) {
-    SLinkOperations.setTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1199031681512l, 1199031757132l, "value"), SConceptOperations.createNewNode("jetbrains.mps.buildlanguage.structure.StringLiteral", null));
+    SLinkOperations.setTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1199031681512l, 1199031757132l, "value"), SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1196861005114l, "jetbrains.mps.buildlanguage.structure.StringLiteral")));
   }
   public static String virtual_toString_1213877472569(SNode thisNode) {
     if ((SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1199031681512l, 1199031757132l, "value")) == null)) {

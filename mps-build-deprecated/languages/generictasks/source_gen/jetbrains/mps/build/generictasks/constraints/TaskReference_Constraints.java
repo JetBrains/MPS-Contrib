@@ -18,8 +18,8 @@ import jetbrains.mps.smodel.runtime.ReferenceConstraintsContext;
 import java.util.List;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import java.util.ArrayList;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.smodel.search.SimpleSearchScope;
@@ -44,7 +44,7 @@ public class TaskReference_Constraints extends BaseConstraintsDescriptor {
         return new BaseReferenceScopeProvider() {
           @Override
           public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
-            List<SNode> decls = SModelOperations.getNodesIncludingImported(_context.getModel(), "jetbrains.mps.buildlanguage.structure.IDeclaration");
+            List<SNode> decls = SModelOperations.nodesIncludingImported(_context.getModel(), MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 5699548131010533022l, "jetbrains.mps.buildlanguage.structure.IDeclaration"));
             if (SNodeOperations.isInstanceOf(_context.getEnclosingNode(), MetaAdapterFactory.getConcept(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643486l, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration")) && SNodeOperations.hasRole(_context.getReferenceNode(), MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643486l, 353793545802643491l, "fakeDeclaration"))) {
               List<SNode> newDecls = new ArrayList<SNode>();
               for (SNode decl : ListSequence.fromList(decls)) {

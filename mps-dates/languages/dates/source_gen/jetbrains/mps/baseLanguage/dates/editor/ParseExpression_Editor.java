@@ -26,8 +26,6 @@ import jetbrains.mps.baseLanguage.datesInternal.editor.DatesInternal_StyleSheet;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Property;
 import jetbrains.mps.nodeEditor.cells.ModelAccessor;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
-import org.jetbrains.mps.openapi.language.SConceptRepository;
-import jetbrains.mps.util.NameUtil;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.util.EqualUtil;
 import jetbrains.mps.openapi.editor.cells.CellActionType;
@@ -247,7 +245,7 @@ public class ParseExpression_Editor extends DefaultNodeEditor {
   private EditorCell createReadOnlyModelAccessor_xn2ov4_a3a(final EditorContext editorContext, final SNode node) {
     EditorCell_Property editorCell = EditorCell_Property.create(editorContext, new ModelAccessor() {
       public String getText() {
-        return BehaviorReflection.invokeVirtualStatic(String.class, SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SNodeOperations.getConceptDeclaration(node))), "virtual_getDefaultKeyword_1262430001741498121", new Object[]{});
+        return BehaviorReflection.invokeVirtualStatic(String.class, SNodeOperations.asSConcept(SNodeOperations.getConceptDeclaration(node)), "virtual_getDefaultKeyword_1262430001741498121", new Object[]{});
       }
       public void setText(String s) {
       }

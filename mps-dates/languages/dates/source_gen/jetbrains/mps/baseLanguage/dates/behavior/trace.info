@@ -455,98 +455,98 @@
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903ce(jetbrains.mps.baseLanguage.dates.behavior)/1213877526003">
     <file name="DateTimeCompareOperation_Behavior.java">
-      <node id="1213877526389" at="26,79,27,401" concept="5" />
-      <node id="1213877526402" at="29,78,30,202" concept="4" />
-      <node id="1213877526410" at="31,29,32,321" concept="2" />
-      <node id="1213877526421" at="33,5,34,20" concept="5" />
-      <node id="1213877526426" at="36,65,37,223" concept="5" />
-      <node id="1213877526436" at="39,65,40,227" concept="5" />
-      <node id="1213877526446" at="42,65,43,221" concept="5" />
-      <node id="1213877526456" at="45,65,46,224" concept="5" />
-      <node id="1213877526466" at="48,65,49,231" concept="5" />
-      <node id="1213877526476" at="51,65,52,234" concept="5" />
-      <node id="3044950653914717070" at="54,114,55,71" concept="4" />
-      <node id="3359984355452171377" at="55,71,56,257" concept="2" />
-      <node id="3044950653914717082" at="56,257,57,18" concept="5" />
-      <node id="3359984355452619641" at="59,63,60,63" concept="4" />
-      <node id="3359984355452619641" at="60,63,61,30" concept="4" />
-      <node id="3359984355452619641" at="61,30,62,30" concept="4" />
-      <node id="3359984355452619641" at="62,30,63,144" concept="2" />
-      <node id="3359984355452619641" at="63,144,64,508" concept="2" />
-      <node id="3359984355452619641" at="64,508,65,139" concept="2" />
-      <node id="3359984355452619641" at="65,139,66,180" concept="2" />
-      <node id="3359984355452619641" at="66,180,67,176" concept="2" />
-      <node id="3359984355452619641" at="67,176,68,24" concept="5" />
-      <node id="1213877526003" at="24,0,26,0" concept="7" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-      <node id="1213877526003" at="26,0,29,0" concept="7" trace="call_hasMillisPrecision_1213877526386#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-      <node id="1213877526408" at="30,202,33,5" concept="3" />
-      <node id="1213877526003" at="36,0,39,0" concept="7" trace="call_isEQ_1213877526423#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-      <node id="1213877526003" at="39,0,42,0" concept="7" trace="call_isNE_1213877526433#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-      <node id="1213877526003" at="42,0,45,0" concept="7" trace="call_isLT_1213877526443#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-      <node id="1213877526003" at="45,0,48,0" concept="7" trace="call_isGT_1213877526453#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-      <node id="1213877526003" at="48,0,51,0" concept="7" trace="call_isLE_1213877526463#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-      <node id="1213877526003" at="51,0,54,0" concept="7" trace="call_isGE_1213877526473#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-      <node id="3359984355452619641" at="64,508,67,176" concept="0" />
-      <node id="3359984355452619641" at="64,508,67,176" concept="0" />
-      <node id="1213877526003" at="54,0,59,0" concept="7" trace="virtual_getDefaultDatetimeProperty_3044950653914717067#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)Ljava/util/List;" />
-      <node id="3359984355452619641" at="62,30,67,176" concept="0" />
-      <node id="3359984355452619641" at="62,30,67,176" concept="0" />
-      <node id="1213877526003" at="29,0,36,0" concept="7" trace="call_getDatetimeProperty_1213877526399#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-      <node id="3359984355452619641" at="59,0,70,0" concept="7" trace="_quotation_createNode_abxvt6_a0a0b0i#()Lorg/jetbrains/mps/openapi/model/SNode;" />
-      <scope id="1213877526484" at="24,43,24,43" />
-      <scope id="1213877526388" at="26,79,27,401" />
-      <scope id="1213877526409" at="31,29,32,321" />
-      <scope id="1213877526425" at="36,65,37,223" />
-      <scope id="1213877526435" at="39,65,40,227" />
-      <scope id="1213877526445" at="42,65,43,221" />
-      <scope id="1213877526455" at="45,65,46,224" />
-      <scope id="1213877526465" at="48,65,49,231" />
-      <scope id="1213877526475" at="51,65,52,234" />
-      <scope id="1213877526003" at="24,0,26,0">
+      <node id="1213877526389" at="24,79,25,363" concept="5" />
+      <node id="1213877526402" at="27,78,28,202" concept="4" />
+      <node id="1213877526410" at="29,29,30,283" concept="2" />
+      <node id="1213877526421" at="31,5,32,20" concept="5" />
+      <node id="1213877526426" at="34,65,35,223" concept="5" />
+      <node id="1213877526436" at="37,65,38,227" concept="5" />
+      <node id="1213877526446" at="40,65,41,221" concept="5" />
+      <node id="1213877526456" at="43,65,44,224" concept="5" />
+      <node id="1213877526466" at="46,65,47,231" concept="5" />
+      <node id="1213877526476" at="49,65,50,234" concept="5" />
+      <node id="3044950653914717070" at="52,114,53,71" concept="4" />
+      <node id="3359984355452171377" at="53,71,54,257" concept="2" />
+      <node id="3044950653914717082" at="54,257,55,18" concept="5" />
+      <node id="3359984355452619641" at="57,63,58,63" concept="4" />
+      <node id="3359984355452619641" at="58,63,59,30" concept="4" />
+      <node id="3359984355452619641" at="59,30,60,30" concept="4" />
+      <node id="3359984355452619641" at="60,30,61,144" concept="2" />
+      <node id="3359984355452619641" at="61,144,62,508" concept="2" />
+      <node id="3359984355452619641" at="62,508,63,139" concept="2" />
+      <node id="3359984355452619641" at="63,139,64,180" concept="2" />
+      <node id="3359984355452619641" at="64,180,65,176" concept="2" />
+      <node id="3359984355452619641" at="65,176,66,24" concept="5" />
+      <node id="1213877526003" at="22,0,24,0" concept="7" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1213877526003" at="24,0,27,0" concept="7" trace="call_hasMillisPrecision_1213877526386#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="1213877526408" at="28,202,31,5" concept="3" />
+      <node id="1213877526003" at="34,0,37,0" concept="7" trace="call_isEQ_1213877526423#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="1213877526003" at="37,0,40,0" concept="7" trace="call_isNE_1213877526433#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="1213877526003" at="40,0,43,0" concept="7" trace="call_isLT_1213877526443#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="1213877526003" at="43,0,46,0" concept="7" trace="call_isGT_1213877526453#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="1213877526003" at="46,0,49,0" concept="7" trace="call_isLE_1213877526463#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="1213877526003" at="49,0,52,0" concept="7" trace="call_isGE_1213877526473#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="3359984355452619641" at="62,508,65,176" concept="0" />
+      <node id="3359984355452619641" at="62,508,65,176" concept="0" />
+      <node id="1213877526003" at="52,0,57,0" concept="7" trace="virtual_getDefaultDatetimeProperty_3044950653914717067#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)Ljava/util/List;" />
+      <node id="3359984355452619641" at="60,30,65,176" concept="0" />
+      <node id="3359984355452619641" at="60,30,65,176" concept="0" />
+      <node id="1213877526003" at="27,0,34,0" concept="7" trace="call_getDatetimeProperty_1213877526399#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="3359984355452619641" at="57,0,68,0" concept="7" trace="_quotation_createNode_abxvt6_a0a0b0i#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <scope id="1213877526484" at="22,43,22,43" />
+      <scope id="1213877526388" at="24,79,25,363" />
+      <scope id="1213877526409" at="29,29,30,283" />
+      <scope id="1213877526425" at="34,65,35,223" />
+      <scope id="1213877526435" at="37,65,38,227" />
+      <scope id="1213877526445" at="40,65,41,221" />
+      <scope id="1213877526455" at="43,65,44,224" />
+      <scope id="1213877526465" at="46,65,47,231" />
+      <scope id="1213877526475" at="49,65,50,234" />
+      <scope id="1213877526003" at="22,0,24,0">
         <var name="thisNode" id="1213877526003" />
       </scope>
-      <scope id="1213877526003" at="26,0,29,0">
+      <scope id="1213877526003" at="24,0,27,0">
         <var name="thisNode" id="1213877526003" />
       </scope>
-      <scope id="1213877526003" at="36,0,39,0">
+      <scope id="1213877526003" at="34,0,37,0">
         <var name="thisNode" id="1213877526003" />
       </scope>
-      <scope id="1213877526003" at="39,0,42,0">
+      <scope id="1213877526003" at="37,0,40,0">
         <var name="thisNode" id="1213877526003" />
       </scope>
-      <scope id="1213877526003" at="42,0,45,0">
+      <scope id="1213877526003" at="40,0,43,0">
         <var name="thisNode" id="1213877526003" />
       </scope>
-      <scope id="1213877526003" at="45,0,48,0">
+      <scope id="1213877526003" at="43,0,46,0">
         <var name="thisNode" id="1213877526003" />
       </scope>
-      <scope id="1213877526003" at="48,0,51,0">
+      <scope id="1213877526003" at="46,0,49,0">
         <var name="thisNode" id="1213877526003" />
       </scope>
-      <scope id="1213877526003" at="51,0,54,0">
+      <scope id="1213877526003" at="49,0,52,0">
         <var name="thisNode" id="1213877526003" />
       </scope>
-      <scope id="3044950653914717069" at="54,114,57,18">
+      <scope id="3044950653914717069" at="52,114,55,18">
         <var name="result" id="3044950653914717071" />
       </scope>
-      <scope id="3359984355452619641" at="64,508,67,176" />
-      <scope id="1213877526401" at="29,78,34,20">
+      <scope id="3359984355452619641" at="62,508,65,176" />
+      <scope id="1213877526401" at="27,78,32,20">
         <var name="property" id="1213877526403" />
       </scope>
-      <scope id="1213877526003" at="54,0,59,0">
+      <scope id="1213877526003" at="52,0,57,0">
         <var name="thisConcept" id="1213877526003" />
       </scope>
-      <scope id="3359984355452619641" at="62,30,67,176" />
-      <scope id="1213877526003" at="29,0,36,0">
+      <scope id="3359984355452619641" at="60,30,65,176" />
+      <scope id="1213877526003" at="27,0,34,0">
         <var name="thisNode" id="1213877526003" />
       </scope>
-      <scope id="3359984355452619641" at="59,63,68,24">
+      <scope id="3359984355452619641" at="57,63,66,24">
         <var name="facade" id="3359984355452619641" />
         <var name="quotedNode_1" id="3359984355452619641" />
         <var name="quotedNode_2" id="3359984355452619641" />
       </scope>
-      <scope id="3359984355452619641" at="59,0,70,0" />
-      <unit id="1213877526003" at="23,0,71,0" name="jetbrains.mps.baseLanguage.dates.behavior.DateTimeCompareOperation_Behavior" />
+      <scope id="3359984355452619641" at="57,0,68,0" />
+      <unit id="1213877526003" at="21,0,69,0" name="jetbrains.mps.baseLanguage.dates.behavior.DateTimeCompareOperation_Behavior" />
     </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903ce(jetbrains.mps.baseLanguage.dates.behavior)/1224665495957">
@@ -691,30 +691,30 @@
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903ce(jetbrains.mps.baseLanguage.dates.behavior)/1239206692654">
     <file name="WithPropertyCompareExpression_Behavior.java">
-      <node id="1239206693910" at="21,78,22,202" concept="4" />
-      <node id="1239206693918" at="23,29,24,321" concept="2" />
-      <node id="1239206693929" at="25,5,26,20" concept="5" />
-      <node id="3044950653914717027" at="28,114,29,57" concept="5" />
-      <node id="1239206692654" at="19,0,21,0" concept="7" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-      <node id="1239206693916" at="22,202,25,5" concept="3" />
-      <node id="1239206692654" at="28,0,31,0" concept="7" trace="virtual_getDefaultDatetimeProperty_3044950653914717024#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)Ljava/util/List;" />
-      <node id="1239206692654" at="21,0,28,0" concept="7" trace="call_getDatetimeProperty_1239206693907#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-      <scope id="1239206692656" at="19,43,19,43" />
-      <scope id="1239206693917" at="23,29,24,321" />
-      <scope id="3044950653914717026" at="28,114,29,57" />
-      <scope id="1239206692654" at="19,0,21,0">
+      <node id="1239206693910" at="19,78,20,202" concept="4" />
+      <node id="1239206693918" at="21,29,22,283" concept="2" />
+      <node id="1239206693929" at="23,5,24,20" concept="5" />
+      <node id="3044950653914717027" at="26,114,27,57" concept="5" />
+      <node id="1239206692654" at="17,0,19,0" concept="7" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1239206693916" at="20,202,23,5" concept="3" />
+      <node id="1239206692654" at="26,0,29,0" concept="7" trace="virtual_getDefaultDatetimeProperty_3044950653914717024#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)Ljava/util/List;" />
+      <node id="1239206692654" at="19,0,26,0" concept="7" trace="call_getDatetimeProperty_1239206693907#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <scope id="1239206692656" at="17,43,17,43" />
+      <scope id="1239206693917" at="21,29,22,283" />
+      <scope id="3044950653914717026" at="26,114,27,57" />
+      <scope id="1239206692654" at="17,0,19,0">
         <var name="thisNode" id="1239206692654" />
       </scope>
-      <scope id="1239206692654" at="28,0,31,0">
+      <scope id="1239206692654" at="26,0,29,0">
         <var name="thisConcept" id="1239206692654" />
       </scope>
-      <scope id="1239206693909" at="21,78,26,20">
+      <scope id="1239206693909" at="19,78,24,20">
         <var name="property" id="1239206693911" />
       </scope>
-      <scope id="1239206692654" at="21,0,28,0">
+      <scope id="1239206692654" at="19,0,26,0">
         <var name="thisNode" id="1239206692654" />
       </scope>
-      <unit id="1239206692654" at="18,0,32,0" name="jetbrains.mps.baseLanguage.dates.behavior.WithPropertyCompareExpression_Behavior" />
+      <unit id="1239206692654" at="16,0,30,0" name="jetbrains.mps.baseLanguage.dates.behavior.WithPropertyCompareExpression_Behavior" />
     </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903ce(jetbrains.mps.baseLanguage.dates.behavior)/1262430001741498124">
@@ -735,8 +735,8 @@
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903ce(jetbrains.mps.baseLanguage.dates.behavior)/3044950653914724856">
     <file name="TokenCondition_Behavior.java">
-      <node id="3044950653914724835" at="17,125,18,261" concept="4" />
-      <node id="3044950653914724850" at="18,261,19,179" concept="2" />
+      <node id="3044950653914724835" at="17,125,18,289" concept="4" />
+      <node id="3044950653914724850" at="18,289,19,179" concept="2" />
       <node id="3044950653914724854" at="19,179,20,18" concept="5" />
       <node id="8629799033815585200" at="22,83,23,47" concept="5" />
       <node id="8629799033815585196" at="25,60,26,63" concept="4" />
@@ -959,7 +959,7 @@
       <node id="3086205941497649594" at="100,9,101,91" concept="5" />
       <node id="3086205941497649604" at="103,42,104,62" concept="2" />
       <node id="3086205941497649607" at="106,5,107,17" concept="5" />
-      <node id="5251619021093068884" at="109,66,110,132" concept="5" />
+      <node id="5251619021093068884" at="109,66,110,231" concept="5" />
       <node id="5251619021093068898" at="112,55,113,25" concept="4" />
       <node id="5251619021093068915" at="114,250,115,455" concept="2" />
       <node id="5251619021093068930" at="116,5,117,19" concept="5" />
@@ -1090,7 +1090,7 @@
       <scope id="3086205941497649580" at="97,24,98,19" />
       <scope id="3086205941497649593" at="100,9,101,91" />
       <scope id="3086205941497649604" at="103,42,104,62" />
-      <scope id="5251619021093068883" at="109,66,110,132" />
+      <scope id="5251619021093068883" at="109,66,110,231" />
       <scope id="5251619021093068914" at="114,250,115,455" />
       <scope id="5251619021093068949" at="123,401,124,205" />
       <scope id="5251619021093068975" at="127,14,128,457" />

@@ -85,7 +85,7 @@ public class SchemaUtil {
     }
   }
   public static SNode constructXMLElementType(SNode complexType) {
-    SNode type = SConceptOperations.createNewNode("jetbrains.mps.xmlQuery.structure.XMLElementType", null);
+    SNode type = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(new UUID(-6269610502768541194l, -6018622628950326671l), 4815471077468621637l, "jetbrains.mps.xmlQuery.structure.XMLElementType"));
     if (complexType != null) {
       SLinkOperations.setTarget(type, MetaAdapterFactory.getReferenceLink(new UUID(-6269610502768541194l, -6018622628950326671l), 4815471077468621637l, 4815471077468621639l, "schema"), SNodeOperations.getNodeAncestor(complexType, MetaAdapterFactory.getConcept(new UUID(-5396545995874219192l, -5548206827574227681l), 1167513239198l, "jetbrains.mps.xmlSchema.structure.Schema"), false, false));
       SLinkOperations.setTarget(type, MetaAdapterFactory.getReferenceLink(new UUID(-6269610502768541194l, -6018622628950326671l), 4815471077468621637l, 4815471077468621640l, "complexType"), complexType);

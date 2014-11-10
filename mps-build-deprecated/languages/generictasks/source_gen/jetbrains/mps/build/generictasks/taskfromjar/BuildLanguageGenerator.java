@@ -4,9 +4,9 @@ package jetbrains.mps.build.generictasks.taskfromjar;
 
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import java.util.UUID;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import org.jetbrains.mps.openapi.persistence.PersistenceFacade;
 import jetbrains.mps.smodel.SModelUtil_new;
@@ -17,14 +17,14 @@ public class BuildLanguageGenerator {
   private BuildLanguageGenerator() {
   }
   public SNode createInterfaceDeclaration(String declName, String className, boolean isDeprecated) {
-    SNode decl = SConceptOperations.createNewNode("jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration", null);
+    SNode decl = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643483l, "jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration"));
     SPropertyOperations.set(decl, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name"), declName);
     SPropertyOperations.set(decl, MetaAdapterFactory.getProperty(new UUID(-314238378988976676l, -6739106179126467998l), 5699548131010533020l, 7699562953468509836l, "classname"), className);
     SPropertyOperations.set(decl, MetaAdapterFactory.getProperty(new UUID(-314238378988976676l, -6739106179126467998l), 5699548131010533020l, 7699562953468509839l, "depracated"), "" + (isDeprecated));
     return decl;
   }
   public SNode createDeclaration(String declName, String className, boolean isAbstract, boolean canHaveInternalText, boolean isDeprecated) {
-    SNode decl = SConceptOperations.createNewNode("jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration", null);
+    SNode decl = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643486l, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration"));
     SPropertyOperations.set(decl, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name"), declName);
     SPropertyOperations.set(decl, MetaAdapterFactory.getProperty(new UUID(-314238378988976676l, -6739106179126467998l), 5699548131010533020l, 7699562953468509836l, "classname"), className);
     SPropertyOperations.set(decl, MetaAdapterFactory.getProperty(new UUID(-314238378988976676l, -6739106179126467998l), 5699548131010533020l, 7699562953468509838l, "abstract"), "" + (isAbstract));
@@ -36,7 +36,7 @@ public class BuildLanguageGenerator {
     return _quotation_createNode_moyhg6_a0a4(decl);
   }
   public SNode createAttributeDeclaration(String name, SNode type) {
-    SNode res = SConceptOperations.createNewNode("jetbrains.mps.build.generictasks.structure.AttributeDeclaration", null);
+    SNode res = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643469l, "jetbrains.mps.build.generictasks.structure.AttributeDeclaration"));
     SPropertyOperations.set(res, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name"), name);
     SLinkOperations.setTarget(res, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643469l, 353793545802643473l, "attributeType"), type);
     return res;

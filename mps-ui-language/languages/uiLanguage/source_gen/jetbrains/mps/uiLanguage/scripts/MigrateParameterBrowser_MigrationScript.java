@@ -11,10 +11,10 @@ import jetbrains.mps.smodel.SModelRepository;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.internal.collections.runtime.IWhereFilter;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import java.util.UUID;
+import jetbrains.mps.internal.collections.runtime.IWhereFilter;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.DynamicReference;
 import jetbrains.mps.lang.pattern.IMatchingPattern;
 import jetbrains.mps.lang.typesystem.runtime.HUtil;
@@ -41,7 +41,7 @@ public class MigrateParameterBrowser_MigrationScript extends BaseMigrationScript
         return reference != null && reference.getTargetSModelReference().equals(SModelRepository.getInstance().getModelDescriptor("jetbrains.mps.execution.lib.ui").getReference()) && reference.getTargetNodeId().toString().contains("1240470842553500411");
       }
       public void doUpdateInstanceNode(SNode node) {
-        SNode parameterBrowserDeclaration = ListSequence.fromList(SModelOperations.getRoots(SNodeOperations.getModel(node), "jetbrains.mps.uiLanguage.structure.ComponentDeclaration")).findFirst(new IWhereFilter<SNode>() {
+        SNode parameterBrowserDeclaration = ListSequence.fromList(SModelOperations.roots(SNodeOperations.getModel(node), MetaAdapterFactory.getConcept(new UUID(6731736082390534803l, -6860703902218146233l), 1202387718766l, "jetbrains.mps.uiLanguage.structure.ComponentDeclaration"))).findFirst(new IWhereFilter<SNode>() {
           public boolean accept(SNode it) {
             return SPropertyOperations.getString(it, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name")).equals("ParameterBrowser");
           }

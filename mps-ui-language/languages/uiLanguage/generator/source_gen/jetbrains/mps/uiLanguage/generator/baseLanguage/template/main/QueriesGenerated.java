@@ -405,7 +405,7 @@ public class QueriesGenerated {
     return ComponentDeclaration_Behavior.call_getDeclaredAttributes_1213877495390(_context.getNode());
   }
   public static Iterable<SNode> sourceNodesQuery_2011805327139382626(final SourceSubstituteMacroNodesContext _context) {
-    return ListSequence.fromList(SModelOperations.getRoots(_context.getInputModel(), "jetbrains.mps.uiLanguage.structure.ComponentController")).where(new IWhereFilter<SNode>() {
+    return ListSequence.fromList(SModelOperations.roots(_context.getInputModel(), MetaAdapterFactory.getConcept(new UUID(6731736082390534803l, -6860703902218146233l), 1202388384249l, "jetbrains.mps.uiLanguage.structure.ComponentController"))).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
         return eq_x583g4_a0a0a0a0a0a0a311(SLinkOperations.getTarget(it, MetaAdapterFactory.getReferenceLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202388384249l, 1202388401455l, "component")), _context.getNode());
       }
@@ -416,7 +416,7 @@ public class QueriesGenerated {
     });
   }
   public static Iterable<SNode> sourceNodesQuery_2011805327139382743(final SourceSubstituteMacroNodesContext _context) {
-    Iterable<SNode> allEvents = ListSequence.fromList(SModelOperations.getRoots(_context.getInputModel(), "jetbrains.mps.uiLanguage.structure.ComponentController")).where(new IWhereFilter<SNode>() {
+    Iterable<SNode> allEvents = ListSequence.fromList(SModelOperations.roots(_context.getInputModel(), MetaAdapterFactory.getConcept(new UUID(6731736082390534803l, -6860703902218146233l), 1202388384249l, "jetbrains.mps.uiLanguage.structure.ComponentController"))).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
         return eq_x583g4_a0a0a0a0a0a0a0ke(SLinkOperations.getTarget(it, MetaAdapterFactory.getReferenceLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202388384249l, 1202388401455l, "component")), _context.getNode());
       }

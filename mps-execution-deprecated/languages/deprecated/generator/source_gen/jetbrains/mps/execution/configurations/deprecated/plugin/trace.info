@@ -90,7 +90,7 @@
       </scope>
       <scope id="8173163127951938047" at="96,112,100,234" />
       <scope id="314981645427224122" at="543,119,548,7" />
-      <unit id="314981645427224131" at="544,207,548,5" name="jetbrains.mps.execution.configurations.deprecated.plugin.QueriesGenerated$2" />
+      <unit id="314981645427224131" at="544,312,548,5" name="jetbrains.mps.execution.configurations.deprecated.plugin.QueriesGenerated$2" />
     </file>
   </root>
   <root nodeRef="r:b98c22e2-bfcd-40d7-9c1f-9a32895cb7de(jetbrains.mps.execution.configurations.deprecated.plugin@generator)/314981645427224215">
@@ -135,27 +135,27 @@
       <node id="314981645427224527" at="238,108,239,195" concept="6" />
       <node id="314981645427224636" at="241,108,242,106" concept="6" />
       <node id="314981645427224662" at="244,108,245,198" concept="6" />
-      <node id="314981645427224501" at="359,93,360,194" concept="6" />
-      <node id="314981645427224594" at="362,93,363,188" concept="6" />
-      <node id="314981645427224551" at="550,119,551,158" concept="6" />
+      <node id="314981645427224501" at="359,93,360,299" concept="6" />
+      <node id="314981645427224594" at="362,93,363,293" concept="6" />
+      <node id="314981645427224551" at="550,119,551,263" concept="6" />
       <node id="314981645427224573" at="555,39,556,90" concept="6" />
-      <node id="314981645427224683" at="560,119,561,152" concept="6" />
+      <node id="314981645427224683" at="560,119,561,257" concept="6" />
       <node id="314981645427224571" at="555,0,558,0" concept="4" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
       <node id="314981645427224563" at="553,119,558,7" concept="6" />
       <scope id="314981645427224516" at="235,108,236,103" />
       <scope id="314981645427224526" at="238,108,239,195" />
       <scope id="314981645427224616" at="241,108,242,106" />
       <scope id="314981645427224642" at="244,108,245,198" />
-      <scope id="314981645427224500" at="359,93,360,194" />
-      <scope id="314981645427224593" at="362,93,363,188" />
-      <scope id="314981645427224550" at="550,119,551,158" />
+      <scope id="314981645427224500" at="359,93,360,299" />
+      <scope id="314981645427224593" at="362,93,363,293" />
+      <scope id="314981645427224550" at="550,119,551,263" />
       <scope id="314981645427224572" at="555,39,556,90" />
-      <scope id="314981645427224682" at="560,119,561,152" />
+      <scope id="314981645427224682" at="560,119,561,257" />
       <scope id="314981645427224571" at="555,0,558,0">
         <var name="it" id="314981645427224571" />
       </scope>
       <scope id="314981645427224562" at="553,119,558,7" />
-      <unit id="314981645427224571" at="554,187,558,5" name="jetbrains.mps.execution.configurations.deprecated.plugin.QueriesGenerated$3" />
+      <unit id="314981645427224571" at="554,292,558,5" name="jetbrains.mps.execution.configurations.deprecated.plugin.QueriesGenerated$3" />
     </file>
   </root>
   <root nodeRef="r:b98c22e2-bfcd-40d7-9c1f-9a32895cb7de(jetbrains.mps.execution.configurations.deprecated.plugin@generator)/314981645427224754">
@@ -315,7 +315,7 @@
         <var name="it" id="314981645427225816" />
       </scope>
       <scope id="314981645427225782" at="46,107,51,20" />
-      <unit id="314981645427225816" at="47,553,51,5" name="jetbrains.mps.execution.configurations.deprecated.plugin.QueriesGenerated$1" />
+      <unit id="314981645427225816" at="47,868,51,5" name="jetbrains.mps.execution.configurations.deprecated.plugin.QueriesGenerated$1" />
     </file>
   </root>
   <root nodeRef="r:b98c22e2-bfcd-40d7-9c1f-9a32895cb7de(jetbrains.mps.execution.configurations.deprecated.plugin@generator)/314981645427226025">
@@ -343,7 +343,7 @@
       <scope id="314981645427226027" at="615,102,627,5">
         <var name="executeBlocks" id="314981645427226029" />
       </scope>
-      <unit id="314981645427226037" at="616,126,620,5" name="jetbrains.mps.execution.configurations.deprecated.plugin.QueriesGenerated$5" />
+      <unit id="314981645427226037" at="616,123,620,5" name="jetbrains.mps.execution.configurations.deprecated.plugin.QueriesGenerated$5" />
     </file>
   </root>
   <root nodeRef="r:b98c22e2-bfcd-40d7-9c1f-9a32895cb7de(jetbrains.mps.execution.configurations.deprecated.plugin@generator)/314981645427226087">
@@ -453,7 +453,7 @@
         <var name="it" id="314981645427226663" />
       </scope>
       <scope id="314981645427226654" at="584,119,589,7" />
-      <unit id="314981645427226663" at="585,187,589,5" name="jetbrains.mps.execution.configurations.deprecated.plugin.QueriesGenerated$4" />
+      <unit id="314981645427226663" at="585,292,589,5" name="jetbrains.mps.execution.configurations.deprecated.plugin.QueriesGenerated$4" />
     </file>
   </root>
   <root nodeRef="r:b98c22e2-bfcd-40d7-9c1f-9a32895cb7de(jetbrains.mps.execution.configurations.deprecated.plugin@generator)/314981645427226678">

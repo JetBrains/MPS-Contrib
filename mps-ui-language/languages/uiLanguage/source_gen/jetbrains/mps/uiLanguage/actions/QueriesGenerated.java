@@ -17,7 +17,6 @@ import java.util.Iterator;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import org.jetbrains.mps.util.Condition;
-import jetbrains.mps.util.NameUtil;
 
 public class QueriesGenerated {
   public static List<SubstituteAction> nodeSubstituteActionsBuilder_ActionsFactory_Expression_1208687287576(final IOperationContext operationContext, final NodeSubstituteActionsFactoryContext _context) {
@@ -38,7 +37,7 @@ public class QueriesGenerated {
           return !(SConceptOperations.isExactly(SNodeOperations.asSConcept(concept), MetaAdapterFactory.getConcept(new UUID(6731736082390534803l, -6860703902218146233l), 1208685679469l, "jetbrains.mps.uiLanguage.structure.EventHandlerReference")));
         }
       };
-      if (SConceptOperations.isSuperConceptOf(applicableConcept, NameUtil.nodeFQName(outputConcept)) && cond.met(outputConcept)) {
+      if (SConceptOperations.isSuperConceptOf(SNodeOperations.asSConcept(applicableConcept), SNodeOperations.asSConcept(outputConcept)) && cond.met(outputConcept)) {
         actions.remove();
       }
     }

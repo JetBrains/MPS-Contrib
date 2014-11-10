@@ -26,8 +26,6 @@ import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
-import org.jetbrains.mps.openapi.language.SConceptRepository;
-import jetbrains.mps.util.NameUtil;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
@@ -151,7 +149,7 @@ public class RunConfigurationBody implements ConceptEditorComponent {
     return editorCell;
   }
   private static boolean renderingCondition_mrxxs6_a1c0(SNode node, EditorContext editorContext) {
-    return BehaviorReflection.invokeVirtualStatic(Boolean.TYPE, SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SNodeOperations.getConceptDeclaration(node))), "virtual_requiresCustomEditor_1262430001741498265", new Object[]{});
+    return BehaviorReflection.invokeVirtualStatic(Boolean.TYPE, SNodeOperations.asSConcept(SNodeOperations.getConceptDeclaration(node)), "virtual_requiresCustomEditor_1262430001741498265", new Object[]{});
   }
   private EditorCell createRefNode_mrxxs6_c2a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
@@ -173,7 +171,7 @@ public class RunConfigurationBody implements ConceptEditorComponent {
     return editorCell;
   }
   private static boolean renderingCondition_mrxxs6_a2c0(SNode node, EditorContext editorContext) {
-    return !(BehaviorReflection.invokeVirtualStatic(Boolean.TYPE, SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SNodeOperations.getConceptDeclaration(node))), "virtual_requiresCustomEditor_1262430001741498265", new Object[]{}));
+    return !(BehaviorReflection.invokeVirtualStatic(Boolean.TYPE, SNodeOperations.asSConcept(SNodeOperations.getConceptDeclaration(node)), "virtual_requiresCustomEditor_1262430001741498265", new Object[]{}));
   }
   private EditorCell createConstant_mrxxs6_d0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");

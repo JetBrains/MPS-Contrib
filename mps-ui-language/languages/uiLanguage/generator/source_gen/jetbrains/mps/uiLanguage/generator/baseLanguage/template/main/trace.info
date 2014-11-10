@@ -264,9 +264,9 @@
       <scope id="2011805327139382744" at="418,120,432,7">
         <var name="allEvents" id="2011805327139382915" />
       </scope>
-      <unit id="2011805327139382636" at="408,154,412,5" name="jetbrains.mps.uiLanguage.generator.baseLanguage.template.main.QueriesGenerated$1" />
+      <unit id="2011805327139382636" at="408,253,412,5" name="jetbrains.mps.uiLanguage.generator.baseLanguage.template.main.QueriesGenerated$1" />
       <unit id="2011805327139382654" at="412,21,416,5" name="jetbrains.mps.uiLanguage.generator.baseLanguage.template.main.QueriesGenerated$2" />
-      <unit id="2011805327139382926" at="419,175,423,5" name="jetbrains.mps.uiLanguage.generator.baseLanguage.template.main.QueriesGenerated$3" />
+      <unit id="2011805327139382926" at="419,274,423,5" name="jetbrains.mps.uiLanguage.generator.baseLanguage.template.main.QueriesGenerated$3" />
       <unit id="2011805327139382937" at="423,21,427,5" name="jetbrains.mps.uiLanguage.generator.baseLanguage.template.main.QueriesGenerated$4" />
       <unit id="2011805327139382955" at="428,54,432,5" name="jetbrains.mps.uiLanguage.generator.baseLanguage.template.main.QueriesGenerated$5" />
       <unit id="1227876804997" at="438,278,442,5" name="jetbrains.mps.uiLanguage.generator.baseLanguage.template.main.QueriesGenerated$6" />

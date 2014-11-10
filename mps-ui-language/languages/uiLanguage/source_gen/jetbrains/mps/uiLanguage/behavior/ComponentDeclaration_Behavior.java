@@ -35,7 +35,7 @@ public class ComponentDeclaration_Behavior {
   }
   public static SNode call_getController_1213877495364(SNode thisNode) {
     final SNode component = thisNode;
-    return ListSequence.fromList(SModelOperations.getRoots(SNodeOperations.getModel(thisNode), "jetbrains.mps.uiLanguage.structure.ComponentController")).where(new IWhereFilter<SNode>() {
+    return ListSequence.fromList(SModelOperations.roots(SNodeOperations.getModel(thisNode), MetaAdapterFactory.getConcept(new UUID(6731736082390534803l, -6860703902218146233l), 1202388384249l, "jetbrains.mps.uiLanguage.structure.ComponentController"))).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
         return SLinkOperations.getTarget(it, MetaAdapterFactory.getReferenceLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202388384249l, 1202388401455l, "component")) == component;
       }
@@ -93,7 +93,7 @@ public class ComponentDeclaration_Behavior {
     return SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202387718766l, 1210174600177l, "rendererInfo")) != null;
   }
   public static SNode virtual_createType_1213877527970(SNode thisNode) {
-    SNode type = SConceptOperations.createNewNode("jetbrains.mps.uiLanguage.structure.ComponentType", null);
+    SNode type = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(new UUID(6731736082390534803l, -6860703902218146233l), 1202465023198l, "jetbrains.mps.uiLanguage.structure.ComponentType"));
     SLinkOperations.setTarget(type, MetaAdapterFactory.getReferenceLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202465023198l, 1202465029373l, "component"), thisNode);
     return type;
   }

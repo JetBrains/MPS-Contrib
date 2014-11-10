@@ -29,7 +29,7 @@ public class PlusOperation_Behavior {
     return left + right;
   }
   public static SNode virtual_getType_1213877398951(SNode thisNode, SNode s1, SNode s2) {
-    return SConceptOperations.createNewNode("jetbrains.mps.buildlanguage.structure.StringType", null);
+    return SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1196870403099l, "jetbrains.mps.buildlanguage.structure.StringType"));
   }
   public static String virtual_getActualValue_1213877472572(SNode thisNode) {
     String left;

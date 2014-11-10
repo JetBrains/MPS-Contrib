@@ -110,7 +110,7 @@ public class QueriesGenerated {
     if (ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1196851099544l, 1196853776690l, "depends"))).count() == 0) {
       return null;
     }
-    SNode attribute = SConceptOperations.createNewNode("jetbrains.mps.xml.deprecated.structure.Attribute", null);
+    SNode attribute = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(new UUID(-9061952983114822898l, -7881051372423955543l), 1107866742882l, "jetbrains.mps.xml.deprecated.structure.Attribute"));
     SPropertyOperations.set(attribute, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name"), "depends");
     SPropertyOperations.set(attribute, MetaAdapterFactory.getProperty(new UUID(-9061952983114822898l, -7881051372423955543l), 1107866742882l, 1107866755246l, "value"), TargetDeclaration_Behavior.call_getDependanceString_1213877231974(_context.getNode()));
     return attribute;

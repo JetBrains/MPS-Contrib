@@ -10,8 +10,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import java.util.List;
-import org.jetbrains.mps.openapi.language.SConceptRepository;
-import jetbrains.mps.util.NameUtil;
 import java.util.Set;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.HashSet;
@@ -40,7 +38,7 @@ public class ElementUtil {
       }
       if (SNodeOperations.isInstanceOf(currentNode, MetaAdapterFactory.getConcept(new UUID(3194679053860949738l, -5054431440157877063l), 1161371727643l, "jetbrains.mps.xml.structure.Content"))) {
         SNode content = SNodeOperations.cast(currentNode, MetaAdapterFactory.getConcept(new UUID(3194679053860949738l, -5054431440157877063l), 1161371727643l, "jetbrains.mps.xml.structure.Content"));
-        elementDeclaration = ListSequence.fromList(BehaviorReflection.invokeVirtualStatic((Class<List<SNode>>) ((Class) Object.class), SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SNodeOperations.getConceptDeclaration(content))), "virtual_getCorrespondingElement_3044950653914717088", new Object[]{})).first();
+        elementDeclaration = ListSequence.fromList(BehaviorReflection.invokeVirtualStatic((Class<List<SNode>>) ((Class) Object.class), SNodeOperations.asSConcept(SNodeOperations.getConceptDeclaration(content)), "virtual_getCorrespondingElement_3044950653914717088", new Object[]{})).first();
         if ((elementDeclaration != null)) {
           break;
         }
@@ -69,7 +67,7 @@ public class ElementUtil {
       if ((schema != null) && SPropertyOperations.getBoolean(schema, MetaAdapterFactory.getProperty(new UUID(-5396545995874219192l, -5548206827574227681l), 1167513239198l, 1168022873076l, "alwaysUseRoot"))) {
         SetSequence.fromSet(elementDeclarationSet).addElement(SLinkOperations.getTarget(SLinkOperations.getTarget(schema, MetaAdapterFactory.getContainmentLink(new UUID(-5396545995874219192l, -5548206827574227681l), 1167513239198l, 1167537980718l, "rootElementReference")), MetaAdapterFactory.getReferenceLink(new UUID(-5396545995874219192l, -5548206827574227681l), 1167531070757l, 1167531079758l, "elementDeclaration")));
       } else {
-        List<SNode> elementDeclarations = SModelOperations.getNodesIncludingImported(SNodeOperations.getModel(node), "jetbrains.mps.xmlSchema.structure.ElementDeclaration");
+        List<SNode> elementDeclarations = SModelOperations.nodesIncludingImported(SNodeOperations.getModel(node), MetaAdapterFactory.getConcept(new UUID(-5396545995874219192l, -5548206827574227681l), 1167838236835l, "jetbrains.mps.xmlSchema.structure.ElementDeclaration"));
         SetSequence.fromSet(elementDeclarationSet).addSequence(ListSequence.fromList(elementDeclarations));
       }
     } else {

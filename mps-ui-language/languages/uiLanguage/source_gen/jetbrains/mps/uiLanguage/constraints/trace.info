@@ -122,7 +122,7 @@
         <var name="references" id="1213104846152" />
       </scope>
       <scope id="1213104846152" at="33,0,64,0" />
-      <unit id="1227876806094" at="48,214,52,13" name="jetbrains.mps.uiLanguage.constraints.ComponentInstance_Constraints$3" />
+      <unit id="1227876806094" at="48,313,52,13" name="jetbrains.mps.uiLanguage.constraints.ComponentInstance_Constraints$3" />
       <unit id="1213104846152" at="44,19,59,9" name="jetbrains.mps.uiLanguage.constraints.ComponentInstance_Constraints$2" />
       <unit id="1213104846152" at="36,131,61,5" name="jetbrains.mps.uiLanguage.constraints.ComponentInstance_Constraints$1" />
       <unit id="1213104846152" at="29,0,66,0" name="jetbrains.mps.uiLanguage.constraints.ComponentInstance_Constraints" />
