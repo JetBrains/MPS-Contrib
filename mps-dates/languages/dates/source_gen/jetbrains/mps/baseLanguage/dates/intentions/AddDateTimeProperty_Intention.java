@@ -71,7 +71,7 @@ public class AddDateTimeProperty_Intention implements IntentionFactory {
       return "Add Datetime Property";
     }
     public void execute(final SNode node, final EditorContext editorContext) {
-      SNode expression = SNodeFactoryOperations.createNewNode("jetbrains.mps.baseLanguage.dates.structure.WithPropertyCompareExpression", null);
+      SNode expression = SNodeFactoryOperations.createNewNode(MetaAdapterFactory.getConcept(new UUID(-3689458971415590814l, -6289781637635314138l), 1239193939163l, "jetbrains.mps.baseLanguage.dates.structure.WithPropertyCompareExpression"), null);
       SLinkOperations.setTarget(expression, MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 1239193939163l, 1239198287872l, "operation"), SNodeOperations.copyNode(node));
       SNodeOperations.replaceWithAnother(node, expression);
     }

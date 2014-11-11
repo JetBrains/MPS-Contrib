@@ -9,7 +9,7 @@
   <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
   <root>
     <file name="IntentionsDescriptor.java">
-      <unit at="10,0,19,0" name="jetbrains.mps.uiLanguage.intentions.IntentionsDescriptor" />
+      <unit at="8,0,14,0" name="jetbrains.mps.uiLanguage.intentions.IntentionsDescriptor" />
     </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c89590551(jetbrains.mps.uiLanguage.intentions)/1203674861152">
@@ -29,8 +29,8 @@
       <node id="1203674861152" at="58,37,59,134" concept="1" />
       <node id="1203674861152" at="60,5,61,30" concept="6" />
       <node id="1203674873659" at="66,87,67,34" concept="6" />
-      <node id="1203675329293" at="69,78,70,119" concept="5" />
-      <node id="1203675046224" at="70,119,71,188" concept="1" />
+      <node id="1203675329293" at="69,78,70,221" concept="5" />
+      <node id="1203675046224" at="70,221,71,188" concept="1" />
       <node id="1203675320534" at="71,188,72,39" concept="1" />
       <node id="1203674861152" at="74,48,75,47" concept="6" />
       <node id="1203674861152" at="22,0,24,0" concept="0" trace="AddOnChangeHandler_Intention#()V" />
@@ -123,8 +123,8 @@
       <node id="1204896171511" at="58,37,59,130" concept="1" />
       <node id="1204896171511" at="60,5,61,30" concept="6" />
       <node id="1204896171514" at="66,87,67,31" concept="6" />
-      <node id="1204896171526" at="69,78,70,119" concept="5" />
-      <node id="1204896171532" at="70,119,71,191" concept="1" />
+      <node id="1204896171526" at="69,78,70,221" concept="5" />
+      <node id="1204896171532" at="70,221,71,191" concept="1" />
       <node id="1204896171539" at="71,191,72,39" concept="1" />
       <node id="1204896171511" at="74,48,75,43" concept="6" />
       <node id="1204896171511" at="22,0,24,0" concept="0" trace="AddInitializer_Intention#()V" />

@@ -12,9 +12,9 @@ import org.jetbrains.mps.openapi.model.SNodeReference;
 import jetbrains.mps.smodel.SNodePointer;
 import java.util.Collections;
 import jetbrains.mps.smodel.action.SNodeFactoryOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import java.util.UUID;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.intentions.IntentionDescriptor;
 
@@ -62,7 +62,7 @@ public class ParseExpression_convert_Intention implements IntentionFactory {
       return "Convert deprecated parse expression to a new one";
     }
     public void execute(final SNode node, final EditorContext editorContext) {
-      SNode pde = SNodeFactoryOperations.createNewNode("jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression", null);
+      SNode pde = SNodeFactoryOperations.createNewNode(MetaAdapterFactory.getConcept(new UUID(-3689458971415590814l, -6289781637635314138l), 4389880778953634893l, "jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression"), null);
       SLinkOperations.setTarget(pde, MetaAdapterFactory.getReferenceLink(new UUID(-3689458971415590814l, -6289781637635314138l), 4389880778953634893l, 4389880778953634897l, "dateFormat"), SLinkOperations.getTarget(node, MetaAdapterFactory.getReferenceLink(new UUID(-3689458971415590814l, -6289781637635314138l), 1892577441204578414l, 1892577441204578966l, "dateFormat")));
       SLinkOperations.setTarget(pde, MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 4389880778953634893l, 4389880778953634895l, "zone"), SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 1892577441204578414l, 2583319411283206775l, "zone")));
       SLinkOperations.setTarget(pde, MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 4389880778953634893l, 4389880778953634896l, "default"), SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 1892577441204578414l, 7678715681280019206l, "default")));

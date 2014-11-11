@@ -8,7 +8,7 @@
   <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
   <root>
     <file name="IntentionsDescriptor.java">
-      <unit at="10,0,18,0" name="jetbrains.mps.xmlSchema.intentions.IntentionsDescriptor" />
+      <unit at="8,0,13,0" name="jetbrains.mps.xmlSchema.intentions.IntentionsDescriptor" />
     </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c89590597(jetbrains.mps.xmlSchema.intentions)/1195647346726">

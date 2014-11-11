@@ -38,7 +38,7 @@ public class QueriesGenerated {
           for (final SNode item : queryResult) {
             ListSequence.fromList(result).addElement(new DefaultChildNodeSubstituteAction(outputConcept, item, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter()) {
               public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
-                SNode node = SNodeFactoryOperations.createNewNode("jetbrains.mps.buildlanguage.structure.StringLiteral", null);
+                SNode node = SNodeFactoryOperations.createNewNode(MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1196861005114l, "jetbrains.mps.buildlanguage.structure.StringLiteral"), null);
                 SPropertyOperations.set(node, MetaAdapterFactory.getProperty(new UUID(819810455698030989l, -8713019626243247156l), 1196861005114l, 1196861024475l, "value"), SPropertyOperations.getString((item), MetaAdapterFactory.getProperty(new UUID(819810455698030989l, -8713019626243247156l), 1196861005114l, 1196861024475l, "value")));
                 return node;
               }

@@ -1,8 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-d8jn04t5p8tmt9iwz0x966efsd7doe2">
-  <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="ap7kkbjep0v1fuwrsssvbt509rkw79s" />
-  <common hash="-d8jn04t5p8tmt9iwz0x966efsd7doe2" dependsOnNodes="true">
-    <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
-  </common>
-</dependencies>
+<dependencies version="2" modelHash="-d8jn04t5p8tmt9iwz0x966efsd7doe2" />
 

@@ -1,21 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-74gxdsk6enrevxp85gub7ptuz5qsq6e">
-  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="4n024cqumk2xdsxlg8oilpaq9otsc22" />
-  <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="1r1tx0ou7eqb5i0g3mza1vswb1mzq4w" />
-  <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="ap7kkbjep0v1fuwrsssvbt509rkw79s" />
-  <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="-dbr2g6jzucxcoqvfqf08v9ihfbxe7mv" />
-  <common hash="-74gxdsk6enrevxp85gub7ptuz5qsq6e" dependsOnNodes="true">
-    <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
-  </common>
-  <source id="8321286824330490408" name="BaseRunProfileState">
-    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
-    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
-    <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
-    <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
-    <file name="BaseRunProfileState.java" />
-  </source>
-  <source id="8321286824331322657" name="DebuggerKeys">
-    <file name="DebuggerKeys.java" />
-  </source>
-</dependencies>
+<dependencies version="2" modelHash="-74gxdsk6enrevxp85gub7ptuz5qsq6e" />
 

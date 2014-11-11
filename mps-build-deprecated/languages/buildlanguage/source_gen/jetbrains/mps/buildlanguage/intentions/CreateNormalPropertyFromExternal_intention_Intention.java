@@ -12,9 +12,9 @@ import org.jetbrains.mps.openapi.model.SNodeReference;
 import jetbrains.mps.smodel.SNodePointer;
 import java.util.Collections;
 import jetbrains.mps.smodel.action.SNodeFactoryOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import java.util.UUID;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.intentions.IntentionDescriptor;
@@ -63,7 +63,7 @@ public class CreateNormalPropertyFromExternal_intention_Intention implements Int
       return "Transform External Property to Ordinary Property";
     }
     public void execute(final SNode node, final EditorContext editorContext) {
-      SNode property = SNodeFactoryOperations.createNewNode("jetbrains.mps.buildlanguage.structure.PropertyDeclaration", null);
+      SNode property = SNodeFactoryOperations.createNewNode(MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1196851107341l, "jetbrains.mps.buildlanguage.structure.PropertyDeclaration"), null);
       SLinkOperations.setTarget(property, MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1463999527524104369l, 1196870993204l, "type"), SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1463999527524104369l, 1196870993204l, "type")));
       SPropertyOperations.set(property, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name"), SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name")));
       SNodeOperations.replaceWithAnother(node, property);

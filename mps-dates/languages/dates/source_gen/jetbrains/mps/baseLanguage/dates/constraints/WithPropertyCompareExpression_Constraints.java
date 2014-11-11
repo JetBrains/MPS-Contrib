@@ -10,9 +10,9 @@ import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.smodel.runtime.CheckingNodeContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.smodel.SNodePointer;
 
 public class WithPropertyCompareExpression_Constraints extends BaseConstraintsDescriptor {
@@ -34,7 +34,7 @@ public class WithPropertyCompareExpression_Constraints extends BaseConstraintsDe
     return result;
   }
   public static boolean static_canBeAParent(SNode node, SNode childNode, SNode childConcept, SNode link, final IOperationContext operationContext) {
-    if (link == SLinkOperations.findLinkDeclaration("jetbrains.mps.baseLanguage.dates.structure.WithPropertyCompareExpression", "operation")) {
+    if (link == SLinkOperations.findLinkDeclaration(MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 1239193939163l, 1239198287872l, "operation"))) {
       return SConceptOperations.isSubConceptOf(SNodeOperations.asSConcept(childConcept), MetaAdapterFactory.getConcept(new UUID(-935030926396207931l, -6610165693999523818l), 1239448985469l, "jetbrains.mps.baseLanguage.structure.BinaryCompareOperation")) || childConcept == SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.structure.EqualsExpression") || childConcept == SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.structure.NotEqualsExpression");
     }
     return true;

@@ -16,20 +16,20 @@ public class InTimezoneExpression_Behavior {
   public static SNode virtual_deriveType_1213877435747(SNode thisNode, SNode expression) {
     if ((expression != null)) {
       String role = expression.getRoleInParent();
-      if (SPropertyOperations.getString(SLinkOperations.findLinkDeclaration("jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression", "timezone"), MetaAdapterFactory.getProperty(new UUID(-4094437568663370681l, -8968368868337559369l), 1071489288298l, 1071599776563l, "role")).equals(role)) {
+      if (SPropertyOperations.getString(SLinkOperations.findLinkDeclaration(MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 2639623922402691276l, 2639623922402691641l, "timezone")), MetaAdapterFactory.getProperty(new UUID(-4094437568663370681l, -8968368868337559369l), 1071489288298l, 1071599776563l, "role")).equals(role)) {
         return _quotation_createNode_g9idtp_a0a1a0a0();
       }
-      if (SPropertyOperations.getString(SLinkOperations.findLinkDeclaration("jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression", "datetime"), MetaAdapterFactory.getProperty(new UUID(-4094437568663370681l, -8968368868337559369l), 1071489288298l, 1071599776563l, "role")).equals(role)) {
+      if (SPropertyOperations.getString(SLinkOperations.findLinkDeclaration(MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 2639623922402691276l, 2639623922402691278l, "datetime")), MetaAdapterFactory.getProperty(new UUID(-4094437568663370681l, -8968368868337559369l), 1071489288298l, 1071599776563l, "role")).equals(role)) {
         return _quotation_createNode_g9idtp_a0a2a0a0();
       }
     }
     return null;
   }
   public static SNode virtual_deriveType_4555537781928374706(SNode thisNode, SNode expression, SNode link) {
-    if (SLinkOperations.findLinkDeclaration("jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression", "timezone") == link) {
+    if (SLinkOperations.findLinkDeclaration(MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 2639623922402691276l, 2639623922402691641l, "timezone")) == link) {
       return _quotation_createNode_g9idtp_a0a0a1();
     }
-    if (SLinkOperations.findLinkDeclaration("jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression", "datetime") == link) {
+    if (SLinkOperations.findLinkDeclaration(MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 2639623922402691276l, 2639623922402691278l, "datetime")) == link) {
       return _quotation_createNode_g9idtp_a0a1a1();
     }
     return null;

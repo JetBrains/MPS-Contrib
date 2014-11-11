@@ -16,14 +16,14 @@ public class FormatPeriodExpression_Behavior {
   public static SNode virtual_deriveType_1213877435747(SNode thisNode, SNode expression) {
     if ((expression != null)) {
       String role = expression.getRoleInParent();
-      if (SPropertyOperations.getString(SLinkOperations.findLinkDeclaration("jetbrains.mps.baseLanguage.dates.structure.FormatPeriodExpression", "period"), MetaAdapterFactory.getProperty(new UUID(-4094437568663370681l, -8968368868337559369l), 1071489288298l, 1071599776563l, "role")).equals(role)) {
+      if (SPropertyOperations.getString(SLinkOperations.findLinkDeclaration(MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 34521615669572115l, 34521615669572118l, "period")), MetaAdapterFactory.getProperty(new UUID(-4094437568663370681l, -8968368868337559369l), 1071489288298l, 1071599776563l, "role")).equals(role)) {
         return _quotation_createNode_tjsbw0_a0a1a0a0();
       }
     }
     return null;
   }
   public static SNode virtual_deriveType_4555537781928374706(SNode thisNode, SNode expression, SNode link) {
-    if (SLinkOperations.findLinkDeclaration("jetbrains.mps.baseLanguage.dates.structure.FormatPeriodExpression", "period") == link) {
+    if (SLinkOperations.findLinkDeclaration(MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 34521615669572115l, 34521615669572118l, "period")) == link) {
       return _quotation_createNode_tjsbw0_a0a0a1();
     }
     return null;

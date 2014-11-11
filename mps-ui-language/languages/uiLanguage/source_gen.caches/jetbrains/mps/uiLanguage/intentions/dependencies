@@ -36,10 +36,8 @@
   </dependency>
   <dependency className="jetbrains.mps.uiLanguage.intentions.IntentionsDescriptor" file="IntentionsDescriptor.java">
     <classNode dependClassName="jetbrains.mps.intentions.IntentionsManager" />
-    <classNode dependClassName="jetbrains.mps.project.structure.modules.ModuleReference" />
     <classNode dependClassName="jetbrains.mps.uiLanguage.intentions.AddInitializer_Intention" />
     <classNode dependClassName="jetbrains.mps.uiLanguage.intentions.AddOnChangeHandler_Intention" />
-    <classNode dependClassName="org.jetbrains.mps.openapi.persistence.PersistenceFacade" />
     <classNode extendsClassName="jetbrains.mps.intentions.BaseIntentionsDescriptor" />
   </dependency>
 </dependenciesRoot>

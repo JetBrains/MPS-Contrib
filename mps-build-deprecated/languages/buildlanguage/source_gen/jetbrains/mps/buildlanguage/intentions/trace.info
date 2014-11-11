@@ -9,7 +9,7 @@
   <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
   <root>
     <file name="IntentionsDescriptor.java">
-      <unit at="10,0,21,0" name="jetbrains.mps.buildlanguage.intentions.IntentionsDescriptor" />
+      <unit at="8,0,16,0" name="jetbrains.mps.buildlanguage.intentions.IntentionsDescriptor" />
     </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895904c5(jetbrains.mps.buildlanguage.intentions)/1201260187613">
@@ -209,8 +209,8 @@
       <node id="1219148733937" at="60,37,61,158" concept="1" />
       <node id="1219148733937" at="62,5,63,30" concept="6" />
       <node id="1219149199582" at="68,87,69,46" concept="6" />
-      <node id="1219149141956" at="71,78,72,143" concept="5" />
-      <node id="1219149356853" at="72,143,73,361" concept="1" />
+      <node id="1219149141956" at="71,78,72,244" concept="5" />
+      <node id="1219149356853" at="72,244,73,361" concept="1" />
       <node id="1219149370702" at="73,361,74,341" concept="1" />
       <node id="1219149168202" at="74,341,75,65" concept="1" />
       <node id="1219148733937" at="77,48,78,71" concept="6" />
@@ -302,8 +302,8 @@
       <node id="1219149486459" at="54,37,55,158" concept="1" />
       <node id="1219149486459" at="56,5,57,30" concept="6" />
       <node id="1219149630134" at="62,87,63,64" concept="6" />
-      <node id="1219149662638" at="65,78,66,127" concept="5" />
-      <node id="1219149662644" at="66,127,67,353" concept="1" />
+      <node id="1219149662638" at="65,78,66,228" concept="5" />
+      <node id="1219149662644" at="66,228,67,353" concept="1" />
       <node id="1219149662652" at="67,353,68,333" concept="1" />
       <node id="1219149662661" at="68,333,69,57" concept="1" />
       <node id="1219149486459" at="71,48,72,71" concept="6" />

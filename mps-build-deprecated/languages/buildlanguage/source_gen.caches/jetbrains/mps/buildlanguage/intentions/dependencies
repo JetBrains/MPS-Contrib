@@ -61,8 +61,6 @@
     <classNode dependClassName="jetbrains.mps.buildlanguage.intentions.CreateNormalPropertyFromExternal_intention_Intention" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.intentions.RemoveEmptyComment_intention_Intention" />
     <classNode dependClassName="jetbrains.mps.intentions.IntentionsManager" />
-    <classNode dependClassName="jetbrains.mps.project.structure.modules.ModuleReference" />
-    <classNode dependClassName="org.jetbrains.mps.openapi.persistence.PersistenceFacade" />
     <classNode extendsClassName="jetbrains.mps.intentions.BaseIntentionsDescriptor" />
   </dependency>
   <dependency className="jetbrains.mps.buildlanguage.intentions.RemoveEmptyComment_intention_Intention" file="RemoveEmptyComment_intention_Intention.java">
