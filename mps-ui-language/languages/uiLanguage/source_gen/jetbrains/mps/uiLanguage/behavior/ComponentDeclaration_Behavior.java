@@ -93,7 +93,7 @@ public class ComponentDeclaration_Behavior {
     return SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202387718766l, 1210174600177l, "rendererInfo")) != null;
   }
   public static SNode virtual_createType_1213877527970(SNode thisNode) {
-    SNode type = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(new UUID(6731736082390534803l, -6860703902218146233l), 1202465023198l, "jetbrains.mps.uiLanguage.structure.ComponentType"));
+    SNode type = SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(6731736082390534803l, -6860703902218146233l), 1202465023198l, "jetbrains.mps.uiLanguage.structure.ComponentType")));
     SLinkOperations.setTarget(type, MetaAdapterFactory.getReferenceLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202465023198l, 1202465029373l, "component"), thisNode);
     return type;
   }

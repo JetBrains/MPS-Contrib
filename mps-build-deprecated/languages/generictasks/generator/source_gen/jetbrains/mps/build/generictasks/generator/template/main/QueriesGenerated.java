@@ -15,6 +15,7 @@ import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 import java.util.List;
 import java.util.ArrayList;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 
@@ -39,7 +40,7 @@ public class QueriesGenerated {
   public static Iterable<SNode> sourceNodesQuery_353793545802704416(final SourceSubstituteMacroNodesContext _context) {
     List<SNode> xmlattributes = new ArrayList<SNode>();
     for (SNode attr : SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643477l, 353793545802643479l, "atributes"))) {
-      SNode newAttr = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(new UUID(-9061952983114822898l, -7881051372423955543l), 1107866742882l, "jetbrains.mps.xml.deprecated.structure.Attribute"));
+      SNode newAttr = SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(-9061952983114822898l, -7881051372423955543l), 1107866742882l, "jetbrains.mps.xml.deprecated.structure.Attribute")));
       SPropertyOperations.set(newAttr, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name"), SPropertyOperations.getString(SLinkOperations.getTarget(attr, MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643466l, 353793545802643467l, "attributeDeclaration")), MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name")));
       SPropertyOperations.set(newAttr, MetaAdapterFactory.getProperty(new UUID(-9061952983114822898l, -7881051372423955543l), 1107866742882l, 1107866755246l, "value"), BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(attr, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643466l, 353793545802643468l, "value")), "virtual_toString_1213877472569", new Object[]{}));
       ListSequence.fromList(xmlattributes).addElement(newAttr);

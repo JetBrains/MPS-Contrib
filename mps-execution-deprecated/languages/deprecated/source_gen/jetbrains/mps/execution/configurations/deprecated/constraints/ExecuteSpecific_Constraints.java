@@ -32,7 +32,7 @@ public class ExecuteSpecific_Constraints extends BaseConstraintsDescriptor {
     return result;
   }
   public static boolean static_canBeAChild(SNode node, SNode parentNode, SNode link, SNode childConcept, final IOperationContext operationContext) {
-    return SNodeOperations.getNodeAncestor(parentNode, MetaAdapterFactory.getConcept(new UUID(-9024322794181865535l, -5381379368254122047l), 314981645426569269l, "jetbrains.mps.execution.configurations.deprecated.structure.IExecuteConfigBlock"), true, false) != null;
+    return SNodeOperations.getNodeAncestor(parentNode, MetaAdapterFactory.getInterfaceConcept(new UUID(-9024322794181865535l, -5381379368254122047l), 314981645426569269l, "jetbrains.mps.execution.configurations.deprecated.structure.IExecuteConfigBlock"), true, false) != null;
   }
   private static SNodePointer canBeChildBreakingPoint = new SNodePointer("r:4ab4c6eb-58ca-426d-b62d-119c0aacbe5e(jetbrains.mps.execution.configurations.deprecated.constraints)", "314981645426570829");
 }

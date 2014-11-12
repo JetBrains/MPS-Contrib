@@ -32,7 +32,7 @@ public class QueriesGenerated {
       if (outputConcept == null || SConceptOperations.isSuperConceptOf(SNodeOperations.asSConcept(childConcept), SNodeOperations.asSConcept(outputConcept))) {
         ListSequence.fromList(result).addElement(new DefaultSimpleSubstituteAction(outputConcept, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter()) {
           public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
-            SNode text = SNodeFactoryOperations.createNewNode(MetaAdapterFactory.getConcept(new UUID(-9061952983114822898l, -7881051372423955543l), 1107866821377l, "jetbrains.mps.xml.deprecated.structure.Text"), null);
+            SNode text = SNodeFactoryOperations.createNewNode(SNodeFactoryOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(-9061952983114822898l, -7881051372423955543l), 1107866821377l, "jetbrains.mps.xml.deprecated.structure.Text")), null);
             SPropertyOperations.set(text, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name"), pattern);
             return text;
           }
@@ -58,7 +58,7 @@ public class QueriesGenerated {
       if (outputConcept == null || SConceptOperations.isSuperConceptOf(SNodeOperations.asSConcept(childConcept), SNodeOperations.asSConcept(outputConcept))) {
         ListSequence.fromList(result).addElement(new DefaultSimpleSubstituteAction(outputConcept, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter()) {
           public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
-            SNode attr = SNodeFactoryOperations.createNewNode(MetaAdapterFactory.getConcept(new UUID(-9061952983114822898l, -7881051372423955543l), 1107866742882l, "jetbrains.mps.xml.deprecated.structure.Attribute"), null);
+            SNode attr = SNodeFactoryOperations.createNewNode(SNodeFactoryOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(-9061952983114822898l, -7881051372423955543l), 1107866742882l, "jetbrains.mps.xml.deprecated.structure.Attribute")), null);
             SPropertyOperations.set(attr, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name"), ((pattern == null ? null : pattern.trim())));
             return attr;
           }
@@ -78,7 +78,7 @@ public class QueriesGenerated {
     ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(SConceptOperations.findConceptDeclaration("jetbrains.mps.xml.deprecated.structure.Attribute"), _context.getSourceNode()) {
       public SNode doSubstitute(@Nullable final EditorContext editorContext, String pattern) {
         //  add next attribute 
-        SNode nextAttr = SNodeFactoryOperations.createNewNode(MetaAdapterFactory.getConcept(new UUID(-9061952983114822898l, -7881051372423955543l), 1107866742882l, "jetbrains.mps.xml.deprecated.structure.Attribute"), null);
+        SNode nextAttr = SNodeFactoryOperations.createNewNode(SNodeFactoryOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(-9061952983114822898l, -7881051372423955543l), 1107866742882l, "jetbrains.mps.xml.deprecated.structure.Attribute")), null);
         SPropertyOperations.set(nextAttr, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name"), ((pattern == null ? null : pattern.trim())));
         SNodeOperations.insertNextSiblingChild(_context.getSourceNode(), nextAttr);
         return nextAttr;

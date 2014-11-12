@@ -52,8 +52,8 @@ public class ElementUtil {
     SNode element = SNodeOperations.getNodeAncestor(node, MetaAdapterFactory.getConcept(new UUID(3194679053860949738l, -5054431440157877063l), 1167523027466l, "jetbrains.mps.xml.structure.Element"), true, false);
     if ((element == null)) {
       SNode containingRoot = SNodeOperations.getContainingRoot(node);
-      if (SNodeOperations.isInstanceOf(containingRoot, MetaAdapterFactory.getConcept(new UUID(3194679053860949738l, -5054431440157877063l), 1198862578220l, "jetbrains.mps.xml.structure.XmlRoot"))) {
-        schema = BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), SNodeOperations.cast(containingRoot, MetaAdapterFactory.getConcept(new UUID(3194679053860949738l, -5054431440157877063l), 1198862578220l, "jetbrains.mps.xml.structure.XmlRoot")), "virtual_getSchema_1213877420378", new Object[]{});
+      if (SNodeOperations.isInstanceOf(containingRoot, MetaAdapterFactory.getInterfaceConcept(new UUID(3194679053860949738l, -5054431440157877063l), 1198862578220l, "jetbrains.mps.xml.structure.XmlRoot"))) {
+        schema = BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), SNodeOperations.cast(containingRoot, MetaAdapterFactory.getInterfaceConcept(new UUID(3194679053860949738l, -5054431440157877063l), 1198862578220l, "jetbrains.mps.xml.structure.XmlRoot")), "virtual_getSchema_1213877420378", new Object[]{});
       }
     } else {
       schema = SNodeOperations.getNodeAncestor(SLinkOperations.getTarget(element, MetaAdapterFactory.getReferenceLink(new UUID(3194679053860949738l, -5054431440157877063l), 1167523027466l, 1167523262932l, "elementDeclaration")), MetaAdapterFactory.getConcept(new UUID(-5396545995874219192l, -5548206827574227681l), 1167513239198l, "jetbrains.mps.xmlSchema.structure.Schema"), false, false);

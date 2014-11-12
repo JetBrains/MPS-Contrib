@@ -37,7 +37,7 @@ public class QueriesGenerated {
       if (outputConcept == null || SConceptOperations.isSuperConceptOf(SNodeOperations.asSConcept(childConcept), SNodeOperations.asSConcept(outputConcept))) {
         ListSequence.fromList(result).addElement(new DefaultSimpleSubstituteAction(outputConcept, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter()) {
           public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
-            SNode result = SNodeFactoryOperations.createNewNode(model, MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1196865966685l, "jetbrains.mps.buildlanguage.structure.BooleanLiteral"), null);
+            SNode result = SNodeFactoryOperations.createNewNode(model, SNodeFactoryOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1196865966685l, "jetbrains.mps.buildlanguage.structure.BooleanLiteral")), null);
             SPropertyOperations.set(result, MetaAdapterFactory.getProperty(new UUID(819810455698030989l, -8713019626243247156l), 1196865966685l, 1196866040780l, "value"), "" + (true));
             return result;
           }
@@ -59,7 +59,7 @@ public class QueriesGenerated {
       if (outputConcept == null || SConceptOperations.isSuperConceptOf(SNodeOperations.asSConcept(childConcept), SNodeOperations.asSConcept(outputConcept))) {
         ListSequence.fromList(result).addElement(new DefaultSimpleSubstituteAction(outputConcept, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter()) {
           public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
-            SNode result = SNodeFactoryOperations.createNewNode(model, MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1196865966685l, "jetbrains.mps.buildlanguage.structure.BooleanLiteral"), null);
+            SNode result = SNodeFactoryOperations.createNewNode(model, SNodeFactoryOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1196865966685l, "jetbrains.mps.buildlanguage.structure.BooleanLiteral")), null);
             SPropertyOperations.set(result, MetaAdapterFactory.getProperty(new UUID(819810455698030989l, -8713019626243247156l), 1196865966685l, 1196866040780l, "value"), "" + (false));
             return result;
           }
@@ -88,7 +88,7 @@ public class QueriesGenerated {
       if (outputConcept == null || SConceptOperations.isSuperConceptOf(SNodeOperations.asSConcept(childConcept), SNodeOperations.asSConcept(outputConcept))) {
         ListSequence.fromList(result).addElement(new DefaultSimpleSubstituteAction(outputConcept, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter()) {
           public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
-            SNode newNode = SNodeFactoryOperations.createNewNode(MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1196866637548l, "jetbrains.mps.buildlanguage.structure.IntLiteral"), null);
+            SNode newNode = SNodeFactoryOperations.createNewNode(SNodeFactoryOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1196866637548l, "jetbrains.mps.buildlanguage.structure.IntLiteral")), null);
             SPropertyOperations.set(newNode, MetaAdapterFactory.getProperty(new UUID(819810455698030989l, -8713019626243247156l), 1196866637548l, 1196866657424l, "value"), "" + (Integer.parseInt(pattern)));
             return newNode;
           }
@@ -123,7 +123,7 @@ public class QueriesGenerated {
     List<SubstituteAction> result = ListSequence.fromList(new ArrayList<SubstituteAction>());
     ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(SConceptOperations.findConceptDeclaration("jetbrains.mps.buildlanguage.structure.PlusOperation"), _context.getSourceNode()) {
       public SNode doSubstitute(@Nullable final EditorContext editorContext, String pattern) {
-        SNode newNode = SNodeFactoryOperations.createNewNode(MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1197108973325l, "jetbrains.mps.buildlanguage.structure.PlusOperation"), null);
+        SNode newNode = SNodeFactoryOperations.createNewNode(SNodeFactoryOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1197108973325l, "jetbrains.mps.buildlanguage.structure.PlusOperation")), null);
         SNodeOperations.replaceWithAnother(_context.getSourceNode(), newNode);
         SLinkOperations.setTarget(newNode, MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1197107841918l, 1197107855106l, "left"), _context.getSourceNode());
         return newNode;
@@ -151,7 +151,7 @@ public class QueriesGenerated {
     List<SubstituteAction> result = ListSequence.fromList(new ArrayList<SubstituteAction>());
     ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(SConceptOperations.findConceptDeclaration("jetbrains.mps.buildlanguage.structure.PlusOperation"), _context.getSourceNode()) {
       public SNode doSubstitute(@Nullable final EditorContext editorContext, String pattern) {
-        SNode newNode = SNodeFactoryOperations.createNewNode(MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1197108973325l, "jetbrains.mps.buildlanguage.structure.PlusOperation"), null);
+        SNode newNode = SNodeFactoryOperations.createNewNode(SNodeFactoryOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1197108973325l, "jetbrains.mps.buildlanguage.structure.PlusOperation")), null);
         SNodeOperations.replaceWithAnother(_context.getSourceNode(), newNode);
         SLinkOperations.setTarget(newNode, MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1197107841918l, 1197107881958l, "right"), _context.getSourceNode());
         return newNode;

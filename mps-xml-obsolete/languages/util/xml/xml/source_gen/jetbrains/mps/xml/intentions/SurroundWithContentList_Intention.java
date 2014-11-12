@@ -70,14 +70,14 @@ public class SurroundWithContentList_Intention implements IntentionFactory {
       return "Surround with Content List";
     }
     public void execute(final SNode node, final EditorContext editorContext) {
-      SNode contentList = SNodeFactoryOperations.createNewNode(MetaAdapterFactory.getConcept(new UUID(3194679053860949738l, -5054431440157877063l), 1163629230879l, "jetbrains.mps.xml.structure.ContentList"), null);
+      SNode contentList = SNodeFactoryOperations.createNewNode(SNodeFactoryOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(3194679053860949738l, -5054431440157877063l), 1163629230879l, "jetbrains.mps.xml.structure.ContentList")), null);
       List<SNode> selectedNodes = editorContext.getEditorComponent().getSelectedNodes();
       SNode first = ListSequence.fromList(selectedNodes).getElement(0);
       SNodeOperations.insertPrevSiblingChild(first, contentList);
       for (SNode selectedNode : ListSequence.fromList(selectedNodes)) {
         ListSequence.fromList(SLinkOperations.getChildren(contentList, MetaAdapterFactory.getContainmentLink(new UUID(3194679053860949738l, -5054431440157877063l), 1163629230879l, 1163629255661l, "content"))).addElement(SNodeOperations.cast(selectedNode, MetaAdapterFactory.getConcept(new UUID(3194679053860949738l, -5054431440157877063l), 1161371727643l, "jetbrains.mps.xml.structure.Content")));
       }
-      SNodeFactoryOperations.addNewChild(contentList, MetaAdapterFactory.getContainmentLink(new UUID(3194679053860949738l, -5054431440157877063l), 1163629230879l, 1163629255661l, "content"), MetaAdapterFactory.getConcept(new UUID(3194679053860949738l, -5054431440157877063l), 1161371727643l, "jetbrains.mps.xml.structure.Content"));
+      SNodeFactoryOperations.addNewChild(contentList, MetaAdapterFactory.getContainmentLink(new UUID(3194679053860949738l, -5054431440157877063l), 1163629230879l, 1163629255661l, "content"), SNodeFactoryOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(3194679053860949738l, -5054431440157877063l), 1161371727643l, "jetbrains.mps.xml.structure.Content")));
     }
     public IntentionDescriptor getDescriptor() {
       return SurroundWithContentList_Intention.this;

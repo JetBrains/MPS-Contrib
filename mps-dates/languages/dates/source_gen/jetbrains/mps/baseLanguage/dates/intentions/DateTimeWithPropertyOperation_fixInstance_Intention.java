@@ -69,7 +69,7 @@ public class DateTimeWithPropertyOperation_fixInstance_Intention implements Inte
       return "Convert instant to datetime";
     }
     public void execute(final SNode node, final EditorContext editorContext) {
-      SNode ite = SNodeFactoryOperations.createNewNode(MetaAdapterFactory.getConcept(new UUID(-3689458971415590814l, -6289781637635314138l), 2639623922402691276l, "jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression"), null);
+      SNode ite = SNodeFactoryOperations.createNewNode(SNodeFactoryOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(-3689458971415590814l, -6289781637635314138l), 2639623922402691276l, "jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression")), null);
       SLinkOperations.setTarget(ite, MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 2639623922402691276l, 2639623922402691278l, "datetime"), SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 1171963068132l, 1171964003156l, "datetime")));
       SLinkOperations.setTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 1171963068132l, 1171964003156l, "datetime"), ite);
     }

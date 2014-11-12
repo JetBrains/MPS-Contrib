@@ -38,7 +38,7 @@ public class PropertyReference_Behavior {
   }
   public static List<SNode> call_getAllVisibleDeclarations_1239123615225(SAbstractConcept thisConcept, SNode enclosingNode) {
     List<SNode> result = new ArrayList<SNode>();
-    for (SNode holder : ListSequence.fromList(SNodeOperations.getNodeAncestors(enclosingNode, MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1196862084542l, "jetbrains.mps.buildlanguage.structure.IPropertyHolder"), true))) {
+    for (SNode holder : ListSequence.fromList(SNodeOperations.getNodeAncestors(enclosingNode, MetaAdapterFactory.getInterfaceConcept(new UUID(819810455698030989l, -8713019626243247156l), 1196862084542l, "jetbrains.mps.buildlanguage.structure.IPropertyHolder"), true))) {
       ListSequence.fromList(result).addSequence(ListSequence.fromList(BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), holder, "virtual_getProperties_1213877375726", new Object[]{})));
     }
     return result;

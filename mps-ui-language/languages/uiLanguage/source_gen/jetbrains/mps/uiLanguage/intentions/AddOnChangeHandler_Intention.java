@@ -67,7 +67,7 @@ public class AddOnChangeHandler_Intention implements IntentionFactory {
       return "Add Change Handler";
     }
     public void execute(final SNode node, final EditorContext editorContext) {
-      SNode expression = SNodeFactoryOperations.createNewNode(MetaAdapterFactory.getConcept(new UUID(-935030926396207931l, -6610165693999523818l), 1068431790191l, "jetbrains.mps.baseLanguage.structure.Expression"), null);
+      SNode expression = SNodeFactoryOperations.createNewNode(SNodeFactoryOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(-935030926396207931l, -6610165693999523818l), 1068431790191l, "jetbrains.mps.baseLanguage.structure.Expression")), null);
       SLinkOperations.setTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202388805843l, 1203674689633l, "onChange"), expression);
       editorContext.select(expression);
     }

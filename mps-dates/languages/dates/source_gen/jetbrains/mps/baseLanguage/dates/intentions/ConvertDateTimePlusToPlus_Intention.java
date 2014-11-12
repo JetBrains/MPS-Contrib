@@ -67,7 +67,7 @@ public class ConvertDateTimePlusToPlus_Intention implements IntentionFactory {
       return "Convert Plus to Datetime Plus Period";
     }
     public void execute(final SNode node, final EditorContext editorContext) {
-      SNode plusPeriodOperation = SNodeFactoryOperations.replaceWithNewChild(node, MetaAdapterFactory.getConcept(new UUID(-935030926396207931l, -6610165693999523818l), 1068581242875l, "jetbrains.mps.baseLanguage.structure.PlusExpression"));
+      SNode plusPeriodOperation = SNodeFactoryOperations.replaceWithNewChild(node, SNodeFactoryOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(-935030926396207931l, -6610165693999523818l), 1068581242875l, "jetbrains.mps.baseLanguage.structure.PlusExpression")));
       SLinkOperations.setTarget(plusPeriodOperation, MetaAdapterFactory.getContainmentLink(new UUID(-935030926396207931l, -6610165693999523818l), 1081773326031l, 1081773367580l, "leftExpression"), SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 1207143297026l, 1207143609180l, "leftValue")));
       SLinkOperations.setTarget(plusPeriodOperation, MetaAdapterFactory.getContainmentLink(new UUID(-935030926396207931l, -6610165693999523818l), 1081773326031l, 1081773367579l, "rightExpression"), SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 1207143297026l, 1207143609181l, "rightValue")));
     }

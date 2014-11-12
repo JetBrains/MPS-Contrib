@@ -58,7 +58,7 @@ public class Controller_TabDescriptor extends RelationDescriptor {
     return ListSequence.fromListAndArray(new ArrayList<SNode>(), SConceptOperations.findConceptDeclaration("jetbrains.mps.uiLanguage.structure.ComponentController"));
   }
   public SNode createNode(final SNode node, final SNode concept) {
-    SNode controller = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(new UUID(6731736082390534803l, -6860703902218146233l), 1202388384249l, "jetbrains.mps.uiLanguage.structure.ComponentController"));
+    SNode controller = SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(6731736082390534803l, -6860703902218146233l), 1202388384249l, "jetbrains.mps.uiLanguage.structure.ComponentController")));
     SLinkOperations.setTarget(controller, MetaAdapterFactory.getReferenceLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202388384249l, 1202388401455l, "component"), node);
     SModelOperations.addRootNode(SNodeOperations.getModel(node), controller);
     String virtualPackage = SNodeAccessUtil.getProperty(node, SNodeUtil.property_BaseConcept_virtualPackage);

@@ -677,12 +677,12 @@
       <node id="1195665988476" at="61,37,62,139" concept="1" />
       <node id="1195665988476" at="63,5,64,30" concept="7" />
       <node id="1195665988500" at="69,87,70,42" concept="7" />
-      <node id="1195665988524" at="72,78,73,214" concept="6" />
-      <node id="1195668379632" at="73,214,74,88" concept="6" />
+      <node id="1195665988524" at="72,78,73,256" concept="6" />
+      <node id="1195668379632" at="73,256,74,88" concept="6" />
       <node id="1195668553385" at="74,88,75,71" concept="6" />
       <node id="1195665988530" at="75,71,76,65" concept="1" />
       <node id="1195665988541" at="77,71,78,397" concept="1" />
-      <node id="1195665988549" at="79,7,80,332" concept="1" />
+      <node id="1195665988549" at="79,7,80,374" concept="1" />
       <node id="1195665988476" at="82,48,83,52" concept="7" />
       <node id="1195665988476" at="25,0,27,0" concept="0" trace="SurroundWithContentList_Intention#()V" />
       <node id="1195665988476" at="67,0,69,0" concept="0" trace="IntentionImplementation#()V" />
@@ -751,7 +751,7 @@
         <var name="context" id="1195665988476" />
         <var name="node" id="1195665988476" />
       </scope>
-      <scope id="1195665988523" at="72,78,80,332">
+      <scope id="1195665988523" at="72,78,80,374">
         <var name="contentList" id="1195665988525" />
         <var name="first" id="1195668553386" />
         <var name="selectedNodes" id="1195668379633" />

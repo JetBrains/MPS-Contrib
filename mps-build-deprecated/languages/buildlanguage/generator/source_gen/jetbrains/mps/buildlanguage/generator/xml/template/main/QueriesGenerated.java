@@ -21,7 +21,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.buildlanguage.behavior.TargetDeclaration_Behavior;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 import java.util.List;
-import org.jetbrains.mps.openapi.language.SConcept;
+import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.internal.collections.runtime.ISelector;
@@ -74,13 +74,13 @@ public class QueriesGenerated {
     return BehaviorReflection.invokeVirtual(String.class, _context.getNode(), "virtual_toString_1213877472569", new Object[]{});
   }
   public static Object propertyMacro_GetPropertyValue_1201017147787(final PropertyMacroContext _context) {
-    return "${ant.file." + SPropertyOperations.getString(SNodeOperations.cast(SNodeOperations.getContainingRoot(_context.getNode()), MetaAdapterFactory.getConcept(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, "jetbrains.mps.lang.core.structure.INamedConcept")), MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name")) + "}/../" + PropertyNode_Behavior.call_getFileName_1213877341757(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getReferenceLink(new UUID(819810455698030989l, -8713019626243247156l), 1200418817047l, 1200420354547l, "propertyNode")));
+    return "${ant.file." + SPropertyOperations.getString(SNodeOperations.cast(SNodeOperations.getContainingRoot(_context.getNode()), MetaAdapterFactory.getInterfaceConcept(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, "jetbrains.mps.lang.core.structure.INamedConcept")), MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name")) + "}/../" + PropertyNode_Behavior.call_getFileName_1213877341757(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getReferenceLink(new UUID(819810455698030989l, -8713019626243247156l), 1200418817047l, 1200420354547l, "propertyNode")));
   }
   public static Object propertyMacro_GetPropertyValue_1201709830416(final PropertyMacroContext _context) {
     if (SNodeOperations.isInstanceOf(SNodeOperations.getParent(_context.getNode()), MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1196851066733l, "jetbrains.mps.buildlanguage.structure.Project"))) {
       return "${ant.file." + SPropertyOperations.getString(SNodeOperations.cast(SNodeOperations.getParent(_context.getNode()), MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1196851066733l, "jetbrains.mps.buildlanguage.structure.Project")), MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name")) + "}/../" + Project_Behavior.call_getFileName_1213877351819(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getReferenceLink(new UUID(819810455698030989l, -8713019626243247156l), 1201702638416l, 1201702650857l, "project")));
     }
-    return "${ant.file." + SPropertyOperations.getString(SNodeOperations.cast(SNodeOperations.getContainingRoot(_context.getNode()), MetaAdapterFactory.getConcept(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, "jetbrains.mps.lang.core.structure.INamedConcept")), MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name")) + "}/../" + Project_Behavior.call_getFileName_1213877351819(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getReferenceLink(new UUID(819810455698030989l, -8713019626243247156l), 1201702638416l, 1201702650857l, "project")));
+    return "${ant.file." + SPropertyOperations.getString(SNodeOperations.cast(SNodeOperations.getContainingRoot(_context.getNode()), MetaAdapterFactory.getInterfaceConcept(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, "jetbrains.mps.lang.core.structure.INamedConcept")), MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name")) + "}/../" + Project_Behavior.call_getFileName_1213877351819(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getReferenceLink(new UUID(819810455698030989l, -8713019626243247156l), 1201702638416l, 1201702650857l, "project")));
   }
   public static Object propertyMacro_GetPropertyValue_1219150196232(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name"));
@@ -110,7 +110,7 @@ public class QueriesGenerated {
     if (ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1196851099544l, 1196853776690l, "depends"))).count() == 0) {
       return null;
     }
-    SNode attribute = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(new UUID(-9061952983114822898l, -7881051372423955543l), 1107866742882l, "jetbrains.mps.xml.deprecated.structure.Attribute"));
+    SNode attribute = SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(-9061952983114822898l, -7881051372423955543l), 1107866742882l, "jetbrains.mps.xml.deprecated.structure.Attribute")));
     SPropertyOperations.set(attribute, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name"), "depends");
     SPropertyOperations.set(attribute, MetaAdapterFactory.getProperty(new UUID(-9061952983114822898l, -7881051372423955543l), 1107866742882l, 1107866755246l, "value"), TargetDeclaration_Behavior.call_getDependanceString_1213877231974(_context.getNode()));
     return attribute;
@@ -125,7 +125,7 @@ public class QueriesGenerated {
     return SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1196851099544l, 1200425580778l, "propertyList"));
   }
   public static Iterable<SNode> sourceNodesQuery_1219152731276(final SourceSubstituteMacroNodesContext _context) {
-    List<SNode> references = SNodeOperations.getNodeDescendants(_context.getNode(), MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1196853662806l, "jetbrains.mps.buildlanguage.structure.PropertyReference"), false, new SConcept[]{});
+    List<SNode> references = SNodeOperations.getNodeDescendants(_context.getNode(), MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1196853662806l, "jetbrains.mps.buildlanguage.structure.PropertyReference"), false, new SAbstractConcept[]{});
     Iterable<SNode> externalReferences = ListSequence.fromList(references).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
         SNode propertyDeclaration = SLinkOperations.getTarget(it, MetaAdapterFactory.getReferenceLink(new UUID(819810455698030989l, -8713019626243247156l), 1196853662806l, 1196853671400l, "propertyDeclaration"));
@@ -157,10 +157,10 @@ public class QueriesGenerated {
   }
   public static Iterable<SNode> sourceNodesQuery_1230222691427(final SourceSubstituteMacroNodesContext _context) {
     final Set<String> existing = SetSequence.fromSet(new HashSet<String>());
-    for (SNode importProject : ListSequence.fromList(SNodeOperations.getNodeDescendants(_context.getNode(), MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1201702638416l, "jetbrains.mps.buildlanguage.structure.ImportProject"), false, new SConcept[]{}))) {
+    for (SNode importProject : ListSequence.fromList(SNodeOperations.getNodeDescendants(_context.getNode(), MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1201702638416l, "jetbrains.mps.buildlanguage.structure.ImportProject"), false, new SAbstractConcept[]{}))) {
       SetSequence.fromSet(existing).addElement(SPropertyOperations.getString(SLinkOperations.getTarget(importProject, MetaAdapterFactory.getReferenceLink(new UUID(819810455698030989l, -8713019626243247156l), 1201702638416l, 1201702650857l, "project")), MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name")));
     }
-    Iterable<SNode> projects = ListSequence.fromList(SNodeOperations.getNodeDescendants(_context.getNode(), MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1230220832119l, "jetbrains.mps.buildlanguage.structure.ITargetReference"), false, new SConcept[]{})).where(new IWhereFilter<SNode>() {
+    Iterable<SNode> projects = ListSequence.fromList(SNodeOperations.getNodeDescendants(_context.getNode(), MetaAdapterFactory.getInterfaceConcept(new UUID(819810455698030989l, -8713019626243247156l), 1230220832119l, "jetbrains.mps.buildlanguage.structure.ITargetReference"), false, new SAbstractConcept[]{})).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
         boolean b = !(SetSequence.fromSet(existing).contains(BehaviorReflection.invokeVirtual(String.class, it, "virtual_getProjectFileName_1230222765831", new Object[]{})));
         SetSequence.fromSet(existing).addElement(BehaviorReflection.invokeVirtual(String.class, it, "virtual_getProjectFileName_1230222765831", new Object[]{}));

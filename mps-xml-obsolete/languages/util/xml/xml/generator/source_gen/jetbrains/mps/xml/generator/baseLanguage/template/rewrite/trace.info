@@ -10,8 +10,8 @@
   <root nodeRef="r:00000000-0000-4000-0000-011c8959058a(jetbrains.mps.xml.generator.baseLanguage.template.rewrite@generator)/1191189331473">
     <file name="QueriesGenerated.java">
       <node id="1191200969889" at="24,104,25,280" concept="0" />
-      <node id="1191203513537" at="25,280,26,313" concept="0" />
-      <node id="1191204684830" at="26,313,27,21" concept="1" />
+      <node id="1191203513537" at="25,280,26,321" concept="0" />
+      <node id="1191204684830" at="26,321,27,21" concept="1" />
       <scope id="1191197782537" at="24,104,27,21">
         <var name="condition" id="1191203513538" />
         <var name="hasNamespace" id="1191200969890" />

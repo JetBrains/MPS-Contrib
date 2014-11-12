@@ -21,7 +21,7 @@ public class BeanDeclaration_Behavior {
     return SNodeOperations.getModelLongName(jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations.getModel(thisNode)) + "." + BeanDeclaration_Behavior.call_getGeneratedName_1213877331530(thisNode);
   }
   public static SNode virtual_createType_1213877527970(SNode thisNode) {
-    SNode type = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(new UUID(6731736082390534803l, -6860703902218146233l), 1207748590566l, "jetbrains.mps.uiLanguage.structure.BeanType"));
+    SNode type = SConceptOperations.createNewNode(jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(6731736082390534803l, -6860703902218146233l), 1207748590566l, "jetbrains.mps.uiLanguage.structure.BeanType")));
     SLinkOperations.setTarget(type, MetaAdapterFactory.getReferenceLink(new UUID(6731736082390534803l, -6860703902218146233l), 1207748590566l, 1207748756077l, "bean"), thisNode);
     return type;
   }

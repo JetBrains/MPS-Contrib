@@ -12,7 +12,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import org.apache.log4j.Level;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import org.jetbrains.mps.openapi.language.SConcept;
+import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.internal.collections.runtime.ISelector;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
@@ -65,7 +65,7 @@ public class SchemaUtil {
   }
   public static List<SNode> getAvailableChildren(SNode complexType) {
     List<SNode> children = new ArrayList<SNode>();
-    ListSequence.fromList(children).addSequence(ListSequence.fromList(SNodeOperations.getNodeDescendants(complexType, MetaAdapterFactory.getConcept(new UUID(-5396545995874219192l, -5548206827574227681l), 1167531070757l, "jetbrains.mps.xmlSchema.structure.ElementReference"), false, new SConcept[]{})).where(new IWhereFilter<SNode>() {
+    ListSequence.fromList(children).addSequence(ListSequence.fromList(SNodeOperations.getNodeDescendants(complexType, MetaAdapterFactory.getConcept(new UUID(-5396545995874219192l, -5548206827574227681l), 1167531070757l, "jetbrains.mps.xmlSchema.structure.ElementReference"), false, new SAbstractConcept[]{})).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
         return (SLinkOperations.getTarget(it, MetaAdapterFactory.getReferenceLink(new UUID(-5396545995874219192l, -5548206827574227681l), 1167531070757l, 1167531079758l, "elementDeclaration")) != null);
       }
@@ -85,7 +85,7 @@ public class SchemaUtil {
     }
   }
   public static SNode constructXMLElementType(SNode complexType) {
-    SNode type = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(new UUID(-6269610502768541194l, -6018622628950326671l), 4815471077468621637l, "jetbrains.mps.xmlQuery.structure.XMLElementType"));
+    SNode type = SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(-6269610502768541194l, -6018622628950326671l), 4815471077468621637l, "jetbrains.mps.xmlQuery.structure.XMLElementType")));
     if (complexType != null) {
       SLinkOperations.setTarget(type, MetaAdapterFactory.getReferenceLink(new UUID(-6269610502768541194l, -6018622628950326671l), 4815471077468621637l, 4815471077468621639l, "schema"), SNodeOperations.getNodeAncestor(complexType, MetaAdapterFactory.getConcept(new UUID(-5396545995874219192l, -5548206827574227681l), 1167513239198l, "jetbrains.mps.xmlSchema.structure.Schema"), false, false));
       SLinkOperations.setTarget(type, MetaAdapterFactory.getReferenceLink(new UUID(-6269610502768541194l, -6018622628950326671l), 4815471077468621637l, 4815471077468621640l, "complexType"), complexType);

@@ -97,7 +97,7 @@
       <node id="4705273682234098407" at="79,67,80,197" concept="7" />
       <node id="4705273682234098415" at="81,55,82,397" concept="8" />
       <node id="4705273682234098428" at="83,12,84,34" concept="8" />
-      <node id="4705273682234223398" at="87,66,88,210" concept="7" />
+      <node id="4705273682234223398" at="87,66,88,245" concept="7" />
       <node id="1558623248073038284" at="89,30,90,392" concept="3" />
       <node id="1558623248073038294" at="90,392,91,203" concept="3" />
       <node id="4705273682234223434" at="92,5,93,16" concept="8" />
@@ -142,7 +142,7 @@
       <node id="2341233264267552788" at="60,52,63,5" concept="4" />
       <node id="2341233264267552816" at="69,0,72,0" concept="6" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
       <node id="2341233264267552816" at="73,0,76,0" concept="6" trace="select#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-      <node id="1558623248073038272" at="88,210,92,5" concept="5" />
+      <node id="1558623248073038272" at="88,245,92,5" concept="5" />
       <node id="4705273682234098413" at="80,197,85,5" concept="5" />
       <node id="3149278768676788019" at="95,83,100,5" concept="5" />
       <node id="5285611549890897373" at="51,10,57,5" concept="1" />
@@ -259,7 +259,7 @@
       <scope id="2341233264267552653" at="27,0,59,0">
         <var name="typeExpression" id="2341233264267552654" />
       </scope>
-      <unit id="2341233264267552816" at="68,311,72,5" name="jetbrains.mps.xmlQuery.constraints.SchemaUtil$1" />
+      <unit id="2341233264267552816" at="68,319,72,5" name="jetbrains.mps.xmlQuery.constraints.SchemaUtil$1" />
       <unit id="2341233264267552816" at="72,18,76,5" name="jetbrains.mps.xmlQuery.constraints.SchemaUtil$2" />
       <unit id="2341233264267552651" at="24,0,140,0" name="jetbrains.mps.xmlQuery.constraints.SchemaUtil" />
     </file>
@@ -457,7 +457,7 @@
         <var name="references" id="4991903842868413101" />
       </scope>
       <scope id="4991903842868413101" at="36,0,74,0" />
-      <unit id="3014833108615703002" at="56,495,60,15" name="jetbrains.mps.xmlQuery.constraints.AccessChildrenOperation_Constraints$3" />
+      <unit id="3014833108615703002" at="56,503,60,15" name="jetbrains.mps.xmlQuery.constraints.AccessChildrenOperation_Constraints$3" />
       <unit id="4991903842868413101" at="47,19,69,9" name="jetbrains.mps.xmlQuery.constraints.AccessChildrenOperation_Constraints$2" />
       <unit id="4991903842868413101" at="39,144,71,5" name="jetbrains.mps.xmlQuery.constraints.AccessChildrenOperation_Constraints$1" />
       <unit id="4991903842868413101" at="32,0,76,0" name="jetbrains.mps.xmlQuery.constraints.AccessChildrenOperation_Constraints" />

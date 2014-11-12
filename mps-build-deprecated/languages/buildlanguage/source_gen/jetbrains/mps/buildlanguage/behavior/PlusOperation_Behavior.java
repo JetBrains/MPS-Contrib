@@ -8,6 +8,7 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import java.util.UUID;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 
 public class PlusOperation_Behavior {
@@ -29,7 +30,7 @@ public class PlusOperation_Behavior {
     return left + right;
   }
   public static SNode virtual_getType_1213877398951(SNode thisNode, SNode s1, SNode s2) {
-    return SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1196870403099l, "jetbrains.mps.buildlanguage.structure.StringType"));
+    return SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1196870403099l, "jetbrains.mps.buildlanguage.structure.StringType")));
   }
   public static String virtual_getActualValue_1213877472572(SNode thisNode) {
     String left;

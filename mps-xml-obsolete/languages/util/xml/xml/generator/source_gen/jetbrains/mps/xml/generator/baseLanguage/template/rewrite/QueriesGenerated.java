@@ -10,7 +10,7 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import java.util.UUID;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import org.jetbrains.mps.openapi.language.SConcept;
+import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.generator.template.PropertyMacroContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.generator.template.ReferenceMacroContext;
@@ -23,7 +23,7 @@ public class QueriesGenerated {
   public final boolean NEEDS_OPCONTEXT = false;
   public static boolean baseMappingRule_Condition_1191197782536(final BaseMappingRuleContext _context) {
     boolean hasNamespace = ElementDeclaration_Behavior.call_hasNamespace_1213877429936(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getReferenceLink(new UUID(3194679053860949738l, -5054431440157877063l), 1167523027466l, 1167523262932l, "elementDeclaration")));
-    boolean condition = hasNamespace && ListSequence.fromList(SNodeOperations.getNodeDescendants(_context.getNode(), MetaAdapterFactory.getConcept(new UUID(7275049699783163986l, -6957227899428870635l), 1191201692482l, "jetbrains.mps.xmlInternal.structure.NamespaceAttribute"), false, new SConcept[]{})).isEmpty();
+    boolean condition = hasNamespace && ListSequence.fromList(SNodeOperations.getNodeDescendants(_context.getNode(), MetaAdapterFactory.getConcept(new UUID(7275049699783163986l, -6957227899428870635l), 1191201692482l, "jetbrains.mps.xmlInternal.structure.NamespaceAttribute"), false, new SAbstractConcept[]{})).isEmpty();
     return condition;
   }
   public static Object propertyMacro_GetPropertyValue_1191202214917(final PropertyMacroContext _context) {

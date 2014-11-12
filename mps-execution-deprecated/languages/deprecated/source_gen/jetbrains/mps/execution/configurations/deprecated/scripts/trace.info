@@ -99,11 +99,11 @@
       <node id="2182799002613254539" at="59,94,62,11" concept="4" />
       <node id="2182799002613251800" at="65,5,68,5" concept="4" />
       <node id="2581841087371093112" at="36,146,41,7" concept="2" />
-      <node id="2581841087371093155" at="44,123,49,7" concept="3" />
+      <node id="2581841087371093155" at="44,131,49,7" concept="3" />
       <node id="2581841087371093140" at="43,95,50,5" concept="3" />
       <node id="2182799002613251016" at="56,86,63,9" concept="4" />
       <node id="2581841087371092278" at="24,134,33,7" concept="7" />
-      <node id="2182799002613251012" at="54,123,64,7" concept="3" />
+      <node id="2182799002613251012" at="54,131,64,7" concept="3" />
       <node id="2581841087371073727" at="24,0,35,0" concept="10" trace="getImports#(Lorg/jetbrains/mps/openapi/model/SModel;Ljava/lang/String;)Ljava/lang/Iterable;" />
       <node id="2182799002613250997" at="53,26,65,5" concept="3" />
       <node id="2581841087371093092" at="35,0,52,0" concept="10" trace="updateReferencesToModel#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;Lorg/jetbrains/mps/openapi/model/SModelReference;)V" />
@@ -124,8 +124,8 @@
         <var name="it" id="2581841087371093116" />
       </scope>
       <scope id="2581841087371093158" at="45,79,48,9" />
-      <scope id="2581841087371093146" at="44,123,49,7" />
-      <scope id="2581841087371093155" at="44,123,49,7">
+      <scope id="2581841087371093146" at="44,131,49,7" />
+      <scope id="2581841087371093155" at="44,131,49,7">
         <var name="ref" id="2581841087371093156" />
       </scope>
       <scope id="2182799002613251017" at="57,213,62,11" />
@@ -136,8 +136,8 @@
         <var name="resolveInfo" id="2182799002613251872" />
       </scope>
       <scope id="2581841087371073730" at="24,134,33,7" />
-      <scope id="2182799002613251003" at="54,123,64,7" />
-      <scope id="2182799002613251012" at="54,123,64,7">
+      <scope id="2182799002613251003" at="54,131,64,7" />
+      <scope id="2182799002613251012" at="54,131,64,7">
         <var name="ref" id="2182799002613251013" />
       </scope>
       <scope id="2581841087371073727" at="24,0,35,0">

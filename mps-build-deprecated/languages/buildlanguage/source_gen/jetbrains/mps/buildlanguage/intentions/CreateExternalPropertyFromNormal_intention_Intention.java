@@ -69,7 +69,7 @@ public class CreateExternalPropertyFromNormal_intention_Intention implements Int
       return "Transform Property to External";
     }
     public void execute(final SNode node, final EditorContext editorContext) {
-      SNode externalProperty = SNodeFactoryOperations.createNewNode(MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1219147669362l, "jetbrains.mps.buildlanguage.structure.ExternalPropertyDeclaration"), null);
+      SNode externalProperty = SNodeFactoryOperations.createNewNode(SNodeFactoryOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1219147669362l, "jetbrains.mps.buildlanguage.structure.ExternalPropertyDeclaration")), null);
       SLinkOperations.setTarget(externalProperty, MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1463999527524104369l, 1196870993204l, "type"), SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1463999527524104369l, 1196870993204l, "type")));
       SPropertyOperations.set(externalProperty, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name"), SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name")));
       SNodeOperations.replaceWithAnother(node, externalProperty);

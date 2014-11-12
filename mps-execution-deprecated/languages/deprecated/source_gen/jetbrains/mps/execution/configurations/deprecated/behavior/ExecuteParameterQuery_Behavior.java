@@ -20,8 +20,8 @@ public class ExecuteParameterQuery_Behavior {
   public static List<SNode> virtual_getParameters_1213877374450(SNode thisNode) {
     List<SNode> conceptFunctionParameterConcepts = BehaviorReflection.invokeSuper((Class<List<SNode>>) ((Class) Object.class), thisNode, "jetbrains.mps.baseLanguage.structure.ConceptFunction", "virtual_getParameters_1213877374450", new Object[]{});
     SNode root = SNodeOperations.getNodeAncestor(thisNode, null, false, true);
-    if (SNodeOperations.isInstanceOf(root, MetaAdapterFactory.getConcept(new UUID(-9024322794181865535l, -5381379368254122047l), 314981645426569268l, "jetbrains.mps.execution.configurations.deprecated.structure.IEnhancedRunConfiguration"))) {
-      ListSequence.fromList(conceptFunctionParameterConcepts).addSequence(ListSequence.fromList(BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), SNodeOperations.cast(root, MetaAdapterFactory.getConcept(new UUID(-9024322794181865535l, -5381379368254122047l), 314981645426569268l, "jetbrains.mps.execution.configurations.deprecated.structure.IEnhancedRunConfiguration")), "virtual_getAdditionalParameters_314981645426570797", new Object[]{})));
+    if (SNodeOperations.isInstanceOf(root, MetaAdapterFactory.getInterfaceConcept(new UUID(-9024322794181865535l, -5381379368254122047l), 314981645426569268l, "jetbrains.mps.execution.configurations.deprecated.structure.IEnhancedRunConfiguration"))) {
+      ListSequence.fromList(conceptFunctionParameterConcepts).addSequence(ListSequence.fromList(BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), SNodeOperations.cast(root, MetaAdapterFactory.getInterfaceConcept(new UUID(-9024322794181865535l, -5381379368254122047l), 314981645426569268l, "jetbrains.mps.execution.configurations.deprecated.structure.IEnhancedRunConfiguration")), "virtual_getAdditionalParameters_314981645426570797", new Object[]{})));
     }
     return conceptFunctionParameterConcepts;
   }

@@ -24,81 +24,81 @@
   <concept fqn="jetbrains.mps.baseLanguage.structure.WhileStatement" />
   <root nodeRef="r:641cc795-9da1-457c-a0b5-fbe12a078030(jetbrains.mps.build.generictasks.taskfromjar)/1462969652806434077">
     <file name="BuildLanguageGenerator.java">
-      <node id="1462969652806434079" at="16,0,17,0" concept="15" trace="INSTANCE" />
-      <node id="1462969652806434107" at="19,100,20,228" concept="12" />
-      <node id="1462969652806434113" at="20,228,21,172" concept="6" />
-      <node id="1277897048695361762" at="21,172,22,189" concept="6" />
-      <node id="1277897048695361778" at="22,189,23,200" concept="6" />
-      <node id="1462969652806434136" at="23,200,24,16" concept="13" />
-      <node id="1462969652806434156" at="26,140,27,226" concept="12" />
-      <node id="1277897048695363576" at="27,226,28,172" concept="6" />
-      <node id="1277897048695363588" at="28,172,29,189" concept="6" />
-      <node id="1277897048695363596" at="29,189,30,196" concept="6" />
-      <node id="1277897048695363604" at="30,196,31,216" concept="6" />
-      <node id="1277897048695363612" at="31,216,32,200" concept="6" />
-      <node id="1462969652806434180" at="32,200,33,16" concept="13" />
-      <node id="1277897048695363687" at="35,55,36,51" concept="13" />
-      <node id="1277897048695383594" at="38,68,39,223" concept="12" />
-      <node id="1277897048695383601" at="39,223,40,167" concept="6" />
-      <node id="1277897048695383613" at="40,167,41,194" concept="6" />
-      <node id="1277897048695383625" at="41,194,42,15" concept="13" />
-      <node id="1462969652806434088" at="44,54,45,43" concept="13" />
-      <node id="1277897048695363688" at="47,78,48,63" concept="12" />
-      <node id="1277897048695363688" at="48,63,49,30" concept="12" />
-      <node id="1277897048695363688" at="49,30,50,143" concept="6" />
-      <node id="1277897048695363688" at="50,143,51,225" concept="6" />
-      <node id="1277897048695363688" at="51,225,52,24" concept="13" />
-      <node id="1462969652806434090" at="17,0,19,0" concept="3" trace="BuildLanguageGenerator#()V" />
-      <node id="1277897048695363688" at="49,30,51,225" concept="1" />
-      <node id="1277897048695363688" at="49,30,51,225" concept="1" />
-      <node id="1462969652806434223" at="35,0,38,0" concept="11" trace="createDeclarationReference#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-      <node id="1462969652806434084" at="44,0,47,0" concept="16" trace="getInstance#()Ljetbrains/mps/build/generictasks/taskfromjar/BuildLanguageGenerator;" />
-      <node id="1462969652806434265" at="38,0,44,0" concept="11" trace="createAttributeDeclaration#(Ljava/lang/String;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-      <node id="1462969652806434093" at="19,0,26,0" concept="11" trace="createInterfaceDeclaration#(Ljava/lang/String;Ljava/lang/String;Z)Lorg/jetbrains/mps/openapi/model/SNode;" />
-      <node id="1277897048695363688" at="47,0,54,0" concept="16" trace="_quotation_createNode_moyhg6_a0a4#(Ljava/lang/Object;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-      <node id="1462969652806434138" at="26,0,35,0" concept="11" trace="createDeclaration#(Ljava/lang/String;Ljava/lang/String;ZZZ)Lorg/jetbrains/mps/openapi/model/SNode;" />
-      <scope id="1462969652806434092" at="17,36,17,36" />
-      <scope id="1462969652806434230" at="35,55,36,51" />
-      <scope id="1462969652806434087" at="44,54,45,43" />
-      <scope id="1462969652806434090" at="17,0,19,0" />
-      <scope id="1277897048695363688" at="49,30,51,225" />
-      <scope id="1462969652806434223" at="35,0,38,0">
+      <node id="1462969652806434079" at="17,0,18,0" concept="15" trace="INSTANCE" />
+      <node id="1462969652806434107" at="20,100,21,263" concept="12" />
+      <node id="1462969652806434113" at="21,263,22,172" concept="6" />
+      <node id="1277897048695361762" at="22,172,23,189" concept="6" />
+      <node id="1277897048695361778" at="23,189,24,200" concept="6" />
+      <node id="1462969652806434136" at="24,200,25,16" concept="13" />
+      <node id="1462969652806434156" at="27,140,28,261" concept="12" />
+      <node id="1277897048695363576" at="28,261,29,172" concept="6" />
+      <node id="1277897048695363588" at="29,172,30,189" concept="6" />
+      <node id="1277897048695363596" at="30,189,31,196" concept="6" />
+      <node id="1277897048695363604" at="31,196,32,216" concept="6" />
+      <node id="1277897048695363612" at="32,216,33,200" concept="6" />
+      <node id="1462969652806434180" at="33,200,34,16" concept="13" />
+      <node id="1277897048695363687" at="36,55,37,51" concept="13" />
+      <node id="1277897048695383594" at="39,68,40,258" concept="12" />
+      <node id="1277897048695383601" at="40,258,41,167" concept="6" />
+      <node id="1277897048695383613" at="41,167,42,194" concept="6" />
+      <node id="1277897048695383625" at="42,194,43,15" concept="13" />
+      <node id="1462969652806434088" at="45,54,46,43" concept="13" />
+      <node id="1277897048695363688" at="48,78,49,63" concept="12" />
+      <node id="1277897048695363688" at="49,63,50,30" concept="12" />
+      <node id="1277897048695363688" at="50,30,51,143" concept="6" />
+      <node id="1277897048695363688" at="51,143,52,225" concept="6" />
+      <node id="1277897048695363688" at="52,225,53,24" concept="13" />
+      <node id="1462969652806434090" at="18,0,20,0" concept="3" trace="BuildLanguageGenerator#()V" />
+      <node id="1277897048695363688" at="50,30,52,225" concept="1" />
+      <node id="1277897048695363688" at="50,30,52,225" concept="1" />
+      <node id="1462969652806434223" at="36,0,39,0" concept="11" trace="createDeclarationReference#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="1462969652806434084" at="45,0,48,0" concept="16" trace="getInstance#()Ljetbrains/mps/build/generictasks/taskfromjar/BuildLanguageGenerator;" />
+      <node id="1462969652806434265" at="39,0,45,0" concept="11" trace="createAttributeDeclaration#(Ljava/lang/String;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="1462969652806434093" at="20,0,27,0" concept="11" trace="createInterfaceDeclaration#(Ljava/lang/String;Ljava/lang/String;Z)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="1277897048695363688" at="48,0,55,0" concept="16" trace="_quotation_createNode_moyhg6_a0a4#(Ljava/lang/Object;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="1462969652806434138" at="27,0,36,0" concept="11" trace="createDeclaration#(Ljava/lang/String;Ljava/lang/String;ZZZ)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <scope id="1462969652806434092" at="18,36,18,36" />
+      <scope id="1462969652806434230" at="36,55,37,51" />
+      <scope id="1462969652806434087" at="45,54,46,43" />
+      <scope id="1462969652806434090" at="18,0,20,0" />
+      <scope id="1277897048695363688" at="50,30,52,225" />
+      <scope id="1462969652806434223" at="36,0,39,0">
         <var name="decl" id="1462969652806434228" />
       </scope>
-      <scope id="1462969652806434084" at="44,0,47,0" />
-      <scope id="1462969652806434274" at="38,68,42,15">
+      <scope id="1462969652806434084" at="45,0,48,0" />
+      <scope id="1462969652806434274" at="39,68,43,15">
         <var name="res" id="1277897048695383595" />
       </scope>
-      <scope id="1462969652806434106" at="19,100,24,16">
+      <scope id="1462969652806434106" at="20,100,25,16">
         <var name="decl" id="1462969652806434108" />
       </scope>
-      <scope id="1277897048695363688" at="47,78,52,24">
+      <scope id="1277897048695363688" at="48,78,53,24">
         <var name="facade" id="1277897048695363688" />
         <var name="quotedNode_2" id="1277897048695363688" />
       </scope>
-      <scope id="1462969652806434265" at="38,0,44,0">
+      <scope id="1462969652806434265" at="39,0,45,0">
         <var name="name" id="1462969652806434270" />
         <var name="type" id="1462969652806434272" />
       </scope>
-      <scope id="1462969652806434093" at="19,0,26,0">
+      <scope id="1462969652806434093" at="20,0,27,0">
         <var name="className" id="1462969652806434100" />
         <var name="declName" id="1462969652806434098" />
         <var name="isDeprecated" id="1462969652806434102" />
       </scope>
-      <scope id="1462969652806434155" at="26,140,33,16">
+      <scope id="1462969652806434155" at="27,140,34,16">
         <var name="decl" id="1462969652806434157" />
       </scope>
-      <scope id="1277897048695363688" at="47,0,54,0">
+      <scope id="1277897048695363688" at="48,0,55,0">
         <var name="parameter_1" id="1277897048695363688" />
       </scope>
-      <scope id="1462969652806434138" at="26,0,35,0">
+      <scope id="1462969652806434138" at="27,0,36,0">
         <var name="canHaveInternalText" id="1462969652806434149" />
         <var name="className" id="1462969652806434145" />
         <var name="declName" id="1462969652806434143" />
         <var name="isAbstract" id="1462969652806434147" />
         <var name="isDeprecated" id="1462969652806434151" />
       </scope>
-      <unit id="1462969652806434077" at="15,0,55,0" name="jetbrains.mps.build.generictasks.taskfromjar.BuildLanguageGenerator" />
+      <unit id="1462969652806434077" at="16,0,56,0" name="jetbrains.mps.build.generictasks.taskfromjar.BuildLanguageGenerator" />
     </file>
   </root>
   <root nodeRef="r:641cc795-9da1-457c-a0b5-fbe12a078030(jetbrains.mps.build.generictasks.taskfromjar)/1462969652806434314">
