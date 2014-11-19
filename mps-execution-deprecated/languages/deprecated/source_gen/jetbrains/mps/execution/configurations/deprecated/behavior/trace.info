@@ -10,92 +10,8 @@
   <concept fqn="jetbrains.mps.baseLanguage.structure.Statement" />
   <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
   <root>
-    <file name="RunConfigurationTypeDeclaration_BehaviorDescriptor.java">
-      <unit at="14,0,37,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.RunConfigurationTypeDeclaration_BehaviorDescriptor" />
-    </file>
-    <file name="RunConfigurationDeclaration_BehaviorDescriptor.java">
-      <unit at="18,0,65,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.RunConfigurationDeclaration_BehaviorDescriptor" />
-    </file>
-    <file name="RunConfigurationMethodDeclaration_BehaviorDescriptor.java">
-      <unit at="7,0,15,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.RunConfigurationMethodDeclaration_BehaviorDescriptor" />
-    </file>
-    <file name="CreateRunConfigStatement_BehaviorDescriptor.java">
-      <unit at="7,0,15,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.CreateRunConfigStatement_BehaviorDescriptor" />
-    </file>
-    <file name="ExecuteSpecific_BehaviorDescriptor.java">
-      <unit at="6,0,8,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.ExecuteSpecific_BehaviorDescriptor" />
-    </file>
-    <file name="JavaNodeRunConfiguration_BehaviorDescriptor.java">
-      <unit at="8,0,19,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.JavaNodeRunConfiguration_BehaviorDescriptor" />
-    </file>
-    <file name="PrepareConceptFunction_BehaviorDescriptor.java">
-      <unit at="10,0,27,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.PrepareConceptFunction_BehaviorDescriptor" />
-    </file>
-    <file name="IEnhancedRunConfiguration_BehaviorDescriptor.java">
-      <unit at="8,0,11,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.IEnhancedRunConfiguration_BehaviorDescriptor" />
-    </file>
-    <file name="MakeConfigBlock_BehaviorDescriptor.java">
-      <unit at="9,0,26,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.MakeConfigBlock_BehaviorDescriptor" />
-    </file>
-    <file name="NodeRunConfigPropertyInstance_BehaviorDescriptor.java">
-      <unit at="9,0,20,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.NodeRunConfigPropertyInstance_BehaviorDescriptor" />
-    </file>
-    <file name="ConsoleExpression_BehaviorDescriptor.java">
-      <unit at="7,0,15,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.ConsoleExpression_BehaviorDescriptor" />
-    </file>
-    <file name="ExecutionConsoleStatement_BehaviorDescriptor.java">
-      <unit at="7,0,15,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.ExecutionConsoleStatement_BehaviorDescriptor" />
-    </file>
-    <file name="BehaviorAspectDescriptor.java">
-      <unit at="9,0,142,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.BehaviorAspectDescriptor" />
-    </file>
-    <file name="JavaNodeConfigurationEditorDeclaration_BehaviorDescriptor.java">
-      <unit at="6,0,14,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.JavaNodeConfigurationEditorDeclaration_BehaviorDescriptor" />
-    </file>
-    <file name="JavaConfigurationRunParameters_FunctionParameter_BehaviorDescriptor.java">
-      <unit at="8,0,25,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.JavaConfigurationRunParameters_FunctionParameter_BehaviorDescriptor" />
-    </file>
-    <file name="NodeCreatorTarget_BehaviorDescriptor.java">
-      <unit at="6,0,14,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.NodeCreatorTarget_BehaviorDescriptor" />
-    </file>
-    <file name="Project_ConceptFunctionParameter_BehaviorDescriptor.java">
-      <unit at="8,0,19,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.Project_ConceptFunctionParameter_BehaviorDescriptor" />
-    </file>
-    <file name="Node_FunctionParameter_BehaviorDescriptor.java">
-      <unit at="8,0,25,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.Node_FunctionParameter_BehaviorDescriptor" />
-    </file>
-    <file name="GetConfigurationIconBlock_BehaviorDescriptor.java">
-      <unit at="9,0,23,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.GetConfigurationIconBlock_BehaviorDescriptor" />
-    </file>
-    <file name="NodesCreatorTarget_BehaviorDescriptor.java">
-      <unit at="7,0,18,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.NodesCreatorTarget_BehaviorDescriptor" />
-    </file>
-    <file name="UniversalRunConfigCreator_BehaviorDescriptor.java">
-      <unit at="10,0,21,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.UniversalRunConfigCreator_BehaviorDescriptor" />
-    </file>
-    <file name="ModuleCreatorTarget_BehaviorDescriptor.java">
-      <unit at="6,0,14,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.ModuleCreatorTarget_BehaviorDescriptor" />
-    </file>
-    <file name="ProcessStatement_BehaviorDescriptor.java">
-      <unit at="7,0,15,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.ProcessStatement_BehaviorDescriptor" />
-    </file>
-    <file name="BaseCreatorTarget_BehaviorDescriptor.java">
-      <unit at="8,0,19,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.BaseCreatorTarget_BehaviorDescriptor" />
-    </file>
-    <file name="ParametrizedExecuteBlock_BehaviorDescriptor.java">
-      <unit at="7,0,15,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.ParametrizedExecuteBlock_BehaviorDescriptor" />
-    </file>
-    <file name="ActionsStatement_BehaviorDescriptor.java">
-      <unit at="7,0,15,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.ActionsStatement_BehaviorDescriptor" />
-    </file>
-    <file name="IJavaRunConfigurationParameter_BehaviorDescriptor.java">
-      <unit at="7,0,11,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.IJavaRunConfigurationParameter_BehaviorDescriptor" />
-    </file>
-    <file name="ResetEditorBlock_BehaviorDescriptor.java">
-      <unit at="7,0,18,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.ResetEditorBlock_BehaviorDescriptor" />
-    </file>
-    <file name="IsApplicableBlock_BehaviorDescriptor.java">
-      <unit at="10,0,27,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.IsApplicableBlock_BehaviorDescriptor" />
+    <file name="AbstractCheckConfigBlock_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.AbstractCheckConfigBlock_BehaviorDescriptor" />
     </file>
     <file name="AbstractEnhancedConceptFunction_BehaviorDescriptor.java">
       <unit at="9,0,20,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.AbstractEnhancedConceptFunction_BehaviorDescriptor" />
@@ -103,125 +19,209 @@
     <file name="ActionListStatement_BehaviorDescriptor.java">
       <unit at="7,0,15,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.ActionListStatement_BehaviorDescriptor" />
     </file>
-    <file name="ExecuteParameterQuery_BehaviorDescriptor.java">
-      <unit at="9,0,23,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.ExecuteParameterQuery_BehaviorDescriptor" />
-    </file>
-    <file name="ComponentReference_BehaviorDescriptor.java">
-      <unit at="7,0,15,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.ComponentReference_BehaviorDescriptor" />
-    </file>
-    <file name="IRunConfigPropertyInstance_BehaviorDescriptor.java">
-      <unit at="7,0,9,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.IRunConfigPropertyInstance_BehaviorDescriptor" />
-    </file>
-    <file name="AbstractCheckConfigBlock_BehaviorDescriptor.java">
-      <unit at="7,0,15,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.AbstractCheckConfigBlock_BehaviorDescriptor" />
-    </file>
-    <file name="Console_FunctionParameter_BehaviorDescriptor.java">
-      <unit at="9,0,20,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.Console_FunctionParameter_BehaviorDescriptor" />
-    </file>
     <file name="ActionsList_FunctionParameter_BehaviorDescriptor.java">
       <unit at="7,0,15,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.ActionsList_FunctionParameter_BehaviorDescriptor" />
     </file>
-    <file name="DebugSessionCreator_BehaviorDescriptor.java">
-      <unit at="10,0,27,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.DebugSessionCreator_BehaviorDescriptor" />
-    </file>
-    <file name="GetUserDataExpression_BehaviorDescriptor.java">
-      <unit at="7,0,15,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.GetUserDataExpression_BehaviorDescriptor" />
-    </file>
-    <file name="Environment_FunctionParameter_BehaviorDescriptor.java">
-      <unit at="9,0,20,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.Environment_FunctionParameter_BehaviorDescriptor" />
-    </file>
-    <file name="CheckConfigurationBlock_BehaviorDescriptor.java">
-      <unit at="7,0,21,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.CheckConfigurationBlock_BehaviorDescriptor" />
-    </file>
-    <file name="JavaCheckBlock_BehaviorDescriptor.java">
-      <unit at="9,0,23,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.JavaCheckBlock_BehaviorDescriptor" />
-    </file>
-    <file name="ExecuteConfigBlock_BehaviorDescriptor.java">
-      <unit at="10,0,24,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.ExecuteConfigBlock_BehaviorDescriptor" />
-    </file>
-    <file name="ModelCreatorTarget_BehaviorDescriptor.java">
-      <unit at="6,0,14,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.ModelCreatorTarget_BehaviorDescriptor" />
-    </file>
-    <file name="ReportErrorStatement_BehaviorDescriptor.java">
-      <unit at="7,0,15,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.ReportErrorStatement_BehaviorDescriptor" />
-    </file>
-    <file name="Parameter_FunctionParameter_BehaviorDescriptor.java">
-      <unit at="9,0,20,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.Parameter_FunctionParameter_BehaviorDescriptor" />
-    </file>
-    <file name="DisposeEditorBlock_BehaviorDescriptor.java">
-      <unit at="8,0,19,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.DisposeEditorBlock_BehaviorDescriptor" />
-    </file>
-    <file name="ProjectExpression_BehaviorDescriptor.java">
-      <unit at="7,0,15,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.ProjectExpression_BehaviorDescriptor" />
-    </file>
-    <file name="PrepareReturnType_FunctionParameter_BehaviorDescriptor.java">
-      <unit at="7,0,15,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.PrepareReturnType_FunctionParameter_BehaviorDescriptor" />
-    </file>
-    <file name="ParametrizedExecuteConsole_BehaviorDescriptor.java">
-      <unit at="9,0,23,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.ParametrizedExecuteConsole_BehaviorDescriptor" />
-    </file>
-    <file name="UserComponentReferenceAnnotation_BehaviorDescriptor.java">
-      <unit at="7,0,15,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.UserComponentReferenceAnnotation_BehaviorDescriptor" />
-    </file>
-    <file name="ParametrizedExecuteActions_BehaviorDescriptor.java">
-      <unit at="10,0,21,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.ParametrizedExecuteActions_BehaviorDescriptor" />
-    </file>
-    <file name="RunConfigParameterReferenceOperation_BehaviorDescriptor.java">
-      <unit at="11,0,34,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.RunConfigParameterReferenceOperation_BehaviorDescriptor" />
-    </file>
-    <file name="IExecuteConfigBlock_BehaviorDescriptor.java">
-      <unit at="6,0,8,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.IExecuteConfigBlock_BehaviorDescriptor" />
-    </file>
-    <file name="ConsoleType_BehaviorDescriptor.java">
-      <unit at="7,0,15,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.ConsoleType_BehaviorDescriptor" />
-    </file>
-    <file name="ParametrizedExecuteProcess_BehaviorDescriptor.java">
-      <unit at="9,0,26,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.ParametrizedExecuteProcess_BehaviorDescriptor" />
-    </file>
-    <file name="IOnChangeEditorBlock_BehaviorDescriptor.java">
-      <unit at="6,0,8,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.IOnChangeEditorBlock_BehaviorDescriptor" />
-    </file>
-    <file name="JavaRunConfiguration_BehaviorDescriptor.java">
-      <unit at="9,0,26,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.JavaRunConfiguration_BehaviorDescriptor" />
-    </file>
-    <file name="OnChangeNodeBlock_BehaviorDescriptor.java">
-      <unit at="10,0,24,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.OnChangeNodeBlock_BehaviorDescriptor" />
-    </file>
-    <file name="RunConfigType_BehaviorDescriptor.java">
-      <unit at="9,0,23,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.RunConfigType_BehaviorDescriptor" />
-    </file>
-    <file name="CreateRunConfigBlockParameter_BehaviorDescriptor.java">
-      <unit at="8,0,16,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.CreateRunConfigBlockParameter_BehaviorDescriptor" />
+    <file name="ActionsStatement_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.ActionsStatement_BehaviorDescriptor" />
     </file>
     <file name="ApplyEditorBlock_BehaviorDescriptor.java">
       <unit at="7,0,18,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.ApplyEditorBlock_BehaviorDescriptor" />
     </file>
-    <file name="RunConfigPropertyInstance_BehaviorDescriptor.java">
-      <unit at="9,0,20,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.RunConfigPropertyInstance_BehaviorDescriptor" />
+    <file name="BaseCreatorTarget_BehaviorDescriptor.java">
+      <unit at="8,0,19,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.BaseCreatorTarget_BehaviorDescriptor" />
     </file>
-    <file name="Executor_FunctionParameter_BehaviorDescriptor.java">
-      <unit at="9,0,20,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.Executor_FunctionParameter_BehaviorDescriptor" />
+    <file name="BehaviorAspectDescriptor.java">
+      <unit at="9,0,142,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.BehaviorAspectDescriptor" />
     </file>
-    <file name="ProjectCreatorTarget_BehaviorDescriptor.java">
-      <unit at="6,0,14,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.ProjectCreatorTarget_BehaviorDescriptor" />
-    </file>
-    <file name="DisposeConsoleBlock_BehaviorDescriptor.java">
-      <unit at="7,0,15,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.DisposeConsoleBlock_BehaviorDescriptor" />
-    </file>
-    <file name="RunConfigExecutionParameterDeclaration_BehaviorDescriptor.java">
-      <unit at="10,0,27,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.RunConfigExecutionParameterDeclaration_BehaviorDescriptor" />
-    </file>
-    <file name="ConfigurationEditorDeclaration_BehaviorDescriptor.java">
-      <unit at="7,0,15,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.ConfigurationEditorDeclaration_BehaviorDescriptor" />
+    <file name="CheckConfigurationBlock_BehaviorDescriptor.java">
+      <unit at="7,0,21,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.CheckConfigurationBlock_BehaviorDescriptor" />
     </file>
     <file name="ComponentInsideOfChangeListenerAnnotation_BehaviorDescriptor.java">
       <unit at="7,0,15,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.ComponentInsideOfChangeListenerAnnotation_BehaviorDescriptor" />
     </file>
-    <file name="RunConfigMainNodeStatement_BehaviorDescriptor.java">
-      <unit at="7,0,15,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.RunConfigMainNodeStatement_BehaviorDescriptor" />
+    <file name="ComponentReference_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.ComponentReference_BehaviorDescriptor" />
+    </file>
+    <file name="ConfigurationEditorDeclaration_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.ConfigurationEditorDeclaration_BehaviorDescriptor" />
+    </file>
+    <file name="ConsoleExpression_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.ConsoleExpression_BehaviorDescriptor" />
+    </file>
+    <file name="ConsoleType_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.ConsoleType_BehaviorDescriptor" />
+    </file>
+    <file name="Console_FunctionParameter_BehaviorDescriptor.java">
+      <unit at="9,0,20,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.Console_FunctionParameter_BehaviorDescriptor" />
+    </file>
+    <file name="CreateRunConfigBlockParameter_BehaviorDescriptor.java">
+      <unit at="8,0,16,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.CreateRunConfigBlockParameter_BehaviorDescriptor" />
     </file>
     <file name="CreateRunConfigBlock_BehaviorDescriptor.java">
       <unit at="10,0,24,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.CreateRunConfigBlock_BehaviorDescriptor" />
+    </file>
+    <file name="CreateRunConfigStatement_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.CreateRunConfigStatement_BehaviorDescriptor" />
+    </file>
+    <file name="DebugSessionCreator_BehaviorDescriptor.java">
+      <unit at="10,0,27,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.DebugSessionCreator_BehaviorDescriptor" />
+    </file>
+    <file name="DisposeConsoleBlock_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.DisposeConsoleBlock_BehaviorDescriptor" />
+    </file>
+    <file name="DisposeEditorBlock_BehaviorDescriptor.java">
+      <unit at="8,0,19,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.DisposeEditorBlock_BehaviorDescriptor" />
+    </file>
+    <file name="Environment_FunctionParameter_BehaviorDescriptor.java">
+      <unit at="9,0,20,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.Environment_FunctionParameter_BehaviorDescriptor" />
+    </file>
+    <file name="ExecuteConfigBlock_BehaviorDescriptor.java">
+      <unit at="10,0,24,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.ExecuteConfigBlock_BehaviorDescriptor" />
+    </file>
+    <file name="ExecuteParameterQuery_BehaviorDescriptor.java">
+      <unit at="9,0,23,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.ExecuteParameterQuery_BehaviorDescriptor" />
+    </file>
+    <file name="ExecuteSpecific_BehaviorDescriptor.java">
+      <unit at="6,0,8,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.ExecuteSpecific_BehaviorDescriptor" />
+    </file>
+    <file name="ExecutionConsoleStatement_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.ExecutionConsoleStatement_BehaviorDescriptor" />
+    </file>
+    <file name="Executor_FunctionParameter_BehaviorDescriptor.java">
+      <unit at="9,0,20,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.Executor_FunctionParameter_BehaviorDescriptor" />
+    </file>
+    <file name="GetConfigurationIconBlock_BehaviorDescriptor.java">
+      <unit at="9,0,23,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.GetConfigurationIconBlock_BehaviorDescriptor" />
+    </file>
+    <file name="GetUserDataExpression_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.GetUserDataExpression_BehaviorDescriptor" />
+    </file>
+    <file name="IEnhancedRunConfiguration_BehaviorDescriptor.java">
+      <unit at="8,0,11,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.IEnhancedRunConfiguration_BehaviorDescriptor" />
+    </file>
+    <file name="IExecuteConfigBlock_BehaviorDescriptor.java">
+      <unit at="6,0,8,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.IExecuteConfigBlock_BehaviorDescriptor" />
+    </file>
+    <file name="IJavaRunConfigurationParameter_BehaviorDescriptor.java">
+      <unit at="7,0,11,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.IJavaRunConfigurationParameter_BehaviorDescriptor" />
+    </file>
+    <file name="IOnChangeEditorBlock_BehaviorDescriptor.java">
+      <unit at="6,0,8,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.IOnChangeEditorBlock_BehaviorDescriptor" />
+    </file>
+    <file name="IRunConfigPropertyInstance_BehaviorDescriptor.java">
+      <unit at="7,0,9,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.IRunConfigPropertyInstance_BehaviorDescriptor" />
+    </file>
+    <file name="IsApplicableBlock_BehaviorDescriptor.java">
+      <unit at="10,0,27,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.IsApplicableBlock_BehaviorDescriptor" />
+    </file>
+    <file name="JavaCheckBlock_BehaviorDescriptor.java">
+      <unit at="9,0,23,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.JavaCheckBlock_BehaviorDescriptor" />
+    </file>
+    <file name="JavaConfigurationRunParameters_FunctionParameter_BehaviorDescriptor.java">
+      <unit at="8,0,25,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.JavaConfigurationRunParameters_FunctionParameter_BehaviorDescriptor" />
+    </file>
+    <file name="JavaNodeConfigurationEditorDeclaration_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.JavaNodeConfigurationEditorDeclaration_BehaviorDescriptor" />
+    </file>
+    <file name="JavaNodeRunConfiguration_BehaviorDescriptor.java">
+      <unit at="8,0,19,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.JavaNodeRunConfiguration_BehaviorDescriptor" />
+    </file>
+    <file name="JavaRunConfiguration_BehaviorDescriptor.java">
+      <unit at="9,0,26,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.JavaRunConfiguration_BehaviorDescriptor" />
+    </file>
+    <file name="MakeConfigBlock_BehaviorDescriptor.java">
+      <unit at="9,0,26,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.MakeConfigBlock_BehaviorDescriptor" />
+    </file>
+    <file name="ModelCreatorTarget_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.ModelCreatorTarget_BehaviorDescriptor" />
+    </file>
+    <file name="ModuleCreatorTarget_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.ModuleCreatorTarget_BehaviorDescriptor" />
+    </file>
+    <file name="NodeCreatorTarget_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.NodeCreatorTarget_BehaviorDescriptor" />
+    </file>
+    <file name="NodeRunConfigPropertyInstance_BehaviorDescriptor.java">
+      <unit at="9,0,20,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.NodeRunConfigPropertyInstance_BehaviorDescriptor" />
+    </file>
+    <file name="Node_FunctionParameter_BehaviorDescriptor.java">
+      <unit at="8,0,25,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.Node_FunctionParameter_BehaviorDescriptor" />
+    </file>
+    <file name="NodesCreatorTarget_BehaviorDescriptor.java">
+      <unit at="7,0,18,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.NodesCreatorTarget_BehaviorDescriptor" />
+    </file>
+    <file name="OnChangeNodeBlock_BehaviorDescriptor.java">
+      <unit at="10,0,24,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.OnChangeNodeBlock_BehaviorDescriptor" />
+    </file>
+    <file name="Parameter_FunctionParameter_BehaviorDescriptor.java">
+      <unit at="9,0,20,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.Parameter_FunctionParameter_BehaviorDescriptor" />
+    </file>
+    <file name="ParametrizedExecuteActions_BehaviorDescriptor.java">
+      <unit at="10,0,21,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.ParametrizedExecuteActions_BehaviorDescriptor" />
+    </file>
+    <file name="ParametrizedExecuteBlock_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.ParametrizedExecuteBlock_BehaviorDescriptor" />
+    </file>
+    <file name="ParametrizedExecuteConsole_BehaviorDescriptor.java">
+      <unit at="9,0,23,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.ParametrizedExecuteConsole_BehaviorDescriptor" />
+    </file>
+    <file name="ParametrizedExecuteProcess_BehaviorDescriptor.java">
+      <unit at="9,0,26,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.ParametrizedExecuteProcess_BehaviorDescriptor" />
+    </file>
+    <file name="PrepareConceptFunction_BehaviorDescriptor.java">
+      <unit at="10,0,27,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.PrepareConceptFunction_BehaviorDescriptor" />
+    </file>
+    <file name="PrepareReturnType_FunctionParameter_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.PrepareReturnType_FunctionParameter_BehaviorDescriptor" />
+    </file>
+    <file name="ProcessStatement_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.ProcessStatement_BehaviorDescriptor" />
+    </file>
+    <file name="ProjectCreatorTarget_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.ProjectCreatorTarget_BehaviorDescriptor" />
+    </file>
+    <file name="ProjectExpression_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.ProjectExpression_BehaviorDescriptor" />
+    </file>
+    <file name="Project_ConceptFunctionParameter_BehaviorDescriptor.java">
+      <unit at="8,0,19,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.Project_ConceptFunctionParameter_BehaviorDescriptor" />
+    </file>
+    <file name="ReportErrorStatement_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.ReportErrorStatement_BehaviorDescriptor" />
+    </file>
+    <file name="ResetEditorBlock_BehaviorDescriptor.java">
+      <unit at="7,0,18,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.ResetEditorBlock_BehaviorDescriptor" />
+    </file>
+    <file name="RunConfigExecutionParameterDeclaration_BehaviorDescriptor.java">
+      <unit at="10,0,27,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.RunConfigExecutionParameterDeclaration_BehaviorDescriptor" />
+    </file>
+    <file name="RunConfigMainNodeStatement_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.RunConfigMainNodeStatement_BehaviorDescriptor" />
+    </file>
+    <file name="RunConfigParameterReferenceOperation_BehaviorDescriptor.java">
+      <unit at="11,0,34,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.RunConfigParameterReferenceOperation_BehaviorDescriptor" />
+    </file>
+    <file name="RunConfigPropertyInstance_BehaviorDescriptor.java">
+      <unit at="9,0,20,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.RunConfigPropertyInstance_BehaviorDescriptor" />
+    </file>
+    <file name="RunConfigType_BehaviorDescriptor.java">
+      <unit at="9,0,23,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.RunConfigType_BehaviorDescriptor" />
+    </file>
+    <file name="RunConfigurationDeclaration_BehaviorDescriptor.java">
+      <unit at="18,0,65,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.RunConfigurationDeclaration_BehaviorDescriptor" />
+    </file>
+    <file name="RunConfigurationMethodDeclaration_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.RunConfigurationMethodDeclaration_BehaviorDescriptor" />
+    </file>
+    <file name="RunConfigurationTypeDeclaration_BehaviorDescriptor.java">
+      <unit at="14,0,37,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.RunConfigurationTypeDeclaration_BehaviorDescriptor" />
+    </file>
+    <file name="UniversalRunConfigCreator_BehaviorDescriptor.java">
+      <unit at="10,0,21,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.UniversalRunConfigCreator_BehaviorDescriptor" />
+    </file>
+    <file name="UserComponentReferenceAnnotation_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="jetbrains.mps.execution.configurations.deprecated.behavior.UserComponentReferenceAnnotation_BehaviorDescriptor" />
     </file>
   </root>
   <root nodeRef="r:44be5a71-98f4-4137-88b1-8ccaf67186a8(jetbrains.mps.execution.configurations.deprecated.behavior)/1262430001741638293">

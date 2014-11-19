@@ -3,11 +3,11 @@
   <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
   <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
   <root>
-    <file name="PropertyNode_BehaviorDescriptor.java">
-      <unit at="13,0,30,0" name="jetbrains.mps.build.property.behavior.PropertyNode_BehaviorDescriptor" />
-    </file>
     <file name="BehaviorAspectDescriptor.java">
       <unit at="9,0,22,0" name="jetbrains.mps.build.property.behavior.BehaviorAspectDescriptor" />
+    </file>
+    <file name="PropertyNode_BehaviorDescriptor.java">
+      <unit at="13,0,30,0" name="jetbrains.mps.build.property.behavior.PropertyNode_BehaviorDescriptor" />
     </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895904dd(jetbrains.mps.build.property.behavior)/1213877341756">

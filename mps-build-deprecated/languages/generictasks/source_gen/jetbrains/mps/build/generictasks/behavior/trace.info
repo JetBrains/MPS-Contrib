@@ -11,20 +11,11 @@
   <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
   <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
   <root>
-    <file name="TaskInterfaceDeclaration_BehaviorDescriptor.java">
-      <unit at="6,0,14,0" name="jetbrains.mps.build.generictasks.behavior.TaskInterfaceDeclaration_BehaviorDescriptor" />
-    </file>
-    <file name="TaskCall_BehaviorDescriptor.java">
-      <unit at="8,0,16,0" name="jetbrains.mps.build.generictasks.behavior.TaskCall_BehaviorDescriptor" />
-    </file>
-    <file name="ITaskDeclaration_BehaviorDescriptor.java">
-      <unit at="10,0,19,0" name="jetbrains.mps.build.generictasks.behavior.ITaskDeclaration_BehaviorDescriptor" />
-    </file>
     <file name="AttributeDeclaration_BehaviorDescriptor.java">
       <unit at="14,0,43,0" name="jetbrains.mps.build.generictasks.behavior.AttributeDeclaration_BehaviorDescriptor" />
     </file>
-    <file name="NestedDeclaration_BehaviorDescriptor.java">
-      <unit at="6,0,14,0" name="jetbrains.mps.build.generictasks.behavior.NestedDeclaration_BehaviorDescriptor" />
+    <file name="Attribute_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="jetbrains.mps.build.generictasks.behavior.Attribute_BehaviorDescriptor" />
     </file>
     <file name="BehaviorAspectDescriptor.java">
       <unit at="9,0,36,0" name="jetbrains.mps.build.generictasks.behavior.BehaviorAspectDescriptor" />
@@ -32,14 +23,23 @@
     <file name="BuiltInTaskDeclaration_BehaviorDescriptor.java">
       <unit at="13,0,75,0" name="jetbrains.mps.build.generictasks.behavior.BuiltInTaskDeclaration_BehaviorDescriptor" />
     </file>
-    <file name="TaskReference_BehaviorDescriptor.java">
-      <unit at="7,0,15,0" name="jetbrains.mps.build.generictasks.behavior.TaskReference_BehaviorDescriptor" />
+    <file name="ITaskDeclaration_BehaviorDescriptor.java">
+      <unit at="10,0,19,0" name="jetbrains.mps.build.generictasks.behavior.ITaskDeclaration_BehaviorDescriptor" />
     </file>
-    <file name="Attribute_BehaviorDescriptor.java">
-      <unit at="7,0,15,0" name="jetbrains.mps.build.generictasks.behavior.Attribute_BehaviorDescriptor" />
+    <file name="NestedDeclaration_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="jetbrains.mps.build.generictasks.behavior.NestedDeclaration_BehaviorDescriptor" />
     </file>
     <file name="PathReference_BehaviorDescriptor.java">
       <unit at="10,0,30,0" name="jetbrains.mps.build.generictasks.behavior.PathReference_BehaviorDescriptor" />
+    </file>
+    <file name="TaskCall_BehaviorDescriptor.java">
+      <unit at="8,0,16,0" name="jetbrains.mps.build.generictasks.behavior.TaskCall_BehaviorDescriptor" />
+    </file>
+    <file name="TaskInterfaceDeclaration_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="jetbrains.mps.build.generictasks.behavior.TaskInterfaceDeclaration_BehaviorDescriptor" />
+    </file>
+    <file name="TaskReference_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="jetbrains.mps.build.generictasks.behavior.TaskReference_BehaviorDescriptor" />
     </file>
   </root>
   <root nodeRef="r:83b1eb02-118e-488e-ab83-e4cc714b9392(jetbrains.mps.build.generictasks.behavior)/1449762848926780416">

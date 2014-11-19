@@ -8,62 +8,62 @@
   <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
   <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
   <root>
-    <file name="GNewLine_BehaviorDescriptor.java">
-      <unit at="6,0,14,0" name="jetbrains.mps.gtext.behavior.GNewLine_BehaviorDescriptor" />
+    <file name="BehaviorAspectDescriptor.java">
+      <unit at="9,0,50,0" name="jetbrains.mps.gtext.behavior.BehaviorAspectDescriptor" />
     </file>
-    <file name="GContentPlaceholder_BehaviorDescriptor.java">
-      <unit at="9,0,20,0" name="jetbrains.mps.gtext.behavior.GContentPlaceholder_BehaviorDescriptor" />
-    </file>
-    <file name="GItem_BehaviorDescriptor.java">
-      <unit at="11,0,26,0" name="jetbrains.mps.gtext.behavior.GItem_BehaviorDescriptor" />
-    </file>
-    <file name="GDocument_BehaviorDescriptor.java">
-      <unit at="11,0,25,0" name="jetbrains.mps.gtext.behavior.GDocument_BehaviorDescriptor" />
-    </file>
-    <file name="GStatementItem_BehaviorDescriptor.java">
-      <unit at="6,0,14,0" name="jetbrains.mps.gtext.behavior.GStatementItem_BehaviorDescriptor" />
-    </file>
-    <file name="GText_BehaviorDescriptor.java">
-      <unit at="6,0,14,0" name="jetbrains.mps.gtext.behavior.GText_BehaviorDescriptor" />
+    <file name="BuilderContextRef_BehaviorDescriptor.java">
+      <unit at="9,0,20,0" name="jetbrains.mps.gtext.behavior.BuilderContextRef_BehaviorDescriptor" />
     </file>
     <file name="GCompositeItem_BehaviorDescriptor.java">
       <unit at="8,0,11,0" name="jetbrains.mps.gtext.behavior.GCompositeItem_BehaviorDescriptor" />
     </file>
-    <file name="GItemStatement_BehaviorDescriptor.java">
-      <unit at="7,0,15,0" name="jetbrains.mps.gtext.behavior.GItemStatement_BehaviorDescriptor" />
-    </file>
-    <file name="GExpressionItem_BehaviorDescriptor.java">
-      <unit at="6,0,14,0" name="jetbrains.mps.gtext.behavior.GExpressionItem_BehaviorDescriptor" />
-    </file>
-    <file name="GIndent_BehaviorDescriptor.java">
-      <unit at="6,0,14,0" name="jetbrains.mps.gtext.behavior.GIndent_BehaviorDescriptor" />
-    </file>
-    <file name="GTextConcept_BehaviorDescriptor.java">
-      <unit at="6,0,8,0" name="jetbrains.mps.gtext.behavior.GTextConcept_BehaviorDescriptor" />
-    </file>
-    <file name="GLine_BehaviorDescriptor.java">
-      <unit at="8,0,22,0" name="jetbrains.mps.gtext.behavior.GLine_BehaviorDescriptor" />
-    </file>
-    <file name="GSeparatorItemList_BehaviorDescriptor.java">
-      <unit at="8,0,19,0" name="jetbrains.mps.gtext.behavior.GSeparatorItemList_BehaviorDescriptor" />
-    </file>
     <file name="GConditionalLine_BehaviorDescriptor.java">
       <unit at="8,0,19,0" name="jetbrains.mps.gtext.behavior.GConditionalLine_BehaviorDescriptor" />
-    </file>
-    <file name="GItemList_BehaviorDescriptor.java">
-      <unit at="8,0,22,0" name="jetbrains.mps.gtext.behavior.GItemList_BehaviorDescriptor" />
-    </file>
-    <file name="GIndentBlock_BehaviorDescriptor.java">
-      <unit at="6,0,14,0" name="jetbrains.mps.gtext.behavior.GIndentBlock_BehaviorDescriptor" />
-    </file>
-    <file name="BehaviorAspectDescriptor.java">
-      <unit at="9,0,50,0" name="jetbrains.mps.gtext.behavior.BehaviorAspectDescriptor" />
     </file>
     <file name="GContentBlock_BehaviorDescriptor.java">
       <unit at="10,0,24,0" name="jetbrains.mps.gtext.behavior.GContentBlock_BehaviorDescriptor" />
     </file>
-    <file name="BuilderContextRef_BehaviorDescriptor.java">
-      <unit at="9,0,20,0" name="jetbrains.mps.gtext.behavior.BuilderContextRef_BehaviorDescriptor" />
+    <file name="GContentPlaceholder_BehaviorDescriptor.java">
+      <unit at="9,0,20,0" name="jetbrains.mps.gtext.behavior.GContentPlaceholder_BehaviorDescriptor" />
+    </file>
+    <file name="GDocument_BehaviorDescriptor.java">
+      <unit at="11,0,25,0" name="jetbrains.mps.gtext.behavior.GDocument_BehaviorDescriptor" />
+    </file>
+    <file name="GExpressionItem_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="jetbrains.mps.gtext.behavior.GExpressionItem_BehaviorDescriptor" />
+    </file>
+    <file name="GIndentBlock_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="jetbrains.mps.gtext.behavior.GIndentBlock_BehaviorDescriptor" />
+    </file>
+    <file name="GIndent_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="jetbrains.mps.gtext.behavior.GIndent_BehaviorDescriptor" />
+    </file>
+    <file name="GItemList_BehaviorDescriptor.java">
+      <unit at="8,0,22,0" name="jetbrains.mps.gtext.behavior.GItemList_BehaviorDescriptor" />
+    </file>
+    <file name="GItemStatement_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="jetbrains.mps.gtext.behavior.GItemStatement_BehaviorDescriptor" />
+    </file>
+    <file name="GItem_BehaviorDescriptor.java">
+      <unit at="11,0,26,0" name="jetbrains.mps.gtext.behavior.GItem_BehaviorDescriptor" />
+    </file>
+    <file name="GLine_BehaviorDescriptor.java">
+      <unit at="8,0,22,0" name="jetbrains.mps.gtext.behavior.GLine_BehaviorDescriptor" />
+    </file>
+    <file name="GNewLine_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="jetbrains.mps.gtext.behavior.GNewLine_BehaviorDescriptor" />
+    </file>
+    <file name="GSeparatorItemList_BehaviorDescriptor.java">
+      <unit at="8,0,19,0" name="jetbrains.mps.gtext.behavior.GSeparatorItemList_BehaviorDescriptor" />
+    </file>
+    <file name="GStatementItem_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="jetbrains.mps.gtext.behavior.GStatementItem_BehaviorDescriptor" />
+    </file>
+    <file name="GTextConcept_BehaviorDescriptor.java">
+      <unit at="6,0,8,0" name="jetbrains.mps.gtext.behavior.GTextConcept_BehaviorDescriptor" />
+    </file>
+    <file name="GText_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="jetbrains.mps.gtext.behavior.GText_BehaviorDescriptor" />
     </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c89590570(jetbrains.mps.gtext.behavior)/1213877183413">

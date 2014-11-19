@@ -16,61 +16,6 @@
     </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)/1172075151844">
-    <file name="CompareType_PropertySupport.java">
-      <node id="1172075151844" at="11,24,12,18" concept="7" />
-      <node id="1172075151844" at="13,5,14,99" concept="6" />
-      <node id="1172075151844" at="15,33,16,46" concept="6" />
-      <node id="1172075151844" at="17,45,18,20" concept="7" />
-      <node id="1172075151844" at="20,5,21,17" concept="7" />
-      <node id="1172075151844" at="24,24,25,18" concept="7" />
-      <node id="1172075151844" at="26,5,27,99" concept="6" />
-      <node id="1172075151844" at="28,33,29,46" concept="6" />
-      <node id="1172075151844" at="30,45,31,43" concept="7" />
-      <node id="1172075151844" at="33,5,34,16" concept="7" />
-      <node id="1172075151844" at="36,49,37,57" concept="6" />
-      <node id="1172075151844" at="38,27,39,32" concept="7" />
-      <node id="1172075151844" at="40,5,41,14" concept="7" />
-      <node id="1172075151844" at="10,44,13,5" concept="4" />
-      <node id="1172075151844" at="16,46,19,7" concept="4" />
-      <node id="1172075151844" at="23,47,26,5" concept="4" />
-      <node id="1172075151844" at="29,46,32,7" concept="4" />
-      <node id="1172075151844" at="37,57,40,5" concept="4" />
-      <node id="1172075151844" at="14,99,20,5" concept="9" />
-      <node id="1172075151844" at="27,99,33,5" concept="9" />
-      <node id="1172075151844" at="36,0,43,0" concept="5" trace="fromInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
-      <node id="1172075151844" at="10,0,23,0" concept="5" trace="canSetValue#(Ljava/lang/String;)Z" />
-      <node id="1172075151844" at="23,0,36,0" concept="5" trace="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
-      <scope id="1172075151844" at="11,24,12,18" />
-      <scope id="1172075151844" at="17,45,18,20" />
-      <scope id="1172075151844" at="24,24,25,18" />
-      <scope id="1172075151844" at="30,45,31,43" />
-      <scope id="1172075151844" at="38,27,39,32" />
-      <scope id="1172075151844" at="15,33,19,7">
-        <var name="constant" id="1172075151844" />
-      </scope>
-      <scope id="1172075151844" at="28,33,32,7">
-        <var name="constant" id="1172075151844" />
-      </scope>
-      <scope id="1172075151844" at="36,49,41,14">
-        <var name="constant" id="1172075151844" />
-      </scope>
-      <scope id="1172075151844" at="36,0,43,0">
-        <var name="value" id="1172075151844" />
-      </scope>
-      <scope id="1172075151844" at="10,44,21,17">
-        <var name="constants" id="1172075151844" />
-      </scope>
-      <scope id="1172075151844" at="23,47,34,16">
-        <var name="constants" id="1172075151844" />
-      </scope>
-      <scope id="1172075151844" at="10,0,23,0">
-        <var name="value" id="1172075151844" />
-      </scope>
-      <scope id="1172075151844" at="23,0,36,0">
-        <var name="value" id="1172075151844" />
-      </scope>
-      <unit id="1172075151844" at="9,0,44,0" name="jetbrains.mps.baseLanguage.dates.structure.CompareType_PropertySupport" />
-    </file>
     <file name="CompareType.java">
       <node id="1172075151844" at="17,0,18,0" concept="3" trace="myName" />
       <node id="1172075151844" at="18,27,19,23" concept="7" />
@@ -139,6 +84,61 @@
         <var name="value" id="1172075151844" />
       </scope>
       <unit id="1172075151844" at="9,0,70,0" name="jetbrains.mps.baseLanguage.dates.structure.CompareType" />
+    </file>
+    <file name="CompareType_PropertySupport.java">
+      <node id="1172075151844" at="11,24,12,18" concept="7" />
+      <node id="1172075151844" at="13,5,14,99" concept="6" />
+      <node id="1172075151844" at="15,33,16,46" concept="6" />
+      <node id="1172075151844" at="17,45,18,20" concept="7" />
+      <node id="1172075151844" at="20,5,21,17" concept="7" />
+      <node id="1172075151844" at="24,24,25,18" concept="7" />
+      <node id="1172075151844" at="26,5,27,99" concept="6" />
+      <node id="1172075151844" at="28,33,29,46" concept="6" />
+      <node id="1172075151844" at="30,45,31,43" concept="7" />
+      <node id="1172075151844" at="33,5,34,16" concept="7" />
+      <node id="1172075151844" at="36,49,37,57" concept="6" />
+      <node id="1172075151844" at="38,27,39,32" concept="7" />
+      <node id="1172075151844" at="40,5,41,14" concept="7" />
+      <node id="1172075151844" at="10,44,13,5" concept="4" />
+      <node id="1172075151844" at="16,46,19,7" concept="4" />
+      <node id="1172075151844" at="23,47,26,5" concept="4" />
+      <node id="1172075151844" at="29,46,32,7" concept="4" />
+      <node id="1172075151844" at="37,57,40,5" concept="4" />
+      <node id="1172075151844" at="14,99,20,5" concept="9" />
+      <node id="1172075151844" at="27,99,33,5" concept="9" />
+      <node id="1172075151844" at="36,0,43,0" concept="5" trace="fromInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="1172075151844" at="10,0,23,0" concept="5" trace="canSetValue#(Ljava/lang/String;)Z" />
+      <node id="1172075151844" at="23,0,36,0" concept="5" trace="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <scope id="1172075151844" at="11,24,12,18" />
+      <scope id="1172075151844" at="17,45,18,20" />
+      <scope id="1172075151844" at="24,24,25,18" />
+      <scope id="1172075151844" at="30,45,31,43" />
+      <scope id="1172075151844" at="38,27,39,32" />
+      <scope id="1172075151844" at="15,33,19,7">
+        <var name="constant" id="1172075151844" />
+      </scope>
+      <scope id="1172075151844" at="28,33,32,7">
+        <var name="constant" id="1172075151844" />
+      </scope>
+      <scope id="1172075151844" at="36,49,41,14">
+        <var name="constant" id="1172075151844" />
+      </scope>
+      <scope id="1172075151844" at="36,0,43,0">
+        <var name="value" id="1172075151844" />
+      </scope>
+      <scope id="1172075151844" at="10,44,21,17">
+        <var name="constants" id="1172075151844" />
+      </scope>
+      <scope id="1172075151844" at="23,47,34,16">
+        <var name="constants" id="1172075151844" />
+      </scope>
+      <scope id="1172075151844" at="10,0,23,0">
+        <var name="value" id="1172075151844" />
+      </scope>
+      <scope id="1172075151844" at="23,0,36,0">
+        <var name="value" id="1172075151844" />
+      </scope>
+      <unit id="1172075151844" at="9,0,44,0" name="jetbrains.mps.baseLanguage.dates.structure.CompareType_PropertySupport" />
     </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)/1173975646059">
@@ -292,61 +292,6 @@
     </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)/1194005227362">
-    <file name="DayOfWeek_PropertySupport.java">
-      <node id="1194005227362" at="11,24,12,18" concept="7" />
-      <node id="1194005227362" at="13,5,14,95" concept="6" />
-      <node id="1194005227362" at="15,33,16,44" concept="6" />
-      <node id="1194005227362" at="17,45,18,20" concept="7" />
-      <node id="1194005227362" at="20,5,21,17" concept="7" />
-      <node id="1194005227362" at="24,24,25,18" concept="7" />
-      <node id="1194005227362" at="26,5,27,95" concept="6" />
-      <node id="1194005227362" at="28,33,29,44" concept="6" />
-      <node id="1194005227362" at="30,45,31,43" concept="7" />
-      <node id="1194005227362" at="33,5,34,16" concept="7" />
-      <node id="1194005227362" at="36,49,37,53" concept="6" />
-      <node id="1194005227362" at="38,27,39,32" concept="7" />
-      <node id="1194005227362" at="40,5,41,14" concept="7" />
-      <node id="1194005227362" at="10,44,13,5" concept="4" />
-      <node id="1194005227362" at="16,44,19,7" concept="4" />
-      <node id="1194005227362" at="23,47,26,5" concept="4" />
-      <node id="1194005227362" at="29,44,32,7" concept="4" />
-      <node id="1194005227362" at="37,53,40,5" concept="4" />
-      <node id="1194005227362" at="14,95,20,5" concept="9" />
-      <node id="1194005227362" at="27,95,33,5" concept="9" />
-      <node id="1194005227362" at="36,0,43,0" concept="5" trace="fromInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
-      <node id="1194005227362" at="10,0,23,0" concept="5" trace="canSetValue#(Ljava/lang/String;)Z" />
-      <node id="1194005227362" at="23,0,36,0" concept="5" trace="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
-      <scope id="1194005227362" at="11,24,12,18" />
-      <scope id="1194005227362" at="17,45,18,20" />
-      <scope id="1194005227362" at="24,24,25,18" />
-      <scope id="1194005227362" at="30,45,31,43" />
-      <scope id="1194005227362" at="38,27,39,32" />
-      <scope id="1194005227362" at="15,33,19,7">
-        <var name="constant" id="1194005227362" />
-      </scope>
-      <scope id="1194005227362" at="28,33,32,7">
-        <var name="constant" id="1194005227362" />
-      </scope>
-      <scope id="1194005227362" at="36,49,41,14">
-        <var name="constant" id="1194005227362" />
-      </scope>
-      <scope id="1194005227362" at="36,0,43,0">
-        <var name="value" id="1194005227362" />
-      </scope>
-      <scope id="1194005227362" at="10,44,21,17">
-        <var name="constants" id="1194005227362" />
-      </scope>
-      <scope id="1194005227362" at="23,47,34,16">
-        <var name="constants" id="1194005227362" />
-      </scope>
-      <scope id="1194005227362" at="10,0,23,0">
-        <var name="value" id="1194005227362" />
-      </scope>
-      <scope id="1194005227362" at="23,0,36,0">
-        <var name="value" id="1194005227362" />
-      </scope>
-      <unit id="1194005227362" at="9,0,44,0" name="jetbrains.mps.baseLanguage.dates.structure.DayOfWeek_PropertySupport" />
-    </file>
     <file name="DayOfWeek.java">
       <node id="1194005227362" at="18,0,19,0" concept="3" trace="myName" />
       <node id="1194005227362" at="19,27,20,23" concept="7" />
@@ -420,6 +365,61 @@
       </scope>
       <unit id="1194005227362" at="9,0,75,0" name="jetbrains.mps.baseLanguage.dates.structure.DayOfWeek" />
     </file>
+    <file name="DayOfWeek_PropertySupport.java">
+      <node id="1194005227362" at="11,24,12,18" concept="7" />
+      <node id="1194005227362" at="13,5,14,95" concept="6" />
+      <node id="1194005227362" at="15,33,16,44" concept="6" />
+      <node id="1194005227362" at="17,45,18,20" concept="7" />
+      <node id="1194005227362" at="20,5,21,17" concept="7" />
+      <node id="1194005227362" at="24,24,25,18" concept="7" />
+      <node id="1194005227362" at="26,5,27,95" concept="6" />
+      <node id="1194005227362" at="28,33,29,44" concept="6" />
+      <node id="1194005227362" at="30,45,31,43" concept="7" />
+      <node id="1194005227362" at="33,5,34,16" concept="7" />
+      <node id="1194005227362" at="36,49,37,53" concept="6" />
+      <node id="1194005227362" at="38,27,39,32" concept="7" />
+      <node id="1194005227362" at="40,5,41,14" concept="7" />
+      <node id="1194005227362" at="10,44,13,5" concept="4" />
+      <node id="1194005227362" at="16,44,19,7" concept="4" />
+      <node id="1194005227362" at="23,47,26,5" concept="4" />
+      <node id="1194005227362" at="29,44,32,7" concept="4" />
+      <node id="1194005227362" at="37,53,40,5" concept="4" />
+      <node id="1194005227362" at="14,95,20,5" concept="9" />
+      <node id="1194005227362" at="27,95,33,5" concept="9" />
+      <node id="1194005227362" at="36,0,43,0" concept="5" trace="fromInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="1194005227362" at="10,0,23,0" concept="5" trace="canSetValue#(Ljava/lang/String;)Z" />
+      <node id="1194005227362" at="23,0,36,0" concept="5" trace="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <scope id="1194005227362" at="11,24,12,18" />
+      <scope id="1194005227362" at="17,45,18,20" />
+      <scope id="1194005227362" at="24,24,25,18" />
+      <scope id="1194005227362" at="30,45,31,43" />
+      <scope id="1194005227362" at="38,27,39,32" />
+      <scope id="1194005227362" at="15,33,19,7">
+        <var name="constant" id="1194005227362" />
+      </scope>
+      <scope id="1194005227362" at="28,33,32,7">
+        <var name="constant" id="1194005227362" />
+      </scope>
+      <scope id="1194005227362" at="36,49,41,14">
+        <var name="constant" id="1194005227362" />
+      </scope>
+      <scope id="1194005227362" at="36,0,43,0">
+        <var name="value" id="1194005227362" />
+      </scope>
+      <scope id="1194005227362" at="10,44,21,17">
+        <var name="constants" id="1194005227362" />
+      </scope>
+      <scope id="1194005227362" at="23,47,34,16">
+        <var name="constants" id="1194005227362" />
+      </scope>
+      <scope id="1194005227362" at="10,0,23,0">
+        <var name="value" id="1194005227362" />
+      </scope>
+      <scope id="1194005227362" at="23,0,36,0">
+        <var name="value" id="1194005227362" />
+      </scope>
+      <unit id="1194005227362" at="9,0,44,0" name="jetbrains.mps.baseLanguage.dates.structure.DayOfWeek_PropertySupport" />
+    </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)/1194005562740">
     <file name="OneThirtyOneInteger_PropertySupport.java">
@@ -442,61 +442,6 @@
     </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)/1778677549314158595">
-    <file name="PeriodZeroHandlingKind_PropertySupport.java">
-      <node id="1778677549314158595" at="11,24,12,18" concept="7" />
-      <node id="1778677549314158595" at="13,5,14,121" concept="6" />
-      <node id="1778677549314158595" at="15,33,16,57" concept="6" />
-      <node id="1778677549314158595" at="17,45,18,20" concept="7" />
-      <node id="1778677549314158595" at="20,5,21,17" concept="7" />
-      <node id="1778677549314158595" at="24,24,25,18" concept="7" />
-      <node id="1778677549314158595" at="26,5,27,121" concept="6" />
-      <node id="1778677549314158595" at="28,33,29,57" concept="6" />
-      <node id="1778677549314158595" at="30,45,31,43" concept="7" />
-      <node id="1778677549314158595" at="33,5,34,16" concept="7" />
-      <node id="1778677549314158595" at="36,49,37,79" concept="6" />
-      <node id="1778677549314158595" at="38,27,39,32" concept="7" />
-      <node id="1778677549314158595" at="40,5,41,14" concept="7" />
-      <node id="1778677549314158595" at="10,44,13,5" concept="4" />
-      <node id="1778677549314158595" at="16,57,19,7" concept="4" />
-      <node id="1778677549314158595" at="23,47,26,5" concept="4" />
-      <node id="1778677549314158595" at="29,57,32,7" concept="4" />
-      <node id="1778677549314158595" at="37,79,40,5" concept="4" />
-      <node id="1778677549314158595" at="14,121,20,5" concept="9" />
-      <node id="1778677549314158595" at="27,121,33,5" concept="9" />
-      <node id="1778677549314158595" at="36,0,43,0" concept="5" trace="fromInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
-      <node id="1778677549314158595" at="10,0,23,0" concept="5" trace="canSetValue#(Ljava/lang/String;)Z" />
-      <node id="1778677549314158595" at="23,0,36,0" concept="5" trace="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
-      <scope id="1778677549314158595" at="11,24,12,18" />
-      <scope id="1778677549314158595" at="17,45,18,20" />
-      <scope id="1778677549314158595" at="24,24,25,18" />
-      <scope id="1778677549314158595" at="30,45,31,43" />
-      <scope id="1778677549314158595" at="38,27,39,32" />
-      <scope id="1778677549314158595" at="15,33,19,7">
-        <var name="constant" id="1778677549314158595" />
-      </scope>
-      <scope id="1778677549314158595" at="28,33,32,7">
-        <var name="constant" id="1778677549314158595" />
-      </scope>
-      <scope id="1778677549314158595" at="36,49,41,14">
-        <var name="constant" id="1778677549314158595" />
-      </scope>
-      <scope id="1778677549314158595" at="36,0,43,0">
-        <var name="value" id="1778677549314158595" />
-      </scope>
-      <scope id="1778677549314158595" at="10,44,21,17">
-        <var name="constants" id="1778677549314158595" />
-      </scope>
-      <scope id="1778677549314158595" at="23,47,34,16">
-        <var name="constants" id="1778677549314158595" />
-      </scope>
-      <scope id="1778677549314158595" at="10,0,23,0">
-        <var name="value" id="1778677549314158595" />
-      </scope>
-      <scope id="1778677549314158595" at="23,0,36,0">
-        <var name="value" id="1778677549314158595" />
-      </scope>
-      <unit id="1778677549314158595" at="9,0,44,0" name="jetbrains.mps.baseLanguage.dates.structure.PeriodZeroHandlingKind_PropertySupport" />
-    </file>
     <file name="PeriodZeroHandlingKind.java">
       <node id="1778677549314158595" at="16,0,17,0" concept="3" trace="myName" />
       <node id="1778677549314158595" at="17,27,18,23" concept="7" />
@@ -562,63 +507,63 @@
       </scope>
       <unit id="1778677549314158595" at="9,0,65,0" name="jetbrains.mps.baseLanguage.dates.structure.PeriodZeroHandlingKind" />
     </file>
+    <file name="PeriodZeroHandlingKind_PropertySupport.java">
+      <node id="1778677549314158595" at="11,24,12,18" concept="7" />
+      <node id="1778677549314158595" at="13,5,14,121" concept="6" />
+      <node id="1778677549314158595" at="15,33,16,57" concept="6" />
+      <node id="1778677549314158595" at="17,45,18,20" concept="7" />
+      <node id="1778677549314158595" at="20,5,21,17" concept="7" />
+      <node id="1778677549314158595" at="24,24,25,18" concept="7" />
+      <node id="1778677549314158595" at="26,5,27,121" concept="6" />
+      <node id="1778677549314158595" at="28,33,29,57" concept="6" />
+      <node id="1778677549314158595" at="30,45,31,43" concept="7" />
+      <node id="1778677549314158595" at="33,5,34,16" concept="7" />
+      <node id="1778677549314158595" at="36,49,37,79" concept="6" />
+      <node id="1778677549314158595" at="38,27,39,32" concept="7" />
+      <node id="1778677549314158595" at="40,5,41,14" concept="7" />
+      <node id="1778677549314158595" at="10,44,13,5" concept="4" />
+      <node id="1778677549314158595" at="16,57,19,7" concept="4" />
+      <node id="1778677549314158595" at="23,47,26,5" concept="4" />
+      <node id="1778677549314158595" at="29,57,32,7" concept="4" />
+      <node id="1778677549314158595" at="37,79,40,5" concept="4" />
+      <node id="1778677549314158595" at="14,121,20,5" concept="9" />
+      <node id="1778677549314158595" at="27,121,33,5" concept="9" />
+      <node id="1778677549314158595" at="36,0,43,0" concept="5" trace="fromInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="1778677549314158595" at="10,0,23,0" concept="5" trace="canSetValue#(Ljava/lang/String;)Z" />
+      <node id="1778677549314158595" at="23,0,36,0" concept="5" trace="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <scope id="1778677549314158595" at="11,24,12,18" />
+      <scope id="1778677549314158595" at="17,45,18,20" />
+      <scope id="1778677549314158595" at="24,24,25,18" />
+      <scope id="1778677549314158595" at="30,45,31,43" />
+      <scope id="1778677549314158595" at="38,27,39,32" />
+      <scope id="1778677549314158595" at="15,33,19,7">
+        <var name="constant" id="1778677549314158595" />
+      </scope>
+      <scope id="1778677549314158595" at="28,33,32,7">
+        <var name="constant" id="1778677549314158595" />
+      </scope>
+      <scope id="1778677549314158595" at="36,49,41,14">
+        <var name="constant" id="1778677549314158595" />
+      </scope>
+      <scope id="1778677549314158595" at="36,0,43,0">
+        <var name="value" id="1778677549314158595" />
+      </scope>
+      <scope id="1778677549314158595" at="10,44,21,17">
+        <var name="constants" id="1778677549314158595" />
+      </scope>
+      <scope id="1778677549314158595" at="23,47,34,16">
+        <var name="constants" id="1778677549314158595" />
+      </scope>
+      <scope id="1778677549314158595" at="10,0,23,0">
+        <var name="value" id="1778677549314158595" />
+      </scope>
+      <scope id="1778677549314158595" at="23,0,36,0">
+        <var name="value" id="1778677549314158595" />
+      </scope>
+      <unit id="1778677549314158595" at="9,0,44,0" name="jetbrains.mps.baseLanguage.dates.structure.PeriodZeroHandlingKind_PropertySupport" />
+    </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)/5581663871702358901">
-    <file name="PeriodSeparatorKind_PropertySupport.java">
-      <node id="5581663871702358901" at="11,24,12,18" concept="7" />
-      <node id="5581663871702358901" at="13,5,14,115" concept="6" />
-      <node id="5581663871702358901" at="15,33,16,54" concept="6" />
-      <node id="5581663871702358901" at="17,45,18,20" concept="7" />
-      <node id="5581663871702358901" at="20,5,21,17" concept="7" />
-      <node id="5581663871702358901" at="24,24,25,18" concept="7" />
-      <node id="5581663871702358901" at="26,5,27,115" concept="6" />
-      <node id="5581663871702358901" at="28,33,29,54" concept="6" />
-      <node id="5581663871702358901" at="30,45,31,43" concept="7" />
-      <node id="5581663871702358901" at="33,5,34,16" concept="7" />
-      <node id="5581663871702358901" at="36,49,37,73" concept="6" />
-      <node id="5581663871702358901" at="38,27,39,32" concept="7" />
-      <node id="5581663871702358901" at="40,5,41,14" concept="7" />
-      <node id="5581663871702358901" at="10,44,13,5" concept="4" />
-      <node id="5581663871702358901" at="16,54,19,7" concept="4" />
-      <node id="5581663871702358901" at="23,47,26,5" concept="4" />
-      <node id="5581663871702358901" at="29,54,32,7" concept="4" />
-      <node id="5581663871702358901" at="37,73,40,5" concept="4" />
-      <node id="5581663871702358901" at="14,115,20,5" concept="9" />
-      <node id="5581663871702358901" at="27,115,33,5" concept="9" />
-      <node id="5581663871702358901" at="36,0,43,0" concept="5" trace="fromInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
-      <node id="5581663871702358901" at="10,0,23,0" concept="5" trace="canSetValue#(Ljava/lang/String;)Z" />
-      <node id="5581663871702358901" at="23,0,36,0" concept="5" trace="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
-      <scope id="5581663871702358901" at="11,24,12,18" />
-      <scope id="5581663871702358901" at="17,45,18,20" />
-      <scope id="5581663871702358901" at="24,24,25,18" />
-      <scope id="5581663871702358901" at="30,45,31,43" />
-      <scope id="5581663871702358901" at="38,27,39,32" />
-      <scope id="5581663871702358901" at="15,33,19,7">
-        <var name="constant" id="5581663871702358901" />
-      </scope>
-      <scope id="5581663871702358901" at="28,33,32,7">
-        <var name="constant" id="5581663871702358901" />
-      </scope>
-      <scope id="5581663871702358901" at="36,49,41,14">
-        <var name="constant" id="5581663871702358901" />
-      </scope>
-      <scope id="5581663871702358901" at="36,0,43,0">
-        <var name="value" id="5581663871702358901" />
-      </scope>
-      <scope id="5581663871702358901" at="10,44,21,17">
-        <var name="constants" id="5581663871702358901" />
-      </scope>
-      <scope id="5581663871702358901" at="23,47,34,16">
-        <var name="constants" id="5581663871702358901" />
-      </scope>
-      <scope id="5581663871702358901" at="10,0,23,0">
-        <var name="value" id="5581663871702358901" />
-      </scope>
-      <scope id="5581663871702358901" at="23,0,36,0">
-        <var name="value" id="5581663871702358901" />
-      </scope>
-      <unit id="5581663871702358901" at="9,0,44,0" name="jetbrains.mps.baseLanguage.dates.structure.PeriodSeparatorKind_PropertySupport" />
-    </file>
     <file name="PeriodSeparatorKind.java">
       <node id="5581663871702358901" at="14,0,15,0" concept="3" trace="myName" />
       <node id="5581663871702358901" at="15,27,16,23" concept="7" />
@@ -675,6 +620,61 @@
         <var name="value" id="5581663871702358901" />
       </scope>
       <unit id="5581663871702358901" at="9,0,55,0" name="jetbrains.mps.baseLanguage.dates.structure.PeriodSeparatorKind" />
+    </file>
+    <file name="PeriodSeparatorKind_PropertySupport.java">
+      <node id="5581663871702358901" at="11,24,12,18" concept="7" />
+      <node id="5581663871702358901" at="13,5,14,115" concept="6" />
+      <node id="5581663871702358901" at="15,33,16,54" concept="6" />
+      <node id="5581663871702358901" at="17,45,18,20" concept="7" />
+      <node id="5581663871702358901" at="20,5,21,17" concept="7" />
+      <node id="5581663871702358901" at="24,24,25,18" concept="7" />
+      <node id="5581663871702358901" at="26,5,27,115" concept="6" />
+      <node id="5581663871702358901" at="28,33,29,54" concept="6" />
+      <node id="5581663871702358901" at="30,45,31,43" concept="7" />
+      <node id="5581663871702358901" at="33,5,34,16" concept="7" />
+      <node id="5581663871702358901" at="36,49,37,73" concept="6" />
+      <node id="5581663871702358901" at="38,27,39,32" concept="7" />
+      <node id="5581663871702358901" at="40,5,41,14" concept="7" />
+      <node id="5581663871702358901" at="10,44,13,5" concept="4" />
+      <node id="5581663871702358901" at="16,54,19,7" concept="4" />
+      <node id="5581663871702358901" at="23,47,26,5" concept="4" />
+      <node id="5581663871702358901" at="29,54,32,7" concept="4" />
+      <node id="5581663871702358901" at="37,73,40,5" concept="4" />
+      <node id="5581663871702358901" at="14,115,20,5" concept="9" />
+      <node id="5581663871702358901" at="27,115,33,5" concept="9" />
+      <node id="5581663871702358901" at="36,0,43,0" concept="5" trace="fromInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="5581663871702358901" at="10,0,23,0" concept="5" trace="canSetValue#(Ljava/lang/String;)Z" />
+      <node id="5581663871702358901" at="23,0,36,0" concept="5" trace="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <scope id="5581663871702358901" at="11,24,12,18" />
+      <scope id="5581663871702358901" at="17,45,18,20" />
+      <scope id="5581663871702358901" at="24,24,25,18" />
+      <scope id="5581663871702358901" at="30,45,31,43" />
+      <scope id="5581663871702358901" at="38,27,39,32" />
+      <scope id="5581663871702358901" at="15,33,19,7">
+        <var name="constant" id="5581663871702358901" />
+      </scope>
+      <scope id="5581663871702358901" at="28,33,32,7">
+        <var name="constant" id="5581663871702358901" />
+      </scope>
+      <scope id="5581663871702358901" at="36,49,41,14">
+        <var name="constant" id="5581663871702358901" />
+      </scope>
+      <scope id="5581663871702358901" at="36,0,43,0">
+        <var name="value" id="5581663871702358901" />
+      </scope>
+      <scope id="5581663871702358901" at="10,44,21,17">
+        <var name="constants" id="5581663871702358901" />
+      </scope>
+      <scope id="5581663871702358901" at="23,47,34,16">
+        <var name="constants" id="5581663871702358901" />
+      </scope>
+      <scope id="5581663871702358901" at="10,0,23,0">
+        <var name="value" id="5581663871702358901" />
+      </scope>
+      <scope id="5581663871702358901" at="23,0,36,0">
+        <var name="value" id="5581663871702358901" />
+      </scope>
+      <unit id="5581663871702358901" at="9,0,44,0" name="jetbrains.mps.baseLanguage.dates.structure.PeriodSeparatorKind_PropertySupport" />
     </file>
   </root>
 </debug-info>

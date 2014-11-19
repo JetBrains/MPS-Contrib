@@ -11,128 +11,128 @@
   <concept fqn="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
   <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
   <root>
-    <file name="ImportPropertyNode_BehaviorDescriptor.java">
-      <unit at="9,0,23,0" name="jetbrains.mps.buildlanguage.behavior.ImportPropertyNode_BehaviorDescriptor" />
-    </file>
-    <file name="StringEnum_BehaviorDescriptor.java">
-      <unit at="8,0,19,0" name="jetbrains.mps.buildlanguage.behavior.StringEnum_BehaviorDescriptor" />
-    </file>
-    <file name="IntegerEnum_BehaviorDescriptor.java">
-      <unit at="8,0,19,0" name="jetbrains.mps.buildlanguage.behavior.IntegerEnum_BehaviorDescriptor" />
-    </file>
-    <file name="ExternalPropertyDeclaration_BehaviorDescriptor.java">
-      <unit at="6,0,14,0" name="jetbrains.mps.buildlanguage.behavior.ExternalPropertyDeclaration_BehaviorDescriptor" />
-    </file>
-    <file name="IPropertyHolder_BehaviorDescriptor.java">
-      <unit at="8,0,11,0" name="jetbrains.mps.buildlanguage.behavior.IPropertyHolder_BehaviorDescriptor" />
-    </file>
-    <file name="PropertyValueExpression_BehaviorDescriptor.java">
-      <unit at="9,0,22,0" name="jetbrains.mps.buildlanguage.behavior.PropertyValueExpression_BehaviorDescriptor" />
-    </file>
-    <file name="BinaryOperation_BehaviorDescriptor.java">
-      <unit at="8,0,22,0" name="jetbrains.mps.buildlanguage.behavior.BinaryOperation_BehaviorDescriptor" />
-    </file>
-    <file name="FileType_BehaviorDescriptor.java">
-      <unit at="6,0,14,0" name="jetbrains.mps.buildlanguage.behavior.FileType_BehaviorDescriptor" />
-    </file>
-    <file name="ITargetReference_BehaviorDescriptor.java">
-      <unit at="7,0,10,0" name="jetbrains.mps.buildlanguage.behavior.ITargetReference_BehaviorDescriptor" />
-    </file>
     <file name="AbstractCall_BehaviorDescriptor.java">
       <unit at="9,0,20,0" name="jetbrains.mps.buildlanguage.behavior.AbstractCall_BehaviorDescriptor" />
-    </file>
-    <file name="ICommented_BehaviorDescriptor.java">
-      <unit at="7,0,9,0" name="jetbrains.mps.buildlanguage.behavior.ICommented_BehaviorDescriptor" />
-    </file>
-    <file name="PropertyReference_BehaviorDescriptor.java">
-      <unit at="9,0,26,0" name="jetbrains.mps.buildlanguage.behavior.PropertyReference_BehaviorDescriptor" />
-    </file>
-    <file name="MultiLineString_BehaviorDescriptor.java">
-      <unit at="9,0,26,0" name="jetbrains.mps.buildlanguage.behavior.MultiLineString_BehaviorDescriptor" />
-    </file>
-    <file name="XmlStringLiteral_BehaviorDescriptor.java">
-      <unit at="7,0,21,0" name="jetbrains.mps.buildlanguage.behavior.XmlStringLiteral_BehaviorDescriptor" />
-    </file>
-    <file name="BehaviorAspectDescriptor.java">
-      <unit at="9,0,70,0" name="jetbrains.mps.buildlanguage.behavior.BehaviorAspectDescriptor" />
-    </file>
-    <file name="ImportProject_BehaviorDescriptor.java">
-      <unit at="6,0,14,0" name="jetbrains.mps.buildlanguage.behavior.ImportProject_BehaviorDescriptor" />
-    </file>
-    <file name="PropertyType_BehaviorDescriptor.java">
-      <unit at="7,0,15,0" name="jetbrains.mps.buildlanguage.behavior.PropertyType_BehaviorDescriptor" />
-    </file>
-    <file name="TargetReferencePropertyValueExpression_BehaviorDescriptor.java">
-      <unit at="7,0,24,0" name="jetbrains.mps.buildlanguage.behavior.TargetReferencePropertyValueExpression_BehaviorDescriptor" />
-    </file>
-    <file name="IDeclaration_BehaviorDescriptor.java">
-      <unit at="9,0,15,0" name="jetbrains.mps.buildlanguage.behavior.IDeclaration_BehaviorDescriptor" />
-    </file>
-    <file name="TargetDeclaration_BehaviorDescriptor.java">
-      <unit at="10,0,24,0" name="jetbrains.mps.buildlanguage.behavior.TargetDeclaration_BehaviorDescriptor" />
-    </file>
-    <file name="Project_BehaviorDescriptor.java">
-      <unit at="11,0,25,0" name="jetbrains.mps.buildlanguage.behavior.Project_BehaviorDescriptor" />
-    </file>
-    <file name="CallReference_BehaviorDescriptor.java">
-      <unit at="8,0,25,0" name="jetbrains.mps.buildlanguage.behavior.CallReference_BehaviorDescriptor" />
-    </file>
-    <file name="CallReferenceType_BehaviorDescriptor.java">
-      <unit at="6,0,14,0" name="jetbrains.mps.buildlanguage.behavior.CallReferenceType_BehaviorDescriptor" />
-    </file>
-    <file name="BooleanLiteral_BehaviorDescriptor.java">
-      <unit at="8,0,22,0" name="jetbrains.mps.buildlanguage.behavior.BooleanLiteral_BehaviorDescriptor" />
-    </file>
-    <file name="TargetReference_BehaviorDescriptor.java">
-      <unit at="7,0,15,0" name="jetbrains.mps.buildlanguage.behavior.TargetReference_BehaviorDescriptor" />
-    </file>
-    <file name="StringType_BehaviorDescriptor.java">
-      <unit at="6,0,14,0" name="jetbrains.mps.buildlanguage.behavior.StringType_BehaviorDescriptor" />
     </file>
     <file name="AbstractImportProject_BehaviorDescriptor.java">
       <unit at="7,0,15,0" name="jetbrains.mps.buildlanguage.behavior.AbstractImportProject_BehaviorDescriptor" />
     </file>
-    <file name="PlusOperation_BehaviorDescriptor.java">
-      <unit at="8,0,28,0" name="jetbrains.mps.buildlanguage.behavior.PlusOperation_BehaviorDescriptor" />
-    </file>
-    <file name="ImportPropertiesFromFile_BehaviorDescriptor.java">
-      <unit at="6,0,14,0" name="jetbrains.mps.buildlanguage.behavior.ImportPropertiesFromFile_BehaviorDescriptor" />
-    </file>
-    <file name="StringLiteral_BehaviorDescriptor.java">
-      <unit at="9,0,26,0" name="jetbrains.mps.buildlanguage.behavior.StringLiteral_BehaviorDescriptor" />
-    </file>
-    <file name="Enum_BehaviorDescriptor.java">
-      <unit at="9,0,20,0" name="jetbrains.mps.buildlanguage.behavior.Enum_BehaviorDescriptor" />
-    </file>
-    <file name="PropertyDeclaration_BehaviorDescriptor.java">
-      <unit at="6,0,14,0" name="jetbrains.mps.buildlanguage.behavior.PropertyDeclaration_BehaviorDescriptor" />
-    </file>
     <file name="AbstractImportProperties_BehaviorDescriptor.java">
       <unit at="9,0,20,0" name="jetbrains.mps.buildlanguage.behavior.AbstractImportProperties_BehaviorDescriptor" />
-    </file>
-    <file name="ISource_BehaviorDescriptor.java">
-      <unit at="8,0,11,0" name="jetbrains.mps.buildlanguage.behavior.ISource_BehaviorDescriptor" />
-    </file>
-    <file name="IProjectComponent_BehaviorDescriptor.java">
-      <unit at="7,0,9,0" name="jetbrains.mps.buildlanguage.behavior.IProjectComponent_BehaviorDescriptor" />
-    </file>
-    <file name="FileName_BehaviorDescriptor.java">
-      <unit at="7,0,21,0" name="jetbrains.mps.buildlanguage.behavior.FileName_BehaviorDescriptor" />
-    </file>
-    <file name="IAntScript_BehaviorDescriptor.java">
-      <unit at="6,0,8,0" name="jetbrains.mps.buildlanguage.behavior.IAntScript_BehaviorDescriptor" />
     </file>
     <file name="AbstractPropertyDeclaration_BehaviorDescriptor.java">
       <unit at="9,0,20,0" name="jetbrains.mps.buildlanguage.behavior.AbstractPropertyDeclaration_BehaviorDescriptor" />
     </file>
-    <file name="IntegerType_BehaviorDescriptor.java">
-      <unit at="6,0,14,0" name="jetbrains.mps.buildlanguage.behavior.IntegerType_BehaviorDescriptor" />
+    <file name="BehaviorAspectDescriptor.java">
+      <unit at="9,0,70,0" name="jetbrains.mps.buildlanguage.behavior.BehaviorAspectDescriptor" />
+    </file>
+    <file name="BinaryOperation_BehaviorDescriptor.java">
+      <unit at="8,0,22,0" name="jetbrains.mps.buildlanguage.behavior.BinaryOperation_BehaviorDescriptor" />
+    </file>
+    <file name="BooleanLiteral_BehaviorDescriptor.java">
+      <unit at="8,0,22,0" name="jetbrains.mps.buildlanguage.behavior.BooleanLiteral_BehaviorDescriptor" />
     </file>
     <file name="BooleanType_BehaviorDescriptor.java">
       <unit at="6,0,14,0" name="jetbrains.mps.buildlanguage.behavior.BooleanType_BehaviorDescriptor" />
     </file>
+    <file name="CallReferenceType_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="jetbrains.mps.buildlanguage.behavior.CallReferenceType_BehaviorDescriptor" />
+    </file>
+    <file name="CallReference_BehaviorDescriptor.java">
+      <unit at="8,0,25,0" name="jetbrains.mps.buildlanguage.behavior.CallReference_BehaviorDescriptor" />
+    </file>
+    <file name="Enum_BehaviorDescriptor.java">
+      <unit at="9,0,20,0" name="jetbrains.mps.buildlanguage.behavior.Enum_BehaviorDescriptor" />
+    </file>
+    <file name="ExternalPropertyDeclaration_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="jetbrains.mps.buildlanguage.behavior.ExternalPropertyDeclaration_BehaviorDescriptor" />
+    </file>
+    <file name="FileName_BehaviorDescriptor.java">
+      <unit at="7,0,21,0" name="jetbrains.mps.buildlanguage.behavior.FileName_BehaviorDescriptor" />
+    </file>
+    <file name="FileType_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="jetbrains.mps.buildlanguage.behavior.FileType_BehaviorDescriptor" />
+    </file>
+    <file name="IAntScript_BehaviorDescriptor.java">
+      <unit at="6,0,8,0" name="jetbrains.mps.buildlanguage.behavior.IAntScript_BehaviorDescriptor" />
+    </file>
+    <file name="ICommented_BehaviorDescriptor.java">
+      <unit at="7,0,9,0" name="jetbrains.mps.buildlanguage.behavior.ICommented_BehaviorDescriptor" />
+    </file>
+    <file name="IDeclaration_BehaviorDescriptor.java">
+      <unit at="9,0,15,0" name="jetbrains.mps.buildlanguage.behavior.IDeclaration_BehaviorDescriptor" />
+    </file>
+    <file name="IProjectComponent_BehaviorDescriptor.java">
+      <unit at="7,0,9,0" name="jetbrains.mps.buildlanguage.behavior.IProjectComponent_BehaviorDescriptor" />
+    </file>
+    <file name="IPropertyHolder_BehaviorDescriptor.java">
+      <unit at="8,0,11,0" name="jetbrains.mps.buildlanguage.behavior.IPropertyHolder_BehaviorDescriptor" />
+    </file>
+    <file name="ISource_BehaviorDescriptor.java">
+      <unit at="8,0,11,0" name="jetbrains.mps.buildlanguage.behavior.ISource_BehaviorDescriptor" />
+    </file>
+    <file name="ITargetReference_BehaviorDescriptor.java">
+      <unit at="7,0,10,0" name="jetbrains.mps.buildlanguage.behavior.ITargetReference_BehaviorDescriptor" />
+    </file>
+    <file name="ImportProject_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="jetbrains.mps.buildlanguage.behavior.ImportProject_BehaviorDescriptor" />
+    </file>
+    <file name="ImportPropertiesFromFile_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="jetbrains.mps.buildlanguage.behavior.ImportPropertiesFromFile_BehaviorDescriptor" />
+    </file>
+    <file name="ImportPropertyNode_BehaviorDescriptor.java">
+      <unit at="9,0,23,0" name="jetbrains.mps.buildlanguage.behavior.ImportPropertyNode_BehaviorDescriptor" />
+    </file>
     <file name="IntLiteral_BehaviorDescriptor.java">
       <unit at="7,0,21,0" name="jetbrains.mps.buildlanguage.behavior.IntLiteral_BehaviorDescriptor" />
+    </file>
+    <file name="IntegerEnum_BehaviorDescriptor.java">
+      <unit at="8,0,19,0" name="jetbrains.mps.buildlanguage.behavior.IntegerEnum_BehaviorDescriptor" />
+    </file>
+    <file name="IntegerType_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="jetbrains.mps.buildlanguage.behavior.IntegerType_BehaviorDescriptor" />
+    </file>
+    <file name="MultiLineString_BehaviorDescriptor.java">
+      <unit at="9,0,26,0" name="jetbrains.mps.buildlanguage.behavior.MultiLineString_BehaviorDescriptor" />
+    </file>
+    <file name="PlusOperation_BehaviorDescriptor.java">
+      <unit at="8,0,28,0" name="jetbrains.mps.buildlanguage.behavior.PlusOperation_BehaviorDescriptor" />
+    </file>
+    <file name="Project_BehaviorDescriptor.java">
+      <unit at="11,0,25,0" name="jetbrains.mps.buildlanguage.behavior.Project_BehaviorDescriptor" />
+    </file>
+    <file name="PropertyDeclaration_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="jetbrains.mps.buildlanguage.behavior.PropertyDeclaration_BehaviorDescriptor" />
+    </file>
+    <file name="PropertyReference_BehaviorDescriptor.java">
+      <unit at="9,0,26,0" name="jetbrains.mps.buildlanguage.behavior.PropertyReference_BehaviorDescriptor" />
+    </file>
+    <file name="PropertyType_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="jetbrains.mps.buildlanguage.behavior.PropertyType_BehaviorDescriptor" />
+    </file>
+    <file name="PropertyValueExpression_BehaviorDescriptor.java">
+      <unit at="9,0,22,0" name="jetbrains.mps.buildlanguage.behavior.PropertyValueExpression_BehaviorDescriptor" />
+    </file>
+    <file name="StringEnum_BehaviorDescriptor.java">
+      <unit at="8,0,19,0" name="jetbrains.mps.buildlanguage.behavior.StringEnum_BehaviorDescriptor" />
+    </file>
+    <file name="StringLiteral_BehaviorDescriptor.java">
+      <unit at="9,0,26,0" name="jetbrains.mps.buildlanguage.behavior.StringLiteral_BehaviorDescriptor" />
+    </file>
+    <file name="StringType_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="jetbrains.mps.buildlanguage.behavior.StringType_BehaviorDescriptor" />
+    </file>
+    <file name="TargetDeclaration_BehaviorDescriptor.java">
+      <unit at="10,0,24,0" name="jetbrains.mps.buildlanguage.behavior.TargetDeclaration_BehaviorDescriptor" />
+    </file>
+    <file name="TargetReferencePropertyValueExpression_BehaviorDescriptor.java">
+      <unit at="7,0,24,0" name="jetbrains.mps.buildlanguage.behavior.TargetReferencePropertyValueExpression_BehaviorDescriptor" />
+    </file>
+    <file name="TargetReference_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="jetbrains.mps.buildlanguage.behavior.TargetReference_BehaviorDescriptor" />
+    </file>
+    <file name="XmlStringLiteral_BehaviorDescriptor.java">
+      <unit at="7,0,21,0" name="jetbrains.mps.buildlanguage.behavior.XmlStringLiteral_BehaviorDescriptor" />
     </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895904c0(jetbrains.mps.buildlanguage.behavior)/1213877231973">

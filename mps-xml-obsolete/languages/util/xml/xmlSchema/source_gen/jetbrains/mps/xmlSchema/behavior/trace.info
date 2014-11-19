@@ -8,29 +8,53 @@
   <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
   <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
   <root>
-    <file name="SchemaType_BehaviorDescriptor.java">
-      <unit at="7,0,15,0" name="jetbrains.mps.xmlSchema.behavior.SchemaType_BehaviorDescriptor" />
+    <file name="AttributeDeclaration_BehaviorDescriptor.java">
+      <unit at="10,0,24,0" name="jetbrains.mps.xmlSchema.behavior.AttributeDeclaration_BehaviorDescriptor" />
+    </file>
+    <file name="AttributeExpression_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="jetbrains.mps.xmlSchema.behavior.AttributeExpression_BehaviorDescriptor" />
     </file>
     <file name="AttributeGroupReference_BehaviorDescriptor.java">
       <unit at="8,0,19,0" name="jetbrains.mps.xmlSchema.behavior.AttributeGroupReference_BehaviorDescriptor" />
     </file>
-    <file name="UnboundExpression_BehaviorDescriptor.java">
-      <unit at="6,0,14,0" name="jetbrains.mps.xmlSchema.behavior.UnboundExpression_BehaviorDescriptor" />
+    <file name="AttributeGroup_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="jetbrains.mps.xmlSchema.behavior.AttributeGroup_BehaviorDescriptor" />
     </file>
-    <file name="Sequence_BehaviorDescriptor.java">
-      <unit at="8,0,22,0" name="jetbrains.mps.xmlSchema.behavior.Sequence_BehaviorDescriptor" />
+    <file name="BehaviorAspectDescriptor.java">
+      <unit at="9,0,86,0" name="jetbrains.mps.xmlSchema.behavior.BehaviorAspectDescriptor" />
     </file>
-    <file name="EntitySet_BehaviorDescriptor.java">
-      <unit at="10,0,21,0" name="jetbrains.mps.xmlSchema.behavior.EntitySet_BehaviorDescriptor" />
+    <file name="BooleanSchemaType_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="jetbrains.mps.xmlSchema.behavior.BooleanSchemaType_BehaviorDescriptor" />
     </file>
     <file name="BoundExpression_BehaviorDescriptor.java">
       <unit at="6,0,14,0" name="jetbrains.mps.xmlSchema.behavior.BoundExpression_BehaviorDescriptor" />
     </file>
-    <file name="Extension_BehaviorDescriptor.java">
-      <unit at="9,0,26,0" name="jetbrains.mps.xmlSchema.behavior.Extension_BehaviorDescriptor" />
+    <file name="Choice_BehaviorDescriptor.java">
+      <unit at="8,0,22,0" name="jetbrains.mps.xmlSchema.behavior.Choice_BehaviorDescriptor" />
+    </file>
+    <file name="ComplexContent_BehaviorDescriptor.java">
+      <unit at="9,0,29,0" name="jetbrains.mps.xmlSchema.behavior.ComplexContent_BehaviorDescriptor" />
+    </file>
+    <file name="ComplexTypeReference_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="jetbrains.mps.xmlSchema.behavior.ComplexTypeReference_BehaviorDescriptor" />
+    </file>
+    <file name="ComplexType_BehaviorDescriptor.java">
+      <unit at="9,0,26,0" name="jetbrains.mps.xmlSchema.behavior.ComplexType_BehaviorDescriptor" />
+    </file>
+    <file name="ContentItem_BehaviorDescriptor.java">
+      <unit at="10,0,21,0" name="jetbrains.mps.xmlSchema.behavior.ContentItem_BehaviorDescriptor" />
+    </file>
+    <file name="DeclarationBlock_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="jetbrains.mps.xmlSchema.behavior.DeclarationBlock_BehaviorDescriptor" />
+    </file>
+    <file name="Declaration_BehaviorDescriptor.java">
+      <unit at="9,0,20,0" name="jetbrains.mps.xmlSchema.behavior.Declaration_BehaviorDescriptor" />
     </file>
     <file name="ElementDeclaration_BehaviorDescriptor.java">
       <unit at="9,0,27,0" name="jetbrains.mps.xmlSchema.behavior.ElementDeclaration_BehaviorDescriptor" />
+    </file>
+    <file name="ElementReference_BehaviorDescriptor.java">
+      <unit at="8,0,19,0" name="jetbrains.mps.xmlSchema.behavior.ElementReference_BehaviorDescriptor" />
     </file>
     <file name="ElementWithContent_BehaviorDescriptor.java">
       <unit at="7,0,18,0" name="jetbrains.mps.xmlSchema.behavior.ElementWithContent_BehaviorDescriptor" />
@@ -38,104 +62,80 @@
     <file name="ElementWithType_BehaviorDescriptor.java">
       <unit at="7,0,18,0" name="jetbrains.mps.xmlSchema.behavior.ElementWithType_BehaviorDescriptor" />
     </file>
-    <file name="GroupReference_BehaviorDescriptor.java">
-      <unit at="8,0,19,0" name="jetbrains.mps.xmlSchema.behavior.GroupReference_BehaviorDescriptor" />
-    </file>
-    <file name="SchemaCommentable_BehaviorDescriptor.java">
-      <unit at="6,0,8,0" name="jetbrains.mps.xmlSchema.behavior.SchemaCommentable_BehaviorDescriptor" />
-    </file>
-    <file name="SchemaComment_BehaviorDescriptor.java">
-      <unit at="7,0,15,0" name="jetbrains.mps.xmlSchema.behavior.SchemaComment_BehaviorDescriptor" />
-    </file>
-    <file name="MaxOccursExpression_BehaviorDescriptor.java">
-      <unit at="7,0,15,0" name="jetbrains.mps.xmlSchema.behavior.MaxOccursExpression_BehaviorDescriptor" />
-    </file>
-    <file name="IntegerSchemaType_BehaviorDescriptor.java">
-      <unit at="6,0,14,0" name="jetbrains.mps.xmlSchema.behavior.IntegerSchemaType_BehaviorDescriptor" />
-    </file>
-    <file name="ComplexType_BehaviorDescriptor.java">
-      <unit at="9,0,26,0" name="jetbrains.mps.xmlSchema.behavior.ComplexType_BehaviorDescriptor" />
-    </file>
-    <file name="BehaviorAspectDescriptor.java">
-      <unit at="9,0,86,0" name="jetbrains.mps.xmlSchema.behavior.BehaviorAspectDescriptor" />
-    </file>
-    <file name="TextLine_BehaviorDescriptor.java">
-      <unit at="7,0,15,0" name="jetbrains.mps.xmlSchema.behavior.TextLine_BehaviorDescriptor" />
-    </file>
-    <file name="Declaration_BehaviorDescriptor.java">
-      <unit at="9,0,20,0" name="jetbrains.mps.xmlSchema.behavior.Declaration_BehaviorDescriptor" />
-    </file>
-    <file name="TypeExpressionList_BehaviorDescriptor.java">
-      <unit at="7,0,15,0" name="jetbrains.mps.xmlSchema.behavior.TypeExpressionList_BehaviorDescriptor" />
-    </file>
-    <file name="Schema_BehaviorDescriptor.java">
-      <unit at="10,0,21,0" name="jetbrains.mps.xmlSchema.behavior.Schema_BehaviorDescriptor" />
+    <file name="EntityBlock_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="jetbrains.mps.xmlSchema.behavior.EntityBlock_BehaviorDescriptor" />
     </file>
     <file name="EntityDeclaration_BehaviorDescriptor.java">
       <unit at="8,0,19,0" name="jetbrains.mps.xmlSchema.behavior.EntityDeclaration_BehaviorDescriptor" />
     </file>
-    <file name="NamespaceDeclaration_BehaviorDescriptor.java">
-      <unit at="7,0,15,0" name="jetbrains.mps.xmlSchema.behavior.NamespaceDeclaration_BehaviorDescriptor" />
-    </file>
-    <file name="SimpleContent_BehaviorDescriptor.java">
-      <unit at="7,0,21,0" name="jetbrains.mps.xmlSchema.behavior.SimpleContent_BehaviorDescriptor" />
-    </file>
-    <file name="ContentItem_BehaviorDescriptor.java">
-      <unit at="10,0,21,0" name="jetbrains.mps.xmlSchema.behavior.ContentItem_BehaviorDescriptor" />
-    </file>
-    <file name="ComplexTypeReference_BehaviorDescriptor.java">
-      <unit at="7,0,15,0" name="jetbrains.mps.xmlSchema.behavior.ComplexTypeReference_BehaviorDescriptor" />
-    </file>
-    <file name="ComplexContent_BehaviorDescriptor.java">
-      <unit at="9,0,29,0" name="jetbrains.mps.xmlSchema.behavior.ComplexContent_BehaviorDescriptor" />
-    </file>
-    <file name="EntityBlock_BehaviorDescriptor.java">
-      <unit at="7,0,15,0" name="jetbrains.mps.xmlSchema.behavior.EntityBlock_BehaviorDescriptor" />
-    </file>
     <file name="EntityLine_BehaviorDescriptor.java">
       <unit at="7,0,15,0" name="jetbrains.mps.xmlSchema.behavior.EntityLine_BehaviorDescriptor" />
     </file>
-    <file name="DeclarationBlock_BehaviorDescriptor.java">
-      <unit at="7,0,15,0" name="jetbrains.mps.xmlSchema.behavior.DeclarationBlock_BehaviorDescriptor" />
+    <file name="EntitySet_BehaviorDescriptor.java">
+      <unit at="10,0,21,0" name="jetbrains.mps.xmlSchema.behavior.EntitySet_BehaviorDescriptor" />
+    </file>
+    <file name="Extension_BehaviorDescriptor.java">
+      <unit at="9,0,26,0" name="jetbrains.mps.xmlSchema.behavior.Extension_BehaviorDescriptor" />
     </file>
     <file name="GroupDeclaration_BehaviorDescriptor.java">
       <unit at="6,0,14,0" name="jetbrains.mps.xmlSchema.behavior.GroupDeclaration_BehaviorDescriptor" />
     </file>
+    <file name="GroupExpression_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="jetbrains.mps.xmlSchema.behavior.GroupExpression_BehaviorDescriptor" />
+    </file>
+    <file name="GroupReference_BehaviorDescriptor.java">
+      <unit at="8,0,19,0" name="jetbrains.mps.xmlSchema.behavior.GroupReference_BehaviorDescriptor" />
+    </file>
+    <file name="IntegerSchemaType_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="jetbrains.mps.xmlSchema.behavior.IntegerSchemaType_BehaviorDescriptor" />
+    </file>
+    <file name="MaxOccursExpression_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="jetbrains.mps.xmlSchema.behavior.MaxOccursExpression_BehaviorDescriptor" />
+    </file>
     <file name="MixedAttribute_BehaviorDescriptor.java">
       <unit at="7,0,15,0" name="jetbrains.mps.xmlSchema.behavior.MixedAttribute_BehaviorDescriptor" />
+    </file>
+    <file name="NamespaceDeclaration_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="jetbrains.mps.xmlSchema.behavior.NamespaceDeclaration_BehaviorDescriptor" />
     </file>
     <file name="OccursAttribute_BehaviorDescriptor.java">
       <unit at="7,0,15,0" name="jetbrains.mps.xmlSchema.behavior.OccursAttribute_BehaviorDescriptor" />
     </file>
-    <file name="Choice_BehaviorDescriptor.java">
-      <unit at="8,0,22,0" name="jetbrains.mps.xmlSchema.behavior.Choice_BehaviorDescriptor" />
+    <file name="SchemaComment_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="jetbrains.mps.xmlSchema.behavior.SchemaComment_BehaviorDescriptor" />
     </file>
-    <file name="AttributeDeclaration_BehaviorDescriptor.java">
-      <unit at="10,0,24,0" name="jetbrains.mps.xmlSchema.behavior.AttributeDeclaration_BehaviorDescriptor" />
+    <file name="SchemaCommentable_BehaviorDescriptor.java">
+      <unit at="6,0,8,0" name="jetbrains.mps.xmlSchema.behavior.SchemaCommentable_BehaviorDescriptor" />
     </file>
-    <file name="AttributeGroup_BehaviorDescriptor.java">
-      <unit at="6,0,14,0" name="jetbrains.mps.xmlSchema.behavior.AttributeGroup_BehaviorDescriptor" />
+    <file name="SchemaType_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="jetbrains.mps.xmlSchema.behavior.SchemaType_BehaviorDescriptor" />
     </file>
-    <file name="BooleanSchemaType_BehaviorDescriptor.java">
-      <unit at="6,0,14,0" name="jetbrains.mps.xmlSchema.behavior.BooleanSchemaType_BehaviorDescriptor" />
+    <file name="Schema_BehaviorDescriptor.java">
+      <unit at="10,0,21,0" name="jetbrains.mps.xmlSchema.behavior.Schema_BehaviorDescriptor" />
     </file>
-    <file name="TypeExpression_BehaviorDescriptor.java">
-      <unit at="10,0,30,0" name="jetbrains.mps.xmlSchema.behavior.TypeExpression_BehaviorDescriptor" />
+    <file name="Sequence_BehaviorDescriptor.java">
+      <unit at="8,0,22,0" name="jetbrains.mps.xmlSchema.behavior.Sequence_BehaviorDescriptor" />
     </file>
-    <file name="AttributeExpression_BehaviorDescriptor.java">
-      <unit at="6,0,14,0" name="jetbrains.mps.xmlSchema.behavior.AttributeExpression_BehaviorDescriptor" />
-    </file>
-    <file name="GroupExpression_BehaviorDescriptor.java">
-      <unit at="6,0,14,0" name="jetbrains.mps.xmlSchema.behavior.GroupExpression_BehaviorDescriptor" />
-    </file>
-    <file name="UseAttribute_BehaviorDescriptor.java">
-      <unit at="7,0,15,0" name="jetbrains.mps.xmlSchema.behavior.UseAttribute_BehaviorDescriptor" />
+    <file name="SimpleContent_BehaviorDescriptor.java">
+      <unit at="7,0,21,0" name="jetbrains.mps.xmlSchema.behavior.SimpleContent_BehaviorDescriptor" />
     </file>
     <file name="StringSchemaType_BehaviorDescriptor.java">
       <unit at="6,0,14,0" name="jetbrains.mps.xmlSchema.behavior.StringSchemaType_BehaviorDescriptor" />
     </file>
-    <file name="ElementReference_BehaviorDescriptor.java">
-      <unit at="8,0,19,0" name="jetbrains.mps.xmlSchema.behavior.ElementReference_BehaviorDescriptor" />
+    <file name="TextLine_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="jetbrains.mps.xmlSchema.behavior.TextLine_BehaviorDescriptor" />
+    </file>
+    <file name="TypeExpressionList_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="jetbrains.mps.xmlSchema.behavior.TypeExpressionList_BehaviorDescriptor" />
+    </file>
+    <file name="TypeExpression_BehaviorDescriptor.java">
+      <unit at="10,0,30,0" name="jetbrains.mps.xmlSchema.behavior.TypeExpression_BehaviorDescriptor" />
+    </file>
+    <file name="UnboundExpression_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="jetbrains.mps.xmlSchema.behavior.UnboundExpression_BehaviorDescriptor" />
+    </file>
+    <file name="UseAttribute_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="jetbrains.mps.xmlSchema.behavior.UseAttribute_BehaviorDescriptor" />
     </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c89590594(jetbrains.mps.xmlSchema.behavior)/1213877199073">

@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:00000000-0000-4000-0000-011c895904de(jetbrains.mps.build.property.constraints)">
+<model ref="r:00000000-0000-4000-0000-011c895904de(jetbrains.mps.build.property.constraints)" concise="true">
   <persistence version="9" />
-  <debugInfo />
   <languages />
   <imports />
-  <contents />
+  <registry />
 </model>
 

@@ -3,6 +3,21 @@
   <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
   <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
   <root>
+    <file name="BehaviorAspectDescriptor.java">
+      <unit at="9,0,46,0" name="jetbrains.mps.xmlInternal.behavior.BehaviorAspectDescriptor" />
+    </file>
+    <file name="Comment_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="jetbrains.mps.xmlInternal.behavior.Comment_BehaviorDescriptor" />
+    </file>
+    <file name="ContentStatement_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="jetbrains.mps.xmlInternal.behavior.ContentStatement_BehaviorDescriptor" />
+    </file>
+    <file name="DocumentStatement_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="jetbrains.mps.xmlInternal.behavior.DocumentStatement_BehaviorDescriptor" />
+    </file>
+    <file name="DocumentTypeDeclaration_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="jetbrains.mps.xmlInternal.behavior.DocumentTypeDeclaration_BehaviorDescriptor" />
+    </file>
     <file name="Document_BehaviorDescriptor.java">
       <unit at="7,0,15,0" name="jetbrains.mps.xmlInternal.behavior.Document_BehaviorDescriptor" />
     </file>
@@ -12,41 +27,26 @@
     <file name="Literal_BehaviorDescriptor.java">
       <unit at="7,0,15,0" name="jetbrains.mps.xmlInternal.behavior.Literal_BehaviorDescriptor" />
     </file>
+    <file name="NamespaceAttribute_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="jetbrains.mps.xmlInternal.behavior.NamespaceAttribute_BehaviorDescriptor" />
+    </file>
     <file name="Prolog_BehaviorDescriptor.java">
       <unit at="7,0,15,0" name="jetbrains.mps.xmlInternal.behavior.Prolog_BehaviorDescriptor" />
-    </file>
-    <file name="DocumentStatement_BehaviorDescriptor.java">
-      <unit at="7,0,15,0" name="jetbrains.mps.xmlInternal.behavior.DocumentStatement_BehaviorDescriptor" />
-    </file>
-    <file name="StatementElement_BehaviorDescriptor.java">
-      <unit at="8,0,19,0" name="jetbrains.mps.xmlInternal.behavior.StatementElement_BehaviorDescriptor" />
-    </file>
-    <file name="ContentStatement_BehaviorDescriptor.java">
-      <unit at="7,0,15,0" name="jetbrains.mps.xmlInternal.behavior.ContentStatement_BehaviorDescriptor" />
-    </file>
-    <file name="SimpleElement_BehaviorDescriptor.java">
-      <unit at="8,0,19,0" name="jetbrains.mps.xmlInternal.behavior.SimpleElement_BehaviorDescriptor" />
-    </file>
-    <file name="BehaviorAspectDescriptor.java">
-      <unit at="9,0,46,0" name="jetbrains.mps.xmlInternal.behavior.BehaviorAspectDescriptor" />
-    </file>
-    <file name="DocumentTypeDeclaration_BehaviorDescriptor.java">
-      <unit at="7,0,15,0" name="jetbrains.mps.xmlInternal.behavior.DocumentTypeDeclaration_BehaviorDescriptor" />
-    </file>
-    <file name="XmlFile_BehaviorDescriptor.java">
-      <unit at="11,0,25,0" name="jetbrains.mps.xmlInternal.behavior.XmlFile_BehaviorDescriptor" />
     </file>
     <file name="PublicExternalId_BehaviorDescriptor.java">
       <unit at="6,0,14,0" name="jetbrains.mps.xmlInternal.behavior.PublicExternalId_BehaviorDescriptor" />
     </file>
-    <file name="NamespaceAttribute_BehaviorDescriptor.java">
-      <unit at="7,0,15,0" name="jetbrains.mps.xmlInternal.behavior.NamespaceAttribute_BehaviorDescriptor" />
-    </file>
-    <file name="Comment_BehaviorDescriptor.java">
-      <unit at="7,0,15,0" name="jetbrains.mps.xmlInternal.behavior.Comment_BehaviorDescriptor" />
-    </file>
     <file name="SimpleAttribute_BehaviorDescriptor.java">
       <unit at="7,0,15,0" name="jetbrains.mps.xmlInternal.behavior.SimpleAttribute_BehaviorDescriptor" />
+    </file>
+    <file name="SimpleElement_BehaviorDescriptor.java">
+      <unit at="8,0,19,0" name="jetbrains.mps.xmlInternal.behavior.SimpleElement_BehaviorDescriptor" />
+    </file>
+    <file name="StatementElement_BehaviorDescriptor.java">
+      <unit at="8,0,19,0" name="jetbrains.mps.xmlInternal.behavior.StatementElement_BehaviorDescriptor" />
+    </file>
+    <file name="XmlFile_BehaviorDescriptor.java">
+      <unit at="11,0,25,0" name="jetbrains.mps.xmlInternal.behavior.XmlFile_BehaviorDescriptor" />
     </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c8959058e(jetbrains.mps.xmlInternal.behavior)/1213877487338">

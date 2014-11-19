@@ -8,41 +8,41 @@
   <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
   <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
   <root>
-    <file name="AttributeBuilder_BehaviorDescriptor.java">
-      <unit at="9,0,29,0" name="jetbrains.mps.xmlQuery.behavior.AttributeBuilder_BehaviorDescriptor" />
-    </file>
-    <file name="AccessTextOperation_BehaviorDescriptor.java">
-      <unit at="6,0,14,0" name="jetbrains.mps.xmlQuery.behavior.AccessTextOperation_BehaviorDescriptor" />
-    </file>
     <file name="AccessArbitraryAttributeOperation_BehaviorDescriptor.java">
       <unit at="6,0,14,0" name="jetbrains.mps.xmlQuery.behavior.AccessArbitraryAttributeOperation_BehaviorDescriptor" />
-    </file>
-    <file name="ElementBuilder_BehaviorDescriptor.java">
-      <unit at="8,0,25,0" name="jetbrains.mps.xmlQuery.behavior.ElementBuilder_BehaviorDescriptor" />
-    </file>
-    <file name="XMLElementType_BehaviorDescriptor.java">
-      <unit at="8,0,19,0" name="jetbrains.mps.xmlQuery.behavior.XMLElementType_BehaviorDescriptor" />
-    </file>
-    <file name="AccessAttributeOperation_BehaviorDescriptor.java">
-      <unit at="6,0,14,0" name="jetbrains.mps.xmlQuery.behavior.AccessAttributeOperation_BehaviorDescriptor" />
-    </file>
-    <file name="XMLElementOperation_BehaviorDescriptor.java">
-      <unit at="11,0,34,0" name="jetbrains.mps.xmlQuery.behavior.XMLElementOperation_BehaviorDescriptor" />
-    </file>
-    <file name="BehaviorAspectDescriptor.java">
-      <unit at="9,0,40,0" name="jetbrains.mps.xmlQuery.behavior.BehaviorAspectDescriptor" />
-    </file>
-    <file name="AccessChildrenOperation_BehaviorDescriptor.java">
-      <unit at="6,0,14,0" name="jetbrains.mps.xmlQuery.behavior.AccessChildrenOperation_BehaviorDescriptor" />
     </file>
     <file name="AccessArbitraryChildrenOperation_BehaviorDescriptor.java">
       <unit at="6,0,14,0" name="jetbrains.mps.xmlQuery.behavior.AccessArbitraryChildrenOperation_BehaviorDescriptor" />
     </file>
-    <file name="XMLElementCreator_BehaviorDescriptor.java">
-      <unit at="7,0,15,0" name="jetbrains.mps.xmlQuery.behavior.XMLElementCreator_BehaviorDescriptor" />
+    <file name="AccessAttributeOperation_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="jetbrains.mps.xmlQuery.behavior.AccessAttributeOperation_BehaviorDescriptor" />
+    </file>
+    <file name="AccessChildrenOperation_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="jetbrains.mps.xmlQuery.behavior.AccessChildrenOperation_BehaviorDescriptor" />
+    </file>
+    <file name="AccessTextOperation_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="jetbrains.mps.xmlQuery.behavior.AccessTextOperation_BehaviorDescriptor" />
+    </file>
+    <file name="AttributeBuilder_BehaviorDescriptor.java">
+      <unit at="9,0,29,0" name="jetbrains.mps.xmlQuery.behavior.AttributeBuilder_BehaviorDescriptor" />
+    </file>
+    <file name="BehaviorAspectDescriptor.java">
+      <unit at="9,0,40,0" name="jetbrains.mps.xmlQuery.behavior.BehaviorAspectDescriptor" />
+    </file>
+    <file name="ElementBuilder_BehaviorDescriptor.java">
+      <unit at="8,0,25,0" name="jetbrains.mps.xmlQuery.behavior.ElementBuilder_BehaviorDescriptor" />
     </file>
     <file name="TextBuilder_BehaviorDescriptor.java">
       <unit at="9,0,29,0" name="jetbrains.mps.xmlQuery.behavior.TextBuilder_BehaviorDescriptor" />
+    </file>
+    <file name="XMLElementCreator_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="jetbrains.mps.xmlQuery.behavior.XMLElementCreator_BehaviorDescriptor" />
+    </file>
+    <file name="XMLElementOperation_BehaviorDescriptor.java">
+      <unit at="11,0,34,0" name="jetbrains.mps.xmlQuery.behavior.XMLElementOperation_BehaviorDescriptor" />
+    </file>
+    <file name="XMLElementType_BehaviorDescriptor.java">
+      <unit at="8,0,19,0" name="jetbrains.mps.xmlQuery.behavior.XMLElementType_BehaviorDescriptor" />
     </file>
   </root>
   <root nodeRef="r:07fd5080-0281-45a5-a942-90de30a6227c(jetbrains.mps.xmlQuery.behavior)/10026583185457214">
