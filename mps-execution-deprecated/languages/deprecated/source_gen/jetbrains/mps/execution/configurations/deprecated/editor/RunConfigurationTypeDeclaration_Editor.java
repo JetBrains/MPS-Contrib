@@ -33,7 +33,7 @@ import jetbrains.mps.openapi.editor.style.StyleRegistry;
 import jetbrains.mps.nodeEditor.MPSColors;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Component;
 import javax.swing.JComponent;
-import jetbrains.mps.ide.editor.util.EditorUtil;
+import jetbrains.mps.editor.runtime.EditorUtil;
 
 public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {

@@ -33,7 +33,7 @@ import jetbrains.mps.nodeEditor.MPSColors;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Component;
 import javax.swing.JComponent;
 import javax.swing.JLabel;
-import jetbrains.mps.ide.editor.util.EditorUtil;
+import jetbrains.mps.editor.runtime.EditorUtil;
 
 public class RunConfigurationPresentation implements ConceptEditorComponent {
   public Collection<String> getContextHints() {
