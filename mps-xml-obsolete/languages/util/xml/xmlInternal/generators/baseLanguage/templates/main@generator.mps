@@ -2,7 +2,6 @@
 <model ref="r:00000000-0000-4000-0000-011c89590592(jetbrains.mps.xmlInternal.generator.baseLanguage.template.main@generator)" concise="true">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="-1" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="-1" />
     <use id="a83c3bd0-2f7e-4ba1-8373-12d49e99f57e" name="jetbrains.mps.gtext" version="-1" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="-1" />
@@ -11,6 +10,7 @@
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="-1" />
     <use id="2c55c7ac-60c3-4eea-b9db-0d627bd2dcb9" name="jetbrains.mps.xml" version="-1" />
     <use id="64f62b28-36e3-4052-9f72-f616211ae615" name="jetbrains.mps.xmlInternal" version="-1" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -162,7 +162,7 @@
       <concept id="1164416446950" name="jetbrains.mps.gtext.structure.GIndentBlock" flags="ng" index="sCf3D">
         <child id="1166926910409" name="itemList" index="2MgTb6" />
       </concept>
-      <concept id="1164488352732" name="jetbrains.mps.gtext.structure.GItemStatement" flags="nn" index="wUybj">
+      <concept id="1164488352732" name="jetbrains.mps.gtext.structure.GItemStatement" flags="ng" index="wUybj">
         <child id="1164488382452" name="item" index="wUDrV" />
       </concept>
       <concept id="1165582968644" name="jetbrains.mps.gtext.structure.GStatementItem" flags="ng" index="1yaapb">

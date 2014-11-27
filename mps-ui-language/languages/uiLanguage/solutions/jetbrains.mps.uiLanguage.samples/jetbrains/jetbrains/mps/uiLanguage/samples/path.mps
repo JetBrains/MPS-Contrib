@@ -2,9 +2,9 @@
 <model ref="r:7633df7c-3018-421f-9c26-ed0e5eaf6bd8(jetbrains.mps.uiLanguage.samples.path)" concise="true">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="-1" />
     <use id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers" version="-1" />
     <use id="5d6bee4c-f891-4a93-a0c9-e2268726ae47" name="jetbrains.mps.uiLanguage" version="-1" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="1" />
   </languages>
   <imports>
     <import index="tpht" ref="r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)" />
@@ -129,14 +129,14 @@
         <reference id="1202389328439" name="attribute" index="3NZicw" />
         <child id="1202389410534" name="value" index="3NZAfL" />
       </concept>
-      <concept id="1202464424004" name="jetbrains.mps.uiLanguage.structure.BindExpression" flags="nn" index="3StK5j">
+      <concept id="1202464424004" name="jetbrains.mps.uiLanguage.structure.BindExpression" flags="ng" index="3StK5j">
         <child id="1202464474939" name="expression" index="3StWoG" />
       </concept>
-      <concept id="1202478475127" name="jetbrains.mps.uiLanguage.structure.AttributeReferenceOperation" flags="nn" index="3Tjmpw" />
+      <concept id="1202478475127" name="jetbrains.mps.uiLanguage.structure.AttributeReferenceOperation" flags="ng" index="3Tjmpw" />
       <concept id="1202739819652" name="jetbrains.mps.uiLanguage.structure.LayoutConstraint" flags="ng" index="8Sjms">
         <child id="1202739826872" name="constraint" index="8Sl6w" />
       </concept>
-      <concept id="1202742489421" name="jetbrains.mps.uiLanguage.structure.ComponentReference" flags="nn" index="92v1l">
+      <concept id="1202742489421" name="jetbrains.mps.uiLanguage.structure.ComponentReference" flags="ng" index="92v1l">
         <reference id="1202742504267" name="component" index="92yDj" />
       </concept>
       <concept id="1202744043552" name="jetbrains.mps.uiLanguage.structure.ActionHandler" flags="ng" index="98q$S">

@@ -2,12 +2,12 @@
 <model ref="r:00000000-0000-4000-0000-011c895904c4(jetbrains.mps.buildlanguage.typesystem)" concise="true">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="-1" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="-1" />
     <use id="0b608d44-1308-418d-8715-22d040c3b3cc" name="jetbrains.mps.buildlanguage" version="-1" />
     <use id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation" version="-1" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="-1" />
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="-1" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -37,11 +37,11 @@
       </concept>
     </language>
     <language id="0b608d44-1308-418d-8715-22d040c3b3cc" name="jetbrains.mps.buildlanguage">
-      <concept id="1199032398223" name="jetbrains.mps.buildlanguage.structure.FileType" flags="nn" index="FTB2o" />
-      <concept id="1200510908478" name="jetbrains.mps.buildlanguage.structure.CallReferenceType" flags="nn" index="241F$D" />
-      <concept id="1196870363565" name="jetbrains.mps.buildlanguage.structure.BooleanType" flags="nn" index="2F26yV" />
-      <concept id="1196870403099" name="jetbrains.mps.buildlanguage.structure.StringType" flags="nn" index="2F2gkd" />
-      <concept id="1196870417350" name="jetbrains.mps.buildlanguage.structure.IntegerType" flags="nn" index="2F2jFg" />
+      <concept id="1199032398223" name="jetbrains.mps.buildlanguage.structure.FileType" flags="ng" index="FTB2o" />
+      <concept id="1200510908478" name="jetbrains.mps.buildlanguage.structure.CallReferenceType" flags="ng" index="241F$D" />
+      <concept id="1196870363565" name="jetbrains.mps.buildlanguage.structure.BooleanType" flags="ng" index="2F26yV" />
+      <concept id="1196870403099" name="jetbrains.mps.buildlanguage.structure.StringType" flags="ng" index="2F2gkd" />
+      <concept id="1196870417350" name="jetbrains.mps.buildlanguage.structure.IntegerType" flags="ng" index="2F2jFg" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">

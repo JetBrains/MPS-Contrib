@@ -2,9 +2,9 @@
 <model ref="r:711fa6a3-3961-4b7b-b3da-5afbfdf297e7(jetbrains.mps.xmlUnitTest.sandbox)" concise="true">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="-1" />
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="-1" />
     <use id="f85adbd8-2ec2-4572-bcfc-8dd799a7f025" name="jetbrains.mps.xmlUnitTest" version="-1" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="1" />
   </languages>
   <imports>
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
@@ -31,13 +31,13 @@
       </concept>
     </language>
     <language id="f85adbd8-2ec2-4572-bcfc-8dd799a7f025" name="jetbrains.mps.xmlUnitTest">
-      <concept id="5211164146776489223" name="jetbrains.mps.xmlUnitTest.structure.XMLStringLiteral" flags="nn" index="MzfGD">
+      <concept id="5211164146776489223" name="jetbrains.mps.xmlUnitTest.structure.XMLStringLiteral" flags="ng" index="MzfGD">
         <child id="5211164146776489224" name="xml" index="MzfGA" />
       </concept>
       <concept id="5211164146776488214" name="jetbrains.mps.xmlUnitTest.structure.XMLLiteral" flags="ng" index="MzfWS">
         <child id="5211164146776488215" name="element" index="MzfWT" />
       </concept>
-      <concept id="5211164146777002721" name="jetbrains.mps.xmlUnitTest.structure.AssertXMLEquals" flags="nn" index="MHdjf">
+      <concept id="5211164146777002721" name="jetbrains.mps.xmlUnitTest.structure.AssertXMLEquals" flags="ng" index="MHdjf">
         <child id="5211164146777002724" name="actual" index="MHdja" />
         <child id="5211164146777002723" name="expected" index="MHdjd" />
       </concept>

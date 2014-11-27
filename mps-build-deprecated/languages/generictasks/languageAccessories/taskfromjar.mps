@@ -2,13 +2,13 @@
 <model ref="r:641cc795-9da1-457c-a0b5-fbe12a078030(jetbrains.mps.build.generictasks.taskfromjar)" concise="true">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="-1" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="-1" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="-1" />
     <use id="fba399db-f591-45dc-a279-e2a2a986e262" name="jetbrains.mps.build.generictasks" version="-1" />
     <use id="0b608d44-1308-418d-8715-22d040c3b3cc" name="jetbrains.mps.buildlanguage" version="-1" />
     <use id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation" version="-1" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="-1" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="1" />
   </languages>
   <imports>
     <import index="5k48" ref="f:java_stub#847a3235-09f9-403c-b6a9-1c294a212e92#org.apache.tools.ant.types(Ant/org.apache.tools.ant.types@java_stub)" />
@@ -43,12 +43,12 @@
       <concept id="1196861005114" name="jetbrains.mps.buildlanguage.structure.StringLiteral" flags="ng" index="2EupKG">
         <property id="1196861024475" name="value" index="2EuuBd" />
       </concept>
-      <concept id="1196870403099" name="jetbrains.mps.buildlanguage.structure.StringType" flags="nn" index="2F2gkd" />
+      <concept id="1196870403099" name="jetbrains.mps.buildlanguage.structure.StringType" flags="ng" index="2F2gkd" />
       <concept id="1197399151554" name="jetbrains.mps.buildlanguage.structure.StringEnum" flags="ng" index="3azhbk" />
-      <concept id="1199032398223" name="jetbrains.mps.buildlanguage.structure.FileType" flags="nn" index="FTB2o" />
-      <concept id="1200510908478" name="jetbrains.mps.buildlanguage.structure.CallReferenceType" flags="nn" index="241F$D" />
-      <concept id="1196870363565" name="jetbrains.mps.buildlanguage.structure.BooleanType" flags="nn" index="2F26yV" />
-      <concept id="1196870417350" name="jetbrains.mps.buildlanguage.structure.IntegerType" flags="nn" index="2F2jFg" />
+      <concept id="1199032398223" name="jetbrains.mps.buildlanguage.structure.FileType" flags="ng" index="FTB2o" />
+      <concept id="1200510908478" name="jetbrains.mps.buildlanguage.structure.CallReferenceType" flags="ng" index="241F$D" />
+      <concept id="1196870363565" name="jetbrains.mps.buildlanguage.structure.BooleanType" flags="ng" index="2F26yV" />
+      <concept id="1196870417350" name="jetbrains.mps.buildlanguage.structure.IntegerType" flags="ng" index="2F2jFg" />
     </language>
     <language id="fba399db-f591-45dc-a279-e2a2a986e262" name="jetbrains.mps.build.generictasks">
       <concept id="353793545802643498" name="jetbrains.mps.build.generictasks.structure.NestedDeclaration" flags="ng" index="3Tz9lK" />
