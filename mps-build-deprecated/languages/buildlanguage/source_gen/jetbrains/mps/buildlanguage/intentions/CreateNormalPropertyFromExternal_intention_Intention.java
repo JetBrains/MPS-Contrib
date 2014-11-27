@@ -13,7 +13,6 @@ import jetbrains.mps.smodel.SNodePointer;
 import java.util.Collections;
 import jetbrains.mps.smodel.action.SNodeFactoryOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
@@ -63,9 +62,9 @@ public class CreateNormalPropertyFromExternal_intention_Intention implements Int
       return "Transform External Property to Ordinary Property";
     }
     public void execute(final SNode node, final EditorContext editorContext) {
-      SNode property = SNodeFactoryOperations.createNewNode(SNodeFactoryOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1196851107341l, "jetbrains.mps.buildlanguage.structure.PropertyDeclaration")), null);
-      SLinkOperations.setTarget(property, MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1463999527524104369l, 1196870993204l, "type"), SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1463999527524104369l, 1196870993204l, "type")));
-      SPropertyOperations.set(property, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name"), SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name")));
+      SNode property = SNodeFactoryOperations.createNewNode(SNodeFactoryOperations.asInstanceConcept(MetaAdapterFactory.getConcept(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x116a9e2960dL, "jetbrains.mps.buildlanguage.structure.PropertyDeclaration")), null);
+      SLinkOperations.setTarget(property, MetaAdapterFactory.getContainmentLink(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x14512bd04d69f8b1L, 0x116ab120534L, "type"), SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x14512bd04d69f8b1L, 0x116ab120534L, "type")));
+      SPropertyOperations.set(property, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
       SNodeOperations.replaceWithAnother(node, property);
     }
     public IntentionDescriptor getDescriptor() {

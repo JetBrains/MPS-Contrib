@@ -4,7 +4,6 @@ package jetbrains.mps.xmlQuery.constraints;
 
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
 import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
-import java.util.UUID;
 import java.util.Map;
 import jetbrains.mps.smodel.adapter.ids.SReferenceLinkId;
 import jetbrains.mps.smodel.runtime.ReferenceConstraintsDescriptor;
@@ -30,12 +29,12 @@ import jetbrains.mps.smodel.SNodePointer;
 
 public class ElementBuilder_Constraints extends BaseConstraintsDescriptor {
   public ElementBuilder_Constraints() {
-    super(MetaIdFactory.conceptId(new UUID(-6269610502768541194l, -6018622628950326671l), 3149278768676788174l));
+    super(MetaIdFactory.conceptId(0xa8fdde772e6c41f6L, 0xac798e9b6449c271L, 0x2bb47c5ac1a8d7ceL));
   }
   @Override
   protected Map<SReferenceLinkId, ReferenceConstraintsDescriptor> getNotDefaultSReferenceLinks() {
     Map<SReferenceLinkId, ReferenceConstraintsDescriptor> references = new HashMap<SReferenceLinkId, ReferenceConstraintsDescriptor>();
-    references.put(MetaIdFactory.refId(new UUID(-6269610502768541194l, -6018622628950326671l), 3149278768676788174l, 1384720974900260378l), new BaseReferenceConstraintsDescriptor(MetaIdFactory.refId(new UUID(-6269610502768541194l, -6018622628950326671l), 3149278768676788174l, 1384720974900260378l), this) {
+    references.put(MetaIdFactory.refId(0xa8fdde772e6c41f6L, 0xac798e9b6449c271L, 0x2bb47c5ac1a8d7ceL, 0x13378463ddf66e1aL), new BaseReferenceConstraintsDescriptor(MetaIdFactory.refId(0xa8fdde772e6c41f6L, 0xac798e9b6449c271L, 0x2bb47c5ac1a8d7ceL, 0x13378463ddf66e1aL), this) {
       @Override
       public boolean hasOwnScopeProvider() {
         return true;
@@ -49,8 +48,8 @@ public class ElementBuilder_Constraints extends BaseConstraintsDescriptor {
             SNode contextBuilder = Builder_Behavior.call_getContextBuilder_7057666463730366732(SNodeOperations.asSConcept(SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.builders.structure.Builder")), _context.getEnclosingNode());
             if (contextBuilder == null) {
               return new ModelAndImportedModelsScope(_context.getModel(), false);
-            } else if (SNodeOperations.isInstanceOf(contextBuilder, MetaAdapterFactory.getConcept(new UUID(-6269610502768541194l, -6018622628950326671l), 3149278768676788174l, "jetbrains.mps.xmlQuery.structure.ElementBuilder"))) {
-              return new SimpleSearchScope(ElementUtil.getElementDeclarations(SLinkOperations.getTarget(SNodeOperations.cast(contextBuilder, MetaAdapterFactory.getConcept(new UUID(-6269610502768541194l, -6018622628950326671l), 3149278768676788174l, "jetbrains.mps.xmlQuery.structure.ElementBuilder")), MetaAdapterFactory.getReferenceLink(new UUID(-6269610502768541194l, -6018622628950326671l), 3149278768676788174l, 1384720974900260378l, "elementDeclaration")), _context.getEnclosingNode()));
+            } else if (SNodeOperations.isInstanceOf(contextBuilder, MetaAdapterFactory.getConcept(0xa8fdde772e6c41f6L, 0xac798e9b6449c271L, 0x2bb47c5ac1a8d7ceL, "jetbrains.mps.xmlQuery.structure.ElementBuilder"))) {
+              return new SimpleSearchScope(ElementUtil.getElementDeclarations(SLinkOperations.getTarget(SNodeOperations.cast(contextBuilder, MetaAdapterFactory.getConcept(0xa8fdde772e6c41f6L, 0xac798e9b6449c271L, 0x2bb47c5ac1a8d7ceL, "jetbrains.mps.xmlQuery.structure.ElementBuilder")), MetaAdapterFactory.getReferenceLink(0xa8fdde772e6c41f6L, 0xac798e9b6449c271L, 0x2bb47c5ac1a8d7ceL, 0x13378463ddf66e1aL, "elementDeclaration")), _context.getEnclosingNode()));
             } else {
               return new EmptySearchScope();
             }

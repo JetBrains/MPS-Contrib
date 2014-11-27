@@ -4,7 +4,6 @@ package jetbrains.mps.baseLanguage.dates.constraints;
 
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
 import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
-import java.util.UUID;
 import java.util.Map;
 import jetbrains.mps.smodel.adapter.ids.SReferenceLinkId;
 import jetbrains.mps.smodel.runtime.ReferenceConstraintsDescriptor;
@@ -24,12 +23,12 @@ import jetbrains.mps.smodel.SNodePointer;
 
 public class DateTimePropertyFormatToken_Constraints extends BaseConstraintsDescriptor {
   public DateTimePropertyFormatToken_Constraints() {
-    super(MetaIdFactory.conceptId(new UUID(-3689458971415590814l, -6289781637635314138l), 1173959836330l));
+    super(MetaIdFactory.conceptId(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x111557582aaL));
   }
   @Override
   protected Map<SReferenceLinkId, ReferenceConstraintsDescriptor> getNotDefaultSReferenceLinks() {
     Map<SReferenceLinkId, ReferenceConstraintsDescriptor> references = new HashMap<SReferenceLinkId, ReferenceConstraintsDescriptor>();
-    references.put(MetaIdFactory.refId(new UUID(-3689458971415590814l, -6289781637635314138l), 1173959836330l, 1173966637440l), new BaseReferenceConstraintsDescriptor(MetaIdFactory.refId(new UUID(-3689458971415590814l, -6289781637635314138l), 1173959836330l, 1173966637440l), this) {
+    references.put(MetaIdFactory.refId(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x111557582aaL, 0x11155dd4980L), new BaseReferenceConstraintsDescriptor(MetaIdFactory.refId(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x111557582aaL, 0x11155dd4980L), this) {
       @Override
       public boolean hasOwnOnReferenceSetHandler() {
         return true;
@@ -41,7 +40,7 @@ public class DateTimePropertyFormatToken_Constraints extends BaseConstraintsDesc
       @Override
       public void onReferenceSet(final SNode referenceNode, final SNode oldReferentNode, final SNode newReferentNode) {
         if (newReferentNode != oldReferentNode) {
-          SLinkOperations.setTarget(referenceNode, MetaAdapterFactory.getReferenceLink(new UUID(-3689458971415590814l, -6289781637635314138l), 1173959836330l, 1173959975857l, "dateTimePropertyFormatType"), DateTimePropertFormatTokenUtil.getDefaultFormatType(referenceNode));
+          SLinkOperations.setTarget(referenceNode, MetaAdapterFactory.getReferenceLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x111557582aaL, 0x1115577a3b1L, "dateTimePropertyFormatType"), DateTimePropertFormatTokenUtil.getDefaultFormatType(referenceNode));
         }
       }
       @Nullable
@@ -50,7 +49,7 @@ public class DateTimePropertyFormatToken_Constraints extends BaseConstraintsDesc
         return new BaseScopeProvider() {};
       }
     });
-    references.put(MetaIdFactory.refId(new UUID(-3689458971415590814l, -6289781637635314138l), 1173959836330l, 1173959975857l), new BaseReferenceConstraintsDescriptor(MetaIdFactory.refId(new UUID(-3689458971415590814l, -6289781637635314138l), 1173959836330l, 1173959975857l), this) {
+    references.put(MetaIdFactory.refId(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x111557582aaL, 0x1115577a3b1L), new BaseReferenceConstraintsDescriptor(MetaIdFactory.refId(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x111557582aaL, 0x1115577a3b1L), this) {
       @Override
       public boolean hasOwnScopeProvider() {
         return true;
@@ -61,7 +60,7 @@ public class DateTimePropertyFormatToken_Constraints extends BaseConstraintsDesc
         return new BaseReferenceScopeProvider() {
           @Override
           public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
-            return SLinkOperations.getChildren(SLinkOperations.getTarget(_context.getReferenceNode(), MetaAdapterFactory.getReferenceLink(new UUID(-3689458971415590814l, -6289781637635314138l), 1173959836330l, 1173966637440l, "dateTimePropertyFormatConfiguration")), MetaAdapterFactory.getContainmentLink(new UUID(1842350883898016625l, -7531592358064104734l), 1174042847309l, 1174043134773l, "dateTimePropertyFormatType"));
+            return SLinkOperations.getChildren(SLinkOperations.getTarget(_context.getReferenceNode(), MetaAdapterFactory.getReferenceLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x111557582aaL, 0x11155dd4980L, "dateTimePropertyFormatConfiguration")), MetaAdapterFactory.getContainmentLink(0x1991585e225e4371L, 0x977a68a7888adae2L, 0x1115a68284dL, 0x1115a6c8b35L, "dateTimePropertyFormatType"));
           }
           @Override
           public SNodeReference getSearchScopeValidatorNode() {

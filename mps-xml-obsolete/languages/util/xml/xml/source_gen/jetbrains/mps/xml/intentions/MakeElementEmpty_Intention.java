@@ -10,7 +10,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
@@ -49,10 +48,10 @@ public class MakeElementEmpty_Intention implements IntentionFactory {
     return true;
   }
   private boolean isApplicableToNode(final SNode node, final EditorContext editorContext) {
-    SNode contentList = SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(3194679053860949738l, -5054431440157877063l), 1179102053371l, 1179114219774l, "contentList"));
-    List<SNode> contents = SLinkOperations.getChildren(contentList, MetaAdapterFactory.getContainmentLink(new UUID(3194679053860949738l, -5054431440157877063l), 1163629230879l, 1163629255661l, "content"));
+    SNode contentList = SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(0x2c55c7ac60c34eeaL, 0xb9db0d627bd2dcb9L, 0x11287f583fbL, 0x11288af28feL, "contentList"));
+    List<SNode> contents = SLinkOperations.getChildren(contentList, MetaAdapterFactory.getContainmentLink(0x2c55c7ac60c34eeaL, 0xb9db0d627bd2dcb9L, 0x10eedb4fb1fL, 0x10eedb55bedL, "content"));
     int count = ListSequence.fromList(contents).count();
-    return !(SPropertyOperations.getBoolean(node, MetaAdapterFactory.getProperty(new UUID(3194679053860949738l, -5054431440157877063l), 1167523027466l, 1172970532917l, "isEmpty"))) && (count == 0 || count == 1 && SNodeOperations.isInstanceOf(ListSequence.fromList(contents).first(), MetaAdapterFactory.getConcept(new UUID(3194679053860949738l, -5054431440157877063l), 1161373262136l, "jetbrains.mps.xml.structure.Text")) && SPropertyOperations.hasValue(SNodeOperations.cast(ListSequence.fromList(contents).first(), MetaAdapterFactory.getConcept(new UUID(3194679053860949738l, -5054431440157877063l), 1161373262136l, "jetbrains.mps.xml.structure.Text")), MetaAdapterFactory.getProperty(new UUID(3194679053860949738l, -5054431440157877063l), 1161373262136l, 1161373273669l, "text"), null));
+    return !(SPropertyOperations.getBoolean(node, MetaAdapterFactory.getProperty(0x2c55c7ac60c34eeaL, 0xb9db0d627bd2dcb9L, 0x10fd5cb9a0aL, 0x1111a7df035L, "isEmpty"))) && (count == 0 || count == 1 && SNodeOperations.isInstanceOf(ListSequence.fromList(contents).first(), MetaAdapterFactory.getConcept(0x2c55c7ac60c34eeaL, 0xb9db0d627bd2dcb9L, 0x10e673da138L, "jetbrains.mps.xml.structure.Text")) && SPropertyOperations.hasValue(SNodeOperations.cast(ListSequence.fromList(contents).first(), MetaAdapterFactory.getConcept(0x2c55c7ac60c34eeaL, 0xb9db0d627bd2dcb9L, 0x10e673da138L, "jetbrains.mps.xml.structure.Text")), MetaAdapterFactory.getProperty(0x2c55c7ac60c34eeaL, 0xb9db0d627bd2dcb9L, 0x10e673da138L, 0x10e673dce45L, "text"), null));
   }
   public SNodeReference getIntentionNodeReference() {
     return new SNodePointer("r:00000000-0000-4000-0000-011c89590587(jetbrains.mps.xml.intentions)", "1195647309592");
@@ -73,7 +72,7 @@ public class MakeElementEmpty_Intention implements IntentionFactory {
       return "Make Element Empty";
     }
     public void execute(final SNode node, final EditorContext editorContext) {
-      SPropertyOperations.set(node, MetaAdapterFactory.getProperty(new UUID(3194679053860949738l, -5054431440157877063l), 1167523027466l, 1172970532917l, "isEmpty"), "" + (true));
+      SPropertyOperations.set(node, MetaAdapterFactory.getProperty(0x2c55c7ac60c34eeaL, 0xb9db0d627bd2dcb9L, 0x10fd5cb9a0aL, 0x1111a7df035L, "isEmpty"), "" + (true));
     }
     public IntentionDescriptor getDescriptor() {
       return MakeElementEmpty_Intention.this;

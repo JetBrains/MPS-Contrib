@@ -7,22 +7,21 @@ import java.util.List;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import java.util.Set;
 
 public class ComplexContent_Behavior {
   public static void init(SNode thisNode) {
   }
   public static void virtual_checkAttributes_1213877382373(SNode thisNode, List<SNode> attributeDeclarations) {
-    BehaviorReflection.invokeVirtual(Void.class, SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(-5396545995874219192l, -5548206827574227681l), 1167794310821l, 1167794765257l, "contentItem")), "virtual_checkAttributes_1213877413538", new Object[]{attributeDeclarations});
+    BehaviorReflection.invokeVirtual(Void.class, SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(0xb51b9e0245dc4b48L, 0xb300cf49360a8d1fL, 0x10fe5f70ea5L, 0x10fe5fdfdc9L, "contentItem")), "virtual_checkAttributes_1213877413538", new Object[]{attributeDeclarations});
   }
   public static void virtual_checkElements_1213877382378(SNode thisNode, Set<SNode> elementDeclarations) {
-    BehaviorReflection.invokeVirtual(Void.class, SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(-5396545995874219192l, -5548206827574227681l), 1167794310821l, 1167794765257l, "contentItem")), "virtual_checkElements_1213877413543", new Object[]{elementDeclarations});
+    BehaviorReflection.invokeVirtual(Void.class, SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(0xb51b9e0245dc4b48L, 0xb300cf49360a8d1fL, 0x10fe5f70ea5L, 0x10fe5fdfdc9L, "contentItem")), "virtual_checkElements_1213877413543", new Object[]{elementDeclarations});
   }
   public static boolean virtual_hasElementReferences_1213877382383(SNode thisNode) {
     return true;
   }
   public static boolean virtual_isMixed_1213877382388(SNode thisNode) {
-    return BehaviorReflection.invokeVirtual(Boolean.TYPE, SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(-5396545995874219192l, -5548206827574227681l), 1167794310821l, 1167794765257l, "contentItem")), "virtual_isMixed_1213877413548", new Object[]{});
+    return BehaviorReflection.invokeVirtual(Boolean.TYPE, SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(0xb51b9e0245dc4b48L, 0xb300cf49360a8d1fL, 0x10fe5f70ea5L, 0x10fe5fdfdc9L, "contentItem")), "virtual_isMixed_1213877413548", new Object[]{});
   }
 }

@@ -6,12 +6,11 @@ import jetbrains.mps.textGen.SNodeTextGen;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 
 public class XMLStringLiteral_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
     this.append("\"");
-    appendNode(SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(-550886282855561870l, -4828828743312609243l), 5211164146776489223l, 5211164146776489224l, "xml")));
+    appendNode(SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(0xf85adbd82ec24572L, 0xbcfc8dd799a7f025L, 0x4851c62e7add3d07L, 0x4851c62e7add3d08L, "xml")));
     this.append("\"");
   }
 }

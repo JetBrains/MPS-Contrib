@@ -6,7 +6,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import java.util.List;
@@ -16,8 +15,8 @@ public class GItemList_Behavior {
   }
   public static boolean virtual_isComplex_1213877298853(SNode thisNode) {
     boolean complex = false;
-    for (SNode item : ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(-6324114011398976607l, -8974808928016009858l), 1164412982980l, 1164413016466l, "item")))) {
-      if (SNodeOperations.isInstanceOf(item, MetaAdapterFactory.getConcept(new UUID(-6324114011398976607l, -8974808928016009858l), 1164412935041l, "jetbrains.mps.gtext.structure.GItem")) && BehaviorReflection.invokeVirtual(Boolean.TYPE, item, "virtual_isComplex_1213877298853", new Object[]{})) {
+    for (SNode item : ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(0xa83c3bd02f7e4ba1L, 0x837312d49e99f57eL, 0x10f1c6c16c4L, 0x10f1c6c9992L, "item")))) {
+      if (SNodeOperations.isInstanceOf(item, MetaAdapterFactory.getConcept(0xa83c3bd02f7e4ba1L, 0x837312d49e99f57eL, 0x10f1c6b5b81L, "jetbrains.mps.gtext.structure.GItem")) && BehaviorReflection.invokeVirtual(Boolean.TYPE, item, "virtual_isComplex_1213877298853", new Object[]{})) {
         complex = true;
         break;
       }
@@ -25,6 +24,6 @@ public class GItemList_Behavior {
     return complex;
   }
   public static List<SNode> virtual_getItems_1239125087745(SNode thisNode) {
-    return SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(-6324114011398976607l, -8974808928016009858l), 1164412982980l, 1164413016466l, "item"));
+    return SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(0xa83c3bd02f7e4ba1L, 0x837312d49e99f57eL, 0x10f1c6c16c4L, 0x10f1c6c9992L, "item"));
   }
 }

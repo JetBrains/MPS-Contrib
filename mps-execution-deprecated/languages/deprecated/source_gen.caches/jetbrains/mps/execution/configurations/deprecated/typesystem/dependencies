@@ -37,7 +37,6 @@
   </dependency>
   <dependency className="jetbrains.mps.execution.configurations.deprecated.typesystem.check_IsApplicableBlock_NonTypesystemRule" file="check_IsApplicableBlock_NonTypesystemRule.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.errors.IErrorReporter" />
     <classNode dependClassName="jetbrains.mps.errors.messageTargets.MessageTarget" />
     <classNode dependClassName="jetbrains.mps.errors.messageTargets.NodeMessageTarget" />
@@ -54,7 +53,6 @@
   </dependency>
   <dependency className="jetbrains.mps.execution.configurations.deprecated.typesystem.check_RunConfigurationCreatesDebugSession_NonTypesystemRule" file="check_RunConfigurationCreatesDebugSession_NonTypesystemRule.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.errors.IErrorReporter" />
     <classNode dependClassName="jetbrains.mps.errors.messageTargets.MessageTarget" />
     <classNode dependClassName="jetbrains.mps.errors.messageTargets.NodeMessageTarget" />
@@ -72,7 +70,6 @@
     <classNode dependClassName="java.lang.Boolean" />
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.errors.IErrorReporter" />
     <classNode dependClassName="jetbrains.mps.errors.messageTargets.MessageTarget" />
     <classNode dependClassName="jetbrains.mps.errors.messageTargets.NodeMessageTarget" />
@@ -89,7 +86,6 @@
   </dependency>
   <dependency className="jetbrains.mps.execution.configurations.deprecated.typesystem.check_RunConfigurationIcon_NonTypesystemRule" file="check_RunConfigurationIcon_NonTypesystemRule.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.errors.IErrorReporter" />
     <classNode dependClassName="jetbrains.mps.errors.messageTargets.MessageTarget" />
     <classNode dependClassName="jetbrains.mps.errors.messageTargets.NodeMessageTarget" />
@@ -105,7 +101,6 @@
   </dependency>
   <dependency className="jetbrains.mps.execution.configurations.deprecated.typesystem.check_executeBlock_returns_NonTypesystemRule" file="check_executeBlock_returns_NonTypesystemRule.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.errors.IErrorReporter" />
     <classNode dependClassName="jetbrains.mps.errors.messageTargets.MessageTarget" />
     <classNode dependClassName="jetbrains.mps.errors.messageTargets.NodeMessageTarget" />
@@ -122,7 +117,6 @@
   </dependency>
   <dependency className="jetbrains.mps.execution.configurations.deprecated.typesystem.typeof_ActionListStatement_InferenceRule" file="typeof_ActionListStatement_InferenceRule.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus" />
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
@@ -137,7 +131,6 @@
   </dependency>
   <dependency className="jetbrains.mps.execution.configurations.deprecated.typesystem.typeof_ActionsList_FunctionParameter_InferenceRule" file="typeof_ActionsList_FunctionParameter_InferenceRule.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus" />
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SReference" />
@@ -151,7 +144,6 @@
   </dependency>
   <dependency className="jetbrains.mps.execution.configurations.deprecated.typesystem.typeof_ComponentReference_InferenceRule" file="typeof_ComponentReference_InferenceRule.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
     <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus" />
@@ -165,7 +157,6 @@
   </dependency>
   <dependency className="jetbrains.mps.execution.configurations.deprecated.typesystem.typeof_ConfigurationEditorDeclaration_InferenceRule" file="typeof_ConfigurationEditorDeclaration_InferenceRule.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus" />
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
@@ -191,7 +182,6 @@
   </dependency>
   <dependency className="jetbrains.mps.execution.configurations.deprecated.typesystem.typeof_Console_IsSubtype_JComponent_SubtypingRule" file="typeof_Console_IsSubtype_JComponent_SubtypingRule.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus" />
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SReference" />
@@ -204,7 +194,6 @@
   </dependency>
   <dependency className="jetbrains.mps.execution.configurations.deprecated.typesystem.typeof_CreateRunConfigBlockParameter_InferenceRule" file="typeof_CreateRunConfigBlockParameter_InferenceRule.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
     <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus" />
@@ -218,7 +207,6 @@
   </dependency>
   <dependency className="jetbrains.mps.execution.configurations.deprecated.typesystem.typeof_CreateRunConfigStatement_InferenceRule" file="typeof_CreateRunConfigStatement_InferenceRule.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus" />
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
@@ -232,7 +220,6 @@
   </dependency>
   <dependency className="jetbrains.mps.execution.configurations.deprecated.typesystem.typeof_ExecutionConsoleStatement_InferenceRule" file="typeof_ExecutionConsoleStatement_InferenceRule.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus" />
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
@@ -248,7 +235,6 @@
   <dependency className="jetbrains.mps.execution.configurations.deprecated.typesystem.typeof_GetUserDataExpression_InferenceRule" file="typeof_GetUserDataExpression_InferenceRule.java">
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.HUtil" />
     <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus" />
@@ -275,7 +261,6 @@
   </dependency>
   <dependency className="jetbrains.mps.execution.configurations.deprecated.typesystem.typeof_ModuleCreatorTarget_InferenceRule" file="typeof_ModuleCreatorTarget_InferenceRule.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus" />
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SReference" />
@@ -303,7 +288,6 @@
   <dependency className="jetbrains.mps.execution.configurations.deprecated.typesystem.typeof_NodesCreatorTarget_InferenceRule" file="typeof_NodesCreatorTarget_InferenceRule.java">
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus" />
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
@@ -318,7 +302,6 @@
   </dependency>
   <dependency className="jetbrains.mps.execution.configurations.deprecated.typesystem.typeof_Parameter_FunctionParameter_InferenceRule" file="typeof_Parameter_FunctionParameter_InferenceRule.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
     <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus" />
@@ -334,7 +317,6 @@
   </dependency>
   <dependency className="jetbrains.mps.execution.configurations.deprecated.typesystem.typeof_PrepareReturnType_FunctionParameter_InferenceRule" file="typeof_PrepareReturnType_FunctionParameter_InferenceRule.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
     <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus" />
@@ -348,7 +330,6 @@
   </dependency>
   <dependency className="jetbrains.mps.execution.configurations.deprecated.typesystem.typeof_ProcessStatement_InferenceRule" file="typeof_ProcessStatement_InferenceRule.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus" />
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
@@ -363,7 +344,6 @@
   </dependency>
   <dependency className="jetbrains.mps.execution.configurations.deprecated.typesystem.typeof_ProjectCreatorTarget_InferenceRule" file="typeof_ProjectCreatorTarget_InferenceRule.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus" />
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SReference" />
@@ -377,7 +357,6 @@
   </dependency>
   <dependency className="jetbrains.mps.execution.configurations.deprecated.typesystem.typeof_ProjectExpression_InferenceRule" file="typeof_ProjectExpression_InferenceRule.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus" />
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SReference" />
@@ -391,7 +370,6 @@
   </dependency>
   <dependency className="jetbrains.mps.execution.configurations.deprecated.typesystem.typeof_ReportErrorStatement_InferenceRule" file="typeof_ReportErrorStatement_InferenceRule.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus" />
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
@@ -414,7 +392,6 @@
   </dependency>
   <dependency className="jetbrains.mps.execution.configurations.deprecated.typesystem.typeof_RunConfigPropertyInstance_InferenceRule" file="typeof_RunConfigPropertyInstance_InferenceRule.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus" />
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
@@ -427,7 +404,6 @@
   </dependency>
   <dependency className="jetbrains.mps.execution.configurations.deprecated.typesystem.typeof_RunConfigurationRunProfileState_InferenceRule" file="typeof_RunConfigurationRunProfileState_InferenceRule.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
@@ -446,7 +422,6 @@
   <dependency className="jetbrains.mps.execution.configurations.deprecated.typesystem.typeof_SNodeCreatorTarget_InferenceRule" file="typeof_SNodeCreatorTarget_InferenceRule.java">
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus" />
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />

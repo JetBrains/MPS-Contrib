@@ -14,7 +14,6 @@ import jetbrains.mps.smodel.SNodePointer;
 import java.util.Collections;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.intentions.IntentionDescriptor;
 
 public class MakeContentListVertical_Intention implements IntentionFactory {
@@ -67,7 +66,7 @@ public class MakeContentListVertical_Intention implements IntentionFactory {
       return "Make contentList Vertical";
     }
     public void execute(final SNode node, final EditorContext editorContext) {
-      SPropertyOperations.set(node, MetaAdapterFactory.getProperty(new UUID(3194679053860949738l, -5054431440157877063l), 1163629230879l, 1166231449055l, "isHorizontal"), "" + (false));
+      SPropertyOperations.set(node, MetaAdapterFactory.getProperty(0x2c55c7ac60c34eeaL, 0xb9db0d627bd2dcb9L, 0x10eedb4fb1fL, 0x10f88cfaddfL, "isHorizontal"), "" + (false));
     }
     public IntentionDescriptor getDescriptor() {
       return MakeContentListVertical_Intention.this;

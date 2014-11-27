@@ -5,7 +5,6 @@ package jetbrains.mps.uiLanguage.behavior;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import org.jetbrains.mps.openapi.persistence.PersistenceFacade;
 import jetbrains.mps.smodel.SModelUtil_new;
 import jetbrains.mps.smodel.SReference;
@@ -14,13 +13,13 @@ public class StandardDialog_Behavior {
   public static void init(SNode thisNode) {
   }
   public static SNode virtual_getExtendedComponent_1213877498080(SNode thisNode) {
-    return SLinkOperations.getTarget(_quotation_createNode_isnud2_a0a0a(), MetaAdapterFactory.getReferenceLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202387945296l, 1202388027333l, "componentDeclaration"));
+    return SLinkOperations.getTarget(_quotation_createNode_isnud2_a0a0a(), MetaAdapterFactory.getReferenceLink(0x5d6bee4cf8914a93L, 0xa0c9e2268726ae47L, 0x117f3e80750L, 0x117f3e947c5L, "componentDeclaration"));
   }
   private static SNode _quotation_createNode_isnud2_a0a0a() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;
     quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.uiLanguage.structure.ComponentInstance", null, null, false);
-    quotedNode_1.setReference(MetaAdapterFactory.getReferenceLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202387945296l, 1202388027333l, "componentDeclaration"), SReference.create(MetaAdapterFactory.getReferenceLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202387945296l, 1202388027333l, "componentDeclaration"), quotedNode_1, facade.createModelReference("r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)"), facade.createNodeId("1202828480666")));
+    quotedNode_1.setReference(MetaAdapterFactory.getReferenceLink(0x5d6bee4cf8914a93L, 0xa0c9e2268726ae47L, 0x117f3e80750L, 0x117f3e947c5L, "componentDeclaration"), SReference.create(MetaAdapterFactory.getReferenceLink(0x5d6bee4cf8914a93L, 0xa0c9e2268726ae47L, 0x117f3e80750L, 0x117f3e947c5L, "componentDeclaration"), quotedNode_1, facade.createModelReference("r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)"), facade.createNodeId("1202828480666")));
     return quotedNode_1;
   }
 }

@@ -5,15 +5,14 @@ package jetbrains.mps.uiLanguage.pluginSolution.plugin;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 /*package*/ class ComponentEditor_Helper {
   public ComponentEditor_Helper() {
   }
   public static SNode getBaseNode(SNode node) {
-    if (SNodeOperations.isInstanceOf(node, MetaAdapterFactory.getConcept(new UUID(6731736082390534803l, -6860703902218146233l), 1202388384249l, "jetbrains.mps.uiLanguage.structure.ComponentController"))) {
-      return SLinkOperations.getTarget(SNodeOperations.cast(node, MetaAdapterFactory.getConcept(new UUID(6731736082390534803l, -6860703902218146233l), 1202388384249l, "jetbrains.mps.uiLanguage.structure.ComponentController")), MetaAdapterFactory.getReferenceLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202388384249l, 1202388401455l, "component"));
+    if (SNodeOperations.isInstanceOf(node, MetaAdapterFactory.getConcept(0x5d6bee4cf8914a93L, 0xa0c9e2268726ae47L, 0x117f3eeb9f9L, "jetbrains.mps.uiLanguage.structure.ComponentController"))) {
+      return SLinkOperations.getTarget(SNodeOperations.cast(node, MetaAdapterFactory.getConcept(0x5d6bee4cf8914a93L, 0xa0c9e2268726ae47L, 0x117f3eeb9f9L, "jetbrains.mps.uiLanguage.structure.ComponentController")), MetaAdapterFactory.getReferenceLink(0x5d6bee4cf8914a93L, 0xa0c9e2268726ae47L, 0x117f3eeb9f9L, 0x117f3eefd2fL, "component"));
     }
     return null;
   }

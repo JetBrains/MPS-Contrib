@@ -10,7 +10,6 @@ import jetbrains.mps.editor.runtime.cells.BigCellUtil;
 import jetbrains.mps.xml.behavior.ContentList_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
@@ -66,7 +65,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private static boolean renderingCondition_bs144a_a0a(SNode node, EditorContext editorContext) {
-    return SNodeOperations.isInstanceOf(SNodeOperations.getParent(node), MetaAdapterFactory.getConcept(new UUID(3194679053860949738l, -5054431440157877063l), 1179102053371l, "jetbrains.mps.xml.structure.BaseElement"));
+    return SNodeOperations.isInstanceOf(SNodeOperations.getParent(node), MetaAdapterFactory.getConcept(0x2c55c7ac60c34eeaL, 0xb9db0d627bd2dcb9L, 0x11287f583fbL, "jetbrains.mps.xml.structure.BaseElement"));
   }
   private EditorCell createRefNodeList_bs144a_a0a(EditorContext editorContext, SNode node) {
     AbstractCellListHandler handler = new ContentList_Editor.contentListHandler_bs144a_a0a(node, "content", editorContext);
@@ -217,7 +216,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private static boolean renderingCondition_bs144a_a0a_0(SNode node, EditorContext editorContext) {
-    return SNodeOperations.isInstanceOf(SNodeOperations.getParent(node), MetaAdapterFactory.getConcept(new UUID(3194679053860949738l, -5054431440157877063l), 1163629230879l, "jetbrains.mps.xml.structure.ContentList"));
+    return SNodeOperations.isInstanceOf(SNodeOperations.getParent(node), MetaAdapterFactory.getConcept(0x2c55c7ac60c34eeaL, 0xb9db0d627bd2dcb9L, 0x10eedb4fb1fL, "jetbrains.mps.xml.structure.ContentList"));
   }
   private EditorCell createCollection_bs144a_a0a_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);

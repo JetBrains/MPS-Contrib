@@ -9,7 +9,6 @@ import jetbrains.mps.openapi.editor.cells.CellActionType;
 import jetbrains.mps.editor.runtime.cells.AbstractCellAction;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.editor.runtime.selection.SelectionUtil;
 
@@ -30,7 +29,7 @@ public class FormatPeriodExpression_delete {
       this.execute_internal(editorContext, this.myNode);
     }
     public void execute_internal(EditorContext editorContext, SNode node) {
-      SNode result = SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 34521615669572115l, 34521615669572118l, "period"));
+      SNode result = SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x7aa539ff0eb213L, 0x7aa539ff0eb216L, "period"));
       SNodeOperations.replaceWithAnother(node, result);
       SelectionUtil.selectNode(editorContext, result);
     }
@@ -47,7 +46,7 @@ public class FormatPeriodExpression_delete {
       this.execute_internal(editorContext, this.myNode);
     }
     public void execute_internal(EditorContext editorContext, SNode node) {
-      SNode result = SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 34521615669572115l, 34521615669572118l, "period"));
+      SNode result = SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x7aa539ff0eb213L, 0x7aa539ff0eb216L, "period"));
       SNodeOperations.replaceWithAnother(node, result);
       SelectionUtil.selectNode(editorContext, result);
     }

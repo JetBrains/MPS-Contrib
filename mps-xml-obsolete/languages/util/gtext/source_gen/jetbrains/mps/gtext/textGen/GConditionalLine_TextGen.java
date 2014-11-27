@@ -7,7 +7,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.textGen.TraceInfoGenerationUtil;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
@@ -20,23 +19,23 @@ public class GConditionalLine_TextGen extends SNodeTextGen {
     if (getBuffer().hasPositionsSupport()) {
       TraceInfoGenerationUtil.createPositionInfo(this, node);
     }
-    if (SPropertyOperations.getBoolean(node, MetaAdapterFactory.getProperty(new UUID(-6324114011398976607l, -8974808928016009858l), 1179109169620l, 1179109261107l, "isSeparate"))) {
+    if (SPropertyOperations.getBoolean(node, MetaAdapterFactory.getProperty(0xa83c3bd02f7e4ba1L, 0x837312d49e99f57eL, 0x112886219d4L, 0x11288637f33L, "isSeparate"))) {
       this.indentBuffer();
     }
     {
-      Iterable<SNode> collection = SLinkOperations.getChildren(node, MetaAdapterFactory.getContainmentLink(new UUID(-6324114011398976607l, -8974808928016009858l), 1179109169620l, 1179109231418l, "item"));
+      Iterable<SNode> collection = SLinkOperations.getChildren(node, MetaAdapterFactory.getContainmentLink(0xa83c3bd02f7e4ba1L, 0x837312d49e99f57eL, 0x112886219d4L, 0x11288630b3aL, "item"));
       for (SNode item : collection) {
         appendNode(item);
       }
     }
-    if (SPropertyOperations.getBoolean(node, MetaAdapterFactory.getProperty(new UUID(-6324114011398976607l, -8974808928016009858l), 1179109169620l, 1179109261107l, "isSeparate"))) {
+    if (SPropertyOperations.getBoolean(node, MetaAdapterFactory.getProperty(0xa83c3bd02f7e4ba1L, 0x837312d49e99f57eL, 0x112886219d4L, 0x11288637f33L, "isSeparate"))) {
       this.appendNewLine();
     }
     if (getBuffer().hasPositionsSupport()) {
       {
         String traceableProperty = "";
         try {
-          traceableProperty = BehaviorReflection.invokeVirtual(String.class, SNodeOperations.cast(node, MetaAdapterFactory.getInterfaceConcept(new UUID(-7066981744759912873l, -4622583950651520061l), 5067982036267369891l, "jetbrains.mps.lang.traceable.structure.TraceableConcept")), "virtual_getTraceableProperty_5067982036267369901", new Object[]{});
+          traceableProperty = BehaviorReflection.invokeVirtual(String.class, SNodeOperations.cast(node, MetaAdapterFactory.getInterfaceConcept(0x9ded098bad6a4657L, 0xbfd948636cfe8bc3L, 0x465516cf87c705a3L, "jetbrains.mps.lang.traceable.structure.TraceableConcept")), "virtual_getTraceableProperty_5067982036267369901", new Object[]{});
         } catch (Throwable t) {
           if (LOG.isEnabledFor(Level.ERROR)) {
             LOG.error("Can't calculate traceable prorerty for a node " + node + ".", t);

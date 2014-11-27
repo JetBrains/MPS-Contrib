@@ -4,7 +4,6 @@ package jetbrains.mps.uiLanguage.constraints;
 
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
 import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
-import java.util.UUID;
 import org.jetbrains.annotations.Nullable;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.smodel.IOperationContext;
@@ -15,7 +14,7 @@ import jetbrains.mps.smodel.SNodePointer;
 
 public class StandardDialog_Constraints extends BaseConstraintsDescriptor {
   public StandardDialog_Constraints() {
-    super(MetaIdFactory.conceptId(new UUID(6731736082390534803l, -6860703902218146233l), 1202830095650l));
+    super(MetaIdFactory.conceptId(0x5d6bee4cf8914a93L, 0xa0c9e2268726ae47L, 0x1180e42b522L));
   }
   @Override
   public boolean hasOwnCanBeChildMethod() {
@@ -32,7 +31,7 @@ public class StandardDialog_Constraints extends BaseConstraintsDescriptor {
     return result;
   }
   public static boolean static_canBeAChild(SNode node, SNode parentNode, SNode link, SNode childConcept, final IOperationContext operationContext) {
-    return SNodeOperations.isInstanceOf(parentNode, MetaAdapterFactory.getConcept(new UUID(6731736082390534803l, -6860703902218146233l), 1202387718766l, "jetbrains.mps.uiLanguage.structure.ComponentDeclaration"));
+    return SNodeOperations.isInstanceOf(parentNode, MetaAdapterFactory.getConcept(0x5d6bee4cf8914a93L, 0xa0c9e2268726ae47L, 0x117f3e4926eL, "jetbrains.mps.uiLanguage.structure.ComponentDeclaration"));
   }
   private static SNodePointer canBeChildBreakingPoint = new SNodePointer("r:00000000-0000-4000-0000-011c8959054e(jetbrains.mps.uiLanguage.constraints)", "1213107436302");
 }

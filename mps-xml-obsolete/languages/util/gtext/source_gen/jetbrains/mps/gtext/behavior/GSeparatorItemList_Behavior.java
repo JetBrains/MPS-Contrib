@@ -6,12 +6,11 @@ import org.jetbrains.mps.openapi.model.SNode;
 import java.util.List;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 
 public class GSeparatorItemList_Behavior {
   public static void init(SNode thisNode) {
   }
   public static List<SNode> virtual_getItems_1239125087745(SNode thisNode) {
-    return SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(-6324114011398976607l, -8974808928016009858l), 1188509198390l, 1211919312449l, "item"));
+    return SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(0xa83c3bd02f7e4ba1L, 0x837312d49e99f57eL, 0x114b8ab2836L, 0x11a2c052641L, "item"));
   }
 }

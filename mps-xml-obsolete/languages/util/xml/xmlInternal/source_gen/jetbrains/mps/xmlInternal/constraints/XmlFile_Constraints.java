@@ -4,7 +4,6 @@ package jetbrains.mps.xmlInternal.constraints;
 
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
 import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
-import java.util.UUID;
 import java.util.Map;
 import jetbrains.mps.smodel.adapter.ids.SPropertyId;
 import jetbrains.mps.smodel.runtime.PropertyConstraintsDescriptor;
@@ -16,12 +15,12 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 
 public class XmlFile_Constraints extends BaseConstraintsDescriptor {
   public XmlFile_Constraints() {
-    super(MetaIdFactory.conceptId(new UUID(7275049699783163986l, -6957227899428870635l), 1166472279594l));
+    super(MetaIdFactory.conceptId(0x64f62b2836e34052L, 0x9f72f616211ae615L, 0x10f972a762aL));
   }
   @Override
   protected Map<SPropertyId, PropertyConstraintsDescriptor> getNotDefaultSProperties() {
     Map<SPropertyId, PropertyConstraintsDescriptor> properties = new HashMap<SPropertyId, PropertyConstraintsDescriptor>();
-    properties.put(MetaIdFactory.propId(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l), new BasePropertyConstraintsDescriptor(MetaIdFactory.propId(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l), this) {
+    properties.put(MetaIdFactory.propId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L), new BasePropertyConstraintsDescriptor(MetaIdFactory.propId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L), this) {
       @Override
       public boolean hasOwnGetter() {
         return true;
@@ -29,7 +28,7 @@ public class XmlFile_Constraints extends BaseConstraintsDescriptor {
       @Override
       public Object getValue(SNode node) {
         String propertyName = "name";
-        return SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(new UUID(7275049699783163986l, -6957227899428870635l), 1166472279594l, 1167755304238l, "fileName")) + "." + SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(new UUID(7275049699783163986l, -6957227899428870635l), 1166472279594l, 1188753321461l, "extension"));
+        return SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(0x64f62b2836e34052L, 0x9f72f616211ae615L, 0x10f972a762aL, 0x10fe3a3dd2eL, "fileName")) + "." + SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(0x64f62b2836e34052L, 0x9f72f616211ae615L, 0x10f972a762aL, 0x114c7382df5L, "extension"));
       }
     });
     return properties;

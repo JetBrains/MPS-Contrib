@@ -11,7 +11,6 @@ import java.util.ArrayList;
 import jetbrains.mps.smodel.action.NodeSubstitutePreconditionContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.smodel.action.RemoveSubstituteActionByConditionContext;
 import java.util.Iterator;
 import org.jetbrains.mps.openapi.model.SNode;
@@ -24,7 +23,7 @@ public class QueriesGenerated {
     return result;
   }
   public static boolean nodeSubstituteActionsBuilder_Precondition_Expression_1208687331562(final IOperationContext operationContext, final NodeSubstitutePreconditionContext _context) {
-    return SNodeOperations.isInstanceOf(_context.getParentNode(), MetaAdapterFactory.getConcept(new UUID(6731736082390534803l, -6860703902218146233l), 1208090496480l, "jetbrains.mps.uiLanguage.structure.AddListenerOperation")) || SNodeOperations.isInstanceOf(_context.getParentNode(), MetaAdapterFactory.getConcept(new UUID(6731736082390534803l, -6860703902218146233l), 1208090516982l, "jetbrains.mps.uiLanguage.structure.RemoveListenerOperation"));
+    return SNodeOperations.isInstanceOf(_context.getParentNode(), MetaAdapterFactory.getConcept(0x5d6bee4cf8914a93L, 0xa0c9e2268726ae47L, 0x11947ce0de0L, "jetbrains.mps.uiLanguage.structure.AddListenerOperation")) || SNodeOperations.isInstanceOf(_context.getParentNode(), MetaAdapterFactory.getConcept(0x5d6bee4cf8914a93L, 0xa0c9e2268726ae47L, 0x11947ce5df6L, "jetbrains.mps.uiLanguage.structure.RemoveListenerOperation"));
   }
   public static void removeActionsByCondition_1208689330046(final IOperationContext operationContext, final RemoveSubstituteActionByConditionContext _context) {
     Iterator<SubstituteAction> actions = _context.getSubstituteActions();
@@ -34,7 +33,7 @@ public class QueriesGenerated {
       SNode applicableConcept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.structure.Expression");
       Condition<SNode> cond = new Condition<SNode>() {
         public boolean met(SNode concept) {
-          return !(SConceptOperations.isExactly(SNodeOperations.asSConcept(concept), MetaAdapterFactory.getConcept(new UUID(6731736082390534803l, -6860703902218146233l), 1208685679469l, "jetbrains.mps.uiLanguage.structure.EventHandlerReference")));
+          return !(SConceptOperations.isExactly(SNodeOperations.asSConcept(concept), MetaAdapterFactory.getConcept(0x5d6bee4cf8914a93L, 0xa0c9e2268726ae47L, 0x1196b47d36dL, "jetbrains.mps.uiLanguage.structure.EventHandlerReference")));
         }
       };
       if (SConceptOperations.isSuperConceptOf(SNodeOperations.asSConcept(applicableConcept), SNodeOperations.asSConcept(outputConcept)) && cond.met(outputConcept)) {

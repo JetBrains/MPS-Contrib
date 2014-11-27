@@ -4,7 +4,6 @@ package jetbrains.mps.baseLanguage.dates.constraints;
 
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
 import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
-import java.util.UUID;
 import java.util.Map;
 import jetbrains.mps.smodel.adapter.ids.SReferenceLinkId;
 import jetbrains.mps.smodel.runtime.ReferenceConstraintsDescriptor;
@@ -23,12 +22,12 @@ import jetbrains.mps.smodel.SNodePointer;
 
 public class PeriodReferenceFormatToken_Constraints extends BaseConstraintsDescriptor {
   public PeriodReferenceFormatToken_Constraints() {
-    super(MetaIdFactory.conceptId(new UUID(-3689458971415590814l, -6289781637635314138l), 7249953535157212421l));
+    super(MetaIdFactory.conceptId(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x649d02540d221505L));
   }
   @Override
   protected Map<SReferenceLinkId, ReferenceConstraintsDescriptor> getNotDefaultSReferenceLinks() {
     Map<SReferenceLinkId, ReferenceConstraintsDescriptor> references = new HashMap<SReferenceLinkId, ReferenceConstraintsDescriptor>();
-    references.put(MetaIdFactory.refId(new UUID(-3689458971415590814l, -6289781637635314138l), 7249953535157212421l, 7249953535157212422l), new BaseReferenceConstraintsDescriptor(MetaIdFactory.refId(new UUID(-3689458971415590814l, -6289781637635314138l), 7249953535157212421l, 7249953535157212422l), this) {
+    references.put(MetaIdFactory.refId(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x649d02540d221505L, 0x649d02540d221506L), new BaseReferenceConstraintsDescriptor(MetaIdFactory.refId(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x649d02540d221505L, 0x649d02540d221506L), this) {
       @Override
       public boolean hasOwnScopeProvider() {
         return true;
@@ -43,7 +42,7 @@ public class PeriodReferenceFormatToken_Constraints extends BaseConstraintsDescr
           }
           @Override
           public String getPresentation(final IOperationContext operationContext, final ReferencePresentationContext _context) {
-            return (_context.getSmartReference() ? "<" + SPropertyOperations.getString(_context.getParameterNode(), MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name")) + ">" : SPropertyOperations.getString(_context.getParameterNode(), MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name")));
+            return (_context.getSmartReference() ? "<" + SPropertyOperations.getString(_context.getParameterNode(), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")) + ">" : SPropertyOperations.getString(_context.getParameterNode(), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
           }
           @Override
           public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {

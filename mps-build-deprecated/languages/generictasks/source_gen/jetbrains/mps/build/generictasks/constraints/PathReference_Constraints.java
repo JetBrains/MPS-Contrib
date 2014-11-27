@@ -4,7 +4,6 @@ package jetbrains.mps.build.generictasks.constraints;
 
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
 import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
-import java.util.UUID;
 import java.util.Map;
 import jetbrains.mps.smodel.adapter.ids.SReferenceLinkId;
 import jetbrains.mps.smodel.runtime.ReferenceConstraintsDescriptor;
@@ -28,12 +27,12 @@ import jetbrains.mps.smodel.SNodePointer;
 
 public class PathReference_Constraints extends BaseConstraintsDescriptor {
   public PathReference_Constraints() {
-    super(MetaIdFactory.conceptId(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802854870l));
+    super(MetaIdFactory.conceptId(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd67b1d6L));
   }
   @Override
   protected Map<SReferenceLinkId, ReferenceConstraintsDescriptor> getNotDefaultSReferenceLinks() {
     Map<SReferenceLinkId, ReferenceConstraintsDescriptor> references = new HashMap<SReferenceLinkId, ReferenceConstraintsDescriptor>();
-    references.put(MetaIdFactory.refId(new UUID(819810455698030989l, -8713019626243247156l), 1200511852076l, 1200511904172l), new BaseReferenceConstraintsDescriptor(MetaIdFactory.refId(new UUID(819810455698030989l, -8713019626243247156l), 1200511852076l, 1200511904172l), this) {
+    references.put(MetaIdFactory.refId(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x11784151e2cL, 0x1178415e9acL), new BaseReferenceConstraintsDescriptor(MetaIdFactory.refId(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x11784151e2cL, 0x1178415e9acL), this) {
       @Override
       public boolean hasOwnScopeProvider() {
         return true;
@@ -44,10 +43,10 @@ public class PathReference_Constraints extends BaseConstraintsDescriptor {
         return new BaseReferenceScopeProvider() {
           @Override
           public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
-            List<SNode> importedNodes = SModelOperations.nodesIncludingImported(_context.getModel(), MetaAdapterFactory.getConcept(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643477l, "jetbrains.mps.build.generictasks.structure.TaskCall"));
+            List<SNode> importedNodes = SModelOperations.nodesIncludingImported(_context.getModel(), MetaAdapterFactory.getConcept(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd647815L, "jetbrains.mps.build.generictasks.structure.TaskCall"));
             List<SNode> newScope = ListSequence.fromList(new ArrayList<SNode>());
             for (SNode node : ListSequence.fromList(importedNodes)) {
-              SNode gcall = SNodeOperations.cast(node, MetaAdapterFactory.getConcept(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643477l, "jetbrains.mps.build.generictasks.structure.TaskCall"));
+              SNode gcall = SNodeOperations.cast(node, MetaAdapterFactory.getConcept(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd647815L, "jetbrains.mps.build.generictasks.structure.TaskCall"));
               if (TaskCall_Behavior.call_isReferencedAndOfDeclaration_353793545802644027(gcall, "path")) {
                 ListSequence.fromList(newScope).addElement(gcall);
               }

@@ -7,7 +7,6 @@ import jetbrains.mps.util.NameUtil;
 import jetbrains.mps.generator.template.TemplateQueryContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.baseLanguage.behavior.Classifier_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
@@ -20,14 +19,14 @@ public class DatesQueriesUtil {
     return findEnclosingTableClass2(node, genctx);
   }
   public static SNode findEnclosingTableClass2(SNode node, TemplateQueryContext genctx) {
-    SNode table = SNodeOperations.getNodeAncestor(node, MetaAdapterFactory.getConcept(new UUID(-3689458971415590814l, -6289781637635314138l), 1169481390637l, "jetbrains.mps.baseLanguage.dates.structure.DateFormatsTable"), true, false);
+    SNode table = SNodeOperations.getNodeAncestor(node, MetaAdapterFactory.getConcept(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x1104a85da2dL, "jetbrains.mps.baseLanguage.dates.structure.DateFormatsTable"), true, false);
     return genctx.getOutputNodeByInputNodeAndMappingLabel(table, "FormatTableClass");
   }
   public static SNode findFormattersFieldDeclaration(SNode node, TemplateQueryContext genctx) {
     SNode clazz = findEnclosingTableClass2(node, genctx);
     SNode result = null;
     for (SNode sfd : Classifier_Behavior.call_staticFields_5292274854859223538(clazz)) {
-      if (SPropertyOperations.hasValue(sfd, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name"), "formatters")) {
+      if (SPropertyOperations.hasValue(sfd, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), "formatters")) {
         result = sfd;
         break;
       }
@@ -39,22 +38,22 @@ public class DatesQueriesUtil {
   }
   public static String getCompareType(SNode operation) {
     String result = null;
-    if (SPropertyOperations.getString(SNodeOperations.getConceptDeclaration(operation), MetaAdapterFactory.getProperty(new UUID(-4094437568663370681l, -8968368868337559369l), 1169125787135l, 5092175715804935370l, "conceptAlias")).equals("==")) {
+    if (SPropertyOperations.getString(SNodeOperations.getConceptDeclaration(operation), MetaAdapterFactory.getProperty(0xc72da2b97cce4447L, 0x8389f407dc1158b7L, 0x1103553c5ffL, 0x46ab0ad5826c74caL, "conceptAlias")).equals("==")) {
       result = "EQ";
     }
-    if (SPropertyOperations.getString(SNodeOperations.getConceptDeclaration(operation), MetaAdapterFactory.getProperty(new UUID(-4094437568663370681l, -8968368868337559369l), 1169125787135l, 5092175715804935370l, "conceptAlias")).equals("!=")) {
+    if (SPropertyOperations.getString(SNodeOperations.getConceptDeclaration(operation), MetaAdapterFactory.getProperty(0xc72da2b97cce4447L, 0x8389f407dc1158b7L, 0x1103553c5ffL, 0x46ab0ad5826c74caL, "conceptAlias")).equals("!=")) {
       result = "NE";
     }
-    if (SPropertyOperations.getString(SNodeOperations.getConceptDeclaration(operation), MetaAdapterFactory.getProperty(new UUID(-4094437568663370681l, -8968368868337559369l), 1169125787135l, 5092175715804935370l, "conceptAlias")).equals(">")) {
+    if (SPropertyOperations.getString(SNodeOperations.getConceptDeclaration(operation), MetaAdapterFactory.getProperty(0xc72da2b97cce4447L, 0x8389f407dc1158b7L, 0x1103553c5ffL, 0x46ab0ad5826c74caL, "conceptAlias")).equals(">")) {
       result = "GT";
     }
-    if (SPropertyOperations.getString(SNodeOperations.getConceptDeclaration(operation), MetaAdapterFactory.getProperty(new UUID(-4094437568663370681l, -8968368868337559369l), 1169125787135l, 5092175715804935370l, "conceptAlias")).equals("<")) {
+    if (SPropertyOperations.getString(SNodeOperations.getConceptDeclaration(operation), MetaAdapterFactory.getProperty(0xc72da2b97cce4447L, 0x8389f407dc1158b7L, 0x1103553c5ffL, 0x46ab0ad5826c74caL, "conceptAlias")).equals("<")) {
       result = "LT";
     }
-    if (SPropertyOperations.getString(SNodeOperations.getConceptDeclaration(operation), MetaAdapterFactory.getProperty(new UUID(-4094437568663370681l, -8968368868337559369l), 1169125787135l, 5092175715804935370l, "conceptAlias")).equals(">=")) {
+    if (SPropertyOperations.getString(SNodeOperations.getConceptDeclaration(operation), MetaAdapterFactory.getProperty(0xc72da2b97cce4447L, 0x8389f407dc1158b7L, 0x1103553c5ffL, 0x46ab0ad5826c74caL, "conceptAlias")).equals(">=")) {
       result = "GE";
     }
-    if (SPropertyOperations.getString(SNodeOperations.getConceptDeclaration(operation), MetaAdapterFactory.getProperty(new UUID(-4094437568663370681l, -8968368868337559369l), 1169125787135l, 5092175715804935370l, "conceptAlias")).equals("<=")) {
+    if (SPropertyOperations.getString(SNodeOperations.getConceptDeclaration(operation), MetaAdapterFactory.getProperty(0xc72da2b97cce4447L, 0x8389f407dc1158b7L, 0x1103553c5ffL, 0x46ab0ad5826c74caL, "conceptAlias")).equals("<=")) {
       result = "LE";
     }
     return result;

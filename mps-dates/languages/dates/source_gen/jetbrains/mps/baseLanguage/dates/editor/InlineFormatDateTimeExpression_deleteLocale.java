@@ -9,7 +9,6 @@ import jetbrains.mps.openapi.editor.cells.CellActionType;
 import jetbrains.mps.editor.runtime.cells.AbstractCellAction;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 
 public class InlineFormatDateTimeExpression_deleteLocale {
   public static void setCellActions(EditorCell editorCell, SNode node, EditorContext context) {
@@ -28,7 +27,7 @@ public class InlineFormatDateTimeExpression_deleteLocale {
       this.execute_internal(editorContext, this.myNode);
     }
     public void execute_internal(EditorContext editorContext, SNode node) {
-      SLinkOperations.setTarget(node, MetaAdapterFactory.getReferenceLink(new UUID(-3689458971415590814l, -6289781637635314138l), 5034322243093083314l, 5034322243093093771l, "locale"), null);
+      SLinkOperations.setTarget(node, MetaAdapterFactory.getReferenceLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x45dd8168386934b2L, 0x45dd816838695d8bL, "locale"), null);
     }
   }
   public static class InlineFormatDateTimeExpression_deleteLocale_BACKSPACE extends AbstractCellAction {
@@ -43,7 +42,7 @@ public class InlineFormatDateTimeExpression_deleteLocale {
       this.execute_internal(editorContext, this.myNode);
     }
     public void execute_internal(EditorContext editorContext, SNode node) {
-      SLinkOperations.setTarget(node, MetaAdapterFactory.getReferenceLink(new UUID(-3689458971415590814l, -6289781637635314138l), 5034322243093083314l, 5034322243093093771l, "locale"), null);
+      SLinkOperations.setTarget(node, MetaAdapterFactory.getReferenceLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x45dd8168386934b2L, 0x45dd816838695d8bL, "locale"), null);
     }
   }
 }

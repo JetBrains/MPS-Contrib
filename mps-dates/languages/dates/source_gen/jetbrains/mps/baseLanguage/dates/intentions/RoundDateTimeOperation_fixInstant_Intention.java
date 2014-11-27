@@ -11,7 +11,6 @@ import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.typesystem.inference.TypeChecker;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.lang.typesystem.runtime.HUtil;
 import org.jetbrains.mps.openapi.model.SNodeReference;
 import jetbrains.mps.smodel.SNodePointer;
@@ -48,7 +47,7 @@ public class RoundDateTimeOperation_fixInstant_Intention implements IntentionFac
     return true;
   }
   private boolean isApplicableToNode(final SNode node, final EditorContext editorContext) {
-    return TypeChecker.getInstance().getRuntimeSupport().coerce_(TypeChecker.getInstance().getTypeOf(SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 1171963068132l, 1171964003156l, "datetime"))), HUtil.createMatchingPatternByConceptFQName("jetbrains.mps.baseLanguage.dates.structure.DateTimeType"), true) != null;
+    return TypeChecker.getInstance().getRuntimeSupport().coerce_(TypeChecker.getInstance().getTypeOf(SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x110de713ee4L, 0x110de7f8354L, "datetime"))), HUtil.createMatchingPatternByConceptFQName("jetbrains.mps.baseLanguage.dates.structure.DateTimeType"), true) != null;
   }
   public SNodeReference getIntentionNodeReference() {
     return new SNodePointer("r:00000000-0000-4000-0000-011c895903d2(jetbrains.mps.baseLanguage.dates.intentions)", "3986031709810363041");
@@ -69,9 +68,9 @@ public class RoundDateTimeOperation_fixInstant_Intention implements IntentionFac
       return "Convert instant to datetime";
     }
     public void execute(final SNode node, final EditorContext editorContext) {
-      SNode ite = SNodeFactoryOperations.createNewNode(SNodeFactoryOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(-3689458971415590814l, -6289781637635314138l), 2639623922402691276l, "jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression")), null);
-      SLinkOperations.setTarget(ite, MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 2639623922402691276l, 2639623922402691278l, "datetime"), SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 1171963068132l, 1171964003156l, "datetime")));
-      SLinkOperations.setTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 1171963068132l, 1171964003156l, "datetime"), ite);
+      SNode ite = SNodeFactoryOperations.createNewNode(SNodeFactoryOperations.asInstanceConcept(MetaAdapterFactory.getConcept(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x24a1d3f8db6f88ccL, "jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression")), null);
+      SLinkOperations.setTarget(ite, MetaAdapterFactory.getContainmentLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x24a1d3f8db6f88ccL, 0x24a1d3f8db6f88ceL, "datetime"), SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x110de713ee4L, 0x110de7f8354L, "datetime")));
+      SLinkOperations.setTarget(node, MetaAdapterFactory.getContainmentLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x110de713ee4L, 0x110de7f8354L, "datetime"), ite);
     }
     public IntentionDescriptor getDescriptor() {
       return RoundDateTimeOperation_fixInstant_Intention.this;

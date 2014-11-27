@@ -27,7 +27,6 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.AbsDateTimeMinusOperation_leftOperand_actionMap" file="AbsDateTimeMinusOperation_leftOperand_actionMap.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.cells.AbstractCellAction" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
@@ -39,7 +38,6 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.AbsDateTimeMinusOperation_rightOperand_actionMap" file="AbsDateTimeMinusOperation_rightOperand_actionMap.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.cells.AbstractCellAction" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
@@ -183,7 +181,6 @@
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.DateTimeCompareOperation_Editor" file="DateTimeCompareOperation_Editor.java">
     <classNode dependClassName="java.lang.Class" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.behavior.DateTimeCompareOperation_Behavior" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.DateTimeCompareOperation_leftOperand_actionMap" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.DateTimeCompareOperation_rightOperand_actionMap" />
@@ -218,7 +215,6 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.DateTimeCompareOperation_leftOperand_actionMap" file="DateTimeCompareOperation_leftOperand_actionMap.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.cells.AbstractCellAction" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
@@ -230,7 +226,6 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.DateTimeCompareOperation_rightOperand_actionMap" file="DateTimeCompareOperation_rightOperand_actionMap.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.cells.AbstractCellAction" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
@@ -267,7 +262,6 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.DateTimeMinusOperation_leftOperand_actionMap" file="DateTimeMinusOperation_leftOperand_actionMap.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.cells.AbstractCellAction" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
@@ -279,7 +273,6 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.DateTimeMinusOperation_rightOperand_actionMap" file="DateTimeMinusOperation_rightOperand_actionMap.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.cells.AbstractCellAction" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
@@ -313,7 +306,6 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.DateTimeMinusPeriodOperation_leftOperand_actionMap" file="DateTimeMinusPeriodOperation_leftOperand_actionMap.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.cells.AbstractCellAction" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
@@ -325,7 +317,6 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.DateTimeMinusPeriodOperation_rightOperand_actionMap" file="DateTimeMinusPeriodOperation_rightOperand_actionMap.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.cells.AbstractCellAction" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
@@ -400,7 +391,6 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.DateTimePlusPeriodOperation_leftOperand_actionMap" file="DateTimePlusPeriodOperation_leftOperand_actionMap.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.cells.AbstractCellAction" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
@@ -412,7 +402,6 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.DateTimePlusPeriodOperation_rightOperand_actionMap" file="DateTimePlusPeriodOperation_rightOperand_actionMap.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.cells.AbstractCellAction" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
@@ -424,7 +413,6 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.DateTimePropertyFormatToken_ActionMap" file="DateTimePropertyFormatToken_ActionMap.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.constraints.DateTimePropertFormatTokenUtil" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.cells.AbstractCellAction" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
@@ -634,7 +622,6 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.FormatDateTimeExpression_Editor" file="FormatDateTimeExpression_Editor.java">
     <classNode dependClassName="java.lang.Class" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.Dates_StyleSheet" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.FormatDateTimeExpression_delete" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.FormatDateTimeExpression_deleteLocale" />
@@ -662,7 +649,6 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.FormatDateTimeExpression_delete" file="FormatDateTimeExpression_delete.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.cells.AbstractCellAction" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.selection.SelectionUtil" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
@@ -675,7 +661,6 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.FormatDateTimeExpression_deleteLocale" file="FormatDateTimeExpression_deleteLocale.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.cells.AbstractCellAction" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.openapi.editor.EditorContext" />
@@ -686,7 +671,6 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.FormatExpression_Editor" file="FormatExpression_Editor.java">
     <classNode dependClassName="java.lang.Class" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.Dates_StyleSheet" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.datesInternal.editor.DatesInternal_StyleSheet" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet" />
@@ -715,7 +699,6 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.FormatPeriodExpression_Editor" file="FormatPeriodExpression_Editor.java">
     <classNode dependClassName="java.lang.Class" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.FormatPeriodExpression_delete" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.FormatPeriodExpression_deleteLocale" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleAttributes" />
@@ -739,7 +722,6 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.FormatPeriodExpression_delete" file="FormatPeriodExpression_delete.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.cells.AbstractCellAction" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.selection.SelectionUtil" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
@@ -752,7 +734,6 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.FormatPeriodExpression_deleteLocale" file="FormatPeriodExpression_deleteLocale.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.cells.AbstractCellAction" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.openapi.editor.EditorContext" />
@@ -770,7 +751,6 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.InTimeZoneExpression_delete" file="InTimeZoneExpression_delete.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.cells.AbstractCellAction" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
@@ -802,7 +782,6 @@
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.InlineFormatDateTimeExpression_Editor" file="InlineFormatDateTimeExpression_Editor.java">
     <classNode dependClassName="java.lang.Class" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.InlineFormatDateTimeExpression_delete" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.InlineFormatDateTimeExpression_deleteLocale" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet" />
@@ -837,7 +816,6 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.InlineFormatDateTimeExpression_delete" file="InlineFormatDateTimeExpression_delete.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.cells.AbstractCellAction" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.selection.SelectionUtil" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
@@ -850,7 +828,6 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.InlineFormatDateTimeExpression_deleteLocale" file="InlineFormatDateTimeExpression_deleteLocale.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.cells.AbstractCellAction" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.openapi.editor.EditorContext" />
@@ -862,7 +839,6 @@
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.InlineFormatExpression_Editor" file="InlineFormatExpression_Editor.java">
     <classNode dependClassName="java.lang.Class" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.Dates_StyleSheet" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.datesInternal.editor.DatesInternal_StyleSheet" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet" />
@@ -958,7 +934,6 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.ParseDateTimeExpression_Editor" file="ParseDateTimeExpression_Editor.java">
     <classNode dependClassName="java.lang.Class" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.Dates_StyleSheet" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleAttributes" />
@@ -984,7 +959,6 @@
     <classNode dependClassName="java.lang.Class" />
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.Dates_StyleSheet" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.datesInternal.editor.DatesInternal_StyleSheet" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet" />
@@ -1016,7 +990,6 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.PeriodConstant_ActionMap" file="PeriodConstant_ActionMap.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.cells.AbstractCellAction" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
@@ -1028,7 +1001,6 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.PeriodConstant_Editor" file="PeriodConstant_Editor.java">
     <classNode dependClassName="java.lang.Class" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.Dates_StyleSheet" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.PeriodConstant_ActionMap" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleAttributes" />
@@ -1166,7 +1138,6 @@
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.PeriodPropertyFormatToken_Editor" file="PeriodPropertyFormatToken_Editor.java">
     <classNode dependClassName="java.lang.Class" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.Dates_StyleSheet" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleAttributes" />
@@ -1213,7 +1184,6 @@
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.PeriodSeparatorFormatToken_Editor" file="PeriodSeparatorFormatToken_Editor.java">
     <classNode dependClassName="java.lang.Class" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.Dates_StyleSheet" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.Measure" />
@@ -1278,7 +1248,6 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.ScheduleLiteral_Editor" file="ScheduleLiteral_Editor.java">
     <classNode dependClassName="java.lang.Class" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.behavior.ScheduleLiteral_Behavior" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleAttributes" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleImpl" />
@@ -1385,7 +1354,6 @@
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.ArrayList" />
     <classNode dependClassName="java.util.List" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.editor.Dates_StyleSheet" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleAttributes" />
@@ -1414,7 +1382,6 @@
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.TimeZoneOffsetExpression_Editor" file="TimeZoneOffsetExpression_Editor.java">
     <classNode dependClassName="java.lang.RuntimeException" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.cells.EmptyCellAction" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
     <classNode dependClassName="jetbrains.mps.nodeEditor.cells.EditorCell_Collection" />
@@ -1472,7 +1439,6 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.UnaryDateTimeOperation_ActionMap" file="UnaryDateTimeOperation_ActionMap.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.cells.AbstractCellAction" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
@@ -1520,7 +1486,6 @@
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.editor.WithPropertyCompareExpression_delete" file="WithPropertyCompareExpression_delete.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.cells.AbstractCellAction" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />

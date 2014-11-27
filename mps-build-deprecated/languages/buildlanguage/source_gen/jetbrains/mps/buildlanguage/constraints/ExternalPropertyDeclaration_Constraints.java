@@ -4,7 +4,6 @@ package jetbrains.mps.buildlanguage.constraints;
 
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
 import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
-import java.util.UUID;
 import org.jetbrains.annotations.Nullable;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.smodel.IOperationContext;
@@ -15,7 +14,7 @@ import jetbrains.mps.smodel.SNodePointer;
 
 public class ExternalPropertyDeclaration_Constraints extends BaseConstraintsDescriptor {
   public ExternalPropertyDeclaration_Constraints() {
-    super(MetaIdFactory.conceptId(new UUID(819810455698030989l, -8713019626243247156l), 1219147669362l));
+    super(MetaIdFactory.conceptId(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x11bdadd1f72L));
   }
   @Override
   public boolean hasOwnCanBeChildMethod() {
@@ -32,7 +31,7 @@ public class ExternalPropertyDeclaration_Constraints extends BaseConstraintsDesc
     return result;
   }
   public static boolean static_canBeAChild(SNode node, SNode parentNode, SNode link, SNode childConcept, final IOperationContext operationContext) {
-    return SNodeOperations.isInstanceOf(parentNode, MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1196851066733l, "jetbrains.mps.buildlanguage.structure.Project")) || SNodeOperations.isInstanceOf(parentNode, MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1196851099544l, "jetbrains.mps.buildlanguage.structure.TargetDeclaration"));
+    return SNodeOperations.isInstanceOf(parentNode, MetaAdapterFactory.getConcept(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x116a9e1f76dL, "jetbrains.mps.buildlanguage.structure.Project")) || SNodeOperations.isInstanceOf(parentNode, MetaAdapterFactory.getConcept(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x116a9e27798L, "jetbrains.mps.buildlanguage.structure.TargetDeclaration"));
   }
   private static SNodePointer canBeChildBreakingPoint = new SNodePointer("r:00000000-0000-4000-0000-011c895904c1(jetbrains.mps.buildlanguage.constraints)", "1219148068256");
 }

@@ -5,7 +5,6 @@ package jetbrains.mps.xmlQuery.behavior;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
@@ -13,19 +12,19 @@ public class XMLElementType_Behavior {
   public static void init(SNode thisNode) {
   }
   public static String virtual_getPresentation_1213877396640(SNode thisNode) {
-    if ((SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getReferenceLink(new UUID(-6269610502768541194l, -6018622628950326671l), 4815471077468621637l, 4815471077468621639l, "schema")) == null)) {
+    if ((SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getReferenceLink(0xa8fdde772e6c41f6L, 0xac798e9b6449c271L, 0x42d3fd6e76af4b45L, 0x42d3fd6e76af4b47L, "schema")) == null)) {
       return "xml< >";
     } else {
       String complexTypePresentation = "...";
-      if ((SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getReferenceLink(new UUID(-6269610502768541194l, -6018622628950326671l), 4815471077468621637l, 4815471077468621640l, "complexType")) != null)) {
-        complexTypePresentation = SPropertyOperations.getString(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getReferenceLink(new UUID(-6269610502768541194l, -6018622628950326671l), 4815471077468621637l, 4815471077468621640l, "complexType")), MetaAdapterFactory.getProperty(new UUID(-5396545995874219192l, -5548206827574227681l), 1167615791597l, 1167615988144l, "typeName"));
+      if ((SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getReferenceLink(0xa8fdde772e6c41f6L, 0xac798e9b6449c271L, 0x42d3fd6e76af4b45L, 0x42d3fd6e76af4b48L, "complexType")) != null)) {
+        complexTypePresentation = SPropertyOperations.getString(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getReferenceLink(0xa8fdde772e6c41f6L, 0xac798e9b6449c271L, 0x42d3fd6e76af4b45L, 0x42d3fd6e76af4b48L, "complexType")), MetaAdapterFactory.getProperty(0xb51b9e0245dc4b48L, 0xb300cf49360a8d1fL, 0x10fdb5311edL, 0x10fdb5611b0L, "typeName"));
         if ((complexTypePresentation == null || complexTypePresentation.length() == 0)) {
-          complexTypePresentation = SPropertyOperations.getString(SNodeOperations.getNodeAncestor(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getReferenceLink(new UUID(-6269610502768541194l, -6018622628950326671l), 4815471077468621637l, 4815471077468621640l, "complexType")), MetaAdapterFactory.getConcept(new UUID(-5396545995874219192l, -5548206827574227681l), 1167512696010l, "jetbrains.mps.xmlSchema.structure.ElementWithContent"), false, false), MetaAdapterFactory.getProperty(new UUID(-5396545995874219192l, -5548206827574227681l), 1167838236835l, 1167838788027l, "elementName"));
+          complexTypePresentation = SPropertyOperations.getString(SNodeOperations.getNodeAncestor(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getReferenceLink(0xa8fdde772e6c41f6L, 0xac798e9b6449c271L, 0x42d3fd6e76af4b45L, 0x42d3fd6e76af4b48L, "complexType")), MetaAdapterFactory.getConcept(0xb51b9e0245dc4b48L, 0xb300cf49360a8d1fL, 0x10fd52df4caL, "jetbrains.mps.xmlSchema.structure.ElementWithContent"), false, false), MetaAdapterFactory.getProperty(0xb51b9e0245dc4b48L, 0xb300cf49360a8d1fL, 0x10fe89550a3L, 0x10fe89db9bbL, "elementName"));
         } else {
           complexTypePresentation = String.format("[%s]", complexTypePresentation);
         }
       }
-      return String.format("xml<%s:%s>", SPropertyOperations.getString(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getReferenceLink(new UUID(-6269610502768541194l, -6018622628950326671l), 4815471077468621637l, 4815471077468621639l, "schema")), MetaAdapterFactory.getProperty(new UUID(-5396545995874219192l, -5548206827574227681l), 1167513239198l, 1167754958780l, "schemaName")), complexTypePresentation);
+      return String.format("xml<%s:%s>", SPropertyOperations.getString(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getReferenceLink(0xa8fdde772e6c41f6L, 0xac798e9b6449c271L, 0x42d3fd6e76af4b45L, 0x42d3fd6e76af4b47L, "schema")), MetaAdapterFactory.getProperty(0xb51b9e0245dc4b48L, 0xb300cf49360a8d1fL, 0x10fd5363e9eL, 0x10fe39e97bcL, "schemaName")), complexTypePresentation);
     }
   }
 }

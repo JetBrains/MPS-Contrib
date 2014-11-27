@@ -4,43 +4,43 @@
   <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
   <root>
     <file name="QueriesGenerated.java">
-      <unit at="18,0,54,0" name="jetbrains.mps.uiLanguage.generator.baseLanguage.template.form.QueriesGenerated" />
+      <unit at="17,0,53,0" name="jetbrains.mps.uiLanguage.generator.baseLanguage.template.form.QueriesGenerated" />
     </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c89590555(jetbrains.mps.uiLanguage.generator.baseLanguage.template.form@generator)/1202820745239">
     <file name="QueriesGenerated.java">
-      <node id="1202822697324" at="50,116,51,236" concept="1" />
-      <scope id="1202822661804" at="50,116,51,236" />
+      <node id="1202822697324" at="49,116,50,223" concept="1" />
+      <scope id="1202822661804" at="49,116,50,223" />
     </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c89590555(jetbrains.mps.uiLanguage.generator.baseLanguage.template.form@generator)/1202820804619">
     <file name="QueriesGenerated.java">
-      <node id="1202820804632" at="21,106,22,189" concept="1" />
-      <node id="1202822134018" at="24,106,25,232" concept="0" />
-      <node id="1202822134025" at="25,232,26,232" concept="1" />
-      <node id="1202822099797" at="28,106,29,224" concept="1" />
-      <node id="1202821129530" at="35,102,36,194" concept="1" />
-      <node id="1202821829129" at="38,102,39,30" concept="1" />
-      <node id="1202820804682" at="41,114,42,193" concept="1" />
-      <node id="1202821122602" at="44,114,45,193" concept="1" />
-      <node id="1202821819623" at="47,114,48,196" concept="1" />
-      <scope id="1202820804631" at="21,106,22,189" />
-      <scope id="1202822099796" at="28,106,29,224" />
-      <scope id="1202821118007" at="35,102,36,194" />
-      <scope id="1202821815646" at="38,102,39,30" />
-      <scope id="1202820804681" at="41,114,42,193" />
-      <scope id="1202821115846" at="44,114,45,193" />
-      <scope id="1202821811860" at="47,114,48,196" />
-      <scope id="1202822134017" at="24,106,26,232">
+      <node id="1202820804632" at="20,106,21,176" concept="1" />
+      <node id="1202822134018" at="23,106,24,219" concept="0" />
+      <node id="1202822134025" at="24,219,25,219" concept="1" />
+      <node id="1202822099797" at="27,106,28,211" concept="1" />
+      <node id="1202821129530" at="34,102,35,181" concept="1" />
+      <node id="1202821829129" at="37,102,38,30" concept="1" />
+      <node id="1202820804682" at="40,114,41,180" concept="1" />
+      <node id="1202821122602" at="43,114,44,180" concept="1" />
+      <node id="1202821819623" at="46,114,47,183" concept="1" />
+      <scope id="1202820804631" at="20,106,21,176" />
+      <scope id="1202822099796" at="27,106,28,211" />
+      <scope id="1202821118007" at="34,102,35,181" />
+      <scope id="1202821815646" at="37,102,38,30" />
+      <scope id="1202820804681" at="40,114,41,180" />
+      <scope id="1202821115846" at="43,114,44,180" />
+      <scope id="1202821811860" at="46,114,47,183" />
+      <scope id="1202822134017" at="23,106,25,219">
         <var name="parent" id="1202822134019" />
       </scope>
     </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c89590555(jetbrains.mps.uiLanguage.generator.baseLanguage.template.form@generator)/1202822195718">
     <file name="QueriesGenerated.java">
-      <node id="1202822227347" at="31,106,32,232" concept="0" />
-      <node id="1202822227354" at="32,232,33,232" concept="1" />
-      <scope id="1202822227346" at="31,106,33,232">
+      <node id="1202822227347" at="30,106,31,219" concept="0" />
+      <node id="1202822227354" at="31,219,32,219" concept="1" />
+      <scope id="1202822227346" at="30,106,32,219">
         <var name="parent" id="1202822227348" />
       </scope>
     </file>

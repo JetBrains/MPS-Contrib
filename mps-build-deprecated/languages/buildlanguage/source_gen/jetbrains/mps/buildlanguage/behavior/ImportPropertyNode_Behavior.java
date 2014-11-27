@@ -6,12 +6,11 @@ import org.jetbrains.mps.openapi.model.SNode;
 import java.util.List;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 
 public class ImportPropertyNode_Behavior {
   public static void init(SNode thisNode) {
   }
   public static List<SNode> virtual_getPropertyDeclarations_1240397763706(SNode thisNode) {
-    return SLinkOperations.getChildren(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getReferenceLink(new UUID(819810455698030989l, -8713019626243247156l), 1200418817047l, 1200420354547l, "propertyNode")), MetaAdapterFactory.getContainmentLink(new UUID(-2494528174342584927l, -7303847360425402116l), 1200504738494l, 1200504738496l, "declaration"));
+    return SLinkOperations.getChildren(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getReferenceLink(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x1177e898417L, 0x1177ea0f9f3L, "propertyNode")), MetaAdapterFactory.getContainmentLink(0xdd61a7d78e1b45a1L, 0x9aa38585ec2b60fcL, 0x11783a892beL, 0x11783a892c0L, "declaration"));
   }
 }

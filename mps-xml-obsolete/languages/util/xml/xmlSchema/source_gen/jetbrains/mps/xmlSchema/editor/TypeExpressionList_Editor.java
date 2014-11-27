@@ -9,7 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.editor.runtime.cells.BigCellUtil;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Vertical;
@@ -46,7 +45,7 @@ public class TypeExpressionList_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private static boolean renderingCondition_kgtkmm_a0(SNode node, EditorContext editorContext) {
-    return SPropertyOperations.getBoolean(node, MetaAdapterFactory.getProperty(new UUID(-5396545995874219192l, -5548206827574227681l), 1167795596947l, 1167845523677l, "isVertical"));
+    return SPropertyOperations.getBoolean(node, MetaAdapterFactory.getProperty(0xb51b9e0245dc4b48L, 0xb300cf49360a8d1fL, 0x10fe60aae93L, 0x10fe90480ddL, "isVertical"));
   }
   private EditorCell createRefNodeList_kgtkmm_a0(EditorContext editorContext, SNode node) {
     AbstractCellListHandler handler = new TypeExpressionList_Editor.typeExpressionListHandler_kgtkmm_a0(node, "typeExpression", editorContext);

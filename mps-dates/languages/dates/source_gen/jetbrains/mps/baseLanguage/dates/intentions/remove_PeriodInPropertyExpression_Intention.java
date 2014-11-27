@@ -14,7 +14,6 @@ import java.util.Collections;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.intentions.IntentionDescriptor;
 
 public class remove_PeriodInPropertyExpression_Intention implements IntentionFactory {
@@ -61,7 +60,7 @@ public class remove_PeriodInPropertyExpression_Intention implements IntentionFac
       return "Remove Datetime Property";
     }
     public void execute(final SNode node, final EditorContext editorContext) {
-      SNodeOperations.replaceWithAnother(node, SNodeOperations.copyNode(SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 276836602888578296l, 276836602888578300l, "datetime"))));
+      SNodeOperations.replaceWithAnother(node, SNodeOperations.copyNode(SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x3d7856c6fffe4f8L, 0x3d7856c6fffe4fcL, "datetime"))));
     }
     public IntentionDescriptor getDescriptor() {
       return remove_PeriodInPropertyExpression_Intention.this;

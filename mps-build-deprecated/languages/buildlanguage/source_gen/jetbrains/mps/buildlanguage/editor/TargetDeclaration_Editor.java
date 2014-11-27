@@ -12,7 +12,6 @@ import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
@@ -64,7 +63,7 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private static boolean renderingCondition_xfdsch_a0a(SNode node, EditorContext editorContext) {
-    return SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1133920641626l, 1156234966388l, "shortDescription")) != null;
+    return SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL, 0x10d34f97574L, "shortDescription")) != null;
   }
   private EditorCell createConstant_xfdsch_a0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "//");
@@ -158,7 +157,7 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private static boolean renderingCondition_xfdsch_a2b0(SNode node, EditorContext editorContext) {
-    return isNotEmptyString(SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(new UUID(819810455698030989l, -8713019626243247156l), 1196851099544l, 1229183830991l, "if")));
+    return isNotEmptyString(SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x116a9e27798L, 0x11e3110cbcfL, "if")));
   }
   private EditorCell createConstant_xfdsch_a2b0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "if");
@@ -195,7 +194,7 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private static boolean renderingCondition_xfdsch_a3b0(SNode node, EditorContext editorContext) {
-    return isNotEmptyString(SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(new UUID(819810455698030989l, -8713019626243247156l), 1196851099544l, 1229186373089l, "unless")));
+    return isNotEmptyString(SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x116a9e27798L, 0x11e313795e1L, "unless")));
   }
   private EditorCell createConstant_xfdsch_a3b0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "unless");
@@ -232,7 +231,7 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private static boolean renderingCondition_xfdsch_a4b0(SNode node, EditorContext editorContext) {
-    return ListSequence.fromList(SLinkOperations.getChildren(node, MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1196851099544l, 1196853776690l, "depends"))).count() != 0 || editorContext.isInspector();
+    return ListSequence.fromList(SLinkOperations.getChildren(node, MetaAdapterFactory.getContainmentLink(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x116a9e27798L, 0x116aa0b5132L, "depends"))).count() != 0 || editorContext.isInspector();
   }
   private EditorCell createConstant_xfdsch_a4b0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "[");

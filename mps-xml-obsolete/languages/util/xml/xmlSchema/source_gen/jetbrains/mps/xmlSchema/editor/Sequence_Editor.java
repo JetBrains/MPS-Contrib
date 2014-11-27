@@ -10,7 +10,6 @@ import jetbrains.mps.editor.runtime.cells.BigCellUtil;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.openapi.editor.style.Style;
@@ -43,7 +42,7 @@ public class Sequence_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private static boolean renderingCondition_6lwes5_a0(SNode node, EditorContext editorContext) {
-    return SPropertyOperations.getBoolean(SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(-5396545995874219192l, -5548206827574227681l), 1167530070286l, 1167797203049l, "typeExpressionList")), MetaAdapterFactory.getProperty(new UUID(-5396545995874219192l, -5548206827574227681l), 1167795596947l, 1167845523677l, "isVertical"));
+    return SPropertyOperations.getBoolean(SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(0xb51b9e0245dc4b48L, 0xb300cf49360a8d1fL, 0x10fd637110eL, 0x10fe6233069L, "typeExpressionList")), MetaAdapterFactory.getProperty(0xb51b9e0245dc4b48L, 0xb300cf49360a8d1fL, 0x10fe60aae93L, 0x10fe90480ddL, "isVertical"));
   }
   private EditorCell createCollection_6lwes5_a0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);

@@ -51,18 +51,18 @@
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c8959058e(jetbrains.mps.xmlInternal.behavior)/1213877487338">
     <file name="XmlFile_Behavior.java">
-      <node id="1213877487341" at="13,71,14,181" concept="0" />
-      <node id="1213877487338" at="11,0,13,0" concept="1" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-      <node id="1213877487338" at="13,0,16,0" concept="1" trace="virtual_getSchema_1213877420378#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-      <scope id="1213877487349" at="11,43,11,43" />
-      <scope id="1213877487340" at="13,71,14,181" />
-      <scope id="1213877487338" at="11,0,13,0">
+      <node id="1213877487341" at="12,71,13,168" concept="0" />
+      <node id="1213877487338" at="10,0,12,0" concept="1" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1213877487338" at="12,0,15,0" concept="1" trace="virtual_getSchema_1213877420378#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <scope id="1213877487349" at="10,43,10,43" />
+      <scope id="1213877487340" at="12,71,13,168" />
+      <scope id="1213877487338" at="10,0,12,0">
         <var name="thisNode" id="1213877487338" />
       </scope>
-      <scope id="1213877487338" at="13,0,16,0">
+      <scope id="1213877487338" at="12,0,15,0">
         <var name="thisNode" id="1213877487338" />
       </scope>
-      <unit id="1213877487338" at="10,0,17,0" name="jetbrains.mps.xmlInternal.behavior.XmlFile_Behavior" />
+      <unit id="1213877487338" at="9,0,16,0" name="jetbrains.mps.xmlInternal.behavior.XmlFile_Behavior" />
     </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c8959058e(jetbrains.mps.xmlInternal.behavior)/1262430001741498766">

@@ -7,7 +7,6 @@ import javax.swing.Icon;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import org.jetbrains.annotations.Nullable;
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
@@ -33,7 +32,7 @@ public class Controller_TabDescriptor extends RelationDescriptor {
     return ComponentEditor_Helper.getBaseNode(node);
   }
   public boolean isApplicable(SNode node) {
-    return SNodeOperations.isInstanceOf(node, MetaAdapterFactory.getConcept(new UUID(6731736082390534803l, -6860703902218146233l), 1202387718766l, "jetbrains.mps.uiLanguage.structure.ComponentDeclaration"));
+    return SNodeOperations.isInstanceOf(node, MetaAdapterFactory.getConcept(0x5d6bee4cf8914a93L, 0xa0c9e2268726ae47L, 0x117f3e4926eL, "jetbrains.mps.uiLanguage.structure.ComponentDeclaration"));
   }
   @Nullable
   public Icon getIcon() {
@@ -58,8 +57,8 @@ public class Controller_TabDescriptor extends RelationDescriptor {
     return ListSequence.fromListAndArray(new ArrayList<SNode>(), SConceptOperations.findConceptDeclaration("jetbrains.mps.uiLanguage.structure.ComponentController"));
   }
   public SNode createNode(final SNode node, final SNode concept) {
-    SNode controller = SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(6731736082390534803l, -6860703902218146233l), 1202388384249l, "jetbrains.mps.uiLanguage.structure.ComponentController")));
-    SLinkOperations.setTarget(controller, MetaAdapterFactory.getReferenceLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202388384249l, 1202388401455l, "component"), node);
+    SNode controller = SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(0x5d6bee4cf8914a93L, 0xa0c9e2268726ae47L, 0x117f3eeb9f9L, "jetbrains.mps.uiLanguage.structure.ComponentController")));
+    SLinkOperations.setTarget(controller, MetaAdapterFactory.getReferenceLink(0x5d6bee4cf8914a93L, 0xa0c9e2268726ae47L, 0x117f3eeb9f9L, 0x117f3eefd2fL, "component"), node);
     SModelOperations.addRootNode(SNodeOperations.getModel(node), controller);
     String virtualPackage = SNodeAccessUtil.getProperty(node, SNodeUtil.property_BaseConcept_virtualPackage);
     SNodeAccessUtil.setProperty(controller, SNodeUtil.property_BaseConcept_virtualPackage, virtualPackage);

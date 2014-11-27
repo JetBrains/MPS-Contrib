@@ -6,18 +6,17 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 
 public class Grid_Behavior {
   public static void init(SNode thisNode) {
   }
   public static int call_getRowCount_1213877333382(SNode thisNode) {
-    return ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202823654753l, 1202823909833l, "row"))).count();
+    return ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(0x5d6bee4cf8914a93L, 0xa0c9e2268726ae47L, 0x1180de06d61L, 0x1180de451c9L, "row"))).count();
   }
   public static int call_getColumnsCount_1213877333391(SNode thisNode) {
     int columnsCount = 0;
-    for (SNode row : SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202823654753l, 1202823909833l, "row"))) {
-      columnsCount = Math.max(columnsCount, ListSequence.fromList(SLinkOperations.getChildren(row, MetaAdapterFactory.getContainmentLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202823683703l, 1202823766928l, "component"))).count());
+    for (SNode row : SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(0x5d6bee4cf8914a93L, 0xa0c9e2268726ae47L, 0x1180de06d61L, 0x1180de451c9L, "row"))) {
+      columnsCount = Math.max(columnsCount, ListSequence.fromList(SLinkOperations.getChildren(row, MetaAdapterFactory.getContainmentLink(0x5d6bee4cf8914a93L, 0xa0c9e2268726ae47L, 0x1180de0de77L, 0x1180de22390L, "component"))).count());
     }
     return columnsCount;
   }

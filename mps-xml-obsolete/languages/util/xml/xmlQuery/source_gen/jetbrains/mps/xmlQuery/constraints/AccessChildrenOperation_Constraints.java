@@ -4,7 +4,6 @@ package jetbrains.mps.xmlQuery.constraints;
 
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
 import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
-import java.util.UUID;
 import java.util.Map;
 import jetbrains.mps.smodel.adapter.ids.SReferenceLinkId;
 import jetbrains.mps.smodel.runtime.ReferenceConstraintsDescriptor;
@@ -31,12 +30,12 @@ import jetbrains.mps.smodel.SNodePointer;
 
 public class AccessChildrenOperation_Constraints extends BaseConstraintsDescriptor {
   public AccessChildrenOperation_Constraints() {
-    super(MetaIdFactory.conceptId(new UUID(-6269610502768541194l, -6018622628950326671l), 4815471077468621634l));
+    super(MetaIdFactory.conceptId(0xa8fdde772e6c41f6L, 0xac798e9b6449c271L, 0x42d3fd6e76af4b42L));
   }
   @Override
   protected Map<SReferenceLinkId, ReferenceConstraintsDescriptor> getNotDefaultSReferenceLinks() {
     Map<SReferenceLinkId, ReferenceConstraintsDescriptor> references = new HashMap<SReferenceLinkId, ReferenceConstraintsDescriptor>();
-    references.put(MetaIdFactory.refId(new UUID(-6269610502768541194l, -6018622628950326671l), 4815471077468621634l, 4815471077468621635l), new BaseReferenceConstraintsDescriptor(MetaIdFactory.refId(new UUID(-6269610502768541194l, -6018622628950326671l), 4815471077468621634l, 4815471077468621635l), this) {
+    references.put(MetaIdFactory.refId(0xa8fdde772e6c41f6L, 0xac798e9b6449c271L, 0x42d3fd6e76af4b42L, 0x42d3fd6e76af4b43L), new BaseReferenceConstraintsDescriptor(MetaIdFactory.refId(0xa8fdde772e6c41f6L, 0xac798e9b6449c271L, 0x42d3fd6e76af4b42L, 0x42d3fd6e76af4b43L), this) {
       @Override
       public boolean hasOwnScopeProvider() {
         return true;
@@ -47,15 +46,15 @@ public class AccessChildrenOperation_Constraints extends BaseConstraintsDescript
         return new BaseReferenceScopeProvider() {
           @Override
           public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
-            final SNode complexType = SLinkOperations.getTarget(SNodeOperations.cast(TypeChecker.getInstance().getTypeOf(SLinkOperations.getTarget(SNodeOperations.cast(_context.getEnclosingNode(), MetaAdapterFactory.getConcept(new UUID(-935030926396207931l, -6610165693999523818l), 1197027756228l, "jetbrains.mps.baseLanguage.structure.DotExpression")), MetaAdapterFactory.getContainmentLink(new UUID(-935030926396207931l, -6610165693999523818l), 1197027756228l, 1197027771414l, "operand"))), MetaAdapterFactory.getConcept(new UUID(-6269610502768541194l, -6018622628950326671l), 4815471077468621637l, "jetbrains.mps.xmlQuery.structure.XMLElementType")), MetaAdapterFactory.getReferenceLink(new UUID(-6269610502768541194l, -6018622628950326671l), 4815471077468621637l, 4815471077468621640l, "complexType"));
+            final SNode complexType = SLinkOperations.getTarget(SNodeOperations.cast(TypeChecker.getInstance().getTypeOf(SLinkOperations.getTarget(SNodeOperations.cast(_context.getEnclosingNode(), MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x116b46a08c4L, "jetbrains.mps.baseLanguage.structure.DotExpression")), MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x116b46a08c4L, 0x116b46a4416L, "operand"))), MetaAdapterFactory.getConcept(0xa8fdde772e6c41f6L, 0xac798e9b6449c271L, 0x42d3fd6e76af4b45L, "jetbrains.mps.xmlQuery.structure.XMLElementType")), MetaAdapterFactory.getReferenceLink(0xa8fdde772e6c41f6L, 0xac798e9b6449c271L, 0x42d3fd6e76af4b45L, 0x42d3fd6e76af4b48L, "complexType"));
             if (complexType == null) {
               return new ArrayList<SNode>();
             }
-            SNode elementDeclaration = SNodeOperations.getNodeAncestor(complexType, MetaAdapterFactory.getConcept(new UUID(-5396545995874219192l, -5548206827574227681l), 1167838236835l, "jetbrains.mps.xmlSchema.structure.ElementDeclaration"), false, false);
+            SNode elementDeclaration = SNodeOperations.getNodeAncestor(complexType, MetaAdapterFactory.getConcept(0xb51b9e0245dc4b48L, 0xb300cf49360a8d1fL, 0x10fe89550a3L, "jetbrains.mps.xmlSchema.structure.ElementDeclaration"), false, false);
             if (elementDeclaration == null) {
-              elementDeclaration = ListSequence.fromList(SNodeOperations.getNodeDescendants(SNodeOperations.getNodeAncestor(complexType, MetaAdapterFactory.getConcept(new UUID(-5396545995874219192l, -5548206827574227681l), 1167513239198l, "jetbrains.mps.xmlSchema.structure.Schema"), false, false), MetaAdapterFactory.getConcept(new UUID(-5396545995874219192l, -5548206827574227681l), 1167838362804l, "jetbrains.mps.xmlSchema.structure.ElementWithType"), false, new SAbstractConcept[]{})).findFirst(new IWhereFilter<SNode>() {
+              elementDeclaration = ListSequence.fromList(SNodeOperations.getNodeDescendants(SNodeOperations.getNodeAncestor(complexType, MetaAdapterFactory.getConcept(0xb51b9e0245dc4b48L, 0xb300cf49360a8d1fL, 0x10fd5363e9eL, "jetbrains.mps.xmlSchema.structure.Schema"), false, false), MetaAdapterFactory.getConcept(0xb51b9e0245dc4b48L, 0xb300cf49360a8d1fL, 0x10fe8973cb4L, "jetbrains.mps.xmlSchema.structure.ElementWithType"), false, new SAbstractConcept[]{})).findFirst(new IWhereFilter<SNode>() {
                 public boolean accept(SNode ewt) {
-                  return SLinkOperations.getTarget(SLinkOperations.getTarget(ewt, MetaAdapterFactory.getContainmentLink(new UUID(-5396545995874219192l, -5548206827574227681l), 1167838362804l, 1167839503230l, "complexTypeReference")), MetaAdapterFactory.getReferenceLink(new UUID(-5396545995874219192l, -5548206827574227681l), 1167790566663l, 1167790582664l, "complexType")) == complexType;
+                  return SLinkOperations.getTarget(SLinkOperations.getTarget(ewt, MetaAdapterFactory.getContainmentLink(0xb51b9e0245dc4b48L, 0xb300cf49360a8d1fL, 0x10fe8973cb4L, 0x10fe8a8a37eL, "complexTypeReference")), MetaAdapterFactory.getReferenceLink(0xb51b9e0245dc4b48L, 0xb300cf49360a8d1fL, 0x10fe5bded07L, 0x10fe5be2b88L, "complexType")) == complexType;
                 }
               });
             }

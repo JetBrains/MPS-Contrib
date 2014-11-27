@@ -4,7 +4,6 @@ package jetbrains.mps.baseLanguage.dates.constraints;
 
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
 import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
-import java.util.UUID;
 import java.util.Map;
 import jetbrains.mps.smodel.adapter.ids.SPropertyId;
 import jetbrains.mps.smodel.runtime.PropertyConstraintsDescriptor;
@@ -27,12 +26,12 @@ import jetbrains.mps.smodel.SNodePointer;
 
 public class PeriodPropertyFormatToken_Constraints extends BaseConstraintsDescriptor {
   public PeriodPropertyFormatToken_Constraints() {
-    super(MetaIdFactory.conceptId(new UUID(-3689458971415590814l, -6289781637635314138l), 7249953535157196261l));
+    super(MetaIdFactory.conceptId(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x649d02540d21d5e5L));
   }
   @Override
   protected Map<SPropertyId, PropertyConstraintsDescriptor> getNotDefaultSProperties() {
     Map<SPropertyId, PropertyConstraintsDescriptor> properties = new HashMap<SPropertyId, PropertyConstraintsDescriptor>();
-    properties.put(MetaIdFactory.propId(new UUID(-3689458971415590814l, -6289781637635314138l), 7249953535157196261l, 5581663871703912306l), new BasePropertyConstraintsDescriptor(MetaIdFactory.propId(new UUID(-3689458971415590814l, -6289781637635314138l), 7249953535157196261l, 5581663871703912306l), this) {
+    properties.put(MetaIdFactory.propId(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x649d02540d21d5e5L, 0x4d760db7e88b0f72L), new BasePropertyConstraintsDescriptor(MetaIdFactory.propId(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x649d02540d21d5e5L, 0x4d760db7e88b0f72L), this) {
       @Override
       public boolean hasOwnValidator() {
         return true;
@@ -48,7 +47,7 @@ public class PeriodPropertyFormatToken_Constraints extends BaseConstraintsDescri
   @Override
   protected Map<SReferenceLinkId, ReferenceConstraintsDescriptor> getNotDefaultSReferenceLinks() {
     Map<SReferenceLinkId, ReferenceConstraintsDescriptor> references = new HashMap<SReferenceLinkId, ReferenceConstraintsDescriptor>();
-    references.put(MetaIdFactory.refId(new UUID(-3689458971415590814l, -6289781637635314138l), 7249953535157196261l, 7249953535157223265l), new BaseReferenceConstraintsDescriptor(MetaIdFactory.refId(new UUID(-3689458971415590814l, -6289781637635314138l), 7249953535157196261l, 7249953535157223265l), this) {
+    references.put(MetaIdFactory.refId(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x649d02540d21d5e5L, 0x649d02540d223f61L), new BaseReferenceConstraintsDescriptor(MetaIdFactory.refId(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x649d02540d21d5e5L, 0x649d02540d223f61L), this) {
       @Override
       public boolean hasOwnScopeProvider() {
         return true;
@@ -63,7 +62,7 @@ public class PeriodPropertyFormatToken_Constraints extends BaseConstraintsDescri
           }
           @Override
           public String getPresentation(final IOperationContext operationContext, final ReferencePresentationContext _context) {
-            String name = (isNotEmptyString(SPropertyOperations.getString(_context.getParameterNode(), MetaAdapterFactory.getProperty(new UUID(1842350883898016625l, -7531592358064104734l), 1172074318583l, 1172490222219l, "pluralForm"))) ? SPropertyOperations.getString(_context.getParameterNode(), MetaAdapterFactory.getProperty(new UUID(1842350883898016625l, -7531592358064104734l), 1172074318583l, 1172490222219l, "pluralForm")) : SPropertyOperations.getString(_context.getParameterNode(), MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name")));
+            String name = (isNotEmptyString(SPropertyOperations.getString(_context.getParameterNode(), MetaAdapterFactory.getProperty(0x1991585e225e4371L, 0x977a68a7888adae2L, 0x110e512caf7L, 0x110fddcfa8bL, "pluralForm"))) ? SPropertyOperations.getString(_context.getParameterNode(), MetaAdapterFactory.getProperty(0x1991585e225e4371L, 0x977a68a7888adae2L, 0x110e512caf7L, 0x110fddcfa8bL, "pluralForm")) : SPropertyOperations.getString(_context.getParameterNode(), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
             return (_context.getSmartReference() ? "{" + name + "}" : name);
           }
           @Override

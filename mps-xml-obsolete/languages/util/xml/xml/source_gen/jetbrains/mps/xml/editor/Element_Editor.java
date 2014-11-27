@@ -9,7 +9,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.editor.runtime.cells.BigCellUtil;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.openapi.editor.style.Style;
@@ -44,7 +43,7 @@ public class Element_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private static boolean renderingCondition_76r4mg_a0(SNode node, EditorContext editorContext) {
-    return SPropertyOperations.getBoolean(node, MetaAdapterFactory.getProperty(new UUID(3194679053860949738l, -5054431440157877063l), 1167523027466l, 1172970532917l, "isEmpty"));
+    return SPropertyOperations.getBoolean(node, MetaAdapterFactory.getProperty(0x2c55c7ac60c34eeaL, 0xb9db0d627bd2dcb9L, 0x10fd5cb9a0aL, 0x1111a7df035L, "isEmpty"));
   }
   private EditorCell createCollection_76r4mg_a0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
@@ -93,7 +92,7 @@ public class Element_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private static boolean renderingCondition_76r4mg_a0a(SNode node, EditorContext editorContext) {
-    return ContentList_Behavior.call_isHorizontal_1221256530294(SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(3194679053860949738l, -5054431440157877063l), 1179102053371l, 1179114219774l, "contentList")));
+    return ContentList_Behavior.call_isHorizontal_1221256530294(SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(0x2c55c7ac60c34eeaL, 0xb9db0d627bd2dcb9L, 0x11287f583fbL, 0x11288af28feL, "contentList")));
   }
   private EditorCell createCollection_76r4mg_a0a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);

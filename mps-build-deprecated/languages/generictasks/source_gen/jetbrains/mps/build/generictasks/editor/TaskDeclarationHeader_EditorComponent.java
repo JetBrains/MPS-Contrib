@@ -16,7 +16,6 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.buildlanguage.editor.BuildLanguageStyle_StyleSheet;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
@@ -84,7 +83,7 @@ public class TaskDeclarationHeader_EditorComponent implements ConceptEditorCompo
     return editorCell;
   }
   private static boolean renderingCondition_ws04gp_a0a0(SNode node, EditorContext editorContext) {
-    return SPropertyOperations.getBoolean(node, MetaAdapterFactory.getProperty(new UUID(-314238378988976676l, -6739106179126467998l), 5699548131010533020l, 7699562953468509838l, "abstract"));
+    return SPropertyOperations.getBoolean(node, MetaAdapterFactory.getProperty(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4f18dcd3e11fd69cL, 0x6ada57b64f3f7e8eL, "abstract"));
   }
   private EditorCell createComponent_ws04gp_b0a(EditorContext editorContext, SNode node) {
     EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.lang.core.editor.alias");
@@ -123,7 +122,7 @@ public class TaskDeclarationHeader_EditorComponent implements ConceptEditorCompo
     return editorCell;
   }
   private static boolean renderingCondition_ws04gp_a3a0(SNode node, EditorContext editorContext) {
-    return (SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 5699548131010533020l, 7699562953468509841l, "parentRef")) != null);
+    return (SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4f18dcd3e11fd69cL, 0x6ada57b64f3f7e91L, "parentRef")) != null);
   }
   private EditorCell createRefNode_ws04gp_e0a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
@@ -148,7 +147,7 @@ public class TaskDeclarationHeader_EditorComponent implements ConceptEditorCompo
     return editorCell;
   }
   private static boolean renderingCondition_ws04gp_a4a0(SNode node, EditorContext editorContext) {
-    return (SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 5699548131010533020l, 7699562953468509841l, "parentRef")) != null);
+    return (SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4f18dcd3e11fd69cL, 0x6ada57b64f3f7e91L, "parentRef")) != null);
   }
   private EditorCell createCollection_ws04gp_f0a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
@@ -161,7 +160,7 @@ public class TaskDeclarationHeader_EditorComponent implements ConceptEditorCompo
     return editorCell;
   }
   private static boolean renderingCondition_ws04gp_a5a0(SNode node, EditorContext editorContext) {
-    return ListSequence.fromList(SLinkOperations.getChildren(node, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 5699548131010533020l, 7699562953468509842l, "interfaces"))).count() > 0;
+    return ListSequence.fromList(SLinkOperations.getChildren(node, MetaAdapterFactory.getContainmentLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4f18dcd3e11fd69cL, 0x6ada57b64f3f7e92L, "interfaces"))).count() > 0;
   }
   private EditorCell createConstant_ws04gp_a5a0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "implements");
@@ -292,7 +291,7 @@ public class TaskDeclarationHeader_EditorComponent implements ConceptEditorCompo
     return editorCell;
   }
   private static boolean renderingCondition_ws04gp_a2a(SNode node, EditorContext editorContext) {
-    return SPropertyOperations.getBoolean(node, MetaAdapterFactory.getProperty(new UUID(-314238378988976676l, -6739106179126467998l), 5699548131010533020l, 7699562953468509837l, "canHaveInternalText"));
+    return SPropertyOperations.getBoolean(node, MetaAdapterFactory.getProperty(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4f18dcd3e11fd69cL, 0x6ada57b64f3f7e8dL, "canHaveInternalText"));
   }
   private EditorCell createIndentCell_ws04gp_a2a(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);

@@ -4,7 +4,6 @@ package jetbrains.mps.baseLanguage.datesInternal.constraints;
 
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
 import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
-import java.util.UUID;
 import java.util.Map;
 import jetbrains.mps.smodel.adapter.ids.SPropertyId;
 import jetbrains.mps.smodel.runtime.PropertyConstraintsDescriptor;
@@ -17,12 +16,12 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 
 public class PredefinedDateFormat_Constraints extends BaseConstraintsDescriptor {
   public PredefinedDateFormat_Constraints() {
-    super(MetaIdFactory.conceptId(new UUID(1842350883898016625l, -7531592358064104734l), 1173883503931l));
+    super(MetaIdFactory.conceptId(0x1991585e225e4371L, 0x977a68a7888adae2L, 0x11150e8c53bL));
   }
   @Override
   protected Map<SPropertyId, PropertyConstraintsDescriptor> getNotDefaultSProperties() {
     Map<SPropertyId, PropertyConstraintsDescriptor> properties = new HashMap<SPropertyId, PropertyConstraintsDescriptor>();
-    properties.put(MetaIdFactory.propId(new UUID(1842350883898016625l, -7531592358064104734l), 1173884671039l, 1173975300968l), new BasePropertyConstraintsDescriptor(MetaIdFactory.propId(new UUID(1842350883898016625l, -7531592358064104734l), 1173884671039l, 1173975300968l), this) {
+    properties.put(MetaIdFactory.propId(0x1991585e225e4371L, 0x977a68a7888adae2L, 0x11150fa943fL, 0x11156617b68L), new BasePropertyConstraintsDescriptor(MetaIdFactory.propId(0x1991585e225e4371L, 0x977a68a7888adae2L, 0x11150fa943fL, 0x11156617b68L), this) {
       @Override
       public boolean hasOwnGetter() {
         return true;
@@ -33,7 +32,7 @@ public class PredefinedDateFormat_Constraints extends BaseConstraintsDescriptor 
         return true;
       }
     });
-    properties.put(MetaIdFactory.propId(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l), new BasePropertyConstraintsDescriptor(MetaIdFactory.propId(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l), this) {
+    properties.put(MetaIdFactory.propId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L), new BasePropertyConstraintsDescriptor(MetaIdFactory.propId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L), this) {
       @Override
       public boolean hasOwnGetter() {
         return true;
@@ -41,7 +40,7 @@ public class PredefinedDateFormat_Constraints extends BaseConstraintsDescriptor 
       @Override
       public Object getValue(SNode node) {
         String propertyName = "name";
-        return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(1842350883898016625l, -7531592358064104734l), 1173883503931l, 1173883503932l, "formatter")), MetaAdapterFactory.getReferenceLink(new UUID(-935030926396207931l, -6610165693999523818l), 1204053956946l, 1068499141037l, "baseMethodDeclaration")), MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name"));
+        return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(0x1991585e225e4371L, 0x977a68a7888adae2L, 0x11150e8c53bL, 0x11150e8c53cL, "formatter")), MetaAdapterFactory.getReferenceLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x11857355952L, 0xf8c78301adL, "baseMethodDeclaration")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
       }
     });
     return properties;

@@ -13,7 +13,6 @@ import jetbrains.mps.smodel.SNodePointer;
 import java.util.Collections;
 import jetbrains.mps.smodel.action.SNodeFactoryOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.intentions.IntentionDescriptor;
@@ -62,13 +61,13 @@ public class FormatExpression_convert_Intention implements IntentionFactory {
       return "Convert deprecated format expression to a new one";
     }
     public void execute(final SNode node, final EditorContext editorContext) {
-      SNode fdt = SNodeFactoryOperations.createNewNode(SNodeFactoryOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(-3689458971415590814l, -6289781637635314138l), 5034322243092296606l, "jetbrains.mps.baseLanguage.dates.structure.FormatDateTimeExpression")), null);
-      SLinkOperations.setTarget(fdt, MetaAdapterFactory.getReferenceLink(new UUID(-3689458971415590814l, -6289781637635314138l), 5034322243092296606l, 5034322243092298627l, "dateFormat"), SLinkOperations.getTarget(node, MetaAdapterFactory.getReferenceLink(new UUID(-3689458971415590814l, -6289781637635314138l), 1169557513226l, 1169557643590l, "dateFormat")));
-      SLinkOperations.setTarget(fdt, MetaAdapterFactory.getReferenceLink(new UUID(-3689458971415590814l, -6289781637635314138l), 5034322243092296606l, 5034322243092298628l, "locale"), SLinkOperations.getTarget(node, MetaAdapterFactory.getReferenceLink(new UUID(-3689458971415590814l, -6289781637635314138l), 1169557513226l, 1238661857677l, "locale")));
-      SNode ite = SNodeFactoryOperations.createNewNode(SNodeFactoryOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(-3689458971415590814l, -6289781637635314138l), 2639623922402691276l, "jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression")), null);
-      SLinkOperations.setTarget(ite, MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 2639623922402691276l, 2639623922402691278l, "datetime"), SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 1169557513226l, 1169557612323l, "dateExpression")));
-      SLinkOperations.setTarget(ite, MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 2639623922402691276l, 2639623922402691641l, "timezone"), SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 1169557513226l, 1239015930559l, "zone")));
-      SLinkOperations.setTarget(fdt, MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 5034322243092296606l, 5034322243092298623l, "datetime"), ite);
+      SNode fdt = SNodeFactoryOperations.createNewNode(SNodeFactoryOperations.asInstanceConcept(MetaAdapterFactory.getConcept(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x45dd8168385d339eL, "jetbrains.mps.baseLanguage.dates.structure.FormatDateTimeExpression")), null);
+      SLinkOperations.setTarget(fdt, MetaAdapterFactory.getReferenceLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x45dd8168385d339eL, 0x45dd8168385d3b83L, "dateFormat"), SLinkOperations.getTarget(node, MetaAdapterFactory.getReferenceLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x1104f0f640aL, 0x1104f116146L, "dateFormat")));
+      SLinkOperations.setTarget(fdt, MetaAdapterFactory.getReferenceLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x45dd8168385d339eL, 0x45dd8168385d3b84L, "locale"), SLinkOperations.getTarget(node, MetaAdapterFactory.getReferenceLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x1104f0f640aL, 0x1206600018dL, "locale")));
+      SNode ite = SNodeFactoryOperations.createNewNode(SNodeFactoryOperations.asInstanceConcept(MetaAdapterFactory.getConcept(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x24a1d3f8db6f88ccL, "jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression")), null);
+      SLinkOperations.setTarget(ite, MetaAdapterFactory.getContainmentLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x24a1d3f8db6f88ccL, 0x24a1d3f8db6f88ceL, "datetime"), SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x1104f0f640aL, 0x1104f10e723L, "dateExpression")));
+      SLinkOperations.setTarget(ite, MetaAdapterFactory.getContainmentLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x24a1d3f8db6f88ccL, 0x24a1d3f8db6f8a39L, "timezone"), SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x1104f0f640aL, 0x1207b1ababfL, "zone")));
+      SLinkOperations.setTarget(fdt, MetaAdapterFactory.getContainmentLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x45dd8168385d339eL, 0x45dd8168385d3b7fL, "datetime"), ite);
       SNodeOperations.replaceWithAnother(node, fdt);
     }
     public IntentionDescriptor getDescriptor() {

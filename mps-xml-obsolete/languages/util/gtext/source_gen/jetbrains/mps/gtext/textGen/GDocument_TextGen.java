@@ -7,7 +7,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.textGen.TraceInfoGenerationUtil;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import org.apache.log4j.Level;
@@ -21,7 +20,7 @@ public class GDocument_TextGen extends SNodeTextGen {
       TraceInfoGenerationUtil.createUnitInfo(this, node);
     }
     {
-      Iterable<SNode> collection = SLinkOperations.getChildren(node, MetaAdapterFactory.getContainmentLink(new UUID(-6324114011398976607l, -8974808928016009858l), 1184639540818l, 1184639733180l, "item"));
+      Iterable<SNode> collection = SLinkOperations.getChildren(node, MetaAdapterFactory.getContainmentLink(0xa83c3bd02f7e4ba1L, 0x837312d49e99f57eL, 0x113d204de52L, 0x113d207cdbcL, "item"));
       for (SNode item : collection) {
         appendNode(item);
       }
@@ -30,7 +29,7 @@ public class GDocument_TextGen extends SNodeTextGen {
       {
         String unitName = null;
         try {
-          unitName = BehaviorReflection.invokeVirtual(String.class, SNodeOperations.cast(node, MetaAdapterFactory.getInterfaceConcept(new UUID(-7066981744759912873l, -4622583950651520061l), 5067982036267369892l, "jetbrains.mps.lang.traceable.structure.UnitConcept")), "virtual_getUnitName_5067982036267369911", new Object[]{});
+          unitName = BehaviorReflection.invokeVirtual(String.class, SNodeOperations.cast(node, MetaAdapterFactory.getInterfaceConcept(0x9ded098bad6a4657L, 0xbfd948636cfe8bc3L, 0x465516cf87c705a4L, "jetbrains.mps.lang.traceable.structure.UnitConcept")), "virtual_getUnitName_5067982036267369911", new Object[]{});
         } catch (Throwable t) {
           if (LOG.isEnabledFor(Level.ERROR)) {
             LOG.error("Can't calculate unit name for a node " + node + ".", t);
@@ -41,7 +40,7 @@ public class GDocument_TextGen extends SNodeTextGen {
     }
   }
   public String getExtension(SNode node) {
-    return SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(new UUID(-6324114011398976607l, -8974808928016009858l), 1184639540818l, 1184639664013l, "extension"));
+    return SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(0xa83c3bd02f7e4ba1L, 0x837312d49e99f57eL, 0x113d204de52L, 0x113d206bf8dL, "extension"));
   }
   protected static Logger LOG = LogManager.getLogger(GDocument_TextGen.class);
 }

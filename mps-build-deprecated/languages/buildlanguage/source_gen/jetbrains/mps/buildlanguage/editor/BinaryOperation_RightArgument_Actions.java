@@ -10,7 +10,6 @@ import jetbrains.mps.editor.runtime.cells.AbstractCellAction;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 
 public class BinaryOperation_RightArgument_Actions {
   public static void setCellActions(EditorCell editorCell, SNode node, EditorContext context) {
@@ -29,7 +28,7 @@ public class BinaryOperation_RightArgument_Actions {
       this.execute_internal(editorContext, this.myNode);
     }
     public void execute_internal(EditorContext editorContext, SNode node) {
-      SNodeOperations.replaceWithAnother(node, SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1197107841918l, 1197107855106l, "left")));
+      SNodeOperations.replaceWithAnother(node, SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x116b9300b7eL, 0x116b9303f02L, "left")));
     }
   }
   public static class BinaryOperation_RightArgument_Actions_BACKSPACE extends AbstractCellAction {
@@ -44,7 +43,7 @@ public class BinaryOperation_RightArgument_Actions {
       this.execute_internal(editorContext, this.myNode);
     }
     public void execute_internal(EditorContext editorContext, SNode node) {
-      SNodeOperations.replaceWithAnother(node, SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1197107841918l, 1197107855106l, "left")));
+      SNodeOperations.replaceWithAnother(node, SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x116b9300b7eL, 0x116b9303f02L, "left")));
     }
   }
 }

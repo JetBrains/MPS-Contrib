@@ -4,7 +4,6 @@ package jetbrains.mps.execution.configurations.deprecated.constraints;
 
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
 import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
-import java.util.UUID;
 import org.jetbrains.annotations.Nullable;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.smodel.IOperationContext;
@@ -15,7 +14,7 @@ import jetbrains.mps.smodel.SNodePointer;
 
 public class ExecuteParameterQuery_Constraints extends BaseConstraintsDescriptor {
   public ExecuteParameterQuery_Constraints() {
-    super(MetaIdFactory.conceptId(new UUID(-9024322794181865535l, -5381379368254122047l), 314981645426569163l));
+    super(MetaIdFactory.conceptId(0x82c32a3b4a544fc1L, 0xb5517ff9f198d7c1L, 0x45f0a233e6b2fcbL));
   }
   @Override
   public boolean hasOwnCanBeChildMethod() {
@@ -32,7 +31,7 @@ public class ExecuteParameterQuery_Constraints extends BaseConstraintsDescriptor
     return result;
   }
   public static boolean static_canBeAChild(SNode node, SNode parentNode, SNode link, SNode childConcept, final IOperationContext operationContext) {
-    return SNodeOperations.isInstanceOf(parentNode, MetaAdapterFactory.getConcept(new UUID(-9024322794181865535l, -5381379368254122047l), 314981645426569209l, "jetbrains.mps.execution.configurations.deprecated.structure.ParametrizedExecuteBlock"));
+    return SNodeOperations.isInstanceOf(parentNode, MetaAdapterFactory.getConcept(0x82c32a3b4a544fc1L, 0xb5517ff9f198d7c1L, 0x45f0a233e6b2ff9L, "jetbrains.mps.execution.configurations.deprecated.structure.ParametrizedExecuteBlock"));
   }
   private static SNodePointer canBeChildBreakingPoint = new SNodePointer("r:4ab4c6eb-58ca-426d-b62d-119c0aacbe5e(jetbrains.mps.execution.configurations.deprecated.constraints)", "314981645426570958");
 }

@@ -6,13 +6,12 @@ import jetbrains.mps.textGen.SNodeTextGen;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.util.JDOMUtil;
 
 public class Attribute_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
-    String value = (SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(new UUID(-9061952983114822898l, -7881051372423955543l), 1107866742882l, 1107866755246l, "value")) == null ? "" : JDOMUtil.createOutputter().escapeElementEntities(SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(new UUID(-9061952983114822898l, -7881051372423955543l), 1107866742882l, 1107866755246l, "value"))));
-    this.append(SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name")));
+    String value = (SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(0x823d79c62e264b0eL, 0x92a0e1884a10bba9L, 0x101f200f062L, 0x101f20120aeL, "value")) == null ? "" : JDOMUtil.createOutputter().escapeElementEntities(SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(0x823d79c62e264b0eL, 0x92a0e1884a10bba9L, 0x101f200f062L, 0x101f20120aeL, "value"))));
+    this.append(SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
     this.append("=\"");
     this.append(value);
     this.append("\"");

@@ -6,18 +6,17 @@ import jetbrains.mps.textGen.SNodeTextGen;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class Document_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
-    if ((SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(-9061952983114822898l, -7881051372423955543l), 1119976146404l, 1234365333275l, "doctype")) != null)) {
-      appendNode(SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(-9061952983114822898l, -7881051372423955543l), 1119976146404l, 1234365333275l, "doctype")));
+    if ((SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(0x823d79c62e264b0eL, 0x92a0e1884a10bba9L, 0x104c3c7c5e4L, 0x11f65e83f1bL, "doctype")) != null)) {
+      appendNode(SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(0x823d79c62e264b0eL, 0x92a0e1884a10bba9L, 0x104c3c7c5e4L, 0x11f65e83f1bL, "doctype")));
       this.appendNewLine();
     }
-    appendNode(SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(-9061952983114822898l, -7881051372423955543l), 1119976146404l, 1119976595358l, "rootElement")));
+    appendNode(SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(0x823d79c62e264b0eL, 0x92a0e1884a10bba9L, 0x104c3c7c5e4L, 0x104c3ce9f9eL, "rootElement")));
   }
   public String getExtension(SNode node) {
-    return (SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(new UUID(-9061952983114822898l, -7881051372423955543l), 1119976146404l, 1234428502488l, "extension")) == null ? "xml" : SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(new UUID(-9061952983114822898l, -7881051372423955543l), 1119976146404l, 1234428502488l, "extension")));
+    return (SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(0x823d79c62e264b0eL, 0x92a0e1884a10bba9L, 0x104c3c7c5e4L, 0x11f69ac21d8L, "extension")) == null ? "xml" : SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(0x823d79c62e264b0eL, 0x92a0e1884a10bba9L, 0x104c3c7c5e4L, 0x11f69ac21d8L, "extension")));
   }
 }

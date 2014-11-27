@@ -5,7 +5,6 @@ package jetbrains.mps.execution.configurations.deprecated.behavior;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
@@ -16,7 +15,7 @@ public class Node_FunctionParameter_Behavior {
   public static void init(SNode thisNode) {
   }
   public static SNode virtual_getParameterType_1810772216404820824(SNode thisNode) {
-    SNode runConfig = SNodeOperations.getNodeAncestor(thisNode, MetaAdapterFactory.getConcept(new UUID(-9024322794181865535l, -5381379368254122047l), 8456022385895583119l, "jetbrains.mps.execution.configurations.deprecated.structure.JavaNodeRunConfiguration"), false, true);
+    SNode runConfig = SNodeOperations.getNodeAncestor(thisNode, MetaAdapterFactory.getConcept(0x82c32a3b4a544fc1L, 0xb5517ff9f198d7c1L, 0x7559d38edc0ead8fL, "jetbrains.mps.execution.configurations.deprecated.structure.JavaNodeRunConfiguration"), false, true);
     return Node_FunctionParameter_Behavior.call_getParameterType_5147346160405686358(SNodeOperations.asSConcept(SConceptOperations.findConceptDeclaration("jetbrains.mps.execution.configurations.deprecated.structure.Node_FunctionParameter")), runConfig);
   }
   public static String virtual_getVariableForExecuteBlockName_1810772216404807669(SNode thisNode) {
@@ -27,8 +26,8 @@ public class Node_FunctionParameter_Behavior {
   }
   public static SNode call_getParameterType_5147346160405686358(SAbstractConcept thisConcept, SNode runConfig) {
     if ((runConfig != null)) {
-      SNode nodeType = SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(8675788371017092295l, -9098312342032910879l), 1138055754698l, "jetbrains.mps.lang.smodel.structure.SNodeType")));
-      SLinkOperations.setTarget(nodeType, MetaAdapterFactory.getReferenceLink(new UUID(8675788371017092295l, -9098312342032910879l), 1138055754698l, 1138405853777l, "concept"), SLinkOperations.getTarget(runConfig, MetaAdapterFactory.getReferenceLink(new UUID(-9024322794181865535l, -5381379368254122047l), 8456022385895583119l, 3607966867310500324l, "conceptDeclaration")));
+      SNode nodeType = SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(0x7866978ea0f04cc7L, 0x81bc4d213d9375e1L, 0x108f968b3caL, "jetbrains.mps.lang.smodel.structure.SNodeType")));
+      SLinkOperations.setTarget(nodeType, MetaAdapterFactory.getReferenceLink(0x7866978ea0f04cc7L, 0x81bc4d213d9375e1L, 0x108f968b3caL, 0x1090e46ca51L, "concept"), SLinkOperations.getTarget(runConfig, MetaAdapterFactory.getReferenceLink(0x82c32a3b4a544fc1L, 0xb5517ff9f198d7c1L, 0x7559d38edc0ead8fL, 0x321212bfff6bd9e4L, "conceptDeclaration")));
       return nodeType;
     }
     return _quotation_createNode_2ajjny_a1a3();

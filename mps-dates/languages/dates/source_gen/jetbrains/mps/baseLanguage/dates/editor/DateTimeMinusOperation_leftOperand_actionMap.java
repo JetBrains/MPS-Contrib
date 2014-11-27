@@ -10,7 +10,6 @@ import jetbrains.mps.editor.runtime.cells.AbstractCellAction;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 
 public class DateTimeMinusOperation_leftOperand_actionMap {
   public static void setCellActions(EditorCell editorCell, SNode node, EditorContext context) {
@@ -29,7 +28,7 @@ public class DateTimeMinusOperation_leftOperand_actionMap {
       this.execute_internal(editorContext, this.myNode);
     }
     public void execute_internal(EditorContext editorContext, SNode node) {
-      SNodeOperations.replaceWithAnother(node, SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 1174386108135l, 1174386164996l, "rightValue")));
+      SNodeOperations.replaceWithAnother(node, SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x1116edde6e7L, 0x1116edec504L, "rightValue")));
     }
   }
   public static class DateTimeMinusOperation_leftOperand_actionMap_BACKSPACE extends AbstractCellAction {
@@ -44,7 +43,7 @@ public class DateTimeMinusOperation_leftOperand_actionMap {
       this.execute_internal(editorContext, this.myNode);
     }
     public void execute_internal(EditorContext editorContext, SNode node) {
-      SNodeOperations.replaceWithAnother(node, SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 1174386108135l, 1174386164996l, "rightValue")));
+      SNodeOperations.replaceWithAnother(node, SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x1116edde6e7L, 0x1116edec504L, "rightValue")));
     }
   }
 }

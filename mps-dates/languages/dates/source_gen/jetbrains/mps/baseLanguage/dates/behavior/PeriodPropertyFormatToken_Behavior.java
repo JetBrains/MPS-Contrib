@@ -5,10 +5,9 @@ package jetbrains.mps.baseLanguage.dates.behavior;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 
 public class PeriodPropertyFormatToken_Behavior {
   public static void init(SNode thisNode) {
-    SPropertyOperations.set(thisNode, MetaAdapterFactory.getProperty(new UUID(-3689458971415590814l, -6289781637635314138l), 7249953535157196261l, 5581663871703912306l, "minDigits"), "" + (1));
+    SPropertyOperations.set(thisNode, MetaAdapterFactory.getProperty(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x649d02540d21d5e5L, 0x4d760db7e88b0f72L, "minDigits"), "" + (1));
   }
 }

@@ -4,7 +4,6 @@ package jetbrains.mps.baseLanguage.datesInternal.constraints;
 
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
 import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
-import java.util.UUID;
 import java.util.Map;
 import jetbrains.mps.smodel.adapter.ids.SPropertyId;
 import jetbrains.mps.smodel.runtime.PropertyConstraintsDescriptor;
@@ -14,12 +13,12 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class DateTimePropertyConfiguration_Constraints extends BaseConstraintsDescriptor {
   public DateTimePropertyConfiguration_Constraints() {
-    super(MetaIdFactory.conceptId(new UUID(1842350883898016625l, -7531592358064104734l), 1174042847309l));
+    super(MetaIdFactory.conceptId(0x1991585e225e4371L, 0x977a68a7888adae2L, 0x1115a68284dL));
   }
   @Override
   protected Map<SPropertyId, PropertyConstraintsDescriptor> getNotDefaultSProperties() {
     Map<SPropertyId, PropertyConstraintsDescriptor> properties = new HashMap<SPropertyId, PropertyConstraintsDescriptor>();
-    properties.put(MetaIdFactory.propId(new UUID(-3554657779850784990l, -7236703803128771572l), 1133920641626l, 1156234966388l), new BasePropertyConstraintsDescriptor(MetaIdFactory.propId(new UUID(-3554657779850784990l, -7236703803128771572l), 1133920641626l, 1156234966388l), this) {
+    properties.put(MetaIdFactory.propId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL, 0x10d34f97574L), new BasePropertyConstraintsDescriptor(MetaIdFactory.propId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x10802efe25aL, 0x10d34f97574L), this) {
       @Override
       public boolean hasOwnGetter() {
         return true;

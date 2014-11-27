@@ -4,7 +4,6 @@ package jetbrains.mps.buildlanguage.constraints;
 
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
 import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
-import java.util.UUID;
 import java.util.Map;
 import jetbrains.mps.smodel.adapter.ids.SPropertyId;
 import jetbrains.mps.smodel.runtime.PropertyConstraintsDescriptor;
@@ -18,12 +17,12 @@ import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 
 public class MultiLineString_Constraints extends BaseConstraintsDescriptor {
   public MultiLineString_Constraints() {
-    super(MetaIdFactory.conceptId(new UUID(819810455698030989l, -8713019626243247156l), 1218548668666l));
+    super(MetaIdFactory.conceptId(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x11bb72918faL));
   }
   @Override
   protected Map<SPropertyId, PropertyConstraintsDescriptor> getNotDefaultSProperties() {
     Map<SPropertyId, PropertyConstraintsDescriptor> properties = new HashMap<SPropertyId, PropertyConstraintsDescriptor>();
-    properties.put(MetaIdFactory.propId(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l), new BasePropertyConstraintsDescriptor(MetaIdFactory.propId(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l), this) {
+    properties.put(MetaIdFactory.propId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L), new BasePropertyConstraintsDescriptor(MetaIdFactory.propId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L), this) {
       @Override
       public boolean hasOwnGetter() {
         return true;
@@ -33,7 +32,7 @@ public class MultiLineString_Constraints extends BaseConstraintsDescriptor {
         String propertyName = "name";
         {
           String result = "";
-          for (SNode lit : ListSequence.fromList(SLinkOperations.getChildren(node, MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1218548668666l, 1218548706208l, "stringExpression")))) {
+          for (SNode lit : ListSequence.fromList(SLinkOperations.getChildren(node, MetaAdapterFactory.getContainmentLink(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x11bb72918faL, 0x11bb729aba0L, "stringExpression")))) {
             result += BehaviorReflection.invokeVirtual(String.class, lit, "virtual_toString_1213877472569", new Object[]{});
           }
           return (result.length() > 0 ? result : "");

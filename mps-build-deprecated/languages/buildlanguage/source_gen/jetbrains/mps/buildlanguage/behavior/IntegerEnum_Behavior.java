@@ -7,12 +7,11 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 
 public class IntegerEnum_Behavior {
   public static void init(SNode thisNode) {
   }
   public static SNode virtual_getExpectedAttributeType_6575219246653626201(SAbstractConcept thisConcept) {
-    return SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1196870417350l, "jetbrains.mps.buildlanguage.structure.IntegerType")));
+    return SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x116ab093bc6L, "jetbrains.mps.buildlanguage.structure.IntegerType")));
   }
 }

@@ -4,7 +4,6 @@ package jetbrains.mps.baseLanguage.dates.constraints;
 
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
 import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
-import java.util.UUID;
 import java.util.Map;
 import jetbrains.mps.smodel.adapter.ids.SPropertyId;
 import jetbrains.mps.smodel.runtime.PropertyConstraintsDescriptor;
@@ -16,12 +15,12 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 
 public class DateFormat_Constraints extends BaseConstraintsDescriptor {
   public DateFormat_Constraints() {
-    super(MetaIdFactory.conceptId(new UUID(-3689458971415590814l, -6289781637635314138l), 1169487448949l));
+    super(MetaIdFactory.conceptId(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x1104ae24b75L));
   }
   @Override
   protected Map<SPropertyId, PropertyConstraintsDescriptor> getNotDefaultSProperties() {
     Map<SPropertyId, PropertyConstraintsDescriptor> properties = new HashMap<SPropertyId, PropertyConstraintsDescriptor>();
-    properties.put(MetaIdFactory.propId(new UUID(1842350883898016625l, -7531592358064104734l), 1173884671039l, 1173975300968l), new BasePropertyConstraintsDescriptor(MetaIdFactory.propId(new UUID(1842350883898016625l, -7531592358064104734l), 1173884671039l, 1173975300968l), this) {
+    properties.put(MetaIdFactory.propId(0x1991585e225e4371L, 0x977a68a7888adae2L, 0x11150fa943fL, 0x11156617b68L), new BasePropertyConstraintsDescriptor(MetaIdFactory.propId(0x1991585e225e4371L, 0x977a68a7888adae2L, 0x11150fa943fL, 0x11156617b68L), this) {
       @Override
       public boolean hasOwnGetter() {
         return true;
@@ -29,7 +28,7 @@ public class DateFormat_Constraints extends BaseConstraintsDescriptor {
       @Override
       public Object getValue(SNode node) {
         String propertyName = "isPublic";
-        return SPropertyOperations.hasValue(node, MetaAdapterFactory.getProperty(new UUID(-3689458971415590814l, -6289781637635314138l), 1169487448949l, 1173975856624l, "dateFormatVisibility"), "public", "public");
+        return SPropertyOperations.hasValue(node, MetaAdapterFactory.getProperty(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x1104ae24b75L, 0x1115669f5f0L, "dateFormatVisibility"), "public", "public");
       }
     });
     return properties;

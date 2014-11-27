@@ -4,7 +4,6 @@ package jetbrains.mps.build.generictasks.constraints;
 
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
 import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
-import java.util.UUID;
 import jetbrains.mps.smodel.IOperationContext;
 import org.jetbrains.mps.openapi.model.SModel;
 import org.jetbrains.annotations.Nullable;
@@ -16,7 +15,7 @@ import jetbrains.mps.smodel.SNodePointer;
 
 public class TaskInterfaceDeclaration_Constraints extends BaseConstraintsDescriptor {
   public TaskInterfaceDeclaration_Constraints() {
-    super(MetaIdFactory.conceptId(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643483l));
+    super(MetaIdFactory.conceptId(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64781bL));
   }
   @Override
   public boolean hasOwnCanBeRootMethod() {

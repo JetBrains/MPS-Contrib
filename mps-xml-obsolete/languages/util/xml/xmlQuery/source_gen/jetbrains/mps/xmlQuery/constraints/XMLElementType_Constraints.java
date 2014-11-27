@@ -4,7 +4,6 @@ package jetbrains.mps.xmlQuery.constraints;
 
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
 import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
-import java.util.UUID;
 import java.util.Map;
 import jetbrains.mps.smodel.adapter.ids.SReferenceLinkId;
 import jetbrains.mps.smodel.runtime.ReferenceConstraintsDescriptor;
@@ -26,12 +25,12 @@ import jetbrains.mps.smodel.SNodePointer;
 
 public class XMLElementType_Constraints extends BaseConstraintsDescriptor {
   public XMLElementType_Constraints() {
-    super(MetaIdFactory.conceptId(new UUID(-6269610502768541194l, -6018622628950326671l), 4815471077468621637l));
+    super(MetaIdFactory.conceptId(0xa8fdde772e6c41f6L, 0xac798e9b6449c271L, 0x42d3fd6e76af4b45L));
   }
   @Override
   protected Map<SReferenceLinkId, ReferenceConstraintsDescriptor> getNotDefaultSReferenceLinks() {
     Map<SReferenceLinkId, ReferenceConstraintsDescriptor> references = new HashMap<SReferenceLinkId, ReferenceConstraintsDescriptor>();
-    references.put(MetaIdFactory.refId(new UUID(-6269610502768541194l, -6018622628950326671l), 4815471077468621637l, 4815471077468621640l), new BaseReferenceConstraintsDescriptor(MetaIdFactory.refId(new UUID(-6269610502768541194l, -6018622628950326671l), 4815471077468621637l, 4815471077468621640l), this) {
+    references.put(MetaIdFactory.refId(0xa8fdde772e6c41f6L, 0xac798e9b6449c271L, 0x42d3fd6e76af4b45L, 0x42d3fd6e76af4b48L), new BaseReferenceConstraintsDescriptor(MetaIdFactory.refId(0xa8fdde772e6c41f6L, 0xac798e9b6449c271L, 0x42d3fd6e76af4b45L, 0x42d3fd6e76af4b48L), this) {
       @Override
       public boolean hasOwnOnReferenceSetHandler() {
         return true;
@@ -61,7 +60,7 @@ public class XMLElementType_Constraints extends BaseConstraintsDescriptor {
           }
           @Override
           public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
-            return new SubnodesSearchScope(SLinkOperations.getTarget(_context.getReferenceNode(), MetaAdapterFactory.getReferenceLink(new UUID(-6269610502768541194l, -6018622628950326671l), 4815471077468621637l, 4815471077468621639l, "schema")));
+            return new SubnodesSearchScope(SLinkOperations.getTarget(_context.getReferenceNode(), MetaAdapterFactory.getReferenceLink(0xa8fdde772e6c41f6L, 0xac798e9b6449c271L, 0x42d3fd6e76af4b45L, 0x42d3fd6e76af4b47L, "schema")));
           }
           @Override
           public SNodeReference getSearchScopeValidatorNode() {
@@ -70,7 +69,7 @@ public class XMLElementType_Constraints extends BaseConstraintsDescriptor {
         };
       }
     });
-    references.put(MetaIdFactory.refId(new UUID(-6269610502768541194l, -6018622628950326671l), 4815471077468621637l, 4815471077468621639l), new BaseReferenceConstraintsDescriptor(MetaIdFactory.refId(new UUID(-6269610502768541194l, -6018622628950326671l), 4815471077468621637l, 4815471077468621639l), this) {
+    references.put(MetaIdFactory.refId(0xa8fdde772e6c41f6L, 0xac798e9b6449c271L, 0x42d3fd6e76af4b45L, 0x42d3fd6e76af4b47L), new BaseReferenceConstraintsDescriptor(MetaIdFactory.refId(0xa8fdde772e6c41f6L, 0xac798e9b6449c271L, 0x42d3fd6e76af4b45L, 0x42d3fd6e76af4b47L), this) {
       @Override
       public boolean hasOwnOnReferenceSetHandler() {
         return true;
@@ -82,7 +81,7 @@ public class XMLElementType_Constraints extends BaseConstraintsDescriptor {
       @Override
       public void onReferenceSet(final SNode referenceNode, final SNode oldReferentNode, final SNode newReferentNode) {
         assert oldReferentNode != newReferentNode;
-        SLinkOperations.setTarget(referenceNode, MetaAdapterFactory.getReferenceLink(new UUID(-6269610502768541194l, -6018622628950326671l), 4815471077468621637l, 4815471077468621640l, "complexType"), null);
+        SLinkOperations.setTarget(referenceNode, MetaAdapterFactory.getReferenceLink(0xa8fdde772e6c41f6L, 0xac798e9b6449c271L, 0x42d3fd6e76af4b45L, 0x42d3fd6e76af4b48L, "complexType"), null);
       }
       @Nullable
       @Override

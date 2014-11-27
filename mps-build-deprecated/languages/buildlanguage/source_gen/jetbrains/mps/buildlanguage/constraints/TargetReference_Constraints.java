@@ -4,7 +4,6 @@ package jetbrains.mps.buildlanguage.constraints;
 
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
 import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
-import java.util.UUID;
 import java.util.Map;
 import jetbrains.mps.smodel.adapter.ids.SReferenceLinkId;
 import jetbrains.mps.smodel.runtime.ReferenceConstraintsDescriptor;
@@ -24,12 +23,12 @@ import jetbrains.mps.smodel.SNodePointer;
 
 public class TargetReference_Constraints extends BaseConstraintsDescriptor {
   public TargetReference_Constraints() {
-    super(MetaIdFactory.conceptId(new UUID(819810455698030989l, -8713019626243247156l), 1196852921336l));
+    super(MetaIdFactory.conceptId(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x116a9fe43f8L));
   }
   @Override
   protected Map<SReferenceLinkId, ReferenceConstraintsDescriptor> getNotDefaultSReferenceLinks() {
     Map<SReferenceLinkId, ReferenceConstraintsDescriptor> references = new HashMap<SReferenceLinkId, ReferenceConstraintsDescriptor>();
-    references.put(MetaIdFactory.refId(new UUID(819810455698030989l, -8713019626243247156l), 1196852921336l, 1196852953065l), new BaseReferenceConstraintsDescriptor(MetaIdFactory.refId(new UUID(819810455698030989l, -8713019626243247156l), 1196852921336l, 1196852953065l), this) {
+    references.put(MetaIdFactory.refId(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x116a9fe43f8L, 0x116a9febfe9L), new BaseReferenceConstraintsDescriptor(MetaIdFactory.refId(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x116a9fe43f8L, 0x116a9febfe9L), this) {
       @Override
       public boolean hasOwnScopeProvider() {
         return true;
@@ -40,7 +39,7 @@ public class TargetReference_Constraints extends BaseConstraintsDescriptor {
         return new BaseReferenceScopeProvider() {
           @Override
           public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
-            SNode project = SNodeOperations.getNodeAncestor(_context.getEnclosingNode(), MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1196851066733l, "jetbrains.mps.buildlanguage.structure.Project"), true, false);
+            SNode project = SNodeOperations.getNodeAncestor(_context.getEnclosingNode(), MetaAdapterFactory.getConcept(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x116a9e1f76dL, "jetbrains.mps.buildlanguage.structure.Project"), true, false);
             return Project_Behavior.call_getAllTargets_1213877351828(project);
           }
           @Override

@@ -11,7 +11,6 @@ import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.xml.behavior.ContentList_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import org.jetbrains.mps.openapi.model.SNodeReference;
 import jetbrains.mps.smodel.SNodePointer;
 import java.util.Collections;
@@ -47,7 +46,7 @@ public class MakeElementHorizontal_Intention implements IntentionFactory {
     return true;
   }
   private boolean isApplicableToNode(final SNode node, final EditorContext editorContext) {
-    return !(ContentList_Behavior.call_isHorizontal_1221256530294(SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(3194679053860949738l, -5054431440157877063l), 1179102053371l, 1179114219774l, "contentList"))));
+    return !(ContentList_Behavior.call_isHorizontal_1221256530294(SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(0x2c55c7ac60c34eeaL, 0xb9db0d627bd2dcb9L, 0x11287f583fbL, 0x11288af28feL, "contentList"))));
   }
   public SNodeReference getIntentionNodeReference() {
     return new SNodePointer("r:00000000-0000-4000-0000-011c89590587(jetbrains.mps.xml.intentions)", "1195647321928");
@@ -68,7 +67,7 @@ public class MakeElementHorizontal_Intention implements IntentionFactory {
       return "Make Element Horizontal";
     }
     public void execute(final SNode node, final EditorContext editorContext) {
-      SPropertyOperations.set(SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(new UUID(3194679053860949738l, -5054431440157877063l), 1179102053371l, 1179114219774l, "contentList")), MetaAdapterFactory.getProperty(new UUID(3194679053860949738l, -5054431440157877063l), 1163629230879l, 1166231449055l, "isHorizontal"), "" + (true));
+      SPropertyOperations.set(SLinkOperations.getTarget(node, MetaAdapterFactory.getContainmentLink(0x2c55c7ac60c34eeaL, 0xb9db0d627bd2dcb9L, 0x11287f583fbL, 0x11288af28feL, "contentList")), MetaAdapterFactory.getProperty(0x2c55c7ac60c34eeaL, 0xb9db0d627bd2dcb9L, 0x10eedb4fb1fL, 0x10f88cfaddfL, "isHorizontal"), "" + (true));
     }
     public IntentionDescriptor getDescriptor() {
       return MakeElementHorizontal_Intention.this;

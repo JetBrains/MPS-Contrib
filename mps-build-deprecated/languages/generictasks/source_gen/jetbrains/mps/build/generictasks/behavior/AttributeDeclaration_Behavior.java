@@ -5,33 +5,32 @@ package jetbrains.mps.build.generictasks.behavior;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import java.io.File;
 
 public class AttributeDeclaration_Behavior {
   public static void init(SNode thisNode) {
-    SPropertyOperations.set(thisNode, MetaAdapterFactory.getProperty(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643469l, 353793545802643475l, "deprecated"), "" + (false));
-    SPropertyOperations.set(thisNode, MetaAdapterFactory.getProperty(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643469l, 353793545802643476l, "required"), "" + (false));
+    SPropertyOperations.set(thisNode, MetaAdapterFactory.getProperty(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64780dL, 0x4e8ed5afd647813L, "deprecated"), "" + (false));
+    SPropertyOperations.set(thisNode, MetaAdapterFactory.getProperty(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64780dL, 0x4e8ed5afd647814L, "required"), "" + (false));
   }
   public static boolean call_isRequired_353793545802643811(SNode thisNode) {
-    return SPropertyOperations.getBoolean(thisNode, MetaAdapterFactory.getProperty(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643469l, 353793545802643476l, "required"));
+    return SPropertyOperations.getBoolean(thisNode, MetaAdapterFactory.getProperty(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64780dL, 0x4e8ed5afd647814L, "required"));
   }
   public static boolean call_isDeprecated_353793545802643819(SNode thisNode) {
-    return SPropertyOperations.getBoolean(thisNode, MetaAdapterFactory.getProperty(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643469l, 353793545802643475l, "deprecated"));
+    return SPropertyOperations.getBoolean(thisNode, MetaAdapterFactory.getProperty(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64780dL, 0x4e8ed5afd647813L, "deprecated"));
   }
   public static boolean call_equals_353793545802643827(SNode thisNode, SNode decl) {
-    return SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name")).equals(SPropertyOperations.getString(decl, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name")));
+    return SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")).equals(SPropertyOperations.getString(decl, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
   }
   public static String call_getRealClassName_4585165390551294438(SNode thisNode) {
-    if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643469l, 353793545802643473l, "attributeType")), MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1199032398223l, "jetbrains.mps.buildlanguage.structure.FileType"))) {
+    if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64780dL, 0x4e8ed5afd647811L, "attributeType")), MetaAdapterFactory.getConcept(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x1172be6718fL, "jetbrains.mps.buildlanguage.structure.FileType"))) {
       return File.class.getName();
-    } else if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643469l, 353793545802643473l, "attributeType")), MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1196870403099l, "jetbrains.mps.buildlanguage.structure.StringType"))) {
+    } else if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64780dL, 0x4e8ed5afd647811L, "attributeType")), MetaAdapterFactory.getConcept(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x116ab09041bL, "jetbrains.mps.buildlanguage.structure.StringType"))) {
       return String.class.getName();
-    } else if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643469l, 353793545802643473l, "attributeType")), MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1196870363565l, "jetbrains.mps.buildlanguage.structure.BooleanType"))) {
+    } else if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64780dL, 0x4e8ed5afd647811L, "attributeType")), MetaAdapterFactory.getConcept(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x116ab0869adL, "jetbrains.mps.buildlanguage.structure.BooleanType"))) {
       return Integer.class.getName();
-    } else if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643469l, 353793545802643473l, "attributeType")), MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1196870417350l, "jetbrains.mps.buildlanguage.structure.IntegerType"))) {
+    } else if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64780dL, 0x4e8ed5afd647811L, "attributeType")), MetaAdapterFactory.getConcept(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x116ab093bc6L, "jetbrains.mps.buildlanguage.structure.IntegerType"))) {
       return Boolean.class.getName();
     } else {
       return Object.class.getName();

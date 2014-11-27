@@ -6,7 +6,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 
@@ -17,10 +16,10 @@ public class CallReference_Behavior {
     return BehaviorReflection.invokeVirtual(String.class, thisNode, "virtual_toString_1213877472569", new Object[]{});
   }
   public static String virtual_toString_1213877472569(SNode thisNode) {
-    if ((SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getReferenceLink(new UUID(819810455698030989l, -8713019626243247156l), 1200511852076l, 1200511904172l, "call")) == null)) {
+    if ((SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getReferenceLink(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x11784151e2cL, 0x1178415e9acL, "call")) == null)) {
       return "";
     }
-    return SPropertyOperations.getString(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getReferenceLink(new UUID(819810455698030989l, -8713019626243247156l), 1200511852076l, 1200511904172l, "call")), MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name"));
+    return SPropertyOperations.getString(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getReferenceLink(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x11784151e2cL, 0x1178415e9acL, "call")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
   }
   public static String virtual_getCallName_1262430001741497852(SAbstractConcept thisConcept) {
     return null;

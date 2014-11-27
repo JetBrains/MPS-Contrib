@@ -4,7 +4,6 @@ package jetbrains.mps.xmlQuery.constraints;
 
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
 import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
-import java.util.UUID;
 import org.jetbrains.annotations.Nullable;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.smodel.IOperationContext;
@@ -17,7 +16,7 @@ import jetbrains.mps.smodel.SNodePointer;
 
 public class TextBuilder_Constraints extends BaseConstraintsDescriptor {
   public TextBuilder_Constraints() {
-    super(MetaIdFactory.conceptId(new UUID(-6269610502768541194l, -6018622628950326671l), 10026583185341422l));
+    super(MetaIdFactory.conceptId(0xa8fdde772e6c41f6L, 0xac798e9b6449c271L, 0x239f1fd112bbeeL));
   }
   @Override
   public boolean hasOwnCanBeChildMethod() {
@@ -34,7 +33,7 @@ public class TextBuilder_Constraints extends BaseConstraintsDescriptor {
     return result;
   }
   public static boolean static_canBeAChild(SNode node, SNode parentNode, SNode link, SNode childConcept, final IOperationContext operationContext) {
-    return SNodeOperations.isInstanceOf(Builder_Behavior.call_getContextBuilder_7057666463730366732(SNodeOperations.asSConcept(SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.builders.structure.Builder")), parentNode), MetaAdapterFactory.getConcept(new UUID(-6269610502768541194l, -6018622628950326671l), 3149278768676788174l, "jetbrains.mps.xmlQuery.structure.ElementBuilder"));
+    return SNodeOperations.isInstanceOf(Builder_Behavior.call_getContextBuilder_7057666463730366732(SNodeOperations.asSConcept(SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.builders.structure.Builder")), parentNode), MetaAdapterFactory.getConcept(0xa8fdde772e6c41f6L, 0xac798e9b6449c271L, 0x2bb47c5ac1a8d7ceL, "jetbrains.mps.xmlQuery.structure.ElementBuilder"));
   }
   private static SNodePointer canBeChildBreakingPoint = new SNodePointer("r:e79b58b4-ea58-4c9d-b43b-c3a260addf6a(jetbrains.mps.xmlQuery.constraints)", "7567280977594965152");
 }

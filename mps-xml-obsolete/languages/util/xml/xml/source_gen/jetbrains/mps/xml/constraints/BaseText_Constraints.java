@@ -4,14 +4,13 @@ package jetbrains.mps.xml.constraints;
 
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
 import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
-import java.util.UUID;
 import jetbrains.mps.smodel.adapter.ids.SConceptId;
 
 public class BaseText_Constraints extends BaseConstraintsDescriptor {
   public BaseText_Constraints() {
-    super(MetaIdFactory.conceptId(new UUID(3194679053860949738l, -5054431440157877063l), 1163340203555l));
+    super(MetaIdFactory.conceptId(0x2c55c7ac60c34eeaL, 0xb9db0d627bd2dcb9L, 0x10edc7ac623L));
   }
   public SConceptId getDefaultConcreteConceptId() {
-    return MetaIdFactory.conceptId(new UUID(3194679053860949738l, -5054431440157877063l), 1161373262136l);
+    return MetaIdFactory.conceptId(0x2c55c7ac60c34eeaL, 0xb9db0d627bd2dcb9L, 0x10e673da138L);
   }
 }

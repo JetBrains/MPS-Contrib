@@ -5,7 +5,6 @@ package jetbrains.mps.execution.configurations.deprecated.behavior;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import java.util.List;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
@@ -13,7 +12,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 
 public class JavaNodeRunConfiguration_Behavior {
   public static void init(SNode thisNode) {
-    SPropertyOperations.set(thisNode, MetaAdapterFactory.getProperty(new UUID(-9024322794181865535l, -5381379368254122047l), 8456022385895583119l, 3592413331516836478l, "generate"), "" + (true));
+    SPropertyOperations.set(thisNode, MetaAdapterFactory.getProperty(0x82c32a3b4a544fc1L, 0xb5517ff9f198d7c1L, 0x7559d38edc0ead8fL, 0x31dad0e43f704a7eL, "generate"), "" + (true));
   }
   public static List<SNode> virtual_getAdditionalParameters_314981645426570797(SNode thisNode) {
     List<SNode> parameters = BehaviorReflection.invokeSuper((Class<List<SNode>>) ((Class) Object.class), thisNode, "jetbrains.mps.execution.configurations.deprecated.structure.JavaRunConfiguration", "virtual_getAdditionalParameters_314981645426570797", new Object[]{});

@@ -5,12 +5,11 @@ package jetbrains.mps.baseLanguage.datesInternal.behavior;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 
 public class DateTimeZone_Behavior {
   public static void init(SNode thisNode) {
   }
   public static String call_getID_1239362726615(SNode thisNode) {
-    return ((SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(new UUID(1842350883898016625l, -7531592358064104734l), 1238668259228l, 1239366855147l, "continentOfCountry")) != null ? SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(new UUID(1842350883898016625l, -7531592358064104734l), 1238668259228l, 1239366855147l, "continentOfCountry")) + "/" : "")) + SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(new UUID(1842350883898016625l, -7531592358064104734l), 1238668259228l, 1239362712519l, "country"));
+    return ((SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(0x1991585e225e4371L, 0x977a68a7888adae2L, 0x1206661af9cL, 0x120900569ebL, "continentOfCountry")) != null ? SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(0x1991585e225e4371L, 0x977a68a7888adae2L, 0x1206661af9cL, 0x120900569ebL, "continentOfCountry")) + "/" : "")) + SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(0x1991585e225e4371L, 0x977a68a7888adae2L, 0x1206661af9cL, 0x1208fc633c7L, "country"));
   }
 }

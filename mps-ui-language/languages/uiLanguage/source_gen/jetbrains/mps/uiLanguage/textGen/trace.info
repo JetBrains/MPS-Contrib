@@ -6,22 +6,22 @@
   <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
   <root nodeRef="r:0aa1c06f-0c0c-4636-851a-9e1cd87fcce8(jetbrains.mps.uiLanguage.textGen)/6242401288845940755">
     <file name="PngIcon_TextGen.java">
-      <node id="6242401288845940755" at="13,42,14,65" concept="1" />
-      <node id="6242401288845941926" at="14,65,15,196" concept="0" />
-      <node id="6242401288845941926" at="14,65,15,196" concept="1" />
-      <node id="6242401288845941922" at="17,42,18,17" concept="3" />
-      <node id="6242401288845940755" at="17,0,20,0" concept="2" trace="getExtension#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
-      <node id="6242401288845940755" at="13,0,17,0" concept="2" trace="doGenerateText#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-      <scope id="6242401288845941926" at="14,65,15,196" />
-      <scope id="6242401288845940755" at="17,42,18,17" />
-      <scope id="6242401288845940755" at="13,42,15,196" />
-      <scope id="6242401288845940755" at="17,0,20,0">
+      <node id="6242401288845940755" at="12,42,13,65" concept="1" />
+      <node id="6242401288845941926" at="13,65,14,181" concept="0" />
+      <node id="6242401288845941926" at="13,65,14,181" concept="1" />
+      <node id="6242401288845941922" at="16,42,17,17" concept="3" />
+      <node id="6242401288845940755" at="16,0,19,0" concept="2" trace="getExtension#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="6242401288845940755" at="12,0,16,0" concept="2" trace="doGenerateText#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <scope id="6242401288845941926" at="13,65,14,181" />
+      <scope id="6242401288845940755" at="16,42,17,17" />
+      <scope id="6242401288845940755" at="12,42,14,181" />
+      <scope id="6242401288845940755" at="16,0,19,0">
         <var name="node" id="6242401288845940755" />
       </scope>
-      <scope id="6242401288845940755" at="13,0,17,0">
+      <scope id="6242401288845940755" at="12,0,16,0">
         <var name="node" id="6242401288845940755" />
       </scope>
-      <unit id="6242401288845940755" at="12,0,21,0" name="jetbrains.mps.uiLanguage.textGen.PngIcon_TextGen" />
+      <unit id="6242401288845940755" at="11,0,20,0" name="jetbrains.mps.uiLanguage.textGen.PngIcon_TextGen" />
     </file>
   </root>
 </debug-info>

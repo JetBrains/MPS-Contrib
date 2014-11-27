@@ -4,7 +4,6 @@ package jetbrains.mps.execution.configurations.deprecated.constraints;
 
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
 import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
-import java.util.UUID;
 import java.util.Map;
 import jetbrains.mps.smodel.adapter.ids.SPropertyId;
 import jetbrains.mps.smodel.runtime.PropertyConstraintsDescriptor;
@@ -29,12 +28,12 @@ import jetbrains.mps.smodel.SNodePointer;
 
 public class RunConfigPropertyInstance_Constraints extends BaseConstraintsDescriptor {
   public RunConfigPropertyInstance_Constraints() {
-    super(MetaIdFactory.conceptId(new UUID(-9024322794181865535l, -5381379368254122047l), 314981645426569299l));
+    super(MetaIdFactory.conceptId(0x82c32a3b4a544fc1L, 0xb5517ff9f198d7c1L, 0x45f0a233e6b3053L));
   }
   @Override
   protected Map<SPropertyId, PropertyConstraintsDescriptor> getNotDefaultSProperties() {
     Map<SPropertyId, PropertyConstraintsDescriptor> properties = new HashMap<SPropertyId, PropertyConstraintsDescriptor>();
-    properties.put(MetaIdFactory.propId(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l), new BasePropertyConstraintsDescriptor(MetaIdFactory.propId(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l), this) {
+    properties.put(MetaIdFactory.propId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L), new BasePropertyConstraintsDescriptor(MetaIdFactory.propId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L), this) {
       @Override
       public boolean hasOwnGetter() {
         return true;
@@ -42,10 +41,10 @@ public class RunConfigPropertyInstance_Constraints extends BaseConstraintsDescri
       @Override
       public Object getValue(SNode node) {
         String propertyName = "name";
-        if ((SLinkOperations.getTarget(node, MetaAdapterFactory.getReferenceLink(new UUID(-9024322794181865535l, -5381379368254122047l), 314981645426569299l, 314981645426569300l, "property")) == null)) {
+        if ((SLinkOperations.getTarget(node, MetaAdapterFactory.getReferenceLink(0x82c32a3b4a544fc1L, 0xb5517ff9f198d7c1L, 0x45f0a233e6b3053L, 0x45f0a233e6b3054L, "property")) == null)) {
           return null;
         }
-        return SPropertyOperations.getString(SLinkOperations.getTarget(node, MetaAdapterFactory.getReferenceLink(new UUID(-9024322794181865535l, -5381379368254122047l), 314981645426569299l, 314981645426569300l, "property")), MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name"));
+        return SPropertyOperations.getString(SLinkOperations.getTarget(node, MetaAdapterFactory.getReferenceLink(0x82c32a3b4a544fc1L, 0xb5517ff9f198d7c1L, 0x45f0a233e6b3053L, 0x45f0a233e6b3054L, "property")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
       }
     });
     return properties;
@@ -53,7 +52,7 @@ public class RunConfigPropertyInstance_Constraints extends BaseConstraintsDescri
   @Override
   protected Map<SReferenceLinkId, ReferenceConstraintsDescriptor> getNotDefaultSReferenceLinks() {
     Map<SReferenceLinkId, ReferenceConstraintsDescriptor> references = new HashMap<SReferenceLinkId, ReferenceConstraintsDescriptor>();
-    references.put(MetaIdFactory.refId(new UUID(-9024322794181865535l, -5381379368254122047l), 314981645426569299l, 314981645426569300l), new BaseReferenceConstraintsDescriptor(MetaIdFactory.refId(new UUID(-9024322794181865535l, -5381379368254122047l), 314981645426569299l, 314981645426569300l), this) {
+    references.put(MetaIdFactory.refId(0x82c32a3b4a544fc1L, 0xb5517ff9f198d7c1L, 0x45f0a233e6b3053L, 0x45f0a233e6b3054L), new BaseReferenceConstraintsDescriptor(MetaIdFactory.refId(0x82c32a3b4a544fc1L, 0xb5517ff9f198d7c1L, 0x45f0a233e6b3053L, 0x45f0a233e6b3054L), this) {
       @Override
       public boolean hasOwnScopeProvider() {
         return true;
@@ -64,15 +63,15 @@ public class RunConfigPropertyInstance_Constraints extends BaseConstraintsDescri
         return new BaseReferenceScopeProvider() {
           @Override
           public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
-            SNode createStatement = SNodeOperations.getNodeAncestor(_context.getEnclosingNode(), MetaAdapterFactory.getConcept(new UUID(-9024322794181865535l, -5381379368254122047l), 314981645426569290l, "jetbrains.mps.execution.configurations.deprecated.structure.CreateRunConfigStatement"), true, false);
+            SNode createStatement = SNodeOperations.getNodeAncestor(_context.getEnclosingNode(), MetaAdapterFactory.getConcept(0x82c32a3b4a544fc1L, 0xb5517ff9f198d7c1L, 0x45f0a233e6b304aL, "jetbrains.mps.execution.configurations.deprecated.structure.CreateRunConfigStatement"), true, false);
             if ((createStatement == null)) {
               return new ArrayList<SNode>();
             }
-            SNode runConfig = SLinkOperations.getTarget(createStatement, MetaAdapterFactory.getReferenceLink(new UUID(-9024322794181865535l, -5381379368254122047l), 314981645426569290l, 314981645426569295l, "runConfig"));
+            SNode runConfig = SLinkOperations.getTarget(createStatement, MetaAdapterFactory.getReferenceLink(0x82c32a3b4a544fc1L, 0xb5517ff9f198d7c1L, 0x45f0a233e6b304aL, 0x45f0a233e6b304fL, "runConfig"));
             if ((runConfig == null)) {
               return new ArrayList<SNode>();
             }
-            return SLinkOperations.getChildren(runConfig, MetaAdapterFactory.getContainmentLink(new UUID(-9024322794181865535l, -5381379368254122047l), 314981645426569350l, 314981645426569356l, "property"));
+            return SLinkOperations.getChildren(runConfig, MetaAdapterFactory.getContainmentLink(0x82c32a3b4a544fc1L, 0xb5517ff9f198d7c1L, 0x45f0a233e6b3086L, 0x45f0a233e6b308cL, "property"));
           }
           @Override
           public SNodeReference getSearchScopeValidatorNode() {

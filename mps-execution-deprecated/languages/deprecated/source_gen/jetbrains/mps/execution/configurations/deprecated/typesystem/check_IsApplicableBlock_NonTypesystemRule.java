@@ -10,7 +10,6 @@ import jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.errors.messageTargets.MessageTarget;
 import jetbrains.mps.errors.messageTargets.NodeMessageTarget;
@@ -21,7 +20,7 @@ public class check_IsApplicableBlock_NonTypesystemRule extends AbstractNonTypesy
   public check_IsApplicableBlock_NonTypesystemRule() {
   }
   public void applyRule(final SNode isApplicableBlock, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
-    for (SNode t : ListSequence.fromList(SNodeOperations.getNodeDescendants(isApplicableBlock, MetaAdapterFactory.getInterfaceConcept(new UUID(-935030926396207931l, -6610165693999523818l), 1224609861009l, "jetbrains.mps.baseLanguage.structure.IThisExpression"), false, new SAbstractConcept[]{}))) {
+    for (SNode t : ListSequence.fromList(SNodeOperations.getNodeDescendants(isApplicableBlock, MetaAdapterFactory.getInterfaceConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x11d206f8d91L, "jetbrains.mps.baseLanguage.structure.IThisExpression"), false, new SAbstractConcept[]{}))) {
       {
         MessageTarget errorTarget = new NodeMessageTarget();
         IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(t, "Can't refer to \"this\" in \"is applicable\" block", "r:3d1d89d4-ed40-464f-804b-a59886f41d55(jetbrains.mps.execution.configurations.deprecated.typesystem)", "7976893777486251164", null, errorTarget);

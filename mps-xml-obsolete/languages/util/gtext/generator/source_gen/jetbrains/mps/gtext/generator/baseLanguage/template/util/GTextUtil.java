@@ -8,22 +8,21 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 
 public class GTextUtil {
   public GTextUtil() {
   }
   public static void optimize(SModel model) {
     for (SNode r : ListSequence.fromList(SModelOperations.roots(model, null))) {
-      if (SNodeOperations.isInstanceOf(r, MetaAdapterFactory.getConcept(new UUID(-6324114011398976607l, -8974808928016009858l), 1184639540818l, "jetbrains.mps.gtext.structure.GDocument"))) {
+      if (SNodeOperations.isInstanceOf(r, MetaAdapterFactory.getConcept(0xa83c3bd02f7e4ba1L, 0x837312d49e99f57eL, 0x113d204de52L, "jetbrains.mps.gtext.structure.GDocument"))) {
         continue;
       }
       visit(r);
     }
   }
   public static void visit(SNode n) {
-    if (SNodeOperations.isInstanceOf(n, MetaAdapterFactory.getConcept(new UUID(-6324114011398976607l, -8974808928016009858l), 1164412935041l, "jetbrains.mps.gtext.structure.GItem"))) {
-      GTextOptimizer.optimize(SNodeOperations.cast(n, MetaAdapterFactory.getConcept(new UUID(-6324114011398976607l, -8974808928016009858l), 1164412935041l, "jetbrains.mps.gtext.structure.GItem")), false);
+    if (SNodeOperations.isInstanceOf(n, MetaAdapterFactory.getConcept(0xa83c3bd02f7e4ba1L, 0x837312d49e99f57eL, 0x10f1c6b5b81L, "jetbrains.mps.gtext.structure.GItem"))) {
+      GTextOptimizer.optimize(SNodeOperations.cast(n, MetaAdapterFactory.getConcept(0xa83c3bd02f7e4ba1L, 0x837312d49e99f57eL, 0x10f1c6b5b81L, "jetbrains.mps.gtext.structure.GItem")), false);
     }
     for (SNode c : ListSequence.fromList(SNodeOperations.getChildren(n))) {
       visit(c);

@@ -5,7 +5,6 @@ package jetbrains.mps.gtext.generator.baseLanguage.template.util;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.List;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
@@ -17,8 +16,8 @@ public class GTextOptimizer {
   public GTextOptimizer() {
   }
   public static SNode optimize(SNode item, boolean mayReplace) {
-    if (SNodeOperations.isInstanceOf(item, MetaAdapterFactory.getConcept(new UUID(-6324114011398976607l, -8974808928016009858l), 1164412982980l, "jetbrains.mps.gtext.structure.GItemList")) || SNodeOperations.isInstanceOf(item, MetaAdapterFactory.getConcept(new UUID(-6324114011398976607l, -8974808928016009858l), 1179109169620l, "jetbrains.mps.gtext.structure.GConditionalLine")) || SNodeOperations.isInstanceOf(item, MetaAdapterFactory.getConcept(new UUID(-6324114011398976607l, -8974808928016009858l), 1166926309597l, "jetbrains.mps.gtext.structure.GLine"))) {
-      if (optimizeItems(item) == 1 && mayReplace && SNodeOperations.isInstanceOf(item, MetaAdapterFactory.getConcept(new UUID(-6324114011398976607l, -8974808928016009858l), 1164412982980l, "jetbrains.mps.gtext.structure.GItemList"))) {
+    if (SNodeOperations.isInstanceOf(item, MetaAdapterFactory.getConcept(0xa83c3bd02f7e4ba1L, 0x837312d49e99f57eL, 0x10f1c6c16c4L, "jetbrains.mps.gtext.structure.GItemList")) || SNodeOperations.isInstanceOf(item, MetaAdapterFactory.getConcept(0xa83c3bd02f7e4ba1L, 0x837312d49e99f57eL, 0x112886219d4L, "jetbrains.mps.gtext.structure.GConditionalLine")) || SNodeOperations.isInstanceOf(item, MetaAdapterFactory.getConcept(0xa83c3bd02f7e4ba1L, 0x837312d49e99f57eL, 0x10fb23a68ddL, "jetbrains.mps.gtext.structure.GLine"))) {
+      if (optimizeItems(item) == 1 && mayReplace && SNodeOperations.isInstanceOf(item, MetaAdapterFactory.getConcept(0xa83c3bd02f7e4ba1L, 0x837312d49e99f57eL, 0x10f1c6c16c4L, "jetbrains.mps.gtext.structure.GItemList"))) {
         SNode child = (SNode) (item.getChildren("item").iterator().next());
         SNodeOperations.replaceWithAnother(item, child);
         item = child;
@@ -35,41 +34,41 @@ public class GTextOptimizer {
     SNode n = item;
     for (SNode child : ListSequence.fromList((List<SNode>) n.getChildren("item"))) {
       SNode optChild = optimize(child);
-      if (SNodeOperations.isInstanceOf(optChild, MetaAdapterFactory.getConcept(new UUID(-6324114011398976607l, -8974808928016009858l), 1164412982980l, "jetbrains.mps.gtext.structure.GItemList"))) {
+      if (SNodeOperations.isInstanceOf(optChild, MetaAdapterFactory.getConcept(0xa83c3bd02f7e4ba1L, 0x837312d49e99f57eL, 0x10f1c6c16c4L, "jetbrains.mps.gtext.structure.GItemList"))) {
         inlineChildren(optChild, optChild);
         SNodeOperations.deleteNode(optChild);
       } else
-      if (SNodeOperations.isInstanceOf(optChild, MetaAdapterFactory.getConcept(new UUID(-6324114011398976607l, -8974808928016009858l), 1179109169620l, "jetbrains.mps.gtext.structure.GConditionalLine"))) {
+      if (SNodeOperations.isInstanceOf(optChild, MetaAdapterFactory.getConcept(0xa83c3bd02f7e4ba1L, 0x837312d49e99f57eL, 0x112886219d4L, "jetbrains.mps.gtext.structure.GConditionalLine"))) {
         SNode nextChild = optChild;
-        if (SPropertyOperations.getBoolean(SNodeOperations.cast(optChild, MetaAdapterFactory.getConcept(new UUID(-6324114011398976607l, -8974808928016009858l), 1179109169620l, "jetbrains.mps.gtext.structure.GConditionalLine")), MetaAdapterFactory.getProperty(new UUID(-6324114011398976607l, -8974808928016009858l), 1179109169620l, 1179109261107l, "isSeparate"))) {
-          SNodeOperations.insertNextSiblingChild(nextChild, SModelOperations.createNewNode(SNodeOperations.getModel(item), null, SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(-6324114011398976607l, -8974808928016009858l), 1164413214326l, "jetbrains.mps.gtext.structure.GIndent"))));
-          nextChild = SNodeOperations.cast(SNodeOperations.getNextSibling(nextChild), MetaAdapterFactory.getConcept(new UUID(-6324114011398976607l, -8974808928016009858l), 1164412935041l, "jetbrains.mps.gtext.structure.GItem"));
+        if (SPropertyOperations.getBoolean(SNodeOperations.cast(optChild, MetaAdapterFactory.getConcept(0xa83c3bd02f7e4ba1L, 0x837312d49e99f57eL, 0x112886219d4L, "jetbrains.mps.gtext.structure.GConditionalLine")), MetaAdapterFactory.getProperty(0xa83c3bd02f7e4ba1L, 0x837312d49e99f57eL, 0x112886219d4L, 0x11288637f33L, "isSeparate"))) {
+          SNodeOperations.insertNextSiblingChild(nextChild, SModelOperations.createNewNode(SNodeOperations.getModel(item), null, SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(0xa83c3bd02f7e4ba1L, 0x837312d49e99f57eL, 0x10f1c6f9e76L, "jetbrains.mps.gtext.structure.GIndent"))));
+          nextChild = SNodeOperations.cast(SNodeOperations.getNextSibling(nextChild), MetaAdapterFactory.getConcept(0xa83c3bd02f7e4ba1L, 0x837312d49e99f57eL, 0x10f1c6b5b81L, "jetbrains.mps.gtext.structure.GItem"));
         }
         nextChild = inlineChildren(optChild, nextChild);
-        if (SPropertyOperations.getBoolean(SNodeOperations.cast(optChild, MetaAdapterFactory.getConcept(new UUID(-6324114011398976607l, -8974808928016009858l), 1179109169620l, "jetbrains.mps.gtext.structure.GConditionalLine")), MetaAdapterFactory.getProperty(new UUID(-6324114011398976607l, -8974808928016009858l), 1179109169620l, 1179109261107l, "isSeparate"))) {
-          SNodeOperations.insertNextSiblingChild(nextChild, SModelOperations.createNewNode(SNodeOperations.getModel(item), null, SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(-6324114011398976607l, -8974808928016009858l), 1164413172275l, "jetbrains.mps.gtext.structure.GNewLine"))));
+        if (SPropertyOperations.getBoolean(SNodeOperations.cast(optChild, MetaAdapterFactory.getConcept(0xa83c3bd02f7e4ba1L, 0x837312d49e99f57eL, 0x112886219d4L, "jetbrains.mps.gtext.structure.GConditionalLine")), MetaAdapterFactory.getProperty(0xa83c3bd02f7e4ba1L, 0x837312d49e99f57eL, 0x112886219d4L, 0x11288637f33L, "isSeparate"))) {
+          SNodeOperations.insertNextSiblingChild(nextChild, SModelOperations.createNewNode(SNodeOperations.getModel(item), null, SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(0xa83c3bd02f7e4ba1L, 0x837312d49e99f57eL, 0x10f1c6efa33L, "jetbrains.mps.gtext.structure.GNewLine"))));
         }
         SNodeOperations.deleteNode(optChild);
       } else
-      if (SNodeOperations.isInstanceOf(optChild, MetaAdapterFactory.getConcept(new UUID(-6324114011398976607l, -8974808928016009858l), 1166926309597l, "jetbrains.mps.gtext.structure.GLine"))) {
+      if (SNodeOperations.isInstanceOf(optChild, MetaAdapterFactory.getConcept(0xa83c3bd02f7e4ba1L, 0x837312d49e99f57eL, 0x10fb23a68ddL, "jetbrains.mps.gtext.structure.GLine"))) {
         SNode nextChild = optChild;
-        SNodeOperations.insertNextSiblingChild(nextChild, SModelOperations.createNewNode(SNodeOperations.getModel(item), null, SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(-6324114011398976607l, -8974808928016009858l), 1164413214326l, "jetbrains.mps.gtext.structure.GIndent"))));
-        nextChild = SNodeOperations.cast(SNodeOperations.getNextSibling(nextChild), MetaAdapterFactory.getConcept(new UUID(-6324114011398976607l, -8974808928016009858l), 1164412935041l, "jetbrains.mps.gtext.structure.GItem"));
+        SNodeOperations.insertNextSiblingChild(nextChild, SModelOperations.createNewNode(SNodeOperations.getModel(item), null, SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(0xa83c3bd02f7e4ba1L, 0x837312d49e99f57eL, 0x10f1c6f9e76L, "jetbrains.mps.gtext.structure.GIndent"))));
+        nextChild = SNodeOperations.cast(SNodeOperations.getNextSibling(nextChild), MetaAdapterFactory.getConcept(0xa83c3bd02f7e4ba1L, 0x837312d49e99f57eL, 0x10f1c6b5b81L, "jetbrains.mps.gtext.structure.GItem"));
         nextChild = inlineChildren(optChild, nextChild);
-        SNodeOperations.insertNextSiblingChild(nextChild, SModelOperations.createNewNode(SNodeOperations.getModel(item), null, SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(-6324114011398976607l, -8974808928016009858l), 1164413172275l, "jetbrains.mps.gtext.structure.GNewLine"))));
+        SNodeOperations.insertNextSiblingChild(nextChild, SModelOperations.createNewNode(SNodeOperations.getModel(item), null, SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(0xa83c3bd02f7e4ba1L, 0x837312d49e99f57eL, 0x10f1c6efa33L, "jetbrains.mps.gtext.structure.GNewLine"))));
         SNodeOperations.deleteNode(optChild);
       }
     }
     // concat text 
     SNode t = null;
     for (SNode child : ListSequence.fromList((List<SNode>) n.getChildren("item"))) {
-      if (SNodeOperations.isInstanceOf(child, MetaAdapterFactory.getConcept(new UUID(-6324114011398976607l, -8974808928016009858l), 1164412789837l, "jetbrains.mps.gtext.structure.GText"))) {
+      if (SNodeOperations.isInstanceOf(child, MetaAdapterFactory.getConcept(0xa83c3bd02f7e4ba1L, 0x837312d49e99f57eL, 0x10f1c69244dL, "jetbrains.mps.gtext.structure.GText"))) {
         if (t == null) {
-          t = SNodeOperations.cast(child, MetaAdapterFactory.getConcept(new UUID(-6324114011398976607l, -8974808928016009858l), 1164412789837l, "jetbrains.mps.gtext.structure.GText"));
+          t = SNodeOperations.cast(child, MetaAdapterFactory.getConcept(0xa83c3bd02f7e4ba1L, 0x837312d49e99f57eL, 0x10f1c69244dL, "jetbrains.mps.gtext.structure.GText"));
         } else {
-          String text = SPropertyOperations.getString(SNodeOperations.cast(child, MetaAdapterFactory.getConcept(new UUID(-6324114011398976607l, -8974808928016009858l), 1164412789837l, "jetbrains.mps.gtext.structure.GText")), MetaAdapterFactory.getProperty(new UUID(-6324114011398976607l, -8974808928016009858l), 1164412789837l, 1164413036326l, "text"));
+          String text = SPropertyOperations.getString(SNodeOperations.cast(child, MetaAdapterFactory.getConcept(0xa83c3bd02f7e4ba1L, 0x837312d49e99f57eL, 0x10f1c69244dL, "jetbrains.mps.gtext.structure.GText")), MetaAdapterFactory.getProperty(0xa83c3bd02f7e4ba1L, 0x837312d49e99f57eL, 0x10f1c69244dL, 0x10f1c6ce726L, "text"));
           if (text != null) {
-            SPropertyOperations.set(t, MetaAdapterFactory.getProperty(new UUID(-6324114011398976607l, -8974808928016009858l), 1164412789837l, 1164413036326l, "text"), SPropertyOperations.getString(t, MetaAdapterFactory.getProperty(new UUID(-6324114011398976607l, -8974808928016009858l), 1164412789837l, 1164413036326l, "text")) + text);
+            SPropertyOperations.set(t, MetaAdapterFactory.getProperty(0xa83c3bd02f7e4ba1L, 0x837312d49e99f57eL, 0x10f1c69244dL, 0x10f1c6ce726L, "text"), SPropertyOperations.getString(t, MetaAdapterFactory.getProperty(0xa83c3bd02f7e4ba1L, 0x837312d49e99f57eL, 0x10f1c69244dL, 0x10f1c6ce726L, "text")) + text);
           }
           SNodeOperations.deleteNode(child);
         }
@@ -82,8 +81,8 @@ public class GTextOptimizer {
   public static SNode inlineChildren(SNode optChild, SNode nextChild) {
     SNode nc = nextChild;
     // cast to GItemList, because all item list containers have the same name for children items - "item" 
-    while (ListSequence.fromList(BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), SNodeOperations.cast(optChild, MetaAdapterFactory.getInterfaceConcept(new UUID(-6324114011398976607l, -8974808928016009858l), 1239125024709l, "jetbrains.mps.gtext.structure.GCompositeItem")), "virtual_getItems_1239125087745", new Object[]{})).isNotEmpty()) {
-      SNode childOfChild = ListSequence.fromList(BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), SNodeOperations.cast(optChild, MetaAdapterFactory.getInterfaceConcept(new UUID(-6324114011398976607l, -8974808928016009858l), 1239125024709l, "jetbrains.mps.gtext.structure.GCompositeItem")), "virtual_getItems_1239125087745", new Object[]{})).first();
+    while (ListSequence.fromList(BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), SNodeOperations.cast(optChild, MetaAdapterFactory.getInterfaceConcept(0xa83c3bd02f7e4ba1L, 0x837312d49e99f57eL, 0x120819b5fc5L, "jetbrains.mps.gtext.structure.GCompositeItem")), "virtual_getItems_1239125087745", new Object[]{})).isNotEmpty()) {
+      SNode childOfChild = ListSequence.fromList(BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), SNodeOperations.cast(optChild, MetaAdapterFactory.getInterfaceConcept(0xa83c3bd02f7e4ba1L, 0x837312d49e99f57eL, 0x120819b5fc5L, "jetbrains.mps.gtext.structure.GCompositeItem")), "virtual_getItems_1239125087745", new Object[]{})).first();
       SNodeOperations.insertNextSiblingChild(nc, childOfChild);
       nc = childOfChild;
     }

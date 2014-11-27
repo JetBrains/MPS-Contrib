@@ -8,13 +8,12 @@ import jetbrains.mps.lang.dataFlow.DataFlowBuilderContext;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 
 public class AssertXMLEquals_DataFlow extends DataFlowBuilder {
   public AssertXMLEquals_DataFlow() {
   }
   public void build(final IOperationContext operationContext, final DataFlowBuilderContext _context) {
-    _context.getBuilder().build((SNode) SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(new UUID(-550886282855561870l, -4828828743312609243l), 5211164146777002721l, 5211164146777002723l, "expected")));
-    _context.getBuilder().build((SNode) SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(new UUID(-550886282855561870l, -4828828743312609243l), 5211164146777002721l, 5211164146777002724l, "actual")));
+    _context.getBuilder().build((SNode) SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xf85adbd82ec24572L, 0xbcfc8dd799a7f025L, 0x4851c62e7ae512e1L, 0x4851c62e7ae512e3L, "expected")));
+    _context.getBuilder().build((SNode) SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xf85adbd82ec24572L, 0xbcfc8dd799a7f025L, 0x4851c62e7ae512e1L, 0x4851c62e7ae512e4L, "actual")));
   }
 }

@@ -4,7 +4,6 @@ package jetbrains.mps.execution.configurations.deprecated.constraints;
 
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
 import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
-import java.util.UUID;
 import org.jetbrains.annotations.Nullable;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.smodel.IOperationContext;
@@ -21,7 +20,7 @@ import jetbrains.mps.smodel.SNodePointer;
 
 public class NodeRunConfigPropertyInstance_Constraints extends BaseConstraintsDescriptor {
   public NodeRunConfigPropertyInstance_Constraints() {
-    super(MetaIdFactory.conceptId(new UUID(-9024322794181865535l, -5381379368254122047l), 3361586479360705438l));
+    super(MetaIdFactory.conceptId(0x82c32a3b4a544fc1L, 0xb5517ff9f198d7c1L, 0x2ea6c117b00d039eL));
   }
   @Override
   public boolean hasOwnCanBeChildMethod() {
@@ -40,7 +39,7 @@ public class NodeRunConfigPropertyInstance_Constraints extends BaseConstraintsDe
   @Override
   protected Map<SPropertyId, PropertyConstraintsDescriptor> getNotDefaultSProperties() {
     Map<SPropertyId, PropertyConstraintsDescriptor> properties = new HashMap<SPropertyId, PropertyConstraintsDescriptor>();
-    properties.put(MetaIdFactory.propId(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l), new BasePropertyConstraintsDescriptor(MetaIdFactory.propId(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l), this) {
+    properties.put(MetaIdFactory.propId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L), new BasePropertyConstraintsDescriptor(MetaIdFactory.propId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L), this) {
       @Override
       public boolean hasOwnGetter() {
         return true;
@@ -54,10 +53,10 @@ public class NodeRunConfigPropertyInstance_Constraints extends BaseConstraintsDe
     return properties;
   }
   public static boolean static_canBeAChild(SNode node, SNode parentNode, SNode link, SNode childConcept, final IOperationContext operationContext) {
-    if (!(SNodeOperations.isInstanceOf(parentNode, MetaAdapterFactory.getConcept(new UUID(-9024322794181865535l, -5381379368254122047l), 314981645426569290l, "jetbrains.mps.execution.configurations.deprecated.structure.CreateRunConfigStatement")))) {
+    if (!(SNodeOperations.isInstanceOf(parentNode, MetaAdapterFactory.getConcept(0x82c32a3b4a544fc1L, 0xb5517ff9f198d7c1L, 0x45f0a233e6b304aL, "jetbrains.mps.execution.configurations.deprecated.structure.CreateRunConfigStatement")))) {
       return false;
     }
-    return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SNodeOperations.cast(parentNode, MetaAdapterFactory.getConcept(new UUID(-9024322794181865535l, -5381379368254122047l), 314981645426569290l, "jetbrains.mps.execution.configurations.deprecated.structure.CreateRunConfigStatement")), MetaAdapterFactory.getReferenceLink(new UUID(-9024322794181865535l, -5381379368254122047l), 314981645426569290l, 314981645426569295l, "runConfig")), MetaAdapterFactory.getConcept(new UUID(-9024322794181865535l, -5381379368254122047l), 8456022385895583119l, "jetbrains.mps.execution.configurations.deprecated.structure.JavaNodeRunConfiguration"));
+    return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SNodeOperations.cast(parentNode, MetaAdapterFactory.getConcept(0x82c32a3b4a544fc1L, 0xb5517ff9f198d7c1L, 0x45f0a233e6b304aL, "jetbrains.mps.execution.configurations.deprecated.structure.CreateRunConfigStatement")), MetaAdapterFactory.getReferenceLink(0x82c32a3b4a544fc1L, 0xb5517ff9f198d7c1L, 0x45f0a233e6b304aL, 0x45f0a233e6b304fL, "runConfig")), MetaAdapterFactory.getConcept(0x82c32a3b4a544fc1L, 0xb5517ff9f198d7c1L, 0x7559d38edc0ead8fL, "jetbrains.mps.execution.configurations.deprecated.structure.JavaNodeRunConfiguration"));
   }
   private static SNodePointer canBeChildBreakingPoint = new SNodePointer("r:4ab4c6eb-58ca-426d-b62d-119c0aacbe5e(jetbrains.mps.execution.configurations.deprecated.constraints)", "3361586479360712802");
 }

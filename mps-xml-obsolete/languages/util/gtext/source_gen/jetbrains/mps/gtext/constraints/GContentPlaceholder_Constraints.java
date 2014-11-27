@@ -4,7 +4,6 @@ package jetbrains.mps.gtext.constraints;
 
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
 import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
-import java.util.UUID;
 import org.jetbrains.annotations.Nullable;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.smodel.IOperationContext;
@@ -15,7 +14,7 @@ import jetbrains.mps.smodel.SNodePointer;
 
 public class GContentPlaceholder_Constraints extends BaseConstraintsDescriptor {
   public GContentPlaceholder_Constraints() {
-    super(MetaIdFactory.conceptId(new UUID(-6324114011398976607l, -8974808928016009858l), 1211920428461l));
+    super(MetaIdFactory.conceptId(0xa83c3bd02f7e4ba1L, 0x837312d49e99f57eL, 0x11a2c162dadL));
   }
   @Override
   public boolean hasOwnCanBeChildMethod() {
@@ -33,7 +32,7 @@ public class GContentPlaceholder_Constraints extends BaseConstraintsDescriptor {
   }
   public static boolean static_canBeAChild(SNode node, SNode parentNode, SNode link, SNode childConcept, final IOperationContext operationContext) {
     // do not allow nested blocks 
-    return (SNodeOperations.getNodeAncestor(parentNode, MetaAdapterFactory.getConcept(new UUID(-6324114011398976607l, -8974808928016009858l), 1211920502338l, "jetbrains.mps.gtext.structure.GContentBlock"), true, false) == null);
+    return (SNodeOperations.getNodeAncestor(parentNode, MetaAdapterFactory.getConcept(0xa83c3bd02f7e4ba1L, 0x837312d49e99f57eL, 0x11a2c174e42L, "jetbrains.mps.gtext.structure.GContentBlock"), true, false) == null);
   }
   private static SNodePointer canBeChildBreakingPoint = new SNodePointer("r:00000000-0000-4000-0000-011c89590571(jetbrains.mps.gtext.constraints)", "1213107436025");
 }

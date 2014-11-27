@@ -8,7 +8,6 @@
     <classNode dependClassName="java.util.HashSet" />
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="java.util.Set" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.build.property.behavior.PropertyNode_Behavior" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.behavior.Project_Behavior" />
     <classNode dependClassName="jetbrains.mps.buildlanguage.behavior.TargetDeclaration_Behavior" />

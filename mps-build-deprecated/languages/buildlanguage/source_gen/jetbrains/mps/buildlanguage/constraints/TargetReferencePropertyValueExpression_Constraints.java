@@ -4,7 +4,6 @@ package jetbrains.mps.buildlanguage.constraints;
 
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
 import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
-import java.util.UUID;
 import java.util.Map;
 import jetbrains.mps.smodel.adapter.ids.SPropertyId;
 import jetbrains.mps.smodel.runtime.PropertyConstraintsDescriptor;
@@ -17,12 +16,12 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class TargetReferencePropertyValueExpression_Constraints extends BaseConstraintsDescriptor {
   public TargetReferencePropertyValueExpression_Constraints() {
-    super(MetaIdFactory.conceptId(new UUID(819810455698030989l, -8713019626243247156l), 1201701678947l));
+    super(MetaIdFactory.conceptId(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x117cb006f63L));
   }
   @Override
   protected Map<SPropertyId, PropertyConstraintsDescriptor> getNotDefaultSProperties() {
     Map<SPropertyId, PropertyConstraintsDescriptor> properties = new HashMap<SPropertyId, PropertyConstraintsDescriptor>();
-    properties.put(MetaIdFactory.propId(new UUID(819810455698030989l, -8713019626243247156l), 1201701678947l, 1230225881769l), new BasePropertyConstraintsDescriptor(MetaIdFactory.propId(new UUID(819810455698030989l, -8713019626243247156l), 1201701678947l, 1230225881769l), this) {
+    properties.put(MetaIdFactory.propId(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x117cb006f63L, 0x11e6f2d3aa9L), new BasePropertyConstraintsDescriptor(MetaIdFactory.propId(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x117cb006f63L, 0x11e6f2d3aa9L), this) {
       @Override
       public boolean hasOwnGetter() {
         return true;
@@ -30,10 +29,10 @@ public class TargetReferencePropertyValueExpression_Constraints extends BaseCons
       @Override
       public Object getValue(SNode node) {
         String propertyName = "fullName";
-        if ((SLinkOperations.getTarget(node, MetaAdapterFactory.getReferenceLink(new UUID(819810455698030989l, -8713019626243247156l), 1201701678947l, 1201701736447l, "declaration")) == null)) {
+        if ((SLinkOperations.getTarget(node, MetaAdapterFactory.getReferenceLink(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x117cb006f63L, 0x117cb014fffL, "declaration")) == null)) {
           return null;
         }
-        return SLinkOperations.getTarget(node, MetaAdapterFactory.getReferenceLink(new UUID(819810455698030989l, -8713019626243247156l), 1201701678947l, 1201701736447l, "declaration")) + "@" + SNodeOperations.getNodeAncestor(SLinkOperations.getTarget(node, MetaAdapterFactory.getReferenceLink(new UUID(819810455698030989l, -8713019626243247156l), 1201701678947l, 1201701736447l, "declaration")), MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1196851066733l, "jetbrains.mps.buildlanguage.structure.Project"), false, true);
+        return SLinkOperations.getTarget(node, MetaAdapterFactory.getReferenceLink(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x117cb006f63L, 0x117cb014fffL, "declaration")) + "@" + SNodeOperations.getNodeAncestor(SLinkOperations.getTarget(node, MetaAdapterFactory.getReferenceLink(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x117cb006f63L, 0x117cb014fffL, "declaration")), MetaAdapterFactory.getConcept(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x116a9e1f76dL, "jetbrains.mps.buildlanguage.structure.Project"), false, true);
       }
     });
     return properties;

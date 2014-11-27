@@ -10,7 +10,6 @@ import jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.errors.messageTargets.MessageTarget;
 import jetbrains.mps.errors.messageTargets.NodeMessageTarget;
@@ -22,11 +21,11 @@ public class checkParentsOfInterfaceAreInterfaces_NonTypesystemRule extends Abst
   public checkParentsOfInterfaceAreInterfaces_NonTypesystemRule() {
   }
   public void applyRule(final SNode genericInterfaceDeclaration, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
-    for (SNode parent : ListSequence.fromList(SLinkOperations.getChildren(genericInterfaceDeclaration, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643483l, 353793545802643484l, "parents")))) {
-      if (!(SNodeOperations.isInstanceOf(SLinkOperations.getTarget(parent, MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 3037831562615764081l, 3037831562615764082l, "declaration")), MetaAdapterFactory.getConcept(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643483l, "jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration")))) {
+    for (SNode parent : ListSequence.fromList(SLinkOperations.getChildren(genericInterfaceDeclaration, MetaAdapterFactory.getContainmentLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64781bL, 0x4e8ed5afd64781cL, "parents")))) {
+      if (!(SNodeOperations.isInstanceOf(SLinkOperations.getTarget(parent, MetaAdapterFactory.getReferenceLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x2a288bb6092eb471L, 0x2a288bb6092eb472L, "declaration")), MetaAdapterFactory.getConcept(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64781bL, "jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration")))) {
         {
           MessageTarget errorTarget = new NodeMessageTarget();
-          IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(parent, SPropertyOperations.getString(SLinkOperations.getTarget(parent, MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 3037831562615764081l, 3037831562615764082l, "declaration")), MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name")) + " is not an interface!", "r:eac20369-5993-49cc-a9ac-fbeb7a91d81f(jetbrains.mps.build.generictasks.typesystem)", "353793545802854735", null, errorTarget);
+          IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(parent, SPropertyOperations.getString(SLinkOperations.getTarget(parent, MetaAdapterFactory.getReferenceLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x2a288bb6092eb471L, 0x2a288bb6092eb472L, "declaration")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")) + " is not an interface!", "r:eac20369-5993-49cc-a9ac-fbeb7a91d81f(jetbrains.mps.build.generictasks.typesystem)", "353793545802854735", null, errorTarget);
         }
       }
     }

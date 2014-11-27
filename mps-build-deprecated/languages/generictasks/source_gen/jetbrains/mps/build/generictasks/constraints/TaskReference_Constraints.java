@@ -4,7 +4,6 @@ package jetbrains.mps.build.generictasks.constraints;
 
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
 import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
-import java.util.UUID;
 import java.util.Map;
 import jetbrains.mps.smodel.adapter.ids.SReferenceLinkId;
 import jetbrains.mps.smodel.runtime.ReferenceConstraintsDescriptor;
@@ -28,12 +27,12 @@ import jetbrains.mps.smodel.SNodePointer;
 
 public class TaskReference_Constraints extends BaseConstraintsDescriptor {
   public TaskReference_Constraints() {
-    super(MetaIdFactory.conceptId(new UUID(-314238378988976676l, -6739106179126467998l), 3037831562615764081l));
+    super(MetaIdFactory.conceptId(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x2a288bb6092eb471L));
   }
   @Override
   protected Map<SReferenceLinkId, ReferenceConstraintsDescriptor> getNotDefaultSReferenceLinks() {
     Map<SReferenceLinkId, ReferenceConstraintsDescriptor> references = new HashMap<SReferenceLinkId, ReferenceConstraintsDescriptor>();
-    references.put(MetaIdFactory.refId(new UUID(-314238378988976676l, -6739106179126467998l), 3037831562615764081l, 3037831562615764082l), new BaseReferenceConstraintsDescriptor(MetaIdFactory.refId(new UUID(-314238378988976676l, -6739106179126467998l), 3037831562615764081l, 3037831562615764082l), this) {
+    references.put(MetaIdFactory.refId(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x2a288bb6092eb471L, 0x2a288bb6092eb472L), new BaseReferenceConstraintsDescriptor(MetaIdFactory.refId(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x2a288bb6092eb471L, 0x2a288bb6092eb472L), this) {
       @Override
       public boolean hasOwnScopeProvider() {
         return true;
@@ -44,20 +43,20 @@ public class TaskReference_Constraints extends BaseConstraintsDescriptor {
         return new BaseReferenceScopeProvider() {
           @Override
           public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
-            List<SNode> decls = SModelOperations.nodesIncludingImported(_context.getModel(), MetaAdapterFactory.getInterfaceConcept(new UUID(819810455698030989l, -8713019626243247156l), 5699548131010533022l, "jetbrains.mps.buildlanguage.structure.IDeclaration"));
-            if (SNodeOperations.isInstanceOf(_context.getEnclosingNode(), MetaAdapterFactory.getConcept(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643486l, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration")) && SNodeOperations.hasRole(_context.getReferenceNode(), MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643486l, 353793545802643491l, "fakeDeclaration"))) {
+            List<SNode> decls = SModelOperations.nodesIncludingImported(_context.getModel(), MetaAdapterFactory.getInterfaceConcept(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x4f18dcd3e11fd69eL, "jetbrains.mps.buildlanguage.structure.IDeclaration"));
+            if (SNodeOperations.isInstanceOf(_context.getEnclosingNode(), MetaAdapterFactory.getConcept(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64781eL, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration")) && SNodeOperations.hasRole(_context.getReferenceNode(), MetaAdapterFactory.getContainmentLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64781eL, 0x4e8ed5afd647823L, "fakeDeclaration"))) {
               List<SNode> newDecls = new ArrayList<SNode>();
               for (SNode decl : ListSequence.fromList(decls)) {
-                if (SNodeOperations.isInstanceOf(decl, MetaAdapterFactory.getConcept(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643483l, "jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration"))) {
+                if (SNodeOperations.isInstanceOf(decl, MetaAdapterFactory.getConcept(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64781bL, "jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration"))) {
                   ListSequence.fromList(newDecls).addElement(decl);
                 }
               }
               return new SimpleSearchScope(newDecls);
             } else
-            if (SNodeOperations.isInstanceOf(_context.getEnclosingNode(), MetaAdapterFactory.getConcept(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643486l, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration")) && SNodeOperations.hasRole(_context.getReferenceNode(), MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643486l, 353793545802643491l, "fakeDeclaration"))) {
+            if (SNodeOperations.isInstanceOf(_context.getEnclosingNode(), MetaAdapterFactory.getConcept(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64781eL, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration")) && SNodeOperations.hasRole(_context.getReferenceNode(), MetaAdapterFactory.getContainmentLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64781eL, 0x4e8ed5afd647823L, "fakeDeclaration"))) {
               List<SNode> newDecls = new ArrayList<SNode>();
               for (SNode decl : ListSequence.fromList(decls)) {
-                if (!(SNodeOperations.isInstanceOf(decl, MetaAdapterFactory.getConcept(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643483l, "jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration")))) {
+                if (!(SNodeOperations.isInstanceOf(decl, MetaAdapterFactory.getConcept(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64781bL, "jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration")))) {
                   ListSequence.fromList(newDecls).addElement(decl);
                 }
               }

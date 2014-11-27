@@ -7,18 +7,17 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 
 public class IComponentInstance_Behavior {
   public static void init(SNode thisNode) {
   }
   public static SNode call_getLayoutConstraint_1213877498060(SNode thisNode) {
-    return SNodeOperations.cast(ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202817076568l, 1202817142302l, "content"))).where(new IWhereFilter<SNode>() {
+    return SNodeOperations.cast(ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(0x5d6bee4cf8914a93L, 0xa0c9e2268726ae47L, 0x1180d7c0d58L, 0x1180d7d0e1eL, "content"))).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
-        return SNodeOperations.isInstanceOf(it, MetaAdapterFactory.getConcept(new UUID(6731736082390534803l, -6860703902218146233l), 1202739819652l, "jetbrains.mps.uiLanguage.structure.LayoutConstraint"));
+        return SNodeOperations.isInstanceOf(it, MetaAdapterFactory.getConcept(0x5d6bee4cf8914a93L, 0xa0c9e2268726ae47L, 0x11808e13484L, "jetbrains.mps.uiLanguage.structure.LayoutConstraint"));
       }
-    }).first(), MetaAdapterFactory.getConcept(new UUID(6731736082390534803l, -6860703902218146233l), 1202739819652l, "jetbrains.mps.uiLanguage.structure.LayoutConstraint"));
+    }).first(), MetaAdapterFactory.getConcept(0x5d6bee4cf8914a93L, 0xa0c9e2268726ae47L, 0x11808e13484L, "jetbrains.mps.uiLanguage.structure.LayoutConstraint"));
   }
   public static SNode virtual_getExtendedComponent_1213877498080(SNode thisNode) {
     return null;

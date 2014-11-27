@@ -5,7 +5,6 @@ package jetbrains.mps.xml.behavior;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import java.util.List;
 import java.util.ArrayList;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
@@ -16,12 +15,12 @@ public class Content_Behavior {
   }
   public static boolean call_isSeparate_1213877224266(SNode thisNode) {
     SNode parent = SNodeOperations.getParent(thisNode);
-    if (SNodeOperations.isInstanceOf(parent, MetaAdapterFactory.getConcept(new UUID(3194679053860949738l, -5054431440157877063l), 1163629230879l, "jetbrains.mps.xml.structure.ContentList"))) {
-      if (!(ContentList_Behavior.call_isHorizontal_1221256530294(SNodeOperations.cast(parent, MetaAdapterFactory.getConcept(new UUID(3194679053860949738l, -5054431440157877063l), 1163629230879l, "jetbrains.mps.xml.structure.ContentList"))))) {
+    if (SNodeOperations.isInstanceOf(parent, MetaAdapterFactory.getConcept(0x2c55c7ac60c34eeaL, 0xb9db0d627bd2dcb9L, 0x10eedb4fb1fL, "jetbrains.mps.xml.structure.ContentList"))) {
+      if (!(ContentList_Behavior.call_isHorizontal_1221256530294(SNodeOperations.cast(parent, MetaAdapterFactory.getConcept(0x2c55c7ac60c34eeaL, 0xb9db0d627bd2dcb9L, 0x10eedb4fb1fL, "jetbrains.mps.xml.structure.ContentList"))))) {
         return true;
       }
     }
-    return jetbrains.mps.util.SNodeOperations.isRoot(parent) || SNodeOperations.isInstanceOf(parent, MetaAdapterFactory.getConcept(new UUID(7275049699783163986l, -6957227899428870635l), 1165765736183l, "jetbrains.mps.xmlInternal.structure.ContentStatement"));
+    return jetbrains.mps.util.SNodeOperations.isRoot(parent) || SNodeOperations.isInstanceOf(parent, MetaAdapterFactory.getConcept(0x64f62b2836e34052L, 0x9f72f616211ae615L, 0x10f6d0d76f7L, "jetbrains.mps.xmlInternal.structure.ContentStatement"));
   }
   public static String call_isSeparate_string_1213877224300(SNode thisNode) {
     return String.valueOf(Content_Behavior.call_isSeparate_1213877224266(thisNode));

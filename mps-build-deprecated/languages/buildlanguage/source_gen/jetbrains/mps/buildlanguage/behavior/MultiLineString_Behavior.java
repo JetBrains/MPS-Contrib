@@ -5,7 +5,6 @@ package jetbrains.mps.buildlanguage.behavior;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
@@ -14,11 +13,11 @@ public class MultiLineString_Behavior {
   public static void init(SNode thisNode) {
   }
   public static String virtual_toString_1213877472569(SNode thisNode) {
-    return SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name"));
+    return SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
   }
   public static String virtual_getActualValue_1213877472572(SNode thisNode) {
     String result = "";
-    for (SNode lit : ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1218548668666l, 1218548706208l, "stringExpression")))) {
+    for (SNode lit : ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x11bb72918faL, 0x11bb729aba0L, "stringExpression")))) {
       result += BehaviorReflection.invokeVirtual(String.class, lit, "virtual_getActualValue_1213877472572", new Object[]{});
     }
     return (result.length() > 0 ? result : "");

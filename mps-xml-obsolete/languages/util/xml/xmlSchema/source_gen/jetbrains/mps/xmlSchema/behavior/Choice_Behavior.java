@@ -6,13 +6,12 @@ import org.jetbrains.mps.openapi.model.SNode;
 import java.util.Set;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 
 public class Choice_Behavior {
   public static void init(SNode thisNode) {
   }
   public static void virtual_checkElements_1213877382378(SNode thisNode, Set<SNode> elementDeclarations) {
-    TypeExpressionList_Behavior.call_checkElements_1213877199094(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(-5396545995874219192l, -5548206827574227681l), 1167598424727l, 1167796515570l, "typeExpressionList")), elementDeclarations);
+    TypeExpressionList_Behavior.call_checkElements_1213877199094(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(0xb51b9e0245dc4b48L, 0xb300cf49360a8d1fL, 0x10fda4a1297L, 0x10fe618b2f2L, "typeExpressionList")), elementDeclarations);
   }
   public static boolean virtual_hasElementReferences_1213877382383(SNode thisNode) {
     return true;

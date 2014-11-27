@@ -5,21 +5,20 @@ package jetbrains.mps.buildlanguage.actions;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class Util {
   public Util() {
   }
   public static boolean checkNodeType(SNode parentNode, SNode type) {
-    if (SNodeOperations.isInstanceOf(parentNode, MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1196851107341l, "jetbrains.mps.buildlanguage.structure.PropertyDeclaration"))) {
-      return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SNodeOperations.cast(parentNode, MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1196851107341l, "jetbrains.mps.buildlanguage.structure.PropertyDeclaration")), MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1463999527524104369l, 1196870993204l, "type")), SNodeOperations.asSConcept(type));
+    if (SNodeOperations.isInstanceOf(parentNode, MetaAdapterFactory.getConcept(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x116a9e2960dL, "jetbrains.mps.buildlanguage.structure.PropertyDeclaration"))) {
+      return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SNodeOperations.cast(parentNode, MetaAdapterFactory.getConcept(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x116a9e2960dL, "jetbrains.mps.buildlanguage.structure.PropertyDeclaration")), MetaAdapterFactory.getContainmentLink(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x14512bd04d69f8b1L, 0x116ab120534L, "type")), SNodeOperations.asSConcept(type));
     } else
-    if (SNodeOperations.isInstanceOf(parentNode, MetaAdapterFactory.getConcept(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643466l, "jetbrains.mps.build.generictasks.structure.Attribute"))) {
-      return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SLinkOperations.getTarget(SNodeOperations.cast(parentNode, MetaAdapterFactory.getConcept(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643466l, "jetbrains.mps.build.generictasks.structure.Attribute")), MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643466l, 353793545802643467l, "attributeDeclaration")), MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643469l, 353793545802643473l, "attributeType")), SNodeOperations.asSConcept(type));
+    if (SNodeOperations.isInstanceOf(parentNode, MetaAdapterFactory.getConcept(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64780aL, "jetbrains.mps.build.generictasks.structure.Attribute"))) {
+      return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SLinkOperations.getTarget(SNodeOperations.cast(parentNode, MetaAdapterFactory.getConcept(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64780aL, "jetbrains.mps.build.generictasks.structure.Attribute")), MetaAdapterFactory.getReferenceLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64780aL, 0x4e8ed5afd64780bL, "attributeDeclaration")), MetaAdapterFactory.getContainmentLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64780dL, 0x4e8ed5afd647811L, "attributeType")), SNodeOperations.asSConcept(type));
     } else
-    if (SNodeOperations.isInstanceOf(parentNode, MetaAdapterFactory.getConcept(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643469l, "jetbrains.mps.build.generictasks.structure.AttributeDeclaration"))) {
-      return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SNodeOperations.cast(parentNode, MetaAdapterFactory.getConcept(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643469l, "jetbrains.mps.build.generictasks.structure.AttributeDeclaration")), MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643469l, 353793545802643473l, "attributeType")), SNodeOperations.asSConcept(type));
+    if (SNodeOperations.isInstanceOf(parentNode, MetaAdapterFactory.getConcept(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64780dL, "jetbrains.mps.build.generictasks.structure.AttributeDeclaration"))) {
+      return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SNodeOperations.cast(parentNode, MetaAdapterFactory.getConcept(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64780dL, "jetbrains.mps.build.generictasks.structure.AttributeDeclaration")), MetaAdapterFactory.getContainmentLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64780dL, 0x4e8ed5afd647811L, "attributeType")), SNodeOperations.asSConcept(type));
     }
     return false;
   }

@@ -1,3 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="98mpa0nnr1w2ilw2e2s0sscughhn5kx" />
+<dependencies version="2" modelHash="98mpa0nnr1w2ilw2e2s0sscughhn5kx">
+  <dep model="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
+  <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="-8mvq2yd3j3rh7vv6t7pu93uymvs3d2n" />
+  <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" hash="-2cfrxcpb4y3j3dnaxd9arcmv2vw3toq" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="c4rzltjxh0py1utw119nmxblfk6uyyg" />
+  <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="dyswqfju0dze0vp40q0x5ffcejj7zen" />
+  <dep model="r:00000000-0000-4000-0000-011c89590373(jetbrains.mps.baseLanguage.classifiers.structure)" hash="-1uuaybt2eln3nlyv6c9f7mop67bw7va" />
+  <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="7acg7jfloizfkh7fz9512hws89btuf5" />
+  <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="-3fcvzpa8v8rf3aly8ijks960qkiha8x" />
+  <common hash="-3d0f9273xyjswev4nvg7tdaiiuroo2h" dependsOnNodes="true">
+    <dep root="1202387718766" />
+    <dep root="1202387945296" />
+    <dep root="1202387978141" />
+    <dep root="1202388384249" />
+    <dep root="1202388805843" />
+    <dep root="1202389314593" />
+    <dep root="1202464424004" />
+    <dep root="1202465023198" />
+    <dep root="1202478475127" />
+    <dep root="1202739819652" />
+    <dep root="1202742489421" />
+    <dep root="1202744043552" />
+    <dep root="1202816914429" />
+    <dep root="1202816951086" />
+    <dep root="1202817076568" />
+    <dep root="1202823654753" />
+    <dep root="1202823683703" />
+    <dep root="1202830095650" />
+    <dep root="1202831784434" />
+    <dep root="1203080174635" />
+    <dep root="1203084152264" />
+    <dep root="1203089479329" />
+    <dep root="1203520768804" />
+    <dep root="1207748052051" />
+    <dep root="1207748590566" />
+    <dep root="1207754257625" />
+    <dep root="1208087694312" />
+    <dep root="1208089639160" />
+    <dep root="1208089922381" />
+    <dep root="1208090496480" />
+    <dep root="1208090516982" />
+    <dep root="1208110293926" />
+    <dep root="1208685679469" />
+    <dep root="1209655552864" />
+    <dep root="1210173918195" />
+    <dep root="1210179557036" />
+    <dep root="1210519144319" />
+    <dep root="1210521546663" />
+    <dep root="1216903255225" />
+    <dep root="6242401288845934074" />
+    <dep model="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590373(jetbrains.mps.baseLanguage.classifiers.structure)" />
+    <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
+    <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
+    <file name="StructureAspectDescriptor.java" />
+  </common>
+  <source id="1202387978141" name="IComponentPart" hash="-4mv5q9smjnjvtydvkbr12vswb7pmgfl" />
+  <source id="1202387945296" name="ComponentInstance" hash="-cakfynd0lyisbt1aswmyoh74i263tiu" />
+  <source id="1202387718766" name="ComponentDeclaration" hash="b53khdfhasx8gb6ltvsjy5ov011twbg" />
+  <source id="1202388384249" name="ComponentController" hash="54tmbsl5acubi5l5j39vcivs88qxr2v" />
+  <source id="1202389314593" name="AttributeValue" hash="-c8hb65hfhb0sm8826e8yjm327xdiyor" />
+  <source id="1202388805843" name="AttributeDeclaration" hash="4fegtojt6dcfpzwibfiycpzz8b4d5wp" />
+  <source id="1202464424004" name="BindExpression" hash="-a6dsfszhajm26o2f4mf8k16e8iyan8b" />
+  <source id="1202465023198" name="ComponentType" hash="38kkyy23wgviacubbxrb734vi2skmp5" />
+  <source id="1202478475127" name="AttributeReferenceOperation" hash="4u3wwrp1zyye691b8oq6f9f6b4d6bhv" />
+  <source id="1202739819652" name="LayoutConstraint" hash="-2clhr0ze8p441b82jwvtedbuuvd7sre" />
+  <source id="1202742489421" name="ComponentReference" hash="7dh5j1hhcbcpei7osojm6gs14b2w8t8" />
+  <source id="1202744043552" name="ActionHandler" hash="cl8rfxiyt9j7ecp5ymehjbaan2zh3xg" />
+  <source id="1202816914429" name="Form" hash="-d2v287c8upiyyvs88a5b69qmko182zw" />
+  <source id="1202816951086" name="FormPart" hash="-e3ujdg3m39ypc9wsc9ds6vd0vrf7co8" />
+  <source id="1202817076568" name="IComponentInstance" hash="-26ijmc102462sc62bjucyeyjgzu5ig7" />
+  <source id="1202823654753" name="Grid" hash="-8facqwcn8ricibby6wn9c1np41yj4km" />
+  <source id="1202823683703" name="GridRow" hash="-dwok58e9jcaonon14cvjdopte2x261a" />
+  <source id="1202830095650" name="StandardDialog" hash="-b0evt7vvxm64sgaj3w25j31v3bbvvec" />
+  <source id="1202831784434" name="StandardDialogButton" hash="4k4ujqr4r80qcz0plj9d23ycihx2g79" />
+  <source id="1203080174635" name="AfterConstructionBlock" hash="5narjr8y6l52mur3hx0833wjpqu3icx" />
+  <source id="1203084152264" name="ListElements" hash="8hmmlud52qgkr5ivk1rirz8lg4t7ksf" />
+  <source id="1203089479329" name="Scroller" hash="-5grre3cuhkght44tqgl9eyp6p3irj1z" />
+  <source id="1203520768804" name="ComponentCreator" hash="-28fg1t05pmsdm7vvumwxj10fjnqybm7" />
+  <source id="1207748052051" name="BeanDeclaration" hash="1g2qujloqj0xbb8ruirc5rxy882i4jx" />
+  <source id="1207748590566" name="BeanType" hash="-7scbyc98ucpr4eepbqdp97kzloe9gq0" />
+  <source id="1207754257625" name="BeanCreator" hash="-e8eoykhth0ke4nrbxyunltwhf9qe18p" />
+  <source id="1208087694312" name="EventDeclaration" hash="dfzf3pbt8p7vzx0r286ulc81n9woczi" />
+  <source id="1208089639160" name="EventAccessOperation" hash="-5f1kd4t4grx7cvnsl992azjowlmjzzh" />
+  <source id="1208089922381" name="RaiseOperation" hash="-8bkqlpg2wabymm3m5gz6av8uyvbd4mk" />
+  <source id="1208090496480" name="AddListenerOperation" hash="7rddzswnnnhok3r71kw6o2hlj7rpl9l" />
+  <source id="1208090516982" name="RemoveListenerOperation" hash="-dp0newcba3grzgb1640ujcszscckag3" />
+  <source id="1208110293926" name="InlineEventHandler" hash="-3uq8u5cyq1q2czua8hklrcbf0cf559" />
+  <source id="1208685679469" name="EventHandlerReference" hash="-93m4h5wnbhaea2icds1ob03cyg764wh" />
+  <source id="1209655552864" name="RaiseInternalStatement" hash="dxf5s0xry10bpn3um02z69l9a1oen1w" />
+  <source id="1210173918195" name="StubCellRendererInfo" hash="-54o27yajztx133ys1qc5eaxaq0yvuer" />
+  <source id="1210179557036" name="CellRendererAttribute" hash="-3lilib5yeekod5ol0hzon8b09w8qvhl" />
+  <source id="1210519144319" name="InlineRenderer" hash="-7ntbot7pero0eqggfdz2ipdbr44dx98" />
+  <source id="1210521546663" name="RenderingObject" hash="am7qy20d4coffqxy97sucukj7d4896l" />
+  <source id="1216903255225" name="BeforeConstructionBlock" hash="bj9vhj5poar4blt5ti7y8vc2x9czviq" />
+  <source id="6242401288845934074" name="PngIcon" hash="-4cwsnuqjoxzacugebc8st4kf5u2juxd" />
+</dependencies>
 

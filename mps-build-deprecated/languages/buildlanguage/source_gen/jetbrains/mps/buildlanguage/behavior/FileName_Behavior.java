@@ -5,7 +5,6 @@ package jetbrains.mps.buildlanguage.behavior;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
@@ -13,13 +12,13 @@ import java.io.File;
 
 public class FileName_Behavior {
   public static void init(SNode thisNode) {
-    SLinkOperations.setTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1199031681512l, 1199031757132l, "value"), SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1196861005114l, "jetbrains.mps.buildlanguage.structure.StringLiteral"))));
+    SLinkOperations.setTarget(thisNode, MetaAdapterFactory.getContainmentLink(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x1172bdb81e8L, 0x1172bdca94cL, "value"), SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x116aa799d3aL, "jetbrains.mps.buildlanguage.structure.StringLiteral"))));
   }
   public static String virtual_toString_1213877472569(SNode thisNode) {
-    if ((SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1199031681512l, 1199031757132l, "value")) == null)) {
+    if ((SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x1172bdb81e8L, 0x1172bdca94cL, "value")) == null)) {
       return "";
     }
-    return BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1199031681512l, 1199031757132l, "value")), "virtual_toString_1213877472569", new Object[]{});
+    return BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x1172bdb81e8L, 0x1172bdca94cL, "value")), "virtual_toString_1213877472569", new Object[]{});
   }
   public static boolean call_exists_1213877511925(SNode thisNode) {
     String filename = BehaviorReflection.invokeVirtual(String.class, thisNode, "virtual_getActualValue_1213877472572", new Object[]{});
@@ -28,17 +27,17 @@ public class FileName_Behavior {
       return true;
     }
     SNode root = SNodeOperations.getContainingRoot(thisNode);
-    if (SNodeOperations.isInstanceOf(root, MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1196851066733l, "jetbrains.mps.buildlanguage.structure.Project"))) {
-      SNode project = SNodeOperations.cast(root, MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1196851066733l, "jetbrains.mps.buildlanguage.structure.Project"));
-      if ((SLinkOperations.getTarget(project, MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1196851066733l, 1199036079290l, "basedir")) == null)) {
+    if (SNodeOperations.isInstanceOf(root, MetaAdapterFactory.getConcept(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x116a9e1f76dL, "jetbrains.mps.buildlanguage.structure.Project"))) {
+      SNode project = SNodeOperations.cast(root, MetaAdapterFactory.getConcept(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x116a9e1f76dL, "jetbrains.mps.buildlanguage.structure.Project"));
+      if ((SLinkOperations.getTarget(project, MetaAdapterFactory.getContainmentLink(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x116a9e1f76dL, 0x1172c1e9cbaL, "basedir")) == null)) {
         return false;
       }
-      f = new File(BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(project, MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1196851066733l, 1199036079290l, "basedir")), "virtual_toString_1213877472569", new Object[]{}), filename);
+      f = new File(BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(project, MetaAdapterFactory.getContainmentLink(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x116a9e1f76dL, 0x1172c1e9cbaL, "basedir")), "virtual_toString_1213877472569", new Object[]{}), filename);
       return f.exists();
     }
     return true;
   }
   public static String virtual_getActualValue_1213877472572(SNode thisNode) {
-    return BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1199031681512l, 1199031757132l, "value")), "virtual_getActualValue_1213877472572", new Object[]{});
+    return BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x1172bdb81e8L, 0x1172bdca94cL, "value")), "virtual_getActualValue_1213877472572", new Object[]{});
   }
 }

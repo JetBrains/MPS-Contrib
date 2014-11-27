@@ -4,10 +4,9 @@ package jetbrains.mps.baseLanguage.datesInternal.constraints;
 
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
 import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
-import java.util.UUID;
 
 public class DateTimePropertyCardinality_Constraints extends BaseConstraintsDescriptor {
   public DateTimePropertyCardinality_Constraints() {
-    super(MetaIdFactory.conceptId(new UUID(1842350883898016625l, -7531592358064104734l), 1173953789261l));
+    super(MetaIdFactory.conceptId(0x1991585e225e4371L, 0x977a68a7888adae2L, 0x11155193d4dL));
   }
 }

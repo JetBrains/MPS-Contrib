@@ -25,7 +25,6 @@ import org.joda.time.DateTimeZone;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 
 public class DateTimeZone_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
@@ -170,7 +169,7 @@ public class DateTimeZone_Editor extends DefaultNodeEditor {
           continue;
         }
         String continent = str.substring(0, str.indexOf('/'));
-        if (SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(new UUID(1842350883898016625l, -7531592358064104734l), 1238668259228l, 1239366855147l, "continentOfCountry")) != null && continent.equals(SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(new UUID(1842350883898016625l, -7531592358064104734l), 1238668259228l, 1239366855147l, "continentOfCountry")))) {
+        if (SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(0x1991585e225e4371L, 0x977a68a7888adae2L, 0x1206661af9cL, 0x120900569ebL, "continentOfCountry")) != null && continent.equals(SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(0x1991585e225e4371L, 0x977a68a7888adae2L, 0x1206661af9cL, 0x120900569ebL, "continentOfCountry")))) {
           ListSequence.fromList(result).addElement(str.substring(str.indexOf('/') + 1));
         }
       }

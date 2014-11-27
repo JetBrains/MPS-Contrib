@@ -39,38 +39,38 @@ public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime
     }
   }
   public ConstraintsDescriptor getDescriptor(SConceptId conceptId) {
-    long id = conceptId.getConceptId();
-    if (id == 1174320693350l) {
+    long id = conceptId.getIdValue();
+    if (id == 0x1116af7c066L) {
       return new DurationType_Constraints();
     }
-    if (id == 1194006427224l) {
+    if (id == 0x11600543658L) {
       return new SchedulePeriod_Constraints();
     }
-    if (id == 1172074318583l) {
+    if (id == 0x110e512caf7L) {
       return new DateTimeProperty_Constraints();
     }
-    if (id == 1173953789261l) {
+    if (id == 0x11155193d4dL) {
       return new DateTimePropertyCardinality_Constraints();
     }
-    if (id == 1174043262324l) {
+    if (id == 0x1115a6e7d74L) {
       return new DateTimeZonePropertyFormatConfiguration_Constraints();
     }
-    if (id == 1173883503931l) {
+    if (id == 0x11150e8c53bL) {
       return new PredefinedDateFormat_Constraints();
     }
-    if (id == 1194005944850l) {
+    if (id == 0x116004cda12L) {
       return new Month_Constraints();
     }
-    if (id == 1174042847309l) {
+    if (id == 0x1115a68284dL) {
       return new DateTimePropertyConfiguration_Constraints();
     }
-    if (id == 1173953509960l) {
+    if (id == 0x1115514fa48L) {
       return new DateTimeIntPropertyFormatConfiguration_Constraints();
     }
-    if (id == 1173953623139l) {
+    if (id == 0x1115516b463L) {
       return new DateTimePropertyFormatType_Constraints();
     }
-    if (id == 34521615669325565l) {
+    if (id == 0x7aa539ff0aeefdL) {
       return new PredefinedPeriodFormat_Constraints();
     }
     return new BaseConstraintsDescriptor(conceptId);

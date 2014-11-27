@@ -5,7 +5,6 @@ package jetbrains.mps.buildlanguage.behavior;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
@@ -16,34 +15,34 @@ public class PlusOperation_Behavior {
   }
   public static String virtual_toString_1213877472569(SNode thisNode) {
     String left;
-    if ((SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1197107841918l, 1197107855106l, "left")) == null)) {
+    if ((SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x116b9300b7eL, 0x116b9303f02L, "left")) == null)) {
       left = "";
     } else {
-      left = BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1197107841918l, 1197107855106l, "left")), "virtual_toString_1213877472569", new Object[]{});
+      left = BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x116b9300b7eL, 0x116b9303f02L, "left")), "virtual_toString_1213877472569", new Object[]{});
     }
     String right;
-    if ((SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1197107841918l, 1197107881958l, "right")) == null)) {
+    if ((SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x116b9300b7eL, 0x116b930a7e6L, "right")) == null)) {
       right = "";
     } else {
-      right = BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1197107841918l, 1197107881958l, "right")), "virtual_toString_1213877472569", new Object[]{});
+      right = BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x116b9300b7eL, 0x116b930a7e6L, "right")), "virtual_toString_1213877472569", new Object[]{});
     }
     return left + right;
   }
   public static SNode virtual_getType_1213877398951(SNode thisNode, SNode s1, SNode s2) {
-    return SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1196870403099l, "jetbrains.mps.buildlanguage.structure.StringType")));
+    return SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x116ab09041bL, "jetbrains.mps.buildlanguage.structure.StringType")));
   }
   public static String virtual_getActualValue_1213877472572(SNode thisNode) {
     String left;
-    if ((SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1197107841918l, 1197107855106l, "left")) == null)) {
+    if ((SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x116b9300b7eL, 0x116b9303f02L, "left")) == null)) {
       left = "";
     } else {
-      left = BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1197107841918l, 1197107855106l, "left")), "virtual_getActualValue_1213877472572", new Object[]{});
+      left = BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x116b9300b7eL, 0x116b9303f02L, "left")), "virtual_getActualValue_1213877472572", new Object[]{});
     }
     String right;
-    if ((SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1197107841918l, 1197107881958l, "right")) == null)) {
+    if ((SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x116b9300b7eL, 0x116b930a7e6L, "right")) == null)) {
       right = "";
     } else {
-      right = BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1197107841918l, 1197107881958l, "right")), "virtual_getActualValue_1213877472572", new Object[]{});
+      right = BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x116b9300b7eL, 0x116b930a7e6L, "right")), "virtual_getActualValue_1213877472572", new Object[]{});
     }
     return left + right;
   }

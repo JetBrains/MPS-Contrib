@@ -5,7 +5,6 @@ package jetbrains.mps.build.generictasks.behavior;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import java.util.List;
 import java.util.ArrayList;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
@@ -21,14 +20,14 @@ import org.jetbrains.mps.openapi.module.SModule;
 
 public class BuiltInTaskDeclaration_Behavior {
   public static void init(SNode thisNode) {
-    SPropertyOperations.set(thisNode, MetaAdapterFactory.getProperty(new UUID(-314238378988976676l, -6739106179126467998l), 5699548131010533020l, 7699562953468509839l, "depracated"), "" + (false));
-    SPropertyOperations.set(thisNode, MetaAdapterFactory.getProperty(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643486l, 353793545802643496l, "fake"), "" + (false));
+    SPropertyOperations.set(thisNode, MetaAdapterFactory.getProperty(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4f18dcd3e11fd69cL, 0x6ada57b64f3f7e8fL, "depracated"), "" + (false));
+    SPropertyOperations.set(thisNode, MetaAdapterFactory.getProperty(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64781eL, 0x4e8ed5afd647828L, "fake"), "" + (false));
   }
   public static List<SNode> virtual_getAttributesDeclarations_1190349257898147625(SNode thisNode) {
     List<SNode> attrs = new ArrayList<SNode>();
-    ListSequence.fromList(attrs).addSequence(ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 5699548131010533020l, 7699562953468509840l, "attributesDecl"))));
-    if ((SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 5699548131010533020l, 7699562953468509841l, "parentRef")) != null) && SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 5699548131010533020l, 7699562953468509841l, "parentRef")), MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 3037831562615764081l, 3037831562615764082l, "declaration")), MetaAdapterFactory.getConcept(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643486l, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration"))) {
-      List<SNode> nodes = BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), ((SNode) SLinkOperations.getTarget(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 5699548131010533020l, 7699562953468509841l, "parentRef")), MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 3037831562615764081l, 3037831562615764082l, "declaration"))), "virtual_getAttributesDeclarations_1190349257898147625", new Object[]{});
+    ListSequence.fromList(attrs).addSequence(ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4f18dcd3e11fd69cL, 0x6ada57b64f3f7e90L, "attributesDecl"))));
+    if ((SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4f18dcd3e11fd69cL, 0x6ada57b64f3f7e91L, "parentRef")) != null) && SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4f18dcd3e11fd69cL, 0x6ada57b64f3f7e91L, "parentRef")), MetaAdapterFactory.getReferenceLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x2a288bb6092eb471L, 0x2a288bb6092eb472L, "declaration")), MetaAdapterFactory.getConcept(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64781eL, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration"))) {
+      List<SNode> nodes = BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), ((SNode) SLinkOperations.getTarget(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4f18dcd3e11fd69cL, 0x6ada57b64f3f7e91L, "parentRef")), MetaAdapterFactory.getReferenceLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x2a288bb6092eb471L, 0x2a288bb6092eb472L, "declaration"))), "virtual_getAttributesDeclarations_1190349257898147625", new Object[]{});
       for (SNode newAttrDecl : ListSequence.fromList(nodes)) {
         boolean found = false;
         for (SNode oldAttrDecl : ListSequence.fromList(attrs)) {
@@ -46,39 +45,39 @@ public class BuiltInTaskDeclaration_Behavior {
   }
   public static List<SNode> virtual_getNestedTasks_4241383766070831847(SNode thisNode) {
     List<SNode> nested = new ArrayList<SNode>();
-    for (SNode nref : ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643486l, 353793545802643489l, "nested")))) {
-      for (SNode ref : ListSequence.fromList(SLinkOperations.getChildren(nref, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643498l, 353793545802643499l, "role")))) {
-        ListSequence.fromList(nested).addElement(SLinkOperations.getTarget(ref, MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 3037831562615764081l, 3037831562615764082l, "declaration")));
+    for (SNode nref : ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64781eL, 0x4e8ed5afd647821L, "nested")))) {
+      for (SNode ref : ListSequence.fromList(SLinkOperations.getChildren(nref, MetaAdapterFactory.getContainmentLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64782aL, 0x4e8ed5afd64782bL, "role")))) {
+        ListSequence.fromList(nested).addElement(SLinkOperations.getTarget(ref, MetaAdapterFactory.getReferenceLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x2a288bb6092eb471L, 0x2a288bb6092eb472L, "declaration")));
       }
     }
-    if ((SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 5699548131010533020l, 7699562953468509841l, "parentRef")) != null)) {
-      ListSequence.fromList(nested).addSequence(ListSequence.fromList(BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), SLinkOperations.getTarget(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 5699548131010533020l, 7699562953468509841l, "parentRef")), MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 3037831562615764081l, 3037831562615764082l, "declaration")), "virtual_getNestedTasks_4241383766070831847", new Object[]{})));
+    if ((SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4f18dcd3e11fd69cL, 0x6ada57b64f3f7e91L, "parentRef")) != null)) {
+      ListSequence.fromList(nested).addSequence(ListSequence.fromList(BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), SLinkOperations.getTarget(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4f18dcd3e11fd69cL, 0x6ada57b64f3f7e91L, "parentRef")), MetaAdapterFactory.getReferenceLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x2a288bb6092eb471L, 0x2a288bb6092eb472L, "declaration")), "virtual_getNestedTasks_4241383766070831847", new Object[]{})));
     }
     return nested;
   }
   public static List<SNode> call_getFakeDeclarations_353793545802644200(SNode thisNode) {
     List<SNode> result = new ArrayList<SNode>();
-    for (SNode declaration : ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643486l, 353793545802643491l, "fakeDeclaration")))) {
-      if (!(SNodeOperations.isInstanceOf(declaration, MetaAdapterFactory.getConcept(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643483l, "jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration"))) && !(SPropertyOperations.getBoolean(declaration, MetaAdapterFactory.getProperty(new UUID(-314238378988976676l, -6739106179126467998l), 5699548131010533020l, 7699562953468509838l, "abstract")))) {
+    for (SNode declaration : ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64781eL, 0x4e8ed5afd647823L, "fakeDeclaration")))) {
+      if (!(SNodeOperations.isInstanceOf(declaration, MetaAdapterFactory.getConcept(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64781bL, "jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration"))) && !(SPropertyOperations.getBoolean(declaration, MetaAdapterFactory.getProperty(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4f18dcd3e11fd69cL, 0x6ada57b64f3f7e8eL, "abstract")))) {
         ListSequence.fromList(result).addElement(declaration);
       }
     }
-    if ((SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 5699548131010533020l, 7699562953468509841l, "parentRef")) != null) && SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 5699548131010533020l, 7699562953468509841l, "parentRef")), MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 3037831562615764081l, 3037831562615764082l, "declaration")), MetaAdapterFactory.getConcept(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643486l, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration"))) {
-      ListSequence.fromList(result).addSequence(ListSequence.fromList(BuiltInTaskDeclaration_Behavior.call_getFakeDeclarations_353793545802644200(SNodeOperations.cast(SLinkOperations.getTarget(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 5699548131010533020l, 7699562953468509841l, "parentRef")), MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 3037831562615764081l, 3037831562615764082l, "declaration")), MetaAdapterFactory.getConcept(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643486l, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration")))));
+    if ((SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4f18dcd3e11fd69cL, 0x6ada57b64f3f7e91L, "parentRef")) != null) && SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4f18dcd3e11fd69cL, 0x6ada57b64f3f7e91L, "parentRef")), MetaAdapterFactory.getReferenceLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x2a288bb6092eb471L, 0x2a288bb6092eb472L, "declaration")), MetaAdapterFactory.getConcept(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64781eL, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration"))) {
+      ListSequence.fromList(result).addSequence(ListSequence.fromList(BuiltInTaskDeclaration_Behavior.call_getFakeDeclarations_353793545802644200(SNodeOperations.cast(SLinkOperations.getTarget(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4f18dcd3e11fd69cL, 0x6ada57b64f3f7e91L, "parentRef")), MetaAdapterFactory.getReferenceLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x2a288bb6092eb471L, 0x2a288bb6092eb472L, "declaration")), MetaAdapterFactory.getConcept(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64781eL, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration")))));
     }
     return result;
   }
   public static boolean virtual_isHeirOf_5699548131010535069(SNode thisNode, SNode probableParent) {
-    if (SNodeOperations.isInstanceOf(probableParent, MetaAdapterFactory.getConcept(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643486l, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration")) && SPropertyOperations.getBoolean(SNodeOperations.cast(probableParent, MetaAdapterFactory.getConcept(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643486l, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration")), MetaAdapterFactory.getProperty(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643486l, 353793545802643496l, "fake"))) {
-      SNode declOfProbableParent = SNodeOperations.cast(probableParent, MetaAdapterFactory.getConcept(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643486l, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration"));
-      if ((SLinkOperations.getTarget(declOfProbableParent, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 5699548131010533020l, 7699562953468509841l, "parentRef")) != null) && BehaviorReflection.invokeVirtual(Boolean.TYPE, thisNode, "virtual_isHeirOf_5699548131010535069", new Object[]{SLinkOperations.getTarget(SLinkOperations.getTarget(declOfProbableParent, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 5699548131010533020l, 7699562953468509841l, "parentRef")), MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 3037831562615764081l, 3037831562615764082l, "declaration"))})) {
+    if (SNodeOperations.isInstanceOf(probableParent, MetaAdapterFactory.getConcept(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64781eL, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration")) && SPropertyOperations.getBoolean(SNodeOperations.cast(probableParent, MetaAdapterFactory.getConcept(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64781eL, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration")), MetaAdapterFactory.getProperty(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64781eL, 0x4e8ed5afd647828L, "fake"))) {
+      SNode declOfProbableParent = SNodeOperations.cast(probableParent, MetaAdapterFactory.getConcept(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64781eL, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration"));
+      if ((SLinkOperations.getTarget(declOfProbableParent, MetaAdapterFactory.getContainmentLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4f18dcd3e11fd69cL, 0x6ada57b64f3f7e91L, "parentRef")) != null) && BehaviorReflection.invokeVirtual(Boolean.TYPE, thisNode, "virtual_isHeirOf_5699548131010535069", new Object[]{SLinkOperations.getTarget(SLinkOperations.getTarget(declOfProbableParent, MetaAdapterFactory.getContainmentLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4f18dcd3e11fd69cL, 0x6ada57b64f3f7e91L, "parentRef")), MetaAdapterFactory.getReferenceLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x2a288bb6092eb471L, 0x2a288bb6092eb472L, "declaration"))})) {
         return true;
       }
-      if ((SLinkOperations.getTarget(declOfProbableParent, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 5699548131010533020l, 7699562953468509841l, "parentRef")) != null)) {
+      if ((SLinkOperations.getTarget(declOfProbableParent, MetaAdapterFactory.getContainmentLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4f18dcd3e11fd69cL, 0x6ada57b64f3f7e91L, "parentRef")) != null)) {
         return false;
       }
-      for (SNode intRef : ListSequence.fromList(SLinkOperations.getChildren(declOfProbableParent, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 5699548131010533020l, 7699562953468509842l, "interfaces")))) {
-        if (BehaviorReflection.invokeVirtual(Boolean.TYPE, thisNode, "virtual_isHeirOf_5699548131010535069", new Object[]{SLinkOperations.getTarget(intRef, MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 3037831562615764081l, 3037831562615764082l, "declaration"))})) {
+      for (SNode intRef : ListSequence.fromList(SLinkOperations.getChildren(declOfProbableParent, MetaAdapterFactory.getContainmentLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4f18dcd3e11fd69cL, 0x6ada57b64f3f7e92L, "interfaces")))) {
+        if (BehaviorReflection.invokeVirtual(Boolean.TYPE, thisNode, "virtual_isHeirOf_5699548131010535069", new Object[]{SLinkOperations.getTarget(intRef, MetaAdapterFactory.getReferenceLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x2a288bb6092eb471L, 0x2a288bb6092eb472L, "declaration"))})) {
           return true;
         }
       }
@@ -87,13 +86,13 @@ public class BuiltInTaskDeclaration_Behavior {
     if (BehaviorReflection.invokeSuper(Boolean.TYPE, thisNode, "jetbrains.mps.build.generictasks.structure.ITaskDeclaration", "virtual_isHeirOf_5699548131010535069", new Object[]{probableParent})) {
       return true;
     }
-    if (SNodeOperations.isInstanceOf(probableParent, MetaAdapterFactory.getConcept(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643483l, "jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration"))) {
-      for (SNode interfaceReference : ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 5699548131010533020l, 7699562953468509842l, "interfaces")))) {
-        if ((SLinkOperations.getTarget(interfaceReference, MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 3037831562615764081l, 3037831562615764082l, "declaration")) == null)) {
+    if (SNodeOperations.isInstanceOf(probableParent, MetaAdapterFactory.getConcept(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64781bL, "jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration"))) {
+      for (SNode interfaceReference : ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4f18dcd3e11fd69cL, 0x6ada57b64f3f7e92L, "interfaces")))) {
+        if ((SLinkOperations.getTarget(interfaceReference, MetaAdapterFactory.getReferenceLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x2a288bb6092eb471L, 0x2a288bb6092eb472L, "declaration")) == null)) {
           System.err.println("Node " + interfaceReference + " have null declaration.");
           continue;
         }
-        if (BehaviorReflection.invokeVirtual(Boolean.TYPE, SLinkOperations.getTarget(interfaceReference, MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 3037831562615764081l, 3037831562615764082l, "declaration")), "virtual_isHeirOf_5699548131010535069", new Object[]{probableParent})) {
+        if (BehaviorReflection.invokeVirtual(Boolean.TYPE, SLinkOperations.getTarget(interfaceReference, MetaAdapterFactory.getReferenceLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x2a288bb6092eb471L, 0x2a288bb6092eb472L, "declaration")), "virtual_isHeirOf_5699548131010535069", new Object[]{probableParent})) {
           return true;
         }
       }
@@ -101,7 +100,7 @@ public class BuiltInTaskDeclaration_Behavior {
     return false;
   }
   public static boolean virtual_canBeRootTask_1449762848926780427(SNode thisNode) {
-    return BehaviorReflection.invokeSuper(Boolean.TYPE, thisNode, "jetbrains.mps.build.generictasks.structure.ITaskDeclaration", "virtual_canBeRootTask_1449762848926780427", new Object[]{}) && !(SPropertyOperations.getBoolean(thisNode, MetaAdapterFactory.getProperty(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643486l, 353793545802643496l, "fake")));
+    return BehaviorReflection.invokeSuper(Boolean.TYPE, thisNode, "jetbrains.mps.build.generictasks.structure.ITaskDeclaration", "virtual_canBeRootTask_1449762848926780427", new Object[]{}) && !(SPropertyOperations.getBoolean(thisNode, MetaAdapterFactory.getProperty(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64781eL, 0x4e8ed5afd647828L, "fake")));
   }
   public static Iterable<SNode> virtual_getPossibleNesteds_1449762848926780436(SNode thisNode, List<SNode> declarations) {
     return Sequence.fromIterable(BehaviorReflection.invokeSuper((Class<Iterable<SNode>>) ((Class) Object.class), thisNode, "jetbrains.mps.build.generictasks.structure.ITaskDeclaration", "virtual_getPossibleNesteds_1449762848926780436", new Object[]{declarations})).union(ListSequence.fromList(BuiltInTaskDeclaration_Behavior.call_getFakeDeclarations_353793545802644200(thisNode)));
@@ -110,7 +109,7 @@ public class BuiltInTaskDeclaration_Behavior {
     return BehaviorReflection.invokeSuper(Boolean.TYPE, thisNode, "jetbrains.mps.build.generictasks.structure.ITaskDeclaration", "virtual_isPossibleNested_1648602681640249389", new Object[]{declaration, nestedTasks}) || ListSequence.fromList(BuiltInTaskDeclaration_Behavior.call_getFakeDeclarations_353793545802644200(thisNode)).contains(declaration);
   }
   public static boolean virtual_filterMeOut_4710899751214010949(SNode thisNode) {
-    return SPropertyOperations.getBoolean(thisNode, MetaAdapterFactory.getProperty(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643486l, 353793545802643496l, "fake"));
+    return SPropertyOperations.getBoolean(thisNode, MetaAdapterFactory.getProperty(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64781eL, 0x4e8ed5afd647828L, "fake"));
   }
   public static boolean call_isInGeneratedModels_1445805690439864419(SAbstractConcept thisConcept, SModel model) {
     return eq_y5o5bz_a0a0j(check_y5o5bz_a0a0i(check_y5o5bz_a0a0a8(model)), PersistenceFacade.getInstance().createModuleReference("fba399db-f591-45dc-a279-e2a2a986e262(jetbrains.mps.build.generictasks)"));

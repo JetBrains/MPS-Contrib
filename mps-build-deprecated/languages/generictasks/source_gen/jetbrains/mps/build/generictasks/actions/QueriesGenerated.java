@@ -14,7 +14,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.util.Computable;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.smodel.action.DefaultChildNodeSubstituteAction;
 import org.jetbrains.mps.openapi.model.SModel;
 import jetbrains.mps.smodel.action.SNodeFactoryOperations;
@@ -30,16 +29,16 @@ public class QueriesGenerated {
       if (SConceptOperations.isSuperConceptOf(SNodeOperations.asSConcept(childConcept), SNodeOperations.asSConcept(outputConcept))) {
         Iterable<SNode> queryResult = new Computable<Iterable<SNode>>() {
           public Iterable<SNode> compute() {
-            SNode decl = SLinkOperations.getTarget(SNodeOperations.cast(_context.getParentNode(), MetaAdapterFactory.getConcept(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643466l, "jetbrains.mps.build.generictasks.structure.Attribute")), MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643466l, 353793545802643467l, "attributeDeclaration"));
-            return SLinkOperations.getChildren(SLinkOperations.getTarget(decl, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643469l, 353793545802643474l, "enum")), MetaAdapterFactory.getContainmentLink(new UUID(819810455698030989l, -8713019626243247156l), 1197398796434l, 1197398804591l, "constants"));
+            SNode decl = SLinkOperations.getTarget(SNodeOperations.cast(_context.getParentNode(), MetaAdapterFactory.getConcept(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64780aL, "jetbrains.mps.build.generictasks.structure.Attribute")), MetaAdapterFactory.getReferenceLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64780aL, 0x4e8ed5afd64780bL, "attributeDeclaration"));
+            return SLinkOperations.getChildren(SLinkOperations.getTarget(decl, MetaAdapterFactory.getContainmentLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64780dL, 0x4e8ed5afd647812L, "enum")), MetaAdapterFactory.getContainmentLink(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x116ca87a892L, 0x116ca87c86fL, "constants"));
           }
         }.compute();
         if (queryResult != null) {
           for (final SNode item : queryResult) {
             ListSequence.fromList(result).addElement(new DefaultChildNodeSubstituteAction(outputConcept, item, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter()) {
               public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
-                SNode node = SNodeFactoryOperations.createNewNode(SNodeFactoryOperations.asInstanceConcept(MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1196861005114l, "jetbrains.mps.buildlanguage.structure.StringLiteral")), null);
-                SPropertyOperations.set(node, MetaAdapterFactory.getProperty(new UUID(819810455698030989l, -8713019626243247156l), 1196861005114l, 1196861024475l, "value"), SPropertyOperations.getString((item), MetaAdapterFactory.getProperty(new UUID(819810455698030989l, -8713019626243247156l), 1196861005114l, 1196861024475l, "value")));
+                SNode node = SNodeFactoryOperations.createNewNode(SNodeFactoryOperations.asInstanceConcept(MetaAdapterFactory.getConcept(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x116aa799d3aL, "jetbrains.mps.buildlanguage.structure.StringLiteral")), null);
+                SPropertyOperations.set(node, MetaAdapterFactory.getProperty(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x116aa799d3aL, 0x116aa79e8dbL, "value"), SPropertyOperations.getString((item), MetaAdapterFactory.getProperty(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x116aa799d3aL, 0x116aa79e8dbL, "value")));
                 return node;
               }
             });
@@ -50,10 +49,10 @@ public class QueriesGenerated {
     return result;
   }
   public static boolean nodeSubstituteActionsBuilder_Precondition_PropertyValueExpression_353793545802854369(final IOperationContext operationContext, final NodeSubstitutePreconditionContext _context) {
-    if (!(SNodeOperations.isInstanceOf(_context.getParentNode(), MetaAdapterFactory.getConcept(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643466l, "jetbrains.mps.build.generictasks.structure.Attribute")))) {
+    if (!(SNodeOperations.isInstanceOf(_context.getParentNode(), MetaAdapterFactory.getConcept(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64780aL, "jetbrains.mps.build.generictasks.structure.Attribute")))) {
       return false;
     }
-    SNode decl = SLinkOperations.getTarget(SNodeOperations.cast(_context.getParentNode(), MetaAdapterFactory.getConcept(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643466l, "jetbrains.mps.build.generictasks.structure.Attribute")), MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643466l, 353793545802643467l, "attributeDeclaration"));
-    return ((SLinkOperations.getTarget(decl, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643469l, 353793545802643474l, "enum")) != null)) && SNodeOperations.isInstanceOf(SLinkOperations.getTarget(decl, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643469l, 353793545802643474l, "enum")), MetaAdapterFactory.getConcept(new UUID(819810455698030989l, -8713019626243247156l), 1197399151554l, "jetbrains.mps.buildlanguage.structure.StringEnum"));
+    SNode decl = SLinkOperations.getTarget(SNodeOperations.cast(_context.getParentNode(), MetaAdapterFactory.getConcept(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64780aL, "jetbrains.mps.build.generictasks.structure.Attribute")), MetaAdapterFactory.getReferenceLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64780aL, 0x4e8ed5afd64780bL, "attributeDeclaration"));
+    return ((SLinkOperations.getTarget(decl, MetaAdapterFactory.getContainmentLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64780dL, 0x4e8ed5afd647812L, "enum")) != null)) && SNodeOperations.isInstanceOf(SLinkOperations.getTarget(decl, MetaAdapterFactory.getContainmentLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64780dL, 0x4e8ed5afd647812L, "enum")), MetaAdapterFactory.getConcept(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x116ca8d13c2L, "jetbrains.mps.buildlanguage.structure.StringEnum"));
   }
 }

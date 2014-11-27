@@ -5,10 +5,9 @@ package jetbrains.mps.xml.deprecated.behavior;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 
 public class Document_Behavior {
   public static void init(SNode thisNode) {
-    SPropertyOperations.set(thisNode, MetaAdapterFactory.getProperty(new UUID(-9061952983114822898l, -7881051372423955543l), 1119976146404l, 1234428502488l, "extension"), "xml");
+    SPropertyOperations.set(thisNode, MetaAdapterFactory.getProperty(0x823d79c62e264b0eL, 0x92a0e1884a10bba9L, 0x104c3c7c5e4L, 0x11f69ac21d8L, "extension"), "xml");
   }
 }

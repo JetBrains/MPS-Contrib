@@ -3,7 +3,6 @@
   <dependency className="jetbrains.mps.execution.configurations.deprecated.scripts.FixReferencesToDeletedRunModels_MigrationScript" file="FixReferencesToDeletedRunModels_MigrationScript.java">
     <classNode dependClassName="java.lang.Iterable" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.execution.configurations.deprecated.scripts.ScriptsUtil" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ISequenceClosure" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IWhereFilter" />
@@ -25,7 +24,6 @@
   </dependency>
   <dependency className="jetbrains.mps.execution.configurations.deprecated.scripts.FixReferencesToMpsLaunch_MigrationScript" file="FixReferencesToMpsLaunch_MigrationScript.java">
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.UUID" />
     <classNode dependClassName="jetbrains.mps.execution.configurations.deprecated.scripts.ScriptsUtil" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.Sequence" />
     <classNode dependClassName="jetbrains.mps.lang.script.runtime.AbstractMigrationRefactoring" />

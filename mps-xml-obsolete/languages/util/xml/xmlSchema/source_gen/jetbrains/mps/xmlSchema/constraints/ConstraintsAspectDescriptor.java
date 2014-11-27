@@ -39,38 +39,38 @@ public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime
     }
   }
   public ConstraintsDescriptor getDescriptor(SConceptId conceptId) {
-    long id = conceptId.getConceptId();
-    if (id == 1167697887602l) {
+    long id = conceptId.getIdValue();
+    if (id == 0x10fe037c172L) {
       return new AttributeDeclaration_Constraints();
     }
-    if (id == 1172950047361l) {
+    if (id == 0x11119455a81L) {
       return new EntityDeclaration_Constraints();
     }
-    if (id == 1167838236835l) {
+    if (id == 0x10fe89550a3L) {
       return new ElementDeclaration_Constraints();
     }
-    if (id == 1167615791597l) {
+    if (id == 0x10fdb5311edL) {
       return new ComplexType_Constraints();
     }
-    if (id == 1172948996536l) {
+    if (id == 0x111193551b8L) {
       return new EntitySet_Constraints();
     }
-    if (id == 1167597273853l) {
+    if (id == 0x10fda3882fdL) {
       return new GroupDeclaration_Constraints();
     }
-    if (id == 1167513851570l) {
+    if (id == 0x10fd53f96b2L) {
       return new Declaration_Constraints();
     }
-    if (id == 1167513239198l) {
+    if (id == 0x10fd5363e9eL) {
       return new Schema_Constraints();
     }
-    if (id == 1167710782427l) {
+    if (id == 0x10fe0fc83dbL) {
       return new AttributeGroup_Constraints();
     }
-    if (id == 1167790566663l) {
+    if (id == 0x10fe5bded07L) {
       return new ComplexTypeReference_Constraints();
     }
-    if (id == 6992757512063653197l) {
+    if (id == 0x610b43e872ff954dL) {
       return new BoundExpression_Constraints();
     }
     return new BaseConstraintsDescriptor(conceptId);

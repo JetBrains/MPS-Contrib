@@ -10,7 +10,6 @@ import jetbrains.mps.editor.runtime.cells.BigCellUtil;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.openapi.editor.style.Style;
@@ -49,7 +48,7 @@ public class Comment_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private static boolean renderingCondition_gt4ssm_a0(SNode node, EditorContext editorContext) {
-    return ListSequence.fromList(SLinkOperations.getChildren(node, MetaAdapterFactory.getContainmentLink(new UUID(7275049699783163986l, -6957227899428870635l), 1174840272325l, 1174840272326l, "text"))).count() <= 1;
+    return ListSequence.fromList(SLinkOperations.getChildren(node, MetaAdapterFactory.getContainmentLink(0x64f62b2836e34052L, 0x9f72f616211ae615L, 0x11189efe5c5L, 0x11189efe5c6L, "text"))).count() <= 1;
   }
   private EditorCell createCollection_gt4ssm_a0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);

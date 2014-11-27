@@ -13,7 +13,6 @@ import jetbrains.mps.smodel.SNodePointer;
 import java.util.Collections;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.intentions.IntentionDescriptor;
 
 public class MakeTypeExpressionListVertical_Intention implements IntentionFactory {
@@ -57,10 +56,10 @@ public class MakeTypeExpressionListVertical_Intention implements IntentionFactor
     public IntentionImplementation() {
     }
     public String getDescription(final SNode node, final EditorContext editorContext) {
-      return (SPropertyOperations.getBoolean(node, MetaAdapterFactory.getProperty(new UUID(-5396545995874219192l, -5548206827574227681l), 1167795596947l, 1167845523677l, "isVertical")) ? "Make type expression list horizontal" : "Make type expression list vertical");
+      return (SPropertyOperations.getBoolean(node, MetaAdapterFactory.getProperty(0xb51b9e0245dc4b48L, 0xb300cf49360a8d1fL, 0x10fe60aae93L, 0x10fe90480ddL, "isVertical")) ? "Make type expression list horizontal" : "Make type expression list vertical");
     }
     public void execute(final SNode node, final EditorContext editorContext) {
-      SPropertyOperations.set(node, MetaAdapterFactory.getProperty(new UUID(-5396545995874219192l, -5548206827574227681l), 1167795596947l, 1167845523677l, "isVertical"), "" + (!(SPropertyOperations.getBoolean(node, MetaAdapterFactory.getProperty(new UUID(-5396545995874219192l, -5548206827574227681l), 1167795596947l, 1167845523677l, "isVertical")))));
+      SPropertyOperations.set(node, MetaAdapterFactory.getProperty(0xb51b9e0245dc4b48L, 0xb300cf49360a8d1fL, 0x10fe60aae93L, 0x10fe90480ddL, "isVertical"), "" + (!(SPropertyOperations.getBoolean(node, MetaAdapterFactory.getProperty(0xb51b9e0245dc4b48L, 0xb300cf49360a8d1fL, 0x10fe60aae93L, 0x10fe90480ddL, "isVertical")))));
     }
     public IntentionDescriptor getDescriptor() {
       return MakeTypeExpressionListVertical_Intention.this;

@@ -6,7 +6,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.util.NameUtil;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.util.SNodeOperations;
 import jetbrains.mps.checkedName.PropertyReference;
 
@@ -14,7 +13,7 @@ public class RunConfigurationTypeDeclaration_Behavior {
   public static void init(SNode thisNode) {
   }
   public static String call_getGeneratedName_314981645426570387(SNode thisNode) {
-    return NameUtil.toValidIdentifier(SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name"))) + "_ConfigurationType";
+    return NameUtil.toValidIdentifier(SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"))) + "_ConfigurationType";
   }
   public static String call_getGeneratedClassFQName_314981645426570398(SNode thisNode) {
     return SNodeOperations.getModelLongName(jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations.getModel(thisNode)) + "." + RunConfigurationTypeDeclaration_Behavior.call_getGeneratedName_314981645426570387(thisNode);

@@ -4,7 +4,6 @@ package jetbrains.mps.xmlSchema.constraints;
 
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
 import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
-import java.util.UUID;
 import java.util.Map;
 import jetbrains.mps.smodel.adapter.ids.SReferenceLinkId;
 import jetbrains.mps.smodel.runtime.ReferenceConstraintsDescriptor;
@@ -21,12 +20,12 @@ import jetbrains.mps.smodel.SNodePointer;
 
 public class ComplexTypeReference_Constraints extends BaseConstraintsDescriptor {
   public ComplexTypeReference_Constraints() {
-    super(MetaIdFactory.conceptId(new UUID(-5396545995874219192l, -5548206827574227681l), 1167790566663l));
+    super(MetaIdFactory.conceptId(0xb51b9e0245dc4b48L, 0xb300cf49360a8d1fL, 0x10fe5bded07L));
   }
   @Override
   protected Map<SReferenceLinkId, ReferenceConstraintsDescriptor> getNotDefaultSReferenceLinks() {
     Map<SReferenceLinkId, ReferenceConstraintsDescriptor> references = new HashMap<SReferenceLinkId, ReferenceConstraintsDescriptor>();
-    references.put(MetaIdFactory.refId(new UUID(-5396545995874219192l, -5548206827574227681l), 1167790566663l, 1167790582664l), new BaseReferenceConstraintsDescriptor(MetaIdFactory.refId(new UUID(-5396545995874219192l, -5548206827574227681l), 1167790566663l, 1167790582664l), this) {
+    references.put(MetaIdFactory.refId(0xb51b9e0245dc4b48L, 0xb300cf49360a8d1fL, 0x10fe5bded07L, 0x10fe5be2b88L), new BaseReferenceConstraintsDescriptor(MetaIdFactory.refId(0xb51b9e0245dc4b48L, 0xb300cf49360a8d1fL, 0x10fe5bded07L, 0x10fe5be2b88L), this) {
       @Override
       public boolean hasOwnScopeProvider() {
         return true;

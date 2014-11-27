@@ -4,7 +4,6 @@ package jetbrains.mps.baseLanguage.datesInternal.constraints;
 
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
 import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
-import java.util.UUID;
 import java.util.Map;
 import jetbrains.mps.smodel.adapter.ids.SReferenceLinkId;
 import jetbrains.mps.smodel.runtime.ReferenceConstraintsDescriptor;
@@ -29,12 +28,12 @@ import jetbrains.mps.smodel.SNodePointer;
 
 public class DateTimeProperty_Constraints extends BaseConstraintsDescriptor {
   public DateTimeProperty_Constraints() {
-    super(MetaIdFactory.conceptId(new UUID(1842350883898016625l, -7531592358064104734l), 1172074318583l));
+    super(MetaIdFactory.conceptId(0x1991585e225e4371L, 0x977a68a7888adae2L, 0x110e512caf7L));
   }
   @Override
   protected Map<SReferenceLinkId, ReferenceConstraintsDescriptor> getNotDefaultSReferenceLinks() {
     Map<SReferenceLinkId, ReferenceConstraintsDescriptor> references = new HashMap<SReferenceLinkId, ReferenceConstraintsDescriptor>();
-    references.put(MetaIdFactory.refId(new UUID(1842350883898016625l, -7531592358064104734l), 1172074318583l, 1172492673219l), new BaseReferenceConstraintsDescriptor(MetaIdFactory.refId(new UUID(1842350883898016625l, -7531592358064104734l), 1172074318583l, 1172492673219l), this) {
+    references.put(MetaIdFactory.refId(0x1991585e225e4371L, 0x977a68a7888adae2L, 0x110e512caf7L, 0x110fe0260c3L), new BaseReferenceConstraintsDescriptor(MetaIdFactory.refId(0x1991585e225e4371L, 0x977a68a7888adae2L, 0x110e512caf7L, 0x110fe0260c3L), this) {
       @Override
       public boolean hasOwnScopeProvider() {
         return true;
@@ -54,7 +53,7 @@ public class DateTimeProperty_Constraints extends BaseConstraintsDescriptor {
         };
       }
     });
-    references.put(MetaIdFactory.refId(new UUID(1842350883898016625l, -7531592358064104734l), 1172074318583l, 1172155646667l), new BaseReferenceConstraintsDescriptor(MetaIdFactory.refId(new UUID(1842350883898016625l, -7531592358064104734l), 1172074318583l, 1172155646667l), this) {
+    references.put(MetaIdFactory.refId(0x1991585e225e4371L, 0x977a68a7888adae2L, 0x110e512caf7L, 0x110e9ebc2cbL), new BaseReferenceConstraintsDescriptor(MetaIdFactory.refId(0x1991585e225e4371L, 0x977a68a7888adae2L, 0x110e512caf7L, 0x110e9ebc2cbL), this) {
       @Override
       public boolean hasOwnScopeProvider() {
         return true;
@@ -74,7 +73,7 @@ public class DateTimeProperty_Constraints extends BaseConstraintsDescriptor {
         };
       }
     });
-    references.put(MetaIdFactory.refId(new UUID(1842350883898016625l, -7531592358064104734l), 1172074318583l, 48671598476606809l), new BaseReferenceConstraintsDescriptor(MetaIdFactory.refId(new UUID(1842350883898016625l, -7531592358064104734l), 1172074318583l, 48671598476606809l), this) {
+    references.put(MetaIdFactory.refId(0x1991585e225e4371L, 0x977a68a7888adae2L, 0x110e512caf7L, 0xacea8f99d93d59L), new BaseReferenceConstraintsDescriptor(MetaIdFactory.refId(0x1991585e225e4371L, 0x977a68a7888adae2L, 0x110e512caf7L, 0xacea8f99d93d59L), this) {
       @Override
       public boolean hasOwnScopeProvider() {
         return true;

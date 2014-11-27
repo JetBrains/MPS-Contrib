@@ -5,7 +5,6 @@ package jetbrains.mps.build.property.behavior;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import java.util.List;
@@ -16,10 +15,10 @@ public class PropertyNode_Behavior {
   public static void init(SNode thisNode) {
   }
   public static String call_getFileName_1213877341757(SNode thisNode) {
-    return SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name")) + BehaviorReflection.invokeVirtualStatic(String.class, SNodeOperations.asSConcept(SNodeOperations.getConceptDeclaration(thisNode)), "virtual_getExtension_1262430001741497933", new Object[]{});
+    return SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")) + BehaviorReflection.invokeVirtualStatic(String.class, SNodeOperations.asSConcept(SNodeOperations.getConceptDeclaration(thisNode)), "virtual_getExtension_1262430001741497933", new Object[]{});
   }
   public static List<SNode> virtual_getProperties_1213877375726(SNode thisNode) {
-    return SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(-2494528174342584927l, -7303847360425402116l), 1200504738494l, 1200504738496l, "declaration"));
+    return SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(0xdd61a7d78e1b45a1L, 0x9aa38585ec2b60fcL, 0x11783a892beL, 0x11783a892c0L, "declaration"));
   }
   public static String virtual_getExtension_1262430001741497933(SAbstractConcept thisConcept) {
     return ".properties";

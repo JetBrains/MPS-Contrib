@@ -10,82 +10,82 @@
   <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
   <root nodeRef="r:00000000-0000-4000-0000-011c895903d8(jetbrains.mps.baseLanguage.dates.generator.baseLanguage.template.util)/1169555993608">
     <file name="DatesQueriesUtil.java">
-      <node id="1224671086657" at="15,0,16,0" concept="6" trace="FORMAL_TABLES_CONTAINER" />
-      <node id="1173785483869" at="16,47,17,38" concept="5" />
-      <node id="1169556267870" at="19,88,20,50" concept="5" />
-      <node id="1169556647964" at="22,89,23,235" concept="4" />
-      <node id="1216936028892" at="23,235,24,85" concept="5" />
-      <node id="1169556826781" at="26,95,27,57" concept="4" />
-      <node id="1169556882226" at="27,57,28,24" concept="4" />
-      <node id="1169556929461" at="30,188,31,21" concept="1" />
-      <node id="1169556936716" at="31,21,32,14" concept="0" />
-      <node id="1227744086295" at="35,25,36,79" concept="1" />
-      <node id="1169556893917" at="37,5,38,18" concept="5" />
-      <node id="4396211440736522082" at="40,56,41,25" concept="4" />
-      <node id="4396211440736522088" at="42,245,43,20" concept="1" />
-      <node id="4396211440736522102" at="45,245,46,20" concept="1" />
-      <node id="4396211440736522116" at="48,244,49,20" concept="1" />
-      <node id="4396211440736522130" at="51,244,52,20" concept="1" />
-      <node id="4396211440736522144" at="54,245,55,20" concept="1" />
-      <node id="4396211440736522158" at="57,245,58,20" concept="1" />
-      <node id="4396211440736522170" at="59,5,60,18" concept="5" />
-      <node id="1173785436953" at="16,0,19,0" concept="7" trace="getFQName#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
-      <node id="1169556002655" at="19,0,22,0" concept="7" trace="findEnclosingTableClass#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/generator/template/TemplateQueryContext;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-      <node id="1169556941500" at="34,5,37,5" concept="3" />
-      <node id="4396211440736522086" at="41,25,44,5" concept="3" />
-      <node id="4396211440736522100" at="44,5,47,5" concept="3" />
-      <node id="4396211440736522114" at="47,5,50,5" concept="3" />
-      <node id="4396211440736522128" at="50,5,53,5" concept="3" />
-      <node id="4396211440736522142" at="53,5,56,5" concept="3" />
-      <node id="4396211440736522156" at="56,5,59,5" concept="3" />
-      <node id="1169556611243" at="22,0,26,0" concept="7" trace="findEnclosingTableClass2#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/generator/template/TemplateQueryContext;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-      <node id="1169556898529" at="29,88,33,7" concept="3" />
-      <node id="1169556848275" at="28,24,34,5" concept="2" />
-      <node id="1169556566372" at="26,0,40,0" concept="7" trace="findFormattersFieldDeclaration#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/generator/template/TemplateQueryContext;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-      <node id="4396211440736522074" at="40,0,62,0" concept="7" trace="getCompareType#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
-      <scope id="1173785436955" at="16,47,17,38" />
-      <scope id="1169556002657" at="19,88,20,50" />
-      <scope id="1169556941502" at="35,25,36,79" />
-      <scope id="4396211440736522087" at="42,245,43,20" />
-      <scope id="4396211440736522101" at="45,245,46,20" />
-      <scope id="4396211440736522115" at="48,244,49,20" />
-      <scope id="4396211440736522129" at="51,244,52,20" />
-      <scope id="4396211440736522143" at="54,245,55,20" />
-      <scope id="4396211440736522157" at="57,245,58,20" />
-      <scope id="1169556611245" at="22,89,24,85">
+      <node id="1224671086657" at="14,0,15,0" concept="6" trace="FORMAL_TABLES_CONTAINER" />
+      <node id="1173785483869" at="15,47,16,38" concept="5" />
+      <node id="1169556267870" at="18,88,19,50" concept="5" />
+      <node id="1169556647964" at="21,89,22,221" concept="4" />
+      <node id="1216936028892" at="22,221,23,85" concept="5" />
+      <node id="1169556826781" at="25,95,26,57" concept="4" />
+      <node id="1169556882226" at="26,57,27,24" concept="4" />
+      <node id="1169556929461" at="29,174,30,21" concept="1" />
+      <node id="1169556936716" at="30,21,31,14" concept="0" />
+      <node id="1227744086295" at="34,25,35,79" concept="1" />
+      <node id="1169556893917" at="36,5,37,18" concept="5" />
+      <node id="4396211440736522082" at="39,56,40,25" concept="4" />
+      <node id="4396211440736522088" at="41,230,42,20" concept="1" />
+      <node id="4396211440736522102" at="44,230,45,20" concept="1" />
+      <node id="4396211440736522116" at="47,229,48,20" concept="1" />
+      <node id="4396211440736522130" at="50,229,51,20" concept="1" />
+      <node id="4396211440736522144" at="53,230,54,20" concept="1" />
+      <node id="4396211440736522158" at="56,230,57,20" concept="1" />
+      <node id="4396211440736522170" at="58,5,59,18" concept="5" />
+      <node id="1173785436953" at="15,0,18,0" concept="7" trace="getFQName#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="1169556002655" at="18,0,21,0" concept="7" trace="findEnclosingTableClass#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/generator/template/TemplateQueryContext;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="1169556941500" at="33,5,36,5" concept="3" />
+      <node id="4396211440736522086" at="40,25,43,5" concept="3" />
+      <node id="4396211440736522100" at="43,5,46,5" concept="3" />
+      <node id="4396211440736522114" at="46,5,49,5" concept="3" />
+      <node id="4396211440736522128" at="49,5,52,5" concept="3" />
+      <node id="4396211440736522142" at="52,5,55,5" concept="3" />
+      <node id="4396211440736522156" at="55,5,58,5" concept="3" />
+      <node id="1169556611243" at="21,0,25,0" concept="7" trace="findEnclosingTableClass2#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/generator/template/TemplateQueryContext;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="1169556898529" at="28,88,32,7" concept="3" />
+      <node id="1169556848275" at="27,24,33,5" concept="2" />
+      <node id="1169556566372" at="25,0,39,0" concept="7" trace="findFormattersFieldDeclaration#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/generator/template/TemplateQueryContext;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="4396211440736522074" at="39,0,61,0" concept="7" trace="getCompareType#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <scope id="1173785436955" at="15,47,16,38" />
+      <scope id="1169556002657" at="18,88,19,50" />
+      <scope id="1169556941502" at="34,25,35,79" />
+      <scope id="4396211440736522087" at="41,230,42,20" />
+      <scope id="4396211440736522101" at="44,230,45,20" />
+      <scope id="4396211440736522115" at="47,229,48,20" />
+      <scope id="4396211440736522129" at="50,229,51,20" />
+      <scope id="4396211440736522143" at="53,230,54,20" />
+      <scope id="4396211440736522157" at="56,230,57,20" />
+      <scope id="1169556611245" at="21,89,23,85">
         <var name="table" id="1169556647965" />
       </scope>
-      <scope id="1169556898531" at="30,188,32,14" />
-      <scope id="1173785436953" at="16,0,19,0">
+      <scope id="1169556898531" at="29,174,31,14" />
+      <scope id="1173785436953" at="15,0,18,0">
         <var name="table" id="1173785443989" />
       </scope>
-      <scope id="1169556002655" at="19,0,22,0">
+      <scope id="1169556002655" at="18,0,21,0">
         <var name="genctx" id="1216936126937" />
         <var name="node" id="1169556059137" />
       </scope>
-      <scope id="1169556611243" at="22,0,26,0">
+      <scope id="1169556611243" at="21,0,25,0">
         <var name="genctx" id="1216936012088" />
         <var name="node" id="1169556653847" />
       </scope>
-      <scope id="1169556848279" at="29,88,33,7" />
-      <scope id="1169556848275" at="28,24,34,5">
+      <scope id="1169556848279" at="28,88,32,7" />
+      <scope id="1169556848275" at="27,24,33,5">
         <var name="sfd" id="1169556848277" />
       </scope>
-      <scope id="1169556566374" at="26,95,38,18">
+      <scope id="1169556566374" at="25,95,37,18">
         <var name="clazz" id="1169556826782" />
         <var name="result" id="1169556882227" />
       </scope>
-      <scope id="1169556566372" at="26,0,40,0">
+      <scope id="1169556566372" at="25,0,39,0">
         <var name="genctx" id="1216936158252" />
         <var name="node" id="1169556590581" />
       </scope>
-      <scope id="4396211440736522077" at="40,56,60,18">
+      <scope id="4396211440736522077" at="39,56,59,18">
         <var name="result" id="4396211440736522083" />
       </scope>
-      <scope id="4396211440736522074" at="40,0,62,0">
+      <scope id="4396211440736522074" at="39,0,61,0">
         <var name="operation" id="4396211440736522079" />
       </scope>
-      <unit id="1169555993608" at="14,0,63,0" name="jetbrains.mps.baseLanguage.dates.generator.baseLanguage.template.util.DatesQueriesUtil" />
+      <unit id="1169555993608" at="13,0,62,0" name="jetbrains.mps.baseLanguage.dates.generator.baseLanguage.template.util.DatesQueriesUtil" />
     </file>
   </root>
 </debug-info>

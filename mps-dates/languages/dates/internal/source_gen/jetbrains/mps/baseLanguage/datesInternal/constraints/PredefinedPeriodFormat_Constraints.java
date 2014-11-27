@@ -4,7 +4,6 @@ package jetbrains.mps.baseLanguage.datesInternal.constraints;
 
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
 import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
-import java.util.UUID;
 import java.util.Map;
 import jetbrains.mps.smodel.adapter.ids.SPropertyId;
 import jetbrains.mps.smodel.runtime.PropertyConstraintsDescriptor;
@@ -14,12 +13,12 @@ import org.jetbrains.mps.openapi.model.SNode;
 
 public class PredefinedPeriodFormat_Constraints extends BaseConstraintsDescriptor {
   public PredefinedPeriodFormat_Constraints() {
-    super(MetaIdFactory.conceptId(new UUID(1842350883898016625l, -7531592358064104734l), 34521615669325565l));
+    super(MetaIdFactory.conceptId(0x1991585e225e4371L, 0x977a68a7888adae2L, 0x7aa539ff0aeefdL));
   }
   @Override
   protected Map<SPropertyId, PropertyConstraintsDescriptor> getNotDefaultSProperties() {
     Map<SPropertyId, PropertyConstraintsDescriptor> properties = new HashMap<SPropertyId, PropertyConstraintsDescriptor>();
-    properties.put(MetaIdFactory.propId(new UUID(1842350883898016625l, -7531592358064104734l), 34521615669325562l, 34521615669325564l), new BasePropertyConstraintsDescriptor(MetaIdFactory.propId(new UUID(1842350883898016625l, -7531592358064104734l), 34521615669325562l, 34521615669325564l), this) {
+    properties.put(MetaIdFactory.propId(0x1991585e225e4371L, 0x977a68a7888adae2L, 0x7aa539ff0aeefaL, 0x7aa539ff0aeefcL), new BasePropertyConstraintsDescriptor(MetaIdFactory.propId(0x1991585e225e4371L, 0x977a68a7888adae2L, 0x7aa539ff0aeefaL, 0x7aa539ff0aeefcL), this) {
       @Override
       public boolean hasOwnGetter() {
         return true;

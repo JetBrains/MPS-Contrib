@@ -4,7 +4,6 @@ package jetbrains.mps.baseLanguage.dates.constraints;
 
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
 import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
-import java.util.UUID;
 import org.jetbrains.mps.openapi.model.SNode;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.smodel.IOperationContext;
@@ -17,7 +16,7 @@ import jetbrains.mps.smodel.SNodePointer;
 
 public class WithPropertyCompareExpression_Constraints extends BaseConstraintsDescriptor {
   public WithPropertyCompareExpression_Constraints() {
-    super(MetaIdFactory.conceptId(new UUID(-3689458971415590814l, -6289781637635314138l), 1239193939163l));
+    super(MetaIdFactory.conceptId(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x12085b6ecdbL));
   }
   @Override
   public boolean hasOwnCanBeParentMethod() {
@@ -34,8 +33,8 @@ public class WithPropertyCompareExpression_Constraints extends BaseConstraintsDe
     return result;
   }
   public static boolean static_canBeAParent(SNode node, SNode childNode, SNode childConcept, SNode link, final IOperationContext operationContext) {
-    if (link == SLinkOperations.findLinkDeclaration(MetaAdapterFactory.getContainmentLink(new UUID(-3689458971415590814l, -6289781637635314138l), 1239193939163l, 1239198287872l, "operation"))) {
-      return SConceptOperations.isSubConceptOf(SNodeOperations.asSConcept(childConcept), MetaAdapterFactory.getConcept(new UUID(-935030926396207931l, -6610165693999523818l), 1239448985469l, "jetbrains.mps.baseLanguage.structure.BinaryCompareOperation")) || childConcept == SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.structure.EqualsExpression") || childConcept == SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.structure.NotEqualsExpression");
+    if (link == SLinkOperations.findLinkDeclaration(MetaAdapterFactory.getContainmentLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x12085b6ecdbL, 0x12085f94800L, "operation"))) {
+      return SConceptOperations.isSubConceptOf(SNodeOperations.asSConcept(childConcept), MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x12094ea9f7dL, "jetbrains.mps.baseLanguage.structure.BinaryCompareOperation")) || childConcept == SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.structure.EqualsExpression") || childConcept == SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.structure.NotEqualsExpression");
     }
     return true;
   }

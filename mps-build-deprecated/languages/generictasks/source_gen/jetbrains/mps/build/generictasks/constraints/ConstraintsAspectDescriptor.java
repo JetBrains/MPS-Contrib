@@ -31,26 +31,26 @@ public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime
     }
   }
   public ConstraintsDescriptor getDescriptor(SConceptId conceptId) {
-    long id = conceptId.getConceptId();
-    if (id == 353793545802643466l) {
+    long id = conceptId.getIdValue();
+    if (id == 0x4e8ed5afd64780aL) {
       return new Attribute_Constraints();
     }
-    if (id == 353793545802643477l) {
+    if (id == 0x4e8ed5afd647815L) {
       return new TaskCall_Constraints();
     }
-    if (id == 353793545802854870l) {
+    if (id == 0x4e8ed5afd67b1d6L) {
       return new PathReference_Constraints();
     }
-    if (id == 3037831562615764081l) {
+    if (id == 0x2a288bb6092eb471L) {
       return new TaskReference_Constraints();
     }
-    if (id == 353793545802643486l) {
+    if (id == 0x4e8ed5afd64781eL) {
       return new BuiltInTaskDeclaration_Constraints();
     }
-    if (id == 353793545802643483l) {
+    if (id == 0x4e8ed5afd64781bL) {
       return new TaskInterfaceDeclaration_Constraints();
     }
-    if (id == 353793545802643498l) {
+    if (id == 0x4e8ed5afd64782aL) {
       return new NestedDeclaration_Constraints();
     }
     return new BaseConstraintsDescriptor(conceptId);

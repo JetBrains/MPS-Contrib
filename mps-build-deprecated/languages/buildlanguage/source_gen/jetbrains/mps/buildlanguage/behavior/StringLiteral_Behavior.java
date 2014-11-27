@@ -5,15 +5,14 @@ package jetbrains.mps.buildlanguage.behavior;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 
 public class StringLiteral_Behavior {
   public static void init(SNode thisNode) {
-    SPropertyOperations.set(thisNode, MetaAdapterFactory.getProperty(new UUID(819810455698030989l, -8713019626243247156l), 1196861005114l, 1196861024475l, "value"), "");
+    SPropertyOperations.set(thisNode, MetaAdapterFactory.getProperty(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x116aa799d3aL, 0x116aa79e8dbL, "value"), "");
   }
   public static String virtual_toString_1213877472569(SNode thisNode) {
-    return SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(new UUID(819810455698030989l, -8713019626243247156l), 1196861005114l, 1196861024475l, "value"));
+    return SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x116aa799d3aL, 0x116aa79e8dbL, "value"));
   }
   public static String virtual_getActualValue_1213877472572(SNode thisNode) {
     return BehaviorReflection.invokeVirtual(String.class, thisNode, "virtual_toString_1213877472569", new Object[]{});

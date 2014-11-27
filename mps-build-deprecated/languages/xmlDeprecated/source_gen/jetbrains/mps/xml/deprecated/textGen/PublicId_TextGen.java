@@ -6,17 +6,16 @@ import jetbrains.mps.textGen.SNodeTextGen;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 
 public class PublicId_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
     this.append("PUBLIC ");
     this.append("\"");
-    this.append(SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(new UUID(-9061952983114822898l, -7881051372423955543l), 1234366368307l, 1234366432701l, "publicID")));
+    this.append(SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(0x823d79c62e264b0eL, 0x92a0e1884a10bba9L, 0x11f65f80a33L, 0x11f65f905bdL, "publicID")));
     this.append("\"");
     this.append(" ");
     this.append("\"");
-    this.append(SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(new UUID(-9061952983114822898l, -7881051372423955543l), 1234366368307l, 1234366432703l, "systemID")));
+    this.append(SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(0x823d79c62e264b0eL, 0x92a0e1884a10bba9L, 0x11f65f80a33L, 0x11f65f905bfL, "systemID")));
     this.append("\"");
   }
 }

@@ -4,7 +4,6 @@ package jetbrains.mps.baseLanguage.dates.constraints;
 
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
 import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
-import java.util.UUID;
 import java.util.Map;
 import jetbrains.mps.smodel.adapter.ids.SPropertyId;
 import jetbrains.mps.smodel.runtime.PropertyConstraintsDescriptor;
@@ -16,12 +15,12 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class TimeZoneIDExpression_Constraints extends BaseConstraintsDescriptor {
   public TimeZoneIDExpression_Constraints() {
-    super(MetaIdFactory.conceptId(new UUID(-3689458971415590814l, -6289781637635314138l), 4555537781927648369l));
+    super(MetaIdFactory.conceptId(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x3f388579f4ab1c71L));
   }
   @Override
   protected Map<SPropertyId, PropertyConstraintsDescriptor> getNotDefaultSProperties() {
     Map<SPropertyId, PropertyConstraintsDescriptor> properties = new HashMap<SPropertyId, PropertyConstraintsDescriptor>();
-    properties.put(MetaIdFactory.propId(new UUID(-3689458971415590814l, -6289781637635314138l), 4555537781927648369l, 4555537781927678418l), new BasePropertyConstraintsDescriptor(MetaIdFactory.propId(new UUID(-3689458971415590814l, -6289781637635314138l), 4555537781927648369l, 4555537781927678418l), this) {
+    properties.put(MetaIdFactory.propId(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x3f388579f4ab1c71L, 0x3f388579f4ab91d2L), new BasePropertyConstraintsDescriptor(MetaIdFactory.propId(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x3f388579f4ab1c71L, 0x3f388579f4ab91d2L), this) {
       @Override
       public boolean hasOwnValidator() {
         return true;

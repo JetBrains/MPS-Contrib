@@ -10,7 +10,6 @@ import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.uiLanguage.behavior.GridRow_Behavior;
 
 @Generated
@@ -26,12 +25,12 @@ public class QueriesGenerated {
     return _context.getNode();
   }
   public static Iterable<SNode> sourceNodesQuery_1202825294699(final SourceSubstituteMacroNodesContext _context) {
-    return SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202823654753l, 1202823909833l, "row"));
+    return SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bee4cf8914a93L, 0xa0c9e2268726ae47L, 0x1180de06d61L, 0x1180de451c9L, "row"));
   }
   public static Iterable<SNode> sourceNodesQuery_1202825291118(final SourceSubstituteMacroNodesContext _context) {
     return GridRow_Behavior.call_getRowComponents_1213877252264(_context.getNode());
   }
   public static Iterable<SNode> sourceNodesQuery_1203604100897(final SourceSubstituteMacroNodesContext _context) {
-    return SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202817076568l, 1202817142302l, "content"));
+    return SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bee4cf8914a93L, 0xa0c9e2268726ae47L, 0x1180d7c0d58L, 0x1180d7d0e1eL, "content"));
   }
 }

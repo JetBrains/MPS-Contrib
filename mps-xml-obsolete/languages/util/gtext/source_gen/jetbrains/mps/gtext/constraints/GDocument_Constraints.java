@@ -4,7 +4,6 @@ package jetbrains.mps.gtext.constraints;
 
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
 import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
-import java.util.UUID;
 import java.util.Map;
 import jetbrains.mps.smodel.adapter.ids.SPropertyId;
 import jetbrains.mps.smodel.runtime.PropertyConstraintsDescriptor;
@@ -16,12 +15,12 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 
 public class GDocument_Constraints extends BaseConstraintsDescriptor {
   public GDocument_Constraints() {
-    super(MetaIdFactory.conceptId(new UUID(-6324114011398976607l, -8974808928016009858l), 1184639540818l));
+    super(MetaIdFactory.conceptId(0xa83c3bd02f7e4ba1L, 0x837312d49e99f57eL, 0x113d204de52L));
   }
   @Override
   protected Map<SPropertyId, PropertyConstraintsDescriptor> getNotDefaultSProperties() {
     Map<SPropertyId, PropertyConstraintsDescriptor> properties = new HashMap<SPropertyId, PropertyConstraintsDescriptor>();
-    properties.put(MetaIdFactory.propId(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l), new BasePropertyConstraintsDescriptor(MetaIdFactory.propId(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l), this) {
+    properties.put(MetaIdFactory.propId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L), new BasePropertyConstraintsDescriptor(MetaIdFactory.propId(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L), this) {
       @Override
       public boolean hasOwnGetter() {
         return true;
@@ -29,7 +28,7 @@ public class GDocument_Constraints extends BaseConstraintsDescriptor {
       @Override
       public Object getValue(SNode node) {
         String propertyName = "name";
-        return SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(new UUID(-6324114011398976607l, -8974808928016009858l), 1184639540818l, 1184639635512l, "documentName"));
+        return SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(0xa83c3bd02f7e4ba1L, 0x837312d49e99f57eL, 0x113d204de52L, 0x113d2065038L, "documentName"));
       }
       @Override
       public boolean hasOwnSetter() {

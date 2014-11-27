@@ -6,12 +6,11 @@ import org.jetbrains.mps.openapi.model.SNode;
 import java.util.List;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 
 public class GConditionalLine_Behavior {
   public static void init(SNode thisNode) {
   }
   public static List<SNode> virtual_getItems_1239125087745(SNode thisNode) {
-    return SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(new UUID(-6324114011398976607l, -8974808928016009858l), 1179109169620l, 1179109231418l, "item"));
+    return SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(0xa83c3bd02f7e4ba1L, 0x837312d49e99f57eL, 0x112886219d4L, 0x11288630b3aL, "item"));
   }
 }

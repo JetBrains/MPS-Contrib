@@ -12,7 +12,6 @@ import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import java.util.List;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.build.generictasks.behavior.AttributeDeclaration_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.errors.messageTargets.MessageTarget;
@@ -24,12 +23,12 @@ public class checkAllRequiredAttributesPresent_NonTypesystemRule extends Abstrac
   public checkAllRequiredAttributesPresent_NonTypesystemRule() {
   }
   public void applyRule(final SNode genericTaskCall, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
-    for (SNode attrDecl : ListSequence.fromList(BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), SLinkOperations.getTarget(genericTaskCall, MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643477l, 353793545802643478l, "declaration")), "virtual_getAttributesDeclarations_1190349257898147625", new Object[]{}))) {
+    for (SNode attrDecl : ListSequence.fromList(BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), SLinkOperations.getTarget(genericTaskCall, MetaAdapterFactory.getReferenceLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd647815L, 0x4e8ed5afd647816L, "declaration")), "virtual_getAttributesDeclarations_1190349257898147625", new Object[]{}))) {
       if (AttributeDeclaration_Behavior.call_isRequired_353793545802643811(attrDecl)) {
         boolean found = false;
-        for (SNode attr : ListSequence.fromList(SLinkOperations.getChildren(genericTaskCall, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643477l, 353793545802643479l, "atributes")))) {
-          if (SPropertyOperations.getString(SLinkOperations.getTarget(attr, MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643466l, 353793545802643467l, "attributeDeclaration")), MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name")).equals(SPropertyOperations.getString(attrDecl, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name")))) {
-            if ((SLinkOperations.getTarget(attr, MetaAdapterFactory.getContainmentLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643466l, 353793545802643468l, "value")) != null)) {
+        for (SNode attr : ListSequence.fromList(SLinkOperations.getChildren(genericTaskCall, MetaAdapterFactory.getContainmentLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd647815L, 0x4e8ed5afd647817L, "atributes")))) {
+          if (SPropertyOperations.getString(SLinkOperations.getTarget(attr, MetaAdapterFactory.getReferenceLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64780aL, 0x4e8ed5afd64780bL, "attributeDeclaration")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")).equals(SPropertyOperations.getString(attrDecl, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")))) {
+            if ((SLinkOperations.getTarget(attr, MetaAdapterFactory.getContainmentLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64780aL, 0x4e8ed5afd64780cL, "value")) != null)) {
               found = true;
             }
             break;
@@ -38,7 +37,7 @@ public class checkAllRequiredAttributesPresent_NonTypesystemRule extends Abstrac
         if (!(found)) {
           {
             MessageTarget errorTarget = new NodeMessageTarget();
-            IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(genericTaskCall, "Required attribute " + SPropertyOperations.getString(attrDecl, MetaAdapterFactory.getProperty(new UUID(-3554657779850784990l, -7236703803128771572l), 1169194658468l, 1169194664001l, "name")) + " is undefined.", "r:eac20369-5993-49cc-a9ac-fbeb7a91d81f(jetbrains.mps.build.generictasks.typesystem)", "353793545802854846", null, errorTarget);
+            IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(genericTaskCall, "Required attribute " + SPropertyOperations.getString(attrDecl, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")) + " is undefined.", "r:eac20369-5993-49cc-a9ac-fbeb7a91d81f(jetbrains.mps.build.generictasks.typesystem)", "353793545802854846", null, errorTarget);
           }
           return;
         }

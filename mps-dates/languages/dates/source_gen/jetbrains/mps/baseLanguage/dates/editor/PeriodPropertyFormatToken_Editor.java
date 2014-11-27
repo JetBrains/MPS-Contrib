@@ -14,7 +14,6 @@ import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.nodeEditor.MPSFonts;
@@ -75,7 +74,7 @@ public class PeriodPropertyFormatToken_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private static boolean renderingCondition_ed1xw0_a1a(SNode node, EditorContext editorContext) {
-    return isNotEmptyString(SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(new UUID(-3689458971415590814l, -6289781637635314138l), 7249953535157196261l, 5581663871703912302l, "prefix")));
+    return isNotEmptyString(SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x649d02540d21d5e5L, 0x4d760db7e88b0f6eL, "prefix")));
   }
   private EditorCell createProperty_ed1xw0_a1a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
@@ -109,7 +108,7 @@ public class PeriodPropertyFormatToken_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private static boolean renderingCondition_ed1xw0_a1b0(SNode node, EditorContext editorContext) {
-    return isNotEmptyString(SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(new UUID(-3689458971415590814l, -6289781637635314138l), 7249953535157196261l, 5581663871703912303l, "prefixPlural")));
+    return isNotEmptyString(SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x649d02540d21d5e5L, 0x4d760db7e88b0f6fL, "prefixPlural")));
   }
   private EditorCell createConstant_ed1xw0_a1b0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "/");
@@ -153,7 +152,7 @@ public class PeriodPropertyFormatToken_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private static boolean renderingCondition_ed1xw0_a2a(SNode node, EditorContext editorContext) {
-    return !(SPropertyOperations.hasValue(node, MetaAdapterFactory.getProperty(new UUID(-3689458971415590814l, -6289781637635314138l), 7249953535157196261l, 1778677549314158601l, "zeroHandling"), "never", "never"));
+    return !(SPropertyOperations.hasValue(node, MetaAdapterFactory.getProperty(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x649d02540d21d5e5L, 0x18af21cea8d53009L, "zeroHandling"), "never", "never"));
   }
   private EditorCell createRefCell_ed1xw0_d0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
@@ -219,7 +218,7 @@ public class PeriodPropertyFormatToken_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private static boolean renderingCondition_ed1xw0_a4a(SNode node, EditorContext editorContext) {
-    return SPropertyOperations.getInteger(node, MetaAdapterFactory.getProperty(new UUID(-3689458971415590814l, -6289781637635314138l), 7249953535157196261l, 5581663871703912306l, "minDigits")) > 1;
+    return SPropertyOperations.getInteger(node, MetaAdapterFactory.getProperty(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x649d02540d21d5e5L, 0x4d760db7e88b0f72L, "minDigits")) > 1;
   }
   private EditorCell createConstant_ed1xw0_a4a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ":");
@@ -261,7 +260,7 @@ public class PeriodPropertyFormatToken_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private static boolean renderingCondition_ed1xw0_a5a(SNode node, EditorContext editorContext) {
-    return isNotEmptyString(SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(new UUID(-3689458971415590814l, -6289781637635314138l), 7249953535157196261l, 5581663871703912304l, "suffix")));
+    return isNotEmptyString(SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x649d02540d21d5e5L, 0x4d760db7e88b0f70L, "suffix")));
   }
   private EditorCell createProperty_ed1xw0_a5a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
@@ -295,7 +294,7 @@ public class PeriodPropertyFormatToken_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private static boolean renderingCondition_ed1xw0_a1f0(SNode node, EditorContext editorContext) {
-    return isNotEmptyString(SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(new UUID(-3689458971415590814l, -6289781637635314138l), 7249953535157196261l, 5581663871703912305l, "suffixPlural")));
+    return isNotEmptyString(SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x649d02540d21d5e5L, 0x4d760db7e88b0f71L, "suffixPlural")));
   }
   private EditorCell createConstant_ed1xw0_a1f0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "/");

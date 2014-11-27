@@ -13,7 +13,6 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.smodel.search.SimpleSearchScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
@@ -26,7 +25,7 @@ public class DateFormatReferenceUtil {
     List<SNode> formats = (List<SNode>) s.getNodes(new IsInstanceCondition(cd));
     formats = ListSequence.fromList(formats).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
-        return SPropertyOperations.getBoolean(it, MetaAdapterFactory.getProperty(new UUID(1842350883898016625l, -7531592358064104734l), 1173884671039l, 1173975300968l, "isPublic")) || SNodeOperations.getNodeAncestor(it, null, false, true) == SNodeOperations.getNodeAncestor(node, null, false, true);
+        return SPropertyOperations.getBoolean(it, MetaAdapterFactory.getProperty(0x1991585e225e4371L, 0x977a68a7888adae2L, 0x11150fa943fL, 0x11156617b68L, "isPublic")) || SNodeOperations.getNodeAncestor(it, null, false, true) == SNodeOperations.getNodeAncestor(node, null, false, true);
       }
     }).toListSequence();
     return new SimpleSearchScope(formats);
@@ -35,10 +34,10 @@ public class DateFormatReferenceUtil {
     ISearchScope s = SModelSearchUtil.createModelAndImportedModelsScope(SNodeOperations.getModel(node), false);
     SNode cd = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.datesInternal.structure.IPeriodFormat");
     List<SNode> formats = (List<SNode>) s.getNodes(new IsInstanceCondition(cd));
-    final SNode containingFormat = SNodeOperations.getNodeAncestor(node, MetaAdapterFactory.getConcept(new UUID(-3689458971415590814l, -6289781637635314138l), 48671598477573965l, "jetbrains.mps.baseLanguage.dates.structure.PeriodFormat"), true, false);
+    final SNode containingFormat = SNodeOperations.getNodeAncestor(node, MetaAdapterFactory.getConcept(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0xacea8f99e7ff4dL, "jetbrains.mps.baseLanguage.dates.structure.PeriodFormat"), true, false);
     formats = ListSequence.fromList(formats).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
-        return (SPropertyOperations.getBoolean(it, MetaAdapterFactory.getProperty(new UUID(1842350883898016625l, -7531592358064104734l), 34521615669325562l, 34521615669325564l, "isPublic")) || SNodeOperations.getNodeAncestor(it, null, false, true) == SNodeOperations.getNodeAncestor(node, null, false, true)) && it != containingFormat;
+        return (SPropertyOperations.getBoolean(it, MetaAdapterFactory.getProperty(0x1991585e225e4371L, 0x977a68a7888adae2L, 0x7aa539ff0aeefaL, 0x7aa539ff0aeefcL, "isPublic")) || SNodeOperations.getNodeAncestor(it, null, false, true) == SNodeOperations.getNodeAncestor(node, null, false, true)) && it != containingFormat;
       }
     }).toListSequence();
     return new SimpleSearchScope(formats);
@@ -49,7 +48,7 @@ public class DateFormatReferenceUtil {
     List<SNode> formats = (List<SNode>) s.getNodes(new IsInstanceCondition(cd));
     formats = ListSequence.fromList(formats).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
-        return (SLinkOperations.getTarget(it, MetaAdapterFactory.getReferenceLink(new UUID(1842350883898016625l, -7531592358064104734l), 1172074318583l, 48671598476606809l, "periodFormatMethod")) != null);
+        return (SLinkOperations.getTarget(it, MetaAdapterFactory.getReferenceLink(0x1991585e225e4371L, 0x977a68a7888adae2L, 0x110e512caf7L, 0xacea8f99d93d59L, "periodFormatMethod")) != null);
       }
     }).toListSequence();
     return new SimpleSearchScope(formats);

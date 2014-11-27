@@ -12,7 +12,6 @@ import java.util.ArrayList;
 import jetbrains.mps.uiLanguage.behavior.ComponentDeclaration_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.SModelUtil_new;
@@ -24,12 +23,12 @@ public class subtyping_ComponentType_SubtypingRule extends SubtypingRule_Runtime
   }
   public List<SNode> getSubOrSuperTypes(SNode componentType, TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
     List<SNode> result = new ArrayList<SNode>();
-    SNode extendedComponent = ComponentDeclaration_Behavior.call_getExtendedComponent_1213877495528(SLinkOperations.getTarget(componentType, MetaAdapterFactory.getReferenceLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202465023198l, 1202465029373l, "component")));
+    SNode extendedComponent = ComponentDeclaration_Behavior.call_getExtendedComponent_1213877495528(SLinkOperations.getTarget(componentType, MetaAdapterFactory.getReferenceLink(0x5d6bee4cf8914a93L, 0xa0c9e2268726ae47L, 0x117f88024deL, 0x117f8803cfdL, "component")));
     if (extendedComponent != null) {
       ListSequence.fromList(result).addElement(_quotation_createNode_1j2wpd_a0a0a2a1(extendedComponent));
     }
-    if (SPropertyOperations.getBoolean(SLinkOperations.getTarget(componentType, MetaAdapterFactory.getReferenceLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202465023198l, 1202465029373l, "component")), MetaAdapterFactory.getProperty(new UUID(6731736082390534803l, -6860703902218146233l), 1202387718766l, 1202393242164l, "stub"))) {
-      ListSequence.fromList(result).addElement(_quotation_createNode_1j2wpd_a0a0a3a1(SLinkOperations.getTarget(SLinkOperations.getTarget(componentType, MetaAdapterFactory.getReferenceLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202465023198l, 1202465029373l, "component")), MetaAdapterFactory.getReferenceLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202387718766l, 1202393168541l, "mapTo"))));
+    if (SPropertyOperations.getBoolean(SLinkOperations.getTarget(componentType, MetaAdapterFactory.getReferenceLink(0x5d6bee4cf8914a93L, 0xa0c9e2268726ae47L, 0x117f88024deL, 0x117f8803cfdL, "component")), MetaAdapterFactory.getProperty(0x5d6bee4cf8914a93L, 0xa0c9e2268726ae47L, 0x117f3e4926eL, 0x117f438da34L, "stub"))) {
+      ListSequence.fromList(result).addElement(_quotation_createNode_1j2wpd_a0a0a3a1(SLinkOperations.getTarget(SLinkOperations.getTarget(componentType, MetaAdapterFactory.getReferenceLink(0x5d6bee4cf8914a93L, 0xa0c9e2268726ae47L, 0x117f88024deL, 0x117f8803cfdL, "component")), MetaAdapterFactory.getReferenceLink(0x5d6bee4cf8914a93L, 0xa0c9e2268726ae47L, 0x117f3e4926eL, 0x117f437ba9dL, "mapTo"))));
     }
     return result;
   }
@@ -49,14 +48,14 @@ public class subtyping_ComponentType_SubtypingRule extends SubtypingRule_Runtime
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_2 = null;
     quotedNode_2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.uiLanguage.structure.ComponentType", null, null, false);
-    SNodeAccessUtil.setReferenceTarget(quotedNode_2, MetaAdapterFactory.getReferenceLink(new UUID(6731736082390534803l, -6860703902218146233l), 1202465023198l, 1202465029373l, "component"), (SNode) parameter_1);
+    SNodeAccessUtil.setReferenceTarget(quotedNode_2, MetaAdapterFactory.getReferenceLink(0x5d6bee4cf8914a93L, 0xa0c9e2268726ae47L, 0x117f88024deL, 0x117f8803cfdL, "component"), (SNode) parameter_1);
     return quotedNode_2;
   }
   private static SNode _quotation_createNode_1j2wpd_a0a0a3a1(Object parameter_1) {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_2 = null;
     quotedNode_2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", null, null, false);
-    SNodeAccessUtil.setReferenceTarget(quotedNode_2, MetaAdapterFactory.getReferenceLink(new UUID(-935030926396207931l, -6610165693999523818l), 1107535904670l, 1107535924139l, "classifier"), (SNode) parameter_1);
+    SNodeAccessUtil.setReferenceTarget(quotedNode_2, MetaAdapterFactory.getReferenceLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x101de48bf9eL, 0x101de490babL, "classifier"), (SNode) parameter_1);
     return quotedNode_2;
   }
 }

@@ -21,7 +21,6 @@ import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.build.generictasks.behavior.AttributeDeclaration_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 
@@ -102,7 +101,7 @@ public class Attribute_EditorComponent implements ConceptEditorComponent {
     }
   }
   private static boolean renderingCondition_y32exi_a0a(SNode node, EditorContext editorContext) {
-    return !(AttributeDeclaration_Behavior.call_isDeprecated_353793545802643819(SLinkOperations.getTarget(node, MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643466l, 353793545802643467l, "attributeDeclaration"))));
+    return !(AttributeDeclaration_Behavior.call_isDeprecated_353793545802643819(SLinkOperations.getTarget(node, MetaAdapterFactory.getReferenceLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64780aL, 0x4e8ed5afd64780bL, "attributeDeclaration"))));
   }
   private EditorCell createRefCell_y32exi_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
@@ -158,7 +157,7 @@ public class Attribute_EditorComponent implements ConceptEditorComponent {
     }
   }
   private static boolean renderingCondition_y32exi_a1a(SNode node, EditorContext editorContext) {
-    return AttributeDeclaration_Behavior.call_isDeprecated_353793545802643819(SLinkOperations.getTarget(node, MetaAdapterFactory.getReferenceLink(new UUID(-314238378988976676l, -6739106179126467998l), 353793545802643466l, 353793545802643467l, "attributeDeclaration")));
+    return AttributeDeclaration_Behavior.call_isDeprecated_353793545802643819(SLinkOperations.getTarget(node, MetaAdapterFactory.getReferenceLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64780aL, 0x4e8ed5afd64780bL, "attributeDeclaration")));
   }
   private EditorCell createConstant_y32exi_c0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "=");

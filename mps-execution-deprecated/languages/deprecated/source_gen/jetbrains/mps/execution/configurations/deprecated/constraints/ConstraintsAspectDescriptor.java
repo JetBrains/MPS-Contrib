@@ -41,41 +41,41 @@ public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime
     }
   }
   public ConstraintsDescriptor getDescriptor(SConceptId conceptId) {
-    long id = conceptId.getConceptId();
-    if (id == 8456022385895583119l) {
+    long id = conceptId.getIdValue();
+    if (id == 0x7559d38edc0ead8fL) {
       return new JavaNodeRunConfiguration_Constraints();
     }
-    if (id == 8456022385895584871l) {
+    if (id == 0x7559d38edc0eb467L) {
       return new JavaCheckBlock_Constraints();
     }
-    if (id == 3361586479360705438l) {
+    if (id == 0x2ea6c117b00d039eL) {
       return new NodeRunConfigPropertyInstance_Constraints();
     }
-    if (id == 314981645426569157l) {
+    if (id == 0x45f0a233e6b2fc5L) {
       return new ExecuteSpecific_Constraints();
     }
-    if (id == 314981645426569276l) {
+    if (id == 0x45f0a233e6b303cL) {
       return new ReportErrorStatement_Constraints();
     }
-    if (id == 314981645426569161l) {
+    if (id == 0x45f0a233e6b2fc9L) {
       return new ComponentReference_Constraints();
     }
-    if (id == 314981645426569299l) {
+    if (id == 0x45f0a233e6b3053L) {
       return new RunConfigPropertyInstance_Constraints();
     }
-    if (id == 314981645426569341l) {
+    if (id == 0x45f0a233e6b307dL) {
       return new RunConfigMainNodeStatement_Constraints();
     }
-    if (id == 314981645426569290l) {
+    if (id == 0x45f0a233e6b304aL) {
       return new CreateRunConfigStatement_Constraints();
     }
-    if (id == 314981645426569344l) {
+    if (id == 0x45f0a233e6b3080L) {
       return new RunConfigParameterReferenceOperation_Constraints();
     }
-    if (id == 314981645426569163l) {
+    if (id == 0x45f0a233e6b2fcbL) {
       return new ExecuteParameterQuery_Constraints();
     }
-    if (id == 314981645426569270l) {
+    if (id == 0x45f0a233e6b3036L) {
       return new AbstractCheckConfigBlock_Constraints();
     }
     return new BaseConstraintsDescriptor(conceptId);

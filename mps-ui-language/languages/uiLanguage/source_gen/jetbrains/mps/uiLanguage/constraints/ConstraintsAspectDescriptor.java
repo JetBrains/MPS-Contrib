@@ -51,56 +51,56 @@ public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime
     }
   }
   public ConstraintsDescriptor getDescriptor(SConceptId conceptId) {
-    long id = conceptId.getConceptId();
-    if (id == 1202742489421l) {
+    long id = conceptId.getIdValue();
+    if (id == 0x1180909f14dL) {
       return new ComponentReference_Constraints();
     }
-    if (id == 1202387945296l) {
+    if (id == 0x117f3e80750L) {
       return new ComponentInstance_Constraints();
     }
-    if (id == 1202388384249l) {
+    if (id == 0x117f3eeb9f9L) {
       return new ComponentController_Constraints();
     }
-    if (id == 1202389314593l) {
+    if (id == 0x117f3fcec21L) {
       return new AttributeValue_Constraints();
     }
-    if (id == 1210173918195l) {
+    if (id == 0x119c3fc8bf3L) {
       return new StubCellRendererInfo_Constraints();
     }
-    if (id == 1208685679469l) {
+    if (id == 0x1196b47d36dL) {
       return new EventHandlerReference_Constraints();
     }
-    if (id == 1210179557036l) {
+    if (id == 0x119c45296acL) {
       return new CellRendererAttribute_Constraints();
     }
-    if (id == 1208089922381l) {
+    if (id == 0x11947c54b4dL) {
       return new RaiseOperation_Constraints();
     }
-    if (id == 1208090516982l) {
+    if (id == 0x11947ce5df6L) {
       return new RemoveListenerOperation_Constraints();
     }
-    if (id == 1210519144319l) {
+    if (id == 0x119d890477fL) {
       return new InlineRenderer_Constraints();
     }
-    if (id == 1210521546663l) {
+    if (id == 0x119d8b4efa7L) {
       return new RenderingObject_Constraints();
     }
-    if (id == 1209655552864l) {
+    if (id == 0x119a516eb60L) {
       return new RaiseInternalStatement_Constraints();
     }
-    if (id == 1202830095650l) {
+    if (id == 0x1180e42b522L) {
       return new StandardDialog_Constraints();
     }
-    if (id == 1203084152264l) {
+    if (id == 0x1181d674dc8L) {
       return new ListElements_Constraints();
     }
-    if (id == 1208090496480l) {
+    if (id == 0x11947ce0de0L) {
       return new AddListenerOperation_Constraints();
     }
-    if (id == 1202744043552l) {
+    if (id == 0x1180921a820L) {
       return new ActionHandler_Constraints();
     }
-    if (id == 1202464424004l) {
+    if (id == 0x117f8770044L) {
       return new BindExpression_Constraints();
     }
     return new BaseConstraintsDescriptor(conceptId);

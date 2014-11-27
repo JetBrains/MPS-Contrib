@@ -27,7 +27,6 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultReferenceSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Indent;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Vertical;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
@@ -165,7 +164,7 @@ public class Element_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private static boolean renderingCondition_76r4mg_a3a0(SNode node, EditorContext editorContext) {
-    return !(SPropertyOperations.getBoolean(node, MetaAdapterFactory.getProperty(new UUID(-9061952983114822898l, -7881051372423955543l), 1107866778860l, 5252685582976647062l, "collapse")));
+    return !(SPropertyOperations.getBoolean(node, MetaAdapterFactory.getProperty(0x823d79c62e264b0eL, 0x92a0e1884a10bba9L, 0x101f2017cecL, 0x48e549b532237f96L, "collapse")));
   }
   private EditorCell createConstant_76r4mg_e0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "/>");
@@ -178,7 +177,7 @@ public class Element_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private static boolean renderingCondition_76r4mg_a4a0(SNode node, EditorContext editorContext) {
-    return SPropertyOperations.getBoolean(node, MetaAdapterFactory.getProperty(new UUID(-9061952983114822898l, -7881051372423955543l), 1107866778860l, 5252685582976647062l, "collapse"));
+    return SPropertyOperations.getBoolean(node, MetaAdapterFactory.getProperty(0x823d79c62e264b0eL, 0x92a0e1884a10bba9L, 0x101f2017cecL, 0x48e549b532237f96L, "collapse"));
   }
   private EditorCell createCollection_76r4mg_b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
@@ -191,7 +190,7 @@ public class Element_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private static boolean renderingCondition_76r4mg_a1a(SNode node, EditorContext editorContext) {
-    return !(SPropertyOperations.getBoolean(node, MetaAdapterFactory.getProperty(new UUID(-9061952983114822898l, -7881051372423955543l), 1107866778860l, 5252685582976647062l, "collapse")));
+    return !(SPropertyOperations.getBoolean(node, MetaAdapterFactory.getProperty(0x823d79c62e264b0eL, 0x92a0e1884a10bba9L, 0x101f2017cecL, 0x48e549b532237f96L, "collapse")));
   }
   private EditorCell createIndentCell_76r4mg_a1a(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
@@ -261,7 +260,7 @@ public class Element_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private static boolean renderingCondition_76r4mg_a2a(SNode node, EditorContext editorContext) {
-    return !(SPropertyOperations.getBoolean(node, MetaAdapterFactory.getProperty(new UUID(-9061952983114822898l, -7881051372423955543l), 1107866778860l, 5252685582976647062l, "collapse")));
+    return !(SPropertyOperations.getBoolean(node, MetaAdapterFactory.getProperty(0x823d79c62e264b0eL, 0x92a0e1884a10bba9L, 0x101f2017cecL, 0x48e549b532237f96L, "collapse")));
   }
   private EditorCell createConstant_76r4mg_a2a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "</");
@@ -321,7 +320,7 @@ public class Element_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private static boolean renderingCondition_76r4mg_a0a(SNode node, EditorContext editorContext) {
-    return ListSequence.fromList(SLinkOperations.getChildren(node, MetaAdapterFactory.getContainmentLink(new UUID(-9061952983114822898l, -7881051372423955543l), 1107866778860l, 1107866800972l, "content"))).isEmpty();
+    return ListSequence.fromList(SLinkOperations.getChildren(node, MetaAdapterFactory.getContainmentLink(0x823d79c62e264b0eL, 0x92a0e1884a10bba9L, 0x101f2017cecL, 0x101f201d34cL, "content"))).isEmpty();
   }
   private EditorCell createConstant_76r4mg_a0a_0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "collapse");

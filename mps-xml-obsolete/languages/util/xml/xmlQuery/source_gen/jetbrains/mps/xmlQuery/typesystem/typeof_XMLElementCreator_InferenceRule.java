@@ -10,7 +10,6 @@ import jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus;
 import jetbrains.mps.typesystem.inference.EquationInfo;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.UUID;
 import jetbrains.mps.smodel.SModelUtil_new;
 
 public class typeof_XMLElementCreator_InferenceRule extends AbstractInferenceRule_Runtime implements InferenceRule_Runtime {
@@ -20,7 +19,7 @@ public class typeof_XMLElementCreator_InferenceRule extends AbstractInferenceRul
     {
       SNode _nodeToCheck_1029348928467 = creator;
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:d89ddc4c-de44-408f-97b1-095c4af64bfb(jetbrains.mps.xmlQuery.typesystem)", "4705273682234223845", 0, null);
-      typeCheckingContext.createEquation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:d89ddc4c-de44-408f-97b1-095c4af64bfb(jetbrains.mps.xmlQuery.typesystem)", "4705273682234223842", true), (SNode) SLinkOperations.getTarget(creator, MetaAdapterFactory.getContainmentLink(new UUID(-6269610502768541194l, -6018622628950326671l), 4705273682234223462l, 4705273682234223651l, "type")), _info_12389875345);
+      typeCheckingContext.createEquation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:d89ddc4c-de44-408f-97b1-095c4af64bfb(jetbrains.mps.xmlQuery.typesystem)", "4705273682234223842", true), (SNode) SLinkOperations.getTarget(creator, MetaAdapterFactory.getContainmentLink(0xa8fdde772e6c41f6L, 0xac798e9b6449c271L, 0x414c7d7c0090ab66L, 0x414c7d7c0090ac23L, "type")), _info_12389875345);
     }
   }
   public String getApplicableConceptFQName() {
