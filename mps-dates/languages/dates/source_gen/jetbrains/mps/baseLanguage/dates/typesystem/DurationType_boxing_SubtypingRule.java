@@ -69,7 +69,7 @@ public class DurationType_boxing_SubtypingRule extends SubtypingRule_Runtime imp
   private static SNode _quotation_createNode_jq3mqm_a0a2() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;
-    quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DurationType", null, null, false);
+    quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration(MetaAdapterFactory.getConcept(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x368fe832c55860bbL, "jetbrains.mps.baseLanguage.dates.structure.DurationType"), null, null, false);
     return quotedNode_1;
   }
   private static SNodePointer SNODE_POINTER_jq3mqm_a0a0a0a0b0b0a0a0a0a0a0e = new SNodePointer("6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)", "~Long");

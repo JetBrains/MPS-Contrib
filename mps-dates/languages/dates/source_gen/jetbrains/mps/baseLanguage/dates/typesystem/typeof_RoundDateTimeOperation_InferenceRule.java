@@ -45,7 +45,7 @@ public class typeof_RoundDateTimeOperation_InferenceRule extends AbstractInferen
   private static SNode _quotation_createNode_ykldpd_a0b0b() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;
-    quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", null, null, false);
+    quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration(MetaAdapterFactory.getConcept(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x1098cc06e416f93dL, "jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType"), null, null, false);
     return quotedNode_1;
   }
 }

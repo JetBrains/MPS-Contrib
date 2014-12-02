@@ -12,8 +12,8 @@
   <concept fqn="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
   <root nodeRef="r:bca42215-ea6e-499a-b4b0-8099947c8b87(jetbrains.mps.uiLanguage.scripts)/938927469774912686">
     <file name="MigrateParameterBrowser_MigrationScript.java">
-      <node id="938927469775661561" at="94,128,94,128" concept="0" />
-      <node id="938927469775661561" at="100,128,100,128" concept="0" />
+      <node id="938927469775661561" at="94,223,94,223" concept="0" />
+      <node id="938927469775661561" at="100,223,100,223" concept="0" />
       <node id="938927469774912686" at="26,86,27,39" concept="9" />
       <node id="938927469775024935" at="29,31,30,49" concept="6" />
       <node id="938927469775024935" at="32,41,33,49" concept="6" />
@@ -36,23 +36,23 @@
       <node id="938927469775671955" at="69,9,70,204" concept="2" />
       <node id="938927469775024935" at="72,42,73,21" concept="6" />
       <node id="938927469775245318" at="77,69,78,63" concept="5" />
-      <node id="938927469775245318" at="78,63,79,132" concept="5" />
-      <node id="938927469775245318" at="79,132,80,153" concept="2" />
+      <node id="938927469775245318" at="78,63,79,227" concept="5" />
+      <node id="938927469775245318" at="79,227,80,153" concept="2" />
       <node id="938927469775245318" at="80,153,81,155" concept="2" />
       <node id="938927469775245318" at="81,155,82,144" concept="2" />
       <node id="938927469775245318" at="82,144,83,474" concept="2" />
       <node id="938927469775245318" at="83,474,84,14" concept="6" />
       <node id="938927469775661561" at="86,78,87,63" concept="5" />
-      <node id="938927469775661561" at="87,63,88,131" concept="5" />
+      <node id="938927469775661561" at="87,63,88,226" concept="5" />
       <node id="938927469775661561" at="89,5,90,164" concept="2" />
-      <node id="938927469775661561" at="90,164,91,134" concept="5" />
+      <node id="938927469775661561" at="90,164,91,229" concept="5" />
       <node id="938927469775661561" at="92,7,93,145" concept="2" />
-      <node id="938927469775661561" at="93,145,94,128" concept="5" />
-      <node id="938927469775661561" at="94,128,95,145" concept="2" />
-      <node id="938927469775661561" at="96,7,97,134" concept="5" />
+      <node id="938927469775661561" at="93,145,94,223" concept="5" />
+      <node id="938927469775661561" at="94,223,95,145" concept="2" />
+      <node id="938927469775661561" at="96,7,97,229" concept="5" />
       <node id="938927469775661561" at="98,7,99,154" concept="2" />
-      <node id="938927469775661561" at="99,154,100,128" concept="5" />
-      <node id="938927469775661561" at="100,128,101,145" concept="2" />
+      <node id="938927469775661561" at="99,154,100,223" concept="5" />
+      <node id="938927469775661561" at="100,223,101,145" concept="2" />
       <node id="938927469775661561" at="102,7,103,148" concept="2" />
       <node id="938927469775661561" at="103,148,104,148" concept="2" />
       <node id="938927469775661561" at="105,5,106,14" concept="6" />
@@ -63,23 +63,23 @@
       <node id="938927469775950284" at="62,89,65,15" concept="3" />
       <node id="938927469775024935" at="72,0,75,0" concept="4" trace="isShowAsIntention#()Z" />
       <node id="938927469775024935" at="38,0,42,0" concept="4" trace="isApplicableInstanceNode#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-      <node id="938927469775245318" at="79,132,83,474" concept="0" />
+      <node id="938927469775245318" at="79,227,83,474" concept="0" />
       <node id="938927469775245316" at="42,52,47,11" concept="5" />
-      <node id="938927469775661561" at="91,134,96,7" concept="0" />
-      <node id="938927469775661561" at="97,134,102,7" concept="0" />
+      <node id="938927469775661561" at="91,229,96,7" concept="0" />
+      <node id="938927469775661561" at="97,229,102,7" concept="0" />
       <node id="938927469775408579" at="47,11,53,9" concept="3" />
       <node id="938927469775853842" at="60,302,67,13" concept="3" />
       <node id="938927469775245318" at="77,0,86,0" concept="8" trace="createComponentDeclaration_wft9px_a0a0b0a0#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="938927469775853842" at="57,87,68,11" concept="0" />
       <node id="938927469775693111" at="55,236,69,9" concept="3" />
-      <node id="938927469775661561" at="88,131,105,5" concept="0" />
+      <node id="938927469775661561" at="88,226,105,5" concept="0" />
       <node id="938927469775661561" at="86,0,108,0" concept="8" trace="createComponentController_wft9px_a0a3a1a0a#(Ljava/lang/Object;)Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="938927469775024935" at="42,0,72,0" concept="4" trace="doUpdateInstanceNode#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="938927469774912686" at="27,39,75,7" concept="0" />
       <node id="938927469775024935" at="27,39,75,7" concept="2" />
       <node id="938927469774912686" at="26,0,77,0" concept="1" trace="MigrateParameterBrowser_MigrationScript#(Ljetbrains/mps/smodel/IOperationContext;)V" />
-      <scope id="938927469775661561" at="94,128,94,128" />
-      <scope id="938927469775661561" at="100,128,100,128" />
+      <scope id="938927469775661561" at="94,223,94,223" />
+      <scope id="938927469775661561" at="100,223,100,223" />
       <scope id="938927469775024935" at="29,31,30,49" />
       <scope id="938927469775024935" at="32,41,33,49" />
       <scope id="938927469775024935" at="35,59,36,69" />
@@ -109,7 +109,7 @@
       <scope id="938927469775853845" at="61,52,65,15">
         <var name="reference" id="938927469775950249" />
       </scope>
-      <scope id="938927469775245318" at="79,132,83,474" />
+      <scope id="938927469775245318" at="79,227,83,474" />
       <scope id="938927469775245318" at="77,69,84,14">
         <var name="facade" id="938927469775245318" />
         <var name="n1" id="938927469775245318" />

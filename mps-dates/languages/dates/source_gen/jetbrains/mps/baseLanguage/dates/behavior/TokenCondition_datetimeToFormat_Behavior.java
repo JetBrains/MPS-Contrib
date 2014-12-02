@@ -5,6 +5,7 @@ package jetbrains.mps.baseLanguage.dates.behavior;
 import org.jetbrains.mps.openapi.model.SNode;
 import org.jetbrains.mps.openapi.persistence.PersistenceFacade;
 import jetbrains.mps.smodel.SModelUtil_new;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 
 public class TokenCondition_datetimeToFormat_Behavior {
   public static void init(SNode thisNode) {
@@ -15,7 +16,7 @@ public class TokenCondition_datetimeToFormat_Behavior {
   private static SNode _quotation_createNode_ru4e3n_a0a0() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;
-    quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", null, null, false);
+    quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration(MetaAdapterFactory.getConcept(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x110dad324a7L, "jetbrains.mps.baseLanguage.dates.structure.DateTimeType"), null, null, false);
     return quotedNode_1;
   }
 }

@@ -331,13 +331,13 @@ public class Generator {
     private static SNode _quotation_createNode_ixz87t_a0b0j9() {
       PersistenceFacade facade = PersistenceFacade.getInstance();
       SNode quotedNode_1 = null;
-      quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.StringEnum", null, null, false);
+      quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration(MetaAdapterFactory.getConcept(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x116ca8d13c2L, "jetbrains.mps.buildlanguage.structure.StringEnum"), null, null, false);
       return quotedNode_1;
     }
     private static SNode _quotation_createNode_ixz87t_a0a1a1a01j(Object parameter_1) {
       PersistenceFacade facade = PersistenceFacade.getInstance();
       SNode quotedNode_2 = null;
-      quotedNode_2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.StringLiteral", null, null, false);
+      quotedNode_2 = SModelUtil_new.instantiateConceptDeclaration(MetaAdapterFactory.getConcept(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x116aa799d3aL, "jetbrains.mps.buildlanguage.structure.StringLiteral"), null, null, false);
       SNodeAccessUtil.setProperty(quotedNode_2, MetaAdapterFactory.getProperty(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x116aa799d3aL, 0x116aa79e8dbL, "value"), (String) parameter_1);
       return quotedNode_2;
     }
@@ -347,7 +347,7 @@ public class Generator {
     private static SNode _quotation_createNode_ixz87t_a0d0l9(Object parameter_1) {
       PersistenceFacade facade = PersistenceFacade.getInstance();
       SNode quotedNode_2 = null;
-      quotedNode_2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.build.generictasks.structure.NestedDeclaration", null, null, false);
+      quotedNode_2 = SModelUtil_new.instantiateConceptDeclaration(MetaAdapterFactory.getConcept(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x4e8ed5afd64782aL, "jetbrains.mps.build.generictasks.structure.NestedDeclaration"), null, null, false);
       SNodeAccessUtil.setReferenceTarget(quotedNode_2, MetaAdapterFactory.getReferenceLink(0xfba399dbf59145dcL, 0xa279e2a2a986e262L, 0x2a288bb6092eb471L, 0x2a288bb6092eb472L, "declaration"), (SNode) parameter_1);
       return quotedNode_2;
     }
@@ -369,31 +369,31 @@ public class Generator {
     private static SNode _quotation_createNode_ixz87t_a0a0a0a0a41j() {
       PersistenceFacade facade = PersistenceFacade.getInstance();
       SNode quotedNode_1 = null;
-      quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.StringType", null, null, false);
+      quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration(MetaAdapterFactory.getConcept(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x116ab09041bL, "jetbrains.mps.buildlanguage.structure.StringType"), null, null, false);
       return quotedNode_1;
     }
     private static SNode _quotation_createNode_ixz87t_a0a0a0a0o9() {
       PersistenceFacade facade = PersistenceFacade.getInstance();
       SNode quotedNode_1 = null;
-      quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.CallReferenceType", null, null, false);
+      quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration(MetaAdapterFactory.getConcept(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x1178406b83eL, "jetbrains.mps.buildlanguage.structure.CallReferenceType"), null, null, false);
       return quotedNode_1;
     }
     private static SNode _quotation_createNode_ixz87t_a0a0a0a41j() {
       PersistenceFacade facade = PersistenceFacade.getInstance();
       SNode quotedNode_1 = null;
-      quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.FileType", null, null, false);
+      quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration(MetaAdapterFactory.getConcept(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x1172be6718fL, "jetbrains.mps.buildlanguage.structure.FileType"), null, null, false);
       return quotedNode_1;
     }
     private static SNode _quotation_createNode_ixz87t_a0a0a0o9() {
       PersistenceFacade facade = PersistenceFacade.getInstance();
       SNode quotedNode_1 = null;
-      quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.BooleanType", null, null, false);
+      quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration(MetaAdapterFactory.getConcept(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x116ab0869adL, "jetbrains.mps.buildlanguage.structure.BooleanType"), null, null, false);
       return quotedNode_1;
     }
     private static SNode _quotation_createNode_ixz87t_a0a0a41j() {
       PersistenceFacade facade = PersistenceFacade.getInstance();
       SNode quotedNode_1 = null;
-      quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.IntegerType", null, null, false);
+      quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration(MetaAdapterFactory.getConcept(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x116ab093bc6L, "jetbrains.mps.buildlanguage.structure.IntegerType"), null, null, false);
       return quotedNode_1;
     }
   }

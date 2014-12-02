@@ -698,7 +698,7 @@ public class QueriesGenerated {
   private static SNode _quotation_createNode_59mrho_b0a0b0a0() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;
-    quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType", null, null, false);
+    quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration(MetaAdapterFactory.getConcept(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x1205d287ff4L, "jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType"), null, null, false);
     return quotedNode_1;
   }
   private static SNode _quotation_createNode_64jt83_a0a0a0a0a() {
@@ -707,13 +707,13 @@ public class QueriesGenerated {
     SNode quotedNode_2 = null;
     SNode quotedNode_3 = null;
     SNode quotedNode_4 = null;
-    quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.FormatDateTimeExpression", null, null, false);
+    quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration(MetaAdapterFactory.getConcept(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x45dd8168385d339eL, "jetbrains.mps.baseLanguage.dates.structure.FormatDateTimeExpression"), null, null, false);
     quotedNode_1.setReference(MetaAdapterFactory.getReferenceLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x45dd8168385d339eL, 0x45dd8168385d3b84L, "locale"), SReference.create(MetaAdapterFactory.getReferenceLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x45dd8168385d339eL, 0x45dd8168385d3b84L, "locale"), quotedNode_1, facade.createModelReference("r:00000000-0000-4000-0000-011c895903d6(jetbrains.mps.baseLanguage.dates.accessories)"), facade.createNodeId("1172681308861")));
     quotedNode_1.setReference(MetaAdapterFactory.getReferenceLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x45dd8168385d339eL, 0x45dd8168385d3b83L, "dateFormat"), SReference.create(MetaAdapterFactory.getReferenceLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x45dd8168385d339eL, 0x45dd8168385d3b83L, "dateFormat"), quotedNode_1, facade.createModelReference("r:00000000-0000-4000-0000-011c895903d6(jetbrains.mps.baseLanguage.dates.accessories)"), facade.createNodeId("1173884238614")));
-    quotedNode_2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression", null, null, false);
-    quotedNode_3 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.UTCTimeZoneConstant", null, null, false);
+    quotedNode_2 = SModelUtil_new.instantiateConceptDeclaration(MetaAdapterFactory.getConcept(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x24a1d3f8db6f88ccL, "jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression"), null, null, false);
+    quotedNode_3 = SModelUtil_new.instantiateConceptDeclaration(MetaAdapterFactory.getConcept(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x1205d372679L, "jetbrains.mps.baseLanguage.dates.structure.UTCTimeZoneConstant"), null, null, false);
     quotedNode_2.addChild(MetaAdapterFactory.getContainmentLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x24a1d3f8db6f88ccL, 0x24a1d3f8db6f8a39L, "timezone"), quotedNode_3);
-    quotedNode_4 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.NowExpression", null, null, false);
+    quotedNode_4 = SModelUtil_new.instantiateConceptDeclaration(MetaAdapterFactory.getConcept(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x11053635249L, "jetbrains.mps.baseLanguage.dates.structure.NowExpression"), null, null, false);
     quotedNode_2.addChild(MetaAdapterFactory.getContainmentLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x24a1d3f8db6f88ccL, 0x24a1d3f8db6f88ceL, "datetime"), quotedNode_4);
     quotedNode_1.addChild(MetaAdapterFactory.getContainmentLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x45dd8168385d339eL, 0x45dd8168385d3b7fL, "datetime"), quotedNode_2);
     return quotedNode_1;
@@ -724,13 +724,13 @@ public class QueriesGenerated {
     SNode quotedNode_2 = null;
     SNode quotedNode_3 = null;
     SNode quotedNode_4 = null;
-    quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.FormatDateTimeExpression", null, null, false);
+    quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration(MetaAdapterFactory.getConcept(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x45dd8168385d339eL, "jetbrains.mps.baseLanguage.dates.structure.FormatDateTimeExpression"), null, null, false);
     quotedNode_1.setReference(MetaAdapterFactory.getReferenceLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x45dd8168385d339eL, 0x45dd8168385d3b84L, "locale"), SReference.create(MetaAdapterFactory.getReferenceLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x45dd8168385d339eL, 0x45dd8168385d3b84L, "locale"), quotedNode_1, facade.createModelReference("r:00000000-0000-4000-0000-011c895903d6(jetbrains.mps.baseLanguage.dates.accessories)"), facade.createNodeId("1172681308861")));
     quotedNode_1.setReference(MetaAdapterFactory.getReferenceLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x45dd8168385d339eL, 0x45dd8168385d3b83L, "dateFormat"), SReference.create(MetaAdapterFactory.getReferenceLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x45dd8168385d339eL, 0x45dd8168385d3b83L, "dateFormat"), quotedNode_1, facade.createModelReference("r:00000000-0000-4000-0000-011c895903d6(jetbrains.mps.baseLanguage.dates.accessories)"), facade.createNodeId("1173884238614")));
-    quotedNode_2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression", null, null, false);
-    quotedNode_3 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.UTCTimeZoneConstant", null, null, false);
+    quotedNode_2 = SModelUtil_new.instantiateConceptDeclaration(MetaAdapterFactory.getConcept(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x24a1d3f8db6f88ccL, "jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression"), null, null, false);
+    quotedNode_3 = SModelUtil_new.instantiateConceptDeclaration(MetaAdapterFactory.getConcept(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x1205d372679L, "jetbrains.mps.baseLanguage.dates.structure.UTCTimeZoneConstant"), null, null, false);
     quotedNode_2.addChild(MetaAdapterFactory.getContainmentLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x24a1d3f8db6f88ccL, 0x24a1d3f8db6f8a39L, "timezone"), quotedNode_3);
-    quotedNode_4 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.NowExpression", null, null, false);
+    quotedNode_4 = SModelUtil_new.instantiateConceptDeclaration(MetaAdapterFactory.getConcept(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x11053635249L, "jetbrains.mps.baseLanguage.dates.structure.NowExpression"), null, null, false);
     quotedNode_2.addChild(MetaAdapterFactory.getContainmentLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x24a1d3f8db6f88ccL, 0x24a1d3f8db6f88ceL, "datetime"), quotedNode_4);
     quotedNode_1.addChild(MetaAdapterFactory.getContainmentLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x45dd8168385d339eL, 0x45dd8168385d3b7fL, "datetime"), quotedNode_2);
     return quotedNode_1;
@@ -741,13 +741,13 @@ public class QueriesGenerated {
     SNode quotedNode_2 = null;
     SNode quotedNode_3 = null;
     SNode quotedNode_4 = null;
-    quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.FormatDateTimeExpression", null, null, false);
+    quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration(MetaAdapterFactory.getConcept(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x45dd8168385d339eL, "jetbrains.mps.baseLanguage.dates.structure.FormatDateTimeExpression"), null, null, false);
     quotedNode_1.setReference(MetaAdapterFactory.getReferenceLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x45dd8168385d339eL, 0x45dd8168385d3b84L, "locale"), SReference.create(MetaAdapterFactory.getReferenceLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x45dd8168385d339eL, 0x45dd8168385d3b84L, "locale"), quotedNode_1, facade.createModelReference("r:00000000-0000-4000-0000-011c895903d6(jetbrains.mps.baseLanguage.dates.accessories)"), facade.createNodeId("1172681308861")));
     quotedNode_1.setReference(MetaAdapterFactory.getReferenceLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x45dd8168385d339eL, 0x45dd8168385d3b83L, "dateFormat"), SReference.create(MetaAdapterFactory.getReferenceLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x45dd8168385d339eL, 0x45dd8168385d3b83L, "dateFormat"), quotedNode_1, facade.createModelReference("r:00000000-0000-4000-0000-011c895903d6(jetbrains.mps.baseLanguage.dates.accessories)"), facade.createNodeId("1173884238614")));
-    quotedNode_2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression", null, null, false);
-    quotedNode_3 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.UTCTimeZoneConstant", null, null, false);
+    quotedNode_2 = SModelUtil_new.instantiateConceptDeclaration(MetaAdapterFactory.getConcept(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x24a1d3f8db6f88ccL, "jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression"), null, null, false);
+    quotedNode_3 = SModelUtil_new.instantiateConceptDeclaration(MetaAdapterFactory.getConcept(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x1205d372679L, "jetbrains.mps.baseLanguage.dates.structure.UTCTimeZoneConstant"), null, null, false);
     quotedNode_2.addChild(MetaAdapterFactory.getContainmentLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x24a1d3f8db6f88ccL, 0x24a1d3f8db6f8a39L, "timezone"), quotedNode_3);
-    quotedNode_4 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.NowExpression", null, null, false);
+    quotedNode_4 = SModelUtil_new.instantiateConceptDeclaration(MetaAdapterFactory.getConcept(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x11053635249L, "jetbrains.mps.baseLanguage.dates.structure.NowExpression"), null, null, false);
     quotedNode_2.addChild(MetaAdapterFactory.getContainmentLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x24a1d3f8db6f88ccL, 0x24a1d3f8db6f88ceL, "datetime"), quotedNode_4);
     quotedNode_1.addChild(MetaAdapterFactory.getContainmentLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x45dd8168385d339eL, 0x45dd8168385d3b7fL, "datetime"), quotedNode_2);
     return quotedNode_1;
@@ -757,10 +757,10 @@ public class QueriesGenerated {
     SNode quotedNode_1 = null;
     SNode quotedNode_2 = null;
     SNode quotedNode_3 = null;
-    quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression", null, null, false);
-    quotedNode_2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.NowExpression", null, null, false);
+    quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration(MetaAdapterFactory.getConcept(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x24a1d3f8db6f88ccL, "jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression"), null, null, false);
+    quotedNode_2 = SModelUtil_new.instantiateConceptDeclaration(MetaAdapterFactory.getConcept(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x11053635249L, "jetbrains.mps.baseLanguage.dates.structure.NowExpression"), null, null, false);
     quotedNode_1.addChild(MetaAdapterFactory.getContainmentLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x24a1d3f8db6f88ccL, 0x24a1d3f8db6f88ceL, "datetime"), quotedNode_2);
-    quotedNode_3 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DefaultTimeZoneConstant", null, null, false);
+    quotedNode_3 = SModelUtil_new.instantiateConceptDeclaration(MetaAdapterFactory.getConcept(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x1205d3648b8L, "jetbrains.mps.baseLanguage.dates.structure.DefaultTimeZoneConstant"), null, null, false);
     quotedNode_1.addChild(MetaAdapterFactory.getContainmentLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x24a1d3f8db6f88ccL, 0x24a1d3f8db6f8a39L, "timezone"), quotedNode_3);
     return quotedNode_1;
   }
@@ -770,13 +770,13 @@ public class QueriesGenerated {
     SNode quotedNode_2 = null;
     SNode quotedNode_3 = null;
     SNode quotedNode_4 = null;
-    quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.FormatDateTimeExpression", null, null, false);
+    quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration(MetaAdapterFactory.getConcept(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x45dd8168385d339eL, "jetbrains.mps.baseLanguage.dates.structure.FormatDateTimeExpression"), null, null, false);
     quotedNode_1.setReference(MetaAdapterFactory.getReferenceLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x45dd8168385d339eL, 0x45dd8168385d3b84L, "locale"), SReference.create(MetaAdapterFactory.getReferenceLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x45dd8168385d339eL, 0x45dd8168385d3b84L, "locale"), quotedNode_1, facade.createModelReference("r:00000000-0000-4000-0000-011c895903d6(jetbrains.mps.baseLanguage.dates.accessories)"), facade.createNodeId("1172681308861")));
     quotedNode_1.setReference(MetaAdapterFactory.getReferenceLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x45dd8168385d339eL, 0x45dd8168385d3b83L, "dateFormat"), SReference.create(MetaAdapterFactory.getReferenceLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x45dd8168385d339eL, 0x45dd8168385d3b83L, "dateFormat"), quotedNode_1, facade.createModelReference("r:00000000-0000-4000-0000-011c895903d6(jetbrains.mps.baseLanguage.dates.accessories)"), facade.createNodeId("1173884238614")));
-    quotedNode_2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression", null, null, false);
-    quotedNode_3 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.UTCTimeZoneConstant", null, null, false);
+    quotedNode_2 = SModelUtil_new.instantiateConceptDeclaration(MetaAdapterFactory.getConcept(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x24a1d3f8db6f88ccL, "jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression"), null, null, false);
+    quotedNode_3 = SModelUtil_new.instantiateConceptDeclaration(MetaAdapterFactory.getConcept(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x1205d372679L, "jetbrains.mps.baseLanguage.dates.structure.UTCTimeZoneConstant"), null, null, false);
     quotedNode_2.addChild(MetaAdapterFactory.getContainmentLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x24a1d3f8db6f88ccL, 0x24a1d3f8db6f8a39L, "timezone"), quotedNode_3);
-    quotedNode_4 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.NowExpression", null, null, false);
+    quotedNode_4 = SModelUtil_new.instantiateConceptDeclaration(MetaAdapterFactory.getConcept(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x11053635249L, "jetbrains.mps.baseLanguage.dates.structure.NowExpression"), null, null, false);
     quotedNode_2.addChild(MetaAdapterFactory.getContainmentLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x24a1d3f8db6f88ccL, 0x24a1d3f8db6f88ceL, "datetime"), quotedNode_4);
     quotedNode_1.addChild(MetaAdapterFactory.getContainmentLink(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x45dd8168385d339eL, 0x45dd8168385d3b7fL, "datetime"), quotedNode_2);
     return quotedNode_1;

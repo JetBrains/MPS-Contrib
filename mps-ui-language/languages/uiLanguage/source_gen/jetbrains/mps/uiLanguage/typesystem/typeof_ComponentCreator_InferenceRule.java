@@ -39,7 +39,7 @@ public class typeof_ComponentCreator_InferenceRule extends AbstractInferenceRule
   private static SNode _quotation_createNode_stlcfd_a0a0b(Object parameter_1) {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_2 = null;
-    quotedNode_2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.uiLanguage.structure.ComponentType", null, null, false);
+    quotedNode_2 = SModelUtil_new.instantiateConceptDeclaration(MetaAdapterFactory.getConcept(0x5d6bee4cf8914a93L, 0xa0c9e2268726ae47L, 0x117f88024deL, "jetbrains.mps.uiLanguage.structure.ComponentType"), null, null, false);
     SNodeAccessUtil.setReferenceTarget(quotedNode_2, MetaAdapterFactory.getReferenceLink(0x5d6bee4cf8914a93L, 0xa0c9e2268726ae47L, 0x117f88024deL, 0x117f8803cfdL, "component"), (SNode) parameter_1);
     return quotedNode_2;
   }
