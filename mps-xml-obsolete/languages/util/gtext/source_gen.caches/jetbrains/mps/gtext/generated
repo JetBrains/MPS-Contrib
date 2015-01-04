@@ -2,13 +2,12 @@
 <dependencies version="2" modelHash="664kygzmwwwt6ly1cvqimvwrcl98t3p">
   <dep model="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.generator.runtime(MPS.Core/jetbrains.mps.generator.runtime@java_stub)" />
   <dep model="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" hash="9nmpjzyk7tjixmqzredudadb93zhigl" />
-  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="5hny7p25qix0fnl0s92ajx6z9cpyqk3" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-1h31ezyqnoyoq0zmqvadd6ivsixfi7i" />
   <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="-dt8to0e3awhqgsnd0xitpnu1mljmtfr" />
   <dep model="r:00000000-0000-4000-0000-011c89590570(jetbrains.mps.gtext.behavior)" hash="5kpkcv91lehfh8ub3i52mhifs78fmgo" />
   <dep model="r:00000000-0000-4000-0000-011c89590571(jetbrains.mps.gtext.constraints)" hash="-ann0r9pgu0t62s2klrp7a9v0kgm72cl" />
   <dep model="r:00000000-0000-4000-0000-011c89590572(jetbrains.mps.gtext.editor)" hash="5ef2vi0235t1axlbv7ubm7iwqtxxud3" />
   <dep model="r:00000000-0000-4000-0000-011c89590573(jetbrains.mps.gtext.typesystem)" hash="90uqk03cxsnx38ie7xp2jynlenzgdmw" />
-  <dep model="r:00000000-0000-4000-0000-011c89590574(jetbrains.mps.gtext.plugin)" hash="-5s2n6lwcee49u9x2xguieycsyfl1i44" />
   <dep model="r:00000000-0000-4000-0000-011c89590575(jetbrains.mps.gtext.structure)" hash="-6ukfi0qll7yg7m18607s2f4dtd52qh3" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="clelklcyyrltwc0s7skmek9f9pkvicn" />
   <dep model="r:e40d20f2-e58e-407b-ac00-b1e03796df98(jetbrains.mps.gtext.textGen)" hash="5b3bogfj35bmzy3x3edqvkqv465bnzg" />
@@ -22,7 +21,6 @@
     <dep model="r:00000000-0000-4000-0000-011c89590571(jetbrains.mps.gtext.constraints)" />
     <dep model="r:00000000-0000-4000-0000-011c89590572(jetbrains.mps.gtext.editor)" />
     <dep model="r:00000000-0000-4000-0000-011c89590573(jetbrains.mps.gtext.typesystem)" />
-    <dep model="r:00000000-0000-4000-0000-011c89590574(jetbrains.mps.gtext.plugin)" />
     <dep model="r:00000000-0000-4000-0000-011c89590575(jetbrains.mps.gtext.structure)" />
     <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
     <dep model="r:e40d20f2-e58e-407b-ac00-b1e03796df98(jetbrains.mps.gtext.textGen)" />
