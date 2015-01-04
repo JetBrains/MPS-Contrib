@@ -6,9 +6,9 @@ import jetbrains.mps.generator.runtime.Generated;
 import jetbrains.mps.generator.template.BaseMappingRuleContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.AttributeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.IAttributeDescriptor;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.generator.template.PropertyMacroContext;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.execution.configurations.deprecated.behavior.JavaRunConfiguration_Behavior;
@@ -39,10 +39,10 @@ import jetbrains.mps.baseLanguage.behavior.ExpressionStatement_Behavior;
 public class QueriesGenerated {
   public final boolean NEEDS_OPCONTEXT = false;
   public static boolean baseMappingRule_Condition_7549816165173155070(final BaseMappingRuleContext _context) {
-    return (AttributeOperations.getAttribute(_context.getNode(), new IAttributeDescriptor.NodeAttribute("jetbrains.mps.execution.configurations.deprecated.structure.UserComponentReferenceAnnotation")) != null);
+    return (AttributeOperations.getAttribute(_context.getNode(), new IAttributeDescriptor.NodeAttribute(MetaAdapterFactory.getConcept(0x82c32a3b4a544fc1L, 0xb5517ff9f198d7c1L, 0x68c655cd34a5af51L, "jetbrains.mps.execution.configurations.deprecated.structure.UserComponentReferenceAnnotation"))) != null);
   }
   public static boolean baseMappingRule_Condition_1566895476211683172(final BaseMappingRuleContext _context) {
-    return (AttributeOperations.getAttribute(_context.getNode(), new IAttributeDescriptor.NodeAttribute("jetbrains.mps.execution.configurations.deprecated.structure.ComponentInsideOfChangeListenerAnnotation")) != null);
+    return (AttributeOperations.getAttribute(_context.getNode(), new IAttributeDescriptor.NodeAttribute(MetaAdapterFactory.getConcept(0x82c32a3b4a544fc1L, 0xb5517ff9f198d7c1L, 0x15bebb2243c38592L, "jetbrains.mps.execution.configurations.deprecated.structure.ComponentInsideOfChangeListenerAnnotation"))) != null);
   }
   public static boolean baseMappingRule_Condition_6951161063040189470(final BaseMappingRuleContext _context) {
     return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getReferenceLink(0x82c32a3b4a544fc1L, 0xb5517ff9f198d7c1L, 0x45f0a233e6b3083L, 0x45f0a233e6b3084L, "runConfig")), MetaAdapterFactory.getConcept(0x82c32a3b4a544fc1L, 0xb5517ff9f198d7c1L, 0x919ef6a5682a437L, "jetbrains.mps.execution.configurations.deprecated.structure.JavaRunConfiguration"));
@@ -293,9 +293,9 @@ public class QueriesGenerated {
     for (SNode configuration : ListSequence.fromList(SModelOperations.roots(_context.getModel(), MetaAdapterFactory.getConcept(0x82c32a3b4a544fc1L, 0xb5517ff9f198d7c1L, 0x919ef6a5682a437L, "jetbrains.mps.execution.configurations.deprecated.structure.JavaRunConfiguration")))) {
       for (SNode componentRef : ListSequence.fromList(SNodeOperations.getNodeDescendants(configuration, MetaAdapterFactory.getConcept(0x82c32a3b4a544fc1L, 0xb5517ff9f198d7c1L, 0x45f0a233e6b2fc9L, "jetbrains.mps.execution.configurations.deprecated.structure.ComponentReference"), false, new SAbstractConcept[]{}))) {
         if ((SNodeOperations.getNodeAncestor(componentRef, MetaAdapterFactory.getConcept(0x82c32a3b4a544fc1L, 0xb5517ff9f198d7c1L, 0x45f0a233e6b2ff7L, "jetbrains.mps.execution.configurations.deprecated.structure.AbstractEnhancedConceptFunction"), false, false) != null)) {
-          AttributeOperations.createAndSetAttrbiute(componentRef, new IAttributeDescriptor.NodeAttribute("jetbrains.mps.execution.configurations.deprecated.structure.UserComponentReferenceAnnotation"), "jetbrains.mps.execution.configurations.deprecated.structure.UserComponentReferenceAnnotation");
+          AttributeOperations.createAndSetAttrbiute(componentRef, new IAttributeDescriptor.NodeAttribute(MetaAdapterFactory.getConcept(0x82c32a3b4a544fc1L, 0xb5517ff9f198d7c1L, 0x68c655cd34a5af51L, "jetbrains.mps.execution.configurations.deprecated.structure.UserComponentReferenceAnnotation")), "jetbrains.mps.execution.configurations.deprecated.structure.UserComponentReferenceAnnotation");
         } else if ((SNodeOperations.getNodeAncestor(componentRef, MetaAdapterFactory.getInterfaceConcept(0x82c32a3b4a544fc1L, 0xb5517ff9f198d7c1L, 0x15bebb2243c38594L, "jetbrains.mps.execution.configurations.deprecated.structure.IOnChangeEditorBlock"), false, false) != null)) {
-          AttributeOperations.createAndSetAttrbiute(componentRef, new IAttributeDescriptor.NodeAttribute("jetbrains.mps.execution.configurations.deprecated.structure.ComponentInsideOfChangeListenerAnnotation"), "jetbrains.mps.execution.configurations.deprecated.structure.ComponentInsideOfChangeListenerAnnotation");
+          AttributeOperations.createAndSetAttrbiute(componentRef, new IAttributeDescriptor.NodeAttribute(MetaAdapterFactory.getConcept(0x82c32a3b4a544fc1L, 0xb5517ff9f198d7c1L, 0x15bebb2243c38592L, "jetbrains.mps.execution.configurations.deprecated.structure.ComponentInsideOfChangeListenerAnnotation")), "jetbrains.mps.execution.configurations.deprecated.structure.ComponentInsideOfChangeListenerAnnotation");
         }
       }
     }

@@ -42,7 +42,7 @@
     <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" fqName="jetbrains.mps.baseLanguage.logging" version="0" />
     <language id="73c1a490-99fa-4d0d-8292-b8985697c74b" fqName="jetbrains.mps.execution.common" version="0" />
     <language id="756e911c-3f1f-4a48-bdf5-a2ceb91b723c" fqName="jetbrains.mps.execution.settings" version="0" />
-    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" fqName="jetbrains.mps.lang.core" version="0" />
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" fqName="jetbrains.mps.lang.core" version="1" />
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" fqName="jetbrains.mps.lang.smodel" version="0" />
     <language id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" fqName="jetbrains.mps.lang.traceable" version="0" />
     <language id="5d6bee4c-f891-4a93-a0c9-e2268726ae47" fqName="jetbrains.mps.uiLanguage" version="0" />

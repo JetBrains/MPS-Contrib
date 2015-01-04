@@ -26,7 +26,7 @@
     <language id="cccc689c-f365-4862-a8b6-34ecddf8ee26" fqName="jetbrains.mps.baseLanguage.dates" version="0" />
     <language id="1991585e-225e-4371-977a-68a7888adae2" fqName="jetbrains.mps.baseLanguage.datesInternal" version="0" />
     <language id="f61473f9-130f-42f6-b98d-6c438812c2f6" fqName="jetbrains.mps.baseLanguage.unitTest" version="0" />
-    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" fqName="jetbrains.mps.lang.core" version="0" />
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" fqName="jetbrains.mps.lang.core" version="1" />
     <language id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" fqName="jetbrains.mps.lang.traceable" version="0" />
   </languageVersions>
 </solution>
