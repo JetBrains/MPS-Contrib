@@ -2,7 +2,7 @@
 <debug-info>
   <root nodeRef="r:83393c4f-0a35-4150-a4fc-e0cb31ea54f6(jetbrains.mps.contrib.build)/310331596773287654">
     <file name="mpsContribBuild.xml">
-      <unit id="310331596773287654" at="1,0,256,10" name="jetbrains.mps.contrib.build.mpsContribBuild" />
+      <unit id="310331596773287654" at="1,0,259,10" name="jetbrains.mps.contrib.build.mpsContribBuild" />
     </file>
   </root>
   <root nodeRef="r:83393c4f-0a35-4150-a4fc-e0cb31ea54f6(jetbrains.mps.contrib.build)/3945781919312589433">

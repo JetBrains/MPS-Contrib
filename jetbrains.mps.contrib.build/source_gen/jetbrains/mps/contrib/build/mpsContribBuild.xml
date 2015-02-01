@@ -160,7 +160,7 @@
   
   <target name="generate" depends="declare-mps-tasks, fetchDependencies">
     <echo message="generating" />
-    <generate strictMode="true" parallelMode="true" parallelThreads="8" useInplaceTransform="false" hideWarnings="false" fork="true">
+    <generate strictMode="true" parallelMode="true" parallelThreads="8" useInplaceTransform="false" hideWarnings="false" fork="true" targetJavaVersion="1.6">
       <plugin path="${artifacts.mps}/plugins/mps-build" />
       <plugin path="${artifacts.mps}/plugins/mps-core/META-INF/plugin.xml/../.." />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
@@ -241,13 +241,16 @@
   <target name="java.compile.jetbrains.mps.contrib.build">
     <mkdir dir="${basedir}/jetbrains.mps.contrib.build/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.contrib.build" />
-    <javac destdir="${build.tmp}/java/out/jetbrains.mps.contrib.build" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/jetbrains.mps.contrib.build" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/jetbrains.mps.contrib.build/source_gen" />
       </src>
       <classpath />
     </javac>
+    <copy todir="${build.tmp}/java/out/jetbrains.mps.contrib.build">
+      <fileset dir="${basedir}/jetbrains.mps.contrib.build/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="cleanSources">

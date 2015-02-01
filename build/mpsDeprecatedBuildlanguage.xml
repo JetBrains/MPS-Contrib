@@ -366,7 +366,7 @@
   
   <target name="generate" depends="declare-mps-tasks, fetchDependencies">
     <echo message="generating" />
-    <generate strictMode="true" parallelMode="true" parallelThreads="8" useInplaceTransform="false" hideWarnings="false" fork="true">
+    <generate strictMode="true" parallelMode="true" parallelThreads="8" useInplaceTransform="false" hideWarnings="false" fork="true" targetJavaVersion="1.6">
       <plugin path="${artifacts.mpsXml}/mps-xml-obsolete" />
       <plugin path="${artifacts.mps}/plugins/mps-core/META-INF/plugin.xml/../.." />
       <plugin path="${artifacts.mps}/plugins/mps-testing" />
@@ -510,7 +510,7 @@
   <target name="java.compile.jetbrains.mps.buildlanguage" depends="java.compile.jetbrains.mps.xml.deprecated, java.compile.java.modules.cycle.1, fetchDependencies">
     <mkdir dir="${basedir}/mps-build-deprecated/languages/buildlanguage/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.buildlanguage" />
-    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.buildlanguage" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true">
+    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.buildlanguage" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/mps-build-deprecated/languages/buildlanguage/source_gen" />
@@ -560,7 +560,7 @@
   <target name="java.compile.jetbrains.mps.buildlanguage#1197036391807" depends="java.compile.jetbrains.mps.build.generictasks, java.compile.jetbrains.mps.build.property, java.compile.jetbrains.mps.buildlanguage, java.compile.jetbrains.mps.xml.deprecated, fetchDependencies">
     <mkdir dir="${basedir}/mps-build-deprecated/languages/buildlanguage/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.buildlanguage#1197036391807" />
-    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.buildlanguage#1197036391807" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true">
+    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.buildlanguage#1197036391807" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/mps-build-deprecated/languages/buildlanguage/generator/source_gen" />
@@ -611,7 +611,7 @@
   <target name="java.compile.jetbrains.mps.build.generictasks" depends="java.compile.jetbrains.mps.xml.deprecated, java.compile.java.modules.cycle.1, fetchDependencies">
     <mkdir dir="${basedir}/mps-build-deprecated/languages/generictasks/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.build.generictasks" />
-    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.build.generictasks" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true">
+    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.build.generictasks" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/mps-build-deprecated/languages/generictasks/source_gen" />
@@ -658,7 +658,7 @@
   <target name="java.compile.jetbrains.mps.build.generictasks#683020775182432297" depends="java.compile.jetbrains.mps.build.generictasks, java.compile.jetbrains.mps.buildlanguage, java.compile.jetbrains.mps.xml.deprecated, fetchDependencies">
     <mkdir dir="${basedir}/mps-build-deprecated/languages/generictasks/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.build.generictasks#683020775182432297" />
-    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.build.generictasks#683020775182432297" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true">
+    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.build.generictasks#683020775182432297" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/mps-build-deprecated/languages/generictasks/generator/source_gen" />
@@ -706,7 +706,7 @@
   <target name="java.compile.jetbrains.mps.build.property" depends="java.compile.jetbrains.mps.xml.deprecated, java.compile.java.modules.cycle.1, fetchDependencies">
     <mkdir dir="${basedir}/mps-build-deprecated/languages/property/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.build.property" />
-    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.build.property" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true">
+    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.build.property" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/mps-build-deprecated/languages/property/source_gen" />
@@ -755,7 +755,7 @@
   <target name="java.compile.jetbrains.mps.build.property#1224602648191" depends="java.compile.jetbrains.mps.build.generictasks, java.compile.jetbrains.mps.build.property, java.compile.jetbrains.mps.buildlanguage, java.compile.jetbrains.mps.xml.deprecated, fetchDependencies">
     <mkdir dir="${basedir}/mps-build-deprecated/languages/property/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.build.property#1224602648191" />
-    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.build.property#1224602648191" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true">
+    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.build.property#1224602648191" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/mps-build-deprecated/languages/property/generator/source_gen" />
@@ -806,7 +806,7 @@
   <target name="java.compile.jetbrains.mps.xml.deprecated" depends="fetchDependencies">
     <mkdir dir="${basedir}/mps-build-deprecated/languages/xmlDeprecated/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.xml.deprecated" />
-    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.xml.deprecated" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true">
+    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.xml.deprecated" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/mps-build-deprecated/languages/xmlDeprecated/source_gen" />
@@ -849,7 +849,7 @@
   <target name="java.compile.jetbrains.mps.xml.deprecated#1129923280838" depends="java.compile.jetbrains.mps.xml.deprecated, fetchDependencies">
     <mkdir dir="${basedir}/mps-build-deprecated/languages/xmlDeprecated/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.xml.deprecated#1129923280838" />
-    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.xml.deprecated#1129923280838" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true">
+    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.xml.deprecated#1129923280838" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/mps-build-deprecated/languages/xmlDeprecated/generator/source_gen" />

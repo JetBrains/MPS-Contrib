@@ -9,6 +9,8 @@ import java.util.Collection;
 import jetbrains.mps.generator.runtime.TemplateModule;
 import jetbrains.mps.generator.runtime.TemplateUtil;
 import jetbrains.mps.smodel.runtime.LanguageAspectDescriptor;
+import jetbrains.mps.openapi.actions.descriptor.ActionAspectDescriptor;
+import jetbrains.mps.actions.descriptor.AbstractActionAspectDescriptor;
 import jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor;
 import jetbrains.mps.openapi.editor.descriptor.EditorAspectDescriptor;
 import jetbrains.mps.xmlUnitTest.editor.EditorAspectDescriptorImpl;
@@ -45,6 +47,9 @@ public class Language extends LanguageRuntime {
   }
   @Override
   protected <T extends LanguageAspectDescriptor> T createAspectDescriptor(Class<T> descriptorClass) {
+    if (descriptorClass == ActionAspectDescriptor.class) {
+      return (T) new AbstractActionAspectDescriptor() {};
+    }
     if (descriptorClass == BehaviorAspectDescriptor.class) {
       return (T) new jetbrains.mps.xmlUnitTest.behavior.BehaviorAspectDescriptor();
     }

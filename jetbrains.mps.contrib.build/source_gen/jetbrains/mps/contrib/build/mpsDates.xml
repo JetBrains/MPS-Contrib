@@ -280,7 +280,7 @@
   
   <target name="generate" depends="declare-mps-tasks, fetchDependencies">
     <echo message="generating" />
-    <generate strictMode="true" parallelMode="true" parallelThreads="8" useInplaceTransform="false" hideWarnings="false" fork="true">
+    <generate strictMode="true" parallelMode="true" parallelThreads="8" useInplaceTransform="false" hideWarnings="false" fork="true" targetJavaVersion="1.6">
       <plugin path="${artifacts.mps}/plugins/mps-core/META-INF/plugin.xml/../.." />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
@@ -364,7 +364,7 @@
   <target name="java.compile.jetbrains.mps.baseLanguage.dates" depends="java.compile.jetbrains.mps.baseLanguage.dates.runtime, java.compile.jetbrains.mps.baseLanguage.datesInternal, fetchDependencies">
     <mkdir dir="${basedir}/mps-dates/languages/dates/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.dates" />
-    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.dates" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true">
+    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.dates" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/mps-dates/languages/dates/source_gen" />
@@ -411,7 +411,7 @@
   <target name="java.compile.jetbrains.mps.baseLanguage.dates#1169550118977" depends="java.compile.jetbrains.mps.baseLanguage.dates, java.compile.jetbrains.mps.baseLanguage.dates.runtime, java.compile.jetbrains.mps.baseLanguage.datesInternal, fetchDependencies">
     <mkdir dir="${basedir}/mps-dates/languages/dates/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.dates#1169550118977" />
-    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.dates#1169550118977" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true">
+    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.dates#1169550118977" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/mps-dates/languages/dates/generator/source_gen" />
@@ -458,7 +458,7 @@
   <target name="java.compile.jetbrains.mps.baseLanguage.datesInternal" depends="java.compile.jetbrains.mps.baseLanguage.dates.runtime, fetchDependencies">
     <mkdir dir="${basedir}/mps-dates/languages/dates/internal/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.datesInternal" />
-    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.datesInternal" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true">
+    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.datesInternal" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/mps-dates/languages/dates/internal/source_gen" />
@@ -503,7 +503,7 @@
   <target name="java.compile.jetbrains.mps.baseLanguage.dates.runtime" depends="fetchDependencies">
     <mkdir dir="${basedir}/mps-dates/languages/dates/runtime/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.dates.runtime" />
-    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.dates.runtime" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true">
+    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.dates.runtime" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/mps-dates/languages/dates/runtime/source_gen" />

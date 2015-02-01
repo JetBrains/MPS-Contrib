@@ -269,7 +269,7 @@
   
   <target name="generate" depends="declare-mps-tasks, fetchDependencies">
     <echo message="generating" />
-    <generate strictMode="true" parallelMode="true" parallelThreads="8" useInplaceTransform="false" hideWarnings="false" fork="true">
+    <generate strictMode="true" parallelMode="true" parallelThreads="8" useInplaceTransform="false" hideWarnings="false" fork="true" targetJavaVersion="1.6">
       <plugin path="${artifacts.mps}/plugins/mps-core/META-INF/plugin.xml/../.." />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
@@ -357,7 +357,7 @@
   <target name="java.compile.jetbrains.mps.ide.uiLanguage.runtime">
     <mkdir dir="${basedir}/mps-ui-language/languages/uiLanguage/runtime/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.ide.uiLanguage.runtime" />
-    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.ide.uiLanguage.runtime" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true">
+    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.ide.uiLanguage.runtime" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/mps-ui-language/languages/uiLanguage/runtime/source_gen" />
@@ -372,7 +372,7 @@
   <target name="java.compile.jetbrains.mps.uiLanguage.pluginSolution" depends="java.compile.jetbrains.mps.ide.uiLanguage.runtime, java.compile.jetbrains.mps.uiLanguage, fetchDependencies">
     <mkdir dir="${basedir}/mps-ui-language/languages/uiLanguage/solutions/pluginSolution/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.uiLanguage.pluginSolution" />
-    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.uiLanguage.pluginSolution" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true">
+    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.uiLanguage.pluginSolution" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/mps-ui-language/languages/uiLanguage/solutions/pluginSolution/source_gen" />
@@ -421,7 +421,7 @@
   <target name="java.compile.jetbrains.mps.uiLanguage" depends="java.compile.jetbrains.mps.ide.uiLanguage.runtime, fetchDependencies">
     <mkdir dir="${basedir}/mps-ui-language/languages/uiLanguage/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.uiLanguage" />
-    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.uiLanguage" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true">
+    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.uiLanguage" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/mps-ui-language/languages/uiLanguage/source_gen" />
@@ -468,7 +468,7 @@
   <target name="java.compile.jetbrains.mps.uiLanguage#1202393863737" depends="java.compile.jetbrains.mps.ide.uiLanguage.runtime, java.compile.jetbrains.mps.uiLanguage, fetchDependencies">
     <mkdir dir="${basedir}/mps-ui-language/languages/uiLanguage/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.uiLanguage#1202393863737" />
-    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.uiLanguage#1202393863737" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true">
+    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.uiLanguage#1202393863737" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/mps-ui-language/languages/uiLanguage/generator/source_gen" />

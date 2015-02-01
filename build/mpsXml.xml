@@ -521,7 +521,7 @@
   
   <target name="generate" depends="declare-mps-tasks, fetchDependencies">
     <echo message="generating" />
-    <generate strictMode="true" parallelMode="true" parallelThreads="8" useInplaceTransform="false" hideWarnings="false" fork="true">
+    <generate strictMode="true" parallelMode="true" parallelThreads="8" useInplaceTransform="false" hideWarnings="false" fork="true" targetJavaVersion="1.6">
       <plugin path="${artifacts.mps}/plugins/mps-core/META-INF/plugin.xml/../.." />
       <plugin path="${artifacts.mps}/plugins/mps-testing" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
@@ -658,7 +658,7 @@
   <target name="java.compile.jetbrains.mps.xml" depends="java.compile.jetbrains.mps.gtext, java.compile.jetbrains.mps.gtext.runtime, java.compile.jetbrains.mps.xmlSchema, java.compile.java.modules.cycle.1, fetchDependencies">
     <mkdir dir="${basedir}/mps-xml-obsolete/languages/util/xml/xml/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.xml" />
-    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.xml" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true">
+    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.xml" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/mps-xml-obsolete/languages/util/xml/xml/source_gen" />
@@ -705,7 +705,7 @@
   <target name="java.compile.jetbrains.mps.xml#1163716442262" depends="java.compile.jetbrains.mps.gtext, java.compile.jetbrains.mps.gtext.runtime, java.compile.jetbrains.mps.xml, java.compile.jetbrains.mps.xmlInternal, java.compile.jetbrains.mps.xmlSchema, fetchDependencies">
     <mkdir dir="${basedir}/mps-xml-obsolete/languages/util/xml/xml/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.xml#1163716442262" />
-    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.xml#1163716442262" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true">
+    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.xml#1163716442262" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/mps-xml-obsolete/languages/util/xml/xml/generator/source_gen" />
@@ -753,7 +753,7 @@
   <target name="java.compile.jetbrains.mps.xmlInternal" depends="java.compile.jetbrains.mps.gtext, java.compile.jetbrains.mps.gtext.runtime, java.compile.jetbrains.mps.xmlSchema, java.compile.java.modules.cycle.1, fetchDependencies">
     <mkdir dir="${basedir}/mps-xml-obsolete/languages/util/xml/xmlInternal/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.xmlInternal" />
-    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.xmlInternal" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true">
+    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.xmlInternal" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/mps-xml-obsolete/languages/util/xml/xmlInternal/source_gen" />
@@ -800,7 +800,7 @@
   <target name="java.compile.jetbrains.mps.xmlInternal#1165632612566" depends="java.compile.jetbrains.mps.gtext, java.compile.jetbrains.mps.gtext.runtime, java.compile.jetbrains.mps.xml, java.compile.jetbrains.mps.xmlInternal, java.compile.jetbrains.mps.xmlSchema, fetchDependencies">
     <mkdir dir="${basedir}/mps-xml-obsolete/languages/util/xml/xmlInternal/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.xmlInternal#1165632612566" />
-    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.xmlInternal#1165632612566" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true">
+    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.xmlInternal#1165632612566" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/mps-xml-obsolete/languages/util/xml/xmlInternal/generator/source_gen" />
@@ -848,7 +848,7 @@
   <target name="java.compile.jetbrains.mps.xmlSchema" depends="fetchDependencies">
     <mkdir dir="${basedir}/mps-xml-obsolete/languages/util/xml/xmlSchema/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.xmlSchema" />
-    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.xmlSchema" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true">
+    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.xmlSchema" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/mps-xml-obsolete/languages/util/xml/xmlSchema/source_gen" />
@@ -891,7 +891,7 @@
   <target name="java.compile.jetbrains.mps.xmlSchema#2709156219364519555" depends="java.compile.jetbrains.mps.xmlSchema, fetchDependencies">
     <mkdir dir="${basedir}/mps-xml-obsolete/languages/util/xml/xmlSchema/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.xmlSchema#2709156219364519555" />
-    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.xmlSchema#2709156219364519555" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true">
+    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.xmlSchema#2709156219364519555" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/mps-xml-obsolete/languages/util/xml/xmlSchema/generator/source_gen" />
@@ -935,7 +935,7 @@
   <target name="java.compile.jetbrains.mps.xmlQuery" depends="java.compile.jetbrains.mps.gtext, java.compile.jetbrains.mps.gtext.runtime, java.compile.jetbrains.mps.xml, java.compile.jetbrains.mps.xmlQuery.runtime, java.compile.jetbrains.mps.xmlSchema, fetchDependencies">
     <mkdir dir="${basedir}/mps-xml-obsolete/languages/util/xml/xmlQuery/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.xmlQuery" />
-    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.xmlQuery" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true">
+    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.xmlQuery" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/mps-xml-obsolete/languages/util/xml/xmlQuery/source_gen" />
@@ -984,7 +984,7 @@
   <target name="java.compile.jetbrains.mps.xmlQuery#2341233264267726012" depends="java.compile.jetbrains.mps.xmlQuery, java.compile.jetbrains.mps.xmlQuery.runtime, java.compile.jetbrains.mps.xmlSchema, fetchDependencies">
     <mkdir dir="${basedir}/mps-xml-obsolete/languages/util/xml/xmlQuery/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.xmlQuery#2341233264267726012" />
-    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.xmlQuery#2341233264267726012" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true">
+    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.xmlQuery#2341233264267726012" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/mps-xml-obsolete/languages/util/xml/xmlQuery/generator/source_gen" />
@@ -1031,7 +1031,7 @@
   <target name="java.compile.jetbrains.mps.xmlQuery.runtime" depends="fetchDependencies">
     <mkdir dir="${basedir}/mps-xml-obsolete/languages/util/xml/xmlQuery/runtime/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.xmlQuery.runtime" />
-    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.xmlQuery.runtime" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true">
+    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.xmlQuery.runtime" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/mps-xml-obsolete/languages/util/xml/xmlQuery/runtime/source_gen" />
@@ -1061,7 +1061,7 @@
   <target name="java.compile.jetbrains.mps.xmlUnitTest" depends="fetchDependencies">
     <mkdir dir="${basedir}/mps-xml-obsolete/languages/util/xmlUnitTest/languages/xmlUnitTest/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.xmlUnitTest" />
-    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.xmlUnitTest" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true">
+    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.xmlUnitTest" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/mps-xml-obsolete/languages/util/xmlUnitTest/languages/xmlUnitTest/source_gen" />
@@ -1114,7 +1114,7 @@
   <target name="java.compile.jetbrains.mps.xmlUnitTest#5211164146776564145" depends="java.compile.jetbrains.mps.xmlUnitTest, fetchDependencies">
     <mkdir dir="${basedir}/mps-xml-obsolete/languages/util/xmlUnitTest/languages/xmlUnitTest/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.xmlUnitTest#5211164146776564145" />
-    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.xmlUnitTest#5211164146776564145" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true">
+    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.xmlUnitTest#5211164146776564145" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/mps-xml-obsolete/languages/util/xmlUnitTest/languages/xmlUnitTest/generator/source_gen" />
@@ -1168,7 +1168,7 @@
   <target name="java.compile.jetbrains.mps.gtext" depends="java.compile.jetbrains.mps.gtext.runtime, fetchDependencies">
     <mkdir dir="${basedir}/mps-xml-obsolete/languages/util/gtext/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.gtext" />
-    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.gtext" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true">
+    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.gtext" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/mps-xml-obsolete/languages/util/gtext/source_gen" />
@@ -1212,7 +1212,7 @@
   <target name="java.compile.jetbrains.mps.gtext#1164413905312" depends="java.compile.jetbrains.mps.gtext, java.compile.jetbrains.mps.gtext.runtime, fetchDependencies">
     <mkdir dir="${basedir}/mps-xml-obsolete/languages/util/gtext/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.gtext#1164413905312" />
-    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.gtext#1164413905312" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true">
+    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.gtext#1164413905312" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/mps-xml-obsolete/languages/util/gtext/generator/source_gen" />
@@ -1257,7 +1257,7 @@
   <target name="java.compile.jetbrains.mps.gtext.runtime">
     <mkdir dir="${basedir}/mps-xml-obsolete/languages/util/gtext/runtime/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.gtext.runtime" />
-    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.gtext.runtime" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true">
+    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.gtext.runtime" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/mps-xml-obsolete/languages/util/gtext/runtime/source_gen" />

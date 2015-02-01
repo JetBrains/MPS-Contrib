@@ -311,7 +311,7 @@
   
   <target name="generate" depends="declare-mps-tasks, fetchDependencies">
     <echo message="generating" />
-    <generate strictMode="true" parallelMode="true" parallelThreads="8" useInplaceTransform="false" hideWarnings="false" fork="true">
+    <generate strictMode="true" parallelMode="true" parallelThreads="8" useInplaceTransform="false" hideWarnings="false" fork="true" targetJavaVersion="1.6">
       <plugin path="${artifacts.mpsUiLanguage}/mps-ui-language" />
       <plugin path="${artifacts.mps}/plugins/mps-build" />
       <plugin path="${artifacts.mps}/plugins/mps-core/META-INF/plugin.xml/../.." />
@@ -440,7 +440,7 @@
   <target name="java.compile.jetbrains.mps.execution.configurations.deprecated.runtime" depends="fetchDependencies">
     <mkdir dir="${basedir}/mps-execution-deprecated/deprecated.runtime/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.execution.configurations.deprecated.runtime" />
-    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.execution.configurations.deprecated.runtime" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true">
+    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.execution.configurations.deprecated.runtime" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/mps-execution-deprecated/deprecated.runtime/source_gen" />
@@ -483,7 +483,7 @@
   <target name="java.compile.jetbrains.mps.baseLanguage.unitTest.execution.deprecated" depends="java.compile.jetbrains.mps.execution.configurations.deprecated.runtime, fetchDependencies">
     <mkdir dir="${basedir}/mps-execution-deprecated/unitTests/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.unitTest.execution.deprecated" />
-    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.unitTest.execution.deprecated" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true">
+    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.unitTest.execution.deprecated" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/mps-execution-deprecated/unitTests/source_gen" />
@@ -547,7 +547,7 @@
   <target name="java.compile.jetbrains.mps.execution.configurations.deprecated" depends="java.compile.jetbrains.mps.execution.configurations.deprecated.runtime, fetchDependencies">
     <mkdir dir="${basedir}/mps-execution-deprecated/languages/deprecated/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.execution.configurations.deprecated" />
-    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.execution.configurations.deprecated" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true">
+    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.execution.configurations.deprecated" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/mps-execution-deprecated/languages/deprecated/source_gen" />
@@ -615,7 +615,7 @@
   <target name="java.compile.jetbrains.mps.execution.configurations.deprecated#6629582826328981980" depends="java.compile.jetbrains.mps.execution.configurations.deprecated, fetchDependencies">
     <mkdir dir="${basedir}/mps-execution-deprecated/languages/deprecated/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.execution.configurations.deprecated#6629582826328981980" />
-    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.execution.configurations.deprecated#6629582826328981980" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true">
+    <javac2 destdir="${build.tmp}/java/out/jetbrains.mps.execution.configurations.deprecated#6629582826328981980" fork="true" memorymaximumsize="1024m" includeantruntime="false" debug="true" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/mps-execution-deprecated/languages/deprecated/generator/source_gen" />
