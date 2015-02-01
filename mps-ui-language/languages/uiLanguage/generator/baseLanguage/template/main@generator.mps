@@ -44,9 +44,6 @@
         <child id="1068498886295" name="lValue" index="37vLTJ" />
       </concept>
       <concept id="1153417849900" name="jetbrains.mps.baseLanguage.structure.GreaterThanOrEqualsExpression" flags="nn" index="2d3UOw" />
-      <concept id="1241540912639" name="jetbrains.mps.baseLanguage.structure.ConstructorInvocationStatement" flags="nn" index="hAIju">
-        <reference id="1241540960362" name="constructorDeclaration" index="hAU5b" />
-      </concept>
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1173175405605" name="jetbrains.mps.baseLanguage.structure.ArrayAccessExpression" flags="nn" index="AH0OO">
@@ -1466,7 +1463,6 @@
       <node concept="3Tm1VV" id="hvOje2U" role="1B3o_S" />
       <node concept="3clFbS" id="hvOje2V" role="3clF47">
         <node concept="XkiVB" id="hweb_H3" role="3cqZAp">
-          <ref role="hAU5b" to="dbrf:~JComponent.&lt;init&gt;()" resolve="JComponent" />
           <ref role="37wK5l" to="dbrf:~JComponent.&lt;init&gt;()" resolve="JComponent" />
           <node concept="37vLTw" id="2BHiRxglBwS" role="37wK5m">
             <ref role="3cqZAo" node="hweb61a" resolve="owner" />
