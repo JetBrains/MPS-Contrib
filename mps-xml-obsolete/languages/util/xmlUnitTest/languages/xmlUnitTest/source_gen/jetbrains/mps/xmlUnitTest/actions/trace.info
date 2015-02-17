@@ -16,8 +16,8 @@
   <root nodeRef="r:fb357b72-1edc-449a-87ae-b3bb55de89c0(jetbrains.mps.xmlUnitTest.actions)/5266766379151917203">
     <file name="QueriesGenerated.java">
       <node id="5266766379151917204" at="26,208,27,93" concept="4" />
-      <node id="5266766379151917204" at="28,5,29,119" concept="4" />
-      <node id="5266766379151917204" at="29,119,30,62" concept="4" />
+      <node id="5266766379151917204" at="28,5,29,191" concept="4" />
+      <node id="5266766379151917204" at="29,191,30,62" concept="4" />
       <node id="5266766379151917209" at="33,94,34,253" concept="4" />
       <node id="5266766379151917215" at="34,253,35,201" concept="1" />
       <node id="5266766379151917223" at="35,201,36,24" concept="5" />
@@ -67,8 +67,8 @@
   <root nodeRef="r:fb357b72-1edc-449a-87ae-b3bb55de89c0(jetbrains.mps.xmlUnitTest.actions)/5266766379151917229">
     <file name="QueriesGenerated.java">
       <node id="5266766379151917230" at="49,210,50,93" concept="4" />
-      <node id="5266766379151917230" at="51,5,52,114" concept="4" />
-      <node id="5266766379151917230" at="52,114,53,62" concept="4" />
+      <node id="5266766379151917230" at="51,5,52,186" concept="4" />
+      <node id="5266766379151917230" at="52,186,53,62" concept="4" />
       <node id="5266766379151917235" at="56,94,57,248" concept="4" />
       <node id="5266766379151917241" at="57,248,58,165" concept="1" />
       <node id="5266766379151917247" at="58,165,59,24" concept="5" />
@@ -131,7 +131,7 @@
       <node id="5266766379151917263" at="92,37,93,43" concept="4" />
       <node id="5266766379151917263" at="93,43,94,61" concept="4" />
       <node id="5266766379151917263" at="94,61,95,88" concept="4" />
-      <node id="5266766379151917263" at="95,88,96,364" concept="5" />
+      <node id="5266766379151917263" at="95,88,96,508" concept="5" />
       <node id="5266766379151917263" at="98,7,99,18" concept="5" />
       <node id="5266766379151917263" at="85,0,88,0" concept="3" trace="getMatchingText#(Ljava/lang/String;)Ljava/lang/String;" />
       <node id="5266766379151917263" at="88,0,91,0" concept="3" trace="getVisibleMatchingText#(Ljava/lang/String;)Ljava/lang/String;" />
@@ -148,7 +148,7 @@
       <scope id="5266766379151917263" at="88,0,91,0">
         <var name="pattern" id="5266766379151917263" />
       </scope>
-      <scope id="5266766379151917263" at="92,37,96,364">
+      <scope id="5266766379151917263" at="92,37,96,508">
         <var name="containingLink" id="5266766379151917263" />
         <var name="parent" id="5266766379151917263" />
         <var name="sourceNode" id="5266766379151917263" />

@@ -16,7 +16,7 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.smodel.runtime.ReferenceConstraintsContext;
 import jetbrains.mps.buildlanguage.behavior.PropertyReference_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import org.jetbrains.mps.openapi.model.SNodeReference;
 import jetbrains.mps.smodel.SNodePointer;
 
@@ -38,7 +38,7 @@ public class PropertyReference_Constraints extends BaseConstraintsDescriptor {
         return new BaseReferenceScopeProvider() {
           @Override
           public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
-            return PropertyReference_Behavior.call_getAllVisibleDeclarations_1239123615225(SNodeOperations.asSConcept(SConceptOperations.findConceptDeclaration("jetbrains.mps.buildlanguage.structure.PropertyReference")), _context.getEnclosingNode());
+            return PropertyReference_Behavior.call_getAllVisibleDeclarations_1239123615225(SNodeOperations.asSConcept(MetaAdapterFactory.getConcept(0xb608d441308418dL, 0x871522d040c3b3ccL, 0x116aa099456L, "jetbrains.mps.buildlanguage.structure.PropertyReference").getDeclarationNode()), _context.getEnclosingNode());
           }
           @Override
           public SNodeReference getSearchScopeValidatorNode() {

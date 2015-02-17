@@ -6,13 +6,12 @@ import jetbrains.mps.smodel.search.ISearchScope;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.smodel.search.SModelSearchUtil;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import java.util.List;
 import jetbrains.mps.smodel.search.IsInstanceCondition;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.smodel.search.SimpleSearchScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
@@ -21,7 +20,7 @@ public class DateFormatReferenceUtil {
   }
   public static ISearchScope buildIDateFormatSearchScope(final SNode node) {
     ISearchScope s = SModelSearchUtil.createModelAndImportedModelsScope(SNodeOperations.getModel(node), false);
-    SNode cd = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.datesInternal.structure.IDateFormat");
+    SNode cd = MetaAdapterFactory.getInterfaceConcept(0x1991585e225e4371L, 0x977a68a7888adae2L, 0x11150fa943fL, "jetbrains.mps.baseLanguage.datesInternal.structure.IDateFormat").getDeclarationNode();
     List<SNode> formats = (List<SNode>) s.getNodes(new IsInstanceCondition(cd));
     formats = ListSequence.fromList(formats).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
@@ -32,7 +31,7 @@ public class DateFormatReferenceUtil {
   }
   public static ISearchScope buildIPeriodFormatSearchScope(final SNode node) {
     ISearchScope s = SModelSearchUtil.createModelAndImportedModelsScope(SNodeOperations.getModel(node), false);
-    SNode cd = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.datesInternal.structure.IPeriodFormat");
+    SNode cd = MetaAdapterFactory.getInterfaceConcept(0x1991585e225e4371L, 0x977a68a7888adae2L, 0x7aa539ff0aeefaL, "jetbrains.mps.baseLanguage.datesInternal.structure.IPeriodFormat").getDeclarationNode();
     List<SNode> formats = (List<SNode>) s.getNodes(new IsInstanceCondition(cd));
     final SNode containingFormat = SNodeOperations.getNodeAncestor(node, MetaAdapterFactory.getConcept(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0xacea8f99e7ff4dL, "jetbrains.mps.baseLanguage.dates.structure.PeriodFormat"), true, false);
     formats = ListSequence.fromList(formats).where(new IWhereFilter<SNode>() {
@@ -44,7 +43,7 @@ public class DateFormatReferenceUtil {
   }
   public static ISearchScope buildPeriodPropertySearchScope(SNode node) {
     ISearchScope s = SModelSearchUtil.createModelAndImportedModelsScope(SNodeOperations.getModel(node), false);
-    SNode cd = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeProperty");
+    SNode cd = MetaAdapterFactory.getConcept(0x1991585e225e4371L, 0x977a68a7888adae2L, 0x110e512caf7L, "jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeProperty").getDeclarationNode();
     List<SNode> formats = (List<SNode>) s.getNodes(new IsInstanceCondition(cd));
     formats = ListSequence.fromList(formats).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {

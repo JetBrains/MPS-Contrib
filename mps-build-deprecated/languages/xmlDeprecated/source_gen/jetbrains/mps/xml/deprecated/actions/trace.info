@@ -16,8 +16,8 @@
   <root nodeRef="r:00000000-0000-4000-0000-011c895905a0(jetbrains.mps.xml.deprecated.actions)/1220989580562">
     <file name="QueriesGenerated.java">
       <node id="1220989638938" at="26,204,27,93" concept="4" />
-      <node id="1220989638938" at="28,5,29,117" concept="4" />
-      <node id="1220989638938" at="29,117,30,62" concept="4" />
+      <node id="1220989638938" at="28,5,29,184" concept="4" />
+      <node id="1220989638938" at="29,184,30,62" concept="4" />
       <node id="1220989964204" at="33,94,34,246" concept="4" />
       <node id="1220989978759" at="34,246,35,165" concept="1" />
       <node id="1220989994145" at="35,165,36,24" concept="5" />
@@ -70,8 +70,8 @@
   <root nodeRef="r:00000000-0000-4000-0000-011c895905a0(jetbrains.mps.xml.deprecated.actions)/1220992142083">
     <file name="QueriesGenerated.java">
       <node id="1220992153912" at="52,202,53,93" concept="4" />
-      <node id="1220992153912" at="54,5,55,122" concept="4" />
-      <node id="1220992153912" at="55,122,56,62" concept="4" />
+      <node id="1220992153912" at="54,5,55,189" concept="4" />
+      <node id="1220992153912" at="55,189,56,62" concept="4" />
       <node id="1220992363474" at="59,94,60,251" concept="4" />
       <node id="1220992382029" at="60,251,61,201" concept="1" />
       <node id="1220992391509" at="61,201,62,24" concept="5" />
@@ -131,7 +131,7 @@
       <node id="1220992758002" at="92,37,93,43" concept="4" />
       <node id="1220992758002" at="93,43,94,61" concept="4" />
       <node id="1220992758002" at="94,61,95,88" concept="4" />
-      <node id="1220992758002" at="95,88,96,370" concept="5" />
+      <node id="1220992758002" at="95,88,96,504" concept="5" />
       <node id="1220992758002" at="98,7,99,18" concept="5" />
       <node id="1220992758002" at="85,0,88,0" concept="3" trace="getMatchingText#(Ljava/lang/String;)Ljava/lang/String;" />
       <node id="1220992758002" at="88,0,91,0" concept="3" trace="getVisibleMatchingText#(Ljava/lang/String;)Ljava/lang/String;" />
@@ -148,7 +148,7 @@
       <scope id="1220992758002" at="88,0,91,0">
         <var name="pattern" id="1220992758002" />
       </scope>
-      <scope id="1220992758002" at="92,37,96,370">
+      <scope id="1220992758002" at="92,37,96,504">
         <var name="containingLink" id="1220992758002" />
         <var name="parent" id="1220992758002" />
         <var name="sourceNode" id="1220992758002" />
