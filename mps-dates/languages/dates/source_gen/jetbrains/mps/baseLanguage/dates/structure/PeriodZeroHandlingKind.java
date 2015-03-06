@@ -4,7 +4,7 @@ package jetbrains.mps.baseLanguage.dates.structure;
 
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
+import java.util.LinkedList;
 
 public enum PeriodZeroHandlingKind {
   ALWAYS("always", "always"),

@@ -5,7 +5,7 @@ package jetbrains.mps.execution.configurations.deprecated.behavior;
 import org.jetbrains.mps.openapi.model.SNode;
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
+import java.util.LinkedList;
 
 public class IEnhancedRunConfiguration_Behavior {
   public static void init(SNode thisNode) {

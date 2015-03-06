@@ -392,9 +392,9 @@
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="jetbrains.mps.execution.configurations.deprecated.behavior.IEnhancedRunConfiguration_Behavior" file="IEnhancedRunConfiguration_Behavior.java">
+    <classNode dependClassName="java.util.LinkedList" />
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
-    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.backports.LinkedList" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
   </dependency>
   <dependency className="jetbrains.mps.execution.configurations.deprecated.behavior.IEnhancedRunConfiguration_BehaviorDescriptor" file="IEnhancedRunConfiguration_BehaviorDescriptor.java">
