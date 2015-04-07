@@ -28,7 +28,7 @@ import jetbrains.mps.graphLayout.intGeom2D.Point;
 import jetbrains.mps.graphLayout.intGeom2D.Rectangle;
 import jetbrains.mps.graphLayout.intGeom2D.Util1D;
 import jetbrains.mps.graphLayout.graphLayout.GraphLayoutFactory;
-import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
+import java.util.LinkedList;
 
 public class OrthogonalFlowLayouter extends AbstractOrthogonalFlowLayouter {
   private static int LABEL_DIST = 10;

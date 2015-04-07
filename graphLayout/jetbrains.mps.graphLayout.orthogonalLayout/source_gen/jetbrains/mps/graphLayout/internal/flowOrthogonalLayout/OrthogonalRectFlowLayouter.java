@@ -30,7 +30,7 @@ import jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalRepresentation;
 import jetbrains.mps.graphLayout.intGeom2D.Direction2D;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import jetbrains.mps.graphLayout.intGeom2D.GeomUtil;
-import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
+import java.util.LinkedList;
 
 public class OrthogonalRectFlowLayouter {
   private static int SHOW_lOG = 0;

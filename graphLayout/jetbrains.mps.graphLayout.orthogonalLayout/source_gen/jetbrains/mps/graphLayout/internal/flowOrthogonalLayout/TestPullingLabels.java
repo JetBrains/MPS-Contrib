@@ -22,7 +22,7 @@ import jetbrains.mps.graphLayout.graph.IEdge;
 import jetbrains.mps.graphLayout.graphLayout.GraphLayoutFactory;
 import java.util.Set;
 import java.util.HashSet;
-import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
+import java.util.LinkedList;
 import jetbrains.mps.graphLayout.intGeom2D.Util1D;
 
 public class TestPullingLabels {

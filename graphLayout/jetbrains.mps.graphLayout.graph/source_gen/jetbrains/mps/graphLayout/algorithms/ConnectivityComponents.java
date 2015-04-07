@@ -12,7 +12,7 @@ import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.List;
 import java.util.ArrayList;
 import jetbrains.mps.internal.collections.runtime.LinkedListSequence;
-import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
+import java.util.LinkedList;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.Set;
 import java.util.HashSet;
@@ -44,7 +44,7 @@ public class ConnectivityComponents {
     int componentsNum = ConnectivityComponents.getComponentsNum(components);
     List<List<Node>> componentsList = ListSequence.fromList(new ArrayList<List<Node>>(componentsNum));
     for (int i = 0; i < componentsNum; i++) {
-      ListSequence.fromList(componentsList).addElement(LinkedListSequence.fromLinkedList(new LinkedList<Node>()));
+      ListSequence.fromList(componentsList).addElement(LinkedListSequence.fromLinkedListNew(new LinkedList<Node>()));
     }
     for (Node node : SetSequence.fromSet(MapSequence.fromMap(components).keySet())) {
       ListSequence.fromList(ListSequence.fromList(componentsList).getElement(MapSequence.fromMap(components).get(node))).addElement(node);
