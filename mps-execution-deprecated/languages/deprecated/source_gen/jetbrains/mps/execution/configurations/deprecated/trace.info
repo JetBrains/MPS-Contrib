@@ -2,8 +2,9 @@
 <debug-info>
   <root>
     <file name="Language.java">
-      <unit at="50,21,50,56" name="jetbrains.mps.execution.configurations.deprecated.Language$1" />
-      <unit at="22,0,70,0" name="jetbrains.mps.execution.configurations.deprecated.Language" />
+      <unit at="52,21,52,56" name="jetbrains.mps.execution.configurations.deprecated.Language$1" />
+      <unit at="61,21,61,58" name="jetbrains.mps.execution.configurations.deprecated.Language$2" />
+      <unit at="24,0,75,0" name="jetbrains.mps.execution.configurations.deprecated.Language" />
     </file>
   </root>
 </debug-info>

@@ -1,29 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-cvincg6x4mt5ig7eks72pj9wm36nazv">
-  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-1h31ezyqnoyoq0zmqvadd6ivsixfi7i" />
-  <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="-dt8to0e3awhqgsnd0xitpnu1mljmtfr" />
-  <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="clelklcyyrltwc0s7skmek9f9pkvicn" />
-  <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="4yuncavoqhqnvwytey6u777j2u1wj3r" />
-  <common hash="-cpf6x8tgu1pb0js4sfw0dqy4vv271cr" dependsOnNodes="true">
-    <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
-  </common>
-  <source id="3987693689859618102" name="ListenerId" hash="1n03tejdkkasv0syjzt6n4xyhcz9myu">
-    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
-    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
-    <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
-    <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
-    <file name="ListenerId.java" />
-  </source>
-  <source id="3987693689859618179" name="IListener" hash="ahebwef4qmzegy447ofwdzgaj5nwfb1">
-    <file name="IListener.java" />
-  </source>
-  <source id="3987693689859618187" name="Event" hash="-7igvwvxb0a2c4yl25ykx74lsuek5uk9">
-    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
-    <file name="Event.java" />
-  </source>
-  <source id="3987693689859618260" name="Events" hash="-c8hdr9yz3woczqitegvxd8dyaq7sgr4">
-    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
-    <file name="Events.java" />
-  </source>
-</dependencies>
+<dependencies version="2" modelHash="-cvincg6x4mt5ig7eks72pj9wm36nazv" />
 
