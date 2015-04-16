@@ -4,7 +4,7 @@ package jetbrains.mps.graphLayout.planarization;
 
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
+import java.util.LinkedList;
 import jetbrains.mps.graphLayout.graph.Node;
 import java.util.Iterator;
 

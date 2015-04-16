@@ -15,7 +15,7 @@ import jetbrains.mps.graphLayout.graph.Node;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.internal.collections.runtime.ISelector;
 import java.util.Set;
-import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
+import java.util.LinkedList;
 
 public class EmbeddedGraph {
   private List<Face> myFaces;

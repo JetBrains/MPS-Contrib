@@ -17,7 +17,7 @@ import java.util.HashMap;
 import jetbrains.mps.graphLayout.graph.GroupedGraphModificationSynchronizer;
 import jetbrains.mps.graphLayout.graph.EdgesHistoryManager;
 import java.util.List;
-import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
+import java.util.LinkedList;
 import jetbrains.mps.graphLayout.graph.GraphModificationEvent;
 
 public class GroupedGraphModificationSynchronizer_Test extends TestCase {

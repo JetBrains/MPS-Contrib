@@ -15,7 +15,7 @@ import jetbrains.mps.graphLayout.algorithms.ConnectivityComponents;
 import jetbrains.mps.graphLayout.algorithms.BiconnectAugmentation;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
+import java.util.LinkedList;
 import jetbrains.mps.graphLayout.planarGraph.CheckEmbeddedGraph;
 
 public class ClusteredGraphEmbeddingFinder implements IEmbeddingFinder {

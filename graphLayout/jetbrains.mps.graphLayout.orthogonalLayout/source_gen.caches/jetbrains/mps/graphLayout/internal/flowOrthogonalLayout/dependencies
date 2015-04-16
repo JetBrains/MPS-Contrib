@@ -11,6 +11,7 @@
     <classNode dependClassName="java.util.Arrays" />
     <classNode dependClassName="java.util.HashMap" />
     <classNode dependClassName="java.util.HashSet" />
+    <classNode dependClassName="java.util.LinkedList" />
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="java.util.Map" />
     <classNode dependClassName="java.util.Set" />
@@ -37,7 +38,6 @@
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.Sequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.SetSequence" />
-    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.backports.LinkedList" />
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.internal.flowOrthogonalLayout.CoordinatePlacer" file="CoordinatePlacer.java">
     <classNode dependClassName="java.lang.Integer" />
@@ -111,6 +111,7 @@
     <classNode dependClassName="java.util.HashSet" />
     <classNode dependClassName="java.util.Iterator" />
     <classNode dependClassName="java.util.LinkedHashMap" />
+    <classNode dependClassName="java.util.LinkedList" />
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="java.util.Map" />
     <classNode dependClassName="java.util.Set" />
@@ -137,7 +138,6 @@
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.SetSequence" />
-    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.backports.LinkedList" />
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.internal.flowOrthogonalLayout.OrthogonalFlowLayouterConstraints" file="OrthogonalFlowLayouterConstraints.java">
     <classNode dependClassName="java.lang.Integer" />
@@ -148,6 +148,7 @@
     <classNode dependClassName="java.util.HashSet" />
     <classNode dependClassName="java.util.Iterator" />
     <classNode dependClassName="java.util.LinkedHashMap" />
+    <classNode dependClassName="java.util.LinkedList" />
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="java.util.Map" />
     <classNode dependClassName="java.util.Set" />
@@ -174,7 +175,6 @@
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.SetSequence" />
-    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.backports.LinkedList" />
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.internal.flowOrthogonalLayout.OrthogonalPointFlowLayouter" file="OrthogonalPointFlowLayouter.java">
     <classNode dependClassName="java.lang.Integer" />
@@ -214,6 +214,7 @@
     <classNode dependClassName="java.util.ArrayList" />
     <classNode dependClassName="java.util.HashMap" />
     <classNode dependClassName="java.util.LinkedHashMap" />
+    <classNode dependClassName="java.util.LinkedList" />
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="java.util.Map" />
     <classNode dependClassName="java.util.Set" />
@@ -241,7 +242,6 @@
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.Sequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.SetSequence" />
-    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.backports.LinkedList" />
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.internal.flowOrthogonalLayout.OrthogonalRepresentationWithNodesProcessing" file="OrthogonalRepresentationWithNodesProcessing.java">
     <classNode dependClassName="java.lang.Integer" />
@@ -274,6 +274,7 @@
     <classNode dependClassName="java.lang.Math" />
     <classNode dependClassName="java.util.HashMap" />
     <classNode dependClassName="java.util.HashSet" />
+    <classNode dependClassName="java.util.LinkedList" />
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="java.util.Map" />
     <classNode dependClassName="java.util.Set" />
@@ -294,7 +295,6 @@
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.SetSequence" />
-    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.backports.LinkedList" />
   </dependency>
 </dependenciesRoot>
 

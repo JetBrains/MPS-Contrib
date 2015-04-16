@@ -16,7 +16,7 @@ import java.util.List;
 import jetbrains.mps.graphLayout.intGeom2D.Point;
 import jetbrains.mps.graphLayout.intGeom2D.GeomUtil;
 import jetbrains.mps.graphLayout.intGeom2D.Rectangle;
-import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
+import java.util.LinkedList;
 import jetbrains.mps.graphLayout.intGeom2D.OrthogonalUtil;
 import jetbrains.mps.graphLayout.intGeom2D.Dimension;
 import jetbrains.mps.internal.collections.runtime.SetSequence;

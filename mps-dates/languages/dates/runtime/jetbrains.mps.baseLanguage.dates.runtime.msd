@@ -4,7 +4,9 @@
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="jetbrains" />
     </modelRoot>
-    <modelRoot path="${module}/lib/joda-time-2.1.jar" type="java_classes" />
+    <modelRoot contentPath="${module}/lib" type="java_classes">
+      <sourceRoot location="joda-time-2.1.jar" />
+    </modelRoot>
   </models>
   <stubModelEntries>
     <stubModelEntry path="${module}/lib/joda-time-2.1.jar" />

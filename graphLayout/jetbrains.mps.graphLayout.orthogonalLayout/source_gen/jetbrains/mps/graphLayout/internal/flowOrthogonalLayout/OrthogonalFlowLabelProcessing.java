@@ -30,7 +30,7 @@ import jetbrains.mps.graphLayout.flowOrthogonalLayout.QuasiOrthogonalRepresentat
 import jetbrains.mps.graphLayout.flowOrthogonalLayout.QuasiRepresentationModifier;
 import jetbrains.mps.graphLayout.flowOrthogonalLayout.OrthogonalRepresentation;
 import jetbrains.mps.graphLayout.intGeom2D.Direction2D;
-import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
+import java.util.LinkedList;
 import jetbrains.mps.graphLayout.intGeom2D.OrthogonalUtil;
 import java.util.Iterator;
 

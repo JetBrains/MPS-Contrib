@@ -6,7 +6,7 @@ import java.util.List;
 import jetbrains.mps.graphLayout.graph.Node;
 import jetbrains.mps.graphLayout.graph.Graph;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
+import java.util.LinkedList;
 import jetbrains.mps.graphLayout.graph.Edge;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 

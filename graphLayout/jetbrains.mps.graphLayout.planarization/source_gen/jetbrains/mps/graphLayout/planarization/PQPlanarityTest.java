@@ -20,7 +20,7 @@ import jetbrains.mps.graphLayout.planarGraph.Face;
 import java.util.Iterator;
 import java.util.HashSet;
 import jetbrains.mps.graphLayout.planarGraph.Dart;
-import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
+import java.util.LinkedList;
 
 public class PQPlanarityTest {
   private static int SHOW_LOG = 0;

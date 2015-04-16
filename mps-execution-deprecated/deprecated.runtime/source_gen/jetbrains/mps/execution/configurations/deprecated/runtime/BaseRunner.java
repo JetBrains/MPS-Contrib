@@ -21,7 +21,7 @@ import java.util.Collections;
 import jetbrains.mps.project.facets.JavaModuleFacet;
 import jetbrains.mps.reloading.CommonPaths;
 import org.jetbrains.annotations.NotNull;
-import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
+import java.util.LinkedList;
 import java.io.File;
 
 /**

@@ -8,7 +8,7 @@ import java.util.Map;
 import jetbrains.mps.graphLayout.planarGraph.Dart;
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
+import java.util.LinkedList;
 import jetbrains.mps.graphLayout.graph.Edge;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;

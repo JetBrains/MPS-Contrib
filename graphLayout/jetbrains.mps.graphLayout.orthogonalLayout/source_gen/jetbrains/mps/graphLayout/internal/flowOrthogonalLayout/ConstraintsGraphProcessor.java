@@ -21,7 +21,7 @@ import java.util.ArrayList;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.HashSet;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
-import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
+import java.util.LinkedList;
 import jetbrains.mps.internal.collections.runtime.ISelector;
 import jetbrains.mps.graphLayout.algorithms.TopologicalSorting;
 import jetbrains.mps.graphLayout.intGeom2D.Point;

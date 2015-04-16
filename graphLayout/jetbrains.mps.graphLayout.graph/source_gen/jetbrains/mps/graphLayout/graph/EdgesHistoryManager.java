@@ -7,7 +7,7 @@ import java.util.List;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
+import java.util.LinkedList;
 
 public class EdgesHistoryManager implements IGraphModificationListener {
   private Map<Edge, List<Edge>> myHistory;
