@@ -11,6 +11,11 @@
   <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
   <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
   <concept fqn="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
+  <root>
+    <file name="TextGenAspectDescriptor.java">
+      <unit at="13,0,37,0" name="jetbrains.mps.xmlUnitTest.textGen.TextGenAspectDescriptor" />
+    </file>
+  </root>
   <root nodeRef="r:ff23c0c2-95e6-4b29-9d52-0832744de644(jetbrains.mps.xmlUnitTest.textGen)/5211164146776719939">
     <file name="XMLStringLiteral_TextGen.java">
       <node id="5211164146776725750" at="11,42,12,22" concept="0" />

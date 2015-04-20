@@ -155,5 +155,25 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.textGen.SNodeTextGen" />
   </dependency>
+  <dependency className="jetbrains.mps.gtext.textGen.TextGenAspectDescriptor" file="TextGenAspectDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.util.Arrays" />
+    <classNode dependClassName="jetbrains.mps.gtext.textGen.GConditionalLine_TextGen" />
+    <classNode dependClassName="jetbrains.mps.gtext.textGen.GDocument_TextGen" />
+    <classNode dependClassName="jetbrains.mps.gtext.textGen.GExpressionItem_TextGen" />
+    <classNode dependClassName="jetbrains.mps.gtext.textGen.GIndentBlock_TextGen" />
+    <classNode dependClassName="jetbrains.mps.gtext.textGen.GIndent_TextGen" />
+    <classNode dependClassName="jetbrains.mps.gtext.textGen.GItemList_TextGen" />
+    <classNode dependClassName="jetbrains.mps.gtext.textGen.GLine_TextGen" />
+    <classNode dependClassName="jetbrains.mps.gtext.textGen.GNewLine_TextGen" />
+    <classNode dependClassName="jetbrains.mps.gtext.textGen.GSeparatorItemList_TextGen" />
+    <classNode dependClassName="jetbrains.mps.gtext.textGen.GText_TextGen" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.ids.SConceptId" />
+    <classNode dependClassName="jetbrains.mps.text.LegacyTextGenAdapter" />
+    <classNode dependClassName="jetbrains.mps.text.rt.TextGenDescriptor" />
+    <classNode dependClassName="org.jetbrains.annotations.NotNull" />
+    <classNode dependClassName="org.jetbrains.annotations.Nullable" />
+    <classNode extendsClassName="jetbrains.mps.text.rt.BaseTextGenAspectDescriptor" />
+  </dependency>
 </dependenciesRoot>
 

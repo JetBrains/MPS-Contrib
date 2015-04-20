@@ -17,8 +17,7 @@ import jetbrains.mps.lang.dataFlow.framework.AbstractDataFlowAspectDescriptor;
 import jetbrains.mps.openapi.editor.descriptor.EditorAspectDescriptor;
 import jetbrains.mps.xmlUnitTest.editor.EditorAspectDescriptorImpl;
 import jetbrains.mps.smodel.runtime.StructureAspectDescriptor;
-import jetbrains.mps.smodel.runtime.TextGenAspectDescriptor;
-import jetbrains.mps.smodel.runtime.interpreted.TextGenAspectInterpreted;
+import jetbrains.mps.text.rt.TextGenAspectDescriptor;
 import jetbrains.mps.lang.typesystem.runtime.IHelginsDescriptor;
 import jetbrains.mps.xmlUnitTest.typesystem.TypesystemDescriptor;
 
@@ -65,7 +64,7 @@ public class Language extends LanguageRuntime {
       return (T) new jetbrains.mps.xmlUnitTest.structure.StructureAspectDescriptor();
     }
     if (descriptorClass == TextGenAspectDescriptor.class) {
-      return (T) new TextGenAspectInterpreted();
+      return (T) new jetbrains.mps.xmlUnitTest.textGen.TextGenAspectDescriptor();
     }
     if (descriptorClass == IHelginsDescriptor.class) {
       return (T) new TypesystemDescriptor();

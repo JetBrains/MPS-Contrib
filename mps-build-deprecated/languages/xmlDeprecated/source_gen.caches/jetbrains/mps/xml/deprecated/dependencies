@@ -15,11 +15,11 @@
     <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.LanguageAspectDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.StructureAspectDescriptor" />
-    <classNode dependClassName="jetbrains.mps.smodel.runtime.TextGenAspectDescriptor" />
-    <classNode dependClassName="jetbrains.mps.smodel.runtime.interpreted.TextGenAspectInterpreted" />
+    <classNode dependClassName="jetbrains.mps.text.rt.TextGenAspectDescriptor" />
     <classNode dependClassName="jetbrains.mps.xml.deprecated.behavior.BehaviorAspectDescriptor" />
     <classNode dependClassName="jetbrains.mps.xml.deprecated.editor.EditorAspectDescriptorImpl" />
     <classNode dependClassName="jetbrains.mps.xml.deprecated.structure.StructureAspectDescriptor" />
+    <classNode dependClassName="jetbrains.mps.xml.deprecated.textGen.TextGenAspectDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.language.LanguageRuntime" />
   </dependency>
 </dependenciesRoot>

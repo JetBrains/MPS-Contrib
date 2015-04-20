@@ -7,6 +7,11 @@
   <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
   <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
   <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <root>
+    <file name="TextGenAspectDescriptor.java">
+      <unit at="13,0,46,0" name="jetbrains.mps.xml.deprecated.textGen.TextGenAspectDescriptor" />
+    </file>
+  </root>
   <root nodeRef="r:68f43446-b6ea-40ae-841b-d683d3d085cf(jetbrains.mps.xml.deprecated.textGen)/1238415156895">
     <file name="Document_TextGen.java">
       <node id="1238415425290" at="13,176,14,174" concept="0" />

@@ -2,9 +2,9 @@
 <debug-info>
   <root>
     <file name="Language.java">
-      <unit at="53,21,53,56" name="jetbrains.mps.xmlUnitTest.Language$1" />
-      <unit at="59,21,59,58" name="jetbrains.mps.xmlUnitTest.Language$2" />
-      <unit at="25,0,76,0" name="jetbrains.mps.xmlUnitTest.Language" />
+      <unit at="52,21,52,56" name="jetbrains.mps.xmlUnitTest.Language$1" />
+      <unit at="58,21,58,58" name="jetbrains.mps.xmlUnitTest.Language$2" />
+      <unit at="24,0,75,0" name="jetbrains.mps.xmlUnitTest.Language" />
     </file>
   </root>
 </debug-info>

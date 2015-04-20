@@ -45,6 +45,19 @@
     <classNode dependClassName="java.lang.String" />
     <classNode extendsClassName="java.io.Writer" />
   </dependency>
+  <dependency className="jetbrains.mps.xmlUnitTest.textGen.TextGenAspectDescriptor" file="TextGenAspectDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.util.Arrays" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.ids.SConceptId" />
+    <classNode dependClassName="jetbrains.mps.text.LegacyTextGenAdapter" />
+    <classNode dependClassName="jetbrains.mps.text.rt.TextGenDescriptor" />
+    <classNode dependClassName="jetbrains.mps.xmlUnitTest.textGen.Document_TextGen" />
+    <classNode dependClassName="jetbrains.mps.xmlUnitTest.textGen.XMLLiteral_TextGen" />
+    <classNode dependClassName="jetbrains.mps.xmlUnitTest.textGen.XMLStringLiteral_TextGen" />
+    <classNode dependClassName="org.jetbrains.annotations.NotNull" />
+    <classNode dependClassName="org.jetbrains.annotations.Nullable" />
+    <classNode extendsClassName="jetbrains.mps.text.rt.BaseTextGenAspectDescriptor" />
+  </dependency>
   <dependency className="jetbrains.mps.xmlUnitTest.textGen.XMLLiteral_TextGen" file="XMLLiteral_TextGen.java">
     <classNode dependClassName="jetbrains.mps.xmlUnitTest.textGen.EscapingElementCreator" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />

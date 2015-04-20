@@ -9,6 +9,11 @@
   <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
   <concept fqn="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
   <concept fqn="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
+  <root>
+    <file name="TextGenAspectDescriptor.java">
+      <unit at="13,0,58,0" name="jetbrains.mps.gtext.textGen.TextGenAspectDescriptor" />
+    </file>
+  </root>
   <root nodeRef="r:e40d20f2-e58e-407b-ac00-b1e03796df98(jetbrains.mps.gtext.textGen)/1234548035318">
     <file name="GConditionalLine_TextGen.java">
       <node id="1234548035318" at="19,44,20,61" concept="1" />

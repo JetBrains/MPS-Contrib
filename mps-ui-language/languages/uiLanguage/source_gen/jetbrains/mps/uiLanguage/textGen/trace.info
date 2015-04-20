@@ -4,6 +4,11 @@
   <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
   <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
   <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <root>
+    <file name="TextGenAspectDescriptor.java">
+      <unit at="13,0,31,0" name="jetbrains.mps.uiLanguage.textGen.TextGenAspectDescriptor" />
+    </file>
+  </root>
   <root nodeRef="r:0aa1c06f-0c0c-4636-851a-9e1cd87fcce8(jetbrains.mps.uiLanguage.textGen)/6242401288845940755">
     <file name="PngIcon_TextGen.java">
       <node id="6242401288845940755" at="12,42,13,65" concept="1" />

@@ -17,12 +17,12 @@
     <classNode dependClassName="jetbrains.mps.smodel.runtime.ConstraintsAspectDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.LanguageAspectDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.StructureAspectDescriptor" />
-    <classNode dependClassName="jetbrains.mps.smodel.runtime.TextGenAspectDescriptor" />
-    <classNode dependClassName="jetbrains.mps.smodel.runtime.interpreted.TextGenAspectInterpreted" />
+    <classNode dependClassName="jetbrains.mps.text.rt.TextGenAspectDescriptor" />
     <classNode dependClassName="jetbrains.mps.uiLanguage.behavior.BehaviorAspectDescriptor" />
     <classNode dependClassName="jetbrains.mps.uiLanguage.constraints.ConstraintsAspectDescriptor" />
     <classNode dependClassName="jetbrains.mps.uiLanguage.editor.EditorAspectDescriptorImpl" />
     <classNode dependClassName="jetbrains.mps.uiLanguage.structure.StructureAspectDescriptor" />
+    <classNode dependClassName="jetbrains.mps.uiLanguage.textGen.TextGenAspectDescriptor" />
     <classNode dependClassName="jetbrains.mps.uiLanguage.typesystem.TypesystemDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.language.LanguageRuntime" />
   </dependency>
