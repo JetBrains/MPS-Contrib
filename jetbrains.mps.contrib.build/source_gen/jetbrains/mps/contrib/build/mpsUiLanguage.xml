@@ -65,6 +65,7 @@
         <dependencies>
           <module ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" />
         </dependencies>
+        <library jar="../beansbinding-1.2.1.jar" />
         <sources jar="jetbrains.mps.ide.uiLanguage.runtime-src.jar" descriptor="jetbrains.mps.ide.uiLanguage.runtime.msd" />
       </module>
     </echoxml>
@@ -163,6 +164,10 @@
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/mps-ui-language-languages-uiLanguage-generator-baseLanguage-template" prefix="module/generator/baseLanguage/template" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/mps-ui-language-languages-uiLanguage-languageModels" prefix="module/languageModels" />
     </jar>
+    <mkdir dir="${build.layout}/mps-ui-language/languages" />
+    <copy todir="${build.layout}/mps-ui-language/languages">
+      <fileset file="${basedir}/mps-ui-language/languages/uiLanguage/runtime/lib/beansbinding-1.2.1.jar" />
+    </copy>
     <echo file="${build.layout}/build.properties">mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}</echo>
   </target>
   
@@ -362,7 +367,10 @@
       <src>
         <path location="${basedir}/mps-ui-language/languages/uiLanguage/runtime/source_gen" />
       </src>
-      <classpath refid="path.jdk.classpath" />
+      <classpath>
+        <fileset file="${basedir}/mps-ui-language/languages/uiLanguage/runtime/lib/beansbinding-1.2.1.jar" />
+        <path refid="path.jdk.classpath" />
+      </classpath>
     </javac2>
     <copy todir="${build.tmp}/java/out/jetbrains.mps.ide.uiLanguage.runtime">
       <fileset dir="${basedir}/mps-ui-language/languages/uiLanguage/runtime/source_gen" includes="**/*.properties, **/*.xml, **/*.html, **/*.png, **/*.txt, **/*.ico, **/*.zip, **/*.info" />
@@ -391,6 +399,7 @@
         <fileset file="${artifacts.mps}/lib/mps-icons.jar" />
         <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
         <pathelement path="${build.tmp}/java/out/jetbrains.mps.uiLanguage" />
+        <fileset file="${basedir}/mps-ui-language/languages/uiLanguage/runtime/lib/beansbinding-1.2.1.jar" />
         <fileset file="${artifacts.IDEA}/lib/log4j.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.IDEA}/lib/jdom.jar" />
@@ -439,6 +448,7 @@
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <fileset file="${artifacts.mps}/lib/mps-icons.jar" />
         <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
+        <fileset file="${basedir}/mps-ui-language/languages/uiLanguage/runtime/lib/beansbinding-1.2.1.jar" />
         <fileset file="${artifacts.IDEA}/lib/log4j.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.IDEA}/lib/jdom.jar" />
@@ -487,6 +497,7 @@
         <fileset file="${artifacts.mps}/lib/mps-icons.jar" />
         <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
         <pathelement path="${build.tmp}/java/out/jetbrains.mps.uiLanguage" />
+        <fileset file="${basedir}/mps-ui-language/languages/uiLanguage/runtime/lib/beansbinding-1.2.1.jar" />
         <fileset file="${artifacts.IDEA}/lib/log4j.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.IDEA}/lib/jdom.jar" />

@@ -3,7 +3,7 @@
   <persistence version="9" />
   <attribute name="concise" value="true" />
   <languages>
-    <use id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build" version="-1" />
+    <use id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build" version="0" />
     <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="1" />
   </languages>
   <imports>
@@ -2361,6 +2361,30 @@
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
+        <node concept="1SiIV0" id="2OJGwZwRX5H" role="3bR37C">
+          <node concept="1BurEX" id="2OJGwZwRX5I" role="1SiIV1">
+            <node concept="55IIr" id="2OJGwZwRX5A" role="1BurEY">
+              <node concept="2Ry0Ak" id="2OJGwZwRX5B" role="iGT6I">
+                <property role="2Ry0Am" value="mps-ui-language" />
+                <node concept="2Ry0Ak" id="2OJGwZwRX5C" role="2Ry0An">
+                  <property role="2Ry0Am" value="languages" />
+                  <node concept="2Ry0Ak" id="2OJGwZwRX5D" role="2Ry0An">
+                    <property role="2Ry0Am" value="uiLanguage" />
+                    <node concept="2Ry0Ak" id="2OJGwZwRX5E" role="2Ry0An">
+                      <property role="2Ry0Am" value="runtime" />
+                      <node concept="2Ry0Ak" id="2OJGwZwRX5F" role="2Ry0An">
+                        <property role="2Ry0Am" value="lib" />
+                        <node concept="2Ry0Ak" id="2OJGwZwRX5G" role="2Ry0An">
+                          <property role="2Ry0Am" value="beansbinding-1.2.1.jar" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="3r2eVZXMlBq" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -2548,6 +2572,35 @@
     <node concept="1l3spV" id="3r2eVZXMjdf" role="1l3spN">
       <node concept="m$_wl" id="3r2eVZXMjdg" role="39821P">
         <ref role="m_rDy" node="3r2eVZXMj9V" resolve="jetbrains.mps.uiLanguage" />
+        <node concept="398223" id="2OJGwZwS0q1" role="39821P">
+          <node concept="3_J27D" id="2OJGwZwS0q2" role="Nbhlr">
+            <node concept="3Mxwew" id="2OJGwZwS0q7" role="3MwsjC">
+              <property role="3MwjfP" value="languages" />
+            </node>
+          </node>
+          <node concept="28jJK3" id="2OJGwZwS0qn" role="39821P">
+            <node concept="55IIr" id="2OJGwZwS0qq" role="28jJRO">
+              <node concept="2Ry0Ak" id="2OJGwZwS0qy" role="iGT6I">
+                <property role="2Ry0Am" value="mps-ui-language" />
+                <node concept="2Ry0Ak" id="2OJGwZwS0qB" role="2Ry0An">
+                  <property role="2Ry0Am" value="languages" />
+                  <node concept="2Ry0Ak" id="2OJGwZwS0qG" role="2Ry0An">
+                    <property role="2Ry0Am" value="uiLanguage" />
+                    <node concept="2Ry0Ak" id="2OJGwZwS0qL" role="2Ry0An">
+                      <property role="2Ry0Am" value="runtime" />
+                      <node concept="2Ry0Ak" id="2OJGwZwS0qQ" role="2Ry0An">
+                        <property role="2Ry0Am" value="lib" />
+                        <node concept="2Ry0Ak" id="2OJGwZwS0qV" role="2Ry0An">
+                          <property role="2Ry0Am" value="beansbinding-1.2.1.jar" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="10PD9b" id="3r2eVZXMjdF" role="10PD9s" />

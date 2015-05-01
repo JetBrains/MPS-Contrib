@@ -10,6 +10,9 @@
     <facet type="tests" />
     <facet pluginId="jetbrains.mps.uiLanguage" type="ideaPlugin" />
   </facets>
+  <stubModelEntries>
+    <stubModelEntry path="${module}/lib/beansbinding-1.2.1.jar" />
+  </stubModelEntries>
   <sourcePath />
   <dependencies>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
