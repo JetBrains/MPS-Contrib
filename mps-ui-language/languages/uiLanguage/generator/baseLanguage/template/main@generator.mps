@@ -3,13 +3,13 @@
   <persistence version="9" />
   <attribute name="concise" value="true" />
   <languages>
-    <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="-1" />
-    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="-1" />
-    <use id="df345b11-b8c7-4213-ac66-48d2a9b75d88" name="jetbrains.mps.baseLanguageInternal" version="-1" />
-    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="-1" />
-    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="-1" />
-    <use id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation" version="-1" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="-1" />
+    <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
+    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="0" />
+    <use id="df345b11-b8c7-4213-ac66-48d2a9b75d88" name="jetbrains.mps.baseLanguageInternal" version="0" />
+    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="0" />
+    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="0" />
+    <use id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation" version="0" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="0" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -29,9 +29,9 @@
     <import index="v8je" ref="r:4fc7b676-941c-40f5-b442-77b156c079c8(jetbrains.mps.uiLanguage.runtime.events)" />
     <import index="msyo" ref="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.util(MPS.Core/jetbrains.mps.util@java_stub)" />
     <import index="cu2c" ref="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel(MPS.Core/jetbrains.mps.smodel@java_stub)" />
-    <import index="e29f" ref="f:java_stub#86441d7a-e194-42da-81a5-2161ec62a379#org.jdesktop.beansbinding(MPS.Workbench/org.jdesktop.beansbinding@java_stub)" />
-    <import index="etso" ref="f:java_stub#86441d7a-e194-42da-81a5-2161ec62a379#org.jdesktop.swingbinding(MPS.Workbench/org.jdesktop.swingbinding@java_stub)" />
     <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" />
+    <import index="208" ref="ceb47609-02c2-4927-bb6d-d58368388a62/f:java_stub#ceb47609-02c2-4927-bb6d-d58368388a62#org.jdesktop.beansbinding(jetbrains.mps.ide.uiLanguage.runtime/org.jdesktop.beansbinding@java_stub)" />
+    <import index="tjh" ref="ceb47609-02c2-4927-bb6d-d58368388a62/f:java_stub#ceb47609-02c2-4927-bb6d-d58368388a62#org.jdesktop.swingbinding(jetbrains.mps.ide.uiLanguage.runtime/org.jdesktop.swingbinding@java_stub)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -1141,13 +1141,13 @@
       <node concept="3Tm1VV" id="hvThBjf" role="1B3o_S" />
       <node concept="_YKpA" id="i34fCK2" role="1tU5fm">
         <node concept="3uibUv" id="5bdGbWp90bj" role="_ZDj9">
-          <ref role="3uigEE" to="e29f:~AutoBinding" resolve="AutoBinding" />
+          <ref role="3uigEE" to="208:~AutoBinding" resolve="AutoBinding" />
         </node>
       </node>
       <node concept="2ShNRf" id="hIfNAnY" role="33vP2m">
         <node concept="Tc6Ow" id="i34fCMd" role="2ShVmc">
           <node concept="3uibUv" id="hw84E75" role="HW$YZ">
-            <ref role="3uigEE" to="e29f:~AutoBinding" resolve="AutoBinding" />
+            <ref role="3uigEE" to="208:~AutoBinding" resolve="AutoBinding" />
           </node>
         </node>
       </node>
@@ -1754,11 +1754,11 @@
               <node concept="3cpWsn" id="hw8mFqz" role="3cpWs9">
                 <property role="TrG5h" value="sourceProperty" />
                 <node concept="3uibUv" id="hw8mFq$" role="1tU5fm">
-                  <ref role="3uigEE" to="e29f:~Property" resolve="Property" />
+                  <ref role="3uigEE" to="208:~Property" resolve="Property" />
                 </node>
                 <node concept="2YIFZM" id="5bdGbWp91f1" role="33vP2m">
-                  <ref role="1Pybhc" to="e29f:~BeanProperty" resolve="BeanProperty" />
-                  <ref role="37wK5l" to="e29f:~BeanProperty.create(java.lang.String):org.jdesktop.beansbinding.BeanProperty" resolve="create" />
+                  <ref role="1Pybhc" to="208:~BeanProperty" resolve="BeanProperty" />
+                  <ref role="37wK5l" to="208:~BeanProperty.create(java.lang.String):org.jdesktop.beansbinding.BeanProperty" resolve="create" />
                   <node concept="Xl_RD" id="5bdGbWp91f2" role="37wK5m">
                     <property role="Xl_RC" value="propertyExpression" />
                     <node concept="17Uvod" id="5bdGbWp91f3" role="lGtFl">
@@ -1852,11 +1852,11 @@
               <node concept="3cpWsn" id="hw8mHs5" role="3cpWs9">
                 <property role="TrG5h" value="targetProperty" />
                 <node concept="3uibUv" id="hw8mHs6" role="1tU5fm">
-                  <ref role="3uigEE" to="e29f:~Property" resolve="Property" />
+                  <ref role="3uigEE" to="208:~Property" resolve="Property" />
                 </node>
                 <node concept="2YIFZM" id="5bdGbWp91sO" role="33vP2m">
-                  <ref role="1Pybhc" to="e29f:~BeanProperty" resolve="BeanProperty" />
-                  <ref role="37wK5l" to="e29f:~BeanProperty.create(java.lang.String):org.jdesktop.beansbinding.BeanProperty" resolve="create" />
+                  <ref role="1Pybhc" to="208:~BeanProperty" resolve="BeanProperty" />
+                  <ref role="37wK5l" to="208:~BeanProperty.create(java.lang.String):org.jdesktop.beansbinding.BeanProperty" resolve="create" />
                   <node concept="Xl_RD" id="5bdGbWp91sP" role="37wK5m">
                     <property role="Xl_RC" value="propertyName" />
                     <node concept="17Uvod" id="5bdGbWp91sQ" role="lGtFl">
@@ -1888,14 +1888,14 @@
               <node concept="3cpWsn" id="hw8mzr6" role="3cpWs9">
                 <property role="TrG5h" value="binding" />
                 <node concept="3uibUv" id="21XJJwAWfgW" role="1tU5fm">
-                  <ref role="3uigEE" to="e29f:~AutoBinding" resolve="AutoBinding" />
+                  <ref role="3uigEE" to="208:~AutoBinding" resolve="AutoBinding" />
                 </node>
                 <node concept="2YIFZM" id="5bdGbWp91Ey" role="33vP2m">
-                  <ref role="1Pybhc" to="e29f:~Bindings" resolve="Bindings" />
-                  <ref role="37wK5l" to="e29f:~Bindings.createAutoBinding(org.jdesktop.beansbinding.AutoBinding$UpdateStrategy,java.lang.Object,org.jdesktop.beansbinding.Property,java.lang.Object,org.jdesktop.beansbinding.Property):org.jdesktop.beansbinding.AutoBinding" resolve="createAutoBinding" />
+                  <ref role="1Pybhc" to="208:~Bindings" resolve="Bindings" />
+                  <ref role="37wK5l" to="208:~Bindings.createAutoBinding(org.jdesktop.beansbinding.AutoBinding$UpdateStrategy,java.lang.Object,org.jdesktop.beansbinding.Property,java.lang.Object,org.jdesktop.beansbinding.Property):org.jdesktop.beansbinding.AutoBinding" resolve="createAutoBinding" />
                   <node concept="Rm8GO" id="21XJJwAWjok" role="37wK5m">
-                    <ref role="Rm8GQ" to="e29f:~AutoBinding$UpdateStrategy.READ_WRITE" resolve="READ_WRITE" />
-                    <ref role="1Px2BO" to="e29f:~AutoBinding$UpdateStrategy" resolve="AutoBinding.UpdateStrategy" />
+                    <ref role="Rm8GQ" to="208:~AutoBinding$UpdateStrategy.READ_WRITE" resolve="READ_WRITE" />
+                    <ref role="1Px2BO" to="208:~AutoBinding$UpdateStrategy" resolve="AutoBinding.UpdateStrategy" />
                   </node>
                   <node concept="37vLTw" id="3GM_nagTySA" role="37wK5m">
                     <ref role="3cqZAo" node="hw8mE8e" resolve="sourceObject" />
@@ -1918,7 +1918,7 @@
                   <ref role="3cqZAo" node="hw8mzr6" resolve="binding" />
                 </node>
                 <node concept="liA8E" id="hy9rY_s" role="2OqNvi">
-                  <ref role="37wK5l" to="e29f:~Binding.bind():void" resolve="bind" />
+                  <ref role="37wK5l" to="208:~Binding.bind():void" resolve="bind" />
                 </node>
               </node>
             </node>
@@ -2039,11 +2039,11 @@
               <node concept="3cpWsn" id="hwtBc7d" role="3cpWs9">
                 <property role="TrG5h" value="sourceProperty" />
                 <node concept="3uibUv" id="hwtBc7e" role="1tU5fm">
-                  <ref role="3uigEE" to="e29f:~Property" resolve="Property" />
+                  <ref role="3uigEE" to="208:~Property" resolve="Property" />
                 </node>
                 <node concept="2YIFZM" id="5bdGbWp91Sf" role="33vP2m">
-                  <ref role="1Pybhc" to="e29f:~BeanProperty" resolve="BeanProperty" />
-                  <ref role="37wK5l" to="e29f:~BeanProperty.create(java.lang.String):org.jdesktop.beansbinding.BeanProperty" resolve="create" />
+                  <ref role="1Pybhc" to="208:~BeanProperty" resolve="BeanProperty" />
+                  <ref role="37wK5l" to="208:~BeanProperty.create(java.lang.String):org.jdesktop.beansbinding.BeanProperty" resolve="create" />
                   <node concept="Xl_RD" id="5bdGbWp91Sg" role="37wK5m">
                     <property role="Xl_RC" value="propertyExpression" />
                     <node concept="17Uvod" id="5bdGbWp91Sh" role="lGtFl">
@@ -2137,14 +2137,14 @@
               <node concept="3cpWsn" id="hwtBGuH" role="3cpWs9">
                 <property role="TrG5h" value="binding" />
                 <node concept="3uibUv" id="hwtBGuI" role="1tU5fm">
-                  <ref role="3uigEE" to="e29f:~AutoBinding" resolve="AutoBinding" />
+                  <ref role="3uigEE" to="208:~AutoBinding" resolve="AutoBinding" />
                 </node>
                 <node concept="2YIFZM" id="5bdGbWp92j_" role="33vP2m">
-                  <ref role="1Pybhc" to="etso:~SwingBindings" resolve="SwingBindings" />
-                  <ref role="37wK5l" to="etso:~SwingBindings.createJListBinding(org.jdesktop.beansbinding.AutoBinding$UpdateStrategy,java.lang.Object,org.jdesktop.beansbinding.Property,javax.swing.JList):org.jdesktop.swingbinding.JListBinding" resolve="createJListBinding" />
+                  <ref role="1Pybhc" to="tjh:~SwingBindings" resolve="SwingBindings" />
+                  <ref role="37wK5l" to="tjh:~SwingBindings.createJListBinding(org.jdesktop.beansbinding.AutoBinding$UpdateStrategy,java.lang.Object,org.jdesktop.beansbinding.Property,javax.swing.JList):org.jdesktop.swingbinding.JListBinding" resolve="createJListBinding" />
                   <node concept="Rm8GO" id="21XJJwAWkZ4" role="37wK5m">
-                    <ref role="Rm8GQ" to="e29f:~AutoBinding$UpdateStrategy.READ_WRITE" resolve="READ_WRITE" />
-                    <ref role="1Px2BO" to="e29f:~AutoBinding$UpdateStrategy" resolve="AutoBinding.UpdateStrategy" />
+                    <ref role="Rm8GQ" to="208:~AutoBinding$UpdateStrategy.READ_WRITE" resolve="READ_WRITE" />
+                    <ref role="1Px2BO" to="208:~AutoBinding$UpdateStrategy" resolve="AutoBinding.UpdateStrategy" />
                   </node>
                   <node concept="37vLTw" id="3GM_nagTAQQ" role="37wK5m">
                     <ref role="3cqZAo" node="hwtBc6V" resolve="sourceObject" />
@@ -2164,7 +2164,7 @@
                   <ref role="3cqZAo" node="hwtBGuH" resolve="binding" />
                 </node>
                 <node concept="liA8E" id="hy9rW6B" role="2OqNvi">
-                  <ref role="37wK5l" to="e29f:~Binding.bind():void" resolve="bind" />
+                  <ref role="37wK5l" to="208:~Binding.bind():void" resolve="bind" />
                 </node>
               </node>
             </node>
@@ -2256,7 +2256,7 @@
           <node concept="3cpWsn" id="hw84Gsz" role="1Duv9x">
             <property role="TrG5h" value="binding" />
             <node concept="3uibUv" id="hw84GTE" role="1tU5fm">
-              <ref role="3uigEE" to="e29f:~AutoBinding" resolve="AutoBinding" />
+              <ref role="3uigEE" to="208:~AutoBinding" resolve="AutoBinding" />
             </node>
           </node>
           <node concept="3clFbS" id="hw84Gs_" role="2LFqv$">
@@ -2268,7 +2268,7 @@
                       <ref role="3cqZAo" node="hw84Gsz" resolve="binding" />
                     </node>
                     <node concept="liA8E" id="hy9rTAk" role="2OqNvi">
-                      <ref role="37wK5l" to="e29f:~Binding.unbind():void" resolve="unbind" />
+                      <ref role="37wK5l" to="208:~Binding.unbind():void" resolve="unbind" />
                     </node>
                   </node>
                 </node>
@@ -2278,7 +2278,7 @@
                   <ref role="3cqZAo" node="hw84Gsz" resolve="binding" />
                 </node>
                 <node concept="liA8E" id="hy9rU3q" role="2OqNvi">
-                  <ref role="37wK5l" to="e29f:~Binding.isBound():boolean" resolve="isBound" />
+                  <ref role="37wK5l" to="208:~Binding.isBound():boolean" resolve="isBound" />
                 </node>
               </node>
             </node>

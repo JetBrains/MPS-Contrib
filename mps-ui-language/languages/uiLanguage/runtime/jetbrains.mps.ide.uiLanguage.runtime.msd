@@ -4,6 +4,9 @@
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="jetbrains" />
     </modelRoot>
+    <modelRoot contentPath="${module}" type="java_classes">
+      <sourceRoot location="lib/beansbinding-1.2.1.jar" />
+    </modelRoot>
   </models>
   <facets>
     <facet type="java" />
