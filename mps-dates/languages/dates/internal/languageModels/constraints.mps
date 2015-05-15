@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:00000000-0000-4000-0000-011c895903db(jetbrains.mps.baseLanguage.datesInternal.constraints)" concise="true">
+<model ref="r:00000000-0000-4000-0000-011c895903db(jetbrains.mps.baseLanguage.datesInternal.constraints)">
   <persistence version="9" />
+  <attribute name="concise" value="true" />
   <languages>
-    <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="-1" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="-1" />
+    <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="0" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="0" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -18,17 +19,14 @@
     <import index="fnmy" ref="r:89c0fb70-0977-4113-a076-5906f9d8630f(jetbrains.mps.baseLanguage.scopes)" />
     <import index="k7g3" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
     <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" />
-    <import index="tp1t" ref="r:00000000-0000-4000-0000-011c8959030d(jetbrains.mps.lang.constraints.structure)" implicit="true" />
-    <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" implicit="true" />
+    <import index="ec5l" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.model(MPS.OpenAPI/org.jetbrains.mps.openapi.model@java_stub)" implicit="true" />
   </imports>
   <registry>
-    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
-        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
-      </concept>
+    <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts">
+      <concept id="1161622665029" name="jetbrains.mps.lang.sharedConcepts.structure.ConceptFunctionParameter_model" flags="nn" index="1Q6Npb" />
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
-      <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
+      <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -39,37 +37,36 @@
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
-      <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
-        <child id="1068580123156" name="expression" index="3clFbG" />
+      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
+        <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
-        <child id="1068581517665" name="statement" index="3cqZAp" />
+      <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
+        <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
       <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
         <child id="1070534934091" name="type" index="10QFUM" />
         <child id="1070534934092" name="expression" index="10QFUP" />
       </concept>
-      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
-        <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
-        <child id="1068499141038" name="actualArgument" index="37wK5m" />
+      <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
+        <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
-      <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
-        <reference id="1144433194310" name="classConcept" index="1Pybhc" />
-      </concept>
-      <concept id="1116615150612" name="jetbrains.mps.baseLanguage.structure.ClassifierClassExpression" flags="nn" index="3VsKOn">
-        <reference id="1116615189566" name="classifier" index="3VsUkX" />
-      </concept>
-      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
-        <property id="1070475926801" name="value" index="Xl_RC" />
-      </concept>
-      <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
-        <child id="1079359253376" name="expression" index="1eOMHV" />
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
+        <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
         <property id="1068580123138" name="value" index="3clFbU" />
       </concept>
+      <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
+        <child id="1079359253376" name="expression" index="1eOMHV" />
+      </concept>
+      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
+        <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
+        <child id="1068499141038" name="actualArgument" index="37wK5m" />
+      </concept>
+      <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
     </language>
     <language id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints">
+      <concept id="1148934636683" name="jetbrains.mps.lang.constraints.structure.ConceptParameter_ReferentSearchScope_enclosingNode" flags="nn" index="21POm0" />
       <concept id="1147467115080" name="jetbrains.mps.lang.constraints.structure.NodePropertyConstraint" flags="ng" index="EnEH3">
         <reference id="1147467295099" name="applicableProperty" index="EomxK" />
         <child id="1147468630220" name="propertyGetter" index="EtsB7" />
@@ -86,10 +83,15 @@
         <reference id="1148687202698" name="applicableLink" index="1N5Vy1" />
         <child id="1148687345559" name="searchScopeFactory" index="1N6uqs" />
       </concept>
-      <concept id="1148934636683" name="jetbrains.mps.lang.constraints.structure.ConceptParameter_ReferentSearchScope_enclosingNode" flags="nn" index="21POm0" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
+      <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
+        <child id="1145404616321" name="leftExpression" index="2JrQYb" />
+      </concept>
+      <concept id="1828409047608048457" name="jetbrains.mps.lang.smodel.structure.NodePointerExpression" flags="nn" index="1N_AGu">
+        <reference id="1828409047608048458" name="referentNode" index="1N_AGt" />
+      </concept>
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
       </concept>
@@ -98,6 +100,11 @@
       </concept>
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
+      </concept>
+    </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
       </concept>
     </language>
   </registry>
@@ -153,6 +160,24 @@
       <ref role="1N5Vy1" to="tp6p:h3Y0A33" />
       <node concept="13QW63" id="3bMJRke69JO" role="1N6uqs">
         <node concept="3clFbS" id="3bMJRke69JP" role="2VODD2">
+          <node concept="3clFbF" id="3TCvPaIuAxZ" role="3cqZAp">
+            <node concept="2OqwBi" id="3TCvPaIuAZa" role="3clFbG">
+              <node concept="1N_AGu" id="3TCvPaIuAxX" role="2Oq$k0">
+                <ref role="1N_AGt" to="ojzd:~Period" resolve="Period" />
+              </node>
+              <node concept="liA8E" id="3TCvPaIuB84" role="2OqNvi">
+                <ref role="37wK5l" to="ec5l:~SNodeReference.resolve(org.jetbrains.mps.openapi.module.SRepository):org.jetbrains.mps.openapi.model.SNode" resolve="resolve" />
+                <node concept="2OqwBi" id="3TCvPaIuB$n" role="37wK5m">
+                  <node concept="2JrnkZ" id="3TCvPaIuBxh" role="2Oq$k0">
+                    <node concept="1Q6Npb" id="3TCvPaIuBfJ" role="2JrQYb" />
+                  </node>
+                  <node concept="liA8E" id="3TCvPaIuBHR" role="2OqNvi">
+                    <ref role="37wK5l" to="ec5l:~SModel.getRepository():org.jetbrains.mps.openapi.module.SRepository" resolve="getRepository" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
           <node concept="3clFbF" id="2BGX2rDHbYv" role="3cqZAp">
             <node concept="2ShNRf" id="2BGX2rDHbYw" role="3clFbG">
               <node concept="1pGfFk" id="2BGX2rDHbYy" role="2ShVmc">
@@ -160,16 +185,25 @@
                 <node concept="2YIFZM" id="2BGX2rDHan_" role="37wK5m">
                   <ref role="37wK5l" to="fnmy:2BGX2rDG44q" resolve="visibleStaticMethods" />
                   <ref role="1Pybhc" to="fnmy:2BGX2rDG2lb" resolve="Members" />
-                  <node concept="10QFUN" id="2BGX2rDHbQk" role="37wK5m">
-                    <node concept="3Tqbb2" id="2BGX2rDHbQl" role="10QFUM">
-                      <ref role="ehGHo" to="tpee:g7pOWCK" resolve="Classifier" />
-                    </node>
-                    <node concept="2YIFZM" id="2BGX2rDHbQm" role="10QFUP">
-                      <ref role="1Pybhc" to="y5px:~JavaModelUtil_new" resolve="JavaModelUtil_new" />
-                      <ref role="37wK5l" to="y5px:~JavaModelUtil_new.findClassifier(java.lang.Class):org.jetbrains.mps.openapi.model.SNode" resolve="findClassifier" />
-                      <node concept="3VsKOn" id="2BGX2rDHbQn" role="37wK5m">
-                        <ref role="3VsUkX" to="ojzd:~Period" resolve="Period" />
+                  <node concept="10QFUN" id="3TCvPaIuBOK" role="37wK5m">
+                    <node concept="2OqwBi" id="3TCvPaIuBKS" role="10QFUP">
+                      <node concept="1N_AGu" id="3TCvPaIuBKT" role="2Oq$k0">
+                        <ref role="1N_AGt" to="ojzd:~Period" resolve="Period" />
                       </node>
+                      <node concept="liA8E" id="3TCvPaIuBKU" role="2OqNvi">
+                        <ref role="37wK5l" to="ec5l:~SNodeReference.resolve(org.jetbrains.mps.openapi.module.SRepository):org.jetbrains.mps.openapi.model.SNode" resolve="resolve" />
+                        <node concept="2OqwBi" id="3TCvPaIuBKV" role="37wK5m">
+                          <node concept="2JrnkZ" id="3TCvPaIuBKW" role="2Oq$k0">
+                            <node concept="1Q6Npb" id="3TCvPaIuBKX" role="2JrQYb" />
+                          </node>
+                          <node concept="liA8E" id="3TCvPaIuBKY" role="2OqNvi">
+                            <ref role="37wK5l" to="ec5l:~SModel.getRepository():org.jetbrains.mps.openapi.module.SRepository" resolve="getRepository" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3Tqbb2" id="3TCvPaIuBOL" role="10QFUM">
+                      <ref role="ehGHo" to="tpee:6r77ob2UL4X" resolve="IClassifier" />
                     </node>
                   </node>
                   <node concept="21POm0" id="2BGX2rDHbQS" role="37wK5m" />
@@ -195,11 +229,20 @@
                     <node concept="3Tqbb2" id="2BGX2rDHbZ9" role="10QFUM">
                       <ref role="ehGHo" to="tpee:g7pOWCK" resolve="Classifier" />
                     </node>
-                    <node concept="2YIFZM" id="2BGX2rDHbZa" role="10QFUP">
-                      <ref role="1Pybhc" to="y5px:~JavaModelUtil_new" resolve="JavaModelUtil_new" />
-                      <ref role="37wK5l" to="y5px:~JavaModelUtil_new.findClassifier(java.lang.Class):org.jetbrains.mps.openapi.model.SNode" resolve="findClassifier" />
-                      <node concept="3VsKOn" id="2BGX2rDHbZf" role="37wK5m">
-                        <ref role="3VsUkX" to="ojzd:~DateTimeFieldType" resolve="DateTimeFieldType" />
+                    <node concept="2OqwBi" id="3TCvPaIuBSD" role="10QFUP">
+                      <node concept="1N_AGu" id="3TCvPaIuBSE" role="2Oq$k0">
+                        <ref role="1N_AGt" to="ojzd:~DateTimeFieldType" resolve="DateTimeFieldType" />
+                      </node>
+                      <node concept="liA8E" id="3TCvPaIuBSF" role="2OqNvi">
+                        <ref role="37wK5l" to="ec5l:~SNodeReference.resolve(org.jetbrains.mps.openapi.module.SRepository):org.jetbrains.mps.openapi.model.SNode" resolve="resolve" />
+                        <node concept="2OqwBi" id="3TCvPaIuBSG" role="37wK5m">
+                          <node concept="2JrnkZ" id="3TCvPaIuBSH" role="2Oq$k0">
+                            <node concept="1Q6Npb" id="3TCvPaIuBSI" role="2JrQYb" />
+                          </node>
+                          <node concept="liA8E" id="3TCvPaIuBSJ" role="2OqNvi">
+                            <ref role="37wK5l" to="ec5l:~SModel.getRepository():org.jetbrains.mps.openapi.module.SRepository" resolve="getRepository" />
+                          </node>
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -228,11 +271,20 @@
                         <node concept="3Tqbb2" id="2BGX2rDHc2l" role="10QFUM">
                           <ref role="ehGHo" to="tpee:g7pOWCK" resolve="Classifier" />
                         </node>
-                        <node concept="2YIFZM" id="2BGX2rDHc2m" role="10QFUP">
-                          <ref role="1Pybhc" to="y5px:~JavaModelUtil_new" resolve="JavaModelUtil_new" />
-                          <ref role="37wK5l" to="y5px:~JavaModelUtil_new.findClassifier(java.lang.Class):org.jetbrains.mps.openapi.model.SNode" resolve="findClassifier" />
-                          <node concept="3VsKOn" id="2BGX2rDHc2n" role="37wK5m">
-                            <ref role="3VsUkX" to="d0m4:~PeriodFormatterBuilder" resolve="PeriodFormatterBuilder" />
+                        <node concept="2OqwBi" id="3TCvPaIuC12" role="10QFUP">
+                          <node concept="1N_AGu" id="3TCvPaIuC13" role="2Oq$k0">
+                            <ref role="1N_AGt" to="d0m4:~PeriodFormatterBuilder" resolve="PeriodFormatterBuilder" />
+                          </node>
+                          <node concept="liA8E" id="3TCvPaIuC14" role="2OqNvi">
+                            <ref role="37wK5l" to="ec5l:~SNodeReference.resolve(org.jetbrains.mps.openapi.module.SRepository):org.jetbrains.mps.openapi.model.SNode" resolve="resolve" />
+                            <node concept="2OqwBi" id="3TCvPaIuC15" role="37wK5m">
+                              <node concept="2JrnkZ" id="3TCvPaIuC16" role="2Oq$k0">
+                                <node concept="1Q6Npb" id="3TCvPaIuC17" role="2JrQYb" />
+                              </node>
+                              <node concept="liA8E" id="3TCvPaIuC18" role="2OqNvi">
+                                <ref role="37wK5l" to="ec5l:~SModel.getRepository():org.jetbrains.mps.openapi.module.SRepository" resolve="getRepository" />
+                              </node>
+                            </node>
                           </node>
                         </node>
                       </node>

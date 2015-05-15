@@ -16,15 +16,11 @@ import org.jetbrains.mps.openapi.model.SNodeReference;
 import jetbrains.mps.scope.Scope;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.smodel.runtime.ReferenceConstraintsContext;
+import jetbrains.mps.smodel.SNodePointer;
 import jetbrains.mps.baseLanguage.scopes.MethodsScope;
 import jetbrains.mps.baseLanguage.scopes.Members;
 import org.jetbrains.mps.openapi.model.SNode;
-import jetbrains.mps.generator.JavaModelUtil_new;
-import org.joda.time.Period;
-import org.joda.time.DateTimeFieldType;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
-import org.joda.time.format.PeriodFormatterBuilder;
-import jetbrains.mps.smodel.SNodePointer;
 
 public class DateTimeProperty_Constraints extends BaseConstraintsDescriptor {
   public DateTimeProperty_Constraints() {
@@ -48,7 +44,8 @@ public class DateTimeProperty_Constraints extends BaseConstraintsDescriptor {
           }
           @Override
           public Scope createScope(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
-            return new MethodsScope(Members.visibleStaticMethods((SNode) JavaModelUtil_new.findClassifier(Period.class), _context.getEnclosingNode()));
+            new SNodePointer("2ebbb458-8ebb-481e-a5d7-9e27903323d4/f:java_stub#2ebbb458-8ebb-481e-a5d7-9e27903323d4#org.joda.time(jetbrains.mps.baseLanguage.dates.runtime/org.joda.time@java_stub)", "~Period").resolve(_context.getModel().getRepository());
+            return new MethodsScope(Members.visibleStaticMethods((SNode) new SNodePointer("2ebbb458-8ebb-481e-a5d7-9e27903323d4/f:java_stub#2ebbb458-8ebb-481e-a5d7-9e27903323d4#org.joda.time(jetbrains.mps.baseLanguage.dates.runtime/org.joda.time@java_stub)", "~Period").resolve(_context.getModel().getRepository()), _context.getEnclosingNode()));
           }
         };
       }
@@ -68,7 +65,7 @@ public class DateTimeProperty_Constraints extends BaseConstraintsDescriptor {
           }
           @Override
           public Scope createScope(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
-            return new MethodsScope(Members.visibleStaticMethods((SNode) JavaModelUtil_new.findClassifier(DateTimeFieldType.class), _context.getEnclosingNode()));
+            return new MethodsScope(Members.visibleStaticMethods((SNode) new SNodePointer("2ebbb458-8ebb-481e-a5d7-9e27903323d4/f:java_stub#2ebbb458-8ebb-481e-a5d7-9e27903323d4#org.joda.time(jetbrains.mps.baseLanguage.dates.runtime/org.joda.time@java_stub)", "~DateTimeFieldType").resolve(_context.getModel().getRepository()), _context.getEnclosingNode()));
           }
         };
       }
@@ -88,7 +85,7 @@ public class DateTimeProperty_Constraints extends BaseConstraintsDescriptor {
           }
           @Override
           public Scope createScope(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
-            return new MethodsScope(Members.visibleInstanceMethods(BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), ((SNode) JavaModelUtil_new.findClassifier(PeriodFormatterBuilder.class)), "virtual_getThisType_7405920559687254782", new Object[]{}), _context.getEnclosingNode()));
+            return new MethodsScope(Members.visibleInstanceMethods(BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), ((SNode) new SNodePointer("2ebbb458-8ebb-481e-a5d7-9e27903323d4/f:java_stub#2ebbb458-8ebb-481e-a5d7-9e27903323d4#org.joda.time.format(jetbrains.mps.baseLanguage.dates.runtime/org.joda.time.format@java_stub)", "~PeriodFormatterBuilder").resolve(_context.getModel().getRepository())), "virtual_getThisType_7405920559687254782", new Object[]{}), _context.getEnclosingNode()));
           }
         };
       }
