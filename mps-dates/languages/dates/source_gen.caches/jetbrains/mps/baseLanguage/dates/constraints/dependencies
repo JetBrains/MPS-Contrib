@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
   <dependency className="jetbrains.mps.baseLanguage.dates.constraints.ConstraintsAspectDescriptor" file="ConstraintsAspectDescriptor.java">
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.Arrays" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.constraints.ConvertToDateTimeOperation_Constraints" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.constraints.ConvertToDurationOperation_Constraints" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.dates.constraints.DateFormat_Constraints" />
@@ -67,10 +65,10 @@
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
     <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
     <classNode dependClassName="jetbrains.mps.smodel.search.ISearchScope" />
-    <classNode dependClassName="jetbrains.mps.smodel.search.IsInstanceCondition" />
     <classNode dependClassName="jetbrains.mps.smodel.search.SModelSearchUtil" />
     <classNode dependClassName="jetbrains.mps.smodel.search.SimpleSearchScope" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode dependClassName="org.jetbrains.mps.util.InstanceOfCondition" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.constraints.DateFormat_Constraints" file="DateFormat_Constraints.java">
     <classNode dependClassName="java.lang.Object" />

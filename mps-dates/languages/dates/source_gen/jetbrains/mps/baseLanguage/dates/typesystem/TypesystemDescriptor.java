@@ -6,12 +6,13 @@ import jetbrains.mps.lang.typesystem.runtime.BaseHelginsDescriptor;
 import jetbrains.mps.lang.typesystem.runtime.InferenceRule_Runtime;
 import jetbrains.mps.lang.typesystem.runtime.NonTypesystemRule_Runtime;
 import jetbrains.mps.lang.typesystem.runtime.SubtypingRule_Runtime;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.lang.typesystem.runtime.OverloadedOperationsTypesProvider;
+import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.errors.IRuleConflictWarningProducer;
 import org.jetbrains.mps.openapi.persistence.PersistenceFacade;
 import jetbrains.mps.smodel.SModelUtil_new;
-import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 
 public class TypesystemDescriptor extends BaseHelginsDescriptor {
   public TypesystemDescriptor() {
@@ -195,31 +196,31 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
       SubtypingRule_Runtime subtypingRule = new DurationType_unboxing_SubtypingRule();
       this.mySubtypingRules.add(subtypingRule);
     }
-    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider_d("jetbrains.mps.baseLanguage.structure.MinusExpression"));
-    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider_f("jetbrains.mps.baseLanguage.structure.MinusExpression"));
-    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider_e("jetbrains.mps.baseLanguage.structure.MinusExpression"));
-    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider_a("jetbrains.mps.baseLanguage.structure.MinusExpression"));
-    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider_c("jetbrains.mps.baseLanguage.structure.MinusExpression"));
-    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider_h("jetbrains.mps.baseLanguage.structure.PlusExpression"));
-    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider_k("jetbrains.mps.baseLanguage.structure.PlusExpression"));
-    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider_j("jetbrains.mps.baseLanguage.structure.PlusExpression"));
-    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider_q("jetbrains.mps.baseLanguage.structure.BinaryCompareOperation"));
-    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider_r("jetbrains.mps.baseLanguage.structure.BinaryCompareOperation"));
-    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider_s("jetbrains.mps.baseLanguage.structure.BinaryCompareOperation"));
-    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider_i("jetbrains.mps.baseLanguage.structure.PlusExpression"));
-    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider_l("jetbrains.mps.baseLanguage.structure.PlusExpression"));
-    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider_m("jetbrains.mps.baseLanguage.structure.PlusExpression"));
-    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider_o("jetbrains.mps.baseLanguage.structure.PlusExpression"));
-    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider_p("jetbrains.mps.baseLanguage.structure.BinaryCompareOperation"));
-    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider_n("jetbrains.mps.baseLanguage.structure.PlusExpression"));
-    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider_g("jetbrains.mps.baseLanguage.structure.MinusExpression"));
-    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider_b("jetbrains.mps.baseLanguage.structure.MinusExpression"));
+    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider_d(MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc67c7f5L, "jetbrains.mps.baseLanguage.structure.MinusExpression")));
+    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider_f(MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc67c7f5L, "jetbrains.mps.baseLanguage.structure.MinusExpression")));
+    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider_e(MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc67c7f5L, "jetbrains.mps.baseLanguage.structure.MinusExpression")));
+    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider_a(MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc67c7f5L, "jetbrains.mps.baseLanguage.structure.MinusExpression")));
+    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider_c(MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc67c7f5L, "jetbrains.mps.baseLanguage.structure.MinusExpression")));
+    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider_h(MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc67c7fbL, "jetbrains.mps.baseLanguage.structure.PlusExpression")));
+    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider_k(MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc67c7fbL, "jetbrains.mps.baseLanguage.structure.PlusExpression")));
+    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider_j(MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc67c7fbL, "jetbrains.mps.baseLanguage.structure.PlusExpression")));
+    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider_q(MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x12094ea9f7dL, "jetbrains.mps.baseLanguage.structure.BinaryCompareOperation")));
+    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider_r(MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x12094ea9f7dL, "jetbrains.mps.baseLanguage.structure.BinaryCompareOperation")));
+    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider_s(MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x12094ea9f7dL, "jetbrains.mps.baseLanguage.structure.BinaryCompareOperation")));
+    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider_i(MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc67c7fbL, "jetbrains.mps.baseLanguage.structure.PlusExpression")));
+    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider_l(MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc67c7fbL, "jetbrains.mps.baseLanguage.structure.PlusExpression")));
+    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider_m(MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc67c7fbL, "jetbrains.mps.baseLanguage.structure.PlusExpression")));
+    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider_o(MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc67c7fbL, "jetbrains.mps.baseLanguage.structure.PlusExpression")));
+    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider_p(MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x12094ea9f7dL, "jetbrains.mps.baseLanguage.structure.BinaryCompareOperation")));
+    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider_n(MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc67c7fbL, "jetbrains.mps.baseLanguage.structure.PlusExpression")));
+    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider_g(MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc67c7f5L, "jetbrains.mps.baseLanguage.structure.MinusExpression")));
+    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider_b(MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc67c7f5L, "jetbrains.mps.baseLanguage.structure.MinusExpression")));
   }
   public static class CustomOverloadedOperationsTypesProvider_d extends OverloadedOperationsTypesProvider {
-    public CustomOverloadedOperationsTypesProvider_d(String conceptFQ) {
+    public CustomOverloadedOperationsTypesProvider_d(SAbstractConcept concept) {
       this.myLeftOperandType = _quotation_createNode_3ist9o_a0a0a1();
       this.myRightOperandType = _quotation_createNode_3ist9o_a0b0a1();
-      this.myOperationConceptFQName = conceptFQ;
+      this.myOperationConcept = concept;
       this.myLeftTypeIsExact = true;
       this.myRightTypeIsExact = true;
       this.myRightIsStrong = false;
@@ -254,10 +255,10 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
     }
   }
   public static class CustomOverloadedOperationsTypesProvider_f extends OverloadedOperationsTypesProvider {
-    public CustomOverloadedOperationsTypesProvider_f(String conceptFQ) {
+    public CustomOverloadedOperationsTypesProvider_f(SAbstractConcept concept) {
       this.myLeftOperandType = _quotation_createNode_3ist9o_a0a0a2();
       this.myRightOperandType = _quotation_createNode_3ist9o_a0b0a2();
-      this.myOperationConceptFQName = conceptFQ;
+      this.myOperationConcept = concept;
       this.myLeftTypeIsExact = true;
       this.myRightTypeIsExact = true;
       this.myRightIsStrong = false;
@@ -292,10 +293,10 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
     }
   }
   public static class CustomOverloadedOperationsTypesProvider_e extends OverloadedOperationsTypesProvider {
-    public CustomOverloadedOperationsTypesProvider_e(String conceptFQ) {
+    public CustomOverloadedOperationsTypesProvider_e(SAbstractConcept concept) {
       this.myLeftOperandType = _quotation_createNode_3ist9o_a0a0a3();
       this.myRightOperandType = _quotation_createNode_3ist9o_a0b0a3();
-      this.myOperationConceptFQName = conceptFQ;
+      this.myOperationConcept = concept;
       this.myLeftTypeIsExact = true;
       this.myRightTypeIsExact = true;
       this.myRightIsStrong = false;
@@ -330,10 +331,10 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
     }
   }
   public static class CustomOverloadedOperationsTypesProvider_a extends OverloadedOperationsTypesProvider {
-    public CustomOverloadedOperationsTypesProvider_a(String conceptFQ) {
+    public CustomOverloadedOperationsTypesProvider_a(SAbstractConcept concept) {
       this.myLeftOperandType = _quotation_createNode_3ist9o_a0a0a4();
       this.myRightOperandType = _quotation_createNode_3ist9o_a0b0a4();
-      this.myOperationConceptFQName = conceptFQ;
+      this.myOperationConcept = concept;
       this.myLeftTypeIsExact = true;
       this.myRightTypeIsExact = true;
       this.myRightIsStrong = false;
@@ -368,10 +369,10 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
     }
   }
   public static class CustomOverloadedOperationsTypesProvider_c extends OverloadedOperationsTypesProvider {
-    public CustomOverloadedOperationsTypesProvider_c(String conceptFQ) {
+    public CustomOverloadedOperationsTypesProvider_c(SAbstractConcept concept) {
       this.myLeftOperandType = _quotation_createNode_3ist9o_a0a0a5();
       this.myRightOperandType = _quotation_createNode_3ist9o_a0b0a5();
-      this.myOperationConceptFQName = conceptFQ;
+      this.myOperationConcept = concept;
       this.myLeftTypeIsExact = true;
       this.myRightTypeIsExact = true;
       this.myRightIsStrong = false;
@@ -406,10 +407,10 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
     }
   }
   public static class CustomOverloadedOperationsTypesProvider_h extends OverloadedOperationsTypesProvider {
-    public CustomOverloadedOperationsTypesProvider_h(String conceptFQ) {
+    public CustomOverloadedOperationsTypesProvider_h(SAbstractConcept concept) {
       this.myLeftOperandType = _quotation_createNode_3ist9o_a0a0a6();
       this.myRightOperandType = _quotation_createNode_3ist9o_a0b0a6();
-      this.myOperationConceptFQName = conceptFQ;
+      this.myOperationConcept = concept;
       this.myLeftTypeIsExact = true;
       this.myRightTypeIsExact = true;
       this.myRightIsStrong = false;
@@ -444,10 +445,10 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
     }
   }
   public static class CustomOverloadedOperationsTypesProvider_k extends OverloadedOperationsTypesProvider {
-    public CustomOverloadedOperationsTypesProvider_k(String conceptFQ) {
+    public CustomOverloadedOperationsTypesProvider_k(SAbstractConcept concept) {
       this.myLeftOperandType = _quotation_createNode_3ist9o_a0a0a7();
       this.myRightOperandType = _quotation_createNode_3ist9o_a0b0a7();
-      this.myOperationConceptFQName = conceptFQ;
+      this.myOperationConcept = concept;
       this.myLeftTypeIsExact = true;
       this.myRightTypeIsExact = true;
       this.myRightIsStrong = false;
@@ -482,10 +483,10 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
     }
   }
   public static class CustomOverloadedOperationsTypesProvider_j extends OverloadedOperationsTypesProvider {
-    public CustomOverloadedOperationsTypesProvider_j(String conceptFQ) {
+    public CustomOverloadedOperationsTypesProvider_j(SAbstractConcept concept) {
       this.myLeftOperandType = _quotation_createNode_3ist9o_a0a0a8();
       this.myRightOperandType = _quotation_createNode_3ist9o_a0b0a8();
-      this.myOperationConceptFQName = conceptFQ;
+      this.myOperationConcept = concept;
       this.myLeftTypeIsExact = true;
       this.myRightTypeIsExact = true;
       this.myRightIsStrong = false;
@@ -520,10 +521,10 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
     }
   }
   public static class CustomOverloadedOperationsTypesProvider_q extends OverloadedOperationsTypesProvider {
-    public CustomOverloadedOperationsTypesProvider_q(String conceptFQ) {
+    public CustomOverloadedOperationsTypesProvider_q(SAbstractConcept concept) {
       this.myLeftOperandType = _quotation_createNode_3ist9o_a0a0a9();
       this.myRightOperandType = _quotation_createNode_3ist9o_a0b0a9();
-      this.myOperationConceptFQName = conceptFQ;
+      this.myOperationConcept = concept;
       this.myLeftTypeIsExact = true;
       this.myRightTypeIsExact = true;
       this.myRightIsStrong = false;
@@ -558,10 +559,10 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
     }
   }
   public static class CustomOverloadedOperationsTypesProvider_r extends OverloadedOperationsTypesProvider {
-    public CustomOverloadedOperationsTypesProvider_r(String conceptFQ) {
+    public CustomOverloadedOperationsTypesProvider_r(SAbstractConcept concept) {
       this.myLeftOperandType = _quotation_createNode_3ist9o_a0a0a01();
       this.myRightOperandType = _quotation_createNode_3ist9o_a0b0a01();
-      this.myOperationConceptFQName = conceptFQ;
+      this.myOperationConcept = concept;
       this.myLeftTypeIsExact = true;
       this.myRightTypeIsExact = true;
       this.myRightIsStrong = false;
@@ -596,10 +597,10 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
     }
   }
   public static class CustomOverloadedOperationsTypesProvider_s extends OverloadedOperationsTypesProvider {
-    public CustomOverloadedOperationsTypesProvider_s(String conceptFQ) {
+    public CustomOverloadedOperationsTypesProvider_s(SAbstractConcept concept) {
       this.myLeftOperandType = _quotation_createNode_3ist9o_a0a0a11();
       this.myRightOperandType = _quotation_createNode_3ist9o_a0b0a11();
-      this.myOperationConceptFQName = conceptFQ;
+      this.myOperationConcept = concept;
       this.myLeftTypeIsExact = true;
       this.myRightTypeIsExact = true;
       this.myRightIsStrong = false;
@@ -634,10 +635,10 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
     }
   }
   public static class CustomOverloadedOperationsTypesProvider_i extends OverloadedOperationsTypesProvider {
-    public CustomOverloadedOperationsTypesProvider_i(String conceptFQ) {
+    public CustomOverloadedOperationsTypesProvider_i(SAbstractConcept concept) {
       this.myLeftOperandType = _quotation_createNode_3ist9o_a0a0a21();
       this.myRightOperandType = _quotation_createNode_3ist9o_a0b0a21();
-      this.myOperationConceptFQName = conceptFQ;
+      this.myOperationConcept = concept;
       this.myLeftTypeIsExact = true;
       this.myRightTypeIsExact = true;
       this.myRightIsStrong = false;
@@ -672,10 +673,10 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
     }
   }
   public static class CustomOverloadedOperationsTypesProvider_l extends OverloadedOperationsTypesProvider {
-    public CustomOverloadedOperationsTypesProvider_l(String conceptFQ) {
+    public CustomOverloadedOperationsTypesProvider_l(SAbstractConcept concept) {
       this.myLeftOperandType = _quotation_createNode_3ist9o_a0a0a31();
       this.myRightOperandType = _quotation_createNode_3ist9o_a0b0a31();
-      this.myOperationConceptFQName = conceptFQ;
+      this.myOperationConcept = concept;
       this.myLeftTypeIsExact = true;
       this.myRightTypeIsExact = true;
       this.myRightIsStrong = false;
@@ -710,10 +711,10 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
     }
   }
   public static class CustomOverloadedOperationsTypesProvider_m extends OverloadedOperationsTypesProvider {
-    public CustomOverloadedOperationsTypesProvider_m(String conceptFQ) {
+    public CustomOverloadedOperationsTypesProvider_m(SAbstractConcept concept) {
       this.myLeftOperandType = _quotation_createNode_3ist9o_a0a0a41();
       this.myRightOperandType = _quotation_createNode_3ist9o_a0b0a41();
-      this.myOperationConceptFQName = conceptFQ;
+      this.myOperationConcept = concept;
       this.myLeftTypeIsExact = true;
       this.myRightTypeIsExact = true;
       this.myRightIsStrong = false;
@@ -748,10 +749,10 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
     }
   }
   public static class CustomOverloadedOperationsTypesProvider_o extends OverloadedOperationsTypesProvider {
-    public CustomOverloadedOperationsTypesProvider_o(String conceptFQ) {
+    public CustomOverloadedOperationsTypesProvider_o(SAbstractConcept concept) {
       this.myLeftOperandType = _quotation_createNode_3ist9o_a0a0a51();
       this.myRightOperandType = _quotation_createNode_3ist9o_a0b0a51();
-      this.myOperationConceptFQName = conceptFQ;
+      this.myOperationConcept = concept;
       this.myLeftTypeIsExact = true;
       this.myRightTypeIsExact = true;
       this.myRightIsStrong = false;
@@ -786,10 +787,10 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
     }
   }
   public static class CustomOverloadedOperationsTypesProvider_p extends OverloadedOperationsTypesProvider {
-    public CustomOverloadedOperationsTypesProvider_p(String conceptFQ) {
+    public CustomOverloadedOperationsTypesProvider_p(SAbstractConcept concept) {
       this.myLeftOperandType = _quotation_createNode_3ist9o_a0a0a61();
       this.myRightOperandType = _quotation_createNode_3ist9o_a0b0a61();
-      this.myOperationConceptFQName = conceptFQ;
+      this.myOperationConcept = concept;
       this.myLeftTypeIsExact = true;
       this.myRightTypeIsExact = true;
       this.myRightIsStrong = false;
@@ -824,10 +825,10 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
     }
   }
   public static class CustomOverloadedOperationsTypesProvider_n extends OverloadedOperationsTypesProvider {
-    public CustomOverloadedOperationsTypesProvider_n(String conceptFQ) {
+    public CustomOverloadedOperationsTypesProvider_n(SAbstractConcept concept) {
       this.myLeftOperandType = _quotation_createNode_3ist9o_a0a0a71();
       this.myRightOperandType = _quotation_createNode_3ist9o_a0b0a71();
-      this.myOperationConceptFQName = conceptFQ;
+      this.myOperationConcept = concept;
       this.myLeftTypeIsExact = true;
       this.myRightTypeIsExact = true;
       this.myRightIsStrong = false;
@@ -862,10 +863,10 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
     }
   }
   public static class CustomOverloadedOperationsTypesProvider_g extends OverloadedOperationsTypesProvider {
-    public CustomOverloadedOperationsTypesProvider_g(String conceptFQ) {
+    public CustomOverloadedOperationsTypesProvider_g(SAbstractConcept concept) {
       this.myLeftOperandType = _quotation_createNode_3ist9o_a0a0a81();
       this.myRightOperandType = _quotation_createNode_3ist9o_a0b0a81();
-      this.myOperationConceptFQName = conceptFQ;
+      this.myOperationConcept = concept;
       this.myLeftTypeIsExact = true;
       this.myRightTypeIsExact = true;
       this.myRightIsStrong = false;
@@ -900,10 +901,10 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
     }
   }
   public static class CustomOverloadedOperationsTypesProvider_b extends OverloadedOperationsTypesProvider {
-    public CustomOverloadedOperationsTypesProvider_b(String conceptFQ) {
+    public CustomOverloadedOperationsTypesProvider_b(SAbstractConcept concept) {
       this.myLeftOperandType = _quotation_createNode_3ist9o_a0a0a91();
       this.myRightOperandType = _quotation_createNode_3ist9o_a0b0a91();
-      this.myOperationConceptFQName = conceptFQ;
+      this.myOperationConcept = concept;
       this.myLeftTypeIsExact = true;
       this.myRightTypeIsExact = true;
       this.myRightIsStrong = false;

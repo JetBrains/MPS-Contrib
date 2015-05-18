@@ -13,7 +13,7 @@
   <concept fqn="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
   <root>
     <file name="ConstraintsAspectDescriptor.java">
-      <unit at="10,0,115,0" name="jetbrains.mps.baseLanguage.dates.constraints.ConstraintsAspectDescriptor" />
+      <unit at="9,0,71,0" name="jetbrains.mps.baseLanguage.dates.constraints.ConstraintsAspectDescriptor" />
     </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903cf(jetbrains.mps.baseLanguage.dates.constraints)/1173960152516">
@@ -47,74 +47,68 @@
   <root nodeRef="r:00000000-0000-4000-0000-011c895903cf(jetbrains.mps.baseLanguage.dates.constraints)/1173977205622">
     <file name="DateFormatReferenceUtil.java">
       <node id="1173977390292" at="21,76,22,111" concept="5" />
-      <node id="1173978362222" at="22,111,23,199" concept="5" />
-      <node id="1173977473302" at="23,199,24,80" concept="5" />
-      <node id="1227876796303" at="26,39,27,286" concept="6" />
-      <node id="1173977750575" at="29,24,30,42" concept="6" />
-      <node id="34521615669576987" at="32,78,33,111" concept="5" />
-      <node id="34521615669577000" at="33,111,34,204" concept="5" />
-      <node id="34521615669577005" at="34,204,35,80" concept="5" />
-      <node id="5581663871700088650" at="35,80,36,237" concept="5" />
-      <node id="34521615669577027" at="38,39,39,320" concept="6" />
-      <node id="34521615669577042" at="41,24,42,42" concept="6" />
-      <node id="5581663871699705105" at="44,73,45,111" concept="5" />
-      <node id="5581663871699705113" at="45,111,46,195" concept="5" />
-      <node id="5581663871699705117" at="46,195,47,80" concept="5" />
-      <node id="5581663871699705137" at="49,39,50,191" concept="6" />
-      <node id="5581663871699705152" at="52,24,53,42" concept="6" />
+      <node id="1173977473302" at="22,111,23,240" concept="5" />
+      <node id="1227876796303" at="25,39,26,286" concept="6" />
+      <node id="1173977750575" at="28,24,29,42" concept="6" />
+      <node id="34521615669576987" at="31,78,32,111" concept="5" />
+      <node id="34521615669577005" at="32,111,33,245" concept="5" />
+      <node id="5581663871700088650" at="33,245,34,237" concept="5" />
+      <node id="34521615669577027" at="36,39,37,320" concept="6" />
+      <node id="34521615669577042" at="39,24,40,42" concept="6" />
+      <node id="5581663871699705105" at="42,73,43,111" concept="5" />
+      <node id="5581663871699705117" at="43,111,44,236" concept="5" />
+      <node id="5581663871699705137" at="46,39,47,191" concept="6" />
+      <node id="5581663871699705152" at="49,24,50,42" concept="6" />
       <node id="5889278117585339756" at="19,0,21,0" concept="1" trace="DateFormatReferenceUtil#()V" />
-      <node id="1227876796299" at="26,0,29,0" concept="4" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-      <node id="34521615669577023" at="38,0,41,0" concept="4" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-      <node id="5581663871699705133" at="49,0,52,0" concept="4" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-      <node id="1173977965216" at="24,80,29,24" concept="2" />
-      <node id="34521615669577016" at="36,237,41,24" concept="2" />
-      <node id="5581663871699705126" at="47,80,52,24" concept="2" />
-      <node id="1173977222265" at="21,0,32,0" concept="9" trace="buildIDateFormatSearchScope#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/smodel/search/ISearchScope;" />
-      <node id="5581663871699705091" at="44,0,55,0" concept="9" trace="buildPeriodPropertySearchScope#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/smodel/search/ISearchScope;" />
-      <node id="34521615669576977" at="32,0,44,0" concept="9" trace="buildIPeriodFormatSearchScope#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/smodel/search/ISearchScope;" />
+      <node id="1227876796299" at="25,0,28,0" concept="4" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="34521615669577023" at="36,0,39,0" concept="4" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="5581663871699705133" at="46,0,49,0" concept="4" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="1173977965216" at="23,240,28,24" concept="2" />
+      <node id="34521615669577016" at="34,237,39,24" concept="2" />
+      <node id="5581663871699705126" at="44,236,49,24" concept="2" />
+      <node id="1173977222265" at="21,0,31,0" concept="9" trace="buildIDateFormatSearchScope#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/smodel/search/ISearchScope;" />
+      <node id="5581663871699705091" at="42,0,52,0" concept="9" trace="buildPeriodPropertySearchScope#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/smodel/search/ISearchScope;" />
+      <node id="34521615669576977" at="31,0,42,0" concept="9" trace="buildIPeriodFormatSearchScope#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/smodel/search/ISearchScope;" />
       <scope id="5889278117585339758" at="19,36,19,36" />
-      <scope id="1227876796302" at="26,39,27,286" />
-      <scope id="34521615669577026" at="38,39,39,320" />
-      <scope id="5581663871699705136" at="49,39,50,191" />
+      <scope id="1227876796302" at="25,39,26,286" />
+      <scope id="34521615669577026" at="36,39,37,320" />
+      <scope id="5581663871699705136" at="46,39,47,191" />
       <scope id="5889278117585339756" at="19,0,21,0" />
-      <scope id="1227876796299" at="26,0,29,0">
+      <scope id="1227876796299" at="25,0,28,0">
         <var name="it" id="1227876796299" />
       </scope>
-      <scope id="34521615669577023" at="38,0,41,0">
+      <scope id="34521615669577023" at="36,0,39,0">
         <var name="it" id="34521615669577023" />
       </scope>
-      <scope id="5581663871699705133" at="49,0,52,0">
+      <scope id="5581663871699705133" at="46,0,49,0">
         <var name="it" id="5581663871699705133" />
       </scope>
-      <scope id="1173977222267" at="21,76,30,42">
-        <var name="cd" id="1173978362223" />
+      <scope id="1173977222267" at="21,76,29,42">
         <var name="formats" id="1173977473303" />
         <var name="s" id="1173977390293" />
       </scope>
-      <scope id="5581663871699705094" at="44,73,53,42">
-        <var name="cd" id="5581663871699705114" />
+      <scope id="5581663871699705094" at="42,73,50,42">
         <var name="formats" id="5581663871699705118" />
         <var name="s" id="5581663871699705106" />
       </scope>
-      <scope id="34521615669576980" at="32,78,42,42">
-        <var name="cd" id="34521615669577001" />
+      <scope id="34521615669576980" at="31,78,40,42">
         <var name="containingFormat" id="5581663871700088651" />
         <var name="formats" id="34521615669577006" />
         <var name="s" id="34521615669576988" />
       </scope>
-      <scope id="1173977222265" at="21,0,32,0">
+      <scope id="1173977222265" at="21,0,31,0">
         <var name="node" id="1173977280010" />
       </scope>
-      <scope id="5581663871699705091" at="44,0,55,0">
+      <scope id="5581663871699705091" at="42,0,52,0">
         <var name="node" id="5581663871699705096" />
       </scope>
-      <scope id="34521615669576977" at="32,0,44,0">
+      <scope id="34521615669576977" at="31,0,42,0">
         <var name="node" id="34521615669576982" />
       </scope>
-      <unit id="1227876796299" at="25,55,29,5" name="jetbrains.mps.baseLanguage.dates.constraints.DateFormatReferenceUtil$1" />
-      <unit id="34521615669577023" at="37,55,41,5" name="jetbrains.mps.baseLanguage.dates.constraints.DateFormatReferenceUtil$2" />
-      <unit id="5581663871699705133" at="48,55,52,5" name="jetbrains.mps.baseLanguage.dates.constraints.DateFormatReferenceUtil$3" />
-      <unit id="1173977205622" at="18,0,56,0" name="jetbrains.mps.baseLanguage.dates.constraints.DateFormatReferenceUtil" />
+      <unit id="1227876796299" at="24,55,28,5" name="jetbrains.mps.baseLanguage.dates.constraints.DateFormatReferenceUtil$1" />
+      <unit id="34521615669577023" at="35,55,39,5" name="jetbrains.mps.baseLanguage.dates.constraints.DateFormatReferenceUtil$2" />
+      <unit id="5581663871699705133" at="45,55,49,5" name="jetbrains.mps.baseLanguage.dates.constraints.DateFormatReferenceUtil$3" />
+      <unit id="1173977205622" at="18,0,53,0" name="jetbrains.mps.baseLanguage.dates.constraints.DateFormatReferenceUtil" />
     </file>
   </root>
   <root nodeRef="r:00000000-0000-4000-0000-011c895903cf(jetbrains.mps.baseLanguage.dates.constraints)/1213104837351">
@@ -385,7 +379,7 @@
       <node id="1213107435845" at="33,0,34,18" concept="6" />
       <node id="1213107435848" at="36,148,37,24" concept="5" />
       <node id="1213107435854" at="38,194,39,383" concept="5" />
-      <node id="1213107435863" at="39,383,40,375" concept="2" />
+      <node id="1213107435863" at="39,383,40,546" concept="2" />
       <node id="1213107435875" at="41,5,42,15" concept="6" />
       <node id="1213107435845" at="44,0,45,0" concept="8" trace="canBeChildBreakingPoint" />
       <node id="1213107435845" at="19,0,22,0" concept="1" trace="DateTimeOperation_Constraints#()V" />
@@ -397,7 +391,7 @@
       <scope id="1213107435845" at="19,42,20,93" />
       <scope id="1213107435845" at="23,43,24,16" />
       <scope id="1213107435845" at="30,51,31,67" />
-      <scope id="1213107435853" at="38,194,40,375">
+      <scope id="1213107435853" at="38,194,40,546">
         <var name="type" id="1213107435855" />
       </scope>
       <scope id="1213107435845" at="19,0,22,0" />
@@ -660,7 +654,7 @@
       <node id="3627207017677002509" at="33,0,34,18" concept="6" />
       <node id="3627207017677002545" at="36,148,37,24" concept="5" />
       <node id="3627207017677002515" at="38,194,39,383" concept="5" />
-      <node id="3627207017677002524" at="39,383,40,187" concept="2" />
+      <node id="3627207017677002524" at="39,383,40,270" concept="2" />
       <node id="3627207017677002552" at="41,5,42,15" concept="6" />
       <node id="3627207017677002509" at="44,0,45,0" concept="8" trace="canBeChildBreakingPoint" />
       <node id="3627207017677002509" at="19,0,22,0" concept="1" trace="ConvertToDurationOperation_Constraints#()V" />
@@ -672,7 +666,7 @@
       <scope id="3627207017677002509" at="19,51,20,98" />
       <scope id="3627207017677002509" at="23,43,24,16" />
       <scope id="3627207017677002509" at="30,51,31,67" />
-      <scope id="3627207017677002514" at="38,194,40,187">
+      <scope id="3627207017677002514" at="38,194,40,270">
         <var name="type" id="3627207017677002516" />
       </scope>
       <scope id="3627207017677002509" at="19,0,22,0" />
@@ -818,7 +812,7 @@
       <node id="5293902215866130859" at="33,0,34,18" concept="6" />
       <node id="5293902215866130862" at="36,148,37,24" concept="5" />
       <node id="5293902215866130868" at="38,194,39,383" concept="5" />
-      <node id="5293902215866130877" at="39,383,40,193" concept="2" />
+      <node id="5293902215866130877" at="39,383,40,276" concept="2" />
       <node id="5293902215866130895" at="41,5,42,15" concept="6" />
       <node id="5293902215866130859" at="44,0,45,0" concept="8" trace="canBeChildBreakingPoint" />
       <node id="5293902215866130859" at="19,0,22,0" concept="1" trace="TimeZoneIdOperation_Constraints#()V" />
@@ -830,7 +824,7 @@
       <scope id="5293902215866130859" at="19,44,20,98" />
       <scope id="5293902215866130859" at="23,43,24,16" />
       <scope id="5293902215866130859" at="30,51,31,67" />
-      <scope id="5293902215866130867" at="38,194,40,193">
+      <scope id="5293902215866130867" at="38,194,40,276">
         <var name="type" id="5293902215866130869" />
       </scope>
       <scope id="5293902215866130859" at="19,0,22,0" />
@@ -876,7 +870,7 @@
       <node id="5293902215866131465" at="55,7,56,22" concept="6" />
       <node id="5293902215866131468" at="58,148,59,24" concept="5" />
       <node id="5293902215866131474" at="60,194,61,383" concept="5" />
-      <node id="5293902215866131483" at="61,383,62,193" concept="2" />
+      <node id="5293902215866131483" at="61,383,62,276" concept="2" />
       <node id="5293902215866131495" at="63,5,64,15" concept="6" />
       <node id="5293902215866131465" at="66,0,67,0" concept="8" trace="canBeChildBreakingPoint" />
       <node id="5293902215866131465" at="25,0,28,0" concept="1" trace="TimeZoneNameOperation_Constraints#()V" />
@@ -897,7 +891,7 @@
       <scope id="5293902215866131465" at="51,70,53,148">
         <var name="propertyName" id="5293902215866131465" />
       </scope>
-      <scope id="5293902215866131473" at="60,194,62,193">
+      <scope id="5293902215866131473" at="60,194,62,276">
         <var name="type" id="5293902215866131475" />
       </scope>
       <scope id="5293902215866131465" at="25,0,28,0" />

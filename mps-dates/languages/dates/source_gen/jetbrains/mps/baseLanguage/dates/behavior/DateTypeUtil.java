@@ -110,7 +110,7 @@ public class DateTypeUtil {
   }
   public static SNode getContainingPeriod(SNode expr) {
     SNode current = expr;
-    while ((current != null) && TypeChecker.getInstance().getRuntimeSupport().coerce_(TypeChecker.getInstance().getTypeOf(current), HUtil.createMatchingPatternByConceptFQName("jetbrains.mps.baseLanguage.dates.structure.PeriodType"), false) == null) {
+    while ((current != null) && TypeChecker.getInstance().getRuntimeSupport().coerce_(TypeChecker.getInstance().getTypeOf(current), HUtil.createMatchingPatternByConcept(MetaAdapterFactory.getConcept(0xcccc689cf3654862L, 0xa8b634ecddf8ee26L, 0x110fdb6e9e7L, "jetbrains.mps.baseLanguage.dates.structure.PeriodType")), false) == null) {
       current = (SNodeOperations.isInstanceOf(SNodeOperations.getParent(current), MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL, "jetbrains.mps.baseLanguage.structure.Expression")) ? SNodeOperations.cast(SNodeOperations.getParent(current), MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL, "jetbrains.mps.baseLanguage.structure.Expression")) : null);
     }
     return current;
